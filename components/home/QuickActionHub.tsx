@@ -1,114 +1,92 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
-import { Home, TrendingUp, Calculator, RefreshCw, FolderOpen, CreditCard } from 'lucide-react';
+import { User, Calendar, FileText, FileCheck, Lock, CreditCard, Mail, Globe, Shield } from 'lucide-react';
 
 export default function QuickActionHub() {
   const actions = [
     {
-      icon: Home,
-      title: 'First-Time Buyer Portal',
-      description: 'Start your homeownership journey',
-      href: '/guides/orange-county-home-buyer-guide',
-      category: 'Purchase Path',
-      color: 'blue'
+      icon: User,
+      title: 'Add My Contact',
+      href: '/api/contact-card',
     },
     {
-      icon: TrendingUp,
-      title: 'Investment Property Analyzer',
-      description: 'Evaluate rental & investment opportunities',
-      href: '/guides/orange-county-investment-property',
-      category: 'Purchase Path',
-      color: 'blue'
+      icon: Calendar,
+      title: 'Schedule An Appointment',
+      href: 'https://calendly.com/mabdel-wclloans/30min',
+      external: true,
     },
     {
-      icon: Calculator,
-      title: 'HELOC Calculator',
-      description: 'Access your home equity strategically',
+      icon: FileText,
+      title: 'Apply Now',
+      href: 'https://plus.floify.com/apply/wclloans',
+      external: true,
+    },
+    {
+      icon: FileCheck,
+      title: 'Digital HELOC Application',
       href: 'https://heloc.westcapitallending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b',
-      category: 'Refinance Path',
-      color: 'green',
-      external: true
+      external: true,
     },
     {
-      icon: RefreshCw,
-      title: 'Refinance Opportunity Alert',
-      description: 'Get notified when refinancing makes sense',
-      href: '/contact',
-      category: 'Refinance Path',
-      color: 'green'
-    },
-    {
-      icon: FolderOpen,
-      title: 'Secure Document Portal',
-      description: 'Upload documents safely',
+      icon: Lock,
+      title: 'Upload Documents Securely',
       href: 'https://documentguardian.com/filedrop/mabdel@westcapitallending.com',
-      category: 'Client Tools',
-      color: 'purple',
-      external: true
+      external: true,
     },
     {
       icon: CreditCard,
-      title: 'Credit Optimization Tool',
-      description: 'Improve your approval odds',
-      href: '/resources/credit-repair',
-      category: 'Client Tools',
-      color: 'purple'
-    }
+      title: 'Order Credit Report',
+      href: 'https://www.smartpay.propertiespluscredit.com/consumer/6e62e88e-3fd4-4c0c-8ff8-d2b9e36f51f6',
+      external: true,
+    },
+    {
+      icon: Mail,
+      title: 'Email Me',
+      href: 'mailto:mabdel@wclloans.com',
+    },
+    {
+      icon: Globe,
+      title: 'WestCapitalLending.com',
+      href: 'https://westcapitallending.com/mo-abdel',
+      external: true,
+    },
+    {
+      icon: Shield,
+      title: 'NMLSConsumerAccess.org',
+      href: 'https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1566096',
+      external: true,
+    },
   ];
 
-  const getColorClasses = (color: string) => {
-    const colors = {
-      blue: 'bg-blue-50 border-blue-200 hover:border-blue-400 text-blue-700',
-      green: 'bg-green-50 border-green-200 hover:border-green-400 text-green-700',
-      purple: 'bg-purple-50 border-purple-200 hover:border-purple-400 text-purple-700'
-    };
-    return colors[color as keyof typeof colors] || colors.blue;
-  };
-
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-slate-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Quick Action Hub
+    <section className="py-16 bg-slate-900">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+            Quick Actions
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Strategic tools and resources to accelerate your mortgage journey
+          <p className="text-slate-400">
+            Tools and resources at your fingertips
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {actions.map((action, index) => {
             const Icon = action.icon;
-            const Component = action.external ? 'a' : Link;
-            const linkProps = action.external
-              ? { href: action.href, target: '_blank', rel: 'noopener noreferrer' }
-              : { href: action.href };
+            const isExternal = action.external;
 
             return (
-              <Component
+              <a
                 key={index}
-                {...linkProps}
-                className={`group p-6 rounded-xl border-2 transition-all duration-300 hover:shadow-lg ${getColorClasses(action.color)}`}
+                href={action.href}
+                target={isExternal ? '_blank' : undefined}
+                rel={isExternal ? 'noopener noreferrer' : undefined}
+                className="flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-900 px-5 py-4 rounded-lg transition-all duration-200 hover:shadow-md"
               >
-                <div className="flex flex-col h-full">
-                  <div className="flex items-start justify-between mb-4">
-                    <Icon className="w-8 h-8 flex-shrink-0" />
-                    <span className="text-xs font-semibold uppercase tracking-wide opacity-70">
-                      {action.category}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-slate-900">
-                    {action.title}
-                  </h3>
-                  <p className="text-sm text-slate-600">
-                    {action.description}
-                  </p>
-                  <div className="mt-4 pt-4 border-t border-current opacity-20 group-hover:opacity-40 transition-opacity" />
-                </div>
-              </Component>
+                <Icon className="w-5 h-5 text-slate-600 flex-shrink-0" />
+                <span className="font-medium text-sm">{action.title}</span>
+              </a>
             );
           })}
         </div>
@@ -116,3 +94,4 @@ export default function QuickActionHub() {
     </section>
   );
 }
+
