@@ -23,7 +23,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Ready to start your mortgage journey? I'm here to help every step of the way. 
+            Ready to start your mortgage journey? I'm here to help every step of the way.
             Reach out today for your free consultation and loan quote.
           </p>
         </div>
@@ -32,7 +32,7 @@ export default function ContactPage() {
           {/* Contact Information */}
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-8">Contact Information</h2>
-            
+
             <div className="space-y-6 mb-8">
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
@@ -40,35 +40,35 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Phone</h3>
-                  <a href="tel:(949) 579-2057" className="text-blue-600 hover:text-blue-700 text-lg">
-                    (949) 579-2057
+                  <a href="tel:(949) 537-2357" className="text-blue-600 hover:text-blue-700 text-lg">
+                    (949) 537-2357
                   </a>
                   <p className="text-sm text-slate-600">Call or text anytime</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <Mail className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Email Contact</h3>
-                  <p className="text-blue-600">Use the form to the right →</p>
+                  <a href="mailto:mabdel@wclloans.com" className="text-blue-600 hover:text-blue-700">mabdel@wclloans.com</a>
                   <p className="text-sm text-slate-600">I respond within 1 business day</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <MapPin className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-slate-900">Service Area</h3>
-                  <p className="text-slate-700">Orange County, California</p>
-                  <p className="text-sm text-slate-600">All cities and communities</p>
+                  <h3 className="font-semibold text-slate-900">Office Location</h3>
+                  <p className="text-slate-700">24 Executive Park Suite 250<br />Irvine, CA 92614</p>
+                  <p className="text-sm text-slate-600">By appointment</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <Clock className="w-6 h-6 text-blue-600" />
@@ -79,25 +79,8 @@ export default function ContactPage() {
                   <p className="text-sm text-slate-600">I'm here when you need me</p>
                 </div>
               </div>
-              
-              {/* Social Media Links */}
-              <div className="flex items-start space-x-4">
-                <div className="bg-blue-100 p-3 rounded-lg">
-                  <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-slate-900">Connect on Social Media</h3>
-                  <div className="flex space-x-4 mt-2">
-                    <a href="https://www.facebook.com/profile.php?id=61573517340174" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 text-sm">Facebook</a>
-                    <a href="https://www.yelp.com/biz/mo-abdel-nexa-mortgage-lake-forest" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 text-sm">Yelp Reviews</a>
-                    <a href="https://share.google/wFT7ePRJSrCjZ6KAg" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 text-sm">Google Business</a>
-                    <a href="https://www.instagram.com/mo_thebroker" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 text-sm">Instagram</a>
-                  </div>
-                  <p className="text-sm text-slate-600">Follow for market updates and tips</p>
-                </div>
-              </div>
+
+
             </div>
 
             <div className="bg-blue-50 rounded-lg p-6">

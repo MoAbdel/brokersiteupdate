@@ -326,6 +326,12 @@ export const navigationItems: NavigationItem[] = [
     icon: User,
   },
   {
+    title: 'Contact',
+    page: 'Contact',
+    url: '/contact',
+    icon: Phone,
+  },
+  {
     title: 'Blog',
     page: 'Blog',
     url: '/guides',
