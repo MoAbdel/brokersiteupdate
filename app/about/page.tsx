@@ -35,7 +35,7 @@ export default function AboutPage() {
                 Mortgage Broker | NMLS #1426884
               </p>
               <p className="text-lg text-slate-400 mb-8">
-                Born & Raised in Orange County
+                Company NMLS #1566096 | CA DRE #02022356
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact">
