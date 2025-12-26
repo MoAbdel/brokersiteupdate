@@ -27,7 +27,7 @@ const googleReviewsSchema = {
         "bestRating": "5"
       },
       "datePublished": "2024-11-15",
-      "reviewBody": "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
+      "reviewBody": "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your pricing, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
       "publisher": {
         "@type": "Organization",
         "name": "Google"
@@ -71,7 +71,7 @@ const reviews: Review[] = [
     author: "Karthikeyan R.",
     rating: 5,
     date: "2024-11-15",
-    text: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
+    text: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your pricing, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
     platform: "google",
     verified: true,
     location: ""

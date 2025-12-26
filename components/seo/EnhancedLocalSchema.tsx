@@ -41,7 +41,7 @@ export default function EnhancedLocalSchema({
     "@context": "https://schema.org",
     "@type": ["MortgageLoan", "FinancialProduct", "Service"],
     "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker Services`,
-    "description": `Professional mortgage broker services in ${city ? city + ', ' : ''}Orange County. Access to 200+ lenders for competitive rates on home loans, refinancing, FHA, VA, and jumbo loans.`,
+    "description": `Professional mortgage broker services in ${city ? city + ', ' : ''}Orange County. Access to 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
     "provider": {
       "@type": ["Person", "FinancialService"],
       "name": "Mo Abdel",
@@ -154,7 +154,7 @@ export default function EnhancedLocalSchema({
       "Su 10:00-16:00"
     ],
     "priceRange": "$$",
-    "description": `Licensed mortgage broker serving ${city ? city + ' and ' : ''}Orange County, CA. Access to 200+ lenders for competitive mortgage rates, fast closings, and personalized service. NMLS #1426884.`,
+    "description": `Licensed mortgage broker serving ${city ? city + ' and ' : ''}Orange County, CA. Access to 200+ lenders for competitive mortgage pricing, fast closings, and personalized service. NMLS #1426884.`,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Mortgage Loan Programs",
@@ -180,7 +180,7 @@ export default function EnhancedLocalSchema({
           "itemOffered": {
             "@type": "LoanOrCredit", 
             "name": "Conventional Loans",
-            "description": "Traditional home financing with competitive rates"
+            "description": "Traditional home financing with Competitive pricing"
           }
         }
       ]
@@ -207,7 +207,7 @@ export default function EnhancedLocalSchema({
     "makesOffer": {
       "@type": "Offer",
       "name": "Free Mortgage Consultation",
-      "description": "Complimentary mortgage consultation and rate comparison",
+      "description": "Complimentary mortgage consultation and Loan Comparison",
       "price": "0",
       "priceCurrency": "USD"
     }

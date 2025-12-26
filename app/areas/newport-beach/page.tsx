@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function Page() {
   const faqs = [
-    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 200+ wholesale lenders to secure competitive rates for high-value properties.' },
+    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 200+ wholesale lenders to secure Competitive pricing for high-value properties.' },
     { q: 'What about unique Newport Beach properties like waterfront homes?', a: 'We specialize in unique Newport Beach properties including waterfront, luxury condos, and custom homes. Our lenders understand these specialized property types.' },
     { q: 'How do HELOCs work for Newport Beach homes?', a: 'Given the significant equity in most Newport Beach properties, HELOCs are very popular. We can often secure higher credit lines due to strong property values and help structure optimal terms.' },
     { q: 'What\'s the timeline for Newport Beach luxury home loans?', a: 'Luxury properties often require more detailed appraisals and documentation. Typical timelines are 3-4 weeks, though complex properties or unique situations may take longer.' },
@@ -93,7 +93,7 @@ export default function Page() {
       heading: 'Newport Beach financing solutions',
       body: (
         <ul className="space-y-2">
-          <li><strong>Jumbo loans:</strong> Essential for most Newport Beach purchases, with competitive rates through wholesale relationships and flexible terms for unique properties.</li>
+          <li><strong>Jumbo loans:</strong> Essential for most Newport Beach purchases, with Competitive pricing through wholesale relationships and flexible terms for unique properties.</li>
           <li><strong>Super jumbo financing:</strong> For the highest-value properties exceeding standard jumbo limits, requiring specialized lenders and programs.</li>
           <li><strong>Portfolio loans:</strong> Bank portfolio products for unique properties or situations that don't fit conventional guidelines.</li>
           <li><strong>HELOCs and home equity loans:</strong> Popular for accessing significant equity in appreciated Newport Beach properties for investments or improvements.</li>

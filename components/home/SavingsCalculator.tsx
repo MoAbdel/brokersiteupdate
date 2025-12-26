@@ -38,7 +38,7 @@ export default function SavingsCalculator() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">Calculate Your Savings</h2>
           <p className="text-xl text-slate-600">
-            See how much you could save with our wholesale mortgage rates
+            See how much you could save with our wholesale mortgage pricing
           </p>
         </div>
 
@@ -110,11 +110,11 @@ export default function SavingsCalculator() {
             </div>
           </div>
 
-          {/* Right - Rate Comparison */}
+          {/* Right - Loan Comparison */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center mb-6">
               <TrendingDown className="w-6 h-6 text-green-600 mr-2" />
-              <h3 className="text-2xl font-bold text-slate-900">Rate Comparison</h3>
+              <h3 className="text-2xl font-bold text-slate-900">Loan Comparison</h3>
             </div>
 
             <div className="space-y-6">

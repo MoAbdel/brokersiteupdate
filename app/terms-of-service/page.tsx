@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 mb-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Information Accuracy</h3>
               <p className="text-gray-700">
-                While we strive to provide accurate and up-to-date information, interest rates, loan terms, and program 
+                While we strive to provide accurate and up-to-date information, loan pricing, loan terms, and program 
                 availability are subject to change without notice. All information must be verified prior to loan approval.
               </p>
             </div>

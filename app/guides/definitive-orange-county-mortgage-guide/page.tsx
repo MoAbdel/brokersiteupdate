@@ -18,11 +18,11 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
   const loanPrograms = [
     {
       name: "Conventional Loans",
-      description: "Traditional mortgages with competitive rates",
+      description: "Traditional mortgages with Competitive pricing",
       downPayment: "3-20%",
       creditScore: "620+",
       maxAmount: "$1,089,300 (conforming)",
-      benefits: ["Lower rates for good credit", "No mortgage insurance with 20% down", "Flexible terms"],
+      benefits: ["Lower pricing for good credit", "No mortgage insurance with 20% down", "Flexible terms"],
       icon: Home
     },
     {
@@ -40,7 +40,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       downPayment: "0%",
       creditScore: "No minimum",
       maxAmount: "No limit",
-      benefits: ["No down payment", "No PMI required", "Competitive rates"],
+      benefits: ["No down payment", "No PMI required", "Competitive pricing"],
       icon: Shield
     },
     {
@@ -98,7 +98,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       factor: "Credit Score",
       description: "Primary factor in rate and program eligibility",
       ranges: [
-        { score: "740+", rate: "Best rates available", programs: "All programs" },
+        { score: "740+", rate: "Best pricing available", programs: "All programs" },
         { score: "680-739", rate: "Good rates", programs: "Most programs" },
         { score: "620-679", rate: "Standard rates", programs: "Conventional, FHA" },
         { score: "580-619", rate: "Higher rates", programs: "FHA, VA" }
@@ -410,7 +410,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
           <h2 className="text-3xl font-bold mb-6">Get Expert Orange County Mortgage Guidance</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
             Licensed mortgage broker Mo Abdel (NMLS #1426884) provides comprehensive guidance for all Orange County mortgage needs.
-            Access to 200+ wholesale lenders ensures competitive rates and program options.
+            Access to 200+ wholesale lenders ensures Competitive pricing and program options.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -456,12 +456,12 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
               <strong>Licensed Mortgage Broker:</strong> Mo Abdel, NMLS #1426884. Equal Housing Opportunity.
             </p>
             <p>
-              All mortgage information is for educational purposes. Actual rates and terms subject to credit approval and program availability.
+              All mortgage information is for educational purposes. Actual pricing and terms subject to credit approval and program availability.
               Market data and home prices are estimates and subject to change.
             </p>
             <p>
               This guide is updated regularly but mortgage programs and market conditions change frequently.
-              Contact for current rates, terms, and program availability.
+              Contact for Current pricing, terms, and program availability.
             </p>
           </div>
         </div>

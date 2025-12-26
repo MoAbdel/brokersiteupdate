@@ -11,7 +11,7 @@ const navigationItems = [
   { title: 'Guides & Education', url: '/guides' },
   { title: 'Resources & Tools', url: '/resources' },
   { title: 'Neighborhood Guide', url: '/neighborhood-guide' },
-  { title: 'Rate Calculator', url: createPageUrl('Calculator') },
+  { title: 'Payment Calculator', url: createPageUrl('Calculator') },
   { title: 'Contact', url: createPageUrl('Contact') },
 ];
 
@@ -208,7 +208,7 @@ export default function Footer() {
                 <div className="bg-slate-800 p-4 rounded-lg w-full">
                   <p className="text-slate-300 text-xs mb-2">
                     <strong>Important:</strong> This is not a commitment to lend. Loans subject to credit and property approval.
-                    Programs, rates, terms and conditions subject to change without notice. Other restrictions apply.
+                    Programs, terms and conditions subject to change without notice. Other restrictions apply.
                   </p>
                   <p className="text-slate-400 text-xs mb-2">
                     This material is not from HUD or FHA and has not been approved by HUD or any government agency.

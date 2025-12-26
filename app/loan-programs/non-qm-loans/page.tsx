@@ -29,7 +29,7 @@ export default function NonQMLoansPage() {
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Specialized mortgage programs for self-employed borrowers, investors, and unique 
             income situations that don't fit traditional lending guidelines. Flexible 
-            documentation with competitive rates for qualified Orange County borrowers.
+            documentation with Competitive pricing for qualified Orange County borrowers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -361,14 +361,14 @@ export default function NonQMLoansPage() {
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 620+ (varies by program)</p>
-                    <p className="text-slate-600 text-sm">Higher scores unlock better rates and terms</p>
+                    <p className="text-slate-600 text-sm">Higher scores unlock Better pricing and terms</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Down Payment: 10-30% (varies by program)</p>
-                    <p className="text-slate-600 text-sm">Higher down payments often mean better rates</p>
+                    <p className="text-slate-600 text-sm">Higher down payments often mean Better pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -401,7 +401,7 @@ export default function NonQMLoansPage() {
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Higher Interest Rates</p>
+                    <p className="font-semibold text-slate-900">Higher Interest pricing</p>
                     <p className="text-slate-600 text-sm">Typically 0.5-2% higher than conforming loans</p>
                   </div>
                 </div>
@@ -462,7 +462,7 @@ export default function NonQMLoansPage() {
                   <td className="px-6 py-4 text-center text-slate-600">Up to 43-45%</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rates</td>
+                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest pricing</td>
                   <td className="px-6 py-4 text-center text-orange-600">0.5-2% Higher</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Lowest Available</td>
                 </tr>
@@ -606,7 +606,7 @@ export default function NonQMLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

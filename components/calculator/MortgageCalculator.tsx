@@ -360,7 +360,7 @@ export default function MortgageCalculator() {
           <Button 
             onClick={() => router.push('/contact')}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold">
-            Get My Personalized Rate Quote
+            Get My Personalized pricing Quote
           </Button>
         </div>
       </div>

@@ -32,14 +32,14 @@ export default function MortgageCalculatorPage() {
     keyFacts: [
       "Free mortgage payment calculator",
       "Includes property taxes and insurance",
-      "Orange County tax rates included",
+      "Orange County tax percentages included",
       "Compare multiple loan scenarios",
       "Instant payment calculations",
       "Professional mortgage broker guidance"
     ],
     statistics: [
       {
-        stat: "Orange County average property tax rate: 0.6%",
+        stat: "Orange County average property tax percentage: 0.6%",
         source: "Orange County Tax Assessor",
         year: "2025"
       },
@@ -87,7 +87,7 @@ export default function MortgageCalculatorPage() {
           },
           {
             name: 'Input Interest Rate',
-            text: 'Enter the mortgage interest rate quoted by your lender'
+            text: 'Enter the mortgage loan pricing quoted by your lender'
           },
           {
             name: 'Select Loan Term',
@@ -398,11 +398,11 @@ export default function MortgageCalculatorPage() {
                 <Card className="shadow-xl bg-blue-600 text-white">
                   <CardContent className="p-6 text-center">
                     <h3 className="text-2xl font-bold mb-4">Ready to Get Pre-Approved?</h3>
-                    <p className="mb-6">Get your actual rate quote from Mo Abdel, licensed mortgage broker NMLS #1426884</p>
+                    <p className="mb-6">Get your actual loan quote from Mo Abdel, licensed mortgage broker NMLS #1426884</p>
                     <div className="space-y-3">
                       <Button size="lg" variant="outline" className="w-full bg-white text-blue-600 hover:bg-gray-100">
                         <DollarSign className="w-5 h-5 mr-2" />
-                        Get Rate Quote
+                        Get Loan Quote
                       </Button>
                       <Button size="lg" variant="outline" className="w-full bg-white text-blue-600 hover:bg-gray-100">
                         Call (949) 579-2057

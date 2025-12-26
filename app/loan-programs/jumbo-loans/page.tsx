@@ -7,7 +7,7 @@ import { Crown, TrendingUp, Shield, CheckCircle, AlertCircle, DollarSign } from 
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County | $1,209,750+ Mortgages | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive rates on non-conforming mortgages. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
+  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
   },
@@ -58,8 +58,8 @@ export default function JumboLoansPage() {
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive Rates</h3>
-            <p className="text-slate-600">Often similar to conventional loan rates</p>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
+            <p className="text-slate-600">Often similar to conventional loan pricing</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -179,9 +179,9 @@ export default function JumboLoansPage() {
 
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">⚡ Competitive Interest Rates</h3>
-                <p className="text-slate-600 mb-3">Jumbo rates are often within 0.125-0.25% of conforming rates, sometimes even lower due to strong borrower profiles.</p>
-                <p className="text-sm font-semibold text-purple-600">Better rates than expected</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">⚡ Competitive Interest pricing</h3>
+                <p className="text-slate-600 mb-3">Jumbo pricing is often within 0.125-0.25% of conforming pricing, sometimes even lower due to strong borrower profiles.</p>
+                <p className="text-sm font-semibold text-purple-600">Better pricing than expected</p>
               </CardContent>
             </Card>
 
@@ -205,7 +205,7 @@ export default function JumboLoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Credit Score: 700+ (740+ for best rates)</p>
+                    <p className="font-semibold text-slate-900">Credit Score: 700+ (740+ for best pricing)</p>
                     <p className="text-slate-600 text-sm">Higher standards reflect loan size and risk</p>
                   </div>
                 </div>
@@ -213,7 +213,7 @@ export default function JumboLoansPage() {
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Down Payment: 10-20% minimum</p>
-                    <p className="text-slate-600 text-sm">20% for best rates and no PMI</p>
+                    <p className="text-slate-600 text-sm">20% for best pricing and no PMI</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -268,7 +268,7 @@ export default function JumboLoansPage() {
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Investment Property Rules</p>
-                    <p className="text-slate-600 text-sm">25-30% down, higher rates, 6+ months reserves</p>
+                    <p className="text-slate-600 text-sm">25-30% down, higher pricing, 6+ months reserves</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -307,7 +307,7 @@ export default function JumboLoansPage() {
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">3-20%</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rates</td>
+                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest pricing</td>
                   <td className="px-6 py-4 text-center text-purple-600 font-bold">Competitive</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Competitive</td>
                 </tr>
@@ -430,7 +430,7 @@ export default function JumboLoansPage() {
                   <div>• 700+ credit score</div>
                   <div>• Primary & second homes</div>
                   <div>• Full documentation</div>
-                  <div>• Best rates available</div>
+                  <div>• Best pricing available</div>
                 </div>
                 <p className="text-sm font-semibold text-blue-600 mt-3">Most popular option</p>
               </CardContent>
@@ -472,7 +472,7 @@ export default function JumboLoansPage() {
             Ready to Finance Your Orange County Luxury Home?
           </h2>
           <p className="text-xl mb-6 text-purple-100">
-            Get competitive jumbo loan rates with personalized service for your high-value property
+            Get competitive jumbo loan pricing with personalized service for your high-value property
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -504,7 +504,7 @@ export default function JumboLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

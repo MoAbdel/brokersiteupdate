@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'USDA Rural Loans Orange County | Zero Down Payment Home Loans | Rural Housing Program',
-  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, competitive rates, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 579-2057.',
+  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
   },
@@ -50,7 +50,7 @@ export default function USDARuggralLoansPage() {
               <h3 className="text-xl font-bold text-yellow-600 mb-4">Key Benefits</h3>
               <ul className="text-left space-y-2 text-slate-700">
                 <li>• 0% down payment required</li>
-                <li>• Competitive interest rates</li>
+                <li>• Competitive loan pricing</li>
                 <li>• No prepayment penalties</li>
                 <li>• Flexible credit guidelines</li>
                 <li>• Can finance closing costs</li>
@@ -129,7 +129,7 @@ export default function USDARuggralLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

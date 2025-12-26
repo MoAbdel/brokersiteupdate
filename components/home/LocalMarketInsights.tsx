@@ -92,7 +92,7 @@ export default function LocalMarketInsights() {
                 <div className="w-2 h-2 bg-green-600 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Refinancing Specialists</h4>
-                  <p className="text-slate-600 text-sm">Cash-out, rate & term, and streamline refinance programs with competitive rates</p>
+                  <p className="text-slate-600 text-sm">Cash-out, rate & term, and streamline refinance programs with Competitive pricing</p>
                 </div>
               </div>
               
@@ -108,7 +108,7 @@ export default function LocalMarketInsights() {
                 <div className="w-2 h-2 bg-green-600 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Jumbo Loan Specialists</h4>
-                  <p className="text-slate-600 text-sm">Competitive rates for loans above conventional limits</p>
+                  <p className="text-slate-600 text-sm">Competitive pricing for loans above conventional limits</p>
                 </div>
               </div>
             </CardContent>

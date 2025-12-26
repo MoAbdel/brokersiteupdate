@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92660 Newport Beach Mortgage Broker | ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92660 Newport Beach mortgage broker serving this luxury ZIP code area. Corona del Mar, Fashion Island area financing, competitive rates. Call (949) 579-2057.',
+  description: '92660 Newport Beach mortgage broker serving this luxury ZIP code area. Corona del Mar, Fashion Island area financing, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92660-newport-beach-mortgage-broker',
   },
@@ -136,7 +136,7 @@ export default function ZipCode92660MortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="92660 Newport Beach Mortgage Broker | ZIP Code Specialist | Mo Abdel NMLS #1426884"
-        description="92660 Newport Beach mortgage broker serving this luxury ZIP code area. Corona del Mar, Fashion Island area financing, competitive rates."
+        description="92660 Newport Beach mortgage broker serving this luxury ZIP code area. Corona del Mar, Fashion Island area financing, Competitive pricing."
         city="92660, Newport Beach"
         canonicalUrl="https://mothebroker.com/zip-codes/92660-newport-beach-mortgage-broker"
         content={zipCodeData}
@@ -352,7 +352,7 @@ export default function ZipCode92660MortgageBrokerPage() {
               Ready to Finance Your 92660 Luxury Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized luxury financing expertise for ZIP code 92660. Local knowledge, premium service, competitive rates for Newport Beach's finest properties.
+              Get specialized luxury financing expertise for ZIP code 92660. Local knowledge, premium service, Competitive pricing for Newport Beach's finest properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

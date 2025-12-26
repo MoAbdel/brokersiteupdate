@@ -33,7 +33,7 @@ export interface MarketInsightData {
   display_order: number;
 }
 
-// Fetch mortgage rates from multiple free sources
+// Fetch mortgage pricing from multiple free sources
 export async function fetchRealMortgageRates(): Promise<MortgageRateData[]> {
   const rates: MortgageRateData[] = [];
   const today = new Date().toISOString().split('T')[0];
@@ -281,7 +281,7 @@ async function fetchTreasuryRates() {
     console.error('Treasury API error:', error);
   }
   
-  // Fallback to approximate current rates
+  // Fallback to approximate Current pricing
   return { treasury10Year: 4.25 };
 }
 
@@ -311,7 +311,7 @@ export async function fetchRealMarketInsights(): Promise<MarketInsightData[]> {
       value: `${economicData.treasury10Year || '4.25'}%`,
       change: economicData.treasuryChange || '+0.05%',
       trend: economicData.treasuryTrend || 'stable',
-      description: 'Benchmark for mortgage rates',
+      description: 'Benchmark for mortgage pricing',
       display_order: 2
     });
 

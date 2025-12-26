@@ -5,7 +5,7 @@ import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'VA Loan Mortgage Broker Orange County | Veterans & Military',
-  description: 'Expert VA loan mortgage broker serving Orange County veterans and military families. 100% financing, no PMI, competitive rates. Honor your service with homeownership.',
+  description: 'Expert VA loan mortgage broker serving Orange County veterans and military families. 100% financing, no PMI, Competitive pricing. Honor your service with homeownership.',
   openGraph: {
     title: 'VA Loan Mortgage Broker Orange County | Veterans First',
     description: 'Dedicated VA loan expertise for Orange County veterans and military families. Zero down payment options and personalized service.',
@@ -101,7 +101,7 @@ export default function VALoanBrokerArticle() {
                       <li className="flex items-start gap-3">
                         <span className="bg-green-100 text-green-800 p-1 rounded-full text-sm">✓</span>
                         <div>
-                          <p className="font-semibold">Competitive Interest Rates</p>
+                          <p className="font-semibold">Competitive Interest pricing</p>
                           <p className="text-sm text-gray-600">Often 0.25% to 0.50% lower than conventional loans</p>
                         </div>
                       </li>
@@ -385,7 +385,7 @@ export default function VALoanBrokerArticle() {
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Competitive Advantage Strategy</h4>
                     <p className="text-gray-700 text-sm">
-                      VA loans offer unique advantages in competitive Orange County markets. Zero down payment frees up substantial cash for competitive offers, stronger earnest money deposits, or home improvements. Combined with no PMI and competitive rates, VA loans often provide better long-term value than conventional financing.
+                      VA loans offer unique advantages in competitive Orange County markets. Zero down payment frees up substantial cash for competitive offers, stronger earnest money deposits, or home improvements. Combined with no PMI and Competitive pricing, VA loans often provide better long-term value than conventional financing.
                     </p>
                   </div>
                 </div>
@@ -465,7 +465,7 @@ export default function VALoanBrokerArticle() {
                     <div className="bg-blue-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">IRRRL Benefits:</h4>
                       <ul className="text-sm text-gray-700 space-y-1">
-                        <li>• Reduced interest rate and monthly payment</li>
+                        <li>• Reduced loan pricing and monthly payment</li>
                         <li>• Minimal documentation required</li>
                         <li>• No income verification in most cases</li>
                         <li>• No appraisal typically required</li>

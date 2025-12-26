@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Woodbridge Irvine Mortgage Broker | Lake Community Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, competitive rates. Call (949) 579-2057.',
+  description: 'Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/woodbridge-mortgage-broker',
   },
@@ -121,7 +121,7 @@ export default function WoodbridgeMortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="Woodbridge Irvine Mortgage Broker | Lake Community Home Loans | Mo Abdel NMLS #1426884"
-        description="Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, competitive rates."
+        description="Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, Competitive pricing."
         city="Woodbridge, Irvine"
         canonicalUrl="https://mothebroker.com/areas/irvine-neighborhoods/woodbridge-mortgage-broker"
         content={woodbridgeData}

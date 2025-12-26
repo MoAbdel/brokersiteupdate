@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6 text-center">Your Equity. Your Goals. Your Success.</h2>
             <p className="text-slate-700 mb-4">
-              As a mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <span data-factual="research" data-citable="statistic" data-authority="government">According to 2024 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</span> With access to over 200 lenders, I can offer you rates and equity programs that traditional banks simply cannot match.
+              As a mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <span data-factual="research" data-citable="statistic" data-authority="government">According to 2024 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</span> With access to over 200 lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
             </p>
             <p className="text-slate-700 mb-4">
               Your home is likely your largest asset—let's make it work harder for you. Industry data indicates that homeowners who strategically utilize their equity see measurable financial improvements within the first year of refinancing.

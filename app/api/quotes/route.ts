@@ -56,7 +56,7 @@ async function sendEmailNotification(quoteData: any) {
       </div>
       
       <hr style="margin: 30px 0;">
-      <p style="color: #dc2626; font-weight: bold;">⚡ Please follow up with this lead within 1 hour for best conversion rates!</p>
+      <p style="color: #dc2626; font-weight: bold;">⚡ Please follow up with this lead within 1 hour for best conversion!</p>
     `;
 
     // Using Resend SDK - temporarily disabled to fix build
@@ -150,7 +150,7 @@ export async function POST(request: Request) {
       annual_income: body.annual_income || null,
       zip_code: body.zip_code || null,
       occupancy: body.occupancy || null,
-      current_rate: body.current_rate || null,
+      current_pricing: body.current_pricing || null,
       cash_amount: body.cash_amount || null,
       specialty_loan_type: body.specialty_loan_type || null,
       status: body.status || 'new',

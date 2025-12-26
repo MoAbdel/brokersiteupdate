@@ -15,7 +15,7 @@ export default function ServicesSection() {
     {
       icon: RefreshCw,
       title: "Loan Refinancing",
-      description: "Lower your rate and payments with tailored refinancing.",
+      description: "Lower your pricing and payments with tailored refinancing.",
       link: "/refinance-loans"
     },
     {

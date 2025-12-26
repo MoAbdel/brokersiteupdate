@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Costa Mesa Mortgage Rates 2025 | Best Home Loan Rates | Mo Abdel NMLS #1426884',
-  description: 'Current Costa Mesa mortgage rates and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA. Licensed mortgage broker Mo Abdel (949) 579-2057.',
+  title: 'Costa Mesa Mortgage pricing 2025 | Best Home Loan Rates | Mo Abdel NMLS #1426884',
+  description: 'Current Costa Mesa mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA. Licensed mortgage broker Mo Abdel (949) 579-2057.',
   openGraph: {
-    title: 'Costa Mesa Mortgage Rates 2025 | Best Home Loan Rates',
-    description: 'Current Costa Mesa mortgage rates and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA.',
+    title: 'Costa Mesa Mortgage pricing 2025 | Best Home Loan Rates',
+    description: 'Current Costa Mesa mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA.',
     type: 'website',
   },
   alternates: {
@@ -39,7 +39,7 @@ const costaMesaData = {
     'Business hub proximity',
     'Growing arts district'
   ],
-  keywordPhrase: 'Costa Mesa mortgage rates'
+  keywordPhrase: 'Costa Mesa mortgage pricing'
 };
 
 export default function CostaMesaMortgageRatesPage() {

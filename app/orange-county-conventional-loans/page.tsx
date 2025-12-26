@@ -8,8 +8,8 @@ import { Phone, MapPin, DollarSign, Shield, CheckCircle, Home, Calculator, Users
 import EnhancedContactForm from '@/components/EnhancedContactForm';
 
 export const metadata: Metadata = {
-  title: 'Orange County Conventional Loans | Low Rates | Mo Abdel NMLS #1426884',
-  description: 'Orange County conventional loans with competitive rates and 3% down options. Licensed broker Mo Abdel (NMLS #1426884) with access to 200+ lenders. Get approved today!',
+  title: 'Orange County Conventional Loans | Low pricing | Mo Abdel NMLS #1426884',
+  description: 'Orange County conventional loans with Competitive pricing and 3% down options. Licensed broker Mo Abdel (NMLS #1426884) with access to 200+ lenders. Get approved today!',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-conventional-loans',
   },
@@ -20,7 +20,7 @@ const conventionalLoansSchema = {
   "@context": "https://schema.org",
   "@type": ["FinancialProduct", "LoanOrCredit"],
   "name": "Orange County Conventional Loans",
-  "description": "Conventional mortgage loans in Orange County with competitive rates and flexible down payment options. No mortgage insurance with 20% down.",
+  "description": "Conventional mortgage loans in Orange County with Competitive pricing and flexible down payment options. No mortgage insurance with 20% down.",
   "provider": {
     "@type": "Person",
     "name": "Mo Abdel",
@@ -53,7 +53,7 @@ const conventionalLoansSchema = {
   ],
   "category": "Conventional Mortgage Loans",
   "loanType": "Conventional",
-  "feesAndCommissionsSpecification": "Competitive rates with no mortgage insurance at 20% down",
+  "feesAndCommissionsSpecification": "Competitive pricing with no mortgage insurance at 20% down",
   "amount": {
     "@type": "MonetaryAmount",
     "currency": "USD",
@@ -63,7 +63,7 @@ const conventionalLoansSchema = {
   "offers": {
     "@type": "Offer",
     "name": "Conventional Loan with Low Down Payment",
-    "description": "Competitive conventional mortgage rates with options as low as 3% down",
+    "description": "Competitive conventional mortgage pricing with options as low as 3% down",
     "seller": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -123,15 +123,15 @@ export default function OrangeCountyConventionalLoansPage() {
             <div className="flex justify-center mb-4">
               <Badge className="bg-blue-100 text-blue-700 px-4 py-2 text-sm font-medium">
                 <TrendingDown className="w-4 h-4 mr-2" />
-                Competitive Rates Available
+                Competitive pricing Available
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              Orange County Conventional Loans - Best Rates
+              Orange County Conventional Loans - Best pricing
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Get the best conventional loan rates in Orange County with down payments as low as 3%. Licensed broker Mo Abdel (NMLS #1426884) compares 200+ lenders to secure your ideal mortgage terms.
+              Get the best conventional loan pricing in Orange County with down payments as low as 3%. Licensed broker Mo Abdel (NMLS #1426884) compares 200+ lenders to secure your ideal mortgage terms.
             </p>
             
             {/* Quick Stats */}
@@ -146,7 +146,7 @@ export default function OrangeCountyConventionalLoansPage() {
               </div>
               <div className="flex items-center">
                 <TrendingDown className="w-4 h-4 mr-1 text-purple-600" />
-                Competitive Interest Rates
+                Competitive Interest pricing
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function OrangeCountyConventionalLoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready for Your Conventional Loan?</h3>
-                <p className="text-blue-100">Compare rates from 200+ lenders today</p>
+                <p className="text-blue-100">compare pricing from 200+ lenders today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:(949) 579-2057">
@@ -168,7 +168,7 @@ export default function OrangeCountyConventionalLoansPage() {
                 <Link href="/contact-orange-county-mortgage-broker">
                   <Button variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                     <Calculator className="w-4 h-4 mr-2" />
-                    Get Rate Quote
+                    Get Loan Quote
                   </Button>
                 </Link>
               </div>
@@ -207,8 +207,8 @@ export default function OrangeCountyConventionalLoansPage() {
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-slate-900">Competitive Rates</h4>
-                        <p className="text-sm text-slate-600">Often lower rates than FHA loans</p>
+                        <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
+                        <p className="text-sm text-slate-600">Often Lower pricing than FHA loans</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -304,7 +304,7 @@ export default function OrangeCountyConventionalLoansPage() {
                           <td className="py-3 px-4">Required for life of loan</td>
                         </tr>
                         <tr className="border-b border-slate-200">
-                          <td className="py-3 px-4">Interest Rates</td>
+                          <td className="py-3 px-4">Interest pricing</td>
                           <td className="py-3 px-4">Often lower</td>
                           <td className="py-3 px-4">Competitive</td>
                         </tr>
@@ -360,7 +360,7 @@ export default function OrangeCountyConventionalLoansPage() {
                       </div>
                       <h3 className="text-lg font-bold mb-3">200+ Lender Network</h3>
                       <p className="text-slate-600">
-                        Compare conventional loan rates from 200+ lenders for the best deal.
+                        Compare conventional loan pricing from 200+ lenders for the best deal.
                       </p>
                     </div>
                     <div className="text-center">

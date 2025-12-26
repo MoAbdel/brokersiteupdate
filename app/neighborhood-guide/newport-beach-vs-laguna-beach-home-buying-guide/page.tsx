@@ -258,7 +258,7 @@ export default function NewportBeachVsLagunaBeachGuide() {
                 <li>• <strong>Loan Amount:</strong> $2.8M average (super jumbo)</li>
                 <li>• <strong>Down Payment:</strong> 20-30% typical ($560K-$840K)</li>
                 <li>• <strong>Popular Programs:</strong> Super jumbo, Portfolio, Bank statement</li>
-                <li>• <strong>Credit Score:</strong> 740+ essential for best rates</li>
+                <li>• <strong>Credit Score:</strong> 740+ essential for best pricing</li>
               </ul>
             </div>
             <div>

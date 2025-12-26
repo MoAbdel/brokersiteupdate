@@ -17,12 +17,12 @@ export const metadata: Metadata = {
 export default function ComprehensiveMortgageFAQ() {
   const faqCategories = [
     {
-      category: "Mortgage Rates & Costs",
+      category: "Mortgage pricing & Costs",
       icon: DollarSign,
       questions: [
         {
-          question: "What are current mortgage rates in Orange County?",
-          answer: "Current rates vary by loan type and qualification factors. As of January 2025: 30-year fixed conventional around 6.125%, 15-year fixed around 5.50%, FHA loans around 6.125%, VA loans around 5.99%, and jumbo loans around 6.625%. Rates change daily and depend on credit score, down payment, loan amount, and property type. Contact for current personalized rate quotes.",
+          question: "What are current mortgage pricing in Orange County?",
+          answer: "Current pricing vary by loan type and qualification factors. As of January 2025: 30-year fixed conventional around 6.125%, 15-year fixed around 5.50%, FHA loans around 6.125%, VA loans around 5.99%, and jumbo loans around 6.625%. Rates change daily and depend on credit score, down payment, loan amount, and property type. Contact for current personalized loan quotes.",
           tags: ["rates", "orange county", "current"]
         },
         {
@@ -31,18 +31,18 @@ export default function ComprehensiveMortgageFAQ() {
           tags: ["costs", "closing costs", "fees"]
         },
         {
-          question: "Why do mortgage brokers often have better rates than banks?",
-          answer: "Mortgage brokers access wholesale rates from multiple lenders, typically 0.125-0.25% lower than retail bank rates. Brokers compare offerings from 200+ lenders to find the best rate and terms for your specific situation. Banks only offer their own products at retail rates. Brokers also have lower overhead costs than bank branches, allowing them to pass savings to borrowers.",
-          tags: ["broker benefits", "wholesale rates", "comparison"]
+          question: "Why do mortgage brokers often have Better pricing than banks?",
+          answer: "Mortgage brokers access wholesale pricing from multiple lenders, typically 0.125-0.25% lower than retail bank rates. Brokers compare offerings from 200+ lenders to find the best rate and terms for your specific situation. Banks only offer their own products at retail rates. Brokers also have lower overhead costs than bank branches, allowing them to pass savings to borrowers.",
+          tags: ["broker benefits", "wholesale pricing", "comparison"]
         },
         {
-          question: "What factors affect my mortgage rate?",
-          answer: "Primary rate factors include: credit score (740+ gets best rates), down payment amount (20%+ avoids PMI), loan-to-value ratio, debt-to-income ratio, loan amount, property type, occupancy (primary vs investment), and loan term. Orange County's high-cost area status affects conforming loan limits. Market conditions and the Fed funds rate also influence overall rate environment.",
+          question: "What factors affect my mortgage pricing?",
+          answer: "Primary rate factors include: credit score (740+ gets best pricing), down payment amount (20%+ avoids PMI), loan-to-value ratio, debt-to-income ratio, loan amount, property type, occupancy (primary vs investment), and loan term. Orange County's high-cost area status affects conforming loan limits. Market conditions and the Fed funds rate also influence overall rate environment.",
           tags: ["rate factors", "credit score", "qualification"]
         },
         {
           question: "Should I pay points to lower my rate?",
-          answer: "Points (1% of loan amount) typically reduce your rate by 0.25%. Calculate break-even: if paying $10,000 in points saves $100/month, break-even is 100 months (8.3 years). Pay points if you plan to keep the loan longer than break-even period. In Orange County's competitive market where people often refinance or move within 5-7 years, points may not be beneficial.",
+          answer: "Points (1% of loan amount) typically reduce your pricing by 0.25%. Calculate break-even: if paying $10,000 in points saves $100/month, break-even is 100 months (8.3 years). Pay points if you plan to keep the loan longer than break-even period. In Orange County's competitive market where people often refinance or move within 5-7 years, points may not be beneficial.",
           tags: ["points", "rate buydown", "break-even"]
         }
       ]
@@ -53,7 +53,7 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "What credit score do I need for a mortgage?",
-          answer: "Minimum credit scores vary by loan type: FHA loans accept 580+ (500+ with 10% down), conventional loans typically require 620+, VA loans have no strict minimum but most lenders prefer 580+, and jumbo loans usually need 700+. Higher scores (740+) qualify for the best rates. Even with lower scores, experienced brokers can find programs that work for your situation.",
+          answer: "Minimum credit scores vary by loan type: FHA loans accept 580+ (500+ with 10% down), conventional loans typically require 620+, VA loans have no strict minimum but most lenders prefer 580+, and jumbo loans usually need 700+. Higher scores (740+) qualify for the best pricing. Even with lower scores, experienced brokers can find programs that work for your situation.",
           tags: ["credit score", "qualification", "loan types"]
         },
         {
@@ -84,28 +84,28 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "What's the difference between FHA, VA, and conventional loans?",
-          answer: "FHA loans: government-backed, 3.5% down minimum, flexible credit (580+), mortgage insurance required, loan limits apply. VA loans: for eligible veterans, 0% down, no PMI, competitive rates, no loan limits. Conventional loans: not government-backed, 3-20% down, higher credit requirements (620+), no mortgage insurance with 20% down, conforming limits ($1.089M in Orange County).",
+          answer: "FHA loans: government-backed, 3.5% down minimum, flexible credit (580+), mortgage insurance required, loan limits apply. VA loans: for eligible veterans, 0% down, no PMI, Competitive pricing, no loan limits. Conventional loans: not government-backed, 3-20% down, higher credit requirements (620+), no mortgage insurance with 20% down, conforming limits ($1.089M in Orange County).",
           tags: ["loan types", "fha", "va", "conventional"]
         },
         {
           question: "When do I need a jumbo loan in Orange County?",
-          answer: "Jumbo loans are required for amounts above $1,089,300 (2025 Orange County conforming loan limit). Given Orange County's median home price around $1.2M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Rates are often competitive with conforming loans.",
+          answer: "Jumbo loans are required for amounts above $1,089,300 (2025 Orange County conforming loan limit). Given Orange County's median home price around $1.2M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Pricing is often competitive with conforming loans.",
           tags: ["jumbo loans", "orange county", "loan limits"]
         },
         {
           question: "What are Non-QM loans and when are they useful?",
-          answer: "Non-Qualified Mortgage (Non-QM) loans don't meet standard government guidelines, offering flexibility for unique situations: self-employed borrowers with variable income, recent credit events, high debt-to-income ratios, or non-traditional income sources. Types include bank statement loans, asset depletion loans, and P&L statement programs. Rates are typically higher but provide access when conventional loans don't work.",
+          answer: "Non-Qualified Mortgage (Non-QM) loans don't meet standard government guidelines, offering flexibility for unique situations: self-employed borrowers with variable income, recent credit events, high debt-to-income ratios, or non-traditional income sources. Types include bank statement loans, asset depletion loans, and P&L statement programs. Pricing is typically higher but provide access when conventional loans don't work.",
           tags: ["non-qm", "alternative loans", "self-employed"]
         },
         {
           question: "Should I choose a 15-year or 30-year mortgage?",
-          answer: "15-year mortgages: lower rates (typically 0.5-0.75% less), significantly less interest paid over life of loan, faster equity building, but higher monthly payments. 30-year mortgages: lower monthly payments, more cash flow flexibility, easier qualification, but more interest paid overall. In Orange County's high-price market, 30-year loans are more common due to affordability. You can always pay extra principal to build equity faster.",
+          answer: "15-year mortgages: Lower pricing (typically 0.5-0.75% less), significantly less interest paid over life of loan, faster equity building, but higher monthly payments. 30-year mortgages: lower monthly payments, more cash flow flexibility, easier qualification, but more interest paid overall. In Orange County's high-price market, 30-year loans are more common due to affordability. You can always pay extra principal to build equity faster.",
           tags: ["loan terms", "15-year", "30-year"]
         },
         {
           question: "What is an ARM and when should I consider one?",
-          answer: "Adjustable Rate Mortgages (ARMs) have initial fixed periods, then adjust based on market indices. Common types: 5/1, 7/1, 10/1 ARMs (fixed for 5, 7, or 10 years). Initial rates are typically 0.5-1% lower than 30-year fixed. Consider ARMs if: you plan to move or refinance within the fixed period, you expect income to increase, or current fixed rates are high. Orange County's mobile population often benefits from ARMs.",
-          tags: ["arm", "adjustable rate", "hybrid loans"]
+          answer: "Adjustable Rate Mortgages (ARMs) have initial fixed periods, then adjust based on market indices. Common types: 5/1, 7/1, 10/1 ARMs (fixed for 5, 7, or 10 years). Initial pricing is typically 0.5-1% lower than 30-year fixed. Consider ARMs if: you plan to move or refinance within the fixed period, you expect income to increase, or current fixed pricing is high. Orange County's mobile population often benefits from ARMs.",
+          tags: ["arm", "adjustable pricing", "hybrid loans"]
         }
       ]
     },
@@ -120,7 +120,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "How do Orange County property taxes affect my mortgage?",
-          answer: "Orange County property tax rates vary by city and districts, averaging 0.75-1.25% of assessed value annually. High home values mean significant monthly escrow payments. Example: $1.2M home = $9,000-15,000 annual taxes = $750-1,250 monthly escrow. Property taxes are deductible up to $10,000 annually (SALT cap). New construction may have Mello-Roos special assessments adding $200-500+ monthly.",
+          answer: "Orange County property tax percentages vary by city and districts, averaging 0.75-1.25% of assessed value annually. High home values mean significant monthly escrow payments. Example: $1.2M home = $9,000-15,000 annual taxes = $750-1,250 monthly escrow. Property taxes are deductible up to $10,000 annually (SALT cap). New construction may have Mello-Roos special assessments adding $200-500+ monthly.",
           tags: ["property taxes", "orange county", "escrow"]
         },
         {
@@ -160,8 +160,8 @@ export default function ComprehensiveMortgageFAQ() {
           tags: ["problems", "delays", "issues"]
         },
         {
-          question: "When should I lock my mortgage rate?",
-          answer: "Rate locks protect against rate increases for 30-60 days (longer available for fee). Lock when: you have an accepted offer, rates are favorable, or you're concerned about rate increases. In volatile markets, consider locking at application. Orange County's quick closing timelines (often 21-30 days) work well with standard lock periods. Float down options available if rates decrease after locking.",
+          question: "When should I lock my mortgage pricing?",
+          answer: "Rate locks protect against rate increases for 30-60 days (longer available for fee). Lock when: you have an accepted offer, pricing is favorable, or you're concerned about rate increases. In volatile markets, consider locking at application. Orange County's quick closing timelines (often 21-30 days) work well with standard lock periods. Float down options available if rates decrease after locking.",
           tags: ["rate lock", "timing", "protection"]
         },
         {
@@ -177,12 +177,12 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "When does refinancing make sense?",
-          answer: "Consider refinancing when: rates are 0.5-0.75% lower than current rate, you want to eliminate PMI, need cash for improvements/debt consolidation, want to shorten loan term, or switch loan types. Calculate break-even point: closing costs divided by monthly savings. In Orange County's appreciating market, cash-out refinancing for investment opportunities is common. Consider how long you plan to stay in the home.",
+          answer: "Consider refinancing when: pricing is 0.5-0.75% lower than current pricing, you want to eliminate PMI, need cash for improvements/debt consolidation, want to shorten loan term, or switch loan types. Calculate break-even point: closing costs divided by monthly savings. In Orange County's appreciating market, cash-out refinancing for investment opportunities is common. Consider how long you plan to stay in the home.",
           tags: ["refinancing", "break-even", "cash-out"]
         },
         {
           question: "What's the difference between rate-and-term and cash-out refinancing?",
-          answer: "Rate-and-term refinancing: changes rate/term without taking cash, lower rates, easier qualification, loan amount stays same or decreases. Cash-out refinancing: borrower receives cash above payoff amount, typically higher rates, stricter qualification, loan amount increases. Orange County homeowners often use cash-out for: investment properties, home improvements, debt consolidation, or education expenses.",
+          answer: "Rate-and-term refinancing: changes rate/term without taking cash, Lower pricing, easier qualification, loan amount stays same or decreases. Cash-out refinancing: borrower receives cash above payoff amount, typically higher pricing, stricter qualification, loan amount increases. Orange County homeowners often use cash-out for: investment properties, home improvements, debt consolidation, or education expenses.",
           tags: ["rate-and-term", "cash-out", "refinancing types"]
         },
         {
@@ -344,7 +344,7 @@ export default function ComprehensiveMortgageFAQ() {
             </p>
             <p>
               All information is for educational purposes only. Actual loan terms, rates, and requirements subject to credit approval,
-              program availability, and market conditions. Contact for current rates and personalized guidance.
+              program availability, and market conditions. Contact for Current pricing and personalized guidance.
             </p>
             <p>
               Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, Virginia, and Colorado.

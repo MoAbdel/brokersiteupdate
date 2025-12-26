@@ -19,7 +19,7 @@ export default function Testimonials() {
                   ))}
                 </div>
                 <p className="text-slate-600 mb-4 italic text-lg">
-                  &quot;It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.&quot;
+                  &quot;It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your pricing, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.&quot;
                 </p>
                 <p className="font-semibold text-slate-900">Karthikeyan R.</p>
               </div>

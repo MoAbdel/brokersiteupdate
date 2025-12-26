@@ -7,7 +7,7 @@ import { MapPin, Home, Waves, Sun, TrendingUp, Users, Building } from 'lucide-re
 
 export const metadata: Metadata = {
   title: 'Huntington Beach Mortgage | Home Loans & HELOC Rates | Mo Abdel NMLS #1426884',
-  description: 'Best Huntington Beach mortgage rates and home loan services. Competitive mortgage rates, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 579-2057.',
+  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
   },
@@ -51,7 +51,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       title: 'HELOC for Beach Properties',
       description: 'Access your coastal home equity for improvements, investment, or lifestyle',
-      benefits: ['Up to $500K credit lines', 'Prime + 0% intro rates', 'No closing costs available'],
+      benefits: ['Up to $500K credit lines', 'Prime + 0% intro pricing', 'No closing costs available'],
       icon: <TrendingUp className="w-8 h-8 text-blue-600" />
     },
     {
@@ -63,7 +63,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       title: 'VA Loans',
       description: 'No down payment loans for veterans and active military',
-      benefits: ['0% down payment', 'No PMI required', 'Competitive interest rates'],
+      benefits: ['0% down payment', 'No PMI required', 'Competitive loan pricing'],
       icon: <Home className="w-8 h-8 text-purple-600" />
     }
   ];
@@ -82,14 +82,14 @@ export default function HuntingtonBeachMortgageBrokerPage() {
             <span className="text-blue-600">Huntington Beach Mortgage</span> | Beach Home Loans & Refinancing
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Competitive mortgage rates for Huntington Beach homebuyers and homeowners. Specializing in 
+            Competitive mortgage pricing for Huntington Beach homebuyers and homeowners. Specializing in 
             HELOC, jumbo loans, and refinancing for Main Street, Surf City, Bella Terra, 
             and all Huntington Beach communities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Get HB Mortgage Rates
+                Get HB Mortgage pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -340,7 +340,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
             Ready for Your Huntington Beach Mortgage?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized rates for your Surf City neighborhood and loan needs
+            Get personalized pricing for your Surf City neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

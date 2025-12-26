@@ -74,8 +74,8 @@ export default function OrangeCountyVALoansPage() {
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6 text-center">
                 <Award className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive Rates</h3>
-                <p className="text-sm text-slate-600">Often lower than conventional loan rates</p>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
+                <p className="text-sm text-slate-600">Often lower than conventional loan pricing</p>
               </CardContent>
             </Card>
             

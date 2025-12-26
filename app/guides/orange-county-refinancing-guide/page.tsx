@@ -47,7 +47,7 @@ const refinancingOptions = [
     cashOut: 'As needed',
     timeframe: '2-3 weeks',
     bestFor: 'Ongoing expenses, variable funding needs',
-    description: 'Revolving credit line secured by your home equity with variable rates',
+    description: 'Revolving credit line secured by your home equity with variable pricing',
     link: '/heloc-orange-county',
     minEquity: '15%'
   },
@@ -65,8 +65,8 @@ const refinancingOptions = [
 
 const whenToRefinance = [
   {
-    scenario: 'Interest Rates Drop',
-    description: 'When market rates are 0.5-1% lower than your current rate',
+    scenario: 'Interest pricing Drop',
+    description: 'When Market pricing is 0.5-1% lower than your current pricing',
     icon: TrendingUp,
     color: 'blue'
   },
@@ -84,7 +84,7 @@ const whenToRefinance = [
   },
   {
     scenario: 'Change Loan Terms',
-    description: 'Switch from ARM to fixed rate or change loan duration',
+    description: 'Switch from ARM to fixed pricing or change loan duration',
     icon: RefreshCw,
     color: 'orange'
   },
@@ -105,10 +105,10 @@ const whenToRefinance = [
 const refinancingProcess = [
   {
     step: 1,
-    title: 'Check Current Market Rates',
-    description: 'Compare current rates to your existing mortgage rate and terms',
+    title: 'Check Current Market pricing',
+    description: 'Compare Current pricing to your existing mortgage pricing and terms',
     timeframe: 'Same day',
-    action: 'Get rate quotes'
+    action: 'Get loan quotes'
   },
   {
     step: 2,
@@ -173,11 +173,11 @@ const costAnalysis = [
 const faqs = [
   {
     question: 'Should I refinance my Orange County home in 2025?',
-    answer: 'Refinancing makes sense if you can reduce your rate by 0.5-1%, remove PMI, access equity for improvements, or consolidate high-interest debt. With Orange County home values remaining strong, many homeowners have significant equity to leverage. Consider your break-even point and how long you plan to stay in the home.'
+    answer: 'Refinancing makes sense if you can reduce your pricing by 0.5-1%, remove PMI, access equity for improvements, or consolidate high-interest debt. With Orange County home values remaining strong, many homeowners have significant equity to leverage. Consider your break-even point and how long you plan to stay in the home.'
   },
   {
     question: 'What\'s the difference between HELOC and HELOAN?',
-    answer: 'A HELOC is a revolving credit line with variable rates, similar to a credit card secured by your home. You can draw funds as needed during a 10-year draw period. A HELOAN is a fixed-rate second mortgage with a lump sum payout and fixed monthly payments over 5-30 years. HELOCs offer flexibility, while HELOANs provide payment predictability.'
+    answer: 'A HELOC is a revolving credit line with variable pricing, similar to a credit card secured by your home. You can draw funds as needed during a 10-year draw period. A HELOAN is a fixed-rate second mortgage with a lump sum payout and fixed monthly payments over 5-30 years. HELOCs offer flexibility, while HELOANs provide payment predictability.'
   },
   {
     question: 'How much equity do I need to refinance in Orange County?',
@@ -185,7 +185,7 @@ const faqs = [
   },
   {
     question: 'What are current refinancing rates in Orange County?',
-    answer: 'Refinancing rates vary daily based on market conditions, loan type, and borrower qualifications. Rate-and-term refinances typically offer the best rates, while cash-out refinances are slightly higher. HELOC rates are variable and tied to prime rate, while HELOAN rates are fixed. Contact Mo Abdel at (949) 579-2057 for current rates and personalized quotes.'
+    answer: 'Refinancing rates vary daily based on market conditions, loan type, and borrower qualifications. Rate-and-term refinances typically offer the best pricing, while cash-out refinances are slightly higher. HELOC pricing is variable and tied to prime rate, while HELOAN pricing is fixed. Contact Mo Abdel at (949) 579-2057 for Current pricing and personalized quotes.'
   },
   {
     question: 'How long does refinancing take in Orange County?',
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     question: 'Can I refinance if I have poor credit?',
-    answer: 'Credit requirements vary by loan type and lender. Conventional refinances typically require 620+ credit scores, while FHA streamline refinances may accept lower scores. If your credit has improved since your original loan, you may qualify for better rates. Non-QM loans offer alternatives for borrowers with unique credit situations.'
+    answer: 'Credit requirements vary by loan type and lender. Conventional refinances typically require 620+ credit scores, while FHA streamline refinances may accept lower scores. If your credit has improved since your original loan, you may qualify for Better pricing. Non-QM loans offer alternatives for borrowers with unique credit situations.'
   },
   {
     question: 'What documents do I need for Orange County refinancing?',
@@ -294,7 +294,7 @@ export default function OrangeCountyRefinancingGuide() {
               Orange County Refinancing Options
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Choose the right refinancing solution for your goals. Access competitive rates from 200+ lenders 
+              Choose the right refinancing solution for your goals. Access Competitive pricing from 200+ lenders 
               with personalized guidance from experienced Orange County mortgage broker Mo Abdel.
             </p>
           </div>
@@ -537,7 +537,7 @@ export default function OrangeCountyRefinancingGuide() {
             Ready to Refinance Your Orange County Home?
           </h2>
           <p className="text-xl mb-8 text-green-100">
-            Get personalized refinancing advice and competitive rates from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884. 
+            Get personalized refinancing advice and Competitive pricing from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884. 
             Access 200+ lenders for the best terms on rate-and-term refinancing, cash-out refinancing, HELOCs, and HELOANs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -336,8 +336,8 @@ export default function SelfEmployedHomeLoans() {
                 answer: 'Most bank statement programs accept either business or personal bank statements. Business accounts are common for sole proprietors, LLCs, and S-Corps. We analyze deposits and apply an expense factor (typically 25-50%) to arrive at qualifying income.'
               },
               {
-                question: 'What are typical rates for self-employed mortgage programs?',
-                answer: 'Rates vary by program, credit score, and down payment. Bank statement loans typically range from 0.5% to 1.5% above conventional rates, while DSCR investor loans may be slightly higher depending on the property\'s debt service coverage ratio. We can provide exact quotes based on your scenario.'
+                question: 'How long does it take to get approved for a self-employed mortgage?',
+                answer: 'The approval timeline varies by program complexity and documentation readiness. Bank statement loans typically take 15-21 days from application to closing, while DSCR investor loans can often close even faster. Having your documentation organized upfront helps expedite the process significantly.'
               }
             ].map((faq, index) => (
               <div key={index} className="bg-slate-50 rounded-lg p-6">

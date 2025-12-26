@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-  description: 'Get conventional loans in Orange County with competitive rates. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
+  description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
   openGraph: {
     title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-    description: 'Get conventional loans in Orange County with competitive rates. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
+    description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
     type: 'website',
   },
   alternates: {
@@ -27,8 +27,8 @@ const benefits = [
   },
   {
     icon: TrendingUp,
-    title: 'Competitive Interest Rates',
-    description: 'Access competitive rates from 200+ lenders to secure the most competitive conventional loan rates.'
+    title: 'Competitive Interest pricing',
+    description: 'Access Competitive pricing from 200+ lenders to secure the most competitive conventional loan pricing.'
   },
   {
     icon: Shield,
@@ -43,7 +43,7 @@ const benefits = [
   {
     icon: FileText,
     title: 'Flexible Credit Requirements',
-    description: 'Qualify with credit scores as low as 620, with better rates available for higher scores.'
+    description: 'Qualify with credit scores as low as 620, with Better pricing available for higher scores.'
   },
   {
     icon: Users,
@@ -53,7 +53,7 @@ const benefits = [
 ];
 
 const requirements = [
-  'Credit score: 620+ (better rates with 740+)',
+  'Credit score: 620+ (Better pricing with 740+)',
   'Down payment: 3-20% depending on loan type',
   'Debt-to-income ratio: Generally 43% or lower',
   'Employment history: 2 years preferred',
@@ -108,7 +108,7 @@ export default function ConventionalLoansOrangeCounty() {
               Conventional Loans in Orange County – Flexible Home Financing
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
-              Get traditional home financing with down payments as low as 3%. Access competitive rates from 200+ lenders with flexible terms for your Orange County home purchase.
+              Get traditional home financing with down payments as low as 3%. Access Competitive pricing from 200+ lenders with flexible terms for your Orange County home purchase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -134,7 +134,7 @@ export default function ConventionalLoansOrangeCounty() {
               Orange County Conventional Mortgage Benefits & Advantages
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Conventional loans offer the most flexibility and competitive rates for qualified borrowers in Orange County.
+              Conventional loans offer the most flexibility and Competitive pricing for qualified borrowers in Orange County.
             </p>
           </div>
 
@@ -284,7 +284,7 @@ export default function ConventionalLoansOrangeCounty() {
               Conventional Home Loans in Orange County Cities & Neighborhoods
             </h2>
             <p className="text-xl text-slate-600">
-              Serving homebuyers across all major Orange County cities with competitive conventional loan rates.
+              Serving homebuyers across all major Orange County cities with competitive conventional loan pricing.
             </p>
           </div>
 
@@ -319,7 +319,7 @@ export default function ConventionalLoansOrangeCounty() {
               },
               {
                 question: 'What credit score do I need for a conventional loan?',
-                answer: 'Most conventional loans require a minimum credit score of 620, though some programs accept scores as low as 580. Higher credit scores (740+) typically qualify for the best interest rates.'
+                answer: 'Most conventional loans require a minimum credit score of 620, though some programs accept scores as low as 580. Higher credit scores (740+) typically qualify for the best loan pricing.'
               },
               {
                 question: 'What is the 2025 conventional loan limit in Orange County?',
@@ -352,7 +352,7 @@ export default function ConventionalLoansOrangeCounty() {
             Ready to Get Your Conventional Loan in Orange County?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Access competitive rates from 200+ lenders and get pre-approved in minutes. 
+            Access Competitive pricing from 200+ lenders and get pre-approved in minutes. 
             Mo Abdel makes conventional loans simple and affordable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

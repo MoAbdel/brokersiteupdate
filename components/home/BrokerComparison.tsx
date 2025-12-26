@@ -12,7 +12,7 @@ export default function BrokerComparison() {
             Mortgage Broker vs Big Banks: See the Difference
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Why Orange County homebuyers choose mortgage brokers for better rates and service
+            Why Orange County homebuyers choose mortgage brokers for Better pricing and service
           </p>
         </div>
 
@@ -37,7 +37,7 @@ export default function BrokerComparison() {
                 </td>
               </tr>
               <tr className="border-b border-gray-200 hover:bg-gray-50 bg-gray-50">
-                <td className="px-6 py-4 font-medium text-slate-700">Interest Rates</td>
+                <td className="px-6 py-4 font-medium text-slate-700">Interest pricing</td>
                 <td className="px-6 py-4 text-center">
                   <span className="text-green-600 font-bold">Wholesale Rates (Lower)</span>
                 </td>
@@ -120,7 +120,7 @@ export default function BrokerComparison() {
               </div>
               
               <div className="p-4 border-b border-gray-100 bg-gray-50">
-                <div className="font-medium text-slate-700 mb-2">Interest Rates</div>
+                <div className="font-medium text-slate-700 mb-2">Interest pricing</div>
                 <div className="flex justify-between items-center">
                   <span className="text-green-600 font-bold">Wholesale (Lower)</span>
                   <span className="text-red-600">Retail (Higher)</span>
@@ -231,13 +231,13 @@ export default function BrokerComparison() {
             See How Much You Can Save
           </h3>
           <p className="text-lg text-slate-600 mb-6">
-            Research shows mortgage broker clients save over $10,000 through competitive rates and lower upfront costs
+            Research shows mortgage broker clients save over $10,000 through Competitive pricing and lower upfront costs
           </p>
           <a
             href="/contact"
             className="inline-block bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
           >
-            Get Your Free Rate Quote
+            Get Your Free pricing Quote
           </a>
         </div>
       </div>

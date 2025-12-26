@@ -26,7 +26,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What makes you different from banks?",
-    answer: "As a mortgage broker, I work for you, not a bank. I have access to 200+ lenders and can shop for the best rates and terms. Banks can only offer their own products. I typically close loans in 18 days (vs 30-45 at banks) and save clients an average of $10,000+ over the loan life through wholesale rates.",
+    answer: "As a mortgage broker, I work for you, not a bank. I have access to 200+ lenders and can shop for the best pricing and terms. Banks can only offer their own products. I typically close loans in 18 days (vs 30-45 at banks) and save clients an average of $10,000+ over the loan life through wholesale pricing.",
     category: "general",
     keywords: ["different", "bank", "broker", "vs", "better", "advantage"],
     followUp: ["How much can I save?", "How fast can you close?"]
@@ -34,15 +34,15 @@ export const chatbotResponses: ChatResponse[] = [
 
   // Rates & Pricing
   {
-    question: "What are current mortgage rates?",
-    answer: "Current rates vary by loan type and credit score. Today's rates are approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call (949) 579-2057 for your personalized rate quote with no obligation.",
+    question: "What are current mortgage pricing?",
+    answer: "Current pricing vary by loan type and credit score. Today's pricing is approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call (949) 579-2057 for your personalized loan quote with no obligation.",
     category: "rates",
     keywords: ["rates", "interest", "current", "today", "apr", "percentage"],
     followUp: ["What affects my rate?", "Can I lock my rate?"]
   },
   {
-    question: "What affects my mortgage rate?",
-    answer: "Key factors include: Credit score (740+ gets best rates), down payment amount (larger = better rates), loan type (conventional, FHA, VA, jumbo), property type (primary home gets best rates), and debt-to-income ratio. I'll help optimize these factors to get you the best rate possible.",
+    question: "What affects my mortgage pricing?",
+    answer: "Key factors include: Credit score (740+ gets best pricing), down payment amount (larger = Better pricing), loan type (conventional, FHA, VA, jumbo), property type (primary home gets best pricing), and debt-to-income ratio. I'll help optimize these factors to get you the best rate possible.",
     category: "rates",
     keywords: ["affects", "rate", "factors", "credit", "down payment"],
     followUp: ["What credit score do I need?", "How much down payment is required?"]
@@ -58,28 +58,28 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What is an FHA loan?",
-    answer: "FHA loans are government-backed mortgages perfect for first-time buyers or those with less-than-perfect credit. Benefits include: 3.5% minimum down payment, credit scores as low as 580 accepted, flexible qualification requirements, and competitive interest rates. The 2025 FHA loan limit in Orange County is $1,089,300.",
+    answer: "FHA loans are government-backed mortgages perfect for first-time buyers or those with less-than-perfect credit. Benefits include: 3.5% minimum down payment, credit scores as low as 580 accepted, flexible qualification requirements, and competitive loan pricing. The 2025 FHA loan limit in Orange County is $1,089,300.",
     category: "programs",
     keywords: ["fha", "first time", "3.5", "government"],
     followUp: ["Do I qualify for FHA?", "What are FHA loan limits?"]
   },
   {
     question: "What are VA loan benefits?",
-    answer: "VA loans offer incredible benefits for veterans and active military: $0 down payment required, no PMI (mortgage insurance), competitive interest rates, flexible credit requirements, and assumable loans. The 2025 VA loan limit in Orange County is $1,089,300 with no down payment required.",
+    answer: "VA loans offer incredible benefits for veterans and active military: $0 down payment required, no PMI (mortgage insurance), competitive loan pricing, flexible credit requirements, and assumable loans. The 2025 VA loan limit in Orange County is $1,089,300 with no down payment required.",
     category: "programs",
     keywords: ["va", "veteran", "military", "zero down", "0 down"],
     followUp: ["Am I eligible for VA?", "Can I use VA loan twice?"]
   },
   {
     question: "What is a jumbo loan?",
-    answer: "Jumbo loans are for amounts exceeding $1,089,300 in Orange County. Given our median home price of $1.2M, many buyers need jumbo financing. I specialize in jumbo loans up to $3M with competitive rates, often better than big banks. Typically require 10-20% down and strong credit (700+).",
+    answer: "Jumbo loans are for amounts exceeding $1,089,300 in Orange County. Given our median home price of $1.2M, many buyers need jumbo financing. I specialize in jumbo loans up to $3M with Competitive pricing, often better than big banks. Typically require 10-20% down and strong credit (700+).",
     category: "programs",
     keywords: ["jumbo", "luxury", "high", "million", "expensive"],
     followUp: ["What's the jumbo loan limit?", "What down payment for jumbo?"]
   },
   {
     question: "What is a HELOC?",
-    answer: "A HELOC (Home Equity Line of Credit) lets you access your home's equity as a flexible credit line. Borrow what you need, when you need it, and only pay interest on what you use. Current rates start at Prime + 0%. You can access up to 80-90% of your home's value minus existing mortgage. Perfect for renovations, debt consolidation, or investments.",
+    answer: "A HELOC (Home Equity Line of Credit) lets you access your home's equity as a flexible credit line. Borrow what you need, when you need it, and only pay interest on what you use. Current pricing start at Prime + 0%. You can access up to 80-90% of your home's value minus existing mortgage. Perfect for renovations, debt consolidation, or investments.",
     category: "programs",
     keywords: ["heloc", "equity", "line of credit", "second mortgage", "cash out"],
     followUp: ["How much can I borrow with HELOC?", "What are HELOC rates?"]
@@ -95,7 +95,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What credit score do I need?",
-    answer: "I have options for all credit situations through my 200+ lenders: FHA accepts scores as low as 580, VA is flexible for veterans, Conventional typically needs 620+, best rates available for 740+, and Non-QM programs can work with scores as low as 500. Don't let credit concerns stop you - let's explore your options.",
+    answer: "I have options for all credit situations through my 200+ lenders: FHA accepts scores as low as 580, VA is flexible for veterans, Conventional typically needs 620+, best pricing available for 740+, and Non-QM programs can work with scores as low as 500. Don't let credit concerns stop you - let's explore your options.",
     category: "qualification",
     keywords: ["credit score", "fico", "credit", "minimum", "required"],
     followUp: ["Can you help improve my credit?", "What if I have bad credit?"]
@@ -148,14 +148,14 @@ export const chatbotResponses: ChatResponse[] = [
   // Refinancing
   {
     question: "Should I refinance?",
-    answer: "Refinancing makes sense if you can lower your rate by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With current rates, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call (949) 579-2057.",
+    answer: "Refinancing makes sense if you can lower your pricing by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With Current pricing, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call (949) 579-2057.",
     category: "refinance",
     keywords: ["refinance", "refi", "lower rate", "cash out"],
-    followUp: ["What are refinance rates?", "How much can I cash out?"]
+    followUp: ["What are refinance pricing?", "How much can I cash out?"]
   },
   {
     question: "What refinance options exist?",
-    answer: "Main refinance options: Rate-and-term (lower your rate/change terms), Cash-out (access up to 80% of home value), HELOC (flexible credit line), and FHA/VA Streamline (simplified for existing FHA/VA loans). Each serves different needs - let's discuss which maximizes your benefit.",
+    answer: "Main refinance options: Rate-and-term (lower your pricing/change terms), Cash-out (access up to 80% of home value), HELOC (flexible credit line), and FHA/VA Streamline (simplified for existing FHA/VA loans). Each serves different needs - let's discuss which maximizes your benefit.",
     category: "refinance",
     keywords: ["refinance options", "types", "cash out", "rate term"],
     followUp: ["Which refinance is best?", "What are requirements?"]
@@ -164,7 +164,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Investment Properties
   {
     question: "Do you finance investment properties?",
-    answer: "Yes! I specialize in investment property financing: DSCR loans (qualify on rental income, not personal income), Conventional investment (25% down), Fix & Flip loans (short-term, fast closing), Portfolio loans for multiple properties. Many investors prefer brokers for better rates and creative financing options.",
+    answer: "Yes! I specialize in investment property financing: DSCR loans (qualify on rental income, not personal income), Conventional investment (25% down), Fix & Flip loans (short-term, fast closing), Portfolio loans for multiple properties. Many investors prefer brokers for Better pricing and creative financing options.",
     category: "investment",
     keywords: ["investment", "rental", "property", "dscr", "investor"],
     followUp: ["What is a DSCR loan?", "How much down for investment?"]
@@ -235,21 +235,21 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Do you charge fees?",
-    answer: "Initial consultations and rate quotes are completely FREE. I'm compensated by the lender at closing, so there's no upfront cost for my services. My wholesale rates often result in lower overall costs than going directly to a bank.",
+    answer: "Initial consultations and loan quotes are completely FREE. I'm compensated by the lender at closing, so there's no upfront cost for my services. My wholesale pricing often results in lower overall costs than going directly to a bank.",
     category: "general",
     keywords: ["fees", "charge", "cost", "free", "consultation"],
     followUp: ["What are typical closing costs?", "When do I pay?"]
   },
   {
     question: "Can you beat my bank's rate?",
-    answer: "I often find better rates through my 200+ wholesale lenders compared to retail banks. However, rates depend on many factors including credit score, down payment, and loan type. I'd be happy to provide a free rate comparison to see if I can save you money. No obligation to proceed. Call (949) 579-2057 for your personalized comparison.",
+    answer: "I often find better pricing through my 200+ wholesale lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 579-2057 for your personalized comparison.",
     category: "rates",
     keywords: ["beat", "match", "better", "lower", "compete"],
     followUp: ["How much can I save?", "Will you match rates?"]
   },
   {
     question: "How do I get started?",
-    answer: "Getting started is easy! Call or text me at (949) 579-2057 for a free consultation. I'll discuss your goals, review your situation, provide rate quotes, and get you pre-approved if ready. The whole process starts with a simple phone call. I'm available 24/7 and respond quickly.",
+    answer: "Getting started is easy! Call or text me at (949) 579-2057 for a free consultation. I'll discuss your goals, review your situation, provide loan quotes, and get you pre-approved if ready. The whole process starts with a simple phone call. I'm available 24/7 and respond quickly.",
     category: "process",
     keywords: ["start", "begin", "get started", "apply", "first step"],
     followUp: ["What information do you need?", "How long for pre-approval?"]
@@ -258,7 +258,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Additional follow-up questions that were missing
   {
     question: "Can I lock my rate?",
-    answer: "Yes, you can lock your interest rate once you have an accepted offer on a property. Rate locks typically range from 30-60 days, with some lenders offering up to 90 days. Locking protects you from rate increases during the loan process. I'll advise on the best timing based on market conditions and your closing timeline.",
+    answer: "Yes, you can lock your loan pricing once you have an accepted offer on a property. Rate locks typically range from 30-60 days, with some lenders offering up to 90 days. Locking protects you from rate increases during the loan process. I'll advise on the best timing based on market conditions and your closing timeline.",
     category: "rates",
     keywords: ["lock", "rate lock", "guarantee", "fixed", "protect"],
     followUp: ["How long can I lock?", "What if rates drop after locking?"]
@@ -286,7 +286,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Will you match rates?",
-    answer: "I'm committed to getting you the best rate possible. If you have a Loan Estimate from another lender, I'll review it and work to find equal or better terms through my 200+ lenders. Often, I can beat both the rate AND fees. Bring me any written quote for a free, no-obligation comparison.",
+    answer: "I'm committed to getting you the best rate possible. If you have a Loan Estimate from another lender, I'll review it and work to find equal or better terms through my 200+ lenders. Often, I can beat both the pricing AND fees. Bring me any written quote for a free, no-obligation comparison.",
     category: "rates",
     keywords: ["match", "beat", "compete", "comparison", "lower"],
     followUp: ["What do you need to match?", "How to compare offers?"]
@@ -300,7 +300,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "How much can I save with you?",
-    answer: "Typical savings range from $5,000-$15,000 over the loan life through better rates and lower fees. On a $800,000 loan, just 0.25% rate difference saves $40,000+ over 30 years. Plus, my wholesale lender fees are often $2,000-$5,000 less than retail banks. I'll provide a detailed comparison showing your exact savings.",
+    answer: "Typical savings range from $5,000-$15,000 over the loan life through better pricing and lower fees. On a $800,000 loan, just 0.25% pricing difference saves $40,000+ over 30 years. Plus, my wholesale lender fees are often $2,000-$5,000 less than retail banks. I'll provide a detailed comparison showing your exact savings.",
     category: "rates",
     keywords: ["save", "savings", "money", "cost", "cheaper"],
     followUp: ["Can you guarantee savings?", "Show me the math?"]
@@ -365,7 +365,7 @@ export const chatCategories = [
 
 // Quick action buttons for chatbot
 export const quickActions = [
-  { label: "Get Rate Quote", action: "What are current rates?" },
+  { label: "Get Loan Quote", action: "What are current pricing options?" },
   { label: "Contact Mo", action: "How can I contact Mo?" },
   { label: "Loan Programs", action: "What loan programs do you offer?" },
   { label: "Get Pre-Approved", action: "How do I get pre-approved?" },
@@ -382,7 +382,7 @@ export const fallbackResponses = [
 
 // Welcome message
 export const welcomeMessage = `👋 Hi! I'm Mo's AI assistant. I can help you with:
-• Current mortgage rates and programs
+• Current mortgage pricing and programs
 • Loan qualifications and requirements  
 • First-time buyer information
 • Refinancing options
@@ -392,4 +392,4 @@ What can I help you with today?
 
 📞 For personalized assistance: (949) 579-2057
 
-*This is an automated assistant. Information provided is for educational purposes only and not a commitment to lend. All loans subject to underwriting approval. Rates and terms subject to change without notice.*`;
+*This is an automated assistant. Information provided is for educational purposes only and not a commitment to lend. All loans subject to underwriting approval. Pricing and terms subject to change without notice.*`;

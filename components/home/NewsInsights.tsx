@@ -89,7 +89,7 @@ export default function NewsInsights() {
             Mortgage News & Market Insights
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Stay informed with the latest mortgage rates, market trends, and expert tips
+            Stay informed with the latest mortgage pricing, market trends, and expert tips
             to help you make confident homebuying and refinancing decisions.
           </p>
         </div>

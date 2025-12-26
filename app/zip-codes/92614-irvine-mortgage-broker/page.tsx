@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92614 Irvine Mortgage Broker | Spectrum Area ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, competitive rates. Call (949) 579-2057.',
+  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker',
   },
@@ -136,7 +136,7 @@ export default function ZipCode92614MortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="92614 Irvine Mortgage Broker | Spectrum Area ZIP Code Specialist | Mo Abdel NMLS #1426884"
-        description="92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, competitive rates."
+        description="92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing."
         city="92614, Irvine"
         canonicalUrl="https://mothebroker.com/zip-codes/92614-irvine-mortgage-broker"
         content={zipCodeData}
@@ -352,7 +352,7 @@ export default function ZipCode92614MortgageBrokerPage() {
               Ready to Finance Your 92614 Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized financing expertise for ZIP code 92614. Local knowledge, dynamic market insights, competitive rates for Irvine's growth areas.
+              Get specialized financing expertise for ZIP code 92614. Local knowledge, dynamic market insights, Competitive pricing for Irvine's growth areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

@@ -7,10 +7,10 @@ import { Home, DollarSign, GraduationCap, Shield, Car, MapPin, TrendingUp, Users
 
 export const metadata: Metadata = {
   title: 'Irvine vs Newport Beach Home Buying Guide 2025 | Best Neighborhoods Orange County',
-  description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage rates, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
+  description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage pricing, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
   openGraph: {
     title: 'Irvine vs Newport Beach Home Buying Guide 2025 | Best Neighborhoods Orange County',
-    description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage rates, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
+    description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage pricing, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
     type: 'article',
     publishedTime: '2025-03-15T10:00:00Z',
   },
@@ -90,7 +90,7 @@ export default function IrvineVsNewportBeachGuide() {
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                 <GraduationCap className="w-6 h-6 text-green-600" />
               </div>
-              <h2 className="text-3xl font-bold text-slate-900">Irvine Home Loans and Mortgage Rates</h2>
+              <h2 className="text-3xl font-bold text-slate-900">Irvine Home Loans and Mortgage pricing</h2>
             </div>
 
             <div className="space-y-6">
@@ -185,7 +185,7 @@ export default function IrvineVsNewportBeachGuide() {
                 <li>• <strong>Loan Amount:</strong> $1.4M average (often jumbo loans)</li>
                 <li>• <strong>Down Payment:</strong> 10-20% typical ($140K-$280K)</li>
                 <li>• <strong>Popular Programs:</strong> Conventional, Jumbo, Investment property loans</li>
-                <li>• <strong>Credit Score:</strong> 720+ recommended for best rates</li>
+                <li>• <strong>Credit Score:</strong> 720+ recommended for best pricing</li>
               </ul>
             </div>
             <div>
@@ -204,7 +204,7 @@ export default function IrvineVsNewportBeachGuide() {
             </p>
             <Link href="/contact">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Get Your Custom Rate Quote
+                Get Your Custom pricing Quote
               </Button>
             </Link>
           </div>

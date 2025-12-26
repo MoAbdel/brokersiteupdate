@@ -152,7 +152,7 @@ export default function HELOCPage() {
                   <td className="px-6 py-4 text-center text-green-600 font-bold">Variable Rate</td>
                   <td className="px-6 py-4 text-center text-slate-600">8-18%</td>
                   <td className="px-6 py-4 text-center text-slate-600">18-29%</td>
-                  <td className="px-6 py-4 text-center text-slate-600">Current Mortgage Rates</td>
+                  <td className="px-6 py-4 text-center text-slate-600">Current Mortgage pricing</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Access to Funds</td>
@@ -212,7 +212,7 @@ export default function HELOCPage() {
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">🎓 Education Expenses</h3>
-                <p className="text-slate-600 mb-3">College tuition, private school, or educational expenses with lower rates than student loans.</p>
+                <p className="text-slate-600 mb-3">College tuition, private school, or educational expenses with Lower pricing than student loans.</p>
                 <p className="text-sm font-semibold text-green-600">Lower than student loans</p>
               </CardContent>
             </Card>
@@ -245,7 +245,7 @@ export default function HELOCPage() {
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 640+</p>
-                    <p className="text-slate-600 text-sm">Higher scores qualify for better rates</p>
+                    <p className="text-slate-600 text-sm">Higher scores qualify for Better pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -321,7 +321,7 @@ export default function HELOCPage() {
             Ready to Unlock Your Orange County Home's Equity?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized HELOC rates and terms from multiple lenders in minutes
+            Get personalized HELOC pricing and terms from multiple lenders in minutes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -353,7 +353,7 @@ export default function HELOCPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

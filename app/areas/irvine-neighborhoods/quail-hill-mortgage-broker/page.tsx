@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Quail Hill Irvine Mortgage Broker | Premium Community Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, competitive rates. Call (949) 579-2057.',
+  description: 'Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/quail-hill-mortgage-broker',
   },
@@ -142,7 +142,7 @@ export default function QuailHillMortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="Quail Hill Irvine Mortgage Broker | Premium Community Home Loans | Mo Abdel NMLS #1426884"
-        description="Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, competitive rates."
+        description="Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, Competitive pricing."
         city="Quail Hill, Irvine"
         canonicalUrl="https://mothebroker.com/areas/irvine-neighborhoods/quail-hill-mortgage-broker"
         content={quailHillData}

@@ -116,7 +116,7 @@ export default function QuickQuote() {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Thank You for Your Inquiry!</h3>
               <p className="text-slate-600 mb-6">
-                We received your information and will be reaching out within 1 business day with your personalized rate quote. 
+                We received your information and will be reaching out within 1 business day with your personalized loan quote. 
                 Mo will personally review your details to ensure you get the best possible terms.
               </p>
               <Button 
@@ -137,7 +137,7 @@ export default function QuickQuote() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Get Your Personalized Rate Quote
+            Get Your Personalized pricing Quote
           </h2>
           <p className="text-xl text-slate-600">
             Takes 60 seconds • No impact to your credit • 100% Free
@@ -147,7 +147,7 @@ export default function QuickQuote() {
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Get Your Free Quote</h2>
           <p className="text-slate-600 mb-6">
-            Fill out the form below and I'll get back to you within 1 business day with a personalized rate quote.
+            Fill out the form below and I'll get back to you within 1 business day with a personalized loan quote.
           </p>
           
           {showError && (
@@ -296,7 +296,7 @@ export default function QuickQuote() {
                 "Processing..."
               ) : (
                 <>
-                  Get My Rate Quote
+                  Get My pricing Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </>
               )}

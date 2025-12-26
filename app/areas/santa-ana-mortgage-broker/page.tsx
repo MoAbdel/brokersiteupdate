@@ -7,7 +7,7 @@ import { MapPin, Home, Building2, Users, TrendingUp, Heart, Briefcase } from 'lu
 
 export const metadata: Metadata = {
   title: 'Santa Ana Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Santa Ana mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Downtown, Floral Park, French Park. Call (949) 579-2057.',
+  description: 'Santa Ana mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Downtown, Floral Park, French Park. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/santa-ana-mortgage-broker',
   },
@@ -63,7 +63,7 @@ export default function SantaAnaMortgageBrokerPage() {
     {
       title: 'HELOC for Improvements',
       description: 'Access your home equity for renovations and property improvements',
-      benefits: ['Up to $500K credit lines', 'Prime + 0% intro rates', 'Tax-deductible interest'],
+      benefits: ['Up to $500K credit lines', 'Prime + 0% intro pricing', 'Tax-deductible interest'],
       icon: <TrendingUp className="w-8 h-8 text-purple-600" />
     }
   ];
@@ -82,14 +82,14 @@ export default function SantaAnaMortgageBrokerPage() {
             <span className="text-blue-600">Santa Ana</span> Mortgage Broker: FHA Loans and VA Loans
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Competitive mortgage rates for Santa Ana homebuyers and homeowners. Specializing in 
+            Competitive mortgage pricing for Santa Ana homebuyers and homeowners. Specializing in 
             FHA loans, first-time buyer programs, and HELOC for Downtown, Floral Park, 
             French Park, and all Santa Ana communities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Get Santa Ana Mortgage Rates
+                Get Santa Ana Mortgage pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -257,7 +257,7 @@ export default function SantaAnaMortgageBrokerPage() {
                 <span className="font-bold">$125K</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-slate-700">Property Tax Rate:</span>
+                <span className="text-slate-700">Property Tax Percentage:</span>
                 <span className="font-bold">~0.73%</span>
               </div>
             </div>
@@ -340,7 +340,7 @@ export default function SantaAnaMortgageBrokerPage() {
             Ready for Your Santa Ana Mortgage?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized rates for your Santa Ana neighborhood and loan needs
+            Get personalized pricing for your Santa Ana neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

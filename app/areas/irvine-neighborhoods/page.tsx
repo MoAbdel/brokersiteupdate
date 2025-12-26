@@ -4,7 +4,7 @@ import { JsonLd } from '@/app/(marketing)/components/Schema';
 export const metadata = {
   title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
   description:
-    'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale rates.',
+    'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
   alternates: { canonical: 'https://mothebroker.com/areas/irvine-neighborhoods' },
   robots: { index: true, follow: true },
   openGraph: {

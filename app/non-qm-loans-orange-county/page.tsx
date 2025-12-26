@@ -77,7 +77,7 @@ const loanTypes = [
   {
     type: 'Foreign National Loans',
     description: 'Designed for non-U.S. citizens purchasing American real estate',
-    features: ['No U.S. credit required', 'International income accepted', 'Competitive rates']
+    features: ['No U.S. credit required', 'International income accepted', 'Competitive pricing']
   },
   {
     type: 'Interest-Only Loans',
@@ -323,8 +323,8 @@ export default function NonQMLoansOrangeCounty() {
                 answer: 'Documentation varies by program but may include: 12-24 months of bank statements, profit & loss statements, asset statements, CPA letters, or other alternative income verification methods.'
               },
               {
-                question: 'Are interest rates higher on Non-QM loans?',
-                answer: 'Non-QM loans typically have slightly higher rates than traditional loans due to the additional flexibility and risk. However, they often provide access to financing that wouldn\'t otherwise be available.'
+                question: 'Are loan pricing higher on Non-QM loans?',
+                answer: 'Non-QM loans typically have slightly higher pricing than traditional loans due to the additional flexibility and risk. However, they often provide access to financing that wouldn\'t otherwise be available.'
               }
             ].map((faq, index) => (
               <Card key={index} className="shadow-lg border-0">

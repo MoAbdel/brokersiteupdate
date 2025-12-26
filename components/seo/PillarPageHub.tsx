@@ -108,7 +108,7 @@ export default function PillarPageHub() {
             Ready to Start Your Mortgage Journey?
           </h3>
           <p className="text-lg text-slate-600 mb-6">
-            Use our tools and guides to prepare, then get your personalized rate quote
+            Use our tools and guides to prepare, then get your personalized loan quote
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -122,7 +122,7 @@ export default function PillarPageHub() {
               href="/contact"
               className="inline-flex items-center border-2 border-blue-600 text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors"
             >
-              Get Rate Quote
+              Get Loan Quote
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
           </div>

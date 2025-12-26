@@ -8,7 +8,7 @@ export default function WestCapitalAdvantage() {
     {
       title: 'Conventional/Jumbo',
       description: 'Up to $4M',
-      details: 'Competitive rates for strong credit profiles'
+      details: 'Competitive pricing for strong credit profiles'
     },
     {
       title: 'FHA/VA/USDA',

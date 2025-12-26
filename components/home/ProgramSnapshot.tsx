@@ -14,7 +14,7 @@ const programs = [
   {
     icon: RefreshCw,
     title: "Refinance",
-    description: "Lower your rate, access equity, or change loan terms. Rate-and-term, cash-out, and HELOC options available.",
+    description: "Lower your pricing, access equity, or change loan terms. Rate-and-term, cash-out, and HELOC options available.",
     features: ["Rate & term refinancing", "Cash-out up to 80% LTV", "HELOC credit lines"],
     intent: "refinance"
   },

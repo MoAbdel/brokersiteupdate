@@ -31,7 +31,7 @@ interface CityPageProps {
 
 export function generateCityMetadata(cityData: CityData): Metadata {
   const title = `${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`;
-  const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, competitive rates, and fast closings. Free consultation. Licensed & bonded.`;
+  const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
 
   return {
     title,
@@ -68,11 +68,11 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
   const structuredFAQ = [
     {
       question: `What makes Mo Abdel the best mortgage broker in ${cityData.name}?`,
-      answer: `Mo Abdel offers access to 200+ lenders, ensuring ${cityData.name} residents get the most competitive rates. With NMLS #1426884 licensing and average 18-day closings, we provide expert service tailored to the local market.`
+      answer: `Mo Abdel offers access to 200+ lenders, ensuring ${cityData.name} residents get the most Competitive pricing. With NMLS #1426884 licensing and average 18-day closings, we provide expert service tailored to the local market.`
     },
     {
-      question: `What are current mortgage rates in ${cityData.name}?`,
-      answer: `Mortgage rates in ${cityData.name} vary based on loan type, credit score, and down payment. Current rates start around 6.125% for 30-year fixed loans. Contact Mo for personalized rate quotes based on your specific situation.`
+      question: `What are current mortgage pricing in ${cityData.name}?`,
+      answer: `Mortgage pricing in ${cityData.name} vary based on loan type, credit score, and down payment. Current pricing start around 6.125% for 30-year fixed loans. Contact Mo for personalized loan quotes based on your specific situation.`
     },
     {
       question: `How much house can I afford in ${cityData.name}?`,
@@ -108,7 +108,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
     `FHA loans ${cityData.name}`,
     `VA loans ${cityData.name}`,
     'Orange County mortgage',
-    'competitive mortgage rates',
+    'competitive mortgage pricing',
     'NMLS licensed broker',
     'fast mortgage closing',
     'competitive lender access',
@@ -119,7 +119,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
     <>
       <LLMOptimizedSEO 
         title={`${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`}
-        description={`Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, competitive rates, and fast closings. Free consultation. Licensed & bonded.`}
+        description={`Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`}
         keywords={keywordsList}
         city={cityData.name}
         canonicalUrl={canonicalUrl}
@@ -149,7 +149,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
             
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
               Expert mortgage services for {cityData.name} residents. Access to 200+ lenders, 
-              competitive rates, and personalized service. NMLS #1426884 Licensed & Bonded.
+              Competitive pricing, and personalized service. NMLS #1426884 Licensed & Bonded.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -173,7 +173,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
         <section className="py-12 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">
-              {cityData.name} Mortgage Rates and Housing Market Overview
+              {cityData.name} Mortgage pricing and Housing Market Overview
             </h2>
             
             <div className="grid md:grid-cols-4 gap-6">
@@ -248,7 +248,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">200+ Lenders</h3>
                     <p className="text-slate-600">
-                      Access to more loan programs and better rates than any single bank can offer {cityData.name} borrowers.
+                      Access to more loan programs and Better pricing than any single bank can offer {cityData.name} borrowers.
                     </p>
                   </div>
                 </div>
@@ -355,7 +355,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
               Ready to Get Started with Your {cityData.name} Mortgage?
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Get a personalized rate quote and pre-approval in minutes. No obligation.
+              Get a personalized loan quote and pre-approval in minutes. No obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

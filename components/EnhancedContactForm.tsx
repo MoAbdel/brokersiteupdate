@@ -31,7 +31,7 @@ const LOAN_PROGRAMS = {
   },
   refinance: {
     title: 'Rate & Term Refinance', 
-    description: 'Lower your rate or change loan terms',
+    description: 'Lower your pricing or change loan terms',
     programs: ['Conventional Refi', 'FHA Streamline', 'VA IRRRL', 'Cash-Out Options']
   },
   'cash-out': {
@@ -46,7 +46,7 @@ const LOAN_PROGRAMS = {
   },
   heloan: {
     title: 'HELOAN',
-    description: 'Home Equity Loan with fixed rate and monthly payments',
+    description: 'Home Equity Loan with fixed pricing and monthly payments',
     programs: ['Fixed-Rate HELOAN', 'Lump Sum Loan', 'Predictable Payments']
   },
   investment: {
@@ -177,14 +177,14 @@ export default function EnhancedContactForm() {
       }
     }
     
-    // Current market rates (2025)
+    // Current Market pricing (2025)
     const getRateByLoanType = (type: string) => {
       switch (type.toLowerCase()) {
         case 'fha': return 0.06125; // 6.125%
         case 'va': return 0.0599; // 5.99%
         case 'jumbo': return 0.06625; // 6.625%
         case 'heloc': return 0.0875; // 8.75% (Prime + margin)
-        case 'heloan': return 0.085; // 8.5% (Fixed rate)
+        case 'heloan': return 0.085; // 8.5% (Fixed pricing)
         case 'conventional':
         default: return 0.06125; // 6.125%
       }
@@ -447,7 +447,7 @@ export default function EnhancedContactForm() {
           <ul className="text-left text-slate-700 mb-6 space-y-2">
             <li className="flex items-center">
               <span className="text-green-600 mr-2">•</span>
-              <span>Personalized rate quotes for your situation</span>
+              <span>Personalized loan quotes for your situation</span>
             </li>
             <li className="flex items-center">
               <span className="text-green-600 mr-2">•</span>
@@ -724,7 +724,7 @@ export default function EnhancedContactForm() {
 
                   <div>
                     <label className="block text-sm font-medium text-slate-700 mb-2">
-                      Current Interest Rate (%) *
+                      Current Interest Pricing (%) *
                     </label>
                     <input
                       type="text"
@@ -788,7 +788,7 @@ export default function EnhancedContactForm() {
 
                   <div>
                     <label className="block text-sm font-medium text-slate-700 mb-2">
-                      Current Interest Rate (%) *
+                      Current Interest Pricing (%) *
                     </label>
                     <input
                       type="text"
@@ -893,11 +893,11 @@ export default function EnhancedContactForm() {
                     <div className="mb-3 p-3 bg-blue-100 rounded-lg">
                       <div className="grid grid-cols-2 gap-4 text-sm">
                         <div>
-                          <span className="text-slate-600">Current Rate:</span>
+                          <span className="text-slate-600">Current Pricing:</span>
                           <div className="font-semibold">{calculatorResults.currentRate.toFixed(2)}%</div>
                         </div>
                         <div>
-                          <span className="text-slate-600">New Rate:</span>
+                          <span className="text-slate-600">New Pricing:</span>
                           <div className="font-semibold text-green-700">{calculatorResults.newRate.toFixed(2)}%</div>
                         </div>
                         <div>
@@ -926,7 +926,7 @@ export default function EnhancedContactForm() {
                                 {formData.loanPurpose === 'cash-out' ? (
                                   <>💰 Cash-Out Analysis: Access ${parseFloat(formData.cashOutAmount?.replace(/[^0-9.]/g, '') || '0').toLocaleString()} equity for a ${Math.round(Math.abs(calculatorResults.monthlyDifference)).toLocaleString()}/month increase. Evaluate if the cash meets your financial goals.</>
                                 ) : (
-                                  <>⚠️ Your current rate is better - refinancing not recommended</>
+                                  <>⚠️ Your current pricing is better - refinancing not recommended</>
                                 )}
                               </div>
                             </div>
@@ -941,7 +941,7 @@ export default function EnhancedContactForm() {
                       *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}. 
                       Estimate based on {calculatorResults.loanType || 'current'} loan at {calculatorResults.newRate?.toFixed(2)}%. 
                       {calculatorResults.loanType !== 'HELOC' && 'Does not include taxes, insurance, or HOA. '}
-                      Actual rates and terms may vary.
+                      Actual pricing and terms may vary.
                     </div>
                   </div>
                 </div>

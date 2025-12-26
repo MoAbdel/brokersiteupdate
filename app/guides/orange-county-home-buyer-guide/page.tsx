@@ -52,7 +52,7 @@ const loanOptions = [
     name: 'Conventional Loans',
     downPayment: '3-20%',
     maxAmount: '$1,089,300',
-    description: 'Traditional financing with competitive rates and flexible terms',
+    description: 'Traditional financing with Competitive pricing and flexible terms',
     link: '/conventional-loans-orange-county'
   },
   {
@@ -151,7 +151,7 @@ const faqs = [
   },
   {
     question: 'What credit score do I need to buy a home in Orange County?',
-    answer: 'Minimum credit scores vary by loan type: FHA loans accept scores as low as 580, conventional loans typically require 620+, and VA loans are flexible. For the best rates on Orange County\'s high-value homes, aim for 740+. Higher scores also help in competitive bidding situations.'
+    answer: 'Minimum credit scores vary by loan type: FHA loans accept scores as low as 580, conventional loans typically require 620+, and VA loans are flexible. For the best pricing on Orange County\'s high-value homes, aim for 740+. Higher scores also help in competitive bidding situations.'
   },
   {
     question: 'Are there first-time buyer programs in Orange County?',
@@ -469,7 +469,7 @@ export default function OrangeCountyHomeBuyerGuide() {
             Ready to Start Your Orange County Home Buying Journey?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Get pre-approved today and start shopping with confidence. Access competitive rates from 200+ lenders 
+            Get pre-approved today and start shopping with confidence. Access Competitive pricing from 200+ lenders 
             with personalized service from experienced Orange County mortgage broker Mo Abdel.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

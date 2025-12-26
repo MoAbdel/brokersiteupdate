@@ -29,7 +29,7 @@ export default function FHALoansPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Buy your Orange County home with as little as 3.5% down payment. FHA loans offer 
-            government backing with flexible credit requirements and competitive rates - 
+            government backing with flexible credit requirements and Competitive pricing - 
             perfect for first-time homebuyers and those with limited down payment savings.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -128,7 +128,7 @@ export default function FHALoansPage() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance, and MIP. Rates vary.</p>
+                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance, and MIP. Pricing varies.</p>
               </div>
             </div>
           </div>
@@ -164,9 +164,9 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Competitive Interest Rates</h3>
-                <p className="text-slate-600 mb-3">FHA rates are often similar to or better than conventional loan rates, especially for buyers with lower credit scores.</p>
-                <p className="text-sm font-semibold text-blue-600">Government backing = better rates</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Competitive Interest pricing</h3>
+                <p className="text-slate-600 mb-3">FHA pricing is often similar to or better than conventional loan pricing, especially for buyers with lower credit scores.</p>
+                <p className="text-sm font-semibold text-blue-600">Government backing = Better pricing</p>
               </CardContent>
             </Card>
 
@@ -432,7 +432,7 @@ export default function FHALoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

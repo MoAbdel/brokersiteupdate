@@ -44,7 +44,7 @@ const heloanBenefits = [
       'Lock in today\'s rates for the loan term',
       'No payment surprises or rate adjustments',
       'Budget with confidence for years to come',
-      'Protection from rising interest rate environment'
+      'Protection from rising loan pricing environment'
     ]
   },
   {
@@ -61,12 +61,12 @@ const heloanBenefits = [
   {
     title: 'Lower Rates Than Alternatives',
     icon: TrendingUp,
-    description: 'Competitive rates secured by your home',
+    description: 'Competitive pricing secured by your home',
     details: [
       'Much lower than credit card rates',
       'Better terms than personal loans',
-      'Secured by home equity for better rates',
-      'Competitive with Orange County market rates'
+      'Secured by home equity for Better pricing',
+      'Competitive with Orange County Market pricing'
     ]
   },
   {
@@ -96,8 +96,8 @@ const faqs = [
     answer: "HELOANs provide fixed rates and predictable payments, ideal for one-time expenses like major renovations or debt consolidation. HELOCs offer flexible access with variable rates, better for ongoing expenses. In Orange County's volatile rate environment, many homeowners prefer the predictability of a fixed-rate HELOAN."
   },
   {
-    question: "What are current HELOAN rates in Orange County?",
-    answer: "HELOAN rates are typically fixed and slightly higher than first mortgage rates but much lower than credit cards or personal loans. Rates depend on credit score, loan-to-value ratio, and loan amount. As a broker with access to multiple lenders, I can shop rates to find your best option in Orange County's competitive market."
+    question: "What are current HELOAN pricing in Orange County?",
+    answer: "HELOAN pricing is typically fixed and slightly higher than first mortgage pricing but much lower than credit cards or personal loans. Rates depend on credit score, loan-to-value ratio, and loan amount. As a broker with access to multiple lenders, I can shop rates to find your best option in Orange County's competitive market."
   },
   {
     question: "How much can I borrow with a HELOAN in Orange County?",
@@ -108,9 +108,9 @@ const faqs = [
 const comparisonData = [
   {
     feature: 'Interest Rate Type',
-    heloan: 'Fixed rate for entire term',
-    heloc: 'Variable rate (tied to prime)',
-    cashOut: 'Fixed rate for entire term'
+    heloan: 'Fixed pricing for entire term',
+    heloc: 'Variable pricing (tied to prime)',
+    cashOut: 'Fixed pricing for entire term'
   },
   {
     feature: 'Access to Funds',
@@ -134,7 +134,7 @@ const comparisonData = [
     feature: 'Best For',
     heloan: 'Fixed amount, one-time use',
     heloc: 'Ongoing expenses, flexible needs',
-    cashOut: 'Large amounts, lower first mortgage rate'
+    cashOut: 'Large amounts, lower first mortgage pricing'
   }
 ];
 
@@ -159,7 +159,7 @@ const commonUses = [
       'Eliminate personal loan debt',
       'Simplify monthly budget management'
     ],
-    benefit: 'Lower interest rates and single monthly payment'
+    benefit: 'Lower loan pricing and single monthly payment'
   },
   {
     category: 'Major Life Expenses',
@@ -209,7 +209,7 @@ export default function HELOANOrangeCountyPage() {
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
                 <a href="tel:(949) 579-2057" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
-                  Get HELOAN Rates & Terms
+                  Get HELOAN Pricing & Terms
                 </a>
               </Button>
               <Link href="/contact">
@@ -375,7 +375,7 @@ export default function HELOANOrangeCountyPage() {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span><strong>Credit Score:</strong> 680+ for best rates</span>
+                      <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />

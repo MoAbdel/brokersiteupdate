@@ -344,7 +344,7 @@ export default function MortgageQuiz() {
                           <option value="20%">20%</option>
                           <option value="25%">25%+</option>
                         </select>
-                        <p className="text-xs text-slate-500 mt-1">Higher down payments typically get better rates</p>
+                        <p className="text-xs text-slate-500 mt-1">Higher down payments typically get Better pricing</p>
                       </div>
                     </>
                   ) : formData.intent === 'refinance' ? (
@@ -376,7 +376,7 @@ export default function MortgageQuiz() {
                           onChange={(e) => setFormData(prev => ({ ...prev, currentRate: e.target.value }))}
                           className="w-full px-3 py-2 border border-slate-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
                         />
-                        <p className="text-xs text-slate-500 mt-1">Your current interest rate</p>
+                        <p className="text-xs text-slate-500 mt-1">Your current loan pricing</p>
                       </div>
 
                       <div>
@@ -398,7 +398,7 @@ export default function MortgageQuiz() {
                           <option value="$200,000 - $300,000">$200,000 - $300,000</option>
                           <option value="Over $300,000">Over $300,000</option>
                         </select>
-                        <p className="text-xs text-slate-500 mt-1">Select if you want to take cash out or just lower your rate</p>
+                        <p className="text-xs text-slate-500 mt-1">Select if you want to take cash out or just lower your pricing</p>
                       </div>
                     </>
                   ) : (
@@ -458,7 +458,7 @@ export default function MortgageQuiz() {
                             onChange={(e) => setFormData(prev => ({ ...prev, currentRate: e.target.value }))}
                             className="w-full px-3 py-2 border border-slate-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
                           />
-                          <p className="text-xs text-slate-500 mt-1">Your current interest rate (if applicable)</p>
+                          <p className="text-xs text-slate-500 mt-1">Your current loan pricing (if applicable)</p>
                         </div>
                       )}
 

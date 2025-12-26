@@ -7,7 +7,7 @@ import { MapPin, Home, TrendingUp, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Orange County Service Areas | Local Mortgage Broker by City | NEXA Mortgage',
-  description: 'Mo Abdel serves all Orange County cities as your local mortgage broker. Find lending programs, rates and market insights for your specific OC area.',
+  description: 'Mo Abdel serves all Orange County cities as your local mortgage broker. Find lending programs, pricing and market insights for your specific OC area.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas',
   },
@@ -91,7 +91,7 @@ export default function NeighborhoodGuidePage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Mo Abdel provides mortgage services throughout Orange County. 
-            Find local market insights, lending programs, and competitive rates for your specific area.
+            Find local market insights, lending programs, and Competitive pricing for your specific area.
           </p>
           <div className="flex items-center justify-center text-slate-700 mb-8">
             <MapPin className="w-6 h-6 text-blue-600 mr-2" />
@@ -282,7 +282,7 @@ export default function NeighborhoodGuidePage() {
                 <TrendingUp className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900">NEXA Mortgage Access</h3>
-                  <p className="text-slate-600">Access to 200+ lenders means better rates and terms than retail banks</p>
+                  <p className="text-slate-600">Access to 200+ lenders means Better pricing and terms than retail banks</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -306,7 +306,7 @@ export default function NeighborhoodGuidePage() {
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Serving Orange County Remotely</h3>
             <p className="text-slate-700 mb-6">
               While my brokerage office is located in Mesa, Arizona, I work remotely to serve 
-              Orange County clients with the same personalized attention and competitive rates. 
+              Orange County clients with the same personalized attention and Competitive pricing. 
               Modern technology allows us to complete your entire mortgage process efficiently and securely.
             </p>
             <div className="space-y-2 text-sm">
@@ -324,7 +324,7 @@ export default function NeighborhoodGuidePage() {
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                <span>Competitive rates and terms</span>
+                <span>Competitive pricing and terms</span>
               </div>
             </div>
           </div>
@@ -336,7 +336,7 @@ export default function NeighborhoodGuidePage() {
             Ready to Get Started in Your Orange County Area?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get area-specific mortgage rates and lending programs
+            Get area-specific mortgage pricing and lending programs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

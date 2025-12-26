@@ -4,15 +4,15 @@ import { FAQItem } from '@/components/FAQ';
 export const generalMortgageFAQs: FAQItem[] = [
   {
     question: "What does a mortgage broker do?",
-    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 200+ lenders and can shop your loan to find the best rates, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
+    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 200+ lenders and can shop your loan to find the best pricing, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
   },
   {
     question: "How much does a mortgage broker cost in Orange County?",
-    answer: "In most cases, mortgage brokers are paid by the lender, not the borrower, meaning their services are typically free to you. The lender pays the broker a commission (usually 1-2% of the loan amount) after your loan closes successfully. This means you get access to multiple lenders and expert guidance at no direct cost, while often securing better rates than going directly to a single bank."
+    answer: "In most cases, mortgage brokers are paid by the lender, not the borrower, meaning their services are typically free to you. The lender pays the broker a commission (usually 1-2% of the loan amount) after your loan closes successfully. This means you get access to multiple lenders and expert guidance at no direct cost, while often securing better pricing than going directly to a single bank."
   },
   {
     question: "What credit score is needed to qualify for a mortgage in Orange County?",
-    answer: "Credit score requirements vary by loan type: FHA loans accept scores as low as 580 with 3.5% down (or 500 with 10% down), conventional loans typically require 620+, VA loans are flexible with no strict minimum, and jumbo loans usually need 700+. However, higher scores (740+) get the best rates. Even with lower scores, experienced brokers can find loan programs that work for your situation."
+    answer: "Credit score requirements vary by loan type: FHA loans accept scores as low as 580 with 3.5% down (or 500 with 10% down), conventional loans typically require 620+, VA loans are flexible with no strict minimum, and jumbo loans usually need 700+. However, higher scores (740+) get the best pricing. Even with lower scores, experienced brokers can find loan programs that work for your situation."
   },
   {
     question: "How long does the mortgage process take with a broker?",
@@ -20,7 +20,7 @@ export const generalMortgageFAQs: FAQItem[] = [
   },
   {
     question: "What are the benefits of using a mortgage broker vs. going directly to a bank?",
-    answer: "Mortgage brokers offer several key advantages: access to 200+ lenders vs. one bank's products, competitive shopping for the best rates and terms, expert guidance through complex loan programs, personalized service throughout the process, and often better rates than retail banks. Brokers work for you, not the lender, ensuring you get the loan that best fits your needs and financial goals."
+    answer: "Mortgage brokers offer several key advantages: access to 200+ lenders vs. one bank's products, competitive shopping for the best pricing and terms, expert guidance through complex loan programs, personalized service throughout the process, and often better pricing than retail banks. Brokers work for you, not the lender, ensuring you get the loan that best fits your needs and financial goals."
   }
 ];
 
@@ -72,7 +72,7 @@ export const helocFAQs: FAQItem[] = [
   },
   {
     question: "What are current HELOC rates in Orange County?",
-    answer: "HELOC rates are typically variable and based on the Prime Rate plus a margin (usually 0% to 2%). Many Orange County lenders offer promotional rates like Prime + 0% for the first 6-12 months. Current rates are generally lower than credit cards or personal loans, making HELOCs cost-effective for major expenses."
+    answer: "HELOC pricing is typically variable and based on the Prime Rate plus a margin (usually 0% to 2%). Many Orange County lenders offer promotional rates like Prime + 0% for the first 6-12 months. Current pricing are generally lower than credit cards or personal loans, making HELOCs cost-effective for major expenses."
   },
   {
     question: "What can I use HELOC funds for?",
@@ -88,19 +88,19 @@ export const helocFAQs: FAQItem[] = [
 export const jumboLoanFAQs: FAQItem[] = [
   {
     question: "What is considered a jumbo loan in Orange County?",
-    answer: "In Orange County, jumbo loans are mortgages above $1,089,300 for single-family homes (2025 limits). Given Orange County's high property values, most homes in areas like Newport Beach, Irvine, and Laguna Beach require jumbo financing. These loans have different requirements than conforming loans but offer competitive rates."
+    answer: "In Orange County, jumbo loans are mortgages above $1,089,300 for single-family homes (2025 limits). Given Orange County's high property values, most homes in areas like Newport Beach, Irvine, and Laguna Beach require jumbo financing. These loans have different requirements than conforming loans but offer Competitive pricing."
   },
   {
     question: "What down payment is required for jumbo loans?",
-    answer: "Jumbo loans typically require 10-20% down payment, though some programs allow as little as 5-10% for highly qualified borrowers. For a $1.5M Orange County home, that's $150,000-$300,000 down. Larger down payments (20%+) generally secure better rates and avoid mortgage insurance."
+    answer: "Jumbo loans typically require 10-20% down payment, though some programs allow as little as 5-10% for highly qualified borrowers. For a $1.5M Orange County home, that's $150,000-$300,000 down. Larger down payments (20%+) generally secure better pricing and avoid mortgage insurance."
   },
   {
     question: "Are jumbo loan rates higher than conventional loans?",
-    answer: "Not necessarily. Jumbo loan rates are often competitive with or even lower than conventional loan rates, especially for well-qualified borrowers. Orange County's jumbo market is highly competitive, and mortgage brokers can shop multiple jumbo lenders to find the best rates and terms for your situation."
+    answer: "Not necessarily. Jumbo loan pricing is often competitive with or even lower than conventional loan rates, especially for well-qualified borrowers. Orange County's jumbo market is highly competitive, and mortgage brokers can shop multiple jumbo lenders to find the best pricing and terms for your situation."
   },
   {
     question: "What credit score is needed for jumbo loans?",
-    answer: "Jumbo loans typically require credit scores of 700+ for the best rates, with 740+ preferred. However, some lenders accept scores as low as 660 with compensating factors like larger down payments or higher income. Orange County's competitive jumbo market means options exist for various credit profiles."
+    answer: "Jumbo loans typically require credit scores of 700+ for the best pricing, with 740+ preferred. However, some lenders accept scores as low as 660 with compensating factors like larger down payments or higher income. Orange County's competitive jumbo market means options exist for various credit profiles."
   }
 ];
 
@@ -108,7 +108,7 @@ export const jumboLoanFAQs: FAQItem[] = [
 export const refinancingFAQs: FAQItem[] = [
   {
     question: "When should I consider refinancing my Orange County home?",
-    answer: "Consider refinancing when rates drop 0.5-1% below your current rate, when your credit has improved significantly, to eliminate PMI, to switch from adjustable to fixed rate, or to access home equity through cash-out refinancing. With Orange County's appreciation, many homeowners have substantial equity to tap."
+    answer: "Consider refinancing when pricing drops 0.5-1% below your current pricing, when your credit has improved significantly, to eliminate PMI, to switch from adjustable to fixed pricing, or to access home equity through cash-out refinancing. With Orange County's appreciation, many homeowners have substantial equity to tap."
   },
   {
     question: "What are the costs involved in refinancing?",
@@ -120,6 +120,6 @@ export const refinancingFAQs: FAQItem[] = [
   },
   {
     question: "How long does the refinancing process take?",
-    answer: "Refinancing typically takes 2-3 weeks from application to closing. The process includes application, appraisal, underwriting, and final approval. Working with an experienced Orange County mortgage broker can streamline the process and ensure you're getting the best available rates and terms."
+    answer: "Refinancing typically takes 2-3 weeks from application to closing. The process includes application, appraisal, underwriting, and final approval. Working with an experienced Orange County mortgage broker can streamline the process and ensure you're getting the best available pricing and terms."
   }
 ];

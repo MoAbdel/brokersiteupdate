@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92625 Corona del Mar Mortgage Broker | Beachside ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, competitive rates. Call (949) 579-2057.',
+  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker',
   },
@@ -159,7 +159,7 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="92625 Corona del Mar Mortgage Broker | Beachside ZIP Code Specialist | Mo Abdel NMLS #1426884"
-        description="92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, competitive rates."
+        description="92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing."
         city="92625, Corona del Mar"
         canonicalUrl="https://mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker"
         content={zipCodeData}
@@ -402,7 +402,7 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
               Ready to Finance Your 92625 Beachside Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized luxury financing expertise for ZIP code 92625. Beachside market knowledge, premium service, competitive rates for Corona del Mar's finest properties.
+              Get specialized luxury financing expertise for ZIP code 92625. Beachside market knowledge, premium service, Competitive pricing for Corona del Mar's finest properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

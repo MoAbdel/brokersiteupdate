@@ -266,7 +266,7 @@ export default function HuntingtonBeachVsCostaMesaGuide() {
                 <li>• <strong>Loan Amount:</strong> $850K average (jumbo loans)</li>
                 <li>• <strong>Down Payment:</strong> 5-15% typical ($42K-$127K)</li>
                 <li>• <strong>Popular Programs:</strong> Conventional, FHA (some areas), Jumbo</li>
-                <li>• <strong>Credit Score:</strong> 700+ for competitive rates</li>
+                <li>• <strong>Credit Score:</strong> 700+ for Competitive pricing</li>
               </ul>
             </div>
           </div>
@@ -276,7 +276,7 @@ export default function HuntingtonBeachVsCostaMesaGuide() {
             </p>
             <Link href="/contact">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Get Your Rate Quote
+                Get Your pricing Quote
               </Button>
             </Link>
           </div>

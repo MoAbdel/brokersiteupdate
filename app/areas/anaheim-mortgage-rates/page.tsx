@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Anaheim Mortgage Rates 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
-  description: 'Current Anaheim mortgage rates and home loan options. Compare FHA, VA, conventional rates in Anaheim CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
+  title: 'Anaheim Mortgage pricing 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  description: 'Current Anaheim mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Anaheim CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Anaheim Mortgage Rates 2025 | Best Home Loan Rates CA',
-    description: 'Current Anaheim mortgage rates and home loan options. Compare FHA, VA, conventional rates in Anaheim CA.',
+    title: 'Anaheim Mortgage pricing 2025 | Best Home Loan Rates CA',
+    description: 'Current Anaheim mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Anaheim CA.',
     type: 'website',
   },
   alternates: {
@@ -39,7 +39,7 @@ const anaheimData = {
     'Diverse housing options',
     'Strong rental market'
   ],
-  keywordPhrase: 'Anaheim mortgage rates'
+  keywordPhrase: 'Anaheim mortgage pricing'
 };
 
 export default function AnaheimMortgageRatesPage() {

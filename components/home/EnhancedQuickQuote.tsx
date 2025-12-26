@@ -31,7 +31,7 @@ const LOAN_PROGRAMS = {
   },
   refinance: {
     title: 'Rate & Term Refinance', 
-    description: 'Lower your rate or change loan terms',
+    description: 'Lower your pricing or change loan terms',
     programs: ['Conventional Refi', 'FHA Streamline', 'VA IRRRL', 'Cash-Out Options']
   },
   'cash-out': {
@@ -46,7 +46,7 @@ const LOAN_PROGRAMS = {
   },
   heloan: {
     title: 'HELOAN',
-    description: 'Home Equity Loan with fixed rate and monthly payments',
+    description: 'Home Equity Loan with fixed pricing and monthly payments',
     programs: ['Fixed-Rate HELOAN', 'Lump Sum Loan', 'Predictable Payments']
   },
   investment: {
@@ -172,14 +172,14 @@ export default function EnhancedQuickQuote() {
       }
     }
     
-    // Current market rates (2025)
+    // Current Market pricing (2025)
     const getRateByLoanType = (type: string) => {
       switch (type.toLowerCase()) {
         case 'fha': return 0.06125; // 6.125%
         case 'va': return 0.0599; // 5.99%
         case 'jumbo': return 0.06625; // 6.625%
         case 'heloc': return 0.0875; // 8.75% (Prime + margin)
-        case 'heloan': return 0.085; // 8.5% (Fixed rate)
+        case 'heloan': return 0.085; // 8.5% (Fixed pricing)
         case 'conventional':
         default: return 0.06125; // 6.125%
       }
@@ -340,7 +340,7 @@ export default function EnhancedQuickQuote() {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Thank You for Your Orange County Mortgage Inquiry!</h3>
               <p className="text-slate-600 mb-6">
-                We received your information and will be reaching out within 1 business day with your personalized rate quote for {formData.city ? `${formData.city}, ` : ''}Orange County. 
+                We received your information and will be reaching out within 1 business day with your personalized loan quote for {formData.city ? `${formData.city}, ` : ''}Orange County. 
                 Mo will personally review your details to ensure you get the best possible terms from our 200+ lender network.
               </p>
               {calculatorResults && (
@@ -348,7 +348,7 @@ export default function EnhancedQuickQuote() {
                   <p className="text-sm text-slate-600">
                     <strong>Your Estimated Monthly Payment:</strong> ${Math.round(calculatorResults.monthlyPayment).toLocaleString()}*
                     <br />
-                    <em className="text-xs">*Educational estimate only. Actual rates and payments determined after application and credit review.</em>
+                    <em className="text-xs">*Educational estimate only. Actual pricing and payments determined after application and credit review.</em>
                   </p>
                 </div>
               )}
@@ -390,10 +390,10 @@ export default function EnhancedQuickQuote() {
         {/* Header with SEO-optimized content */}
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Get Your Orange County Mortgage Rate Quote
+            Get Your Orange County Mortgage pricing Quote
           </h2>
           <p className="text-xl text-slate-600 mb-4">
-            Personalized rates from 200+ lenders • 3-step process • NMLS #1426884
+            Personalized pricing from 200+ lenders • 3-step process • NMLS #1426884
           </p>
           <div className="flex items-center justify-center space-x-4 text-sm text-slate-500 mb-6">
             <div className="flex items-center">
@@ -712,7 +712,7 @@ export default function EnhancedQuickQuote() {
 
                     <div>
                       <label className="block text-sm font-medium text-slate-700 mb-2">
-                        Current Interest Rate (%) *
+                        Current Interest Pricing (%) *
                       </label>
                       <input
                         type="text"
@@ -782,7 +782,7 @@ export default function EnhancedQuickQuote() {
 
                     <div>
                       <label className="block text-sm font-medium text-slate-700 mb-2">
-                        Current Interest Rate (%) *
+                        Current Interest Pricing (%) *
                       </label>
                       <input
                         type="text"
@@ -911,7 +911,7 @@ export default function EnhancedQuickQuote() {
                     <div className="text-sm text-slate-600 text-center">
                       <div className="mt-2 text-xs text-slate-500">
                         *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}. 
-                        Property tax and insurance not included. Rates shown are sample estimates for educational purposes. 
+                        Property tax and insurance not included. Pricing shown are sample estimates for educational purposes. 
                         Your actual rate and payment will be determined after application, credit check, 
                         and income verification. NMLS #1426884.
                       </div>
@@ -1066,7 +1066,7 @@ export default function EnhancedQuickQuote() {
                     "Getting Your Quote..."
                   ) : (
                     <>
-                      Get My Orange County Rate Quote
+                      Get My Orange County Loan Quote
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </>
                   )}

@@ -44,7 +44,7 @@ const luxuryLoanPrograms = [
   {
     program: 'Jumbo Mortgages',
     limit: '$1.09M - $3M+',
-    features: ['Competitive rates', 'Flexible terms', 'Fast closing'],
+    features: ['Competitive pricing', 'Flexible terms', 'Fast closing'],
     icon: TrendingUp
   },
   {
@@ -197,7 +197,7 @@ export default function LuxuryMarketsPage() {
                 <TrendingUp className="w-7 h-7 text-blue-600 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Competitive Terms</h3>
-                  <p className="text-slate-600">Negotiate the best possible rates and terms for luxury properties with flexible underwriting guidelines</p>
+                  <p className="text-slate-600">Negotiate the best possible pricing and terms for luxury properties with flexible underwriting guidelines</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -220,7 +220,7 @@ export default function LuxuryMarketsPage() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-sm">Jumbo loans up to $3M with competitive rates</span>
+                <span className="text-sm">Jumbo loans up to $3M with Competitive pricing</span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>

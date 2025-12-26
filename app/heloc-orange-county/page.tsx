@@ -6,10 +6,10 @@ import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, Cred
 
 export const metadata: Metadata = {
   title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
-  description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, competitive rates, expert guidance.',
+  description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
   openGraph: {
     title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
-    description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, competitive rates, expert guidance.',
+    description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
     url: 'https://mothebroker.com/heloc-orange-county',
   },
   alternates: {
@@ -48,7 +48,7 @@ const helocBenefits = [
     ]
   },
   {
-    title: 'Competitive Rates',
+    title: 'Competitive pricing',
     icon: TrendingUp,
     description: 'Variable rates typically lower than credit cards',
     details: [
@@ -88,8 +88,8 @@ const faqs = [
     answer: "A HELOC is a revolving credit line secured by your home's equity. You can draw funds as needed during the 10-year draw period, paying only interest on what you use. After the draw period, you enter a 20-year repayment phase with principal and interest payments. With Orange County's high home values, many homeowners can access substantial credit lines."
   },
   {
-    question: "What are current HELOC rates in Orange County?",
-    answer: "HELOC rates are variable and typically tied to the prime rate. As of 2025, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
+    question: "What are current HELOC pricing in Orange County?",
+    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2025, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
   },
   {
     question: "How much can I borrow with a HELOC in Orange County?",
@@ -97,7 +97,7 @@ const faqs = [
   },
   {
     question: "HELOC vs Cash-Out Refinance - which is better?",
-    answer: "HELOCs offer more flexibility since you only pay interest on what you use and can access funds repeatedly. Cash-out refinancing gives you a lump sum at a fixed rate. HELOCs are better for ongoing expenses or uncertain amounts, while cash-out refinancing works better for one-time large expenses with predictable costs."
+    answer: "HELOCs offer more flexibility since you only pay interest on what you use and can access funds repeatedly. Cash-out refinancing gives you a lump sum at a fixed pricing. HELOCs are better for ongoing expenses or uncertain amounts, while cash-out refinancing works better for one-time large expenses with predictable costs."
   },
   {
     question: "What are the requirements for a HELOC in Orange County?",
@@ -114,9 +114,9 @@ const comparisonData = [
   },
   {
     feature: 'Interest Rate',
-    heloc: 'Variable rate (tied to prime)',
-    cashOut: 'Fixed rate',
-    heloan: 'Fixed rate'
+    heloc: 'Variable pricing (tied to prime)',
+    cashOut: 'Fixed pricing',
+    heloan: 'Fixed pricing'
   },
   {
     feature: 'Payment Structure',
@@ -354,7 +354,7 @@ export default function HELOCOrangeCountyPage() {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span><strong>Credit Score:</strong> 680+ for best rates</span>
+                      <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />

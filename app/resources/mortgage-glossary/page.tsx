@@ -74,13 +74,13 @@ export default function Page() {
       heading: 'A - E',
       body: (
         <div className="space-y-3">
-          <div><strong>Adjustable-Rate Mortgage (ARM):</strong> A loan with an interest rate that can change periodically based on market conditions, typically offering lower initial rates than fixed-rate mortgages.</div>
+          <div><strong>Adjustable-Rate Mortgage (ARM):</strong> A loan with an loan pricing that can change periodically based on market conditions, typically offering lower initial rates than fixed-rate mortgages.</div>
           <div><strong>Amortization:</strong> The process of paying off a loan through regular payments that cover both principal and interest over the loan term.</div>
-          <div><strong>Annual Percentage Rate (APR):</strong> The yearly cost of credit including interest rate and fees, expressed as a percentage, allowing comparison between different loan offers.</div>
+          <div><strong>Annual Percentage Rate (APR):</strong> The yearly cost of credit including loan pricing and fees, expressed as a percentage, allowing comparison between different loan offers.</div>
           <div><strong>Appraisal:</strong> A professional assessment of a property's market value, required by lenders to ensure the loan amount doesn't exceed the property's worth.</div>
           <div><strong>Asset Depletion:</strong> A loan program that qualifies borrowers based on assets rather than traditional income, useful for retirees or high-net-worth individuals.</div>
           <div><strong>Bank Statement Loan:</strong> A non-QM loan program that uses bank statements rather than tax returns to verify income, popular with self-employed borrowers.</div>
-          <div><strong>Basis Point:</strong> One-hundredth of a percentage point (0.01%), commonly used to describe small changes in interest rates.</div>
+          <div><strong>Basis Point:</strong> One-hundredth of a percentage point (0.01%), commonly used to describe small changes in loan pricing.</div>
           <div><strong>Cash-Out Refinance:</strong> Refinancing for more than you owe on your current mortgage, taking the difference in cash to use for other purposes.</div>
           <div><strong>Closing Costs:</strong> Fees and expenses paid at the closing of a real estate transaction, typically 2-3% of the loan amount.</div>
           <div><strong>Conforming Loan:</strong> A mortgage that meets the standards set by government-sponsored enterprises like Fannie Mae and Freddie Mac, with loan limits that vary by county.</div>
@@ -101,11 +101,11 @@ export default function Page() {
       body: (
         <div className="space-y-3">
           <div><strong>FHA Loan:</strong> Federal Housing Administration-insured loan with lower down payment requirements and more flexible credit standards.</div>
-          <div><strong>Fixed-Rate Mortgage:</strong> A loan with an interest rate that remains constant throughout the entire loan term.</div>
+          <div><strong>Fixed-Rate Mortgage:</strong> A loan with an loan pricing that remains constant throughout the entire loan term.</div>
           <div><strong>Foreign National Loan:</strong> Specialized financing for non-U.S. citizens purchasing U.S. real estate, with unique documentation requirements.</div>
           <div><strong>Gift Letter:</strong> Documentation proving that down payment funds received from family members are gifts, not loans that must be repaid.</div>
           <div><strong>Good Faith Estimate:</strong> Now replaced by the Loan Estimate, this document outlined expected loan costs and terms.</div>
-          <div><strong>Hard Money Loan:</strong> Short-term, asset-based financing typically used for investment properties or quick transactions, with higher rates than traditional mortgages.</div>
+          <div><strong>Hard Money Loan:</strong> Short-term, asset-based financing typically used for investment properties or quick transactions, with higher pricing than traditional mortgages.</div>
           <div><strong>HELOC (Home Equity Line of Credit):</strong> A revolving credit line secured by home equity, allowing borrowers to draw funds as needed up to a predetermined limit.</div>
           <div><strong>Home Equity Loan:</strong> A fixed-amount second mortgage that uses home equity as collateral, providing a lump sum with fixed payments.</div>
           <div><strong>Homeowners Insurance:</strong> Required insurance coverage protecting the property and lender's interest against damage and liability.</div>
@@ -123,7 +123,7 @@ export default function Page() {
         <div className="space-y-3">
           <div><strong>Loan Estimate:</strong> A standardized form provided within three days of application, outlining loan terms, projected payments, and closing costs.</div>
           <div><strong>Loan-to-Value Ratio (LTV):</strong> The percentage of a property's value that is financed, calculated by dividing the loan amount by the property value.</div>
-          <div><strong>Lock Period:</strong> The timeframe during which a lender guarantees a specific interest rate, typically 30-60 days.</div>
+          <div><strong>Lock Period:</strong> The timeframe during which a lender guarantees a specific loan pricing, typically 30-60 days.</div>
           <div><strong>Margin:</strong> The fixed percentage added to an ARM's index rate to determine the fully indexed rate.</div>
           <div><strong>Mello-Roos:</strong> Special assessment districts in California that fund infrastructure and services in new developments, common in newer Orange County communities.</div>
           <div><strong>Mortgage Insurance:</strong> Protection for lenders against borrower default, required on conventional loans with less than 20% down payment.</div>
@@ -140,13 +140,13 @@ export default function Page() {
       body: (
         <div className="space-y-3">
           <div><strong>PITI:</strong> Principal, Interest, Taxes, and Insurance - the four main components of most monthly mortgage payments.</div>
-          <div><strong>Points:</strong> Prepaid interest paid at closing to reduce the ongoing interest rate, with each point typically equaling 1% of the loan amount.</div>
+          <div><strong>Points:</strong> Prepaid interest paid at closing to reduce the ongoing loan pricing, with each point typically equaling 1% of the loan amount.</div>
           <div><strong>Pre-Approval:</strong> A lender's conditional commitment to loan money based on preliminary review of finances and credit.</div>
           <div><strong>Pre-Qualification:</strong> An informal estimate of loan eligibility based on self-reported financial information.</div>
           <div><strong>Principal:</strong> The original loan amount or the remaining balance owed on a mortgage, excluding interest.</div>
           <div><strong>Private Mortgage Insurance (PMI):</strong> Insurance protecting conventional lenders when borrowers put down less than 20%.</div>
           <div><strong>QM (Qualified Mortgage):</strong> Loans meeting Consumer Financial Protection Bureau standards for safer lending practices.</div>
-          <div><strong>Rate Lock:</strong> An agreement guaranteeing a specific interest rate for a specified period during the loan process.</div>
+          <div><strong>Rate Lock:</strong> An agreement guaranteeing a specific loan pricing for a specified period during the loan process.</div>
           <div><strong>Refinance:</strong> Replacing an existing mortgage with a new loan, typically to achieve better terms or access equity.</div>
           <div><strong>Second Mortgage:</strong> An additional loan secured by the same property, subordinate to the first mortgage in case of default.</div>
           <div><strong>Self-Employed Verification:</strong> Documentation process for borrowers who work for themselves, often requiring additional income verification.</div>
@@ -163,7 +163,7 @@ export default function Page() {
           <div><strong>Underwriting:</strong> The process of evaluating a loan application to determine approval and terms based on credit, income, assets, and property value.</div>
           <div><strong>USDA Loan:</strong> Government-backed loans for eligible rural and suburban areas, offering 100% financing to qualified borrowers.</div>
           <div><strong>VA Loan:</strong> Department of Veterans Affairs-guaranteed loans for eligible service members, veterans, and spouses, often with no down payment requirement.</div>
-          <div><strong>Variable Rate:</strong> An interest rate that can change over time based on market conditions, common in HELOCs and adjustable-rate mortgages.</div>
+          <div><strong>Variable Rate:</strong> An loan pricing that can change over time based on market conditions, common in HELOCs and adjustable-rate mortgages.</div>
           <div><strong>Verification of Assets:</strong> Documentation proving sufficient funds for down payment and closing costs, typically requiring bank statements.</div>
           <div><strong>Verification of Employment:</strong> Confirmation of borrower's job status and income, usually obtained directly from employers.</div>
           <div><strong>Wholesale Lender:</strong> Lenders who work exclusively through mortgage brokers rather than directly with consumers, often providing competitive pricing.</div>

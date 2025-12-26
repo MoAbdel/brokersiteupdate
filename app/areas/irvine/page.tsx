@@ -92,7 +92,7 @@ export default function Page() {
       heading: 'Popular financing options in Irvine',
       body: (
         <ul className="space-y-2">
-          <li><strong>Jumbo loans:</strong> Essential for most Irvine purchases, with competitive rates through wholesale pricing.</li>
+          <li><strong>Jumbo loans:</strong> Essential for most Irvine purchases, with Competitive pricing through wholesale pricing.</li>
           <li><strong>HELOCs & Home Equity Loans:</strong> Popular for home improvements, given Irvine's appreciation and renovation potential.</li>
           <li><strong>Cash-out refinance:</strong> Allows homeowners to access equity while potentially improving their first mortgage terms.</li>
           <li><strong>Investment property loans:</strong> DSCR and bank-statement programs for real estate investors in Irvine's rental market.</li>

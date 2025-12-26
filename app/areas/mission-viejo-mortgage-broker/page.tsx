@@ -7,7 +7,7 @@ import { MapPin, Home, GraduationCap, Shield, TrendingUp, Users, Building, TreeP
 
 export const metadata: Metadata = {
   title: 'Mission Viejo Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Mission Viejo mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Saddleback Valley, Lake Mission Viejo area. Call (949) 579-2057.',
+  description: 'Mission Viejo mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Saddleback Valley, Lake Mission Viejo area. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/mission-viejo-mortgage-broker',
   },
@@ -51,13 +51,13 @@ export default function MissionViejoMortgageBrokerPage() {
     {
       title: 'HELOC for Mission Viejo Homes',
       description: 'Access your home equity for education, improvements, or investments',
-      benefits: ['Up to $500K credit lines', 'Prime + 0% intro rates', 'No closing costs available'],
+      benefits: ['Up to $500K credit lines', 'Prime + 0% intro pricing', 'No closing costs available'],
       icon: <TrendingUp className="w-8 h-8 text-blue-600" />
     },
     {
       title: 'Conventional Loans',
       description: 'Standard financing for Mission Viejo master-planned communities',
-      benefits: ['As low as 3% down payment', 'No PMI with 20% down', 'Competitive interest rates'],
+      benefits: ['As low as 3% down payment', 'No PMI with 20% down', 'Competitive loan pricing'],
       icon: <Building className="w-8 h-8 text-green-600" />
     },
     {
@@ -82,7 +82,7 @@ export default function MissionViejoMortgageBrokerPage() {
             <span className="text-blue-600">Mission Viejo</span> Mortgage Broker: FHA Loans and Refinancing
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Competitive mortgage rates for Mission Viejo homebuyers and homeowners. Specializing in 
+            Competitive mortgage pricing for Mission Viejo homebuyers and homeowners. Specializing in 
             HELOC, conventional loans, and refinancing for Lake Mission Viejo, Saddleback Valley, 
             and all Mission Viejo master-planned communities. Compare with other family-friendly areas in our 
             <Link href="/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide" className="text-blue-600 hover:text-blue-700 font-medium">Mission Viejo vs Irvine comparison guide</Link>.
@@ -90,7 +90,7 @@ export default function MissionViejoMortgageBrokerPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Get Mission Viejo Mortgage Rates
+                Get Mission Viejo Mortgage pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -258,7 +258,7 @@ export default function MissionViejoMortgageBrokerPage() {
                 <span className="font-bold">$220K</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-slate-700">Property Tax Rate:</span>
+                <span className="text-slate-700">Property Tax Percentage:</span>
                 <span className="font-bold">~0.68%</span>
               </div>
             </div>
@@ -394,7 +394,7 @@ export default function MissionViejoMortgageBrokerPage() {
             Ready for Your Mission Viejo Mortgage?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized rates for your Mission Viejo neighborhood and loan needs
+            Get personalized pricing for your Mission Viejo neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

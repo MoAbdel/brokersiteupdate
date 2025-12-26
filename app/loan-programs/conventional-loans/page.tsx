@@ -7,7 +7,7 @@ import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign } from '
 
 export const metadata: Metadata = {
   title: 'Conventional Loans Orange County | 3% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Conventional loans in Orange County with competitive rates and flexible terms. 3% down payment options available. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
+  description: 'Conventional loans in Orange County with Competitive pricing and flexible terms. 3% down payment options available. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
   },
@@ -27,7 +27,7 @@ export default function ConventionalLoansPage() {
             <span className="text-blue-600">Conventional Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            The most popular mortgage option with competitive rates, flexible terms, and as 
+            The most popular mortgage option with Competitive pricing, flexible terms, and as 
             little as 3% down payment. No government backing means more property types 
             and loan amounts available for Orange County buyers.
           </p>
@@ -58,7 +58,7 @@ export default function ConventionalLoansPage() {
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <TrendingUp className="w-8 h-8 text-green-600" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive Rates</h3>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
             <p className="text-slate-600">Often the lowest rates available in the market</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -135,7 +135,7 @@ export default function ConventionalLoansPage() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance, and PMI. Rates vary.</p>
+                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance, and PMI Pricing varies.</p>
               </div>
             </div>
           </div>
@@ -147,8 +147,8 @@ export default function ConventionalLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏆 Best Rates Available</h3>
-                <p className="text-slate-600 mb-3">Conventional loans typically offer the lowest interest rates, especially for buyers with good credit scores (740+).</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">🏆 Best pricing Available</h3>
+                <p className="text-slate-600 mb-3">Conventional loans typically offer the lowest loan pricing, especially for buyers with good credit scores (740+).</p>
                 <p className="text-sm font-semibold text-blue-600">Often 0.125-0.25% lower than government loans</p>
               </CardContent>
             </Card>
@@ -172,7 +172,7 @@ export default function ConventionalLoansPage() {
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Higher Loan Amounts</h3>
-                <p className="text-slate-600 mb-3">Conforming loans up to $766,550 in Orange County, or go jumbo for unlimited amounts with competitive rates.</p>
+                <p className="text-slate-600 mb-3">Conforming loans up to $766,550 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
                 <p className="text-sm font-semibold text-blue-600">Perfect for Orange County prices</p>
               </CardContent>
             </Card>
@@ -261,7 +261,7 @@ export default function ConventionalLoansPage() {
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
-                  <span>Best interest rates</span>
+                  <span>Best loan pricing</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
@@ -286,7 +286,7 @@ export default function ConventionalLoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Credit Score: 620+ (740+ for best rates)</p>
+                    <p className="font-semibold text-slate-900">Credit Score: 620+ (740+ for best pricing)</p>
                     <p className="text-slate-600 text-sm">Higher scores unlock premium pricing</p>
                   </div>
                 </div>
@@ -342,7 +342,7 @@ export default function ConventionalLoansPage() {
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Investment Property Rules</p>
-                    <p className="text-slate-600 text-sm">25% down minimum, higher rates and reserves</p>
+                    <p className="text-slate-600 text-sm">25% down minimum, higher pricing and reserves</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -387,7 +387,7 @@ export default function ConventionalLoansPage() {
                   <td className="px-6 py-4 text-center text-slate-600">10-20%</td>
                 </tr>
                 <tr className="bg-slate-50">
-                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rates</td>
+                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest pricing</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Lowest*</td>
                   <td className="px-6 py-4 text-center text-slate-600">Competitive</td>
                   <td className="px-6 py-4 text-center text-slate-600">Competitive</td>
@@ -515,7 +515,7 @@ export default function ConventionalLoansPage() {
             Ready for the Most Popular Loan Program?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get pre-approved with competitive conventional loan rates and flexible terms
+            Get pre-approved with competitive conventional loan pricing and flexible terms
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -547,7 +547,7 @@ export default function ConventionalLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

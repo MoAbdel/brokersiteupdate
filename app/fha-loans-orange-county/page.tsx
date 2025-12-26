@@ -64,13 +64,13 @@ const fhaBenefits = [
     description: 'Transferable loan benefits for future buyers',
     details: [
       'Future buyers can assume your FHA loan',
-      'Maintain original interest rate',
+      'Maintain original loan pricing',
       'Adds value when selling your home',
       'Competitive advantage in Orange County market'
     ]
   },
   {
-    title: 'Competitive Interest Rates',
+    title: 'Competitive Interest pricing',
     icon: TrendingUp,
     description: 'Government-backed loan program rates',
     details: [
@@ -196,7 +196,7 @@ export default function FHALoansOrangeCountyPage() {
               Make homeownership affordable in Orange County with FHA loans requiring as little as 3.5% down. 
               Perfect for first-time buyers and those with less-than-perfect credit, FHA loans provide a path to 
               homeownership in one of California's most desirable markets. With flexible qualification requirements 
-              and competitive rates, FHA financing opens doors that might otherwise remain closed.
+              and Competitive pricing, FHA financing opens doors that might otherwise remain closed.
             </p>
             <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
               <p className="text-green-800 font-semibold text-lg">

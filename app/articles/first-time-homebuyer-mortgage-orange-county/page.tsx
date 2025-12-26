@@ -199,7 +199,7 @@ export default function FirstTimeHomebuyerArticle() {
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• $0 down payment required</li>
                         <li>• No private mortgage insurance</li>
-                        <li>• Competitive interest rates</li>
+                        <li>• Competitive loan pricing</li>
                         <li>• Flexible credit requirements</li>
                         <li>• No prepayment penalties</li>
                         <li>• Reusable benefit</li>
@@ -482,7 +482,7 @@ export default function FirstTimeHomebuyerArticle() {
                       <li>• Identify down payment assistance opportunities</li>
                       <li>• Navigate income and asset requirements</li>
                       <li>• Optimize loan structure for your situation</li>
-                      <li>• Access wholesale rates and relationships</li>
+                      <li>• Access wholesale pricing and relationships</li>
                     </ul>
                   </div>
                   
@@ -536,7 +536,7 @@ export default function FirstTimeHomebuyerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">What credit score do I need to buy in Orange County?</h3>
                     <p className="text-gray-700">
-                      Minimum credit scores vary by program: FHA allows scores as low as 580 (500 with 10% down), while conventional loans typically require 620+. However, higher scores (720+) unlock better rates and terms. If your score needs improvement, I can provide guidance on rapid rescoring strategies.
+                      Minimum credit scores vary by program: FHA allows scores as low as 580 (500 with 10% down), while conventional loans typically require 620+. However, higher scores (720+) unlock Better pricing and terms. If your score needs improvement, I can provide guidance on rapid rescoring strategies.
                     </p>
                   </div>
 
@@ -585,7 +585,7 @@ export default function FirstTimeHomebuyerArticle() {
                   </Link>
                   <Link href="/resources/credit-repair" className="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition">
                     <h4 className="font-semibold mb-2">Credit Improvement Guide</h4>
-                    <p className="text-sm text-gray-600">Strategies to boost your credit score and qualify for better rates.</p>
+                    <p className="text-sm text-gray-600">Strategies to boost your credit score and qualify for Better pricing.</p>
                   </Link>
                   <Link href="/resources/mortgage-glossary" className="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition">
                     <h4 className="font-semibold mb-2">Mortgage Glossary</h4>

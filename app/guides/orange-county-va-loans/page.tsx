@@ -16,7 +16,7 @@ export default function OrangeCountyVALoansGuide() {
       savings: "Save $300-800/month"
     },
     {
-      benefit: "Competitive Interest Rates",
+      benefit: "Competitive Interest pricing",
       description: "VA loans typically offer rates 0.125-0.25% below conventional loans",
       savings: "Save $50-150/month"
     },
@@ -196,7 +196,7 @@ export default function OrangeCountyVALoansGuide() {
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Complete guide to using your VA home loan benefits in Orange County. Buy with $0 down, 
-              no PMI, and competitive rates. Honor your service with homeownership.
+              no PMI, and Competitive pricing. Honor your service with homeownership.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -458,7 +458,7 @@ export default function OrangeCountyVALoansGuide() {
                 </div>
                 <ul className="space-y-2 text-blue-700">
                   <li>• No PMI required</li>
-                  <li>• Competitive interest rates</li>
+                  <li>• Competitive loan pricing</li>
                   <li>• Covers ~70% of OC homes</li>
                   <li>• Primary residence only</li>
                 </ul>

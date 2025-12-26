@@ -34,7 +34,7 @@ const loanProgramsDropdown: DropdownItem[] = [
   
   // Refinancing Options
   { title: '🔄 REFINANCING', url: '#', isHeader: true },
-  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
   
   // Home Purchase Loans
@@ -79,15 +79,15 @@ const serviceAreasDropdown: DropdownItem[] = [
   // Central Orange County
   { title: '🏢 CENTRAL', url: '#', isHeader: true },
   { title: 'Irvine', url: '/areas/irvine-mortgage-broker' },
-  { title: 'Irvine Rates', url: '/areas/irvine-mortgage-rates' },
+  { title: 'Irvine Loans', url: '/areas/irvine-mortgage-rates' },
   { title: 'Costa Mesa', url: '/areas/costa-mesa-mortgage-broker' },
-  { title: 'Costa Mesa Rates', url: '/areas/costa-mesa-mortgage-rates' },
+  { title: 'Costa Mesa Loans', url: '/areas/costa-mesa-mortgage-rates' },
   { title: 'Orange', url: '/areas/orange-mortgage-broker' },
   { title: 'Santa Ana', url: '/areas/santa-ana-mortgage-broker' },
-  { title: 'Santa Ana Rates', url: '/areas/santa-ana-mortgage-rates' },
+  { title: 'Santa Ana Loans', url: '/areas/santa-ana-mortgage-rates' },
   { title: 'Santa Ana Refinance', url: '/areas/santa-ana-refinance-rates' },
   { title: 'Fountain Valley', url: '/areas/fountain-valley-mortgage-broker' },
-  { title: 'Fountain Valley Rates', url: '/areas/fountain-valley-mortgage-rates' },
+  { title: 'Fountain Valley Loans', url: '/areas/fountain-valley-mortgage-rates' },
   
   // Irvine Neighborhoods
   { title: '🏘️ IRVINE NEIGHBORHOODS', url: '#', isHeader: true },
@@ -115,10 +115,10 @@ const serviceAreasDropdown: DropdownItem[] = [
   // North Orange County
   { title: '🏘️ NORTH', url: '#', isHeader: true },
   { title: 'Anaheim', url: '/areas/anaheim-mortgage-broker' },
-  { title: 'Anaheim Rates', url: '/areas/anaheim-mortgage-rates' },
+  { title: 'Anaheim Loans', url: '/areas/anaheim-mortgage-rates' },
   { title: 'Fullerton', url: '/areas/fullerton-mortgage-broker' },
   { title: 'Yorba Linda', url: '/areas/yorba-linda-mortgage-broker' },
-  { title: 'Yorba Linda Rates', url: '/areas/yorba-linda-mortgage-rates' },
+  { title: 'Yorba Linda Loans', url: '/areas/yorba-linda-mortgage-rates' },
   { title: 'Garden Grove', url: '/areas/garden-grove-mortgage-broker' },
   { title: 'Westminster', url: '/areas/westminster-mortgage-broker' },
   
@@ -126,7 +126,7 @@ const serviceAreasDropdown: DropdownItem[] = [
   { title: '🏡 SOUTH', url: '#', isHeader: true },
   { title: 'Mission Viejo', url: '/areas/mission-viejo-mortgage-broker' },
   { title: 'Laguna Niguel', url: '/areas/laguna-niguel-mortgage-broker' },
-  { title: 'Laguna Niguel Rates', url: '/areas/laguna-niguel-mortgage-rates' },
+  { title: 'Laguna Niguel Loans', url: '/areas/laguna-niguel-mortgage-rates' },
   { title: 'Laguna Woods', url: '/areas/laguna-woods-mortgage-broker' },
   
   // Beach Cities
@@ -235,7 +235,7 @@ const purchaseDropdown: DropdownItem[] = [
 const refinanceDropdown: DropdownItem[] = [
   // Refinancing Options
   { title: '🔄 REFINANCING', url: '#', isHeader: true },
-  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
   { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
 

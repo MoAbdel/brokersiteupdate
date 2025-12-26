@@ -69,13 +69,13 @@ export function generatePageMetadata(config: {
 export const PAGE_TEMPLATES = {
   loanProgram: (program: string, pathname: string) => ({
     title: `${program} | Mo Abdel - Orange County Mortgage Broker`,
-    description: `${program} in Orange County with competitive rates and fast closing. Licensed mortgage broker NMLS #1426884 serving all of Orange County.`,
+    description: `${program} in Orange County with Competitive pricing and fast closing. Licensed mortgage broker NMLS #1426884 serving all of Orange County.`,
     pathname,
   }),
   
   cityPage: (city: string, pathname: string) => ({
     title: `${city} Mortgage Broker | Mo Abdel NMLS #1426884`,
-    description: `Mortgage broker serving ${city}. Access 200+ lenders for competitive rates on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`,
+    description: `Mortgage broker serving ${city}. Access 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`,
     pathname,
   }),
   
@@ -103,17 +103,17 @@ export const PAGE_TEMPLATES = {
  */
 export function generateCityMetadata(city: string, pathname: string, type: 'broker' | 'rates' = 'broker') {
   const baseTitle = type === 'rates' 
-    ? `${city} Mortgage Rates | Current Rates & Programs`
+    ? `${city} Mortgage pricing | Current pricing & Programs`
     : `${city} Mortgage Broker | Mo Abdel NMLS #1426884`;
     
   const baseDescription = type === 'rates'
-    ? `Current mortgage rates in ${city}. Compare FHA, VA, conventional and jumbo loan rates. Licensed broker Mo Abdel, NMLS #1426884.`
-    : `Mortgage broker serving ${city}. Access 200+ lenders for competitive rates on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`;
+    ? `Current mortgage pricing in ${city}. Compare FHA, VA, conventional and jumbo loan rates. Licensed broker Mo Abdel, NMLS #1426884.`
+    : `Mortgage broker serving ${city}. Access 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`;
 
   return generatePageMetadata({
     title: baseTitle,
     description: baseDescription,
     pathname,
-    keywords: `${city} mortgage broker, ${city} mortgage rates, ${city} home loans, Orange County mortgage broker`,
+    keywords: `${city} mortgage broker, ${city} mortgage pricing, ${city} home loans, Orange County mortgage broker`,
   });
 }

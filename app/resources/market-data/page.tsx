@@ -177,7 +177,7 @@ export default function MarketDataPage() {
     },
     {
       title: 'Interest Rate Sensitivity',
-      description: 'Current mortgage rates in the 6-7% range are impacting buyer purchasing power compared to the 3% rates of 2021-2022.',
+      description: 'Current mortgage pricing in the 6-7% range are impacting buyer purchasing power compared to the 3% rates of 2021-2022.',
       impact: 'Affordability remains a challenge for many buyers'
     },
     {

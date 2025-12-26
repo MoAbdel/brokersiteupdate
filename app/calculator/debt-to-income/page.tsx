@@ -27,7 +27,7 @@ export default function DebtToIncomeCalculator() {
 
     // Determine approval likelihood
     let approvalStatus = 'excellent';
-    let approvalMessage = 'Excellent DTI ratios - you should qualify for the best rates!';
+    let approvalMessage = 'Excellent DTI ratios - you should qualify for the best pricing!';
     let recommendations = ['You\'re in great shape for a mortgage approval'];
 
     if (frontEndRatio > 28 || backEndRatio > 36) {
@@ -274,7 +274,7 @@ export default function DebtToIncomeCalculator() {
               <ul className="space-y-1 text-sm text-slate-600">
                 <li>• Front-end: Up to 28%</li>
                 <li>• Back-end: Up to 36%</li>
-                <li>• Best rates with lower DTI</li>
+                <li>• Best pricing with lower DTI</li>
               </ul>
             </div>
             

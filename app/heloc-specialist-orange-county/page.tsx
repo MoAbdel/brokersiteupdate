@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | West Capital Lending',
-  description: 'Orange County HELOC specialist. Access your home equity without losing your low rate. Competitive HEL OC rates, fast approvals. NMLS #1426884 | Company NMLS #1566096.',
+  description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #1566096.',
   alternates: {
     canonical: 'https://www.mothebroker.com/heloc-specialist-orange-county',
   },
@@ -27,7 +27,7 @@ export default function HELOCSpecialistOrangeCounty() {
               Orange County HELOC Specialist
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Access your home equity strategically—without giving up your 3% first mortgage rate
+              Access your home equity strategically—without giving up your existing first mortgage
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -60,7 +60,7 @@ export default function HELOCSpecialistOrangeCounty() {
                 Why HELOCs Are the Smart 2025 Strategy
               </h2>
               <p className="text-lg text-slate-600 mb-4">
-                If you locked in a mortgage rate below 4% in 2020-2021, you're sitting on one of the most valuable
+                If you locked in a low mortgage in 2020-2021, you're sitting on one of the most valuable
                 financial assets of your life. But what if you need cash?
               </p>
               <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-6">
@@ -68,8 +68,8 @@ export default function HELOCSpecialistOrangeCounty() {
                   <span className="text-red-600 font-bold">The Cash-Out Refinance Trap:</span>
                 </p>
                 <p className="text-slate-600">
-                  Refinancing your $800,000 loan from 3.25% to 6.75% to pull out $100,000 costs you an extra
-                  <span className="font-bold text-red-600"> $2,240/month</span> in interest—forever.
+                  Refinancing your $800,000 loan to pull out $100,000 means replacing your existing low-payment first mortgage
+                  with a new higher-payment loan—costing you <span className="font-bold text-red-600">thousands extra per month</span> in unnecessary payments.
                 </p>
               </div>
 
@@ -78,8 +78,8 @@ export default function HELOCSpecialistOrangeCounty() {
                   <span className="text-green-600 font-bold">The HELOC Solution:</span>
                 </p>
                 <p className="text-slate-600">
-                  Keep your 3.25% first mortgage untouched. Add a $100,000 HELOC at prime + 0.5% (currently ~9%)
-                  as a second lien. Your blended rate stays low, and you preserve your rate advantage.
+                  Keep your existing first mortgage untouched. Add a $100,000 HELOC as a second lien.
+                  You preserve your low first mortgage payment and only pay on the funds you actually use.
                 </p>
               </div>
             </div>
@@ -91,9 +91,9 @@ export default function HELOCSpecialistOrangeCounty() {
               <div className="space-y-6">
                 <div className="bg-white rounded-lg p-6 border-2 border-red-200">
                   <div className="text-sm text-red-600 font-semibold mb-2">CASH-OUT REFINANCE</div>
-                  <div className="text-sm text-slate-600 mb-3">$900K at 6.75% (refinancing 3.25% loan)</div>
+                  <div className="text-sm text-slate-600 mb-3">$900K new loan (refinancing existing $800K)</div>
                   <div className="text-3xl font-bold text-slate-900 mb-1">$5,835/mo</div>
-                  <div className="text-sm text-red-600">+$2,240/mo vs. keeping old rate</div>
+                  <div className="text-sm text-red-600">+$2,240/mo vs. keeping existing mortgage</div>
                 </div>
 
                 <div className="flex justify-center">
@@ -102,7 +102,7 @@ export default function HELOCSpecialistOrangeCounty() {
 
                 <div className="bg-white rounded-lg p-6 border-2 border-green-600">
                   <div className="text-sm text-green-600 font-semibold mb-2">HELOC STRATEGY</div>
-                  <div className="text-sm text-slate-600 mb-3">$800K @ 3.25% + $100K HELOC @ 9%</div>
+                  <div className="text-sm text-slate-600 mb-3">$800K existing mortgage + $100K HELOC</div>
                   <div className="text-3xl font-bold text-green-700 mb-1">$3,345/mo</div>
                   <div className="text-sm text-green-600">Save $2,490/mo • $897,000 over 30 years</div>
                 </div>
@@ -173,8 +173,8 @@ export default function HELOCSpecialistOrangeCounty() {
             {[
               { title: 'Home Renovations & Upgrades', description: 'Kitchen remodels, ADU construction, pool installation—projects that increase property value' },
               { title: 'Investment Property Down Payments', description: 'Leverage equity from your primary to acquire rental properties in Irvine, Newport Beach, or Costa Mesa' },
-              { title: 'Debt Consolidation', description: 'Pay off high-interest credit cards, auto loans, and student loans at HELOC rates' },
-              { title: 'College Tuition Funding', description: 'Alternative to Parent PLUS loans with potentially lower rates and flexible repayment' },
+              { title: 'Debt Consolidation', description: 'Pay off high-interest credit cards, auto loans, and student loans at HELOC pricing' },
+              { title: 'College Tuition Funding', description: 'Alternative to Parent PLUS loans with potentially better pricing and flexible repayment' },
               { title: 'Business Capital', description: 'Fund business expansion, equipment purchases, or working capital needs' },
               { title: 'Emergency Reserves', description: 'Maintain a credit line for unexpected expenses without tapping retirement accounts' }
             ].map((use, index) => (
@@ -208,7 +208,7 @@ export default function HELOCSpecialistOrangeCounty() {
               <ul className="space-y-4">
                 {[
                   'Revolving credit line—borrow as needed',
-                  'Variable rate (prime + margin)',
+                  'Flexible pricing options available',
                   'Interest-only payments during draw period',
                   'Flexibility to pay down and re-borrow',
                   'Lower closing costs',
@@ -227,11 +227,11 @@ export default function HELOCSpecialistOrangeCounty() {
               <ul className="space-y-4">
                 {[
                   'Lump sum disbursement',
-                  'Fixed rate (predictable payments)',
+                  'Fixed pricing (predictable payments)',
                   'Principal + interest from day one',
                   'Cannot re-borrow once paid down',
                   'Slightly higher closing costs',
-                  'Best for: One-time expense, rate certainty preferred'
+                  'Best for: One-time expense, payment certainty preferred'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-200 flex-shrink-0 mt-0.5" />
@@ -276,7 +276,7 @@ export default function HELOCSpecialistOrangeCounty() {
             Ready to Access Your Home Equity Strategically?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Get a free HELOC analysis and rate quote
+            Get a free HELOC analysis and loan quote
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -314,12 +314,12 @@ export default function HELOCSpecialistOrangeCounty() {
                 answer: 'Most lenders allow HELOCs up to 80-90% combined loan-to-value (CLTV). For example, if your home is worth $1M with a $600K first mortgage, you could access up to $300K with a HELOC (90% CLTV = $900K total debt - $600K existing = $300K available).'
               },
               {
-                question: 'What are current HELOC rates in Orange County?',
-                answer: 'HELOC rates are variable and tied to the prime rate plus a margin (typically 0.5% to 2%). As of 2025, this puts most HELOCs in the 8.5%-10.5% range. Exact rates depend on credit score, CLTV, and lender. We shop 100+ lenders to find your best pricing.'
+                question: 'How do HELOC payments work in Orange County?',
+                answer: 'HELOCs typically have a 10-year draw period with interest-only payments on what you borrow, followed by a 20-year repayment period. You only pay on the amount you actually use, and pricing depends on credit score, CLTV, and lender. We shop 100+ lenders to find your best pricing.'
               },
               {
-                question: 'Can I get a HELOC if I have a low first mortgage rate?',
-                answer: 'Absolutely—this is the ideal scenario for a HELOC. You preserve your low first mortgage rate and add a second lien for the funds you need. This blended rate strategy saves thousands compared to a cash-out refinance at today\'s higher rates.'
+                question: 'Can I get a HELOC if I have an existing low first mortgage?',
+                answer: 'Absolutely—this is the ideal scenario for a HELOC. You preserve your existing first mortgage payment and add a second lien for the funds you need. This strategy saves thousands compared to a cash-out refinance that would replace your current mortgage with a new higher-payment loan.'
               },
               {
                 question: 'How long does it take to get a HELOC approved?',

@@ -16,7 +16,7 @@ export default function MortgageProcess() {
       number: "02",
       icon: Search,
       title: "Rate Shopping",
-      description: "I shop 200+ lenders to find the best rates and terms for your specific loan needs.",
+      description: "I shop 200+ lenders to find the best pricing and terms for your specific loan needs.",
       timeline: "Day 1-2"
     },
     {

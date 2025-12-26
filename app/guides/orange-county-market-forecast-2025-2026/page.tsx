@@ -15,7 +15,7 @@ export default function OrangeCountyMarketForecast() {
       factors: ["Limited inventory", "Job growth", "Population growth"]
     },
     {
-      metric: "Interest Rates",
+      metric: "Interest pricing",
       current: "6.125-6.625%",
       q4_2025: "5.75-6.25%",
       q2_2026: "5.5-6.0%", 
@@ -82,7 +82,7 @@ export default function OrangeCountyMarketForecast() {
       appreciation: "5-8%",
       outlook: "Strong",
       drivers: ["Tech job growth", "New developments", "School quality"],
-      risks: ["High prices", "Interest rate sensitivity"]
+      risks: ["High prices", "Loan pricing sensitivity"]
     },
     {
       area: "Newport Beach",
@@ -181,7 +181,7 @@ export default function OrangeCountyMarketForecast() {
               Orange County Real Estate Market Forecast 2025-2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Expert analysis and predictions for Orange County's housing market. Interest rate forecasts, 
+              Expert analysis and predictions for Orange County's housing market. Loan pricing forecasts, 
               pricing trends, and optimal timing strategies for buyers and sellers.
             </p>
             

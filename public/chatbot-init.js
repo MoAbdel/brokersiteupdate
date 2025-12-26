@@ -177,7 +177,7 @@
           line-height: 1.4;
         ">
           👋 Hi! I'm Mo's AI assistant. I can help you with:<br>
-          • Current mortgage rates and programs<br>
+          • Current mortgage pricing and programs<br>
           • Loan qualifications and requirements<br>
           • First-time buyer information<br>
           • Refinancing options<br>
@@ -188,7 +188,7 @@
       
       <div style="padding: 0 16px 8px 16px;">
         <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <button onclick="sendIndependentMessage('What are current rates?')" style="
+          <button onclick="sendIndependentMessage('What are current pricing?')" style="
             font-size: 11px;
             background: #f3f4f6;
             border: none;
@@ -196,7 +196,7 @@
             padding: 6px 10px;
             border-radius: 12px;
             cursor: pointer;
-          ">Get Rate Quote</button>
+          ">Get Loan Quote</button>
           <button onclick="sendIndependentMessage('How can I contact Mo?')" style="
             font-size: 11px;
             background: #f3f4f6;
@@ -349,7 +349,7 @@
     const msg = message.toLowerCase();
     
     if (msg.includes('rate') || msg.includes('interest')) {
-      return 'Current rates vary by loan type and credit score. Today\\'s rates are approximately: 30-year fixed at 6.53%, 15-year fixed at 5.88%, FHA at 6.09%. With my wholesale lender access, I consistently secure competitive rates. Call me at <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> for your personalized rate quote.';
+      return 'Current rates vary by loan type and credit score. Today\\'s rates are approximately: 30-year fixed at 6.53%, 15-year fixed at 5.88%, FHA at 6.09%. With my wholesale lender access, I consistently secure competitive rates. Call me at <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> for your personalized loan quote.';
     }
     
     if (msg.includes('contact') || msg.includes('phone') || msg.includes('call')) {

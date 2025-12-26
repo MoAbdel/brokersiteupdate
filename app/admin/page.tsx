@@ -251,7 +251,7 @@ RateQuote.list('-created_at')
                 Admin Dashboard
               </h1>
               <p className="text-xl text-slate-600">
-                Manage mortgage rates, market insights, and customer inquiries
+                Manage mortgage pricing, market insights, and customer inquiries
               </p>
             </div>
             <Link href="/admin/weekly-update">
@@ -275,7 +275,7 @@ RateQuote.list('-created_at')
                     : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'
                 }`}
               >
-                Mortgage Rates ({rates.length})
+                Mortgage pricing ({rates.length})
               </button>
               <button
                 onClick={() => setActiveTab('insights')}
@@ -295,7 +295,7 @@ RateQuote.list('-created_at')
                     : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'
                 }`}
               >
-                Rate Quotes ({quotes.length})
+                Loan Quotes ({quotes.length})
               </button>
             </nav>
           </div>
@@ -639,7 +639,7 @@ RateQuote.list('-created_at')
             {quotes.length === 0 ? (
               <Card className="shadow-sm border-slate-200">
                 <CardContent className="p-8 text-center">
-                  <p className="text-slate-500">No rate quotes yet.</p>
+                  <p className="text-slate-500">No loan quotes yet.</p>
                 </CardContent>
               </Card>
             ) : (

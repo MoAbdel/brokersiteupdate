@@ -44,7 +44,7 @@ const dataSourceCategories = [
     sources: [
       {
         name: "Mortgage News Daily",
-        description: "Daily mortgage rates, market commentary",
+        description: "Daily mortgage pricing, market commentary",
         updateFrequency: "Daily",
         badge: "Industry Standard"
       },
@@ -55,13 +55,13 @@ const dataSourceCategories = [
         badge: "Official"
       },
       {
-        name: "FRED - Mortgage Rates",
+        name: "FRED - Mortgage pricing",
         description: "30-year fixed mortgage average",
         updateFrequency: "Weekly",
         badge: "Fed Data"
       },
       {
-        name: "Bankrate - Mortgage Rates",
+        name: "Bankrate - Mortgage pricing",
         description: "National average rates, rate trends",
         updateFrequency: "Daily",
         badge: "Consumer"

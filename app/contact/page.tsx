@@ -24,7 +24,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Ready to start your mortgage journey? I'm here to help every step of the way. 
-            Reach out today for your free consultation and rate quote.
+            Reach out today for your free consultation and loan quote.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
-                  <span>Access to exclusive competitive rates</span>
+                  <span>Access to exclusive Competitive pricing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>

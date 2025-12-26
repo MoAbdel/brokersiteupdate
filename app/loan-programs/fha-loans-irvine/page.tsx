@@ -27,7 +27,7 @@ export default function FHALoansIrvinePage() {
       "Credit scores as low as 580",
       "Government-backed mortgage insurance",
       "Perfect for Irvine condos and townhomes",
-      "Competitive rates with flexible terms"
+      "Competitive pricing with flexible terms"
     ],
     statistics: [
       {
@@ -124,7 +124,7 @@ export default function FHALoansIrvinePage() {
       icon: <CheckCircle className="w-6 h-6" />
     },
     {
-      title: 'Competitive Rates',
+      title: 'Competitive pricing',
       description: 'Often lower than conventional with poor credit',
       benefit: '2-3 week closing timeline typical',
       icon: <Star className="w-6 h-6" />
@@ -172,7 +172,7 @@ export default function FHALoansIrvinePage() {
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
           <h1>FHA Loans Irvine California 2025</h1>
-          <p>FHA loans in Irvine CA with 3.5% down payment for condos, townhomes, and single-family homes. Government-backed mortgages with flexible credit requirements and competitive rates. Expert guidance from Mo Abdel NMLS #1426884.</p>
+          <p>FHA loans in Irvine CA with 3.5% down payment for condos, townhomes, and single-family homes. Government-backed mortgages with flexible credit requirements and Competitive pricing. Expert guidance from Mo Abdel NMLS #1426884.</p>
           
           <h2>Irvine FHA Loan Benefits</h2>
           <ul>
@@ -393,7 +393,7 @@ export default function FHALoansIrvinePage() {
               Ready for Your Irvine FHA Loan?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized FHA financing expertise for Irvine condos and townhomes. Low down payment, competitive rates, local market knowledge.
+              Get specialized FHA financing expertise for Irvine condos and townhomes. Low down payment, Competitive pricing, local market knowledge.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

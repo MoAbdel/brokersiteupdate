@@ -1,23 +1,23 @@
 export const seoData = {
   Home: { 
     title: "Orange County Mortgage Broker | Mo Abdel NMLS #1426884", 
-    description: "Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale rates, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." 
+    description: "Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." 
   },
   About: { 
     title: "About Mo Abdel | NEXA Mortgage Broker", 
-    description: "Meet Mo Abdel – licensed mortgage broker helping clients in CA, WA, VA & CO get better rates, faster approvals, and more loan options. Specializing in Orange County home loans with access to 200+ lenders." 
+    description: "Meet Mo Abdel – licensed mortgage broker helping clients in CA, WA, VA & CO get Better pricing, faster approvals, and more loan options. Specializing in Orange County home loans with access to 200+ lenders." 
   },
   Programs: { 
     title: "Loan Programs | FHA, VA, Jumbo & HELOC | Orange County", 
-    description: "Explore FHA, VA, Jumbo, and HELOC options. Mo Abdel finds the right mortgage for your goals with competitive rates & flexible terms." 
+    description: "Explore FHA, VA, Jumbo, and HELOC options. Mo Abdel finds the right mortgage for your goals with Competitive pricing & flexible terms." 
   },
   Calculator: { 
     title: "Mortgage Calculator | Orange County Rates & Payments", 
-    description: "Use our free mortgage rate calculator to estimate your monthly payments, compare loan types, and explore refinancing options." 
+    description: "Use our free mortgage pricing calculator to estimate your monthly payments, compare loan types, and explore refinancing options." 
   },
   Contact: { 
     title: "Contact | Orange County Mortgage Broker | Mo Abdel", 
-    description: "Start your mortgage application with Mo Abdel. Serving Orange County & beyond with personalized loan solutions and competitive rates." 
+    description: "Start your mortgage application with Mo Abdel. Serving Orange County & beyond with personalized loan solutions and Competitive pricing." 
   }
 };
 
@@ -108,20 +108,20 @@ export const structuredData = {
     "https://mothebroker.com"
   ],
   "priceRange": "$$",
-  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homebuyers get access to over 200 lenders for competitive mortgage rates on home loans and refinancing. NMLS #1426884. Call (949) 579-2057 for local mortgage expertise.",
+  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homebuyers get access to over 200 lenders for competitive mortgage pricing on home loans and refinancing. NMLS #1426884. Call (949) 579-2057 for local mortgage expertise.",
   "image": "https://mothebroker.com/images/moabdel-headshot-final.png",
   "logo": "https://mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
   "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
   "currenciesAccepted": "USD",
-  "keywords": "mortgage broker near me, Orange County mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage rates"
+  "keywords": "mortgage broker near me, Orange County mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing"
 };
 
 export const mortgageLoanSchema = {
   "@context": "https://schema.org",
   "@type": "LoanOrCredit",
   "name": "Orange County Mortgage Loans",
-  "description": "FHA, VA, Conventional, Jumbo, and HELOC loans with competitive rates in Orange County, CA",
+  "description": "FHA, VA, Conventional, Jumbo, and HELOC loans with Competitive pricing in Orange County, CA",
   "provider": {
     "@type": "FinancialService",
     "name": "Mo Abdel - Mortgage Broker",
@@ -167,7 +167,7 @@ export const mortgageLoanSchema = {
     {
       "@type": "Offer",
       "name": "Rate & Term Refinance",
-      "description": "Lower your mortgage rate or eliminate PMI with refinancing",
+      "description": "Lower your mortgage pricing or eliminate PMI with refinancing",
       "url": "/rate-term-refinance-orange-county"
     }
   ]

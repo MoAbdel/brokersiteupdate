@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 export default function MortgageBrokerVsBankComparison() {
   const comparisonData = [
     {
-      category: "Interest Rates",
+      category: "Interest pricing",
       broker: {
         advantage: "Wholesale rates typically 0.125-0.25% lower",
-        details: "Access to wholesale pricing from 200+ lenders, can shop for best rates",
+        details: "Access to wholesale pricing from 200+ lenders, can shop for best pricing",
         rating: "excellent"
       },
       bank: {
@@ -137,7 +137,7 @@ export default function MortgageBrokerVsBankComparison() {
     {
       title: "Brand Recognition",
       description: "Well-known national or regional bank names",
-      limitation: "Name recognition doesn't guarantee best rates"
+      limitation: "Name recognition doesn't guarantee best pricing"
     },
     {
       title: "Branch Locations",
@@ -150,7 +150,7 @@ export default function MortgageBrokerVsBankComparison() {
     {
       aspect: "Rate Shopping",
       broker: "Compares rates from 200+ lenders to find lowest rate",
-      bank: "Offers only their current rate sheet",
+      bank: "Offers only their current pricing options",
       winner: "broker"
     },
     {
@@ -200,8 +200,8 @@ export default function MortgageBrokerVsBankComparison() {
   const orangeCountyConsiderations = [
     {
       factor: "High Home Prices",
-      broker: "Access to multiple jumbo lenders with competitive rates",
-      bank: "Limited jumbo options, often higher rates"
+      broker: "Access to multiple jumbo lenders with Competitive pricing",
+      bank: "Limited jumbo options, often higher pricing"
     },
     {
       factor: "Competitive Market",
@@ -272,7 +272,7 @@ export default function MortgageBrokerVsBankComparison() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">The Bottom Line</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Mortgage brokers typically offer better rates, more options, and personalized service
+              Mortgage brokers typically offer Better pricing, more options, and personalized service
               compared to traditional banks.
             </p>
           </div>
@@ -572,7 +572,7 @@ export default function MortgageBrokerVsBankComparison() {
                     "They offer meaningful relationship pricing",
                     "You prefer familiar institutions",
                     "Your situation is very straightforward",
-                    "You don't mind potentially higher rates",
+                    "You don't mind potentially higher pricing",
                     "You want all services in one place",
                     "You're not rate-shopping",
                     "You have simple loan needs"
@@ -642,7 +642,7 @@ export default function MortgageBrokerVsBankComparison() {
             </p>
             <p>
               Information based on typical market conditions and may vary by individual lender and borrower situation.
-              Actual rates, terms, and costs subject to credit approval and market conditions.
+              Actual pricing, terms, and costs subject to credit approval and market conditions.
             </p>
             <p>
               Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, Virginia, and Colorado.

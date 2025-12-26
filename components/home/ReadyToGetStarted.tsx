@@ -11,7 +11,7 @@ export default function ReadyToGetStarted() {
         <div className="bg-blue-600 text-white rounded-2xl p-8 text-center shadow-lg">
           <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
           <p className="text-xl text-blue-100 mb-8">
-            Get your personalized rate quote in under 60 seconds
+            Get your personalized loan quote in under 60 seconds
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/calculator">

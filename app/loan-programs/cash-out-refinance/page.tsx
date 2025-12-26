@@ -28,7 +28,7 @@ export default function CashOutRefinancePage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Replace your current mortgage with a larger loan and get cash from your Orange County 
-            home's equity at closing. Perfect for major expenses with potentially lower rates 
+            home's equity at closing. Perfect for major expenses with potentially Lower pricing 
             than your current mortgage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -59,7 +59,7 @@ export default function CashOutRefinancePage() {
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Lower Your Rate</h3>
-            <p className="text-slate-600">Potentially get cash AND lower your interest rate</p>
+            <p className="text-slate-600">Potentially get cash AND lower your loan pricing</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -201,7 +201,7 @@ export default function CashOutRefinancePage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-4">*When current rates are lower than your existing mortgage rate</p>
+          <p className="text-xs text-slate-500 mt-4">*When Current pricing are lower than your existing mortgage pricing</p>
         </div>
 
         {/* Popular Uses */}
@@ -219,7 +219,7 @@ export default function CashOutRefinancePage() {
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
-                <p className="text-slate-600 mb-3">Pay off high-interest credit cards, personal loans, and other debts with lower mortgage rates.</p>
+                <p className="text-slate-600 mb-3">Pay off high-interest credit cards, personal loans, and other debts with lower mortgage pricing.</p>
                 <p className="text-sm font-semibold text-orange-600">Potentially save thousands per year</p>
               </CardContent>
             </Card>
@@ -236,14 +236,14 @@ export default function CashOutRefinancePage() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💼 Business Investment</h3>
                 <p className="text-slate-600 mb-3">Start or expand a business with lower-cost capital than business loans or lines of credit.</p>
-                <p className="text-sm font-semibold text-orange-600">Lower rates than business loans</p>
+                <p className="text-sm font-semibold text-orange-600">Lower pricing than business loans</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">🎓 Education Expenses</h3>
-                <p className="text-slate-600 mb-3">College tuition, private school, or other educational investments at lower rates than student loans.</p>
+                <p className="text-slate-600 mb-3">College tuition, private school, or other educational investments at Lower pricing than student loans.</p>
                 <p className="text-sm font-semibold text-orange-600">Often better than student loans</p>
               </CardContent>
             </Card>
@@ -267,7 +267,7 @@ export default function CashOutRefinancePage() {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-green-700">Current rates are lower than your mortgage rate</span>
+                  <span className="text-green-700">Current pricing are lower than your mortgage pricing</span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
@@ -293,7 +293,7 @@ export default function CashOutRefinancePage() {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-red-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-red-700">Current rates are higher than your mortgage rate</span>
+                  <span className="text-red-700">Current pricing are higher than your mortgage pricing</span>
                 </div>
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-red-600 mr-3 mt-1 flex-shrink-0" />
@@ -326,7 +326,7 @@ export default function CashOutRefinancePage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Credit & Income</h3>
               <div className="text-sm text-slate-600 space-y-1">
-                <div>• Credit score: 620+ (640+ for best rates)</div>
+                <div>• Credit score: 620+ (640+ for best pricing)</div>
                 <div>• Debt-to-income: ≤45%</div>
                 <div>• 2+ years employment history</div>
                 <div>• Income documentation required</div>
@@ -365,7 +365,7 @@ export default function CashOutRefinancePage() {
             Ready to Access Your Orange County Home's Equity?
           </h2>
           <p className="text-xl mb-6 text-orange-100">
-            Get personalized cash-out refinance rates and see how much cash you can access
+            Get personalized cash-out refinance pricing and see how much cash you can access
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -397,7 +397,7 @@ export default function CashOutRefinancePage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

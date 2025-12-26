@@ -7,7 +7,7 @@ import { Shield, Star, Users, CheckCircle, AlertCircle, Flag } from 'lucide-reac
 
 export const metadata: Metadata = {
   title: 'VA Loans Orange County | 0% Down Military Benefits | Mo The Mortgage Broker NMLS #1426884',
-  description: 'VA loans in Orange County with 0% down payment for veterans and active military. No PMI, competitive rates. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
+  description: 'VA loans in Orange County with 0% down payment for veterans and active military. No PMI, Competitive pricing. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/va-loans',
   },
@@ -28,7 +28,7 @@ export default function VALoansPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Exclusive mortgage benefits for military veterans, active service members, and eligible 
-            spouses in Orange County. Buy with $0 down payment, no PMI, and competitive rates - 
+            spouses in Orange County. Buy with $0 down payment, no PMI, and Competitive pricing - 
             thank you for your service with the best home financing available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -65,8 +65,8 @@ export default function VALoansPage() {
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8 text-green-600" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive Rates</h3>
-            <p className="text-slate-600">Often lower than conventional loan rates</p>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
+            <p className="text-slate-600">Often lower than conventional loan pricing</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -480,7 +480,7 @@ export default function VALoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

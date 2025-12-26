@@ -33,8 +33,8 @@ export default function QuickActionHub() {
     },
     {
       icon: RefreshCw,
-      title: 'Rate-Drop Alert System',
-      description: 'Get notified when rates improve',
+      title: 'Refinance Opportunity Alert',
+      description: 'Get notified when refinancing makes sense',
       href: '/contact',
       category: 'Refinance Path',
       color: 'green'

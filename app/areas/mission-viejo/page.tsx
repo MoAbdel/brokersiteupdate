@@ -93,7 +93,7 @@ export default function Page() {
       heading: 'Common financing solutions in Mission Viejo',
       body: (
         <ul className="space-y-2">
-          <li><strong>Jumbo loans:</strong> Necessary for many Mission Viejo purchases due to higher property values, with competitive wholesale rates.</li>
+          <li><strong>Jumbo loans:</strong> Necessary for many Mission Viejo purchases due to higher property values, with competitive wholesale pricing.</li>
           <li><strong>HELOCs and home equity loans:</strong> Popular for home improvements, given the equity built up in established properties.</li>
           <li><strong>Cash-out refinancing:</strong> Allows homeowners to access significant equity while potentially improving mortgage terms.</li>
           <li><strong>Conventional loans:</strong> Standard financing for qualifying buyers, often with strong down payments in this established market.</li>

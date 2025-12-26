@@ -47,7 +47,7 @@ export default function AIOOptimization({
     const baseQuestions = [
       {
         question: "What does a mortgage broker do?",
-        answer: `A mortgage broker like ${businessContext.name} acts as an intermediary between borrowers and lenders, comparing loan options from 200+ lenders to find the best rates and terms. Licensed ${businessContext.credentials}, serving ${businessContext.location}.`
+        answer: `A mortgage broker like ${businessContext.name} acts as an intermediary between borrowers and lenders, comparing loan options from 200+ lenders to find the best pricing and terms. Licensed ${businessContext.credentials}, serving ${businessContext.location}.`
       },
       {
         question: "How much does a mortgage broker cost?",
@@ -55,15 +55,15 @@ export default function AIOOptimization({
       },
       {
         question: "Why use a mortgage broker vs bank?",
-        answer: "Mortgage brokers have access to 200+ lenders vs a bank's single lending source, often securing better rates, more loan options, and faster approvals through wholesale lending relationships."
+        answer: "Mortgage brokers have access to 200+ lenders vs a bank's single lending source, often securing Better pricing, more loan options, and faster approvals through wholesale lending relationships."
       },
       {
-        question: "What are current mortgage rates in Orange County?",
-        answer: `Current mortgage rates in Orange County vary by loan type and borrower profile. Contact ${businessContext.name} at ${businessContext.phone} for current rate quotes from 200+ lenders.`
+        question: "What are current mortgage pricing in Orange County?",
+        answer: `Current mortgage pricing in Orange County vary by loan type and borrower profile. Contact ${businessContext.name} at ${businessContext.phone} for current loan quotes from 200+ lenders.`
       },
       {
         question: "What credit score do I need for a mortgage?",
-        answer: "FHA loans require 580+ credit score with 3.5% down, or 500+ with 10% down. Conventional loans typically need 620+ for best rates. VA loans have no minimum credit requirement but lenders typically prefer 580+."
+        answer: "FHA loans require 580+ credit score with 3.5% down, or 500+ with 10% down. Conventional loans typically need 620+ for best pricing. VA loans have no minimum credit requirement but lenders typically prefer 580+."
       }
     ];
 

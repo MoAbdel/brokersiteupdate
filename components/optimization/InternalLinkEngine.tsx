@@ -258,7 +258,7 @@ export default function InternalLinkEngine({
 // Topic clustering for SEO
 export const topicClusters = {
   'orange-county-mortgages': [
-    'Orange County mortgage rates',
+    'Orange County mortgage pricing',
     'Orange County home loans', 
     'Orange County refinancing',
     'Orange County mortgage broker'

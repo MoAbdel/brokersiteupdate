@@ -5,7 +5,7 @@ import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'Orange County Mortgage Refinance Specialist | Save Thousands',
-  description: 'Expert Orange County mortgage refinance specialist helping homeowners reduce payments, access equity, and switch loan programs. Free consultation and rate analysis available.',
+  description: 'Expert Orange County mortgage refinance specialist helping homeowners reduce payments, access equity, and switch loan programs. Free consultation and Loan Analysis available.',
   openGraph: {
     title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - NEXA',
     description: 'Refinance your Orange County home with an expert specialist. Lower payments, cash-out options, and personalized service.',
@@ -50,7 +50,7 @@ export default function RefinanceSpecialistArticle() {
               
               <div className="bg-green-100 border-l-4 border-green-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
-                  With Orange County home values up significantly over recent years, many homeowners are sitting on substantial equity. Whether you want to lower your monthly payment, switch from an ARM to fixed rate, or access cash for improvements, working with a dedicated refinance specialist can save you thousands.
+                  With Orange County home values up significantly over recent years, many homeowners are sitting on substantial equity. Whether you want to lower your monthly payment, switch from an ARM to fixed pricing, or access cash for improvements, working with a dedicated refinance specialist can save you thousands.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function RefinanceSpecialistArticle() {
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-green-600 mr-3">✓</span>
-                        <span>Lower interest rate (ideal when rates drop 0.5%+ below current)</span>
+                        <span>Lower loan pricing (ideal when rates drop 0.5%+ below current)</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-3">✓</span>
@@ -138,7 +138,7 @@ export default function RefinanceSpecialistArticle() {
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">Rate-and-Term Refinance</h3>
                     <p className="text-gray-700 mb-4">
-                      Perfect for homeowners wanting to adjust their interest rate or loan duration without taking cash out. Popular when rates drop or when switching from adjustable to fixed rates.
+                      Perfect for homeowners wanting to adjust their loan pricing or loan duration without taking cash out. Popular when rates drop or when switching from adjustable to fixed pricing.
                     </p>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <p className="font-semibold text-gray-900 mb-2">Best For:</p>
@@ -198,7 +198,7 @@ export default function RefinanceSpecialistArticle() {
                   <div className="bg-green-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-green-900 mb-4">Refinance Specialist Advantages</h3>
                     <ul className="space-y-3 text-gray-700">
-                      <li>• Shops 200+ lenders for best rates</li>
+                      <li>• Shops 200+ lenders for best pricing</li>
                       <li>• Negotiates better terms using volume</li>
                       <li>• Understands local property values</li>
                       <li>• Handles complex financial situations</li>
@@ -211,7 +211,7 @@ export default function RefinanceSpecialistArticle() {
                     <h3 className="text-xl font-semibold text-red-900 mb-4">Single Lender Limitations</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li>• Only offers their own products</li>
-                      <li>• May not have competitive rates</li>
+                      <li>• May not have Competitive pricing</li>
                       <li>• Limited flexibility on guidelines</li>
                       <li>• Less incentive to negotiate</li>
                       <li>• Generic approach to unique situations</li>
@@ -276,7 +276,7 @@ export default function RefinanceSpecialistArticle() {
                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">2</div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2">Rate Lock & Application (Days 2-3)</h3>
-                      <p className="text-gray-700">Lock in your rate and complete detailed loan application with required documentation.</p>
+                      <p className="text-gray-700">Lock in your pricing and complete detailed loan application with required documentation.</p>
                     </div>
                   </div>
                   
@@ -340,7 +340,7 @@ export default function RefinanceSpecialistArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">How often can I refinance my Orange County home?</h3>
                     <p className="text-gray-700">
-                      There's no legal limit, but most lenders require at least 6 months between refinances. However, closing costs can erode savings if done too frequently. I recommend refinancing when you can reduce your rate by at least 0.5% or when your financial goals significantly change.
+                      There's no legal limit, but most lenders require at least 6 months between refinances. However, closing costs can erode savings if done too frequently. I recommend refinancing when you can reduce your pricing by at least 0.5% or when your financial goals significantly change.
                     </p>
                   </div>
 
@@ -361,7 +361,7 @@ export default function RefinanceSpecialistArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">What's the difference between refinancing and a HELOC?</h3>
                     <p className="text-gray-700">
-                      A HELOC is a second mortgage line of credit, while cash-out refinancing replaces your existing mortgage entirely. HELOCs typically have variable rates and interest-only payment options, while refinances offer fixed rates and predictable payments. The best choice depends on your goals and how you plan to use the funds.
+                      A HELOC is a second mortgage line of credit, while cash-out refinancing replaces your existing mortgage entirely. HELOCs typically have variable pricing and interest-only payment options, while refinances offer fixed pricing and predictable payments. The best choice depends on your goals and how you plan to use the funds.
                     </p>
                   </div>
 

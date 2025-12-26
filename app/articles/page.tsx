@@ -53,7 +53,7 @@ export default function ArticlesPage() {
     {
       title: 'Jumbo Loan Broker in Orange County',
       slug: 'jumbo-loan-broker-orange-county',
-      description: 'Expert guidance on jumbo loans in Orange County, including qualification requirements and competitive rates.',
+      description: 'Expert guidance on jumbo loans in Orange County, including qualification requirements and Competitive pricing.',
       category: 'Jumbo Loans',
       readTime: '7 min read',
       publishDate: 'Sep 15, 2025',

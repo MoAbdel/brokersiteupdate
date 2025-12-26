@@ -21,10 +21,10 @@ import {
 
 export const metadata: Metadata = {
   title: 'Why Choose a Local Orange County Mortgage Broker | Mo Abdel Guide',
-  description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides better rates, personalized service, and market expertise for your home loan.',
+  description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides Better pricing, personalized service, and market expertise for your home loan.',
   openGraph: {
     title: 'Why Choose a Local Orange County Mortgage Broker | Mo Abdel Guide',
-    description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides better rates, personalized service, and market expertise for your home loan.',
+    description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides Better pricing, personalized service, and market expertise for your home loan.',
     type: 'article',
     publishedTime: '2025-07-18T08:30:00Z',
   },
@@ -62,7 +62,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             When you're buying a home in Orange County, working with a local mortgage broker 
             who understands the market can make all the difference in your loan experience. 
             Whether you're looking at <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine home loans</Link>, 
-            <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach mortgage rates</Link>, 
+            <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach mortgage pricing</Link>, 
             or <Link href="/areas/costa-mesa-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Costa Mesa refinancing</Link>, 
             local expertise makes the difference.
           </p>
@@ -164,7 +164,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
                 <div>
                   <strong className="text-slate-900">Competitive Access to 200+ Lenders</strong>
                   <p className="text-slate-600 text-sm mt-1">
-                    I shop your loan with 200+ lenders to find the best rates and terms
+                    I shop your loan with 200+ lenders to find the best pricing and terms
                   </p>
                 </div>
               </div>

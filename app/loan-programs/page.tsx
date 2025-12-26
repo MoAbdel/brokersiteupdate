@@ -22,7 +22,7 @@ const loanPrograms = [
       'Down payment as low as 3.5%',
       'Flexible credit requirements',
       'Gift funds allowed for down payment',
-      'Competitive interest rates'
+      'Competitive loan pricing'
     ],
     bestFor: 'First-time homebuyers, buyers with limited down payment'
   },
@@ -33,7 +33,7 @@ const loanPrograms = [
     features: [
       'No down payment required',
       'No private mortgage insurance',
-      'Competitive interest rates',
+      'Competitive loan pricing',
       'Flexible underwriting'
     ],
     bestFor: 'Military veterans, active service members, eligible spouses'
@@ -75,7 +75,7 @@ export default function ProgramsPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             As a licensed broker with NEXA Mortgage - the nation's largest brokerage - 
-            I have access to over 200 lenders offering competitive rates and flexible programs 
+            I have access to over 200 lenders offering Competitive pricing and flexible programs 
             for every Orange County homeowner and buyer.
           </p>
         </div>
@@ -178,7 +178,7 @@ export default function ProgramsPage() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900">HELOAN (Home Equity Loan)</h3>
-                  <p className="text-slate-700">Fixed rate lump sum loan</p>
+                  <p className="text-slate-700">Fixed pricing lump sum loan</p>
                 </div>
               </div>
 
@@ -191,7 +191,7 @@ export default function ProgramsPage() {
               <div className="space-y-3 mb-6">
                 <div className="flex items-center">
                   <span className="text-green-600 mr-3 text-xl">✓</span>
-                  <span className="text-slate-700"><strong>Fixed interest rate</strong> - payment never changes</span>
+                  <span className="text-slate-700"><strong>Fixed loan pricing</strong> - payment never changes</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-green-600 mr-3 text-xl">✓</span>
@@ -203,13 +203,13 @@ export default function ProgramsPage() {
                 </div>
                 <div className="flex items-center">
                   <span className="text-green-600 mr-3 text-xl">✓</span>
-                  <span className="text-slate-700"><strong>Lower rates</strong> than personal loans or credit cards</span>
+                  <span className="text-slate-700"><strong>Lower pricing</strong> than personal loans or credit cards</span>
                 </div>
               </div>
               
               <Link href="/programs/heloan">
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold">
-                  Get HELOAN Rates & Terms
+                  Get HELOAN Pricing & Terms
                 </Button>
               </Link>
             </div>
@@ -309,7 +309,7 @@ export default function ProgramsPage() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-3 mt-1">✓</span>
-                    <span className="text-slate-700">Reduce monthly payments with today's rates</span>
+                    <span className="text-slate-700">Reduce monthly payments with current pricing</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-3 mt-1">✓</span>
@@ -537,7 +537,7 @@ export default function ProgramsPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Credit Score</h3>
               <p className="text-slate-600">
-                Higher credit scores typically qualify for better interest rates. 
+                Higher credit scores typically qualify for better loan pricing. 
                 I can help improve your score before applying.
               </p>
             </div>
@@ -547,7 +547,7 @@ export default function ProgramsPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Down Payment</h3>
               <p className="text-slate-600">
-                Larger down payments often result in better rates and eliminate 
+                Larger down payments often result in Better pricing and eliminate 
                 the need for mortgage insurance.
               </p>
             </div>
@@ -557,7 +557,7 @@ export default function ProgramsPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Property Type</h3>
               <p className="text-slate-600">
-                Primary residences typically get the best rates, followed by 
+                Primary residences typically get the best pricing, followed by 
                 second homes and investment properties.
               </p>
             </div>
@@ -598,7 +598,7 @@ export default function ProgramsPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

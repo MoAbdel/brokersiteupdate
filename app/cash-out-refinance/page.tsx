@@ -6,10 +6,10 @@ import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hamm
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance Loans in Orange County, CA | Mo The Broker',
-  description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive rates, fast approvals, and expert guidance from Mo The Broker.',
+  description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive pricing, fast approvals, and expert guidance from Mo The Broker.',
   openGraph: {
     title: 'Cash-Out Refinance Loans in Orange County, CA | Mo The Broker',
-    description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive rates, fast approvals, and expert guidance from Mo The Broker.',
+    description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive pricing, fast approvals, and expert guidance from Mo The Broker.',
     url: 'https://mothebroker.com/cash-out-refinance',
   },
   alternates: {
@@ -43,7 +43,7 @@ const cashOutUses = [
     benefits: [
       'Tax-deductible interest on improvements',
       'Potentially increase home value more than cost',
-      'Lower rates than personal loans',
+      'Lower pricing than personal loans',
       'Long-term financing (up to 30 years)'
     ],
     popularProjects: 'Kitchen remodels, bathroom updates, additions, pools'
@@ -51,7 +51,7 @@ const cashOutUses = [
   {
     title: 'Debt Consolidation',
     icon: CreditCard,
-    description: 'Pay off high-interest debts with lower mortgage rates',
+    description: 'Pay off high-interest debts with lower mortgage pricing',
     benefits: [
       'Reduce monthly payments significantly',
       'Simplify finances with one payment',
@@ -67,7 +67,7 @@ const cashOutUses = [
     benefits: [
       'Access large amounts of capital',
       'Lower cost than other investment loans',
-      'Potential for higher returns than mortgage rate',
+      'Potential for higher returns than mortgage pricing',
       'Diversify your investment portfolio'
     ],
     popularProjects: 'Real estate investments, business opportunities, stocks'
@@ -77,7 +77,7 @@ const cashOutUses = [
     icon: GraduationCap,
     description: 'Fund education for yourself or family members',
     benefits: [
-      'Lower rates than student loans',
+      'Lower pricing than student loans',
       'Flexible repayment terms',
       'No borrowing limits like federal loans',
       'Invest in your family\'s future'
@@ -96,8 +96,8 @@ const faqs = [
     answer: "Generally, you'll need at least 20% equity remaining after the cash-out, a credit score of 620+, stable income, and debt-to-income ratio under 43-50%. Requirements vary by lender, and as a broker, I can find programs that fit your specific situation."
   },
   {
-    question: "How do cash-out refinance rates compare to other loans?",
-    answer: "Cash-out refinance rates are typically 0.125% to 0.25% higher than standard refinance rates, but significantly lower than personal loans, credit cards, or HELOCs. The rate difference is often worth it for the lower monthly payments and potential tax benefits."
+    question: "How do cash-out refinance pricing compare to other loans?",
+    answer: "Cash-out refinance pricing are typically 0.125% to 0.25% higher than standard refinance pricing, but significantly lower than personal loans, credit cards, or HELOCs. The pricing difference is often worth it for the lower monthly payments and potential tax benefits."
   },
   {
     question: "Is the interest on a cash-out refinance tax-deductible?",
@@ -117,10 +117,10 @@ const comparisonPoints = [
     personalLoan: 'Fixed smaller amounts'
   },
   {
-    feature: 'Interest Rates',
+    feature: 'Interest pricing',
     cashOut: 'Low, fixed rates',
     heloc: 'Variable, often higher',
-    personalLoan: 'Much higher rates'
+    personalLoan: 'Much higher pricing'
   },
   {
     feature: 'Monthly Payment',
@@ -236,9 +236,9 @@ export default function CashOutRefinancePage() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Interest Rates</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Interest pricing</h3>
                 <p className="text-slate-600">
-                  Mortgage rates are significantly lower than credit cards, personal loans, 
+                  Mortgage pricing are significantly lower than credit cards, personal loans, 
                   or other forms of borrowing.
                 </p>
               </div>
@@ -282,7 +282,7 @@ export default function CashOutRefinancePage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Fixed Rate Option</h3>
                 <p className="text-slate-600">
-                  Lock in today's rates with a fixed-rate mortgage, providing 
+                  Lock in current pricing with a fixed-rate mortgage, providing 
                   payment predictability for decades.
                 </p>
               </div>
@@ -375,7 +375,7 @@ export default function CashOutRefinancePage() {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span><strong>Credit Score:</strong> 620+ (higher for best rates)</span>
+                      <span><strong>Credit Score:</strong> 620+ (higher for best pricing)</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
@@ -517,7 +517,7 @@ export default function CashOutRefinancePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">200+ Lender Network</h3>
                 <p className="text-blue-100">
-                  Access to wholesale rates and multiple program options. I shop the market 
+                  Access to wholesale pricing and multiple program options. I shop the market 
                   to find your best cash-out refinance terms.
                 </p>
               </div>

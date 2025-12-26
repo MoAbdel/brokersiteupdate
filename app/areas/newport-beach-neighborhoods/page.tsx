@@ -4,7 +4,7 @@ import { JsonLd } from '@/app/(marketing)/components/Schema';
 export const metadata = {
   title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
   description:
-    'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale rates.',
+    'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
   alternates: { canonical: 'https://mothebroker.com/areas/newport-beach-neighborhoods' },
   robots: { index: true, follow: true },
   openGraph: {

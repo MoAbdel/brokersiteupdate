@@ -27,13 +27,13 @@ export default function HELOANPage() {
             HELOAN: <span className="text-green-600">Home Equity Loan</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Get a lump sum from your Orange County home's equity with a fixed interest rate 
+            Get a lump sum from your Orange County home's equity with a fixed loan pricing 
             and predictable monthly payments. Perfect for large one-time expenses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-                Get HELOAN Rates & Terms
+                Get HELOAN Pricing & Terms
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -51,7 +51,7 @@ export default function HELOANPage() {
               <DollarSign className="w-8 h-8 text-green-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Fixed Rate</h3>
-            <p className="text-slate-600">Interest rate never changes - budget with confidence</p>
+            <p className="text-slate-600">Loan pricing never changes - budget with confidence</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -136,7 +136,7 @@ export default function HELOANPage() {
                   <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">2</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Lock in Your Fixed Rate</h3>
-                    <p className="text-slate-600">Secure a fixed interest rate that won't change for the life of the loan, giving you payment predictability.</p>
+                    <p className="text-slate-600">Secure a fixed loan pricing that won't change for the life of the loan, giving you payment predictability.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -185,7 +185,7 @@ export default function HELOANPage() {
                   </div>
                 </div>
               </div>
-              <p className="text-xs text-slate-500 mt-4">*Example rates and payments for illustration. Actual rates may vary.</p>
+              <p className="text-xs text-slate-500 mt-4">*Example pricing and payments for illustration. Actual pricing may vary.</p>
             </div>
           </div>
         </div>
@@ -237,8 +237,8 @@ export default function HELOANPage() {
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">🚗 Major Purchases</h3>
-                <p className="text-slate-600 mb-3">RVs, boats, luxury vehicles, or other large purchases with better rates than auto loans.</p>
-                <p className="text-sm font-semibold text-green-600">Better rates than auto loans</p>
+                <p className="text-slate-600 mb-3">RVs, boats, luxury vehicles, or other large purchases with Better pricing than auto loans.</p>
+                <p className="text-sm font-semibold text-green-600">Better pricing than auto loans</p>
               </CardContent>
             </Card>
           </div>
@@ -323,12 +323,12 @@ export default function HELOANPage() {
             Ready for Fixed-Rate Home Equity Financing?
           </h2>
           <p className="text-xl mb-6 text-green-100">
-            Get personalized HELOAN rates and payment options from multiple lenders
+            Get personalized HELOAN pricing and payment options from multiple lenders
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-semibold">
-                Get My HELOAN Rates
+                Get My HELOAN Pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -355,7 +355,7 @@ export default function HELOANPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

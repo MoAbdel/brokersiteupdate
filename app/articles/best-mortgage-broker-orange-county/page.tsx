@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Discover why Mo Abdel is the best mortgage broker in Orange County. Save thousands with expert rate negotiation, 200+ lender network, and personalized service for your home financing needs.',
   openGraph: {
     title: 'Best Mortgage Broker in Orange County | Mo Abdel - NEXA Mortgage',
-    description: 'Find the best mortgage broker in Orange County. Expert guidance, competitive rates, and personalized service for all your home financing needs.',
+    description: 'Find the best mortgage broker in Orange County. Expert guidance, Competitive pricing, and personalized service for all your home financing needs.',
     images: ['/images/moabdel-headshot-final.png'],
     url: 'https://www.mothebroker.com/articles/best-mortgage-broker-orange-county',
     type: 'article',
@@ -151,7 +151,7 @@ export default function BestMortgageBrokerArticle() {
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">2. Extensive Lender Network</h3>
                     <p className="text-gray-700 mb-4">
-                      The best brokers maintain relationships with 50+ lenders, including major banks, credit unions, portfolio lenders, and specialized non-QM providers. This network becomes your advantage when searching for optimal rates and terms.
+                      The best brokers maintain relationships with 50+ lenders, including major banks, credit unions, portfolio lenders, and specialized non-QM providers. This network becomes your advantage when searching for optimal pricing and terms.
                     </p>
                     <div className="bg-blue-50 p-4 rounded-lg mt-4">
                       <p className="font-semibold text-blue-900 mb-2">My Lender Network Includes:</p>
@@ -172,7 +172,7 @@ export default function BestMortgageBrokerArticle() {
                       Modern brokers leverage technology to streamline your experience. Look for secure document portals, instant pre-qualification tools, and mobile-friendly platforms that save you countless hours.
                     </p>
                     <p className="text-gray-700">
-                      <strong>Our digital tools include:</strong> Secure document upload portals, real-time rate tracking, automated status updates, and mobile app access for on-the-go management.
+                      <strong>Our digital tools include:</strong> Secure document upload portals, real-time pricing tracking, automated status updates, and mobile app access for on-the-go management.
                     </p>
                   </div>
 
@@ -207,7 +207,7 @@ export default function BestMortgageBrokerArticle() {
 
                 <h3 className="text-2xl font-semibold mb-4">Beyond Rate Shopping: Comprehensive Value</h3>
                 <p className="text-gray-700 mb-6">
-                  A skilled broker's value extends far beyond finding competitive rates:
+                  A skilled broker's value extends far beyond finding Competitive pricing:
                 </p>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -395,14 +395,14 @@ export default function BestMortgageBrokerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Is a mortgage broker better than going directly to a bank?</h3>
                     <p className="text-gray-700">
-                      Brokers shop multiple lenders on your behalf, often securing better rates and terms than a single bank can offer. While banks only offer their own products, brokers access 50+ lenders, increasing your chances of approval and savings. Additionally, brokers provide personalized guidance throughout the process, something large banks often lack.
+                      Brokers shop multiple lenders on your behalf, often securing Better pricing and terms than a single bank can offer. While banks only offer their own products, brokers access 50+ lenders, increasing your chances of approval and savings. Additionally, brokers provide personalized guidance throughout the process, something large banks often lack.
                     </p>
                   </div>
 
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Do mortgage brokers charge more than banks?</h3>
                     <p className="text-gray-700">
-                      Brokers are typically compensated by lenders, not borrowers. This compensation is built into your rate regardless of whether you use a broker or go directly to a bank. The difference? Brokers use their volume and relationships to negotiate better terms, often resulting in lower overall costs despite their compensation.
+                      Brokers are typically compensated by lenders, not borrowers. This compensation is built into your pricing regardless of whether you use a broker or go directly to a bank. The difference? Brokers use their volume and relationships to negotiate better terms, often resulting in lower overall costs despite their compensation.
                     </p>
                   </div>
 

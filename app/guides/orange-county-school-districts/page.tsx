@@ -276,7 +276,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>• Up to $1,089,300 (2025 limit)</li>
                   <li>• 3% down payment options</li>
-                  <li>• Competitive rates</li>
+                  <li>• Competitive pricing</li>
                   <li>• Fast approval process</li>
                 </ul>
                 <Link href="/loan-programs/conventional-loans">

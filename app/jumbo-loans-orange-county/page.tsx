@@ -7,7 +7,7 @@ import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calcula
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2025 | High-Balance Mortgage Financing',
-  description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive rates and flexible terms.',
+  description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with Competitive pricing and flexible terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/jumbo-loans-orange-county',
   },
@@ -17,7 +17,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Mo Abdel - Jumbo Loan Specialist",
-  "description": "Specialized jumbo loan services for high-value homes in Orange County, California. Financing above $1,209,750 with competitive rates.",
+  "description": "Specialized jumbo loan services for high-value homes in Orange County, California. Financing above $1,209,750 with Competitive pricing.",
   "serviceType": "Jumbo Loans and High-Balance Home Financing",
   "provider": {
     "@type": "Person",
@@ -43,7 +43,7 @@ const jsonLd = {
     "https://www.linkedin.com/in/mo-abdel-mortgage"
   ],
   "openingHours": "Mo-Fr 09:00-18:00",
-  "priceRange": "Competitive jumbo loan rates"
+  "priceRange": "Competitive jumbo loan pricing"
 };
 
 export default function JumboLoansOrangeCountyPage() {
@@ -107,7 +107,7 @@ export default function JumboLoansOrangeCountyPage() {
                 <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2025:</h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Finance luxury homes throughout Orange County without borrowing restrictions</li>
-                  <li>• Competitive interest rates for high-balance mortgages</li>
+                  <li>• Competitive loan pricing for high-balance mortgages</li>
                   <li>• Flexible down payment options starting at 10%</li>
                   <li>• Available for primary residences, second homes, and investment properties</li>
                   <li>• Portfolio lending options for unique properties and situations</li>
@@ -137,7 +137,7 @@ export default function JumboLoansOrangeCountyPage() {
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
                   <Star className="w-12 h-12 text-blue-600 mb-4" />
-                  <CardTitle className="text-xl">Competitive Rates</CardTitle>
+                  <CardTitle className="text-xl">Competitive pricing</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
@@ -351,7 +351,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <ul className="space-y-2 text-sm text-slate-600">
                     <li>• Loan amounts up to $5M+ (qualified borrowers)</li>
                     <li>• Primary residence, second home, or investment</li>
-                    <li>• Fixed or adjustable rate options</li>
+                    <li>• Fixed or adjustable pricing options</li>
                     <li>• Down payments as low as 10%</li>
                   </ul>
                 </CardContent>
@@ -364,7 +364,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Refinance existing jumbo mortgages to lower rates, change terms, or access 
+                    Refinance existing jumbo mortgages to Lower pricing, change terms, or access 
                     equity from your Orange County luxury home.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
@@ -553,12 +553,12 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Are jumbo loan rates higher than conventional rates?</CardTitle>
+                  <CardTitle className="text-lg">Are jumbo loan pricing higher than conventional rates?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Not necessarily! Jumbo loan rates are often competitive with or sometimes lower than 
-                    conventional loan rates due to the high-quality borrower profile. Rates vary by 
+                    Not necessarily! Jumbo loan pricing is often competitive with or sometimes lower than 
+                    conventional loan pricing due to the high-quality borrower profile. Rates vary by 
                     lender, loan amount, and borrower qualifications. Mo can help you compare options.
                   </p>
                 </CardContent>
@@ -572,7 +572,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <p className="text-slate-600">
                     Down payment requirements vary: 10% minimum for primary residences, 15% for second homes, 
                     and 20% for investment properties. Some lenders may require 20% regardless of property type. 
-                    Higher down payments often result in better rates and terms.
+                    Higher down payments often result in Better pricing and terms.
                   </p>
                 </CardContent>
               </Card>
@@ -597,7 +597,7 @@ export default function JumboLoansOrangeCountyPage() {
                 <CardContent>
                   <p className="text-slate-600">
                     Most lenders prefer credit scores of 700+ for jumbo loans, though some programs accept 
-                    scores as low as 660. Higher credit scores (740+) typically qualify for the best rates 
+                    scores as low as 660. Higher credit scores (740+) typically qualify for the best pricing 
                     and terms. Mo can help improve your profile for optimal qualification.
                   </p>
                 </CardContent>

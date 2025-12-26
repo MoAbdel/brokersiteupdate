@@ -16,14 +16,14 @@ import './globals-simple.css';
 
 export const metadata: Metadata = {
   title: 'California Mortgage Broker | Mo Abdel | West Capital Lending NMLS #1426884',
-  description: 'California mortgage broker with access to 100+ wholesale lenders. Better rates, faster closings. FHA, VA, conventional, Non-QM loans. NMLS #1426884 | Company NMLS #1566096.',
+  description: 'California mortgage broker with access to 100+ wholesale lenders. Better pricing, faster closings. FHA, VA, conventional, Non-QM loans. NMLS #1426884 | Company NMLS #1566096.',
   metadataBase: new URL('https://www.mothebroker.com'),
   alternates: {
     canonical: 'https://www.mothebroker.com',
   },
   openGraph: {
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Get competitive mortgage rates from 200+ lenders. Serving Orange County & beyond with fast closings, unbiased advice, and flexible home loan programs.',
+    description: 'Get competitive mortgage pricing from 200+ lenders. Serving Orange County & beyond with fast closings, unbiased advice, and flexible home loan programs.',
     url: 'https://www.mothebroker.com',
     siteName: 'Mo Abdel | Mortgage Broker',
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Get competitive mortgage rates from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
+    description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
     images: ['https://www.mothebroker.com/images/og-image-mothebroker.png'],
     creator: '@mothebroker',
     site: '@mothebroker',
@@ -117,7 +117,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.mothebroker.com" />
         <meta property="og:title" content="Mo Abdel - Mortgage Broker | Orange County Mortgage NMLS #1426884" />
-        <meta property="og:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale rates, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
+        <meta property="og:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
         <meta property="og:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
         <meta property="og:site_name" content="Mo Abdel" />
         <meta property="og:locale" content="en_US" />
@@ -126,16 +126,18 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.mothebroker.com" />
         <meta name="twitter:title" content="Mo Abdel | Mortgage Broker Orange County" />
-        <meta name="twitter:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale rates, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
+        <meta name="twitter:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
         <meta name="twitter:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
         
         <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
       </head>
       <body className="min-h-screen">
+        <Header />
         <main className="flex-1">
           {children}
         </main>
+        <Footer />
         <GoogleAnalytics />
         <FacebookPixel />
         <GEOTracking />

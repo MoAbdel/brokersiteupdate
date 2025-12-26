@@ -7,7 +7,7 @@ import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calcula
 
 export const metadata: Metadata = {
   title: 'VA Loans Orange County 2025 | Zero Down Veterans Home Loans',
-  description: 'Get VA loans in Orange County with $0 down, no PMI, and competitive rates. Mo Abdel specializes in VA financing for veterans with 2025 loan limits up to $1,209,750.',
+  description: 'Get VA loans in Orange County with $0 down, no PMI, and Competitive pricing. Mo Abdel specializes in VA financing for veterans with 2025 loan limits up to $1,209,750.',
   alternates: {
     canonical: 'https://www.mothebroker.com/va-loans-orange-county',
   },
@@ -17,7 +17,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Mo Abdel - VA Loan Specialist",
-  "description": "Specialized VA loan services for veterans in Orange County, California. Zero down payment, no PMI, competitive rates.",
+  "description": "Specialized VA loan services for veterans in Orange County, California. Zero down payment, no PMI, Competitive pricing.",
   "serviceType": "VA Loans and Veterans Home Financing",
   "provider": {
     "@type": "Person",
@@ -66,7 +66,7 @@ export default function VALoansOrangeCountyPage() {
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
               Thank you for your service. Now let Mo Abdel serve you with zero down payment VA loans 
-              in Orange County, CA. Specialized VA lending with competitive rates, no PMI, and expert guidance for military families.
+              in Orange County, CA. Specialized VA lending with Competitive pricing, no PMI, and expert guidance for military families.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -109,7 +109,7 @@ export default function VALoansOrangeCountyPage() {
                   <li>• VA loans can exceed $1,209,750 with 25% down on the excess amount</li>
                   <li>• Full entitlement allows up to $1,209,750 with zero down payment</li>
                   <li>• No mortgage insurance (PMI) required regardless of loan amount</li>
-                  <li>• Competitive interest rates, typically lower than conventional loans</li>
+                  <li>• Competitive loan pricing, typically lower than conventional loans</li>
                   <li>• No prepayment penalties - pay off your loan early without fees</li>
                   <li>• Funding fee can be rolled into the loan amount</li>
                 </ul>
@@ -150,11 +150,11 @@ export default function VALoansOrangeCountyPage() {
               <Card className="border-2 hover:border-blue-300 transition-all duration-300">
                 <CardHeader>
                   <Star className="w-12 h-12 text-purple-600 mb-4" />
-                  <CardTitle className="text-xl">Competitive Rates</CardTitle>
+                  <CardTitle className="text-xl">Competitive pricing</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    VA loans typically offer 0.25% - 0.50% lower interest rates than 
+                    VA loans typically offer 0.25% - 0.50% lower loan pricing than 
                     conventional loans, backed by the Department of Veterans Affairs.
                   </p>
                 </CardContent>
@@ -180,7 +180,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Future buyers can assume your VA loan at your rate, making your 
+                    Future buyers can assume your VA loan at your pricing, making your 
                     Orange County home more attractive when you decide to sell.
                   </p>
                 </CardContent>
@@ -348,7 +348,7 @@ export default function VALoansOrangeCountyPage() {
                   <CardTitle>Get Pre-Approved</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600">Contact Mo for VA loan pre-approval with competitive rates and quick turnaround</p>
+                  <p className="text-slate-600">Contact Mo for VA loan pre-approval with Competitive pricing and quick turnaround</p>
                 </CardContent>
               </Card>
 
@@ -395,7 +395,7 @@ export default function VALoansOrangeCountyPage() {
                   <ul className="space-y-2 text-sm text-slate-600">
                     <li>• Zero down payment required</li>
                     <li>• No PMI ever</li>
-                    <li>• Competitive interest rates</li>
+                    <li>• Competitive loan pricing</li>
                     <li>• Can be used for condos, townhomes, single-family homes</li>
                   </ul>
                 </CardContent>
@@ -414,7 +414,7 @@ export default function VALoansOrangeCountyPage() {
                   <ul className="space-y-2 text-sm text-slate-600">
                     <li>• IRRRL: Streamlined refinance with minimal paperwork</li>
                     <li>• Cash-Out: Access your home's equity</li>
-                    <li>• Lower your interest rate and payment</li>
+                    <li>• Lower your loan pricing and payment</li>
                     <li>• No appraisal required for IRRRL</li>
                   </ul>
                 </CardContent>
@@ -432,7 +432,7 @@ export default function VALoansOrangeCountyPage() {
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
                     <li>• Cash out up to 100% of your home's value</li>
-                    <li>• Competitive rates without PMI</li>
+                    <li>• Competitive pricing without PMI</li>
                     <li>• Use funds for any purpose</li>
                     <li>• Combine with rate reduction</li>
                   </ul>
@@ -514,7 +514,7 @@ export default function VALoansOrangeCountyPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600 text-sm text-center">
-                      Lower your rate or access equity with Orange County refinancing
+                      Lower your pricing or access equity with Orange County refinancing
                     </p>
                   </CardContent>
                 </Card>

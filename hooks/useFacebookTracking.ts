@@ -20,7 +20,7 @@ export const useFacebookTracking = () => {
         });
       } else if (pathname === '/calculator') {
         fbTrackCustom('ViewContent', {
-          content_name: 'Rate Calculator',
+          content_name: 'pricing Calculator',
           content_category: 'calculator'
         });
       } else if (pathname.includes('loan') || pathname.includes('program')) {

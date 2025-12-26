@@ -5,7 +5,7 @@ export const PRIMARY_KEYWORDS = [
   'mortgage broker',
   'home loans',
   'refinancing',
-  'mortgage rates',
+  'mortgage pricing',
   'loan officer',
   
   // Geographic terms  
@@ -27,13 +27,13 @@ export const SECONDARY_KEYWORDS = [
   // Process-related
   'mortgage pre-approval',
   'home buying process',
-  'refinance rates',
+  'refinance pricing',
   'cash out refinance',
   'rate and term refinance',
   
   // Competitive advantage
   'competitive lender access',
-  'competitive mortgage rates',
+  'competitive mortgage pricing',
   'fast closing',
   'no lender fees',
   'NMLS licensed broker',
@@ -50,7 +50,7 @@ export const LONG_TAIL_KEYWORDS = [
   // Question-based (voice search optimization)
   'best mortgage broker Orange County',
   'how to get pre-approved for mortgage',
-  'what are current mortgage rates',
+  'what are current mortgage pricing',
   'should I refinance my home',
   'first time home buyer programs California',
   
@@ -75,7 +75,7 @@ export const BRAND_KEYWORDS = [
   'NEXA Mortgage Orange County',
   'NMLS 1426884',
   'mortgage hacker',
-  'better rates faster closing'
+  'Better pricing faster closing'
 ];
 
 // Combined keyword arrays for different use cases
@@ -101,7 +101,7 @@ export const generateCityKeywords = (cityName: string) => {
     `${cityName} refinancing`, 
     `FHA loans ${cityName}`,
     `VA loans ${cityName}`,
-    `mortgage rates ${cityName}`,
+    `mortgage pricing ${cityName}`,
     `first time buyer ${cityName}`,
     `${cityName} home financing`,
     `${cityName} loan officer`,

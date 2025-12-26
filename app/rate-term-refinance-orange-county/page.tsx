@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Rate & Term Refinance in Orange County, CA | Lower Your Mortgage Payment',
-  description: 'Refinance your Orange County home to lower your rate, reduce payments, or eliminate PMI. Get competitive refinance rates from 200+ lenders with Mo Abdel.',
+  description: 'Refinance your Orange County home to lower your pricing, reduce payments, or eliminate PMI. Get competitive refinance pricing from 200+ lenders with Mo Abdel.',
   openGraph: {
     title: 'Rate & Term Refinance in Orange County, CA | Lower Your Mortgage Payment',
-    description: 'Refinance your Orange County home to lower your rate, reduce payments, or eliminate PMI. Get competitive refinance rates from 200+ lenders with Mo Abdel.',
+    description: 'Refinance your Orange County home to lower your pricing, reduce payments, or eliminate PMI. Get competitive refinance pricing from 200+ lenders with Mo Abdel.',
     type: 'website',
   },
   alternates: {
@@ -23,7 +23,7 @@ const benefits = [
   {
     icon: TrendingDown,
     title: 'Lower Interest Rate',
-    description: 'Reduce your monthly payment and total interest paid over the life of your loan with better rates.'
+    description: 'Reduce your monthly payment and total interest paid over the life of your loan with Better pricing.'
   },
   {
     icon: Calendar,
@@ -38,7 +38,7 @@ const benefits = [
   {
     icon: Calculator,
     title: 'Predictable Payments',
-    description: 'Switch from an adjustable-rate mortgage to a fixed rate for payment stability.'
+    description: 'Switch from an adjustable-rate mortgage to a fixed pricing for payment stability.'
   },
   {
     icon: Users,
@@ -54,14 +54,14 @@ const benefits = [
 
 const whenToRefinance = [
   {
-    scenario: 'Rates Have Dropped',
-    description: 'When market rates are 0.5% or more below your current rate',
+    scenario: 'Pricing Has Dropped',
+    description: 'When Market pricing is 0.5% or more below your current pricing',
     savings: 'Monthly payment reduction'
   },
   {
     scenario: 'Credit Score Improved',
     description: 'Your credit score has increased significantly since your original loan',
-    savings: 'Better rate qualification'
+    savings: 'Better pricing qualification'
   },
   {
     scenario: 'Home Value Increased',
@@ -78,8 +78,8 @@ const whenToRefinance = [
 const refinanceTypes = [
   {
     type: 'Rate Reduction',
-    description: 'Lower your interest rate to reduce monthly payments',
-    bestFor: 'When rates have dropped significantly'
+    description: 'Lower your loan pricing to reduce monthly payments',
+    bestFor: 'When pricing has dropped significantly'
   },
   {
     type: 'Term Change',
@@ -100,7 +100,7 @@ const refinanceTypes = [
 
 const requirements = [
   'Current mortgage in good standing',
-  'Credit score: 620+ (better rates with 740+)',
+  'Credit score: 620+ (Better pricing with 740+)',
   'Debt-to-income ratio: 43% or lower',
   'Sufficient home equity (typically 20%+)',
   'Employment and income verification',
@@ -126,7 +126,7 @@ export default function RateTermRefinanceOrangeCounty() {
               Rate & Term Refinance in Orange County – Lower Your Payment
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-indigo-100 max-w-4xl mx-auto leading-relaxed">
-              Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance rates from 200+ lenders for your Orange County home.
+              Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance pricing from 200+ lenders for your Orange County home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -254,11 +254,11 @@ export default function RateTermRefinanceOrangeCounty() {
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Refinance Savings Calculator</h3>
               <div className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">Current Rate</label>
+                  <label className="block text-sm font-medium text-slate-700 mb-2">Current Pricing</label>
                   <div className="text-2xl font-bold text-red-600">6.5%</div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">New Rate</label>
+                  <label className="block text-sm font-medium text-slate-700 mb-2">New Pricing</label>
                   <div className="text-2xl font-bold text-green-600">5.5%</div>
                 </div>
                 <div>
@@ -296,7 +296,7 @@ export default function RateTermRefinanceOrangeCounty() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { step: 1, title: 'Rate Comparison', desc: 'Compare your current rate with available competitive rates' },
+              { step: 1, title: 'Loan Comparison', desc: 'Compare your current pricing with available competitive pricing' },
               { step: 2, title: 'Application Submission', desc: 'Complete refinance application with income verification' },
               { step: 3, title: 'Home Appraisal', desc: 'Property appraisal confirms current value and equity' },
               { step: 4, title: 'Closing & Funding', desc: 'Sign new loan documents and enjoy lower payments' }
@@ -350,7 +350,7 @@ export default function RateTermRefinanceOrangeCounty() {
             {[
               {
                 question: 'How much can I save by refinancing in Orange County?',
-                answer: 'Savings depend on the rate difference, loan amount, and remaining term. A 1% rate reduction on a $500,000 loan could save $400+ monthly and $100,000+ over the loan term.'
+                answer: 'Savings depend on the pricing difference, loan amount, and remaining term. A 1% rate reduction on a $500,000 loan could save $400+ monthly and $100,000+ over the loan term.'
               },
               {
                 question: 'What are the closing costs for a refinance?',
@@ -391,7 +391,7 @@ export default function RateTermRefinanceOrangeCounty() {
             Ready to Lower Your Orange County Mortgage Payment?
           </h2>
           <p className="text-xl mb-8 text-indigo-100">
-            Access competitive refinance rates from 200+ lenders and start saving money every month. 
+            Access competitive refinance pricing from 200+ lenders and start saving money every month. 
             Mo Abdel makes refinancing simple and profitable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

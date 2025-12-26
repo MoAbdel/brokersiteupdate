@@ -6,10 +6,10 @@ import { TrendingDown, DollarSign, Home, Clock, Calculator, CheckCircle, Zap, Cr
 
 export const metadata: Metadata = {
   title: 'Refinance Loans in Orange County, CA | Lower Your Rate',
-  description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale rates in Orange County.',
+  description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale pricing in Orange County.',
   openGraph: {
     title: 'Refinance Loans in Orange County, CA | Lower Your Rate',
-    description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale rates in Orange County.',
+    description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale pricing in Orange County.',
     url: 'https://mothebroker.com/refinance-loans',
   },
   alternates: {
@@ -39,14 +39,14 @@ const refinanceOptions = [
   {
     title: 'Rate-and-Term Refinance',
     icon: TrendingDown,
-    description: 'Lower your interest rate or change your loan term',
+    description: 'Lower your loan pricing or change your loan term',
     benefits: [
-      'Reduce monthly payments with lower rates',
+      'Reduce monthly payments with Lower pricing',
       'Switch from ARM to fixed-rate for stability',
       'Eliminate PMI when you reach 20% equity',
       'Shorten loan term to save on total interest'
     ],
-    bestFor: 'Homeowners with rates above current market rates',
+    bestFor: 'Homeowners with rates above current Market pricing',
     averageSavings: '$200-500/month',
     link: '/rate-term-refinance-orange-county'
   },
@@ -85,7 +85,7 @@ const refinanceOptions = [
     benefits: [
       'No appraisal typically required',
       'No income verification needed',
-      'Lower interest rates and payments',
+      'Lower loan pricing and payments',
       'Can refinance up to 100% of home value'
     ],
     bestFor: 'Veterans with existing VA loans',
@@ -97,15 +97,15 @@ const refinanceOptions = [
 const faqs = [
   {
     question: "When does refinancing make sense in Orange County?",
-    answer: "Generally, refinancing makes sense when you can reduce your interest rate by 0.5-1% or more, eliminate PMI, switch from an ARM to fixed-rate, or access equity through cash-out refinancing. With Orange County's high home values, even small rate reductions can result in significant monthly savings."
+    answer: "Generally, refinancing makes sense when you can reduce your loan pricing by 0.5-1% or more, eliminate PMI, switch from an ARM to fixed-rate, or access equity through cash-out refinancing. With Orange County's high home values, even small rate reductions can result in significant monthly savings."
   },
   {
     question: "How much equity do I need to refinance my Orange County home?",
     answer: "For a rate-and-term refinance, you typically need at least 20% equity to avoid PMI on the new loan. For cash-out refinancing, you can generally access up to 80% of your home's value, meaning you'd need at least 20% remaining equity after the cash-out."
   },
   {
-    question: "What are current refinance rates in Orange County?",
-    answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 200+ lenders, I can shop multiple rate options to find your best deal. Call for today's rates specific to your situation."
+    question: "What are current refinance pricing in Orange County?",
+    answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 200+ lenders, I can shop multiple rate options to find your best deal. Call for current pricing specific to your situation."
   },
   {
     question: "How long does the refinance process take?",
@@ -251,7 +251,7 @@ export default function RefinanceLoansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Monthly Payments</h3>
                 <p className="text-slate-600">
-                  Reduce your monthly mortgage payment by securing a lower interest rate, 
+                  Reduce your monthly mortgage payment by securing a lower loan pricing, 
                   freeing up cash for other financial goals.
                 </p>
               </div>
@@ -296,7 +296,7 @@ export default function RefinanceLoansPage() {
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Debt Consolidation</h3>
                 <p className="text-slate-600">
                   Use cash-out refinancing to pay off high-interest credit cards, 
-                  personal loans, or other debts at much lower mortgage rates.
+                  personal loans, or other debts at much lower mortgage pricing.
                 </p>
               </div>
 
@@ -326,7 +326,7 @@ export default function RefinanceLoansPage() {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span>Interest rates have dropped 0.5% or more</span>
+                      <span>Loan pricing have dropped 0.5% or more</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />

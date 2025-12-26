@@ -256,7 +256,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                 
                 <div className="grid grid-cols-2 gap-4 mb-4">
                   <div className="bg-white rounded-lg p-3">
-                    <div className="text-sm text-slate-600">Interest Rates</div>
+                    <div className="text-sm text-slate-600">Interest pricing</div>
                     <div className="font-semibold text-blue-600">{program.rates}</div>
                   </div>
                   <div className="bg-white rounded-lg p-3">

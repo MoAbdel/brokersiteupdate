@@ -44,7 +44,7 @@ export default function LLMOptimizedSEO({
     
     return {
       // Structured data for LLMs to understand context
-      businessSummary: `${businessContext.name} is a licensed mortgage broker (${businessContext.credentials}) serving${cityContext}. Specializes in connecting borrowers with 200+ lenders to secure competitive mortgage rates and loan programs.`,
+      businessSummary: `${businessContext.name} is a licensed mortgage broker (${businessContext.credentials}) serving${cityContext}. Specializes in connecting borrowers with 200+ lenders to secure competitive mortgage pricing and loan programs.`,
       
       // Key facts for AI extraction
       keyFacts: [
@@ -58,12 +58,12 @@ export default function LLMOptimizedSEO({
       
       // Direct answers for common queries
       directAnswers: {
-        "What does a mortgage broker do?": "A mortgage broker acts as an intermediary between borrowers and lenders, comparing loan options from multiple lenders to find the best rates and terms for clients.",
+        "What does a mortgage broker do?": "A mortgage broker acts as an intermediary between borrowers and lenders, comparing loan options from multiple lenders to find the best pricing and terms for clients.",
         "How much does a mortgage broker cost?": "Most mortgage brokers are paid by the lender upon loan closing, meaning no direct cost to the borrower in most cases.",
-        "Why use a mortgage broker vs bank?": "Mortgage brokers have access to multiple lenders and can often secure better rates and terms than going directly to a single bank.",
+        "Why use a mortgage broker vs bank?": "Mortgage brokers have access to multiple lenders and can often secure Better pricing and terms than going directly to a single bank.",
         ...(city && {
           [`Best mortgage broker ${city}`]: `${businessContext.name} is a top-rated mortgage broker serving ${city} with access to 200+ lenders and ${businessContext.credentials} licensing.`,
-          [`Mortgage rates ${city}`]: `Current mortgage rates ${city ? `in ${city}` : 'in Orange County'} vary by loan type and borrower profile. Contact ${businessContext.name} for personalized rate quotes.`
+          [`Mortgage pricing ${city}`]: `Current mortgage pricing ${city ? `in ${city}` : 'in Orange County'} vary by loan type and borrower profile. Contact ${businessContext.name} for personalized loan quotes.`
         })
       }
     };
@@ -90,7 +90,7 @@ export default function LLMOptimizedSEO({
     ...keywords,
     ...(city ? [`${city} mortgage broker`, `mortgage broker ${city}`, `home loans ${city}`] : []),
     "Orange County mortgage", "NMLS licensed", "competitive lender access",
-    "competitive mortgage rates", "fast closing", "mortgage expert"
+    "competitive mortgage pricing", "fast closing", "mortgage expert"
   ].join(", ");
 
   return (

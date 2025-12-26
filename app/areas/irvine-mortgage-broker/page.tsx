@@ -11,7 +11,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Irvine Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Irvine mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 579-2057.',
+  description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
   },
@@ -109,7 +109,7 @@ export default function IrvineMortgageBrokerPage() {
     {
       title: 'HELOC for Irvine Homes',
       description: 'Access your home equity for renovations, education, or investment',
-      benefits: ['Up to $500K credit lines', 'Prime + 0% intro rates', 'No closing costs available'],
+      benefits: ['Up to $500K credit lines', 'Prime + 0% intro pricing', 'No closing costs available'],
       icon: <TrendingUp className="w-8 h-8 text-blue-600" />
     },
     {
@@ -140,7 +140,7 @@ export default function IrvineMortgageBrokerPage() {
             <span className="text-blue-600">Irvine</span> Mortgage Broker
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Competitive mortgage rates for Irvine homebuyers and homeowners. Specializing in 
+            Competitive mortgage pricing for Irvine homebuyers and homeowners. Specializing in 
             HELOC, jumbo loans, and refinancing for University Park, Woodbridge, Northwood, 
             and all Irvine communities. See how Irvine compares to other top Orange County cities in our 
             <Link href="/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide" className="text-blue-600 hover:text-blue-700 font-medium">Irvine vs Newport Beach guide</Link> 
@@ -149,7 +149,7 @@ export default function IrvineMortgageBrokerPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Get Irvine Mortgage Rates
+                Get Irvine Mortgage pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -332,9 +332,9 @@ export default function IrvineMortgageBrokerPage() {
                   <TrendingUp className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <div className="text-xl font-bold text-slate-900 mb-2">Competitive Rates for High-Value Homes</div>
+                  <div className="text-xl font-bold text-slate-900 mb-2">Competitive pricing for High-Value Homes</div>
                   <p className="text-slate-600">
-                    Access to 200+ lenders through NEXA Mortgage means competitive rates 
+                    Access to 200+ lenders through NEXA Mortgage means Competitive pricing 
                     on Irvine's higher-priced homes and jumbo loan amounts.
                   </p>
                 </div>
@@ -384,7 +384,7 @@ export default function IrvineMortgageBrokerPage() {
                 <span className="font-bold" data-factual="heloc-amount">$350K</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-slate-700">Property Tax Rate:</span>
+                <span className="text-slate-700">Property Tax Percentage:</span>
                 <span className="font-bold" data-factual="tax-rate">~0.7%</span>
               </div>
             </div>
@@ -427,7 +427,7 @@ export default function IrvineMortgageBrokerPage() {
               <CardContent>
                 <p className="text-slate-600">
                   Yes, many Irvine homes exceed the 2025 conforming loan limit of $1,209,750, 
-                  requiring jumbo financing. We specialize in competitive jumbo loan rates 
+                  requiring jumbo financing. We specialize in competitive jumbo loan pricing 
                   through our lender network.
                 </p>
               </CardContent>
@@ -441,7 +441,7 @@ export default function IrvineMortgageBrokerPage() {
                 <p className="text-slate-600">
                   Absolutely! Many Irvine families use HELOCs for education expenses, 
                   including UCI tuition, private schools, and out-of-state colleges. 
-                  HELOC rates are typically lower than student loans.
+                  HELOC pricing is typically lower than student loans.
                 </p>
               </CardContent>
             </Card>
@@ -520,7 +520,7 @@ export default function IrvineMortgageBrokerPage() {
             Ready for Your Irvine Mortgage?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized rates for your Irvine neighborhood and loan needs
+            Get personalized pricing for your Irvine neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

@@ -114,7 +114,7 @@ export default function ContactForm() {
           </div>
           <h3 className="text-2xl font-bold text-slate-900 mb-2">Thank You for Your Inquiry!</h3>
           <p className="text-slate-600 mb-6">
-            We received your information and will be reaching out within 1 business day with your personalized rate quote. 
+            We received your information and will be reaching out within 1 business day with your personalized loan quote. 
             Mo will personally review your details to ensure you get the best possible terms.
           </p>
           <Button 
@@ -132,7 +132,7 @@ export default function ContactForm() {
     <div className="bg-white rounded-lg shadow-lg p-8">
       <h2 className="text-2xl font-bold text-slate-900 mb-6">Get Your Free Quote</h2>
       <p className="text-slate-600 mb-6">
-        Fill out the form below and I'll get back to you within 1 business day with a personalized rate quote.
+        Fill out the form below and I'll get back to you within 1 business day with a personalized loan quote.
       </p>
       
       {showError && (

@@ -20,7 +20,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
         { title: 'Conventional Loans', href: '/loan-programs/conventional-loans', description: 'Traditional mortgage options' },
         { title: 'Jumbo Loans', href: '/loan-programs/jumbo-loans', description: 'High-value property financing' },
         { title: 'HELOC', href: '/loan-programs/heloc', description: 'Home equity credit lines' },
-        { title: 'Refinancing', href: '/loan-programs/rate-term-refinance', description: 'Lower your current rate' }
+        { title: 'Refinancing', href: '/loan-programs/rate-term-refinance', description: 'Lower your current pricing' }
       ]
     },
     'areas': {
@@ -79,7 +79,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
         { title: 'Affordability Calculator', href: '/calculator/affordability', description: 'How much house can you afford' },
         { title: 'Debt-to-Income Calculator', href: '/calculator/debt-to-income', description: 'DTI ratios and approval odds' },
         { title: 'Closing Costs Calculator', href: '/calculator/closing-costs', description: 'Estimate total closing costs' },
-        { title: 'Advanced Rate Calculator', href: '/tools/mortgage-calculator', description: 'Detailed rate comparisons' }
+        { title: 'Advanced pricing Calculator', href: '/tools/mortgage-calculator', description: 'Detailed rate comparisons' }
       ]
     }
   };

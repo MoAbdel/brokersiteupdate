@@ -74,7 +74,7 @@ export default function ResourcesPage() {
     },
     {
       title: 'Credit Repair Resources',
-      description: 'Tools and guides to improve your credit score for better mortgage rates. Expert tips and strategies.',
+      description: 'Tools and guides to improve your credit score for better mortgage pricing. Expert tips and strategies.',
       icon: CreditCard,
       link: '/resources/credit-repair',
       badge: 'Essential',
@@ -116,10 +116,10 @@ export default function ResourcesPage() {
 
   const quickTools = [
     {
-      title: 'Rate Comparison Tool',
-      description: 'Compare rates from multiple lenders',
+      title: 'Loan Comparison Tool',
+      description: 'compare pricing from multiple lenders',
       icon: TrendingUp,
-      action: 'Compare Rates'
+      action: 'compare pricing'
     },
     {
       title: 'Pre-Approval Checklist',

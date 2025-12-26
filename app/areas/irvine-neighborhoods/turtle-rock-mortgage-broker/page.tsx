@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Turtle Rock Irvine Mortgage Broker | Upscale Family Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, competitive rates. Call (949) 579-2057.',
+  description: 'Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/turtle-rock-mortgage-broker',
   },
@@ -142,7 +142,7 @@ export default function TurtleRockMortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="Turtle Rock Irvine Mortgage Broker | Upscale Family Home Loans | Mo Abdel NMLS #1426884"
-        description="Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, competitive rates."
+        description="Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, Competitive pricing."
         city="Turtle Rock, Irvine"
         canonicalUrl="https://mothebroker.com/areas/irvine-neighborhoods/turtle-rock-mortgage-broker"
         content={turtleRockData}

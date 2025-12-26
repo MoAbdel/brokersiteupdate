@@ -163,7 +163,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     },
     "featureList": data.features || [
       "Monthly payment calculation",
-      "Interest rate comparison",
+      "Interest Loan Comparison",
       "Loan term analysis",
       "Down payment scenarios"
     ],
@@ -194,7 +194,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
       "name": data.name,
       "description": data.description,
       "eligibility": data.eligibility || "Varies by program",
-      "price": data.price || "Market rates",
+      "price": data.price || "Market pricing",
       "priceCurrency": "USD"
     },
     "additionalType": "https://schema.org/LoanOrCredit",

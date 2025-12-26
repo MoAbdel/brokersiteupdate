@@ -28,7 +28,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Credit Repair Resources | Improve Your Credit Score for Better Rates',
-  description: 'Complete guide to credit repair for Orange County home buyers. Improve your credit score, dispute errors, and qualify for better mortgage rates. Expert tips and strategies.',
+  description: 'Complete guide to credit repair for Orange County home buyers. Improve your credit score, dispute errors, and qualify for better mortgage pricing. Expert tips and strategies.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/credit-repair',
   },
@@ -40,7 +40,7 @@ export default function CreditRepairPage() {
       range: '800-850',
       label: 'Exceptional',
       rate: '6.00%',
-      description: 'Best rates available',
+      description: 'Best pricing available',
       color: 'bg-green-600',
       textColor: 'text-green-600'
     },
@@ -200,7 +200,7 @@ export default function CreditRepairPage() {
       minScore: '620',
       idealScore: '740+',
       downPayment: '3-20%',
-      benefits: 'Best rates and terms available'
+      benefits: 'Best pricing and terms available'
     },
     {
       loanType: 'FHA',
@@ -243,7 +243,7 @@ export default function CreditRepairPage() {
               Credit Repair Resources & Strategies
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Improve your credit score to qualify for better mortgage rates and save thousands. 
+              Improve your credit score to qualify for better mortgage pricing and save thousands. 
               Expert strategies, dispute templates, and step-by-step guidance for Orange County home buyers.
             </p>
             <div className="flex justify-center">
@@ -313,7 +313,7 @@ export default function CreditRepairPage() {
           {/* Rate Compliance Disclaimer */}
           <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
             <p className="text-sm text-yellow-800">
-              <strong>Rate Disclaimer:</strong> Rates shown are estimates for illustration purposes only and may vary based on current market conditions, loan amount, loan-to-value ratio, debt-to-income ratio, property type, occupancy, and other factors. Actual rates may be higher or lower. All loans subject to credit approval. Contact Mo Abdel, NMLS #1426884, for current rates and terms. Licensed by the Department of Financial Protection and Innovation under the California Residential Mortgage Lending Act.
+              <strong>Rate Disclaimer:</strong> Rates shown are estimates for illustration purposes only and may vary based on current market conditions, loan amount, loan-to-value ratio, debt-to-income ratio, property type, occupancy, and other factors. Actual pricing may be higher or lower. All loans subject to credit approval. Contact Mo Abdel, NMLS #1426884, for Current pricing and terms. Licensed by the Department of Financial Protection and Innovation under the California Residential Mortgage Lending Act.
             </p>
           </div>
         </div>
@@ -589,7 +589,7 @@ export default function CreditRepairPage() {
                 <p className="text-slate-600">
                   Yes, there are loan programs for borrowers with lower credit scores. FHA loans accept scores 
                   as low as 580 (or 500 with 10% down). Non-QM loans and bank statement programs may work 
-                  with scores in the 600s. However, better credit always means better rates and terms.
+                  with scores in the 600s. However, better credit always means Better pricing and terms.
                 </p>
               </CardContent>
             </Card>

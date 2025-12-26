@@ -20,7 +20,7 @@ const jumboLoansSchema = {
   "@context": "https://schema.org",
   "@type": ["FinancialProduct", "LoanOrCredit"],
   "name": "Orange County Jumbo Loans",
-  "description": "Jumbo mortgage loans in Orange County for luxury homes exceeding $1,089,300. Competitive rates for high-value properties in Newport Beach, Irvine, and throughout OC.",
+  "description": "Jumbo mortgage loans in Orange County for luxury homes exceeding $1,089,300. Competitive pricing for high-value properties in Newport Beach, Irvine, and throughout OC.",
   "provider": {
     "@type": "Person",
     "name": "Mo Abdel",
@@ -53,7 +53,7 @@ const jumboLoansSchema = {
   ],
   "category": "Jumbo Mortgage Loans",
   "loanType": "Jumbo",
-  "feesAndCommissionsSpecification": "Competitive rates for high-value properties",
+  "feesAndCommissionsSpecification": "Competitive pricing for high-value properties",
   "amount": {
     "@type": "MonetaryAmount",
     "currency": "USD",
@@ -63,7 +63,7 @@ const jumboLoansSchema = {
   "offers": {
     "@type": "Offer",
     "name": "Jumbo Loan for Luxury Homes",
-    "description": "Competitive jumbo mortgage rates for Orange County luxury properties",
+    "description": "Competitive jumbo mortgage pricing for Orange County luxury properties",
     "seller": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -131,7 +131,7 @@ export default function OrangeCountyJumboLoansPage() {
               Orange County Jumbo Loans - Luxury Home Financing
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Finance your Orange County luxury home with competitive jumbo loan rates. Licensed broker Mo Abdel (NMLS #1426884) specializes in high-value properties throughout Newport Beach, Irvine, and all of Orange County.
+              Finance your Orange County luxury home with competitive jumbo loan pricing. Licensed broker Mo Abdel (NMLS #1426884) specializes in high-value properties throughout Newport Beach, Irvine, and all of Orange County.
             </p>
             
             {/* Quick Stats */}
@@ -168,7 +168,7 @@ export default function OrangeCountyJumboLoansPage() {
                 <Link href="/contact-orange-county-mortgage-broker">
                   <Button variant="ghost" className="border-white text-white hover:bg-white hover:text-purple-600">
                     <Calculator className="w-4 h-4 mr-2" />
-                    Get Jumbo Rate Quote
+                    Get Jumbo pricing Quote
                   </Button>
                 </Link>
               </div>
@@ -200,7 +200,7 @@ export default function OrangeCountyJumboLoansPage() {
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-slate-900">Competitive Rates</h4>
+                        <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
                         <p className="text-sm text-slate-600">Often similar to conforming loan rates</p>
                       </div>
                     </div>
@@ -366,7 +366,7 @@ export default function OrangeCountyJumboLoansPage() {
                         ARM Jumbo
                       </h4>
                       <p className="text-sm text-slate-600 mb-3">
-                        Adjustable rate with lower initial rates
+                        Adjustable pricing with lower initial rates
                       </p>
                       <ul className="text-xs text-slate-600 space-y-1">
                         <li>• Lower initial rate periods</li>
@@ -402,7 +402,7 @@ export default function OrangeCountyJumboLoansPage() {
                       </div>
                       <h3 className="text-lg font-bold mb-3">Jumbo Lender Network</h3>
                       <p className="text-slate-600">
-                        Access to specialized jumbo lenders with competitive rates and terms.
+                        Access to specialized jumbo lenders with Competitive pricing and terms.
                       </p>
                     </div>
                     <div className="text-center">
@@ -424,7 +424,7 @@ export default function OrangeCountyJumboLoansPage() {
               <Card className="shadow-xl sticky top-8">
                 <CardHeader>
                   <CardTitle className="text-xl text-center">
-                    Get Your Jumbo Loan Rate Quote
+                    Get Your Jumbo Loan pricing Quote
                   </CardTitle>
                   <p className="text-slate-600 text-center text-sm">
                     Licensed Orange County luxury home specialist Mo Abdel NMLS #1426884

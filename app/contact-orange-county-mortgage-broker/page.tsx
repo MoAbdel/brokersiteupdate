@@ -72,7 +72,7 @@ const contactSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Purchase Loans",
-          "description": "Home purchase financing with competitive rates"
+          "description": "Home purchase financing with Competitive pricing"
         }
       },
       {
@@ -80,7 +80,7 @@ const contactSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Refinancing",
-          "description": "Lower your rate or access equity with refinancing"
+          "description": "Lower your pricing or access equity with refinancing"
         }
       }
     ]
@@ -158,7 +158,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               Contact Your Orange County Mortgage Broker
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Ready to start your mortgage journey? Get your free consultation and rate quote from a licensed broker with access to 200+ lenders. Available 24/7 for your convenience.
+              Ready to start your mortgage journey? Get your free consultation and loan quote from a licensed broker with access to 200+ lenders. Available 24/7 for your convenience.
             </p>
             
             {/* Quick Contact Bar */}
@@ -341,10 +341,10 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               <Card className="shadow-xl">
                 <CardHeader>
                   <CardTitle className="text-2xl text-center">
-                    Get Your Free Rate Quote
+                    Get Your Free pricing Quote
                   </CardTitle>
                   <p className="text-slate-600 text-center">
-                    Fill out the form below and I'll get back to you within hours with a personalized rate quote and loan options.
+                    Fill out the form below and I'll get back to you within hours with a personalized loan quote and loan options.
                   </p>
                 </CardHeader>
                 <CardContent>

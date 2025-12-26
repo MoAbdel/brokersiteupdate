@@ -115,7 +115,7 @@ export default function UniversityParkMortgageBrokerPage() {
     {
       name: 'Physician Loans',
       description: 'Special programs for UCI medical professionals',
-      rates: 'Competitive rates',
+      rates: 'Competitive pricing',
       downPayment: '5-10%'
     },
     {
@@ -334,7 +334,7 @@ export default function UniversityParkMortgageBrokerPage() {
               Ready to Finance Your University Park Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized jumbo loan expertise for University Park luxury homes. Quick pre-approval and competitive rates.
+              Get specialized jumbo loan expertise for University Park luxury homes. Quick pre-approval and Competitive pricing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">

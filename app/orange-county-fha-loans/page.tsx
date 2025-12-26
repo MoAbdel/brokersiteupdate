@@ -20,7 +20,7 @@ const fhaLoansSchema = {
   "@context": "https://schema.org",
   "@type": ["FinancialProduct", "LoanOrCredit"],
   "name": "Orange County FHA Loans",
-  "description": "FHA loans in Orange County with as little as 3.5% down payment. Licensed broker with access to multiple FHA lenders for competitive rates.",
+  "description": "FHA loans in Orange County with as little as 3.5% down payment. Licensed broker with access to multiple FHA lenders for Competitive pricing.",
   "provider": {
     "@type": "Person",
     "name": "Mo Abdel",
@@ -63,7 +63,7 @@ const fhaLoansSchema = {
   "offers": {
     "@type": "Offer",
     "name": "FHA Loan with 3.5% Down",
-    "description": "Competitive FHA mortgage rates with low down payment options",
+    "description": "Competitive FHA mortgage pricing with low down payment options",
     "seller": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -131,7 +131,7 @@ export default function OrangeCountyFHALoansPage() {
               Orange County FHA Loans - Just 3.5% Down
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Get approved for an FHA loan in Orange County with as little as 3.5% down payment. Licensed broker Mo Abdel (NMLS #1426884) has access to multiple FHA lenders to find you the best rates and terms.
+              Get approved for an FHA loan in Orange County with as little as 3.5% down payment. Licensed broker Mo Abdel (NMLS #1426884) has access to multiple FHA lenders to find you the best pricing and terms.
             </p>
             
             {/* Quick Stats */}
@@ -168,7 +168,7 @@ export default function OrangeCountyFHALoansPage() {
                 <Link href="/contact-orange-county-mortgage-broker">
                   <Button variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                     <Calculator className="w-4 h-4 mr-2" />
-                    Get Rate Quote
+                    Get Loan Quote
                   </Button>
                 </Link>
               </div>
@@ -207,8 +207,8 @@ export default function OrangeCountyFHALoansPage() {
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-slate-900">Competitive Rates</h4>
-                        <p className="text-sm text-slate-600">Government-backed for lower rates</p>
+                        <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
+                        <p className="text-sm text-slate-600">Government-backed for Lower pricing</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -311,7 +311,7 @@ export default function OrangeCountyFHALoansPage() {
                       </div>
                       <h3 className="text-lg font-bold mb-3">Multiple FHA Lenders</h3>
                       <p className="text-slate-600">
-                        Access to 200+ lenders including top FHA-approved institutions for best rates.
+                        Access to 200+ lenders including top FHA-approved institutions for best pricing.
                       </p>
                     </div>
                     <div className="text-center">

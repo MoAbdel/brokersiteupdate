@@ -70,7 +70,7 @@ const purchaseLoans = [
     features: [
       'No down payment required',
       'No private mortgage insurance',
-      'Competitive interest rates',
+      'Competitive loan pricing',
       'No prepayment penalties'
     ],
     link: '/va-loans-orange-county'
@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     question: "Should I work with a mortgage broker or go directly to a bank?",
-    answer: "As a mortgage broker, I have access to 200+ lenders and can shop multiple options to find you the best rates and terms. Banks only offer their own products, limiting your options. This is especially valuable in Orange County's competitive market."
+    answer: "As a mortgage broker, I have access to 200+ lenders and can shop multiple options to find you the best pricing and terms. Banks only offer their own products, limiting your options. This is especially valuable in Orange County's competitive market."
   }
 ];
 

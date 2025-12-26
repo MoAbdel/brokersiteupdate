@@ -230,7 +230,7 @@ export default function MissionViejoVsIrvineGuide() {
                 <li>• <strong>Loan Amount:</strong> $950K average (jumbo loans)</li>
                 <li>• <strong>Down Payment:</strong> 10-20% typical ($95K-$190K)</li>
                 <li>• <strong>Popular Programs:</strong> Conventional, Jumbo, VA loans</li>
-                <li>• <strong>Credit Score:</strong> 720+ recommended for best rates</li>
+                <li>• <strong>Credit Score:</strong> 720+ recommended for best pricing</li>
               </ul>
             </div>
             <div>
@@ -249,7 +249,7 @@ export default function MissionViejoVsIrvineGuide() {
             </p>
             <Link href="/contact">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Get Your Custom Rate Quote
+                Get Your Custom pricing Quote
               </Button>
             </Link>
           </div>

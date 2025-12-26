@@ -7,7 +7,7 @@ import { MapPin, Home, Castle, Users, TrendingUp, Building, Heart } from 'lucide
 
 export const metadata: Metadata = {
   title: 'Anaheim Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Anaheim mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. Call (949) 579-2057.',
+  description: 'Anaheim mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
   },
@@ -57,12 +57,12 @@ export default function AnaheimMortgageBrokerPage() {
     {
       title: 'HELOC for Family Homes',
       description: 'Access your home equity for Disney trips, education, or improvements',
-      benefits: ['Up to $500K credit lines', 'Prime + 0% intro rates', 'No closing costs available'],
+      benefits: ['Up to $500K credit lines', 'Prime + 0% intro pricing', 'No closing costs available'],
       icon: <TrendingUp className="w-8 h-8 text-green-600" />
     },
     {
       title: 'Conventional Loans',
-      description: 'Flexible financing options for Anaheim homes with competitive rates',
+      description: 'Flexible financing options for Anaheim homes with Competitive pricing',
       benefits: ['As low as 3% down payment', 'No PMI with 20% down', 'Various loan terms'],
       icon: <Building className="w-8 h-8 text-purple-600" />
     }
@@ -82,14 +82,14 @@ export default function AnaheimMortgageBrokerPage() {
             <span className="text-blue-600">Anaheim</span> Mortgage Broker: FHA Loans and Home Loans
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Competitive mortgage rates for Anaheim homebuyers and homeowners. Specializing in 
+            Competitive mortgage pricing for Anaheim homebuyers and homeowners. Specializing in 
             FHA loans, HELOC, and refinancing for Disneyland area, Anaheim Hills, Downtown, 
             and all Anaheim communities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                Get Anaheim Mortgage Rates
+                Get Anaheim Mortgage pricing
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -257,7 +257,7 @@ export default function AnaheimMortgageBrokerPage() {
                 <span className="font-bold">$150K</span>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-slate-700">Property Tax Rate:</span>
+                <span className="text-slate-700">Property Tax Percentage:</span>
                 <span className="font-bold">~0.75%</span>
               </div>
             </div>
@@ -267,7 +267,7 @@ export default function AnaheimMortgageBrokerPage() {
                 <div>• FHA loans for first-time buyers</div>
                 <div>• HELOC for family vacations & education</div>
                 <div>• Down payment assistance programs</div>
-                <div>• Refinancing for better rates</div>
+                <div>• Refinancing for Better pricing</div>
               </div>
             </div>
           </div>
@@ -327,7 +327,7 @@ export default function AnaheimMortgageBrokerPage() {
                 <p className="text-slate-600">
                   Absolutely! Most Anaheim Hills properties qualify for conventional loans. 
                   Some higher-priced homes may require jumbo financing, but we offer 
-                  competitive rates for both conventional and jumbo loans.
+                  Competitive pricing for both conventional and jumbo loans.
                 </p>
               </CardContent>
             </Card>
@@ -340,7 +340,7 @@ export default function AnaheimMortgageBrokerPage() {
             Ready for Your Anaheim Mortgage?
           </h2>
           <p className="text-xl mb-6 text-blue-100">
-            Get personalized rates for your Anaheim neighborhood and loan needs
+            Get personalized pricing for your Anaheim neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

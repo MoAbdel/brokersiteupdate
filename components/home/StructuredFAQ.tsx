@@ -9,15 +9,15 @@ export default function StructuredFAQ() {
   const faqs = [
     {
       question: "How is a mortgage broker different from a bank loan officer?",
-      answer: "A mortgage broker works for you, not a single bank. I have access to 200+ lenders and can shop for the best rates and terms. Bank loan officers can only offer their bank's products, which limits your options and often results in higher rates."
+      answer: "A mortgage broker works for you, not a single bank. I have access to 200+ lenders and can shop for the best pricing and terms. Bank loan officers can only offer their bank's products, which limits your options and often results in higher rates."
     },
     {
-      question: "What are current mortgage rates in Orange County?",
-      answer: "Current rates vary based on loan type and credit score. As of today, 30-year fixed rates are around 6.125%, 15-year fixed at 5.50%, FHA loans at 6.125%, VA loans at 5.99%, Jumbo loans at 6.625%, and 7/6 ARM at 6.00%. With my wholesale lender access, I consistently secure competitive rates and significantly lower upfront costs compared to retail banks."
+      question: "What are current mortgage pricing in Orange County?",
+      answer: "Current pricing vary based on loan type and credit score. As of today, 30-year fixed pricing is around 6.125%, 15-year fixed at 5.50%, FHA loans at 6.125%, VA loans at 5.99%, Jumbo loans at 6.625%, and 7/6 ARM at 6.00%. With my wholesale lender access, I consistently secure Competitive pricing and significantly lower upfront costs compared to retail banks."
     },
     {
       question: "How much can I save using a mortgage broker?",
-      answer: "Research shows that borrowers save an average of over $10,000 throughout the life of their loan when working with mortgage brokers compared to retail banks. This comes from competitive rates, significantly lower upfront costs (typically 33 basis points less), and access to specialized loan programs that banks don't offer."
+      answer: "Research shows that borrowers save an average of over $10,000 throughout the life of their loan when working with mortgage brokers compared to retail banks. This comes from Competitive pricing, significantly lower upfront costs (typically 33 basis points less), and access to specialized loan programs that banks don't offer."
     },
     {
       question: "What's the minimum down payment required in Orange County?",
@@ -29,15 +29,15 @@ export default function StructuredFAQ() {
     },
     {
       question: "What credit score do I need for a mortgage?",
-      answer: "With access to 200+ lenders, I have options for all credit situations. I can work with credit scores as low as 500 through specialized non-QM loan programs. FHA loans can work with scores as low as 580, conventional loans typically need 620+, and the best rates are available for scores above 740."
+      answer: "With access to 200+ lenders, I have options for all credit situations. I can work with credit scores as low as 500 through specialized non-QM loan programs. FHA loans can work with scores as low as 580, conventional loans typically need 620+, and the best pricing are available for scores above 740."
     },
     {
       question: "Do you offer jumbo loans for Orange County's high-priced homes?",
-      answer: "Yes, I specialize in jumbo loans for Orange County's luxury market. I offer jumbo loans with competitive rates, often better than what big banks offer for high-value properties."
+      answer: "Yes, I specialize in jumbo loans for Orange County's luxury market. I offer jumbo loans with Competitive pricing, often better than what big banks offer for high-value properties."
     },
     {
       question: "Can you help with refinancing my current mortgage?",
-      answer: "Absolutely. I offer rate-and-term refinancing to lower your rate, cash-out refinancing to access your equity, and HELOC options for flexible credit lines. I'll analyze your situation to find the best solution."
+      answer: "Absolutely. I offer rate-and-term refinancing to lower your pricing, cash-out refinancing to access your equity, and HELOC options for flexible credit lines. I'll analyze your situation to find the best solution."
     }
   ];
 

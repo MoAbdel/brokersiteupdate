@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { TrendingDown, Calendar, Shield, CheckCircle, AlertCircle, Calculator } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Rate & Term Refinance Orange County | Lower Payment & Rate | Mo The Mortgage Broker',
-  description: 'Rate and term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed rate. Competitive mortgage broker rates through NEXA Mortgage. Call (949) 579-2057.',
+  title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
+  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through NEXA Mortgage. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
   },
@@ -24,17 +24,17 @@ export default function RateTermRefinancePage() {
             💰 Money Saver
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-green-600">Rate & Term Refinance</span> in Orange County
+            <span className="text-green-600">Term Refinance</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Lower your interest rate, reduce monthly payments, eliminate PMI, or change your 
-            loan term without taking cash out. Perfect for optimizing your current mortgage 
-            when rates have dropped.
+            Lower your monthly payments, eliminate PMI, or change your
+            loan term without taking cash out. Perfect for optimizing your current mortgage
+            and improving your loan structure.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-                Get My New Rate & Payment
+                Get My New Payment Quote
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -52,7 +52,7 @@ export default function RateTermRefinancePage() {
               <TrendingDown className="w-8 h-8 text-green-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Lower Payments</h3>
-            <p className="text-slate-600">Reduce monthly payments with today's rates</p>
+            <p className="text-slate-600">Reduce monthly payments with better loan terms</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -73,7 +73,7 @@ export default function RateTermRefinancePage() {
               <Calculator className="w-8 h-8 text-orange-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Stability</h3>
-            <p className="text-slate-600">Switch from ARM to fixed rate for predictable payments</p>
+            <p className="text-slate-600">Switch from ARM to fixed pricing for predictable payments</p>
           </div>
         </div>
 
@@ -90,20 +90,12 @@ export default function RateTermRefinancePage() {
                     <span className="font-bold">$600,000</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-slate-600">Current Rate:</span>
-                    <span className="font-bold text-red-600">7.00%</span>
-                  </div>
-                  <div className="flex justify-between">
                     <span className="text-slate-600">Current Payment:</span>
                     <span className="font-bold text-red-600">$4,095/month</span>
                   </div>
                   <div className="border-t pt-4">
                     <div className="flex justify-between mb-2">
-                      <span className="text-slate-600">New Rate:</span>
-                      <span className="font-bold text-green-600">6.125%</span>
-                    </div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-slate-600">New Payment:</span>
+                      <span className="text-slate-600">Optimized Payment:</span>
                       <span className="font-bold text-green-600">$3,794/month</span>
                     </div>
                     <div className="flex justify-between text-lg">
@@ -112,7 +104,7 @@ export default function RateTermRefinancePage() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*Example only. Actual savings depend on your specific situation and current market rates.</p>
+                <p className="text-xs text-slate-500 mt-4">*Example only. Actual savings depend on your specific situation and current market conditions.</p>
               </div>
               
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -142,14 +134,14 @@ export default function RateTermRefinancePage() {
           </div>
         </div>
 
-        {/* Rate & Term Refinance Benefits */}
+        {/* Term Refinance Benefits */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Rate & Term Refinancing?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Term Refinancing?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💵 Lower Monthly Payments</h3>
-                <p className="text-slate-600 mb-3">Reduce your payment by hundreds per month when rates drop or your credit improves.</p>
+                <p className="text-slate-600 mb-3">Reduce your payment by hundreds per month when market conditions improve or your credit strengthens.</p>
                 <p className="text-sm font-semibold text-green-600">Free up cash flow for other goals</p>
               </CardContent>
             </Card>
@@ -165,8 +157,8 @@ export default function RateTermRefinancePage() {
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">⚡ ARM to Fixed Conversion</h3>
-                <p className="text-slate-600 mb-3">Lock in a fixed rate if you have an adjustable-rate mortgage and want stability.</p>
-                <p className="text-sm font-semibold text-green-600">Protection from rising rates</p>
+                <p className="text-slate-600 mb-3">Lock in fixed pricing if you have an adjustable mortgage and want stability.</p>
+                <p className="text-sm font-semibold text-green-600">Protection from payment increases</p>
               </CardContent>
             </Card>
 
@@ -189,7 +181,7 @@ export default function RateTermRefinancePage() {
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💡 Credit Improvement Benefits</h3>
-                <p className="text-slate-600 mb-3">If your credit has improved since your original loan, qualify for much better rates.</p>
+                <p className="text-slate-600 mb-3">If your credit has improved since your original loan, qualify for much better loan terms.</p>
                 <p className="text-sm font-semibold text-green-600">Reward your improved credit</p>
               </CardContent>
             </Card>
@@ -198,14 +190,14 @@ export default function RateTermRefinancePage() {
 
         {/* When to Refinance */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">When Should You Consider Rate & Term Refinancing?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">When Should You Consider Term Refinancing?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-green-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold text-green-800 mb-4">✅ Great Time to Refinance</h3>
               <div className="space-y-3">
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-green-700">Rates are 0.5%+ lower than your current rate</span>
+                  <span className="text-green-700">Market conditions are more favorable than when you originally financed</span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
@@ -217,7 +209,7 @@ export default function RateTermRefinancePage() {
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-green-700">You have an ARM and want rate stability</span>
+                  <span className="text-green-700">You have an ARM and want payment stability</span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
@@ -235,7 +227,7 @@ export default function RateTermRefinancePage() {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700">Rates are higher than your current rate</span>
+                  <span className="text-orange-700">Market conditions are worse than when you originally financed</span>
                 </div>
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
@@ -243,7 +235,7 @@ export default function RateTermRefinancePage() {
                 </div>
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700">You have less than 20% equity and good PMI rate</span>
+                  <span className="text-orange-700">You have less than 20% equity and affordable PMI</span>
                 </div>
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
@@ -270,8 +262,8 @@ export default function RateTermRefinancePage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">1</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">Rate Analysis</h3>
-              <p className="text-slate-600 text-sm">We compare your current rate to today's market rates and calculate your savings.</p>
+              <h3 className="text-lg font-semibold mb-2">Loan Analysis</h3>
+              <p className="text-slate-600 text-sm">We compare your current loan to today's market options and calculate your savings.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -297,15 +289,15 @@ export default function RateTermRefinancePage() {
           </div>
         </div>
 
-        {/* Rate & Term vs Cash-Out */}
+        {/* Term vs Cash-Out */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Rate & Term vs Cash-Out Refinance</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Term Refinance vs Cash-Out Refinance</h2>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg">
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900">Feature</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">Rate & Term Refinance</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">Term Refinance</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-orange-600">Cash-Out Refinance</th>
                 </tr>
               </thead>
@@ -321,9 +313,9 @@ export default function RateTermRefinancePage() {
                   <td className="px-6 py-4 text-center text-slate-600">80%</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rates</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">Lowest Available</td>
-                  <td className="px-6 py-4 text-center text-slate-600">Slightly Higher</td>
+                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Pricing</td>
+                  <td className="px-6 py-4 text-center text-green-600 font-bold">Best Available</td>
+                  <td className="px-6 py-4 text-center text-slate-600">Slightly Higher Cost</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Amount</td>
@@ -346,12 +338,12 @@ export default function RateTermRefinancePage() {
             Ready to Lower Your Orange County Mortgage Payment?
           </h2>
           <p className="text-xl mb-6 text-green-100">
-            Get your personalized rate and payment analysis in minutes
+            Get your personalized loan and payment analysis in minutes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-semibold">
-                Check My New Rate & Payment
+                Check My New Payment Options
               </Button>
             </Link>
             <a href="tel:(949) 579-2057">
@@ -378,7 +370,7 @@ export default function RateTermRefinancePage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

@@ -255,7 +255,7 @@ export default function ProfitLossStatementLoansPage() {
                     <Clock className="w-5 h-5 text-green-600 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold">Terms: 15-30 years</p>
-                      <p className="text-sm text-slate-600">Fixed and adjustable rate options available</p>
+                      <p className="text-sm text-slate-600">Fixed and adjustable pricing options available</p>
                     </div>
                   </div>
                 </div>
@@ -316,7 +316,7 @@ export default function ProfitLossStatementLoansPage() {
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 680+ (varies by program)</p>
-                    <p className="text-slate-600 text-sm">Higher scores unlock better rates and lower down payments</p>
+                    <p className="text-slate-600 text-sm">Higher scores unlock Better pricing and lower down payments</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -349,7 +349,7 @@ export default function ProfitLossStatementLoansPage() {
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Higher Interest Rates</p>
+                    <p className="font-semibold text-slate-900">Higher Interest pricing</p>
                     <p className="text-slate-600 text-sm">Typically 0.75-1.5% above conventional loans</p>
                   </div>
                 </div>
@@ -548,7 +548,7 @@ export default function ProfitLossStatementLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

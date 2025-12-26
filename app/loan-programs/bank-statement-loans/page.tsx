@@ -347,7 +347,7 @@ export default function BankStatementLoansPage() {
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-2">Higher Rates & Fees</h4>
                   <p className="text-sm text-slate-700">
-                    Bank statement loans typically have higher interest rates (0.5-2% above conventional) 
+                    Bank statement loans typically have higher loan pricing (0.5-2% above conventional) 
                     and may include additional fees due to increased lender risk.
                   </p>
                 </div>
@@ -413,7 +413,7 @@ export default function BankStatementLoansPage() {
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Interest rates and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
             </p>
           </div>

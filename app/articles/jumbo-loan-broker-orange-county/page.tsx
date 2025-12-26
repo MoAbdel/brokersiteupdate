@@ -5,10 +5,10 @@ import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loan Broker Orange County | Luxury Home Financing Expert',
-  description: 'Expert jumbo loan broker in Orange County specializing in high-value property financing. Competitive rates, flexible guidelines, and personalized service for luxury home purchases.',
+  description: 'Expert jumbo loan broker in Orange County specializing in high-value property financing. Competitive pricing, flexible guidelines, and personalized service for luxury home purchases.',
   openGraph: {
     title: 'Jumbo Loan Broker Orange County | Mo Abdel - NEXA Mortgage',
-    description: 'Finance your luxury Orange County home with expert jumbo loan guidance. Competitive rates and flexible terms for high-value properties.',
+    description: 'Finance your luxury Orange County home with expert jumbo loan guidance. Competitive pricing and flexible terms for high-value properties.',
     images: ['/images/moabdel-headshot-final.png'],
     url: 'https://www.mothebroker.com/articles/jumbo-loan-broker-orange-county',
     type: 'article',
@@ -102,7 +102,7 @@ export default function JumboLoanBrokerArticle() {
                       <li>• Higher credit score minimums (typically 700+)</li>
                       <li>• Larger down payment requirements</li>
                       <li>• More extensive documentation</li>
-                      <li>• Potentially higher interest rates</li>
+                      <li>• Potentially higher loan pricing</li>
                       <li>• Cash reserve requirements</li>
                     </ul>
                   </div>
@@ -112,7 +112,7 @@ export default function JumboLoanBrokerArticle() {
                     <ul className="space-y-2 text-gray-700">
                       <li>• More flexible underwriting guidelines</li>
                       <li>• Customized loan structures</li>
-                      <li>• Competitive rates for strong borrowers</li>
+                      <li>• Competitive pricing for strong borrowers</li>
                       <li>• Portfolio lender flexibility</li>
                       <li>• Jumbo ARM products with lower initial rates</li>
                       <li>• Interest-only payment options</li>
@@ -135,7 +135,7 @@ export default function JumboLoanBrokerArticle() {
                       <div className="grid md:grid-cols-3 gap-4 text-center">
                         <div>
                           <p className="text-2xl font-bold text-green-600">740+</p>
-                          <p className="text-sm text-gray-600">Best rates & terms</p>
+                          <p className="text-sm text-gray-600">Best pricing & terms</p>
                         </div>
                         <div>
                           <p className="text-2xl font-bold text-yellow-600">700-739</p>
@@ -143,7 +143,7 @@ export default function JumboLoanBrokerArticle() {
                         </div>
                         <div>
                           <p className="text-2xl font-bold text-red-600">680-699</p>
-                          <p className="text-sm text-gray-600">Limited options, higher rates</p>
+                          <p className="text-sm text-gray-600">Limited options, higher pricing</p>
                         </div>
                       </div>
                     </div>
@@ -192,7 +192,7 @@ export default function JumboLoanBrokerArticle() {
                   <div className="border-l-4 border-purple-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">Down Payment Options</h3>
                     <p className="text-gray-700 mb-4">
-                      While some jumbo loans allow as little as 10% down, most borrowers put down 15-20% to secure better rates and avoid mortgage insurance.
+                      While some jumbo loans allow as little as 10% down, most borrowers put down 15-20% to secure Better pricing and avoid mortgage insurance.
                     </p>
                     <div className="overflow-x-auto">
                       <table className="w-full text-sm">
@@ -208,7 +208,7 @@ export default function JumboLoanBrokerArticle() {
                           <tr>
                             <td className="p-3">20%+</td>
                             <td className="p-3">80% LTV</td>
-                            <td className="p-3 text-green-600">Best rates</td>
+                            <td className="p-3 text-green-600">Best pricing</td>
                             <td className="p-3">None</td>
                           </tr>
                           <tr>
@@ -344,7 +344,7 @@ export default function JumboLoanBrokerArticle() {
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Choosing Your Optimal Strategy</h4>
                     <p className="text-gray-700 text-sm">
-                      The key to successful jumbo loan approval lies in selecting the right qualification approach based on your financial profile. Asset-based programs work well for borrowers with substantial investments but irregular income, while traditional income approaches often secure the best rates for borrowers with stable W-2 income.
+                      The key to successful jumbo loan approval lies in selecting the right qualification approach based on your financial profile. Asset-based programs work well for borrowers with substantial investments but irregular income, while traditional income approaches often secure the best pricing for borrowers with stable W-2 income.
                     </p>
                   </div>
                 </div>
@@ -470,16 +470,16 @@ export default function JumboLoanBrokerArticle() {
                 
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
-                    <h3 className="text-xl font-semibold mb-3">Are jumbo loan rates always higher than conforming rates?</h3>
+                    <h3 className="text-xl font-semibold mb-3">Are jumbo loan pricing always higher than conforming pricing?</h3>
                     <p className="text-gray-700">
-                      Not necessarily. While jumbo rates were historically higher, competition has narrowed the gap significantly. For borrowers with excellent credit (740+) and substantial assets, jumbo rates can sometimes be competitive with or even lower than conforming rates, especially for shorter-term ARM products.
+                      Not necessarily. While jumbo rates were historically higher, competition has narrowed the gap significantly. For borrowers with excellent credit (740+) and substantial assets, jumbo rates can sometimes be competitive with or even lower than conforming pricing, especially for shorter-term ARM products.
                     </p>
                   </div>
 
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Can I get a jumbo loan with only 10% down?</h3>
                     <p className="text-gray-700">
-                      Yes, some lenders offer 90% LTV jumbo loans, but expect higher rates and possibly mortgage insurance. Additionally, you'll need excellent credit (typically 740+), strong reserves, and low debt-to-income ratios. The 10% down option is best for borrowers who prefer to keep more cash liquid for investments or other purposes.
+                      Yes, some lenders offer 90% LTV jumbo loans, but expect higher pricing and possibly mortgage insurance. Additionally, you'll need excellent credit (typically 740+), strong reserves, and low debt-to-income ratios. The 10% down option is best for borrowers who prefer to keep more cash liquid for investments or other purposes.
                     </p>
                   </div>
 
@@ -510,7 +510,7 @@ export default function JumboLoanBrokerArticle() {
               <section className="bg-purple-600 text-white rounded-lg p-8 text-center">
                 <h2 className="text-3xl font-bold mb-4">Ready to Finance Your Orange County Luxury Home?</h2>
                 <p className="text-xl mb-6">
-                  Get expert guidance and competitive jumbo loan rates for your high-value property purchase.
+                  Get expert guidance and competitive jumbo loan pricing for your high-value property purchase.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link href="/contact" className="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">

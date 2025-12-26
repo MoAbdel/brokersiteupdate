@@ -62,7 +62,7 @@ export default function OrangeCountyJumboLoansGuide() {
       benefit: "Access to premium properties"
     },
     {
-      feature: "Competitive Rates",
+      feature: "Competitive pricing",
       description: "Often comparable to conforming loan rates with strong credit",
       benefit: "Save thousands annually"
     },
@@ -95,7 +95,7 @@ export default function OrangeCountyJumboLoansGuide() {
       rates: "6.625-7.125%",
       maxLTV: "90%",
       creditScore: "740+",
-      features: ["Full documentation", "Standard underwriting", "Best rates"],
+      features: ["Full documentation", "Standard underwriting", "Best pricing"],
       bestFor: "Traditional W-2 borrowers with excellent credit"
     },
     {
@@ -154,7 +154,7 @@ export default function OrangeCountyJumboLoansGuide() {
       minimum: "10%",
       ideal: "20%+",
       impact: "Rate and terms", 
-      tips: ["Larger down = better rates", "Source of funds documentation", "Gift letter requirements"]
+      tips: ["Larger down = Better pricing", "Source of funds documentation", "Gift letter requirements"]
     }
   ];
 
@@ -183,8 +183,8 @@ export default function OrangeCountyJumboLoansGuide() {
     {
       bank: "Local Credit Unions",
       minAssets: "Varies",
-      jumboRates: "Often best rates",
-      benefits: ["Local decision making", "Competitive rates", "Personal service"],
+      jumboRates: "Often best pricing",
+      benefits: ["Local decision making", "Competitive pricing", "Personal service"],
       bestFor: "Rate-focused borrowers"
     }
   ];
@@ -244,7 +244,7 @@ export default function OrangeCountyJumboLoansGuide() {
                 <p className="text-slate-600 mb-4">2025 limit for Orange County</p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                   <p className="text-sm text-blue-700">
-                    Loans up to this amount qualify for conforming rates and can be sold to Fannie Mae/Freddie Mac
+                    Loans up to this amount qualify for conforming pricing and can be sold to Fannie Mae/Freddie Mac
                   </p>
                 </div>
               </div>
@@ -383,7 +383,7 @@ export default function OrangeCountyJumboLoansGuide() {
                     <div className="font-semibold text-green-600">{loan.downPayment}</div>
                   </div>
                   <div className="bg-white rounded-lg p-3">
-                    <div className="text-sm text-slate-600">Interest Rates</div>
+                    <div className="text-sm text-slate-600">Interest pricing</div>
                     <div className="font-semibold text-blue-600">{loan.rates}</div>
                   </div>
                   <div className="bg-white rounded-lg p-3">
@@ -516,7 +516,7 @@ export default function OrangeCountyJumboLoansGuide() {
             Ready to Finance Your Orange County Luxury Home?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Get competitive jumbo loan rates and access exclusive Orange County properties. 
+            Get competitive jumbo loan pricing and access exclusive Orange County properties. 
             Mo Abdel specializes in jumbo financing for luxury home buyers.
           </p>
           

@@ -35,7 +35,7 @@ export default function GlossaryPage() {
   const glossaryTerms = [
     {
       term: 'Adjustable Rate Mortgage (ARM)',
-      definition: 'A mortgage loan where the interest rate can change periodically based on market conditions. Common types include 7/6, 5/1, 7/1, and 10/1 ARMs.',
+      definition: 'A mortgage loan where the loan pricing can change periodically based on market conditions. Common types include 7/6, 5/1, 7/1, and 10/1 ARMs.',
       category: 'Loan Types',
       related: ['Fixed Rate Mortgage', 'Interest Rate', 'Rate Adjustment']
     },
@@ -47,7 +47,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Annual Percentage Rate (APR)',
-      definition: 'The yearly cost of a mortgage including interest rate, points, broker fees, and other costs. APR provides a more complete picture of loan costs than interest rate alone.',
+      definition: 'The yearly cost of a mortgage including loan pricing, points, broker fees, and other costs. APR provides a more complete picture of loan costs than loan pricing alone.',
       category: 'Rates & Fees',
       related: ['Interest Rate', 'Points', 'Closing Costs']
     },
@@ -77,13 +77,13 @@ export default function GlossaryPage() {
     },
     {
       term: 'Conventional Loan',
-      definition: 'A mortgage not insured by a government agency (FHA, VA, USDA). Typically requires higher credit scores but offers competitive rates and terms.',
+      definition: 'A mortgage not insured by a government agency (FHA, VA, USDA). Typically requires higher credit scores but offers Competitive pricing and terms.',
       category: 'Loan Types',
       related: ['FHA Loan', 'VA Loan', 'Government Loans']
     },
     {
       term: 'Credit Score',
-      definition: 'A numerical representation of creditworthiness, typically ranging from 300-850. Higher scores generally qualify for better mortgage rates and terms.',
+      definition: 'A numerical representation of creditworthiness, typically ranging from 300-850. Higher scores generally qualify for better mortgage pricing and terms.',
       category: 'Credit',
       related: ['FICO Score', 'Credit Report', 'Credit History']
     },
@@ -119,7 +119,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Fixed Rate Mortgage',
-      definition: 'A mortgage where the interest rate remains the same for the entire loan term, providing predictable monthly payments.',
+      definition: 'A mortgage where the loan pricing remains the same for the entire loan term, providing predictable monthly payments.',
       category: 'Loan Types',
       related: ['ARM', 'Interest Rate', 'Payment Stability']
     },
@@ -139,7 +139,7 @@ export default function GlossaryPage() {
       term: 'Interest Rate',
       definition: 'The percentage charged by a lender for borrowing money, typically expressed as an annual rate. Affects monthly payment amount.',
       category: 'Rates & Fees',
-      related: ['APR', 'Rate Lock', 'Market Rates']
+      related: ['APR', 'Rate Lock', 'Market pricing']
     },
     {
       term: 'Jumbo Loan',
@@ -149,7 +149,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Loan-to-Value Ratio (LTV)',
-      definition: 'The percentage of a property\'s value that is financed. Calculated by dividing loan amount by property value. Lower LTV typically means better rates.',
+      definition: 'The percentage of a property\'s value that is financed. Calculated by dividing loan amount by property value. Lower LTV typically means Better pricing.',
       category: 'Qualification',
       related: ['Down Payment', 'Property Value', 'Risk Assessment']
     },
@@ -179,7 +179,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Points',
-      definition: 'Fees paid to lenders at closing to reduce the interest rate. One point equals 1% of the loan amount and typically reduces the rate by 0.25%.',
+      definition: 'Fees paid to lenders at closing to reduce the loan pricing. One point equals 1% of the loan amount and typically reduces the pricing by 0.25%.',
       category: 'Rates & Fees',
       related: ['Discount Points', 'Interest Rate', 'Buy Down']
     },
@@ -203,13 +203,13 @@ export default function GlossaryPage() {
     },
     {
       term: 'Rate Lock',
-      definition: 'An agreement that guarantees a specific interest rate for a certain period, typically 30-60 days, protecting against rate increases during processing.',
+      definition: 'An agreement that guarantees a specific loan pricing for a certain period, typically 30-60 days, protecting against rate increases during processing.',
       category: 'Rates & Fees',
       related: ['Interest Rate', 'Lock Period', 'Rate Protection']
     },
     {
       term: 'Refinancing',
-      definition: 'Replacing an existing mortgage with a new loan, typically to get a better interest rate, change loan terms, or access home equity.',
+      definition: 'Replacing an existing mortgage with a new loan, typically to get a better loan pricing, change loan terms, or access home equity.',
       category: 'Loan Types',
       related: ['Rate and Term Refi', 'Cash-Out Refi', 'Current Loan']
     },

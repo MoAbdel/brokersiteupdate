@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92602 Irvine Mortgage Broker | ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, competitive rates, personalized service. Call (949) 579-2057.',
+  description: '92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, Competitive pricing, personalized service. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92602-irvine-mortgage-broker',
   },
@@ -136,7 +136,7 @@ export default function ZipCode92602MortgageBrokerPage() {
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="92602 Irvine Mortgage Broker | ZIP Code Specialist | Mo Abdel NMLS #1426884"
-        description="92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, competitive rates, personalized service."
+        description="92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, Competitive pricing, personalized service."
         city="92602, Irvine"
         canonicalUrl="https://mothebroker.com/zip-codes/92602-irvine-mortgage-broker"
         content={zipCodeData}
@@ -352,7 +352,7 @@ export default function ZipCode92602MortgageBrokerPage() {
               Ready to Finance Your 92602 Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized financing expertise for ZIP code 92602. Local knowledge, competitive rates, personalized service.
+              Get specialized financing expertise for ZIP code 92602. Local knowledge, Competitive pricing, personalized service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">
