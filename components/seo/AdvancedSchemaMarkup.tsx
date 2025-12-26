@@ -34,15 +34,15 @@ interface SchemaProps {
 
 export default function AdvancedSchemaMarkup({
   type,
-  name = "Mo Abdel - Orange County Mortgage Expert",
-  description = "Mortgage broker serving Orange County with access to 200+ lenders for competitive wholesale rates, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884.",
+  name = "Mo Abdel - California Mortgage Broker | West Capital Lending",
+  description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://mothebroker.com",
-  telephone = "(949) 579-2057",
+  telephone = "+19495372357",
   address = {
-    streetAddress: "",
-    addressLocality: "Lake Forest",
+    streetAddress: "24 Executive Park Suite 250",
+    addressLocality: "Irvine",
     addressRegion: "CA",
-    postalCode: "92630",
+    postalCode: "92614",
     addressCountry: "US"
   },
   areaServed = [
@@ -60,12 +60,11 @@ export default function AdvancedSchemaMarkup({
   ],
   priceRange = "$0 - No cost consultations",
   openingHours = [
-    "Mo-Fr 09:00-18:00",
-    "Sa 10:00-16:00"
+    "Mo-Fr 08:00-18:00"
   ],
   sameAs = [
-    "https://www.linkedin.com/in/moabdel",
-    "https://www.nexamortgage.com"
+    "https://westcapitallending.com/team/mo-abdel",
+    "https://www.nmlsconsumeraccess.org"
   ],
   aggregateRating = {
     ratingValue: 4.9,
@@ -73,8 +72,8 @@ export default function AdvancedSchemaMarkup({
   },
   founder = {
     name: "Mo Abdel",
-    jobTitle: "Senior Mortgage Loan Officer",
-    sameAs: ["https://www.linkedin.com/in/moabdel"]
+    jobTitle: "Branch Manager",
+    sameAs: ["https://westcapitallending.com/team/mo-abdel"]
   }
 }: SchemaProps) {
   
@@ -113,8 +112,8 @@ export default function AdvancedSchemaMarkup({
           },
           memberOf: {
             "@type": "Organization",
-            name: "NEXA Mortgage",
-            url: "https://www.nexamortgage.com"
+            name: "West Capital Lending, Inc.",
+            url: "https://westcapitallending.com"
           },
           hasCredential: {
             "@type": "EducationalOccupationalCredential",

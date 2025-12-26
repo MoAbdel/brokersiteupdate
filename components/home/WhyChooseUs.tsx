@@ -8,39 +8,39 @@ import { GitCompareArrows, Zap, Shield, Star, Award, TrendingUp, ArrowRight } fr
 const features = [
   {
     icon: GitCompareArrows,
-    title: "Unbiased Access to 200+ Lenders",
-    description: "According to industry data, brokers provide access to significantly more loan options than banks. I connect you to a massive network of lenders. They compete for your business. The result? Better rates and more programs.",
+    title: "Access to 100+ Wholesale Lenders",
+    description: "Brokers provide access to significantly more loan options than retail banks. I connect you to multiple lenders who compete for your business, offering diverse programs and competitive wholesale pricing.",
     highlight: "More Options"
   },
   {
     icon: Zap,
-    title: "Tech-Savvy & Transparent Process",
-    description: "Research shows transparency improves client satisfaction by 40%. No confusing jargon or hidden fees. I use modern technology for seamless processing. The entire process remains transparent.",
+    title: "Transparent & Streamlined Process",
+    description: "No confusing jargon or hidden fees. I use modern technology for efficient processing with clear communication at every step of your mortgage journey.",
     highlight: "Transparent"
   },
   {
     icon: Shield,
-    title: "Cut Through Red Tape & Fees",
-    description: "Studies indicate brokers help eliminate unnecessary fees. I navigate the complex lending landscape efficiently. I find cost savings and eliminate junk fees. This reduces your total loan costs.",
-    highlight: "Lower Fees"
+    title: "Multiple Low-Cost Loan Structures",
+    description: "I navigate the complex lending landscape to identify cost-effective solutions. Multiple loan structures available to help reduce your total borrowing costs.",
+    highlight: "Cost-Effective"
   },
   {
     icon: Star,
-    title: "Personalized, Tailored Lending",
-    description: "Data confirms personalized service leads to better outcomes. You're not a number in a queue. I provide dedicated one-on-one service. Each loan is tailored to your financial situation.",
-    highlight: "5-Star Service"
+    title: "Personalized Service",
+    description: "You're not a number in a queue. I provide dedicated one-on-one service with each loan strategy tailored to your unique financial situation and goals.",
+    highlight: "Personalized"
   },
   {
     icon: Award,
-    title: "Faster Turnarounds, More Approvals",
-    description: "Industry research shows streamlined processes reduce closing times by 25%. My tech-first approach cuts through delays. This leads to faster closings. You get more approval options.",
-    highlight: "Faster Closing"
+    title: "Streamlined Underwriting",
+    description: "Efficient processes with typical 15-21 day closings. Access to multiple approval options through our network of wholesale lenders.",
+    highlight: "Efficient"
   },
   {
     icon: TrendingUp,
-    title: "Optimized for Your Success",
-    description: "According to client feedback, broker advocacy improves loan satisfaction. I work for you, not the banks. Your financial well-being is my top priority. This ensures optimal lending outcomes.",
-    highlight: "Client Focused"
+    title: "Client-Focused Advocacy",
+    description: "I work for you, not the banks. Your financial well-being guides my recommendations, ensuring you understand all available options.",
+    highlight: "Client First"
   }
 ];
 
@@ -49,13 +49,13 @@ export default function WhyChooseUs() {
     <section className="py-16 bg-gradient-to-br from-blue-50 to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Badge className="bg-blue-100 text-blue-800 mb-4">The Mortgage Hacker Advantage</Badge>
+          <Badge className="bg-green-100 text-green-800 mb-4">West Capital Lending Advantage</Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Why Choose an Orange County Mortgage Broker vs Banks?
+            Why Choose a California Mortgage Broker vs Banks?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Unlike big banks with a one-size-fits-all approach, I leverage technology and a vast lender network
-            to create better, faster, and more transparent mortgage solutions.
+            Unlike retail banks with limited product offerings, I leverage wholesale lending channels
+            and 100+ lender relationships to provide more options and competitive pricing.
           </p>
         </div>
 

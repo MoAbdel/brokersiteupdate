@@ -23,8 +23,8 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">About Mo Abdel</h3>
             <p className="text-slate-400 mb-4">
-              Your trusted local mortgage broker serving all of Orange County. 
-              I'm committed to finding you the best rates and loan programs available. NMLS #1426884.
+              Your trusted mortgage broker providing direct access to 100+ wholesale lenders across California.
+              Shopping the entire marketplace to secure your optimal financing strategy. NMLS #1426884.
             </p>
           </div>
           
@@ -44,10 +44,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-slate-400">
-              <li>📞 (949) 579-2057</li>
-              <li>📧 <Link href="/contact" className="hover:text-white transition-colors">Get a Quote</Link></li>
-              <li>📍 Orange County, CA</li>
-              <li>🕒 Available 24/7</li>
+              <li>📞 (949) 537-2357</li>
+              <li>📧 <a href="mailto:mabdel@wclloans.com" className="hover:text-white transition-colors">mabdel@wclloans.com</a></li>
+              <li>📍 24 Executive Park Suite 250<br/>Irvine, CA 92614</li>
+              <li>🕒 Mo-Fr 8:00 AM - 6:00 PM</li>
             </ul>
             
             {/* Social Media Links */}
@@ -170,27 +170,35 @@ export default function Footer() {
               {/* Enhanced NMLS Disclosures */}
               <div className="text-center">
                 <div className="bg-slate-800 p-4 rounded-lg inline-block">
-                  <p className="text-white font-semibold mb-2">Mo Abdel - NMLS #1426884</p>
-                  <p className="text-slate-300 text-sm mb-2">Licensed Mortgage Loan Originator</p>
-                  <p className="text-slate-300 text-sm mb-3">NEXA Mortgage LLC • Equal Housing Lender</p>
-                  
+                  <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
+                  <p className="text-slate-300 text-sm mb-2">West Capital Lending, Inc.</p>
+                  <p className="text-slate-300 text-sm mb-3">Mo Abdel, Branch Manager • NMLS #1426884</p>
+
                   {/* Brokerage License Information */}
                   <div className="border-t border-slate-600 pt-3 mb-3">
-                    <p className="text-slate-300 text-sm font-medium mb-1">NEXA Mortgage LLC</p>
-                    <p className="text-slate-400 text-xs mb-1">Company State License# AZMB - 0944059 | NMLS# 1660690</p>
-                    <p className="text-slate-400 text-xs">5559 S Sossaman Rd, Bldg 1 Ste 101, Mesa, AZ 85212</p>
+                    <p className="text-slate-300 text-sm font-medium mb-1">24 Executive Park Suite 250, Irvine, CA 92614</p>
+                    <p className="text-slate-400 text-xs mb-1">Direct: (949) 537-2357 | mabdel@wclloans.com</p>
+                    <p className="text-slate-400 text-xs mb-1">Company NMLS #1566096 | CA DRE #02022356</p>
+                    <p className="text-slate-400 text-xs">Licensed by the CA Department of Financial Protection and Innovation</p>
                   </div>
-                  
+
                   <p className="text-slate-400 text-xs">
-                    Verify license at{' '}
-                    <a 
-                      href="https://www.nmlsconsumeraccess.org" 
-                      target="_blank" 
+                    <a
+                      href="https://www.nmlsconsumeraccess.org"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-400 hover:text-blue-300 underline"
                     >
-                      www.nmlsconsumeraccess.org
+                      NMLS Consumer Access
                     </a>
+                    {' | '}
+                    <Link href="/privacy-policy" className="text-blue-400 hover:text-blue-300 underline">
+                      Privacy Policy
+                    </Link>
+                    {' | '}
+                    <Link href="/terms-of-service" className="text-blue-400 hover:text-blue-300 underline">
+                      Terms of Use
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -199,12 +207,15 @@ export default function Footer() {
               <div className="flex items-center">
                 <div className="bg-slate-800 p-4 rounded-lg w-full">
                   <p className="text-slate-300 text-xs mb-2">
-                    <strong>Important:</strong> This is not a commitment to lend. All information contained herein is subject to change without notice. 
-                    All loans are subject to credit approval. Equal Housing Lender.
+                    <strong>Important:</strong> This is not a commitment to lend. Loans subject to credit and property approval.
+                    Programs, rates, terms and conditions subject to change without notice. Other restrictions apply.
+                  </p>
+                  <p className="text-slate-400 text-xs mb-2">
+                    This material is not from HUD or FHA and has not been approved by HUD or any government agency.
+                    The information provided is for informational purposes only and is not an advertisement for products or services.
                   </p>
                   <p className="text-slate-400 text-xs">
-                    This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
-                    The information provided is for informational purposes only and is not an advertisement for products or services.
+                    All loan programs and pricing are subject to credit approval and may require membership or account relationships. Additional terms and conditions apply.
                   </p>
                 </div>
               </div>
