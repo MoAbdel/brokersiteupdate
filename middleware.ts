@@ -4,26 +4,9 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Allow homepage and public assets
-  if (
-    pathname === '/' ||
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/images') ||
-    pathname.startsWith('/favicon') ||
-    pathname.startsWith('/mo-abdel-contact.vcf') ||
-    pathname.endsWith('.png') ||
-    pathname.endsWith('.jpg') ||
-    pathname.endsWith('.jpeg') ||
-    pathname.endsWith('.svg') ||
-    pathname.endsWith('.ico') ||
-    pathname.endsWith('.webp') ||
-    pathname.endsWith('.vcf')
-  ) {
-    return NextResponse.next();
-  }
-
-  // Redirect all other pages to homepage
-  return NextResponse.redirect(new URL('/', request.url));
+  // Check if we need to redirect old URLs or handle specific logic
+  // For now, allow all traffic to flow to the simplified site structure
+  return NextResponse.next();
 }
 
 export const config = {
