@@ -1,0 +1,16 @@
+# Ultra-modern browsers only - ES2022+ support
+# Eliminates all polyfills for maximum performance
+
+# Only very modern browsers that support all ES2022 features
+Chrome >= 94
+Firefox >= 93
+Safari >= 15.4
+Edge >= 94
+
+# Exclude all legacy browsers completely
+not dead
+not IE > 0
+not op_mini all
+not and_chr < 94
+not and_ff < 93
+not ios_saf < 15.4
