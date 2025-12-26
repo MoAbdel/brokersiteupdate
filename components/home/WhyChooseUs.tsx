@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
         <div className="text-center mb-12">
           <Badge className="bg-green-100 text-green-800 mb-4">West Capital Lending Advantage</Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Why Choose a California Mortgage Broker vs Banks?
+            Why Choose a Mortgage Broker vs Banks?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Unlike retail banks with limited product offerings, I leverage wholesale lending channels

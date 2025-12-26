@@ -17,11 +17,11 @@ export default function SimpleLandingPage() {
       {/* West Capital Advantage */}
       <WestCapitalAdvantage />
 
-      {/* Social Proof Section */}
-      <SocialProofSection />
-
       {/* Why Choose Us */}
       <WhyChooseUs />
+
+      {/* Social Proof Section */}
+      <SocialProofSection />
     </div>
   );
 }
