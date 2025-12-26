@@ -11,24 +11,24 @@ export default function LocalMarketInsights() {
   const [marketData, setMarketData] = useState<any[]>([
     {
       metric: "Median Home Price",
-      value: "$1.18M",
+      value: "$1.1M+",
       change: "+5.1%",
       trend: "up",
-      description: "Orange County median sale price (Jan 2025)"
+      description: "Orange County median sale price trending upward"
     },
     {
       metric: "Active Inventory",
-      value: "5,121 homes",
-      change: "+97% YTD",
+      value: "Low Supply",
+      change: "Competitive",
       trend: "up",
-      description: "Significant inventory growth since Jan 2025"
+      description: "Strong demand continues to outpace available inventory"
     },
     {
       metric: "Market Condition",
       value: "Seller's Market",
       change: "Stable",
       trend: "stable",
-      description: "70% of homes priced above $1M"
+      description: "High competition for priced-right homes"
     }
   ]);
 
@@ -48,7 +48,7 @@ export default function LocalMarketInsights() {
             Local Housing Market Insights
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Stay informed about Orange County housing trends. 
+            Stay informed about Orange County housing trends.
             Understanding the market helps you make better financing decisions.
           </p>
         </div>
@@ -61,17 +61,16 @@ export default function LocalMarketInsights() {
                   <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-1 animate-pulse">{data.value}</div>
                   <div className="text-sm font-medium text-slate-600">{data.metric}</div>
                 </div>
-                
-                <div className={`flex items-center justify-center space-x-1 text-sm font-medium mb-2 ${
-                  data.trend === 'up' ? 'text-green-600' : 
-                  data.trend === 'down' ? 'text-red-500' : 'text-blue-600'
-                }`}>
+
+                <div className={`flex items-center justify-center space-x-1 text-sm font-medium mb-2 ${data.trend === 'up' ? 'text-green-600' :
+                    data.trend === 'down' ? 'text-red-500' : 'text-blue-600'
+                  }`}>
                   {data.trend === 'up' && <TrendingUp className="w-4 h-4" />}
                   {data.trend === 'down' && <TrendingUp className="w-4 h-4 transform rotate-180" />}
                   {data.trend === 'stable' && <Home className="w-4 h-4" />}
                   <span>{data.change}</span>
                 </div>
-                
+
                 <p className="text-xs text-slate-500">{data.description}</p>
               </CardContent>
             </Card>
@@ -95,7 +94,7 @@ export default function LocalMarketInsights() {
                   <p className="text-slate-600 text-sm">Cash-out, rate & term, and streamline refinance programs with Competitive pricing</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-green-600 rounded-full mt-2"></div>
                 <div>
@@ -103,7 +102,7 @@ export default function LocalMarketInsights() {
                   <p className="text-slate-600 text-sm">Bank statement loans, asset-based financing, and alternative documentation options</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-green-600 rounded-full mt-2"></div>
                 <div>
@@ -130,7 +129,7 @@ export default function LocalMarketInsights() {
                   <p className="text-slate-600 text-sm">Multiple highly-rated school districts throughout the county</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
                 <div>
@@ -138,7 +137,7 @@ export default function LocalMarketInsights() {
                   <p className="text-slate-600 text-sm">Easy access to beaches, mountains, and major employment centers</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
                 <div>
@@ -154,7 +153,7 @@ export default function LocalMarketInsights() {
           <p className="text-sm text-slate-500 mb-6">
             Market data updated periodically. Sources may include: MLS, Orange County Association of Realtors, CoreLogic
           </p>
-          
+
           <Link href="/loan-programs">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
               Explore Loan Programs
