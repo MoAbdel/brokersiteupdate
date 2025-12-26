@@ -1,52 +1,71 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { TrendingUp, Users, DollarSign, Star, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function SocialProofSection() {
-  const [currentWin, setCurrentWin] = useState(0);
+  const [currentReview, setCurrentReview] = useState(0);
 
-  const clientWins = [
+  const reviews = [
     {
-      quote: "Saved Irvine tech executive $1,850/month with strategic recast",
-      location: "Irvine, CA",
-      savings: "$1,850/mo"
+      name: "jhcurry",
+      location: "Fairfield, CA",
+      date: "Dec 2025",
+      rating: 5,
+      loanType: "Home Equity",
+      quote: "I worked with Mo and Latoyia at WCL to obtain a HEL. I could not be more pleased with the process. Mo was professional, thorough and generally very interested in seeing that my experience was a pleasant one. I'd recommend them to anyone looking for a lender. Great job.",
+      closedOnTime: true,
+      interestRate: "As expected",
+      fees: "As expected"
     },
     {
-      quote: "Secured 90% LTV jumbo for Newport Beach self-employed buyer",
-      location: "Newport Beach, CA",
-      program: "Jumbo Loan"
+      name: "sacullagarrett",
+      location: "Chula Vista, CA",
+      date: "Nov 2025",
+      rating: 5,
+      loanType: "Home Equity",
+      quote: "Mo was completely transparent and professional. He made the loan process easy. Highly recommend him as a loan officer. Hands off and very quick. Very straight forward.",
+      closedOnTime: true,
+      interestRate: "As expected",
+      fees: "As expected"
     },
     {
-      quote: "Unlocked $200K HELOC at prime + 0.5% for Tustin investor",
-      location: "Tustin, CA",
-      amount: "$200K HELOC"
+      name: "Jim Lord",
+      location: "Paso Robles, CA",
+      date: "Oct 2025",
+      rating: 5,
+      loanType: "Home Equity",
+      quote: "We have refinanced before but have never had such a hard working and professional lender's representative than Mo. I ended up having a number of questions but he cheerfully and professionally responded. Our loan was processed quickly and without incident. I would definitely use Mo again and refer him to others.",
+      closedOnTime: true,
+      interestRate: "Lower than expected",
+      fees: "As expected"
     },
     {
-      quote: "First-time buyer in Mission Viejo with 3% down FHA",
-      location: "Mission Viejo, CA",
-      program: "FHA 3% Down"
-    },
-    {
-      quote: "Orange County investor portfolio - 5 DSCR loans closed in 90 days",
-      location: "Orange County, CA",
-      achievement: "5 Properties"
+      name: "Karthikeyan Ramaswami",
+      location: "Aldie, VA",
+      date: "Apr 2025",
+      rating: 5,
+      loanType: "Refinance",
+      quote: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for lender decision, temporary approval and so on. Mo was great in communicating me clearly and was willing to go extra mile to check.",
+      closedOnTime: true,
+      interestRate: "As expected",
+      fees: "Lower than expected"
     }
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentWin((prev) => (prev + 1) % clientWins.length);
-    }, 5000);
+      setCurrentReview((prev) => (prev + 1) % reviews.length);
+    }, 6000);
     return () => clearInterval(interval);
-  }, [clientWins.length]);
+  }, [reviews.length]);
 
-  const nextWin = () => {
-    setCurrentWin((prev) => (prev + 1) % clientWins.length);
+  const nextReview = () => {
+    setCurrentReview((prev) => (prev + 1) % reviews.length);
   };
 
-  const prevWin = () => {
-    setCurrentWin((prev) => (prev - 1 + clientWins.length) % clientWins.length);
+  const prevReview = () => {
+    setCurrentReview((prev) => (prev - 1 + reviews.length) % reviews.length);
   };
 
   return (
@@ -54,53 +73,41 @@ export default function SocialProofSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Proven Results for California Families
+            Client Reviews
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Real outcomes from strategic mortgage planning
+            Real feedback from real clients on Zillow
           </p>
         </div>
 
-        {/* Recent Wins Carousel */}
-        <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 opacity-10">
-            <Star className="w-64 h-64" />
+        {/* Reviews Carousel */}
+        <div className="bg-slate-900 rounded-2xl p-8 text-white relative overflow-hidden">
+          <div className="absolute top-4 right-4 flex items-center gap-1 text-yellow-400">
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} className="w-5 h-5 fill-current" />
+            ))}
           </div>
 
           <div className="relative z-10">
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold mb-2">Recent Client Wins</h3>
-              <p className="text-green-100">
-                Real results from the past 90 days
-              </p>
-            </div>
-
             <div className="max-w-3xl mx-auto">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 min-h-[160px] flex items-center justify-center">
-                <div className="text-center">
-                  <p className="text-xl md:text-2xl font-semibold mb-4">
-                    "{clientWins[currentWin].quote}"
-                  </p>
-                  <div className="flex items-center justify-center gap-4 text-sm text-green-100">
-                    <span>📍 {clientWins[currentWin].location}</span>
-                    {clientWins[currentWin].savings && (
-                      <span className="bg-white/20 px-3 py-1 rounded-full font-semibold">
-                        💰 {clientWins[currentWin].savings}
-                      </span>
-                    )}
-                    {clientWins[currentWin].program && (
-                      <span className="bg-white/20 px-3 py-1 rounded-full font-semibold">
-                        {clientWins[currentWin].program}
-                      </span>
-                    )}
-                    {clientWins[currentWin].amount && (
-                      <span className="bg-white/20 px-3 py-1 rounded-full font-semibold">
-                        {clientWins[currentWin].amount}
-                      </span>
-                    )}
-                    {clientWins[currentWin].achievement && (
-                      <span className="bg-white/20 px-3 py-1 rounded-full font-semibold">
-                        🏆 {clientWins[currentWin].achievement}
+              <div className="min-h-[200px] flex flex-col justify-center">
+                <p className="text-lg md:text-xl leading-relaxed mb-6 italic">
+                  "{reviews[currentReview].quote}"
+                </p>
+                <div className="flex flex-wrap items-center justify-between gap-4">
+                  <div>
+                    <p className="font-semibold text-lg">{reviews[currentReview].name}</p>
+                    <p className="text-slate-400 text-sm">
+                      {reviews[currentReview].location} • {reviews[currentReview].date}
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="bg-white/10 px-3 py-1 rounded-full text-sm">
+                      {reviews[currentReview].loanType}
+                    </span>
+                    {reviews[currentReview].closedOnTime && (
+                      <span className="bg-green-600/30 px-3 py-1 rounded-full text-sm text-green-300">
+                        ✓ Closed on time
                       </span>
                     )}
                   </div>
@@ -108,37 +115,49 @@ export default function SocialProofSection() {
               </div>
 
               {/* Carousel Controls */}
-              <div className="flex items-center justify-center gap-4 mt-6">
+              <div className="flex items-center justify-center gap-4 mt-8 pt-6 border-t border-white/10">
                 <button
-                  onClick={prevWin}
-                  className="bg-white/20 hover:bg-white/30 rounded-full p-2 transition-colors"
-                  aria-label="Previous win"
+                  onClick={prevReview}
+                  className="bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+                  aria-label="Previous review"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
 
                 <div className="flex gap-2">
-                  {clientWins.map((_, index) => (
+                  {reviews.map((_, index) => (
                     <button
                       key={index}
-                      onClick={() => setCurrentWin(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${index === currentWin ? 'bg-white w-8' : 'bg-white/40'
+                      onClick={() => setCurrentReview(index)}
+                      className={`w-2 h-2 rounded-full transition-all ${index === currentReview ? 'bg-white w-8' : 'bg-white/40'
                         }`}
-                      aria-label={`Go to win ${index + 1}`}
+                      aria-label={`Go to review ${index + 1}`}
                     />
                   ))}
                 </div>
 
                 <button
-                  onClick={nextWin}
-                  className="bg-white/20 hover:bg-white/30 rounded-full p-2 transition-colors"
-                  aria-label="Next win"
+                  onClick={nextReview}
+                  className="bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+                  aria-label="Next review"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Zillow Attribution */}
+        <div className="text-center mt-6">
+          <a
+            href="https://www.zillow.com/lender-profile/mabdel0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 hover:text-slate-700 text-sm"
+          >
+            View all reviews on Zillow →
+          </a>
         </div>
       </div>
     </section>
