@@ -1,29 +1,34 @@
 'use client';
 
 import React from 'react';
-import { Building2, TrendingDown, MapPin, Shield } from 'lucide-react';
+import Link from 'next/link';
+import { Building2, MapPin } from 'lucide-react';
 
 export default function WestCapitalAdvantage() {
   const programs = [
     {
       title: 'Conventional/Jumbo',
       description: 'Up to $4M',
-      details: 'Competitive pricing for strong credit profiles'
+      details: 'Competitive pricing for strong credit profiles',
+      href: '/loan-programs/conventional-loans'
     },
     {
       title: 'FHA/VA/USDA',
       description: 'Government Programs',
-      details: 'Low down payment options for qualified buyers'
+      details: 'Low down payment options for qualified buyers',
+      href: '/loan-programs/fha-loans'
     },
     {
       title: 'Non-QM Solutions',
       description: 'Alternative Income',
-      details: 'Bank Statement, DSCR, Asset Depletion programs'
+      details: 'Bank Statement, DSCR, Asset Depletion programs',
+      href: '/loan-programs/non-qm-loans'
     },
     {
       title: 'Strategic HELOCs',
       description: 'Home Equity Access',
-      details: 'Second mortgages & credit lines'
+      details: 'Second mortgages & credit lines',
+      href: '/loan-programs/heloc'
     }
   ];
 
@@ -65,9 +70,10 @@ export default function WestCapitalAdvantage() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {programs.map((program, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-green-400 hover:shadow-lg transition-all duration-300"
+                href={program.href}
+                className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-green-400 hover:shadow-lg transition-all duration-300 block"
               >
                 <div className="text-green-600 font-bold text-sm mb-2 uppercase tracking-wide">
                   {program.description}
@@ -78,7 +84,7 @@ export default function WestCapitalAdvantage() {
                 <p className="text-sm text-slate-600">
                   {program.details}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
