@@ -20,16 +20,9 @@ export default function Header() {
     <header className="bg-white/95 backdrop-blur-sm shadow-base44 border-b border-slate-200 sticky top-0 z-[60]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20 py-2">
-          {/* Logo/Brand */}
+          {/* Brand */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/MoAbdelLogo.png"
-              alt="Mo Abdel - Orange County Mortgage Broker NMLS 1426884"
-              width={720}
-              height={216}
-              className="h-16 md:h-24 w-auto"
-              priority
-            />
+            <span className="text-xl font-bold text-slate-900">Mo Abdel</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -41,11 +34,11 @@ export default function Header() {
                     <Link
                       href={item.url}
                       className={`inline-flex items-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-200 whitespace-nowrap ${(item.page === 'Programs' && pathname.startsWith('/loan-programs')) ||
-                          (item.page === 'ServiceAreas' && pathname.startsWith('/areas')) ||
-                          (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
-                          (item.page === 'Resources' && pathname.startsWith('/resources'))
-                          ? 'text-blue-600 bg-blue-50'
-                          : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                        (item.page === 'ServiceAreas' && pathname.startsWith('/areas')) ||
+                        (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
+                        (item.page === 'Resources' && pathname.startsWith('/resources'))
+                        ? 'text-blue-600 bg-blue-50'
+                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                         }`}
                     >
                       {item.title}
@@ -78,8 +71,8 @@ export default function Header() {
                   <Link
                     href={item.url}
                     className={`inline-flex items-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-200 whitespace-nowrap ${pathname === item.url
-                        ? 'text-blue-600 bg-blue-50'
-                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                      ? 'text-blue-600 bg-blue-50'
+                      : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                       }`}
                   >
                     {item.title}
@@ -127,11 +120,11 @@ export default function Header() {
                     <Link
                       href={item.url}
                       className={`block px-3 py-2 rounded-md text-base font-medium ${(item.page === 'Programs' && pathname.startsWith('/loan-programs')) ||
-                          (item.page === 'ServiceAreas' && pathname.startsWith('/areas')) ||
-                          (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
-                          (item.page === 'Resources' && pathname.startsWith('/resources'))
-                          ? 'text-blue-600 bg-blue-50'
-                          : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                        (item.page === 'ServiceAreas' && pathname.startsWith('/areas')) ||
+                        (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
+                        (item.page === 'Resources' && pathname.startsWith('/resources'))
+                        ? 'text-blue-600 bg-blue-50'
+                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                         }`}
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -164,8 +157,8 @@ export default function Header() {
                   <Link
                     href={item.url}
                     className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === item.url
-                        ? 'text-blue-600 bg-blue-50'
-                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                      ? 'text-blue-600 bg-blue-50'
+                      : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                       }`}
                     onClick={() => setMobileMenuOpen(false)}
                   >

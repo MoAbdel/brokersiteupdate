@@ -20,9 +20,9 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Multiple Low-Cost Loan Structures",
-    description: "I navigate the complex lending landscape to identify cost-effective solutions. Multiple loan structures available to help reduce your total borrowing costs.",
-    highlight: "Cost-Effective"
+    title: "Local Market Expert",
+    description: "Deep knowledge of Orange County's unique neighborhoods, pricing, and market trends. I help you make informed decisions based on local insights.",
+    highlight: "Local Expert"
   },
   {
     icon: Star,

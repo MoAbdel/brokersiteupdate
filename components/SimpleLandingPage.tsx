@@ -4,7 +4,6 @@ import QuickActionHub from './home/QuickActionHub';
 import WestCapitalAdvantage from './home/WestCapitalAdvantage';
 import SocialProofSection from './home/SocialProofSection';
 import WhyChooseUs from './home/WhyChooseUs';
-import PopularPrograms from './home/PopularPrograms';
 
 export default function SimpleLandingPage() {
   return (
@@ -23,10 +22,8 @@ export default function SimpleLandingPage() {
 
       {/* Social Proof Section */}
       <SocialProofSection />
-
-      {/* Popular Programs */}
-      <PopularPrograms />
     </div>
   );
 }
+
 
