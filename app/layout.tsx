@@ -9,13 +9,14 @@ import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 import GEOTracking from '@/components/GEOTracking';
 import FixedChatbot from '@/components/FixedChatbot';
 import ChatbotHardReset from '@/components/ChatbotHardReset';
+import MobileStickyCallButton from '@/components/MobileStickyCallButton';
 import Script from 'next/script';
 import { structuredData, mortgageLoanSchema } from '@/lib/seo';
 import './globals-simple.css';
 
 export const metadata: Metadata = {
-  title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-  description: 'Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale rates, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884.',
+  title: 'California Mortgage Broker | Mo Abdel | West Capital Lending NMLS #1426884',
+  description: 'California mortgage broker with access to 100+ wholesale lenders. Better rates, faster closings. FHA, VA, conventional, Non-QM loans. NMLS #1426884 | Company NMLS #1566096.',
   metadataBase: new URL('https://www.mothebroker.com'),
   alternates: {
     canonical: 'https://www.mothebroker.com',
@@ -139,6 +140,7 @@ export default function RootLayout({
         <FacebookPixel />
         <GEOTracking />
         <ChatbotHardReset />
+        <MobileStickyCallButton />
 
         {/* Combined structured data - single script for better performance */}
         <Script
