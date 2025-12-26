@@ -86,38 +86,6 @@ export default function WhyChooseUs() {
           </a>
         </div>
 
-        {/* Internal Linking to Service Pages */}
-        {/* Internal Linking to Service Pages */}
-        <div className="text-center mt-12 bg-white rounded-xl p-8 border border-slate-200">
-          <h3 className="text-xl font-bold text-slate-900 mb-6">Popular Orange County Mortgage Programs</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <Link href="/fha-loans-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              FHA Loan Programs
-            </Link>
-            <Link href="/va-loans-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              VA Benefits & Rates
-            </Link>
-            <Link href="/heloc-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              HELOC Calculator
-            </Link>
-            <Link href="/conventional-loans-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              Conventional Options
-            </Link>
-            <Link href="/non-qm-loans-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              Self-Employed Loans
-            </Link>
-            <Link href="/heloan-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              Fixed-Rate HELOAN
-            </Link>
-            <Link href="/rate-term-refinance-orange-county" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              Refinance Calculator
-            </Link>
-            <Link href="/jumbo-loans" className="text-slate-600 hover:text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg transition-colors text-sm font-medium border border-transparent hover:border-blue-100">
-              Jumbo Loan Solutions
-            </Link>
-          </div>
-        </div>
-
       </div>
     </section>
   );
