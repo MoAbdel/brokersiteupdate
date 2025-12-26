@@ -70,9 +70,9 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.url}
-                    className={`inline-flex items-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-200 whitespace-nowrap ${pathname === item.url
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                    className={`inline-flex items-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-200 whitespace-nowrap ${pathname === item.url || pathname.startsWith(`${item.url}/`)
+                        ? 'text-blue-600 bg-blue-50'
+                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                       }`}
                   >
                     {item.title}
