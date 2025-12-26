@@ -4,7 +4,6 @@ import QuickActionHub from './home/QuickActionHub';
 import WestCapitalAdvantage from './home/WestCapitalAdvantage';
 import SocialProofSection from './home/SocialProofSection';
 import WhyChooseUs from './home/WhyChooseUs';
-import LocalMarketInsights from './home/LocalMarketInsights';
 
 export default function SimpleLandingPage() {
   return (
@@ -23,9 +22,6 @@ export default function SimpleLandingPage() {
 
       {/* Why Choose Us */}
       <WhyChooseUs />
-
-      {/* Local Market Insights */}
-      <LocalMarketInsights />
     </div>
   );
 }

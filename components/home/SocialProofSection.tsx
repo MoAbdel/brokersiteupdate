@@ -61,54 +61,6 @@ export default function SocialProofSection() {
           </p>
         </div>
 
-        {/* Client Success Ticker */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 text-center">
-            <div className="flex justify-center mb-4">
-              <DollarSign className="w-12 h-12 text-green-600" />
-            </div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">
-              $847M+
-            </div>
-            <div className="text-slate-600 font-medium">
-              in Closed Loans
-            </div>
-            <p className="text-sm text-slate-500 mt-2">
-              Helping families achieve their homeownership goals
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 text-center">
-            <div className="flex justify-center mb-4">
-              <Users className="w-12 h-12 text-blue-600" />
-            </div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">
-              3,200+
-            </div>
-            <div className="text-slate-600 font-medium">
-              California Families Served
-            </div>
-            <p className="text-sm text-slate-500 mt-2">
-              Trusted mortgage advisor across the state
-            </p>
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 text-center">
-            <div className="flex justify-center mb-4">
-              <TrendingUp className="w-12 h-12 text-purple-600" />
-            </div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">
-              $312/mo
-            </div>
-            <div className="text-slate-600 font-medium">
-              Average Client Savings
-            </div>
-            <p className="text-sm text-slate-500 mt-2">
-              Through strategic rate shopping and program selection
-            </p>
-          </div>
-        </div>
-
         {/* Recent Wins Carousel */}
         <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 opacity-10">
@@ -170,9 +122,8 @@ export default function SocialProofSection() {
                     <button
                       key={index}
                       onClick={() => setCurrentWin(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        index === currentWin ? 'bg-white w-8' : 'bg-white/40'
-                      }`}
+                      className={`w-2 h-2 rounded-full transition-all ${index === currentWin ? 'bg-white w-8' : 'bg-white/40'
+                        }`}
                       aria-label={`Go to win ${index + 1}`}
                     />
                   ))}
