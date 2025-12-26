@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/Button";
-import { Calculator, Phone, ArrowRight, GitCompareArrows, TrendingDown, ShieldCheck } from "lucide-react";
+import { Calculator, Phone, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -53,31 +53,6 @@ export default function HeroSection() {
                 Schedule Strategy Session
               </Button>
             </a>
-          </div>
-
-          {/* Trust indicators */}
-          <div className="flex flex-wrap gap-8 md:gap-16 pt-8 justify-center border-t border-slate-100 mt-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 flex items-center justify-center">
-                <GitCompareArrows className="w-6 h-6 mr-2 text-green-600" />
-                100+
-              </div>
-              <div className="text-sm text-slate-600 font-medium">Wholesale Lenders</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 flex items-center justify-center">
-                <TrendingDown className="w-6 h-6 mr-2 text-green-600" />
-                $847M+
-              </div>
-              <div className="text-sm text-slate-600 font-medium">Loans Closed</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-slate-900 flex items-center justify-center">
-                <ShieldCheck className="w-6 h-6 mr-2 text-green-600" />
-                3,200+
-              </div>
-              <div className="text-sm text-slate-600 font-medium">Families Served</div>
-            </div>
           </div>
         </div>
 
