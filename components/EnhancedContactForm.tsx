@@ -30,7 +30,7 @@ const LOAN_PROGRAMS = {
     programs: ['Conventional', 'FHA (3.5% down)', 'VA (0% down)', 'Jumbo', 'First-Time Buyer Programs']
   },
   refinance: {
-    title: 'Rate & Term Refinance', 
+    title: 'Rate & Term Refinance',
     description: 'Lower your pricing or change loan terms',
     programs: ['Conventional Refi', 'FHA Streamline', 'VA IRRRL', 'Cash-Out Options']
   },
@@ -61,7 +61,7 @@ interface FormData {
   city: string;
   loanPurpose: string;
   timeline: string;
-  
+
   // Step 2: Loan Details
   loanAmount: string;
   homeValue: string;
@@ -71,7 +71,7 @@ interface FormData {
   currentRate: string;
   cashOutAmount: string;
   loanType: string;
-  
+
   // Step 3: Contact Info
   firstName: string;
   lastName: string;
@@ -140,7 +140,7 @@ export default function EnhancedContactForm() {
     let loanAmount = 0;
     let homeValue = 0;
     let currentRate = 0;
-    
+
     // Handle different loan purposes
     if (formData.loanPurpose === 'purchase') {
       loanAmount = parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0;
@@ -160,12 +160,12 @@ export default function EnhancedContactForm() {
       loanAmount = parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0;
       homeValue = parseFloat(formData.homeValue.replace(/[^0-9.]/g, '')) || 0;
     }
-    
+
     if (loanAmount <= 0) return null;
 
     // Determine loan type based on user selection and amount
     let loanType = formData.loanType;
-    
+
     // For HELOC and HELOAN, don't use traditional loan types
     if (['heloc', 'heloan'].includes(formData.loanPurpose)) {
       loanType = formData.loanPurpose === 'heloc' ? 'HELOC' : 'HELOAN';
@@ -176,7 +176,7 @@ export default function EnhancedContactForm() {
         loanType = 'Jumbo';
       }
     }
-    
+
     // Current Market pricing (2025)
     const getRateByLoanType = (type: string) => {
       switch (type.toLowerCase()) {
@@ -189,23 +189,23 @@ export default function EnhancedContactForm() {
         default: return 0.06125; // 6.125%
       }
     };
-    
+
     const newInterestRate = getRateByLoanType(loanType);
-    
+
     // Calculate monthly payment
     const monthlyRate = newInterestRate / 12;
     let principalAndInterest = 0;
-    
+
     if (loanType === 'HELOC') {
       // HELOC: Interest-only during draw period (first 10 years)
       principalAndInterest = loanAmount * monthlyRate;
     } else {
       // Standard P&I calculation for loans
       const numberOfPayments = 30 * 12; // 30 years
-      principalAndInterest = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / 
-                            (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
+      principalAndInterest = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) /
+        (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
     }
-    
+
     // Calculate current payment for refinance comparison
     let currentPayment = 0;
     if ((formData.loanPurpose === 'refinance' || formData.loanPurpose === 'cash-out') && currentRate > 0) {
@@ -213,26 +213,26 @@ export default function EnhancedContactForm() {
       const currentLoanBalance = parseFloat(formData.currentLoanAmount.replace(/[^0-9.]/g, '')) || 0;
       if (currentLoanBalance > 0) {
         const numberOfPayments = 30 * 12; // 30 years
-        currentPayment = currentLoanBalance * (currentMonthlyRate * Math.pow(1 + currentMonthlyRate, numberOfPayments)) / 
-                        (Math.pow(1 + currentMonthlyRate, numberOfPayments) - 1);
+        currentPayment = currentLoanBalance * (currentMonthlyRate * Math.pow(1 + currentMonthlyRate, numberOfPayments)) /
+          (Math.pow(1 + currentMonthlyRate, numberOfPayments) - 1);
         // Ensure the result is valid
         if (isNaN(currentPayment) || currentPayment <= 0) {
           currentPayment = 0;
         }
       }
     }
-    
+
     // Calculate property tax (based on home value)
     const taxableValue = Math.max((homeValue || loanAmount * 1.25) - ORANGE_COUNTY_DATA.homeownersExemption, 0);
     const propertyTax = (taxableValue * ORANGE_COUNTY_DATA.averagePropertyTaxRate) / 12;
-    
+
     // Estimate insurance ($3-4 per $1000 of home value annually)
     const insurance = ((homeValue || loanAmount * 1.25) * 0.0035) / 12;
-    
+
     // Get available programs
     const selectedLoanPurpose = formData.loanPurpose;
-    const availablePrograms = selectedLoanPurpose && LOAN_PROGRAMS[selectedLoanPurpose as keyof typeof LOAN_PROGRAMS] 
-      ? LOAN_PROGRAMS[selectedLoanPurpose as keyof typeof LOAN_PROGRAMS].programs 
+    const availablePrograms = selectedLoanPurpose && LOAN_PROGRAMS[selectedLoanPurpose as keyof typeof LOAN_PROGRAMS]
+      ? LOAN_PROGRAMS[selectedLoanPurpose as keyof typeof LOAN_PROGRAMS].programs
       : ['Conventional', 'FHA', 'VA', 'Jumbo'];
 
     const isJumbo = loanAmount > ORANGE_COUNTY_DATA.conformingLimit;
@@ -258,12 +258,12 @@ export default function EnhancedContactForm() {
 
   // Update calculator when relevant fields change
   useEffect(() => {
-    const hasRequiredFields = 
+    const hasRequiredFields =
       (formData.loanPurpose === 'purchase' && formData.loanAmount) ||
       (formData.loanPurpose === 'refinance' && formData.currentLoanAmount) ||
       (formData.loanPurpose === 'cash-out' && formData.currentLoanAmount) ||
       (formData.loanPurpose && !['purchase', 'refinance', 'cash-out'].includes(formData.loanPurpose) && formData.loanAmount);
-    
+
     if (hasRequiredFields && (currentStep >= 2 || showSuccess === false)) {
       calculateMortgageDetails();
     }
@@ -275,7 +275,7 @@ export default function EnhancedContactForm() {
       window.location.href = '/loan-programs/non-qm-loans';
       return;
     }
-    
+
     setFormData(prev => ({
       ...prev,
       [field]: value
@@ -308,13 +308,13 @@ export default function EnhancedContactForm() {
   };
 
   const canProceedToStep2 = () => {
-    return formData.city && formData.loanPurpose && formData.timeline;
+    return formData.loanPurpose && formData.timeline;
   };
 
   const canProceedToStep3 = () => {
     // Loan type not required for HELOC and HELOAN
     if (!['heloc', 'heloan'].includes(formData.loanPurpose) && !formData.loanType) return false;
-    
+
     if (formData.loanPurpose === 'purchase') {
       return formData.loanAmount && formData.homeValue;
     } else if (formData.loanPurpose === 'refinance') {
@@ -329,10 +329,10 @@ export default function EnhancedContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       const results = calculateMortgageDetails();
-      
+
       // Submit to Formspree
       const formData_submit = new FormData();
       formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
@@ -362,10 +362,10 @@ export default function EnhancedContactForm() {
       if (!response.ok) {
         throw new Error('Failed to submit contact form');
       }
-      
+
       // Track Google Ads conversion
       gtagSendEvent();
-      
+
       // Track Facebook Pixel conversion
       fbTrack('Lead', {
         content_name: 'Enhanced Contact Form Submission',
@@ -373,14 +373,14 @@ export default function EnhancedContactForm() {
         value: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0,
         currency: 'USD'
       });
-      
+
       setShowSuccess(true);
     } catch (error) {
       console.error('Error submitting enhanced contact form:', error);
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     }
-    
+
     setIsSubmitting(false);
   };
 
@@ -416,7 +416,7 @@ export default function EnhancedContactForm() {
             <Shield className="w-8 h-8 text-green-600" />
           </div>
           <h3 className="text-2xl font-bold text-slate-900 mb-4">Thank You for Your Detailed Information!</h3>
-          
+
           {calculatorResults && (
             <div className="bg-white rounded-lg p-6 mb-6">
               <h4 className="text-lg font-semibold text-slate-900 mb-3">Your Estimated Details</h4>
@@ -440,7 +440,7 @@ export default function EnhancedContactForm() {
               </div>
             </div>
           )}
-          
+
           <p className="text-slate-600 mb-6">
             Mo will personally review your information and contact you within 1 business day with:
           </p>
@@ -458,14 +458,14 @@ export default function EnhancedContactForm() {
               <span>Pre-approval process and next steps</span>
             </li>
           </ul>
-          
-          <Button 
+
+          <Button
             onClick={resetForm}
             className="bg-blue-600 hover:bg-blue-700 mb-4"
           >
             Submit Another Quote Request
           </Button>
-          
+
           <p className="text-sm text-slate-500">
             Need immediate assistance? Call Mo directly at{' '}
             <a href="tel:(949) 579-2057" className="text-blue-600 hover:text-blue-700 font-semibold">
@@ -510,13 +510,12 @@ export default function EnhancedContactForm() {
 
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Orange County City *
+                  Orange County City (Optional)
                 </label>
-                <select 
+                <select
                   value={formData.city}
                   onChange={(e) => handleInputChange('city', e.target.value)}
                   className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  required
                 >
                   <option value="">Select your city</option>
                   {ORANGE_COUNTY_CITIES.map(city => (
@@ -532,13 +531,12 @@ export default function EnhancedContactForm() {
                 </label>
                 <div className="grid grid-cols-1 gap-3">
                   {Object.entries(LOAN_PROGRAMS).map(([key, program]) => (
-                    <label 
+                    <label
                       key={key}
-                      className={`flex items-center p-4 border rounded-lg cursor-pointer transition-all ${
-                        formData.loanPurpose === key 
-                          ? 'border-blue-500 bg-blue-50' 
+                      className={`flex items-center p-4 border rounded-lg cursor-pointer transition-all ${formData.loanPurpose === key
+                          ? 'border-blue-500 bg-blue-50'
                           : 'border-slate-300 hover:border-slate-400'
-                      }`}
+                        }`}
                     >
                       <input
                         type="radio"
@@ -564,7 +562,7 @@ export default function EnhancedContactForm() {
                 <label className="block text-sm font-medium text-slate-700 mb-2">
                   Timeline *
                 </label>
-                <select 
+                <select
                   value={formData.timeline}
                   onChange={(e) => handleInputChange('timeline', e.target.value)}
                   className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -877,10 +875,10 @@ export default function EnhancedContactForm() {
                 <div className="bg-green-50 border-2 border-green-200 rounded-lg p-4">
                   <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
                     <Calculator className="w-4 h-4 mr-2" />
-                    {(formData.loanPurpose === 'refinance' || formData.loanPurpose === 'cash-out') ? 
+                    {(formData.loanPurpose === 'refinance' || formData.loanPurpose === 'cash-out') ?
                       'New Estimated Payment' : 'Estimated Monthly Payment'}
                   </h4>
-                  
+
                   <div className="text-2xl font-bold text-green-700 mb-2">
                     ${Math.round(calculatorResults.monthlyPayment).toLocaleString()}
                     <span className="text-base font-normal text-slate-600 ml-2">
@@ -938,8 +936,8 @@ export default function EnhancedContactForm() {
 
                   <div className="text-sm text-slate-600 text-center">
                     <div className="mt-2 text-xs text-slate-500">
-                      *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}. 
-                      Estimate based on {calculatorResults.loanType || 'current'} loan at {calculatorResults.newRate?.toFixed(2)}%. 
+                      *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}.
+                      Estimate based on {calculatorResults.loanType || 'current'} loan at {calculatorResults.newRate?.toFixed(2)}%.
                       {calculatorResults.loanType !== 'HELOC' && 'Does not include taxes, insurance, or HOA. '}
                       Actual pricing and terms may vary.
                     </div>
@@ -1098,8 +1096,8 @@ export default function EnhancedContactForm() {
                 <ChevronRight className="w-4 h-4 ml-1" />
               </Button>
             ) : (
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={isSubmitting || !formData.firstName || !formData.lastName || !formData.email || !formData.phone}
                 className="flex items-center bg-green-600 hover:bg-green-700 text-white"
               >
@@ -1120,7 +1118,7 @@ export default function EnhancedContactForm() {
         </form>
 
         <p className="text-xs text-slate-500 mt-4 text-center">
-          By submitting this form, you consent to be contacted by Mo Abdel regarding mortgage services. 
+          By submitting this form, you consent to be contacted by Mo Abdel regarding mortgage services.
           Your information will never be shared with third parties. NMLS #1426884
         </p>
       </CardContent>

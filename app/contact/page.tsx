@@ -111,27 +111,7 @@ export default function ContactPage() {
         </div>
 
         {/* Service Areas */}
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-            Proudly Serving Orange County
-          </h2>
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
-              {[
-                'Anaheim', 'Irvine', 'Newport Beach', 'Huntington Beach', 'Orange', 'Santa Ana',
-                'Costa Mesa', 'Fullerton', 'Mission Viejo', 'Laguna Beach', 'Yorba Linda', 'Tustin',
-                'Aliso Viejo', 'Buena Park', 'Lake Forest', 'Rancho Santa Margarita', 'Fountain Valley', 'Garden Grove'
-              ].map((city) => (
-                <div key={city} className="text-slate-600 hover:text-blue-600 transition-colors">
-                  {city}
-                </div>
-              ))}
-            </div>
-            <p className="text-center text-slate-600 mt-6">
-              ...and all other Orange County communities
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   );
