@@ -60,7 +60,7 @@ export default function QuickActionHub() {
   ];
 
   return (
-    <section className="relative py-16 pb-32 bg-slate-900">
+    <section className="relative py-16 pb-40 bg-slate-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
