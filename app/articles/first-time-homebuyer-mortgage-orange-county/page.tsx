@@ -22,7 +22,7 @@ export default function FirstTimeHomebuyerArticle() {
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
-      
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <section className="bg-gradient-to-b from-green-50 to-white py-16">
@@ -35,11 +35,11 @@ export default function FirstTimeHomebuyerArticle() {
                 <span className="mx-2 text-gray-500">/</span>
                 <span className="text-gray-700">First-Time Homebuyer Mortgage Orange County</span>
               </nav>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 First-Time Homebuyer Mortgage Orange County: Your Complete Success Guide
               </h1>
-              
+
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
@@ -47,7 +47,7 @@ export default function FirstTimeHomebuyerArticle() {
                 <span>•</span>
                 <span>13 min read</span>
               </div>
-              
+
               <div className="bg-green-100 border-l-4 border-green-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
                   Entering Orange County's competitive real estate market as a first-time buyer can feel overwhelming. With the right guidance, loan programs, and strategies, you can successfully navigate this journey and secure your piece of the American Dream in one of California's most desirable regions.
@@ -61,7 +61,7 @@ export default function FirstTimeHomebuyerArticle() {
         <article className="py-12">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto prose prose-lg">
-              
+
               {/* Introduction */}
               <section className="mb-12">
                 <p className="text-xl leading-relaxed text-gray-700">
@@ -72,7 +72,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* Understanding the OC Market */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding Orange County's First-Time Buyer Market</h2>
-                
+
                 <div className="bg-blue-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">2026 Market Snapshot</h3>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -110,7 +110,7 @@ export default function FirstTimeHomebuyerArticle() {
                       <li>• Bidding wars in desirable areas</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h4 className="font-semibold text-green-900 mb-3">Available Opportunities</h4>
                     <ul className="space-y-2 text-gray-700 text-sm">
@@ -128,7 +128,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* Loan Programs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">First-Time Homebuyer Loan Programs in Orange County</h2>
-                
+
                 <div className="space-y-8">
                   <div className="border-l-4 border-green-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">FHA Loans - The Popular Choice</h3>
@@ -251,7 +251,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* Pre-Approval Process */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Getting Pre-Approved: Your Competitive Advantage</h2>
-                
+
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-8 mb-8">
                   <h3 className="text-xl font-semibold text-yellow-900 mb-4">⚠️ Critical First-Time Buyer Tip</h3>
                   <p className="text-gray-700">
@@ -286,7 +286,7 @@ export default function FirstTimeHomebuyerArticle() {
                       </li>
                     </ul>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold text-lg mb-3">Credit & Income Review</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -358,7 +358,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* Home Search Strategy */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Strategic Home Search in Orange County</h2>
-                
+
                 <h3 className="text-2xl font-semibold mb-4">First-Time Buyer Friendly Neighborhoods</h3>
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
@@ -378,7 +378,7 @@ export default function FirstTimeHomebuyerArticle() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <h4 className="font-semibold text-lg mb-3">Condo/Townhome Markets</h4>
                     <div className="space-y-3">
@@ -429,7 +429,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* First-Time Buyer Strategy Guide */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Winning Strategies for Orange County First-Time Buyers</h2>
-                
+
                 <div className="bg-blue-50 rounded-lg p-8">
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
@@ -440,10 +440,10 @@ export default function FirstTimeHomebuyerArticle() {
                         <li><strong>Assistance Programs:</strong> CalHFA, local grants</li>
                         <li><strong>Credit Requirements:</strong> 580-620 minimum</li>
                         <li><strong>Income Guidelines:</strong> Varies by program</li>
-                        <li><strong>Debt-to-Income: 50% allowed</li>
+                        <li><strong>Debt-to-Income:</strong> 50% allowed</li>
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h3 className="text-xl font-semibold mb-4">Competitive Offer Elements</h3>
                       <ul className="space-y-2 text-gray-700">
@@ -456,7 +456,7 @@ export default function FirstTimeHomebuyerArticle() {
                       </ul>
                     </div>
                   </div>
-                  
+
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Maximizing Your Buying Power</h4>
                     <p className="text-gray-700 text-sm">
@@ -469,7 +469,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* Working with a Broker */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why First-Time Buyers Need Professional Broker Guidance</h2>
-                
+
                 <p className="text-gray-700 mb-6">
                   The complexity of first-time homebuying in Orange County—from loan program selection to competitive offer strategies—makes professional guidance invaluable. Here's what a dedicated broker provides:
                 </p>
@@ -485,7 +485,7 @@ export default function FirstTimeHomebuyerArticle() {
                       <li>• Access wholesale pricing and relationships</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h3 className="font-semibold text-lg text-green-900 mb-4">Market Guidance</h3>
                     <ul className="space-y-2 text-gray-700 text-sm">
@@ -517,7 +517,7 @@ export default function FirstTimeHomebuyerArticle() {
               {/* FAQs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">First-Time Buyer FAQs</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">How much do I need for a down payment in Orange County?</h3>
@@ -597,7 +597,7 @@ export default function FirstTimeHomebuyerArticle() {
           </div>
         </article>
       </main>
-      
+
       <Footer />
     </>
   );

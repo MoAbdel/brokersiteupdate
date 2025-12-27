@@ -141,19 +141,19 @@ export default function HELOCOrangeCountyPage() {
       />
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               Home Equity Line of Credit (HELOC) in <span className="text-blue-600">Orange County, CA</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              A HELOC provides flexible access to your Orange County home's equity with a revolving credit line. 
-              Draw funds as needed for home improvements, education, debt consolidation, or other major expenses. 
+              A HELOC provides flexible access to your Orange County home's equity with a revolving credit line.
+              Draw funds as needed for home improvements, education, debt consolidation, or other major expenses.
               With Orange County's strong property values, many homeowners have substantial equity available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
+              <a
                 href="https://axenmortgageheloc.com/account/heloc/register?referrer=0501bc94-1ee9-4764-9d93-e81183e82331"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -174,7 +174,7 @@ export default function HELOCOrangeCountyPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               How a HELOC Works in Orange County
             </h2>
-            
+
             <div className="max-w-4xl mx-auto">
               <div className="bg-white rounded-lg shadow-md p-8 mb-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">HELOC Example</h3>
@@ -199,7 +199,7 @@ export default function HELOCOrangeCountyPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="text-center">
                 <p className="text-slate-600 text-lg">
                   <em>This example demonstrates the substantial HELOC potential available to Orange County homeowners.</em>
@@ -213,7 +213,7 @@ export default function HELOCOrangeCountyPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Benefits of a HELOC in Orange County
             </h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {helocBenefits.map((benefit, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
@@ -224,7 +224,7 @@ export default function HELOCOrangeCountyPage() {
                       <p className="text-slate-600">{benefit.description}</p>
                     </div>
                   </div>
-                  
+
                   <ul className="space-y-2">
                     {benefit.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
@@ -243,7 +243,7 @@ export default function HELOCOrangeCountyPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               HELOC vs Cash-Out Refinance vs Home Equity Loan
             </h2>
-            
+
             <div className="max-w-6xl mx-auto overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-md">
                 <thead>
@@ -266,7 +266,7 @@ export default function HELOCOrangeCountyPage() {
                 </tbody>
               </table>
             </div>
-            
+
             <div className="text-center mt-8">
               <p className="text-slate-600 mb-4">
                 Not sure which option is best for you? I can help you compare all three based on your specific situation.
@@ -299,7 +299,7 @@ export default function HELOCOrangeCountyPage() {
                   Revolutionary fast-track HELOC program with instant pre-approval decisions and funds available in 5-7 business days.
                 </p>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -308,7 +308,7 @@ export default function HELOCOrangeCountyPage() {
                   <h3 className="text-xl font-bold text-slate-900 mb-2">5-Minute Application</h3>
                   <p className="text-slate-700">Quick online application with instant decision technology</p>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Users className="w-8 h-8 text-white" />
@@ -316,7 +316,7 @@ export default function HELOCOrangeCountyPage() {
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Streamlined Process</h3>
                   <p className="text-slate-700">Simplified documentation and faster underwriting</p>
                 </div>
-                
+
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                     <DollarSign className="w-8 h-8 text-white" />
@@ -325,9 +325,9 @@ export default function HELOCOrangeCountyPage() {
                   <p className="text-slate-700">Access your funds in 5-7 business days after approval</p>
                 </div>
               </div>
-              
+
               <div className="text-center">
-                <a 
+                <a
                   href="https://axenmortgageheloc.com/account/heloc/register?referrer=0501bc94-1ee9-4764-9d93-e81183e82331"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -346,7 +346,7 @@ export default function HELOCOrangeCountyPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Who Qualifies for a HELOC in Orange County?
             </h2>
-            
+
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
@@ -366,7 +366,7 @@ export default function HELOCOrangeCountyPage() {
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span><strong>DTI Ratio 50% of income</span>
+                      <span><strong>DTI Ratio:</strong> 50% of income</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
@@ -447,7 +447,7 @@ export default function HELOCOrangeCountyPage() {
               Discover how much you can access with a HELOC and get started with our 5-minute pre-approval.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
+              <a
                 href="https://axenmortgageheloc.com/account/heloc/register?referrer=0501bc94-1ee9-4764-9d93-e81183e82331"
                 target="_blank"
                 rel="noopener noreferrer"
