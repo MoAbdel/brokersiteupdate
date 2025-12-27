@@ -135,9 +135,13 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
   { title: '✨ EXPERT ARTICLES', url: '#', isHeader: true },
   { title: 'All Articles', url: '/articles' },
   { title: 'Best Mortgage Broker in Orange County', url: '/articles/best-mortgage-broker-orange-county' },
-  { title: 'Orange County Refinance Specialist', url: '/articles/orange-county-mortgage-refinance-specialist' },
-  { title: 'Jumbo Loan Broker Orange County', url: '/articles/jumbo-loan-broker-orange-county' },
-  { title: 'First-Time Homebuyer Mortgage', url: '/articles/first-time-homebuyer-mortgage-orange-county' },
+  { title: 'Newport Beach Mortgage Guide 2026', url: '/articles/newport-beach-mortgage-guide-2026' },
+  { title: 'Laguna Beach Jumbo Loan Guide', url: '/articles/laguna-beach-jumbo-loan-guide' },
+  { title: 'Dana Point First-Time Homebuyer Guide', url: '/articles/dana-point-first-time-homebuyer-guide' },
+  { title: 'Wholesale vs. Retail Mortgages', url: '/articles/wholesale-vs-retail-mortgages-comparison' },
+  { title: 'Orange County Market Update 2026', url: '/articles/orange-county-mortgage-rate-trends-august-2026' },
+  { title: 'Refinance Specialist', url: '/articles/orange-county-mortgage-refinance-specialist' },
+  { title: 'Jumbo Loan Broker', url: '/articles/jumbo-loan-broker-orange-county' },
   { title: 'VA Loan Mortgage Broker', url: '/articles/va-loan-mortgage-broker-orange-county' },
 
   // Complete Guides
@@ -257,7 +261,8 @@ export const guidesDropdown: DropdownItem[] = [
 ];
 
 export const blogDropdown: DropdownItem[] = [
-  { title: 'All Articles', url: '/guides' },
+  { title: 'All Guides', url: '/guides' },
+  { title: 'All Articles', url: '/articles' },
 
   // Loan Programs
   { title: '💰 LOAN PROGRAMS', url: '#', isHeader: true },

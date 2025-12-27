@@ -21,13 +21,63 @@ export const metadata: Metadata = {
 export default function ArticlesPage() {
   const articles = [
     {
+      title: 'Orange County Mortgage Market Update: August 2026 Wholesale Analysis',
+      slug: 'orange-county-mortgage-rate-trends-august-2026',
+      description: 'Stay ahead of the market with our August 2026 analysis of Orange County mortgage dynamics. Compare wholesale vs. retail pricing.',
+      category: 'Expert Guide',
+      readTime: '8 min read',
+      publishDate: 'Aug 30, 2026',
+      featured: true,
+      image: '/images/blog-rate-trends.jpg',
+    },
+    {
+      title: 'Wholesale vs. Retail Mortgages: The Pricing Advantage',
+      slug: 'wholesale-vs-retail-mortgages-comparison',
+      description: 'Understand the critical difference between wholesale and retail mortgage channels and why it matters for your wallet.',
+      category: 'Mortgage Brokers',
+      readTime: '9 min read',
+      publishDate: 'Aug 28, 2026',
+      featured: false,
+      image: '/images/blog-wholesale.jpg',
+    },
+    {
+      title: 'Dana Point First-Time Homebuyer Guide: Programs & Qualification',
+      slug: 'dana-point-first-time-homebuyer-guide',
+      description: 'Start your homeownership journey in Dana Point with our comprehensive 2026 guide for first-time buyers.',
+      category: 'First-Time Buyers',
+      readTime: '11 min read',
+      publishDate: 'Aug 25, 2026',
+      featured: false,
+      image: '/images/blog-dana-point.jpg',
+    },
+    {
+      title: 'Laguna Beach Jumbo Loan Guide: Luxury Financing Specialist',
+      slug: 'laguna-beach-jumbo-loan-guide',
+      description: 'Expert jumbo loan guidance for Laguna Beach luxury real estate. Specialized financing for coastal estates.',
+      category: 'Jumbo Loans',
+      readTime: '10 min read',
+      publishDate: 'Aug 22, 2026',
+      featured: false,
+      image: '/images/blog-laguna.jpg',
+    },
+    {
+      title: 'Newport Beach Mortgage Guide 2026: Top Options & Lenders',
+      slug: 'newport-beach-mortgage-guide-2026',
+      description: 'Navigate the Newport Beach luxury real estate market with our comprehensive 2026 mortgage guide.',
+      category: 'Local Guides',
+      readTime: '12 min read',
+      publishDate: 'Aug 20, 2026',
+      featured: false,
+      image: '/images/blog-newport.jpg',
+    },
+    {
       title: 'Best Mortgage Broker in Orange County',
       slug: 'best-mortgage-broker-orange-county',
       description: 'Discover what makes Mo Abdel the top choice for Orange County homebuyers and refinancers, with expert insights and proven results.',
       category: 'Expert Guide',
       readTime: '4 min read',
       publishDate: 'Sep 25, 2026',
-      featured: true,
+      featured: false,
       image: '/images/blog-1.jpg',
     },
     {
@@ -43,7 +93,7 @@ export default function ArticlesPage() {
     {
       title: 'Orange County Mortgage Refinance Specialist',
       slug: 'orange-county-mortgage-refinance-specialist',
-      description: 'Learn about refinancing options in Orange County with expert guidance on rates, timing, and maximizing your savings.',
+      description: 'Learn about refinancing options in Orange County with expert guidance on market timing and maximizing your savings.',
       category: 'Refinancing',
       readTime: '5 min read',
       publishDate: 'Sep 18, 2026',
@@ -72,7 +122,7 @@ export default function ArticlesPage() {
     },
   ];
 
-  const categories = ['All', 'Mortgage Brokers', 'Refinancing', 'Jumbo Loans', 'First-Time Buyers', 'VA Loans'];
+  const categories = ['All', 'Mortgage Brokers', 'Refinancing', 'Jumbo Loans', 'First-Time Buyers', 'VA Loans', 'Local Guides'];
 
   return (
     <>

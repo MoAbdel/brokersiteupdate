@@ -89,7 +89,7 @@ export default function RefinanceSpecialistArticle() {
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-green-600 mr-3">✓</span>
-                        <span>Lower loan pricing (ideal when rates drop 0.5%+ below current)</span>
+                        <span>Lower loan pricing (ideal when rates drop significantly below current)</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-3">✓</span>
@@ -244,7 +244,7 @@ export default function RefinanceSpecialistArticle() {
                         <li><strong>ARM to Fixed:</strong> Payment stability</li>
                         <li><strong>PMI Removal:</strong> 20%+ equity requirement</li>
                         <li><strong>Term Reduction:</strong> 30 to 15-year options</li>
-                        <li><strong>Rate Improvements:</strong> 0.5%+ recommended</li>
+                        <li><strong>Rate Improvements:</strong> Meaningful reduction recommended</li>
                         <li><strong>Timeline:</strong> 21-30 days typical</li>
                       </ul>
                     </div>
@@ -340,7 +340,7 @@ export default function RefinanceSpecialistArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">How often can I refinance my Orange County home?</h3>
                     <p className="text-gray-700">
-                      There's no legal limit, but most lenders require at least 6 months between refinances. However, closing costs can erode savings if done too frequently. I recommend refinancing when you can reduce your pricing by at least 0.5% or when your financial goals significantly change.
+                      There's no legal limit, but most lenders require at least 6 months between refinances. However, closing costs can erode savings if done too frequently. I recommend refinancing when you can reduce your pricing by a significant margin or when your financial goals significantly change.
                     </p>
                   </div>
 

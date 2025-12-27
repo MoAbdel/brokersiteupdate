@@ -143,6 +143,11 @@ module.exports = {
       '/non-qm-loans-orange-county',
       '/rate-term-refinance-orange-county',
       '/jumbo-loans-orange-county',
+      '/articles/newport-beach-mortgage-guide-2026',
+      '/articles/laguna-beach-jumbo-loan-guide',
+      '/articles/dana-point-first-time-homebuyer-guide',
+      '/articles/wholesale-vs-retail-mortgages-comparison',
+      '/articles/orange-county-mortgage-rate-trends-august-2026',
 
       // Resources
       '/resources/mortgage-glossary',

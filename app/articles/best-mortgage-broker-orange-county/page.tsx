@@ -192,14 +192,14 @@ export default function BestMortgageBrokerArticle() {
                 <div className="bg-green-50 border border-green-200 rounded-lg p-8 mb-8">
                   <h3 className="text-2xl font-semibold text-green-900 mb-4">The Power of Expert Rate Negotiation</h3>
                   <p className="text-gray-700 mb-4">
-                    By leveraging relationships with 200+ lenders and negotiating aggressively, I can often secure significantly better terms than what borrowers find on their own. Rate differences of 0.25% to 0.50% are common.
+                    By leveraging relationships with 50+ lenders and negotiating aggressively, I can often secure more competitive terms than what borrowers find on their own. The pricing advantage of wholesale channels can be significant.
                   </p>
                   <div className="bg-white p-4 rounded-lg">
                     <p className="font-semibold text-green-900 mb-2">Potential Savings Example (on $750K loan):</p>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• <strong>0.25% Rate Reduction:</strong> $109/month savings</li>
-                      <li>• <strong>Annual Savings:</strong> $1,308</li>
-                      <li>• <strong>30-Year Total Savings:</strong> $39,240</li>
+                      <li>• <strong>Wholesale Pricing Advantage:</strong> Significant monthly savings</li>
+                      <li>• <strong>Annual Savings:</strong> Substantial yearly reduction in interest</li>
+                      <li>• <strong>30-Year Total Savings:</strong> Tens of thousands of dollars over the loan term</li>
                       <li>• <strong>Plus:</strong> Potential lender credits for fees</li>
                     </ul>
                   </div>

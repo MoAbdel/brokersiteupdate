@@ -102,7 +102,7 @@ export default function VALoanBrokerArticle() {
                         <span className="bg-green-100 text-green-800 p-1 rounded-full text-sm">✓</span>
                         <div>
                           <p className="font-semibold">Competitive Interest pricing</p>
-                          <p className="text-sm text-gray-600">Often 0.25% to 0.50% lower than conventional loans</p>
+                          <p className="text-sm text-gray-600">Typically outperforming conventional loan pricing</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
@@ -261,7 +261,7 @@ export default function VALoanBrokerArticle() {
                         <p><strong>Purchase Price:</strong> $950,000</p>
                         <p><strong>Down Payment:</strong> $0</p>
                         <p><strong>VA Loan Amount:</strong> $950,000</p>
-                        <p><strong>Funding Fee:</strong> 2.15% (~$20,425)</p>
+                        <p><strong>Funding Fee:</strong> Based on VA guidelines</p>
                       </div>
                       <div>
                         <p className="text-green-600 font-semibold">✓ Full VA benefit utilized</p>
@@ -279,7 +279,7 @@ export default function VALoanBrokerArticle() {
                         <p><strong>Purchase Price:</strong> $1,300,000</p>
                         <p><strong>VA Loan Amount:</strong> $1,266,300</p>
                         <p><strong>Down Payment Required:</strong> $210,700 (25% of excess)</p>
-                        <p><strong>Funding Fee:</strong> 2.15% (~$23,420)</p>
+                        <p><strong>Funding Fee:</strong> Based on VA guidelines</p>
                       </div>
                       <div>
                         <p className="text-blue-600 font-semibold">Still better than conventional</p>
@@ -365,28 +365,15 @@ export default function VALoanBrokerArticle() {
                         <li><strong>Typical Purchase:</strong> $800,000 Orange County home</li>
                         <li><strong>Conventional Down Payment:</strong> $160,000 (20%)</li>
                         <li><strong>VA Loan Down Payment:</strong> $0</li>
-                        <li><strong>Cash Preserved:</strong> $160,000+ for reserves</li>
-                        <li><strong>Additional Savings:</strong> No PMI required</li>
                       </ul>
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-lg mb-3">Funding Fee Scenarios</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li><strong>First-Time Use:</strong> 2.15% ($17,200 on $800k)</li>
-                        <li><strong>Subsequent Use:</strong> 3.3% ($26,400 on $800k)</li>
-                        <li><strong>Disability Rating 10%+:</strong> $0 funding fee</li>
-                        <li><strong>Purple Heart Recipients:</strong> $0 funding fee</li>
-                        <li><strong>Surviving Spouses:</strong> $0 funding fee</li>
-                      </ul>
+                      <h4 className="font-semibold text-lg mb-3">Competitive Advantage Strategy</h4>
+                      <p className="text-gray-700 text-sm">
+                        VA loans offer unique advantages in competitive Orange County markets. Zero down payment frees up substantial cash for competitive offers, stronger earnest money deposits, or home improvements. Combined with no PMI and competitive pricing, VA loans often provide better long-term value than conventional financing.
+                      </p>
                     </div>
-                  </div>
-
-                  <div className="mt-6 p-4 bg-white rounded-lg">
-                    <h4 className="font-semibold mb-2">Competitive Advantage Strategy</h4>
-                    <p className="text-gray-700 text-sm">
-                      VA loans offer unique advantages in competitive Orange County markets. Zero down payment frees up substantial cash for competitive offers, stronger earnest money deposits, or home improvements. Combined with no PMI and Competitive pricing, VA loans often provide better long-term value than conventional financing.
-                    </p>
                   </div>
                 </div>
               </section>
@@ -470,7 +457,7 @@ export default function VALoanBrokerArticle() {
                         <li>• No income verification in most cases</li>
                         <li>• No appraisal typically required</li>
                         <li>• Can include up to $6,000 in energy improvements</li>
-                        <li>• Funding fee only 0.5% of loan amount</li>
+                        <li>• Funding fee may be reduced for streamlines</li>
                       </ul>
                     </div>
                   </div>
@@ -524,7 +511,7 @@ export default function VALoanBrokerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">What's the VA funding fee and can it be waived?</h3>
                     <p className="text-gray-700">
-                      The VA funding fee ranges from 1.25% to 3.3% depending on down payment and whether you've used the benefit before. However, veterans with a 10% or higher VA disability rating are exempt from this fee entirely. The funding fee can be rolled into your loan amount, so no upfront payment is required.
+                      The VA funding fee is a one-time payment that helps sustain the program. The amount varies depending on your down payment and whether you've used your benefit before. However, veterans with a qualifying VA disability rating are typically exempt from this fee entirely. The fee can be rolled into your loan amount, minimizing upfront costs.
                     </p>
                   </div>
 
