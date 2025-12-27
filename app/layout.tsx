@@ -15,8 +15,8 @@ import { structuredData, mortgageLoanSchema } from '@/lib/seo';
 import './globals-simple.css';
 
 export const metadata: Metadata = {
-  title: 'California Mortgage Broker | Mo Abdel | West Capital Lending NMLS #1426884',
-  description: 'California mortgage broker with access to 100+ wholesale lenders. Better pricing, faster closings. FHA, VA, conventional, Non-QM loans. NMLS #1426884 | Company NMLS #1566096.',
+  title: 'Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
+  description: 'Expert Orange County mortgage broker with 100+ lenders. Fast closings for FHA, VA, Conventional & Non-QM loans. Mo Abdel, NMLS #1426884.',
   metadataBase: new URL('https://www.mothebroker.com'),
   alternates: {
     canonical: 'https://www.mothebroker.com',
