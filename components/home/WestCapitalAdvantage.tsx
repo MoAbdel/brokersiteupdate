@@ -90,32 +90,35 @@ export default function WestCapitalAdvantage() {
         </div>
 
         {/* Geographic Coverage */}
-        <div className="bg-slate-900 rounded-2xl p-8 text-white">
-          <div className="flex items-start gap-4 mb-6">
-            <MapPin className="w-10 h-10 text-green-400 flex-shrink-0" />
+        <div className="bg-slate-900 rounded-2xl p-6 sm:p-8 text-white">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-8 text-center sm:text-left">
+            <MapPin className="w-8 h-8 sm:w-10 sm:h-10 text-green-400 flex-shrink-0" />
             <div>
-              <h3 className="text-2xl font-bold mb-2">Geographic Coverage</h3>
-              <p className="text-slate-300 text-lg">
-                Statewide California licensing for all 58 counties
+              <h3 className="text-xl sm:text-2xl font-bold mb-2 whitespace-nowrap">Geographic Coverage</h3>
+              <p className="text-slate-300 text-base sm:text-lg">
+                Licensed in <span className="text-white font-semibold">CA, WA, VA, & CO</span>
+              </p>
+              <p className="text-slate-400 text-sm mt-1">
+                Full statewide coverage for all counties
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-            <div className="bg-slate-800 rounded-lg p-4">
-              <div className="text-green-400 font-semibold mb-1">Headquarters</div>
-              <div className="text-white font-bold">Irvine, CA</div>
-              <div className="text-slate-400 text-sm">Orange County</div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
+              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Headquarters</div>
+              <div className="text-white text-xl font-bold">Irvine, CA</div>
+              <div className="text-slate-400 text-sm mt-1">Orange County</div>
             </div>
-            <div className="bg-slate-800 rounded-lg p-4">
-              <div className="text-green-400 font-semibold mb-1">Primary Markets</div>
-              <div className="text-white font-bold">Orange County</div>
-              <div className="text-slate-400 text-sm">Los Angeles • San Diego</div>
+            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
+              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Primary Markets</div>
+              <div className="text-white text-xl font-bold">Orange County</div>
+              <div className="text-slate-400 text-sm mt-1">Los Angeles • San Diego</div>
             </div>
-            <div className="bg-slate-800 rounded-lg p-4">
-              <div className="text-green-400 font-semibold mb-1">Coverage Area</div>
-              <div className="text-white font-bold">All of California</div>
-              <div className="text-slate-400 text-sm">58 counties licensed</div>
+            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
+              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Coverage Area</div>
+              <div className="text-white text-xl font-bold">Multi-State Licensed</div>
+              <div className="text-slate-400 text-sm mt-1">CA, WA, VA, CO</div>
             </div>
           </div>
         </div>
