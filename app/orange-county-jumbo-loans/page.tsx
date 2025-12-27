@@ -263,7 +263,7 @@ export default function OrangeCountyJumboLoansPage() {
                       <li>• Loan amounts: $1,089,301 to $10+ million</li>
                       <li>• Down payment: Typically 10-20% minimum</li>
                       <li>• Credit score: 700+ recommended</li>
-                      <li>• Debt-to-income: Usually up to 43%</li>
+                      <li>• Debt-to-income: Usually up to 50%</li>
                       <li>• Cash reserves: 2-6 months typically required</li>
                     </ul>
                   </div>

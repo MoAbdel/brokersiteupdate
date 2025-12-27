@@ -282,7 +282,7 @@ export default function DebtToIncomeCalculator() {
               <h3 className="text-lg font-semibold text-slate-800 mb-3">FHA Loans</h3>
               <ul className="space-y-1 text-sm text-slate-600">
                 <li>• Front-end: Up to 31%</li>
-                <li>• Back-end: Up to 43%</li>
+                <li>• Back-end: Up to 50%</li>
                 <li>• More flexible guidelines</li>
               </ul>
             </div>

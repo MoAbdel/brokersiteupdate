@@ -241,7 +241,7 @@ export default function JumboLoansOrangeCountyPage() {
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Debt-to-Income Ratio</td>
-                    <td className="px-6 py-4 text-center text-blue-600">43% max (flexible)</td>
+                    <td className="px-6 py-4 text-center text-blue-600">50% max (flexible)</td>
                     <td className="px-6 py-4 text-center text-green-600">Up to 50%</td>
                     <td className="px-6 py-4 text-center text-yellow-600">36% preferred</td>
                   </tr>
@@ -318,7 +318,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Debt-to-Income:</span>
-                  <span className="font-bold">43% Max</span>
+                  <span className="font-bold">50% Max</span>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded-lg">

@@ -148,7 +148,7 @@ export default function ProfitLossStatementLoansPage() {
                       <span className="font-bold text-purple-600">$20,833/month</span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-slate-500">Max Loan Amount (43% DTI):</span>
+                      <span className="text-slate-500">Max Loan Amount (50% DTI):</span>
                       <span className="font-bold text-purple-600">~$580,000</span>
                     </div>
                   </div>
@@ -247,7 +247,7 @@ export default function ProfitLossStatementLoansPage() {
                   <div className="flex items-start">
                     <TrendingUp className="w-5 h-5 text-green-600 mr-3 mt-1" />
                     <div>
-                      <p className="font-semibold">DTI Ratios: Up to 50%</p>
+                      <p className="font-semibold">DTI Ratio 50%</p>
                       <p className="text-sm text-slate-600">Higher ratios with compensating factors</p>
                     </div>
                   </div>

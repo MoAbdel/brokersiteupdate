@@ -204,7 +204,7 @@ export default function FHALoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: Up to 57% in some cases</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50% in some cases</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -295,7 +295,7 @@ export default function FHALoansPage() {
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Debt-to-Income Ratio</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to 57%</td>
-                  <td className="px-6 py-4 text-center text-slate-600">Up to 45%</td>
+                  <td className="px-6 py-4 text-center text-slate-600">Up to 50%</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Gift Funds</td>

@@ -261,7 +261,7 @@ export default function HELOANPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: 43% or lower</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50% or lower</p>
                     <p className="text-slate-600 text-sm">Including the new HELOAN payment</p>
                   </div>
                 </div>

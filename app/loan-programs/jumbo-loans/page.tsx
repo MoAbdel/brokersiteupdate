@@ -219,7 +219,7 @@ export default function JumboLoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: Up to 43%</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50%</p>
                     <p className="text-slate-600 text-sm">Lower ratios preferred for larger loan amounts</p>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ export default function JumboLoansPage() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Jumbo Market Share:</span>
-                  <span className="font-bold">~45%</span>
+                  <span className="font-bold">~50%</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Average Jumbo Amount:</span>

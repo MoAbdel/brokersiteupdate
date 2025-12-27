@@ -32,7 +32,7 @@ export const fhaLoanFAQs: FAQItem[] = [
   },
   {
     question: "What is mortgage insurance on FHA loans and how much does it cost?",
-    answer: "FHA loans require two types of mortgage insurance: an upfront premium (1.75% of loan amount) and annual premiums (0.45% to 1.05% annually). For most borrowers, the annual premium is 0.85% of the loan amount. Unlike conventional PMI, FHA mortgage insurance typically stays for the life of the loan, but it enables homeownership with lower down payments and credit scores."
+    answer: "FHA loans require two types of mortgage insurance: an upfront premium (1.75% of loan amount) and annual premiums (0.50% to 1.05% annually). For most borrowers, the annual premium is 0.85% of the loan amount. Unlike conventional PMI, FHA mortgage insurance typically stays for the life of the loan, but it enables homeownership with lower down payments and credit scores."
   },
   {
     question: "What are FHA loan limits for Orange County in 2026?",

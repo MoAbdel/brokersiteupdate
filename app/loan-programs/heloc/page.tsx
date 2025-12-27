@@ -50,8 +50,8 @@ export default function HELOCPage() {
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Variable Rates</h3>
-            <p className="text-slate-600">Competitive variable rates tied to prime</p>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Variable & Fixed Rates</h3>
+            <p className="text-slate-600">Competitive variable rates tied to prime. <span className="text-blue-600 font-semibold block mt-1">Fixed-rate options available</span></p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -252,7 +252,7 @@ export default function HELOCPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: 43% or lower</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50% or lower</p>
                     <p className="text-slate-600 text-sm">Including the new HELOC payment</p>
                   </div>
                 </div>

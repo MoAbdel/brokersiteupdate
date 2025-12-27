@@ -89,7 +89,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Debt-to-Income Ratio (DTI)',
-      definition: 'The percentage of gross monthly income that goes toward debt payments. Most lenders prefer DTI below 43% for conventional loans.',
+      definition: 'The percentage of gross monthly income that goes toward debt payments. Most lenders prefer DTI below 50% for conventional loans.',
       category: 'Qualification',
       related: ['Income', 'Debt', 'Qualifying Ratios']
     },

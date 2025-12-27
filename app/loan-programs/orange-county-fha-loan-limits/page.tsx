@@ -154,11 +154,11 @@ export default function OrangeCountyFHALoanLimitsPage() {
                   </div>
                   <div className="flex justify-between">
                     <span>Mission Viejo</span>
-                    <span className="text-yellow-600 font-semibold">55% of homes</span>
+                    <span className="text-yellow-600 font-semibold">50% of homes</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Laguna Niguel</span>
-                    <span className="text-yellow-600 font-semibold">45% of homes</span>
+                    <span className="text-yellow-600 font-semibold">50% of homes</span>
                   </div>
                 </div>
               </div>

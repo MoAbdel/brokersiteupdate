@@ -293,7 +293,7 @@ export default function ConventionalLoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: Up to 45%</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50%</p>
                     <p className="text-slate-600 text-sm">Higher ratios possible with compensating factors</p>
                   </div>
                 </div>

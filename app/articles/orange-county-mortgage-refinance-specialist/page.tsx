@@ -161,7 +161,7 @@ export default function RefinanceSpecialistArticle() {
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Maximum 80% combined loan-to-value (CLTV)</li>
                         <li>• Minimum 620 credit score</li>
-                        <li>• Debt-to-income ratio under 43%</li>
+                        <li>• Debt-to-income ratio under 50%</li>
                         <li>• 2-6 months mortgage reserves required</li>
                       </ul>
                     </div>

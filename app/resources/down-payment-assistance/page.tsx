@@ -65,7 +65,7 @@ export default function DownPaymentAssistancePage() {
       type: 'Zero-interest loan',
       requirements: [
         'Minimum 660 credit score',
-        'Maximum 45% debt-to-income ratio',
+        'Maximum 50% debt-to-income ratio',
         'Complete education course',
         'Primary residence only'
       ],

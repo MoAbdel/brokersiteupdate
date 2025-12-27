@@ -440,7 +440,7 @@ export default function FirstTimeHomebuyerArticle() {
                         <li><strong>Assistance Programs:</strong> CalHFA, local grants</li>
                         <li><strong>Credit Requirements:</strong> 580-620 minimum</li>
                         <li><strong>Income Guidelines:</strong> Varies by program</li>
-                        <li><strong>Debt-to-Income:</strong> Up to 50% allowed</li>
+                        <li><strong>Debt-to-Income: 50% allowed</li>
                       </ul>
                     </div>
                     

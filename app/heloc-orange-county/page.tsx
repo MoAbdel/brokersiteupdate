@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     question: "What are the requirements for a HELOC in Orange County?",
-    answer: "Typically you'll need at least 15-20% equity, credit score of 680+, stable income, and debt-to-income ratio under 43%. Property type and occupancy also matter. Orange County's strong property values often help homeowners meet equity requirements easily."
+    answer: "Typically you'll need at least 15-20% equity, credit score of 680+, stable income, and debt-to-income: 50%. Property type and occupancy also matter. Orange County's strong property values often help homeowners meet equity requirements easily."
   }
 ];
 
@@ -366,7 +366,7 @@ export default function HELOCOrangeCountyPage() {
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                      <span><strong>DTI Ratio:</strong> Total debts under 43% of income</span>
+                      <span><strong>DTI Ratio 50% of income</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />

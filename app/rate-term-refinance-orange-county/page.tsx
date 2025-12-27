@@ -101,7 +101,7 @@ const refinanceTypes = [
 const requirements = [
   'Current mortgage in good standing',
   'Credit score: 620+ (Better pricing with 740+)',
-  'Debt-to-income ratio: 43% or lower',
+  'Debt-to-income ratio: 50% or lower',
   'Sufficient home equity (typically 20%+)',
   'Employment and income verification',
   'Home appraisal to confirm current value'

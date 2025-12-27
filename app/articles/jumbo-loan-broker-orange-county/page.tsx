@@ -152,7 +152,7 @@ export default function JumboLoanBrokerArticle() {
                   <div className="border-l-4 border-purple-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">Debt-to-Income Ratios</h3>
                     <p className="text-gray-700 mb-4">
-                      Lenders prefer DTI ratios below 43%, though some allow up to 50% with strong compensating factors like substantial cash reserves or investment experience.
+                      Lenders prefer DTI ratios below 50%, though some allow up to 50% with strong compensating factors like substantial cash reserves or investment experience.
                     </p>
                     <div className="bg-blue-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">DTI Calculation Tips for High Earners</h4>
@@ -334,7 +334,7 @@ export default function JumboLoanBrokerArticle() {
                       <ul className="space-y-2 text-gray-700">
                         <li><strong>Best For:</strong> W-2 employees and stable businesses</li>
                         <li><strong>Documentation:</strong> Tax returns, pay stubs, W-2s</li>
-                        <li><strong>DTI Requirements:</strong> Usually under 43%</li>
+                        <li><strong>DTI Requirements:</strong> Usually under 50%</li>
                         <li><strong>Processing:</strong> Standard underwriting</li>
                         <li><strong>Rates:</strong> Often most competitive</li>
                       </ul>
@@ -479,7 +479,7 @@ export default function JumboLoanBrokerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Can I get a jumbo loan with only 10% down?</h3>
                     <p className="text-gray-700">
-                      Yes, some lenders offer 90% LTV jumbo loans, but expect higher pricing and possibly mortgage insurance. Additionally, you'll need excellent credit (typically 740+), strong reserves, and low debt-to-income ratios. The 10% down option is best for borrowers who prefer to keep more cash liquid for investments or other purposes.
+                      Yes, some lenders offer 90% LTV jumbo loans, but expect higher pricing and possibly mortgage insurance. Additionally, you'll need excellent credit (typically 740+), strong reserves, and low debt-to-income: 50% down option is best for borrowers who prefer to keep more cash liquid for investments or other purposes.
                     </p>
                   </div>
 

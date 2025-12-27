@@ -73,7 +73,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "What debt-to-income ratio do I need?",
-          answer: "Debt-to-income (DTI) limits vary by loan type: conventional loans typically allow 45-50% DTI, FHA loans up to 57% with compensating factors, VA loans have no strict DTI limit (case-by-case), and jumbo loans typically max at 43-45%. DTI includes all monthly debt payments divided by gross monthly income. Higher DTI may be acceptable with high credit scores, significant assets, or other compensating factors.",
+          answer: "Debt-to-income (DTI) limits vary by loan type: conventional loans typically allow 45-50% DTI, FHA loans up to 57% with compensating factors, VA loans have no strict DTI limit (case-by-case), and jumbo loans typically max at 43-50%. DTI includes all monthly debt payments divided by gross monthly income. Higher DTI may be acceptable with high credit scores, significant assets, or other compensating factors.",
           tags: ["debt-to-income", "dti", "qualification"]
         }
       ]

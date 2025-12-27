@@ -137,7 +137,7 @@ export default function OrangeCountyJumboLoansGuide() {
     },
     {
       factor: "Debt-to-Income",
-      minimum: "Under 43%", 
+      minimum: "Under 50%", 
       ideal: "Under 36%",
       impact: "Approval likelihood",
       tips: ["Pay down existing debt", "Consider asset depletion", "Increase income documentation"]

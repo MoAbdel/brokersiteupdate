@@ -111,7 +111,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
         "Conventional: 45-50% max DTI",
         "FHA: 57% max DTI with compensating factors",
         "VA: No strict DTI limit, case-by-case",
-        "Jumbo: 43-45% max DTI typically"
+        "Jumbo: 43-50% max DTI typically"
       ]
     },
     {

@@ -263,7 +263,7 @@ export default function OrangeCountyConventionalLoansPage() {
                       <li>• Minimum down payment: 3% for qualified borrowers</li>
                       <li>• No mortgage insurance with 20% down payment</li>
                       <li>• Credit score minimum: Typically 620 or higher</li>
-                      <li>• Debt-to-income ratio: Usually up to 45%</li>
+                      <li>• Debt-to-income ratio: Usually up to 50%</li>
                       <li>• Property types: Primary, secondary, investment</li>
                     </ul>
                   </div>

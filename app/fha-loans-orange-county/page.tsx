@@ -88,7 +88,7 @@ const fhaRequirements = [
     requirements: [
       'Minimum credit score 580 (3.5% down) or 500 (10% down)',
       'Steady employment history (2 years preferred)',
-      'Debt-to-income ratio typically under 43%',
+      'Debt-to-income ratio typically under 50%',
       'Sufficient income to support mortgage payments'
     ]
   },

@@ -55,7 +55,7 @@ const benefits = [
 const requirements = [
   'Credit score: 620+ (Better pricing with 740+)',
   'Down payment: 3-20% depending on loan type',
-  'Debt-to-income ratio: Generally 43% or lower',
+  'Debt-to-income ratio: Generally 50% or lower',
   'Employment history: 2 years preferred',
   'Reserve funds: 2-6 months recommended',
   'Property appraisal and inspection required'

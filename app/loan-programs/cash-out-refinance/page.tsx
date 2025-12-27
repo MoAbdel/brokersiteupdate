@@ -327,7 +327,7 @@ export default function CashOutRefinancePage() {
               <h3 className="text-xl font-semibold mb-3">Credit & Income</h3>
               <div className="text-sm text-slate-600 space-y-1">
                 <div>• Credit score: 620+ (640+ for best pricing)</div>
-                <div>• Debt-to-income: ≤45%</div>
+                <div>• Debt-to-income: ≤50%</div>
                 <div>• 2+ years employment history</div>
                 <div>• Income documentation required</div>
               </div>

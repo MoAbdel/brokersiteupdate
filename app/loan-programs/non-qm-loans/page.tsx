@@ -17,7 +17,7 @@ export default function NonQMLoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -27,8 +27,8 @@ export default function NonQMLoansPage() {
             <span className="text-orange-600">Non-QM Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Specialized mortgage programs for self-employed borrowers, investors, and unique 
-            income situations that don't fit traditional lending guidelines. Flexible 
+            Specialized mortgage programs for self-employed borrowers, investors, and unique
+            income situations that don't fit traditional lending guidelines. Flexible
             documentation with Competitive pricing for qualified Orange County borrowers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -321,7 +321,7 @@ export default function NonQMLoansPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="text-xl font-bold text-slate-900 mb-4 text-center">Bank Statement Example</h4>
                 <div className="space-y-3">
@@ -374,7 +374,7 @@ export default function NonQMLoansPage() {
                 <div className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-slate-900">Debt-to-Income: Up to 50%</p>
+                    <p className="font-semibold text-slate-900">Debt-to-Income: 50%</p>
                     <p className="text-slate-600 text-sm">Higher ratios acceptable with compensating factors</p>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function NonQMLoansPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-6">⚠️ Important Considerations</h3>
               <div className="space-y-4">
@@ -459,7 +459,7 @@ export default function NonQMLoansPage() {
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">DTI Limits</td>
                   <td className="px-6 py-4 text-center text-orange-600 font-bold">Up to 50%</td>
-                  <td className="px-6 py-4 text-center text-slate-600">Up to 43-45%</td>
+                  <td className="px-6 py-4 text-center text-slate-600">Up to 43-50%</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest pricing</td>
@@ -499,12 +499,12 @@ export default function NonQMLoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Entrepreneurial Market</h3>
                     <p className="text-slate-600">
-                      Orange County has a high concentration of business owners, real estate 
+                      Orange County has a high concentration of business owners, real estate
                       professionals, and self-employed individuals perfect for Non-QM programs.
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 mt-1">
                     <TrendingUp className="w-6 h-6 text-blue-600" />
@@ -512,7 +512,7 @@ export default function NonQMLoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Strong Investment Activity</h3>
                     <p className="text-slate-600">
-                      Active real estate investment market with investors building portfolios 
+                      Active real estate investment market with investors building portfolios
                       using DSCR and bank statement programs.
                     </p>
                   </div>
@@ -525,14 +525,14 @@ export default function NonQMLoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">International Buyers</h3>
                     <p className="text-slate-600">
-                      Significant foreign national activity, particularly from Asia-Pacific 
+                      Significant foreign national activity, particularly from Asia-Pacific
                       region, utilizing asset-based and foreign national programs.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-orange-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">OC Non-QM Market Insights</h3>
               <div className="space-y-4">
@@ -598,15 +598,15 @@ export default function NonQMLoansPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
