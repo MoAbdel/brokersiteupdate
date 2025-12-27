@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com',
   },
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
     description: 'Get competitive mortgage pricing from 200+ lenders. Serving Orange County & beyond with fast closings, unbiased advice, and flexible home loan programs.',
@@ -60,39 +64,39 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="F9E3BEE43DFA5A2B0676F3881B448BCA" />
         {/* Canonical URL will be handled by individual pages */}
         <link rel="manifest" href="/manifest.json" />
-        
+
         {/* Prevent www redirect issues */}
         <meta name="robots" content="index, follow" />
-        
+
         {/* Optimized resource hints for critical path */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
         <link rel="preconnect" href="https://connect.facebook.net" crossOrigin="" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-        
+
         {/* Critical CSS and JavaScript preloading */}
         <link rel="preload" href="/_next/static/css/app/layout.css" as="style" />
         <link rel="preload" href="/_next/static/chunks/main.js" as="script" />
-        
+
         {/* CRITICAL: Preload key interactive JavaScript for FID optimization */}
         <link rel="modulepreload" href="/_next/static/chunks/framework.js" />
         <link rel="modulepreload" href="/_next/static/chunks/webpack.js" />
         <link rel="preload" href="/_next/static/chunks/pages/_app.js" as="script" />
-        
+
         {/* CRITICAL: Optimize resource loading to prevent render blocking */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//www.facebook.com" />
-        
+
         {/* CRITICAL: Preload hero section fonts to prevent CLS */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link 
-          rel="stylesheet" 
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" 
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         />
-        
+
         {/* CRITICAL: Preload key images for LCP optimization with dimensions for CLS prevention */}
         <link rel="preload" href="/images/moabdel-headshot-final.png" as="image" type="image/png" media="(min-width: 640px)" />
-        
+
         {/* Critical: Image dimension hints to prevent CLS */}
         <style dangerouslySetInnerHTML={{
           __html: `
@@ -101,18 +105,18 @@ export default function RootLayout({
             @media (min-width: 1024px) { .hero-image-container { height: 600px; } }
           `
         }} />
-        
+
         {/* Critical mobile viewport optimization */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#1e40af" />
-        
+
         {/* Additional best practices meta tags */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="format-detection" content="telephone=yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        
+
         {/* OpenGraph Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.mothebroker.com" />
@@ -121,14 +125,14 @@ export default function RootLayout({
         <meta property="og:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
         <meta property="og:site_name" content="Mo Abdel" />
         <meta property="og:locale" content="en_US" />
-        
+
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.mothebroker.com" />
         <meta name="twitter:title" content="Mo Abdel | Mortgage Broker Orange County" />
         <meta name="twitter:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
         <meta name="twitter:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
-        
+
         <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2026" />
       </head>
