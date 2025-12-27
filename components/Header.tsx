@@ -104,15 +104,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Actions */}
-          <div className="md:hidden flex items-center space-x-2 z-10">
-            <a
-              href="tel:(949) 537-2357"
-              onClick={() => trackPhoneCall()}
-              className="p-2 text-slate-700 hover:text-blue-600 transition-colors"
-              aria-label="Call Mo Abdel"
-            >
-              <Phone className="h-6 w-6" />
-            </a>
+          <div className="md:hidden flex items-center z-10">
             <Button
               variant="ghost"
               size="icon"
