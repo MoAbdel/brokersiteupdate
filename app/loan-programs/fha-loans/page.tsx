@@ -271,7 +271,7 @@ export default function FHALoansPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Debt-to-Income Ratio</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to 57%</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to 50%</td>
                   <td className="px-6 py-4 text-center text-slate-600">Up to 50%</td>
                 </tr>
                 <tr>

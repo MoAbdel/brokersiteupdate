@@ -77,36 +77,29 @@ export default function VALoansPage() {
           </div>
         </div>
 
-        {/* VA Loan Limits 2026 */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits in Orange County</h2>
-          <div className="bg-red-50 p-8 rounded-2xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6">Orange County VA Limits</h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Basic Entitlement:</span>
-                    <span className="font-bold">$36,000</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Additional Entitlement:</span>
-                    <span className="font-bold">$155,162.50</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Total Available:</span>
-                    <span className="font-bold text-red-600">$1,266,300+</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">No Limit if 25% Down:</span>
-                    <span className="font-bold text-green-600">Unlimited*</span>
-                  </div>
-                </div>
-                <p className="text-xs text-slate-500 mt-4">*Above $1,266,300, you'll need 25% of the difference as down payment</p>
+          <div className="bg-red-50 p-8 rounded-2xl max-w-3xl mx-auto text-center">
+            <h3 className="text-2xl font-bold text-slate-900 mb-6">Orange County VA Limits</h3>
+            <div className="space-y-4 max-w-md mx-auto">
+              <div className="flex justify-between">
+                <span className="text-slate-600 font-medium">Basic Entitlement:</span>
+                <span className="font-bold">$36,000</span>
               </div>
-
-
+              <div className="flex justify-between">
+                <span className="text-slate-600 font-medium">Additional Entitlement:</span>
+                <span className="font-bold">$155,162.50</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-600 font-medium">Total Available:</span>
+                <span className="font-bold text-red-600">$1,266,300+</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-slate-600 font-medium text-left">No Limit if 25% Down:</span>
+                <span className="font-bold text-green-600">Unlimited*</span>
+              </div>
             </div>
+            <p className="text-xs text-slate-500 mt-6">*Above $1,266,300, you'll need 25% of the difference as down payment</p>
           </div>
         </div>
 
