@@ -211,6 +211,7 @@ export const refinanceDropdown: DropdownItem[] = [
   { title: '💰 HOME EQUITY', url: '#', isHeader: true },
   { title: 'HELOC', url: '/loan-programs/heloc' },
   { title: 'HELOAN', url: '/loan-programs/heloan' },
+  { title: 'VA Refinance', url: '/loan-programs/va-refinance' },
 ];
 
 export const specialtyLoansDropdown: DropdownItem[] = [

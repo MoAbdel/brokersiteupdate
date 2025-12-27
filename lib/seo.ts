@@ -136,9 +136,9 @@ export const mortgageLoanSchema = {
     },
     {
       "@type": "Offer",
-      "name": "VA Loans",
-      "description": "Zero down VA loans for veterans and military families",
-      "url": "/va-loans-orange-county"
+      "name": "VA Refinance",
+      "description": "Zero down VA refinance options for veterans and military families",
+      "url": "/loan-programs/va-refinance"
     },
     {
       "@type": "Offer",

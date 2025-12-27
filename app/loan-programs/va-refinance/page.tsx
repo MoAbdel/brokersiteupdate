@@ -6,10 +6,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Shield, Star, Users, CheckCircle, AlertCircle, Flag } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'VA Loans Orange County | 0% Down Military Benefits | Mo The Mortgage Broker NMLS #1426884',
-  description: 'VA loans in Orange County with 0% down payment for veterans and active military. No PMI, Competitive pricing. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
+  title: 'VA Refinance Orange County | 100% Cash-Out | Mo The Mortgage Broker NMLS #1426884',
+  description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/loan-programs/va-loans',
+    canonical: 'https://www.mothebroker.com/loan-programs/va-refinance',
   },
 };
 
@@ -17,24 +17,24 @@ export default function VALoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             🇺🇸 Exclusive Military Benefits
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-red-600">VA Loans</span> in Orange County
+            <span className="text-red-600">VA Refinance</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Exclusive mortgage benefits for military veterans, active service members, and eligible 
-            spouses in Orange County. Buy with $0 down payment, no PMI, and Competitive pricing - 
+            Exclusive mortgage benefits for military veterans, active service members, and eligible
+            spouses in Orange County. Buy with $0 down payment, no PMI, and Competitive pricing -
             thank you for your service with the best home financing available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-lg">
-                Get VA Loan Pre-Approval
+                Get VA Refinance Quote
               </Button>
             </Link>
             <a href="tel:(949) 537-2357">
@@ -104,35 +104,8 @@ export default function VALoansPage() {
                 </div>
                 <p className="text-xs text-slate-500 mt-4">*Above $1,266,300, you'll need 25% of the difference as down payment</p>
               </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold text-slate-900 mb-4 text-center">VA Loan Example</h4>
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Orange County Home Price:</span>
-                    <span className="font-bold">$750,000</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Down Payment:</span>
-                    <span className="font-bold text-red-600">$0</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">VA Loan Amount:</span>
-                    <span className="font-bold">$750,000</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">PMI Payment:</span>
-                    <span className="font-bold text-green-600">$0/month</span>
-                  </div>
-                  <div className="border-t pt-2">
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Est. Monthly Payment:</span>
-                      <span className="font-bold text-green-600">~$4,850*</span>
-                    </div>
-                  </div>
-                </div>
-                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance. No PMI!</p>
-              </div>
+
+
             </div>
           </div>
         </div>
@@ -148,7 +121,7 @@ export default function VALoansPage() {
                 <p className="text-sm font-semibold text-red-600">Massive upfront savings</p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">🛡️ No Private Mortgage Insurance</h3>
@@ -235,7 +208,7 @@ export default function VALoansPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-6">📋 Additional Requirements</h3>
               <div className="space-y-4">
@@ -472,15 +445,15 @@ export default function VALoansPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>

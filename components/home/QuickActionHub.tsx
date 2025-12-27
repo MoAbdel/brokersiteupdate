@@ -83,7 +83,7 @@ export default function QuickActionHub() {
                 href={action.href}
                 target={isExternal ? '_blank' : undefined}
                 rel={isExternal ? 'noopener noreferrer' : undefined}
-                className={`flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-900 px-4 py-4 rounded-lg transition-all duration-200 hover:shadow-md ${action.title === 'NMLSConsumerAccess.org' ? 'col-span-2 sm:col-span-1' : ''
+                className={`flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-900 px-4 py-4 rounded-lg transition-all duration-200 hover:shadow-md ${action.title === 'NMLSConsumerAccess.org' ? 'col-span-2 sm:col-span-1 justify-center' : ''
                   }`}
               >
                 <Icon className="w-5 h-5 text-slate-600 flex-shrink-0" />

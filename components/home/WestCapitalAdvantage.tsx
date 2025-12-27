@@ -15,8 +15,8 @@ export default function WestCapitalAdvantage() {
     {
       title: 'FHA/VA/USDA',
       description: 'Government Programs',
-      details: 'Low down payment options for qualified buyers',
-      href: '/loan-programs/fha-loans'
+      details: 'Low down payment options or VA Refinance benefits',
+      href: '/loan-programs/va-refinance'
     },
     {
       title: 'Non-QM Solutions',

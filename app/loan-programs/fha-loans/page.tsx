@@ -18,7 +18,7 @@ export default function FHALoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -28,8 +28,8 @@ export default function FHALoansPage() {
             <span className="text-blue-600">FHA Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Buy your Orange County home with as little as 3.5% down payment. FHA loans offer 
-            government backing with flexible credit requirements and Competitive pricing - 
+            Buy your Orange County home with as little as 3.5% down payment. FHA loans offer
+            government backing with flexible credit requirements and Competitive pricing -
             perfect for first-time homebuyers and those with limited down payment savings.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -105,31 +105,8 @@ export default function FHALoansPage() {
                 </div>
                 <p className="text-xs text-slate-500 mt-4">*2026 FHA loan limits. Limits are updated annually by HUD.</p>
               </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold text-slate-900 mb-4 text-center">FHA Example Purchase</h4>
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Orange County Home Price:</span>
-                    <span className="font-bold">$650,000</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Down Payment (3.5%):</span>
-                    <span className="font-bold text-blue-600">$22,750</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">FHA Loan Amount:</span>
-                    <span className="font-bold">$627,250</span>
-                  </div>
-                  <div className="border-t pt-2">
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Est. Monthly Payment:</span>
-                      <span className="font-bold text-green-600">~$4,250*</span>
-                    </div>
-                  </div>
-                </div>
-                <p className="text-xs text-slate-500 mt-4">*Includes principal, interest, taxes, insurance, and MIP. Pricing varies.</p>
-              </div>
+
+
             </div>
           </div>
         </div>
@@ -145,7 +122,7 @@ export default function FHALoansPage() {
                 <p className="text-sm font-semibold text-blue-600">Save thousands upfront</p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">📊 Flexible Credit Standards</h3>
@@ -227,7 +204,7 @@ export default function FHALoansPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-6">⚠️ Important Considerations</h3>
               <div className="space-y-4">
@@ -325,12 +302,12 @@ export default function FHALoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">High Home Prices, Lower Down Payment</h3>
                     <p className="text-slate-600">
-                      With Orange County median home prices around $1.26M, even 3.5% down saves 
+                      With Orange County median home prices around $1.26M, even 3.5% down saves
                       tens of thousands compared to conventional loan requirements.
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
                     <Users className="w-6 h-6 text-green-600" />
@@ -338,7 +315,7 @@ export default function FHALoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Perfect for First-Time Buyers</h3>
                     <p className="text-slate-600">
-                      Many Orange County buyers are first-time purchasers who benefit from 
+                      Many Orange County buyers are first-time purchasers who benefit from
                       FHA's flexible credit and income requirements.
                     </p>
                   </div>
@@ -351,14 +328,14 @@ export default function FHALoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Competitive in All Markets</h3>
                     <p className="text-slate-600">
-                      Whether you're buying in Irvine, Newport Beach, or Anaheim, 
+                      Whether you're buying in Irvine, Newport Beach, or Anaheim,
                       FHA loans work across all Orange County communities.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-blue-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Orange County FHA Success</h3>
               <div className="space-y-4">
@@ -424,24 +401,24 @@ export default function FHALoansPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>
 
         {/* Topic Cluster Links */}
-        <TopicClusterLinks 
-          currentPage="/loan-programs/fha-loans" 
-          clusterType="loan-programs" 
+        <TopicClusterLinks
+          currentPage="/loan-programs/fha-loans"
+          clusterType="loan-programs"
         />
       </div>
     </div>

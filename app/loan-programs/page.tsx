@@ -17,6 +17,7 @@ const loanPrograms = [
   {
     title: 'FHA Refinance',
     icon: Home,
+    href: '/loan-programs/fha-loans',
     description: 'Lower your monthly payment or eliminate PMI with an FHA refinance',
     features: [
       'Rate-and-term refinance options',
@@ -29,6 +30,7 @@ const loanPrograms = [
   {
     title: 'VA Refinance',
     icon: Shield,
+    href: '/loan-programs/va-refinance',
     description: 'Exclusive refinancing benefits for military veterans and service members',
     features: [
       'Streamline Refinance (IRRRL)',
@@ -41,6 +43,7 @@ const loanPrograms = [
   {
     title: 'Conventional Refinance',
     icon: Users,
+    href: '/loan-programs/conventional-loans',
     description: 'Traditional refinancing with flexible terms and options',
     features: [
       'Lower your interest pricing',
@@ -53,6 +56,7 @@ const loanPrograms = [
   {
     title: 'Jumbo Refinance',
     icon: TrendingUp,
+    href: '/loan-programs/jumbo-loans',
     description: 'Refinancing for high-value properties in Orange County',
     features: [
       'Refinance balances above conforming limits',
@@ -151,7 +155,7 @@ export default function ProgramsPage() {
                     5-Min Pre-Approval
                   </Button>
                 </a>
-                <Link href="/heloc-orange-county">
+                <Link href="/loan-programs/heloc">
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold">
                     Traditional HELOC Details
                   </Button>
@@ -202,7 +206,7 @@ export default function ProgramsPage() {
                 </div>
               </div>
 
-              <Link href="/programs/heloan">
+              <Link href="/loan-programs/heloan">
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold">
                   Get HELOAN Pricing & Terms
                 </Button>
@@ -277,7 +281,7 @@ export default function ProgramsPage() {
             </Link>
 
             {/* Rate & Term Refinancing */}
-            <Link href="/loan-programs/rate-term-refinance-orange-county" className="block h-full group">
+            <Link href="/loan-programs/rate-term-refinance" className="block h-full group">
               <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-green-200 relative h-full transition-all duration-300 hover:border-green-400 hover:shadow-2xl">
                 <div className="absolute -top-4 left-6">
                   <span className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
@@ -370,7 +374,7 @@ export default function ProgramsPage() {
               <div className="mb-6">
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Best For:</h3>
                 <p className="text-slate-600 mb-6">{program.bestFor}</p>
-                <Link href={`/loan-programs/${program.title.toLowerCase().replace(/ /g, '-')}`}>
+                <Link href={program.href}>
                   <Button className="w-full bg-blue-600 hover:bg-blue-700">Learn More About {program.title} →</Button>
                 </Link>
               </div>
