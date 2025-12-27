@@ -77,15 +77,6 @@ export default function WhyChooseUs() {
           ))}
         </div>
 
-        {/* See My Options CTA */}
-        <div className="text-center mt-12">
-          <a href="/quiz">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 mb-8">
-              See My Options
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-          </a>
-        </div>
 
       </div>
     </section>

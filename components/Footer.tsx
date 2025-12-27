@@ -112,64 +112,48 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8">
-          {/* License Information and Disclaimers Side by Side */}
-          <div className="max-w-6xl mx-auto mb-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-              {/* Enhanced NMLS Disclosures */}
-              <div className="text-center">
-                <div className="bg-slate-800 p-4 rounded-lg inline-block">
-                  <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
-                  <p className="text-slate-300 text-sm mb-2">West Capital Lending, Inc.</p>
-                  <p className="text-slate-300 text-sm mb-3">Mo Abdel, Branch Manager • NMLS #1426884</p>
-
-                  {/* Brokerage License Information */}
-                  <div className="border-t border-slate-600 pt-3 mb-3">
-                    <p className="text-slate-300 text-sm font-medium mb-1">24 Executive Park Suite 250, Irvine, CA 92614</p>
-                    <p className="text-slate-400 text-xs mb-1">Direct: (949) 537-2357 | mabdel@wclloans.com</p>
-                    <p className="text-slate-400 text-xs mb-1">Company NMLS #1566096 | CA DRE #02022356</p>
-                    <p className="text-slate-400 text-xs mb-1">Licensed in: CA, WA, VA, CO</p>
-                    <p className="text-slate-400 text-xs">Licensed by the CA Department of Financial Protection and Innovation</p>
-                  </div>
-
-                  <p className="text-slate-400 text-xs">
-                    <a
-                      href="https://www.nmlsconsumeraccess.org/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-400 hover:text-blue-300 underline"
-                    >
-                      NMLS Consumer Access
-                    </a>
-                    {' | '}
-                    <Link href="/privacy-policy" className="text-blue-400 hover:text-blue-300 underline">
-                      Privacy Policy
-                    </Link>
-                    {' | '}
-                    <Link href="/terms-of-service" className="text-blue-400 hover:text-blue-300 underline">
-                      Terms of Use
-                    </Link>
-                  </p>
-                </div>
+          <div className="max-w-6xl mx-auto mb-8">
+            <div className="space-y-6 text-slate-400 text-xs leading-relaxed">
+              {/* Equal Housing & Non-Discrimination */}
+              <div>
+                <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
+                <p>
+                  West Capital Lending is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that discriminate based on race, color, religion, national origin, sex, marital status, age (provided you have the capacity to enter into a binding contract) because all or part of your income may be derived from any public assistance program, or because you have, in good faith, exercised any right under the Consumer Credit Protection Act.
+                </p>
               </div>
 
-              {/* Required Disclaimers */}
-              <div className="flex items-center">
-                <div className="bg-slate-800 p-4 rounded-lg w-full">
-                  <p className="text-slate-300 text-xs mb-2">
-                    <strong>Important:</strong> This is not a commitment to lend. Loans subject to credit and property approval.
-                    Programs, terms and conditions subject to change without notice. Other restrictions apply.
-                  </p>
-                  <p className="text-slate-400 text-xs mb-2">
-                    This material is not from HUD or FHA and has not been approved by HUD or any government agency.
-                    The information provided is for informational purposes only and is not an advertisement for products or services.
-                  </p>
-                  <p className="text-slate-400 text-xs">
-                    All loan programs and pricing are subject to credit approval and may require membership or account relationships. Additional terms and conditions apply.
-                  </p>
-                </div>
+              {/* General Disclaimers & Licensing */}
+              <div>
+                <p>
+                  Information accurate as of 02/19/2024. Not all programs are available in all areas. Not all borrowers will qualify for all programs. Program restrictions apply. Please contact West Capital Lending, 24 Executive Park, Suite 250 Irvine, CA 92614 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are subject to the specific lender's underwriting guidelines and available loan products. Approvals may be subject to appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other information on this website are subject to change without notice. The Loan Origination team accepts applications in the following states only: CA, CO, WA, VA. The information on this site is not intended for consumers of any other state to determine broker or loan origination eligibility please visit:{' '}
+                  <a
+                    href="https://www.nmlsconsumeraccess.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 underline"
+                  >
+                    NMLS Consumer Access
+                  </a>.
+                </p>
               </div>
 
+              {/* Texas Specific Disclosure */}
+              <div className="bg-slate-800/50 p-4 rounded-lg border border-slate-700">
+                <p className="italic uppercase tracking-tight">
+                  CONSUMERS WISHING TO FILE A COMPLAINT AGAINST A COMPANY OR A RESIDENTIAL MORTGAGE LOAN ORIGINATOR SHOULD COMPLETE AND SEND A COMPLAINT FORM TO THE TEXAS DEPARTMENT OF SAVINGS AND MORTGAGE LENDING, 2601 NORTH LAMAR, SUITE 201, AUSTIN, TEXAS 78705. COMPLAINT FORMS AND INSTRUCTIONS MAY BE OBTAINED FROM THE DEPARTMENT'S WEBSITE AT WWW.SML.TEXAS.GOV. A TOLL-FREE CONSUMER HOTLINE IS AVAILABLE AT 1-877-276-5550. THE DEPARTMENT MAINTAINS A RECOVERY FUND TO MAKE PAYMENTS OF CERTAIN ACTUAL OUT OF POCKET DAMAGES SUSTAINED BY BORROWERS CAUSED BY ACTS OF LICENSED RESIDENTIAL MORTGAGE LOAN ORIGINATORS. A WRITTEN APPLICATION FOR REIMBURSEMENT FROM THE RECOVERY FUND MUST BE FILED WITH AND INVESTIGATED BY THE DEPARTMENT PRIOR TO THE PAYMENT OF A CLAIM. FOR MORE INFORMATION ABOUT THE RECOVERY FUND, PLEASE CONSULT THE DEPARTMENT'S WEBSITE AT WWW.SML.TEXAS.GOV.
+                </p>
+              </div>
+
+              {/* Personal & Corporate NMLS */}
+              <div className="text-center pt-4 border-t border-slate-700 flex flex-col items-center gap-1">
+                <p className="text-white font-bold text-sm">Mo Abdel NMLS #1426884</p>
+                <div className="text-slate-300">
+                  <span>West Capital Lending, Inc. NMLS #1566096</span>
+                  <span className="mx-2">|</span>
+                  <span>DRE #02022356</span>
+                </div>
+                <p className="text-slate-400 text-[10px]">24 Executive Park, Suite 250 Irvine, CA 92614</p>
+              </div>
             </div>
           </div>
 
