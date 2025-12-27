@@ -270,7 +270,6 @@ export const blogDropdown: DropdownItem[] = [
   // Guides
   { title: '📚 GUIDES', url: '#', isHeader: true },
   { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
-  { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
   { title: 'Investment Property', url: '/guides/orange-county-investment-property' },
 
   // Service Areas
