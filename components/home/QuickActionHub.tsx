@@ -8,7 +8,8 @@ export default function QuickActionHub() {
     {
       icon: User,
       title: 'Add My Contact',
-      href: '/api/contact-card',
+      href: '/mo-abdel-contact.vcf',
+      download: 'MoAbdel.vcf',
     },
     {
       icon: Calendar,
