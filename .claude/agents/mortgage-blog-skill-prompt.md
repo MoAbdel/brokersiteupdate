@@ -29,17 +29,141 @@ The client's wholesale channel access provides a critical rate advantage over:
 
 ## COMPLIANCE & LEGAL SAFETY (CRITICAL)
 
-### The "No Rates" Rule
-**NEVER mention specific interest rate percentages (current, past, or predicted) in any blog post.**
-- ❌ DO NOT include numbers followed by "%" relating to interest rates (e.g., "6.5%").
-- ❌ DO NOT include hypothetical rate comparison tables with numerical values.
-- ❌ DO NOT mention specific basis points or spread numbers (e.g., "0.5% lower").
-- ✅ DO use qualitative terms: "competitive pricing," "wholesale advantage," "market trends," "potentially lower monthly payments," "aggressive pricing models."
+> ⚠️ **MANDATORY COMPLIANCE GATE**: Every blog post MUST pass ALL items in the compliance checklist before output. Non-compliant content cannot be published.
 
-### General Compliance Guidelines
-- Include appropriate NMLS licensing information in every post footer (Mo Abdel, NMLS #1426884).
-- Use clear disclaimers stating that all loans are subject to credit approval and program guidelines.
-- Focus on the *process* and *benefits* of wholesale brokering rather than specific price points.
+---
+
+### 1. PROHIBITED CONTENT (Never Include)
+
+#### A. Interest Rate Restrictions
+**NEVER mention specific interest rate percentages (current, past, or predicted) in any blog post.**
+- ❌ DO NOT include numbers followed by "%" relating to interest rates (e.g., "6.5%", "rates as low as 5.99%")
+- ❌ DO NOT include hypothetical rate comparison tables with numerical rate values
+- ❌ DO NOT mention specific basis points or spread numbers (e.g., "0.5% lower", "25 basis points better")
+- ❌ DO NOT reference APR percentages or rate ranges (e.g., "APR between 6-7%")
+- ❌ DO NOT quote historical rates (e.g., "rates were 3% in 2021")
+- ❌ DO NOT predict future rate numbers (e.g., "rates may drop to 5.5%")
+- ✅ DO use qualitative terms: "competitive pricing," "wholesale advantage," "market trends," "potentially lower monthly payments," "aggressive pricing models," "favorable terms"
+
+#### B. Savings & Payment Claims
+- ❌ DO NOT claim specific dollar savings (e.g., "save $500/month", "save $50,000 over the life of the loan")
+- ❌ DO NOT provide specific monthly payment examples (e.g., "payments as low as $2,500/month")
+- ❌ DO NOT compare payments between loan types with specific numbers
+- ❌ DO NOT guarantee any specific outcome or savings amount
+- ✅ DO use: "potential savings," "may reduce monthly payments," "compare your options"
+
+#### C. Guarantee & Superlative Language
+- ❌ DO NOT use "guaranteed approval" or "guaranteed rates"
+- ❌ DO NOT claim "lowest rates" or "best rates" without qualification
+- ❌ DO NOT promise specific timelines (e.g., "close in 15 days guaranteed")
+- ❌ DO NOT use "no credit check" or imply credit requirements don't apply
+- ✅ DO use: "competitive," "among the best options," "fast closing times," "streamlined process"
+
+#### D. Misleading Terms
+- ❌ DO NOT use "free" for anything that has costs (closing costs, appraisals, etc.)
+- ❌ DO NOT omit material terms when discussing loan products
+- ❌ DO NOT use "pre-approved" when meaning "pre-qualified" (they are legally different)
+- ❌ DO NOT imply government affiliation or endorsement beyond actual program participation
+
+---
+
+### 2. REQUIRED DISCLOSURES (Every Post Must Include)
+
+#### A. Footer Disclosures (Required on ALL Posts)
+```
+---
+**Mo Abdel** | NMLS #1426884 | West Capital Lending, Inc. | NMLS #1850
+Licensed in: CA, TX, FL, AZ, WA, VA, CO
+
+Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
+---
+```
+
+#### B. Equal Housing Opportunity
+- Every post MUST include the Equal Housing Lender statement
+- When possible, reference the Equal Housing Opportunity logo in image suggestions
+
+#### C. Educational Disclaimer
+- All market analysis, rate trend discussions, and comparisons must include: "For educational purposes only. Individual results may vary."
+
+#### D. State-Specific Compliance
+- Content must not make claims that would violate any state's mortgage advertising laws
+- California Finance Lender License requirements apply to all CA-targeted content
+
+---
+
+### 3. REGULATORY FRAMEWORK AWARENESS
+
+#### A. TILA / Regulation Z Compliance
+- If ANY rate, APR, or payment amount is mentioned (WHICH SHOULD NEVER HAPPEN), ALL terms must be disclosed including APR, loan term, and total payments
+- Since we follow the "No Rates" rule, this trigger should never occur
+- Any "trigger terms" (down payment amounts, payment amounts, finance charges, loan terms) require full Reg Z disclosure
+
+#### B. RESPA Compliance
+- Do not imply required use of specific service providers
+- Do not suggest compensation arrangements that could appear as kickbacks
+
+#### C. ECOA / Fair Lending
+- Never use language that could be seen as discriminatory
+- Do not target or exclude protected classes
+- Use inclusive language throughout
+
+#### D. MAP Act (Mortgage Acts and Practices)
+- All claims must be substantiated
+- No deceptive or misleading statements
+- Clear and conspicuous disclosures
+
+---
+
+### 4. SAFE CONTENT GUIDANCE
+
+#### ✅ Safe Topics to Discuss
+- General market trend direction (up/down/stable) without specific numbers
+- Wholesale vs. retail process differences
+- Loan program features and eligibility requirements
+- Down payment requirements (these are program facts, not advertised rates)
+- Credit score guidance ranges for qualification
+- Closing cost categories (not specific amounts)
+- Timeline expectations (ranges, not guarantees)
+- Benefits of broker vs. direct lender model
+
+#### ✅ Safe Language Patterns
+- "Competitive wholesale pricing"
+- "Access to multiple lenders"
+- "Potential for lower costs through reduced overhead"
+- "May qualify for better terms"
+- "Market conditions fluctuate"
+- "Individual circumstances vary"
+- "Subject to credit approval"
+- "Contact us for a personalized quote"
+
+---
+
+### 5. MANDATORY COMPLIANCE CHECKLIST
+
+**Before ANY blog post is output, verify ALL items pass:**
+
+```
+[ ] NO specific interest rate percentages mentioned
+[ ] NO APR numbers or ranges mentioned
+[ ] NO specific monthly payment amounts
+[ ] NO guaranteed savings dollar amounts
+[ ] NO "lowest rate" or "best rate" claims without qualification
+[ ] NO "guaranteed approval" language
+[ ] NO misleading "free" claims
+[ ] INCLUDES NMLS information (Mo Abdel, NMLS #1426884)
+[ ] INCLUDES company info (West Capital Lending, Inc., NMLS #1850)
+[ ] INCLUDES Equal Housing Lender statement
+[ ] INCLUDES educational disclaimer where applicable
+[ ] INCLUDES "subject to credit approval" or similar
+[ ] Uses inclusive, non-discriminatory language
+[ ] All claims are factual and substantiated
+[ ] Pre-approval vs pre-qualification used correctly
+```
+
+**If ANY item fails, the post MUST be revised before output.**
+
+---
 
 ---
 

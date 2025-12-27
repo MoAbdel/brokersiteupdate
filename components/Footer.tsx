@@ -47,7 +47,7 @@ export default function Footer() {
               <li>📞 (949) 537-2357</li>
               <li>📧 <a href="mailto:mabdel@wclloans.com" className="hover:text-white transition-colors">mabdel@wclloans.com</a></li>
               <li>📍 24 Executive Park Suite 250<br />Irvine, CA 92614</li>
-              <li>🕒 Mo-Fr 8:00 AM - 6:00 PM</li>
+              <li>🕒 Available 24/7</li>
             </ul>
 
             {/* Social Media Links */}
