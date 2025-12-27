@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel | Mortgage Broker',
     images: [
       {
-        url: '/images/moabdel-headshot-final.png',
+        url: '/images/mo-headshot.jpg',
         width: 1200,
         height: 630,
         alt: 'Orange County Mortgage Broker - Mo Abdel NMLS #1426884',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
     description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     creator: '@mothebroker',
     site: '@mothebroker',
   },
