@@ -243,7 +243,7 @@ export default function OrangeCountyRefinancingGuide() {
               Orange County Refinancing Guide 2025
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-100 max-w-4xl mx-auto leading-relaxed">
-              Comprehensive guide to refinancing your Orange County home. Explore rate-and-term refinancing, 
+              Comprehensive guide to refinancing your Orange County home. Explore rate-and-term refinancing,
               cash-out options, HELOCs, and HELOANs with expert insights from mortgage broker Mo Abdel, NMLS #1426884.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -294,7 +294,7 @@ export default function OrangeCountyRefinancingGuide() {
               Orange County Refinancing Options
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Choose the right refinancing solution for your goals. Access Competitive pricing from 200+ lenders 
+              Choose the right refinancing solution for your goals. Access Competitive pricing from 200+ lenders
               with personalized guidance from experienced Orange County mortgage broker Mo Abdel.
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function OrangeCountyRefinancingGuide() {
                 red: 'bg-red-100 text-red-600',
                 indigo: 'bg-indigo-100 text-indigo-600'
               };
-              
+
               return (
                 <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-6 text-center">
@@ -433,7 +433,7 @@ export default function OrangeCountyRefinancingGuide() {
 
           <div className="text-center mt-8">
             <p className="text-slate-600 mb-4">
-              <strong>Note:</strong> Many Orange County homeowners choose no-closing-cost refinances where 
+              <strong>Note:</strong> Many Orange County homeowners choose no-closing-cost refinances where
               lender credits offset fees in exchange for a slightly higher rate.
             </p>
             <Link href="/calculator">
@@ -537,7 +537,7 @@ export default function OrangeCountyRefinancingGuide() {
             Ready to Refinance Your Orange County Home?
           </h2>
           <p className="text-xl mb-8 text-green-100">
-            Get personalized refinancing advice and Competitive pricing from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884. 
+            Get personalized refinancing advice and Competitive pricing from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884.
             Access 200+ lenders for the best terms on rate-and-term refinancing, cash-out refinancing, HELOCs, and HELOANs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

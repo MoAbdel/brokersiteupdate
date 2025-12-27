@@ -166,7 +166,7 @@ export default function AboutPage() {
             </div>
             <div className="mt-8 pt-6 border-t border-slate-700 text-center">
               <a
-                href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1566096"
+                href="https://www.nmlsconsumeraccess.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-400 hover:text-green-300 font-medium"

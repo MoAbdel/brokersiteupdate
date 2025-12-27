@@ -13,13 +13,13 @@ export default function QuickActionHub() {
     {
       icon: Calendar,
       title: 'Schedule An Appointment',
-      href: 'https://calendly.com/mabdel-wclloans/30min',
+      href: 'https://calendly.com/mbabdel/15min',
       external: true,
     },
     {
       icon: FileText,
       title: 'Apply Now',
-      href: 'https://plus.floify.com/apply/wclloans',
+      href: 'https://westcaplending.loanzify.io/register/mo-abdel',
       external: true,
     },
     {
@@ -37,7 +37,7 @@ export default function QuickActionHub() {
     {
       icon: CreditCard,
       title: 'Order Credit Report',
-      href: 'https://www.smartpay.propertiespluscredit.com/consumer/6e62e88e-3fd4-4c0c-8ff8-d2b9e36f51f6',
+      href: 'https://credit.advcredit.com/smartpay/SmartPay.aspx?uid=66239a18-5991-4274-92ff-77e6bffa5ab4#forward',
       external: true,
     },
     {
@@ -48,13 +48,13 @@ export default function QuickActionHub() {
     {
       icon: Globe,
       title: 'WestCapitalLending.com',
-      href: 'https://westcapitallending.com/mo-abdel',
+      href: 'https://westcapitallending.com/team/mo-abdel',
       external: true,
     },
     {
       icon: Shield,
       title: 'NMLSConsumerAccess.org',
-      href: 'https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1566096',
+      href: 'https://www.nmlsconsumeraccess.org/',
       external: true,
     },
   ];

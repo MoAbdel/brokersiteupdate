@@ -55,7 +55,8 @@ export default function WhyChooseUs() {
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Unlike retail banks with limited product offerings, I leverage wholesale lending channels
-            and 100+ lender relationships to provide more options and competitive pricing.
+            and 100+ lender relationships to provide more options and competitive pricing for every
+            Orange County homeowner.
           </p>
         </div>
 

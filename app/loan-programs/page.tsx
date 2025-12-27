@@ -15,52 +15,52 @@ export const metadata: Metadata = {
 
 const loanPrograms = [
   {
-    title: 'FHA Loans',
+    title: 'FHA Refinance',
     icon: Home,
-    description: 'Perfect for first-time buyers with as little as 3.5% down',
+    description: 'Lower your monthly payment or eliminate PMI with an FHA refinance',
     features: [
-      'Down payment as low as 3.5%',
-      'Flexible credit requirements',
-      'Gift funds allowed for down payment',
+      'Rate-and-term refinance options',
+      'Streamline refinance (no appraisal often needed)',
+      'Cash-out options available',
       'Competitive loan pricing'
     ],
-    bestFor: 'First-time homebuyers, buyers with limited down payment'
+    bestFor: 'Homeowners with existing FHA loans or limited equity'
   },
   {
-    title: 'VA Loans',
+    title: 'VA Refinance',
     icon: Shield,
-    description: 'Exclusive benefits for military veterans and service members',
+    description: 'Exclusive refinancing benefits for military veterans and service members',
     features: [
-      'No down payment required',
+      'Streamline Refinance (IRRRL)',
+      '100% Cash-out Refinance',
       'No private mortgage insurance',
-      'Competitive loan pricing',
-      'Flexible underwriting'
+      'Competitive loan pricing'
     ],
-    bestFor: 'Military veterans, active service members, eligible spouses'
+    bestFor: 'Military veterans and active duty homeowners'
   },
   {
-    title: 'Conventional Loans',
+    title: 'Conventional Refinance',
     icon: Users,
-    description: 'Traditional financing with flexible terms and options',
+    description: 'Traditional refinancing with flexible terms and options',
     features: [
-      'Down payments from 3% to 20%',
-      'Excellent rate options',
-      'Various term lengths available',
-      'PMI removal options'
+      'Lower your interest pricing',
+      'Switch from adjustable to fixed rate',
+      'Eliminate private mortgage insurance',
+      'Various term lengths (15, 20, 30 years)'
     ],
-    bestFor: 'Buyers with good credit and stable income'
+    bestFor: 'Homeowners with good credit and equity'
   },
   {
-    title: 'Jumbo Loans',
+    title: 'Jumbo Refinance',
     icon: TrendingUp,
-    description: 'Financing for high-value properties in Orange County',
+    description: 'Refinancing for high-value properties in Orange County',
     features: [
-      'Loan amounts above conforming limits',
+      'Refinance balances above conforming limits',
       'Competitive jumbo rates',
-      'Flexible down payment options',
+      'Cash-out options for luxury homes',
       'Various ARM and fixed-rate options'
     ],
-    bestFor: 'Luxury home purchases, high-value Orange County properties'
+    bestFor: 'Luxury luxury homeowners, high-value Orange County property owners'
   }
 ];
 
@@ -75,8 +75,8 @@ export default function ProgramsPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             As a licensed broker with West Capital Lending - the nation's largest brokerage -
-            I have access to over 200 lenders offering Competitive pricing and flexible programs
-            for every Orange County homeowner and buyer.
+            I have access to over 200 lenders offering competitive pricing and flexible refinance
+            programs for every Orange County homeowner.
           </p>
         </div>
 
@@ -260,10 +260,6 @@ export default function ProgramsPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-orange-600 mr-3 mt-1">✓</span>
-                    <span className="text-slate-700">Tax-deductible interest on home improvements</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-orange-600 mr-3 mt-1">✓</span>
                     <span className="text-slate-700">Consolidate high-interest debt into one low payment</span>
                   </li>
                 </ul>
@@ -329,11 +325,10 @@ export default function ProgramsPage() {
           </div>
         </div>
 
-        {/* Other Loan Programs */}
         <div className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Purchase & Other Loan Programs
+              Loan Programs
             </h2>
           </div>
         </div>
@@ -364,7 +359,10 @@ export default function ProgramsPage() {
 
               <div className="mb-6">
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Best For:</h3>
-                <p className="text-slate-600">{program.bestFor}</p>
+                <p className="text-slate-600 mb-6">{program.bestFor}</p>
+                <Link href={`/loan-programs/${program.title.toLowerCase().replace(/ /g, '-')}`}>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Learn More About {program.title} →</Button>
+                </Link>
               </div>
             </div>
           ))}

@@ -29,15 +29,7 @@ export const loanProgramsDropdown: DropdownItem[] = [
   { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
 
-  // Home Purchase Loans
-  { title: '🏠 PURCHASE', url: '#', isHeader: true },
-  { title: 'FHA Loans', url: '/loan-programs/fha-loans' },
-  { title: 'Orange County FHA Limits', url: '/loan-programs/orange-county-fha-loan-limits' },
-  { title: 'VA Loans', url: '/loan-programs/va-loans' },
-  { title: 'Orange County VA Loans', url: '/loan-programs/orange-county-va-loans' },
-  { title: 'Conventional Loans', url: '/loan-programs/conventional-loans' },
-  { title: 'Jumbo Loans', url: '/loan-programs/jumbo-loans' },
-  { title: 'USDA Rural Loans', url: '/loan-programs/usda-rural-loans' },
+
 
   // Self-Employed & Non-QM
   { title: '💼 SELF-EMPLOYED', url: '#', isHeader: true },
@@ -206,22 +198,7 @@ export const resourcesDropdown: DropdownItem[] = [
   { title: 'Service Providers Directory', url: '/resources/service-providers' }
 ];
 
-export const purchaseDropdown: DropdownItem[] = [
-  // Home Purchase Loans
-  { title: '🏠 PURCHASE LOANS', url: '#', isHeader: true },
-  { title: 'FHA Loans', url: '/loan-programs/fha-loans' },
-  { title: 'VA Loans', url: '/loan-programs/va-loans' },
-  { title: 'Conventional Loans', url: '/loan-programs/conventional-loans' },
-  { title: 'Jumbo Loans', url: '/loan-programs/jumbo-loans' },
-  { title: 'USDA Rural Loans', url: '/loan-programs/usda-rural-loans' },
 
-  // First-Time Buyer
-  { title: '🌟 FIRST-TIME BUYERS', url: '#', isHeader: true },
-  { title: 'First-Time Buyer Guide', url: '/guides/orange-county-home-buyer-guide' },
-  { title: 'Down Payment Assistance', url: '/resources/down-payment-assistance' },
-  { title: 'Orange County FHA Limits', url: '/loan-programs/orange-county-fha-loan-limits' },
-  { title: 'Orange County VA Loans', url: '/loan-programs/orange-county-va-loans' },
-];
 
 export const refinanceDropdown: DropdownItem[] = [
   // Refinancing Options
@@ -254,7 +231,6 @@ export const specialtyLoansDropdown: DropdownItem[] = [
 export const guidesDropdown: DropdownItem[] = [
   // Complete Guides
   { title: '📚 COMPLETE GUIDES', url: '#', isHeader: true },
-  { title: 'Orange County Home Buyer Guide', url: '/guides/orange-county-home-buyer-guide' },
   { title: 'Orange County Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
   { title: 'Orange County VA Loans Guide', url: '/guides/orange-county-va-loans' },
   { title: 'Orange County Jumbo Loans Guide', url: '/guides/orange-county-jumbo-loans' },
@@ -285,17 +261,15 @@ export const blogDropdown: DropdownItem[] = [
   // Loan Programs
   { title: '💰 LOAN PROGRAMS', url: '#', isHeader: true },
   { title: 'All Programs', url: '/loan-programs' },
-  { title: 'FHA Loans', url: '/loan-programs/fha-loans' },
-  { title: 'VA Loans', url: '/loan-programs/va-loans' },
-  { title: 'Conventional Loans', url: '/loan-programs/conventional-loans' },
-  { title: 'Jumbo Loans', url: '/loan-programs/jumbo-loans' },
+  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
   { title: 'HELOC', url: '/loan-programs/heloc' },
   { title: 'HELOAN', url: '/loan-programs/heloan' },
   { title: 'Non-QM Loans', url: '/loan-programs/non-qm-loans' },
 
   // Guides
   { title: '📚 GUIDES', url: '#', isHeader: true },
-  { title: 'Home Buyer Guide', url: '/guides/orange-county-home-buyer-guide' },
+  { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
   { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
   { title: 'Investment Property', url: '/guides/orange-county-investment-property' },
 

@@ -17,7 +17,7 @@ export default function HELOANPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -27,7 +27,7 @@ export default function HELOANPage() {
             HELOAN: <span className="text-green-600">Home Equity Loan</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Get a lump sum from your Orange County home's equity with a fixed loan pricing 
+            Get a lump sum from your Orange County home's equity with a fixed loan pricing
             and predictable monthly payments. Perfect for large one-time expenses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -67,13 +67,7 @@ export default function HELOANPage() {
             <h3 className="text-lg font-bold text-slate-900 mb-2">15-30 Year Terms</h3>
             <p className="text-slate-600">Choose the payment schedule that fits your budget</p>
           </div>
-          <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-orange-600" />
-            </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Tax Benefits*</h3>
-            <p className="text-slate-600">Interest may be deductible for home improvements</p>
-          </div>
+
         </div>
 
         {/* HELOAN vs HELOC Comparison */}
@@ -143,7 +137,7 @@ export default function HELOANPage() {
                   <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">3</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Receive Your Lump Sum</h3>
-                    <p className="text-slate-600">Get all your funds at closing to use immediately for your project, purchase, or investment.</p>
+                    <p className="text-slate-600">Get all your funds at closing to use immediately for your project, debt payoff, or investment.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -201,7 +195,7 @@ export default function HELOANPage() {
                 <p className="text-sm font-semibold text-green-600">Perfect for big one-time projects</p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
@@ -280,7 +274,7 @@ export default function HELOANPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Important Considerations</h2>
               <div className="space-y-4">
@@ -347,15 +341,15 @@ export default function HELOANPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>

@@ -133,7 +133,7 @@ export default function Footer() {
 
                   <p className="text-slate-400 text-xs">
                     <a
-                      href="https://www.nmlsconsumeraccess.org"
+                      href="https://www.nmlsconsumeraccess.org/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-400 hover:text-blue-300 underline"

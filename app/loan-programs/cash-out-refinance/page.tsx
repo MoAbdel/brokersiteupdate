@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, Home, TrendingUp, CheckCircle, AlertCircle, Calculator } from 'lucide-react';
+import { DollarSign, Home, TrendingUp, CheckCircle, AlertCircle, Calculator, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
@@ -17,7 +17,7 @@ export default function CashOutRefinancePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -27,8 +27,8 @@ export default function CashOutRefinancePage() {
             <span className="text-orange-600">Cash-Out Refinance</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Replace your current mortgage with a larger loan and get cash from your Orange County 
-            home's equity at closing. Perfect for major expenses with potentially Lower pricing 
+            Replace your current mortgage with a larger loan and get cash from your Orange County
+            home's equity at closing. Perfect for major expenses with potentially Lower pricing
             than your current mortgage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -62,11 +62,11 @@ export default function CashOutRefinancePage() {
             <p className="text-slate-600">Potentially get cash AND lower your loan pricing</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Home className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-purple-600" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Tax Benefits*</h3>
-            <p className="text-slate-600">Interest may be deductible for home improvements</p>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Flexible Terms</h3>
+            <p className="text-slate-600">Customizable repayment options to fit your goals</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -215,7 +215,7 @@ export default function CashOutRefinancePage() {
                 <p className="text-sm font-semibold text-orange-600">Tax-deductible interest*</p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
@@ -389,15 +389,15 @@ export default function CashOutRefinancePage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>

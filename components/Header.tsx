@@ -71,8 +71,8 @@ export default function Header() {
                   <Link
                     href={item.url}
                     className={`inline-flex items-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-200 whitespace-nowrap ${pathname === item.url || pathname.startsWith(`${item.url}/`)
-                        ? 'text-blue-600 bg-blue-50'
-                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                      ? 'text-blue-600 bg-blue-50'
+                      : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
                       }`}
                   >
                     {item.title}
@@ -81,15 +81,6 @@ export default function Header() {
               </div>
             ))}
           </nav>
-
-          {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-3">
-            <a href="/quiz">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                Get Started
-              </Button>
-            </a>
-          </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -167,13 +158,6 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-4 border-t border-slate-200 mt-4">
-              <Link href="/quiz" className="block px-3 py-2" onClick={() => setMobileMenuOpen(false)}>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 shadow-lg hover:shadow-xl">
-                  Get Started
-                </Button>
-              </Link>
-            </div>
           </div>
         </div>
       )}

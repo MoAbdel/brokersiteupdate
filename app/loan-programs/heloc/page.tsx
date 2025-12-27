@@ -17,7 +17,7 @@ export default function HELOCPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -27,7 +27,7 @@ export default function HELOCPage() {
             HELOC: <span className="text-blue-600">Home Equity Line of Credit</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Unlock your Orange County home's equity with a flexible credit line. 
+            Unlock your Orange County home's equity with a flexible credit line.
             Access $50K to $500K for any purpose with competitive variable rates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -141,9 +141,9 @@ export default function HELOCPage() {
                 <tr>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900">Feature</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">HELOC</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-slate-600">HELOAN</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-slate-600">Personal Loan</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-slate-600">Credit Card</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-slate-600">Cash-Out Refi</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
@@ -161,13 +161,7 @@ export default function HELOCPage() {
                   <td className="px-6 py-4 text-center text-slate-600">As Needed</td>
                   <td className="px-6 py-4 text-center text-slate-600">Lump Sum</td>
                 </tr>
-                <tr>
-                  <td className="px-6 py-4 text-sm text-slate-900 font-medium">Tax Deductible*</td>
-                  <td className="px-6 py-4 text-center text-green-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
-                  <td className="px-6 py-4 text-center text-red-600">✗</td>
-                  <td className="px-6 py-4 text-center text-red-600">✗</td>
-                  <td className="px-6 py-4 text-center text-green-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
-                </tr>
+
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Maximum Amount</td>
                   <td className="px-6 py-4 text-center text-green-600 font-bold">Up to $500K</td>
@@ -178,7 +172,7 @@ export default function HELOCPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-slate-500 mt-4">*For home improvements. Consult your tax advisor.</p>
+
         </div>
 
         {/* Common Uses */}
@@ -189,10 +183,10 @@ export default function HELOCPage() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 Home Renovations</h3>
                 <p className="text-slate-600 mb-3">Kitchen remodels, bathroom upgrades, ADU construction, and other home improvements that add value.</p>
-                <p className="text-sm font-semibold text-green-600">Tax-deductible interest*</p>
+                <p className="text-sm font-semibold text-blue-600">Perfect for ongoing projects</p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
@@ -278,7 +272,7 @@ export default function HELOCPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Important Considerations</h2>
               <div className="space-y-4">
@@ -345,15 +339,15 @@ export default function HELOCPage() {
           <h3 className="text-lg font-semibold text-slate-900 mb-3">Important Disclaimers</h3>
           <div className="text-sm text-slate-700 space-y-2">
             <p>
-              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+              <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
               All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
             </p>
             <p>
-              This material is not from HUD or FHA and has not been approved by HUD or any government agency. 
+              This material is not from HUD or FHA and has not been approved by HUD or any government agency.
               The information provided is for informational purposes only and is not an advertisement for products or services.
             </p>
             <p>
-              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
+              Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
               Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>

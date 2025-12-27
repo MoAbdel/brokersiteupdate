@@ -19,10 +19,10 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What areas do you serve?",
-    answer: "I serve all of Orange County including Irvine, Newport Beach, Huntington Beach, Costa Mesa, Mission Viejo, Anaheim, Santa Ana, Fullerton, Laguna Beach, Lake Forest, and all surrounding communities. I'm based in Lake Forest but work with clients throughout Orange County.",
+    answer: "I serve all of Orange County including Irvine, Newport Beach, Huntington Beach, Costa Mesa, Mission Viejo, Anaheim, Santa Ana, Fullerton, Laguna Beach, Lake Forest, and all surrounding communities. I'm based in Irvine and work with homeowners throughout Orange County.",
     category: "general",
     keywords: ["areas", "serve", "location", "cities", "orange county", "irvine", "newport"],
-    followUp: ["Do you work with out-of-state buyers?", "Can you help with investment properties?"]
+    followUp: ["Can you help with investment property refinancing?", "Do you work with out-of-state homeowners?"]
   },
   {
     question: "What makes you different from banks?",
@@ -57,25 +57,25 @@ export const chatbotResponses: ChatResponse[] = [
     followUp: ["What's the minimum down payment?", "Which program is best for me?"]
   },
   {
-    question: "What is an FHA loan?",
-    answer: "FHA loans are government-backed mortgages perfect for first-time buyers or those with less-than-perfect credit. Benefits include: 3.5% minimum down payment, credit scores as low as 580 accepted, flexible qualification requirements, and competitive loan pricing. The 2025 FHA loan limit in Orange County is $1,089,300.",
+    question: "What is an FHA refinance?",
+    answer: "FHA refinances are government-backed options perfect for homeowners with less-than-perfect credit or limited equity. Benefits include: streamline refinancing with no appraisal (IRRRL equivalent), credit scores as low as 580 accepted, and competitive loan pricing. 2025 FHA loan limits in Orange County are up to $1,089,300.",
     category: "programs",
-    keywords: ["fha", "first time", "3.5", "government"],
-    followUp: ["Do I qualify for FHA?", "What are FHA loan limits?"]
+    keywords: ["fha", "streamline", "refinance", "government"],
+    followUp: ["Do I qualify for FHA refinance?", "What are FHA loan limits?"]
   },
   {
-    question: "What are VA loan benefits?",
-    answer: "VA loans offer incredible benefits for veterans and active military: $0 down payment required, no PMI (mortgage insurance), competitive loan pricing, flexible credit requirements, and assumable loans. The 2025 VA loan limit in Orange County is $1,089,300 with no down payment required.",
+    question: "What are VA refinance benefits?",
+    answer: "VA loans offer incredible refinance benefits for veterans: 100% cash-out options, streamline refinancing (IRRRL) with minimal documentation, no PMI (mortgage insurance), and competitive wholesale pricing. The 2025 VA loan limit in Orange County is $1,089,300 with zero equity required for some programs.",
     category: "programs",
-    keywords: ["va", "veteran", "military", "zero down", "0 down"],
-    followUp: ["Am I eligible for VA?", "Can I use VA loan twice?"]
+    keywords: ["va", "veteran", "military", "irrrl", "cash out"],
+    followUp: ["Am I eligible for VA IRRRL?", "Can I do a VA cash-out?"]
   },
   {
-    question: "What is a jumbo loan?",
-    answer: "Jumbo loans are for amounts exceeding $1,089,300 in Orange County. Given our median home price of $1.2M, many buyers need jumbo financing. I specialize in jumbo loans up to $3M with Competitive pricing, often better than big banks. Typically require 10-20% down and strong credit (700+).",
+    question: "What is a jumbo refinance?",
+    answer: "Jumbo refinances are for loan balances exceeding $1,089,300 in Orange County. I specialize in jumbo refinancing up to $3M with competitive pricing, often better than big banks. Typically requires strong credit (700+) and at least 20% equity.",
     category: "programs",
-    keywords: ["jumbo", "luxury", "high", "million", "expensive"],
-    followUp: ["What's the jumbo loan limit?", "What down payment for jumbo?"]
+    keywords: ["jumbo", "luxury", "high", "million", "refinance"],
+    followUp: ["What's the jumbo refinance limit?", "What equity for jumbo?"]
   },
   {
     question: "What is a HELOC?",
@@ -124,25 +124,25 @@ export const chatbotResponses: ChatResponse[] = [
     followUp: ["Can you close faster?", "What causes delays?"]
   },
   {
-    question: "What is pre-approval?",
-    answer: "Pre-approval is a lender's commitment to loan you a specific amount based on verified financial information. It shows sellers you're a serious, qualified buyer and strengthens your offer. I can pre-approve you in 24 hours or less. Pre-approval is free and gives you a competitive edge in Orange County's market.",
+    question: "What is a refinance pre-approval?",
+    answer: "A refinance pre-approval is a lender's commitment based on your verified income, credit, and equity. It allows us to lock in your pricing and move quickly toward closing. I can provide a refinance pre-approval in 24 hours or less. It's free and gives you certainty on your new payment and terms.",
     category: "process",
     keywords: ["preapproval", "pre-approval", "prequalified", "approved"],
     followUp: ["How do I get pre-approved?", "Is pre-approval guaranteed?"]
   },
   {
     question: "Is pre-approval guaranteed?",
-    answer: "Pre-approval is a conditional commitment based on the information you provide and initial underwriting review. Final loan approval requires: property appraisal meeting value requirements, no significant changes to your financial situation, verification of all documentation, and clear title on the property. While not 100% guaranteed, my pre-approvals have a very high success rate because I thoroughly verify everything upfront. I'll be transparent about any potential issues early in the process.",
+    answer: "Pre-approval is a conditional commitment based on the information you provide and initial underwriting review. Final refinance approval requires: property appraisal meeting value requirements (unless using a streamline program), no significant changes to your financial situation, and clear title. While not 100% guaranteed, my pre-approvals are very reliable because I verify everything upfront.",
     category: "process",
     keywords: ["preapproval", "guaranteed", "final", "approval", "conditional"],
     followUp: ["What could cause denial after pre-approval?", "How solid is pre-approval?"]
   },
   {
-    question: "What are closing costs?",
-    answer: "Closing costs in Orange County typically range from 2-5% of the loan amount. This includes appraisal ($500-800), title insurance, escrow fees, lender fees, and recording fees. I provide detailed estimates upfront with no hidden surprises. Some programs like HELOCs may have no closing costs.",
+    question: "What are refinance closing costs?",
+    answer: "Refinance closing costs in Orange County typically include appraisal ($500-800), title insurance, escrow fees, and lender fees. I often offer 'No-Closing-Cost' options where lender credits offset these fees so you don't pay anything out of pocket. I'll provide a detailed breakdown of all costs upfront.",
     category: "process",
     keywords: ["closing costs", "fees", "settlement", "escrow"],
-    followUp: ["Can seller pay closing costs?", "Can I roll costs into loan?"]
+    followUp: ["Can I roll costs into loan?", "What is a no-closing-cost refi?"]
   },
 
   // Refinancing
@@ -211,18 +211,11 @@ export const chatbotResponses: ChatResponse[] = [
 
   // First-Time Buyers
   {
-    question: "Do you help first-time buyers?",
-    answer: "Absolutely! First-time buyers are a specialty. I offer: low down payment options (3-3.5%), first-time buyer programs and grants, gift fund assistance, step-by-step guidance, and educational support. Many first-time buyers are surprised they qualify. Free consultation to explore your options - call (949) 579-2057.",
-    category: "firsttime",
-    keywords: ["first time", "first-time", "new buyer", "never bought"],
-    followUp: ["What programs for first-time buyers?", "How much do I need?"]
-  },
-  {
-    question: "What first-time buyer programs exist?",
-    answer: "Several programs help first-time buyers: FHA (3.5% down, flexible credit), Conventional 97 (3% down), VA (0% down for veterans), CalHFA programs (down payment assistance), and local Orange County grants. I'll identify all programs you qualify for and maximize your benefits.",
-    category: "firsttime",
-    keywords: ["first time programs", "assistance", "grants", "help"],
-    followUp: ["Do I qualify as first-time?", "What's CalHFA?"]
+    question: "What are your equity options?",
+    answer: "You have several ways to access equity: HELOC (flexible line of credit), HELOAN (fixed-rate second mortgage), or Cash-Out Refinance (replace first mortgage and get cash). Each has pros and cons depending on your current pricing and goals. I'll help you compare all three to find the maximum benefit.",
+    category: "local",
+    keywords: ["equity", "options", "difference", "heloc vs cash out"],
+    followUp: ["Should I do a HELOC or HELOAN?", "How much equity can I access?"]
   },
 
   // Quick Answers
@@ -258,7 +251,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Additional follow-up questions that were missing
   {
     question: "Can I lock my rate?",
-    answer: "Yes, you can lock your loan pricing once you have an accepted offer on a property. Rate locks typically range from 30-60 days, with some lenders offering up to 90 days. Locking protects you from rate increases during the loan process. I'll advise on the best timing based on market conditions and your closing timeline.",
+    answer: "Yes, you can lock your refinance pricing once we've identified the target rate and program. Rate locks typically range from 30-60 days. Locking protects you from market volatility while we process your loan. I'll advise on the best timing based on market trends.",
     category: "rates",
     keywords: ["lock", "rate lock", "guarantee", "fixed", "protect"],
     followUp: ["How long can I lock?", "What if rates drop after locking?"]
@@ -271,10 +264,10 @@ export const chatbotResponses: ChatResponse[] = [
     followUp: ["Who can give gift funds?", "How do I document gifts?"]
   },
   {
-    question: "What could cause denial after pre-approval?",
-    answer: "Common reasons for denial after pre-approval include: major purchases affecting debt-to-income ratio, job loss or income changes, new credit inquiries or accounts, property appraisal coming in low, issues discovered during underwriting, or undisclosed financial information. I help clients avoid these pitfalls by providing clear guidance on what not to do during the loan process.",
+    question: "What could cause denial during refinancing?",
+    answer: "Common factors include: major changes to your credit score, new debt that increases your DTI, or a low home appraisal. I mitigate these risks by doing a deep dive into your finances upfront and advising you on how to protect your profile during the process.",
     category: "process",
-    keywords: ["denial", "denied", "rejected", "pre-approval", "fail"],
+    keywords: ["denial", "denied", "rejected", "refinance", "fail"],
     followUp: ["How to avoid denial?", "What if appraisal is low?"]
   },
   {
@@ -292,11 +285,11 @@ export const chatbotResponses: ChatResponse[] = [
     followUp: ["What do you need to match?", "How to compare offers?"]
   },
   {
-    question: "Do I qualify as first-time buyer?",
-    answer: "You're considered a first-time buyer if you haven't owned a home in the past 3 years. This includes: never owning before, divorced individuals who haven't owned in 3+ years, and single parents who only owned with ex-spouse. First-time buyer status unlocks special programs with lower down payments and assistance options.",
-    category: "firsttime",
-    keywords: ["qualify", "first-time", "eligible", "count", "considered"],
-    followUp: ["What first-time benefits exist?", "What if spouse owned before?"]
+    question: "How much home equity do I have?",
+    answer: "Equity is the difference between your home's current market value and your mortgage balance. In Orange County, values have risen significantly, meaning most homeowners have substantial equity. I can provide a free Equity Analysis to show exactly how much you can leverage for cash-out or a HELOC.",
+    category: "local",
+    keywords: ["how much", "equity", "value", "calculate", "home value"],
+    followUp: ["How to increase equity?", "How much can I borrow?"]
   },
   {
     question: "How much can I save with you?",
@@ -310,27 +303,27 @@ export const chatbotResponses: ChatResponse[] = [
 // Helper function to find best matching response
 export function findBestResponse(query: string): ChatResponse | null {
   const normalizedQuery = query.toLowerCase();
-  
+
   // First, try exact question match
   const exactMatch = chatbotResponses.find(
     r => r.question.toLowerCase() === normalizedQuery
   );
   if (exactMatch) return exactMatch;
-  
+
   // Then, search by keywords
   let bestMatch: ChatResponse | null = null;
   let highestScore = 0;
-  
+
   chatbotResponses.forEach(response => {
     let score = 0;
-    
+
     // Check if query contains any keywords
     response.keywords.forEach(keyword => {
       if (normalizedQuery.includes(keyword)) {
         score += keyword.split(' ').length; // Multi-word keywords score higher
       }
     });
-    
+
     // Check if query contains words from the question
     const questionWords = response.question.toLowerCase().split(' ');
     questionWords.forEach(word => {
@@ -338,13 +331,13 @@ export function findBestResponse(query: string): ChatResponse | null {
         score += 0.5;
       }
     });
-    
+
     if (score > highestScore) {
       highestScore = score;
       bestMatch = response;
     }
   });
-  
+
   return highestScore > 0 ? bestMatch : null;
 }
 
@@ -359,18 +352,18 @@ export const chatCategories = [
   { id: 'investment', name: 'Investment Properties', icon: 'building' },
   { id: 'special', name: 'Special Programs', icon: 'star' },
   { id: 'local', name: 'Orange County', icon: 'map' },
-  { id: 'firsttime', name: 'First-Time Buyers', icon: 'user' },
+  { id: 'equity', name: 'Home Equity', icon: 'user' },
   { id: 'contact', name: 'Contact Info', icon: 'phone' }
 ];
 
 // Quick action buttons for chatbot
 export const quickActions = [
-  { label: "Get Loan Quote", action: "What are current pricing options?" },
+  { label: "Refinance Rates", action: "What are current pricing options?" },
   { label: "Contact Mo", action: "How can I contact Mo?" },
-  { label: "Loan Programs", action: "What loan programs do you offer?" },
+  { label: "HELOC Options", action: "What loan programs do you offer?" },
   { label: "Get Pre-Approved", action: "How do I get pre-approved?" },
-  { label: "Calculate Payment", action: "calculator" },
-  { label: "First-Time Buyer", action: "Do you help first-time buyers?" }
+  { label: "Calculate Savings", action: "calculator" },
+  { label: "Home Equity", action: "What are your equity options?" }
 ];
 
 // Fallback responses when no match found
@@ -382,10 +375,10 @@ export const fallbackResponses = [
 
 // Welcome message
 export const welcomeMessage = `👋 Hi! I'm Mo's AI assistant. I can help you with:
-• Current mortgage pricing and programs
-• Loan qualifications and requirements  
-• First-time buyer information
-• Refinancing options
+• Current refinance pricing and programs
+• Home equity solutions (HELOC/HELOAN)
+• Qualification requirements for refinancing
+• Cash-out options
 • Or connect you directly with Mo
 
 What can I help you with today?

@@ -1,15 +1,15 @@
 export const seoData = {
   Home: {
     title: "Orange County Mortgage Broker | Mo Abdel NMLS #1426884",
-    description: "Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884."
+    description: "Licensed mortgage broker serving Orange County homeowners. Access over 200 wholesale lenders for competitive pricing, fast closings, and personalized refinance solutions. NMLS #1426884."
   },
   About: {
     title: "About Mo Abdel | West Capital Lending Broker",
-    description: "Meet Mo Abdel – licensed mortgage broker helping clients in CA, WA, VA & CO get Better pricing, faster approvals, and more loan options. Specializing in Orange County home loans with access to 200+ lenders."
+    description: "Meet Mo Abdel – licensed mortgage broker helping homeowners in CA, WA, VA & CO get better pricing, faster approvals, and more flexible refinance options. Specializing in Orange County home equity and refinancing."
   },
   Programs: {
-    title: "Loan Programs | FHA, VA, Jumbo & HELOC | Orange County",
-    description: "Explore FHA, VA, Jumbo, and HELOC options. Mo Abdel finds the right mortgage for your goals with Competitive pricing & flexible terms."
+    title: "Loan Programs | Equity & Refinance | Orange County",
+    description: "Explore HELOC, HELOAN, and Cash-Out Refinance options. Mo Abdel finds the right equity or refinance solution for your goals with competitive pricing and flexible terms."
   },
   Calculator: {
     title: "Mortgage Calculator | Orange County Rates & Payments",
@@ -108,7 +108,7 @@ export const structuredData = {
     "https://mothebroker.com"
   ],
   "priceRange": "$$",
-  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homebuyers get access to over 200 lenders for competitive mortgage pricing on home loans and refinancing. NMLS #1426884. Call (949) 579-2057 for local mortgage expertise.",
+  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 579-2057 for local mortgage expertise.",
   "image": "https://mothebroker.com/images/moabdel-headshot-final.png",
   "logo": "https://mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
@@ -120,8 +120,8 @@ export const structuredData = {
 export const mortgageLoanSchema = {
   "@context": "https://schema.org",
   "@type": "LoanOrCredit",
-  "name": "Orange County Mortgage Loans",
-  "description": "FHA, VA, Conventional, Jumbo, and HELOC loans with Competitive pricing in Orange County, CA",
+  "name": "Orange County Mortgage Refinance Loans",
+  "description": "HELOC, HELOAN, Cash-Out, and Rate & Term Refinance loans with competitive pricing in Orange County, CA",
   "provider": {
     "@type": "FinancialService",
     "name": "Mo Abdel - Mortgage Broker",
@@ -148,8 +148,8 @@ export const mortgageLoanSchema = {
     },
     {
       "@type": "Offer",
-      "name": "Conventional Loans",
-      "description": "Traditional home financing with down payments as low as 3%",
+      "name": "Conventional Refinance",
+      "description": "Traditional refinance options with flexible terms",
       "url": "/conventional-loans-orange-county"
     },
     {
