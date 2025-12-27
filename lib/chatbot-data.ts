@@ -12,7 +12,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Contact & General Info
   {
     question: "How can I contact Mo?",
-    answer: "You can reach Mo Abdel directly at (949) 579-2057 (call or text anytime). He's available 24/7 and typically responds within 1 business day. You can also use the contact form on the website. Mo is a licensed mortgage broker (NMLS #1426884) with NEXA Mortgage.",
+    answer: "You can reach Mo Abdel directly at (949) 579-2057 (call or text anytime). He's available 24/7 and typically responds within 1 business day. You can also use the contact form on the website. Mo is a licensed mortgage broker (NMLS #1426884) with West Capital Lending.",
     category: "contact",
     keywords: ["contact", "phone", "call", "reach", "number", "text", "email"],
     followUp: ["What are Mo's business hours?", "Can I text instead of call?"]
@@ -228,10 +228,10 @@ export const chatbotResponses: ChatResponse[] = [
   // Quick Answers
   {
     question: "What's your NMLS number?",
-    answer: "My NMLS number is 1426884. I'm a licensed mortgage broker with NEXA Mortgage LLC, the nation's largest mortgage brokerage. You can verify my license at www.nmlsconsumeraccess.org.",
+    answer: "My NMLS number is 1426884. I'm a licensed mortgage broker with West Capital Lending LLC, the nation's largest mortgage brokerage. You can verify my license at www.nmlsconsumeraccess.org.",
     category: "contact",
     keywords: ["nmls", "license", "number", "1426884"],
-    followUp: ["How can I verify your license?", "What is NEXA Mortgage?"]
+    followUp: ["How can I verify your license?", "What is West Capital Lending?"]
   },
   {
     question: "Do you charge fees?",

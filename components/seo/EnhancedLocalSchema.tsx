@@ -61,7 +61,7 @@ export default function EnhancedLocalSchema({
       },
       "memberOf": {
         "@type": "Organization",
-        "name": "NEXA Mortgage LLC",
+        "name": "West Capital Lending LLC",
         "identifier": "Company NMLS #1660690",
         "address": {
           "@type": "PostalAddress",

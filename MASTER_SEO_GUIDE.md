@@ -676,7 +676,7 @@ const zipCodeStrategy = [
 {
   "@context": "https://schema.org",
   "@type": ["FinancialService", "LocalBusiness"],
-  "name": "Mo Abdel - NEXA Mortgage",
+  "name": "Mo Abdel - West Capital Lending",
   "description": "Licensed mortgage broker serving Orange County",
   "url": "https://mothebroker.com",
   "telephone": "(949) 579-2057",

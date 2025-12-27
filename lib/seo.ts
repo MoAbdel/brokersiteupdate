@@ -1,23 +1,23 @@
 export const seoData = {
-  Home: { 
-    title: "Orange County Mortgage Broker | Mo Abdel NMLS #1426884", 
-    description: "Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." 
+  Home: {
+    title: "Orange County Mortgage Broker | Mo Abdel NMLS #1426884",
+    description: "Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884."
   },
-  About: { 
-    title: "About Mo Abdel | NEXA Mortgage Broker", 
-    description: "Meet Mo Abdel – licensed mortgage broker helping clients in CA, WA, VA & CO get Better pricing, faster approvals, and more loan options. Specializing in Orange County home loans with access to 200+ lenders." 
+  About: {
+    title: "About Mo Abdel | West Capital Lending Broker",
+    description: "Meet Mo Abdel – licensed mortgage broker helping clients in CA, WA, VA & CO get Better pricing, faster approvals, and more loan options. Specializing in Orange County home loans with access to 200+ lenders."
   },
-  Programs: { 
-    title: "Loan Programs | FHA, VA, Jumbo & HELOC | Orange County", 
-    description: "Explore FHA, VA, Jumbo, and HELOC options. Mo Abdel finds the right mortgage for your goals with Competitive pricing & flexible terms." 
+  Programs: {
+    title: "Loan Programs | FHA, VA, Jumbo & HELOC | Orange County",
+    description: "Explore FHA, VA, Jumbo, and HELOC options. Mo Abdel finds the right mortgage for your goals with Competitive pricing & flexible terms."
   },
-  Calculator: { 
-    title: "Mortgage Calculator | Orange County Rates & Payments", 
-    description: "Use our free mortgage pricing calculator to estimate your monthly payments, compare loan types, and explore refinancing options." 
+  Calculator: {
+    title: "Mortgage Calculator | Orange County Rates & Payments",
+    description: "Use our free mortgage pricing calculator to estimate your monthly payments, compare loan types, and explore refinancing options."
   },
-  Contact: { 
-    title: "Contact | Orange County Mortgage Broker | Mo Abdel", 
-    description: "Start your mortgage application with Mo Abdel. Serving Orange County & beyond with personalized loan solutions and Competitive pricing." 
+  Contact: {
+    title: "Contact | Orange County Mortgage Broker | Mo Abdel",
+    description: "Start your mortgage application with Mo Abdel. Serving Orange County & beyond with personalized loan solutions and Competitive pricing."
   }
 };
 
@@ -35,8 +35,8 @@ export const structuredData = {
     "identifier": "NMLS #1426884",
     "worksFor": {
       "@type": "Organization",
-      "name": "NEXA Mortgage",
-      "url": "https://www.nexamortgage.com"
+      "name": "West Capital Lending",
+      "url": "https://westcapitallending.com"
     }
   },
   "founder": {
@@ -46,39 +46,39 @@ export const structuredData = {
   },
   "areaServed": [
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Lake Forest, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Irvine, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Newport Beach, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Costa Mesa, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Huntington Beach, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Mission Viejo, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Anaheim, CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Santa Ana, CA"
     },
     {
-      "@type": "AdministrativeArea", 
+      "@type": "AdministrativeArea",
       "name": "Orange County, CA"
     },
     {
@@ -135,7 +135,7 @@ export const mortgageLoanSchema = {
       "url": "/fha-loans-orange-county"
     },
     {
-      "@type": "Offer", 
+      "@type": "Offer",
       "name": "VA Loans",
       "description": "Zero down VA loans for veterans and military families",
       "url": "/va-loans-orange-county"

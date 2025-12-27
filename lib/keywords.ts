@@ -72,7 +72,7 @@ export const LONG_TAIL_KEYWORDS = [
 export const BRAND_KEYWORDS = [
   'Mo Abdel',
   'Mo Abdel mortgage',
-  'NEXA Mortgage Orange County',
+  'West Capital Lending Orange County',
   'NMLS 1426884',
   'mortgage hacker',
   'Better pricing faster closing'

@@ -7,7 +7,7 @@ import { DollarSign, Calendar, Shield, CheckCircle, AlertCircle, TrendingUp } fr
 
 export const metadata: Metadata = {
   title: 'HELOAN (Home Equity Loan) - Orange County | Mo The Mortgage Broker',
-  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
+  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with West Capital Lending. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloan',
   },
@@ -338,7 +338,7 @@ export default function HELOANPage() {
             </a>
           </div>
           <p className="text-sm text-green-200 mt-4">
-            Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -356,7 +356,7 @@ export default function HELOANPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>

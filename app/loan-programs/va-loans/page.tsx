@@ -7,7 +7,7 @@ import { Shield, Star, Users, CheckCircle, AlertCircle, Flag } from 'lucide-reac
 
 export const metadata: Metadata = {
   title: 'VA Loans Orange County | 0% Down Military Benefits | Mo The Mortgage Broker NMLS #1426884',
-  description: 'VA loans in Orange County with 0% down payment for veterans and active military. No PMI, Competitive pricing. Licensed mortgage broker with NEXA Mortgage. Call (949) 579-2057.',
+  description: 'VA loans in Orange County with 0% down payment for veterans and active military. No PMI, Competitive pricing. Licensed mortgage broker with West Capital Lending. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/va-loans',
   },
@@ -463,7 +463,7 @@ export default function VALoansPage() {
             </a>
           </div>
           <p className="text-sm text-red-200 mt-4">
-            Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Proudly serving our veterans and military families
+            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Proudly serving our veterans and military families
           </p>
         </div>
 
@@ -481,7 +481,7 @@ export default function VALoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>

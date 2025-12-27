@@ -314,7 +314,7 @@ export default function LuxuryMarketsPage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker • NEXA Mortgage • NMLS #1426884 • Luxury property specialist
+            Licensed mortgage broker • West Capital Lending • NMLS #1426884 • Luxury property specialist
           </p>
         </div>
       </div>

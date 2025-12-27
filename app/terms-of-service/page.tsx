@@ -57,7 +57,7 @@ export default function TermsOfServicePage() {
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Agreement to Terms</h2>
             <p className="text-slate-700 mb-4">
               These Terms of Service ("Terms") govern your use of the website and services provided by 
-              Mohammad Abdelfattah, NMLS #1426884, operating as a licensed mortgage loan originator with NEXA Mortgage 
+              Mohammad Abdelfattah, NMLS #1426884, operating as a licensed mortgage loan originator with West Capital Lending 
               ("we," "us," or "our"). By accessing our website or using our services, you agree to be bound by these Terms.
             </p>
             <p className="text-slate-700">
@@ -71,7 +71,7 @@ export default function TermsOfServicePage() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Licensing Information</h3>
               <ul className="list-disc pl-6 text-slate-700">
                 <li><strong>Mortgage Loan Originator:</strong> Mohammad Abdelfattah, NMLS #1426884</li>
-                <li><strong>Licensed Company:</strong> NEXA Mortgage</li>
+                <li><strong>Licensed Company:</strong> West Capital Lending</li>
                 <li><strong>Equal Housing Lender</strong></li>
                 <li><strong>License Verification:</strong> <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a></li>
                 <li><strong>Licensed States:</strong> California, Washington, Virginia, Colorado</li>
@@ -277,7 +277,7 @@ export default function TermsOfServicePage() {
                 <div>
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
-                  NEXA Mortgage<br />
+                  West Capital Lending<br />
                   [Physical Address - To be provided]
                 </div>
                 <div className="mt-4">

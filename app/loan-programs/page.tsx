@@ -74,7 +74,7 @@ export default function ProgramsPage() {
             Mortgage <span className="text-blue-600">Loan Programs</span> – FHA, VA, Jumbo & More
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            As a licensed broker with NEXA Mortgage - the nation's largest brokerage -
+            As a licensed broker with West Capital Lending - the nation's largest brokerage -
             I have access to over 200 lenders offering Competitive pricing and flexible programs
             for every Orange County homeowner and buyer.
           </p>
@@ -134,6 +134,10 @@ export default function ProgramsPage() {
                 <div className="flex items-center">
                   <span className="text-blue-600 mr-3 text-xl">✓</span>
                   <span className="text-slate-700"><strong>Interest-only payments</strong> for first 10 years</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="text-blue-600 mr-3 text-xl">✓</span>
+                  <span className="text-slate-700"><strong>Fixed rate options</strong> available*</span>
                 </div>
               </div>
               <div className="flex flex-col gap-3">
@@ -590,7 +594,7 @@ export default function ProgramsPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>

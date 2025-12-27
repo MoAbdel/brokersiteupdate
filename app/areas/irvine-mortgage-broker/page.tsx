@@ -334,7 +334,7 @@ export default function IrvineMortgageBrokerPage() {
                 <div>
                   <div className="text-xl font-bold text-slate-900 mb-2">Competitive pricing for High-Value Homes</div>
                   <p className="text-slate-600">
-                    Access to 200+ lenders through NEXA Mortgage means Competitive pricing 
+                    Access to 200+ lenders through West Capital Lending means Competitive pricing 
                     on Irvine's higher-priced homes and jumbo loan amounts.
                   </p>
                 </div>
@@ -535,7 +535,7 @@ export default function IrvineMortgageBrokerPage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Serving all Irvine neighborhoods
+            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all Irvine neighborhoods
           </p>
         </div>
 

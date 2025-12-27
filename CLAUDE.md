@@ -69,7 +69,7 @@ Successfully implemented a complete, SEO-optimized Next.js mortgage broker websi
 - **Mobile Responsive**: Full mobile optimization across all resource pages
 
 ## Project Specifications
-- **Site Purpose**: Mortgage broker website for Mo Abdel (NEXA Mortgage)
+- **Site Purpose**: Mortgage broker website for Mo Abdel (West Capital Lending)
 - **Design Source**: Base44 design patterns
 - **Technology Stack**: Next.js 14 + TypeScript + Tailwind CSS v3.4.17
 - **Deployment**: Vercel with auto-deployment from GitHub

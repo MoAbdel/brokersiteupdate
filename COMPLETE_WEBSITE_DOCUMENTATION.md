@@ -59,7 +59,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 
 ### Contact Information
 - **Name**: Mo Abdel
-- **Company**: NEXA Mortgage
+- **Company**: West Capital Lending
 - **NMLS**: #1426884
 - **Phone**: (949) 579-2057
 - **Licensed In**: California, Washington, Virginia, Colorado

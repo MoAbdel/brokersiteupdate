@@ -125,7 +125,7 @@ export default function AIOOptimization({
       "telephone": businessContext.phone,
       "worksFor": {
         "@type": "FinancialService",
-        "name": "NEXA Mortgage LLC",
+        "name": "West Capital Lending LLC",
         "areaServed": businessContext.location
       }
     },

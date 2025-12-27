@@ -630,7 +630,7 @@ export default function VALoansOrangeCountyPage() {
               </a>
             </div>
             <p className="text-sm text-blue-200 mt-4">
-              Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Proudly serving Orange County veterans
+              Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Proudly serving Orange County veterans
             </p>
           </div>
         </div>

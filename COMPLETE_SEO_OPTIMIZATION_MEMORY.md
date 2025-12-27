@@ -24,7 +24,7 @@
 - **H1:** "Mortgage Loan Programs – FHA, VA, Jumbo & More"
 
 ### About (/about)
-- **Title:** "About Mo The Broker | NEXA Mortgage Broker in California"
+- **Title:** "About Mo The Broker | West Capital Lending Broker in California"
 - **Meta Description:** "Meet Mo The Broker – licensed mortgage broker helping clients in CA, WA, VA & CO get better rates, faster approvals, and more loan options."
 
 ### Contact (/contact)
@@ -118,7 +118,7 @@
     "jobTitle": "Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
-      "name": "NEXA Mortgage"
+      "name": "West Capital Lending"
     }
   },
   "areaServed": [
@@ -364,7 +364,7 @@
 - **[PROFESSION]:** "Mortgage Broker"
 - **[PHONE]:** "(949) 579-2057"
 - **[NMLS]:** "#1426884"
-- **[COMPANY]:** "NEXA Mortgage"
+- **[COMPANY]:** "West Capital Lending"
 
 ---
 
@@ -373,7 +373,7 @@
 ### Professional Information:
 - **Name:** Mo Abdel (Mo The Broker)
 - **NMLS:** #1426884
-- **Company:** NEXA Mortgage
+- **Company:** West Capital Lending
 - **Title:** Mortgage Broker
 - **Phone:** (949) 579-2057
 - **Email:** mabdelfattah@nexamortgage.com

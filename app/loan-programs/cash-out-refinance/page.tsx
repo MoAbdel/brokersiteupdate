@@ -7,7 +7,7 @@ import { DollarSign, Home, TrendingUp, CheckCircle, AlertCircle, Calculator } fr
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
-  description: 'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through NEXA Mortgage. Call (949) 579-2057.',
+  description: 'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through West Capital Lending. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
   },
@@ -380,7 +380,7 @@ export default function CashOutRefinancePage() {
             </a>
           </div>
           <p className="text-sm text-orange-200 mt-4">
-            Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -398,7 +398,7 @@ export default function CashOutRefinancePage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>

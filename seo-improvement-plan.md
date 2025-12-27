@@ -87,7 +87,7 @@ Target these questions:
 
 ### 10. Authority Building
 - Professional headshot on every page
-- NEXA Mortgage partnership prominently displayed
+- West Capital Lending partnership prominently displayed
 - Industry certifications
 - Professional associations (NAMB, CMBA)
 

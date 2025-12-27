@@ -318,7 +318,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </a>
             </div>
             <p className="text-blue-200 mt-4">
-              Licensed mortgage broker with NEXA Mortgage • NMLS #1426884
+              Licensed mortgage broker with West Capital Lending • NMLS #1426884
             </p>
           </div>
         </div>

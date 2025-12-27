@@ -107,7 +107,7 @@ export default function DSCRInvestmentLoansPage() {
             </a>
           </div>
           <p className="text-blue-100 mt-4">
-            Licensed mortgage broker with NEXA Mortgage • NMLS #1426884 • Investment Specialist
+            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Investment Specialist
           </p>
         </div>
 
@@ -125,7 +125,7 @@ export default function DSCRInvestmentLoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with NEXA Mortgage.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
             </p>
           </div>
         </div>

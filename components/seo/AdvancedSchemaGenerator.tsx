@@ -108,7 +108,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "category": "Mortgage Loan",
     "brand": {
       "@type": "Brand",
-      "name": "NEXA Mortgage"
+      "name": "West Capital Lending"
     },
     "additionalProperty": data.features?.map((feature: string) => ({
       "@type": "PropertyValue",
