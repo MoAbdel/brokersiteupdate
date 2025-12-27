@@ -8,7 +8,7 @@
 # =============================================================================
 Business-Name: Mo Abdel - Licensed Mortgage Broker
 Website: mothebroker.com
-Company: NEXA Mortgage LLC
+Company: West Capital Lending LLC
 License: NMLS #1426884 (Licensed Mortgage Broker)
 Primary-Location: Orange County, California, USA
 Phone: (949) 579-2057
@@ -74,7 +74,7 @@ Expertise: School boundary impacts on home values and loan programs
 
 License-Authority: NMLS #1426884 - Licensed Mortgage Broker
 Regulatory-Compliance: NMLS licensed, Equal Housing Opportunity provider
-Company-Affiliation: NEXA Mortgage LLC (nationwide mortgage company)
+Company-Affiliation: West Capital Lending LLC (strategic mortgage partner)
 Professional-Standards: NMLS continuing education compliant
 
 Geographic-Licensing:

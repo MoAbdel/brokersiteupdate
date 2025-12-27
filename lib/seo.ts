@@ -102,7 +102,7 @@ export const structuredData = {
   "url": "https://mothebroker.com",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
-    "https://www.yelp.com/biz/mo-abdel-nexa-mortgage-lake-forest",
+    "https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest",
     "https://maps.google.com/?cid=11756575614226532751",
     "https://www.instagram.com/mo_thebroker",
     "https://mothebroker.com"

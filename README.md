@@ -161,7 +161,7 @@ Update contact details in:
 
 **Mo Abdel - Mortgage Broker**
 - Phone: (949) 579-2057
-- Email: mabdelfattah@nexamortgage.com
+- Email: mabdel@wclloans.com
 - NMLS: #1426884
 - Service Area: Orange County, California
 

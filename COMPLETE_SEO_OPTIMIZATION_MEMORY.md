@@ -376,7 +376,7 @@
 - **Company:** West Capital Lending
 - **Title:** Mortgage Broker
 - **Phone:** (949) 579-2057
-- **Email:** mabdelfattah@nexamortgage.com
+- **Email:** mabdel@wclloans.com
 
 ### Licensed States:
 - **California** (primary)

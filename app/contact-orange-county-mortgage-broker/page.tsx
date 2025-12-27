@@ -38,13 +38,13 @@ const contactSchema = {
       "addressRegion": "CA"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Newport Beach",
       "addressRegion": "CA"
     },
     {
       "@type": "City",
-      "name": "Mission Viejo", 
+      "name": "Mission Viejo",
       "addressRegion": "CA"
     },
     {
@@ -55,7 +55,7 @@ const contactSchema = {
   ],
   "serviceType": [
     "Mortgage Loans",
-    "Home Refinancing", 
+    "Home Refinancing",
     "FHA Loans",
     "VA Loans",
     "Jumbo Loans",
@@ -76,7 +76,7 @@ const contactSchema = {
         }
       },
       {
-        "@type": "Offer", 
+        "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
           "name": "Refinancing",
@@ -110,7 +110,7 @@ const contactSchema = {
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
     "https://www.instagram.com/mo_thebroker",
-    "https://www.yelp.com/biz/mo-abdel-nexa-mortgage-lake-forest"
+    "https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest"
   ]
 };
 
@@ -122,10 +122,10 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
       />
-      
+
       <div className="min-h-screen py-12 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Breadcrumb Navigation */}
           <nav className="flex mb-8" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -137,7 +137,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               <li>
                 <div className="flex items-center">
                   <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                   </svg>
                   <span className="ml-1 text-sm font-medium text-gray-500">Contact</span>
                 </div>
@@ -153,14 +153,14 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                 Licensed NMLS #1426884
               </Badge>
             </div>
-            
+
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
               Contact Your Orange County Mortgage Broker
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
               Ready to start your mortgage journey? Get your free consultation and loan quote from a licensed broker with access to 200+ lenders. Available 24/7 for your convenience.
             </p>
-            
+
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057" className="inline-flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700">
@@ -203,7 +203,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            
+
             {/* Contact Information */}
             <div>
               <Card className="shadow-xl">
@@ -214,7 +214,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  
+
                   <div className="flex items-start space-x-4 p-4 bg-blue-50 rounded-lg">
                     <div className="bg-blue-600 p-3 rounded-lg">
                       <Phone className="w-6 h-6 text-white" />
@@ -227,7 +227,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                       <p className="text-sm text-slate-600">Available 24/7 - Call anytime</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4 p-4 bg-green-50 rounded-lg">
                     <div className="bg-green-600 p-3 rounded-lg">
                       <Mail className="w-6 h-6 text-white" />
@@ -238,7 +238,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                       <p className="text-sm text-slate-600">Response within 1 business day</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4 p-4 bg-purple-50 rounded-lg">
                     <div className="bg-purple-600 p-3 rounded-lg">
                       <MapPin className="w-6 h-6 text-white" />
@@ -249,7 +249,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                       <p className="text-sm text-slate-600">Based in Lake Forest • Serving all OC cities</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4 p-4 bg-orange-50 rounded-lg">
                     <div className="bg-orange-600 p-3 rounded-lg">
                       <Clock className="w-6 h-6 text-white" />
@@ -304,28 +304,28 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-2 gap-4">
-                    <a href="https://www.facebook.com/profile.php?id=61573517340174" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       className="flex items-center justify-center p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors">
+                    <a href="https://www.facebook.com/profile.php?id=61573517340174"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors">
                       <span className="text-blue-600 font-medium">Facebook</span>
                     </a>
-                    <a href="https://www.yelp.com/biz/mo-abdel-nexa-mortgage-lake-forest" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       className="flex items-center justify-center p-3 bg-red-50 hover:bg-red-100 rounded-lg transition-colors">
+                    <a href="https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center p-3 bg-red-50 hover:bg-red-100 rounded-lg transition-colors">
                       <span className="text-red-600 font-medium">Yelp Reviews</span>
                     </a>
-                    <a href="https://share.google/wFT7ePRJSrCjZ6KAg" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       className="flex items-center justify-center p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors">
+                    <a href="https://share.google/wFT7ePRJSrCjZ6KAg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors">
                       <span className="text-green-600 font-medium">Google</span>
                     </a>
-                    <a href="https://www.instagram.com/mo_thebroker" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       className="flex items-center justify-center p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors">
+                    <a href="https://www.instagram.com/mo_thebroker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors">
                       <span className="text-purple-600 font-medium">Instagram</span>
                     </a>
                   </div>
@@ -369,7 +369,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                   {[
                     'Irvine', 'Newport Beach', 'Mission Viejo', 'Huntington Beach',
-                    'Costa Mesa', 'Orange', 'Anaheim', 'Santa Ana', 
+                    'Costa Mesa', 'Orange', 'Anaheim', 'Santa Ana',
                     'Fullerton', 'Laguna Beach', 'Yorba Linda', 'Tustin',
                     'Aliso Viejo', 'Dana Point', 'Lake Forest', 'Fountain Valley',
                     'Garden Grove', 'Laguna Hills', 'Rancho Santa Margarita', 'Seal Beach',

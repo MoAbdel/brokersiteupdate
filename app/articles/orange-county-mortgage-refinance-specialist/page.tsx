@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Orange County Mortgage Refinance Specialist | Save Thousands',
   description: 'Expert Orange County mortgage refinance specialist helping homeowners reduce payments, access equity, and switch loan programs. Free consultation and Loan Analysis available.',
   openGraph: {
-    title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - NEXA',
+    title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - West Capital Lending',
     description: 'Refinance your Orange County home with an expert specialist. Lower payments, cash-out options, and personalized service.',
     images: ['/images/moabdel-headshot-final.png'],
     url: 'https://www.mothebroker.com/articles/orange-county-mortgage-refinance-specialist',
@@ -22,7 +22,7 @@ export default function RefinanceSpecialistArticle() {
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
-      
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <section className="bg-gradient-to-b from-green-50 to-white py-16">
@@ -35,11 +35,11 @@ export default function RefinanceSpecialistArticle() {
                 <span className="mx-2 text-gray-500">/</span>
                 <span className="text-gray-700">Orange County Mortgage Refinance Specialist</span>
               </nav>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Orange County Mortgage Refinance Specialist: Unlock Your Home's Potential
               </h1>
-              
+
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
@@ -47,7 +47,7 @@ export default function RefinanceSpecialistArticle() {
                 <span>•</span>
                 <span>10 min read</span>
               </div>
-              
+
               <div className="bg-green-100 border-l-4 border-green-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
                   With Orange County home values up significantly over recent years, many homeowners are sitting on substantial equity. Whether you want to lower your monthly payment, switch from an ARM to fixed pricing, or access cash for improvements, working with a dedicated refinance specialist can save you thousands.
@@ -61,7 +61,7 @@ export default function RefinanceSpecialistArticle() {
         <article className="py-12">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto prose prose-lg">
-              
+
               {/* Introduction */}
               <section className="mb-12">
                 <p className="text-xl leading-relaxed text-gray-700">
@@ -72,7 +72,7 @@ export default function RefinanceSpecialistArticle() {
               {/* When Refinancing Makes Sense */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">When Does Refinancing Make Sense in Orange County?</h2>
-                
+
                 <div className="bg-blue-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">Quick Refinance Calculator</h3>
                   <p className="mb-4">Use this simple break-even analysis:</p>
@@ -105,7 +105,7 @@ export default function RefinanceSpecialistArticle() {
                       </li>
                     </ul>
                   </div>
-                  
+
                   <div>
                     <h3 className="text-2xl font-semibold mb-4">Cash-Out Refinance Uses</h3>
                     <ul className="space-y-3">
@@ -133,7 +133,7 @@ export default function RefinanceSpecialistArticle() {
               {/* Types of Refinance */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Orange County Refinance Options Explained</h2>
-                
+
                 <div className="space-y-8">
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">Rate-and-Term Refinance</h3>
@@ -186,7 +186,7 @@ export default function RefinanceSpecialistArticle() {
               {/* Why Choose a Specialist */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose a Refinance Specialist vs. Your Current Lender</h2>
-                
+
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-8 mb-8">
                   <h3 className="text-xl font-semibold text-yellow-900 mb-4">⚠️ Common Refinance Mistake</h3>
                   <p className="text-gray-700">
@@ -206,7 +206,7 @@ export default function RefinanceSpecialistArticle() {
                       <li>• Manages entire process from start to close</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-red-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-red-900 mb-4">Single Lender Limitations</h3>
                     <ul className="space-y-3 text-gray-700">
@@ -224,7 +224,7 @@ export default function RefinanceSpecialistArticle() {
               {/* Refinancing Strategy Analysis */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Smart Refinancing Strategies for Orange County Homeowners</h2>
-                
+
                 <div className="bg-blue-50 rounded-lg p-8">
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
@@ -237,7 +237,7 @@ export default function RefinanceSpecialistArticle() {
                         <li><strong>Common Uses:</strong> Home improvements, investments</li>
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h3 className="text-xl font-semibold mb-4">Rate & Term Benefits</h3>
                       <ul className="space-y-2 text-gray-700">
@@ -249,7 +249,7 @@ export default function RefinanceSpecialistArticle() {
                       </ul>
                     </div>
                   </div>
-                  
+
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Market Analysis & Strategy</h4>
                     <p className="text-gray-700 text-sm">
@@ -262,7 +262,7 @@ export default function RefinanceSpecialistArticle() {
               {/* Process Timeline */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Orange County Refinance Process & Timeline</h2>
-                
+
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">1</div>
@@ -271,7 +271,7 @@ export default function RefinanceSpecialistArticle() {
                       <p className="text-gray-700">Review goals, analyze current mortgage, check credit, and determine optimal strategy.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">2</div>
                     <div>
@@ -279,7 +279,7 @@ export default function RefinanceSpecialistArticle() {
                       <p className="text-gray-700">Lock in your pricing and complete detailed loan application with required documentation.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">3</div>
                     <div>
@@ -287,7 +287,7 @@ export default function RefinanceSpecialistArticle() {
                       <p className="text-gray-700">Submit to underwriting, order appraisal, verify employment and assets.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">4</div>
                     <div>
@@ -295,7 +295,7 @@ export default function RefinanceSpecialistArticle() {
                       <p className="text-gray-700">Appraisal completed, final underwriting conditions cleared, loan approved.</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <div className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">5</div>
                     <div>
@@ -304,7 +304,7 @@ export default function RefinanceSpecialistArticle() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-gray-100 p-6 rounded-lg mt-8">
                   <h3 className="text-lg font-semibold mb-3">Required Documentation Checklist</h3>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -335,7 +335,7 @@ export default function RefinanceSpecialistArticle() {
               {/* FAQs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">How often can I refinance my Orange County home?</h3>
@@ -397,7 +397,7 @@ export default function RefinanceSpecialistArticle() {
           </div>
         </article>
       </main>
-      
+
       <Footer />
     </>
   );
