@@ -31,55 +31,55 @@ module.exports = {
       priority = 1.0;
       changefreq = 'daily';
     }
-    
+
     // Main loan program pages - high priority
     else if (path.startsWith('/loan-programs/')) {
       priority = 0.9;
       changefreq = 'weekly';
     }
-    
+
     // City/area pages - high priority for local SEO
     else if (path.startsWith('/areas/')) {
       priority = 0.9;
       changefreq = 'weekly';
     }
-    
+
     // Guides and resources - high priority content
     else if (path.startsWith('/guides/') || path.startsWith('/resources/')) {
       priority = 0.8;
       changefreq = 'weekly';
     }
-    
+
     // Legal/policy pages - important brand content
     else if (path === '/cookie-policy' || path === '/privacy-policy' || path === '/terms-of-service') {
       priority = 0.6;
       changefreq = 'monthly';
     }
-    
+
     // Tools/calculators - medium-high priority
     else if (path.startsWith('/calculator') || path.startsWith('/tools/')) {
       priority = 0.8;
       changefreq = 'monthly';
     }
-    
+
     // Contact and about pages - important
     else if (path === '/contact' || path === '/about') {
       priority = 0.8;
       changefreq = 'monthly';
     }
-    
+
     // Neighborhood guides and luxury markets
     else if (path.startsWith('/neighborhood-guide/') || path.startsWith('/luxury-markets/')) {
       priority = 0.7;
       changefreq = 'monthly';
     }
-    
+
     // Zip code pages - lower priority
     else if (path.startsWith('/zip-codes/')) {
       priority = 0.6;
       changefreq = 'monthly';
     }
-    
+
     // City-specific loan program pages (e.g., fha-loans-irvine)
     else if (path.includes('-irvine') || path.includes('orange-county')) {
       priority = 0.7;
@@ -89,12 +89,12 @@ module.exports = {
     // Set last modification date for key pages
     let lastmod = undefined;
     const currentDate = new Date().toISOString();
-    
+
     // High-priority pages get current date
     if (priority >= 0.8) {
       lastmod = currentDate;
     }
-    
+
     return {
       loc: path,
       changefreq,
@@ -103,30 +103,38 @@ module.exports = {
       alternateRefs: []
     };
   },
-  
+
   // Additional static paths that might not be automatically discovered
   additionalPaths: async (config) => {
     const additionalPaths = [
       // Home page - ensure it's included
       '/',
-      
+
       // Area pages
       '/areas/irvine',
       '/areas/mission-viejo',
       '/areas/newport-beach',
       '/areas/newport-beach-neighborhoods',
       '/areas/irvine-neighborhoods',
-      
+
       // Main loan program pages (proper /loan-programs/ structure)
       '/loan-programs',
-      
-      // Resources
-      '/resources/mortgage-glossary',
-      
-      // Legal pages
-      '/cookie-policy',
-      
-      // Main loan program redirects
+      '/loan-programs/conventional-loans',
+      '/loan-programs/fha-loans',
+      '/loan-programs/va-refinance',
+      '/loan-programs/jumbo-loans',
+      '/loan-programs/heloc',
+      '/loan-programs/heloan',
+      '/loan-programs/non-qm-loans',
+      '/loan-programs/bank-statement-loans',
+      '/loan-programs/dscr-investment-loans',
+      '/loan-programs/asset-depletion-loans',
+      '/loan-programs/foreign-national-loans',
+      '/loan-programs/usda-rural-loans',
+      '/loan-programs/fix-flip-loans',
+      '/loan-programs/profit-loss-statement-loans',
+
+      // Legacy/SEO landing pages
       '/fha-loans-orange-county',
       '/va-loans-orange-county',
       '/conventional-loans-orange-county',
@@ -134,10 +142,21 @@ module.exports = {
       '/heloan-orange-county',
       '/non-qm-loans-orange-county',
       '/rate-term-refinance-orange-county',
-      
+      '/jumbo-loans-orange-county',
+
+      // Resources
+      '/resources/mortgage-glossary',
+      '/resources/document-checklist',
+      '/resources/service-providers',
+      '/resources/market-data',
+      '/resources/comprehensive-mortgage-faq',
+      '/resources/down-payment-assistance',
+      '/resources/credit-repair',
+
       // Privacy and legal pages
       '/privacy-policy',
-      '/terms-of-service'
+      '/terms-of-service',
+      '/cookie-policy'
     ];
 
     return additionalPaths.map((path) => ({
