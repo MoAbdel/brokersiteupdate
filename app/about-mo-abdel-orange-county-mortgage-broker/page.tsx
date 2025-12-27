@@ -73,10 +73,10 @@ export default function AboutMoAbdelPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      
+
       <div className="min-h-screen py-12 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Breadcrumb Navigation */}
           <nav className="flex mb-8" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -88,7 +88,7 @@ export default function AboutMoAbdelPage() {
               <li>
                 <div className="flex items-center">
                   <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                   </svg>
                   <span className="ml-1 text-sm font-medium text-gray-500">About Mo Abdel</span>
                 </div>
@@ -100,21 +100,21 @@ export default function AboutMoAbdelPage() {
           <div className="text-center mb-16">
             <div className="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-xl">
               <Image
-                src="/images/moabdel-headshot-final.png"
+                src="/images/mo-headshot.jpg"
                 alt="Mo Abdel - Licensed Orange County Mortgage Broker NMLS #1426884"
                 fill
                 className="object-cover scale-110"
                 priority
               />
             </div>
-            
+
             <div className="flex justify-center mb-4">
               <Badge className="bg-blue-100 text-blue-700 px-4 py-2 text-sm font-medium">
                 <Shield className="w-4 h-4 mr-2" />
                 Licensed NMLS #1426884
               </Badge>
             </div>
-            
+
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
               About Mo Abdel
             </h1>
@@ -124,7 +124,7 @@ export default function AboutMoAbdelPage() {
             <p className="text-lg text-blue-600 font-semibold">
               Orange County Mortgage Broker • 200+ Lender Access
             </p>
-            
+
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
               <a href="tel:(949) 537-2357" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
@@ -191,7 +191,7 @@ export default function AboutMoAbdelPage() {
 
           {/* Professional Credentials */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            
+
             {/* Left Column - Licenses & Credentials */}
             <Card className="shadow-xl">
               <CardHeader>
@@ -231,10 +231,10 @@ export default function AboutMoAbdelPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                   <div className="text-sm text-blue-800">
-                    <strong>Verify My License:</strong> Visit 
+                    <strong>Verify My License:</strong> Visit
                     <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="underline ml-1">
                       NMLS Consumer Access
                     </a>

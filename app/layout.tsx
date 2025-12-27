@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel | Mortgage Broker',
     images: [
       {
-        url: '/images/moabdel-headshot-final.png',
+        url: '/images/mo-headshot.jpg',
         width: 1200,
         height: 630,
         alt: 'Orange County Mortgage Broker - Mo Abdel NMLS #1426884',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
     description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     creator: '@mothebroker',
     site: '@mothebroker',
   },
@@ -95,7 +95,7 @@ export default function RootLayout({
         />
 
         {/* CRITICAL: Preload key images for LCP optimization with dimensions for CLS prevention */}
-        <link rel="preload" href="/images/moabdel-headshot-final.png" as="image" type="image/png" media="(min-width: 640px)" />
+        <link rel="preload" href="/images/mo-headshot.jpg" as="image" type="image/jpeg" media="(min-width: 640px)" />
 
         {/* Critical: Image dimension hints to prevent CLS */}
         <style dangerouslySetInnerHTML={{

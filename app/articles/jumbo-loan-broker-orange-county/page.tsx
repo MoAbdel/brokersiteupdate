@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Jumbo Loan Broker Orange County | Mo Abdel - West Capital Lending',
     description: 'Finance your luxury Orange County home with expert jumbo loan guidance. Competitive pricing and flexible terms for high-value properties.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/jumbo-loan-broker-orange-county',
     type: 'article',
   },
@@ -22,7 +22,7 @@ export default function JumboLoanBrokerArticle() {
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
-      
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <section className="bg-gradient-to-b from-purple-50 to-white py-16">
@@ -35,11 +35,11 @@ export default function JumboLoanBrokerArticle() {
                 <span className="mx-2 text-gray-500">/</span>
                 <span className="text-gray-700">Jumbo Loan Broker Orange County</span>
               </nav>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Jumbo Loan Broker Orange County: Your Guide to Luxury Home Financing
               </h1>
-              
+
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
@@ -47,7 +47,7 @@ export default function JumboLoanBrokerArticle() {
                 <span>•</span>
                 <span>11 min read</span>
               </div>
-              
+
               <div className="bg-purple-100 border-l-4 border-purple-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
                   With Orange County's 2026 conforming loan limit at $1,266,300, many luxury properties require jumbo financing. These non-conforming loans demand specialized expertise and lender relationships to secure competitive terms for high-value real estate investments.
@@ -61,7 +61,7 @@ export default function JumboLoanBrokerArticle() {
         <article className="py-12">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto prose prose-lg">
-              
+
               {/* Introduction */}
               <section className="mb-12">
                 <p className="text-xl leading-relaxed text-gray-700">
@@ -72,7 +72,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Understanding Jumbo Loans */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding Orange County Jumbo Loans in 2026</h2>
-                
+
                 <div className="bg-blue-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">2026 Orange County Loan Limits</h3>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -106,7 +106,7 @@ export default function JumboLoanBrokerArticle() {
                       <li>• Cash reserve requirements</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h4 className="font-semibold text-green-900 mb-3">Opportunities</h4>
                     <ul className="space-y-2 text-gray-700">
@@ -124,7 +124,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Qualification Requirements */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Orange County Jumbo Loan Qualification Requirements</h2>
-                
+
                 <div className="space-y-8">
                   <div className="border-l-4 border-purple-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">Credit Score Requirements</h3>
@@ -233,7 +233,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Why Use a Broker */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Use a Jumbo Loan Broker vs. Direct Lenders</h2>
-                
+
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">The Jumbo Loan Advantage</h3>
                   <p className="text-gray-700">
@@ -275,7 +275,7 @@ export default function JumboLoanBrokerArticle() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-6">
                     <h3 className="text-xl font-semibold">Specialized Services</h3>
                     <div className="space-y-4">
@@ -315,7 +315,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Jumbo Loan Strategy Guide */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Strategic Approaches to Orange County Jumbo Financing</h2>
-                
+
                 <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-8">
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
@@ -328,7 +328,7 @@ export default function JumboLoanBrokerArticle() {
                         <li><strong>Advantage:</strong> No tax return complexity</li>
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h3 className="text-xl font-semibold mb-4">Traditional Income Approach</h3>
                       <ul className="space-y-2 text-gray-700">
@@ -340,7 +340,7 @@ export default function JumboLoanBrokerArticle() {
                       </ul>
                     </div>
                   </div>
-                  
+
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Choosing Your Optimal Strategy</h4>
                     <p className="text-gray-700 text-sm">
@@ -353,7 +353,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Orange County Markets */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Orange County Luxury Markets & Jumbo Loan Considerations</h2>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <h3 className="text-lg font-semibold mb-3">Coastal Communities</h3>
@@ -412,7 +412,7 @@ export default function JumboLoanBrokerArticle() {
               {/* Tips to Strengthen Application */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Strategies to Strengthen Your Jumbo Loan Application</h2>
-                
+
                 <div className="space-y-6">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h3 className="text-xl font-semibold text-green-900 mb-4">Before You Apply</h3>
@@ -467,7 +467,7 @@ export default function JumboLoanBrokerArticle() {
               {/* FAQs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Are jumbo loan pricing always higher than conforming pricing?</h3>
@@ -547,7 +547,7 @@ export default function JumboLoanBrokerArticle() {
           </div>
         </article>
       </main>
-      
+
       <Footer />
     </>
   );

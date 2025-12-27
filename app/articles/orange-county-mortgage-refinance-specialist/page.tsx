@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - West Capital Lending',
     description: 'Refinance your Orange County home with an expert specialist. Lower payments, cash-out options, and personalized service.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/orange-county-mortgage-refinance-specialist',
     type: 'article',
   },

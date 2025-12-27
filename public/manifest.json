@@ -46,10 +46,13 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["finance", "business"],
+  "categories": [
+    "finance",
+    "business"
+  ],
   "screenshots": [
     {
-      "src": "/images/moabdel-headshot-final.png",
+      "src": "/images/mo-headshot.jpg",
       "sizes": "800x800",
       "type": "image/png",
       "form_factor": "wide"

@@ -129,7 +129,7 @@ export default function EnhancedLocalSchema({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker | Mo Abdel`,
-    "image": "https://mothebroker.com/images/moabdel-headshot-final.png",
+    "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "telephone": "(949) 537-2357",
     "email": "mo@mothebroker.com",
     "url": city ? `https://mothebroker.com/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : "https://mothebroker.com",
@@ -146,7 +146,7 @@ export default function EnhancedLocalSchema({
     },
     "openingHours": [
       "Mo 08:00-20:00",
-      "Tu 08:00-20:00", 
+      "Tu 08:00-20:00",
       "We 08:00-20:00",
       "Th 08:00-20:00",
       "Fr 08:00-20:00",
@@ -168,7 +168,7 @@ export default function EnhancedLocalSchema({
           }
         },
         {
-          "@type": "Offer", 
+          "@type": "Offer",
           "itemOffered": {
             "@type": "LoanOrCredit",
             "name": "VA Loans",
@@ -178,7 +178,7 @@ export default function EnhancedLocalSchema({
         {
           "@type": "Offer",
           "itemOffered": {
-            "@type": "LoanOrCredit", 
+            "@type": "LoanOrCredit",
             "name": "Conventional Loans",
             "description": "Traditional home financing with Competitive pricing"
           }
@@ -195,7 +195,7 @@ export default function EnhancedLocalSchema({
     },
     "knowsAbout": [
       "Mortgage Lending",
-      "Home Loans", 
+      "Home Loans",
       "Refinancing",
       "FHA Loans",
       "VA Loans",
@@ -254,7 +254,7 @@ export default function EnhancedLocalSchema({
           __html: JSON.stringify(mortgageBrokerSchema, null, 2)
         }}
       />
-      
+
       {/* Local Business Schema */}
       <script
         type="application/ld+json"
@@ -262,7 +262,7 @@ export default function EnhancedLocalSchema({
           __html: JSON.stringify(localBusinessSchema, null, 2)
         }}
       />
-      
+
       {/* Professional License Schema */}
       <script
         type="application/ld+json"
@@ -276,13 +276,13 @@ export default function EnhancedLocalSchema({
       <meta name="geo.placename" content={city ? `${city}, Orange County` : "Orange County"} />
       <meta name="geo.position" content="33.6846;-117.8265" />
       <meta name="ICBM" content="33.6846, -117.8265" />
-      
+
       {/* Local business meta */}
       <meta name="business.hours" content="M-F 8:00-20:00, Sa 9:00-18:00, Su 10:00-16:00" />
       <meta name="business.phone" content="(949) 537-2357" />
       <meta name="business.license" content="NMLS #1426884" />
       <meta name="business.service_area" content={city ? `${city}, Orange County, CA` : "Orange County, CA"} />
-      
+
       {/* Professional certification meta */}
       <meta name="professional.license" content="NMLS #1426884" />
       <meta name="professional.type" content="Mortgage Broker" />

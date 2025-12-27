@@ -17,7 +17,7 @@ interface AdvancedSchemaGeneratorProps {
 }
 
 export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGeneratorProps) {
-  
+
   const generateReviewSchema = (data: any) => ({
     "@context": "https://schema.org",
     "@type": "Review",
@@ -49,7 +49,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "HowTo",
     "name": schemaData.title || schemaData.name || data.title,
     "description": data.description,
-    "image": data.image || "https://mothebroker.com/images/moabdel-headshot-final.png",
+    "image": data.image || "https://mothebroker.com/images/mo-headshot.jpg",
     "totalTime": data.totalTime || "PT30M",
     "estimatedCost": {
       "@type": "MonetaryAmount",
@@ -122,7 +122,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "Article",
     "headline": data.title,
     "description": data.description,
-    "image": data.image || "https://mothebroker.com/images/moabdel-headshot-final.png",
+    "image": data.image || "https://mothebroker.com/images/mo-headshot.jpg",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -231,7 +231,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
       {schemas.map((schema, index) => {
         const generatedSchema = generateSchema(schema);
         if (!generatedSchema) return null;
-        
+
         return (
           <script
             key={index}

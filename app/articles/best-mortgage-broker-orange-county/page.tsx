@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Best Mortgage Broker in Orange County | Mo Abdel - West Capital Lending',
     description: 'Find the best mortgage broker in Orange County. Expert guidance, Competitive pricing, and personalized service for all your home financing needs.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/best-mortgage-broker-orange-county',
     type: 'article',
   },
@@ -48,11 +48,11 @@ export default function BestMortgageBrokerArticle() {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/articles/best-mortgage-broker-orange-county"
             },
-            "image": "https://www.mothebroker.com/images/moabdel-headshot-final.png"
+            "image": "https://www.mothebroker.com/images/mo-headshot.jpg"
           }, null, 2)
         }}
       />
-      
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <section className="bg-gradient-to-b from-blue-50 to-white py-16">
@@ -65,11 +65,11 @@ export default function BestMortgageBrokerArticle() {
                 <span className="mx-2 text-gray-500">/</span>
                 <span className="text-gray-700">Best Mortgage Broker in Orange County</span>
               </nav>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Finding the Best Mortgage Broker in Orange County: Your Path to Homeownership
               </h1>
-              
+
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
@@ -77,7 +77,7 @@ export default function BestMortgageBrokerArticle() {
                 <span>•</span>
                 <span>12 min read</span>
               </div>
-              
+
               <div className="bg-blue-100 border-l-4 border-blue-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
                   With Orange County median home values exceeding $900,000, choosing the right mortgage broker can save you tens of thousands over your loan term. This comprehensive guide reveals what makes a top broker and how to secure the best financing for your dream home.
@@ -101,7 +101,7 @@ export default function BestMortgageBrokerArticle() {
               {/* Why Orange County is Unique */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Orange County's Market Demands Expert Guidance</h2>
-                
+
                 <p className="mb-6 text-gray-700">
                   Our region's appeal brings intense competition and frequently shifting prices. With inventory consistently tight and bidding wars commonplace, navigating mortgage options requires more than generic online calculators can provide.
                 </p>
@@ -136,7 +136,7 @@ export default function BestMortgageBrokerArticle() {
               {/* What Makes the Best Broker */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Essential Qualities of Orange County's Best Mortgage Brokers</h2>
-                
+
                 <div className="space-y-8">
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">1. Deep Local Market Knowledge</h3>
@@ -188,7 +188,7 @@ export default function BestMortgageBrokerArticle() {
               {/* Saving Time and Money */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">How the Right Broker Saves You Time and Money</h2>
-                
+
                 <div className="bg-green-50 border border-green-200 rounded-lg p-8 mb-8">
                   <h3 className="text-2xl font-semibold text-green-900 mb-4">The Power of Expert Rate Negotiation</h3>
                   <p className="text-gray-700 mb-4">
@@ -209,7 +209,7 @@ export default function BestMortgageBrokerArticle() {
                 <p className="text-gray-700 mb-6">
                   A skilled broker's value extends far beyond finding Competitive pricing:
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-lg mb-3">Documentation Management</h4>
@@ -217,21 +217,21 @@ export default function BestMortgageBrokerArticle() {
                       Navigate complex paperwork requirements efficiently, ensuring nothing delays your closing. I provide detailed checklists and guide you through each requirement.
                     </p>
                   </div>
-                  
+
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-lg mb-3">Underwriting Expertise</h4>
                     <p className="text-gray-700">
                       Anticipate and resolve potential issues before they become problems. My experience helps avoid common pitfalls that derail transactions.
                     </p>
                   </div>
-                  
+
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-lg mb-3">Strategic Negotiation</h4>
                     <p className="text-gray-700">
                       Structure offers that win in competitive situations while protecting your interests. I help craft terms that appeal to sellers without compromising your position.
                     </p>
                   </div>
-                  
+
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h4 className="font-semibold text-lg mb-3">Team Coordination</h4>
                     <p className="text-gray-700">
@@ -244,7 +244,7 @@ export default function BestMortgageBrokerArticle() {
               {/* First-Time Buyer Strategies */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Strategic Approach: First-Time Buyer Success in Competitive Markets</h2>
-                
+
                 <div className="bg-blue-50 rounded-lg p-8">
                   <div className="mb-6">
                     <h3 className="text-xl font-semibold mb-3">Common First-Time Buyer Challenges</h3>
@@ -252,7 +252,7 @@ export default function BestMortgageBrokerArticle() {
                       Many first-time buyers believe they can't compete with cash investors in Orange County's competitive market. Online lenders may seem convenient but often lack the personal guidance needed during such an important transaction.
                     </p>
                   </div>
-                  
+
                   <div className="mb-6">
                     <h3 className="text-xl font-semibold mb-3">Winning Strategies</h3>
                     <ul className="space-y-2 text-gray-700">
@@ -263,7 +263,7 @@ export default function BestMortgageBrokerArticle() {
                       <li>• Guide through documentation and timeline requirements</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-4 rounded-lg">
                     <h3 className="text-xl font-semibold mb-3">The Key Advantages</h3>
                     <ul className="space-y-2 text-gray-700">
@@ -279,7 +279,7 @@ export default function BestMortgageBrokerArticle() {
               {/* How to Evaluate Brokers */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Evaluate and Choose Your Mortgage Broker</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-l-4 border-orange-500 pl-6">
                     <h3 className="text-xl font-semibold mb-3">Verify Credentials and Licensing</h3>
@@ -335,7 +335,7 @@ export default function BestMortgageBrokerArticle() {
               {/* Orange County Specific Insights */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Orange County Neighborhood Lending Insights</h2>
-                
+
                 <p className="text-gray-700 mb-6">
                   Each Orange County community presents unique financing considerations. Here's what you need to know about popular areas:
                 </p>
@@ -390,7 +390,7 @@ export default function BestMortgageBrokerArticle() {
               {/* FAQs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Is a mortgage broker better than going directly to a bank?</h3>
@@ -452,7 +452,7 @@ export default function BestMortgageBrokerArticle() {
               <section className="mt-12 p-6 bg-gray-50 rounded-lg">
                 <h3 className="text-xl font-semibold mb-3">About the Author</h3>
                 <div className="flex items-start gap-4">
-                  <img src="/images/moabdel-headshot-final.png" alt="Mo Abdel" className="w-20 h-20 rounded-full object-cover" />
+                  <img src="/images/mo-headshot.jpg" alt="Mo Abdel" className="w-20 h-20 rounded-full object-cover" />
                   <div>
                     <p className="text-gray-700">
                       <strong>Mo Abdel (NMLS #1426884)</strong> is a trusted mortgage broker with West Capital Lending, specializing in Orange County real estate financing including refinance cash-out loans, HELOCs, and HELOANs. Mo combines local market expertise with access to 200+ lenders to secure optimal financing for his clients.
@@ -487,7 +487,7 @@ export default function BestMortgageBrokerArticle() {
           </div>
         </article>
       </main>
-      
+
       <Footer />
     </>
   );

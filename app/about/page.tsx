@@ -56,7 +56,7 @@ export default function AboutPage() {
             <div className="flex justify-center lg:justify-end order-1 lg:order-2">
               <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-slate-700/50">
                 <Image
-                  src="/images/moabdel-headshot-final.png"
+                  src="/images/mo-headshot.jpg"
                   alt="Mo Abdel - Orange County Mortgage Broker"
                   fill
                   className="object-cover"

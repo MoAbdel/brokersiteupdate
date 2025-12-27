@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'VA Loan Mortgage Broker Orange County | Veterans First',
     description: 'Dedicated VA loan expertise for Orange County veterans and military families. Zero down payment options and personalized service.',
-    images: ['/images/moabdel-headshot-final.png'],
+    images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/va-loan-mortgage-broker-orange-county',
     type: 'article',
   },
@@ -22,7 +22,7 @@ export default function VALoanBrokerArticle() {
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
-      
+
       <main className="min-h-screen bg-white">
         {/* Article Header */}
         <section className="bg-gradient-to-b from-blue-50 to-white py-16">
@@ -35,11 +35,11 @@ export default function VALoanBrokerArticle() {
                 <span className="mx-2 text-gray-500">/</span>
                 <span className="text-gray-700">VA Loan Mortgage Broker Orange County</span>
               </nav>
-              
+
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 VA Loan Mortgage Broker Orange County: Honoring Service Through Homeownership
               </h1>
-              
+
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
@@ -47,7 +47,7 @@ export default function VALoanBrokerArticle() {
                 <span>•</span>
                 <span>12 min read</span>
               </div>
-              
+
               <div className="bg-blue-100 border-l-4 border-blue-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
                   Your military service earned you one of the most powerful homebuying benefits available: the VA loan guarantee. For Orange County veterans and active-duty service members, this benefit can overcome the region's high home prices and deliver the American Dream with zero down payment required.
@@ -61,7 +61,7 @@ export default function VALoanBrokerArticle() {
         <article className="py-12">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto prose prose-lg">
-              
+
               {/* Introduction */}
               <section className="mb-12">
                 <p className="text-xl leading-relaxed text-gray-700">
@@ -72,7 +72,7 @@ export default function VALoanBrokerArticle() {
               {/* VA Loan Benefits */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Unmatched VA Loan Benefits for Orange County Service Members</h2>
-                
+
                 <div className="bg-gradient-to-r from-blue-50 to-red-50 p-8 rounded-lg mb-8">
                   <div className="text-center mb-6">
                     <span className="text-6xl">🇺🇸</span>
@@ -114,7 +114,7 @@ export default function VALoanBrokerArticle() {
                       </li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                     <h3 className="text-xl font-semibold text-blue-900 mb-4">Flexible Guidelines</h3>
                     <ul className="space-y-3 text-gray-700">
@@ -154,7 +154,7 @@ export default function VALoanBrokerArticle() {
               {/* Eligibility Requirements */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">VA Loan Eligibility for Orange County Service Members</h2>
-                
+
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-8 mb-8">
                   <h3 className="text-xl font-semibold text-yellow-900 mb-4">🎖️ Who Qualifies for VA Loans?</h3>
                   <p className="text-gray-700">
@@ -235,7 +235,7 @@ export default function VALoanBrokerArticle() {
               {/* OC VA Loan Limits */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">2026 Orange County VA Loan Limits & Purchasing Power</h2>
-                
+
                 <div className="bg-green-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">Orange County VA Loan Limits</h3>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -271,7 +271,7 @@ export default function VALoanBrokerArticle() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <h4 className="font-semibold text-lg mb-3">Scenario 2: Home Above VA Limit</h4>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -295,7 +295,7 @@ export default function VALoanBrokerArticle() {
               {/* Why Use a VA Specialist Broker */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Orange County Veterans Need a VA Loan Specialist</h2>
-                
+
                 <div className="bg-red-50 border border-red-200 rounded-lg p-8 mb-8">
                   <h3 className="text-xl font-semibold text-red-900 mb-4">⚠️ Common VA Loan Misconceptions</h3>
                   <p className="text-gray-700 mb-4">
@@ -333,7 +333,7 @@ export default function VALoanBrokerArticle() {
                       <li>• IRRRL refinancing expertise</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                     <h3 className="font-semibold text-lg text-green-900 mb-4">Orange County Market Knowledge</h3>
                     <ul className="space-y-2 text-gray-700 text-sm">
@@ -351,13 +351,13 @@ export default function VALoanBrokerArticle() {
               {/* VA Loan Benefits Analysis */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Maximizing VA Loan Benefits in Orange County</h2>
-                
+
                 <div className="bg-gradient-to-r from-red-50 to-blue-50 rounded-lg p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <span className="text-4xl">🎖️</span>
                     <h3 className="text-xl font-semibold">Strategic VA Loan Advantages</h3>
                   </div>
-                  
+
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
                       <h4 className="font-semibold text-lg mb-3">Zero Down Payment Benefits</h4>
@@ -369,7 +369,7 @@ export default function VALoanBrokerArticle() {
                         <li><strong>Additional Savings:</strong> No PMI required</li>
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h4 className="font-semibold text-lg mb-3">Funding Fee Scenarios</h4>
                       <ul className="space-y-2 text-gray-700">
@@ -381,7 +381,7 @@ export default function VALoanBrokerArticle() {
                       </ul>
                     </div>
                   </div>
-                  
+
                   <div className="mt-6 p-4 bg-white rounded-lg">
                     <h4 className="font-semibold mb-2">Competitive Advantage Strategy</h4>
                     <p className="text-gray-700 text-sm">
@@ -394,7 +394,7 @@ export default function VALoanBrokerArticle() {
               {/* VA Appraisal Process */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding VA Appraisals in Orange County</h2>
-                
+
                 <p className="text-gray-700 mb-6">
                   VA appraisals serve two purposes: confirm fair market value and ensure the property meets VA's Minimum Property Requirements (MPRs). While some view VA appraisals as stricter, they're actually protective measures ensuring you don't overpay for a substandard property.
                 </p>
@@ -412,7 +412,7 @@ export default function VALoanBrokerArticle() {
                       <li>• Reasonable access to property</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                     <h3 className="font-semibold text-lg text-blue-900 mb-4">Orange County Considerations</h3>
                     <ul className="space-y-2 text-gray-700 text-sm">
@@ -455,7 +455,7 @@ export default function VALoanBrokerArticle() {
               {/* VA Refinancing Options */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">VA Refinancing Options: IRRRL & Cash-Out</h2>
-                
+
                 <div className="space-y-8">
                   <div className="border-l-4 border-blue-600 pl-6">
                     <h3 className="text-2xl font-semibold mb-3">VA Interest Rate Reduction Refinance Loan (IRRRL)</h3>
@@ -498,7 +498,7 @@ export default function VALoanBrokerArticle() {
               {/* FAQs */}
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">VA Loan Frequently Asked Questions</h2>
-                
+
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Can I use my VA loan benefit multiple times?</h3>
@@ -579,7 +579,7 @@ export default function VALoanBrokerArticle() {
           </div>
         </article>
       </main>
-      
+
       <Footer />
     </>
   );
