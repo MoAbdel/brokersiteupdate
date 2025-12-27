@@ -400,7 +400,7 @@ export default function RateTermRefinanceOrangeCounty() {
                 Start Your Refinance
               </Button>
             </Link>
-            <Link href="tel:+19495792057">
+            <Link href="tel:+19495372357">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                 Call (949) 537-2357
               </Button>

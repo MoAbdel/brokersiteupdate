@@ -103,7 +103,7 @@ async function sendSMSNotification(quoteData: any) {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
         body: new URLSearchParams({
-          To: yourPhone || '+19495792057', // Your phone number
+          To: yourPhone || '+19495372357', // Your phone number
           From: twilioPhone || '',
           Body: message,
         }),
