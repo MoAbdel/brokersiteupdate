@@ -61,7 +61,7 @@ export default function EnhancedLocalSchema({
       },
       "memberOf": {
         "@type": "Organization",
-        "name": "West Capital Lending LLC",
+        "name": "West Capital Lending",
         "identifier": "Company NMLS #1660690",
         "address": {
           "@type": "PostalAddress",

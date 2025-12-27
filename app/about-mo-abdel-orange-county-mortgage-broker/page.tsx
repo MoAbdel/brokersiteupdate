@@ -23,7 +23,7 @@ const personSchema = {
   "jobTitle": "Licensed Mortgage Broker",
   "worksFor": {
     "@type": "Organization",
-    "name": "West Capital Lending LLC",
+    "name": "West Capital Lending",
     "identifier": "NMLS #1660690"
   },
   "identifier": "NMLS #1426884",
@@ -219,7 +219,7 @@ export default function AboutMoAbdelPage() {
                   <div className="flex items-start space-x-3">
                     <Shield className="w-5 h-5 text-green-600 mt-1" />
                     <div>
-                      <div className="font-semibold">West Capital Lending LLC</div>
+                      <div className="font-semibold">West Capital Lending</div>
                       <div className="text-sm text-slate-600">NMLS #1660690 - Licensed Brokerage</div>
                     </div>
                   </div>

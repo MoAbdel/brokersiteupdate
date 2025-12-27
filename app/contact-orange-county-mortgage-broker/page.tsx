@@ -410,7 +410,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   </Button>
                 </div>
                 <p className="text-sm text-blue-200 mt-4">
-                  Licensed mortgage broker NMLS #1426884 • West Capital Lending LLC
+                  Licensed mortgage broker NMLS #1426884 • West Capital Lending
                 </p>
               </CardContent>
             </Card>

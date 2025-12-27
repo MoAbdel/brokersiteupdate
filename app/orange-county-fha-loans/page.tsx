@@ -29,7 +29,7 @@ const fhaLoansSchema = {
     "jobTitle": "Licensed Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
-      "name": "West Capital Lending LLC",
+      "name": "West Capital Lending",
       "identifier": "NMLS #1660690"
     }
   },

@@ -228,7 +228,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Quick Answers
   {
     question: "What's your NMLS number?",
-    answer: "My NMLS number is 1426884. I'm a licensed mortgage broker with West Capital Lending LLC, the nation's largest mortgage brokerage. You can verify my license at www.nmlsconsumeraccess.org.",
+    answer: "My NMLS number is 1426884. I'm a licensed mortgage broker with West Capital Lending, the nation's largest mortgage brokerage. You can verify my license at www.nmlsconsumeraccess.org.",
     category: "contact",
     keywords: ["nmls", "license", "number", "1426884"],
     followUp: ["How can I verify your license?", "What is West Capital Lending?"]
