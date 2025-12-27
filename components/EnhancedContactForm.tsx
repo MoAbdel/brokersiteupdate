@@ -688,21 +688,7 @@ export default function EnhancedContactForm() {
                 </>
               )}
 
-              {calculatorResults && (
-                <div className="bg-blue-50 border-2 border-blue-100 rounded-lg p-4">
-                  <h4 className="font-semibold text-slate-900 mb-3 flex items-center">
-                    <Shield className="w-4 h-4 mr-2" />
-                    Recommended Programs
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {calculatorResults.availablePrograms.map(program => (
-                      <Badge key={program} variant="secondary" className="bg-blue-100 text-blue-700 hover:bg-blue-200">
-                        {program}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-              )}
+
             </div>
           )}
 
