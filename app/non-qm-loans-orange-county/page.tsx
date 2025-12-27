@@ -356,7 +356,7 @@ export default function NonQMLoansOrangeCounty() {
             </Link>
             <Link href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </Link>
           </div>

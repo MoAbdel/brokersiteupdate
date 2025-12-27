@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Corona del Mar Newport Beach Mortgage Broker | Luxury Coastal Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Corona del Mar Newport Beach mortgage broker specializing in luxury coastal home financing. Prestigious beachside community loans, Competitive pricing. Call (949) 579-2057.',
+  description: 'Corona del Mar Newport Beach mortgage broker specializing in luxury coastal home financing. Prestigious beachside community loans, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function CoronaDelMarMortgageBrokerPage() {
       {
         stat: "Corona del Mar median home price: $4.2M",
         source: "Newport Beach MLS",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "95% require jumbo or super jumbo loans",
         source: "Orange County Luxury Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Walking distance to Corona del Mar State Beach",
@@ -62,11 +62,11 @@ export default function CoronaDelMarMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Corona del Mar homes?",
-            answer: "Corona del Mar homes range from $2M to over $12M, with beachside and view properties commanding premium prices. The median home price is around $4.2M as of 2025."
+            answer: "Corona del Mar homes range from $2M to over $12M, with beachside and view properties commanding premium prices. The median home price is around $4.2M as of 2026."
           },
           {
             question: "Do Corona del Mar homes require jumbo financing?",
-            answer: "95% of Corona del Mar homes exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo or super jumbo loan financing. Beachside properties typically require super jumbo loans."
+            answer: "95% of Corona del Mar homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo or super jumbo loan financing. Beachside properties typically require super jumbo loans."
           },
           {
             question: "What financing options are best for Corona del Mar?",
@@ -161,7 +161,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Corona del Mar Newport Beach Mortgage Broker 2025</h1>
+          <h1>Corona del Mar Newport Beach Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Corona del Mar Newport Beach mortgage financing, serving this prestigious beachside community with luxury homes ranging from $2M to $12M+. Expert in coastal luxury property financing.</p>
           
           <h2>Corona del Mar Community Features</h2>
@@ -188,7 +188,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -255,7 +255,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-orange-500 to-amber-500 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Corona del Mar Market Data 2025
+                    Corona del Mar Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -385,7 +385,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
                 <Sun className="w-5 h-5 mr-2" />

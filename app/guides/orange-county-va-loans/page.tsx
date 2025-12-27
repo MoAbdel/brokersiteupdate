@@ -72,7 +72,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "San Clemente",
       medianPrice: "$1,200,000",
-      vaLoanLimit: "$1,089,300",
+      vaLoanLimit: "$1,266,300",
       jumpoCoverage: "85%",
       militaryFriendly: true,
       highlights: ["Beach city", "Military discounts", "Family neighborhoods"]
@@ -80,7 +80,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Dana Point",
       medianPrice: "$1,400,000", 
-      vaLoanLimit: "$1,089,300",
+      vaLoanLimit: "$1,266,300",
       jumpoCoverage: "75%",
       militaryFriendly: true,
       highlights: ["Harbor views", "Resort lifestyle", "Top schools"]
@@ -88,7 +88,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Mission Viejo",
       medianPrice: "$950,000",
-      vaLoanLimit: "$1,089,300",
+      vaLoanLimit: "$1,266,300",
       jumpoCoverage: "100%",
       militaryFriendly: true,
       highlights: ["Master planned", "Family oriented", "Great value"]
@@ -96,7 +96,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Huntington Beach",
       medianPrice: "$1,300,000",
-      vaLoanLimit: "$1,089,300", 
+      vaLoanLimit: "$1,266,300", 
       jumpoCoverage: "80%",
       militaryFriendly: true,
       highlights: ["Surf city", "Beach lifestyle", "Military community"]
@@ -104,7 +104,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Costa Mesa",
       medianPrice: "$950,000",
-      vaLoanLimit: "$1,089,300",
+      vaLoanLimit: "$1,266,300",
       jumpoCoverage: "100%",
       militaryFriendly: false,
       highlights: ["Urban living", "Job centers", "Nightlife"]
@@ -200,10 +200,10 @@ export default function OrangeCountyVALoansGuide() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -437,7 +437,7 @@ export default function OrangeCountyVALoansGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              2025 VA Loan Limits for Orange County
+              2026 VA Loan Limits for Orange County
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Understanding loan limits and options for high-cost Orange County market.
@@ -449,8 +449,8 @@ export default function OrangeCountyVALoansGuide() {
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Standard VA Loan</h3>
               <div className="space-y-4">
                 <div>
-                  <span className="text-blue-700 font-medium">2025 Loan Limit:</span>
-                  <div className="text-3xl font-bold text-blue-600">$1,089,300</div>
+                  <span className="text-blue-700 font-medium">2026 Loan Limit:</span>
+                  <div className="text-3xl font-bold text-blue-600">$1,266,300</div>
                 </div>
                 <div>
                   <span className="text-blue-700 font-medium">Down Payment:</span>
@@ -489,7 +489,7 @@ export default function OrangeCountyVALoansGuide() {
           <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <h4 className="text-lg font-semibold text-yellow-800 mb-2">Example: VA Jumbo Loan</h4>
             <p className="text-yellow-700 mb-2">
-              Home Price: $1,400,000 | VA Loan Portion: $1,089,300 | Amount Above Limit: $310,700
+              Home Price: $1,400,000 | VA Loan Portion: $1,266,300 | Amount Above Limit: $310,700
             </p>
             <p className="text-yellow-700">
               <strong>Required Down Payment:</strong> $77,675 (25% of $310,700) + funding fee
@@ -510,10 +510,10 @@ export default function OrangeCountyVALoansGuide() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

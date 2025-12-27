@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/refinance-loans",
   "description": "Expert mortgage refinancing services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -127,7 +127,7 @@ const marketInsights = [
     description: "Current 30-Year Fixed Rates"
   },
   {
-    stat: "$1.2M",
+    stat: "$1.26M",
     description: "Orange County Median Home Value"
   }
 ];
@@ -153,13 +153,13 @@ export default function RefinanceLoansPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check My Refinance Options
                 </a>
               </Button>
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   Free Rate Review
                 </a>
               </Button>
@@ -180,7 +180,7 @@ export default function RefinanceLoansPage() {
               ))}
             </div>
             <p className="text-center text-slate-600 mt-6 text-sm">
-              <em>*Rates as of January 2025. Many Orange County homeowners may benefit from refinancing.</em>
+              <em>*Rates as of January 2026. Many Orange County homeowners may benefit from refinancing.</em>
             </p>
           </section>
 
@@ -420,8 +420,8 @@ export default function RefinanceLoansPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
-                  Call (949) 579-2057
+                <a href="tel:(949) 537-2357">
+                  Call (949) 537-2357
                 </a>
               </Button>
               <Link href="/contact">

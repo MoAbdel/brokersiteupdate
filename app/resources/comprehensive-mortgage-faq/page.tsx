@@ -22,7 +22,7 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "What are current mortgage pricing in Orange County?",
-          answer: "Current pricing vary by loan type and qualification factors. As of January 2025: 30-year fixed conventional around 6.125%, 15-year fixed around 5.50%, FHA loans around 6.125%, VA loans around 5.99%, and jumbo loans around 6.625%. Rates change daily and depend on credit score, down payment, loan amount, and property type. Contact for current personalized loan quotes.",
+          answer: "Current pricing vary by loan type and qualification factors. As of January 2026: 30-year fixed conventional around 6.125%, 15-year fixed around 5.50%, FHA loans around 6.125%, VA loans around 5.99%, and jumbo loans around 6.625%. Rates change daily and depend on credit score, down payment, loan amount, and property type. Contact for current personalized loan quotes.",
           tags: ["rates", "orange county", "current"]
         },
         {
@@ -89,7 +89,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "When do I need a jumbo loan in Orange County?",
-          answer: "Jumbo loans are required for amounts above $1,089,300 (2025 Orange County conforming loan limit). Given Orange County's median home price around $1.2M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Pricing is often competitive with conforming loans.",
+          answer: "Jumbo loans are required for amounts above $1,266,300 (2026 Orange County conforming loan limit). Given Orange County's median home price around $1.26M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Pricing is often competitive with conforming loans.",
           tags: ["jumbo loans", "orange county", "loan limits"]
         },
         {
@@ -115,12 +115,12 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "What makes Orange County's mortgage market unique?",
-          answer: "Orange County is designated a high-cost area with conforming loan limits of $1,089,300 (vs $766,550 in standard areas). High median home prices ($1.2M+) mean many buyers need jumbo financing. Competitive market with multiple offers requires strong pre-approval. Property taxes vary by city. Many communities have HOAs with monthly fees. Beach proximity, school districts, and job centers significantly affect property values and loan considerations.",
+          answer: "Orange County is designated a high-cost area with conforming loan limits of $1,266,300 (vs $766,550 in standard areas). High median home prices ($1.26M+) mean many buyers need jumbo financing. Competitive market with multiple offers requires strong pre-approval. Property taxes vary by city. Many communities have HOAs with monthly fees. Beach proximity, school districts, and job centers significantly affect property values and loan considerations.",
           tags: ["orange county", "market conditions", "high-cost area"]
         },
         {
           question: "How do Orange County property taxes affect my mortgage?",
-          answer: "Orange County property tax percentages vary by city and districts, averaging 0.75-1.25% of assessed value annually. High home values mean significant monthly escrow payments. Example: $1.2M home = $9,000-15,000 annual taxes = $750-1,250 monthly escrow. Property taxes are deductible up to $10,000 annually (SALT cap). New construction may have Mello-Roos special assessments adding $200-500+ monthly.",
+          answer: "Orange County property tax percentages vary by city and districts, averaging 0.75-1.25% of assessed value annually. High home values mean significant monthly escrow payments. Example: $1.26M home = $9,000-15,000 annual taxes = $750-1,250 monthly escrow. Property taxes are deductible up to $10,000 annually (SALT cap). New construction may have Mello-Roos special assessments adding $200-500+ monthly.",
           tags: ["property taxes", "orange county", "escrow"]
         },
         {
@@ -304,7 +304,7 @@ export default function ComprehensiveMortgageFAQ() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Call Direct</span>
-              <span className="text-blue-100">(949) 579-2057</span>
+              <span className="text-blue-100">(949) 537-2357</span>
             </div>
             <div className="flex flex-col items-center">
               <Calculator className="w-8 h-8 mb-2" />

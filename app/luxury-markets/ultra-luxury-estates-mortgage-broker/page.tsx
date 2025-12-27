@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Ultra-Luxury Estates Mortgage Broker | $5M+ Properties | Mo Abdel NMLS #1426884',
-  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 579-2057.',
+  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
   },
@@ -33,17 +33,17 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
       {
         stat: "Orange County ultra-luxury median: $8.5M",
         source: "Ultra-Luxury Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "100% of ultra-luxury estates require portfolio financing",
         source: "Orange County Elite Property Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average ultra-luxury estate size: 8,500 sq ft",
         source: "Luxury Estate Market Study",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -222,7 +222,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Ultra-Luxury Estates Mortgage Broker 2025</h1>
+          <h1>Orange County Ultra-Luxury Estates Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Orange County ultra-luxury estates financing for $5M+ properties, including oceanfront mansions, hilltop compounds, exclusive estates, and luxury compounds. Expert in super jumbo loans, portfolio financing, and private banking solutions.</p>
           
           <h2>Ultra-Luxury Estate Types</h2>
@@ -250,10 +250,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 Exclusive financing for Orange County's most prestigious ultra-luxury estates. From $5M oceanfront mansions to private compounds, expert guidance for the ultimate in luxury living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -434,7 +434,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
                   <CardTitle className="flex items-center">
                     <Star className="w-6 h-6 mr-2" />
-                    Ultra-Luxury Market Data 2025
+                    Ultra-Luxury Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -497,10 +497,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               Get exclusive expertise for Orange County's most prestigious ultra-luxury properties. Discretionary service, private banking solutions, portfolio lending specialists.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

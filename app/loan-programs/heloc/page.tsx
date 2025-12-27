@@ -7,7 +7,7 @@ import { TrendingUp, DollarSign, Calendar, Shield, CheckCircle, AlertCircle } fr
 
 export const metadata: Metadata = {
   title: 'HELOC (Home Equity Line of Credit) - Orange County | Mo The Mortgage Broker',
-  description: 'Get a HELOC in Orange County with rates from Prime + 0%. Access up to $500K from your home equity. Licensed mortgage broker with West Capital Lending. Call (949) 579-2057.',
+  description: 'Get a HELOC in Orange County with rates from Prime + 0%. Access up to $500K from your home equity. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloc',
   },
@@ -36,7 +36,7 @@ export default function HELOCPage() {
                 Get HELOC Rates & Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                 Call for HELOC Info
               </Button>
@@ -323,7 +323,7 @@ export default function HELOCPage() {
                 Get My HELOC Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                 Speak with Mo Today
               </Button>

@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calculator, FileText, Award, Building } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Jumbo Loans Orange County 2025 | High-Balance Mortgage Financing',
+  title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
   description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with Competitive pricing and flexible terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/jumbo-loans-orange-county',
@@ -23,7 +23,7 @@ const jsonLd = {
     "@type": "Person",
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 579-2057",
+    "telephone": "(949) 537-2357",
     "email": "mo@mothebroker.com"
   },
   "areaServed": {
@@ -36,7 +36,7 @@ const jsonLd = {
     "addressRegion": "CA",
     "addressCountry": "US"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/jumbo-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
@@ -62,7 +62,7 @@ export default function JumboLoansOrangeCountyPage() {
               🏰 Luxury Home Financing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Jumbo Loans Orange County 2025 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
+              Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
               Finance luxury homes above $1,209,750 in Orange County with competitive jumbo loans. 
@@ -74,7 +74,7 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call Jumbo Specialist
                 </Button>
@@ -82,14 +82,14 @@ export default function JumboLoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 Jumbo Loan Limits */}
+          {/* 2026 Jumbo Loan Limits */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">2025 Jumbo Loan Limits Orange County</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">2026 Jumbo Loan Limits Orange County</h2>
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
-                  <div className="text-slate-600">2025 Conforming Loan Limit</div>
+                  <div className="text-slate-600">2026 Conforming Loan Limit</div>
                   <div className="text-sm text-slate-500 mt-1">Maximum conventional loan</div>
                 </div>
                 <div className="text-center">
@@ -104,7 +104,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
               </div>
               <div className="bg-purple-50 p-6 rounded-lg">
-                <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2025:</h3>
+                <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Finance luxury homes throughout Orange County without borrowing restrictions</li>
                   <li>• Competitive loan pricing for high-balance mortgages</li>
@@ -203,7 +203,7 @@ export default function JumboLoansOrangeCountyPage() {
 
           {/* Jumbo vs Conventional Comparison */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">Jumbo vs Conventional Loans Orange County 2025</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">Jumbo vs Conventional Loans Orange County 2026</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
                 <thead className="bg-purple-600 text-white">
@@ -216,7 +216,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold">Orange County 2025 Limits</td>
+                    <td className="px-6 py-4 font-semibold">Orange County 2026 Limits</td>
                     <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,209,751 - $3M</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,209,750</td>
                     <td className="px-6 py-4 text-center text-pink-600 font-bold">$3M+</td>
@@ -544,7 +544,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2025. 
+                    Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2026. 
                     This includes most luxury homes in Newport Beach, high-end Irvine properties, 
                     and premium communities throughout OC where home values exceed conforming limits.
                   </p>
@@ -633,9 +633,9 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                  Call Jumbo Expert: (949) 579-2057
+                  Call Jumbo Expert: (949) 537-2357
                 </Button>
               </a>
             </div>

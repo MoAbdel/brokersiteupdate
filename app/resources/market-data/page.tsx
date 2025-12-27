@@ -25,7 +25,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Housing Market Data 2025 | Real Estate Trends & Stats',
+  title: 'Orange County Housing Market Data 2026 | Real Estate Trends & Stats',
   description: 'Current Orange County housing market data, trends, and analysis. Home prices, inventory levels, days on market, and neighborhood statistics for informed home buying.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/market-data',
@@ -161,7 +161,7 @@ export default function MarketDataPage() {
     { month: 'Oct 2024', price: '$1,158,000', sales: 1654 },
     { month: 'Nov 2024', price: '$1,163,000', sales: 1432 },
     { month: 'Dec 2024', price: '$1,167,000', sales: 1298 },
-    { month: 'Jan 2025', price: '$1,175,000', sales: 1847 }
+    { month: 'Jan 2026', price: '$1,175,000', sales: 1847 }
   ];
 
   const marketInsights = [
@@ -224,7 +224,7 @@ export default function MarketDataPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              August 2025 Market Snapshot
+              August 2026 Market Snapshot
             </h2>
             <p className="text-xl text-slate-600">
               Latest data from Orange County real estate market
@@ -444,7 +444,7 @@ export default function MarketDataPage() {
               <div className="text-center">
                 <Target className="w-12 h-12 mx-auto mb-4" />
                 <h2 className="text-2xl font-bold mb-4">
-                  2025 Market Outlook
+                  2026 Market Outlook
                 </h2>
                 <div className="grid md:grid-cols-3 gap-6 text-sm">
                   <div>
@@ -498,9 +498,9 @@ export default function MarketDataPage() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" variant="ghost" className="text-blue-600 border-blue-600 hover:bg-blue-50">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

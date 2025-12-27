@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Waterfront Homes Mortgage Broker | Luxury Coastal Financing | Mo Abdel NMLS #1426884',
-  description: 'Orange County waterfront homes mortgage broker specializing in luxury coastal properties. Bayfront, oceanfront, and harbor homes financing expertise. Call (949) 579-2057.',
+  description: 'Orange County waterfront homes mortgage broker specializing in luxury coastal properties. Bayfront, oceanfront, and harbor homes financing expertise. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/waterfront-homes-mortgage-broker',
   },
@@ -33,17 +33,17 @@ export default function WaterfrontHomesMortgageBrokerPage() {
       {
         stat: "Orange County waterfront median price: $6.5M",
         source: "Luxury Coastal Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "98% of waterfront homes require jumbo financing",
         source: "Orange County Luxury Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average waterfront premium: $2-5M over inland",
         source: "Coastal Property Valuation Study",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -210,7 +210,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Waterfront Homes Mortgage Broker 2025</h1>
+          <h1>Orange County Waterfront Homes Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Orange County waterfront homes financing, including oceanfront estates, bayfront properties, canal homes, and luxury coastal condos. Expert in super jumbo loans, portfolio financing, and luxury coastal real estate markets.</p>
           
           <h2>Waterfront Property Types</h2>
@@ -238,10 +238,10 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                 Exclusive financing for Orange County's most prestigious waterfront properties. From oceanfront estates to bayfront mansions, expert guidance for luxury coastal real estate.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -422,7 +422,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
-                    Waterfront Market Data 2025
+                    Waterfront Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -485,10 +485,10 @@ export default function WaterfrontHomesMortgageBrokerPage() {
               Get specialized expertise for Orange County's most exclusive waterfront properties. Luxury financing solutions for coastal living at its finest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

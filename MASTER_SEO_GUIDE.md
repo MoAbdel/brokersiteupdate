@@ -240,7 +240,7 @@ Primary Hub: /
 │   ├── /orange-county-home-buyer-guide  
 │   ├── /orange-county-school-districts
 │   ├── /orange-county-investment-property
-│   └── /orange-county-market-forecast-2025-2026
+│   └── /orange-county-market-forecast-2026-2026
 └── High-Impact Pages:
     ├── /fha-loans-orange-county
     ├── /va-loans-orange-county
@@ -381,7 +381,7 @@ const generateMetaTags = (page: PageData, config: SEOConfig) => ({
 ```typescript
 // H1 Pattern: [Location] [Service] [Year] 
 const h1Pattern = `${location} ${service} ${currentYear}`;
-// Example: "Orange County Mortgage Broker 2025"
+// Example: "Orange County Mortgage Broker 2026"
 
 // H2 Pattern: Why Choose [Location] [Service] vs [Alternative]?
 const h2Pattern = `Why Choose ${location} ${service} vs ${alternative}?`;
@@ -466,7 +466,7 @@ const irvinePageContent = {
     {
       stat: "Irvine median home price: $1.4M",
       source: "Orange County MLS",
-      year: "2025"
+      year: "2026"
     },
     {
       stat: "68% of loans originated through brokers",
@@ -487,13 +487,13 @@ const irvinePageContent = {
 
 #### Example Guide Structure:
 ```markdown
-# Orange County Home Buyer Guide 2025
+# Orange County Home Buyer Guide 2026
 
 ## Quick Summary (Featured Snippet Target)
-Complete guide to buying homes in Orange County in 2025...
+Complete guide to buying homes in Orange County in 2026...
 
 ## Key Statistics
-- Median home price: $1.2M (Source: CAR, 2025)
+- Median home price: $1.2M (Source: CAR, 2026)
 - Average closing time: 30 days
 - Down payment programs available: 25+
 
@@ -679,7 +679,7 @@ const zipCodeStrategy = [
   "name": "Mo Abdel - West Capital Lending",
   "description": "Licensed mortgage broker serving Orange County",
   "url": "https://mothebroker.com",
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Lake Forest", 

@@ -7,7 +7,7 @@ import { MapPin, Home, Castle, Users, TrendingUp, Building, Heart } from 'lucide
 
 export const metadata: Metadata = {
   title: 'Anaheim Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Anaheim mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. Call (949) 579-2057.',
+  description: 'Anaheim mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
   },
@@ -17,7 +17,7 @@ export default function AnaheimMortgageBrokerPage() {
   const anaheimNeighborhoods = [
     {
       name: 'Anaheim Hills',
-      avgPrice: '$1.2M',
+      avgPrice: '$1.26M',
       description: 'Upscale master-planned community with canyon views and luxury amenities'
     },
     {
@@ -92,9 +92,9 @@ export default function AnaheimMortgageBrokerPage() {
                 Get Anaheim Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -246,11 +246,11 @@ export default function AnaheimMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">FHA Loan Limit:</span>
-                <span className="font-bold">$1,089,300</span>
+                <span className="font-bold">$1,266,300</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Conventional Limit:</span>
-                <span className="font-bold">$1,089,300</span>
+                <span className="font-bold">$1,266,300</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Average HELOC Amount:</span>
@@ -348,9 +348,9 @@ export default function AnaheimMortgageBrokerPage() {
                 Get My Anaheim Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

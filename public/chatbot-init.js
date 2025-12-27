@@ -154,7 +154,7 @@
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Call Mo directly: (949) 579-2057
+          Call Mo directly: (949) 537-2357
         </a>
       </div>
       
@@ -349,22 +349,22 @@
     const msg = message.toLowerCase();
     
     if (msg.includes('rate') || msg.includes('interest')) {
-      return 'Current rates vary by loan type and credit score. Today\\'s rates are approximately: 30-year fixed at 6.53%, 15-year fixed at 5.88%, FHA at 6.09%. With my wholesale lender access, I consistently secure competitive rates. Call me at <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> for your personalized loan quote.';
+      return 'Current rates vary by loan type and credit score. Today\\'s rates are approximately: 30-year fixed at 6.53%, 15-year fixed at 5.88%, FHA at 6.09%. With my wholesale lender access, I consistently secure competitive rates. Call me at <a href="tel:9495792057" style="color: #2563eb;">(949) 537-2357</a> for your personalized loan quote.';
     }
     
     if (msg.includes('contact') || msg.includes('phone') || msg.includes('call')) {
-      return 'You can reach Mo Abdel directly at <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> (call or text anytime). He\\'s available 24/7 and typically responds within 1 business day. Mo is a licensed mortgage broker (NMLS #1426884) with West Capital Lending.';
+      return 'You can reach Mo Abdel directly at <a href="tel:9495792057" style="color: #2563eb;">(949) 537-2357</a> (call or text anytime). He\\'s available 24/7 and typically responds within 1 business day. Mo is a licensed mortgage broker (NMLS #1426884) with West Capital Lending.';
     }
     
     if (msg.includes('first time') || msg.includes('first-time')) {
-      return 'Absolutely! First-time buyers are a specialty. I offer: low down payment options (3-3.5%), first-time buyer programs and grants, gift fund assistance, step-by-step guidance. Many first-time buyers are surprised they qualify. Call Mo at <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> for a free consultation.';
+      return 'Absolutely! First-time buyers are a specialty. I offer: low down payment options (3-3.5%), first-time buyer programs and grants, gift fund assistance, step-by-step guidance. Many first-time buyers are surprised they qualify. Call Mo at <a href="tel:9495792057" style="color: #2563eb;">(949) 537-2357</a> for a free consultation.';
     }
     
     if (msg.includes('program') || msg.includes('loan')) {
-      return 'I offer all major programs: FHA (3.5% down, 580+ credit), VA ($0 down for veterans), Conventional (3-20% down), Jumbo (for loans over $1,089,300), HELOC (access home equity), Non-QM (bank statement/asset-based), and Investment Property loans. Each has unique benefits.';
+      return 'I offer all major programs: FHA (3.5% down, 580+ credit), VA ($0 down for veterans), Conventional (3-20% down), Jumbo (for loans over $1,266,300), HELOC (access home equity), Non-QM (bank statement/asset-based), and Investment Property loans. Each has unique benefits.';
     }
     
-    return 'That\\'s a great question! Mo can provide detailed information about your specific situation. Call or text <a href="tel:9495792057" style="color: #2563eb;">(949) 579-2057</a> for immediate assistance. He\\'s available 24/7!';
+    return 'That\\'s a great question! Mo can provide detailed information about your specific situation. Call or text <a href="tel:9495792057" style="color: #2563eb;">(949) 537-2357</a> for immediate assistance. He\\'s available 24/7!';
   }
   
   // Initialize when DOM is ready

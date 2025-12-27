@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92614 Irvine Mortgage Broker | Spectrum Area ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing. Call (949) 579-2057.',
+  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function ZipCode92614MortgageBrokerPage() {
       {
         stat: "92614 median home price: $1.55M",
         source: "Irvine MLS Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "82% of 92614 homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "ZIP code includes Great Park and Spectrum vicinity",
@@ -66,7 +66,7 @@ export default function ZipCode92614MortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92614 require jumbo loans?",
-            answer: "82% of homes in ZIP code 92614 exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo loan financing. The mix of newer developments and premium locations drives higher values."
+            answer: "82% of homes in ZIP code 92614 exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The mix of newer developments and premium locations drives higher values."
           },
           {
             question: "What makes 92614 attractive for families?",
@@ -81,7 +81,7 @@ export default function ZipCode92614MortgageBrokerPage() {
     {
       name: 'Great Park Neighborhoods',
       description: 'Newer master-planned communities with modern amenities',
-      priceRange: '$1.2M - $2.5M',
+      priceRange: '$1.26M - $2.5M',
       homeTypes: 'New construction homes, family estates'
     },
     {
@@ -148,7 +148,7 @@ export default function ZipCode92614MortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>92614 Irvine Mortgage Broker 2025</h1>
+          <h1>92614 Irvine Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in ZIP code 92614 Irvine mortgage services, covering dynamic areas including Irvine Spectrum vicinity, Great Park neighborhoods, and newer developments with homes ranging from $800K to $2.5M. Expert local market knowledge for this growth area ZIP code.</p>
           
           <h2>92614 ZIP Code Coverage</h2>
@@ -176,10 +176,10 @@ export default function ZipCode92614MortgageBrokerPage() {
                 Dedicated mortgage broker serving ZIP code 92614 in Irvine. Expertise for Great Park area, Irvine Spectrum vicinity, and dynamic newer developments with diverse housing options.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 </a>
                 <a href="/calculator">
@@ -230,7 +230,7 @@ export default function ZipCode92614MortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-green-500 to-teal-500 text-white">
                   <CardTitle className="flex items-center">
                     <Hash className="w-6 h-6 mr-2" />
-                    92614 Market Data 2025
+                    92614 Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -355,10 +355,10 @@ export default function ZipCode92614MortgageBrokerPage() {
               Get specialized financing expertise for ZIP code 92614. Local knowledge, dynamic market insights, Competitive pricing for Irvine's growth areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

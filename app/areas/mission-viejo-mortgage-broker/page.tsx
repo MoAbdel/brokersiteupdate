@@ -7,7 +7,7 @@ import { MapPin, Home, GraduationCap, Shield, TrendingUp, Users, Building, TreeP
 
 export const metadata: Metadata = {
   title: 'Mission Viejo Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Mission Viejo mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Saddleback Valley, Lake Mission Viejo area. Call (949) 579-2057.',
+  description: 'Mission Viejo mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Saddleback Valley, Lake Mission Viejo area. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/mission-viejo-mortgage-broker',
   },
@@ -93,9 +93,9 @@ export default function MissionViejoMortgageBrokerPage() {
                 Get Mission Viejo Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -247,7 +247,7 @@ export default function MissionViejoMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,089,300</span>
+                <span className="font-bold">$1,266,300</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>
@@ -402,9 +402,9 @@ export default function MissionViejoMortgageBrokerPage() {
                 Get My Mission Viejo Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

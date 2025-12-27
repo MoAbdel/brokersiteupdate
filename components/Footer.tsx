@@ -69,7 +69,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.fhfa.gov/homeownerspage"
+                  href="https://www.fhfa.gov/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors duration-200"
@@ -99,7 +99,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.mba.org/consumers"
+                  href="https://www.mba.org/home"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors duration-200"

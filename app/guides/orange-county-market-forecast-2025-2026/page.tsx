@@ -7,8 +7,8 @@ export default function OrangeCountyMarketForecast() {
   const marketPredictions = [
     {
       metric: "Home Prices",
-      current: "$1.2M median",
-      q4_2025: "+3-5%",
+      current: "$1.26M median",
+      q4_2026: "+3-5%",
       q2_2026: "+2-4%",
       full_2026: "+4-7% total",
       confidence: "High",
@@ -17,7 +17,7 @@ export default function OrangeCountyMarketForecast() {
     {
       metric: "Interest pricing",
       current: "6.125-6.625%",
-      q4_2025: "5.75-6.25%",
+      q4_2026: "5.75-6.25%",
       q2_2026: "5.5-6.0%", 
       full_2026: "5.25-5.75%",
       confidence: "Medium",
@@ -26,7 +26,7 @@ export default function OrangeCountyMarketForecast() {
     {
       metric: "Inventory Levels",
       current: "1.2 months",
-      q4_2025: "1.5 months",
+      q4_2026: "1.5 months",
       q2_2026: "2.0 months",
       full_2026: "2.5 months",
       confidence: "Medium",
@@ -35,7 +35,7 @@ export default function OrangeCountyMarketForecast() {
     {
       metric: "Days on Market",
       current: "25 days",
-      q4_2025: "35 days",
+      q4_2026: "35 days",
       q2_2026: "45 days",
       full_2026: "50-60 days",
       confidence: "High", 
@@ -53,9 +53,9 @@ export default function OrangeCountyMarketForecast() {
     },
     {
       scenario: "Move-Up Buyers",
-      bestTiming: "Q4 2025 - Q1 2026", 
+      bestTiming: "Q4 2026 - Q1 2026", 
       reasoning: "Sell high, buy before rates drop further",
-      strategy: ["List home in Q3 2025", "Coordinate buy/sell timing", "Consider bridge financing"],
+      strategy: ["List home in Q3 2026", "Coordinate buy/sell timing", "Consider bridge financing"],
       riskLevel: "Medium"
     },
     {
@@ -178,7 +178,7 @@ export default function OrangeCountyMarketForecast() {
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Real Estate Market Forecast 2025-2026
+              Orange County Real Estate Market Forecast 2026-2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Expert analysis and predictions for Orange County's housing market. Loan pricing forecasts, 
@@ -186,10 +186,10 @@ export default function OrangeCountyMarketForecast() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -208,7 +208,7 @@ export default function OrangeCountyMarketForecast() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Key Market Predictions for 2025-2026
+              Key Market Predictions for 2026-2026
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Comprehensive forecast of Orange County's real estate market based on current trends and economic indicators.
@@ -221,7 +221,7 @@ export default function OrangeCountyMarketForecast() {
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Metric</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Current</th>
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q4 2025</th>
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q4 2026</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Q2 2026</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Full 2026</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Confidence</th>
@@ -237,7 +237,7 @@ export default function OrangeCountyMarketForecast() {
                       </div>
                     </td>
                     <td className="px-6 py-4 font-medium text-slate-700">{prediction.current}</td>
-                    <td className="px-6 py-4 font-medium text-blue-600">{prediction.q4_2025}</td>
+                    <td className="px-6 py-4 font-medium text-blue-600">{prediction.q4_2026}</td>
                     <td className="px-6 py-4 font-medium text-green-600">{prediction.q2_2026}</td>
                     <td className="px-6 py-4 font-bold text-green-700">{prediction.full_2026}</td>
                     <td className="px-6 py-4">
@@ -549,10 +549,10 @@ export default function OrangeCountyMarketForecast() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

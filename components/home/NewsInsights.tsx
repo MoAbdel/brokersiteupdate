@@ -11,7 +11,7 @@ export default function NewsInsights() {
       icon: TrendingUp,
       title: "Best Mortgage Broker in Orange County",
       excerpt: "Discover what makes Mo Abdel the top choice for Orange County homebuyers and refinancers, with expert insights and proven results.",
-      date: "September 25, 2025",
+      date: "September 25, 2026",
       readTime: "4 min read",
       image: "/images/oc-market-update.jpg",
       link: "/articles/best-mortgage-broker-orange-county"
@@ -21,7 +21,7 @@ export default function NewsInsights() {
       icon: Home,
       title: "First-Time Homebuyer Mortgage Guide",
       excerpt: "Complete guide for first-time homebuyers in Orange County, including loan programs, down payment assistance, and expert tips.",
-      date: "September 20, 2025",
+      date: "September 20, 2026",
       readTime: "6 min read",
       image: "/images/rate-impact-analysis.jpg",
       link: "/articles/first-time-homebuyer-mortgage-orange-county"
@@ -31,7 +31,7 @@ export default function NewsInsights() {
       icon: DollarSign,
       title: "Orange County Mortgage Refinance Specialist",
       excerpt: "Learn about refinancing options in Orange County with expert guidance on rates, timing, and maximizing your savings.",
-      date: "September 18, 2025",
+      date: "September 18, 2026",
       readTime: "5 min read",
       image: "/images/competitive-offer-tips.jpg",
       link: "/articles/orange-county-mortgage-refinance-specialist"
@@ -173,7 +173,7 @@ export default function NewsInsights() {
             {showError && (
               <div className="mb-6 p-4 bg-red-100 border border-red-200 rounded-lg text-red-800 max-w-md mx-auto">
                 <p className="text-sm text-center">
-                  Something went wrong. Please try again or call Mo directly at (949) 579-2057.
+                  Something went wrong. Please try again or call Mo directly at (949) 537-2357.
                 </p>
               </div>
             )}

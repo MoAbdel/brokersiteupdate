@@ -7,13 +7,13 @@ import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Home Buyer Guide 2025 | Complete Mortgage Process | Mo Abdel',
+  title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process | Mo Abdel',
   description: 'Complete Orange County home buying guide covering mortgage pre-approval, down payments, neighborhoods, and closing costs. Expert mortgage broker insights for first-time and repeat buyers.',
   openGraph: {
-    title: 'Orange County Home Buyer Guide 2025 | Complete Mortgage Process',
+    title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process',
     description: 'Complete Orange County home buying guide covering mortgage pre-approval, down payments, neighborhoods, and closing costs.',
     type: 'article',
-    publishedTime: '2025-01-10T08:00:00.000Z',
+    publishedTime: '2026-01-10T08:00:00.000Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
@@ -51,21 +51,21 @@ const loanOptions = [
   {
     name: 'Conventional Loans',
     downPayment: '3-20%',
-    maxAmount: '$1,089,300',
+    maxAmount: '$1,266,300',
     description: 'Traditional financing with Competitive pricing and flexible terms',
     link: '/conventional-loans-orange-county'
   },
   {
     name: 'FHA Loans',
     downPayment: '3.5%',
-    maxAmount: '$1,089,300',
+    maxAmount: '$1,266,300',
     description: 'Government-backed loans with lower down payment requirements',
     link: '/fha-loans-orange-county'
   },
   {
     name: 'VA Loans',
     downPayment: '0%',
-    maxAmount: '$1,089,300',
+    maxAmount: '$1,266,300',
     description: 'Zero down payment loans for eligible veterans and military',
     link: '/va-loans-orange-county'
   },
@@ -79,7 +79,7 @@ const loanOptions = [
 ];
 
 const neighborhoods = [
-  { name: 'Irvine', medianPrice: '$1.2M', highlight: 'Top schools, master-planned', link: '/areas/irvine-mortgage-broker' },
+  { name: 'Irvine', medianPrice: '$1.26M', highlight: 'Top schools, master-planned', link: '/areas/irvine-mortgage-broker' },
   { name: 'Newport Beach', medianPrice: '$2.1M', highlight: 'Coastal luxury, beaches', link: '/areas/newport-beach-mortgage-broker' },
   { name: 'Mission Viejo', medianPrice: '$950K', highlight: 'Family-friendly, safe', link: '/areas/mission-viejo-mortgage-broker' },
   { name: 'Costa Mesa', medianPrice: '$800K', highlight: 'Central location, diverse', link: '/areas/costa-mesa-mortgage-broker' },
@@ -135,7 +135,7 @@ const buyingProcess = [
 const faqs = [
   {
     question: 'How much do I need for a down payment in Orange County?',
-    answer: 'Down payment requirements vary by loan type. FHA loans require as little as 3.5%, conventional loans can be as low as 3%, and VA loans offer 0% down for eligible veterans. For jumbo loans (over $1,089,300), expect 10-20% down. Many Orange County buyers put down 10-20% to remain competitive.'
+    answer: 'Down payment requirements vary by loan type. FHA loans require as little as 3.5%, conventional loans can be as low as 3%, and VA loans offer 0% down for eligible veterans. For jumbo loans (over $1,266,300), expect 10-20% down. Many Orange County buyers put down 10-20% to remain competitive.'
   },
   {
     question: 'What are typical closing costs in Orange County?',
@@ -171,7 +171,7 @@ export default function OrangeCountyHomeBuyerGuide() {
               Complete Home Buying Guide
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Orange County Home Buyer Guide 2025
+              Orange County Home Buyer Guide 2026
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
               Your complete guide to buying a home in Orange County. From mortgage pre-approval to closing, 
@@ -480,7 +480,7 @@ export default function OrangeCountyHomeBuyerGuide() {
             </Link>
             <Link href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </Link>
           </div>

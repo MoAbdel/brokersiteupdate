@@ -5,7 +5,7 @@
 ### 1. Update Page Titles & Meta Descriptions
 **Homepage:**
 - Title: "Mo Abdel - #1 Orange County Mortgage Broker | NMLS #1426884 | Competitive Rates"
-- Meta: "Get the lowest mortgage rates in Orange County with Mo Abdel, your trusted mortgage broker. Expert guidance, 500+ loans closed. Call (949) 579-2057"
+- Meta: "Get the lowest mortgage rates in Orange County with Mo Abdel, your trusted mortgage broker. Expert guidance, 500+ loans closed. Call (949) 537-2357"
 
 **About Page:**
 - Title: "About Mo Abdel - Orange County Mortgage Broker | Expert Guidance"
@@ -41,7 +41,7 @@ Each page should have:
 
 ### 5. Start a Blog/Resource Section
 Target these local keywords:
-- "Orange County mortgage rates 2025"
+- "Orange County mortgage rates 2026"
 - "Best mortgage lender Orange County"
 - "Orange County home buying process"
 - "Refinance rates Orange County"

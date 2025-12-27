@@ -8,7 +8,7 @@ import { Home, Shield, Users, CheckCircle, AlertCircle, DollarSign } from 'lucid
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County | 3.5% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with West Capital Lending. Call (949) 579-2057.',
+  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
   },
@@ -38,9 +38,9 @@ export default function FHALoansPage() {
                 Get Pre-Approved for FHA Loan
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -78,9 +78,9 @@ export default function FHALoansPage() {
           </div>
         </div>
 
-        {/* FHA Loan Limits 2025 */}
+        {/* FHA Loan Limits 2026 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 FHA Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 FHA Loan Limits in Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -88,7 +88,7 @@ export default function FHALoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Single Family Home:</span>
-                    <span className="font-bold text-blue-600">$1,089,300</span>
+                    <span className="font-bold text-blue-600">$1,266,300</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">2-Unit Property:</span>
@@ -103,7 +103,7 @@ export default function FHALoansPage() {
                     <span className="font-bold text-blue-600">$2,095,200</span>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*2025 FHA loan limits. Limits are updated annually by HUD.</p>
+                <p className="text-xs text-slate-500 mt-4">*2026 FHA loan limits. Limits are updated annually by HUD.</p>
               </div>
               
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -304,7 +304,7 @@ export default function FHALoansPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,089,300</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,266,300</td>
                   <td className="px-6 py-4 text-center text-green-600 font-bold">$766,550+</td>
                 </tr>
               </tbody>
@@ -325,7 +325,7 @@ export default function FHALoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">High Home Prices, Lower Down Payment</h3>
                     <p className="text-slate-600">
-                      With Orange County median home prices around $1.2M, even 3.5% down saves 
+                      With Orange County median home prices around $1.26M, even 3.5% down saves 
                       tens of thousands compared to conventional loan requirements.
                     </p>
                   </div>
@@ -408,9 +408,9 @@ export default function FHALoansPage() {
                 Start My FHA Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

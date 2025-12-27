@@ -17,7 +17,7 @@ const serviceAreas = [
   {
     city: 'Irvine',
     description: 'Master-planned community with top schools and family-friendly neighborhoods',
-    medianHome: '$1.2M',
+    medianHome: '$1.26M',
     slug: 'irvine-mortgage-broker',
     highlights: ['Great Pacific Elementary', 'Irvine Spectrum', 'UCI proximity', 'Safe neighborhoods']
   },
@@ -39,7 +39,7 @@ const serviceAreas = [
     city: 'Newport Beach',
     description: 'Luxury coastal living with world-class beaches and upscale amenities',
     medianHome: '$2.8M',
-    slug: 'newport-beach-mortgage-broker', 
+    slug: 'newport-beach-mortgage-broker',
     highlights: ['Balboa Island', 'Fashion Island', 'Harbor views', 'Luxury properties']
   },
   {
@@ -83,14 +83,14 @@ export default function NeighborhoodGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Orange County <span className="text-blue-600">Service Areas</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Mo Abdel provides mortgage services throughout Orange County. 
+            Mo Abdel provides mortgage services throughout Orange County.
             Find local market insights, lending programs, and Competitive pricing for your specific area.
           </p>
           <div className="flex items-center justify-center text-slate-700 mb-8">
@@ -106,7 +106,7 @@ export default function NeighborhoodGuidePage() {
               Need Help Choosing Between Neighborhoods?
             </h2>
             <p className="text-slate-600 mb-6 max-w-3xl mx-auto">
-              Check out our detailed neighborhood comparison guides with market analysis, 
+              Check out our detailed neighborhood comparison guides with market analysis,
               home prices, schools, and lifestyle factors to help you make the best decision.
             </p>
             <Link href="/neighborhood-guide">
@@ -135,7 +135,7 @@ export default function NeighborhoodGuidePage() {
                     <span className="font-bold text-green-600">{area.medianHome}</span>
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <h4 className="font-semibold text-slate-900 mb-2">Area Highlights:</h4>
                   <div className="grid grid-cols-2 gap-1 text-sm text-slate-600">
@@ -147,7 +147,7 @@ export default function NeighborhoodGuidePage() {
                     ))}
                   </div>
                 </div>
-                
+
                 <Link href={`/areas/${area.slug}`}>
                   <Button className="w-full bg-blue-600 hover:bg-blue-700">
                     {area.city} Mortgage Info
@@ -198,9 +198,9 @@ export default function NeighborhoodGuidePage() {
                 <p className="text-slate-600 text-sm mb-4">
                   Official Orange County services, permits, and community information
                 </p>
-                <a 
-                  href="https://www.ocgov.com/" 
-                  target="_blank" 
+                <a
+                  href="https://www.ocgov.com/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
@@ -218,9 +218,9 @@ export default function NeighborhoodGuidePage() {
                 <p className="text-slate-600 text-sm mb-4">
                   Zoning information, building permits, and development guidelines
                 </p>
-                <a 
-                  href="https://www.ocgov.com/gov/ceo/occr/planning" 
-                  target="_blank" 
+                <a
+                  href="https://www.ocgov.com/gov/ceo/occr/planning"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
@@ -238,9 +238,9 @@ export default function NeighborhoodGuidePage() {
                 <p className="text-slate-600 text-sm mb-4">
                   Affordable housing programs and assistance for Orange County residents
                 </p>
-                <a 
-                  href="https://www.ochousing.org/" 
-                  target="_blank" 
+                <a
+                  href="https://www.ochousing.org/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
@@ -258,9 +258,9 @@ export default function NeighborhoodGuidePage() {
                 <p className="text-slate-600 text-sm mb-4">
                   Local assistance programs, community services, and family resources
                 </p>
-                <a 
-                  href="https://www.ocgov.com/gov/health/about/admin/cao/cap" 
-                  target="_blank" 
+                <a
+                  href="https://www.ocgov.com/gov/health/about/admin/cao/cap"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
@@ -295,19 +295,20 @@ export default function NeighborhoodGuidePage() {
               <div className="flex items-start">
                 <Phone className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                 <div>
-                  <h3 className="font-bold text-slate-900">Remote Convenience</h3>
-                  <p className="text-slate-600">Complete your mortgage process remotely with digital tools and personal service</p>
+                  <h3 className="font-bold text-slate-900">Digital Convenience</h3>
+                  <p className="text-slate-600">Complete your mortgage process efficiently with digital tools and personal service</p>
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div className="bg-blue-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Serving Orange County Remotely</h3>
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">Local Irvine Expertise</h3>
             <p className="text-slate-700 mb-6">
-              While my brokerage office is located in Mesa, Arizona, I work remotely to serve 
-              Orange County clients with the same personalized attention and Competitive pricing. 
-              Modern technology allows us to complete your entire mortgage process efficiently and securely.
+              My brokerage office is located right here in Irvine, California. I serve
+              Orange County clients with personalized attention and Competitive pricing.
+              Modern technology allows us to complete your entire mortgage process efficiently and securely,
+              while still being local to the community.
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
@@ -320,7 +321,7 @@ export default function NeighborhoodGuidePage() {
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                <span>Local Orange County market knowledge</span>
+                <span>Direct Orange County market knowledge</span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
@@ -344,9 +345,9 @@ export default function NeighborhoodGuidePage() {
                 Get Area-Specific Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

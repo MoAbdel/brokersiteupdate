@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Woodbridge Irvine Mortgage Broker | Lake Community Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, Competitive pricing. Call (949) 579-2057.',
+  description: 'Woodbridge Irvine mortgage broker specializing in lake community homes. Established neighborhood financing, family-friendly loans, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/woodbridge-mortgage-broker',
   },
@@ -20,11 +20,11 @@ export default function WoodbridgeMortgageBrokerPage() {
   
   const woodbridgeData = {
     mainTopic: "Woodbridge Irvine Mortgage Broker Services",
-    quickAnswer: "Mo Abdel provides specialized mortgage services for Woodbridge Irvine, the established lake community known for family-friendly amenities, excellent schools, and homes ranging from $1.2M to $1.8M.",
+    quickAnswer: "Mo Abdel provides specialized mortgage services for Woodbridge Irvine, the established lake community known for family-friendly amenities, excellent schools, and homes ranging from $1.26M to $1.8M.",
     keyFacts: [
       "Licensed mortgage broker NMLS #1426884",
       "Woodbridge lake community specialist",
-      "Average home price: $1.2M - $1.8M",
+      "Average home price: $1.26M - $1.8M",
       "Established 1970s community",
       "Lakes, parks, and recreation focus",
       "Family-oriented neighborhood"
@@ -33,12 +33,12 @@ export default function WoodbridgeMortgageBrokerPage() {
       {
         stat: "Woodbridge median home price: $1.5M",
         source: "Irvine MLS Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "75% of Woodbridge homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "5 man-made lakes in community",
@@ -62,11 +62,11 @@ export default function WoodbridgeMortgageBrokerPage() {
           },
           {
             question: "What is the price range for Woodbridge homes?",
-            answer: "Woodbridge homes typically range from $1.2M to $1.8M, with lakefront properties commanding premium prices. The median home price is around $1.5M as of 2025."
+            answer: "Woodbridge homes typically range from $1.26M to $1.8M, with lakefront properties commanding premium prices. The median home price is around $1.5M as of 2026."
           },
           {
             question: "Do Woodbridge homes require jumbo loans?",
-            answer: "75% of Woodbridge homes exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo loan financing. Lakefront properties almost always need jumbo loans."
+            answer: "75% of Woodbridge homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. Lakefront properties almost always need jumbo loans."
           },
           {
             question: "What loan programs work best for Woodbridge?",
@@ -104,7 +104,7 @@ export default function WoodbridgeMortgageBrokerPage() {
     },
     {
       name: 'Interior Homes',
-      priceRange: '$1.2M - $1.6M',
+      priceRange: '$1.26M - $1.6M',
       description: 'Family homes on tree-lined streets with community amenities',
       sqft: '2,500-3,500 sq ft'
     },
@@ -133,8 +133,8 @@ export default function WoodbridgeMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Woodbridge Irvine Mortgage Broker 2025</h1>
-          <p>Mo Abdel specializes in Woodbridge Irvine mortgage financing, serving this established lake community with homes ranging from $1.2M to $1.8M. Expert in family-oriented financing and established community properties.</p>
+          <h1>Woodbridge Irvine Mortgage Broker 2026</h1>
+          <p>Mo Abdel specializes in Woodbridge Irvine mortgage financing, serving this established lake community with homes ranging from $1.26M to $1.8M. Expert in family-oriented financing and established community properties.</p>
           
           <h2>Woodbridge Community Features</h2>
           <ul>
@@ -160,7 +160,7 @@ export default function WoodbridgeMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -227,7 +227,7 @@ export default function WoodbridgeMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Woodbridge Market Data 2025
+                    Woodbridge Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -238,7 +238,7 @@ export default function WoodbridgeMortgageBrokerPage() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Price Range</span>
-                      <span className="font-semibold">$1.2M - $1.8M</span>
+                      <span className="font-semibold">$1.26M - $1.8M</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Jumbo Loans Required</span>
@@ -318,7 +318,7 @@ export default function WoodbridgeMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 Get Pre-Approved

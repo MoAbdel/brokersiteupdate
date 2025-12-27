@@ -3,10 +3,10 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Garden Grove Mortgage pricing 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  title: 'Garden Grove Mortgage pricing 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
   description: 'Current Garden Grove mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Garden Grove CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Garden Grove Mortgage pricing 2025 | Best Home Loan Rates CA',
+    title: 'Garden Grove Mortgage pricing 2026 | Best Home Loan Rates CA',
     description: 'Current Garden Grove mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Garden Grove CA.',
     type: 'website',
   },

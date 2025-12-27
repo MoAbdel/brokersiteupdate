@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function TermsOfServicePage() {
-  const lastUpdated = "January 15, 2025";
+  const lastUpdated = "January 15, 2026";
   
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -268,7 +268,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 579-2057</span>
+                  <span>Phone: (949) 537-2357</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

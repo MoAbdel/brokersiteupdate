@@ -3,10 +3,10 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Irvine Mortgage pricing 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  title: 'Irvine Mortgage pricing 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
   description: 'Current Irvine mortgage pricing and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Irvine Mortgage pricing 2025 | Best Home Loan Rates CA',
+    title: 'Irvine Mortgage pricing 2026 | Best Home Loan Rates CA',
     description: 'Current Irvine mortgage pricing and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA.',
     type: 'website',
   },

@@ -9,18 +9,18 @@ export default function CalculatorPage() {
   const [activeTab, setActiveTab] = useState('refinance');
 
   const calculators = [
-    { 
-      id: 'refinance', 
+    {
+      id: 'refinance',
       title: 'Refinance Calculator',
       component: <RefinanceCalculator />
     },
-    { 
-      id: 'mortgage', 
+    {
+      id: 'mortgage',
       title: 'Mortgage Calculator',
       component: <MortgageCalculator />
     },
-    { 
-      id: 'affordability', 
+    {
+      id: 'affordability',
       title: 'Affordability Calculator',
       component: <AffordabilityCalculator />
     }
@@ -49,11 +49,10 @@ export default function CalculatorPage() {
                 <button
                   key={calc.id}
                   onClick={() => setActiveTab(calc.id)}
-                  className={`flex-1 px-4 py-4 text-sm font-medium text-center border-b-2 transition-colors duration-200 ${
-                    activeTab === calc.id
+                  className={`flex-1 px-4 py-4 text-sm font-medium text-center border-b-2 transition-colors duration-200 ${activeTab === calc.id
                       ? 'border-blue-600 text-blue-600 bg-blue-50'
                       : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'
-                  }`}
+                    }`}
                 >
                   <span className="block sm:hidden">{calc.title.split(' ')[0]}</span>
                   <span className="hidden sm:block">{calc.title}</span>
@@ -72,7 +71,7 @@ export default function CalculatorPage() {
         <div className="mt-12 mb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">Advanced Calculator Suite</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a 
+            <a
               href="/calculator/affordability"
               className="bg-white rounded-lg shadow-lg border border-slate-200 p-6 hover:shadow-xl transition-shadow duration-200 group"
             >
@@ -87,7 +86,7 @@ export default function CalculatorPage() {
               </div>
             </a>
 
-            <a 
+            <a
               href="/calculator/debt-to-income"
               className="bg-white rounded-lg shadow-lg border border-slate-200 p-6 hover:shadow-xl transition-shadow duration-200 group"
             >
@@ -102,7 +101,7 @@ export default function CalculatorPage() {
               </div>
             </a>
 
-            <a 
+            <a
               href="/calculator/closing-costs"
               className="bg-white rounded-lg shadow-lg border border-slate-200 p-6 hover:shadow-xl transition-shadow duration-200 group"
             >
@@ -126,17 +125,17 @@ export default function CalculatorPage() {
             These calculators give you estimates. I can get you actual rates that are often better than what you see online.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/contact" 
+            <a
+              href="/contact"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               Get My Actual Rate
             </a>
-            <a 
-              href="tel:(949) 579-2057" 
+            <a
+              href="tel:(949) 537-2357"
               className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
-              Call (949) 579-2057
+              Call (949) 537-2357
             </a>
           </div>
         </div>

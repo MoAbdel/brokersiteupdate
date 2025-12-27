@@ -13,7 +13,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - ✅ Newsletter and quote collection with Supabase
 - ✅ Admin dashboard for data management
 - ✅ SEO optimization with local keywords
-- ✅ 2025 loan limits and accurate data
+- ✅ 2026 loan limits and accurate data
 
 ### Loan Program Pages (All Complete)
 1. **HELOC** - Up to 00K line of credit
@@ -26,7 +26,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 8. **Jumbo Loans** - For homes over ,089,300
 9. **Non-QM Loans** - Alternative documentation
 
-### 2025 Loan Limits for Orange County
+### 2026 Loan Limits for Orange County
 - Conforming Limit: **,089,300**
 - FHA Single Family: **,089,300**
 - FHA 2-Unit: **,394,775**
@@ -49,7 +49,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - Loan Programs (dropdown with all 10 programs)
 - About
 - Contact
-- Phone: (949) 579-2057
+- Phone: (949) 537-2357
 - Get Quote button
 
 ### Database Tables
@@ -61,7 +61,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - **Name**: Mo Abdel
 - **Company**: West Capital Lending
 - **NMLS**: #1426884
-- **Phone**: (949) 579-2057
+- **Phone**: (949) 537-2357
 - **Licensed In**: California, Washington, Virginia, Colorado
 - **Service Area**: Orange County, California
 
@@ -89,7 +89,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 1. **NEVER upgrade to Tailwind v4** - breaks Vercel deployment
 2. **Keep RLS disabled** on Supabase tables for forms to work
 3. **Environment variables** use NEXT_PUBLIC_SUPABASE_AK (not ANON_KEY)
-4. **All loan limits** updated to 2025 data
+4. **All loan limits** updated to 2026 data
 5. **FHA credit score** minimum is 500+ (not 580+)
 6. **HELOC maximum** is 00K (not M)
 

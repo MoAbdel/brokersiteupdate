@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Home, DollarSign, GraduationCap, Shield, Car, MapPin, TrendingUp, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Mission Viejo vs Irvine Home Buying Guide 2025 | Best Family Neighborhoods Orange County',
+  title: 'Mission Viejo vs Irvine Home Buying Guide 2026 | Best Family Neighborhoods Orange County',
   description: 'Complete comparison of buying homes in Mission Viejo vs Irvine. Both top family communities - compare home prices, schools, amenities, and mortgage options.',
   openGraph: {
-    title: 'Mission Viejo vs Irvine Home Buying Guide 2025 | Best Family Neighborhoods Orange County',
+    title: 'Mission Viejo vs Irvine Home Buying Guide 2026 | Best Family Neighborhoods Orange County',
     description: 'Complete comparison of buying homes in Mission Viejo vs Irvine. Both top family communities - compare home prices, schools, amenities, and mortgage options.',
     type: 'article',
-    publishedTime: '2025-02-28T14:30:00Z',
+    publishedTime: '2026-02-28T14:30:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide',
@@ -31,7 +31,7 @@ export default function MissionViejoVsIrvineGuide() {
             Mission Viejo vs Irvine Mortgage Broker: Home Loans for Family Communities
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published February 28, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published February 28, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Choosing between Orange County's two premier family-oriented master-planned communities? 
@@ -44,9 +44,9 @@ export default function MissionViejoVsIrvineGuide() {
                 Get Pre-Approved Today
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -296,9 +296,9 @@ export default function MissionViejoVsIrvineGuide() {
                 Start My Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Home, DollarSign, GraduationCap, Shield, Car, MapPin, TrendingUp, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Irvine vs Newport Beach Home Buying Guide 2025 | Best Neighborhoods Orange County',
+  title: 'Irvine vs Newport Beach Home Buying Guide 2026 | Best Neighborhoods Orange County',
   description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage pricing, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
   openGraph: {
-    title: 'Irvine vs Newport Beach Home Buying Guide 2025 | Best Neighborhoods Orange County',
+    title: 'Irvine vs Newport Beach Home Buying Guide 2026 | Best Neighborhoods Orange County',
     description: 'Complete comparison of buying homes in Irvine vs Newport Beach. Mortgage pricing, home prices, schools, lifestyle, and market trends. Expert Orange County mortgage broker insights.',
     type: 'article',
-    publishedTime: '2025-03-15T10:00:00Z',
+    publishedTime: '2026-03-15T10:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
@@ -28,10 +28,10 @@ export default function IrvineVsNewportBeachGuide() {
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Local Market Expert Guide</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Irvine vs Newport Beach Mortgage Broker Guide: Home Loans and Market Comparison 2025
+            Irvine vs Newport Beach Mortgage Broker Guide: Home Loans and Market Comparison 2026
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published March 15, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published March 15, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Thinking about buying a home in Orange County? Get expert insights comparing Irvine's family-friendly master planning vs Newport Beach's coastal luxury lifestyle. Complete mortgage guide included. See our specialized <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine mortgage broker services</Link> and <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach home loans</Link>.
@@ -42,9 +42,9 @@ export default function IrvineVsNewportBeachGuide() {
                 Get Pre-Approved Today
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -224,7 +224,7 @@ export default function IrvineVsNewportBeachGuide() {
                 </div>
                 <div className="border-l-4 border-green-600 pl-4">
                   <h4 className="font-semibold">Woodbridge</h4>
-                  <p className="text-sm text-slate-600">Lakes, parks, mature community. $1.2M-$2M</p>
+                  <p className="text-sm text-slate-600">Lakes, parks, mature community. $1.26M-$2M</p>
                 </div>
                 <div className="border-l-4 border-green-600 pl-4">
                   <h4 className="font-semibold">Northwood</h4>
@@ -263,7 +263,7 @@ export default function IrvineVsNewportBeachGuide() {
 
         {/* Market Trends */}
         <div className="bg-slate-100 rounded-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Market Trends & Predictions</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Market Trends & Predictions</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -299,9 +299,9 @@ export default function IrvineVsNewportBeachGuide() {
                 Start My Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

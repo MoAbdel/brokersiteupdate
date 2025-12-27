@@ -21,7 +21,7 @@ const metadataUpdates = [
   {
     file: './app/loan-programs/jumbo-loans/page.tsx',
     title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
-    description: 'Jumbo loans for Orange County luxury homes above $1,089,300. Competitive rates for high-value properties. NMLS #1426884.',
+    description: 'Jumbo loans for Orange County luxury homes above $1,266,300. Competitive rates for high-value properties. NMLS #1426884.',
     canonical: '/loan-programs/jumbo-loans'
   },
   // HELOC

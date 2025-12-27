@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Home, DollarSign, GraduationCap, Shield, Car, MapPin, TrendingUp, Users, Palette } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Newport Beach vs Laguna Beach Home Buying Guide 2025 | Luxury Coastal Living Orange County',
+  title: 'Newport Beach vs Laguna Beach Home Buying Guide 2026 | Luxury Coastal Living Orange County',
   description: 'Complete comparison of luxury coastal communities: Newport Beach vs Laguna Beach. Compare home prices, lifestyle, amenities, and mortgage options for OC beach living.',
   openGraph: {
-    title: 'Newport Beach vs Laguna Beach Home Buying Guide 2025 | Luxury Coastal Living Orange County',
+    title: 'Newport Beach vs Laguna Beach Home Buying Guide 2026 | Luxury Coastal Living Orange County',
     description: 'Complete comparison of luxury coastal communities: Newport Beach vs Laguna Beach. Compare home prices, lifestyle, amenities, and mortgage options for OC beach living.',
     type: 'article',
-    publishedTime: '2025-01-22T11:45:00Z',
+    publishedTime: '2026-01-22T11:45:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide',
@@ -31,7 +31,7 @@ export default function NewportBeachVsLagunaBeachGuide() {
             Newport Beach vs Laguna Beach Mortgage Specialist: Luxury Coastal Home Loans
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published January 22, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published January 22, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Choosing between Orange County's two most prestigious coastal communities? 
@@ -44,9 +44,9 @@ export default function NewportBeachVsLagunaBeachGuide() {
                 Get Luxury Home Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -326,9 +326,9 @@ export default function NewportBeachVsLagunaBeachGuide() {
                 Start My Luxury Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

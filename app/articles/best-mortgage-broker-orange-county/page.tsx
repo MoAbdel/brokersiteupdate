@@ -34,8 +34,8 @@ export default function BestMortgageBrokerArticle() {
               "name": "Mo Abdel",
               "url": "https://www.mothebroker.com/about"
             },
-            "datePublished": "2025-01-09",
-            "dateModified": "2025-01-09",
+            "datePublished": "2026-01-09",
+            "dateModified": "2026-01-09",
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - West Capital Lending",
@@ -73,7 +73,7 @@ export default function BestMortgageBrokerArticle() {
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
-                <span>January 9, 2025</span>
+                <span>January 9, 2026</span>
                 <span>•</span>
                 <span>12 min read</span>
               </div>
@@ -111,7 +111,7 @@ export default function BestMortgageBrokerArticle() {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-3">▸</span>
-                      <span><strong>Median Home Value:</strong> $1,089,300 (2025 conforming loan limit)</span>
+                      <span><strong>Median Home Value:</strong> $1,266,300 (2026 conforming loan limit)</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-3">▸</span>
@@ -444,7 +444,7 @@ export default function BestMortgageBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Or call directly: <a href="tel:949-579-2057" className="underline font-semibold">(949) 579-2057</a>
+                  Or call directly: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
                 </p>
               </section>
 

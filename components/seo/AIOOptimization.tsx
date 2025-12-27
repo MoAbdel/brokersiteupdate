@@ -37,7 +37,7 @@ export default function AIOOptimization({
     service: "Mortgage Broker",
     location: "Orange County, CA",
     credentials: "NMLS #1426884",
-    phone: "(949) 579-2057"
+    phone: "(949) 537-2357"
   },
   content
 }: AIOOptimizationProps) {
@@ -83,7 +83,7 @@ export default function AIOOptimization({
       {
         stat: "Average savings through mortgage brokers: $10,000+ per loan",
         source: "Polygon Research Study",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Mortgage brokers handle 68% of all home loans",
@@ -93,7 +93,7 @@ export default function AIOOptimization({
       {
         stat: "Orange County median home price: $1.2M",
         source: "California Association of Realtors",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average mortgage closing time with broker: 18 days",
@@ -116,7 +116,7 @@ export default function AIOOptimization({
     "description": description,
     "url": canonicalUrl,
     "dateModified": new Date().toISOString(),
-    "datePublished": "2025-01-01",
+    "datePublished": "2026-01-01",
     "author": {
       "@type": "Person",
       "name": businessContext.name,
@@ -167,7 +167,7 @@ export default function AIOOptimization({
         {/* AI-Optimized Meta Tags */}
         <meta name="ai-content-type" content="financial-service-information" />
         <meta name="ai-expertise-level" content="professional" />
-        <meta name="ai-content-freshness" content="2025" />
+        <meta name="ai-content-freshness" content="2026" />
         <meta name="ai-geographic-focus" content={city || "Orange County, CA"} />
         <meta name="ai-industry" content="mortgage-lending" />
         <meta name="ai-professional-license" content={businessContext.credentials} />
@@ -219,7 +219,7 @@ export default function AIOOptimization({
 
         {/* Statistics Section for AI */}
         <div data-ai-section="statistics">
-          <h3>Mortgage Industry Statistics 2025</h3>
+          <h3>Mortgage Industry Statistics 2026</h3>
           {statistics.map((stat, index) => (
             <div key={index} data-statistic={index} data-citable="statistic" data-authority="industry">
               <span data-stat-value data-factual="research">{stat.stat}</span>
@@ -261,7 +261,7 @@ export default function AIOOptimization({
 
         {/* Current Year Signals */}
         <div data-ai-section="currency">
-          <span data-current-year>2025</span>
+          <span data-current-year>2026</span>
           <span data-content-updated>{new Date().toISOString().split('T')[0]}</span>
           <span data-market-current>Current Orange County mortgage market</span>
         </div>

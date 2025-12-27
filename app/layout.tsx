@@ -130,7 +130,7 @@ export default function RootLayout({
         <meta name="twitter:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
         
         <AdvancedSchemaMarkup type="Organization" />
-        <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
+        <meta name="deployment-id" content="favicon-removed-final-dec16-2026" />
       </head>
       <body className="min-h-screen">
         <Header />

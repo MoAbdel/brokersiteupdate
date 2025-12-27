@@ -7,7 +7,7 @@ import { Crown, TrendingUp, Shield, CheckCircle, AlertCircle, DollarSign } from 
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County | $1,209,750+ Mortgages | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with West Capital Lending. Call (949) 579-2057.',
+  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
   },
@@ -37,9 +37,9 @@ export default function JumboLoansPage() {
                 Get Jumbo Loan Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -79,7 +79,7 @@ export default function JumboLoansPage() {
 
         {/* Jumbo Loan Thresholds */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Jumbo Loan Thresholds</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Jumbo Loan Thresholds</h2>
           <div className="bg-purple-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -87,7 +87,7 @@ export default function JumboLoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Conforming Limit:</span>
-                    <span className="font-bold text-slate-600">$1,089,300</span>
+                    <span className="font-bold text-slate-600">$1,266,300</span>
                   </div>
                   <div className="flex justify-between border-t pt-2">
                     <span className="text-slate-600">Jumbo Threshold:</span>
@@ -299,7 +299,7 @@ export default function JumboLoansPage() {
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Amount Limit</td>
                   <td className="px-6 py-4 text-center text-purple-600 font-bold">No Limit</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,089,300 max</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,266,300 max</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Down Payment</td>
@@ -349,7 +349,7 @@ export default function JumboLoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">High Home Values Drive Jumbo Need</h3>
                     <p className="text-slate-600">
-                      With median Orange County home prices around $1.2M, jumbo financing 
+                      With median Orange County home prices around $1.26M, jumbo financing 
                       is essential for most luxury communities and coastal areas.
                     </p>
                   </div>
@@ -392,7 +392,7 @@ export default function JumboLoansPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Average Jumbo Amount:</span>
-                  <span className="font-bold">$1.2M</span>
+                  <span className="font-bold">$1.26M</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Typical Down Payment:</span>
@@ -480,9 +480,9 @@ export default function JumboLoansPage() {
                 Get My Jumbo Loan Quote
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

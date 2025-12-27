@@ -9,7 +9,7 @@ import EnhancedContactForm from '@/components/EnhancedContactForm';
 
 export const metadata: Metadata = {
   title: 'Orange County Jumbo Loans | Luxury Home Financing | Mo Abdel NMLS #1426884',
-  description: 'Orange County jumbo loans for luxury homes over $1,089,300. Licensed broker Mo Abdel (NMLS #1426884) offers competitive jumbo rates in Newport Beach, Irvine, and all OC.',
+  description: 'Orange County jumbo loans for luxury homes over $1,266,300. Licensed broker Mo Abdel (NMLS #1426884) offers competitive jumbo rates in Newport Beach, Irvine, and all OC.',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-jumbo-loans',
   },
@@ -20,12 +20,12 @@ const jumboLoansSchema = {
   "@context": "https://schema.org",
   "@type": ["FinancialProduct", "LoanOrCredit"],
   "name": "Orange County Jumbo Loans",
-  "description": "Jumbo mortgage loans in Orange County for luxury homes exceeding $1,089,300. Competitive pricing for high-value properties in Newport Beach, Irvine, and throughout OC.",
+  "description": "Jumbo mortgage loans in Orange County for luxury homes exceeding $1,266,300. Competitive pricing for high-value properties in Newport Beach, Irvine, and throughout OC.",
   "provider": {
     "@type": "Person",
     "name": "Mo Abdel",
     "identifier": "NMLS #1426884",
-    "telephone": "(949) 579-2057",
+    "telephone": "(949) 537-2357",
     "jobTitle": "Licensed Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
@@ -138,7 +138,7 @@ export default function OrangeCountyJumboLoansPage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-slate-600">
               <div className="flex items-center">
                 <DollarSign className="w-4 h-4 mr-1 text-green-600" />
-                Loans Above $1,089,300
+                Loans Above $1,266,300
               </div>
               <div className="flex items-center">
                 <Crown className="w-4 h-4 mr-1 text-purple-600" />
@@ -159,10 +159,10 @@ export default function OrangeCountyJumboLoansPage() {
                 <p className="text-purple-100">Luxury home financing specialist serving Orange County</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button className="bg-white text-purple-600 hover:bg-purple-50">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 579-2057
+                    (949) 537-2357
                   </Button>
                 </a>
                 <Link href="/contact-orange-county-mortgage-broker">
@@ -194,7 +194,7 @@ export default function OrangeCountyJumboLoansPage() {
                       <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Higher Loan Amounts</h4>
-                        <p className="text-sm text-slate-600">Finance luxury homes above $1,089,300</p>
+                        <p className="text-sm text-slate-600">Finance luxury homes above $1,266,300</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -240,14 +240,14 @@ export default function OrangeCountyJumboLoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl">
-                    2025 Orange County Jumbo Loan Market
+                    2026 Orange County Jumbo Loan Market
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="bg-purple-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-purple-700 mb-2">$1,089,300+</h3>
-                      <p className="text-purple-600">Jumbo Loan Threshold in Orange County (2025)</p>
+                      <h3 className="text-2xl font-bold text-purple-700 mb-2">$1,266,300+</h3>
+                      <p className="text-purple-600">Jumbo Loan Threshold in Orange County (2026)</p>
                       <p className="text-sm text-slate-600 mt-2">Loans above this amount require jumbo financing</p>
                     </div>
                   </div>
@@ -300,7 +300,7 @@ export default function OrangeCountyJumboLoansPage() {
                   </div>
                   <div className="text-center bg-slate-50 p-4 rounded-lg">
                     <p className="text-slate-600">
-                      <strong>Median Home Prices in Premium OC Areas:</strong> $1.2M - $3.5M+
+                      <strong>Median Home Prices in Premium OC Areas:</strong> $1.26M - $3.5M+
                     </p>
                   </div>
                 </CardContent>

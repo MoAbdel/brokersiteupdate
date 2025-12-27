@@ -27,7 +27,7 @@ const personSchema = {
     "identifier": "NMLS #1660690"
   },
   "identifier": "NMLS #1426884",
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Lake Forest",
@@ -127,9 +127,9 @@ export default function AboutMoAbdelPage() {
             
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-              <a href="tel:(949) 579-2057" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
+              <a href="tel:(949) 537-2357" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 579-2057
+                (949) 537-2357
               </a>
               <div className="inline-flex items-center text-slate-600">
                 <MapPin className="w-5 h-5 mr-2" />
@@ -174,7 +174,7 @@ export default function AboutMoAbdelPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-slate-700">
                 <p className="mb-4">
-                  As a licensed mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <strong>According to 2025 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</strong> With access to over 200 lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
+                  As a licensed mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <strong>According to 2026 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</strong> With access to over 200 lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
                 </p>
                 <p className="mb-4">
                   Your home is likely your largest asset—let's make it work harder for you. Unlike big banks that push their own products, I work exclusively for you, comparing pricing and terms from 200+ lenders to find the perfect solution for your unique situation.
@@ -359,10 +359,10 @@ export default function AboutMoAbdelPage() {
                     Start My Application
                   </Button>
                 </Link>
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
-                    (949) 579-2057
+                    (949) 537-2357
                   </Button>
                 </a>
               </div>

@@ -11,7 +11,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Irvine Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 579-2057.',
+  description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
   },
@@ -34,12 +34,12 @@ export default function IrvineMortgageBrokerPage() {
       {
         stat: "Irvine median home price: $1.4M",
         source: "Orange County MLS",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "85% of Irvine homes require jumbo loans",
         source: "California Housing Finance Agency",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -54,11 +54,11 @@ export default function IrvineMortgageBrokerPage() {
         questions: [
           {
             question: "What is the average home price in Irvine?",
-            answer: "The median home price in Irvine is $1.4M as of 2025, with University Park homes averaging $1.6M-$2.5M and Woodbridge homes around $1.2M-$1.8M."
+            answer: "The median home price in Irvine is $1.4M as of 2026, with University Park homes averaging $1.6M-$2.5M and Woodbridge homes around $1.26M-$1.8M."
           },
           {
             question: "Do I need a jumbo loan to buy in Irvine?",
-            answer: "85% of Irvine homes exceed the 2025 conforming loan limit of $1,209,750, requiring jumbo loan financing. Mo Abdel specializes in jumbo loans for Irvine properties."
+            answer: "85% of Irvine homes exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. Mo Abdel specializes in jumbo loans for Irvine properties."
           },
           {
             question: "Which Irvine neighborhoods are best for families?",
@@ -80,7 +80,7 @@ export default function IrvineMortgageBrokerPage() {
     },
     {
       name: 'Woodbridge',
-      avgPrice: '$1.2M', 
+      avgPrice: '$1.26M', 
       description: 'Established community with lakes, parks, and excellent schools'
     },
     {
@@ -152,9 +152,9 @@ export default function IrvineMortgageBrokerPage() {
                 Get Irvine Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -172,7 +172,7 @@ export default function IrvineMortgageBrokerPage() {
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <Home className="w-8 h-8 text-blue-600" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900 mb-1" data-citable="statistic" data-factual="price">$1.2M</h3>
+            <h3 className="text-2xl font-bold text-slate-900 mb-1" data-citable="statistic" data-factual="price">$1.26M</h3>
             <p className="text-slate-600">Median Home Price</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -225,7 +225,7 @@ export default function IrvineMortgageBrokerPage() {
                   <tr className="hover:bg-slate-50">
                     <td className="px-6 py-4 font-medium text-slate-900">Woodbridge</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-semibold" data-citable="data" data-factual="price">$1.5M</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-semibold" data-citable="data" data-factual="range">$1.2M - $1.8M</td>
+                    <td className="px-6 py-4 text-center text-green-600 font-semibold" data-citable="data" data-factual="range">$1.26M - $1.8M</td>
                     <td className="px-6 py-4 text-center text-purple-600 font-semibold" data-factual="loan-type">Jumbo</td>
                   </tr>
                   <tr className="hover:bg-slate-50">
@@ -243,7 +243,7 @@ export default function IrvineMortgageBrokerPage() {
                   <tr className="hover:bg-slate-50">
                     <td className="px-6 py-4 font-medium text-slate-900">Quail Hill</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-semibold" data-citable="data" data-factual="price">$1.6M</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-semibold" data-citable="data" data-factual="range">$1.2M - $2.0M</td>
+                    <td className="px-6 py-4 text-center text-green-600 font-semibold" data-citable="data" data-factual="range">$1.26M - $2.0M</td>
                     <td className="px-6 py-4 text-center text-purple-600 font-semibold" data-factual="loan-type">Jumbo</td>
                   </tr>
                 </tbody>
@@ -413,7 +413,7 @@ export default function IrvineMortgageBrokerPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  The median home price in Irvine is approximately $1.2M, with variations by 
+                  The median home price in Irvine is approximately $1.26M, with variations by 
                   neighborhood. University Park and Turtle Rock tend to be higher, while 
                   newer developments like Portola Springs may be more accessible.
                 </p>
@@ -426,7 +426,7 @@ export default function IrvineMortgageBrokerPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Yes, many Irvine homes exceed the 2025 conforming loan limit of $1,209,750, 
+                  Yes, many Irvine homes exceed the 2026 conforming loan limit of $1,209,750, 
                   requiring jumbo financing. We specialize in competitive jumbo loan pricing 
                   through our lender network.
                 </p>
@@ -528,9 +528,9 @@ export default function IrvineMortgageBrokerPage() {
                 Get My Irvine Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

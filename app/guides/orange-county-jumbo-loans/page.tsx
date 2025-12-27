@@ -48,7 +48,7 @@ export default function OrangeCountyJumboLoansGuide() {
     {
       area: "Coto de Caza",
       medianPrice: "$1,600,000",
-      priceRange: "$1.2M - $4M",
+      priceRange: "$1.26M - $4M",
       features: ["Private golf", "Gated security", "Equestrian facilities"],
       jumboRequired: "65%", 
       avgLoanAmount: "$1,200,000"
@@ -58,7 +58,7 @@ export default function OrangeCountyJumboLoansGuide() {
   const jumboLoanFeatures = [
     {
       feature: "Higher Loan Limits",
-      description: "Loans above $1,089,300 for Orange County's luxury market",
+      description: "Loans above $1,266,300 for Orange County's luxury market",
       benefit: "Access to premium properties"
     },
     {
@@ -199,7 +199,7 @@ export default function OrangeCountyJumboLoansGuide() {
               <Crown className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Jumbo Loan Guide 2025
+              Orange County Jumbo Loan Guide 2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Complete guide to jumbo mortgages for luxury Orange County properties. Access Newport Beach, 
@@ -207,10 +207,10 @@ export default function OrangeCountyJumboLoansGuide() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -224,12 +224,12 @@ export default function OrangeCountyJumboLoansGuide() {
         </div>
       </div>
 
-      {/* 2025 Jumbo Loan Limits */}
+      {/* 2026 Jumbo Loan Limits */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              2025 Orange County Jumbo Loan Limits
+              2026 Orange County Jumbo Loan Limits
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Understanding when you need a jumbo loan in Orange County's high-cost housing market.
@@ -240,8 +240,8 @@ export default function OrangeCountyJumboLoansGuide() {
             <div className="bg-white border border-slate-200 rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Conforming Loan Limit</h3>
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">$1,089,300</div>
-                <p className="text-slate-600 mb-4">2025 limit for Orange County</p>
+                <div className="text-4xl font-bold text-blue-600 mb-2">$1,266,300</div>
+                <p className="text-slate-600 mb-4">2026 limit for Orange County</p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                   <p className="text-sm text-blue-700">
                     Loans up to this amount qualify for conforming pricing and can be sold to Fannie Mae/Freddie Mac
@@ -267,7 +267,7 @@ export default function OrangeCountyJumboLoansGuide() {
           <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <h4 className="text-lg font-semibold text-yellow-800 mb-2">Orange County Reality Check</h4>
             <p className="text-yellow-700">
-              With median home prices around $1.2M in Orange County, approximately <strong>60-70%</strong> of home purchases 
+              With median home prices around $1.26M in Orange County, approximately <strong>60-70%</strong> of home purchases 
               require jumbo financing. This is especially true in luxury markets like Newport Beach, Laguna Beach, and Irvine.
             </p>
           </div>
@@ -521,10 +521,10 @@ export default function OrangeCountyJumboLoansGuide() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

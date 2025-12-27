@@ -25,7 +25,7 @@ const fhaLoansSchema = {
     "@type": "Person",
     "name": "Mo Abdel",
     "identifier": "NMLS #1426884",
-    "telephone": "(949) 579-2057",
+    "telephone": "(949) 537-2357",
     "jobTitle": "Licensed Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
@@ -159,10 +159,10 @@ export default function OrangeCountyFHALoansPage() {
                 <p className="text-blue-100">Get pre-approved in Orange County today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button className="bg-white text-blue-600 hover:bg-blue-50">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 579-2057
+                    (949) 537-2357
                   </Button>
                 </a>
                 <Link href="/contact-orange-county-mortgage-broker">
@@ -240,21 +240,21 @@ export default function OrangeCountyFHALoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl">
-                    2025 Orange County FHA Loan Limits
+                    2026 Orange County FHA Loan Limits
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="bg-green-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-green-700 mb-2">$1,089,300</h3>
-                      <p className="text-green-600">Maximum FHA Loan Amount in Orange County (2025)</p>
+                      <h3 className="text-2xl font-bold text-green-700 mb-2">$1,266,300</h3>
+                      <p className="text-green-600">Maximum FHA Loan Amount in Orange County (2026)</p>
                       <p className="text-sm text-slate-600 mt-2">High-cost area designation allows for higher loan limits</p>
                     </div>
                   </div>
                   
                   <div className="prose prose-lg max-w-none text-slate-700">
                     <p className="mb-4">
-                      Orange County is designated as a high-cost area by HUD, which means FHA loan limits are significantly higher than the national baseline. This allows you to purchase homes up to $1,089,300 with just 3.5% down payment.
+                      Orange County is designated as a high-cost area by HUD, which means FHA loan limits are significantly higher than the national baseline. This allows you to purchase homes up to $1,266,300 with just 3.5% down payment.
                     </p>
                     <p className="mb-4">
                       <strong>Key Facts for Orange County FHA Loans:</strong>
@@ -372,7 +372,7 @@ export default function OrangeCountyFHALoansPage() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Max OC Loan Amount:</span>
-                      <span className="font-semibold">$1,089,300</span>
+                      <span className="font-semibold">$1,266,300</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Mortgage Insurance:</span>

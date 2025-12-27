@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92625 Corona del Mar Mortgage Broker | Beachside ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing. Call (949) 579-2057.',
+  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
       {
         stat: "92625 median home price: $3.8M",
         source: "Newport Beach MLS Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "95% of 92625 homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "ZIP code includes Corona del Mar State Beach area",
@@ -66,7 +66,7 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92625 require jumbo loans?",
-            answer: "95% of homes in ZIP code 92625 exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo or super jumbo loan financing. Many properties require specialized luxury financing programs."
+            answer: "95% of homes in ZIP code 92625 exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo or super jumbo loan financing. Many properties require specialized luxury financing programs."
           },
           {
             question: "What makes 92625 a prestigious address?",
@@ -171,7 +171,7 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>92625 Corona del Mar Mortgage Broker 2025</h1>
+          <h1>92625 Corona del Mar Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in ZIP code 92625 Corona del Mar mortgage services, covering exclusive beachside properties and luxury coastal homes ranging from $1.5M to $8M+. Expert local market knowledge for this prestigious Newport Beach ZIP code.</p>
           
           <h2>92625 ZIP Code Coverage</h2>
@@ -199,10 +199,10 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
                 Dedicated mortgage broker serving ZIP code 92625 in Corona del Mar. Luxury expertise for beachside properties, coastal homes, and prestigious Newport Beach addresses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -253,7 +253,7 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white">
                   <CardTitle className="flex items-center">
                     <Hash className="w-6 h-6 mr-2" />
-                    92625 Market Data 2025
+                    92625 Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -405,10 +405,10 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
               Get specialized luxury financing expertise for ZIP code 92625. Beachside market knowledge, premium service, Competitive pricing for Corona del Mar's finest properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

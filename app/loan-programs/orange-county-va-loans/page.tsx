@@ -7,7 +7,7 @@ import { Shield, Home, Award, DollarSign, Phone, CheckCircle, Users } from 'luci
 
 export const metadata: Metadata = {
   title: 'Orange County VA Loans | VA Loans Orange County | Military Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist Mo Abdel helps veterans and military buy homes in Orange County CA. Call (949) 579-2057.',
+  description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist Mo Abdel helps veterans and military buy homes in Orange County CA. Call (949) 537-2357.',
   openGraph: {
     title: 'Orange County VA Loans | VA Loans Orange County | Military Home Loans',
     description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist helps veterans buy homes in Orange County CA.',
@@ -42,10 +42,10 @@ export default function OrangeCountyVALoansPage() {
                 Get VA Loan Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 579-2057
+                (949) 537-2357
               </Button>
             </a>
           </div>
@@ -91,7 +91,7 @@ export default function OrangeCountyVALoansPage() {
 
         {/* Loan Limits */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 VA Loan Limits Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -99,11 +99,11 @@ export default function OrangeCountyVALoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Basic Entitlement:</span>
-                    <span className="font-bold text-blue-600">$1,089,300</span>
+                    <span className="font-bold text-blue-600">$1,266,300</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Maximum No-Down Loan:</span>
-                    <span className="font-bold text-blue-600">$1,089,300</span>
+                    <span className="font-bold text-blue-600">$1,266,300</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">VA Funding Fee:</span>
@@ -340,9 +340,9 @@ export default function OrangeCountyVALoansPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  For homes above $1,089,300, you can use a VA jumbo loan with a down payment 
+                  For homes above $1,266,300, you can use a VA jumbo loan with a down payment 
                   covering the difference. Example: $1.5M home requires $410,700 down payment 
-                  to use your VA benefit for the remaining $1,089,300.
+                  to use your VA benefit for the remaining $1,266,300.
                 </p>
               </CardContent>
             </Card>
@@ -389,10 +389,10 @@ export default function OrangeCountyVALoansPage() {
                 Start My VA Loan Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

@@ -138,7 +138,7 @@ export default function ContactForm() {
       {showError && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
           <p className="text-red-600 text-sm">
-            There was an error submitting your request. Please try again or call us directly at (949) 579-2057.
+            There was an error submitting your request. Please try again or call us directly at (949) 537-2357.
           </p>
         </div>
       )}

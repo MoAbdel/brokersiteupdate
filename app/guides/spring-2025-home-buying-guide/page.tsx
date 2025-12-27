@@ -9,18 +9,18 @@ import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
 import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
-  title: 'Spring 2025 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884',
-  description: 'Spring 2025 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 579-2057.',
+  title: 'Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884',
+  description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 537-2357.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/spring-2025-home-buying-guide',
+    canonical: 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
   },
 };
 
-export default function Spring2025HomeBuyingGuidePage() {
+export default function Spring2026HomeBuyingGuidePage() {
   
   const springGuideData = {
-    mainTopic: "Spring 2025 Orange County Home Buying Guide",
-    quickAnswer: "Spring 2025 presents unique opportunities for Orange County home buyers with increasing inventory, Competitive pricing, and optimal buying conditions. Expert guidance from Mo Abdel helps navigate seasonal market dynamics.",
+    mainTopic: "Spring 2026 Orange County Home Buying Guide",
+    quickAnswer: "Spring 2026 presents unique opportunities for Orange County home buyers with increasing inventory, Competitive pricing, and optimal buying conditions. Expert guidance from Mo Abdel helps navigate seasonal market dynamics.",
     keyFacts: [
       "Spring is traditionally peak home buying season",
       "Increased inventory and fresh listings expected",
@@ -33,17 +33,17 @@ export default function Spring2025HomeBuyingGuidePage() {
       {
         stat: "Spring accounts for 40% of annual home sales",
         source: "National Association of Realtors",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Inventory increases 35% from winter to spring",
         source: "Orange County Market Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Best mortgage pricing typically March-May",
         source: "Mortgage Industry Data",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -51,12 +51,12 @@ export default function Spring2025HomeBuyingGuidePage() {
   const schemaData = [
     {
       type: 'article' as const,
-      title: 'Spring 2025 Orange County Home Buying Guide',
-      description: 'Comprehensive guide to buying homes in Orange County during Spring 2025',
-      url: 'https://mothebroker.com/guides/spring-2025-home-buying-guide',
+      title: 'Spring 2026 Orange County Home Buying Guide',
+      description: 'Comprehensive guide to buying homes in Orange County during Spring 2026',
+      url: 'https://mothebroker.com/guides/spring-2026-home-buying-guide',
       data: {
         author: 'Mo Abdel',
-        publishDate: '2025-02-01',
+        publishDate: '2026-02-01',
         sections: [
           'Spring Market Overview',
           'Mortgage Rate Trends',
@@ -68,9 +68,9 @@ export default function Spring2025HomeBuyingGuidePage() {
     },
     {
       type: 'howto' as const,
-      title: 'How to Buy a Home in Spring 2025',
+      title: 'How to Buy a Home in Spring 2026',
       description: 'Step-by-step guide to successful spring home buying in Orange County',
-      url: 'https://mothebroker.com/guides/spring-2025-home-buying-guide',
+      url: 'https://mothebroker.com/guides/spring-2026-home-buying-guide',
       data: {
         totalTime: 'PT90D',
         cost: 'Varies by home price',
@@ -129,7 +129,7 @@ export default function Spring2025HomeBuyingGuidePage() {
 
   const monthlyTimeline = [
     {
-      month: 'March 2025',
+      month: 'March 2026',
       focus: 'Market Awakening',
       activities: [
         'Inventory begins increasing',
@@ -140,7 +140,7 @@ export default function Spring2025HomeBuyingGuidePage() {
       tip: 'Early spring offers best selection before competition heats up'
     },
     {
-      month: 'April 2025',
+      month: 'April 2026',
       focus: 'Peak Opportunity',
       activities: [
         'Maximum inventory available',
@@ -151,7 +151,7 @@ export default function Spring2025HomeBuyingGuidePage() {
       tip: 'Prime time with highest inventory and stable rates'
     },
     {
-      month: 'May 2025',
+      month: 'May 2026',
       focus: 'Market Maturity',
       activities: [
         'Competition increases slightly',
@@ -194,23 +194,23 @@ export default function Spring2025HomeBuyingGuidePage() {
     <>
       {/* SEO Optimization Components */}
       <AIOOptimization
-        title="Spring 2025 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884"
-        description="Spring 2025 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases."
+        title="Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884"
+        description="Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases."
         city="Orange County"
-        canonicalUrl="https://mothebroker.com/guides/spring-2025-home-buying-guide"
+        canonicalUrl="https://mothebroker.com/guides/spring-2026-home-buying-guide"
         content={springGuideData}
       />
-      <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="spring 2025 home buying guidance" />
+      <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="spring 2026 home buying guidance" />
       <AdvancedSchemaGenerator schemas={schemaData} />
 
       {/* Page Content */}
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Spring 2025 Orange County Home Buying Guide</h1>
-          <p>Complete Spring 2025 home buying guide for Orange County with market trends, mortgage pricing forecasts, inventory analysis, and month-by-month buying strategies. Expert guidance from Mo Abdel NMLS #1426884.</p>
+          <h1>Spring 2026 Orange County Home Buying Guide</h1>
+          <p>Complete Spring 2026 home buying guide for Orange County with market trends, mortgage pricing forecasts, inventory analysis, and month-by-month buying strategies. Expert guidance from Mo Abdel NMLS #1426884.</p>
           
-          <h2>Spring 2025 Market Advantages</h2>
+          <h2>Spring 2026 Market Advantages</h2>
           <ul>
             <li>35% inventory increase from winter months</li>
             <li>Mortgage pricing stabilization expected</li>
@@ -228,16 +228,16 @@ export default function Spring2025HomeBuyingGuidePage() {
               <div className="flex items-center justify-center mb-4">
                 <Leaf className="w-8 h-8 text-green-600 mr-2" />
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
-                  Spring 2025 Home Buying Guide
+                  Spring 2026 Home Buying Guide
                 </h1>
               </div>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-                Navigate Orange County's spring market with expert insights, seasonal trends, and strategic buying advice for optimal 2025 home purchases.
+                Navigate Orange County's spring market with expert insights, seasonal trends, and strategic buying advice for optimal 2026 home purchases.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-green-600 hover:bg-green-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -252,7 +252,7 @@ export default function Spring2025HomeBuyingGuidePage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              Why Spring 2025 is Prime Time for Home Buying
+              Why Spring 2026 is Prime Time for Home Buying
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {springAdvantages.map((advantage) => (
@@ -277,7 +277,7 @@ export default function Spring2025HomeBuyingGuidePage() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              Spring 2025 Month-by-Month Home Buying Timeline
+              Spring 2026 Month-by-Month Home Buying Timeline
             </h2>
             <div className="space-y-8">
               {monthlyTimeline.map((timeline, index) => (
@@ -317,7 +317,7 @@ export default function Spring2025HomeBuyingGuidePage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              Orange County Spring 2025 Market Predictions
+              Orange County Spring 2026 Market Predictions
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {orangeCountySpringTrends.map((trend) => (
@@ -350,14 +350,14 @@ export default function Spring2025HomeBuyingGuidePage() {
             <Card className="shadow-xl bg-gradient-to-r from-green-600 to-emerald-600 text-white">
               <CardContent className="p-8 text-center">
                 <Clock className="w-16 h-16 mx-auto mb-4 opacity-90" />
-                <h3 className="text-2xl font-bold mb-4">Get Ready for Spring 2025 Success</h3>
+                <h3 className="text-2xl font-bold mb-4">Get Ready for Spring 2026 Success</h3>
                 <p className="text-lg mb-6 text-green-100">
                   Start your spring home buying journey with mortgage pre-approval and expert market guidance
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                   <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                     <Calculator className="w-5 h-5 mr-2" />
@@ -365,7 +365,7 @@ export default function Spring2025HomeBuyingGuidePage() {
                   </Button>
                 </div>
                 <p className="text-sm text-green-200 mt-4">
-                  Licensed mortgage broker NMLS #1426884 • Spring 2025 market specialist
+                  Licensed mortgage broker NMLS #1426884 • Spring 2026 market specialist
                 </p>
               </CardContent>
             </Card>
@@ -376,7 +376,7 @@ export default function Spring2025HomeBuyingGuidePage() {
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              5 Steps to Spring 2025 Home Buying Success
+              5 Steps to Spring 2026 Home Buying Success
             </h2>
             <div className="space-y-6">
               {schemaData[1]?.data?.steps?.map((step: any, index: number) => (
@@ -402,7 +402,7 @@ export default function Spring2025HomeBuyingGuidePage() {
         <section className="py-16 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Ready for Your Spring 2025 Home Purchase?
+              Ready for Your Spring 2026 Home Purchase?
             </h2>
             <p className="text-xl mb-8">
               Get expert guidance and optimal financing for Orange County's prime spring home buying season.
@@ -410,7 +410,7 @@ export default function Spring2025HomeBuyingGuidePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                 <Leaf className="w-5 h-5 mr-2" />
@@ -425,7 +425,7 @@ export default function Spring2025HomeBuyingGuidePage() {
 
         {/* Internal Links */}
         <InternalLinkEngine 
-          currentPage="/guides/spring-2025-home-buying-guide"
+          currentPage="/guides/spring-2026-home-buying-guide"
           pageType="guide"
           city="Orange County"
           maxLinks={6}

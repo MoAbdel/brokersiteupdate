@@ -7,7 +7,7 @@ import { MapPin, Home, Waves, Sun, TrendingUp, Users, Building } from 'lucide-re
 
 export const metadata: Metadata = {
   title: 'Huntington Beach Mortgage | Home Loans & HELOC Rates | Mo Abdel NMLS #1426884',
-  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 579-2057.',
+  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
   },
@@ -22,7 +22,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     },
     {
       name: 'Surf City', 
-      avgPrice: '$1.2M',
+      avgPrice: '$1.26M',
       description: 'Classic beach community with vintage charm and surf culture'
     },
     {
@@ -92,9 +92,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get HB Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -246,7 +246,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,089,300</span>
+                <span className="font-bold">$1,266,300</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>
@@ -300,7 +300,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
               <CardContent>
                 <p className="text-slate-600">
                   Properties within walking distance of the Huntington Pier typically range from 
-                  $1.2M to $2M+, depending on size and ocean proximity. These often require 
+                  $1.26M to $2M+, depending on size and ocean proximity. These often require 
                   jumbo financing due to premium locations.
                 </p>
               </CardContent>
@@ -348,9 +348,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get My HB Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

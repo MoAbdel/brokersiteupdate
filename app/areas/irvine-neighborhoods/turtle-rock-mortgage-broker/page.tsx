@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Turtle Rock Irvine Mortgage Broker | Upscale Family Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, Competitive pricing. Call (949) 579-2057.',
+  description: 'Turtle Rock Irvine mortgage broker specializing in upscale family community homes. Established neighborhood financing, luxury amenities, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/turtle-rock-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function TurtleRockMortgageBrokerPage() {
       {
         stat: "Turtle Rock median home price: $1.8M",
         source: "Irvine MLS Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "85% of Turtle Rock homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Community established in 1980s with mature landscaping",
@@ -62,11 +62,11 @@ export default function TurtleRockMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Turtle Rock homes?",
-            answer: "Turtle Rock homes typically range from $1.4M to $2.2M, with premium view properties commanding higher prices. The median home price is around $1.8M as of 2025."
+            answer: "Turtle Rock homes typically range from $1.4M to $2.2M, with premium view properties commanding higher prices. The median home price is around $1.8M as of 2026."
           },
           {
             question: "Do Turtle Rock homes require jumbo financing?",
-            answer: "85% of Turtle Rock homes exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo loan financing. The upscale nature of the community means most properties need jumbo loans."
+            answer: "85% of Turtle Rock homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The upscale nature of the community means most properties need jumbo loans."
           },
           {
             question: "What amenities make Turtle Rock desirable for families?",
@@ -110,7 +110,7 @@ export default function TurtleRockMortgageBrokerPage() {
     },
     {
       name: 'Luxury Townhomes',
-      priceRange: '$1.2M - $1.6M',
+      priceRange: '$1.26M - $1.6M',
       description: 'Upscale townhomes with community amenities',
       features: ['Low maintenance', 'Premium finishes', 'Community access', 'Modern updates']
     }
@@ -154,7 +154,7 @@ export default function TurtleRockMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Turtle Rock Irvine Mortgage Broker 2025</h1>
+          <h1>Turtle Rock Irvine Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Turtle Rock Irvine mortgage financing, serving this upscale family community with homes ranging from $1.4M to $2.2M. Expert in luxury family home financing with natural canyon settings.</p>
           
           <h2>Turtle Rock Community Features</h2>
@@ -181,7 +181,7 @@ export default function TurtleRockMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -248,7 +248,7 @@ export default function TurtleRockMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Turtle Rock Market Data 2025
+                    Turtle Rock Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -374,7 +374,7 @@ export default function TurtleRockMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 Get Pre-Approved

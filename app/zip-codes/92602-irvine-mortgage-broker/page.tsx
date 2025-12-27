@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92602 Irvine Mortgage Broker | ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, Competitive pricing, personalized service. Call (949) 579-2057.',
+  description: '92602 Irvine mortgage broker serving this specific ZIP code area. Local expertise, Competitive pricing, personalized service. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92602-irvine-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function ZipCode92602MortgageBrokerPage() {
       {
         stat: "92602 median home price: $1.45M",
         source: "Irvine Real Estate Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "78% of 92602 homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "ZIP code covers 15+ neighborhoods",
@@ -66,7 +66,7 @@ export default function ZipCode92602MortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92602 require jumbo loans?",
-            answer: "78% of homes in ZIP code 92602 exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo loan financing. Condos and townhomes may qualify for conventional loans."
+            answer: "78% of homes in ZIP code 92602 exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. Condos and townhomes may qualify for conventional loans."
           },
           {
             question: "What makes 92602 a desirable area?",
@@ -81,7 +81,7 @@ export default function ZipCode92602MortgageBrokerPage() {
     {
       name: 'Woodbridge (Partial)',
       description: 'Established lake community with family amenities',
-      priceRange: '$1.2M - $1.8M',
+      priceRange: '$1.26M - $1.8M',
       homeTypes: 'Single-family homes, townhomes'
     },
     {
@@ -148,7 +148,7 @@ export default function ZipCode92602MortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>92602 Irvine Mortgage Broker 2025</h1>
+          <h1>92602 Irvine Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in ZIP code 92602 Irvine mortgage services, covering diverse neighborhoods with homes ranging from $800K condos to $3M estates. Expert local market knowledge for this central Irvine location.</p>
           
           <h2>92602 ZIP Code Coverage</h2>
@@ -176,10 +176,10 @@ export default function ZipCode92602MortgageBrokerPage() {
                 Dedicated mortgage broker serving ZIP code 92602 in Irvine. Local expertise for diverse neighborhoods, from condos to luxury estates, with personalized service.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -230,7 +230,7 @@ export default function ZipCode92602MortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <Hash className="w-6 h-6 mr-2" />
-                    92602 Market Data 2025
+                    92602 Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -355,10 +355,10 @@ export default function ZipCode92602MortgageBrokerPage() {
               Get specialized financing expertise for ZIP code 92602. Local knowledge, Competitive pricing, personalized service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

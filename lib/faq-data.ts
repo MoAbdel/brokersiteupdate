@@ -35,8 +35,8 @@ export const fhaLoanFAQs: FAQItem[] = [
     answer: "FHA loans require two types of mortgage insurance: an upfront premium (1.75% of loan amount) and annual premiums (0.45% to 1.05% annually). For most borrowers, the annual premium is 0.85% of the loan amount. Unlike conventional PMI, FHA mortgage insurance typically stays for the life of the loan, but it enables homeownership with lower down payments and credit scores."
   },
   {
-    question: "What are FHA loan limits for Orange County in 2025?",
-    answer: "The 2025 FHA loan limit for Orange County is $1,089,300 for single-family homes. This high-cost area limit allows FHA financing for most Orange County properties. Properties above this limit require jumbo financing, but many Orange County homes fall within FHA limits, making government-backed financing accessible."
+    question: "What are FHA loan limits for Orange County in 2026?",
+    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This high-cost area limit allows FHA financing for most Orange County properties. Properties above this limit require jumbo financing, but many Orange County homes fall within FHA limits, making government-backed financing accessible."
   },
   {
     question: "Can I use an FHA loan to buy a condo in Orange County?",
@@ -56,7 +56,7 @@ export const vaLoanFAQs: FAQItem[] = [
   },
   {
     question: "What are VA loan limits for Orange County?",
-    answer: "VA loans have no maximum limit in Orange County if you make a 25% down payment on the amount above $1,089,300. Up to $1,089,300 requires no down payment. This means you can buy higher-priced Orange County homes with minimal down payment using your VA benefits."
+    answer: "VA loans have no maximum limit in Orange County if you make a 25% down payment on the amount above $1,266,300. Up to $1,266,300 requires no down payment. This means you can buy higher-priced Orange County homes with minimal down payment using your VA benefits."
   },
   {
     question: "Can I use my VA loan benefit multiple times?",
@@ -88,7 +88,7 @@ export const helocFAQs: FAQItem[] = [
 export const jumboLoanFAQs: FAQItem[] = [
   {
     question: "What is considered a jumbo loan in Orange County?",
-    answer: "In Orange County, jumbo loans are mortgages above $1,089,300 for single-family homes (2025 limits). Given Orange County's high property values, most homes in areas like Newport Beach, Irvine, and Laguna Beach require jumbo financing. These loans have different requirements than conforming loans but offer Competitive pricing."
+    answer: "In Orange County, jumbo loans are mortgages above $1,266,300 for single-family homes (2026 limits). Given Orange County's high property values, most homes in areas like Newport Beach, Irvine, and Laguna Beach require jumbo financing. These loans have different requirements than conforming loans but offer Competitive pricing."
   },
   {
     question: "What down payment is required for jumbo loans?",

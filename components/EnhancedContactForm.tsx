@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, Home, Calendar, User, Phone, Mail, FileText } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
-// Compliant 2025 Orange County Data
+// Compliant 2026 Orange County Data
 const ORANGE_COUNTY_DATA = {
   conformingLimit: 1209750,
   lowBalanceLimit: 806500,

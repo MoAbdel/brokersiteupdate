@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Home, DollarSign, GraduationCap, MapPin, Clock, Star, TrendingUp, Users, Car, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Neighborhoods Comparison Guide 2025 | Best Places to Buy Homes OC',
+  title: 'Orange County Neighborhoods Comparison Guide 2026 | Best Places to Buy Homes OC',
   description: 'Complete guide to Orange County neighborhoods: Irvine, Newport Beach, Laguna Beach, Mission Viejo, Costa Mesa. Home prices, schools, commutes, and mortgage options compared.',
   openGraph: {
-    title: 'Orange County Neighborhoods Comparison Guide 2025 | Best Places to Buy Homes OC',
+    title: 'Orange County Neighborhoods Comparison Guide 2026 | Best Places to Buy Homes OC',
     description: 'Complete guide to Orange County neighborhoods: Irvine, Newport Beach, Laguna Beach, Mission Viejo, Costa Mesa. Home prices, schools, commutes, and mortgage options compared.',
     type: 'article',
-    publishedTime: '2025-06-05T16:20:00Z',
+    publishedTime: '2026-06-05T16:20:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
@@ -115,10 +115,10 @@ export default function OCNeighborhoodsGuide() {
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Complete Neighborhood Analysis</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Orange County Mortgage Broker Guide: Best Neighborhoods for Home Loans 2025
+            Orange County Mortgage Broker Guide: Best Neighborhoods for Home Loans 2026
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published June 5, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published June 5, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Compare home prices, schools, commutes, and lifestyle factors across Orange County's top neighborhoods. Get personalized mortgage advice for each area from your local OC broker. Explore our city-specific services including <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine mortgage broker</Link> and <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach home loans</Link>.
@@ -129,9 +129,9 @@ export default function OCNeighborhoodsGuide() {
                 Get Neighborhood-Specific Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Discuss Your Needs: (949) 579-2057
+                Discuss Your Needs: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -263,7 +263,7 @@ export default function OCNeighborhoodsGuide() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             <div className="bg-blue-700 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4">Entry Level ($800K-$1.2M)</h3>
+              <h3 className="text-xl font-semibold mb-4">Entry Level ($800K-$1.26M)</h3>
               <p className="text-blue-100 mb-3">Costa Mesa, Parts of Huntington Beach</p>
               <ul className="space-y-2 text-blue-100">
                 <li>• Conventional loans available</li>
@@ -274,7 +274,7 @@ export default function OCNeighborhoodsGuide() {
             </div>
 
             <div className="bg-blue-700 rounded-lg p-6">
-              <h3 className="text-xl font-semibold mb-4">Mid-Range ($1.2M-$2M)</h3>
+              <h3 className="text-xl font-semibold mb-4">Mid-Range ($1.26M-$2M)</h3>
               <p className="text-blue-100 mb-3">Irvine, Mission Viejo, Huntington Beach</p>
               <ul className="space-y-2 text-blue-100">
                 <li>• Jumbo loans required</li>
@@ -299,7 +299,7 @@ export default function OCNeighborhoodsGuide() {
 
         {/* Local Market Insights */}
         <div className="bg-slate-100 rounded-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Market Insights by Area</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Market Insights by Area</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -352,9 +352,9 @@ export default function OCNeighborhoodsGuide() {
                 Start Neighborhood Analysis
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call Mo: (949) 579-2057
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

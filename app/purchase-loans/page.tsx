@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/purchase-loans",
   "description": "Expert home purchase loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -81,7 +81,7 @@ const purchaseLoans = [
     downPayment: '10% - 20%',
     bestFor: 'Luxury homes in Orange County',
     features: [
-      'Loans above conforming limits ($1,089,300+)',
+      'Loans above conforming limits ($1,266,300+)',
       'Competitive jumbo rates',
       'Flexible underwriting guidelines',
       'Various ARM and fixed-rate options'
@@ -133,7 +133,7 @@ export default function PurchaseLoansPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Pre-Approved Today
                 </a>
@@ -303,7 +303,7 @@ export default function PurchaseLoansPage() {
 
             <div className="text-center mt-8">
               <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Clock className="w-5 h-5 mr-2" />
                   Start Your Pre-Approval (24 Hour Turnaround)
                 </a>
@@ -318,7 +318,7 @@ export default function PurchaseLoansPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">$1.2M</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">$1.26M</h3>
                 <p className="text-slate-700">Median Home Price</p>
               </div>
               <div className="text-center">
@@ -331,7 +331,7 @@ export default function PurchaseLoansPage() {
               </div>
             </div>
             <p className="text-center text-slate-600 mt-6">
-              <em>Data as of 2025. Orange County remains one of the most competitive real estate markets in California.</em>
+              <em>Data as of 2026. Orange County remains one of the most competitive real estate markets in California.</em>
             </p>
           </section>
 
@@ -379,8 +379,8 @@ export default function PurchaseLoansPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
-                  Call (949) 579-2057
+                <a href="tel:(949) 537-2357">
+                  Call (949) 537-2357
                 </a>
               </Button>
               <Link href="/contact">

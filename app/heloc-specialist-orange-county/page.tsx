@@ -51,13 +51,13 @@ export default function HELOCSpecialistOrangeCounty() {
         </div>
       </section>
 
-      {/* The 2025 HELOC Strategy */}
+      {/* The 2026 HELOC Strategy */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Why HELOCs Are the Smart 2025 Strategy
+                Why HELOCs Are the Smart 2026 Strategy
               </h2>
               <p className="text-lg text-slate-600 mb-4">
                 If you locked in a low mortgage in 2020-2021, you're sitting on one of the most valuable
@@ -253,7 +253,7 @@ export default function HELOCSpecialistOrangeCounty() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <div className="text-4xl font-bold mb-2">$1.2M</div>
+                <div className="text-4xl font-bold mb-2">$1.26M</div>
                 <p className="text-blue-100">Median home value in Irvine, Newport Beach</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">

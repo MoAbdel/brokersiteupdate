@@ -151,12 +151,12 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
 
   // Market Analysis
   { title: '📊 MARKET ANALYSIS', url: '#', isHeader: true },
-  { title: 'Orange County Market Forecast 2025-2026', url: '/guides/orange-county-market-forecast-2025-2026' },
+  { title: 'Orange County Market Forecast 2026-2026', url: '/guides/orange-county-market-forecast-2026-2026' },
 
   // Seasonal Market Guides
   { title: '🌟 SEASONAL GUIDES', url: '#', isHeader: true },
-  { title: 'Spring 2025 Home Buying Guide', url: '/guides/spring-2025-home-buying-guide' },
-  { title: 'Summer 2025 Market Guide', url: '/guides/summer-2025-market-guide' },
+  { title: 'Spring 2026 Home Buying Guide', url: '/guides/spring-2026-home-buying-guide' },
+  { title: 'Summer 2026 Market Guide', url: '/guides/summer-2026-market-guide' },
 
   // Neighborhood Guides
   { title: '🏘️ NEIGHBORHOOD GUIDES', url: '#', isHeader: true },

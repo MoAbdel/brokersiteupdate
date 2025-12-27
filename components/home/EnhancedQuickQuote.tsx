@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, Home, Calendar, User, Phone, Mail, FileText } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
-// Compliant 2025 Orange County Data (verified via web search)
+// Compliant 2026 Orange County Data (verified via web search)
 const ORANGE_COUNTY_DATA = {
   conformingLimit: 1209750,
   lowBalanceLimit: 806500,
@@ -172,7 +172,7 @@ export default function EnhancedQuickQuote() {
       }
     }
     
-    // Current Market pricing (2025)
+    // Current Market pricing (2026)
     const getRateByLoanType = (type: string) => {
       switch (type.toLowerCase()) {
         case 'fha': return 0.06125; // 6.125%
@@ -462,7 +462,7 @@ export default function EnhancedQuickQuote() {
             {showError && (
               <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
                 <p className="text-red-600 text-sm">
-                  There was an error submitting your request. Please try again or call us directly at (949) 579-2057.
+                  There was an error submitting your request. Please try again or call us directly at (949) 537-2357.
                 </p>
               </div>
             )}
@@ -878,7 +878,7 @@ export default function EnhancedQuickQuote() {
 
                 {/* Loan limits information */}
                 <div className="bg-slate-50 rounded-lg p-4">
-                  <h4 className="font-medium text-slate-900 mb-2">2025 Orange County Loan Limits:</h4>
+                  <h4 className="font-medium text-slate-900 mb-2">2026 Orange County Loan Limits:</h4>
                   <div className="text-sm text-slate-600 space-y-1">
                     <div>• Conventional/FHA: Up to ${ORANGE_COUNTY_DATA.conformingLimit.toLocaleString()}</div>
                     <div>• Jumbo Loans: Above ${ORANGE_COUNTY_DATA.conformingLimit.toLocaleString()}</div>

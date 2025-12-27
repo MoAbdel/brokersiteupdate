@@ -5,12 +5,12 @@ import { generateMetadata } from '@/lib/metadata';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { 
-  DollarSign, 
-  Calculator, 
-  FileText, 
-  Users, 
-  Building, 
+import {
+  DollarSign,
+  Calculator,
+  FileText,
+  Users,
+  Building,
   CreditCard,
   Home,
   TrendingUp,
@@ -40,7 +40,7 @@ export default function ResourcesPage() {
       badge: 'Most Popular',
       color: 'text-green-600',
       bgColor: 'bg-green-50',
-      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2025 Updated']
+      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2026 Updated']
     },
     {
       title: 'Mortgage Calculators Suite',
@@ -53,16 +53,6 @@ export default function ResourcesPage() {
       features: ['Payment Calculator', 'Affordability Tool', 'Refinance Analysis', 'Real-Time Rates']
     },
     {
-      title: 'Orange County Market Data',
-      description: 'Current housing market data, trends, and analysis for Orange County neighborhoods. Make informed decisions.',
-      icon: TrendingUp,
-      link: '/resources/market-data',
-      badge: 'Live Data',
-      color: 'text-purple-600',
-      bgColor: 'bg-purple-50',
-      features: ['Price Trends', 'Inventory Levels', 'Days on Market', 'Neighborhood Stats']
-    },
-    {
       title: 'First-Time Buyer Guide',
       description: 'Step-by-step guide for first-time home buyers in Orange County. Everything you need to know.',
       icon: Home,
@@ -71,16 +61,6 @@ export default function ResourcesPage() {
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
       features: ['Step-by-Step Process', 'Required Documents', 'Timeline Guide', 'Cost Breakdown']
-    },
-    {
-      title: 'Credit Repair Resources',
-      description: 'Tools and guides to improve your credit score for better mortgage pricing. Expert tips and strategies.',
-      icon: CreditCard,
-      link: '/resources/credit-repair',
-      badge: 'Essential',
-      color: 'text-red-600',
-      bgColor: 'bg-red-50',
-      features: ['Credit Reports', 'Score Improvement', 'Dispute Letters', 'Timeline Planning']
     },
     {
       title: 'Document Checklist & Templates',
@@ -175,8 +155,8 @@ export default function ResourcesPage() {
               Orange County Mortgage Resources Center
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Everything you need to navigate the home buying process. From down payment assistance 
-              to market data, calculators to guides - all free and updated for 2025.
+              Everything you need to navigate the home buying process. From down payment assistance
+              to market data, calculators to guides - all free and updated for 2026.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/resources/down-payment-assistance">
@@ -210,8 +190,8 @@ export default function ResourcesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {resources.map((resource, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="hover:shadow-xl transition-all duration-300"
               >
                 <CardHeader>
@@ -271,9 +251,9 @@ export default function ResourcesPage() {
                 <p className="text-slate-600 mb-4">
                   Official federal agency protecting consumers in financial transactions including mortgages.
                 </p>
-                <a 
-                  href="https://www.consumerfinance.gov/owning-a-home/" 
-                  target="_blank" 
+                <a
+                  href="https://www.consumerfinance.gov/owning-a-home/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                 >
@@ -295,9 +275,9 @@ export default function ResourcesPage() {
                 <p className="text-slate-600 mb-4">
                   Federal agency overseeing Fannie Mae and Freddie Mac, ensuring mortgage market stability.
                 </p>
-                <a 
-                  href="https://www.fhfa.gov/homeownerspage" 
-                  target="_blank" 
+                <a
+                  href="https://www.fhfa.gov/homeownerspage"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                 >
@@ -319,9 +299,9 @@ export default function ResourcesPage() {
                 <p className="text-slate-600 mb-4">
                   Official VA home loan benefits and housing assistance programs for veterans and service members.
                 </p>
-                <a 
-                  href="https://www.va.gov/housing-assistance/" 
-                  target="_blank" 
+                <a
+                  href="https://www.va.gov/housing-assistance/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                 >
@@ -343,9 +323,9 @@ export default function ResourcesPage() {
                 <p className="text-slate-600 mb-4">
                   Find HUD-approved housing counselors for free guidance on buying, renting, or avoiding foreclosure.
                 </p>
-                <a 
-                  href="https://www.hud.gov/findacounselor" 
-                  target="_blank" 
+                <a
+                  href="https://www.hud.gov/findacounselor"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                 >
@@ -367,9 +347,9 @@ export default function ResourcesPage() {
                 <p className="text-slate-600 mb-4">
                   Leading national association providing consumer education and mortgage industry insights.
                 </p>
-                <a 
-                  href="https://www.mba.org/consumers" 
-                  target="_blank" 
+                <a
+                  href="https://www.mba.org/consumers"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center"
                 >
@@ -501,7 +481,7 @@ export default function ResourcesPage() {
             Need Personalized Guidance?
           </h2>
           <p className="text-xl text-slate-600 mb-8">
-            While these resources are helpful, nothing beats personalized advice for your specific situation. 
+            While these resources are helpful, nothing beats personalized advice for your specific situation.
             I'm here to help you navigate every step of your mortgage journey.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -511,10 +491,10 @@ export default function ResourcesPage() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" variant="ghost" className="text-blue-600 border-blue-600 hover:bg-blue-50">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

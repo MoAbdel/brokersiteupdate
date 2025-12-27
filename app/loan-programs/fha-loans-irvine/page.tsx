@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'FHA Loans Irvine CA | 3.5% Down Payment | Mo Abdel NMLS #1426884',
-  description: 'FHA loans in Irvine CA with 3.5% down payment. Government-backed mortgages for Irvine condos, townhomes, and family homes. Call (949) 579-2057.',
+  description: 'FHA loans in Irvine CA with 3.5% down payment. Government-backed mortgages for Irvine condos, townhomes, and family homes. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans-irvine',
   },
@@ -23,7 +23,7 @@ export default function FHALoansIrvinePage() {
     quickAnswer: "FHA loans in Irvine offer 3.5% down payment options for condos, townhomes, and single-family homes. Perfect for first-time buyers and those with limited down payment savings in Irvine's competitive market.",
     keyFacts: [
       "3.5% down payment minimum",
-      "FHA loan limits: $1,089,300 (2025)",
+      "FHA loan limits: $1,266,300 (2026)",
       "Credit scores as low as 580",
       "Government-backed mortgage insurance",
       "Perfect for Irvine condos and townhomes",
@@ -31,19 +31,19 @@ export default function FHALoansIrvinePage() {
     ],
     statistics: [
       {
-        stat: "FHA loan limit in Irvine: $1,089,300",
-        source: "HUD 2025 Loan Limits",
-        year: "2025"
+        stat: "FHA loan limit in Irvine: $1,266,300",
+        source: "HUD 2026 Loan Limits",
+        year: "2026"
       },
       {
         stat: "35% of Irvine condos qualify for FHA financing",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Irvine median condo price: $975,000",
         source: "Irvine MLS Data",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -57,12 +57,12 @@ export default function FHALoansIrvinePage() {
       data: {
         questions: [
           {
-            question: "What is the FHA loan limit in Irvine CA for 2025?",
-            answer: "The FHA loan limit in Irvine for 2025 is $1,089,300 for single-family homes. This high-cost area limit allows FHA financing for many Irvine condos, townhomes, and some single-family properties."
+            question: "What is the FHA loan limit in Irvine CA for 2026?",
+            answer: "The FHA loan limit in Irvine for 2026 is $1,266,300 for single-family homes. This high-cost area limit allows FHA financing for many Irvine condos, townhomes, and some single-family properties."
           },
           {
             question: "Can I buy a condo in Irvine with an FHA loan?",
-            answer: "Yes, many Irvine condos qualify for FHA financing. The condo project must be FHA-approved, and the unit price must be within the $1,089,300 loan limit. Many Irvine condos fall within this range."
+            answer: "Yes, many Irvine condos qualify for FHA financing. The condo project must be FHA-approved, and the unit price must be within the $1,266,300 loan limit. Many Irvine condos fall within this range."
           },
           {
             question: "What down payment do I need for an FHA loan in Irvine?",
@@ -171,12 +171,12 @@ export default function FHALoansIrvinePage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>FHA Loans Irvine California 2025</h1>
+          <h1>FHA Loans Irvine California 2026</h1>
           <p>FHA loans in Irvine CA with 3.5% down payment for condos, townhomes, and single-family homes. Government-backed mortgages with flexible credit requirements and Competitive pricing. Expert guidance from Mo Abdel NMLS #1426884.</p>
           
           <h2>Irvine FHA Loan Benefits</h2>
           <ul>
-            <li>FHA loan limit: $1,089,300 for 2025</li>
+            <li>FHA loan limit: $1,266,300 for 2026</li>
             <li>35% of Irvine condos qualify for FHA</li>
             <li>3.5% down payment minimum</li>
             <li>Credit scores as low as 580</li>
@@ -199,10 +199,10 @@ export default function FHALoansIrvinePage() {
                 Buy your Irvine home with just 3.5% down payment. FHA loans make homeownership accessible in one of Orange County's most desirable cities, perfect for condos and townhomes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -254,7 +254,7 @@ export default function FHALoansIrvinePage() {
                     <MapPin className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Perfect for Condos</h3>
-                      <p className="text-slate-600">Many Irvine condos fall within the $1,089,300 FHA limit</p>
+                      <p className="text-slate-600">Many Irvine condos fall within the $1,266,300 FHA limit</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -278,14 +278,14 @@ export default function FHALoansIrvinePage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <Shield className="w-6 h-6 mr-2" />
-                    Irvine FHA Loan Data 2025
+                    Irvine FHA Loan Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
                   <div className="space-y-4">
                     <div className="flex justify-between">
                       <span className="text-slate-600">FHA Loan Limit</span>
-                      <span className="font-semibold">$1,089,300</span>
+                      <span className="font-semibold">$1,266,300</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Median Condo Price</span>
@@ -396,10 +396,10 @@ export default function FHALoansIrvinePage() {
               Get specialized FHA financing expertise for Irvine condos and townhomes. Low down payment, Competitive pricing, local market knowledge.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

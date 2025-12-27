@@ -7,7 +7,7 @@ import { CheckCircle, Home, DollarSign, MapPin, GraduationCap, Calculator, Phone
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Definitive Orange County Mortgage Guide 2025 | Complete Resource',
+  title: 'Definitive Orange County Mortgage Guide 2026 | Complete Resource',
   description: 'Complete guide to Orange County mortgages by licensed broker Mo Abdel (NMLS #1426884). FHA, VA, conventional, jumbo loans, market data, and expert guidance.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide',
@@ -21,7 +21,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       description: "Traditional mortgages with Competitive pricing",
       downPayment: "3-20%",
       creditScore: "620+",
-      maxAmount: "$1,089,300 (conforming)",
+      maxAmount: "$1,266,300 (conforming)",
       benefits: ["Lower pricing for good credit", "No mortgage insurance with 20% down", "Flexible terms"],
       icon: Home
     },
@@ -30,7 +30,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       description: "Government-backed loans for first-time buyers",
       downPayment: "3.5%",
       creditScore: "580+",
-      maxAmount: "$1,089,300",
+      maxAmount: "$1,266,300",
       benefits: ["Low down payment", "Flexible credit requirements", "Assumable loans"],
       icon: Users
     },
@@ -87,7 +87,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
     },
     {
       city: "Mission Viejo",
-      medianPrice: "$1.2M",
+      medianPrice: "$1.26M",
       marketType: "Master-planned family community",
       loanConsiderations: "Conventional loans, family-sized homes"
     }
@@ -129,12 +129,12 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
   const marketInsights = [
     {
       metric: "Conforming Loan Limit",
-      value: "$1,089,300",
-      description: "2025 Orange County conforming loan limit (high-cost area)"
+      value: "$1,266,300",
+      description: "2026 Orange County conforming loan limit (high-cost area)"
     },
     {
       metric: "Average Home Price",
-      value: "$1.2M+",
+      value: "$1.26M+",
       description: "Varies significantly by city and neighborhood"
     },
     {
@@ -156,7 +156,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Definitive Orange County Mortgage Guide 2025
+              Definitive Orange County Mortgage Guide 2026
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
               Complete resource for Orange County home buyers and homeowners. Licensed broker guidance
@@ -165,7 +165,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                 <Calculator className="w-5 h-5 mr-2" />
@@ -417,7 +417,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Direct Phone</span>
-              <span className="text-blue-100">(949) 579-2057</span>
+              <span className="text-blue-100">(949) 537-2357</span>
             </div>
             <div className="flex flex-col items-center">
               <Mail className="w-8 h-8 mb-2" />

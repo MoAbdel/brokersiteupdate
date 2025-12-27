@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Northwood Irvine Mortgage Broker | New Construction Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Northwood Irvine mortgage broker specializing in newer construction homes. Modern amenities, family community, competitive financing. Call (949) 579-2057.',
+  description: 'Northwood Irvine mortgage broker specializing in newer construction homes. Modern amenities, family community, competitive financing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/northwood-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function NorthwoodMortgageBrokerPage() {
       {
         stat: "Northwood median home price: $1.65M",
         source: "Irvine MLS Data",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "80% of Northwood homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average home age: 20-30 years",
@@ -66,7 +66,7 @@ export default function NorthwoodMortgageBrokerPage() {
           },
           {
             question: "Do Northwood homes require jumbo financing?",
-            answer: "80% of Northwood homes exceed the 2025 conforming loan limit of $1,089,300, requiring jumbo loan financing. The newer construction typically commands higher values."
+            answer: "80% of Northwood homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The newer construction typically commands higher values."
           },
           {
             question: "What amenities are available in Northwood?",
@@ -133,7 +133,7 @@ export default function NorthwoodMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Northwood Irvine Mortgage Broker 2025</h1>
+          <h1>Northwood Irvine Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Northwood Irvine mortgage financing, serving this newer construction community with modern homes ranging from $1.3M to $2M. Expert in contemporary family home financing.</p>
           
           <h2>Northwood Community Features</h2>
@@ -160,7 +160,7 @@ export default function NorthwoodMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -227,7 +227,7 @@ export default function NorthwoodMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Northwood Market Data 2025
+                    Northwood Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -322,7 +322,7 @@ export default function NorthwoodMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 Get Pre-Approved

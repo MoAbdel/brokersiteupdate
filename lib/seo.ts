@@ -98,7 +98,7 @@ export const structuredData = {
     "latitude": "33.6846",
     "longitude": "-117.8265"
   },
-  "telephone": "+1-949-579-2057",
+  "telephone": "+1-949-537-2357",
   "url": "https://mothebroker.com",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
@@ -108,7 +108,7 @@ export const structuredData = {
     "https://mothebroker.com"
   ],
   "priceRange": "$$",
-  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 579-2057 for local mortgage expertise.",
+  "description": "Licensed mortgage broker based in Lake Forest, serving Orange County, CA. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 537-2357 for local mortgage expertise.",
   "image": "https://mothebroker.com/images/moabdel-headshot-final.png",
   "logo": "https://mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],

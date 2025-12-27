@@ -621,10 +621,10 @@ export default function ServiceProvidersPage() {
                 Request Introductions
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/fha-loans-orange-county",
   "description": "Expert FHA loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -113,7 +113,7 @@ const fhaRequirements = [
   {
     category: 'Orange County Specific',
     requirements: [
-      'Loan amount cannot exceed $1,089,300 (2025 limit)',
+      'Loan amount cannot exceed $1,266,300 (2026 limit)',
       'Property must be within Orange County boundaries',
       'Competitive market requires strong pre-approval',
       'Local market knowledge essential for success'
@@ -123,8 +123,8 @@ const fhaRequirements = [
 
 const faqs = [
   {
-    question: "What are the 2025 FHA loan limits in Orange County?",
-    answer: "The 2025 FHA loan limit for Orange County is $1,089,300 for single-family homes. This is slightly below the conforming high-cost limit of $1,209,750. This means you can purchase homes up to approximately $1.13 million with 3.5% down, assuming you meet other FHA requirements."
+    question: "What are the 2026 FHA loan limits in Orange County?",
+    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This is slightly below the conforming high-cost limit of $1,209,750. This means you can purchase homes up to approximately $1.13 million with 3.5% down, assuming you meet other FHA requirements."
   },
   {
     question: "What's the difference between FHA and conventional loans in Orange County?",
@@ -159,7 +159,7 @@ const comparisonData = [
   },
   {
     feature: 'Loan Limits (Orange County)',
-    fha: '$1,089,300',
+    fha: '$1,266,300',
     conventional: '$1,209,750',
     va: 'No limit (with down payment)'
   },
@@ -205,7 +205,7 @@ export default function FHALoansOrangeCountyPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Home className="w-5 h-5 mr-2" />
                   Get Pre-Approved for FHA
                 </a>
@@ -218,20 +218,20 @@ export default function FHALoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 FHA Loan Limits */}
+          {/* 2026 FHA Loan Limits */}
           <section className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2025 FHA Loan Limits in Orange County
+              2026 FHA Loan Limits in Orange County
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center">
-                The 2025 FHA loan limit for Orange County is <strong>$1,089,300</strong> for single-family homes. 
+                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes. 
                 This is slightly below the conforming high-cost limit of <strong>$1,209,750</strong>.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,089,300</h3>
-                  <p className="text-slate-700">2025 FHA Loan Limit</p>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
+                  <p className="text-slate-700">2026 FHA Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
@@ -373,7 +373,7 @@ export default function FHALoansOrangeCountyPage() {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-3">Home Shopping</h3>
                 <p className="text-slate-600">
-                  Search for FHA-eligible homes within the $1,089,300 loan limit. 
+                  Search for FHA-eligible homes within the $1,266,300 loan limit. 
                   I'll help identify suitable properties.
                 </p>
               </div>
@@ -446,8 +446,8 @@ export default function FHALoansOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
-                  Call (949) 579-2057
+                <a href="tel:(949) 537-2357">
+                  Call (949) 537-2357
                 </a>
               </Button>
               <Link href="/contact">

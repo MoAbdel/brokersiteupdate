@@ -8,7 +8,7 @@ import { DollarSign, FileText, TrendingUp, Users, Check, AlertCircle, Calculator
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans Irvine CA | Self-Employed Mortgage | No Income Documentation | Mo Abdel NMLS #1426884',
-  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 579-2057.',
+  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
   },
@@ -41,9 +41,9 @@ export default function BankStatementLoansIrvinePage() {
                 Get Irvine Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -151,7 +151,7 @@ export default function BankStatementLoansIrvinePage() {
               { name: 'University Park', price: '$1.4M+' },
               { name: 'Woodbridge', price: '$1.3M+' },
               { name: 'Northwood', price: '$1.5M+' },
-              { name: 'Cypress Village', price: '$1.2M+' },
+              { name: 'Cypress Village', price: '$1.26M+' },
               { name: 'Great Park', price: '$1.1M+' }
             ].map((neighborhood) => (
               <Card key={neighborhood.name} className="hover:shadow-md transition-shadow">
@@ -207,10 +207,10 @@ export default function BankStatementLoansIrvinePage() {
                 Start Your Application
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 579-2057
+                (949) 537-2357
               </Button>
             </a>
           </div>
@@ -294,7 +294,7 @@ export default function BankStatementLoansIrvinePage() {
                 <p className="text-slate-700">
                   Bank statement loans work excellently for all Irvine neighborhoods, especially premium areas like Turtle Rock ($1.8M+), 
                   Quail Hill ($1.6M+), Shady Canyon ($3M+), University Park ($1.4M+), Woodbridge ($1.3M+), Northwood ($1.5M+), 
-                  Cypress Village ($1.2M+), and Great Park ($1.1M+). The flexible qualification helps buyers access these desirable communities.
+                  Cypress Village ($1.26M+), and Great Park ($1.1M+). The flexible qualification helps buyers access these desirable communities.
                 </p>
               </CardContent>
             </Card>

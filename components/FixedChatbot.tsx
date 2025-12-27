@@ -262,7 +262,7 @@ function ChatbotUI() {
               }}
             >
               <Phone size={16} />
-              Call Mo directly: (949) 579-2057
+              Call Mo directly: (949) 537-2357
             </a>
           </div>
 

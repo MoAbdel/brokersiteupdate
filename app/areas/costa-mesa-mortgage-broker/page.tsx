@@ -7,7 +7,7 @@ import { MapPin, Home, ShoppingBag, Palette, TrendingUp, Users, Building } from 
 
 export const metadata: Metadata = {
   title: 'Costa Mesa Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Costa Mesa mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving South Coast Plaza area, Mesa Verde, Eastside. Call (949) 579-2057.',
+  description: 'Costa Mesa mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving South Coast Plaza area, Mesa Verde, Eastside. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/costa-mesa-mortgage-broker',
   },
@@ -32,7 +32,7 @@ export default function CostaMesaMortgageBrokerPage() {
     },
     {
       name: 'Newport Heights',
-      avgPrice: '$1.2M',
+      avgPrice: '$1.26M',
       description: 'Upscale area bordering Newport Beach with custom homes'
     },
     {
@@ -93,9 +93,9 @@ export default function CostaMesaMortgageBrokerPage() {
                 Get Costa Mesa Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -247,7 +247,7 @@ export default function CostaMesaMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,089,300</span>
+                <span className="font-bold">$1,266,300</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>
@@ -300,7 +300,7 @@ export default function CostaMesaMortgageBrokerPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Many Costa Mesa homes fall within conforming loan limits of $1,089,300, 
+                  Many Costa Mesa homes fall within conforming loan limits of $1,266,300, 
                   making them eligible for conventional financing. However, luxury properties 
                   near South Coast Plaza may require jumbo loans.
                 </p>
@@ -349,9 +349,9 @@ export default function CostaMesaMortgageBrokerPage() {
                 Get My Costa Mesa Rates
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

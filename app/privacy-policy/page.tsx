@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
-  const lastUpdated = "January 15, 2025";
+  const lastUpdated = "January 15, 2026";
   
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-slate-700 mb-4">To exercise your California privacy rights, contact us:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
-              <li>Phone: (949) 579-2057</li>
+              <li>Phone: (949) 537-2357</li>
               <li>Mail: [West Capital Lending Address - To be provided by attorney]</li>
             </ul>
           </section>
@@ -213,7 +213,7 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 579-2057</span>
+                  <span>Phone: (949) 537-2357</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

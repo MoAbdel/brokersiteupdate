@@ -107,10 +107,10 @@ export default function OrangeCountySchoolDistrictsGuide() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -274,7 +274,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
               <div className="space-y-3">
                 <p className="text-slate-600">Best for established districts like Irvine and Newport-Mesa</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>• Up to $1,089,300 (2025 limit)</li>
+                  <li>• Up to $1,266,300 (2026 limit)</li>
                   <li>• 3% down payment options</li>
                   <li>• Competitive pricing</li>
                   <li>• Fast approval process</li>
@@ -290,7 +290,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
               <div className="space-y-3">
                 <p className="text-slate-600">For luxury districts like Laguna Beach and Newport Coast</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>• Above $1,089,300</li>
+                  <li>• Above $1,266,300</li>
                   <li>• 10-20% down payment</li>
                   <li>• Competitive jumbo rates</li>
                   <li>• Flexible terms</li>
@@ -308,7 +308,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>• 3.5% down payment</li>
                   <li>• Flexible credit requirements</li>
-                  <li>• Up to $1,089,300 in OC</li>
+                  <li>• Up to $1,266,300 in OC</li>
                   <li>• Great for first-time buyers</li>
                 </ul>
                 <Link href="/loan-programs/fha-loans">
@@ -386,10 +386,10 @@ export default function OrangeCountySchoolDistrictsGuide() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

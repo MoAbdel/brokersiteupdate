@@ -8,7 +8,7 @@ import { DollarSign, FileText, TrendingUp, Users, Check, AlertCircle, Calculator
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans Orange County | Self-Employed Mortgage | No Income Documentation',
-  description: 'Bank statement loans in Orange County for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender. Call (949) 579-2057.',
+  description: 'Bank statement loans in Orange County for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans',
   },
@@ -35,9 +35,9 @@ export default function BankStatementLoansPage() {
                 Get Bank Statement Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -296,7 +296,7 @@ export default function BankStatementLoansPage() {
                   <div className="space-y-1 text-sm">
                     <div className="flex justify-between">
                       <span>Irvine/Newport Beach:</span>
-                      <span className="font-semibold">$1.2M - $2.5M</span>
+                      <span className="font-semibold">$1.26M - $2.5M</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Costa Mesa/Huntington:</span>
@@ -389,9 +389,9 @@ export default function BankStatementLoansPage() {
                 Start Your Application
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/heloc-orange-county",
   "description": "Expert HELOC services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -89,7 +89,7 @@ const faqs = [
   },
   {
     question: "What are current HELOC pricing in Orange County?",
-    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2025, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
+    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2026, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
   },
   {
     question: "How much can I borrow with a HELOC in Orange County?",
@@ -164,7 +164,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">Call (949) 579-2057</a>
+                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
               </Button>
             </div>
           </div>
@@ -457,7 +457,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">Call (949) 579-2057</a>
+                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
               </Button>
             </div>
             <p className="text-sm text-blue-200 mt-4">

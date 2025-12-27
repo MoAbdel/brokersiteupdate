@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calculator, FileText, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'VA Loans Orange County 2025 | Zero Down Veterans Home Loans',
-  description: 'Get VA loans in Orange County with $0 down, no PMI, and Competitive pricing. Mo Abdel specializes in VA financing for veterans with 2025 loan limits up to $1,209,750.',
+  title: 'VA Loans Orange County 2026 | Zero Down Veterans Home Loans',
+  description: 'Get VA loans in Orange County with $0 down, no PMI, and Competitive pricing. Mo Abdel specializes in VA financing for veterans with 2026 loan limits up to $1,209,750.',
   alternates: {
     canonical: 'https://www.mothebroker.com/va-loans-orange-county',
   },
@@ -23,7 +23,7 @@ const jsonLd = {
     "@type": "Person",
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 579-2057",
+    "telephone": "(949) 537-2357",
     "email": "mo@mothebroker.com"
   },
   "areaServed": {
@@ -36,7 +36,7 @@ const jsonLd = {
     "addressRegion": "CA",
     "addressCountry": "US"
   },
-  "telephone": "(949) 579-2057",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/va-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
@@ -62,7 +62,7 @@ export default function VALoansOrangeCountyPage() {
               🇺🇸 Honoring Our Veterans
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              VA Loans Orange County 2025 – <span className="text-blue-600">Zero Down Veterans Home Financing</span>
+              VA Loans Orange County 2026 – <span className="text-blue-600">Zero Down Veterans Home Financing</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
               Thank you for your service. Now let Mo Abdel serve you with zero down payment VA loans 
@@ -74,7 +74,7 @@ export default function VALoansOrangeCountyPage() {
                   Apply for VA Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call VA Specialist
                 </Button>
@@ -82,14 +82,14 @@ export default function VALoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 VA Loan Limits */}
+          {/* 2026 VA Loan Limits */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">2025 VA Loan Limits Orange County</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits Orange County</h2>
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
-                  <div className="text-slate-600">2025 Conforming Loan Limit</div>
+                  <div className="text-slate-600">2026 Conforming Loan Limit</div>
                   <div className="text-sm text-slate-500 mt-1">Standard VA loan amount</div>
                 </div>
                 <div className="text-center">
@@ -104,7 +104,7 @@ export default function VALoansOrangeCountyPage() {
                 </div>
               </div>
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="font-bold text-slate-900 mb-3">Orange County VA Loan Benefits 2025:</h3>
+                <h3 className="font-bold text-slate-900 mb-3">Orange County VA Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• VA loans can exceed $1,209,750 with 25% down on the excess amount</li>
                   <li>• Full entitlement allows up to $1,209,750 with zero down payment</li>
@@ -271,7 +271,7 @@ export default function VALoansOrangeCountyPage() {
 
           {/* VA vs FHA vs Conventional Comparison */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">VA vs FHA vs Conventional Loans Orange County 2025</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">VA vs FHA vs Conventional Loans Orange County 2026</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
                 <thead className="bg-blue-600 text-white">
@@ -284,9 +284,9 @@ export default function VALoansOrangeCountyPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold">Orange County 2025 Limit</td>
+                    <td className="px-6 py-4 font-semibold">Orange County 2026 Limit</td>
                     <td className="px-6 py-4 text-center text-green-600 font-bold">$1,209,750</td>
-                    <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,089,300</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
                     <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,209,750</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
@@ -560,7 +560,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Absolutely! With the 2025 limit of $1,209,750, most Orange County homes 
+                    Absolutely! With the 2026 limit of $1,209,750, most Orange County homes 
                     qualify for zero down VA financing. For homes above this amount, you'd put 25% 
                     down only on the excess amount, still saving significantly on the total down payment.
                   </p>
@@ -595,7 +595,7 @@ export default function VALoansOrangeCountyPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">What are the VA funding fees for 2025?</CardTitle>
+                  <CardTitle className="text-lg">What are the VA funding fees for 2026?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
@@ -623,9 +623,9 @@ export default function VALoansOrangeCountyPage() {
                   Start My VA Loan Application
                 </Button>
               </Link>
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                  Call VA Expert: (949) 579-2057
+                  Call VA Expert: (949) 537-2357
                 </Button>
               </a>
             </div>

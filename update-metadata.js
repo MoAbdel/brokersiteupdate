@@ -18,7 +18,7 @@ const metadataConfig = {
   },
   '/loan-programs/jumbo-loans': {
     title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
-    description: 'Jumbo loans for Orange County luxury homes above $1,089,300. Competitive rates for high-value properties. NMLS #1426884.',
+    description: 'Jumbo loans for Orange County luxury homes above $1,266,300. Competitive rates for high-value properties. NMLS #1426884.',
   },
   '/loan-programs/heloc': {
     title: 'HELOC | Mo Abdel - Orange County Mortgage Broker',
@@ -70,7 +70,7 @@ const metadataConfig = {
   },
   '/loan-programs/orange-county-fha-loan-limits': {
     title: 'Orange County FHA Loan Limits | Mo Abdel - Orange County Mortgage Broker',
-    description: '2025 FHA loan limits for Orange County: $1,089,300. Get pre-approved for government-backed financing. NMLS #1426884.',
+    description: '2026 FHA loan limits for Orange County: $1,266,300. Get pre-approved for government-backed financing. NMLS #1426884.',
   },
   '/loan-programs/orange-county-va-loans': {
     title: 'Orange County VA Loans | Mo Abdel - Orange County Mortgage Broker',
@@ -142,7 +142,7 @@ const metadataConfig = {
   },
   '/guides/orange-county-jumbo-loans': {
     title: 'Orange County Jumbo Loan Guide | Mo Abdel - Orange County Mortgage Broker',
-    description: 'Jumbo loan guide for Orange County luxury properties over $1,089,300. Requirements and best rates. NMLS #1426884.',
+    description: 'Jumbo loan guide for Orange County luxury properties over $1,266,300. Requirements and best rates. NMLS #1426884.',
   },
   '/guides/orange-county-investment-property': {
     title: 'Orange County Investment Property Guide | Mo Abdel - Orange County Mortgage Broker',

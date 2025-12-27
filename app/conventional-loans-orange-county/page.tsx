@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-  description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
+  description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,266,300. Apply today with Mo Abdel.',
   openGraph: {
     title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-    description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,089,300. Apply today with Mo Abdel.',
+    description: 'Get conventional loans in Orange County with Competitive pricing. Flexible down payments from 3% and loan amounts up to $1,266,300. Apply today with Mo Abdel.',
     type: 'website',
   },
   alternates: {
@@ -38,7 +38,7 @@ const benefits = [
   {
     icon: Calculator,
     title: 'Higher Loan Limits',
-    description: 'Borrow up to $1,089,300 in Orange County with conventional conforming loans in 2025.'
+    description: 'Borrow up to $1,266,300 in Orange County with conventional conforming loans in 2026.'
   },
   {
     icon: FileText,
@@ -78,9 +78,9 @@ const conventionalVsFHA = [
     fha: 'MIP (permanent)'
   },
   {
-    feature: 'Loan Limits (2025)',
-    conventional: '$1,089,300',
-    fha: '$1,089,300'
+    feature: 'Loan Limits (2026)',
+    conventional: '$1,266,300',
+    fha: '$1,266,300'
   },
   {
     feature: 'Property Types',
@@ -177,11 +177,11 @@ export default function ConventionalLoansOrangeCounty() {
               </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">2025 Conventional Loan Limits</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6">2026 Conventional Loan Limits</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-slate-200">
                   <span className="font-semibold text-slate-700">Orange County Conforming Limit</span>
-                  <span className="text-xl font-bold text-green-600">$1,089,300</span>
+                  <span className="text-xl font-bold text-green-600">$1,266,300</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-slate-200">
                   <span className="font-semibold text-slate-700">Minimum Down Payment</span>
@@ -322,8 +322,8 @@ export default function ConventionalLoansOrangeCounty() {
                 answer: 'Most conventional loans require a minimum credit score of 620, though some programs accept scores as low as 580. Higher credit scores (740+) typically qualify for the best loan pricing.'
               },
               {
-                question: 'What is the 2025 conventional loan limit in Orange County?',
-                answer: 'The conforming loan limit for Orange County in 2025 is $1,089,300, as set by the Federal Housing Finance Agency. Loans above this amount are considered jumbo loans and have different requirements and rates. Learn more about our <a href="/loan-programs/jumbo-loans" className="text-blue-600 hover:text-blue-700 underline">jumbo loan options</a>.'
+                question: 'What is the 2026 conventional loan limit in Orange County?',
+                answer: 'The conforming loan limit for Orange County in 2026 is $1,266,300, as set by the Federal Housing Finance Agency. Loans above this amount are considered jumbo loans and have different requirements and rates. Learn more about our <a href="/loan-programs/jumbo-loans" className="text-blue-600 hover:text-blue-700 underline">jumbo loan options</a>.'
               },
               {
                 question: 'Can I use a conventional loan for investment property?',
@@ -363,7 +363,7 @@ export default function ConventionalLoansOrangeCounty() {
             </Link>
             <Link href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </Link>
           </div>

@@ -8,7 +8,7 @@ import { Hammer, Clock, TrendingUp, DollarSign, Check, AlertCircle, Calculator, 
 
 export const metadata: Metadata = {
   title: 'Fix & Flip Loans Orange County | Real Estate Investor Financing | Short-Term Bridge Loans',
-  description: 'Fix & flip loans in Orange County for real estate investors. Quick 7-10 day closings, up to 90% ARV, 6-24 month terms. Experienced investor lender. Call (949) 579-2057.',
+  description: 'Fix & flip loans in Orange County for real estate investors. Quick 7-10 day closings, up to 90% ARV, 6-24 month terms. Experienced investor lender. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fix-flip-loans',
   },
@@ -35,9 +35,9 @@ export default function FixFlipLoansPage() {
                 Get Investor Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -271,7 +271,7 @@ export default function FixFlipLoansPage() {
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span>Purchase Price:</span>
-                      <span className="font-semibold">$600K - $1.2M</span>
+                      <span className="font-semibold">$600K - $1.26M</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Rehab Budget:</span>
@@ -420,9 +420,9 @@ export default function FixFlipLoansPage() {
                 Get Investor Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

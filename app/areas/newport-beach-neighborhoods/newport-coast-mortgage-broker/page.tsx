@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Newport Coast Mortgage Broker | Ultra-Luxury Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Newport Coast mortgage broker specializing in ultra-luxury coastal estates. Prestigious community financing, ocean view properties, estate loans. Call (949) 579-2057.',
+  description: 'Newport Coast mortgage broker specializing in ultra-luxury coastal estates. Prestigious community financing, ocean view properties, estate loans. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker',
   },
@@ -33,12 +33,12 @@ export default function NewportCoastMortgageBrokerPage() {
       {
         stat: "Newport Coast median home price: $7.2M",
         source: "Newport Beach MLS",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "100% require super jumbo loans above $3M",
         source: "Orange County Luxury Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average lot size: 15,000+ sq ft",
@@ -161,7 +161,7 @@ export default function NewportCoastMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Newport Coast Mortgage Broker 2025</h1>
+          <h1>Newport Coast Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Newport Coast ultra-luxury financing, serving Orange County's most prestigious coastal community with estates ranging from $3M to $20M+. Expert in ocean view properties and custom estate financing.</p>
           
           <h2>Newport Coast Luxury Market</h2>
@@ -188,7 +188,7 @@ export default function NewportCoastMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -255,7 +255,7 @@ export default function NewportCoastMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
-                    Newport Coast Market Data 2025
+                    Newport Coast Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">
@@ -385,7 +385,7 @@ export default function NewportCoastMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Crown className="w-5 h-5 mr-2" />

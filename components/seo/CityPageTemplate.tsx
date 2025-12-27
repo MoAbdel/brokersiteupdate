@@ -153,10 +153,10 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Get Free Quote: (949) 579-2057
+                  Get Free Quote: (949) 537-2357
                 </Button>
               </a>
               <Link href="/calculator">
@@ -358,10 +358,10 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
               Get a personalized loan quote and pre-approval in minutes. No obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-blue-50">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call: (949) 579-2057
+                  Call: (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">

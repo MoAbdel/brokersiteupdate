@@ -47,7 +47,7 @@ export default function EnhancedLocalSchema({
       "name": "Mo Abdel",
       "identifier": "NMLS #1426884",
       "jobTitle": "Licensed Mortgage Broker",
-      "telephone": "(949) 579-2057",
+      "telephone": "(949) 537-2357",
       "email": "mo@mothebroker.com",
       "url": "https://mothebroker.com",
       "hasCredential": {
@@ -130,7 +130,7 @@ export default function EnhancedLocalSchema({
     "@type": "LocalBusiness",
     "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker | Mo Abdel`,
     "image": "https://mothebroker.com/images/moabdel-headshot-final.png",
-    "telephone": "(949) 579-2057",
+    "telephone": "(949) 537-2357",
     "email": "mo@mothebroker.com",
     "url": city ? `https://mothebroker.com/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : "https://mothebroker.com",
     "address": {
@@ -279,7 +279,7 @@ export default function EnhancedLocalSchema({
       
       {/* Local business meta */}
       <meta name="business.hours" content="M-F 8:00-20:00, Sa 9:00-18:00, Su 10:00-16:00" />
-      <meta name="business.phone" content="(949) 579-2057" />
+      <meta name="business.phone" content="(949) 537-2357" />
       <meta name="business.license" content="NMLS #1426884" />
       <meta name="business.service_area" content={city ? `${city}, Orange County, CA` : "Orange County, CA"} />
       

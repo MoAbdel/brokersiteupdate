@@ -34,7 +34,7 @@ export default function LeadMagnet() {
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Free 2025 Orange County Homebuyer's Guide
+                Free 2026 Orange County Homebuyer's Guide
               </h2>
 
               <p className="text-xl mb-8 text-blue-100">

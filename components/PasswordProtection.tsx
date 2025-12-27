@@ -12,7 +12,7 @@ interface PasswordProtectionProps {
 
 export default function PasswordProtection({ 
   children, 
-  requiredPassword = 'MoTheBroker2025!' 
+  requiredPassword = 'MoTheBroker2026!' 
 }: PasswordProtectionProps) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState('');

@@ -151,7 +151,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
               <Building className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Investment Property Guide 2025
+              Orange County Investment Property Guide 2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Complete guide to buying investment properties in Orange County. Market analysis, 
@@ -159,10 +159,10 @@ export default function OrangeCountyInvestmentPropertyGuide() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -433,10 +433,10 @@ export default function OrangeCountyInvestmentPropertyGuide() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 579-2057">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

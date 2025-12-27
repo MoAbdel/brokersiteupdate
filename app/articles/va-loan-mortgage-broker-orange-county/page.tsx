@@ -43,7 +43,7 @@ export default function VALoanBrokerArticle() {
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
-                <span>January 9, 2025</span>
+                <span>January 9, 2026</span>
                 <span>•</span>
                 <span>12 min read</span>
               </div>
@@ -234,20 +234,20 @@ export default function VALoanBrokerArticle() {
 
               {/* OC VA Loan Limits */}
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">2025 Orange County VA Loan Limits & Purchasing Power</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">2026 Orange County VA Loan Limits & Purchasing Power</h2>
                 
                 <div className="bg-green-50 p-8 rounded-lg mb-8">
                   <h3 className="text-2xl font-semibold mb-4">Orange County VA Loan Limits</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-lg mb-3">Basic Entitlement</h4>
-                      <p className="text-3xl font-bold text-green-600 mb-2">$1,089,300</p>
+                      <p className="text-3xl font-bold text-green-600 mb-2">$1,266,300</p>
                       <p className="text-sm text-gray-600">Maximum loan with $0 down payment</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-lg mb-3">Above County Limits</h4>
                       <p className="text-xl font-bold text-blue-600 mb-2">25% Down Payment</p>
-                      <p className="text-sm text-gray-600">Required on amount above $1,089,300</p>
+                      <p className="text-sm text-gray-600">Required on amount above $1,266,300</p>
                     </div>
                   </div>
                 </div>
@@ -277,7 +277,7 @@ export default function VALoanBrokerArticle() {
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
                         <p><strong>Purchase Price:</strong> $1,300,000</p>
-                        <p><strong>VA Loan Amount:</strong> $1,089,300</p>
+                        <p><strong>VA Loan Amount:</strong> $1,266,300</p>
                         <p><strong>Down Payment Required:</strong> $210,700 (25% of excess)</p>
                         <p><strong>Funding Fee:</strong> 2.15% (~$23,420)</p>
                       </div>
@@ -510,7 +510,7 @@ export default function VALoanBrokerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">Are there loan limits with VA loans in Orange County?</h3>
                     <p className="text-gray-700">
-                      For 2025, you can borrow up to $1,089,300 with zero down payment in Orange County. For homes above this amount, you'll need a 25% down payment on the amount exceeding the limit. There's technically no maximum loan amount, making VA loans suitable even for luxury Orange County properties.
+                      For 2026, you can borrow up to $1,266,300 with zero down payment in Orange County. For homes above this amount, you'll need a 25% down payment on the amount exceeding the limit. There's technically no maximum loan amount, making VA loans suitable even for luxury Orange County properties.
                     </p>
                   </div>
 
@@ -552,7 +552,7 @@ export default function VALoanBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Veteran-owned business: <a href="tel:949-579-2057" className="underline font-semibold">(949) 579-2057</a>
+                  Veteran-owned business: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
                 </p>
                 <p className="text-xs mt-2 opacity-90">Thank you for your service. 🇺🇸</p>
               </section>
