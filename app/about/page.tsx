@@ -151,7 +151,7 @@ export default function AboutPage() {
                 <h3 className="text-lg font-semibold mb-4 text-green-400">Licenses</h3>
                 <ul className="space-y-2 text-slate-300">
                   <li>• NMLS #1426884</li>
-                  <li>• California Licensed Mortgage Broker</li>
+                  <li>• Licensed in: CA, WA, VA, CO</li>
                   <li>• CA DRE #02022356</li>
                 </ul>
               </div>

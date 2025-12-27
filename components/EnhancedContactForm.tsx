@@ -240,7 +240,7 @@ export default function EnhancedContactForm() {
       formData_submit.append('loan_type', results?.loanType || 'N/A');
       formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`);
 
-      const response = await fetch('https://formspree.io/f/mldpgrok', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         body: formData_submit,
         headers: {
