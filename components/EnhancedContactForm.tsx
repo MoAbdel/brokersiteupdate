@@ -226,25 +226,25 @@ export default function EnhancedContactForm() {
     try {
       const results = calculateMortgageDetails();
 
-      const formData_submit = new FormData();
-      formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
-      formData_submit.append('email', formData.email);
-      formData_submit.append('phone', formData.phone);
-      formData_submit.append('city', formData.city);
-      formData_submit.append('loan_purpose', formData.loanPurpose || 'inquiry');
-      formData_submit.append('timeline', formData.timeline);
-      formData_submit.append('loan_amount', formData.loanAmount || 'N/A');
-      formData_submit.append('home_value', formData.homeValue || 'N/A');
-      formData_submit.append('additional_info', formData.additionalInfo || '');
-      if (results) {
-        formData_submit.append('loan_type', results.loanType);
-      }
-      formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`);
+      const payload = {
+        full_name: `${formData.firstName} ${formData.lastName}`,
+        email: formData.email,
+        phone: formData.phone,
+        city: formData.city,
+        loan_purpose: formData.loanPurpose || 'inquiry',
+        timeline: formData.timeline,
+        loan_amount: formData.loanAmount || 'N/A',
+        home_value: formData.homeValue || 'N/A',
+        additional_info: formData.additionalInfo || '',
+        loan_type: results?.loanType || 'N/A',
+        _subject: `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`,
+      };
 
       const response = await fetch('https://formspree.io/f/mldpgrok', {
         method: 'POST',
-        body: formData_submit,
+        body: JSON.stringify(payload),
         headers: {
+          'Content-Type': 'application/json',
           'Accept': 'application/json'
         }
       });
@@ -253,14 +253,23 @@ export default function EnhancedContactForm() {
         throw new Error('Failed to submit contact form');
       }
 
-      gtagSendEvent();
+      // Safe tracking calls
+      try {
+        gtagSendEvent();
+      } catch (e) {
+        console.warn('Google Ads tracking failed:', e);
+      }
 
-      fbTrack('Lead', {
-        content_name: 'Enhanced Contact Form Submission',
-        content_category: 'mortgage_inquiry',
-        value: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0,
-        currency: 'USD'
-      });
+      try {
+        fbTrack('Lead', {
+          content_name: 'Enhanced Contact Form Submission',
+          content_category: 'mortgage_inquiry',
+          value: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0,
+          currency: 'USD'
+        });
+      } catch (e) {
+        console.warn('Facebook Pixel tracking failed:', e);
+      }
 
       setShowSuccess(true);
     } catch (error) {
