@@ -2,8 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { Phone, X } from 'lucide-react';
+import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 
 export default function MobileStickyCallButton() {
+  const { trackPhoneCall } = useFacebookTracking();
   const [isVisible, setIsVisible] = useState(false);
   const [isDismissed, setIsDismissed] = useState(false);
 
@@ -37,59 +39,44 @@ export default function MobileStickyCallButton() {
 
   return (
     <>
-      {/* Mobile Only - Sticky Call Button */}
-      <div
-        className={`fixed bottom-0 left-0 right-0 z-50 md:hidden transition-transform duration-300 ${
-          isVisible ? 'translate-y-0' : 'translate-y-full'
-        }`}
-      >
-        <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-2xl">
-          <div className="relative">
-            {/* Dismiss Button */}
-            <button
-              onClick={handleDismiss}
-              className="absolute -top-10 right-2 bg-slate-900/80 text-white rounded-full p-2 hover:bg-slate-900"
-              aria-label="Dismiss call button"
-            >
-              <X className="w-4 h-4" />
-            </button>
-
-            {/* Call Button */}
-            <a
-              href="tel:+19495372357"
-              className="flex items-center justify-center gap-3 px-6 py-4 font-bold text-lg"
-              onClick={() => {
-                // Track conversion event
-                if (typeof window !== 'undefined' && (window as any).gtag) {
-                  (window as any).gtag('event', 'click_to_call', {
-                    event_category: 'engagement',
-                    event_label: 'Mobile Sticky Button'
-                  });
-                }
-              }}
-            >
-              <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full">
-                <Phone className="w-6 h-6 text-green-600 animate-pulse" />
-              </div>
-              <div className="text-left">
-                <div className="text-xs font-normal text-green-100">Tap to Call Mo Abdel</div>
-                <div className="text-xl font-bold">(949) 537-2357</div>
-              </div>
-            </a>
-          </div>
+      {/* Mobile Only - Always Sticky Call Button */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
+        <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] pb-safe">
+          <a
+            href="tel:(949) 537-2357"
+            className="flex items-center justify-center gap-3 px-6 py-4 font-bold"
+            onClick={() => {
+              trackPhoneCall();
+              // Track conversion event
+              if (typeof window !== 'undefined' && (window as any).gtag) {
+                (window as any).gtag('event', 'click_to_call', {
+                  event_category: 'engagement',
+                  event_label: 'Mobile Sticky Permanent'
+                });
+              }
+            }}
+          >
+            <div className="flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-inner">
+              <Phone className="w-5 h-5 text-green-600 animate-pulse" />
+            </div>
+            <div className="text-left">
+              <span className="block text-[10px] font-normal text-green-100 uppercase tracking-wider leading-none mb-1">Tap to Call Mo Abdel</span>
+              <span className="block text-xl font-black leading-none uppercase tracking-tight">(949) 537-2357</span>
+            </div>
+          </a>
         </div>
       </div>
 
-      {/* Desktop - Floating Call Button (Bottom Right) */}
+      {/* Desktop - Floating Call Button (Bottom Right) - Only shown on scroll */}
       <div
-        className={`hidden md:block fixed bottom-8 right-8 z-50 transition-transform duration-300 ${
-          isVisible ? 'translate-y-0' : 'translate-y-32'
-        }`}
+        className={`hidden md:block fixed bottom-8 right-8 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : 'translate-y-32'
+          }`}
       >
         <a
-          href="tel:+19495372357"
+          href="tel:(949) 537-2357"
           className="flex items-center gap-3 bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group"
           onClick={() => {
+            trackPhoneCall();
             // Track conversion event
             if (typeof window !== 'undefined' && (window as any).gtag) {
               (window as any).gtag('event', 'click_to_call', {
