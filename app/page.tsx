@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/images/mo-headshot.jpg',
+        url: '/images/moabdel-headshot-final.png',
         width: 1200,
         height: 630,
         alt: 'Mo Abdel - Orange County Mortgage Broker',

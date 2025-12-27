@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel | Mortgage Broker',
     images: [
       {
-        url: '/images/mo-headshot.jpg',
+        url: '/images/moabdel-headshot-final.png',
         width: 1200,
         height: 630,
         alt: 'Orange County Mortgage Broker - Mo Abdel NMLS #1426884',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
     description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
-    images: ['/images/mo-headshot.jpg'],
+    images: ['/images/moabdel-headshot-final.png'],
     creator: '@mothebroker',
     site: '@mothebroker',
   },
@@ -117,21 +117,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
-        {/* OpenGraph Meta Tags */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.mothebroker.com" />
-        <meta property="og:title" content="Mo Abdel - Mortgage Broker | Orange County Mortgage NMLS #1426884" />
-        <meta property="og:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
-        <meta property="og:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
-        <meta property="og:site_name" content="Mo Abdel" />
-        <meta property="og:locale" content="en_US" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.mothebroker.com" />
-        <meta name="twitter:title" content="Mo Abdel | Mortgage Broker Orange County" />
-        <meta name="twitter:description" content="Mortgage broker serving Orange County. Access 200+ lenders for competitive wholesale pricing, fast closings. FHA, VA, conventional loans. Licensed NMLS #1426884." />
-        <meta name="twitter:image" content="https://www.mothebroker.com/images/moabdel-headshot-final.png" />
 
         <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2026" />

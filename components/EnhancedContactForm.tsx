@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -240,16 +241,14 @@ export default function EnhancedContactForm() {
         _subject: `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`,
       };
 
-      const response = await fetch('https://formspree.io/f/mldpgrok', {
-        method: 'POST',
-        body: JSON.stringify(payload),
+      const response = await axios.post('https://formspree.io/f/mldpgrok', payload, {
         headers: {
-          'Content-Type': 'application/json',
           'Accept': 'application/json'
         }
       });
 
-      if (!response.ok) {
+      // axios throws on non-2xx by default, but let's be explicit if needed
+      if (response.status !== 200 && response.status !== 201) {
         throw new Error('Failed to submit contact form');
       }
 
