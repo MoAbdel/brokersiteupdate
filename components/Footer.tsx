@@ -128,6 +128,7 @@ export default function Footer() {
                     <p className="text-slate-300 text-sm font-medium mb-1">24 Executive Park Suite 250, Irvine, CA 92614</p>
                     <p className="text-slate-400 text-xs mb-1">Direct: (949) 537-2357 | mabdel@wclloans.com</p>
                     <p className="text-slate-400 text-xs mb-1">Company NMLS #1566096 | CA DRE #02022356</p>
+                    <p className="text-slate-400 text-xs mb-1">Licensed in: CA, WA, VA, CO</p>
                     <p className="text-slate-400 text-xs">Licensed by the CA Department of Financial Protection and Innovation</p>
                   </div>
 
