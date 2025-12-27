@@ -8,16 +8,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com',
   },
-  openGraph: {
-    images: [
-      {
-        url: '/images/moabdel-headshot-final.png',
-        width: 1200,
-        height: 630,
-        alt: 'Mo Abdel - Orange County Mortgage Broker',
-      },
-    ],
-  },
+  openGraph: {},
 };
 
 export default function HomePage() {

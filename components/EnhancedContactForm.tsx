@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -227,28 +227,30 @@ export default function EnhancedContactForm() {
     try {
       const results = calculateMortgageDetails();
 
-      const payload = {
-        full_name: `${formData.firstName} ${formData.lastName}`,
-        email: formData.email,
-        phone: formData.phone,
-        city: formData.city,
-        loan_purpose: formData.loanPurpose || 'inquiry',
-        timeline: formData.timeline,
-        loan_amount: formData.loanAmount || 'N/A',
-        home_value: formData.homeValue || 'N/A',
-        additional_info: formData.additionalInfo || '',
-        loan_type: results?.loanType || 'N/A',
-        _subject: `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`,
-      };
+      const formData_submit = new FormData();
+      formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
+      formData_submit.append('email', formData.email);
+      formData_submit.append('phone', formData.phone);
+      formData_submit.append('city', formData.city);
+      formData_submit.append('loan_purpose', formData.loanPurpose || 'inquiry');
+      formData_submit.append('timeline', formData.timeline);
+      formData_submit.append('loan_amount', formData.loanAmount || 'N/A');
+      formData_submit.append('home_value', formData.homeValue || 'N/A');
+      formData_submit.append('additional_info', formData.additionalInfo || '');
+      formData_submit.append('loan_type', results?.loanType || 'N/A');
+      formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`);
 
-      const response = await axios.post('https://formspree.io/f/mldpgrok', payload, {
+      const response = await fetch('https://formspree.io/f/mldpgrok', {
+        method: 'POST',
+        body: formData_submit,
         headers: {
           'Accept': 'application/json'
         }
       });
 
-      // axios throws on non-2xx by default, but let's be explicit if needed
-      if (response.status !== 200 && response.status !== 201) {
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        console.error('Formspree error details:', errorData);
         throw new Error('Failed to submit contact form');
       }
 
