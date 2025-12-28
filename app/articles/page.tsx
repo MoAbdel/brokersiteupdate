@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Footer from '@/components/Footer';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
@@ -28,7 +29,7 @@ export default function ArticlesPage() {
       readTime: '8 min read',
       publishDate: 'Aug 30, 2026',
       featured: true,
-      image: '/images/blog-rate-trends.jpg',
+      image: '/images/blog-rate-trends.png',
     },
     {
       title: 'Wholesale vs. Retail Mortgages: The Pricing Advantage',
@@ -38,7 +39,7 @@ export default function ArticlesPage() {
       readTime: '9 min read',
       publishDate: 'Aug 28, 2026',
       featured: false,
-      image: '/images/blog-wholesale.jpg',
+      image: '/images/blog-wholesale.png',
     },
     {
       title: 'Dana Point First-Time Homebuyer Guide: Programs & Qualification',
@@ -48,7 +49,7 @@ export default function ArticlesPage() {
       readTime: '11 min read',
       publishDate: 'Aug 25, 2026',
       featured: false,
-      image: '/images/blog-dana-point.jpg',
+      image: '/images/blog-dana-point.png',
     },
     {
       title: 'Laguna Beach Jumbo Loan Guide: Luxury Financing Specialist',
@@ -58,7 +59,7 @@ export default function ArticlesPage() {
       readTime: '10 min read',
       publishDate: 'Aug 22, 2026',
       featured: false,
-      image: '/images/blog-laguna.jpg',
+      image: '/images/blog-laguna.png',
     },
     {
       title: 'Newport Beach Mortgage Guide 2026: Top Options & Lenders',
@@ -68,7 +69,7 @@ export default function ArticlesPage() {
       readTime: '12 min read',
       publishDate: 'Aug 20, 2026',
       featured: false,
-      image: '/images/blog-newport.jpg',
+      image: '/images/blog-newport.png',
     },
     {
       title: 'Best Mortgage Broker in Orange County',
@@ -78,7 +79,7 @@ export default function ArticlesPage() {
       readTime: '4 min read',
       publishDate: 'Sep 25, 2026',
       featured: false,
-      image: '/images/blog-1.jpg',
+      image: '/images/blog-1.png',
     },
     {
       title: 'First-Time Homebuyer Mortgage Guide for Orange County',
@@ -88,7 +89,7 @@ export default function ArticlesPage() {
       readTime: '6 min read',
       publishDate: 'Sep 20, 2026',
       featured: false,
-      image: '/images/blog-2.jpg',
+      image: '/images/blog-2.png',
     },
     {
       title: 'Orange County Mortgage Refinance Specialist',
@@ -98,7 +99,7 @@ export default function ArticlesPage() {
       readTime: '5 min read',
       publishDate: 'Sep 18, 2026',
       featured: false,
-      image: '/images/blog-3.jpg',
+      image: '/images/blog-3.png',
     },
     {
       title: 'Jumbo Loan Broker in Orange County',
@@ -108,7 +109,7 @@ export default function ArticlesPage() {
       readTime: '7 min read',
       publishDate: 'Sep 15, 2026',
       featured: false,
-      image: '/images/blog-4.jpg',
+      image: '/images/blog-4.png',
     },
     {
       title: 'VA Loan Mortgage Broker in Orange County',
@@ -118,7 +119,7 @@ export default function ArticlesPage() {
       readTime: '5 min read',
       publishDate: 'Sep 12, 2026',
       featured: false,
-      image: '/images/blog-5.jpg',
+      image: '/images/blog-5.png',
     },
   ];
 
@@ -157,8 +158,14 @@ export default function ArticlesPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left - Image */}
               <div className="order-2 lg:order-1">
-                <div className="aspect-video bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl relative overflow-hidden">
-                  <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+                <div className="aspect-video rounded-2xl relative overflow-hidden">
+                  <Image
+                    src={articles[0].image}
+                    alt={articles[0].title}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
               </div>
 
@@ -200,8 +207,13 @@ export default function ArticlesPage() {
                 >
                   <article className="space-y-4">
                     {/* Image */}
-                    <div className="aspect-video bg-gradient-to-br from-slate-400 to-slate-600 rounded-xl overflow-hidden">
-                      <div className="w-full h-full bg-gradient-to-br from-blue-400 to-slate-500"></div>
+                    <div className="aspect-video rounded-xl overflow-hidden relative">
+                      <Image
+                        src={article.image}
+                        alt={article.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
 
                     {/* Content */}
