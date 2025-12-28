@@ -18,7 +18,8 @@ module.exports = {
       }
     ],
     additionalSitemaps: [
-      'https://www.mothebroker.com/sitemap.xml'
+      'https://www.mothebroker.com/sitemap.xml',
+      'https://www.mothebroker.com/sitemap-images.xml'
     ]
   },
   transform: async (config, path) => {
