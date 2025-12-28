@@ -81,7 +81,7 @@ export default function AboutPage() {
             </p>
 
             <p className="leading-relaxed mb-6">
-              I was born and raised right here in Orange County—from beach days in Laguna to Friday nights at the Irvine spectrum. I know these neighborhoods because I grew up in them. I understand what it means to put down roots here, to raise a family here, and to build a future in one of California's most beautiful communities.
+              I was born and raised right here in Orange County—from beach days in Laguna to Friday nights at the Irvine Spectrum. I know these neighborhoods because I grew up in them. I understand what it means to put down roots here, to raise a family here, and to build a future in one of California's most beautiful communities.
             </p>
 
             <p className="leading-relaxed mb-6">
