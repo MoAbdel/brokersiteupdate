@@ -26,7 +26,7 @@ export const loanProgramsDropdown: DropdownItem[] = [
 
   // Refinancing Options
   { title: '🔄 REFINANCING', url: '#', isHeader: true },
-  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
 
 
@@ -207,7 +207,7 @@ export const resourcesDropdown: DropdownItem[] = [
 export const refinanceDropdown: DropdownItem[] = [
   // Refinancing Options
   { title: '🔄 REFINANCING', url: '#', isHeader: true },
-  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
   { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
 
@@ -261,13 +261,12 @@ export const guidesDropdown: DropdownItem[] = [
 ];
 
 export const blogDropdown: DropdownItem[] = [
-  { title: 'All Guides', url: '/guides' },
   { title: 'All Articles', url: '/articles' },
 
   // Loan Programs
   { title: '💰 LOAN PROGRAMS', url: '#', isHeader: true },
   { title: 'All Programs', url: '/loan-programs' },
-  { title: 'Term Refinance', url: '/loan-programs/rate-term-refinance' },
+  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
   { title: 'HELOC', url: '/loan-programs/heloc' },
   { title: 'HELOAN', url: '/loan-programs/heloan' },
@@ -275,15 +274,11 @@ export const blogDropdown: DropdownItem[] = [
 
   // Guides
   { title: '📚 GUIDES', url: '#', isHeader: true },
-  { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
-  { title: 'Investment Property', url: '/guides/orange-county-investment-property' },
+  { title: 'All Guides', url: '/guides' },
 
   // Service Areas
   { title: '📍 SERVICE AREAS', url: '#', isHeader: true },
   { title: 'All Areas', url: '/areas' },
-  { title: 'Irvine', url: '/areas/irvine-mortgage-broker' },
-  { title: 'Newport Beach', url: '/areas/newport-beach-mortgage-broker' },
-  { title: 'Costa Mesa', url: '/areas/costa-mesa-mortgage-broker' },
 
   // Resources
   { title: '🔧 RESOURCES', url: '#', isHeader: true },
