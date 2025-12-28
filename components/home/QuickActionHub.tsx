@@ -94,10 +94,19 @@ export default function QuickActionHub() {
         </div>
       </div>
 
-      {/* Abstract curved bottom */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-          <path d="M0 60L60 52.5C120 45 240 30 360 22.5C480 15 600 15 720 18.75C840 22.5 960 30 1080 33.75C1200 37.5 1320 37.5 1380 37.5L1440 37.5V60H1380C1320 60 1200 60 1080 60C960 60 840 60 720 60C600 60 480 60 360 60C240 60 120 60 60 60H0Z" fill="white" />
+      {/* Abstract curved bottom - Increased curvature by ~20-30% */}
+      <div className="absolute -bottom-[1px] left-0 right-0 pointer-events-none">
+        <svg
+          viewBox="0 0 1440 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full h-auto block"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0 32L60 28C120 24 240 16 360 12C480 8 600 8 720 10C840 12 960 16 1080 18C1200 20 1320 20 1380 20L1440 20V32H1380C1320 32 1200 32 1080 32C960 32 840 32 720 32C600 32 480 32 360 32C240 32 120 32 60 32H0Z"
+            fill="white"
+          />
         </svg>
       </div>
     </section>

@@ -26,13 +26,13 @@ export default function HeroSection() {
             </p>
 
             {/* Trust Indicators Bar */}
-            <div className="inline-block bg-gradient-to-r from-slate-50 to-blue-50 rounded-full px-8 py-3 border border-slate-200 shadow-sm">
-              <div className="flex flex-wrap items-center justify-center gap-4 text-xs md:text-sm text-slate-700">
-                <span className="font-semibold text-slate-900">NMLS #1426884</span>
-                <span className="text-slate-400">|</span>
-                <span className="font-semibold text-slate-900">Company NMLS #1566096</span>
-                <span className="text-slate-400">|</span>
-                <span className="font-semibold text-slate-900">CA DRE #02022356</span>
+            <div className="inline-block bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl md:rounded-full px-6 md:px-8 py-4 md:py-3 border border-slate-200 shadow-sm w-[90%] md:w-auto">
+              <div className="flex flex-col md:flex-row items-center justify-center text-xs md:text-sm text-slate-700 md:divide-x divide-slate-200">
+                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">NMLS #1426884</span>
+                <div className="h-[1px] w-12 bg-slate-200 md:hidden my-1" />
+                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">Company NMLS #1566096</span>
+                <div className="h-[1px] w-12 bg-slate-200 md:hidden my-1" />
+                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">CA DRE #02022356</span>
               </div>
             </div>
           </div>
