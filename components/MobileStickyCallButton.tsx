@@ -40,8 +40,17 @@ export default function MobileStickyCallButton() {
   return (
     <>
       {/* Mobile Only - Always Sticky Call Button */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
-        <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] pb-safe">
+      <div
+        className="md:hidden"
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 9999,
+        }}
+      >
+        <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)]" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
           <a
             href="tel:(949) 537-2357"
             className="flex items-center justify-center gap-3 px-6 py-4 font-bold"

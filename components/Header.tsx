@@ -31,9 +31,9 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="ml-3 hidden sm:block">
-              <span className="block text-sm font-bold text-slate-900 leading-tight">Mo Abdel</span>
-              <span className="block text-[10px] text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
+            <div className="ml-2 sm:ml-3">
+              <span className="block text-xs sm:text-sm font-bold text-slate-900 leading-tight">Mo Abdel</span>
+              <span className="block text-[8px] sm:text-[10px] text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
             </div>
           </Link>
 
