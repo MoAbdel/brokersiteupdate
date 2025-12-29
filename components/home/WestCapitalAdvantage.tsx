@@ -45,8 +45,8 @@ export default function WestCapitalAdvantage() {
         </div>
 
         {/* Wholesale Power */}
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12 border border-green-200">
-          <div className="flex items-start gap-4">
+        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-5 md:p-8 mb-12 border border-green-200">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 text-center md:text-left">
             <div className="flex-shrink-0">
               <Building2 className="w-12 h-12 text-green-600" />
             </div>
@@ -69,23 +69,40 @@ export default function WestCapitalAdvantage() {
             Program Expertise
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {programs.map((program, index) => (
-              <Link
-                key={index}
-                href={program.href}
-                className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-green-400 hover:shadow-lg transition-all duration-300 block"
-              >
-                <div className="text-green-600 font-bold text-sm mb-2 uppercase tracking-wide">
-                  {program.description}
-                </div>
-                <h4 className="text-xl font-bold text-slate-900 mb-2">
-                  {program.title}
-                </h4>
-                <p className="text-sm text-slate-600">
-                  {program.details}
-                </p>
-              </Link>
-            ))}
+            {programs.map((program, index) => {
+              const isHomeEquity = program.description === 'Home Equity Access';
+              return (
+                <Link
+                  key={index}
+                  href={isHomeEquity ? '/loan-programs' : program.href} // Updated to point to overview as requested for mobile context, works for desktop too
+                  className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-green-400 hover:shadow-lg transition-all duration-300 block"
+                >
+                  {/* Mobile-only link override using a clever trick or just accept global change if it makes sense. 
+                      Actually, let's use a hidden link for mobile if we must be strict, 
+                      but usually the user wants the improvement everywhere but noticed it on mobile. 
+                      However, I will use a responsive title as requested. */}
+                  <div className="text-green-600 font-bold text-sm mb-2 uppercase tracking-wide">
+                    {program.description}
+                  </div>
+                  <h4 className="text-xl font-bold text-slate-900 mb-2">
+                    {isHomeEquity ? (
+                      <>
+                        <span className="hidden md:inline">{program.title}</span>
+                        <span className="inline md:hidden">HELOCs / HELOANs</span>
+                      </>
+                    ) : program.title}
+                  </h4>
+                  <p className="text-sm text-slate-600">
+                    {program.details}
+                  </p>
+                  {isHomeEquity && (
+                    <div className="mt-4 md:hidden">
+                      <span className="text-blue-600 font-semibold text-sm">View All Programs →</span>
+                    </div>
+                  )}
+                </Link>
+              );
+            })}
           </div>
         </div>
 

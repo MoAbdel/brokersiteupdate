@@ -94,13 +94,13 @@ export default function QuickActionHub() {
         </div>
       </div>
 
-      {/* Abstract curved bottom - Increased curvature by ~20-30% */}
+      {/* Abstract curved bottom - Increased curvature by ~20-30% on desktop, more on mobile */}
       <div className="absolute -bottom-[1px] left-0 right-0 pointer-events-none">
         <svg
           viewBox="0 0 1440 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-auto block"
+          className="w-full h-12 md:h-8 block" // Increased height on mobile to accentuate curve
           preserveAspectRatio="none"
         >
           <path
