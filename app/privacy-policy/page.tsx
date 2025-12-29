@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   const lastUpdated = "January 15, 2026";
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -43,8 +43,8 @@ export default function PrivacyPolicyPage() {
             <div>
               <h3 className="text-lg font-semibold text-yellow-800 mb-2">Important Legal Notice</h3>
               <p className="text-yellow-700">
-                <strong>This privacy policy is currently under legal review and will be updated with final compliance language. 
-                Please contact us directly for current privacy practices until this notice is removed.</strong>
+                <strong>This privacy policy is currently under legal review and will be updated with final compliance language.
+                  Please contact us directly for current privacy practices until this notice is removed.</strong>
               </p>
             </div>
           </div>
@@ -52,24 +52,24 @@ export default function PrivacyPolicyPage() {
 
         {/* Privacy Policy Content */}
         <div className="prose prose-lg max-w-none">
-          
+
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Overview</h2>
             <p className="text-slate-700 mb-4">
-              Mohammad Abdelfattah, NMLS #1426884, operating as a competitive mortgage broker with West Capital Lending, 
-              is committed to protecting your privacy and personal information. This Privacy Policy 
-              explains how we collect, use, share, and protect your information when you use our website 
+              Mohammad Abdelfattah, NMLS #1426884, operating as a competitive mortgage broker with West Capital Lending,
+              is committed to protecting your privacy and personal information. This Privacy Policy
+              explains how we collect, use, share, and protect your information when you use our website
               and mortgage services.
             </p>
             <p className="text-slate-700">
-              This policy complies with the California Consumer Privacy Act (CCPA), the General Data 
+              This policy complies with the California Consumer Privacy Act (CCPA), the General Data
               Protection Regulation (GDPR), and the Gramm-Leach-Bliley Act requirements for financial services.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Information We Collect</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Personal Information</h3>
             <p className="text-slate-700 mb-4">We may collect the following types of personal information:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
@@ -132,13 +132,13 @@ export default function PrivacyPolicyPage() {
               <li><strong>Right to Limit:</strong> Limit the use of sensitive personal information</li>
               <li><strong>Right to Non-Discrimination:</strong> Not be discriminated against for exercising your privacy rights</li>
             </ul>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">How to Exercise Your Rights</h3>
             <p className="text-slate-700 mb-4">To exercise your California privacy rights, contact us:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
               <li>Phone: (949) 537-2357</li>
-              <li>Mail: [West Capital Lending Address - To be provided by attorney]</li>
+              <li>Mail: 17911 Von Karman Ave suite 400, Irvine, CA 92614</li>
             </ul>
           </section>
 
@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">International Data Transfers</h2>
             <p className="text-slate-700">
-              Your information may be transferred to and processed in countries other than your country of residence. 
+              Your information may be transferred to and processed in countries other than your country of residence.
               We ensure appropriate safeguards are in place for such transfers in compliance with applicable privacy laws.
             </p>
           </section>
@@ -196,8 +196,8 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Changes to This Privacy Policy</h2>
             <p className="text-slate-700">
-              We may update this Privacy Policy periodically to reflect changes in our practices or applicable laws. 
-              We will post the updated policy on our website with a new "Last Updated" date. For material changes, 
+              We may update this Privacy Policy periodically to reflect changes in our practices or applicable laws.
+              We will post the updated policy on our website with a new "Last Updated" date. For material changes,
               we will provide additional notice as required by law.
             </p>
           </section>
@@ -207,7 +207,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-slate-700 mb-4">
               If you have questions about this Privacy Policy or our privacy practices, please contact us:
             </p>
-            
+
             <div className="bg-blue-50 p-6 rounded-lg">
               <h4 className="font-semibold text-slate-900 mb-3">Privacy Contact Information</h4>
               <div className="space-y-2 text-slate-700">
@@ -223,7 +223,8 @@ export default function PrivacyPolicyPage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   West Capital Lending<br />
-                  [Physical Address - To be provided]
+                  17911 Von Karman Ave suite 400<br />
+                  Irvine, CA 92614
                 </div>
               </div>
             </div>
@@ -241,9 +242,9 @@ export default function PrivacyPolicyPage() {
               <li>Fair Credit Reporting Act (FCRA)</li>
               <li>Other applicable federal and state privacy laws</li>
             </ul>
-            
+
             <p className="text-slate-700">
-              <strong>NMLS Consumer Access:</strong> Verify our license and view regulatory information at 
+              <strong>NMLS Consumer Access:</strong> Verify our license and view regulatory information at
               <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
                 www.nmlsconsumeraccess.org
               </a>
@@ -255,8 +256,8 @@ export default function PrivacyPolicyPage() {
         {/* Footer Navigation */}
         <div className="border-t border-slate-200 pt-8 mt-12">
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="text-blue-600 hover:text-blue-700 font-medium mb-4 sm:mb-0"
             >
               Questions about this policy? Contact us

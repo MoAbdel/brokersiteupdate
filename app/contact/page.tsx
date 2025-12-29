@@ -64,7 +64,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Office Location</h3>
-                  <p className="text-slate-700">24 Executive Park Suite 250<br />Irvine, CA 92614</p>
+                  <p className="text-slate-700">17911 Von Karman Ave suite 400<br />Irvine, CA 92614</p>
                   <p className="text-sm text-slate-600">By appointment</p>
                 </div>
               </div>

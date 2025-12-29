@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 
 export default function TermsOfServicePage() {
   const lastUpdated = "January 15, 2026";
-  
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -43,8 +43,8 @@ export default function TermsOfServicePage() {
             <div>
               <h3 className="text-lg font-semibold text-yellow-800 mb-2">Important Legal Notice</h3>
               <p className="text-yellow-700">
-                <strong>These terms of service are currently under legal review and will be updated with final compliance language. 
-                Please contact us directly for current service terms until this notice is removed.</strong>
+                <strong>These terms of service are currently under legal review and will be updated with final compliance language.
+                  Please contact us directly for current service terms until this notice is removed.</strong>
               </p>
             </div>
           </div>
@@ -52,12 +52,12 @@ export default function TermsOfServicePage() {
 
         {/* Terms of Service Content */}
         <div className="prose prose-lg max-w-none">
-          
+
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Agreement to Terms</h2>
             <p className="text-slate-700 mb-4">
-              These Terms of Service ("Terms") govern your use of the website and services provided by 
-              Mohammad Abdelfattah, NMLS #1426884, operating as a licensed mortgage loan originator with West Capital Lending 
+              These Terms of Service ("Terms") govern your use of the website and services provided by
+              Mohammad Abdelfattah, NMLS #1426884, operating as a licensed mortgage loan originator with West Capital Lending
               ("we," "us," or "our"). By accessing our website or using our services, you agree to be bound by these Terms.
             </p>
             <p className="text-slate-700">
@@ -95,11 +95,11 @@ export default function TermsOfServicePage() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Important Disclaimers</h2>
-            
+
             <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-6">
               <h3 className="text-lg font-semibold text-red-800 mb-3">No Loan Commitment</h3>
               <p className="text-red-700">
-                <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice. 
+                <strong>This is not a commitment to lend.</strong> All information contained herein is subject to change without notice.
                 All loans are subject to credit approval, income verification, and property appraisal. Equal Housing Lender.
               </p>
             </div>
@@ -107,8 +107,8 @@ export default function TermsOfServicePage() {
             <div className="bg-orange-50 border-l-4 border-orange-400 p-6 mb-6">
               <h3 className="text-lg font-semibold text-orange-800 mb-3">No Financial Advice</h3>
               <p className="text-orange-700">
-                We are mortgage brokers, not financial advisors. Information provided is for educational purposes only and 
-                should not be considered financial advice. You should consult with qualified financial professionals regarding 
+                We are mortgage brokers, not financial advisors. Information provided is for educational purposes only and
+                should not be considered financial advice. You should consult with qualified financial professionals regarding
                 your specific financial situation.
               </p>
             </div>
@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 mb-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Information Accuracy</h3>
               <p className="text-gray-700">
-                While we strive to provide accurate and up-to-date information, loan pricing, loan terms, and program 
+                While we strive to provide accurate and up-to-date information, loan pricing, loan terms, and program
                 availability are subject to change without notice. All information must be verified prior to loan approval.
               </p>
             </div>
@@ -161,7 +161,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Intellectual Property Rights</h2>
             <p className="text-slate-700 mb-4">
-              All content on this website, including but not limited to text, graphics, logos, images, and software, 
+              All content on this website, including but not limited to text, graphics, logos, images, and software,
               is the property of Mohammad Abdelfattah or our licensors and is protected by copyright and other intellectual property laws.
             </p>
             <p className="text-slate-700">
@@ -172,8 +172,8 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Privacy and Data Protection</h2>
             <p className="text-slate-700 mb-4">
-              Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our 
-              <Link href="/privacy-policy" className="text-blue-600 hover:underline">Privacy Policy</Link>, 
+              Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our
+              <Link href="/privacy-policy" className="text-blue-600 hover:underline">Privacy Policy</Link>,
               which is incorporated into these Terms by reference.
             </p>
             <p className="text-slate-700">
@@ -230,7 +230,7 @@ export default function TermsOfServicePage() {
                 <strong>Right to Cancel:</strong> You have the right to cancel certain transactions within three business days.
               </p>
               <p className="text-green-700">
-                <strong>Complaint Filing:</strong> You may file complaints with the California Department of Financial Protection and Innovation 
+                <strong>Complaint Filing:</strong> You may file complaints with the California Department of Financial Protection and Innovation
                 or the Consumer Financial Protection Bureau (CFPB).
               </p>
             </div>
@@ -252,7 +252,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Changes to Terms</h2>
             <p className="text-slate-700">
-              We may update these Terms periodically. Material changes will be posted on our website with a new "Last Updated" date. 
+              We may update these Terms periodically. Material changes will be posted on our website with a new "Last Updated" date.
               Continued use of our services after changes constitutes acceptance of the updated Terms.
             </p>
           </section>
@@ -262,7 +262,7 @@ export default function TermsOfServicePage() {
             <p className="text-slate-700 mb-4">
               If you have questions about these Terms or our services, please contact us:
             </p>
-            
+
             <div className="bg-blue-50 p-6 rounded-lg">
               <h4 className="font-semibold text-slate-900 mb-3">Service Contact Information</h4>
               <div className="space-y-2 text-slate-700">
@@ -278,7 +278,8 @@ export default function TermsOfServicePage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   West Capital Lending<br />
-                  [Physical Address - To be provided]
+                  17911 Von Karman Ave suite 400<br />
+                  Irvine, CA 92614
                 </div>
                 <div className="mt-4">
                   <strong>License Verification:</strong><br />
@@ -295,8 +296,8 @@ export default function TermsOfServicePage() {
         {/* Footer Navigation */}
         <div className="border-t border-slate-200 pt-8 mt-12">
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="text-blue-600 hover:text-blue-700 font-medium mb-4 sm:mb-0"
             >
               Questions about these terms? Contact us

@@ -39,7 +39,7 @@ export default function AdvancedSchemaMarkup({
   url = "https://mothebroker.com",
   telephone = "+19495372357",
   address = {
-    streetAddress: "24 Executive Park Suite 250",
+    streetAddress: "17911 Von Karman Ave suite 400",
     addressLocality: "Irvine",
     addressRegion: "CA",
     postalCode: "92614",
@@ -76,7 +76,7 @@ export default function AdvancedSchemaMarkup({
     sameAs: ["https://westcapitallending.com/team/mo-abdel"]
   }
 }: SchemaProps) {
-  
+
   const generateSchema = () => {
     const baseSchema = {
       "@context": "https://schema.org",
