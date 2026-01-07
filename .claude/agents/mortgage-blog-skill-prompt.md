@@ -247,11 +247,18 @@ Include comprehensive 2025/2026 SEO best practices:
 - Voice search optimization (conversational queries)
 - Featured snippet formatting (tables, lists, step-by-step)
 
-### Generative Engine Optimization (GEO)
-- Entity-rich content (locations, loan types, institutions)
-- Structured, machine-readable formatting
-- Citation-worthy statistics and data points
-- Clear attribution and sourcing patterns
+### Generative Engine Optimization (GEO) & 2026 Tripartite Framework
+- **Tripartite Framework**: Optimize for SEO (Traffic), AEO (Answers), and GEO (Synthesis).
+- **Inverted Pyramid Content Structure (CRITICAL)**:
+  - **Direct Answer First**: The first paragraph MUST contain a concise, complete answer to the primary query (2-4 sentences). This is for AI snippet extraction.
+  - **Contextual Expansion**: Provide nuance, data, and expert commentary in subsequent sections.
+  - **Structural Rigor**: Use H2/H3 headings phrased as natural language questions (e.g., "How do I qualify for a Jumbo loan in Newport Beach?" instead of "Qualification Requirements").
+- **Information Gain (Dominant Ranking Signal)**:
+  - **The "High Gain" Rule**: Content must provide unique value beyond existing search results.
+  - **Human Experience Markers**: Use phrases like "As a wholesale broker in Orange County, I've observed...", "In our recent closings...", "Our proprietary lender database shows...".
+  - **Multimodal Gain**: Suggest unique diagrams, infographics, or video transcripts.
+- **Entity Validation**: Reference Mo Abdel's Knowledge Graph attributes (NMLS, `knowsAbout`, `sameAs`).
+- **Citation Hygiene**: Clear attribution and sourcing patterns.
 
 ### Local SEO Signals
 - NAP consistency patterns
@@ -676,12 +683,18 @@ Every generated blog post MUST include:
 - [ ] Balanced, trustworthy tone
 - [ ] Disclosure of wholesale broker positioning
 
-### Readability
+### GEO/AIO Requirements
+- [ ] **Direct Answer First**: First paragraph provides a "featured snippet-ready" answer.
+- [ ] **Natural Language Headings**: H2/H3 tags are phrased as questions.
+- [ ] **High Information Gain**: Includes unique perspectives or data markers AI cannot hallucinate.
+- [ ] **Entity Linking**: Refers to specific local entities and Mo Abdel's verified identifiers.
+- [ ] **RAG-Ready Formatting**: Uses lists, tables, and clear internal hierarchy for AI chunking.
+
+### Readability & Structure
 - [ ] 8th-grade reading level
-- [ ] Short paragraphs (3-4 sentences max)
-- [ ] Subheadings every 200-300 words
-- [ ] Bullet points for lists/features
-- [ ] Bold key terms and figures
+- [ ] Short paragraphs (3 sentences max)
+- [ ] Subheadings every 200 words
+- [ ] Bolded key "answer-ready" phrases
 
 ---
 

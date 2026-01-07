@@ -19,16 +19,19 @@ export default function FHALoansOrangeCountyPage() {
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
-                            "jobTitle": "Mortgage Broker",
-                            "identifier": "NMLS #1426884"
+                            "jobTitle": "Licensed Mortgage Broker",
+                            "identifier": "NMLS #1426884",
+                            "url": "https://mothebroker.com/about",
+                            "knowsAbout": ["FHA Loans", "First-Time Homebuyer Programs", "Mortgage Credit Scores", "Orange County Real Estate Market"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "West Capital Lending, Inc.",
-                            "identifier": "NMLS #1850"
+                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-04"
+                        "dateModified": "2026-01-05",
+                        "description": "Master FHA loan requirements for Orange County in 2026. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
                     })
                 }}
             />
@@ -43,15 +46,16 @@ export default function FHALoansOrangeCountyPage() {
             </header>
 
             <section className="prose prose-lg max-w-none">
-                <p className="lead">
-                    FHA loans remain one of the most accessible paths to homeownership in Orange County, offering lower down payment requirements and more flexible credit guidelines than conventional financing. Understanding how FHA loans work and how wholesale mortgage brokers can optimize your FHA financing is essential for first-time buyers and those looking to maximize their purchasing power.
-                </p>
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
+                    <p className="lead font-semibold text-gray-900 mb-0">
+                        In 2026, **FHA loans** remain the primary financing vehicle for Orange County homebuyers who require lower down payments (**3.5% minimum**) and more flexible credit score requirements (**580+**). While retail banks often apply strict "overlays," working with a **wholesale mortgage broker** allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
+                    </p>
+                </div>
 
-                <h2>What is an FHA Loan?</h2>
+                <h2>How do FHA loans work in 2026?</h2>
                 <p>
-                    FHA loans are mortgages insured by the Federal Housing Administration, a government agency within the Department of Housing and Urban Development (HUD). This insurance protects lenders against losses if borrowers default, allowing lenders to offer more accessible financing terms.
+                    FHA loans are mortgages insured by the Federal Housing Administration. This government insurance protects lenders, which permits them to offer more accessible financing terms. In my practice serving Orange County, I've identified several key characteristics that make FHA loans a powerful tool:
                 </p>
-                <p><strong>Key FHA Loan Characteristics:</strong></p>
                 <ul>
                     <li>Government insurance reduces lender risk</li>
                     <li>Lower down payment requirements (as low as 3.5%)</li>
@@ -60,7 +64,7 @@ export default function FHALoansOrangeCountyPage() {
                     <li>Available for primary residences only</li>
                 </ul>
 
-                <h2>FHA Loan Requirements in California 2026</h2>
+                <h2>What are the FHA loan requirements in California for 2026?</h2>
 
                 <h3>Credit Score Requirements</h3>
                 <p>

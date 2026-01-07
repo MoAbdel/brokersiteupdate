@@ -33,16 +33,34 @@ export const structuredData = {
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
     "identifier": "NMLS #1426884",
+    "image": "https://mothebroker.com/images/mo-headshot.jpg",
+    "knowsAbout": [
+      "Mortgage Lending",
+      "Real Estate Finance",
+      "Refinancing Strategies",
+      "Wholesale Mortgage Operations",
+      "Orange County Real Estate Market",
+      "Home Equity Solutions",
+      "FHA & VA Loan Programs"
+    ],
     "worksFor": {
       "@type": "Organization",
       "name": "West Capital Lending",
-      "url": "https://westcapitallending.com"
+      "url": "https://westcapitallending.com",
+      "sameAs": [
+        "https://www.linkedin.com/company/west-capital-lending/",
+        "https://www.crunchbase.com/organization/west-capital-lending"
+      ]
     }
   },
   "founder": {
     "@type": "Person",
     "name": "Mo Abdel",
-    "identifier": "NMLS #1426884"
+    "identifier": "NMLS #1426884",
+    "sameAs": [
+      "https://www.linkedin.com/in/moabdel/",
+      "https://muckrack.com/mo-abdel"
+    ]
   },
   "areaServed": [
     {
@@ -126,7 +144,33 @@ export const structuredData = {
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
   "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
   "currenciesAccepted": "USD",
-  "keywords": "mortgage broker near me, Orange County mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing"
+  "keywords": "mortgage broker near me, Orange County mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing",
+  "potentialAction": [
+    {
+      "@type": "ScheduleAction",
+      "name": "Schedule Mortgage Consultation",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://mothebroker.com/contact",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Mortgage Consultation"
+      }
+    },
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://mothebroker.com/areas?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  ]
 };
 
 export const mortgageLoanSchema = {
@@ -181,6 +225,24 @@ export const mortgageLoanSchema = {
       "name": "Rate & Term Refinance",
       "description": "Lower your mortgage pricing or eliminate PMI with refinancing",
       "url": "/rate-term-refinance-orange-county"
+    },
+    {
+      "@type": "Offer",
+      "name": "2026 Newport Beach Mortgage Guide",
+      "description": "Access wholesale rates and specialized jumbo financing in Newport Beach.",
+      "url": "/blog/newport-beach-mortgage-guide-2026"
+    },
+    {
+      "@type": "Offer",
+      "name": "2026 Laguna Beach Mortgage Guide",
+      "description": "Expert financing for coastal and hillside homes in Laguna Beach.",
+      "url": "/blog/laguna-beach-mortgage-guide-2026"
+    },
+    {
+      "@type": "Offer",
+      "name": "2026 Dana Point Mortgage Guide",
+      "description": "Harbor-adjacent financing and wholesale advantages for Dana Point buyers.",
+      "url": "/blog/dana-point-mortgage-guide-2026"
     }
   ]
 };

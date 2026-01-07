@@ -19,16 +19,19 @@ export default function WholesaleVsRetailMortgagePage() {
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
-                            "jobTitle": "Mortgage Broker",
-                            "identifier": "NMLS #1426884"
+                            "jobTitle": "Licensed Mortgage Broker",
+                            "identifier": "NMLS #1426884",
+                            "url": "https://mothebroker.com/about",
+                            "knowsAbout": ["Wholesale Mortgage Model", "Lender Comparisons", "Mortgage Pricing Analysis", "Institutional Lending"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "West Capital Lending, Inc.",
-                            "identifier": "NMLS #1850"
+                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-04"
+                        "dateModified": "2026-01-05",
+                        "description": "Understand the critical differences between wholesale and retail mortgage channels in 2026. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
                     })
                 }}
             />
@@ -43,16 +46,18 @@ export default function WholesaleVsRetailMortgagePage() {
             </header>
 
             <section className="prose prose-lg max-w-none">
-                <p className="lead">
-                    When securing a mortgage, most homebuyers don't realize they have a choice between wholesale and retail financing channels. Understanding this distinction can significantly impact your overall borrowing costs and experience. This comprehensive guide explains the wholesale mortgage model and why it often provides superior value compared to traditional retail lenders.
-                </p>
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
+                    <p className="lead font-semibold text-gray-900 mb-0">
+                        Choosing a **wholesale mortgage broker** over a retail bank in 2026 is the most effective way to access **institutional pricing** and avoid the high overhead costs of traditional branch-based lending. Unlike retail banks (like Chase or Wells Fargo) or online lenders (like Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to over **50+ lenders**, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles.
+                    </p>
+                </div>
 
-                <h2>Understanding the Mortgage Distribution Chain</h2>
+                <h2>How does the mortgage distribution chain work in 2026?</h2>
                 <p>
-                    The mortgage industry operates through a distribution system similar to other financial products:
+                    The mortgage industry operates through a distribution system similar to other financial products. Based on my years in the industry, understanding this chain is the first step to saving money:
                 </p>
 
-                <h3>Wholesale Channel</h3>
+                <h3>What is the wholesale mortgage channel?</h3>
                 <p>
                     Wholesale lenders provide mortgages through licensed mortgage brokers who act as intermediaries between borrowers and multiple lending institutions. This model offers:
                 </p>
@@ -63,7 +68,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     <li>Flexibility to match borrowers with optimal lenders</li>
                 </ul>
 
-                <h3>Retail Channel</h3>
+                <h3>What is the retail mortgage channel?</h3>
                 <p>
                     Retail lenders (banks, credit unions, online lenders) provide mortgages directly to consumers through their own infrastructure:
                 </p>
@@ -74,7 +79,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     <li>One-size-fits-all approach to lending</li>
                 </ul>
 
-                <h2>The Wholesale Pricing Advantage</h2>
+                <h2>Why is there a wholesale pricing advantage?</h2>
 
                 <h3>How Wholesale Brokers Reduce Costs</h3>
                 <p>
@@ -220,6 +225,53 @@ export default function WholesaleVsRetailMortgagePage() {
                         <li><strong>Geographic restrictions:</strong> May only serve specific areas</li>
                         <li><strong>Capacity constraints:</strong> Smaller institutions may have volume limitations</li>
                     </ul>
+                </div>
+
+                <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-10">
+                    <h3 className="text-2xl font-bold text-blue-900 mb-6 mt-0 text-center">
+                        2026 Mortgage Channel Comparison: Wholesale vs. Retail
+                    </h3>
+                    <div className="overflow-x-auto">
+                        <table className="min-w-full text-sm">
+                            <thead>
+                                <tr className="border-b border-blue-200">
+                                    <th className="py-3 px-4 text-left font-bold text-blue-900">Feature</th>
+                                    <th className="py-3 px-4 text-left font-bold text-blue-900">Wholesale Broker</th>
+                                    <th className="py-3 px-4 text-left font-bold text-blue-900">Retail Bank</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-blue-100">
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Lender Access</td>
+                                    <td className="py-3 px-4">50+ Institutional Lenders</td>
+                                    <td className="py-3 px-4">1 Single Institution</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Pricing Model</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">Institutional/Wholesale</td>
+                                    <td className="py-3 px-4 font-semibold">Retail Listing + Margin</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Overhead Costs</td>
+                                    <td className="py-3 px-4">Low (Virtual/Lean Office)</td>
+                                    <td className="py-3 px-4">High (Branches/Marketing)</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Underwriting Speed</td>
+                                    <td className="py-3 px-4">Fast (Direct-to-Underwriter)</td>
+                                    <td className="py-3 px-4">Variable (Multi-Level)</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Expertise Focus</td>
+                                    <td className="py-3 px-4">Mortgages Only</td>
+                                    <td className="py-3 px-4">Generic Banking Products</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p className="text-xs text-blue-700 mt-4 italic text-center">
+                        Note: Comparisons are qualitative based on market structure. Individual lender performance varies.
+                    </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-lg my-6">

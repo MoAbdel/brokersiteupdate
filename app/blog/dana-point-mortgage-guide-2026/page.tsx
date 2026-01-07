@@ -19,16 +19,19 @@ export default function DanaPointMortgageGuidePage() {
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
-                            "jobTitle": "Mortgage Broker",
-                            "identifier": "NMLS #1426884"
+                            "jobTitle": "Licensed Mortgage Broker",
+                            "identifier": "NMLS #1426884",
+                            "url": "https://mothebroker.com/about",
+                            "knowsAbout": ["Harbor Property Financing", "VA Loans", "First-Time Homebuyer Programs", "Dana Point Real Estate Market"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "West Capital Lending, Inc.",
-                            "identifier": "NMLS #1850"
+                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-04"
+                        "dateModified": "2026-01-05",
+                        "description": "Explore the 2026 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
                     })
                 }}
             />
@@ -43,13 +46,15 @@ export default function DanaPointMortgageGuidePage() {
             </header>
 
             <section className="prose prose-lg max-w-none">
-                <p className="lead">
-                    Dana Point offers an exceptional blend of harbor living, coastal elegance, and family-friendly neighborhoods. From waterfront estates overlooking the harbor to hillside homes with panoramic ocean views, financing your Dana Point property requires local expertise and access to competitive wholesale mortgage solutions.
-                </p>
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
+                    <p className="lead font-semibold text-gray-900 mb-0">
+                        To secure a mortgage in Dana Point in 2026, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
+                    </p>
+                </div>
 
-                <h2>Dana Point Real Estate Market Snapshot</h2>
+                <h2>What does the Dana Point real estate market look like in 2026?</h2>
                 <p>
-                    Dana Point's real estate market features distinct characteristics:
+                    Dana Point's real estate market offers a blend of harbor living and coastal elegance. As a broker serving this area, I've noted several neighborhood-specific characteristics:
                 </p>
                 <ul>
                     <li><strong>Harbor proximity</strong> with marina access and waterfront properties</li>
@@ -59,14 +64,14 @@ export default function DanaPointMortgageGuidePage() {
                     <li><strong>Mix of property types</strong> from condos to luxury estates</li>
                 </ul>
 
-                <h2>The Wholesale Mortgage Advantage in Dana Point</h2>
+                <h2>What is the wholesale mortgage advantage in Dana Point?</h2>
 
-                <h3>Superior Pricing Through Reduced Overhead</h3>
+                <h3>How do wholesale brokers achieve superior pricing?</h3>
                 <p>
                     Wholesale mortgage brokers operate with significantly lower overhead than traditional retail banks. Without expensive branch networks, heavy marketing budgets, or corporate bureaucracy, these cost savings translate directly into more competitive pricing for Dana Point homebuyers. For properties in this premium coastal market, even modest pricing improvements can result in substantial long-term savings.
                 </p>
 
-                <h3>Comprehensive Lender Network</h3>
+                <h3>How can a comprehensive lender network help my Dana Point purchase?</h3>
                 <p>
                     Access to 50+ lending institutions allows wholesale brokers to match your specific situation with the optimal loan program and pricing. This is particularly valuable in Dana Point's diverse market, where financing needs range from:
                 </p>
@@ -77,12 +82,12 @@ export default function DanaPointMortgageGuidePage() {
                     <li>Refinancing opportunities for existing homeowners</li>
                 </ul>
 
-                <h3>Personalized Local Service</h3>
+                <h3>Why is personalized local service critical for harbor properties?</h3>
                 <p>
                     Rather than navigating automated systems or call centers, you work directly with an experienced loan officer who understands Dana Point's neighborhoods, property values, and market dynamics. This personalized approach ensures appropriate loan structuring and smooth transactions.
                 </p>
 
-                <h2>Best Loan Programs for Dana Point Homebuyers</h2>
+                <h2>What are the best loan programs for Dana Point homebuyers?</h2>
 
                 <h3>Jumbo Loans for Premium Properties</h3>
                 <p>

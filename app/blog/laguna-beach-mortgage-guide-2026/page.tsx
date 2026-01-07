@@ -19,16 +19,19 @@ export default function LagunaBeachMortgageGuidePage() {
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
-                            "jobTitle": "Mortgage Broker",
-                            "identifier": "NMLS #1426884"
+                            "jobTitle": "Licensed Mortgage Broker",
+                            "identifier": "NMLS #1426884",
+                            "url": "https://mothebroker.com/about",
+                            "knowsAbout": ["Coastal Property Financing", "Hillside Home Loans", "Wholesale Mortgage Advantages", "Laguna Beach Real Estate"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "West Capital Lending, Inc.",
-                            "identifier": "NMLS #1850"
+                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-04"
+                        "dateModified": "2026-01-05",
+                        "description": "Navigate Laguna Beach's unique coastal real estate market with expert wholesale mortgage solutions. Learn how to finance hillside estates and coastal homes in 2026."
                     })
                 }}
             />
@@ -43,13 +46,15 @@ export default function LagunaBeachMortgageGuidePage() {
             </header>
 
             <section className="prose prose-lg max-w-none">
-                <p className="lead">
-                    Laguna Beach's artistic coastal community offers some of Southern California's most distinctive properties, from hillside estates with panoramic ocean views to charming beach cottages steps from the sand. Financing these unique properties requires specialized knowledge and access to competitive wholesale mortgage solutions.
-                </p>
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
+                    <p className="lead font-semibold text-gray-900 mb-0">
+                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **50+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
+                    </p>
+                </div>
 
-                <h2>Laguna Beach Real Estate Market Overview</h2>
+                <h2>What makes the Laguna Beach real estate market unique in 2026?</h2>
                 <p>
-                    Laguna Beach's real estate market is characterized by:
+                    Laguna Beach's artistic coastal community offers some of Southern California's most distinctive properties. As a local broker, I've found that financing here requires navigating these specific market characteristics:
                 </p>
                 <ul>
                     <li><strong>Unique architectural diversity</strong> from mid-century modern to Mediterranean estates</li>
@@ -59,14 +64,14 @@ export default function LagunaBeachMortgageGuidePage() {
                     <li><strong>Strict building regulations</strong> preserving the community's character</li>
                 </ul>
 
-                <h2>Why Choose Wholesale Mortgage Financing in Laguna Beach</h2>
+                <h2>Why should I choose wholesale mortgage financing in Laguna Beach?</h2>
 
-                <h3>Competitive Pricing Through Lower Overhead</h3>
+                <h3>How do wholesale brokers provide better pricing than banks?</h3>
                 <p>
                     Wholesale mortgage brokers operate without the expensive infrastructure of retail banks—no branch networks, minimal advertising costs, and streamlined operations. These savings translate directly into more competitive pricing for borrowers. For Laguna Beach's high-value properties, this pricing advantage can result in meaningful long-term savings.
                 </p>
 
-                <h3>Multiple Lender Access</h3>
+                <h3>How can multiple lender access benefit my Laguna Beach purchase?</h3>
                 <p>
                     Unlike retail banks limited to their own products, wholesale brokers maintain relationships with 50+ lending institutions. This is particularly valuable for Laguna Beach properties that may require specialized underwriting due to:
                 </p>
@@ -77,12 +82,12 @@ export default function LagunaBeachMortgageGuidePage() {
                     <li>Non-traditional income documentation needs</li>
                 </ul>
 
-                <h3>Local Market Expertise</h3>
+                <h3>What kind of local market expertise is required for Laguna Beach?</h3>
                 <p>
                     Experienced wholesale brokers understand Laguna Beach's unique characteristics—from coastal zone regulations to the challenges of hillside construction. This knowledge ensures smooth transactions and appropriate loan structuring for your specific property.
                 </p>
 
-                <h2>Optimal Loan Programs for Laguna Beach Properties</h2>
+                <h2>What are the best loan programs for Laguna Beach properties?</h2>
 
                 <h3>Jumbo Loans for Luxury Coastal Homes</h3>
                 <p>

@@ -9,6 +9,46 @@ export const metadata: Metadata = {
 
 const blogPosts = [
     {
+        slug: 'san-clemente-mortgage-guide-2026',
+        title: 'San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise',
+        excerpt: 'Discover the San Clemente mortgage landscape in 2026. Expert guidance on VA loans near Camp Pendleton and wholesale pricing for coastal luxury homes.',
+        date: '2026-01-07',
+        category: 'Local Guides',
+        readTime: '11 min read',
+    },
+    {
+        slug: 'irvine-mortgage-guide-2026',
+        title: 'Irvine Mortgage Guide 2026: OC\'s Tech & Master-Planned Hub',
+        excerpt: 'Expert mortgage guidance for Irvine properties. Learn about wholesale pricing for master-planned communities and competitive financing for tech professionals.',
+        date: '2026-01-07',
+        category: 'Local Guides',
+        readTime: '10 min read',
+    },
+    {
+        slug: 'newport-coast-mortgage-guide-2026',
+        title: 'Newport Coast Mortgage Guide 2026: Luxury Financing',
+        excerpt: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for ultra-luxury coastal properties.',
+        date: '2026-01-07',
+        category: 'Local Guides',
+        readTime: '12 min read',
+    },
+    {
+        slug: 'va-loans-orange-county-2026',
+        title: 'VA Loans in Orange County 2026: Complete Guide for Veterans',
+        excerpt: 'Master the VA loan process in Orange County. Learn about zero-down payment benefits, wholesale rate advantages, and eligibility requirements for 2026.',
+        date: '2026-01-07',
+        category: 'Loan Programs',
+        readTime: '13 min read',
+    },
+    {
+        slug: 'jumbo-loans-orange-county-2026',
+        title: 'Jumbo Loans in Orange County 2026: Luxury Home Financing Guide',
+        excerpt: 'Expert guide to jumbo loans in Orange County. Learn about conforming loan limits, wholesale jumbo advantages, and sophisticated financing for luxury real estate.',
+        date: '2026-01-07',
+        category: 'Loan Programs',
+        readTime: '12 min read',
+    },
+    {
         slug: 'newport-beach-mortgage-guide-2026',
         title: 'Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders',
         excerpt: 'Discover wholesale mortgage options in Newport Beach. Expert guidance on jumbo loans, conventional financing, and competitive pricing for luxury coastal properties.',
