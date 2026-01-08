@@ -9,6 +9,46 @@ export const metadata: Metadata = {
 
 const blogPosts = [
     {
+        slug: 'corona-del-mar-refinance-guide-2026',
+        title: 'Corona del Mar Refinance & Cash-Out Guide 2026: Tapping Coastal Equity',
+        excerpt: 'Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for luxury coastal estates in 2026.',
+        date: '2026-01-08',
+        category: 'Refinance',
+        readTime: '12 min read',
+    },
+    {
+        slug: 'huntington-beach-refinance-guide-2026',
+        title: 'Huntington Beach Refinance & Cash-Out Guide 2026: HB Equity Analysis',
+        excerpt: 'Expert guidance on refinancing and tapping into home equity for Huntington Beach properties. Learn about wholesale strategies for HB homeowners in 2026.',
+        date: '2026-01-08',
+        category: 'Refinance',
+        readTime: '11 min read',
+    },
+    {
+        slug: 'laguna-niguel-refinance-guide-2026',
+        title: 'Laguna Niguel Refinance & Cash-Out Guide 2026: Suburban Equity Strategy',
+        excerpt: 'Expert guidance on refinancing and tapping into home equity for Laguna Niguel properties. Learn about wholesale cash-out options for LN families in 2026.',
+        date: '2026-01-08',
+        category: 'Refinance',
+        readTime: '10 min read',
+    },
+    {
+        slug: 'strategic-refinancing-home-equity-2026',
+        title: 'Strategic Refinancing & Home Equity 2026: Rate vs. Utility Analysis',
+        excerpt: 'Expert analysis on refinancing strategies in 2026. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.',
+        date: '2026-01-08',
+        category: 'Education',
+        readTime: '13 min read',
+    },
+    {
+        slug: 'heloan-vs-cash-out-refinance-2026',
+        title: 'HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy',
+        excerpt: 'Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into your Southern California equity.',
+        date: '2026-01-08',
+        category: 'Education',
+        readTime: '12 min read',
+    },
+    {
         slug: 'san-clemente-mortgage-guide-2026',
         title: 'San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise',
         excerpt: 'Discover the San Clemente mortgage landscape in 2026. Expert guidance on VA loans near Camp Pendleton and wholesale pricing for coastal luxury homes.',
