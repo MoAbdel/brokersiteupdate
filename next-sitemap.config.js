@@ -147,8 +147,25 @@ module.exports = {
       '/articles/newport-beach-mortgage-guide-2026',
       '/articles/laguna-beach-jumbo-loan-guide',
       '/articles/dana-point-first-time-homebuyer-guide',
-      '/articles/wholesale-vs-retail-mortgages-comparison',
       '/articles/orange-county-mortgage-rate-trends-august-2026',
+      '/articles/wholesale-vs-retail-mortgages-comparison',
+
+      // Blog Posts (All 15)
+      '/blog/newport-beach-mortgage-guide-2026',
+      '/blog/laguna-beach-mortgage-guide-2026',
+      '/blog/dana-point-mortgage-guide-2026',
+      '/blog/fha-loans-orange-county-2026',
+      '/blog/wholesale-vs-retail-mortgage-brokers-2026',
+      '/blog/san-clemente-mortgage-guide-2026',
+      '/blog/irvine-mortgage-guide-2026',
+      '/blog/newport-coast-mortgage-guide-2026',
+      '/blog/va-loans-orange-county-2026',
+      '/blog/jumbo-loans-orange-county-2026',
+      '/blog/corona-del-mar-refinance-guide-2026',
+      '/blog/huntington-beach-refinance-guide-2026',
+      '/blog/laguna-niguel-refinance-guide-2026',
+      '/blog/strategic-refinancing-home-equity-2026',
+      '/blog/heloan-vs-cash-out-refinance-2026',
 
       // Resources
       '/resources/mortgage-glossary',
@@ -167,8 +184,8 @@ module.exports = {
 
     return additionalPaths.map((path) => ({
       loc: path,
-      changefreq: path === '/' ? 'daily' : 'monthly',
-      priority: path === '/' ? 1.0 : 0.6,
+      changefreq: path === '/' ? 'daily' : (path.startsWith('/blog/') ? 'weekly' : 'monthly'),
+      priority: path === '/' ? 1.0 : (path.startsWith('/blog/') ? 0.7 : 0.6),
       lastmod: new Date().toISOString(),
     }));
   }
