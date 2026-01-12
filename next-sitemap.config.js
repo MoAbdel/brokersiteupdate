@@ -150,7 +150,7 @@ module.exports = {
       '/articles/orange-county-mortgage-rate-trends-august-2026',
       '/articles/wholesale-vs-retail-mortgages-comparison',
 
-      // Blog Posts (All 15)
+      // Blog Posts (All 20)
       '/blog/newport-beach-mortgage-guide-2026',
       '/blog/laguna-beach-mortgage-guide-2026',
       '/blog/dana-point-mortgage-guide-2026',
@@ -166,6 +166,11 @@ module.exports = {
       '/blog/laguna-niguel-refinance-guide-2026',
       '/blog/strategic-refinancing-home-equity-2026',
       '/blog/heloan-vs-cash-out-refinance-2026',
+      '/blog/mission-viejo-mortgage-guide-2026',
+      '/blog/ladera-ranch-mortgage-guide-2026',
+      '/blog/rancho-santa-margarita-mortgage-guide-2026',
+      '/blog/non-qm-loans-orange-county-guide-2026',
+      '/blog/dscr-loans-investment-properties-2026',
 
       // Resources
       '/resources/mortgage-glossary',
