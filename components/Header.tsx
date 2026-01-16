@@ -3,9 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Calculator, FileText, Phone, Menu, X, User, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { createPageUrl } from '@/lib/utils';
 import Image from 'next/image';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 
@@ -33,7 +32,7 @@ export default function Header() {
             </div>
             <div className="ml-2 sm:ml-3">
               <span className="block text-xs sm:text-sm font-bold text-slate-900 leading-tight">Mo Abdel</span>
-              <span className="block text-[8px] sm:text-[10px] text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
+              <span className="block text-[10px] sm:text-xs text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
             </div>
           </Link>
 

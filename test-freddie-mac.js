@@ -1,5 +1,5 @@
 // Quick test script to verify Freddie Mac PMMS API is working
-const fetch = require('node-fetch');
+// Uses native fetch (Node.js 18+)
 
 async function testFreddieMacAPI() {
   try {

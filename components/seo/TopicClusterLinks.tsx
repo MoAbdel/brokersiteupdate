@@ -47,7 +47,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
       related: [
         { title: 'Home Buyer Guide', href: '/guides/orange-county-home-buyer-guide', description: 'Complete first-time buyer guide' },
         { title: 'Refinancing Guide', href: '/guides/orange-county-refinancing-guide', description: 'When and how to refinance' },
-        { title: 'Market Forecast 2026-2026', href: '/guides/orange-county-market-forecast-2026-2026', description: 'Local market predictions' },
+        { title: 'Market Forecast 2025-2026', href: '/guides/orange-county-market-forecast-2025-2026', description: 'Local market predictions' },
         { title: 'School Districts', href: '/guides/orange-county-school-districts', description: 'Best schools for families' },
         { title: 'Investment Property', href: '/guides/orange-county-investment-property', description: 'Investor financing strategies' },
         { title: 'VA Loans Guide', href: '/guides/orange-county-va-loans', description: 'Military benefits and programs' }

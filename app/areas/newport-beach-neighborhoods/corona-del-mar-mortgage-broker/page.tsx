@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { MapPin, Home, Sun, TrendingUp, Calculator, Phone, Crown, Waves } from 'lucide-react';
+import { MapPin, Sun, Calculator, Phone, Crown, Waves } from 'lucide-react';
 import AIOOptimization from '@/components/seo/AIOOptimization';
 import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Corona del Mar Newport Beach Mortgage Broker | Luxury Coastal Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Corona del Mar Newport Beach mortgage broker specializing in luxury coastal home financing. Prestigious beachside community loans, Competitive pricing. Call (949) 822-9662.',
+  description: 'Corona del Mar Newport Beach mortgage broker specializing in luxury coastal home financing. Prestigious beachside community loans, Competitive pricing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker',
   },
@@ -188,7 +188,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -385,7 +385,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
                 <Sun className="w-5 h-5 mr-2" />

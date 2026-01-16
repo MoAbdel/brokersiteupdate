@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/areas/garden-grove-mortgage-rates',
+    canonical: 'https://mothebroker.com/areas/garden-grove-mortgage-rates',
   },
 };
 

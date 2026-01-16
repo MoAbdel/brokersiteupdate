@@ -1,5 +1,5 @@
 import React from "react";
-import { Star, ExternalLink } from "lucide-react";
+import { Star } from "lucide-react";
 import Link from "next/link";
 
 // Google Reviews Schema for SEO
@@ -26,7 +26,7 @@ const googleReviewsSchema = {
         "ratingValue": "5",
         "bestRating": "5"
       },
-      "datePublished": "2024-11-15",
+      "datePublished": "2025-11-15",
       "reviewBody": "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your pricing, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
       "publisher": {
         "@type": "Organization",
@@ -44,7 +44,7 @@ const googleReviewsSchema = {
         "ratingValue": "5",
         "bestRating": "5"
       },
-      "datePublished": "2024-10-28",
+      "datePublished": "2025-10-28",
       "reviewBody": "I can't recommend Mo enough! I was looking to tap into my home's equity but had no idea where to start. Mo walked me through each program and every step of the process in plain language, answered all my questions quickly, and never once made me feel pressured. The whole thing was smoother and faster than I expected. I had funds available in just days. He genuinely looked out for my best interest and got me an amazing rate. If you're thinking about a HELOC, Mo is the guy you want in your corner",
       "publisher": {
         "@type": "Organization",
@@ -70,7 +70,7 @@ const reviews: Review[] = [
     id: "1",
     author: "Karthikeyan R.",
     rating: 5,
-    date: "2024-11-15",
+    date: "2025-11-15",
     text: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your pricing, waiting for the lender decision, temporary approval and so on. Mo was great in communicating with me clearly and was willing to go the extra mile to check documents, reach out to processors and so on. It could not have been stress free without Mo. so thank you Mo from the bottom of my heart. May you have good luck in all your loans.",
     platform: "google",
     verified: true,
@@ -80,7 +80,7 @@ const reviews: Review[] = [
     id: "2",
     author: "Sean K.",
     rating: 5,
-    date: "2024-10-28",
+    date: "2025-10-28",
     text: "I can't recommend Mo enough! I was looking to tap into my home's equity but had no idea where to start. Mo walked me through each program and every step of the process in plain language, answered all my questions quickly, and never once made me feel pressured. The whole thing was smoother and faster than I expected. I had funds available in just days. He genuinely looked out for my best interest and got me an amazing rate. If you're thinking about a HELOC, Mo is the guy you want in your corner",
     platform: "google",
     verified: true,
@@ -88,44 +88,7 @@ const reviews: Review[] = [
   }
 ];
 
-const getPlatformIcon = (platform: string) => {
-  switch (platform) {
-    case 'google':
-      return (
-        <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-          <span className="text-white text-xs font-bold">G</span>
-        </div>
-      );
-    case 'yelp':
-      return (
-        <div className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
-          <span className="text-white text-xs font-bold">Y</span>
-        </div>
-      );
-    case 'facebook':
-      return (
-        <div className="w-6 h-6 bg-blue-800 rounded-full flex items-center justify-center">
-          <span className="text-white text-xs font-bold">f</span>
-        </div>
-      );
-    default:
-      return null;
-  }
-};
-
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  });
-};
-
 export default function GoogleReviews() {
-  const averageRating = reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length;
-  const totalReviews = reviews.length;
-
   return (
     <>
       {/* Google Reviews Schema Markup */}
@@ -193,11 +156,11 @@ export default function GoogleReviews() {
                 >
                   Get Your Free Consultation
                 </Link>
-                <a 
-                  href="tel:(949) 822-9662"
+                <a
+                  href="tel:+19495372357"
                   className="inline-flex items-center justify-center border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </a>
               </div>
             </div>

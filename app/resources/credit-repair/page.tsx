@@ -4,26 +4,18 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { 
+import {
   CreditCard,
   TrendingUp,
   CheckCircle,
   AlertTriangle,
-  FileText,
   Clock,
   DollarSign,
   Shield,
-  Target,
   Calendar,
-  Download,
   Phone,
-  ArrowRight,
   Star,
-  Percent,
-  Calculator,
-  AlertCircle,
-  BookOpen,
-  Users
+  Percent
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -627,10 +619,10 @@ export default function CreditRepairPage() {
                 Free Credit Review
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

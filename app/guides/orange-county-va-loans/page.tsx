@@ -73,7 +73,7 @@ export default function OrangeCountyVALoansGuide() {
       area: "San Clemente",
       medianPrice: "$1,200,000",
       vaLoanLimit: "$1,266,300",
-      jumpoCoverage: "85%",
+      jumboCoverage: "85%",
       militaryFriendly: true,
       highlights: ["Beach city", "Military discounts", "Family neighborhoods"]
     },
@@ -81,7 +81,7 @@ export default function OrangeCountyVALoansGuide() {
       area: "Dana Point",
       medianPrice: "$1,400,000", 
       vaLoanLimit: "$1,266,300",
-      jumpoCoverage: "75%",
+      jumboCoverage: "75%",
       militaryFriendly: true,
       highlights: ["Harbor views", "Resort lifestyle", "Top schools"]
     },
@@ -89,7 +89,7 @@ export default function OrangeCountyVALoansGuide() {
       area: "Mission Viejo",
       medianPrice: "$950,000",
       vaLoanLimit: "$1,266,300",
-      jumpoCoverage: "100%",
+      jumboCoverage: "100%",
       militaryFriendly: true,
       highlights: ["Master planned", "Family oriented", "Great value"]
     },
@@ -97,7 +97,7 @@ export default function OrangeCountyVALoansGuide() {
       area: "Huntington Beach",
       medianPrice: "$1,300,000",
       vaLoanLimit: "$1,266,300", 
-      jumpoCoverage: "80%",
+      jumboCoverage: "80%",
       militaryFriendly: true,
       highlights: ["Surf city", "Beach lifestyle", "Military community"]
     },
@@ -105,7 +105,7 @@ export default function OrangeCountyVALoansGuide() {
       area: "Costa Mesa",
       medianPrice: "$950,000",
       vaLoanLimit: "$1,266,300",
-      jumpoCoverage: "100%",
+      jumboCoverage: "100%",
       militaryFriendly: false,
       highlights: ["Urban living", "Job centers", "Nightlife"]
     }
@@ -329,8 +329,8 @@ export default function OrangeCountyVALoansGuide() {
                     </td>
                     <td className="px-6 py-4 font-semibold text-green-600">{area.medianPrice}</td>
                     <td className="px-6 py-4">
-                      <div className="text-slate-600">{area.jumpoCoverage} of homes</div>
-                      <div className="text-xs text-slate-500">under ${area.vaLoanLimit.toLocaleString()}</div>
+                      <div className="text-slate-600">{area.jumboCoverage} of homes</div>
+                      <div className="text-xs text-slate-500">under {area.vaLoanLimit}</div>
                     </td>
                     <td className="px-6 py-4">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
@@ -470,7 +470,7 @@ export default function OrangeCountyVALoansGuide() {
               <div className="space-y-4">
                 <div>
                   <span className="text-green-700 font-medium">Above Loan Limit:</span>
-                  <div className="text-3xl font-bold text-green-600">$1,089,301+</div>
+                  <div className="text-3xl font-bold text-green-600">$1,266,301+</div>
                 </div>
                 <div>
                   <span className="text-green-700 font-medium">Down Payment:</span>

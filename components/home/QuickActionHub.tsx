@@ -1,10 +1,18 @@
 'use client';
 
 import React from 'react';
-import { User, Calendar, FileText, FileCheck, Lock, CreditCard, Mail, Globe, Shield } from 'lucide-react';
+import { User, Calendar, FileText, FileCheck, Lock, CreditCard, Mail, Globe, Shield, LucideIcon } from 'lucide-react';
+
+interface QuickAction {
+  icon: LucideIcon;
+  title: string;
+  href: string;
+  download?: string;
+  external?: boolean;
+}
 
 export default function QuickActionHub() {
-  const actions = [
+  const actions: QuickAction[] = [
     {
       icon: User,
       title: 'Add My Contact',
@@ -48,7 +56,7 @@ export default function QuickActionHub() {
     },
     {
       icon: Globe,
-      title: 'WestCapitalLending.com',
+      title: 'LuminLending.com',
       href: 'https://luminglending.com/team/mo-abdel',
       external: true,
     },
@@ -83,6 +91,7 @@ export default function QuickActionHub() {
                 href={action.href}
                 target={isExternal ? '_blank' : undefined}
                 rel={isExternal ? 'noopener noreferrer' : undefined}
+                download={action.download}
                 className={`flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-900 px-4 py-4 rounded-lg transition-all duration-200 hover:shadow-md ${action.title === 'NMLSConsumerAccess.org' ? 'col-span-2 sm:col-span-1 justify-center' : ''
                   }`}
               >

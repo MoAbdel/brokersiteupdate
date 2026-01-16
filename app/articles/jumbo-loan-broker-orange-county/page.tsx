@@ -83,7 +83,7 @@ export default function JumboLoanBrokerArticle() {
                     </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-lg mb-3">Jumbo Loan Threshold</h4>
-                      <p className="text-3xl font-bold text-purple-600 mb-2">$1,089,301+</p>
+                      <p className="text-3xl font-bold text-purple-600 mb-2">$1,266,301+</p>
                       <p className="text-sm text-gray-600">Requires specialized jumbo loan products</p>
                     </div>
                   </div>
@@ -521,7 +521,7 @@ export default function JumboLoanBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Jumbo loan specialist: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
+                  Jumbo loan specialist: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
                 </p>
               </section>
 

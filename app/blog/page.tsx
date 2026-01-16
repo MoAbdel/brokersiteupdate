@@ -2,9 +2,11 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'Mortgage Blog | Expert Home Loan Insights & Guides',
-    description: 'Expert mortgage insights, local market guides, and home loan education from a licensed wholesale mortgage broker serving Southern California.',
-    keywords: ['mortgage blog', 'home loan guides', 'mortgage advice', 'Orange County real estate'],
+  title: 'Blog | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog',
+  },
 };
 
 const blogPosts = [

@@ -3,10 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { MapPin, Home, GraduationCap, Shield, TrendingUp, Users, Building, Phone, Calculator } from 'lucide-react';
-import AIOOptimization from '@/components/seo/AIOOptimization';
-import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
-import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
+import { MapPin, Home, GraduationCap, Shield, TrendingUp, Users, Building } from 'lucide-react';
 import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
@@ -18,32 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function IrvineMortgageBrokerPage() {
-  
-  const irvineData = {
-    mainTopic: "Irvine Mortgage Broker Services",
-    quickAnswer: "Mo Abdel is a licensed mortgage broker (NMLS #1426884) serving Irvine with specialized knowledge of University Park, Woodbridge, and Northwood neighborhoods. Expert in jumbo loans for luxury Irvine homes.",
-    keyFacts: [
-      "Licensed mortgage broker NMLS #1426884",
-      "Irvine neighborhood specialist",
-      "University Park, Woodbridge, Northwood expert",
-      "Jumbo loan specialist for luxury homes",
-      "UCI area financing",
-      "Average closing time: 18 days"
-    ],
-    statistics: [
-      {
-        stat: "Irvine median home price: $1.4M",
-        source: "Orange County MLS",
-        year: "2026"
-      },
-      {
-        stat: "85% of Irvine homes require jumbo loans",
-        source: "California Housing Finance Agency",
-        year: "2026"
-      }
-    ]
-  };
-
   const schemaData = [
     {
       type: 'faq' as const,
@@ -162,7 +133,7 @@ export default function IrvineMortgageBrokerPage() {
 
         {/* Irvine Market Stats */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">Irvine Housing Market Data - 2024</h2>
+          <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">Irvine Housing Market Data - 2026</h2>
           <p className="text-center text-slate-600 mb-8">
             According to Orange County real estate data and city statistics, research shows Irvine consistently ranks among 
             California's most desirable communities. Industry data indicates strong property values and appreciation rates.
@@ -200,7 +171,7 @@ export default function IrvineMortgageBrokerPage() {
           
           {/* Irvine Neighborhood Comparison Table */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold text-center text-slate-900 mb-6">Irvine Neighborhoods - Market Analysis 2024</h3>
+            <h3 className="text-2xl font-bold text-center text-slate-900 mb-6">Irvine Neighborhoods - Market Analysis 2026</h3>
             <p className="text-center text-slate-600 mb-6">
               Data compiled from MLS statistics and Irvine Company reports. Studies confirm these neighborhoods maintain strong resale values.
             </p>
@@ -252,7 +223,7 @@ export default function IrvineMortgageBrokerPage() {
             
             <div className="mt-4 text-center">
               <p className="text-sm text-slate-600">
-                <strong>Data Sources:</strong> Orange County MLS, Irvine Company market reports, 2024 sales data. 
+                <strong>Data Sources:</strong> Orange County MLS, Irvine Company market reports, 2026 sales data. 
                 Research indicates 85% of Irvine homes require jumbo financing due to conforming loan limits.
               </p>
             </div>

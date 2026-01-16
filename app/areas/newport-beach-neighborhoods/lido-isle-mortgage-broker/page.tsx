@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { MapPin, Home, Anchor, TrendingUp, Calculator, Phone, Crown, Waves } from 'lucide-react';
+import { Anchor, Calculator, Phone, Crown, Waves } from 'lucide-react';
 import AIOOptimization from '@/components/seo/AIOOptimization';
 import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';

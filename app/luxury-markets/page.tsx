@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Orange County Luxury Real Estate & Mortgage Financing | High-End Home Loans',
   description: 'Specialized luxury mortgage financing for Orange County\'s most exclusive properties. Jumbo loans, portfolio lending, and white-glove service for ultra-luxury homes.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/luxury-markets',
+    canonical: 'https://www.luminlending.com/luxury-markets',
   },
 };
 

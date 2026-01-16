@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroSection from './home/HeroSection';
 import QuickActionHub from './home/QuickActionHub';
 import WestCapitalAdvantage from './home/WestCapitalAdvantage';
@@ -25,5 +24,3 @@ export default function SimpleLandingPage() {
     </div>
   );
 }
-
-

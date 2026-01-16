@@ -39,8 +39,7 @@ const santaAnaData = {
     'Historic neighborhoods',
     'Urban redevelopment'
   ],
-  keywordPhrase: 'Santa Ana refinance pricing',
-  specialization: 'refinance'
+  keywordPhrase: 'Santa Ana refinance pricing'
 };
 
 export default function SantaAnaRefinanceRatesPage() {

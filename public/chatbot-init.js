@@ -303,6 +303,8 @@
     // Add user message
     const userMsg = document.createElement('div');
     userMsg.style.cssText = 'display: flex; justify-content: flex-end;';
+    // Sanitize user message to prevent XSS
+    const sanitizedMessage = message.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
     userMsg.innerHTML = \`
       <div style="
         max-width: 80%;
@@ -312,7 +314,7 @@
         color: white;
         border-bottom-right-radius: 4px;
         font-size: 14px;
-      ">\${message}</div>
+      ">\${sanitizedMessage}</div>
     \`;
     messages.appendChild(userMsg);
     
@@ -367,17 +369,26 @@
     return 'That\\'s a great question! Mo can provide detailed information about your specific situation. Call or text <a href="tel:9498229662" style="color: #2563eb;">(949) 822-9662</a> for immediate assistance. He\\'s available 24/7!';
   }
   
-  // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeChatbot);
-  } else if (document.readyState === 'interactive') {
-    setTimeout(initializeChatbot, 100);
-  } else {
+  // Track initialization to prevent multiple calls
+  let initialized = false;
+
+  function safeInitialize() {
+    if (initialized) return;
+    initialized = true;
     initializeChatbot();
   }
-  
-  // Backup initialization
-  setTimeout(initializeChatbot, 1000);
-  setTimeout(initializeChatbot, 3000);
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', safeInitialize);
+  } else if (document.readyState === 'interactive') {
+    setTimeout(safeInitialize, 100);
+  } else {
+    safeInitialize();
+  }
+
+  // Backup initialization (only runs if not already initialized)
+  setTimeout(safeInitialize, 1000);
+  setTimeout(safeInitialize, 3000);
   
 })();

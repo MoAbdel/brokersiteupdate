@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
-import { CheckCircle, XCircle, Building, Users, DollarSign, Clock, Shield, Target, Phone, Calculator, TrendingDown, TrendingUp } from 'lucide-react';
+import { CheckCircle, Building, Users, DollarSign, Clock, Shield, Target, Phone, Calculator, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -329,7 +329,106 @@ export default function MortgageBrokerVsBankComparison() {
         </div>
       </section>
 
+      {/* Broker Advantages Detail */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Work With a Mortgage Broker</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Key advantages of choosing a mortgage broker for your home financing
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {brokerAdvantages.map((advantage, index) => (
+              <Card key={index} className="shadow-lg">
+                <CardHeader>
+                  <div className="flex items-center space-x-3">
+                    <div className="bg-green-100 p-3 rounded-lg">
+                      <advantage.icon className="w-6 h-6 text-green-600" />
+                    </div>
+                    <CardTitle className="text-lg">{advantage.title}</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 mb-2">{advantage.description}</p>
+                  <Badge className="bg-green-100 text-green-800">{advantage.savings}</Badge>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-12">
+            <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Bank Advantages to Consider</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              {bankAdvantages.map((advantage, index) => (
+                <Card key={index} className="shadow">
+                  <CardContent className="pt-6">
+                    <h4 className="font-semibold text-slate-900 mb-2">{advantage.title}</h4>
+                    <p className="text-sm text-slate-600 mb-2">{advantage.description}</p>
+                    <p className="text-xs text-amber-700 bg-amber-50 p-2 rounded">{advantage.limitation}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Detailed Comparison Table */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Detailed Head-to-Head Comparison</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              See how brokers and banks compare on every key aspect
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th className="text-left p-4 font-semibold text-slate-900 border-b">Aspect</th>
+                  <th className="text-left p-4 font-semibold text-green-800 border-b">
+                    <div className="flex items-center space-x-2">
+                      <Users className="w-5 h-5" />
+                      <span>Mortgage Broker</span>
+                    </div>
+                  </th>
+                  <th className="text-left p-4 font-semibold text-blue-800 border-b">
+                    <div className="flex items-center space-x-2">
+                      <Building className="w-5 h-5" />
+                      <span>Bank</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {detailedComparison.map((row, index) => (
+                  <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
+                    <td className="p-4 font-medium text-slate-900 border-b">{row.aspect}</td>
+                    <td className={`p-4 border-b ${row.winner === 'broker' ? 'bg-green-50' : ''}`}>
+                      <div className="flex items-start space-x-2">
+                        {row.winner === 'broker' && <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />}
+                        <span className="text-slate-700">{row.broker}</span>
+                      </div>
+                    </td>
+                    <td className={`p-4 border-b ${row.winner === 'bank' ? 'bg-blue-50' : ''}`}>
+                      <div className="flex items-start space-x-2">
+                        {row.winner === 'bank' && <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />}
+                        <span className="text-slate-700">{row.bank}</span>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Side-by-Side Comparison */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

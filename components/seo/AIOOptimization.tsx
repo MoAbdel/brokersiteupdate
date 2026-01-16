@@ -1,7 +1,4 @@
-'use client';
-
 import React from 'react';
-import Head from 'next/head';
 
 interface AIOOptimizationProps {
   title: string;
@@ -163,44 +160,42 @@ export default function AIOOptimization({
 
   return (
     <>
-      <Head>
-        {/* AI-Optimized Meta Tags */}
-        <meta name="ai-content-type" content="financial-service-information" />
-        <meta name="ai-expertise-level" content="professional" />
-        <meta name="ai-content-freshness" content="2026" />
-        <meta name="ai-geographic-focus" content={city || "Orange County, CA"} />
-        <meta name="ai-industry" content="mortgage-lending" />
-        <meta name="ai-professional-license" content={businessContext.credentials} />
-        
-        {/* Quick Answer for AI - Most Important */}
-        <meta name="ai-quick-answer" content={content?.quickAnswer || description} />
-        
-        {/* Citation-Friendly Meta */}
-        <meta name="citation-title" content={title} />
-        <meta name="citation-author" content={businessContext.name} />
-        <meta name="citation-date" content={new Date().toISOString().split('T')[0]} />
-        <meta name="citation-source" content={canonicalUrl} />
-        
-        {/* Enhanced Business Context for AI */}
-        <meta name="business-name" content={businessContext.name} />
-        <meta name="business-license" content={businessContext.credentials} />
-        <meta name="business-phone" content={businessContext.phone} />
-        <meta name="business-service-area" content={businessContext.location} />
-        <meta name="business-specialization" content="Orange County Mortgage Broker" />
-        
-        {/* AI Understanding Signals */}
-        <meta name="content-confidence" content="high" />
-        <meta name="professional-verification" content="NMLS-licensed" />
-        <meta name="local-expertise" content="Orange County CA" />
-        
-        {/* FAQ Schema for AI */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(aiOptimizedSchema, null, 2)
-          }}
-        />
-      </Head>
+      {/* AI-Optimized Meta Tags - rendered inline for App Router compatibility */}
+      <meta name="ai-content-type" content="financial-service-information" />
+      <meta name="ai-expertise-level" content="professional" />
+      <meta name="ai-content-freshness" content="2026" />
+      <meta name="ai-geographic-focus" content={city || "Orange County, CA"} />
+      <meta name="ai-industry" content="mortgage-lending" />
+      <meta name="ai-professional-license" content={businessContext.credentials} />
+
+      {/* Quick Answer for AI - Most Important */}
+      <meta name="ai-quick-answer" content={content?.quickAnswer || description} />
+
+      {/* Citation-Friendly Meta */}
+      <meta name="citation-title" content={title} />
+      <meta name="citation-author" content={businessContext.name} />
+      <meta name="citation-date" content={new Date().toISOString().split('T')[0]} />
+      <meta name="citation-source" content={canonicalUrl} />
+
+      {/* Enhanced Business Context for AI */}
+      <meta name="business-name" content={businessContext.name} />
+      <meta name="business-license" content={businessContext.credentials} />
+      <meta name="business-phone" content={businessContext.phone} />
+      <meta name="business-service-area" content={businessContext.location} />
+      <meta name="business-specialization" content="Orange County Mortgage Broker" />
+
+      {/* AI Understanding Signals */}
+      <meta name="content-confidence" content="high" />
+      <meta name="professional-verification" content="NMLS-licensed" />
+      <meta name="local-expertise" content="Orange County CA" />
+
+      {/* FAQ Schema for AI */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aiOptimizedSchema, null, 2)
+        }}
+      />
 
       {/* Hidden AI-Optimized Content */}
       <div style={{ display: 'none' }} aria-hidden="true">

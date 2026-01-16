@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Conventional Loans Orange County | 3% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Conventional loans in Orange County with Competitive pricing and flexible terms. 3% down payment options available. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
+  title: 'Conventional Loans | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Conventional mortgages in Orange County with rates from 200+ lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
   },
@@ -37,9 +37,9 @@ export default function ConventionalLoansPage() {
                 Get Pre-Approved Today
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -145,7 +145,7 @@ export default function ConventionalLoansPage() {
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Higher Loan Amounts</h3>
-                <p className="text-slate-600 mb-3">Conforming loans up to $766,550 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
+                <p className="text-slate-600 mb-3">Conforming loans up to $1,266,300 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
                 <p className="text-sm font-semibold text-blue-600">Perfect for Orange County prices</p>
               </CardContent>
             </Card>
@@ -369,7 +369,7 @@ export default function ConventionalLoansPage() {
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$766,550</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,149,825</td>
                   <td className="px-6 py-4 text-center text-green-600">No limit</td>
                   <td className="px-6 py-4 text-center text-green-600">No limit</td>
                 </tr>
@@ -496,9 +496,9 @@ export default function ConventionalLoansPage() {
                 Start My Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

@@ -3,10 +3,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-export default function StructuredFAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
-  const faqs = [
+const faqs = [
     {
       question: "How is a mortgage broker different from a bank loan officer?",
       answer: "A mortgage broker works for you, not a single bank. I have access to 200+ lenders and can shop for the best pricing and terms. Bank loan officers can only offer their bank's products, which limits your options and often results in higher rates."
@@ -39,7 +36,13 @@ export default function StructuredFAQ() {
       question: "Can you help with refinancing my current mortgage?",
       answer: "Absolutely. I offer rate-and-term refinancing to lower your pricing, cash-out refinancing to access your equity, and HELOC options for flexible credit lines. I'll analyze your situation to find the best solution."
     }
-  ];
+];
+
+// Export FAQ data for use in page-level schema markup
+export { faqs };
+
+export default function StructuredFAQ() {
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
     <section className="py-16 bg-slate-50">
@@ -93,25 +96,23 @@ export default function StructuredFAQ() {
           ))}
         </dl>
 
-        {/* Schema Markup for FAQs */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": faqs.map(faq => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.answer
-                }
-              }))
-            })
-          }}
-        />
       </div>
     </section>
   );
+}
+
+// Generate FAQ schema JSON-LD for use in page metadata
+export function generateFAQSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 }

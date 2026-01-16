@@ -1,9 +1,8 @@
-import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, Home, TrendingUp, CheckCircle, AlertCircle, Calculator, Shield } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/Card';
+import { DollarSign, TrendingUp, CheckCircle, AlertCircle, Calculator, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',

@@ -138,12 +138,14 @@ function updatePageMetadata(filePath) {
             /\n\};/,
             `,\n  alternates: {\n    canonical: 'https://www.mothebroker.com${canonicalUrl}',\n  },\n};`
           );
-          
+
           content = content.replace(oldMetadata, newMetadata);
           fs.writeFileSync(filePath, content);
           console.log(`✅ Added canonical to: ${filePath}`);
           return { status: 'updated-canonical', path: filePath };
         }
+        // Already has proper format with alternates - no changes needed
+        return { status: 'already-updated', path: filePath };
       } else {
         // Update entire metadata
         const canonicalUrl = relativePath || '/';

@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { BookOpen, Clock, TrendingUp, Users } from 'lucide-react';
+import { BookOpen, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Mortgage Blog | Home Buying Tips & Loan Advice - Orange County',

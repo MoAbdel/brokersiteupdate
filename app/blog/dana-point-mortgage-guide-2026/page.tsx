@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Dana Point Mortgage Guide 2026: Harbor & Coastal Home Financing',
-    description: 'Complete mortgage guide for Dana Point properties. Expert wholesale financing solutions for harbor homes, coastal estates, and family neighborhoods.',
-    keywords: ['Dana Point mortgage broker', 'Dana Point home loans', 'Dana Point refinance', 'harbor property financing'],
+  title: 'Dana Point Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
+  },
 };
 
 export default function DanaPointMortgageGuidePage() {
@@ -95,7 +97,7 @@ export default function DanaPointMortgageGuidePage() {
                 </p>
                 <p><strong>Jumbo Loan Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $806,500 (2026 Orange County conforming limit)</li>
+                    <li>Loan amounts exceeding $1,266,300 (2026 Orange County conforming limit)</li>
                     <li>Competitive wholesale pricing structures</li>
                     <li>Down payment options typically 10-20%</li>
                     <li>Available for primary residences, second homes, and investment properties</li>

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -32,58 +32,54 @@ export default function AffordabilityCalculator() {
     backEndRatio: 0
   });
 
-  const calculateAffordability = () => {
+  const calculateAffordability = useCallback(() => {
     const monthlyIncome = parseFloat(formData.grossIncome) / 12;
     const monthlyDebts = parseFloat(formData.monthlyDebts);
     const downPayment = parseFloat(formData.downPayment);
     const annualRate = parseFloat(formData.interestRate) / 100;
     const monthlyRate = annualRate / 12;
     const numberOfPayments = parseInt(formData.loanTerm) * 12;
-    
+
     // Conservative DTI ratios (28% front-end, 36% back-end)
     const maxHousingPayment = monthlyIncome * 0.28;
     const maxTotalPayments = monthlyIncome * 0.36;
     const maxMortgagePayment = maxTotalPayments - monthlyDebts;
-    
+
     // Use the lower of the two limits
     const affordablePayment = Math.min(maxHousingPayment, maxMortgagePayment);
-    
+
     // Calculate property tax and insurance rates
     const propertyTaxRate = parseFloat(formData.propertyTax) / 100 / 12;
     const insuranceRate = parseFloat(formData.homeInsurance) / 100 / 12;
     const pmiRate = parseFloat(formData.pmi) / 100 / 12;
     const monthlyHOA = parseFloat(formData.hoaDues);
-    
-    // Calculate maximum loan amount using payment capacity
-    // Formula: P = PMT * [(1 - (1 + r)^-n) / r] where PMT is payment, r is rate, n is payments
-    const availableForPrincipalAndInterest = affordablePayment - monthlyHOA;
-    
+
     // Iterative approach to find maximum home price
     let maxPrice = 0;
-    let increment = 10000;
+    const increment = 10000;
     let testPrice = increment;
-    
+
     while (testPrice <= 2000000) { // Cap at $2M
       const loanAmount = testPrice - downPayment;
       if (loanAmount <= 0) {
         testPrice += increment;
         continue;
       }
-      
-      const monthlyPI = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / 
+
+      const monthlyPI = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) /
                        (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
       const monthlyTaxes = testPrice * propertyTaxRate;
       const monthlyInsurance = testPrice * insuranceRate;
       const monthlyPMI = loanAmount * pmiRate;
-      
+
       const totalPayment = monthlyPI + monthlyTaxes + monthlyInsurance + monthlyPMI + monthlyHOA;
-      
+
       if (totalPayment <= affordablePayment) {
         maxPrice = testPrice;
       } else {
         break;
       }
-      
+
       testPrice += increment;
     }
 
@@ -100,7 +96,7 @@ export default function AffordabilityCalculator() {
       frontEndRatio: frontEnd,
       backEndRatio: backEnd
     });
-  };
+  }, [formData]);
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({
@@ -111,7 +107,7 @@ export default function AffordabilityCalculator() {
 
   useEffect(() => {
     calculateAffordability();
-  }, [formData]);
+  }, [calculateAffordability]);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

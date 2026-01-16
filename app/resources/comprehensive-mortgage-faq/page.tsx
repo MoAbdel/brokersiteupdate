@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Comprehensive Mortgage FAQ | Orange County Expert Answers',
   description: 'Complete mortgage FAQ with professional answers by licensed broker Mo Abdel (NMLS #1426884). Expert guidance on rates, qualification, process, and Orange County market.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/resources/comprehensive-mortgage-faq',
+    canonical: 'https://www.luminlending.com/resources/comprehensive-mortgage-faq',
   },
 };
 
@@ -304,7 +304,7 @@ export default function ComprehensiveMortgageFAQ() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Call Direct</span>
-              <span className="text-blue-100">(949) 822-9662</span>
+              <span className="text-blue-100">(949) 537-2357</span>
             </div>
             <div className="flex flex-col items-center">
               <Calculator className="w-8 h-8 mb-2" />

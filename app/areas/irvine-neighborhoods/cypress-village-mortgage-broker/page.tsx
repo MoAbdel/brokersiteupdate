@@ -53,7 +53,7 @@ export default function CypressVillageMortgageBrokerPage() {
       type: 'faq' as const,
       title: 'Cypress Village Irvine Mortgage FAQ',
       description: 'Common questions about Cypress Village Irvine newest community home financing',
-      url: 'https://mothebroker.com/areas/irvine-neighborhoods/cypress-village-mortgage-broker',
+      url: 'https://www.mothebroker.com/areas/irvine-neighborhoods/cypress-village-mortgage-broker',
       data: {
         questions: [
           {
@@ -119,7 +119,7 @@ export default function CypressVillageMortgageBrokerPage() {
   const loanPrograms = [
     {
       name: 'Jumbo Loans',
-      description: 'For most Cypress Village properties above $1.089M',
+      description: 'For most Cypress Village properties above $1,266,300',
       rate: 'From 7.25%',
       downPayment: '10-25%'
     },
@@ -144,7 +144,7 @@ export default function CypressVillageMortgageBrokerPage() {
         title="Cypress Village Irvine Mortgage Broker | Newest Community Home Loans | Mo Abdel NMLS #1426884"
         description="Cypress Village Irvine mortgage broker specializing in newest master-planned community homes. Brand new construction financing, modern amenities, Competitive pricing."
         city="Cypress Village, Irvine"
-        canonicalUrl="https://mothebroker.com/areas/irvine-neighborhoods/cypress-village-mortgage-broker"
+        canonicalUrl="https://www.mothebroker.com/areas/irvine-neighborhoods/cypress-village-mortgage-broker"
         content={cypressVillageData}
       />
       <EnhancedLocalSchema city="Cypress Village, Irvine" page_type="city" service_focus="newest master-planned community home financing" />

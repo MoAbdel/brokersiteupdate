@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Mission Viejo Mortgage Broker | Home Loans & HELOCs in Mission Viejo, CA',
   description:
     'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
-  alternates: { canonical: 'https://mothebroker.com/areas/mission-viejo' },
+  alternates: { canonical: 'https://www.mothebroker.com/areas/mission-viejo' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Mission Viejo Mortgage Broker | HELOC, Cash-Out & Home Loans',
@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Mission Viejo',
     areaServed: 'Mission Viejo, Orange County, CA',
     url: 'https://mothebroker.com/areas/mission-viejo',
-    telephone: '+1-949-735-4000',
+    telephone: '+1-949-537-2357',
     address: { '@type': 'PostalAddress', addressLocality: 'Mission Viejo', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Wholesale mortgage broker serving Mission Viejo with access to 200+ lenders for home loans, HELOCs, and refinancing in South Orange County.',
@@ -174,11 +174,11 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOC options and rates', href: '/heloc' },
-    { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
-    { label: 'Home equity loan comparison', href: '/home-equity-loan' },
-    { label: 'Orange County mortgage services', href: '/orange-county' },
-    { label: 'Wholesale mortgage broker benefits', href: '/mortgage-broker-orange-county' },
+    { label: 'HELOC options and rates', href: '/loan-programs/heloc' },
+    { label: 'Cash-out refinancing guide', href: '/loan-programs/cash-out-refinance' },
+    { label: 'Home equity loan comparison', href: '/loan-programs/heloan' },
+    { label: 'Orange County mortgage services', href: '/areas' },
+    { label: 'Wholesale mortgage broker benefits', href: '/guides/why-choose-local-mortgage-broker' },
     { label: 'Newport Beach area services', href: '/areas/newport-beach' },
     { label: 'Mortgage articles and insights', href: '/articles' },
   ];

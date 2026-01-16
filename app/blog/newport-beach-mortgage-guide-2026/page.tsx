@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders',
-    description: 'Discover wholesale mortgage options in Newport Beach. Expert guidance on jumbo loans, conventional financing, and competitive pricing for luxury coastal properties.',
-    keywords: ['Newport Beach mortgage broker', 'Newport Beach home loans', 'Newport Beach refinance', 'jumbo loans Newport Beach'],
+  title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026',
+  },
 };
 
 export default function NewportBeachMortgageGuidePage() {

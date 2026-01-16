@@ -187,14 +187,69 @@ function generateMetadataExport(config, urlPath) {
 };`;
 }
 
-// Log all configurations
+// Convert URL path to file path
+function urlPathToFilePath(urlPath) {
+  return path.join(__dirname, 'app', urlPath, 'page.tsx');
+}
+
+// Update metadata in a file
+function updateMetadata(filePath, config, urlPath) {
+  if (!fs.existsSync(filePath)) {
+    console.log(`  ⚠️  File not found: ${filePath}`);
+    return false;
+  }
+
+  let content = fs.readFileSync(filePath, 'utf8');
+
+  // Check if file has metadata export
+  const metadataRegex = /export\s+const\s+metadata\s*:\s*Metadata\s*=\s*\{[\s\S]*?\n\};/;
+
+  if (!metadataRegex.test(content)) {
+    console.log(`  ⚠️  No metadata export found in: ${filePath}`);
+    return false;
+  }
+
+  const newMetadata = generateMetadataExport(config, urlPath);
+  content = content.replace(metadataRegex, newMetadata);
+
+  fs.writeFileSync(filePath, content, 'utf8');
+  console.log(`  ✅ Updated: ${filePath}`);
+  return true;
+}
+
+// Main execution
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+
+if (dryRun) {
+  console.log('DRY RUN MODE - No files will be modified\n');
+}
+
 console.log('Metadata configurations prepared for the following pages:\n');
-Object.entries(metadataConfig).forEach(([path, config]) => {
-  console.log(`Path: ${path}`);
+
+let updated = 0;
+let skipped = 0;
+
+Object.entries(metadataConfig).forEach(([urlPath, config]) => {
+  console.log(`Path: ${urlPath}`);
   console.log(`Title: ${config.title}`);
   console.log(`Description: ${config.description} (${config.description.length} chars)`);
-  console.log(`Canonical: https://www.mothebroker.com${path}`);
+  console.log(`Canonical: https://www.mothebroker.com${urlPath}`);
+
+  if (!dryRun) {
+    const filePath = urlPathToFilePath(urlPath);
+    if (updateMetadata(filePath, config, urlPath)) {
+      updated++;
+    } else {
+      skipped++;
+    }
+  }
   console.log('---');
 });
 
-console.log(`\nTotal pages to update: ${Object.keys(metadataConfig).length}`);
+console.log(`\nTotal pages configured: ${Object.keys(metadataConfig).length}`);
+if (!dryRun) {
+  console.log(`Updated: ${updated}, Skipped: ${skipped}`);
+} else {
+  console.log('Run without --dry-run to apply changes');
+}

@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Irvine Mortgage Guide 2026: Financing in OC\'s Tech & Master-Planned Hub',
-    description: 'Expert mortgage guidance for Irvine properties. Learn about wholesale pricing for master-planned communities and competitive financing for tech industry professionals.',
-    keywords: ['Irvine mortgage broker', 'Irvine home loans', 'Irvine refinance', 'master-planned community financing'],
+  title: 'Irvine Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
+  },
 };
 
 export default function IrvineMortgageGuidePage() {

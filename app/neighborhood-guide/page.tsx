@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Orange County Neighborhood Buying Guides | Home Comparison & Market Analysis',
   description: 'Expert neighborhood buying guides for Orange County home buyers. Compare Irvine vs Newport Beach, analyze market trends, schools, prices and mortgage options by area.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/neighborhood-guide',
+    canonical: 'https://www.luminlending.com/neighborhood-guide',
   },
 };
 
@@ -19,7 +19,8 @@ const comparisonGuides = [
     description: 'Complete comparison of Orange County\'s top family-friendly city against luxury coastal living',
     features: ['Home Prices & Market Data', 'School Ratings Comparison', 'Lifestyle & Amenities', 'Mortgage Considerations'],
     url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
-    color: 'blue',
+    badgeClass: 'bg-blue-600',
+    buttonClass: 'bg-blue-600 hover:bg-blue-700',
     highlight: 'Most Popular'
   },
   {
@@ -27,7 +28,8 @@ const comparisonGuides = [
     description: 'Side-by-side comparison of 6+ Orange County neighborhoods with ratings and market insights',
     features: ['Multiple Neighborhood Ratings', 'Market Trends Analysis', 'Commute Comparisons', 'Investment Potential'],
     url: '/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
-    color: 'purple',
+    badgeClass: 'bg-purple-600',
+    buttonClass: 'bg-purple-600 hover:bg-purple-700',
     highlight: 'Comprehensive'
   }
 ];
@@ -61,7 +63,7 @@ export default function NeighborhoodGuidePage() {
             {comparisonGuides.map((guide, index) => (
               <Card key={index} className="relative overflow-hidden hover:shadow-xl transition-all duration-300 border-2 hover:border-blue-200">
                 {guide.highlight && (
-                  <div className={`absolute top-4 right-4 bg-${guide.color}-600 text-white px-3 py-1 rounded-full text-sm font-medium`}>
+                  <div className={`absolute top-4 right-4 ${guide.badgeClass} text-white px-3 py-1 rounded-full text-sm font-medium`}>
                     {guide.highlight}
                   </div>
                 )}
@@ -87,7 +89,7 @@ export default function NeighborhoodGuidePage() {
                   </div>
                   
                   <Link href={guide.url}>
-                    <Button className={`w-full bg-${guide.color}-600 hover:bg-${guide.color}-700 text-white py-3 text-lg`}>
+                    <Button className={`w-full ${guide.buttonClass} text-white py-3 text-lg`}>
                       Read Full Guide
                     </Button>
                   </Link>
@@ -285,9 +287,9 @@ export default function NeighborhoodGuidePage() {
                 Start Your Neighborhood Analysis
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

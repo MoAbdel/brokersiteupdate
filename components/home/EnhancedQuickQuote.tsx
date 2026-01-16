@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, Home, Calendar, User, Phone, Mail, FileText } from "lucide-react";
+import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User, Phone, Mail, FileText } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
 // Compliant 2026 Orange County Data (verified via web search)
@@ -232,15 +232,16 @@ export default function EnhancedQuickQuote() {
 
   // Update calculator when relevant fields change
   useEffect(() => {
-    const hasRequiredFields = 
+    const hasRequiredFields =
       (formData.loanPurpose === 'purchase' && formData.loanAmount) ||
       (formData.loanPurpose === 'refinance' && formData.currentLoanAmount) ||
       (formData.loanPurpose === 'cash-out' && formData.currentLoanAmount) ||
       (formData.loanPurpose && !['purchase', 'refinance', 'cash-out'].includes(formData.loanPurpose) && formData.loanAmount);
-    
+
     if (hasRequiredFields && (currentStep >= 2 || showSuccess === false)) {
       calculateMortgageDetails();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [formData.loanAmount, formData.homeValue, formData.loanPurpose, formData.currentLoanAmount, formData.currentRate, formData.cashOutAmount, formData.loanType, currentStep]);
 
   const handleInputChange = (field: keyof FormData, value: string) => {

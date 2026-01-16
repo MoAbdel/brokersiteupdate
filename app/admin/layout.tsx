@@ -1,7 +1,8 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Admin Dashboard - Mo The Broker',
+  title: 'Admin Dashboard - Lumin Lending',
   description: 'Admin dashboard for managing pricing and insights',
   robots: 'noindex, nofollow' // Prevent admin pages from being indexed
 };
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 export default function AdminLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return <>{children}</>;
 }

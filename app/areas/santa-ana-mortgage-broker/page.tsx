@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, Building2, Users, TrendingUp, Heart, Briefcase } from 'lucide-react';
+import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Santa Ana Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
@@ -358,6 +359,13 @@ export default function SantaAnaMortgageBrokerPage() {
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all Santa Ana neighborhoods
           </p>
         </div>
+
+        {/* Internal Link Engine for SEO */}
+        <InternalLinkEngine
+          currentPage="/areas/santa-ana-mortgage-broker"
+          pageType="city"
+          city="Santa Ana"
+        />
       </div>
     </div>
   );

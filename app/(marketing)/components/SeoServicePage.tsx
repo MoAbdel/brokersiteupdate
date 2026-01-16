@@ -1,12 +1,13 @@
 'use client';
 import React from 'react';
+import Link from 'next/link';
 
 type Props = {
   title: string;
   subtitle?: string;
   city?: string;
   county?: string;
-  slug: string;
+  slug?: string;
   lastUpdatedISO?: string;
   heroCTA?: { label: string; href: string };
   sections: { id: string; heading: string; body: React.ReactNode }[];
@@ -18,9 +19,9 @@ type Props = {
 export default function SeoServicePage({
   title,
   subtitle,
-  city,
-  county = 'Orange County, CA',
-  slug,
+  city: _city,
+  county: _county = 'Orange County, CA',
+  slug: _slug,
   lastUpdatedISO,
   heroCTA = { label: 'Get a free quote', href: '/apply' },
   sections,
@@ -34,9 +35,9 @@ export default function SeoServicePage({
         <h1 className="text-3xl font-semibold">{title}</h1>
         {subtitle && <p className="mt-2 text-lg opacity-80">{subtitle}</p>}
         <div className="mt-4">
-          <a className="inline-block rounded-xl px-5 py-3 border" href={heroCTA.href}>
+          <Link className="inline-block rounded-xl px-5 py-3 border" href={heroCTA.href}>
             {heroCTA.label}
-          </a>
+          </Link>
         </div>
         {lastUpdatedISO && (
           <p className="mt-2 text-sm opacity-70">Last updated: {new Date(lastUpdatedISO).toLocaleDateString()}</p>
@@ -73,7 +74,7 @@ export default function SeoServicePage({
           <h3 className="text-xl font-semibold mb-2">Helpful next steps</h3>
           <ul className="list-disc pl-6 space-y-1">
             {internalLinks.map((l, i) => (
-              <li key={i}><a className="underline" href={l.href}>{l.label}</a></li>
+              <li key={i}><Link className="underline" href={l.href}>{l.label}</Link></li>
             ))}
           </ul>
         </nav>

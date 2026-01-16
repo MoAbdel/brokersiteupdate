@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
     description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
-    url: 'https://mothebroker.com/heloc-orange-county',
+    url: 'https://luminlending.com/heloc-orange-county',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/heloc-orange-county',
+    canonical: 'https://www.luminlending.com/heloc-orange-county',
   },
 };
 
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
+  "name": "Lumin Lending - Orange County Mortgage",
   "serviceType": "HELOC Home Equity Line of Credit",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/heloc-orange-county",
+  "telephone": "(949) 537-2357",
+  "url": "https://luminlending.com/heloc-orange-county",
   "description": "Expert HELOC services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"
@@ -164,7 +164,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
+                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
               </Button>
             </div>
           </div>
@@ -457,7 +457,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
+                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
               </Button>
             </div>
             <p className="text-sm text-blue-200 mt-4">

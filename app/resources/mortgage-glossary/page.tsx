@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Mortgage Glossary | Complete Guide to Home Loan Terms & Definitions',
   description:
     'Comprehensive mortgage glossary with clear definitions of home loan terms. Learn about APR, HELOC, DTI, jumbo loans, and 100+ essential mortgage and real estate terms.',
-  alternates: { canonical: 'https://mothebroker.com/resources/mortgage-glossary' },
+  alternates: { canonical: 'https://www.mothebroker.com/resources/mortgage-glossary' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Mortgage Glossary | Essential Home Loan Terms Explained',
@@ -74,7 +74,7 @@ export default function Page() {
       heading: 'A - E',
       body: (
         <div className="space-y-3">
-          <div><strong>Adjustable-Rate Mortgage (ARM):</strong> A loan with an loan pricing that can change periodically based on market conditions, typically offering lower initial rates than fixed-rate mortgages.</div>
+          <div><strong>Adjustable-Rate Mortgage (ARM):</strong> A loan with an interest rate that can change periodically based on market conditions, typically offering lower initial rates than fixed-rate mortgages.</div>
           <div><strong>Amortization:</strong> The process of paying off a loan through regular payments that cover both principal and interest over the loan term.</div>
           <div><strong>Annual Percentage Rate (APR):</strong> The yearly cost of credit including loan pricing and fees, expressed as a percentage, allowing comparison between different loan offers.</div>
           <div><strong>Appraisal:</strong> A professional assessment of a property's market value, required by lenders to ensure the loan amount doesn't exceed the property's worth.</div>
@@ -101,7 +101,7 @@ export default function Page() {
       body: (
         <div className="space-y-3">
           <div><strong>FHA Loan:</strong> Federal Housing Administration-insured loan with lower down payment requirements and more flexible credit standards.</div>
-          <div><strong>Fixed-Rate Mortgage:</strong> A loan with an loan pricing that remains constant throughout the entire loan term.</div>
+          <div><strong>Fixed-Rate Mortgage:</strong> A loan with an interest rate that remains constant throughout the entire loan term.</div>
           <div><strong>Foreign National Loan:</strong> Specialized financing for non-U.S. citizens purchasing U.S. real estate, with unique documentation requirements.</div>
           <div><strong>Gift Letter:</strong> Documentation proving that down payment funds received from family members are gifts, not loans that must be repaid.</div>
           <div><strong>Good Faith Estimate:</strong> Now replaced by the Loan Estimate, this document outlined expected loan costs and terms.</div>
@@ -163,7 +163,7 @@ export default function Page() {
           <div><strong>Underwriting:</strong> The process of evaluating a loan application to determine approval and terms based on credit, income, assets, and property value.</div>
           <div><strong>USDA Loan:</strong> Government-backed loans for eligible rural and suburban areas, offering 100% financing to qualified borrowers.</div>
           <div><strong>VA Loan:</strong> Department of Veterans Affairs-guaranteed loans for eligible service members, veterans, and spouses, often with no down payment requirement.</div>
-          <div><strong>Variable Rate:</strong> An loan pricing that can change over time based on market conditions, common in HELOCs and adjustable-rate mortgages.</div>
+          <div><strong>Variable Rate:</strong> An interest rate that can change over time based on market conditions, common in HELOCs and adjustable-rate mortgages.</div>
           <div><strong>Verification of Assets:</strong> Documentation proving sufficient funds for down payment and closing costs, typically requiring bank statements.</div>
           <div><strong>Verification of Employment:</strong> Confirmation of borrower's job status and income, usually obtained directly from employers.</div>
           <div><strong>Wholesale Lender:</strong> Lenders who work exclusively through mortgage brokers rather than directly with consumers, often providing competitive pricing.</div>
@@ -179,7 +179,7 @@ export default function Page() {
             Several mortgage terms have particular relevance in Orange County's high-value real estate market:
           </p>
           <ul className="mt-2 space-y-1">
-            <li>• <strong>Jumbo loan limits:</strong> Orange County's high conforming loan limit is $766,550 for 2024, with jumbo loans required above this amount</li>
+            <li>• <strong>Jumbo loan limits:</strong> Orange County's conforming loan limit is $1,266,300 for 2026, with jumbo loans required above this amount</li>
             <li>• <strong>Luxury property appraisals:</strong> High-value properties require specialized appraisers familiar with luxury markets and unique features</li>
             <li>• <strong>Mello-Roos assessments:</strong> Common in newer developments, these special assessments affect total housing costs and debt-to-income calculations</li>
             <li>• <strong>HOA considerations:</strong> Many Orange County communities have substantial HOA fees that impact loan qualification</li>
@@ -195,13 +195,13 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOC information and rates', href: '/heloc' },
-    { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
-    { label: 'Home equity loan options', href: '/home-equity-loan' },
-    { label: 'Orange County mortgage services', href: '/orange-county' },
-    { label: 'Wholesale mortgage broker benefits', href: '/mortgage-broker-orange-county' },
-    { label: 'Jumbo loan programs', href: '/programs/jumbo-loans' },
-    { label: 'Investment property financing', href: '/programs/dscr-investment-loans' },
+    { label: 'HELOC information and rates', href: '/loan-programs/heloc' },
+    { label: 'Cash-out refinancing guide', href: '/loan-programs/cash-out-refinance' },
+    { label: 'Home equity loan options', href: '/loan-programs/heloan' },
+    { label: 'Orange County HELOC specialist', href: '/heloc-specialist-orange-county' },
+    { label: 'About your mortgage broker', href: '/about-mo-abdel-orange-county-mortgage-broker' },
+    { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
+    { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
     { label: 'Mortgage articles and insights', href: '/articles' },
   ];
 

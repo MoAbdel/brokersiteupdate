@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import SimpleLandingPage from '@/components/SimpleLandingPage';
 
@@ -8,7 +7,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com',
   },
-  openGraph: {},
 };
 
 export default function HomePage() {

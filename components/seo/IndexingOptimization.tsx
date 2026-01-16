@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Script from 'next/script';
 
 interface IndexingOptimizationProps {
@@ -7,17 +8,17 @@ interface IndexingOptimizationProps {
   lastModified?: string;
 }
 
-export default function IndexingOptimization({ 
-  page, 
+export default function IndexingOptimization({
+  page,
   priority = 'medium',
-  lastModified 
+  lastModified
 }: IndexingOptimizationProps) {
-  
+
   // Generate structured data optimized for indexing
   const generateIndexingSchema = () => {
     const baseUrl = 'https://mothebroker.com';
     const currentDate = new Date().toISOString();
-    
+
     return {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -65,10 +66,10 @@ export default function IndexingOptimization({
           {
             "@type": "ListItem",
             "position": 2,
-            "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+            "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
             "item": {
               "@id": `${baseUrl}${page.startsWith('/') ? page : `/${page}`}`,
-              "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+              "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())
             }
           }
         ]
@@ -78,21 +79,23 @@ export default function IndexingOptimization({
 
   return (
     <>
-      {/* Enhanced meta tags for better indexing */}
-      <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
-      <meta name="googlebot" content="index,follow" />
-      <meta name="bingbot" content="index,follow" />
-      <meta name="slurp" content="index,follow" />
-      
-      {/* Additional SEO signals */}
-      <meta name="revisit-after" content="7 days" />
-      <meta name="distribution" content="global" />
-      <meta name="rating" content="general" />
-      <meta name="doc-class" content="living document" />
-      
-      {/* Priority hints for crawlers */}
-      <meta name="importance" content={priority} />
-      
+      <Head>
+        {/* Enhanced meta tags for better indexing */}
+        <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+        <meta name="googlebot" content="index,follow" />
+        <meta name="bingbot" content="index,follow" />
+        <meta name="slurp" content="index,follow" />
+
+        {/* Additional SEO signals */}
+        <meta name="revisit-after" content="7 days" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="doc-class" content="living document" />
+
+        {/* Priority hints for crawlers */}
+        <meta name="importance" content={priority} />
+      </Head>
+
       {/* Enhanced structured data for better understanding */}
       <Script
         id={`indexing-optimization-${page.replace(/[\/\-]/g, '_')}`}

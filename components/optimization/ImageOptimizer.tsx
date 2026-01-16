@@ -28,11 +28,11 @@ export default function OptimizedImage({
   sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
   quality = 85
 }: OptimizedImageProps) {
-  
+
   // Generate WebP sources for performance
-  const imageLoader = ({ src, width, quality }: any) => {
+  const imageLoader = ({ src: loaderSrc, width: loaderWidth, quality: loaderQuality }: { src: string; width: number; quality?: number }) => {
     // In production, this would use a CDN or image optimization service
-    return `${src}?w=${width}&q=${quality || 85}`;
+    return `${loaderSrc}?w=${loaderWidth}&q=${loaderQuality || 85}`;
   };
 
   return (
@@ -45,7 +45,8 @@ export default function OptimizedImage({
         width={width}
         height={height}
         priority={priority}
-        loading={loading}
+        // Only pass loading prop when priority is false to avoid conflicts
+        {...(!priority && { loading })}
         sizes={sizes}
         quality={quality}
         placeholder="blur"

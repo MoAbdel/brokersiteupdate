@@ -3,9 +3,11 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-    title: 'Corona del Mar Refinance & Cash-Out Guide 2026: Tapping Coastal Equity',
-    description: 'Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for luxury coastal estates in 2026.',
-    keywords: ['Corona del Mar refinance', 'cash-out refinance CdM', 'HELOAN Corona del Mar', 'coastal equity loans OC'],
+  title: 'Corona Del Mar Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026',
+  },
 };
 
 export default function CoronaDelMarRefinance2026() {

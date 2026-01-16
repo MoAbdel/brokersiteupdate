@@ -21,58 +21,30 @@ function ensureDataDir() {
 // const resend = new Resend('re_e2RhAnsw_NNMvX2jngjETx5CHMWVsq9Pw');
 
 // Email notification function
-async function sendEmailNotification(quoteData: any) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+async function sendEmailNotification(_quoteData: any) {
   try {
-    // Send email notification to Mo
-    const emailBody = `
-      <h2>🎯 New Quote Request Received!</h2>
-      <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1e40af; margin-top: 0;">Contact Information</h3>
-        <p><strong>Name:</strong> ${quoteData.full_name}</p>
-        <p><strong>Email:</strong> <a href="mailto:${quoteData.email}">${quoteData.email}</a></p>
-        <p><strong>Phone:</strong> <a href="tel:${quoteData.phone}">${quoteData.phone}</a></p>
-      </div>
-      
-      <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #1e40af; margin-top: 0;">Loan Details</h3>
-        <p><strong>Loan Amount:</strong> $${quoteData.loan_amount?.toLocaleString() || 'Not specified'}</p>
-        <p><strong>Property Value:</strong> $${quoteData.property_value?.toLocaleString() || 'Not specified'}</p>
-        <p><strong>Credit Score:</strong> ${quoteData.credit_score || 'Not specified'}</p>
-        <p><strong>Loan Type:</strong> ${quoteData.loan_type || 'Not specified'}</p>
-        <p><strong>Employment Status:</strong> ${quoteData.employment_status || 'Not specified'}</p>
-        <p><strong>Annual Income:</strong> ${quoteData.annual_income ? '$' + quoteData.annual_income.toLocaleString() : 'Not specified'}</p>
-      </div>
-      
-      ${quoteData.notes ? `
-      <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h3 style="color: #d97706; margin-top: 0;">Additional Notes</h3>
-        <p>${quoteData.notes}</p>
-      </div>
-      ` : ''}
-      
-      <div style="background: #dcfce7; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <p><strong>📅 Submitted:</strong> ${new Date().toLocaleString()}</p>
-        <p><strong>🆔 Quote ID:</strong> ${quoteData.id}</p>
-      </div>
-      
-      <hr style="margin: 30px 0;">
-      <p style="color: #dc2626; font-weight: bold;">⚡ Please follow up with this lead within 1 hour for best conversion!</p>
-    `;
+    // Email sending temporarily disabled - resend package not installed
+    // To re-enable: uncomment the Resend import and email sending code below
 
     // Using Resend SDK - temporarily disabled to fix build
+    // const emailBody = `
+    //   <h2>🎯 New Quote Request Received!</h2>
+    //   <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
+    //     <h3 style="color: #1e40af; margin-top: 0;">Contact Information</h3>
+    //     <p><strong>Name:</strong> ${_quoteData.full_name}</p>
+    //     <p><strong>Email:</strong> <a href="mailto:${_quoteData.email}">${_quoteData.email}</a></p>
+    //     <p><strong>Phone:</strong> <a href="tel:${_quoteData.phone}">${_quoteData.phone}</a></p>
+    //   </div>
+    //   ...
+    // `;
     // const { data, error } = await resend.emails.send({
     //   from: 'MoTheBroker.com <onboarding@resend.dev>',
     //   to: ['moabdel94@gmail.com'],
-    //   subject: `🎯 New Quote Request - ${quoteData.full_name} ($${quoteData.loan_amount?.toLocaleString() || 'N/A'})`,
+    //   subject: `🎯 New Quote Request - ${_quoteData.full_name} ($${_quoteData.loan_amount?.toLocaleString() || 'N/A'})`,
     //   html: emailBody,
     // });
 
-    // if (error) {
-    //   console.error('❌ Email notification failed:', error);
-    // } else {
-    //   console.log('✅ Email notification sent successfully to moabdel94@gmail.com:', data);
-    // }
-    
     console.log('Email notification temporarily disabled - resend package not installed');
   } catch (error) {
     console.error('Email notification error:', error);
@@ -136,7 +108,7 @@ export async function POST(request: Request) {
 
     // Create submission object
     const submission = {
-      id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+      id: Date.now().toString() + Math.random().toString(36).substring(2, 11),
       full_name: body.full_name,
       email: body.email.toLowerCase().trim(),
       phone: body.phone,

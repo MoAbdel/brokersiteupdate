@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Irvine Mortgage pricing 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
-  description: 'Current Irvine mortgage pricing and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
+  title: 'Irvine Mortgage Rates 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  description: 'Current Irvine mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Irvine Mortgage pricing 2026 | Best Home Loan Rates CA',
-    description: 'Current Irvine mortgage pricing and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA.',
+    title: 'Irvine Mortgage Rates 2026 | Best Home Loan Rates CA',
+    description: 'Current Irvine mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Irvine CA.',
     type: 'website',
   },
   alternates: {
@@ -40,7 +40,7 @@ const irvineData = {
     'Master-planned communities',
     'Tech hub location'
   ],
-  keywordPhrase: 'Irvine mortgage pricing'
+  keywordPhrase: 'Irvine mortgage rates'
 };
 
 export default function IrvineMortgageRatesPage() {

@@ -1,7 +1,4 @@
-'use client';
-
 import React from 'react';
-import Head from 'next/head';
 
 interface SchemaData {
   type: 'review' | 'howto' | 'faq' | 'product' | 'article' | 'calculator' | 'mortgage-program';
@@ -9,7 +6,7 @@ interface SchemaData {
   name?: string;
   description: string;
   url: string;
-  data?: any;
+  data?: Record<string, unknown>;
 }
 
 interface AdvancedSchemaGeneratorProps {
@@ -18,7 +15,7 @@ interface AdvancedSchemaGeneratorProps {
 
 export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGeneratorProps) {
 
-  const generateReviewSchema = (data: any) => ({
+  const generateReviewSchema = (data: Record<string, unknown>) => ({
     "@context": "https://schema.org",
     "@type": "Review",
     "itemReviewed": {
@@ -44,7 +41,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "datePublished": data.datePublished || new Date().toISOString()
   });
 
-  const generateHowToSchema = (data: any, schemaData: SchemaData) => ({
+  const generateHowToSchema = (data: Record<string, unknown>, schemaData: SchemaData) => ({
     "@context": "https://schema.org",
     "@type": "HowTo",
     "name": schemaData.title || schemaData.name || data.title,
@@ -58,7 +55,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     },
     "supply": data.supplies || [],
     "tool": data.tools || [],
-    "step": data.steps?.map((step: any, index: number) => ({
+    "step": (data.steps as Array<{ name: string; text: string; image?: string }> | undefined)?.map((step, index: number) => ({
       "@type": "HowToStep",
       "position": index + 1,
       "name": step.name,
@@ -67,10 +64,10 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     })) || []
   });
 
-  const generateFAQSchema = (data: any) => ({
+  const generateFAQSchema = (data: Record<string, unknown>) => ({
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": data.questions?.map((faq: any) => ({
+    "mainEntity": (data.questions as Array<{ question: string; answer: string }> | undefined)?.map((faq) => ({
       "@type": "Question",
       "name": faq.question,
       "acceptedAnswer": {
@@ -85,7 +82,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     })) || []
   });
 
-  const generateProductSchema = (data: any) => ({
+  const generateProductSchema = (data: Record<string, unknown>) => ({
     "@context": "https://schema.org",
     "@type": "FinancialProduct",
     "name": data.name,
@@ -110,14 +107,14 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
       "@type": "Brand",
       "name": "Lumin Lending"
     },
-    "additionalProperty": data.features?.map((feature: string) => ({
+    "additionalProperty": (data.features as string[] | undefined)?.map((feature: string) => ({
       "@type": "PropertyValue",
       "name": "Feature",
       "value": feature
     })) || []
   });
 
-  const generateArticleSchema = (data: any) => ({
+  const generateArticleSchema = (data: Record<string, unknown>) => ({
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": data.title,
@@ -148,7 +145,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "keywords": data.keywords || ["mortgage", "home loans", "Orange County"]
   });
 
-  const generateCalculatorSchema = (data: any, schemaData: SchemaData) => ({
+  const generateCalculatorSchema = (data: Record<string, unknown>, schemaData: SchemaData) => ({
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": schemaData.name || schemaData.title || data.name,
@@ -161,7 +158,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
       "price": "0",
       "priceCurrency": "USD"
     },
-    "featureList": data.features || [
+    "featureList": (data.features as string[] | undefined) || [
       "Monthly payment calculation",
       "Interest Loan Comparison",
       "Loan term analysis",
@@ -174,7 +171,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     }
   });
 
-  const generateMortgageProgramSchema = (data: any) => ({
+  const generateMortgageProgramSchema = (data: Record<string, unknown>) => ({
     "@context": "https://schema.org",
     "@type": ["LoanOrCredit", "Service"],
     "name": data.name,
@@ -206,42 +203,44 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
   });
 
   const generateSchema = (schemaData: SchemaData) => {
+    const data = schemaData.data || {};
     switch (schemaData.type) {
       case 'review':
-        return generateReviewSchema(schemaData.data);
+        return generateReviewSchema(data);
       case 'howto':
-        return generateHowToSchema(schemaData.data, schemaData);
+        return generateHowToSchema(data, schemaData);
       case 'faq':
-        return generateFAQSchema(schemaData.data);
+        return generateFAQSchema(data);
       case 'product':
-        return generateProductSchema(schemaData.data);
+        return generateProductSchema(data);
       case 'article':
-        return generateArticleSchema(schemaData.data);
+        return generateArticleSchema(data);
       case 'calculator':
-        return generateCalculatorSchema(schemaData.data, schemaData);
+        return generateCalculatorSchema(data, schemaData);
       case 'mortgage-program':
-        return generateMortgageProgramSchema(schemaData.data);
+        return generateMortgageProgramSchema(data);
       default:
         return null;
     }
   };
 
-  return (
-    <Head>
-      {schemas.map((schema, index) => {
-        const generatedSchema = generateSchema(schema);
-        if (!generatedSchema) return null;
+  const validSchemas = schemas
+    .map(generateSchema)
+    .filter((schema): schema is NonNullable<typeof schema> => schema !== null);
 
-        return (
-          <script
-            key={index}
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(generatedSchema, null, 2)
-            }}
-          />
-        );
-      })}
-    </Head>
+  if (validSchemas.length === 0) return null;
+
+  return (
+    <>
+      {validSchemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema, null, 2)
+          }}
+        />
+      ))}
+    </>
   );
 }

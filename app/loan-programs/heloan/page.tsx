@@ -2,14 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, Calendar, Shield, CheckCircle, AlertCircle, TrendingUp } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/Card';
+import { DollarSign, Calendar, CheckCircle, AlertCircle, TrendingUp, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'HELOAN (Home Equity Loan) - Orange County | Mo The Mortgage Broker',
-  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
+  title: 'Home Equity Loans | Lumin Lending - Orange County Mortgage Broker',
+  description: 'Fixed-rate home equity loans in Orange County. Lump sum funding for major expenses. Licensed mortgage broker NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/loan-programs/heloan',
+    canonical: 'https://www.luminlending.com/loan-programs/heloan',
   },
 };
 
@@ -36,9 +36,9 @@ export default function HELOANPage() {
                 Get HELOAN Pricing & Terms
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -67,7 +67,13 @@ export default function HELOANPage() {
             <h3 className="text-lg font-bold text-slate-900 mb-2">15-30 Year Terms</h3>
             <p className="text-slate-600">Choose the payment schedule that fits your budget</p>
           </div>
-
+          <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-orange-600" />
+            </div>
+            <h3 className="text-lg font-bold text-slate-900 mb-2">Predictable Payments</h3>
+            <p className="text-slate-600">Same payment every month for the life of the loan</p>
+          </div>
         </div>
 
         {/* HELOAN vs HELOC Comparison */}
@@ -325,9 +331,9 @@ export default function HELOANPage() {
                 Get My HELOAN Pricing
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

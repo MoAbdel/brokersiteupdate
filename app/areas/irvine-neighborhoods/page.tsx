@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
   description:
     'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
-  alternates: { canonical: 'https://mothebroker.com/areas/irvine-neighborhoods' },
+  alternates: { canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Irvine Neighborhoods Mortgage Guide | Village-Specific Home Financing',
@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Irvine Neighborhoods',
     areaServed: 'Irvine, Orange County, CA',
     url: 'https://mothebroker.com/areas/irvine-neighborhoods',
-    telephone: '+1-949-735-4000',
+    telephone: '+1-949-537-2357',
     address: { '@type': 'PostalAddress', addressLocality: 'Irvine', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Neighborhood-specific mortgage expertise for all Irvine villages and communities, from established areas to new developments.',
@@ -190,12 +190,12 @@ export default function Page() {
 
   const links = [
     { label: 'Irvine mortgage services', href: '/areas/irvine' },
-    { label: 'Jumbo loan programs', href: '/programs/jumbo-loans' },
-    { label: 'HELOC options', href: '/heloc' },
-    { label: 'Investment property financing', href: '/programs/dscr-investment-loans' },
-    { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
-    { label: 'Orange County mortgage broker', href: '/mortgage-broker-orange-county' },
-    { label: 'New construction loans', href: '/programs/construction-loans' },
+    { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
+    { label: 'HELOC options', href: '/loan-programs/heloc' },
+    { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
+    { label: 'Cash-out refinancing', href: '/loan-programs/cash-out-refinance' },
+    { label: 'Orange County mortgage broker', href: '/' },
+    { label: 'All loan programs', href: '/loan-programs' },
     { label: 'Mortgage insights', href: '/articles' },
   ];
 

@@ -536,7 +536,7 @@ export default function FirstTimeHomebuyerArticle() {
                   <div className="border-b border-gray-200 pb-6">
                     <h3 className="text-xl font-semibold mb-3">What credit score do I need to buy in Orange County?</h3>
                     <p className="text-gray-700">
-                      Minimum credit scores vary by program: FHA allows scores as low as 580 (500 with 10% down), while conventional loans typically require 620+. However, higher scores (720+) unlock Better pricing and terms. If your score needs improvement, I can provide guidance on rapid rescoring strategies.
+                      Minimum credit scores vary by program: FHA allows scores as low as 580 (500 with 10% down), while conventional loans typically require 620+. However, higher scores (720+) unlock better pricing and terms. If your score needs improvement, I can provide guidance on rapid rescoring strategies.
                     </p>
                   </div>
 
@@ -571,7 +571,7 @@ export default function FirstTimeHomebuyerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  First-time buyer specialist: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
+                  First-time buyer specialist: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
                 </p>
               </section>
 
@@ -585,7 +585,7 @@ export default function FirstTimeHomebuyerArticle() {
                   </Link>
                   <Link href="/resources/credit-repair" className="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition">
                     <h4 className="font-semibold mb-2">Credit Improvement Guide</h4>
-                    <p className="text-sm text-gray-600">Strategies to boost your credit score and qualify for Better pricing.</p>
+                    <p className="text-sm text-gray-600">Strategies to boost your credit score and qualify for better pricing.</p>
                   </Link>
                   <Link href="/resources/mortgage-glossary" className="border border-gray-200 rounded-lg p-4 hover:shadow-lg transition">
                     <h4 className="font-semibold mb-2">Mortgage Glossary</h4>

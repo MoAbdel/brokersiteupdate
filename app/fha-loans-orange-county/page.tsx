@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
-import { Home, Shield, DollarSign, TrendingUp, Users, CheckCircle, Calculator, Heart, CreditCard, GraduationCap } from 'lucide-react';
+import { Home, DollarSign, TrendingUp, Users, CheckCircle, CreditCard } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'FHA Loans in Orange County, CA | Low Down Payment Options',
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'FHA Loans in Orange County, CA | Low Down Payment Options',
     description: 'Buy a home in Orange County with as little as 3.5% down. FHA loans available through Mo The Broker.',
-    url: 'https://mothebroker.com/fha-loans-orange-county',
+    url: 'https://www.mothebroker.com/fha-loans-orange-county',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/fha-loans-orange-county',
@@ -28,8 +28,8 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/fha-loans-orange-county",
+  "telephone": "(949) 537-2357",
+  "url": "https://www.mothebroker.com/fha-loans-orange-county",
   "description": "Expert FHA loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"
@@ -124,7 +124,7 @@ const fhaRequirements = [
 const faqs = [
   {
     question: "What are the 2026 FHA loan limits in Orange County?",
-    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This is slightly below the conforming high-cost limit of $1,209,750. This means you can purchase homes up to approximately $1.13 million with 3.5% down, assuming you meet other FHA requirements."
+    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
   },
   {
     question: "What's the difference between FHA and conventional loans in Orange County?",
@@ -160,7 +160,7 @@ const comparisonData = [
   {
     feature: 'Loan Limits (Orange County)',
     fha: '$1,266,300',
-    conventional: '$1,209,750',
+    conventional: '$1,266,300',
     va: 'No limit (with down payment)'
   },
   {
@@ -205,7 +205,7 @@ export default function FHALoansOrangeCountyPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Home className="w-5 h-5 mr-2" />
                   Get Pre-Approved for FHA
                 </a>
@@ -225,8 +225,8 @@ export default function FHALoansOrangeCountyPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center">
-                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes. 
-                This is slightly below the conforming high-cost limit of <strong>$1,209,750</strong>.
+                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
+                matching the conforming high-cost limit for this area.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
@@ -446,8 +446,8 @@ export default function FHALoansOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">
-                  Call (949) 822-9662
+                <a href="tel:(949) 537-2357">
+                  Call (949) 537-2357
                 </a>
               </Button>
               <Link href="/contact">

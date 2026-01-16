@@ -31,7 +31,12 @@ const danaPointData = {
   keywordPhrase: 'Dana Point mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(danaPointData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(danaPointData),
+  alternates: {
+    canonical: 'https://www.mothebroker.com/areas/dana-point-mortgage-broker',
+  },
+};
 
 export default function DanaPointMortgageBrokerPage() {
   return <CityPageTemplate cityData={danaPointData} />;

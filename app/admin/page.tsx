@@ -52,7 +52,7 @@ export default function AdminPage() {
       const [ratesData, insightsData, quotesData] = await Promise.all([
         MortgageRate.list('loan_type'),
         MarketInsight.list('display_order'),
-RateQuote.list('-created_at')
+        RateQuote.list('-created_at')
       ]);
       setRates(ratesData);
       setInsights(insightsData);

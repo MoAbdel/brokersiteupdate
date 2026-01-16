@@ -119,7 +119,7 @@ export default function TurtleRockMortgageBrokerPage() {
   const loanPrograms = [
     {
       name: 'Jumbo Loans',
-      description: 'For most Turtle Rock properties above $1.089M',
+      description: 'For most Turtle Rock properties above $1,266,300',
       rate: 'From 7.25%',
       downPayment: '10-25%'
     },

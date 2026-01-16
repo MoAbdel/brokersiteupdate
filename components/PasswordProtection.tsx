@@ -20,11 +20,13 @@ export default function PasswordProtection({
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
 
-  // Check if already authenticated on mount
+  // Check if already authenticated on mount (client-side only)
   useEffect(() => {
-    const authStatus = sessionStorage.getItem('admin-authenticated');
-    if (authStatus === 'true') {
-      setIsAuthenticated(true);
+    if (typeof window !== 'undefined') {
+      const authStatus = sessionStorage.getItem('admin-authenticated');
+      if (authStatus === 'true') {
+        setIsAuthenticated(true);
+      }
     }
     setLoading(false);
   }, []);
@@ -35,7 +37,9 @@ export default function PasswordProtection({
 
     if (password === requiredPassword) {
       setIsAuthenticated(true);
-      sessionStorage.setItem('admin-authenticated', 'true');
+      if (typeof window !== 'undefined') {
+        sessionStorage.setItem('admin-authenticated', 'true');
+      }
     } else {
       setError('Incorrect password. Please try again.');
       setPassword('');
@@ -44,7 +48,9 @@ export default function PasswordProtection({
 
   const handleLogout = () => {
     setIsAuthenticated(false);
-    sessionStorage.removeItem('admin-authenticated');
+    if (typeof window !== 'undefined') {
+      sessionStorage.removeItem('admin-authenticated');
+    }
     setPassword('');
   };
 

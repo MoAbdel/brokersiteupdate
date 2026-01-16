@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     title: 'VA Loan Mortgage Broker Orange County | Veterans First',
     description: 'Dedicated VA loan expertise for Orange County veterans and military families. Zero down payment options and personalized service.',
     images: ['/images/mo-headshot.jpg'],
-    url: 'https://www.mothebroker.com/articles/va-loan-mortgage-broker-orange-county',
+    url: 'https://www.luminlending.com/articles/va-loan-mortgage-broker-orange-county',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/articles/va-loan-mortgage-broker-orange-county',
+    canonical: 'https://www.luminlending.com/articles/va-loan-mortgage-broker-orange-county',
   },
 };
 
@@ -278,7 +278,7 @@ export default function VALoanBrokerArticle() {
                       <div>
                         <p><strong>Purchase Price:</strong> $1,300,000</p>
                         <p><strong>VA Loan Amount:</strong> $1,266,300</p>
-                        <p><strong>Down Payment Required:</strong> $210,700 (25% of excess)</p>
+                        <p><strong>Down Payment Required:</strong> $8,425 (25% of excess)</p>
                         <p><strong>Funding Fee:</strong> Based on VA guidelines</p>
                       </div>
                       <div>
@@ -539,7 +539,7 @@ export default function VALoanBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Veteran-owned business: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
+                  Veteran-owned business: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
                 </p>
                 <p className="text-xs mt-2 opacity-90">Thank you for your service. 🇺🇸</p>
               </section>

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Mail, Phone, Download, Users, MessageCircle, Calendar } from 'lucide-react';
+import { Mail, Download, Users, MessageCircle } from 'lucide-react';
 import PasswordProtection from '@/components/PasswordProtection';
 
 interface Quote {

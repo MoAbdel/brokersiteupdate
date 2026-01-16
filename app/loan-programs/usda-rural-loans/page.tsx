@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'USDA Rural Loans Orange County | Zero Down Payment Home Loans | Rural Housing Program',
-  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 822-9662.',
+  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 537-2357.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
+    canonical: 'https://www.luminlending.com/loan-programs/usda-rural-loans',
   },
 };
 
-export default function USDARuggralLoansPage() {
+export default function USDAruralLoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -32,9 +32,9 @@ export default function USDARuggralLoansPage() {
                 Check USDA Eligibility
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="outline" className="border-yellow-600 text-yellow-600 hover:bg-yellow-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -105,9 +105,9 @@ export default function USDARuggralLoansPage() {
                 Check Eligibility Now
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-yellow-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

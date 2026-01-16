@@ -207,10 +207,10 @@ export default function OrangeCountyJumboLoansGuide() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -253,7 +253,7 @@ export default function OrangeCountyJumboLoansGuide() {
             <div className="bg-white border border-slate-200 rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Jumbo Loan Territory</h3>
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">$1,089,301+</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">$1,266,301+</div>
                 <p className="text-slate-600 mb-4">Above conforming limits</p>
                 <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                   <p className="text-sm text-green-700">
@@ -521,10 +521,10 @@ export default function OrangeCountyJumboLoansGuide() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

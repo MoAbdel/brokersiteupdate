@@ -1,16 +1,14 @@
 // components/FixedChatbot.tsx
 'use client';
 
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { MessageCircle, X, Send, Phone } from 'lucide-react';
 import {
-  chatbotResponses,
   findBestResponse,
   quickActions,
   welcomeMessage,
-  fallbackResponses,
-  ChatResponse
+  fallbackResponses
 } from '@/lib/chatbot-data';
 
 interface Message {
@@ -249,7 +247,7 @@ function ChatbotUI() {
             }}
           >
             <a
-              href="tel:9495792057"
+              href="tel:9495372357"
               style={{
                 color: '#166534',
                 textDecoration: 'none',
@@ -262,7 +260,7 @@ function ChatbotUI() {
               }}
             >
               <Phone size={16} />
-              Call Mo directly: (949) 822-9662
+              Call Mo directly: (949) 537-2357
             </a>
           </div>
 

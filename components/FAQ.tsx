@@ -97,6 +97,7 @@ export default function FAQ({
                 className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg"
               >
                 <button
+                  id={`faq-question-${index}`}
                   className="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
                   onClick={() => toggleItem(index)}
                   aria-expanded={isOpen}
@@ -146,10 +147,10 @@ export default function FAQ({
               Get Expert Guidance
             </a>
             <a
-              href="tel:(949) 822-9662"
+              href="tel:(949) 537-2357"
               className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors duration-200"
             >
-              Call (949) 822-9662
+              Call (949) 537-2357
             </a>
           </div>
         </div>

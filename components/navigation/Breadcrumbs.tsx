@@ -38,19 +38,13 @@ export default function Breadcrumbs() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": {
-          "@id": "https://mothebroker.com",
-          "name": "Home"
-        }
+        "item": "https://mothebroker.com"
       },
       ...breadcrumbItems.map((item, index) => ({
         "@type": "ListItem",
         "position": index + 2,
         "name": item.name,
-        "item": {
-          "@id": `https://mothebroker.com${item.href}`,
-          "name": item.name
-        }
+        "item": `https://mothebroker.com${item.href}`
       }))
     ]
   };
@@ -73,7 +67,7 @@ export default function Breadcrumbs() {
             </li>
             
             {/* Breadcrumb items */}
-            {breadcrumbItems.map((item, index) => (
+            {breadcrumbItems.map((item) => (
               <Fragment key={item.href}>
                 <li>
                   <ChevronRight className="w-4 h-4 text-slate-400" />

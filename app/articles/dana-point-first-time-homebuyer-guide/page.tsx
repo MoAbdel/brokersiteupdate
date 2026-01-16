@@ -141,7 +141,7 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
                                 <Link href="/contact" className="bg-teal-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-teal-700 transition shadow-lg inline-block">
                                     Get Started Now
                                 </Link>
-                                <p className="mt-4 text-gray-600 underline"><a href="tel:949-822-9662">(949) 822-9662</a></p>
+                                <p className="mt-4 text-gray-600 underline"><a href="tel:949-537-2357">(949) 537-2357</a></p>
                             </section>
 
                             <section className="mb-12">

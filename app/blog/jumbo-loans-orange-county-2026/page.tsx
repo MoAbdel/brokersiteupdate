@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Jumbo Loans in Orange County 2026: Luxury Home Financing Guide',
-    description: 'Expert guide to jumbo loans in Orange County. Learn about conforming loan limits, wholesale jumbo advantages, and sophisticated financing for luxury real estate.',
-    keywords: ['jumbo loans Orange County', 'Orange County jumbo mortgage limits', 'luxury home loans', 'jumbo mortgage rates OC'],
+  title: 'Jumbo Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
+  },
 };
 
 export default function JumboLoansOrangeCountyPage() {
@@ -48,7 +50,7 @@ export default function JumboLoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, a **jumbo loan** in Orange County is defined as any mortgage that exceeds the conforming loan limit of **$806,500**. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using **wholesale jumbo channels**—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
+                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$806,500</strong>. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
                     </p>
                 </div>
 

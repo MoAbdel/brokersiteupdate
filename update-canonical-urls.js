@@ -184,19 +184,39 @@ function updatePageFile(filePath) {
     }
   }
   
-  // Replace metadata export
-  const metadataRegex = /export const metadata[^}]+}/s;
-  const metadataWithTypeRegex = /export const metadata:\s*Metadata\s*=\s*{[^}]+}/s;
-  
-  if (metadataWithTypeRegex.test(updatedContent)) {
-    updatedContent = updatedContent.replace(metadataWithTypeRegex, replacement.metadata);
-  } else if (metadataRegex.test(updatedContent)) {
-    updatedContent = updatedContent.replace(metadataRegex, replacement.metadata);
+  // Replace metadata export - use a function to handle nested braces
+  function findMetadataBlock(text) {
+    const startMatch = text.match(/export const metadata(:\s*Metadata)?\s*=\s*{/);
+    if (!startMatch) return null;
+
+    const startIndex = startMatch.index;
+    const braceStart = text.indexOf('{', startIndex);
+    let braceCount = 1;
+    let i = braceStart + 1;
+
+    while (i < text.length && braceCount > 0) {
+      if (text[i] === '{') braceCount++;
+      else if (text[i] === '}') braceCount--;
+      i++;
+    }
+
+    return {
+      start: startIndex,
+      end: i,
+      text: text.substring(startIndex, i)
+    };
   }
-  
-  // Remove canonical URL if it exists
+
+  const metadataBlock = findMetadataBlock(updatedContent);
+  if (metadataBlock) {
+    updatedContent = updatedContent.substring(0, metadataBlock.start) +
+                     replacement.metadata +
+                     updatedContent.substring(metadataBlock.end);
+  }
+
+  // Remove any remaining canonical URL references (already handled by metadata replacement)
   updatedContent = updatedContent.replace(
-    /alternates:\s*{\s*canonical:\s*['""][^'"]*['""],?\s*},?/g,
+    /alternates:\s*{\s*canonical:\s*['"][^'"]*['"],?\s*},?/g,
     ''
   );
   

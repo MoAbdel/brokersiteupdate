@@ -6,10 +6,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, Castle, Users, TrendingUp, Building, Heart } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Anaheim Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Anaheim mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. Call (949) 822-9662.',
+  title: 'Anaheim Mortgage Broker | Lumin Lending - Orange County Mortgage Broker',
+  description: 'Anaheim mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
+    canonical: 'https://www.luminlending.com/areas/anaheim-mortgage-broker',
   },
 };
 

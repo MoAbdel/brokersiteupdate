@@ -1,12 +1,9 @@
 'use client';
 
 import React, { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { Input } from "@/components/ui/Input";
-import { Label } from "@/components/ui/Label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select";
-import { Calculator, ArrowRight, Shield } from "lucide-react";
+import { ArrowRight, Shield } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
 // Google Ads conversion tracking
@@ -145,7 +142,6 @@ export default function QuickQuote() {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Get Your Free Quote</h2>
           <p className="text-slate-600 mb-6">
             Fill out the form below and I'll get back to you within 1 business day with a personalized loan quote.
           </p>

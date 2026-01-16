@@ -444,7 +444,7 @@ export default function BestMortgageBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Or call directly: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
+                  Or call directly: <a href="tel:(949) 822-9662" className="underline font-semibold">(949) 822-9662</a>
                 </p>
               </section>
 

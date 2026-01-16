@@ -6,8 +6,11 @@ import { Button } from '@/components/ui/Button';
 import { Phone, Mail, MapPin, Heart, Home, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Mo Abdel | Orange County Native | Mortgage Broker',
-  description: 'Meet Mo Abdel - born and raised in Orange County, passionate about helping local families achieve homeownership. NMLS #1426884 with Lumin Lending.',
+  title: 'About | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/about',
+  },
 };
 
 export default function AboutPage() {
@@ -193,10 +196,10 @@ export default function AboutPage() {
                 Schedule a Call
               </Button>
             </Link>
-            <a href="mailto:mo.abdel@Luminglending.com">
+            <a href="mailto:mo.abdel@luminlending.com">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 text-lg">
                 <Mail className="w-5 h-5 mr-2" />
-                mo.abdel@Luminglending.com
+                mo.abdel@luminlending.com
               </Button>
             </a>
           </div>

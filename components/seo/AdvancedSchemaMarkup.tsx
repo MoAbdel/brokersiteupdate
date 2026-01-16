@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Head from 'next/head';
 
 interface SchemaProps {
   type: 'Organization' | 'MortgageBroker' | 'FinancialService' | 'LocalBusiness';
@@ -166,7 +165,6 @@ export default function AdvancedSchemaMarkup({
           priceRange,
           paymentAccepted: ["Cash", "Check", "Wire Transfer"],
           currenciesAccepted: "USD",
-          servesCuisine: undefined, // Remove restaurant-specific fields
           hasMap: `https://maps.google.com/?q=${encodeURIComponent(
             `${address.streetAddress}, ${address.addressLocality}, ${address.addressRegion} ${address.postalCode}`
           )}`

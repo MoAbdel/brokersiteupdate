@@ -6,10 +6,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, ShoppingBag, Palette, TrendingUp, Users, Building } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Costa Mesa Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Costa Mesa mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving South Coast Plaza area, Mesa Verde, Eastside. Call (949) 822-9662.',
+  title: 'Costa Mesa Mortgage Broker | Lumin Lending - Orange County Mortgage Broker',
+  description: 'Costa Mesa mortgage broker with competitive rates. FHA, VA, conventional loans for Orange County buyers. NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/areas/costa-mesa-mortgage-broker',
+    canonical: 'https://www.luminlending.com/areas/costa-mesa-mortgage-broker',
   },
 };
 
@@ -85,7 +85,7 @@ export default function CostaMesaMortgageBrokerPage() {
             Competitive mortgage pricing for Costa Mesa homebuyers and homeowners. Specializing in 
             HELOC, conventional loans, and refinancing for South Coast Plaza, Mesa Verde, 
             Eastside, and all Costa Mesa communities. Compare Costa Mesa lifestyle with coastal options in our 
-            <Link href="/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide" className="text-blue-600 hover:text-blue-700 font-medium">Huntington Beach vs Costa Mesa guide</Link>.
+            <Link href="/areas/huntington-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Huntington Beach mortgage services</Link>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -93,9 +93,9 @@ export default function CostaMesaMortgageBrokerPage() {
                 Get Costa Mesa Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -194,11 +194,11 @@ export default function CostaMesaMortgageBrokerPage() {
           </div>
         </div>
 
-        {/* Why Costa Mesa Homeowners Choose Mo */}
+        {/* Why Costa Mesa Homeowners Choose Lumin Lending */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Why Costa Mesa Homeowners Choose Mo Abdel
+              Why Costa Mesa Homeowners Choose Lumin Lending
             </h2>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -349,9 +349,9 @@ export default function CostaMesaMortgageBrokerPage() {
                 Get My Costa Mesa Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:9495372357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

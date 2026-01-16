@@ -36,15 +36,15 @@ export default function TermsOfServicePage() {
           </p>
         </div>
 
-        {/* Important Notice */}
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
+        {/* Professional Notice */}
+        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
           <div className="flex">
-            <AlertTriangle className="w-6 h-6 text-yellow-600 mr-3 mt-1" />
+            <Scale className="w-6 h-6 text-blue-600 mr-3 mt-1" />
             <div>
-              <h3 className="text-lg font-semibold text-yellow-800 mb-2">Important Legal Notice</h3>
-              <p className="text-yellow-700">
-                <strong>These terms of service are currently under legal review and will be updated with final compliance language.
-                  Please contact us directly for current service terms until this notice is removed.</strong>
+              <h3 className="text-lg font-semibold text-blue-800 mb-2">Service Agreement</h3>
+              <p className="text-blue-700">
+                By using our services, you agree to these terms. We are committed to transparent, professional mortgage services.
+                Questions? Contact us at <strong>(949) 537-2357</strong>.
               </p>
             </div>
           </div>
@@ -268,7 +268,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 822-9662</span>
+                  <span>Phone: (949) 537-2357</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

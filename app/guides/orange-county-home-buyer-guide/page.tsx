@@ -1,10 +1,9 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
-import { CheckCircle, Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock } from 'lucide-react';
+import { Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process | Mo Abdel',

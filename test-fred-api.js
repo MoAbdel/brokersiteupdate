@@ -1,5 +1,5 @@
 // Quick test script to verify FRED API is working
-const fetch = require('node-fetch');
+// Uses native fetch (Node.js 18+)
 
 async function testFredAPI() {
   const apiKey = '6c73dbfcbc98d4024d419fa64690ba7b';

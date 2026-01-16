@@ -65,7 +65,7 @@ export async function POST(request: Request) {
 
     // Create subscription object
     const subscription = {
-      id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+      id: Date.now().toString() + Math.random().toString(36).substring(2, 11),
       email: normalizedEmail,
       first_name: firstName.trim(),
       subscribed_at: subscribedAt || new Date().toISOString(),

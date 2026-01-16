@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -30,41 +30,46 @@ export default function RefinanceCalculator() {
     newLoanAmount: 0
   });
 
-  const calculateRefinance = () => {
-    const currentBalance = parseFloat(formData.currentLoanBalance);
-    const currentRate = parseFloat(formData.currentInterestRate) / 100 / 12;
-    const currentPayment = parseFloat(formData.currentMonthlyPayment);
-    const remainingPayments = parseFloat(formData.remainingYears) * 12;
-    
-    const newRate = parseFloat(formData.newInterestRate) / 100 / 12;
+  const calculateRefinance = useCallback(() => {
+    const currentBalance = parseFloat(formData.currentLoanBalance) || 0;
+    const currentPayment = parseFloat(formData.currentMonthlyPayment) || 0;
+    const remainingPayments = (parseFloat(formData.remainingYears) || 0) * 12;
+
+    const newRate = (parseFloat(formData.newInterestRate) || 0) / 100 / 12;
     const newTermMonths = parseInt(formData.newLoanTerm) * 12;
-    const cashOut = parseFloat(formData.cashOutAmount);
-    
+    const cashOut = parseFloat(formData.cashOutAmount) || 0;
+
     const newLoanAmount = currentBalance + cashOut;
-    
-    // Calculate new monthly payment
-    const newPayment = newLoanAmount * (newRate * Math.pow(1 + newRate, newTermMonths)) / 
-                      (Math.pow(1 + newRate, newTermMonths) - 1);
-    
+
+    // Calculate new monthly payment (handle zero rate case)
+    let newPayment = 0;
+    if (newRate > 0 && newLoanAmount > 0) {
+      newPayment = newLoanAmount * (newRate * Math.pow(1 + newRate, newTermMonths)) /
+                        (Math.pow(1 + newRate, newTermMonths) - 1);
+    } else if (newLoanAmount > 0 && newTermMonths > 0) {
+      // Zero interest rate case
+      newPayment = newLoanAmount / newTermMonths;
+    }
+
     // Calculate total interest for current loan (remaining payments)
     const totalCurrentInterest = (currentPayment * remainingPayments) - currentBalance;
-    
+
     // Calculate total interest for new loan
     const totalNewInterest = (newPayment * newTermMonths) - newLoanAmount;
-    
+
     // Calculate savings
     const monthlySavings = currentPayment - newPayment;
     const totalSavings = totalCurrentInterest - totalNewInterest;
 
     setResults({
-      newMonthlyPayment: newPayment,
-      monthlySavings: monthlySavings,
-      totalInterestCurrentLoan: totalCurrentInterest,
-      totalInterestNewLoan: totalNewInterest,
-      totalInterestSavings: totalSavings,
+      newMonthlyPayment: isNaN(newPayment) ? 0 : newPayment,
+      monthlySavings: isNaN(monthlySavings) ? 0 : monthlySavings,
+      totalInterestCurrentLoan: isNaN(totalCurrentInterest) ? 0 : totalCurrentInterest,
+      totalInterestNewLoan: isNaN(totalNewInterest) ? 0 : totalNewInterest,
+      totalInterestSavings: isNaN(totalSavings) ? 0 : totalSavings,
       newLoanAmount: newLoanAmount
     });
-  };
+  }, [formData]);
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({
@@ -75,7 +80,7 @@ export default function RefinanceCalculator() {
 
   useEffect(() => {
     calculateRefinance();
-  }, [formData]);
+  }, [calculateRefinance]);
 
   const isGoodDeal = results.monthlySavings > 0;
 

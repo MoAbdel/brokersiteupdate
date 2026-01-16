@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'VA Loans in Orange County 2026: Complete Guide for Veterans',
-    description: 'Master the VA loan process in Orange County. Learn about zero-down payment benefits, wholesale rate advantages, and eligibility requirements for 2026.',
-    keywords: ['VA loans Orange County', 'VA loan eligibility California', 'VA zero down mortgage', 'veteran home loans OC'],
+  title: 'VA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/va-loans-orange-county-2026',
+  },
 };
 
 export default function VALoansOrangeCountyPage() {

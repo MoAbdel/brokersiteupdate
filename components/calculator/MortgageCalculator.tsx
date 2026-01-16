@@ -1,13 +1,13 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Label } from "@/components/ui/Label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select";
-import { Calculator, Home, DollarSign, Percent, Calendar, TrendingUp } from "lucide-react";
+import { Calculator, Home, DollarSign, Percent, TrendingUp } from "lucide-react";
 
 export default function MortgageCalculator() {
   const router = useRouter();
@@ -31,21 +31,21 @@ export default function MortgageCalculator() {
     totalLoanCost: 0
   });
 
-  const calculateMortgage = () => {
+  const calculateMortgage = useCallback(() => {
     const principal = parseFloat(formData.loanAmount);
     const monthlyRate = parseFloat(formData.interestRate) / 100 / 12;
     const numberOfPayments = parseInt(formData.loanTerm) * 12;
-    
+
     // Calculate monthly principal and interest
-    const monthlyPI = principal * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / 
+    const monthlyPI = principal * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) /
                       (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
-    
+
     // Calculate other monthly costs
     const monthlyPropertyTax = parseFloat(formData.propertyTax) / 12;
     const monthlyInsurance = parseFloat(formData.homeInsurance) / 12;
     const monthlyPMI = parseFloat(formData.pmi);
     const monthlyHOA = parseFloat(formData.hoaDues);
-    
+
     // Calculate totals
     const totalMonthly = monthlyPI + monthlyPropertyTax + monthlyInsurance + monthlyPMI + monthlyHOA;
     const totalInterest = (monthlyPI * numberOfPayments) - principal;
@@ -58,7 +58,7 @@ export default function MortgageCalculator() {
       totalInterestPaid: totalInterest,
       totalLoanCost: totalCost
     });
-  };
+  }, [formData]);
 
   const handleInputChange = (field: string, value: string) => {
     const updatedData = { ...formData, [field]: value };
@@ -91,7 +91,7 @@ export default function MortgageCalculator() {
 
   useEffect(() => {
     calculateMortgage();
-  }, [formData]);
+  }, [calculateMortgage]);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

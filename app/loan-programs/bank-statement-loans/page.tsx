@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, FileText, TrendingUp, Users, Check, AlertCircle, Calculator, Phone } from 'lucide-react';
+import { FileText, TrendingUp, Check, AlertCircle, Calculator } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Bank Statement Loans Orange County | Self-Employed Mortgage | No Income Documentation',
-  description: 'Bank statement loans in Orange County for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender. Call (949) 822-9662.',
+  title: 'Bank Statement Loans | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Bank statement loans for Orange County self-employed borrowers. No tax returns required. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans',
   },
@@ -35,9 +35,9 @@ export default function BankStatementLoansPage() {
                 Get Bank Statement Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -389,9 +389,9 @@ export default function BankStatementLoansPage() {
                 Start Your Application
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

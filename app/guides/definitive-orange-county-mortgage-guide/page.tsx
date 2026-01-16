@@ -165,7 +165,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
               <Button size="lg" variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                 <Calculator className="w-5 h-5 mr-2" />
@@ -417,12 +417,12 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Direct Phone</span>
-              <span className="text-blue-100">(949) 822-9662</span>
+              <span className="text-blue-100">(949) 537-2357</span>
             </div>
             <div className="flex flex-col items-center">
               <Mail className="w-8 h-8 mb-2" />
               <span className="font-semibold">Email</span>
-              <span className="text-blue-100">mo.abdel@Luminglending.com</span>
+              <span className="text-blue-100">mo@luminlending.com</span>
             </div>
             <div className="flex flex-col items-center">
               <MapPin className="w-8 h-8 mb-2" />
@@ -438,7 +438,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                 Calculate Mortgage Payment
               </Button>
             </Link>
-            <Link href="/contact-orange-county-mortgage-broker">
+            <Link href="/contact">
               <Button size="lg" variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                 <Phone className="w-5 h-5 mr-2" />
                 Free Consultation

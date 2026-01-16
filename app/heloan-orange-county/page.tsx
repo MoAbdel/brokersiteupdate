@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Equity Loans in Orange County, CA | Fixed-Rate Equity Access',
     description: 'Get a lump sum from your home\'s equity with a fixed-rate Home Equity Loan in Orange County. Transparent terms, quick approvals.',
-    url: 'https://mothebroker.com/heloan-orange-county',
+    url: 'https://www.luminlending.com/heloan-orange-county',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/heloan-orange-county',
+    canonical: 'https://www.luminlending.com/heloan-orange-county',
   },
 };
 
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
+  "name": "Lumin Lending - Orange County Mortgage",
   "serviceType": "Home Equity Loan HELOAN",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/heloan-orange-county",
+  "telephone": "(949) 537-2357",
+  "url": "https://www.luminlending.com/heloan-orange-county",
   "description": "Expert Home Equity Loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"
@@ -207,7 +207,7 @@ export default function HELOANOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662" className="flex items-center">
+                <a href="tel:(949) 537-2357" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get HELOAN Pricing & Terms
                 </a>
@@ -469,8 +469,8 @@ export default function HELOANOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">
-                  Call (949) 822-9662
+                <a href="tel:(949) 537-2357">
+                  Call (949) 537-2357
                 </a>
               </Button>
               <Link href="/contact">

@@ -129,7 +129,7 @@ export default function OCMortgageRateTrends() {
                                 <Link href="/contact" className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-lg inline-block">
                                     Get a Personal Pricing Quote
                                 </Link>
-                                <p className="mt-4 text-blue-100 underline"><a href="tel:949-822-9662">(949) 822-9662</a></p>
+                                <p className="mt-4 text-blue-100"><a href="tel:9495372357" className="underline hover:text-white transition">(949) 537-2357</a></p>
                             </section>
 
                             <section className="mb-12">

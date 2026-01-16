@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | Lumin Lending',
   description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/heloc-specialist-orange-county',
+    canonical: 'https://www.luminlending.com/heloc-specialist-orange-county',
   },
 };
 
@@ -125,37 +125,27 @@ export default function HELOCSpecialistOrangeCounty() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Home,
-                title: '1. Credit Line Established',
-                description: 'Based on your available equity (typically 80-90% combined loan-to-value), we establish a credit line you can draw from as needed.',
-                color: 'blue'
-              },
-              {
-                icon: TrendingUp,
-                title: '2. Flexible Draws',
-                description: 'Access funds anytime during the 10-year draw period. Use what you need, pay interest only on what you borrow.',
-                color: 'green'
-              },
-              {
-                icon: Shield,
-                title: '3. Repayment Phase',
-                description: 'After the draw period, enter a 20-year repayment phase where you pay back principal plus interest.',
-                color: 'purple'
-              }
-            ].map((step, index) => {
-              const Icon = step.icon;
-              return (
-                <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
-                  <div className={`w-12 h-12 bg-${step.color}-100 rounded-lg flex items-center justify-center mb-4`}>
-                    <Icon className={`w-6 h-6 text-${step.color}-600`} />
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{step.title}</h3>
-                  <p className="text-slate-600">{step.description}</p>
-                </div>
-              );
-            })}
+            <div className="bg-white rounded-xl p-8 shadow-lg">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                <Home className="w-6 h-6 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">1. Credit Line Established</h3>
+              <p className="text-slate-600">Based on your available equity (typically 80-90% combined loan-to-value), we establish a credit line you can draw from as needed.</p>
+            </div>
+            <div className="bg-white rounded-xl p-8 shadow-lg">
+              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                <TrendingUp className="w-6 h-6 text-green-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">2. Flexible Draws</h3>
+              <p className="text-slate-600">Access funds anytime during the 10-year draw period. Use what you need, pay interest only on what you borrow.</p>
+            </div>
+            <div className="bg-white rounded-xl p-8 shadow-lg">
+              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                <Shield className="w-6 h-6 text-purple-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">3. Repayment Phase</h3>
+              <p className="text-slate-600">After the draw period, enter a 20-year repayment phase where you pay back principal plus interest.</p>
+            </div>
           </div>
         </div>
       </section>

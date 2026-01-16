@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Home, RefreshCw, Building, ArrowRight, DollarSign, CreditCard } from 'lucide-react';
 
@@ -46,7 +47,7 @@ export default function ServicesSection() {
       icon: RefreshCw,
       title: "VA Loans",
       description: "Special loans for veterans and active-duty military.",
-      link: "/loan-programs/va-loans"
+      link: "/loan-programs/orange-county-va-loans"
     },
     {
       icon: CreditCard,
@@ -75,10 +76,10 @@ export default function ServicesSection() {
           {services.slice(0, 4).map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <div
+              <Link
                 key={index}
-                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer text-center"
-                onClick={() => window.location.href = service.link}
+                href={service.link}
+                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group text-center block"
               >
                 {/* Icon */}
                 <div className="mb-4 flex justify-center">
@@ -89,15 +90,15 @@ export default function ServicesSection() {
 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h4 className="text-lg font-bold text-slate-900">
+                  <h3 className="text-lg font-bold text-slate-900">
                     {service.title}
-                  </h4>
+                  </h3>
 
                   <p className="text-sm text-slate-600 leading-relaxed">
                     {service.description}
                   </p>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
@@ -107,10 +108,10 @@ export default function ServicesSection() {
           {services.slice(4).map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <div
+              <Link
                 key={index + 4}
-                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer text-center"
-                onClick={() => window.location.href = service.link}
+                href={service.link}
+                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group text-center block"
               >
                 {/* Icon */}
                 <div className="mb-4 flex justify-center">
@@ -121,29 +122,30 @@ export default function ServicesSection() {
 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h4 className="text-lg font-bold text-slate-900">
+                  <h3 className="text-lg font-bold text-slate-900">
                     {service.title}
-                  </h4>
+                  </h3>
 
                   <p className="text-sm text-slate-600 leading-relaxed">
                     {service.description}
                   </p>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          <Button
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4"
-            onClick={() => window.location.href = '/quiz'}
-          >
-            Find Your Perfect Loan Program
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
+          <Link href="/loan-programs">
+            <Button
+              size="lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4"
+            >
+              Find Your Perfect Loan Program
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

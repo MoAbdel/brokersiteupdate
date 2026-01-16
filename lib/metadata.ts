@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 interface SEOMetadata {
   title: string;
   description: string;
-  keywords?: string;
+  keywords?: string[];
   path: string;
   image?: string;
   type?: 'website' | 'article';

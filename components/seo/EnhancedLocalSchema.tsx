@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Head from 'next/head';
 
 interface EnhancedLocalSchemaProps {
   city?: string;
@@ -11,7 +10,9 @@ interface EnhancedLocalSchemaProps {
 
 export default function EnhancedLocalSchema({
   city,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   page_type = 'home',
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   service_focus
 }: EnhancedLocalSchemaProps) {
 
@@ -246,7 +247,7 @@ export default function EnhancedLocalSchema({
   };
 
   return (
-    <Head>
+    <>
       {/* Enhanced Mortgage Broker Schema */}
       <script
         type="application/ld+json"
@@ -287,6 +288,6 @@ export default function EnhancedLocalSchema({
       <meta name="professional.license" content="NMLS #1426884" />
       <meta name="professional.type" content="Mortgage Broker" />
       <meta name="professional.jurisdiction" content="California" />
-    </Head>
+    </>
   );
 }

@@ -25,7 +25,7 @@ export default function NewsletterSignup() {
       const formData_submit = new FormData();
       formData_submit.append('email', email.trim());
       formData_submit.append('firstName', firstName.trim());
-      formData_submit.append('source', 'MoTheBroker Newsletter');
+      formData_submit.append('source', 'Lumin Lending Newsletter');
       formData_submit.append('subscribedAt', new Date().toISOString());
       formData_submit.append('_subject', `Newsletter Subscription - ${firstName.trim()}`);
 
@@ -59,7 +59,7 @@ export default function NewsletterSignup() {
       <SuccessPopup 
         isVisible={showSuccess}
         onClose={() => setShowSuccess(false)}
-        title="Welcome to Mo's Insider Network!"
+        title="Welcome to Lumin Lending's Insider Network!"
         message="You've successfully subscribed to exclusive Orange County mortgage market insights. Check your email for a welcome message and your first market update!"
       />
       
@@ -78,7 +78,7 @@ export default function NewsletterSignup() {
             </h3>
             
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Get Mo's exclusive weekly market insights, rate forecasts, and insider tips delivered to your inbox. 
+              Get exclusive weekly market insights, rate forecasts, and insider tips delivered to your inbox.
               No spam, just valuable information to help you make smarter financing decisions.
             </p>
 
@@ -88,7 +88,7 @@ export default function NewsletterSignup() {
                 <div className="flex items-center justify-center">
                   <CheckCircle className="w-5 h-5 mr-2" />
                   <p className="font-medium">
-                    Welcome to Mo's Market Insights! Check your email for confirmation.
+                    Welcome to Lumin Lending's Market Insights! Check your email for confirmation.
                   </p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function NewsletterSignup() {
             {showError && (
               <div className="mb-6 p-4 bg-red-100 border border-red-200 rounded-lg text-red-800">
                 <p className="text-sm">
-                  Something went wrong. Please try again or call Mo directly at (949) 822-9662.
+                  Something went wrong. Please try again or call us directly at (949) 537-2357.
                 </p>
               </div>
             )}
@@ -167,7 +167,7 @@ export default function NewsletterSignup() {
             </div>
 
             <p className="text-xs text-blue-200 mt-6">
-              By subscribing, you agree to receive email updates from Mo Abdel. 
+              By subscribing, you agree to receive email updates from Lumin Lending.
               Your information will never be shared with third parties.
             </p>
           </div>

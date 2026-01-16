@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Newport Coast Mortgage Guide 2026: Luxury & Ultra-High-Net-Worth Financing',
-    description: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for ultra-luxury coastal properties.',
-    keywords: ['Newport Coast mortgage broker', 'Newport Coast jumbo loans', 'luxury financing Newport Coast', 'Pelican Hill real estate'],
+  title: 'Newport Coast Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
+  },
 };
 
 export default function NewportCoastMortgageGuidePage() {

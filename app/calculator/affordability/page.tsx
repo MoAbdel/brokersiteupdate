@@ -27,8 +27,7 @@ export default function AffordabilityCalculator() {
     // Use the more conservative of the two
     const maxMonthlyPayment = Math.min(maxHousingPayment, maxHousingWithDebt);
     
-    // Estimate insurance, taxes, PMI (roughly 0.5% monthly)
-    const estimatedHOITaxesPMI = 0.005;
+    // Estimate insurance, taxes, PMI - approximately 15% of payment
     const availableForPrincipalInterest = maxMonthlyPayment * 0.85; // 85% for P&I
     
     // Calculate max loan amount
@@ -238,12 +237,12 @@ export default function AffordabilityCalculator() {
           
           <div className="mt-8 pt-8 border-t border-slate-200 text-center">
             <p className="text-slate-600 mb-4">
-              Ready to get pre-approved? Contact Mo Abdel for personalized guidance.
+              Ready to get pre-approved? Contact Lumin Lending for personalized guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:+19495372357">
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

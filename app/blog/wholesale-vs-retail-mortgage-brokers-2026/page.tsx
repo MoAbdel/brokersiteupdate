@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026',
-    description: 'Discover the wholesale mortgage advantage. Compare wholesale brokers vs retail banks, credit unions, and online lenders to find the best financing option.',
-    keywords: ['wholesale mortgage broker', 'wholesale vs retail mortgage', 'mortgage broker vs bank', 'best mortgage lender'],
+  title: 'Wholesale Vs Retail Mortgage Brokers 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
+  },
 };
 
 export default function WholesaleVsRetailMortgagePage() {

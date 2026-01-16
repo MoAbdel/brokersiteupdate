@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise',
-    description: 'Discover the San Clemente mortgage landscape in 2026. Expert guidance on VA loans near Camp Pendleton and wholesale pricing for coastal luxury homes.',
-    keywords: ['San Clemente mortgage broker', 'San Clemente home loans', 'VA loans San Clemente', 'San Clemente real estate'],
+  title: 'San Clemente Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
+  },
 };
 
 export default function SanClementeMortgageGuidePage() {

@@ -8,8 +8,8 @@ import { MapPin, Home, TrendingUp, Users, Star, Phone, DollarSign, Calculator, C
 import EnhancedContactForm from '@/components/EnhancedContactForm';
 
 export const metadata: Metadata = {
-  title: 'Newport Beach Mortgage Broker | Luxury Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Newport Beach mortgage broker specializing in luxury waterfront properties. Expert in jumbo loans for Balboa Island, Corona del Mar, Newport Coast. Licensed NMLS #1426884.',
+  title: 'Newport Beach Mortgage Broker | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Newport Beach luxury home financing and jumbo loans. Serving Corona del Mar, Balboa Island. Orange County broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-mortgage-broker',
   },
@@ -25,7 +25,7 @@ const newportBeachSchema = {
     "@type": "Person",
     "name": "Mo Abdel",
     "identifier": "NMLS #1426884",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 537-2357",
     "jobTitle": "Licensed Mortgage Broker"
   },
   "areaServed": [
@@ -174,10 +174,10 @@ export default function NewportBeachMortgageBrokerPage() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 537-2357">
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact-orange-county-mortgage-broker">

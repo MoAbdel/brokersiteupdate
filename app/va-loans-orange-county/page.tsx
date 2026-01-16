@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calculator, FileText, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'VA Loans Orange County 2026 | Zero Down Veterans Home Loans',
-  description: 'Get VA loans in Orange County with $0 down, no PMI, and Competitive pricing. Mo Abdel specializes in VA financing for veterans with 2026 loan limits up to $1,209,750.',
+  title: 'VA Loans | Mo Abdel - Orange County Mortgage Broker',
+  description: 'VA loans in Orange County with zero down payment for veterans. Competitive rates, no PMI required. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/va-loans-orange-county',
   },
@@ -23,8 +23,8 @@ const jsonLd = {
     "@type": "Person",
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 822-9662",
-    "email": "mo.abdel@Luminglending.com"
+    "telephone": "(949) 537-2357",
+    "email": "mo.abdel@luminlending.com"
   },
   "areaServed": {
     "@type": "Place",
@@ -36,7 +36,7 @@ const jsonLd = {
     "addressRegion": "CA",
     "addressCountry": "US"
   },
-  "telephone": "(949) 822-9662",
+  "telephone": "(949) 537-2357",
   "url": "https://mothebroker.com/va-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
@@ -74,7 +74,7 @@ export default function VALoansOrangeCountyPage() {
                   Apply for VA Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 822-9662">
+              <a href="tel:9495372357">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call VA Specialist
                 </Button>
@@ -623,9 +623,9 @@ export default function VALoansOrangeCountyPage() {
                   Start My VA Loan Application
                 </Button>
               </Link>
-              <a href="tel:(949) 822-9662">
+              <a href="tel:9495372357">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                  Call VA Expert: (949) 822-9662
+                  Call VA Expert: (949) 537-2357
                 </Button>
               </a>
             </div>

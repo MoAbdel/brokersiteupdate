@@ -10,12 +10,13 @@ const nextConfig = {
     ],
     formats: ['image/webp', 'image/avif'],
   },
-  output: 'standalone',
   
-  // HTTP/2+ and Performance optimizations  
+  // HTTP/2+ and Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
+
+
   
   // Mobile performance settings
   poweredByHeader: false,
@@ -207,65 +208,10 @@ const nextConfig = {
   },
   
   
-  // Webpack optimizations for ultra-modern browsers
+  // Webpack optimizations - simplified for Next.js 15 compatibility
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      // Target ES2022 to eliminate all polyfills
-      config.target = ['web', 'es2022'];
-      
-      config.optimization = {
-        ...config.optimization,
-        sideEffects: false,
-        providedExports: true,
-        usedExports: true,
-        concatenateModules: true,
-        innerGraph: true,
-        mangleExports: 'size',
-        splitChunks: {
-          chunks: 'all',
-          minSize: 20000,
-          maxSize: 244000,
-          cacheGroups: {
-            default: false,
-            vendors: false,
-            // React and core libs
-            react: {
-              name: 'react',
-              chunks: 'all',
-              test: /[\\/]node_modules[\\/](react|react-dom|scheduler)[\\/]/,
-              priority: 40,
-              enforce: true
-            },
-            // Icons - separate chunk for better caching
-            icons: {
-              name: 'icons',
-              chunks: 'all', 
-              test: /[\\/]node_modules[\\/]lucide-react[\\/]/,
-              priority: 35,
-              enforce: true
-            },
-            // Other vendor libraries
-            vendor: {
-              name: 'vendor',
-              chunks: 'all',
-              test: /[\\/]node_modules[\\/]/,
-              priority: 20,
-              minChunks: 1
-            },
-            // Common code across pages
-            common: {
-              name: 'common',
-              chunks: 'all',
-              minChunks: 2,
-              priority: 10,
-              reuseExistingChunk: true,
-              enforce: true
-            }
-          }
-        }
-      };
-      
-      // Remove any polyfills
+      // Remove polyfills for modern browsers
       config.resolve.fallback = {
         ...config.resolve.fallback,
         crypto: false,
@@ -278,7 +224,7 @@ const nextConfig = {
         zlib: false,
       };
     }
-    
+
     return config;
   },
 };

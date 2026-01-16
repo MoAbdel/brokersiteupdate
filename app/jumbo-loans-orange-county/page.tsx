@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calculator, FileText, Award, Building } from 'lucide-react';
+import { Star, Shield, DollarSign, TrendingUp, CheckCircle, Home, Calculator, Award, Building } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
@@ -74,7 +74,7 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 822-9662">
+              <a href="tel:+19498229662">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call Jumbo Specialist
                 </Button>
@@ -633,7 +633,7 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 822-9662">
+              <a href="tel:+19498229662">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
                   Call Jumbo Expert: (949) 822-9662
                 </Button>

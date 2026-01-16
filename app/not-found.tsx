@@ -32,11 +32,11 @@ export default function NotFound() {
             className="flex items-center justify-center gap-2 bg-white border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
             <Calculator className="w-5 h-5" />
-            pricing Calculator
+            Pricing Calculator
           </Link>
           
           <a
-            href="tel:(949) 822-9662"
+            href="tel:+19495372357"
             className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
           >
             <Phone className="w-5 h-5" />
@@ -70,7 +70,7 @@ export default function NotFound() {
             </li>
             <li>
               <Link href="/contact" className="text-blue-600 hover:underline">
-                → Get Your Free pricing Quote
+                → Get Your Free Pricing Quote
               </Link>
             </li>
           </ul>
@@ -80,8 +80,8 @@ export default function NotFound() {
         <div className="mt-8 p-4 bg-blue-50 rounded-lg">
           <p className="text-slate-700">
             Need immediate assistance? Call Mo directly at{' '}
-            <a href="tel:(949) 822-9662" className="font-bold text-blue-600 hover:underline">
-              (949) 822-9662
+            <a href="tel:+19495372357" className="font-bold text-blue-600 hover:underline">
+              (949) 537-2357
             </a>
           </p>
           <p className="text-sm text-slate-600 mt-2">

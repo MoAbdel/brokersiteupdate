@@ -4,18 +4,18 @@ import { JsonLd } from '@/app/(marketing)/components/Schema';
 export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
   description:
-    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
-  alternates: { canonical: 'https://mothebroker.com/areas/newport-beach' },
+    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
+  alternates: { canonical: 'https://luminlending.com/areas/newport-beach' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Mortgage Broker | Jumbo Loans & Luxury Home Financing',
-    url: 'https://mothebroker.com/areas/newport-beach',
+    url: 'https://luminlending.com/areas/newport-beach',
   },
 };
 
 export default function Page() {
   const faqs = [
-    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 200+ wholesale lenders to secure Competitive pricing for high-value properties.' },
+    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 100+ wholesale lenders to secure competitive pricing for high-value properties.' },
     { q: 'What about unique Newport Beach properties like waterfront homes?', a: 'We specialize in unique Newport Beach properties including waterfront, luxury condos, and custom homes. Our lenders understand these specialized property types.' },
     { q: 'How do HELOCs work for Newport Beach homes?', a: 'Given the significant equity in most Newport Beach properties, HELOCs are very popular. We can often secure higher credit lines due to strong property values and help structure optimal terms.' },
     { q: 'What\'s the timeline for Newport Beach luxury home loans?', a: 'Luxury properties often require more detailed appraisals and documentation. Typical timelines are 3-4 weeks, though complex properties or unique situations may take longer.' },
@@ -26,13 +26,12 @@ export default function Page() {
   const localBusiness = {
     '@context': 'https://schema.org',
     '@type': 'MortgageBroker',
-    name: 'Mo the Broker - Newport Beach',
+    name: 'Mo Abdel - Lumin Lending - Newport Beach',
     areaServed: 'Newport Beach, Orange County, CA',
-    url: 'https://mothebroker.com/areas/newport-beach',
-    telephone: '+1-949-735-4000',
-    address: { '@type': 'PostalAddress', addressLocality: 'Newport Beach', addressRegion: 'CA', addressCountry: 'US' },
-    sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 200+ lenders.',
+    url: 'https://luminlending.com/areas/newport-beach',
+    telephone: '+1-949-822-9662',
+    address: { '@type': 'PostalAddress', streetAddress: '18301 Von Karman Ave Suite 820', addressLocality: 'Irvine', addressRegion: 'CA', postalCode: '92612', addressCountry: 'US' },
+    description: 'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 100+ lenders.',
   };
 
   const faqSchema = {
@@ -57,9 +56,9 @@ export default function Page() {
             and access to lenders who understand luxury real estate markets.
           </p>
           <p>
-            As a wholesale mortgage broker, we work with 200+ lenders to provide competitive jumbo loan options, sophisticated 
-            financing structures, and personalized service for Newport Beach's discerning homeowners and buyers. Whether you're 
-            purchasing a waterfront estate, refinancing a luxury condo, or accessing equity for investment opportunities, 
+            As a wholesale mortgage broker, we work with 100+ lenders to provide competitive jumbo loan options, sophisticated
+            financing structures, and personalized service for Newport Beach's discerning homeowners and buyers. Whether you're
+            purchasing a waterfront estate, refinancing a luxury condo, or accessing equity for investment opportunities,
             we navigate the complexities of high-end real estate financing.
           </p>
         </>
@@ -93,7 +92,7 @@ export default function Page() {
       heading: 'Newport Beach financing solutions',
       body: (
         <ul className="space-y-2">
-          <li><strong>Jumbo loans:</strong> Essential for most Newport Beach purchases, with Competitive pricing through wholesale relationships and flexible terms for unique properties.</li>
+          <li><strong>Jumbo loans:</strong> Essential for most Newport Beach purchases, with competitive pricing through wholesale relationships and flexible terms for unique properties.</li>
           <li><strong>Super jumbo financing:</strong> For the highest-value properties exceeding standard jumbo limits, requiring specialized lenders and programs.</li>
           <li><strong>Portfolio loans:</strong> Bank portfolio products for unique properties or situations that don't fit conventional guidelines.</li>
           <li><strong>HELOCs and home equity loans:</strong> Popular for accessing significant equity in appreciated Newport Beach properties for investments or improvements.</li>
@@ -177,14 +176,14 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOC options for luxury homes', href: '/heloc' },
-    { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
-    { label: 'Home equity loan comparison', href: '/home-equity-loan' },
-    { label: 'Orange County mortgage services', href: '/orange-county' },
-    { label: 'Wholesale mortgage advantages', href: '/mortgage-broker-orange-county' },
+    { label: 'HELOC options for luxury homes', href: '/loan-programs/heloc' },
+    { label: 'Cash-out refinancing guide', href: '/loan-programs/cash-out-refinance' },
+    { label: 'Home equity loan comparison', href: '/loan-programs/heloan' },
     { label: 'Newport Beach neighborhoods', href: '/areas/newport-beach-neighborhoods' },
-    { label: 'Jumbo loan programs', href: '/programs/jumbo-loans' },
-    { label: 'Investment property financing', href: '/programs/dscr-investment-loans' },
+    { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
+    { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
+    { label: 'Bank statement loans', href: '/loan-programs/bank-statement-loans' },
+    { label: 'Non-QM loan options', href: '/loan-programs/non-qm-loans' },
   ];
 
   return (

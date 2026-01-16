@@ -9,19 +9,19 @@ export default function CriticalCSS() {
     link.rel = 'preload';
     link.as = 'style';
     link.href = '/_next/static/css/app/layout.css';
-    link.onload = () => {
-      link.onload = null;
+
+    const handleLoad = () => {
+      link.removeEventListener('load', handleLoad);
       link.rel = 'stylesheet';
     };
+
+    link.addEventListener('load', handleLoad);
     document.head.appendChild(link);
 
-    // Add noscript fallback
-    const noscript = document.createElement('noscript');
-    const fallbackLink = document.createElement('link');
-    fallbackLink.rel = 'stylesheet';
-    fallbackLink.href = '/_next/static/css/app/layout.css';
-    noscript.appendChild(fallbackLink);
-    document.head.appendChild(noscript);
+    // Cleanup on unmount
+    return () => {
+      link.removeEventListener('load', handleLoad);
+    };
   }, []);
 
   return null;

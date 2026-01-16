@@ -3,10 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function SocialProofSection() {
-  const [currentReview, setCurrentReview] = useState(0);
-
-  const reviews = [
+const reviews = [
     {
       name: "jhcurry",
       location: "Fairfield, CA",
@@ -51,14 +48,17 @@ export default function SocialProofSection() {
       interestRate: "As expected",
       fees: "Lower than expected"
     }
-  ];
+];
+
+export default function SocialProofSection() {
+  const [currentReview, setCurrentReview] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentReview((prev) => (prev + 1) % reviews.length);
     }, 6000);
     return () => clearInterval(interval);
-  }, [reviews.length]);
+  }, []);
 
   const nextReview = () => {
     setCurrentReview((prev) => (prev + 1) % reviews.length);

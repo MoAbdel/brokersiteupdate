@@ -1,22 +1,13 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Phone, X } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 
 export default function MobileStickyCallButton() {
   const { trackPhoneCall } = useFacebookTracking();
   const [isVisible, setIsVisible] = useState(false);
-  const [isDismissed, setIsDismissed] = useState(false);
-
   useEffect(() => {
-    // Check if user has dismissed the button in this session
-    const dismissed = sessionStorage.getItem('callButtonDismissed');
-    if (dismissed) {
-      setIsDismissed(true);
-      return;
-    }
-
     // Show button after user scrolls down 300px
     const handleScroll = () => {
       if (window.scrollY > 300) {
@@ -29,13 +20,6 @@ export default function MobileStickyCallButton() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const handleDismiss = () => {
-    setIsDismissed(true);
-    sessionStorage.setItem('callButtonDismissed', 'true');
-  };
-
-  if (isDismissed) return null;
 
   return (
     <>

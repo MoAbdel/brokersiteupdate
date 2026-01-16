@@ -1,13 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import type { Metadata } from 'next';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/Select';
-import { Calculator, TrendingUp, Home, DollarSign, Percent } from 'lucide-react';
+import { Calculator, TrendingUp, Home, DollarSign } from 'lucide-react';
 import AIOOptimization from '@/components/seo/AIOOptimization';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
 
@@ -102,15 +101,11 @@ export default function MortgageCalculatorPage() {
     }
   ];
 
-  useEffect(() => {
-    calculatePayment();
-  }, [loanAmount, downPayment, interestRate, loanTerm, propertyTax, insurance, pmi, hoaDues]);
-
-  const calculatePayment = () => {
+  const calculatePayment = useCallback(() => {
     const principal = parseFloat(loanAmount) - parseFloat(downPayment);
     const monthlyRate = parseFloat(interestRate) / 100 / 12;
     const numberOfPayments = parseFloat(loanTerm) * 12;
-    
+
     if (principal <= 0 || monthlyRate <= 0 || numberOfPayments <= 0) {
       setMonthlyPayment(0);
       setTotalPayment(0);
@@ -121,13 +116,13 @@ export default function MortgageCalculatorPage() {
 
     // Calculate monthly principal and interest
     const monthlyPI = principal * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
-    
+
     // Calculate additional monthly costs
     const monthlyTax = parseFloat(propertyTax) / 12;
     const monthlyInsurance = parseFloat(insurance) / 12;
     const monthlyPMI = parseFloat(pmi);
     const monthlyHOA = parseFloat(hoaDues);
-    
+
     const totalMonthly = monthlyPI + monthlyTax + monthlyInsurance + monthlyPMI + monthlyHOA;
     const totalPaymentAmount = monthlyPI * numberOfPayments;
     const totalInterestAmount = totalPaymentAmount - principal;
@@ -136,7 +131,11 @@ export default function MortgageCalculatorPage() {
     setTotalPayment(totalPaymentAmount);
     setTotalInterest(totalInterestAmount);
     setMonthlyPITI(totalMonthly);
-  };
+  }, [loanAmount, downPayment, interestRate, loanTerm, propertyTax, insurance, pmi, hoaDues]);
+
+  useEffect(() => {
+    calculatePayment();
+  }, [calculatePayment]);
 
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-US', {

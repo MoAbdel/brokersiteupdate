@@ -3,9 +3,11 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-    title: 'Strategic Refinancing & Home Equity 2026: Rate vs. Utility Analysis',
-    description: 'Expert analysis on refinancing strategies in 2026. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.',
-    keywords: ['strategic refinancing', 'home equity guide 2026', 'wholesale mortgage benefits', 'refinance timing california', 'cash-out strategy'],
+  title: 'Strategic Refinancing Home Equity 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
+  },
 };
 
 export default function StrategicRefinancing2026() {

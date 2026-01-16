@@ -3,9 +3,11 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-    title: 'Huntington Beach Refinance & Cash-Out Guide 2026: HB Equity Analysis',
-    description: 'Expert guidance on refinancing and tapping into home equity for Huntington Beach properties. Learn about wholesale strategies for HB homeowners in 2026.',
-    keywords: ['Huntington Beach refinance', 'cash-out refinance HB', 'home equity loan Huntington Beach', 'HB real estate equity'],
+  title: 'Huntington Beach Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
+  },
 };
 
 export default function HuntingtonBeachRefinance2026() {

@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { Crown, Diamond, Star, MapPin, Calculator, Phone, Eye, Gem } from 'lucide-react';
+import { Crown, Diamond, Star, Calculator, Phone, Eye, Gem } from 'lucide-react';
 import AIOOptimization from '@/components/seo/AIOOptimization';
 import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Ultra-Luxury Estates Mortgage Broker | $5M+ Properties | Mo Abdel NMLS #1426884',
-  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 822-9662.',
+  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
   },
@@ -53,7 +53,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
       type: 'faq' as const,
       title: 'Orange County Ultra-Luxury Estates Financing FAQ',
       description: 'Common questions about financing ultra-luxury estate properties',
-      url: 'https://mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
+      url: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
       data: {
         questions: [
           {
@@ -212,7 +212,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
         title="Orange County Ultra-Luxury Estates Mortgage Broker | $5M+ Properties | Mo Abdel NMLS #1426884"
         description="Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing."
         city="Orange County"
-        canonicalUrl="https://mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker"
+        canonicalUrl="https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker"
         content={ultraLuxuryData}
       />
       <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="ultra-luxury estate and mansion financing services" />
@@ -250,10 +250,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 Exclusive financing for Orange County's most prestigious ultra-luxury estates. From $5M oceanfront mansions to private compounds, expert guidance for the ultimate in luxury living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 822-9662">
+                <a href="tel:(949) 537-2357">
                   <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 822-9662
+                    Call (949) 537-2357
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -497,10 +497,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               Get exclusive expertise for Orange County's most prestigious ultra-luxury properties. Discretionary service, private banking solutions, portfolio lending specialists.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" variant="outline" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </Button>
               </a>
               <a href="/contact">

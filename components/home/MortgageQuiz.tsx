@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Home, RefreshCw, Briefcase, ArrowRight, ArrowLeft, MapPin, CreditCard, Building, DollarSign, Percent } from "lucide-react";

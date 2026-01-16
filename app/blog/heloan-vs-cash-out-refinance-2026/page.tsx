@@ -3,9 +3,11 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-    title: 'HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy',
-    description: 'Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into your Southern California equity.',
-    keywords: ['HELOAN vs cash out refinance', 'home equity loan benefits', 'wholesale HELOAN options', 'mortgage strategy 2026'],
+  title: 'Heloan Vs Cash Out Refinance 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
+  },
 };
 
 export default function HELOANvsCashOut2026() {

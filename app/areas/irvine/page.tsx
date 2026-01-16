@@ -5,11 +5,11 @@ export const metadata = {
   title: 'Irvine Mortgage Broker | Home Loans & HELOCs in Irvine, CA',
   description:
     'Local mortgage guidance for Irvine homeowners and buyers. Compare HELOCs, cash-out refinance, VA, FHA, jumbo and more with a wholesale mortgage broker.',
-  alternates: { canonical: 'https://mothebroker.com/areas/irvine' },
+  alternates: { canonical: 'https://www.luminlending.com/areas/irvine' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Irvine Mortgage Broker | HELOC, Cash-Out & Home Loans',
-    url: 'https://mothebroker.com/areas/irvine',
+    url: 'https://www.luminlending.com/areas/irvine',
   },
 };
 
@@ -26,13 +26,13 @@ export default function Page() {
   const localBusiness = {
     '@context': 'https://schema.org',
     '@type': 'MortgageBroker',
-    name: 'Mo the Broker - Irvine',
+    name: 'Lumin Lending - Irvine',
     areaServed: 'Irvine, Orange County, CA',
-    url: 'https://mothebroker.com/areas/irvine',
-    telephone: '+1-949-735-4000',
-    address: { '@type': 'PostalAddress', addressLocality: 'Irvine', addressRegion: 'CA', addressCountry: 'US' },
+    url: 'https://www.luminlending.com/areas/irvine',
+    telephone: '+1-949-822-9662',
+    address: { '@type': 'PostalAddress', streetAddress: '18301 Von Karman Ave Suite 820', addressLocality: 'Irvine', addressRegion: 'CA', postalCode: '92612', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Wholesale mortgage broker serving Irvine with access to 200+ lenders for home loans, HELOCs, and refinancing.',
+    description: 'Wholesale mortgage broker serving Irvine with access to 100+ lenders for home loans, HELOCs, and refinancing. NMLS #1426884.',
   };
 
   const faqSchema = {
@@ -154,11 +154,10 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOCs and home equity options', href: '/heloc' },
+    { label: 'HELOCs and home equity options', href: '/loan-programs/heloc' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
-    { label: 'Home equity loans', href: '/home-equity-loan' },
-    { label: 'Orange County mortgage services', href: '/orange-county' },
-    { label: 'Why choose a wholesale broker', href: '/mortgage-broker-orange-county' },
+    { label: 'Home equity loans', href: '/loan-programs/heloan' },
+    { label: 'Orange County service areas', href: '/areas' },
     { label: 'Irvine neighborhoods guide', href: '/areas/irvine-neighborhoods' },
     { label: 'Recent mortgage insights', href: '/articles' },
   ];

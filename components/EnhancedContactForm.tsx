@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, Home, Calendar, User, Phone, Mail, FileText } from "lucide-react";
+import { Calculator, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
 // Compliant 2026 Orange County Data
@@ -123,7 +123,7 @@ export default function EnhancedContactForm() {
   const [showError, setShowError] = useState(false);
 
   // Calculate mortgage details
-  const calculateMortgageDetails = () => {
+  const calculateMortgageDetails = useCallback(() => {
     let loanAmount = 0;
 
     // Handle different loan purposes
@@ -139,7 +139,7 @@ export default function EnhancedContactForm() {
 
     if (loanAmount <= 0) return null;
 
-    // Determine loan type 
+    // Determine loan type
     let loanType = formData.loanType;
     if (['heloc', 'heloan'].includes(formData.loanPurpose)) {
       loanType = formData.loanPurpose === 'heloc' ? 'HELOC' : 'HELOAN';
@@ -165,7 +165,7 @@ export default function EnhancedContactForm() {
 
     setCalculatorResults(results);
     return results;
-  };
+  }, [formData.loanPurpose, formData.currentLoanAmount, formData.cashOutAmount, formData.loanAmount, formData.loanType]);
 
   // Update calculator when relevant fields change
   useEffect(() => {
@@ -177,7 +177,7 @@ export default function EnhancedContactForm() {
     if (hasRequiredFields && (currentStep >= 2 || showSuccess === false)) {
       calculateMortgageDetails();
     }
-  }, [formData.loanAmount, formData.homeValue, formData.loanPurpose, formData.currentLoanAmount, formData.currentRate, formData.cashOutAmount, formData.loanType]);
+  }, [formData.loanAmount, formData.homeValue, formData.loanPurpose, formData.currentLoanAmount, formData.currentRate, formData.cashOutAmount, formData.loanType, currentStep, showSuccess, calculateMortgageDetails]);
 
   const handleInputChange = (field: string, value: string) => {
     // Redirect to non-QM loan page when investment is selected

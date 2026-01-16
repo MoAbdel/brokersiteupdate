@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Crown, TrendingUp, Shield, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Jumbo Loans Orange County | $1,209,750+ Mortgages | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
+  title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Jumbo loans for Orange County luxury homes above $1,266,300. Competitive rates for high-value properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
   },
@@ -27,7 +27,7 @@ export default function JumboLoansPage() {
             <span className="text-purple-600">Jumbo Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Finance luxury Orange County homes above $1,209,750 with competitive jumbo mortgage 
+            Finance luxury Orange County homes above $1,266,300 with competitive jumbo mortgage 
             rates. No loan amount limits, flexible terms, and personalized service for 
             high-value properties and sophisticated borrowers.
           </p>
@@ -37,9 +37,9 @@ export default function JumboLoansPage() {
                 Get Jumbo Loan Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:+19495372357">
               <Button variant="ghost" className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -91,7 +91,7 @@ export default function JumboLoansPage() {
                   </div>
                   <div className="flex justify-between border-t pt-2">
                     <span className="text-slate-600">Jumbo Threshold:</span>
-                    <span className="font-bold text-purple-600">$1,089,301+</span>
+                    <span className="font-bold text-purple-600">$1,266,301+</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Maximum Loan Amount:</span>
@@ -410,7 +410,7 @@ export default function JumboLoansPage() {
                   <div>• Laguna Beach</div>
                   <div>• Irvine</div>
                   <div>• Dana Point</div>
-                  <div>• Manhattan Beach</div>
+                  <div>• Corona del Mar</div>
                   <div>• San Clemente</div>
                 </div>
               </div>
@@ -480,9 +480,9 @@ export default function JumboLoansPage() {
                 Get My Jumbo Loan Quote
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:+19495372357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

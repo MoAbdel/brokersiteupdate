@@ -53,7 +53,7 @@ export default function OrangeCountyMarketForecast() {
     },
     {
       scenario: "Move-Up Buyers",
-      bestTiming: "Q4 2026 - Q1 2026", 
+      bestTiming: "Q4 2025 - Q1 2026", 
       reasoning: "Sell high, buy before rates drop further",
       strategy: ["List home in Q3 2026", "Coordinate buy/sell timing", "Consider bridge financing"],
       riskLevel: "Medium"
@@ -178,7 +178,7 @@ export default function OrangeCountyMarketForecast() {
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Real Estate Market Forecast 2026-2026
+              Orange County Real Estate Market Forecast 2025-2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Expert analysis and predictions for Orange County's housing market. Loan pricing forecasts, 
@@ -186,10 +186,10 @@ export default function OrangeCountyMarketForecast() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 537-2357">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 537-2357
                 </Button>
               </a>
               <Link href="/contact">
@@ -208,7 +208,7 @@ export default function OrangeCountyMarketForecast() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Key Market Predictions for 2026-2026
+              Key Market Predictions for 2025-2026
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Comprehensive forecast of Orange County's real estate market based on current trends and economic indicators.
@@ -549,10 +549,10 @@ export default function OrangeCountyMarketForecast() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
             <Link href="/contact">

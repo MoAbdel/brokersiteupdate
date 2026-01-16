@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { TrendingDown, Calendar, Shield, CheckCircle, AlertCircle, Calculator } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
-  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 822-9662.',
+  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 537-2357.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
   },
@@ -37,9 +37,9 @@ export default function RateTermRefinancePage() {
                 Get My New Payment Quote
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -346,9 +346,9 @@ export default function RateTermRefinancePage() {
                 Check My New Payment Options
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

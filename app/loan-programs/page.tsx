@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { seoData } from '@/lib/seo';
-import { Home, Shield, Users, TrendingUp, TrendingDown, DollarSign, Zap, ArrowRight } from 'lucide-react';
+import { Home, Shield, Users, TrendingUp, DollarSign, Zap, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: seoData.Programs.title,
@@ -611,6 +611,6 @@ export default function ProgramsPage() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 }

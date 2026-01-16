@@ -1,7 +1,5 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
 import { seoData } from '@/lib/seo';
 import EnhancedContactForm from '@/components/EnhancedContactForm';
 import { generateMetadata } from '@/lib/metadata';
@@ -40,7 +38,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Phone</h3>
-                  <a href="tel:(949) 822-9662" className="text-blue-600 hover:text-blue-700 text-lg">
+                  <a href="tel:+19498229662" className="text-blue-600 hover:text-blue-700 text-lg">
                     (949) 822-9662
                   </a>
                   <p className="text-sm text-slate-600">Call or text anytime</p>

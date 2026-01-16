@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'FHA Loans in Orange County 2026: Complete Guide & Requirements',
-    description: 'Comprehensive guide to FHA loans in Orange County. Learn about requirements, benefits, and how wholesale brokers provide competitive FHA financing.',
-    keywords: ['FHA loans Orange County', 'FHA loan requirements California', 'first-time homebuyer FHA', 'FHA loan limits 2026'],
+  title: 'FHA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
+  },
 };
 
 export default function FHALoansOrangeCountyPage() {
@@ -48,7 +50,7 @@ export default function FHALoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, **FHA loans** remain the primary financing vehicle for Orange County homebuyers who require lower down payments (**3.5% minimum**) and more flexible credit score requirements (**580+**). While retail banks often apply strict "overlays," working with a **wholesale mortgage broker** allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
+                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
                     </p>
                 </div>
 

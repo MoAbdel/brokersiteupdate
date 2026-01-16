@@ -3,7 +3,42 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { Home, DollarSign, GraduationCap, MapPin, Clock, Star, TrendingUp, Users, Car, Shield } from 'lucide-react';
+import { MapPin, Star, TrendingUp, Shield } from 'lucide-react';
+
+// Helper function to get color classes - Tailwind requires full class names at build time
+const getColorClasses = (color: string) => {
+  const colorMap: Record<string, { bg: string; bgLight: string; text: string; buttonBg: string; buttonHover: string }> = {
+    green: {
+      bg: 'bg-green-100',
+      bgLight: 'bg-green-50',
+      text: 'text-green-600',
+      buttonBg: 'bg-green-600',
+      buttonHover: 'hover:bg-green-700',
+    },
+    blue: {
+      bg: 'bg-blue-100',
+      bgLight: 'bg-blue-50',
+      text: 'text-blue-600',
+      buttonBg: 'bg-blue-600',
+      buttonHover: 'hover:bg-blue-700',
+    },
+    purple: {
+      bg: 'bg-purple-100',
+      bgLight: 'bg-purple-50',
+      text: 'text-purple-600',
+      buttonBg: 'bg-purple-600',
+      buttonHover: 'hover:bg-purple-700',
+    },
+    orange: {
+      bg: 'bg-orange-100',
+      bgLight: 'bg-orange-50',
+      text: 'text-orange-600',
+      buttonBg: 'bg-orange-600',
+      buttonHover: 'hover:bg-orange-700',
+    },
+  };
+  return colorMap[color] || colorMap.blue;
+};
 
 export const metadata: Metadata = {
   title: 'Orange County Neighborhoods Comparison Guide 2026 | Best Places to Buy Homes OC',
@@ -129,9 +164,9 @@ export default function OCNeighborhoodsGuide() {
                 Get Neighborhood-Specific Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Discuss Your Needs: (949) 822-9662
+                Discuss Your Needs: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -139,11 +174,13 @@ export default function OCNeighborhoodsGuide() {
 
         {/* Neighborhood Comparison Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {neighborhoods.map((neighborhood, index) => (
+          {neighborhoods.map((neighborhood) => {
+            const colors = getColorClasses(neighborhood.color);
+            return (
             <div key={neighborhood.name} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-4">
-                <div className={`w-12 h-12 bg-${neighborhood.color}-100 rounded-full flex items-center justify-center mr-4`}>
-                  <MapPin className={`w-6 h-6 text-${neighborhood.color}-600`} />
+                <div className={`w-12 h-12 ${colors.bg} rounded-full flex items-center justify-center mr-4`}>
+                  <MapPin className={`w-6 h-6 ${colors.text}`} />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">{neighborhood.name}</h3>
               </div>
@@ -201,26 +238,27 @@ export default function OCNeighborhoodsGuide() {
                 <h4 className="font-semibold mb-2">Key Highlights</h4>
                 <div className="flex flex-wrap gap-1">
                   {neighborhood.highlights.map((highlight, i) => (
-                    <Badge key={i} className={`bg-${neighborhood.color}-100 text-${neighborhood.color}-600 text-xs`}>
+                    <Badge key={i} className={`${colors.bg} ${colors.text} text-xs`}>
                       {highlight}
                     </Badge>
                   ))}
                 </div>
               </div>
 
-              <div className={`bg-${neighborhood.color}-50 p-3 rounded-lg mb-4`}>
+              <div className={`${colors.bgLight} p-3 rounded-lg mb-4`}>
                 <p className="text-sm font-medium text-slate-700">
                   <strong>Best For:</strong> {neighborhood.bestFor}
                 </p>
               </div>
 
               <Link href={`/areas/${neighborhood.name.toLowerCase().replace(' ', '-')}-mortgage-broker`}>
-                <Button className={`w-full bg-${neighborhood.color}-600 hover:bg-${neighborhood.color}-700 text-white`}>
+                <Button className={`w-full ${colors.buttonBg} ${colors.buttonHover} text-white`}>
                   Learn More About {neighborhood.name}
                 </Button>
               </Link>
             </div>
-          ))}
+          );
+          })}
         </div>
 
         {/* Detailed Comparison Table */}
@@ -352,9 +390,9 @@ export default function OCNeighborhoodsGuide() {
                 Start Neighborhood Analysis
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call Mo: (949) 822-9662
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

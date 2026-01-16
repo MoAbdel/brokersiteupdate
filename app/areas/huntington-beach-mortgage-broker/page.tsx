@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, Waves, Sun, TrendingUp, Users, Building } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Huntington Beach Mortgage | Home Loans & HELOC Rates | Mo Abdel NMLS #1426884',
-  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 822-9662.',
+  title: 'Huntington Beach Mortgage Broker | Lumin Lending - Orange County Mortgage Broker',
+  description: 'Huntington Beach home loans and beach property financing. Orange County mortgage specialist. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
   },
@@ -92,9 +92,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get HB Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -193,11 +193,11 @@ export default function HuntingtonBeachMortgageBrokerPage() {
           </div>
         </div>
 
-        {/* Why Huntington Beach Homeowners Choose Mo */}
+        {/* Why Huntington Beach Homeowners Choose Lumin Lending */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">
-              Why Huntington Beach Homeowners Choose Mo Abdel
+              Why Huntington Beach Homeowners Choose Lumin Lending
             </h2>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -348,9 +348,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get My HB Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>

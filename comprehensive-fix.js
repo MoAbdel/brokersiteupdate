@@ -28,8 +28,8 @@ function fixAllSyntaxErrors(filePath) {
   // Fix missing comma after closing } before alternates
   content = content.replace(/}\s*alternates:/g, "},\n  alternates:");
   
-  // Fix missing comma after closing } before other properties
-  content = content.replace(/}(\s*)([a-zA-Z_]+):/g, "},\n$1$2:");
+  // Fix missing comma after closing } before other properties (only at object level, not inside nested objects)
+  content = content.replace(/}(\s*\n\s*)([a-zA-Z_]+):/g, '},$1$2:');
   
   // Remove /page.tsx from canonical URLs
   content = content.replace(/canonical:\s*'([^']+)\/page\.tsx'/g, "canonical: '$1'");

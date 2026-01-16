@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { ExternalLink, TrendingUp, Home, DollarSign, BarChart3, FileText, Calculator, Database, RefreshCw } from "lucide-react";
+import { TrendingUp, Home, DollarSign, BarChart3, FileText, Calculator, Database, RefreshCw } from "lucide-react";
 import Link from "next/link";
 
 const dataSourceCategories = [
@@ -142,7 +142,7 @@ const quickUpdateTasks = [
 export default function WeeklyUpdatePage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState('');
-  const [lastUpdated, setLastUpdated] = useState(new Date().toLocaleDateString());
+  const [lastUpdated] = useState(new Date().toLocaleDateString());
 
   React.useEffect(() => {
     // Check if already authenticated (from main admin page)

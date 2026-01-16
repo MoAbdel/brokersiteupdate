@@ -212,8 +212,8 @@ export default function ConventionalLoansOrangeCounty() {
               Orange County Conventional vs FHA Mortgage Comparison
             </h2>
             <p className="text-xl text-slate-600">
-              Understanding the key differences can help you choose the right loan program. Learn more about 
-              <Link href="/fha-loans-orange-county" className="text-blue-600 hover:text-blue-700 underline">FHA loan details</Link> or 
+              Understanding the key differences can help you choose the right loan program. Learn more about{' '}
+              <Link href="/fha-loans-orange-county" className="text-blue-600 hover:text-blue-700 underline">FHA loan details</Link> or
               explore our <Link href="/guides/orange-county-home-buyer-guide" className="text-blue-600 hover:text-blue-700 underline">complete home buying guide</Link>.
             </p>
           </div>
@@ -323,7 +323,7 @@ export default function ConventionalLoansOrangeCounty() {
               },
               {
                 question: 'What is the 2026 conventional loan limit in Orange County?',
-                answer: 'The conforming loan limit for Orange County in 2026 is $1,266,300, as set by the Federal Housing Finance Agency. Loans above this amount are considered jumbo loans and have different requirements and rates. Learn more about our <a href="/loan-programs/jumbo-loans" className="text-blue-600 hover:text-blue-700 underline">jumbo loan options</a>.'
+                answer: 'The conforming loan limit for Orange County in 2026 is $1,266,300, as set by the Federal Housing Finance Agency. Loans above this amount are considered jumbo loans and have different requirements and rates.'
               },
               {
                 question: 'Can I use a conventional loan for investment property?',
@@ -361,9 +361,9 @@ export default function ConventionalLoansOrangeCounty() {
                 Start Your Application
               </Button>
             </Link>
-            <Link href="tel:+19498229662">
+            <Link href="tel:+19495372357">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </Link>
           </div>

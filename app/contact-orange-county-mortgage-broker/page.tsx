@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import { Phone, Mail, MapPin, Clock, Shield, Star, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
@@ -163,7 +162,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
 
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662" className="inline-flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700">
+              <a href="tel:+19498229662" className="inline-flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700">
                 <Phone className="w-6 h-6 mr-2" />
                 (949) 822-9662
               </a>
@@ -221,7 +220,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Call or Text</h3>
-                      <a href="tel:(949) 822-9662" className="text-blue-600 hover:text-blue-700 text-xl font-bold">
+                      <a href="tel:+19498229662" className="text-blue-600 hover:text-blue-700 text-xl font-bold">
                         (949) 822-9662
                       </a>
                       <p className="text-sm text-slate-600">Available 24/7 - Call anytime</p>
@@ -398,7 +397,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   Time-sensitive mortgage questions? I'm available 24/7 for urgent inquiries.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:(949) 822-9662">
+                  <a href="tel:+19498229662">
                     <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold">
                       <Phone className="w-5 h-5 mr-2" />
                       Call Now: (949) 822-9662

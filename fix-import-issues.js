@@ -29,15 +29,17 @@ function fixImportIssues(filePath) {
   let fixed = false;
   
   // Fix malformed imports like:
-  // import { 
+  // import {
   // import { generatePageMetadata } from '@/lib/canonical';Button } from '@/components/ui/Button';
   const badImportPattern = /import\s*{\s*\nimport\s*{\s*generatePageMetadata\s*}\s*from\s*'@\/lib\/canonical';([^}]+)}\s*from\s*'@\/components\/ui\/(\w+)';/g;
-  
-  if (badImportPattern.test(content)) {
-    content = content.replace(badImportPattern, (match, importContent, componentName) => {
-      return `import { ${importContent.trim()} } from '@/components/ui/${componentName}';\nimport { generatePageMetadata } from '@/lib/canonical';`;
-    });
+
+  const newContent = content.replace(badImportPattern, (match, importContent, componentName) => {
     fixed = true;
+    return `import { ${importContent.trim()} } from '@/components/ui/${componentName}';\nimport { generatePageMetadata } from '@/lib/canonical';`;
+  });
+
+  if (fixed) {
+    content = newContent;
     console.log(`Fixed malformed import in: ${filePath}`);
   }
   

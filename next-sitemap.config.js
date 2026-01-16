@@ -3,6 +3,8 @@ module.exports = {
   siteUrl: 'https://www.mothebroker.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
+  // Next.js 15 App Router only - no pages directory
+  outDir: 'public',
   exclude: [
     '/admin/*',
     '/api/*',
@@ -16,10 +18,6 @@ module.exports = {
         allow: '/',
         disallow: ['/admin/', '/api/', '/dashboard/']
       }
-    ],
-    additionalSitemaps: [
-      'https://www.mothebroker.com/sitemap.xml',
-      'https://www.mothebroker.com/sitemap-images.xml'
     ]
   },
   transform: async (config, path) => {

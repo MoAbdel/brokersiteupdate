@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 import { fbTrack, fbTrackCustom } from '@/components/FacebookPixel';
 
@@ -12,7 +12,7 @@ export const useFacebookTracking = () => {
     if (pathname) {
       // Standard PageView is already tracked by FacebookPixel component
       // Add custom tracking for specific pages
-      
+
       if (pathname === '/contact') {
         fbTrackCustom('ViewContent', {
           content_name: 'Contact Page',
@@ -20,7 +20,7 @@ export const useFacebookTracking = () => {
         });
       } else if (pathname === '/calculator') {
         fbTrackCustom('ViewContent', {
-          content_name: 'pricing Calculator',
+          content_name: 'Pricing Calculator',
           content_category: 'calculator'
         });
       } else if (pathname.includes('loan') || pathname.includes('program')) {
@@ -38,29 +38,29 @@ export const useFacebookTracking = () => {
   }, [pathname]);
 
   // Function to track button clicks and interactions
-  const trackInteraction = (action: string, category: string, value?: number) => {
+  const trackInteraction = useCallback((action: string, category: string, value?: number) => {
     fbTrackCustom('CustomInteraction', {
       action,
       category,
       value: value || 0
     });
-  };
+  }, []);
 
   // Function to track phone calls
-  const trackPhoneCall = () => {
+  const trackPhoneCall = useCallback(() => {
     fbTrack('Contact', {
       content_name: 'Phone Call',
       content_category: 'contact'
     });
-  };
+  }, []);
 
   // Function to track calculator usage
-  const trackCalculatorUse = (calculatorType: string) => {
+  const trackCalculatorUse = useCallback((calculatorType: string) => {
     fbTrackCustom('CalculatorUse', {
       calculator_type: calculatorType,
       content_category: 'engagement'
     });
-  };
+  }, []);
 
   return {
     trackInteraction,

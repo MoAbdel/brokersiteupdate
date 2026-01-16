@@ -31,15 +31,20 @@ function auditImagesInFile(filePath) {
     
     imgMatches.forEach((imgTag, index) => {
       const hasAlt = imgTag.includes('alt=');
-      const srcMatch = imgTag.match(/src=["']([^"']+)["']/);
-      const altMatch = imgTag.match(/alt=["']([^"']*)["']/);
-      
+      const srcMatch = imgTag.match(/src=["']([^"']+)["']/) || imgTag.match(/src=\{([^}]+)\}/);
+      const altMatch = imgTag.match(/alt=["']([^"']*)["']/) || imgTag.match(/alt=\{([^}]+)\}/);
+
+      // Check for dynamic alt (JSX expression)
+      const isDynamicAlt = altMatch && altMatch[0].startsWith('alt={');
+      const altValue = altMatch ? altMatch[1] : null;
+
       results.push({
         type: 'img',
         tag: imgTag,
         src: srcMatch ? srcMatch[1] : 'no src',
-        alt: altMatch ? altMatch[1] : null,
+        alt: isDynamicAlt ? `{${altValue}}` : altValue,
         hasAlt: hasAlt,
+        isDynamic: isDynamicAlt,
         issue: !hasAlt ? 'Missing alt attribute' : null
       });
     });
@@ -50,15 +55,20 @@ function auditImagesInFile(filePath) {
     
     imageMatches.forEach((imageTag, index) => {
       const hasAlt = imageTag.includes('alt=');
-      const srcMatch = imageTag.match(/src=["']([^"']+)["']/);
-      const altMatch = imageTag.match(/alt=["']([^"']*)["']/);
-      
+      const srcMatch = imageTag.match(/src=["']([^"']+)["']/) || imageTag.match(/src=\{([^}]+)\}/);
+      const altMatch = imageTag.match(/alt=["']([^"']*)["']/) || imageTag.match(/alt=\{([^}]+)\}/);
+
+      // Check for dynamic alt (JSX expression)
+      const isDynamicAlt = altMatch && altMatch[0].startsWith('alt={');
+      const altValue = altMatch ? altMatch[1] : null;
+
       results.push({
         type: 'Image',
         tag: imageTag.substring(0, 200) + (imageTag.length > 200 ? '...' : ''),
         src: srcMatch ? srcMatch[1] : 'no src',
-        alt: altMatch ? altMatch[1] : null,
+        alt: isDynamicAlt ? `{${altValue}}` : altValue,
         hasAlt: hasAlt,
+        isDynamic: isDynamicAlt,
         issue: !hasAlt ? 'Missing alt attribute' : null
       });
     });
@@ -92,6 +102,8 @@ function auditImages() {
         if (result.hasAlt) {
           if (result.alt === '') {
             console.log(`    ✅ Alt attribute: "" (empty for decorative image)`);
+          } else if (result.isDynamic) {
+            console.log(`    ✅ Alt attribute: ${result.alt} (dynamic)`);
           } else {
             console.log(`    ✅ Alt attribute: "${result.alt}"`);
           }

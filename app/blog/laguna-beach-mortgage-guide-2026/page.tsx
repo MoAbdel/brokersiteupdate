@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Laguna Beach Mortgage Guide 2026: Coastal Home Financing Options',
-    description: 'Expert mortgage guidance for Laguna Beach properties. Discover wholesale pricing advantages for luxury coastal homes and competitive financing solutions.',
-    keywords: ['Laguna Beach mortgage broker', 'Laguna Beach home loans', 'Laguna Beach refinance', 'coastal property financing'],
+  title: 'Laguna Beach Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2026',
+  },
 };
 
 export default function LagunaBeachMortgageGuidePage() {

@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Laguna Niguel Mortgage pricing 2026 | Best Home Loan Rates | Mo Abdel NMLS #1426884',
-  description: 'Current Laguna Niguel mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Laguna Niguel CA. Licensed mortgage broker Mo Abdel (949) 822-9662.',
+  title: 'Laguna Niguel Mortgage Rates 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  description: 'Current Laguna Niguel mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Laguna Niguel CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Laguna Niguel Mortgage pricing 2026 | Best Home Loan Rates',
-    description: 'Current Laguna Niguel mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Laguna Niguel CA.',
+    title: 'Laguna Niguel Mortgage Rates 2026 | Best Home Loan Rates CA',
+    description: 'Current Laguna Niguel mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Laguna Niguel CA.',
     type: 'website',
   },
   alternates: {
@@ -39,7 +39,7 @@ const lagunaNiguelData = {
     'Hillside views',
     'Luxury suburban lifestyle'
   ],
-  keywordPhrase: 'Laguna Niguel mortgage pricing'
+  keywordPhrase: 'Laguna Niguel mortgage rates'
 };
 
 export default function LagunaNiguelMortgageRatesPage() {

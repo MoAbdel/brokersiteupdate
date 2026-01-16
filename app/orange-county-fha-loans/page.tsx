@@ -159,7 +159,7 @@ export default function OrangeCountyFHALoansPage() {
                 <p className="text-blue-100">Get pre-approved in Orange County today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:(949) 822-9662">
+                <a href="tel:+19498229662">
                   <Button className="bg-white text-blue-600 hover:bg-blue-50">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662

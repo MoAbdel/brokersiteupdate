@@ -159,7 +159,7 @@ export default function OrangeCountyJumboLoansPage() {
                 <p className="text-purple-100">Luxury home financing specialist serving Orange County</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:(949) 822-9662">
+                <a href="tel:+19498229662">
                   <Button className="bg-white text-purple-600 hover:bg-purple-50">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662
@@ -259,12 +259,12 @@ export default function OrangeCountyJumboLoansPage() {
                     <p className="mb-4">
                       <strong>Orange County Jumbo Loan Landscape:</strong>
                     </p>
-                    <ul className="space-y-2 mb-4">
-                      <li>• Loan amounts: $1,089,301 to $10+ million</li>
-                      <li>• Down payment: Typically 10-20% minimum</li>
-                      <li>• Credit score: 700+ recommended</li>
-                      <li>• Debt-to-income: Usually up to 50%</li>
-                      <li>• Cash reserves: 2-6 months typically required</li>
+                    <ul className="space-y-2 mb-4 list-disc list-inside">
+                      <li>Loan amounts: $1,089,301 to $10+ million</li>
+                      <li>Down payment: Typically 10-20% minimum</li>
+                      <li>Credit score: 700+ recommended</li>
+                      <li>Debt-to-income: Usually up to 50%</li>
+                      <li>Cash reserves: 2-6 months typically required</li>
                     </ul>
                   </div>
                 </CardContent>

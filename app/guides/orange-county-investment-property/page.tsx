@@ -1,7 +1,16 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Building, TrendingUp, DollarSign, MapPin, Calculator, Phone, Home, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+
+export const metadata: Metadata = {
+  title: 'Orange County Investment Property Guide 2026 | Real Estate Investing',
+  description: 'Complete guide to buying investment properties in Orange County. Market analysis, DSCR loans, cap rates, rental yields, and financing strategies for real estate investors.',
+  alternates: {
+    canonical: 'https://www.mothebroker.com/guides/orange-county-investment-property',
+  },
+};
 
 export default function OrangeCountyInvestmentPropertyGuide() {
   const investmentAreas = [

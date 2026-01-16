@@ -1,9 +1,6 @@
 'use client';
 
-import React from 'react';
 import Image from 'next/image';
-import { Badge } from '@/components/ui/Badge';
-import { Award, Users, Clock } from 'lucide-react';
 
 export default function AboutSnippet() {
   return (

@@ -5,10 +5,10 @@ const path = require('path');
 const metadataUpdates = [
   // VA Loans
   {
-    file: './app/loan-programs/va-loans/page.tsx',
+    file: './app/va-loans-orange-county/page.tsx',
     title: 'VA Loans | Mo Abdel - Orange County Mortgage Broker',
     description: 'VA loans in Orange County with zero down payment for veterans. Competitive rates, no PMI required. Licensed broker NMLS #1426884.',
-    canonical: '/loan-programs/va-loans'
+    canonical: '/va-loans-orange-county'
   },
   // Conventional Loans
   {
@@ -77,12 +77,7 @@ const metadataUpdates = [
     description: 'Mission Viejo home loans and refinancing. Lake Mission Viejo area specialist. Orange County broker NMLS #1426884.',
     canonical: '/areas/mission-viejo-mortgage-broker'
   },
-  {
-    file: './app/areas/laguna-beach-mortgage-broker/page.tsx',
-    title: 'Laguna Beach Mortgage Broker | Mo Abdel - Orange County Mortgage Broker',
-    description: 'Laguna Beach luxury coastal property financing. Jumbo loans for Orange County beach homes. Licensed broker NMLS #1426884.',
-    canonical: '/areas/laguna-beach-mortgage-broker'
-  },
+  // Note: laguna-beach-mortgage-broker uses CityPageTemplate with generateCityMetadata() - update via CityPageTemplate.tsx
   // Guides
   {
     file: './app/guides/orange-county-refinancing-guide/page.tsx',

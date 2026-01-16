@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { Home, DollarSign, GraduationCap, Shield, Car, MapPin, TrendingUp, Users } from 'lucide-react';
+import { Home, GraduationCap, Car, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Irvine vs Newport Beach Home Buying Guide 2026 | Best Neighborhoods Orange County',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-15T10:00:00Z',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
+    canonical: 'https://www.luminlending.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
   },
 };
 
@@ -42,9 +42,9 @@ export default function IrvineVsNewportBeachGuide() {
                 Get Pre-Approved Today
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
-                Call Mo: (949) 822-9662
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>
@@ -299,9 +299,9 @@ export default function IrvineVsNewportBeachGuide() {
                 Start My Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call Mo: (949) 822-9662
+                Call Mo: (949) 537-2357
               </Button>
             </a>
           </div>

@@ -23,15 +23,6 @@ export async function GET() {
 }
 
 export async function POST() {
-  try {
-    // This endpoint could be used to trigger a more intensive scraping operation
-    const response = await GET();
-    return response;
-  } catch (error) {
-    console.error('Error in POST scraping insights:', error);
-    return NextResponse.json(
-      { success: false, error: 'Failed to scrape market insights' },
-      { status: 500 }
-    );
-  }
+  // POST endpoint delegates to GET for scraping operations
+  return GET();
 }

@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
   description:
     'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
-  alternates: { canonical: 'https://mothebroker.com/areas/newport-beach-neighborhoods' },
+  alternates: { canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Neighborhoods Mortgage Guide | Luxury Area Financing',
@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Newport Beach Neighborhoods',
     areaServed: 'Newport Beach, Orange County, CA',
     url: 'https://mothebroker.com/areas/newport-beach-neighborhoods',
-    telephone: '+1-949-735-4000',
+    telephone: '+1-949-537-2357',
     address: { '@type': 'PostalAddress', addressLocality: 'Newport Beach', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to luxury condos.',
@@ -183,11 +183,11 @@ export default function Page() {
 
   const links = [
     { label: 'Newport Beach mortgage services', href: '/areas/newport-beach' },
-    { label: 'Jumbo loan programs', href: '/programs/jumbo-loans' },
-    { label: 'HELOC options for luxury homes', href: '/heloc' },
-    { label: 'Investment property financing', href: '/programs/dscr-investment-loans' },
+    { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
+    { label: 'HELOC options for luxury homes', href: '/loan-programs/heloc' },
+    { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
-    { label: 'Orange County mortgage broker', href: '/mortgage-broker-orange-county' },
+    { label: 'Orange County mortgage broker', href: '/articles/best-mortgage-broker-orange-county' },
     { label: 'Mortgage insights and articles', href: '/articles' },
   ];
 

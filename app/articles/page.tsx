@@ -123,8 +123,6 @@ export default function ArticlesPage() {
     },
   ];
 
-  const categories = ['All', 'Mortgage Brokers', 'Refinancing', 'Jumbo Loans', 'First-Time Buyers', 'VA Loans', 'Local Guides'];
-
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
@@ -199,7 +197,7 @@ export default function ArticlesPage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-3 gap-8">
-              {articles.slice(1).map((article, index) => (
+              {articles.slice(1).map((article) => (
                 <Link
                   key={article.slug}
                   href={`/articles/${article.slug}`}

@@ -167,7 +167,7 @@ export class RateQuote {
   static async create(data: Omit<RateQuoteData, 'id' | 'created_at'>): Promise<RateQuoteData> {
     const newQuote: RateQuoteData = {
       ...data,
-      id: Math.random().toString(36).substr(2, 9),
+      id: Math.random().toString(36).substring(2, 11),
       created_at: new Date().toISOString(),
       status: data.status || 'new'
     };
@@ -211,7 +211,7 @@ export class MortgageRate {
   static async create(data: Omit<MortgageRateData, 'id' | 'created_at'>): Promise<MortgageRateData> {
     const newRate: MortgageRateData = {
       ...data,
-      id: Math.random().toString(36).substr(2, 9),
+      id: Math.random().toString(36).substring(2, 11),
       created_at: new Date().toISOString(),
       is_active: data.is_active ?? true
     };
@@ -254,7 +254,7 @@ export class MarketInsight {
   static async create(data: Omit<MarketInsightData, 'id' | 'created_at'>): Promise<MarketInsightData> {
     const newInsight: MarketInsightData = {
       ...data,
-      id: Math.random().toString(36).substr(2, 9),
+      id: Math.random().toString(36).substring(2, 11),
       created_at: new Date().toISOString(),
       display_order: data.display_order ?? 0
     };
@@ -306,7 +306,7 @@ export class NewsletterSubscription {
 
     const newSubscription: NewsletterSubscriptionData = {
       ...data,
-      id: Math.random().toString(36).substr(2, 9),
+      id: Math.random().toString(36).substring(2, 11),
       created_at: new Date().toISOString(),
       isActive: data.isActive ?? true
     };

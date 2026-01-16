@@ -10,11 +10,11 @@ export const metadata: Metadata = {
         title: 'Wholesale vs. Retail Mortgages Comparison | Mo Abdel - Lumin Lending',
         description: 'Stop overpaying for your mortgage. Discover the wholesale advantage and how brokers access more competitive pricing than big retail banks.',
         images: ['/images/mo-headshot.jpg'],
-        url: 'https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison',
+        url: 'https://www.luminlending.com/articles/wholesale-vs-retail-mortgages-comparison',
         type: 'article',
     },
     alternates: {
-        canonical: 'https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison',
+        canonical: 'https://www.luminlending.com/articles/wholesale-vs-retail-mortgages-comparison',
     },
 };
 

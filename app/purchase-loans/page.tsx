@@ -132,12 +132,12 @@ export default function PurchaseLoansPage() {
               As your local mortgage broker, I'll help you navigate the process and secure favorable financing for your dream home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662" className="flex items-center">
+              <a href="tel:(949) 822-9662">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Pre-Approved Today
-                </a>
-              </Button>
+                </Button>
+              </a>
               <Link href="/calculator">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Calculate Payments
@@ -302,12 +302,12 @@ export default function PurchaseLoansPage() {
             </div>
 
             <div className="text-center mt-8">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662" className="flex items-center">
+              <a href="tel:(949) 822-9662">
+                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg flex items-center">
                   <Clock className="w-5 h-5 mr-2" />
                   Start Your Pre-Approval (24 Hour Turnaround)
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
           </section>
 
@@ -378,11 +378,11 @@ export default function PurchaseLoansPage() {
               Get your free pre-approval consultation and discover what you can afford in Orange County's market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 822-9662">
+                <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call (949) 822-9662
-                </a>
-              </Button>
+                </Button>
+              </a>
               <Link href="/contact">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                   Schedule Consultation

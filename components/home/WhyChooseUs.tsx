@@ -1,9 +1,7 @@
 import React from "react";
-import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
-import { GitCompareArrows, Zap, Shield, Star, Award, TrendingUp, ArrowRight } from "lucide-react";
+import { GitCompareArrows, Zap, Shield, Star, Award, TrendingUp } from "lucide-react";
 
 const features = [
   {
@@ -76,8 +74,6 @@ export default function WhyChooseUs() {
             </Card>
           ))}
         </div>
-
-
       </div>
     </section>
   );

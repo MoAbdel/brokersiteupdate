@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, GraduationCap, Shield, TrendingUp, Users, Building, TreePine } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Mission Viejo Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Mission Viejo mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Saddleback Valley, Lake Mission Viejo area. Call (949) 822-9662.',
+  title: 'Mission Viejo Mortgage Broker | Mo Abdel - Orange County Mortgage Broker',
+  description: 'Mission Viejo home loans and refinancing. Lake Mission Viejo area specialist. Orange County broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/mission-viejo-mortgage-broker',
   },
@@ -93,9 +93,9 @@ export default function MissionViejoMortgageBrokerPage() {
                 Get Mission Viejo Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
@@ -402,9 +402,9 @@ export default function MissionViejoMortgageBrokerPage() {
                 Get My Mission Viejo Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 537-2357">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 537-2357
               </Button>
             </a>
           </div>
