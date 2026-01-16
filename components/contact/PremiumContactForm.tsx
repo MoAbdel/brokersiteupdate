@@ -396,7 +396,7 @@ export default function PremiumContactForm() {
                   className="space-y-6"
                 >
                   <div>
-                    <label className="block text-sm text-slate-500 mb-3">Which city are you looking in?</label>
+                    <label className="block text-sm text-slate-500 mb-3">Which city are you looking in? (Optional)</label>
                     <div className="relative">
                       <select
                         value={formData.city}
