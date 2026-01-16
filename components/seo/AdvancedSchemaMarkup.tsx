@@ -34,7 +34,7 @@ interface SchemaProps {
 
 export default function AdvancedSchemaMarkup({
   type,
-  name = "Mo Abdel - California Mortgage Broker | West Capital Lending",
+  name = "Mo Abdel - California Mortgage Broker | Lumin Lending",
   description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://mothebroker.com",
   telephone = "+19498229662",
@@ -63,7 +63,7 @@ export default function AdvancedSchemaMarkup({
     "Mo-Fr 08:00-18:00"
   ],
   sameAs = [
-    "https://westcapitallending.com/team/mo-abdel",
+    "https://luminglending.com/team/mo-abdel",
     "https://www.nmlsconsumeraccess.org"
   ],
   aggregateRating = {
@@ -73,7 +73,7 @@ export default function AdvancedSchemaMarkup({
   founder = {
     name: "Mo Abdel",
     jobTitle: "Branch Manager",
-    sameAs: ["https://westcapitallending.com/team/mo-abdel"]
+    sameAs: ["https://luminglending.com/team/mo-abdel"]
   }
 }: SchemaProps) {
 
@@ -112,8 +112,8 @@ export default function AdvancedSchemaMarkup({
           },
           memberOf: {
             "@type": "Organization",
-            name: "West Capital Lending, Inc.",
-            url: "https://westcapitallending.com"
+            name: "Lumin Lending, Inc.",
+            url: "https://luminglending.com"
           },
           hasCredential: {
             "@type": "EducationalOccupationalCredential",

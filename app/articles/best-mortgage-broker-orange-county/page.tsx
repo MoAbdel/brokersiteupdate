@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Best Mortgage Broker in Orange County | Expert Local Guidance',
   description: 'Discover why Mo Abdel is the best mortgage broker in Orange County. Save thousands with expert rate negotiation, 200+ lender network, and personalized service for your home financing needs.',
   openGraph: {
-    title: 'Best Mortgage Broker in Orange County | Mo Abdel - West Capital Lending',
+    title: 'Best Mortgage Broker in Orange County | Mo Abdel - Lumin Lending',
     description: 'Find the best mortgage broker in Orange County. Expert guidance, Competitive pricing, and personalized service for all your home financing needs.',
     images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/best-mortgage-broker-orange-county',
@@ -38,7 +38,7 @@ export default function BestMortgageBrokerArticle() {
             "dateModified": "2026-01-09",
             "publisher": {
               "@type": "Organization",
-              "name": "Mo Abdel - West Capital Lending",
+              "name": "Mo Abdel - Lumin Lending",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://www.mothebroker.com/images/mo-logo-white.webp"
@@ -455,7 +455,7 @@ export default function BestMortgageBrokerArticle() {
                   <img src="/images/mo-headshot.jpg" alt="Mo Abdel" className="w-20 h-20 rounded-full object-cover" />
                   <div>
                     <p className="text-gray-700">
-                      <strong>Mo Abdel (NMLS #1426884)</strong> is a trusted mortgage broker with West Capital Lending, specializing in Orange County real estate financing including refinance cash-out loans, HELOCs, and HELOANs. Mo combines local market expertise with access to 200+ lenders to secure optimal financing for his clients.
+                      <strong>Mo Abdel (NMLS #1426884)</strong> is a trusted mortgage broker with Lumin Lending, specializing in Orange County real estate financing including refinance cash-out loans, HELOCs, and HELOANs. Mo combines local market expertise with access to 200+ lenders to secure optimal financing for his clients.
                     </p>
                     <div className="mt-3 flex gap-4">
                       <Link href="/about" className="text-blue-600 hover:underline">Learn More</Link>

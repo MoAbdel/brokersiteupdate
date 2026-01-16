@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Orange County Mortgage Market Update: August 2026 Wholesale Analysis',
     description: 'Stay ahead of the market with our August 2026 analysis of Orange County mortgage trends. Compare wholesale vs. retail dynamics and discover strategic timing.',
     openGraph: {
-        title: 'OC Mortgage Market Update August 2026 | Mo Abdel - West Capital Lending',
+        title: 'OC Mortgage Market Update August 2026 | Mo Abdel - Lumin Lending',
         description: 'Expert analysis of current Orange County mortgage market dynamics. Learn why wholesale channels provide a critical advantage in the August 2026 market.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2026',

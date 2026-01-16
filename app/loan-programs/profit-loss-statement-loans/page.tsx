@@ -531,7 +531,7 @@ export default function ProfitLossStatementLoansPage() {
             </a>
           </div>
           <p className="text-sm text-purple-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • P&L Statement loan specialist
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • P&L Statement loan specialist
           </p>
         </div>
 
@@ -549,7 +549,7 @@ export default function ProfitLossStatementLoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

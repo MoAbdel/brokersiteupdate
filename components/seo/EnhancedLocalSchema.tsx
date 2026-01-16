@@ -61,8 +61,8 @@ export default function EnhancedLocalSchema({
       },
       "memberOf": {
         "@type": "Organization",
-        "name": "West Capital Lending",
-        "identifier": "Company NMLS #1660690",
+        "name": "Lumin Lending",
+        "identifier": "Company NMLS #2716106",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "5559 S Sossaman Rd, Bldg 1 Ste 101",

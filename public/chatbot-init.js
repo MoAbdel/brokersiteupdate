@@ -353,7 +353,7 @@
     }
     
     if (msg.includes('contact') || msg.includes('phone') || msg.includes('call')) {
-      return 'You can reach Mo Abdel directly at <a href="tel:9498229662" style="color: #2563eb;">(949) 822-9662</a> (call or text anytime). He\\'s available 24/7 and typically responds within 1 business day. Mo is a licensed mortgage broker (NMLS #1426884) with West Capital Lending.';
+      return 'You can reach Mo Abdel directly at <a href="tel:9498229662" style="color: #2563eb;">(949) 822-9662</a> (call or text anytime). He\\'s available 24/7 and typically responds within 1 business day. Mo is a licensed mortgage broker (NMLS #1426884) with Lumin Lending.';
     }
     
     if (msg.includes('first time') || msg.includes('first-time')) {

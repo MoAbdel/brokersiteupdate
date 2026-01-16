@@ -7,7 +7,7 @@ import { DollarSign, Calendar, Shield, CheckCircle, AlertCircle, TrendingUp } fr
 
 export const metadata: Metadata = {
   title: 'HELOAN (Home Equity Loan) - Orange County | Mo The Mortgage Broker',
-  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
+  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloan',
   },
@@ -332,7 +332,7 @@ export default function HELOANPage() {
             </a>
           </div>
           <p className="text-sm text-green-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -350,7 +350,7 @@ export default function HELOANPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

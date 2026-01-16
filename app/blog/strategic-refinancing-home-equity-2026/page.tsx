@@ -22,7 +22,7 @@ export default function StrategicRefinancing2026() {
         },
         "publisher": {
             "@type": "Organization",
-            "name": "West Capital Lending, Inc.",
+            "name": "Lumin Lending, Inc.",
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
@@ -192,7 +192,7 @@ export default function StrategicRefinancing2026() {
                 </div>
 
                 <footer className="mt-16 pt-8 border-t border-gray-200 text-sm text-gray-600">
-                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | West Capital Lending, Inc. | NMLS #1850</p>
+                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850</p>
                     <p className="mb-4">Licensed in: CA, TX, FL, AZ, WA, VA, CO</p>
                     <p className="italic">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

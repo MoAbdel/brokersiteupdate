@@ -7,7 +7,7 @@ import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign } from '
 
 export const metadata: Metadata = {
   title: 'Conventional Loans Orange County | 3% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Conventional loans in Orange County with Competitive pricing and flexible terms. 3% down payment options available. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
+  description: 'Conventional loans in Orange County with Competitive pricing and flexible terms. 3% down payment options available. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
   },
@@ -503,7 +503,7 @@ export default function ConventionalLoansPage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -521,7 +521,7 @@ export default function ConventionalLoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

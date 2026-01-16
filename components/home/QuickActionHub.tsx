@@ -26,7 +26,7 @@ export default function QuickActionHub() {
     {
       icon: FileCheck,
       title: 'Digital HELOC Application',
-      href: 'https://heloc.westcapitallending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b',
+      href: 'https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b',
       external: true,
     },
     {
@@ -49,7 +49,7 @@ export default function QuickActionHub() {
     {
       icon: Globe,
       title: 'WestCapitalLending.com',
-      href: 'https://westcapitallending.com/team/mo-abdel',
+      href: 'https://luminglending.com/team/mo-abdel',
       external: true,
     },
     {

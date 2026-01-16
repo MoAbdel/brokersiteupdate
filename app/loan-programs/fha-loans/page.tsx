@@ -8,7 +8,7 @@ import { Home, Shield, Users, CheckCircle, AlertCircle, DollarSign } from 'lucid
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County | 3.5% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
+  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
   },
@@ -392,7 +392,7 @@ export default function FHALoansPage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -410,7 +410,7 @@ export default function FHALoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

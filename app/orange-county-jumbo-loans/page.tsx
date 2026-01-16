@@ -29,8 +29,8 @@ const jumboLoansSchema = {
     "jobTitle": "Licensed Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
-      "name": "West Capital Lending",
-      "identifier": "NMLS #1660690"
+      "name": "Lumin Lending",
+      "identifier": "NMLS #2716106"
     }
   },
   "areaServed": [

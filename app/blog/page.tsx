@@ -196,7 +196,7 @@ export default function BlogIndexPage() {
 
                 <div className="mt-12 text-center text-sm text-gray-600">
                     <p>
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | West Capital Lending, Inc. | NMLS #1850
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850
                     </p>
                     <p className="mt-2">
                         Licensed in: CA, TX, FL, AZ, WA, VA, CO

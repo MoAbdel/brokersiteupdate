@@ -640,7 +640,7 @@ export default function JumboLoansOrangeCountyPage() {
               </a>
             </div>
             <p className="text-sm text-purple-200 mt-4">
-              Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Specializing in Orange County luxury home financing
+              Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Specializing in Orange County luxury home financing
             </p>
           </div>
         </div>

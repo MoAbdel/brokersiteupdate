@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders',
     description: 'Navigate the Newport Beach luxury real estate market with our comprehensive 2026 mortgage guide. Discover wholesale pricing, jumbo loan strategies, and expert local advice.',
     openGraph: {
-        title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - West Capital Lending',
+        title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - Lumin Lending',
         description: 'Expert mortgage guidance for Newport Beach homebuyers. Access wholesale pricing and specialized loan programs for coastal luxury properties.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2026',

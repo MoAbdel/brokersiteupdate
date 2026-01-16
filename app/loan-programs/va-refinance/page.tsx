@@ -7,7 +7,7 @@ import { Shield, Star, Users, CheckCircle, AlertCircle, Flag } from 'lucide-reac
 
 export const metadata: Metadata = {
   title: 'VA Refinance Orange County | 100% Cash-Out | Mo The Mortgage Broker NMLS #1426884',
-  description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
+  description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/va-refinance',
   },
@@ -429,7 +429,7 @@ export default function VALoansPage() {
             </a>
           </div>
           <p className="text-sm text-red-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Proudly serving our veterans and military families
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Proudly serving our veterans and military families
           </p>
         </div>
 
@@ -447,7 +447,7 @@ export default function VALoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Wholesale vs. Retail Mortgages: The Pricing Advantage in 2026',
     description: 'Understand the critical difference between wholesale and retail mortgage channels. Learn why working with a broker can provide superior pricing for your home loan.',
     openGraph: {
-        title: 'Wholesale vs. Retail Mortgages Comparison | Mo Abdel - West Capital Lending',
+        title: 'Wholesale vs. Retail Mortgages Comparison | Mo Abdel - Lumin Lending',
         description: 'Stop overpaying for your mortgage. Discover the wholesale advantage and how brokers access more competitive pricing than big retail banks.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison',

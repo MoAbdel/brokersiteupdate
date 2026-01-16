@@ -396,7 +396,7 @@ export default function BankStatementLoansPage() {
             </a>
           </div>
           <p className="text-orange-100 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Non-QM Specialist
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Non-QM Specialist
           </p>
         </div>
 
@@ -414,7 +414,7 @@ export default function BankStatementLoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

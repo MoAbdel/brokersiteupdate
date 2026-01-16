@@ -18,7 +18,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-700 leading-relaxed max-w-3xl mx-auto font-medium">
-              Mo Abdel | Mortgage Broker | West Capital Lending
+              Mo Abdel | Mortgage Broker | Lumin Lending
             </p>
 
             <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
@@ -30,9 +30,9 @@ export default function HeroSection() {
               <div className="flex flex-col md:flex-row items-center justify-center text-xs md:text-sm text-slate-700 md:divide-x divide-slate-200">
                 <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">NMLS #1426884</span>
                 <div className="h-[1px] w-12 bg-slate-200 md:hidden my-1" />
-                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">Company NMLS #1566096</span>
+                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">Company NMLS #2716106</span>
                 <div className="h-[1px] w-12 bg-slate-200 md:hidden my-1" />
-                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">CA DRE #02022356</span>
+                <span className="font-semibold text-slate-900 py-2 md:py-0 md:px-4">CA DRE #02291443</span>
               </div>
             </div>
           </div>

@@ -5,8 +5,8 @@ import { Home, TrendingUp, Shield, DollarSign, CheckCircle, ArrowRight, Calculat
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | West Capital Lending',
-  description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #1566096.',
+  title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | Lumin Lending',
+  description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
     canonical: 'https://www.mothebroker.com/heloc-specialist-orange-county',
   },
@@ -31,7 +31,7 @@ export default function HELOCSpecialistOrangeCounty() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://heloc.westcapitallending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
+                href="https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -280,7 +280,7 @@ export default function HELOCSpecialistOrangeCounty() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://heloc.westcapitallending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
+              href="https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -296,7 +296,7 @@ export default function HELOCSpecialistOrangeCounty() {
             </a>
           </div>
           <p className="text-sm text-blue-100 mt-6">
-            Mo Abdel, NMLS #1426884 | West Capital Lending, Inc. NMLS #1566096 | CA DRE #02022356
+            Mo Abdel, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | CA DRE #02291443
           </p>
         </div>
       </section>

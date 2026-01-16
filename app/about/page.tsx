@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Heart, Home, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Orange County Native | Mortgage Broker',
-  description: 'Meet Mo Abdel - born and raised in Orange County, passionate about helping local families achieve homeownership. NMLS #1426884 with West Capital Lending.',
+  description: 'Meet Mo Abdel - born and raised in Orange County, passionate about helping local families achieve homeownership. NMLS #1426884 with Lumin Lending.',
 };
 
 export default function AboutPage() {
@@ -21,8 +21,8 @@ export default function AboutPage() {
             <div className="text-white order-2 lg:order-1">
               <div className="mb-6">
                 <Image
-                  src="/images/west-capital-logo.png"
-                  alt="West Capital Lending"
+                  src="/images/lumin-lending-logo.png"
+                  alt="Lumin Lending"
                   width={200}
                   height={50}
                   className="h-10 w-auto brightness-0 invert"
@@ -35,7 +35,7 @@ export default function AboutPage() {
                 Mortgage Broker | NMLS #1426884
               </p>
               <p className="text-lg text-slate-400 mb-8">
-                Company NMLS #1566096 | CA DRE #02022356
+                Company NMLS #2716106 | CA DRE #02291443
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact">
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </p>
 
             <p className="leading-relaxed mb-6">
-              Today, I work with West Capital Lending to give my clients access to over 100 wholesale lenders. This means I can shop your loan across dozens of options to find the best rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
+              Today, I work with Lumin Lending to give my clients access to over 100 wholesale lenders. This means I can shop your loan across dozens of options to find the best rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
             </p>
 
             <p className="text-xl leading-relaxed font-medium text-slate-900">
@@ -152,14 +152,14 @@ export default function AboutPage() {
                 <ul className="space-y-2 text-slate-300">
                   <li>• NMLS #1426884</li>
                   <li>• Licensed in: CA, WA, VA, CO</li>
-                  <li>• CA DRE #02022356</li>
+                  <li>• CA DRE #02291443</li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-green-400">Company</h3>
                 <ul className="space-y-2 text-slate-300">
-                  <li>• West Capital Lending, Inc.</li>
-                  <li>• Company NMLS #1566096</li>
+                  <li>• Lumin Lending, Inc.</li>
+                  <li>• Company NMLS #2716106</li>
                   <li>• Irvine, California</li>
                 </ul>
               </div>

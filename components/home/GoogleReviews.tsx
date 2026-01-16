@@ -6,7 +6,7 @@ import Link from "next/link";
 const googleReviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Mo Abdel - West Capital Lending",
+  "name": "Mo Abdel - Lumin Lending",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Orange County Mortgage Refinance Specialist | Save Thousands',
   description: 'Expert Orange County mortgage refinance specialist helping homeowners reduce payments, access equity, and switch loan programs. Free consultation and Loan Analysis available.',
   openGraph: {
-    title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - West Capital Lending',
+    title: 'Orange County Mortgage Refinance Specialist | Mo Abdel - Lumin Lending',
     description: 'Refinance your Orange County home with an expert specialist. Lower payments, cash-out options, and personalized service.',
     images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/orange-county-mortgage-refinance-specialist',

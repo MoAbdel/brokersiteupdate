@@ -110,7 +110,7 @@ const contactSchema = {
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
     "https://www.instagram.com/mo_thebroker",
-    "https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest"
+    "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest"
   ]
 };
 
@@ -310,7 +310,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                       className="flex items-center justify-center p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors">
                       <span className="text-blue-600 font-medium">Facebook</span>
                     </a>
-                    <a href="https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest"
+                    <a href="https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center p-3 bg-red-50 hover:bg-red-100 rounded-lg transition-colors">
@@ -410,7 +410,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   </Button>
                 </div>
                 <p className="text-sm text-blue-200 mt-4">
-                  Licensed mortgage broker NMLS #1426884 • West Capital Lending
+                  Licensed mortgage broker NMLS #1426884 • Lumin Lending
                 </p>
               </CardContent>
             </Card>

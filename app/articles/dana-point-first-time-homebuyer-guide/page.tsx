@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Dana Point First-Time Homebuyer Guide: Programs & Qualification for 2026',
     description: 'Start your homeownership journey in Dana Point with our comprehensive 2026 guide. Discover first-time buyer programs, down payment assistance, and wholesale pricing.',
     openGraph: {
-        title: 'Dana Point First-Time Homebuyer Guide | Mo Abdel - West Capital Lending',
+        title: 'Dana Point First-Time Homebuyer Guide | Mo Abdel - Lumin Lending',
         description: 'Expert guidance for first-time buyers in Dana Point. Navigate the market with 2026 loan programs and competitive wholesale pricing.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/dana-point-first-time-homebuyer-guide',

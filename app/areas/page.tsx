@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, TrendingUp, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Service Areas | Local Mortgage Broker by City | West Capital Lending',
+  title: 'Orange County Service Areas | Local Mortgage Broker by City | Lumin Lending',
   description: 'Mo Abdel serves all Orange County cities as your local mortgage broker. Find lending programs, pricing and market insights for your specific OC area.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas',
@@ -281,7 +281,7 @@ export default function NeighborhoodGuidePage() {
               <div className="flex items-start">
                 <TrendingUp className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                 <div>
-                  <h3 className="font-bold text-slate-900">West Capital Lending Access</h3>
+                  <h3 className="font-bold text-slate-900">Lumin Lending Access</h3>
                   <p className="text-slate-600">Access to 200+ lenders means Better pricing and terms than retail banks</p>
                 </div>
               </div>
@@ -352,7 +352,7 @@ export default function NeighborhoodGuidePage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884
           </p>
         </div>
       </div>

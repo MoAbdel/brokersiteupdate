@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'Laguna Beach Jumbo Loan Guide: Luxury Home Financing Specialist',
     description: 'Expert jumbo loan guidance for Laguna Beach luxury real estate. Discover specialized financing options for coastal estates and high-value properties in 2026.',
     openGraph: {
-        title: 'Laguna Beach Jumbo Loan Guide | Mo Abdel - West Capital Lending',
+        title: 'Laguna Beach Jumbo Loan Guide | Mo Abdel - Lumin Lending',
         description: 'Finance your Laguna Beach dream home with expert jumbo loan guidance. Competitive pricing and flexible terms for high-value coastal properties.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/laguna-beach-jumbo-loan-guide',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Jumbo Loan Broker Orange County | Luxury Home Financing Expert',
   description: 'Expert jumbo loan broker in Orange County specializing in high-value property financing. Competitive pricing, flexible guidelines, and personalized service for luxury home purchases.',
   openGraph: {
-    title: 'Jumbo Loan Broker Orange County | Mo Abdel - West Capital Lending',
+    title: 'Jumbo Loan Broker Orange County | Mo Abdel - Lumin Lending',
     description: 'Finance your luxury Orange County home with expert jumbo loan guidance. Competitive pricing and flexible terms for high-value properties.',
     images: ['/images/mo-headshot.jpg'],
     url: 'https://www.mothebroker.com/articles/jumbo-loan-broker-orange-county',

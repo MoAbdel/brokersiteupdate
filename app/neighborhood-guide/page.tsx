@@ -292,7 +292,7 @@ export default function NeighborhoodGuidePage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884
           </p>
         </div>
       </div>

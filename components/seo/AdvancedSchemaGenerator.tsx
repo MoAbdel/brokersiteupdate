@@ -108,7 +108,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "category": "Mortgage Loan",
     "brand": {
       "@type": "Brand",
-      "name": "West Capital Lending"
+      "name": "Lumin Lending"
     },
     "additionalProperty": data.features?.map((feature: string) => ({
       "@type": "PropertyValue",

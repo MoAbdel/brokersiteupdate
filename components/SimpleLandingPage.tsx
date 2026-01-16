@@ -14,7 +14,7 @@ export default function SimpleLandingPage() {
       {/* Quick Action Hub */}
       <QuickActionHub />
 
-      {/* West Capital Advantage */}
+      {/* Lumin Lending Advantage */}
       <WestCapitalAdvantage />
 
       {/* Why Choose Us */}

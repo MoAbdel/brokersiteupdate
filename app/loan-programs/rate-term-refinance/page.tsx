@@ -7,7 +7,7 @@ import { TrendingDown, Calendar, Shield, CheckCircle, AlertCircle, Calculator } 
 
 export const metadata: Metadata = {
   title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
-  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through West Capital Lending. Call (949) 822-9662.',
+  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
   },
@@ -353,7 +353,7 @@ export default function RateTermRefinancePage() {
             </a>
           </div>
           <p className="text-sm text-green-200 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • Serving all of Orange County
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
 
@@ -371,7 +371,7 @@ export default function RateTermRefinancePage() {
             </p>
             <p>
               Loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

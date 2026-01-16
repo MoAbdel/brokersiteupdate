@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Overview</h2>
             <p className="text-slate-700 mb-4">
-              Mohammad Abdelfattah, NMLS #1426884, operating as a competitive mortgage broker with West Capital Lending,
+              Mohammad Abdelfattah, NMLS #1426884, operating as a competitive mortgage broker with Lumin Lending,
               is committed to protecting your privacy and personal information. This Privacy Policy
               explains how we collect, use, share, and protect your information when you use our website
               and mortgage services.
@@ -111,7 +111,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Lenders and Financial Institutions:</strong> To process your loan application</li>
               <li><strong>Service Providers:</strong> Credit agencies, appraisers, title companies, and other professionals necessary for loan processing</li>
               <li><strong>Regulatory Bodies:</strong> As required by law or regulation</li>
-              <li><strong>West Capital Lending:</strong> Our licensed mortgage company</li>
+              <li><strong>Lumin Lending:</strong> Our licensed mortgage company</li>
               <li><strong>Legal Authorities:</strong> When required by law or to protect our rights</li>
             </ul>
             <p className="text-slate-700">
@@ -222,7 +222,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
-                  West Capital Lending<br />
+                  Lumin Lending<br />
                   18301 Von Karman Ave Suite 820<br />
                   Irvine, CA 92612
                 </div>

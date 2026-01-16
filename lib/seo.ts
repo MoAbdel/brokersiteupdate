@@ -4,7 +4,7 @@ export const seoData = {
     description: "Licensed mortgage broker serving Orange County homeowners. Access over 200 wholesale lenders for competitive pricing, fast closings, and personalized refinance solutions. NMLS #1426884."
   },
   About: {
-    title: "About Mo Abdel | West Capital Lending Broker",
+    title: "About Mo Abdel | Lumin Lending Broker",
     description: "Meet Mo Abdel – licensed mortgage broker helping homeowners in CA, WA, VA & CO get better pricing, faster approvals, and more flexible refinance options. Specializing in Orange County home equity and refinancing."
   },
   Programs: {
@@ -45,11 +45,11 @@ export const structuredData = {
     ],
     "worksFor": {
       "@type": "Organization",
-      "name": "West Capital Lending",
-      "url": "https://westcapitallending.com",
+      "name": "Lumin Lending",
+      "url": "https://luminglending.com",
       "sameAs": [
-        "https://www.linkedin.com/company/west-capital-lending/",
-        "https://www.crunchbase.com/organization/west-capital-lending"
+        "https://www.linkedin.com/company/lumin-lending/",
+        "https://www.crunchbase.com/organization/lumin-lending"
       ]
     }
   },
@@ -132,7 +132,7 @@ export const structuredData = {
   "url": "https://mothebroker.com",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
-    "https://www.yelp.com/biz/mo-abdel-west-capital-lending-lake-forest",
+    "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest",
     "https://maps.google.com/?cid=11756575614226532751",
     "https://www.instagram.com/mo_thebroker",
     "https://mothebroker.com"

@@ -5,8 +5,8 @@ import { TrendingUp, FileText, DollarSign, CheckCircle, ArrowRight, Calculator, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Self-Employed Home Loans California | Bank Statement & Non-QM Programs | West Capital',
-  description: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs. NMLS #1426884 | Company NMLS #1566096.',
+  title: 'Self-Employed Home Loans California | Bank Statement & Non-QM Programs | Lumin Lending',
+  description: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
     canonical: 'https://www.mothebroker.com/self-employed-home-loans-california',
   },
@@ -258,7 +258,7 @@ export default function SelfEmployedHomeLoans() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              The West Capital Self-Employed Loan Process
+              The Lumin Lending Self-Employed Loan Process
             </h2>
             <p className="text-lg text-slate-600">
               Simplified application designed for business owners
@@ -310,7 +310,7 @@ export default function SelfEmployedHomeLoans() {
             </a>
           </div>
           <p className="text-sm text-purple-100 mt-6">
-            Mo Abdel, NMLS #1426884 | West Capital Lending, Inc. NMLS #1566096 | CA DRE #02022356
+            Mo Abdel, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | CA DRE #02291443
           </p>
         </div>
       </section>

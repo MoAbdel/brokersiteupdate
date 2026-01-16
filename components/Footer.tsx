@@ -118,14 +118,14 @@ export default function Footer() {
               <div>
                 <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
                 <p>
-                  West Capital Lending is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that discriminate based on race, color, religion, national origin, sex, marital status, age (provided you have the capacity to enter into a binding contract) because all or part of your income may be derived from any public assistance program, or because you have, in good faith, exercised any right under the Consumer Credit Protection Act.
+                  Lumin Lending is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that discriminate based on race, color, religion, national origin, sex, marital status, age (provided you have the capacity to enter into a binding contract) because all or part of your income may be derived from any public assistance program, or because you have, in good faith, exercised any right under the Consumer Credit Protection Act.
                 </p>
               </div>
 
               {/* General Disclaimers & Licensing */}
               <div>
                 <p>
-                  Information accurate as of 12/20/2025. Not all programs are available in all areas. Not all borrowers will qualify for all programs. Program restrictions apply. Please contact West Capital Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are subject to the specific lender's underwriting guidelines and available loan products. Approvals may be subject to appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other information on this website are subject to change without notice. The Loan Origination team accepts applications in the following states only: CA, CO, WA, VA. The information on this site is not intended for consumers of any other state to determine broker or loan origination eligibility please visit:{' '}
+                  Information accurate as of 12/20/2025. Not all programs are available in all areas. Not all borrowers will qualify for all programs. Program restrictions apply. Please contact Lumin Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are subject to the specific lender's underwriting guidelines and available loan products. Approvals may be subject to appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other information on this website are subject to change without notice. The Loan Origination team accepts applications in the following states only: CA, CO, WA, VA. The information on this site is not intended for consumers of any other state to determine broker or loan origination eligibility please visit:{' '}
                   <a
                     href="https://www.nmlsconsumeraccess.org/"
                     target="_blank"
@@ -148,9 +148,9 @@ export default function Footer() {
               <div className="text-center pt-4 border-t border-slate-700 flex flex-col items-center gap-1">
                 <p className="text-white font-bold text-sm">Mo Abdel NMLS #1426884</p>
                 <div className="text-slate-300">
-                  <span>West Capital Lending, Inc. NMLS #1566096</span>
+                  <span>Lumin Lending, Inc. NMLS #2716106</span>
                   <span className="mx-2">|</span>
-                  <span>DRE #02022356</span>
+                  <span>DRE #02291443</span>
                 </div>
                 <p className="text-slate-400 text-[10px]">18301 Von Karman Ave Suite 820, Irvine, CA 92612</p>
               </div>

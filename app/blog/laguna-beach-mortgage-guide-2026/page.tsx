@@ -26,7 +26,7 @@ export default function LagunaBeachMortgageGuidePage() {
                         },
                         "publisher": {
                             "@type": "Organization",
-                            "name": "West Capital Lending, Inc.",
+                            "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
@@ -251,7 +251,7 @@ export default function LagunaBeachMortgageGuidePage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | West Capital Lending, Inc. | NMLS #1850<br />
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
                         Licensed in: CA, TX, FL, AZ, WA, VA, CO
                     </p>
                     <p className="text-xs text-gray-600 mt-2">

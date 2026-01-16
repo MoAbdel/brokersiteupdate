@@ -78,7 +78,7 @@ export default function ProgramsPage() {
             Mortgage <span className="text-blue-600">Loan Programs</span> – FHA, VA, Jumbo & More
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            As a licensed broker with West Capital Lending - the nation's largest brokerage -
+            As a licensed broker with Lumin Lending - the nation's largest brokerage -
             I have access to over 200 lenders offering competitive pricing and flexible refinance
             programs for every Orange County homeowner.
           </p>
@@ -146,7 +146,7 @@ export default function ProgramsPage() {
               </div>
               <div className="flex flex-col gap-3">
                 <a
-                  href="https://heloc.westcapitallending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
+                  href="https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -606,7 +606,7 @@ export default function ProgramsPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval.
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

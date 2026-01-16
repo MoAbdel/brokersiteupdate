@@ -99,7 +99,7 @@ export default function ForeignNationalLoansPage() {
             </a>
           </div>
           <p className="text-red-100 mt-4">
-            Licensed mortgage broker with West Capital Lending • NMLS #1426884 • International Specialist
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • International Specialist
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function ForeignNationalLoansPage() {
             </p>
             <p>
               Loan pricing and loan terms are subject to change without notice. All information must be verified prior to loan approval. 
-              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with West Capital Lending.
+              Mo Abdel - NMLS #1426884, Licensed Mortgage Loan Originator with Lumin Lending.
             </p>
           </div>
         </div>

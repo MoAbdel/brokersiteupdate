@@ -23,8 +23,8 @@ const personSchema = {
   "jobTitle": "Licensed Mortgage Broker",
   "worksFor": {
     "@type": "Organization",
-    "name": "West Capital Lending",
-    "identifier": "NMLS #1660690"
+    "name": "Lumin Lending",
+    "identifier": "NMLS #2716106"
   },
   "identifier": "NMLS #1426884",
   "telephone": "(949) 822-9662",
@@ -51,7 +51,7 @@ const personSchema = {
     "Refinancing",
     "First-time home buyer programs"
   ],
-  "award": "West Capital Lending Top Producer",
+  "award": "Lumin Lending Top Producer",
   "alumniOf": "Licensed Professional",
   "hasCredential": {
     "@type": "EducationalOccupationalCredential",
@@ -219,8 +219,8 @@ export default function AboutMoAbdelPage() {
                   <div className="flex items-start space-x-3">
                     <Shield className="w-5 h-5 text-green-600 mt-1" />
                     <div>
-                      <div className="font-semibold">West Capital Lending</div>
-                      <div className="text-sm text-slate-600">NMLS #1660690 - Licensed Brokerage</div>
+                      <div className="font-semibold">Lumin Lending</div>
+                      <div className="text-sm text-slate-600">NMLS #2716106 - Licensed Brokerage</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
