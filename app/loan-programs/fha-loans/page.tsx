@@ -8,7 +8,7 @@ import { Home, Shield, Users, CheckCircle, AlertCircle, DollarSign } from 'lucid
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County | 3.5% Down Payment | Mo The Mortgage Broker NMLS #1426884',
-  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
+  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
   },
@@ -38,9 +38,9 @@ export default function FHALoansPage() {
                 Get Pre-Approved for FHA Loan
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -385,9 +385,9 @@ export default function FHALoansPage() {
                 Start My FHA Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

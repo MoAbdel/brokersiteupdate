@@ -7,7 +7,7 @@ import { DollarSign, Calendar, Shield, CheckCircle, AlertCircle, TrendingUp } fr
 
 export const metadata: Metadata = {
   title: 'HELOAN (Home Equity Loan) - Orange County | Mo The Mortgage Broker',
-  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
+  description: 'Get a fixed-rate Home Equity Loan in Orange County. Lump sum up to $500K with predictable payments. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloan',
   },
@@ -36,9 +36,9 @@ export default function HELOANPage() {
                 Get HELOAN Pricing & Terms
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -325,9 +325,9 @@ export default function HELOANPage() {
                 Get My HELOAN Pricing
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

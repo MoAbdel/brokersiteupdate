@@ -34,7 +34,7 @@ export default function LLMOptimizedSEO({
     service: "Mortgage Broker",
     location: "Orange County, CA",
     credentials: "NMLS #1426884",
-    phone: "(949) 537-2357"
+    phone: "(949) 822-9662"
   }
 }: LLMSEOProps) {
 

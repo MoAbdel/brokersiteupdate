@@ -361,9 +361,9 @@ export default function ConventionalLoansOrangeCounty() {
                 Start Your Application
               </Button>
             </Link>
-            <Link href="tel:+19495372357">
+            <Link href="tel:+19498229662">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </Link>
           </div>

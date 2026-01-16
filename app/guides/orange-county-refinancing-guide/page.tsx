@@ -185,7 +185,7 @@ const faqs = [
   },
   {
     question: 'What are current refinancing rates in Orange County?',
-    answer: 'Refinancing rates vary daily based on market conditions, loan type, and borrower qualifications. Rate-and-term refinances typically offer the best pricing, while cash-out refinances are slightly higher. HELOC pricing is variable and tied to prime rate, while HELOAN pricing is fixed. Contact Mo Abdel at (949) 537-2357 for Current pricing and personalized quotes.'
+    answer: 'Refinancing rates vary daily based on market conditions, loan type, and borrower qualifications. Rate-and-term refinances typically offer the best pricing, while cash-out refinances are slightly higher. HELOC pricing is variable and tied to prime rate, while HELOAN pricing is fixed. Contact Mo Abdel at (949) 822-9662 for Current pricing and personalized quotes.'
   },
   {
     question: 'How long does refinancing take in Orange County?',
@@ -252,9 +252,9 @@ export default function OrangeCountyRefinancingGuide() {
                   Check Refinance Rates
                 </Button>
               </Link>
-              <Link href="tel:+19495372357">
+              <Link href="tel:+19498229662">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </Link>
             </div>
@@ -546,9 +546,9 @@ export default function OrangeCountyRefinancingGuide() {
                 Get Refinance Quote
               </Button>
             </Link>
-            <Link href="tel:+19495372357">
+            <Link href="tel:+19498229662">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </Link>
           </div>

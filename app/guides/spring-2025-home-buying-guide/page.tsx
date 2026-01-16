@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884',
-  description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 537-2357.',
+  description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
   },
@@ -237,7 +237,7 @@ export default function Spring2026HomeBuyingGuidePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-green-600 hover:bg-green-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -357,7 +357,7 @@ export default function Spring2026HomeBuyingGuidePage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                   <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                     <Calculator className="w-5 h-5 mr-2" />
@@ -410,7 +410,7 @@ export default function Spring2026HomeBuyingGuidePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
                 <Leaf className="w-5 h-5 mr-2" />

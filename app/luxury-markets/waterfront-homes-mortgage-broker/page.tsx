@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Waterfront Homes Mortgage Broker | Luxury Coastal Financing | Mo Abdel NMLS #1426884',
-  description: 'Orange County waterfront homes mortgage broker specializing in luxury coastal properties. Bayfront, oceanfront, and harbor homes financing expertise. Call (949) 537-2357.',
+  description: 'Orange County waterfront homes mortgage broker specializing in luxury coastal properties. Bayfront, oceanfront, and harbor homes financing expertise. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/waterfront-homes-mortgage-broker',
   },
@@ -238,10 +238,10 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                 Exclusive financing for Orange County's most prestigious waterfront properties. From oceanfront estates to bayfront mansions, expert guidance for luxury coastal real estate.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -485,10 +485,10 @@ export default function WaterfrontHomesMortgageBrokerPage() {
               Get specialized expertise for Orange County's most exclusive waterfront properties. Luxury financing solutions for coastal living at its finest.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

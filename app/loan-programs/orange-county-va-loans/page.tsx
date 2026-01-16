@@ -7,7 +7,7 @@ import { Shield, Home, Award, DollarSign, Phone, CheckCircle, Users } from 'luci
 
 export const metadata: Metadata = {
   title: 'Orange County VA Loans | VA Loans Orange County | Military Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist Mo Abdel helps veterans and military buy homes in Orange County CA. Call (949) 537-2357.',
+  description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist Mo Abdel helps veterans and military buy homes in Orange County CA. Call (949) 822-9662.',
   openGraph: {
     title: 'Orange County VA Loans | VA Loans Orange County | Military Home Loans',
     description: 'Orange County VA loans with no down payment required. Licensed VA loan specialist helps veterans buy homes in Orange County CA.',
@@ -42,10 +42,10 @@ export default function OrangeCountyVALoansPage() {
                 Get VA Loan Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 537-2357
+                (949) 822-9662
               </Button>
             </a>
           </div>
@@ -389,10 +389,10 @@ export default function OrangeCountyVALoansPage() {
                 Start My VA Loan Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

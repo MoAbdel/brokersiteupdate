@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Cypress Village Irvine Mortgage Broker | Newest Community Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Cypress Village Irvine mortgage broker specializing in newest master-planned community homes. Brand new construction financing, modern amenities, Competitive pricing. Call (949) 537-2357.',
+  description: 'Cypress Village Irvine mortgage broker specializing in newest master-planned community homes. Brand new construction financing, modern amenities, Competitive pricing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/cypress-village-mortgage-broker',
   },
@@ -181,7 +181,7 @@ export default function CypressVillageMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -374,7 +374,7 @@ export default function CypressVillageMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 Get Pre-Approved

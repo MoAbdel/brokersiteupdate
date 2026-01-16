@@ -362,8 +362,8 @@ export default function EnhancedContactForm() {
 
           <p className="text-sm text-slate-500">
             Need immediate assistance? Call Mo directly at{' '}
-            <a href="tel:(949) 537-2357" className="text-blue-600 hover:text-blue-700 font-semibold">
-              (949) 537-2357
+            <a href="tel:(949) 822-9662" className="text-blue-600 hover:text-blue-700 font-semibold">
+              (949) 822-9662
             </a>
           </p>
         </CardContent>
@@ -388,7 +388,7 @@ export default function EnhancedContactForm() {
         {showError && (
           <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
             <p className="text-red-600 text-sm">
-              There was an error submitting your request. Please try again or call us directly at (949) 537-2357.
+              There was an error submitting your request. Please try again or call us directly at (949) 822-9662.
             </p>
           </div>
         )}

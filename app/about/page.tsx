@@ -43,10 +43,10 @@ export default function AboutPage() {
                     Work With Me
                   </Button>
                 </Link>
-                <a href="tel:+19495372357">
+                <a href="tel:+19498229662">
                   <Button variant="ghost" className="border border-white text-white hover:bg-white/10 px-6 py-3">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 537-2357
+                    (949) 822-9662
                   </Button>
                 </a>
               </div>
@@ -193,10 +193,10 @@ export default function AboutPage() {
                 Schedule a Call
               </Button>
             </Link>
-            <a href="mailto:mabdel@wclloans.com">
+            <a href="mailto:mo.abdel@Luminglending.com">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 text-lg">
                 <Mail className="w-5 h-5 mr-2" />
-                mabdel@wclloans.com
+                mo.abdel@Luminglending.com
               </Button>
             </a>
           </div>

@@ -7,7 +7,7 @@ import { Crown, TrendingUp, Shield, CheckCircle, AlertCircle, DollarSign } from 
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County | $1,209,750+ Mortgages | Mo The Mortgage Broker NMLS #1426884',
-  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with West Capital Lending. Call (949) 537-2357.',
+  description: 'Jumbo loans in Orange County for luxury homes over $1,209,750. Competitive pricing on non-conforming mortgages. Licensed mortgage broker with West Capital Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
   },
@@ -37,9 +37,9 @@ export default function JumboLoansPage() {
                 Get Jumbo Loan Rates
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -480,9 +480,9 @@ export default function JumboLoansPage() {
                 Get My Jumbo Loan Quote
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

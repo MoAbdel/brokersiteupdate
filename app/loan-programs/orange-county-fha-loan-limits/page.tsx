@@ -7,7 +7,7 @@ import { DollarSign, Home, TrendingUp, MapPin, Phone, CheckCircle } from 'lucide
 
 export const metadata: Metadata = {
   title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA | Mo Abdel NMLS #1426884',
-  description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 537-2357.',
+  description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 822-9662.',
   openGraph: {
     title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA',
     description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes.',
@@ -41,10 +41,10 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 Get FHA Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 537-2357
+                (949) 822-9662
               </Button>
             </a>
           </div>
@@ -335,10 +335,10 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 Start My FHA Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

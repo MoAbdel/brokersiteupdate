@@ -4,7 +4,7 @@ import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Santa Ana Refinance Rates 2026 | Cash-Out & Rate-Term Refinancing | Mo Abdel NMLS #1426884',
-  description: 'Current Santa Ana refinance pricing and cash-out refinancing options. Compare rate-and-term refinance pricing in Santa Ana CA. Licensed mortgage broker Mo Abdel (949) 537-2357.',
+  description: 'Current Santa Ana refinance pricing and cash-out refinancing options. Compare rate-and-term refinance pricing in Santa Ana CA. Licensed mortgage broker Mo Abdel (949) 822-9662.',
   openGraph: {
     title: 'Santa Ana Refinance Rates 2026 | Cash-Out & Rate-Term Refinancing',
     description: 'Current Santa Ana refinance pricing and cash-out refinancing options. Compare rate-and-term refinance pricing in Santa Ana CA.',

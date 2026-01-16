@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92614 Irvine Mortgage Broker | Spectrum Area ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing. Call (949) 537-2357.',
+  description: '92614 Irvine mortgage broker serving this dynamic ZIP code area. Irvine Spectrum, Great Park vicinity financing, Competitive pricing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker',
   },
@@ -176,10 +176,10 @@ export default function ZipCode92614MortgageBrokerPage() {
                 Dedicated mortgage broker serving ZIP code 92614 in Irvine. Expertise for Great Park area, Irvine Spectrum vicinity, and dynamic newer developments with diverse housing options.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
                 </a>
                 <a href="/calculator">
@@ -355,10 +355,10 @@ export default function ZipCode92614MortgageBrokerPage() {
               Get specialized financing expertise for ZIP code 92614. Local knowledge, dynamic market insights, Competitive pricing for Irvine's growth areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

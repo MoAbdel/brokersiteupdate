@@ -268,7 +268,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 537-2357</span>
+                  <span>Phone: (949) 822-9662</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
@@ -278,8 +278,8 @@ export default function TermsOfServicePage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   West Capital Lending<br />
-                  17911 Von Karman Ave suite 400<br />
-                  Irvine, CA 92614
+                  18301 Von Karman Ave Suite 820<br />
+                  Irvine, CA 92612
                 </div>
                 <div className="mt-4">
                   <strong>License Verification:</strong><br />

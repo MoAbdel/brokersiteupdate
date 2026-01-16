@@ -44,9 +44,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-slate-400">
-              <li>📞 (949) 537-2357</li>
-              <li>📧 <a href="mailto:mabdel@wclloans.com" className="hover:text-white transition-colors">mabdel@wclloans.com</a></li>
-              <li>📍 17911 Von Karman Ave suite 400<br />Irvine, CA 92614</li>
+              <li>📞 (949) 822-9662</li>
+              <li>📧 <a href="mailto:mo.abdel@Luminglending.com" className="hover:text-white transition-colors">mo.abdel@Luminglending.com</a></li>
+              <li>📍 18301 Von Karman Ave Suite 820<br />Irvine, CA 92612</li>
               <li>🕒 Available 24/7</li>
             </ul>
 
@@ -125,7 +125,7 @@ export default function Footer() {
               {/* General Disclaimers & Licensing */}
               <div>
                 <p>
-                  Information accurate as of 12/20/2025. Not all programs are available in all areas. Not all borrowers will qualify for all programs. Program restrictions apply. Please contact West Capital Lending, 17911 Von Karman Ave suite 400, Irvine, CA 92614 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are subject to the specific lender's underwriting guidelines and available loan products. Approvals may be subject to appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other information on this website are subject to change without notice. The Loan Origination team accepts applications in the following states only: CA, CO, WA, VA. The information on this site is not intended for consumers of any other state to determine broker or loan origination eligibility please visit:{' '}
+                  Information accurate as of 12/20/2025. Not all programs are available in all areas. Not all borrowers will qualify for all programs. Program restrictions apply. Please contact West Capital Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are subject to the specific lender's underwriting guidelines and available loan products. Approvals may be subject to appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other information on this website are subject to change without notice. The Loan Origination team accepts applications in the following states only: CA, CO, WA, VA. The information on this site is not intended for consumers of any other state to determine broker or loan origination eligibility please visit:{' '}
                   <a
                     href="https://www.nmlsconsumeraccess.org/"
                     target="_blank"
@@ -152,7 +152,7 @@ export default function Footer() {
                   <span className="mx-2">|</span>
                   <span>DRE #02022356</span>
                 </div>
-                <p className="text-slate-400 text-[10px]">17911 Von Karman Ave suite 400, Irvine, CA 92614</p>
+                <p className="text-slate-400 text-[10px]">18301 Von Karman Ave Suite 820, Irvine, CA 92612</p>
               </div>
             </div>
           </div>

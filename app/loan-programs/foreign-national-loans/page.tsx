@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'Foreign National Loans Orange County | International Buyer Mortgages | No US Credit Required',
-  description: 'Foreign national loans in Orange County for non-US citizens. No US credit history required. 25-40% down payment. Purchase or refinance. International buyer specialist. Call (949) 537-2357.',
+  description: 'Foreign national loans in Orange County for non-US citizens. No US credit history required. 25-40% down payment. Purchase or refinance. International buyer specialist. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/foreign-national-loans',
   },
@@ -32,9 +32,9 @@ export default function ForeignNationalLoansPage() {
                 Get Foreign National Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -92,9 +92,9 @@ export default function ForeignNationalLoansPage() {
                 Start International Application
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

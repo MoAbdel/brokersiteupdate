@@ -37,9 +37,9 @@ export default function AdvancedSchemaMarkup({
   name = "Mo Abdel - California Mortgage Broker | West Capital Lending",
   description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://mothebroker.com",
-  telephone = "+19495372357",
+  telephone = "+19498229662",
   address = {
-    streetAddress: "17911 Von Karman Ave suite 400",
+    streetAddress: "18301 Von Karman Ave Suite 820",
     addressLocality: "Irvine",
     addressRegion: "CA",
     postalCode: "92614",

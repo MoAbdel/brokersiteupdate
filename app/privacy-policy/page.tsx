@@ -137,8 +137,8 @@ export default function PrivacyPolicyPage() {
             <p className="text-slate-700 mb-4">To exercise your California privacy rights, contact us:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
-              <li>Phone: (949) 537-2357</li>
-              <li>Mail: 17911 Von Karman Ave suite 400, Irvine, CA 92614</li>
+              <li>Phone: (949) 822-9662</li>
+              <li>Mail: 18301 Von Karman Ave Suite 820, Irvine, CA 92612</li>
             </ul>
           </section>
 
@@ -213,7 +213,7 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 537-2357</span>
+                  <span>Phone: (949) 822-9662</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
@@ -223,8 +223,8 @@ export default function PrivacyPolicyPage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   West Capital Lending<br />
-                  17911 Von Karman Ave suite 400<br />
-                  Irvine, CA 92614
+                  18301 Von Karman Ave Suite 820<br />
+                  Irvine, CA 92612
                 </div>
               </div>
             </div>

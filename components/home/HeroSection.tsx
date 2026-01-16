@@ -47,7 +47,7 @@ export default function HeroSection() {
               </Button>
             </Link>
 
-            <a href="tel:+19495372357">
+            <a href="tel:+19498229662">
               <Button size="lg" variant="ghost" className="border-2 border-green-600 text-green-700 hover:bg-green-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto h-auto">
                 <Phone className="w-5 h-5 mr-2" />
                 Schedule Strategy Session

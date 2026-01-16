@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'FHA Loans Irvine CA | 3.5% Down Payment | Mo Abdel NMLS #1426884',
-  description: 'FHA loans in Irvine CA with 3.5% down payment. Government-backed mortgages for Irvine condos, townhomes, and family homes. Call (949) 537-2357.',
+  description: 'FHA loans in Irvine CA with 3.5% down payment. Government-backed mortgages for Irvine condos, townhomes, and family homes. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans-irvine',
   },
@@ -199,10 +199,10 @@ export default function FHALoansIrvinePage() {
                 Buy your Irvine home with just 3.5% down payment. FHA loans make homeownership accessible in one of Orange County's most desirable cities, perfect for condos and townhomes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -396,10 +396,10 @@ export default function FHALoansIrvinePage() {
               Get specialized FHA financing expertise for Irvine condos and townhomes. Low down payment, Competitive pricing, local market knowledge.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

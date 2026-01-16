@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Golf Course Homes Mortgage Broker | Luxury Fairway Properties | Mo Abdel NMLS #1426884',
-  description: 'Orange County golf course homes mortgage broker specializing in luxury fairway properties. Championship courses, resort amenities, and prestige living. Call (949) 537-2357.',
+  description: 'Orange County golf course homes mortgage broker specializing in luxury fairway properties. Championship courses, resort amenities, and prestige living. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/golf-course-homes-mortgage-broker',
   },
@@ -244,10 +244,10 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                 Exclusive financing for Orange County's premier golf course communities. From championship fairway estates to luxury golf condos, expert guidance for the ultimate golf lifestyle.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -489,10 +489,10 @@ export default function GolfCourseHomesMortgageBrokerPage() {
               Get specialized expertise for Orange County's premier golf course communities. Luxury financing solutions for the ultimate golf lifestyle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

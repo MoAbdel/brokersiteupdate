@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: '92625 Corona del Mar Mortgage Broker | Beachside ZIP Code Specialist | Mo Abdel NMLS #1426884',
-  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing. Call (949) 537-2357.',
+  description: '92625 Corona del Mar mortgage broker serving this exclusive beachside ZIP code. Luxury coastal homes, beach access properties, Competitive pricing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker',
   },
@@ -199,10 +199,10 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
                 Dedicated mortgage broker serving ZIP code 92625 in Corona del Mar. Luxury expertise for beachside properties, coastal homes, and prestigious Newport Beach addresses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -405,10 +405,10 @@ export default function ZipCode92625CoronaDelMarMortgageBrokerPage() {
               Get specialized luxury financing expertise for ZIP code 92625. Beachside market knowledge, premium service, Competitive pricing for Corona del Mar's finest properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

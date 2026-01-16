@@ -7,7 +7,7 @@ import { Zap, TrendingUp, Users, CheckCircle, AlertCircle, Briefcase } from 'luc
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans Orange County | Alternative Income Documentation | Mo The Mortgage Broker',
-  description: 'Non-QM loans in Orange County for self-employed, investors, and unique income situations. Bank statements, asset-based, and alternative documentation programs through mortgage broker. Call (949) 537-2357.',
+  description: 'Non-QM loans in Orange County for self-employed, investors, and unique income situations. Bank statements, asset-based, and alternative documentation programs through mortgage broker. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/non-qm-loans',
   },
@@ -37,9 +37,9 @@ export default function NonQMLoansPage() {
                 Get Non-QM Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -582,9 +582,9 @@ export default function NonQMLoansPage() {
                 Get My Non-QM Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

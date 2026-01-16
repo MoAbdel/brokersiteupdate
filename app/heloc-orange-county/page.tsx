@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 537-2357",
+  "telephone": "(949) 822-9662",
   "url": "https://mothebroker.com/heloc-orange-county",
   "description": "Expert HELOC services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -164,7 +164,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
+                <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
           </div>
@@ -457,7 +457,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 537-2357">Call (949) 537-2357</a>
+                <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
             <p className="text-sm text-blue-200 mt-4">

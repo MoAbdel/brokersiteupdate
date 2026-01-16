@@ -64,8 +64,8 @@ export default function CookiePolicyPage() {
             If you have any questions about our Cookie Policy, please contact us:
           </p>
           <ul className="list-none mb-4">
-            <li><strong>Phone:</strong> (949) 537-2357</li>
-            <li><strong>Email:</strong> mo@mothebroker.com</li>
+            <li><strong>Phone:</strong> (949) 822-9662</li>
+            <li><strong>Email:</strong> mo.abdel@Luminglending.com</li>
             <li><strong>NMLS:</strong> #1426884</li>
           </ul>
         </div>

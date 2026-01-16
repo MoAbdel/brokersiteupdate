@@ -339,9 +339,9 @@ export default function ClosingCostsCalculator() {
                 Get a personalized closing cost estimate and explore ways to reduce costs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/contact">

@@ -194,10 +194,10 @@ export default function GoogleReviews() {
                   Get Your Free Consultation
                 </Link>
                 <a 
-                  href="tel:(949) 537-2357"
+                  href="tel:(949) 822-9662"
                   className="inline-flex items-center justify-center border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </a>
               </div>
             </div>

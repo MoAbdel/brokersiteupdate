@@ -419,7 +419,7 @@ export default function GlossaryPage() {
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button variant="ghost" className="text-blue-600 border-blue-600">
                     <Phone className="w-4 h-4 mr-2" />
                     Call for Explanation

@@ -498,9 +498,9 @@ export default function MarketDataPage() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button size="lg" variant="ghost" className="text-blue-600 border-blue-600 hover:bg-blue-50">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

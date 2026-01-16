@@ -25,7 +25,7 @@ const jumboLoansSchema = {
     "@type": "Person",
     "name": "Mo Abdel",
     "identifier": "NMLS #1426884",
-    "telephone": "(949) 537-2357",
+    "telephone": "(949) 822-9662",
     "jobTitle": "Licensed Mortgage Broker",
     "worksFor": {
       "@type": "Organization",
@@ -159,10 +159,10 @@ export default function OrangeCountyJumboLoansPage() {
                 <p className="text-purple-100">Luxury home financing specialist serving Orange County</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button className="bg-white text-purple-600 hover:bg-purple-50">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 537-2357
+                    (949) 822-9662
                   </Button>
                 </a>
                 <Link href="/contact-orange-county-mortgage-broker">

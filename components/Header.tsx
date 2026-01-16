@@ -96,9 +96,9 @@ export default function Header() {
 
           {/* Desktop Right Action */}
           <div className="hidden md:flex items-center z-10">
-            <a href="tel:(949) 537-2357" onClick={() => trackPhoneCall()}>
+            <a href="tel:(949) 822-9662" onClick={() => trackPhoneCall()}>
               <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold">
-                (949) 537-2357
+                (949) 822-9662
               </Button>
             </a>
           </div>

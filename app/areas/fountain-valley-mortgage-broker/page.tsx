@@ -33,7 +33,7 @@ const fountainValleyData = {
 
 export const metadata: Metadata = {
   title: 'Fountain Valley Mortgage Broker | Got Mortgage? Call Mo Abdel NMLS #1426884',
-  description: 'Fountain Valley mortgage broker Mo Abdel offers competitive home loan rates. FHA, VA, conventional loans in Fountain Valley CA. Got mortgage questions? Call (949) 537-2357.',
+  description: 'Fountain Valley mortgage broker Mo Abdel offers competitive home loan rates. FHA, VA, conventional loans in Fountain Valley CA. Got mortgage questions? Call (949) 822-9662.',
   openGraph: {
     title: 'Fountain Valley Mortgage Broker | Got Mortgage? Call Mo Abdel',
     description: 'Fountain Valley mortgage broker Mo Abdel offers competitive home loan rates. FHA, VA, conventional loans in Fountain Valley CA.',

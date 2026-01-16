@@ -32,7 +32,7 @@ export default function QuickActionHub() {
     {
       icon: Lock,
       title: 'Upload Documents Securely',
-      href: 'https://documentguardian.com/filedrop/mabdel@westcapitallending.com',
+      href: 'https://documentguardian.com/filedrop/mo.abdel@Luminglending.com',
       external: true,
     },
     {
@@ -44,7 +44,7 @@ export default function QuickActionHub() {
     {
       icon: Mail,
       title: 'Email Me',
-      href: 'mailto:mabdel@wclloans.com',
+      href: 'mailto:mo.abdel@Luminglending.com',
     },
     {
       icon: Globe,

@@ -7,7 +7,7 @@ import { MapPin, Home, Waves, Sun, TrendingUp, Users, Building } from 'lucide-re
 
 export const metadata: Metadata = {
   title: 'Huntington Beach Mortgage | Home Loans & HELOC Rates | Mo Abdel NMLS #1426884',
-  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 537-2357.',
+  description: 'Best Huntington Beach mortgage pricing and home loan services. Competitive mortgage pricing, HELOC, refinancing, FHA, VA, and jumbo loans. Serving Surf City, Main Street, Bella Terra. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
   },
@@ -92,9 +92,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get HB Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -348,9 +348,9 @@ export default function HuntingtonBeachMortgageBrokerPage() {
                 Get My HB Rates
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

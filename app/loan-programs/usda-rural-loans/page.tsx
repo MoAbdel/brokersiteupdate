@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 
 export const metadata: Metadata = {
   title: 'USDA Rural Loans Orange County | Zero Down Payment Home Loans | Rural Housing Program',
-  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 537-2357.',
+  description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
   },
@@ -32,9 +32,9 @@ export default function USDARuggralLoansPage() {
                 Check USDA Eligibility
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-yellow-600 text-yellow-600 hover:bg-yellow-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -105,9 +105,9 @@ export default function USDARuggralLoansPage() {
                 Check Eligibility Now
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-yellow-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

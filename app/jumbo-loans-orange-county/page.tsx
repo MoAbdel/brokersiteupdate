@@ -23,8 +23,8 @@ const jsonLd = {
     "@type": "Person",
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 537-2357",
-    "email": "mo@mothebroker.com"
+    "telephone": "(949) 822-9662",
+    "email": "mo.abdel@Luminglending.com"
   },
   "areaServed": {
     "@type": "Place",
@@ -36,7 +36,7 @@ const jsonLd = {
     "addressRegion": "CA",
     "addressCountry": "US"
   },
-  "telephone": "(949) 537-2357",
+  "telephone": "(949) 822-9662",
   "url": "https://mothebroker.com/jumbo-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
@@ -74,7 +74,7 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call Jumbo Specialist
                 </Button>
@@ -633,9 +633,9 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                  Call Jumbo Expert: (949) 537-2357
+                  Call Jumbo Expert: (949) 822-9662
                 </Button>
               </a>
             </div>

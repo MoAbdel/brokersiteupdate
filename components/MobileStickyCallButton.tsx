@@ -52,7 +52,7 @@ export default function MobileStickyCallButton() {
       >
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)]" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
           <a
-            href="tel:(949) 537-2357"
+            href="tel:(949) 822-9662"
             className="flex items-center justify-center gap-3 px-6 py-4 font-bold"
             onClick={() => {
               trackPhoneCall();
@@ -70,7 +70,7 @@ export default function MobileStickyCallButton() {
             </div>
             <div className="text-left">
               <span className="block text-[10px] font-normal text-green-100 uppercase tracking-wider leading-none mb-1">Tap to Call Mo Abdel</span>
-              <span className="block text-xl font-black leading-none uppercase tracking-tight">(949) 537-2357</span>
+              <span className="block text-xl font-black leading-none uppercase tracking-tight">(949) 822-9662</span>
             </div>
           </a>
         </div>
@@ -82,7 +82,7 @@ export default function MobileStickyCallButton() {
           }`}
       >
         <a
-          href="tel:(949) 537-2357"
+          href="tel:(949) 822-9662"
           className="flex items-center gap-3 bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group"
           onClick={() => {
             trackPhoneCall();
@@ -100,7 +100,7 @@ export default function MobileStickyCallButton() {
           </div>
           <div className="text-left">
             <div className="text-xs font-normal text-green-100">Call Now</div>
-            <div className="text-lg font-bold">(949) 537-2357</div>
+            <div className="text-lg font-bold">(949) 822-9662</div>
           </div>
         </a>
       </div>

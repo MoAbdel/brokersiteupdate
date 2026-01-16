@@ -20,10 +20,10 @@ export default function ReadyToGetStarted() {
                 Calculate Rates
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 537-2357
+                (949) 822-9662
               </Button>
             </a>
           </div>

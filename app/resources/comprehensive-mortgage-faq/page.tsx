@@ -304,7 +304,7 @@ export default function ComprehensiveMortgageFAQ() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Call Direct</span>
-              <span className="text-blue-100">(949) 537-2357</span>
+              <span className="text-blue-100">(949) 822-9662</span>
             </div>
             <div className="flex flex-col items-center">
               <Calculator className="w-8 h-8 mb-2" />

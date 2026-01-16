@@ -40,8 +40,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Phone</h3>
-                  <a href="tel:(949) 537-2357" className="text-blue-600 hover:text-blue-700 text-lg">
-                    (949) 537-2357
+                  <a href="tel:(949) 822-9662" className="text-blue-600 hover:text-blue-700 text-lg">
+                    (949) 822-9662
                   </a>
                   <p className="text-sm text-slate-600">Call or text anytime</p>
                 </div>
@@ -53,7 +53,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Email Contact</h3>
-                  <a href="mailto:mabdel@wclloans.com" className="text-blue-600 hover:text-blue-700">mabdel@wclloans.com</a>
+                  <a href="mailto:mo.abdel@Luminglending.com" className="text-blue-600 hover:text-blue-700">mo.abdel@Luminglending.com</a>
                   <p className="text-sm text-slate-600">I respond within 1 business day</p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900">Office Location</h3>
-                  <p className="text-slate-700">17911 Von Karman Ave suite 400<br />Irvine, CA 92614</p>
+                  <p className="text-slate-700">18301 Von Karman Ave Suite 820<br />Irvine, CA 92612</p>
                   <p className="text-sm text-slate-600">By appointment</p>
                 </div>
               </div>

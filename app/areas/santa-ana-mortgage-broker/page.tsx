@@ -7,7 +7,7 @@ import { MapPin, Home, Building2, Users, TrendingUp, Heart, Briefcase } from 'lu
 
 export const metadata: Metadata = {
   title: 'Santa Ana Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Santa Ana mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Downtown, Floral Park, French Park. Call (949) 537-2357.',
+  description: 'Santa Ana mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Downtown, Floral Park, French Park. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/santa-ana-mortgage-broker',
   },
@@ -92,9 +92,9 @@ export default function SantaAnaMortgageBrokerPage() {
                 Get Santa Ana Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -348,9 +348,9 @@ export default function SantaAnaMortgageBrokerPage() {
                 Get My Santa Ana Rates
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
