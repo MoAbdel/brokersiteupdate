@@ -30,8 +30,8 @@ export default function LagunaNiguelRefinance2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-08",
-        "dateModified": "2026-01-08",
+        "datePublished": "2026-01-13",
+        "dateModified": "2026-01-13",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2026"
@@ -82,7 +82,7 @@ export default function LagunaNiguelRefinance2026() {
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 8, 2026</span>
+                    <span>January 13, 2026</span>
                     <span>•</span>
                     <span>10 min read</span>
                 </div>

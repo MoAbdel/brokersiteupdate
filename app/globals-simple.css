@@ -54,6 +54,21 @@
   }
 }
 
+/* Global spacing below fixed Header */
+:root {
+  --header-offset: 4.5rem; /* ~72px */
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-offset: 5rem; /* ~80px */
+  }
+}
+
+body {
+  padding-top: var(--header-offset);
+}
+
 @layer utilities {
   /* Custom animations that work with Tailwind */
   .animate-float {

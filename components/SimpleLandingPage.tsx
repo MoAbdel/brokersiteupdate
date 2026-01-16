@@ -6,7 +6,11 @@ import WhyChooseUs from './home/WhyChooseUs';
 
 export default function SimpleLandingPage() {
   return (
-    <div className="min-h-screen bg-white" data-version="2.0.0">
+    <div
+      className="min-h-screen bg-white"
+      style={{ marginTop: 'calc(var(--header-offset) * -1)' }}
+      data-version="2.0.0"
+    >
       {/* Hero Section */}
       <HeroSection />
 

@@ -31,7 +31,7 @@ export default function NewportBeachMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-04",
+                        "datePublished": "2026-01-05",
                         "dateModified": "2026-01-05",
                         "description": "Secure the best mortgage rates in Newport Beach with our 2026 guide. Learn about jumbo loans, wholesale pricing, and why working with a local broker is superior to retail banks."
                     })

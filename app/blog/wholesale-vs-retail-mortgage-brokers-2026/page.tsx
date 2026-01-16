@@ -31,8 +31,8 @@ export default function WholesaleVsRetailMortgagePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-05",
+                        "datePublished": "2026-01-01",
+                        "dateModified": "2026-01-01",
                         "description": "Understand the critical differences between wholesale and retail mortgage channels in 2026. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
                     })
                 }}

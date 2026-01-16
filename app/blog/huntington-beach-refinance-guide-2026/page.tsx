@@ -30,8 +30,8 @@ export default function HuntingtonBeachRefinance2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-08",
-        "dateModified": "2026-01-08",
+        "datePublished": "2026-01-14",
+        "dateModified": "2026-01-14",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026"
@@ -82,7 +82,7 @@ export default function HuntingtonBeachRefinance2026() {
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 8, 2026</span>
+                    <span>January 14, 2026</span>
                     <span>•</span>
                     <span>11 min read</span>
                 </div>

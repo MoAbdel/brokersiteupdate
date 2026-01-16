@@ -19,6 +19,7 @@ const guides = [
     url: '/guides/why-choose-local-mortgage-broker',
     category: 'Local Expertise',
     readTime: '5 min read',
+    date: '2026-01-15',
     featured: true
   },
   {
@@ -27,6 +28,7 @@ const guides = [
     url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '8 min read',
+    date: '2026-01-14',
     featured: false
   },
   {
@@ -35,6 +37,7 @@ const guides = [
     url: '/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '7 min read',
+    date: '2026-01-13',
     featured: false
   },
   {
@@ -43,6 +46,7 @@ const guides = [
     url: '/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '6 min read',
+    date: '2026-01-12',
     featured: false
   },
   {
@@ -51,6 +55,7 @@ const guides = [
     url: '/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '7 min read',
+    date: '2026-01-11',
     featured: false
   },
   {
@@ -59,18 +64,28 @@ const guides = [
     url: '/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
     category: 'Neighborhood Guide',
     readTime: '12 min read',
+    date: '2026-01-10',
     featured: false
   }
 ];
 
 export default function GuidesPage() {
+  const formatDate = (dateString: string) => {
+    const date = new Date(`${dateString}T00:00:00`);
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric'
+    });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 lg:pt-12">
         
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-3">
             Mortgage <span className="text-blue-600">Blog</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
@@ -103,10 +118,12 @@ export default function GuidesPage() {
                   {guide.description}
                 </p>
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center text-sm text-slate-500">
-                    <Clock className="w-4 h-4 mr-1" />
-                    {guide.readTime}
-                  </div>
+                <div className="flex items-center gap-2 text-sm text-slate-500">
+                  <Clock className="w-4 h-4" />
+                  <span>{guide.readTime}</span>
+                  <span>•</span>
+                  <time dateTime={guide.date}>{formatDate(guide.date)}</time>
+                </div>
                   <Link 
                     href={guide.url}
                     className="inline-flex items-center text-blue-600 font-medium hover:text-blue-700"

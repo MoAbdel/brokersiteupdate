@@ -22,15 +22,6 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="text-white order-2 lg:order-1">
-              <div className="mb-6">
-                <Image
-                  src="/images/lumin-lending-logo.png"
-                  alt="Lumin Lending"
-                  width={200}
-                  height={50}
-                  className="h-10 w-auto brightness-0 invert"
-                />
-              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Mo Abdel
               </h1>

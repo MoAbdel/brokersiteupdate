@@ -9,7 +9,7 @@ export default function Breadcrumbs() {
   const pathname = usePathname();
   
   // Don't show breadcrumbs on home page or if no pathname
-  if (!pathname || pathname === '/') return null;
+  if (!pathname || pathname === '/' || pathname.startsWith('/blog') || pathname.startsWith('/articles') || pathname.startsWith('/guides')) return null;
 
   // Generate breadcrumb items from pathname
   const segments = pathname.split('/').filter(Boolean);

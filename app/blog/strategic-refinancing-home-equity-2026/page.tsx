@@ -30,8 +30,8 @@ export default function StrategicRefinancing2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-08",
-        "dateModified": "2026-01-08",
+        "datePublished": "2026-01-12",
+        "dateModified": "2026-01-12",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026"
@@ -82,7 +82,7 @@ export default function StrategicRefinancing2026() {
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 8, 2026</span>
+                    <span>January 12, 2026</span>
                     <span>•</span>
                     <span>13 min read</span>
                 </div>

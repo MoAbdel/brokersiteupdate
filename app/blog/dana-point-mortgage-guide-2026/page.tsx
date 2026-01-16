@@ -31,8 +31,8 @@ export default function DanaPointMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-05",
+                        "datePublished": "2026-01-03",
+                        "dateModified": "2026-01-03",
                         "description": "Explore the 2026 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
                     })
                 }}

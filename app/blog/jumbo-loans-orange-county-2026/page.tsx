@@ -31,8 +31,8 @@ export default function JumboLoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-07",
-                        "dateModified": "2026-01-07",
+                        "datePublished": "2026-01-06",
+                        "dateModified": "2026-01-06",
                         "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties."
                     })
                 }}

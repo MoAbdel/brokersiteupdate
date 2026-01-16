@@ -31,8 +31,8 @@ export default function IrvineMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-07",
-                        "dateModified": "2026-01-07",
+                        "datePublished": "2026-01-09",
+                        "dateModified": "2026-01-09",
                         "description": "2026 Irvine mortgage guide. Discover the wholesale advantage for OC's premier master-planned communities and specialized programs for high-income professionals."
                     })
                 }}

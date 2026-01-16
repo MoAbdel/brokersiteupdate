@@ -31,8 +31,8 @@ export default function SanClementeMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-07",
-                        "dateModified": "2026-01-07",
+                        "datePublished": "2026-01-10",
+                        "dateModified": "2026-01-10",
                         "description": "Navigate the 2026 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal luxury homes."
                     })
                 }}

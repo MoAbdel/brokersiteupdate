@@ -31,8 +31,8 @@ export default function NewportCoastMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-07",
-                        "dateModified": "2026-01-07",
+                        "datePublished": "2026-01-08",
+                        "dateModified": "2026-01-08",
                         "description": "Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in high-limit jumbo loans and institutional pricing for OC's most exclusive estates."
                     })
                 }}

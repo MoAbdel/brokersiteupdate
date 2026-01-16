@@ -32,7 +32,7 @@ export default function LagunaBeachMortgageGuidePage() {
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-05",
+                        "dateModified": "2026-01-04",
                         "description": "Navigate Laguna Beach's unique coastal real estate market with expert wholesale mortgage solutions. Learn how to finance hillside estates and coastal homes in 2026."
                     })
                 }}

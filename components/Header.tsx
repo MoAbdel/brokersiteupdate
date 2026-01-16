@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
@@ -13,12 +13,33 @@ import { navigationItems } from '@/lib/navigation-data';
 export default function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
   const { trackPhoneCall } = useFacebookTracking();
 
+  useEffect(() => {
+    setHasMounted(true);
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const showScrolled = pathname === '/about' || (hasMounted && isScrolled);
+
   return (
-    <header className="bg-white/95 backdrop-blur-sm shadow-base44 border-b border-slate-200 sticky top-0 z-[60]">
+    <header 
+      className={`fixed top-0 w-full z-[60] transition-all duration-300 ${
+        showScrolled 
+          ? 'bg-white shadow-base44 border-b border-slate-200' 
+          : 'bg-transparent border-transparent shadow-none'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20 py-2 relative">
+        <div className={`flex justify-between items-center transition-all duration-300 ${showScrolled ? 'h-14 md:h-16 py-2' : 'h-16 md:h-20 py-3'} relative`}>
           {/* Brand Logo - visible on all screens */}
           <Link href="/" className="flex items-center z-10 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-blue-600 shadow-sm transition-transform duration-200 group-hover:scale-110">
@@ -31,7 +52,7 @@ export default function Header() {
               />
             </div>
             <div className="ml-2 sm:ml-3">
-              <span className="block text-xs sm:text-sm font-bold text-slate-900 leading-tight">Mo Abdel</span>
+              <span className={`block text-xs sm:text-sm font-bold leading-tight transition-colors ${showScrolled ? 'text-slate-900' : 'text-slate-900'}`}>Mo Abdel</span>
               <span className="block text-[10px] sm:text-xs text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
             </div>
           </Link>
@@ -49,7 +70,7 @@ export default function Header() {
                         (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
                         (item.page === 'Resources' && pathname.startsWith('/resources'))
                         ? 'text-blue-600 bg-blue-50'
-                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                        : showScrolled ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/50'
                         }`}
                     >
                       {item.title}
@@ -122,7 +143,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-slate-200 max-h-[calc(100vh-7rem)] overflow-y-auto">
+        <div className="md:hidden bg-white border-t border-slate-200 max-h-[calc(100vh-7rem)] overflow-y-auto shadow-xl">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navigationItems.map((item) => (
               <div key={item.title}>
@@ -135,7 +156,7 @@ export default function Header() {
                         (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
                         (item.page === 'Resources' && pathname.startsWith('/resources'))
                         ? 'text-blue-600 bg-blue-50'
-                        : 'text-slate-700 hover:text-blue-600 hover:bg-slate-50'
+                        : showScrolled ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/50'
                         }`}
                       onClick={() => setMobileMenuOpen(false)}
                     >

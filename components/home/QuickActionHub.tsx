@@ -40,7 +40,7 @@ export default function QuickActionHub() {
     {
       icon: Lock,
       title: 'Upload Documents Securely',
-      href: 'https://documentguardian.com/filedrop/mo.abdel@Luminglending.com',
+      href: 'https://documentguardian.com/filedrop/mo.abdel@Luminlending.com',
       external: true,
     },
     {
@@ -52,7 +52,7 @@ export default function QuickActionHub() {
     {
       icon: Mail,
       title: 'Email Me',
-      href: 'mailto:mo.abdel@Luminglending.com',
+      href: 'mailto:mo.abdel@Luminlending.com',
     },
     {
       icon: Globe,

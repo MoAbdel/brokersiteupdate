@@ -31,8 +31,8 @@ export default function FHALoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-05",
+                        "datePublished": "2026-01-02",
+                        "dateModified": "2026-01-02",
                         "description": "Master FHA loan requirements for Orange County in 2026. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
                     })
                 }}

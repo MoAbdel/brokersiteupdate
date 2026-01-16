@@ -49,7 +49,7 @@ export default function EnhancedLocalSchema({
       "identifier": "NMLS #1426884",
       "jobTitle": "Licensed Mortgage Broker",
       "telephone": "(949) 822-9662",
-      "email": "mo.abdel@Luminglending.com",
+      "email": "mo.abdel@Luminlending.com",
       "url": "https://mothebroker.com",
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
@@ -132,7 +132,7 @@ export default function EnhancedLocalSchema({
     "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker | Mo Abdel`,
     "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "telephone": "(949) 822-9662",
-    "email": "mo.abdel@Luminglending.com",
+    "email": "mo.abdel@Luminlending.com",
     "url": city ? `https://mothebroker.com/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : "https://mothebroker.com",
     "address": {
       "@type": "PostalAddress",
