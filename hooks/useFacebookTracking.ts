@@ -62,9 +62,18 @@ export const useFacebookTracking = () => {
     });
   }, []);
 
+  // Function to track lead generation
+  const trackLead = useCallback(() => {
+    fbTrack('Lead', {
+      content_name: 'Lead Generated',
+      content_category: 'conversion'
+    });
+  }, []);
+
   return {
     trackInteraction,
     trackPhoneCall,
-    trackCalculatorUse
+    trackCalculatorUse,
+    trackLead
   };
 };
