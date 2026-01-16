@@ -8,6 +8,115 @@ import {
 } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 
+const makeInputId = (label: string) =>
+  String(label || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '') || 'field';
+
+const FloatingLabelInput = ({
+  label,
+  value,
+  onChange,
+  placeholder,
+  type = "text",
+  inputMode,
+  autoComplete,
+  isFocused,
+  onFocus,
+  onBlur,
+}: {
+  label: string;
+  value: string;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  placeholder?: string;
+  type?: string;
+  inputMode?: React.HTMLAttributes<HTMLInputElement>['inputMode'];
+  autoComplete?: string;
+  isFocused: boolean;
+  onFocus: () => void;
+  onBlur: () => void;
+}) => {
+  const hasValue = value && value.length > 0;
+  const inputId = makeInputId(label);
+
+  return (
+    <div className="relative mb-6 group">
+      <input
+        type={type}
+        value={value}
+        onChange={onChange}
+        onFocus={onFocus}
+        onBlur={onBlur}
+        inputMode={inputMode}
+        autoComplete={autoComplete}
+        className={`
+          block w-full px-4 py-4 bg-slate-50 border-b-2 
+          ${isFocused ? 'border-blue-600' : 'border-slate-300'} 
+          text-slate-900 placeholder-transparent focus:outline-none transition-all duration-300
+          rounded-t-lg hover:bg-slate-100
+        `}
+        placeholder={placeholder}
+        id={inputId}
+        name={inputId}
+      />
+      <label
+        htmlFor={inputId}
+        className={`
+          absolute left-4 transition-all duration-300 pointer-events-none
+          ${(isFocused || hasValue) 
+            ? '-top-2.5 text-xs text-blue-600' 
+            : 'top-4 text-slate-500'}
+        `}
+      >
+        {label}
+      </label>
+      <div className={`absolute bottom-0 left-0 h-[2px] bg-blue-600 transition-all duration-500 ease-out ${isFocused ? 'w-full' : 'w-0'}`} />
+    </div>
+  );
+};
+
+const RadioCard = ({
+  title,
+  description,
+  value,
+  current,
+  onClick,
+}: {
+  title: string;
+  description: string;
+  value: string;
+  current: string;
+  onClick: (value: string) => void;
+}) => (
+  <motion.div
+    whileHover={{ scale: 1.02, y: -2 }}
+    whileTap={{ scale: 0.98 }}
+    onClick={() => onClick(value)}
+    className={`
+      cursor-pointer p-4 rounded-xl border transition-all duration-300 relative overflow-hidden
+      ${current === value 
+        ? 'bg-blue-50 border-blue-600 shadow-md' 
+        : 'bg-white border-slate-200 hover:border-blue-300 hover:bg-slate-50'}
+    `}
+  >
+    <div className="flex justify-between items-start relative z-10">
+      <div>
+        <h4 className={`font-semibold mb-1 ${current === value ? 'text-blue-700' : 'text-slate-900'}`}>{title}</h4>
+        <p className="text-xs text-slate-500">{description}</p>
+      </div>
+      {current === value && (
+        <motion.div 
+          initial={{ scale: 0 }} animate={{ scale: 1 }}
+          className="bg-blue-600 rounded-full p-1"
+        >
+          <Check className="w-3 h-3 text-white" />
+        </motion.div>
+      )}
+    </div>
+  </motion.div>
+);
+
 // Compliant 2026 Orange County Data
 const ORANGE_COUNTY_DATA = {
   conformingLimit: 1209750,
@@ -198,6 +307,16 @@ export default function PremiumContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (currentStep < 3) {
+      if ((currentStep === 1 && canProceedToStep2()) || (currentStep === 2 && canProceedToStep3())) {
+        setCurrentStep(currentStep + 1);
+      }
+      return;
+    }
+
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone) {
+      return;
+    }
     setIsSubmitting(true);
 
     try {
@@ -237,74 +356,6 @@ export default function PremiumContactForm() {
     }
     setIsSubmitting(false);
   };
-
-  // --- Components for the Form ---
-
-  const FloatingLabelInput = ({ label, value, onChange, placeholder, type = "text" }: any) => {
-    const isFocused = focusedField === label;
-    const hasValue = value && value.length > 0;
-    
-    return (
-      <div className="relative mb-6 group">
-        <input
-          type={type}
-          value={value}
-          onChange={onChange}
-          onFocus={() => setFocusField(label)}
-          onBlur={() => setFocusField(null)}
-          className={`
-            block w-full px-4 py-4 bg-slate-50 border-b-2 
-            ${isFocused ? 'border-blue-600' : 'border-slate-300'} 
-            text-slate-900 placeholder-transparent focus:outline-none transition-all duration-300
-            rounded-t-lg hover:bg-slate-100
-          `}
-          placeholder={placeholder}
-          id={label}
-        />
-        <label
-          htmlFor={label}
-          className={`
-            absolute left-4 transition-all duration-300 pointer-events-none
-            ${(isFocused || hasValue) 
-              ? '-top-2.5 text-xs text-blue-600' 
-              : 'top-4 text-slate-500'}
-          `}
-        >
-          {label}
-        </label>
-        <div className={`absolute bottom-0 left-0 h-[2px] bg-blue-600 transition-all duration-500 ease-out ${isFocused ? 'w-full' : 'w-0'}`} />
-      </div>
-    );
-  };
-
-  const RadioCard = ({ title, description, value, current, onClick }: any) => (
-    <motion.div
-      whileHover={{ scale: 1.02, y: -2 }}
-      whileTap={{ scale: 0.98 }}
-      onClick={() => onClick(value)}
-      className={`
-        cursor-pointer p-4 rounded-xl border transition-all duration-300 relative overflow-hidden
-        ${current === value 
-          ? 'bg-blue-50 border-blue-600 shadow-md' 
-          : 'bg-white border-slate-200 hover:border-blue-300 hover:bg-slate-50'}
-      `}
-    >
-      <div className="flex justify-between items-start relative z-10">
-        <div>
-          <h4 className={`font-semibold mb-1 ${current === value ? 'text-blue-700' : 'text-slate-900'}`}>{title}</h4>
-          <p className="text-xs text-slate-500">{description}</p>
-        </div>
-        {current === value && (
-          <motion.div 
-            initial={{ scale: 0 }} animate={{ scale: 1 }}
-            className="bg-blue-600 rounded-full p-1"
-          >
-            <Check className="w-3 h-3 text-white" />
-          </motion.div>
-        )}
-      </div>
-    </motion.div>
-  );
 
   if (showSuccess) {
     return (
@@ -481,24 +532,104 @@ export default function PremiumContactForm() {
 
                   {formData.loanPurpose === 'refinance' && (
                     <>
-                      <FloatingLabelInput label="Current Home Value" placeholder="$950,000" value={formData.homeValue} onChange={(e: any) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))} />
-                      <FloatingLabelInput label="Current Loan Balance" placeholder="$650,000" value={formData.currentLoanAmount} onChange={(e: any) => handleInputChange('currentLoanAmount', e.target.value.replace(/[^0-9]/g, ''))} />
-                      <FloatingLabelInput label="Current Rate (%)" placeholder="6.5" value={formData.currentRate} onChange={(e: any) => handleInputChange('currentRate', e.target.value)} />
+                      <FloatingLabelInput
+                        label="Current Home Value"
+                        placeholder="$950,000"
+                        value={formData.homeValue}
+                        onChange={(e) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Home Value'}
+                        onFocus={() => setFocusField('Current Home Value')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Current Loan Balance"
+                        placeholder="$650,000"
+                        value={formData.currentLoanAmount}
+                        onChange={(e) => handleInputChange('currentLoanAmount', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Loan Balance'}
+                        onFocus={() => setFocusField('Current Loan Balance')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Current Rate (%)"
+                        placeholder="6.5"
+                        value={formData.currentRate}
+                        onChange={(e) => handleInputChange('currentRate', e.target.value)}
+                        inputMode="decimal"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Rate (%)'}
+                        onFocus={() => setFocusField('Current Rate (%)')}
+                        onBlur={() => setFocusField(null)}
+                      />
                     </>
                   )}
 
                   {formData.loanPurpose === 'cash-out' && (
                     <>
-                      <FloatingLabelInput label="Current Home Value" placeholder="$950,000" value={formData.homeValue} onChange={(e: any) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))} />
-                      <FloatingLabelInput label="Current Loan Balance" placeholder="$650,000" value={formData.currentLoanAmount} onChange={(e: any) => handleInputChange('currentLoanAmount', e.target.value.replace(/[^0-9]/g, ''))} />
-                      <FloatingLabelInput label="Cash Out Amount" placeholder="$100,000" value={formData.cashOutAmount} onChange={(e: any) => handleInputChange('cashOutAmount', e.target.value.replace(/[^0-9]/g, ''))} />
+                      <FloatingLabelInput
+                        label="Current Home Value"
+                        placeholder="$950,000"
+                        value={formData.homeValue}
+                        onChange={(e) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Home Value'}
+                        onFocus={() => setFocusField('Current Home Value')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Current Loan Balance"
+                        placeholder="$650,000"
+                        value={formData.currentLoanAmount}
+                        onChange={(e) => handleInputChange('currentLoanAmount', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Loan Balance'}
+                        onFocus={() => setFocusField('Current Loan Balance')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Cash Out Amount"
+                        placeholder="$100,000"
+                        value={formData.cashOutAmount}
+                        onChange={(e) => handleInputChange('cashOutAmount', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Cash Out Amount'}
+                        onFocus={() => setFocusField('Cash Out Amount')}
+                        onBlur={() => setFocusField(null)}
+                      />
                     </>
                   )}
 
                   {!['refinance', 'cash-out'].includes(formData.loanPurpose) && (
                     <>
-                      <FloatingLabelInput label="Estimated Property Value" placeholder="$800,000" value={formData.homeValue} onChange={(e: any) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))} />
-                      <FloatingLabelInput label="Desired Loan Amount" placeholder="$600,000" value={formData.loanAmount} onChange={(e: any) => handleInputChange('loanAmount', e.target.value.replace(/[^0-9]/g, ''))} />
+                      <FloatingLabelInput
+                        label="Estimated Property Value"
+                        placeholder="$800,000"
+                        value={formData.homeValue}
+                        onChange={(e) => handleInputChange('homeValue', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Estimated Property Value'}
+                        onFocus={() => setFocusField('Estimated Property Value')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Desired Loan Amount"
+                        placeholder="$600,000"
+                        value={formData.loanAmount}
+                        onChange={(e) => handleInputChange('loanAmount', e.target.value.replace(/[^0-9]/g, ''))}
+                        inputMode="numeric"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Desired Loan Amount'}
+                        onFocus={() => setFocusField('Desired Loan Amount')}
+                        onBlur={() => setFocusField(null)}
+                      />
                     </>
                   )}
                 </motion.div>
@@ -514,11 +645,50 @@ export default function PremiumContactForm() {
                   className="space-y-2"
                 >
                   <div className="grid grid-cols-2 gap-4">
-                    <FloatingLabelInput label="First Name" placeholder="John" value={formData.firstName} onChange={(e: any) => handleInputChange('firstName', e.target.value)} />
-                    <FloatingLabelInput label="Last Name" placeholder="Doe" value={formData.lastName} onChange={(e: any) => handleInputChange('lastName', e.target.value)} />
+                    <FloatingLabelInput
+                      label="First Name"
+                      placeholder="John"
+                      value={formData.firstName}
+                      onChange={(e) => handleInputChange('firstName', e.target.value)}
+                      autoComplete="given-name"
+                      isFocused={focusedField === 'First Name'}
+                      onFocus={() => setFocusField('First Name')}
+                      onBlur={() => setFocusField(null)}
+                    />
+                    <FloatingLabelInput
+                      label="Last Name"
+                      placeholder="Doe"
+                      value={formData.lastName}
+                      onChange={(e) => handleInputChange('lastName', e.target.value)}
+                      autoComplete="family-name"
+                      isFocused={focusedField === 'Last Name'}
+                      onFocus={() => setFocusField('Last Name')}
+                      onBlur={() => setFocusField(null)}
+                    />
                   </div>
-                  <FloatingLabelInput label="Email Address" type="email" placeholder="john@example.com" value={formData.email} onChange={(e: any) => handleInputChange('email', e.target.value)} />
-                  <FloatingLabelInput label="Phone Number" type="tel" placeholder="(949) 555-0123" value={formData.phone} onChange={(e: any) => handleInputChange('phone', e.target.value)} />
+                  <FloatingLabelInput
+                    label="Email Address"
+                    type="email"
+                    placeholder="john@example.com"
+                    value={formData.email}
+                    onChange={(e) => handleInputChange('email', e.target.value)}
+                    autoComplete="email"
+                    isFocused={focusedField === 'Email Address'}
+                    onFocus={() => setFocusField('Email Address')}
+                    onBlur={() => setFocusField(null)}
+                  />
+                  <FloatingLabelInput
+                    label="Phone Number"
+                    type="tel"
+                    placeholder="(949) 555-0123"
+                    value={formData.phone}
+                    onChange={(e) => handleInputChange('phone', e.target.value)}
+                    autoComplete="tel"
+                    inputMode="tel"
+                    isFocused={focusedField === 'Phone Number'}
+                    onFocus={() => setFocusField('Phone Number')}
+                    onBlur={() => setFocusField(null)}
+                  />
                   <div className="relative mb-6">
                     <textarea
                       rows={3}

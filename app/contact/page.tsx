@@ -73,7 +73,7 @@ export default function PremiumContactPage() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
 
   return (
-    <div ref={containerRef} className="min-h-screen bg-white text-slate-900 selection:bg-blue-100 selection:text-blue-900 overflow-hidden">
+    <div ref={containerRef} className="min-h-screen bg-white text-slate-900 selection:bg-blue-100 selection:text-blue-900 overflow-hidden relative">
       
       {/* Scroll Progress Line */}
       <motion.div

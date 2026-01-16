@@ -63,7 +63,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme="base44">
+    <html lang="en" data-theme="base44" data-scroll-behavior="smooth">
       <head>
         <meta charSet="utf-8" />
         <meta name="google-site-verification" content="gje53lhRpuQPVaMLhtYAUYdO8ciKzx8APLNwNVhcT1A" />
