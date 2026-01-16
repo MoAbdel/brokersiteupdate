@@ -30,9 +30,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeSpeed;
-    /* Prevent paint on scroll */
-    backface-visibility: hidden;
-    perspective: 1000px;
   }
   
   /* Reduce mobile layout shifts */
@@ -103,11 +100,24 @@
   }
 }
 
-/* Chatbot: neutralize containing blocks that break position: fixed */
+/* Chatbot & Mobile Sticky Button: neutralize containing blocks that break position: fixed */
 html, body, #__next, #root, main, .site, .layout, .page, .site-wrapper {
   transform: none !important;
   filter: none !important;
   backdrop-filter: none !important;
   perspective: none !important;
   contain: none !important;
+}
+
+/* Ensure mobile sticky call button ALWAYS stays at bottom */
+@media (max-width: 768px) {
+  .md\:hidden[style*="position: fixed"][style*="bottom: 0"] {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 999999 !important;
+    transform: translateZ(0) !important;
+  }
 }
