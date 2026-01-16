@@ -194,7 +194,7 @@ mortgage-blog-generator/
 ```yaml
 ---
 name: mortgage-blog-generator
-description: Generate SEO-optimized mortgage and real estate blog posts for a wholesale mortgage broker targeting Southern California affluent communities. Use when creating blog content about mortgages, home loans, refinancing, FHA/VA/Jumbo loans, HELOCs, real estate market updates, or neighborhood guides. Supports batch generation with automatic geo-targeting rotation through 100 affluent SoCal cities. Optimized for Google, Bing, AIO (AI Overviews), AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization) for 2025-2026.
+description: Generate SEO-optimized mortgage and real estate blog posts for a wholesale mortgage broker targeting Southern California affluent communities. Use when creating blog content about mortgages, home loans, refinancing, FHA/VA/Jumbo loans, HELOCs, real estate market updates, or neighborhood guides. Supports batch generation with automatic geo-targeting rotation through 100 affluent SoCal cities. Optimized for Google, Bing/Copilot, ChatGPT, AIO (AI Overviews), AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization) for 2025-2026. Includes Bing-specific optimizations: exact-match keywords, desktop-first content, social meta tags, Bing Webmaster API submission, and ChatGPT citation formatting.
 ---
 ```
 
@@ -265,6 +265,180 @@ Include comprehensive 2025/2026 SEO best practices:
 - Local business schema implementation
 - Geo-modified keyword integration
 - Neighborhood-specific content depth
+
+---
+
+## BING OPTIMIZATION (Additive Layer)
+
+> **IMPORTANT**: These optimizations work ALONGSIDE existing Google/AIO/AEO/GEO practices, not as replacements. Bing powers ChatGPT's web search, making these optimizations critical for AI citation.
+
+### 1. Bing Keyword Formatting (Exact-Match Emphasis)
+
+Bing prefers literal keyword matching unlike Google's semantic understanding. Apply BOTH formats:
+
+**Google-optimized (keep):**
+```
+"comprehensive mortgage broker services in Orange County, California"
+```
+
+**Bing-optimized (add):**
+```
+"mortgage broker Orange County" (exact match in H1, first paragraph, 2+ H2s)
+```
+
+**Implementation Rules:**
+- [ ] H1 must contain exact-match keyword phrase
+- [ ] First paragraph must include exact-match within first 100 words
+- [ ] At least 2 H2 headings must use exact-match format
+- [ ] Title tag should lead with exact-match keyword
+- [ ] Meta description should include exact-match in first 60 characters
+
+### 2. Desktop-First Content Priority
+
+Bing uses desktop-first indexing (unlike Google's mobile-first). Ensure:
+
+**Desktop-First Validation Checklist:**
+- [ ] NO "show more" or "read more" JavaScript toggles hiding content
+- [ ] Tables render completely without horizontal scroll (max 1200px width)
+- [ ] Images sized for desktop viewing (minimum 800px width for hero images)
+- [ ] All critical content visible without JavaScript execution
+- [ ] No accordion/collapsible sections hiding primary content
+- [ ] Full FAQ answers visible (not collapsed by default)
+
+### 3. Social Meta Tags Enhancement
+
+Bing weights social signals for ranking. Add to EVERY blog post:
+
+```html
+<!-- Bing/Social Signals - REQUIRED -->
+<meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
+<meta property="og:type" content="article">
+<meta property="article:author" content="Mo Abdel">
+<meta property="article:publisher" content="https://mothebroker.com">
+<meta name="author" content="Mo Abdel, NMLS #1426884">
+<meta property="article:published_time" content="[ISO_DATE]">
+<meta property="article:modified_time" content="[ISO_DATE]">
+```
+
+### 4. Bing URL Submission (Post-Generation Workflow)
+
+After generating each blog post, include submission command:
+
+```bash
+# Submit directly to Bing Webmaster API (faster than IndexNow for Bing)
+curl "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BING_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d '{"siteUrl":"https://mothebroker.com","url":"https://mothebroker.com/blog/[SLUG]"}'
+
+# Also submit via IndexNow for broader coverage
+curl "https://api.indexnow.org/indexnow" \
+  -H "Content-Type: application/json" \
+  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://mothebroker.com/blog/[SLUG]"]}'
+```
+
+### 5. Sitemap Validation Requirements
+
+Bing allows only 1% "dirt" in sitemaps. Before submission, validate:
+
+**Sitemap Hygiene Checklist:**
+- [ ] No redirecting URLs (301/302) in sitemap
+- [ ] No 404 error URLs
+- [ ] No 500 server error URLs
+- [ ] All URLs return HTTP 200
+- [ ] No duplicate URLs
+- [ ] All URLs use canonical format (consistent www/non-www, https)
+- [ ] lastmod dates are accurate and recent
+
+### 6. ChatGPT Citation Optimization
+
+Bing powers ChatGPT's web browsing. Optimize for AI extraction:
+
+**First 150 Characters Rule:**
+The opening must be fact-dense and extractable as a standalone answer:
+```
+✅ GOOD: "In 2026, Orange County conforming loan limits are $1,266,300. Wholesale mortgage brokers access 50+ lenders to find rates 0.25-0.5% below retail banks."
+
+❌ BAD: "Are you looking for a mortgage in Orange County? You've come to the right place! Let me tell you about our services..."
+```
+
+**Numbered Lists for Steps:**
+ChatGPT prefers numbered lists for procedural content:
+```markdown
+## How to Get Pre-Approved in Orange County
+
+1. **Gather Documents** - W-2s, pay stubs, bank statements (2 months)
+2. **Check Credit Score** - Minimum 620 for conventional, 580 for FHA
+3. **Calculate DTI** - Total monthly debts ÷ gross monthly income (max 43%)
+4. **Contact Broker** - Submit application for wholesale rate comparison
+5. **Receive Pre-Approval** - Letter valid for 60-90 days
+```
+
+**Clear Attribution Pattern:**
+Include citable source markers:
+```
+"According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving Orange County since [YEAR]..."
+"Data from the Federal Housing Finance Agency shows..."
+"Based on 2026 HUD guidelines..."
+```
+
+### 7. Bing-Specific Schema Properties
+
+Add these Bing-preferred properties to Article schema:
+
+```json
+{
+  "@type": "Article",
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": "https://mothebroker.com/blog/[SLUG]",
+    "significantLink": [
+      "https://www.consumerfinance.gov/",
+      "https://www.hud.gov/",
+      "https://www.fhfa.gov/"
+    ]
+  },
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Mo Abdel - Wholesale Mortgage Broker",
+    "url": "https://mothebroker.com"
+  },
+  "copyrightYear": "2026",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Federal Housing Finance Agency",
+      "url": "https://www.fhfa.gov/"
+    }
+  ]
+}
+```
+
+### 8. User Engagement Signals Optimization
+
+Bing explicitly tracks dwell time, CTR, and bounce rate:
+
+**Hook in First Sentence (Reduce Bounce):**
+- Lead with a surprising statistic or direct answer
+- Avoid generic introductions
+- Promise specific value immediately
+
+**Internal Links (Increase Dwell Time):**
+- Minimum 3-5 internal links per post
+- Link to related loan programs, city guides, calculators
+- Use descriptive anchor text (not "click here")
+
+**Meta Description CTR Optimization:**
+- Include exact-match keyword in first 60 characters
+- Add a number or statistic when possible
+- Include a clear value proposition
+- End with subtle urgency or benefit
+
+**Example Meta Description:**
+```
+"Orange County mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours. NMLS #1426884."
+```
+
+---
 
 ### Primary Keyword Targets (integrate naturally)
 1. "mortgage broker near me"
@@ -696,6 +870,18 @@ Every generated blog post MUST include:
 - [ ] Subheadings every 200 words
 - [ ] Bolded key "answer-ready" phrases
 
+### Bing/Copilot/ChatGPT Requirements
+- [ ] **Exact-Match Keyword**: H1 contains exact-match keyword phrase
+- [ ] **Exact-Match in First 100 Words**: First paragraph includes exact-match
+- [ ] **Exact-Match in H2s**: At least 2 H2 headings use exact-match format
+- [ ] **Desktop-First Content**: No JS toggles, full tables visible, 800px+ images
+- [ ] **Social Meta Tags**: og:site_name, article:author, article:publisher included
+- [ ] **First 150 Chars Fact-Dense**: Opening is extractable standalone answer
+- [ ] **Numbered Lists for Steps**: All procedural content uses numbered lists
+- [ ] **Bing Schema Properties**: copyrightHolder, copyrightYear, significantLink included
+- [ ] **Minimum 3-5 Internal Links**: For dwell time optimization
+- [ ] **Hook First Sentence**: Surprising stat or direct answer (no generic intros)
+
 ---
 
 ## OUTPUT FORMAT
@@ -705,8 +891,9 @@ Each generated blog post should output in this format:
 ```markdown
 ---
 title: "[Generated Title]"
-meta_description: "[150-160 char description]"
+meta_description: "[150-160 char description - exact-match keyword in first 60 chars]"
 primary_keyword: "[keyword]"
+primary_keyword_exact_match: "[exact-match format for Bing]"
 secondary_keywords: ["kw1", "kw2", "kw3"]
 target_city: "[City if geo-targeted, null if topical]"
 schema_type: "[Article/FAQPage/HowTo/LocalBusiness]"
@@ -714,24 +901,87 @@ word_count: [number]
 date_generated: "[YYYY-MM-DD]"
 ---
 
-# [H1 Title]
+# [H1 Title - Must contain exact-match keyword]
+
+[First 150 characters must be fact-dense, extractable answer]
 
 [Blog content with proper formatting]
 
 ---
 
-## JSON-LD Schema
-```json
-[Complete schema markup]
+## Social Meta Tags (Bing/Social Signals)
+```html
+<meta property="og:title" content="[Title]">
+<meta property="og:description" content="[Meta Description]">
+<meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mothebroker.com/blog/[SLUG]">
+<meta property="article:author" content="Mo Abdel">
+<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:published_time" content="[ISO_DATE]">
+<meta property="article:modified_time" content="[ISO_DATE]">
+<meta name="author" content="Mo Abdel, NMLS #1426884">
 ```
 
-## Internal Link Suggestions
+## JSON-LD Schema (with Bing-specific properties)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "[Title]",
+  "author": {
+    "@type": "Person",
+    "name": "Mo Abdel",
+    "identifier": "NMLS #1426884"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mo Abdel - Wholesale Mortgage Broker",
+    "url": "https://mothebroker.com"
+  },
+  "datePublished": "[ISO_DATE]",
+  "dateModified": "[ISO_DATE]",
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": "https://mothebroker.com/blog/[SLUG]",
+    "significantLink": [
+      "https://www.consumerfinance.gov/",
+      "https://www.hud.gov/",
+      "https://www.fhfa.gov/"
+    ]
+  },
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Mo Abdel - Wholesale Mortgage Broker",
+    "url": "https://mothebroker.com"
+  },
+  "copyrightYear": "2026"
+}
+```
+
+## Internal Link Suggestions (Minimum 3-5 for Bing dwell time)
 - [Topic 1] → /blog/[slug]
 - [Topic 2] → /blog/[slug]
+- [Topic 3] → /loan-programs/[slug]
+- [Topic 4] → /areas/[city]
+- [Topic 5] → /guides/[slug]
 
-## Image Suggestions
-- Hero: [description] | Alt: "[alt text]"
-- Supporting: [description] | Alt: "[alt text]"
+## Image Suggestions (Desktop-First: min 800px width)
+- Hero: [description] | Alt: "[alt text with exact-match keyword]" | Min: 800x450px
+- Supporting: [description] | Alt: "[alt text]" | Min: 600x400px
+
+## Bing Submission Commands (Post-Publish)
+```bash
+# Submit to Bing Webmaster API
+curl "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BING_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d '{"siteUrl":"https://mothebroker.com","url":"https://mothebroker.com/blog/[SLUG]"}'
+
+# Submit via IndexNow
+curl "https://api.indexnow.org/indexnow" \
+  -H "Content-Type: application/json" \
+  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://mothebroker.com/blog/[SLUG]"]}'
+```
 ```
 
 ---
@@ -766,6 +1016,7 @@ date_generated: "[YYYY-MM-DD]"
 
 The completed skill must be able to:
 
+### Core Generation
 1. ✅ Generate a single geo-targeted blog post for any of the 100 cities
 2. ✅ Generate a single topical blog post on any mortgage topic
 3. ✅ Generate batch posts with exact 50/50 geo/topical split
@@ -776,6 +1027,18 @@ The completed skill must be able to:
 8. ✅ Target all 5 primary keywords across generated content
 9. ✅ Position wholesale advantage over competitors naturally
 10. ✅ Maintain consistent quality across all templates
+
+### Bing/Copilot/ChatGPT Optimization
+11. ✅ Include exact-match keyword in H1, first paragraph, and 2+ H2s
+12. ✅ Output desktop-first content (no JS toggles, full tables, 800px+ images)
+13. ✅ Include all required social meta tags (og:site_name, article:author, etc.)
+14. ✅ Include Bing-specific schema properties (copyrightHolder, significantLink)
+15. ✅ First 150 characters are fact-dense and extractable
+16. ✅ All procedural content uses numbered lists
+17. ✅ Minimum 3-5 internal links per post
+18. ✅ Hook in first sentence (no generic introductions)
+19. ✅ Include Bing Webmaster API submission command
+20. ✅ Include IndexNow submission command
 
 ---
 
