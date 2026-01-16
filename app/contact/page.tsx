@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "mo.abdel@Luminlending.com",
+    value: "mo.abdel@luminlending.com",
     action: "mailto:mo.abdel@Luminlending.com",
     subtext: "1 hr response time"
   },
@@ -139,7 +139,7 @@ export default function PremiumContactPage() {
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-slate-500 text-sm font-medium uppercase tracking-wider mb-2">{item.title}</h3>
-                  <p className="text-lg font-semibold text-slate-900 mb-1 group-hover:text-blue-600 transition-colors break-words leading-tight">{item.value}</p>
+                  <p className="text-sm font-semibold text-slate-900 mb-1 group-hover:text-blue-600 transition-colors break-words leading-snug max-w-full text-left">{item.value}</p>
                   <p className="text-xs text-slate-400">{item.subtext}</p>
                   
                   <div className="mt-auto pt-6 w-full flex justify-end opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-4 group-hover:translate-x-0">

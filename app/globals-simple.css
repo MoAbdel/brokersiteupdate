@@ -113,6 +113,10 @@ body {
   .progress-bar {
     transition: width 0.3s ease-in-out;
   }
+
+  .safe-bottom-padding {
+    padding-bottom: max(env(safe-area-inset-bottom, 0px), 0px);
+  }
 }
 
 /* Chatbot & Mobile Sticky Button: neutralize containing blocks that break position: fixed */

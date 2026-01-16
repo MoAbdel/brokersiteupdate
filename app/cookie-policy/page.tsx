@@ -69,7 +69,12 @@ export default function CookiePolicyPage() {
           </p>
           <ul className="list-none mb-4">
             <li><strong>Phone:</strong> (949) 822-9662</li>
-            <li><strong>Email:</strong> mo.abdel@luminlending.com</li>
+            <li>
+              <strong>Email:</strong>{' '}
+              <a href="mailto:mo.abdel@luminlending.com" className="text-blue-600 hover:underline">
+                Email Mo Abdel
+              </a>
+            </li>
             <li><strong>NMLS:</strong> #1426884</li>
           </ul>
         </div>

@@ -46,8 +46,10 @@ export default function Header() {
               <Image
                 src="/images/mo-headshot.jpg"
                 alt="Mo Abdel"
-                fill
-                className="object-cover"
+                width={48}
+                height={48}
+                sizes="(min-width: 768px) 48px, 40px"
+                className="w-full h-full object-cover"
                 priority
               />
             </div>
