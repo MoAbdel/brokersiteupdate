@@ -45,7 +45,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-slate-400">
               <li>📞 (949) 822-9662</li>
-              <li>📧 <a href="mailto:Mo.abdel@luminlending.com" className="hover:text-white transition-colors">Email Mo Abdel</a></li>
+              <li>📧 <a href="mailto:mo.abdel@luminlending.com" className="hover:text-white transition-colors">mo.abdel@luminlending.com</a></li>
               <li>📍 18301 Von Karman Ave Suite 820<br />Irvine, CA 92612</li>
               <li>🕒 Available 24/7</li>
             </ul>
