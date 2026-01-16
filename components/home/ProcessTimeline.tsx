@@ -69,7 +69,7 @@ export default function ProcessTimeline() {
             const isCurrent = activeStep === step.id;
             
             return (
-              <div key={step.id} className="flex flex-row md:flex-col items-center gap-4 md:gap-4 w-full md:w-auto">
+              <div key={step.id} className="flex flex-col items-center gap-2 md:gap-4 w-full md:w-auto">
                 {/* Icon Circle */}
                 <div 
                   className={`
@@ -95,7 +95,7 @@ export default function ProcessTimeline() {
 
                 {/* Label */}
                 <div className={`
-                  text-left md:text-center transition-all duration-500
+                  text-center transition-all duration-500
                   ${isActive ? 'opacity-100 translate-y-0' : 'opacity-60 md:opacity-100'}
                 `}>
                   <p className={`
@@ -109,15 +109,7 @@ export default function ProcessTimeline() {
                   </p>
                 </div>
                 
-                {/* Mobile Connector Line (Vertical) */}
-                {index < STEPS.length - 1 && (
-                  <div className={`
-                    md:hidden absolute left-6 top-12 bottom-0 w-0.5 h-8 my-auto -z-10
-                    ${isActive && activeStep > step.id ? 'bg-green-600' : 'bg-slate-200'}
-                  `} 
-                  style={{ top: '3rem', height: '2rem' }}
-                  />
-                )}
+                {/* Mobile Connector Line - Hidden since we use centered column layout */}
               </div>
             );
           })}
