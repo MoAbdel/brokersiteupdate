@@ -24,7 +24,7 @@ export default function HeroSection() {
                 </div>
              ))}
           </div>
-          <span className="text-xs font-medium text-slate-600">Accessing 100+ Wholesale Lenders</span>
+          <span className="text-xs font-medium text-slate-600">Accessing 50+ Wholesale Lenders</span>
         </div>
 
         <div className="space-y-8 lg:space-y-10">
@@ -32,7 +32,7 @@ export default function HeroSection() {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900">
               Your Direct Line to <br className="hidden md:block" />
               <span className="text-green-600">
-                100+ Wholesale Lenders
+                50+ Wholesale Lenders
               </span>
             </h1>
 
@@ -41,7 +41,7 @@ export default function HeroSection() {
                 Mo Abdel | Sr. Mortgage Broker | Lumin Lending
                 </p>
                 <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
-                Skip the bank. We access 100+ wholesale lenders to find you lower rates, faster approvals, and zero bureaucratic headaches.
+                Skip the bank. We access 50+ wholesale lenders to find you lower rates, faster approvals, and zero bureaucratic headaches.
                 </p>
             </div>
 
