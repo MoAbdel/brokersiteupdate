@@ -38,7 +38,7 @@ export default function HeroSection() {
 
             <div className="max-w-3xl mx-auto">
                 <p className="text-2xl text-slate-700 font-medium mb-4">
-                Mo Abdel | Mortgage Broker | Lumin Lending
+                Mo Abdel | Sr. Mortgage Broker | Lumin Lending
                 </p>
                 <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
                 Skip the bank. We access 100+ wholesale lenders to find you lower rates, faster approvals, and zero bureaucratic headaches.
