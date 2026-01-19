@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { User, FileText, Lock, CreditCard, Mail, Globe, Shield, LucideIcon } from 'lucide-react';
+import { User, FileText, Lock, CreditCard, Mail, Globe, LucideIcon } from 'lucide-react';
 
 interface QuickAction {
   icon: LucideIcon;
@@ -46,12 +46,6 @@ export default function QuickActionHub() {
       icon: Globe,
       title: 'LuminLending.com',
       href: 'https://luminlending.com',
-      external: true,
-    },
-    {
-      icon: Shield,
-      title: 'NMLSConsumerAccess.org',
-      href: 'https://www.nmlsconsumeraccess.org/',
       external: true,
     },
   ];
