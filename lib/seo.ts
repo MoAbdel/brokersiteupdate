@@ -46,7 +46,7 @@ export const structuredData = {
     "worksFor": {
       "@type": "Organization",
       "name": "Lumin Lending",
-      "url": "https://luminglending.com",
+      "url": "https://luminlending.com",
       "sameAs": [
         "https://www.linkedin.com/company/lumin-lending/",
         "https://www.crunchbase.com/organization/lumin-lending"

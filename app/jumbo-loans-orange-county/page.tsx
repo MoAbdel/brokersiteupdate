@@ -24,7 +24,7 @@ const jsonLd = {
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
     "telephone": "(949) 822-9662",
-    "email": "mo.abdel@Luminlending.com"
+    "email": "mo.abdel@luminlending.com"
   },
   "areaServed": {
     "@type": "Place",

@@ -62,7 +62,7 @@ export default function AdvancedSchemaMarkup({
     "Mo-Fr 08:00-18:00"
   ],
   sameAs = [
-    "https://luminglending.com/team/mo-abdel",
+    "https://luminlending.com/team/mo-abdel",
     "https://www.nmlsconsumeraccess.org"
   ],
   aggregateRating = {
@@ -72,7 +72,7 @@ export default function AdvancedSchemaMarkup({
   founder = {
     name: "Mo Abdel",
     jobTitle: "Branch Manager",
-    sameAs: ["https://luminglending.com/team/mo-abdel"]
+    sameAs: ["https://luminlending.com/team/mo-abdel"]
   }
 }: SchemaProps) {
 
@@ -112,7 +112,7 @@ export default function AdvancedSchemaMarkup({
           memberOf: {
             "@type": "Organization",
             name: "Lumin Lending, Inc.",
-            url: "https://luminglending.com"
+            url: "https://luminlending.com"
           },
           hasCredential: {
             "@type": "EducationalOccupationalCredential",

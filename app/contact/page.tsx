@@ -17,7 +17,7 @@ const contactInfo = [
     icon: Mail,
     title: "Email",
     value: "mo.abdel@luminlending.com",
-    action: "mailto:mo.abdel@Luminlending.com",
+    action: "mailto:mo.abdel@luminlending.com",
     subtext: "1 hr response time"
   },
   {

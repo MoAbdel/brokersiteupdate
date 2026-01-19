@@ -31,7 +31,7 @@ export default function HELOCSpecialistOrangeCounty() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
+                href="https://heloc.luminlending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -270,7 +270,7 @@ export default function HELOCSpecialistOrangeCounty() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
+              href="https://heloc.luminlending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b"
               target="_blank"
               rel="noopener noreferrer"
             >

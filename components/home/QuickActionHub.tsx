@@ -40,7 +40,7 @@ export default function QuickActionHub() {
     {
       icon: Mail,
       title: 'Email Me',
-      href: 'mailto:mo.abdel@Luminlending.com',
+      href: 'mailto:mo.abdel@luminlending.com',
     },
     {
       icon: Globe,
