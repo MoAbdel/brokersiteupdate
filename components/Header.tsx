@@ -55,7 +55,7 @@ export default function Header() {
             </div>
             <div className="ml-2 sm:ml-3">
               <span className={`block text-xs sm:text-sm font-bold leading-tight transition-colors ${showScrolled ? 'text-slate-900' : 'text-slate-900'}`}>Mo Abdel</span>
-              <span className="block text-[10px] sm:text-xs text-blue-600 font-medium uppercase tracking-wider">Branch Manager</span>
+              <span className="block text-[10px] sm:text-xs text-blue-600 font-medium uppercase tracking-wider">Sr. Mortgage Broker</span>
             </div>
           </Link>
 

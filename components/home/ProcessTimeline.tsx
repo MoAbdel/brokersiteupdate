@@ -51,7 +51,7 @@ export default function ProcessTimeline() {
   }, []);
 
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 mt-8 lg:mt-12 mb-10">
+    <div className="hidden md:block w-full max-w-6xl mx-auto px-4 mt-8 lg:mt-12 mb-10">
       <div className="relative">
         {/* Progress Line Background (Gray) */}
         <div className="absolute top-1/2 left-0 w-full h-1 bg-slate-200 -translate-y-1/2 rounded-full hidden md:block" />

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { User, Calendar, FileText, FileCheck, Lock, CreditCard, Mail, Globe, Shield, LucideIcon } from 'lucide-react';
+import { User, FileText, Lock, CreditCard, Mail, Globe, Shield, LucideIcon } from 'lucide-react';
 
 interface QuickAction {
   icon: LucideIcon;
@@ -20,33 +20,21 @@ export default function QuickActionHub() {
       download: 'MoAbdel.vcf',
     },
     {
-      icon: Calendar,
-      title: 'Schedule An Appointment',
-      href: 'https://calendly.com/mbabdel/15min',
-      external: true,
-    },
-    {
       icon: FileText,
       title: 'Apply Now',
-      href: 'https://westcaplending.loanzify.io/register/mo-abdel',
-      external: true,
-    },
-    {
-      icon: FileCheck,
-      title: 'Digital HELOC Application',
-      href: 'https://heloc.luminglending.com/account/heloc/register?referrer=cfc157b6-213d-43c7-9744-c1f238a8a44b',
+      href: 'https://2716106.my1003app.com/1426884/register?lang=en',
       external: true,
     },
     {
       icon: Lock,
-      title: 'Upload Documents Securely',
-      href: 'https://documentguardian.com/filedrop/mo.abdel@Luminlending.com',
+      title: 'Upload Documents',
+      href: 'https://moabdel.my1003app.com?time=1768859060594',
       external: true,
     },
     {
       icon: CreditCard,
       title: 'Order Credit Report',
-      href: 'https://credit.advcredit.com/smartpay/SmartPay.aspx?uid=66239a18-5991-4274-92ff-77e6bffa5ab4#forward',
+      href: 'https://credit.advcredit.com/smartpay/SmartPay.aspx?uid=c11fac55-2721-40e2-9bd2-4384db495743',
       external: true,
     },
     {
@@ -57,7 +45,7 @@ export default function QuickActionHub() {
     {
       icon: Globe,
       title: 'LuminLending.com',
-      href: 'https://luminglending.com/team/mo-abdel',
+      href: 'https://luminlending.com',
       external: true,
     },
     {
