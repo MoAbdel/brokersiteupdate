@@ -72,7 +72,7 @@ The client's wholesale channel access provides a critical rate advantage over:
 #### A. Footer Disclosures (Required on ALL Posts)
 ```
 ---
-**Mo Abdel** | NMLS #1426884 | West Capital Lending, Inc. | NMLS #1850
+**Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
 Licensed in: CA, TX, FL, AZ, WA, VA, CO
 
 Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
@@ -152,7 +152,7 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 [ ] NO "guaranteed approval" language
 [ ] NO misleading "free" claims
 [ ] INCLUDES NMLS information (Mo Abdel, NMLS #1426884)
-[ ] INCLUDES company info (West Capital Lending, Inc., NMLS #1850)
+[ ] INCLUDES company info (Lumin Lending, NMLS #2716106, DRE #02291443)
 [ ] INCLUDES Equal Housing Lender statement
 [ ] INCLUDES educational disclaimer where applicable
 [ ] INCLUDES "subject to credit approval" or similar
