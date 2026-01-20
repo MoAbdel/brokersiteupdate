@@ -154,7 +154,7 @@ export default function LagunaBeachJumboLoanGuide() {
                                 <Link href="/contact" className="bg-white text-indigo-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-indigo-50 transition shadow-lg inline-block">
                                     Schedule a Private Consultation
                                 </Link>
-                                <p className="mt-4 text-indigo-200 underline"><a href="tel:949-537-2357">(949) 537-2357</a></p>
+                                <p className="mt-4 text-indigo-200 underline"><a href="tel:949-822-9662">(949) 822-9662</a></p>
                             </section>
 
                             <section className="mb-12">

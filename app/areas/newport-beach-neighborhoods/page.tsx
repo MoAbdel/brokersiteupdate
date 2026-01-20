@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Newport Beach Neighborhoods',
     areaServed: 'Newport Beach, Orange County, CA',
     url: 'https://mothebroker.com/areas/newport-beach-neighborhoods',
-    telephone: '+1-949-537-2357',
+    telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', addressLocality: 'Newport Beach', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to luxury condos.',

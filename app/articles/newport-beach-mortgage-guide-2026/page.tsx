@@ -175,7 +175,7 @@ export default function NewportBeachMortgageGuide() {
                                 <Link href="/contact" className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition shadow-lg inline-block">
                                     Get a Free Pricing Quote
                                 </Link>
-                                <p className="mt-4 text-gray-500">Or call: <a href="tel:949-537-2357" className="font-bold text-gray-900">(949) 537-2357</a></p>
+                                <p className="mt-4 text-gray-500">Or call: <a href="tel:949-822-9662" className="font-bold text-gray-900">(949) 822-9662</a></p>
                             </section>
 
                             <section className="mb-12">

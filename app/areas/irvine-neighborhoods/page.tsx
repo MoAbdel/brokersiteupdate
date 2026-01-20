@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Irvine Neighborhoods',
     areaServed: 'Irvine, Orange County, CA',
     url: 'https://mothebroker.com/areas/irvine-neighborhoods',
-    telephone: '+1-949-537-2357',
+    telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', addressLocality: 'Irvine', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Neighborhood-specific mortgage expertise for all Irvine villages and communities, from established areas to new developments.',

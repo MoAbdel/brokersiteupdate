@@ -4,7 +4,7 @@ import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
   title: 'Costa Mesa Mortgage pricing 2026 | Best Home Loan Rates | Mo Abdel NMLS #1426884',
-  description: 'Current Costa Mesa mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA. Licensed mortgage broker Mo Abdel (949) 537-2357.',
+  description: 'Current Costa Mesa mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA. Licensed mortgage broker Mo Abdel (949) 822-9662.',
   openGraph: {
     title: 'Costa Mesa Mortgage pricing 2026 | Best Home Loan Rates',
     description: 'Current Costa Mesa mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Costa Mesa CA.',

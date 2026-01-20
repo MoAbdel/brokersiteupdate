@@ -389,7 +389,7 @@ export default function RefinanceSpecialistArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Or call for immediate assistance: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
+                  Or call for immediate assistance: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
                 </p>
               </section>
 

@@ -571,7 +571,7 @@ export default function FirstTimeHomebuyerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  First-time buyer specialist: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
+                  First-time buyer specialist: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
                 </p>
               </section>
 

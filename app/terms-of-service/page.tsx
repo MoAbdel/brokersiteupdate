@@ -44,7 +44,7 @@ export default function TermsOfServicePage() {
               <h3 className="text-lg font-semibold text-blue-800 mb-2">Service Agreement</h3>
               <p className="text-blue-700">
                 By using our services, you agree to these terms. We are committed to transparent, professional mortgage services.
-                Questions? Contact us at <strong>(949) 537-2357</strong>.
+                Questions? Contact us at <strong>(949) 822-9662</strong>.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function TermsOfServicePage() {
                 <li><strong>Licensed Company:</strong> Lumin Lending</li>
                 <li><strong>Equal Housing Lender</strong></li>
                 <li><strong>License Verification:</strong> <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a></li>
-                <li><strong>Licensed States:</strong> California, Washington, Virginia, Colorado</li>
+                <li><strong>Licensed States:</strong> California, Washington, Colorado</li>
               </ul>
             </div>
           </section>
@@ -268,7 +268,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 537-2357</span>
+                  <span>Phone: (949) 822-9662</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

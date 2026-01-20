@@ -147,10 +147,10 @@ export default function FAQ({
               Get Expert Guidance
             </a>
             <a
-              href="tel:(949) 537-2357"
+              href="tel:(949) 822-9662"
               className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors duration-200"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

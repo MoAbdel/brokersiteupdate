@@ -23,7 +23,7 @@ const jsonLd = {
     "@type": "Person",
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 537-2357",
+    "telephone": "(949) 822-9662",
     "email": "mo.abdel@luminlending.com"
   },
   "areaServed": {
@@ -36,7 +36,7 @@ const jsonLd = {
     "addressRegion": "CA",
     "addressCountry": "US"
   },
-  "telephone": "(949) 537-2357",
+  "telephone": "(949) 822-9662",
   "url": "https://mothebroker.com/va-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
@@ -74,7 +74,7 @@ export default function VALoansOrangeCountyPage() {
                   Apply for VA Loan
                 </Button>
               </Link>
-              <a href="tel:9495372357">
+              <a href="tel:9498229662">
                 <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
                   Call VA Specialist
                 </Button>
@@ -623,9 +623,9 @@ export default function VALoansOrangeCountyPage() {
                   Start My VA Loan Application
                 </Button>
               </Link>
-              <a href="tel:9495372357">
+              <a href="tel:9498229662">
                 <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                  Call VA Expert: (949) 537-2357
+                  Call VA Expert: (949) 822-9662
                 </Button>
               </a>
             </div>

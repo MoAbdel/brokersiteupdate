@@ -37,9 +37,9 @@ export default function JumboLoansPage() {
                 Get Jumbo Loan Rates
               </Button>
             </Link>
-            <a href="tel:+19495372357">
+            <a href="tel:+19498229662">
               <Button variant="ghost" className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -480,9 +480,9 @@ export default function JumboLoansPage() {
                 Get My Jumbo Loan Quote
               </Button>
             </Link>
-            <a href="tel:+19495372357">
+            <a href="tel:+19498229662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

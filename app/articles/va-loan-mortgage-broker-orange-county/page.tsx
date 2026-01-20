@@ -539,7 +539,7 @@ export default function VALoanBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Veteran-owned business: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
+                  Veteran-owned business: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
                 </p>
                 <p className="text-xs mt-2 opacity-90">Thank you for your service. 🇺🇸</p>
               </section>

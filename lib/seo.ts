@@ -5,7 +5,7 @@ export const seoData = {
   },
   About: {
     title: "About Mo Abdel | Lumin Lending Broker",
-    description: "Meet Mo Abdel – licensed mortgage broker helping homeowners in CA, WA, VA & CO get better pricing, faster approvals, and more flexible refinance options. Specializing in Orange County home equity and refinancing."
+    description: "Meet Mo Abdel – licensed mortgage broker helping homeowners in CA, WA & CO get better pricing, faster approvals, and more flexible refinance options. Specializing in Orange County home equity and refinancing."
   },
   Programs: {
     title: "Loan Programs | Equity & Refinance | Orange County",
@@ -109,10 +109,6 @@ export const structuredData = {
     },
     {
       "@type": "AdministrativeArea",
-      "name": "Virginia"
-    },
-    {
-      "@type": "AdministrativeArea",
       "name": "Colorado"
     }
   ],
@@ -138,7 +134,7 @@ export const structuredData = {
     "https://mothebroker.com"
   ],
   "priceRange": "$$",
-  "description": "Licensed mortgage broker based in Lake Forest, serving CA, WA, VA, and CO. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 537-2357 for multi-state mortgage expertise.",
+  "description": "Licensed mortgage broker based in Lake Forest, serving CA, WA, and CO. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 822-9662 for multi-state mortgage expertise.",
   "image": "https://mothebroker.com/images/mo-headshot.jpg",
   "logo": "https://mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],

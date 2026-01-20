@@ -28,7 +28,7 @@ const structuredData = {
     "addressLocality": "Orange County",
     "addressRegion": "CA"
   },
-  "telephone": "(949) 537-2357",
+  "telephone": "(949) 822-9662",
   "url": "https://www.mothebroker.com/fha-loans-orange-county",
   "description": "Expert FHA loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
@@ -205,7 +205,7 @@ export default function FHALoansOrangeCountyPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 537-2357" className="flex items-center">
+                <a href="tel:(949) 822-9662" className="flex items-center">
                   <Home className="w-5 h-5 mr-2" />
                   Get Pre-Approved for FHA
                 </a>
@@ -446,8 +446,8 @@ export default function FHALoansOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 537-2357">
-                  Call (949) 537-2357
+                <a href="tel:(949) 822-9662">
+                  Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">

@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Ultra-Luxury Estates Mortgage Broker | $5M+ Properties | Mo Abdel NMLS #1426884',
-  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 537-2357.',
+  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
   },
@@ -250,10 +250,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 Exclusive financing for Orange County's most prestigious ultra-luxury estates. From $5M oceanfront mansions to private compounds, expert guidance for the ultimate in luxury living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 537-2357">
+                <a href="tel:(949) 822-9662">
                   <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 537-2357
+                    Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -497,10 +497,10 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               Get exclusive expertise for Orange County's most prestigious ultra-luxury properties. Discretionary service, private banking solutions, portfolio lending specialists.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 537-2357">
+              <a href="tel:(949) 822-9662">
                 <Button size="lg" variant="outline" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 537-2357
+                  Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">

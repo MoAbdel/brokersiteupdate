@@ -173,7 +173,7 @@ export default function NewsInsights() {
             {showError && (
               <div className="mb-6 p-4 bg-red-100 border border-red-200 rounded-lg text-red-800 max-w-md mx-auto">
                 <p className="text-sm text-center">
-                  Something went wrong. Please try again or call Mo directly at (949) 537-2357.
+                  Something went wrong. Please try again or call Mo directly at (949) 822-9662.
                 </p>
               </div>
             )}

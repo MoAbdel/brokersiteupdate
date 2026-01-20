@@ -287,9 +287,9 @@ export default function NeighborhoodGuidePage() {
                 Start Your Neighborhood Analysis
               </Button>
             </Link>
-            <a href="tel:9495372357">
+            <a href="tel:9498229662">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

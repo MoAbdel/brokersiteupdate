@@ -12,7 +12,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Contact & General Info
   {
     question: "How can I contact Mo?",
-    answer: "You can reach Mo Abdel directly at (949) 537-2357 (call or text anytime). He's available 24/7 and typically responds within 1 business day. You can also use the contact form on the website. Mo is a licensed mortgage broker (NMLS #1426884) with Lumin Lending.",
+    answer: "You can reach Mo Abdel directly at (949) 822-9662 (call or text anytime). He's available 24/7 and typically responds within 1 business day. You can also use the contact form on the website. Mo is a licensed mortgage broker (NMLS #1426884) with Lumin Lending.",
     category: "contact",
     keywords: ["contact", "phone", "call", "reach", "number", "text", "email"],
     followUp: ["What are Mo's business hours?", "Can I text instead of call?"]
@@ -35,7 +35,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Rates & Pricing
   {
     question: "What are current mortgage pricing?",
-    answer: "Current pricing vary by loan type and credit score. Today's pricing is approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call (949) 537-2357 for your personalized loan quote with no obligation.",
+    answer: "Current pricing vary by loan type and credit score. Today's pricing is approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call (949) 822-9662 for your personalized loan quote with no obligation.",
     category: "rates",
     keywords: ["rates", "interest", "current", "today", "apr", "percentage"],
     followUp: ["What affects my rate?", "Can I lock my rate?"]
@@ -148,7 +148,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Refinancing
   {
     question: "Should I refinance?",
-    answer: "Refinancing makes sense if you can lower your pricing by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With Current pricing, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call (949) 537-2357.",
+    answer: "Refinancing makes sense if you can lower your pricing by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With Current pricing, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call (949) 822-9662.",
     category: "refinance",
     keywords: ["refinance", "refi", "lower rate", "cash out"],
     followUp: ["What are refinance pricing?", "How much can I cash out?"]
@@ -235,14 +235,14 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Can you beat my bank's rate?",
-    answer: "I often find better pricing through my 200+ wholesale lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 537-2357 for your personalized comparison.",
+    answer: "I often find better pricing through my 200+ wholesale lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 822-9662 for your personalized comparison.",
     category: "rates",
     keywords: ["beat", "match", "better", "lower", "compete"],
     followUp: ["How much can I save?", "Will you match rates?"]
   },
   {
     question: "How do I get started?",
-    answer: "Getting started is easy! Call or text me at (949) 537-2357 for a free consultation. I'll discuss your goals, review your situation, provide loan quotes, and get you pre-approved if ready. The whole process starts with a simple phone call. I'm available 24/7 and respond quickly.",
+    answer: "Getting started is easy! Call or text me at (949) 822-9662 for a free consultation. I'll discuss your goals, review your situation, provide loan quotes, and get you pre-approved if ready. The whole process starts with a simple phone call. I'm available 24/7 and respond quickly.",
     category: "process",
     keywords: ["start", "begin", "get started", "apply", "first step"],
     followUp: ["What information do you need?", "How long for pre-approval?"]
@@ -272,7 +272,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What are your business hours?",
-    answer: "I'm available 24/7 to serve your needs! While standard business hours are Monday-Friday 9 AM to 6 PM, I understand buying a home doesn't follow a 9-5 schedule. Feel free to call or text (949) 537-2357 anytime. I typically respond within 1 hour during business hours and within 24 hours on weekends.",
+    answer: "I'm available 24/7 to serve your needs! While standard business hours are Monday-Friday 9 AM to 6 PM, I understand buying a home doesn't follow a 9-5 schedule. Feel free to call or text (949) 822-9662 anytime. I typically respond within 1 hour during business hours and within 24 hours on weekends.",
     category: "contact",
     keywords: ["hours", "available", "when", "time", "schedule", "open"],
     followUp: ["Best time to call?", "Do you meet on weekends?"]
@@ -368,9 +368,9 @@ export const quickActions = [
 
 // Fallback responses when no match found
 export const fallbackResponses = [
-  "I'd be happy to help with that! For personalized assistance, please call Mo directly at (949) 537-2357. He's available 24/7 and can answer your specific questions.",
-  "That's a great question! Mo can provide detailed information about your specific situation. Call or text (949) 537-2357 for immediate assistance.",
-  "I don't have specific information about that, but Mo would love to help! Reach out at (949) 537-2357 or use the contact form for a personalized response."
+  "I'd be happy to help with that! For personalized assistance, please call Mo directly at (949) 822-9662. He's available 24/7 and can answer your specific questions.",
+  "That's a great question! Mo can provide detailed information about your specific situation. Call or text (949) 822-9662 for immediate assistance.",
+  "I don't have specific information about that, but Mo would love to help! Reach out at (949) 822-9662 or use the contact form for a personalized response."
 ];
 
 // Welcome message
@@ -383,6 +383,6 @@ export const welcomeMessage = `👋 Hi! I'm Mo's AI assistant. I can help you wi
 
 What can I help you with today?
 
-📞 For personalized assistance: (949) 537-2357
+📞 For personalized assistance: (949) 822-9662
 
 *This is an automated assistant. Information provided is for educational purposes only and not a commitment to lend. All loans subject to underwriting approval. Pricing and terms subject to change without notice.*`;

@@ -521,7 +521,7 @@ export default function JumboLoanBrokerArticle() {
                   </Link>
                 </div>
                 <p className="mt-6 text-sm">
-                  Jumbo loan specialist: <a href="tel:949-537-2357" className="underline font-semibold">(949) 537-2357</a>
+                  Jumbo loan specialist: <a href="tel:949-822-9662" className="underline font-semibold">(949) 822-9662</a>
                 </p>
               </section>
 

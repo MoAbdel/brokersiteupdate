@@ -137,10 +137,10 @@ export default function DSCRInvestmentPropertyLoans2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19495372357">
+              <a href="tel:+19498229662">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 537-2357
+                  (949) 822-9662
                 </Button>
               </a>
             </div>
@@ -488,10 +488,10 @@ export default function DSCRInvestmentPropertyLoans2026() {
                 Get DSCR Loan Quote
               </Button>
             </Link>
-            <a href="tel:+19495372357">
+            <a href="tel:+19498229662">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

@@ -35,9 +35,9 @@ export default function BankStatementLoansPage() {
                 Get Bank Statement Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>
@@ -389,9 +389,9 @@ export default function BankStatementLoansPage() {
                 Start Your Application
               </Button>
             </Link>
-            <a href="tel:(949) 537-2357">
+            <a href="tel:(949) 822-9662">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
-                Call (949) 537-2357
+                Call (949) 822-9662
               </Button>
             </a>
           </div>

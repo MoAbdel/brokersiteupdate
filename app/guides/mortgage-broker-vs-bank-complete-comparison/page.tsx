@@ -744,7 +744,7 @@ export default function MortgageBrokerVsBankComparison() {
               Actual pricing, terms, and costs subject to credit approval and market conditions.
             </p>
             <p>
-              Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, Virginia, and Colorado.
+              Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, and Colorado.
             </p>
           </div>
         </div>

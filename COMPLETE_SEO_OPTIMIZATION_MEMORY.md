@@ -125,7 +125,6 @@
     {"@type": "AdministrativeArea", "name": "Orange County, CA"},
     {"@type": "AdministrativeArea", "name": "California"},
     {"@type": "AdministrativeArea", "name": "Washington"},
-    {"@type": "AdministrativeArea", "name": "Virginia"},
     {"@type": "AdministrativeArea", "name": "Colorado"}
   ],
   "address": {
@@ -381,7 +380,6 @@
 ### Licensed States:
 - **California** (primary)
 - **Washington**
-- **Virginia**
 - **Colorado**
 
 ### Service Areas:

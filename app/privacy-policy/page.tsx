@@ -44,7 +44,7 @@ export default function PrivacyPolicyPage() {
               <h3 className="text-lg font-semibold text-blue-800 mb-2">Your Privacy Matters</h3>
               <p className="text-blue-700">
                 We are committed to protecting your personal and financial information in compliance with federal and state regulations.
-                Questions? Contact us at <strong>(949) 537-2357</strong>.
+                Questions? Contact us at <strong>(949) 822-9662</strong>.
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-slate-700 mb-4">To exercise your California privacy rights, contact us:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
-              <li>Phone: (949) 537-2357</li>
+              <li>Phone: (949) 822-9662</li>
               <li>Mail: 18301 Von Karman Ave Suite 820, Irvine, CA 92612</li>
             </ul>
           </section>
@@ -213,7 +213,7 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 537-2357</span>
+                  <span>Phone: (949) 822-9662</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

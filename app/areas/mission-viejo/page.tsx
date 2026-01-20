@@ -29,7 +29,7 @@ export default function Page() {
     name: 'Mo the Broker - Mission Viejo',
     areaServed: 'Mission Viejo, Orange County, CA',
     url: 'https://mothebroker.com/areas/mission-viejo',
-    telephone: '+1-949-537-2357',
+    telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', addressLocality: 'Mission Viejo', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
     description: 'Wholesale mortgage broker serving Mission Viejo with access to 200+ lenders for home loans, HELOCs, and refinancing in South Orange County.',
