@@ -73,7 +73,7 @@ The client's wholesale channel access provides a critical rate advantage over:
 ```
 ---
 **Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
-Licensed in: CA, TX, FL, AZ, WA, VA, CO
+Licensed in: CA, WA, CO
 
 Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
 ---
