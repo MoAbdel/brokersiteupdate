@@ -5,7 +5,7 @@ import { ClipboardList, Search, BarChart3, ShieldCheck, Key } from 'lucide-react
 
 const STEPS = [
   { id: 1, label: 'Quick Application', icon: ClipboardList, duration: 1000 },
-  { id: 2, label: 'We Shop 100+ Lenders', icon: Search, duration: 1200 },
+  { id: 2, label: 'We Shop 50+ Lenders', icon: Search, duration: 1200 },
   { id: 3, label: 'Compare Your Options', icon: BarChart3, duration: 1000 },
   { id: 4, label: 'Lock Your Rate', icon: ShieldCheck, duration: 1000 },
   { id: 5, label: 'Close', icon: Key, duration: 2000 },
