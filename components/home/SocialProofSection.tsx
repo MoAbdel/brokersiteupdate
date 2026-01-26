@@ -7,7 +7,7 @@ const reviews = [
     {
       name: "jhcurry",
       location: "Fairfield, CA",
-      date: "Dec 2026",
+      date: "Dec 2025",
       rating: 5,
       loanType: "Home Equity",
       quote: "I worked with Mo and Latoyia at WCL to obtain a HEL. I could not be more pleased with the process. Mo was professional, thorough and generally very interested in seeing that my experience was a pleasant one. I'd recommend them to anyone looking for a lender. Great job.",
@@ -18,7 +18,7 @@ const reviews = [
     {
       name: "sacullagarrett",
       location: "Chula Vista, CA",
-      date: "Nov 2026",
+      date: "Nov 2025",
       rating: 5,
       loanType: "Home Equity",
       quote: "Mo was completely transparent and professional. He made the loan process easy. Highly recommend him as a loan officer. Hands off and very quick. Very straight forward.",
@@ -29,7 +29,7 @@ const reviews = [
     {
       name: "Jim Lord",
       location: "Paso Robles, CA",
-      date: "Oct 2026",
+      date: "Oct 2025",
       rating: 5,
       loanType: "Home Equity",
       quote: "We have refinanced before but have never had such a hard working and professional lender's representative than Mo. I ended up having a number of questions but he cheerfully and professionally responded. Our loan was processed quickly and without incident. I would definitely use Mo again and refer him to others.",
@@ -40,7 +40,7 @@ const reviews = [
     {
       name: "Karthikeyan Ramaswami",
       location: "Aldie, VA",
-      date: "Apr 2026",
+      date: "Apr 2025",
       rating: 5,
       loanType: "Refinance",
       quote: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for lender decision, temporary approval and so on. Mo was great in communicating me clearly and was willing to go extra mile to check.",
