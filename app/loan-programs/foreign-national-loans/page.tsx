@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/foreign-national-loans',
   },
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 };
 
 export default function ForeignNationalLoansPage() {

@@ -106,9 +106,8 @@ export default function RootLayout({
 
 
 
-        {/* Hreflang tags for multi-state targeting */}
+        {/* Hreflang tags - US only targeting */}
         <link rel="alternate" hrefLang="en-US" href="https://www.mothebroker.com" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.mothebroker.com" />
 
         <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2026" />

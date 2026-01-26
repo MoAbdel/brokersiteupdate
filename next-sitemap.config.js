@@ -13,11 +13,40 @@ module.exports = {
   ],
   robotsTxtOptions: {
     policies: [
+      // Default policy for good crawlers
       {
         userAgent: '*',
         allow: '/',
         disallow: ['/admin/', '/api/', '/dashboard/']
-      }
+      },
+      // Block Chinese search engines
+      { userAgent: 'Baiduspider', disallow: '/' },
+      { userAgent: 'Baiduspider-image', disallow: '/' },
+      { userAgent: 'Baiduspider-video', disallow: '/' },
+      { userAgent: 'Baiduspider-news', disallow: '/' },
+      { userAgent: 'Sogou web spider', disallow: '/' },
+      { userAgent: 'Sogou inst spider', disallow: '/' },
+      { userAgent: 'Sogou spider2', disallow: '/' },
+      { userAgent: 'Sogou blog', disallow: '/' },
+      { userAgent: 'Sogou News Spider', disallow: '/' },
+      { userAgent: 'Sogou Orion spider', disallow: '/' },
+      { userAgent: '360Spider', disallow: '/' },
+      { userAgent: 'HaoSouSpider', disallow: '/' },
+      { userAgent: 'YisouSpider', disallow: '/' },
+      { userAgent: 'Bytespider', disallow: '/' },
+      // Block Russian search engines
+      { userAgent: 'Yandex', disallow: '/' },
+      { userAgent: 'YandexBot', disallow: '/' },
+      { userAgent: 'YandexImages', disallow: '/' },
+      { userAgent: 'YandexVideo', disallow: '/' },
+      { userAgent: 'YandexMedia', disallow: '/' },
+      { userAgent: 'YandexBlogs', disallow: '/' },
+      { userAgent: 'YandexNews', disallow: '/' },
+      { userAgent: 'YandexMetrika', disallow: '/' },
+      // Block other international crawlers (Korean, Czech)
+      { userAgent: 'NaverBot', disallow: '/' },
+      { userAgent: 'Yeti', disallow: '/' },
+      { userAgent: 'SeznamBot', disallow: '/' }
     ]
   },
   transform: async (config, path) => {
@@ -128,7 +157,7 @@ module.exports = {
       '/loan-programs/bank-statement-loans',
       '/loan-programs/dscr-investment-loans',
       '/loan-programs/asset-depletion-loans',
-      '/loan-programs/foreign-national-loans',
+      // '/loan-programs/foreign-national-loans', // Removed - noindex page
       '/loan-programs/usda-rural-loans',
       '/loan-programs/fix-flip-loans',
       '/loan-programs/profit-loss-statement-loans',
