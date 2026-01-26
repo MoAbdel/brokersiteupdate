@@ -43,14 +43,14 @@ export default function JumboLoanBrokerArticle() {
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
-                <span>January 9, 2026</span>
+                <span>January 9, 2025</span>
                 <span>•</span>
                 <span>11 min read</span>
               </div>
 
               <div className="bg-purple-100 border-l-4 border-purple-600 p-6 rounded-lg">
                 <p className="text-lg text-gray-800">
-                  With Orange County's 2026 conforming loan limit at $1,266,300, many luxury properties require jumbo financing. These non-conforming loans demand specialized expertise and lender relationships to secure competitive terms for high-value real estate investments.
+                  With Orange County's 2025 conforming loan limit at $1,266,300, many luxury properties require jumbo financing. These non-conforming loans demand specialized expertise and lender relationships to secure competitive terms for high-value real estate investments.
                 </p>
               </div>
             </div>
@@ -71,10 +71,10 @@ export default function JumboLoanBrokerArticle() {
 
               {/* Understanding Jumbo Loans */}
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding Orange County Jumbo Loans in 2026</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding Orange County Jumbo Loans in 2025</h2>
 
                 <div className="bg-blue-50 p-8 rounded-lg mb-8">
-                  <h3 className="text-2xl font-semibold mb-4">2026 Orange County Loan Limits</h3>
+                  <h3 className="text-2xl font-semibold mb-4">2025 Orange County Loan Limits</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-lg mb-3">Conforming Loan Limit</h4>

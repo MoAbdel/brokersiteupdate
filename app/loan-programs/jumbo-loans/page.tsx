@@ -79,7 +79,7 @@ export default function JumboLoansPage() {
 
         {/* Jumbo Loan Thresholds */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2026 Jumbo Loan Thresholds</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2025 Jumbo Loan Thresholds</h2>
           <div className="bg-purple-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>

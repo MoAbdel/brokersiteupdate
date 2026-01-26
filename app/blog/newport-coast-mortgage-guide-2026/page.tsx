@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Newport Coast Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Newport Coast Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function NewportCoastMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Newport Coast Mortgage Guide 2026: Luxury & Ultra-High-Net-Worth Financing",
+                        "headline": "Newport Coast Mortgage Guide 2025: Luxury & Ultra-High-Net-Worth Financing",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function NewportCoastMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-08",
-                        "dateModified": "2026-01-08",
-                        "description": "Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in high-limit jumbo loans and institutional pricing for OC's most exclusive estates."
+                        "datePublished": "2025-01-08",
+                        "dateModified": "2025-01-08",
+                        "description": "Navigate the ultra-luxury mortgage market of Newport Coast in 2025. Specializing in high-limit jumbo loans and institutional pricing for OC's most exclusive estates."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Newport Coast Mortgage Guide 2026: Luxury & Ultra-High-Net-Worth Financing
+                    Newport Coast Mortgage Guide 2025: Luxury & Ultra-High-Net-Worth Financing
                 </h1>
                 <p className="text-lg text-gray-600">
                     Sophisticated lending solutions for California's "Riviera"—from Crystal Cove to Pelican Hill.
@@ -50,11 +50,11 @@ export default function NewportCoastMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in Newport Coast in 2026, ultra-high-net-worth (UHNW) borrowers should prioritize **wholesale jumbo programs** that offer asset-depletion and non-QM flexibility. In an enclave where property values frequently exceed $10 million, the most effective financing strategy avoids standard retail banks in favor of **institutional private money channels**—which provide more competitive interest margins and faster underwriting for complex financial portfolios.
+                        To secure a mortgage in Newport Coast in 2025, ultra-high-net-worth (UHNW) borrowers should prioritize **wholesale jumbo programs** that offer asset-depletion and non-QM flexibility. In an enclave where property values frequently exceed $10 million, the most effective financing strategy avoids standard retail banks in favor of **institutional private money channels**—which provide more competitive interest margins and faster underwriting for complex financial portfolios.
                     </p>
                 </div>
 
-                <h2>What defines the Newport Coast real estate market in 2026?</h2>
+                <h2>What defines the Newport Coast real estate market in 2025?</h2>
                 <p>
                     Newport Coast remains one of the most exclusive residential destinations in the world. As a broker catering to this market, I focus on the specific needs of UHNW individuals who value privacy, speed, and precision.
                 </p>
@@ -84,7 +84,7 @@ export default function NewportCoastMortgageGuidePage() {
 
                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-10">
                     <h3 className="text-2xl font-bold text-blue-900 mb-6 mt-0 text-center">
-                        2026 Newport Coast Luxury Financing Options
+                        2025 Newport Coast Luxury Financing Options
                     </h3>
                     <div className="overflow-x-auto">
                         <table className="min-w-full text-sm">

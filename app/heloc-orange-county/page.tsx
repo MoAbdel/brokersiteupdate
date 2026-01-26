@@ -89,7 +89,7 @@ const faqs = [
   },
   {
     question: "What are current HELOC pricing in Orange County?",
-    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2026, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
+    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2025, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
   },
   {
     question: "How much can I borrow with a HELOC in Orange County?",

@@ -437,7 +437,7 @@ export default function OrangeCountyVALoansGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              2026 VA Loan Limits for Orange County
+              2025 VA Loan Limits for Orange County
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Understanding loan limits and options for high-cost Orange County market.
@@ -449,7 +449,7 @@ export default function OrangeCountyVALoansGuide() {
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Standard VA Loan</h3>
               <div className="space-y-4">
                 <div>
-                  <span className="text-blue-700 font-medium">2026 Loan Limit:</span>
+                  <span className="text-blue-700 font-medium">2025 Loan Limit:</span>
                   <div className="text-3xl font-bold text-blue-600">$1,266,300</div>
                 </div>
                 <div>

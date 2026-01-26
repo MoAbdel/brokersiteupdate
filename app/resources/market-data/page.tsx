@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Housing Market Data 2026 | Real Estate Trends & Stats',
+  title: 'Orange County Housing Market Data 2025 | Real Estate Trends & Stats',
   description: 'Current Orange County housing market data, trends, and analysis. Home prices, inventory levels, days on market, and neighborhood statistics for informed home buying.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/market-data',
@@ -152,12 +152,12 @@ export default function MarketDataPage() {
   ];
 
   const monthlyTrends = [
-    { month: 'Mar 2026', price: '$1,158,000', sales: 1923 },
-    { month: 'Apr 2026', price: '$1,168,000', sales: 2056 },
-    { month: 'May 2026', price: '$1,175,000', sales: 2187 },
-    { month: 'Jun 2026', price: '$1,182,000', sales: 2234 },
-    { month: 'Jul 2026', price: '$1,189,000', sales: 2098 },
-    { month: 'Aug 2026', price: '$1,195,000', sales: 2124 }
+    { month: 'Mar 2025', price: '$1,158,000', sales: 1923 },
+    { month: 'Apr 2025', price: '$1,168,000', sales: 2056 },
+    { month: 'May 2025', price: '$1,175,000', sales: 2187 },
+    { month: 'Jun 2025', price: '$1,182,000', sales: 2234 },
+    { month: 'Jul 2025', price: '$1,189,000', sales: 2098 },
+    { month: 'Aug 2025', price: '$1,195,000', sales: 2124 }
   ];
 
   const marketInsights = [
@@ -220,7 +220,7 @@ export default function MarketDataPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              August 2026 Market Snapshot
+              August 2025 Market Snapshot
             </h2>
             <p className="text-xl text-slate-600">
               Latest data from Orange County real estate market
@@ -440,7 +440,7 @@ export default function MarketDataPage() {
               <div className="text-center">
                 <Target className="w-12 h-12 mx-auto mb-4" />
                 <h2 className="text-2xl font-bold mb-4">
-                  2026 Market Outlook
+                  2025 Market Outlook
                 </h2>
                 <div className="grid md:grid-cols-3 gap-6 text-sm">
                   <div>

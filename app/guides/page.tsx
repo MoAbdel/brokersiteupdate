@@ -19,7 +19,7 @@ const guides = [
     url: '/guides/why-choose-local-mortgage-broker',
     category: 'Local Expertise',
     readTime: '5 min read',
-    date: '2026-01-15',
+    date: '2025-01-15',
     featured: true
   },
   {
@@ -28,7 +28,7 @@ const guides = [
     url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '8 min read',
-    date: '2026-01-14',
+    date: '2025-01-14',
     featured: false
   },
   {
@@ -37,7 +37,7 @@ const guides = [
     url: '/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '7 min read',
-    date: '2026-01-13',
+    date: '2025-01-13',
     featured: false
   },
   {
@@ -46,7 +46,7 @@ const guides = [
     url: '/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '6 min read',
-    date: '2026-01-12',
+    date: '2025-01-12',
     featured: false
   },
   {
@@ -55,7 +55,7 @@ const guides = [
     url: '/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide',
     category: 'Neighborhood Guide',
     readTime: '7 min read',
-    date: '2026-01-11',
+    date: '2025-01-11',
     featured: false
   },
   {
@@ -64,7 +64,7 @@ const guides = [
     url: '/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
     category: 'Neighborhood Guide',
     readTime: '12 min read',
-    date: '2026-01-10',
+    date: '2025-01-10',
     featured: false
   }
 ];

@@ -43,7 +43,7 @@ export default function FirstTimeHomebuyerArticle() {
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
-                <span>January 9, 2026</span>
+                <span>January 9, 2025</span>
                 <span>•</span>
                 <span>13 min read</span>
               </div>
@@ -74,7 +74,7 @@ export default function FirstTimeHomebuyerArticle() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Understanding Orange County's First-Time Buyer Market</h2>
 
                 <div className="bg-blue-50 p-8 rounded-lg mb-8">
-                  <h3 className="text-2xl font-semibold mb-4">2026 Market Snapshot</h3>
+                  <h3 className="text-2xl font-semibold mb-4">2025 Market Snapshot</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-lg mb-3">Median Home Prices</h4>
@@ -148,7 +148,7 @@ export default function FirstTimeHomebuyerArticle() {
                           </ul>
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">2026 Orange County Limits</h4>
+                          <h4 className="font-semibold mb-2">2025 Orange County Limits</h4>
                           <ul className="text-sm text-gray-700 space-y-1">
                             <li>• Single-family: $1,266,300</li>
                             <li>• Duplex: $1,394,775</li>

@@ -6,11 +6,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { DollarSign, Home, TrendingUp, MapPin, Phone, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA | Mo Abdel NMLS #1426884',
-  description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 822-9662.',
+  title: 'Orange County FHA Loan Limits 2025 | Current FHA Limits CA | Mo Abdel NMLS #1426884',
+  description: 'Current Orange County FHA loan limits for 2025. $1,266,300 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 822-9662.',
   openGraph: {
-    title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA',
-    description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes.',
+    title: 'Orange County FHA Loan Limits 2025 | Current FHA Limits CA',
+    description: 'Current Orange County FHA loan limits for 2025. $1,266,300 limit allows FHA financing for most OC homes.',
     type: 'website',
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function OrangeCountyFHALoanLimitsPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            📈 Updated for 2026
+            📈 Updated for 2025
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Orange County <span className="text-green-600">FHA Loan Limits</span> 2026
+            Orange County <span className="text-green-600">FHA Loan Limits</span> 2025
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Current FHA loan limits in Orange County allow financing up to $1,266,300 for single-family homes.
@@ -52,7 +52,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
 
         {/* Current FHA Limits */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2026 Orange County FHA Loan Limits</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2025 Orange County FHA Loan Limits</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6 text-center">
@@ -269,11 +269,11 @@ export default function OrangeCountyFHALoanLimitsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">What is the FHA loan limit in Orange County for 2026?</CardTitle>
+                <CardTitle className="text-lg">What is the FHA loan limit in Orange County for 2025?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  The 2026 FHA loan limit in Orange County is $1,266,300 for single-family homes.
+                  The 2025 FHA loan limit in Orange County is $1,266,300 for single-family homes.
                   This represents a significant increase from previous years due to Orange County's
                   high-cost area designation and rising home values.
                 </p>

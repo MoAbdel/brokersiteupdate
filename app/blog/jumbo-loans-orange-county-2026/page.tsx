@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Jumbo Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Jumbo Loans Orange County 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
+    canonical: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function JumboLoansOrangeCountyPage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Jumbo Loans in Orange County 2026: Luxury Home Financing Guide",
+                        "headline": "Jumbo Loans in Orange County 2025: Luxury Home Financing Guide",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function JumboLoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-06",
-                        "dateModified": "2026-01-06",
-                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties."
+                        "datePublished": "2025-01-06",
+                        "dateModified": "2025-01-06",
+                        "description": "Unlock luxury home financing in Orange County for 2025. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Jumbo Loans in Orange County 2026: Luxury Home Financing Guide
+                    Jumbo Loans in Orange County 2025: Luxury Home Financing Guide
                 </h1>
                 <p className="text-lg text-gray-600">
                     Navigating high-limit financing for Southern California's premier residential enclaves.
@@ -50,13 +50,13 @@ export default function JumboLoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$806,500</strong>. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
+                        In 2025, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$806,500</strong>. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
                     </p>
                 </div>
 
-                <h2>What are the jumbo loan limits for Orange County in 2026?</h2>
+                <h2>What are the jumbo loan limits for Orange County in 2025?</h2>
                 <p>
-                    Loan limits are adjusted annually based on median home prices. For 2026, the Federal Housing Finance Agency (FHFA) has set the following conforming limits for Orange County:
+                    Loan limits are adjusted annually based on median home prices. For 2025, the Federal Housing Finance Agency (FHFA) has set the following conforming limits for Orange County:
                 </p>
                 <ul>
                     <li><strong>Conforming High-Balance Limit:</strong> Up to $806,500.</li>
@@ -86,7 +86,7 @@ export default function JumboLoansOrangeCountyPage() {
                     While many banks still require 20% or even 25% down for jumbo loans, we have wholesale programs that allow for **10% or 15% down** without requiring a separate second mortgage or higher-than-average rates.
                 </p>
 
-                <h2>Jumbo Loan Qualification Matrix 2026</h2>
+                <h2>Jumbo Loan Qualification Matrix 2025</h2>
 
                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-10">
                     <h3 className="text-2xl font-bold text-blue-900 mb-6 mt-0 text-center">
@@ -131,7 +131,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <h3>Do jumbo loans have higher interest costs than conforming loans?</h3>
                 <p>
-                    Historically, yes. However, in the 2026 market, wholesale jumbo rates are often very competitive with conforming high-balance rates because institutional investors are hungry for high-quality Orange County debt.
+                    Historically, yes. However, in the 2025 market, wholesale jumbo rates are often very competitive with conforming high-balance rates because institutional investors are hungry for high-quality Orange County debt.
                 </p>
 
                 <h3>Can I use a jumbo loan for an investment property?</h3>
@@ -146,7 +146,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <h2>Master the Luxury Market with Expert Guidance</h2>
                 <p>
-                    Financing a million-dollar-plus property requires more than just a pre-approval; it requires a strategic partnership. Contact us to discuss your specific financial profile and discover how we can optimize your jumbo loan for the 2026 Orange County market.
+                    Financing a million-dollar-plus property requires more than just a pre-approval; it requires a strategic partnership. Contact us to discuss your specific financial profile and discover how we can optimize your jumbo loan for the 2025 Orange County market.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">

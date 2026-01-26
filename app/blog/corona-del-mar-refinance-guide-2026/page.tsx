@@ -3,18 +3,18 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Corona Del Mar Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Corona Del Mar Refinance Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2025',
   },
 };
 
-export default function CoronaDelMarRefinance2026() {
+export default function CoronaDelMarRefinance2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Corona del Mar Refinance & Cash-Out Guide 2026: Tapping Coastal Equity",
+        "headline": "Corona del Mar Refinance & Cash-Out Guide 2025: Tapping Coastal Equity",
         "description": "Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for luxury coastal estates.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function CoronaDelMarRefinance2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-15",
-        "dateModified": "2026-01-15",
+        "datePublished": "2025-01-15",
+        "dateModified": "2025-01-15",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026"
+            "@id": "https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2025"
         }
     };
 
@@ -44,7 +44,7 @@ export default function CoronaDelMarRefinance2026() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Is it worth refinancing a Corona del Mar property in 2026?",
+                "name": "Is it worth refinancing a Corona del Mar property in 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Refinancing in Corona del Mar is often worth it when you can leverage wholesale pricing to lower your monthly obligation or tap into the significant equity growth seen in coastal OC. Strategic refinancing can help homeowners fund secondary investments, luxury renovations, or consolidate high-interest debt using their primary residence's value."
@@ -77,12 +77,12 @@ export default function CoronaDelMarRefinance2026() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Corona del Mar Refinance & Cash-Out Guide 2026: Strategically Tapping Coastal Equity
+                    Corona del Mar Refinance & Cash-Out Guide 2025: Strategically Tapping Coastal Equity
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 15, 2026</span>
+                    <span>January 15, 2025</span>
                     <span>•</span>
                     <span>12 min read</span>
                 </div>
@@ -91,15 +91,15 @@ export default function CoronaDelMarRefinance2026() {
             <section className="prose prose-lg max-w-none text-gray-700">
                 <div className="bg-blue-50 p-6 rounded-xl mb-12 border-l-4 border-blue-500">
                     <p className="m-0 font-semibold text-blue-900">
-                        Direct Answer: Refinancing in Corona del Mar for 2026 focuses on maximizing the historic equity gains in coastal Orange County. Homeowners are increasingly using wholesale cash-out strategies and HELOANs to access liquidity for luxury renovations or debt consolidation while maintaining competitive pricing that retail banks often can't match. As a wholesale broker, I've seen CdM residents successfully leverage their property value to secure favorable terms that align with long-term wealth preservation.
+                        Direct Answer: Refinancing in Corona del Mar for 2025 focuses on maximizing the historic equity gains in coastal Orange County. Homeowners are increasingly using wholesale cash-out strategies and HELOANs to access liquidity for luxury renovations or debt consolidation while maintaining competitive pricing that retail banks often can't match. As a wholesale broker, I've seen CdM residents successfully leverage their property value to secure favorable terms that align with long-term wealth preservation.
                     </p>
                 </div>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    How do I maximize my home equity in Corona del Mar for 2026?
+                    How do I maximize my home equity in Corona del Mar for 2025?
                 </h2>
                 <p>
-                    Corona del Mar remains one of Southern California's most resilient real estate markets. For homeowners who have seen their property values soar, the question isn't just about the rate—it's about utility. In 2026, the most sophisticated CdM homeowners are looking beyond simple rate-and-term refinances and focusing on **Information Gain** strategies: how to use that equity to grow overall net worth.
+                    Corona del Mar remains one of Southern California's most resilient real estate markets. For homeowners who have seen their property values soar, the question isn't just about the rate—it's about utility. In 2025, the most sophisticated CdM homeowners are looking beyond simple rate-and-term refinances and focusing on **Information Gain** strategies: how to use that equity to grow overall net worth.
                 </p>
                 <p>
                     Unlike retail banks like Chase or BofA, which often have rigid overlays for high-value coastal properties, the wholesale channel allows us to shop your scenario across dozens of lenders. This is particularly vital for the unique properties found in the Flower Streets or Irvine Terrace, which require nuanced appraisal handling.
@@ -163,7 +163,7 @@ export default function CoronaDelMarRefinance2026() {
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    What are the 2026 occupancy and appraisal factors for CdM?
+                    What are the 2025 occupancy and appraisal factors for CdM?
                 </h2>
                 <p>
                     Appraisals in Corona del Mar are notoriously tricky due to the proximity to the ocean and the extreme variance in lot sizes and views. A house on the ocean side of PCH has a vastly different valuation profile than one inland. Our wholesale partners use local AMC (Appraisal Management Companies) that understand these nuances, ensuring your equity is accurately reflected.
@@ -173,7 +173,7 @@ export default function CoronaDelMarRefinance2026() {
                     <h3 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h3>
                     <div className="space-y-6">
                         <div>
-                            <h4 className="font-bold text-gray-900">Is it worth refinancing a Corona del Mar property in 2026?</h4>
+                            <h4 className="font-bold text-gray-900">Is it worth refinancing a Corona del Mar property in 2025?</h4>
                             <p className="text-gray-600">Refinancing in Corona del Mar is often worth it when you can leverage wholesale pricing to lower your monthly obligation or tap into the significant equity growth seen in coastal OC. Strategic refinancing can help homeowners fund secondary investments, luxury renovations, or consolidate high-interest debt using their primary residence's value.</p>
                         </div>
                         <div>

@@ -7,7 +7,7 @@ import { CheckCircle, Building, Users, DollarSign, Clock, Shield, Target, Phone,
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Mortgage Broker vs Bank: Complete Comparison Guide 2026',
+  title: 'Mortgage Broker vs Bank: Complete Comparison Guide 2025',
   description: 'Comprehensive comparison of mortgage brokers vs banks by licensed broker Mo Abdel (NMLS #1426884). Rates, service, options, and expert guidance for Orange County buyers.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison',

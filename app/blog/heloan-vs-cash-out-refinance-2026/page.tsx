@@ -3,19 +3,19 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Heloan Vs Cash Out Refinance 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Heloan Vs Cash Out Refinance 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
+    canonical: 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2025',
   },
 };
 
-export default function HELOANvsCashOut2026() {
+export default function HELOANvsCashOut2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy",
-        "description": "Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into your Southern California equity.",
+        "headline": "HELOAN vs. Cash-Out Refinance 2025: Choosing Your Equity Strategy",
+        "description": "Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2025. Expert advice on how to tap into your Southern California equity.",
         "author": {
             "@type": "Person",
             "name": "Mo Abdel",
@@ -30,11 +30,11 @@ export default function HELOANvsCashOut2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-11",
-        "dateModified": "2026-01-11",
+        "datePublished": "2025-01-11",
+        "dateModified": "2025-01-11",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026"
+            "@id": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2025"
         }
     };
 
@@ -52,10 +52,10 @@ export default function HELOANvsCashOut2026() {
             },
             {
                 "@type": "Question",
-                "name": "Why would I choose a HELOAN over a cash-out refinance in 2026?",
+                "name": "Why would I choose a HELOAN over a cash-out refinance in 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "In 2026, many Southern California homeowners are choosing HELOANs because they have exceptionally low rates (from 2020-2021) on their first mortgages. A HELOAN allows them to tap into their equity at current market or wholesale pricing while protecting their low-rate first mortgage, resulting in a lower 'blended rate' overall."
+                    "text": "In 2025, many Southern California homeowners are choosing HELOANs because they have exceptionally low rates (from 2020-2021) on their first mortgages. A HELOAN allows them to tap into their equity at current market or wholesale pricing while protecting their low-rate first mortgage, resulting in a lower 'blended rate' overall."
                 }
             }
         ]
@@ -77,12 +77,12 @@ export default function HELOANvsCashOut2026() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    HELOAN vs. Cash-Out Refinance: Making the Right Move for Your SoCal Equity in 2026
+                    HELOAN vs. Cash-Out Refinance: Making the Right Move for Your SoCal Equity in 2025
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 11, 2026</span>
+                    <span>January 11, 2025</span>
                     <span>•</span>
                     <span>12 min read</span>
                 </div>
@@ -91,7 +91,7 @@ export default function HELOANvsCashOut2026() {
             <section className="prose prose-lg max-w-none text-gray-700">
                 <div className="bg-blue-50 p-6 rounded-xl mb-12 border-l-4 border-blue-500">
                     <p className="m-0 font-semibold text-blue-900">
-                        Direct Answer: The primary difference between a HELOAN and a cash-out refinance is how they interact with your existing mortgage. A cash-out refinance replaces your current loan entirely, while a HELOAN (Home Equity Loan) is a second lien that leaves your first mortgage untouched. In 2026, Southern California homeowners with ultra-low legacy rates on their first mortgage typically find that a fixed-rate HELOAN through the wholesale channel provides the best "blended rate," allowing them to access cash without sacrificing their original low-interest terms.
+                        Direct Answer: The primary difference between a HELOAN and a cash-out refinance is how they interact with your existing mortgage. A cash-out refinance replaces your current loan entirely, while a HELOAN (Home Equity Loan) is a second lien that leaves your first mortgage untouched. In 2025, Southern California homeowners with ultra-low legacy rates on their first mortgage typically find that a fixed-rate HELOAN through the wholesale channel provides the best "blended rate," allowing them to access cash without sacrificing their original low-interest terms.
                     </p>
                 </div>
 
@@ -99,7 +99,7 @@ export default function HELOANvsCashOut2026() {
                     Which path unlocks your home's value most efficiently?
                 </h2>
                 <p>
-                    Home equity in Southern California is at an all-time high. For many residents in Orange County and beyond, their home has become their most significant "savings account." In 2026, the strategy for accessing that value has fundamentally shifted. This is a classic **Information Gain** scenario: what worked in 2019 doesn't necessarily work today.
+                    Home equity in Southern California is at an all-time high. For many residents in Orange County and beyond, their home has become their most significant "savings account." In 2025, the strategy for accessing that value has fundamentally shifted. This is a classic **Information Gain** scenario: what worked in 2019 doesn't necessarily work today.
                 </p>
                 <p>
                     As a wholesale mortgage broker, I help my clients run a **Blended Rate Comparison** to determine which product truly saves them the most money over time.
@@ -177,7 +177,7 @@ export default function HELOANvsCashOut2026() {
                     What about a HELOC?
                 </h2>
                 <p>
-                    A Home Equity Line of Credit (HELOC) is variable. In 2026, most of my clients prefer the stability of a HELOAN. A variable HELOC can "bite" you if market conditions worsen. A fixed-rate HELOAN provides the security of knowing exactly what your payment will be for the life of the loan.
+                    A Home Equity Line of Credit (HELOC) is variable. In 2025, most of my clients prefer the stability of a HELOAN. A variable HELOC can "bite" you if market conditions worsen. A fixed-rate HELOAN provides the security of knowing exactly what your payment will be for the life of the loan.
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -195,8 +195,8 @@ export default function HELOANvsCashOut2026() {
                             <p className="text-gray-600">A cash-out refinance replaces your current first mortgage with a new, larger loan, giving you the difference in cash. A HELOAN (Home Equity Loan) is a separate 'second' mortgage with its own fixed rate and term, allowing you to keep your existing first mortgage exactly as it is.</p>
                         </div>
                         <div>
-                            <h4 className="font-bold text-gray-900">Why would I choose a HELOAN over a cash-out refinance in 2026?</h4>
-                            <p className="text-gray-600">In 2026, many Southern California homeowners are choosing HELOANs because they have exceptionally low rates (from 2020-2021) on their first mortgages. A HELOAN allows them to tap into their equity at current market or wholesale pricing while protecting their low-rate first mortgage, resulting in a lower 'blended rate' overall.</p>
+                            <h4 className="font-bold text-gray-900">Why would I choose a HELOAN over a cash-out refinance in 2025?</h4>
+                            <p className="text-gray-600">In 2025, many Southern California homeowners are choosing HELOANs because they have exceptionally low rates (from 2020-2021) on their first mortgages. A HELOAN allows them to tap into their equity at current market or wholesale pricing while protecting their low-rate first mortgage, resulting in a lower 'blended rate' overall.</p>
                         </div>
                     </div>
                 </div>

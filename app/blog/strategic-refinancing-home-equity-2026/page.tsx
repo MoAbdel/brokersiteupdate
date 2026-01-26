@@ -3,19 +3,19 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Strategic Refinancing Home Equity 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Strategic Refinancing Home Equity 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
+    canonical: 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2025',
   },
 };
 
-export default function StrategicRefinancing2026() {
+export default function StrategicRefinancing2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Strategic Refinancing & Home Equity 2026: Rate vs. Utility Analysis",
-        "description": "Expert analysis on refinancing strategies in 2026. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.",
+        "headline": "Strategic Refinancing & Home Equity 2025: Rate vs. Utility Analysis",
+        "description": "Expert analysis on refinancing strategies in 2025. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.",
         "author": {
             "@type": "Person",
             "name": "Mo Abdel",
@@ -30,11 +30,11 @@ export default function StrategicRefinancing2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-12",
-        "dateModified": "2026-01-12",
+        "datePublished": "2025-01-12",
+        "dateModified": "2025-01-12",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026"
+            "@id": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2025"
         }
     };
 
@@ -44,10 +44,10 @@ export default function StrategicRefinancing2026() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "When is the best time to refinance in 2026?",
+                "name": "When is the best time to refinance in 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The best time to refinance is when the wholesale market pricing allows you to achieve a specific financial objective, such as lowering your monthly payment by a significant margin or accessing cash for a high-return investment. In 2026, the strategy has shifted from 'chasing the bottom' to 'striking when the utility is highest'—prioritizing financial flexibility over marginal rate differences."
+                    "text": "The best time to refinance is when the wholesale market pricing allows you to achieve a specific financial objective, such as lowering your monthly payment by a significant margin or accessing cash for a high-return investment. In 2025, the strategy has shifted from 'chasing the bottom' to 'striking when the utility is highest'—prioritizing financial flexibility over marginal rate differences."
                 }
             },
             {
@@ -77,12 +77,12 @@ export default function StrategicRefinancing2026() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Strategic Refinancing & Home Equity 2026: Mastering the "Rate vs. Utility" Balance
+                    Strategic Refinancing & Home Equity 2025: Mastering the "Rate vs. Utility" Balance
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 12, 2026</span>
+                    <span>January 12, 2025</span>
                     <span>•</span>
                     <span>13 min read</span>
                 </div>
@@ -91,7 +91,7 @@ export default function StrategicRefinancing2026() {
             <section className="prose prose-lg max-w-none text-gray-700">
                 <div className="bg-blue-50 p-6 rounded-xl mb-12 border-l-4 border-blue-500">
                     <p className="m-0 font-semibold text-blue-900">
-                        Direct Answer: Strategic refinancing in 2026 focuses on the utility of home equity as a tool for wealth preservation and financial flexibility. Unlike the "rate-chasing" of previous years, sophisticated borrowers are now leveraging wholesale mortgage pricing to strike when market cycles favor specific loan-to-value (LTV) ratios. Whether your goal is a lower monthly payment or a cash-out consolidation, the key is utilizing a wholesale broker who can access institutional-grade pricing that retail banks often withhold from individual consumers.
+                        Direct Answer: Strategic refinancing in 2025 focuses on the utility of home equity as a tool for wealth preservation and financial flexibility. Unlike the "rate-chasing" of previous years, sophisticated borrowers are now leveraging wholesale mortgage pricing to strike when market cycles favor specific loan-to-value (LTV) ratios. Whether your goal is a lower monthly payment or a cash-out consolidation, the key is utilizing a wholesale broker who can access institutional-grade pricing that retail banks often withhold from individual consumers.
                     </p>
                 </div>
 
@@ -99,7 +99,7 @@ export default function StrategicRefinancing2026() {
                     What does "Rate vs. Utility" mean for homeowners today?
                 </h2>
                 <p>
-                    For decades, the mortgage industry has conditioned homeowners to focus solely on the "lowest rate." While the rate is important, in 2026, the savvy investor-homeowner focuses on **Utility**. The utility of equity refers to the value that a dollor of cash-in-hand provides versus that same dollar sitting "trapped" in a house.
+                    For decades, the mortgage industry has conditioned homeowners to focus solely on the "lowest rate." While the rate is important, in 2025, the savvy investor-homeowner focuses on **Utility**. The utility of equity refers to the value that a dollor of cash-in-hand provides versus that same dollar sitting "trapped" in a house.
                 </p>
                 <p>
                     If you have 50% equity in a $2 million Southern California home, you have $1 million in "lazy capital." Strategic refinancing allows you to activate that capital at wholesale costs—often significantly lower than any other form of credit—and deploy it into areas where it can work harder for you.
@@ -119,7 +119,7 @@ export default function StrategicRefinancing2026() {
                     When is it actually "worth it" to refinance?
                 </h2>
                 <p>
-                    The "1% rule" (wait until rates drop 1%) is outdated. In 2026, my clients use a more sophisticated **Net Benefit Analysis**. We evaluate:
+                    The "1% rule" (wait until rates drop 1%) is outdated. In 2025, my clients use a more sophisticated **Net Benefit Analysis**. We evaluate:
                 </p>
                 <ul className="list-disc pl-6 space-y-4">
                     <li>
@@ -134,7 +134,7 @@ export default function StrategicRefinancing2026() {
                 </ul>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    Three Pillars of the 2026 Refinance Strategy
+                    Three Pillars of the 2025 Refinance Strategy
                 </h2>
                 <div className="my-12 overflow-x-auto">
                     <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg">
@@ -166,25 +166,25 @@ export default function StrategicRefinancing2026() {
                 </div>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    What are the pitfalls of "Wait and See" in 2026?
+                    What are the pitfalls of "Wait and See" in 2025?
                 </h2>
                 <p>
-                    Market timing is a dangerous game. In 2026, we've seen that volatility can work both ways. Many homeowners who "waited for the bottom" missed the narrow windows where wholesale pricing was most aggressive. A better approach is **Iterative Refinancing**: executing a "no-cost" or "low-cost" refinance now to capture immediate benefit, with the flexibility to do it again if the market improves further.
+                    Market timing is a dangerous game. In 2025, we've seen that volatility can work both ways. Many homeowners who "waited for the bottom" missed the narrow windows where wholesale pricing was most aggressive. A better approach is **Iterative Refinancing**: executing a "no-cost" or "low-cost" refinance now to capture immediate benefit, with the flexibility to do it again if the market improves further.
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
                     Conclusion: Your Equity is Your Engine
                 </h2>
                 <p>
-                    Don't let your equity sit idle. In 2026, treat your home like the financial engine it is. By leveraging the wholesale mortgage channel, you can ensure that you are always getting the most efficient pricing and the most strategic utility out of your home's value.
+                    Don't let your equity sit idle. In 2025, treat your home like the financial engine it is. By leveraging the wholesale mortgage channel, you can ensure that you are always getting the most efficient pricing and the most strategic utility out of your home's value.
                 </p>
 
                 <div className="bg-gray-50 p-8 rounded-xl my-12 border border-gray-200">
                     <h3 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h3>
                     <div className="space-y-6">
                         <div>
-                            <h4 className="font-bold text-gray-900">When is the best time to refinance in 2026?</h4>
-                            <p className="text-gray-600">The best time to refinance is when the wholesale market pricing allows you to achieve a specific financial objective, such as lowering your monthly payment by a significant margin or accessing cash for a high-return investment. In 2026, the strategy has shifted from 'chasing the bottom' to 'striking when the utility is highest'—prioritizing financial flexibility over marginal rate differences.</p>
+                            <h4 className="font-bold text-gray-900">When is the best time to refinance in 2025?</h4>
+                            <p className="text-gray-600">The best time to refinance is when the wholesale market pricing allows you to achieve a specific financial objective, such as lowering your monthly payment by a significant margin or accessing cash for a high-return investment. In 2025, the strategy has shifted from 'chasing the bottom' to 'striking when the utility is highest'—prioritizing financial flexibility over marginal rate differences.</p>
                         </div>
                         <div>
                             <h4 className="font-bold text-gray-900">Is a cash-out refinance better than a personal loan?</h4>

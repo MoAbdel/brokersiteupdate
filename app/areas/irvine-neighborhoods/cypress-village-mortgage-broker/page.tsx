@@ -33,12 +33,12 @@ export default function CypressVillageMortgageBrokerPage() {
       {
         stat: "Cypress Village median home price: $1.85M",
         source: "Irvine MLS Data",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "88% of Cypress Village homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "Community developed 2010s-2020s as Irvine's newest village",
@@ -62,11 +62,11 @@ export default function CypressVillageMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Cypress Village homes?",
-            answer: "Cypress Village homes typically range from $1.3M to $2.8M, with brand new construction and luxury features. The median home price is around $1.85M as of 2026, reflecting the newest construction and premium amenities."
+            answer: "Cypress Village homes typically range from $1.3M to $2.8M, with brand new construction and luxury features. The median home price is around $1.85M as of 2025, reflecting the newest construction and premium amenities."
           },
           {
             question: "Do Cypress Village homes require jumbo financing?",
-            answer: "88% of Cypress Village homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The brand new construction and premium features mean most properties need jumbo loans."
+            answer: "88% of Cypress Village homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. The brand new construction and premium features mean most properties need jumbo loans."
           },
           {
             question: "What modern amenities are available in Cypress Village?",
@@ -154,7 +154,7 @@ export default function CypressVillageMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Cypress Village Irvine Mortgage Broker 2026</h1>
+          <h1>Cypress Village Irvine Mortgage Broker 2025</h1>
           <p>Mo Abdel specializes in Cypress Village Irvine mortgage financing, serving this newest master-planned community with homes ranging from $1.3M to $2.8M. Expert in brand new construction and newest development financing.</p>
           
           <h2>Cypress Village Community Features</h2>
@@ -248,7 +248,7 @@ export default function CypressVillageMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Cypress Village Market Data 2026
+                    Cypress Village Market Data 2025
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

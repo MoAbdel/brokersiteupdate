@@ -33,12 +33,12 @@ export default function TurtleRockMortgageBrokerPage() {
       {
         stat: "Turtle Rock median home price: $1.8M",
         source: "Irvine MLS Data",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "85% of Turtle Rock homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "Community established in 1980s with mature landscaping",
@@ -62,11 +62,11 @@ export default function TurtleRockMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Turtle Rock homes?",
-            answer: "Turtle Rock homes typically range from $1.4M to $2.2M, with premium view properties commanding higher prices. The median home price is around $1.8M as of 2026."
+            answer: "Turtle Rock homes typically range from $1.4M to $2.2M, with premium view properties commanding higher prices. The median home price is around $1.8M as of 2025."
           },
           {
             question: "Do Turtle Rock homes require jumbo financing?",
-            answer: "85% of Turtle Rock homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The upscale nature of the community means most properties need jumbo loans."
+            answer: "85% of Turtle Rock homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. The upscale nature of the community means most properties need jumbo loans."
           },
           {
             question: "What amenities make Turtle Rock desirable for families?",
@@ -154,7 +154,7 @@ export default function TurtleRockMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Turtle Rock Irvine Mortgage Broker 2026</h1>
+          <h1>Turtle Rock Irvine Mortgage Broker 2025</h1>
           <p>Mo Abdel specializes in Turtle Rock Irvine mortgage financing, serving this upscale family community with homes ranging from $1.4M to $2.2M. Expert in luxury family home financing with natural canyon settings.</p>
           
           <h2>Turtle Rock Community Features</h2>
@@ -248,7 +248,7 @@ export default function TurtleRockMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Turtle Rock Market Data 2026
+                    Turtle Rock Market Data 2025
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

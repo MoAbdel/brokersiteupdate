@@ -239,14 +239,14 @@ export default function OrangeCountyConventionalLoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl">
-                    2026 Orange County Conventional Loan Limits
+                    2025 Orange County Conventional Loan Limits
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="bg-blue-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
                       <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,266,300</h3>
-                      <p className="text-blue-600">Conforming Conventional Loan Limit (2026)</p>
+                      <p className="text-blue-600">Conforming Conventional Loan Limit (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">High-cost area allows for higher loan amounts</p>
                     </div>
                   </div>

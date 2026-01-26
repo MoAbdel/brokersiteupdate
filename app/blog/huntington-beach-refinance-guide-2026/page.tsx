@@ -3,18 +3,18 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Huntington Beach Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Huntington Beach Refinance Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2025',
   },
 };
 
-export default function HuntingtonBeachRefinance2026() {
+export default function HuntingtonBeachRefinance2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Huntington Beach Refinance & Cash-Out Guide 2026: HB Equity Analysis",
+        "headline": "Huntington Beach Refinance & Cash-Out Guide 2025: HB Equity Analysis",
         "description": "Expert guidance on refinancing and tapping into home equity for Huntington Beach properties. Learn about wholesale strategies for HB homeowners.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function HuntingtonBeachRefinance2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-14",
-        "dateModified": "2026-01-14",
+        "datePublished": "2025-01-14",
+        "dateModified": "2025-01-14",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026"
+            "@id": "https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2025"
         }
     };
 
@@ -77,12 +77,12 @@ export default function HuntingtonBeachRefinance2026() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Huntington Beach Refinance & Cash-Out Guide 2026: Maximizing Surf City Home Equity
+                    Huntington Beach Refinance & Cash-Out Guide 2025: Maximizing Surf City Home Equity
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 14, 2026</span>
+                    <span>January 14, 2025</span>
                     <span>•</span>
                     <span>11 min read</span>
                 </div>
@@ -91,7 +91,7 @@ export default function HuntingtonBeachRefinance2026() {
             <section className="prose prose-lg max-w-none text-gray-700">
                 <div className="bg-blue-50 p-6 rounded-xl mb-12 border-l-4 border-blue-500">
                     <p className="m-0 font-semibold text-blue-900">
-                        Direct Answer: Huntington Beach homeowners in 2026 are increasingly leveraging refinancing to secure funds for home renovations, ADU construction, and debt consolidation. By utilizing the wholesale mortgage channel, HB residents can access deeper pricing models than those offered at retail banks, allowing them to tap into up to 80% of their property's value. Whether you are in Huntington Harbour or SE Huntington, a strategic refinance or HELOAN can unlock significant liquidity to meet your financial goals.
+                        Direct Answer: Huntington Beach homeowners in 2025 are increasingly leveraging refinancing to secure funds for home renovations, ADU construction, and debt consolidation. By utilizing the wholesale mortgage channel, HB residents can access deeper pricing models than those offered at retail banks, allowing them to tap into up to 80% of their property's value. Whether you are in Huntington Harbour or SE Huntington, a strategic refinance or HELOAN can unlock significant liquidity to meet your financial goals.
                     </p>
                 </div>
 
@@ -99,14 +99,14 @@ export default function HuntingtonBeachRefinance2026() {
                     Is now the right time to refinance your Huntington Beach home?
                 </h2>
                 <p>
-                    Huntington Beach has seen steady equity growth over the last several years, from the downtown core to the suburban enclaves of Edwards Hill. In 2026, many homeowners are finding that their equity is their most powerful financial tool. However, with market conditions constantly shifting, the decision to refinance requires a nuanced approach—what we call **Information Gain**.
+                    Huntington Beach has seen steady equity growth over the last several years, from the downtown core to the suburban enclaves of Edwards Hill. In 2025, many homeowners are finding that their equity is their most powerful financial tool. However, with market conditions constantly shifting, the decision to refinance requires a nuanced approach—what we call **Information Gain**.
                 </p>
                 <p>
                     As a wholesale broker, I have a front-row seat to the competition. While a big-box bank like Wells Fargo might offer you one "standard" refinance rate, my office can pulse-check 50+ lenders in real-time. For a Surf City homeowner, this means finding the specific lender that has an appetite for coastal OC risk at any given moment.
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    How Huntington Beach homeowners are using cash-out equity in 2026
+                    How Huntington Beach homeowners are using cash-out equity in 2025
                 </h2>
                 <p>
                     We are seeing a major trend in HB for **"Sweat Equity Acceleration."** Homeowners aren't just taking cash out to spend it; they are reinvesting it directly back into their property.
@@ -169,7 +169,7 @@ export default function HuntingtonBeachRefinance2026() {
                     Conclusion: Securing your HB Financial Future
                 </h2>
                 <p>
-                    Refinancing is more than just a transaction; it's a pivot point for your financial health. In 2026, having a partner who understands the Huntington Beach market and the wholesale lending landscape is the key to unlocking the true value of your home.
+                    Refinancing is more than just a transaction; it's a pivot point for your financial health. In 2025, having a partner who understands the Huntington Beach market and the wholesale lending landscape is the key to unlocking the true value of your home.
                 </p>
 
                 <div className="bg-gray-50 p-8 rounded-xl my-12 border border-gray-200">

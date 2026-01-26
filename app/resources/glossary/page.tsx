@@ -67,7 +67,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Conforming Loan',
-      definition: 'A mortgage that meets the criteria to be purchased by Fannie Mae or Freddie Mac. For 2026, the limit is $1,266,300 in Orange County.',
+      definition: 'A mortgage that meets the criteria to be purchased by Fannie Mae or Freddie Mac. For 2025, the limit is $1,266,300 in Orange County.',
       category: 'Loan Types',
       related: ['Jumbo Loan', 'Loan Limits', 'GSE']
     },
@@ -139,7 +139,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Jumbo Loan',
-      definition: 'A mortgage that exceeds conforming loan limits. In Orange County for 2026, any loan over $1,266,300 is considered jumbo.',
+      definition: 'A mortgage that exceeds conforming loan limits. In Orange County for 2025, any loan over $1,266,300 is considered jumbo.',
       category: 'Loan Types',
       related: ['Conforming Loan', 'Loan Limits', 'High-Balance']
     },

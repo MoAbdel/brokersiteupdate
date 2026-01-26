@@ -110,7 +110,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="en-US" href="https://www.mothebroker.com" />
 
         <AdvancedSchemaMarkup type="Organization" />
-        <meta name="deployment-id" content="favicon-removed-final-dec16-2026" />
+        <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
       </head>
       <body className={`min-h-screen ${inter.className}`}>
         <Header />

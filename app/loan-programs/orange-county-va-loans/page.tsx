@@ -91,7 +91,7 @@ export default function OrangeCountyVALoansPage() {
 
         {/* Loan Limits */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2025 VA Loan Limits Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>

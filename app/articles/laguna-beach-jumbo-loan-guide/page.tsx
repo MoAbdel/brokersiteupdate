@@ -5,7 +5,7 @@ import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
     title: 'Laguna Beach Jumbo Loan Guide: Luxury Home Financing Specialist',
-    description: 'Expert jumbo loan guidance for Laguna Beach luxury real estate. Discover specialized financing options for coastal estates and high-value properties in 2026.',
+    description: 'Expert jumbo loan guidance for Laguna Beach luxury real estate. Discover specialized financing options for coastal estates and high-value properties in 2025.',
     openGraph: {
         title: 'Laguna Beach Jumbo Loan Guide | Mo Abdel - Lumin Lending',
         description: 'Finance your Laguna Beach dream home with expert jumbo loan guidance. Competitive pricing and flexible terms for high-value coastal properties.',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 export default function LagunaBeachJumboLoanGuide() {
-    const publishDate = 'August 22, 2026';
+    const publishDate = 'August 22, 2025';
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -27,10 +27,10 @@ export default function LagunaBeachJumboLoanGuide() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "What is considered a jumbo loan in Laguna Beach for 2026?",
+                "name": "What is considered a jumbo loan in Laguna Beach for 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "In Laguna Beach, any loan amount exceeding the 2026 conforming limit of $1,266,300 is classified as a jumbo loan. Given Laguna's high property values, most single-family home purchases here utilize jumbo financing."
+                    "text": "In Laguna Beach, any loan amount exceeding the 2025 conforming limit of $1,266,300 is classified as a jumbo loan. Given Laguna's high property values, most single-family home purchases here utilize jumbo financing."
                 }
             },
             {
@@ -108,12 +108,12 @@ export default function LagunaBeachJumboLoanGuide() {
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">The Laguna Beach Luxury Market Landscape</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    Laguna Beach is more than just a zip code; it's a global destination for art, culture, and coastal living. From the ultra-private community of Emerald Bay to the iconic "Village" area, homes in Laguna Beach are among the most sought-after (and highly valued) in the world. In 2026, the complexity of financing these estates remains high, requiring a jumbo loan specialist who can navigate the "off-menu" programs that retail banks rarely offer.
+                                    Laguna Beach is more than just a zip code; it's a global destination for art, culture, and coastal living. From the ultra-private community of Emerald Bay to the iconic "Village" area, homes in Laguna Beach are among the most sought-after (and highly valued) in the world. In 2025, the complexity of financing these estates remains high, requiring a jumbo loan specialist who can navigate the "off-menu" programs that retail banks rarely offer.
                                 </p>
                             </section>
 
                             <section className="mb-12">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Navigating Jumbo Financing in 2026</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Navigating Jumbo Financing in 2025</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
                                     With the conforming loan limit set at $1,266,300 for Orange County, jumbo loans are the standard for Laguna Beach. However, not all jumbo loans are created equal. As a wholesale broker, we access a vast network of lenders who specialize in high-balance financing for Southern California's coastline.
                                 </p>

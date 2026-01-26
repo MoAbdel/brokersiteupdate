@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Newport Beach Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function NewportBeachMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders",
+                        "headline": "Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function NewportBeachMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-05",
-                        "dateModified": "2026-01-05",
-                        "description": "Secure the best mortgage rates in Newport Beach with our 2026 guide. Learn about jumbo loans, wholesale pricing, and why working with a local broker is superior to retail banks."
+                        "datePublished": "2025-01-05",
+                        "dateModified": "2025-01-05",
+                        "description": "Secure the best mortgage rates in Newport Beach with our 2025 guide. Learn about jumbo loans, wholesale pricing, and why working with a local broker is superior to retail banks."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders
+                    Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders
                 </h1>
                 <p className="text-lg text-gray-600">
                     Expert insights on securing competitive financing for Newport Beach's luxury coastal properties
@@ -50,11 +50,11 @@ export default function NewportBeachMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure the best mortgage options in Newport Beach in 2026, most luxury homebuyers utilize **wholesale mortgage brokers** to access institutional pricing and specialized jumbo loan programs. Because property values in Newport Beach frequently exceed conforming limits, working with a local expert who understands both **high-balance financing** and **wholesale pricing advantages** is the most effective way to reduce long-term interest costs compared to traditional retail banks.
+                        To secure the best mortgage options in Newport Beach in 2025, most luxury homebuyers utilize **wholesale mortgage brokers** to access institutional pricing and specialized jumbo loan programs. Because property values in Newport Beach frequently exceed conforming limits, working with a local expert who understands both **high-balance financing** and **wholesale pricing advantages** is the most effective way to reduce long-term interest costs compared to traditional retail banks.
                     </p>
                 </div>
 
-                <h2>What does the Newport Beach real estate market look like in 2026?</h2>
+                <h2>What does the Newport Beach real estate market look like in 2025?</h2>
                 <p>
                     Newport Beach continues to be one of Southern California's most desirable coastal communities, with properties ranging from luxury condos to oceanfront estates. As a wholesale broker active in this market, I've observed several key trends characterizing local inventory:
                 </p>
@@ -93,7 +93,7 @@ export default function NewportBeachMortgageGuidePage() {
                 </p>
                 <p><strong>Key Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $806,500 (2026 conforming limit for Orange County)</li>
+                    <li>Loan amounts exceeding $806,500 (2025 conforming limit for Orange County)</li>
                     <li>Competitive pricing through wholesale channels</li>
                     <li>Flexible down payment options (typically 10-20%)</li>
                     <li>Available for primary residences, second homes, and investment properties</li>

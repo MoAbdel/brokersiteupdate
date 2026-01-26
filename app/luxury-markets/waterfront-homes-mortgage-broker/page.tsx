@@ -33,17 +33,17 @@ export default function WaterfrontHomesMortgageBrokerPage() {
       {
         stat: "Orange County waterfront median price: $6.5M",
         source: "Luxury Coastal Market Report",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "98% of waterfront homes require jumbo financing",
         source: "Orange County Luxury Analysis",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "Average waterfront premium: $2-5M over inland",
         source: "Coastal Property Valuation Study",
-        year: "2026"
+        year: "2025"
       }
     ]
   };
@@ -210,7 +210,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Waterfront Homes Mortgage Broker 2026</h1>
+          <h1>Orange County Waterfront Homes Mortgage Broker 2025</h1>
           <p>Mo Abdel specializes in Orange County waterfront homes financing, including oceanfront estates, bayfront properties, canal homes, and luxury coastal condos. Expert in super jumbo loans, portfolio financing, and luxury coastal real estate markets.</p>
           
           <h2>Waterfront Property Types</h2>
@@ -422,7 +422,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
-                    Waterfront Market Data 2026
+                    Waterfront Market Data 2025
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

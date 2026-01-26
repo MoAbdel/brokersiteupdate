@@ -33,12 +33,12 @@ export default function QuailHillMortgageBrokerPage() {
       {
         stat: "Quail Hill median home price: $1.9M",
         source: "Irvine MLS Data",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "90% of Quail Hill homes require jumbo loans",
         source: "Orange County Housing Analysis",
-        year: "2026"
+        year: "2025"
       },
       {
         stat: "Community developed in 2000s with modern amenities",
@@ -62,11 +62,11 @@ export default function QuailHillMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Quail Hill homes?",
-            answer: "Quail Hill homes typically range from $1.5M to $2.5M, with custom and luxury properties commanding premium prices. The median home price is around $1.9M as of 2026."
+            answer: "Quail Hill homes typically range from $1.5M to $2.5M, with custom and luxury properties commanding premium prices. The median home price is around $1.9M as of 2025."
           },
           {
             question: "Do Quail Hill homes require jumbo financing?",
-            answer: "90% of Quail Hill homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. The premium nature and newer construction of the community means most properties need jumbo loans."
+            answer: "90% of Quail Hill homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. The premium nature and newer construction of the community means most properties need jumbo loans."
           },
           {
             question: "What amenities are available in Quail Hill?",
@@ -154,7 +154,7 @@ export default function QuailHillMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Quail Hill Irvine Mortgage Broker 2026</h1>
+          <h1>Quail Hill Irvine Mortgage Broker 2025</h1>
           <p>Mo Abdel specializes in Quail Hill Irvine mortgage financing, serving this premium master-planned community with homes ranging from $1.5M to $2.5M. Expert in newer construction and luxury community financing.</p>
           
           <h2>Quail Hill Community Features</h2>
@@ -248,7 +248,7 @@ export default function QuailHillMortgageBrokerPage() {
                 <CardHeader className="bg-blue-600 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
-                    Quail Hill Market Data 2026
+                    Quail Hill Market Data 2025
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

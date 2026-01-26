@@ -4,22 +4,22 @@ import Footer from '@/components/Footer';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
-    title: 'Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders',
-    description: 'Navigate the Newport Beach luxury real estate market with our comprehensive 2026 mortgage guide. Discover wholesale pricing, jumbo loan strategies, and expert local advice.',
+    title: 'Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders',
+    description: 'Navigate the Newport Beach luxury real estate market with our comprehensive 2025 mortgage guide. Discover wholesale pricing, jumbo loan strategies, and expert local advice.',
     openGraph: {
-        title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - Lumin Lending',
+        title: 'Newport Beach Mortgage Guide 2025 | Mo Abdel - Lumin Lending',
         description: 'Expert mortgage guidance for Newport Beach homebuyers. Access wholesale pricing and specialized loan programs for coastal luxury properties.',
         images: ['/images/mo-headshot.jpg'],
-        url: 'https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2026',
+        url: 'https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2025',
         type: 'article',
     },
     alternates: {
-        canonical: 'https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2026',
+        canonical: 'https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2025',
     },
 };
 
 export default function NewportBeachMortgageGuide() {
-    const publishDate = 'August 20, 2026';
+    const publishDate = 'August 20, 2025';
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -27,10 +27,10 @@ export default function NewportBeachMortgageGuide() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "What is the 2026 conforming loan limit in Newport Beach?",
+                "name": "What is the 2025 conforming loan limit in Newport Beach?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The 2026 conforming loan limit for single-family homes in Newport Beach (Orange County) is $1,266,300. Any loan amount above this threshold is considered a jumbo loan."
+                    "text": "The 2025 conforming loan limit for single-family homes in Newport Beach (Orange County) is $1,266,300. Any loan amount above this threshold is considered a jumbo loan."
                 }
             },
             {
@@ -54,7 +54,7 @@ export default function NewportBeachMortgageGuide() {
                 "name": "Are jumbo loan rates in Newport Beach higher than standard rates?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Not necessarily. In the current 2026 market, jumbo loan rates are often very competitive with conforming rates, particularly for borrowers with high credit scores and strong asset profiles."
+                    "text": "Not necessarily. In the current 2025 market, jumbo loan rates are often very competitive with conforming rates, particularly for borrowers with high credit scores and strong asset profiles."
                 }
             },
             {
@@ -86,11 +86,11 @@ export default function NewportBeachMortgageGuide() {
                                 <span className="mx-2 text-gray-500">/</span>
                                 <Link href="/articles" className="text-blue-600 hover:underline">Articles</Link>
                                 <span className="mx-2 text-gray-500">/</span>
-                                <span className="text-gray-700">Newport Beach Mortgage Guide 2026</span>
+                                <span className="text-gray-700">Newport Beach Mortgage Guide 2025</span>
                             </nav>
 
                             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders
+                                Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders
                             </h1>
 
                             <div className="flex items-center gap-4 text-gray-600 mb-8">
@@ -103,7 +103,7 @@ export default function NewportBeachMortgageGuide() {
 
                             <div className="bg-blue-100 border-l-4 border-blue-600 p-6 rounded-lg">
                                 <p className="text-lg text-gray-800 italic">
-                                    "In the exclusive Newport Beach market, your choice of lender is just as critical as your choice of property. Wholesale access is the key to securing the financing that luxury buyers expect in 2026."
+                                    "In the exclusive Newport Beach market, your choice of lender is just as critical as your choice of property. Wholesale access is the key to securing the financing that luxury buyers expect in 2025."
                                 </p>
                             </div>
                         </div>
@@ -116,12 +116,12 @@ export default function NewportBeachMortgageGuide() {
                         <div className="max-w-4xl mx-auto prose prose-lg prose-blue">
 
                             <section className="mb-12">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Navigating the Newport Beach Real Estate Market in 2026</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Navigating the Newport Beach Real Estate Market in 2025</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    Newport Beach remains the crown jewel of the Southern California coastline. From the exclusive estates of Newport Coast to the vibrant community of the Balboa Peninsula, the real estate market here operates on a different frequency than the rest of the country. As we move through 2026, median home prices in Newport Beach continue to push new boundaries, making sophisticated financing strategies more important than ever.
+                                    Newport Beach remains the crown jewel of the Southern California coastline. From the exclusive estates of Newport Coast to the vibrant community of the Balboa Peninsula, the real estate market here operates on a different frequency than the rest of the country. As we move through 2025, median home prices in Newport Beach continue to push new boundaries, making sophisticated financing strategies more important than ever.
                                 </p>
                                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
-                                    <h3 className="text-xl font-bold mb-4">Market Snapshot: Newport Beach (August 2026)</h3>
+                                    <h3 className="text-xl font-bold mb-4">Market Snapshot: Newport Beach (August 2025)</h3>
                                     <ul className="space-y-2">
                                         <li><strong>Median List Price:</strong> $3,450,000</li>
                                         <li><strong>Average Price Per Sq Ft:</strong> $1,550</li>

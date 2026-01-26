@@ -3,18 +3,18 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Laguna Niguel Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Laguna Niguel Refinance Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2025',
   },
 };
 
-export default function LagunaNiguelRefinance2026() {
+export default function LagunaNiguelRefinance2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Laguna Niguel Refinance & Cash-Out Guide 2026: Suburban Equity Strategy",
+        "headline": "Laguna Niguel Refinance & Cash-Out Guide 2025: Suburban Equity Strategy",
         "description": "Expert guidance on refinancing and tapping into home equity for Laguna Niguel properties. Learn about wholesale cash-out options for LN families.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function LagunaNiguelRefinance2026() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2026-01-13",
-        "dateModified": "2026-01-13",
+        "datePublished": "2025-01-13",
+        "dateModified": "2025-01-13",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2026"
+            "@id": "https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2025"
         }
     };
 
@@ -47,7 +47,7 @@ export default function LagunaNiguelRefinance2026() {
                 "name": "Should I choose a cash-out refinance or a HELOAN in Laguna Niguel?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "The choice depends on your current first mortgage rate. In 2026, many Laguna Niguel homeowners found that keeping their low existing first mortgage and adding a fixed-rate Home Equity Loan (HELOAN) was the most cost-effective way to access cash. However, if your existing rate is high, a complete cash-out refinance might consolidate your debt into one lower overall payment."
+                    "text": "The choice depends on your current first mortgage rate. In 2025, many Laguna Niguel homeowners found that keeping their low existing first mortgage and adding a fixed-rate Home Equity Loan (HELOAN) was the most cost-effective way to access cash. However, if your existing rate is high, a complete cash-out refinance might consolidate your debt into one lower overall payment."
                 }
             },
             {
@@ -77,12 +77,12 @@ export default function LagunaNiguelRefinance2026() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Laguna Niguel Refinance & Cash-Out Guide 2026: Unlocking Suburban Equity
+                    Laguna Niguel Refinance & Cash-Out Guide 2025: Unlocking Suburban Equity
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 13, 2026</span>
+                    <span>January 13, 2025</span>
                     <span>•</span>
                     <span>10 min read</span>
                 </div>
@@ -91,15 +91,15 @@ export default function LagunaNiguelRefinance2026() {
             <section className="prose prose-lg max-w-none text-gray-700">
                 <div className="bg-blue-50 p-6 rounded-xl mb-12 border-l-4 border-blue-500">
                     <p className="m-0 font-semibold text-blue-900">
-                        Direct Answer: For Laguna Niguel homeowners, refinancing in 2026 is a strategic tool for managing wealth and funding lifestyle improvements. Most residents are choosing between a traditional cash-out refinance and a fixed-rate Home Equity Loan (HELOAN) to access up to 80% of their home's value. As a wholesale broker, I provide access to dozens of lenders that offer more aggressive pricing and flexible underwriting than local retail banks, particularly for the high-balance and jumbo loans common in Eagle Rock, San Joaquin Hills, and Monarch Summit.
+                        Direct Answer: For Laguna Niguel homeowners, refinancing in 2025 is a strategic tool for managing wealth and funding lifestyle improvements. Most residents are choosing between a traditional cash-out refinance and a fixed-rate Home Equity Loan (HELOAN) to access up to 80% of their home's value. As a wholesale broker, I provide access to dozens of lenders that offer more aggressive pricing and flexible underwriting than local retail banks, particularly for the high-balance and jumbo loans common in Eagle Rock, San Joaquin Hills, and Monarch Summit.
                     </p>
                 </div>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-                    Is your Laguna Niguel home your best investment in 2026?
+                    Is your Laguna Niguel home your best investment in 2025?
                 </h2>
                 <p>
-                    Laguna Niguel has matured into one of South Orange County's most desirable family hubs. With rolling hills and proximity to the coast, property values have seen consistent growth. In 2026, the question for many in the 92677 zip code isn't whether they have equity, but how to use it most effectively. This is where **Information Gain** comes into play—knowing the difference between simple "debt" and "strategic leverage."
+                    Laguna Niguel has matured into one of South Orange County's most desirable family hubs. With rolling hills and proximity to the coast, property values have seen consistent growth. In 2025, the question for many in the 92677 zip code isn't whether they have equity, but how to use it most effectively. This is where **Information Gain** comes into play—knowing the difference between simple "debt" and "strategic leverage."
                 </p>
                 <p>
                     Working with a wholesale broker like myself gives you an edge that retail banks simply can't provide. Retail banks have one set of rules. I have 50. I can find the specific lender who values the stability of the Laguna Niguel market and offers favorable terms for cash-out scenarios.
@@ -166,7 +166,7 @@ export default function LagunaNiguelRefinance2026() {
                     The Importance of Local Market Insight
                 </h2>
                 <p>
-                    In 2026, the technical details matter. Understanding the difference between a PUD (Planned Unit Development) in Niguel Shores and a detached home near Chapparosa Park is critical for accurate underwriting. My deep experience in South OC ensures that your file is presented correctly to the lender, avoiding the delays common with out-of-area banks.
+                    In 2025, the technical details matter. Understanding the difference between a PUD (Planned Unit Development) in Niguel Shores and a detached home near Chapparosa Park is critical for accurate underwriting. My deep experience in South OC ensures that your file is presented correctly to the lender, avoiding the delays common with out-of-area banks.
                 </p>
 
                 <div className="bg-gray-50 p-8 rounded-xl my-12 border border-gray-200">
@@ -174,7 +174,7 @@ export default function LagunaNiguelRefinance2026() {
                     <div className="space-y-6">
                         <div>
                             <h4 className="font-bold text-gray-900">Should I choose a cash-out refinance or a HELOAN in Laguna Niguel?</h4>
-                            <p className="text-gray-600">The choice depends on your current first mortgage rate. In 2026, many Laguna Niguel homeowners found that keeping their low existing first mortgage and adding a fixed-rate Home Equity Loan (HELOAN) was the most cost-effective way to access cash. However, if your existing rate is high, a complete cash-out refinance might consolidate your debt into one lower overall payment.</p>
+                            <p className="text-gray-600">The choice depends on your current first mortgage rate. In 2025, many Laguna Niguel homeowners found that keeping their low existing first mortgage and adding a fixed-rate Home Equity Loan (HELOAN) was the most cost-effective way to access cash. However, if your existing rate is high, a complete cash-out refinance might consolidate your debt into one lower overall payment.</p>
                         </div>
                         <div>
                             <h4 className="font-bold text-gray-900">What are the common uses for home equity in Laguna Niguel?</h4>

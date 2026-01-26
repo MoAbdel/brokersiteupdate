@@ -78,9 +78,9 @@ export default function FHALoansPage() {
           </div>
         </div>
 
-        {/* FHA Loan Limits 2026 */}
+        {/* FHA Loan Limits 2025 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2026 FHA Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2025 FHA Loan Limits in Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -103,7 +103,7 @@ export default function FHALoansPage() {
                     <span className="font-bold text-blue-600">$2,095,200</span>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*2026 FHA loan limits. Limits are updated annually by HUD.</p>
+                <p className="text-xs text-slate-500 mt-4">*2025 FHA loan limits. Limits are updated annually by HUD.</p>
               </div>
 
 

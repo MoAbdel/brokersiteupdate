@@ -331,7 +331,7 @@ export default function PurchaseLoansPage() {
               </div>
             </div>
             <p className="text-center text-slate-600 mt-6">
-              <em>Data as of 2026. Orange County remains one of the most competitive real estate markets in California.</em>
+              <em>Data as of 2025. Orange County remains one of the most competitive real estate markets in California.</em>
             </p>
           </section>
 

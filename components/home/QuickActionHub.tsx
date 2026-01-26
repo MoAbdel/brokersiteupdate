@@ -22,7 +22,7 @@ export default function QuickActionHub() {
     {
       icon: FileText,
       title: 'Apply Now',
-      href: 'https://2716106.my1003app.com/1426884/register?lang=en',
+      href: 'https://luminlending-apply-mo-abdel.my1003app.com/register',
       external: true,
     },
     {

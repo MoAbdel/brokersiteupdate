@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
-    title: 'Wholesale vs. Retail Mortgages: The Pricing Advantage in 2026',
+    title: 'Wholesale vs. Retail Mortgages: The Pricing Advantage in 2025',
     description: 'Understand the critical difference between wholesale and retail mortgage channels. Learn why working with a broker can provide superior pricing for your home loan.',
     openGraph: {
         title: 'Wholesale vs. Retail Mortgages Comparison | Mo Abdel - Lumin Lending',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 export default function WholesaleVsRetailComparison() {
-    const publishDate = 'August 28, 2026';
+    const publishDate = 'August 28, 2025';
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -81,7 +81,7 @@ export default function WholesaleVsRetailComparison() {
                             </nav>
 
                             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                Wholesale vs. Retail Mortgages: The Pricing Advantage in 2026
+                                Wholesale vs. Retail Mortgages: The Pricing Advantage in 2025
                             </h1>
 
                             <div className="flex items-center justify-center gap-4 text-gray-600 mb-8">
@@ -102,7 +102,7 @@ export default function WholesaleVsRetailComparison() {
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">The Hidden Cost of Familiarity</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    When most people think about getting a mortgage, they think of the bank where they have their checking account. It's familiar, it's convenient, and it feels safe. However, in the 2026 mortgage market, that familiarity often comes with a hidden "retail tax" that can cost you tens of thousands of dollars over the life of your loan.
+                                    When most people think about getting a mortgage, they think of the bank where they have their checking account. It's familiar, it's convenient, and it feels safe. However, in the 2025 mortgage market, that familiarity often comes with a hidden "retail tax" that can cost you tens of thousands of dollars over the life of your loan.
                                 </p>
                             </section>
 
@@ -137,7 +137,7 @@ export default function WholesaleVsRetailComparison() {
                             </section>
 
                             <section className="mb-12">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Side-by-Side Comparison (2026 Averages)</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-6">Side-by-Side Comparison (2025 Averages)</h2>
                                 <div className="overflow-x-auto">
                                     <table className="w-full text-left border-collapse border border-gray-200">
                                         <thead>

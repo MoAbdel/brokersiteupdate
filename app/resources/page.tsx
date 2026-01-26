@@ -40,7 +40,7 @@ export default function ResourcesPage() {
       badge: 'Most Popular',
       color: 'text-green-600',
       bgColor: 'bg-green-50',
-      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2026 Updated']
+      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2025 Updated']
     },
     {
       title: 'Mortgage Calculators Suite',
@@ -156,7 +156,7 @@ export default function ResourcesPage() {
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Everything you need to navigate the home buying process. From down payment assistance
-              to market data, calculators to guides - all free and updated for 2026.
+              to market data, calculators to guides - all free and updated for 2025.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/resources/down-payment-assistance">

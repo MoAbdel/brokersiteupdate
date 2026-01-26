@@ -7,7 +7,7 @@ import { CheckCircle, Home, DollarSign, MapPin, GraduationCap, Calculator, Phone
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Definitive Orange County Mortgage Guide 2026 | Complete Resource',
+  title: 'Definitive Orange County Mortgage Guide 2025 | Complete Resource',
   description: 'Complete guide to Orange County mortgages by licensed broker Mo Abdel (NMLS #1426884). FHA, VA, conventional, jumbo loans, market data, and expert guidance.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide',
@@ -130,7 +130,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
     {
       metric: "Conforming Loan Limit",
       value: "$1,266,300",
-      description: "2026 Orange County conforming loan limit (high-cost area)"
+      description: "2025 Orange County conforming loan limit (high-cost area)"
     },
     {
       metric: "Average Home Price",
@@ -156,7 +156,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Definitive Orange County Mortgage Guide 2026
+              Definitive Orange County Mortgage Guide 2025
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
               Complete resource for Orange County home buyers and homeowners. Licensed broker guidance

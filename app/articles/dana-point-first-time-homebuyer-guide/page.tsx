@@ -4,11 +4,11 @@ import Footer from '@/components/Footer';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
-    title: 'Dana Point First-Time Homebuyer Guide: Programs & Qualification for 2026',
-    description: 'Start your homeownership journey in Dana Point with our comprehensive 2026 guide. Discover first-time buyer programs, down payment assistance, and wholesale pricing.',
+    title: 'Dana Point First-Time Homebuyer Guide: Programs & Qualification for 2025',
+    description: 'Start your homeownership journey in Dana Point with our comprehensive 2025 guide. Discover first-time buyer programs, down payment assistance, and wholesale pricing.',
     openGraph: {
         title: 'Dana Point First-Time Homebuyer Guide | Mo Abdel - Lumin Lending',
-        description: 'Expert guidance for first-time buyers in Dana Point. Navigate the market with 2026 loan programs and competitive wholesale pricing.',
+        description: 'Expert guidance for first-time buyers in Dana Point. Navigate the market with 2025 loan programs and competitive wholesale pricing.',
         images: ['/images/mo-headshot.jpg'],
         url: 'https://www.mothebroker.com/articles/dana-point-first-time-homebuyer-guide',
         type: 'article',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 export default function DanaPointFirstTimeHomebuyerGuide() {
-    const publishDate = 'August 25, 2026';
+    const publishDate = 'August 25, 2025';
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -35,7 +35,7 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
             },
             {
                 "@type": "Question",
-                "name": "Are there down payment assistance programs available in Dana Point for 2026?",
+                "name": "Are there down payment assistance programs available in Dana Point for 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes, Dana Point buyers may qualify for various state programs like CalHFA's Dream for All or local Orange County assistance programs, depending on income levels and eligibility."
@@ -81,7 +81,7 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
                             </nav>
 
                             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                Dana Point First-Time Homebuyer Guide: Programs & Qualification for 2026
+                                Dana Point First-Time Homebuyer Guide: Programs & Qualification for 2025
                             </h1>
 
                             <div className="flex items-center gap-4 text-gray-600 mb-8">
@@ -102,12 +102,12 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Is Dana Point Right for Your First Home?</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    Dana Point, with its stunning harbor and laid-back coastal vibe, is an aspirational target for many first-time homebuyers. While often seen as a luxury-only market, Dana Point offers various entry points, from harbor-view condos to established neighborhoods near Doheny Beach. In 2026, the key to succeeding as a first-time buyer here is a combination of early preparation and access to specialized loan programs.
+                                    Dana Point, with its stunning harbor and laid-back coastal vibe, is an aspirational target for many first-time homebuyers. While often seen as a luxury-only market, Dana Point offers various entry points, from harbor-view condos to established neighborhoods near Doheny Beach. In 2025, the key to succeeding as a first-time buyer here is a combination of early preparation and access to specialized loan programs.
                                 </p>
                             </section>
 
                             <section className="mb-12">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-6">2026 First-Time Buyer Programs in Dana Point</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-6">2025 First-Time Buyer Programs in Dana Point</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
                                     Accessing the right program can mean the difference between waiting another year and moving into your Dana Point home today. We offer several options tailored for first-time buyers:
                                 </p>
@@ -126,7 +126,7 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Down Payment Assistance & Strategies</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    The biggest hurdle for most first-time buyers in Dana Point is the initial capital. However, several "shadow" programs exist in 2026 that can help bridge the gap:
+                                    The biggest hurdle for most first-time buyers in Dana Point is the initial capital. However, several "shadow" programs exist in 2025 that can help bridge the gap:
                                 </p>
                                 <ul className="space-y-4">
                                     <li><strong>CalHFA Dream for All:</strong> A shared appreciation program that can provide a significant portion of your down payment in exchange for a share of future appreciation.</li>
@@ -137,7 +137,7 @@ export default function DanaPointFirstTimeHomebuyerGuide() {
 
                             <section className="mb-12 text-center bg-gray-100 py-12 rounded-2xl">
                                 <h2 className="text-2xl font-bold mb-4">Download Your Dana Point Homebuyer Checklist</h2>
-                                <p className="text-lg mb-8 px-6">Prepare for your first purchase with our step-by-step 2026 roadmap.</p>
+                                <p className="text-lg mb-8 px-6">Prepare for your first purchase with our step-by-step 2025 roadmap.</p>
                                 <Link href="/contact" className="bg-teal-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-teal-700 transition shadow-lg inline-block">
                                     Get Started Now
                                 </Link>

@@ -180,7 +180,7 @@ export default function RefinanceLoansPage() {
               ))}
             </div>
             <p className="text-center text-slate-600 mt-6 text-sm">
-              <em>*Rates as of January 2026. Many Orange County homeowners may benefit from refinancing.</em>
+              <em>*Rates as of January 2025. Many Orange County homeowners may benefit from refinancing.</em>
             </p>
           </section>
 

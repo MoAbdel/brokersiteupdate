@@ -8,36 +8,36 @@ export default function OrangeCountyMarketForecast() {
     {
       metric: "Home Prices",
       current: "$1.26M median",
-      q4_2026: "+3-5%",
-      q2_2026: "+2-4%",
-      full_2026: "+4-7% total",
+      q4_2025: "+3-5%",
+      q2_2025: "+2-4%",
+      full_2025: "+4-7% total",
       confidence: "High",
       factors: ["Limited inventory", "Job growth", "Population growth"]
     },
     {
       metric: "Interest pricing",
       current: "6.125-6.625%",
-      q4_2026: "5.75-6.25%",
-      q2_2026: "5.5-6.0%", 
-      full_2026: "5.25-5.75%",
+      q4_2025: "5.75-6.25%",
+      q2_2025: "5.5-6.0%", 
+      full_2025: "5.25-5.75%",
       confidence: "Medium",
       factors: ["Fed policy", "Inflation trends", "Economic growth"]
     },
     {
       metric: "Inventory Levels",
       current: "1.2 months",
-      q4_2026: "1.5 months",
-      q2_2026: "2.0 months",
-      full_2026: "2.5 months",
+      q4_2025: "1.5 months",
+      q2_2025: "2.0 months",
+      full_2025: "2.5 months",
       confidence: "Medium",
       factors: ["New construction", "Move-up buyers", "Economic conditions"]
     },
     {
       metric: "Days on Market",
       current: "25 days",
-      q4_2026: "35 days",
-      q2_2026: "45 days",
-      full_2026: "50-60 days",
+      q4_2025: "35 days",
+      q2_2025: "45 days",
+      full_2025: "50-60 days",
       confidence: "High", 
       factors: ["Rate normalization", "Increased inventory", "Buyer selectivity"]
     }
@@ -46,28 +46,28 @@ export default function OrangeCountyMarketForecast() {
   const bestTimingScenarios = [
     {
       scenario: "First-Time Buyers",
-      bestTiming: "Q1-Q2 2026",
+      bestTiming: "Q1-Q2 2025",
       reasoning: "Rates stabilize, inventory increases, less competition",
       strategy: ["Get pre-approved now", "Save for larger down payment", "Monitor rate trends"],
       riskLevel: "Low"
     },
     {
       scenario: "Move-Up Buyers",
-      bestTiming: "Q4 2025 - Q1 2026", 
+      bestTiming: "Q4 2025 - Q1 2025", 
       reasoning: "Sell high, buy before rates drop further",
-      strategy: ["List home in Q3 2026", "Coordinate buy/sell timing", "Consider bridge financing"],
+      strategy: ["List home in Q3 2025", "Coordinate buy/sell timing", "Consider bridge financing"],
       riskLevel: "Medium"
     },
     {
       scenario: "Luxury Market ($2M+)",
-      bestTiming: "Q2-Q3 2026",
+      bestTiming: "Q2-Q3 2025",
       reasoning: "More inventory, motivated sellers, rate relief",
       strategy: ["Build relationships with luxury agents", "Prepare jumbo loan approval", "Monitor luxury inventory"],
       riskLevel: "Low"
     },
     {
       scenario: "Investment Properties",
-      bestTiming: "Q1 2026",
+      bestTiming: "Q1 2025",
       reasoning: "Rate environment improves cash flow projections",
       strategy: ["Analyze cash flow scenarios", "Build lender relationships", "Research emerging areas"],
       riskLevel: "Medium"
@@ -78,7 +78,7 @@ export default function OrangeCountyMarketForecast() {
     {
       area: "Irvine",
       currentMedian: "$1,400,000",
-      forecast2026: "$1,500,000-$1,550,000",
+      forecast2025: "$1,500,000-$1,550,000",
       appreciation: "5-8%",
       outlook: "Strong",
       drivers: ["Tech job growth", "New developments", "School quality"],
@@ -87,7 +87,7 @@ export default function OrangeCountyMarketForecast() {
     {
       area: "Newport Beach",
       currentMedian: "$2,200,000", 
-      forecast2026: "$2,350,000-$2,450,000",
+      forecast2025: "$2,350,000-$2,450,000",
       appreciation: "6-10%",
       outlook: "Very Strong",
       drivers: ["Luxury demand", "Limited inventory", "Coastal premium"],
@@ -96,7 +96,7 @@ export default function OrangeCountyMarketForecast() {
     {
       area: "Santa Ana",
       currentMedian: "$650,000",
-      forecast2026: "$700,000-$750,000",
+      forecast2025: "$700,000-$750,000",
       appreciation: "8-12%",
       outlook: "Strong", 
       drivers: ["Affordability relative to OC", "Urban renewal", "Transit access"],
@@ -105,7 +105,7 @@ export default function OrangeCountyMarketForecast() {
     {
       area: "Huntington Beach",
       currentMedian: "$1,300,000",
-      forecast2026: "$1,400,000-$1,475,000",
+      forecast2025: "$1,400,000-$1,475,000",
       appreciation: "6-9%",
       outlook: "Strong",
       drivers: ["Beach lifestyle", "Steady demand", "Limited coastal land"],
@@ -147,21 +147,21 @@ export default function OrangeCountyMarketForecast() {
   const rateScenarios = [
     {
       scenario: "Optimistic",
-      rates2026: "5.25-5.75%",
+      rates2025: "5.25-5.75%",
       probability: "30%",
       triggers: ["Inflation controlled", "Economic stability", "Fed dovish"],
       impact: "Strong buyer activity, price acceleration"
     },
     {
       scenario: "Base Case",
-      rates2026: "5.75-6.25%", 
+      rates2025: "5.75-6.25%", 
       probability: "50%",
       triggers: ["Gradual Fed easing", "Moderate inflation", "Steady economy"],
       impact: "Balanced market, modest price growth"
     },
     {
       scenario: "Conservative",
-      rates2026: "6.25-6.75%",
+      rates2025: "6.25-6.75%",
       probability: "20%",
       triggers: ["Persistent inflation", "Economic uncertainty", "Fed hawkish"],
       impact: "Slower sales, price moderation"
@@ -178,7 +178,7 @@ export default function OrangeCountyMarketForecast() {
               <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Real Estate Market Forecast 2025-2026
+              Orange County Real Estate Market Forecast 2025-2025
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Expert analysis and predictions for Orange County's housing market. Loan pricing forecasts, 
@@ -208,7 +208,7 @@ export default function OrangeCountyMarketForecast() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Key Market Predictions for 2025-2026
+              Key Market Predictions for 2025-2025
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Comprehensive forecast of Orange County's real estate market based on current trends and economic indicators.
@@ -221,9 +221,9 @@ export default function OrangeCountyMarketForecast() {
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Metric</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Current</th>
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q4 2026</th>
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q2 2026</th>
-                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Full 2026</th>
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q4 2025</th>
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Q2 2025</th>
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900">Full 2025</th>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Confidence</th>
                 </tr>
               </thead>
@@ -237,9 +237,9 @@ export default function OrangeCountyMarketForecast() {
                       </div>
                     </td>
                     <td className="px-6 py-4 font-medium text-slate-700">{prediction.current}</td>
-                    <td className="px-6 py-4 font-medium text-blue-600">{prediction.q4_2026}</td>
-                    <td className="px-6 py-4 font-medium text-green-600">{prediction.q2_2026}</td>
-                    <td className="px-6 py-4 font-bold text-green-700">{prediction.full_2026}</td>
+                    <td className="px-6 py-4 font-medium text-blue-600">{prediction.q4_2025}</td>
+                    <td className="px-6 py-4 font-medium text-green-600">{prediction.q2_2025}</td>
+                    <td className="px-6 py-4 font-bold text-green-700">{prediction.full_2025}</td>
                     <td className="px-6 py-4">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                         prediction.confidence === 'High' ? 'bg-green-100 text-green-800' :
@@ -262,7 +262,7 @@ export default function OrangeCountyMarketForecast() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Interest Rate Scenarios for 2026
+              Interest Rate Scenarios for 2025
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Three possible rate environments and their impact on Orange County real estate.
@@ -284,8 +284,8 @@ export default function OrangeCountyMarketForecast() {
                 </div>
                 
                 <div className="mb-4">
-                  <span className="text-sm text-slate-600">2026 Rate Range:</span>
-                  <div className="text-2xl font-bold text-blue-600">{scenario.rates2026}</div>
+                  <span className="text-sm text-slate-600">2025 Rate Range:</span>
+                  <div className="text-2xl font-bold text-blue-600">{scenario.rates2025}</div>
                 </div>
                 
                 <div className="mb-4">
@@ -363,7 +363,7 @@ export default function OrangeCountyMarketForecast() {
               Area-Specific Market Forecasts
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Detailed predictions for key Orange County submarkets through 2026.
+              Detailed predictions for key Orange County submarkets through 2025.
             </p>
           </div>
 
@@ -387,8 +387,8 @@ export default function OrangeCountyMarketForecast() {
                     <div className="font-semibold text-slate-800">{area.currentMedian}</div>
                   </div>
                   <div>
-                    <span className="text-sm text-slate-600">2026 Forecast:</span>
-                    <div className="font-semibold text-green-600">{area.forecast2026}</div>
+                    <span className="text-sm text-slate-600">2025 Forecast:</span>
+                    <div className="font-semibold text-green-600">{area.forecast2025}</div>
                   </div>
                 </div>
                 
@@ -429,7 +429,7 @@ export default function OrangeCountyMarketForecast() {
               Key Economic Factors Driving the Market
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Underlying economic trends that will shape Orange County real estate through 2026.
+              Underlying economic trends that will shape Orange County real estate through 2025.
             </p>
           </div>
 

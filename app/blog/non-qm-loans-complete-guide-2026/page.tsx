@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Briefcase, Building, Dolla
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors | Mo Abdel',
-  description: 'Non-QM loans Orange County 2026: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 100+ lenders. NMLS #1426884.',
-  keywords: ['Non-QM loans Orange County', 'bank statement loans California', 'DSCR loans Orange County', 'self-employed mortgage 2026'],
+  title: 'Non-QM Loans Orange County 2025: Complete Guide for Self-Employed & Investors | Mo Abdel',
+  description: 'Non-QM loans Orange County 2025: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 100+ lenders. NMLS #1426884.',
+  keywords: ['Non-QM loans Orange County', 'bank statement loans California', 'DSCR loans Orange County', 'self-employed mortgage 2025'],
   openGraph: {
-    title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors',
-    description: 'Non-QM loans Orange County 2026: Wholesale access to bank statement, DSCR, and asset depletion programs. Free consultation.',
-    url: 'https://mothebroker.com/blog/non-qm-loans-complete-guide-2026',
+    title: 'Non-QM Loans Orange County 2025: Complete Guide for Self-Employed & Investors',
+    description: 'Non-QM loans Orange County 2025: Wholesale access to bank statement, DSCR, and asset depletion programs. Free consultation.',
+    url: 'https://mothebroker.com/blog/non-qm-loans-complete-guide-2025',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-01-16T00:00:00Z',
+    publishedTime: '2025-01-16T00:00:00Z',
+    modifiedTime: '2025-01-16T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -106,7 +106,7 @@ const nonQMTypes = [
   }
 ];
 
-export default function NonQMLoansGuide2026() {
+export default function NonQMLoansGuide2025() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -116,7 +116,7 @@ export default function NonQMLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors",
+            "headline": "Non-QM Loans Orange County 2025: Complete Guide for Self-Employed & Investors",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -128,11 +128,11 @@ export default function NonQMLoansGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "datePublished": "2026-01-16",
-            "dateModified": "2026-01-16",
+            "datePublished": "2025-01-16",
+            "dateModified": "2025-01-16",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/non-qm-loans-complete-guide-2026",
+              "@id": "https://mothebroker.com/blog/non-qm-loans-complete-guide-2025",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.consumerfinance.gov/rules-policy/regulations/1026/43/"
@@ -143,7 +143,7 @@ export default function NonQMLoansGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "copyrightYear": "2026"
+            "copyrightYear": "2025"
           })
         }}
       />
@@ -175,7 +175,7 @@ export default function NonQMLoansGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Non-QM Loans Orange County 2026: The Complete Guide for Self-Employed & Investors
+              Non-QM Loans Orange County 2025: The Complete Guide for Self-Employed & Investors
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}

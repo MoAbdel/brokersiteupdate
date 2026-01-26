@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Vs Retail Mortgage Brokers 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Wholesale Vs Retail Mortgage Brokers 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
+    canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026",
+                        "headline": "Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2025",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function WholesaleVsRetailMortgagePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-01",
-                        "dateModified": "2026-01-01",
-                        "description": "Understand the critical differences between wholesale and retail mortgage channels in 2026. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
+                        "datePublished": "2025-01-01",
+                        "dateModified": "2025-01-01",
+                        "description": "Understand the critical differences between wholesale and retail mortgage channels in 2025. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026
+                    Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2025
                 </h1>
                 <p className="text-lg text-gray-600">
                     Understanding the wholesale mortgage advantage and how it can save you money on your home loan
@@ -50,11 +50,11 @@ export default function WholesaleVsRetailMortgagePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Choosing a **wholesale mortgage broker** over a retail bank in 2026 is the most effective way to access **institutional pricing** and avoid the high overhead costs of traditional branch-based lending. Unlike retail banks (like Chase or Wells Fargo) or online lenders (like Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to over **50+ lenders**, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles.
+                        Choosing a **wholesale mortgage broker** over a retail bank in 2025 is the most effective way to access **institutional pricing** and avoid the high overhead costs of traditional branch-based lending. Unlike retail banks (like Chase or Wells Fargo) or online lenders (like Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to over **50+ lenders**, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles.
                     </p>
                 </div>
 
-                <h2>How does the mortgage distribution chain work in 2026?</h2>
+                <h2>How does the mortgage distribution chain work in 2025?</h2>
                 <p>
                     The mortgage industry operates through a distribution system similar to other financial products. Based on my years in the industry, understanding this chain is the first step to saving money:
                 </p>
@@ -231,7 +231,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-10">
                     <h3 className="text-2xl font-bold text-blue-900 mb-6 mt-0 text-center">
-                        2026 Mortgage Channel Comparison: Wholesale vs. Retail
+                        2025 Mortgage Channel Comparison: Wholesale vs. Retail
                     </h3>
                     <div className="overflow-x-auto">
                         <table className="min-w-full text-sm">

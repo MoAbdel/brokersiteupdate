@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Laguna Beach Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Laguna Beach Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function LagunaBeachMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Laguna Beach Mortgage Guide 2026: Coastal Home Financing Options",
+                        "headline": "Laguna Beach Mortgage Guide 2025: Coastal Home Financing Options",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function LagunaBeachMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-04",
-                        "dateModified": "2026-01-04",
-                        "description": "Navigate Laguna Beach's unique coastal real estate market with expert wholesale mortgage solutions. Learn how to finance hillside estates and coastal homes in 2026."
+                        "datePublished": "2025-01-04",
+                        "dateModified": "2025-01-04",
+                        "description": "Navigate Laguna Beach's unique coastal real estate market with expert wholesale mortgage solutions. Learn how to finance hillside estates and coastal homes in 2025."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Laguna Beach Mortgage Guide 2026: Coastal Home Financing Options
+                    Laguna Beach Mortgage Guide 2025: Coastal Home Financing Options
                 </h1>
                 <p className="text-lg text-gray-600">
                     Navigate Laguna Beach's unique coastal real estate market with expert wholesale mortgage solutions
@@ -50,11 +50,11 @@ export default function LagunaBeachMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **50+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
+                        To finance a home in Laguna Beach in 2025, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **50+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
                     </p>
                 </div>
 
-                <h2>What makes the Laguna Beach real estate market unique in 2026?</h2>
+                <h2>What makes the Laguna Beach real estate market unique in 2025?</h2>
                 <p>
                     Laguna Beach's artistic coastal community offers some of Southern California's most distinctive properties. As a local broker, I've found that financing here requires navigating these specific market characteristics:
                 </p>
@@ -97,7 +97,7 @@ export default function LagunaBeachMortgageGuidePage() {
                 </p>
                 <p><strong>Jumbo Loan Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $806,500 (2026 Orange County conforming limit)</li>
+                    <li>Loan amounts exceeding $806,500 (2025 Orange County conforming limit)</li>
                     <li>Competitive wholesale pricing structures</li>
                     <li>Flexible down payment requirements (typically 10-20%)</li>
                     <li>Available for primary residences and second homes</li>

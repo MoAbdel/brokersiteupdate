@@ -66,7 +66,7 @@ const faqSchema = {
       "name": "What is the average home price in Newport Beach?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The median home price in Newport Beach is $2.8M as of 2026, with waterfront properties averaging $4M-$15M+ and Corona del Mar homes typically $3M-$8M."
+        "text": "The median home price in Newport Beach is $2.8M as of 2025, with waterfront properties averaging $4M-$15M+ and Corona del Mar homes typically $3M-$8M."
       }
     },
     {
@@ -74,7 +74,7 @@ const faqSchema = {
       "name": "Do I need a jumbo loan for Newport Beach homes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, 95% of Newport Beach homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+."
+        "text": "Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+."
       }
     },
     {
@@ -199,7 +199,7 @@ export default function NewportBeachMortgageBrokerPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
                     <TrendingUp className="w-6 h-6 mr-3 text-blue-600" />
-                    Newport Beach Real Estate Market 2026
+                    Newport Beach Real Estate Market 2025
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -225,7 +225,7 @@ export default function NewportBeachMortgageBrokerPage() {
                       Newport Beach represents one of Orange County's most prestigious real estate markets. With its stunning waterfront locations, world-class marinas, and luxury amenities, Newport Beach properties command premium prices that require specialized financing solutions.
                     </p>
                     <p className="mb-4">
-                      <strong>Key Market Insights for 2026:</strong>
+                      <strong>Key Market Insights for 2025:</strong>
                     </p>
                     <ul className="space-y-2 mb-4">
                       <li>• Inventory remains limited with high demand for waterfront properties</li>
@@ -368,14 +368,14 @@ export default function NewportBeachMortgageBrokerPage() {
                     <div className="border-l-4 border-blue-600 pl-4">
                       <h4 className="font-bold text-slate-900 mb-2">What is the average home price in Newport Beach?</h4>
                       <p className="text-slate-600 text-sm">
-                        The median home price in Newport Beach is $2.8M as of 2026, with waterfront properties averaging $4M-$15M+ and Corona del Mar homes typically $3M-$8M.
+                        The median home price in Newport Beach is $2.8M as of 2025, with waterfront properties averaging $4M-$15M+ and Corona del Mar homes typically $3M-$8M.
                       </p>
                     </div>
                     
                     <div className="border-l-4 border-green-600 pl-4">
                       <h4 className="font-bold text-slate-900 mb-2">Do I need a jumbo loan for Newport Beach homes?</h4>
                       <p className="text-slate-600 text-sm">
-                        Yes, 95% of Newport Beach homes exceed the 2026 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+.
+                        Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+.
                       </p>
                     </div>
                     

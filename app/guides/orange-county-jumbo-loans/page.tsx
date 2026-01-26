@@ -199,7 +199,7 @@ export default function OrangeCountyJumboLoansGuide() {
               <Crown className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Jumbo Loan Guide 2026
+              Orange County Jumbo Loan Guide 2025
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Complete guide to jumbo mortgages for luxury Orange County properties. Access Newport Beach, 
@@ -224,12 +224,12 @@ export default function OrangeCountyJumboLoansGuide() {
         </div>
       </div>
 
-      {/* 2026 Jumbo Loan Limits */}
+      {/* 2025 Jumbo Loan Limits */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              2026 Orange County Jumbo Loan Limits
+              2025 Orange County Jumbo Loan Limits
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Understanding when you need a jumbo loan in Orange County's high-cost housing market.
@@ -241,7 +241,7 @@ export default function OrangeCountyJumboLoansGuide() {
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Conforming Loan Limit</h3>
               <div className="text-center">
                 <div className="text-4xl font-bold text-blue-600 mb-2">$1,266,300</div>
-                <p className="text-slate-600 mb-4">2026 limit for Orange County</p>
+                <p className="text-slate-600 mb-4">2025 limit for Orange County</p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                   <p className="text-sm text-blue-700">
                     Loans up to this amount qualify for conforming pricing and can be sold to Fannie Mae/Freddie Mac

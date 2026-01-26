@@ -6,13 +6,13 @@ import { Badge } from '@/components/ui/Badge';
 import { Home, GraduationCap, Car, Waves, Palette } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Huntington Beach vs Costa Mesa Home Buying Guide 2026 | Surf City vs Arts District OC',
+  title: 'Huntington Beach vs Costa Mesa Home Buying Guide 2025 | Surf City vs Arts District OC',
   description: 'Compare Huntington Beach vs Costa Mesa home buying: beach lifestyle vs urban arts culture. Home prices, commutes, amenities, and mortgage options compared.',
   openGraph: {
-    title: 'Huntington Beach vs Costa Mesa Home Buying Guide 2026 | Surf City vs Arts District OC',
+    title: 'Huntington Beach vs Costa Mesa Home Buying Guide 2025 | Surf City vs Arts District OC',
     description: 'Compare Huntington Beach vs Costa Mesa home buying: beach lifestyle vs urban arts culture. Home prices, commutes, amenities, and mortgage options compared.',
     type: 'article',
-    publishedTime: '2026-04-10T09:15:00Z',
+    publishedTime: '2025-04-10T09:15:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide',
@@ -31,7 +31,7 @@ export default function HuntingtonBeachVsCostaMesaGuide() {
             Huntington Beach vs Costa Mesa Mortgage Broker: Home Loans for Beach and Urban Living
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published April 10, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published April 10, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Choosing between beach living and urban sophistication? Compare Huntington Beach's surf culture 

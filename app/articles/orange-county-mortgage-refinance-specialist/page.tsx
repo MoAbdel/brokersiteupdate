@@ -43,7 +43,7 @@ export default function RefinanceSpecialistArticle() {
               <div className="flex items-center gap-4 text-gray-600 mb-8">
                 <span>By Mo Abdel, NMLS #1426884</span>
                 <span>•</span>
-                <span>January 9, 2026</span>
+                <span>January 9, 2025</span>
                 <span>•</span>
                 <span>10 min read</span>
               </div>

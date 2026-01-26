@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
-  description: 'Ladera Ranch mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
-  keywords: ['Ladera Ranch mortgage broker', 'Ladera Ranch home loans', 'Ladera Ranch mortgage rates 2026', 'wholesale mortgage Ladera Ranch'],
+  title: 'Ladera Ranch Mortgage Broker 2025: Wholesale Rates from 100+ Lenders | Mo Abdel',
+  description: 'Ladera Ranch mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
+  keywords: ['Ladera Ranch mortgage broker', 'Ladera Ranch home loans', 'Ladera Ranch mortgage rates 2025', 'wholesale mortgage Ladera Ranch'],
   openGraph: {
-    title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
-    description: 'Ladera Ranch mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
-    url: 'https://mothebroker.com/blog/ladera-ranch-mortgage-guide-2026',
+    title: 'Ladera Ranch Mortgage Broker 2025: Wholesale Rates from 100+ Lenders',
+    description: 'Ladera Ranch mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    url: 'https://mothebroker.com/blog/ladera-ranch-mortgage-guide-2025',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2026-01-18T00:00:00Z',
-    modifiedTime: '2026-01-18T00:00:00Z',
+    publishedTime: '2025-01-18T00:00:00Z',
+    modifiedTime: '2025-01-18T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -30,8 +30,8 @@ const faqData = [
     answer: "Down payment requirements in Ladera Ranch range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Ladera Ranch median home prices around $1.4M, many buyers need jumbo loans requiring 10-20% down for homes above the $1,266,300 conforming limit."
   },
   {
-    question: "What is the conforming loan limit in Ladera Ranch for 2026?",
-    answer: "The 2026 conforming loan limit in Orange County, including Ladera Ranch, is $1,266,300. Many Ladera Ranch homes exceed this threshold and require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
+    question: "What is the conforming loan limit in Ladera Ranch for 2025?",
+    answer: "The 2025 conforming loan limit in Orange County, including Ladera Ranch, is $1,266,300. Many Ladera Ranch homes exceed this threshold and require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
   },
   {
     question: "What are HOA fees like in Ladera Ranch?",
@@ -51,7 +51,7 @@ const faqData = [
   }
 ];
 
-export default function LaderaRanchMortgageGuide2026() {
+export default function LaderaRanchMortgageGuide2025() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -61,7 +61,7 @@ export default function LaderaRanchMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
+            "headline": "Ladera Ranch Mortgage Broker 2025: Wholesale Rates from 100+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -73,11 +73,11 @@ export default function LaderaRanchMortgageGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "datePublished": "2026-01-18",
-            "dateModified": "2026-01-18",
+            "datePublished": "2025-01-18",
+            "dateModified": "2025-01-18",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/ladera-ranch-mortgage-guide-2026",
+              "@id": "https://mothebroker.com/blog/ladera-ranch-mortgage-guide-2025",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -89,7 +89,7 @@ export default function LaderaRanchMortgageGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "copyrightYear": "2026",
+            "copyrightYear": "2025",
             "about": {
               "@type": "Place",
               "name": "Ladera Ranch, California",
@@ -130,12 +130,12 @@ export default function LaderaRanchMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Ladera Ranch Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
+              Ladera Ranch Mortgage Broker 2025: Access Wholesale Rates from 100+ Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Ladera Ranch mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.4M exceeding the $1,266,300 conforming limit, most Ladera Ranch buyers benefit from wholesale jumbo loan access across 100+ lenders.
+              Ladera Ranch mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2025. With median home prices at $1.4M exceeding the $1,266,300 conforming limit, most Ladera Ranch buyers benefit from wholesale jumbo loan access across 100+ lenders.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -163,14 +163,14 @@ export default function LaderaRanchMortgageGuide2026() {
         {/* Market Snapshot */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Makes Ladera Ranch Unique for Mortgage Borrowers in 2026?
+            What Makes Ladera Ranch Unique for Mortgage Borrowers in 2025?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Ladera Ranch is Orange County's premier master-planned community, developed in 1999 with a focus on family living, outdoor recreation, and community connection. With award-winning schools, extensive amenities, and newer construction, Ladera Ranch commands premium prices that typically require jumbo financing.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">Ladera Ranch Real Estate Snapshot 2026</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">Ladera Ranch Real Estate Snapshot 2025</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1.4M</p>
@@ -178,7 +178,7 @@ export default function LaderaRanchMortgageGuide2026() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1,266,300</p>
-                <p className="text-sm text-slate-600">2026 Conforming Limit</p>
+                <p className="text-sm text-slate-600">2025 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">30,000</p>
@@ -260,7 +260,7 @@ export default function LaderaRanchMortgageGuide2026() {
         {/* Best Loan Programs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are the Best Ladera Ranch Mortgage Options for 2026?
+            What Are the Best Ladera Ranch Mortgage Options for 2025?
           </h2>
 
           <div className="space-y-6">
@@ -330,7 +330,7 @@ export default function LaderaRanchMortgageGuide2026() {
         {/* Neighborhoods Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Which Ladera Ranch Villages Offer the Best Value in 2026?
+            Which Ladera Ranch Villages Offer the Best Value in 2025?
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -443,22 +443,22 @@ export default function LaderaRanchMortgageGuide2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Ladera Ranch Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
               → Jumbo Loan Programs for Orange County
             </Link>
-            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/mission-viejo-mortgage-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
               → Nearby: Mission Viejo Mortgages
             </Link>
-            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
               → Nearby: Rancho Santa Margarita Mortgages
             </Link>
-            <Link href="/blog/va-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/va-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
               → VA Loans for Orange County Military
             </Link>
             <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
               → Ladera Ranch Affordability Calculator
             </Link>
-            <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/first-time-homebuyer-guide-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
               → First-Time Homebuyer Guide
             </Link>
           </div>

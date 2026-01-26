@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dana Point Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Dana Point Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
+    canonical: 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2025',
   },
 };
 
@@ -17,7 +17,7 @@ export default function DanaPointMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Dana Point Mortgage Guide 2026: Harbor & Coastal Home Financing",
+                        "headline": "Dana Point Mortgage Guide 2025: Harbor & Coastal Home Financing",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function DanaPointMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2026-01-03",
-                        "dateModified": "2026-01-03",
-                        "description": "Explore the 2026 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
+                        "datePublished": "2025-01-03",
+                        "dateModified": "2025-01-03",
+                        "description": "Explore the 2025 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Dana Point Mortgage Guide 2026: Harbor & Coastal Home Financing
+                    Dana Point Mortgage Guide 2025: Harbor & Coastal Home Financing
                 </h1>
                 <p className="text-lg text-gray-600">
                     Expert mortgage solutions for Dana Point's diverse coastal communities and harbor properties
@@ -50,11 +50,11 @@ export default function DanaPointMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in Dana Point in 2026, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
+                        To secure a mortgage in Dana Point in 2025, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
                     </p>
                 </div>
 
-                <h2>What does the Dana Point real estate market look like in 2026?</h2>
+                <h2>What does the Dana Point real estate market look like in 2025?</h2>
                 <p>
                     Dana Point's real estate market offers a blend of harbor living and coastal elegance. As a broker serving this area, I've noted several neighborhood-specific characteristics:
                 </p>
@@ -97,7 +97,7 @@ export default function DanaPointMortgageGuidePage() {
                 </p>
                 <p><strong>Jumbo Loan Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $1,266,300 (2026 Orange County conforming limit)</li>
+                    <li>Loan amounts exceeding $1,266,300 (2025 Orange County conforming limit)</li>
                     <li>Competitive wholesale pricing structures</li>
                     <li>Down payment options typically 10-20%</li>
                     <li>Available for primary residences, second homes, and investment properties</li>

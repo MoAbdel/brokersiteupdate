@@ -51,13 +51,13 @@ export default function HELOCSpecialistOrangeCounty() {
         </div>
       </section>
 
-      {/* The 2026 HELOC Strategy */}
+      {/* The 2025 HELOC Strategy */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Why HELOCs Are the Smart 2026 Strategy
+                Why HELOCs Are the Smart 2025 Strategy
               </h2>
               <p className="text-lg text-slate-600 mb-4">
                 If you locked in a low mortgage in 2020-2021, you're sitting on one of the most valuable

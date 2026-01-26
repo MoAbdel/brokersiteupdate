@@ -77,9 +77,9 @@ export default function ConventionalLoansPage() {
           </div>
         </div>
 
-        {/* Conventional Loan Limits 2026 */}
+        {/* Conventional Loan Limits 2025 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2026 Conventional Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2025 Conventional Loan Limits in Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -106,7 +106,7 @@ export default function ConventionalLoansPage() {
                     <span className="font-bold text-purple-600">Jumbo Loan Required</span>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*2026 conforming loan limits set by FHFA. Above these amounts require jumbo financing.</p>
+                <p className="text-xs text-slate-500 mt-4">*2025 conforming loan limits set by FHFA. Above these amounts require jumbo financing.</p>
               </div>
 
 

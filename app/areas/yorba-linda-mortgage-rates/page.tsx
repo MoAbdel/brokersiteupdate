@@ -3,10 +3,10 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Yorba Linda Mortgage Rates 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  title: 'Yorba Linda Mortgage Rates 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
   description: 'Current Yorba Linda mortgage rates and home loan options. Compare FHA, VA, conventional rates in Yorba Linda CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Yorba Linda Mortgage Rates 2026 | Best Home Loan Rates CA',
+    title: 'Yorba Linda Mortgage Rates 2025 | Best Home Loan Rates CA',
     description: 'Current Yorba Linda mortgage rates and home loan options. Compare FHA, VA, conventional rates in Yorba Linda CA.',
     type: 'website',
   },

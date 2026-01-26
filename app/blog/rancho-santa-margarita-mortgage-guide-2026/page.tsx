@@ -4,26 +4,26 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families | Mo Abdel',
-  description: 'Rancho Santa Margarita mortgage broker 2026: Access 100+ wholesale lenders. First-time buyer programs, FHA, VA, jumbo loans. NMLS #1426884.',
-  keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans', 'Rancho Santa Margarita mortgage rates 2026', 'wholesale mortgage RSM'],
+  title: 'Rancho Santa Margarita Mortgage Broker 2025: Wholesale Rates for RSM Families | Mo Abdel',
+  description: 'Rancho Santa Margarita mortgage broker 2025: Access 100+ wholesale lenders. First-time buyer programs, FHA, VA, jumbo loans. NMLS #1426884.',
+  keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans', 'Rancho Santa Margarita mortgage rates 2025', 'wholesale mortgage RSM'],
   openGraph: {
-    title: 'Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families',
-    description: 'Rancho Santa Margarita mortgage broker 2026: Family-friendly financing from 100+ wholesale lenders. Free rate comparison.',
-    url: 'https://mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026',
+    title: 'Rancho Santa Margarita Mortgage Broker 2025: Wholesale Rates for RSM Families',
+    description: 'Rancho Santa Margarita mortgage broker 2025: Family-friendly financing from 100+ wholesale lenders. Free rate comparison.',
+    url: 'https://mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2025',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-01-16T00:00:00Z',
+    publishedTime: '2025-01-16T00:00:00Z',
+    modifiedTime: '2025-01-16T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 const faqData = [
   {
-    question: "What is the median home price in Rancho Santa Margarita 2026?",
-    answer: "Rancho Santa Margarita median home prices in 2026 range from $750,000 to $950,000, making it one of Orange County's more accessible family-friendly communities. Most homes qualify for conforming loans under the $1,266,300 limit."
+    question: "What is the median home price in Rancho Santa Margarita 2025?",
+    answer: "Rancho Santa Margarita median home prices in 2025 range from $750,000 to $950,000, making it one of Orange County's more accessible family-friendly communities. Most homes qualify for conforming loans under the $1,266,300 limit."
   },
   {
     question: "Is Rancho Santa Margarita good for first-time homebuyers?",
@@ -47,7 +47,7 @@ const faqData = [
   }
 ];
 
-export default function RanchoSantaMargaritaMortgageGuide2026() {
+export default function RanchoSantaMargaritaMortgageGuide2025() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -57,7 +57,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families",
+            "headline": "Rancho Santa Margarita Mortgage Broker 2025: Wholesale Rates for RSM Families",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -69,11 +69,11 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "datePublished": "2026-01-16",
-            "dateModified": "2026-01-16",
+            "datePublished": "2025-01-16",
+            "dateModified": "2025-01-16",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+              "@id": "https://mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2025",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -85,7 +85,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "name": "Mo Abdel - Wholesale Mortgage Broker",
               "url": "https://mothebroker.com"
             },
-            "copyrightYear": "2026",
+            "copyrightYear": "2025",
             "about": {
               "@type": "Place",
               "name": "Rancho Santa Margarita, California",
@@ -126,12 +126,12 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Rancho Santa Margarita Mortgage Broker 2026: Family-Friendly Financing
+              Rancho Santa Margarita Mortgage Broker 2025: Family-Friendly Financing
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita median home prices of $850,000 in 2026 fall well under the $1,266,300 conforming limit, giving RSM buyers access to the best conventional loan rates. Wholesale brokers shop 100+ lenders for rates 0.25-0.5% below retail banks.
+              Rancho Santa Margarita median home prices of $850,000 in 2025 fall well under the $1,266,300 conforming limit, giving RSM buyers access to the best conventional loan rates. Wholesale brokers shop 100+ lenders for rates 0.25-0.5% below retail banks.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -166,7 +166,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">Rancho Santa Margarita Real Estate Snapshot 2026</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">Rancho Santa Margarita Real Estate Snapshot 2025</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$850K</p>
@@ -174,7 +174,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1,266,300</p>
-                <p className="text-sm text-slate-600">2026 Conforming Limit</p>
+                <p className="text-sm text-slate-600">2025 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">49,000</p>
@@ -208,7 +208,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
         {/* Loan Programs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are the Best RSM Mortgage Programs for 2026?
+            What Are the Best RSM Mortgage Programs for 2025?
           </h2>
 
           <div className="space-y-6">

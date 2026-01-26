@@ -4,22 +4,22 @@ import Footer from '@/components/Footer';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 
 export const metadata: Metadata = {
-    title: 'Orange County Mortgage Market Update: August 2026 Wholesale Analysis',
-    description: 'Stay ahead of the market with our August 2026 analysis of Orange County mortgage trends. Compare wholesale vs. retail dynamics and discover strategic timing.',
+    title: 'Orange County Mortgage Market Update: August 2025 Wholesale Analysis',
+    description: 'Stay ahead of the market with our August 2025 analysis of Orange County mortgage trends. Compare wholesale vs. retail dynamics and discover strategic timing.',
     openGraph: {
-        title: 'OC Mortgage Market Update August 2026 | Mo Abdel - Lumin Lending',
-        description: 'Expert analysis of current Orange County mortgage market dynamics. Learn why wholesale channels provide a critical advantage in the August 2026 market.',
+        title: 'OC Mortgage Market Update August 2025 | Mo Abdel - Lumin Lending',
+        description: 'Expert analysis of current Orange County mortgage market dynamics. Learn why wholesale channels provide a critical advantage in the August 2025 market.',
         images: ['/images/mo-headshot.jpg'],
-        url: 'https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2026',
+        url: 'https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2025',
         type: 'article',
     },
     alternates: {
-        canonical: 'https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2026',
+        canonical: 'https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2025',
     },
 };
 
 export default function OCMortgageRateTrends() {
-    const publishDate = 'August 30, 2026';
+    const publishDate = 'August 30, 2025';
 
     const faqSchema = {
         "@context": "https://schema.org",
@@ -27,10 +27,10 @@ export default function OCMortgageRateTrends() {
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "Are mortgage rates in Orange County expected to drop in late 2026?",
+                "name": "Are mortgage rates in Orange County expected to drop in late 2025?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "While market predictions vary, the August 2026 data shows stabilize rates with a slight downward bias as inflation metrics continue to moderate. However, timing the bottom is difficult, and many buyers are choosing to 'date the rate' now."
+                    "text": "While market predictions vary, the August 2025 data shows stabilize rates with a slight downward bias as inflation metrics continue to moderate. However, timing the bottom is difficult, and many buyers are choosing to 'date the rate' now."
                 }
             },
             {
@@ -69,11 +69,11 @@ export default function OCMortgageRateTrends() {
                                 <span className="mx-2 text-gray-500">/</span>
                                 <Link href="/articles" className="text-blue-600 hover:underline">Articles</Link>
                                 <span className="mx-2 text-gray-500">/</span>
-                                <span className="text-gray-700">OC Rate Trends August 2026</span>
+                                <span className="text-gray-700">OC Rate Trends August 2025</span>
                             </nav>
 
                             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                                Orange County Mortgage Market Update: August 2026 Wholesale Analysis
+                                Orange County Mortgage Market Update: August 2025 Wholesale Analysis
                             </h1>
 
                             <div className="flex items-center justify-center gap-4 text-gray-600 mb-8">
@@ -92,16 +92,16 @@ export default function OCMortgageRateTrends() {
                         <div className="max-w-4xl mx-auto prose prose-lg prose-blue">
 
                             <section className="mb-12">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-6">The August 2026 Market Summary</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-6">The August 2025 Market Summary</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    As we move through August 2026, the Orange County mortgage landscape is marked by a "cautiously optimistic" tone. While the headline volatility of previous years has subsided, the pricing advantage provided by wholesale broker channels remains a critical opportunity for savvy borrowers.
+                                    As we move through August 2025, the Orange County mortgage landscape is marked by a "cautiously optimistic" tone. While the headline volatility of previous years has subsided, the pricing advantage provided by wholesale broker channels remains a critical opportunity for savvy borrowers.
                                 </p>
                             </section>
 
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Wholesale vs. Retail Pricing Dynamics</h2>
                                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mb-8">
-                                    <p className="text-gray-700 mb-4">In the current August 2026 market, wholesale channels are offering distinct advantages over traditional retail banks:</p>
+                                    <p className="text-gray-700 mb-4">In the current August 2025 market, wholesale channels are offering distinct advantages over traditional retail banks:</p>
                                     <ul className="space-y-4">
                                         <li><strong>Lower Overhead:</strong> Unlike retail banks with physical branches and massive marketing budgets, wholesale lenders pass their operational savings directly to you.</li>
                                         <li><strong>Lender Competition:</strong> We access the wholesale portals of dozens of lenders, forcing them to compete for your business with more aggressive pricing packages.</li>
@@ -114,7 +114,7 @@ export default function OCMortgageRateTrends() {
                             <section className="mb-12">
                                 <h2 className="text-3xl font-bold text-gray-900 mb-6">What's Driving the Market This Month?</h2>
                                 <p className="text-gray-700 leading-relaxed mb-6">
-                                    Several key factors are influencing the August 2026 rate environment in Southern California:
+                                    Several key factors are influencing the August 2025 rate environment in Southern California:
                                 </p>
                                 <ul className="space-y-4">
                                     <li><strong>Lender Inventory Appetite:</strong> Wholesale lenders are showing increased competition for well-qualified Orange County purchase loans, leading to aggressive pricing in the mid-700 credit score tiers.</li>

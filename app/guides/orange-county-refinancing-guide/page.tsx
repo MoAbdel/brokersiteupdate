@@ -166,7 +166,7 @@ const costAnalysis = [
 
 const faqs = [
   {
-    question: 'Should I refinance my Orange County home in 2026?',
+    question: 'Should I refinance my Orange County home in 2025?',
     answer: 'Refinancing makes sense if you can reduce your pricing by 0.5-1%, remove PMI, access equity for improvements, or consolidate high-interest debt. With Orange County home values remaining strong, many homeowners have significant equity to leverage. Consider your break-even point and how long you plan to stay in the home.'
   },
   {
@@ -234,7 +234,7 @@ export default function OrangeCountyRefinancingGuide() {
               Complete Refinancing Guide
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Orange County Refinancing Guide 2026
+              Orange County Refinancing Guide 2025
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-100 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to refinancing your Orange County home. Explore rate-and-term refinancing,
@@ -261,7 +261,7 @@ export default function OrangeCountyRefinancingGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-2">
-              Orange County Refinancing Market 2026
+              Orange County Refinancing Market 2025
             </h2>
             <p className="text-slate-600">Current market conditions creating refinancing opportunities</p>
           </div>

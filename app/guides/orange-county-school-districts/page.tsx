@@ -274,7 +274,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
               <div className="space-y-3">
                 <p className="text-slate-600">Best for established districts like Irvine and Newport-Mesa</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>• Up to $1,266,300 (2026 limit)</li>
+                  <li>• Up to $1,266,300 (2025 limit)</li>
                   <li>• 3% down payment options</li>
                   <li>• Competitive pricing</li>
                   <li>• Fast approval process</li>

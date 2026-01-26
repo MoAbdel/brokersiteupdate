@@ -113,7 +113,7 @@ const fhaRequirements = [
   {
     category: 'Orange County Specific',
     requirements: [
-      'Loan amount cannot exceed $1,266,300 (2026 limit)',
+      'Loan amount cannot exceed $1,266,300 (2025 limit)',
       'Property must be within Orange County boundaries',
       'Competitive market requires strong pre-approval',
       'Local market knowledge essential for success'
@@ -123,8 +123,8 @@ const fhaRequirements = [
 
 const faqs = [
   {
-    question: "What are the 2026 FHA loan limits in Orange County?",
-    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
+    question: "What are the 2025 FHA loan limits in Orange County?",
+    answer: "The 2025 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
   },
   {
     question: "What's the difference between FHA and conventional loans in Orange County?",
@@ -218,20 +218,20 @@ export default function FHALoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2026 FHA Loan Limits */}
+          {/* 2025 FHA Loan Limits */}
           <section className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2026 FHA Loan Limits in Orange County
+              2025 FHA Loan Limits in Orange County
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center">
-                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
+                The 2025 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
                 matching the conforming high-cost limit for this area.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
                   <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
-                  <p className="text-slate-700">2026 FHA Loan Limit</p>
+                  <p className="text-slate-700">2025 FHA Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">

@@ -240,14 +240,14 @@ export default function OrangeCountyJumboLoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl">
-                    2026 Orange County Jumbo Loan Market
+                    2025 Orange County Jumbo Loan Market
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="bg-purple-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
                       <h3 className="text-2xl font-bold text-purple-700 mb-2">$1,266,300+</h3>
-                      <p className="text-purple-600">Jumbo Loan Threshold in Orange County (2026)</p>
+                      <p className="text-purple-600">Jumbo Loan Threshold in Orange County (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">Loans above this amount require jumbo financing</p>
                     </div>
                   </div>

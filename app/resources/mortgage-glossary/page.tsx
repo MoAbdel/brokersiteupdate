@@ -17,7 +17,7 @@ export default function Page() {
   const faqs = [
     { q: 'How should I use this mortgage glossary?', a: 'Use this glossary to understand terms you encounter during your home buying or refinancing process. Terms are organized alphabetically for easy reference, and definitions include practical context for Orange County markets.' },
     { q: 'Where do mortgage term definitions vary by lender?', a: 'While basic definitions are standard, specific qualification criteria, documentation requirements, and program features can vary between lenders. We help compare these differences across our 200+ lender network.' },
-    { q: 'Are these definitions current for 2024-2026?', a: 'Yes, all definitions reflect current mortgage industry standards and regulations. However, specific program details and qualification criteria may change, so we recommend consulting with us for the most current information.' },
+    { q: 'Are these definitions current for 2024-2025?', a: 'Yes, all definitions reflect current mortgage industry standards and regulations. However, specific program details and qualification criteria may change, so we recommend consulting with us for the most current information.' },
     { q: 'What if I don\'t see a term I\'m looking for?', a: 'Contact us directly if you encounter mortgage terms not covered here. The lending industry frequently evolves, and we can explain any new or specialized terms relevant to your situation.' },
     { q: 'How do these terms apply to Orange County real estate?', a: 'Many terms have specific implications for Orange County\'s high-value market, such as jumbo loan limits and luxury property considerations. We provide local context where relevant.' },
     { q: 'Should I memorize all these terms?', a: 'Focus on terms relevant to your specific loan type and situation. As your mortgage broker, we explain applicable terms during your loan process and ensure you understand all aspects of your financing.' },
@@ -179,7 +179,7 @@ export default function Page() {
             Several mortgage terms have particular relevance in Orange County's high-value real estate market:
           </p>
           <ul className="mt-2 space-y-1">
-            <li>• <strong>Jumbo loan limits:</strong> Orange County's conforming loan limit is $1,266,300 for 2026, with jumbo loans required above this amount</li>
+            <li>• <strong>Jumbo loan limits:</strong> Orange County's conforming loan limit is $1,266,300 for 2025, with jumbo loans required above this amount</li>
             <li>• <strong>Luxury property appraisals:</strong> High-value properties require specialized appraisers familiar with luxury markets and unique features</li>
             <li>• <strong>Mello-Roos assessments:</strong> Common in newer developments, these special assessments affect total housing costs and debt-to-income calculations</li>
             <li>• <strong>HOA considerations:</strong> Many Orange County communities have substantial HOA fees that impact loan qualification</li>
