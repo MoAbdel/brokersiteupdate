@@ -9,7 +9,7 @@ export const metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Mortgage Glossary | Essential Home Loan Terms Explained',
-    url: 'https://mothebroker.com/resources/mortgage-glossary',
+    url: 'https://www.mothebroker.com/resources/mortgage-glossary',
   },
 };
 
@@ -27,14 +27,14 @@ export default function Page() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: 'Mortgage Glossary',
-    url: 'https://mothebroker.com/resources/mortgage-glossary',
+    url: 'https://www.mothebroker.com/resources/mortgage-glossary',
     description: 'Comprehensive mortgage glossary with definitions of home loan terms and real estate financing concepts.',
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mothebroker.com' },
-        { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://mothebroker.com/resources' },
-        { '@type': 'ListItem', position: 3, name: 'Mortgage Glossary', item: 'https://mothebroker.com/resources/mortgage-glossary' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mothebroker.com' },
+        { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.mothebroker.com/resources' },
+        { '@type': 'ListItem', position: 3, name: 'Mortgage Glossary', item: 'https://www.mothebroker.com/resources/mortgage-glossary' },
       ]
     }
   };

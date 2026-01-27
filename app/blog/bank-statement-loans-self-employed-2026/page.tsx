@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, FileText, Building2, Trend
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Bank Statement Loans 2025: Self-Employed Mortgage Guide Orange County | Mo Abdel',
-  description: 'Bank statement loans Orange County 2025: Self-employed mortgage using 12-24 months deposits. No tax returns needed. Wholesale rates. NMLS #1426884.',
-  keywords: ['bank statement loans Orange County', 'self-employed mortgage California', 'no tax return mortgage 2025', 'business owner home loan'],
+  title: 'Bank Statement Loans 2026: Self-Employed Mortgage Guide Orange County | Mo Abdel',
+  description: 'Bank statement loans Orange County 2026: Self-employed mortgage using 12-24 months deposits. No tax returns needed. Wholesale rates. NMLS #1426884.',
+  keywords: ['bank statement loans Orange County', 'self-employed mortgage California', 'no tax return mortgage 2026', 'business owner home loan'],
   openGraph: {
-    title: 'Bank Statement Loans 2025: Self-Employed Mortgage Guide Orange County',
+    title: 'Bank Statement Loans 2026: Self-Employed Mortgage Guide Orange County',
     description: 'Bank statement loans for self-employed borrowers: Use bank deposits instead of tax returns. Wholesale access to 100+ lenders.',
-    url: 'https://mothebroker.com/blog/bank-statement-loans-self-employed-2025',
+    url: 'https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-16T00:00:00Z',
-    modifiedTime: '2025-01-16T00:00:00Z',
+    publishedTime: '2026-01-16T00:00:00Z',
+    modifiedTime: '2026-01-16T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -51,7 +51,7 @@ const faqData = [
   }
 ];
 
-export default function BankStatementLoansGuide2025() {
+export default function BankStatementLoansGuide2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -61,7 +61,7 @@ export default function BankStatementLoansGuide2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Bank Statement Loans 2025: Self-Employed Mortgage Guide Orange County",
+            "headline": "Bank Statement Loans 2026: Self-Employed Mortgage Guide Orange County",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -71,13 +71,13 @@ export default function BankStatementLoansGuide2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-16",
-            "dateModified": "2025-01-16",
+            "datePublished": "2026-01-16",
+            "dateModified": "2026-01-16",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/bank-statement-loans-self-employed-2025",
+              "@id": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.sba.gov/"
@@ -86,9 +86,9 @@ export default function BankStatementLoansGuide2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025"
+            "copyrightYear": "2026"
           })
         }}
       />
@@ -120,7 +120,7 @@ export default function BankStatementLoansGuide2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Bank Statement Loans 2025: The Self-Employed Mortgage Solution
+              Bank Statement Loans 2026: The Self-Employed Mortgage Solution
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
@@ -465,7 +465,7 @@ export default function BankStatementLoansGuide2025() {
             <Link href="/loan-programs/bank-statement-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Bank Statement Loan Program Details
             </Link>
-            <Link href="/blog/non-qm-loans-complete-guide-2025" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Complete Non-QM Loans Guide
             </Link>
             <Link href="/self-employed-home-loans-california" className="text-blue-600 hover:text-blue-700 hover:underline">

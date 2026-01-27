@@ -23,13 +23,13 @@ export default function IrvineMortgageGuidePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Irvine Real Estate", "Tech Professional Housing Loans", "Master-Planned Communities", "Wholesale Mortgage Rates"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending, Inc.",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-09",
                         "dateModified": "2025-01-09",

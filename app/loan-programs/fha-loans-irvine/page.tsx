@@ -53,7 +53,7 @@ export default function FHALoansIrvinePage() {
       type: 'faq' as const,
       title: 'FHA Loans Irvine California FAQ',
       description: 'Common questions about FHA loans in Irvine CA',
-      url: 'https://mothebroker.com/loan-programs/fha-loans-irvine',
+      url: 'https://www.mothebroker.com/loan-programs/fha-loans-irvine',
       data: {
         questions: [
           {
@@ -161,7 +161,7 @@ export default function FHALoansIrvinePage() {
         title="FHA Loans Irvine CA | 3.5% Down Payment | Mo Abdel NMLS #1426884"
         description="FHA loans in Irvine CA with 3.5% down payment. Government-backed mortgages for Irvine condos, townhomes, and family homes."
         city="Irvine"
-        canonicalUrl="https://mothebroker.com/loan-programs/fha-loans-irvine"
+        canonicalUrl="https://www.mothebroker.com/loan-programs/fha-loans-irvine"
         content={fhaIrvineData}
       />
       <EnhancedLocalSchema city="Irvine" page_type="service" service_focus="FHA loan services" />

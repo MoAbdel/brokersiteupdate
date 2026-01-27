@@ -47,6 +47,10 @@ module.exports = {
       { userAgent: 'NaverBot', disallow: '/' },
       { userAgent: 'Yeti', disallow: '/' },
       { userAgent: 'SeznamBot', disallow: '/' }
+    ],
+    additionalSitemaps: [
+      'https://www.mothebroker.com/sitemap-images.xml',
+      'https://www.mothebroker.com/sitemap-news.xml'
     ]
   },
   transform: async (config, path) => {

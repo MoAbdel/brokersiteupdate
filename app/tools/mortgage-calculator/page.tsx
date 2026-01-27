@@ -55,7 +55,7 @@ export default function MortgageCalculatorPage() {
       type: 'calculator' as const,
       name: 'Orange County Mortgage Calculator',
       description: 'Free mortgage payment calculator with Orange County property taxes and insurance estimates',
-      url: 'https://mothebroker.com/tools/mortgage-calculator',
+      url: 'https://www.mothebroker.com/tools/mortgage-calculator',
       data: {
         features: [
           'Monthly payment calculation',
@@ -71,7 +71,7 @@ export default function MortgageCalculatorPage() {
       type: 'howto' as const,
       title: 'How to Use the Mortgage Calculator',
       description: 'Step-by-step guide to calculating your mortgage payment',
-      url: 'https://mothebroker.com/tools/mortgage-calculator',
+      url: 'https://www.mothebroker.com/tools/mortgage-calculator',
       data: {
         totalTime: 'PT5M',
         cost: '0',
@@ -155,7 +155,7 @@ export default function MortgageCalculatorPage() {
       <AIOOptimization
         title="Orange County Mortgage Calculator | Free Payment Calculator | Mo Abdel"
         description="Free mortgage calculator for Orange County home buyers. Calculate monthly payments, compare loan options, and analyze costs with property taxes and insurance included."
-        canonicalUrl="https://mothebroker.com/tools/mortgage-calculator"
+        canonicalUrl="https://www.mothebroker.com/tools/mortgage-calculator"
         content={calculatorData}
       />
       <AdvancedSchemaGenerator schemas={schemaData} />

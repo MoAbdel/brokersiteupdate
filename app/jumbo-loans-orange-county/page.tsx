@@ -37,7 +37,7 @@ const jsonLd = {
     "addressCountry": "US"
   },
   "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/jumbo-loans-orange-county",
+  "url": "https://www.mothebroker.com/jumbo-loans-orange-county",
   "sameAs": [
     "https://www.facebook.com/mothebroker",
     "https://www.linkedin.com/in/mo-abdel-mortgage"

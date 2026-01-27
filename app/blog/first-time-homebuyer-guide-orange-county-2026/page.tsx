@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'First-Time Homebuyer Guide Orange County 2025: Programs, Down Payment & Tips | Mo Abdel',
-  description: 'First-time homebuyer Orange County 2025: FHA loans with 3.5% down, down payment assistance programs, credit requirements. Wholesale broker access. NMLS #1426884.',
-  keywords: ['first time homebuyer Orange County', 'Orange County first time buyer programs', 'FHA loans Orange County 2025', 'down payment assistance Orange County'],
+  title: 'First-Time Homebuyer Guide Orange County 2026: Programs, Down Payment & Tips | Mo Abdel',
+  description: 'First-time homebuyer Orange County 2026: FHA loans with 3.5% down, down payment assistance programs, credit requirements. Wholesale broker access. NMLS #1426884.',
+  keywords: ['first time homebuyer Orange County', 'Orange County first time buyer programs', 'FHA loans Orange County 2026', 'down payment assistance Orange County'],
   openGraph: {
-    title: 'First-Time Homebuyer Guide Orange County 2025: Complete Guide to Buying Your First Home',
-    description: 'First-time homebuyer Orange County 2025: FHA loans, down payment assistance, credit tips. Access wholesale rates from 100+ lenders.',
-    url: 'https://mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2025',
+    title: 'First-Time Homebuyer Guide Orange County 2026: Complete Guide to Buying Your First Home',
+    description: 'First-time homebuyer Orange County 2026: FHA loans, down payment assistance, credit tips. Access wholesale rates from 100+ lenders.',
+    url: 'https://www.mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-18T00:00:00Z',
-    modifiedTime: '2025-01-18T00:00:00Z',
+    publishedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-01-18T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -30,7 +30,7 @@ const faqData = [
     answer: "Minimum credit scores for first-time buyers: 620 for conventional loans with 3% down, 580 for FHA loans with 3.5% down, or 500-579 for FHA with 10% down. Higher scores (700+) qualify for better rates and lower mortgage insurance costs."
   },
   {
-    question: "What are the best first-time homebuyer programs in Orange County 2025?",
+    question: "What are the best first-time homebuyer programs in Orange County 2026?",
     answer: "Top programs include: CalHFA MyHome Assistance (up to 3.5% of purchase price), FHA loans (3.5% down, flexible credit), Fannie Mae HomeReady (3% down, income-based), and Freddie Mac Home Possible (3% down). VA loans offer 0% down for eligible veterans."
   },
   {
@@ -51,7 +51,7 @@ const faqData = [
   }
 ];
 
-export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
+export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -61,7 +61,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "First-Time Homebuyer Guide Orange County 2025: Programs, Down Payment & Tips",
+            "headline": "First-Time Homebuyer Guide Orange County 2026: Programs, Down Payment & Tips",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -71,13 +71,13 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-18",
-            "dateModified": "2025-01-18",
+            "datePublished": "2026-01-18",
+            "dateModified": "2026-01-18",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2025",
+              "@id": "https://www.mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -87,9 +87,9 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025"
+            "copyrightYear": "2026"
           })
         }}
       />
@@ -159,7 +159,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              First-Time Homebuyer Guide Orange County 2025: Your Complete Roadmap to Homeownership
+              First-Time Homebuyer Guide Orange County 2026: Your Complete Roadmap to Homeownership
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
@@ -192,7 +192,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
         {/* Reality Check Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Can First-Time Buyers Still Afford Orange County in 2025?
+            Can First-Time Buyers Still Afford Orange County in 2026?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Yes—but it requires strategy. Orange County's median home price sits around $1.1M, but first-time buyer options exist in the $600,000-$900,000 range in cities like Mission Viejo, Lake Forest, and Anaheim Hills. As a wholesale broker, I've helped hundreds of first-time buyers access wholesale rates and down payment programs that make Orange County homeownership achievable.
@@ -201,7 +201,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
               <Lightbulb className="w-5 h-5 text-blue-600" />
-              First-Time Buyer Reality Check 2025
+              First-Time Buyer Reality Check 2026
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
@@ -217,7 +217,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
                 <p className="text-lg font-semibold text-slate-900">$120,000 - $180,000</p>
               </div>
               <div>
-                <p className="text-sm text-slate-600 mb-2"><strong>2025 Conforming Limit:</strong></p>
+                <p className="text-sm text-slate-600 mb-2"><strong>2026 Conforming Limit:</strong></p>
                 <p className="text-lg font-semibold text-slate-900">$1,266,300</p>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
                   <li>• <strong>Credit Score:</strong> 580+ recommended, 500 minimum</li>
                   <li>• <strong>DTI Ratio:</strong> Up to 43% (or higher with compensating factors)</li>
                   <li>• <strong>Mortgage Insurance:</strong> Upfront MIP (1.75%) + annual MIP (0.55%)</li>
-                  <li>• <strong>Loan Limit:</strong> $1,266,300 in Orange County (2025)</li>
+                  <li>• <strong>Loan Limit:</strong> $1,266,300 in Orange County (2026)</li>
                 </ul>
               </div>
             </div>
@@ -449,7 +449,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
         {/* Best Cities for First-Time Buyers */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Which Orange County Cities Are Best for First-Time Homebuyers in 2025?
+            Which Orange County Cities Are Best for First-Time Homebuyers in 2026?
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -517,10 +517,10 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related First-Time Buyer Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/fha-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
-              → FHA Loans in Orange County 2025
+            <Link href="/blog/fha-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+              → FHA Loans in Orange County 2026
             </Link>
-            <Link href="/blog/mission-viejo-mortgage-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Mission Viejo Mortgage Guide
             </Link>
             <Link href="/resources/down-payment-assistance" className="text-green-600 hover:text-green-700 hover:underline">
@@ -529,7 +529,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2025() {
             <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
               → Mortgage Affordability Calculator
             </Link>
-            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Why Use a Wholesale Broker?
             </Link>
             <Link href="/resources/credit-repair" className="text-green-600 hover:text-green-700 hover:underline">

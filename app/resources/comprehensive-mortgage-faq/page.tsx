@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Comprehensive Mortgage FAQ | Orange County Expert Answers',
   description: 'Complete mortgage FAQ with professional answers by licensed broker Mo Abdel (NMLS #1426884). Expert guidance on rates, qualification, process, and Orange County market.',
   alternates: {
-    canonical: 'https://www.luminlending.com/resources/comprehensive-mortgage-faq',
+    canonical: 'https://www.mothebroker.com/resources/comprehensive-mortgage-faq',
   },
 };
 

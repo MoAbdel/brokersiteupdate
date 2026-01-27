@@ -93,6 +93,14 @@
   ],
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [
+        { "type": "host", "value": "mothebroker.com" }
+      ],
+      "destination": "https://www.mothebroker.com/$1",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
@@ -125,11 +133,6 @@
     {
       "source": "/service-areas",
       "destination": "/areas",
-      "permanent": true
-    },
-    {
-      "source": "/blog",
-      "destination": "/guides",
       "permanent": true
     },
     {
@@ -207,11 +210,7 @@
       "destination": "/about",
       "permanent": true
     },
-    {
-      "source": "/cookie-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    }
+    
   ],
   "trailingSlash": false,
   "rewrites": [

@@ -9,7 +9,7 @@ export const metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Irvine Neighborhoods Mortgage Guide | Village-Specific Home Financing',
-    url: 'https://mothebroker.com/areas/irvine-neighborhoods',
+    url: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
   },
 };
 
@@ -28,7 +28,7 @@ export default function Page() {
     '@type': 'MortgageBroker',
     name: 'Mo the Broker - Irvine Neighborhoods',
     areaServed: 'Irvine, Orange County, CA',
-    url: 'https://mothebroker.com/areas/irvine-neighborhoods',
+    url: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
     telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', addressLocality: 'Irvine', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Purchase Loans in Orange County, CA | Mo The Broker',
     description: 'Secure your dream home in Orange County with competitive purchase loan rates. Local expertise, wholesale access, and fast approvals.',
-    url: 'https://mothebroker.com/purchase-loans',
+    url: 'https://www.mothebroker.com/purchase-loans',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/purchase-loans',
@@ -29,7 +29,7 @@ const structuredData = {
     "addressRegion": "CA"
   },
   "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/purchase-loans",
+  "url": "https://www.mothebroker.com/purchase-loans",
   "description": "Expert home purchase loan services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"

@@ -9,18 +9,18 @@ import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
 import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
-  title: 'Summer 2025 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884',
-  description: 'Summer 2025 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips. Call (949) 822-9662.',
+  title: 'Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884',
+  description: 'Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips. Call (949) 822-9662.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/summer-2025-market-guide',
+    canonical: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
   },
 };
 
-export default function Summer2025MarketGuidePage() {
+export default function Summer2026MarketGuidePage() {
   
   const summerGuideData = {
-    mainTopic: "Summer 2025 Orange County Market Guide",
-    quickAnswer: "Summer 2025 represents peak home buying season in Orange County with maximum competition but also peak inventory. Strategic approaches and expert guidance essential for success in this dynamic market period.",
+    mainTopic: "Summer 2026 Orange County Market Guide",
+    quickAnswer: "Summer 2026 represents peak home buying season in Orange County with maximum competition but also peak inventory. Strategic approaches and expert guidance essential for success in this dynamic market period.",
     keyFacts: [
       "Peak home buying and selling season",
       "Maximum competition from buyers",
@@ -33,17 +33,17 @@ export default function Summer2025MarketGuidePage() {
       {
         stat: "Summer accounts for 35% of annual home sales",
         source: "National Association of Realtors",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Inventory peaks 50% higher than winter levels",
         source: "Orange County Market Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average days on market: 18 days in summer",
         source: "Orange County MLS",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -51,12 +51,12 @@ export default function Summer2025MarketGuidePage() {
   const schemaData = [
     {
       type: 'article' as const,
-      title: 'Summer 2025 Orange County Market Guide',
+      title: 'Summer 2026 Orange County Market Guide',
       description: 'Complete guide to navigating Orange County\'s peak summer real estate market',
-      url: 'https://mothebroker.com/guides/summer-2025-market-guide',
+      url: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
       data: {
         author: 'Mo Abdel',
-        publishDate: '2025-04-01',
+        publishDate: '2026-04-01',
         sections: [
           'Summer Market Dynamics',
           'Competition Strategies',
@@ -68,9 +68,9 @@ export default function Summer2025MarketGuidePage() {
     },
     {
       type: 'howto' as const,
-      title: 'How to Compete in Summer 2025 Market',
+      title: 'How to Compete in Summer 2026 Market',
       description: 'Strategic approach to winning in Orange County\'s competitive summer market',
-      url: 'https://mothebroker.com/guides/summer-2025-market-guide',
+      url: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
       data: {
         totalTime: 'PT60D',
         cost: 'Varies by home price',
@@ -152,7 +152,7 @@ export default function Summer2025MarketGuidePage() {
 
   const monthlyStrategy = [
     {
-      month: 'June 2025',
+      month: 'June 2026',
       focus: 'Early Summer Setup',
       activities: [
         'Complete pre-approval process',
@@ -163,7 +163,7 @@ export default function Summer2025MarketGuidePage() {
       marketCondition: 'Building momentum, increasing inventory'
     },
     {
-      month: 'July 2025',
+      month: 'July 2026',
       focus: 'Peak Competition',
       activities: [
         'Act quickly on listings',
@@ -174,7 +174,7 @@ export default function Summer2025MarketGuidePage() {
       marketCondition: 'Maximum activity, highest competition'
     },
     {
-      month: 'August 2025',
+      month: 'August 2026',
       focus: 'Strategic Opportunities',
       activities: [
         'Target end-of-summer listings',
@@ -217,23 +217,23 @@ export default function Summer2025MarketGuidePage() {
     <>
       {/* SEO Optimization Components */}
       <AIOOptimization
-        title="Summer 2025 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884"
-        description="Summer 2025 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips."
+        title="Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884"
+        description="Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips."
         city="Orange County"
-        canonicalUrl="https://mothebroker.com/guides/summer-2025-market-guide"
+        canonicalUrl="https://www.mothebroker.com/guides/summer-2026-market-guide"
         content={summerGuideData}
       />
-      <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="summer 2025 market guidance" />
+      <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="summer 2026 market guidance" />
       <AdvancedSchemaGenerator schemas={schemaData} />
 
       {/* Page Content */}
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Summer 2025 Orange County Market Guide</h1>
-          <p>Complete Summer 2025 real estate market guide for Orange County with peak season strategies, competition insights, inventory trends, and expert buying tips. Professional guidance from Mo Abdel NMLS #1426884 for successful summer home purchases.</p>
+          <h1>Summer 2026 Orange County Market Guide</h1>
+          <p>Complete Summer 2026 real estate market guide for Orange County with peak season strategies, competition insights, inventory trends, and expert buying tips. Professional guidance from Mo Abdel NMLS #1426884 for successful summer home purchases.</p>
           
-          <h2>Summer 2025 Market Dynamics</h2>
+          <h2>Summer 2026 Market Dynamics</h2>
           <ul>
             <li>35% of annual home sales occur in summer</li>
             <li>Inventory peaks 50% higher than winter</li>
@@ -251,7 +251,7 @@ export default function Summer2025MarketGuidePage() {
               <div className="flex items-center justify-center mb-4">
                 <Sun className="w-8 h-8 text-orange-600 mr-2" />
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
-                  Summer 2025 Market Guide
+                  Summer 2026 Market Guide
                 </h1>
               </div>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
@@ -279,7 +279,7 @@ export default function Summer2025MarketGuidePage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              Summer 2025 Market Challenges & Solutions
+              Summer 2026 Market Challenges & Solutions
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {summerChallenges.map((challenge) => (
@@ -342,7 +342,7 @@ export default function Summer2025MarketGuidePage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              Summer 2025 Month-by-Month Strategy
+              Summer 2026 Month-by-Month Strategy
             </h2>
             <div className="space-y-8">
               {monthlyStrategy.map((timeline) => (
@@ -417,7 +417,7 @@ export default function Summer2025MarketGuidePage() {
                 <Clock className="w-16 h-16 mx-auto mb-4 opacity-90" />
                 <h3 className="text-2xl font-bold mb-4">Summer Success Requires Expert Strategy</h3>
                 <p className="text-lg mb-6 text-orange-100">
-                  Peak competition demands professional guidance and strategic pre-approval to win in summer 2025
+                  Peak competition demands professional guidance and strategic pre-approval to win in summer 2026
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
@@ -430,7 +430,7 @@ export default function Summer2025MarketGuidePage() {
                   </Button>
                 </div>
                 <p className="text-sm text-orange-200 mt-4">
-                  Licensed mortgage broker NMLS #1426884 • Summer 2025 market strategist
+                  Licensed mortgage broker NMLS #1426884 • Summer 2026 market strategist
                 </p>
               </CardContent>
             </Card>
@@ -441,7 +441,7 @@ export default function Summer2025MarketGuidePage() {
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-              5 Steps to Summer 2025 Market Success
+              5 Steps to Summer 2026 Market Success
             </h2>
             <div className="space-y-6">
               {schemaData[1]?.data?.steps?.map((step: any, index: number) => (
@@ -467,7 +467,7 @@ export default function Summer2025MarketGuidePage() {
         <section className="py-16 bg-gradient-to-r from-orange-600 to-red-600 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Compete in Summer 2025?
+              Ready to Compete in Summer 2026?
             </h2>
             <p className="text-xl mb-8">
               Get the competitive advantage and expert strategy needed for Orange County's peak real estate season.
@@ -490,7 +490,7 @@ export default function Summer2025MarketGuidePage() {
 
         {/* Internal Links */}
         <InternalLinkEngine 
-          currentPage="/guides/summer-2025-market-guide"
+          currentPage="/guides/summer-2026-market-guide"
           pageType="guide"
           city="Orange County"
           maxLinks={6}

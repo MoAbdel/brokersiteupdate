@@ -22,7 +22,7 @@
     {
       "src": "/images/mo-headshot.jpg",
       "sizes": "800x800",
-      "type": "image/png",
+      "type": "image/jpeg",
       "form_factor": "wide"
     }
   ],

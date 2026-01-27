@@ -30,19 +30,19 @@ export default function InvestmentPropertyCashOutRefinancePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Investment Property Loans", "DSCR Loans", "Cash-Out Refinance", "Real Estate Investing", "Rental Property Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-21",
                         "dateModified": "2026-01-21",
                         "mainEntity": {
                             "@type": "WebPage",
-                            "@id": "https://mothebroker.com/blog/investment-property-cash-out-refinance-2026"
+                            "@id": "https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026"
                         },
                         "copyrightYear": "2026"
                     })

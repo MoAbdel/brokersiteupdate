@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://mothebroker.com/rate-term-refinance-orange-county',
+    canonical: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
   },
 };
 

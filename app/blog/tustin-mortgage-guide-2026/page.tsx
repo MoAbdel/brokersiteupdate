@@ -23,19 +23,19 @@ export default function TustinMortgageGuidePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Tustin Real Estate", "Old Town Properties", "Tustin Ranch Homes", "Wholesale Mortgage Advantages"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-20",
                         "dateModified": "2026-01-20",
                         "mainEntity": {
                             "@type": "WebPage",
-                            "@id": "https://mothebroker.com/blog/tustin-mortgage-guide-2026",
+                            "@id": "https://www.mothebroker.com/blog/tustin-mortgage-guide-2026",
                             "significantLink": [
                                 "https://www.consumerfinance.gov/",
                                 "https://www.hud.gov/",
@@ -45,7 +45,7 @@ export default function TustinMortgageGuidePage() {
                         "copyrightHolder": {
                             "@type": "Organization",
                             "name": "Mo Abdel - Wholesale Mortgage Broker",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "copyrightYear": "2026",
                         "description": "Navigate Tustin's diverse housing market with expert wholesale mortgage guidance. From historic Old Town to luxury Tustin Ranch, find the best financing options for 2026."

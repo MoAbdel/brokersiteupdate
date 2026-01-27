@@ -32,6 +32,7 @@ interface CityPageProps {
 export function generateCityMetadata(cityData: CityData): Metadata {
   const title = `${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`;
   const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
+  const canonicalUrl = `https://www.mothebroker.com/areas/${cityData.slug}`;
 
   return {
     title,
@@ -46,10 +47,13 @@ export function generateCityMetadata(cityData: CityData): Metadata {
       `Orange County mortgage`,
       'NMLS licensed broker'
     ].join(', '),
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title,
       description,
-      url: `https://mothebroker.com/areas/${cityData.slug}`,
+      url: canonicalUrl,
       type: 'website',
       locale: 'en_US',
       siteName: 'Mo Abdel'
@@ -63,7 +67,7 @@ export function generateCityMetadata(cityData: CityData): Metadata {
 }
 
 export default function CityPageTemplate({ cityData }: CityPageProps) {
-  const canonicalUrl = `https://mothebroker.com/areas/${cityData.slug}`;
+  const canonicalUrl = `https://www.mothebroker.com/areas/${cityData.slug}`;
   
   const structuredFAQ = [
     {

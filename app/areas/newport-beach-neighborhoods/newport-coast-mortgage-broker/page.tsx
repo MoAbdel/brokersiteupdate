@@ -53,7 +53,7 @@ export default function NewportCoastMortgageBrokerPage() {
       type: 'faq' as const,
       title: 'Newport Coast Luxury Mortgage FAQ',
       description: 'Common questions about Newport Coast ultra-luxury home financing',
-      url: 'https://mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker',
+      url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker',
       data: {
         questions: [
           {
@@ -151,7 +151,7 @@ export default function NewportCoastMortgageBrokerPage() {
         title="Newport Coast Mortgage Broker | Ultra-Luxury Home Loans | Mo Abdel NMLS #1426884"
         description="Newport Coast mortgage broker specializing in ultra-luxury coastal estates. Prestigious community financing, ocean view properties, estate loans."
         city="Newport Coast, Newport Beach"
-        canonicalUrl="https://mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker"
+        canonicalUrl="https://www.mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker"
         content={newportCoastData}
       />
       <EnhancedLocalSchema city="Newport Coast, Newport Beach" page_type="city" service_focus="ultra-luxury coastal estate financing" />

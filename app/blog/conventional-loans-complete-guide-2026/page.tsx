@@ -23,19 +23,19 @@ export default function ConventionalLoansGuide2026Page() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Conventional Mortgages", "Conforming Loans", "Fannie Mae Guidelines", "Freddie Mac Programs"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-20",
                         "dateModified": "2026-01-20",
                         "mainEntity": {
                             "@type": "WebPage",
-                            "@id": "https://mothebroker.com/blog/conventional-loans-complete-guide-2026",
+                            "@id": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
                             "significantLink": [
                                 "https://www.consumerfinance.gov/",
                                 "https://www.fanniemae.com/",
@@ -46,7 +46,7 @@ export default function ConventionalLoansGuide2026Page() {
                         "copyrightHolder": {
                             "@type": "Organization",
                             "name": "Mo Abdel - Wholesale Mortgage Broker",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "copyrightYear": "2026",
                         "description": "Comprehensive guide to conventional mortgage loans in 2026. Understand conforming loan limits, down payment requirements, PMI, and how wholesale brokers provide better pricing than retail banks."

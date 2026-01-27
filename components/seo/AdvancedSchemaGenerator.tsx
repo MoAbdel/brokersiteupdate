@@ -46,7 +46,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "HowTo",
     "name": schemaData.title || schemaData.name || data.title,
     "description": data.description,
-    "image": data.image || "https://mothebroker.com/images/mo-headshot.jpg",
+    "image": data.image || "https://www.mothebroker.com/images/mo-headshot.jpg",
     "totalTime": data.totalTime || "PT30M",
     "estimatedCost": {
       "@type": "MonetaryAmount",
@@ -119,7 +119,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "Article",
     "headline": data.title,
     "description": data.description,
-    "image": data.image || "https://mothebroker.com/images/mo-headshot.jpg",
+    "image": data.image || "https://www.mothebroker.com/images/mo-headshot.jpg",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -131,7 +131,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
       "name": "Mo Abdel Mortgage Broker",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://mothebroker.com/images/mo-logo-white.webp"
+        "url": "https://www.mothebroker.com/images/mo-logo-white.webp"
       }
     },
     "datePublished": data.datePublished || new Date().toISOString(),

@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Cookie Policy | Mo Abdel Mortgage Broker - NMLS #1426884',
   description: 'Cookie policy for mothebroker.com. Learn how we use cookies to improve your experience on our Orange County mortgage broker website.',
-  robots: 'noindex, nofollow',
+  robots: 'index, follow',
   alternates: {
     canonical: 'https://www.mothebroker.com/cookie-policy',
   },

@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Yorba Linda Mortgage Broker 2025: Wholesale Rates for Land of Gracious Living | Mo Abdel',
-  description: 'Yorba Linda mortgage broker rates 2025: Access 100+ wholesale lenders. Jumbo loans for luxury homes, FHA, VA options. Free quote. NMLS #1426884.',
-  keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2025', 'wholesale mortgage Yorba Linda'],
+  title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living | Mo Abdel',
+  description: 'Yorba Linda mortgage broker rates 2026: Access 100+ wholesale lenders. Jumbo loans for luxury homes, FHA, VA options. Free quote. NMLS #1426884.',
+  keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2026', 'wholesale mortgage Yorba Linda'],
   openGraph: {
-    title: 'Yorba Linda Mortgage Broker 2025: Wholesale Rates for Land of Gracious Living',
-    description: 'Yorba Linda mortgage broker rates 2025: Access 100+ wholesale lenders for luxury home financing. Free rate comparison.',
-    url: 'https://mothebroker.com/blog/yorba-linda-mortgage-guide-2025',
+    title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living',
+    description: 'Yorba Linda mortgage broker rates 2026: Access 100+ wholesale lenders for luxury home financing. Free rate comparison.',
+    url: 'https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-16T00:00:00Z',
-    modifiedTime: '2025-01-16T00:00:00Z',
+    publishedTime: '2026-01-16T00:00:00Z',
+    modifiedTime: '2026-01-16T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -30,8 +30,8 @@ const faqData = [
     answer: "Down payments in Yorba Linda vary by loan type: 3% minimum for conforming conventional loans, 3.5% for FHA, 0% for VA loans, and typically 10-20% for jumbo loans on homes above $1,266,300."
   },
   {
-    question: "What is the median home price in Yorba Linda 2025?",
-    answer: "Yorba Linda median home prices in 2025 range from $1.1M to $1.4M depending on neighborhood. Black Gold, Yorba Linda Estates, and Horse Country areas command premium prices often requiring jumbo financing."
+    question: "What is the median home price in Yorba Linda 2026?",
+    answer: "Yorba Linda median home prices in 2026 range from $1.1M to $1.4M depending on neighborhood. Black Gold, Yorba Linda Estates, and Horse Country areas command premium prices often requiring jumbo financing."
   },
   {
     question: "Can I get a mortgage in Yorba Linda with self-employment income?",
@@ -47,7 +47,7 @@ const faqData = [
   }
 ];
 
-export default function YorbaLindaMortgageGuide2025() {
+export default function YorbaLindaMortgageGuide2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -57,7 +57,7 @@ export default function YorbaLindaMortgageGuide2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Yorba Linda Mortgage Broker 2025: Wholesale Rates for Land of Gracious Living",
+            "headline": "Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -67,13 +67,13 @@ export default function YorbaLindaMortgageGuide2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-16",
-            "dateModified": "2025-01-16",
+            "datePublished": "2026-01-16",
+            "dateModified": "2026-01-16",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/yorba-linda-mortgage-guide-2025",
+              "@id": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -83,9 +83,9 @@ export default function YorbaLindaMortgageGuide2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025",
+            "copyrightYear": "2026",
             "about": {
               "@type": "Place",
               "name": "Yorba Linda, California",
@@ -126,12 +126,12 @@ export default function YorbaLindaMortgageGuide2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Yorba Linda Mortgage Broker 2025: Wholesale Rates for the Land of Gracious Living
+              Yorba Linda Mortgage Broker 2026: Wholesale Rates for the Land of Gracious Living
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Yorba Linda median home prices exceed $1.2M in 2025, with luxury neighborhoods reaching $2M+. Wholesale mortgage brokers access 100+ lenders to secure rates 0.25-0.5% below retail banks—potentially saving $50,000+ over a 30-year loan.
+              Yorba Linda median home prices exceed $1.2M in 2026, with luxury neighborhoods reaching $2M+. Wholesale mortgage brokers access 100+ lenders to secure rates 0.25-0.5% below retail banks—potentially saving $50,000+ over a 30-year loan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -166,7 +166,7 @@ export default function YorbaLindaMortgageGuide2025() {
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">Yorba Linda Real Estate Snapshot 2025</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">Yorba Linda Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1.3M</p>
@@ -174,7 +174,7 @@ export default function YorbaLindaMortgageGuide2025() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1,266,300</p>
-                <p className="text-sm text-slate-600">2025 Conforming Limit</p>
+                <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">68,000</p>
@@ -239,7 +239,7 @@ export default function YorbaLindaMortgageGuide2025() {
         {/* Loan Programs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are the Best Yorba Linda Mortgage Programs for 2025?
+            What Are the Best Yorba Linda Mortgage Programs for 2026?
           </h2>
 
           <div className="space-y-6">

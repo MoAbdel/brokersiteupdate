@@ -33,7 +33,7 @@ export const structuredData = {
     "name": "Mo Abdel",
     "jobTitle": "Licensed Mortgage Broker",
     "identifier": "NMLS #1426884",
-    "image": "https://mothebroker.com/images/mo-headshot.jpg",
+    "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "knowsAbout": [
       "Mortgage Lending",
       "Real Estate Finance",
@@ -41,7 +41,9 @@ export const structuredData = {
       "Wholesale Mortgage Operations",
       "Orange County Real Estate Market",
       "Home Equity Solutions",
-      "FHA & VA Loan Programs"
+      "FHA & VA Loan Programs",
+      "HECM",
+      "Conventional Loans"
     ],
     "worksFor": {
       "@type": "Organization",
@@ -125,18 +127,18 @@ export const structuredData = {
     "longitude": "-117.8265"
   },
   "telephone": "+1-949-822-9662",
-  "url": "https://mothebroker.com",
+  "url": "https://www.mothebroker.com",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",
     "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest",
     "https://maps.google.com/?cid=11756575614226532751",
     "https://www.instagram.com/mo_thebroker",
-    "https://mothebroker.com"
+    "https://www.mothebroker.com"
   ],
   "priceRange": "$$",
   "description": "Licensed mortgage broker based in Lake Forest, serving CA, WA, and CO. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 822-9662 for multi-state mortgage expertise.",
-  "image": "https://mothebroker.com/images/mo-headshot.jpg",
-  "logo": "https://mothebroker.com/images/mo-logo-white.webp",
+  "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
+  "logo": "https://www.mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
   "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
   "currenciesAccepted": "USD",
@@ -147,7 +149,7 @@ export const structuredData = {
       "name": "Schedule Mortgage Consultation",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://mothebroker.com/contact",
+        "urlTemplate": "https://www.mothebroker.com/contact",
         "actionPlatform": [
           "http://schema.org/DesktopWebPlatform",
           "http://schema.org/MobileWebPlatform"
@@ -162,7 +164,7 @@ export const structuredData = {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://mothebroker.com/areas?q={search_term_string}"
+        "urlTemplate": "https://www.mothebroker.com/areas?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }

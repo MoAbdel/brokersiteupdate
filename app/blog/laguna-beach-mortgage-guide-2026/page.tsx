@@ -23,13 +23,13 @@ export default function LagunaBeachMortgageGuidePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Coastal Property Financing", "Hillside Home Loans", "Wholesale Mortgage Advantages", "Laguna Beach Real Estate"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending, Inc.",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-04",
                         "dateModified": "2025-01-04",

@@ -23,13 +23,13 @@ export default function FHALoansOrangeCountyPage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["FHA Loans", "First-Time Homebuyer Programs", "Mortgage Credit Scores", "Orange County Real Estate Market"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending, Inc.",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-02",
                         "dateModified": "2025-01-02",

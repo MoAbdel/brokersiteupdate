@@ -23,13 +23,13 @@ export default function SanClementeMortgageGuidePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["VA Loans", "San Clemente Real Estate", "Wholesale Mortgage Pricing", "Coastal Property Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending, Inc.",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-10",
                         "dateModified": "2025-01-10",

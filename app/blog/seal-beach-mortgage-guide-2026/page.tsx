@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Seal Beach Mortgage Broker 2025: Wholesale Rates from 100+ Lenders | Mo Abdel',
-  description: 'Seal Beach mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Jumbo loans, FHA, VA available. NMLS #1426884.',
-  keywords: ['Seal Beach mortgage broker', 'Seal Beach home loans', 'Seal Beach mortgage rates 2025', 'wholesale mortgage Seal Beach'],
+  title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
+  description: 'Seal Beach mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Jumbo loans, FHA, VA available. NMLS #1426884.',
+  keywords: ['Seal Beach mortgage broker', 'Seal Beach home loans', 'Seal Beach mortgage rates 2026', 'wholesale mortgage Seal Beach'],
   openGraph: {
-    title: 'Seal Beach Mortgage Broker 2025: Wholesale Rates from 100+ Lenders',
-    description: 'Seal Beach mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
-    url: 'https://mothebroker.com/blog/seal-beach-mortgage-guide-2025',
+    title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
+    description: 'Seal Beach mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    url: 'https://www.mothebroker.com/blog/seal-beach-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-16T00:00:00Z',
-    modifiedTime: '2025-01-16T00:00:00Z',
+    publishedTime: '2026-01-16T00:00:00Z',
+    modifiedTime: '2026-01-16T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -30,8 +30,8 @@ const faqData = [
     answer: "Down payment requirements in Seal Beach range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Seal Beach median home prices around $1.2M, many buyers use jumbo loans requiring 10-20% down."
   },
   {
-    question: "What is the conforming loan limit in Seal Beach for 2025?",
-    answer: "The 2025 conforming loan limit in Orange County, including Seal Beach, is $1,266,300. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
+    question: "What is the conforming loan limit in Seal Beach for 2026?",
+    answer: "The 2026 conforming loan limit in Orange County, including Seal Beach, is $1,266,300. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
   },
   {
     question: "How long does it take to close on a home in Seal Beach?",
@@ -47,7 +47,7 @@ const faqData = [
   }
 ];
 
-export default function SealBeachMortgageGuide2025() {
+export default function SealBeachMortgageGuide2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -57,7 +57,7 @@ export default function SealBeachMortgageGuide2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Seal Beach Mortgage Broker 2025: Wholesale Rates from 100+ Lenders",
+            "headline": "Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -67,13 +67,13 @@ export default function SealBeachMortgageGuide2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-16",
-            "dateModified": "2025-01-16",
+            "datePublished": "2026-01-16",
+            "dateModified": "2026-01-16",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/seal-beach-mortgage-guide-2025",
+              "@id": "https://www.mothebroker.com/blog/seal-beach-mortgage-guide-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -83,9 +83,9 @@ export default function SealBeachMortgageGuide2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025",
+            "copyrightYear": "2026",
             "about": {
               "@type": "Place",
               "name": "Seal Beach, California",
@@ -126,12 +126,12 @@ export default function SealBeachMortgageGuide2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Seal Beach Mortgage Broker 2025: Access Wholesale Rates from 100+ Lenders
+              Seal Beach Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Seal Beach mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2025. With median home prices at $1.2M, accessing 100+ wholesale lenders can save Seal Beach buyers thousands over the life of their loan.
+              Seal Beach mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.2M, accessing 100+ wholesale lenders can save Seal Beach buyers thousands over the life of their loan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -159,14 +159,14 @@ export default function SealBeachMortgageGuide2025() {
         {/* Market Snapshot */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Makes Seal Beach Unique for Mortgage Borrowers in 2025?
+            What Makes Seal Beach Unique for Mortgage Borrowers in 2026?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Seal Beach combines small-town coastal charm with Orange County's strong real estate market. As one of the last remaining affordable beach communities in Orange County, Seal Beach attracts first-time buyers, retirees, and investors seeking waterfront living without Newport Beach prices.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">Seal Beach Real Estate Snapshot 2025</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">Seal Beach Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1.2M</p>
@@ -174,7 +174,7 @@ export default function SealBeachMortgageGuide2025() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1,266,300</p>
-                <p className="text-sm text-slate-600">2025 Conforming Limit</p>
+                <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">24,000</p>
@@ -221,7 +221,7 @@ export default function SealBeachMortgageGuide2025() {
         {/* Best Loan Programs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are the Best Seal Beach Mortgage Options for 2025?
+            What Are the Best Seal Beach Mortgage Options for 2026?
           </h2>
 
           <div className="space-y-6">

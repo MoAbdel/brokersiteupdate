@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'San Juan Capistrano Mortgage Broker 2025: Wholesale Rates from 100+ Lenders | Mo Abdel',
-  description: 'San Juan Capistrano mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Historic downtown to equestrian estates. NMLS #1426884.',
-  keywords: ['San Juan Capistrano mortgage broker', 'San Juan Capistrano home loans', 'San Juan Capistrano mortgage rates 2025', 'wholesale mortgage San Juan Capistrano'],
+  title: 'San Juan Capistrano Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
+  description: 'San Juan Capistrano mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Historic downtown to equestrian estates. NMLS #1426884.',
+  keywords: ['San Juan Capistrano mortgage broker', 'San Juan Capistrano home loans', 'San Juan Capistrano mortgage rates 2026', 'wholesale mortgage San Juan Capistrano'],
   openGraph: {
-    title: 'San Juan Capistrano Mortgage Broker 2025: Wholesale Rates from 100+ Lenders',
-    description: 'San Juan Capistrano mortgage broker rates 2025: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
-    url: 'https://mothebroker.com/blog/san-juan-capistrano-mortgage-guide-2025',
+    title: 'San Juan Capistrano Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
+    description: 'San Juan Capistrano mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    url: 'https://www.mothebroker.com/blog/san-juan-capistrano-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-18T00:00:00Z',
-    modifiedTime: '2025-01-18T00:00:00Z',
+    publishedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-01-18T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -30,8 +30,8 @@ const faqData = [
     answer: "Down payment requirements in San Juan Capistrano range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With median home prices around $1.15M, many homes fall near the $1,266,300 conforming limit. Equestrian properties often require jumbo loans with 10-20% down."
   },
   {
-    question: "What is the conforming loan limit in San Juan Capistrano for 2025?",
-    answer: "The 2025 conforming loan limit in Orange County, including San Juan Capistrano, is $1,266,300. Many San Juan Capistrano homes qualify for conforming loans, though equestrian estates and historic properties may require jumbo financing."
+    question: "What is the conforming loan limit in San Juan Capistrano for 2026?",
+    answer: "The 2026 conforming loan limit in Orange County, including San Juan Capistrano, is $1,266,300. Many San Juan Capistrano homes qualify for conforming loans, though equestrian estates and historic properties may require jumbo financing."
   },
   {
     question: "Are there special considerations for historic homes in San Juan Capistrano?",
@@ -51,7 +51,7 @@ const faqData = [
   }
 ];
 
-export default function SanJuanCapistranoMortgageGuide2025() {
+export default function SanJuanCapistranoMortgageGuide2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -61,7 +61,7 @@ export default function SanJuanCapistranoMortgageGuide2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "San Juan Capistrano Mortgage Broker 2025: Wholesale Rates from 100+ Lenders",
+            "headline": "San Juan Capistrano Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -71,13 +71,13 @@ export default function SanJuanCapistranoMortgageGuide2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-18",
-            "dateModified": "2025-01-18",
+            "datePublished": "2026-01-18",
+            "dateModified": "2026-01-18",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/san-juan-capistrano-mortgage-guide-2025",
+              "@id": "https://www.mothebroker.com/blog/san-juan-capistrano-mortgage-guide-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.hud.gov/",
@@ -87,9 +87,9 @@ export default function SanJuanCapistranoMortgageGuide2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025",
+            "copyrightYear": "2026",
             "about": {
               "@type": "Place",
               "name": "San Juan Capistrano, California",
@@ -130,12 +130,12 @@ export default function SanJuanCapistranoMortgageGuide2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              San Juan Capistrano Mortgage Broker 2025: Access Wholesale Rates from 100+ Lenders
+              San Juan Capistrano Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              San Juan Capistrano mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2025. With median home prices at $1.15M and diverse property types from historic adobes to equestrian estates, wholesale lender access is essential for finding the right financing.
+              San Juan Capistrano mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.15M and diverse property types from historic adobes to equestrian estates, wholesale lender access is essential for finding the right financing.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -163,14 +163,14 @@ export default function SanJuanCapistranoMortgageGuide2025() {
         {/* Market Snapshot */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Makes San Juan Capistrano Unique for Mortgage Borrowers in 2025?
+            What Makes San Juan Capistrano Unique for Mortgage Borrowers in 2026?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             San Juan Capistrano is Orange County's historic heart—home to Mission San Juan Capistrano, the charming Los Rios Historic District, and a thriving equestrian community. This diversity means financing needs vary dramatically, from FHA-eligible downtown condos to multi-million dollar horse properties requiring specialized jumbo loans.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">San Juan Capistrano Real Estate Snapshot 2025</h3>
+            <h3 className="font-semibold text-slate-900 mb-4">San Juan Capistrano Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1.15M</p>
@@ -178,7 +178,7 @@ export default function SanJuanCapistranoMortgageGuide2025() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$1,266,300</p>
-                <p className="text-sm text-slate-600">2025 Conforming Limit</p>
+                <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">37,000</p>
@@ -270,7 +270,7 @@ export default function SanJuanCapistranoMortgageGuide2025() {
         {/* Best Loan Programs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are the Best San Juan Capistrano Mortgage Options for 2025?
+            What Are the Best San Juan Capistrano Mortgage Options for 2026?
           </h2>
 
           <div className="space-y-6">
@@ -340,7 +340,7 @@ export default function SanJuanCapistranoMortgageGuide2025() {
         {/* Neighborhoods Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Which San Juan Capistrano Neighborhoods Offer the Best Value in 2025?
+            Which San Juan Capistrano Neighborhoods Offer the Best Value in 2026?
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -453,22 +453,22 @@ export default function SanJuanCapistranoMortgageGuide2025() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related San Juan Capistrano Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/jumbo-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Jumbo Loan Programs for Orange County
             </Link>
-            <Link href="/blog/ladera-ranch-mortgage-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/ladera-ranch-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Nearby: Ladera Ranch Mortgages
             </Link>
-            <Link href="/blog/dana-point-mortgage-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dana-point-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Nearby: Dana Point Mortgages
             </Link>
-            <Link href="/blog/va-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/va-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → VA Loans for Orange County Military
             </Link>
             <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
               → San Juan Capistrano Affordability Calculator
             </Link>
-            <Link href="/blog/first-time-homebuyer-guide-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → First-Time Homebuyer Guide
             </Link>
           </div>

@@ -53,7 +53,7 @@ export default function LidoIsleMortgageBrokerPage() {
       type: 'faq' as const,
       title: 'Lido Isle Newport Beach Mortgage FAQ',
       description: 'Common questions about Lido Isle Newport Beach waterfront estate financing',
-      url: 'https://mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker',
+      url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker',
       data: {
         questions: [
           {
@@ -151,7 +151,7 @@ export default function LidoIsleMortgageBrokerPage() {
         title="Lido Isle Newport Beach Mortgage Broker | Waterfront Estate Loans | Mo Abdel NMLS #1426884"
         description="Lido Isle Newport Beach mortgage broker specializing in waterfront estate financing. Private island living, luxury waterfront homes, Competitive pricing."
         city="Lido Isle, Newport Beach"
-        canonicalUrl="https://mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker"
+        canonicalUrl="https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker"
         content={lidoIsleData}
       />
       <EnhancedLocalSchema city="Lido Isle, Newport Beach" page_type="city" service_focus="waterfront estate financing" />

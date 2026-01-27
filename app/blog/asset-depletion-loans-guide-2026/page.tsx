@@ -23,19 +23,19 @@ export default function AssetDepletionLoansGuide2026Page() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Asset Depletion Mortgages", "Non-QM Loans", "Retiree Financing", "High-Net-Worth Lending"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-20",
                         "dateModified": "2026-01-20",
                         "mainEntity": {
                             "@type": "WebPage",
-                            "@id": "https://mothebroker.com/blog/asset-depletion-loans-guide-2026",
+                            "@id": "https://www.mothebroker.com/blog/asset-depletion-loans-guide-2026",
                             "significantLink": [
                                 "https://www.consumerfinance.gov/",
                                 "https://www.irs.gov/",
@@ -45,7 +45,7 @@ export default function AssetDepletionLoansGuide2026Page() {
                         "copyrightHolder": {
                             "@type": "Organization",
                             "name": "Mo Abdel - Wholesale Mortgage Broker",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "copyrightYear": "2026",
                         "description": "Learn how asset depletion loans allow retirees and wealthy borrowers to qualify for mortgages using investment portfolios, retirement accounts, and liquid assets instead of traditional employment income."

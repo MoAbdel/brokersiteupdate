@@ -23,6 +23,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
   description: 'Expert Orange County mortgage broker with 100+ lenders. Fast closings for FHA, VA, Conventional & Non-QM loans. Mo Abdel, NMLS #1426884.',
+  keywords: [
+    'Orange County mortgage broker',
+    'Irvine mortgage broker',
+    'wholesale mortgage lender',
+    'FHA loans Orange County',
+    'VA loans Orange County',
+    'jumbo loans Orange County',
+    'refinance Orange County',
+    'mortgage rates Orange County',
+  ],
   metadataBase: new URL('https://www.mothebroker.com'),
   alternates: {
     canonical: 'https://www.mothebroker.com',

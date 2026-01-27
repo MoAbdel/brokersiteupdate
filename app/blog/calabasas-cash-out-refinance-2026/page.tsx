@@ -30,13 +30,13 @@ export default function CalabasasCashOutRefinancePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Calabasas Real Estate", "Luxury Home Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-21",
                         "dateModified": "2026-01-21",

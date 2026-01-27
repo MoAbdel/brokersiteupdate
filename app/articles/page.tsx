@@ -123,9 +123,27 @@ export default function ArticlesPage() {
     },
   ];
 
+  const articlesJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Orange County Mortgage Articles",
+    "itemListElement": articles.map((article, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `https://www.mothebroker.com/articles/${article.slug}`,
+      "name": article.title
+    }))
+  };
+
   return (
     <>
       <AdvancedSchemaMarkup type="FinancialService" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articlesJsonLd)
+        }}
+      />
 
       <main className="min-h-screen bg-white">
         {/* Clean Header */}
@@ -146,6 +164,20 @@ export default function ArticlesPage() {
                   View All
                 </Link>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Intro Copy */}
+        <section className="pb-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Curated mortgage insights for Orange County buyers, refinancers, and investors.
+              These articles cover market trends, loan programs, and expert strategies to help you
+              make confident financing decisions.
+            </p>
+            <div className="mt-4 text-sm text-slate-500">
+              Updated regularly • Local Orange County expertise • Practical, lender‑level guidance
             </div>
           </div>
         </section>

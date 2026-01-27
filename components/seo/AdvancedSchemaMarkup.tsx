@@ -35,7 +35,7 @@ export default function AdvancedSchemaMarkup({
   type,
   name = "Mo Abdel - California Mortgage Broker | Lumin Lending",
   description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
-  url = "https://mothebroker.com",
+  url = "https://www.mothebroker.com",
   telephone = "+19498229662",
   address = {
     streetAddress: "18301 Von Karman Ave Suite 820",

@@ -9,7 +9,7 @@ export const metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Neighborhoods Mortgage Guide | Luxury Area Financing',
-    url: 'https://mothebroker.com/areas/newport-beach-neighborhoods',
+    url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
   },
 };
 
@@ -28,7 +28,7 @@ export default function Page() {
     '@type': 'MortgageBroker',
     name: 'Mo the Broker - Newport Beach Neighborhoods',
     areaServed: 'Newport Beach, Orange County, CA',
-    url: 'https://mothebroker.com/areas/newport-beach-neighborhoods',
+    url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
     telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', addressLocality: 'Newport Beach', addressRegion: 'CA', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],

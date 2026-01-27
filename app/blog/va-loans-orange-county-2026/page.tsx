@@ -23,13 +23,13 @@ export default function VALoansOrangeCountyPage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["VA Loans", "Military Financing", "Orange County Real Estate", "Wholesale Mortgage Rates"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending, Inc.",
-                            "logo": "https://mothebroker.com/images/mo-logo-white.webp"
+                            "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-07",
                         "dateModified": "2025-01-07",

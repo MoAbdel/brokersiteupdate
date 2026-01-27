@@ -15,6 +15,7 @@ export default function EnhancedLocalSchema({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   service_focus
 }: EnhancedLocalSchemaProps) {
+  const siteUrl = "https://www.mothebroker.com";
 
   // Generate location-specific schema
   const generateLocationSchema = () => {
@@ -50,7 +51,7 @@ export default function EnhancedLocalSchema({
       "jobTitle": "Licensed Mortgage Broker",
       "telephone": "(949) 822-9662",
       "email": "mo.abdel@luminlending.com",
-      "url": "https://mothebroker.com",
+      "url": siteUrl,
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
         "name": "NMLS License",
@@ -82,7 +83,7 @@ export default function EnhancedLocalSchema({
         "description": "Low down payment FHA loans with as little as 3.5% down payment",
         "category": "Mortgage Loan",
         "eligibility": "Owner-occupied primary residence",
-        "url": "https://mothebroker.com/fha-loans-orange-county"
+        "url": `${siteUrl}/fha-loans-orange-county`
       },
       {
         "@type": "Offer",
@@ -90,28 +91,28 @@ export default function EnhancedLocalSchema({
         "description": "Zero down payment VA loans for veterans and active military",
         "category": "Mortgage Loan",
         "eligibility": "Veterans and active military",
-        "url": "https://mothebroker.com/va-loans-orange-county"
+        "url": `${siteUrl}/va-loans-orange-county`
       },
       {
         "@type": "Offer",
         "name": "Conventional Loans",
         "description": "Traditional home financing with down payments as low as 3%",
         "category": "Mortgage Loan",
-        "url": "https://mothebroker.com/conventional-loans-orange-county"
+        "url": `${siteUrl}/conventional-loans-orange-county`
       },
       {
         "@type": "Offer",
         "name": "HELOC",
         "description": "Home Equity Line of Credit with flexible access to funds",
         "category": "Home Equity Loan",
-        "url": "https://mothebroker.com/heloc-orange-county"
+        "url": `${siteUrl}/heloc-orange-county`
       },
       {
         "@type": "Offer",
         "name": "Jumbo Loans",
         "description": "High-balance loans for luxury homes exceeding conforming loan limits",
         "category": "Mortgage Loan",
-        "url": "https://mothebroker.com/loan-programs/jumbo-loans"
+        "url": `${siteUrl}/loan-programs/jumbo-loans`
       }
     ],
     "additionalType": "https://schema.org/FinancialService",
@@ -133,7 +134,7 @@ export default function EnhancedLocalSchema({
     "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "telephone": "(949) 822-9662",
     "email": "mo.abdel@luminlending.com",
-    "url": city ? `https://mothebroker.com/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : "https://mothebroker.com",
+    "url": city ? `${siteUrl}/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : siteUrl,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city || "Orange County",

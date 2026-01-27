@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Refinance Loans in Orange County, CA | Lower Your Rate',
     description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale pricing in Orange County.',
-    url: 'https://mothebroker.com/refinance-loans',
+    url: 'https://www.mothebroker.com/refinance-loans',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/refinance-loans',
@@ -29,7 +29,7 @@ const structuredData = {
     "addressRegion": "CA"
   },
   "telephone": "(949) 822-9662",
-  "url": "https://mothebroker.com/refinance-loans",
+  "url": "https://www.mothebroker.com/refinance-loans",
   "description": "Expert mortgage refinancing services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"

@@ -116,7 +116,7 @@ export default function LLMOptimizedSEO({
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://luminlending.com"
+          item: "https://www.mothebroker.com"
         },
         ...(city ? [{
           "@type": "ListItem",

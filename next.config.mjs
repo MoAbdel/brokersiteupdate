@@ -133,6 +133,10 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable'
+          },
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow'
           }
         ]
       },
@@ -153,7 +157,7 @@ const nextConfig = {
           },
           {
             key: 'X-Robots-Tag',
-            value: 'index, follow'
+            value: 'noindex, nofollow'
           }
         ]
       },

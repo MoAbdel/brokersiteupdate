@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, DollarSign, Tre
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loans Orange County 2025: Investment Property Financing Without Tax Returns | Mo Abdel',
-  description: 'DSCR investment property loans Orange County 2025: Qualify based on rental income, not personal tax returns. No income verification. Wholesale rates. NMLS #1426884.',
-  keywords: ['DSCR loans Orange County', 'investment property loans California', 'DSCR mortgage 2025', 'rental property financing no tax returns'],
+  title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns | Mo Abdel',
+  description: 'DSCR investment property loans Orange County 2026: Qualify based on rental income, not personal tax returns. No income verification. Wholesale rates. NMLS #1426884.',
+  keywords: ['DSCR loans Orange County', 'investment property loans California', 'DSCR mortgage 2026', 'rental property financing no tax returns'],
   openGraph: {
-    title: 'DSCR Loans Orange County 2025: Investment Property Financing Without Tax Returns',
+    title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns',
     description: 'DSCR investment property loans: Qualify based on rental income, not personal income. Access wholesale rates from 100+ lenders.',
-    url: 'https://mothebroker.com/blog/dscr-investment-property-loans-2025',
+    url: 'https://www.mothebroker.com/blog/dscr-investment-property-loans-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-18T00:00:00Z',
-    modifiedTime: '2025-01-18T00:00:00Z',
+    publishedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-01-18T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -26,7 +26,7 @@ const faqData = [
     answer: "DSCR (Debt Service Coverage Ratio) loans qualify borrowers based on the property's rental income rather than personal income or tax returns. If the property's rental income covers the mortgage payment (DSCR of 1.0 or higher), you can qualify regardless of your personal employment or income documentation."
   },
   {
-    question: "What DSCR ratio do I need to qualify in 2025?",
+    question: "What DSCR ratio do I need to qualify in 2026?",
     answer: "Most DSCR lenders require a minimum ratio of 1.0 (rental income equals mortgage payment). Some lenders offer programs with DSCR as low as 0.75 with compensating factors like higher down payment or credit score. Higher DSCR ratios (1.25+) qualify for better rates."
   },
   {
@@ -51,7 +51,7 @@ const faqData = [
   }
 ];
 
-export default function DSCRInvestmentPropertyLoans2025() {
+export default function DSCRInvestmentPropertyLoans2026() {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
@@ -61,7 +61,7 @@ export default function DSCRInvestmentPropertyLoans2025() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loans Orange County 2025: Investment Property Financing Without Tax Returns",
+            "headline": "DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -71,13 +71,13 @@ export default function DSCRInvestmentPropertyLoans2025() {
             "publisher": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "datePublished": "2025-01-18",
-            "dateModified": "2025-01-18",
+            "datePublished": "2026-01-18",
+            "dateModified": "2026-01-18",
             "mainEntity": {
               "@type": "WebPage",
-              "@id": "https://mothebroker.com/blog/dscr-investment-property-loans-2025",
+              "@id": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
               "significantLink": [
                 "https://www.consumerfinance.gov/",
                 "https://www.fanniemae.com/",
@@ -87,9 +87,9 @@ export default function DSCRInvestmentPropertyLoans2025() {
             "copyrightHolder": {
               "@type": "Organization",
               "name": "Mo Abdel - Wholesale Mortgage Broker",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
-            "copyrightYear": "2025"
+            "copyrightYear": "2026"
           })
         }}
       />
@@ -121,7 +121,7 @@ export default function DSCRInvestmentPropertyLoans2025() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans Orange County 2025: Investment Property Financing Without Tax Returns
+              DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
@@ -236,7 +236,7 @@ export default function DSCRInvestmentPropertyLoans2025() {
         {/* DSCR Requirements */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            What Are DSCR Loan Requirements in 2025?
+            What Are DSCR Loan Requirements in 2026?
           </h2>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
@@ -504,19 +504,19 @@ export default function DSCRInvestmentPropertyLoans2025() {
             <Link href="/loan-programs/dscr-investment-loans" className="text-green-600 hover:text-green-700 hover:underline">
               → DSCR Loan Program Details
             </Link>
-            <Link href="/blog/non-qm-loans-complete-guide-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Non-QM Loans Complete Guide
             </Link>
-            <Link href="/blog/bank-statement-loans-self-employed-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Bank Statement Loans for Self-Employed
             </Link>
-            <Link href="/blog/jumbo-loans-orange-county-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Jumbo Loans Orange County
             </Link>
             <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
               → Investment Property Calculator
             </Link>
-            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2025" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Why Use a Wholesale Broker?
             </Link>
           </div>

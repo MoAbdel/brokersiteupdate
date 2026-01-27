@@ -30,19 +30,19 @@ export default function ManhattanBeachCashOutRefinancePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Manhattan Beach Real Estate", "Luxury Home Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-21",
                         "dateModified": "2026-01-21",
                         "mainEntity": {
                             "@type": "WebPage",
-                            "@id": "https://mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026",
+                            "@id": "https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026",
                             "significantLink": [
                                 "https://www.consumerfinance.gov/",
                                 "https://www.fhfa.gov/"
@@ -51,7 +51,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                         "copyrightHolder": {
                             "@type": "Organization",
                             "name": "Mo Abdel - Wholesale Mortgage Broker",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "copyrightYear": "2026"
                     })
