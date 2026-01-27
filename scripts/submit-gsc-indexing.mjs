@@ -13,16 +13,23 @@ const SITE_URL = 'https://www.mothebroker.com';
 const CREDENTIALS_PATH = './gsc-credentials.json';
 const DAILY_QUOTA = 200; // Google Indexing API daily limit
 
-// Extract URLs from sitemap
+// Extract URLs + lastmod from sitemap (so we can submit most recent first)
 const extractUrls = () => {
   const xml = fs.readFileSync('public/sitemap.xml', 'utf8');
-  const urls = [];
-  const regex = /<loc>([^<]+)<\/loc>/g;
-  let match;
-  while ((match = regex.exec(xml)) !== null) {
-    urls.push(match[1]);
+  const items = [];
+  const urlRegex = /<url>([\s\S]*?)<\/url>/g;
+  let m;
+  while ((m = urlRegex.exec(xml)) !== null) {
+    const block = m[1];
+    const loc = (block.match(/<loc>([^<]+)<\/loc>/) || [])[1];
+    if (!loc) continue;
+    const lastmodRaw = (block.match(/<lastmod>([^<]+)<\/lastmod>/) || [])[1];
+    const lastmod = lastmodRaw ? Date.parse(lastmodRaw) : 0;
+    items.push({ loc, lastmod });
   }
-  return urls;
+  return items
+    .sort((a, b) => (b.lastmod || 0) - (a.lastmod || 0))
+    .map((x) => x.loc);
 };
 
 // Submit single URL to Indexing API

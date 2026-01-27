@@ -10,7 +10,10 @@
     "start": "next start",
     "lint": "next lint",
     "sitemap": "node scripts/build-sitemap.mjs",
-    "indexnow:submit": "node scripts/submit-indexnow.mjs"
+    "indexnow:submit": "node scripts/submit-indexnow.mjs",
+    "bing:submit": "node scripts/submit-bing-gsc.mjs",
+    "gsc:sitemap": "node scripts/submit-gsc-sitemap.mjs",
+    "gsc:indexing": "node scripts/submit-gsc-indexing.mjs"
   },
   "keywords": [
     "mortgage",
@@ -42,6 +45,7 @@
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "autoprefixer": "^10.4.21",
+    "google-auth-library": "^10.5.0",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
