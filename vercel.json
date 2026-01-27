@@ -95,7 +95,10 @@
     {
       "source": "/(.*)",
       "has": [
-        { "type": "host", "value": "mothebroker.com" }
+        {
+          "type": "host",
+          "value": "mothebroker.com"
+        }
       ],
       "destination": "https://www.mothebroker.com/$1",
       "permanent": true
@@ -106,7 +109,7 @@
       "permanent": true
     },
     {
-      "source": "/index.php", 
+      "source": "/index.php",
       "destination": "/",
       "permanent": true
     },
@@ -137,7 +140,7 @@
     },
     {
       "source": "/neighborhoods",
-      "destination": "/neighborhood-guide", 
+      "destination": "/neighborhood-guide",
       "permanent": true
     },
     {
@@ -162,7 +165,7 @@
     },
     {
       "source": "/:path*/index.php",
-      "destination": "/:path*", 
+      "destination": "/:path*",
       "permanent": true
     },
     {
@@ -182,7 +185,7 @@
     },
     {
       "source": "/programs/fix-flip-loans",
-      "destination": "/loan-programs/fix-flip-loans", 
+      "destination": "/loan-programs/fix-flip-loans",
       "permanent": true
     },
     {
@@ -209,8 +212,7 @@
       "source": "/Mo",
       "destination": "/about",
       "permanent": true
-    },
-    
+    }
   ],
   "trailingSlash": false,
   "rewrites": [
@@ -224,14 +226,14 @@
     },
     {
       "source": "/sitemap-index.xml",
-      "destination": "/sitemap-index.xml" 
+      "destination": "/sitemap-index.xml"
     },
     {
       "source": "/sitemap-images.xml",
       "destination": "/sitemap-images.xml"
     },
     {
-      "source": "/sitemap-news.xml", 
+      "source": "/sitemap-news.xml",
       "destination": "/sitemap-news.xml"
     },
     {
