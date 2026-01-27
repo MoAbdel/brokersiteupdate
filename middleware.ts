@@ -22,7 +22,8 @@ export const config = {
      * - api (API routes)
      * - _next/static (static files)
      * - _next/image (image optimization files)
+     * - .txt files (IndexNow keys, verification files)
      */
-    '/((?!api|_next/static|_next/image).*)',
+    '/((?!api|_next/static|_next/image|.*\\.txt$).*)',
   ],
 };

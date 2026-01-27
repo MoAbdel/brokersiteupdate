@@ -61,7 +61,7 @@
         },
         {
           "key": "X-Robots-Tag",
-          "value": "index, follow"
+          "value": "noindex, nofollow"
         }
       ]
     },
@@ -214,6 +214,10 @@
   ],
   "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/494ad9630c93410f9ad7b243178c596a.txt",
+      "destination": "/494ad9630c93410f9ad7b243178c596a.txt"
+    },
     {
       "source": "/sitemap.xml",
       "destination": "/sitemap.xml"
