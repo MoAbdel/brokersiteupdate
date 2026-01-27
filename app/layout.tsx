@@ -114,6 +114,12 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
+        {/* Local SEO / Geo Tags - Critical for Bing Local Search */}
+        <meta name="geo.region" content="US-CA" />
+        <meta name="geo.placename" content="Irvine, Orange County" />
+        <meta name="geo.position" content="33.6846;-117.8265" />
+        <meta name="ICBM" content="33.6846, -117.8265" />
+
 
 
         {/* Hreflang tags - US only targeting */}

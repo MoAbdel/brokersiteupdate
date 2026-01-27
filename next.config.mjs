@@ -27,19 +27,6 @@ const nextConfig = {
     return []
   },
 
-  // Rewrites for static files
-  async rewrites() {
-    return {
-      beforeFiles: [
-        // IndexNow key file - serve from public folder
-        {
-          source: '/494ad9630c93410f9ad7b243178c596a.txt',
-          destination: '/api/indexnow-key',
-        },
-      ],
-    }
-  },
-  
   // Headers for HTTP/2+ optimization and SEO
   async headers() {
     return [
