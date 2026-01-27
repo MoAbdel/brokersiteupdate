@@ -1,0 +1,320 @@
+{
+  "_comment": "JSON-LD Schema Templates for HECM & Equity Blog Generator",
+  "_version": "2026-01",
+
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://mothebroker.com/about",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Lumin Lending",
+        "url": "https://mothebroker.com"
+      },
+      "knowsAbout": [
+        "Reverse Mortgages",
+        "HECM Loans",
+        "Home Equity",
+        "HELOC",
+        "Cash-Out Refinance",
+        "Wholesale Mortgage Lending"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://mothebroker.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mothebroker.com/images/mo-logo-white.webp"
+      }
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://mothebroker.com/blog/[SLUG]",
+      "significantLink": [
+        "https://www.hud.gov/",
+        "https://www.consumerfinance.gov/",
+        "https://www.fhfa.gov/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://mothebroker.com"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "faqPage": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "[QUESTION_1]",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "[ANSWER_1]"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "[QUESTION_2]",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "[ANSWER_2]"
+        }
+      }
+    ]
+  },
+
+  "localBusiness": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - Wholesale Mortgage Broker",
+    "description": "Wholesale mortgage broker serving California and Washington. Specializing in reverse mortgages (HECM), HELOC, home equity loans, and cash-out refinance.",
+    "url": "https://mothebroker.com",
+    "telephone": "(949) 537-2357",
+    "email": "mo@mothebroker.com",
+    "areaServed": [
+      {
+        "@type": "State",
+        "name": "California"
+      },
+      {
+        "@type": "State",
+        "name": "Washington"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "priceRange": "$$",
+    "knowsAbout": [
+      "Reverse Mortgages",
+      "HECM Loans",
+      "Home Equity Lines of Credit",
+      "Home Equity Loans",
+      "Cash-Out Refinance",
+      "Wholesale Mortgage Lending"
+    ],
+    "sameAs": [
+      "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1426884"
+    ]
+  },
+
+  "localBusinessGeo": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - [CITY] Mortgage Broker",
+    "description": "[TRACK]-focused mortgage services in [CITY], [STATE]. NMLS #1426884.",
+    "url": "https://mothebroker.com",
+    "telephone": "(949) 537-2357",
+    "areaServed": {
+      "@type": "City",
+      "name": "[CITY]",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "[STATE_FULL]"
+      }
+    },
+    "priceRange": "$$"
+  },
+
+  "howTo": {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "[TITLE]",
+    "description": "[DESCRIPTION]",
+    "totalTime": "[DURATION]",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "[STEP_1_NAME]",
+        "text": "[STEP_1_TEXT]"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "[STEP_2_NAME]",
+        "text": "[STEP_2_TEXT]"
+      }
+    ]
+  },
+
+  "articleHECM": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "about": {
+      "@type": "FinancialProduct",
+      "name": "Home Equity Conversion Mortgage (HECM)",
+      "category": "Reverse Mortgage",
+      "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Federal Housing Administration",
+        "url": "https://www.hud.gov/"
+      }
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://mothebroker.com/about",
+      "knowsAbout": [
+        "Reverse Mortgages",
+        "HECM Loans",
+        "Senior Home Equity",
+        "HUD Programs"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://mothebroker.com"
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://mothebroker.com/blog/[SLUG]",
+      "significantLink": [
+        "https://www.hud.gov/program_offices/housing/sfh/hecm",
+        "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
+        "https://www.nrmlaonline.org/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "articleEquity": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "about": {
+      "@type": "FinancialProduct",
+      "name": "[PRODUCT_NAME]",
+      "category": "Home Equity Product"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://mothebroker.com/about",
+      "knowsAbout": [
+        "Home Equity",
+        "HELOC",
+        "Home Equity Loans",
+        "Cash-Out Refinance",
+        "Mortgage Refinancing"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://mothebroker.com"
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://mothebroker.com/blog/[SLUG]",
+      "significantLink": [
+        "https://www.consumerfinance.gov/owning-a-home/",
+        "https://www.fhfa.gov/",
+        "https://www.federalreserve.gov/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "breadcrumb": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[ARTICLE_TITLE]",
+        "item": "https://mothebroker.com/blog/[SLUG]"
+      }
+    ]
+  },
+
+  "speakable": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+        ".article-summary",
+        ".faq-answer"
+      ]
+    }
+  },
+
+  "socialMeta": {
+    "_comment": "Not JSON-LD but included for completeness",
+    "og:site_name": "Mo Abdel - Wholesale Mortgage Broker",
+    "og:type": "article",
+    "og:title": "[TITLE]",
+    "og:description": "[META_DESCRIPTION]",
+    "og:url": "https://mothebroker.com/blog/[SLUG]",
+    "og:image": "https://mothebroker.com/images/[IMAGE]",
+    "article:author": "Mo Abdel",
+    "article:publisher": "https://mothebroker.com",
+    "article:published_time": "[ISO_DATE]",
+    "article:modified_time": "[ISO_DATE]",
+    "author": "Mo Abdel, NMLS #1426884",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "[TITLE]",
+    "twitter:description": "[META_DESCRIPTION]"
+  },
+
+  "_usage": {
+    "pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumb", "speakable"],
+    "pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumb", "speakable"],
+    "cluster_hecm": ["articleHECM", "faqPage", "breadcrumb"],
+    "cluster_equity": ["articleEquity", "faqPage", "breadcrumb"],
+    "geo_hecm": ["articleHECM", "faqPage", "localBusinessGeo", "breadcrumb"],
+    "geo_equity": ["articleEquity", "faqPage", "localBusinessGeo", "breadcrumb"],
+    "howto_posts": ["howTo", "article", "breadcrumb"]
+  }
+}
