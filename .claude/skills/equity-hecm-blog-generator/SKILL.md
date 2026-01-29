@@ -108,6 +108,143 @@ WHOLESALE TRACK:
 - "Generate OC wholesale expansion"   → All 30 OC affluent zips
 - "Generate CA wholesale expansion"   → Next 20 CA affluent zips
 - "Generate WA wholesale expansion"   → Next 10 WA affluent zips
+
+BALANCED GENERATION:
+- "Generate 10 posts"                 → Balanced across all tracks
+- "Generate 20 posts"                 → Even distribution + priority overflow
+- "Generate 50 posts"                 → Full balanced distribution
+```
+
+## Content Distribution Strategy
+
+### Balanced Distribution Rules
+
+When generating multiple posts, distribute EVENLY across all content types. Use this priority order when posts requested < content types available:
+
+```
+PRIORITY ORDER (highest to lowest):
+1. PILLARS (3 total) - Foundation pages, generate first
+2. CLUSTERS (33 total) - Educational authority
+3. COUNTY PAGES (1 OC) - Regional hub
+4. CITY PAGES (8 priority) - GSC query coverage
+5. ZIP PAGES (214 total) - Affluent targeting
+6. GEO CITY POSTS (HECM/Equity tracks) - Existing rotation
+```
+
+### Distribution Algorithm
+
+**For N posts requested:**
+
+```
+Step 1: Check if pillars needed
+  - If any pillar not created → allocate 1 post per missing pillar
+  - Max 3 posts for pillars (Wholesale, HECM, Equity)
+
+Step 2: Distribute remaining to clusters (round-robin across tracks)
+  - Wholesale clusters: 7 topics
+  - HECM clusters: 12 topics
+  - Equity clusters: 14 topics
+  - Rotate: Wholesale → HECM → Equity → repeat
+
+Step 3: If clusters complete, add county/city pages
+  - OC County page first
+  - Then priority cities (Anaheim, Costa Mesa, Yorba Linda, etc.)
+
+Step 4: If cities complete, add zip pages
+  - Tier 1 (OC) first → Tier 2 (CA) → Tier 3 (WA)
+
+Step 5: Any remaining → HECM/Equity geo city rotation
+```
+
+### Example Distributions
+
+**"Generate 5 posts"**
+```
+1. Wholesale Pillar (priority 1)
+2. HECM Pillar (priority 1)
+3. Equity Pillar (priority 1)
+4. Wholesale Cluster #1: Wholesale vs Retail (priority 2)
+5. HECM Cluster #1: HECM Basics (priority 2)
+```
+
+**"Generate 10 posts"**
+```
+1-3. All 3 Pillars
+4. Wholesale Cluster #1: Wholesale vs Retail
+5. HECM Cluster #1: HECM Basics
+6. Equity Cluster #1: Cash-Out Basics
+7. Wholesale Cluster #2: Broker vs Bank
+8. HECM Cluster #2: HECM Eligibility
+9. Equity Cluster #2: Cash-Out vs Rate-and-Term
+10. Wholesale Cluster #3: Bank Statement Loans
+```
+
+**"Generate 20 posts"**
+```
+1-3. All 3 Pillars
+4-10. 7 Wholesale Clusters (all)
+11-13. 3 HECM Clusters
+14-16. 3 Equity Clusters
+17. OC County Page
+18-20. 3 Priority City Pages (Anaheim, Costa Mesa, Yorba Linda)
+```
+
+**"Generate 50 posts"**
+```
+1-3. All 3 Pillars (3)
+4-10. All 7 Wholesale Clusters (7)
+11-22. All 12 HECM Clusters (12)
+23-36. All 14 Equity Clusters (14)
+37. OC County Page (1)
+38-45. All 8 Priority Cities (8)
+46-50. First 5 OC Affluent Zips (5)
+```
+
+### Content Status Tracking
+
+Track what's been generated to avoid duplicates:
+
+```
+CONTENT_STATUS = {
+  pillars: {
+    wholesale_ca: false,
+    hecm: false,
+    equity: false
+  },
+  clusters: {
+    wholesale: [false, false, false, false, false, false, false],  // 7
+    hecm: [false × 12],
+    equity: [false × 14]
+  },
+  county: {
+    orange_county: false
+  },
+  cities: {
+    anaheim: false,
+    costa_mesa: false,
+    yorba_linda: false,
+    huntington_beach: false,
+    garden_grove: false,
+    dana_point: false,
+    santa_ana: false,
+    tustin: false
+  },
+  zips: {
+    oc: [false × 30],
+    ca: [false × 129],
+    wa: [false × 55]
+  }
+}
+```
+
+### Smart Batch Commands
+
+```
+"Generate next 10 posts"      → Continues from where we left off
+"Generate remaining pillars"  → Only missing pillars
+"Generate all clusters"       → All 33 cluster posts
+"Generate OC coverage"        → County + cities + zips for OC
+"Generate complete wholesale" → Pillar + 7 clusters + OC county + cities + zips
 ```
 
 ## Content Types
