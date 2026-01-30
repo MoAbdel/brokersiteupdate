@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import Script from 'next/script';
 
 interface IndexingOptimizationProps {
@@ -18,14 +17,29 @@ export default function IndexingOptimization({
   const generateIndexingSchema = () => {
     const baseUrl = 'https://www.mothebroker.com';
     const currentDate = new Date().toISOString();
+    const currentYear = new Date().getFullYear();
+    const pagePath = page.startsWith('/') ? page : `/${page}`;
 
     return {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": page,
-      "url": `${baseUrl}${page.startsWith('/') ? page : `/${page}`}`,
+      "url": `${baseUrl}${pagePath}`,
       "dateModified": lastModified || currentDate,
       "datePublished": currentDate,
+      "copyrightHolder": {
+        "@type": "Organization",
+        "name": "Mo Abdel - Mortgage Broker",
+        "url": baseUrl
+      },
+      "copyrightYear": currentYear,
+      "significantLink": [
+        baseUrl,
+        `${baseUrl}/loan-programs`,
+        `${baseUrl}/areas`,
+        `${baseUrl}/blog`,
+        `${baseUrl}/contact`
+      ],
       "inLanguage": "en-US",
       "isAccessibleForFree": true,
       "publisher": {
@@ -68,7 +82,7 @@ export default function IndexingOptimization({
             "position": 2,
             "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
             "item": {
-              "@id": `${baseUrl}${page.startsWith('/') ? page : `/${page}`}`,
+              "@id": `${baseUrl}${pagePath}`,
               "name": page.replace(/[\/\-]/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())
             }
           }
@@ -79,23 +93,6 @@ export default function IndexingOptimization({
 
   return (
     <>
-      <Head>
-        {/* Enhanced meta tags for better indexing */}
-        <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
-        <meta name="googlebot" content="index,follow" />
-        <meta name="bingbot" content="index,follow" />
-        <meta name="slurp" content="index,follow" />
-
-        {/* Additional SEO signals */}
-        <meta name="revisit-after" content="7 days" />
-        <meta name="distribution" content="global" />
-        <meta name="rating" content="general" />
-        <meta name="doc-class" content="living document" />
-
-        {/* Priority hints for crawlers */}
-        <meta name="importance" content={priority} />
-      </Head>
-
       {/* Enhanced structured data for better understanding */}
       <Script
         id={`indexing-optimization-${page.replace(/[\/\-]/g, '_')}`}

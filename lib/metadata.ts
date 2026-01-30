@@ -23,11 +23,37 @@ export function generateMetadata({
   const canonicalUrl = `${baseUrl}${path}`;
   const fullImageUrl = `${baseUrl}${image}`;
 
+  const robots = noindex
+    ? {
+        index: false,
+        follow: false,
+        googleBot: { index: false, follow: false },
+        bingbot: { index: false, follow: false },
+      }
+    : {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+          'max-video-preview': -1,
+          'max-image-preview': 'large',
+          'max-snippet': -1,
+        },
+        bingbot: {
+          index: true,
+          follow: true,
+          'max-video-preview': -1,
+          'max-image-preview': 'large',
+          'max-snippet': -1,
+        },
+      };
+
   return {
     title,
     description,
     keywords,
-    robots: noindex ? 'noindex,nofollow' : 'index,follow',
+    robots,
     openGraph: {
       title,
       description,

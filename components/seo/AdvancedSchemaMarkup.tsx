@@ -8,6 +8,7 @@ interface SchemaProps {
   description?: string;
   url?: string;
   telephone?: string;
+  significantLinks?: string[];
   address?: {
     streetAddress: string;
     addressLocality: string;
@@ -37,6 +38,13 @@ export default function AdvancedSchemaMarkup({
   description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://www.mothebroker.com",
   telephone = "+19498229662",
+  significantLinks = [
+    "https://www.mothebroker.com/",
+    "https://www.mothebroker.com/loan-programs",
+    "https://www.mothebroker.com/areas",
+    "https://www.mothebroker.com/blog",
+    "https://www.mothebroker.com/contact"
+  ],
   address = {
     streetAddress: "18301 Von Karman Ave Suite 820",
     addressLocality: "Irvine",
@@ -77,6 +85,7 @@ export default function AdvancedSchemaMarkup({
 }: SchemaProps) {
 
   const generateSchema = () => {
+    const currentYear = new Date().getFullYear();
     const baseSchema = {
       "@context": "https://schema.org",
       "@type": type,
@@ -84,6 +93,13 @@ export default function AdvancedSchemaMarkup({
       description,
       url,
       telephone,
+      copyrightHolder: {
+        "@type": "Organization",
+        name,
+        url
+      },
+      copyrightYear: currentYear,
+      significantLink: significantLinks,
       address: {
         "@type": "PostalAddress",
         ...address

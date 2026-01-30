@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const DEFAULT_HOST = 'www.mothebroker.com';
-const DEFAULT_KEY = '5f8fac3ef30b47a48f4d889f9f652f35';
+const DEFAULT_KEY = '0814b0d1fcd747a8b35cce425b6ee0c0';
 const DEFAULT_SITEMAPS = [
   'sitemap.xml',
   'sitemap-news.xml',

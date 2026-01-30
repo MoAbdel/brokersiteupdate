@@ -5,6 +5,11 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /dashboard/
 
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
 # Baiduspider
 User-agent: Baiduspider
 Disallow: /

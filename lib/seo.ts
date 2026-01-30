@@ -21,6 +21,8 @@ export const seoData = {
   }
 };
 
+const currentYear = new Date().getFullYear();
+
 export const structuredData = {
   "@context": "https://schema.org",
   "@type": ["FinancialService", "LocalBusiness"],
@@ -134,6 +136,19 @@ export const structuredData = {
   ],
   "priceRange": "$$",
   "description": "Licensed mortgage broker based in Lake Forest, serving CA and WA. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 822-9662 for multi-state mortgage expertise.",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Mo Abdel - Mortgage Broker",
+    "url": "https://www.mothebroker.com"
+  },
+  "copyrightYear": currentYear,
+  "significantLink": [
+    "https://www.mothebroker.com/",
+    "https://www.mothebroker.com/loan-programs",
+    "https://www.mothebroker.com/areas",
+    "https://www.mothebroker.com/blog",
+    "https://www.mothebroker.com/contact"
+  ],
   "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
   "logo": "https://www.mothebroker.com/images/mo-logo-white.webp",
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],

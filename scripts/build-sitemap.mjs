@@ -246,11 +246,11 @@ class SitemapBuilder {
       const finalUrl = canonicalUrl || url;
 
       // Extract last modified date
-      let lastmod = new Date().toISOString().split('T')[0]; // Default to today
+      let lastmod = new Date().toISOString(); // Default to current timestamp
       const lastModifiedHeader = response.headers['last-modified'];
       if (lastModifiedHeader) {
         try {
-          lastmod = new Date(lastModifiedHeader).toISOString().split('T')[0];
+          lastmod = new Date(lastModifiedHeader).toISOString();
         } catch (e) {
           // Keep default if parsing fails
         }

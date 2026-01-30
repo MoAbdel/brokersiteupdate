@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap && node scripts/submit-indexing-after-build.mjs",
     "start": "next start",
     "lint": "next lint",
     "sitemap": "node scripts/build-sitemap.mjs",
