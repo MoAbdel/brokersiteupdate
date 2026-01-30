@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import { GoogleAuth } from 'google-auth-library';
 
 const CREDENTIALS_PATH = './gsc-credentials.json';
-const SITE_URL = process.env.GSC_SITE_URL || 'https://www.mothebroker.com/';
+const SITE_URL = process.env.GSC_SITE_URL || 'sc-domain:mothebroker.com';
 const SITEMAP_URL = process.env.GSC_SITEMAP_URL || 'https://www.mothebroker.com/sitemap.xml';
 
 const run = async () => {

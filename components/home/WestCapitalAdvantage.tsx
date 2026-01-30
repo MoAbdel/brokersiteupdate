@@ -99,7 +99,7 @@ export default function WestCapitalAdvantage() {
             <div>
               <h3 className="text-xl sm:text-2xl font-bold mb-2 whitespace-nowrap">Geographic Coverage</h3>
               <p className="text-slate-300 text-base sm:text-lg">
-                Licensed in <span className="text-white font-semibold">CA, WA, VA, & CO</span>
+                Licensed in <span className="text-white font-semibold">CA & WA</span>
               </p>
               <p className="text-slate-400 text-sm mt-1">
                 Full statewide coverage for all counties
@@ -121,7 +121,7 @@ export default function WestCapitalAdvantage() {
             <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
               <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Coverage Area</div>
               <div className="text-white text-xl font-bold">Multi-State Licensed</div>
-              <div className="text-slate-400 text-sm mt-1">CA, WA, VA, CO</div>
+              <div className="text-slate-400 text-sm mt-1">CA, WA</div>
             </div>
           </div>
         </div>
