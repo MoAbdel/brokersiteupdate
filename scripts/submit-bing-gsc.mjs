@@ -59,12 +59,19 @@ const submitToBing = async (urlBatch, batchNum) => {
   }
 };
 
-// Submit sitemap to Bing
+// Submit sitemap to Bing (SubmitFeed endpoint)
 const submitSitemapToBing = async () => {
   try {
     const response = await fetch(
-      `${BING_API_BASE}/SubmitSitemap?apikey=${encodeURIComponent(BING_API_KEY)}&siteUrl=${encodeURIComponent(SITE_URL)}&feedUrl=${encodeURIComponent(SITE_URL + '/sitemap.xml')}`,
-      { method: 'GET' }
+      `${BING_API_BASE}/SubmitFeed?apikey=${encodeURIComponent(BING_API_KEY)}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          siteUrl: SITE_URL,
+          feedUrl: `${SITE_URL}/sitemap.xml`
+        })
+      }
     );
     const result = await response.text();
     console.log(`Bing sitemap submission: ${response.status} - ${result}`);
