@@ -212,6 +212,118 @@
       "source": "/Mo",
       "destination": "/about",
       "permanent": true
+    },
+
+    {
+      "source": "/$",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/quiz",
+      "destination": "/calculator",
+      "permanent": true
+    },
+    {
+      "source": "/search",
+      "destination": "/",
+      "permanent": true
+    },
+
+    {
+      "source": "/tools/mortgage-calculator",
+      "destination": "/calculator",
+      "permanent": true
+    },
+    {
+      "source": "/tools/:path*",
+      "destination": "/calculator",
+      "permanent": true
+    },
+
+    {
+      "source": "/programs/dscr-investment-loans",
+      "destination": "/loan-programs/dscr-investment-loans",
+      "permanent": true
+    },
+    {
+      "source": "/programs/foreign-national-loans",
+      "destination": "/loan-programs/foreign-national-loans",
+      "permanent": true
+    },
+    {
+      "source": "/programs/:path*",
+      "destination": "/loan-programs/:path*",
+      "permanent": true
+    },
+
+    {
+      "source": "/loan-programs/va-loans",
+      "destination": "/loan-programs/orange-county-va-loans",
+      "permanent": true
+    },
+
+    {
+      "source": "/orange-county-conventional-loans",
+      "destination": "/conventional-loans-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-fha-loans",
+      "destination": "/fha-loans-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-va-loans",
+      "destination": "/va-loans-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-heloc",
+      "destination": "/heloc-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-heloan",
+      "destination": "/heloan-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-jumbo-loans",
+      "destination": "/jumbo-loans-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-non-qm-loans",
+      "destination": "/non-qm-loans-orange-county",
+      "permanent": true
+    },
+
+    {
+      "source": "/blog/va-loans-orange-county-2026-complete-guide",
+      "destination": "/blog/va-loans-orange-county-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dscr-loans-investment-properties-2026",
+      "destination": "/blog/dscr-investment-property-loans-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/non-qm-loans-orange-county-guide-2026",
+      "destination": "/blog/non-qm-loans-complete-guide-2026",
+      "permanent": true
+    },
+
+    {
+      "source": "/about-mo-abdel",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/mortgage-broker",
+      "destination": "/about",
+      "permanent": true
     }
   ],
   "trailingSlash": false,
