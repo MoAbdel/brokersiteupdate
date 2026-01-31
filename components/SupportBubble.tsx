@@ -10,7 +10,6 @@ export default function SupportBubble() {
   const [hasNotification, setHasNotification] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
 
   // Form state
   const [formData, setFormData] = useState({
@@ -22,7 +21,6 @@ export default function SupportBubble() {
   });
 
   useEffect(() => {
-    setIsMounted(true);
     // Show notification shortly after load
     const timer = setTimeout(() => {
       setHasNotification(true);
@@ -30,7 +28,7 @@ export default function SupportBubble() {
     return () => clearTimeout(timer);
   }, []);
 
-  if (!isMounted) return null;
+
 
   const handleOpen = () => {
     setIsOpen(true);
