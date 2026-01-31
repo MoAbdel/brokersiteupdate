@@ -13,6 +13,7 @@ import MobileStickyCallButton from '@/components/MobileStickyCallButton';
 import ExitIntentModal from '@/components/ExitIntentModal';
 import Script from 'next/script';
 import { structuredData, mortgageLoanSchema } from '@/lib/seo';
+import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
 
 const inter = Inter({
@@ -140,6 +141,7 @@ export default function RootLayout({
         <ChatbotHardReset />
         <MobileStickyCallButton />
         <ExitIntentModal />
+        <Analytics />
 
         {/* Combined structured data - single script for better performance */}
         <Script
