@@ -28,7 +28,6 @@ export function generateMetadata({
         index: false,
         follow: false,
         googleBot: { index: false, follow: false },
-        bingbot: { index: false, follow: false },
       }
     : {
         index: true,
@@ -36,16 +35,9 @@ export function generateMetadata({
         googleBot: {
           index: true,
           follow: true,
-          'max-video-preview': -1,
-          'max-image-preview': 'large',
-          'max-snippet': -1,
-        },
-        bingbot: {
-          index: true,
-          follow: true,
-          'max-video-preview': -1,
-          'max-image-preview': 'large',
-          'max-snippet': -1,
+          'max-video-preview': -1 as const,
+          'max-image-preview': 'large' as const,
+          'max-snippet': -1 as const,
         },
       };
 

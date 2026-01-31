@@ -15,18 +15,6 @@ export default function HeroSection() {
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
         
-        {/* Pill Badge */}
-        <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-slate-200/60 rounded-full px-4 py-1.5 shadow-sm mb-8 hover:bg-white transition-colors cursor-default">
-          <div className="flex -space-x-2">
-             {[1,2,3].map((i) => (
-                <div key={i} className="w-5 h-5 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center overflow-hidden">
-                   <div className={`w-full h-full bg-gradient-to-br ${i === 1 ? 'from-blue-400 to-blue-600' : i === 2 ? 'from-green-400 to-green-600' : 'from-indigo-400 to-indigo-600'}`} />
-                </div>
-             ))}
-          </div>
-          <span className="text-xs font-medium text-slate-600">Accessing 50+ Wholesale Lenders</span>
-        </div>
-
         <div className="space-y-8 lg:space-y-10">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900">

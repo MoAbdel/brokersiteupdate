@@ -128,20 +128,7 @@ export const serviceAreasDropdown: DropdownItem[] = [
 ];
 
 export const guidesAndBlogDropdown: DropdownItem[] = [
-  { title: 'All Guides & Articles', url: '/guides' },
-
-  // Expert Articles - NEW
-  { title: '✨ EXPERT ARTICLES', url: '#', isHeader: true },
-  { title: 'All Articles', url: '/articles' },
-  { title: 'Best Mortgage Broker in Orange County', url: '/articles/best-mortgage-broker-orange-county' },
-  { title: 'Newport Beach Mortgage Guide 2026', url: '/articles/newport-beach-mortgage-guide-2026' },
-  { title: 'Laguna Beach Jumbo Loan Guide', url: '/articles/laguna-beach-jumbo-loan-guide' },
-  { title: 'Dana Point First-Time Homebuyer Guide', url: '/articles/dana-point-first-time-homebuyer-guide' },
-  { title: 'Wholesale vs. Retail Mortgages', url: '/articles/wholesale-vs-retail-mortgages-comparison' },
-  { title: 'Orange County Market Update 2026', url: '/articles/orange-county-mortgage-rate-trends-august-2026' },
-  { title: 'Refinance Specialist', url: '/articles/orange-county-mortgage-refinance-specialist' },
-  { title: 'Jumbo Loan Broker', url: '/articles/jumbo-loan-broker-orange-county' },
-  { title: 'VA Loan Mortgage Broker', url: '/articles/va-loan-mortgage-broker-orange-county' },
+  { title: 'All Guides & Blog Posts', url: '/guides' },
 
   // Complete Guides
   { title: '📚 COMPLETE GUIDES', url: '#', isHeader: true },
@@ -154,7 +141,7 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
 
   // Market Analysis
   { title: '📊 MARKET ANALYSIS', url: '#', isHeader: true },
-  { title: 'Orange County Market Forecast 2026-2026', url: '/guides/orange-county-market-forecast-2026-2026' },
+  { title: 'Orange County Market Forecast 2026', url: '/guides/orange-county-market-forecast-2026-2026' },
 
   // Seasonal Market Guides
   { title: '🌟 SEASONAL GUIDES', url: '#', isHeader: true },
@@ -171,7 +158,7 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
   { title: 'OC Neighborhoods Comparison', url: '/neighborhood-guide/orange-county-neighborhoods-comparison-guide' },
 
   // Blog Articles
-  { title: '📝 OTHER ARTICLES', url: '#', isHeader: true },
+  { title: '📝 BLOG ARTICLES', url: '#', isHeader: true },
   { title: 'Why Choose Local Mortgage Broker', url: '/guides/why-choose-local-mortgage-broker' }
 ];
 
@@ -260,29 +247,25 @@ export const guidesDropdown: DropdownItem[] = [
 ];
 
 export const blogDropdown: DropdownItem[] = [
-  { title: 'All Articles', url: '/articles' },
+  { title: 'All Blog Posts', url: '/guides' },
 
-  // Loan Programs
-  { title: '💰 LOAN PROGRAMS', url: '#', isHeader: true },
-  { title: 'All Programs', url: '/loan-programs' },
-  { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
-  { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
-  { title: 'HELOC', url: '/loan-programs/heloc' },
-  { title: 'HELOAN', url: '/loan-programs/heloan' },
-  { title: 'Non-QM Loans', url: '/loan-programs/non-qm-loans' },
+  // Featured Topics
+  { title: '✨ FEATURED TOPICS', url: '#', isHeader: true },
+  { title: 'Reverse Mortgages (HECM)', url: '/blog/reverse-mortgage-complete-guide-2026' },
+  { title: 'Home Equity Options', url: '/blog/heloc-complete-guide-2026' },
+  { title: 'Wholesale Broker Advantage', url: '/blog/wholesale-mortgage-broker-california-guide-2026' },
 
-  // Guides
-  { title: '📚 GUIDES', url: '#', isHeader: true },
-  { title: 'All Guides', url: '/guides' },
+  // By Category
+  { title: '📂 BY CATEGORY', url: '#', isHeader: true },
+  { title: 'Wholesale Guides', url: '/blog/wholesale-vs-retail-mortgage-brokers-2026' },
+  { title: 'City Guides', url: '/blog/irvine-mortgage-guide-2026' },
+  { title: 'Refinance Guides', url: '/blog/cash-out-refinance-complete-guide-2026' },
 
-  // Service Areas
-  { title: '📍 SERVICE AREAS', url: '#', isHeader: true },
-  { title: 'All Areas', url: '/areas' },
-
-  // Resources
-  { title: '🔧 RESOURCES', url: '#', isHeader: true },
-  { title: 'Calculator', url: '/calculator' },
-  { title: 'Contact', url: '/contact' },
+  // Neighborhood Guides
+  { title: '🏘️ NEIGHBORHOOD GUIDES', url: '#', isHeader: true },
+  { title: 'All Neighborhood Guides', url: '/neighborhood-guide' },
+  { title: 'Irvine vs Newport Beach', url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide' },
+  { title: 'Mission Viejo vs Irvine', url: '/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide' },
 ];
 
 export const navigationItems: NavigationItem[] = [
@@ -291,6 +274,30 @@ export const navigationItems: NavigationItem[] = [
     page: 'Home',
     url: '/',
     icon: Home,
+  },
+  {
+    title: 'Loan Programs',
+    page: 'Loan Programs',
+    url: '/loan-programs',
+    icon: FileText,
+    hasDropdown: true,
+    dropdownItems: loanProgramsDropdown
+  },
+  {
+    title: 'Resources',
+    page: 'Resources',
+    url: '/resources',
+    icon: FileText,
+    hasDropdown: true,
+    dropdownItems: resourcesDropdown
+  },
+  {
+    title: 'Blog',
+    page: 'Blog',
+    url: '/guides',
+    icon: FileText,
+    hasDropdown: true,
+    dropdownItems: blogDropdown
   },
   {
     title: 'About',
@@ -303,14 +310,6 @@ export const navigationItems: NavigationItem[] = [
     page: 'Contact',
     url: '/contact',
     icon: Phone,
-  },
-  {
-    title: 'Blog',
-    page: 'Blog',
-    url: '/guides',
-    icon: FileText,
-    hasDropdown: true,
-    dropdownItems: blogDropdown
   },
 ];
 
