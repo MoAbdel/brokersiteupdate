@@ -7,7 +7,7 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 import FacebookPixel from '@/components/FacebookPixel';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 import GEOTracking from '@/components/GEOTracking';
-import FixedChatbot from '@/components/FixedChatbot';
+
 import ChatbotHardReset from '@/components/ChatbotHardReset';
 import MobileStickyCallButton from '@/components/MobileStickyCallButton';
 import ExitIntentModal from '@/components/ExitIntentModal';

@@ -12,41 +12,69 @@ const STEPS = [
 ];
 
 export default function ProcessTimeline() {
-  const [activeStep, setActiveStep] = useState(0); // 0 = start, 1-5 = steps active
+  const [activeStep, setActiveStep] = useState(0);
+  const stepRef = React.useRef(0);
+  const intervalRef = React.useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    let isActive = true;
+    // Total cycle: 5 steps with varying durations + reset + hold
+    // We'll use a simpler interval-based approach
+    const stepDurations = [1000, 1200, 1000, 1000, 2000]; // durations for each step
+    let currentStep = 0;
+    let stepStartTime = Date.now();
+    let holdingComplete = false;
+    let holdStartTime = 0;
 
-    const sleep = (ms: number) => new Promise<void>((resolve) => {
-      setTimeout(resolve, ms);
-    });
+    const tick = () => {
+      const now = Date.now();
 
-    const runSequence = async () => {
-      while (isActive) {
-        // Reset (0.5s)
-        setActiveStep(0);
-        await sleep(500);
-        if (!isActive) return;
-
-        // Step through 1 to 5
-        for (let i = 1; i <= 5; i++) {
-          setActiveStep(i);
-          // Progress line draws (0.5s) + Step activation hold
-          // We combine them into a single state update for simplicity in React, 
-          // relying on CSS transitions for the "draw" effect.
-          await sleep(STEPS[i - 1].duration + 500);
-          if (!isActive) return;
+      if (holdingComplete) {
+        // We're in the "hold complete" phase (1 second)
+        if (now - holdStartTime >= 1000) {
+          // Reset and start over
+          currentStep = 0;
+          stepStartTime = now;
+          holdingComplete = false;
+          setActiveStep(0);
         }
+        return;
+      }
 
-        // Hold complete state (1.5s)
-        await sleep(1500);
+      if (currentStep === 0) {
+        // Brief reset pause (200ms)
+        if (now - stepStartTime >= 200) {
+          currentStep = 1;
+          stepStartTime = now;
+          setActiveStep(1);
+        }
+        return;
+      }
+
+      // Check if current step duration has elapsed
+      const currentDuration = stepDurations[currentStep - 1] || 1000;
+      if (now - stepStartTime >= currentDuration) {
+        if (currentStep < 5) {
+          currentStep++;
+          stepStartTime = now;
+          setActiveStep(currentStep);
+        } else {
+          // All steps complete, enter hold phase
+          holdingComplete = true;
+          holdStartTime = now;
+        }
       }
     };
 
-    runSequence();
+    // Start with step 1 visible immediately
+    setActiveStep(1);
+
+    // Run animation loop
+    intervalRef.current = setInterval(tick, 50);
 
     return () => {
-      isActive = false;
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
     };
   }, []);
 
@@ -55,9 +83,9 @@ export default function ProcessTimeline() {
       <div className="relative">
         {/* Progress Line Background (Gray) */}
         <div className="absolute top-1/2 left-0 w-full h-1 bg-slate-200 -translate-y-1/2 rounded-full hidden md:block" />
-        
+
         {/* Progress Line Active (Green) */}
-        <div 
+        <div
           className="absolute top-1/2 left-0 h-1 bg-green-600 -translate-y-1/2 rounded-full transition-all duration-700 ease-out hidden md:block"
           style={{ width: `${Math.max(0, (activeStep - 1) / (STEPS.length - 1) * 100)}%` }}
         />
@@ -67,26 +95,26 @@ export default function ProcessTimeline() {
           {STEPS.map((step, index) => {
             const isActive = activeStep >= step.id;
             const isCurrent = activeStep === step.id;
-            
+
             return (
               <div key={step.id} className="flex flex-col items-center gap-2 md:gap-4 w-full md:w-auto">
                 {/* Icon Circle */}
-                <div 
+                <div
                   className={`
                     relative flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full border-2 transition-all duration-500 ease-out shrink-0
-                    ${isActive 
-                      ? 'bg-green-600 border-green-600 shadow-lg shadow-green-200 scale-110' 
+                    ${isActive
+                      ? 'bg-green-600 border-green-600 shadow-lg shadow-green-200 scale-110'
                       : 'bg-white border-slate-200 text-slate-400 scale-100'}
                   `}
                 >
-                  <step.icon 
+                  <step.icon
                     className={`
                       w-5 h-5 md:w-7 md:h-7 transition-all duration-500
                       ${isActive ? 'text-white' : 'text-slate-400'}
                       ${isCurrent ? 'animate-bounce-subtle' : ''}
-                    `} 
+                    `}
                   />
-                  
+
                   {/* Current Step Pulse Ring */}
                   {isCurrent && (
                     <div className="absolute inset-0 rounded-full border-2 border-green-600 animate-ping opacity-20" />
@@ -108,7 +136,7 @@ export default function ProcessTimeline() {
                     Step {step.id}
                   </p>
                 </div>
-                
+
                 {/* Mobile Connector Line - Hidden since we use centered column layout */}
               </div>
             );

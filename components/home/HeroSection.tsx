@@ -7,50 +7,50 @@ import ProcessTimeline from "./ProcessTimeline";
 
 export default function HeroSection() {
   return (
-    <section className="relative pt-16 pb-20 lg:pt-28 lg:pb-28 overflow-hidden bg-white">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-28 overflow-hidden bg-white">
       {/* Background: Subtle Grid Pattern Only */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] mask-image-[radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
       </div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
-        
+
         <div className="space-y-8 lg:space-y-10">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900">
               Your Direct Line to <br className="hidden md:block" />
-              <span className="text-green-600">
+              <span className="relative inline-block bg-gradient-to-br from-green-600 via-green-700 to-green-900 bg-clip-text text-transparent [filter:drop-shadow(0_1px_1px_rgba(255,255,255,0.5))_drop-shadow(0_2px_4px_rgba(0,0,0,0.2))] pb-1">
                 50+ Wholesale Lenders
               </span>
             </h1>
 
             <div className="max-w-3xl mx-auto">
-                <p className="text-2xl text-slate-700 font-medium mb-4">
+              <p className="text-2xl text-slate-700 font-medium mb-4">
                 Mo Abdel | Sr. Mortgage Broker | Lumin Lending
-                </p>
-                <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
+              </p>
+              <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
                 Skip the bank. We access 50+ wholesale lenders to find you lower rates, faster approvals, and zero bureaucratic headaches.
-                </p>
+              </p>
             </div>
 
             {/* Premium Trust Indicators */}
             <div className="pt-2">
-                <div className="inline-flex flex-wrap justify-center gap-3 md:gap-8 text-sm font-medium text-slate-600 bg-slate-50/50 rounded-full px-6 py-3 border border-slate-200/50 backdrop-blur-sm">
-                    <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600" />
-                        <span>NMLS #1426884</span>
-                    </div>
-                    <div className="hidden md:block w-px h-4 bg-slate-300" />
-                    <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600" />
-                        <span>Company NMLS #2716106</span>
-                    </div>
-                    <div className="hidden md:block w-px h-4 bg-slate-300" />
-                    <div className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600" />
-                        <span>DRE #02291443</span>
-                    </div>
+              <div className="inline-flex flex-wrap justify-center gap-3 md:gap-8 text-sm font-medium text-slate-600 bg-slate-50/50 rounded-full px-6 py-3 border border-slate-200/50 backdrop-blur-sm">
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-green-600" />
+                  <span>NMLS #1426884</span>
                 </div>
+                <div className="hidden md:block w-px h-4 bg-slate-300" />
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-green-600" />
+                  <span>Company NMLS #2716106</span>
+                </div>
+                <div className="hidden md:block w-px h-4 bg-slate-300" />
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-green-600" />
+                  <span>DRE #02291443</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ export default function HeroSection() {
               </Button>
             </a>
           </div>
-          
+
           <p className="text-xs text-slate-400 font-medium">
             No credit check required for initial quote • Fast response times
           </p>

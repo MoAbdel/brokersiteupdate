@@ -6,7 +6,14 @@ import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 import SupportBubble from '@/components/SupportBubble';
 
 export default function MobileStickyCallButton() {
+  // Force recompile to fix hydration mismatch
   const { trackPhoneCall } = useFacebookTracking();
+
+  const [isMounted, setIsMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   return (
     <>
@@ -38,8 +45,8 @@ export default function MobileStickyCallButton() {
         </div>
       </div>
 
-      {/* Desktop - Support Bubble */}
-      <SupportBubble />
+      {/* Desktop - Support Bubble - Client Only */}
+      {isMounted && <SupportBubble />}
     </>
   );
 }
