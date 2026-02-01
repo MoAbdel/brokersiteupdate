@@ -1,10 +1,40 @@
-# Geo-Targeted Post Templates
+# Geo-Targeted Post Templates (3,250-4,000 Words)
+
+## Geo Page Structure: AI-First Answer Stack + Local Differentiation
+
+All geo pages follow the standard 7-section structure with mandatory local content:
+
+```
+1. Citation Hook (with city name)        50-75 words
+2. Bing Power Block (local keywords)   600-800 words
+3. Google E-E-A-T Narrative            1,200-1,500 words
+4. Data & Comparison Hub               400-500 words
+5. People Also Ask Section             400-500 words
+6. Extended FAQ                        400-500 words
+7. Expert Summary + CTA                150-200 words
+─────────────────────────────────────────────────────────────
+TOTAL                                3,250-4,075 words
+
+PLUS: 800-1,000 words of UNIQUE local content distributed across sections
+```
+
+## CRITICAL: Topic Angle Requirement
+
+**Before generating any geo page, consult `city-topic-matrix.md` for:**
+- Primary topic angle for this city
+- Secondary focus areas
+- Target borrower profile
+- Unique content requirements
+
+Each city has a specific angle to prevent duplicate content across geo pages.
+
+---
 
 ## Template: HECM Geo Post (Seniors 62+)
 
 **Title Pattern:** Reverse Mortgage in [City], [State]: HECM Guide for Seniors [2026]
 **URL Pattern:** /blog/reverse-mortgage-[city-slug]-[year]/
-**Word Count:** 1,500-1,800
+**Word Count:** 3,250-4,000
 
 ```markdown
 ---

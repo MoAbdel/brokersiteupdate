@@ -349,22 +349,23 @@ Based on GSC query data:
 
 | File | Purpose |
 |------|---------|
-| `references/seo-aio-aeo-geo-guidelines.md` | 2026 optimization requirements |
-| `references/pillar-templates.md` | Templates for HECM/Equity pillar pages |
-| `references/cluster-templates.md` | Templates for HECM/Equity cluster posts |
-| `references/geo-templates.md` | Templates for city-specific posts |
+| `references/seo-aio-aeo-geo-guidelines.md` | 2026 Bing/Google/AI optimization requirements |
+| `references/pillar-templates.md` | Templates for HECM/Equity pillar pages (5,000-6,000 words) |
+| `references/cluster-templates.md` | Templates for HECM/Equity cluster posts (3,250-4,000 words) |
+| `references/geo-templates.md` | Templates for city-specific posts (3,250-4,000 words) |
+| `references/city-topic-matrix.md` | **NEW:** City/topic rotation for geo differentiation |
 | `references/keyword-matrix.md` | Complete keyword strategy |
 | `references/california-cities.md` | 50 CA affluent cities |
 | `references/washington-cities.md` | 25 WA affluent cities |
 | `references/compliance-rules.md` | Legal/regulatory requirements |
-| `references/wholesale-pillar-template.md` | **NEW:** Wholesale CA pillar template |
-| `references/wholesale-cluster-templates.md` | **NEW:** 7 wholesale cluster templates |
-| `references/wholesale-geo-templates.md` | **NEW:** County/city page templates |
-| `references/wholesale-zip-templates.md` | **NEW:** Affluent zip page template |
-| `references/orange-county-affluent-zips.md` | **NEW:** 30 OC affluent zips |
-| `references/california-affluent-zips.md` | **NEW:** 150+ CA affluent zips |
-| `references/washington-affluent-zips.md` | **NEW:** 50+ WA affluent zips |
-| `assets/schema-templates.json` | JSON-LD templates |
+| `references/wholesale-pillar-template.md` | Wholesale CA pillar template |
+| `references/wholesale-cluster-templates.md` | 7 wholesale cluster templates |
+| `references/wholesale-geo-templates.md` | County/city page templates |
+| `references/wholesale-zip-templates.md` | Affluent zip page template (3,250-4,000 words) |
+| `references/orange-county-affluent-zips.md` | 30 OC affluent zips |
+| `references/california-affluent-zips.md` | 150+ CA affluent zips |
+| `references/washington-affluent-zips.md` | 50+ WA affluent zips |
+| `assets/schema-templates.json` | Enhanced JSON-LD templates (Article, FAQ, Speakable, LocalBusiness) |
 
 ## Output Format
 
@@ -372,48 +373,162 @@ Every generated post outputs:
 
 ```markdown
 ---
-title: "[Title]"
-meta_description: "[150-160 chars, keyword in first 60]"
-primary_keyword: "[keyword]"
-secondary_keywords: ["kw1", "kw2", "kw3"]
+title: "[Title with primary keyword]"
+meta_description: "[155-160 chars, keyword in first 60]"
+primary_keyword: "[exact-match keyword]"
+secondary_keywords: ["kw1", "kw2", "kw3", "kw4", "kw5"]
 track: "[HECM|Equity|Wholesale]"
 content_type: "[pillar|cluster|geo|county|city|zip]"
-target_city: "[City or null]"
-target_zip: "[Zip or null]"
-target_state: "[CA|WA or null]"
-word_count: [number]
+target_location: "[City, State or Zip]"
+topic_angle: "[Unique angle for geo pages]"
+word_count: [3250-4000]
 date_generated: "[YYYY-MM-DD]"
 url_slug: "[slug]"
+schema_types: ["Article", "FAQPage", "Speakable", ...]
+bing_optimized: true
+google_optimized: true
+ai_citation_ready: true
 ---
+
+<!-- CITATION HOOK -->
+<div class="citation-hook">
+[50-75 word attributed opening - "According to Mo Abdel, NMLS #1426884..."]
+</div>
 
 # [H1 with exact-match keyword]
 
-[Direct answer first paragraph - 2-4 sentences, fact-dense, extractable]
+<!-- BING POWER BLOCK -->
+## [Exact-match H2 - e.g., "What Is [Primary Keyword]?"]
 
-[Content sections with H2/H3 as questions...]
+[Fact-dense content with comparison table...]
 
+| Feature | Option A | Option B | Option C |
+|---------|----------|----------|----------|
+| ... | ... | ... | ... |
+
+## [Exact-match H2 - e.g., "[Primary Keyword] Requirements 2026"]
+
+[Content with numbered list...]
+
+1. **Step/Requirement 1** — Explanation
+2. **Step/Requirement 2** — Explanation
+[...5-7 items...]
+
+<!-- GOOGLE E-E-A-T NARRATIVE -->
+## [Natural language question H2]
+
+[Experience-rich content with markers like "In our Orange County closings..."]
+
+## [Natural language question H2]
+
+[Scenario-based content with internal/external links...]
+
+## [Natural language question H2]
+
+[Expert insights and analysis...]
+
+## [Natural language question H2]
+
+[Additional depth with experience markers...]
+
+<!-- DATA & COMPARISON HUB -->
+## [Data-focused H2 - e.g., "[Topic] Costs and Comparison"]
+
+[Tables, statistics, 2026 market data...]
+
+| Comparison Point | Product A | Product B |
+|------------------|-----------|-----------|
+| ... | ... | ... |
+
+<!-- PEOPLE ALSO ASK -->
+## People Also Ask About [Topic]
+
+### [PAA Question 1 - Informational]
+**[≤29 word direct answer in bold]**
+[50-75 word expansion...]
+
+### [PAA Question 2]
+**[≤29 word answer]**
+[Expansion...]
+
+[...6-8 total questions...]
+
+<!-- EXTENDED FAQ -->
 ## Frequently Asked Questions
 
-[FAQ section with 5-7 questions...]
+### [FAQ Question 1 - Decision/Transactional]
+[40-60 word answer, action-oriented...]
+
+### [FAQ Question 2]
+[Answer...]
+
+[...10-12 total questions...]
+
+<!-- EXPERT SUMMARY -->
+<div class="expert-summary">
+## Ready to [Action]? Get Expert Guidance
+
+[Quotable closing paragraph - 2-3 sentences summarizing key takeaway]
+
+**Contact Mo Abdel today** for a personalized [consultation/analysis/quote].
+</div>
 
 ---
 **Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
 Licensed in: CA, WA
 
-Equal Housing Lender. All loans subject to credit approval...
+Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
 ---
 
 ## Schema Markup
-[JSON-LD block]
+
+[Article Schema - Enhanced for Bing]
+[FAQPage Schema - 10-12 questions]
+[Speakable Schema - citation-hook, paa-answers, expert-summary]
+[LocalBusiness Schema - for geo pages only]
 
 ## Social Meta Tags
-[OG tags block]
+
+<meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[Title]">
+<meta property="og:description" content="[Meta Description]">
+<meta property="og:url" content="https://mothebroker.com/blog/[slug]">
+<meta property="article:author" content="Mo Abdel">
+<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:published_time" content="[ISO_DATE]">
+<meta property="article:modified_time" content="[ISO_DATE]">
+<meta name="author" content="Mo Abdel, NMLS #1426884">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[Title]">
+<meta name="twitter:description" content="[Meta Description]">
 
 ## Internal Links
-[3-5 suggested internal links]
+
+[8-10 suggested internal links with anchor text]
 
 ## Submission Commands
-[Bing/IndexNow submission commands]
+
+```bash
+# IndexNow (instant Bing indexing)
+curl -X POST "https://api.indexnow.org/indexnow" \
+  -H "Content-Type: application/json" \
+  -d '{"host":"mothebroker.com","key":"[KEY]","urlList":["https://mothebroker.com/blog/[slug]"]}'
+
+# Google Search Console - Submit via GSC API or manual URL inspection
+```
+
+## Validation Output
+
+✓ WORD COUNT: [X] words [PASS/FAIL]
+✓ BING OPTIMIZATION: X/8 requirements [PASS/FAIL]
+✓ GOOGLE OPTIMIZATION: X/6 requirements [PASS/FAIL]
+✓ AI CITATION: X/5 requirements [PASS/FAIL]
+✓ DATA POINTS: X unique points [PASS/FAIL]
+✓ GEO DIFFERENTIATION: [Status] [PASS/FAIL if geo page]
+✓ COMPLIANCE: All items cleared [PASS/FAIL]
+
+STATUS: [READY FOR PUBLICATION / NEEDS REVISION]
 ```
 
 ## Compliance Gate
@@ -435,35 +550,146 @@ Equal Housing Lender. All loans subject to credit approval...
 
 See `references/compliance-rules.md` for complete requirements.
 
-## SEO/GEO/AIO/AEO Checklist
+## Pre-Output Quality Gates
 
-Every post must include:
+**ALL gates must pass before content output:**
 
-**SEO:**
-- [ ] Primary keyword in H1
-- [ ] Primary keyword in first 100 words
-- [ ] Exact-match keyword in 2+ H2s
-- [ ] Meta description with keyword in first 60 chars
-- [ ] 3-5 internal links minimum
+### Word Count Gate
+- [ ] Total word count: 3,250-4,000 (clusters/geo/city/zip)
+- [ ] Total word count: 5,000-6,000 (pillars)
+- [ ] Citation Hook: 50-75 words
+- [ ] Bing Power Block: 600-800 words
+- [ ] E-E-A-T Narrative: 1,200-1,500 words
+- [ ] Data Hub: 400-500 words
+- [ ] PAA Section: 400-500 words (6-8 questions)
+- [ ] Extended FAQ: 400-500 words (10-12 questions)
+- [ ] Expert Summary: 150-200 words
 
-**AIO/AEO:**
-- [ ] Direct answer in first paragraph
-- [ ] FAQ section with schema markup
-- [ ] Natural language H2/H3 headings (questions)
-- [ ] Tables/lists for comparison content
+### Bing Gate
+- [ ] Primary keyword in H1 (exact match)
+- [ ] Primary keyword in first 50 words
+- [ ] Primary keyword in 3+ H2 headings
+- [ ] 2+ comparison tables included
+- [ ] 2+ numbered lists included
+- [ ] No collapsed/accordion content
+- [ ] Bing schema properties included
+- [ ] Social meta tags complete
 
-**GEO:**
-- [ ] Entity-rich content (Mo Abdel, Lumin Lending, NMLS)
-- [ ] Citation patterns ("According to Mo Abdel...")
-- [ ] First 150 chars fact-dense and extractable
-- [ ] Numbered lists for procedural content
+### Google Gate
+- [ ] E-E-A-T experience markers (4+ instances)
+- [ ] Natural language H2 questions (4+ sections)
+- [ ] External authority links (2-3)
+- [ ] Internal links (5-8 minimum)
+- [ ] FAQPage schema markup complete
+- [ ] Author credentials visible
+- [ ] Semantic keyword variations used
 
-**Bing/ChatGPT:**
-- [ ] Desktop-first content (no collapsed sections)
-- [ ] Social meta tags included
-- [ ] Bing schema properties (copyrightHolder, significantLink)
+### AI Citation Gate
+- [ ] Citation Hook is standalone/extractable
+- [ ] Entity mentions: Mo Abdel (4-6x), NMLS (2-3x)
+- [ ] Speakable schema on key sections
+- [ ] ≤29 word answers in PAA section
+- [ ] Quotable expert summary paragraph
+- [ ] Data points with source attribution
+
+### Data Gate
+- [ ] Minimum 6 unique data points
+- [ ] Market data included (2+ points)
+- [ ] Program specifics included (2+ points)
+- [ ] Proprietary insights included (2+ points)
+- [ ] All data is 2026-current
+- [ ] No specific rate percentages (compliance)
+
+### Geo Page Gate (city/zip only)
+- [ ] Unique topic angle applied (per city-topic-matrix.md)
+- [ ] City-specific median home value included
+- [ ] 3-5 neighborhoods mentioned
+- [ ] Local borrower profile described
+- [ ] 800+ words of unique local content
+- [ ] LocalBusiness schema included
+
+## Dual Bing/Google/AI Optimization Checklist
+
+### BING OPTIMIZATION (Stricter exact-match requirements)
+
+**Keyword Placement:**
+- [ ] Primary keyword in H1 (exact match)
+- [ ] Primary keyword in first 50 words
+- [ ] Primary keyword in 3+ H2 headings
+- [ ] Primary keyword in meta title (first 60 chars)
+- [ ] Primary keyword in meta description (first 60 chars)
+- [ ] Primary keyword in image alt text (2+ images)
+- [ ] Keyword density: 1.5-2%
+
+**Structured Content:**
+- [ ] Minimum 2 comparison tables per article
+- [ ] Minimum 2 numbered lists (5+ items each)
+- [ ] Minimum 1 bulleted list with bold lead-ins
+- [ ] No JavaScript-dependent content
+- [ ] No accordion/collapsed sections
+- [ ] All content visible without interaction
+
+**Bing Schema Properties:**
+- [ ] copyrightHolder (Lumin Lending)
+- [ ] copyrightYear (2026)
+- [ ] significantLink (HUD, CFPB, FHFA)
+- [ ] mainEntity with WebPage type
+
+**Social Signals:**
+- [ ] Full Open Graph tags
+- [ ] Twitter Card tags
+- [ ] article:author meta tag
+- [ ] article:published_time
+
+### GOOGLE OPTIMIZATION (E-E-A-T focus)
+
+**E-E-A-T Signals:**
+- [ ] Author byline with credentials (every page)
+- [ ] "Experience" markers every 300 words
+- [ ] Specific scenarios/examples (anonymized)
+- [ ] External links to .gov authority sources (2-3)
+- [ ] Internal links to related content (5-8)
+- [ ] Updated date visible on page
+
+**Content Quality:**
+- [ ] Natural language H2s (question format)
+- [ ] No keyword stuffing (density 1-1.5% for Google sections)
+- [ ] Semantic keyword variations throughout
+- [ ] Comprehensive topic coverage
+- [ ] "People Also Ask" targeting (6-8 questions)
+
+**Technical:**
+- [ ] FAQPage schema markup
+- [ ] Article schema with author
+- [ ] Speakable schema for voice
+- [ ] Mobile-responsive tables
+
+### AI CITATION OPTIMIZATION (ChatGPT, Perplexity, Google AI Overviews)
+
+**Extractability:**
+- [ ] Citation Hook is standalone (works out of context)
+- [ ] Every H2 section has extractable opening sentence
+- [ ] Expert quotes attributed with full credentials
+- [ ] Data points include source attribution
+- [ ] No ambiguous pronouns across section breaks
+
+**Entity Validation:**
+- [ ] "Mo Abdel" appears 4-6 times naturally
+- [ ] NMLS #1426884 appears 2-3 times
+- [ ] "Lumin Lending" appears 2-3 times
+- [ ] Location entities (Orange County, California, etc.)
+- [ ] Consistent NAP (Name, Address, Phone) signals
+
+### DATA REQUIREMENTS (Minimum 6 per article)
+
+| Data Type | Minimum | Placement |
+|-----------|---------|-----------|
+| Market statistics | 2 | Data Hub, Citation Hook |
+| Program specifics | 2 | Bing Power Block, FAQ |
+| Proprietary insights | 2 | E-E-A-T Narrative, Expert Summary |
 
 See `references/seo-aio-aeo-geo-guidelines.md` for complete requirements.
+See `references/city-topic-matrix.md` for geo page differentiation strategy.
 
 ## Internal Linking Strategy
 
@@ -515,16 +741,100 @@ See `references/seo-aio-aeo-geo-guidelines.md` for complete requirements.
     └─────────┘    └─────────┘    └─────────┘
 ```
 
-## Word Count Targets
+## Word Count Targets (2026 Optimized)
 
 | Content Type | Minimum | Target | Maximum |
 |--------------|---------|--------|---------|
-| Pillar (HECM/Equity) | 4,000 | 4,500 | 5,500 |
-| Pillar (Wholesale CA) | 4,500 | 5,000 | 5,500 |
+| Pillar (All tracks) | 5,000 | 5,500 | 6,000 |
 | County (Wholesale OC) | 3,500 | 4,000 | 4,500 |
-| Cluster (All tracks) | 1,800 | 2,200 | 2,800 |
-| City Geo (All tracks) | 1,500 | 1,800 | 2,200 |
-| Zip (Wholesale) | 1,200 | 1,500 | 1,800 |
+| Cluster (All tracks) | 3,250 | 3,500 | 4,000 |
+| City Geo (All tracks) | 3,250 | 3,500 | 4,000 |
+| Zip (Wholesale) | 3,250 | 3,500 | 4,000 |
+
+## Universal Article Structure: AI-First Answer Stack
+
+**All content types (except pillars) follow this 7-section structure:**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  1. CITATION HOOK (50-75 words)                             │
+│     → Direct answer, entity-attributed, AI-extractable      │
+│     → "According to Mo Abdel, NMLS #1426884..."            │
+├─────────────────────────────────────────────────────────────┤
+│  2. BING POWER BLOCK (600-800 words)                        │
+│     → Exact-match H2s, comparison table, numbered list      │
+│     → Fact-dense, desktop-optimized, no fluff               │
+├─────────────────────────────────────────────────────────────┤
+│  3. GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)           │
+│     → 4-5 H2 sections with natural language questions       │
+│     → Experience markers, expert insights, scenarios        │
+│     → Internal/external authority links woven in            │
+├─────────────────────────────────────────────────────────────┤
+│  4. DATA & COMPARISON HUB (400-500 words)                   │
+│     → 2-3 comparison tables (Bing loves these)              │
+│     → Local market data, 2026 statistics                    │
+│     → Unique data points AI can't hallucinate               │
+├─────────────────────────────────────────────────────────────┤
+│  5. PEOPLE ALSO ASK SECTION (400-500 words)                 │
+│     → 6-8 PAA-targeted questions with ≤29 word answers      │
+│     → Expanded explanations below each                      │
+│     → Voice search optimized                                │
+├─────────────────────────────────────────────────────────────┤
+│  6. EXTENDED FAQ (400-500 words)                            │
+│     → 10-12 questions with FAQPage schema                   │
+│     → Long-tail keyword variations                          │
+│     → Conversational, natural language                      │
+├─────────────────────────────────────────────────────────────┤
+│  7. EXPERT SUMMARY + CTA (150-200 words)                    │
+│     → Quotable closing paragraph (AI citation bait)         │
+│     → Clear next steps, contact info                        │
+│     → Entity validation (Mo Abdel, NMLS, Lumin Lending)     │
+└─────────────────────────────────────────────────────────────┘
+Total: 3,250-4,075 words
+```
+
+**Pillar pages** add 1,500-2,000 additional words across expanded H2 sections.
+
+### Section Specifications
+
+**1. Citation Hook (50-75 words)**
+- Opens with "According to Mo Abdel, NMLS #1426884..." OR "[Topic] in [Location]: [Direct answer]..."
+- Contains exact-match primary keyword
+- Includes 1 specific data point (number, requirement, or limit)
+- Ends with decision-relevant statement
+
+**2. Bing Power Block (600-800 words)**
+- 2 H2 headings with exact-match keywords
+- 1 comparison table (minimum 5 rows)
+- 1 numbered list (5-7 steps or requirements)
+- Fact-dense paragraphs (no filler words)
+- Desktop-optimized (no collapsed content)
+
+**3. Google E-E-A-T Narrative (1,200-1,500 words)**
+- 4-5 H2 sections as natural language questions
+- Experience markers every 300 words ("In our Orange County closings...", "Based on Mo Abdel's experience...")
+- 2-3 internal links woven naturally
+- 1-2 external authority links (HUD, CFPB, FHFA)
+
+**4. Data & Comparison Hub (400-500 words)**
+- 2-3 comparison tables
+- Minimum 4 unique data points (market stats, program limits, rate context, local specifics)
+- Data attribution required
+
+**5. People Also Ask Section (400-500 words)**
+- 6-8 questions targeting Google PAA boxes
+- Each answer: ≤29 words (voice snippet) + 50-75 word expansion
+- Question types: Definition, Process, Comparison, Cost, Eligibility, Timing
+
+**6. Extended FAQ (400-500 words)**
+- 10-12 questions with FAQPage schema markup
+- Transactional/decision intent focus
+- 40-60 word answers, action-oriented
+
+**7. Expert Summary + CTA (150-200 words)**
+- Quotable closing paragraph (2-3 sentences)
+- Attribution: "Mo Abdel, NMLS #1426884, Lumin Lending"
+- Clear next step (consultation, application, contact)
 
 ## Wholesale Track Positioning
 

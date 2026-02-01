@@ -1,10 +1,37 @@
-# Pillar Page Templates
+# Pillar Page Templates (5,000-6,000 Words)
+
+## Pillar Page Structure
+
+Pillar pages follow an expanded AI-First Answer Stack with additional depth:
+
+```
+1. Citation Hook                      75-100 words
+2. Bing Power Block                 800-1,000 words
+3. Google E-E-A-T Narrative       2,000-2,500 words (8-10 H2 sections)
+4. Data & Comparison Hub           600-800 words
+5. People Also Ask Section         500-600 words (8-10 questions)
+6. Extended FAQ                     600-800 words (12-15 questions)
+7. Expert Summary + CTA            200-250 words
+─────────────────────────────────────────────────────────────
+TOTAL                            5,000-6,050 words
+```
+
+### Pillar-Specific Requirements
+- Links to ALL cluster posts in that track (12-14 internal links minimum)
+- Links to 10-15 geo posts as examples
+- Cross-links to other pillars (HECM ↔ Equity ↔ Wholesale)
+- 4-5 external authority links
+- 3-4 comparison tables
+- 3+ numbered procedural lists
+- Experience markers every 250 words
+
+---
 
 ## Template 1: HECM Pillar
 
 **Title:** Complete Guide to Reverse Mortgages in California & Washington [2026]
 **URL:** /reverse-mortgages/
-**Word Count:** 4,000-5,000 words
+**Word Count:** 5,000-6,000 words
 **Primary Keyword:** reverse mortgage California
 
 ### Structure

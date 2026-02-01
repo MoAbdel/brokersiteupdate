@@ -284,9 +284,35 @@
     "speakable": {
       "@type": "SpeakableSpecification",
       "cssSelector": [
-        ".article-summary",
+        ".citation-hook",
+        ".paa-answer",
+        ".expert-summary"
+      ]
+    },
+    "_comment": "Updated for AI-First Answer Stack structure. Mark Citation Hook, PAA answers, and Expert Summary as speakable for voice search and AI extraction."
+  },
+
+  "speakableEnhanced": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "[TITLE]",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+        ".citation-hook",
+        ".paa-answer",
+        ".expert-summary",
         ".faq-answer"
       ]
+    },
+    "mainEntity": {
+      "@type": "Article",
+      "headline": "[TITLE]",
+      "author": {
+        "@type": "Person",
+        "name": "Mo Abdel",
+        "identifier": "NMLS #1426884"
+      }
     }
   },
 
@@ -309,12 +335,34 @@
   },
 
   "_usage": {
-    "pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumb", "speakable"],
-    "pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumb", "speakable"],
-    "cluster_hecm": ["articleHECM", "faqPage", "breadcrumb"],
-    "cluster_equity": ["articleEquity", "faqPage", "breadcrumb"],
-    "geo_hecm": ["articleHECM", "faqPage", "localBusinessGeo", "breadcrumb"],
-    "geo_equity": ["articleEquity", "faqPage", "localBusinessGeo", "breadcrumb"],
-    "howto_posts": ["howTo", "article", "breadcrumb"]
+    "_comment": "Updated for 3,250-4,000 word AI-First Answer Stack structure with enhanced speakable schema",
+    "pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "pillar_wholesale": ["article", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "cluster_hecm": ["articleHECM", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "cluster_equity": ["articleEquity", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "cluster_wholesale": ["article", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "geo_hecm": ["articleHECM", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "geo_equity": ["articleEquity", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "geo_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "city_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "zip_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "howto_posts": ["howTo", "article", "breadcrumb", "speakable"]
+  },
+
+  "_schemaRequirements": {
+    "_comment": "Minimum schema requirements per content type for 2026 Bing/Google/AI optimization",
+    "all_content": {
+      "required": ["Article (with Bing properties)", "FAQPage (10-12 questions)", "Speakable"],
+      "bingProperties": ["copyrightHolder", "copyrightYear", "significantLink", "mainEntity"],
+      "speakableSections": [".citation-hook", ".paa-answer", ".expert-summary"]
+    },
+    "geo_content": {
+      "additional": ["LocalBusiness with areaServed"],
+      "note": "LocalBusinessGeo must include specific city/zip in areaServed"
+    },
+    "pillar_content": {
+      "additional": ["LocalBusiness (general)", "HowTo (for process sections)"]
+    }
   }
 }

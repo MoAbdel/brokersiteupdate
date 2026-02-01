@@ -1,49 +1,200 @@
-# Cluster Post Templates
+# Cluster Post Templates (3,250-4,000 Words)
+
+## AI-First Answer Stack Structure
+
+All cluster posts follow this 7-section structure:
+
+```
+1. Citation Hook                    50-75 words
+2. Bing Power Block               600-800 words
+3. Google E-E-A-T Narrative    1,200-1,500 words
+4. Data & Comparison Hub         400-500 words
+5. People Also Ask Section       400-500 words
+6. Extended FAQ                   400-500 words
+7. Expert Summary + CTA          150-200 words
+─────────────────────────────────────────────────
+TOTAL                          3,250-4,075 words
+```
+
+---
 
 ## HECM Cluster Templates
 
 ### Template: HECM Basics
 **Target Keyword:** what is a reverse mortgage
-**Word Count:** 1,800-2,200
+**Word Count:** 3,250-4,000
 
 ```markdown
+---
+title: "What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]"
+meta_description: "What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,149,825, eligibility requirements, and pros/cons. NMLS #1426884."
+primary_keyword: "what is a reverse mortgage"
+secondary_keywords: ["HECM loan", "reverse mortgage for seniors", "reverse mortgage requirements", "how reverse mortgages work", "reverse mortgage 2026"]
+track: "HECM"
+content_type: "cluster"
+word_count: 3500
+---
+
+<!-- CITATION HOOK (50-75 words) -->
+<div class="citation-hook">
+According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to $1,149,825 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying.
+</div>
+
 # What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]
 
-A reverse mortgage allows homeowners 62 and older to convert home equity into
-cash without making monthly mortgage payments. The most common type—HECM (Home
-Equity Conversion Mortgage)—is FHA-insured with a 2026 lending limit of $1,149,825.
-Unlike traditional mortgages, the loan balance grows over time and is repaid when
-the borrower sells, moves, or passes away.
+<!-- BING POWER BLOCK (600-800 words) -->
 
-## How Does a Reverse Mortgage Work?
+## What Is a Reverse Mortgage and How Does It Work?
 
-[Mechanics explanation - 250-300 words]
+[Exact-match H2 - comprehensive definition with mechanics]
+- Define HECM (Home Equity Conversion Mortgage)
+- FHA insurance protection
+- Non-recourse loan explanation
+- How equity is accessed
+- 250-300 words
 
-## Who Can Get a Reverse Mortgage?
+### Reverse Mortgage Requirements at a Glance
 
-[Eligibility - 200-250 words]
+| Requirement | Details |
+|-------------|---------|
+| Minimum Age | 62 years old (youngest borrower) |
+| Property Type | Primary residence (single-family, 2-4 unit, FHA-approved condo, manufactured home) |
+| Equity Required | Generally 50%+ (varies by age and rates) |
+| Counseling | HUD-approved counseling mandatory |
+| Financial Assessment | Income, credit, property charges reviewed |
+| 2026 FHA Limit | $1,149,825 |
 
-## Reverse Mortgage vs Traditional Mortgage
+## What Is a Reverse Mortgage Eligibility Checklist?
 
-[Comparison table and explanation - 250-300 words]
+[Second exact-match H2 variation]
 
-## Types of Reverse Mortgages
+**Eligibility requirements in numbered list:**
+1. **Age 62 or older** — Youngest borrower on title must be 62+
+2. **Own your home** — Must be primary residence with sufficient equity
+3. **Complete HUD counseling** — Required session with approved counselor
+4. **Pass financial assessment** — Demonstrate ability to pay property taxes, insurance, HOA
+5. **Property standards** — Home must meet FHA minimum property requirements
+6. **No federal debt** — Cannot be delinquent on federal debt
 
-[HECM, proprietary, single-purpose - 300-350 words]
+[200-250 words expanding on requirements]
 
-## How Is a Reverse Mortgage Repaid?
+<!-- GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words) -->
 
-[Repayment triggers and process - 200-250 words]
+## How Does a Reverse Mortgage Actually Work?
 
-## Is a Reverse Mortgage Right for You?
+[Natural language H2 - detailed mechanics]
+- Experience marker: "In our Orange County HECM closings, we've observed..."
+- Step-by-step process explanation
+- Internal link to HECM process cluster
+- 300-350 words
 
-[Decision framework - 200-250 words]
+## Why Do Seniors Choose Reverse Mortgages?
+
+[Natural language H2 - use cases and scenarios]
+- Experience marker: "Based on Mo Abdel's experience with California seniors..."
+- Common scenarios (supplement retirement, eliminate mortgage payment, home improvements)
+- Internal link to HECM pros/cons cluster
+- 300-350 words
+
+## What Happens to Your Home with a Reverse Mortgage?
+
+[Natural language H2 - ownership and inheritance]
+- You retain title and ownership
+- Heirs' options explained
+- Non-recourse protection
+- Experience marker: "A recent client scenario illustrates..."
+- External link to HUD.gov
+- 250-300 words
+
+## When Should You Consider a Reverse Mortgage?
+
+[Natural language H2 - decision framework]
+- Ideal candidate profiles
+- Warning signs it's not right for you
+- Alternative options comparison
+- Internal link to HECM alternatives cluster
+- 250-300 words
+
+<!-- DATA & COMPARISON HUB (400-500 words) -->
+
+## Reverse Mortgage vs Other Senior Financing Options
+
+### Comparison Table: Reverse Mortgage vs HELOC vs Home Equity Loan
+
+| Feature | Reverse Mortgage (HECM) | HELOC | Home Equity Loan |
+|---------|------------------------|-------|------------------|
+| Age Requirement | 62+ | None | None |
+| Monthly Payments | None required | Required | Required |
+| Interest Rates | Higher | Variable (lower) | Fixed |
+| Credit Line Growth | Yes (unused portion grows) | No | N/A |
+| Upfront Costs | Higher (MIP, origination) | Lower | Lower |
+| Repayment Trigger | Move, sell, or death | Monthly from start | Monthly from start |
+| Maximum Amount | Up to $1,149,825 (2026) | Varies by lender | Varies by lender |
+
+### 2026 HECM Market Data
+
+[Include 4+ unique data points]
+- Current FHA lending limit
+- Average principal limit factors by age
+- California/Washington market specifics
+- Program statistics
+
+<!-- PEOPLE ALSO ASK SECTION (400-500 words) -->
+
+## People Also Ask About Reverse Mortgages
+
+### What is a reverse mortgage in simple terms?
+**A reverse mortgage lets homeowners 62+ borrow against home equity without monthly payments; the loan is repaid when you sell, move, or pass away.**
+A reverse mortgage essentially works in the opposite direction of a traditional mortgage. Instead of making payments to a lender, the lender pays you based on your home's equity...
+
+### How much money can you get from a reverse mortgage?
+**The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825; older borrowers typically qualify for more.**
+Your "principal limit" is calculated using FHA's Principal Limit Factor (PLF) tables...
+
+### Do you have to pay back a reverse mortgage?
+**Yes, but not with monthly payments—the loan is repaid when you sell, permanently move out, or pass away, typically from the home's sale proceeds.**
+The loan balance grows over time as interest accrues...
+
+### Can you lose your home with a reverse mortgage?
+**You can't be forced out as long as you live in the home, pay property taxes, maintain insurance, and keep the property maintained.**
+Reverse mortgages are "non-recourse" loans...
+
+### What is the downside of a reverse mortgage?
+**Higher upfront costs (including mortgage insurance), reduced inheritance for heirs, and the loan balance grows over time reducing available equity.**
+While reverse mortgages offer valuable benefits...
+
+### Is a reverse mortgage a good idea in 2026?
+**It depends on your goals—reverse mortgages work well for seniors who plan to age in place and need supplemental income, but not for those planning to move soon.**
+Based on Mo Abdel's experience...
+
+<!-- EXTENDED FAQ (400-500 words, 10-12 questions) -->
 
 ## Frequently Asked Questions
 
-[5-7 FAQs]
+### Can I get a reverse mortgage if I still have a mortgage?
+Yes, but your existing mortgage must be paid off first—typically using proceeds from the reverse mortgage...
 
-[Footer with disclosures]
+### What credit score do I need for a reverse mortgage?
+There's no minimum credit score requirement, but lenders review your credit history during the financial assessment...
+
+[Continue with 8-10 more decision-focused FAQs]
+
+<!-- EXPERT SUMMARY + CTA (150-200 words) -->
+
+<div class="expert-summary">
+## Ready to Explore Your Reverse Mortgage Options?
+
+A reverse mortgage can be a powerful tool for seniors 62+ seeking to access home equity without monthly payments. As Mo Abdel, NMLS #1426884, advises: "The key is understanding whether a HECM aligns with your long-term goals. For seniors planning to age in place with equity to tap, it's often an excellent solution—but it's not right for everyone."
+
+**Contact Mo Abdel today** for a personalized reverse mortgage assessment. We'll review your eligibility, calculate your potential proceeds, and compare all your options—including alternatives that might better fit your situation.
+</div>
+
+---
+**Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
+Licensed in: CA, WA
+
+Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. HECM counseling required by HUD before application.
+---
 ```
 
 ---
@@ -389,18 +540,61 @@ lump sum with simpler payments.
 
 ---
 
-## Common Elements for All Cluster Posts
+## Common Elements for All Cluster Posts (3,250-4,000 Words)
 
-### Opening Paragraph Formula
-1. Direct definition/answer (1 sentence)
-2. Key requirement or number (1 sentence)
-3. Decision guidance (1-2 sentences)
+### Section Word Count Requirements
 
-### FAQ Section
-- 5-7 questions minimum
-- Questions in natural language
-- Answers 2-4 sentences
-- Include FAQPage schema
+| Section | Word Count | Purpose |
+|---------|------------|---------|
+| Citation Hook | 50-75 | AI extraction, featured snippet |
+| Bing Power Block | 600-800 | Bing ranking, exact-match keywords |
+| E-E-A-T Narrative | 1,200-1,500 | Google quality signals |
+| Data & Comparison Hub | 400-500 | Unique value, tables |
+| People Also Ask | 400-500 | PAA box capture, voice |
+| Extended FAQ | 400-500 | Long-tail, decision stage |
+| Expert Summary + CTA | 150-200 | Citation bait, conversion |
+
+### Citation Hook Formula
+```
+According to Mo Abdel, NMLS #1426884, [direct answer to query].
+[Specific number/requirement/limit]. [Decision-relevant statement].
+```
+
+### Bing Power Block Requirements
+- 2 H2 headings with exact-match keyword
+- 1 comparison table (minimum 5 rows)
+- 1 numbered list (5-7 items with bold lead-ins)
+- Keyword density: 1.5-2%
+
+### E-E-A-T Narrative Requirements
+- 4-5 H2 sections as natural language questions
+- Experience marker every 300 words:
+  - "In our Orange County closings..."
+  - "Based on Mo Abdel's experience..."
+  - "A recent client scenario illustrates..."
+- 2-3 internal links woven naturally
+- 1-2 external authority links (HUD, CFPB, FHFA)
+
+### People Also Ask Section
+- 6-8 questions targeting Google PAA boxes
+- Format per question:
+  ```
+  ### [Question]
+  **[≤29 word direct answer in bold]**
+  [50-75 word expansion]
+  ```
+- Question types: Definition, Process, Comparison, Cost, Eligibility, Timing
+
+### Extended FAQ Section
+- 10-12 questions with FAQPage schema
+- Transactional/decision intent focus
+- 40-60 word answers, action-oriented
+- Question types: "Can I...", "Should I...", "What happens if...", "How long..."
+
+### Data Requirements (Minimum 6 per post)
+- 2 market statistics
+- 2 program specifics (limits, rates, requirements)
+- 2 proprietary insights (experience-based observations)
 
 ### Footer (Required)
 ```markdown
@@ -416,8 +610,25 @@ personalized guidance.
 ---
 ```
 
-### Internal Links (5-8 per post)
-- Link to pillar page
-- Link to 2-3 related clusters
-- Link to 1-2 geo posts
+### Internal Links (8-10 per post)
+- Link to pillar page (mandatory)
+- Link to 3-4 related clusters
+- Link to 2-3 geo posts as examples
 - Link to /contact or /apply
+- Cross-track link where relevant (HECM ↔ Equity)
+
+### External Authority Links (2-3 per post)
+**HECM Posts:**
+- https://www.hud.gov/program_offices/housing/sfh/hecm
+- https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/
+- https://www.nrmlaonline.org/
+
+**Equity Posts:**
+- https://www.consumerfinance.gov/owning-a-home/
+- https://www.fhfa.gov/
+- https://www.federalreserve.gov/
+
+### Schema Requirements
+- Article schema (enhanced with Bing properties)
+- FAQPage schema (10-12 questions)
+- Speakable schema (citation-hook, paa-answers, expert-summary)

@@ -1,14 +1,44 @@
-# SEO/AIO/AEO/GEO Guidelines 2026
+# SEO/AIO/AEO/GEO Guidelines 2026 — Bing + Google + AI Optimization
 
-## Tripartite Framework
+## Quadripartite Framework
 
-Optimize every post for three discovery channels:
+Optimize every post for four discovery channels:
 
-| Channel | Purpose | Primary Tactic |
-|---------|---------|----------------|
-| **SEO** | Organic traffic | Keywords, structure, links |
-| **AEO** | Featured snippets & voice | FAQ, direct answers, lists |
-| **GEO** | AI synthesis & citations | Entities, attribution, RAG-ready |
+| Channel | Purpose | Primary Tactic | Priority |
+|---------|---------|----------------|----------|
+| **Bing** | Search + ChatGPT/Copilot | Exact-match, tables, schema | Equal |
+| **Google** | Search + AI Overviews | E-E-A-T, natural language | Equal |
+| **AEO** | Featured snippets & voice | FAQ, PAA, ≤29 word answers | High |
+| **GEO** | AI synthesis & citations | Entities, attribution, RAG-ready | High |
+
+## Content Structure: AI-First Answer Stack
+
+**All articles (3,250-4,000 words) follow this structure:**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  1. CITATION HOOK (50-75 words)                             │
+│     Purpose: AI extraction, featured snippet capture        │
+├─────────────────────────────────────────────────────────────┤
+│  2. BING POWER BLOCK (600-800 words)                        │
+│     Purpose: Bing ranking, structured data extraction       │
+├─────────────────────────────────────────────────────────────┤
+│  3. GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)           │
+│     Purpose: Experience/expertise signals, engagement       │
+├─────────────────────────────────────────────────────────────┤
+│  4. DATA & COMPARISON HUB (400-500 words)                   │
+│     Purpose: Unique value, AI-proof content, tables         │
+├─────────────────────────────────────────────────────────────┤
+│  5. PEOPLE ALSO ASK SECTION (400-500 words)                 │
+│     Purpose: PAA box capture, voice search, awareness       │
+├─────────────────────────────────────────────────────────────┤
+│  6. EXTENDED FAQ (400-500 words)                            │
+│     Purpose: Decision-stage capture, long-tail, schema      │
+├─────────────────────────────────────────────────────────────┤
+│  7. EXPERT SUMMARY + CTA (150-200 words)                    │
+│     Purpose: AI citation bait, conversion, entity validation│
+└─────────────────────────────────────────────────────────────┘
+```
 
 ## Content Structure (Inverted Pyramid)
 
@@ -198,7 +228,37 @@ Mo Abdel
 - Lists and tables for structured data
 - No ambiguous pronouns across sections
 
-## Bing/ChatGPT Optimization
+## Bing Optimization (Critical for ChatGPT/Copilot)
+
+### Why Bing Matters in 2026
+- Powers ChatGPT's browsing feature
+- Powers Microsoft Copilot
+- Different algorithm than Google (rewards exact-match more)
+- Social signals factor into ranking
+
+### Bing Power Block Requirements (600-800 words)
+
+**Exact-Match Keyword Placement (Stricter than Google):**
+| Location | Required | Notes |
+|----------|----------|-------|
+| H1 title | Yes | Exact match, front-loaded |
+| First 50 words | Yes | Within Citation Hook |
+| 3+ H2 headings | Yes | Exact match in at least 3 |
+| Meta title | Yes | First 60 characters |
+| Meta description | Yes | First 60 characters |
+| Image alt text | Yes | At least 2 images |
+| URL slug | Yes | Hyphenated keyword |
+
+**Keyword Density:** 1.5-2% (slightly higher than Google)
+
+### Structured Content (Bing Rewards Heavily)
+- Minimum 2 comparison tables per article
+- Minimum 2 numbered lists (5+ items each)
+- Minimum 1 bulleted list with bold lead-ins
+- No JavaScript-dependent content
+- No accordion/collapsed sections
+- All content visible without user interaction
+- Tables render without horizontal scroll
 
 ### Desktop-First Content
 - NO JavaScript-dependent content
@@ -207,7 +267,7 @@ Mo Abdel
 - All FAQ answers visible (not collapsed)
 - Images: minimum 800px width for hero
 
-### Social Meta Tags (Required)
+### Social Meta Tags (Bing weighs these)
 ```html
 <meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
 <meta property="og:type" content="article">
@@ -219,6 +279,9 @@ Mo Abdel
 <meta property="article:published_time" content="[ISO_DATE]">
 <meta property="article:modified_time" content="[ISO_DATE]">
 <meta name="author" content="Mo Abdel, NMLS #1426884">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[Title]">
+<meta name="twitter:description" content="[Meta Description]">
 ```
 
 ### Bing Schema Properties
@@ -248,8 +311,9 @@ Opening must be fact-dense and extractable:
 
 **Good:**
 ```
-In 2026, California HECM borrowers can access up to $1,149,825 in home equity.
-Reverse mortgages require age 62+, HUD counseling, and sufficient equity.
+According to Mo Abdel, NMLS #1426884, California HECM borrowers can access up to
+$1,149,825 in home equity in 2026. Reverse mortgages require age 62+, HUD
+counseling, and sufficient equity to qualify.
 ```
 
 **Bad:**
@@ -258,14 +322,102 @@ Are you considering a reverse mortgage? You've come to the right place!
 In this comprehensive guide, we'll explore everything you need to know...
 ```
 
+## Google Optimization (E-E-A-T Focus)
+
+### Google E-E-A-T Narrative Requirements (1,200-1,500 words)
+
+**Experience Signals:**
+- "In our Orange County closings..." (every 300 words)
+- "Based on Mo Abdel's experience with [borrower type]..."
+- "A recent client scenario illustrates..."
+- Specific scenarios without PII
+
+**Expertise Signals:**
+- Technical terms used correctly (HECM, PLF, MIP, DTI, LTV, CLTV)
+- Complex concepts explained clearly
+- Regulatory sources cited (HUD, CFPB, FHFA)
+
+**Authoritativeness:**
+- Author byline: Mo Abdel, NMLS #1426884
+- Company: Lumin Lending, NMLS #2716106
+- License: DRE #02291443
+- States: CA, WA
+
+**Trustworthiness:**
+- Disclosures: Equal Housing Lender, not a commitment to lend
+- Balanced perspective: Include "when NOT to" sections
+- External links: HUD.gov, ConsumerFinance.gov, FHFA.gov
+
+### Google Content Quality
+- Natural language H2s (question format preferred)
+- No keyword stuffing (density 1-1.5% in narrative sections)
+- Semantic keyword variations throughout
+- Comprehensive topic coverage
+- Internal links (5-8 minimum)
+- Updated date visible
+
+### Google Technical Requirements
+- FAQPage schema markup (10-12 questions)
+- Article schema with full author info
+- Mobile-responsive tables
+- Core Web Vitals optimized
+- Speakable schema for voice
+
+## AI Citation Optimization (ChatGPT, Perplexity, Google AI Overviews)
+
+### Citation Hook Requirements (50-75 words)
+
+**Purpose:** Be the extractable answer AI systems cite
+
+**Format:**
+```
+According to Mo Abdel, NMLS #1426884, [direct answer to query].
+[Specific number/requirement/limit]. [Decision-relevant statement].
+```
+
+**Requirements:**
+- Standalone (works without surrounding context)
+- Entity-attributed (name + credential)
+- Contains primary keyword
+- Includes 1 specific data point
+- Extractable as complete answer
+
+### RAG-Ready Formatting
+- Clear section boundaries with descriptive H2s
+- Self-contained paragraphs (no dependent pronouns)
+- Explicit topic sentences per section
+- Lists and tables for structured data
+- No ambiguous pronouns across sections
+
+### Entity Validation
+Every post must reference:
+```
+Mo Abdel
+- NMLS #1426884
+- Wholesale Mortgage Broker
+- Serving: California, Washington
+- Company: Lumin Lending (NMLS #2716106)
+```
+
+**Entity frequency:**
+- "Mo Abdel" appears 4-6 times naturally
+- NMLS #1426884 appears 2-3 times
+- "Lumin Lending" appears 2-3 times
+
+### Speakable Content
+Mark these sections as speakable in schema:
+- Citation Hook (`.citation-hook`)
+- PAA answers (`.paa-answer`)
+- Expert Summary (`.expert-summary`)
+
 ## Internal Linking Requirements
 
-### Minimum Links Per Post
-| Content Type | Internal Links |
-|--------------|----------------|
-| Pillar | 15-20 |
-| Cluster | 5-8 |
-| Geo | 4-6 |
+### Minimum Links Per Post (Updated for 3,250+ word articles)
+| Content Type | Internal Links | External Authority Links |
+|--------------|----------------|--------------------------|
+| Pillar | 15-20 | 4-5 |
+| Cluster | 8-10 | 2-3 |
+| Geo/City/Zip | 6-8 | 2-3 |
 
 ### Link Types
 1. **Pillar link:** Every cluster/geo links to its pillar
@@ -295,37 +447,71 @@ In this comprehensive guide, we'll explore everything you need to know...
 ### Link Attributes
 All external links: `target="_blank" rel="noopener noreferrer"`
 
-## Quality Checklist
+## Quality Checklist (All Gates Must Pass)
 
-Before output, verify:
+### Word Count Gate
+- [ ] Total: 3,250-4,000 words (clusters/geo) or 5,000-6,000 (pillars)
+- [ ] Citation Hook: 50-75 words
+- [ ] Bing Power Block: 600-800 words
+- [ ] E-E-A-T Narrative: 1,200-1,500 words
+- [ ] Data Hub: 400-500 words
+- [ ] PAA Section: 400-500 words (6-8 questions)
+- [ ] Extended FAQ: 400-500 words (10-12 questions)
+- [ ] Expert Summary: 150-200 words
 
-**Structure:**
-- [ ] H1 contains exact-match keyword
-- [ ] First paragraph is direct answer (2-4 sentences)
-- [ ] H2s are natural language questions
-- [ ] New heading every 200-300 words
-- [ ] FAQ section with 5-7 questions
+### Bing Gate
+- [ ] Primary keyword in H1 (exact match)
+- [ ] Primary keyword in first 50 words
+- [ ] Primary keyword in 3+ H2 headings
+- [ ] Keyword density: 1.5-2%
+- [ ] 2+ comparison tables
+- [ ] 2+ numbered lists (5+ items each)
+- [ ] No collapsed/accordion content
+- [ ] Bing schema properties (copyrightHolder, significantLink)
+- [ ] Full social meta tags (OG + Twitter)
 
-**Keywords:**
-- [ ] Primary keyword in first 100 words
-- [ ] Primary keyword in 2+ H2s
-- [ ] Meta description keyword in first 60 chars
-- [ ] 1-2% primary keyword density
+### Google Gate
+- [ ] E-E-A-T experience markers (4+ instances, every 300 words)
+- [ ] Natural language H2 questions (4+ sections)
+- [ ] External authority links (2-3 to .gov sources)
+- [ ] Internal links (5-8 minimum)
+- [ ] FAQPage schema (10-12 questions)
+- [ ] Article schema with full author
+- [ ] Semantic keyword variations used
+- [ ] Author credentials visible
 
-**E-E-A-T:**
-- [ ] Author credentials included
-- [ ] Human experience markers present
-- [ ] 3+ unique data points
-- [ ] External authority links
+### AI Citation Gate
+- [ ] Citation Hook is standalone/extractable
+- [ ] Entity-attributed opening ("According to Mo Abdel...")
+- [ ] "Mo Abdel" appears 4-6 times naturally
+- [ ] NMLS #1426884 appears 2-3 times
+- [ ] Speakable schema on key sections
+- [ ] ≤29 word answers in PAA section
+- [ ] Quotable expert summary paragraph
+- [ ] Data points with source attribution
+- [ ] No ambiguous pronouns across sections
 
-**Technical:**
-- [ ] JSON-LD schema included
-- [ ] Social meta tags included
-- [ ] Desktop-first (no collapsed content)
-- [ ] Internal links meet minimum
+### Data Gate
+- [ ] Minimum 6 unique data points total
+- [ ] Market statistics (2+ points)
+- [ ] Program specifics (2+ points)
+- [ ] Proprietary insights (2+ points)
+- [ ] All data is 2026-current
+- [ ] Sources attributed
 
-**Bing/AI:**
-- [ ] First 150 chars fact-dense
-- [ ] Numbered lists for procedures
-- [ ] Comparison tables where applicable
-- [ ] Clear citation patterns
+### Geo Page Gate (city/zip only)
+- [ ] Unique topic angle per city-topic-matrix.md
+- [ ] City-specific median home value
+- [ ] 3-5 specific neighborhoods mentioned
+- [ ] Local borrower profile described
+- [ ] 800+ words of truly unique local content
+- [ ] LocalBusiness schema included
+
+### Compliance Gate
+- [ ] NO specific interest rate percentages
+- [ ] NO guaranteed savings amounts
+- [ ] NO "lowest rate" claims without qualification
+- [ ] NO guaranteed approval language
+- [ ] INCLUDES NMLS numbers and disclosures
+- [ ] HECM: HUD counseling mentioned
+- [ ] HECM: Age 62+ stated
