@@ -35,6 +35,9 @@ Basics  Elig.    vs Alt   Cluster  Cluster Cluster    vs Bank  Stmt   Programs
 digraph generation_flow {
     rankdir=TB;
     "User Request" [shape=box];
+    "Determine Slug" [shape=box];
+    "Check Duplicates" [shape=diamond];
+    "SKIP (exists)" [shape=box, color=red];
     "Track?" [shape=diamond];
     "Content Type?" [shape=diamond];
     "HECM Track" [shape=box];
@@ -48,9 +51,14 @@ digraph generation_flow {
     "Generate Content" [shape=box];
     "Apply Compliance" [shape=box];
     "Add Schema" [shape=box];
+    "Write page.tsx" [shape=box];
+    "Add to all-blog-posts.ts" [shape=box];
     "Output" [shape=doublecircle];
 
-    "User Request" -> "Track?";
+    "User Request" -> "Determine Slug";
+    "Determine Slug" -> "Check Duplicates";
+    "Check Duplicates" -> "SKIP (exists)" [label="duplicate"];
+    "Check Duplicates" -> "Track?" [label="new"];
     "Track?" -> "HECM Track" [label="seniors/HECM"];
     "Track?" -> "Equity Track" [label="equity/refinance"];
     "Track?" -> "Wholesale Track" [label="wholesale/broker"];
@@ -68,7 +76,9 @@ digraph generation_flow {
     "Load Template" -> "Generate Content";
     "Generate Content" -> "Apply Compliance";
     "Apply Compliance" -> "Add Schema";
-    "Add Schema" -> "Output";
+    "Add Schema" -> "Write page.tsx";
+    "Write page.tsx" -> "Add to all-blog-posts.ts";
+    "Add to all-blog-posts.ts" -> "Output";
 }
 ```
 
@@ -367,6 +377,12 @@ Based on GSC query data:
 | `references/washington-affluent-zips.md` | 50+ WA affluent zips |
 | `assets/schema-templates.json` | Enhanced JSON-LD templates (Article, FAQ, Speakable, LocalBusiness) |
 
+### Site Files (Must Update After Generation)
+
+| File | Purpose |
+|------|---------|
+| `lib/all-blog-posts.ts` | **REQUIRED:** Blog index for /guides page - add entry for each new post |
+
 ## Output Format
 
 Every generated post outputs:
@@ -527,9 +543,137 @@ curl -X POST "https://api.indexnow.org/indexnow" \
 ✓ DATA POINTS: X unique points [PASS/FAIL]
 ✓ GEO DIFFERENTIATION: [Status] [PASS/FAIL if geo page]
 ✓ COMPLIANCE: All items cleared [PASS/FAIL]
+✓ GUIDES PAGE: Entry added to lib/all-blog-posts.ts [PASS/FAIL]
 
 STATUS: [READY FOR PUBLICATION / NEEDS REVISION]
 ```
+
+## Pre-Generation: Duplicate Prevention (MANDATORY)
+
+**BEFORE generating ANY content, you MUST check for duplicates to avoid creating redundant content.**
+
+### Duplicate Check Process
+
+```dot
+digraph duplicate_check {
+    rankdir=TB;
+    "Proposed Slug" [shape=box];
+    "Check page.tsx exists?" [shape=diamond];
+    "Check allBlogPosts entry?" [shape=diamond];
+    "SKIP - Already exists" [shape=doublecircle, color=red];
+    "Generate Content" [shape=doublecircle, color=green];
+
+    "Proposed Slug" -> "Check page.tsx exists?";
+    "Check page.tsx exists?" -> "SKIP - Already exists" [label="yes"];
+    "Check page.tsx exists?" -> "Check allBlogPosts entry?" [label="no"];
+    "Check allBlogPosts entry?" -> "SKIP - Already exists" [label="yes"];
+    "Check allBlogPosts entry?" -> "Generate Content" [label="no"];
+}
+```
+
+### Step 1: Check if page.tsx Exists
+Before generating, check if the file already exists:
+```
+app/blog/[proposed-slug]/page.tsx
+```
+If this file exists → **SKIP this post** (already generated)
+
+### Step 2: Check if Entry Exists in allBlogPosts
+Search `lib/all-blog-posts.ts` for the proposed slug:
+```typescript
+// Search for: slug: '[proposed-slug]'
+```
+If slug found in allBlogPosts → **SKIP this post** (already indexed)
+
+### Step 3: Track Generated Slugs Within Session
+When generating multiple posts in one session, maintain a list of slugs already generated to avoid duplicating within the same batch:
+```
+SESSION_GENERATED_SLUGS = []
+// Before each post: check if slug in SESSION_GENERATED_SLUGS
+// After each post: add slug to SESSION_GENERATED_SLUGS
+```
+
+### Duplicate Check Report
+When skipping duplicates, report:
+```
+⚠️ SKIPPED (duplicate): [slug]
+   - page.tsx exists: [yes/no]
+   - allBlogPosts entry: [yes/no]
+```
+
+---
+
+## Post-Generation: Add to /guides Page (MANDATORY)
+
+**After creating each blog post, you MUST add an entry to `lib/all-blog-posts.ts` so the post appears on the /guides page.**
+
+### Step 1: Read the Current File
+```typescript
+// File: lib/all-blog-posts.ts
+// Contains the allBlogPosts array that powers /guides
+```
+
+### Step 2: Add Entry at TOP of Array (newest first)
+Insert a new entry at the **beginning** of the `allBlogPosts` array:
+
+```typescript
+{
+  slug: '[url-slug-without-leading-slash]',
+  title: '[Full title from metadata]',
+  excerpt: '[Meta description or 1-2 sentence summary]',
+  date: '[YYYY-MM-DD - today\'s date]',
+  category: '[Category from mapping below]',
+  readTime: '[X min read - estimate based on word count]',
+},
+```
+
+### Step 3: Category Mapping
+Use these category values based on track and content type:
+
+| Track | Content Type | Category Value |
+|-------|--------------|----------------|
+| HECM | All | `'Reverse Mortgage'` |
+| Equity | HELOC/HELOAN focused | `'Home Equity'` |
+| Equity | Refinance focused | `'Refinance'` |
+| Wholesale | All | `'Wholesale'` |
+| Any | City-specific guides | `'City Guides'` |
+| Any | Loan program education | `'Loan Programs'` |
+
+### Step 4: Read Time Calculation
+```
+Word Count → Read Time
+< 2,500    → 8 min read
+2,500-3,500 → 9-10 min read
+3,500-4,500 → 11-12 min read
+4,500-5,500 → 13-14 min read
+5,500+      → 15+ min read
+```
+
+### Example Entry
+For a HECM cluster post about reverse mortgage basics:
+
+```typescript
+// Add at the TOP of allBlogPosts array in lib/all-blog-posts.ts
+{
+  slug: 'what-is-reverse-mortgage-2026',
+  title: 'What Is a Reverse Mortgage? Complete HECM Guide [2026]',
+  excerpt: 'Complete guide to reverse mortgages and HECM loans. Learn how seniors 62+ access home equity without monthly payments.',
+  date: '2026-02-02',  // Today's date
+  category: 'Reverse Mortgage',
+  readTime: '12 min read',
+},
+```
+
+### Batch Generation
+When generating multiple posts, add ALL entries at once in a single edit to `lib/all-blog-posts.ts`. Order entries by date (all same date) then alphabetically by category for consistency.
+
+### Verification
+After adding entries, confirm:
+- [ ] Entry slug matches the page.tsx folder name exactly
+- [ ] Title matches the metadata title
+- [ ] Date is today's date (YYYY-MM-DD format)
+- [ ] Category matches the mapping above
+- [ ] Entry is at the TOP of the array (after the opening `[`)
 
 ## Compliance Gate
 
