@@ -37,3 +37,6 @@ next-env.d.ts
 # user data
 /data/nul
 gsc-credentials.json
+
+# Git worktrees
+.worktrees/

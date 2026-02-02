@@ -213,7 +213,6 @@
       "destination": "/about",
       "permanent": true
     },
-
     {
       "source": "/$",
       "destination": "/",
@@ -229,7 +228,6 @@
       "destination": "/",
       "permanent": true
     },
-
     {
       "source": "/tools/mortgage-calculator",
       "destination": "/calculator",
@@ -240,7 +238,6 @@
       "destination": "/calculator",
       "permanent": true
     },
-
     {
       "source": "/programs/dscr-investment-loans",
       "destination": "/loan-programs/dscr-investment-loans",
@@ -256,13 +253,11 @@
       "destination": "/loan-programs/:path*",
       "permanent": true
     },
-
     {
       "source": "/loan-programs/va-loans",
       "destination": "/loan-programs/orange-county-va-loans",
       "permanent": true
     },
-
     {
       "source": "/orange-county-conventional-loans",
       "destination": "/conventional-loans-orange-county",
@@ -298,7 +293,6 @@
       "destination": "/non-qm-loans-orange-county",
       "permanent": true
     },
-
     {
       "source": "/blog/va-loans-orange-county-2026-complete-guide",
       "destination": "/blog/va-loans-orange-county-2026",
@@ -314,7 +308,6 @@
       "destination": "/blog/non-qm-loans-complete-guide-2026",
       "permanent": true
     },
-
     {
       "source": "/about-mo-abdel",
       "destination": "/about",
@@ -323,6 +316,51 @@
     {
       "source": "/mortgage-broker",
       "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-irvine-ca-2026",
+      "destination": "/areas/irvine-mortgage-broker",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-mission-viejo-ca-2026",
+      "destination": "/areas/mission-viejo-mortgage-broker",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-la-jolla-ca-2026",
+      "destination": "/reverse-mortgages",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-requirements-2026",
+      "destination": "/blog/reverse-mortgage-requirements-complete-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-vs-heloc-seniors-2026",
+      "destination": "/blog/reverse-mortgage-complete-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-does-heloc-work-2026",
+      "destination": "/loan-programs/heloc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-reverse-mortgage-hecm-guide-2026",
+      "destination": "/blog/what-is-reverse-mortgage-complete-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/guides/spring-2025-home-buying-guide",
+      "destination": "/guides/spring-2026-home-buying-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/seal-beach-mortgage-guide-2026",
+      "destination": "/areas/seal-beach-mortgage-broker",
       "permanent": true
     }
   ],
