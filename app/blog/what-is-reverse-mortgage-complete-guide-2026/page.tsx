@@ -477,7 +477,7 @@ export default function WhatIsReverseMortgageGuide() {
               With the 2026 FHA limit at $1,149,825, California and Washington homeowners have substantial equity access potential. Whether you want to eliminate mortgage payments, supplement retirement income, or create a growing line of credit for future needs, a personalized consultation can help you understand your options.
             </p>
             <p className="text-blue-900 font-semibold">
-              <strong>Contact Mo Abdel today:</strong> (949) 537-2357 | <a href="mailto:mo@mothebroker.com" className="text-blue-700 hover:underline">mo@mothebroker.com</a>
+              <strong>Contact Mo Abdel today:</strong> (949) 822-9662 | <a href="mailto:mo@mothebroker.com" className="text-blue-700 hover:underline">mo@mothebroker.com</a>
             </p>
           </div>
 

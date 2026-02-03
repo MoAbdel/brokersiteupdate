@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Does a Cash-Out Refinance Work? Complete Guide [2026]',
     description: 'Cash out refinance how it works: Replace your mortgage with a larger loan and receive the difference in cash. Learn requirements, costs, and best uses in 2026.',
-    url: 'https://mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
+    url: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-27',
@@ -33,7 +33,7 @@ export default function CashOutRefinanceGuide() {
     },
     datePublished: '2026-01-27',
     dateModified: '2026-01-27',
-    mainEntityOfPage: 'https://mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
     copyrightHolder: {
       '@type': 'Organization',
       name: 'Lumin Lending',
@@ -298,7 +298,7 @@ export default function CashOutRefinanceGuide() {
             As a wholesale mortgage broker, I access pricing from 50+ lenders to find the best cash-out refinance options for your situation. Whether you&apos;re looking to consolidate debt, fund home improvements, or access emergency funds, I can help you compare options and find competitive terms.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
     description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
-    url: 'https://luminlending.com/heloc-orange-county',
+    url: 'https://www.mothebroker.com/heloc-orange-county',
   },
   alternates: {
-    canonical: 'https://www.luminlending.com/heloc-orange-county',
+    canonical: 'https://www.mothebroker.com/heloc-orange-county',
   },
 };
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Lumin Lending - Orange County Mortgage",
+  "name": "Mo Abdel - Orange County Mortgage Broker",
   "serviceType": "HELOC Home Equity Line of Credit",
   "address": {
     "@type": "PostalAddress",
@@ -29,7 +29,7 @@ const structuredData = {
     "addressRegion": "CA"
   },
   "telephone": "(949) 822-9662",
-  "url": "https://luminlending.com/heloc-orange-county",
+  "url": "https://www.mothebroker.com/heloc-orange-county",
   "description": "Expert HELOC services in Orange County, CA",
   "areaServed": "Orange County, CA",
   "additionalType": "https://schema.org/MortgageBroker"

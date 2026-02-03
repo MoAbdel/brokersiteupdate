@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'HECM for Purchase 2026: Buy a Home with a Reverse Mortgage | MoTheBroker',
   description: 'Complete guide to using a reverse mortgage to buy your next home. Learn how HECM for Purchase works, requirements, benefits, and why seniors use this strategy for downsizing or relocating.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/hecm-for-purchase-2026',
+    canonical: 'https://www.mothebroker.com/blog/hecm-for-purchase-2026',
   },
   keywords: [
     'HECM for purchase',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HECM for Purchase 2026: Buy a Home with a Reverse Mortgage',
     description: 'Complete guide to using a reverse mortgage to buy your next home. Learn requirements, benefits, and strategies for downsizing or relocating.',
-    url: 'https://mothebroker.com/blog/hecm-for-purchase-2026',
+    url: 'https://www.mothebroker.com/blog/hecm-for-purchase-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function HECMForPurchasePage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker & Reverse Mortgage Specialist",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function HECMForPurchasePage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/hecm-for-purchase-2026"
+      "@id": "https://www.mothebroker.com/blog/hecm-for-purchase-2026"
     },
     "keywords": ["HECM for purchase", "reverse mortgage buy home", "senior home buying", "downsize reverse mortgage"]
   };
@@ -699,10 +699,10 @@ export default function HECMForPurchasePage() {
               Schedule Consultation
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

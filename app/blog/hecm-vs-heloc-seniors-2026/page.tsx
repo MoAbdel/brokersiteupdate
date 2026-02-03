@@ -34,7 +34,7 @@ export default function HECMvsHELOCSeniorsPage() {
             "publisher": {
               "@type": "Organization",
               "name": "Lumin Lending",
-              "url": "https://mothebroker.com"
+              "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-29",
             "dateModified": "2026-01-29",

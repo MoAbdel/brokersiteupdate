@@ -944,8 +944,8 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
               Get Your Free Equity Analysis
             </a>
-            <a href="tel:9495372357" className="inline-block bg-white text-gray-900 text-center px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Call (949) 537-2357
+            <a href="tel:+19498229662" className="inline-block bg-white text-gray-900 text-center px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              Call (949) 822-9662
             </a>
           </div>
         </div>

@@ -49,7 +49,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - Loan Programs (dropdown with all 10 programs)
 - About
 - Contact
-- Phone: (949) 537-2357
+- Phone: (949) 822-9662
 - Get Quote button
 
 ### Database Tables
@@ -61,7 +61,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - **Name**: Mo Abdel
 - **Company**: West Capital Lending
 - **NMLS**: #1426884
-- **Phone**: (949) 537-2357
+- **Phone**: (949) 822-9662
 - **Licensed In**: California, Washington, Colorado
 - **Service Area**: Orange County, California
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Reverse Mortgage in La Jolla, CA: HECM Guide for Seniors [2026]',
     description: 'Reverse mortgage La Jolla guide for seniors 62+. Learn HECM eligibility, La Jolla home values, and how to access your coastal home equity.',
-    url: 'https://mothebroker.com/blog/reverse-mortgage-la-jolla-ca-2026',
+    url: 'https://www.mothebroker.com/blog/reverse-mortgage-la-jolla-ca-2026',
     type: 'article',
     authors: ['Mo Abdel'],
   },
@@ -145,7 +145,7 @@ export default function ReverseMortgageLaJolla() {
           <p>
             As a wholesale mortgage broker, I access both HECM and jumbo reverse mortgage options from multiple lenders. For La Jolla&apos;s high-value homes, this means access to competitive pricing on products designed for premium properties.
           </p>
-          <p className="mt-4">Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com</p>
+          <p className="mt-4">Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com</p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>

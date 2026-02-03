@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'USDA Rural Loans Orange County | Zero Down Payment Home Loans | Rural Housing Program',
   description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 822-9662.',
   alternates: {
-    canonical: 'https://www.luminlending.com/loan-programs/usda-rural-loans',
+    canonical: 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
   },
 };
 

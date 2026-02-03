@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 
 import { navigationItems } from '@/lib/navigation-data';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
 
 export default function Header() {
   const pathname = usePathname();
@@ -118,9 +119,9 @@ export default function Header() {
 
           {/* Desktop Right Action */}
           <div className="hidden md:flex items-center z-10">
-            <a href="tel:(949) 822-9662" onClick={() => trackPhoneCall()}>
+            <a href={PHONE_TEL_HREF} onClick={() => trackPhoneCall()}>
               <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold">
-                (949) 822-9662
+                {PHONE_DISPLAY}
               </Button>
             </a>
           </div>

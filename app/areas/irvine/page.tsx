@@ -5,11 +5,11 @@ export const metadata = {
   title: 'Irvine Mortgage Broker | Home Loans & HELOCs in Irvine, CA',
   description:
     'Local mortgage guidance for Irvine homeowners and buyers. Compare HELOCs, cash-out refinance, VA, FHA, jumbo and more with a wholesale mortgage broker.',
-  alternates: { canonical: 'https://www.luminlending.com/areas/irvine' },
+  alternates: { canonical: 'https://www.mothebroker.com/areas/irvine' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Irvine Mortgage Broker | HELOC, Cash-Out & Home Loans',
-    url: 'https://www.luminlending.com/areas/irvine',
+    url: 'https://www.mothebroker.com/areas/irvine',
   },
 };
 
@@ -25,14 +25,14 @@ export default function Page() {
 
   const localBusiness = {
     '@context': 'https://schema.org',
-    '@type': 'MortgageBroker',
-    name: 'Lumin Lending - Irvine',
+    '@type': ['LocalBusiness', 'FinancialService', 'MortgageBroker'],
+    name: 'Mo Abdel - Irvine Mortgage Broker',
     areaServed: 'Irvine, Orange County, CA',
-    url: 'https://www.luminlending.com/areas/irvine',
+    url: 'https://www.mothebroker.com/areas/irvine',
     telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', streetAddress: '18301 Von Karman Ave Suite 820', addressLocality: 'Irvine', addressRegion: 'CA', postalCode: '92612', addressCountry: 'US' },
     sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Wholesale mortgage broker serving Irvine with access to 100+ lenders for home loans, HELOCs, and refinancing. NMLS #1426884.',
+    description: 'Wholesale mortgage broker serving Irvine with access to 200+ lenders for home loans, HELOCs, and refinancing. NMLS #1426884.',
   };
 
   const faqSchema = {

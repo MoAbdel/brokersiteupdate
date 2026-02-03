@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     publishedTime: '2025-02-28T14:30:00Z',
   },
   alternates: {
-    canonical: 'https://www.luminlending.com/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide',
+    canonical: 'https://www.mothebroker.com/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide',
   },
 };
 

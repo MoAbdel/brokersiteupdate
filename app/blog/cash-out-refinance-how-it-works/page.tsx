@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: 'Cash out refinance how it works: Replace your existing mortgage with a larger loan and receive the difference in cash. Learn requirements, costs, pros/cons, and best uses from Mo Abdel, NMLS #1426884.',
   keywords: ['cash out refinance how it works', 'cash out refinance requirements', 'cash out refinance 2026', 'home equity cash out', 'cash out refinance vs heloc'],
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works',
+    canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
   },
   openGraph: {
     title: 'How Does a Cash-Out Refinance Work? Complete Guide [2026]',
     description: 'Cash out refinance how it works: Replace your existing mortgage with a larger loan and receive the difference in cash. Expert guidance from Mo Abdel, NMLS #1426884.',
-    url: 'https://mothebroker.com/blog/cash-out-refinance-how-it-works',
+    url: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-02',
@@ -28,18 +28,18 @@ export default function CashOutRefinanceHowItWorksPage() {
       name: 'Mo Abdel',
       jobTitle: 'Wholesale Mortgage Broker',
       identifier: 'NMLS #1426884',
-      url: 'https://mothebroker.com/about',
+      url: 'https://www.mothebroker.com/about',
       knowsAbout: ['Cash-Out Refinance', 'Home Equity', 'Mortgage Refinancing', 'Wholesale Lending'],
     },
     publisher: {
       '@type': 'Organization',
       name: 'Lumin Lending',
       identifier: 'NMLS #2716106',
-      url: 'https://mothebroker.com',
+      url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-02',
     dateModified: '2026-02-02',
-    mainEntityOfPage: 'https://mothebroker.com/blog/cash-out-refinance-how-it-works',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
     copyrightHolder: {
       '@type': 'Organization',
       name: 'Lumin Lending',
@@ -603,7 +603,7 @@ export default function CashOutRefinanceHowItWorksPage() {
               Contact Mo Abdel today to receive a personalized assessment of your cash-out refinance options, including rate quotes from multiple lenders and a detailed breakdown of potential savings.
             </p>
             <p className="text-blue-800 font-semibold">
-              Call: (949) 537-2357 | Email: mabdel@luminlending.com
+              Call: (949) 822-9662 | Email: mabdel@luminlending.com
             </p>
             <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
               Request Your Free Quote

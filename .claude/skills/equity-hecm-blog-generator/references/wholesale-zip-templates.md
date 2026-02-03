@@ -130,7 +130,7 @@ Lumin Lending | NMLS #2716106 | DRE #02291443
 Licensed in California & Washington
 
 [Area Name] ([ZIP]) Wholesale Mortgage Specialist
-📞 (949) 537-2357
+📞 (949) 822-9662
 📍 Serving [Area Name] and all of Orange County
 
 Equal Housing Lender. All loans subject to credit approval. Rates and terms subject to change.

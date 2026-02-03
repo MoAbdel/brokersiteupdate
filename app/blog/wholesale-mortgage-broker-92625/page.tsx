@@ -99,7 +99,7 @@ export default function WholesaleMortgageBroker92625Page() {
             "name": "Mo The Broker - Corona del Mar",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 537-2357",
+            "telephone": "(949) 822-9662",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Corona del Mar",

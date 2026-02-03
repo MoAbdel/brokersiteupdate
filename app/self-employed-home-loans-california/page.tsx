@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Self-Employed Home Loans California | Bank Statement & Non-QM Programs | Lumin Lending',
   description: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
-    canonical: 'https://www.luminlending.com/self-employed-home-loans-california',
+    canonical: 'https://www.mothebroker.com/self-employed-home-loans-california',
   },
 };
 

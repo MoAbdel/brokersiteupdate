@@ -30,13 +30,13 @@ export default function HELOCCompleteGuidePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "knowsAbout": ["HELOC", "Home Equity Lines of Credit", "Home Equity Lending", "Mortgage Products"]
                         },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-26",
                         "dateModified": "2026-01-26",

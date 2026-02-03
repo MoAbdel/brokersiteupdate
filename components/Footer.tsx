@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { createPageUrl } from '@/lib/utils';
 import Image from 'next/image';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
 
 const navigationItems = [
   { title: 'Home', url: createPageUrl('Home') },
@@ -23,9 +24,23 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">About Mo Abdel</h3>
             <p className="text-slate-400 mb-4">
-              Your trusted mortgage broker providing direct access to 100+ wholesale lenders across California.
-              Shopping the entire marketplace to secure your optimal financing strategy. NMLS #1426884.
+              Your trusted mortgage broker providing direct access to 200+ wholesale lenders across CA & WA.
+              Shop the market to secure the right financing strategy. NMLS #1426884.
             </p>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/contact"
+                className="inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
+              >
+                Get a free quote
+              </Link>
+              <a
+                href={PHONE_TEL_HREF}
+                className="inline-flex items-center rounded-lg border border-slate-600 px-4 py-2 text-sm font-semibold text-white hover:border-slate-400 transition-colors"
+              >
+                Call {PHONE_DISPLAY}
+              </a>
+            </div>
           </div>
 
           <div>
@@ -44,7 +59,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-slate-400">
-              <li>📞 (949) 822-9662</li>
+              <li>
+                📞{' '}
+                <a href={PHONE_TEL_HREF} className="hover:text-white transition-colors">
+                  {PHONE_DISPLAY}
+                </a>
+              </li>
               <li>📧 <a href="mailto:mo.abdel@luminlending.com" className="hover:text-white transition-colors">mo.abdel@luminlending.com</a></li>
               <li>📍 18301 Von Karman Ave Suite 820<br />Irvine, CA 92612</li>
               <li>🕒 Available 24/7</li>

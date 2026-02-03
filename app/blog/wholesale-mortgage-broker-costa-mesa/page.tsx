@@ -52,7 +52,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             "name": "Mo The Broker - Costa Mesa Wholesale Mortgage",
             "@id": "https://www.mothebroker.com",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 537-2357",
+            "telephone": "(949) 822-9662",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "CA",
@@ -566,7 +566,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             Discuss your specific situation with a wholesale mortgage broker who understands Costa Mesa's distinct neighborhoods and financing requirements.
           </p>
           <p className="mb-2">
-            <strong>Call:</strong> <a href="tel:9495372357" className="text-blue-600">(949) 537-2357</a>
+            <strong>Call:</strong> <a href="tel:+19498229662" className="text-blue-600">(949) 822-9662</a>
           </p>
           <p className="mb-0">
             <strong>Serving:</strong> Mesa Verde, Eastside Costa Mesa, Westside Costa Mesa, Mesa del Mar, South Coast Metro, Triangle Square area, and surrounding communities including Newport Beach, Huntington Beach, Irvine, and Fountain Valley.

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'HUD Reverse Mortgage Counseling 2026: Requirements, Process & What to Expect | MoTheBroker',
   description: 'Complete guide to HUD-approved HECM counseling requirements for 2026. Learn what to expect, how to find approved counselors, costs, and how counseling protects seniors.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/hecm-counseling-requirements-2026',
+    canonical: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
   },
   keywords: [
     'HUD reverse mortgage counseling',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HUD Reverse Mortgage Counseling 2026: Requirements, Process & What to Expect',
     description: 'Complete guide to HUD-approved HECM counseling. Learn what to expect, find counselors, and understand how this requirement protects you.',
-    url: 'https://mothebroker.com/blog/hecm-counseling-requirements-2026',
+    url: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function HECMCounselingPage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker & Reverse Mortgage Specialist",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function HECMCounselingPage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/hecm-counseling-requirements-2026"
+      "@id": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026"
     },
     "keywords": ["HUD reverse mortgage counseling", "HECM counseling", "reverse mortgage requirements", "HUD approved counselors"]
   };
@@ -730,10 +730,10 @@ export default function HECMCounselingPage() {
               Schedule Consultation
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

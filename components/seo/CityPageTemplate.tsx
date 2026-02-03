@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Phone, MapPin, Calculator, TrendingUp, Home, DollarSign } from 'lucide-react';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 import LLMOptimizedSEO from '@/components/seo/LLMOptimizedSEO';
+import { PHONE_DISPLAY, PHONE_TEL_HREF, SITE_ORIGIN } from '@/lib/site';
 
 interface CityData {
   name: string;
@@ -32,7 +33,7 @@ interface CityPageProps {
 export function generateCityMetadata(cityData: CityData): Metadata {
   const title = `${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`;
   const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
-  const canonicalUrl = `https://www.mothebroker.com/areas/${cityData.slug}`;
+  const canonicalUrl = `${SITE_ORIGIN}/areas/${cityData.slug}`;
 
   return {
     title,
@@ -67,7 +68,7 @@ export function generateCityMetadata(cityData: CityData): Metadata {
 }
 
 export default function CityPageTemplate({ cityData }: CityPageProps) {
-  const canonicalUrl = `https://www.mothebroker.com/areas/${cityData.slug}`;
+  const canonicalUrl = `${SITE_ORIGIN}/areas/${cityData.slug}`;
   
   const structuredFAQ = [
     {
@@ -157,10 +158,10 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href={PHONE_TEL_HREF}>
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Phone className="w-5 h-5 mr-2" />
-                  Get Free Quote: (949) 822-9662
+                  Get Free Quote: {PHONE_DISPLAY}
                 </Button>
               </a>
               <Link href="/calculator">
@@ -362,10 +363,10 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
               Get a personalized loan quote and pre-approval in minutes. No obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href={PHONE_TEL_HREF}>
                 <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-blue-50">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call: (949) 822-9662
+                  Call: {PHONE_DISPLAY}
                 </Button>
               </a>
               <Link href="/contact">

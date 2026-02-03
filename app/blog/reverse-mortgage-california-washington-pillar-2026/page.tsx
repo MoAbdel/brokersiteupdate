@@ -272,7 +272,7 @@ export default function ReverseMortgageCaliforniaWashingtonPillar2026Page() {
     "name": "Mo Abdel - Wholesale Mortgage Broker",
     "description": "Wholesale mortgage broker serving California and Washington. Specializing in reverse mortgages (HECM), HELOC, home equity loans, and cash-out refinance.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 537-2357",
+    "telephone": "(949) 822-9662",
     "email": "mo@mothebroker.com",
     "areaServed": [
       {
@@ -1174,8 +1174,8 @@ export default function ReverseMortgageCaliforniaWashingtonPillar2026Page() {
               <a href="/contact" className="inline-block bg-white text-blue-900 font-semibold px-6 py-3 rounded-lg text-center hover:bg-blue-50 transition-colors">
                 Schedule Consultation
               </a>
-              <a href="tel:9495372357" className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg text-center hover:bg-white/10 transition-colors">
-                Call (949) 537-2357
+              <a href="tel:+19498229662" className="inline-block bg-transparent border-2 border-white text-white font-semibold px-6 py-3 rounded-lg text-center hover:bg-white/10 transition-colors">
+                Call (949) 822-9662
               </a>
             </div>
           </div>

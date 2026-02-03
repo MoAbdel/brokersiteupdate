@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Home Equity Loans | Lumin Lending - Orange County Mortgage Broker',
   description: 'Fixed-rate home equity loans in Orange County. Lump sum funding for major expenses. Licensed mortgage broker NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.luminlending.com/loan-programs/heloan',
+    canonical: 'https://www.mothebroker.com/loan-programs/heloan',
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Costa Mesa Mortgage Broker | Lumin Lending - Orange County Mortgage Broker',
   description: 'Costa Mesa mortgage broker with competitive rates. FHA, VA, conventional loans for Orange County buyers. NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.luminlending.com/areas/costa-mesa-mortgage-broker',
+    canonical: 'https://www.mothebroker.com/areas/costa-mesa-mortgage-broker',
   },
 };
 

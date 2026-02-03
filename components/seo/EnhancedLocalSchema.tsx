@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
 
 interface EnhancedLocalSchemaProps {
   city?: string;
@@ -49,7 +50,7 @@ export default function EnhancedLocalSchema({
       "name": "Mo Abdel",
       "identifier": "NMLS #1426884",
       "jobTitle": "Licensed Mortgage Broker",
-      "telephone": "(949) 822-9662",
+      "telephone": PHONE_DISPLAY,
       "email": "mo.abdel@luminlending.com",
       "url": siteUrl,
       "hasCredential": {
@@ -132,7 +133,7 @@ export default function EnhancedLocalSchema({
     "@type": "LocalBusiness",
     "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker | Mo Abdel`,
     "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
-    "telephone": "(949) 822-9662",
+    "telephone": PHONE_DISPLAY,
     "email": "mo.abdel@luminlending.com",
     "url": city ? `${siteUrl}/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : siteUrl,
     "address": {
@@ -281,7 +282,7 @@ export default function EnhancedLocalSchema({
 
       {/* Local business meta */}
       <meta name="business.hours" content="M-F 8:00-20:00, Sa 9:00-18:00, Su 10:00-16:00" />
-      <meta name="business.phone" content="(949) 822-9662" />
+      <meta name="business.phone" content={PHONE_E164} />
       <meta name="business.license" content="NMLS #1426884" />
       <meta name="business.service_area" content={city ? `${city}, Orange County, CA` : "Orange County, CA"} />
 

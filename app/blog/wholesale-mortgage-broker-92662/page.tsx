@@ -99,7 +99,7 @@ export default function WholesaleMortgageBroker92662Page() {
             "name": "Mo The Broker - Balboa Island",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92662",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 537-2357",
+            "telephone": "(949) 822-9662",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Balboa Island",

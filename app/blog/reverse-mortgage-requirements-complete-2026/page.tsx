@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist | MoTheBroker',
   description: 'Reverse mortgage requirements 2026: Borrowers must be 62+, own home as primary residence, have 50%+ equity, complete HUD counseling, pass financial assessment. FHA limit $1,149,825. NMLS #1426884.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
+    canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
   },
   keywords: [
     'reverse mortgage requirements 2026',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist',
     description: 'Complete guide to reverse mortgage requirements 2026. Age 62+, primary residence, HUD counseling, financial assessment. FHA limit $1,149,825.',
-    url: 'https://mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
+    url: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
     type: 'article',
     publishedTime: '2026-02-01',
     modifiedTime: '2026-02-01',
@@ -45,7 +45,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Wholesale Mortgage Broker & Reverse Mortgage Specialist",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "identifier": "NMLS #1426884",
       "worksFor": {
         "@type": "Organization",
@@ -56,13 +56,13 @@ export default function ReverseMortgageRequirementsCompletePage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-02-01",
     "dateModified": "2026-02-01",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
+      "@id": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
       "significantLink": [
         "https://www.hud.gov/program_offices/housing/sfh/hecm",
         "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/"
@@ -71,7 +71,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
     "copyrightHolder": {
       "@type": "Organization",
       "name": "Lumin Lending",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "copyrightYear": "2026",
     "keywords": ["reverse mortgage requirements 2026", "HECM eligibility", "reverse mortgage qualifications", "HUD counseling", "financial assessment"]
@@ -890,10 +890,10 @@ export default function ReverseMortgageRequirementsCompletePage() {
               Schedule Free Consultation
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

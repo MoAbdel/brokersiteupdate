@@ -5,11 +5,11 @@ export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
   description:
     'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
-  alternates: { canonical: 'https://luminlending.com/areas/newport-beach' },
+  alternates: { canonical: 'https://www.mothebroker.com/areas/newport-beach' },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Mortgage Broker | Jumbo Loans & Luxury Home Financing',
-    url: 'https://luminlending.com/areas/newport-beach',
+    url: 'https://www.mothebroker.com/areas/newport-beach',
   },
 };
 
@@ -28,7 +28,7 @@ export default function Page() {
     '@type': 'MortgageBroker',
     name: 'Mo Abdel - Lumin Lending - Newport Beach',
     areaServed: 'Newport Beach, Orange County, CA',
-    url: 'https://luminlending.com/areas/newport-beach',
+    url: 'https://www.mothebroker.com/areas/newport-beach',
     telephone: '+1-949-822-9662',
     address: { '@type': 'PostalAddress', streetAddress: '18301 Von Karman Ave Suite 820', addressLocality: 'Irvine', addressRegion: 'CA', postalCode: '92612', addressCountry: 'US' },
     description: 'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 100+ lenders.',

@@ -684,8 +684,8 @@ export default function BankStatementLoansWholesalePage() {
             <a href="/contact" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-blue-50 transition">
               Get Your Bank Statement Loan Quote
             </a>
-            <a href="tel:9495372357" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/10 transition">
-              Call (949) 537-2357
+            <a href="tel:+19498229662" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/10 transition">
+              Call (949) 822-9662
             </a>
           </div>
         </div>

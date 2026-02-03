@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     publishedTime: '2025-03-15T10:00:00Z',
   },
   alternates: {
-    canonical: 'https://www.luminlending.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
+    canonical: 'https://www.mothebroker.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
   },
 };
 

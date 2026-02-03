@@ -39,7 +39,7 @@ This system provides real-time notifications when someone submits a quote reques
    TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxx
    TWILIO_AUTH_TOKEN=xxxxxxxxxxxxx
    TWILIO_PHONE_NUMBER=+1234567890
-   YOUR_PHONE_NUMBER=+19495372357
+   YOUR_PHONE_NUMBER=+19498229662
    ```
 
 ### Step 3: Webhook Integration (Optional)

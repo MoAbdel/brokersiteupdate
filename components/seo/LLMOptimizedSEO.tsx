@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Script from 'next/script';
+import { PHONE_DISPLAY } from '@/lib/site';
 
 interface LLMSEOProps {
   title: string;
@@ -34,7 +35,7 @@ export default function LLMOptimizedSEO({
     service: "Mortgage Broker",
     location: "Orange County, CA",
     credentials: "NMLS #1426884",
-    phone: "(949) 822-9662"
+    phone: PHONE_DISPLAY
   }
 }: LLMSEOProps) {
 
@@ -95,6 +96,10 @@ export default function LLMOptimizedSEO({
     name: title,
     description: description,
     url: canonicalUrl,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["main", "h1", "h2"]
+    },
     about: {
       "@type": "Service",
       name: "Mortgage Broker Services",

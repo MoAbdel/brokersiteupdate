@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HELOC vs Home Equity Loan: Which Is Right for You? [2026]',
     description: 'HELOC vs home equity loan: Complete comparison of variable-rate HELOCs and fixed-rate HELOANs. Find the right home equity solution with expert guidance from Mo Abdel, NMLS #1426884.',
-    url: 'https://mothebroker.com/blog/heloc-vs-home-equity-loan',
+    url: 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-02',
@@ -28,18 +28,18 @@ export default function HELOCvsHomeEquityLoanPage() {
       name: 'Mo Abdel',
       jobTitle: 'Wholesale Mortgage Broker',
       identifier: 'NMLS #1426884',
-      url: 'https://mothebroker.com/about',
+      url: 'https://www.mothebroker.com/about',
       knowsAbout: ['HELOC', 'Home Equity Loan', 'HELOAN', 'Home Equity Lending', 'Mortgage Products'],
     },
     publisher: {
       '@type': 'Organization',
       name: 'Lumin Lending',
       identifier: 'NMLS #2716106',
-      url: 'https://mothebroker.com',
+      url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-02',
     dateModified: '2026-02-02',
-    mainEntityOfPage: 'https://mothebroker.com/blog/heloc-vs-home-equity-loan',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan',
     copyrightHolder: {
       '@type': 'Organization',
       name: 'Lumin Lending',
@@ -635,7 +635,7 @@ export default function HELOCvsHomeEquityLoanPage() {
               Contact Mo Abdel today for a personalized analysis of HELOC vs home equity loan options, including rate quotes from multiple lenders and recommendations based on your specific financial situation.
             </p>
             <p className="text-blue-800 font-semibold">
-              Call: (949) 537-2357 | Email: mabdel@luminlending.com
+              Call: (949) 822-9662 | Email: mabdel@luminlending.com
             </p>
             <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
               Request Your Free Quote

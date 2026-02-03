@@ -117,14 +117,13 @@ export default function RootLayout({
 
         {/* Local SEO / Geo Tags - Critical for Bing Local Search */}
         <meta name="geo.region" content="US-CA" />
-        <meta name="geo.placename" content="Irvine, Orange County" />
-        <meta name="geo.position" content="33.6846;-117.8265" />
-        <meta name="ICBM" content="33.6846, -117.8265" />
+        <meta name="geo.placename" content="Orange County, CA" />
 
 
 
         {/* Hreflang tags - US only targeting */}
         <link rel="alternate" hrefLang="en-US" href="https://www.mothebroker.com" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.mothebroker.com" />
 
         <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />

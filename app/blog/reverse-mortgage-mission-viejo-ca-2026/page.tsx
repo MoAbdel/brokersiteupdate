@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Reverse Mortgage in Mission Viejo, CA: HECM Guide for Seniors [2026]',
     description: 'Reverse mortgage Mission Viejo guide for seniors 62+. Learn HECM eligibility, Mission Viejo home values, and 55+ community options.',
-    url: 'https://mothebroker.com/blog/reverse-mortgage-mission-viejo-ca-2026',
+    url: 'https://www.mothebroker.com/blog/reverse-mortgage-mission-viejo-ca-2026',
     type: 'article',
     authors: ['Mo Abdel'],
   },
@@ -222,7 +222,7 @@ export default function ReverseMortgageMissionViejo() {
             <li>Local Mission Viejo market expertise</li>
             <li>Connections to HUD-approved counseling resources</li>
           </ul>
-          <p className="mt-4">Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com</p>
+          <p className="mt-4">Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com</p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>

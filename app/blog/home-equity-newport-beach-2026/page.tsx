@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Equity Options in Newport Beach, CA: HELOC, HELOAN & Cash-Out [2026]',
     description: 'Home equity Newport Beach guide 2026: Compare HELOC, home equity loans, and cash-out refinance options for Newport Beach homeowners.',
-    url: 'https://mothebroker.com/blog/home-equity-newport-beach-2026',
+    url: 'https://www.mothebroker.com/blog/home-equity-newport-beach-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-27',
@@ -33,7 +33,7 @@ export default function HomeEquityNewportBeach() {
     },
     datePublished: '2026-01-27',
     dateModified: '2026-01-27',
-    mainEntityOfPage: 'https://mothebroker.com/blog/home-equity-newport-beach-2026',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-newport-beach-2026',
   };
 
   const faqJsonLd = {
@@ -264,7 +264,7 @@ export default function HomeEquityNewportBeach() {
             <li>No-pressure consultation and personalized recommendations</li>
           </ul>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | Lumin Lending',
   description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
-    canonical: 'https://www.luminlending.com/heloc-specialist-orange-county',
+    canonical: 'https://www.mothebroker.com/heloc-specialist-orange-county',
   },
 };
 

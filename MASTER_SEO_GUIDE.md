@@ -679,7 +679,7 @@ const zipCodeStrategy = [
   "name": "Mo Abdel - West Capital Lending",
   "description": "Licensed mortgage broker serving Orange County",
   "url": "https://mothebroker.com",
-  "telephone": "(949) 537-2357",
+  "telephone": "(949) 822-9662",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Lake Forest", 

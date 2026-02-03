@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'What Can You Use Home Equity For? 12 Smart Ways to Use Your Equity in 2026 | MoTheBroker',
   description: 'Discover the best uses for home equity in 2026. From home renovations and debt consolidation to education and investments, learn smart ways to leverage your equity.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
+    canonical: 'https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
   },
   keywords: [
     'what can you use home equity for',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'What Can You Use Home Equity For? 12 Smart Ways to Use Your Equity',
     description: 'Discover the best uses for home equity in 2026. From renovations to debt consolidation to investments.',
-    url: 'https://mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
+    url: 'https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function WhatCanYouUseHomeEquityForPage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/what-can-you-use-home-equity-for-2026"
+      "@id": "https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026"
     },
     "keywords": ["home equity uses", "best uses for home equity", "how to use HELOC", "smart home equity"]
   };
@@ -600,10 +600,10 @@ export default function WhatCanYouUseHomeEquityForPage() {
               Get Your Free Quote
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

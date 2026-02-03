@@ -852,10 +852,10 @@ export default function MortgageBrokerVsBankCompletePage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:+19495372357"
+                href="tel:+19498229662"
                 className="inline-flex items-center bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors no-underline"
               >
-                Call (949) 537-2357
+                Call (949) 822-9662
               </a>
               <a
                 href="/contact"

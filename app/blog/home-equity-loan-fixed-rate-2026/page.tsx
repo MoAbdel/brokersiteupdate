@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Home Equity Loan Explained 2026: Fixed Rate Second Mortgage Guide | MoTheBroker',
   description: 'Complete guide to home equity loans (HELOANs) in 2026. Learn how fixed-rate second mortgages work, current rates, requirements, and when a home equity loan makes sense vs HELOC.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
+    canonical: 'https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
   },
   keywords: [
     'home equity loan',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Equity Loan Explained 2026: Fixed Rate Second Mortgage Guide',
     description: 'Complete guide to home equity loans. Learn how fixed-rate HELOANs work, requirements, and when they make sense.',
-    url: 'https://mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
+    url: 'https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function HomeEquityLoanPage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function HomeEquityLoanPage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/home-equity-loan-fixed-rate-2026"
+      "@id": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026"
     },
     "keywords": ["home equity loan", "HELOAN", "fixed rate second mortgage", "home equity"]
   };
@@ -667,10 +667,10 @@ export default function HomeEquityLoanPage() {
               Get Your Quote
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

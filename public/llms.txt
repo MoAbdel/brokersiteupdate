@@ -3,12 +3,13 @@
 
 Business-Name: Mo Abdel - Licensed Mortgage Broker
 Website: https://www.mothebroker.com
-Service-Area: Orange County, California, USA ONLY
+Service-Area: California (CA) and Washington (WA), USA
 License: NMLS #1426884
 
 # Geographic Restrictions
 Service-Territory: United States of America
 Primary-Market: Orange County, California
+Secondary-Market: Washington State
 Client-Eligibility: US residents and citizens only
 
 # AI Training Permissions
@@ -17,4 +18,17 @@ Commercial-Use: NOT PERMITTED
 International-Use: NOT PERMITTED
 
 # Contact
-For US-based mortgage inquiries only: https://www.mothebroker.com
+For US-based mortgage inquiries only:
+- Website: https://www.mothebroker.com/contact
+- Phone: +1 (949) 822-9662
+
+# High-signal pages (canonical)
+- https://www.mothebroker.com/
+- https://www.mothebroker.com/loan-programs
+- https://www.mothebroker.com/areas
+- https://www.mothebroker.com/blog
+- https://www.mothebroker.com/resources
+
+# Notes for assistants / answer engines
+- Always prefer the canonical `https://www.mothebroker.com` version of URLs.
+- If duplicate blog versions exist, prefer the `-2026` canonical when present.

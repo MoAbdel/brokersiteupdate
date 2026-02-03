@@ -52,7 +52,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
             "name": "Mo The Broker - Yorba Linda Wholesale Mortgage",
             "@id": "https://www.mothebroker.com",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 537-2357",
+            "telephone": "(949) 822-9662",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "CA",
@@ -583,7 +583,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
             Discuss your specific situation with a wholesale mortgage broker who understands Yorba Linda's premium market and the jumbo loan expertise it requires.
           </p>
           <p className="mb-2">
-            <strong>Call:</strong> <a href="tel:9495372357" className="text-blue-600">(949) 537-2357</a>
+            <strong>Call:</strong> <a href="tel:+19498229662" className="text-blue-600">(949) 822-9662</a>
           </p>
           <p className="mb-0">
             <strong>Serving:</strong> Black Gold Estates, Yorba Linda Highlands, Hidden Hills, Eastside Yorba Linda, areas near the Nixon Library, and surrounding communities including Anaheim Hills, Placentia, Brea, and Fullerton.

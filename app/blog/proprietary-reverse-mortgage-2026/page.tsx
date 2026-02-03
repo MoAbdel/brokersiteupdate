@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Proprietary Reverse Mortgages 2026: Jumbo Options for High-Value Homes | MoTheBroker',
   description: 'Complete guide to proprietary (jumbo) reverse mortgages for high-value homes in 2026. Learn how these private reverse mortgages work, who qualifies, and when they make sense vs HECM.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/proprietary-reverse-mortgage-2026',
+    canonical: 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
   },
   keywords: [
     'proprietary reverse mortgage',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Proprietary Reverse Mortgages 2026: Jumbo Options for High-Value Homes',
     description: 'Complete guide to jumbo reverse mortgages for high-value homes. Learn requirements, how they compare to HECM, and when they make sense.',
-    url: 'https://mothebroker.com/blog/proprietary-reverse-mortgage-2026',
+    url: 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function ProprietaryReverseMortgagePage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker & Reverse Mortgage Specialist",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function ProprietaryReverseMortgagePage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/proprietary-reverse-mortgage-2026"
+      "@id": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026"
     },
     "keywords": ["proprietary reverse mortgage", "jumbo reverse mortgage", "high value home", "California reverse mortgage"]
   };
@@ -769,10 +769,10 @@ export default function ProprietaryReverseMortgagePage() {
               Schedule Consultation
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

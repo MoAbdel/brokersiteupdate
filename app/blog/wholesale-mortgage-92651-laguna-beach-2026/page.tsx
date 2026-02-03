@@ -98,7 +98,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
               "addressLocality": "Laguna Beach",
               "addressRegion": "CA"
             },
-            "telephone": "(949) 537-2357"
+            "telephone": "(949) 822-9662"
           })
         }}
       />
@@ -279,7 +279,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
           </p>
           <p className="text-sm text-gray-700 mt-2">
             Laguna Beach 92651 Jumbo & Second Home Specialist<br />
-            (949) 537-2357
+            (949) 822-9662
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

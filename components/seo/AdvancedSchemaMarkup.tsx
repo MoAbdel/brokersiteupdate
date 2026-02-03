@@ -1,4 +1,5 @@
 import React from 'react';
+import { PHONE_E164 } from '@/lib/site';
 
 interface SchemaProps {
   type: 'Organization' | 'MortgageBroker' | 'FinancialService' | 'LocalBusiness';
@@ -35,7 +36,7 @@ export default function AdvancedSchemaMarkup({
   name = "Mo Abdel - California Mortgage Broker | Lumin Lending",
   description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://www.mothebroker.com",
-  telephone = "+19498229662",
+  telephone = PHONE_E164,
   significantLinks = [
     "https://www.mothebroker.com/",
     "https://www.mothebroker.com/loan-programs",

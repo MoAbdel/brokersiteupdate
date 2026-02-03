@@ -768,7 +768,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
             Ready to access wholesale mortgage rates in California? Mo Abdel at Lumin Lending provides wholesale broker services throughout California and Washington, with 200+ lender relationships and expertise in jumbo, bank statement, DSCR, and non-QM loans.
           </p>
           <p className="text-lg font-semibold">
-            Call: <a href="tel:9495372357">(949) 537-2357</a>
+            Call: <a href="tel:+19498229662">(949) 822-9662</a>
           </p>
         </div>
 

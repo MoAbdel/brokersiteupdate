@@ -190,7 +190,7 @@ Orange County is served by major banks (Wells Fargo, Chase, Bank of America) and
 Lumin Lending | NMLS #2716106 | DRE #02291443
 
 Orange County Wholesale Mortgage Specialist
-📞 (949) 537-2357
+📞 (949) 822-9662
 
 Equal Housing Lender. All loans subject to credit approval.
 
@@ -326,7 +326,7 @@ Local banks in [City] include [Bank 1] and [Bank 2]. Here's how wholesale compar
 Lumin Lending | NMLS #2716106 | DRE #02291443
 
 [City] Wholesale Mortgage Specialist
-📞 (949) 537-2357
+📞 (949) 822-9662
 
 Equal Housing Lender. All loans subject to credit approval.
 

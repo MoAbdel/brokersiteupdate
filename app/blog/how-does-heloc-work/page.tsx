@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Does a HELOC Work? Home Equity Line of Credit Explained [2026]',
     description: 'How does a HELOC work? Complete guide to home equity lines of credit including draw periods, repayment, variable rates, and best uses. Expert guidance from Mo Abdel, NMLS #1426884.',
-    url: 'https://mothebroker.com/blog/how-does-heloc-work',
+    url: 'https://www.mothebroker.com/blog/how-does-heloc-work',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-02',
@@ -28,18 +28,18 @@ export default function HowDoesHELOCWorkPage() {
       name: 'Mo Abdel',
       jobTitle: 'Wholesale Mortgage Broker',
       identifier: 'NMLS #1426884',
-      url: 'https://mothebroker.com/about',
+      url: 'https://www.mothebroker.com/about',
       knowsAbout: ['HELOC', 'Home Equity Line of Credit', 'Home Equity Lending', 'Mortgage Products'],
     },
     publisher: {
       '@type': 'Organization',
       name: 'Lumin Lending',
       identifier: 'NMLS #2716106',
-      url: 'https://mothebroker.com',
+      url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-02',
     dateModified: '2026-02-02',
-    mainEntityOfPage: 'https://mothebroker.com/blog/how-does-heloc-work',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/how-does-heloc-work',
     copyrightHolder: {
       '@type': 'Organization',
       name: 'Lumin Lending',
@@ -658,7 +658,7 @@ export default function HowDoesHELOCWorkPage() {
               Contact Mo Abdel today to receive a personalized HELOC assessment, including rate quotes from multiple lenders and analysis of how a HELOC fits your financial goals.
             </p>
             <p className="text-blue-800 font-semibold">
-              Call: (949) 537-2357 | Email: mabdel@luminlending.com
+              Call: (949) 822-9662 | Email: mabdel@luminlending.com
             </p>
             <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
               Request Your Free Quote

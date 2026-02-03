@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HELOC vs Home Equity Loan: Which Is Right for You? [2026]',
     description: 'HELOC vs home equity loan comparison: Understand the key differences between variable-rate HELOCs and fixed-rate HELOANs. Find the best option for your needs in 2026.',
-    url: 'https://mothebroker.com/blog/heloc-vs-home-equity-loan-2026',
+    url: 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-27',
@@ -33,7 +33,7 @@ export default function HELOCvsHELOANGuide() {
     },
     datePublished: '2026-01-27',
     dateModified: '2026-01-27',
-    mainEntityOfPage: 'https://mothebroker.com/blog/heloc-vs-home-equity-loan-2026',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan-2026',
   };
 
   const faqJsonLd = {
@@ -322,7 +322,7 @@ export default function HELOCvsHELOANGuide() {
             As a wholesale mortgage broker, I access both HELOCs and home equity loans from multiple lenders. I can help you compare options side-by-side to find the best fit for your financial goals and situation.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

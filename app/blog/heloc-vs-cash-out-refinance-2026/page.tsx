@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'HELOC vs Cash-Out Refinance 2026: Complete Comparison Guide',
     description: 'HELOC vs cash out refinance 2026: Compare costs, rates, and features. Learn when to keep your first mortgage with a HELOC vs replacing it with a cash-out refinance.',
-    url: 'https://mothebroker.com/blog/heloc-vs-cash-out-refinance-2026',
+    url: 'https://www.mothebroker.com/blog/heloc-vs-cash-out-refinance-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-27',
@@ -33,7 +33,7 @@ export default function HELOCvsCashOutGuide() {
     },
     datePublished: '2026-01-27',
     dateModified: '2026-01-27',
-    mainEntityOfPage: 'https://mothebroker.com/blog/heloc-vs-cash-out-refinance-2026',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/heloc-vs-cash-out-refinance-2026',
   };
 
   const faqJsonLd = {
@@ -322,7 +322,7 @@ export default function HELOCvsCashOutGuide() {
             As a wholesale mortgage broker, I can run the numbers on both options for your specific situation. I&apos;ll help you compare total costs, monthly payments, and long-term implications to find the best path to accessing your home equity.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

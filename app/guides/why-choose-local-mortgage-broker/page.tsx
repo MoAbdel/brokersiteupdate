@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     publishedTime: '2025-07-18T08:30:00Z',
   },
   alternates: {
-    canonical: 'https://www.luminlending.com/guides/why-choose-local-mortgage-broker',
+    canonical: 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
   },
 };
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Reverse Mortgage Pros and Cons 2026: Complete HECM Analysis | MoTheBroker',
   description: 'Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like tax-free income and no monthly payments, plus important considerations before tapping home equity.',
   alternates: {
-    canonical: 'https://mothebroker.com/blog/hecm-pros-cons-2026',
+    canonical: 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
   },
   keywords: [
     'reverse mortgage pros and cons',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Reverse Mortgage Pros and Cons 2026: Complete HECM Analysis',
     description: 'Comprehensive analysis of reverse mortgage benefits and considerations. Tax-free income, no monthly payments, plus what to watch for.',
-    url: 'https://mothebroker.com/blog/hecm-pros-cons-2026',
+    url: 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
     type: 'article',
     publishedTime: '2026-01-29',
     authors: ['Mo Abdel'],
@@ -37,7 +37,7 @@ export default function HECMProsConsPage() {
       "@type": "Person",
       "name": "Mo Abdel",
       "jobTitle": "Mortgage Broker & Reverse Mortgage Specialist",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending"
@@ -46,13 +46,13 @@ export default function HECMProsConsPage() {
     "publisher": {
       "@type": "Organization",
       "name": "MoTheBroker.com",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
     "dateModified": "2026-01-29",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/hecm-pros-cons-2026"
+      "@id": "https://www.mothebroker.com/blog/hecm-pros-cons-2026"
     },
     "keywords": ["reverse mortgage pros and cons", "HECM benefits", "reverse mortgage risks", "senior home equity"]
   };
@@ -691,10 +691,10 @@ export default function HECMProsConsPage() {
               Schedule Consultation
             </Link>
             <a
-              href="tel:+19495372357"
+              href="tel:+19498229662"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 537-2357
+              Call (949) 822-9662
             </a>
           </div>
         </div>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Does a HELOC Work? Home Equity Line of Credit Explained [2026]',
     description: 'How does a HELOC work? A home equity line of credit provides revolving access to your equity. Learn HELOC requirements, rates, and draw periods in 2026.',
-    url: 'https://mothebroker.com/blog/how-does-heloc-work-2026',
+    url: 'https://www.mothebroker.com/blog/how-does-heloc-work-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-27',
@@ -33,7 +33,7 @@ export default function HELOCExplainedGuide() {
     },
     datePublished: '2026-01-27',
     dateModified: '2026-01-27',
-    mainEntityOfPage: 'https://mothebroker.com/blog/how-does-heloc-work-2026',
+    mainEntityOfPage: 'https://www.mothebroker.com/blog/how-does-heloc-work-2026',
   };
 
   const faqJsonLd = {
@@ -320,7 +320,7 @@ export default function HELOCExplainedGuide() {
             As a wholesale mortgage broker, I access HELOC options from multiple lenders to find competitive rates and terms for your situation. Whether you&apos;re planning home improvements, need an emergency fund backup, or want to consolidate debt, I can help you compare options.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

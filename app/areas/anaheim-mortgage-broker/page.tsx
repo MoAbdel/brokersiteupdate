@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Anaheim Mortgage Broker | Lumin Lending - Orange County Mortgage Broker',
   description: 'Anaheim mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.luminlending.com/areas/anaheim-mortgage-broker',
+    canonical: 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
   },
 };
 

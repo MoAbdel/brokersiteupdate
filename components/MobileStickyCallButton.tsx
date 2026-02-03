@@ -4,6 +4,7 @@ import React from 'react';
 import { Phone } from 'lucide-react';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 import SupportBubble from '@/components/SupportBubble';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
 
 export default function MobileStickyCallButton() {
   // Force recompile to fix hydration mismatch
@@ -21,7 +22,7 @@ export default function MobileStickyCallButton() {
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-[999999] w-full [transform:translateZ(0)] [backface-visibility:hidden] [will-change:transform]">
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] safe-bottom-padding">
           <a
-            href="tel:(949) 822-9662"
+            href={PHONE_TEL_HREF}
             className="flex items-center justify-center gap-3 px-6 py-4 font-bold"
             onClick={() => {
               trackPhoneCall();
@@ -39,7 +40,7 @@ export default function MobileStickyCallButton() {
             </div>
             <div className="text-left">
               <span className="block text-[10px] font-normal text-green-100 uppercase tracking-wider leading-none mb-1">Tap to Call Mo Abdel</span>
-              <span className="block text-xl font-black leading-none uppercase tracking-tight">(949) 822-9662</span>
+              <span className="block text-xl font-black leading-none uppercase tracking-tight">{PHONE_DISPLAY}</span>
             </div>
           </a>
         </div>

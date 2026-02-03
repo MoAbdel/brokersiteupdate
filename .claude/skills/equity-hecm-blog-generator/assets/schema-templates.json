@@ -12,11 +12,11 @@
       "name": "Mo Abdel",
       "jobTitle": "Licensed Mortgage Broker",
       "identifier": "NMLS #1426884",
-      "url": "https://mothebroker.com/about",
+      "url": "https://www.mothebroker.com/about",
       "worksFor": {
         "@type": "Organization",
         "name": "Lumin Lending",
-        "url": "https://mothebroker.com"
+        "url": "https://www.mothebroker.com"
       },
       "knowsAbout": [
         "Reverse Mortgages",
@@ -30,17 +30,17 @@
     "publisher": {
       "@type": "Organization",
       "name": "Lumin Lending",
-      "url": "https://mothebroker.com",
+      "url": "https://www.mothebroker.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://mothebroker.com/images/mo-logo-white.webp"
+        "url": "https://www.mothebroker.com/images/mo-logo-white.webp"
       }
     },
     "datePublished": "[ISO_DATE]",
     "dateModified": "[ISO_DATE]",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://mothebroker.com/blog/[SLUG]",
+      "@id": "https://www.mothebroker.com/blog/[SLUG]",
       "significantLink": [
         "https://www.hud.gov/",
         "https://www.consumerfinance.gov/",
@@ -50,7 +50,7 @@
     "copyrightHolder": {
       "@type": "Organization",
       "name": "Lumin Lending",
-      "url": "https://mothebroker.com"
+      "url": "https://www.mothebroker.com"
     },
     "copyrightYear": "2026"
   },
@@ -83,8 +83,8 @@
     "@type": "MortgageBroker",
     "name": "Mo Abdel - Wholesale Mortgage Broker",
     "description": "Wholesale mortgage broker serving California and Washington. Specializing in reverse mortgages (HECM), HELOC, home equity loans, and cash-out refinance.",
-    "url": "https://mothebroker.com",
-    "telephone": "(949) 537-2357",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 822-9662",
     "email": "mo@mothebroker.com",
     "areaServed": [
       {
@@ -120,8 +120,8 @@
     "@type": "MortgageBroker",
     "name": "Mo Abdel - [CITY] Mortgage Broker",
     "description": "[TRACK]-focused mortgage services in [CITY], [STATE]. NMLS #1426884.",
-    "url": "https://mothebroker.com",
-    "telephone": "(949) 537-2357",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 822-9662",
     "areaServed": {
       "@type": "City",
       "name": "[CITY]",

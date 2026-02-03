@@ -106,6 +106,10 @@ export function generateFAQSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h2", "dl", "dt", "dd"]
+    },
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,

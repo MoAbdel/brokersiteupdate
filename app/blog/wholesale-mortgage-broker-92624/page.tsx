@@ -100,7 +100,7 @@ export default function WholesaleMortgageBroker92624Page() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
             "description": "Capistrano Beach wholesale mortgage broker serving 92624 with 200+ lender access for jumbo loans and beach property financing.",
-            "telephone": "(949) 537-2357",
+            "telephone": "(949) 822-9662",
             "areaServed": {
               "@type": "PostalAddress",
               "postalCode": "92624",
@@ -281,7 +281,7 @@ export default function WholesaleMortgageBroker92624Page() {
           </p>
           <p className="text-sm text-gray-700 mt-2">
             Capistrano Beach (92624) Wholesale Mortgage Specialist<br />
-            (949) 537-2357
+            (949) 822-9662
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

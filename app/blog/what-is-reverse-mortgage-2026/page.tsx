@@ -31,7 +31,7 @@ export default function WhatIsReverseMortgagePage() {
                             "name": "Mo Abdel",
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
-                            "url": "https://mothebroker.com/about",
+                            "url": "https://www.mothebroker.com/about",
                             "worksFor": {
                                 "@type": "Organization",
                                 "name": "Lumin Lending",
@@ -41,7 +41,7 @@ export default function WhatIsReverseMortgagePage() {
                         "publisher": {
                             "@type": "Organization",
                             "name": "Lumin Lending",
-                            "url": "https://mothebroker.com"
+                            "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-29",
                         "dateModified": "2026-01-29",

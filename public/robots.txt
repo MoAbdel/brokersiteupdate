@@ -106,7 +106,7 @@ User-agent: SeznamBot
 Disallow: /
 
 # Host
-Host: https://www.mothebroker.com
+Host: www.mothebroker.com
 
 # Sitemaps
 Sitemap: https://www.mothebroker.com/sitemap.xml

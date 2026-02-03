@@ -115,10 +115,11 @@ export const structuredData = {
   ],
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Lake Forest",
+    "streetAddress": "18301 Von Karman Ave Suite 820",
+    "addressLocality": "Irvine",
     "addressRegion": "CA",
     "addressCountry": "US",
-    "postalCode": "92630"
+    "postalCode": "92612"
   },
   "geo": {
     "@type": "GeoCoordinates",
@@ -126,6 +127,7 @@ export const structuredData = {
     "longitude": "-117.8265"
   },
   "telephone": "+1-949-822-9662",
+  "email": "mabdel@luminlending.com",
   "url": "https://www.mothebroker.com",
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61573517340174",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Reverse Mortgage vs HELOC for Seniors: Which Is Better in 2026?',
     description: 'Reverse mortgage vs HELOC seniors comparison 2026. No monthly payments with HECM vs required payments with HELOC.',
-    url: 'https://mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors-2026',
+    url: 'https://www.mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors-2026',
     type: 'article',
     authors: ['Mo Abdel'],
   },
@@ -288,7 +288,7 @@ export default function ReverseMortgageVsHELOCSeniors() {
           <p>
             Not sure which option is right for you? I can help you compare reverse mortgage vs HELOC options for your specific situation. Remember, for HECM reverse mortgages, you must complete HUD-approved counseling—I can connect you with resources.
           </p>
-          <p className="mt-4">Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com</p>
+          <p className="mt-4">Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com</p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>

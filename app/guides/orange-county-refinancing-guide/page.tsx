@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Orange County Refinancing Guide | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County refinancing guide covering rate-and-term, cash-out, HELOC options. Save money on your mortgage. NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.luminlending.com/guides/orange-county-refinancing-guide',
+    canonical: 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
   },
 };
 

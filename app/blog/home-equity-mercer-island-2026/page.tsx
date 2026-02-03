@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Equity Options in Mercer Island, WA: HELOC, HELOAN & Cash-Out [2026]',
     description: 'Home equity Mercer Island guide 2026: Compare HELOC, home equity loans, and cash-out refinance options for Mercer Island homeowners.',
-    url: 'https://mothebroker.com/blog/home-equity-mercer-island-2026',
+    url: 'https://www.mothebroker.com/blog/home-equity-mercer-island-2026',
     type: 'article',
     authors: ['Mo Abdel'],
   },
@@ -178,7 +178,7 @@ export default function HomeEquityMercerIsland() {
           <p>
             As a wholesale mortgage broker serving Mercer Island and the Eastside, I provide free equity assessments, side-by-side product comparisons, and access to wholesale rates from 50+ lenders.
           </p>
-          <p className="mt-4">Contact Mo Abdel today: (949) 537-2357 | mabdel@luminlending.com</p>
+          <p className="mt-4">Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com</p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>
