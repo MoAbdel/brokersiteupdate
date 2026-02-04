@@ -951,7 +951,7 @@ export default function ReverseMortgageCaliforniaWashingtonPillar2026Page() {
         </ul>
 
         <p>
-          See our city-specific guides: <a href="/blog/reverse-mortgage-medina-wa-2026">Reverse Mortgage Medina WA</a> | <a href="/blog/home-equity-bellevue-wa-2026">Home Equity Bellevue</a> | <a href="/blog/home-equity-mercer-island-2026">Home Equity Mercer Island</a>
+          See our city-specific guides: <a href="/blog/reverse-mortgage-medina-wa-2026">Reverse Mortgage Medina WA</a> | <a href="/home-equity-guide">Home Equity Bellevue</a> | <a href="/home-equity-guide">Home Equity Mercer Island</a>
         </p>
 
         {/* =================================================================
@@ -1189,7 +1189,7 @@ export default function ReverseMortgageCaliforniaWashingtonPillar2026Page() {
               <h4 className="font-semibold text-gray-800 mb-2">HECM Fundamentals</h4>
               <ul className="space-y-1 text-gray-700">
                 <li><a href="/blog/what-is-reverse-mortgage-hecm-guide-2026" className="hover:text-blue-600">What Is a Reverse Mortgage?</a></li>
-                <li><a href="/blog/reverse-mortgage-requirements-2026" className="hover:text-blue-600">Reverse Mortgage Requirements 2026</a></li>
+                <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="hover:text-blue-600">Reverse Mortgage Requirements 2026</a></li>
                 <li><a href="/blog/reverse-mortgage-calculator-2026" className="hover:text-blue-600">Reverse Mortgage Calculator Guide</a></li>
                 <li><a href="/blog/hecm-counseling-requirements-2026" className="hover:text-blue-600">HUD Counseling Requirements</a></li>
               </ul>

@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { Shield, Star, Home, MapPin, Calculator, Phone, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
+export const metadata = {
+  robots: { index: false, follow: true },
+};
+
 export default function OrangeCountyVALoansGuide() {
   const vaLoanBenefits = [
     {

@@ -1045,7 +1045,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
           <h4>HECM Fundamentals</h4>
           <ul>
             <li><a href="/blog/what-is-reverse-mortgage-2026">What Is a Reverse Mortgage?</a></li>
-            <li><a href="/blog/reverse-mortgage-requirements-2026">Reverse Mortgage Requirements 2026</a></li>
+            <li><a href="/blog/reverse-mortgage-requirements-complete-2026">Reverse Mortgage Requirements 2026</a></li>
             <li><a href="/blog/hecm-counseling-requirements-2026">HUD Counseling Requirements</a></li>
             <li><a href="/blog/reverse-mortgage-calculator-2026">Reverse Mortgage Calculator Guide</a></li>
           </ul>

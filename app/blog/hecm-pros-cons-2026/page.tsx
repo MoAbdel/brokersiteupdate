@@ -660,7 +660,7 @@ export default function HECMProsConsPage() {
               <p className="text-sm text-gray-600 mt-1">Back to basics: how HECMs work</p>
             </Link>
             <Link
-              href="/blog/reverse-mortgage-requirements-2026"
+              href="/blog/reverse-mortgage-requirements-complete-2026"
               className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
             >
               <span className="font-semibold text-blue-600">HECM Requirements 2026 →</span>

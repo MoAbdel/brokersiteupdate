@@ -1004,3 +1004,65 @@ Total: 3,250-4,075 words
 | "Apply now" | "Let me educate you first, then help you decide" |
 | Generic content | Affluent zip-specific insights |
 | No explanation | Full transparency on wholesale vs retail |
+
+---
+
+## MANDATORY: Post-Generation Final Submission (REQUIRED)
+
+**After ALL blog generation is complete, you MUST execute these final steps in order:**
+
+### Step 1: Git Commit & Push
+
+```bash
+# Stage all changes
+git add .
+
+# Commit with descriptive message
+git commit -m "blog: Add [N] new SEO-optimized posts
+
+Posts added:
+- [slug-1]: [keyword-1]
+- [slug-2]: [keyword-2]
+...
+
+🤖 Generated with Claude Code blog-generator skill"
+
+# Push to production
+git push origin main
+```
+
+### Step 2: Submit URLs to IndexNow
+
+```bash
+# Navigate to root Projects folder and run IndexNow submission
+cd C:/Users/bigbi/Projects
+python seo_submit.py indexnow --site mothebroker.com
+```
+
+### Step 3: Submit Sitemap to GSC + Bing
+
+```bash
+# Submit sitemap to Google Search Console and Bing
+cd C:/Users/bigbi/Projects
+python seo_submit.py sitemap --site mothebroker.com
+```
+
+### Step 4: Submit Recent URLs for GSC Indexing
+
+```bash
+# Submit most recent 200 URLs for indexing on Google Search Console
+cd C:/Users/bigbi/Projects
+python gsc_index_urls.py --site mothebroker.com --limit 200
+```
+
+### Final Submission Checklist
+
+- [ ] All blog files committed to git
+- [ ] Changes pushed to origin/main
+- [ ] Entry added to lib/all-blog-posts.ts for /guides page
+- [ ] IndexNow submission completed
+- [ ] Sitemap submitted to GSC + Bing
+- [ ] Recent 200 URLs submitted for GSC indexing
+- [ ] Build/deployment successful (Vercel auto-deploys from main)
+
+### ⚠️ CRITICAL: The skill is NOT complete until ALL submission steps are executed successfully.

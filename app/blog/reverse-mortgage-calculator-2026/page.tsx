@@ -456,7 +456,7 @@ export default function ReverseMortgageCalculatorPage() {
                 <ul>
                     <li><Link href="/reverse-mortgages" className="text-blue-600 hover:underline">Reverse Mortgages Pillar Page</Link></li>
                     <li><Link href="/blog/what-is-reverse-mortgage-2026" className="text-blue-600 hover:underline">What Is a Reverse Mortgage?</Link></li>
-                    <li><Link href="/blog/reverse-mortgage-requirements-2026" className="text-blue-600 hover:underline">HECM Eligibility Requirements</Link></li>
+                    <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">HECM Eligibility Requirements</Link></li>
                     <li><Link href="/blog/reverse-mortgage-pros-cons-2026" className="text-blue-600 hover:underline">Pros and Cons of Reverse Mortgages</Link></li>
                     <li><Link href="/blog/jumbo-reverse-mortgage-california-2026" className="text-blue-600 hover:underline">Jumbo Reverse Mortgages for High-Value Homes</Link></li>
                 </ul>

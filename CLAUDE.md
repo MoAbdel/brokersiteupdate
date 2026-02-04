@@ -1,5 +1,22 @@
 # Claude Memory: Complete SEO-Optimized MoTheBroker.com - PEAK OPTIMIZATION ACHIEVED
 
+## Superpowers Integration
+
+**On every query**, check if any superpowers skill applies before responding:
+
+| Trigger | Skill |
+|---------|-------|
+| Creative/feature work | `superpowers:brainstorming` |
+| 2+ independent tasks | `superpowers:dispatching-parallel-agents` |
+| Bug/test failure | `superpowers:systematic-debugging` |
+| Implementing feature | `superpowers:test-driven-development` |
+| Multi-step task with spec | `superpowers:writing-plans` |
+| About to claim complete | `superpowers:verification-before-completion` |
+| Need code review | `superpowers:requesting-code-review` |
+| Ready to merge | `superpowers:finishing-a-development-branch` |
+
+**Rule**: If there's even a 1% chance a skill applies, invoke it first.
+
 ## Project Overview  
 Successfully implemented a complete, SEO-optimized Next.js mortgage broker website for mothebroker.com with comprehensive technical SEO, social media optimization, performance enhancements, and comprehensive resource library for backlink building. This represents the PEAK OPTIMIZED build with all critical SEO issues resolved and comprehensive content strategy implemented.
 
@@ -246,6 +263,22 @@ The implemented optimizations should result in:
 **STATUS: PEAK OPTIMIZATION ACHIEVED - This website now represents the gold standard for mortgage broker websites with comprehensive SEO, content strategy, and user experience optimization.**
 
 ---
+
+## Commands
+```bash
+npm run dev       # Start dev server (port 3000)
+npm run build     # Production build
+npm run lint      # Next.js ESLint
+npm run typecheck # TypeScript type checking
+```
+
+## Pre-commit Hooks
+
+This project uses Husky + lint-staged for pre-commit validation:
+- **ESLint**: Auto-fixes linting issues on staged .js/.jsx/.ts/.tsx files
+- **TypeScript**: Runs type checking on staged .ts/.tsx files
+
+To set up hooks after cloning: `npm install` (runs `prepare` script automatically)
 
 ## Worktree Directory
 `.worktrees/` - Use for parallel feature development

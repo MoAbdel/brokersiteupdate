@@ -181,9 +181,9 @@ export default function ReverseMortgageMedina() {
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>
             <ul className="space-y-2">
-              <li><a href="/blog/home-equity-bellevue-wa-2026" className="text-blue-600 hover:underline">Home Equity Options in Bellevue</a></li>
+              <li><a href="/home-equity-guide" className="text-blue-600 hover:underline">Home Equity Options in Bellevue</a></li>
               <li><a href="/blog/what-is-reverse-mortgage-hecm-guide-2026" className="text-blue-600 hover:underline">What Is a Reverse Mortgage?</a></li>
-              <li><a href="/blog/reverse-mortgage-requirements-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
               <li><a href="/contact" className="text-blue-600 hover:underline">Get Your Free Quote</a></li>
             </ul>
           </div>

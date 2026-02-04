@@ -486,7 +486,7 @@ export default function WhatIsReverseMortgageGuide() {
             <h3 className="font-bold mb-3">Related Reverse Mortgage Resources:</h3>
             <ul className="space-y-2">
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Complete Guide to Reverse Mortgages in California & Washington</a></li>
-              <li><a href="/blog/reverse-mortgage-requirements-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026: Eligibility Checklist</a></li>
+              <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026: Eligibility Checklist</a></li>
               <li><a href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors: Which Is Better?</a></li>
               <li><a href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:underline">Reverse Mortgage Pros and Cons</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options Explained</a></li>

@@ -1029,9 +1029,9 @@ export default function HomeEquityGuidePage() {
           </ul>
           <h4>Location-Specific</h4>
           <ul>
-            <li><a href="/blog/home-equity-newport-beach-2026">Home Equity Newport Beach</a></li>
+            <li><a href="/home-equity-guide">Home Equity Newport Beach</a></li>
             <li><a href="/blog/home-equity-irvine-2026">Home Equity Irvine</a></li>
-            <li><a href="/blog/home-equity-bellevue-wa-2026">Home Equity Bellevue WA</a></li>
+            <li><a href="/home-equity-guide">Home Equity Bellevue WA</a></li>
           </ul>
         </div>
 

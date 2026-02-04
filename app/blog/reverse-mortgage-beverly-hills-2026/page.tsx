@@ -255,7 +255,7 @@ export default function ReverseMortgageBeverlyHillsPage() {
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Complete Reverse Mortgage Guide</a></li>
             <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary (Jumbo) Reverse Mortgages</a></li>
             <li><a href="/blog/hecm-vs-heloc-seniors-2026">HECM vs HELOC for Seniors</a></li>
-            <li><a href="/blog/reverse-mortgage-requirements-2026">Reverse Mortgage Requirements 2026</a></li>
+            <li><a href="/blog/reverse-mortgage-requirements-complete-2026">Reverse Mortgage Requirements 2026</a></li>
           </ul>
         </div>
 

@@ -151,7 +151,7 @@ export default function ReverseMortgageLaJolla() {
             <h3 className="font-bold mb-2">Related Resources:</h3>
             <ul className="space-y-2">
               <li><a href="/blog/what-is-reverse-mortgage-hecm-guide-2026" className="text-blue-600 hover:underline">What Is a Reverse Mortgage?</a></li>
-              <li><a href="/blog/reverse-mortgage-requirements-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
               <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">Reverse Mortgage vs HELOC for Seniors</a></li>
               <li><a href="/contact" className="text-blue-600 hover:underline">Get Your Free Quote</a></li>
             </ul>

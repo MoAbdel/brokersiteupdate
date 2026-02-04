@@ -524,7 +524,7 @@ export default function ReverseMortgageGuide2026Page() {
           <h3 className="mt-0">Related Reverse Mortgage Resources</h3>
           <ul>
             <li><a href="/blog/what-is-reverse-mortgage-hecm-guide-2026">What Is a Reverse Mortgage?</a></li>
-            <li><a href="/blog/reverse-mortgage-requirements-2026">Reverse Mortgage Requirements 2026</a></li>
+            <li><a href="/blog/reverse-mortgage-requirements-complete-2026">Reverse Mortgage Requirements 2026</a></li>
             <li><a href="/blog/hecm-vs-heloc-seniors-2026">HECM vs HELOC for Seniors</a></li>
             <li><a href="/blog/hecm-pros-cons-2026">Reverse Mortgage Pros and Cons</a></li>
             <li><a href="/blog/hecm-counseling-requirements-2026">HUD Counseling Requirements</a></li>

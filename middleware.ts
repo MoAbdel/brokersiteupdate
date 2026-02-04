@@ -40,9 +40,36 @@ export function middleware(request: NextRequest) {
     '/blog/200-lender-advantage': '/blog/200-lender-advantage-explained-2026',
     // Keep older heloc comparison canonicalized to the 2026 cluster page
     '/blog/wholesale-vs-retail-mortgage': '/blog/wholesale-vs-retail-mortgage-complete-2026',
+    // Pruned low-traffic geo pages -> broader hubs
+    '/blog/hermosa-beach-mortgage-guide-2026': '/areas',
+    '/blog/lake-forest-mortgage-guide-2026': '/areas',
+    '/blog/san-juan-capistrano-mortgage-guide-2026': '/areas',
+    '/blog/tustin-mortgage-guide-2026': '/areas',
+    '/blog/villa-park-mortgage-guide-2026': '/areas',
+    '/blog/home-equity-bellevue-wa-2026': '/home-equity-guide',
+    '/blog/home-equity-laguna-beach-2026': '/home-equity-guide',
+    '/blog/home-equity-mercer-island-2026': '/home-equity-guide',
+    '/blog/home-equity-newport-beach-2026': '/home-equity-guide',
+    '/blog/reverse-mortgage-requirements-2026': '/blog/reverse-mortgage-requirements-complete-2026',
+    '/blog/seal-beach-mortgage-guide-2026': '/areas/seal-beach-mortgage-broker',
   };
 
-  const redirectTarget = blogRedirects[pathname];
+  const pageRedirects: Record<string, string> = {
+    '/areas/irvine-neighborhoods/cypress-village-mortgage-broker': '/areas/irvine-neighborhoods',
+    '/areas/irvine-neighborhoods/turtle-rock-mortgage-broker': '/areas/irvine-neighborhoods',
+    '/areas/irvine-neighborhoods/university-park-mortgage-broker': '/areas/irvine-neighborhoods',
+    '/areas/costa-mesa-mortgage-rates': '/areas/costa-mesa-mortgage-broker',
+    '/zip-codes/92625-corona-del-mar-mortgage-broker': '/areas/newport-beach-mortgage-broker',
+    '/guides/spring-2025-home-buying-guide': '/guides/spring-2026-home-buying-guide',
+    '/articles': '/blog',
+    '/articles/newport-beach-mortgage-guide-2026': '/blog/newport-beach-mortgage-guide-2026',
+    '/articles/laguna-beach-jumbo-loan-guide': '/blog/laguna-beach-mortgage-guide-2026',
+    '/articles/dana-point-first-time-homebuyer-guide': '/guides/orange-county-home-buyer-guide',
+    '/articles/orange-county-mortgage-rate-trends-august-2026': '/blog',
+    '/articles/wholesale-vs-retail-mortgages-comparison': '/blog/wholesale-vs-retail-mortgage-complete-2026',
+  };
+
+  const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname];
   if (redirectTarget) {
     const redirectUrl = new URL(`https://www.mothebroker.com${redirectTarget}${search}`);
     return NextResponse.redirect(redirectUrl, 301);

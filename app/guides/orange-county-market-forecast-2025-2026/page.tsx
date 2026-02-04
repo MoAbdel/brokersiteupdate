@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { TrendingUp, Calendar, BarChart3, MapPin, Calculator, Phone, AlertCircle, Target } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
+export const metadata = {
+  robots: { index: false, follow: true },
+};
+
 export default function OrangeCountyMarketForecast() {
   const marketPredictions = [
     {

@@ -407,7 +407,7 @@ export default function WhatIsReverseMortgagePage() {
                 <h2>Related Reverse Mortgage Resources</h2>
                 <ul>
                     <li><Link href="/reverse-mortgages" className="text-blue-600 hover:underline">Reverse Mortgages Pillar Page</Link></li>
-                    <li><Link href="/blog/reverse-mortgage-requirements-2026" className="text-blue-600 hover:underline">HECM Eligibility Requirements 2026</Link></li>
+                    <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">HECM Eligibility Requirements 2026</Link></li>
                     <li><Link href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">Reverse Mortgage Calculator Guide</Link></li>
                     <li><Link href="/blog/reverse-mortgage-pros-cons-2026" className="text-blue-600 hover:underline">Pros and Cons of Reverse Mortgages</Link></li>
                     <li><Link href="/blog/hud-reverse-mortgage-counseling-2026" className="text-blue-600 hover:underline">HUD Counseling Requirements</Link></li>

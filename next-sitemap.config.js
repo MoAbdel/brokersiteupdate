@@ -9,6 +9,9 @@ module.exports = {
     '/admin/*',
     '/api/*',
     '/dashboard/*',
+    '/guides/orange-county-school-districts',
+    '/guides/orange-county-market-forecast-2025-2026',
+    '/guides/orange-county-va-loans',
     '/_not-found'
   ],
   robotsTxtOptions: {
@@ -175,12 +178,6 @@ module.exports = {
       '/non-qm-loans-orange-county',
       '/rate-term-refinance-orange-county',
       '/jumbo-loans-orange-county',
-      '/articles/newport-beach-mortgage-guide-2026',
-      '/articles/laguna-beach-jumbo-loan-guide',
-      '/articles/dana-point-first-time-homebuyer-guide',
-      '/articles/orange-county-mortgage-rate-trends-august-2026',
-      '/articles/wholesale-vs-retail-mortgages-comparison',
-
       // Blog Posts (All 20)
       '/blog/newport-beach-mortgage-guide-2026',
       '/blog/laguna-beach-mortgage-guide-2026',

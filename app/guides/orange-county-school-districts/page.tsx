@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { GraduationCap, Home, TrendingUp, MapPin, Star, Phone, Calculator } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
+export const metadata = {
+  robots: { index: false, follow: true },
+};
+
 export default function OrangeCountySchoolDistrictsGuide() {
   const topSchoolDistricts = [
     {
