@@ -874,11 +874,13 @@ export default function MortgageBrokerVsBankCompletePage() {
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California Guide</a></li>
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates</a></li>
             <li><a href="/blog/wholesale-vs-retail-mortgage-brokers-2026">Wholesale vs Retail Mortgage Comparison</a></li>
+            <li><a href="/blog/wholesale-vs-retail-mortgage-complete-2026">Wholesale vs Retail (Complete Guide)</a></li>
             <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
             <li><a href="/blog/bank-statement-loans-self-employed-2026">Bank Statement Loans for Self-Employed</a></li>
             <li><a href="/blog/non-qm-loans-complete-guide-2026">Non-QM Loans Complete Guide</a></li>
             <li><a href="/blog/dscr-investment-property-loans-2026">DSCR Investment Property Loans</a></li>
             <li><a href="/blog/jumbo-loans-orange-county-2026">Jumbo Loans Orange County</a></li>
+            <li><a href="/guides/mortgage-broker-vs-bank-complete-comparison">Mortgage Broker vs Bank (Full Comparison)</a></li>
           </ul>
         </div>
 

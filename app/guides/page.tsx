@@ -55,6 +55,48 @@ export default function GuidesPage() {
           ))}
         </div>
 
+        <section className="mb-10 rounded-2xl border border-slate-200 bg-white p-6">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Featured Guides</h2>
+          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            <Link className="text-blue-700 hover:underline" href="/guides/definitive-orange-county-mortgage-guide">
+              Definitive Orange County Mortgage Guide
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/guides/mortgage-broker-vs-bank-complete-comparison">
+              Mortgage Broker vs Bank (Complete Comparison)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/guides/orange-county-investment-property">
+              Orange County Investment Property Guide
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/guides/spring-2026-home-buying-guide">
+              Spring 2026 Home Buying Guide
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/guides/summer-2025-market-guide">
+              Summer 2025 Market Guide
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/guides/why-choose-local-mortgage-broker">
+              Why Choose a Local Mortgage Broker
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-10 rounded-2xl border border-slate-200 bg-white p-6">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Refinance City Guides</h2>
+          <p className="text-slate-600 mb-4">
+            Local refinance breakdowns and cash-out strategies for high-value markets.
+          </p>
+          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            <Link className="text-blue-700 hover:underline" href="/blog/manhattan-beach-cash-out-refinance-2026">
+              Manhattan Beach Cash-Out Refinance
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/palos-verdes-cash-out-refinance-2026">
+              Palos Verdes Cash-Out Refinance
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/rate-term-refinance-orange-county">
+              Rate &amp; Term Refinance (Orange County)
+            </Link>
+          </div>
+        </section>
+
         {/* Blog Posts Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {allBlogPosts.map((post, index) => (

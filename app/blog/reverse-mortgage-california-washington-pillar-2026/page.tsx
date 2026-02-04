@@ -1210,6 +1210,7 @@ export default function ReverseMortgageCaliforniaWashingtonPillar2026Page() {
                 <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="hover:text-blue-600">Reverse Mortgages & Inheritance</a></li>
                 <li><a href="/blog/reverse-mortgage-myths-debunked-2026" className="hover:text-blue-600">Reverse Mortgage Myths Debunked</a></li>
                 <li><a href="/blog/when-not-to-get-reverse-mortgage-2026" className="hover:text-blue-600">When NOT to Get a Reverse Mortgage</a></li>
+                <li><a href="/blog/mortgage-broker-vs-bank-complete-2026" className="hover:text-blue-600">Mortgage Broker vs Bank (Complete)</a></li>
               </ul>
             </div>
             <div>

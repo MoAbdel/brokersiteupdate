@@ -223,6 +223,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
       />
 
       <header className="mb-8">
+        <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Home Equity & Refinancing Guide: Cash-Out, HELOC & HELOAN [2026]
         </h1>
@@ -961,6 +962,11 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             <li><a href="/blog/what-can-you-use-home-equity-for-2026" className="text-blue-600 hover:text-blue-800">Best Uses for Home Equity</a></li>
             <li><a href="/blog/equity-extraction-risks-2026" className="text-blue-600 hover:text-blue-800">Risks of Tapping Home Equity</a></li>
             <li><a href="/blog/refinance-closing-costs-2026" className="text-blue-600 hover:text-blue-800">Understanding Refinance Closing Costs</a></li>
+            <li><a href="/rate-term-refinance-orange-county" className="text-blue-600 hover:text-blue-800">Rate & Term Refinance (Orange County)</a></li>
+            <li><a href="/blog/huntington-beach-refinance-guide-2026" className="text-blue-600 hover:text-blue-800">Huntington Beach Refinance Guide</a></li>
+            <li><a href="/blog/ladera-ranch-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">Ladera Ranch Mortgage Guide</a></li>
+            <li><a href="/blog/newport-coast-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">Newport Coast Mortgage Guide</a></li>
+            <li><a href="/blog/san-clemente-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">San Clemente Mortgage Guide</a></li>
           </ul>
         </div>
 

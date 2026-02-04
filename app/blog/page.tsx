@@ -132,6 +132,19 @@ const blogPosts = [
     },
 ];
 
+const featuredGuides = [
+    { slug: 'conventional-loans-complete-guide-2026', title: 'Conventional Loans Complete Guide (2026)' },
+    { slug: 'va-loan-benefits-guide-2026', title: 'VA Loan Benefits Guide (2026)' },
+    { slug: 'what-is-reverse-mortgage-complete-guide-2026', title: 'What Is a Reverse Mortgage? (2026)' },
+    { slug: 'home-equity-guide', title: 'Home Equity Guide' },
+    { slug: 'bank-statement-loans-wholesale-complete-2026', title: 'Bank Statement Loans (Wholesale) (2026)' },
+    { slug: 'cash-out-vs-regular-refinance-complete-2026', title: 'Cash-Out vs Rate-Term Refinance (2026)' },
+    { slug: 'coto-de-caza-mortgage-guide-2026', title: 'Coto de Caza Mortgage Guide (2026)' },
+    { slug: 'aliso-viejo-mortgage-guide-2026', title: 'Aliso Viejo Mortgage Guide (2026)' },
+    { slug: 'calabasas-cash-out-refinance-2026', title: 'Calabasas Cash-Out Refinance (2026)' },
+    { slug: 'dana-point-mortgage-guide-2026', title: 'Dana Point Mortgage Guide (2026)' },
+];
+
 export default function BlogIndexPage() {
     const formatDate = (dateString: string) => {
         const date = new Date(`${dateString}T00:00:00`);
@@ -153,6 +166,50 @@ export default function BlogIndexPage() {
                         Expert mortgage advice, local market insights, and comprehensive home loan guides from a licensed wholesale mortgage broker
                     </p>
                 </header>
+
+                <section className="mb-10 rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">Featured 2026 Guides</h2>
+                    <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                        {featuredGuides.map((item) => (
+                            <Link key={item.slug} href={`/blog/${item.slug}`} className="text-blue-700 hover:underline">
+                                {item.title}
+                            </Link>
+                        ))}
+                    </div>
+                    <div className="mt-4 text-sm text-slate-600">
+                        Quick links:{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/conventional-loans-complete-guide-2026">Conventional Loans</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/va-loan-benefits-guide-2026">VA Benefits</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/what-is-reverse-mortgage-complete-guide-2026">Reverse Mortgage Guide</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/home-equity-guide">Home Equity Guide</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/coto-de-caza-mortgage-guide-2026">Coto de Caza</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/aliso-viejo-mortgage-guide-2026">Aliso Viejo</a>,{' '}
+                        <a className="text-blue-700 hover:underline" href="/blog/calabasas-cash-out-refinance-2026">Calabasas Cash-Out</a>
+                    </div>
+                </section>
+                <section className="mb-10 rounded-2xl border border-slate-200 bg-white p-6">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">Spotlight Links</h2>
+                    <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                        <Link href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-700 hover:underline">
+                            Bank Statement Loans (Wholesale)
+                        </Link>
+                        <Link href="/blog/cash-out-vs-regular-refinance-complete-2026" className="text-blue-700 hover:underline">
+                            Cash-Out vs Rate-Term Refinance
+                        </Link>
+                        <Link href="/blog/dana-point-mortgage-guide-2026" className="text-blue-700 hover:underline">
+                            Dana Point Mortgage Guide
+                        </Link>
+                        <Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-700 hover:underline">
+                            Mortgage Broker vs Bank (Complete)
+                        </Link>
+                        <Link href="/blog/wholesale-mortgage-broker-california-pillar-2026" className="text-blue-700 hover:underline">
+                            California Wholesale Mortgage Pillar
+                        </Link>
+                        <Link href="/blog/yorba-linda-mortgage-guide-2026" className="text-blue-700 hover:underline">
+                            Yorba Linda Mortgage Guide
+                        </Link>
+                    </div>
+                </section>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {blogPosts.map((post) => (

@@ -182,6 +182,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
       />
 
       <header className="mb-8">
+        <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           The Complete Guide to Wholesale Mortgage Brokers in California [2026]
         </h1>
@@ -777,9 +778,11 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
           <h4>Wholesale Education</h4>
           <ul>
             <li><a href="/blog/wholesale-vs-retail-mortgage-brokers-2026">Wholesale vs Retail Mortgage: Complete Comparison</a></li>
+            <li><a href="/blog/wholesale-vs-retail-mortgage-complete-2026">Wholesale vs Retail (Complete Guide)</a></li>
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates</a></li>
             <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
             <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank: Which Is Better?</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-california">Wholesale Mortgage Broker California</a></li>
           </ul>
           <h4>Loan Programs</h4>
           <ul>

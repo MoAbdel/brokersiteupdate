@@ -97,6 +97,7 @@ export default function HELOCCompleteGuidePage() {
             />
 
             <header className="mb-8">
+                <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
                     HELOC Complete Guide 2026: Access Your Home Equity Without Refinancing
                 </h1>

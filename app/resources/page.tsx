@@ -176,6 +176,37 @@ export default function ResourcesPage() {
         </div>
       </section>
 
+      <section className="py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6">
+            <h2 className="text-2xl font-bold text-slate-900 mb-3">Quick Resource Links</h2>
+            <p className="text-slate-600 mb-4">
+              Jump straight to our most requested tools and reference pages.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              <Link className="text-blue-700 hover:underline" href="/resources/document-checklist">
+                Document Checklist
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/glossary">
+                Mortgage Glossary
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/mortgage-glossary">
+                Mortgage Glossary (Full)
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/comprehensive-mortgage-faq">
+                Comprehensive Mortgage FAQ
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/market-data">
+                Market Data & Trends
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/service-providers">
+                Local Service Providers
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Main Resources Grid */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

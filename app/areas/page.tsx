@@ -79,6 +79,39 @@ const serviceAreas = [
   }
 ];
 
+const additionalCityPages = [
+  { name: 'Dana Point', slug: 'dana-point-mortgage-broker' },
+  { name: 'Fountain Valley', slug: 'fountain-valley-mortgage-broker' },
+  { name: 'Fullerton', slug: 'fullerton-mortgage-broker' },
+  { name: 'Garden Grove', slug: 'garden-grove-mortgage-broker' },
+  { name: 'Laguna Niguel', slug: 'laguna-niguel-mortgage-broker' },
+  { name: 'Laguna Woods', slug: 'laguna-woods-mortgage-broker' },
+  { name: 'Orange', slug: 'orange-mortgage-broker' },
+  { name: 'Westminster', slug: 'westminster-mortgage-broker' },
+  { name: 'Yorba Linda', slug: 'yorba-linda-mortgage-broker' },
+];
+
+const mortgageRatePages = [
+  { name: 'Anaheim Mortgage Rates', slug: 'anaheim-mortgage-rates' },
+  { name: 'Fountain Valley Mortgage Rates', slug: 'fountain-valley-mortgage-rates' },
+  { name: 'Garden Grove Mortgage Rates', slug: 'garden-grove-mortgage-rates' },
+  { name: 'Irvine Mortgage Rates', slug: 'irvine-mortgage-rates' },
+  { name: 'Laguna Niguel Mortgage Rates', slug: 'laguna-niguel-mortgage-rates' },
+  { name: 'Santa Ana Mortgage Rates', slug: 'santa-ana-mortgage-rates' },
+  { name: 'Santa Ana Refinance Rates', slug: 'santa-ana-refinance-rates' },
+  { name: 'Yorba Linda Mortgage Rates', slug: 'yorba-linda-mortgage-rates' },
+];
+
+const neighborhoodPages = [
+  { name: 'Northwood', slug: 'irvine-neighborhoods/northwood-mortgage-broker' },
+  { name: 'Quail Hill', slug: 'irvine-neighborhoods/quail-hill-mortgage-broker' },
+  { name: 'Woodbridge', slug: 'irvine-neighborhoods/woodbridge-mortgage-broker' },
+  { name: 'Balboa Island', slug: 'newport-beach-neighborhoods/balboa-island-mortgage-broker' },
+  { name: 'Corona del Mar', slug: 'newport-beach-neighborhoods/corona-del-mar-mortgage-broker' },
+  { name: 'Lido Isle', slug: 'newport-beach-neighborhoods/lido-isle-mortgage-broker' },
+  { name: 'Newport Coast', slug: 'newport-beach-neighborhoods/newport-coast-mortgage-broker' },
+];
+
 export default function NeighborhoodGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -158,22 +191,131 @@ export default function NeighborhoodGuidePage() {
           ))}
         </div>
 
+        {/* Quick Links */}
+        <div className="bg-white border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Popular Area Pages</h2>
+          <p className="text-slate-600 mb-6">
+            Jump to the most requested city and neighborhood hub pages.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/areas/anaheim-mortgage-broker">
+              Anaheim Mortgage Broker
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/santa-ana-mortgage-broker">
+              Santa Ana Mortgage Broker
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/seal-beach-mortgage-broker">
+              Seal Beach Mortgage Broker
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/mission-viejo">
+              Mission Viejo Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-unified-school-district-mortgage-broker">
+              Irvine Unified School District
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-neighborhoods">
+              Irvine Neighborhoods Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods">
+              Newport Beach Neighborhoods Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/about">
+              About Mo Abdel
+            </Link>
+          </div>
+        </div>
+
         {/* Additional Cities */}
         <div className="bg-slate-50 rounded-2xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">
             Additional Orange County Cities We Serve
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
-            {[
-              'Aliso Viejo', 'Brea', 'Buena Park', 'Cypress', 'Dana Point', 'Fountain Valley',
-              'Fullerton', 'Garden Grove', 'La Habra', 'La Palma', 'Lake Forest', 'Los Alamitos',
-              'Newport Coast', 'Orange', 'Placentia', 'Rancho Santa Margarita', 'San Clemente',
-              'San Juan Capistrano', 'Santa Ana', 'Seal Beach', 'Stanton', 'Villa Park', 'Westminster', 'Yorba Linda'
-            ].map((city, index) => (
-              <div key={index} className="bg-white p-3 rounded-lg shadow-sm">
-                <span className="text-slate-700 font-medium">{city}</span>
-              </div>
+            {additionalCityPages.map((city) => (
+              <Link key={city.slug} href={`/areas/${city.slug}`} className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md">
+                <span className="text-slate-700 font-medium">{city.name}</span>
+              </Link>
             ))}
+          </div>
+        </div>
+
+        {/* Mortgage Rate Pages */}
+        <div className="bg-white border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Mortgage Rate Pages</h2>
+          <p className="text-slate-600 mb-6">
+            Local rate snapshots and refinance pricing insights by city.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {mortgageRatePages.map((page) => (
+              <Link key={page.slug} href={`/areas/${page.slug}`} className="text-blue-700 hover:underline">
+                {page.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Neighborhood Pages */}
+        <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Featured Neighborhood Pages</h2>
+          <p className="text-slate-600 mb-6">
+            Explore neighborhood-specific mortgage insights for Irvine and Newport Beach.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {neighborhoodPages.map((page) => (
+              <Link key={page.slug} href={`/areas/${page.slug}`} className="text-blue-700 hover:underline">
+                {page.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-white border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">OC Rate & Neighborhood Links</h2>
+          <p className="text-slate-600 mb-6">
+            Direct links to additional city rate pages and neighborhood hubs.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/areas/anaheim-mortgage-rates">Anaheim Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/fountain-valley-mortgage-rates">Fountain Valley Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/garden-grove-mortgage-rates">Garden Grove Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-mortgage-rates">Irvine Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/laguna-niguel-mortgage-rates">Laguna Niguel Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/santa-ana-mortgage-rates">Santa Ana Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/santa-ana-refinance-rates">Santa Ana Refinance Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/yorba-linda-mortgage-rates">Yorba Linda Mortgage Rates</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/dana-point-mortgage-broker">Dana Point Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/fountain-valley-mortgage-broker">Fountain Valley Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/fullerton-mortgage-broker">Fullerton Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/garden-grove-mortgage-broker">Garden Grove Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/laguna-niguel-mortgage-broker">Laguna Niguel Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/laguna-woods-mortgage-broker">Laguna Woods Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/orange-mortgage-broker">Orange Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/westminster-mortgage-broker">Westminster Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/yorba-linda-mortgage-broker">Yorba Linda Mortgage Broker</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-unified-school-district-mortgage-broker">Irvine Unified School District</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-neighborhoods/northwood-mortgage-broker">Northwood (Irvine)</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-neighborhoods/quail-hill-mortgage-broker">Quail Hill (Irvine)</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-neighborhoods/woodbridge-mortgage-broker">Woodbridge (Irvine)</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods/balboa-island-mortgage-broker">Balboa Island</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker">Corona del Mar</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker">Lido Isle</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker">Newport Coast</Link>
+            <Link className="text-blue-700 hover:underline" href="/zip-codes/92602-irvine-mortgage-broker">92602 Irvine</Link>
+            <Link className="text-blue-700 hover:underline" href="/zip-codes/92614-irvine-mortgage-broker">92614 Irvine</Link>
+            <Link className="text-blue-700 hover:underline" href="/zip-codes/92660-newport-beach-mortgage-broker">92660 Newport Beach</Link>
+          </div>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Luxury Market Guides</h2>
+          <p className="text-slate-600 mb-6">
+            Explore mortgage options for high-end Orange County properties.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets">Luxury Markets Overview</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets/golf-course-homes-mortgage-broker">Golf Course Homes</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets/ultra-luxury-estates-mortgage-broker">Ultra-Luxury Estates</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets/waterfront-homes-mortgage-broker">Waterfront Homes</Link>
           </div>
         </div>
 

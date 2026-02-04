@@ -37,12 +37,22 @@ export default function AboutPage() {
                     Work With Me
                   </Button>
                 </Link>
+                <a href="/mo-abdel-contact.vcf">
+                  <Button variant="ghost" className="border border-white text-white hover:bg-white/10 px-6 py-3">
+                    Download Contact Card
+                  </Button>
+                </a>
                 <a href="tel:+19498229662">
                   <Button variant="ghost" className="border border-white text-white hover:bg-white/10 px-6 py-3">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662
                   </Button>
                 </a>
+              </div>
+              <div className="mt-4">
+                <Link href="/about-mo-abdel-orange-county-mortgage-broker" className="text-sm text-slate-300 hover:text-white underline">
+                  Read the Orange County mortgage broker overview
+                </Link>
               </div>
             </div>
 

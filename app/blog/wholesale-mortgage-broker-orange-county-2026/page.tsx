@@ -195,6 +195,49 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           <div className="p-3 bg-gray-50 rounded">San Clemente</div>
           <div className="p-3 bg-gray-50 rounded">Dana Point</div>
         </div>
+        <p>
+          Explore our local pages: <a href="/areas/anaheim-mortgage-broker">Anaheim</a>,{' '}
+          <a href="/areas/santa-ana-mortgage-broker">Santa Ana</a>,{' '}
+          <a href="/areas/seal-beach-mortgage-broker">Seal Beach</a>,{' '}
+          <a href="/areas/irvine-neighborhoods">Irvine neighborhoods</a>, and{' '}
+          <a href="/areas/newport-beach-neighborhoods">Newport Beach neighborhoods</a>.
+        </p>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-6">
+          <h3 className="mt-0">Popular OC ZIP Guides</h3>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            <li><a href="/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026">92603 Irvine Turtle Rock</a></li>
+            <li><a href="/blog/wholesale-mortgage-92625-corona-del-mar-2026">92625 Corona del Mar</a></li>
+            <li><a href="/blog/wholesale-mortgage-92651-laguna-beach-2026">92651 Laguna Beach</a></li>
+            <li><a href="/blog/wholesale-mortgage-92657-newport-coast-2026">92657 Newport Coast</a></li>
+            <li><a href="/blog/wholesale-mortgage-92661-newport-beach-2026">92661 Newport Beach</a></li>
+            <li><a href="/blog/wholesale-mortgage-92662-balboa-island-2026">92662 Balboa Island</a></li>
+          </ul>
+        </div>
+        <div className="bg-white border border-gray-200 rounded-xl p-6 my-6">
+          <h3 className="mt-0">Wholesale Broker City Guides</h3>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            <li><a href="/blog/wholesale-mortgage-broker-anaheim-2026">Anaheim Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-costa-mesa-2026">Costa Mesa Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-dana-point-2026">Dana Point Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-garden-grove-2026">Garden Grove Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-huntington-beach-2026">Huntington Beach Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-santa-ana-2026">Santa Ana Wholesale Broker</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-california-pillar-2026">California Wholesale Pillar Guide</a></li>
+          </ul>
+        </div>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-6">
+          <h3 className="mt-0">More OC ZIP Hubs</h3>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            <li><a href="/blog/wholesale-mortgage-broker-92612">92612 Irvine</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92614">92614 Irvine</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92620">92620 Irvine</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92656">92656 Aliso Viejo</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92673">92673 San Clemente</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92679">92679 Coto de Caza</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92887">92887 Yorba Linda</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92867">92867 Orange</a></li>
+          </ul>
+        </div>
 
         <h2>The Wholesale Rate Advantage: Real Numbers</h2>
 

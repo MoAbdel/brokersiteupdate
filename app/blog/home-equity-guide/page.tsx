@@ -1020,6 +1020,7 @@ export default function HomeEquityGuidePage() {
             <li><a href="/blog/refinance-debt-consolidation-2026">Refinancing for Debt Consolidation</a></li>
             <li><a href="/blog/home-equity-for-renovations-2026">Using Home Equity for Renovations</a></li>
             <li><a href="/blog/equity-extraction-risks-2026">Risks of Equity Extraction</a></li>
+            <li><a href="/blog/home-equity-refinancing-complete-pillar-2026">Home Equity Refinancing (Complete Pillar)</a></li>
           </ul>
           <h4>Seniors 62+</h4>
           <ul>
@@ -1032,6 +1033,10 @@ export default function HomeEquityGuidePage() {
             <li><a href="/home-equity-guide">Home Equity Newport Beach</a></li>
             <li><a href="/blog/home-equity-irvine-2026">Home Equity Irvine</a></li>
             <li><a href="/home-equity-guide">Home Equity Bellevue WA</a></li>
+            <li><a href="/blog/home-equity-calabasas-2026">Home Equity Calabasas</a></li>
+            <li><a href="/blog/home-equity-coronado-2026">Home Equity Coronado</a></li>
+            <li><a href="/blog/home-equity-palos-verdes-2026">Home Equity Palos Verdes</a></li>
+            <li><a href="/blog/home-equity-rancho-santa-fe-2026">Home Equity Rancho Santa Fe</a></li>
           </ul>
         </div>
 

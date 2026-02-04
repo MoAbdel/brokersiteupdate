@@ -128,6 +128,7 @@ export default function ReverseMortgageGuide2026Page() {
       />
 
       <header className="mb-8">
+        <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Complete Guide to Reverse Mortgages in California & Washington [2026]
         </h1>
@@ -530,6 +531,13 @@ export default function ReverseMortgageGuide2026Page() {
             <li><a href="/blog/hecm-counseling-requirements-2026">HUD Counseling Requirements</a></li>
             <li><a href="/blog/hecm-for-purchase-2026">HECM for Purchase</a></li>
             <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary Reverse Mortgages</a></li>
+            <li><a href="/blog/reverse-mortgage-california-washington-pillar-2026">Reverse Mortgage California & Washington Pillar</a></li>
+          </ul>
+          <h4>Local Reverse Mortgage Guides</h4>
+          <ul>
+            <li><a href="/blog/reverse-mortgage-calabasas-2026">Reverse Mortgage Calabasas</a></li>
+            <li><a href="/blog/reverse-mortgage-carlsbad-2026">Reverse Mortgage Carlsbad</a></li>
+            <li><a href="/blog/reverse-mortgage-palos-verdes-2026">Reverse Mortgage Palos Verdes</a></li>
           </ul>
         </div>
 

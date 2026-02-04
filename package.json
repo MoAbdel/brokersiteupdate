@@ -17,6 +17,7 @@
     "gsc:indexing": "node scripts/submit-gsc-indexing.mjs",
     "gsc:export": "node scripts/export-gsc-performance.mjs",
     "gsc:prune-candidates": "node scripts/build-prune-candidates.mjs",
+    "seo:internal-links": "node scripts/internal-link-audit.mjs",
     "prepare": "husky"
   },
   "lint-staged": {

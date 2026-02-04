@@ -382,6 +382,45 @@ export default function ProgramsPage() {
           ))}
         </div>
 
+        <div className="bg-white border border-slate-200 rounded-xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Local Orange County Program Pages</h2>
+          <p className="text-slate-600 mb-6">
+            Fast access to the most requested OC-specific loan program pages.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/rate-term-refinance-orange-county">
+              Rate &amp; Term Refinance (OC)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/loan-programs/va-refinance">
+              VA Refinance (IRRRL)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/loan-programs/orange-county-va-loans">
+              Orange County VA Loans
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/loan-programs/fha-loans-irvine">
+              FHA Loans in Irvine
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/loan-programs/bank-statement-loans-irvine">
+              Bank Statement Loans (Irvine)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/loan-programs/orange-county-fha-loan-limits">
+              Orange County FHA Loan Limits
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/orange-county-conventional-loans">
+              Orange County Conventional Loans
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/orange-county-fha-loans">
+              Orange County FHA Loans
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/non-qm-loans-orange-county">
+              Non-QM Loans (Orange County)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/heloc-specialist-orange-county">
+              HELOC Specialist (Orange County)
+            </Link>
+          </div>
+        </div>
+
         {/* Non-QM & Specialty Programs */}
         <div className="bg-slate-50 rounded-xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-2 text-center">
