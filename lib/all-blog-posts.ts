@@ -11,6 +11,88 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== WA GEO PAGES (Feb 3, 2026) =====
+  {
+    slug: 'reverse-mortgage-medina-wa-2026',
+    title: 'Reverse Mortgage in Medina, WA: HECM Guide for Seniors [2026]',
+    excerpt: 'Reverse mortgage Medina guide for seniors 62+. Learn HECM eligibility, jumbo reverse options & how to access your ultra-luxury home equity.',
+    date: '2026-02-03',
+    category: 'Reverse Mortgage',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'reverse-mortgage-mercer-island-wa-2026',
+    title: 'Reverse Mortgage in Mercer Island, WA: HECM Guide for Seniors [2026]',
+    excerpt: 'Reverse mortgage Mercer Island guide for seniors 62+. Learn HECM eligibility, payout options & how to access your island home equity.',
+    date: '2026-02-03',
+    category: 'Reverse Mortgage',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'home-equity-mercer-island-wa-2026',
+    title: 'Home Equity Options in Mercer Island, WA: HELOC, HELOAN & Cash-Out [2026]',
+    excerpt: 'Mercer Island home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance options for island homeowners.',
+    date: '2026-02-03',
+    category: 'Home Equity',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'reverse-mortgage-bellevue-wa-2026',
+    title: 'Reverse Mortgage in Bellevue, WA: HECM Guide for Seniors [2026]',
+    excerpt: 'Reverse mortgage Bellevue guide for seniors 62+. Learn HECM eligibility, payout options & how to access your Bellevue home equity.',
+    date: '2026-02-03',
+    category: 'Reverse Mortgage',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'home-equity-bellevue-wa-2026',
+    title: 'Home Equity Options in Bellevue, WA: HELOC, HELOAN & Cash-Out [2026]',
+    excerpt: 'Bellevue home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance options for Bellevue homeowners.',
+    date: '2026-02-03',
+    category: 'Home Equity',
+    readTime: '10 min read',
+  },
+  // ===== WHOLESALE OC ZIP PAGES (Feb 3, 2026) =====
+  {
+    slug: 'wholesale-mortgage-broker-92691',
+    title: 'Wholesale Mortgage Broker 92691 | Mission Viejo Casta del Sol',
+    excerpt: 'Mission Viejo 92691 wholesale mortgage broker serving Casta del Sol. Access 200+ lenders for retirement community financing.',
+    date: '2026-02-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-92617',
+    title: 'Wholesale Mortgage Broker 92617 | Irvine UCI & Turtle Rock',
+    excerpt: 'Irvine 92617 wholesale mortgage broker near UCI. Access 200+ lenders for jumbo loans, foreign national programs & faculty financing.',
+    date: '2026-02-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-92618',
+    title: 'Wholesale Mortgage Broker 92618 | Irvine Spectrum & Great Park',
+    excerpt: 'Irvine Spectrum 92618 wholesale mortgage broker. Access 200+ lenders for new construction, jumbo loans & tech professional programs.',
+    date: '2026-02-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-92610',
+    title: 'Wholesale Mortgage Broker 92610 | Foothill Ranch Lake Forest',
+    excerpt: 'Foothill Ranch 92610 wholesale mortgage broker. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    date: '2026-02-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-92688',
+    title: 'Wholesale Mortgage Broker 92688 | Rancho Santa Margarita RSM',
+    excerpt: 'Rancho Santa Margarita 92688 wholesale mortgage broker. Access 200+ lenders for jumbo loans, VA programs & better rates.',
+    date: '2026-02-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
   // ===== WA GEO PAGES (Feb 2, 2026) =====
   {
     slug: 'reverse-mortgage-kirkland-wa-2026',
