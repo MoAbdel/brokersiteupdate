@@ -678,7 +678,7 @@ const zipCodeStrategy = [
   "@type": ["FinancialService", "LocalBusiness"],
   "name": "Mo Abdel - West Capital Lending",
   "description": "Licensed mortgage broker serving Orange County",
-  "url": "https://mothebroker.com",
+  "url": "https://www.mothebroker.com",
   "telephone": "(949) 822-9662",
   "address": {
     "@type": "PostalAddress",

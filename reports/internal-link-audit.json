@@ -1,0 +1,1667 @@
+{
+  "sitemapEntries": [
+    {
+      "path": "/about",
+      "url": "https://www.mothebroker.com/about",
+      "inboundLinks": 1,
+      "appPath": "app\\about\\page.tsx"
+    },
+    {
+      "path": "/about-mo-abdel-orange-county-mortgage-broker",
+      "url": "https://www.mothebroker.com/about-mo-abdel-orange-county-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\about-mo-abdel-orange-county-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/anaheim-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/anaheim-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\anaheim-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/dana-point-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/dana-point-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\dana-point-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/fountain-valley-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/fountain-valley-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\fountain-valley-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/fountain-valley-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/fountain-valley-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\fountain-valley-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/fullerton-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/fullerton-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\fullerton-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/garden-grove-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/garden-grove-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\garden-grove-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/garden-grove-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/garden-grove-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\garden-grove-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/irvine-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\irvine-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-neighborhoods/northwood-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/irvine-neighborhoods/northwood-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\irvine-neighborhoods\\northwood-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-neighborhoods/quail-hill-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/irvine-neighborhoods/quail-hill-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\irvine-neighborhoods\\quail-hill-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-neighborhoods/woodbridge-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/irvine-neighborhoods/woodbridge-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\irvine-neighborhoods\\woodbridge-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/laguna-beach-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/laguna-beach-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\laguna-beach-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/laguna-niguel-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/laguna-niguel-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\laguna-niguel-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/laguna-niguel-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/laguna-niguel-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\laguna-niguel-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/laguna-woods-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/laguna-woods-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\laguna-woods-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/mission-viejo",
+      "url": "https://www.mothebroker.com/areas/mission-viejo",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\mission-viejo\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-neighborhoods/balboa-island-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/newport-beach-neighborhoods/balboa-island-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\newport-beach-neighborhoods\\balboa-island-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\newport-beach-neighborhoods\\corona-del-mar-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\newport-beach-neighborhoods\\lido-isle-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\newport-beach-neighborhoods\\newport-coast-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/orange-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/orange-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\orange-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/santa-ana-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/santa-ana-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\santa-ana-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/santa-ana-refinance-rates",
+      "url": "https://www.mothebroker.com/areas/santa-ana-refinance-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\santa-ana-refinance-rates\\page.tsx"
+    },
+    {
+      "path": "/areas/westminster-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/westminster-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\westminster-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/yorba-linda-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/yorba-linda-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\yorba-linda-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/yorba-linda-mortgage-rates",
+      "url": "https://www.mothebroker.com/areas/yorba-linda-mortgage-rates",
+      "inboundLinks": 1,
+      "appPath": "app\\areas\\yorba-linda-mortgage-rates\\page.tsx"
+    },
+    {
+      "path": "/blog/aliso-viejo-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\aliso-viejo-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/bank-statement-loans-wholesale-complete-2026",
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-wholesale-complete-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\bank-statement-loans-wholesale-complete-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/calabasas-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\calabasas-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/cash-out-vs-regular-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\cash-out-vs-regular-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/cash-out-vs-regular-refinance-complete-2026",
+      "url": "https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-complete-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\cash-out-vs-regular-refinance-complete-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/conventional-loans-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\conventional-loans-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/corona-del-mar-refinance-guide-2026",
+      "url": "https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\corona-del-mar-refinance-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/coto-de-caza-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/coto-de-caza-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\coto-de-caza-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/dana-point-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\dana-point-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-calabasas-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-calabasas-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-calabasas-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-coronado-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-coronado-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-coronado-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-for-renovations-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-for-renovations-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-for-renovations-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-guide",
+      "url": "https://www.mothebroker.com/blog/home-equity-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-guide\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-manhattan-beach-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-manhattan-beach-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-manhattan-beach-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-palos-verdes-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-palos-verdes-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-palos-verdes-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-rancho-santa-fe-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-rancho-santa-fe-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-rancho-santa-fe-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-refinancing-complete-pillar-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-refinancing-complete-pillar-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\home-equity-refinancing-complete-pillar-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/huntington-beach-refinance-guide-2026",
+      "url": "https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\huntington-beach-refinance-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/investment-property-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\investment-property-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/ladera-ranch-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/ladera-ranch-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\ladera-ranch-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/laguna-beach-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\laguna-beach-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/laguna-niguel-refinance-guide-2026",
+      "url": "https://www.mothebroker.com/blog/laguna-niguel-refinance-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\laguna-niguel-refinance-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/manhattan-beach-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\manhattan-beach-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/newport-coast-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\newport-coast-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/palos-verdes-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/palos-verdes-cash-out-refinance-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\palos-verdes-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-calabasas-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-calabasas-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-calabasas-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-california-washington-pillar-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-california-washington-pillar-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-california-washington-pillar-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-carlsbad-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-carlsbad-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-carlsbad-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-coronado-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-coronado-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-coronado-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-manhattan-beach-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-manhattan-beach-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-manhattan-beach-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-palos-verdes-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-palos-verdes-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-palos-verdes-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-rancho-santa-fe-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-rancho-santa-fe-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\reverse-mortgage-rancho-santa-fe-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/san-clemente-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\san-clemente-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/second-mortgage-explained-2026",
+      "url": "https://www.mothebroker.com/blog/second-mortgage-explained-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\second-mortgage-explained-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/strategic-refinancing-home-equity-2026",
+      "url": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\strategic-refinancing-home-equity-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/va-loan-benefits-guide-2026",
+      "url": "https://www.mothebroker.com/blog/va-loan-benefits-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\va-loan-benefits-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/what-is-reverse-mortgage",
+      "url": "https://www.mothebroker.com/blog/what-is-reverse-mortgage",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\what-is-reverse-mortgage\\page.tsx"
+    },
+    {
+      "path": "/blog/what-is-reverse-mortgage-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\what-is-reverse-mortgage-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/when-not-to-get-reverse-mortgage-2026",
+      "url": "https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\when-not-to-get-reverse-mortgage-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92603-irvine-turtle-rock-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92625-corona-del-mar-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92625-corona-del-mar-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92625-corona-del-mar-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92629-dana-point-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92629-dana-point-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92629-dana-point-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92651-laguna-beach-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92651-laguna-beach-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92651-laguna-beach-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92657-newport-coast-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92657-newport-coast-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92657-newport-coast-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92660-newport-harbor-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92660-newport-harbor-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92660-newport-harbor-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92661-newport-beach-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92661-newport-beach-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92661-newport-beach-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92662-balboa-island-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92662-balboa-island-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92662-balboa-island-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92663-newport-peninsula-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92663-newport-peninsula-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92663-newport-peninsula-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-92679-coto-de-caza-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-92679-coto-de-caza-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-92679-coto-de-caza-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92620",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92620",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92620\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92675",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92675\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92679",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92679\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-anaheim-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-anaheim-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-california",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-california\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-costa-mesa-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-costa-mesa-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-dana-point-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-dana-point-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-dana-point-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-garden-grove-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-garden-grove-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-garden-grove-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-huntington-beach-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-huntington-beach-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-huntington-beach-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-santa-ana-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-santa-ana-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-santa-ana-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-tustin-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-tustin-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-tustin-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/yorba-linda-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
+      "inboundLinks": 1,
+      "appPath": "app\\blog\\yorba-linda-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/calculator/closing-costs",
+      "url": "https://www.mothebroker.com/calculator/closing-costs",
+      "inboundLinks": 1,
+      "appPath": "app\\calculator\\closing-costs\\page.tsx"
+    },
+    {
+      "path": "/calculator/debt-to-income",
+      "url": "https://www.mothebroker.com/calculator/debt-to-income",
+      "inboundLinks": 1,
+      "appPath": "app\\calculator\\debt-to-income\\page.tsx"
+    },
+    {
+      "path": "/guides/definitive-orange-county-mortgage-guide",
+      "url": "https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\definitive-orange-county-mortgage-guide\\page.tsx"
+    },
+    {
+      "path": "/guides/orange-county-investment-property",
+      "url": "https://www.mothebroker.com/guides/orange-county-investment-property",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\orange-county-investment-property\\page.tsx"
+    },
+    {
+      "path": "/guides/orange-county-refinancing-guide",
+      "url": "https://www.mothebroker.com/guides/orange-county-refinancing-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\orange-county-refinancing-guide\\page.tsx"
+    },
+    {
+      "path": "/guides/spring-2026-home-buying-guide",
+      "url": "https://www.mothebroker.com/guides/spring-2026-home-buying-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\spring-2026-home-buying-guide\\page.tsx"
+    },
+    {
+      "path": "/guides/summer-2025-market-guide",
+      "url": "https://www.mothebroker.com/guides/summer-2025-market-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\summer-2025-market-guide\\page.tsx"
+    },
+    {
+      "path": "/guides/why-choose-local-mortgage-broker",
+      "url": "https://www.mothebroker.com/guides/why-choose-local-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\guides\\why-choose-local-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/heloc-specialist-orange-county",
+      "url": "https://www.mothebroker.com/heloc-specialist-orange-county",
+      "inboundLinks": 1,
+      "appPath": "app\\heloc-specialist-orange-county\\page.tsx"
+    },
+    {
+      "path": "/jumbo-loans-orange-county",
+      "url": "https://www.mothebroker.com/jumbo-loans-orange-county",
+      "inboundLinks": 1,
+      "appPath": "app\\jumbo-loans-orange-county\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/bank-statement-loans-irvine",
+      "url": "https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\bank-statement-loans-irvine\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/fha-loans-irvine",
+      "url": "https://www.mothebroker.com/loan-programs/fha-loans-irvine",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\fha-loans-irvine\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/orange-county-fha-loan-limits",
+      "url": "https://www.mothebroker.com/loan-programs/orange-county-fha-loan-limits",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\orange-county-fha-loan-limits\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/orange-county-va-loans",
+      "url": "https://www.mothebroker.com/loan-programs/orange-county-va-loans",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\orange-county-va-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/rate-term-refinance",
+      "url": "https://www.mothebroker.com/loan-programs/rate-term-refinance",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\rate-term-refinance\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/va-refinance",
+      "url": "https://www.mothebroker.com/loan-programs/va-refinance",
+      "inboundLinks": 1,
+      "appPath": "app\\loan-programs\\va-refinance\\page.tsx"
+    },
+    {
+      "path": "/luxury-markets",
+      "url": "https://www.mothebroker.com/luxury-markets",
+      "inboundLinks": 1,
+      "appPath": "app\\luxury-markets\\page.tsx"
+    },
+    {
+      "path": "/luxury-markets/golf-course-homes-mortgage-broker",
+      "url": "https://www.mothebroker.com/luxury-markets/golf-course-homes-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\luxury-markets\\golf-course-homes-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/luxury-markets/ultra-luxury-estates-mortgage-broker",
+      "url": "https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\luxury-markets\\ultra-luxury-estates-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/luxury-markets/waterfront-homes-mortgage-broker",
+      "url": "https://www.mothebroker.com/luxury-markets/waterfront-homes-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\luxury-markets\\waterfront-homes-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\neighborhood-guide\\huntington-beach-vs-costa-mesa-home-buying-guide\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\neighborhood-guide\\newport-beach-vs-laguna-beach-home-buying-guide\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide/orange-county-neighborhoods-comparison-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide/orange-county-neighborhoods-comparison-guide",
+      "inboundLinks": 1,
+      "appPath": "app\\neighborhood-guide\\orange-county-neighborhoods-comparison-guide\\page.tsx"
+    },
+    {
+      "path": "/non-qm-loans-orange-county",
+      "url": "https://www.mothebroker.com/non-qm-loans-orange-county",
+      "inboundLinks": 1,
+      "appPath": "app\\non-qm-loans-orange-county\\page.tsx"
+    },
+    {
+      "path": "/orange-county-conventional-loans",
+      "url": "https://www.mothebroker.com/orange-county-conventional-loans",
+      "inboundLinks": 1,
+      "appPath": "app\\orange-county-conventional-loans\\page.tsx"
+    },
+    {
+      "path": "/orange-county-fha-loans",
+      "url": "https://www.mothebroker.com/orange-county-fha-loans",
+      "inboundLinks": 1,
+      "appPath": "app\\orange-county-fha-loans\\page.tsx"
+    },
+    {
+      "path": "/orange-county-jumbo-loans",
+      "url": "https://www.mothebroker.com/orange-county-jumbo-loans",
+      "inboundLinks": 1,
+      "appPath": "app\\orange-county-jumbo-loans\\page.tsx"
+    },
+    {
+      "path": "/resources",
+      "url": "https://www.mothebroker.com/resources",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\page.tsx"
+    },
+    {
+      "path": "/resources/comprehensive-mortgage-faq",
+      "url": "https://www.mothebroker.com/resources/comprehensive-mortgage-faq",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\comprehensive-mortgage-faq\\page.tsx"
+    },
+    {
+      "path": "/resources/credit-repair",
+      "url": "https://www.mothebroker.com/resources/credit-repair",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\credit-repair\\page.tsx"
+    },
+    {
+      "path": "/resources/document-checklist",
+      "url": "https://www.mothebroker.com/resources/document-checklist",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\document-checklist\\page.tsx"
+    },
+    {
+      "path": "/resources/glossary",
+      "url": "https://www.mothebroker.com/resources/glossary",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\glossary\\page.tsx"
+    },
+    {
+      "path": "/resources/market-data",
+      "url": "https://www.mothebroker.com/resources/market-data",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\market-data\\page.tsx"
+    },
+    {
+      "path": "/resources/mortgage-glossary",
+      "url": "https://www.mothebroker.com/resources/mortgage-glossary",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\mortgage-glossary\\page.tsx"
+    },
+    {
+      "path": "/resources/service-providers",
+      "url": "https://www.mothebroker.com/resources/service-providers",
+      "inboundLinks": 1,
+      "appPath": "app\\resources\\service-providers\\page.tsx"
+    },
+    {
+      "path": "/zip-codes/92602-irvine-mortgage-broker",
+      "url": "https://www.mothebroker.com/zip-codes/92602-irvine-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\zip-codes\\92602-irvine-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/zip-codes/92614-irvine-mortgage-broker",
+      "url": "https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\zip-codes\\92614-irvine-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/zip-codes/92660-newport-beach-mortgage-broker",
+      "url": "https://www.mothebroker.com/zip-codes/92660-newport-beach-mortgage-broker",
+      "inboundLinks": 1,
+      "appPath": "app\\zip-codes\\92660-newport-beach-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/admin",
+      "url": "https://www.mothebroker.com/admin",
+      "inboundLinks": 2,
+      "appPath": "app\\admin\\page.tsx"
+    },
+    {
+      "path": "/areas/anaheim-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/anaheim-mortgage-broker",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\anaheim-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-neighborhoods",
+      "url": "https://www.mothebroker.com/areas/irvine-neighborhoods",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\irvine-neighborhoods\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-unified-school-district-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/irvine-unified-school-district-mortgage-broker",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\irvine-unified-school-district-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-neighborhoods",
+      "url": "https://www.mothebroker.com/areas/newport-beach-neighborhoods",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\newport-beach-neighborhoods\\page.tsx"
+    },
+    {
+      "path": "/areas/santa-ana-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/santa-ana-mortgage-broker",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\santa-ana-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/seal-beach-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/seal-beach-mortgage-broker",
+      "inboundLinks": 2,
+      "appPath": "app\\areas\\seal-beach-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/200-lender-advantage",
+      "url": "https://www.mothebroker.com/blog/200-lender-advantage",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\200-lender-advantage\\page.tsx"
+    },
+    {
+      "path": "/blog/cash-out-refinance-how-it-works",
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-how-it-works",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\cash-out-refinance-how-it-works\\page.tsx"
+    },
+    {
+      "path": "/blog/equity-extraction-risks-2026",
+      "url": "https://www.mothebroker.com/blog/equity-extraction-risks-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\equity-extraction-risks-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/fha-loans-orange-county-2026",
+      "url": "https://www.mothebroker.com/blog/fha-loans-orange-county-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\fha-loans-orange-county-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/first-time-homebuyer-guide-orange-county-2026",
+      "url": "https://www.mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\first-time-homebuyer-guide-orange-county-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/heloan-vs-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\heloan-vs-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/heloc-vs-home-equity-loan",
+      "url": "https://www.mothebroker.com/blog/heloc-vs-home-equity-loan",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\heloc-vs-home-equity-loan\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-beverly-hills-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-beverly-hills-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\home-equity-beverly-hills-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-irvine-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-irvine-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\home-equity-irvine-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/how-does-heloc-work",
+      "url": "https://www.mothebroker.com/blog/how-does-heloc-work",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\how-does-heloc-work\\page.tsx"
+    },
+    {
+      "path": "/blog/how-to-get-wholesale-mortgage-rates-california",
+      "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-california",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\how-to-get-wholesale-mortgage-rates-california\\page.tsx"
+    },
+    {
+      "path": "/blog/mission-viejo-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\mission-viejo-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/mortgage-broker-vs-bank-complete-2026",
+      "url": "https://www.mothebroker.com/blog/mortgage-broker-vs-bank-complete-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\mortgage-broker-vs-bank-complete-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/non-qm-loans-wholesale-broker",
+      "url": "https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\non-qm-loans-wholesale-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/non-qm-loans-wholesale-broker-2026",
+      "url": "https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\non-qm-loans-wholesale-broker-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/rancho-santa-margarita-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\rancho-santa-margarita-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/refinance-credit-requirements-2026",
+      "url": "https://www.mothebroker.com/blog/refinance-credit-requirements-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\refinance-credit-requirements-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-mission-viejo-ca-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-mission-viejo-ca-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\reverse-mortgage-mission-viejo-ca-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-myths-debunked-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-myths-debunked-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\reverse-mortgage-myths-debunked-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgages-california-guide",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgages-california-guide",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\reverse-mortgages-california-guide\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92629",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92629\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92677",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92677\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-california-pillar-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-pillar-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-california-pillar-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-yorba-linda-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-yorba-linda-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-vs-retail-mortgage-complete-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026",
+      "inboundLinks": 2,
+      "appPath": "app\\blog\\wholesale-vs-retail-mortgage-complete-2026\\page.tsx"
+    },
+    {
+      "path": "/conventional-loans-orange-county",
+      "url": "https://www.mothebroker.com/conventional-loans-orange-county",
+      "inboundLinks": 2,
+      "appPath": "app\\conventional-loans-orange-county\\page.tsx"
+    },
+    {
+      "path": "/cookie-policy",
+      "url": "https://www.mothebroker.com/cookie-policy",
+      "inboundLinks": 2,
+      "appPath": "app\\cookie-policy\\page.tsx"
+    },
+    {
+      "path": "/guides/mortgage-broker-vs-bank-complete-comparison",
+      "url": "https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison",
+      "inboundLinks": 2,
+      "appPath": "app\\guides\\mortgage-broker-vs-bank-complete-comparison\\page.tsx"
+    },
+    {
+      "path": "/guides/orange-county-home-buyer-guide",
+      "url": "https://www.mothebroker.com/guides/orange-county-home-buyer-guide",
+      "inboundLinks": 2,
+      "appPath": "app\\guides\\orange-county-home-buyer-guide\\page.tsx"
+    },
+    {
+      "path": "/guides/orange-county-jumbo-loans",
+      "url": "https://www.mothebroker.com/guides/orange-county-jumbo-loans",
+      "inboundLinks": 2,
+      "appPath": "app\\guides\\orange-county-jumbo-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/cash-out-refinance",
+      "url": "https://www.mothebroker.com/loan-programs/cash-out-refinance",
+      "inboundLinks": 2,
+      "appPath": "app\\loan-programs\\cash-out-refinance\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/conventional-loans",
+      "url": "https://www.mothebroker.com/loan-programs/conventional-loans",
+      "inboundLinks": 2,
+      "appPath": "app\\loan-programs\\conventional-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/fix-flip-loans",
+      "url": "https://www.mothebroker.com/loan-programs/fix-flip-loans",
+      "inboundLinks": 2,
+      "appPath": "app\\loan-programs\\fix-flip-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/heloan",
+      "url": "https://www.mothebroker.com/loan-programs/heloan",
+      "inboundLinks": 2,
+      "appPath": "app\\loan-programs\\heloan\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/usda-rural-loans",
+      "url": "https://www.mothebroker.com/loan-programs/usda-rural-loans",
+      "inboundLinks": 2,
+      "appPath": "app\\loan-programs\\usda-rural-loans\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide",
+      "inboundLinks": 2,
+      "appPath": "app\\neighborhood-guide\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide",
+      "inboundLinks": 2,
+      "appPath": "app\\neighborhood-guide\\irvine-vs-newport-beach-home-buying-guide\\page.tsx"
+    },
+    {
+      "path": "/quiz",
+      "url": "https://www.mothebroker.com/quiz",
+      "inboundLinks": 2,
+      "appPath": "app\\quiz\\page.tsx"
+    },
+    {
+      "path": "/resources/down-payment-assistance",
+      "url": "https://www.mothebroker.com/resources/down-payment-assistance",
+      "inboundLinks": 2,
+      "appPath": "app\\resources\\down-payment-assistance\\page.tsx"
+    },
+    {
+      "path": "/self-employed-home-loans-california",
+      "url": "https://www.mothebroker.com/self-employed-home-loans-california",
+      "inboundLinks": 2,
+      "appPath": "app\\self-employed-home-loans-california\\page.tsx"
+    },
+    {
+      "path": "/terms-of-service",
+      "url": "https://www.mothebroker.com/terms-of-service",
+      "inboundLinks": 2,
+      "appPath": "app\\terms-of-service\\page.tsx"
+    },
+    {
+      "path": "/areas/costa-mesa-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/costa-mesa-mortgage-broker",
+      "inboundLinks": 3,
+      "appPath": "app\\areas\\costa-mesa-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/mission-viejo-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/mission-viejo-mortgage-broker",
+      "inboundLinks": 3,
+      "appPath": "app\\areas\\mission-viejo-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/mortgage-broker-vs-bank",
+      "url": "https://www.mothebroker.com/blog/mortgage-broker-vs-bank",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\mortgage-broker-vs-bank\\page.tsx"
+    },
+    {
+      "path": "/blog/refinance-closing-costs-2026",
+      "url": "https://www.mothebroker.com/blog/refinance-closing-costs-2026",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\refinance-closing-costs-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/refinance-debt-consolidation-2026",
+      "url": "https://www.mothebroker.com/blog/refinance-debt-consolidation-2026",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\refinance-debt-consolidation-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-del-mar-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-del-mar-2026",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\reverse-mortgage-del-mar-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-medina-wa-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-medina-wa-2026",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\reverse-mortgage-medina-wa-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/self-employed-mortgage-broker",
+      "url": "https://www.mothebroker.com/blog/self-employed-mortgage-broker",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\self-employed-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/va-loans-orange-county-2026",
+      "url": "https://www.mothebroker.com/blog/va-loans-orange-county-2026",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\va-loans-orange-county-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92603",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92603\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92624",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92624\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-92672",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92672",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-92672\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-orange-county",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-orange-county\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-vs-retail-mortgage",
+      "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage",
+      "inboundLinks": 3,
+      "appPath": "app\\blog\\wholesale-vs-retail-mortgage\\page.tsx"
+    },
+    {
+      "path": "/guides",
+      "url": "https://www.mothebroker.com/guides",
+      "inboundLinks": 3,
+      "appPath": "app\\guides\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/fha-loans",
+      "url": "https://www.mothebroker.com/loan-programs/fha-loans",
+      "inboundLinks": 3,
+      "appPath": "app\\loan-programs\\fha-loans\\page.tsx"
+    },
+    {
+      "path": "/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide",
+      "url": "https://www.mothebroker.com/neighborhood-guide/mission-viejo-vs-irvine-home-buying-guide",
+      "inboundLinks": 3,
+      "appPath": "app\\neighborhood-guide\\mission-viejo-vs-irvine-home-buying-guide\\page.tsx"
+    },
+    {
+      "path": "/privacy-policy",
+      "url": "https://www.mothebroker.com/privacy-policy",
+      "inboundLinks": 3,
+      "appPath": "app\\privacy-policy\\page.tsx"
+    },
+    {
+      "path": "/purchase-loans",
+      "url": "https://www.mothebroker.com/purchase-loans",
+      "inboundLinks": 3,
+      "appPath": "app\\purchase-loans\\page.tsx"
+    },
+    {
+      "path": "/rate-term-refinance-orange-county",
+      "url": "https://www.mothebroker.com/rate-term-refinance-orange-county",
+      "inboundLinks": 3,
+      "appPath": "app\\rate-term-refinance-orange-county\\page.tsx"
+    },
+    {
+      "path": "/areas",
+      "url": "https://www.mothebroker.com/areas",
+      "inboundLinks": 4,
+      "appPath": "app\\areas\\page.tsx"
+    },
+    {
+      "path": "/areas/huntington-beach-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/huntington-beach-mortgage-broker",
+      "inboundLinks": 4,
+      "appPath": "app\\areas\\huntington-beach-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach",
+      "url": "https://www.mothebroker.com/areas/newport-beach",
+      "inboundLinks": 4,
+      "appPath": "app\\areas\\newport-beach\\page.tsx"
+    },
+    {
+      "path": "/blog/bank-statement-loans-wholesale",
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-wholesale",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\bank-statement-loans-wholesale\\page.tsx"
+    },
+    {
+      "path": "/blog/irvine-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/irvine-mortgage-guide-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\irvine-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-beverly-hills-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-beverly-hills-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\reverse-mortgage-beverly-hills-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-irvine-ca-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-irvine-ca-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\reverse-mortgage-irvine-ca-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-payout-options-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\reverse-mortgage-payout-options-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-vs-heloc-seniors-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\reverse-mortgage-vs-heloc-seniors-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/when-to-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/when-to-refinance-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\when-to-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-costa-mesa",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-costa-mesa\\page.tsx"
+    },
+    {
+      "path": "/fha-loans-orange-county",
+      "url": "https://www.mothebroker.com/fha-loans-orange-county",
+      "inboundLinks": 4,
+      "appPath": "app\\fha-loans-orange-county\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/foreign-national-loans",
+      "url": "https://www.mothebroker.com/loan-programs/foreign-national-loans",
+      "inboundLinks": 4,
+      "appPath": "app\\loan-programs\\foreign-national-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/jumbo-loans",
+      "url": "https://www.mothebroker.com/loan-programs/jumbo-loans",
+      "inboundLinks": 4,
+      "appPath": "app\\loan-programs\\jumbo-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/non-qm-loans",
+      "url": "https://www.mothebroker.com/loan-programs/non-qm-loans",
+      "inboundLinks": 4,
+      "appPath": "app\\loan-programs\\non-qm-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/profit-loss-statement-loans",
+      "url": "https://www.mothebroker.com/loan-programs/profit-loss-statement-loans",
+      "inboundLinks": 4,
+      "appPath": "app\\loan-programs\\profit-loss-statement-loans\\page.tsx"
+    },
+    {
+      "path": "/refinance-loans",
+      "url": "https://www.mothebroker.com/refinance-loans",
+      "inboundLinks": 4,
+      "appPath": "app\\refinance-loans\\page.tsx"
+    },
+    {
+      "path": "/va-loans-orange-county",
+      "url": "https://www.mothebroker.com/va-loans-orange-county",
+      "inboundLinks": 4,
+      "appPath": "app\\va-loans-orange-county\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine",
+      "url": "https://www.mothebroker.com/areas/irvine",
+      "inboundLinks": 5,
+      "appPath": "app\\areas\\irvine\\page.tsx"
+    },
+    {
+      "path": "/areas/newport-beach-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/newport-beach-mortgage-broker",
+      "inboundLinks": 5,
+      "appPath": "app\\areas\\newport-beach-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/cash-out-refinance-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\cash-out-refinance-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/how-to-get-wholesale-mortgage-rates-2026",
+      "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\how-to-get-wholesale-mortgage-rates-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-inheritance-heirs-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-inheritance-heirs-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\reverse-mortgage-inheritance-heirs-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-la-jolla-ca-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-la-jolla-ca-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\reverse-mortgage-la-jolla-ca-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/what-is-reverse-mortgage-2026",
+      "url": "https://www.mothebroker.com/blog/what-is-reverse-mortgage-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\what-is-reverse-mortgage-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-anaheim",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-anaheim\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-irvine-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-irvine-2026",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-irvine-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-yorba-linda",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda",
+      "inboundLinks": 5,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-yorba-linda\\page.tsx"
+    },
+    {
+      "path": "/blog/200-lender-advantage-explained-2026",
+      "url": "https://www.mothebroker.com/blog/200-lender-advantage-explained-2026",
+      "inboundLinks": 6,
+      "appPath": "app\\blog\\200-lender-advantage-explained-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/asset-depletion-loans-guide-2026",
+      "url": "https://www.mothebroker.com/blog/asset-depletion-loans-guide-2026",
+      "inboundLinks": 6,
+      "appPath": "app\\blog\\asset-depletion-loans-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/what-can-you-use-home-equity-for-2026",
+      "url": "https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026",
+      "inboundLinks": 6,
+      "appPath": "app\\blog\\what-can-you-use-home-equity-for-2026\\page.tsx"
+    },
+    {
+      "path": "/calculator/affordability",
+      "url": "https://www.mothebroker.com/calculator/affordability",
+      "inboundLinks": 6,
+      "appPath": "app\\calculator\\affordability\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/asset-depletion-loans",
+      "url": "https://www.mothebroker.com/loan-programs/asset-depletion-loans",
+      "inboundLinks": 6,
+      "appPath": "app\\loan-programs\\asset-depletion-loans\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/heloc",
+      "url": "https://www.mothebroker.com/loan-programs/heloc",
+      "inboundLinks": 6,
+      "appPath": "app\\loan-programs\\heloc\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/how-to-get-wholesale-rates",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/how-to-get-wholesale-rates",
+      "inboundLinks": 6,
+      "appPath": "app\\wholesale-mortgage-broker-california\\how-to-get-wholesale-rates\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage",
+      "inboundLinks": 6,
+      "appPath": "app\\wholesale-mortgage-broker-california\\wholesale-vs-retail-mortgage\\page.tsx"
+    },
+    {
+      "path": "/areas/irvine-mortgage-broker",
+      "url": "https://www.mothebroker.com/areas/irvine-mortgage-broker",
+      "inboundLinks": 7,
+      "appPath": "app\\areas\\irvine-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog",
+      "url": "https://www.mothebroker.com/blog",
+      "inboundLinks": 7,
+      "appPath": "app\\blog\\page.tsx"
+    },
+    {
+      "path": "/blog/hecm-counseling-requirements-2026",
+      "url": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026",
+      "inboundLinks": 7,
+      "appPath": "app\\blog\\hecm-counseling-requirements-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/hecm-for-purchase-2026",
+      "url": "https://www.mothebroker.com/blog/hecm-for-purchase-2026",
+      "inboundLinks": 7,
+      "appPath": "app\\blog\\hecm-for-purchase-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/newport-beach-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026",
+      "inboundLinks": 7,
+      "appPath": "app\\blog\\newport-beach-mortgage-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/heloan-orange-county",
+      "url": "https://www.mothebroker.com/heloan-orange-county",
+      "inboundLinks": 7,
+      "appPath": "app\\heloan-orange-county\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/200-lender-advantage",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/200-lender-advantage",
+      "inboundLinks": 7,
+      "appPath": "app\\wholesale-mortgage-broker-california\\200-lender-advantage\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+      "inboundLinks": 7,
+      "appPath": "app\\wholesale-mortgage-broker-california\\mortgage-broker-vs-bank\\page.tsx"
+    },
+    {
+      "path": "/blog/heloc-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/heloc-complete-guide-2026",
+      "inboundLinks": 8,
+      "appPath": "app\\blog\\heloc-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-calculator-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-calculator-2026",
+      "inboundLinks": 8,
+      "appPath": "app\\blog\\reverse-mortgage-calculator-2026\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/non-qm-loans-wholesale",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/non-qm-loans-wholesale",
+      "inboundLinks": 8,
+      "appPath": "app\\wholesale-mortgage-broker-california\\non-qm-loans-wholesale\\page.tsx"
+    },
+    {
+      "path": "/blog/cash-out-refinance-how-it-works-2026",
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026",
+      "inboundLinks": 9,
+      "appPath": "app\\blog\\cash-out-refinance-how-it-works-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/heloc-vs-home-equity-loan-2026",
+      "url": "https://www.mothebroker.com/blog/heloc-vs-home-equity-loan-2026",
+      "inboundLinks": 9,
+      "appPath": "app\\blog\\heloc-vs-home-equity-loan-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-vs-retail-mortgage-brokers-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
+      "inboundLinks": 9,
+      "appPath": "app\\blog\\wholesale-vs-retail-mortgage-brokers-2026\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/bank-statement-loans",
+      "url": "https://www.mothebroker.com/loan-programs/bank-statement-loans",
+      "inboundLinks": 9,
+      "appPath": "app\\loan-programs\\bank-statement-loans\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/self-employed-mortgage-broker",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/self-employed-mortgage-broker",
+      "inboundLinks": 9,
+      "appPath": "app\\wholesale-mortgage-broker-california\\self-employed-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california/bank-statement-loans-wholesale",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/bank-statement-loans-wholesale",
+      "inboundLinks": 10,
+      "appPath": "app\\wholesale-mortgage-broker-california\\bank-statement-loans-wholesale\\page.tsx"
+    },
+    {
+      "path": "/blog/self-employed-mortgage-broker-2026",
+      "url": "https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026",
+      "inboundLinks": 11,
+      "appPath": "app\\blog\\self-employed-mortgage-broker-2026\\page.tsx"
+    },
+    {
+      "path": "/cash-out-refinance",
+      "url": "https://www.mothebroker.com/cash-out-refinance",
+      "inboundLinks": 11,
+      "appPath": "app\\cash-out-refinance\\page.tsx"
+    },
+    {
+      "path": "/heloc-orange-county",
+      "url": "https://www.mothebroker.com/heloc-orange-county",
+      "inboundLinks": 11,
+      "appPath": "app\\heloc-orange-county\\page.tsx"
+    },
+    {
+      "path": "/blog/dscr-investment-property-loans-2026",
+      "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
+      "inboundLinks": 12,
+      "appPath": "app\\blog\\dscr-investment-property-loans-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/proprietary-reverse-mortgage-2026",
+      "url": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026",
+      "inboundLinks": 12,
+      "appPath": "app\\blog\\proprietary-reverse-mortgage-2026\\page.tsx"
+    },
+    {
+      "path": "/loan-programs",
+      "url": "https://www.mothebroker.com/loan-programs",
+      "inboundLinks": 12,
+      "appPath": "app\\loan-programs\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/dscr-investment-loans",
+      "url": "https://www.mothebroker.com/loan-programs/dscr-investment-loans",
+      "inboundLinks": 12,
+      "appPath": "app\\loan-programs\\dscr-investment-loans\\page.tsx"
+    },
+    {
+      "path": "/blog/hecm-pros-cons-2026",
+      "url": "https://www.mothebroker.com/blog/hecm-pros-cons-2026",
+      "inboundLinks": 13,
+      "appPath": "app\\blog\\hecm-pros-cons-2026\\page.tsx"
+    },
+    {
+      "path": "/home-equity-guide",
+      "url": "https://www.mothebroker.com/home-equity-guide",
+      "inboundLinks": 13,
+      "appPath": "app\\home-equity-guide\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-complete-guide-2026",
+      "inboundLinks": 14,
+      "appPath": "app\\blog\\reverse-mortgage-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/wholesale-mortgage-broker-california",
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california",
+      "inboundLinks": 14,
+      "appPath": "app\\wholesale-mortgage-broker-california\\page.tsx"
+    },
+    {
+      "path": "/blog/hecm-vs-heloc-seniors-2026",
+      "url": "https://www.mothebroker.com/blog/hecm-vs-heloc-seniors-2026",
+      "inboundLinks": 15,
+      "appPath": "app\\blog\\hecm-vs-heloc-seniors-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-loan-fixed-rate-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026",
+      "inboundLinks": 15,
+      "appPath": "app\\blog\\home-equity-loan-fixed-rate-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/home-equity-refinancing-guide-2026",
+      "url": "https://www.mothebroker.com/blog/home-equity-refinancing-guide-2026",
+      "inboundLinks": 15,
+      "appPath": "app\\blog\\home-equity-refinancing-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/how-does-heloc-work-2026",
+      "url": "https://www.mothebroker.com/blog/how-does-heloc-work-2026",
+      "inboundLinks": 15,
+      "appPath": "app\\blog\\how-does-heloc-work-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/reverse-mortgage-requirements-complete-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
+      "inboundLinks": 16,
+      "appPath": "app\\blog\\reverse-mortgage-requirements-complete-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/non-qm-loans-complete-guide-2026",
+      "url": "https://www.mothebroker.com/blog/non-qm-loans-complete-guide-2026",
+      "inboundLinks": 17,
+      "appPath": "app\\blog\\non-qm-loans-complete-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/reverse-mortgages",
+      "url": "https://www.mothebroker.com/reverse-mortgages",
+      "inboundLinks": 17,
+      "appPath": "app\\reverse-mortgages\\page.tsx"
+    },
+    {
+      "path": "/blog/bank-statement-loans-wholesale-2026",
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026",
+      "inboundLinks": 18,
+      "appPath": "app\\blog\\bank-statement-loans-wholesale-2026\\page.tsx"
+    },
+    {
+      "path": "/contact-orange-county-mortgage-broker",
+      "url": "https://www.mothebroker.com/contact-orange-county-mortgage-broker",
+      "inboundLinks": 18,
+      "appPath": "app\\contact-orange-county-mortgage-broker\\page.tsx"
+    },
+    {
+      "path": "/blog/heloc-vs-cash-out-refinance-2026",
+      "url": "https://www.mothebroker.com/blog/heloc-vs-cash-out-refinance-2026",
+      "inboundLinks": 21,
+      "appPath": "app\\blog\\heloc-vs-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/jumbo-loans-orange-county-2026",
+      "url": "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026",
+      "inboundLinks": 23,
+      "appPath": "app\\blog\\jumbo-loans-orange-county-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/mortgage-broker-vs-bank-2026",
+      "url": "https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026",
+      "inboundLinks": 24,
+      "appPath": "app\\blog\\mortgage-broker-vs-bank-2026\\page.tsx"
+    },
+    {
+      "path": "/",
+      "url": "https://www.mothebroker.com",
+      "inboundLinks": 28,
+      "appPath": "app\\page.tsx"
+    },
+    {
+      "path": "/blog/bank-statement-loans-self-employed-2026",
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+      "inboundLinks": 28,
+      "appPath": "app\\blog\\bank-statement-loans-self-employed-2026\\page.tsx"
+    },
+    {
+      "path": "/calculator",
+      "url": "https://www.mothebroker.com/calculator",
+      "inboundLinks": 35,
+      "appPath": "app\\calculator\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-california-guide-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+      "inboundLinks": 42,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-california-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/wholesale-mortgage-broker-orange-county-2026",
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county-2026",
+      "inboundLinks": 45,
+      "appPath": "app\\blog\\wholesale-mortgage-broker-orange-county-2026\\page.tsx"
+    },
+    {
+      "path": "/contact",
+      "url": "https://www.mothebroker.com/contact",
+      "inboundLinks": 202,
+      "appPath": "app\\contact\\page.tsx"
+    }
+  ],
+  "orphaned": []
+}

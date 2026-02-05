@@ -273,9 +273,9 @@ Mo Abdel
 <meta property="og:type" content="article">
 <meta property="og:title" content="[Title]">
 <meta property="og:description" content="[Meta Description]">
-<meta property="og:url" content="https://mothebroker.com/blog/[slug]">
+<meta property="og:url" content="https://www.mothebroker.com/blog/[slug]">
 <meta property="article:author" content="Mo Abdel">
-<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:publisher" content="https://www.mothebroker.com">
 <meta property="article:published_time" content="[ISO_DATE]">
 <meta property="article:modified_time" content="[ISO_DATE]">
 <meta name="author" content="Mo Abdel, NMLS #1426884">
@@ -290,7 +290,7 @@ Add to Article schema:
 {
   "mainEntity": {
     "@type": "WebPage",
-    "@id": "https://mothebroker.com/blog/[slug]",
+    "@id": "https://www.mothebroker.com/blog/[slug]",
     "significantLink": [
       "https://www.hud.gov/",
       "https://www.consumerfinance.gov/",
@@ -300,7 +300,7 @@ Add to Article schema:
   "copyrightHolder": {
     "@type": "Organization",
     "name": "Lumin Lending",
-    "url": "https://mothebroker.com"
+    "url": "https://www.mothebroker.com"
   },
   "copyrightYear": "2026"
 }

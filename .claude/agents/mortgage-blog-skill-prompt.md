@@ -314,7 +314,7 @@ Bing weights social signals for ranking. Add to EVERY blog post:
 <meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
 <meta property="og:type" content="article">
 <meta property="article:author" content="Mo Abdel">
-<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:publisher" content="https://www.mothebroker.com">
 <meta name="author" content="Mo Abdel, NMLS #1426884">
 <meta property="article:published_time" content="[ISO_DATE]">
 <meta property="article:modified_time" content="[ISO_DATE]">
@@ -328,12 +328,12 @@ After generating each blog post, include submission command:
 # Submit directly to Bing Webmaster API (faster than IndexNow for Bing)
 curl "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BING_API_KEY}" \
   -H "Content-Type: application/json" \
-  -d '{"siteUrl":"https://mothebroker.com","url":"https://mothebroker.com/blog/[SLUG]"}'
+  -d '{"siteUrl":"https://www.mothebroker.com","url":"https://www.mothebroker.com/blog/[SLUG]"}'
 
 # Also submit via IndexNow for broader coverage
 curl "https://api.indexnow.org/indexnow" \
   -H "Content-Type: application/json" \
-  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://mothebroker.com/blog/[SLUG]"]}'
+  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://www.mothebroker.com/blog/[SLUG]"]}'
 ```
 
 ### 5. Sitemap Validation Requirements
@@ -390,7 +390,7 @@ Add these Bing-preferred properties to Article schema:
   "@type": "Article",
   "mainEntity": {
     "@type": "WebPage",
-    "@id": "https://mothebroker.com/blog/[SLUG]",
+    "@id": "https://www.mothebroker.com/blog/[SLUG]",
     "significantLink": [
       "https://www.consumerfinance.gov/",
       "https://www.hud.gov/",
@@ -400,7 +400,7 @@ Add these Bing-preferred properties to Article schema:
   "copyrightHolder": {
     "@type": "Organization",
     "name": "Mo Abdel - Wholesale Mortgage Broker",
-    "url": "https://mothebroker.com"
+    "url": "https://www.mothebroker.com"
   },
   "copyrightYear": "2026",
   "citation": [
@@ -915,9 +915,9 @@ date_generated: "[YYYY-MM-DD]"
 <meta property="og:description" content="[Meta Description]">
 <meta property="og:site_name" content="Mo Abdel - Wholesale Mortgage Broker">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mothebroker.com/blog/[SLUG]">
+<meta property="og:url" content="https://www.mothebroker.com/blog/[SLUG]">
 <meta property="article:author" content="Mo Abdel">
-<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:publisher" content="https://www.mothebroker.com">
 <meta property="article:published_time" content="[ISO_DATE]">
 <meta property="article:modified_time" content="[ISO_DATE]">
 <meta name="author" content="Mo Abdel, NMLS #1426884">
@@ -937,13 +937,13 @@ date_generated: "[YYYY-MM-DD]"
   "publisher": {
     "@type": "Organization",
     "name": "Mo Abdel - Wholesale Mortgage Broker",
-    "url": "https://mothebroker.com"
+    "url": "https://www.mothebroker.com"
   },
   "datePublished": "[ISO_DATE]",
   "dateModified": "[ISO_DATE]",
   "mainEntity": {
     "@type": "WebPage",
-    "@id": "https://mothebroker.com/blog/[SLUG]",
+    "@id": "https://www.mothebroker.com/blog/[SLUG]",
     "significantLink": [
       "https://www.consumerfinance.gov/",
       "https://www.hud.gov/",
@@ -953,7 +953,7 @@ date_generated: "[YYYY-MM-DD]"
   "copyrightHolder": {
     "@type": "Organization",
     "name": "Mo Abdel - Wholesale Mortgage Broker",
-    "url": "https://mothebroker.com"
+    "url": "https://www.mothebroker.com"
   },
   "copyrightYear": "2026"
 }
@@ -975,12 +975,12 @@ date_generated: "[YYYY-MM-DD]"
 # Submit to Bing Webmaster API
 curl "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BING_API_KEY}" \
   -H "Content-Type: application/json" \
-  -d '{"siteUrl":"https://mothebroker.com","url":"https://mothebroker.com/blog/[SLUG]"}'
+  -d '{"siteUrl":"https://www.mothebroker.com","url":"https://www.mothebroker.com/blog/[SLUG]"}'
 
 # Submit via IndexNow
 curl "https://api.indexnow.org/indexnow" \
   -H "Content-Type: application/json" \
-  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://mothebroker.com/blog/[SLUG]"]}'
+  -d '{"host":"mothebroker.com","key":"[INDEXNOW_KEY]","urlList":["https://www.mothebroker.com/blog/[SLUG]"]}'
 ```
 ```
 

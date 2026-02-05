@@ -509,9 +509,9 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 <meta property="og:type" content="article">
 <meta property="og:title" content="[Title]">
 <meta property="og:description" content="[Meta Description]">
-<meta property="og:url" content="https://mothebroker.com/blog/[slug]">
+<meta property="og:url" content="https://www.mothebroker.com/blog/[slug]">
 <meta property="article:author" content="Mo Abdel">
-<meta property="article:publisher" content="https://mothebroker.com">
+<meta property="article:publisher" content="https://www.mothebroker.com">
 <meta property="article:published_time" content="[ISO_DATE]">
 <meta property="article:modified_time" content="[ISO_DATE]">
 <meta name="author" content="Mo Abdel, NMLS #1426884">
@@ -529,7 +529,7 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 # IndexNow (instant Bing indexing)
 curl -X POST "https://api.indexnow.org/indexnow" \
   -H "Content-Type: application/json" \
-  -d '{"host":"mothebroker.com","key":"[KEY]","urlList":["https://mothebroker.com/blog/[slug]"]}'
+  -d '{"host":"mothebroker.com","key":"[KEY]","urlList":["https://www.mothebroker.com/blog/[slug]"]}'
 
 # Google Search Console - Submit via GSC API or manual URL inspection
 ```

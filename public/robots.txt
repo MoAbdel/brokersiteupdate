@@ -1,9 +1,94 @@
-# *
-User-agent: *
+# Googlebot
+User-agent: Googlebot
 Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /dashboard/
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# msnbot
+User-agent: msnbot
+Allow: /
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+
+# GPTBot
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# ChatGPT-User
+User-agent: ChatGPT-User
+Allow: /
+
+# Google-Extended
+User-agent: Google-Extended
+Allow: /
+
+# PerplexityBot
+User-agent: PerplexityBot
+Allow: /
+
+# ClaudeBot
+User-agent: ClaudeBot
+Allow: /
+
+# anthropic-ai
+User-agent: anthropic-ai
+Allow: /
+
+# Applebot
+User-agent: Applebot
+Allow: /
+
+# Applebot-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+# cohere-ai
+User-agent: cohere-ai
+Allow: /
+
+# YandexBot
+User-agent: YandexBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# SeznamBot
+User-agent: SeznamBot
+Allow: /
+
+# CCBot
+User-agent: CCBot
+Disallow: /
+
+# img2dataset
+User-agent: img2dataset
+Disallow: /
+
+# Omgilibot
+User-agent: Omgilibot
+Disallow: /
+
+# FacebookBot
+User-agent: FacebookBot
+Disallow: /
 
 # Baiduspider
 User-agent: Baiduspider
@@ -61,49 +146,12 @@ Disallow: /
 User-agent: Bytespider
 Disallow: /
 
-# Yandex
-User-agent: Yandex
-Disallow: /
-
-# YandexBot
-User-agent: YandexBot
-Disallow: /
-
-# YandexImages
-User-agent: YandexImages
-Disallow: /
-
-# YandexVideo
-User-agent: YandexVideo
-Disallow: /
-
-# YandexMedia
-User-agent: YandexMedia
-Disallow: /
-
-# YandexBlogs
-User-agent: YandexBlogs
-Disallow: /
-
-# YandexNews
-User-agent: YandexNews
-Disallow: /
-
-# YandexMetrika
-User-agent: YandexMetrika
-Disallow: /
-
-# NaverBot
-User-agent: NaverBot
-Disallow: /
-
-# Yeti
-User-agent: Yeti
-Disallow: /
-
-# SeznamBot
-User-agent: SeznamBot
-Disallow: /
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
 
 # Host
 Host: https://www.mothebroker.com

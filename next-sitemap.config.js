@@ -38,17 +38,116 @@ module.exports = {
     '/guides/orange-county-va-loans',
     '/zip-codes/92625-corona-del-mar-mortgage-broker',
     '/tools/mortgage-calculator',
-    '/_not-found'
+    '/_not-found',
+    // Exclude redirect source URLs (these 301 to -2026 versions)
+    '/blog/200-lender-advantage',
+    '/blog/bank-statement-loans-wholesale',
+    '/blog/cash-out-refinance-how-it-works',
+    '/blog/how-does-heloc-work',
+    '/blog/heloc-vs-home-equity-loan',
+    '/blog/mortgage-broker-vs-bank',
+    '/blog/non-qm-loans-wholesale-broker',
+    '/blog/reverse-mortgage-vs-heloc-seniors',
+    '/blog/self-employed-mortgage-broker',
+    '/blog/what-is-reverse-mortgage',
+    '/blog/wholesale-mortgage-broker-orange-county',
+    '/blog/wholesale-mortgage-broker-anaheim',
+    '/blog/wholesale-mortgage-broker-costa-mesa',
+    '/blog/wholesale-mortgage-broker-yorba-linda',
+    '/blog/wholesale-mortgage-broker-92603',
+    '/blog/wholesale-vs-retail-mortgage',
+    '/articles',
+    '/articles/*'
   ],
   robotsTxtOptions: {
     policies: [
-      // Default policy for good crawlers
+      // ===========================================
+      // MAJOR SEARCH ENGINES - Explicit Allow
+      // ===========================================
       {
-        userAgent: '*',
+        userAgent: 'Googlebot',
         allow: '/',
         disallow: ['/admin/', '/api/', '/dashboard/']
       },
-      // Block Chinese search engines
+      {
+        userAgent: 'Googlebot-Image',
+        allow: '/'
+      },
+      {
+        userAgent: 'Bingbot',
+        allow: '/',
+        disallow: ['/admin/', '/api/', '/dashboard/']
+      },
+      {
+        userAgent: 'msnbot',
+        allow: '/'
+      },
+      {
+        userAgent: 'DuckDuckBot',
+        allow: '/'
+      },
+      // ===========================================
+      // AI SEARCH / ANSWER ENGINES - Allow for visibility
+      // ===========================================
+      {
+        userAgent: 'GPTBot',
+        allow: '/',
+        disallow: ['/admin/', '/api/', '/dashboard/']
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        allow: '/'
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/'
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: '/'
+      },
+      {
+        userAgent: 'ClaudeBot',
+        allow: '/'
+      },
+      {
+        userAgent: 'anthropic-ai',
+        allow: '/'
+      },
+      {
+        userAgent: 'Applebot',
+        allow: '/'
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: '/'
+      },
+      {
+        userAgent: 'cohere-ai',
+        allow: '/'
+      },
+      // ===========================================
+      // INDEXNOW PARTNERS - Allow (Yandex, Seznam)
+      // ===========================================
+      {
+        userAgent: 'YandexBot',
+        allow: '/',
+        disallow: ['/admin/', '/api/', '/dashboard/']
+      },
+      {
+        userAgent: 'SeznamBot',
+        allow: '/'
+      },
+      // ===========================================
+      // AI TRAINING CRAWLERS - Block (not search, just training)
+      // ===========================================
+      { userAgent: 'CCBot', disallow: '/' },
+      { userAgent: 'img2dataset', disallow: '/' },
+      { userAgent: 'Omgilibot', disallow: '/' },
+      { userAgent: 'FacebookBot', disallow: '/' },
+      // ===========================================
+      // BLOCK CHINESE SEARCH ENGINES (low value traffic)
+      // ===========================================
       { userAgent: 'Baiduspider', disallow: '/' },
       { userAgent: 'Baiduspider-image', disallow: '/' },
       { userAgent: 'Baiduspider-video', disallow: '/' },
@@ -63,19 +162,14 @@ module.exports = {
       { userAgent: 'HaoSouSpider', disallow: '/' },
       { userAgent: 'YisouSpider', disallow: '/' },
       { userAgent: 'Bytespider', disallow: '/' },
-      // Block Russian search engines
-      { userAgent: 'Yandex', disallow: '/' },
-      { userAgent: 'YandexBot', disallow: '/' },
-      { userAgent: 'YandexImages', disallow: '/' },
-      { userAgent: 'YandexVideo', disallow: '/' },
-      { userAgent: 'YandexMedia', disallow: '/' },
-      { userAgent: 'YandexBlogs', disallow: '/' },
-      { userAgent: 'YandexNews', disallow: '/' },
-      { userAgent: 'YandexMetrika', disallow: '/' },
-      // Block other international crawlers (Korean, Czech)
-      { userAgent: 'NaverBot', disallow: '/' },
-      { userAgent: 'Yeti', disallow: '/' },
-      { userAgent: 'SeznamBot', disallow: '/' }
+      // ===========================================
+      // DEFAULT - Allow all others
+      // ===========================================
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/admin/', '/api/', '/dashboard/']
+      }
     ],
     additionalSitemaps: [
       'https://www.mothebroker.com/sitemap-images.xml',
@@ -147,20 +241,15 @@ module.exports = {
       changefreq = 'monthly';
     }
 
-    // Set last modification date for key pages
-    let lastmod = undefined;
+    // IMPORTANT: All pages MUST have lastmod for Google to track freshness
+    // Without lastmod, Google deprioritizes crawling
     const currentDate = new Date().toISOString();
-
-    // High-priority pages get current date
-    if (priority >= 0.8) {
-      lastmod = currentDate;
-    }
 
     return {
       loc: path,
       changefreq,
       priority,
-      lastmod,
+      lastmod: currentDate,  // All pages get lastmod now
       alternateRefs: []
     };
   },

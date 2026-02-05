@@ -420,7 +420,7 @@ class SitemapBuilder {
 
     console.log('\nAcceptance Test Results:');
     const hasNonWwwUsda = Array.from(this.validUrls.keys()).some(url =>
-      url === 'https://mothebroker.com/loan-programs/usda-rural-loans'
+      url === 'https://www.mothebroker.com/loan-programs/usda-rural-loans'
     );
     const hasWwwUsda = Array.from(this.validUrls.keys()).some(url =>
       url === 'https://www.mothebroker.com/loan-programs/usda-rural-loans'
