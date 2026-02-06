@@ -13,7 +13,12 @@ Optimize every post for four discovery channels:
 
 ## Content Structure: AI-First Answer Stack
 
-**All articles (3,250-4,000 words) follow this structure:**
+**Three content sizes are supported:**
+- **Clusters/Geo posts:** 3,250-4,000 words
+- **Hub posts:** 4,500-5,500 words
+- **Regional pillars:** 5,500-6,500 words
+
+**All articles follow this structure (scaled by content size):**
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -251,8 +256,18 @@ Mo Abdel
 
 **Keyword Density:** 1.5-2% (slightly higher than Google)
 
+### Bing Power Block — Hub Post Enhanced (900-1,100 words)
+Hub posts expand the Bing Power Block to include:
+- **Region Overview Mega-Table** — All cities at a glance (City | Median Value | Avg Equity | Top Neighborhoods)
+- **Product Comparison Table** — Product | Best For | LTV | Term | Key Benefit
+- **City Snapshot Tables** — Inline 4-5 field mini-tables per city section
+- **Regional Price Trends Table** — Historical data by city
+- **Loan Program Fit Table** — Which product for which city price tier
+
 ### Structured Content (Bing Rewards Heavily)
-- Minimum 2 comparison tables per article
+- Hub posts: Minimum 4-5 comparison/data tables
+- Regional pillars: Minimum 3 comparison/data tables
+- Clusters/Geo: Minimum 2 comparison tables
 - Minimum 2 numbered lists (5+ items each)
 - Minimum 1 bulleted list with bold lead-ins
 - No JavaScript-dependent content
@@ -273,7 +288,7 @@ Mo Abdel
 <meta property="og:type" content="article">
 <meta property="og:title" content="[Title]">
 <meta property="og:description" content="[Meta Description]">
-<meta property="og:url" content="https://www.mothebroker.com/blog/[slug]">
+<meta property="og:url" content="https://www.mothebroker.com/[blog|guides]/[slug]">
 <meta property="article:author" content="Mo Abdel">
 <meta property="article:publisher" content="https://www.mothebroker.com">
 <meta property="article:published_time" content="[ISO_DATE]">
@@ -290,7 +305,7 @@ Add to Article schema:
 {
   "mainEntity": {
     "@type": "WebPage",
-    "@id": "https://www.mothebroker.com/blog/[slug]",
+    "@id": "https://www.mothebroker.com/[blog|guides]/[slug]",
     "significantLink": [
       "https://www.hud.gov/",
       "https://www.consumerfinance.gov/",
@@ -327,7 +342,7 @@ In this comprehensive guide, we'll explore everything you need to know...
 ### Google E-E-A-T Narrative Requirements (1,200-1,500 words)
 
 **Experience Signals:**
-- "In our Orange County closings..." (every 300 words)
+- "In our Orange County closings..." (every 250 words)
 - "Based on Mo Abdel's experience with [borrower type]..."
 - "A recent client scenario illustrates..."
 - Specific scenarios without PII
@@ -417,6 +432,8 @@ Mark these sections as speakable in schema:
 |--------------|----------------|--------------------------|
 | Pillar | 15-20 | 4-5 |
 | Cluster | 8-10 | 2-3 |
+| Regional Pillar | 12+ | 3-4 |
+| Hub Post | 8+ | 2-3 |
 | Geo/City/Zip | 6-8 | 2-3 |
 
 ### Link Types
@@ -447,6 +464,28 @@ Mark these sections as speakable in schema:
 ### Link Attributes
 All external links: `target="_blank" rel="noopener noreferrer"`
 
+## Hub Post Duplicate Prevention
+
+### Hub-Level Differentiation
+- Each hub has a distinct regional borrower persona
+- No two hubs share more than 30% boilerplate content
+- Product descriptions vary by regional context
+
+### City-Level Differentiation (Within Hubs)
+- Each city has a MANDATORY unique angle from city-topic-matrix.md
+- Each city section has a different opening focus
+- Each city references different neighborhoods (3-5 unique)
+- Each city features a different borrower scenario
+- FAQ questions are city-specific (not just name-swapped)
+
+### Quality Gate: Hub Differentiation
+Before outputting a hub post, verify:
+- [ ] Hub persona differs from adjacent hubs
+- [ ] Each city angle differs from others in the hub
+- [ ] City sections have <30% content overlap
+- [ ] Market data is city-specific (not regional averages)
+- [ ] FAQ questions reference specific city contexts
+
 ## Quality Checklist (All Gates Must Pass)
 
 ### Word Count Gate
@@ -458,6 +497,25 @@ All external links: `target="_blank" rel="noopener noreferrer"`
 - [ ] PAA Section: 400-500 words (6-8 questions)
 - [ ] Extended FAQ: 400-500 words (10-12 questions)
 - [ ] Expert Summary: 150-200 words
+
+Hub posts: 4,500-5,500 words total
+  - Citation Hook: 50-75 words
+  - Bing Power Block: 900-1,100 words
+  - City Deep Dives: 1,800-2,200 words
+  - E-E-A-T Narrative: 600-800 words
+  - Data Hub: 400-500 words
+  - PAA: 400-500 words
+  - FAQ: 400-500 words
+  - Expert Summary: 150-200 words
+
+Regional Pillars: 5,500-6,500 words total
+  - Citation Hook: 75-100 words
+  - Bing Power Block: 1,000-1,200 words
+  - Regional Market Overview: 800-1,000 words
+  - Hub Previews: 1,200-1,500 words
+  - E-E-A-T Deep Dive: 600-800 words
+  - FAQ: 600-800 words
+  - Expert Summary: 200-250 words
 
 ### Bing Gate
 - [ ] Primary keyword in H1 (exact match)
@@ -471,7 +529,7 @@ All external links: `target="_blank" rel="noopener noreferrer"`
 - [ ] Full social meta tags (OG + Twitter)
 
 ### Google Gate
-- [ ] E-E-A-T experience markers (4+ instances, every 300 words)
+- [ ] E-E-A-T experience markers (4+ instances, every 250 words)
 - [ ] Natural language H2 questions (4+ sections)
 - [ ] External authority links (2-3 to .gov sources)
 - [ ] Internal links (5-8 minimum)
@@ -506,6 +564,24 @@ All external links: `target="_blank" rel="noopener noreferrer"`
 - [ ] Local borrower profile described
 - [ ] 800+ words of truly unique local content
 - [ ] LocalBusiness schema included
+
+### Hub Post Gate (hub posts only)
+- [ ] 4-5 full comparison/data tables
+- [ ] 5-10 inline city snapshot tables
+- [ ] 5-10 cities covered with 250-350 words each
+- [ ] Each city has unique angle from city-topic-matrix
+- [ ] Each city has unique borrower persona
+- [ ] No two cities share the same opening
+- [ ] 7 schema types included
+
+### Regional Pillar Gate (regional pillars only)
+- [ ] 3+ comparison/data tables
+- [ ] Hub preview sections with links (200w each)
+- [ ] Links to ALL hub posts in region
+- [ ] Links to state-level pillar
+- [ ] Links to 2+ cross-track regional pillars
+- [ ] E-E-A-T markers every 250 words (6+ instances)
+- [ ] 12-15 FAQ questions
 
 ### Compliance Gate
 - [ ] NO specific interest rate percentages

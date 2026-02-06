@@ -1,6 +1,6 @@
 {
   "_comment": "JSON-LD Schema Templates for HECM & Equity Blog Generator",
-  "_version": "2026-01",
+  "_version": "2026-02",
 
   "article": {
     "@context": "https://schema.org",
@@ -40,7 +40,7 @@
     "dateModified": "[ISO_DATE]",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://www.mothebroker.com/blog/[SLUG]",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
       "significantLink": [
         "https://www.hud.gov/",
         "https://www.consumerfinance.gov/",
@@ -133,6 +133,39 @@
     "priceRange": "$$"
   },
 
+  "localBusinessGeoHub": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - [REGION] Mortgage Broker",
+    "description": "[TRACK]-focused mortgage services across [REGION]. Serving [CITY_1], [CITY_2], [CITY_3] and surrounding areas. NMLS #1426884.",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 822-9662",
+    "email": "mo@mothebroker.com",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "[CITY_1]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      },
+      {
+        "@type": "City",
+        "name": "[CITY_2]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      },
+      {
+        "@type": "City",
+        "name": "[CITY_3]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      }
+    ],
+    "priceRange": "$$",
+    "knowsAbout": [
+      "Reverse Mortgages", "HECM Loans", "Home Equity Lines of Credit",
+      "Home Equity Loans", "Cash-Out Refinance", "Wholesale Mortgage Lending"
+    ],
+    "sameAs": ["https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1426884"]
+  },
+
   "howTo": {
     "@context": "https://schema.org",
     "@type": "HowTo",
@@ -192,7 +225,7 @@
     "dateModified": "[ISO_DATE]",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://www.mothebroker.com/blog/[SLUG]",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
       "significantLink": [
         "https://www.hud.gov/program_offices/housing/sfh/hecm",
         "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
@@ -239,7 +272,7 @@
     "dateModified": "[ISO_DATE]",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://www.mothebroker.com/blog/[SLUG]",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
       "significantLink": [
         "https://www.consumerfinance.gov/owning-a-home/",
         "https://www.fhfa.gov/",
@@ -273,7 +306,99 @@
         "@type": "ListItem",
         "position": 3,
         "name": "[ARTICLE_TITLE]",
+        "item": "https://www.mothebroker.com/[blog|guides]/[SLUG]"
+      }
+    ]
+  },
+
+  "breadcrumbRegional": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[STATE] [PRODUCT] Guide",
+        "item": "https://www.mothebroker.com/blog/[state-product-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "[REGION] Guide",
         "item": "https://www.mothebroker.com/blog/[SLUG]"
+      }
+    ]
+  },
+
+  "breadcrumbHub": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[STATE] [PRODUCT] Guide",
+        "item": "https://www.mothebroker.com/blog/[state-product-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "[REGION] Guide",
+        "item": "https://www.mothebroker.com/blog/[regional-pillar-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "[HUB_TITLE]",
+        "item": "https://www.mothebroker.com/blog/[SLUG]"
+      }
+    ]
+  },
+
+  "itemList": {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "[REGION] [PRODUCT] Comparison",
+    "description": "Comparison of [PRODUCT] options across [REGION] cities",
+    "numberOfItems": "[NUM_CITIES]",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "[CITY_1]",
+        "description": "[CITY_1] - Median home value $[X], [key characteristic]",
+        "url": "https://www.mothebroker.com/blog/[SLUG]#[city-1-anchor]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "[CITY_2]",
+        "description": "[CITY_2] - Median home value $[X], [key characteristic]",
+        "url": "https://www.mothebroker.com/blog/[SLUG]#[city-2-anchor]"
       }
     ]
   },
@@ -322,7 +447,7 @@
     "og:type": "article",
     "og:title": "[TITLE]",
     "og:description": "[META_DESCRIPTION]",
-    "og:url": "https://www.mothebroker.com/blog/[SLUG]",
+    "og:url": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
     "og:image": "https://www.mothebroker.com/images/[IMAGE]",
     "article:author": "Mo Abdel",
     "article:publisher": "https://www.mothebroker.com",
@@ -335,7 +460,7 @@
   },
 
   "_usage": {
-    "_comment": "Updated for 3,250-4,000 word AI-First Answer Stack structure with enhanced speakable schema",
+    "_comment": "Updated for 3,250-4,000 word AI-First Answer Stack structure with enhanced speakable schema. Includes regional pillar and hub content types.",
     "pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
     "pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
     "pillar_wholesale": ["article", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
@@ -347,7 +472,13 @@
     "geo_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
     "city_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
     "zip_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
-    "howto_posts": ["howTo", "article", "breadcrumb", "speakable"]
+    "howto_posts": ["howTo", "article", "breadcrumb", "speakable"],
+    "regional_pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "regional_pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "regional_pillar_wholesale": ["article", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "hub_hecm": ["articleHECM", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"],
+    "hub_equity": ["articleEquity", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"],
+    "hub_wholesale": ["article", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"]
   },
 
   "_schemaRequirements": {
@@ -363,6 +494,14 @@
     },
     "pillar_content": {
       "additional": ["LocalBusiness (general)", "HowTo (for process sections)"]
+    },
+    "regional_pillar_content": {
+      "required": ["Article (track-specific)", "FAQPage", "LocalBusiness", "BreadcrumbRegional (4-level)", "SpeakableEnhanced", "ItemList", "HowTo"],
+      "note": "Regional pillars require 7 schema types minimum. Use breadcrumbRegional for 4-level hierarchy: Home > Blog > State Guide > Region. ItemList schema for city comparison tables."
+    },
+    "hub_content": {
+      "required": ["Article (track-specific)", "FAQPage", "LocalBusinessGeoHub", "BreadcrumbHub (5-level)", "SpeakableEnhanced", "ItemList"],
+      "note": "Hub posts require 7 schema types minimum (6 unique types with multi-city LocalBusiness). Use breadcrumbHub for 5-level hierarchy: Home > Blog > State Guide > Region Guide > Hub. LocalBusinessGeoHub includes areaServed array for all cities covered."
     }
   }
 }
