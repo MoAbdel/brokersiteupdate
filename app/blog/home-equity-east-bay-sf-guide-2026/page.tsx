@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity East Bay & San Francisco Guide: HELOC & Cash-Out [2026]',
+  title: 'East Bay & SF Home Equity: BART Corridor to Hilltop Equity Access [2026]',
   description: 'Home equity East Bay San Francisco guide 2026: HELOC, HELOAN, cash-out refi for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. 200+ lenders. NMLS #1426884.',
   keywords: [
     'home equity East Bay San Francisco',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'San Francisco cash-out refinance 2026',
   ],
   openGraph: {
-    title: 'Home Equity East Bay & San Francisco Guide: HELOC & Cash-Out [2026]',
+    title: 'East Bay & SF Home Equity: BART Corridor to Hilltop Equity Access [2026]',
     description: 'Complete HELOC, HELOAN & cash-out guide for East Bay & SF homeowners. SF, Piedmont, Orinda, Walnut Creek & 6 more cities covered.',
     url: 'https://www.mothebroker.com/blog/home-equity-east-bay-sf-guide-2026',
     type: 'article',
@@ -31,7 +31,7 @@ export default function HomeEquityEastBaySFGuide2026() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Home Equity East Bay & San Francisco Guide: HELOC & Cash-Out [2026]',
+    headline: 'East Bay & SF Home Equity: BART Corridor to Hilltop Equity Access [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -211,7 +211,7 @@ export default function HomeEquityEastBaySFGuide2026() {
             <span className="text-gray-900">East Bay &amp; SF</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity East Bay &amp; San Francisco Guide: HELOC &amp; Cash-Out [2026]
+            East Bay &amp; SF Home Equity: BART Corridor to Hilltop Equity Access [2026]
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 2026</p>
         </header>

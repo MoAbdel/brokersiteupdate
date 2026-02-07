@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker San Diego: 200+ Lender Access [2026] | Mo Abdel',
+  title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026] | Mo Abdel',
   description: 'Wholesale mortgage broker San Diego with 200+ lender access. Better rates for Del Mar, Rancho Santa Fe, La Jolla, Coronado, Carlsbad. Jumbo, VA, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Diego',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'San Diego mortgage rates 2026',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker San Diego: 200+ Lender Access [2026]',
+    title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]',
     description: 'How wholesale mortgage pricing benefits San Diego home buyers. 200+ lenders, jumbo loans, VA programs, and bank statement options.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-san-diego-2026',
     type: 'article',
@@ -39,7 +39,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Wholesale Mortgage Broker San Diego: 200+ Lender Access [2026]",
+            "headline": "San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -246,7 +246,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
           <a href="/blog/wholesale-mortgage-broker-california-2026" className="hover:text-blue-600">CA Wholesale Broker Guide</a> &gt;{' '}
           <span className="text-gray-700">San Diego</span>
         </nav>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Wholesale Mortgage Broker San Diego: 200+ Lender Access [2026]</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]</h1>
         <p className="text-lg text-gray-600">How wholesale mortgage pricing benefits San Diego&apos;s biotech professionals, military families, and luxury homebuyers</p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By <strong className="text-gray-700">Mo Abdel</strong> | NMLS #1426884</span>

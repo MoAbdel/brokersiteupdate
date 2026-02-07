@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity Seattle Eastside Guide: HELOC & Cash-Out [2026]',
+  title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
   description: 'Home equity Seattle Eastside guide covering HELOC, HELOAN & cash-out refinance for 14 cities. No WA state income tax advantage. 200+ lender access. NMLS #1426884.',
   keywords: [
     'home equity Seattle Eastside',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'no income tax HELOC Washington',
   ],
   openGraph: {
-    title: 'Home Equity Seattle Eastside Guide: HELOC & Cash-Out [2026]',
+    title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
     description: 'HELOC, HELOAN & cash-out refinance guide for 14 Seattle Eastside cities. No WA income tax advantage.',
     url: 'https://www.mothebroker.com/blog/home-equity-seattle-eastside-guide-2026',
     type: 'article',
@@ -36,7 +36,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Home Equity Seattle Eastside Guide: HELOC & Cash-Out [2026]',
+    headline: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -218,7 +218,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity Seattle Eastside Guide: HELOC &amp; Cash-Out [2026]
+            Seattle Eastside Home Equity: Tax-Free State HELOC &amp; Cash-Out Guide [2026]
           </h1>
           <p className="text-gray-600">
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026

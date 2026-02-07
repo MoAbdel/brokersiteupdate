@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity San Gabriel Valley & Pasadena Guide: HELOC [2026] | Mo Abdel',
+  title: 'SGV & Pasadena Home Equity: Craftsman Renovation & Estate HELOC Guide [2026] | Mo Abdel',
   description: 'Home equity San Gabriel Valley Pasadena guide 2026. Compare HELOC, HELOAN & cash-out refinance for San Marino, Arcadia, La Canada Flintridge, Pasadena. NMLS #1426884.',
   keywords: [
     'home equity San Gabriel Valley Pasadena',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'home equity South Pasadena',
   ],
   openGraph: {
-    title: 'Home Equity San Gabriel Valley & Pasadena Guide: HELOC [2026]',
+    title: 'SGV & Pasadena Home Equity: Craftsman Renovation & Estate HELOC Guide [2026]',
     description: 'HELOC, HELOAN & cash-out refinance comparison for 9 SGV cities. Jumbo equity products for San Marino, Arcadia, Pasadena homeowners.',
     url: 'https://www.mothebroker.com/blog/home-equity-sgv-pasadena-guide-2026',
     type: 'article',
@@ -33,7 +33,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Home Equity San Gabriel Valley & Pasadena Guide: HELOC [2026]",
+    "headline": "SGV & Pasadena Home Equity: Craftsman Renovation & Estate HELOC Guide [2026]",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -217,7 +217,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
           <span className="text-gray-700">SGV &amp; Pasadena Guide</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Home Equity San Gabriel Valley &amp; Pasadena Guide: HELOC [2026]
+          SGV &amp; Pasadena Home Equity: Craftsman Renovation &amp; Estate HELOC Guide [2026]
         </h1>
         <p className="text-lg text-gray-600">
           Compare HELOC, HELOAN, and cash-out refinance options across 9 San Gabriel Valley cities for renovation, investment, and debt consolidation

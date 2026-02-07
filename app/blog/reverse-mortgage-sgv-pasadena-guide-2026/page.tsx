@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage San Gabriel Valley & Pasadena Guide: HECM [2026] | Mo Abdel',
+  title: 'San Gabriel Valley Reverse Mortgage: Historic Estate HECM Guide [2026] | Mo Abdel',
   description: 'Reverse mortgage San Gabriel Valley Pasadena guide for seniors 62+. HECM eligibility, payouts & proprietary options for San Marino, Arcadia, La Canada Flintridge. NMLS #1426884.',
   keywords: [
     'reverse mortgage San Gabriel Valley Pasadena',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'senior home equity San Gabriel Valley',
   ],
   openGraph: {
-    title: 'Reverse Mortgage San Gabriel Valley & Pasadena Guide: HECM [2026]',
+    title: 'San Gabriel Valley Reverse Mortgage: Historic Estate HECM Guide [2026]',
     description: 'Complete HECM and proprietary reverse mortgage guide for 9 SGV cities. San Marino, Arcadia, Pasadena, La Canada Flintridge seniors 62+.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-sgv-pasadena-guide-2026',
     type: 'article',
@@ -33,7 +33,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Reverse Mortgage San Gabriel Valley & Pasadena Guide: HECM [2026]",
+    "headline": "San Gabriel Valley Reverse Mortgage: Historic Estate HECM Guide [2026]",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -217,7 +217,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
           <span className="text-gray-700">SGV &amp; Pasadena Guide</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Reverse Mortgage San Gabriel Valley &amp; Pasadena Guide: HECM [2026]
+          San Gabriel Valley Reverse Mortgage: Historic Estate HECM Guide [2026]
         </h1>
         <p className="text-lg text-gray-600">
           A comprehensive guide for seniors 62+ across 9 San Gabriel Valley cities seeking to access home equity through HECM and proprietary reverse mortgages

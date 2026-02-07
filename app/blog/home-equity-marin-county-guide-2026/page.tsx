@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity Marin County Guide: HELOC, HELOAN & Cash-Out [2026] | Mo Abdel',
+  title: 'Marin County Home Equity: Waterfront & Golden Gate Corridor HELOC Guide [2026] | Mo Abdel',
   description: 'Home equity Marin County guide 2026: Compare HELOC, home equity loans, and cash-out refinance for Ross, Tiburon, Belvedere, Mill Valley, Sausalito homeowners. NMLS #1426884.',
   keywords: [
     'home equity Marin County',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'Marin County refinance',
   ],
   openGraph: {
-    title: 'Home Equity Marin County Guide: HELOC, HELOAN & Cash-Out [2026]',
+    title: 'Marin County Home Equity: Waterfront & Golden Gate Corridor HELOC Guide [2026]',
     description: 'Compare HELOC, HELOAN, and cash-out refinance options for Marin County homeowners. City-by-city equity analysis for luxury Bay Area properties.',
     url: 'https://www.mothebroker.com/blog/home-equity-marin-county-guide-2026',
     type: 'article',
@@ -98,7 +98,7 @@ export default function HomeEquityMarinCountyGuide2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Home Equity Marin County Guide: HELOC, HELOAN & Cash-Out [2026]',
+            headline: 'Marin County Home Equity: Waterfront & Golden Gate Corridor HELOC Guide [2026]',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -181,7 +181,7 @@ export default function HomeEquityMarinCountyGuide2026() {
           <span className="text-gray-900">Marin County Guide</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Home Equity Marin County Guide: HELOC, HELOAN &amp; Cash-Out [2026]
+          Marin County Home Equity: Waterfront &amp; Golden Gate Corridor HELOC Guide [2026]
         </h1>
         <p className="text-lg text-gray-600">
           Comparing every home equity option for Marin County homeowners &mdash; from jumbo HELOCs to cash-out refinance across 9 premium communities

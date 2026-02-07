@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage Seattle Eastside Guide: HECM for WA Seniors [2026]',
+  title: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
   description: 'Reverse mortgage Seattle Eastside guide for seniors 62+ in Medina, Bellevue, Mercer Island, Kirkland & 10 more cities. HECM & jumbo options with 200+ lenders. NMLS #1426884.',
   keywords: [
     'reverse mortgage Seattle Eastside',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'reverse mortgage broker Eastside WA',
   ],
   openGraph: {
-    title: 'Reverse Mortgage Seattle Eastside Guide: HECM for WA Seniors [2026]',
+    title: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
     description: 'Comprehensive reverse mortgage guide for 14 Seattle Eastside cities. HECM & jumbo options for seniors 62+.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026',
     type: 'article',
@@ -36,7 +36,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Reverse Mortgage Seattle Eastside Guide: HECM for WA Seniors [2026]',
+    headline: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -234,7 +234,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Reverse Mortgage Seattle Eastside Guide: HECM for WA Seniors [2026]
+            Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]
           </h1>
           <p className="text-gray-600">
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage San Diego Guide: HECM for Seniors 62+ [2026] | Mo Abdel',
+  title: 'San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026] | Mo Abdel',
   description: 'Reverse mortgage San Diego guide for seniors 62+. HECM and proprietary programs for Del Mar, Rancho Santa Fe, La Jolla, Coronado, Carlsbad, and Encinitas homeowners. NMLS #1426884.',
   keywords: [
     'reverse mortgage San Diego',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'HECM counseling San Diego',
   ],
   openGraph: {
-    title: 'Reverse Mortgage San Diego Guide: HECM for Seniors 62+ [2026]',
+    title: 'San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]',
     description: 'Complete guide to reverse mortgages in San Diego County. HECM and proprietary programs for Del Mar, Rancho Santa Fe, La Jolla, Coronado, and more.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-san-diego-guide-2026',
     type: 'article',
@@ -38,7 +38,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Reverse Mortgage San Diego Guide: HECM for Seniors 62+ [2026]",
+            "headline": "San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -243,7 +243,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
           <a href="/blog/reverse-mortgage-california-guide-2026" className="hover:text-blue-600">CA Reverse Mortgage Guide</a> &gt;{' '}
           <span className="text-gray-700">San Diego Guide</span>
         </nav>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage San Diego Guide: HECM for Seniors 62+ [2026]</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]</h1>
         <p className="text-lg text-gray-600">Comprehensive reverse mortgage guide for San Diego County&apos;s wealthiest coastal and inland communities</p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By <strong className="text-gray-700">Mo Abdel</strong> | NMLS #1426884</span>

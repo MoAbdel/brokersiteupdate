@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker Seattle Eastside: 200+ Lender Access [2026]',
+  title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
   description: 'Wholesale mortgage broker Seattle Eastside with 200+ lender access for Bellevue, Kirkland, Redmond & 11 more cities. Tech RSU qualification, jumbo loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Seattle Eastside',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'wholesale lender access Washington',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker Seattle Eastside: 200+ Lender Access [2026]',
+    title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
     description: 'Wholesale mortgage broker serving 14 Seattle Eastside cities. 200+ lender access, tech income expertise.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
     type: 'article',
@@ -36,7 +36,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Wholesale Mortgage Broker Seattle Eastside: 200+ Lender Access [2026]',
+    headline: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -213,7 +213,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Wholesale Mortgage Broker Seattle Eastside: 200+ Lender Access [2026]
+            Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]
           </h1>
           <p className="text-gray-600">
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker East Bay & San Francisco: 200+ Lenders [2026]',
+  title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
   description: 'Wholesale mortgage broker East Bay San Francisco 2026: 200+ lenders for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. Tech income, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker East Bay San Francisco',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'wholesale vs retail mortgage East Bay',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker East Bay & San Francisco: 200+ Lenders [2026]',
+    title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
     description: 'Access 200+ wholesale lenders for East Bay & SF purchases, refinances & investments. Tech income specialists. NMLS #1426884.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-east-bay-sf-2026',
     type: 'article',
@@ -31,7 +31,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Wholesale Mortgage Broker East Bay & San Francisco: 200+ Lenders [2026]',
+    headline: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -211,7 +211,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
             <span className="text-gray-900">East Bay &amp; SF</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Wholesale Mortgage Broker East Bay &amp; San Francisco: 200+ Lenders [2026]
+            East Bay &amp; SF Wholesale Mortgage: Tech &amp; Biotech Income Solutions [2026]
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 2026</p>
         </header>

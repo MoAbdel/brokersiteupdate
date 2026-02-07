@@ -14,7 +14,7 @@ export const allBlogPosts: BlogPost[] = [
   // ===== REGIONAL PILLARS BATCH 2 (Feb 7, 2026) =====
   {
     slug: 'reverse-mortgage-marin-county-guide-2026',
-    title: 'Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026]',
+    title: 'Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026]',
     excerpt: 'Marin County reverse mortgage guide for seniors 62+. HECM options in Ross, Tiburon, Belvedere, Mill Valley, Sausalito & more. Waterfront estates to boutique towns.',
     date: '2026-02-07',
     category: 'Guides',
@@ -22,7 +22,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'home-equity-marin-county-guide-2026',
-    title: 'Home Equity Marin County Guide: HELOC, HELOAN & Cash-Out [2026]',
+    title: 'Marin County Home Equity: Waterfront & Golden Gate Corridor HELOC Guide [2026]',
     excerpt: 'Marin County home equity guide 2026. Compare HELOC, HELOAN, cash-out refinance for Ross, Tiburon, Mill Valley, Sausalito homeowners. Wholesale rates.',
     date: '2026-02-07',
     category: 'Guides',
@@ -30,7 +30,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-marin-county-2026',
-    title: 'Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026]',
+    title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
     excerpt: 'Marin County wholesale mortgage broker guide. 200+ lender access for jumbo, bank statement, self-employed loans across 9 Marin cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -38,7 +38,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'reverse-mortgage-east-bay-sf-guide-2026',
-    title: 'Reverse Mortgage East Bay & San Francisco Guide: HECM [2026]',
+    title: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
     excerpt: 'East Bay & SF reverse mortgage guide for seniors 62+. HECM options in San Francisco, Piedmont, Orinda, Lafayette, Walnut Creek, Pleasanton & more.',
     date: '2026-02-07',
     category: 'Guides',
@@ -46,7 +46,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'home-equity-east-bay-sf-guide-2026',
-    title: 'Home Equity East Bay & San Francisco Guide: HELOC & Cash-Out [2026]',
+    title: 'East Bay & SF Home Equity: BART Corridor to Hilltop Equity Access [2026]',
     excerpt: 'East Bay & SF home equity guide 2026. HELOC, HELOAN, cash-out refinance for San Francisco, Piedmont, Danville, Pleasanton homeowners.',
     date: '2026-02-07',
     category: 'Guides',
@@ -54,7 +54,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-east-bay-sf-2026',
-    title: 'Wholesale Mortgage Broker East Bay & San Francisco: 200+ Lenders [2026]',
+    title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
     excerpt: 'East Bay & SF wholesale mortgage broker guide. Tech, biotech, medical income qualification with 200+ lender access across 10 cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -62,7 +62,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'reverse-mortgage-seattle-eastside-guide-2026',
-    title: 'Reverse Mortgage Seattle Eastside Guide: HECM for WA Seniors [2026]',
+    title: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
     excerpt: 'Seattle Eastside reverse mortgage guide for seniors 62+. HECM options in Bellevue, Medina, Mercer Island, Kirkland, Redmond & 9 more cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -70,7 +70,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'home-equity-seattle-eastside-guide-2026',
-    title: 'Home Equity Seattle Eastside Guide: HELOC & Cash-Out [2026]',
+    title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
     excerpt: 'Seattle Eastside home equity guide 2026. HELOC, HELOAN, cash-out refinance for Bellevue, Mercer Island, Kirkland, Redmond homeowners. No state income tax.',
     date: '2026-02-07',
     category: 'Guides',
@@ -78,7 +78,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-seattle-eastside-2026',
-    title: 'Wholesale Mortgage Broker Seattle Eastside: 200+ Lender Access [2026]',
+    title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
     excerpt: 'Seattle Eastside wholesale mortgage broker guide. Tech RSU/stock income, Amazon/Microsoft/Google programs, bank statement loans across 14 cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -86,7 +86,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'reverse-mortgage-san-diego-guide-2026',
-    title: 'Reverse Mortgage San Diego Guide: HECM for Seniors 62+ [2026]',
+    title: 'San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]',
     excerpt: 'San Diego reverse mortgage guide for seniors 62+. HECM options in La Jolla, Del Mar, Rancho Santa Fe, Coronado, Carlsbad & more.',
     date: '2026-02-07',
     category: 'Guides',
@@ -94,7 +94,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'home-equity-san-diego-guide-2026',
-    title: 'Home Equity San Diego Guide: HELOC, HELOAN & Cash-Out [2026]',
+    title: 'San Diego Home Equity: Coastal Living HELOC & Cash-Out Guide [2026]',
     excerpt: 'San Diego home equity guide 2026. HELOC, HELOAN, cash-out refinance for La Jolla, Del Mar, Coronado, Encinitas homeowners. Wholesale rates.',
     date: '2026-02-07',
     category: 'Guides',
@@ -102,7 +102,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-san-diego-2026',
-    title: 'Wholesale Mortgage Broker San Diego: 200+ Lender Access [2026]',
+    title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]',
     excerpt: 'San Diego wholesale mortgage broker guide. Biotech, military, self-employed income qualification with 200+ lender access across 8 cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -110,7 +110,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'reverse-mortgage-sgv-pasadena-guide-2026',
-    title: 'Reverse Mortgage San Gabriel Valley & Pasadena Guide: HECM [2026]',
+    title: 'San Gabriel Valley Reverse Mortgage: Historic Estate HECM Guide [2026]',
     excerpt: 'SGV & Pasadena reverse mortgage guide for seniors 62+. HECM options in San Marino, La Canada Flintridge, South Pasadena, Arcadia & 5 more cities.',
     date: '2026-02-07',
     category: 'Guides',
@@ -118,7 +118,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'home-equity-sgv-pasadena-guide-2026',
-    title: 'Home Equity San Gabriel Valley & Pasadena Guide: HELOC [2026]',
+    title: 'SGV & Pasadena Home Equity: Craftsman Renovation & Estate HELOC Guide [2026]',
     excerpt: 'SGV & Pasadena home equity guide 2026. HELOC, HELOAN, cash-out refinance for San Marino, Pasadena, Arcadia, Glendale homeowners.',
     date: '2026-02-07',
     category: 'Guides',
@@ -126,7 +126,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-sgv-pasadena-2026',
-    title: 'Wholesale Mortgage Broker San Gabriel Valley & Pasadena [2026]',
+    title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026]',
     excerpt: 'SGV & Pasadena wholesale mortgage broker guide. JPL/Caltech, healthcare, international buyer income qualification. 200+ lenders across 9 cities.',
     date: '2026-02-07',
     category: 'Guides',

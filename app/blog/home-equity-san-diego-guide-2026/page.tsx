@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity San Diego Guide: HELOC, HELOAN & Cash-Out [2026] | Mo Abdel',
+  title: 'San Diego Home Equity: Coastal Living HELOC & Cash-Out Guide [2026] | Mo Abdel',
   description: 'Home equity San Diego guide 2026. Compare HELOC, home equity loans, and cash-out refinance for Del Mar, Rancho Santa Fe, La Jolla, Coronado, Carlsbad, Encinitas. NMLS #1426884.',
   keywords: [
     'home equity San Diego',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'ADU financing San Diego',
   ],
   openGraph: {
-    title: 'Home Equity San Diego Guide: HELOC, HELOAN & Cash-Out [2026]',
+    title: 'San Diego Home Equity: Coastal Living HELOC & Cash-Out Guide [2026]',
     description: 'Complete guide to home equity products in San Diego County. HELOC, HELOAN, and cash-out refinance for all 8 premium communities.',
     url: 'https://www.mothebroker.com/blog/home-equity-san-diego-guide-2026',
     type: 'article',
@@ -38,7 +38,7 @@ export default function HomeEquitySanDiegoGuidePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Home Equity San Diego Guide: HELOC, HELOAN & Cash-Out [2026]",
+            "headline": "San Diego Home Equity: Coastal Living HELOC & Cash-Out Guide [2026]",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -236,7 +236,7 @@ export default function HomeEquitySanDiegoGuidePage() {
           <a href="/blog/home-equity-california-guide-2026" className="hover:text-blue-600">CA Home Equity Guide</a> &gt;{' '}
           <span className="text-gray-700">San Diego Guide</span>
         </nav>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Home Equity San Diego Guide: HELOC, HELOAN & Cash-Out [2026]</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">San Diego Home Equity: Coastal Living HELOC & Cash-Out Guide [2026]</h1>
         <p className="text-lg text-gray-600">Complete guide to accessing home equity across San Diego County&apos;s wealthiest communities</p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By <strong className="text-gray-700">Mo Abdel</strong> | NMLS #1426884</span>

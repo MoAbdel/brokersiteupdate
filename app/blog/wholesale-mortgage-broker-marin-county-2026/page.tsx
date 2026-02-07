@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026] | Mo Abdel',
+  title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026] | Mo Abdel',
   description: 'Wholesale mortgage broker Marin County with 200+ lender access. Bank statement loans, jumbo financing, and competitive rates for Ross, Tiburon, Mill Valley. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Marin County',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'best mortgage rates Marin County',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026]',
+    title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
     description: 'Access 200+ wholesale lenders for Marin County home purchases and refinances. Bank statement, jumbo, and conventional programs for every income type.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-marin-county-2026',
     type: 'article',
@@ -94,7 +94,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026]',
+            headline: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -177,7 +177,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           <span className="text-gray-900">Marin County</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026]
+          Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]
         </h1>
         <p className="text-lg text-gray-600">
           How wholesale lending delivers better rates, more programs, and faster closings for Marin County&apos;s unique mortgage landscape

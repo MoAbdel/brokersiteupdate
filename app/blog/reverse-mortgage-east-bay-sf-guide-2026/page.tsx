@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage East Bay & San Francisco Guide: HECM [2026]',
+  title: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
   description: 'Reverse mortgage East Bay San Francisco guide 2026: HECM options for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. Seniors 62+ access home equity. NMLS #1426884.',
   keywords: [
     'reverse mortgage East Bay San Francisco',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'HECM Bay Area 2026',
   ],
   openGraph: {
-    title: 'Reverse Mortgage East Bay & San Francisco Guide: HECM [2026]',
+    title: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
     description: 'Complete HECM guide for East Bay & SF homeowners 62+. San Francisco, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities covered.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-east-bay-sf-guide-2026',
     type: 'article',
@@ -32,7 +32,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Reverse Mortgage East Bay & San Francisco Guide: HECM [2026]',
+    headline: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -220,7 +220,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
             <span className="text-gray-900">East Bay &amp; SF</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Reverse Mortgage East Bay &amp; San Francisco Guide: HECM [2026]
+            East Bay &amp; SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 2026</p>
         </header>

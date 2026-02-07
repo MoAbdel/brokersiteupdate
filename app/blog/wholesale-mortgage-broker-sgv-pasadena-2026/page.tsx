@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker San Gabriel Valley & Pasadena [2026] | Mo Abdel',
+  title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026] | Mo Abdel',
   description: 'Wholesale mortgage broker San Gabriel Valley Pasadena 2026. 200+ lenders, jumbo loans, bank statement programs for Caltech, JPL, medical professionals. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Gabriel Valley Pasadena',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'wholesale lender California 2026',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker San Gabriel Valley & Pasadena [2026]',
+    title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026]',
     description: '200+ lender access for purchase and refinance in 9 SGV cities. Jumbo, bank statement, and international buyer programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-2026',
     type: 'article',
@@ -33,7 +33,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Wholesale Mortgage Broker San Gabriel Valley & Pasadena [2026]",
+    "headline": "SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026]",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -217,7 +217,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
           <span className="text-gray-700">SGV &amp; Pasadena</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Wholesale Mortgage Broker San Gabriel Valley &amp; Pasadena [2026]
+          SGV &amp; Pasadena Mortgage Broker: Caltech, Healthcare &amp; International Buyers [2026]
         </h1>
         <p className="text-lg text-gray-600">
           200+ lender access for purchase and refinance across 9 SGV cities &mdash; jumbo, bank statement, medical professional, and international buyer programs

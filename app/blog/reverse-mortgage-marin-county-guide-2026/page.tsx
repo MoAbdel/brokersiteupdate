@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026] | Mo Abdel',
+  title: 'Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026] | Mo Abdel',
   description: 'Reverse mortgage Marin County guide for seniors 62+. HECM eligibility, payout options, and proprietary programs for Ross, Tiburon, Belvedere, Mill Valley homes. NMLS #1426884.',
   keywords: [
     'reverse mortgage Marin County',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'reverse mortgage waterfront home',
   ],
   openGraph: {
-    title: 'Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026]',
+    title: 'Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026]',
     description: 'Complete HECM and proprietary reverse mortgage guide for Marin County seniors. Ross, Tiburon, Belvedere, Mill Valley, Sausalito coverage.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-marin-county-guide-2026',
     type: 'article',
@@ -98,7 +98,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026]',
+            headline: 'Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026]',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -181,7 +181,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
           <span className="text-gray-900">Marin County Guide</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026]
+          Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026]
         </h1>
         <p className="text-lg text-gray-600">
           Accessing substantial home equity across Marin&apos;s waterfront estates, Golden Gate corridor towns, and boutique hillside communities
