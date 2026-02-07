@@ -233,18 +233,18 @@ State Pillar (1 per track per state)
 | Region | HECM | Equity | Wholesale |
 |--------|------|--------|-----------|
 | Bay Area - Peninsula/SV | ✅ | ✅ | ✅ |
-| Bay Area - Marin | ⬜ | ⬜ | ⬜ |
-| Bay Area - East Bay/SF | ⬜ | ⬜ | ⬜ |
+| Bay Area - Marin | ✅ | ✅ | ✅ |
+| Bay Area - East Bay/SF | ✅ | ✅ | ✅ |
 | LA - Westside/Beach | ✅ | ✅ | ✅ |
-| LA - SGV/Pasadena | ⬜ | ⬜ | ⬜ |
+| LA - SGV/Pasadena | ✅ | ✅ | ✅ |
 | LA - South Bay/PV | ✅ | ✅ | ✅ |
-| San Diego | ⬜ | ⬜ | ⬜ |
+| San Diego | ✅ | ✅ | ✅ |
 | Central Coast | ⬜ | ⬜ | — |
 | Ventura County | ⬜ | ⬜ | — |
 | Wine Country | ⬜ | ⬜ | — |
 | Sacramento/Gold Country | ⬜ | ⬜ | — |
 | Inland Empire | ⬜ | ⬜ | — |
-| Seattle Eastside | ⬜ | ⬜ | ⬜ |
+| Seattle Eastside | ✅ | ✅ | ✅ |
 | Greater Seattle | ⬜ | ⬜ | ⬜ |
 | North Sound/Islands | ⬜ | ⬜ | — |
 | South Sound | ⬜ | ⬜ | — |
