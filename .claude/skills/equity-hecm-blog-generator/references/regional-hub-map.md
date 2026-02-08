@@ -239,14 +239,14 @@ State Pillar (1 per track per state)
 | LA - SGV/Pasadena | ✅ | ✅ | ✅ |
 | LA - South Bay/PV | ✅ | ✅ | ✅ |
 | San Diego | ✅ | ✅ | ✅ |
-| Central Coast | ⬜ | ⬜ | — |
-| Ventura County | ⬜ | ⬜ | — |
-| Wine Country | ⬜ | ⬜ | — |
-| Sacramento/Gold Country | ⬜ | ⬜ | — |
-| Inland Empire | ⬜ | ⬜ | — |
+| Central Coast | ✅ | ✅ | — |
+| Ventura County | ✅ | ✅ | — |
+| Wine Country | ✅ | ✅ | — |
+| Sacramento/Gold Country | ✅ | ✅ | — |
+| Inland Empire | ✅ | ✅ | — |
 | Seattle Eastside | ✅ | ✅ | ✅ |
-| Greater Seattle | ⬜ | ⬜ | ⬜ |
-| North Sound/Islands | ⬜ | ⬜ | — |
+| Greater Seattle | ✅ | ✅ | ✅ |
+| North Sound/Islands | ✅ | ✅ | — |
 | South Sound | ⬜ | ⬜ | — |
 
 ### Hub Posts (~74 total)
