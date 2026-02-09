@@ -587,6 +587,31 @@
       "source": "/blog/wholesale-mortgage-broker-92887",
       "destination": "/blog/wholesale-mortgage-broker-north-orange-county-2026#yorba-linda",
       "permanent": true
+    },
+    {
+      "source": "/purchase-loans",
+      "destination": "/loan-programs",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-markets",
+      "destination": "/areas",
+      "permanent": true
+    },
+    {
+      "source": "/orange-county-jumbo-loans",
+      "destination": "/jumbo-loans-orange-county",
+      "permanent": true
+    },
+    {
+      "source": "/areas/irvine-neighborhoods/northwood-mortgage-broker",
+      "destination": "/areas/irvine-neighborhoods",
+      "permanent": true
+    },
+    {
+      "source": "/guides/summer-2025-market-guide",
+      "destination": "/blog",
+      "permanent": true
     }
   ],
   "trailingSlash": false,

@@ -28,14 +28,6 @@ export function middleware(request: NextRequest) {
     '/blog/wholesale-mortgage-broker-costa-mesa': '/blog/wholesale-mortgage-broker-costa-mesa-2026',
     '/blog/wholesale-mortgage-broker-yorba-linda': '/blog/wholesale-mortgage-broker-yorba-linda-2026',
     // Older wholesale ZIP posts -> 2026 versions
-    '/blog/wholesale-mortgage-broker-92603': '/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026',
-    '/blog/wholesale-mortgage-broker-92660': '/blog/wholesale-mortgage-92660-newport-harbor-2026',
-    '/blog/wholesale-mortgage-broker-92663': '/blog/wholesale-mortgage-92663-newport-peninsula-2026',
-    '/blog/wholesale-mortgage-broker-92651': '/blog/wholesale-mortgage-92651-laguna-beach-2026',
-    '/blog/wholesale-mortgage-broker-92661': '/blog/wholesale-mortgage-92661-newport-beach-2026',
-    '/blog/wholesale-mortgage-broker-92625': '/blog/wholesale-mortgage-92625-corona-del-mar-2026',
-    '/blog/wholesale-mortgage-broker-92662': '/blog/wholesale-mortgage-92662-balboa-island-2026',
-    '/blog/wholesale-mortgage-broker-92657': '/blog/wholesale-mortgage-92657-newport-coast-2026',
     // Marketing rename (non 1:1 suffix)
     '/blog/200-lender-advantage': '/blog/200-lender-advantage-explained-2026',
     // Keep older heloc comparison canonicalized to the 2026 cluster page
@@ -48,8 +40,6 @@ export function middleware(request: NextRequest) {
     '/blog/villa-park-mortgage-guide-2026': '/areas',
     '/blog/home-equity-laguna-beach-2026': '/home-equity-guide',
     '/blog/home-equity-newport-beach-2026': '/home-equity-guide',
-    '/blog/reverse-mortgage-requirements-2026': '/blog/reverse-mortgage-requirements-complete-2026',
-    '/blog/seal-beach-mortgage-guide-2026': '/areas/seal-beach-mortgage-broker',
   };
 
   const pageRedirects: Record<string, string> = {
@@ -58,7 +48,7 @@ export function middleware(request: NextRequest) {
     '/areas/irvine-neighborhoods/university-park-mortgage-broker': '/areas/irvine-neighborhoods',
     '/areas/costa-mesa-mortgage-rates': '/areas/costa-mesa-mortgage-broker',
     '/zip-codes/92625-corona-del-mar-mortgage-broker': '/areas/newport-beach-mortgage-broker',
-    '/guides/spring-2025-home-buying-guide': '/guides/spring-2026-home-buying-guide',
+
     '/articles': '/blog',
     '/articles/newport-beach-mortgage-guide-2026': '/blog/newport-beach-mortgage-guide-2026',
     '/articles/laguna-beach-jumbo-loan-guide': '/blog/laguna-beach-mortgage-guide-2026',
