@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'San Clemente Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2025',
+    canonical: 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
   },
 };
 

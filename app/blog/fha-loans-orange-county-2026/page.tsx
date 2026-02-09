@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'FHA Loans Orange County 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2025',
+    canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
   },
 };
 

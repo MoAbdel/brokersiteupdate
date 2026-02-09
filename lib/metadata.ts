@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { generateCanonicalUrl } from './canonical';
 
 interface SEOMetadata {
   title: string;
@@ -20,8 +21,8 @@ export function generateMetadata({
   noindex = false
 }: SEOMetadata): Metadata {
   const baseUrl = 'https://www.mothebroker.com';
-  const canonicalUrl = `${baseUrl}${path}`;
-  const fullImageUrl = `${baseUrl}${image}`;
+  const canonicalUrl = generateCanonicalUrl(path);
+  const fullImageUrl = image.startsWith('http') ? image : `${baseUrl}${image}`;
 
   const robots = noindex
     ? {
@@ -82,7 +83,5 @@ export function generateMetadata({
 
 // Helper function to generate consistent page URLs
 export function createCanonicalUrl(path: string): string {
-  const baseUrl = 'https://www.mothebroker.com';
-  const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  return `${baseUrl}${cleanPath}`;
+  return generateCanonicalUrl(path.startsWith('/') ? path : `/${path}`);
 }

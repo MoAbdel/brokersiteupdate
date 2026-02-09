@@ -74,12 +74,12 @@ export const serviceAreasDropdown: DropdownItem[] = [
 
   // Irvine Neighborhoods
   { title: '🏘️ IRVINE NEIGHBORHOODS', url: '#', isHeader: true },
-  { title: 'University Park', url: '/areas/irvine-neighborhoods/university-park-mortgage-broker' },
+  { title: 'University Park', url: '/areas/irvine-neighborhoods' },
   { title: 'Woodbridge', url: '/areas/irvine-neighborhoods/woodbridge-mortgage-broker' },
   { title: 'Northwood', url: '/areas/irvine-neighborhoods/northwood-mortgage-broker' },
-  { title: 'Turtle Rock', url: '/areas/irvine-neighborhoods/turtle-rock-mortgage-broker' },
+  { title: 'Turtle Rock', url: '/areas/irvine-neighborhoods' },
   { title: 'Quail Hill', url: '/areas/irvine-neighborhoods/quail-hill-mortgage-broker' },
-  { title: 'Cypress Village', url: '/areas/irvine-neighborhoods/cypress-village-mortgage-broker' },
+  { title: 'Cypress Village', url: '/areas/irvine-neighborhoods' },
 
   // Newport Beach Neighborhoods
   { title: '🌊 NEWPORT NEIGHBORHOODS', url: '#', isHeader: true },
@@ -141,12 +141,12 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
 
   // Market Analysis
   { title: '📊 MARKET ANALYSIS', url: '#', isHeader: true },
-  { title: 'Orange County Market Forecast 2026', url: '/guides/orange-county-market-forecast-2026-2026' },
+  { title: 'Orange County Market Forecast 2026', url: '/guides/orange-county-market-forecast-2025-2026' },
 
   // Seasonal Market Guides
   { title: '🌟 SEASONAL GUIDES', url: '#', isHeader: true },
   { title: 'Spring 2026 Home Buying Guide', url: '/guides/spring-2026-home-buying-guide' },
-  { title: 'Summer 2026 Market Guide', url: '/guides/summer-2026-market-guide' },
+  { title: 'Summer 2026 Market Guide', url: '/guides/summer-2025-market-guide' },
 
   // Neighborhood Guides
   { title: '🏘️ NEIGHBORHOOD GUIDES', url: '#', isHeader: true },

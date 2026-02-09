@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Huntington Beach Refinance Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
-    canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2025',
+    canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
   },
 };
 

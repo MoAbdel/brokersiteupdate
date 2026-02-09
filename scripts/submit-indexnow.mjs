@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import fsSync from 'node:fs';
 import path from 'node:path';
 
 const DEFAULT_HOST = 'www.mothebroker.com';
@@ -11,6 +12,40 @@ const DEFAULT_SITEMAPS = [
 
 const workspaceRoot = process.cwd();
 const publicDir = path.join(workspaceRoot, 'public');
+const STATE_PATH = path.join(workspaceRoot, 'reports', 'last-submission.json');
+const RESUBMIT_WINDOW_HOURS = Number(process.env.SEO_RESUBMIT_WINDOW_HOURS || 48);
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
+const MAX_RETRIES = Number(process.env.SEO_RETRY_ATTEMPTS || 3);
+const BASE_DELAY_MS = Number(process.env.SEO_RETRY_BASE_DELAY_MS || 1000);
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const loadState = () => {
+  try {
+    return JSON.parse(fsSync.readFileSync(STATE_PATH, 'utf8'));
+  } catch {
+    return {};
+  }
+};
+
+const saveState = (state) => {
+  fsSync.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
+  fsSync.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
+};
+
+const wasRecentlySubmitted = (state, service, url) => {
+  const ts = state?.[service]?.[url];
+  if (!ts) return false;
+  const ageMs = Date.now() - Date.parse(ts);
+  return ageMs >= 0 && ageMs < RESUBMIT_WINDOW_HOURS * 60 * 60 * 1000;
+};
+
+const markSubmitted = (state, service, urls) => {
+  state[service] = state[service] || {};
+  const now = new Date().toISOString();
+  for (const url of urls) {
+    state[service][url] = now;
+  }
+};
 
 const readIndexNowKey = async () => {
   if (process.env.INDEXNOW_KEY && process.env.INDEXNOW_KEY.trim()) {
@@ -56,20 +91,28 @@ const chunk = (items, size) => {
 };
 
 const submitIndexNow = async ({ host, key, keyLocation, urlList }) => {
-  const response = await fetch('https://api.indexnow.org/indexnow', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-    body: JSON.stringify({
-      host,
-      key,
-      keyLocation,
-      urlList
-    })
-  });
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    const response = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({
+        host,
+        key,
+        keyLocation,
+        urlList
+      })
+    });
 
-  if (!response.ok) {
+    if (response.ok) {
+      return;
+    }
     const errorText = await response.text();
-    throw new Error(`IndexNow submission failed (${response.status}): ${errorText}`);
+    if (!RETRYABLE_STATUS.has(response.status) || attempt === MAX_RETRIES) {
+      throw new Error(`IndexNow submission failed (${response.status}): ${errorText}`);
+    }
+    const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+    console.warn(`Retrying IndexNow batch in ${delay}ms (${response.status})...`);
+    await sleep(delay);
   }
 };
 
@@ -89,11 +132,13 @@ const run = async () => {
   }
 
   const urlList = Array.from(urls);
-  if (!urlList.length) {
-    throw new Error('No URLs found in sitemaps.');
+  const state = loadState();
+  const filteredUrlList = urlList.filter((url) => !wasRecentlySubmitted(state, 'indexNow', url));
+  if (!filteredUrlList.length) {
+    throw new Error('No eligible URLs found (all recently submitted or sitemap empty).');
   }
 
-  const batches = chunk(urlList, 10000);
+  const batches = chunk(filteredUrlList, 10000);
   for (const batch of batches) {
     await submitIndexNow({
       host,
@@ -101,9 +146,11 @@ const run = async () => {
       keyLocation,
       urlList: batch
     });
+    markSubmitted(state, 'indexNow', batch);
+    saveState(state);
   }
 
-  console.log(`IndexNow submitted ${urlList.length} URLs in ${batches.length} batch(es).`);
+  console.log(`IndexNow submitted ${filteredUrlList.length} URLs in ${batches.length} batch(es).`);
 };
 
 run().catch((error) => {

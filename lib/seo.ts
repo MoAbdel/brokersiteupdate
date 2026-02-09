@@ -119,7 +119,7 @@ export const structuredData = {
     "addressLocality": "Irvine",
     "addressRegion": "CA",
     "addressCountry": "US",
-    "postalCode": "92612"
+    "postalCode": "92614"
   },
   "geo": {
     "@type": "GeoCoordinates",
@@ -200,61 +200,61 @@ export const mortgageLoanSchema = {
       "@type": "Offer",
       "name": "FHA Loans",
       "description": "Low down payment FHA loans with as little as 3.5% down",
-      "url": "/fha-loans-orange-county"
+      "url": "https://www.mothebroker.com/fha-loans-orange-county"
     },
     {
       "@type": "Offer",
       "name": "VA Refinance",
       "description": "Zero down VA refinance options for veterans and military families",
-      "url": "/loan-programs/va-refinance"
+      "url": "https://www.mothebroker.com/loan-programs/va-refinance"
     },
     {
       "@type": "Offer",
       "name": "HELOC",
       "description": "Home Equity Line of Credit with flexible access to funds",
-      "url": "/heloc-orange-county"
+      "url": "https://www.mothebroker.com/heloc-orange-county"
     },
     {
       "@type": "Offer",
       "name": "Conventional Refinance",
       "description": "Traditional refinance options with flexible terms",
-      "url": "/conventional-loans-orange-county"
+      "url": "https://www.mothebroker.com/conventional-loans-orange-county"
     },
     {
       "@type": "Offer",
       "name": "Non-QM Loans",
       "description": "Alternative documentation loans for self-employed and investors",
-      "url": "/non-qm-loans-orange-county"
+      "url": "https://www.mothebroker.com/non-qm-loans-orange-county"
     },
     {
       "@type": "Offer",
       "name": "HELOAN",
       "description": "Fixed-rate home equity loan with lump sum funding",
-      "url": "/heloan-orange-county"
+      "url": "https://www.mothebroker.com/heloan-orange-county"
     },
     {
       "@type": "Offer",
       "name": "Rate & Term Refinance",
       "description": "Lower your mortgage pricing or eliminate PMI with refinancing",
-      "url": "/rate-term-refinance-orange-county"
+      "url": "https://www.mothebroker.com/rate-term-refinance-orange-county"
     },
     {
       "@type": "Offer",
       "name": "2026 Newport Beach Mortgage Guide",
       "description": "Access wholesale rates and specialized jumbo financing in Newport Beach.",
-      "url": "/blog/newport-beach-mortgage-guide-2026"
+      "url": "https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026"
     },
     {
       "@type": "Offer",
       "name": "2026 Laguna Beach Mortgage Guide",
       "description": "Expert financing for coastal and hillside homes in Laguna Beach.",
-      "url": "/blog/laguna-beach-mortgage-guide-2026"
+      "url": "https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2026"
     },
     {
       "@type": "Offer",
       "name": "2026 Dana Point Mortgage Guide",
       "description": "Harbor-adjacent financing and wholesale advantages for Dana Point buyers.",
-      "url": "/blog/dana-point-mortgage-guide-2026"
+      "url": "https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026"
     }
   ]
 };

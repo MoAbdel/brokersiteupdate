@@ -11,7 +11,57 @@ import { GoogleAuth } from 'google-auth-library';
 
 const SITE_URL = 'https://www.mothebroker.com';
 const CREDENTIALS_PATH = './gsc-credentials.json';
-const DAILY_QUOTA = 200; // Google Indexing API daily limit
+const DAILY_QUOTA = Number(process.env.GSC_INDEXING_DAILY_QUOTA || 200);
+const STATE_PATH = 'reports/last-submission.json';
+const RESUBMIT_WINDOW_HOURS = Number(process.env.SEO_RESUBMIT_WINDOW_HOURS || 48);
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
+const MAX_RETRIES = Number(process.env.SEO_RETRY_ATTEMPTS || 3);
+const BASE_DELAY_MS = Number(process.env.SEO_RETRY_BASE_DELAY_MS || 1000);
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const loadState = () => {
+  try {
+    return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
+  } catch {
+    return {};
+  }
+};
+
+const saveState = (state) => {
+  fs.mkdirSync('reports', { recursive: true });
+  fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
+};
+
+const wasRecentlySubmitted = (state, service, url) => {
+  const ts = state?.[service]?.[url];
+  if (!ts) return false;
+  const ageMs = Date.now() - Date.parse(ts);
+  return ageMs >= 0 && ageMs < RESUBMIT_WINDOW_HOURS * 60 * 60 * 1000;
+};
+
+const markSubmitted = (state, service, url) => {
+  state[service] = state[service] || {};
+  state[service][url] = new Date().toISOString();
+};
+
+const prioritizeUrls = (urls) => {
+  const tier1 = [];
+  const tier2 = [];
+  const tier3 = [];
+
+  for (const url of urls) {
+    const path = url.replace(SITE_URL, '');
+    if (path === '/' || path === '/about' || path === '/contact' || path.startsWith('/calculator')) {
+      tier1.push(url);
+    } else if (path.startsWith('/loan-programs') || path.startsWith('/areas') || path.startsWith('/resources') || path.startsWith('/guides')) {
+      tier2.push(url);
+    } else {
+      tier3.push(url);
+    }
+  }
+
+  return [...tier1, ...tier2, ...tier3];
+};
 
 // Extract URLs + lastmod from sitemap (so we can submit most recent first)
 const extractUrls = () => {
@@ -37,23 +87,36 @@ const submitUrl = async (auth, url) => {
   const client = await auth.getClient();
   const accessToken = await client.getAccessToken();
 
-  try {
-    const response = await fetch('https://indexing.googleapis.com/v3/urlNotifications:publish', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${accessToken.token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        url: url,
-        type: 'URL_UPDATED'
-      })
-    });
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await fetch('https://indexing.googleapis.com/v3/urlNotifications:publish', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${accessToken.token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          url: url,
+          type: 'URL_UPDATED'
+        })
+      });
 
-    const result = await response.json();
-    return { url, status: response.status, result };
-  } catch (error) {
-    return { url, status: 'error', error: error.message };
+      const result = await response.json();
+      if (response.ok) {
+        return { url, status: response.status, result };
+      }
+      if (!RETRYABLE_STATUS.has(response.status) || attempt === MAX_RETRIES) {
+        return { url, status: response.status, result };
+      }
+      const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+      await sleep(delay);
+    } catch (error) {
+      if (attempt === MAX_RETRIES) {
+        return { url, status: 'error', error: error.message };
+      }
+      const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+      await sleep(delay);
+    }
   }
 };
 
@@ -78,12 +141,15 @@ const run = async () => {
   });
 
   // Extract URLs
-  const urls = extractUrls();
+  const urls = prioritizeUrls(extractUrls());
   console.log(`Found ${urls.length} URLs in sitemap`);
   console.log(`Will submit up to ${DAILY_QUOTA} URLs (API daily limit)\n`);
+  const state = loadState();
 
   // Submit URLs (limit to daily quota)
-  const urlsToSubmit = urls.slice(0, DAILY_QUOTA);
+  const urlsToSubmit = urls
+    .filter((url) => !wasRecentlySubmitted(state, 'gscIndexing', url))
+    .slice(0, DAILY_QUOTA);
   let successCount = 0;
   let errorCount = 0;
 
@@ -94,11 +160,17 @@ const run = async () => {
     if (result.status === 200) {
       successCount++;
       console.log(`[${i + 1}/${urlsToSubmit.length}] ✓ ${url}`);
+      markSubmitted(state, 'gscIndexing', url);
+      saveState(state);
     } else {
       errorCount++;
       console.log(`[${i + 1}/${urlsToSubmit.length}] ✗ ${url} - ${result.status}`);
       if (result.result?.error?.message) {
         console.log(`    Error: ${result.result.error.message}`);
+        if (result.status === 429 && /quota/i.test(result.result.error.message)) {
+          console.log('    Quota exhausted; stopping remaining submissions for today.');
+          break;
+        }
       }
     }
 
