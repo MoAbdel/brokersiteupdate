@@ -247,17 +247,17 @@ State Pillar (1 per track per state)
 | Seattle Eastside | ✅ | ✅ | ✅ |
 | Greater Seattle | ✅ | ✅ | ✅ |
 | North Sound/Islands | ✅ | ✅ | — |
-| South Sound | ⬜ | ⬜ | — |
+| South Sound | ✅ | ✅ | — |
 
 ### Hub Posts (~74 total)
 
 | Hub ID | Region | HECM | Equity | Wholesale |
 |--------|--------|------|--------|-----------|
-| CA-SV-A | Peninsula Ultra-Luxury | ⬜ | ⬜ | ⬜ |
-| CA-SV-B | Premium Silicon Valley | ⬜ | ⬜ | ⬜ |
-| CA-SV-C | Tech Corridor | ⬜ | ⬜ | ⬜ |
-| CA-MR-A | Ultra-Luxury Marin | ⬜ | ⬜ | ⬜ |
-| CA-MR-B | Affluent Marin | ⬜ | ⬜ | ⬜ |
+| CA-SV-A | Peninsula Ultra-Luxury | ✅ | ✅ | ✅ |
+| CA-SV-B | Premium Silicon Valley | ✅ | ✅ | ✅ |
+| CA-SV-C | Tech Corridor | ✅ | ✅ | ✅ |
+| CA-MR-A | Ultra-Luxury Marin | ✅ | ✅ | ✅ |
+| CA-MR-B | Affluent Marin | ✅ | ⬜ | ⬜ |
 | CA-EB-A | Premium East Bay/SF | ⬜ | ⬜ | ⬜ |
 | CA-EB-B | Affluent Suburban EB | ⬜ | ⬜ | ⬜ |
 | CA-LAB-A | LA Beach Cities | ⬜ | ⬜ | ⬜ |
