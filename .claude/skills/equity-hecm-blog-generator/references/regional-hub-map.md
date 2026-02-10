@@ -258,17 +258,17 @@ State Pillar (1 per track per state)
 | CA-SV-C | Tech Corridor | ✅ | ✅ | ✅ |
 | CA-MR-A | Ultra-Luxury Marin | ✅ | ✅ | ✅ |
 | CA-MR-B | Affluent Marin | ✅ | ⬜ | ⬜ |
-| CA-EB-A | Premium East Bay/SF | ⬜ | ⬜ | ⬜ |
+| CA-EB-A | Premium East Bay/SF | ⬜ | ⬜ | ✅ |
 | CA-EB-B | Affluent Suburban EB | ⬜ | ⬜ | ⬜ |
-| CA-LAB-A | LA Beach Cities | ⬜ | ⬜ | ⬜ |
+| CA-LAB-A | LA Beach Cities | ⬜ | ✅ | ✅ |
 | CA-LAB-B | LA Westside | ⬜ | ⬜ | ⬜ |
-| CA-SGV-A | Foothill Luxury | ⬜ | ⬜ | ⬜ |
+| CA-SGV-A | Foothill Luxury | ⬜ | ✅ | ✅ |
 | CA-SGV-B | Pasadena Corridor | ⬜ | ⬜ | ⬜ |
-| CA-PV-A | Palos Verdes Peninsula | ⬜ | ⬜ | ⬜ |
-| CA-PV-B | Western LA Luxury | ⬜ | ⬜ | ⬜ |
-| CA-SD-A | Coastal North SD | ⬜ | ⬜ | ⬜ |
+| CA-PV-A | Palos Verdes Peninsula | ⬜ | ✅ | ✅ |
+| CA-PV-B | Western LA Luxury | ⬜ | ✅ | ✅ |
+| CA-SD-A | Coastal North SD | ⬜ | ✅ | ✅ |
 | CA-SD-B | Coastal SD + Inland | ⬜ | ⬜ | ⬜ |
-| CA-CC-A | Santa Barbara Luxury | ⬜ | ⬜ | — |
+| CA-CC-A | Santa Barbara Luxury | ⬜ | ✅ | — |
 | CA-CC-B | Central Coast | ⬜ | ⬜ | — |
 | CA-VC-A | Ventura Affluent | ⬜ | ⬜ | — |
 | CA-WC-A | Wine Country | ⬜ | ⬜ | — |

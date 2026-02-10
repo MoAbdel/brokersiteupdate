@@ -184,6 +184,15 @@ export default function ResourcesPage() {
               Jump straight to our most requested tools and reference pages.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              <Link className="text-blue-700 hover:underline" href="/resources/offer-strength-kit">
+                Offer Strength Kit (Homebuyers)
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/heloc-vs-cash-out">
+                HELOC vs Cash-Out Worksheet
+              </Link>
+              <Link className="text-blue-700 hover:underline" href="/resources/dscr-deal-analyzer">
+                DSCR Deal Analyzer (Investors)
+              </Link>
               <Link className="text-blue-700 hover:underline" href="/resources/document-checklist">
                 Document Checklist
               </Link>
