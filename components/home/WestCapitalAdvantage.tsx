@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Building2, MapPin } from 'lucide-react';
+import { Building2 } from 'lucide-react';
 
 export default function WestCapitalAdvantage() {
   const programs = [
@@ -55,7 +55,7 @@ export default function WestCapitalAdvantage() {
                 Wholesale Power
               </h3>
               <p className="text-lg text-slate-700 leading-relaxed">
-                While retail banks offer their single menu, we access 100+ lenders' wholesale channels—
+                While retail banks offer their single menu, we access 50+ lenders' wholesale channels—
                 <span className="font-semibold text-green-700"> including the banks themselves at better pricing</span>.
                 This means you get institutional rates without institutional bureaucracy.
               </p>
@@ -92,39 +92,6 @@ export default function WestCapitalAdvantage() {
           </div>
         </div>
 
-        {/* Geographic Coverage */}
-        <div className="bg-slate-900 rounded-2xl p-6 sm:p-8 text-white">
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-8 text-center sm:text-left">
-            <MapPin className="w-8 h-8 sm:w-10 sm:h-10 text-green-400 flex-shrink-0" />
-            <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-2 whitespace-nowrap">Geographic Coverage</h3>
-              <p className="text-slate-300 text-base sm:text-lg">
-                Licensed in <span className="text-white font-semibold">CA & WA</span>
-              </p>
-              <p className="text-slate-400 text-sm mt-1">
-                Full statewide coverage for all counties
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
-              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Headquarters</div>
-              <div className="text-white text-xl font-bold">Irvine, CA</div>
-              <div className="text-slate-400 text-sm mt-1">Orange County</div>
-            </div>
-            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
-              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Primary Markets</div>
-              <div className="text-white text-xl font-bold">Orange County</div>
-              <div className="text-slate-400 text-sm mt-1">Los Angeles • San Diego</div>
-            </div>
-            <div className="bg-slate-800 rounded-lg p-6 text-center sm:text-left">
-              <div className="text-green-400 font-semibold mb-1 text-sm uppercase tracking-wider">Coverage Area</div>
-              <div className="text-white text-xl font-bold">Multi-State Licensed</div>
-              <div className="text-slate-400 text-sm mt-1">CA, WA</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

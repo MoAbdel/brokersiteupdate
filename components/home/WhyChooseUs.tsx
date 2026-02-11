@@ -6,7 +6,7 @@ import { GitCompareArrows, Zap, Shield, Star, Award, TrendingUp } from "lucide-r
 const features = [
   {
     icon: GitCompareArrows,
-    title: "Access to 100+ Wholesale Lenders",
+    title: "Access to 50+ Wholesale Lenders",
     description: "Brokers provide access to significantly more loan options than retail banks. I connect you to multiple lenders who compete for your business, offering diverse programs and competitive wholesale pricing.",
     highlight: "More Options"
   },
@@ -19,7 +19,7 @@ const features = [
   {
     icon: Shield,
     title: "Local Market Expert",
-    description: "Deep knowledge of Orange County's unique neighborhoods, pricing, and market trends. I help you make informed decisions based on local insights.",
+    description: "Deep knowledge of California and Washington's unique neighborhoods, pricing, and market trends. I help you make informed decisions based on local insights.",
     highlight: "Local Expert"
   },
   {
@@ -53,8 +53,8 @@ export default function WhyChooseUs() {
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Unlike retail banks with limited product offerings, I leverage wholesale lending channels
-            and 100+ lender relationships to provide more options and competitive pricing for every
-            Orange County homeowner.
+            and 50+ lender relationships to provide more options and competitive pricing for every
+            California and Washington homeowner.
           </p>
         </div>
 

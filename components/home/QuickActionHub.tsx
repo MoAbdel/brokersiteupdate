@@ -28,7 +28,7 @@ export default function QuickActionHub() {
     {
       icon: Lock,
       title: 'Upload Documents',
-      href: 'https://moabdel.my1003app.com?time=1768859060594',
+      href: 'https://luminlending-apply-mo-abdel.my1003app.com/register',
       external: true,
     },
     {

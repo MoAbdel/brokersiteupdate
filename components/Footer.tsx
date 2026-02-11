@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <h3 className="text-lg font-semibold mb-4">About Mo Abdel</h3>
             <p className="text-slate-400 mb-4">
-              Your trusted mortgage broker providing direct access to 200+ wholesale lenders across CA & WA.
+              Your trusted mortgage broker providing direct access to 50+ wholesale lenders across CA & WA.
               Shop the market to secure the right financing strategy. NMLS #1426884.
             </p>
             <div className="flex flex-wrap gap-3">
