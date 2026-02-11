@@ -147,7 +147,7 @@ export default function ExitIntentModal() {
                     <ul className="space-y-3 mb-8">
                         <li className="flex items-start gap-3">
                             <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Access to 100+ wholesale lenders</span>
+                            <span className="text-sm">Access to 50+ wholesale lenders</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
@@ -167,7 +167,7 @@ export default function ExitIntentModal() {
                     See Your Potential Savings
                 </h3>
                 <p className="text-slate-600">
-                    Get a custom rate quote from 100+ lenders in minutes. No credit check. No commitment. Just your best rate from 100+ lenders.
+                    Get a custom rate quote from 50+ lenders in minutes. No credit check. No commitment. Just your best rate from 50+ lenders.
                 </p>
               </div>
 
@@ -211,7 +211,7 @@ export default function ExitIntentModal() {
                         Where should we send your quote?
                     </h3>
                     <p className="text-slate-600">
-                        We'll analyze 100+ lenders to find your best option.
+                        We'll analyze 50+ lenders to find your best option.
                     </p>
                 </div>
 
