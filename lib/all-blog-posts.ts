@@ -11,6 +11,63 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
+  {
+    slug: 'home-equity-premium-east-bay-sf-2026',
+    title: 'Home Equity in SF, Piedmont & Premium East Bay: HELOC & Cash-Out [2026]',
+    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for San Francisco, Piedmont, Orinda, Lafayette & Moraga. Tap equity from $1.5M-$2.5M Lamorinda and SF properties. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
+    title: 'Wholesale Mortgage Broker in La Jolla, Coronado & Coastal SD, CA [2026]',
+    excerpt: 'Wholesale mortgage broker for La Jolla, Coronado, Carlsbad & Poway. Biotech income, military transitions, 200+ lenders. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-coastal-sd-inland-premium-2026',
+    title: 'Home Equity in La Jolla, Coronado & Coastal SD: HELOC & Cash-Out [2026]',
+    excerpt: 'Jumbo HELOC & cash-out refinance for La Jolla, Coronado, Carlsbad & Poway homeowners. Tap equity from $1.1M-$2.5M coastal and inland premium properties. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-affluent-marin-2026',
+    title: 'Wholesale Mortgage Broker in Sausalito, Larkspur & Affluent Marin, CA [2026]',
+    excerpt: 'Wholesale mortgage broker for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat financing, self-employed creative professionals, 200+ lenders. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-affluent-marin-2026',
+    title: 'Home Equity in Sausalito, Larkspur & Affluent Marin: HELOC & Cash-Out [2026]',
+    excerpt: 'Jumbo HELOC & cash-out refinance for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat equity, hillside HELOC, creative professional access. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
+    title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026]',
+    excerpt: 'Wholesale mortgage broker for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk estates, Tri-Valley tech, 200+ lenders. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-affluent-suburban-east-bay-2026',
+    title: 'Home Equity in Danville, Walnut Creek & Suburban East Bay: HELOC & Cash-Out [2026]',
+    excerpt: 'Jumbo HELOC & cash-out refinance for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Tri-Valley estate equity access on $1.1M-$1.8M properties. NMLS #1426884.',
+    date: '2026-02-10',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
   // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-coastal-north-sd-2026',
