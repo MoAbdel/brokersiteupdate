@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
+  {
+    slug: 'home-equity-la-westside-luxury-2026',
+    title: 'Home Equity in Culver City, Marina del Rey & LA Westside: HELOC & Cash-Out [2026]',
+    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for Culver City, Playa del Rey, Marina del Rey & Westchester. Entertainment industry income, waterfront condo equity. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-pasadena-corridor-2026',
+    title: 'Home Equity in Pasadena, Glendale & SGV Corridor: HELOC & Cash-Out [2026]',
+    excerpt: 'HELOC, HELOAN & cash-out refinance for Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta. Caltech/JPL income, historic home renovation equity. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-central-coast-communities-2026',
+    title: 'Home Equity in SLO, Pismo Beach & Central Coast: HELOC & Cash-Out [2026]',
+    excerpt: 'HELOC & cash-out refinance for San Luis Obispo, Pismo Beach, Paso Robles & Cambria homeowners. Wine country estates, coastal retirement equity. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-sacramento-affluent-2026',
+    title: 'Home Equity in El Dorado Hills, Granite Bay & Sacramento: HELOC & Cash-Out [2026]',
+    excerpt: 'HELOC & cash-out refinance for El Dorado Hills, Granite Bay, Folsom, Roseville & Davis. Bay Area transplant equity, Intel/state employee income. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-coastal-north-sd-2026',
+    title: 'Reverse Mortgage in Del Mar, Rancho Santa Fe & Coastal North SD [2026]',
+    excerpt: 'HECM reverse mortgage guide for Del Mar, Rancho Santa Fe, Solana Beach & Encinitas seniors 62+. $1.8M-$4.5M home equity access without monthly payments. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-western-la-luxury-2026',
+    title: 'Reverse Mortgage in Hidden Hills, Calabasas & Western LA Luxury [2026]',
+    excerpt: 'HECM reverse mortgage for Hidden Hills, Calabasas, Agoura Hills & Westlake Village seniors 62+. Celebrity estate financing, entertainment wealth equity access. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-palos-verdes-peninsula-2026',
+    title: 'Reverse Mortgage in Palos Verdes Estates, Rolling Hills & PV Peninsula [2026]',
+    excerpt: 'HECM reverse mortgage for PV Estates, Rancho PV, Rolling Hills & Rolling Hills Estates seniors 62+. Ocean bluff estates, equestrian gated communities. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-la-beach-cities-2026',
+    title: 'Reverse Mortgage in Manhattan Beach, Hermosa Beach & LA Beach Cities [2026]',
+    excerpt: 'HECM reverse mortgage for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo seniors 62+. Sand Section estates, aerospace retiree equity. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-foothill-luxury-2026',
+    title: 'Reverse Mortgage in La Cañada Flintridge, San Marino & Foothill Luxury [2026]',
+    excerpt: 'HECM reverse mortgage for La Cañada Flintridge, South Pasadena, San Marino & Arcadia seniors 62+. JPL retirees, legacy estates, historic home equity. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-santa-barbara-luxury-2026',
+    title: 'Reverse Mortgage in Montecito, Santa Barbara & Carpinteria [2026]',
+    excerpt: 'HECM reverse mortgage for Montecito, Santa Barbara & Carpinteria seniors 62+. Billionaire retreat equity, American Riviera retirement financing. NMLS #1426884.',
+    date: '2026-02-11',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
   // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
   {
     slug: 'home-equity-premium-east-bay-sf-2026',

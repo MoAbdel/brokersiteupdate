@@ -260,19 +260,19 @@ State Pillar (1 per track per state)
 | CA-MR-B | Affluent Marin | ✅ | ✅ | ✅ |
 | CA-EB-A | Premium East Bay/SF | ⬜ | ✅ | ✅ |
 | CA-EB-B | Affluent Suburban EB | ⬜ | ✅ | ✅ |
-| CA-LAB-A | LA Beach Cities | ⬜ | ✅ | ✅ |
-| CA-LAB-B | LA Westside | ⬜ | ⬜ | ⬜ |
-| CA-SGV-A | Foothill Luxury | ⬜ | ✅ | ✅ |
-| CA-SGV-B | Pasadena Corridor | ⬜ | ⬜ | ⬜ |
-| CA-PV-A | Palos Verdes Peninsula | ⬜ | ✅ | ✅ |
-| CA-PV-B | Western LA Luxury | ⬜ | ✅ | ✅ |
-| CA-SD-A | Coastal North SD | ⬜ | ✅ | ✅ |
+| CA-LAB-A | LA Beach Cities | ✅ | ✅ | ✅ |
+| CA-LAB-B | LA Westside | ⬜ | ✅ | ⬜ |
+| CA-SGV-A | Foothill Luxury | ✅ | ✅ | ✅ |
+| CA-SGV-B | Pasadena Corridor | ⬜ | ✅ | ⬜ |
+| CA-PV-A | Palos Verdes Peninsula | ✅ | ✅ | ✅ |
+| CA-PV-B | Western LA Luxury | ✅ | ✅ | ✅ |
+| CA-SD-A | Coastal North SD | ✅ | ✅ | ✅ |
 | CA-SD-B | Coastal SD + Inland | ⬜ | ✅ | ✅ |
-| CA-CC-A | Santa Barbara Luxury | ⬜ | ✅ | — |
-| CA-CC-B | Central Coast | ⬜ | ⬜ | — |
+| CA-CC-A | Santa Barbara Luxury | ✅ | ✅ | — |
+| CA-CC-B | Central Coast | ⬜ | ✅ | — |
 | CA-VC-A | Ventura Affluent | ⬜ | ⬜ | — |
 | CA-WC-A | Wine Country | ⬜ | ⬜ | — |
-| CA-SAC-A | Sacramento Affluent | ⬜ | ⬜ | — |
+| CA-SAC-A | Sacramento Affluent | ⬜ | ✅ | — |
 | CA-IE-A | IE Affluent | ⬜ | ⬜ | — |
 | WA-SE-A | Ultra-Luxury Eastside | ⬜ | ⬜ | ⬜ |
 | WA-SE-B | Premium Eastside | ⬜ | ⬜ | ⬜ |
