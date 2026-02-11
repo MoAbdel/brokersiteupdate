@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Home, TrendingUp, Shield, DollarSign, CheckCircle, ArrowRight, Calculator } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'HELOC Specialist Orange County | Home Equity Lines of Credit | Lumin Lending',
@@ -109,6 +110,18 @@ export default function HELOCSpecialistOrangeCounty() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-10 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <LeadMagnetCTA
+            title="Free: HELOC vs Cash-Out Worksheet"
+            description="If you’re trying to avoid replacing a low first mortgage, this worksheet helps compare the tradeoffs and map the cleanest path."
+            href="/resources/heloc-vs-cash-out"
+            badge="Free worksheet"
+            ctaText="Get the worksheet"
+          />
         </div>
       </section>
 

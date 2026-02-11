@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { Home, GraduationCap, Car, Waves, Palette } from 'lucide-react';
+import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Huntington Beach vs Costa Mesa Home Buying Guide 2025 | Surf City vs Arts District OC',
@@ -80,6 +81,16 @@ export default function HuntingtonBeachVsCostaMesaGuide() {
               <p className="text-lg font-bold text-orange-600">Costa Mesa: 45-60 min</p>
             </div>
           </div>
+        </div>
+
+        <div className="mb-12">
+          <LeadMagnetCTA
+            title="Free: Offer Strength Kit (Pre-Approval + Checklist)"
+            description="Get the pre-approval checklist, timeline, and document list that helps your offer move faster once you're under contract."
+            href="/resources/offer-strength-kit"
+            badge="Free kit"
+            ctaText="Get the free kit"
+          />
         </div>
 
         {/* Detailed Comparison */}

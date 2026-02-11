@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, DollarSign, TrendingUp, PieChart, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns | Mo Abdel',
@@ -186,6 +187,16 @@ export default function DSCRInvestmentPropertyLoans2026() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="mb-12">
+          <LeadMagnetCTA
+            title="Free: DSCR Deal Analyzer"
+            description="Send rent + estimated PITIA and get a fast DSCR-readiness check and lender-ready checklist."
+            href="/resources/dscr-deal-analyzer"
+            badge="Free investor tool"
+            ctaText="Run the quick check"
+          />
         </section>
 
         {/* Who Benefits */}

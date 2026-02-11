@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, CreditCard, Clock, Building } from 'lucide-react';
+import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
@@ -284,6 +285,16 @@ export default function HELOCOrangeCountyPage() {
                 </Link>
               </div>
             </div>
+          </section>
+
+          <section className="mb-16">
+            <LeadMagnetCTA
+              title="Free: HELOC vs Cash-Out Worksheet"
+              description="Not sure which option fits your goal? Get a quick comparison worksheet and next-step plan based on your timeline and cash needs."
+              href="/resources/heloc-vs-cash-out"
+              badge="Free worksheet"
+              ctaText="Compare options"
+            />
           </section>
 
           {/* Fast HELOC Option */}

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Building, TrendingUp, DollarSign, MapPin, Calculator, Phone, Home, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Orange County Investment Property Guide 2025 | Real Estate Investing',
@@ -284,6 +285,16 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="mt-10">
+            <LeadMagnetCTA
+              title="Free: DSCR Deal Analyzer (Rent vs PITIA)"
+              description="Quickly sanity-check whether a deal is DSCR-friendly, then get a lender-ready checklist for the next step."
+              href="/resources/dscr-deal-analyzer"
+              badge="Free tool"
+              ctaText="Analyze a deal"
+            />
           </div>
           
           <div className="text-center mt-8">
