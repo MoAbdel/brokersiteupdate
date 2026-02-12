@@ -202,7 +202,7 @@ export default function Page() {
     { label: 'About your mortgage broker', href: '/about-mo-abdel-orange-county-mortgage-broker' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
-    { label: 'Mortgage articles and insights', href: '/articles' },
+    { label: 'Mortgage articles and insights', href: '/blog' },
   ];
 
   return (

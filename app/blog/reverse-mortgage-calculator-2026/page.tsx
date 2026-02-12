@@ -169,7 +169,7 @@ export default function ReverseMortgageCalculatorPage() {
                 <ul>
                     <li>Higher home values mean higher potential proceeds</li>
                     <li>The 2026 HECM limit caps calculations at $1,209,750</li>
-                    <li>Homes worth more may benefit from <Link href="/blog/jumbo-reverse-mortgage-california-2026" className="text-blue-600 hover:underline">jumbo reverse mortgages</Link></li>
+                    <li>Homes worth more may benefit from <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">jumbo reverse mortgages</Link></li>
                 </ul>
 
                 <h3>3. Current Interest Rates</h3>
@@ -365,7 +365,7 @@ export default function ReverseMortgageCalculatorPage() {
 
                 <h2>High-Value Homes: Jumbo Reverse Mortgages</h2>
                 <p>
-                    If your home exceeds the $1,209,750 HECM limit, consider a <Link href="/blog/jumbo-reverse-mortgage-california-2026" className="text-blue-600 hover:underline">proprietary (jumbo) reverse mortgage</Link>:
+                    If your home exceeds the $1,209,750 HECM limit, consider a <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">proprietary (jumbo) reverse mortgage</Link>:
                 </p>
 
                 <ul>
@@ -458,7 +458,7 @@ export default function ReverseMortgageCalculatorPage() {
                     <li><Link href="/blog/what-is-reverse-mortgage-2026" className="text-blue-600 hover:underline">What Is a Reverse Mortgage?</Link></li>
                     <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">HECM Eligibility Requirements</Link></li>
                     <li><Link href="/blog/reverse-mortgage-pros-cons-2026" className="text-blue-600 hover:underline">Pros and Cons of Reverse Mortgages</Link></li>
-                    <li><Link href="/blog/jumbo-reverse-mortgage-california-2026" className="text-blue-600 hover:underline">Jumbo Reverse Mortgages for High-Value Homes</Link></li>
+                    <li><Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">Jumbo Reverse Mortgages for High-Value Homes</Link></li>
                 </ul>
             </section>
 

@@ -40,6 +40,8 @@ export function middleware(request: NextRequest) {
     '/blog/villa-park-mortgage-guide-2026': '/areas',
     '/blog/home-equity-laguna-beach-2026': '/home-equity-guide',
     '/blog/home-equity-newport-beach-2026': '/home-equity-guide',
+    '/blog/va-loans-wholesale-2026': '/blog/va-loans-orange-county-2026',
+    '/blog/jumbo-reverse-mortgage-california-2026': '/blog/proprietary-reverse-mortgage-2026',
   };
 
   const pageRedirects: Record<string, string> = {
@@ -55,7 +57,17 @@ export function middleware(request: NextRequest) {
     '/articles/dana-point-first-time-homebuyer-guide': '/guides/orange-county-home-buyer-guide',
     '/articles/orange-county-mortgage-rate-trends-august-2026': '/blog',
     '/articles/wholesale-vs-retail-mortgages-comparison': '/blog/wholesale-vs-retail-mortgage-complete-2026',
+    '/articles/best-mortgage-broker-orange-county': '/about-mo-abdel-orange-county-mortgage-broker',
+    '/articles/first-time-homebuyer-mortgage-orange-county': '/guides/orange-county-home-buyer-guide',
+    '/articles/orange-county-mortgage-refinance-specialist': '/guides/orange-county-refinancing-guide',
+    '/articles/va-loan-mortgage-broker-orange-county': '/va-loans-orange-county',
   };
+
+  // Catch-all for legacy /articles/* URLs not explicitly mapped above.
+  if (pathname.startsWith('/articles/')) {
+    const redirectUrl = new URL(`https://www.mothebroker.com/blog${search}`);
+    return NextResponse.redirect(redirectUrl, 301);
+  }
 
   const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname];
   if (redirectTarget) {

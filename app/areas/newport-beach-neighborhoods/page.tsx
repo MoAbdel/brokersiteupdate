@@ -187,8 +187,8 @@ export default function Page() {
     { label: 'HELOC options for luxury homes', href: '/loan-programs/heloc' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
-    { label: 'Orange County mortgage broker', href: '/articles/best-mortgage-broker-orange-county' },
-    { label: 'Mortgage insights and articles', href: '/articles' },
+    { label: 'Orange County mortgage broker', href: '/about-mo-abdel-orange-county-mortgage-broker' },
+    { label: 'Mortgage insights and articles', href: '/blog' },
   ];
 
   return (

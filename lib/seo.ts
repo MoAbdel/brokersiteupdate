@@ -173,14 +173,6 @@ export const structuredData = {
         "@type": "Reservation",
         "name": "Mortgage Consultation"
       }
-    },
-    {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://www.mothebroker.com/areas?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
     }
   ]
 };

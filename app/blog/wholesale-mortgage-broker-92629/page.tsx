@@ -273,7 +273,7 @@ export default function WholesaleMortgageBroker92629Page() {
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California Guide</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
-            <li><a href="/blog/va-loans-wholesale-2026">VA Loans Guide</a></li>
+            <li><a href="/blog/va-loans-orange-county-2026">VA Loans Guide</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-92624">Nearby: Capistrano Beach (92624)</a></li>
           </ul>
         </div>

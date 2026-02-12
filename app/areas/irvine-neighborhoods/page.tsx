@@ -196,7 +196,7 @@ export default function Page() {
     { label: 'Cash-out refinancing', href: '/loan-programs/cash-out-refinance' },
     { label: 'Orange County mortgage broker', href: '/' },
     { label: 'All loan programs', href: '/loan-programs' },
-    { label: 'Mortgage insights', href: '/articles' },
+    { label: 'Mortgage insights', href: '/blog' },
   ];
 
   return (

@@ -159,7 +159,7 @@ export default function Page() {
     { label: 'Home equity loans', href: '/loan-programs/heloan' },
     { label: 'Orange County service areas', href: '/areas' },
     { label: 'Irvine neighborhoods guide', href: '/areas/irvine-neighborhoods' },
-    { label: 'Recent mortgage insights', href: '/articles' },
+    { label: 'Recent mortgage insights', href: '/blog' },
   ];
 
   return (

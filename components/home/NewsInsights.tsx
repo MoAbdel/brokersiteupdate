@@ -14,7 +14,7 @@ export default function NewsInsights() {
       date: "September 25, 2025",
       readTime: "4 min read",
       image: "/images/oc-market-update.jpg",
-      link: "/articles/best-mortgage-broker-orange-county"
+      link: "/about-mo-abdel-orange-county-mortgage-broker"
     },
     {
       category: "First-Time Buyers",
@@ -24,7 +24,7 @@ export default function NewsInsights() {
       date: "September 20, 2025",
       readTime: "6 min read",
       image: "/images/rate-impact-analysis.jpg",
-      link: "/articles/first-time-homebuyer-mortgage-orange-county"
+      link: "/guides/orange-county-home-buyer-guide"
     },
     {
       category: "Refinancing",
@@ -34,7 +34,7 @@ export default function NewsInsights() {
       date: "September 18, 2025",
       readTime: "5 min read",
       image: "/images/competitive-offer-tips.jpg",
-      link: "/articles/orange-county-mortgage-refinance-specialist"
+      link: "/guides/orange-county-refinancing-guide"
     }
   ];
 
@@ -217,7 +217,7 @@ export default function NewsInsights() {
             variant="outline"
             size="lg"
             className="border-slate-300 hover:bg-slate-50"
-            onClick={() => window.location.href = '/articles'}
+            onClick={() => window.location.href = '/blog'}
           >
             View All Articles
             <ArrowRight className="w-5 h-5 ml-2" />

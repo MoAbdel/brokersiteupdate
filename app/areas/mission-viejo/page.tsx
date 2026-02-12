@@ -180,7 +180,7 @@ export default function Page() {
     { label: 'Orange County mortgage services', href: '/areas' },
     { label: 'Wholesale mortgage broker benefits', href: '/guides/why-choose-local-mortgage-broker' },
     { label: 'Newport Beach area services', href: '/areas/newport-beach' },
-    { label: 'Mortgage articles and insights', href: '/articles' },
+    { label: 'Mortgage articles and insights', href: '/blog' },
   ];
 
   return (
