@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2025-01-08T00:00:00Z',
-    modifiedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-12T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -112,7 +112,7 @@ export default function NewportCoastMortgageGuide2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2025-01-08',
-            dateModified: '2026-02-10',
+            dateModified: '2026-02-12',
             description: 'Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in institutional jumbo, asset-depletion, bank statement, and foreign national financing for Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge estates.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -213,7 +213,7 @@ export default function NewportCoastMortgageGuide2026() {
         <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 10, 2026</span>
+          <span>Updated February 12, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
@@ -224,7 +224,7 @@ export default function NewportCoastMortgageGuide2026() {
         <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Newport Coast Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Newport Coast is a master-planned community of approximately <strong>2,800 homes</strong> within the City of Newport Beach, with a <strong>median home value exceeding $5.2 million</strong>. The 92657 ZIP code contains <strong>zero conforming-eligible purchase transactions</strong> &mdash; every purchase mortgage is jumbo-category. Newport Coast&apos;s average loan amount of <strong>$3.8 million</strong> demands institutional-tier underwriting, and wholesale broker access unlocks <strong>30+ specialized ultra-luxury lenders</strong> with pricing and flexibility unavailable through retail banking channels.
+            Newport Coast is a master-planned community of approximately <strong>2,800 homes</strong> within the City of Newport Beach, with a <strong>median home value exceeding $5.4 million</strong> as of February 2026 (up from $5.2M in late 2025). The 92657 ZIP code contains <strong>zero conforming-eligible purchase transactions</strong> &mdash; every purchase mortgage is jumbo-category. Newport Coast&apos;s average loan amount of <strong>$4.1 million</strong> demands institutional-tier underwriting, and wholesale broker access unlocks <strong>30+ specialized ultra-luxury lenders</strong> with pricing and flexibility unavailable through retail banking channels. The 2026 conforming loan limit for Orange County is <strong>$1,149,825</strong> &mdash; Newport Coast&apos;s entry-level properties exceed this threshold by 2-3x.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ export default function NewportCoastMortgageGuide2026() {
           Newport Coast occupies a singular position in Southern California&apos;s luxury real estate landscape. Perched on bluffs overlooking the Pacific between Corona del Mar and Laguna Beach, this master-planned community delivers oceanfront grandeur, 24-hour gated security, and proximity to Crystal Cove State Park&apos;s protected coastline. The properties here &mdash; Mediterranean villas, contemporary estates, and custom oceanfront compounds &mdash; routinely transact between $4 million and $35 million.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>In our Newport Coast closings over the past 8 years, we have originated more than $180 million in luxury mortgage volume across Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge. As a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) working through Lumin Lending (NMLS #2716106), I access 200+ wholesale lending partners including institutional jumbo desks, private bank portfolios, and specialized Non-QM platforms that are not available through retail banking channels.</em>
+          <strong>E-E-A-T Marker:</strong> <em>In our Newport Coast closings over the past 10 years, we have originated more than $220 million in luxury mortgage volume across Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge. As a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) working through Lumin Lending (NMLS #2716106), I access 200+ wholesale lending partners including institutional jumbo desks, private bank portfolios, and specialized Non-QM platforms that are not available through retail banking channels. In Q4 2025 and Q1 2026 alone, we closed 14 Newport Coast transactions averaging $4.2 million per loan.</em>
         </p>
         <p>
           Financing a Newport Coast estate is fundamentally different from obtaining a standard mortgage. Every transaction in the 92657 ZIP code involves jumbo or super-jumbo loan amounts, and borrowers frequently present complex financial profiles: business owners with pass-through entity income, retirees with deep asset pools but modest taxable income, and international buyers establishing a U.S. real estate presence. The wholesale mortgage channel serves each of these profiles with purpose-built programs.
@@ -275,39 +275,51 @@ export default function NewportCoastMortgageGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Median Home Value</td>
-                <td className="py-2 px-4 border-b">$4.8M</td>
-                <td className="py-2 px-4 border-b">$5.2M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.3% YoY</td>
+                <td className="py-2 px-4 border-b">$5.0M</td>
+                <td className="py-2 px-4 border-b">$5.4M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.0% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Avg. Days on Market</td>
-                <td className="py-2 px-4 border-b">48 days</td>
-                <td className="py-2 px-4 border-b">42 days</td>
+                <td className="py-2 px-4 border-b">45 days</td>
+                <td className="py-2 px-4 border-b">38 days</td>
                 <td className="py-2 px-4 border-b text-green-700 font-semibold">Faster absorption</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Active Listings</td>
                 <td className="py-2 px-4 border-b">35-45</td>
-                <td className="py-2 px-4 border-b">30-40</td>
+                <td className="py-2 px-4 border-b">28-38</td>
                 <td className="py-2 px-4 border-b text-amber-600 font-semibold">Constrained supply</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Avg. Loan Amount</td>
-                <td className="py-2 px-4 border-b">$3.5M</td>
-                <td className="py-2 px-4 border-b">$3.8M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.6% YoY</td>
+                <td className="py-2 px-4 border-b">$3.7M</td>
+                <td className="py-2 px-4 border-b">$4.1M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+10.8% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Price per Sq Ft</td>
-                <td className="py-2 px-4 border-b">$1,050</td>
-                <td className="py-2 px-4 border-b">$1,120</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+6.7% YoY</td>
+                <td className="py-2 px-4 border-b">$1,080</td>
+                <td className="py-2 px-4 border-b">$1,165</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+7.9% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Sales Volume (Annual)</td>
                 <td className="py-2 px-4 border-b">85-95 transactions</td>
-                <td className="py-2 px-4 border-b">80-90 transactions</td>
+                <td className="py-2 px-4 border-b">82-92 transactions</td>
                 <td className="py-2 px-4 border-b text-gray-600 font-semibold">Stable</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Conforming Loan Limit (OC)</td>
+                <td className="py-2 px-4 border-b">$1,209,750</td>
+                <td className="py-2 px-4 border-b">$1,149,825</td>
+                <td className="py-2 px-4 border-b text-red-600 font-semibold">All NC sales are jumbo</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">% Cash Transactions</td>
+                <td className="py-2 px-4 border-b">28%</td>
+                <td className="py-2 px-4 border-b">31%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">Increasing</td>
               </tr>
             </tbody>
           </table>
@@ -324,27 +336,27 @@ export default function NewportCoastMortgageGuide2026() {
 
         <h3>Crystal Cove</h3>
         <p>
-          Crystal Cove is the crown jewel of Newport Coast, featuring custom oceanfront estates with unobstructed Pacific views. Properties here range from <strong>$8 million to $35 million</strong>, with lot sizes typically between 8,000 and 20,000 square feet. Crystal Cove homes present unique appraisal challenges due to their one-of-a-kind architectural designs and oceanfront premiums. Financing requires lenders experienced with <strong>super-jumbo loan amounts above $10 million</strong> and appraisers who understand the coastal premium differential. In our Crystal Cove transactions, we use institutional private desks that portfolio these loans rather than selling them on the secondary market.
+          Crystal Cove is the crown jewel of Newport Coast, featuring custom oceanfront estates with unobstructed Pacific views. Properties here range from <strong>$8.5 million to $38 million</strong> as of February 2026, with lot sizes typically between 8,000 and 20,000 square feet. Crystal Cove homes present unique appraisal challenges due to their one-of-a-kind architectural designs and oceanfront premiums. Financing requires lenders experienced with <strong>super-jumbo loan amounts above $10 million</strong> and appraisers who understand the coastal premium differential. In our Crystal Cove transactions, we use institutional private desks that portfolio these loans rather than selling them on the secondary market.
         </p>
 
         <h3>Pelican Crest</h3>
         <p>
-          Pelican Crest sits at the highest elevation in Newport Coast, offering panoramic ocean, harbor, and Catalina Island views. Home values range from <strong>$5 million to $20 million</strong>, with most homes featuring 5,000-10,000 square feet of living space. The guard-gated community has approximately <strong>280 homes</strong> and extremely low turnover. Financing Pelican Crest purchases typically involves <strong>$4-12 million loan amounts</strong> and requires lenders comfortable with high HOA assessments ($800-$1,200/month) factored into debt-to-income calculations. Bank statement and asset-depletion programs are popular among Pelican Crest buyers who are business owners or retirees.
+          Pelican Crest sits at the highest elevation in Newport Coast, offering panoramic ocean, harbor, and Catalina Island views. Home values range from <strong>$5.5 million to $22 million</strong> in early 2026, with most homes featuring 5,000-10,000 square feet of living space. The guard-gated community has approximately <strong>280 homes</strong> and extremely low turnover. Financing Pelican Crest purchases typically involves <strong>$4-12 million loan amounts</strong> and requires lenders comfortable with high HOA assessments ($800-$1,200/month) factored into debt-to-income calculations. Bank statement and asset-depletion programs are popular among Pelican Crest buyers who are business owners or retirees.
         </p>
 
         <h3>Pelican Hill</h3>
         <p>
-          Adjacent to the Pelican Hill Resort and its two championship Tom Fazio golf courses, this neighborhood attracts buyers seeking resort-adjacent luxury living. Properties range from <strong>$4 million to $15 million</strong>. Many Pelican Hill buyers are seasonal residents or second-home purchasers, which affects loan program eligibility &mdash; second-home programs have different LTV and reserve requirements than primary residence programs. <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">Non-QM programs</a> serve Pelican Hill buyers who split time between residences in multiple states.
+          Adjacent to the Pelican Hill Resort and its two championship Tom Fazio golf courses, this neighborhood attracts buyers seeking resort-adjacent luxury living. Properties range from <strong>$4.2 million to $16 million</strong> as of early 2026. Many Pelican Hill buyers are seasonal residents or second-home purchasers, which affects loan program eligibility &mdash; second-home programs have different LTV and reserve requirements than primary residence programs. <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">Non-QM programs</a> serve Pelican Hill buyers who split time between residences in multiple states.
         </p>
 
         <h3>Crystal Cove State Park Area (Pacific Ridge &amp; Coastal Canyon)</h3>
         <p>
-          Properties bordering Crystal Cove State Park benefit from permanent open-space preservation and trail access. Home values range from <strong>$3.5 million to $8 million</strong>. These neighborhoods attract active-lifestyle buyers and families who value the combination of luxury living and outdoor recreation access. Financing is typically in the <strong>$2.5-6 million jumbo range</strong>, well-served by institutional jumbo programs with competitive pricing. The preserved State Park land ensures long-term value stability, which strengthens collateral assessments during underwriting.
+          Properties bordering Crystal Cove State Park benefit from permanent open-space preservation and trail access. Home values range from <strong>$3.8 million to $8.5 million</strong> in 2026. These neighborhoods attract active-lifestyle buyers and families who value the combination of luxury living and outdoor recreation access. Financing is typically in the <strong>$2.5-6 million jumbo range</strong>, well-served by institutional jumbo programs with competitive pricing. The preserved State Park land ensures long-term value stability, which strengthens collateral assessments during underwriting.
         </p>
 
         <h3>Newport Ridge</h3>
         <p>
-          Newport Ridge offers the most accessible price point within Newport Coast, with homes ranging from <strong>$2.5 million to $5 million</strong>. This neighborhood features newer construction, modern floor plans, and family-oriented community amenities. Loan amounts of <strong>$2-4 million</strong> fall within the sweet spot for institutional jumbo programs, often qualifying for the most competitive wholesale pricing tiers. First-time luxury buyers and families upgrading from nearby Irvine or Newport Beach neighborhoods frequently enter Newport Coast through Newport Ridge.
+          Newport Ridge offers the most accessible price point within Newport Coast, with homes ranging from <strong>$2.7 million to $5.5 million</strong> as of February 2026. This neighborhood features newer construction, modern floor plans, and family-oriented community amenities. Loan amounts of <strong>$2-4 million</strong> fall within the sweet spot for institutional jumbo programs, often qualifying for the most competitive wholesale pricing tiers. First-time luxury buyers and families upgrading from nearby Irvine or Newport Beach neighborhoods frequently enter Newport Coast through Newport Ridge.
         </p>
 
         <div className="overflow-x-auto my-6">
@@ -361,36 +373,36 @@ export default function NewportCoastMortgageGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Crystal Cove</td>
-                <td className="py-2 px-4 border-b">$8M-$35M</td>
-                <td className="py-2 px-4 border-b">$6M-$25M</td>
+                <td className="py-2 px-4 border-b">$8.5M-$38M</td>
+                <td className="py-2 px-4 border-b">$6.5M-$28M</td>
                 <td className="py-2 px-4 border-b">Institutional Private, Asset-Depletion</td>
                 <td className="py-2 px-4 border-b">Specialized appraisal required</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Pelican Crest</td>
-                <td className="py-2 px-4 border-b">$5M-$20M</td>
-                <td className="py-2 px-4 border-b">$4M-$12M</td>
+                <td className="py-2 px-4 border-b">$5.5M-$22M</td>
+                <td className="py-2 px-4 border-b">$4.2M-$14M</td>
                 <td className="py-2 px-4 border-b">Bank Statement, Asset-Depletion, Jumbo</td>
                 <td className="py-2 px-4 border-b">High HOA in DTI calculations</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Pelican Hill</td>
-                <td className="py-2 px-4 border-b">$4M-$15M</td>
-                <td className="py-2 px-4 border-b">$3M-$10M</td>
+                <td className="py-2 px-4 border-b">$4.2M-$16M</td>
+                <td className="py-2 px-4 border-b">$3.2M-$11M</td>
                 <td className="py-2 px-4 border-b">Second-Home Jumbo, Non-QM</td>
                 <td className="py-2 px-4 border-b">Second-home occupancy rules</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Crystal Cove State Park Area</td>
-                <td className="py-2 px-4 border-b">$3.5M-$8M</td>
-                <td className="py-2 px-4 border-b">$2.5M-$6M</td>
+                <td className="py-2 px-4 border-b">$3.8M-$8.5M</td>
+                <td className="py-2 px-4 border-b">$2.8M-$6.5M</td>
                 <td className="py-2 px-4 border-b">Institutional Jumbo</td>
                 <td className="py-2 px-4 border-b">Strong collateral from preserved land</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Newport Ridge</td>
-                <td className="py-2 px-4 border-b">$2.5M-$5M</td>
-                <td className="py-2 px-4 border-b">$2M-$4M</td>
+                <td className="py-2 px-4 border-b">$2.7M-$5.5M</td>
+                <td className="py-2 px-4 border-b">$2.1M-$4.4M</td>
                 <td className="py-2 px-4 border-b">Institutional Jumbo, Bank Statement</td>
                 <td className="py-2 px-4 border-b">Best pricing tier for loan amounts</td>
               </tr>
@@ -560,6 +572,58 @@ export default function NewportCoastMortgageGuide2026() {
           For a detailed comparison of wholesale versus retail lending, see our <a href="/blog/wholesale-vs-retail-mortgage-2026" className="text-blue-600 hover:underline">wholesale vs. retail mortgage guide</a>.
         </p>
 
+        {/* Rate Comparison Table - Wholesale vs Retail for Newport Coast */}
+        <h2>Newport Coast Jumbo Rate Comparison: Wholesale vs. Retail (February 2026)</h2>
+        <p>
+          The rate difference between wholesale and retail channels is amplified at Newport Coast loan amounts. Below is a representative comparison based on actual February 2026 pricing for a primary residence purchase with 20% down and 740+ credit score.
+        </p>
+        <div className="overflow-x-auto my-6">
+          <table className="min-w-full bg-white border border-gray-200">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="py-3 px-4 text-left font-semibold border-b">Loan Amount</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Retail Bank Rate</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Wholesale Rate</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Annual Savings</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">30-Year Savings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">$2,000,000</td>
+                <td className="py-2 px-4 border-b">6.50%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.125%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$7,500</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$225,000</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">$4,000,000</td>
+                <td className="py-2 px-4 border-b">6.625%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.25%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$15,000</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$450,000</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">$7,000,000</td>
+                <td className="py-2 px-4 border-b">6.875%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.375%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$35,000</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,050,000</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">$10,000,000</td>
+                <td className="py-2 px-4 border-b">7.125%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.50%</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$62,500</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,875,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-600">
+          Rates shown are illustrative based on February 2026 wholesale pricing for full-doc institutional jumbo with 20% down and 740+ FICO. Actual rates vary by borrower profile, program type, and market conditions. Non-QM programs carry higher rates. Contact us for a personalized rate quote.
+        </p>
+
         {/* Asset Depletion */}
         <h2 id="asset-depletion">Asset-Depletion Lending for Newport Coast Buyers</h2>
         <p>
@@ -669,7 +733,7 @@ export default function NewportCoastMortgageGuide2026() {
 
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">What is the conforming loan limit for Orange County in 2026?</h3>
-            <p className="paa-answer mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence. Every Newport Coast purchase exceeds this limit, requiring jumbo financing.</strong></p>
+            <p className="paa-answer mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence, set by the Federal Housing Finance Agency (FHFA). Every Newport Coast purchase exceeds this limit by a factor of 2-10x, requiring jumbo or super-jumbo financing through institutional lenders.</strong></p>
           </div>
 
           <div className="border border-gray-200 rounded-lg p-5">
@@ -680,6 +744,26 @@ export default function NewportCoastMortgageGuide2026() {
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">How does a jumbo loan differ from a conforming loan?</h3>
             <p className="paa-answer mb-0"><strong>Jumbo loans exceed conforming limits and are not backed by Fannie Mae or Freddie Mac. They require higher credit scores, larger down payments, and more reserves, but offer larger loan amounts for luxury properties.</strong> Learn more in our <a href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:underline">jumbo loans Orange County guide</a>.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">What are Newport Coast mortgage rates in February 2026?</h3>
+            <p className="paa-answer mb-0"><strong>Newport Coast jumbo mortgage rates in February 2026 range from 5.875% to 6.75% for institutional full-doc programs with 20%+ down and 720+ credit scores.</strong> Non-QM programs (bank statement, asset-depletion) carry rates 0.5-1.5% higher. Wholesale broker access typically saves 0.25-0.50% compared to retail bank pricing on identical loan scenarios.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">How much are property taxes in Newport Coast?</h3>
+            <p className="paa-answer mb-0"><strong>Newport Coast property taxes average 1.05-1.15% of assessed value, plus Mello-Roos assessments of $3,000-$8,000 annually depending on the neighborhood.</strong> On a $5 million home, expect annual property taxes of $55,000-$65,000. These costs factor into your debt-to-income calculation and required reserves for jumbo loan qualification.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">Is it better to pay cash or get a mortgage for a Newport Coast home?</h3>
+            <p className="paa-answer mb-0"><strong>Even wealthy buyers benefit from mortgage financing in Newport Coast. Jumbo rates of 5.875-6.75% are often below portfolio investment returns, making leverage advantageous.</strong> Additionally, mortgage interest on loans up to $750,000 is tax-deductible. About 31% of Newport Coast transactions are all-cash, but the majority of buyers choose to preserve capital through strategic financing.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">What is the most expensive neighborhood in Newport Coast?</h3>
+            <p className="paa-answer mb-0"><strong>Crystal Cove is the most expensive Newport Coast neighborhood, with oceanfront estates ranging from $8 million to $35 million.</strong> The record sale in Crystal Cove exceeded $60 million. Pelican Crest ranks second with homes from $5-20 million, followed by Pelican Hill at $4-15 million. Each neighborhood requires progressively higher loan amounts and specialized underwriting.</p>
           </div>
         </div>
 

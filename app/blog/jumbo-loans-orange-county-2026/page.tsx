@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026: Rates, Limits & Wholesale Financing Guide | Mo Abdel',
-  description: 'Jumbo loans in Orange County 2026: $1,209,750+ financing with wholesale rates. Compare jumbo vs. conforming, down payment options, and qualification requirements. NMLS #1426884.',
+  description: 'Jumbo loans in Orange County 2026: $1,149,825+ financing with wholesale rates. Compare jumbo vs. conforming, down payment options, and qualification requirements. NMLS #1426884.',
   keywords: [
     'jumbo loans Orange County',
     'jumbo loan rates Orange County 2026',
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Jumbo Loans Orange County 2026: Wholesale Rates & Luxury Home Financing',
-    description: 'Access 100+ wholesale lenders for jumbo loans above $1,209,750 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
+    description: 'Access 100+ wholesale lenders for jumbo loans above $1,149,825 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
     url: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2025-01-06T00:00:00Z',
-    modifiedTime: '2026-02-11T00:00:00Z',
+    modifiedTime: '2026-02-12T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -61,8 +61,8 @@ export default function JumboLoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2025-01-06",
-                        "dateModified": "2026-02-11",
-                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750."
+                        "dateModified": "2026-02-12",
+                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,149,825. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })
                 }}
             />
@@ -79,7 +79,7 @@ export default function JumboLoansOrangeCountyPage() {
                                 "name": "What is the jumbo loan limit for Orange County in 2026?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "In 2026, Orange County's conforming loan limit is $1,209,750 for single-family homes. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting."
+                                    "text": "In 2026, Orange County's conforming loan limit is $1,149,825 for single-family homes. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting."
                                 }
                             },
                             {
@@ -121,8 +121,65 @@ export default function JumboLoansOrangeCountyPage() {
                                     "@type": "Answer",
                                     "text": "Wholesale jumbo lenders offer options starting at 680 FICO, though scores of 720+ unlock the best rates. Retail banks typically require 720+ minimum for jumbo loans."
                                 }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can self-employed borrowers qualify for jumbo loans in Orange County?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Bank statement jumbo programs allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many luxury home buyers are business owners."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What reserve requirements apply to jumbo loans in OC?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Reserve requirements scale with loan amount. Loans of $1.15M-$2M require 6-12 months of PITIA. Loans of $2M-$5M require 12-18 months, and loans above $5M require 18-24 months."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Are interest-only jumbo loans available in Orange County?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Interest-only jumbo loans are available through wholesale channels with 5-year and 10-year IO periods. These programs typically require 20-30% down and are available on loan amounts up to $3 million or more."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I buy a condo with a jumbo loan in Orange County?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Warrantable condos in Orange County qualify for jumbo financing at standard terms. Non-warrantable condos require specialized Non-QM jumbo programs with slightly higher down payments."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What is the maximum DTI ratio for a jumbo loan in Orange County?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Wholesale jumbo programs allow DTI ratios up to 45-50%, compared to the 43% cap at most retail banks, helping Orange County buyers qualify for larger loan amounts."
+                                }
                             }
                         ]
+                    })
+                }}
+            />
+
+            {/* Speakable Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebPage",
+                        "name": "Jumbo Loans in Orange County 2026: Luxury Home Financing Guide",
+                        "speakable": {
+                            "@type": "SpeakableSpecification",
+                            "cssSelector": [".lead", "h3"]
+                        },
+                        "url": "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026"
                     })
                 }}
             />
@@ -135,7 +192,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Jumbo Loans in Orange County 2026: Luxury Home Financing Guide
                 </h1>
                 <p className="text-lg text-gray-600 mb-4">
-                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong>—any mortgage above this threshold requires jumbo financing.
+                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,149,825</strong>—any mortgage above this threshold requires jumbo financing.
                 </p>
                 <p className="text-sm text-gray-500">
                     By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>
@@ -145,7 +202,7 @@ export default function JumboLoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,209,750</strong> for high-cost areas. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
+                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,149,825</strong> for high-cost areas. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
                     </p>
                 </div>
 
@@ -168,23 +225,23 @@ export default function JumboLoansOrangeCountyPage() {
                             <tbody className="divide-y divide-blue-100">
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">1-Unit (Single Family)</td>
-                                    <td className="py-3 px-4">$1,209,750</td>
-                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,209,751+</td>
+                                    <td className="py-3 px-4">$1,149,825</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,149,826+</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">2-Unit (Duplex)</td>
-                                    <td className="py-3 px-4">$1,548,975</td>
-                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,548,976+</td>
+                                    <td className="py-3 px-4">$1,472,250</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,472,251+</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">3-Unit (Triplex)</td>
-                                    <td className="py-3 px-4">$1,872,225</td>
-                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,872,226+</td>
+                                    <td className="py-3 px-4">$1,779,525</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$1,779,526+</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">4-Unit (Fourplex)</td>
-                                    <td className="py-3 px-4">$2,326,875</td>
-                                    <td className="py-3 px-4 text-blue-700 font-bold">$2,326,876+</td>
+                                    <td className="py-3 px-4">$2,211,600</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$2,211,601+</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -193,7 +250,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
 
                 <p>
-                    Because Orange County is classified as a &quot;high-cost area,&quot; these limits are significantly above the national baseline of $806,500. However, with the median home price in coastal OC exceeding $1.5M, the majority of luxury property transactions still require jumbo financing. In fact, approximately 38% of all Orange County purchase mortgages in Q4 2025 were classified as jumbo loans according to CoreLogic data—one of the highest ratios in the nation.
+                    Because Orange County is classified as a &quot;high-cost area,&quot; these limits are significantly above the national baseline of $802,650. However, with the median home price in coastal OC exceeding $1.6M and the overall Orange County median reaching $1.15M in early 2026, the majority of property transactions in premium neighborhoods require jumbo financing. Approximately 42% of all Orange County purchase mortgages in Q4 2025 and Q1 2026 were classified as jumbo loans according to CoreLogic data &mdash; one of the highest ratios in the nation and up from 38% in 2024.
                 </p>
 
                 <h2>Why Choose a Wholesale Jumbo Loan Over a Retail Bank in Orange County?</h2>
@@ -280,45 +337,69 @@ export default function JumboLoansOrangeCountyPage() {
                             <tbody className="divide-y divide-gray-200">
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Newport Coast</td>
-                                    <td className="py-3 px-4">$4.2M</td>
-                                    <td className="py-3 px-4">$3.78M</td>
-                                    <td className="py-3 px-4">$420,000</td>
-                                </tr>
-                                <tr>
-                                    <td className="py-3 px-4 font-semibold">Laguna Beach</td>
-                                    <td className="py-3 px-4">$3.1M</td>
-                                    <td className="py-3 px-4">$2.79M</td>
-                                    <td className="py-3 px-4">$310,000</td>
+                                    <td className="py-3 px-4">$5.4M</td>
+                                    <td className="py-3 px-4">$4.86M</td>
+                                    <td className="py-3 px-4">$540,000</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Corona del Mar</td>
-                                    <td className="py-3 px-4">$3.8M</td>
-                                    <td className="py-3 px-4">$3.42M</td>
-                                    <td className="py-3 px-4">$380,000</td>
+                                    <td className="py-3 px-4">$4.0M</td>
+                                    <td className="py-3 px-4">$3.60M</td>
+                                    <td className="py-3 px-4">$400,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Laguna Beach</td>
+                                    <td className="py-3 px-4">$3.3M</td>
+                                    <td className="py-3 px-4">$2.97M</td>
+                                    <td className="py-3 px-4">$330,000</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Irvine (Shady Canyon)</td>
-                                    <td className="py-3 px-4">$3.5M</td>
-                                    <td className="py-3 px-4">$3.15M</td>
-                                    <td className="py-3 px-4">$350,000</td>
+                                    <td className="py-3 px-4">$3.7M</td>
+                                    <td className="py-3 px-4">$3.33M</td>
+                                    <td className="py-3 px-4">$370,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Newport Beach (Balboa)</td>
+                                    <td className="py-3 px-4">$2.8M</td>
+                                    <td className="py-3 px-4">$2.52M</td>
+                                    <td className="py-3 px-4">$280,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Huntington Beach (Seacliff)</td>
+                                    <td className="py-3 px-4">$2.2M</td>
+                                    <td className="py-3 px-4">$1.98M</td>
+                                    <td className="py-3 px-4">$220,000</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Dana Point</td>
+                                    <td className="py-3 px-4">$2.0M</td>
+                                    <td className="py-3 px-4">$1.80M</td>
+                                    <td className="py-3 px-4">$200,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Yorba Linda (Estates)</td>
                                     <td className="py-3 px-4">$1.9M</td>
                                     <td className="py-3 px-4">$1.71M</td>
                                     <td className="py-3 px-4">$190,000</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">San Clemente</td>
-                                    <td className="py-3 px-4">$1.6M</td>
-                                    <td className="py-3 px-4">$1.44M</td>
-                                    <td className="py-3 px-4">$160,000</td>
+                                    <td className="py-3 px-4">$1.7M</td>
+                                    <td className="py-3 px-4">$1.53M</td>
+                                    <td className="py-3 px-4">$170,000</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-3 px-4 font-semibold">Yorba Linda (Estates)</td>
-                                    <td className="py-3 px-4">$1.8M</td>
-                                    <td className="py-3 px-4">$1.62M</td>
-                                    <td className="py-3 px-4">$180,000</td>
+                                    <td className="py-3 px-4 font-semibold">Mission Viejo</td>
+                                    <td className="py-3 px-4">$1.35M</td>
+                                    <td className="py-3 px-4">$1.22M</td>
+                                    <td className="py-3 px-4">$135,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">Irvine (Avg)</td>
+                                    <td className="py-3 px-4">$1.45M</td>
+                                    <td className="py-3 px-4">$1.31M</td>
+                                    <td className="py-3 px-4">$145,000</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -451,13 +532,187 @@ export default function JumboLoansOrangeCountyPage() {
                     Yes. Jumbo refinancing is available for rate-and-term refinances (to lower your rate or change loan terms) and <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">cash-out refinances</Link> (to access home equity). With Orange County home values appreciating 4-6% annually, many homeowners have significant equity available. Wholesale jumbo refinance rates are typically 0.25-0.5% below retail bank offerings.
                 </p>
 
+                {/* Jumbo Rate Comparison Table */}
+                <h2>Orange County Jumbo Loan Rate Comparison: February 2026</h2>
+                <p>
+                    Jumbo loan rates in February 2026 vary significantly by channel (wholesale vs. retail), loan amount tier, and borrower qualification. The following rate comparison is based on actual wholesale pricing for a primary residence purchase with standard documentation and 740+ credit score:
+                </p>
+
+                <div className="bg-indigo-50 p-8 rounded-2xl border border-indigo-100 my-10">
+                    <h3 className="text-2xl font-bold text-indigo-900 mb-6 mt-0 text-center">
+                        Jumbo Rate Matrix: Wholesale vs. Retail (February 2026)
+                    </h3>
+                    <div className="overflow-x-auto">
+                        <table className="min-w-full text-sm">
+                            <thead>
+                                <tr className="border-b border-indigo-200">
+                                    <th className="py-3 px-4 text-left font-bold text-indigo-900">Loan Amount</th>
+                                    <th className="py-3 px-4 text-left font-bold text-indigo-900">Retail Bank Rate</th>
+                                    <th className="py-3 px-4 text-left font-bold text-indigo-900">Wholesale Rate</th>
+                                    <th className="py-3 px-4 text-left font-bold text-indigo-900">Monthly Savings</th>
+                                    <th className="py-3 px-4 text-left font-bold text-indigo-900">Annual Savings</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-indigo-100">
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">$1.15M-$1.5M</td>
+                                    <td className="py-3 px-4">6.375%</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">5.875-6.125%</td>
+                                    <td className="py-3 px-4 text-green-700">$225-$375</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">$2,700-$4,500</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">$1.5M-$2.5M</td>
+                                    <td className="py-3 px-4">6.50%</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">6.00-6.25%</td>
+                                    <td className="py-3 px-4 text-green-700">$500-$830</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">$6,000-$10,000</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">$2.5M-$5M</td>
+                                    <td className="py-3 px-4">6.75%</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">6.125-6.375%</td>
+                                    <td className="py-3 px-4 text-green-700">$1,040-$1,560</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">$12,500-$18,750</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 px-4 font-semibold">$5M+</td>
+                                    <td className="py-3 px-4">7.00%+</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">6.25-6.625%</td>
+                                    <td className="py-3 px-4 text-green-700">$2,600+</td>
+                                    <td className="py-3 px-4 text-green-700 font-bold">$31,000+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p className="text-xs text-indigo-600 mt-3 mb-0">Rates shown for full-doc jumbo, primary residence, 20% down, 740+ FICO, February 2026. Non-QM jumbo (bank statement, DSCR, asset-depletion) carry 0.50-1.50% premium. Actual rates vary by scenario.</p>
+                </div>
+
+                {/* People Also Ask Section */}
+                <h2>People Also Ask About Jumbo Loans in Orange County</h2>
+
+                <div className="space-y-4 my-8">
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">What is the conforming loan limit for Orange County in 2026?</h3>
+                        <p className="text-gray-600 mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence, set by the Federal Housing Finance Agency (FHFA).</strong> Any mortgage above this threshold is classified as a jumbo loan. Multi-unit limits are $1,472,250 for duplexes, $1,779,525 for triplexes, and $2,211,600 for fourplexes. Orange County is designated a high-cost area, with limits above the national baseline of $802,650.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">Are jumbo loan rates higher in 2026?</h3>
+                        <p className="text-gray-600 mb-0"><strong>In February 2026, wholesale jumbo rates are competitive with &mdash; and sometimes lower than &mdash; conforming high-balance rates in Orange County.</strong> Institutional investors actively seek high-quality OC collateral, creating pricing competition that benefits borrowers. Through wholesale channels, jumbo rates start at 5.875% for well-qualified borrowers with 20%+ down, compared to 6.375% or higher at retail banks.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">How much do I need to earn to qualify for a jumbo loan in Orange County?</h3>
+                        <p className="text-gray-600 mb-0"><strong>For a $1.5M jumbo loan in Orange County with 20% down and a 6% rate, you need approximately $240,000-$280,000 in annual income to meet the 43-45% DTI requirement.</strong> For a $3M jumbo loan, plan on $480,000-$550,000 in household income. Self-employed borrowers can use <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">bank statement programs</Link> that calculate income from deposits rather than tax returns.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">Can I get a jumbo loan with 10% down in Orange County?</h3>
+                        <p className="text-gray-600 mb-0"><strong>Yes, wholesale jumbo programs offer 10% down payment options for primary residences in Orange County on loans up to $3 million.</strong> On a $2M home, that means $200,000 down rather than the $400,000-$500,000 required by most retail banks. The 10% down option carries slightly higher rates (approximately 0.25% premium) but preserves cash for reserves, renovations, or investments.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">What is the difference between jumbo and super-jumbo loans?</h3>
+                        <p className="text-gray-600 mb-0"><strong>While any loan above $1,149,825 in Orange County is classified as jumbo, &quot;super-jumbo&quot; generally refers to loans above $3 million that require institutional private desk underwriting.</strong> Super-jumbo loans involve more thorough financial review, typically require 20-25% down minimum, and often need two independent appraisals. Our wholesale partners include multiple institutional desks that specialize in super-jumbo transactions up to $20M+.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">Do jumbo loans require PMI in Orange County?</h3>
+                        <p className="text-gray-600 mb-0"><strong>Jumbo loans do not require traditional PMI (Private Mortgage Insurance), even with less than 20% down.</strong> Instead, lenders price the risk into the interest rate through a rate adjustment of 0.125-0.375% for lower down payments. This means no separate monthly PMI premium, no PMI escrow at closing, and no need to request PMI removal later. The total cost structure is often more favorable than conforming loans with PMI.</p>
+                    </div>
+
+                    <div className="border border-gray-200 rounded-lg p-5">
+                        <h3 className="font-semibold text-gray-900 mb-2 mt-0">How long does it take to close a jumbo loan in Orange County?</h3>
+                        <p className="text-gray-600 mb-0"><strong>Wholesale jumbo loans close in 30-45 days on average, compared to 45-60 days for retail bank jumbo loans.</strong> The wholesale channel is faster because institutional jumbo underwriters prioritize high-value transactions, and broker-submitted files are pre-screened before submission. Properties above $2M requiring two appraisals may add 5-7 days to the timeline.</p>
+                    </div>
+                </div>
+
+                {/* Expanded Formal FAQ Section */}
+                <h2>Frequently Asked Questions: Orange County Jumbo Loans 2026</h2>
+
+                <div className="space-y-6 my-8">
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">What is the jumbo loan limit for Orange County in 2026?</h3>
+                        <p className="text-gray-700 mb-0">The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting. This limit is set annually by the Federal Housing Finance Agency (FHFA) based on median home price changes.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Do jumbo loans have higher interest rates than conforming loans in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Not necessarily. In February 2026, wholesale jumbo rates are often competitive with conforming high-balance rates because institutional investors actively seek high-quality Orange County collateral. Through wholesale channels, jumbo rates frequently come within 0.125-0.25% of conforming rates, and sometimes at parity for well-qualified borrowers.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Can I get a jumbo loan for an investment property in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Yes. Wholesale jumbo products are available for non-owner occupied properties in Orange County. Investment property jumbos typically require 20-25% down but offer excellent long-term leverage for luxury rental properties. <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">DSCR jumbo loans</Link> qualify based on rental income rather than personal income, making them ideal for portfolio investors.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">What documentation is required for an OC jumbo loan?</h3>
+                        <p className="text-gray-700 mb-0">Standard jumbo loans require two years of tax returns, W-2s, and recent bank statements showing necessary reserves (6-12 months of payments). Self-employed buyers can use Bank Statement Jumbo programs that qualify based on 12-24 months of business or personal deposits instead of tax returns. Asset-depletion programs use liquid asset statements only.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">How much down payment do I need for a jumbo loan in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Through wholesale channels, jumbo loans are available with as little as 10% down for primary residences up to $3 million. That means on a $2M home, your minimum down payment could be $200,000 rather than the $400,000-$500,000 that retail banks typically require. Investment properties require 20-25% down. Higher down payments (25%+) unlock the best rates.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">What is the minimum credit score for an Orange County jumbo loan?</h3>
+                        <p className="text-gray-700 mb-0">Wholesale jumbo lenders offer options starting at 680 FICO for primary residences. Scores of 720+ unlock significantly better pricing &mdash; often 0.25-0.50% lower rates. Retail banks typically require 720+ minimum, which is one reason the wholesale channel is superior for borrowers with good but not top-tier credit.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Can I refinance an existing jumbo loan in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Yes. Jumbo refinancing is available for rate-and-term refinances (to lower your rate or change terms) and cash-out refinances (to access equity). With Orange County home values appreciating 5-8% annually in premium neighborhoods, many homeowners have significant equity available. Wholesale jumbo refinance rates are typically 0.25-0.50% below retail bank offerings.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Can self-employed borrowers qualify for jumbo loans in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Yes. <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank statement jumbo programs</Link> allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many luxury home buyers are business owners whose tax returns understate their true income due to legitimate business deductions.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">What reserve requirements apply to jumbo loans in OC?</h3>
+                        <p className="text-gray-700 mb-0">Reserve requirements scale with loan amount. Loans of $1.15M-$2M typically require 6-12 months of PITIA (principal, interest, taxes, insurance, and assessments) in liquid reserves. Loans of $2M-$5M require 12-18 months, and loans above $5M require 18-24 months. Reserves can include savings, investments, and retirement accounts (retirement counted at 50-70%).</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Are interest-only jumbo loans available in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Yes. Interest-only jumbo loans are available through wholesale channels with 5-year and 10-year IO periods. These programs are popular among Orange County buyers seeking to maximize monthly cash flow during the initial years. IO jumbo loans typically require 20-30% down and are available on loan amounts up to $3 million or more. After the IO period, the loan converts to a fully amortizing payment.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">Can I buy a condo with a jumbo loan in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Yes. Warrantable condos in Orange County qualify for jumbo financing at standard terms. Non-warrantable condos (investor concentration above 50%, pending litigation, or mixed-use buildings) require specialized Non-QM jumbo programs with slightly higher down payments (15-25%). Luxury condo communities in Newport Beach, Laguna Beach, and Irvine are well-served by wholesale jumbo products.</p>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-5">
+                        <h3 className="font-bold text-gray-900 mb-2 mt-0">What is the maximum DTI ratio for a jumbo loan in Orange County?</h3>
+                        <p className="text-gray-700 mb-0">Wholesale jumbo programs allow DTI ratios up to 45-50%, compared to the 43% cap at most retail banks. This higher threshold helps Orange County buyers qualify for larger loan amounts, especially those with high HOA fees, property taxes, and Mello-Roos assessments that inflate their monthly housing costs relative to income.</p>
+                    </div>
+                </div>
+
                 <h2>Master the Orange County Luxury Market with Expert Jumbo Loan Guidance</h2>
                 <p>
-                    Financing a million-dollar-plus property requires more than just a pre-approval—it requires a strategic partnership with a broker who understands Orange County&apos;s luxury market dynamics. Whether you are purchasing in Newport Coast, refinancing in Laguna Beach, or investing in Irvine, the wholesale jumbo channel delivers institutional pricing that retail banks cannot match.
+                    Financing a million-dollar-plus property requires more than just a pre-approval &mdash; it requires a strategic partnership with a broker who understands Orange County&apos;s luxury market dynamics. Whether you are purchasing in Newport Coast, refinancing in Laguna Beach, investing in Irvine, or upgrading in Huntington Beach, the wholesale jumbo channel delivers institutional pricing that retail banks cannot match.
                 </p>
                 <p>
-                    Contact Mo Abdel today to discuss your specific financial profile and discover how wholesale jumbo financing can save you thousands on your next Orange County luxury home purchase.
+                    With access to 200+ wholesale lenders, including 30+ institutional jumbo desks, we identify the optimal program for your specific financial profile. In February 2026, the rate spread between wholesale and retail jumbo loans averages 0.25-0.625% &mdash; on a $2 million loan, that translates to $5,000-$12,500 in annual interest savings. Over the life of a 30-year mortgage, the wholesale advantage compounds to $150,000-$375,000 in total savings.
                 </p>
+
+                <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-8 text-center">
+                    <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-3">Ready for Your Orange County Jumbo Loan?</h3>
+                    <p className="text-gray-700 mb-4">
+                        Get a personalized jumbo rate quote and program recommendation based on your financial profile. We compare 200+ wholesale lenders to find the optimal solution for your Orange County purchase, refinance, or investment.
+                    </p>
+                    <p className="text-lg font-bold text-blue-800 mb-2">
+                        Call <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> or <Link href="/contact" className="text-blue-600 hover:underline">Request a Consultation</Link>
+                    </p>
+                    <p className="text-sm text-gray-500 mb-0">
+                        Mo Abdel | NMLS #1426884 | Lumin Lending, NMLS #2716106
+                    </p>
+                </div>
 
                 {/* Internal Links */}
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 my-8">

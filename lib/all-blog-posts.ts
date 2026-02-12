@@ -11,6 +11,79 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
+  {
+    slug: 'reverse-mortgage-premium-east-bay-sf-2026',
+    title: 'Reverse Mortgage in San Francisco, Piedmont & Premium East Bay [2026]',
+    excerpt: 'HECM reverse mortgage guide for San Francisco, Piedmont, Orinda, Lafayette & Moraga seniors 62+. Urban luxury condos to hilltop estates, $1.5M-$2.5M home equity access. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-affluent-suburban-east-bay-2026',
+    title: 'Reverse Mortgage in Danville, Walnut Creek & Affluent Suburban East Bay [2026]',
+    excerpt: 'HECM reverse mortgage for Danville, Walnut Creek, Pleasanton, Dublin & Fremont seniors 62+. BART corridor estates, Rossmoor retirement, Blackhawk luxury. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-la-westside-luxury-2026',
+    title: 'Reverse Mortgage in Culver City, Marina del Rey & LA Westside [2026]',
+    excerpt: 'HECM reverse mortgage for Culver City, Playa del Rey, Marina del Rey & Westchester seniors 62+. Entertainment industry retirees, waterfront equity access. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-pasadena-corridor-2026',
+    title: 'Reverse Mortgage in Pasadena, Glendale & SGV Corridor [2026]',
+    excerpt: 'HECM reverse mortgage for Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta seniors 62+. Historic homes, healthcare corridor retirees. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-coastal-sd-inland-premium-2026',
+    title: 'Reverse Mortgage in La Jolla, Coronado & Coastal SD [2026]',
+    excerpt: 'HECM reverse mortgage for La Jolla, Coronado, Carlsbad & Poway seniors 62+. Military-to-luxury transition, biotech corridor, island lifestyle equity. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-central-coast-communities-2026',
+    title: 'Reverse Mortgage in SLO, Pismo Beach & Central Coast Communities [2026]',
+    excerpt: 'HECM reverse mortgage for San Luis Obispo, Pismo Beach, Paso Robles & Cambria seniors 62+. Wine country estates, coastal retirement equity. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-ventura-affluent-2026',
+    title: 'Reverse Mortgage in Westlake Village, Thousand Oaks & Ventura Affluent [2026]',
+    excerpt: 'HECM reverse mortgage for Westlake Village, Thousand Oaks, Oak Park, Camarillo & Moorpark seniors 62+. Biotech corridor, LA commuter equity. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-la-westside-luxury-2026',
+    title: 'Wholesale Mortgage Broker in Culver City, Marina del Rey & LA Westside [2026]',
+    excerpt: 'Wholesale mortgage broker serving Culver City, Playa del Rey, Marina del Rey & Westchester. 200+ lenders, entertainment income, condo financing, DSCR investor loans. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-broker-pasadena-corridor-2026',
+    title: 'Wholesale Mortgage Broker in Pasadena, Glendale & SGV Corridor [2026]',
+    excerpt: 'Wholesale mortgage broker serving Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta. 200+ lenders, JPL/Caltech income, bank statement loans, historic home financing. NMLS #1426884.',
+    date: '2026-02-12',
+    category: 'City Guides',
+    readTime: '14 min read',
+  },
   // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
   {
     slug: 'home-equity-la-westside-luxury-2026',
