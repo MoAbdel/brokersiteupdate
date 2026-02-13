@@ -24,8 +24,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'Mortgage Resources & Tools | Orange County Home Buyer Guides',
-  description: 'Complete mortgage resources for Orange County home buyers. Down payment assistance, calculators, market data, guides, and tools to help you buy or refinance.',
+  title: 'Mortgage Resources & Tools | Calculators, Checklists, and Guides',
+  description:
+    'Access mortgage calculators, document checklists, down payment resources, and practical guides built for Orange County buyers, homeowners, and investors.',
   path: '/resources',
   type: 'website'
 });

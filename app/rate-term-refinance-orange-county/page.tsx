@@ -111,9 +111,74 @@ const cities = [
   'Irvine', 'Newport Beach', 'Mission Viejo', 'Anaheim', 'Costa Mesa', 'Huntington Beach', 'Santa Ana'
 ];
 
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Rate and Term Refinance in Orange County',
+  provider: {
+    '@type': 'FinancialService',
+    name: 'Mo Abdel - Mortgage Broker',
+    url: 'https://www.mothebroker.com'
+  },
+  areaServed: {
+    '@type': 'AdministrativeArea',
+    name: 'Orange County, CA'
+  },
+  serviceType: 'Mortgage Rate and Term Refinance',
+  url: 'https://www.mothebroker.com/rate-term-refinance-orange-county'
+};
+
+const faqItems = [
+  {
+    question: 'How much can I save by refinancing in Orange County?',
+    answer: 'Savings depend on the pricing difference, loan amount, and remaining term. A 1% rate reduction on a $500,000 loan could save $400+ monthly and $100,000+ over the loan term.'
+  },
+  {
+    question: 'What are the closing costs for a refinance?',
+    answer: 'Refinance closing costs typically range from 2-5% of the loan amount. However, the monthly savings often offset closing costs within 12-24 months.'
+  },
+  {
+    question: 'Can I refinance if I have PMI on my current loan?',
+    answer: 'Yes! If your home has appreciated to give you 20% equity, refinancing can eliminate PMI entirely, providing significant monthly savings.'
+  },
+  {
+    question: 'How long does the refinance process take?',
+    answer: 'Most refinances close within 2-3 weeks from start to finish. Our lender network and streamlined process allows for faster closings than traditional lenders.'
+  },
+  {
+    question: 'Should I refinance from a 30-year to a 15-year loan?',
+    answer: 'A 15-year loan builds equity faster and saves interest long-term, but has higher monthly payments. We\'ll help you determine what works best for your budget and goals.'
+  },
+  {
+    question: 'What happens to my current mortgage when I refinance?',
+    answer: 'Your new loan pays off the existing mortgage completely. You\'ll have just one mortgage payment to the new lender with your improved terms.'
+  }
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
+    }
+  }))
+};
+
 export default function RateTermRefinanceOrangeCounty() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
@@ -347,32 +412,7 @@ export default function RateTermRefinanceOrangeCounty() {
           </div>
 
           <div className="space-y-8">
-            {[
-              {
-                question: 'How much can I save by refinancing in Orange County?',
-                answer: 'Savings depend on the pricing difference, loan amount, and remaining term. A 1% rate reduction on a $500,000 loan could save $400+ monthly and $100,000+ over the loan term.'
-              },
-              {
-                question: 'What are the closing costs for a refinance?',
-                answer: 'Refinance closing costs typically range from 2-5% of the loan amount. However, the monthly savings often offset closing costs within 12-24 months.'
-              },
-              {
-                question: 'Can I refinance if I have PMI on my current loan?',
-                answer: 'Yes! If your home has appreciated to give you 20% equity, refinancing can eliminate PMI entirely, providing significant monthly savings.'
-              },
-              {
-                question: 'How long does the refinance process take?',
-                answer: 'Most refinances close within 2-3 weeks from start to finish. Our lender network and streamlined process allows for faster closings than traditional lenders.'
-              },
-              {
-                question: 'Should I refinance from a 30-year to a 15-year loan?',
-                answer: 'A 15-year loan builds equity faster and saves interest long-term, but has higher monthly payments. We\'ll help you determine what works best for your budget and goals.'
-              },
-              {
-                question: 'What happens to my current mortgage when I refinance?',
-                answer: 'Your new loan pays off the existing mortgage completely. You\'ll have just one mortgage payment to the new lender with your improved terms.'
-              }
-            ].map((faq, index) => (
+            {faqItems.map((faq, index) => (
               <Card key={index} className="shadow-lg border-0">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold text-slate-900 mb-3">{faq.question}</h3>

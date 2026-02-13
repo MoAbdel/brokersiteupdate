@@ -11,7 +11,6 @@ import GEOTracking from '@/components/GEOTracking';
 import ChatbotHardReset from '@/components/ChatbotHardReset';
 import MobileStickyCallButton from '@/components/MobileStickyCallButton';
 import ExitIntentModal from '@/components/ExitIntentModal';
-import Script from 'next/script';
 import { structuredData, mortgageLoanSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
@@ -143,10 +142,9 @@ export default function RootLayout({
         <Analytics />
 
         {/* Combined structured data - single script for better performance */}
-        <Script
+        <script
           id="combined-structured-data"
           type="application/ld+json"
-          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify([structuredData, mortgageLoanSchema])
           }}

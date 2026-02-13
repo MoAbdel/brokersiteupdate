@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dana Point Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Dana Point Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
@@ -17,7 +17,7 @@ export default function DanaPointMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Dana Point Mortgage Guide 2025: Harbor & Coastal Home Financing",
+                        "headline": "Dana Point Mortgage Guide 2026: Harbor & Coastal Home Financing",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,8 +31,8 @@ export default function DanaPointMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-03",
-                        "dateModified": "2025-01-03",
+                        "datePublished": "2026-01-03",
+                        "dateModified": "2026-01-03",
                         "description": "Explore the 2025 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
                     })
                 }}
@@ -40,7 +40,7 @@ export default function DanaPointMortgageGuidePage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Dana Point Mortgage Guide 2025: Harbor & Coastal Home Financing
+                    Dana Point Mortgage Guide 2026: Harbor & Coastal Home Financing
                 </h1>
                 <p className="text-lg text-gray-600">
                     Expert mortgage solutions for Dana Point's diverse coastal communities and harbor properties

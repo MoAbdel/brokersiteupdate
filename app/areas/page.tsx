@@ -6,8 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, TrendingUp, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Service Areas | Local Mortgage Broker by City | Lumin Lending',
-  description: 'Mo Abdel serves all Orange County cities as your local mortgage broker. Find lending programs, pricing and market insights for your specific OC area.',
+  title: 'Orange County Mortgage Areas | City-by-City Loan Guides',
+  description:
+    'Explore city-by-city mortgage guidance across Orange County. Compare local market context, loan program fit, and neighborhood-specific financing insights.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas',
   },

@@ -1,15 +1,15 @@
 export const seoData = {
   Home: {
-    title: "Orange County Mortgage Broker | Mo Abdel NMLS #1426884",
-    description: "Licensed mortgage broker serving Orange County homeowners. Access over 200 wholesale lenders for competitive pricing, fast closings, and personalized refinance solutions. NMLS #1426884."
+    title: "Orange County Mortgage Broker | 200+ Lender Options | Mo Abdel",
+    description: "Licensed mortgage broker serving Orange County with access to 200+ wholesale lenders for lower rates, faster closings, and tailored purchase or refinance solutions. NMLS #1426884."
   },
   About: {
-    title: "About Mo Abdel | Lumin Lending Broker",
-    description: "Meet Mo Abdel – licensed mortgage broker helping homeowners in CA & WA get better pricing, faster approvals, and more flexible refinance options. Specializing in Orange County home equity and refinancing."
+    title: "About Mo Abdel | Orange County Mortgage Broker",
+    description: "Meet Mo Abdel, a licensed mortgage broker helping buyers and homeowners compare lender options, secure better terms, and close faster in Orange County and beyond."
   },
   Programs: {
-    title: "Loan Programs | Equity & Refinance | Orange County",
-    description: "Explore HELOC, HELOAN, and Cash-Out Refinance options. Mo Abdel finds the right equity or refinance solution for your goals with competitive pricing and flexible terms."
+    title: "Mortgage Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM",
+    description: "Compare major mortgage and refinance options, including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs, with guidance tailored to your goals."
   },
   Calculator: {
     title: "Mortgage Calculator | Orange County Rates & Payments",

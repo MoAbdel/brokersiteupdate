@@ -185,8 +185,7 @@ module.exports = {
       }
     ],
     additionalSitemaps: [
-      'https://www.mothebroker.com/sitemap-images.xml',
-      'https://www.mothebroker.com/sitemap-news.xml'
+      'https://www.mothebroker.com/sitemap-images.xml'
     ]
   },
   transform: async (config, path) => {

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Newport Beach Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Newport Beach Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026',
@@ -17,7 +17,7 @@ export default function NewportBeachMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders",
+                        "headline": "Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function NewportBeachMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-05",
-                        "dateModified": "2025-01-05",
-                        "description": "Secure the best mortgage rates in Newport Beach with our 2025 guide. Learn about jumbo loans, wholesale pricing, and why working with a local broker is superior to retail banks."
+                        "datePublished": "2026-01-05",
+                        "dateModified": "2026-01-05",
+                        "description": "Secure the best mortgage rates in Newport Beach with our 2026 guide. Learn about jumbo loans, wholesale pricing, and why working with a local broker is superior to retail banks."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Newport Beach Mortgage Guide 2025: Top Home Loan Options & Local Lenders
+                    Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders
                 </h1>
                 <p className="text-lg text-gray-600">
                     Expert insights on securing competitive financing for Newport Beach's luxury coastal properties

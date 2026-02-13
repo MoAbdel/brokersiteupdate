@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'VA Loans Orange County 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'VA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/va-loans-orange-county-2026',
@@ -17,7 +17,7 @@ export default function VALoansOrangeCountyPage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "VA Loans in Orange County 2025: Complete Guide for Veterans",
+                        "headline": "VA Loans in Orange County 2026: Complete Guide for Veterans",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function VALoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-07",
-                        "dateModified": "2025-01-07",
-                        "description": "2025 guide to VA loans in Orange County. Discover how veterans can secure zero-down financing and wholesale pricing for SoCal homes."
+                        "datePublished": "2026-01-07",
+                        "dateModified": "2026-01-07",
+                        "description": "2026 guide to VA loans in Orange County. Discover how veterans can secure zero-down financing and wholesale pricing for SoCal homes."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    VA Loans in Orange County 2025: Complete Guide for Veterans
+                    VA Loans in Orange County 2026: Complete Guide for Veterans
                 </h1>
                 <p className="text-lg text-gray-600">
                     Empowering those who served with the most powerful home financing tool in the Orange County market.

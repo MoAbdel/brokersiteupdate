@@ -3,7 +3,7 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Corona Del Mar Refinance Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Corona Del Mar Refinance Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026',
@@ -14,7 +14,7 @@ export default function CoronaDelMarRefinance2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Corona del Mar Refinance & Cash-Out Guide 2025: Tapping Coastal Equity",
+        "headline": "Corona del Mar Refinance & Cash-Out Guide 2026: Tapping Coastal Equity",
         "description": "Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for luxury coastal estates.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function CoronaDelMarRefinance2025() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2025-01-15",
-        "dateModified": "2025-01-15",
+        "datePublished": "2026-01-15",
+        "dateModified": "2026-01-15",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2025"
+            "@id": "https://www.mothebroker.com/blog/corona-del-mar-refinance-guide-2026"
         }
     };
 
@@ -77,12 +77,12 @@ export default function CoronaDelMarRefinance2025() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Corona del Mar Refinance & Cash-Out Guide 2025: Strategically Tapping Coastal Equity
+                    Corona del Mar Refinance & Cash-Out Guide 2026: Strategically Tapping Coastal Equity
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 15, 2025</span>
+                    <span>January 15, 2026</span>
                     <span>•</span>
                     <span>12 min read</span>
                 </div>

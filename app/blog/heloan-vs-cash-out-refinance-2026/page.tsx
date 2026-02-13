@@ -3,7 +3,7 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Heloan Vs Cash Out Refinance 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Heloan Vs Cash Out Refinance 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
@@ -14,7 +14,7 @@ export default function HELOANvsCashOut2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "HELOAN vs. Cash-Out Refinance 2025: Choosing Your Equity Strategy",
+        "headline": "HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy",
         "description": "Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2025. Expert advice on how to tap into your Southern California equity.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function HELOANvsCashOut2025() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2025-01-11",
-        "dateModified": "2025-01-11",
+        "datePublished": "2026-01-11",
+        "dateModified": "2026-01-11",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2025"
+            "@id": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026"
         }
     };
 
@@ -77,12 +77,12 @@ export default function HELOANvsCashOut2025() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    HELOAN vs. Cash-Out Refinance: Making the Right Move for Your SoCal Equity in 2025
+                    HELOAN vs. Cash-Out Refinance: Making the Right Move for Your SoCal Equity in 2026
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 11, 2025</span>
+                    <span>January 11, 2026</span>
                     <span>•</span>
                     <span>12 min read</span>
                 </div>

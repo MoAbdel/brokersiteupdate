@@ -6,8 +6,9 @@ import { Clock } from 'lucide-react';
 import { allBlogPosts, categoryColors, getAllCategories } from '@/lib/all-blog-posts';
 
 export const metadata: Metadata = {
-  title: 'Mortgage Blog | Home Buying Tips & Loan Advice - Orange County',
-  description: 'Expert mortgage blog and home buying tips from Mo Abdel. Learn about loan programs, market insights, and get professional advice for Orange County homebuyers.',
+  title: 'Mortgage Guides & Market Insights | Orange County and Beyond',
+  description:
+    'Browse expert mortgage guides, refinance strategies, and local market insights from Mo Abdel. Practical, up-to-date advice for buyers, homeowners, and investors.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides',
   },
@@ -70,8 +71,8 @@ export default function GuidesPage() {
             <Link className="text-blue-700 hover:underline" href="/guides/spring-2026-home-buying-guide">
               Spring 2026 Home Buying Guide
             </Link>
-            <Link className="text-blue-700 hover:underline" href="/guides/summer-2025-market-guide">
-              Summer 2025 Market Guide
+            <Link className="text-blue-700 hover:underline" href="/guides/spring-2026-home-buying-guide">
+              Spring 2026 Market Guide
             </Link>
             <Link className="text-blue-700 hover:underline" href="/guides/why-choose-local-mortgage-broker">
               Why Choose a Local Mortgage Broker

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FHA Loans Orange County 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'FHA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
@@ -17,7 +17,7 @@ export default function FHALoansOrangeCountyPage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "FHA Loans in Orange County 2025: Complete Guide & Requirements",
+                        "headline": "FHA Loans in Orange County 2026: Complete Guide & Requirements",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function FHALoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-02",
-                        "dateModified": "2025-01-02",
-                        "description": "Master FHA loan requirements for Orange County in 2025. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
+                        "datePublished": "2026-01-02",
+                        "dateModified": "2026-01-02",
+                        "description": "Master FHA loan requirements for Orange County in 2026. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    FHA Loans in Orange County 2025: Complete Guide & Requirements
+                    FHA Loans in Orange County 2026: Complete Guide & Requirements
                 </h1>
                 <p className="text-lg text-gray-600">
                     Everything you need to know about FHA financing in Orange County's competitive housing market

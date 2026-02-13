@@ -6,8 +6,9 @@ import { Button } from '@/components/ui/Button';
 import { Phone, Mail, MapPin, Heart, Home, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About | Mo Abdel - Orange County Mortgage Broker',
-  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  title: 'About Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
+  description:
+    'Meet Mo Abdel, a licensed mortgage broker helping Orange County buyers and homeowners secure better mortgage options through a wholesale lender network.',
   alternates: {
     canonical: 'https://www.mothebroker.com/about',
   },

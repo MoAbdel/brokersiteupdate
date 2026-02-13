@@ -3,7 +3,7 @@ import Link from 'next/link';
 // Removed SchemaMarkup import as we are using direct script tags for JSON-LD
 
 export const metadata: Metadata = {
-  title: 'Strategic Refinancing Home Equity 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Strategic Refinancing Home Equity 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
@@ -14,7 +14,7 @@ export default function StrategicRefinancing2025() {
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Strategic Refinancing & Home Equity 2025: Rate vs. Utility Analysis",
+        "headline": "Strategic Refinancing & Home Equity 2026: Rate vs. Utility Analysis",
         "description": "Expert analysis on refinancing strategies in 2025. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.",
         "author": {
             "@type": "Person",
@@ -30,11 +30,11 @@ export default function StrategicRefinancing2025() {
                 "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
             }
         },
-        "datePublished": "2025-01-12",
-        "dateModified": "2025-01-12",
+        "datePublished": "2026-01-12",
+        "dateModified": "2026-01-12",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2025"
+            "@id": "https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026"
         }
     };
 
@@ -77,12 +77,12 @@ export default function StrategicRefinancing2025() {
                     ← Back to Blog
                 </Link>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                    Strategic Refinancing & Home Equity 2025: Mastering the "Rate vs. Utility" Balance
+                    Strategic Refinancing & Home Equity 2026: Mastering the "Rate vs. Utility" Balance
                 </h1>
                 <div className="flex items-center text-gray-600 space-x-4 mb-8">
                     <span>By Mo Abdel</span>
                     <span>•</span>
-                    <span>January 12, 2025</span>
+                    <span>January 12, 2026</span>
                     <span>•</span>
                     <span>13 min read</span>
                 </div>

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'San Clemente Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'San Clemente Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
@@ -17,7 +17,7 @@ export default function SanClementeMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "San Clemente Mortgage Guide 2025: Coastal Living & VA Loan Expertise",
+                        "headline": "San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,8 +31,8 @@ export default function SanClementeMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-10",
-                        "dateModified": "2025-01-10",
+                        "datePublished": "2026-01-10",
+                        "dateModified": "2026-01-10",
                         "description": "Navigate the 2025 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal luxury homes."
                     })
                 }}
@@ -40,7 +40,7 @@ export default function SanClementeMortgageGuidePage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    San Clemente Mortgage Guide 2025: Coastal Living & VA Loan Expertise
+                    San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise
                 </h1>
                 <p className="text-lg text-gray-600">
                     Expert mortgage solutions for "Spanish Village by the Sea"—from VA loans to luxury coastal estates.

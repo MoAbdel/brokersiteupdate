@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Irvine Mortgage Guide 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Irvine Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
@@ -17,7 +17,7 @@ export default function IrvineMortgageGuidePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Irvine Mortgage Guide 2025: Financing in OC's Tech & Master-Planned Hub",
+                        "headline": "Irvine Mortgage Guide 2026: Financing in OC's Tech & Master-Planned Hub",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,8 +31,8 @@ export default function IrvineMortgageGuidePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-09",
-                        "dateModified": "2025-01-09",
+                        "datePublished": "2026-01-09",
+                        "dateModified": "2026-01-09",
                         "description": "2025 Irvine mortgage guide. Discover the wholesale advantage for OC's premier master-planned communities and specialized programs for high-income professionals."
                     })
                 }}
@@ -40,7 +40,7 @@ export default function IrvineMortgageGuidePage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Irvine Mortgage Guide 2025: Financing in OC's Tech & Master-Planned Hub
+                    Irvine Mortgage Guide 2026: Financing in OC's Tech & Master-Planned Hub
                 </h1>
                 <p className="text-lg text-gray-600">
                     Navigating the sophisticated mortgage landscape of Irvine's diverse villages and tech-driven economy.

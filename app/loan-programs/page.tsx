@@ -2,12 +2,12 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { seoData } from '@/lib/seo';
 import { Home, Shield, Users, TrendingUp, DollarSign, Zap, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: seoData.Programs.title,
-  description: seoData.Programs.description,
+  title: 'Mortgage Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM',
+  description:
+    'Compare mortgage and refinance options including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs. Find the right fit for your goals with expert guidance.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs',
   },

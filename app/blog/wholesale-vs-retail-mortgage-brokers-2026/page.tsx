@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Vs Retail Mortgage Brokers 2025 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Wholesale Vs Retail Mortgage Brokers 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
@@ -17,7 +17,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2025",
+                        "headline": "Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -31,16 +31,16 @@ export default function WholesaleVsRetailMortgagePage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-01",
-                        "dateModified": "2025-01-01",
-                        "description": "Understand the critical differences between wholesale and retail mortgage channels in 2025. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
+                        "datePublished": "2026-01-01",
+                        "dateModified": "2026-01-01",
+                        "description": "Understand the critical differences between wholesale and retail mortgage channels in 2026. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
                     })
                 }}
             />
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2025
+                    Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026
                 </h1>
                 <p className="text-lg text-gray-600">
                     Understanding the wholesale mortgage advantage and how it can save you money on your home loan

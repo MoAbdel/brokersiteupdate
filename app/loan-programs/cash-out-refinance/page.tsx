@@ -12,9 +12,30 @@ export const metadata: Metadata = {
   },
 };
 
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Cash-Out Refinance in Orange County',
+  provider: {
+    '@type': 'FinancialService',
+    name: 'Mo Abdel - Mortgage Broker',
+    url: 'https://www.mothebroker.com'
+  },
+  areaServed: {
+    '@type': 'AdministrativeArea',
+    name: 'Orange County, CA'
+  },
+  serviceType: 'Cash-Out Refinance',
+  url: 'https://www.mothebroker.com/loan-programs/cash-out-refinance'
+};
+
 export default function CashOutRefinancePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* Header */}
