@@ -11,6 +11,79 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
+  {
+    slug: 'reverse-mortgage-wine-country-2026',
+    title: 'Reverse Mortgage Wine Country: Healdsburg, St. Helena, Calistoga, Sonoma, Napa & Yountville [2026]',
+    excerpt: 'HECM reverse mortgage guide for Wine Country seniors 62+. Vineyard estates, winery properties, and hospitality income qualification across Napa & Sonoma. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-sacramento-affluent-2026',
+    title: 'Reverse Mortgage Sacramento Affluent: El Dorado Hills, Granite Bay, Folsom, Roseville & Davis [2026]',
+    excerpt: 'HECM reverse mortgage for Sacramento Gold Country seniors 62+. Bay Area transplant equity, Intel retirees, UC Davis faculty. $650K-$1.1M home equity access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-ie-affluent-2026',
+    title: 'Reverse Mortgage Inland Empire Affluent: Rancho Cucamonga, Chino Hills, Claremont, Redlands & Upland [2026]',
+    excerpt: 'HECM reverse mortgage for Inland Empire seniors 62+. LA commuter equity, college town wealth, Alta Loma estates. $700K-$1M home equity access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-ultra-luxury-eastside-wa-2026',
+    title: 'Reverse Mortgage Ultra-Luxury Eastside WA: Medina, Clyde Hill, Hunts Point, Yarrow Point & Mercer Island [2026]',
+    excerpt: 'HECM & proprietary reverse mortgage for ultra-luxury Seattle Eastside seniors 62+. Billionaire Row estates, waterfront properties, $2M-$5M+ home equity. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-premium-eastside-wa-2026',
+    title: 'Reverse Mortgage Premium Eastside WA: Kirkland, Sammamish, Newcastle & Woodinville [2026]',
+    excerpt: 'HECM reverse mortgage for Premium Seattle Eastside seniors 62+. Google campus waterfront, estate living, wine country properties. $950K-$1.8M equity access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-tech-corridor-eastside-wa-2026',
+    title: 'Reverse Mortgage Tech Corridor Eastside WA: Redmond, Issaquah, Bothell, Kenmore & Maple Valley [2026]',
+    excerpt: 'HECM reverse mortgage for Tech Corridor Eastside seniors 62+. Microsoft retirees, outdoor lifestyle equity, suburban family wealth. $700K-$1.1M access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-urban-seattle-premium-2026',
+    title: 'Reverse Mortgage Urban Seattle Premium: Capitol Hill, Ballard, Wallingford, Queen Anne & Shoreline [2026]',
+    excerpt: 'HECM reverse mortgage for urban Seattle seniors 62+. Tech worker retirees, craftsman home equity, light rail corridor properties. $600K-$900K access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-suburban-king-county-2026',
+    title: 'Reverse Mortgage Suburban King County: Federal Way, Kent, Renton, Tukwila & SeaTac [2026]',
+    excerpt: 'HECM reverse mortgage for Suburban King County seniors 62+. Boeing retirees, manufacturing heritage equity, diverse communities. $450K-$650K access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-north-sound-islands-2026',
+    title: 'Reverse Mortgage North Sound & Islands: Bainbridge Island, Anacortes, Bellingham, San Juan & Whidbey [2026]',
+    excerpt: 'HECM reverse mortgage for North Sound & Islands seniors 62+. Island living equity, maritime communities, naval base proximity. $550K-$900K access. NMLS #1426884.',
+    date: '2026-02-13',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
   // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
   {
     slug: 'reverse-mortgage-premium-east-bay-sf-2026',

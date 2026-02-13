@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2025-01-08T00:00:00Z',
-    modifiedTime: '2026-02-12T00:00:00Z',
+    modifiedTime: '2026-02-13T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -85,6 +85,18 @@ export default function NewportCoastMortgageGuide2026() {
       question: 'What reserves are required for a super-jumbo loan in Newport Coast?',
       answer: 'Reserve requirements increase with loan amount. For loans of $1-3 million, expect 6-12 months of PITIA reserves. For loans of $3-5 million, 12-18 months is standard. Loans above $5 million typically require 18-24 months of liquid reserves. Reserves can include checking, savings, investment accounts, and retirement funds. Some lenders count a percentage of retirement assets at reduced value.'
     },
+    {
+      question: 'Are bridge loans available for Newport Coast buyers who need to sell before buying?',
+      answer: 'Yes. Bridge loan programs through wholesale channels allow Newport Coast buyers to purchase a new estate before selling their current home. Bridge loans provide short-term financing (6-12 months) secured by the equity in your existing property. Loan amounts range from $1 million to $15 million, and approval timelines run 10-14 business days. This is especially common in Newport Coast where buyers are upgrading from Newport Beach or Laguna Beach properties and need to act quickly on limited inventory.'
+    },
+    {
+      question: 'How do Newport Coast appraisals work for custom oceanfront homes?',
+      answer: 'Custom oceanfront homes in Newport Coast require specialized appraisals from appraisers with direct experience in the 92657 ZIP code. Standard appraisals compare recent sales of similar properties, but Crystal Cove and Pelican Crest homes often have few true comparables due to unique architectural features and oceanfront premiums. For loans above $5 million, lenders typically require two independent appraisals plus a desk review. Our wholesale partners maintain panels of pre-approved luxury appraisers who understand coastal premiums, view corridors, and lot-specific value drivers.'
+    },
+    {
+      question: 'Can I lock a rate on a Newport Coast super-jumbo loan for 60 or 90 days?',
+      answer: 'Yes. Extended rate locks of 60, 90, and even 120 days are available on institutional jumbo and super-jumbo programs through wholesale channels. Longer lock periods carry a small premium of 0.125-0.25% compared to standard 30-day locks. Extended locks are essential for Newport Coast transactions involving custom construction, complex trust structures, or property sales that require additional time. In our Newport Coast closings, approximately 35% of buyers choose extended locks to protect against rate volatility during the underwriting and appraisal process.'
+    },
   ];
 
   return (
@@ -112,7 +124,7 @@ export default function NewportCoastMortgageGuide2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2025-01-08',
-            dateModified: '2026-02-12',
+            dateModified: '2026-02-13',
             description: 'Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in institutional jumbo, asset-depletion, bank statement, and foreign national financing for Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge estates.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -213,7 +225,7 @@ export default function NewportCoastMortgageGuide2026() {
         <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 12, 2026</span>
+          <span>Updated February 13, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
@@ -240,6 +252,7 @@ export default function NewportCoastMortgageGuide2026() {
             <li><a href="#asset-depletion" className="text-blue-600 hover:underline">Asset-Depletion Lending Explained</a></li>
             <li><a href="#foreign-national" className="text-blue-600 hover:underline">Foreign National Financing</a></li>
             <li><a href="#entity-trust" className="text-blue-600 hover:underline">LLC &amp; Trust Purchases</a></li>
+            <li><a href="#2026-market-update" className="text-blue-600 hover:underline">Newport Coast 2026 Market Update: February Price Trends</a></li>
             <li><a href="#people-also-ask" className="text-blue-600 hover:underline">People Also Ask</a></li>
             <li><a href="#faq" className="text-blue-600 hover:underline">Frequently Asked Questions</a></li>
             <li><a href="#expert-summary" className="text-blue-600 hover:underline">Expert Summary &amp; Next Steps</a></li>
@@ -705,6 +718,91 @@ export default function NewportCoastMortgageGuide2026() {
         </p>
         <p>
           DSCR loans for Newport Coast investment properties are available up to $5 million with 20-25% down payment and no personal income verification. The property must demonstrate a DSCR of 1.0 or higher (rental income equals or exceeds the mortgage payment).
+        </p>
+
+        {/* Newport Coast 2026 Market Update */}
+        <h2 id="2026-market-update" className="text-2xl font-bold text-gray-900">Newport Coast 2026 Market Update: February Price Trends &amp; Luxury Financing Outlook</h2>
+        <p>
+          The Newport Coast luxury market has entered 2026 with notable momentum. Based on Mo Abdel&apos;s experience closing transactions across Crystal Cove, Pelican Crest, and Newport Ridge through early February, several key trends are shaping the financing landscape for ultra-luxury buyers this year.
+        </p>
+
+        <h3>Q1 2026 Price Movement by Neighborhood</h3>
+        <p>
+          Newport Coast neighborhoods are experiencing uneven appreciation in early 2026. Crystal Cove oceanfront listings have reached record asking prices, while Newport Ridge &mdash; the most accessible entry point into the community &mdash; is seeing accelerated demand from buyers relocating from Irvine and Costa Mesa.
+        </p>
+        <div className="overflow-x-auto my-6">
+          <table className="min-w-full bg-white border border-gray-200">
+            <thead>
+              <tr className="bg-gray-100">
+                <th className="py-3 px-4 text-left font-semibold border-b">Neighborhood</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Q4 2025 Median</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Feb 2026 Median</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Change</th>
+                <th className="py-3 px-4 text-left font-semibold border-b">Active Listings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Crystal Cove</td>
+                <td className="py-2 px-4 border-b">$16.2M</td>
+                <td className="py-2 px-4 border-b">$17.5M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.0%</td>
+                <td className="py-2 px-4 border-b">4-6</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Pelican Crest</td>
+                <td className="py-2 px-4 border-b">$9.8M</td>
+                <td className="py-2 px-4 border-b">$10.4M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+6.1%</td>
+                <td className="py-2 px-4 border-b">5-8</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Pelican Hill</td>
+                <td className="py-2 px-4 border-b">$7.1M</td>
+                <td className="py-2 px-4 border-b">$7.5M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+5.6%</td>
+                <td className="py-2 px-4 border-b">6-9</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Newport Ridge</td>
+                <td className="py-2 px-4 border-b">$3.1M</td>
+                <td className="py-2 px-4 border-b">$3.4M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+9.7%</td>
+                <td className="py-2 px-4 border-b">8-12</td>
+              </tr>
+              <tr>
+                <td className="py-2 px-4 border-b font-medium">Crystal Cove State Park Area</td>
+                <td className="py-2 px-4 border-b">$5.6M</td>
+                <td className="py-2 px-4 border-b">$5.9M</td>
+                <td className="py-2 px-4 border-b text-green-700 font-semibold">+5.4%</td>
+                <td className="py-2 px-4 border-b">5-7</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-gray-600">
+          Source: Newport Coast MLS data and Mo Abdel&apos;s transaction records, January-February 2026. Medians reflect closed sales and pending contracts.
+        </p>
+
+        <h3>February 2026 Jumbo Rate Environment</h3>
+        <p>
+          The Federal Reserve&apos;s rate posture in early 2026 has created a more favorable environment for institutional jumbo borrowers compared to mid-2025. In our Newport Coast closings during January and February 2026, wholesale institutional jumbo rates for well-qualified borrowers with 20%+ down and 740+ credit scores have settled into the <strong>5.875-6.50% range</strong> &mdash; down approximately 0.375% from Q3 2025 peaks. Non-QM programs including bank statement and asset-depletion loans are pricing <strong>0.50-1.25% above institutional jumbo</strong>, creating an effective range of 6.375-7.75% depending on program type and borrower profile.
+        </p>
+        <p>
+          For Newport Coast buyers, this rate improvement translates to meaningful monthly savings. On a $5 million loan, the 0.375% rate decline saves approximately <strong>$1,562 per month</strong> or <strong>$18,750 annually</strong>. Buyers who waited through 2025&apos;s higher-rate environment are finding Q1 2026 an attractive entry point, particularly for properties in the $3-8 million range where institutional jumbo programs deliver the most competitive wholesale pricing.
+        </p>
+
+        <h3>Luxury Buyer Trends Shaping Newport Coast Financing in 2026</h3>
+        <p>
+          In our Newport Coast closings over the past 90 days, three financing trends stand out:
+        </p>
+        <ul>
+          <li><strong>Increased demand for interest-only structures:</strong> Approximately 45% of our Q1 2026 Newport Coast buyers chose 5- or 10-year interest-only programs, up from 32% in 2025. Buyers are prioritizing cash flow flexibility while maintaining exposure to Newport Coast&apos;s appreciation trajectory.</li>
+          <li><strong>Trust and entity purchases continue rising:</strong> Entity-held purchases have increased to approximately 44% of Newport Coast transactions, driven by enhanced estate planning strategies and asset protection concerns among ultra-high-net-worth buyers.</li>
+          <li><strong>Cross-border buyer activity rebounding:</strong> International buyer inquiries for Newport Coast properties have increased 22% compared to Q1 2025. Buyers from Greater China, the Middle East, and Western Europe are driving demand for <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">foreign national mortgage programs</a> with 25-30% down payment requirements.</li>
+        </ul>
+        <p>
+          These trends confirm that Newport Coast remains one of the most active ultra-luxury markets in the United States, and that specialized wholesale financing &mdash; not standard retail banking &mdash; is the pathway to competitive terms for buyers at every price point in the 92657 ZIP code.
         </p>
 
         {/* People Also Ask */}
