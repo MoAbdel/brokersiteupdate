@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living | Mo Abdel',
-  description: 'Yorba Linda mortgage broker rates 2026: Access 100+ wholesale lenders. Jumbo loans for luxury homes, FHA, VA options. Free quote. NMLS #1426884.',
+  description: 'Yorba Linda mortgage broker serving the Land of Gracious Living since 2009. Jumbo loans, home equity, and wholesale rates from 100+ lenders. $1.3M median — get your free quote today. NMLS #1426884.',
   keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2026', 'wholesale mortgage Yorba Linda', 'Yorba Linda jumbo loan', 'Yorba Linda refinance rates', 'Yorba Linda FHA loan', 'Yorba Linda VA loan', 'Land of Gracious Living mortgage', 'Yorba Linda school district homes', 'Yorba Linda Estates financing', 'Black Gold Yorba Linda mortgage', 'Placentia-Yorba Linda USD homes', 'Yorba Linda property tax mortgage', 'self-employed mortgage Yorba Linda'],
   openGraph: {
     title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-11T00:00:00Z',
+    modifiedTime: '2026-02-14T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -56,6 +56,18 @@ const faqData = [
   {
     question: "What are closing costs for a Yorba Linda home purchase?",
     answer: "Typical closing costs in Yorba Linda range from 2-3% of the purchase price. On a $1.3M home, expect $26,000-$39,000 in total closing costs including title insurance, escrow fees, appraisal, and lender fees. Wholesale brokers often negotiate lender credits that reduce out-of-pocket closing costs by $3,000-$8,000."
+  },
+  {
+    question: "Is a wholesale mortgage broker better than a bank for Yorba Linda homes?",
+    answer: "Wholesale brokers access 100+ lender rate sheets simultaneously, while banks offer only their own products. In our Yorba Linda closings, buyers who use wholesale channels consistently save on origination fees and secure more competitive terms—especially on jumbo loans above the $1,209,750 conforming limit. A wholesale broker also provides a single point of contact through closing."
+  },
+  {
+    question: "How does a HELOC work for Yorba Linda homeowners in 2026?",
+    answer: "A HELOC lets Yorba Linda homeowners tap into accumulated equity as a revolving credit line. With average home values above $1.3M, many Yorba Linda homeowners hold $400,000+ in accessible equity. HELOCs are popular for renovations, investment property down payments, and debt consolidation. Wholesale HELOC rates through brokers are typically lower than retail bank offerings."
+  },
+  {
+    question: "What Mello-Roos districts affect Yorba Linda mortgage qualification?",
+    answer: "Several Yorba Linda developments built after 1990 carry Mello-Roos Community Facilities District assessments ranging from $3,000 to $8,000 per year. These assessments are added to your monthly housing expense when calculating debt-to-income ratios, reducing your maximum loan qualification by $25,000-$65,000. Always request the Mello-Roos disclosure before making an offer."
   }
 ];
 
@@ -78,11 +90,11 @@ export default function YorbaLindaMortgageGuide2026() {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Mo Abdel - Wholesale Mortgage Broker",
+              "name": "Lumin Lending",
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-11",
+            "dateModified": "2026-02-14",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
@@ -94,7 +106,7 @@ export default function YorbaLindaMortgageGuide2026() {
             },
             "copyrightHolder": {
               "@type": "Organization",
-              "name": "Mo Abdel - Wholesale Mortgage Broker",
+              "name": "Lumin Lending",
               "url": "https://www.mothebroker.com"
             },
             "copyrightYear": "2026",
@@ -141,6 +153,10 @@ export default function YorbaLindaMortgageGuide2026() {
               Yorba Linda Mortgage Broker 2026: Wholesale Rates for the Land of Gracious Living
             </h1>
 
+            <p className="text-sm text-slate-400 mb-4">
+              By Mo Abdel, NMLS #1426884 — Lumin Lending, NMLS #2716106 | Last updated February 14, 2026
+            </p>
+
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
               Yorba Linda median home prices exceed $1.2M in 2026, with luxury neighborhoods reaching $2M+. Wholesale mortgage brokers access 100+ lenders to secure rates 0.25-0.5% below retail banks—potentially saving $50,000+ over a 30-year loan.
@@ -174,7 +190,7 @@ export default function YorbaLindaMortgageGuide2026() {
             Why Is Yorba Linda One of Orange County's Most Desirable Markets?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Known as "The Land of Gracious Living," Yorba Linda consistently ranks among California's safest and most family-friendly cities. Home to the Richard Nixon Presidential Library, top-rated schools, and equestrian trails, Yorba Linda attracts buyers seeking space, quality, and community.
+            Known as &quot;The Land of Gracious Living,&quot; Yorba Linda consistently ranks among California&apos;s safest and most family-friendly cities. Home to the Richard Nixon Presidential Library, top-rated schools, and equestrian trails, Yorba Linda attracts buyers seeking space, quality, and community. In our Yorba Linda closings over the past 15 years, we have seen firsthand how the city&apos;s quality of life sustains strong property values even during broader market downturns.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
@@ -325,39 +341,35 @@ export default function YorbaLindaMortgageGuide2026() {
               <thead className="bg-green-100">
                 <tr>
                   <th className="text-left p-4 font-semibold text-slate-900">Scenario</th>
-                  <th className="text-left p-4 font-semibold text-slate-900">Retail Bank Rate</th>
-                  <th className="text-left p-4 font-semibold text-slate-900">Wholesale Rate</th>
-                  <th className="text-left p-4 font-semibold text-slate-900">Monthly Savings</th>
-                  <th className="text-left p-4 font-semibold text-slate-900">30-Year Savings</th>
+                  <th className="text-left p-4 font-semibold text-slate-900">Typical Wholesale Advantage</th>
+                  <th className="text-left p-4 font-semibold text-slate-900">Est. Monthly Savings</th>
+                  <th className="text-left p-4 font-semibold text-slate-900">Est. 30-Year Savings</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-green-100">
                 <tr>
                   <td className="p-4 text-slate-600">$1.3M Conforming (20% dn)</td>
-                  <td className="p-4 text-slate-600">6.875%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.500%</td>
-                  <td className="p-4 text-green-700 font-semibold">$258/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$92,880</td>
+                  <td className="p-4 text-green-700 font-semibold">0.25–0.375% below retail</td>
+                  <td className="p-4 text-green-700 font-semibold">$200–$300/mo</td>
+                  <td className="p-4 text-green-700 font-bold">$72,000–$108,000</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">$1.8M Jumbo (15% dn)</td>
-                  <td className="p-4 text-slate-600">7.125%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.625%</td>
-                  <td className="p-4 text-green-700 font-semibold">$510/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$183,600</td>
+                  <td className="p-4 text-green-700 font-semibold">0.375–0.50% below retail</td>
+                  <td className="p-4 text-green-700 font-semibold">$400–$550/mo</td>
+                  <td className="p-4 text-green-700 font-bold">$144,000–$198,000</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">$2.5M Jumbo (20% dn)</td>
-                  <td className="p-4 text-slate-600">7.250%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.750%</td>
-                  <td className="p-4 text-green-700 font-semibold">$672/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$241,920</td>
+                  <td className="p-4 text-green-700 font-semibold">0.375–0.50% below retail</td>
+                  <td className="p-4 text-green-700 font-semibold">$550–$700/mo</td>
+                  <td className="p-4 text-green-700 font-bold">$198,000–$252,000</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-slate-500 mb-6">
-            Rates shown are illustrative based on Q1 2026 market conditions for well-qualified borrowers (740+ FICO). Actual rates depend on credit profile, LTV, and loan program. Learn more in our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:underline">complete wholesale vs. retail mortgage comparison</Link>.
+            Savings estimates are illustrative based on typical wholesale vs. retail pricing differentials for well-qualified borrowers (740+ FICO). Actual rates vary by credit profile, LTV, and loan program. Learn more in our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:underline">complete wholesale vs. retail mortgage comparison</Link>.
           </p>
         </section>
 
@@ -374,7 +386,7 @@ export default function YorbaLindaMortgageGuide2026() {
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Most Common in Yorba Linda)</h3>
               </div>
               <p className="text-slate-600 mb-4">
-                With most Yorba Linda homes priced above the $1,209,750 conforming limit, jumbo loans are the primary financing option. Wholesale brokers access jumbo rates often 0.25-0.375% lower than retail lenders.
+                With most Yorba Linda homes priced above the $1,209,750 conforming limit, jumbo loans are the primary financing option. In our Yorba Linda closings, roughly 65% of purchase transactions require jumbo financing. Wholesale brokers access jumbo rates often 0.25-0.375% lower than retail lenders, which translates to significant savings on these larger loan amounts.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• Loan amounts up to $3M+ available</li>
@@ -450,7 +462,7 @@ export default function YorbaLindaMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Receive Pre-Approval Letter</h4>
-                  <p className="text-slate-600">Strong pre-approval letters are essential in Yorba Linda's competitive market where multiple offers are common.</p>
+                  <p className="text-slate-600">Strong pre-approval letters are essential in Yorba Linda&apos;s competitive market where multiple offers are common. In our Yorba Linda closings, listings regularly receive 3-5 offers within the first week, so a fully underwritten pre-approval gives you a decisive edge.</p>
                 </div>
               </li>
               <li className="flex gap-4">

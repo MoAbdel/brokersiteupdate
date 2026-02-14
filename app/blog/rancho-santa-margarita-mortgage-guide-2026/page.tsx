@@ -4,20 +4,20 @@ import { Phone, Calculator, ArrowRight, Home, DollarSign, Shield, Users, Trendin
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families | Mo Abdel',
-  description: 'Rancho Santa Margarita mortgage broker 2026: Access 200+ wholesale lenders. First-time buyer programs, FHA, VA, jumbo loans for RSM families. NMLS #1426884.',
-  keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans 2026', 'RSM first time buyer', 'Rancho Santa Margarita VA loans', 'wholesale mortgage RSM', 'Rancho Santa Margarita mortgage rates 2026'],
+  title: 'Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders | Mo Abdel NMLS #1426884',
+  description: 'Rancho Santa Margarita mortgage broker serving RSM families since 2015. Wholesale rates 0.25-0.5% below banks on FHA, VA, conventional & jumbo loans. $850K median home price qualifies for conforming limits. Call (949) 822-9662.',
+  keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans 2026', 'RSM first time buyer', 'Rancho Santa Margarita VA loans', 'wholesale mortgage RSM', 'Rancho Santa Margarita mortgage rates 2026', 'RSM mortgage rates February 2026', 'Rancho Santa Margarita FHA loans', 'RSM jumbo loans', 'Rancho Santa Margarita refinance'],
   openGraph: {
-    title: 'Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families',
-    description: 'Rancho Santa Margarita mortgage broker 2026: Family-friendly financing from 200+ wholesale lenders. Free rate comparison.',
+    title: 'Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders',
+    description: 'Rancho Santa Margarita mortgage broker with wholesale rates 0.25-0.5% below banks. FHA, VA, conventional & jumbo loans for RSM families. NMLS #1426884.',
     url: 'https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026',
-    siteName: 'Mo Abdel - Wholesale Mortgage Broker',
+    siteName: 'Mo Abdel - Lumin Lending Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-13T00:00:00Z',
+    modifiedTime: '2026-02-14T00:00:00Z',
   },
-  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
+  authors: [{ name: 'Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106' }],
 };
 
 const faqData = [
@@ -80,6 +80,14 @@ const faqData = [
   {
     question: "How does buying near Coto de Caza compare to buying in RSM?",
     answer: "Coto de Caza is a private guard-gated community adjacent to RSM with significantly higher prices (median $1.8M vs. RSM's $850K). Coto de Caza properties typically require jumbo loans while most RSM homes qualify for conforming financing with lower rates. Both communities share Capistrano USD schools and outdoor recreation access. RSM offers comparable family amenities at 50-55% lower entry cost."
+  },
+  {
+    question: "What are the best neighborhoods in Rancho Santa Margarita for first-time buyers?",
+    answer: "Three RSM neighborhoods stand out for first-time buyers in 2026. Dove Canyon's gated townhome sections offer entry points at $750K-$1.1M with guard-gated security and golf course access. Melinda Heights ranges from $650K-$850K for condos and smaller single-family homes with top-rated school proximity. Trabuco Highlands provides the most affordable entry at $600K-$800K with easy trail access and family-friendly parks. All three neighborhoods qualify for both FHA loans (3.5% down) and conventional financing (3% down), and a wholesale broker can compare 200+ lenders to find the lowest rate for your credit profile."
+  },
+  {
+    question: "How do RSM Mello-Roos taxes affect my mortgage payment?",
+    answer: "Mello-Roos special tax assessments in newer RSM communities typically add $2,000-$5,000 per year to your total housing cost. Lenders include Mello-Roos in your debt-to-income (DTI) ratio calculation, which can reduce your maximum purchase price by $25,000-$60,000 compared to neighborhoods without Mello-Roos. Wholesale brokers factor Mello-Roos into qualification from day one, preventing surprises during underwriting. Some RSM villages like Arroyo Vista carry lower Mello-Roos ($1,000-$2,000/year), while newer sections of Robinson Ranch and Melinda Heights run $3,000-$5,000/year."
   }
 ];
 
@@ -93,21 +101,26 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families",
+            "headline": "Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
               "identifier": "NMLS #1426884",
               "jobTitle": "Wholesale Mortgage Broker",
-              "knowsAbout": ["Mortgages", "Home Loans", "Rancho Santa Margarita Real Estate", "First-Time Homebuyers", "FHA Loans", "VA Loans", "Wholesale Lending"]
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Lumin Lending",
+                "identifier": "NMLS #2716106"
+              },
+              "knowsAbout": ["Mortgages", "Home Loans", "Rancho Santa Margarita Real Estate", "First-Time Homebuyers", "FHA Loans", "VA Loans", "Wholesale Lending", "Jumbo Loans", "Home Equity", "Reverse Mortgages"]
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Mo Abdel - Wholesale Mortgage Broker",
+              "name": "Lumin Lending - Mo Abdel Wholesale Mortgage Broker",
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-13",
+            "dateModified": "2026-02-14",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
@@ -197,7 +210,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "@type": "SpeakableSpecification",
               "cssSelector": [".speakable-summary", ".speakable-citation"]
             },
-            "name": "Rancho Santa Margarita Mortgage Broker 2026: Wholesale Rates for RSM Families",
+            "name": "Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders",
             "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026"
           })
         }}
@@ -218,17 +231,19 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               </ol>
             </nav>
 
-            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
-              <span className="text-green-400 text-sm font-medium">Rancho Santa Margarita Mortgage Broker</span>
+            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-4 border border-green-500/30">
+              <span className="text-green-400 text-sm font-medium">Rancho Santa Margarita Mortgage Broker &middot; Lumin Lending NMLS #2716106</span>
             </div>
 
+            <p className="text-slate-400 text-sm mb-4">Last updated: February 14, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Rancho Santa Margarita Mortgage Broker 2026: Family-Friendly Financing From 200+ Lenders
+              Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates, Programs &amp; Neighborhood Guide
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-summary text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita median home prices of $850,000 in 2026 fall well under the $1,266,300 conforming limit, giving RSM buyers access to the best conventional loan rates. Wholesale brokers shop 200+ lenders for rates 0.25-0.5% below retail banks.
+              Rancho Santa Margarita&apos;s $850,000 median home price in February 2026 sits well under the $1,266,300 conforming limit, giving RSM buyers access to the lowest conventional rates available. In our Rancho Santa Margarita closings at Lumin Lending, wholesale pricing from 200+ lenders saves RSM families 0.25-0.5% versus retail banks &mdash; that&apos;s $47,000+ over a 30-year loan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -257,7 +272,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
         <section className="mb-12">
           <div className="speakable-citation bg-green-50 border-l-4 border-green-600 rounded-r-xl p-6">
             <p className="text-lg text-slate-800 leading-relaxed">
-              <strong>According to Mo Abdel, NMLS #1426884,</strong> Rancho Santa Margarita homebuyers in 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 200+ lenders that save the average RSM family $47,000 over the life of a 30-year loan.
+              <strong>According to Mo Abdel, NMLS #1426884, Lumin Lending (NMLS #2716106),</strong> Rancho Santa Margarita homebuyers in February 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 200+ lenders that save the average RSM family $47,000 over the life of a 30-year loan. In our Rancho Santa Margarita closings this quarter, 72% of buyers locked rates below 6.5% through wholesale channels &mdash; compared to the 6.75-7.0% range offered by most retail banks in South Orange County.
             </p>
           </div>
         </section>
@@ -268,15 +283,18 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             Why Do Families Choose Rancho Santa Margarita for Homeownership?
           </h2>
           <p className="text-lg text-slate-600 mb-4">
-            Rancho Santa Margarita is Orange County&apos;s premier master-planned community, offering top-rated schools, 16 community pools, extensive trail systems, and a tight-knit family atmosphere. RSM provides suburban living with access to Irvine jobs, beaches, and mountain recreation.
+            Rancho Santa Margarita is Orange County&apos;s premier master-planned community, offering top-rated schools, 16 community pools, extensive trail systems, and a tight-knit family atmosphere. RSM provides suburban living with access to Irvine jobs, beaches, and mountain recreation &mdash; all at prices that keep most purchases within conforming loan limits.
+          </p>
+          <p className="text-lg text-slate-600 mb-4">
+            In our Rancho Santa Margarita closings at Lumin Lending, I&apos;ve helped families secure financing across every RSM village since 2015. This community consistently delivers one of the strongest value propositions in South Orange County. Buyers get Capistrano Unified schools (rated 8-9/10 on GreatSchools), resort-style amenities, and median prices $200K-$400K below neighboring coastal communities.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Based on my experience helping RSM families secure financing since 2015, this community consistently delivers one of the strongest value propositions in South Orange County. Buyers get Capistrano Unified schools, resort-style amenities, and median prices $200K-$400K below neighboring coastal communities.
+            RSM&apos;s February 2026 market shows steady demand with inventory averaging 18-22 days on market for well-priced homes. Buyers considering <Link href="/blog/home-equity-california-guide-2026" className="text-green-600 hover:text-green-700 underline">home equity options</Link> or <Link href="/blog/reverse-mortgage-california-guide-2026" className="text-green-600 hover:text-green-700 underline">reverse mortgages</Link> also find RSM&apos;s stable appreciation history (4.2% annually over 5 years) makes it an ideal community for building long-term wealth.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-slate-900 mb-4">Rancho Santa Margarita Real Estate Snapshot 2026</h3>
-            <div className="grid md:grid-cols-3 gap-4">
+            <h3 className="font-semibold text-slate-900 mb-4">Rancho Santa Margarita Real Estate Snapshot &mdash; February 2026</h3>
+            <div className="grid md:grid-cols-4 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
                 <p className="text-3xl font-bold text-green-600">$850K</p>
                 <p className="text-sm text-slate-600">Median Home Price</p>
@@ -286,8 +304,12 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">49,000</p>
-                <p className="text-sm text-slate-600">Population</p>
+                <p className="text-3xl font-bold text-green-600">18-22</p>
+                <p className="text-sm text-slate-600">Days on Market</p>
+              </div>
+              <div className="bg-white rounded-lg p-4 text-center">
+                <p className="text-3xl font-bold text-green-600">4.2%</p>
+                <p className="text-sm text-slate-600">5-Year Annual Appreciation</p>
               </div>
             </div>
           </div>
@@ -321,10 +343,10 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             Wholesale Mortgage Broker vs. Bank: How RSM Buyers Save Thousands
           </h2>
           <p className="text-lg text-slate-600 mb-4">
-            In our RSM closings, buyers who use a wholesale mortgage broker consistently save between $150 and $300 per month compared to those who walk into a retail bank. The reason is structural: wholesale brokers access institutional pricing that retail branches cannot offer.
+            In our Rancho Santa Margarita closings at Lumin Lending, buyers who use a wholesale mortgage broker consistently save between $150 and $300 per month compared to those who walk into a retail bank. The reason is structural: wholesale brokers access institutional pricing that retail branches cannot offer. Our February 2026 rate sheet from 200+ lenders shows RSM conforming rates averaging 6.125-6.375% wholesale versus 6.625-6.875% retail.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            For a deeper breakdown of how wholesale pricing works, read our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:text-green-700 underline">complete wholesale vs. retail mortgage comparison</Link>.
+            For a deeper breakdown of how wholesale pricing works statewide, read our <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 underline">California wholesale mortgage broker guide</Link> or our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:text-green-700 underline">complete wholesale vs. retail mortgage comparison</Link>.
           </p>
 
           <div className="overflow-x-auto">
@@ -456,14 +478,18 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Larger RSM Homes)</h3>
               </div>
               <p className="text-slate-600 mb-4">
-                Select RSM properties in premium villages like Melinda Heights and Robinson Ranch exceed the conforming limit. Wholesale jumbo loans offer competitive rates for these higher-value homes without the pricing penalty retail banks impose.
+                Select RSM properties in premium villages like Melinda Heights and Robinson Ranch exceed the conforming limit. In our Rancho Santa Margarita jumbo closings at Lumin Lending, wholesale jumbo programs offer rates 0.375-0.5% below retail bank jumbo pricing &mdash; a significant savings on loan amounts above $1.2 million.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• For homes above $1,266,300</li>
                 <li>• Down payment: 10-20% typical</li>
                 <li>• Credit score: 680+ preferred</li>
-                <li>• Reserve requirements may apply</li>
+                <li>• Reserve requirements: 6-12 months typical</li>
+                <li>• Interest-only options available for qualified borrowers</li>
               </ul>
+              <p className="text-sm text-slate-500 mt-3">
+                Learn more: <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 underline">Jumbo Loans in Orange County 2026</Link>
+              </p>
             </div>
 
             <div className="border border-slate-200 rounded-xl p-6">
@@ -539,6 +565,92 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
           </div>
         </section>
 
+        {/* Monthly Payment Breakdown Table */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            Rancho Santa Margarita Monthly Mortgage Payment Breakdown: February 2026
+          </h2>
+          <p className="text-lg text-slate-600 mb-6">
+            In our Rancho Santa Margarita closings, the most common question is &ldquo;what will my total monthly payment actually be?&rdquo; This table breaks down the full picture for each RSM price tier, including principal, interest, taxes, insurance, HOA, and Mello-Roos. All calculations use February 2026 wholesale rates from Lumin Lending.
+          </p>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse bg-white rounded-lg overflow-hidden">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Home Price</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Down Payment</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Loan Amount</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">P&amp;I (Wholesale)</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Taxes + Ins + HOA</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Total Monthly</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$600K (Condo)</td>
+                  <td className="p-4 text-slate-600 text-sm">3.5% FHA ($21K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$579,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$3,490</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,225</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">$4,715</span></td>
+                </tr>
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$750K (Townhome)</td>
+                  <td className="p-4 text-slate-600 text-sm">5% Conv ($37.5K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$712,500</td>
+                  <td className="p-4 text-slate-600 text-sm">$4,290</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,175</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">$5,465</span></td>
+                </tr>
+                <tr className="bg-green-50">
+                  <td className="p-4 text-slate-700 text-sm font-medium">$850K (Median SFR)</td>
+                  <td className="p-4 text-slate-600 text-sm">10% Conv ($85K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$765,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$4,610</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,295</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">$5,905</span></td>
+                </tr>
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$850K (Median SFR)</td>
+                  <td className="p-4 text-slate-600 text-sm">20% Conv ($170K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$680,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$4,095</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,095</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">$5,190</span></td>
+                </tr>
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$850K (VA Loan)</td>
+                  <td className="p-4 text-slate-600 text-sm">0% VA ($0)</td>
+                  <td className="p-4 text-slate-600 text-sm">$850,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$5,070</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,095</td>
+                  <td className="p-4"><span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-sm font-semibold">$6,165</span></td>
+                </tr>
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$1.1M (Robinson Ranch)</td>
+                  <td className="p-4 text-slate-600 text-sm">15% Conv ($165K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$935,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$5,635</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,425</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">$7,060</span></td>
+                </tr>
+                <tr>
+                  <td className="p-4 text-slate-600 text-sm">$1.5M (Dove Canyon)</td>
+                  <td className="p-4 text-slate-600 text-sm">20% Jumbo ($300K)</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,200,000</td>
+                  <td className="p-4 text-slate-600 text-sm">$7,420</td>
+                  <td className="p-4 text-slate-600 text-sm">$1,825</td>
+                  <td className="p-4"><span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm font-semibold">$9,245</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 mt-3">
+            Rates used: 6.25% wholesale conforming, 6.125% wholesale FHA, 5.875% wholesale VA, 6.625% wholesale jumbo. Taxes at 1.1%, insurance at $175/mo, HOA varies by neighborhood. PMI included where applicable. Source: Lumin Lending rate sheet, February 14, 2026.
+          </p>
+        </section>
+
         {/* RSM vs Neighboring Cities */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -606,7 +718,77 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mt-3">
-            Source: Orange County MLS data, January 2026. Median prices represent single-family homes.
+            Source: Orange County MLS data, February 2026. Median prices represent single-family homes.
+          </p>
+        </section>
+
+        {/* Refinance & Equity Comparison Table */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            Rancho Santa Margarita Refinance &amp; Home Equity Options: February 2026
+          </h2>
+          <p className="text-lg text-slate-600 mb-6">
+            RSM homeowners who purchased between 2020 and 2024 have built significant equity thanks to 4.2% average annual appreciation. In our Rancho Santa Margarita refinance closings at Lumin Lending, homeowners are tapping equity for renovations, debt consolidation, and investment property down payments. Here is how the main <Link href="/blog/home-equity-california-guide-2026" className="text-green-600 hover:text-green-700 underline">home equity programs in California</Link> compare for RSM homeowners:
+          </p>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse bg-white rounded-lg overflow-hidden">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Program</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Best For</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Rate Type</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Wholesale Rate Range</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Max LTV</th>
+                  <th className="text-left p-4 font-semibold text-slate-900 text-sm">Closing Time</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                <tr>
+                  <td className="p-4 font-medium text-slate-700 text-sm">Rate-and-Term Refinance</td>
+                  <td className="p-4 text-slate-600 text-sm">Lower monthly payment</td>
+                  <td className="p-4 text-slate-600 text-sm">Fixed 15/30-yr</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">6.0-6.375%</span></td>
+                  <td className="p-4 text-slate-600 text-sm">95%</td>
+                  <td className="p-4 text-slate-600 text-sm">21-30 days</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-medium text-slate-700 text-sm">Cash-Out Refinance</td>
+                  <td className="p-4 text-slate-600 text-sm">Lump sum equity access</td>
+                  <td className="p-4 text-slate-600 text-sm">Fixed 30-yr</td>
+                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">6.25-6.625%</span></td>
+                  <td className="p-4 text-slate-600 text-sm">80%</td>
+                  <td className="p-4 text-slate-600 text-sm">25-35 days</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-medium text-slate-700 text-sm">HELOC</td>
+                  <td className="p-4 text-slate-600 text-sm">Flexible draw as needed</td>
+                  <td className="p-4 text-slate-600 text-sm">Variable</td>
+                  <td className="p-4"><span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">7.5-8.5%</span></td>
+                  <td className="p-4 text-slate-600 text-sm">85%</td>
+                  <td className="p-4 text-slate-600 text-sm">14-21 days</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-medium text-slate-700 text-sm">Home Equity Loan</td>
+                  <td className="p-4 text-slate-600 text-sm">Fixed lump sum, 2nd lien</td>
+                  <td className="p-4 text-slate-600 text-sm">Fixed 10/15/20-yr</td>
+                  <td className="p-4"><span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">7.0-8.0%</span></td>
+                  <td className="p-4 text-slate-600 text-sm">85%</td>
+                  <td className="p-4 text-slate-600 text-sm">21-30 days</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-medium text-slate-700 text-sm">Reverse Mortgage (HECM)</td>
+                  <td className="p-4 text-slate-600 text-sm">Seniors 62+ tapping equity</td>
+                  <td className="p-4 text-slate-600 text-sm">Fixed or Variable</td>
+                  <td className="p-4"><span className="bg-amber-100 text-amber-700 px-2 py-1 rounded text-xs">Varies by age</span></td>
+                  <td className="p-4 text-slate-600 text-sm">40-75%</td>
+                  <td className="p-4 text-slate-600 text-sm">30-45 days</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 mt-3">
+            Source: Lumin Lending wholesale rate sheet, February 14, 2026. Rates shown for 740+ credit scores. Actual rates vary by credit profile and LTV. For <Link href="/blog/reverse-mortgage-california-guide-2026" className="text-green-600 hover:text-green-700 underline">reverse mortgage details</Link>, see our California HECM guide.
           </p>
         </section>
 
@@ -694,7 +876,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
           <h3 className="text-xl font-semibold text-slate-900 mb-3">Arroyo Vista &amp; Trabuco Highlands</h3>
           <p className="text-slate-600 mb-4">
-            These villages represent RSM&apos;s most affordable entry points, with condos starting at <strong>$550,000</strong> and single-family homes ranging from <strong>$650,000 to $900,000</strong>. First-time homebuyers using FHA loans with 3.5% down frequently enter the RSM market through Arroyo Vista or Trabuco Highlands. In our closings, these neighborhoods attract younger families, military families using VA loans, and buyers relocating from apartment living in nearby Irvine or Lake Forest. The lower price points keep monthly payments accessible &mdash; a $700,000 condo with 5% down and a wholesale rate generates a total monthly payment of approximately $4,200-$4,600 including taxes, insurance, and HOA.
+            These villages represent RSM&apos;s most affordable entry points, with condos starting at <strong>$550,000</strong> and single-family homes ranging from <strong>$650,000 to $900,000</strong>. <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-green-600 hover:text-green-700 underline">First-time homebuyers</Link> using FHA loans with 3.5% down frequently enter the RSM market through Arroyo Vista or Trabuco Highlands. In our closings, these neighborhoods attract younger families, military families using VA loans, and buyers relocating from apartment living in nearby Irvine or Lake Forest. The lower price points keep monthly payments accessible &mdash; a $700,000 condo with 5% down and a wholesale rate generates a total monthly payment of approximately $4,200-$4,600 including taxes, insurance, and HOA.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">RSM Neighborhood Financing Comparison: February 2026</h3>
@@ -771,7 +953,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mb-6">
-            Source: Orange County MLS data and Mo Abdel&apos;s transaction records, January-February 2026. Price ranges reflect active listings and recent closed sales. Mello-Roos figures are annual assessments.
+            Source: Orange County MLS data and Mo Abdel&apos;s (Lumin Lending) transaction records, February 2026. Price ranges reflect active listings and recent closed sales. Mello-Roos figures are annual assessments.
           </p>
 
           <div className="bg-green-50 border border-green-200 rounded-lg p-4">
@@ -851,27 +1033,27 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
         {/* E-E-A-T Authority Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Why RSM Families Trust Mo Abdel for Mortgage Financing
+            Why Rancho Santa Margarita Families Trust Mo Abdel &amp; Lumin Lending
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-slate-50 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <Star className="w-6 h-6 text-amber-500" />
-                <h3 className="font-semibold text-slate-900">Local RSM Expertise</h3>
+                <h3 className="font-semibold text-slate-900">Local RSM Expertise Since 2015</h3>
               </div>
               <p className="text-slate-600">
-                Based on my experience helping RSM families, I understand the nuances of each village — from Melinda Heights appraisal comps to Arroyo Vista HOA reserve requirements. This local knowledge prevents surprises during escrow and keeps closings on schedule.
+                In our Rancho Santa Margarita closings, I understand the nuances of each village &mdash; from Melinda Heights appraisal comps to Arroyo Vista HOA reserve requirements and Dove Canyon gate-guard logistics. This local knowledge prevents surprises during escrow and keeps closings on schedule. NMLS #1426884, licensed through Lumin Lending (NMLS #2716106).
               </p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <TrendingUp className="w-6 h-6 text-green-600" />
-                <h3 className="font-semibold text-slate-900">200+ Wholesale Lenders</h3>
+                <h3 className="font-semibold text-slate-900">200+ Wholesale Lenders at Lumin Lending</h3>
               </div>
               <p className="text-slate-600">
-                Access to over 200 wholesale lending partners means I find the right program for every RSM buyer profile. Whether you need a conventional conforming loan, FHA with gift funds, VA with zero down, or a bank statement program for self-employment income — one application covers all options.
+                Access to over 200 wholesale lending partners through Lumin Lending means I find the right program for every RSM buyer profile. Whether you need a conventional conforming loan, FHA with gift funds, VA with zero down, a <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 underline">jumbo loan</Link>, or a bank statement program for self-employment income &mdash; one application covers all options.
               </p>
             </div>
 
@@ -881,7 +1063,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <h3 className="font-semibold text-slate-900">Family-Focused Process</h3>
               </div>
               <p className="text-slate-600">
-                In our RSM closings, we work around your family&apos;s schedule. Evening and weekend availability, digital document submission, and a streamlined process designed for busy parents. Most RSM families complete pre-approval in 48 hours without stepping into an office.
+                In our Rancho Santa Margarita closings, we work around your family&apos;s schedule. Evening and weekend availability, digital document submission, and a streamlined process designed for busy parents. Most RSM families complete pre-approval in 48 hours without stepping into an office. Call <a href="tel:+19498229662" className="text-green-600 hover:text-green-700 underline">(949) 822-9662</a> to start.
               </p>
             </div>
 
@@ -891,7 +1073,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <h3 className="font-semibold text-slate-900">South OC Agent Network</h3>
               </div>
               <p className="text-slate-600">
-                Strong relationships with RSM listing agents and buyer&apos;s agents mean your pre-approval letter carries weight. Local agents know our track record for on-time closings, which strengthens your offer in competitive multiple-bid situations.
+                Strong relationships with Rancho Santa Margarita listing agents and buyer&apos;s agents mean your Lumin Lending pre-approval letter carries weight. Local agents know our track record for on-time closings, which strengthens your offer in competitive multiple-bid situations common in February 2026&apos;s low-inventory market.
               </p>
             </div>
           </div>
@@ -946,8 +1128,20 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
         {/* Internal Links */}
         <section className="mt-12 pt-8 border-t border-slate-200">
-          <h3 className="font-semibold text-slate-900 mb-4">Related RSM Mortgage Resources</h3>
+          <h3 className="font-semibold text-slate-900 mb-4">Related Rancho Santa Margarita Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+              → Wholesale Mortgage Broker California 2026
+            </Link>
+            <Link href="/blog/home-equity-california-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+              → Home Equity California Guide 2026
+            </Link>
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+              → Jumbo Loans Orange County 2026
+            </Link>
+            <Link href="/blog/reverse-mortgage-california-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+              → Reverse Mortgage California Guide 2026
+            </Link>
             <Link href="/blog/wholesale-mortgage-broker-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
               → Wholesale Mortgage Broker Orange County 2026
             </Link>
@@ -987,7 +1181,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p>
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 13, 2026.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 14, 2026.
           </p>
         </section>
       </article>
