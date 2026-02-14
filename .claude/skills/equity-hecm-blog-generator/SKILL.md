@@ -154,13 +154,57 @@ npm run seo:preflight-batch             # Hard cannibalization filter → approv
 1. Load reports/opportunity-queue.json
 2. If missing or stale (>7 days): WARN, fall back to regional priority from hub map
 3. Build batch (`npm run seo:build-batch -- --count N`) — refresh candidates first (up to 30%)
-4. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
-5. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
-6. Generate/update content
-7. After each item: mark ✅ in regional-hub-map.md
-8. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
-9. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
+4. ENFORCE TRACK BALANCE (see below) — batch must include all 3 tracks
+5. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
+6. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
+7. Generate/update content
+8. After EACH post: MANDATORY add entry to lib/all-blog-posts.ts (see Post-Generation Registry below)
+9. After each item: mark ✅ in regional-hub-map.md
+10. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
+11. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
 ```
+
+### MANDATORY: Track Balance Rule
+
+When generating batches of 6+ posts, enforce minimum track representation:
+
+| Batch Size | Min per Track | Example |
+|-----------|---------------|---------|
+| 6-9 posts | 1 HECM, 1 Equity, 1 Wholesale | 3+3+3 or 2+4+3 |
+| 10-15 posts | 2 HECM, 2 Equity, 2 Wholesale | 4+5+4+2 DSCR |
+| 16-20 posts | 3 HECM, 3 Equity, 3 Wholesale | 5+6+5+4 DSCR |
+| 21+ posts | 4+ per track | Even distribution preferred |
+
+**DSCR cluster posts count as Wholesale track** but should be prioritized because:
+- High-value investor borrowers (core wholesale differentiator)
+- 6 DSCR cluster posts are defined and NONE have been generated yet
+- Growing search demand with low competition
+
+If the opportunity queue's top N items are all one or two tracks, SKIP lower-scored same-track items and pull in higher-priority items from underrepresented tracks. This prevents content gaps that weaken topical authority.
+
+### MANDATORY: Post-Generation Registry (all-blog-posts.ts)
+
+After writing EACH blog post's `page.tsx`, you MUST immediately add a corresponding entry to `lib/all-blog-posts.ts`. This is a HARD GATE — the post is NOT complete until registered.
+
+```typescript
+// Add to the TOP of the allBlogPosts array in lib/all-blog-posts.ts
+{
+  slug: 'the-url-slug',
+  title: 'The Full Page Title (from metadata.title, without " | Mo Abdel" suffix)',
+  excerpt: 'The meta description (from metadata.description)',
+  date: 'YYYY-MM-DD',
+  category: 'Reverse Mortgage' | 'Home Equity' | 'Wholesale' | 'DSCR' | 'Purchase' | 'Refinance',
+  readTime: 'XX min read',  // estimate based on word count: 3000w=8min, 4500w=12min, 5500w=14min
+},
+```
+
+**Category mapping:**
+- HECM track → `'Reverse Mortgage'`
+- Equity track → `'Home Equity'`
+- Wholesale track → `'Wholesale'`
+- DSCR cluster → `'DSCR'`
+
+**Why this matters:** The `/guides` page renders from `allBlogPosts`. If a post isn't in this array, it's invisible to users browsing the guides page even though the URL works directly. This has caused multiple posts to go unregistered in past batches.
 
 ### Scoring Components
 

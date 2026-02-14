@@ -271,16 +271,16 @@ State Pillar (1 per track per state)
 | CA-CC-A | Santa Barbara Luxury | ✅ | ✅ | — |
 | CA-CC-B | Central Coast | ✅ | ✅ | — |
 | CA-VC-A | Ventura Affluent | ✅ | ⬜ | — |
-| CA-WC-A | Wine Country | ⬜ | ⬜ | — |
-| CA-SAC-A | Sacramento Affluent | ⬜ | ✅ | — |
-| CA-IE-A | IE Affluent | ⬜ | ⬜ | — |
-| WA-SE-A | Ultra-Luxury Eastside | ⬜ | ⬜ | ⬜ |
-| WA-SE-B | Premium Eastside | ⬜ | ⬜ | ⬜ |
-| WA-SE-C | Tech Corridor Eastside | ⬜ | ⬜ | ⬜ |
-| WA-GS-A | Urban Seattle Premium | ⬜ | ⬜ | ⬜ |
-| WA-GS-B | Suburban King County | ⬜ | ⬜ | ⬜ |
-| WA-NS-A | North Sound + Islands | ⬜ | ⬜ | — |
-| WA-SS-A | South Sound Affluent | ⬜ | ⬜ | — |
+| CA-WC-A | Wine Country | ✅ | ✅ | — |
+| CA-SAC-A | Sacramento Affluent | ✅ | ✅ | — |
+| CA-IE-A | IE Affluent | ✅ | ✅ | — |
+| WA-SE-A | Ultra-Luxury Eastside | ✅ | ⬜ | ✅ |
+| WA-SE-B | Premium Eastside | ✅ | ⬜ | ✅ |
+| WA-SE-C | Tech Corridor Eastside | ✅ | ⬜ | ⬜ |
+| WA-GS-A | Urban Seattle Premium | ✅ | ✅ | ✅ |
+| WA-GS-B | Suburban King County | ✅ | ✅ | ✅ |
+| WA-NS-A | North Sound + Islands | ✅ | ⬜ | — |
+| WA-SS-A | South Sound Affluent | ⬜ | ✅ | — |
 
 **Legend:** ⬜ Pending | 🔄 In Progress | ✅ Complete
 
