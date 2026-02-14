@@ -133,9 +133,46 @@ Examples:
 
 ## Content Distribution Strategy
 
+### PRIORITY BACKLOG (Clear Before Opportunity Queue)
+
+**These posts MUST be generated before any opportunity-queue items.** When "Generate X posts" is invoked, draw from this backlog first. Once all items are ✅, delete this section and resume normal opportunity-queue flow.
+
+#### DSCR Cluster Posts (6 posts) — HIGHEST PRIORITY
+| # | Title | Target Slug | Status |
+|---|-------|-------------|--------|
+| 1 | DSCR Loans Explained: How Investors Qualify Without W-2s | dscr-loans-explained-investors-2026 | ⬜ |
+| 2 | DSCR Loan Requirements 2026: Rates, Ratios & Down Payment | dscr-loan-requirements-2026 | ⬜ |
+| 3 | DSCR vs Conventional Investment Property Loans | dscr-vs-conventional-investment-property-2026 | ⬜ |
+| 4 | DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing | dscr-loans-short-term-rentals-airbnb-2026 | ⬜ |
+| 5 | DSCR Loan Calculator: How to Calculate Your Ratio | dscr-loan-calculator-ratio-2026 | ⬜ |
+| 6 | DSCR Loans for Portfolio Investors: Scaling with Wholesale Rates | dscr-loans-portfolio-investors-scaling-2026 | ⬜ |
+
+#### Remaining HECM Hub (1 post)
+| Hub ID | Title | Status |
+|--------|-------|--------|
+| WA-SS-A | Reverse Mortgage South Sound Affluent 2026 | ⬜ |
+
+#### Remaining Equity Hub Posts (5 posts)
+| Hub ID | Title | Status |
+|--------|-------|--------|
+| CA-VC-A | Home Equity Ventura Affluent 2026 | ⬜ |
+| WA-SE-A | Home Equity Ultra-Luxury Eastside WA 2026 | ⬜ |
+| WA-SE-B | Home Equity Premium Eastside WA 2026 | ⬜ |
+| WA-SE-C | Home Equity Tech Corridor Eastside WA 2026 | ⬜ |
+| WA-NS-A | Home Equity North Sound Islands 2026 | ⬜ |
+
+#### Remaining Wholesale Hub Post (1 post)
+| Hub ID | Title | Status |
+|--------|-------|--------|
+| WA-SE-C | Wholesale Mortgage Broker Tech Corridor Eastside WA 2026 | ⬜ |
+
+**Total backlog: 13 posts.** Generate these first in any batch. Track balance still applies within the backlog (mix DSCR, HECM, and Equity across batches).
+
+---
+
 ### Opportunity-Queue-Driven System
 
-**"Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.**
+**After the priority backlog is cleared,** "Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.
 
 The opportunity queue is built from GSC search performance data and scores every pending hub+track pair by real demand signals, striking-distance potential, business value, and cannibalization risk.
 
@@ -151,17 +188,18 @@ npm run seo:preflight-batch             # Hard cannibalization filter → approv
 ### How "Generate X Posts" Works
 
 ```
-1. Load reports/opportunity-queue.json
-2. If missing or stale (>7 days): WARN, fall back to regional priority from hub map
-3. Build batch (`npm run seo:build-batch -- --count N`) — refresh candidates first (up to 30%)
-4. ENFORCE TRACK BALANCE (see below) — batch must include all 3 tracks
-5. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
-6. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
-7. Generate/update content
-8. After EACH post: MANDATORY add entry to lib/all-blog-posts.ts (see Post-Generation Registry below)
-9. After each item: mark ✅ in regional-hub-map.md
-10. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
-11. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
+1. CHECK PRIORITY BACKLOG FIRST — if any ⬜ items remain in the backlog, generate those before touching the opportunity queue. Fill batch from backlog items first, then top up from queue if batch size allows.
+2. Load reports/opportunity-queue.json (only for items beyond the backlog)
+3. If missing or stale (>7 days): WARN, fall back to regional priority from hub map
+4. Build batch (`npm run seo:build-batch -- --count N`) — refresh candidates first (up to 30%)
+5. ENFORCE TRACK BALANCE (see below) — batch must include all 3 tracks
+6. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
+7. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
+8. Generate/update content
+9. After EACH post: MANDATORY add entry to lib/all-blog-posts.ts (see Post-Generation Registry below)
+10. After each item: mark ✅ in regional-hub-map.md AND mark ✅ in Priority Backlog (if applicable)
+11. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
+12. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
 ```
 
 ### MANDATORY: Track Balance Rule
