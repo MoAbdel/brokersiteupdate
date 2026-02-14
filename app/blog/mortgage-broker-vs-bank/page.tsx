@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Comprehensive comparison of mortgage brokers vs banks. Discover how wholesale brokers with 200+ lenders consistently beat bank rates and provide more program options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank',
+      'x-default': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank',
+    },
   },
   openGraph: {
     title: 'Mortgage Broker vs Bank: Why Brokers Save You Thousands [2026]',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Calabasas cash-out refinance 2026: Access equity in your gated community property. Wholesale broker with 50+ lenders for jumbo loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026',
+    },
   },
   openGraph: {
     title: 'Calabasas Cash-Out Refinance 2026 | Gated Community Home Equity',

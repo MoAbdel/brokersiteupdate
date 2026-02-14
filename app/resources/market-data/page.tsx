@@ -21,10 +21,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Housing Market Data 2025 | Real Estate Trends & Stats',
-  description: 'Current Orange County housing market data, trends, and analysis. Home prices, inventory levels, days on market, and neighborhood statistics for informed home buying.',
+  title: 'California & Washington Housing Market Data | Real Estate Trends & Stats',
+  description: 'Current California and Washington housing market data, trends, and analysis, including regional benchmark snapshots for informed home buying and refinancing decisions.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/market-data',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/market-data',
+      'x-default': 'https://www.mothebroker.com/resources/market-data',
+    },
   },
 };
 
@@ -163,12 +167,12 @@ export default function MarketDataPage() {
   const marketInsights = [
     {
       title: 'Inventory Shortage Continues',
-      description: 'With only 1.9 months of inventory, Orange County remains in a strong seller\'s market. Balanced market typically has 4-6 months of supply.',
+      description: 'With only 1.9 months of inventory, the active benchmark cluster remains in a strong seller\'s market. Balanced market typically has 4-6 months of supply.',
       impact: 'Buyers should be prepared for competition and quick decisions'
     },
     {
       title: 'Strong Price Growth Continues',
-      description: 'Annual price growth of 4.1% shows continued strength in the Orange County market, driven by tech sector growth and limited inventory.',
+      description: 'Annual price growth of 4.1% shows continued strength in the active benchmark cluster, driven by resilient demand and limited inventory.',
       impact: 'Strong market fundamentals support continued appreciation'
     },
     {
@@ -191,11 +195,14 @@ export default function MarketDataPage() {
           <div className="text-center">
             <Badge className="bg-white/20 text-white mb-4">Live Market Data</Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Orange County Housing Market Data
+              California &amp; Washington Housing Market Data
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Current market trends, pricing data, and analysis to help you make informed decisions 
-              about buying or selling in Orange County's dynamic real estate market.
+              about buying, refinancing, or investing across California and Washington.
+            </p>
+            <p className="text-sm text-blue-100 max-w-3xl mx-auto mb-8">
+              Current city-level table below uses Orange County as the active benchmark cluster while statewide dashboards continue expanding.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact">
@@ -219,11 +226,11 @@ export default function MarketDataPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              August 2025 Market Snapshot
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">
+              Latest Market Snapshot
             </h2>
             <p className="text-xl text-slate-600">
-              Latest data from Orange County real estate market
+              Latest benchmark data from active regional markets
             </p>
           </div>
 
@@ -283,15 +290,15 @@ export default function MarketDataPage() {
         </div>
       </section>
 
-      {/* City-by-City Data */}
+      {/* City-by-City Data (Orange County benchmark cluster) */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              City-by-City Market Data
+              City-by-City Market Data (Orange County Benchmark)
             </h2>
             <p className="text-xl text-slate-600">
-              Median home prices and key metrics for major Orange County cities
+              Median home prices and key metrics for major Orange County cities used as a benchmark cluster
             </p>
           </div>
 
@@ -340,7 +347,7 @@ export default function MarketDataPage() {
                 Home Price Distribution
               </h2>
               <p className="text-slate-600 mb-8">
-                Breakdown of recent home sales by price range in Orange County
+                Breakdown of recent home sales by price range in the active benchmark cluster
               </p>
               
               <div className="space-y-4">
@@ -440,7 +447,7 @@ export default function MarketDataPage() {
               <div className="text-center">
                 <Target className="w-12 h-12 mx-auto mb-4" />
                 <h2 className="text-2xl font-bold mb-4">
-                  2025 Market Outlook
+                  Market Outlook
                 </h2>
                 <div className="grid md:grid-cols-3 gap-6 text-sm">
                   <div>
@@ -502,7 +509,7 @@ export default function MarketDataPage() {
           </div>
           <div className="mt-8">
             <p className="text-sm text-slate-600">
-              Mo Abdel, NMLS #1426884 | Orange County Market Expert
+              Mo Abdel, NMLS #1426884 | California &amp; Washington Market Expert
             </p>
           </div>
         </div>

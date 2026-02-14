@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Corona del Mar 92625 wholesale mortgage broker specializing in jumbo and bank statement loans. CdM Village, Cameo Shores, Harbor View Hills. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92625-corona-del-mar-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92625-corona-del-mar-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92625-corona-del-mar-2026',
+    },
   },
 };
 

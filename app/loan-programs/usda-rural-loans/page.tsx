@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'USDA rural loans in eligible Orange County areas. 0% down payment, Competitive pricing, income limits apply. Perfect for first-time buyers in rural/suburban areas. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/usda-rural-loans',
+    },
   },
 };
 

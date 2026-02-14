@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Discover the best uses for home equity in 2026. From home renovations and debt consolidation to education and investments, learn smart ways to leverage your equity.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
+      'x-default': 'https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026',
+    },
   },
   keywords: [
     'what can you use home equity for',

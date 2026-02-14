@@ -4,31 +4,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { TrendingDown, Calendar, Shield, CheckCircle, AlertCircle, Calculator } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
   description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
+      'x-default': 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
+    },
   },
 };
 
-const pageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Rate and Term Refinance in Orange County',
-  provider: {
-    '@type': 'FinancialService',
-    name: 'Mo Abdel - Mortgage Broker',
-    url: 'https://www.mothebroker.com'
-  },
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: 'Orange County, CA'
-  },
-  serviceType: 'Rate and Term Refinance',
-  url: 'https://www.mothebroker.com/loan-programs/rate-term-refinance'
-};
+const pageSchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
+  serviceType: 'Rate and Term Refinance Services',
+  serviceName: 'Rate and Term Refinance in Orange County',
+  serviceDescription: 'Expert rate-and-term refinance services in Orange County, CA',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
+  title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
+  description:
+    'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 822-9662.',
+  breadcrumbName: 'Rate-Term Refinance',
+});
 
 export default function RateTermRefinancePage() {
   return (
@@ -36,6 +39,10 @@ export default function RateTermRefinancePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Access wholesale mortgage rates in Costa Mesa through 200+ lenders. Serving Mesa Verde, Eastside, Westside, South Coast Metro. Bank statement loans, jumbo financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa',
+    },
   },
   openGraph: {
     title: 'Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates',

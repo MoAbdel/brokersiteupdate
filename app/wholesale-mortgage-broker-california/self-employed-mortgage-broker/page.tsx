@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Self-employed mortgage broker specialists access 200+ lenders with bank statement, P&L, and asset depletion programs. Get approved when banks say no. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/self-employed-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/self-employed-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/self-employed-mortgage-broker',
+    },
   },
   keywords: ['self-employed mortgage broker', 'self-employed home loan', 'mortgage broker for business owners', 'self-employed mortgage california', '1099 mortgage broker'],
 };

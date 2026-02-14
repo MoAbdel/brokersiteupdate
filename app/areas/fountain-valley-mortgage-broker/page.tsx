@@ -41,6 +41,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/fountain-valley-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/fountain-valley-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/fountain-valley-mortgage-broker',
+    },
   },
 };
 

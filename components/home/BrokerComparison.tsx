@@ -12,7 +12,7 @@ export default function BrokerComparison() {
             Mortgage Broker vs Big Banks: See the Difference
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Why Orange County homebuyers choose mortgage brokers for Better pricing and service
+            Why California and Washington homebuyers choose mortgage brokers for better pricing and service
           </p>
         </div>
 

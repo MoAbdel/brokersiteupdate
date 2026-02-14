@@ -19,7 +19,7 @@ export default function PopularPrograms() {
         <section className="py-16 bg-white">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-8">
-                    Popular Orange County Mortgage Programs
+                    Popular Mortgage Programs
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {programs.map((program) => (

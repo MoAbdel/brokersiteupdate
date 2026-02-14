@@ -33,8 +33,8 @@ interface SchemaProps {
 
 export default function AdvancedSchemaMarkup({
   type,
-  name = "Mo Abdel - California Mortgage Broker | Lumin Lending",
-  description = "Mortgage broker serving California with direct access to 100+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
+  name = "Mo Abdel - California & Washington Mortgage Broker | Lumin Lending",
+  description = "Mortgage broker serving California and Washington with direct access to 200+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://www.mothebroker.com",
   telephone = PHONE_E164,
   significantLinks = [
@@ -52,11 +52,13 @@ export default function AdvancedSchemaMarkup({
     addressCountry: "US"
   },
   areaServed = [
-    "Irvine, CA", "Newport Beach, CA", "Huntington Beach, CA", "Costa Mesa, CA",
-    "Mission Viejo, CA", "Anaheim, CA", "Santa Ana, CA", "Fullerton, CA",
-    "Westminster, CA", "Garden Grove, CA", "Orange, CA", "Fountain Valley, CA",
-    "Laguna Beach, CA", "Yorba Linda, CA", "Dana Point, CA", "Laguna Niguel, CA",
-    "Laguna Woods, CA", "Seal Beach, CA"
+    "California",
+    "Washington",
+    "Orange County, CA",
+    "Irvine, CA",
+    "Newport Beach, CA",
+    "Seattle, WA",
+    "Bellevue, WA"
   ],
   services = [
     "Mortgage Broker Services", "Home Purchase Loans", "Refinancing",
@@ -104,7 +106,7 @@ export default function AdvancedSchemaMarkup({
         ...address
       },
       areaServed: areaServed.map(area => ({
-        "@type": "City",
+        "@type": "Place",
         name: area
       })),
       openingHours,

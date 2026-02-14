@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: 'Orange County FHA loans with 3.5% down payment. Licensed broker Mo Abdel (NMLS #1426884) offers competitive FHA rates across all OC cities. Free consultation!',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-fha-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/orange-county-fha-loans',
+      'x-default': 'https://www.mothebroker.com/orange-county-fha-loans',
+    },
   },
 };
 

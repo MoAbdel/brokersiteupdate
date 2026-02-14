@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
+    },
   },
 };
 
@@ -50,11 +54,11 @@ export default function WholesaleVsRetailMortgagePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Choosing a **wholesale mortgage broker** over a retail bank in 2025 is the most effective way to access **institutional pricing** and avoid the high overhead costs of traditional branch-based lending. Unlike retail banks (like Chase or Wells Fargo) or online lenders (like Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to over **50+ lenders**, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles.
+                        Choosing a **wholesale mortgage broker** over a retail bank in 2026 is the most effective way to access **institutional pricing** and avoid the high overhead costs of traditional branch-based lending. Unlike retail banks (like Chase or Wells Fargo) or online lenders (like Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to over **50+ lenders**, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles.
                     </p>
                 </div>
 
-                <h2>How does the mortgage distribution chain work in 2025?</h2>
+                <h2>How does the mortgage distribution chain work in 2026?</h2>
                 <p>
                     The mortgage industry operates through a distribution system similar to other financial products. Based on my years in the industry, understanding this chain is the first step to saving money:
                 </p>

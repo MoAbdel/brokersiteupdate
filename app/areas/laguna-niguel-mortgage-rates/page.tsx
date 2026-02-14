@@ -3,15 +3,19 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Laguna Niguel Mortgage Rates 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  title: 'Laguna Niguel Mortgage Rates 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
   description: 'Current Laguna Niguel mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Laguna Niguel CA. Licensed mortgage broker Mo Abdel NMLS #1426884.',
   openGraph: {
-    title: 'Laguna Niguel Mortgage Rates 2025 | Best Home Loan Rates CA',
+    title: 'Laguna Niguel Mortgage Rates 2026 | Best Home Loan Rates CA',
     description: 'Current Laguna Niguel mortgage rates and home loan options. Compare FHA, VA, conventional, jumbo rates in Laguna Niguel CA.',
     type: 'website',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/laguna-niguel-mortgage-rates',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/laguna-niguel-mortgage-rates',
+      'x-default': 'https://www.mothebroker.com/areas/laguna-niguel-mortgage-rates',
+    },
   },
 };
 

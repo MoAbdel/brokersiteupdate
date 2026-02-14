@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Investment property cash-out refinance 2026: Access rental property equity for portfolio growth. Wholesale broker with 50+ lenders including DSCR options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026',
+    },
   },
   openGraph: {
     title: 'Investment Property Cash-Out Refinance 2026 | Grow Your Portfolio',

@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'Foreign national loans in Orange County for non-US citizens. No US credit history required. 25-40% down payment. Purchase or refinance. International buyer specialist. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/foreign-national-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/foreign-national-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/foreign-national-loans',
+    },
   },
   robots: {
     index: false,

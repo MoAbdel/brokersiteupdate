@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { Phone, Mail, MapPin, Heart, Home, Users } from 'lucide-react';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
@@ -11,12 +12,28 @@ export const metadata: Metadata = {
     'Meet Mo Abdel, a licensed mortgage broker helping Orange County buyers and homeowners secure better mortgage options through a wholesale lender network.',
   alternates: {
     canonical: 'https://www.mothebroker.com/about',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/about',
+      'x-default': 'https://www.mothebroker.com/about',
+    },
   },
 };
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/about',
+  title: 'About Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
+  description:
+    'Meet Mo Abdel, a licensed mortgage broker helping Orange County buyers and homeowners secure better mortgage options through a wholesale lender network.',
+  breadcrumbName: 'About',
+});
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-900 to-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

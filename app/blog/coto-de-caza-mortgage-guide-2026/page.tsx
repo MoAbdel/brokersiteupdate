@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Coto de Caza mortgage broker 2026: Jumbo loan specialist for gated community estates. Access 50+ wholesale lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/coto-de-caza-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/coto-de-caza-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/coto-de-caza-mortgage-guide-2026',
+    },
   },
   openGraph: {
     title: 'Coto de Caza Mortgage Broker 2026 | Gated Community Jumbo Loans',

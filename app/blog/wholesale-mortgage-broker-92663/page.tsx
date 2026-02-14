@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92663',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92663',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92663',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) Jumbo Loan Specialists',

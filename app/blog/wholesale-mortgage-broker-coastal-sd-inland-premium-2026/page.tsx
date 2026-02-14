@@ -28,6 +28,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
+    },
   },
 };
 

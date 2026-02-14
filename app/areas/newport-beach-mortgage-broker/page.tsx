@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: 'Newport Beach luxury home financing and jumbo loans. Serving Corona del Mar, Balboa Island. Orange County broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/newport-beach-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/newport-beach-mortgage-broker',
+    },
   },
 };
 
@@ -464,7 +468,7 @@ export default function NewportBeachMortgageBrokerPage() {
                     <Link href="/orange-county-jumbo-loans" className="block text-blue-600 hover:text-blue-700 font-medium">
                       Orange County Jumbo Loans →
                     </Link>
-                    <Link href="/loan-programs/heloc" className="block text-blue-600 hover:text-blue-700 font-medium">
+                    <Link href="/heloc-orange-county" className="block text-blue-600 hover:text-blue-700 font-medium">
                       HELOC for Luxury Homes →
                     </Link>
                     <Link href="/areas/corona-del-mar-mortgage-broker" className="block text-blue-600 hover:text-blue-700 font-medium">

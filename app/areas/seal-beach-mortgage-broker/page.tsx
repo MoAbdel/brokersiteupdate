@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   keywords: ['Seal Beach mortgage broker', 'Seal Beach home loans', 'Seal Beach mortgage rates 2026', 'wholesale mortgage Seal Beach'],
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/seal-beach-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/seal-beach-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/seal-beach-mortgage-broker',
+    },
   },
   openGraph: {
     title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',

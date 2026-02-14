@@ -3,37 +3,39 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Home, DollarSign, TrendingUp, Users, CheckCircle, CreditCard } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'FHA Loans in Orange County, CA | Low Down Payment Options',
-  description: 'Buy a home in Orange County with as little as 3.5% down. FHA loans available through Mo The Broker.',
+  title: 'Orange County FHA Loans | 3.5% Down Options | Mo Abdel',
+  description: 'Explore Orange County FHA loans with 3.5% down, flexible credit guidelines, and high-cost limits. Get a fast quote from Mo Abdel (NMLS #1426884).',
   openGraph: {
-    title: 'FHA Loans in Orange County, CA | Low Down Payment Options',
-    description: 'Buy a home in Orange County with as little as 3.5% down. FHA loans available through Mo The Broker.',
+    title: 'Orange County FHA Loans | 3.5% Down Options | Mo Abdel',
+    description: 'Explore Orange County FHA loans with 3.5% down, flexible credit guidelines, and high-cost limits. Get a fast quote from Mo Abdel (NMLS #1426884).',
     url: 'https://www.mothebroker.com/fha-loans-orange-county',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/fha-loans-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/fha-loans-orange-county',
+      'x-default': 'https://www.mothebroker.com/fha-loans-orange-county',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
-  "serviceType": "FHA Loans",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/fha-loans-orange-county",
-  "description": "Expert FHA loan services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/fha-loans-orange-county',
+  serviceType: 'FHA Home Loan Services',
+  serviceName: 'Orange County FHA Loans',
+  serviceDescription: 'Expert FHA home loan services in Orange County, CA',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/fha-loans-orange-county',
+  title: 'Orange County FHA Loans | 3.5% Down Options | Mo Abdel',
+  description:
+    'Explore Orange County FHA loans with 3.5% down, flexible credit guidelines, and high-cost limits. Get a fast quote from Mo Abdel (NMLS #1426884).',
+  breadcrumbName: 'FHA Loans',
+});
 
 const fhaBenefits = [
   {
@@ -113,7 +115,7 @@ const fhaRequirements = [
   {
     category: 'Orange County Specific',
     requirements: [
-      'Loan amount cannot exceed $1,266,300 (2025 limit)',
+      'Loan amount cannot exceed $1,266,300 (2026 limit)',
       'Property must be within Orange County boundaries',
       'Competitive market requires strong pre-approval',
       'Local market knowledge essential for success'
@@ -123,8 +125,8 @@ const fhaRequirements = [
 
 const faqs = [
   {
-    question: "What are the 2025 FHA loan limits in Orange County?",
-    answer: "The 2025 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
+    question: "What are the 2026 FHA loan limits in Orange County?",
+    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
   },
   {
     question: "What's the difference between FHA and conventional loans in Orange County?",
@@ -184,6 +186,10 @@ export default function FHALoansOrangeCountyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -218,20 +224,20 @@ export default function FHALoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 FHA Loan Limits */}
+          {/* 2026 FHA Loan Limits */}
           <section className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2025 FHA Loan Limits in Orange County
+              2026 FHA Loan Limits in Orange County
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center">
-                The 2025 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
+                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
                 matching the conforming high-cost limit for this area.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
                   <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
-                  <p className="text-slate-700">2025 FHA Loan Limit</p>
+                  <p className="text-slate-700">2026 FHA Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
@@ -432,7 +438,7 @@ export default function FHALoansOrangeCountyPage() {
               <Link href="/va-loans-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">VA Loans</span>
               </Link>
-              <Link href="/areas/irvine" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Irvine FHA Loans</span>
               </Link>
             </div>

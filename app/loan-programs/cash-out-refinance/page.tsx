@@ -3,31 +3,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { DollarSign, TrendingUp, CheckCircle, AlertCircle, Calculator, Shield } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
   description: 'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
+      'x-default': 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
+    },
   },
 };
 
-const pageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Cash-Out Refinance in Orange County',
-  provider: {
-    '@type': 'FinancialService',
-    name: 'Mo Abdel - Mortgage Broker',
-    url: 'https://www.mothebroker.com'
-  },
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: 'Orange County, CA'
-  },
-  serviceType: 'Cash-Out Refinance',
-  url: 'https://www.mothebroker.com/loan-programs/cash-out-refinance'
-};
+const pageSchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
+  serviceType: 'Cash-Out Refinance Services',
+  serviceName: 'Cash-Out Refinance in Orange County',
+  serviceDescription: 'Expert cash-out refinance services in Orange County, CA',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
+  title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
+  description:
+    'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through Lumin Lending. Call (949) 822-9662.',
+  breadcrumbName: 'Cash-Out Refinance',
+});
 
 export default function CashOutRefinancePage() {
   return (
@@ -35,6 +38,10 @@ export default function CashOutRefinancePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Expert neighborhood buying guides for Orange County home buyers. Compare Irvine vs Newport Beach, analyze market trends, schools, prices and mortgage options by area.',
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/neighborhood-guide',
+      'x-default': 'https://www.mothebroker.com/neighborhood-guide',
+    },
   },
 };
 

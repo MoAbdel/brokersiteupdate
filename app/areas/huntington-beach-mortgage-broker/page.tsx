@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Huntington Beach home loans and beach property financing. Orange County mortgage specialist. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/huntington-beach-mortgage-broker',
+    },
   },
 };
 

@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Complete mortgage FAQ with professional answers by licensed broker Mo Abdel (NMLS #1426884). Expert guidance on rates, qualification, process, and Orange County market.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/comprehensive-mortgage-faq',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/comprehensive-mortgage-faq',
+      'x-default': 'https://www.mothebroker.com/resources/comprehensive-mortgage-faq',
+    },
   },
 };
 

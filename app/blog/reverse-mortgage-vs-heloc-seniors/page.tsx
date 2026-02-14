@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage vs HELOC for seniors: Compare no monthly payments (HECM) vs required payments (HELOC). Complete 2026 comparison guide for homeowners 62+. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-vs-heloc-seniors',
+    },
   },
   openGraph: {
     title: 'Reverse Mortgage vs HELOC for Seniors: Which Is Better in 2026?',

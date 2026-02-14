@@ -26,12 +26,16 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-08T00:00:00Z',
+    publishedTime: '2026-01-08T00:00:00Z',
     modifiedTime: '2026-02-13T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
+    },
   },
 };
 
@@ -123,7 +127,7 @@ export default function NewportCoastMortgageGuide2026() {
               identifier: 'NMLS #2716106',
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
-            datePublished: '2025-01-08',
+            datePublished: '2026-01-08',
             dateModified: '2026-02-13',
             description: 'Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in institutional jumbo, asset-depletion, bank statement, and foreign national financing for Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge estates.',
             mainEntityOfPage: {

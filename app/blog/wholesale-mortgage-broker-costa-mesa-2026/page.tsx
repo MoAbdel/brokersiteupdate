@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Find the best wholesale mortgage rates in Costa Mesa. Bank statement loans, jumbo financing, and 200+ lender access for Costa Mesa homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa-2026',
+    },
   },
 };
 

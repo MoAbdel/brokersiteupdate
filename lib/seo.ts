@@ -1,23 +1,23 @@
 export const seoData = {
   Home: {
-    title: "Orange County Mortgage Broker | 200+ Lender Options | Mo Abdel",
-    description: "Licensed mortgage broker serving Orange County with access to 200+ wholesale lenders for lower rates, faster closings, and tailored purchase or refinance solutions. NMLS #1426884."
+    title: "California & Washington Mortgage Broker | 200+ Lender Options | Mo Abdel",
+    description: "Licensed mortgage broker serving California and Washington with access to 200+ wholesale lenders for lower rates, faster closings, and tailored purchase or refinance solutions. NMLS #1426884."
   },
   About: {
-    title: "About Mo Abdel | Orange County Mortgage Broker",
-    description: "Meet Mo Abdel, a licensed mortgage broker helping buyers and homeowners compare lender options, secure better terms, and close faster in Orange County and beyond."
+    title: "About Mo Abdel | California & Washington Mortgage Broker",
+    description: "Meet Mo Abdel, a licensed mortgage broker helping buyers and homeowners compare lender options, secure better terms, and close faster across California and Washington."
   },
   Programs: {
     title: "Mortgage Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM",
     description: "Compare major mortgage and refinance options, including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs, with guidance tailored to your goals."
   },
   Calculator: {
-    title: "Mortgage Calculator | Orange County Rates & Payments",
+    title: "Mortgage Calculator | California & Washington Rates & Payments",
     description: "Use our free mortgage pricing calculator to estimate your monthly payments, compare loan types, and explore refinancing options."
   },
   Contact: {
-    title: "Contact | Orange County Mortgage Broker | Mo Abdel",
-    description: "Start your mortgage application with Mo Abdel. Serving Orange County & beyond with personalized loan solutions and Competitive pricing."
+    title: "Contact | California & Washington Mortgage Broker | Mo Abdel",
+    description: "Start your mortgage application with Mo Abdel. Serving California and Washington with personalized loan solutions and competitive pricing."
   }
 };
 
@@ -41,7 +41,7 @@ export const structuredData = {
       "Real Estate Finance",
       "Refinancing Strategies",
       "Wholesale Mortgage Operations",
-      "Orange County Real Estate Market",
+      "California and Washington Real Estate Markets",
       "Home Equity Solutions",
       "FHA & VA Loan Programs",
       "HECM",
@@ -101,7 +101,7 @@ export const structuredData = {
     },
     {
       "@type": "AdministrativeArea",
-      "name": "Orange County, CA"
+      "name": "California and Washington"
     },
     {
       "@type": "AdministrativeArea",
@@ -156,7 +156,7 @@ export const structuredData = {
   "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
   "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
   "currenciesAccepted": "USD",
-  "keywords": "mortgage broker near me, Orange County mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing",
+  "keywords": "mortgage broker near me, California mortgage broker, Washington mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing",
   "potentialAction": [
     {
       "@type": "ScheduleAction",
@@ -180,8 +180,8 @@ export const structuredData = {
 export const mortgageLoanSchema = {
   "@context": "https://schema.org",
   "@type": "LoanOrCredit",
-  "name": "Orange County Mortgage Refinance Loans",
-  "description": "HELOC, HELOAN, Cash-Out, and Rate & Term Refinance loans with competitive pricing in Orange County, CA",
+  "name": "California and Washington Mortgage Refinance Loans",
+  "description": "HELOC, HELOAN, cash-out, and rate-and-term refinance loans with competitive pricing across California and Washington",
   "provider": {
     "@type": "FinancialService",
     "name": "Mo Abdel - Mortgage Broker",

@@ -4,18 +4,46 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Crown, TrendingUp, Shield, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
-  description: 'Jumbo loans for Orange County luxury homes above $1,266,300. Competitive rates for high-value properties. NMLS #1426884.',
+  description: 'Jumbo loans for Orange County luxury homes above $1,249,125. Competitive rates for high-value properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/jumbo-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/jumbo-loans',
+    },
   },
 };
+
+const pageEntitySchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
+  serviceType: 'Jumbo Refinance and High-Balance Mortgage Services',
+  serviceName: 'Orange County Jumbo Loans',
+  serviceDescription: 'Jumbo mortgage and refinance services for high-value Orange County properties.',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
+  title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
+  description:
+    'Jumbo loans for Orange County luxury homes above $1,249,125. Competitive rates for high-value properties. NMLS #1426884.',
+  breadcrumbName: 'Jumbo Loans',
+});
 
 export default function JumboLoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageEntitySchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         
         {/* Header */}
@@ -27,7 +55,7 @@ export default function JumboLoansPage() {
             <span className="text-purple-600">Jumbo Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Finance luxury Orange County homes above $1,266,300 with competitive jumbo mortgage 
+            Finance luxury Orange County homes above $1,249,125 with competitive jumbo mortgage 
             rates. No loan amount limits, flexible terms, and personalized service for 
             high-value properties and sophisticated borrowers.
           </p>
@@ -79,7 +107,7 @@ export default function JumboLoansPage() {
 
         {/* Jumbo Loan Thresholds */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Jumbo Loan Thresholds</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Jumbo Loan Thresholds</h2>
           <div className="bg-purple-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -87,11 +115,11 @@ export default function JumboLoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Conforming Limit:</span>
-                    <span className="font-bold text-slate-600">$1,266,300</span>
+                    <span className="font-bold text-slate-600">$1,249,125</span>
                   </div>
                   <div className="flex justify-between border-t pt-2">
                     <span className="text-slate-600">Jumbo Threshold:</span>
-                    <span className="font-bold text-purple-600">$1,266,301+</span>
+                    <span className="font-bold text-purple-600">$1,249,126+</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Maximum Loan Amount:</span>
@@ -299,7 +327,7 @@ export default function JumboLoansPage() {
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Amount Limit</td>
                   <td className="px-6 py-4 text-center text-purple-600 font-bold">No Limit</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,266,300 max</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,249,125 max</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Down Payment</td>

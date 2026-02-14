@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to wholesale mortgage brokers in California 2026. Access 200+ wholesale lenders, save 0.25-0.75% vs banks. Learn how wholesale pricing works, compare broker vs bank costs, and find licensed California mortgage brokers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-pillar-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-pillar-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-pillar-2026',
+    },
   },
 };
 

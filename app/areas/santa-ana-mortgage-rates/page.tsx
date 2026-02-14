@@ -3,15 +3,19 @@ import type { Metadata } from 'next';
 import CityPageTemplate from '@/components/seo/CityPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Santa Ana Mortgage pricing 2025 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
+  title: 'Santa Ana Mortgage pricing 2026 | Best Home Loan Rates CA | Mo Abdel NMLS #1426884',
   description: 'Current Santa Ana mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Santa Ana CA. Licensed mortgage broker Mo Abdel (949) 822-9662.',
   openGraph: {
-    title: 'Santa Ana Mortgage pricing 2025 | Best Home Loan Rates CA',
+    title: 'Santa Ana Mortgage pricing 2026 | Best Home Loan Rates CA',
     description: 'Current Santa Ana mortgage pricing and home loan options. Compare FHA, VA, conventional rates in Santa Ana CA.',
     type: 'website',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/santa-ana-mortgage-rates',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/santa-ana-mortgage-rates',
+      'x-default': 'https://www.mothebroker.com/areas/santa-ana-mortgage-rates',
+    },
   },
 };
 

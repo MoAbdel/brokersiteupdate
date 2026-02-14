@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Find the best wholesale mortgage rates in Yorba Linda. Jumbo loans, bank statement programs, and 200+ lender access for Yorba Linda homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda-2026',
+    },
   },
 };
 

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage Rancho Santa Fe guide for seniors 62+. Learn HECM eligibility for this exclusive community and how to access estate property equity. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-rancho-santa-fe-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-rancho-santa-fe-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-rancho-santa-fe-2026',
+    },
   },
 };
 

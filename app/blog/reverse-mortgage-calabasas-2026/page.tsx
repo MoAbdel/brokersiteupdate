@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage Calabasas guide for seniors 62+. Learn HECM eligibility, The Oaks home values, and how to access your Calabasas equity. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-calabasas-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-calabasas-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-calabasas-2026',
+    },
   },
 };
 

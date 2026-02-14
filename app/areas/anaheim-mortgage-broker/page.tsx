@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Anaheim mortgage broker with competitive rates. HELOC, refinancing, FHA, VA, and conventional loans. Serving Disneyland area, Anaheim Hills, Downtown. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/anaheim-mortgage-broker',
+    },
   },
 };
 

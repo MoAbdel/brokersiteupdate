@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/va-refinance',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/va-refinance',
+      'x-default': 'https://www.mothebroker.com/loan-programs/va-refinance',
+    },
   },
 };
 
@@ -78,7 +82,7 @@ export default function VALoansPage() {
         </div>
 
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 VA Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits in Orange County</h2>
           <div className="bg-red-50 p-8 rounded-2xl max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Orange County VA Limits</h3>
             <div className="space-y-4 max-w-md mx-auto">

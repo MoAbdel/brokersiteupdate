@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Spectrum wholesale mortgage broker serving 92618. Access 200+ lenders for jumbo loans near Great Park and Spectrum Center. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92618',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92618',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92618',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92618 | Irvine Spectrum Jumbo Specialists',

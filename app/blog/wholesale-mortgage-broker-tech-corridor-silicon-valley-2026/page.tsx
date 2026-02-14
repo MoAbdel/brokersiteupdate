@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
+    },
   },
 };
 

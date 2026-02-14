@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Corona del Mar wholesale mortgage broker serving 92625. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92625 | Corona del Mar Jumbo Loan Specialists',

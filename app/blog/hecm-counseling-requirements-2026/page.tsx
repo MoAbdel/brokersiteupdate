@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to HUD-approved HECM counseling requirements for 2026. Learn what to expect, how to find approved counselors, costs, and how counseling protects seniors.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
+      'x-default': 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
+    },
   },
   keywords: [
     'HUD reverse mortgage counseling',

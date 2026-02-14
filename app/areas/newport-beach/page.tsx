@@ -1,19 +1,30 @@
 import SeoServicePage from '@/app/(marketing)/components/SeoServicePage';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
   description:
     'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
-  alternates: { canonical: 'https://www.mothebroker.com/areas/newport-beach' },
+  alternates: {
+    canonical: 'https://www.mothebroker.com/areas/newport-beach',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/newport-beach',
+      'x-default': 'https://www.mothebroker.com/areas/newport-beach',
+    },
+  },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Mortgage Broker | Jumbo Loans & Luxury Home Financing',
+    description:
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
     url: 'https://www.mothebroker.com/areas/newport-beach',
+    type: 'website',
   },
 };
 
 export default function Page() {
+  const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
     { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 100+ wholesale lenders to secure competitive pricing for high-value properties.' },
     { q: 'What about unique Newport Beach properties like waterfront homes?', a: 'We specialize in unique Newport Beach properties including waterfront, luxury condos, and custom homes. Our lenders understand these specialized property types.' },
@@ -23,16 +34,14 @@ export default function Page() {
     { q: 'Are there benefits to working locally in Newport Beach?', a: 'Yes, we understand Newport Beach\'s diverse neighborhoods, work with local appraisers familiar with luxury properties, and have relationships with area real estate professionals.' },
   ];
 
-  const localBusiness = {
-    '@context': 'https://schema.org',
-    '@type': 'MortgageBroker',
-    name: 'Mo Abdel - Lumin Lending - Newport Beach',
-    areaServed: 'Newport Beach, Orange County, CA',
-    url: 'https://www.mothebroker.com/areas/newport-beach',
-    telephone: '+1-949-822-9662',
-    address: { '@type': 'PostalAddress', streetAddress: '18301 Von Karman Ave Suite 820', addressLocality: 'Irvine', addressRegion: 'CA', postalCode: '92612', addressCountry: 'US' },
-    description: 'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 100+ lenders.',
-  };
+  const localBusiness = buildBrokerEntityGraph({
+    pageUrl: 'https://www.mothebroker.com/areas/newport-beach',
+    serviceType: 'Newport Beach Mortgage Brokerage Services',
+    serviceName: 'Newport Beach Mortgage Broker',
+    serviceDescription:
+      'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 100+ lenders.',
+    areaServedName: 'Newport Beach, Orange County, CA',
+  });
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -43,6 +52,14 @@ export default function Page() {
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   };
+
+  const pageSchema = buildServiceWebPageSchema({
+    pageUrl: 'https://www.mothebroker.com/areas/newport-beach',
+    title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
+    description:
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
+    breadcrumbName: 'Newport Beach',
+  });
 
   const sections = [
     {
@@ -176,9 +193,9 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOC options for luxury homes', href: '/loan-programs/heloc' },
-    { label: 'Cash-out refinancing guide', href: '/loan-programs/cash-out-refinance' },
-    { label: 'Home equity loan comparison', href: '/loan-programs/heloan' },
+    { label: 'HELOC options for luxury homes', href: '/heloc-orange-county' },
+    { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
+    { label: 'Home equity loan comparison', href: '/heloan-orange-county' },
     { label: 'Newport Beach neighborhoods', href: '/areas/newport-beach-neighborhoods' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
@@ -193,11 +210,12 @@ export default function Page() {
         subtitle="Jumbo • Luxury • Waterfront • Investment • HELOC"
         city="Newport Beach"
         slug="areas/newport-beach"
-        lastUpdatedISO={new Date().toISOString()}
+        lastUpdatedISO={LAST_UPDATED_ISO}
         sections={sections}
         faqs={faqs}
         internalLinks={links}
       />
+      <JsonLd json={pageSchema} />
       <JsonLd json={localBusiness} />
       <JsonLd json={faqSchema} />
     </>

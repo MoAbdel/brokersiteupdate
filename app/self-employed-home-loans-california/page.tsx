@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
     canonical: 'https://www.mothebroker.com/self-employed-home-loans-california',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/self-employed-home-loans-california',
+      'x-default': 'https://www.mothebroker.com/self-employed-home-loans-california',
+    },
   },
 };
 

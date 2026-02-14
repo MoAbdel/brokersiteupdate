@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Pacific Palisades guide 2026: Compare jumbo HELOC, home equity loans, and cash-out refinance for The Riviera, Castellammare, and Marquez Knolls. Median values $4.5M. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026',
+    },
   },
   openGraph: {
     title: 'Home Equity Options in Pacific Palisades, CA: HELOC, HELOAN & Cash-Out [2026]',

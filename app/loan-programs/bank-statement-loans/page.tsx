@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Bank statement loans for Orange County self-employed borrowers. No tax returns required. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/bank-statement-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/bank-statement-loans',
+    },
   },
 };
 

@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'California wholesale mortgage broker with 200+ lender access. Learn how wholesale pricing beats bank rates for jumbo, bank statement & non-QM loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california',
+    },
   },
   keywords: ['wholesale mortgage broker california', 'california wholesale mortgage', 'wholesale mortgage rates california', 'mortgage broker vs bank california'],
 };

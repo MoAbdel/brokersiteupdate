@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/fha-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/fha-loans',
+    },
   },
 };
 
@@ -80,7 +84,7 @@ export default function FHALoansPage() {
 
         {/* FHA Loan Limits 2025 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 FHA Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 FHA Loan Limits in Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>

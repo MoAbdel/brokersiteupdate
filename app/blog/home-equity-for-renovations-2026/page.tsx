@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'How to use HELOC, HELOAN, or cash-out refinance for home renovations. ROI by project type, tax implications, and best financing options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-for-renovations-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-for-renovations-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-for-renovations-2026',
+    },
   },
 };
 

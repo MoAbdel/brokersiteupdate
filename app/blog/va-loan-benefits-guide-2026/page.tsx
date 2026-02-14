@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'VA loan benefits guide 2026: Zero down payment, no PMI, competitive rates for veterans. Access 50+ wholesale lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/va-loan-benefits-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/va-loan-benefits-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/va-loan-benefits-guide-2026',
+    },
   },
   openGraph: {
     title: 'VA Loan Benefits Guide 2026 | Military Home Loan Advantages',

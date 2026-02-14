@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Malibu guide 2026: Jumbo HELOC, home equity loans, and cash-out refinance for beachfront and coastal properties. Median value $3.2M. Wildfire insurance and renovation financing solutions. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-malibu-ca-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-malibu-ca-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-malibu-ca-2026',
+    },
   },
   keywords: 'Malibu home equity, Malibu HELOC, Malibu cash-out refinance, jumbo equity Malibu, Malibu Colony mortgage, beachfront home equity, coastal property financing, Malibu home renovation loan',
 };

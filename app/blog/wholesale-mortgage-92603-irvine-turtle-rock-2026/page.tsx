@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Turtle Rock 92603 wholesale mortgage broker with 200+ lender access. Jumbo loans for self-employed, Shady Canyon & Turtle Ridge financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026',
+    },
   },
 };
 

@@ -4,47 +4,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, CheckCircle, Home, Calculator, Award, Building } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Jumbo Loans Orange County 2025 | High-Balance Mortgage Financing',
-  description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with Competitive pricing and flexible terms.',
+  title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
+  description: 'Get jumbo loans in Orange County above $1,249,125 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/jumbo-loans-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/jumbo-loans-orange-county',
+      'x-default': 'https://www.mothebroker.com/jumbo-loans-orange-county',
+    },
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo Abdel - Jumbo Loan Specialist",
-  "description": "Specialized jumbo loan services for high-value homes in Orange County, California. Financing above $1,209,750 with Competitive pricing.",
-  "serviceType": "Jumbo Loans and High-Balance Home Financing",
-  "provider": {
-    "@type": "Person",
-    "name": "Mo Abdel",
-    "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 822-9662",
-    "email": "mo.abdel@luminlending.com"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Orange County, California"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA",
-    "addressCountry": "US"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/jumbo-loans-orange-county",
-  "sameAs": [
-    "https://www.facebook.com/mothebroker",
-    "https://www.linkedin.com/in/mo-abdel-mortgage"
-  ],
-  "openingHours": "Mo-Fr 09:00-18:00",
-  "priceRange": "Competitive jumbo loan pricing"
-};
+const jsonLd = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/jumbo-loans-orange-county',
+  serviceType: 'Jumbo Loan and High-Balance Home Financing',
+  serviceName: 'Orange County Jumbo Loans',
+  serviceDescription: 'Specialized jumbo loan services for high-value homes in Orange County, California.',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/jumbo-loans-orange-county',
+  title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
+  description:
+    'Get jumbo loans in Orange County above $1,249,125 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
+  breadcrumbName: 'Jumbo Loans',
+});
 
 export default function JumboLoansOrangeCountyPage() {
   return (
@@ -52,6 +39,10 @@ export default function JumboLoansOrangeCountyPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -62,10 +53,10 @@ export default function JumboLoansOrangeCountyPage() {
               🏰 Luxury Home Financing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Jumbo Loans Orange County 2025 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
+              Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-              Finance luxury homes above $1,209,750 in Orange County with competitive jumbo loans. 
+              Finance luxury homes above $1,249,125 in Orange County with competitive jumbo loans. 
               Mo Abdel specializes in high-balance mortgage financing for Newport Beach, Irvine, Laguna Beach, and premium properties throughout OC.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -82,18 +73,18 @@ export default function JumboLoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 Jumbo Loan Limits */}
+          {/* 2026 Jumbo Loan Limits */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">2025 Jumbo Loan Limits Orange County</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">2026 Jumbo Loan Limits Orange County</h2>
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
-                  <div className="text-slate-600">2025 Conforming Loan Limit</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,249,125</div>
+                  <div className="text-slate-600">2026 Conforming Loan Limit</div>
                   <div className="text-sm text-slate-500 mt-1">Maximum conventional loan</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">$1,209,751+</div>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">$1,249,126+</div>
                   <div className="text-slate-600">Jumbo Loan Territory</div>
                   <div className="text-sm text-slate-500 mt-1">Above conforming limits</div>
                 </div>
@@ -104,7 +95,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
               </div>
               <div className="bg-purple-50 p-6 rounded-lg">
-                <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2025:</h3>
+                <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Finance luxury homes throughout Orange County without borrowing restrictions</li>
                   <li>• Competitive loan pricing for high-balance mortgages</li>
@@ -203,7 +194,7 @@ export default function JumboLoansOrangeCountyPage() {
 
           {/* Jumbo vs Conventional Comparison */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">Jumbo vs Conventional Loans Orange County 2025</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">Jumbo vs Conventional Loans Orange County 2026</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
                 <thead className="bg-purple-600 text-white">
@@ -216,9 +207,9 @@ export default function JumboLoansOrangeCountyPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold">Orange County 2025 Limits</td>
-                    <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,209,751 - $3M</td>
-                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,209,750</td>
+                    <td className="px-6 py-4 font-semibold">Orange County 2026 Limits</td>
+                    <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,249,126 - $3M</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,249,125</td>
                     <td className="px-6 py-4 text-center text-pink-600 font-bold">$3M+</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
@@ -306,7 +297,7 @@ export default function JumboLoansOrangeCountyPage() {
               <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Minimum Loan Amount:</span>
-                  <span className="font-bold text-purple-600">$1,209,751</span>
+                  <span className="font-bold text-purple-600">$1,249,126</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Typical Down Payment:</span>
@@ -345,7 +336,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Finance luxury homes above $1,209,750 in Orange County. Perfect for high-end 
+                    Finance luxury homes above $1,249,125 in Orange County. Perfect for high-end 
                     properties in Newport Beach, Irvine, and premium OC communities.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
@@ -544,7 +535,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2025. 
+                    Any mortgage above $1,249,125 in Orange County is considered a jumbo loan in 2026.
                     This includes most luxury homes in Newport Beach, high-end Irvine properties, 
                     and premium communities throughout OC where home values exceed conforming limits.
                   </p>

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Cash-out vs regular refinance comparison 2026. Understand the differences between cash-out and rate-and-term refinancing. Which option saves you more? NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-2026',
+    },
   },
   openGraph: {
     title: 'Cash-Out vs Regular Refinance 2026: Which Is Right for You?',

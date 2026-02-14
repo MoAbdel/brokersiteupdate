@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Learn how wholesale mortgage brokers access 200+ lenders to find better rates, more approvals, and faster closings than any single bank. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/200-lender-advantage-explained-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/200-lender-advantage-explained-2026',
+      'x-default': 'https://www.mothebroker.com/blog/200-lender-advantage-explained-2026',
+    },
   },
 };
 

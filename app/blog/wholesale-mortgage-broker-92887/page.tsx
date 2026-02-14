@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Yorba Linda Black Gold wholesale mortgage broker serving 92887. Access 200+ lenders for jumbo loans, equestrian properties & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92887',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92887',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92887',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92887 | Yorba Linda Black Gold Jumbo Specialists',

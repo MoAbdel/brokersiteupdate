@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: 'Meet Mo Abdel, your trusted Orange County mortgage broker with NMLS #1426884. Access 200+ lenders, 18-day average closings, and expert local knowledge.',
   alternates: {
     canonical: 'https://www.mothebroker.com/about-mo-abdel-orange-county-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/about-mo-abdel-orange-county-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/about-mo-abdel-orange-county-mortgage-broker',
+    },
   },
 };
 

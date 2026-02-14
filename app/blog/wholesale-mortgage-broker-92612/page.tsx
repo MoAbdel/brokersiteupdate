@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine University Park wholesale mortgage broker serving 92612. Access 200+ lenders for jumbo loans near UCI. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92612',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92612',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92612',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92612 | Irvine University Park Jumbo Specialists',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Coast 92657 wholesale mortgage broker specializing in super jumbo loans up to $10M+. Crystal Cove, Pelican Hill, Newport Ridge. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92657-newport-coast-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92657-newport-coast-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92657-newport-coast-2026',
+    },
   },
 };
 

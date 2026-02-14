@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/san-clemente-mortgage-guide-2026',
+    },
   },
 };
 
@@ -33,7 +37,7 @@ export default function SanClementeMortgageGuidePage() {
                         },
                         "datePublished": "2026-01-10",
                         "dateModified": "2026-01-10",
-                        "description": "Navigate the 2025 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal luxury homes."
+                        "description": "Navigate the 2026 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal luxury homes."
                     })
                 }}
             />
@@ -50,13 +54,13 @@ export default function SanClementeMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in San Clemente in 2025, homebuyers should utilize **wholesale mortgage brokers** to access institutional pricing that retail banks cannot match. Given San Clemente's proximity to Camp Pendleton, **VA loans** are a primary financing tool, offering **zero-down payment** options and highly competitive terms for eligible veterans and active-duty service members.
+                        To secure a mortgage in San Clemente in 2026, homebuyers should utilize **wholesale mortgage brokers** to access institutional pricing that retail banks cannot match. Given San Clemente's proximity to Camp Pendleton, **VA loans** are a primary financing tool, offering **zero-down payment** options and highly competitive terms for eligible veterans and active-duty service members.
                     </p>
                 </div>
 
-                <h2>What makes the San Clemente real estate market unique in 2025?</h2>
+                <h2>What makes the San Clemente real estate market unique in 2026?</h2>
                 <p>
-                    San Clemente, known as the "Spanish Village by the Sea," offers a distinct blend of historic charm and modern coastal luxury. In 2025, the market is characterized by:
+                    San Clemente, known as the "Spanish Village by the Sea," offers a distinct blend of historic charm and modern coastal luxury. In 2026, the market is characterized by:
                 </p>
                 <ul>
                     <li><strong>Strong Military Presence:</strong> High demand for VA financing due to the proximity to Camp Pendleton.</li>
@@ -67,7 +71,7 @@ export default function SanClementeMortgageGuidePage() {
 
                 <h2>What is the VA loan advantage for San Clemente buyers?</h2>
                 <p>
-                    As a specialist in San Clemente home loans, I frequently help military families leverage the VA loan program. In 2025, this remains the most powerful financing vehicle in Southern California.
+                    As a specialist in San Clemente home loans, I frequently help military families leverage the VA loan program. In 2026, this remains the most powerful financing vehicle in Southern California.
                 </p>
 
                 <h3>How do VA loans work in San Clemente?</h3>
@@ -141,12 +145,12 @@ export default function SanClementeMortgageGuidePage() {
 
                 <h3>Do I need a 20% down payment for a San Clemente home?</h3>
                 <p>
-                    No. In 2025, there are multiple path to homeownership with less than 20% down. VA loans require 0% down, FHA requires 3.5%, and many conventional programs start at 3% for first-time buyers.
+                    No. In 2026, there are multiple path to homeownership with less than 20% down. VA loans require 0% down, FHA requires 3.5%, and many conventional programs start at 3% for first-time buyers.
                 </p>
 
                 <h3>What are the current jumbo loan limits in Orange County?</h3>
                 <p>
-                    In 2025, any loan amount exceeding the conforming limit of $806,500 in Orange County is considered a jumbo loan. We offer specialized wholesale jumbo products that often have lower requirements than traditional banks.
+                    In 2026, any loan amount exceeding the conforming limit of $1,249,125 in Orange County is considered a jumbo loan. We offer specialized wholesale jumbo products that often have lower requirements than traditional banks.
                 </p>
 
                 <h3>How does proximity to Camp Pendleton affect financing?</h3>

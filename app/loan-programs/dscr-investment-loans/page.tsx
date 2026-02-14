@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: 'DSCR investment loans in Orange County. Qualify based on rental income, not personal income. No employment verification. Perfect for real estate investors. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
+    },
   },
 };
 

@@ -27,6 +27,10 @@ export const metadata: Metadata = {
   description: 'Complete mortgage document checklist for Orange County home buyers. Required documents, templates, and organization tips for faster loan approval.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/document-checklist',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/document-checklist',
+      'x-default': 'https://www.mothebroker.com/resources/document-checklist',
+    },
   },
 };
 

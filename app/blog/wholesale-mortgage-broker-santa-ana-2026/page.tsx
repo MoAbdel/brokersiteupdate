@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Santa Ana wholesale mortgage broker with 200+ lender access. First-time buyer programs, FHA loans & competitive rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-santa-ana-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-santa-ana-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-santa-ana-2026',
+    },
   },
 };
 

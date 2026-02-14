@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to asset depletion mortgages for retirees and high-net-worth borrowers. Qualify using assets instead of income. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/asset-depletion-loans-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/asset-depletion-loans-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/asset-depletion-loans-guide-2026',
+    },
   },
 };
 

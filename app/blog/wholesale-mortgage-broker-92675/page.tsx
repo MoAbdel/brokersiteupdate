@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'San Juan Capistrano wholesale mortgage broker serving 92675. Access 200+ lenders for jumbo loans, historic district financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92675 | San Juan Capistrano Jumbo Loan Specialists',

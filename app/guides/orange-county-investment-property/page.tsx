@@ -6,10 +6,14 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'Orange County Investment Property Guide 2025 | Real Estate Investing',
+  title: 'Orange County Investment Property Guide 2026 | Real Estate Investing',
   description: 'Complete guide to buying investment properties in Orange County. Market analysis, DSCR loans, cap rates, rental yields, and financing strategies for real estate investors.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/orange-county-investment-property',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/orange-county-investment-property',
+      'x-default': 'https://www.mothebroker.com/guides/orange-county-investment-property',
+    },
   },
 };
 
@@ -161,7 +165,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
               <Building className="w-8 h-8 text-blue-600" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Orange County Investment Property Guide 2025
+              Orange County Investment Property Guide 2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Complete guide to buying investment properties in Orange County. Market analysis, 

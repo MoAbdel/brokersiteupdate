@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Rancho Santa Fe guide 2026: Compare jumbo HELOC, home equity loans, and cash-out refinance for RSF estate owners. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-rancho-santa-fe-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-rancho-santa-fe-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-rancho-santa-fe-2026',
+    },
   },
 };
 

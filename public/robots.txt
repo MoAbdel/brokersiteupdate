@@ -157,5 +157,5 @@ Disallow: /dashboard/
 Host: https://www.mothebroker.com
 
 # Sitemaps
+
 Sitemap: https://www.mothebroker.com/sitemap.xml
-Sitemap: https://www.mothebroker.com/sitemap-images.xml

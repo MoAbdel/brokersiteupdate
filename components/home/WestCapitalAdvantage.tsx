@@ -16,7 +16,7 @@ export default function WestCapitalAdvantage() {
       title: 'FHA/VA/USDA',
       description: 'Government Programs',
       details: 'Low down payment options or VA Refinance benefits',
-      href: '/fha-loans-orange-county'
+      href: '/loan-programs/fha-loans'
     },
     {
       title: 'Non-QM Solutions',

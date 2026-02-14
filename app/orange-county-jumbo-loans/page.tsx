@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   description: 'Orange County jumbo loans for luxury homes over $1,266,300. Licensed broker Mo Abdel (NMLS #1426884) offers competitive jumbo rates in Newport Beach, Irvine, and all OC.',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-jumbo-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/orange-county-jumbo-loans',
+      'x-default': 'https://www.mothebroker.com/orange-county-jumbo-loans',
+    },
   },
 };
 

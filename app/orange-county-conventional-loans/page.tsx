@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Orange County conventional loans with Competitive pricing and 3% down options. Licensed broker Mo Abdel (NMLS #1426884) with access to 200+ lenders. Get approved today!',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-conventional-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/orange-county-conventional-loans',
+      'x-default': 'https://www.mothebroker.com/orange-county-conventional-loans',
+    },
   },
 };
 

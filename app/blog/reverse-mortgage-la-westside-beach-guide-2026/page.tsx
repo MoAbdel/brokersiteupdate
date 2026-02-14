@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
+    },
   },
 };
 

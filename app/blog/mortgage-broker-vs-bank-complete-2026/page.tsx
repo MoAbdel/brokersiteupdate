@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Mortgage broker vs bank comparison 2026: Brokers access 200+ lenders while banks offer 1. Learn why brokers save borrowers $15,000+ over the life of a loan. Expert analysis by Mo Abdel, NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-complete-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-complete-2026',
+      'x-default': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-complete-2026',
+    },
   },
   keywords: 'mortgage broker vs bank, mortgage broker or bank, should I use a mortgage broker, bank vs broker mortgage, mortgage broker advantages, wholesale mortgage rates',
   openGraph: {

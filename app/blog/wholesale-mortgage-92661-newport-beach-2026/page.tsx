@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Beach 92661 wholesale mortgage broker for Balboa Peninsula and Lido Isle jumbo and investment property loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92661-newport-beach-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92661-newport-beach-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92661-newport-beach-2026',
+    },
   },
 };
 

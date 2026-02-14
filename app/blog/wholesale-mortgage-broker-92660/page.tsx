@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Beach wholesale mortgage broker serving 92660. Access 200+ lenders for jumbo loans, non-QM programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92660 | Newport Beach Jumbo Loan Specialists',

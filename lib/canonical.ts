@@ -35,13 +35,17 @@ export function generatePageMetadata(config: {
     keywords,
     alternates: {
       canonical: generateCanonicalUrl(pathname),
+      languages: {
+        'en-US': generateCanonicalUrl(pathname),
+        'x-default': generateCanonicalUrl(pathname),
+      },
     },
     openGraph: {
       title: openGraph?.title || title,
       description: openGraph?.description || description,
       type: openGraph?.type || 'website',
       url: generateCanonicalUrl(pathname),
-      siteName: 'Mo Abdel - Orange County Mortgage Broker',
+      siteName: 'Mo Abdel - California & Washington Mortgage Broker',
       locale: 'en_US',
     },
     twitter: {
@@ -75,8 +79,8 @@ export function generatePageMetadata(config: {
  */
 export const PAGE_TEMPLATES = {
   loanProgram: (program: string, pathname: string) => ({
-    title: `${program} | Mo Abdel - Orange County Mortgage Broker`,
-    description: `${program} in Orange County with Competitive pricing and fast closing. Licensed mortgage broker NMLS #1426884 serving all of Orange County.`,
+    title: `${program} | Mo Abdel - California & Washington Mortgage Broker`,
+    description: `${program} with competitive pricing and fast closing. Licensed mortgage broker NMLS #1426884 serving California and Washington.`,
     pathname,
   }),
   
@@ -87,20 +91,20 @@ export const PAGE_TEMPLATES = {
   }),
   
   guide: (topic: string, pathname: string) => ({
-    title: `${topic} | Mo Abdel - Orange County Mortgage Broker`,
-    description: `Complete guide to ${topic.toLowerCase()} in Orange County. Expert insights from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
+    title: `${topic} | Mo Abdel - California & Washington Mortgage Broker`,
+    description: `Complete guide to ${topic.toLowerCase()} in California and Washington. Expert insights from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
     pathname,
   }),
   
   calculator: (type: string, pathname: string) => ({
-    title: `${type} Calculator | Orange County Mortgage Tools`,
-    description: `Free ${type.toLowerCase()} calculator for Orange County home buyers. Get accurate estimates from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
+    title: `${type} Calculator | California & Washington Mortgage Tools`,
+    description: `Free ${type.toLowerCase()} calculator for California and Washington home buyers. Get accurate estimates from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
     pathname,
   }),
   
   resource: (resource: string, pathname: string) => ({
-    title: `${resource} | Orange County Mortgage Resources`,
-    description: `${resource} for Orange County homebuyers and homeowners. Professional guidance from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
+    title: `${resource} | California & Washington Mortgage Resources`,
+    description: `${resource} for California and Washington homebuyers and homeowners. Professional guidance from licensed mortgage broker Mo Abdel, NMLS #1426884.`,
     pathname,
   }),
 };
@@ -121,6 +125,6 @@ export function generateCityMetadata(city: string, pathname: string, type: 'brok
     title: baseTitle,
     description: baseDescription,
     pathname,
-    keywords: `${city} mortgage broker, ${city} mortgage pricing, ${city} home loans, Orange County mortgage broker`,
+    keywords: `${city} mortgage broker, ${city} mortgage pricing, ${city} home loans, California mortgage broker, Washington mortgage broker`,
   });
 }

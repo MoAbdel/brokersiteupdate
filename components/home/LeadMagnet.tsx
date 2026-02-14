@@ -34,11 +34,11 @@ export default function LeadMagnet() {
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Free 2026 Orange County Homebuyer's Guide
+                Free 2026 California & Washington Homebuyer Guide
               </h2>
 
               <p className="text-xl mb-8 text-blue-100">
-                Get insider tips, market data, and step-by-step guidance for buying your Orange County home
+                Get insider tips, market data, and step-by-step guidance for buying your next home in California or Washington
               </p>
 
               <form onSubmit={handleSubmit} className="max-w-md mx-auto">

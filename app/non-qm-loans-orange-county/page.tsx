@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/non-qm-loans-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/non-qm-loans-orange-county',
+      'x-default': 'https://www.mothebroker.com/non-qm-loans-orange-county',
+    },
   },
 };
 

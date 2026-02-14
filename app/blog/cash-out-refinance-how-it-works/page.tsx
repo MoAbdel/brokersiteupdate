@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['cash out refinance how it works', 'cash out refinance requirements', 'cash out refinance 2026', 'home equity cash out', 'cash out refinance vs heloc'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
+      'x-default': 'https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026',
+    },
   },
   openGraph: {
     title: 'How Does a Cash-Out Refinance Work? Complete Guide [2026]',

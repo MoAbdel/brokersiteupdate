@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
+      'x-default': 'https://www.mothebroker.com/blog/strategic-refinancing-home-equity-2026',
+    },
   },
 };
 
@@ -15,7 +19,7 @@ export default function StrategicRefinancing2025() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Strategic Refinancing & Home Equity 2026: Rate vs. Utility Analysis",
-        "description": "Expert analysis on refinancing strategies in 2025. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.",
+        "description": "Expert analysis on refinancing strategies in 2026. Learn about the wholesale advantage, market timing, and maximizing home equity for long-term wealth.",
         "author": {
             "@type": "Person",
             "name": "Mo Abdel",

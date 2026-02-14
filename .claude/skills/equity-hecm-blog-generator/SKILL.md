@@ -1,6 +1,6 @@
 ---
 name: equity-hecm-blog-generator
-description: Use when generating blog content about reverse mortgages (HECM), cash-out refinance, HELOC, HELOAN, home equity, refinancing, or WHOLESALE MORTGAGE BROKER content for mothebroker.com. Supports three-track content (seniors 62+, all homeowners, and wholesale education), 3-tier pillar/regional-pillar/hub architecture covering top 50% wealthiest cities across ALL of California and Washington state. Optimized for SEO/GEO/AIO/AEO 2026 with Bing-dominant structured content.
+description: Use when generating blog content about reverse mortgages (HECM), cash-out refinance, HELOC, HELOAN, home equity, refinancing, DSCR (debt service coverage ratio) investor loans, or WHOLESALE MORTGAGE BROKER content for mothebroker.com. Supports three-track content (seniors 62+, all homeowners, and wholesale education), 3-tier pillar/regional-pillar/hub architecture covering top 50% wealthiest cities across ALL of California and Washington state. DSCR is a HEAVILY WEIGHTED topic — investor loans are a core differentiator for wholesale brokers. Optimized for SEO/GEO/AIO/AEO 2026 with Bing-dominant structured content.
 ---
 
 # Equity, HECM & Wholesale Blog Generator
@@ -115,259 +115,109 @@ Examples:
 ```
 
 ### Batch Generation
+
+**Prerequisite:** Run `npm run seo:opportunity-queue` to build the scored queue.
+
 ```
-Generate [N] posts
-Generate [N] [TRACK] posts
-Generate [REGION] expansion
+Generate [N] posts                -> Top N from opportunity-queue.json (refresh first, then scored)
+Generate [N] [TRACK] posts        -> Top N of that track from opportunity-queue.json
+Generate [REGION] expansion       -> All content for one region (still runs cannibalization gate)
+Generate next [N] posts           -> Same as "Generate N posts" — reads queue, picks top N pending
 
 Examples:
-- "Generate 10 posts" -> Balanced across tracks, prioritized by region value
+- "Generate 10 posts" -> 3 refreshes + top 7 new from scored queue
 - "Generate Bay Area expansion" -> All pillars + hubs for Bay Area regions
-- "Generate 20 HECM posts" -> Prioritized HECM content across regions
-- "Generate next 10 posts" -> Continues from where we left off
+- "Generate 20 HECM posts" -> Top 20 HECM items by opportunity score
+- "Generate next 10 posts" -> Top 10 pending items from queue
 ```
 
 ## Content Distribution Strategy
 
-### Auto-Queue System
+### Opportunity-Queue-Driven System
 
-**"Generate X posts" automatically picks the next X items from the master queue below.**
-The queue works top-to-bottom. Every item already generated (check `regional-hub-map.md` status + existing `app/blog/` folders) is SKIPPED. The system always resumes where it left off.
+**"Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.**
 
-**Before generating, ALWAYS:**
-1. Check `references/regional-hub-map.md` for current status (⬜/✅)
-2. Check `app/blog/` for existing page.tsx folders
-3. Skip any already-completed items
-4. Start from the first ⬜ (pending) item in the queue
+The opportunity queue is built from GSC search performance data and scores every pending hub+track pair by real demand signals, striking-distance potential, business value, and cannibalization risk.
 
-### Master Generation Queue (120 items total)
-
-The queue interleaves tiers and tracks for maximum content diversity per batch:
-
-```
-QUEUE POSITION → CONTENT
-
---- TIER 0: STATE PILLARS (6 items) ---
-  1. CA State Pillar: HECM
-  2. CA State Pillar: Equity
-  3. CA State Pillar: Wholesale
-  4. WA State Pillar: HECM
-  5. WA State Pillar: Equity
-  6. WA State Pillar: Wholesale
-
---- TIER 1: REGIONAL PILLARS (~40 items, by region priority) ---
-For each region (in priority order), generate all applicable track pillars:
-
-  Region 1 — Bay Area Peninsula/SV:
-  7.  Regional Pillar: Bay Area Peninsula HECM
-  8.  Regional Pillar: Bay Area Peninsula Equity
-  9.  Regional Pillar: Bay Area Peninsula Wholesale
-
-  Region 2 — LA Westside/Beach + South Bay/PV:
-  10. Regional Pillar: LA Westside/Beach HECM
-  11. Regional Pillar: LA Westside/Beach Equity
-  12. Regional Pillar: LA Westside/Beach Wholesale
-  13. Regional Pillar: LA South Bay/PV HECM
-  14. Regional Pillar: LA South Bay/PV Equity
-  15. Regional Pillar: LA South Bay/PV Wholesale
-
-  Region 3 — Bay Area Marin + East Bay/SF:
-  16. Regional Pillar: Bay Area Marin HECM
-  17. Regional Pillar: Bay Area Marin Equity
-  18. Regional Pillar: Bay Area Marin Wholesale
-  19. Regional Pillar: Bay Area East Bay/SF HECM
-  20. Regional Pillar: Bay Area East Bay/SF Equity
-  21. Regional Pillar: Bay Area East Bay/SF Wholesale
-
-  Region 4 — Seattle Eastside:
-  22. Regional Pillar: Seattle Eastside HECM
-  23. Regional Pillar: Seattle Eastside Equity
-  24. Regional Pillar: Seattle Eastside Wholesale
-
-  Region 5 — San Diego:
-  25. Regional Pillar: San Diego HECM
-  26. Regional Pillar: San Diego Equity
-  27. Regional Pillar: San Diego Wholesale
-
-  Region 6 — LA SGV/Pasadena:
-  28. Regional Pillar: LA SGV/Pasadena HECM
-  29. Regional Pillar: LA SGV/Pasadena Equity
-  30. Regional Pillar: LA SGV/Pasadena Wholesale
-
-  Region 7 — Greater Seattle:
-  31. Regional Pillar: Greater Seattle HECM
-  32. Regional Pillar: Greater Seattle Equity
-  33. Regional Pillar: Greater Seattle Wholesale
-
-  Region 8 — Central Coast:
-  34. Regional Pillar: Central Coast HECM
-  35. Regional Pillar: Central Coast Equity
-
-  Region 9 — Ventura County:
-  36. Regional Pillar: Ventura County HECM
-  37. Regional Pillar: Ventura County Equity
-
-  Region 10 — Wine Country:
-  38. Regional Pillar: Wine Country HECM
-  39. Regional Pillar: Wine Country Equity
-
-  Region 11 — Sacramento/Gold Country:
-  40. Regional Pillar: Sacramento HECM
-  41. Regional Pillar: Sacramento Equity
-
-  Region 12 — Inland Empire:
-  42. Regional Pillar: Inland Empire HECM
-  43. Regional Pillar: Inland Empire Equity
-
-  Region 13 — North Sound/Islands (WA):
-  44. Regional Pillar: North Sound HECM
-  45. Regional Pillar: North Sound Equity
-
-  Region 14 — South Sound (WA):
-  46. Regional Pillar: South Sound HECM
-  47. Regional Pillar: South Sound Equity
-
---- TIER 2: HUB POSTS (~74 items, by region priority, all tracks per hub) ---
-For each hub (in region priority order), generate all applicable tracks:
-
-  Bay Area Peninsula/SV Hubs:
-  48. Hub CA-SV-A HECM (Ultra-Luxury Peninsula)
-  49. Hub CA-SV-A Equity
-  50. Hub CA-SV-A Wholesale
-  51. Hub CA-SV-B HECM (Premium Silicon Valley)
-  52. Hub CA-SV-B Equity
-  53. Hub CA-SV-B Wholesale
-  54. Hub CA-SV-C HECM (Tech Corridor)
-  55. Hub CA-SV-C Equity
-  56. Hub CA-SV-C Wholesale
-
-  LA Westside/Beach Hubs:
-  57. Hub CA-LAB-A HECM (LA Beach Cities)
-  58. Hub CA-LAB-A Equity
-  59. Hub CA-LAB-A Wholesale
-  60. Hub CA-LAB-B HECM (LA Westside)
-  61. Hub CA-LAB-B Equity
-  62. Hub CA-LAB-B Wholesale
-
-  LA South Bay/PV Hubs:
-  63. Hub CA-PV-A HECM (Palos Verdes Peninsula)
-  64. Hub CA-PV-A Equity
-  65. Hub CA-PV-A Wholesale
-  66. Hub CA-PV-B HECM (Western LA Luxury)
-  67. Hub CA-PV-B Equity
-  68. Hub CA-PV-B Wholesale
-
-  Bay Area Marin Hubs:
-  69. Hub CA-MR-A HECM (Ultra-Luxury Marin)
-  70. Hub CA-MR-A Equity
-  71. Hub CA-MR-A Wholesale
-  72. Hub CA-MR-B HECM (Affluent Marin)
-  73. Hub CA-MR-B Equity
-  74. Hub CA-MR-B Wholesale
-
-  Bay Area East Bay/SF Hubs:
-  75. Hub CA-EB-A HECM (Premium East Bay/SF)
-  76. Hub CA-EB-A Equity
-  77. Hub CA-EB-A Wholesale
-  78. Hub CA-EB-B HECM (Affluent Suburban EB)
-  79. Hub CA-EB-B Equity
-  80. Hub CA-EB-B Wholesale
-
-  Seattle Eastside Hubs:
-  81. Hub WA-SE-A HECM (Ultra-Luxury Eastside)
-  82. Hub WA-SE-A Equity
-  83. Hub WA-SE-A Wholesale
-  84. Hub WA-SE-B HECM (Premium Eastside)
-  85. Hub WA-SE-B Equity
-  86. Hub WA-SE-B Wholesale
-  87. Hub WA-SE-C HECM (Tech Corridor Eastside)
-  88. Hub WA-SE-C Equity
-  89. Hub WA-SE-C Wholesale
-
-  San Diego Hubs:
-  90. Hub CA-SD-A HECM (Coastal North SD)
-  91. Hub CA-SD-A Equity
-  92. Hub CA-SD-A Wholesale
-  93. Hub CA-SD-B HECM (Coastal SD + Inland)
-  94. Hub CA-SD-B Equity
-  95. Hub CA-SD-B Wholesale
-
-  LA SGV/Pasadena Hubs:
-  96.  Hub CA-SGV-A HECM (Foothill Luxury)
-  97.  Hub CA-SGV-A Equity
-  98.  Hub CA-SGV-A Wholesale
-  99.  Hub CA-SGV-B HECM (Pasadena Corridor)
-  100. Hub CA-SGV-B Equity
-  101. Hub CA-SGV-B Wholesale
-
-  Greater Seattle Hubs:
-  102. Hub WA-GS-A HECM (Urban Seattle Premium)
-  103. Hub WA-GS-A Equity
-  104. Hub WA-GS-A Wholesale
-  105. Hub WA-GS-B HECM (Suburban King County)
-  106. Hub WA-GS-B Equity
-  107. Hub WA-GS-B Wholesale
-
-  Central Coast Hubs:
-  108. Hub CA-CC-A HECM (Santa Barbara Luxury)
-  109. Hub CA-CC-A Equity
-  110. Hub CA-CC-B HECM (Central Coast)
-  111. Hub CA-CC-B Equity
-
-  Ventura County Hub:
-  112. Hub CA-VC-A HECM (Ventura Affluent)
-  113. Hub CA-VC-A Equity
-
-  Wine Country Hub:
-  114. Hub CA-WC-A HECM (Wine Country)
-  115. Hub CA-WC-A Equity
-
-  Sacramento Hub:
-  116. Hub CA-SAC-A HECM (Sacramento Affluent)
-  117. Hub CA-SAC-A Equity
-
-  Inland Empire Hub:
-  118. Hub CA-IE-A HECM (IE Affluent)
-  119. Hub CA-IE-A Equity
-
-  North Sound Hub:
-  120. Hub WA-NS-A HECM (North Sound + Islands)
-  121. Hub WA-NS-A Equity
-
-  South Sound Hub:
-  122. Hub WA-SS-A HECM (South Sound Affluent)
-  123. Hub WA-SS-A Equity
+**Prerequisite: Build the queue before generating.**
+```bash
+npm run gsc:export                # Page-level GSC data (required)
+npm run gsc:export-queries        # Query-level GSC data (optional, improves scoring)
+npm run seo:opportunity-queue     # Build scored queue → reports/opportunity-queue.json
+npm run seo:build-batch -- --count 10   # Refresh-first batch plan → reports/generation-batch.json
+npm run seo:preflight-batch             # Hard cannibalization filter → approved/blocked batch artifacts
 ```
 
 ### How "Generate X Posts" Works
 
 ```
-1. Read regional-hub-map.md to find current status
-2. Scan app/blog/ for existing pages
-3. Find first ⬜ (pending) item in queue above
-4. Generate next X items starting from that position
-5. After each item: mark ✅ in regional-hub-map.md
-6. After all items: git commit, IndexNow, sitemap, GSC submission
+1. Load reports/opportunity-queue.json
+2. If missing or stale (>7 days): WARN, fall back to regional priority from hub map
+3. Build batch (`npm run seo:build-batch -- --count N`) — refresh candidates first (up to 30%)
+4. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
+5. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
+6. Generate/update content
+7. After each item: mark ✅ in regional-hub-map.md
+8. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
+9. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
 ```
 
-**The queue is exhaustive.** Running "generate X posts" repeatedly will eventually produce ALL ~120 pages. No manual targeting needed.
+### Scoring Components
+
+| Component | Weight | Signal |
+|-----------|--------|--------|
+| Demand Signal | +25 | Related pages already have GSC impressions |
+| Striking Distance | +25 | Related pages at positions 8-25 |
+| CTR Headroom | +10 | CTR below expected for position |
+| Business Value | +20 | Median home value of hub cities |
+| Overlap Risk | -15 | Target keywords already ranking on another page |
+| Recency Penalty | -5 | Similar page published <14 days ago |
+
+Weights are configurable via `OQ_W_*` env vars. 20% of slots are reserved for "exploration" — items with no GSC data, scored by business value only.
+
+### Batch Composition
+
+For a batch of N posts:
+1. **Refresh candidates** (up to 30% of N): Existing blog pages at positions 8-25 with 20+ impressions. These are content updates, not new pages.
+2. **Opportunity bucket** (remaining slots): New hub+track pairs from `scoredQueue`, highest score first.
+3. **Exploration items** mixed into the opportunity bucket per the 20% exploration budget.
+
+### Refresh Workflow Path (Mandatory When Selected)
+
+Refresh candidates are updates to existing pages, not new URLs:
+
+```
+1. Select refresh candidate from opportunity-queue.json (position 8-25, 20+ impressions)
+2. Keep canonical URL/slug unchanged (NO new page creation)
+3. Update title/meta/H1 intro, strengthen PAA + FAQ, refresh dated data points
+4. Add "Last updated" date and improve internal links to current money pages
+5. Record refreshed URL in reports/indexing-delta.json
+```
+
+If a refresh and new post compete for the same keyword set, prefer refresh first.
 
 ### Example Sessions
 
-**Session 1: "Generate 6 posts"**
-→ Generates queue items 1-6 (all 6 state pillars)
+**"Generate 10 posts"**
+→ Queue has 3 refresh candidates → generates 3 refreshes + top 7 from scoredQueue
 
-**Session 2: "Generate 10 posts"**
-→ Generates queue items 7-16 (first 10 regional pillars)
+**"Generate 5 HECM posts"**
+→ Filters scoredQueue to track=hecm, takes top 5
 
-**Session 3: "Generate 10 posts"**
-→ Generates queue items 17-26 (next 10 regional pillars)
+### Fallback: Static Regional Priority
 
-*...and so on until all 120+ items are complete.*
+If `opportunity-queue.json` is missing or >7 days old, fall back to region priority order from `references/regional-hub-map.md`:
+```
+1. Bay Area Peninsula/SV → 2. LA Westside/Beach + South Bay/PV →
+3. Marin + East Bay/SF → 4. Seattle Eastside → 5. San Diego →
+6. SGV/Pasadena → 7. Greater Seattle → 8. Central Coast →
+9. Ventura → 10. Wine Country → 11. Sacramento → 12. IE →
+13. North Sound → 14. South Sound
+```
 
 ### Override Commands (Optional)
 
-These bypass the auto-queue for targeted generation:
+These bypass the opportunity queue for targeted generation (cannibalization gate still applies):
 ```
 "Generate [TRACK] [TYPE] for [TARGET]"  -> Specific single post
 "Generate [region] expansion"           -> All content for one region
@@ -409,13 +259,14 @@ Multi-city geo-targeted posts grouping 5-10 cities. See `references/regional-hub
 
 Composition: 50% structured (tables, lists, schema) / 50% prose
 
-### Cluster Posts (33 total)
+### Cluster Posts (39 total)
 
 | Track | Count | Topics |
 |-------|-------|--------|
 | HECM | 12 | Basics, Eligibility, Calculator, vs HELOC, Pros/Cons, HUD Counseling, Purchase, Proprietary, Payouts, Estate Planning, Myths, Alternatives |
 | Equity | 14 | Cash-Out Basics, Cash-Out vs Rate-Term, HELOC, HELOAN, HELOC vs HELOAN, HELOC vs Cash-Out, Best Uses, Renovations, Debt Consolidation, Requirements, When to Refinance, Second Mortgage, Risks, Closing Costs |
 | Wholesale | 7 | Wholesale vs Retail, Broker vs Bank, Bank Statement, Self-Employed, Wholesale Rates, Non-QM, 200+ Lender Advantage |
+| **DSCR (Investor)** | **6** | **DSCR Explained, DSCR Requirements 2026, DSCR vs Conventional, DSCR Short-Term Rentals, DSCR Calculator, DSCR Portfolio Scaling** |
 
 ### HECM Cluster Topics (12 posts)
 | # | Topic | Target Keyword |
@@ -462,6 +313,42 @@ Composition: 50% structured (tables, lists, schema) / 50% prose
 | 5 | How to Get Wholesale Mortgage Rates in California | wholesale mortgage rates california | 50+ impressions |
 | 6 | Non-QM Loans: Programs Only Wholesale Brokers Offer | non-qm loans wholesale broker | authority |
 | 7 | The 200+ Lender Advantage Explained | wholesale mortgage lender network | 7 impressions |
+
+### DSCR Investor Cluster Topics (6 posts) — HEAVILY WEIGHTED
+
+DSCR (Debt Service Coverage Ratio) loans are a TOP PRIORITY content vertical. Real estate investors are high-value borrowers, DSCR is a core wholesale broker differentiator, and search volume is growing rapidly as investor activity increases in CA and WA markets.
+
+**Why DSCR is heavily weighted:**
+- High-intent, high-value borrowers (investors buying $500K-$5M+ properties)
+- Wholesale brokers have massive DSCR product advantage over retail banks
+- Growing search demand: "DSCR loan" queries up 300%+ since 2023
+- Low competition from retail lender content (they don't offer DSCR)
+- Natural cross-sell to bank statement, non-QM, and fix-flip products
+
+| # | Topic | Target Keyword | Search Intent |
+|---|-------|----------------|---------------|
+| 1 | DSCR Loans Explained: How Investors Qualify Without W-2s | dscr loan explained | Informational — what is DSCR, how it works, who qualifies |
+| 2 | DSCR Loan Requirements 2026: Rates, Ratios & Down Payment | dscr loan requirements 2026 | Transactional — specific qualification criteria |
+| 3 | DSCR vs Conventional Investment Property Loans | dscr vs conventional investment property | Comparison — why investors choose DSCR over conventional |
+| 4 | DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing | dscr loan short term rental airbnb | Niche — STR investors, Airbnb hosts, VRBO operators |
+| 5 | DSCR Loan Calculator: How to Calculate Your Ratio | dscr calculator how to calculate | Tool — ratio calculation, rental income qualification |
+| 6 | DSCR Loans for Portfolio Investors: Scaling with Wholesale Rates | dscr loan portfolio investor | Advanced — scaling from 1 to 10+ properties |
+
+**DSCR Content Requirements (all DSCR cluster posts must include):**
+- DSCR ratio formula: Net Operating Income / Annual Debt Service
+- Typical DSCR thresholds (1.0, 1.1, 1.25 and what each means)
+- Comparison table: DSCR vs Conventional vs FHA investment
+- Rental income calculation methodology (actual rent vs market rent)
+- Property types eligible: SFR, 2-4 unit, 5+ unit, short-term rental, mixed-use
+- No-income-verification advantage explained (no W-2, no tax returns)
+- Wholesale broker advantage: access to 50+ DSCR lenders vs 1-2 at a bank
+- Cross-links to: Bank Statement Loans, Non-QM, Wholesale vs Retail, Self-Employed posts
+
+**DSCR in Hub/Regional Posts:**
+When generating hub or regional pillar posts for areas with high investor activity (Bay Area, LA, San Diego, Seattle), include a dedicated DSCR/investor section (200-300 words) covering:
+- Local rental yield data and DSCR feasibility
+- Popular investor neighborhoods in the hub cities
+- DSCR qualification at local price points
 
 ## Content Status Tracking
 
@@ -632,14 +519,16 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 
 ## Schema Markup
 
-[Article Schema - Enhanced for Bing]
-[FAQPage Schema - 10-12 questions]
-[Speakable Schema - citation-hook, paa-answers, expert-summary]
-[LocalBusiness Schema - for hub/geo pages only]
-[LocalBusinessGeoHub Schema - for hub posts with multi-city coverage]
-[BreadcrumbList Schema - full navigation path]
-[ItemList Schema - for hub city listings]
-[Table Schema - for structured data tables]
+**Required baseline schema (all posts):**
+- [Article Schema]
+- [FAQPage Schema]
+- [BreadcrumbList Schema]
+
+**Conditional schema (only when materially supported by page content):**
+- [Speakable Schema]
+- [LocalBusiness or Service Schema]
+- [ItemList / Table Schema]
+- [LocalBusinessGeoHub Schema for multi-city hubs]
 
 ## Social Meta Tags
 
@@ -708,10 +597,12 @@ STATUS: [READY FOR PUBLICATION / NEEDS REVISION]
 
 | Content Type | Minimum | Target | Maximum |
 |--------------|---------|--------|---------|
-| State Pillar | 5,000 | 5,500 | 6,000 |
-| Regional Pillar | 5,500 | 6,000 | 6,500 |
-| Hub Post | 4,500 | 5,000 | 5,500 |
-| Cluster Post | 3,250 | 3,500 | 4,000 |
+| State Pillar | 4,200 | 5,200 | 6,500 |
+| Regional Pillar | 4,500 | 5,500 | 6,500 |
+| Hub Post | 3,500 | 4,700 | 5,800 |
+| Cluster Post | 2,200 | 3,200 | 4,200 |
+
+Quality and uniqueness beat raw length. Passing differentiation and intent coverage is mandatory even if a page is below target.
 
 ## Universal Article Structure: AI-First Answer Stack
 
@@ -800,8 +691,8 @@ Hub posts follow the standard AI-First Answer Stack with an expanded Bing Power 
 |  8. EXPERT SUMMARY + CTA (150-200 words)                 |
 +---------------------------------------------------------+
 
-Tables per hub: 4-5 full + 5-10 inline city snapshots
-Schema types per hub: 7 (Article, FAQPage, LocalBusinessGeoHub, Speakable, BreadcrumbList, ItemList, Table)
+Tables per hub: 3-5 full + 3-10 inline city snapshots
+Schema types per hub: minimum 3 required (Article, FAQPage, BreadcrumbList), others optional when content supports them
 ```
 
 ### Section Specifications
@@ -857,6 +748,48 @@ Schema types per hub: 7 (Article, FAQPage, LocalBusinessGeoHub, Speakable, Bread
 - Quotable closing paragraph (2-3 sentences)
 - Attribution: "Mo Abdel, NMLS #1426884, Lumin Lending"
 - Clear next step (consultation, application, contact)
+
+## Pre-Generation: Cannibalization Gate (MANDATORY)
+
+**Before generating ANY content, run the cannibalization gate. This comes BEFORE duplicate prevention.**
+
+### Step 0a: Check Cannibalization Alerts
+
+Load `reports/opportunity-queue.json` and check `cannibalizationAlerts` against the target hub's keywords:
+
+```
+1. Extract city names + track keywords from target hub
+2. Search cannibalizationAlerts for queries matching those keywords
+3. If match found with severity "high" or "medium":
+   → HARD BLOCK: Do NOT generate this post
+   → Action: Must merge, redirect, or differentiate the conflicting pages FIRST
+   → Report: "BLOCKED (cannibalization): [query] drives impressions to [page1] and [page2]"
+4. If match with severity "low":
+   → WARN but allow generation with differentiation notes
+```
+
+### Step 0b: Check Opportunity Score
+
+```
+1. Find this item in scoredQueue
+2. If score < 20:
+   → WARN: "Low opportunity score (X/100). Consider generating higher-value items first."
+   → Do NOT block — user may have good reason for targeted generation
+3. If score >= 20: proceed normally
+```
+
+### Step 0c: Check Queue Staleness
+
+```
+1. Read "generated" timestamp from opportunity-queue.json
+2. If > 7 days old:
+   → WARN: "Opportunity queue is X days old. Run 'npm run seo:opportunity-queue' for fresh data."
+3. If file missing:
+   → WARN: "No opportunity queue found. Run 'npm run seo:opportunity-queue' before generating."
+   → Fall back to static regional priority
+```
+
+---
 
 ## Pre-Generation: Duplicate Prevention (MANDATORY)
 
@@ -1017,6 +950,10 @@ After adding entries, confirm:
 - [ ] HECM posts: Age 62+ requirement clearly stated
 - [ ] Wholesale posts: "200+ lenders" claim is accurate
 - [ ] Wholesale posts: No specific rate comparisons
+- [ ] DSCR posts: No guaranteed DSCR ratio thresholds (varies by lender)
+- [ ] DSCR posts: No specific interest rate quotes
+- [ ] DSCR posts: Disclaimer that rental income projections are estimates
+- [ ] DSCR posts: Note that property types and eligibility vary by lender program
 
 See `references/compliance-rules.md` for complete requirements.
 
@@ -1025,10 +962,10 @@ See `references/compliance-rules.md` for complete requirements.
 **ALL gates must pass before content output:**
 
 ### Word Count Gate
-- [ ] State Pillar: 5,000-6,000 words
-- [ ] Regional Pillar: 5,500-6,500 words
-- [ ] Hub Post: 4,500-5,500 words
-- [ ] Cluster Post: 3,250-4,000 words
+- [ ] State Pillar: 4,200-6,500 words
+- [ ] Regional Pillar: 4,500-6,500 words
+- [ ] Hub Post: 3,500-5,800 words
+- [ ] Cluster Post: 2,200-4,200 words
 - [ ] Citation Hook: 50-75 words
 - [ ] Bing Power Block: 600-800 words (cluster/regional) or 900-1,100 words (hub)
 - [ ] City-by-City Deep Dives (hub only): 1,800-2,200 words
@@ -1074,13 +1011,13 @@ See `references/compliance-rules.md` for complete requirements.
 - [ ] No specific rate percentages (compliance)
 
 ### Hub Post Gate (hub posts only)
-- [ ] 4-5 full comparison/data tables included
-- [ ] 5-10 inline city snapshot tables
+- [ ] 3-5 full comparison/data tables included
+- [ ] 3-10 inline city snapshot tables
 - [ ] 5-10 cities covered with 250-350 words each
 - [ ] Each city has unique angle from city-topic-matrix.md
 - [ ] Each city has unique borrower persona
 - [ ] No two city sections share same opening
-- [ ] 7 schema types included (Article, FAQPage, LocalBusinessGeoHub, Speakable, BreadcrumbList, ItemList, Table)
+- [ ] Required schema baseline included (Article, FAQPage, BreadcrumbList)
 - [ ] Minimum 8 internal links
 
 ### Regional Pillar Gate (regional pillars only)
@@ -1228,13 +1165,15 @@ See `references/city-topic-matrix.md` for geo page differentiation strategy.
 - "Wholesale pricing advantage" - institutional rates for consumers
 - "Local expertise + wholesale power" - best of both worlds
 - "Complex borrower solutions" - bank statement, non-QM, DSCR
+- **"DSCR investor loan specialist"** - qualify on rental income, not personal income (HIGH PRIORITY)
 
-**Target Audiences:**
-1. Self-employed borrowers (bank statement loans)
-2. Investors (DSCR, fix-flip)
-3. Affluent homebuyers (jumbo loans)
-4. First-time buyers comparing broker vs bank
-5. Refinancers seeking best rates
+**Target Audiences (ranked by content weight):**
+1. **Real estate investors (DSCR loans)** — HIGHEST WEIGHT: SFR investors, STR/Airbnb hosts, portfolio builders, 1031 exchange buyers. These borrowers are high-value, repeat clients, and DSCR is the #1 product banks can't compete on.
+2. Self-employed borrowers (bank statement loans)
+3. Investors (fix-flip, bridge, hard money)
+4. Affluent homebuyers (jumbo loans)
+5. First-time buyers comparing broker vs bank
+6. Refinancers seeking best rates
 
 **Differentiation:**
 | Competitors Say | MoTheBroker Says |
@@ -1243,18 +1182,20 @@ See `references/city-topic-matrix.md` for geo page differentiation strategy.
 | "Apply now" | "Let me educate you first, then help you decide" |
 | Generic content | Region-specific insights across CA + WA |
 | No explanation | Full transparency on wholesale vs retail |
+| "We do investment loans" | "We access 50+ DSCR lenders — qualify on rental income, not tax returns" |
+| No DSCR content | Deep DSCR education: ratios, STR financing, portfolio scaling |
 
 ---
 
-## MANDATORY: Post-Generation Final Submission (REQUIRED)
+## Post-Generation Publication Workflow (Approval Required)
 
-**After ALL blog generation is complete, you MUST execute these final steps in order:**
+Only execute deployment/indexing actions when the user explicitly approves publication.
 
 ### Step 1: Update regional-hub-map.md Status
 
 After generating any state pillar, regional pillar, or hub post, update the status in `references/regional-hub-map.md` from Pending to Complete.
 
-### Step 2: Git Commit & Push
+### Step 2: Prepare Commit (no push unless approved)
 
 ```bash
 # Stage all changes
@@ -1270,43 +1211,41 @@ Posts added:
 
 Generated with Claude Code blog-generator skill"
 
-# Push to production
+# Push to production (ONLY with explicit approval)
 git push origin main
 ```
 
-### Step 3: Submit URLs to IndexNow
+### Step 3: Write Delta URL File
 
 ```bash
-# Navigate to root Projects folder and run IndexNow submission
-cd C:/Users/bigbi/Projects
-python seo_submit.py indexnow --site mothebroker.com
+node scripts/record-indexing-delta.mjs --paths /blog/[slug-1],/blog/[slug-2]
 ```
 
-### Step 4: Submit Sitemap to GSC + Bing
+### Step 4: Run Delta-Mode Indexing Submission (only if approved)
 
 ```bash
-# Submit sitemap to Google Search Console and Bing
-cd C:/Users/bigbi/Projects
-python seo_submit.py sitemap --site mothebroker.com
+npm run indexing:submit-all
 ```
 
-### Step 5: Submit Recent URLs for GSC Indexing
+### Fully Automated Local Workflow (Optional)
 
 ```bash
-# Submit most recent 200 URLs for indexing on Google Search Console
-cd C:/Users/bigbi/Projects
-python gsc_index_urls.py --site mothebroker.com --limit 200
+# One command for changed-route detection + delta-aware submission
+npm run indexing:submit-delta-auto
+```
+
+This workflow is also available in postbuild by setting:
+
+```bash
+ENABLE_INDEXING_DELTA_AUTO=true
 ```
 
 ### Final Submission Checklist
 
 - [ ] All blog files committed to git
-- [ ] Changes pushed to origin/main
+- [ ] Push to origin/main completed (only if approved)
 - [ ] Entry added to lib/all-blog-posts.ts for /guides page
 - [ ] Status updated in references/regional-hub-map.md
-- [ ] IndexNow submission completed
-- [ ] Sitemap submitted to GSC + Bing
-- [ ] Recent 200 URLs submitted for GSC indexing
-- [ ] Build/deployment successful (Vercel auto-deploys from main)
-
-### CRITICAL: The skill is NOT complete until ALL submission steps are executed successfully.
+- [ ] `reports/indexing-delta.json` written with changed/new URLs
+- [ ] Delta-mode indexing submission completed (only if approved)
+- [ ] Build/deployment successful (only if approved)

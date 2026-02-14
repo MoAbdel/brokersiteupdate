@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Irvine guide 2026: Compare HELOC, home equity loans, and cash-out refinance for Irvine homeowners. Access your OC home equity. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-irvine-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-irvine-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-irvine-2026',
+    },
   },
 };
 

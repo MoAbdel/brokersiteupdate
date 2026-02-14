@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Access wholesale mortgage rates in California through licensed brokers with 200+ lender relationships. Step-by-step guide to wholesale pricing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
+      'x-default': 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
+    },
   },
 };
 

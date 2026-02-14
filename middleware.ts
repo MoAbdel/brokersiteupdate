@@ -1,6 +1,68 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+const LOW_EQUITY_BLOG_PATTERNS: RegExp[] = [
+  /^\/blog\/wholesale-mortgage-broker-\d{5}(?:-[a-z0-9-]+)?$/i,
+  /^\/blog\/wholesale-mortgage-\d{5}-[a-z0-9-]+$/i,
+];
+
+const STRATEGIC_BLOG_ALLOWLIST = new Set([
+  '/blog/home-equity-california-guide-2026',
+  '/blog/home-equity-washington-guide-2026',
+  '/blog/strategic-refinancing-home-equity-2026',
+  '/blog/heloan-vs-cash-out-refinance-2026',
+  '/blog/heloc-vs-cash-out-refinance-2026',
+  '/blog/home-equity-loan-fixed-rate-2026',
+  '/blog/home-equity-for-renovations-2026',
+  '/blog/home-equity-refinancing-guide-2026',
+  '/blog/what-can-you-use-home-equity-for-2026',
+  '/blog/hecm-vs-heloc-seniors-2026',
+  '/blog/hecm-for-purchase-2026',
+  '/blog/proprietary-reverse-mortgage-2026',
+  '/blog/reverse-mortgage-complete-guide-2026',
+  '/blog/reverse-mortgage-california-guide-2026',
+  '/blog/reverse-mortgage-washington-guide-2026',
+  '/blog/what-is-reverse-mortgage-complete-guide-2026',
+  '/blog/reverse-mortgage-requirements-complete-2026',
+  '/blog/reverse-mortgage-payout-options-2026',
+  '/blog/reverse-mortgage-myths-debunked-2026',
+  '/blog/reverse-mortgage-inheritance-heirs-2026',
+  '/blog/wholesale-vs-retail-mortgage-brokers-2026',
+  '/blog/wholesale-vs-retail-mortgage-complete-2026',
+  '/blog/wholesale-mortgage-broker-orange-county-2026',
+  '/blog/wholesale-mortgage-broker-california-2026',
+  '/blog/wholesale-mortgage-broker-washington-2026',
+  '/blog/wholesale-mortgage-broker-california-guide-2026',
+  '/blog/wholesale-mortgage-broker-california-pillar-2026',
+  '/blog/wholesale-mortgage-broker-north-orange-county-2026',
+  '/blog/wholesale-mortgage-broker-central-orange-county-2026',
+  '/blog/wholesale-mortgage-broker-south-orange-county-2026',
+]);
+
+const PROGRAMMATIC_FAMILY_PATTERN =
+  /^\/blog\/(?:reverse-mortgage|home-equity|wholesale-mortgage-broker)-[a-z0-9-]+-2026$/i;
+
+const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
+  /^\/areas\/[a-z0-9-]+-mortgage-rates$/i,
+  /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
+];
+
+function shouldNoindexPath(pathname: string): boolean {
+  if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(pathname))) {
+    return true;
+  }
+
+  if (PROGRAMMATIC_FAMILY_PATTERN.test(pathname) && !STRATEGIC_BLOG_ALLOWLIST.has(pathname)) {
+    return true;
+  }
+
+  if (THIN_OVERLAP_ROUTE_PATTERNS.some((pattern) => pattern.test(pathname))) {
+    return true;
+  }
+
+  return false;
+}
+
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get('host') || '';
@@ -50,6 +112,7 @@ export function middleware(request: NextRequest) {
     '/areas/irvine-neighborhoods/university-park-mortgage-broker': '/areas/irvine-neighborhoods',
     '/areas/costa-mesa-mortgage-rates': '/areas/costa-mesa-mortgage-broker',
     '/zip-codes/92625-corona-del-mar-mortgage-broker': '/areas/newport-beach-mortgage-broker',
+    '/resources/mortgage-glossary': '/resources/glossary',
 
     '/articles': '/blog',
     '/articles/newport-beach-mortgage-guide-2026': '/blog/newport-beach-mortgage-guide-2026',
@@ -75,7 +138,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl, 301);
   }
 
-  return NextResponse.next();
+  const response = NextResponse.next();
+  if (shouldNoindexPath(pathname)) {
+    response.headers.set('X-Robots-Tag', 'noindex, follow');
+  }
+
+  return response;
 }
 
 export const config = {

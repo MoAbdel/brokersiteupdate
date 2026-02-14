@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Calculate if refinancing makes sense for you. Break-even analysis, rate drop rules, and scenarios when refinancing saves money vs when to skip it. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/when-to-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/when-to-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/when-to-refinance-2026',
+    },
   },
 };
 

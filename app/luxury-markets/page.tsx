@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Specialized luxury mortgage financing for Orange County\'s most exclusive properties. Jumbo loans, portfolio lending, and white-glove service for ultra-luxury homes.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/luxury-markets',
+      'x-default': 'https://www.mothebroker.com/luxury-markets',
+    },
   },
 };
 

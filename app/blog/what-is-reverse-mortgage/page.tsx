@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,149,825, eligibility requirements, HUD counseling, and pros/cons. Expert guidance from Mo Abdel NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage',
+      'x-default': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage',
+    },
   },
   openGraph: {
     title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',

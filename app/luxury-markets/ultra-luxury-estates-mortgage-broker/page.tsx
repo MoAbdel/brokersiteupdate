@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
+    },
   },
 };
 
@@ -33,17 +37,17 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
       {
         stat: "Orange County ultra-luxury median: $8.5M",
         source: "Ultra-Luxury Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "100% of ultra-luxury estates require portfolio financing",
         source: "Orange County Elite Property Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average ultra-luxury estate size: 8,500 sq ft",
         source: "Luxury Estate Market Study",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -222,7 +226,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Ultra-Luxury Estates Mortgage Broker 2025</h1>
+          <h1>Orange County Ultra-Luxury Estates Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Orange County ultra-luxury estates financing for $5M+ properties, including oceanfront mansions, hilltop compounds, exclusive estates, and luxury compounds. Expert in super jumbo loans, portfolio financing, and private banking solutions.</p>
           
           <h2>Ultra-Luxury Estate Types</h2>
@@ -434,7 +438,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
                   <CardTitle className="flex items-center">
                     <Star className="w-6 h-6 mr-2" />
-                    Ultra-Luxury Market Data 2025
+                    Ultra-Luxury Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

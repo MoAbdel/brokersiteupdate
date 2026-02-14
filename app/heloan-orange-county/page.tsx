@@ -3,37 +3,39 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, CreditCard, PiggyBank } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Home Equity Loans in Orange County, CA | Fixed-Rate Equity Access',
-  description: 'Get a lump sum from your home\'s equity with a fixed-rate Home Equity Loan in Orange County. Transparent terms, quick approvals.',
+  title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
+  description: 'Get a fixed-rate home equity loan in Orange County with predictable payments and clear terms. Compare HELOAN options with Mo Abdel (NMLS #1426884).',
   openGraph: {
-    title: 'Home Equity Loans in Orange County, CA | Fixed-Rate Equity Access',
-    description: 'Get a lump sum from your home\'s equity with a fixed-rate Home Equity Loan in Orange County. Transparent terms, quick approvals.',
+    title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
+    description: 'Get a fixed-rate home equity loan in Orange County with predictable payments and clear terms. Compare HELOAN options with Mo Abdel (NMLS #1426884).',
     url: 'https://www.mothebroker.com/heloan-orange-county',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/heloan-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/heloan-orange-county',
+      'x-default': 'https://www.mothebroker.com/heloan-orange-county',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo Abdel - Orange County Mortgage Broker",
-  "serviceType": "Home Equity Loan HELOAN",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/heloan-orange-county",
-  "description": "Expert Home Equity Loan services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/heloan-orange-county',
+  serviceType: 'Home Equity Loan HELOAN',
+  serviceName: 'Orange County Home Equity Loan',
+  serviceDescription: 'Expert home equity loan services in Orange County, CA',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/heloan-orange-county',
+  title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
+  description:
+    'Get a fixed-rate home equity loan in Orange County with predictable payments and clear terms. Compare HELOAN options with Mo Abdel (NMLS #1426884).',
+  breadcrumbName: 'HELOAN',
+});
 
 const heloanBenefits = [
   {
@@ -88,8 +90,8 @@ const faqs = [
     answer: "A Home Equity Loan (HELOAN) is a fixed-rate second mortgage that provides a lump sum of cash at closing. You make fixed monthly payments of principal and interest over the loan term. With Orange County's high home values, many homeowners can access substantial amounts, typically up to 80-90% of their home's value minus existing mortgage balances."
   },
   {
-    question: "What are the 2025 loan limits for HELOANs in Orange County?",
-    answer: "Fixed-rate home equity loans are typically structured within the conforming cap of $1,209,750, with FHA-backed options capped at $1,266,300. However, many HELOAN programs can go higher depending on your home's value and lender guidelines. Orange County's high property values often allow for substantial borrowing capacity."
+    question: "What are the 2026 loan limits for HELOANs in Orange County?",
+    answer: "Fixed-rate home equity loans are typically structured within the conforming cap of $1,249,125, with FHA-backed options capped at $1,266,300. However, many HELOAN programs can go higher depending on your home's value and lender guidelines. Orange County's high property values often allow for substantial borrowing capacity."
   },
   {
     question: "HELOAN vs HELOC - which is better for Orange County homeowners?",
@@ -207,6 +209,10 @@ export default function HELOANOrangeCountyPage() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <div className="min-h-screen py-12">
@@ -237,26 +243,26 @@ export default function HELOANOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 Loan Limits for Home Equity */}
+          {/* 2026 Loan Limits for Home Equity */}
           <section className="mb-16 bg-green-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2025 Loan Limits for Home Equity in Orange County
+              2026 Loan Limits for Home Equity in Orange County
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center">
-                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,209,750</strong>, 
+                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,249,125</strong>, 
                 with FHA-backed options capped at <strong>$1,266,300</strong>. With Orange County's high property values, 
                 many homeowners can access substantial borrowing capacity.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-green-600 mb-2">$1,209,750</h3>
-                  <p className="text-slate-700">2025 Conforming Loan Limit</p>
+                  <h3 className="text-2xl font-bold text-green-600 mb-2">$1,249,125</h3>
+                  <p className="text-slate-700">2026 Conforming Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Maximum for conventional programs</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
                   <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
-                  <p className="text-slate-700">2025 FHA Loan Limit</p>
+                  <p className="text-slate-700">2026 FHA Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">FHA-backed equity options</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
@@ -469,10 +475,10 @@ export default function HELOANOrangeCountyPage() {
               <Link href="/cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Cash-Out Refinance</span>
               </Link>
-              <Link href="/refinance-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/rate-term-refinance-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Refinance Loans</span>
               </Link>
-              <Link href="/areas/newport-beach" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/newport-beach-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Newport Beach Loans</span>
               </Link>
             </div>

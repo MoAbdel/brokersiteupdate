@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['what is a reverse mortgage', 'HECM loan', 'reverse mortgage for seniors', 'reverse mortgage requirements', 'how reverse mortgages work', 'reverse mortgage 2026'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026',
+    },
   },
   openGraph: {
     title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',

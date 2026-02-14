@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Laguna Hills wholesale mortgage broker serving 92653. Access 200+ lenders for jumbo loans in this South County community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92653',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92653',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92653',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92653 | Laguna Hills Jumbo Specialists',

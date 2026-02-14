@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { loadIndexingDelta } from './lib/indexing-delta.mjs';
 
 const BING_API_KEY = process.env.BING_API_KEY || process.env.BING_WEBMASTER_API_KEY;
 const SITE_URL = process.env.BING_SITE_URL || 'https://www.mothebroker.com';
@@ -154,10 +155,18 @@ const run = async () => {
   const DAILY_QUOTA = Number(process.env.BING_URL_DAILY_QUOTA || 100);
   const batchSize = Math.min(100, DAILY_QUOTA);
 
-  const urlsNewestFirst = sitemapItems
-    .slice()
-    .sort((a, b) => (b.lastmod || 0) - (a.lastmod || 0))
-    .map((x) => x.loc);
+  const delta = await loadIndexingDelta({ siteUrl: SITE_URL });
+  const urlsNewestFirst = delta.mode === 'delta'
+    ? delta.urls
+    : sitemapItems
+        .slice()
+        .sort((a, b) => (b.lastmod || 0) - (a.lastmod || 0))
+        .map((x) => x.loc);
+  if (delta.mode === 'delta') {
+    console.log(`Using delta-only URL set (${delta.urls.length} URLs) from ${delta.deltaPath}`);
+  } else {
+    console.log('No usable indexing delta found; falling back to sitemap URL set.');
+  }
 
   const urlsToSubmit = urlsNewestFirst
     .filter((url) => !wasRecentlySubmitted(state, 'bingUrls', url))

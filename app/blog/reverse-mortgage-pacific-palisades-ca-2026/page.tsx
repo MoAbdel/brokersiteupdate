@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['reverse mortgage Pacific Palisades', 'HECM Pacific Palisades CA', 'Pacific Palisades reverse mortgage', 'jumbo reverse mortgage Los Angeles', 'reverse mortgage Palisades Village', 'reverse mortgage The Riviera LA'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-pacific-palisades-ca-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-pacific-palisades-ca-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-pacific-palisades-ca-2026',
+    },
   },
   openGraph: {
     title: 'Reverse Mortgage in Pacific Palisades, CA: HECM Guide for Seniors [2026]',

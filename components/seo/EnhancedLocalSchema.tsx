@@ -5,34 +5,46 @@ import { PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
 
 interface EnhancedLocalSchemaProps {
   city?: string;
+  state?: 'CA' | 'WA';
+  regionName?: string;
   page_type?: 'home' | 'city' | 'service' | 'resource';
   service_focus?: string;
 }
 
 export default function EnhancedLocalSchema({
   city,
+  state = 'CA',
+  regionName,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   page_type = 'home',
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   service_focus
 }: EnhancedLocalSchemaProps) {
   const siteUrl = "https://www.mothebroker.com";
+  const stateFull = state === 'WA' ? 'Washington' : 'California';
+  const stateRegionCode = state === 'WA' ? 'US-WA' : 'US-CA';
+  const fallbackCoverage = regionName || (state ? stateFull : 'California and Washington');
+  const coverageLabel = city ? `${city}, ${stateFull}` : fallbackCoverage;
+  const defaultGeo =
+    state === 'WA'
+      ? { latitude: '47.6062', longitude: '-122.3321' }
+      : { latitude: '33.6846', longitude: '-117.8265' };
 
   // Generate location-specific schema
   const generateLocationSchema = () => {
     const baseLocation = {
       "@type": "Place",
-      "name": city ? `${city}, Orange County, CA` : "Orange County, CA",
+      "name": coverageLabel,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": city || "Orange County",
-        "addressRegion": "CA",
+        "addressLocality": city || fallbackCoverage,
+        "addressRegion": state,
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "33.6846",
-        "longitude": "-117.8265"
+        "latitude": defaultGeo.latitude,
+        "longitude": defaultGeo.longitude
       }
     };
 
@@ -43,8 +55,8 @@ export default function EnhancedLocalSchema({
   const mortgageBrokerSchema = {
     "@context": "https://schema.org",
     "@type": ["MortgageLoan", "FinancialProduct", "Service"],
-    "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker Services`,
-    "description": `Professional mortgage broker services in ${city ? city + ', ' : ''}Orange County. Access to 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
+    "name": `${city ? city + ' ' : 'California & Washington '}Mortgage Broker Services`,
+    "description": `Professional mortgage broker services in ${coverageLabel}. Access to 200+ lenders for competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
     "provider": {
       "@type": ["Person", "FinancialService"],
       "name": "Mo Abdel",
@@ -122,7 +134,7 @@ export default function EnhancedLocalSchema({
       "@type": "Audience",
       "geographicArea": {
         "@type": "Place",
-        "name": city ? `${city}, Orange County, CA` : "Orange County, CA"
+        "name": coverageLabel
       }
     }
   };
@@ -131,21 +143,21 @@ export default function EnhancedLocalSchema({
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `${city ? city + ' ' : 'Orange County '}Mortgage Broker | Mo Abdel`,
+    "name": `${city ? city + ' ' : 'California & Washington '}Mortgage Broker | Mo Abdel`,
     "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "telephone": PHONE_DISPLAY,
     "email": "mo.abdel@luminlending.com",
     "url": city ? `${siteUrl}/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : siteUrl,
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": city || "Orange County",
-      "addressRegion": "CA",
+      "addressLocality": city || fallbackCoverage,
+      "addressRegion": state,
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "33.6846",
-      "longitude": "-117.8265"
+      "latitude": defaultGeo.latitude,
+      "longitude": defaultGeo.longitude
     },
     "openingHours": [
       "Mo 08:00-20:00",
@@ -157,7 +169,7 @@ export default function EnhancedLocalSchema({
       "Su 10:00-16:00"
     ],
     "priceRange": "$$",
-    "description": `Licensed mortgage broker serving ${city ? city + ' and ' : ''}Orange County, CA. Access to 200+ lenders for competitive mortgage pricing, fast closings, and personalized service. NMLS #1426884.`,
+    "description": `Licensed mortgage broker serving ${coverageLabel}. Access to 200+ lenders for competitive mortgage pricing, fast closings, and personalized service. NMLS #1426884.`,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Mortgage Loan Programs",
@@ -190,10 +202,10 @@ export default function EnhancedLocalSchema({
     },
     "areaServed": {
       "@type": "City",
-      "name": city ? `${city}, CA` : "Orange County, CA",
+      "name": coverageLabel,
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": "Orange County, CA"
+        "name": stateFull
       }
     },
     "knowsAbout": [
@@ -203,7 +215,7 @@ export default function EnhancedLocalSchema({
       "FHA Loans",
       "VA Loans",
       "HELOC",
-      city ? `${city} Real Estate Market` : "Orange County Real Estate Market",
+      city ? `${city} Real Estate Market` : `${stateFull} Real Estate Market`,
       "First Time Home Buyers",
       "Investment Property Loans"
     ],
@@ -234,16 +246,22 @@ export default function EnhancedLocalSchema({
             "name": "Nationwide Multistate Licensing System",
             "url": "https://www.nmlsconsumeraccess.org/"
           },
-          "validIn": {
-            "@type": "AdministrativeArea",
-            "name": "California"
-          }
+          "validIn": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "California"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Washington"
+            }
+          ]
         }
       ]
     },
     "serviceArea": {
       "@type": "AdministrativeArea",
-      "name": "Orange County, CA"
+      "name": coverageLabel
     },
     "license": "NMLS #1426884"
   };
@@ -275,21 +293,21 @@ export default function EnhancedLocalSchema({
       />
 
       {/* Geographic targeting for local SEO */}
-      <meta name="geo.region" content="US-CA" />
-      <meta name="geo.placename" content={city ? `${city}, Orange County` : "Orange County"} />
-      <meta name="geo.position" content="33.6846;-117.8265" />
-      <meta name="ICBM" content="33.6846, -117.8265" />
+      <meta name="geo.region" content={stateRegionCode} />
+      <meta name="geo.placename" content={coverageLabel} />
+      <meta name="geo.position" content={`${defaultGeo.latitude};${defaultGeo.longitude}`} />
+      <meta name="ICBM" content={`${defaultGeo.latitude}, ${defaultGeo.longitude}`} />
 
       {/* Local business meta */}
       <meta name="business.hours" content="M-F 8:00-20:00, Sa 9:00-18:00, Su 10:00-16:00" />
       <meta name="business.phone" content={PHONE_E164} />
       <meta name="business.license" content="NMLS #1426884" />
-      <meta name="business.service_area" content={city ? `${city}, Orange County, CA` : "Orange County, CA"} />
+      <meta name="business.service_area" content={coverageLabel} />
 
       {/* Professional certification meta */}
       <meta name="professional.license" content="NMLS #1426884" />
       <meta name="professional.type" content="Mortgage Broker" />
-      <meta name="professional.jurisdiction" content="California" />
+      <meta name="professional.jurisdiction" content="California, Washington" />
     </>
   );
 }

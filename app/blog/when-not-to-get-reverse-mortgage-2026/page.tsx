@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Discover when a reverse mortgage is NOT the right choice and explore better alternatives. Honest guidance for seniors 62+ considering home equity options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026',
+      'x-default': 'https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026',
+    },
   },
 };
 

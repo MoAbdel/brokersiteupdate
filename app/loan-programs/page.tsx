@@ -3,15 +3,28 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Home, Shield, Users, TrendingUp, DollarSign, Zap, ArrowRight } from 'lucide-react';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Mortgage Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM',
+  title: 'California & Washington Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM',
   description:
-    'Compare mortgage and refinance options including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs. Find the right fit for your goals with expert guidance.',
+    'Compare mortgage and refinance options across California and Washington including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs with expert broker guidance.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs',
+      'x-default': 'https://www.mothebroker.com/loan-programs',
+    },
   },
 };
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs',
+  title: 'California & Washington Loan Programs | FHA, VA, HELOC, HELOAN, Jumbo, Non-QM',
+  description:
+    'Compare mortgage and refinance options across California and Washington including FHA, VA, HELOC, HELOAN, jumbo, and non-QM programs with expert broker guidance.',
+  breadcrumbName: 'Loan Programs',
+});
 
 const loanPrograms = [
   {
@@ -57,20 +70,24 @@ const loanPrograms = [
     title: 'Jumbo Refinance',
     icon: TrendingUp,
     href: '/loan-programs/jumbo-loans',
-    description: 'Refinancing for high-value properties in Orange County',
+    description: 'Refinancing for high-value properties across California and Washington',
     features: [
       'Refinance balances above conforming limits',
       'Competitive jumbo rates',
       'Cash-out options for luxury homes',
       'Various ARM and fixed-rate options'
     ],
-    bestFor: 'Luxury luxury homeowners, high-value Orange County property owners'
+    bestFor: 'Luxury homeowners and high-value property owners'
   }
 ];
 
 export default function ProgramsPage() {
   return (
     <div className="min-h-screen py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -80,7 +97,7 @@ export default function ProgramsPage() {
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             As a licensed broker with Lumin Lending - the nation's largest brokerage -
             I have access to over 200 lenders offering competitive pricing and flexible refinance
-            programs for every Orange County homeowner.
+            programs for homeowners across California and Washington.
           </p>
         </div>
 
@@ -91,7 +108,7 @@ export default function ProgramsPage() {
               <span className="text-blue-600">HELOC & Cash-Out Refinance Options</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Unlock your Orange County home's equity with flexible credit lines and loans
+              Unlock your home's equity with flexible credit lines and loans across California and Washington
             </p>
           </div>
 
@@ -155,7 +172,7 @@ export default function ProgramsPage() {
                     5-Min Pre-Approval
                   </Button>
                 </a>
-                <Link href="/loan-programs/heloc">
+                <Link href="/heloc-orange-county">
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold">
                     Traditional HELOC Details
                   </Button>
@@ -206,7 +223,7 @@ export default function ProgramsPage() {
                 </div>
               </div>
 
-              <Link href="/loan-programs/heloan">
+              <Link href="/heloan-orange-county">
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold">
                   Get HELOAN Pricing & Terms
                 </Button>
@@ -228,7 +245,7 @@ export default function ProgramsPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             {/* Cash-Out Refinancing */}
-            <Link href="/loan-programs/cash-out-refinance" className="block h-full group">
+            <Link href="/cash-out-refinance" className="block h-full group">
               <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-orange-200 relative h-full transition-all duration-300 hover:border-orange-400 hover:shadow-2xl">
                 <div className="absolute -top-4 left-6">
                   <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
@@ -383,19 +400,19 @@ export default function ProgramsPage() {
         </div>
 
         <div className="bg-white border border-slate-200 rounded-xl p-8 mb-16">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Local Orange County Program Pages</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Regional Program Pages</h2>
           <p className="text-slate-600 mb-6">
-            Fast access to the most requested OC-specific loan program pages.
+            Fast access to high-intent regional loan program pages.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             <Link className="text-blue-700 hover:underline" href="/rate-term-refinance-orange-county">
-              Rate &amp; Term Refinance (OC)
+              Rate &amp; Term Refinance (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/loan-programs/va-refinance">
               VA Refinance (IRRRL)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/loan-programs/orange-county-va-loans">
-              Orange County VA Loans
+              VA Loans (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/loan-programs/fha-loans-irvine">
               FHA Loans in Irvine
@@ -404,19 +421,19 @@ export default function ProgramsPage() {
               Bank Statement Loans (Irvine)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/loan-programs/orange-county-fha-loan-limits">
-              Orange County FHA Loan Limits
+              FHA Loan Limits (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/orange-county-conventional-loans">
-              Orange County Conventional Loans
+              Conventional Loans (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/orange-county-fha-loans">
-              Orange County FHA Loans
+              FHA Loans (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/non-qm-loans-orange-county">
-              Non-QM Loans (Orange County)
+              Non-QM Loans (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/heloc-specialist-orange-county">
-              HELOC Specialist (Orange County)
+              HELOC Specialist (Regional)
             </Link>
           </div>
         </div>

@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-coastal-north-sd-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-coastal-north-sd-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-coastal-north-sd-2026',
+    },
   },
 };
 

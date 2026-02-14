@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Cash out refinance how it works: Replace your mortgage with a larger loan and get the difference in cash. 20% equity required, 620+ credit, 43% DTI. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
+    },
   },
   openGraph: {
     title: 'How Does a Cash-Out Refinance Work? Complete Guide [2026]',

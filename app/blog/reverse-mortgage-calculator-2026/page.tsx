@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'How much can I get from a reverse mortgage? 2026 calculator guide for seniors 62+. Learn factors affecting proceeds, PLF tables, and get personalized estimates.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-calculator-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-calculator-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-calculator-2026',
+    },
   },
   openGraph: {
     title: 'How Much Can I Get From a Reverse Mortgage? 2026 Calculator Guide',

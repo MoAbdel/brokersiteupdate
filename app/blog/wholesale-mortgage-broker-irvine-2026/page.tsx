@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine wholesale mortgage broker with 200+ lender access. Jumbo loans, bank statement programs & better rates for OC\'s master-planned city. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-irvine-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-irvine-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-irvine-2026',
+    },
   },
 };
 

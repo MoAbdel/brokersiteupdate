@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['reverse mortgage Santa Monica', 'HECM Santa Monica', 'Santa Monica reverse mortgage lenders', 'reverse mortgage California', 'Santa Monica seniors home equity'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-santa-monica-ca-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-santa-monica-ca-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-santa-monica-ca-2026',
+    },
   },
   openGraph: {
     title: 'Reverse Mortgage in Santa Monica, CA: HECM Guide for Seniors [2026]',

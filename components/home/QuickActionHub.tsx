@@ -48,6 +48,26 @@ export default function QuickActionHub() {
       href: 'https://luminlending.com',
       external: true,
     },
+    {
+      icon: Globe,
+      title: 'California Mortgage Hub',
+      href: '/blog/wholesale-mortgage-broker-california-guide-2026',
+    },
+    {
+      icon: Globe,
+      title: 'Washington Mortgage Hub',
+      href: '/blog/wholesale-mortgage-broker-washington-2026',
+    },
+    {
+      icon: Globe,
+      title: 'California Service Areas',
+      href: '/areas/california',
+    },
+    {
+      icon: Globe,
+      title: 'Washington Service Areas',
+      href: '/areas/washington',
+    },
   ];
 
   return (

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Yorba Linda wholesale mortgage broker serving 92886. Access 200+ lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92886',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92886',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92886',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92886 | Yorba Linda Jumbo Loan Specialists',

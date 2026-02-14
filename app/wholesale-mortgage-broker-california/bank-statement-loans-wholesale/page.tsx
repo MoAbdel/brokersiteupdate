@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Access bank statement loans through wholesale mortgage brokers. No tax returns required. 12-24 month deposits qualify. Up to $3M loans for California self-employed borrowers.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/bank-statement-loans-wholesale',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/bank-statement-loans-wholesale',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/bank-statement-loans-wholesale',
+    },
   },
   keywords: ['bank statement loans wholesale', 'bank statement mortgage', 'self-employed home loan', 'no tax return mortgage', 'california bank statement loan'],
 };

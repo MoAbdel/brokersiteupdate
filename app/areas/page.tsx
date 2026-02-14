@@ -4,15 +4,28 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { MapPin, Home, TrendingUp, Phone } from 'lucide-react';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Orange County Mortgage Areas | City-by-City Loan Guides',
+  title: 'California & Washington Service Areas | Regional Mortgage Guides',
   description:
-    'Explore city-by-city mortgage guidance across Orange County. Compare local market context, loan program fit, and neighborhood-specific financing insights.',
+    'Explore regional mortgage guidance across California and Washington, with city-level market context, program fit, and neighborhood-specific financing insights.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas',
+      'x-default': 'https://www.mothebroker.com/areas',
+    },
   },
 };
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/areas',
+  title: 'California & Washington Service Areas | Regional Mortgage Guides',
+  description:
+    'Explore regional mortgage guidance across California and Washington, with city-level market context, program fit, and neighborhood-specific financing insights.',
+  breadcrumbName: 'Areas',
+});
 
 const serviceAreas = [
   {
@@ -116,20 +129,57 @@ const neighborhoodPages = [
 export default function NeighborhoodGuidePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Orange County <span className="text-blue-600">Service Areas</span>
+            California &amp; Washington <span className="text-blue-600">Service Areas</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Mo Abdel provides mortgage services throughout Orange County.
-            Find local market insights, lending programs, and Competitive pricing for your specific area.
+            Mo Abdel provides mortgage services across California and Washington.
+            Explore statewide hubs first, then drill into local market insights, lending programs, and competitive pricing.
           </p>
           <div className="flex items-center justify-center text-slate-700 mb-8">
             <MapPin className="w-6 h-6 text-blue-600 mr-2" />
-            <span className="text-lg">Licensed to serve all Orange County cities</span>
+            <span className="text-lg">Licensed to serve California and Washington</span>
+          </div>
+        </div>
+
+        <div className="bg-white border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Statewide Hub Pages</h2>
+          <p className="text-slate-600 mb-6">
+            Start with statewide strategy pages, then move into regional city and neighborhood clusters.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/areas/california">
+              California Service Areas
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/washington">
+              Washington Service Areas
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/wholesale-mortgage-broker-california-guide-2026">
+              California Mortgage Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/wholesale-mortgage-broker-washington-2026">
+              Washington Mortgage Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/home-equity-california-guide-2026">
+              California Home Equity Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/home-equity-washington-guide-2026">
+              Washington Home Equity Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/reverse-mortgage-california-guide-2026">
+              California Reverse Mortgage Hub
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/blog/reverse-mortgage-washington-guide-2026">
+              Washington Reverse Mortgage Hub
+            </Link>
           </div>
         </div>
 
@@ -226,10 +276,25 @@ export default function NeighborhoodGuidePage() {
           </div>
         </div>
 
+        <div className="bg-white border border-slate-200 rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Loan Program Shortcuts</h2>
+          <p className="text-slate-600 mb-6">
+            Jump directly to purchase, refinance, and equity loan program pages.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/purchase-loans">Purchase Loans</Link>
+            <Link className="text-blue-700 hover:underline" href="/refinance-loans">Refinance Loans</Link>
+            <Link className="text-blue-700 hover:underline" href="/fha-loans-orange-county">FHA Loans</Link>
+            <Link className="text-blue-700 hover:underline" href="/va-loans-orange-county">VA Loans</Link>
+            <Link className="text-blue-700 hover:underline" href="/heloc-orange-county">HELOC</Link>
+            <Link className="text-blue-700 hover:underline" href="/cash-out-refinance">Cash-Out Refinance</Link>
+          </div>
+        </div>
+
         {/* Additional Cities */}
         <div className="bg-slate-50 rounded-2xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">
-            Additional Orange County Cities We Serve
+            Additional Orange County Cities We Serve (Regional Cluster)
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
             {additionalCityPages.map((city) => (

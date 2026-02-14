@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
+      'x-default': 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
+    },
   },
 };
 

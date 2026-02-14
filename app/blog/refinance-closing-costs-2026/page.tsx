@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Refinance closing costs 2026: Complete breakdown of fees, typical amounts, and how to reduce costs. Understand what you\'ll pay. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-closing-costs-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/refinance-closing-costs-2026',
+      'x-default': 'https://www.mothebroker.com/blog/refinance-closing-costs-2026',
+    },
   },
 };
 

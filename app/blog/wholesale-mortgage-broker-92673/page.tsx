@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'San Clemente wholesale mortgage broker serving 92673. Access 200+ lenders for jumbo loans, VA programs near Camp Pendleton. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92673 | San Clemente Jumbo Loan Specialists',

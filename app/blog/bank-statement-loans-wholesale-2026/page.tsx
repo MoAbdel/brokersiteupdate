@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Bank statement loans wholesale advantage 2026: Access 50+ lenders with varying guidelines through wholesale brokers. Self-employed mortgage solutions. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026',
+      'x-default': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026',
+    },
   },
 };
 

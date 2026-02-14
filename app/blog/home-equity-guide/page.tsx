@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete home equity loan California guide 2026: Compare cash-out refinance, HELOC, and HELOAN options. Learn requirements, rates, and best uses for accessing home equity. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-guide',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-guide',
+    },
   },
   openGraph: {
     title: 'Home Equity & Refinancing Guide: Cash-Out, HELOC & HELOAN [2026]',

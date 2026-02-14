@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Beach Balboa Peninsula wholesale mortgage broker serving 92661. Access 200+ lenders for jumbo loans, investment property financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92661',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92661',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92661',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92661 | Newport Beach (Balboa) Jumbo Loan Specialists',

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
@@ -14,7 +14,7 @@ export default function LocalMarketInsights() {
       value: "$1.1M+",
       change: "+5.1%",
       trend: "up",
-      description: "Orange County median sale price trending upward"
+      description: "Benchmark regional sale prices trending upward"
     },
     {
       metric: "Active Inventory",
@@ -42,14 +42,14 @@ export default function LocalMarketInsights() {
         <div className="text-center mb-12">
           <Badge className="bg-green-100 text-green-800 mb-4">
             <Calendar className="w-4 h-4 mr-1" />
-            Orange County Market Update
+            California & Washington Market Update
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             Local Housing Market Insights
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Stay informed about Orange County housing trends.
-            Understanding the market helps you make better financing decisions.
+            Stay informed about California and Washington housing trends.
+            Use benchmark data to make better financing decisions.
           </p>
         </div>
 
@@ -113,12 +113,12 @@ export default function LocalMarketInsights() {
             </CardContent>
           </Card>
 
-          {/* Orange County Highlights */}
+          {/* Regional Highlights */}
           <Card className="border-slate-200 shadow-base44-lg card-hover">
             <CardHeader>
               <CardTitle className="flex items-center text-xl">
                 <Home className="w-6 h-6 text-blue-600 mr-3" />
-                Why Orange County is a Great Investment
+                Why California & Washington Are Strong Long-Term Markets
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -142,7 +142,7 @@ export default function LocalMarketInsights() {
                 <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Strong Property Values</h4>
-                  <p className="text-slate-600 text-sm">Consistent appreciation and desirable communities throughout OC</p>
+                  <p className="text-slate-600 text-sm">Consistent appreciation and desirable communities across both states</p>
                 </div>
               </div>
             </CardContent>
@@ -151,7 +151,7 @@ export default function LocalMarketInsights() {
 
         <div className="text-center">
           <p className="text-sm text-slate-500 mb-6">
-            Market data updated periodically. Sources may include: MLS, Orange County Association of Realtors, CoreLogic
+            Market data updated periodically. Sources may include MLS datasets, Realtor associations, and CoreLogic.
           </p>
 
           <Link href="/loan-programs">

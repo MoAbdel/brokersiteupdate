@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Learn how wholesale mortgage brokers leverage 200+ lender relationships to find better rates, higher approval odds, and faster closings. The complete guide to the wholesale lender network advantage. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/200-lender-advantage',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/200-lender-advantage',
+      'x-default': 'https://www.mothebroker.com/blog/200-lender-advantage',
+    },
   },
   openGraph: {
     title: 'The 200+ Lender Advantage: How Wholesale Brokers Find Your Best Rate [2026]',

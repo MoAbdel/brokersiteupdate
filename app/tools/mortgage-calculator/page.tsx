@@ -163,7 +163,7 @@ export default function MortgageCalculatorPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Mortgage Calculator 2025</h1>
+          <h1>Orange County Mortgage Calculator 2026</h1>
           <p>Free mortgage payment calculator for Orange County home buyers. Calculate monthly payments including principal, interest, taxes, insurance, and PMI. Get accurate estimates for FHA, VA, conventional, and jumbo loans.</p>
           
           <h2>Calculator Features</h2>

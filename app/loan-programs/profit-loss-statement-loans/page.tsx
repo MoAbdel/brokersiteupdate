@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description: 'P&L Statement loans for business owners in Orange County. Use CPA-prepared profit & loss statements for income verification instead of tax returns. Flexible Non-QM financing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/profit-loss-statement-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/profit-loss-statement-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/profit-loss-statement-loans',
+    },
   },
 };
 

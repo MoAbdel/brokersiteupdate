@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Northpark wholesale mortgage broker serving 92602. Access 200+ lenders for jumbo loans, tech professional programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92602 | Irvine Northpark Jumbo Loan Specialists',

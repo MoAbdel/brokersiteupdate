@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Coto de Caza 92679 wholesale mortgage broker with 200+ lender access. Gated community jumbo loans, Dove Canyon financing, self-employed programs. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92679-coto-de-caza-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92679-coto-de-caza-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92679-coto-de-caza-2026',
+    },
   },
 };
 

@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Santa Ana mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and conventional loans. Serving Downtown, Floral Park, French Park. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/santa-ana-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/santa-ana-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/santa-ana-mortgage-broker',
+    },
   },
 };
 

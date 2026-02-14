@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Access wholesale mortgage rates in Yorba Linda through 200+ lenders. Serving Black Gold Estates, Yorba Linda Highlands, Hidden Hills. Jumbo loans, bank statement programs. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda',
+    },
   },
   openGraph: {
     title: 'Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates',

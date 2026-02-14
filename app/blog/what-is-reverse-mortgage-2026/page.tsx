@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'What is a reverse mortgage? Complete 2026 guide to HECM loans for homeowners 62+. Learn how reverse mortgages work, requirements, and benefits. Expert guidance from Mo Abdel NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-2026',
+      'x-default': 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-2026',
+    },
   },
   openGraph: {
     title: 'What Is a Reverse Mortgage in 2026? Complete HECM Guide',

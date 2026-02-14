@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Wholesale vs retail mortgage comparison 2026: Wholesale brokers access 200+ lenders with institutional pricing while retail banks offer single-lender options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026',
+    },
   },
   openGraph: {
     title: 'Wholesale vs Retail Mortgage: Complete Comparison Guide [2026]',

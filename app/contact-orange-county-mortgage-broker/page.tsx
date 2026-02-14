@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 200+ lenders access. Free consultation, 18-day closings. Call (949) 822-9662 or apply online.',
   alternates: {
     canonical: 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
+    },
   },
 };
 

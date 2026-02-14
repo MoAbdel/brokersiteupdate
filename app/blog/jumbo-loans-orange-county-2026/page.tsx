@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
+      'x-default': 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
+    },
   },
   openGraph: {
     title: 'Jumbo Loans Orange County 2026: Wholesale Rates & Luxury Home Financing',
@@ -31,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
-    publishedTime: '2025-01-06T00:00:00Z',
+    publishedTime: '2026-01-06T00:00:00Z',
     modifiedTime: '2026-02-12T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
@@ -60,7 +64,7 @@ export default function JumboLoansOrangeCountyPage() {
                             "name": "Lumin Lending, Inc.",
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
-                        "datePublished": "2025-01-06",
+                        "datePublished": "2026-01-06",
                         "dateModified": "2026-02-12",
                         "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,149,825. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })

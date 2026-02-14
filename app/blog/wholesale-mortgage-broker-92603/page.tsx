@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Turtle Rock wholesale mortgage broker serving 92603. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',

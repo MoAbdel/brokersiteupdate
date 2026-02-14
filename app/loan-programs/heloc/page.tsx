@@ -4,31 +4,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { TrendingUp, DollarSign, Calendar, Shield, CheckCircle, AlertCircle } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'HELOC | Mo Abdel - Orange County Mortgage Broker',
   description: 'Home equity lines of credit in Orange County. Access your home equity with flexible draw periods. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloc',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/heloc',
+      'x-default': 'https://www.mothebroker.com/loan-programs/heloc',
+    },
   },
 };
 
-const pageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'HELOC in Orange County',
-  provider: {
-    '@type': 'FinancialService',
-    name: 'Mo Abdel - Mortgage Broker',
-    url: 'https://www.mothebroker.com'
-  },
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: 'Orange County, CA'
-  },
+const pageSchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/heloc',
   serviceType: 'Home Equity Line of Credit',
-  url: 'https://www.mothebroker.com/loan-programs/heloc'
-};
+  serviceName: 'HELOC in Orange County',
+  serviceDescription: 'Expert HELOC services in Orange County, CA',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/heloc',
+  title: 'HELOC | Mo Abdel - Orange County Mortgage Broker',
+  description:
+    'Home equity lines of credit in Orange County. Access your home equity with flexible draw periods. Licensed broker NMLS #1426884.',
+  breadcrumbName: 'HELOC',
+});
 
 export default function HELOCPage() {
   return (
@@ -36,6 +39,10 @@ export default function HELOCPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

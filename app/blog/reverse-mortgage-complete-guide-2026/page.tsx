@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage California guide 2026: HECM requirements, eligibility, pros/cons, and how seniors 62+ can access home equity. FHA limit $1,149,825. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-complete-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-complete-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-complete-guide-2026',
+    },
   },
 };
 

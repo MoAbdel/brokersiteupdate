@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'Orange County golf course homes mortgage broker specializing in luxury fairway properties. Championship courses, resort amenities, and prestige living. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/golf-course-homes-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/luxury-markets/golf-course-homes-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/luxury-markets/golf-course-homes-mortgage-broker',
+    },
   },
 };
 
@@ -33,17 +37,17 @@ export default function GolfCourseHomesMortgageBrokerPage() {
       {
         stat: "Orange County golf course home median: $2.8M",
         source: "Luxury Golf Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "92% of golf course homes require jumbo financing",
         source: "Orange County Golf Analysis",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Average golf course premium: $400K over comparable homes",
         source: "Golf Community Valuation Study",
-        year: "2025"
+        year: "2026"
       }
     ]
   };
@@ -216,7 +220,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Orange County Golf Course Homes Mortgage Broker 2025</h1>
+          <h1>Orange County Golf Course Homes Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Orange County golf course homes financing, including fairway estates, golf community condos, championship course properties, and country club homes. Expert in luxury golf property financing and resort community lending.</p>
           
           <h2>Golf Course Property Types</h2>
@@ -426,7 +430,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-green-600 to-emerald-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
-                    Golf Course Market Data 2025
+                    Golf Course Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete reverse mortgage California guide 2026: HECM requirements, eligibility, payout options, counseling requirements. FHA limit $1,149,825. Expert guidance for seniors 62+. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgages-california-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgages-california-guide',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgages-california-guide',
+    },
   },
   openGraph: {
     title: 'Complete Guide to Reverse Mortgages in California & Washington [2026]',

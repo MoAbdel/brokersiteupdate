@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage requirements 2026: Borrowers must be 62+, own home as primary residence, have 50%+ equity, complete HUD counseling, pass financial assessment. FHA limit $1,149,825. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
+    },
   },
   keywords: [
     'reverse mortgage requirements 2026',

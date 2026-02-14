@@ -3,37 +3,42 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { TrendingDown, DollarSign, Home, Clock, Calculator, CheckCircle, Zap, CreditCard, PiggyBank } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Refinance Loans in Orange County, CA | Lower Your Rate',
-  description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale pricing in Orange County.',
+  title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
+  description: 'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
   openGraph: {
-    title: 'Refinance Loans in Orange County, CA | Lower Your Rate',
-    description: 'Lower your monthly payments or shorten your term with a refinance. Get expert advice and wholesale pricing in Orange County.',
+    title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
+    description: 'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
     url: 'https://www.mothebroker.com/refinance-loans',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/refinance-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/refinance-loans',
+      'x-default': 'https://www.mothebroker.com/refinance-loans',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
-  "serviceType": "Mortgage Refinance Loans",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/refinance-loans",
-  "description": "Expert mortgage refinancing services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/refinance-loans',
+  serviceType: 'Mortgage Refinance Services',
+  serviceName: 'California and Washington Refinance Loans',
+  serviceDescription: 'Expert mortgage refinance services across California and Washington',
+  areaServedNames: ['California', 'Washington'],
+  addressLocality: 'California',
+  addressRegion: 'US',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/refinance-loans',
+  title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
+  description:
+    'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
+  breadcrumbName: 'Refinance Loans',
+});
 
 const refinanceOptions = [
   {
@@ -96,15 +101,15 @@ const refinanceOptions = [
 
 const faqs = [
   {
-    question: "When does refinancing make sense in Orange County?",
-    answer: "Generally, refinancing makes sense when you can reduce your loan pricing by 0.5-1% or more, eliminate PMI, switch from an ARM to fixed-rate, or access equity through cash-out refinancing. With Orange County's high home values, even small rate reductions can result in significant monthly savings."
+    question: "When does refinancing make sense in California or Washington?",
+    answer: "Generally, refinancing makes sense when you can reduce your loan pricing by 0.5-1% or more, eliminate PMI, switch from an ARM to fixed-rate, or access equity through cash-out refinancing. In high-value markets, even small rate reductions can result in significant monthly savings."
   },
   {
-    question: "How much equity do I need to refinance my Orange County home?",
+    question: "How much equity do I need to refinance my California or Washington home?",
     answer: "For a rate-and-term refinance, you typically need at least 20% equity to avoid PMI on the new loan. For cash-out refinancing, you can generally access up to 80% of your home's value, meaning you'd need at least 20% remaining equity after the cash-out."
   },
   {
-    question: "What are current refinance pricing in Orange County?",
+    question: "What are current refinance pricing in California and Washington?",
     answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 200+ lenders, I can shop multiple rate options to find your best deal. Call for current pricing specific to your situation."
   },
   {
@@ -128,7 +133,7 @@ const marketInsights = [
   },
   {
     stat: "$1.26M",
-    description: "Orange County Median Home Value"
+    description: "Typical High-Cost Market Home Value"
   }
 ];
 
@@ -139,16 +144,20 @@ export default function RefinanceLoansPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Mortgage Refinance in <span className="text-blue-600">Orange County, CA</span>
+              Mortgage Refinance in <span className="text-blue-600">California &amp; Washington</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
               Whether you want to lower your monthly payments, shorten your loan term, or access your home's equity, 
-              refinancing can help you achieve your financial goals. With Orange County's rising home values, 
+              refinancing can help you achieve your financial goals. With strong home values across California and Washington,
               now may be the perfect time to optimize your mortgage.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -169,7 +178,7 @@ export default function RefinanceLoansPage() {
           {/* Market Insights */}
           <section className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              Orange County Refinance Market Data
+              California &amp; Washington Refinance Market Data
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {marketInsights.map((insight, index) => (
@@ -180,14 +189,14 @@ export default function RefinanceLoansPage() {
               ))}
             </div>
             <p className="text-center text-slate-600 mt-6 text-sm">
-              <em>*Rates as of January 2025. Many Orange County homeowners may benefit from refinancing.</em>
+              <em>*Rates as of January 2026. Many California and Washington homeowners may benefit from refinancing.</em>
             </p>
           </section>
 
           {/* Types of Refinancing Options */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
-              Types of Refinancing Options in Orange County
+              Types of Refinancing Options in California &amp; Washington
             </h2>
             <p className="text-xl text-slate-600 text-center mb-12 max-w-3xl mx-auto">
               Different refinancing strategies serve different financial goals. Let's find the right option for your situation.
@@ -241,7 +250,7 @@ export default function RefinanceLoansPage() {
           {/* Benefits of Refinancing */}
           <section className="mb-16 bg-slate-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of Refinancing Your Orange County Home
+              Benefits of Refinancing Your Home
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -273,7 +282,7 @@ export default function RefinanceLoansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Access Home Equity</h3>
                 <p className="text-slate-600">
-                  With Orange County's rising home values, cash-out refinancing can 
+                  With rising home values in many California and Washington markets, cash-out refinancing can
                   provide significant funds for improvements, investments, or debt consolidation.
                 </p>
               </div>
@@ -316,7 +325,7 @@ export default function RefinanceLoansPage() {
           {/* When Does Refinancing Make Sense */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              When Does Refinancing Make Sense in Orange County?
+              When Does Refinancing Make Sense in California or Washington?
             </h2>
             
             <div className="max-w-4xl mx-auto">
@@ -379,7 +388,7 @@ export default function RefinanceLoansPage() {
           {/* FAQ Section */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FAQs for Refinancing in Orange County
+              FAQs for Refinancing in California &amp; Washington
             </h2>
             <div className="max-w-4xl mx-auto">
               {faqs.map((faq, index) => (
@@ -394,19 +403,19 @@ export default function RefinanceLoansPage() {
           {/* Internal Links Section */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              Explore Related Orange County Mortgage Services
+              Explore Related Mortgage Services
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Link href="/cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Cash-Out Refinance</span>
               </Link>
-              <Link href="/loan-programs/heloc" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/heloc-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">HELOC Options</span>
               </Link>
               <Link href="/purchase-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Purchase Loans</span>
               </Link>
-              <Link href="/areas/irvine" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Irvine Refinancing</span>
               </Link>
             </div>
@@ -416,7 +425,7 @@ export default function RefinanceLoansPage() {
           <section className="text-center bg-blue-600 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Explore Your Refinance Options?</h2>
             <p className="text-xl mb-6 text-blue-100">
-              Get your free rate review and discover how much you could save with a refinance in Orange County.
+              Get your free rate review and discover how much you could save with a refinance in California or Washington.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
@@ -431,7 +440,7 @@ export default function RefinanceLoansPage() {
               </Link>
             </div>
             <p className="text-sm text-blue-200 mt-4">
-              Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
+              Mo Abdel - NMLS #1426884 | Licensed Mortgage Broker (CA &amp; WA)
             </p>
           </section>
         </div>

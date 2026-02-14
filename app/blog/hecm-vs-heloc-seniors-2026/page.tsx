@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Compare reverse mortgage (HECM) vs HELOC for seniors 62+. No monthly payments vs lower rates. See which home equity option fits your retirement. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-vs-heloc-seniors-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/hecm-vs-heloc-seniors-2026',
+      'x-default': 'https://www.mothebroker.com/blog/hecm-vs-heloc-seniors-2026',
+    },
   },
   keywords: ['reverse mortgage vs heloc seniors', 'hecm vs heloc', 'reverse mortgage or heloc', 'seniors home equity options', 'heloc for retirees'],
 };

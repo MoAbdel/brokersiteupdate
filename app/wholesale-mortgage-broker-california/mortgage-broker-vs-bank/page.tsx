@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Compare mortgage brokers vs banks for your California home loan. Brokers access 200+ lenders for better rates. Banks offer single-source simplicity. See which wins.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank',
+    },
   },
   keywords: ['mortgage broker vs bank', 'bank vs mortgage broker', 'should i use a mortgage broker', 'mortgage broker advantages', 'california mortgage broker'],
 };
@@ -553,8 +557,8 @@ export default function MortgageBrokerVsBankPage() {
           <div className="bg-gray-50 p-4 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Service Areas</h3>
             <ul className="list-none pl-0 mb-0 space-y-2">
-              <li><Link href="/areas/irvine" className="text-blue-600 hover:underline">Irvine Mortgage Broker</Link></li>
-              <li><Link href="/areas/newport-beach" className="text-blue-600 hover:underline">Newport Beach Mortgage Broker</Link></li>
+              <li><Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:underline">Irvine Mortgage Broker</Link></li>
+              <li><Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:underline">Newport Beach Mortgage Broker</Link></li>
               <li><Link href="/areas/huntington-beach-mortgage-broker" className="text-blue-600 hover:underline">Huntington Beach Mortgage</Link></li>
               <li><Link href="/areas/costa-mesa-mortgage-broker" className="text-blue-600 hover:underline">Costa Mesa Mortgage</Link></li>
             </ul>

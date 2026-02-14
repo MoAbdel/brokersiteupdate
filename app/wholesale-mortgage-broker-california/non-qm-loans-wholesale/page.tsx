@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Non-QM loans through wholesale brokers: bank statement, DSCR, asset depletion, foreign national programs. 200+ lenders with flexible guidelines banks don\'t offer. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/non-qm-loans-wholesale',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/non-qm-loans-wholesale',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/non-qm-loans-wholesale',
+    },
   },
   keywords: ['non-qm loans wholesale', 'non-qm mortgage broker', 'non-qualified mortgage', 'alternative mortgage programs', 'california non-qm loans'],
 };

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
+    },
   },
 };
 
@@ -33,7 +37,7 @@ export default function IrvineMortgageGuidePage() {
                         },
                         "datePublished": "2026-01-09",
                         "dateModified": "2026-01-09",
-                        "description": "2025 Irvine mortgage guide. Discover the wholesale advantage for OC's premier master-planned communities and specialized programs for high-income professionals."
+                        "description": "2026 Irvine mortgage guide. Discover the wholesale advantage for OC's premier master-planned communities and specialized programs for high-income professionals."
                     })
                 }}
             />
@@ -50,11 +54,11 @@ export default function IrvineMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in Irvine in 2025, homebuyers should utilize **wholesale lending channels** to capitalize on specialized programs designed for high-income professionals and master-planned neighborhoods. Whether you are purchasing in Turtle Ridge, Quail Hill, or Great Park, the most efficient financing strategy involves using **institutional pricing** to offset Orange County's high property values and Irvine's specific Mello-Roos requirements.
+                        To secure a mortgage in Irvine in 2026, homebuyers should utilize **wholesale lending channels** to capitalize on specialized programs designed for high-income professionals and master-planned neighborhoods. Whether you are purchasing in Turtle Ridge, Quail Hill, or Great Park, the most efficient financing strategy involves using **institutional pricing** to offset Orange County's high property values and Irvine's specific Mello-Roos requirements.
                     </p>
                 </div>
 
-                <h2>What defines the Irvine mortgage market in 2025?</h2>
+                <h2>What defines the Irvine mortgage market in 2026?</h2>
                 <p>
                     Irvine remains a cornerstone of the Southern California housing market, blending a high-tech jobs center with world-class residential planning. As a local broker, I see several key factors influencing Irvine financing today:
                 </p>

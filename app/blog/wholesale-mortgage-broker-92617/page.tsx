@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine UCI area wholesale mortgage broker serving 92617. Access 200+ lenders for jumbo loans near University of California. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92617 | Irvine UCI Jumbo Specialists',

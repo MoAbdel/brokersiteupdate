@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Asset depletion loans in Orange County for high net worth borrowers. Qualify using retirement accounts, investments, and liquid assets. No income documentation required. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/asset-depletion-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/asset-depletion-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/asset-depletion-loans',
+    },
   },
 };
 

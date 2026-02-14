@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Laguna Niguel wholesale mortgage broker serving 92677. Access 200+ lenders for jumbo loans, competitive rates & better financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92677 | Laguna Niguel Jumbo Loan Specialists',

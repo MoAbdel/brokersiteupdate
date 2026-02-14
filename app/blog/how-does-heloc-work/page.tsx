@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['how does a heloc work', 'HELOC explained', 'home equity line of credit', 'HELOC draw period', 'HELOC repayment period', 'HELOC variable rates'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/how-does-heloc-work',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/how-does-heloc-work',
+      'x-default': 'https://www.mothebroker.com/blog/how-does-heloc-work',
+    },
   },
   openGraph: {
     title: 'How Does a HELOC Work? Home Equity Line of Credit Explained [2026]',

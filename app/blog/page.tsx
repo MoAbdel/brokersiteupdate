@@ -1,12 +1,17 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Mortgage Blog | Refinance, Home Equity, and Loan Strategy Guides',
+  title: 'California & Washington Mortgage Blog | Refinance, Home Equity, FHA & VA',
   description:
-    'Read actionable mortgage insights from Mo Abdel covering refinance strategy, home equity options, and city-specific financing guides across Orange County.',
+    'Read practical mortgage insights on refinance, home equity, FHA, VA, and jumbo financing from Mo Abdel, with California and Washington market context.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog',
+      'x-default': 'https://www.mothebroker.com/blog',
+    },
   },
 };
 
@@ -46,7 +51,7 @@ const blogPosts = [
     {
         slug: 'heloan-vs-cash-out-refinance-2026',
         title: 'HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy',
-        excerpt: 'Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into your Southern California equity.',
+        excerpt: 'Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into home equity strategically.',
         date: '2026-01-11',
         category: 'Education',
         readTime: '12 min read',
@@ -146,6 +151,14 @@ const featuredGuides = [
     { slug: 'dana-point-mortgage-guide-2026', title: 'Dana Point Mortgage Guide (2026)' },
 ];
 
+const pageSchema = buildServiceWebPageSchema({
+    pageUrl: 'https://www.mothebroker.com/blog',
+    title: 'California & Washington Mortgage Blog | Refinance, Home Equity, FHA & VA',
+    description:
+        'Read practical mortgage insights on refinance, home equity, FHA, VA, and jumbo financing from Mo Abdel, with California and Washington market context.',
+    breadcrumbName: 'Blog',
+});
+
 export default function BlogIndexPage() {
     const formatDate = (dateString: string) => {
         const date = new Date(`${dateString}T00:00:00`);
@@ -158,6 +171,10 @@ export default function BlogIndexPage() {
 
     return (
         <div className="min-h-screen bg-white">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+            />
             <div className="max-w-7xl mx-auto px-4 pt-10 pb-16 lg:pt-12">
                 <header className="text-center mb-10">
                     <h1 className="text-5xl font-bold text-gray-900 mb-3">
@@ -215,16 +232,16 @@ export default function BlogIndexPage() {
                     <h2 className="text-2xl font-bold text-slate-900 mb-4">Refinance & Equity Quick Links</h2>
                     <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                         <Link href="/cash-out-refinance" className="text-blue-700 hover:underline">
-                            Cash-Out Refinance (Orange County)
+                            Cash-Out Refinance (Regional)
                         </Link>
                         <Link href="/rate-term-refinance-orange-county" className="text-blue-700 hover:underline">
-                            Rate &amp; Term Refinance (Orange County)
+                            Rate &amp; Term Refinance (Regional)
                         </Link>
                         <Link href="/heloc-orange-county" className="text-blue-700 hover:underline">
-                            HELOC (Orange County)
+                            HELOC (Regional)
                         </Link>
                         <Link href="/heloan-orange-county" className="text-blue-700 hover:underline">
-                            HELOAN (Orange County)
+                            HELOAN (Regional)
                         </Link>
                         <Link href="/resources/heloc-vs-cash-out" className="text-blue-700 hover:underline">
                             HELOC vs Cash-Out Worksheet

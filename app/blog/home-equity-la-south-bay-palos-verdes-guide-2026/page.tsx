@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
+    },
   },
 };
 

@@ -60,7 +60,7 @@ export default function NewsletterSignup() {
         isVisible={showSuccess}
         onClose={() => setShowSuccess(false)}
         title="Welcome to Lumin Lending's Insider Network!"
-        message="You've successfully subscribed to exclusive Orange County mortgage market insights. Check your email for a welcome message and your first market update!"
+        message="You've successfully subscribed to exclusive California and Washington mortgage market insights. Check your email for a welcome message and your first market update!"
       />
       
       <section className="py-16 bg-gradient-to-br from-blue-50 to-slate-50">
@@ -74,7 +74,7 @@ export default function NewsletterSignup() {
             </div>
             
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
-              Stay Ahead of the Orange County Market
+              Stay Ahead of the California & Washington Markets
             </h3>
             
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">

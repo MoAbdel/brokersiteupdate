@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Aliso Viejo wholesale mortgage broker serving 92656. Access 200+ lenders for jumbo loans in this family-friendly community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92656 | Aliso Viejo Jumbo Specialists',

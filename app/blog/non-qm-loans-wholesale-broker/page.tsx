@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Discover Non-QM loan programs exclusively available through wholesale brokers: bank statement loans, DSCR, asset depletion, foreign national, and more. 100+ specialty lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker',
+      'x-default': 'https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker',
+    },
   },
   openGraph: {
     title: 'Non-QM Loans: Programs Only Wholesale Brokers Can Access [2026]',

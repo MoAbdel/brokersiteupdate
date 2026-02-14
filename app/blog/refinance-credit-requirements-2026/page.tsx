@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Minimum credit scores for cash-out refinance, rate-and-term, HELOC, and HELOAN. How to qualify with lower credit and improve your score. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-credit-requirements-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/refinance-credit-requirements-2026',
+      'x-default': 'https://www.mothebroker.com/blog/refinance-credit-requirements-2026',
+    },
   },
 };
 

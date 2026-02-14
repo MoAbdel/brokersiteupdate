@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Orange County HELOC specialist. Access your home equity without losing your existing first mortgage. Competitive HELOC options, fast approvals. NMLS #1426884 | Company NMLS #2716106.',
   alternates: {
     canonical: 'https://www.mothebroker.com/heloc-specialist-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/heloc-specialist-orange-county',
+      'x-default': 'https://www.mothebroker.com/heloc-specialist-orange-county',
+    },
   },
 };
 

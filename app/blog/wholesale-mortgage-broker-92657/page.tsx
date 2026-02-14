@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Coast wholesale mortgage broker serving 92657. Access 200+ lenders for jumbo loans up to $10M+, asset depletion programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92657 | Newport Coast Jumbo Loan Specialists',

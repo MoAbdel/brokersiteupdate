@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'California wholesale mortgage broker with 200+ lender access. Learn how wholesale pricing works and why brokers beat banks for jumbo, bank statement & non-QM loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026',
+    },
   },
 };
 

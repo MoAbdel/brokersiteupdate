@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to using a reverse mortgage to buy your next home. Learn how HECM for Purchase works, requirements, benefits, and why seniors use this strategy for downsizing or relocating.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-for-purchase-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/hecm-for-purchase-2026',
+      'x-default': 'https://www.mothebroker.com/blog/hecm-for-purchase-2026',
+    },
   },
   keywords: [
     'HECM for purchase',

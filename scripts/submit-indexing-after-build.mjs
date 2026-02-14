@@ -12,9 +12,16 @@ const runScript = (scriptPath, label) => new Promise((resolve, reject) => {
 });
 
 const run = async () => {
+  const enableDeltaAuto = process.env.ENABLE_INDEXING_DELTA_AUTO === 'true';
   const enableIndexNow = process.env.ENABLE_INDEXNOW_SUBMIT === 'true';
   const enableBing = process.env.ENABLE_BING_SUBMIT === 'true';
   const enableGscSitemap = process.env.ENABLE_GSC_SITEMAP_SUBMIT === 'true';
+
+  if (enableDeltaAuto) {
+    console.log('\n--- Auto delta indexing (build + submit changed URLs) ---');
+    await runScript('scripts/auto-submit-indexing-delta.mjs', 'Auto delta indexing submit');
+    return;
+  }
 
   if (!enableIndexNow && !enableBing && !enableGscSitemap) {
     console.log('Indexing automation disabled. Set ENABLE_*_SUBMIT=true to enable.');

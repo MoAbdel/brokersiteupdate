@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Villa Park wholesale mortgage broker serving 92867. Access 200+ lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92867',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92867',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92867',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92867 | Villa Park Jumbo Loan Specialists',

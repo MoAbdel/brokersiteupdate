@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { Phone } from 'lucide-react';
+import { useMemo } from 'react';
+import { usePathname } from 'next/navigation';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 import SupportBubble from '@/components/SupportBubble';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
@@ -9,12 +11,30 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
 export default function MobileStickyCallButton() {
   // Force recompile to fix hydration mismatch
   const { trackPhoneCall } = useFacebookTracking();
+  const pathname = usePathname();
 
   const [isMounted, setIsMounted] = React.useState(false);
 
   React.useEffect(() => {
     setIsMounted(true);
   }, []);
+
+  const showSupportBubble = useMemo(() => {
+    if (!pathname) return false;
+    if (pathname === '/') return true;
+    return [
+      '/contact',
+      '/purchase-loans',
+      '/refinance-loans',
+      '/fha-loans-orange-county',
+      '/va-loans-orange-county',
+      '/heloc-orange-county',
+      '/heloan-orange-county',
+      '/cash-out-refinance',
+      '/rate-term-refinance-orange-county',
+      '/loan-programs',
+    ].some((prefix) => pathname.startsWith(prefix));
+  }, [pathname]);
 
   return (
     <>
@@ -47,7 +67,7 @@ export default function MobileStickyCallButton() {
       </div>
 
       {/* Desktop - Support Bubble - Client Only */}
-      {isMounted && <SupportBubble />}
+      {isMounted && showSupportBubble && <SupportBubble />}
     </>
   );
 }

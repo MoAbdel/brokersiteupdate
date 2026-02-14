@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-02-13T20:46:47.710Z",
+  "sourceBatchGeneratedAt": "2026-02-13T20:46:47.496Z",
+  "strictMode": true,
+  "approvedCount": 10,
+  "blockedCount": 0,
+  "items": [
+    {
+      "type": "refresh",
+      "slug": "newport-coast-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026",
+      "reason": "Position 8.2 with 29 impressions — update content to push into top 5",
+      "impressions": 29,
+      "position": 8.2
+    },
+    {
+      "type": "refresh",
+      "slug": "bank-statement-loans-self-employed-2026",
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+      "reason": "Position 14.6 with 27 impressions — update content to push into top 5",
+      "impressions": 27,
+      "position": 14.6
+    },
+    {
+      "type": "refresh",
+      "slug": "rancho-santa-margarita-mortgage-guide-2026",
+      "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+      "reason": "Position 9.1 with 23 impressions — update content to push into top 5",
+      "impressions": 23,
+      "position": 9.1
+    },
+    {
+      "type": "new",
+      "hubId": "CA-SD-A",
+      "track": "wholesale",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sd-a-2026",
+      "score": 57.2,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +5.2 (avg $3.0M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-SD-A",
+      "track": "equity",
+      "expectedSlug": "home-equity-ca-sd-a-2026",
+      "score": 56.8,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (285 related impressions)",
+        "striking: +25.0 (4 pages at pos 8-25)",
+        "ctrHeadroom: +1.7 (avg gap 1.7%)",
+        "bizValue: +5.2 (avg $3.0M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-PV-B",
+      "track": "wholesale",
+      "expectedSlug": "wholesale-mortgage-broker-ca-pv-b-2026",
+      "score": 56.2,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +4.2 (avg $2.6M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-PV-A",
+      "track": "wholesale",
+      "expectedSlug": "wholesale-mortgage-broker-ca-pv-a-2026",
+      "score": 56,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +4.0 (avg $2.5M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-PV-B",
+      "track": "equity",
+      "expectedSlug": "home-equity-ca-pv-b-2026",
+      "score": 56,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +4.2 (avg $2.6M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-PV-A",
+      "track": "equity",
+      "expectedSlug": "home-equity-ca-pv-a-2026",
+      "score": 55.8,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +4.0 (avg $2.5M)"
+      ]
+    },
+    {
+      "type": "new",
+      "hubId": "CA-SGV-A",
+      "track": "wholesale",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sgv-a-2026",
+      "score": 55.4,
+      "bucket": "opportunity",
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +3.4 (avg $2.2M)"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026",
+    "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+    "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+    "https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-sd-a-2026",
+    "https://www.mothebroker.com/blog/home-equity-ca-sd-a-2026",
+    "https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-pv-b-2026",
+    "https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-pv-a-2026",
+    "https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026",
+    "https://www.mothebroker.com/blog/home-equity-ca-pv-a-2026",
+    "https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-sgv-a-2026"
+  ]
+}

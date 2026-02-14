@@ -5,17 +5,22 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, TrendingDown, Calendar, Shield, Calculator, Users, Zap } from 'lucide-react';
 import Link from 'next/link';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Rate & Term Refinance in Orange County, CA | Lower Your Mortgage Payment',
-  description: 'Refinance your Orange County home to lower your pricing, reduce payments, or eliminate PMI. Get competitive refinance pricing from 200+ lenders with Mo Abdel.',
+  title: 'Orange County Rate-and-Term Refinance | Lower Payment Options',
+  description: 'Refinance to lower your monthly payment, shorten your term, or remove PMI. Compare Orange County rate-and-term options with Mo Abdel (NMLS #1426884).',
   openGraph: {
-    title: 'Rate & Term Refinance in Orange County, CA | Lower Your Mortgage Payment',
-    description: 'Refinance your Orange County home to lower your pricing, reduce payments, or eliminate PMI. Get competitive refinance pricing from 200+ lenders with Mo Abdel.',
+    title: 'Orange County Rate-and-Term Refinance | Lower Payment Options',
+    description: 'Refinance to lower your monthly payment, shorten your term, or remove PMI. Compare Orange County rate-and-term options with Mo Abdel (NMLS #1426884).',
     type: 'website',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+      'x-default': 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+    },
   },
 };
 
@@ -111,22 +116,20 @@ const cities = [
   'Irvine', 'Newport Beach', 'Mission Viejo', 'Anaheim', 'Costa Mesa', 'Huntington Beach', 'Santa Ana'
 ];
 
-const pageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Rate and Term Refinance in Orange County',
-  provider: {
-    '@type': 'FinancialService',
-    name: 'Mo Abdel - Mortgage Broker',
-    url: 'https://www.mothebroker.com'
-  },
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: 'Orange County, CA'
-  },
+const pageSchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
   serviceType: 'Mortgage Rate and Term Refinance',
-  url: 'https://www.mothebroker.com/rate-term-refinance-orange-county'
-};
+  serviceName: 'Orange County Rate-and-Term Refinance',
+  serviceDescription: 'Expert rate-and-term refinance services in Orange County, CA',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+  title: 'Orange County Rate-and-Term Refinance | Lower Payment Options',
+  description:
+    'Refinance to lower your monthly payment, shorten your term, or remove PMI. Compare Orange County rate-and-term options with Mo Abdel (NMLS #1426884).',
+  breadcrumbName: 'Rate-and-Term Refinance',
+});
 
 const faqItems = [
   {
@@ -174,6 +177,10 @@ export default function RateTermRefinanceOrangeCounty() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <script
         type="application/ld+json"

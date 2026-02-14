@@ -1,0 +1,206 @@
+{
+  "date": "2026-02-04T20:32:29.202553",
+  "gsc": {
+    "performance": {
+      "clicks": 2,
+      "impressions": 797,
+      "ctr": 0.25,
+      "position": 20.0
+    },
+    "sitemaps": [
+      {
+        "url": "https://www.mothebroker.com/sitemap.xml",
+        "last_submitted": "2026-02-05T02:28:31.913Z",
+        "last_downloaded": "2026-02-05T02:28:35.851Z",
+        "errors": "0",
+        "warnings": "0",
+        "submitted": "290",
+        "indexed": "0"
+      }
+    ],
+    "indexed_estimate": "0",
+    "top_queries": [
+      {
+        "query": "orange county mortgage brokers",
+        "clicks": 1,
+        "impressions": 3,
+        "position": 40.7
+      },
+      {
+        "query": "aliso viejo mortgage rates",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 79
+      },
+      {
+        "query": "bank versus mortgage broker",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 100
+      },
+      {
+        "query": "bank vs mortgage broker",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 92
+      },
+      {
+        "query": "best mortgage broker near me",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 72.8
+      },
+      {
+        "query": "broker vs bank mortgage",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 85
+      },
+      {
+        "query": "broker vs retail mortgage loan officer comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 55
+      },
+      {
+        "query": "c o n v e n t i o n a l l o a n l i m i t s 2 0 2 2",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 18
+      },
+      {
+        "query": "cash out refinance requirements",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 91.5
+      },
+      {
+        "query": "cash-out refinance requirements",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 86
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "/",
+        "clicks": 2,
+        "impressions": 65,
+        "position": 19.3
+      },
+      {
+        "page": "https://mothebroker.com/areas/seal-beach-mortgage-broker",
+        "clicks": 0,
+        "impressions": 20,
+        "position": 6.3
+      },
+      {
+        "page": "https://mothebroker.com/guides/spring-2025-home-buying-guide",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 13.6
+      },
+      {
+        "page": "/areas/irvine-neighborhoods/northwood-mortgage-broker",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 22.4
+      },
+      {
+        "page": "/areas/irvine-neighborhoods/turtle-rock-mortgage-broker",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 8.5
+      },
+      {
+        "page": "/articles/dana-point-first-time-homebuyer-guide",
+        "clicks": 0,
+        "impressions": 2,
+        "position": 6.5
+      },
+      {
+        "page": "/articles/newport-beach-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 12,
+        "position": 8.8
+      },
+      {
+        "page": "/articles/orange-county-mortgage-rate-trends-august-2026",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 11.4
+      },
+      {
+        "page": "/articles/wholesale-vs-retail-mortgages-comparison",
+        "clicks": 0,
+        "impressions": 76,
+        "position": 8.1
+      },
+      {
+        "page": "/blog",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 9
+      }
+    ],
+    "pages_with_impressions": 20,
+    "url_status": {
+      "/": {
+        "verdict": "PASS",
+        "coverage": "Submitted and indexed"
+      },
+      "/loan-programs": {
+        "verdict": "NEUTRAL",
+        "coverage": "Not found (404)"
+      },
+      "/blog": {
+        "verdict": "NEUTRAL",
+        "coverage": "Page with redirect"
+      }
+    }
+  },
+  "bing": {
+    "crawl_stats": {
+      "pages_crawled_14d": 155,
+      "errors_14d": 5
+    },
+    "indexed_estimate": 0,
+    "queries": [
+      {
+        "query": "mortgage calculator orange beach",
+        "impressions": 1
+      },
+      {
+        "query": "mortgage calculator orange beach",
+        "impressions": 1
+      },
+      {
+        "query": "mortgage calculator orange beach",
+        "impressions": 1
+      },
+      {
+        "query": "what rate might i get from a morgage broker compared to a bank",
+        "impressions": 1
+      },
+      {
+        "query": "va loans orange beach",
+        "impressions": 1
+      }
+    ],
+    "total_impressions": 194,
+    "total_clicks": 2,
+    "quota": {
+      "daily": 84,
+      "monthly": 2384
+    }
+  },
+  "baseline": {
+    "date": "2026-02-04",
+    "indexed_pages_google": 5,
+    "indexed_pages_bing": 3,
+    "impressions_google": 797,
+    "clicks_google": 2,
+    "avg_position": 20.0,
+    "ctr": 0.25
+  }
+}

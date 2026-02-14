@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Reverse mortgage Carlsbad guide for seniors 62+. Learn HECM eligibility, La Costa and Aviara home values, and how to access your Carlsbad equity. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-carlsbad-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-carlsbad-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-carlsbad-2026',
+    },
   },
 };
 

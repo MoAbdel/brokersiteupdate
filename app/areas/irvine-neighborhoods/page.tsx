@@ -1,19 +1,30 @@
 import SeoServicePage from '@/app/(marketing)/components/SeoServicePage';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
   title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
   description:
     'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
-  alternates: { canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods' },
+  alternates: {
+    canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+      'x-default': 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+    },
+  },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Irvine Neighborhoods Mortgage Guide | Village-Specific Home Financing',
+    description:
+      'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
     url: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+    type: 'website',
   },
 };
 
 export default function Page() {
+  const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
     { q: 'Do different Irvine neighborhoods require different loan types?', a: 'While most Irvine neighborhoods require jumbo financing due to high property values, specific villages may have different property types (condos vs. single-family) affecting loan programs and qualification.' },
     { q: 'How do Mello-Roos taxes affect financing in newer Irvine developments?', a: 'Mello-Roos taxes in areas like Great Park are factored into debt-to-income calculations. We work with lenders familiar with these assessments and their impact on qualification.' },
@@ -23,17 +34,14 @@ export default function Page() {
     { q: 'How do HOA fees in different villages affect financing?', a: 'HOA fees vary significantly between Irvine villages and affect debt-to-income ratios. We factor these into qualification and work with lenders who understand Irvine\'s community structures.' },
   ];
 
-  const localBusiness = {
-    '@context': 'https://schema.org',
-    '@type': 'MortgageBroker',
-    name: 'Mo the Broker - Irvine Neighborhoods',
-    areaServed: 'Irvine, Orange County, CA',
-    url: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
-    telephone: '+1-949-822-9662',
-    address: { '@type': 'PostalAddress', addressLocality: 'Irvine', addressRegion: 'CA', addressCountry: 'US' },
-    sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Neighborhood-specific mortgage expertise for all Irvine villages and communities, from established areas to new developments.',
-  };
+  const localBusiness = buildBrokerEntityGraph({
+    pageUrl: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+    serviceType: 'Irvine Neighborhood Mortgage Brokerage Services',
+    serviceName: 'Irvine Neighborhoods Mortgage Guide',
+    serviceDescription:
+      'Neighborhood-specific mortgage expertise for all Irvine villages and communities, from established areas to new developments.',
+    areaServedName: 'Irvine, Orange County, CA',
+  });
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -44,6 +52,14 @@ export default function Page() {
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   };
+
+  const pageSchema = buildServiceWebPageSchema({
+    pageUrl: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
+    title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
+    description:
+      'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
+    breadcrumbName: 'Irvine Neighborhoods',
+  });
 
   const sections = [
     {
@@ -191,9 +207,9 @@ export default function Page() {
   const links = [
     { label: 'Irvine mortgage services', href: '/areas/irvine' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
-    { label: 'HELOC options', href: '/loan-programs/heloc' },
+    { label: 'HELOC options', href: '/heloc-orange-county' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
-    { label: 'Cash-out refinancing', href: '/loan-programs/cash-out-refinance' },
+    { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
     { label: 'Orange County mortgage broker', href: '/' },
     { label: 'All loan programs', href: '/loan-programs' },
     { label: 'Mortgage insights', href: '/blog' },
@@ -206,11 +222,12 @@ export default function Page() {
         subtitle="Village-specific financing for Woodbridge, Turtle Rock, Great Park & more"
         city="Irvine"
         slug="areas/irvine-neighborhoods"
-        lastUpdatedISO={new Date().toISOString()}
+        lastUpdatedISO={LAST_UPDATED_ISO}
         sections={sections}
         faqs={faqs}
         internalLinks={links}
       />
+      <JsonLd json={pageSchema} />
       <JsonLd json={localBusiness} />
       <JsonLd json={faqSchema} />
     </>

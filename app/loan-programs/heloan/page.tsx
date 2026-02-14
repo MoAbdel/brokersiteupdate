@@ -4,31 +4,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { DollarSign, Calendar, CheckCircle, AlertCircle, TrendingUp, Shield } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Home Equity Loans | Lumin Lending - Orange County Mortgage Broker',
   description: 'Fixed-rate home equity loans in Orange County. Lump sum funding for major expenses. Licensed mortgage broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloan',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/heloan',
+      'x-default': 'https://www.mothebroker.com/loan-programs/heloan',
+    },
   },
 };
 
-const pageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Home Equity Loan (HELOAN) in Orange County',
-  provider: {
-    '@type': 'FinancialService',
-    name: 'Mo Abdel - Mortgage Broker',
-    url: 'https://www.mothebroker.com'
-  },
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: 'Orange County, CA'
-  },
-  serviceType: 'Home Equity Loan',
-  url: 'https://www.mothebroker.com/loan-programs/heloan'
-};
+const pageSchema = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/heloan',
+  serviceType: 'Home Equity Loan HELOAN',
+  serviceName: 'Home Equity Loan (HELOAN) in Orange County',
+  serviceDescription: 'Expert home equity loan services in Orange County, CA',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/loan-programs/heloan',
+  title: 'Home Equity Loans | Lumin Lending - Orange County Mortgage Broker',
+  description:
+    'Fixed-rate home equity loans in Orange County. Lump sum funding for major expenses. Licensed mortgage broker NMLS #1426884.',
+  breadcrumbName: 'HELOAN',
+});
 
 export default function HELOANPage() {
   return (
@@ -36,6 +39,10 @@ export default function HELOANPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

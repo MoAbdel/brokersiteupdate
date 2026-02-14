@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Self-employed mortgage solutions 2026: Bank statement loans, asset depletion, P&L programs. Learn why wholesale brokers solve challenges banks create. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026',
+      'x-default': 'https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026',
+    },
   },
 };
 

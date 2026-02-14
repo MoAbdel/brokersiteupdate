@@ -4,37 +4,39 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, CreditCard, Clock, Building } from 'lucide-react';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
-  description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
+  title: 'Orange County HELOC | Flexible Home Equity Credit Line',
+  description: 'Access home equity with a HELOC in Orange County. Compare draw periods, repayment options, and lender terms with Mo Abdel (NMLS #1426884).',
   openGraph: {
-    title: 'HELOC Loans in Orange County, CA | Flexible Home Equity Access',
-    description: 'Access your home\'s equity with a Home Equity Line of Credit in Orange County. Flexible withdrawals, Competitive pricing, expert guidance.',
+    title: 'Orange County HELOC | Flexible Home Equity Credit Line',
+    description: 'Access home equity with a HELOC in Orange County. Compare draw periods, repayment options, and lender terms with Mo Abdel (NMLS #1426884).',
     url: 'https://www.mothebroker.com/heloc-orange-county',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/heloc-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/heloc-orange-county',
+      'x-default': 'https://www.mothebroker.com/heloc-orange-county',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo Abdel - Orange County Mortgage Broker",
-  "serviceType": "HELOC Home Equity Line of Credit",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/heloc-orange-county",
-  "description": "Expert HELOC services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/heloc-orange-county',
+  serviceType: 'HELOC Home Equity Line of Credit',
+  serviceName: 'Orange County HELOC',
+  serviceDescription: 'Expert HELOC services in Orange County, CA',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/heloc-orange-county',
+  title: 'Orange County HELOC | Flexible Home Equity Credit Line',
+  description:
+    'Access home equity with a HELOC in Orange County. Compare draw periods, repayment options, and lender terms with Mo Abdel (NMLS #1426884).',
+  breadcrumbName: 'HELOC',
+});
 
 const helocBenefits = [
   {
@@ -90,7 +92,7 @@ const faqs = [
   },
   {
     question: "What are current HELOC pricing in Orange County?",
-    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2025, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
+    answer: "HELOC pricing is variable and typically tied to the prime rate. As of 2026, rates generally range from 7-9%, but your actual rate depends on credit score, loan-to-value ratio, and lender. As a broker with access to multiple lenders, I can shop rates to find your best option."
   },
   {
     question: "How much can I borrow with a HELOC in Orange County?",
@@ -152,6 +154,10 @@ export default function HELOCOrangeCountyPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
       <script
         type="application/ld+json"
@@ -459,10 +465,10 @@ export default function HELOCOrangeCountyPage() {
               <Link href="/heloan-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">HELOAN Options</span>
               </Link>
-              <Link href="/refinance-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/rate-term-refinance-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Refinance Loans</span>
               </Link>
-              <Link href="/areas/irvine" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Irvine HELOCs</span>
               </Link>
             </div>

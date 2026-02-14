@@ -2,7 +2,7 @@
   "name": "mothebroker-clone",
   "version": "1.0.1",
   "private": true,
-  "description": "Mo Abdel - Orange County Mortgage Broker Website",
+  "description": "Mo Abdel - California and Washington Mortgage Broker Website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,6 +20,14 @@
     "gsc:export-queries": "GSC_DIMENSIONS=page,query node scripts/export-gsc-performance.mjs",
     "gsc:prune-candidates": "node scripts/build-prune-candidates.mjs",
     "seo:opportunity-queue": "node scripts/build-opportunity-queue.mjs",
+    "seo:build-batch": "node scripts/build-generation-batch.mjs",
+    "seo:preflight-batch": "node scripts/preflight-generation-batch.mjs",
+    "seo:cannibal-gate": "node scripts/check-cannibalization-gate.mjs",
+    "seo:build-delta": "node scripts/build-indexing-delta.mjs",
+    "seo:record-delta": "node scripts/record-indexing-delta.mjs",
+    "seo:record-delta-from-batch": "node scripts/record-indexing-delta.mjs --from-batch",
+    "seo:record-delta-from-approved-batch": "node scripts/record-indexing-delta.mjs --from-approved-batch",
+    "indexing:submit-delta-auto": "node scripts/auto-submit-indexing-delta.mjs",
     "seo:internal-links": "node scripts/internal-link-audit.mjs",
     "prepare": "husky"
   },
@@ -34,7 +42,8 @@
   "keywords": [
     "mortgage",
     "broker",
-    "orange-county",
+    "california",
+    "washington",
     "real-estate",
     "loans"
   ],

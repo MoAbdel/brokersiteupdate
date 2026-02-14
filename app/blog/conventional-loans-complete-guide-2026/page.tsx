@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to conventional mortgage loans in 2026. Learn requirements, down payment options, and wholesale pricing advantages. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026',
+    },
   },
 };
 
@@ -66,7 +70,7 @@ export default function ConventionalLoansGuide2026Page() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. In 2026, the conforming loan limit for Orange County is <strong>$806,500</strong> for single-family homes. Working with a <strong>wholesale mortgage broker</strong> provides access to conventional loan pricing that typically undercuts retail bank offerings by meaningful margins—savings that compound over the life of your loan.
+                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. In 2026, the conforming loan limit for Orange County is <strong>$1,249,125</strong> for single-family homes. Working with a <strong>wholesale mortgage broker</strong> provides access to conventional loan pricing that typically undercuts retail bank offerings by meaningful margins—savings that compound over the life of your loan.
                     </p>
                 </div>
 
@@ -272,7 +276,7 @@ export default function ConventionalLoansGuide2026Page() {
 
                 <h3>What are conforming loan limits for 2026?</h3>
                 <p>
-                    The 2026 conforming loan limit for single-family homes in most of the U.S. is $806,500. High-cost areas like Orange County have the same limit. Loans exceeding this amount require jumbo financing with different requirements.
+                    The 2026 conforming loan limit for single-family homes in most of the U.S. is $832,750. High-cost areas like Orange County can go up to $1,249,125. Loans exceeding local conforming limits require jumbo financing with different requirements.
                 </p>
 
                 <h3>Can I use gift funds for my conventional loan down payment?</h3>

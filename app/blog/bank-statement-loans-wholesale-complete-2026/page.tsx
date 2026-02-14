@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Bank statement loans wholesale guide 2026: Self-employed borrowers qualify using 12-24 months of deposits. Access 30+ lenders through wholesale brokers. Loan amounts to $3M+. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-complete-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-complete-2026',
+      'x-default': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-complete-2026',
+    },
   },
   keywords: 'bank statement loans wholesale, self-employed mortgage, bank statement mortgage, non-QM loans, wholesale mortgage broker, self-employed home loan',
 };

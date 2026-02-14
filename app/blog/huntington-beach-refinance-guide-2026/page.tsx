@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/huntington-beach-refinance-guide-2026',
+    },
   },
 };
 

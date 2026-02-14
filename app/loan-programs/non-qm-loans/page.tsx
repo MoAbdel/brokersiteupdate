@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Non-QM loans in Orange County for self-employed and investors. Bank statement and asset-based programs. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/non-qm-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/non-qm-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/non-qm-loans',
+    },
   },
 };
 

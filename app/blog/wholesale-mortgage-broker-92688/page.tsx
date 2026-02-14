@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Rancho Santa Margarita wholesale mortgage broker serving 92688. Access 200+ lenders for jumbo loans near RSM Lake. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92688 | RSM Jumbo Specialists',

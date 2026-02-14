@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   robots: 'noindex, nofollow', // Typical for legal pages
   alternates: {
     canonical: 'https://www.mothebroker.com/terms-of-service',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/terms-of-service',
+      'x-default': 'https://www.mothebroker.com/terms-of-service',
+    },
   },
 };
 

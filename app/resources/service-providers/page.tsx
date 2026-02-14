@@ -27,6 +27,10 @@ export const metadata: Metadata = {
   description: 'Trusted Orange County real estate professionals directory. Find vetted realtors, home inspectors, contractors, attorneys, and other home buying professionals.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/service-providers',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/service-providers',
+      'x-default': 'https://www.mothebroker.com/resources/service-providers',
+    },
   },
 };
 

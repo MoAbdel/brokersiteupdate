@@ -4,15 +4,28 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Clock } from 'lucide-react';
 import { allBlogPosts, categoryColors, getAllCategories } from '@/lib/all-blog-posts';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Mortgage Guides & Market Insights | Orange County and Beyond',
+  title: 'Mortgage Guides | California & Washington Home Loan Strategies | Mo Abdel',
   description:
-    'Browse expert mortgage guides, refinance strategies, and local market insights from Mo Abdel. Practical, up-to-date advice for buyers, homeowners, and investors.',
+    'Browse practical mortgage guides, refinance strategies, and market insights from Mo Abdel for California and Washington buyers, homeowners, and investors.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides',
+      'x-default': 'https://www.mothebroker.com/guides',
+    },
   },
 };
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/guides',
+  title: 'Mortgage Guides | California & Washington Home Loan Strategies | Mo Abdel',
+  description:
+    'Browse practical mortgage guides, refinance strategies, and market insights from Mo Abdel for California and Washington buyers, homeowners, and investors.',
+  breadcrumbName: 'Guides',
+});
 
 export default function GuidesPage() {
   const formatDate = (dateString: string) => {
@@ -28,16 +41,20 @@ export default function GuidesPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 lg:pt-12">
 
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-3">
-            Mortgage <span className="text-blue-600">Blog</span>
+            Mortgage <span className="text-blue-600">Guides</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Expert insights and practical advice for California & Washington homebuyers,
-            from loan programs to market trends.
+            Practical home loan strategy guides for California and Washington buyers and homeowners,
+            from loan program comparisons to market-driven refinance decisions.
           </p>
           <p className="text-sm text-slate-500 mt-2">
             {allBlogPosts.length} articles • Updated {formatDate(allBlogPosts[0]?.date || '2026-01-31')}
@@ -81,6 +98,30 @@ export default function GuidesPage() {
         </section>
 
         <section className="mb-10 rounded-2xl border border-slate-200 bg-white p-6">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Loan Program Hubs</h2>
+          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            <Link className="text-blue-700 hover:underline" href="/purchase-loans">
+              California &amp; Washington Purchase Loans
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/refinance-loans">
+              California &amp; Washington Refinance Loans
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/fha-loans-orange-county">
+              FHA Loans (Regional)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/va-loans-orange-county">
+              VA Loans (Regional)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/heloc-orange-county">
+              HELOC (Regional)
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/cash-out-refinance">
+              Cash-Out Refinance (Regional)
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-10 rounded-2xl border border-slate-200 bg-white p-6">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Refinance City Guides</h2>
           <p className="text-slate-600 mb-4">
             Local refinance breakdowns and cash-out strategies for high-value markets.
@@ -93,7 +134,7 @@ export default function GuidesPage() {
               Palos Verdes Cash-Out Refinance
             </Link>
             <Link className="text-blue-700 hover:underline" href="/rate-term-refinance-orange-county">
-              Rate &amp; Term Refinance (Orange County)
+              Rate &amp; Term Refinance (Regional)
             </Link>
           </div>
         </section>
@@ -143,7 +184,7 @@ export default function GuidesPage() {
           <div className="bg-blue-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Need Personalized Guidance?</h2>
             <p className="text-slate-600 mb-6">
-              Have questions about Orange County mortgages, loan programs, or market conditions?
+              Have questions about California or Washington mortgages, loan programs, or market conditions?
               Get personalized advice tailored to your specific situation and goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'Lido Isle Newport Beach mortgage broker specializing in waterfront estate financing. Private island living, luxury waterfront homes, Competitive pricing. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker',
+    },
   },
 };
 
@@ -33,12 +37,12 @@ export default function LidoIsleMortgageBrokerPage() {
       {
         stat: "Lido Isle median home price: $8.5M",
         source: "Newport Beach MLS",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "100% require super jumbo loans above $3M",
         source: "Orange County Luxury Market Report",
-        year: "2025"
+        year: "2026"
       },
       {
         stat: "Private island with 285 exclusive properties",
@@ -62,7 +66,7 @@ export default function LidoIsleMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Lido Isle homes?",
-            answer: "Lido Isle homes range from $4M to over $15M, with waterfront properties commanding premium prices. The median home price is around $8.5M as of 2025, reflecting the exclusive private island location."
+            answer: "Lido Isle homes range from $4M to over $15M, with waterfront properties commanding premium prices. The median home price is around $8.5M as of 2026, reflecting the exclusive private island location."
           },
           {
             question: "Do all Lido Isle homes require jumbo financing?",
@@ -161,7 +165,7 @@ export default function LidoIsleMortgageBrokerPage() {
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
-          <h1>Lido Isle Newport Beach Mortgage Broker 2025</h1>
+          <h1>Lido Isle Newport Beach Mortgage Broker 2026</h1>
           <p>Mo Abdel specializes in Lido Isle Newport Beach mortgage financing, serving this exclusive private island community with waterfront estates ranging from $4M to $15M+. Expert in ultra-luxury waterfront property financing.</p>
           
           <h2>Lido Isle Luxury Features</h2>
@@ -255,7 +259,7 @@ export default function LidoIsleMortgageBrokerPage() {
                 <CardHeader className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
-                    Lido Isle Market Data 2025
+                    Lido Isle Market Data 2026
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-6">

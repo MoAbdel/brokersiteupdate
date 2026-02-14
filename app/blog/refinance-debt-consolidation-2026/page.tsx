@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'How to use cash-out refinance or HELOC to consolidate credit card and high-interest debt. Calculate savings, understand risks, and compare options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-debt-consolidation-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/refinance-debt-consolidation-2026',
+      'x-default': 'https://www.mothebroker.com/blog/refinance-debt-consolidation-2026',
+    },
   },
 };
 

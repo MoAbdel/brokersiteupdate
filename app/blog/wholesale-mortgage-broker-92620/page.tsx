@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Northwood wholesale mortgage broker serving 92620. Access 200+ lenders for jumbo loans, competitive rates & better financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92620',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92620',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92620',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92620 | Irvine Northwood Jumbo Loan Specialists',

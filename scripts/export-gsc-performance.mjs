@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Export GSC performance by page (Search Analytics API).
+ * Set GSC_DIMENSIONS=page,query for query-level export.
  * Outputs JSON + CSV to ./reports.
  */
 
@@ -54,7 +55,11 @@ const run = async () => {
   const rowLimit = Number(process.env.GSC_ROW_LIMIT || DEFAULT_ROW_LIMIT);
   const { startDate, endDate } = getDateRange();
 
+  const dimensions = (process.env.GSC_DIMENSIONS || 'page').split(',').map((d) => d.trim());
+  const hasQuery = dimensions.includes('query');
+
   console.log(`Site: ${siteUrl}`);
+  console.log(`Dimensions: ${dimensions.join(', ')}`);
   console.log(`Date range: ${startDate} → ${endDate}`);
   console.log(`Row limit per request: ${rowLimit}\n`);
 
@@ -82,7 +87,7 @@ const run = async () => {
         body: JSON.stringify({
           startDate,
           endDate,
-          dimensions: ['page'],
+          dimensions,
           rowLimit,
           startRow
         })
@@ -108,23 +113,20 @@ const run = async () => {
 
   await fs.mkdir('reports', { recursive: true });
   const fileSuffix = `${startDate.replace(/-/g, '')}_${endDate.replace(/-/g, '')}`;
-  const jsonPath = `reports/gsc-performance-${fileSuffix}.json`;
-  const csvPath = `reports/gsc-performance-${fileSuffix}.csv`;
+  const filePrefix = hasQuery ? 'gsc-query-performance' : 'gsc-performance';
+  const jsonPath = `reports/${filePrefix}-${fileSuffix}.json`;
+  const csvPath = `reports/${filePrefix}-${fileSuffix}.csv`;
 
   await fs.writeFile(jsonPath, JSON.stringify(rows, null, 2), 'utf8');
 
-  const csvLines = ['page,clicks,impressions,ctr,position'];
+  const csvHeader = hasQuery ? 'page,query,clicks,impressions,ctr,position' : 'page,clicks,impressions,ctr,position';
+  const csvLines = [csvHeader];
   rows.forEach((row) => {
     const page = row.keys?.[0] || '';
-    csvLines.push(
-      [
-        escapeCsv(page),
-        row.clicks ?? 0,
-        row.impressions ?? 0,
-        row.ctr ?? 0,
-        row.position ?? 0
-      ].join(',')
-    );
+    const fields = [escapeCsv(page)];
+    if (hasQuery) fields.push(escapeCsv(row.keys?.[1] || ''));
+    fields.push(row.clicks ?? 0, row.impressions ?? 0, row.ctr ?? 0, row.position ?? 0);
+    csvLines.push(fields.join(','));
   });
 
   await fs.writeFile(csvPath, csvLines.join('\n'), 'utf8');

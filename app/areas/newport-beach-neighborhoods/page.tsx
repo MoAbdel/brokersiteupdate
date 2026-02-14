@@ -1,19 +1,30 @@
 import SeoServicePage from '@/app/(marketing)/components/SeoServicePage';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
   title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
   description:
     'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
-  alternates: { canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods' },
+  alternates: {
+    canonical: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+      'x-default': 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+    },
+  },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Newport Beach Neighborhoods Mortgage Guide | Luxury Area Financing',
+    description:
+      'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
     url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+    type: 'website',
   },
 };
 
 export default function Page() {
+  const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
     { q: 'Which Newport Beach neighborhoods require jumbo loans?', a: 'Most Newport Beach neighborhoods require jumbo financing due to high property values. Balboa Island, Lido Isle, and Newport Coast typically require super jumbo loans above standard limits.' },
     { q: 'Are there financing differences between waterfront and inland Newport Beach properties?', a: 'Yes, waterfront properties often require specialized appraisals, flood insurance considerations, and lenders experienced with luxury coastal real estate.' },
@@ -23,17 +34,14 @@ export default function Page() {
     { q: 'How do HOA fees in luxury developments affect financing?', a: 'High HOA fees in luxury Newport Beach developments can impact debt-to-income ratios. We work with lenders who understand these market realities and adjust accordingly.' },
   ];
 
-  const localBusiness = {
-    '@context': 'https://schema.org',
-    '@type': 'MortgageBroker',
-    name: 'Mo the Broker - Newport Beach Neighborhoods',
-    areaServed: 'Newport Beach, Orange County, CA',
-    url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
-    telephone: '+1-949-822-9662',
-    address: { '@type': 'PostalAddress', addressLocality: 'Newport Beach', addressRegion: 'CA', addressCountry: 'US' },
-    sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to luxury condos.',
-  };
+  const localBusiness = buildBrokerEntityGraph({
+    pageUrl: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+    serviceType: 'Newport Beach Neighborhood Mortgage Brokerage Services',
+    serviceName: 'Newport Beach Neighborhoods Mortgage Guide',
+    serviceDescription:
+      'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to luxury condos.',
+    areaServedName: 'Newport Beach, Orange County, CA',
+  });
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -44,6 +52,14 @@ export default function Page() {
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   };
+
+  const pageSchema = buildServiceWebPageSchema({
+    pageUrl: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
+    title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
+    description:
+      'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
+    breadcrumbName: 'Newport Beach Neighborhoods',
+  });
 
   const sections = [
     {
@@ -184,7 +200,7 @@ export default function Page() {
   const links = [
     { label: 'Newport Beach mortgage services', href: '/areas/newport-beach' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
-    { label: 'HELOC options for luxury homes', href: '/loan-programs/heloc' },
+    { label: 'HELOC options for luxury homes', href: '/heloc-orange-county' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
     { label: 'Orange County mortgage broker', href: '/about-mo-abdel-orange-county-mortgage-broker' },
@@ -198,11 +214,12 @@ export default function Page() {
         subtitle="Luxury financing for Balboa Island, Lido Isle, Newport Coast & more"
         city="Newport Beach"
         slug="areas/newport-beach-neighborhoods"
-        lastUpdatedISO={new Date().toISOString()}
+        lastUpdatedISO={LAST_UPDATED_ISO}
         sections={sections}
         faqs={faqs}
         internalLinks={links}
       />
+      <JsonLd json={pageSchema} />
       <JsonLd json={localBusiness} />
       <JsonLd json={faqSchema} />
     </>

@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Compare wholesale vs retail mortgage channels. Learn how wholesale brokers access 200+ lenders for better rates than banks. Save $5,000-15,000 on your California mortgage.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage',
+    },
   },
   keywords: ['wholesale vs retail mortgage', 'wholesale mortgage rates', 'retail mortgage vs broker', 'mortgage channel comparison', 'california wholesale mortgage'],
 };

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
+      'x-default': 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
+    },
   },
 };
 
@@ -50,11 +54,11 @@ export default function FHALoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2025, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
+                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
                     </p>
                 </div>
 
-                <h2>How do FHA loans work in 2025?</h2>
+                <h2>How do FHA loans work in 2026?</h2>
                 <p>
                     FHA loans are mortgages insured by the Federal Housing Administration. This government insurance protects lenders, which permits them to offer more accessible financing terms. In my practice serving Orange County, I've identified several key characteristics that make FHA loans a powerful tool:
                 </p>
@@ -66,7 +70,7 @@ export default function FHALoansOrangeCountyPage() {
                     <li>Available for primary residences only</li>
                 </ul>
 
-                <h2>What are the FHA loan requirements in California for 2025?</h2>
+                <h2>What are the FHA loan requirements in California for 2026?</h2>
 
                 <h3>Credit Score Requirements</h3>
                 <p>
@@ -113,12 +117,12 @@ export default function FHALoansOrangeCountyPage() {
                     <li>Multiple income sources can be considered</li>
                 </ul>
 
-                <h2>FHA Loan Limits for Orange County 2025</h2>
+                <h2>FHA Loan Limits for Orange County 2026</h2>
                 <p>
-                    FHA loan limits vary by county and are adjusted annually. For Orange County in 2025:
+                    FHA loan limits vary by county and are adjusted annually. For Orange County in 2026:
                 </p>
                 <ul>
-                    <li><strong>Single-family home:</strong> $806,500</li>
+                    <li><strong>Single-family home:</strong> $1,266,300</li>
                     <li><strong>Two-unit property:</strong> $1,032,975</li>
                     <li><strong>Three-unit property:</strong> $1,248,575</li>
                     <li><strong>Four-unit property:</strong> $1,551,200</li>
@@ -267,8 +271,8 @@ export default function FHALoansOrangeCountyPage() {
                             </tr>
                             <tr>
                                 <td>Loan Limits (OC)</td>
-                                <td>$806,500</td>
-                                <td>$806,500 (conforming)</td>
+                                <td>$1,266,300</td>
+                                <td>$1,249,125 (conforming)</td>
                             </tr>
                             <tr>
                                 <td>Property Types</td>

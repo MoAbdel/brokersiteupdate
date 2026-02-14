@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Learn how to access wholesale mortgage rates in California through licensed brokers. Discover the step-by-step process, requirements, and why wholesale pricing beats retail banks. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-california',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-california',
+      'x-default': 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-california',
+    },
   },
   openGraph: {
     title: 'How to Get Wholesale Mortgage Rates in California [2026]',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Palos Verdes cash-out refinance 2026: Unlock equity in your Peninsula property. Wholesale access to 50+ lenders for jumbo loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/palos-verdes-cash-out-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/palos-verdes-cash-out-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/palos-verdes-cash-out-refinance-2026',
+    },
   },
   openGraph: {
     title: 'Palos Verdes Cash-Out Refinance 2026 | Peninsula Home Equity',

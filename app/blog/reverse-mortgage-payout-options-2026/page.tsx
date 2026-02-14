@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Compare HECM payout options: lump sum, line of credit with growth feature, tenure payments, and term payments. Find the best option for seniors 62+. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026',
+    },
   },
 };
 

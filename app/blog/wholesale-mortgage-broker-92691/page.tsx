@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Mission Viejo wholesale mortgage broker serving 92691. Access 200+ lenders for jumbo loans near Lake Mission Viejo. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92691',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92691',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92691',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92691 | Mission Viejo Jumbo Specialists',

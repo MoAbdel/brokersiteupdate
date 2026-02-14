@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to home equity loans (HELOANs) in 2026. Learn how fixed-rate second mortgages work, current rates, requirements, and when a home equity loan makes sense vs HELOC.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026',
+    },
   },
   keywords: [
     'home equity loan',

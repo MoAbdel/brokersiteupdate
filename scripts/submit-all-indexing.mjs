@@ -1,4 +1,6 @@
 import { spawn } from 'node:child_process';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 
 const runScript = (scriptPath, label) => new Promise((resolve, reject) => {
   const child = spawn(process.execPath, [scriptPath], { stdio: 'inherit' });
@@ -42,6 +44,13 @@ const run = async () => {
   if (enableIndexNow) {
     console.log('\n--- IndexNow submit ---');
     await runScript('scripts/submit-indexnow.mjs', 'IndexNow submit');
+  }
+
+  const clearDelta = process.env.CLEAR_INDEXING_DELTA_ON_SUCCESS !== 'false';
+  if (clearDelta) {
+    const deltaPath = path.join(process.cwd(), 'reports', 'indexing-delta.json');
+    await fs.rm(deltaPath, { force: true });
+    console.log(`\nCleared indexing delta: ${deltaPath}`);
   }
 };
 

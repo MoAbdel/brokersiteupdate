@@ -14,7 +14,7 @@ export default function AboutSnippet() {
                 Meet Mo Abdel
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                I'm passionate about making homeownership accessible for Orange County families. As your dedicated mortgage broker, I leverage my extensive network of 200+ lenders to secure wholesale rates that big banks simply can't match. My commitment is simple: find you the best deal with the fastest closing timeline possible.
+                I'm passionate about making homeownership accessible for families across California and Washington. As your dedicated mortgage broker, I leverage my extensive network of 200+ lenders to secure wholesale rates that big banks simply cannot match. My commitment is simple: find you the best deal with the fastest closing timeline possible.
               </p>
 
             </div>
@@ -26,7 +26,7 @@ export default function AboutSnippet() {
               <div className="w-40 h-40 md:w-80 md:h-80 relative rounded-full overflow-hidden shadow-xl">
                 <Image
                   src="/images/mo-headshot.jpg"
-                  alt="Mo Abdel - Orange County Mortgage Broker"
+                  alt="Mo Abdel - California and Washington Mortgage Broker"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 160px, 320px"

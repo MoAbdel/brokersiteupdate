@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Dana Point wholesale mortgage broker serving 92629. Access 200+ lenders for jumbo loans, VA loans & coastal luxury financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92629 | Dana Point Jumbo Loan Specialists',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Find the best wholesale mortgage rates in Orange County. Access 200+ lenders, bank statement loans, and programs only brokers offer. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county-2026',
+    },
   },
 };
 

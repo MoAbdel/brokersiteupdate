@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   description: 'Comprehensive mortgage glossary for Orange County home buyers. Understand loan terms, definitions, and mortgage vocabulary. Over 100 terms explained simply.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/glossary',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/glossary',
+      'x-default': 'https://www.mothebroker.com/resources/glossary',
+    },
   },
 };
 
@@ -67,7 +71,7 @@ export default function GlossaryPage() {
     },
     {
       term: 'Conforming Loan',
-      definition: 'A mortgage that meets the criteria to be purchased by Fannie Mae or Freddie Mac. For 2025, the limit is $1,266,300 in Orange County.',
+      definition: 'A mortgage that meets the criteria to be purchased by Fannie Mae or Freddie Mac. For 2026, the conforming high-cost limit is $1,249,125 in Orange County.',
       category: 'Loan Types',
       related: ['Jumbo Loan', 'Loan Limits', 'GSE']
     },

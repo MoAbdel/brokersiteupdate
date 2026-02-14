@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Capistrano Beach wholesale mortgage broker serving 92624. Access 200+ lenders for jumbo loans, beach property financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',

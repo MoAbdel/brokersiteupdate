@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Tustin wholesale mortgage broker with 200+ lender access. Tustin Legacy financing, jumbo loans & competitive rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tustin-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tustin-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tustin-2026',
+    },
   },
 };
 

@@ -29,11 +29,19 @@ export function generateMetadata({
         index: false,
         follow: false,
         googleBot: { index: false, follow: false },
+        bingbot: { index: false, follow: false },
       }
     : {
         index: true,
         follow: true,
         googleBot: {
+          index: true,
+          follow: true,
+          'max-video-preview': -1 as const,
+          'max-image-preview': 'large' as const,
+          'max-snippet': -1 as const,
+        },
+        bingbot: {
           index: true,
           follow: true,
           'max-video-preview': -1 as const,
@@ -70,7 +78,11 @@ export function generateMetadata({
       images: [fullImageUrl]
     },
     alternates: {
-      canonical: canonicalUrl
+      canonical: canonicalUrl,
+      languages: {
+        'en-US': canonicalUrl,
+        'x-default': canonicalUrl,
+      },
     },
     other: {
       'og:image:width': '1200',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Access wholesale mortgage rates in Orange County through 200+ lenders. Bank statement loans, jumbo financing, DSCR investor loans. Local broker serving Coastal, Central, North & South OC. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county',
+    },
   },
   openGraph: {
     title: 'Orange County Wholesale Mortgage Broker | 200+ Lenders, Better Rates',

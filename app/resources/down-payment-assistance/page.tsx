@@ -19,10 +19,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Down Payment Assistance Programs 2025 | Complete Guide',
-  description: 'Complete guide to down payment assistance programs in Orange County, CA. Find grants, loans, and programs to help with your home purchase. Updated for 2025.',
+  title: 'Orange County Down Payment Assistance Programs | Complete Guide',
+  description: 'Complete guide to down payment assistance programs in Orange County, CA. Find grants, loans, and programs to help with your home purchase.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/down-payment-assistance',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/down-payment-assistance',
+      'x-default': 'https://www.mothebroker.com/resources/down-payment-assistance',
+    },
   },
 };
 
@@ -168,7 +172,7 @@ export default function DownPaymentAssistancePage() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">2025 Updated Resource</Badge>
+            <Badge className="bg-white/20 text-white mb-4">Current Updated Resource</Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Orange County Down Payment Assistance Programs
             </h1>
@@ -571,7 +575,7 @@ export default function DownPaymentAssistancePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Income limits vary by program and household size. For 2025, Orange County Area Median Income (AMI) 
+                  Income limits vary by program and household size. Orange County Area Median Income (AMI) 
                   is approximately $116,000 for a family of four. Most programs serve those earning 80-120% of AMI. 
                   Some CalHFA programs go up to $210,000+ for larger households.
                 </p>

@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to credit repair for Orange County home buyers. Improve your credit score, dispute errors, and qualify for better mortgage pricing. Expert tips and strategies.',
   alternates: {
     canonical: 'https://www.mothebroker.com/resources/credit-repair',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/resources/credit-repair',
+      'x-default': 'https://www.mothebroker.com/resources/credit-repair',
+    },
   },
 };
 

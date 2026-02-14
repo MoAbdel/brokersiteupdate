@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Manhattan Beach cash-out refinance 2026: Access your home equity through wholesale channels. 50+ lenders for competitive rates on luxury coastal properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026',
+    },
   },
   openGraph: {
     title: 'Manhattan Beach Cash-Out Refinance 2026 | Access Home Equity',

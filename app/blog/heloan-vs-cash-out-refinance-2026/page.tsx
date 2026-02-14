@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
+      'x-default': 'https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026',
+    },
   },
 };
 
@@ -15,7 +19,7 @@ export default function HELOANvsCashOut2025() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "HELOAN vs. Cash-Out Refinance 2026: Choosing Your Equity Strategy",
-        "description": "Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2025. Expert advice on how to tap into your Southern California equity.",
+        "description": "Detailed comparison of Home Equity Loans (HELOANs) and Cash-Out Refinances in 2026. Expert advice on how to tap into your Southern California equity.",
         "author": {
             "@type": "Person",
             "name": "Mo Abdel",

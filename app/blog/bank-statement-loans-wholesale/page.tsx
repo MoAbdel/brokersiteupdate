@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to bank statement loans through wholesale mortgage brokers. Learn how 25+ lender access provides better rates, flexible programs, and higher approval rates for self-employed borrowers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale',
+      'x-default': 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale',
+    },
   },
   openGraph: {
     title: 'Bank Statement Loans: The Wholesale Broker Advantage [2026]',

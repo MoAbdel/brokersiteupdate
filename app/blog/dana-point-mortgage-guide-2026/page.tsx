@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026',
+    },
   },
 };
 
@@ -33,7 +37,7 @@ export default function DanaPointMortgageGuidePage() {
                         },
                         "datePublished": "2026-01-03",
                         "dateModified": "2026-01-03",
-                        "description": "Explore the 2025 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
+                        "description": "Explore the 2026 Dana Point mortgage landscape. Learn how to secure harbor-adjacent financing and wholesale rates for Monarch Beach and beyond."
                     })
                 }}
             />
@@ -50,11 +54,11 @@ export default function DanaPointMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in Dana Point in 2025, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
+                        To secure a mortgage in Dana Point in 2026, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
                     </p>
                 </div>
 
-                <h2>What does the Dana Point real estate market look like in 2025?</h2>
+                <h2>What does the Dana Point real estate market look like in 2026?</h2>
                 <p>
                     Dana Point's real estate market offers a blend of harbor living and coastal elegance. As a broker serving this area, I've noted several neighborhood-specific characteristics:
                 </p>

@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'How wholesale mortgage brokers access 200+ lenders to find better rates, more programs, and higher approval rates than banks with just one option. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/200-lender-advantage',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/200-lender-advantage',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/200-lender-advantage',
+    },
   },
   keywords: ['wholesale mortgage lender network', '200 lender advantage', 'mortgage broker lender access', 'wholesale lender competition', 'california wholesale broker'],
 };

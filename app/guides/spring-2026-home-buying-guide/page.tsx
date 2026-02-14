@@ -12,8 +12,12 @@ export const metadata: Metadata = {
     title: 'Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884',
     description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 822-9662.',
     alternates: {
-        canonical: 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
+    canonical: 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
+      'x-default': 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
     },
+  },
 };
 
 export default function Spring2026HomeBuyingGuidePage() {

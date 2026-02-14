@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['heloc vs home equity loan', 'HELOC vs HELOAN', 'home equity loan vs line of credit', 'home equity comparison', 'heloc or home equity loan'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan',
+      'x-default': 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan',
+    },
   },
   openGraph: {
     title: 'HELOC vs Home Equity Loan: Which Is Right for You? [2026]',

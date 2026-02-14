@@ -8,6 +8,7 @@
 
 import fs from 'node:fs';
 import { GoogleAuth } from 'google-auth-library';
+import { loadIndexingDelta } from './lib/indexing-delta.mjs';
 
 const SITE_URL = 'https://www.mothebroker.com';
 const CREDENTIALS_PATH = './gsc-credentials.json';
@@ -141,7 +142,13 @@ const run = async () => {
   });
 
   // Extract URLs
-  const urls = prioritizeUrls(extractUrls());
+  const delta = await loadIndexingDelta({ siteUrl: SITE_URL });
+  const urls = prioritizeUrls(delta.mode === 'delta' ? delta.urls : extractUrls());
+  if (delta.mode === 'delta') {
+    console.log(`Using delta-only URL set (${delta.urls.length} URLs) from ${delta.deltaPath}`);
+  } else {
+    console.log('No usable indexing delta found; falling back to sitemap URL set.');
+  }
   console.log(`Found ${urls.length} URLs in sitemap`);
   console.log(`Will submit up to ${DAILY_QUOTA} URLs (API daily limit)\n`);
   const state = loadState();

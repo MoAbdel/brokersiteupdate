@@ -50,7 +50,14 @@ export const loanProgramsDropdown: DropdownItem[] = [
 ];
 
 export const serviceAreasDropdown: DropdownItem[] = [
-  { title: 'All Service Areas', url: '/areas' },
+  { title: 'All Service Areas (CA & WA)', url: '/areas' },
+
+  // Statewide hubs
+  { title: '🗺️ STATEWIDE HUBS', url: '#', isHeader: true },
+  { title: 'California Service Areas', url: '/areas/california' },
+  { title: 'Washington Service Areas', url: '/areas/washington' },
+  { title: 'California Mortgage Hub', url: '/blog/wholesale-mortgage-broker-california-guide-2026' },
+  { title: 'Washington Mortgage Hub', url: '/blog/wholesale-mortgage-broker-washington-2026' },
 
   // Premium Coastal Communities
   { title: '🏖️ COASTAL', url: '#', isHeader: true },
@@ -59,8 +66,8 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Dana Point', url: '/areas/dana-point-mortgage-broker' },
   { title: 'Seal Beach', url: '/areas/seal-beach-mortgage-broker' },
 
-  // Central Orange County
-  { title: '🏢 CENTRAL', url: '#', isHeader: true },
+  // Core Orange County Cluster
+  { title: '🏢 OC CORE', url: '#', isHeader: true },
   { title: 'Irvine', url: '/areas/irvine-mortgage-broker' },
   { title: 'Irvine Loans', url: '/areas/irvine-mortgage-rates' },
   { title: 'Costa Mesa', url: '/areas/costa-mesa-mortgage-broker' },
@@ -95,8 +102,8 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Newport Beach 92660', url: '/zip-codes/92660-newport-beach-mortgage-broker' },
   { title: 'Irvine 92602', url: '/zip-codes/92602-irvine-mortgage-broker' },
 
-  // North Orange County
-  { title: '🏘️ NORTH', url: '#', isHeader: true },
+  // North Orange County Cluster
+  { title: '🏘️ OC NORTH', url: '#', isHeader: true },
   { title: 'Anaheim', url: '/areas/anaheim-mortgage-broker' },
   { title: 'Anaheim Loans', url: '/areas/anaheim-mortgage-rates' },
   { title: 'Fullerton', url: '/areas/fullerton-mortgage-broker' },
@@ -105,8 +112,8 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Garden Grove', url: '/areas/garden-grove-mortgage-broker' },
   { title: 'Westminster', url: '/areas/westminster-mortgage-broker' },
 
-  // South Orange County
-  { title: '🏡 SOUTH', url: '#', isHeader: true },
+  // South Orange County Cluster
+  { title: '🏡 OC SOUTH', url: '#', isHeader: true },
   { title: 'Mission Viejo', url: '/areas/mission-viejo-mortgage-broker' },
   { title: 'Laguna Niguel', url: '/areas/laguna-niguel-mortgage-broker' },
   { title: 'Laguna Niguel Loans', url: '/areas/laguna-niguel-mortgage-rates' },
@@ -130,10 +137,19 @@ export const serviceAreasDropdown: DropdownItem[] = [
 export const guidesAndBlogDropdown: DropdownItem[] = [
   { title: 'All Guides & Blog Posts', url: '/guides' },
 
+  // Statewide Hubs
+  { title: '🗺️ STATEWIDE HUBS', url: '#', isHeader: true },
+  { title: 'California Mortgage Hub', url: '/blog/wholesale-mortgage-broker-california-guide-2026' },
+  { title: 'Washington Mortgage Hub', url: '/blog/wholesale-mortgage-broker-washington-2026' },
+  { title: 'California Reverse Mortgage Hub', url: '/blog/reverse-mortgage-california-guide-2026' },
+  { title: 'Washington Reverse Mortgage Hub', url: '/blog/reverse-mortgage-washington-guide-2026' },
+  { title: 'California Home Equity Hub', url: '/blog/home-equity-california-guide-2026' },
+  { title: 'Washington Home Equity Hub', url: '/blog/home-equity-washington-guide-2026' },
+
   // Complete Guides
   { title: '📚 COMPLETE GUIDES', url: '#', isHeader: true },
-  { title: 'Orange County Home Buyer Guide', url: '/guides/orange-county-home-buyer-guide' },
-  { title: 'Orange County Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
+  { title: 'California & Washington Home Buyer Guide', url: '/guides/orange-county-home-buyer-guide' },
+  { title: 'California & Washington Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
   { title: 'Orange County School Districts Guide', url: '/guides/orange-county-school-districts' },
   { title: 'Orange County Investment Property Guide', url: '/guides/orange-county-investment-property' },
   { title: 'Orange County VA Loans Guide', url: '/guides/orange-county-va-loans' },
@@ -141,7 +157,7 @@ export const guidesAndBlogDropdown: DropdownItem[] = [
 
   // Market Analysis
   { title: '📊 MARKET ANALYSIS', url: '#', isHeader: true },
-  { title: 'Orange County Market Forecast 2026', url: '/guides/orange-county-market-forecast-2025-2026' },
+  { title: 'California & Washington Market Forecast 2026', url: '/guides/orange-county-market-forecast-2025-2026' },
 
   // Seasonal Market Guides
   { title: '🌟 SEASONAL GUIDES', url: '#', isHeader: true },
@@ -179,7 +195,7 @@ export const resourcesDropdown: DropdownItem[] = [
 
   // Market & Reference  
   { title: '📊 DATA & REFERENCE', url: '#', isHeader: true },
-  { title: 'Orange County Market Data', url: '/resources/market-data' },
+  { title: 'California & Washington Market Data', url: '/resources/market-data' },
   { title: 'Mortgage Glossary', url: '/resources/glossary' },
 
   // Process & Support
@@ -195,7 +211,7 @@ export const refinanceDropdown: DropdownItem[] = [
   { title: '🔄 REFINANCING', url: '#', isHeader: true },
   { title: 'Rate & Term Refinance', url: '/loan-programs/rate-term-refinance' },
   { title: 'Cash-Out Refinance', url: '/loan-programs/cash-out-refinance' },
-  { title: 'Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
+  { title: 'Refinancing Guide (CA & WA)', url: '/guides/orange-county-refinancing-guide' },
 
   // Home Equity Solutions
   { title: '💰 HOME EQUITY', url: '#', isHeader: true },
@@ -222,9 +238,9 @@ export const specialtyLoansDropdown: DropdownItem[] = [
 export const guidesDropdown: DropdownItem[] = [
   // Complete Guides
   { title: '📚 COMPLETE GUIDES', url: '#', isHeader: true },
-  { title: 'Orange County Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
-  { title: 'Orange County VA Loans Guide', url: '/guides/orange-county-va-loans' },
-  { title: 'Orange County Jumbo Loans Guide', url: '/guides/orange-county-jumbo-loans' },
+  { title: 'California & Washington Refinancing Guide', url: '/guides/orange-county-refinancing-guide' },
+  { title: 'California & Washington VA Loans Guide', url: '/guides/orange-county-va-loans' },
+  { title: 'California & Washington Jumbo Loans Guide', url: '/guides/orange-county-jumbo-loans' },
 
   // City Pages - Major Markets
   { title: '🏙️ MAJOR CITIES', url: '#', isHeader: true },

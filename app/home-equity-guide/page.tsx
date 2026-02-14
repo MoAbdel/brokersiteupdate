@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Complete 2026 guide to accessing home equity: Cash-out refinance, HELOC, and HELOAN comparison. Learn which option fits your financial goals. Orange County wholesale broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/home-equity-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/home-equity-guide',
+      'x-default': 'https://www.mothebroker.com/home-equity-guide',
+    },
   },
   openGraph: {
     title: 'Home Equity & Refinancing Guide: Cash-Out, HELOC & HELOAN [2026]',
@@ -871,11 +875,11 @@ export default function HomeEquityGuidePage() {
                         <h4 className="font-bold text-gray-900">Strategic Refinancing 2026</h4>
                         <p className="text-gray-600 text-sm">Rate vs utility analysis for wealth building</p>
                     </Link>
-                    <Link href="/loan-programs/heloc" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
+                    <Link href="/heloc-orange-county" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
                         <h4 className="font-bold text-gray-900">HELOC Loan Program</h4>
                         <p className="text-gray-600 text-sm">Current HELOC rates and program details</p>
                     </Link>
-                    <Link href="/loan-programs/heloan" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
+                    <Link href="/heloan-orange-county" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
                         <h4 className="font-bold text-gray-900">HELOAN Loan Program</h4>
                         <p className="text-gray-600 text-sm">Fixed-rate home equity loan options</p>
                     </Link>

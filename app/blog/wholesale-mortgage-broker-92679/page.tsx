@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Coto de Caza wholesale mortgage broker serving 92679. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92679 | Coto de Caza Jumbo Loan Specialists',

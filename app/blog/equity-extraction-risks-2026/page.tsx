@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Risks of tapping home equity 2026: Understand the dangers of HELOCs, cash-out refinance, and home equity loans before borrowing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/equity-extraction-risks-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/equity-extraction-risks-2026',
+      'x-default': 'https://www.mothebroker.com/blog/equity-extraction-risks-2026',
+    },
   },
 };
 

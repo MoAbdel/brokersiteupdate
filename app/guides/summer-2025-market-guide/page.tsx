@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+      'x-default': 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+    },
   },
 };
 

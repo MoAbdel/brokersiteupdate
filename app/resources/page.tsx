@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { generateMetadata } from '@/lib/metadata';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
@@ -24,24 +25,32 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'Mortgage Resources & Tools | Calculators, Checklists, and Guides',
+  title: 'Mortgage Resources | Calculators, Checklists, and Buyer Tools',
   description:
-    'Access mortgage calculators, document checklists, down payment resources, and practical guides built for Orange County buyers, homeowners, and investors.',
+    'Access mortgage calculators, document checklists, down payment resources, and practical tools for California and Washington buyers, homeowners, and investors.',
   path: '/resources',
   type: 'website'
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/resources',
+  title: 'Mortgage Resources | Calculators, Checklists, and Buyer Tools',
+  description:
+    'Access mortgage calculators, document checklists, down payment resources, and practical tools for California and Washington buyers, homeowners, and investors.',
+  breadcrumbName: 'Resources',
 });
 
 export default function ResourcesPage() {
   const resources = [
     {
       title: 'Down Payment Assistance Programs',
-      description: 'Complete guide to grants, loans, and assistance programs in Orange County. Find programs that can save you thousands.',
+      description: 'Complete guide to grants, loans, and assistance programs in California and Washington. Find programs that can save you thousands.',
       icon: DollarSign,
       link: '/resources/down-payment-assistance',
       badge: 'Most Popular',
       color: 'text-green-600',
       bgColor: 'bg-green-50',
-      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2025 Updated']
+      features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2026 Updated']
     },
     {
       title: 'Mortgage Calculators Suite',
@@ -55,7 +64,7 @@ export default function ResourcesPage() {
     },
     {
       title: 'First-Time Buyer Guide',
-      description: 'Step-by-step guide for first-time home buyers in Orange County. Everything you need to know.',
+      description: 'Step-by-step guide for first-time home buyers in California and Washington. Everything you need to know.',
       icon: Home,
       link: '/guides/orange-county-home-buyer-guide',
       badge: 'Comprehensive',
@@ -85,7 +94,7 @@ export default function ResourcesPage() {
     },
     {
       title: 'Local Service Providers',
-      description: 'Trusted Orange County real estate agents, home inspectors, contractors, and other professionals.',
+      description: 'Trusted real estate agents, home inspectors, contractors, and other professionals across California and Washington.',
       icon: Users,
       link: '/resources/service-providers',
       badge: 'Directory',
@@ -100,25 +109,29 @@ export default function ResourcesPage() {
       title: 'Loan Comparison Tool',
       description: 'compare pricing from multiple lenders',
       icon: TrendingUp,
-      action: 'compare pricing'
+      action: 'Compare pricing',
+      link: '/refinance-loans'
     },
     {
       title: 'Pre-Approval Checklist',
       description: 'Get ready for your application',
       icon: FileText,
-      action: 'View Checklist'
+      action: 'View Checklist',
+      link: '/resources/document-checklist'
     },
     {
       title: 'Neighborhood Guide',
-      description: 'Explore Orange County areas',
+      description: 'Explore high-demand California and Washington markets',
       icon: Map,
-      action: 'Explore Areas'
+      action: 'Explore Areas',
+      link: '/areas'
     },
     {
       title: 'Closing Cost Estimator',
       description: 'Calculate your closing costs',
       icon: Calculator,
-      action: 'Estimate Costs'
+      action: 'Estimate Costs',
+      link: '/calculator'
     }
   ];
 
@@ -126,38 +139,46 @@ export default function ResourcesPage() {
     {
       title: 'How to Get the Best Mortgage Rate',
       readTime: '5 min read',
-      category: 'Rate Shopping'
+      category: 'Rate Shopping',
+      link: '/guides/definitive-orange-county-mortgage-guide'
     },
     {
       title: 'FHA vs Conventional Loans',
       readTime: '7 min read',
-      category: 'Loan Types'
+      category: 'Loan Types',
+      link: '/fha-loans-orange-county'
     },
     {
       title: 'Avoiding Common Mortgage Mistakes',
       readTime: '6 min read',
-      category: 'Tips'
+      category: 'Tips',
+      link: '/guides/orange-county-home-buyer-guide'
     },
     {
       title: 'Understanding Closing Costs',
       readTime: '8 min read',
-      category: 'Process'
+      category: 'Process',
+      link: '/guides/orange-county-refinancing-guide'
     }
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Badge className="bg-white/20 text-white mb-4">Free Resources & Tools</Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Orange County Mortgage Resources Center
+              California &amp; Washington Mortgage Resources Center
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Everything you need to navigate the home buying process. From down payment assistance
-              to market data, calculators to guides - all free and updated for 2025.
+              to market data, calculators to guides - all free and updated for 2026.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/resources/down-payment-assistance">
@@ -200,8 +221,8 @@ export default function ResourcesPage() {
               <Link className="text-blue-700 hover:underline" href="/resources/glossary">
                 Mortgage Glossary
               </Link>
-              <Link className="text-blue-700 hover:underline" href="/resources/mortgage-glossary">
-                Mortgage Glossary (Full)
+              <Link className="text-blue-700 hover:underline" href="/loan-programs">
+                Loan Programs Hub
               </Link>
               <Link className="text-blue-700 hover:underline" href="/resources/comprehensive-mortgage-faq">
                 Comprehensive Mortgage FAQ
@@ -210,7 +231,7 @@ export default function ResourcesPage() {
                 Market Data & Trends
               </Link>
               <Link className="text-blue-700 hover:underline" href="/resources/service-providers">
-                Local Service Providers
+                Statewide Service Providers
               </Link>
             </div>
           </div>
@@ -414,14 +435,16 @@ export default function ResourcesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {quickTools.map((tool, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow cursor-pointer">
+              <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <tool.icon className="w-8 h-8 text-blue-600 mb-3" />
                   <h3 className="font-semibold mb-2">{tool.title}</h3>
                   <p className="text-sm text-slate-600 mb-3">{tool.description}</p>
-                  <Button size="sm" variant="ghost" className="text-blue-600">
-                    {tool.action} →
-                  </Button>
+                  <Link href={tool.link}>
+                    <Button size="sm" variant="ghost" className="text-blue-600">
+                      {tool.action} →
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
@@ -440,10 +463,14 @@ export default function ResourcesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {featuredGuides.map((guide, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow cursor-pointer">
+              <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <Badge variant="secondary" className="mb-3">{guide.category}</Badge>
-                  <h3 className="font-semibold mb-2">{guide.title}</h3>
+                  <h3 className="font-semibold mb-2">
+                    <Link href={guide.link} className="hover:text-blue-600">
+                      {guide.title}
+                    </Link>
+                  </h3>
                   <p className="text-sm text-slate-600">{guide.readTime}</p>
                 </CardContent>
               </Card>

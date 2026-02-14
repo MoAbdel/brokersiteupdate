@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   keywords: ['cash out vs regular refinance', 'cash-out refinance vs rate-and-term', 'refinance comparison 2026', 'should I do cash-out or regular refinance', 'refinance options comparison'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-complete-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-complete-2026',
+      'x-default': 'https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-complete-2026',
+    },
   },
   openGraph: {
     title: 'Cash-Out vs Regular Refinance: Which Is Right for You? [2026]',

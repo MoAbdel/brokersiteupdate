@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Balboa Island 92662 wholesale mortgage broker for jumbo and second home financing. Little Balboa Island specialists. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92662-balboa-island-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92662-balboa-island-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92662-balboa-island-2026',
+    },
   },
 };
 

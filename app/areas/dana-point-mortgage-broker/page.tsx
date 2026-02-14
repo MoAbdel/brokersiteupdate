@@ -35,6 +35,10 @@ export const metadata: Metadata = {
   ...generateCityMetadata(danaPointData),
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/dana-point-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/dana-point-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/dana-point-mortgage-broker',
+    },
   },
 };
 

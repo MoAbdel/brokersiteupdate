@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Mortgage broker vs bank comparison 2026: Learn why brokers with 200+ lender access consistently save borrowers money over traditional banks. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026',
+      'x-default': 'https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026',
+    },
   },
 };
 

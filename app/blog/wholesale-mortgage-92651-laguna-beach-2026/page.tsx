@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Laguna Beach 92651 wholesale mortgage broker for jumbo and second home financing. Top of the World, Woods Cove, Laguna Village. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92651-laguna-beach-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92651-laguna-beach-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92651-laguna-beach-2026',
+    },
   },
 };
 

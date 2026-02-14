@@ -1,13 +1,12 @@
 import fs from 'node:fs/promises';
 import fsSync from 'node:fs';
 import path from 'node:path';
+import { loadIndexingDelta } from './lib/indexing-delta.mjs';
 
 const DEFAULT_HOST = 'www.mothebroker.com';
 const DEFAULT_KEY = 'f56edfca5e434ba8bda3e1cb34e4a6d9';
 const DEFAULT_SITEMAPS = [
-  'sitemap.xml',
-  'sitemap-news.xml',
-  'sitemap-images.xml'
+  'sitemap.xml'
 ];
 
 const workspaceRoot = process.cwd();
@@ -118,6 +117,7 @@ const submitIndexNow = async ({ host, key, keyLocation, urlList }) => {
 
 const run = async () => {
   const host = (process.env.INDEXNOW_HOST || DEFAULT_HOST).replace(/^https?:\/\//, '');
+  const siteUrl = `https://${host}`;
   const key = await readIndexNowKey();
   const keyLocation = `https://${host}/${key}.txt`;
 
@@ -125,13 +125,20 @@ const run = async () => {
     ? process.env.INDEXNOW_SITEMAPS.split(',').map((name) => name.trim()).filter(Boolean)
     : DEFAULT_SITEMAPS;
 
-  const urls = new Set();
-  for (const sitemapName of sitemapNames) {
-    const sitemapUrls = await readSitemapUrls(sitemapName);
-    sitemapUrls.forEach((url) => urls.add(url));
+  const delta = await loadIndexingDelta({ siteUrl });
+  let urlList = [];
+  if (delta.mode === 'delta') {
+    urlList = delta.urls;
+    console.log(`Using delta-only URL set (${urlList.length} URLs) from ${delta.deltaPath}`);
+  } else {
+    const urls = new Set();
+    for (const sitemapName of sitemapNames) {
+      const sitemapUrls = await readSitemapUrls(sitemapName);
+      sitemapUrls.forEach((url) => urls.add(url));
+    }
+    urlList = Array.from(urls);
+    console.log('No usable indexing delta found; falling back to sitemap URL set.');
   }
-
-  const urlList = Array.from(urls);
   const state = loadState();
   const filteredUrlList = urlList.filter((url) => !wasRecentlySubmitted(state, 'indexNow', url));
   if (!filteredUrlList.length) {

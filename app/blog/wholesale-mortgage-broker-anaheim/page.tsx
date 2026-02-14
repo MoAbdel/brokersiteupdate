@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Access wholesale mortgage rates in Anaheim through 200+ lenders. Serving Anaheim Hills, West Anaheim, Platinum Triangle, Colony District. Bank statement loans, jumbo financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim',
+    },
   },
   openGraph: {
     title: 'Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates',

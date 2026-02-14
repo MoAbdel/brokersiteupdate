@@ -3,37 +3,39 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Cash-Out Refinance Loans in Orange County, CA | Mo The Broker',
-  description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive pricing, fast approvals, and expert guidance from Mo The Broker.',
+  title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
+  description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
   openGraph: {
-    title: 'Cash-Out Refinance Loans in Orange County, CA | Mo The Broker',
-    description: 'Tap into your home\'s equity with a cash-out refinance in Orange County. Competitive pricing, fast approvals, and expert guidance from Mo The Broker.',
+    title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
+    description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
     url: 'https://www.mothebroker.com/cash-out-refinance',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/cash-out-refinance',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/cash-out-refinance',
+      'x-default': 'https://www.mothebroker.com/cash-out-refinance',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
-  "serviceType": "Cash-Out Refinance Loans",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/cash-out-refinance",
-  "description": "Expert cash-out refinance services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/cash-out-refinance',
+  serviceType: 'Cash-Out Refinance Services',
+  serviceName: 'Orange County Cash-Out Refinance',
+  serviceDescription: 'Expert cash-out refinance services in Orange County, CA',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/cash-out-refinance',
+  title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
+  description:
+    'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
+  breadcrumbName: 'Cash-Out Refinance',
+});
 
 const cashOutUses = [
   {
@@ -155,6 +157,10 @@ export default function CashOutRefinancePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
       <script
         type="application/ld+json"
@@ -558,16 +564,16 @@ export default function CashOutRefinancePage() {
               Explore Related Orange County Mortgage Services
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/loan-programs/heloc" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/heloc-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">HELOC vs Cash-Out</span>
               </Link>
-              <Link href="/refinance-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/rate-term-refinance-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Rate-Term Refinance</span>
               </Link>
               <Link href="/purchase-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Purchase Loans</span>
               </Link>
-              <Link href="/areas/newport-beach" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/newport-beach-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Newport Beach Loans</span>
               </Link>
             </div>

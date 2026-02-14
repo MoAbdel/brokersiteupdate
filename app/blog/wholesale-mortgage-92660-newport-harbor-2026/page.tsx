@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Newport Beach Harbor 92660 wholesale mortgage broker with 200+ lender access. Jumbo loans, non-QM programs for executives and business owners. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92660-newport-harbor-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92660-newport-harbor-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92660-newport-harbor-2026',
+    },
   },
 };
 

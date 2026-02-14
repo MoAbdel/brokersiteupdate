@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Orange County refinancing guide covering rate-and-term, cash-out, HELOC options. Save money on your mortgage. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
+      'x-default': 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
+    },
   },
 };
 
@@ -32,7 +36,7 @@ const refinancingOptions = [
     timeframe: '2-3 weeks',
     bestFor: 'Home improvements, debt consolidation, investments',
     description: 'Refinance for more than you owe and receive the difference in cash',
-    link: '/loan-programs/cash-out-refinance',
+    link: '/cash-out-refinance',
     minEquity: '20%'
   },
   {
@@ -166,7 +170,7 @@ const costAnalysis = [
 
 const faqs = [
   {
-    question: 'Should I refinance my Orange County home in 2025?',
+    question: 'Should I refinance my Orange County home in 2026?',
     answer: 'Refinancing makes sense if you can reduce your pricing by 0.5-1%, remove PMI, access equity for improvements, or consolidate high-interest debt. With Orange County home values remaining strong, many homeowners have significant equity to leverage. Consider your break-even point and how long you plan to stay in the home.'
   },
   {
@@ -234,7 +238,7 @@ export default function OrangeCountyRefinancingGuide() {
               Complete Refinancing Guide
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Orange County Refinancing Guide 2025
+              Orange County Refinancing Guide 2026
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-100 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to refinancing your Orange County home. Explore rate-and-term refinancing,
@@ -261,7 +265,7 @@ export default function OrangeCountyRefinancingGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-2">
-              Orange County Refinancing Market 2025
+              Orange County Refinancing Market 2026
             </h2>
             <p className="text-slate-600">Current market conditions creating refinancing opportunities</p>
           </div>

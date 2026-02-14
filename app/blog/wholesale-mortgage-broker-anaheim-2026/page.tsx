@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Find the best wholesale mortgage rates in Anaheim. Bank statement loans, jumbo financing, and 200+ lender access for Anaheim homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim-2026',
+    },
   },
 };
 

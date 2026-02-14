@@ -1,10 +1,15 @@
 import { Metadata } from 'next';
+import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Complete Guide to Reverse Mortgages in California & Washington [2026] | Mo Abdel NMLS #1426884',
   description: 'HECM reverse mortgage guide for California and Washington seniors 62+. Learn eligibility, payout options, HUD counseling requirements, and compare HECM vs HELOC. Expert guidance from Mo Abdel, NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/reverse-mortgages',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/reverse-mortgages',
+      'x-default': 'https://www.mothebroker.com/reverse-mortgages',
+    },
   },
   openGraph: {
     title: 'Complete Guide to Reverse Mortgages in California & Washington [2026]',
@@ -15,9 +20,21 @@ export const metadata: Metadata = {
   },
 };
 
+const reverseMortgagesPageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/reverse-mortgages',
+  title: 'Complete Guide to Reverse Mortgages in California & Washington [2026] | Mo Abdel NMLS #1426884',
+  description:
+    'HECM reverse mortgage guide for California and Washington seniors 62+. Learn eligibility, payout options, HUD counseling requirements, and compare HECM vs HELOC.',
+  breadcrumbName: 'Reverse Mortgages',
+});
+
 export default function ReverseMortgagesPage() {
   return (
     <article className="max-w-4xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reverseMortgagesPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -751,7 +768,7 @@ export default function ReverseMortgagesPage() {
         <ul>
           <li><a href="/heloc-orange-county">HELOC (Home Equity Line of Credit)</a> - Flexible access to home equity with monthly payments</li>
           <li><a href="/heloan-orange-county">HELOAN (Home Equity Loan)</a> - Fixed-rate lump sum home equity loan</li>
-          <li><a href="/loan-programs/cash-out-refinance">Cash-Out Refinance</a> - Replace your mortgage and access equity</li>
+          <li><a href="/cash-out-refinance">Cash-Out Refinance</a> - Replace your mortgage and access equity</li>
           <li><a href="/guides/orange-county-refinancing-guide">Orange County Refinancing Guide</a> - Complete guide to refinancing options</li>
         </ul>
       </section>

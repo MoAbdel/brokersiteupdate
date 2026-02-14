@@ -26,10 +26,14 @@ export const metadata: Metadata = {
     title: 'Why Choose a Local Orange County Mortgage Broker | Mo Abdel Guide',
     description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides Better pricing, personalized service, and market expertise for your home loan.',
     type: 'article',
-    publishedTime: '2025-07-18T08:30:00Z',
+    publishedTime: '2026-07-18T08:30:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
+    },
   },
 };
 
@@ -56,7 +60,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             Why Choose a Local Orange County Mortgage Broker: Home Loans and Refinancing Guide
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published July 18, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published July 18, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 mb-6">
             When you're buying a home in Orange County, working with a local mortgage broker 
@@ -68,7 +72,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
           </p>
           <div className="flex items-center text-sm text-slate-500">
             <Clock className="w-4 h-4 mr-1" />
-            5 min read • Updated July 18, 2025 • NMLS #1426884
+            5 min read • Updated July 18, 2026 • NMLS #1426884
           </div>
         </div>
 

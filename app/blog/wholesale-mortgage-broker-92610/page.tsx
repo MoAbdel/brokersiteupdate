@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Foothill Ranch wholesale mortgage broker serving 92610. Access 200+ lenders for jumbo loans in this South OC community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92610 | Foothill Ranch Jumbo Specialists',

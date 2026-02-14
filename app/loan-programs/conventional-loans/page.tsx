@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: 'Conventional mortgages in Orange County with rates from 200+ lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/conventional-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/conventional-loans',
+    },
   },
 };
 
@@ -79,7 +83,7 @@ export default function ConventionalLoansPage() {
 
         {/* Conventional Loan Limits 2025 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Conventional Loan Limits in Orange County</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Conventional Loan Limits in Orange County</h2>
           <div className="bg-blue-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>

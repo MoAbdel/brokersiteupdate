@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Calabasas guide 2026: Compare jumbo HELOC, home equity loans, and cash-out refinance for The Oaks and Calabasas Hills. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-calabasas-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-calabasas-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-calabasas-2026',
+    },
   },
 };
 

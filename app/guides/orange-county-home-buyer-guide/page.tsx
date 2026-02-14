@@ -6,16 +6,20 @@ import { Button } from '@/components/ui/Button';
 import { Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Orange County Home Buyer Guide 2025 | Complete Mortgage Process | Mo Abdel',
+  title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process | Mo Abdel',
   description: 'Complete Orange County home buying guide covering mortgage pre-approval, down payments, neighborhoods, and closing costs. Expert mortgage broker insights for first-time and repeat buyers.',
   openGraph: {
-    title: 'Orange County Home Buyer Guide 2025 | Complete Mortgage Process',
+    title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process',
     description: 'Complete Orange County home buying guide covering mortgage pre-approval, down payments, neighborhoods, and closing costs.',
     type: 'article',
-    publishedTime: '2025-01-10T08:00:00.000Z',
+    publishedTime: '2026-01-10T08:00:00.000Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
+      'x-default': 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
+    },
   },
 };
 
@@ -170,7 +174,7 @@ export default function OrangeCountyHomeBuyerGuide() {
               Complete Home Buying Guide
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Orange County Home Buyer Guide 2025
+              Orange County Home Buyer Guide 2026
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
               Your complete guide to buying a home in Orange County. From mortgage pre-approval to closing, 

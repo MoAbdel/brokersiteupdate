@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Fix & flip loans in Orange County for real estate investors. Quick 7-10 day closings, up to 90% ARV, 6-24 month terms. Experienced investor lender. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fix-flip-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/loan-programs/fix-flip-loans',
+      'x-default': 'https://www.mothebroker.com/loan-programs/fix-flip-loans',
+    },
   },
 };
 

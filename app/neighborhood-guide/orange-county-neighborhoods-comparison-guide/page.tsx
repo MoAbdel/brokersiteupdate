@@ -41,16 +41,20 @@ const getColorClasses = (color: string) => {
 };
 
 export const metadata: Metadata = {
-  title: 'Orange County Neighborhoods Comparison Guide 2025 | Best Places to Buy Homes OC',
+  title: 'Orange County Neighborhoods Comparison Guide 2026 | Best Places to Buy Homes OC',
   description: 'Complete guide to Orange County neighborhoods: Irvine, Newport Beach, Laguna Beach, Mission Viejo, Costa Mesa. Home prices, schools, commutes, and mortgage options compared.',
   openGraph: {
-    title: 'Orange County Neighborhoods Comparison Guide 2025 | Best Places to Buy Homes OC',
+    title: 'Orange County Neighborhoods Comparison Guide 2026 | Best Places to Buy Homes OC',
     description: 'Complete guide to Orange County neighborhoods: Irvine, Newport Beach, Laguna Beach, Mission Viejo, Costa Mesa. Home prices, schools, commutes, and mortgage options compared.',
     type: 'article',
-    publishedTime: '2025-06-05T16:20:00Z',
+    publishedTime: '2026-06-05T16:20:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
+      'x-default': 'https://www.mothebroker.com/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
+    },
   },
 };
 
@@ -150,10 +154,10 @@ export default function OCNeighborhoodsGuide() {
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Complete Neighborhood Analysis</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Orange County Mortgage Broker Guide: Best Neighborhoods for Home Loans 2025
+            Orange County Mortgage Broker Guide: Best Neighborhoods for Home Loans 2026
           </h1>
           <div className="flex items-center justify-center text-sm text-slate-500 mb-4">
-            <span>Published June 5, 2025 • By Mo Abdel, Orange County Mortgage Broker</span>
+            <span>Published June 5, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Compare home prices, schools, commutes, and lifestyle factors across Orange County's top neighborhoods. Get personalized mortgage advice for each area from your local OC broker. Explore our city-specific services including <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine mortgage broker</Link> and <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach home loans</Link>.
@@ -251,7 +255,7 @@ export default function OCNeighborhoodsGuide() {
                 </p>
               </div>
 
-              <Link href={`/areas/${neighborhood.name.toLowerCase().replace(' ', '-')}-mortgage-broker`}>
+              <Link href={`/areas/${neighborhood.name.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker`}>
                 <Button className={`w-full ${colors.buttonBg} ${colors.buttonHover} text-white`}>
                   Learn More About {neighborhood.name}
                 </Button>
@@ -337,7 +341,7 @@ export default function OCNeighborhoodsGuide() {
 
         {/* Local Market Insights */}
         <div className="bg-slate-100 rounded-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">2025 Market Insights by Area</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">2026 Market Insights by Area</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>

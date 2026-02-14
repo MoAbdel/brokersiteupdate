@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Irvine Woodbridge wholesale mortgage broker serving 92614. Access 200+ lenders for jumbo loans in this master-planned community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614',
+    },
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92614 | Irvine Woodbridge Jumbo Specialists',

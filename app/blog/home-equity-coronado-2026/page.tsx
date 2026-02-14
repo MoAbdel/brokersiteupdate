@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Home equity Coronado guide 2026: Compare HELOC, home equity loans, and cash-out refinance for this historic island community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-coronado-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-coronado-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-coronado-2026',
+    },
   },
 };
 

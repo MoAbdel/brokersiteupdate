@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like tax-free income and no monthly payments, plus important considerations before tapping home equity.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
+      'x-default': 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
+    },
   },
   keywords: [
     'reverse mortgage pros and cons',

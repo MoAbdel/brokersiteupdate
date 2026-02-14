@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: 'Get personalized mortgage options in minutes. compare pricing from 200+ lenders with licensed broker Mo Abdel (NMLS #1426884). Free, no obligation quote.',
   alternates: {
     canonical: 'https://www.mothebroker.com/quiz',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/quiz',
+      'x-default': 'https://www.mothebroker.com/quiz',
+    },
   },
 };
 

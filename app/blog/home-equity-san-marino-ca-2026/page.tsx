@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'San Marino home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance for historic estate financing. Median home value $3.8M. Jumbo programs for multigenerational additions and estate renovations. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026',
+      'x-default': 'https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026',
+    },
   },
   openGraph: {
     title: 'Home Equity Options in San Marino, CA: HELOC, HELOAN & Cash-Out [2026]',

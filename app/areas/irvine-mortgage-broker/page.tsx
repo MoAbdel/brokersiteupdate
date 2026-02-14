@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
+      'x-default': 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
+    },
   },
 };
 
@@ -133,7 +137,7 @@ export default function IrvineMortgageBrokerPage() {
 
         {/* Irvine Market Stats */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">Irvine Housing Market Data - 2025</h2>
+          <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">Irvine Housing Market Data - 2026</h2>
           <p className="text-center text-slate-600 mb-8">
             According to Orange County real estate data and city statistics, research shows Irvine consistently ranks among 
             California's most desirable communities. Industry data indicates strong property values and appreciation rates.

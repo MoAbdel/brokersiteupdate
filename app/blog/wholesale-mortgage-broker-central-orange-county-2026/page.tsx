@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-central-orange-county-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-central-orange-county-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-central-orange-county-2026',
+    },
   },
 };
 

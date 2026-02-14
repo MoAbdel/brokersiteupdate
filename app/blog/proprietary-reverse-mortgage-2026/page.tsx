@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Complete guide to proprietary (jumbo) reverse mortgages for high-value homes in 2026. Learn how these private reverse mortgages work, who qualifies, and when they make sense vs HECM.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
+      'x-default': 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
+    },
   },
   keywords: [
     'proprietary reverse mortgage',

@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'What is a second mortgage? Compare HELOC, HELOAN, and piggyback loans. Understand rates, risks, and when a second mortgage makes sense. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/second-mortgage-explained-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/second-mortgage-explained-2026',
+      'x-default': 'https://www.mothebroker.com/blog/second-mortgage-explained-2026',
+    },
   },
 };
 

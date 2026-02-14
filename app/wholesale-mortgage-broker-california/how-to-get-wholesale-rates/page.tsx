@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'Get wholesale mortgage rates in California through licensed brokers with 200+ lender access. Save 0.125-0.375% vs bank rates. Learn how wholesale pricing works. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/how-to-get-wholesale-rates',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/how-to-get-wholesale-rates',
+      'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california/how-to-get-wholesale-rates',
+    },
   },
   keywords: ['wholesale mortgage rates california', 'how to get wholesale mortgage rates', 'wholesale mortgage pricing', 'california wholesale rates', 'broker wholesale rates'],
 };

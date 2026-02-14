@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'HELOC complete guide 2026: Access home equity without refinancing. Compare rates from 50+ wholesale lenders. Orange County HELOC specialist. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-complete-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/heloc-complete-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/heloc-complete-guide-2026',
+    },
   },
   openGraph: {
     title: 'HELOC Complete Guide 2026 | Home Equity Line of Credit Explained',

@@ -1,0 +1,1089 @@
+{
+  "generated": "2026-02-09T23:34:44.849Z",
+  "gscDataRange": "20251106_20260204",
+  "queryDataAvailable": false,
+  "weights": {
+    "demand": 25,
+    "striking": 25,
+    "ctrHeadroom": 10,
+    "bizValue": 20,
+    "overlapRisk": 15,
+    "recency": 5
+  },
+  "refreshCandidates": [
+    {
+      "url": "https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026",
+      "slug": "newport-coast-mortgage-guide-2026",
+      "position": 8.2,
+      "impressions": 29,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 29 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+      "slug": "bank-statement-loans-self-employed-2026",
+      "position": 14.6,
+      "impressions": 27,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 14.6 with 27 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+      "slug": "rancho-santa-margarita-mortgage-guide-2026",
+      "position": 9.1,
+      "impressions": 23,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.1 with 23 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026",
+      "slug": "jumbo-loans-orange-county-2026",
+      "position": 11.8,
+      "impressions": 22,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.8 with 22 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
+      "slug": "yorba-linda-mortgage-guide-2026",
+      "position": 10,
+      "impressions": 22,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.0 with 22 impressions — update content to push into top 5"
+    }
+  ],
+  "scoredQueue": [
+    {
+      "hubId": "CA-SD-A",
+      "track": "wholesale",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal North SD",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sd-a-2026",
+      "score": 57.2,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +5.2 (avg $3.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SD-A",
+      "track": "equity",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal North SD",
+      "expectedSlug": "home-equity-ca-sd-a-2026",
+      "score": 56.8,
+      "reasons": [
+        "demand: +25.0 (285 related impressions)",
+        "striking: +25.0 (4 pages at pos 8-25)",
+        "ctrHeadroom: +1.7 (avg gap 1.7%)",
+        "bizValue: +5.2 (avg $3.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-B",
+      "track": "wholesale",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Western LA Luxury",
+      "expectedSlug": "wholesale-mortgage-broker-ca-pv-b-2026",
+      "score": 56.2,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +4.2 (avg $2.6M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-A",
+      "track": "wholesale",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Palos Verdes Peninsula",
+      "expectedSlug": "wholesale-mortgage-broker-ca-pv-a-2026",
+      "score": 56,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +4.0 (avg $2.5M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-B",
+      "track": "equity",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Western LA Luxury",
+      "expectedSlug": "home-equity-ca-pv-b-2026",
+      "score": 56,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +4.2 (avg $2.6M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-A",
+      "track": "equity",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Palos Verdes Peninsula",
+      "expectedSlug": "home-equity-ca-pv-a-2026",
+      "score": 55.8,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +4.0 (avg $2.5M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-A",
+      "track": "wholesale",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Foothill Luxury",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sgv-a-2026",
+      "score": 55.4,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +3.4 (avg $2.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-A",
+      "track": "wholesale",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Beach Cities",
+      "expectedSlug": "wholesale-mortgage-broker-ca-lab-a-2026",
+      "score": 55.3,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +3.3 (avg $2.1M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-A",
+      "track": "equity",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Foothill Luxury",
+      "expectedSlug": "home-equity-ca-sgv-a-2026",
+      "score": 55.2,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +3.4 (avg $2.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-A",
+      "track": "equity",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Beach Cities",
+      "expectedSlug": "home-equity-ca-lab-a-2026",
+      "score": 55.1,
+      "reasons": [
+        "demand: +25.0 (241 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +3.3 (avg $2.1M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-CC-A",
+      "track": "equity",
+      "region": "Central Coast",
+      "regionNum": 9,
+      "name": "Santa Barbara Luxury",
+      "expectedSlug": "home-equity-ca-cc-a-2026",
+      "score": 55,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +8.2 (avg $4.4M)",
+        "recency: -5 (similar page home-equity-central-coast-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-A",
+      "track": "wholesale",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Premium East Bay / SF",
+      "expectedSlug": "wholesale-mortgage-broker-ca-eb-a-2026",
+      "score": 54.9,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +2.9 (avg $2.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-A",
+      "track": "equity",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Premium East Bay / SF",
+      "expectedSlug": "home-equity-ca-eb-a-2026",
+      "score": 54.7,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +2.9 (avg $2.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SD-B",
+      "track": "wholesale",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal SD + Inland Premium",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sd-b-2026",
+      "score": 54.5,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +2.5 (avg $1.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SD-B",
+      "track": "equity",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal SD + Inland Premium",
+      "expectedSlug": "home-equity-ca-sd-b-2026",
+      "score": 54.3,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +2.5 (avg $1.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-MR-B",
+      "track": "wholesale",
+      "region": "Bay Area — Marin County",
+      "regionNum": 2,
+      "name": "Affluent Marin",
+      "expectedSlug": "wholesale-mortgage-broker-ca-mr-b-2026",
+      "score": 53.9,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +1.8 (avg $1.5M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-MR-B",
+      "track": "equity",
+      "region": "Bay Area — Marin County",
+      "regionNum": 2,
+      "name": "Affluent Marin",
+      "expectedSlug": "home-equity-ca-mr-b-2026",
+      "score": 53.7,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.8 (avg $1.5M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-B",
+      "track": "wholesale",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Affluent Suburban East Bay",
+      "expectedSlug": "wholesale-mortgage-broker-ca-eb-b-2026",
+      "score": 53.5,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +1.4 (avg $1.3M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-B",
+      "track": "equity",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Affluent Suburban East Bay",
+      "expectedSlug": "home-equity-ca-eb-b-2026",
+      "score": 53.3,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.4 (avg $1.3M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-B",
+      "track": "wholesale",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Westside",
+      "expectedSlug": "wholesale-mortgage-broker-ca-lab-b-2026",
+      "score": 53.3,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-B",
+      "track": "wholesale",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Pasadena Corridor",
+      "expectedSlug": "wholesale-mortgage-broker-ca-sgv-b-2026",
+      "score": 53.3,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-B",
+      "track": "equity",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Pasadena Corridor",
+      "expectedSlug": "home-equity-ca-sgv-b-2026",
+      "score": 53.1,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-B",
+      "track": "equity",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Westside",
+      "expectedSlug": "home-equity-ca-lab-b-2026",
+      "score": 53,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-WC-A",
+      "track": "equity",
+      "region": "Wine Country (Napa/Sonoma)",
+      "regionNum": 11,
+      "name": "Wine Country",
+      "expectedSlug": "home-equity-ca-wc-a-2026",
+      "score": 53,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.1 (avg $1.1M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-A",
+      "track": "wholesale",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Ultra-Luxury Eastside",
+      "expectedSlug": "wholesale-mortgage-broker-wa-se-a-2026",
+      "score": 53,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +6.0 (avg $3.4M)",
+        "recency: -5 (similar page wholesale-mortgage-broker-seattle-eastside-2026 is 2d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-B",
+      "track": "wholesale",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Suburban King County",
+      "expectedSlug": "wholesale-mortgage-broker-wa-gs-b-2026",
+      "score": 52.5,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +0.5 (avg $0.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SAC-A",
+      "track": "equity",
+      "region": "Sacramento / Gold Country",
+      "regionNum": 12,
+      "name": "Sacramento Affluent",
+      "expectedSlug": "home-equity-ca-sac-a-2026",
+      "score": 52.4,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.6 (avg $0.9M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-NS-A",
+      "track": "equity",
+      "region": "North Sound / Islands",
+      "regionNum": 16,
+      "name": "North Sound + Islands",
+      "expectedSlug": "home-equity-wa-ns-a-2026",
+      "score": 52.4,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.6 (avg $0.9M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-B",
+      "track": "equity",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Suburban King County",
+      "expectedSlug": "home-equity-wa-gs-b-2026",
+      "score": 52.3,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.5 (avg $0.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-A",
+      "track": "wholesale",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Urban Seattle Premium",
+      "expectedSlug": "wholesale-mortgage-broker-wa-gs-a-2026",
+      "score": 52.1,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +0.1 (avg $0.7M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-A",
+      "track": "equity",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Urban Seattle Premium",
+      "expectedSlug": "home-equity-wa-gs-a-2026",
+      "score": 51.9,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.1 (avg $0.7M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-B",
+      "track": "wholesale",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Premium Eastside",
+      "expectedSlug": "wholesale-mortgage-broker-wa-se-b-2026",
+      "score": 49.5,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +2.4 (avg $1.8M)",
+        "recency: -5 (similar page wholesale-mortgage-broker-seattle-eastside-2026 is 2d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-C",
+      "track": "wholesale",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Tech Corridor Eastside",
+      "expectedSlug": "wholesale-mortgage-broker-wa-se-c-2026",
+      "score": 48.4,
+      "reasons": [
+        "demand: +25.0 (1920 related impressions)",
+        "striking: +25.0 (31 pages at pos 8-25)",
+        "ctrHeadroom: +2.0 (avg gap 2.0%)",
+        "bizValue: +1.4 (avg $1.2M)",
+        "recency: -5 (similar page wholesale-mortgage-broker-seattle-eastside-2026 is 2d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-VC-A",
+      "track": "equity",
+      "region": "Ventura County",
+      "regionNum": 10,
+      "name": "Ventura Affluent",
+      "expectedSlug": "home-equity-ca-vc-a-2026",
+      "score": 47.9,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.1 (avg $1.1M)",
+        "recency: -5 (similar page home-equity-ventura-county-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-A",
+      "track": "equity",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Ultra-Luxury Eastside",
+      "expectedSlug": "home-equity-wa-se-a-2026",
+      "score": 47.8,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +6.0 (avg $3.4M)",
+        "recency: -5 (similar page home-equity-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page home-equity-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-CC-B",
+      "track": "equity",
+      "region": "Central Coast",
+      "regionNum": 9,
+      "name": "Central Coast",
+      "expectedSlug": "home-equity-ca-cc-b-2026",
+      "score": 47.5,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.7 (avg $0.9M)",
+        "recency: -5 (similar page home-equity-central-coast-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-IE-A",
+      "track": "equity",
+      "region": "Inland Empire",
+      "regionNum": 13,
+      "name": "IE Affluent",
+      "expectedSlug": "home-equity-ca-ie-a-2026",
+      "score": 47.4,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.5 (avg $0.8M)",
+        "recency: -5 (similar page home-equity-inland-empire-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SS-A",
+      "track": "equity",
+      "region": "South Sound",
+      "regionNum": 17,
+      "name": "South Sound Affluent",
+      "expectedSlug": "home-equity-wa-ss-a-2026",
+      "score": 47,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +0.2 (avg $0.7M)",
+        "recency: -5 (similar page home-equity-south-sound-guide-2026 is 0d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-B",
+      "track": "equity",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Premium Eastside",
+      "expectedSlug": "home-equity-wa-se-b-2026",
+      "score": 44.3,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +2.4 (avg $1.8M)",
+        "recency: -5 (similar page home-equity-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page home-equity-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-C",
+      "track": "equity",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Tech Corridor Eastside",
+      "expectedSlug": "home-equity-wa-se-c-2026",
+      "score": 43.2,
+      "reasons": [
+        "demand: +25.0 (239 related impressions)",
+        "striking: +25.0 (3 pages at pos 8-25)",
+        "ctrHeadroom: +1.8 (avg gap 1.8%)",
+        "bizValue: +1.4 (avg $1.2M)",
+        "recency: -5 (similar page home-equity-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page home-equity-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SD-A",
+      "track": "hecm",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal North SD",
+      "expectedSlug": "reverse-mortgage-ca-sd-a-2026",
+      "score": 38.3,
+      "reasons": [
+        "demand: +15.5 (62 related impressions)",
+        "striking: +16.7 (2 pages at pos 8-25)",
+        "ctrHeadroom: +1.0 (avg gap 1.0%)",
+        "bizValue: +5.2 (avg $3.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-B",
+      "track": "hecm",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Western LA Luxury",
+      "expectedSlug": "reverse-mortgage-ca-pv-b-2026",
+      "score": 16.5,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +4.2 (avg $2.6M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-PV-A",
+      "track": "hecm",
+      "region": "LA County — South Bay / Palos Verdes",
+      "regionNum": 6,
+      "name": "Palos Verdes Peninsula",
+      "expectedSlug": "reverse-mortgage-ca-pv-a-2026",
+      "score": 16.3,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +4.0 (avg $2.5M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-A",
+      "track": "hecm",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Beach Cities",
+      "expectedSlug": "reverse-mortgage-ca-lab-a-2026",
+      "score": 16.1,
+      "reasons": [
+        "demand: +4.5 (18 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +3.3 (avg $2.1M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-A",
+      "track": "hecm",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Foothill Luxury",
+      "expectedSlug": "reverse-mortgage-ca-sgv-a-2026",
+      "score": 15.7,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +3.4 (avg $2.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-CC-A",
+      "track": "hecm",
+      "region": "Central Coast",
+      "regionNum": 9,
+      "name": "Santa Barbara Luxury",
+      "expectedSlug": "reverse-mortgage-ca-cc-a-2026",
+      "score": 15.5,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +8.2 (avg $4.4M)",
+        "recency: -5 (similar page reverse-mortgage-central-coast-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-A",
+      "track": "hecm",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Premium East Bay / SF",
+      "expectedSlug": "reverse-mortgage-ca-eb-a-2026",
+      "score": 15.2,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +2.9 (avg $2.0M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SD-B",
+      "track": "hecm",
+      "region": "San Diego County",
+      "regionNum": 8,
+      "name": "Coastal SD + Inland Premium",
+      "expectedSlug": "reverse-mortgage-ca-sd-b-2026",
+      "score": 14.8,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +2.5 (avg $1.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-EB-B",
+      "track": "hecm",
+      "region": "Bay Area — East Bay / San Francisco",
+      "regionNum": 3,
+      "name": "Affluent Suburban East Bay",
+      "expectedSlug": "reverse-mortgage-ca-eb-b-2026",
+      "score": 13.8,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.4 (avg $1.3M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-LAB-B",
+      "track": "hecm",
+      "region": "LA County — Westside / Beach Cities",
+      "regionNum": 4,
+      "name": "LA Westside",
+      "expectedSlug": "reverse-mortgage-ca-lab-b-2026",
+      "score": 13.6,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SGV-B",
+      "track": "hecm",
+      "region": "LA County — San Gabriel Valley / Pasadena",
+      "regionNum": 5,
+      "name": "Pasadena Corridor",
+      "expectedSlug": "reverse-mortgage-ca-sgv-b-2026",
+      "score": 13.6,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.2 (avg $1.2M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-WC-A",
+      "track": "hecm",
+      "region": "Wine Country (Napa/Sonoma)",
+      "regionNum": 11,
+      "name": "Wine Country",
+      "expectedSlug": "reverse-mortgage-ca-wc-a-2026",
+      "score": 13.5,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.1 (avg $1.1M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-SAC-A",
+      "track": "hecm",
+      "region": "Sacramento / Gold Country",
+      "regionNum": 12,
+      "name": "Sacramento Affluent",
+      "expectedSlug": "reverse-mortgage-ca-sac-a-2026",
+      "score": 12.9,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.6 (avg $0.9M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-NS-A",
+      "track": "hecm",
+      "region": "North Sound / Islands",
+      "regionNum": 16,
+      "name": "North Sound + Islands",
+      "expectedSlug": "reverse-mortgage-wa-ns-a-2026",
+      "score": 12.9,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.6 (avg $0.9M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-B",
+      "track": "hecm",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Suburban King County",
+      "expectedSlug": "reverse-mortgage-wa-gs-b-2026",
+      "score": 12.8,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.5 (avg $0.8M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-GS-A",
+      "track": "hecm",
+      "region": "Greater Seattle / King County",
+      "regionNum": 15,
+      "name": "Urban Seattle Premium",
+      "expectedSlug": "reverse-mortgage-wa-gs-a-2026",
+      "score": 12.4,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.1 (avg $0.7M)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-VC-A",
+      "track": "hecm",
+      "region": "Ventura County",
+      "regionNum": 10,
+      "name": "Ventura Affluent",
+      "expectedSlug": "reverse-mortgage-ca-vc-a-2026",
+      "score": 8.4,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.1 (avg $1.1M)",
+        "recency: -5 (similar page reverse-mortgage-ventura-county-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-A",
+      "track": "hecm",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Ultra-Luxury Eastside",
+      "expectedSlug": "reverse-mortgage-wa-se-a-2026",
+      "score": 8.3,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +6.0 (avg $3.4M)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-CC-B",
+      "track": "hecm",
+      "region": "Central Coast",
+      "regionNum": 9,
+      "name": "Central Coast",
+      "expectedSlug": "reverse-mortgage-ca-cc-b-2026",
+      "score": 8,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.7 (avg $0.9M)",
+        "recency: -5 (similar page reverse-mortgage-central-coast-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "CA-IE-A",
+      "track": "hecm",
+      "region": "Inland Empire",
+      "regionNum": 13,
+      "name": "IE Affluent",
+      "expectedSlug": "reverse-mortgage-ca-ie-a-2026",
+      "score": 7.9,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.5 (avg $0.8M)",
+        "recency: -5 (similar page reverse-mortgage-inland-empire-guide-2026 is 1d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SS-A",
+      "track": "hecm",
+      "region": "South Sound",
+      "regionNum": 17,
+      "name": "South Sound Affluent",
+      "expectedSlug": "reverse-mortgage-wa-ss-a-2026",
+      "score": 7.5,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +0.2 (avg $0.7M)",
+        "recency: -5 (similar page reverse-mortgage-south-sound-guide-2026 is 0d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-B",
+      "track": "hecm",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Premium Eastside",
+      "expectedSlug": "reverse-mortgage-wa-se-b-2026",
+      "score": 5.5,
+      "reasons": [
+        "demand: +4.8 (19 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +2.4 (avg $1.8M)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    },
+    {
+      "hubId": "WA-SE-C",
+      "track": "hecm",
+      "region": "Seattle Eastside",
+      "regionNum": 14,
+      "name": "Tech Corridor Eastside",
+      "expectedSlug": "reverse-mortgage-wa-se-c-2026",
+      "score": 3.7,
+      "reasons": [
+        "demand: +4.0 (16 related impressions)",
+        "striking: +8.3 (1 pages at pos 8-25)",
+        "bizValue: +1.4 (avg $1.2M)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-guide-2026 is 2d old)",
+        "recency: -5 (similar page reverse-mortgage-seattle-eastside-wa-2026 is 4d old)"
+      ],
+      "bucket": "opportunity"
+    }
+  ],
+  "cannibalizationAlerts": [],
+  "summary": {
+    "totalPending": 63,
+    "totalScored": 63,
+    "opportunityBucket": 63,
+    "explorationBucket": 0,
+    "refreshCandidates": 5,
+    "cannibalizationAlerts": 0,
+    "topScore": 57.2,
+    "bottomScore": 3.7
+  }
+}

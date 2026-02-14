@@ -3,37 +3,42 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Home, Shield, Users, TrendingUp, Calculator, CheckCircle, DollarSign, Clock, Heart } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'Home Purchase Loans in Orange County, CA | Mo The Broker',
-  description: 'Secure your dream home in Orange County with competitive purchase loan rates. Local expertise, wholesale access, and fast approvals.',
+  title: 'California & Washington Purchase Loans | FHA, VA, Conventional, Jumbo',
+  description: 'Get pre-approved for a home purchase in California or Washington with FHA, VA, conventional, or jumbo financing and expert broker guidance from Mo Abdel.',
   openGraph: {
-    title: 'Home Purchase Loans in Orange County, CA | Mo The Broker',
-    description: 'Secure your dream home in Orange County with competitive purchase loan rates. Local expertise, wholesale access, and fast approvals.',
+    title: 'California & Washington Purchase Loans | FHA, VA, Conventional, Jumbo',
+    description: 'Get pre-approved for a home purchase in California or Washington with FHA, VA, conventional, or jumbo financing and expert broker guidance from Mo Abdel.',
     url: 'https://www.mothebroker.com/purchase-loans',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/purchase-loans',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/purchase-loans',
+      'x-default': 'https://www.mothebroker.com/purchase-loans',
+    },
   },
 };
 
-// JSON-LD Schema for LocalBusiness
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo The Broker - Orange County Mortgage",
-  "serviceType": "Home Purchase Loans",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/purchase-loans",
-  "description": "Expert home purchase loan services in Orange County, CA",
-  "areaServed": "Orange County, CA",
-  "additionalType": "https://schema.org/MortgageBroker"
-};
+const structuredData = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/purchase-loans',
+  serviceType: 'Home Purchase Loan Services',
+  serviceName: 'California and Washington Purchase Loans',
+  serviceDescription: 'Expert home purchase loan services across California and Washington',
+  areaServedNames: ['California', 'Washington'],
+  addressLocality: 'California',
+  addressRegion: 'US',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/purchase-loans',
+  title: 'California & Washington Purchase Loans | FHA, VA, Conventional, Jumbo',
+  description:
+    'Get pre-approved for a home purchase in California or Washington with FHA, VA, conventional, or jumbo financing and expert broker guidance from Mo Abdel.',
+  breadcrumbName: 'Purchase Loans',
+});
 
 const purchaseLoans = [
   {
@@ -79,7 +84,7 @@ const purchaseLoans = [
     title: 'Jumbo Loans',
     icon: TrendingUp,
     downPayment: '10% - 20%',
-    bestFor: 'Luxury homes in Orange County',
+    bestFor: 'Luxury homes in California and Washington',
     features: [
       'Loans above conforming limits ($1,266,300+)',
       'Competitive jumbo rates',
@@ -92,24 +97,24 @@ const purchaseLoans = [
 
 const faqs = [
   {
-    question: "What's the minimum credit score needed to buy a home in Orange County?",
+    question: "What's the minimum credit score needed to buy a home in California or Washington?",
     answer: "Credit score requirements vary by loan type. FHA loans allow scores as low as 580, conventional loans typically require 620+, while VA loans are more flexible. I can help you understand which programs you qualify for based on your current credit situation."
   },
   {
-    question: "How much do I need for a down payment in Orange County?",
-    answer: "Down payment requirements range from 0% (VA loans) to 20% (conventional without PMI). FHA loans require just 3.5%, and conventional loans can go as low as 3%. The median home price in Orange County is around $1.2 million, so planning ahead is crucial."
+    question: "How much do I need for a down payment in California or Washington?",
+    answer: "Down payment requirements range from 0% (VA loans) to 20% (conventional without PMI). FHA loans require just 3.5%, and conventional loans can go as low as 3%. Planning ahead is crucial in competitive California and Washington markets."
   },
   {
-    question: "How long does it take to close on a home purchase in Orange County?",
+    question: "How long does it take to close on a home purchase in California or Washington?",
     answer: "Typical closing times range from 30-45 days, though this can vary based on loan type, property condition, and market conditions. I work closely with all parties to ensure smooth, on-time closings."
   },
   {
     question: "What's the difference between pre-qualification and pre-approval?",
-    answer: "Pre-qualification is an estimate based on basic financial information, while pre-approval involves a thorough review of your finances and credit. In competitive Orange County markets, sellers prefer pre-approved buyers as they're more likely to close successfully."
+    answer: "Pre-qualification is an estimate based on basic financial information, while pre-approval involves a thorough review of your finances and credit. In competitive California and Washington markets, sellers prefer pre-approved buyers as they're more likely to close successfully."
   },
   {
     question: "Should I work with a mortgage broker or go directly to a bank?",
-    answer: "As a mortgage broker, I have access to 200+ lenders and can shop multiple options to find you the best pricing and terms. Banks only offer their own products, limiting your options. This is especially valuable in Orange County's competitive market."
+    answer: "As a mortgage broker, I have access to 200+ lenders and can shop multiple options to find you the best pricing and terms. Banks only offer their own products, limiting your options. This is especially valuable in California and Washington's competitive markets."
   }
 ];
 
@@ -120,16 +125,20 @@ export default function PurchaseLoansPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Home Purchase Loans in <span className="text-blue-600">Orange County, CA</span>
+              Home Purchase Loans in <span className="text-blue-600">California &amp; Washington</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Buying a home in Orange County's competitive market requires expert guidance and access to the best loan programs. 
-              As your local mortgage broker, I'll help you navigate the process and secure favorable financing for your dream home.
+              Buying a home in competitive markets requires expert guidance and access to the right loan programs.
+              As your mortgage broker, I will help you navigate California and Washington purchase scenarios and secure favorable financing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
@@ -149,11 +158,11 @@ export default function PurchaseLoansPage() {
           {/* Types of Purchase Loans */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
-              Types of Purchase Loans Available in Orange County
+              Types of Purchase Loans Available in California &amp; Washington
             </h2>
             <p className="text-xl text-slate-600 text-center mb-12 max-w-3xl mx-auto">
               From first-time buyer programs to luxury home financing, we offer comprehensive loan options 
-              tailored to Orange County's diverse housing market.
+              tailored to California and Washington housing markets.
             </p>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -196,7 +205,7 @@ export default function PurchaseLoansPage() {
           {/* Why Choose a Mortgage Broker vs Bank */}
           <section className="mb-16 bg-slate-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Why Choose an Orange County Mortgage Broker vs Banks?
+              Why Choose a Mortgage Broker vs Banks?
             </h2>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
@@ -216,7 +225,7 @@ export default function PurchaseLoansPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
-                    <span className="text-slate-700">Local Orange County market expertise</span>
+                    <span className="text-slate-700">California and Washington market expertise</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
@@ -263,7 +272,7 @@ export default function PurchaseLoansPage() {
           {/* Steps to Get Pre-Approved */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Steps to Get Pre-Approved for Your Orange County Home Purchase
+              Steps to Get Pre-Approved for Your Home Purchase
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -273,7 +282,7 @@ export default function PurchaseLoansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Initial Consultation</h3>
                 <p className="text-slate-600">
-                  We'll discuss your goals, budget, and timeline. I'll explain the Orange County market 
+                  We'll discuss your goals, budget, and timeline. I'll explain California and Washington market
                   and which loan programs best fit your situation.
                 </p>
               </div>
@@ -296,7 +305,7 @@ export default function PurchaseLoansPage() {
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Pre-Approval Letter</h3>
                 <p className="text-slate-600">
                   Receive your official pre-approval letter, typically within 24 hours. This gives you 
-                  confidence and credibility when making offers in Orange County's competitive market.
+                  confidence and credibility when making offers in competitive markets.
                 </p>
               </div>
             </div>
@@ -311,10 +320,10 @@ export default function PurchaseLoansPage() {
             </div>
           </section>
 
-          {/* Orange County Market Insights */}
+          {/* Market Insights */}
           <section className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-6 text-center">
-              Orange County Housing Market Insights
+              California and Washington Housing Market Insights
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -331,14 +340,14 @@ export default function PurchaseLoansPage() {
               </div>
             </div>
             <p className="text-center text-slate-600 mt-6">
-              <em>Data as of 2025. Orange County remains one of the most competitive real estate markets in California.</em>
+              <em>Data as of 2026. California and Washington remain highly competitive real estate markets.</em>
             </p>
           </section>
 
           {/* FAQ Section */}
           <section className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FAQs for Homebuyers in Orange County
+              FAQs for Homebuyers in California &amp; Washington
             </h2>
             <div className="max-w-4xl mx-auto">
               {faqs.map((faq, index) => (
@@ -353,19 +362,19 @@ export default function PurchaseLoansPage() {
           {/* Internal Links Section */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              Explore More Orange County Mortgage Options
+              Explore More Mortgage Options
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/loan-programs/heloc" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/heloc-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">HELOC Loans</span>
               </Link>
               <Link href="/cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Cash-Out Refinance</span>
               </Link>
-              <Link href="/areas/irvine" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Irvine Mortgages</span>
               </Link>
-              <Link href="/areas/newport-beach" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <Link href="/areas/newport-beach-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
                 <span className="text-blue-600 font-medium">Newport Beach Loans</span>
               </Link>
             </div>
@@ -375,7 +384,7 @@ export default function PurchaseLoansPage() {
           <section className="text-center bg-blue-600 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Home Buying Journey?</h2>
             <p className="text-xl mb-6 text-blue-100">
-              Get your free pre-approval consultation and discover what you can afford in Orange County's market.
+              Get your free pre-approval consultation and discover what you can afford in California and Washington markets.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
@@ -390,7 +399,7 @@ export default function PurchaseLoansPage() {
               </Link>
             </div>
             <p className="text-sm text-blue-200 mt-4">
-              Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
+              Mo Abdel - NMLS #1426884 | Licensed Mortgage Broker (CA &amp; WA)
             </p>
           </section>
         </div>

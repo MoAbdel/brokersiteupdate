@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   alternates: {
     canonical: 'https://www.mothebroker.com/cookie-policy',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/cookie-policy',
+      'x-default': 'https://www.mothebroker.com/cookie-policy',
+    },
   },
 }
 

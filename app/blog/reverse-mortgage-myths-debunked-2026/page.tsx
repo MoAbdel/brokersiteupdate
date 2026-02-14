@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Separate fact from fiction about reverse mortgages. Debunking 10 common myths about HECMs for seniors 62+. Learn the truth. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-myths-debunked-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/reverse-mortgage-myths-debunked-2026',
+      'x-default': 'https://www.mothebroker.com/blog/reverse-mortgage-myths-debunked-2026',
+    },
   },
 };
 

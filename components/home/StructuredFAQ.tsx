@@ -9,28 +9,28 @@ const faqs = [
       answer: "A mortgage broker works for you, not a single bank. I have access to 200+ lenders and can shop for the best pricing and terms. Bank loan officers can only offer their bank's products, which limits your options and often results in higher rates."
     },
     {
-      question: "What are current mortgage pricing in Orange County?",
-      answer: "Current pricing vary based on loan type and credit score. As of today, 30-year fixed pricing is around 6.125%, 15-year fixed at 5.50%, FHA loans at 6.125%, VA loans at 5.99%, Jumbo loans at 6.625%, and 7/6 ARM at 6.00%. With my wholesale lender access, I consistently secure Competitive pricing and significantly lower upfront costs compared to retail banks."
+      question: "What are current mortgage pricing trends in California and Washington?",
+      answer: "Current pricing vary by loan type, credit profile, and property scenario. I monitor wholesale lender channels daily and compare options across California and Washington to identify competitive pricing and lower upfront costs versus single-lender retail options."
     },
     {
       question: "How much can I save using a mortgage broker?",
       answer: "Research shows that borrowers save an average of over $10,000 throughout the life of their loan when working with mortgage brokers compared to retail banks. This comes from Competitive pricing, significantly lower upfront costs (typically 33 basis points less), and access to specialized loan programs that banks don't offer."
     },
     {
-      question: "What's the minimum down payment required in Orange County?",
+      question: "What's the minimum down payment required in California and Washington?",
       answer: "It depends on the loan program: FHA loans require just 3.5% down, VA loans offer 0% down for veterans, conventional loans start at 3% down for first-time buyers, and jumbo loans typically need 10-20% down."
     },
     {
-      question: "How fast can you close a mortgage in Orange County?",
-      answer: "My average closing time is 18 days, compared to 30-45 days at most banks. I work with dedicated underwriters and processors who prioritize speed without sacrificing thoroughness."
+      question: "How fast can you close a mortgage?",
+      answer: "Typical closings run about 2-4 weeks depending on program, appraisal timing, and documentation. I work with dedicated underwriters and processors to move quickly without sacrificing underwriting quality."
     },
     {
       question: "What credit score do I need for a mortgage?",
       answer: "With access to 200+ lenders, I have options for all credit situations. I can work with credit scores as low as 500 through specialized non-QM loan programs. FHA loans can work with scores as low as 580, conventional loans typically need 620+, and the best pricing are available for scores above 740."
     },
     {
-      question: "Do you offer jumbo loans for Orange County's high-priced homes?",
-      answer: "Yes, I specialize in jumbo loans for Orange County's luxury market. I offer jumbo loans with Competitive pricing, often better than what big banks offer for high-value properties."
+      question: "Do you offer jumbo loans for high-priced markets?",
+      answer: "Yes. I specialize in jumbo loans for high-value markets across California and Washington, with access to wholesale channels that often improve pricing and flexibility versus single-bank options."
     },
     {
       question: "Can you help with refinancing my current mortgage?",
@@ -52,7 +52,7 @@ export default function StructuredFAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-slate-600">
-            Everything you need to know about working with an Orange County mortgage broker
+            Everything you need to know about working with a California and Washington mortgage broker
           </p>
         </div>
 

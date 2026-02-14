@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Dana Point 92629 wholesale mortgage broker with 200+ lender access. Monarch Beach, Niguel Shores jumbo loans, VA coastal financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92629-dana-point-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-92629-dana-point-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-92629-dana-point-2026',
+    },
   },
 };
 

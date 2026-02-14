@@ -1,19 +1,30 @@
 import SeoServicePage from '@/app/(marketing)/components/SeoServicePage';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
   title: 'Mission Viejo Mortgage Broker | Home Loans & HELOCs in Mission Viejo, CA',
   description:
     'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
-  alternates: { canonical: 'https://www.mothebroker.com/areas/mission-viejo' },
+  alternates: {
+    canonical: 'https://www.mothebroker.com/areas/mission-viejo',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/areas/mission-viejo',
+      'x-default': 'https://www.mothebroker.com/areas/mission-viejo',
+    },
+  },
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Mission Viejo Mortgage Broker | HELOC, Cash-Out & Home Loans',
+    description:
+      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
     url: 'https://www.mothebroker.com/areas/mission-viejo',
+    type: 'website',
   },
 };
 
 export default function Page() {
+  const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
     { q: 'Do you serve Mission Viejo with multiple lender options?', a: 'Yes. As a wholesale broker we shop across 200+ lenders to find the best fit for Mission Viejo homeowners and buyers, whether for purchase or refinance.' },
     { q: 'What loan types are common in Mission Viejo?', a: 'We see strong demand for jumbo loans due to higher property values, HELOCs for home improvements, and conventional loans for first-time buyers in established neighborhoods.' },
@@ -23,17 +34,14 @@ export default function Page() {
     { q: 'Do you handle HELOCs for established Mission Viejo homes?', a: 'Definitely. Many Mission Viejo homes have substantial equity built up over time, making them ideal candidates for HELOCs or home equity loans for renovations or other financial goals.' },
   ];
 
-  const localBusiness = {
-    '@context': 'https://schema.org',
-    '@type': 'MortgageBroker',
-    name: 'Mo the Broker - Mission Viejo',
-    areaServed: 'Mission Viejo, Orange County, CA',
-    url: 'https://www.mothebroker.com/areas/mission-viejo',
-    telephone: '+1-949-822-9662',
-    address: { '@type': 'PostalAddress', addressLocality: 'Mission Viejo', addressRegion: 'CA', addressCountry: 'US' },
-    sameAs: ['https://www.linkedin.com/in/mothebroker', 'https://www.instagram.com/mothebroker'],
-    description: 'Wholesale mortgage broker serving Mission Viejo with access to 200+ lenders for home loans, HELOCs, and refinancing in South Orange County.',
-  };
+  const localBusiness = buildBrokerEntityGraph({
+    pageUrl: 'https://www.mothebroker.com/areas/mission-viejo',
+    serviceType: 'Mission Viejo Mortgage Brokerage Services',
+    serviceName: 'Mission Viejo Mortgage Broker',
+    serviceDescription:
+      'Wholesale mortgage broker serving Mission Viejo with access to 200+ lenders for home loans, HELOCs, and refinancing in South Orange County.',
+    areaServedName: 'Mission Viejo, Orange County, CA',
+  });
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -44,6 +52,14 @@ export default function Page() {
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   };
+
+  const pageSchema = buildServiceWebPageSchema({
+    pageUrl: 'https://www.mothebroker.com/areas/mission-viejo',
+    title: 'Mission Viejo Mortgage Broker | Home Loans & HELOCs in Mission Viejo, CA',
+    description:
+      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
+    breadcrumbName: 'Mission Viejo',
+  });
 
   const sections = [
     {
@@ -174,9 +190,9 @@ export default function Page() {
   ];
 
   const links = [
-    { label: 'HELOC options and rates', href: '/loan-programs/heloc' },
-    { label: 'Cash-out refinancing guide', href: '/loan-programs/cash-out-refinance' },
-    { label: 'Home equity loan comparison', href: '/loan-programs/heloan' },
+    { label: 'HELOC options and rates', href: '/heloc-orange-county' },
+    { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
+    { label: 'Home equity loan comparison', href: '/heloan-orange-county' },
     { label: 'Orange County mortgage services', href: '/areas' },
     { label: 'Wholesale mortgage broker benefits', href: '/guides/why-choose-local-mortgage-broker' },
     { label: 'Newport Beach area services', href: '/areas/newport-beach' },
@@ -190,11 +206,12 @@ export default function Page() {
         subtitle="HELOC • Cash-out • Jumbo • Conventional • FHA • VA"
         city="Mission Viejo"
         slug="areas/mission-viejo"
-        lastUpdatedISO={new Date().toISOString()}
+        lastUpdatedISO={LAST_UPDATED_ISO}
         sections={sections}
         faqs={faqs}
         internalLinks={links}
       />
+      <JsonLd json={pageSchema} />
       <JsonLd json={localBusiness} />
       <JsonLd json={faqSchema} />
     </>

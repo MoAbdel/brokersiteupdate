@@ -8,108 +8,18 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createRequire } from 'node:module';
+import {
+  REPORTS_DIR, APP_DIR, SITE_URL,
+  normalizeUrl, urlToAppPath, toRoutePath, walk,
+  groupForPath, escapeCsv, getLatestReport
+} from './lib/gsc-utils.mjs';
 
-const REPORTS_DIR = 'reports';
-const APP_DIR = 'app';
-const SITE_URL = 'https://www.mothebroker.com';
 const DEFAULT_IMPRESSIONS_MAX = 10;
 const DEFAULT_CLICKS_MAX = 0;
 const DEFAULT_MIN_AGE_DAYS = 30;
 
 const require = createRequire(import.meta.url);
 const sitemapConfig = require('../next-sitemap.config.js');
-
-const getLatestReport = async () => {
-  const entries = await fs.readdir(REPORTS_DIR);
-  const candidates = entries
-    .filter((name) =>
-      name.startsWith('gsc-performance-') &&
-      name.endsWith('.json') &&
-      !name.includes('-prune-candidates')
-    )
-    .map((name) => ({ name, fullPath: path.join(REPORTS_DIR, name) }));
-
-  if (!candidates.length) {
-    return null;
-  }
-
-  const stats = await Promise.all(
-    candidates.map(async (file) => {
-      const stat = await fs.stat(file.fullPath);
-      return { ...file, mtimeMs: stat.mtimeMs };
-    })
-  );
-
-  stats.sort((a, b) => b.mtimeMs - a.mtimeMs);
-  return stats[0].fullPath;
-};
-
-const normalizeUrl = (url) => {
-  try {
-    const parsed = new URL(url);
-    parsed.hash = '';
-    parsed.search = '';
-    if (parsed.hostname === 'mothebroker.com') {
-      parsed.hostname = 'www.mothebroker.com';
-    }
-    parsed.protocol = 'https:';
-    return parsed.toString();
-  } catch {
-    return url;
-  }
-};
-
-const isRouteGroup = (segment) => segment.startsWith('(') && segment.endsWith(')');
-const isDynamicSegment = (segment) => segment.startsWith('[') && segment.endsWith(']');
-
-const toRoutePath = (filePath) => {
-  const relative = path.relative(APP_DIR, filePath);
-  const segments = relative.split(path.sep);
-  if (segments[segments.length - 1] !== 'page.tsx') {
-    return null;
-  }
-  const routeSegments = segments.slice(0, -1).filter((segment) => {
-    if (isRouteGroup(segment)) return false;
-    if (isDynamicSegment(segment)) return false;
-    return true;
-  });
-  if (!routeSegments.length) return '/';
-  return `/${routeSegments.join('/')}`;
-};
-
-const walk = async (dir, results = []) => {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      await walk(fullPath, results);
-      continue;
-    }
-    if (entry.isFile() && entry.name === 'page.tsx') {
-      results.push(fullPath);
-    }
-  }
-  return results;
-};
-
-const urlToAppPath = (url) => {
-  try {
-    const parsed = new URL(url);
-    let pathname = parsed.pathname;
-    if (pathname.endsWith('/') && pathname !== '/') {
-      pathname = pathname.slice(0, -1);
-    }
-
-    if (pathname === '/') {
-      return path.join('app', 'page.tsx');
-    }
-
-    const relative = pathname.replace(/^\/+/, '');
-    return path.join('app', relative, 'page.tsx');
-  } catch {
-    return null;
-  }
-};
 
 const matchesPattern = (pattern, value) => {
   const escaped = pattern.replace(/[.+^${}()|[\]\\]/g, '\\$&');
@@ -120,29 +30,8 @@ const matchesPattern = (pattern, value) => {
 const isExcluded = (pathname, excludePatterns = []) =>
   excludePatterns.some((pattern) => matchesPattern(pattern, pathname));
 
-const groupForPath = (pathname) => {
-  if (pathname.startsWith('/blog/')) return 'blog';
-  if (pathname.startsWith('/areas/')) return 'areas';
-  if (pathname.startsWith('/loan-programs/')) return 'loan-programs';
-  if (pathname.startsWith('/guides/')) return 'guides';
-  if (pathname.startsWith('/resources/')) return 'resources';
-  if (pathname.startsWith('/zip-codes/')) return 'zip-codes';
-  if (pathname.startsWith('/neighborhood-guide/')) return 'neighborhood-guide';
-  if (pathname.startsWith('/calculator') || pathname.startsWith('/tools/')) return 'tools';
-  return 'other';
-};
-
-const escapeCsv = (value) => {
-  if (value === null || value === undefined) return '';
-  const stringValue = String(value);
-  if (/[",\n]/.test(stringValue)) {
-    return `"${stringValue.replace(/"/g, '""')}"`;
-  }
-  return stringValue;
-};
-
 const run = async () => {
-  const reportPath = process.env.GSC_REPORT_PATH || (await getLatestReport());
+  const reportPath = process.env.GSC_REPORT_PATH || (await getLatestReport('gsc-performance-'));
   if (!reportPath) {
     console.error('No GSC report found. Run npm run gsc:export first.');
     process.exit(1);

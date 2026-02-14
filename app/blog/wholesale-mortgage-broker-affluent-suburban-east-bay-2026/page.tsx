@@ -29,6 +29,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
+      'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
+    },
   },
 };
 

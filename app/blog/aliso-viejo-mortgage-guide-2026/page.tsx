@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   description: 'Aliso Viejo mortgage broker with wholesale rates for this master-planned South County community. Expert home loan guidance. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026',
+      'x-default': 'https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026',
+    },
   },
 };
 
@@ -129,7 +133,7 @@ export default function AlisoViejoMortgageGuidePage() {
                     Larger single-family homes in Aliso Viejo may require jumbo financing:
                 </p>
                 <ul>
-                    <li>Loan amounts exceeding $806,500</li>
+                    <li>Loan amounts exceeding $1,249,125</li>
                     <li>Competitive wholesale jumbo pricing</li>
                     <li>Down payments typically 10-20%</li>
                     <li>Available for premium neighborhood properties</li>

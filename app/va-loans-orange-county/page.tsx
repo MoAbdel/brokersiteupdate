@@ -4,47 +4,34 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, Users, CheckCircle, Home, Calculator, FileText, Award } from 'lucide-react';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'VA Loans | Mo Abdel - Orange County Mortgage Broker',
-  description: 'VA loans in Orange County with zero down payment for veterans. Competitive rates, no PMI required. Licensed broker NMLS #1426884.',
+  title: 'Orange County VA Loans | Zero Down for Eligible Veterans',
+  description: 'Eligible veterans and active-duty buyers can purchase in Orange County with zero down and no PMI. Compare VA options with Mo Abdel (NMLS #1426884).',
   alternates: {
     canonical: 'https://www.mothebroker.com/va-loans-orange-county',
+    languages: {
+      'en-US': 'https://www.mothebroker.com/va-loans-orange-county',
+      'x-default': 'https://www.mothebroker.com/va-loans-orange-county',
+    },
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Mo Abdel - VA Loan Specialist",
-  "description": "Specialized VA loan services for veterans in Orange County, California. Zero down payment, no PMI, Competitive pricing.",
-  "serviceType": "VA Loans and Veterans Home Financing",
-  "provider": {
-    "@type": "Person",
-    "name": "Mo Abdel",
-    "jobTitle": "Licensed Mortgage Broker",
-    "telephone": "(949) 822-9662",
-    "email": "mo.abdel@luminlending.com"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Orange County, California"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Orange County",
-    "addressRegion": "CA",
-    "addressCountry": "US"
-  },
-  "telephone": "(949) 822-9662",
-  "url": "https://www.mothebroker.com/va-loans-orange-county",
-  "sameAs": [
-    "https://www.facebook.com/mothebroker",
-    "https://www.linkedin.com/in/mo-abdel-mortgage"
-  ],
-  "openingHours": "Mo-Fr 09:00-18:00",
-  "priceRange": "Competitive VA loan rates"
-};
+const jsonLd = buildBrokerEntityGraph({
+  pageUrl: 'https://www.mothebroker.com/va-loans-orange-county',
+  serviceType: 'VA Loan and Veterans Home Financing Services',
+  serviceName: 'Orange County VA Loans',
+  serviceDescription: 'Specialized VA loan services for veterans and active-duty buyers in Orange County, CA',
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: 'https://www.mothebroker.com/va-loans-orange-county',
+  title: 'Orange County VA Loans | Zero Down for Eligible Veterans',
+  description:
+    'Eligible veterans and active-duty buyers can purchase in Orange County with zero down and no PMI. Compare VA options with Mo Abdel (NMLS #1426884).',
+  breadcrumbName: 'VA Loans',
+});
 
 export default function VALoansOrangeCountyPage() {
   return (
@@ -52,6 +39,10 @@ export default function VALoansOrangeCountyPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -62,7 +53,7 @@ export default function VALoansOrangeCountyPage() {
               🇺🇸 Honoring Our Veterans
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              VA Loans Orange County 2025 – <span className="text-blue-600">Zero Down Veterans Home Financing</span>
+              VA Loans Orange County 2026 – <span className="text-blue-600">Zero Down Veterans Home Financing</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
               Thank you for your service. Now let Mo Abdel serve you with zero down payment VA loans 
@@ -82,14 +73,14 @@ export default function VALoansOrangeCountyPage() {
             </div>
           </div>
 
-          {/* 2025 VA Loan Limits */}
+          {/* 2026 VA Loan Limits */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">2025 VA Loan Limits Orange County</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">2026 VA Loan Limits Orange County</h2>
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
-                  <div className="text-slate-600">2025 Conforming Loan Limit</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,249,125</div>
+                  <div className="text-slate-600">2026 Conforming Loan Limit</div>
                   <div className="text-sm text-slate-500 mt-1">Standard VA loan amount</div>
                 </div>
                 <div className="text-center">
@@ -99,15 +90,15 @@ export default function VALoansOrangeCountyPage() {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600 mb-2">No Limit</div>
-                  <div className="text-slate-600">Above $1,209,750*</div>
+                  <div className="text-slate-600">Above $1,249,125*</div>
                   <div className="text-sm text-slate-500 mt-1">*25% down on excess amount</div>
                 </div>
               </div>
               <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="font-bold text-slate-900 mb-3">Orange County VA Loan Benefits 2025:</h3>
+                <h3 className="font-bold text-slate-900 mb-3">Orange County VA Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
-                  <li>• VA loans can exceed $1,209,750 with 25% down on the excess amount</li>
-                  <li>• Full entitlement allows up to $1,209,750 with zero down payment</li>
+                  <li>• VA loans can exceed $1,249,125 with 25% down on the excess amount</li>
+                  <li>• Full entitlement allows up to $1,249,125 with zero down payment</li>
                   <li>• No mortgage insurance (PMI) required regardless of loan amount</li>
                   <li>• Competitive loan pricing, typically lower than conventional loans</li>
                   <li>• No prepayment penalties - pay off your loan early without fees</li>
@@ -128,7 +119,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Purchase homes up to $1,209,750 in Orange County with $0 down payment, 
+                    Purchase homes up to $1,249,125 in Orange County with $0 down payment, 
                     making homeownership immediately accessible without years of saving.
                   </p>
                 </CardContent>
@@ -244,7 +235,7 @@ export default function VALoansOrangeCountyPage() {
               <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Max VA Loan Amount:</span>
-                  <span className="font-bold text-blue-600">$1,209,750</span>
+                  <span className="font-bold text-blue-600">$1,249,125</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Down Payment:</span>
@@ -271,7 +262,7 @@ export default function VALoansOrangeCountyPage() {
 
           {/* VA vs FHA vs Conventional Comparison */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-8">VA vs FHA vs Conventional Loans Orange County 2025</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">VA vs FHA vs Conventional Loans Orange County 2026</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
                 <thead className="bg-blue-600 text-white">
@@ -284,10 +275,10 @@ export default function VALoansOrangeCountyPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold">Orange County 2025 Limit</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-bold">$1,209,750</td>
+                    <td className="px-6 py-4 font-semibold">Orange County 2026 Limit</td>
+                    <td className="px-6 py-4 text-center text-green-600 font-bold">$1,249,125</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
-                    <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,209,750</td>
+                    <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,249,125</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Minimum Down Payment</td>
@@ -360,7 +351,7 @@ export default function VALoansOrangeCountyPage() {
                   <CardTitle>Find Your Orange County Home</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600">Shop for homes up to $1,209,750 with confidence knowing your financing is secure</p>
+                  <p className="text-slate-600">Shop for homes up to $1,249,125 with confidence knowing your financing is secure</p>
                 </CardContent>
               </Card>
 
@@ -389,7 +380,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Buy your primary residence in Orange County with zero down payment up to $1,209,750. 
+                    Buy your primary residence in Orange County with zero down payment up to $1,249,125. 
                     Perfect for first-time homebuyers and military families.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
@@ -486,7 +477,7 @@ export default function VALoansOrangeCountyPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600 text-sm text-center">
-                      Financing above $1,209,750 for luxury Orange County homes
+                      Financing above $1,249,125 for luxury Orange County homes
                     </p>
                   </CardContent>
                 </Card>
@@ -506,7 +497,7 @@ export default function VALoansOrangeCountyPage() {
                 </Card>
               </Link>
 
-              <Link href="/refinance-loans" className="group">
+              <Link href="/rate-term-refinance-orange-county" className="group">
                 <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                   <CardHeader className="text-center">
                     <Calculator className="w-8 h-8 text-orange-600 mx-auto mb-2" />
@@ -560,7 +551,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    Absolutely! With the 2025 limit of $1,209,750, most Orange County homes 
+                    Absolutely! With the 2026 limit of $1,249,125, most Orange County homes 
                     qualify for zero down VA financing. For homes above this amount, you'd put 25% 
                     down only on the excess amount, still saving significantly on the total down payment.
                   </p>
@@ -595,7 +586,7 @@ export default function VALoansOrangeCountyPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">What are the VA funding fees for 2025?</CardTitle>
+                  <CardTitle className="text-lg">What are the VA funding fees for 2026?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
