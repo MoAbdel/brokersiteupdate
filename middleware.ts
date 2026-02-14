@@ -6,42 +6,6 @@ const LOW_EQUITY_BLOG_PATTERNS: RegExp[] = [
   /^\/blog\/wholesale-mortgage-\d{5}-[a-z0-9-]+$/i,
 ];
 
-const STRATEGIC_BLOG_ALLOWLIST = new Set([
-  '/blog/home-equity-california-guide-2026',
-  '/blog/home-equity-washington-guide-2026',
-  '/blog/strategic-refinancing-home-equity-2026',
-  '/blog/heloan-vs-cash-out-refinance-2026',
-  '/blog/heloc-vs-cash-out-refinance-2026',
-  '/blog/home-equity-loan-fixed-rate-2026',
-  '/blog/home-equity-for-renovations-2026',
-  '/blog/home-equity-refinancing-guide-2026',
-  '/blog/what-can-you-use-home-equity-for-2026',
-  '/blog/hecm-vs-heloc-seniors-2026',
-  '/blog/hecm-for-purchase-2026',
-  '/blog/proprietary-reverse-mortgage-2026',
-  '/blog/reverse-mortgage-complete-guide-2026',
-  '/blog/reverse-mortgage-california-guide-2026',
-  '/blog/reverse-mortgage-washington-guide-2026',
-  '/blog/what-is-reverse-mortgage-complete-guide-2026',
-  '/blog/reverse-mortgage-requirements-complete-2026',
-  '/blog/reverse-mortgage-payout-options-2026',
-  '/blog/reverse-mortgage-myths-debunked-2026',
-  '/blog/reverse-mortgage-inheritance-heirs-2026',
-  '/blog/wholesale-vs-retail-mortgage-brokers-2026',
-  '/blog/wholesale-vs-retail-mortgage-complete-2026',
-  '/blog/wholesale-mortgage-broker-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-california-2026',
-  '/blog/wholesale-mortgage-broker-washington-2026',
-  '/blog/wholesale-mortgage-broker-california-guide-2026',
-  '/blog/wholesale-mortgage-broker-california-pillar-2026',
-  '/blog/wholesale-mortgage-broker-north-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-central-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-south-orange-county-2026',
-]);
-
-const PROGRAMMATIC_FAMILY_PATTERN =
-  /^\/blog\/(?:reverse-mortgage|home-equity|wholesale-mortgage-broker)-[a-z0-9-]+-2026$/i;
-
 const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
   /^\/areas\/[a-z0-9-]+-mortgage-rates$/i,
   /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
@@ -49,10 +13,6 @@ const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
 
 function shouldNoindexPath(pathname: string): boolean {
   if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return true;
-  }
-
-  if (PROGRAMMATIC_FAMILY_PATTERN.test(pathname) && !STRATEGIC_BLOG_ALLOWLIST.has(pathname)) {
     return true;
   }
 
