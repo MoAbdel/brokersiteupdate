@@ -176,7 +176,6 @@ export default function HomEquitySouthSoundAffluentPage() {
         '@id': 'https://mothebroker.com/#organization',
         name: 'Lumin Lending',
         image: 'https://mothebroker.com/logo.png',
-        '@id': 'https://mothebroker.com',
         url: 'https://mothebroker.com',
         telephone: '+1-949-822-9662',
         email: 'mo@mothebroker.com',
