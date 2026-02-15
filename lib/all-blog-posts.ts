@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 8: 3 DSCR Clusters + 1 Wholesale Hub + 1 HECM Hub + 5 Equity Hubs (Feb 15, 2026) =====
+  {
+    slug: 'dscr-loans-explained-investors-2026',
+    title: 'DSCR Loans Explained: How Real Estate Investors Qualify Without W-2s [2026]',
+    excerpt: 'Complete guide to DSCR loans for real estate investors. Learn how to qualify based on rental income without W-2s, tax returns, or employment verification. Wholesale broker advantage explained.',
+    date: '2026-02-15',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loan-requirements-2026',
+    title: 'DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide',
+    excerpt: 'DSCR loan requirements for 2026: minimum ratios, credit scores, down payments, reserves, and eligible property types. Complete qualification guide for real estate investors.',
+    date: '2026-02-15',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-vs-conventional-investment-property-2026',
+    title: 'DSCR vs Conventional Loans for Investment Properties: Complete Comparison [2026]',
+    excerpt: 'DSCR vs conventional investment property loans: side-by-side comparison of qualification, rates, limits, and flexibility. Which program fits your investment strategy?',
+    date: '2026-02-15',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-tech-corridor-eastside-wa-2026',
+    title: 'Wholesale Mortgage Broker in Kirkland, Redmond & Tech Corridor Eastside, WA [2026]',
+    excerpt: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell. 200+ lenders for tech workers: jumbo, bank statement, DSCR. NMLS #1426884.',
+    date: '2026-02-15',
+    category: 'Wholesale',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-south-sound-affluent-wa-2026',
+    title: 'Reverse Mortgage in South Sound, WA: Gig Harbor, Maple Valley & More [2026]',
+    excerpt: 'Reverse mortgage guide for South Sound seniors 62+. HECM options in Gig Harbor, Maple Valley, University Place, Bonney Lake & Steilacoom. Local home values and eligibility.',
+    date: '2026-02-15',
+    category: 'Reverse Mortgage',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-ventura-affluent-ca-2026',
+    title: 'Home Equity in Ventura County: HELOC, Cash-Out & HELOAN in Westlake Village, Thousand Oaks & More [2026]',
+    excerpt: 'Ventura County home equity guide 2026: HELOC, HELOAN & cash-out refinance for Westlake Village, Thousand Oaks, Oak Park, Camarillo & Moorpark. Access $200K-$700K+ in tappable equity.',
+    date: '2026-02-15',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-ultra-luxury-eastside-wa-2026',
+    title: 'Home Equity in Ultra-Luxury Eastside, WA: HELOC & Cash-Out for Medina, Hunts Point & More [2026]',
+    excerpt: 'Ultra-luxury Eastside WA home equity guide: jumbo HELOC, cash-out refinance for Medina, Hunts Point, Clyde Hill, Yarrow Point & Beaux Arts Village. $2M-$5M+ equity access.',
+    date: '2026-02-15',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-premium-eastside-wa-2026',
+    title: 'Home Equity in Premium Eastside, WA: HELOC & Cash-Out for Bellevue, Mercer Island & More [2026]',
+    excerpt: 'Premium Eastside WA home equity guide: HELOC, HELOAN & cash-out refinance for Bellevue, Mercer Island, Sammamish & Newcastle. Tech executive equity strategies.',
+    date: '2026-02-15',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-tech-corridor-eastside-wa-2026',
+    title: 'Home Equity in Tech Corridor Eastside, WA: HELOC & Cash-Out for Kirkland, Redmond & More [2026]',
+    excerpt: 'Tech Corridor Eastside WA home equity guide: HELOC, HELOAN & cash-out refinance for Kirkland, Redmond, Woodinville, Issaquah & Bothell. $1M-$1.4M equity strategies.',
+    date: '2026-02-15',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'home-equity-north-sound-islands-wa-2026',
+    title: 'Home Equity in North Sound & Islands, WA: HELOC & Cash-Out for Bellingham, San Juan Island & More [2026]',
+    excerpt: 'North Sound & Islands WA home equity guide: HELOC, HELOAN & cash-out refinance for Bellingham, Anacortes, San Juan Island, Friday Harbor, Mukilteo & Edmonds.',
+    date: '2026-02-15',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
   // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
   {
     slug: 'home-equity-ca-pv-a-2026',

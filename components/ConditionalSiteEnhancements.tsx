@@ -4,7 +4,6 @@ import { useMemo } from 'react';
 import { usePathname } from 'next/navigation';
 import GEOTracking from '@/components/GEOTracking';
 import ChatbotHardReset from '@/components/ChatbotHardReset';
-import ExitIntentModal from '@/components/ExitIntentModal';
 
 const ENABLED_PREFIXES = [
   '/contact',
@@ -36,7 +35,6 @@ export default function ConditionalSiteEnhancements() {
     <>
       <GEOTracking />
       <ChatbotHardReset />
-      <ExitIntentModal />
     </>
   );
 }

@@ -7,6 +7,8 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 import FacebookPixel from '@/components/FacebookPixel';
 import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 import MobileStickyCallButton from '@/components/MobileStickyCallButton';
+import SupportBubble from '@/components/SupportBubble';
+import ExitIntentModal from '@/components/ExitIntentModal';
 import ConditionalSiteEnhancements from '@/components/ConditionalSiteEnhancements';
 import { structuredData, mortgageLoanSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
@@ -132,6 +134,8 @@ export default function RootLayout({
         <GoogleAnalytics />
         <FacebookPixel />
         <ConditionalSiteEnhancements />
+        <ExitIntentModal />
+        <SupportBubble />
         <MobileStickyCallButton />
         <Analytics />
 
