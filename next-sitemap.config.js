@@ -192,7 +192,14 @@ module.exports = {
     '/blog/wholesale-mortgage-broker-92603',
     '/blog/wholesale-vs-retail-mortgage',
     '/articles',
-    '/articles/*'
+    '/articles/*',
+    // GSC 404 remediation – these routes 301-redirect, not 200
+    '/orange-county-fha-loans',
+    '/orange-county-jumbo-loans',
+    '/orange-county-conventional-loans',
+    '/purchase-loans',
+    '/quiz',
+    '/admin',
   ],
   robotsTxtOptions: {
     policies: [

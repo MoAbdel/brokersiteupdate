@@ -604,8 +604,23 @@
       "permanent": true
     },
     {
-      "source": "/areas/irvine-neighborhoods/northwood-mortgage-broker",
-      "destination": "/areas/irvine-neighborhoods",
+      "source": "/blog/newport-coast-mortgage-lender-2026-guide",
+      "destination": "/blog/newport-coast-mortgage-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/san-clemente-mortgage-lender-2026-guide",
+      "destination": "/blog/san-clemente-mortgage-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/guides/dana-point-mortgage-guide-2025",
+      "destination": "/blog/dana-point-mortgage-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:city-mortgage-lender-2026-guide",
+      "destination": "/blog/:city-mortgage-guide-2026",
       "permanent": true
     },
     {
