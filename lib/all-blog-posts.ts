@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 9: 3 DSCR Clusters + 2 Wholesale Clusters + 3 HECM Clusters + 2 Equity Clusters (Feb 16, 2026) =====
+  {
+    slug: 'dscr-loans-short-term-rentals-airbnb-2026',
+    title: 'DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing Guide [2026]',
+    excerpt: 'DSCR loans for Airbnb and VRBO investors: How short-term rental income qualifies for investment property financing. AirDNA projections, STR lender requirements, and wholesale broker advantage.',
+    date: '2026-02-16',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loan-calculator-ratio-2026',
+    title: 'DSCR Loan Calculator: How to Calculate Your Debt Service Coverage Ratio [2026]',
+    excerpt: 'Step-by-step DSCR calculator guide: Learn exactly how to calculate your debt service coverage ratio with worked examples at multiple price points. Free DSCR analysis available.',
+    date: '2026-02-16',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loans-portfolio-investors-scaling-2026',
+    title: 'DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026]',
+    excerpt: 'How portfolio investors use DSCR loans to scale beyond 10 properties. Entity structuring, 1031 exchanges, blanket loans, and wholesale rate advantages for serious investors.',
+    date: '2026-02-16',
+    category: 'DSCR',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-lender-network-2026',
+    title: 'The 200+ Lender Advantage: How Wholesale Mortgage Broker Networks Work [2026]',
+    excerpt: 'How wholesale mortgage broker networks work: 200+ lender access, rate shopping mechanics, lender specialization, and why brokers consistently beat retail bank pricing.',
+    date: '2026-02-16',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'fix-and-flip-loans-wholesale-broker-2026',
+    title: 'Fix and Flip Loans: How Wholesale Brokers Get Better Rates for House Flippers [2026]',
+    excerpt: 'Fix-and-flip loan guide: Hard money vs wholesale programs, ARV-based lending, draw schedules, BRRRR strategy, and exit strategies for California and Washington flippers.',
+    date: '2026-02-16',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-alternatives-2026',
+    title: 'Reverse Mortgage Alternatives: 8 Options for Seniors Who Want to Stay Home [2026]',
+    excerpt: '8 reverse mortgage alternatives for seniors 62+: HELOC, HELOAN, cash-out refinance, property tax deferral, Prop 19, downsizing, ADU income, and more. Compare all options.',
+    date: '2026-02-16',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-vs-downsizing-seniors-2026',
+    title: 'Reverse Mortgage vs Downsizing: Which Is Right for California & Washington Seniors? [2026]',
+    excerpt: 'Reverse mortgage vs downsizing: Financial analysis, Prop 19 implications, lifestyle factors, and break-even scenarios for California and Washington seniors making the stay-or-sell decision.',
+    date: '2026-02-16',
+    category: 'Reverse Mortgage',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'reverse-mortgage-aging-in-place-california-2026',
+    title: 'Reverse Mortgage for Aging in Place: How California Seniors Fund Home Modifications [2026]',
+    excerpt: 'How California seniors use reverse mortgage (HECM) proceeds to fund aging-in-place modifications: wheelchair ramps, walk-in tubs, smart home tech, and ADU caregiver suites.',
+    date: '2026-02-16',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'adu-financing-home-equity-california-2026',
+    title: 'ADU Financing with Home Equity: HELOC, Cash-Out & DSCR Options in California [2026]',
+    excerpt: 'California ADU financing guide: Use HELOC, cash-out refinance, or DSCR loans to build an ADU. Costs by region, ROI analysis, AB 1033/SB 9 regulations, and the Equity-to-Debt Arbitrage Strategy.',
+    date: '2026-02-16',
+    category: 'Home Equity',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'home-equity-investment-property-down-payment-2026',
+    title: 'Using Home Equity for Investment Property Down Payment: HELOC, Cash-Out & Bridge Strategies [2026]',
+    excerpt: 'How to use home equity for investment property down payments: HELOC, cash-out refinance, bridge loans, and the HELOC + DSCR combo strategy for California and Washington investors.',
+    date: '2026-02-16',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
   // ===== BATCH 8: 3 DSCR Clusters + 1 Wholesale Hub + 1 HECM Hub + 5 Equity Hubs (Feb 15, 2026) =====
   {
     slug: 'dscr-loans-explained-investors-2026',

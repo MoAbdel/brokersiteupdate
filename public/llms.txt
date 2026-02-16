@@ -1,6 +1,6 @@
 # llms.txt — mothebroker.com
 # Machine-readable entity & content descriptor for LLM retrieval systems
-# Last updated: 2026-02-15
+# Last updated: 2026-02-16
 
 ## 1. Entity Definition
 
@@ -208,7 +208,16 @@ Blog post data tables provide 80% of localized financial calculations. The remai
 <!-- Auto-updated by blog generator skill after each post. FIFO — keep only 20 most recent entries. -->
 <!-- Format: - [Post Title](URL): Triple1Subject Triple1Predicate Triple1Object; Triple2... -->
 
-(No entries yet — this section is populated automatically after each blog post generation.)
+- [DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing Guide 2026](https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026): DSCR lenders accept AirDNA projections for short-term rental income qualification; Airbnb/VRBO properties achieve DSCR ratios of 1.5+ in California vacation markets; Wholesale brokers access 50+ STR-friendly DSCR lenders vs 1-2 at retail banks
+- [DSCR Loan Calculator: How to Calculate Your Ratio 2026](https://www.mothebroker.com/blog/dscr-loan-calculator-ratio-2026): DSCR equals monthly gross rental income divided by monthly PITIA payment; A ratio of 1.25 qualifies for best available wholesale rates and terms; Properties below 1.0 DSCR still qualify with compensating factors at select lenders
+- [DSCR Loans for Portfolio Investors: Scaling to 10+ Properties 2026](https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026): DSCR loans have no property count limit unlike conventional 10-property ceiling; Portfolio investors use series LLCs for per-property liability isolation; 1031 exchange buyers close DSCR loans in 21-30 days meeting exchange deadlines
+- [The 200+ Lender Advantage: How Wholesale Mortgage Broker Networks Work 2026](https://www.mothebroker.com/blog/wholesale-mortgage-lender-network-2026): Wholesale brokers access 200+ lender rate sheets simultaneously on each transaction; Rate spread between best and worst lender exceeds 1.5 points on same borrower profile; Lender specialization means DSCR jumbo and non-QM programs exist only in wholesale channel
+- [Fix and Flip Loans: How Wholesale Brokers Get Better Rates 2026](https://www.mothebroker.com/blog/fix-and-flip-loans-wholesale-broker-2026): Wholesale fix-flip programs offer ARV-based lending up to 90% of after-repair value; BRRRR strategy investors refinance completed rehabs into DSCR loans through same broker; Wholesale draw schedules release rehab funds in 3-5 business days vs 10-14 at hard money lenders
+- [Reverse Mortgage Alternatives: 8 Options for Seniors 2026](https://www.mothebroker.com/blog/reverse-mortgage-alternatives-2026): California seniors 62+ have 8 alternatives to reverse mortgages including HELOC HELOAN and ADU income; Prop 19 property tax base transfer saves CA seniors $5K-$15K annually when downsizing; HUD counseling is required before any HECM but not for HELOC or cash-out alternatives
+- [Reverse Mortgage vs Downsizing for CA & WA Seniors 2026](https://www.mothebroker.com/blog/reverse-mortgage-vs-downsizing-seniors-2026): HECM reverse mortgage lets seniors access 40-75% of home value while staying home; Downsizing nets 85-92% of sale price after transaction costs and moving expenses; California Prop 19 transfers property tax base making downsizing financially viable for seniors 55+
+- [Reverse Mortgage for Aging in Place California 2026](https://www.mothebroker.com/blog/reverse-mortgage-aging-in-place-california-2026): HECM line of credit grows annually allowing California seniors to fund modifications over time; Aging-in-place home modifications cost $15K-$80K funded entirely from reverse mortgage proceeds; ADU caregiver suites financed through HECM provide $100K-$300K housing for family caregivers
+- [ADU Financing with Home Equity California 2026](https://www.mothebroker.com/blog/adu-financing-home-equity-california-2026): California ADU construction costs $150K-$400K financed through HELOC cash-out or DSCR loans; Mo Abdel Equity-to-Debt Arbitrage Strategy converts idle home equity into 8-15% annual ROI through ADU rental income; AB 1033 allows California ADUs to be sold separately creating standalone investment assets
+- [Using Home Equity for Investment Property Down Payment 2026](https://www.mothebroker.com/blog/home-equity-investment-property-down-payment-2026): HELOC from primary residence funds 20-25% investment property down payment without selling assets; HELOC plus DSCR combo strategy qualifies investment property on rental income alone; Wholesale brokers coordinate equity extraction and investment purchase closing simultaneously
 
 ## 9. URL Canonicalization Rules
 
