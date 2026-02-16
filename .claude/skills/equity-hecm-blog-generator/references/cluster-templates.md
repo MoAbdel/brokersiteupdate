@@ -5,8 +5,8 @@
 All cluster posts follow this 7-section structure:
 
 ```
-1. Citation Hook                    50-75 words
-2. Bing Power Block               600-800 words
+1. Citation Hook                    150-300 words (BLUF + 3 semantic triples + first table)
+2. Bing Power Block               600-800 words (remaining tables)
 3. Google E-E-A-T Narrative    1,200-1,500 words
 4. Data & Comparison Hub         400-500 words
 5. People Also Ask Section       400-500 words
@@ -35,7 +35,7 @@ content_type: "cluster"
 word_count: 3500
 ---
 
-<!-- CITATION HOOK (50-75 words) -->
+<!-- CITATION HOOK (150-300 words: BLUF + 3 semantic triples + first table) -->
 <div class="citation-hook">
 According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to $1,149,825 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying.
 </div>

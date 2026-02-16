@@ -5,9 +5,12 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { TrendingUp, DollarSign, Calendar, Shield, CheckCircle, AlertCircle } from 'lucide-react';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
+import AISummary from '@/components/seo/AISummary';
+import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
-  title: 'HELOC | Mo Abdel - Orange County Mortgage Broker',
+  title: 'HELOC Orange County [2026 Draw-Period Strategy & Wholesale Rate Access]',
   description: 'Home equity lines of credit in Orange County. Access your home equity with flexible draw periods. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/heloc',
@@ -27,7 +30,7 @@ const pageSchema = buildBrokerEntityGraph({
 
 const webPageSchema = buildServiceWebPageSchema({
   pageUrl: 'https://www.mothebroker.com/loan-programs/heloc',
-  title: 'HELOC | Mo Abdel - Orange County Mortgage Broker',
+  title: 'HELOC Orange County [2026 Draw-Period Strategy & Wholesale Rate Access]',
   description:
     'Home equity lines of credit in Orange County. Access your home equity with flexible draw periods. Licensed broker NMLS #1426884.',
   breadcrumbName: 'HELOC',
@@ -44,7 +47,39 @@ export default function HELOCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
+      <FinancialProductSchema
+        name="Home Equity Line of Credit (HELOC)"
+        url="https://www.mothebroker.com/loan-programs/heloc"
+        description="HELOC in California and Washington with up to 90% CLTV, interest-only draw periods of 5-10 years, and competitive variable rates from 200+ wholesale lenders."
+        loanType="Home Equity Line of Credit"
+        maxLTV="90%"
+        minCreditScore={680}
+        loanTerms={['10-year draw period', '20-year repayment period']}
+        interestRateType="Variable"
+        propertyTypes={['Primary Residence', 'Second Home', 'Investment Property']}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'A HELOC',
+              predicate: 'provides a revolving credit line secured by home equity with',
+              object: 'interest-only payments during a 5-10 year draw period',
+            },
+            {
+              subject: 'HELOC borrowers',
+              predicate: 'pay interest only on amounts drawn, not the full credit limit, requiring a minimum',
+              object: '680 credit score and up to 90% combined loan-to-value',
+            },
+            {
+              subject: 'Wholesale HELOC rates through Mo Abdel',
+              predicate: 'are sourced from',
+              object: '200+ lenders, giving borrowers access to pricing below retail bank posted rates',
+            },
+          ]}
+        />
 
         {/* Header */}
         <div className="text-center mb-12">
@@ -335,6 +370,26 @@ export default function HELOCPage() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* HELOC Draw vs Repayment Comparison */}
+        <div className="mb-16">
+          <SemanticTable
+            id="heloc-draw-vs-repayment"
+            caption="HELOC Draw Period vs Repayment Period Comparison"
+            headers={['Feature', 'Draw Period (Years 1-10)', 'Repayment Period (Years 11-30)']}
+            rows={[
+              ['Payment Type', 'Interest-only', 'Principal + Interest'],
+              ['Can Borrow More?', 'Yes, up to credit limit', 'No, balance only decreases'],
+              ['Rate Type', 'Variable (Prime + margin)', 'Variable (Prime + margin)'],
+              ['Typical Monthly on $200K', '~$1,500/mo (interest only)', '~$1,800-2,200/mo (P&I)'],
+              ['Can Pay Principal?', 'Optional, reduces balance', 'Required each month'],
+              ['Reusable Credit', 'Yes, revolving line', 'No, closed-end amortization'],
+            ]}
+            highlightRow={3}
+            source="Industry standard HELOC terms, 2026"
+            footnote="Payments based on 9% variable rate. Actual rates depend on Prime Rate and lender margin."
+          />
         </div>
 
         {/* CTA Section */}

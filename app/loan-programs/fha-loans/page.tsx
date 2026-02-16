@@ -4,10 +4,13 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import TopicClusterLinks from '@/components/seo/TopicClusterLinks';
+import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
+import AISummary from '@/components/seo/AISummary';
+import SemanticTable from '@/components/seo/SemanticTable';
 import { Home, Shield, Users, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'FHA Loans Orange County | 3.5% Down Payment | Mo The Mortgage Broker NMLS #1426884',
+  title: 'FHA Loans Orange County [2026 Limits, 3.5% Down & Wholesale MIP Savings]',
   description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
@@ -21,7 +24,42 @@ export const metadata: Metadata = {
 export default function FHALoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <FinancialProductSchema
+        name="FHA Loan"
+        url="https://www.mothebroker.com/loan-programs/fha-loans"
+        description="FHA loans in California and Washington with 3.5% down payment, credit scores from 500, and 2026 loan limits up to $1,266,300 in high-cost counties. Government-backed through HUD/FHA."
+        loanType="FHA Government-Insured Mortgage"
+        minDownPayment="3.5%"
+        maxLTV="96.5%"
+        minCreditScore={500}
+        loanTerms={['15-year fixed', '30-year fixed']}
+        conformingLimit="$1,266,300"
+        interestRateType="Fixed or Variable"
+        eligibility="U.S. citizens and permanent residents; primary residence only"
+        propertyTypes={['Primary Residence', 'Condo (FHA-approved)', 'Manufactured Home', '1-4 Unit Property']}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'FHA loans',
+              predicate: 'require only',
+              object: '3.5% down payment with a 580+ credit score (10% down for 500-579)',
+            },
+            {
+              subject: 'The 2026 FHA loan limit in Orange County',
+              predicate: 'is',
+              object: '$1,266,300 for single-family homes, matching the conforming limit',
+            },
+            {
+              subject: 'FHA mortgage insurance premium (MIP)',
+              predicate: 'includes',
+              object: '1.75% upfront fee plus 0.55% annual premium for loans over 95% LTV',
+            },
+          ]}
+        />
 
         {/* Header */}
         <div className="text-center mb-12">
@@ -373,6 +411,24 @@ export default function FHALoansPage() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* FHA MIP Rates Table */}
+        <div className="mb-16">
+          <SemanticTable
+            id="fha-mip-rates-2026"
+            caption="2026 FHA Mortgage Insurance Premium (MIP) Rates"
+            headers={['Loan Term', 'LTV Range', 'Upfront MIP', 'Annual MIP', 'MIP Duration']}
+            rows={[
+              ['> 15 years', '> 95%', '1.75%', '0.55%', 'Life of loan'],
+              ['> 15 years', '<= 95%', '1.75%', '0.50%', '11 years'],
+              ['<= 15 years', '> 90%', '1.75%', '0.40%', 'Life of loan'],
+              ['<= 15 years', '<= 90%', '1.75%', '0.15%', '11 years'],
+            ]}
+            highlightRow={0}
+            source="HUD Mortgagee Letter 2023-05 (current through 2026)"
+            footnote="Upfront MIP can be financed into the loan amount. Annual MIP is divided by 12 and added to monthly payment."
+          />
         </div>
 
         {/* CTA Section */}

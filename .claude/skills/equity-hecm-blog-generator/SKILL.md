@@ -197,6 +197,7 @@ npm run seo:preflight-batch             # Hard cannibalization filter → approv
 7. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
 8. Generate/update content
 9. After EACH post: MANDATORY add entry to lib/all-blog-posts.ts (see Post-Generation Registry below)
+9b. After EACH post: MANDATORY update public/llms.txt Recent Content section (see llms.txt Auto-Update below)
 10. After each item: mark ✅ in regional-hub-map.md AND mark ✅ in Priority Backlog (if applicable)
 11. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
 12. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
@@ -252,10 +253,32 @@ After writing EACH blog post's `page.tsx`, you MUST immediately add a correspond
 | Striking Distance | +25 | Related pages at positions 8-25 |
 | CTR Headroom | +10 | CTR below expected for position |
 | Business Value | +20 | Median home value of hub cities |
+| Entity Intersection | +15 | Post crosses 3+ high-value entities (see below) |
 | Overlap Risk | -15 | Target keywords already ranking on another page |
 | Recency Penalty | -5 | Similar page published <14 days ago |
 
-Weights are configurable via `OQ_W_*` env vars. 20% of slots are reserved for "exploration" — items with no GSC data, scored by business value only.
+### Entity Intersection Multiplier
+
+Posts that cross multiple high-value entities capture zero-volume conversational queries that GSC never reports (e.g., "How do my Amazon RSUs affect my DTI for a jumbo loan in Bellevue?"). These queries are the primary discovery path in RAG-based engines.
+
+**Entity categories** (each counts as 1 intersection):
+| Category | Examples |
+|----------|----------|
+| Non-QM product | DSCR, bank statement, asset depletion, P&L |
+| High-value borrower profile | RSU/tech worker, self-employed, foreign national, retired 62+ |
+| Wealthy geo target | City with median home value > $1M |
+| Proprietary framework | ADU ROI Calculator, Margin Reveal, RSU Matrix, Dual Benefit |
+| Cross-product scenario | HECM + Prop 19, HELOC + ADU, DSCR + short-term rental, cash-out + investment |
+
+**Scoring tiers:**
+| Intersections | Score Bonus |
+|---------------|-------------|
+| 0 | +0 |
+| 1-2 | +5 |
+| 3 | +10 |
+| 4+ | +15 |
+
+Weights are configurable via `OQ_W_*` env vars. 20% of slots are reserved for "exploration" — items with no GSC data, scored by business value + entity intersection.
 
 ### Batch Composition
 
@@ -339,7 +362,11 @@ Multi-city geo-targeted posts grouping 5-10 cities. See `references/regional-hub
 |---------|-------|----------|--------|
 | Hub Post | 4,500-5,500 | `references/geo-templates.md` | 4-5 full + 5-10 inline |
 
-Composition: 50% structured (tables, lists, schema) / 50% prose
+Composition: Content-type-specific ratio (see seo-aio-aeo-geo-guidelines.md § Structured vs Prose Ratios)
+  - Hub posts: 70% structured / 30% prose
+  - Regional pillars: 60% structured / 40% prose
+  - State pillars: 50% structured / 50% prose
+  - Cluster posts: 60% structured / 40% prose
 
 ### Cluster Posts (39 total)
 
@@ -498,9 +525,17 @@ google_optimized: true
 ai_citation_ready: true
 ---
 
-<!-- CITATION HOOK -->
+<!-- CITATION HOOK (150-300 words: BLUF + triples + first table) -->
 <div class="citation-hook">
-[50-75 word attributed opening - "According to Mo Abdel, NMLS #1426884..."]
+[~50 word entity-attributed BLUF - "According to Mo Abdel, NMLS #1426884..."]
+
+Key facts:
+- [Subject] → [Predicate] → [Object]
+- [Subject] → [Predicate] → [Object]
+- [Subject] → [Predicate] → [Object]
+
+| [First Data Table — Region Overview or Product Comparison] |
+| (pulled up from what was previously the Bing Power Block)  |
 </div>
 
 # [H1 with exact-match keyword]
@@ -671,6 +706,7 @@ DATA POINTS: X unique points [PASS/FAIL]
 GEO DIFFERENTIATION: [Status] [PASS/FAIL if hub/geo page]
 COMPLIANCE: All items cleared [PASS/FAIL]
 GUIDES PAGE: Entry added to lib/all-blog-posts.ts [PASS/FAIL]
+LLMS.TXT: Entry added to public/llms.txt Recent Content [PASS/FAIL]
 
 STATUS: [READY FOR PUBLICATION / NEEDS REVISION]
 ```
@@ -692,12 +728,13 @@ Quality and uniqueness beat raw length. Passing differentiation and intent cover
 
 ```
 +---------------------------------------------------------+
-|  1. CITATION HOOK (50-75 words)                          |
-|     -> Direct answer, entity-attributed, AI-extractable  |
+|  1. CITATION HOOK (150-300 words)                        |
+|     -> Entity-attributed BLUF + 3 semantic triples       |
+|     -> First data table (pulled up from Bing Power Block)|
 |     -> "According to Mo Abdel, NMLS #1426884..."         |
 +---------------------------------------------------------+
 |  2. BING POWER BLOCK (600-800 words)                     |
-|     -> Exact-match H2s, comparison table, numbered list  |
+|     -> Remaining tables, numbered list, exact-match H2s  |
 |     -> Fact-dense, desktop-optimized, no fluff           |
 +---------------------------------------------------------+
 |  3. GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)        |
@@ -737,12 +774,12 @@ Hub posts follow the standard AI-First Answer Stack with an expanded Bing Power 
 
 ```
 +---------------------------------------------------------+
-|  1. CITATION HOOK (50-75 words)                          |
-|     -> Entity-attributed, regional data point            |
+|  1. CITATION HOOK (150-300 words)                        |
+|     -> Entity-attributed BLUF + 3 semantic triples       |
+|     -> Region Overview Mega-Table (pulled up here)       |
 +---------------------------------------------------------+
-|  2. BING POWER BLOCK (900-1,100 words)                   |
-|     -> Region Overview Mega-Table (all cities)           |
-|     -> Product Comparison Table                          |
+|  2. BING POWER BLOCK (700-900 words)                     |
+|     -> Product Comparison Table (+ remaining tables)     |
 |     -> Numbered qualification steps (5-7)                |
 |     -> Numbered process steps (5-7)                      |
 |     -> Keyword density 1.5-2%                            |
@@ -779,17 +816,20 @@ Schema types per hub: minimum 3 required (Article, FAQPage, BreadcrumbList), oth
 
 ### Section Specifications
 
-**1. Citation Hook (50-75 words)**
+**1. Citation Hook (150-300 words)**
 - Opens with "According to Mo Abdel, NMLS #1426884..." OR "[Topic] in [Location]: [Direct answer]..."
 - Contains exact-match primary keyword
-- Includes 1 specific data point (number, requirement, or limit)
+- Includes 1 specific data point in opening BLUF sentence
+- **3 semantic triples** as bullet list immediately after BLUF (Subject → Predicate → Object format, using proprietary/localized data)
+- **First data table** pulled up into this section (Region Overview Mega-Table for hubs, or primary comparison table for clusters)
 - Ends with decision-relevant statement
+- Total: ~50 words BLUF + ~50 words triples + ~100-200 words table = 150-300 words
 
 **2. Bing Power Block**
 - Cluster/Regional Pillar: 600-800 words with 2 H2 headings
-- Hub Post: 900-1,100 words with Region Overview Mega-Table + Product Comparison Table
+- Hub Post: 700-900 words with Product Comparison Table + remaining tables (Region Overview table now in Citation Hook)
 - Exact-match keywords in all H2s
-- 1+ comparison table (minimum 5 rows)
+- 1+ comparison table (minimum 5 rows) — additional to the table in Citation Hook
 - 1+ numbered list (5-7 steps or requirements)
 - Fact-dense paragraphs (no filler words)
 - Desktop-optimized (no collapsed content)
@@ -1008,6 +1048,33 @@ For a HECM cluster post about reverse mortgage basics:
 ### Batch Generation
 When generating multiple posts, add ALL entries at once in a single edit to `lib/all-blog-posts.ts`. Order entries by date (all same date) then alphabetically by category for consistency.
 
+---
+
+## MANDATORY: llms.txt Auto-Update (runs after registry gate)
+
+After every post is registered in `lib/all-blog-posts.ts`, you MUST also update `public/llms.txt`:
+
+### Step 1: Extract Semantic Triples
+Read the post's Citation Hook and extract its 3 semantic triples.
+
+### Step 2: Append to Recent Content Section
+Add an entry to the `## 8. Recent Content` section of `public/llms.txt`:
+
+```
+- [Post Title](https://www.mothebroker.com/blog/[slug]): [Triple1 subject] [Triple1 predicate] [Triple1 object]; [Triple2 subject] [Triple2 predicate] [Triple2 object]; [Triple3 subject] [Triple3 predicate] [Triple3 object]
+```
+
+### Step 3: FIFO Limit (20 entries max)
+If the Recent Content section already has 20 entries, remove the oldest entry (bottom of the list) before adding the new one at the top.
+
+### Example Entry
+```
+- [Reverse Mortgage Bay Area Peninsula 2026](https://www.mothebroker.com/blog/reverse-mortgage-bay-area-peninsula-2026): Bay Area seniors 62+ hold $4.2B combined equity; HECM proceeds range $450K-$680K in Atherton-Palo Alto; Wholesale broker access provides 15+ HECM lender options vs 1-2 at retail banks
+```
+
+### Why This Matters
+RAG systems (ChatGPT, Perplexity, Gemini) fetch llms.txt as a site manifest. The Recent Content section gives them a structured index of the latest posts with semantic triples already extracted — making it trivial for AI to cite specific content rather than generic competitor pages.
+
 ### Verification
 After adding entries, confirm:
 - [ ] Entry slug matches the page.tsx folder name exactly
@@ -1048,8 +1115,8 @@ See `references/compliance-rules.md` for complete requirements.
 - [ ] Regional Pillar: 4,500-6,500 words
 - [ ] Hub Post: 3,500-5,800 words
 - [ ] Cluster Post: 2,200-4,200 words
-- [ ] Citation Hook: 50-75 words
-- [ ] Bing Power Block: 600-800 words (cluster/regional) or 900-1,100 words (hub)
+- [ ] Citation Hook: 150-300 words (BLUF + 3 semantic triples + first data table)
+- [ ] Bing Power Block: 600-800 words (cluster/regional) or 700-900 words (hub; first table now in Citation Hook)
 - [ ] City-by-City Deep Dives (hub only): 1,800-2,200 words
 - [ ] E-E-A-T Narrative: 1,200-1,500 words (cluster/regional) or 600-800 words (hub)
 - [ ] Data Hub: 400-500 words
@@ -1077,7 +1144,9 @@ See `references/compliance-rules.md` for complete requirements.
 - [ ] Semantic keyword variations used
 
 ### AI Citation Gate
-- [ ] Citation Hook is standalone/extractable
+- [ ] Citation Hook is standalone/extractable (150-300 words)
+- [ ] 3 semantic triples in Citation Hook (Subject → Predicate → Object)
+- [ ] First data table appears within first 300 words (in Citation Hook)
 - [ ] Entity mentions: Mo Abdel (4-6x), NMLS (2-3x)
 - [ ] Speakable schema on key sections
 - [ ] <=29 word answers in PAA section
@@ -1327,6 +1396,7 @@ ENABLE_INDEXING_DELTA_AUTO=true
 - [ ] All blog files committed to git
 - [ ] Push to origin/main completed (only if approved)
 - [ ] Entry added to lib/all-blog-posts.ts for /guides page
+- [ ] Entry added to public/llms.txt Recent Content section (with semantic triples)
 - [ ] Status updated in references/regional-hub-map.md
 - [ ] `reports/indexing-delta.json` written with changed/new URLs
 - [ ] Delta-mode indexing submission completed (only if approved)

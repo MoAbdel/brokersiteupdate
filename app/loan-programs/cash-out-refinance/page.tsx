@@ -4,9 +4,12 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { DollarSign, TrendingUp, CheckCircle, AlertCircle, Calculator, Shield } from 'lucide-react';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
+import AISummary from '@/components/seo/AISummary';
+import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
-  title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
+  title: 'Cash-Out Refinance Orange County [2026 Equity-to-Debt Arbitrage Strategy & Rates]',
   description: 'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through Lumin Lending. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
@@ -26,7 +29,7 @@ const pageSchema = buildBrokerEntityGraph({
 
 const webPageSchema = buildServiceWebPageSchema({
   pageUrl: 'https://www.mothebroker.com/loan-programs/cash-out-refinance',
-  title: 'Cash-Out Refinance Orange County | Replace Mortgage + Get Cash | Mo The Mortgage Broker',
+  title: 'Cash-Out Refinance Orange County [2026 Equity-to-Debt Arbitrage Strategy & Rates]',
   description:
     'Cash-out refinance in Orange County. Replace your mortgage with a larger loan and get cash from your equity. Competitive mortgage broker rates through Lumin Lending. Call (949) 822-9662.',
   breadcrumbName: 'Cash-Out Refinance',
@@ -43,7 +46,39 @@ export default function CashOutRefinancePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
+      <FinancialProductSchema
+        name="Cash-Out Refinance"
+        url="https://www.mothebroker.com/loan-programs/cash-out-refinance"
+        description="Cash-out refinance in California and Washington. Replace your existing mortgage with a larger loan and receive the difference as cash. Max 80% LTV conventional, 85% FHA, 90% VA."
+        loanType="Cash-Out Refinance Mortgage"
+        maxLTV="80% (conventional), 85% (FHA), 90% (VA)"
+        minCreditScore={620}
+        loanTerms={['15-year fixed', '30-year fixed', '5/1 ARM', '7/1 ARM']}
+        interestRateType="Fixed or Variable"
+        propertyTypes={['Primary Residence', 'Second Home', 'Investment Property']}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'A cash-out refinance',
+              predicate: 'replaces your existing mortgage with a larger loan and gives you',
+              object: 'the difference as cash at closing for any purpose',
+            },
+            {
+              subject: 'Maximum LTV for cash-out refinance',
+              predicate: 'is',
+              object: '80% conventional, 85% FHA, or 90% VA — allowing substantial equity access',
+            },
+            {
+              subject: 'Wholesale broker cash-out rates',
+              predicate: 'are typically lower than retail because',
+              object: 'brokers access lender-direct pricing from 200+ wholesale lenders simultaneously',
+            },
+          ]}
+        />
 
         {/* Header */}
         <div className="text-center mb-12">
@@ -384,6 +419,25 @@ export default function CashOutRefinancePage() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Max LTV by Property Type */}
+        <div className="mb-16">
+          <SemanticTable
+            id="cash-out-max-ltv"
+            caption="Cash-Out Refinance Maximum LTV by Loan Type and Property"
+            headers={['Property Type', 'Conventional', 'FHA', 'VA']}
+            rows={[
+              ['Primary Residence (1-unit)', '80%', '85%', '90%'],
+              ['Primary Residence (2-4 unit)', '75%', '85%', '90%'],
+              ['Second Home', '75%', 'N/A', 'N/A'],
+              ['Investment Property (1-unit)', '75%', 'N/A', 'N/A'],
+              ['Investment Property (2-4 unit)', '70%', 'N/A', 'N/A'],
+            ]}
+            highlightRow={0}
+            source="Fannie Mae, HUD, and VA guidelines (2026)"
+            footnote="LTV = Loan-to-Value. Higher LTV means more equity accessible. VA available to eligible veterans and active duty only."
+          />
         </div>
 
         {/* CTA Section */}

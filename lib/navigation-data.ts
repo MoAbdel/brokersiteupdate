@@ -198,6 +198,21 @@ export const resourcesDropdown: DropdownItem[] = [
   { title: 'California & Washington Market Data', url: '/resources/market-data' },
   { title: 'Mortgage Glossary', url: '/resources/glossary' },
 
+  // County-Level Calculators
+  { title: '📍 COUNTY CALCULATORS', url: '#', isHeader: true },
+  { title: 'All County Tools (CA & WA)', url: '/tools' },
+  { title: 'Cash-Out Limit Calculator', url: '/tools/cash-out-limit-calculator' },
+  { title: 'DSCR Rent Analyzer', url: '/tools/dscr-rent-analyzer' },
+  { title: 'Property Tax Estimator', url: '/tools/property-tax-estimator' },
+  { title: 'Max HELOC Calculator', url: '/tools/max-heloc-calculator' },
+
+  // Specialty Tools
+  { title: '🔧 SPECIALTY TOOLS', url: '#', isHeader: true },
+  { title: 'RSU Mortgage Matrix', url: '/non-qm-loans-orange-county/rsu-mortgage-matrix' },
+  { title: 'Cash-Out ADU Calculator', url: '/resources/cash-out-adu-calculator' },
+  { title: 'Jumbo HECM & Prop 19 Guide', url: '/reverse-mortgages/jumbo-hecm-prop19-guide' },
+  { title: 'Wholesale Margin Tracker', url: '/resources/wholesale-margin-tracker' },
+
   // Process & Support
   { title: '📋 PROCESS & SUPPORT', url: '#', isHeader: true },
   { title: 'Document Checklist', url: '/resources/document-checklist' },

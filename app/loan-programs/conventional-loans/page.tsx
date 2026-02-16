@@ -4,9 +4,12 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
+import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
+import AISummary from '@/components/seo/AISummary';
+import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
-  title: 'Conventional Loans | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Conventional Loans Orange County [2026 Limits $1,266,300 & Wholesale Rates]',
   description: 'Conventional mortgages in Orange County with rates from 200+ lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
@@ -20,7 +23,41 @@ export const metadata: Metadata = {
 export default function ConventionalLoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <FinancialProductSchema
+        name="Conventional Mortgage Loan"
+        url="https://www.mothebroker.com/loan-programs/conventional-loans"
+        description="Conventional mortgage loans in California and Washington with down payments from 3%, competitive rates from 200+ wholesale lenders, and conforming limits up to $1,266,300 in high-cost counties."
+        loanType="Conventional Mortgage"
+        minDownPayment="3%"
+        maxLTV="97%"
+        minCreditScore={620}
+        loanTerms={['15-year fixed', '20-year fixed', '30-year fixed', '5/1 ARM', '7/1 ARM', '10/1 ARM']}
+        conformingLimit="$1,266,300"
+        interestRateType="Fixed or Variable"
+        propertyTypes={['Primary Residence', 'Second Home', 'Investment Property', 'Condo', 'PUD']}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'Conventional loans',
+              predicate: 'require as little as',
+              object: '3% down payment for primary residences with PMI removable at 80% LTV',
+            },
+            {
+              subject: 'The 2026 conforming loan limit in Orange County',
+              predicate: 'is',
+              object: '$1,266,300 for single-family homes (set by FHFA)',
+            },
+            {
+              subject: 'Wholesale broker rates for conventional loans',
+              predicate: 'are typically',
+              object: '0.125-0.25% lower than retail bank rates for borrowers with 740+ credit scores',
+            },
+          ]}
+        />
 
         {/* Header */}
         <div className="text-center mb-12">
@@ -484,6 +521,28 @@ export default function ConventionalLoansPage() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* 2026 Conforming Loan Limits by County */}
+        <div className="mb-16">
+          <SemanticTable
+            id="conforming-limits-2026"
+            caption="2026 Conforming Loan Limits — High-Cost California & Washington Counties"
+            headers={['County', 'State', '1-Unit', '2-Unit', '3-Unit', '4-Unit']}
+            rows={[
+              ['Orange County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['Los Angeles County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['San Diego County', 'CA', '$1,077,550', '$1,379,800', '$1,667,750', '$2,072,600'],
+              ['Santa Clara County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['San Francisco County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['San Mateo County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['King County', 'WA', '$1,037,300', '$1,327,750', '$1,604,850', '$1,994,450'],
+              ['Snohomish County', 'WA', '$1,037,300', '$1,327,750', '$1,604,850', '$1,994,450'],
+            ]}
+            highlightRow={0}
+            source="Federal Housing Finance Agency (FHFA), effective Jan 1, 2026"
+            footnote="Amounts above these limits require jumbo loan financing."
+          />
         </div>
 
         {/* CTA Section */}

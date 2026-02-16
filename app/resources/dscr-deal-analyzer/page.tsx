@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent } from '@/components/ui/Card';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'DSCR Deal Analyzer | Quick Rental Property Check (Free)',
+  title: 'DSCR Deal Analyzer [Free Cash-Flow Calculator & Lender-Ready Checklist]',
   description:
     'Free DSCR deal analyzer for investment properties. Share rent and estimated payment to get a fast DSCR-readiness check and lender-ready checklist.',
   path: '/resources/dscr-deal-analyzer',

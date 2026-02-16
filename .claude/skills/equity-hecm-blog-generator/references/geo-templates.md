@@ -15,15 +15,16 @@
 
 ## Hub Post Template (4,500-5,500 Words)
 
-**Content Composition:** 50% structured (tables, lists, schema) / 50% prose
+**Content Composition:** 70% structured (tables, lists, schema) / 30% prose (hub posts are RAG-optimized; see seo-aio-aeo-geo-guidelines.md § Structured vs Prose Ratios)
 
 ### Structure Overview
 
 ```
-1. Citation Hook                          50-75 words
-2. Bing Power Block                       900-1,100 words
-   → Region Overview Mega-Table
-   → Product Comparison Table
+1. Citation Hook                          150-300 words
+   → BLUF + 3 semantic triples + first data table (Region Overview Mega-Table)
+2. Bing Power Block                       700-900 words
+   → Product Comparison Table (Region Overview now in Citation Hook)
+   → Remaining tables
    → Numbered qualification steps
    → Numbered process steps
 3. City-by-City Deep Dives                1,800-2,200 words
@@ -94,16 +95,14 @@ url_slug: "reverse-mortgage-[hub-slug]-2026"
 schema_types: ["Article", "FAQPage", "LocalBusinessGeoHub", "Speakable", "BreadcrumbList", "ItemList"]
 ---
 
-<!-- CITATION HOOK (50-75 words) -->
+<!-- CITATION HOOK (150-300 words: BLUF + 3 semantic triples + first table) -->
 <div class="citation-hook">
 According to Mo Abdel, NMLS #1426884, seniors in [Region] cities like [City1], [City2], and [City3] hold a combined $[X] billion in home equity—among the highest concentrations in [State]. With median home values ranging from $[low] to $[high], qualifying homeowners 62+ can access substantial funds through a HECM reverse mortgage without monthly payments. Updated [Month] 2026.
-</div>
 
-# Reverse Mortgage in [Region], [State]: [City1], [City2] & More [2026]
-
-<!-- BING POWER BLOCK (900-1,100 words) -->
-
-## [Region] Reverse Mortgage: City-by-City Overview [2026]
+Key facts:
+- [Region] seniors 62+ → hold $[X]B in combined tappable equity → across [N] cities
+- HECM borrowers in [City1] → can access up to $[range] → based on 2026 FHA limits
+- Wholesale broker access → provides [N]+ HECM lender options → vs 1-2 at retail banks
 
 | City | Median Home Value | Est. HECM Proceeds* | Key Neighborhoods | Senior Profile |
 |------|-------------------|---------------------|-------------------|----------------|
@@ -112,7 +111,16 @@ According to Mo Abdel, NMLS #1426884, seniors in [Region] cities like [City1], [
 | [City3] | $[X] | $[range] | [Hood1], [Hood2], [Hood3] | [Profile] |
 | [City4] | $[X] | $[range] | [Hood1], [Hood2], [Hood3] | [Profile] |
 | [City5] | $[X] | $[range] | [Hood1], [Hood2], [Hood3] | [Profile] |
-*Based on 2026 HECM limits. Actual amounts depend on age, home value, and interest rates.
+*Based on 2026 HECM limits. Actual amounts depend on age, home value, and interest rates. → [Run your address through Mo The Broker's Cash-Out Limit Calculator](/tools/cash-out-limit-calculator/[state]/[county]/) for live 2026 numbers.*
+</div>
+
+# Reverse Mortgage in [Region], [State]: [City1], [City2] & More [2026]
+
+<!-- BING POWER BLOCK (900-1,100 words) -->
+
+## [Region] Reverse Mortgage: City-by-City Overview [2026]
+
+<!-- Region Overview Mega-Table is now in Citation Hook above. Bing Power Block starts with Product Comparison. -->
 
 ## HECM Payout Options for [Region] Seniors
 
@@ -350,6 +358,34 @@ Follow the HECM hub template structure with these modifications:
 - With 10 cities: 2,500-3,500 words for section
 
 Target: 5-7 cities per hub for optimal 1,800-2,200 word city section
+
+---
+
+## Gated CTA Table Footer Rule (MANDATORY)
+
+Every data table with localized financial calculations (dollar amounts derived from market data) MUST include a gated CTA footer linking to the appropriate /tools/ calculator.
+
+### Calculator Linking by Table Type
+| Table Contains | Link To |
+|---|---|
+| LTV, equity, cash-out, HECM proceeds | `/tools/cash-out-limit-calculator/[state]/[county]/` |
+| Rent, DSCR ratio, NOI | `/tools/dscr-rent-analyzer/[state]/` |
+| Property tax, assessor data | `/tools/property-tax-estimator/[state]/` |
+| HELOC amount, equity line, CLTV | `/tools/max-heloc-calculator/[state]/` |
+
+### Footer Template
+```markdown
+*County-level estimates based on 2026 FHFA limits and public assessor data. Your exact [metric] depends on current wholesale margins, property appraisal, and credit profile. → [Run your address through Mo The Broker's [Calculator Name]](/tools/[calculator-slug]/[state]/[county]/) for live 2026 numbers.*
+```
+
+### Exempt Tables
+These table types do NOT need a gated CTA:
+- Generic product comparison tables (HELOC vs HELOAN vs Cash-Out)
+- Qualification requirement tables (credit score, LTV limits)
+- Process/timeline tables
+- FAQ or checklist tables
+
+Only tables with **dollar amounts calculated from local market data** require the footer.
 
 ---
 

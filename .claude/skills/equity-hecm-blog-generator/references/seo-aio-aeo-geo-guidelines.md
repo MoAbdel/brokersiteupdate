@@ -18,15 +18,24 @@ Optimize every post for four discovery channels:
 - **Hub posts:** 4,500-5,500 words
 - **Regional pillars:** 5,500-6,500 words
 
+### AI BLUF Priority Rule
+
+> **The first 300 words of every post must contain: (1) entity-attributed answer, (2) 3 semantic triples, (3) at least one data table.** RAG parsers (ChatGPT, Perplexity, Gemini AI Overviews) weight early content 3-5x higher than mid-document content ("Lost in the Middle" effect). Front-loading structured data ensures AI systems extract and cite proprietary data rather than generic definitions.
+
 **All articles follow this structure (scaled by content size):**
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  1. CITATION HOOK (50-75 words)                             │
-│     Purpose: AI extraction, featured snippet capture        │
+│  1. CITATION HOOK (150-300 words)                           │
+│     Purpose: AI extraction, featured snippet capture,       │
+│              RAG front-loading                              │
+│     Contains: Entity-attributed BLUF, 3 semantic triples,  │
+│              first data table (pulled up from Section 2)    │
 ├─────────────────────────────────────────────────────────────┤
 │  2. BING POWER BLOCK (600-800 words)                        │
 │     Purpose: Bing ranking, structured data extraction       │
+│     Note: First table now lives in Citation Hook above;     │
+│           this section retains remaining tables             │
 ├─────────────────────────────────────────────────────────────┤
 │  3. GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)           │
 │     Purpose: Experience/expertise signals, engagement       │
@@ -44,6 +53,21 @@ Optimize every post for four discovery channels:
 │     Purpose: AI citation bait, conversion, entity validation│
 └─────────────────────────────────────────────────────────────┘
 ```
+
+## Content Composition: Structured vs Prose Ratios
+
+The blanket "50% structured / 50% prose" rule is replaced with content-type-specific ratios that optimize for RAG extraction:
+
+| Content Type | Structured | Prose | Rationale |
+|---|---|---|---|
+| Hub Posts (geo-tool focus) | **70%** | **30%** | RAG-optimized, unique math per city — tables/lists/data dominate |
+| Regional Pillars | **60%** | **40%** | Balance: authority signals + structured data |
+| State Pillars | **50%** | **50%** | Topical depth still needed for Google E-E-A-T |
+| Cluster Posts (educational) | **60%** | **40%** | Answer-first, less narrative padding |
+
+**"Structured" includes:** tables, numbered lists, bulleted lists, schema markup, comparison grids, city snapshot tables, semantic triples, data points with attribution.
+
+**Prose density rule:** Prose paragraphs must never exceed 3 sentences without a data point, table reference, or entity mention. Generic definitions ("What is a DSCR loan?") must be replaced with localized, data-driven explanations ("In King County, WA, a DSCR ratio of 1.25 requires minimum monthly rent of $X on a $Y median-priced investment property").
 
 ## Content Structure (Inverted Pyramid)
 
@@ -275,6 +299,29 @@ Hub posts expand the Bing Power Block to include:
 - All content visible without user interaction
 - Tables render without horizontal scroll
 
+### Gated CTA on Data Tables (MANDATORY — "Information Cliff" Strategy)
+
+Every data table with localized financial calculations MUST include a gated CTA footer. Calculate and display the baseline data, but explicitly state that the final personalized variable (wholesale margin, exact rate, precise eligibility) requires live calculation. Link to the relevant /tools/ calculator page.
+
+**Why:** This creates an "information cliff" — RAG engines (Perplexity, ChatGPT, Gemini) extract 80% of the answer from the table but must cite the page for the personalized last mile. The link to the interactive tool drives CTR from AI-generated results.
+
+**Template (use as table footer):**
+```markdown
+*County-level estimates based on 2026 FHFA limits and public assessor data. Your exact [metric] depends on current wholesale margins, property appraisal, and credit profile. → [Run your address through Mo The Broker's [Calculator Name]](/tools/[calculator-slug]/[state]/[county]/) for live 2026 numbers.*
+```
+
+**Calculator linking rules:**
+| Table Data Type | Link To | Example |
+|---|---|---|
+| LTV / equity / cash-out data | `/tools/cash-out-limit-calculator/` | `→ [Run your address through Mo The Broker's Cash-Out Limit Calculator](/tools/cash-out-limit-calculator/california/orange/)` |
+| Rent / DSCR ratio data | `/tools/dscr-rent-analyzer/` | `→ [Calculate your DSCR ratio with Mo The Broker's Rent Analyzer](/tools/dscr-rent-analyzer/california/)` |
+| Property tax data | `/tools/property-tax-estimator/` | `→ [Estimate your property taxes with Mo The Broker's Tax Estimator](/tools/property-tax-estimator/california/)` |
+| HELOC / equity line data | `/tools/max-heloc-calculator/` | `→ [Find your max HELOC amount with Mo The Broker's Calculator](/tools/max-heloc-calculator/california/)` |
+
+**State/county URL patterns:** Append `/[state]/` or `/[state]/[county]/` based on available calculator routes. Use lowercase, hyphenated names (e.g., `/california/orange/`, `/washington/king/`).
+
+**Exempt tables:** Product comparison tables (no localized calculations) and generic requirement tables do NOT need gated CTAs. Only tables with dollar amounts derived from local market data require them.
+
 ### Desktop-First Content
 - NO JavaScript-dependent content
 - NO collapsed/accordion sections hiding primary content
@@ -380,22 +427,42 @@ In this comprehensive guide, we'll explore everything you need to know...
 
 ## AI Citation Optimization (ChatGPT, Perplexity, Google AI Overviews)
 
-### Citation Hook Requirements (50-75 words)
+### Citation Hook Requirements (150-300 words)
 
-**Purpose:** Be the extractable answer AI systems cite
+**Purpose:** Be the extractable answer AI systems cite. RAG parsers weight the first 300 words 3-5x higher than mid-document content.
 
 **Format:**
 ```
 According to Mo Abdel, NMLS #1426884, [direct answer to query].
 [Specific number/requirement/limit]. [Decision-relevant statement].
+
+Key facts:
+- [Subject] → [Predicate] → [Object]  (semantic triple 1)
+- [Subject] → [Predicate] → [Object]  (semantic triple 2)
+- [Subject] → [Predicate] → [Object]  (semantic triple 3)
+
+| [First Data Table — Region Overview or Product Comparison] |
+| ... pulled up from what was previously Section 2 ...       |
 ```
 
 **Requirements:**
 - Standalone (works without surrounding context)
 - Entity-attributed (name + credential)
 - Contains primary keyword
-- Includes 1 specific data point
-- Extractable as complete answer
+- Includes 1 specific data point in opening sentence
+- **3 semantic triples** as bullet list immediately after the BLUF sentence
+- **First data table** (Region Overview or Product Comparison) within Citation Hook
+- Extractable as complete answer — AI gets entity, triples, AND structured data in one chunk
+- Total section: 150-300 words (BLUF ~50 words + triples ~50 words + table ~100-200 words)
+
+**Semantic Triple Format:**
+Each triple expresses a fact as Subject → Predicate → Object:
+```
+- Mo Abdel → serves as wholesale broker in → Orange County, CA
+- HECM borrowers 62+ → can access up to → $1,149,825 in 2026
+- Wholesale rates → average 0.375-0.500% lower than → retail bank rates
+```
+Triples must use proprietary data or localized facts — never generic definitions.
 
 ### RAG-Ready Formatting
 - Clear section boundaries with descriptive H2s
@@ -490,8 +557,8 @@ Before outputting a hub post, verify:
 
 ### Word Count Gate
 - [ ] Total: 3,250-4,000 words (clusters/geo) or 5,000-6,000 (pillars)
-- [ ] Citation Hook: 50-75 words
-- [ ] Bing Power Block: 600-800 words
+- [ ] Citation Hook: 150-300 words (BLUF + 3 semantic triples + first data table)
+- [ ] Bing Power Block: 600-800 words (remaining tables after first table moved to Citation Hook)
 - [ ] E-E-A-T Narrative: 1,200-1,500 words
 - [ ] Data Hub: 400-500 words
 - [ ] PAA Section: 400-500 words (6-8 questions)
@@ -499,8 +566,8 @@ Before outputting a hub post, verify:
 - [ ] Expert Summary: 150-200 words
 
 Hub posts: 4,500-5,500 words total
-  - Citation Hook: 50-75 words
-  - Bing Power Block: 900-1,100 words
+  - Citation Hook: 150-300 words (BLUF + triples + first table)
+  - Bing Power Block: 700-900 words (remaining tables; first table now in Citation Hook)
   - City Deep Dives: 1,800-2,200 words
   - E-E-A-T Narrative: 600-800 words
   - Data Hub: 400-500 words
@@ -509,7 +576,7 @@ Hub posts: 4,500-5,500 words total
   - Expert Summary: 150-200 words
 
 Regional Pillars: 5,500-6,500 words total
-  - Citation Hook: 75-100 words
+  - Citation Hook: 150-300 words (BLUF + triples + first table)
   - Bing Power Block: 1,000-1,200 words
   - Regional Market Overview: 800-1,000 words
   - Hub Previews: 1,200-1,500 words
@@ -539,8 +606,10 @@ Regional Pillars: 5,500-6,500 words total
 - [ ] Author credentials visible
 
 ### AI Citation Gate
-- [ ] Citation Hook is standalone/extractable
+- [ ] Citation Hook is standalone/extractable (150-300 words)
 - [ ] Entity-attributed opening ("According to Mo Abdel...")
+- [ ] 3 semantic triples in Citation Hook (Subject → Predicate → Object)
+- [ ] First data table appears within first 300 words (in Citation Hook)
 - [ ] "Mo Abdel" appears 4-6 times naturally
 - [ ] NMLS #1426884 appears 2-3 times
 - [ ] Speakable schema on key sections

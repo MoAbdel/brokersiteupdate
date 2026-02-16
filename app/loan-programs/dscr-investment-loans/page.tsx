@@ -3,9 +3,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
+import AISummary from '@/components/seo/AISummary';
+import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
-  title: 'DSCR Investment Loans Orange County | No Income Verification Rental Property Loans',
+  title: 'DSCR Investment Loans [2026 Cash-Flow Qualification Matrix & No-Doc Rates]',
   description: 'DSCR investment loans in Orange County. Qualify based on rental income, not personal income. No employment verification. Perfect for real estate investors. Call (949) 822-9662.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
@@ -19,8 +22,42 @@ export const metadata: Metadata = {
 export default function DSCRInvestmentLoansPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <FinancialProductSchema
+        name="DSCR Investment Loan"
+        url="https://www.mothebroker.com/loan-programs/dscr-investment-loans"
+        description="DSCR investment loans in California and Washington. Qualify based on rental income with no personal income verification, no tax returns, and no employment documentation. Loan amounts up to $2M+."
+        loanType="DSCR Investment Mortgage"
+        minDownPayment="20%"
+        maxLTV="80%"
+        minCreditScore={620}
+        loanTerms={['30-year fixed', '5/1 ARM', '7/1 ARM', '40-year interest-only']}
+        interestRateType="Fixed or Variable"
+        maxLoanAmount="$2,000,000+"
+        propertyTypes={['Investment Property (1-4 units)', 'Multi-Family (5+ units)', 'Short-Term Rental', 'Mixed-Use']}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'DSCR loans',
+              predicate: 'qualify investors based on',
+              object: 'property rental income rather than personal income, requiring no tax returns or W-2s',
+            },
+            {
+              subject: 'A DSCR ratio of 1.0',
+              predicate: 'means the property generates',
+              object: 'enough rental income to fully cover the monthly mortgage payment',
+            },
+            {
+              subject: 'DSCR investment loans through a wholesale broker',
+              predicate: 'offer loan amounts up to',
+              object: '$2M+ with 20-25% down payment and 620+ credit score minimum',
+            },
+          ]}
+        />
+
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Investment Property Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
@@ -91,6 +128,25 @@ export default function DSCRInvestmentLoansPage() {
               </ul>
             </div>
           </div>
+        </div>
+
+        {/* DSCR Ratio Scenarios */}
+        <div className="mb-12">
+          <SemanticTable
+            id="dscr-ratio-scenarios"
+            caption="DSCR Ratio Scenarios — How Rental Income Affects Qualification"
+            headers={['Monthly Rent', 'Monthly PITIA', 'DSCR Ratio', 'Qualification', 'Typical Rate Impact']}
+            rows={[
+              ['$3,500', '$3,500', '1.00', 'Minimum qualifying', 'Base rate + 0.50%'],
+              ['$4,000', '$3,500', '1.14', 'Standard qualifying', 'Base rate + 0.25%'],
+              ['$4,500', '$3,500', '1.29', 'Strong cash flow', 'Base rate'],
+              ['$5,000', '$3,500', '1.43', 'Excellent cash flow', 'Best available rate'],
+              ['$3,000', '$3,500', '0.86', 'Below 1.0 — limited options', 'Higher rate, more down payment'],
+            ]}
+            highlightRow={2}
+            source="Industry DSCR lending guidelines, 2026"
+            footnote="PITIA = Principal, Interest, Taxes, Insurance, and Association dues. Rates are illustrative — actual rates depend on credit score, LTV, and lender."
+          />
         </div>
 
         <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
