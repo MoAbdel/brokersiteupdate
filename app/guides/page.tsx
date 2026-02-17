@@ -27,10 +27,10 @@ const pageSchema = buildServiceWebPageSchema({
   breadcrumbName: 'Guides',
 });
 
-export default function GuidesPage({
+export default async function GuidesPage({
   searchParams,
 }: {
-  searchParams?: { category?: string; page?: string };
+  searchParams?: Promise<{ category?: string; page?: string }>;
 }) {
   const formatDate = (dateString: string) => {
     const date = new Date(`${dateString}T00:00:00`);
@@ -41,6 +41,10 @@ export default function GuidesPage({
     });
   };
 
+  // Next.js 15.5+ provides `searchParams` as an async prop.
+  // Await it before reading values to keep this page server-rendered for SEO.
+  const sp = (await searchParams) ?? {};
+
   const categories = getAllCategories();
   const categoryCounts = allBlogPosts.reduce<Record<string, number>>((acc, p) => {
     acc[p.category] = (acc[p.category] || 0) + 1;
@@ -48,8 +52,8 @@ export default function GuidesPage({
   }, {});
 
   const activeCategory =
-    searchParams?.category && categories.includes(searchParams.category)
-      ? searchParams.category
+    sp.category && categories.includes(sp.category)
+      ? sp.category
       : null;
 
   const filteredPosts = activeCategory
@@ -58,7 +62,7 @@ export default function GuidesPage({
 
   const PER_PAGE = 12;
   const totalPages = Math.max(1, Math.ceil(filteredPosts.length / PER_PAGE));
-  const requestedPage = Number(searchParams?.page || '1');
+  const requestedPage = Number(sp.page || '1');
   const currentPage = Number.isFinite(requestedPage)
     ? Math.min(totalPages, Math.max(1, Math.floor(requestedPage)))
     : 1;
