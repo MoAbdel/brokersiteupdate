@@ -20,7 +20,7 @@ export default function DscrDealAnalyzerPage() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <Badge className="bg-purple-100 text-purple-700 mb-4">Free Investor Tool</Badge>
+          <Badge className="bg-slate-100 text-blue-700 mb-4">Free Investor Tool</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">DSCR Deal Analyzer</h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
             A quick check to see whether a property is in DSCR territory, plus a lender-ready checklist for what to gather next.

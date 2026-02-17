@@ -829,15 +829,15 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgages on the Seattle Eastside</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Seattle Eastside represents one of the strongest reverse mortgage markets in the country. With 14 cities spanning median home values from $1 million to $5 million+, seniors 62 and older hold billions in tappable equity. Washington State&apos;s absence of state income tax makes reverse mortgage proceeds completely tax-free at both federal and state levels — an advantage that California, Oregon, and most other states cannot offer.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               For ultra-luxury communities like Medina, Hunts Point, and Yarrow Point, jumbo proprietary reverse mortgages are essential to access equity beyond the $1,149,825 HECM limit. For growth corridor cities like Kirkland, Redmond, and Issaquah, the standard FHA HECM product provides substantial proceeds with strong consumer protections.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your wholesale reverse mortgage broker, I compare products from 200+ lenders to find the best fit for your home value, age, and financial goals. Every consultation is free, every recommendation is independent, and every client receives the same level of attention — whether your home is worth $1 million or $15 million.
             </p>
           </div>

@@ -234,7 +234,7 @@ export default function NonQMLoansWholesalePage() {
           <li><strong>Solution finding:</strong> Match complex scenarios with appropriate lenders</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6 border border-green-200">
+        <div className="bg-slate-50 p-6 rounded-lg my-6 border border-slate-200">
           <h4 className="font-bold text-green-900 mt-0">The Wholesale Non-QM Advantage</h4>
           <p className="mb-0">
             A bank has zero or one non-QM program. A wholesale broker accesses 50+ non-QM lenders with hundreds of program variations. For borrowers who don&apos;t fit the conventional box, this difference determines whether they get a mortgage at all.
@@ -437,27 +437,27 @@ export default function NonQMLoansWholesalePage() {
               <tr>
                 <td className="px-4 py-2 border-b">Chapter 7 Bankruptcy</td>
                 <td className="px-4 py-2 border-b text-red-700">4 years</td>
-                <td className="px-4 py-2 border-b text-green-700">1-2 years</td>
+                <td className="px-4 py-2 border-b text-blue-700">1-2 years</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Chapter 13 Bankruptcy</td>
                 <td className="px-4 py-2 border-b text-red-700">2-4 years</td>
-                <td className="px-4 py-2 border-b text-green-700">1 year (or discharge)</td>
+                <td className="px-4 py-2 border-b text-blue-700">1 year (or discharge)</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Foreclosure</td>
                 <td className="px-4 py-2 border-b text-red-700">7 years</td>
-                <td className="px-4 py-2 border-b text-green-700">2-3 years</td>
+                <td className="px-4 py-2 border-b text-blue-700">2-3 years</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Short Sale</td>
                 <td className="px-4 py-2 border-b text-red-700">4 years</td>
-                <td className="px-4 py-2 border-b text-green-700">1-2 years</td>
+                <td className="px-4 py-2 border-b text-blue-700">1-2 years</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Deed in Lieu</td>
                 <td className="px-4 py-2 border-b text-red-700">4 years</td>
-                <td className="px-4 py-2 border-b text-green-700">1-2 years</td>
+                <td className="px-4 py-2 border-b text-blue-700">1-2 years</td>
               </tr>
             </tbody>
           </table>

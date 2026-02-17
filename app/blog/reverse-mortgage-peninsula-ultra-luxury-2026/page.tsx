@@ -324,35 +324,35 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Atherton</td>
                 <td className="border border-gray-300 px-4 py-3">$10,800,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K - $600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$3.5M - $5.4M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$3.5M - $5.4M</td>
                 <td className="border border-gray-300 px-4 py-3">Gated compounds, trust estates, Lindenwood/West Atherton</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Los Altos Hills</td>
                 <td className="border border-gray-300 px-4 py-3">$5,500,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K - $600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.8M - $2.75M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.8M - $2.75M</td>
                 <td className="border border-gray-300 px-4 py-3">Tech founder estates, Purissima Hills, Country Club area</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Hillsborough</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K - $600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.6M - $2.5M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.6M - $2.5M</td>
                 <td className="border border-gray-300 px-4 py-3">Old money estates, Carolands, Crystal Springs, historic mansions</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Woodside</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K - $600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.6M - $2.5M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.6M - $2.5M</td>
                 <td className="border border-gray-300 px-4 py-3">Equestrian estates, Kings Mountain, Whiskey Hill ranches</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Portola Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$4,000,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K - $600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.3M - $2.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.3M - $2.0M</td>
                 <td className="border border-gray-300 px-4 py-3">Rural luxury, conservation parcels, Westridge, Alpine Hills</td>
               </tr>
             </tbody>
@@ -380,18 +380,18 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$4M - $30M+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$4M - $30M+</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">None</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">None</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Line of Credit Growth</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Yes (guaranteed)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Yes (guaranteed)</td>
                 <td className="border border-gray-300 px-4 py-3">Not typically offered</td>
                 <td className="border border-gray-300 px-4 py-3">N/A (purchase)</td>
               </tr>
@@ -403,20 +403,20 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Non-Recourse Guarantee</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured</td>
                 <td className="border border-gray-300 px-4 py-3">Lender non-recourse (varies)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Trust Compatibility</td>
                 <td className="border border-gray-300 px-4 py-3">Revocable trusts</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Revocable and select irrevocable trusts</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Revocable and select irrevocable trusts</td>
                 <td className="border border-gray-300 px-4 py-3">Revocable trusts</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Peninsula Ultra-Luxury Best For</td>
                 <td className="border border-gray-300 px-4 py-3">Modest equity access with maximum protections</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Meaningful liquidity from $4M-$30M+ estates</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Meaningful liquidity from $4M-$30M+ estates</td>
                 <td className="border border-gray-300 px-4 py-3">Buying a Peninsula estate with reverse mortgage financing</td>
               </tr>
             </tbody>
@@ -509,22 +509,22 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Lindenwood</td>
                 <td className="border border-gray-300 px-4 py-3">$12M - $20M</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$3.9M - $10.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$3.9M - $10.0M</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">West Atherton</td>
                 <td className="border border-gray-300 px-4 py-3">$10M - $18M</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$3.3M - $9.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$3.3M - $9.0M</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Atherton Oaks</td>
                 <td className="border border-gray-300 px-4 py-3">$8M - $14M</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$2.6M - $7.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$2.6M - $7.0M</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Sacred Heart Area</td>
                 <td className="border border-gray-300 px-4 py-3">$7M - $12M</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$2.3M - $6.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$2.3M - $6.0M</td>
               </tr>
             </tbody>
           </table>
@@ -634,35 +634,35 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Atherton</td>
                 <td className="border border-gray-300 px-4 py-3">$7,500,000</td>
                 <td className="border border-gray-300 px-4 py-3">$10,800,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+44%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+44%</td>
                 <td className="border border-gray-300 px-4 py-3">42 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Los Altos Hills</td>
                 <td className="border border-gray-300 px-4 py-3">$3,800,000</td>
                 <td className="border border-gray-300 px-4 py-3">$5,500,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+45%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+45%</td>
                 <td className="border border-gray-300 px-4 py-3">35 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Hillsborough</td>
                 <td className="border border-gray-300 px-4 py-3">$3,500,000</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">38 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Woodside</td>
                 <td className="border border-gray-300 px-4 py-3">$3,400,000</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+47%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+47%</td>
                 <td className="border border-gray-300 px-4 py-3">45 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Portola Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$2,800,000</td>
                 <td className="border border-gray-300 px-4 py-3">$4,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">40 days</td>
               </tr>
             </tbody>
@@ -758,21 +758,21 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="expert-summary bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="expert-summary bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: Peninsula Ultra-Luxury Reverse Mortgage Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             Peninsula ultra-luxury homeowners in Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills hold $42 billion in residential real estate&mdash;estates where the standard HECM captures a fraction of actual value. Proprietary jumbo reverse mortgages unlock $1.3 million to $5.4 million+ in tax-free proceeds from these estates, providing meaningful liquidity without triggering capital gains, disrupting Proposition 13 protections, or requiring a sale that removes the property from the family.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             The difference between a well-structured ultra-luxury reverse mortgage and a poorly executed one is measured in hundreds of thousands of dollars. Accurate MAI appraisals, proper trust documentation, competitive multi-lender comparison, and understanding of equestrian, historic, and conservation-adjacent valuations determine whether your estate delivers its full reverse mortgage potential.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized jumbo reverse mortgage analysis for Peninsula ultra-luxury homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From MAI appraiser coordination to multi-lender product comparison and trust document review, Mo manages the entire process for estates valued $4 million to $30 million+.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to explore your Peninsula reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to explore your Peninsula reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
           </p>
         </div>
 

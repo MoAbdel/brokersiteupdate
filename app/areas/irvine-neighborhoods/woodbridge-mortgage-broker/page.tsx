@@ -162,7 +162,7 @@ export default function WoodbridgeMortgageBrokerPage() {
                 Financing for Irvine's most established family community. Expert in lake community homes, mature neighborhood properties, and family-focused financing solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -204,21 +204,21 @@ export default function WoodbridgeMortgageBrokerPage() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Mature Landscaping</h4>
                       <p className="text-slate-600">50+ year old trees and established gardens create park-like settings</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Proven Investment</h4>
                       <p className="text-slate-600">Consistent appreciation over decades with stable property values</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Family Infrastructure</h4>
                       <p className="text-slate-600">Well-established amenities, schools, and community programs</p>
@@ -228,7 +228,7 @@ export default function WoodbridgeMortgageBrokerPage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
                     Woodbridge Market Data 2026
@@ -311,7 +311,7 @@ export default function WoodbridgeMortgageBrokerPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-slate-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Finance Your Woodbridge Dream Home?

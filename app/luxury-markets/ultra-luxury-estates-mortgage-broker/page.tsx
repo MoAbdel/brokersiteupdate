@@ -245,12 +245,12 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center mb-4">
-                <Diamond className="w-8 h-8 text-purple-200 mr-2" />
+                <Diamond className="w-8 h-8 text-slate-200 mr-2" />
                 <h1 className="text-4xl md:text-5xl font-bold">
                   Orange County Ultra-Luxury Estates Specialist
                 </h1>
               </div>
-              <p className="text-xl max-w-3xl mx-auto mb-8 text-purple-100">
+              <p className="text-xl max-w-3xl mx-auto mb-8 text-slate-200">
                 Exclusive financing for Orange County's most prestigious ultra-luxury estates. From $5M oceanfront mansions to private compounds, expert guidance for the ultimate in luxury living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -281,7 +281,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               {ultraLuxuryAreas.map((area) => (
                 <Card key={area.area} className="shadow-lg hover:shadow-xl transition-shadow">
                   <CardHeader>
-                    <CardTitle className="text-purple-600">{area.area}</CardTitle>
+                    <CardTitle className="text-blue-600">{area.area}</CardTitle>
                     <p className="text-2xl font-bold text-slate-900">{area.priceRange}</p>
                   </CardHeader>
                   <CardContent>
@@ -316,14 +316,14 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               {estateFeatures.map((feature) => (
                 <Card key={feature.feature} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-indigo-600">{feature.feature}</CardTitle>
+                    <CardTitle className="text-blue-600">{feature.feature}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
                       <p className="text-slate-600 text-sm">{feature.description}</p>
                       <div>
                         <span className="text-slate-500 text-sm">Value Impact:</span>
-                        <p className="text-green-700 font-medium text-sm">{feature.value}</p>
+                        <p className="text-blue-700 font-medium text-sm">{feature.value}</p>
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Market Presence:</span>
@@ -346,7 +346,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {financingPrograms.map((program) => (
                 <Card key={program.program} className="shadow-lg">
-                  <CardHeader className="bg-purple-100">
+                  <CardHeader className="bg-slate-100">
                     <CardTitle className="text-purple-800">{program.program}</CardTitle>
                   </CardHeader>
                   <CardContent className="p-6">
@@ -372,7 +372,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
         </section>
 
         {/* Luxury Amenities */}
-        <section className="py-16 bg-purple-50">
+        <section className="py-16 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
               Ultra-Luxury Lifestyle Amenities
@@ -381,7 +381,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               {luxuryAmenities.map((amenity) => (
                 <Card key={amenity.amenity} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-purple-600">{amenity.amenity}</CardTitle>
+                    <CardTitle className="text-blue-600">{amenity.amenity}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
@@ -391,7 +391,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Lifestyle Benefit:</span>
-                        <p className="text-purple-700 font-medium">{amenity.benefit}</p>
+                        <p className="text-blue-700 font-medium">{amenity.benefit}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -411,21 +411,21 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <Eye className="w-6 h-6 text-purple-600 mt-1" />
+                    <Eye className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Elite Market Knowledge</h3>
                       <p className="text-slate-600">Deep understanding of ultra-luxury property values and exclusive market dynamics</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Crown className="w-6 h-6 text-purple-600 mt-1" />
+                    <Crown className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">High-Net-Worth Services</h3>
                       <p className="text-slate-600">Specialized experience serving ultra-high-net-worth individuals and families</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Gem className="w-6 h-6 text-purple-600 mt-1" />
+                    <Gem className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Discretionary Excellence</h3>
                       <p className="text-slate-600">White-glove service with complete discretion and privacy protection</p>
@@ -434,7 +434,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 </div>
               </div>
               
-              <Card className="shadow-xl border-purple-200">
+              <Card className="shadow-xl border-slate-200">
                 <CardHeader className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
                   <CardTitle className="flex items-center">
                     <Star className="w-6 h-6 mr-2" />
@@ -471,7 +471,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 bg-purple-50">
+        <section className="py-16 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
               Ultra-Luxury Estate Financing FAQ
@@ -480,7 +480,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               {schemaData[0]?.data?.questions?.map((faq: any, index: number) => (
                 <Card key={index} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-lg text-purple-600">{faq.question}</CardTitle>
+                    <CardTitle className="text-lg text-blue-600">{faq.question}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-700">{faq.answer}</p>
@@ -514,7 +514,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-purple-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Ultra-luxury estate and mansion specialist
             </p>
           </div>

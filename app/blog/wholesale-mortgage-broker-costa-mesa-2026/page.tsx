@@ -150,10 +150,10 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b">$720,000</td><td className="py-2 px-4 border-b text-green-700">~$45,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-green-700">~$55,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-green-700">~$75,000</td></tr>
-              <tr><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4">$1,600,000</td><td className="py-2 px-4 text-green-700">~$100,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b">$720,000</td><td className="py-2 px-4 border-b text-blue-700">~$45,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-blue-700">~$55,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-blue-700">~$75,000</td></tr>
+              <tr><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4">$1,600,000</td><td className="py-2 px-4 text-blue-700">~$100,000</td></tr>
             </tbody>
           </table>
         </div>
@@ -238,12 +238,12 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail markup</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Usually no</td><td className="py-2 px-4 border-b text-green-700">Multiple options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo flexibility</td><td className="py-2 px-4 border-b">Single product</td><td className="py-2 px-4 border-b text-green-700">20+ lender choices</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Local knowledge</td><td className="py-2 px-4 border-b">Generic</td><td className="py-2 px-4 border-b text-green-700">Costa Mesa expertise</td></tr>
-              <tr><td className="py-2 px-4">Personal service</td><td className="py-2 px-4">Call center</td><td className="py-2 px-4 text-green-700">Direct broker access</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail markup</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Usually no</td><td className="py-2 px-4 border-b text-blue-700">Multiple options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo flexibility</td><td className="py-2 px-4 border-b">Single product</td><td className="py-2 px-4 border-b text-blue-700">20+ lender choices</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Local knowledge</td><td className="py-2 px-4 border-b">Generic</td><td className="py-2 px-4 border-b text-blue-700">Costa Mesa expertise</td></tr>
+              <tr><td className="py-2 px-4">Personal service</td><td className="py-2 px-4">Call center</td><td className="py-2 px-4 text-blue-700">Direct broker access</td></tr>
             </tbody>
           </table>
         </div>

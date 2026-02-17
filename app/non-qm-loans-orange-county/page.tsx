@@ -189,12 +189,12 @@ export default function NonQMLoansOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Non-QM Loans in Orange County – Flexible Financing Solutions
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Break free from traditional lending restrictions. Non-QM loans offer flexible income verification and creative qualification methods for Orange County's diverse borrowers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" aria-label="Apply for a Non-QM loan" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
+                <Button size="lg" aria-label="Apply for a Non-QM loan" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold">
                   Apply for Non-QM Loan
                 </Button>
               </Link>
@@ -225,7 +225,7 @@ export default function NonQMLoansOrangeCounty() {
               <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-100 to-indigo-100 rounded-lg flex items-center justify-center mb-4">
-                    <benefit.icon className="w-6 h-6 text-purple-600" />
+                    <benefit.icon className="w-6 h-6 text-blue-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">{benefit.title}</h3>
                   <p className="text-slate-600">{benefit.description}</p>
@@ -250,7 +250,7 @@ export default function NonQMLoansOrangeCounty() {
               <div className="space-y-4">
                 {whoQualifies.map((qualifier, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                     <span className="text-slate-700">{qualifier}</span>
                   </div>
                 ))}
@@ -261,15 +261,15 @@ export default function NonQMLoansOrangeCounty() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-slate-200">
                   <span className="font-semibold text-slate-700">Loan Amounts</span>
-                  <span className="text-xl font-bold text-green-600">Up to $5M+</span>
+                  <span className="text-xl font-bold text-blue-600">Up to $5M+</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-slate-200">
                   <span className="font-semibold text-slate-700">Down Payment</span>
-                  <span className="text-xl font-bold text-purple-600">10-25%</span>
+                  <span className="text-xl font-bold text-blue-600">10-25%</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-slate-200">
                   <span className="font-semibold text-slate-700">Documentation</span>
-                  <span className="text-xl font-bold text-indigo-600">Alternative</span>
+                  <span className="text-xl font-bold text-blue-600">Alternative</span>
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="font-semibold text-slate-700">Processing Time</span>
@@ -309,7 +309,7 @@ export default function NonQMLoansOrangeCounty() {
                   <div className="space-y-2">
                     {loan.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4 text-green-600" />
+                        <CheckCircle className="w-4 h-4 text-blue-600" />
                         <span className="text-sm text-slate-700">{feature}</span>
                       </div>
                     ))}
@@ -404,13 +404,13 @@ export default function NonQMLoansOrangeCounty() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Explore Non-QM Loan Options in Orange County?
           </h2>
-          <p className="text-xl mb-8 text-purple-100" data-speakable="true">
+          <p className="text-xl mb-8 text-slate-200" data-speakable="true">
             Break free from traditional lending restrictions. Get flexible financing solutions
             designed for your unique financial situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" aria-label="Start your Non-QM loan application" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" aria-label="Start your Non-QM loan application" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold">
                 Start Your Application
               </Button>
             </Link>

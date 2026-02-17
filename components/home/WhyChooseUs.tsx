@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
     <section className="py-16 bg-gradient-to-br from-blue-50 to-slate-50" aria-label="Why choose a mortgage broker over traditional banks">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <Badge className="bg-green-100 text-green-800 mb-4">Lumin Lending Advantage</Badge>
+          <Badge className="bg-blue-100 text-blue-700 mb-4">Lumin Lending Advantage</Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             Why Choose a Mortgage Broker vs Banks?
           </h2>
@@ -62,11 +62,11 @@ export default function WhyChooseUs() {
           {features.map((feature, index) => (
             <Card key={index} className={`card-hover shadow-base44 border-slate-200 group flex flex-col transform hover:scale-105 transition-all duration-300 fade-in-up ${index === 0 ? '' : index === 1 ? 'animate-delay-100' : index === 2 ? 'animate-delay-200' : 'animate-delay-300'}`}>
               <CardContent className="p-6 flex flex-col items-center text-center flex-grow">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-green-100 rounded-lg flex items-center justify-center group-hover:from-blue-600 group-hover:to-green-600 transition-all duration-300 mb-4 flex-shrink-0 shadow-md group-hover:shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-slate-100 rounded-lg flex items-center justify-center group-hover:from-blue-600 group-hover:to-blue-700 transition-all duration-300 mb-4 flex-shrink-0 shadow-md group-hover:shadow-lg">
                   <feature.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900">{feature.title}</h3>
-                <Badge variant="outline" className="text-xs bg-green-50 text-green-700 border-green-200 my-2">
+                <Badge variant="outline" className="text-xs bg-blue-50 text-blue-700 border-blue-200 my-2">
                   {feature.highlight}
                 </Badge>
                 <p className="text-slate-600 text-sm leading-relaxed mt-auto pt-2">{feature.description}</p>

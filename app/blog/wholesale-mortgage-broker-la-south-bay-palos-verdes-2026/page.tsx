@@ -268,47 +268,47 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo Loan Options</td>
                   <td className="px-4 py-3 border-t">1-3 jumbo products (own portfolio)</td>
-                  <td className="px-4 py-3 border-t text-green-700">20-30+ jumbo lenders with varying guidelines</td>
+                  <td className="px-4 py-3 border-t text-blue-700">20-30+ jumbo lenders with varying guidelines</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Max Loan Amount</td>
                   <td className="px-4 py-3 border-t">Typically $3-5M cap</td>
-                  <td className="px-4 py-3 border-t text-green-700">Up to $10M+ through specialized lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Up to $10M+ through specialized lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Programs</td>
                   <td className="px-4 py-3 border-t">Full documentation required (2yr tax returns)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement, P&amp;L, 1099, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&amp;L, 1099, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Entertainment Income</td>
                   <td className="px-4 py-3 border-t">Difficult to qualify variable income</td>
-                  <td className="px-4 py-3 border-t text-green-700">Specialized lenders for royalties, residuals, SAG</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Specialized lenders for royalties, residuals, SAG</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Equestrian/Estate Properties</td>
                   <td className="px-4 py-3 border-t">May decline or undervalue</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders with estate property appraisal expertise</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders with estate property appraisal expertise</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rate Shopping</td>
                   <td className="px-4 py-3 border-t">Single rate from single lender</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple competing rate quotes in real-time</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple competing rate quotes in real-time</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Closing Speed</td>
                   <td className="px-4 py-3 border-t">35-50 days typical</td>
-                  <td className="px-4 py-3 border-t text-green-700">21-45 days (rush options available)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">21-45 days (rush options available)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Down Payment Flexibility</td>
                   <td className="px-4 py-3 border-t">Standard 20-25% on jumbo</td>
-                  <td className="px-4 py-3 border-t text-green-700">10-25% depending on program and borrower</td>
+                  <td className="px-4 py-3 border-t text-blue-700">10-25% depending on program and borrower</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Cost to Borrower</td>
                   <td className="px-4 py-3 border-t">Bank overhead built into rates</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lower overhead = lower rates in most cases</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lower overhead = lower rates in most cases</td>
                 </tr>
               </tbody>
             </table>
@@ -347,56 +347,56 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
                   <td className="px-4 py-3 border-t">$2.9M</td>
                   <td className="px-4 py-3 border-t">Aerospace/defense, corporate exec, medical</td>
                   <td className="px-4 py-3 border-t">RSU income, deferred comp, bonus structures</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders accepting RSU + bonus for qualification</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders accepting RSU + bonus for qualification</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">Aerospace retiree, professional couple, business owner</td>
                   <td className="px-4 py-3 border-t">Pension + investment income mix, self-employed</td>
-                  <td className="px-4 py-3 border-t text-green-700">Asset depletion, bank statement programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Asset depletion, bank statement programs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$3.0M</td>
                   <td className="px-4 py-3 border-t">Equestrian income, trust/inheritance, corporate</td>
                   <td className="px-4 py-3 border-t">Agricultural/equestrian income, unique property type</td>
-                  <td className="px-4 py-3 border-t text-green-700">Estate property lenders, ag-income specialists</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Estate property lenders, ag-income specialists</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">Medical professional, attorney, small business</td>
                   <td className="px-4 py-3 border-t">Practice income, partnership draws, K-1 complexity</td>
-                  <td className="px-4 py-3 border-t text-green-700">Professional practice-friendly lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Professional practice-friendly lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hidden Hills</td>
                   <td className="px-4 py-3 border-t">$6.0M</td>
                   <td className="px-4 py-3 border-t">Entertainment exec, celebrity, tech founder</td>
                   <td className="px-4 py-3 border-t">Variable royalties, production income, ultra-luxury property</td>
-                  <td className="px-4 py-3 border-t text-green-700">Entertainment specialists, $10M+ loan access</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Entertainment specialists, $10M+ loan access</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Calabasas</td>
                   <td className="px-4 py-3 border-t">$1.8M</td>
                   <td className="px-4 py-3 border-t">Entertainment industry, tech, corporate leadership</td>
                   <td className="px-4 py-3 border-t">Residual income, SAG pension, business ownership</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement jumbo, entertainment income</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement jumbo, entertainment income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Agoura Hills</td>
                   <td className="px-4 py-3 border-t">$1.1M</td>
                   <td className="px-4 py-3 border-t">Professional couple, small business, remote worker</td>
                   <td className="px-4 py-3 border-t">Near conforming limit, dual-income documentation</td>
-                  <td className="px-4 py-3 border-t text-green-700">Conforming + jumbo options, best rate shopping</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Conforming + jumbo options, best rate shopping</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Westlake Village</td>
                   <td className="px-4 py-3 border-t">$1.4M</td>
                   <td className="px-4 py-3 border-t">Corporate retiree, medical, pharmaceutical</td>
                   <td className="px-4 py-3 border-t">Retirement income, pension + investment blend</td>
-                  <td className="px-4 py-3 border-t text-green-700">Asset depletion, pension-qualifying programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Asset depletion, pension-qualifying programs</td>
                 </tr>
               </tbody>
             </table>
@@ -573,7 +573,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
           {/* Hub Previews */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Regional Hub Guides: Detailed Wholesale Mortgage Analysis by Sub-Market</h2>
 
-          <div className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Wholesale Mortgage Broker Palos Verdes Peninsula</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Palos Verdes Estates ($2.9M median), Rancho Palos Verdes ($2.0M),
@@ -600,7 +600,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             </p>
           </div>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Wholesale Mortgage Broker Western LA Luxury</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Hidden Hills ($6.0M median), Calabasas ($1.8M),
@@ -636,7 +636,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             LA South Bay and Palos Verdes buyers encounter.
           </p>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 1: Aerospace Defense Contractor Jumbo Purchase</h3>
             <p className="mb-2">
               <strong>Profile:</strong> James and Sandra, ages 46 and 43. James is a principal systems engineer at a major
@@ -668,7 +668,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             </p>
           </div>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 2: Entertainment Royalty Income Purchase</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Marcus, age 39. Television showrunner and executive producer. Primary income from
@@ -700,7 +700,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             </p>
           </div>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 3: Equestrian Property with Land Valuation</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Catherine and Robert, ages 54 and 57. Catherine runs a boutique equestrian

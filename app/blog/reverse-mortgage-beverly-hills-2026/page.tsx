@@ -146,7 +146,7 @@ export default function ReverseMortgageBeverlyHillsPage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Entry-level properties</td></tr>
-              <tr><td className="py-2 px-4 border-b">Proprietary (Jumbo)</td><td className="py-2 px-4 border-b">$4M+</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Most Beverly Hills homes</td></tr>
+              <tr><td className="py-2 px-4 border-b">Proprietary (Jumbo)</td><td className="py-2 px-4 border-b">$4M+</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Most Beverly Hills homes</td></tr>
             </tbody>
           </table>
         </div>
@@ -183,10 +183,10 @@ export default function ReverseMortgageBeverlyHillsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required</td></tr>
               <tr><td className="py-2 px-4 border-b">Age Requirement</td><td className="py-2 px-4 border-b">62+</td><td className="py-2 px-4 border-b">None</td></tr>
-              <tr><td className="py-2 px-4 border-b">Credit Line Growth</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (unused portion)</td><td className="py-2 px-4 border-b">No</td></tr>
-              <tr><td className="py-2 px-4">Best For</td><td className="py-2 px-4 text-green-700 font-semibold">Retirement income</td><td className="py-2 px-4">Short-term needs</td></tr>
+              <tr><td className="py-2 px-4 border-b">Credit Line Growth</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (unused portion)</td><td className="py-2 px-4 border-b">No</td></tr>
+              <tr><td className="py-2 px-4">Best For</td><td className="py-2 px-4 text-blue-700 font-semibold">Retirement income</td><td className="py-2 px-4">Short-term needs</td></tr>
             </tbody>
           </table>
         </div>

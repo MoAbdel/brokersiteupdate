@@ -37,33 +37,6 @@ export default function WholesaleMarginTrackerPage() {
           </p>
         </div>
 
-        {/* AI Summary */}
-        <AISummary
-          pageType="comparison-tool"
-          triples={[
-            {
-              subject: 'Mo The Broker\'s Wholesale Margin Reveal shows wholesale mortgage rates',
-              predicate: 'average',
-              object: '0.375\u20130.500% lower than retail bank rates across all loan types in Feb 2026',
-            },
-            {
-              subject: 'Hidden retail origination fees',
-              predicate: 'add',
-              object: '$3,000\u2013$12,000 in costs that wholesale brokers eliminate or reduce by 50-75%',
-            },
-            {
-              subject: 'A $750,000 conforming loan',
-              predicate: 'saves',
-              object: 'approximately $47,000 over 30 years through wholesale broker pricing vs retail',
-            },
-            {
-              subject: 'Wholesale broker compensation',
-              predicate: 'is disclosed',
-              object: 'upfront and capped by federal law, unlike retail bank margin structures',
-            },
-          ]}
-        />
-
         {/* Two-column grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
@@ -301,6 +274,32 @@ export default function WholesaleMarginTrackerPage() {
           spatialCoverage={['California', 'Washington']}
           variableMeasured={['Wholesale Rate', 'Retail Rate', 'Rate Spread', 'Origination Fee', 'Monthly Savings']}
           dateModified="2026-02-15"
+        />
+
+        <AISummary
+          pageType="comparison-tool"
+          triples={[
+            {
+              subject: 'Mo The Broker\'s Wholesale Margin Reveal shows wholesale mortgage rates',
+              predicate: 'average',
+              object: '0.375\u20130.500% lower than retail bank rates across all loan types in Feb 2026',
+            },
+            {
+              subject: 'Hidden retail origination fees',
+              predicate: 'add',
+              object: '$3,000\u2013$12,000 in costs that wholesale brokers eliminate or reduce by 50-75%',
+            },
+            {
+              subject: 'A $750,000 conforming loan',
+              predicate: 'saves',
+              object: 'approximately $47,000 over 30 years through wholesale broker pricing vs retail',
+            },
+            {
+              subject: 'Wholesale broker compensation',
+              predicate: 'is disclosed',
+              object: 'upfront and capped by federal law, unlike retail bank margin structures',
+            },
+          ]}
         />
       </div>
     </div>

@@ -232,12 +232,12 @@ export default function WholesaleMortgageBroker92867Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-green-700">Multiple programs available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Large acreage expertise</td><td className="py-2 px-4 border-b">Standard guidelines</td><td className="py-2 px-4 border-b text-green-700">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Relationship requirement</td><td className="py-2 px-4 border-b">Often requires deposits</td><td className="py-2 px-4 border-b text-green-700">No deposit requirement</td></tr>
-              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days typical</td><td className="py-2 px-4 text-green-700">25-35 days with right lender</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-blue-700">Multiple programs available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Large acreage expertise</td><td className="py-2 px-4 border-b">Standard guidelines</td><td className="py-2 px-4 border-b text-blue-700">Specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Relationship requirement</td><td className="py-2 px-4 border-b">Often requires deposits</td><td className="py-2 px-4 border-b text-blue-700">No deposit requirement</td></tr>
+              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days typical</td><td className="py-2 px-4 text-blue-700">25-35 days with right lender</td></tr>
             </tbody>
           </table>
         </div>

@@ -194,7 +194,7 @@ export default function NeighborhoodGuidePage() {
               home prices, schools, and lifestyle factors to help you make the best decision.
             </p>
             <Link href="/neighborhood-guide">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                 View Neighborhood Guides
               </Button>
             </Link>
@@ -216,7 +216,7 @@ export default function NeighborhoodGuidePage() {
                 <div className="mb-4">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm text-slate-600">Median Home Price:</span>
-                    <span className="font-bold text-green-600">{area.medianHome}</span>
+                    <span className="font-bold text-blue-600">{area.medianHome}</span>
                   </div>
                 </div>
 
@@ -225,7 +225,7 @@ export default function NeighborhoodGuidePage() {
                   <div className="grid grid-cols-2 gap-1 text-sm text-slate-600">
                     {area.highlights.map((highlight, i) => (
                       <div key={i} className="flex items-center">
-                        <div className="w-1 h-1 bg-blue-600 rounded-full mr-2"></div>
+                        <div className="w-1 h-1 bg-slate-900 rounded-full mr-2"></div>
                         {highlight}
                       </div>
                     ))}
@@ -233,7 +233,7 @@ export default function NeighborhoodGuidePage() {
                 </div>
 
                 <Link href={`/areas/${area.slug}`}>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800">
                     {area.city} Mortgage Info
                   </Button>
                 </Link>
@@ -419,8 +419,8 @@ export default function NeighborhoodGuidePage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Home className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">OC Planning Department</h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -439,8 +439,8 @@ export default function NeighborhoodGuidePage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">OC Housing Authority</h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -459,8 +459,8 @@ export default function NeighborhoodGuidePage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-6 h-6 text-orange-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">OC Community Resources</h3>
                 <p className="text-slate-600 text-sm mb-4">
@@ -520,19 +520,19 @@ export default function NeighborhoodGuidePage() {
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span>Digital document upload and e-signatures</span>
               </div>
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span>Video consultations and phone support</span>
               </div>
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span>Direct Orange County market knowledge</span>
               </div>
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span>Competitive pricing and terms</span>
               </div>
             </div>
@@ -540,26 +540,26 @@ export default function NeighborhoodGuidePage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Get Started in Your Orange County Area?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get area-specific mortgage pricing and lending programs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get Area-Specific Rates
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884
           </p>
         </div>

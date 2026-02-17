@@ -21,7 +21,7 @@ export default function NotFound() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
           <Link
             href="/"
-            className="flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            className="flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors"
           >
             <Home className="w-5 h-5" />
             Home Page
@@ -37,7 +37,7 @@ export default function NotFound() {
           
           <a
             href="tel:+19498229662"
-            className="flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
+            className="flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors"
           >
             <Phone className="w-5 h-5" />
             Call Now

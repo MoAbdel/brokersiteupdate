@@ -333,10 +333,10 @@ export default function HomeEquitySanMarinoCaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Preserves 1st mortgage rate</td><td className="py-2 px-4 border-b text-green-700">Yes</td><td className="py-2 px-4 border-b text-green-700">Yes</td><td className="py-2 px-4 border-b">No</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Funding flexibility</td><td className="py-2 px-4 border-b text-green-700">Draw as needed</td><td className="py-2 px-4 border-b">Lump sum</td><td className="py-2 px-4 border-b">Lump sum</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate type</td><td className="py-2 px-4 border-b">Variable</td><td className="py-2 px-4 border-b text-green-700">Fixed</td><td className="py-2 px-4 border-b text-green-700">Fixed available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Closing costs</td><td className="py-2 px-4 border-b text-green-700">Lower</td><td className="py-2 px-4 border-b">Moderate</td><td className="py-2 px-4 border-b">Higher</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Preserves 1st mortgage rate</td><td className="py-2 px-4 border-b text-blue-700">Yes</td><td className="py-2 px-4 border-b text-blue-700">Yes</td><td className="py-2 px-4 border-b">No</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Funding flexibility</td><td className="py-2 px-4 border-b text-blue-700">Draw as needed</td><td className="py-2 px-4 border-b">Lump sum</td><td className="py-2 px-4 border-b">Lump sum</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate type</td><td className="py-2 px-4 border-b">Variable</td><td className="py-2 px-4 border-b text-blue-700">Fixed</td><td className="py-2 px-4 border-b text-blue-700">Fixed available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Closing costs</td><td className="py-2 px-4 border-b text-blue-700">Lower</td><td className="py-2 px-4 border-b">Moderate</td><td className="py-2 px-4 border-b">Higher</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Best San Marino use</td><td className="py-2 px-4">Phased renovation</td><td className="py-2 px-4">Defined project</td><td className="py-2 px-4">Rate improvement + cash</td></tr>
             </tbody>
           </table>

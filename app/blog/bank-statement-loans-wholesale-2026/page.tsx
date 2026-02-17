@@ -170,12 +170,12 @@ export default function BankStatementLoansWholesalePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Credit Score</td><td className="py-2 px-4 border-b">620-700+</td><td className="py-2 px-4 border-b text-green-700">Find lenders at every tier</td></tr>
-              <tr><td className="py-2 px-4 border-b">Down Payment</td><td className="py-2 px-4 border-b">10-20%</td><td className="py-2 px-4 border-b text-green-700">Options at 10% for qualified borrowers</td></tr>
-              <tr><td className="py-2 px-4 border-b">Statement Period</td><td className="py-2 px-4 border-b">12-24 months</td><td className="py-2 px-4 border-b text-green-700">12-month programs available</td></tr>
-              <tr><td className="py-2 px-4 border-b">Self-Employment</td><td className="py-2 px-4 border-b">2+ years typical</td><td className="py-2 px-4 border-b text-green-700">Some lenders accept 1 year</td></tr>
-              <tr><td className="py-2 px-4 border-b">Reserves</td><td className="py-2 px-4 border-b">3-12 months</td><td className="py-2 px-4 border-b text-green-700">Find lowest reserve requirements</td></tr>
-              <tr><td className="py-2 px-4">Loan Amount</td><td className="py-2 px-4">Up to $3M+</td><td className="py-2 px-4 text-green-700">Jumbo bank statement specialists</td></tr>
+              <tr><td className="py-2 px-4 border-b">Credit Score</td><td className="py-2 px-4 border-b">620-700+</td><td className="py-2 px-4 border-b text-blue-700">Find lenders at every tier</td></tr>
+              <tr><td className="py-2 px-4 border-b">Down Payment</td><td className="py-2 px-4 border-b">10-20%</td><td className="py-2 px-4 border-b text-blue-700">Options at 10% for qualified borrowers</td></tr>
+              <tr><td className="py-2 px-4 border-b">Statement Period</td><td className="py-2 px-4 border-b">12-24 months</td><td className="py-2 px-4 border-b text-blue-700">12-month programs available</td></tr>
+              <tr><td className="py-2 px-4 border-b">Self-Employment</td><td className="py-2 px-4 border-b">2+ years typical</td><td className="py-2 px-4 border-b text-blue-700">Some lenders accept 1 year</td></tr>
+              <tr><td className="py-2 px-4 border-b">Reserves</td><td className="py-2 px-4 border-b">3-12 months</td><td className="py-2 px-4 border-b text-blue-700">Find lowest reserve requirements</td></tr>
+              <tr><td className="py-2 px-4">Loan Amount</td><td className="py-2 px-4">Up to $3M+</td><td className="py-2 px-4 text-blue-700">Jumbo bank statement specialists</td></tr>
             </tbody>
           </table>
         </div>
@@ -218,11 +218,11 @@ export default function BankStatementLoansWholesalePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Calculation Methods</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">After Denial</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Submit to another lender</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">Not possible</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Built into process</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Expertise Level</td><td className="py-2 px-4">General</td><td className="py-2 px-4 text-green-700 font-semibold">Specialist knowledge</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Calculation Methods</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">After Denial</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Submit to another lender</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">Not possible</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into process</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Expertise Level</td><td className="py-2 px-4">General</td><td className="py-2 px-4 text-blue-700 font-semibold">Specialist knowledge</td></tr>
             </tbody>
           </table>
         </div>

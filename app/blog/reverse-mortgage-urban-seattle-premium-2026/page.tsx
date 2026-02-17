@@ -417,7 +417,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Seattle Reverse Mortgage Insight</h4>
             <p className="mb-0">Seattle&apos;s tech-driven appreciation has created a unique reverse mortgage opportunity: homeowners who bought before the Amazon and Microsoft expansion hold equity positions that far exceed their original purchase prices. A Ballard bungalow purchased for $180,000 in 1992 is now worth $950,000 &mdash; representing over $770,000 in equity accessible through a reverse mortgage. Washington&apos;s zero state income tax means these proceeds are not diminished by state taxation, an advantage worth thousands annually compared to California&apos;s top marginal rate.</p>
           </div>
@@ -477,7 +477,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Shoreline Reverse Mortgage Insight</h4>
             <p className="mb-0">Shoreline&apos;s new light rail stations have fundamentally changed the city&apos;s transit connectivity, adding both convenience for aging-in-place seniors and long-term property value support. Homes within a half-mile of the Shoreline South/148th station have appreciated faster than the city average since the 2024 opening. For seniors considering a reverse mortgage, this transit-driven appreciation strengthens the long-term equity position, meaning the growing line of credit expands in parallel with rising home values &mdash; a dual growth dynamic that enhances retirement security.</p>
           </div>
@@ -537,7 +537,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Lake Forest Park Reverse Mortgage Insight</h4>
             <p className="mb-0">Lake Forest Park&apos;s unique position as a wooded lakeside community within King County creates strong long-term property value support. The Burke-Gilman Trail provides seniors with car-free exercise and transportation options that reduce living costs and support healthy aging. Waterfront homes may exceed the HECM limit, requiring proprietary programs, but the majority of Lake Forest Park properties fall within the $1,149,825 cap &mdash; making standard HECM the optimal choice with its growing line of credit and FHA insurance protections.</p>
           </div>
@@ -597,7 +597,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Burien Reverse Mortgage Insight</h4>
             <p className="mb-0">Burien&apos;s gateway pricing makes it one of the most HECM-efficient markets in King County. Because home values fall well below the $1,149,825 HECM limit, the full appraised value is used in reverse mortgage calculations with no equity left on the table. Long-term homeowners who purchased for $150,000 to $250,000 during the 2000s now hold $350,000 to $550,000 in equity &mdash; accessible through HECM without monthly payments. The rapid appreciation trajectory suggests these equity positions will continue growing, strengthening the reverse mortgage as a long-term retirement tool.</p>
           </div>

@@ -210,51 +210,51 @@ export default function MortgageBrokerVsBankPage() {
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Lender Access</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">200+ wholesale lenders</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">200+ wholesale lenders</td>
                   <td className="py-3 px-4 border-b">1 lender (themselves)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rate Shopping</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Automatic comparison</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Automatic comparison</td>
                   <td className="py-3 px-4 border-b">Not possible</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Program Variety</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Full market access</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Full market access</td>
                   <td className="py-3 px-4 border-b">Limited to bank products</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Bank Statement Loans</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">25+ lender options</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">25+ lender options</td>
                   <td className="py-3 px-4 border-b">Rarely available</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Jumbo Options</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">50+ jumbo lenders</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">50+ jumbo lenders</td>
                   <td className="py-3 px-4 border-b">1 jumbo program</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Service Style</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Personal relationship</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Personal relationship</td>
                   <td className="py-3 px-4 border-b">Corporate/call center</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">If Denied</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Try another lender</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Try another lender</td>
                   <td className="py-3 px-4 border-b">Start over elsewhere</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 font-medium">Typical Closing Time</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">21-30 days</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">21-30 days</td>
                   <td className="py-3 px-4">30-45 days</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-4 mt-6">
-            <p className="font-semibold text-green-800 mb-1">The Bottom Line</p>
-            <p className="text-green-700 mb-0">
+          <div className="bg-slate-50 border-l-4 border-green-500 p-4 mt-6">
+            <p className="font-semibold text-slate-900 mb-1">The Bottom Line</p>
+            <p className="text-blue-700 mb-0">
               Mortgage brokers provide structural advantages through lender competition, wholesale pricing, program variety, and personalized service. While banks work for some borrowers, brokers deliver measurably better outcomes for most—especially self-employed borrowers, investors, jumbo loan seekers, and anyone prioritizing optimal rates.
             </p>
           </div>
@@ -387,42 +387,42 @@ export default function MortgageBrokerVsBankPage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b">Bank Statement Loans</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">25+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">25+ lender options</td>
                 <td className="py-2 px-4 border-b">Rarely offered</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">DSCR Investment Loans</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">20+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">20+ lender options</td>
                 <td className="py-2 px-4 border-b">Rarely offered</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Asset Depletion</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">15+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">15+ lender options</td>
                 <td className="py-2 px-4 border-b">Not typically available</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Non-QM Programs</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">30+ specialized lenders</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ specialized lenders</td>
                 <td className="py-2 px-4 border-b">Not available</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Interest-Only Jumbo</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple lender options</td>
                 <td className="py-2 px-4 border-b">Very limited</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Foreign National</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">10+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">10+ lender options</td>
                 <td className="py-2 px-4 border-b">Generally unavailable</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Jumbo Bank Statement</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">15+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">15+ lender options</td>
                 <td className="py-2 px-4 border-b">Not available</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4">ITIN Borrower Programs</td>
-                <td className="py-2 px-4 text-green-700 font-semibold">Multiple options</td>
+                <td className="py-2 px-4 text-blue-700 font-semibold">Multiple options</td>
                 <td className="py-2 px-4">Very rare</td>
               </tr>
             </tbody>
@@ -481,27 +481,27 @@ export default function MortgageBrokerVsBankPage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b">Primary Contact</td>
-                <td className="py-2 px-4 border-b text-green-700">Single broker</td>
+                <td className="py-2 px-4 border-b text-blue-700">Single broker</td>
                 <td className="py-2 px-4 border-b">Multiple people</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Response Time</td>
-                <td className="py-2 px-4 border-b text-green-700">Usually same day</td>
+                <td className="py-2 px-4 border-b text-blue-700">Usually same day</td>
                 <td className="py-2 px-4 border-b">Often 24-48 hours</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Phone Access</td>
-                <td className="py-2 px-4 border-b text-green-700">Direct line to broker</td>
+                <td className="py-2 px-4 border-b text-blue-700">Direct line to broker</td>
                 <td className="py-2 px-4 border-b">Call center routing</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">File Knowledge</td>
-                <td className="py-2 px-4 border-b text-green-700">Broker knows details</td>
+                <td className="py-2 px-4 border-b text-blue-700">Broker knows details</td>
                 <td className="py-2 px-4 border-b">Must look up each time</td>
               </tr>
               <tr>
                 <td className="py-2 px-4">After Hours</td>
-                <td className="py-2 px-4 text-green-700">Often available</td>
+                <td className="py-2 px-4 text-blue-700">Often available</td>
                 <td className="py-2 px-4">Limited or none</td>
               </tr>
             </tbody>
@@ -645,10 +645,10 @@ export default function MortgageBrokerVsBankPage() {
         {/* Expert Summary + CTA */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl my-10">
           <h2 className="text-2xl font-bold text-white mt-0 mb-4">Expert Summary: Why Brokers Win</h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-slate-200 mb-4">
             The mortgage broker vs bank comparison reveals consistent structural advantages favoring brokers. Access to 200+ lenders creates rate competition that no bank can match. Program variety serves borrowers that bank guidelines exclude. Personalized service ensures accountability that corporate workflows cannot deliver. Approval flexibility means one lender&apos;s denial doesn&apos;t end your homeownership journey.
           </p>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Mo Abdel, NMLS #1426884, provides wholesale mortgage brokerage services through Lumin Lending (NMLS #2716106) across California and Washington. With access to over 200 wholesale lenders, Mo delivers the rate, program, and service advantages that make brokers the smart choice for home financing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

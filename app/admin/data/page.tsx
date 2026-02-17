@@ -145,7 +145,7 @@ export default function AdminDataPage() {
           <Card>
             <CardContent className="p-6">
               <div className="flex items-center">
-                <Mail className="w-8 h-8 text-green-600" />
+                <Mail className="w-8 h-8 text-blue-600" />
                 <div className="ml-4">
                   <p className="text-2xl font-bold text-slate-900">{newsletters.filter(n => n.isActive).length}</p>
                   <p className="text-slate-600">Newsletter Subscribers</p>
@@ -157,7 +157,7 @@ export default function AdminDataPage() {
           <Card>
             <CardContent className="p-6">
               <div className="flex items-center">
-                <Users className="w-8 h-8 text-purple-600" />
+                <Users className="w-8 h-8 text-blue-600" />
                 <div className="ml-4">
                   <p className="text-2xl font-bold text-slate-900">
                     {new Set([...quotes.map(q => q.email), ...newsletters.map(n => n.email)]).size}
@@ -178,7 +178,7 @@ export default function AdminDataPage() {
             </CardTitle>
             <Button
               onClick={() => exportToCSV(quotes, 'quote-requests.csv')}
-              className="bg-blue-600 hover:bg-blue-700"
+              className="bg-slate-900 hover:bg-slate-800"
               disabled={quotes.length === 0}
             >
               <Download className="w-4 h-4 mr-2" />
@@ -222,7 +222,7 @@ export default function AdminDataPage() {
                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                             quote.status === 'new' ? 'bg-blue-100 text-blue-800' :
                             quote.status === 'contacted' ? 'bg-yellow-100 text-yellow-800' :
-                            quote.status === 'qualified' ? 'bg-green-100 text-green-800' :
+                            quote.status === 'qualified' ? 'bg-slate-100 text-slate-900' :
                             'bg-slate-100 text-slate-800'
                           }`}>
                             {quote.status}
@@ -242,12 +242,12 @@ export default function AdminDataPage() {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between">
             <CardTitle className="flex items-center">
-              <Mail className="w-6 h-6 mr-2 text-green-600" />
+              <Mail className="w-6 h-6 mr-2 text-blue-600" />
               Newsletter Subscriptions ({newsletters.filter(n => n.isActive).length})
             </CardTitle>
             <Button
               onClick={() => exportToCSV(newsletters.filter(n => n.isActive), 'newsletter-subscribers.csv')}
-              className="bg-green-600 hover:bg-green-700"
+              className="bg-slate-900 hover:bg-slate-800"
               disabled={newsletters.length === 0}
             >
               <Download className="w-4 h-4 mr-2" />
@@ -277,7 +277,7 @@ export default function AdminDataPage() {
                         <td className="py-3 px-2 capitalize">{sub.source.replace('_', ' ')}</td>
                         <td className="py-3 px-2">
                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            sub.isActive ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                            sub.isActive ? 'bg-slate-100 text-slate-900' : 'bg-red-100 text-red-800'
                           }`}>
                             {sub.isActive ? 'Active' : 'Unsubscribed'}
                           </span>

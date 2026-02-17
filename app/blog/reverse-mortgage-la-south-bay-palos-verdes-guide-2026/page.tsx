@@ -271,7 +271,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Palos Verdes Estates</td>
                   <td className="px-4 py-3 border-t">$2.9M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$1.1M-$1.6M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$1.1M-$1.6M</td>
                   <td className="px-4 py-3 border-t">Malaga Cove, Lunada Bay, Montemalaga</td>
                   <td className="px-4 py-3 border-t">Retired executive, long-term homeowner</td>
                 </tr>
@@ -279,7 +279,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$780K-$1.1M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$780K-$1.1M</td>
                   <td className="px-4 py-3 border-t">Portuguese Bend, Trump National area, Terranea</td>
                   <td className="px-4 py-3 border-t">Aerospace retiree, professional couple</td>
                 </tr>
@@ -287,7 +287,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$3.0M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$1.2M-$1.7M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$1.2M-$1.7M</td>
                   <td className="px-4 py-3 border-t">Gated equestrian estates, Crest Road</td>
                   <td className="px-4 py-3 border-t">Equestrian property owner, multi-generational</td>
                 </tr>
@@ -295,7 +295,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$780K-$1.1M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$780K-$1.1M</td>
                   <td className="px-4 py-3 border-t">Peninsula Center, Highridge Road</td>
                   <td className="px-4 py-3 border-t">Medical professional, business owner</td>
                 </tr>
@@ -303,7 +303,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Hidden Hills</td>
                   <td className="px-4 py-3 border-t">$6.0M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$2.2M-$3.2M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$2.2M-$3.2M</td>
                   <td className="px-4 py-3 border-t">Long Valley Road, Round Meadow, Ashley Ridge</td>
                   <td className="px-4 py-3 border-t">Entertainment executive, celebrity estate owner</td>
                 </tr>
@@ -311,7 +311,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Calabasas</td>
                   <td className="px-4 py-3 border-t">$1.8M</td>
                   <td className="px-4 py-3 border-t">$580K-$660K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$700K-$1.0M</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$700K-$1.0M</td>
                   <td className="px-4 py-3 border-t">The Oaks, Calabasas Park, Monte Nido</td>
                   <td className="px-4 py-3 border-t">Entertainment industry retiree, tech executive</td>
                 </tr>
@@ -319,7 +319,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Agoura Hills</td>
                   <td className="px-4 py-3 border-t">$1.1M</td>
                   <td className="px-4 py-3 border-t">$480K-$560K</td>
-                  <td className="px-4 py-3 border-t text-green-700">N/A (HECM sufficient)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">N/A (HECM sufficient)</td>
                   <td className="px-4 py-3 border-t">Morrison Ranch, Old Agoura, Hillrise</td>
                   <td className="px-4 py-3 border-t">Professional couple, long-term resident</td>
                 </tr>
@@ -327,7 +327,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Westlake Village</td>
                   <td className="px-4 py-3 border-t">$1.4M</td>
                   <td className="px-4 py-3 border-t">$560K-$640K</td>
-                  <td className="px-4 py-3 border-t text-green-700">$540K-$780K</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$540K-$780K</td>
                   <td className="px-4 py-3 border-t">North Ranch, Lake Sherwood, Westlake Island</td>
                   <td className="px-4 py-3 border-t">Corporate retiree, golf community resident</td>
                 </tr>
@@ -520,28 +520,28 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t">$2.2M</td>
                   <td className="px-4 py-3 border-t">$2.4M</td>
                   <td className="px-4 py-3 border-t">$2.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">+13.6% over 2 years</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+13.6% over 2 years</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hidden Hills Median Value</td>
                   <td className="px-4 py-3 border-t">$5.4M</td>
                   <td className="px-4 py-3 border-t">$5.7M</td>
                   <td className="px-4 py-3 border-t">$6.0M</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1% over 2 years</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1% over 2 years</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Calabasas Median Value</td>
                   <td className="px-4 py-3 border-t">$1.6M</td>
                   <td className="px-4 py-3 border-t">$1.7M</td>
                   <td className="px-4 py-3 border-t">$1.8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">+12.5% over 2 years</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+12.5% over 2 years</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Region Avg. Days on Market</td>
                   <td className="px-4 py-3 border-t">52</td>
                   <td className="px-4 py-3 border-t">48</td>
                   <td className="px-4 py-3 border-t">45</td>
-                  <td className="px-4 py-3 border-t text-green-700">Tightening inventory</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Tightening inventory</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">% Homeowners 62+</td>
@@ -576,7 +576,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
             hub guides below.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Reverse Mortgage Palos Verdes Peninsula</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Palos Verdes Estates ($2.9M median), Rancho Palos Verdes ($2.0M),
@@ -609,7 +609,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
             </p>
           </div>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Reverse Mortgage Western LA Luxury Communities</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Hidden Hills ($6.0M median), Calabasas ($1.8M),
@@ -661,7 +661,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
             convenience&mdash;it is a financial necessity.
           </p>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 1: Retired Aerospace Executive on the PV Bluffs</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Richard, age 74, retired Northrop Grumman systems engineer. Purchased his
@@ -684,7 +684,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
             </p>
           </div>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 2: Entertainment Industry Retiree in Calabasas</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Diane, age 68, retired television production executive. Purchased her home in

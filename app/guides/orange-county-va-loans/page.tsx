@@ -248,7 +248,7 @@ export default function OrangeCountyVALoansGuide() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -284,9 +284,9 @@ export default function OrangeCountyVALoansGuide() {
                   <h3 className="text-xl font-bold text-slate-900">{benefit.benefit}</h3>
                 </div>
                 <p className="text-slate-600 mb-4">{benefit.description}</p>
-                <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-                  <span className="text-sm font-medium text-green-800">Potential Savings: </span>
-                  <span className="text-sm font-bold text-green-600">{benefit.savings}</span>
+                <div className="bg-slate-50 border border-slate-200 rounded-lg p-3">
+                  <span className="text-sm font-medium text-slate-900">Potential Savings: </span>
+                  <span className="text-sm font-bold text-blue-600">{benefit.savings}</span>
                 </div>
               </div>
             ))}
@@ -325,7 +325,7 @@ export default function OrangeCountyVALoansGuide() {
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Avg Commute:</span>
-                    <div className="font-medium text-green-600">{base.avgCommute}</div>
+                    <div className="font-medium text-blue-600">{base.avgCommute}</div>
                   </div>
                 </div>
                 
@@ -374,7 +374,7 @@ export default function OrangeCountyVALoansGuide() {
                     <td className="px-6 py-4">
                       <div className="font-semibold text-slate-900">{area.area}</div>
                     </td>
-                    <td className="px-6 py-4 font-semibold text-green-600">{area.medianPrice}</td>
+                    <td className="px-6 py-4 font-semibold text-blue-600">{area.medianPrice}</td>
                     <td className="px-6 py-4">
                       <div className="text-slate-600">{area.jumboCoverage} of homes</div>
                       <div className="text-xs text-slate-500">under {area.vaLoanLimit}</div>
@@ -382,7 +382,7 @@ export default function OrangeCountyVALoansGuide() {
                     <td className="px-6 py-4">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
                         area.militaryFriendly 
-                          ? 'bg-green-100 text-green-800' 
+                          ? 'bg-slate-100 text-slate-900' 
                           : 'bg-gray-100 text-gray-800'
                       }`}>
                         {area.militaryFriendly ? 'Yes' : 'Limited'}
@@ -419,14 +419,14 @@ export default function OrangeCountyVALoansGuide() {
             {vaLoanProcess.map((step, index) => (
               <div key={index} className="bg-slate-50 rounded-lg p-6 border border-slate-200">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-slate-900 rounded-full flex items-center justify-center mr-6">
                     <span className="text-white font-bold text-lg">{step.step}</span>
                   </div>
                   
                   <div className="flex-grow">
                     <div className="flex items-center justify-between mb-3">
                       <h3 className="text-xl font-bold text-slate-900">{step.title}</h3>
-                      <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                      <span className="bg-slate-100 text-slate-900 px-3 py-1 rounded-full text-sm font-medium">
                         {step.timeframe}
                       </span>
                     </div>
@@ -512,18 +512,18 @@ export default function OrangeCountyVALoansGuide() {
               </div>
             </div>
 
-            <div className="bg-green-50 border border-green-200 rounded-lg p-8">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-green-900 mb-4">VA Jumbo Loans</h3>
               <div className="space-y-4">
                 <div>
-                  <span className="text-green-700 font-medium">Above Loan Limit:</span>
-                  <div className="text-3xl font-bold text-green-600">$1,266,301+</div>
+                  <span className="text-blue-700 font-medium">Above Loan Limit:</span>
+                  <div className="text-3xl font-bold text-blue-600">$1,266,301+</div>
                 </div>
                 <div>
-                  <span className="text-green-700 font-medium">Down Payment:</span>
-                  <div className="text-xl font-semibold text-green-600">25% on excess amount</div>
+                  <span className="text-blue-700 font-medium">Down Payment:</span>
+                  <div className="text-xl font-semibold text-blue-600">25% on excess amount</div>
                 </div>
-                <ul className="space-y-2 text-green-700">
+                <ul className="space-y-2 text-blue-700">
                   <li>• Still no PMI required</li>
                   <li>• Competitive jumbo rates</li>
                   <li>• Access to luxury markets</li>
@@ -546,12 +546,12 @@ export default function OrangeCountyVALoansGuide() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Honor Your Service with Orange County Homeownership
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-slate-200 mb-8">
             Ready to use your VA benefits? Get pre-approved for a VA loan and start your 
             Orange County home search today. Mo Abdel specializes in VA loans for veterans.
           </p>
@@ -564,14 +564,14 @@ export default function OrangeCountyVALoansGuide() {
               </Button>
             </a>
             <Link href="/contact">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold">
                 Get VA Loan Pre-Approval
               </Button>
             </Link>
           </div>
           
           <div className="mt-8 pt-8 border-t border-blue-500">
-            <p className="text-blue-100">
+            <p className="text-slate-200">
               <strong>Mo Abdel</strong> • NMLS #1426884 • Proudly serving Orange County veterans and military families since 2015
             </p>
           </div>

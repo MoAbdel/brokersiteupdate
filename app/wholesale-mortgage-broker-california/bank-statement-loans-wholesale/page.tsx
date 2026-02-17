@@ -162,7 +162,7 @@ export default function BankStatementLoansWholesalePage() {
           <li><strong>Tax strategy conflicts with mortgage qualification:</strong> Good tax planning = lower qualifying income</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6 border border-green-200">
+        <div className="bg-slate-50 p-6 rounded-lg my-6 border border-slate-200">
           <h4 className="font-bold text-green-900 mt-0">Real Example</h4>
           <p className="mb-0">
             A California business owner deposits $35,000/month into their account but reports $150,000 annually on tax returns after deductions. Tax return qualification: $150,000/year. Bank statement qualification: $294,000/year (after 30% expense factor). This difference can mean qualifying for a $1.2M home versus a $600K home.
@@ -233,22 +233,22 @@ export default function BankStatementLoansWholesalePage() {
               <tr>
                 <td className="px-4 py-2 border-b">Professional services</td>
                 <td className="px-4 py-2 border-b">25-35%</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">$19,500-22,500/mo income</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">$19,500-22,500/mo income</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Consulting</td>
                 <td className="px-4 py-2 border-b">30-40%</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">$18,000-21,000/mo income</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">$18,000-21,000/mo income</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Retail/Restaurant</td>
                 <td className="px-4 py-2 border-b">40-50%</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">$15,000-18,000/mo income</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">$15,000-18,000/mo income</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Construction/Trades</td>
                 <td className="px-4 py-2 border-b">35-50%</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">$15,000-19,500/mo income</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">$15,000-19,500/mo income</td>
               </tr>
             </tbody>
           </table>
@@ -372,22 +372,22 @@ export default function BankStatementLoansWholesalePage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">700+ credit, 20% down</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.00-7.50%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.00-7.50%</td>
                 <td className="px-4 py-2 border-b text-red-700">7.50-8.25%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">680 credit, 25% down</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.25-7.75%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.25-7.75%</td>
                 <td className="px-4 py-2 border-b text-red-700">7.75-8.50%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">660 credit, 30% down</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.50-8.00%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.50-8.00%</td>
                 <td className="px-4 py-2 border-b text-red-700">8.00-8.75%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Jumbo ($1M+), 25% down</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.25-7.75%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.25-7.75%</td>
                 <td className="px-4 py-2 border-b text-red-700">8.00-8.75%</td>
               </tr>
             </tbody>

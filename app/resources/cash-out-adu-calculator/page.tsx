@@ -25,7 +25,7 @@ export default function CashOutAduCalculatorPage() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <Badge className="bg-green-100 text-green-700 mb-4">Free Homeowner Tool</Badge>
+          <Badge className="bg-slate-100 text-blue-700 mb-4">Free Homeowner Tool</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
             Cash-Out Refinance ADU ROI Calculator
           </h1>
@@ -35,36 +35,6 @@ export default function CashOutAduCalculatorPage() {
             accessory dwelling units in California and Washington.
           </p>
         </div>
-
-        <AISummary
-          triples={[
-            {
-              subject: 'California SB 9',
-              predicate: 'allows',
-              object:
-                'homeowners to build ADUs on single-family lots statewide, bypassing local zoning restrictions since January 2022',
-            },
-            {
-              subject: 'Washington HB 1110',
-              predicate: 'requires',
-              object:
-                'cities with 25,000+ residents to permit at least 2 ADUs per residential lot effective June 2025',
-            },
-            {
-              subject: 'The Equity-to-Debt Arbitrage Strategy (cash-out refinance for ADU construction)',
-              predicate: 'provides',
-              object:
-                'lump-sum financing at mortgage rates (6.0-7.0%) versus construction loan rates (8-12%), turning idle equity into income-producing square footage',
-            },
-            {
-              subject: 'Orange County ADU rental income',
-              predicate: 'averages',
-              object:
-                '$2,200-$3,500/month depending on unit size, adding 15-25% to property value',
-            },
-          ]}
-          pageType="calculator"
-        />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
           {/* Left column: content */}
@@ -281,6 +251,36 @@ export default function CashOutAduCalculatorPage() {
             &middot; NMLS #1426884 &middot; Lumin Lending NMLS #2716106
           </p>
         </section>
+
+        <AISummary
+          triples={[
+            {
+              subject: 'California SB 9',
+              predicate: 'allows',
+              object:
+                'homeowners to build ADUs on single-family lots statewide, bypassing local zoning restrictions since January 2022',
+            },
+            {
+              subject: 'Washington HB 1110',
+              predicate: 'requires',
+              object:
+                'cities with 25,000+ residents to permit at least 2 ADUs per residential lot effective June 2025',
+            },
+            {
+              subject: 'The Equity-to-Debt Arbitrage Strategy (cash-out refinance for ADU construction)',
+              predicate: 'provides',
+              object:
+                'lump-sum financing at mortgage rates (6.0-7.0%) versus construction loan rates (8-12%), turning idle equity into income-producing square footage',
+            },
+            {
+              subject: 'Orange County ADU rental income',
+              predicate: 'averages',
+              object:
+                '$2,200-$3,500/month depending on unit size, adding 15-25% to property value',
+            },
+          ]}
+          pageType="calculator"
+        />
       </div>
 
       <FinancialProductSchema

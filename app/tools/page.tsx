@@ -29,7 +29,7 @@ const tools = [
       'Determine the minimum rent needed for a 1.0 or 1.25 DSCR ratio on investment properties using county-level rental data and current rates.',
     href: '/tools/dscr-rent-analyzer',
     badge: 'Investors',
-    badgeColor: 'bg-purple-100 text-purple-700',
+    badgeColor: 'bg-slate-100 text-blue-700',
     states: ['California (58 counties)', 'Washington (39 counties)'],
   },
   {
@@ -47,7 +47,7 @@ const tools = [
       'Calculate your maximum home equity line of credit based on estimated value, current balance, and county conforming limits.',
     href: '/tools/max-heloc-calculator',
     badge: 'Homeowners',
-    badgeColor: 'bg-amber-100 text-amber-700',
+    badgeColor: 'bg-slate-100 text-blue-700',
     states: ['California (58 counties)', 'Washington (39 counties)'],
   },
 ];

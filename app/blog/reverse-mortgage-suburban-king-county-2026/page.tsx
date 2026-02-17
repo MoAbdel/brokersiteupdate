@@ -426,7 +426,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Federal Way Reverse Mortgage Insight</h4>
             <p className="mb-0">Federal Way&apos;s position as a mature suburban community means long-term homeowners hold exceptional equity positions relative to their original purchase prices. A homeowner who bought a Dash Point home for $165,000 in 1990 now sits on approximately $500,000 in equity &mdash; all accessible through HECM without monthly payments. Washington&apos;s zero state income tax and the availability of the state&apos;s senior property tax exemption program create a uniquely favorable environment for reverse mortgage borrowers in this price range.</p>
           </div>
@@ -486,7 +486,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Kent Reverse Mortgage Insight</h4>
             <p className="mb-0">Kent&apos;s Green River Valley location provides a unique economic dynamic for reverse mortgage planning. The valley&apos;s transformation from agricultural and manufacturing to a major logistics and warehouse hub (serving Amazon, UPS, and FedEx distribution centers) has driven sustained property value growth. Long-term homeowners on East Hill and West Hill have benefited from this economic evolution, building equity through both market appreciation and infrastructure investment. HECM is the optimal program for nearly all Kent properties, with values well within the lending limit.</p>
           </div>
@@ -546,7 +546,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Renton Reverse Mortgage Insight</h4>
             <p className="mb-0">Renton&apos;s economic diversification from Boeing-dependent to a multi-industry hub strengthens the reverse mortgage proposition for local seniors. Boeing retirees with pensions and 401(k) savings can supplement retirement income through HECM while maintaining their lakeside lifestyle near Gene Coulon Park. Kennydale waterfront properties may approach the HECM limit, but the vast majority of Renton homes fall well within the $1,149,825 cap, making standard HECM the best choice for FHA insurance protections and the growing line of credit feature.</p>
           </div>
@@ -606,7 +606,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Tukwila Reverse Mortgage Insight</h4>
             <p className="mb-0">Tukwila&apos;s unique position as a regional commercial hub with low residential density creates an interesting reverse mortgage dynamic. The Westfield Southcenter sales tax revenue subsidizes city services, keeping residential property taxes lower than surrounding communities. Combined with light rail access and Washington&apos;s zero state income tax, Tukwila seniors enjoy a cost-of-living advantage that extends reverse mortgage proceeds further. First-generation homeowners in Tukwila&apos;s diverse community can access equity built over 15 to 25 years of ownership while maintaining the transit connectivity and cultural community they value.</p>
           </div>
@@ -666,7 +666,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">SeaTac Reverse Mortgage Insight</h4>
             <p className="mb-0">SeaTac&apos;s gateway pricing creates a misconception that reverse mortgages provide insufficient proceeds. In reality, a $450,000 SeaTac home generates approximately $202,000 to $247,000 in HECM proceeds for a 72-year-old borrower &mdash; enough to eliminate an existing mortgage, fund home improvements, or provide $800 to $1,000 in monthly supplemental income for over 20 years. The Angle Lake light rail station adds both lifestyle value for aging in place and property value support for long-term equity growth. Washington&apos;s zero state income tax makes every dollar of proceeds fully effective.</p>
           </div>

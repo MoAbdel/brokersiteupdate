@@ -254,7 +254,7 @@ export default function WholesaleVsRetailMortgagePage() {
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Pricing Model</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">Institutional/Wholesale</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">Institutional/Wholesale</td>
                                     <td className="py-3 px-4 font-semibold">Retail Listing + Margin</td>
                                 </tr>
                                 <tr>

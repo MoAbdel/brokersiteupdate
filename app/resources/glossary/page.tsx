@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   BookOpen,
   Home,
@@ -249,35 +250,26 @@ export default function GlossaryPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Complete Reference Guide</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Mortgage & Real Estate Glossary
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Understand mortgage terminology with our comprehensive glossary. Clear definitions 
-              and examples to help Orange County home buyers navigate the loan process confidently.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <BookOpen className="w-5 h-5 mr-2" />
-                  Ask About Terms
-                </Button>
-              </Link>
-              <Link href="/calculator">
-                <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                  <Calculator className="w-5 h-5 mr-2" />
-                  Mortgage Calculator
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badgeText="Complete Reference Guide"
+        badgeIcon={BookOpen}
+        title="Mortgage & Real Estate Glossary"
+        subtitle={
+          <>
+            Understand mortgage terminology with our comprehensive glossary. Clear definitions and examples to help Orange County home buyers navigate the loan process confidently.
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Ask About Terms',
+          icon: BookOpen,
+        }}
+        secondaryAction={{
+          href: '/calculator',
+          label: 'Mortgage Calculator',
+          icon: Calculator,
+        }}
+      />
 
       {/* Terms Introduction */}
       <section className="py-16">
@@ -348,7 +340,7 @@ export default function GlossaryPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <DollarSign className="w-6 h-6 mr-2 text-green-600" />
+                  <DollarSign className="w-6 h-6 mr-2 text-blue-600" />
                   Payment Terms
                 </CardTitle>
               </CardHeader>
@@ -382,7 +374,7 @@ export default function GlossaryPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Percent className="w-6 h-6 mr-2 text-orange-600" />
+                  <Percent className="w-6 h-6 mr-2 text-blue-600" />
                   Rates & Ratios
                 </CardTitle>
               </CardHeader>
@@ -414,7 +406,7 @@ export default function GlossaryPage() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/contact">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white">
                     Ask a Question
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
@@ -434,10 +426,10 @@ export default function GlossaryPage() {
       {/* Official Authority Reference */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-gradient-to-r from-green-50 to-blue-50 border-green-200">
+          <Card className="bg-gradient-to-r from-green-50 to-blue-50 border-slate-200">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Shield className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Shield className="w-8 h-8 text-blue-600" />
               </div>
               <h2 className="text-2xl font-bold text-slate-900 mb-4">
                 Official Financial Terms & Definitions
@@ -451,7 +443,7 @@ export default function GlossaryPage() {
                 href="https://www.consumerfinance.gov/consumer-tools/mortgages/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                className="inline-flex items-center bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
                 <BookOpen className="w-5 h-5 mr-2" />
                 Visit CFPB Mortgage Resources
@@ -474,7 +466,7 @@ export default function GlossaryPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                 Start Your Application
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>

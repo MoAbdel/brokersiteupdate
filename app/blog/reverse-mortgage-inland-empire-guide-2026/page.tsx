@@ -275,7 +275,7 @@ export default function ReverseMortgageInlandEmpireGuidePage() {
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">Rancho Cucamonga / Alta Loma</td>
                 <td className="py-2 px-4 border-b">$1,000,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">HECM or Proprietary</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM or Proprietary</td>
                 <td className="py-2 px-4 border-b">$400,000 - $600,000</td>
                 <td className="py-2 px-4 border-b">Alta Loma, Etiwanda, Victoria Gardens</td>
               </tr>
@@ -338,7 +338,7 @@ export default function ReverseMortgageInlandEmpireGuidePage() {
               <tr><td className="py-2 px-4 border-b font-medium">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Yes (most programs)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Property Types</td><td className="py-2 px-4 border-b">SFR, FHA-approved condo, 2-4 units</td><td className="py-2 px-4 border-b">SFR, condo, some townhomes</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Credit Score</td><td className="py-2 px-4 border-b">No minimum (financial assessment)</td><td className="py-2 px-4 border-b">Typically 620+</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Best IE Fit</td><td className="py-2 px-4 text-blue-700">Redlands, Upland, Claremont, Chino Hills, most Rancho Cucamonga</td><td className="py-2 px-4 text-green-700 font-semibold">Premium Alta Loma estates above $1.15M</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Best IE Fit</td><td className="py-2 px-4 text-blue-700">Redlands, Upland, Claremont, Chino Hills, most Rancho Cucamonga</td><td className="py-2 px-4 text-blue-700 font-semibold">Premium Alta Loma estates above $1.15M</td></tr>
             </tbody>
           </table>
         </div>
@@ -658,7 +658,7 @@ export default function ReverseMortgageInlandEmpireGuidePage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Reverse Mortgages in the Inland Empire [2026]</h2>
           <p className="text-gray-800">
             The western Inland Empire represents one of Southern California&apos;s most compelling emerging markets for reverse mortgage equity access. With five affluent cities ranging from $700,000 median values in Redlands to $1 million in Rancho Cucamonga, IE seniors hold billions in untapped home equity built through decades of LA commuter wealth accumulation, college-town stability, and Ontario Airport corridor economic growth. The region&apos;s maturation from a value-oriented commuter alternative to a premium residential destination has created extraordinary equity positions for homeowners who purchased in the 1990s and 2000s.
@@ -667,20 +667,20 @@ export default function ReverseMortgageInlandEmpireGuidePage() {
             The vast majority of Inland Empire properties fit within the $1,149,825 HECM limit, making the FHA-insured product with its government-backed protections, line of credit growth, and non-recourse guarantees the primary tool for IE seniors. Premium properties in Alta Loma and Vellano that exceed the limit benefit from proprietary programs that access additional equity. In all cases, working with a wholesale broker who compares programs from 200+ lenders ensures Inland Empire seniors access the most competitive terms available in 2026.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in Rancho Cucamonga, Chino Hills, Claremont, Upland, or Redlands and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
+            If you own a home in Rancho Cucamonga, Chino Hills, Claremont, Upland, or Redlands and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free Inland Empire Reverse Mortgage Consultation</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             Serving Rancho Cucamonga, Alta Loma, Chino Hills, Claremont, Upland &amp; Redlands
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

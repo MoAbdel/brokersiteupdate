@@ -141,7 +141,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
               <Home className="w-4 h-4 text-purple-400" />
               <span className="text-purple-400 text-sm font-medium">DSCR for Short-Term Rentals</span>
             </div>
@@ -156,7 +156,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get STR DSCR Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -191,9 +191,9 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             The STR DSCR lending market has expanded significantly since 2023. According to industry estimates, vacation rental properties financed through DSCR programs grew by over 40% between 2024 and 2025, driven by investor demand and the maturation of income verification tools like AirDNA. By 2026, STR-specific DSCR programs are available from dozens of wholesale lenders, creating competitive pricing that benefits borrowers who shop through wholesale broker channels.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <PieChart className="w-5 h-5 text-purple-600" />
+              <PieChart className="w-5 h-5 text-blue-600" />
               STR DSCR Formula
             </h3>
             <div className="bg-white rounded-lg p-4 mb-4">
@@ -208,20 +208,20 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
               <strong>PITIA</strong> = Principal + Interest + Taxes + Insurance + Association dues (HOA)
             </p>
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Strong STR DSCR: 1.25+</p>
-                <p className="text-sm text-green-700">$6,500 STR income &divide; $5,000 PITIA = <strong>1.30</strong></p>
-                <p className="text-xs text-green-600 mt-1">Best rates; maximum LTV options</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Strong STR DSCR: 1.25+</p>
+                <p className="text-sm text-blue-700">$6,500 STR income &divide; $5,000 PITIA = <strong>1.30</strong></p>
+                <p className="text-xs text-blue-600 mt-1">Best rates; maximum LTV options</p>
               </div>
               <div className="bg-blue-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-blue-800">Standard: DSCR 1.0-1.24</p>
                 <p className="text-sm text-blue-700">$5,200 STR income &divide; $5,000 PITIA = <strong>1.04</strong></p>
                 <p className="text-xs text-blue-600 mt-1">Qualifies with standard pricing</p>
               </div>
-              <div className="bg-amber-100 rounded-lg p-4">
+              <div className="bg-slate-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-amber-800">Below Breakeven: &lt;1.0</p>
-                <p className="text-sm text-amber-700">$4,200 STR income &divide; $5,000 PITIA = <strong>0.84</strong></p>
-                <p className="text-xs text-amber-600 mt-1">Select lenders; higher down payment</p>
+                <p className="text-sm text-blue-700">$4,200 STR income &divide; $5,000 PITIA = <strong>0.84</strong></p>
+                <p className="text-xs text-blue-600 mt-1">Select lenders; higher down payment</p>
               </div>
             </div>
           </div>
@@ -278,32 +278,32 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reserve Requirements</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">6-12 months (often higher)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">6-12 months (often higher)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">6-12 months</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Interest Rate Premium</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Slight premium over LTR DSCR</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Standard DSCR pricing</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Slight premium over LTR DSCR</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Standard DSCR pricing</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lender Availability</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Growing but fewer lenders than LTR</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely available (100+ lenders)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely available (100+ lenders)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Local Regulation Review</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Required (STR permit verification)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Required (STR permit verification)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not typically required</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Volatility Risk</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Higher (seasonal, market-dependent)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Lower (stable lease income)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Higher (seasonal, market-dependent)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Lower (stable lease income)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Best For</td>
-                  <td className="px-4 py-3 text-sm text-purple-600 font-medium">Vacation markets, high-revenue STR properties</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Vacation markets, high-revenue STR properties</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Stable rental markets, long-term hold strategy</td>
                 </tr>
               </tbody>
@@ -339,7 +339,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">AirDNA Projections</td>
                   <td className="px-4 py-3 text-sm text-slate-600">AirDNA market analytics report for the specific address</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None</td>
                   <td className="px-4 py-3 text-sm text-slate-600">New purchases, conversions from LTR</td>
                   <td className="px-4 py-3 text-sm text-slate-600">75-90% of projected income</td>
                 </tr>
@@ -348,7 +348,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">12-24 months of Airbnb/VRBO host earnings data</td>
                   <td className="px-4 py-3 text-sm text-slate-600">12-24 months</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Existing STR operators refinancing</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">90-100% of actual income</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">90-100% of actual income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Hybrid (Projection + History)</td>
@@ -371,9 +371,9 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             Income calculation methods and discount factors vary by lender. Rental income projections are estimates and actual income may vary based on market conditions, seasonality, and occupancy rates.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <Star className="w-5 h-5 text-purple-600" />
+              <Star className="w-5 h-5 text-blue-600" />
               AirDNA: The Industry Standard for STR Income Projections
             </h3>
             <p className="text-sm text-slate-600 mb-4">
@@ -411,36 +411,36 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Single-Family Residences (SFRs)</h4>
                 <p className="text-slate-600">The most popular STR property type for DSCR financing. Detached homes with 2-5 bedrooms in vacation markets, beach communities, mountain towns, and urban tourism areas consistently generate strong STR income. SFRs offer the widest lender availability for STR DSCR programs.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Condominiums and Townhomes</h4>
                 <p className="text-slate-600">Condos in resort areas, beach towns, and ski destinations are strong STR performers. The critical requirement is that the HOA must allow short-term rentals. Lenders verify HOA rules before approving STR DSCR financing for condos. HOA dues are included in PITIA, which can reduce the DSCR ratio.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">2-4 Unit Properties</h4>
                 <p className="text-slate-600">Multi-unit properties operated as STRs generate higher total revenue. Some investors operate one unit as their primary residence while listing the remaining units on Airbnb. Each unit&apos;s STR income is aggregated for the total DSCR calculation, often producing ratios above 1.50.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Cabins, Lake Houses, and Unique Properties</h4>
                 <p className="text-slate-600">Properties with unique appeal &mdash; mountain cabins, lakefront homes, A-frames, and architectural standouts &mdash; often command premium nightly rates on STR platforms. Select DSCR lenders finance these property types, though appraisal requirements may be more stringent. AirDNA data is especially useful for valuing unique property income.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-amber-50 rounded-lg">
-              <AlertCircle className="w-6 h-6 text-amber-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <AlertCircle className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Properties in STR-Restricted Areas</h4>
                 <p className="text-slate-600">Properties located in cities or counties that prohibit or severely restrict short-term rentals are generally not eligible for STR DSCR financing. Lenders verify local STR regulations as part of underwriting. If STR operations are restricted, the property may still qualify for a standard long-term rental DSCR loan using lease income or market rent.</p>
@@ -460,35 +460,35 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
 
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>Research local STR regulations</strong> &mdash; verify the target city or county allows short-term rentals and identify any permit, licensing, or zoning requirements before committing to a property</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Run AirDNA projections</strong> &mdash; obtain a revenue projection report for the target property address to estimate annual STR income and calculate a preliminary DSCR ratio</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Contact a wholesale mortgage broker</strong> &mdash; share the AirDNA data, property details, and your investor profile so the broker can match you with STR-friendly DSCR lenders</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>Get pre-qualified</strong> &mdash; provide basic documentation (credit report authorization, entity documents if applicable, asset statements for reserves) to receive a pre-qualification letter</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Submit the full application</strong> &mdash; once under contract, submit the complete loan application with purchase agreement, property details, and any booking history documentation</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Appraisal and AirDNA verification</strong> &mdash; the lender orders an appraisal and reviews the AirDNA report or booking history to confirm the property&apos;s income potential supports the target DSCR</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">7</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">7</span>
               <span><strong>Underwriting review</strong> &mdash; underwriters verify credit, reserves, property eligibility, STR regulation compliance, and DSCR ratio before issuing final approval</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">8</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">8</span>
               <span><strong>Closing and funding</strong> &mdash; sign final loan documents, complete funding, and take ownership of the property to begin your STR operation</span>
             </li>
           </ol>
@@ -564,9 +564,9 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             DSCR lenders financing Washington STR properties verify local compliance as part of the underwriting process. Properties in established vacation markets with clear permitting pathways represent the strongest candidates for STR DSCR financing. Investors should obtain or confirm eligibility for an STR permit before submitting a DSCR loan application.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Important: Verify STR Regulations Before Financing
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -594,27 +594,27 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           <h3 className="text-xl font-bold text-slate-900 mb-4">6 Reasons STR Investors Choose a Wholesale Broker for DSCR Financing</h3>
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>Access to STR-specific DSCR programs</strong> &mdash; not all DSCR lenders offer STR products; a wholesale broker knows which lenders have active STR programs</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Income method matching</strong> &mdash; a broker can match investors with lenders that accept their specific income documentation (AirDNA only, booking history, or hybrid)</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Rate shopping across STR lenders</strong> &mdash; the rate spread between STR DSCR lenders can exceed the spread in standard DSCR, making comparison shopping even more valuable</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>Geographic expertise</strong> &mdash; an experienced broker knows which lenders are active in specific California and Washington vacation markets and which avoid certain jurisdictions</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Regulatory navigation</strong> &mdash; a broker familiar with STR regulations can identify potential underwriting issues before they cause delays or denials</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Portfolio scaling</strong> &mdash; investors building STR portfolios benefit from a broker who can distribute loans across multiple lenders to avoid concentration limits</span>
             </li>
           </ol>
@@ -631,28 +631,28 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
 
           <div className="space-y-4 mb-6">
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
-              <Shield className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+              <Shield className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">STR Permit or License</h4>
                 <p className="text-slate-600">Many lenders require proof that the property has an active STR permit, business license, or transient occupancy tax registration from the local jurisdiction. For new purchases, some lenders accept proof of permit eligibility (confirmation that the jurisdiction allows STRs) with a condition to obtain the permit before closing or within 30 days post-closing.</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
-              <Shield className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+              <Shield className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">STR Insurance (Landlord or Commercial)</h4>
                 <p className="text-slate-600">Standard homeowner&apos;s insurance policies do not cover short-term rental activity. Lenders require an insurance policy that specifically covers STR operations, which may be a landlord policy with an STR endorsement or a commercial short-term rental policy. Insurance premiums for STR properties are typically higher than standard landlord policies.</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
-              <Shield className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+              <Shield className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Enhanced Reserve Requirements</h4>
                 <p className="text-slate-600">Some STR DSCR lenders require higher reserves than standard long-term rental programs. While LTR DSCR loans typically require 6 months of PITIA reserves, STR programs may require 9-12 months. The higher reserve requirement reflects the variable nature of short-term rental income and the potential for seasonal income gaps.</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
-              <Shield className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+              <Shield className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Property Condition Standards</h4>
                 <p className="text-slate-600">Lenders expect STR properties to be in move-in-ready, guest-quality condition. Properties requiring significant renovation may not qualify until improvements are completed. The appraisal evaluates the property&apos;s condition relative to its intended use as a short-term rental, and deferred maintenance can impact both the appraised value and loan approval.</p>
@@ -673,7 +673,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div className="border border-slate-200 rounded-xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-green-600" />
+                <TrendingUp className="w-5 h-5 text-blue-600" />
                 California Beach Market Strategy
               </h4>
               <p className="text-sm text-slate-600 mb-3">
@@ -683,7 +683,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </div>
             <div className="border border-slate-200 rounded-xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-green-600" />
+                <TrendingUp className="w-5 h-5 text-blue-600" />
                 Washington Mountain and Island Strategy
               </h4>
               <p className="text-sm text-slate-600 mb-3">
@@ -784,15 +784,15 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: DSCR Loans Are Transforming Short-Term Rental Investing in 2026
           </h2>
-          <p className="text-lg text-purple-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             Short-term rental investors no longer need to choose between maximizing Airbnb revenue and qualifying for a mortgage. DSCR loans bridge this gap by evaluating the property&apos;s vacation rental income potential &mdash; not the investor&apos;s W-2s, tax returns, or employment status. With AirDNA projections, actual booking history, and hybrid income calculation methods, STR DSCR programs accommodate investors at every stage, from first-time Airbnb hosts to seasoned vacation rental portfolio operators.
           </p>
-          <p className="text-lg text-purple-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares STR DSCR programs from 100+ lenders to match each investor with the optimal combination of income calculation method, DSCR ratio threshold, pricing, and terms. Whether you are purchasing your first vacation rental or scaling an existing STR portfolio across California and Washington, wholesale broker access delivers better outcomes than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Your STR DSCR Loan Quote
               </Button>
             </Link>
@@ -809,22 +809,22 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR &amp; Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained: How Investors Qualify Without W-2s
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements: Rates, Ratios &amp; Down Payment Guide
             </Link>
-            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs Conventional Loans for Investment Properties
             </Link>
-            <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Calculator: How to Calculate Your Ratio
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
             </Link>
           </div>

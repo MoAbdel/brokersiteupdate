@@ -232,12 +232,12 @@ export default function WholesaleMortgageBroker92602Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">RSU understanding</td><td className="py-2 px-4 border-b">Varies by loan officer</td><td className="py-2 px-4 border-b text-green-700">Matched with tech-friendly lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Mello-Roos handling</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-green-700">Irvine-experienced lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Closing speed</td><td className="py-2 px-4 border-b">30-45 days typical</td><td className="py-2 px-4 border-b text-green-700">21-30 days for qualified buyers</td></tr>
-              <tr><td className="py-2 px-4">Communication style</td><td className="py-2 px-4">Corporate process</td><td className="py-2 px-4 text-green-700">Tech-professional responsive</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">RSU understanding</td><td className="py-2 px-4 border-b">Varies by loan officer</td><td className="py-2 px-4 border-b text-blue-700">Matched with tech-friendly lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Mello-Roos handling</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-blue-700">Irvine-experienced lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Closing speed</td><td className="py-2 px-4 border-b">30-45 days typical</td><td className="py-2 px-4 border-b text-blue-700">21-30 days for qualified buyers</td></tr>
+              <tr><td className="py-2 px-4">Communication style</td><td className="py-2 px-4">Corporate process</td><td className="py-2 px-4 text-blue-700">Tech-professional responsive</td></tr>
             </tbody>
           </table>
         </div>

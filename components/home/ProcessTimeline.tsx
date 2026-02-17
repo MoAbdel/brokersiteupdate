@@ -100,29 +100,29 @@ export default function ProcessTimeline() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <div className="relative">
-        {/* Progress Line Background (Gray) */}
-        <div className="absolute top-1/2 left-0 w-full h-1 bg-slate-200 -translate-y-1/2 rounded-full hidden md:block" />
-
-        {/* Progress Line Active (Green) */}
-        <div
-          className="absolute top-1/2 left-0 h-1 bg-green-600 -translate-y-1/2 rounded-full transition-all duration-700 ease-out hidden md:block"
-          style={{ width: `${Math.max(0, (activeStep - 1) / (STEPS.length - 1) * 100)}%` }}
-        />
+        {/* Progress track + fill
+            Keep the line visually centered under the step circles (not the label widths). */}
+        <div className="absolute top-1/2 left-24 right-24 h-1 -translate-y-1/2 rounded-full bg-slate-200 hidden md:block">
+          <div
+            className="h-full rounded-full bg-blue-600 transition-all duration-700 ease-out"
+            style={{ width: `${Math.max(0, (activeStep - 1) / (STEPS.length - 1) * 100)}%` }}
+          />
+        </div>
 
         {/* Steps Container */}
         <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8 md:gap-0">
-          {STEPS.map((step, index) => {
+          {STEPS.map((step) => {
             const isActive = activeStep >= step.id;
             const isCurrent = activeStep === step.id;
 
             return (
-              <div key={step.id} className="flex flex-col items-center gap-2 md:gap-4 w-full md:w-auto">
+              <div key={step.id} className="flex flex-col items-center gap-2 md:gap-4 w-full md:w-48">
                 {/* Icon Circle */}
                 <div
                   className={`
                     relative flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full border-2 transition-all duration-500 ease-out shrink-0
                     ${isActive
-                      ? 'bg-green-600 border-green-600 shadow-lg shadow-green-200 scale-110'
+                      ? 'bg-blue-600 border-blue-600 shadow-lg shadow-blue-200 scale-110'
                       : 'bg-white border-slate-200 text-slate-400 scale-100'}
                   `}
                 >
@@ -136,7 +136,7 @@ export default function ProcessTimeline() {
 
                   {/* Current Step Pulse Ring */}
                   {isCurrent && (
-                    <div className="absolute inset-0 rounded-full border-2 border-green-600 animate-ping opacity-20" />
+                    <div className="absolute inset-0 rounded-full border-2 border-blue-600 animate-ping opacity-20" />
                   )}
                 </div>
 
@@ -147,7 +147,7 @@ export default function ProcessTimeline() {
                 `}>
                   <p className={`
                     text-sm md:text-base font-semibold transition-colors duration-300
-                    ${isActive ? 'text-green-700' : 'text-slate-500'}
+                    ${isActive ? 'text-blue-700' : 'text-slate-500'}
                   `}>
                     {step.label}
                   </p>

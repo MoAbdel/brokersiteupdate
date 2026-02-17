@@ -101,7 +101,7 @@ export default function LuxuryMarketsPage() {
                 <div className="mb-4">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-medium text-slate-600">Price Range:</span>
-                    <span className="font-bold text-green-600">{market.priceRange}</span>
+                    <span className="font-bold text-blue-600">{market.priceRange}</span>
                   </div>
                 </div>
                 
@@ -130,7 +130,7 @@ export default function LuxuryMarketsPage() {
                 </div>
                 
                 <Link href={`/luxury-markets/${market.slug}`}>
-                  <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">
+                  <Button className="w-full bg-slate-900 hover:from-blue-700 hover:to-blue-800 text-white">
                     {market.title} Financing
                   </Button>
                 </Link>
@@ -302,22 +302,22 @@ export default function LuxuryMarketsPage() {
           <h2 className="text-3xl font-bold mb-4">
             Ready to Finance Your Luxury Property?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized luxury mortgage solutions and white-glove service
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get Luxury Mortgage Quote
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker • Lumin Lending • NMLS #1426884 • Luxury property specialist
           </p>
         </div>

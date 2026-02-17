@@ -169,7 +169,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Pre-Approved Today
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -252,7 +252,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Home className="w-8 h-8 text-green-600" />
+                <Home className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Conventional 97 / HomeReady / Home Possible</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -301,7 +301,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
           </p>
 
           <div className="space-y-4">
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">CalHFA MyHome Assistance Program</h3>
               <p className="text-slate-600 mb-3">Deferred-payment junior loan up to 3.5% of the purchase price for down payment or closing costs.</p>
               <ul className="text-sm text-slate-600 space-y-1">
@@ -311,7 +311,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
               </ul>
             </div>
 
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">CalHFA Zero Interest Program (ZIP)</h3>
               <p className="text-slate-600 mb-3">Zero-interest loan up to 3% for closing costs, repayable when you sell or refinance.</p>
               <ul className="text-sm text-slate-600 space-y-1">
@@ -321,7 +321,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
               </ul>
             </div>
 
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">Chenoa Fund</h3>
               <p className="text-slate-600 mb-3">3.5% assistance available as a forgivable or repayable second mortgage.</p>
               <ul className="text-sm text-slate-600 space-y-1">
@@ -342,59 +342,59 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-6">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Check Your Credit Score and Report</h4>
                   <p className="text-slate-600 mb-2">Pull your free credit reports from AnnualCreditReport.com. Dispute any errors. Pay down credit card balances to below 30% utilization.</p>
-                  <p className="text-sm text-green-700 font-medium">Target: 620+ for conventional, 580+ for FHA</p>
+                  <p className="text-sm text-blue-700 font-medium">Target: 620+ for conventional, 580+ for FHA</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Calculate Your Budget Using the 28/36 Rule</h4>
                   <p className="text-slate-600 mb-2">Housing costs should not exceed 28% of gross income. Total debts (including housing) should stay below 36%.</p>
-                  <p className="text-sm text-green-700 font-medium">Example: $150,000 income = $3,500/month max housing payment</p>
+                  <p className="text-sm text-blue-700 font-medium">Example: $150,000 income = $3,500/month max housing payment</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Save for Down Payment and Reserves</h4>
                   <p className="text-slate-600 mb-2">Aim for at least 3.5% down plus 2-3 months of reserves. Gift funds from family are allowed for most loan programs.</p>
-                  <p className="text-sm text-green-700 font-medium">Target: $30,000-$50,000 for entry-level homes</p>
+                  <p className="text-sm text-blue-700 font-medium">Target: $30,000-$50,000 for entry-level homes</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Get Pre-Approved by a Wholesale Mortgage Broker</h4>
                   <p className="text-slate-600 mb-2">Submit W-2s, pay stubs, bank statements, and tax returns. A wholesale broker shops 100+ lenders to find your best rate.</p>
-                  <p className="text-sm text-green-700 font-medium">Pre-approval letters make your offers competitive</p>
+                  <p className="text-sm text-blue-700 font-medium">Pre-approval letters make your offers competitive</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Find a Real Estate Agent and Start Searching</h4>
                   <p className="text-slate-600 mb-2">Work with an agent who knows first-time buyer programs. Focus on cities with entry-level inventory: Mission Viejo, Lake Forest, Aliso Viejo.</p>
-                  <p className="text-sm text-green-700 font-medium">Be ready to act fast in competitive markets</p>
+                  <p className="text-sm text-blue-700 font-medium">Be ready to act fast in competitive markets</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">6</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">6</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Make an Offer and Complete Due Diligence</h4>
                   <p className="text-slate-600 mb-2">Submit offer with pre-approval letter. After acceptance: home inspection, appraisal, and title search.</p>
-                  <p className="text-sm text-green-700 font-medium">Inspection contingencies protect you from hidden issues</p>
+                  <p className="text-sm text-blue-700 font-medium">Inspection contingencies protect you from hidden issues</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">7</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">7</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Final Underwriting and Closing</h4>
                   <p className="text-slate-600 mb-2">Underwriter reviews all documents. Once cleared, you'll receive closing disclosure 3 days before signing. Bring certified check or wire funds.</p>
-                  <p className="text-sm text-green-700 font-medium">Typical timeline: 30-45 days from offer to keys</p>
+                  <p className="text-sm text-blue-700 font-medium">Typical timeline: 30-45 days from offer to keys</p>
                 </div>
               </li>
             </ol>
@@ -495,12 +495,12 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to Buy Your First Home in Orange County?
           </h2>
-          <p className="text-lg text-green-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Get pre-approved with access to 100+ wholesale lenders. I'll help you navigate first-time buyer programs and find the best rate for your situation. Free consultation, no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Start Pre-Approval Process
               </Button>
             </Link>
@@ -517,22 +517,22 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related First-Time Buyer Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/fha-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/fha-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → FHA Loans in Orange County 2026
             </Link>
-            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Mission Viejo Mortgage Guide
             </Link>
-            <Link href="/resources/down-payment-assistance" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/resources/down-payment-assistance" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Down Payment Assistance Programs
             </Link>
-            <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/calculator" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Mortgage Affordability Calculator
             </Link>
-            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Why Use a Wholesale Broker?
             </Link>
-            <Link href="/resources/credit-repair" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/resources/credit-repair" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Credit Score Improvement Guide
             </Link>
           </div>

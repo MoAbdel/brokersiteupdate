@@ -325,9 +325,9 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Best For Peninsula Owners</td>
-                  <td className="px-4 py-3 border-t text-green-700">Ongoing access, renovations, flexibility</td>
-                  <td className="px-4 py-3 border-t text-green-700">One-time expense, rate certainty</td>
-                  <td className="px-4 py-3 border-t text-green-700">Rate improvement + cash access</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Ongoing access, renovations, flexibility</td>
+                  <td className="px-4 py-3 border-t text-blue-700">One-time expense, rate certainty</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Rate improvement + cash access</td>
                 </tr>
               </tbody>
             </table>
@@ -619,7 +619,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             Hub Preview: Ultra-Luxury Peninsula Equity — Atherton, Hillsborough, Woodside, Portola Valley &amp; Los Altos Hills
           </h2>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
             <p className="font-semibold mb-2">Hub CA-SV-A | Median Values: $4M-$10.8M | Focus: Estate Equity, Trust-Held Properties, Generational Wealth</p>
             <p className="mb-0">
               The ultra-luxury Peninsula corridor encompasses five communities where residential properties
@@ -646,7 +646,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             Hub Preview: Premium Silicon Valley Equity — Palo Alto, Los Altos, Saratoga, Los Gatos &amp; Cupertino
           </h2>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <p className="font-semibold mb-2">Hub CA-SV-B | Median Values: $2.4M-$4.3M | Focus: Tech Executive Stock-Based Income, Jumbo HELOC Strategies</p>
             <p className="mb-0">
               The premium Silicon Valley hub is home to current and former tech executives, venture capitalists,
@@ -681,7 +681,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             Hub Preview: Tech Corridor Equity — Mountain View, Sunnyvale, San Jose, Santa Clara &amp; Campbell
           </h2>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
             <p className="font-semibold mb-2">Hub CA-SV-C | Median Values: $1.3M-$2M | Focus: First-Time Equity Access, W-2 + RSU Qualification</p>
             <p className="mb-0">
               The Tech Corridor hub serves the broadest base of Peninsula homeowners — tech workers, small business

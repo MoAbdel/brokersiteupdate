@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Shield, Home, Award, DollarSign, Phone, CheckCircle, Users } from 'lucide-react';
+import { Shield, Home, Award, DollarSign, Phone, CheckCircle, Users, Flag, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Orange County VA Loans | VA Loans Orange County | Military Home Loans | Lumin Lending NMLS #2716106',
@@ -30,7 +30,8 @@ export default function OrangeCountyVALoansPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            🇺🇸 Serving Those Who Served
+            <Flag className="w-4 h-4 mr-2 text-blue-700" aria-hidden="true" />
+            <span>Serving Those Who Served</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Orange County <span className="text-blue-600">VA Loans</span> & Military Home Financing
@@ -42,7 +43,7 @@ export default function OrangeCountyVALoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get VA Loan Pre-Approval
               </Button>
             </Link>
@@ -69,7 +70,7 @@ export default function OrangeCountyVALoansPage() {
             
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6 text-center">
-                <Shield className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <Shield className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">No PMI Required</h3>
                 <p className="text-sm text-slate-600">Save hundreds monthly on mortgage insurance</p>
               </CardContent>
@@ -77,7 +78,7 @@ export default function OrangeCountyVALoansPage() {
             
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6 text-center">
-                <Award className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+                <Award className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
                 <p className="text-sm text-slate-600">Often lower than conventional loan pricing</p>
               </CardContent>
@@ -85,7 +86,7 @@ export default function OrangeCountyVALoansPage() {
             
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6 text-center">
-                <Home className="w-12 h-12 text-orange-600 mx-auto mb-4" />
+                <Home className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Reusable Benefit</h3>
                 <p className="text-sm text-slate-600">Use your VA loan multiple times</p>
               </CardContent>
@@ -115,7 +116,7 @@ export default function OrangeCountyVALoansPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Disabled Veterans:</span>
-                    <span className="font-bold text-green-600">$0 Funding Fee</span>
+                    <span className="font-bold text-blue-600">$0 Funding Fee</span>
                   </div>
                 </div>
                 <p className="text-xs text-slate-500 mt-4">
@@ -135,7 +136,7 @@ export default function OrangeCountyVALoansPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Down Payment:</span>
-                    <span className="font-bold text-green-600">$0</span>
+                    <span className="font-bold text-blue-600">$0</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">VA Funding Fee:</span>
@@ -160,7 +161,10 @@ export default function OrangeCountyVALoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🏘️ Irvine</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Irvine</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Family-friendly with excellent schools and amenities</p>
                 <div className="text-sm text-slate-500 space-y-1">
                   <div>• Median Price: $1.4M</div>
@@ -173,7 +177,10 @@ export default function OrangeCountyVALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🏠 Westminster</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Westminster</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Affordable family homes with good value</p>
                 <div className="text-sm text-slate-500 space-y-1">
                   <div>• Median Price: $800K</div>
@@ -186,7 +193,10 @@ export default function OrangeCountyVALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🌊 Huntington Beach</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Huntington Beach</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Beach lifestyle with diverse housing options</p>
                 <div className="text-sm text-slate-500 space-y-1">
                   <div>• Median Price: $1.1M</div>
@@ -219,8 +229,8 @@ export default function OrangeCountyVALoansPage() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Users className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Users className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">MCAS El Toro (Former)</h3>
@@ -232,8 +242,8 @@ export default function OrangeCountyVALoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Award className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Award className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Nearby Bases</h3>
@@ -246,7 +256,7 @@ export default function OrangeCountyVALoansPage() {
               </div>
             </div>
             
-            <div className="bg-green-50 p-8 rounded-2xl">
+            <div className="bg-slate-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Commute Times to Military Bases</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -297,25 +307,25 @@ export default function OrangeCountyVALoansPage() {
 
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <CheckCircle className="w-12 h-12 text-green-600 mb-4" />
+                <CheckCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Veterans</h3>
                 <p className="text-slate-600 mb-3">
                   Honorable discharge with minimum service requirements met. 
                   Service-connected disabled veterans with any discharge.
                 </p>
-                <p className="text-sm font-semibold text-green-600">Most common eligibility</p>
+                <p className="text-sm font-semibold text-blue-600">Most common eligibility</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <CheckCircle className="w-12 h-12 text-purple-600 mb-4" />
+                <CheckCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">National Guard & Reserves</h3>
                 <p className="text-slate-600 mb-3">
                   6+ years of service or called to active duty. 
                   Some shorter service periods qualify under specific conditions.
                 </p>
-                <p className="text-sm font-semibold text-purple-600">Service requirements vary</p>
+                <p className="text-sm font-semibold text-blue-600">Service requirements vary</p>
               </CardContent>
             </Card>
           </div>
@@ -380,27 +390,27 @@ export default function OrangeCountyVALoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Use Your VA Home Loan Benefit in Orange County?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved for $0 down VA financing and start your Orange County home search
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start My VA Loan Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed VA loan specialists • NMLS #2716106 • Proudly serving Orange County veterans and military
           </p>
         </div>

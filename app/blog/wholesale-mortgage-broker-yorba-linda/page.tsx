@@ -412,11 +412,11 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Entry Eastside Home</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-green-700">~$55,000 over 30 years</td><td className="py-2 px-4 border-b">~$153/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">Hidden Hills Home</td><td className="py-2 px-4 border-b">$1,280,000</td><td className="py-2 px-4 border-b text-green-700">~$80,000 over 30 years</td><td className="py-2 px-4 border-b">~$222/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">Highlands Property</td><td className="py-2 px-4 border-b">$1,760,000</td><td className="py-2 px-4 border-b text-green-700">~$110,000 over 30 years</td><td className="py-2 px-4 border-b">~$306/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">Black Gold Standard</td><td className="py-2 px-4 border-b">$2,400,000</td><td className="py-2 px-4 border-b text-green-700">~$150,000 over 30 years</td><td className="py-2 px-4 border-b">~$417/month</td></tr>
-              <tr><td className="py-2 px-4">Black Gold Premium</td><td className="py-2 px-4">$3,600,000</td><td className="py-2 px-4 text-green-700">~$225,000 over 30 years</td><td className="py-2 px-4">~$625/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">Entry Eastside Home</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-blue-700">~$55,000 over 30 years</td><td className="py-2 px-4 border-b">~$153/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">Hidden Hills Home</td><td className="py-2 px-4 border-b">$1,280,000</td><td className="py-2 px-4 border-b text-blue-700">~$80,000 over 30 years</td><td className="py-2 px-4 border-b">~$222/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">Highlands Property</td><td className="py-2 px-4 border-b">$1,760,000</td><td className="py-2 px-4 border-b text-blue-700">~$110,000 over 30 years</td><td className="py-2 px-4 border-b">~$306/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">Black Gold Standard</td><td className="py-2 px-4 border-b">$2,400,000</td><td className="py-2 px-4 border-b text-blue-700">~$150,000 over 30 years</td><td className="py-2 px-4 border-b">~$417/month</td></tr>
+              <tr><td className="py-2 px-4">Black Gold Premium</td><td className="py-2 px-4">$3,600,000</td><td className="py-2 px-4 text-blue-700">~$225,000 over 30 years</td><td className="py-2 px-4">~$625/month</td></tr>
             </tbody>
           </table>
         </div>
@@ -527,14 +527,14 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-3 px-4 border-b">1 option</td><td className="py-3 px-4 border-b text-green-700">20+ jumbo lenders</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Super Jumbo Access</td><td className="py-3 px-4 border-b">Limited or none</td><td className="py-3 px-4 border-b text-green-700">Multiple $2M-$5M+ options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-green-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-green-700">Multiple 12 and 24 month options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Asset Depletion</td><td className="py-3 px-4 border-b">Typically not available</td><td className="py-3 px-4 border-b text-green-700">Options for high-net-worth buyers</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Yorba Linda Expertise</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-green-700">Local market knowledge</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Complex Income</td><td className="py-3 px-4 border-b">Often declined</td><td className="py-3 px-4 border-b text-green-700">Specialty lenders available</td></tr>
-              <tr><td className="py-3 px-4">Service Model</td><td className="py-3 px-4">Branch or call center</td><td className="py-3 px-4 text-green-700">Direct broker relationship</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-3 px-4 border-b">1 option</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Super Jumbo Access</td><td className="py-3 px-4 border-b">Limited or none</td><td className="py-3 px-4 border-b text-blue-700">Multiple $2M-$5M+ options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Asset Depletion</td><td className="py-3 px-4 border-b">Typically not available</td><td className="py-3 px-4 border-b text-blue-700">Options for high-net-worth buyers</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Yorba Linda Expertise</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-blue-700">Local market knowledge</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Complex Income</td><td className="py-3 px-4 border-b">Often declined</td><td className="py-3 px-4 border-b text-blue-700">Specialty lenders available</td></tr>
+              <tr><td className="py-3 px-4">Service Model</td><td className="py-3 px-4">Branch or call center</td><td className="py-3 px-4 text-blue-700">Direct broker relationship</td></tr>
             </tbody>
           </table>
         </div>

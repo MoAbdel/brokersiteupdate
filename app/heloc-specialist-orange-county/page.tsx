@@ -25,13 +25,13 @@ export default function HELOCSpecialistOrangeCounty() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
-              <Home className="w-12 h-12 text-blue-200" />
-              <span className="text-lg font-semibold text-blue-100">Home Equity Specialist</span>
+              <Home className="w-12 h-12 text-slate-200" />
+              <span className="text-lg font-semibold text-slate-200">Home Equity Specialist</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Orange County HELOC Specialist
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200">
               Access your home equity strategically—without giving up your existing first mortgage
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -78,9 +78,9 @@ export default function HELOCSpecialistOrangeCounty() {
                 </p>
               </div>
 
-              <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg">
+              <div className="bg-slate-50 border-l-4 border-green-600 p-6 rounded-r-lg">
                 <p className="text-slate-700 font-medium mb-2">
-                  <span className="text-green-600 font-bold">The HELOC Solution:</span>
+                  <span className="text-blue-600 font-bold">The HELOC Solution:</span>
                 </p>
                 <p className="text-slate-600">
                   Keep your existing first mortgage untouched. Add a $100,000 HELOC as a second lien.
@@ -102,14 +102,14 @@ export default function HELOCSpecialistOrangeCounty() {
                 </div>
 
                 <div className="flex justify-center">
-                  <div className="text-green-600 font-bold text-lg">VS</div>
+                  <div className="text-blue-600 font-bold text-lg">VS</div>
                 </div>
 
                 <div className="bg-white rounded-lg p-6 border-2 border-green-600">
-                  <div className="text-sm text-green-600 font-semibold mb-2">HELOC STRATEGY</div>
+                  <div className="text-sm text-blue-600 font-semibold mb-2">HELOC STRATEGY</div>
                   <div className="text-sm text-slate-600 mb-3">$800K existing mortgage + $100K HELOC</div>
-                  <div className="text-3xl font-bold text-green-700 mb-1">$3,345/mo</div>
-                  <div className="text-sm text-green-600">Save $2,490/mo • $897,000 over 30 years</div>
+                  <div className="text-3xl font-bold text-blue-700 mb-1">$3,345/mo</div>
+                  <div className="text-sm text-blue-600">Save $2,490/mo • $897,000 over 30 years</div>
                 </div>
               </div>
             </div>
@@ -150,15 +150,15 @@ export default function HELOCSpecialistOrangeCounty() {
               <p className="text-slate-600">Based on your available equity (typically 80-90% combined loan-to-value), we establish a credit line you can draw from as needed.</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                <TrendingUp className="w-6 h-6 text-green-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                <TrendingUp className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">2. Flexible Draws</h3>
               <p className="text-slate-600">Access funds anytime during the 10-year draw period. Use what you need, pay interest only on what you borrow.</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                <Shield className="w-6 h-6 text-purple-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                <Shield className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">3. Repayment Phase</h3>
               <p className="text-slate-600">After the draw period, enter a 20-year repayment phase where you pay back principal plus interest.</p>
@@ -222,7 +222,7 @@ export default function HELOCSpecialistOrangeCounty() {
                   'Best for: Ongoing projects, reserves, multiple uses'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-blue-200 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-slate-200 flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -241,7 +241,7 @@ export default function HELOCSpecialistOrangeCounty() {
                   'Best for: One-time expense, payment certainty preferred'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-200 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-slate-200 flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -254,22 +254,22 @@ export default function HELOCSpecialistOrangeCounty() {
       {/* Orange County Market Insight */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-8 text-white">
+          <div className="bg-slate-900 rounded-2xl p-8 text-white">
             <h2 className="text-3xl font-bold mb-6">
               Orange County HELOC Market Insight
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <div className="text-4xl font-bold mb-2">$1.26M</div>
-                <p className="text-blue-100">Median home value in Irvine, Newport Beach</p>
+                <p className="text-slate-200">Median home value in Irvine, Newport Beach</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <div className="text-4xl font-bold mb-2">80-90%</div>
-                <p className="text-blue-100">Combined LTV available for HELOCs</p>
+                <p className="text-slate-200">Combined LTV available for HELOCs</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
                 <div className="text-4xl font-bold mb-2">$300K+</div>
-                <p className="text-blue-100">Average available equity for OC homeowners</p>
+                <p className="text-slate-200">Average available equity for OC homeowners</p>
               </div>
             </div>
           </div>
@@ -277,12 +277,12 @@ export default function HELOCSpecialistOrangeCounty() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="py-16 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Access Your Home Equity Strategically?
           </h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-slate-200">
             Get a free HELOC analysis and loan quote
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -302,7 +302,7 @@ export default function HELOCSpecialistOrangeCounty() {
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-100 mt-6">
+          <p className="text-sm text-slate-200 mt-6">
             Mo Abdel, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | CA DRE #02291443
           </p>
         </div>

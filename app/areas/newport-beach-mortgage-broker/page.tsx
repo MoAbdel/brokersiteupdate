@@ -164,11 +164,11 @@ export default function NewportBeachMortgageBrokerPage() {
             {/* Quick Stats */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-slate-600 mb-8">
               <div className="flex items-center">
-                <DollarSign className="w-4 h-4 mr-1 text-green-600" />
+                <DollarSign className="w-4 h-4 mr-1 text-blue-600" />
                 $2.8M Median Home Price
               </div>
               <div className="flex items-center">
-                <Crown className="w-4 h-4 mr-1 text-purple-600" />
+                <Crown className="w-4 h-4 mr-1 text-blue-600" />
                 95% Require Jumbo Loans
               </div>
               <div className="flex items-center">
@@ -179,7 +179,7 @@ export default function NewportBeachMortgageBrokerPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
                   (949) 822-9662
                 </Button>
@@ -214,12 +214,12 @@ export default function NewportBeachMortgageBrokerPage() {
                         <p className="text-blue-600 text-sm">Median Home Price</p>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-green-700">$4M-$15M+</h3>
-                        <p className="text-green-600 text-sm">Waterfront Properties</p>
+                        <h3 className="text-2xl font-bold text-blue-700">$4M-$15M+</h3>
+                        <p className="text-blue-600 text-sm">Waterfront Properties</p>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-purple-700">95%</h3>
-                        <p className="text-purple-600 text-sm">Require Jumbo Loans</p>
+                        <h3 className="text-2xl font-bold text-blue-700">95%</h3>
+                        <p className="text-blue-600 text-sm">Require Jumbo Loans</p>
                       </div>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ export default function NewportBeachMortgageBrokerPage() {
                     
                     <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow">
                       <h4 className="font-bold text-slate-900 mb-2 flex items-center">
-                        <Crown className="w-5 h-5 mr-2 text-purple-600" />
+                        <Crown className="w-5 h-5 mr-2 text-blue-600" />
                         Corona del Mar
                       </h4>
                       <p className="text-sm text-slate-600 mb-2">$3M-$8M Average</p>
@@ -275,7 +275,7 @@ export default function NewportBeachMortgageBrokerPage() {
                     
                     <div className="border border-slate-200 rounded-lg p-4 hover:shadow-md transition-shadow">
                       <h4 className="font-bold text-slate-900 mb-2 flex items-center">
-                        <Home className="w-5 h-5 mr-2 text-green-600" />
+                        <Home className="w-5 h-5 mr-2 text-blue-600" />
                         Newport Coast
                       </h4>
                       <p className="text-sm text-slate-600 mb-2">$2.5M-$10M Average</p>
@@ -308,42 +308,42 @@ export default function NewportBeachMortgageBrokerPage() {
                 <CardContent className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Jumbo Loans up to $10M+</h4>
                         <p className="text-sm text-slate-600">Essential for Newport Beach's luxury market</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Interest-Only Options</h4>
                         <p className="text-sm text-slate-600">Lower initial payments for luxury properties</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Investment Property Loans</h4>
                         <p className="text-sm text-slate-600">Financing for rental and vacation properties</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Asset-Based Lending</h4>
                         <p className="text-sm text-slate-600">Qualify based on assets, not just income</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Portfolio Loans</h4>
                         <p className="text-sm text-slate-600">Flexible underwriting for unique properties</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Bridge Loans</h4>
                         <p className="text-sm text-slate-600">Short-term financing for quick purchases</p>
@@ -351,9 +351,9 @@ export default function NewportBeachMortgageBrokerPage() {
                     </div>
                   </div>
                   
-                  <div className="bg-purple-50 p-4 rounded-lg">
-                    <p className="text-purple-700 font-semibold mb-2">Newport Beach Financing Expertise:</p>
-                    <p className="text-purple-600 text-sm">
+                  <div className="bg-slate-50 p-4 rounded-lg">
+                    <p className="text-blue-700 font-semibold mb-2">Newport Beach Financing Expertise:</p>
+                    <p className="text-blue-600 text-sm">
                       Mo Abdel understands the complexities of Newport Beach luxury real estate, including waterfront property appraisals, HOA considerations, and seasonal rental income calculations for investment properties.
                     </p>
                   </div>
@@ -433,14 +433,14 @@ export default function NewportBeachMortgageBrokerPage() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Clock className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                    <Clock className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-sm">18-Day Average Closing</h4>
                       <p className="text-xs text-slate-600">Fast luxury loan processing</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Anchor className="w-5 h-5 text-purple-600 mt-1 flex-shrink-0" />
+                    <Anchor className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-sm">Waterfront Specialist</h4>
                       <p className="text-xs text-slate-600">Extensive Newport Beach expertise</p>

@@ -289,14 +289,14 @@ export default function MortgageBrokerVsBankComparison() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex justify-center space-x-8 mb-6">
-              <Users className="w-16 h-16 text-blue-200" />
+              <Users className="w-16 h-16 text-slate-200" />
               <span className="text-4xl font-bold text-white self-center">VS</span>
-              <Building className="w-16 h-16 text-blue-200" />
+              <Building className="w-16 h-16 text-slate-200" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Mortgage Broker vs Bank: Complete Comparison
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto">
               Comprehensive analysis of mortgage brokers vs banks. Licensed broker insights
               to help Orange County buyers make informed decisions.
             </p>
@@ -319,11 +319,11 @@ export default function MortgageBrokerVsBankComparison() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <Card className="border-green-200 bg-green-50">
+            <Card className="border-slate-200 bg-slate-50">
               <CardHeader>
                 <div className="flex items-center space-x-3">
-                  <Users className="w-8 h-8 text-green-600" />
-                  <CardTitle className="text-xl text-green-800">Mortgage Broker Advantages</CardTitle>
+                  <Users className="w-8 h-8 text-blue-600" />
+                  <CardTitle className="text-xl text-slate-900">Mortgage Broker Advantages</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="space-y-3">
@@ -336,7 +336,7 @@ export default function MortgageBrokerVsBankComparison() {
                   "More qualification flexibility"
                 ].map((advantage, index) => (
                   <div key={index} className="flex items-center space-x-2">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <CheckCircle className="w-5 h-5 text-blue-600" />
                     <span className="text-slate-700">{advantage}</span>
                   </div>
                 ))}
@@ -385,15 +385,15 @@ export default function MortgageBrokerVsBankComparison() {
               <Card key={index} className="shadow-lg">
                 <CardHeader>
                   <div className="flex items-center space-x-3">
-                    <div className="bg-green-100 p-3 rounded-lg">
-                      <advantage.icon className="w-6 h-6 text-green-600" />
+                    <div className="bg-slate-100 p-3 rounded-lg">
+                      <advantage.icon className="w-6 h-6 text-blue-600" />
                     </div>
                     <CardTitle className="text-lg">{advantage.title}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-2">{advantage.description}</p>
-                  <Badge className="bg-green-100 text-green-800">{advantage.savings}</Badge>
+                  <Badge className="bg-slate-100 text-slate-900">{advantage.savings}</Badge>
                 </CardContent>
               </Card>
             ))}
@@ -407,7 +407,7 @@ export default function MortgageBrokerVsBankComparison() {
                   <CardContent className="pt-6">
                     <h4 className="font-semibold text-slate-900 mb-2">{advantage.title}</h4>
                     <p className="text-sm text-slate-600 mb-2">{advantage.description}</p>
-                    <p className="text-xs text-amber-700 bg-amber-50 p-2 rounded">{advantage.limitation}</p>
+                    <p className="text-xs text-blue-700 bg-slate-50 p-2 rounded">{advantage.limitation}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -431,7 +431,7 @@ export default function MortgageBrokerVsBankComparison() {
               <thead>
                 <tr className="bg-slate-100">
                   <th className="text-left p-4 font-semibold text-slate-900 border-b">Aspect</th>
-                  <th className="text-left p-4 font-semibold text-green-800 border-b">
+                  <th className="text-left p-4 font-semibold text-slate-900 border-b">
                     <div className="flex items-center space-x-2">
                       <Users className="w-5 h-5" />
                       <span>Mortgage Broker</span>
@@ -449,9 +449,9 @@ export default function MortgageBrokerVsBankComparison() {
                 {detailedComparison.map((row, index) => (
                   <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-slate-50'}>
                     <td className="p-4 font-medium text-slate-900 border-b">{row.aspect}</td>
-                    <td className={`p-4 border-b ${row.winner === 'broker' ? 'bg-green-50' : ''}`}>
+                    <td className={`p-4 border-b ${row.winner === 'broker' ? 'bg-slate-50' : ''}`}>
                       <div className="flex items-start space-x-2">
-                        {row.winner === 'broker' && <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />}
+                        {row.winner === 'broker' && <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />}
                         <span className="text-slate-700">{row.broker}</span>
                       </div>
                     </td>
@@ -489,13 +489,13 @@ export default function MortgageBrokerVsBankComparison() {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <div className="flex items-center space-x-2">
-                        <Users className="w-5 h-5 text-green-600" />
-                        <span className="font-semibold text-green-800">Mortgage Broker</span>
+                        <Users className="w-5 h-5 text-blue-600" />
+                        <span className="font-semibold text-slate-900">Mortgage Broker</span>
                         <Badge className={`ml-auto ${
-                          item.broker.rating === 'excellent' ? 'bg-green-100 text-green-800' :
+                          item.broker.rating === 'excellent' ? 'bg-slate-100 text-slate-900' :
                           item.broker.rating === 'fast' ? 'bg-blue-100 text-blue-800' :
-                          item.broker.rating === 'flexible' ? 'bg-purple-100 text-purple-800' :
-                          'bg-green-100 text-green-800'
+                          item.broker.rating === 'flexible' ? 'bg-slate-100 text-purple-800' :
+                          'bg-slate-100 text-slate-900'
                         }`}>
                           {item.broker.rating}
                         </Badge>
@@ -513,7 +513,7 @@ export default function MortgageBrokerVsBankComparison() {
                           item.bank.rating === 'moderate' ? 'bg-yellow-100 text-yellow-800' :
                           item.bank.rating === 'variable' ? 'bg-gray-100 text-gray-800' :
                           item.bank.rating === 'limited' ? 'bg-red-100 text-red-800' :
-                          item.bank.rating === 'rigid' ? 'bg-orange-100 text-orange-800' :
+                          item.bank.rating === 'rigid' ? 'bg-slate-100 text-slate-900' :
                           'bg-blue-100 text-blue-800'
                         }`}>
                           {item.bank.rating}
@@ -540,21 +540,21 @@ export default function MortgageBrokerVsBankComparison() {
             </p>
           </div>
 
-          <Card className="shadow-xl border-2 border-green-200">
-            <CardHeader className="bg-green-50">
+          <Card className="shadow-xl border-2 border-slate-200">
+            <CardHeader className="bg-slate-50">
               <CardTitle className="text-2xl text-center">{costComparison.scenario}</CardTitle>
             </CardHeader>
             <CardContent className="pt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <Users className="w-6 h-6 text-green-600" />
-                    <h3 className="text-xl font-bold text-green-800">Mortgage Broker</h3>
+                    <Users className="w-6 h-6 text-blue-600" />
+                    <h3 className="text-xl font-bold text-slate-900">Mortgage Broker</h3>
                   </div>
                   <div className="space-y-2">
                     <div className="flex justify-between">
                       <span>Interest Rate:</span>
-                      <span className="font-bold text-green-600">{costComparison.broker.rate}</span>
+                      <span className="font-bold text-blue-600">{costComparison.broker.rate}</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Monthly Payment:</span>
@@ -597,19 +597,19 @@ export default function MortgageBrokerVsBankComparison() {
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-green-50 rounded-lg border border-green-200">
-                <h4 className="text-lg font-bold text-green-800 mb-4 text-center">Your Potential Savings with a Broker</h4>
+              <div className="mt-8 p-6 bg-slate-50 rounded-lg border border-slate-200">
+                <h4 className="text-lg font-bold text-slate-900 mb-4 text-center">Your Potential Savings with a Broker</h4>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                   <div>
-                    <div className="text-2xl font-bold text-green-600">{costComparison.savings.monthly}</div>
+                    <div className="text-2xl font-bold text-blue-600">{costComparison.savings.monthly}</div>
                     <div className="text-sm text-slate-600">Monthly Savings</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-green-600">{costComparison.savings.upfront}</div>
+                    <div className="text-2xl font-bold text-blue-600">{costComparison.savings.upfront}</div>
                     <div className="text-sm text-slate-600">Upfront Savings</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-green-600">{costComparison.savings.lifetime}</div>
+                    <div className="text-2xl font-bold text-blue-600">{costComparison.savings.lifetime}</div>
                     <div className="text-sm text-slate-600">Lifetime Savings</div>
                   </div>
                 </div>
@@ -637,10 +637,10 @@ export default function MortgageBrokerVsBankComparison() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    <div className="p-3 bg-green-50 rounded-lg">
+                    <div className="p-3 bg-slate-50 rounded-lg">
                       <div className="flex items-center space-x-2 mb-2">
-                        <Users className="w-4 h-4 text-green-600" />
-                        <span className="font-semibold text-green-800">Broker Advantage</span>
+                        <Users className="w-4 h-4 text-blue-600" />
+                        <span className="font-semibold text-slate-900">Broker Advantage</span>
                       </div>
                       <p className="text-sm text-slate-700">{consideration.broker}</p>
                     </div>
@@ -670,11 +670,11 @@ export default function MortgageBrokerVsBankComparison() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <Card className="shadow-lg border-green-200">
-              <CardHeader className="bg-green-50">
+            <Card className="shadow-lg border-slate-200">
+              <CardHeader className="bg-slate-50">
                 <div className="flex items-center space-x-3">
-                  <Users className="w-6 h-6 text-green-600" />
-                  <CardTitle className="text-xl text-green-800">Choose a Mortgage Broker When:</CardTitle>
+                  <Users className="w-6 h-6 text-blue-600" />
+                  <CardTitle className="text-xl text-slate-900">Choose a Mortgage Broker When:</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="pt-6">
@@ -690,7 +690,7 @@ export default function MortgageBrokerVsBankComparison() {
                     "You want multiple lender options"
                   ].map((scenario, index) => (
                     <li key={index} className="flex items-start space-x-2">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5" />
                       <span className="text-slate-700">{scenario}</span>
                     </li>
                   ))}
@@ -733,7 +733,7 @@ export default function MortgageBrokerVsBankComparison() {
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Professional Recommendation</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
             As a licensed mortgage broker (NMLS #1426884) serving Orange County, I provide unbiased
             guidance to help you choose the best financing option for your situation.
           </p>
@@ -742,23 +742,23 @@ export default function MortgageBrokerVsBankComparison() {
             <div className="flex flex-col items-center">
               <Shield className="w-8 h-8 mb-2" />
               <span className="font-semibold">Licensed Professional</span>
-              <span className="text-blue-100">NMLS #1426884</span>
+              <span className="text-slate-200">NMLS #1426884</span>
             </div>
             <div className="flex flex-col items-center">
               <Target className="w-8 h-8 mb-2" />
               <span className="font-semibold">200+ Lenders</span>
-              <span className="text-blue-100">Best Rate Guarantee</span>
+              <span className="text-slate-200">Best Rate Guarantee</span>
             </div>
             <div className="flex flex-col items-center">
               <Clock className="w-8 h-8 mb-2" />
               <span className="font-semibold">Fast Closing</span>
-              <span className="text-blue-100">18-25 Day Average</span>
+              <span className="text-slate-200">18-25 Day Average</span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact-orange-county-mortgage-broker">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <Phone className="w-5 h-5 mr-2" />
                 Get Personalized Advice
               </Button>

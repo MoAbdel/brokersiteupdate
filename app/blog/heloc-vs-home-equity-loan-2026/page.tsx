@@ -247,7 +247,7 @@ export default function HELOCvsHELOANGuide() {
             <li><strong>Large one-time need:</strong> Major purchase or investment</li>
           </ul>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-purple-800 mb-3">Home Equity Loan Best For:</h3>
             <p className="text-purple-900">One-time expenses with known costs, debt consolidation, or when you want the security of fixed payments that won&apos;t change over the loan term.</p>
           </div>

@@ -396,11 +396,11 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Platinum Triangle Condo</td><td className="py-2 px-4 border-b">$650,000</td><td className="py-2 px-4 border-b">$520,000</td><td className="py-2 px-4 border-b text-green-700">~$33,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">West Anaheim Single Family</td><td className="py-2 px-4 border-b">$800,000</td><td className="py-2 px-4 border-b">$640,000</td><td className="py-2 px-4 border-b text-green-700">~$40,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">Colony District Home</td><td className="py-2 px-4 border-b">$950,000</td><td className="py-2 px-4 border-b">$760,000</td><td className="py-2 px-4 border-b text-green-700">~$47,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">Anaheim Hills Standard</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b">$960,000</td><td className="py-2 px-4 border-b text-green-700">~$60,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4">Anaheim Hills Premium</td><td className="py-2 px-4">$1,800,000</td><td className="py-2 px-4">$1,440,000</td><td className="py-2 px-4 text-green-700">~$90,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Platinum Triangle Condo</td><td className="py-2 px-4 border-b">$650,000</td><td className="py-2 px-4 border-b">$520,000</td><td className="py-2 px-4 border-b text-blue-700">~$33,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">West Anaheim Single Family</td><td className="py-2 px-4 border-b">$800,000</td><td className="py-2 px-4 border-b">$640,000</td><td className="py-2 px-4 border-b text-blue-700">~$40,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Colony District Home</td><td className="py-2 px-4 border-b">$950,000</td><td className="py-2 px-4 border-b">$760,000</td><td className="py-2 px-4 border-b text-blue-700">~$47,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Anaheim Hills Standard</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b">$960,000</td><td className="py-2 px-4 border-b text-blue-700">~$60,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4">Anaheim Hills Premium</td><td className="py-2 px-4">$1,800,000</td><td className="py-2 px-4">$1,440,000</td><td className="py-2 px-4 text-blue-700">~$90,000 over 30 years</td></tr>
             </tbody>
           </table>
         </div>
@@ -531,15 +531,15 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-green-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-green-700">200+ wholesale lenders</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-green-700">Multiple 12 and 24 month options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Not available</td><td className="py-3 px-4 border-b text-green-700">Standard wholesale offering</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-green-700">20+ jumbo lender options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Condo Expertise</td><td className="py-3 px-4 border-b">Limited flexibility</td><td className="py-3 px-4 border-b text-green-700">Lenders for non-warrantable options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Local Knowledge</td><td className="py-3 px-4 border-b">National guidelines</td><td className="py-3 px-4 border-b text-green-700">Anaheim market expertise</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Service Model</td><td className="py-3 px-4 border-b">Branch or call center</td><td className="py-3 px-4 border-b text-green-700">Direct broker relationship</td></tr>
-              <tr><td className="py-3 px-4">Complex Scenarios</td><td className="py-3 px-4">Often declined</td><td className="py-3 px-4 text-green-700">Specialty lenders available</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Not available</td><td className="py-3 px-4 border-b text-blue-700">Standard wholesale offering</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Condo Expertise</td><td className="py-3 px-4 border-b">Limited flexibility</td><td className="py-3 px-4 border-b text-blue-700">Lenders for non-warrantable options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Local Knowledge</td><td className="py-3 px-4 border-b">National guidelines</td><td className="py-3 px-4 border-b text-blue-700">Anaheim market expertise</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Service Model</td><td className="py-3 px-4 border-b">Branch or call center</td><td className="py-3 px-4 border-b text-blue-700">Direct broker relationship</td></tr>
+              <tr><td className="py-3 px-4">Complex Scenarios</td><td className="py-3 px-4">Often declined</td><td className="py-3 px-4 text-blue-700">Specialty lenders available</td></tr>
             </tbody>
           </table>
         </div>

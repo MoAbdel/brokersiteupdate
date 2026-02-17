@@ -238,12 +238,12 @@ export default function WholesaleMortgageBroker92691Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail</td><td className="py-2 px-4 border-b text-green-700">Wholesale</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lake community expertise</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700">Multiple experienced lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">55+ community programs</td><td className="py-2 px-4 border-b">Standard</td><td className="py-2 px-4 border-b text-green-700">Specialized options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">HOA review process</td><td className="py-2 px-4 border-b">One approach</td><td className="py-2 px-4 border-b text-green-700">Multiple lender guidelines</td></tr>
-              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-green-700">21-30 days</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail</td><td className="py-2 px-4 border-b text-blue-700">Wholesale</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lake community expertise</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700">Multiple experienced lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">55+ community programs</td><td className="py-2 px-4 border-b">Standard</td><td className="py-2 px-4 border-b text-blue-700">Specialized options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">HOA review process</td><td className="py-2 px-4 border-b">One approach</td><td className="py-2 px-4 border-b text-blue-700">Multiple lender guidelines</td></tr>
+              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-blue-700">21-30 days</td></tr>
             </tbody>
           </table>
         </div>

@@ -170,7 +170,7 @@ export default function NonQMLoansGuide2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
               <span className="text-purple-400 text-sm font-medium">Non-QM Loan Specialist</span>
             </div>
 
@@ -185,7 +185,7 @@ export default function NonQMLoansGuide2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check Non-QM Eligibility
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -214,12 +214,12 @@ export default function NonQMLoansGuide2026() {
             Non-QM (Non-Qualified Mortgage) loans exist outside the "qualified mortgage" rules established by the Consumer Financial Protection Bureau in 2014. These aren't subprime loans—they're specialized products for creditworthy borrowers whose income doesn't fit traditional documentation requirements.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-lg p-4 mb-6">
             <div className="flex gap-3">
-              <AlertCircle className="w-6 h-6 text-amber-600 shrink-0" />
+              <AlertCircle className="w-6 h-6 text-blue-600 shrink-0" />
               <div>
                 <h4 className="font-semibold text-amber-800 mb-1">Important Distinction</h4>
-                <p className="text-amber-700 text-sm">
+                <p className="text-blue-700 text-sm">
                   Non-QM loans are NOT subprime loans. They serve borrowers with good credit and strong finances who simply can't document income through traditional W-2s and tax returns. According to Mo Abdel, NMLS #1426884, "Many of my Non-QM clients have 750+ credit scores and substantial assets—they just run their income through business entities."
                 </p>
               </div>
@@ -227,9 +227,9 @@ export default function NonQMLoansGuide2026() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-green-50 rounded-lg p-4">
-              <h4 className="font-semibold text-green-800 mb-2">Ideal Non-QM Candidates</h4>
-              <ul className="text-sm text-green-700 space-y-1">
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h4 className="font-semibold text-slate-900 mb-2">Ideal Non-QM Candidates</h4>
+              <ul className="text-sm text-blue-700 space-y-1">
                 <li>• Self-employed business owners</li>
                 <li>• Real estate investors (5+ properties)</li>
                 <li>• Gig economy/1099 contractors</li>
@@ -350,35 +350,35 @@ export default function NonQMLoansGuide2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-4">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Determine Best Non-QM Program</h4>
                   <p className="text-slate-600">Self-employed → Bank Statement. Investor → DSCR. Retiree → Asset Depletion. Foreign → Foreign National.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Gather Program-Specific Documents</h4>
                   <p className="text-slate-600">Bank Statement: 12-24 months statements. DSCR: Lease agreements, rent rolls. Asset: Investment account statements.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit to Wholesale Non-QM Specialist</h4>
                   <p className="text-slate-600">Mo Abdel accesses 100+ wholesale lenders including 20+ Non-QM specialists for the most competitive rates.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Receive Approval and Rate Lock</h4>
                   <p className="text-slate-600">Non-QM underwriting is manual, typically taking 3-5 days longer than automated approvals. Lock rate once approved.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Close on Your Property</h4>
                   <p className="text-slate-600">Non-QM closings typically take 30-45 days. DSCR investment loans may close faster with fewer conditions.</p>
@@ -409,12 +409,12 @@ export default function NonQMLoansGuide2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Can't Qualify for a Traditional Mortgage?
           </h2>
-          <p className="text-lg text-purple-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Non-QM loans open doors for self-employed professionals, investors, and unique financial situations. Get a free consultation to explore your options with no credit check required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Check My Eligibility
               </Button>
             </Link>
@@ -431,19 +431,19 @@ export default function NonQMLoansGuide2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Non-QM Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/loan-programs/bank-statement-loans" className="text-purple-600 hover:text-purple-700 hover:underline">
+            <Link href="/loan-programs/bank-statement-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Bank Statement Loan Details
             </Link>
-            <Link href="/loan-programs/dscr-investment-loans" className="text-purple-600 hover:text-purple-700 hover:underline">
+            <Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → DSCR Investment Loan Guide
             </Link>
-            <Link href="/loan-programs/asset-depletion-loans" className="text-purple-600 hover:text-purple-700 hover:underline">
+            <Link href="/loan-programs/asset-depletion-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Asset Depletion Programs
             </Link>
-            <Link href="/loan-programs/foreign-national-loans" className="text-purple-600 hover:text-purple-700 hover:underline">
+            <Link href="/loan-programs/foreign-national-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Foreign National Loans
             </Link>
-            <Link href="/self-employed-home-loans-california" className="text-purple-600 hover:text-purple-700 hover:underline">
+            <Link href="/self-employed-home-loans-california" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Self-Employed Home Loans CA
             </Link>
           </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank } from 'lucide-react';
+import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank, Lightbulb } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
@@ -190,13 +190,16 @@ export default function CashOutRefinancePage() {
                 throughout the county, you may have more equity available than you realize. Access funds for home improvements,
                 debt consolidation, investments, or any major financial goal.
               </p>
-              <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
-                <p className="text-green-800 font-semibold text-lg">
-                  🏠 Orange County homes have appreciated significantly - you may qualify for $100K+ in cash!
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
+                <p className="text-slate-900 font-semibold text-lg">
+                  <span className="inline-flex items-center gap-2">
+                    <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>Orange County homes have appreciated significantly - you may qualify for $100K+ in cash!</span>
+                  </span>
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Calculate your cash-out refinance amount">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Calculate your cash-out refinance amount">
                   <a href="tel:(949) 822-9662" className="flex items-center">
                     <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
                     Calculate My Cash-Out Amount
@@ -234,7 +237,7 @@ export default function CashOutRefinancePage() {
                     <h4 className="text-lg font-semibold text-slate-900 mb-2">Cash-Out Option</h4>
                     <p className="text-slate-600">New Loan Amount: <strong>$800,000</strong></p>
                     <p className="text-slate-600">Pay Off Current: <strong>$400,000</strong></p>
-                    <p className="text-green-600 font-bold">Cash to You: <strong>$400,000</strong></p>
+                    <p className="text-blue-600 font-bold">Cash to You: <strong>$400,000</strong></p>
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-2">After Cash-Out</h4>
@@ -261,8 +264,8 @@ export default function CashOutRefinancePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-green-600" aria-hidden="true" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-8 h-8 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Access Large Amounts</h3>
                 <p className="text-slate-600">
@@ -283,8 +286,8 @@ export default function CashOutRefinancePage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-purple-600" aria-hidden="true" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Home className="w-8 h-8 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Tax Benefits</h3>
                 <p className="text-slate-600">
@@ -294,8 +297,8 @@ export default function CashOutRefinancePage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calculator className="w-8 h-8 text-orange-600" aria-hidden="true" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Calculator className="w-8 h-8 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Monthly Payments</h3>
                 <p className="text-slate-600">
@@ -350,7 +353,7 @@ export default function CashOutRefinancePage() {
                     <ul className="space-y-2">
                       {use.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                          <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                           <span className="text-slate-700">{benefit}</span>
                         </li>
                       ))}
@@ -410,33 +413,36 @@ export default function CashOutRefinancePage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Typical Requirements</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4">✓ Typical Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 620+ (higher for best pricing)</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> Keep at least 20% after cash-out</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, verifiable income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> Total debts under 43-50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Occupancy:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal Candidates</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                    <Lightbulb className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                    <span>Ideal Candidates</span>
+                  </h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <Building className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
@@ -505,8 +511,8 @@ export default function CashOutRefinancePage() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-green-600">4</span>
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-blue-600">4</span>
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-3">Closing & Cash-Out</h3>
                 <p className="text-slate-600">
@@ -533,7 +539,7 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Why Work With Mo The Broker */}
-          <section aria-label="Why work with Mo The Broker for cash-out refinance" className="mb-16 bg-blue-600 text-white rounded-xl p-8">
+          <section aria-label="Why work with Mo The Broker for cash-out refinance" className="mb-16 bg-slate-900 text-white rounded-xl p-8">
             <h2 className="text-3xl font-bold mb-8 text-center">
               Why Work With Mo The Broker for Your Cash-Out Refinance?
             </h2>
@@ -544,7 +550,7 @@ export default function CashOutRefinancePage() {
                   <Home className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Orange County Expertise</h3>
-                <p className="text-blue-100">
+                <p className="text-slate-200">
                   Deep knowledge of local market values and trends. I understand Orange County's
                   unique neighborhoods and property values.
                 </p>
@@ -555,7 +561,7 @@ export default function CashOutRefinancePage() {
                   <Building className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">200+ Lender Network</h3>
-                <p className="text-blue-100">
+                <p className="text-slate-200">
                   Access to wholesale pricing and multiple program options. I shop the market
                   to find your best cash-out refinance terms.
                 </p>
@@ -566,7 +572,7 @@ export default function CashOutRefinancePage() {
                   <CheckCircle className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Personalized Service</h3>
-                <p className="text-blue-100">
+                <p className="text-slate-200">
                   Direct access to me throughout the process. No call centers or
                   account transfers - just personalized service from start to finish.
                 </p>
@@ -598,22 +604,22 @@ export default function CashOutRefinancePage() {
           {/* CTA Section */}
           <section aria-label="Get started with cash-out refinance" className="text-center bg-green-600 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>
-            <p className="text-xl mb-6 text-green-100" data-speakable="true">
+            <p className="text-xl mb-6 text-slate-200" data-speakable="true">
               Discover how much cash you can access with a cash-out refinance in Orange County's current market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">
                   Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg" aria-label="Get your cash-out refinance quote">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Get your cash-out refinance quote">
                   Get My Cash-Out Quote
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-green-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
             </p>
           </section>

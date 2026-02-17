@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Home Equity Options Seattle Eastside WA: HELOC, Cash-Out, HELOAN Guide [2026]',
@@ -176,7 +177,7 @@ export default function HomeEquitySeattleEastside() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bellevue Example: Tech Executive Renovation</h4>
             <p className="mb-0">A Microsoft director in West Bellevue owns a $2.4M home with $1.2M remaining mortgage at 3.25% (locked in 2021). Rather than cash-out refinancing at 6.5%+ (losing the low rate), a $400K HELOC at prime+0.5% funds a major renovation while preserving the valuable first mortgage. Total interest savings over 10 years: approximately $150,000.</p>
           </div>
@@ -365,7 +366,10 @@ export default function HomeEquitySeattleEastside() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free equity analysis:</p>
-            <p className="text-lg">📞 (949) 822-9662</p>
+            <p className="text-lg inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

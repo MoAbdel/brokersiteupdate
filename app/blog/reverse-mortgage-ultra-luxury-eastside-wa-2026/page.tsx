@@ -331,49 +331,49 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Medina</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000+</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.6M&ndash;$2.5M+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.6M&ndash;$2.5M+</td>
                 <td className="border border-gray-300 px-4 py-3">Billionaire Row, Gates/Bezos neighbors, lakefront compounds</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Yarrow Point</td>
                 <td className="border border-gray-300 px-4 py-3">$4,500,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1.5M&ndash;$2.25M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1.5M&ndash;$2.25M</td>
                 <td className="border border-gray-300 px-4 py-3">Points Communities elite, Lake Washington frontage</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Hunts Point</td>
                 <td className="border border-gray-300 px-4 py-3">$3,000,000+</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$980K&ndash;$1.5M+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$980K&ndash;$1.5M+</td>
                 <td className="border border-gray-300 px-4 py-3">Gated peninsula, 42 homes, extreme exclusivity</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Clyde Hill</td>
                 <td className="border border-gray-300 px-4 py-3">$3,000,000+</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$980K&ndash;$1.5M+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$980K&ndash;$1.5M+</td>
                 <td className="border border-gray-300 px-4 py-3">Microsoft/Amazon executives, panoramic views</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Mercer Island</td>
                 <td className="border border-gray-300 px-4 py-3">$2,500,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$820K&ndash;$1.25M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$820K&ndash;$1.25M</td>
                 <td className="border border-gray-300 px-4 py-3">Island living, legacy properties, I-90 corridor</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Beaux Arts Village</td>
                 <td className="border border-gray-300 px-4 py-3">$2,000,000</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$650K&ndash;$1.0M</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$650K&ndash;$1.0M</td>
                 <td className="border border-gray-300 px-4 py-3">Artist colony, 50 homes, Lake Washington access</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bellevue</td>
                 <td className="border border-gray-300 px-4 py-3">$1,500,000+</td>
                 <td className="border border-gray-300 px-4 py-3">$520K&ndash;$600K</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$490K&ndash;$750K</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$490K&ndash;$750K</td>
                 <td className="border border-gray-300 px-4 py-3">Downtown towers, tech hub, executive condos</td>
               </tr>
             </tbody>
@@ -398,18 +398,18 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$2M&ndash;$15M+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$2M&ndash;$15M+</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">None</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">None</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Line of Credit Growth</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Yes (guaranteed)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Yes (guaranteed)</td>
                 <td className="border border-gray-300 px-4 py-3">Not typically offered</td>
                 <td className="border border-gray-300 px-4 py-3">N/A (purchase)</td>
               </tr>
@@ -421,20 +421,20 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Non-Recourse Guarantee</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured</td>
                 <td className="border border-gray-300 px-4 py-3">Lender non-recourse (varies)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">WA State Tax on Proceeds</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Ultra-Luxury Eastside Best For</td>
                 <td className="border border-gray-300 px-4 py-3">Modest equity access with maximum protections</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Meaningful liquidity from $2M&ndash;$15M+ estates</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Meaningful liquidity from $2M&ndash;$15M+ estates</td>
                 <td className="border border-gray-300 px-4 py-3">Buying an Eastside estate with reverse mortgage financing</td>
               </tr>
             </tbody>
@@ -484,8 +484,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Medina Insight:</strong> A 71-year-old retired Microsoft executive on Medina waterfront owns a $12 million estate free and clear. Annual property taxes exceed $84,000 with no Prop 13 protection. A proprietary jumbo reverse mortgage provides a $4.2 million line of credit, covering decades of property taxes, estate maintenance, and lifestyle expenses without liquidating concentrated Microsoft stock. Washington&apos;s zero state income tax means every dollar accessed through the reverse mortgage avoids both federal and state taxation.
           </p>
         </div>
@@ -527,8 +527,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Clyde Hill Insight:</strong> A 67-year-old retired Amazon VP in upper Clyde Hill owns a $5.5 million home in a revocable living trust. She holds $15 million in Amazon stock with a cost basis of $1.2 million. Selling stock triggers $13.8 million in federal capital gains. A proprietary jumbo reverse mortgage provides $1.8 million to $2.75 million in tax-free liquidity, allowing her to maintain the Clyde Hill lifestyle, cover $38,500 in annual property taxes, and preserve the stock position for a planned charitable remainder trust.
           </p>
         </div>
@@ -575,8 +575,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Hunts Point Insight:</strong> A 74-year-old Hunts Point resident owns one of the peninsula&apos;s waterfront estates valued at $14 million. Annual property taxes exceed $98,000. Rather than selling the irreplaceable waterfront position, a proprietary jumbo reverse mortgage provides $4.6 million to $7 million in proceeds&mdash;enough to cover 50+ years of property taxes and maintenance while preserving the estate for heirs. The non-recourse feature ensures heirs never owe more than the home&apos;s future value.
           </p>
         </div>
@@ -618,8 +618,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Yarrow Point Insight:</strong> A 69-year-old Yarrow Point couple owns a $7.5 million lakefront estate purchased in 2003 for $2.8 million. Both are retired tech executives with substantial RSU-heavy portfolios. Rather than liquidating stock during market volatility, a proprietary jumbo reverse mortgage provides $2.4 million to $3.75 million. They use $500,000 immediately for home renovation and dock replacement, with the remainder as a growing financial reserve. Washington&apos;s no-income-tax advantage means the entire reverse mortgage strategy operates tax-efficiently.
           </p>
         </div>
@@ -666,8 +666,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Beaux Arts Insight:</strong> A 76-year-old retired artist has lived in Beaux Arts Village for 35 years, purchasing her lakefront home for $280,000 in 1991. The home now appraises at $3.8 million. Living on Social Security and modest art income, she needs funds for home maintenance and healthcare without leaving the community she helped build. An HECM provides a growing line of credit based on the $1,149,825 limit, while the growth feature increases the unused portion annually&mdash;an ideal long-term strategy for a borrower who needs gradual access rather than large upfront proceeds.
           </p>
         </div>
@@ -714,8 +714,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Mercer Island Insight:</strong> A 73-year-old retired Boeing engineer on Mercer Island&apos;s east shore owns a $4.2 million home purchased in 1988 for $310,000. His Boeing pension and Social Security cover daily expenses, but annual property taxes of $29,400 and home maintenance strain the budget. A proprietary jumbo reverse mortgage provides $1.4 million to $2.1 million, with $5,000 drawn monthly to supplement retirement income. The island&apos;s geographic constraint ensures long-term value stability&mdash;no new lakefront land can be created, supporting the reverse mortgage collateral position.
           </p>
         </div>
@@ -767,8 +767,8 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Bellevue Insight:</strong> A 65-year-old retired Google engineering director owns a $3.2 million penthouse in Bellevue Towers downtown. The condo&apos;s HOA fees of $1,800 monthly, combined with $22,400 in annual property taxes, create significant ongoing costs. A proprietary jumbo reverse mortgage provides $1.0 million to $1.6 million, eliminating the need to draw from retirement accounts to cover housing costs. The downtown Bellevue location near Amazon HQ2 and Meta&apos;s campus ensures sustained demand and value appreciation supporting the reverse mortgage position.
           </p>
         </div>
@@ -818,49 +818,49 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Medina</td>
                 <td className="border border-gray-300 px-4 py-3">$3,400,000</td>
                 <td className="border border-gray-300 px-4 py-3">$5,000,000+</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+47%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+47%</td>
                 <td className="border border-gray-300 px-4 py-3">$35K&ndash;$105K+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Yarrow Point</td>
                 <td className="border border-gray-300 px-4 py-3">$3,100,000</td>
                 <td className="border border-gray-300 px-4 py-3">$4,500,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+45%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+45%</td>
                 <td className="border border-gray-300 px-4 py-3">$31K&ndash;$84K</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Hunts Point</td>
                 <td className="border border-gray-300 px-4 py-3">$2,100,000</td>
                 <td className="border border-gray-300 px-4 py-3">$3,000,000+</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">$21K&ndash;$140K+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Clyde Hill</td>
                 <td className="border border-gray-300 px-4 py-3">$2,100,000</td>
                 <td className="border border-gray-300 px-4 py-3">$3,000,000+</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">$21K&ndash;$49K</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Mercer Island</td>
                 <td className="border border-gray-300 px-4 py-3">$1,700,000</td>
                 <td className="border border-gray-300 px-4 py-3">$2,500,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+47%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+47%</td>
                 <td className="border border-gray-300 px-4 py-3">$17K&ndash;$56K</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Beaux Arts Village</td>
                 <td className="border border-gray-300 px-4 py-3">$1,400,000</td>
                 <td className="border border-gray-300 px-4 py-3">$2,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">$14K&ndash;$35K</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bellevue</td>
                 <td className="border border-gray-300 px-4 py-3">$1,050,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,500,000+</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
                 <td className="border border-gray-300 px-4 py-3">$10K&ndash;$35K</td>
               </tr>
             </tbody>

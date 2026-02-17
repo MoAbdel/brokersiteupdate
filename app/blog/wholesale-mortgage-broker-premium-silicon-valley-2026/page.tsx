@@ -280,43 +280,43 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender Access</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 border-t">1 lender (own products only)</td>
                   <td className="px-4 py-3 border-t">1 lender (own products only)</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Rate Shopping</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Automatic &mdash; broker shops for you</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Automatic &mdash; broker shops for you</td>
                   <td className="px-4 py-3 border-t">You must apply at multiple banks</td>
                   <td className="px-4 py-3 border-t">You must compare multiple sites</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">RSU/Stock Treatment</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Matched to most favorable lender</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Matched to most favorable lender</td>
                   <td className="px-4 py-3 border-t">Single policy (often conservative)</td>
                   <td className="px-4 py-3 border-t">Often limited RSU experience</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Super-Jumbo ($3M+)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Full access to $10M+ programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Full access to $10M+ programs</td>
                   <td className="px-4 py-3 border-t">Limited to bank&apos;s portfolio max</td>
                   <td className="px-4 py-3 border-t">Rarely available above $3M</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Pricing Model</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Wholesale (no retail markup)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Wholesale (no retail markup)</td>
                   <td className="px-4 py-3 border-t">Retail (includes branch/overhead costs)</td>
                   <td className="px-4 py-3 border-t">Direct (lower overhead, limited products)</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Solutions</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Bank statement, asset depletion, DSCR</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Bank statement, asset depletion, DSCR</td>
                   <td className="px-4 py-3 border-t">Tax returns only (usually)</td>
                   <td className="px-4 py-3 border-t">Limited alternative doc programs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Compensation Transparency</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Fully disclosed on Loan Estimate</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Fully disclosed on Loan Estimate</td>
                   <td className="px-4 py-3 border-t">Embedded in rate (not itemized)</td>
                   <td className="px-4 py-3 border-t">Varies by lender</td>
                 </tr>
@@ -380,10 +380,10 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Broker Value-Add</td>
                   <td className="px-4 py-3 border-t">Rate competition</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Lender matching critical</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Few banks accept &mdash; broker finds them</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Lender matching critical</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Few banks accept &mdash; broker finds them</td>
                   <td className="px-4 py-3 border-t">Expense ratio optimization</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">50+ bank statement lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">50+ bank statement lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Typical SV Scenario</td>
@@ -572,16 +572,16 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker in Premium Silicon Valley</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Premium Silicon Valley&apos;s $3.2M average median home value and tech-dominated compensation landscape demand a mortgage approach that no single bank can provide. Wholesale broker access to 200+ lenders &mdash; including 50+ jumbo and super-jumbo specialists &mdash; creates the lender competition that produces better rates, higher qualification amounts, and faster closings for Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino homebuyers.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The core value: strategic lender matching for complex tech compensation. RSU income, stock options, sabbatical pay, startup equity, and variable bonuses require lenders who understand these structures. The difference between conservative and favorable lender treatment routinely adds $50K&ndash;$300K in qualifying income, translating directly to $150K&ndash;$800K more in purchase power. In Silicon Valley&apos;s competitive market, this qualification advantage determines whether you win the home you want.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I deliver 200+ lender competition, RSU/stock expert qualification, and super-jumbo access for every Silicon Valley purchase. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free compensation analysis and pre-approval.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I deliver 200+ lender competition, RSU/stock expert qualification, and super-jumbo access for every Silicon Valley purchase. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free compensation analysis and pre-approval.
             </p>
           </div>
 

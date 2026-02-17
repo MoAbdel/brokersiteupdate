@@ -384,7 +384,7 @@ export default function ReverseMortgageCalculatorPage() {
                     <p className="text-blue-800 mb-4">
                         Online calculators provide estimates, but a personalized analysis considers your complete financial picture. I'll provide a detailed estimate based on current rates and your specific situation. Must be 62 or older and complete HUD counseling to proceed.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your Free Estimate
                     </a>
                 </div>

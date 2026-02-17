@@ -22,7 +22,7 @@ export default function LeadMagnet() {
   };
 
   return (
-    <section className="py-12 bg-gradient-to-r from-blue-600 to-blue-700">
+    <section className="py-12 bg-slate-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white">
           {!isSubmitted ? (
@@ -37,7 +37,7 @@ export default function LeadMagnet() {
                 Free 2026 California & Washington Homebuyer Guide
               </h2>
 
-              <p className="text-xl mb-8 text-blue-100">
+              <p className="text-xl mb-8 text-slate-200">
                 Get insider tips, market data, and step-by-step guidance for buying your next home in California or Washington
               </p>
 
@@ -53,7 +53,7 @@ export default function LeadMagnet() {
                   />
                   <Button
                     type="submit"
-                    className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 font-semibold whitespace-nowrap"
+                    className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 font-semibold whitespace-nowrap"
                   >
                     <Mail className="w-4 h-4 mr-2" />
                     Download Free
@@ -61,7 +61,7 @@ export default function LeadMagnet() {
                 </div>
               </form>
 
-              <p className="text-sm text-blue-200 mt-4">
+              <p className="text-sm text-slate-200 mt-4">
                 No spam, unsubscribe anytime. Your information is secure.
               </p>
             </>
@@ -71,7 +71,7 @@ export default function LeadMagnet() {
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold mb-4">Thank you!</h3>
-              <p className="text-blue-100">
+              <p className="text-slate-200">
                 Your guide is being sent to {email}. Check your inbox in a few minutes.
               </p>
             </div>

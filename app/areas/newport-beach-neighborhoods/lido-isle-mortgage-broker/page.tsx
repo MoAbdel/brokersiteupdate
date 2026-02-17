@@ -186,7 +186,7 @@ export default function LidoIsleMortgageBrokerPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Lido Isle Private Island Estate Financing
               </h1>
-              <p className="text-xl max-w-3xl mx-auto mb-8 text-blue-100">
+              <p className="text-xl max-w-3xl mx-auto mb-8 text-slate-200">
                 Exclusive financing for Newport Beach's most prestigious private island community. Specialized solutions for waterfront estates, private docks, and ultra-luxury properties from $4M to $20M+.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -396,7 +396,7 @@ export default function LidoIsleMortgageBrokerPage() {
                 Estate Pre-Approval
               </Button>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Lido Isle waterfront estate specialist
             </p>
           </div>

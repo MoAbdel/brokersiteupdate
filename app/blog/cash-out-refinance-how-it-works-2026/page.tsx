@@ -178,8 +178,8 @@ export default function CashOutRefinanceGuide() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Cash-Out Refinance Pros and Cons</h2>
 
           <div className="grid md:grid-cols-2 gap-6 my-6">
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-bold text-green-800 mb-3">Pros</h3>
+            <div className="bg-slate-50 p-6 rounded-lg">
+              <h3 className="font-bold text-slate-900 mb-3">Pros</h3>
               <ul className="space-y-2 text-green-900">
                 <li>Access large lump sum of cash</li>
                 <li>Potentially lower rate than HELOC</li>

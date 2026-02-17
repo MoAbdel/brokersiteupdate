@@ -341,12 +341,12 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Maximum Home Value Considered</td>
                   <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$10,000,000+ (lender dependent)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$10,000,000+ (lender dependent)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">FHA Mortgage Insurance</td>
                   <td className="px-4 py-3 border-t">2% upfront + 0.5% annual</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">None</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">None</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">HUD Counseling</td>
@@ -365,7 +365,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Line of Credit Growth</td>
-                  <td className="px-4 py-3 border-t text-green-700">Yes &mdash; unused funds grow over time</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Yes &mdash; unused funds grow over time</td>
                   <td className="px-4 py-3 border-t">Some programs offer growth feature</td>
                 </tr>
                 <tr>
@@ -381,13 +381,13 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Best For in Ultra-Luxury Marin</td>
                   <td className="px-4 py-3 border-t">Smaller equity needs, line of credit growth</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Full equity access on $2.7M&ndash;$5M+ homes</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Full equity access on $2.7M&ndash;$5M+ homes</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-amber-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
+          <div className="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
             <p className="mb-0"><strong>Key Insight:</strong> A 72-year-old Ross homeowner with a free-and-clear $5 million home accessing only the HECM program would be limited to proceeds based on a $1,149,825 valuation &mdash; potentially $500,000&ndash;$650,000. The same homeowner accessing a proprietary jumbo reverse mortgage based on the full $5 million value could access $1.75 million to $2.5 million or more. That is $1 million+ in additional equity access that the HECM program simply cannot provide.</p>
           </div>
 
@@ -760,7 +760,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY + CTA ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Reverse Mortgages in Ultra-Luxury Marin County</h2>
             <p>
               Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; represents one of California&apos;s most compelling markets for reverse mortgage utilization. The combination of extraordinary home values ($2.7 million to $5 million+ median across these four communities), a substantial senior population, and decades of equity accumulation creates conditions where proprietary jumbo reverse mortgages unlock financial freedom that the FHA HECM program cannot approach.
@@ -772,7 +772,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
               Each scenario requires a different lender, a different product structure, and a different appraisal approach. A wholesale broker navigates all of these variables with one conversation, one application, and one closing.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your ultra-luxury Marin County reverse mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to multiple HECM and proprietary reverse mortgage lenders, I compare programs side by side to find the best fit for your Marin County estate and retirement goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your ultra-luxury Marin County reverse mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to multiple HECM and proprietary reverse mortgage lenders, I compare programs side by side to find the best fit for your Marin County estate and retirement goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 

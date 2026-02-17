@@ -894,7 +894,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               East Bay and San Francisco homeowners aged 62 and older hold some of the largest equity positions
@@ -910,10 +910,10 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               and San Francisco communities covered in this guide.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to explore your options?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to explore your options?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
               a complimentary reverse mortgage consultation. I will provide a personalized estimate of your HECM
               proceeds based on your specific property, age, and financial situation -- with no obligation and
-              no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

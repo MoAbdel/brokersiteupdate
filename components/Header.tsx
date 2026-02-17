@@ -80,21 +80,27 @@ export default function Header() {
                       <ChevronDown className="ml-1 h-4 w-4 transition-transform duration-200 group-hover:rotate-180" />
                     </Link>
 
-                    {/* Simple hover dropdown */}
-                    <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-80 bg-white rounded-lg shadow-2xl border border-slate-200 py-3 z-[9999] max-h-[80vh] overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    {/* Premium hover dropdown */}
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-[22rem] bg-white/95 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-900/10 ring-1 ring-slate-900/5 border border-slate-200/70 py-2 z-[9999] max-h-[80vh] overflow-y-auto opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                       {item.dropdownItems?.map((dropdownItem, index) => (
                         dropdownItem.isHeader ? (
                           <div
                             key={index}
-                            className="px-4 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wider border-t border-slate-100 mt-1 pt-3 whitespace-nowrap"
+                            className={`px-4 pb-2 text-[11px] font-semibold text-slate-500 uppercase tracking-[0.14em] whitespace-nowrap ${index === 0 ? 'pt-3' : 'pt-4 border-t border-slate-100/80 mt-1'
+                              }`}
                           >
-                            {dropdownItem.title}
+                            <div className="flex items-center gap-2">
+                              {dropdownItem.icon ? (
+                                <dropdownItem.icon className="h-4 w-4 text-slate-400" />
+                              ) : null}
+                              <span>{dropdownItem.title}</span>
+                            </div>
                           </div>
                         ) : (
                           <Link
                             key={index}
                             href={dropdownItem.url}
-                            className="block px-4 py-2 text-sm text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-150 whitespace-nowrap"
+                            className="mx-2 flex items-center justify-between gap-3 rounded-lg px-3 py-2 text-sm text-slate-700 hover:text-blue-700 hover:bg-blue-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/20 transition-colors duration-150 whitespace-nowrap"
                           >
                             {dropdownItem.title}
                           </Link>
@@ -120,7 +126,7 @@ export default function Header() {
           {/* Desktop Right Action */}
           <div className="hidden md:flex items-center z-10">
             <a href={PHONE_TEL_HREF} onClick={() => trackPhoneCall()}>
-              <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold">
+              <Button size="sm" className="bg-slate-900 hover:bg-slate-800 text-white font-semibold">
                 {PHONE_DISPLAY}
               </Button>
             </a>
@@ -171,15 +177,21 @@ export default function Header() {
                         dropdownItem.isHeader ? (
                           <div
                             key={index}
-                            className="px-3 py-1 text-xs font-semibold text-slate-500 uppercase tracking-wider border-t border-slate-100 mt-2 pt-2 whitespace-nowrap"
+                            className={`px-3 pb-1 text-[11px] font-semibold text-slate-500 uppercase tracking-[0.14em] whitespace-nowrap ${index === 0 ? 'pt-2' : 'pt-4 border-t border-slate-100/80 mt-2'
+                              }`}
                           >
-                            {dropdownItem.title}
+                            <div className="flex items-center gap-2">
+                              {dropdownItem.icon ? (
+                                <dropdownItem.icon className="h-4 w-4 text-slate-400" />
+                              ) : null}
+                              <span>{dropdownItem.title}</span>
+                            </div>
                           </div>
                         ) : (
                           <Link
                             key={index}
                             href={dropdownItem.url}
-                            className="block px-3 py-1 text-sm text-slate-600 hover:text-blue-600 hover:bg-blue-50 rounded-md"
+                            className="block rounded-lg px-3 py-1.5 text-sm text-slate-600 hover:text-blue-700 hover:bg-blue-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/20"
                             onClick={() => setMobileMenuOpen(false)}
                           >
                             {dropdownItem.title}

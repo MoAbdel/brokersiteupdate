@@ -203,10 +203,10 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">$800,000</td><td className="py-2 px-4 border-b text-green-700">$50,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$99,000 over 30 years</td><td className="py-2 px-4 border-b">$139-$278/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,000,000</td><td className="py-2 px-4 border-b text-green-700">$63,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$124,000 over 30 years</td><td className="py-2 px-4 border-b">$174-$347/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b text-green-700">$94,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$186,000 over 30 years</td><td className="py-2 px-4 border-b">$261-$521/month</td></tr>
-              <tr><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4 text-green-700">$125,000 over 30 years</td><td className="py-2 px-4 text-green-700">$248,000 over 30 years</td><td className="py-2 px-4">$348-$695/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">$800,000</td><td className="py-2 px-4 border-b text-blue-700">$50,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$99,000 over 30 years</td><td className="py-2 px-4 border-b">$139-$278/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,000,000</td><td className="py-2 px-4 border-b text-blue-700">$63,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$124,000 over 30 years</td><td className="py-2 px-4 border-b">$174-$347/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b text-blue-700">$94,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$186,000 over 30 years</td><td className="py-2 px-4 border-b">$261-$521/month</td></tr>
+              <tr><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4 text-blue-700">$125,000 over 30 years</td><td className="py-2 px-4 text-blue-700">$248,000 over 30 years</td><td className="py-2 px-4">$348-$695/month</td></tr>
             </tbody>
           </table>
         </div>
@@ -475,16 +475,16 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-green-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender (the bank)</td><td className="py-3 px-4 border-b text-green-700">200+ wholesale lenders</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product with fixed guidelines</td><td className="py-3 px-4 border-b text-green-700">20+ jumbo lenders with varying criteria</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-green-700">Multiple 12 and 24 month options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Generally not available</td><td className="py-3 px-4 border-b text-green-700">Standard offering through wholesale</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Complex Income</td><td className="py-3 px-4 border-b">Often declined</td><td className="py-3 px-4 border-b text-green-700">Non-QM and specialty lenders available</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Rate Shopping</td><td className="py-3 px-4 border-b">Take it or leave it</td><td className="py-3 px-4 border-b text-green-700">Broker compares across all lenders</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Service Model</td><td className="py-3 px-4 border-b">Branch or call center</td><td className="py-3 px-4 border-b text-green-700">Direct broker relationship</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Local Market Knowledge</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-green-700">Orange County expertise</td></tr>
-              <tr><td className="py-3 px-4">Flexibility for Edge Cases</td><td className="py-3 px-4">Limited ability to exception</td><td className="py-3 px-4 text-green-700">Can shop for lender that fits scenario</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender (the bank)</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product with fixed guidelines</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lenders with varying criteria</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Generally not available</td><td className="py-3 px-4 border-b text-blue-700">Standard offering through wholesale</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Complex Income</td><td className="py-3 px-4 border-b">Often declined</td><td className="py-3 px-4 border-b text-blue-700">Non-QM and specialty lenders available</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Rate Shopping</td><td className="py-3 px-4 border-b">Take it or leave it</td><td className="py-3 px-4 border-b text-blue-700">Broker compares across all lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Service Model</td><td className="py-3 px-4 border-b">Branch or call center</td><td className="py-3 px-4 border-b text-blue-700">Direct broker relationship</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Local Market Knowledge</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-blue-700">Orange County expertise</td></tr>
+              <tr><td className="py-3 px-4">Flexibility for Edge Cases</td><td className="py-3 px-4">Limited ability to exception</td><td className="py-3 px-4 text-blue-700">Can shop for lender that fits scenario</td></tr>
             </tbody>
           </table>
         </div>

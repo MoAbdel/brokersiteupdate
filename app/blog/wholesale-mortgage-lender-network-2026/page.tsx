@@ -150,13 +150,13 @@ export default function WholesaleMortgageLenderNetwork2026() {
               The 200+ Lender Advantage: How Wholesale Mortgage Broker Networks Work [2026]
             </h1>
 
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
               When a retail bank quotes you a mortgage rate, you receive one institution&apos;s pricing for one set of products. When a wholesale mortgage broker quotes you, they compare pricing from 200+ lending institutions simultaneously &mdash; each with different rates, guidelines, and specializations. According to Mo Abdel, NMLS #1426884, the wholesale channel consistently delivers lower rates because wholesale lenders eliminate branch overhead and pass those savings to borrowers through broker-channel pricing.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Search className="w-5 h-5 mr-2" />
                   Get Wholesale Rate Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -201,12 +201,12 @@ export default function WholesaleMortgageLenderNetwork2026() {
               </div>
               <div className="bg-white rounded-lg p-4">
                 <p className="text-sm text-slate-600">Online Marketplace</p>
-                <p className="text-2xl font-bold text-amber-600">3-5 Lenders</p>
+                <p className="text-2xl font-bold text-blue-600">3-5 Lenders</p>
                 <p className="text-xs text-slate-500 mt-1">Sells your info to competing lenders</p>
               </div>
               <div className="bg-white rounded-lg p-4">
                 <p className="text-sm text-slate-600">Wholesale Broker</p>
-                <p className="text-2xl font-bold text-green-600">200+</p>
+                <p className="text-2xl font-bold text-blue-600">200+</p>
                 <p className="text-xs text-slate-500 mt-1">One broker shops your scenario across all</p>
               </div>
             </div>
@@ -246,56 +246,56 @@ export default function WholesaleMortgageLenderNetwork2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Lender Options</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">200+ lenders</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">200+ lenders</td>
                   <td className="px-3 py-3 text-sm text-slate-600">1 lender</td>
                   <td className="px-3 py-3 text-sm text-slate-600">1 lender</td>
                   <td className="px-3 py-3 text-sm text-slate-600">1 lender</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Rate Competitiveness</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">Highest (comparison-driven)</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">Highest (comparison-driven)</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Moderate</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Moderate to Good</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Moderate to Good</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Non-QM / DSCR Access</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">50+ DSCR lenders</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">50+ DSCR lenders</td>
                   <td className="px-3 py-3 text-sm text-red-600">None or very limited</td>
                   <td className="px-3 py-3 text-sm text-red-600">Rarely offered</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Limited selection</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Jumbo Loan Options</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">30+ jumbo lenders</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">30+ jumbo lenders</td>
                   <td className="px-3 py-3 text-sm text-slate-600">1 portfolio program</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">Often competitive</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">Often competitive</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Limited</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Closing Speed</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">21-30 days</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">21-30 days</td>
                   <td className="px-3 py-3 text-sm text-slate-600">30-45 days</td>
                   <td className="px-3 py-3 text-sm text-slate-600">30-45 days</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">21-30 days</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">21-30 days</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Personalized Service</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">High (dedicated broker)</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">High (dedicated broker)</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Varies by branch</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">High (member-focused)</td>
-                  <td className="px-3 py-3 text-sm text-amber-600">Low (automated)</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">High (member-focused)</td>
+                  <td className="px-3 py-3 text-sm text-blue-600">Low (automated)</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Approval for Complex Scenarios</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">Best (multiple guideline sets)</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">Best (multiple guideline sets)</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Limited to one guideline</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Limited to one guideline</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Moderate</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Fee Transparency</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">TILA-RESPA mandated</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">TILA-RESPA mandated</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Standard disclosures</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Standard disclosures</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Standard disclosures</td>
@@ -303,7 +303,7 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Physical Branches</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Office-based or virtual</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">Full branch network</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">Full branch network</td>
                   <td className="px-3 py-3 text-sm text-slate-600">Limited locations</td>
                   <td className="px-3 py-3 text-sm text-red-600">No branches</td>
                 </tr>
@@ -345,31 +345,31 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Conventional (Fannie/Freddie)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Agency wholesale lenders</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">80-100+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">80-100+ lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">FHA / VA / USDA</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Government-approved lenders</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">40-60+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">40-60+ lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Jumbo (&gt;$1,266,300 in CA)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Portfolio &amp; private lenders</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">30-50+ lenders</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Limited (1 portfolio option)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Limited (1 portfolio option)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">DSCR Investment Loans</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Non-QM specialists</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">50-80+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">50-80+ lenders</td>
                   <td className="px-4 py-3 text-sm text-red-600">Rarely available at banks</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Bank Statement Loans</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Non-QM specialists</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">40-60+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">40-60+ lenders</td>
                   <td className="px-4 py-3 text-sm text-red-600">Rarely available at banks</td>
                 </tr>
                 <tr>
@@ -381,20 +381,20 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">VA Loans (Veterans)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">VA-approved wholesale lenders</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">30-50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-50+ lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reverse Mortgage (HECM)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">FHA-approved reverse lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10-20+ lenders</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Limited (few banks offer)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Limited (few banks offer)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Construction / Renovation</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Specialty construction lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10-20+ lenders</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Limited selection</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Limited selection</td>
                 </tr>
               </tbody>
             </table>
@@ -479,18 +479,18 @@ export default function WholesaleMortgageLenderNetwork2026() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-6">
-            <div className="bg-green-50 rounded-xl p-6 text-center">
-              <Zap className="w-8 h-8 text-green-600 mx-auto mb-3" />
+            <div className="bg-slate-50 rounded-xl p-6 text-center">
+              <Zap className="w-8 h-8 text-blue-600 mx-auto mb-3" />
               <h3 className="font-semibold text-slate-900 mb-2">Cost Structure</h3>
               <p className="text-sm text-slate-600">Wholesale lenders eliminate branch overhead, reducing origination costs passed to borrowers</p>
             </div>
-            <div className="bg-green-50 rounded-xl p-6 text-center">
-              <Users className="w-8 h-8 text-green-600 mx-auto mb-3" />
+            <div className="bg-slate-50 rounded-xl p-6 text-center">
+              <Users className="w-8 h-8 text-blue-600 mx-auto mb-3" />
               <h3 className="font-semibold text-slate-900 mb-2">Competition Effect</h3>
               <p className="text-sm text-slate-600">200+ lenders competing for each scenario drives rates toward the market floor</p>
             </div>
-            <div className="bg-green-50 rounded-xl p-6 text-center">
-              <Shield className="w-8 h-8 text-green-600 mx-auto mb-3" />
+            <div className="bg-slate-50 rounded-xl p-6 text-center">
+              <Shield className="w-8 h-8 text-blue-600 mx-auto mb-3" />
               <h3 className="font-semibold text-slate-900 mb-2">Fixed Compensation</h3>
               <p className="text-sm text-slate-600">Broker pay is fixed regardless of lender or rate, eliminating steering incentives</p>
             </div>
@@ -596,9 +596,9 @@ export default function WholesaleMortgageLenderNetwork2026() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 rounded-xl p-6">
+            <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <Target className="w-5 h-5 text-green-600" />
+                <Target className="w-5 h-5 text-blue-600" />
                 Highest-Impact Scenarios
               </h3>
               <ul className="text-slate-600 space-y-2">
@@ -690,10 +690,10 @@ export default function WholesaleMortgageLenderNetwork2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: 200+ Lenders Working for You, Managed by One Broker
           </h2>
-          <p className="text-lg text-blue-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             The wholesale mortgage channel exists because a structural truth in lending: no single institution offers the best rate for every borrower. A retail bank gives you one option. A wholesale broker gives you 200+ options through one point of contact, with compensation transparency that retail banking does not match.
           </p>
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             Mo Abdel at Lumin Lending maintains active wholesale relationships with 200+ lending institutions across conventional, jumbo, DSCR, bank statement, non-QM, FHA, VA, and specialty product categories. Whether you&apos;re purchasing your first home, scaling an investment portfolio, or refinancing for a better rate, wholesale access ensures you see the best the market offers &mdash; not just one bank&apos;s pricing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

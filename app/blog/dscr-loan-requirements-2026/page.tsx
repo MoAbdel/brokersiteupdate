@@ -141,7 +141,7 @@ export default function DSCRLoanRequirements2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
               <FileText className="w-4 h-4 text-green-400" />
               <span className="text-green-400 text-sm font-medium">DSCR Requirements Guide</span>
             </div>
@@ -156,7 +156,7 @@ export default function DSCRLoanRequirements2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check Your DSCR Eligibility
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -191,7 +191,7 @@ export default function DSCRLoanRequirements2026() {
           {/* Master Requirements Checklist Table */}
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <CheckCircle2 className="w-5 h-5 text-green-600" />
+              <CheckCircle2 className="w-5 h-5 text-blue-600" />
               DSCR Loan Requirements Checklist (2026)
             </h3>
             <div className="border border-slate-200 rounded-xl overflow-hidden">
@@ -262,35 +262,35 @@ export default function DSCRLoanRequirements2026() {
           <h3 className="text-xl font-bold text-slate-900 mb-4">8 Steps to Qualify for a DSCR Loan in 2026</h3>
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>Calculate your property&apos;s DSCR</strong> &mdash; divide the expected monthly rent by the estimated PITIA to confirm the ratio meets lender minimums</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Check your credit score</strong> &mdash; pull all three bureaus; most lenders use the middle score for qualification</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Verify available reserves</strong> &mdash; confirm you have 6-12 months of PITIA in liquid or semi-liquid accounts</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>Confirm down payment funds</strong> &mdash; ensure 20-25% is sourced and seasoned (typically 60 days in your account)</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Prepare entity documents</strong> &mdash; if vesting in an LLC, have operating agreement, EIN letter, and articles of organization ready</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Contact a wholesale mortgage broker</strong> &mdash; submit your scenario to compare programs from 100+ DSCR lenders simultaneously</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">7</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">7</span>
               <span><strong>Order the appraisal with rent schedule</strong> &mdash; the appraisal determines property value and market rent for DSCR calculation</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-green-100 text-green-700 font-bold text-sm shrink-0">8</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">8</span>
               <span><strong>Close in 21-30 days</strong> &mdash; with minimal documentation, DSCR underwriting is faster than conventional processing</span>
             </li>
           </ol>
@@ -318,13 +318,13 @@ export default function DSCRLoanRequirements2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Docs</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None</td>
                   <td className="px-4 py-3 text-sm text-slate-600">W-2s, tax returns, pay stubs</td>
                   <td className="px-4 py-3 text-sm text-slate-600">W-2s, tax returns, pay stubs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">DTI Requirement</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None (property-based)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None (property-based)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Max 45-50%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Max 43-57%</td>
                 </tr>
@@ -332,13 +332,13 @@ export default function DSCRLoanRequirements2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">15-25%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">3.5% (must occupy)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">3.5% (must occupy)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Credit Score</td>
                   <td className="px-4 py-3 text-sm text-slate-600">660-680 (varies)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">620-680</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">580+</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">580+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reserves</td>
@@ -348,19 +348,19 @@ export default function DSCRLoanRequirements2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Max Financed Properties</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Unlimited</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Unlimited</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10</td>
                   <td className="px-4 py-3 text-sm text-slate-600">1 (primary)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">LLC Vesting</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Closing Speed</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">21-30 days</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">21-30 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">45-60 days</td>
                 </tr>
@@ -411,17 +411,17 @@ export default function DSCRLoanRequirements2026() {
               </thead>
               <tbody className="divide-y divide-slate-200">
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-green-700">760+</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">760+</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Premium</td>
                   <td className="px-4 py-3 text-sm text-slate-600">80%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Best available</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Best available</td>
                   <td className="px-4 py-3 text-sm text-slate-600">All lenders</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-green-700">740-759</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">740-759</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Excellent</td>
                   <td className="px-4 py-3 text-sm text-slate-600">80%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Near-best pricing</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Near-best pricing</td>
                   <td className="px-4 py-3 text-sm text-slate-600">All lenders</td>
                 </tr>
                 <tr>
@@ -439,17 +439,17 @@ export default function DSCRLoanRequirements2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Most lenders</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-amber-700">680-699</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">680-699</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Acceptable</td>
                   <td className="px-4 py-3 text-sm text-slate-600">70-75%</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Above-standard pricing</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Above-standard pricing</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Many lenders</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-amber-700">660-679</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">660-679</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Minimum</td>
                   <td className="px-4 py-3 text-sm text-slate-600">65-70%</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Higher pricing</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Higher pricing</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Select lenders</td>
                 </tr>
                 <tr>
@@ -490,33 +490,33 @@ export default function DSCRLoanRequirements2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Single-Family (SFR)</td>
-                  <td className="px-4 py-3 text-sm text-green-600">20% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">20% down</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25% down</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">25-30% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">25-30% down</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">2-4 Unit</td>
-                  <td className="px-4 py-3 text-sm text-green-600">20-25% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">20-25% down</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25% down</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">25-30% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">25-30% down</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Warrantable Condo</td>
-                  <td className="px-4 py-3 text-sm text-green-600">20-25% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">20-25% down</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25% down</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">25-30% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">25-30% down</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Non-Warrantable Condo</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25% down</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25-30% down</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">30-35% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">30-35% down</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Short-Term Rental</td>
-                  <td className="px-4 py-3 text-sm text-green-600">20-25% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">20-25% down</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25% down</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">25-30% down</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">25-30% down</td>
                 </tr>
               </tbody>
             </table>
@@ -589,7 +589,7 @@ export default function DSCRLoanRequirements2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">5-4-3-2-1 (5-year)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Largest rate discount</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Largest rate discount</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Long-term hold investors (5+ years)</td>
                 </tr>
                 <tr>
@@ -604,7 +604,7 @@ export default function DSCRLoanRequirements2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">No Prepayment Penalty</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">No discount (highest rate)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">No discount (highest rate)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">BRRRR strategy, short-term hold, rate drop refinancers</td>
                 </tr>
               </tbody>
@@ -626,7 +626,7 @@ export default function DSCRLoanRequirements2026() {
           </p>
 
           <div className="space-y-6 mb-6">
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3">Scenario 1: Strong Profile &mdash; SFR Long-Term Rental</h3>
               <div className="grid md:grid-cols-4 gap-4 mb-3">
                 <div><p className="text-xs text-slate-500">Credit Score</p><p className="font-bold text-slate-900">745</p></div>
@@ -634,7 +634,7 @@ export default function DSCRLoanRequirements2026() {
                 <div><p className="text-xs text-slate-500">Down Payment</p><p className="font-bold text-slate-900">20%</p></div>
                 <div><p className="text-xs text-slate-500">Reserves</p><p className="font-bold text-slate-900">9 months</p></div>
               </div>
-              <p className="text-sm text-green-700">Result: Qualifies at nearly all DSCR lenders with competitive pricing. Maximum program options available including 30-year fixed, ARM, and interest-only.</p>
+              <p className="text-sm text-blue-700">Result: Qualifies at nearly all DSCR lenders with competitive pricing. Maximum program options available including 30-year fixed, ARM, and interest-only.</p>
             </div>
 
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
@@ -648,7 +648,7 @@ export default function DSCRLoanRequirements2026() {
               <p className="text-sm text-blue-700">Result: Qualifies with many DSCR lenders. Rate pricing is above the lowest tier. Increasing credit score to 720+ or boosting DSCR to 1.25+ would improve terms.</p>
             </div>
 
-            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-amber-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3">Scenario 3: Challenging Profile &mdash; Below-Breakeven STR</h3>
               <div className="grid md:grid-cols-4 gap-4 mb-3">
                 <div><p className="text-xs text-slate-500">Credit Score</p><p className="font-bold text-slate-900">670</p></div>
@@ -656,7 +656,7 @@ export default function DSCRLoanRequirements2026() {
                 <div><p className="text-xs text-slate-500">Down Payment</p><p className="font-bold text-slate-900">30%</p></div>
                 <div><p className="text-xs text-slate-500">Reserves</p><p className="font-bold text-slate-900">12 months</p></div>
               </div>
-              <p className="text-sm text-amber-700">Result: Limited lender availability. Below-1.0 DSCR combined with sub-700 credit narrows options to specialized lenders. Wholesale broker access is essential to identify lenders that accept this profile. Higher reserves provide compensating strength.</p>
+              <p className="text-sm text-blue-700">Result: Limited lender availability. Below-1.0 DSCR combined with sub-700 credit narrows options to specialized lenders. Wholesale broker access is essential to identify lenders that accept this profile. Higher reserves provide compensating strength.</p>
             </div>
           </div>
         </section>
@@ -726,15 +726,15 @@ export default function DSCRLoanRequirements2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: DSCR Requirements Vary &mdash; Wholesale Access Finds Your Match
           </h2>
-          <p className="text-lg text-green-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             DSCR loan requirements in 2026 are not one-size-fits-all. Credit score thresholds, DSCR ratio minimums, down payment percentages, reserve requirements, and prepayment penalty structures all vary significantly between lenders. An investor who is declined at one lender may qualify easily at another with better terms.
           </p>
-          <p className="text-lg text-green-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             Mo Abdel at Lumin Lending compares DSCR programs from 100+ wholesale lenders to identify the lender whose specific requirements match your credit score, property type, DSCR ratio, and investment strategy. No single retail lender can offer this breadth of comparison. Contact us to find out which DSCR programs you qualify for today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Check Your DSCR Eligibility
               </Button>
             </Link>
@@ -751,22 +751,22 @@ export default function DSCRLoanRequirements2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR & Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-investment-property-loans-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Investment Property Loans 2026
             </Link>
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained for Investors
             </Link>
-            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs Conventional Loans for Investment Properties
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
             </Link>
-            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Non-QM Loans Complete Guide 2026
             </Link>
           </div>

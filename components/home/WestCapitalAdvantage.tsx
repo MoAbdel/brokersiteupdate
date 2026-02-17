@@ -43,10 +43,10 @@ export default function WestCapitalAdvantage() {
         </div>
 
         {/* Wholesale Power */}
-        <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-5 md:p-8 mb-12 border border-green-200">
+        <div className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl p-5 md:p-8 mb-12 border border-slate-200">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-4 text-center md:text-left">
             <div className="flex-shrink-0">
-              <Building2 className="w-12 h-12 text-green-600" />
+              <Building2 className="w-12 h-12 text-blue-600" />
             </div>
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">
@@ -54,7 +54,7 @@ export default function WestCapitalAdvantage() {
               </h3>
               <p className="text-lg text-slate-700 leading-relaxed">
                 While retail banks offer their single menu, we access 50+ lenders' wholesale channels—
-                <span className="font-semibold text-green-700"> including the banks themselves at better pricing</span>.
+                <span className="font-semibold text-blue-700"> including the banks themselves at better pricing</span>.
                 This means you get institutional rates without institutional bureaucracy.
               </p>
             </div>
@@ -73,9 +73,9 @@ export default function WestCapitalAdvantage() {
                 <Link
                   key={index}
                   href={isHomeEquity ? '/loan-programs' : program.href}
-                  className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-green-400 hover:shadow-lg transition-all duration-300 block"
+                  className="bg-white p-6 rounded-xl border-2 border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300 block"
                 >
-                  <div className="text-green-600 font-bold text-sm mb-2 uppercase tracking-wide">
+                  <div className="text-blue-600 font-bold text-sm mb-2 uppercase tracking-wide">
                     {program.description}
                   </div>
                   <h4 className="text-xl font-bold text-slate-900 mb-2">

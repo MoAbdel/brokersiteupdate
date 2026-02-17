@@ -141,7 +141,7 @@ export default function DSCRLoansExplainedInvestors2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
               <BookOpen className="w-4 h-4 text-purple-400" />
               <span className="text-purple-400 text-sm font-medium">DSCR Loans Explained</span>
             </div>
@@ -156,7 +156,7 @@ export default function DSCRLoansExplainedInvestors2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get DSCR Loan Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -188,9 +188,9 @@ export default function DSCRLoansExplainedInvestors2026() {
             DSCR lending emerged as a mainstream product category after 2020, when private lenders recognized that millions of real estate investors were being shut out of conventional financing despite owning profitable rental properties. Self-employed borrowers who minimize taxable income through legitimate business deductions, full-time investors with 10+ properties exceeding Fannie Mae limits, and foreign nationals without U.S. tax returns all found a solution in DSCR programs. By 2026, the DSCR market has matured significantly, with over 100 wholesale lenders offering competitive programs across California and Washington.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <PieChart className="w-5 h-5 text-purple-600" />
+              <PieChart className="w-5 h-5 text-blue-600" />
               The DSCR Formula Explained
             </h3>
             <div className="bg-white rounded-lg p-4 mb-4">
@@ -210,20 +210,20 @@ export default function DSCRLoansExplainedInvestors2026() {
               <strong>PITIA</strong> = Principal + Interest + Taxes + Insurance + Association dues (HOA)
             </p>
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Strong: DSCR 1.25+</p>
-                <p className="text-sm text-green-700">$5,000 rent &divide; $4,000 PITIA = <strong>1.25</strong></p>
-                <p className="text-xs text-green-600 mt-1">Best rates and terms available</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Strong: DSCR 1.25+</p>
+                <p className="text-sm text-blue-700">$5,000 rent &divide; $4,000 PITIA = <strong>1.25</strong></p>
+                <p className="text-xs text-blue-600 mt-1">Best rates and terms available</p>
               </div>
               <div className="bg-blue-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-blue-800">Standard: DSCR 1.0-1.24</p>
                 <p className="text-sm text-blue-700">$4,000 rent &divide; $3,800 PITIA = <strong>1.05</strong></p>
                 <p className="text-xs text-blue-600 mt-1">Qualifies with standard pricing</p>
               </div>
-              <div className="bg-amber-100 rounded-lg p-4">
+              <div className="bg-slate-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-amber-800">Below Breakeven: &lt;1.0</p>
-                <p className="text-sm text-amber-700">$3,500 rent &divide; $4,000 PITIA = <strong>0.875</strong></p>
-                <p className="text-xs text-amber-600 mt-1">May qualify with compensating factors</p>
+                <p className="text-sm text-blue-700">$3,500 rent &divide; $4,000 PITIA = <strong>0.875</strong></p>
+                <p className="text-xs text-blue-600 mt-1">May qualify with compensating factors</p>
               </div>
             </div>
           </div>
@@ -242,12 +242,12 @@ export default function DSCRLoansExplainedInvestors2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">1.50+</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Rent exceeds payment by 50%+</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Excellent cash flow; premium pricing</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Excellent cash flow; premium pricing</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">1.25</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Rent exceeds payment by 25%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Strong; best available rates</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Strong; best available rates</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">1.10</td>
@@ -262,7 +262,7 @@ export default function DSCRLoansExplainedInvestors2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">0.75-0.99</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Rent does not fully cover payment</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Below breakeven; limited lenders, higher down payment</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Below breakeven; limited lenders, higher down payment</td>
                 </tr>
               </tbody>
             </table>
@@ -271,31 +271,31 @@ export default function DSCRLoansExplainedInvestors2026() {
           <h3 className="text-xl font-bold text-slate-900 mb-4">7 Key Facts About DSCR Loans Every Investor Should Know</h3>
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>No income verification required</strong> &mdash; no W-2s, tax returns, pay stubs, or employer verification of any kind</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Qualification is property-based</strong> &mdash; the property&apos;s rental income is the sole determining factor for loan approval</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Unlimited financed properties</strong> &mdash; no cap on the number of DSCR loans an investor can hold simultaneously</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>LLC and entity vesting allowed</strong> &mdash; hold properties in LLCs, corporations, or trusts for liability protection</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Loan amounts from $100K to $5M+</strong> &mdash; covering single-family rentals through small multifamily properties</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Available for both long-term and short-term rentals</strong> &mdash; Airbnb and VRBO properties qualify with many lenders</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">7</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">7</span>
               <span><strong>Typical closing timeline of 21-30 days</strong> &mdash; faster than conventional due to reduced documentation requirements</span>
             </li>
           </ol>
@@ -323,7 +323,7 @@ export default function DSCRLoansExplainedInvestors2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Verification</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None required</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full (W-2s, tax returns)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full (W-2s, tax returns)</td>
                 </tr>
@@ -337,17 +337,17 @@ export default function DSCRLoansExplainedInvestors2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">15-25%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">3.5% (must occupy)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">3.5% (must occupy)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Property Limit</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Unlimited</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Unlimited</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10 financed properties</td>
                   <td className="px-4 py-3 text-sm text-slate-600">1 (primary residence)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">LLC Vesting</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Allowed</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Allowed</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not allowed</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not allowed</td>
                 </tr>
@@ -365,7 +365,7 @@ export default function DSCRLoansExplainedInvestors2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Closing Speed</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">21-30 days</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">21-30 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">45-60 days</td>
                 </tr>
@@ -377,7 +377,7 @@ export default function DSCRLoansExplainedInvestors2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Best For</td>
-                  <td className="px-4 py-3 text-sm text-purple-600 font-medium">Scaling portfolios, self-employed</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Scaling portfolios, self-employed</td>
                   <td className="px-4 py-3 text-sm text-slate-600">W-2 investors, first few properties</td>
                   <td className="px-4 py-3 text-sm text-slate-600">House-hacking 2-4 units</td>
                 </tr>
@@ -424,29 +424,29 @@ export default function DSCRLoansExplainedInvestors2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Single-Family Residences (SFRs)</h4>
                 <p className="text-slate-600">The most common DSCR property type. Detached single-family homes used as long-term rentals or short-term vacation rentals. Available from virtually every DSCR lender.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">2-4 Unit Properties</h4>
                 <p className="text-slate-600">Duplexes, triplexes, and fourplexes are ideal for DSCR loans because multiple units generate higher combined rental income, often producing DSCR ratios well above 1.25. The total property rent is used in the DSCR calculation.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Condominiums and Townhomes</h4>
                 <p className="text-slate-600">Both warrantable and non-warrantable condos qualify with many DSCR lenders. Non-warrantable condos that Fannie Mae and Freddie Mac reject are often approved through DSCR channels, opening up inventory conventional investors cannot access.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Short-Term Rentals (Airbnb / VRBO)</h4>
                 <p className="text-slate-600">Many DSCR lenders now accept short-term rental income projections from AirDNA or actual booking history. STR properties in vacation markets often generate DSCR ratios of 1.5+ due to higher nightly rates. Rental income projections are estimates.</p>
@@ -493,15 +493,15 @@ export default function DSCRLoansExplainedInvestors2026() {
                   $4,500 &divide; $3,600 = 1.25 DSCR
                 </p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Result: This property qualifies for DSCR financing with a strong 1.25 ratio, eligible for the best available rates and terms from most lenders.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Result: This property qualifies for DSCR financing with a strong 1.25 ratio, eligible for the best available rates and terms from most lenders.</p>
               </div>
             </div>
           </div>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Important Notes on DSCR Calculation
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -536,29 +536,29 @@ export default function DSCRLoansExplainedInvestors2026() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Self-employed investors</strong> with high write-offs reducing taxable income</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Full-time real estate investors</strong> exceeding the 10-property conventional limit</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>W-2 employees with high DTI</strong> whose personal debt ratios exceed conventional limits</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Foreign nationals</strong> investing in U.S. real estate without U.S. tax returns</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>LLC/entity investors</strong> needing liability protection through entity vesting</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Retirees</strong> with significant real estate assets but limited W-2 income</span>
                 </div>
               </div>
@@ -585,10 +585,10 @@ export default function DSCRLoansExplainedInvestors2026() {
               </thead>
               <tbody className="divide-y divide-slate-200">
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-green-700">1.25+ (Strong)</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">1.25+ (Strong)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">660-680</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Best rates available</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Best rates available</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-blue-700">1.0-1.24 (Standard)</td>
@@ -597,10 +597,10 @@ export default function DSCRLoansExplainedInvestors2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Standard pricing</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-amber-700">0.75-0.99 (Below breakeven)</td>
+                  <td className="px-4 py-3 text-sm font-medium text-blue-700">0.75-0.99 (Below breakeven)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25-30%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">700+</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Higher rates; limited lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Higher rates; limited lenders</td>
                 </tr>
               </tbody>
             </table>
@@ -732,15 +732,15 @@ export default function DSCRLoansExplainedInvestors2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: DSCR Loans Are the Investor&apos;s Best Financing Tool in 2026
           </h2>
-          <p className="text-lg text-purple-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             DSCR loans eliminate the documentation barriers that prevent productive investors from scaling their portfolios. No W-2s, no tax returns, no employment verification, no property count limits, and the ability to vest in an LLC. The property pays for itself through rental income, and that is all that matters for qualification.
           </p>
-          <p className="text-lg text-purple-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares DSCR programs from 100+ lenders to match each investor with the optimal rates, terms, and ratio requirements. Whether you are purchasing your first rental property or adding your fiftieth, the wholesale channel delivers better pricing and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Your DSCR Loan Quote
               </Button>
             </Link>
@@ -757,22 +757,22 @@ export default function DSCRLoansExplainedInvestors2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR & Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-investment-property-loans-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Investment Property Loans 2026
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements: Rates, Ratios & Down Payment Guide
             </Link>
-            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs Conventional Loans for Investment Properties
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
             </Link>
-            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Non-QM Loans Complete Guide 2026
             </Link>
           </div>

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/Button';
-import { Calculator, TrendingDown } from 'lucide-react';
+import { Calculator, ClipboardList, PiggyBank, TrendingDown } from 'lucide-react';
 
 export default function SavingsCalculator() {
   const [loanAmount, setLoanAmount] = useState(640000);
@@ -103,7 +103,7 @@ export default function SavingsCalculator() {
               </div>
 
               <a href="/quiz">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3">
                   Get Pre-Approved
                 </Button>
               </a>
@@ -143,7 +143,10 @@ export default function SavingsCalculator() {
               {/* Potential Savings */}
               <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                 <div className="flex items-center mb-2">
-                  <span className="text-green-600 font-medium">💰 Potential Savings</span>
+                  <span className="inline-flex items-center gap-2 text-green-700 font-medium">
+                    <PiggyBank className="w-4 h-4" aria-hidden="true" />
+                    <span>Potential Savings</span>
+                  </span>
                 </div>
                 <p className="text-sm text-green-700 mb-2">
                   Save up to ${lifetimeSavings.toLocaleString('en-US', { maximumFractionDigits: 0 })} over the life of a 30-year loan with our wholesale rates
@@ -156,7 +159,10 @@ export default function SavingsCalculator() {
               {/* Lower Closing Costs */}
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                 <div className="flex items-center mb-2">
-                  <span className="text-blue-600 font-medium">📋 Competitive Closing Costs</span>
+                  <span className="inline-flex items-center gap-2 text-blue-700 font-medium">
+                    <ClipboardList className="w-4 h-4" aria-hidden="true" />
+                    <span>Competitive Closing Costs</span>
+                  </span>
                 </div>
                 <p className="text-sm text-blue-700">
                   Potential savings on closing costs compared to traditional lenders*
@@ -168,15 +174,15 @@ export default function SavingsCalculator() {
                 <h4 className="font-semibold text-slate-900 mb-3">Why Our Rates Are Lower</h4>
                 <ul className="space-y-2 text-sm text-slate-600">
                   <li className="flex items-start">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="w-2 h-2 bg-slate-900 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Direct wholesale pricing without retail markup
                   </li>
                   <li className="flex items-start">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="w-2 h-2 bg-slate-900 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Access to 200+ lenders for competitive bidding
                   </li>
                   <li className="flex items-start">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="w-2 h-2 bg-slate-900 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Lower overhead costs passed to clients
                   </li>
                 </ul>

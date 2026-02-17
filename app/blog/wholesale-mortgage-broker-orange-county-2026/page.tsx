@@ -126,11 +126,11 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">High loan amounts</td><td className="py-2 px-4 border-b">Single jumbo product</td><td className="py-2 px-4 border-b text-green-700">20+ jumbo lender options</td></tr>
-              <tr><td className="py-2 px-4 border-b">Self-employed income</td><td className="py-2 px-4 border-b">Tax return only</td><td className="py-2 px-4 border-b text-green-700">Bank statement programs available</td></tr>
-              <tr><td className="py-2 px-4 border-b">Rate shopping</td><td className="py-2 px-4 border-b">One option</td><td className="py-2 px-4 border-b text-green-700">200+ lenders compared</td></tr>
-              <tr><td className="py-2 px-4 border-b">Complex scenarios</td><td className="py-2 px-4 border-b">Often declined</td><td className="py-2 px-4 border-b text-green-700">Non-QM and specialty lenders</td></tr>
-              <tr><td className="py-2 px-4">Pricing</td><td className="py-2 px-4">Retail markup</td><td className="py-2 px-4 text-green-700">Wholesale (institutional) rates</td></tr>
+              <tr><td className="py-2 px-4 border-b">High loan amounts</td><td className="py-2 px-4 border-b">Single jumbo product</td><td className="py-2 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
+              <tr><td className="py-2 px-4 border-b">Self-employed income</td><td className="py-2 px-4 border-b">Tax return only</td><td className="py-2 px-4 border-b text-blue-700">Bank statement programs available</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate shopping</td><td className="py-2 px-4 border-b">One option</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders compared</td></tr>
+              <tr><td className="py-2 px-4 border-b">Complex scenarios</td><td className="py-2 px-4 border-b">Often declined</td><td className="py-2 px-4 border-b text-blue-700">Non-QM and specialty lenders</td></tr>
+              <tr><td className="py-2 px-4">Pricing</td><td className="py-2 px-4">Retail markup</td><td className="py-2 px-4 text-blue-700">Wholesale (institutional) rates</td></tr>
             </tbody>
           </table>
         </div>
@@ -259,10 +259,10 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">$700,000</td><td className="py-2 px-4 border-b text-green-700">$44,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$86,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b text-green-700">$56,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$110,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-green-700">$75,000 over 30 years</td><td className="py-2 px-4 border-b text-green-700">$147,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4">$1,500,000</td><td className="py-2 px-4 text-green-700">$94,000 over 30 years</td><td className="py-2 px-4 text-green-700">$184,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$700,000</td><td className="py-2 px-4 border-b text-blue-700">$44,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$86,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b text-blue-700">$56,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$110,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-blue-700">$75,000 over 30 years</td><td className="py-2 px-4 border-b text-blue-700">$147,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4">$1,500,000</td><td className="py-2 px-4 text-blue-700">$94,000 over 30 years</td><td className="py-2 px-4 text-blue-700">$184,000 over 30 years</td></tr>
             </tbody>
           </table>
         </div>
@@ -304,12 +304,12 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 lender</td><td className="py-2 px-4 border-b text-green-700">200+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-green-700">Multiple options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo flexibility</td><td className="py-2 px-4 border-b">Single product</td><td className="py-2 px-4 border-b text-green-700">Many lender options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Personal service</td><td className="py-2 px-4 border-b">Call center typical</td><td className="py-2 px-4 border-b text-green-700">Direct access to broker</td></tr>
-              <tr><td className="py-2 px-4">Complex scenarios</td><td className="py-2 px-4">Often declined</td><td className="py-2 px-4 text-green-700">Specialty lenders available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 lender</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-blue-700">Multiple options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo flexibility</td><td className="py-2 px-4 border-b">Single product</td><td className="py-2 px-4 border-b text-blue-700">Many lender options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Personal service</td><td className="py-2 px-4 border-b">Call center typical</td><td className="py-2 px-4 border-b text-blue-700">Direct access to broker</td></tr>
+              <tr><td className="py-2 px-4">Complex scenarios</td><td className="py-2 px-4">Often declined</td><td className="py-2 px-4 text-blue-700">Specialty lenders available</td></tr>
             </tbody>
           </table>
         </div>

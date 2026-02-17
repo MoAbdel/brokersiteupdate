@@ -271,7 +271,7 @@ export default function SelfEmployedMortgageBrokerPage() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full">
             <thead>
-              <tr className="bg-green-100">
+              <tr className="bg-slate-100">
                 <th className="py-3 px-4 text-left">Wholesale Broker Advantage</th>
                 <th className="py-3 px-4 text-left">Benefit for Self-Employed</th>
               </tr>

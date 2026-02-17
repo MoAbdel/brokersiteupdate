@@ -108,9 +108,9 @@ export default function TermsOfServicePage() {
               </p>
             </div>
 
-            <div className="bg-orange-50 border-l-4 border-orange-400 p-6 mb-6">
-              <h3 className="text-lg font-semibold text-orange-800 mb-3">No Financial Advice</h3>
-              <p className="text-orange-700">
+            <div className="bg-slate-50 border-l-4 border-orange-400 p-6 mb-6">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">No Financial Advice</h3>
+              <p className="text-blue-700">
                 We are mortgage brokers, not financial advisors. Information provided is for educational purposes only and
                 should not be considered financial advice. You should consult with qualified financial professionals regarding
                 your specific financial situation.
@@ -228,12 +228,12 @@ export default function TermsOfServicePage() {
               <li>Consumer Financial Protection Bureau (CFPB) regulations</li>
             </ul>
 
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-green-800 mb-3">Consumer Rights Information</h3>
-              <p className="text-green-700 mb-2">
+            <div className="bg-slate-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Consumer Rights Information</h3>
+              <p className="text-blue-700 mb-2">
                 <strong>Right to Cancel:</strong> You have the right to cancel certain transactions within three business days.
               </p>
-              <p className="text-green-700">
+              <p className="text-blue-700">
                 <strong>Complaint Filing:</strong> You may file complaints with the California Department of Financial Protection and Innovation
                 or the Consumer Financial Protection Bureau (CFPB).
               </p>

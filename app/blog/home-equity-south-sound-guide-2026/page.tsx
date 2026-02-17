@@ -294,19 +294,19 @@ export default function HomeEquitySouthSoundGuide2026() {
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Interest Rate Type</td>
                 <td className="border border-gray-300 px-4 py-3">Variable (prime + margin)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Fixed rate</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Fixed rate</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Fixed rate</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Fixed rate</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Impact on First Mortgage</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Keeps existing mortgage intact</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Keeps existing mortgage intact</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Keeps existing mortgage intact</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Keeps existing mortgage intact</td>
                 <td className="border border-gray-300 px-4 py-3">Replaces existing mortgage</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Maximum CLTV (Wholesale)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to 90%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to 90%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to 90%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to 90%</td>
                 <td className="border border-gray-300 px-4 py-3">Up to 80%</td>
               </tr>
               <tr>
@@ -317,7 +317,7 @@ export default function HomeEquitySouthSoundGuide2026() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Closing Costs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 - $500 (many no-cost options)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 - $500 (many no-cost options)</td>
                 <td className="border border-gray-300 px-4 py-3">$1,500 - $3,000</td>
                 <td className="border border-gray-300 px-4 py-3">$4,000 - $8,000</td>
               </tr>
@@ -360,35 +360,35 @@ export default function HomeEquitySouthSoundGuide2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Gig Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$757,000</td>
                 <td className="border border-gray-300 px-4 py-3">$305,600</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$381,300</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$381,300</td>
                 <td className="border border-gray-300 px-4 py-3">Dock/waterfront improvements, harbor home renovation, investment property down payments</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Maple Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$750,000</td>
                 <td className="border border-gray-300 px-4 py-3">$300,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$375,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$375,000</td>
                 <td className="border border-gray-300 px-4 py-3">Barn/arena construction, ADU addition, estate improvements, land development</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Steilacoom</td>
                 <td className="border border-gray-300 px-4 py-3">$700,000</td>
                 <td className="border border-gray-300 px-4 py-3">$260,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$330,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$330,000</td>
                 <td className="border border-gray-300 px-4 py-3">Historic home renovation, preservation-compliant upgrades, debt consolidation</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">University Place</td>
                 <td className="border border-gray-300 px-4 py-3">$650,000</td>
                 <td className="border border-gray-300 px-4 py-3">$220,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$285,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$285,000</td>
                 <td className="border border-gray-300 px-4 py-3">Kitchen/bath renovation, Chambers Bay area upgrades, energy efficiency improvements</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bonney Lake</td>
                 <td className="border border-gray-300 px-4 py-3">$600,000</td>
                 <td className="border border-gray-300 px-4 py-3">$180,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$240,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$240,000</td>
                 <td className="border border-gray-300 px-4 py-3">VA loan equity extraction, rental property investment, mountain-view home additions</td>
               </tr>
             </tbody>
@@ -440,36 +440,36 @@ export default function HomeEquitySouthSoundGuide2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Gig Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$525,000</td>
                 <td className="border border-gray-300 px-4 py-3">$757,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$232,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$290,000 - $320,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$232,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$290,000 - $320,000</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Maple Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$510,000</td>
                 <td className="border border-gray-300 px-4 py-3">$750,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$240,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$298,000 - $328,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$240,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$298,000 - $328,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Steilacoom</td>
                 <td className="border border-gray-300 px-4 py-3">$475,000</td>
                 <td className="border border-gray-300 px-4 py-3">$700,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$225,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$280,000 - $308,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$225,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$280,000 - $308,000</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">University Place</td>
                 <td className="border border-gray-300 px-4 py-3">$440,000</td>
                 <td className="border border-gray-300 px-4 py-3">$650,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$210,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$265,000 - $290,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$210,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$265,000 - $290,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bonney Lake</td>
                 <td className="border border-gray-300 px-4 py-3">$410,000</td>
                 <td className="border border-gray-300 px-4 py-3">$600,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$190,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+$240,000 - $265,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$190,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+$240,000 - $265,000</td>
               </tr>
             </tbody>
           </table>
@@ -644,21 +644,21 @@ export default function HomeEquitySouthSoundGuide2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="expert-summary bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="expert-summary bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: South Sound Home Equity Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold $5.4 billion in accessible equity built through decades of homeownership and 32-48% appreciation since 2020. Wholesale broker access unlocks this equity at better rates, higher CLTV limits, and lower closing costs than retail bank branches offer&mdash;and Washington&apos;s zero state income tax preserves every dollar of equity benefit.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             The South Sound&apos;s distinctive property types&mdash;Gig Harbor waterfront, Maple Valley equestrian estates, University Place golf-community homes, Bonney Lake military family residences, and Steilacoom historic properties&mdash;require appraisal expertise and lender matching that generic bank branches lack. The difference between an accurate waterfront appraisal and a generic one represents tens of thousands of dollars in accessible equity.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From HELOC rate shopping across 200+ lenders to coordinating specialized appraisals for waterfront and equestrian properties, Mo handles every aspect of the equity access process.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to access your South Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation equity analysis with wholesale rate comparison for your specific property.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to access your South Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation equity analysis with wholesale rate comparison for your specific property.
           </p>
         </div>
 

@@ -143,7 +143,7 @@ export default function AffordabilityCalculator() {
 
               <Button 
                 onClick={calculateAffordability}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold"
+                className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg font-semibold"
               >
                 Calculate Affordability
               </Button>
@@ -156,12 +156,12 @@ export default function AffordabilityCalculator() {
             
             {results ? (
               <div className="space-y-4">
-                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                   <div className="flex items-center mb-2">
-                    <Home className="w-5 h-5 text-green-600 mr-2" />
-                    <h3 className="text-lg font-semibold text-green-800">Maximum Home Price</h3>
+                    <Home className="w-5 h-5 text-blue-600 mr-2" />
+                    <h3 className="text-lg font-semibold text-slate-900">Maximum Home Price</h3>
                   </div>
-                  <p className="text-3xl font-bold text-green-600">{formatCurrency(results.maxHomePrice)}</p>
+                  <p className="text-3xl font-bold text-blue-600">{formatCurrency(results.maxHomePrice)}</p>
                 </div>
 
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
@@ -241,7 +241,7 @@ export default function AffordabilityCalculator() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+19498229662">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                   Call (949) 822-9662
                 </Button>
               </a>

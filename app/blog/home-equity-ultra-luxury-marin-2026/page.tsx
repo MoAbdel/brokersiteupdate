@@ -775,13 +775,13 @@ export default function HomeEquityUltraLuxuryMarin2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; represents one of the highest concentrations of residential equity in the United States. With median home values from $2.7 million to $5 million and many properties far exceeding those medians, jumbo home equity products are the only path to accessing this wealth. Standard banks with HELOC caps of $250,000 to $500,000 cannot serve this market. Wholesale access to 200+ lenders through Lumin Lending (NMLS #2716106) unlocks jumbo HELOC lines to $3 million or more, jumbo HELOANs for defined renovation scopes, and jumbo cash-out refinances that optimize both rate and equity access.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 200+ wholesale lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 200+ wholesale lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

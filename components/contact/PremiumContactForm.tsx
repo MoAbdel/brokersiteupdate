@@ -71,7 +71,7 @@ const FloatingLabelInput = ({
       >
         {label}
       </label>
-      <div className={`absolute bottom-0 left-0 h-[2px] bg-blue-600 transition-all duration-500 ease-out ${isFocused ? 'w-full' : 'w-0'}`} />
+      <div className={`absolute bottom-0 left-0 h-[2px] bg-slate-900 transition-all duration-500 ease-out ${isFocused ? 'w-full' : 'w-0'}`} />
     </div>
   );
 };
@@ -108,7 +108,7 @@ const RadioCard = ({
       {current === value && (
         <motion.div 
           initial={{ scale: 0 }} animate={{ scale: 1 }}
-          className="bg-blue-600 rounded-full p-1"
+          className="bg-slate-900 rounded-full p-1"
         >
           <Check className="w-3 h-3 text-white" />
         </motion.div>
@@ -399,7 +399,7 @@ export default function PremiumContactForm() {
         {/* Progress Bar */}
         <div className="absolute top-0 left-0 w-full h-1 bg-slate-100">
           <motion.div 
-            className="h-full bg-blue-600"
+            className="h-full bg-slate-900"
             initial={{ width: "33%" }}
             animate={{ width: `${(currentStep / 3) * 100}%` }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
@@ -429,7 +429,7 @@ export default function PremiumContactForm() {
               {[1, 2, 3].map((step) => (
                 <div 
                   key={step}
-                  className={`w-2 h-2 rounded-full transition-colors duration-300 ${step === currentStep ? 'bg-blue-600' : 'bg-slate-300'}`}
+                  className={`w-2 h-2 rounded-full transition-colors duration-300 ${step === currentStep ? 'bg-slate-900' : 'bg-slate-300'}`}
                 />
               ))}
             </div>
@@ -724,7 +724,7 @@ export default function PremiumContactForm() {
                   type="button"
                   onClick={nextStep}
                   disabled={currentStep === 1 ? !canProceedToStep2() : !canProceedToStep3()}
-                  className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-blue-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center hover:bg-blue-700"
+                  className="bg-slate-900 text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-blue-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center hover:bg-slate-800"
                 >
                   Next Step
                   <ArrowRight className="w-4 h-4 ml-2" />
@@ -735,7 +735,7 @@ export default function PremiumContactForm() {
                   whileTap={{ scale: 0.95 }}
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-green-600 text-white px-10 py-3 rounded-full font-bold shadow-lg shadow-green-200 disabled:opacity-70 flex items-center min-w-[160px] justify-center hover:bg-green-700"
+                  className="bg-slate-900 text-white px-10 py-3 rounded-full font-bold shadow-lg shadow-green-200 disabled:opacity-70 flex items-center min-w-[160px] justify-center hover:bg-slate-800"
                 >
                   {isSubmitting ? (
                     <>

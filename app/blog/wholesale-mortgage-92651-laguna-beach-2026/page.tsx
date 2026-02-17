@@ -206,11 +206,11 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Second Home Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">40+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">30+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Oceanfront Experience</td><td className="py-2 px-4 border-b">Variable</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Max Loan Amount</td><td className="py-2 px-4 border-b">$3-5M typical</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Up to $30M</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-green-700 font-semibold">Try another lender same day</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Second Home Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">40+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Oceanfront Experience</td><td className="py-2 px-4 border-b">Variable</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Max Loan Amount</td><td className="py-2 px-4 border-b">$3-5M typical</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Up to $30M</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
           </table>
         </div>

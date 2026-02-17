@@ -219,7 +219,7 @@ export default function HELOCCompleteGuidePage() {
                     <p className="text-blue-800 mb-4">
                         Compare HELOC rates from 50+ wholesale lenders. As your HELOC specialist, I'll find competitive pricing while preserving your first mortgage rate.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your HELOC Quote
                     </a>
                 </div>

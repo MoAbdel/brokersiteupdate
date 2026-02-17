@@ -910,21 +910,21 @@ export default function HomeEquityCaPvA2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY + CTA ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 my-8 expert-summary">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 my-8 expert-summary">
             <h2 className="text-2xl font-bold text-green-900 mb-4">Expert Summary: Palos Verdes &amp; South Bay Home Equity</h2>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               The Palos Verdes Peninsula and South Bay corridor holds an estimated $58 billion in combined residential equity across seven cities, making it one of the most valuable equity markets in all of Southern California. From Rolling Hills estates with $3.5M+ in tappable equity to Redondo Beach homes where rapid appreciation has created unexpected wealth, homeowners across this corridor hold extraordinary financial positions that jumbo and super-jumbo equity products unlock efficiently. The critical factor is lender access: with 92&ndash;98% of properties exceeding conforming loan limits, a wholesale broker comparing 200+ lenders &mdash; including 50+ jumbo specialists and 15&ndash;20 super-jumbo specialists &mdash; consistently outperforms any single bank&apos;s offering on rates, terms, and maximum credit limits.
             </p>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               Whether you are modernizing a Palos Verdes Estates cliff-top estate, building an ADU in Rancho Palos Verdes, upgrading equestrian facilities in Rolling Hills Estates, managing a Rolling Hills estate portfolio, renovating a Manhattan Beach Sand Section property, converting a Hermosa Beach cottage, or leveraging Redondo Beach&apos;s appreciation for investment property acquisitions, the right equity product at the right rate transforms locked equity into active financial power.
             </p>
-            <div className="bg-green-100 p-4 rounded-lg mt-4">
+            <div className="bg-slate-100 p-4 rounded-lg mt-4">
               <p className="text-green-900 font-bold text-lg mb-2">Get Your Personalized Palos Verdes &amp; South Bay Equity Analysis</p>
-              <p className="text-green-800 mb-3">
+              <p className="text-slate-900 mb-3">
                 Contact Mo Abdel for a complimentary equity analysis comparing rates from 200+ lenders. I specialize in jumbo and super-jumbo HELOC, HELOAN, and cash-out refinance products for Palos Verdes Peninsula and South Bay homeowners.
               </p>
-              <ul className="text-green-800 space-y-1">
-                <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a></li>
+              <ul className="text-slate-900 space-y-1">
+                <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-blue-700 hover:underline">(949) 822-9662</a></li>
                 <li><strong>NMLS #1426884</strong> | Lumin Lending NMLS #2716106 | DRE #02291443</li>
                 <li><strong>Licensed in:</strong> California &amp; Washington</li>
                 <li><strong>Equal Housing Lender</strong></li>

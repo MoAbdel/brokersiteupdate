@@ -32,7 +32,7 @@ export default function USDAruralLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Check USDA Eligibility
               </Button>
             </Link>
@@ -98,7 +98,7 @@ export default function USDAruralLoansPage() {
           </p>
         </div>
 
-        <div className="bg-yellow-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Check Your USDA Eligibility</h2>
           <p className="text-xl mb-6 text-yellow-100">
             Find out if your desired Orange County area qualifies for USDA rural loans

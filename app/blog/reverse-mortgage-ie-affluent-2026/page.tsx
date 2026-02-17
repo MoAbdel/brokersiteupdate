@@ -462,7 +462,7 @@ export default function ReverseMortgageIEAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Rancho Cucamonga Reverse Mortgage Insight</h4>
             <p className="mb-0">Alta Loma&apos;s larger lots and semi-rural character do not create reverse mortgage complications. Properties with half-acre to one-acre lots qualify for HECM without issue, and experienced appraisers value the lot premium that Alta Loma&apos;s foothill location commands. Ontario International Airport&apos;s continued growth has driven demand for nearby housing, supporting property values that underpin strong reverse mortgage equity positions. A 72-year-old Alta Loma homeowner with a paid-off $1 million home can access approximately $490,000 in HECM proceeds through a line of credit, lump sum, or monthly tenure payments of $2,550 per month for life.</p>
           </div>
@@ -498,7 +498,7 @@ export default function ReverseMortgageIEAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Chino Hills Reverse Mortgage Insight</h4>
             <p className="mb-0">Chino Hills&apos; tri-county position provides a reverse mortgage advantage that many homeowners overlook: the property&apos;s value benefits from demand across three county employment centers, reducing vulnerability to any single economic sector. Chino Valley Unified&apos;s school reputation continues to attract buyers, supporting appreciation even during broader market softening. For retiring professionals who commuted to Orange County or LA, a reverse mortgage replaces commute-era income with tax-free equity access. A 72-year-old Chino Hills homeowner with a paid-off $900,000 home can access approximately $438,000 in HECM proceeds.</p>
           </div>
@@ -534,7 +534,7 @@ export default function ReverseMortgageIEAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Claremont Reverse Mortgage Insight</h4>
             <p className="mb-0">Claremont&apos;s walkable Village and proximity to the Claremont Colleges create an exceptional aging-in-place environment. Retired faculty and staff can walk to restaurants, bookstores, the library, and campus events without driving. TIAA-CREF retirement accounts and university pension programs provide the stable, documented income that the HECM financial assessment requires. A reverse mortgage allows retired professors to access home equity without leaving the intellectual community they helped build. The Village&apos;s historic craftsman homes command premiums for their character and walkability, translating into strong appraisals that maximize reverse mortgage proceeds.</p>
           </div>
@@ -570,7 +570,7 @@ export default function ReverseMortgageIEAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Redlands Reverse Mortgage Insight</h4>
             <p className="mb-0">Redlands&apos; historic homes present one important reverse mortgage consideration: the FHA appraisal must confirm the property meets HUD minimum property standards. Victorian and Queen Anne homes that have been properly maintained qualify without issue. Deferred maintenance items like roof, plumbing, or electrical may need to be addressed before closing, but repair requirements can often be funded through the reverse mortgage proceeds themselves using a HECM for Purchase or repair set-aside. Esri&apos;s continued growth in Redlands supports stable property demand that protects equity positions over the life of a reverse mortgage.</p>
           </div>
@@ -606,7 +606,7 @@ export default function ReverseMortgageIEAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Upland Reverse Mortgage Insight</h4>
             <p className="mb-0">Upland&apos;s downtown revitalization is creating a walkable environment that enhances aging-in-place viability for seniors in the Foothill Corridor. New restaurants, a craft brewery district, and mixed-use developments along Foothill Boulevard provide the amenities that allow seniors to reduce car dependence. San Antonio Heights properties with mountain views and larger lots appraise well for reverse mortgage purposes, as the unincorporated community&apos;s exclusivity and privacy command premiums. A 72-year-old Upland homeowner with a paid-off $750,000 home can access approximately $365,000 in HECM proceeds through a growing line of credit or monthly tenure payments of $1,920 per month for life.</p>
           </div>

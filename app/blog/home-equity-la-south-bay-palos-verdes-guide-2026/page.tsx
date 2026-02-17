@@ -283,9 +283,9 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Max Amount (Luxury Jumbo)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Up to $2M+</td>
-                  <td className="px-4 py-3 border-t text-green-700">Up to $1.5M+</td>
-                  <td className="px-4 py-3 border-t text-green-700">Up to $5M+</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Up to $2M+</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Up to $1.5M+</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Up to $5M+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Closing Costs</td>
@@ -348,56 +348,56 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Palos Verdes Estates</td>
                   <td className="px-4 py-3 border-t">$2.9M</td>
                   <td className="px-4 py-3 border-t">$2.1M (72%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, Cash-Out Refi</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, Cash-Out Refi</td>
                   <td className="px-4 py-3 border-t">Ocean-view remodel, seismic retrofit, estate planning</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">$1.5M (75%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                   <td className="px-4 py-3 border-t">Hillside stabilization, ADU construction, pool addition</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$3.0M</td>
                   <td className="px-4 py-3 border-t">$2.4M (80%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, Cash-Out Refi</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, Cash-Out Refi</td>
                   <td className="px-4 py-3 border-t">Equestrian facility upgrade, estate renovation</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">$1.4M (70%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                   <td className="px-4 py-3 border-t">Kitchen/bath renovation, landscaping, investment</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hidden Hills</td>
                   <td className="px-4 py-3 border-t">$6.0M</td>
                   <td className="px-4 py-3 border-t">$4.8M (80%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo Cash-Out, Jumbo HELOC</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo Cash-Out, Jumbo HELOC</td>
                   <td className="px-4 py-3 border-t">Compound expansion, guest house, ranch conversion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Calabasas</td>
                   <td className="px-4 py-3 border-t">$1.8M</td>
                   <td className="px-4 py-3 border-t">$1.2M (67%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                   <td className="px-4 py-3 border-t">Smart home upgrade, outdoor living, investment property</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Agoura Hills</td>
                   <td className="px-4 py-3 border-t">$1.1M</td>
                   <td className="px-4 py-3 border-t">$770K (70%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Conforming HELOC, HELOAN</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Conforming HELOC, HELOAN</td>
                   <td className="px-4 py-3 border-t">Home improvement, debt consolidation, education</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Westlake Village</td>
                   <td className="px-4 py-3 border-t">$1.4M</td>
                   <td className="px-4 py-3 border-t">$1.0M (71%)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                   <td className="px-4 py-3 border-t">ADU construction, pool/spa, golf membership</td>
                 </tr>
               </tbody>
@@ -471,8 +471,8 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Options</td>
                   <td className="px-4 py-3 border-t">Limited</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement programs available</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement programs available</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement, asset depletion</td>
                 </tr>
               </tbody>
             </table>
@@ -557,7 +557,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
           {/* Hub Previews */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Regional Hub Guides: Detailed Home Equity Analysis by Sub-Market</h2>
 
-          <div className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Home Equity Palos Verdes Peninsula</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Palos Verdes Estates ($2.9M median), Rancho Palos Verdes ($2.0M),
@@ -584,7 +584,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
             </p>
           </div>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-purple-500">
             <h3 className="font-bold text-xl mb-4">Hub Guide: Home Equity Western LA Luxury Communities</h3>
             <p className="mb-3">
               <strong>Cities Covered:</strong> Hidden Hills ($6.0M median), Calabasas ($1.8M),
@@ -618,7 +618,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
             expertise delivers superior outcomes for LA South Bay and Palos Verdes homeowners.
           </p>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 1: PV Estates Ocean-View Remodel Using HELOC</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Thomas and Patricia, ages 58 and 55. Purchased their Palos Verdes Estates home
@@ -647,7 +647,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
             </p>
           </div>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-amber-500">
             <h3 className="font-bold text-lg mb-3">Case Scenario 2: Hidden Hills Ranch Conversion Using Cash-Out Refinance</h3>
             <p className="mb-2">
               <strong>Profile:</strong> Michael, age 52. Purchased a 2.5-acre Hidden Hills estate in 2015 for $4.2 million.

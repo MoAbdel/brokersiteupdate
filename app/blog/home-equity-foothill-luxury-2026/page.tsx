@@ -286,9 +286,9 @@ export default function HomeEquityFoothillLuxury2026() {
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Max Amount (Jumbo)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Up to $2M+</td>
-                    <td className="px-4 py-3 border-t text-green-700">Up to $1.5M+</td>
-                    <td className="px-4 py-3 border-t text-green-700">Up to $5M+</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Up to $2M+</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Up to $1.5M+</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Up to $5M+</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Closing Costs</td>
@@ -365,8 +365,8 @@ export default function HomeEquityFoothillLuxury2026() {
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Self-Employed Options</td>
                     <td className="px-4 py-3 border-t">Limited</td>
-                    <td className="px-4 py-3 border-t text-green-700">Bank statement programs available</td>
-                    <td className="px-4 py-3 border-t text-green-700">Bank statement, asset depletion</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Bank statement programs available</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Bank statement, asset depletion</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Reserves Required</td>
@@ -405,28 +405,28 @@ export default function HomeEquityFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">San Marino</td>
                     <td className="px-4 py-3 border-t">$3.0M</td>
                     <td className="px-4 py-3 border-t">$2.25M (75%)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, Jumbo Cash-Out</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, Jumbo Cash-Out</td>
                     <td className="px-4 py-3 border-t">Estate renovation, trust restructuring, investment</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">La Ca&ntilde;ada Flintridge</td>
                     <td className="px-4 py-3 border-t">$2.2M</td>
                     <td className="px-4 py-3 border-t">$1.54M (70%)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                     <td className="px-4 py-3 border-t">Pool/outdoor living, ADU, seismic retrofit</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">South Pasadena</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
                     <td className="px-4 py-3 border-t">$1.26M (70%)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                     <td className="px-4 py-3 border-t">Craftsman restoration, kitchen/bath, ADU</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Arcadia</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
                     <td className="px-4 py-3 border-t">$1.08M (60%)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Jumbo HELOC, HELOAN</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Jumbo HELOC, HELOAN</td>
                     <td className="px-4 py-3 border-t">Landscaping, ADU/guest house, investment down payment</td>
                   </tr>
                 </tbody>
@@ -622,7 +622,7 @@ export default function HomeEquityFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">San Marino</td>
                     <td className="px-4 py-3 border-t">$2.75M</td>
                     <td className="px-4 py-3 border-t">$3.0M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+$250K per property</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+$250K per property</td>
                     <td className="px-4 py-3 border-t">$500K&ndash;$2.0M</td>
                     <td className="px-4 py-3 border-t">Jumbo HELOC, trust-vesting cash-out</td>
                   </tr>
@@ -630,7 +630,7 @@ export default function HomeEquityFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">La Ca&ntilde;ada Flintridge</td>
                     <td className="px-4 py-3 border-t">$2.05M</td>
                     <td className="px-4 py-3 border-t">$2.2M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+$150K per property</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+$150K per property</td>
                     <td className="px-4 py-3 border-t">$300K&ndash;$1.2M</td>
                     <td className="px-4 py-3 border-t">Jumbo HELOC for ADU/pool, HELOAN for defined</td>
                   </tr>
@@ -638,7 +638,7 @@ export default function HomeEquityFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">South Pasadena</td>
                     <td className="px-4 py-3 border-t">$1.68M</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+$120K per property</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+$120K per property</td>
                     <td className="px-4 py-3 border-t">$200K&ndash;$800K</td>
                     <td className="px-4 py-3 border-t">Jumbo HELOC for restoration, HELOAN for defined</td>
                   </tr>
@@ -646,7 +646,7 @@ export default function HomeEquityFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">Arcadia</td>
                     <td className="px-4 py-3 border-t">$1.65M</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+$150K per property</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+$150K per property</td>
                     <td className="px-4 py-3 border-t">$200K&ndash;$700K</td>
                     <td className="px-4 py-3 border-t">Bank statement HELOC, HELOAN for ADU</td>
                   </tr>
@@ -779,7 +779,7 @@ export default function HomeEquityFoothillLuxury2026() {
           </div>
 
           {/* EXPERT SUMMARY */}
-          <div className="expert-summary bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div className="expert-summary bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Accessing Home Equity in SGV Foothill Luxury Communities</h2>
             <p className="mb-4">
               The SGV foothill luxury corridor&mdash;San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;holds billions in accessible home equity. With median values ranging from $1.8 million to $3 million and average equity positions of 60&ndash;75%, homeowners in these four communities hold substantial financial resources locked within their properties. Whether you need a $200,000 HELOC for a South Pasadena Craftsman kitchen renovation or a $2 million jumbo HELOC for a San Marino estate transformation, the right product exists&mdash;but accessing it requires a broker who navigates the jumbo lending landscape with local appraisal expertise and trust-vesting fluency.

@@ -136,8 +136,8 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             {/* Personal Service */}
             <Card className="h-full">
               <CardHeader>
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Users className="w-6 h-6 text-blue-600" />
                 </div>
                 <CardTitle className="text-xl">Personalized, Face-to-Face Service</CardTitle>
               </CardHeader>
@@ -153,8 +153,8 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             {/* Local Connections */}
             <Card className="h-full">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <Building className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Building className="w-6 h-6 text-blue-600" />
                 </div>
                 <CardTitle className="text-xl">Established Local Network</CardTitle>
               </CardHeader>
@@ -169,8 +169,8 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             {/* Market Timing */}
             <Card className="h-full">
               <CardHeader>
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                  <TrendingUp className="w-6 h-6 text-orange-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <TrendingUp className="w-6 h-6 text-blue-600" />
                 </div>
                 <CardTitle className="text-xl">Real-Time Market Insights</CardTitle>
               </CardHeader>
@@ -189,7 +189,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Competitive Access to 200+ Lenders</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -199,7 +199,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Licensed in Multiple States</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -209,7 +209,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Orange County Specialist</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -219,7 +219,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Fast Communication</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -229,7 +229,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Specialized Loan Programs</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -239,7 +239,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <strong className="text-slate-900">Flexible Meeting Options</strong>
                   <p className="text-slate-600 text-sm mt-1">
@@ -258,34 +258,34 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               <thead>
                 <tr className="bg-slate-50">
                   <th className="border border-slate-300 px-4 py-3 text-left font-semibold text-slate-900">Aspect</th>
-                  <th className="border border-slate-300 px-4 py-3 text-left font-semibold text-green-700">Local Broker (Mo Abdel)</th>
+                  <th className="border border-slate-300 px-4 py-3 text-left font-semibold text-blue-700">Local Broker (Mo Abdel)</th>
                   <th className="border border-slate-300 px-4 py-3 text-left font-semibold text-slate-600">National Lender</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">Market Knowledge</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-700">Deep Orange County expertise</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">Deep Orange County expertise</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Generic, one-size-fits-all</td>
                 </tr>
                 <tr className="bg-slate-25">
                   <td className="border border-slate-300 px-4 py-3 font-medium">Communication</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-700">Direct phone line, personal service</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">Direct phone line, personal service</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Call centers, different reps</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">Lender Options</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-700">200+ lenders</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">200+ lenders</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Limited to their products</td>
                 </tr>
                 <tr className="bg-slate-25">
                   <td className="border border-slate-300 px-4 py-3 font-medium">Availability</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-700">Evenings & weekends</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">Evenings & weekends</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Business hours only</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">Local Connections</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-700">Established OC network</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">Established OC network</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Limited local partnerships</td>
                 </tr>
               </tbody>
@@ -307,8 +307,8 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <TrendingUp className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Market Timing</h3>
               <p className="text-sm text-slate-600">
@@ -317,8 +317,8 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-purple-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Regulatory Knowledge</h3>
               <p className="text-sm text-slate-600">
@@ -329,24 +329,24 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
 
 
           {/* Call to Action */}
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg p-8 text-center">
+          <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience Local Expertise?</h2>
-            <p className="text-xl mb-6 text-blue-100">
+            <p className="text-xl mb-6 text-slate-200">
               Let's discuss your Orange County home loan needs and find the perfect financing solution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+                <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                   Get Pre-Approved Today
                 </Button>
               </Link>
               <a href="tel:9498229662">
-                <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+                <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                   Call (949) 822-9662
                 </Button>
               </a>
             </div>
-            <p className="text-blue-200 mt-4">
+            <p className="text-slate-200 mt-4">
               Licensed mortgage broker with Lumin Lending • NMLS #1426884
             </p>
           </div>

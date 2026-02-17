@@ -260,49 +260,49 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                   <td className="px-4 py-3 border-t">$2.9M</td>
                   <td className="px-4 py-3 border-t">$2.5M&ndash;$6M</td>
                   <td className="px-4 py-3 border-t">Established executives, physicians</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo, bank statement, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo, bank statement, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$2.0M</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$4M</td>
                   <td className="px-4 py-3 border-t">Aerospace engineers, retirees upgrading</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement, non-QM</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement, non-QM</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$2.1M</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$5M</td>
                   <td className="px-4 py-3 border-t">Equestrian families, defense executives</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo portfolio, bank statement, HELOC</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo portfolio, bank statement, HELOC</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$4.5M</td>
                   <td className="px-4 py-3 border-t">$3M&ndash;$8M</td>
                   <td className="px-4 py-3 border-t">Ultra-HNW, equestrian estate owners</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio, asset depletion, bridge</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio, asset depletion, bridge</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Manhattan Beach</td>
                   <td className="px-4 py-3 border-t">$3.4M</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$7M</td>
                   <td className="px-4 py-3 border-t">Tech executives, startup founders</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo, bank statement, DSCR investor</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo, bank statement, DSCR investor</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hermosa Beach</td>
                   <td className="px-4 py-3 border-t">$2.2M</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$4M</td>
                   <td className="px-4 py-3 border-t">Young professionals, tech workers upgrading</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement, 1099-only</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement, 1099-only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Redondo Beach</td>
                   <td className="px-4 py-3 border-t">$1.4M</td>
                   <td className="px-4 py-3 border-t">$1M&ndash;$2.5M</td>
                   <td className="px-4 py-3 border-t">First-time move-up buyers, dual-income couples</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conforming, conventional, FHA jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conforming, conventional, FHA jumbo</td>
                 </tr>
               </tbody>
             </table>
@@ -331,37 +331,37 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender Access</td>
-                  <td className="px-4 py-3 border-t text-green-700">200+ wholesale lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">200+ wholesale lenders</td>
                   <td className="px-4 py-3 border-t">1 bank&apos;s own products</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo Specialists</td>
-                  <td className="px-4 py-3 border-t text-green-700">50+ competing for your loan</td>
+                  <td className="px-4 py-3 border-t text-blue-700">50+ competing for your loan</td>
                   <td className="px-4 py-3 border-t">1 internal jumbo program</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rate Markup</td>
-                  <td className="px-4 py-3 border-t text-green-700">No bank overhead markup</td>
+                  <td className="px-4 py-3 border-t text-blue-700">No bank overhead markup</td>
                   <td className="px-4 py-3 border-t">0.25&ndash;0.75% overhead embedded</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Fee Transparency</td>
-                  <td className="px-4 py-3 border-t text-green-700">100% disclosed on Loan Estimate</td>
+                  <td className="px-4 py-3 border-t text-blue-700">100% disclosed on Loan Estimate</td>
                   <td className="px-4 py-3 border-t">Embedded in rate (hidden)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Non-QM / Bank Statement Programs</td>
-                  <td className="px-4 py-3 border-t text-green-700">30+ non-QM lenders available</td>
+                  <td className="px-4 py-3 border-t text-blue-700">30+ non-QM lenders available</td>
                   <td className="px-4 py-3 border-t">Rarely offered</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Estimated Monthly Savings ($2M Jumbo)</td>
-                  <td className="px-4 py-3 border-t text-green-700">$250&ndash;$750/month</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$250&ndash;$750/month</td>
                   <td className="px-4 py-3 border-t">Baseline</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">10-Year Savings ($2M Jumbo)</td>
-                  <td className="px-4 py-3 border-t text-green-700">$30,000&ndash;$90,000</td>
+                  <td className="px-4 py-3 border-t text-blue-700">$30,000&ndash;$90,000</td>
                   <td className="px-4 py-3 border-t">$0</td>
                 </tr>
                 <tr>
@@ -448,22 +448,22 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Malaga Cove</td>
                   <td className="px-4 py-3 border-t">$3.5M&ndash;$6M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lunada Bay</td>
                   <td className="px-4 py-3 border-t">$2.8M&ndash;$5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo bank statement, super-jumbo fixed</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo bank statement, super-jumbo fixed</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Valmonte</td>
                   <td className="px-4 py-3 border-t">$2.2M&ndash;$3.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, 1099-only</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, 1099-only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Montemalaga</td>
                   <td className="px-4 py-3 border-t">$2.5M&ndash;$4.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo ARM, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo ARM, bank statement</td>
                 </tr>
               </tbody>
             </table>
@@ -508,22 +508,22 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Trump National / Terranea Area</td>
                   <td className="px-4 py-3 border-t">$2.5M&ndash;$4M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo, bank statement</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Portuguese Bend</td>
                   <td className="px-4 py-3 border-t">$1.8M&ndash;$3.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo portfolio (geological review required)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo portfolio (geological review required)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Miraleste / Eastview</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$2.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Sea Cove / Abalone Cove</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$3.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo fixed, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo fixed, asset depletion</td>
                 </tr>
               </tbody>
             </table>
@@ -567,17 +567,17 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Dapplegray / Equestrian Area</td>
                   <td className="px-4 py-3 border-t">$2.5M&ndash;$5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo portfolio, equestrian property specialist</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo portfolio, equestrian property specialist</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Highridge / Country Hills</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$3.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Peninsula Center</td>
                   <td className="px-4 py-3 border-t">$1.8M&ndash;$2.8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo fixed, 1099-only, conventional</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo fixed, 1099-only, conventional</td>
                 </tr>
               </tbody>
             </table>
@@ -623,17 +623,17 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Standard Estate (1&ndash;2 acres)</td>
                   <td className="px-4 py-3 border-t">$3M&ndash;$5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Premier Equestrian Estate (2&ndash;5 acres)</td>
                   <td className="px-4 py-3 border-t">$5M&ndash;$8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio, bridge loan, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio, bridge loan, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Renovation / Rebuild Opportunity</td>
                   <td className="px-4 py-3 border-t">$3M&ndash;$4.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Construction-to-perm jumbo, bridge + renovation</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Construction-to-perm jumbo, bridge + renovation</td>
                 </tr>
               </tbody>
             </table>
@@ -679,27 +679,27 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Sand Section (Walk Street)</td>
                   <td className="px-4 py-3 border-t">$4M&ndash;$7M+</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo, bank statement, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo, bank statement, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">The Strand</td>
                   <td className="px-4 py-3 border-t">$5M&ndash;$7M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio, bridge-to-perm</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio, bridge-to-perm</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Tree Section</td>
                   <td className="px-4 py-3 border-t">$2.8M&ndash;$4.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement, RSU-inclusive</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement, RSU-inclusive</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hill Section</td>
                   <td className="px-4 py-3 border-t">$2.5M&ndash;$5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo fixed, 1099-only, DSCR (investment units)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo fixed, 1099-only, DSCR (investment units)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">East Manhattan Beach</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$3.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement</td>
                 </tr>
               </tbody>
             </table>
@@ -745,22 +745,22 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">The Strand / Beachfront</td>
                   <td className="px-4 py-3 border-t">$3M&ndash;$4M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo, bank statement</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hermosa Valley</td>
                   <td className="px-4 py-3 border-t">$1.8M&ndash;$2.8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, 1099-only</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, 1099-only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hermosa Hill</td>
                   <td className="px-4 py-3 border-t">$2M&ndash;$3.2M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo bank statement, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo bank statement, asset depletion</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">East Hermosa</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$2.2M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conforming, conventional, FHA jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conforming, conventional, FHA jumbo</td>
                 </tr>
               </tbody>
             </table>
@@ -809,22 +809,22 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">South Redondo / King Harbor</td>
                   <td className="px-4 py-3 border-t">$1M&ndash;$1.8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Conforming high-balance, jumbo entry-level</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Conforming high-balance, jumbo entry-level</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">North Redondo / Golden Hills</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$2.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional, bank statement</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional, bank statement</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Redondo Beach Riviera</td>
                   <td className="px-4 py-3 border-t">$1.8M&ndash;$2.5M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo fixed, 1099-only, conventional</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo fixed, 1099-only, conventional</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Condos / Townhomes (Harbor Area)</td>
                   <td className="px-4 py-3 border-t">$750K&ndash;$1.3M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Conforming conventional, FHA, DSCR (investment)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Conforming conventional, FHA, DSCR (investment)</td>
                 </tr>
               </tbody>
             </table>
@@ -948,49 +948,49 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Palos Verdes Estates</td>
-                  <td className="px-4 py-3 border-t text-green-700">+4.8%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+4.8%</td>
                   <td className="px-4 py-3 border-t">38</td>
                   <td className="px-4 py-3 border-t">2.8</td>
                   <td className="px-4 py-3 border-t">92% jumbo, 5% super-jumbo, 3% cash</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
-                  <td className="px-4 py-3 border-t text-green-700">+5.2%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+5.2%</td>
                   <td className="px-4 py-3 border-t">34</td>
                   <td className="px-4 py-3 border-t">2.5</td>
                   <td className="px-4 py-3 border-t">85% jumbo, 10% conforming, 5% cash</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
-                  <td className="px-4 py-3 border-t text-green-700">+3.9%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+3.9%</td>
                   <td className="px-4 py-3 border-t">42</td>
                   <td className="px-4 py-3 border-t">3.1</td>
                   <td className="px-4 py-3 border-t">88% jumbo, 8% super-jumbo, 4% cash</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
-                  <td className="px-4 py-3 border-t text-green-700">+3.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+3.1%</td>
                   <td className="px-4 py-3 border-t">58</td>
                   <td className="px-4 py-3 border-t">4.2</td>
                   <td className="px-4 py-3 border-t">65% super-jumbo, 20% cash, 15% jumbo</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Manhattan Beach</td>
-                  <td className="px-4 py-3 border-t text-green-700">+6.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+6.1%</td>
                   <td className="px-4 py-3 border-t">28</td>
                   <td className="px-4 py-3 border-t">1.9</td>
                   <td className="px-4 py-3 border-t">80% super-jumbo, 12% jumbo, 8% cash</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Hermosa Beach</td>
-                  <td className="px-4 py-3 border-t text-green-700">+5.7%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+5.7%</td>
                   <td className="px-4 py-3 border-t">25</td>
                   <td className="px-4 py-3 border-t">1.7</td>
                   <td className="px-4 py-3 border-t">75% jumbo, 15% super-jumbo, 10% conforming</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Redondo Beach</td>
-                  <td className="px-4 py-3 border-t text-green-700">+5.4%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+5.4%</td>
                   <td className="px-4 py-3 border-t">22</td>
                   <td className="px-4 py-3 border-t">1.6</td>
                   <td className="px-4 py-3 border-t">55% jumbo, 30% conforming, 10% FHA, 5% cash</td>
@@ -1017,35 +1017,35 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
                   <td className="px-4 py-3 border-t font-medium">$800K&ndash;$1.15M</td>
                   <td className="px-4 py-3 border-t">5&ndash;10%</td>
                   <td className="px-4 py-3 border-t">$720K&ndash;$1.09M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Conforming high-balance</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Conforming high-balance</td>
                   <td className="px-4 py-3 border-t">Redondo Beach condos</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$1.15M&ndash;$2M</td>
                   <td className="px-4 py-3 border-t">10&ndash;20%</td>
                   <td className="px-4 py-3 border-t">$1.0M&ndash;$1.8M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo conventional</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo conventional</td>
                   <td className="px-4 py-3 border-t">Redondo Beach, East Hermosa</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$2M&ndash;$3.5M</td>
                   <td className="px-4 py-3 border-t">15&ndash;20%</td>
                   <td className="px-4 py-3 border-t">$1.6M&ndash;$3.0M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Jumbo / super-jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Jumbo / super-jumbo</td>
                   <td className="px-4 py-3 border-t">Hermosa, RPV, RHE, Manhattan (East)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$3.5M&ndash;$5M</td>
                   <td className="px-4 py-3 border-t">20&ndash;25%</td>
                   <td className="px-4 py-3 border-t">$2.6M&ndash;$4.0M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo portfolio</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo portfolio</td>
                   <td className="px-4 py-3 border-t">PV Estates, Manhattan Sand Section</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$5M&ndash;$8M+</td>
                   <td className="px-4 py-3 border-t">20&ndash;30%</td>
                   <td className="px-4 py-3 border-t">$3.5M&ndash;$6.4M</td>
-                  <td className="px-4 py-3 border-t text-green-700">Super-jumbo / asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Super-jumbo / asset depletion</td>
                   <td className="px-4 py-3 border-t">Rolling Hills, Manhattan Strand</td>
                 </tr>
               </tbody>

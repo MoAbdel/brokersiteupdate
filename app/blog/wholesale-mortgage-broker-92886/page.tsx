@@ -232,12 +232,12 @@ export default function WholesaleMortgageBroker92886Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Self-employed flexibility</td><td className="py-2 px-4 border-b">Rigid guidelines</td><td className="py-2 px-4 border-b text-green-700">Multiple approaches</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Relationship requirement</td><td className="py-2 px-4 border-b">Often required</td><td className="py-2 px-4 border-b text-green-700">None</td></tr>
-              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-green-700">25-35 days typical</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700">Multiple programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Self-employed flexibility</td><td className="py-2 px-4 border-b">Rigid guidelines</td><td className="py-2 px-4 border-b text-blue-700">Multiple approaches</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Relationship requirement</td><td className="py-2 px-4 border-b">Often required</td><td className="py-2 px-4 border-b text-blue-700">None</td></tr>
+              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-blue-700">25-35 days typical</td></tr>
             </tbody>
           </table>
         </div>

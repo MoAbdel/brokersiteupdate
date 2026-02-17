@@ -140,8 +140,8 @@ export default function WhenToRefinancePage() {
               </tr>
             </thead>
             <tbody>
-              <tr className="bg-green-50"><td className="py-2 px-4 border-b font-semibold">2.0%+</td><td className="py-2 px-4 border-b text-green-700">~$360</td><td className="py-2 px-4 border-b text-green-700">~$600</td><td className="py-2 px-4 border-b text-green-700">Almost always worth it</td></tr>
-              <tr className="bg-green-50"><td className="py-2 px-4 border-b font-semibold">1.0%</td><td className="py-2 px-4 border-b text-green-700">~$180</td><td className="py-2 px-4 border-b text-green-700">~$300</td><td className="py-2 px-4 border-b text-green-700">2-3+ years</td></tr>
+              <tr className="bg-slate-50"><td className="py-2 px-4 border-b font-semibold">2.0%+</td><td className="py-2 px-4 border-b text-blue-700">~$360</td><td className="py-2 px-4 border-b text-blue-700">~$600</td><td className="py-2 px-4 border-b text-blue-700">Almost always worth it</td></tr>
+              <tr className="bg-slate-50"><td className="py-2 px-4 border-b font-semibold">1.0%</td><td className="py-2 px-4 border-b text-blue-700">~$180</td><td className="py-2 px-4 border-b text-blue-700">~$300</td><td className="py-2 px-4 border-b text-blue-700">2-3+ years</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">0.75%</td><td className="py-2 px-4 border-b">~$135</td><td className="py-2 px-4 border-b">~$225</td><td className="py-2 px-4 border-b">3-5+ years</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">0.50%</td><td className="py-2 px-4 border-b">~$90</td><td className="py-2 px-4 border-b">~$150</td><td className="py-2 px-4 border-b">5-7+ years</td></tr>
               <tr><td className="py-2 px-4">0.25%</td><td className="py-2 px-4">~$45</td><td className="py-2 px-4">~$75</td><td className="py-2 px-4">Rarely worth it (unless no-cost refi)</td></tr>
@@ -261,11 +261,11 @@ export default function WhenToRefinancePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Interest Rate</td><td className="py-2 px-4 border-b text-green-700">Lower (typically 0.5-0.75% less)</td><td className="py-2 px-4 border-b">Higher</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Monthly Payment</td><td className="py-2 px-4 border-b">Higher (40-50% more)</td><td className="py-2 px-4 border-b text-green-700">Lower</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Total Interest</td><td className="py-2 px-4 border-b text-green-700">Much less (60%+ savings)</td><td className="py-2 px-4 border-b">Much more</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Equity Building</td><td className="py-2 px-4 border-b text-green-700">Faster</td><td className="py-2 px-4 border-b">Slower</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Financial Flexibility</td><td className="py-2 px-4 border-b">Less</td><td className="py-2 px-4 border-b text-green-700">More</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Interest Rate</td><td className="py-2 px-4 border-b text-blue-700">Lower (typically 0.5-0.75% less)</td><td className="py-2 px-4 border-b">Higher</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Monthly Payment</td><td className="py-2 px-4 border-b">Higher (40-50% more)</td><td className="py-2 px-4 border-b text-blue-700">Lower</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Total Interest</td><td className="py-2 px-4 border-b text-blue-700">Much less (60%+ savings)</td><td className="py-2 px-4 border-b">Much more</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Equity Building</td><td className="py-2 px-4 border-b text-blue-700">Faster</td><td className="py-2 px-4 border-b">Slower</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Financial Flexibility</td><td className="py-2 px-4 border-b">Less</td><td className="py-2 px-4 border-b text-blue-700">More</td></tr>
               <tr><td className="py-2 px-4">Best For</td><td className="py-2 px-4">Disciplined savers, near-retirement</td><td className="py-2 px-4">Cash flow needs, investment-minded</td></tr>
             </tbody>
           </table>

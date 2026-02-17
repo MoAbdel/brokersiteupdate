@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   FileText,
   Download,
@@ -39,8 +40,8 @@ export default function DocumentChecklistPage() {
     {
       category: 'Income Documentation',
       icon: DollarSign,
-      color: 'text-green-600',
-      bgColor: 'bg-green-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Proof of income and employment history',
       documents: [
         {
@@ -79,7 +80,7 @@ export default function DocumentChecklistPage() {
       category: 'Asset Documentation',
       icon: Building,
       color: 'text-blue-600',
-      bgColor: 'bg-blue-50',
+      bgColor: 'bg-slate-100',
       description: 'Bank accounts, investments, and other assets',
       documents: [
         {
@@ -111,8 +112,8 @@ export default function DocumentChecklistPage() {
     {
       category: 'Credit & Identity',
       icon: CreditCard,
-      color: 'text-purple-600',
-      bgColor: 'bg-purple-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Personal identification and credit information',
       documents: [
         {
@@ -144,8 +145,8 @@ export default function DocumentChecklistPage() {
     {
       category: 'Property Documentation',
       icon: Home,
-      color: 'text-orange-600',
-      bgColor: 'bg-orange-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Documents related to the property being purchased',
       documents: [
         {
@@ -177,8 +178,8 @@ export default function DocumentChecklistPage() {
     {
       category: 'Additional Documents',
       icon: Folder,
-      color: 'text-teal-600',
-      bgColor: 'bg-teal-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Other documents that may be required',
       documents: [
         {
@@ -289,33 +290,26 @@ export default function DocumentChecklistPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Complete Document Guide</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Mortgage Document Checklist & Templates
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Everything you need to get your mortgage approved quickly. Complete checklist, 
-              downloadable templates, and organization tips for Orange County home buyers.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <FileText className="w-5 h-5 mr-2" />
-                  Get Document Help
-                </Button>
-              </Link>
-              <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                <Download className="w-5 h-5 mr-2" />
-                Download Checklist
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badgeText="Complete Document Guide"
+        badgeIcon={Folder}
+        title="Mortgage Document Checklist & Templates"
+        subtitle={
+          <>
+            Everything you need to get your mortgage approved quickly. Complete checklist, downloadable templates, and organization tips for Orange County home buyers.
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Get Document Help',
+          icon: FileText,
+        }}
+        secondaryAction={{
+          href: '#downloads',
+          label: 'Download Checklist',
+          icon: Download,
+        }}
+      />
 
       {/* Quick Stats */}
       <section className="py-8 border-b">
@@ -387,7 +381,7 @@ export default function DocumentChecklistPage() {
                               <Badge className="ml-2 bg-red-100 text-red-800">Required</Badge>
                             )}
                           </div>
-                          <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
+                          <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5" />
                         </div>
                         <p className="text-slate-600 mb-2">{doc.description}</p>
                         <div>
@@ -465,7 +459,7 @@ export default function DocumentChecklistPage() {
                       <div className="grid md:grid-cols-2 gap-2">
                         {step.tasks.map((task, taskIndex) => (
                           <div key={taskIndex} className="flex items-center text-sm">
-                            <CheckCircle className="w-4 h-4 mr-2 text-green-600" />
+                            <CheckCircle className="w-4 h-4 mr-2 text-blue-600" />
                             {task}
                           </div>
                         ))}
@@ -502,8 +496,8 @@ export default function DocumentChecklistPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2 text-green-800">Do:</h4>
-                  <ul className="space-y-1 text-sm text-green-700">
+                  <h4 className="font-semibold mb-2 text-slate-900">Do:</h4>
+                  <ul className="space-y-1 text-sm text-blue-700">
                     <li>• Submit all pages of every document</li>
                     <li>• Provide clear, high-quality scans</li>
                     <li>• Gather documents early in the process</li>
@@ -518,7 +512,7 @@ export default function DocumentChecklistPage() {
       </section>
 
       {/* Template Downloads */}
-      <section className="py-16">
+      <section id="downloads" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">
@@ -558,7 +552,7 @@ export default function DocumentChecklistPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need Help Getting Your Documents Ready?

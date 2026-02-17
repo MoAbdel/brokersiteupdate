@@ -320,12 +320,12 @@ export default function JumboLoansOrangeCountyPage() {
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Min. Credit Score</td>
                                     <td className="py-3 px-4">720+</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">Options starting at 680</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">Options starting at 680</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Typical Down Payment</td>
                                     <td className="py-3 px-4">20-25%</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">10-15% available</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">10-15% available</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Reserve Requirements</td>
@@ -335,7 +335,7 @@ export default function JumboLoansOrangeCountyPage() {
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Max DTI Ratio</td>
                                     <td className="py-3 px-4">43%</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">Up to 50% possible</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">Up to 50% possible</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -441,14 +441,14 @@ export default function JumboLoansOrangeCountyPage() {
                     Not all jumbo loans are the same. Orange County buyers have access to multiple jumbo product categories through wholesale channels, each designed for different financial profiles. Here is how the main jumbo loan types compare:
                 </p>
 
-                <div className="bg-green-50 p-8 rounded-2xl border border-green-100 my-10">
+                <div className="bg-slate-50 p-8 rounded-2xl border border-green-100 my-10">
                     <h3 className="text-2xl font-bold text-green-900 mb-6 mt-0 text-center">
                         Jumbo Loan Product Comparison: Orange County 2026
                     </h3>
                     <div className="overflow-x-auto">
                         <table className="min-w-full text-sm">
                             <thead>
-                                <tr className="border-b border-green-200">
+                                <tr className="border-b border-slate-200">
                                     <th className="py-3 px-4 text-left font-bold text-green-900">Product</th>
                                     <th className="py-3 px-4 text-left font-bold text-green-900">Best For</th>
                                     <th className="py-3 px-4 text-left font-bold text-green-900">Down Payment</th>
@@ -566,7 +566,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Jumbo loan rates in February 2026 vary significantly by channel (wholesale vs. retail), loan amount tier, and borrower qualification. The following rate comparison is based on actual wholesale pricing for a primary residence purchase with standard documentation and 740+ credit score:
                 </p>
 
-                <div className="bg-indigo-50 p-8 rounded-2xl border border-indigo-100 my-10">
+                <div className="bg-slate-50 p-8 rounded-2xl border border-indigo-100 my-10">
                     <h3 className="text-2xl font-bold text-indigo-900 mb-6 mt-0 text-center">
                         Jumbo Rate Matrix: Wholesale vs. Retail (February 2026)
                     </h3>
@@ -585,35 +585,35 @@ export default function JumboLoansOrangeCountyPage() {
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">$1.15M-$1.5M</td>
                                     <td className="py-3 px-4">6.375%</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">5.875-6.125%</td>
-                                    <td className="py-3 px-4 text-green-700">$225-$375</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">$2,700-$4,500</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">5.875-6.125%</td>
+                                    <td className="py-3 px-4 text-blue-700">$225-$375</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$2,700-$4,500</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">$1.5M-$2.5M</td>
                                     <td className="py-3 px-4">6.50%</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">6.00-6.25%</td>
-                                    <td className="py-3 px-4 text-green-700">$500-$830</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">$6,000-$10,000</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">6.00-6.25%</td>
+                                    <td className="py-3 px-4 text-blue-700">$500-$830</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$6,000-$10,000</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">$2.5M-$5M</td>
                                     <td className="py-3 px-4">6.75%</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">6.125-6.375%</td>
-                                    <td className="py-3 px-4 text-green-700">$1,040-$1,560</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">$12,500-$18,750</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">6.125-6.375%</td>
+                                    <td className="py-3 px-4 text-blue-700">$1,040-$1,560</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$12,500-$18,750</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">$5M+</td>
                                     <td className="py-3 px-4">7.00%+</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">6.25-6.625%</td>
-                                    <td className="py-3 px-4 text-green-700">$2,600+</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">$31,000+</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">6.25-6.625%</td>
+                                    <td className="py-3 px-4 text-blue-700">$2,600+</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">$31,000+</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-indigo-600 mt-3 mb-0">Rates shown for full-doc jumbo, primary residence, 20% down, 740+ FICO, February 2026. Non-QM jumbo (bank statement, DSCR, asset-depletion) carry 0.50-1.50% premium. Actual rates vary by scenario.</p>
+                    <p className="text-xs text-blue-600 mt-3 mb-0">Rates shown for full-doc jumbo, primary residence, 20% down, 740+ FICO, February 2026. Non-QM jumbo (bank statement, DSCR, asset-depletion) carry 0.50-1.50% premium. Actual rates vary by scenario.</p>
                 </div>
 
                 {/* People Also Ask Section */}

@@ -35,7 +35,7 @@ export default function HelocVsCashOutPage() {
               <CardContent className="p-6">
                 <h2 className="text-2xl font-bold text-slate-900 mb-3">Quick decision guide</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                     <h3 className="font-semibold text-slate-900 mb-2">HELOC tends to fit when…</h3>
                     <ul className="text-slate-700 text-sm space-y-1">
                       <li>• You want flexibility (draw as needed)</li>
@@ -44,7 +44,7 @@ export default function HelocVsCashOutPage() {
                       <li>• You want a reserve line “just in case”</li>
                     </ul>
                   </div>
-                  <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                  <div className="bg-slate-50 border border-amber-200 rounded-lg p-4">
                     <h3 className="font-semibold text-slate-900 mb-2">Cash-out tends to fit when…</h3>
                     <ul className="text-slate-700 text-sm space-y-1">
                       <li>• You need one lump sum</li>

@@ -543,7 +543,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Healdsburg Example: Vineyard Expansion Financing</h4>
             <p className="mb-0">A Dry Creek Valley vineyard owner purchased a 12-acre estate with residence for $1.8M in 2017. Current appraised value: $3.1M. With $650K remaining mortgage, the homeowner needed $400K to plant 3 additional acres of Zinfandel and build a small production facility. Two local banks declined due to agricultural collateral concerns. Through wholesale channels, I placed the borrower with a portfolio lender offering a $600K jumbo HELOC at prime + 0.75% with a 10-year draw. The phased draws aligned with planting season and construction milestones, with first grape revenue projected within 4 years of planting.</p>
           </div>
@@ -618,7 +618,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">St. Helena Example: Wine Cave Construction</h4>
             <p className="mb-0">A second-generation vintner on Spring Mountain owns a 20-acre estate appraised at $6.8M with $1.2M remaining mortgage. She needed $1.5M to excavate a 6,000 sq ft wine cave for barrel aging and private tastings. Local banks offered maximum credit lines of $500K. Through wholesale channels, I connected her with a private banking HELOC at $2M credit limit, prime + 0.50%, with a 10-year draw period. The phased construction drew $350K in year one (excavation), $600K in year two (finishing and climate systems), and holds the remainder as reserve for future improvements. Projected property value increase from completed wine cave: $800K-$1.2M.</p>
           </div>
@@ -693,7 +693,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Calistoga Example: Spa Renovation on Geothermal Property</h4>
             <p className="mb-0">A couple who rebuilt their Tubbs Lane home after the 2017 fire owns a $1.6M property with $450K remaining mortgage. The property sits on a natural geothermal spring, and they wanted $250K to build a permitted mineral soaking pool, outdoor spa deck, and guest casita. Their credit union declined due to the geothermal feature. Through wholesale channels, I placed them with a portfolio lender offering a $350K HELOC at prime + 0.75%. The completed spa improvements and guest casita added an estimated $380K in appraised value, with vacation rental income of $4,500/month during peak Calistoga season (May-October).</p>
           </div>
@@ -768,7 +768,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Sonoma Example: Historic Plaza Estate Renovation</h4>
             <p className="mb-0">A retired attorney owns a 1920s adobe estate two blocks from Sonoma Plaza, valued at $2.4M with no remaining mortgage (free and clear). She wanted $350K to restore the property&apos;s historic adobe walls, install a modern kitchen within the original footprint, and add a permitted wine tasting garden for her small-production olive oil brand. Through wholesale channels, I placed her with a portfolio lender offering a $500K HELOC at prime + 0.25% with zero closing costs. The renovation and tasting garden addition increased estimated property value to $2.9M while generating $2,800/month in tasting room revenue.</p>
           </div>
@@ -843,7 +843,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Napa Example: Downtown ADU for Workforce Housing</h4>
             <p className="mb-0">A restaurant manager in Old Town Napa owns an $880K home purchased in 2019 for $620K, with $480K remaining mortgage. She secured a $200K conforming HELOC at prime + 0% (best-available tier) to build a 650 sq ft detached ADU in her backyard. The ADU rents to a hospitality worker for $2,800/month, which covers her HELOC interest-only payment of $1,400/month and creates $1,400 in positive monthly cash flow. The ADU addition increased her property value to an estimated $1.12M.</p>
           </div>
@@ -918,7 +918,7 @@ export default function HomeEquityWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Yountville Example: Free-and-Clear Cash-Out for Investment</h4>
             <p className="mb-0">A retired sommelier owns a $1.8M Yountville home free and clear on Washington Street. She wanted to extract $900K to purchase a downtown Napa investment property. Rather than a traditional cash-out refinance (which would create a 30-year first mortgage), I placed her with a first-lien HELOC at $1M credit limit, prime + 0.25%, with 10-year draw. She drew $900K for the Napa property purchase, maintains $100K in reserve capacity, and pays interest-only of approximately $6,300/month during the draw period. The Napa investment property generates $5,200/month in rental income, offsetting the majority of her HELOC cost.</p>
           </div>

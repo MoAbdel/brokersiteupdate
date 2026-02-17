@@ -120,8 +120,8 @@ export default function RefinanceClosingCostsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Lender Fees</td><td className="py-2 px-4 border-b">0.5-1.5% of loan</td><td className="py-2 px-4 border-b text-green-700">Yes</td></tr>
-              <tr><td className="py-2 px-4 border-b">Title Services</td><td className="py-2 px-4 border-b">$1,500-$3,000</td><td className="py-2 px-4 border-b text-green-700">Yes (shop around)</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender Fees</td><td className="py-2 px-4 border-b">0.5-1.5% of loan</td><td className="py-2 px-4 border-b text-blue-700">Yes</td></tr>
+              <tr><td className="py-2 px-4 border-b">Title Services</td><td className="py-2 px-4 border-b">$1,500-$3,000</td><td className="py-2 px-4 border-b text-blue-700">Yes (shop around)</td></tr>
               <tr><td className="py-2 px-4 border-b">Government Fees</td><td className="py-2 px-4 border-b">$200-$1,000</td><td className="py-2 px-4 border-b text-red-600">No</td></tr>
               <tr><td className="py-2 px-4 border-b">Prepaid Items</td><td className="py-2 px-4 border-b">$2,000-$5,000</td><td className="py-2 px-4 border-b text-red-600">No (but varies)</td></tr>
               <tr><td className="py-2 px-4">Escrow Setup</td><td className="py-2 px-4">$1,000-$3,000</td><td className="py-2 px-4 text-red-600">No (may be refunded from old loan)</td></tr>

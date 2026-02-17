@@ -77,7 +77,7 @@ export default function NewsletterSignup() {
               Stay Ahead of the California & Washington Markets
             </h3>
             
-            <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
               Get exclusive weekly market insights, rate forecasts, and insider tips delivered to your inbox.
               No spam, just valuable information to help you make smarter financing decisions.
             </p>
@@ -133,7 +133,7 @@ export default function NewsletterSignup() {
                 <Button
                   type="submit"
                   disabled={isSubmitting || !email.trim() || !firstName.trim()}
-                  className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 whitespace-nowrap"
+                  className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 whitespace-nowrap"
                 >
                   {isSubmitting ? (
                     'Subscribing...'
@@ -150,23 +150,23 @@ export default function NewsletterSignup() {
             {/* Benefits */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
               <div className="flex flex-col items-center">
-                <TrendingUp className="w-8 h-8 text-blue-200 mb-2" />
+                <TrendingUp className="w-8 h-8 text-slate-200 mb-2" />
                 <h4 className="font-semibold text-white mb-1">Weekly Market Updates</h4>
-                <p className="text-sm text-blue-100">Latest rates, trends, and forecasts</p>
+                <p className="text-sm text-slate-200">Latest rates, trends, and forecasts</p>
               </div>
               <div className="flex flex-col items-center">
-                <Shield className="w-8 h-8 text-blue-200 mb-2" />
+                <Shield className="w-8 h-8 text-slate-200 mb-2" />
                 <h4 className="font-semibold text-white mb-1">Insider Tips</h4>
-                <p className="text-sm text-blue-100">Competitive pricing insights you won't find elsewhere</p>
+                <p className="text-sm text-slate-200">Competitive pricing insights you won't find elsewhere</p>
               </div>
               <div className="flex flex-col items-center">
-                <CheckCircle className="w-8 h-8 text-blue-200 mb-2" />
+                <CheckCircle className="w-8 h-8 text-slate-200 mb-2" />
                 <h4 className="font-semibold text-white mb-1">No Spam Promise</h4>
-                <p className="text-sm text-blue-100">Unsubscribe anytime, your info never shared</p>
+                <p className="text-sm text-slate-200">Unsubscribe anytime, your info never shared</p>
               </div>
             </div>
 
-            <p className="text-xs text-blue-200 mt-6">
+            <p className="text-xs text-slate-200 mt-6">
               By subscribing, you agree to receive email updates from Lumin Lending.
               Your information will never be shared with third parties.
             </p>

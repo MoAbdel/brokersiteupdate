@@ -417,19 +417,19 @@ export default function HomeEquityGreaterSeattleGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">$400K HELOC used for rental property generating $48K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax</td>
                   <td className="px-4 py-3 border-t">$4,464 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$4,464/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$4,464/yr saved</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">$300K HELOC invested in portfolio returning $27K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax</td>
                   <td className="px-4 py-3 border-t">$2,511 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$2,511/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$2,511/yr saved</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$250K cash-out for ADU generating $36K/yr rent</td>
                   <td className="px-4 py-3 border-t">$0 state tax on rental income</td>
                   <td className="px-4 py-3 border-t">$3,348 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$3,348/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$3,348/yr saved</td>
                 </tr>
               </tbody>
             </table>
@@ -512,25 +512,25 @@ export default function HomeEquityGreaterSeattleGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">RSU Income ($200K/yr vesting)</td>
                   <td className="px-4 py-3 border-t">2-yr avg with 25% discount = $112K</td>
                   <td className="px-4 py-3 border-t">Current schedule at face value = $200K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$88K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$88K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Annual Bonus ($60K avg)</td>
                   <td className="px-4 py-3 border-t">Excluded or 50% counted = $0-$30K</td>
                   <td className="px-4 py-3 border-t">2-yr average at full value = $60K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$30K-$60K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$30K-$60K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Stock Options (exercised $80K/yr)</td>
                   <td className="px-4 py-3 border-t">Not counted = $0</td>
                   <td className="px-4 py-3 border-t">2-yr avg of exercises = $80K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$80K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$80K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Startup Equity (vested, liquid)</td>
                   <td className="px-4 py-3 border-t">Ignored entirely = $0</td>
                   <td className="px-4 py-3 border-t">Counted as asset reserve</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Compensating factor for higher DTI</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Compensating factor for higher DTI</td>
                 </tr>
               </tbody>
             </table>
@@ -711,16 +711,16 @@ export default function HomeEquityGreaterSeattleGuide2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Greater Seattle</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Greater Seattle holds an estimated $95 billion in residential home equity across 185,000 owner-occupied homes, making it the largest equity market in Washington State. With median values from $750,000 in Shoreline to $1,300,000 on Bainbridge Island, homeowners access $410,000 to $780,000+ in tappable equity per property. Sound Transit light rail expansion is actively boosting suburban values, while urban Seattle&apos;s tech employment base sustains demand and appreciation.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Washington State&apos;s zero income tax amplifies every equity deployment strategy. ADU rental income, investment returns, and capital gains from equity-funded ventures face no state taxation &mdash; saving $2,000-$6,000+ annually compared to California or Oregon. Seattle&apos;s ADU-friendly policies create a uniquely powerful combination: HELOC-financed construction that builds property value, generates rental income, and retains its full return in a zero-income-tax state.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your Greater Seattle property and financial profile. Tech income qualification, condo HELOC expertise, and jumbo product access are standard service &mdash; not add-ons. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your Greater Seattle property and financial profile. Tech income qualification, condo HELOC expertise, and jumbo product access are standard service &mdash; not add-ons. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

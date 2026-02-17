@@ -310,28 +310,28 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rolling Hills</td>
                   <td className="py-3 px-4 border-b">$3,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $1.4M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $1.4M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Gated city (all), equestrian estates, 1+ acre</td>
                   <td className="py-3 px-4 border-b">Ultra-HNW retirees, equestrian families, multi-generational</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Palos Verdes Estates</td>
                   <td className="py-3 px-4 border-b">$2,900,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $1.35M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $1.35M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Malaga Cove, Lunada Bay, Montemalaga, Valmonte</td>
                   <td className="py-3 px-4 border-b">Executives, physicians, attorneys, long-term ocean bluff owners</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rancho Palos Verdes</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $950K+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $950K+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Portuguese Bend, Terranea, Trump National, Miraleste</td>
                   <td className="py-3 px-4 border-b">Aerospace retirees, view-seekers, corporate executives</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Rolling Hills Estates</td>
                   <td className="py-3 px-4">$2,000,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$575K (HECM) / $950K+ (Proprietary)</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$575K (HECM) / $950K+ (Proprietary)</td>
                   <td className="py-3 px-4">Silver Spur, Ridgecrest, Peninsula Center</td>
                   <td className="py-3 px-4">Family estate seniors, downsizers, 25+ year owners</td>
                 </tr>
@@ -435,7 +435,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             A proprietary reverse mortgage provides a $2.6 million line of credit based on the $5.8 million appraised value. He draws $11,100/month to cover the property expense shortfall, eliminating the need to dip into savings or consider selling. At this draw rate, the credit line sustains his lifestyle for over 19 years&mdash;well into his late 90s. His children inherit the home and any remaining equity above the loan balance, and the non-recourse provision ensures they never owe more than the home&apos;s appraised value.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: PV Estates Reverse Mortgage Expertise</h4>
             <p className="mb-0">In our Palos Verdes Estates reverse mortgage closings, the bluff-top appraisal drives everything. A Lunada Bay home appraised at $5.2 million versus $5.8 million means $280,000 less in proprietary reverse mortgage proceeds. I assign certified luxury appraisers with documented PV Estates bluff-top experience who understand coastal erosion setbacks, view premium quantification, and the micro-neighborhood value distinctions between Lunada Bay, Malaga Cove, and Montemalaga.</p>
           </div>
@@ -475,7 +475,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             A 70-year-old retired aerospace executive near Terranea Resort owns a $3.4 million home with panoramic ocean views and a $500,000 remaining mortgage at a rate locked in 2021. She anticipates increasing healthcare costs as she ages and wants to establish a long-term financial reserve while eliminating the monthly mortgage payment. A proprietary reverse mortgage pays off the $500,000 existing mortgage (eliminating the $3,800/month payment immediately) and establishes a $1.1 million line of credit. She redirects the $3,800/month mortgage savings into an investment account for near-term expenses while the $1.1 million credit line serves as a dedicated healthcare and long-term care reserve. The total monthly cash flow improvement: $3,800 in eliminated mortgage payments plus access to $1.1 million in future funds.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rancho Palos Verdes Reverse Mortgage Specialization</h4>
             <p className="mb-0">In our Rancho Palos Verdes reverse mortgage closings, the Portuguese Bend geological question arises frequently. I maintain relationships with geological hazard report providers who specialize in the peninsula, enabling rapid documentation turnaround that satisfies lender underwriting requirements. This specialized knowledge prevents the blanket denials that cost RPV seniors access to their rightfully earned equity.</p>
           </div>
@@ -518,7 +518,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             A proprietary reverse mortgage through a trust-vesting lender provides a $2 million line of credit. She draws $4,800/month to cover the shortfall between income and property expenses. The daughter&apos;s family continues living on the property, the grandchildren continue riding, and the family estate remains intact. At this draw rate, the credit line sustains 34+ years of monthly draws. The trust structure is preserved, and the non-recourse provision ensures the family never owes more than the property&apos;s value.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rolling Hills Reverse Mortgage Expertise</h4>
             <p className="mb-0">In our Rolling Hills reverse mortgage closings, I coordinate 48-hour advance gated access with the Rolling Hills Community Association, assign equestrian-experienced appraisers who capture the full value of barn and arena improvements, and connect trust-holding seniors with lenders experienced in entity-vested reverse mortgages. This three-part coordination&mdash;access, valuation, and underwriting&mdash;is what distinguishes specialist reverse mortgage service from generic provider attempts that stall at the gate.</p>
           </div>
@@ -558,7 +558,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             A 67-year-old recently retired couple in Ridgecrest owns a $2.3 million home with a $350,000 remaining mortgage. Their 1978 ranch-style home needs $180,000 in updates: roof replacement ($45,000), kitchen renovation ($75,000), bathroom accessibility modifications ($35,000), and HVAC replacement ($25,000). They also want to establish a financial safety net for future healthcare costs. A proprietary reverse mortgage pays off the $350,000 existing mortgage (eliminating $2,600/month in payments), funds the $180,000 renovation through an initial draw, and establishes a $420,000 growing credit line for future needs. Monthly cash flow improves by $2,600, the home is modernized for aging in place, and the untapped credit line grows annually as a healthcare reserve.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rolling Hills Estates Senior Equity Access</h4>
             <p className="mb-0">In our Rolling Hills Estates reverse mortgage closings, the combination of mortgage payoff, renovation funding, and growing credit line is the most common three-part strategy. I coordinate with local RHE contractors experienced in accessibility modifications and present clients with a single transaction that eliminates mortgage payments, modernizes the home, and creates a long-term financial reserve&mdash;three objectives accomplished through one reverse mortgage closing.</p>
           </div>

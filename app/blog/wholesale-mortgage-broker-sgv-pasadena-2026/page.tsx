@@ -257,16 +257,16 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-medium">Number of Lenders</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1 (their own products)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Rate Shopping</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Simultaneous comparison across all lenders</td><td className="py-2 px-4 border-b">Single institution&apos;s rate sheet</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Jumbo Programs (SGV Essential)</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ jumbo lenders with varying guidelines</td><td className="py-2 px-4 border-b">1 jumbo product with fixed criteria</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement Loans</td><td className="py-2 px-4 border-b text-green-700 font-semibold">30+ bank statement lenders</td><td className="py-2 px-4 border-b">Rarely offered at retail banks</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">International Buyer Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple foreign national lenders</td><td className="py-2 px-4 border-b">Limited or unavailable</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Physician Loan Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple physician-specific lenders</td><td className="py-2 px-4 border-b">May offer 1 physician program</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Processing Overhead</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Lower (no branch costs passed to borrower)</td><td className="py-2 px-4 border-b">Higher (branch, marketing, corporate costs)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Personalized Service</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Direct contact with broker throughout</td><td className="py-2 px-4 border-b">May transfer between departments</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Compensation Transparency</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Fully disclosed on Loan Estimate</td><td className="py-2 px-4 border-b">Built into rate (less visible)</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Best For</td><td className="py-2 px-4 text-green-700 font-semibold">SGV borrowers who want the best rate from the widest market</td><td className="py-2 px-4">Borrowers with simple profiles who prefer a known brand</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Number of Lenders</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1 (their own products)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Rate Shopping</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Simultaneous comparison across all lenders</td><td className="py-2 px-4 border-b">Single institution&apos;s rate sheet</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Jumbo Programs (SGV Essential)</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ jumbo lenders with varying guidelines</td><td className="py-2 px-4 border-b">1 jumbo product with fixed criteria</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement Loans</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ bank statement lenders</td><td className="py-2 px-4 border-b">Rarely offered at retail banks</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">International Buyer Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple foreign national lenders</td><td className="py-2 px-4 border-b">Limited or unavailable</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Physician Loan Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple physician-specific lenders</td><td className="py-2 px-4 border-b">May offer 1 physician program</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Processing Overhead</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Lower (no branch costs passed to borrower)</td><td className="py-2 px-4 border-b">Higher (branch, marketing, corporate costs)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Personalized Service</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Direct contact with broker throughout</td><td className="py-2 px-4 border-b">May transfer between departments</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Compensation Transparency</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Fully disclosed on Loan Estimate</td><td className="py-2 px-4 border-b">Built into rate (less visible)</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Best For</td><td className="py-2 px-4 text-blue-700 font-semibold">SGV borrowers who want the best rate from the widest market</td><td className="py-2 px-4">Borrowers with simple profiles who prefer a known brand</td></tr>
             </tbody>
           </table>
         </div>
@@ -336,12 +336,12 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b font-medium">Full Documentation (W-2/Tax)</td><td className="py-2 px-4 border-b">2 years W-2 + tax returns + pay stubs</td><td className="py-2 px-4 border-b">Caltech/JPL salaried employees, hospital staff</td><td className="py-2 px-4 border-b">200+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (12 mo)</td><td className="py-2 px-4 border-b">12 months personal or business bank statements</td><td className="py-2 px-4 border-b">Self-employed, business owners, consultants</td><td className="py-2 px-4 border-b text-green-700 font-semibold">30+ specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (24 mo)</td><td className="py-2 px-4 border-b">24 months bank statements for higher qualification</td><td className="py-2 px-4 border-b">Business owners with variable income patterns</td><td className="py-2 px-4 border-b text-green-700 font-semibold">25+ specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Asset Depletion</td><td className="py-2 px-4 border-b">Liquid assets divided by loan term = qualifying income</td><td className="py-2 px-4 border-b">Retired professionals with investment portfolios</td><td className="py-2 px-4 border-b text-green-700 font-semibold">20+ specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (12 mo)</td><td className="py-2 px-4 border-b">12 months personal or business bank statements</td><td className="py-2 px-4 border-b">Self-employed, business owners, consultants</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (24 mo)</td><td className="py-2 px-4 border-b">24 months bank statements for higher qualification</td><td className="py-2 px-4 border-b">Business owners with variable income patterns</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">25+ specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Asset Depletion</td><td className="py-2 px-4 border-b">Liquid assets divided by loan term = qualifying income</td><td className="py-2 px-4 border-b">Retired professionals with investment portfolios</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">20+ specialized lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">1099 Income</td><td className="py-2 px-4 border-b">1099 forms + bank statements from contract work</td><td className="py-2 px-4 border-b">Freelance consultants, gig economy professionals</td><td className="py-2 px-4 border-b">15+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">P&amp;L Statement</td><td className="py-2 px-4 border-b">CPA-prepared profit and loss statement</td><td className="py-2 px-4 border-b">Small business owners with organized financials</td><td className="py-2 px-4 border-b">10+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">DSCR (Investor)</td><td className="py-2 px-4 border-b">Rental property income covers mortgage payment</td><td className="py-2 px-4 border-b">Real estate investors buying rentals in SGV</td><td className="py-2 px-4 border-b text-green-700 font-semibold">40+ specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">DSCR (Investor)</td><td className="py-2 px-4 border-b">Rental property income covers mortgage payment</td><td className="py-2 px-4 border-b">Real estate investors buying rentals in SGV</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">40+ specialized lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Foreign National</td><td className="py-2 px-4 border-b">International credit + overseas income documentation</td><td className="py-2 px-4 border-b">Arcadia/San Marino international buyers</td><td className="py-2 px-4 border-b">10+ specialized lenders</td></tr>
               <tr><td className="py-2 px-4 font-medium">Physician Loan</td><td className="py-2 px-4">Employment contract + medical credentials</td><td className="py-2 px-4">Doctors, dentists, specialists at SGV hospitals</td><td className="py-2 px-4">15+ physician-focused lenders</td></tr>
             </tbody>
@@ -488,11 +488,11 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-medium">Pre-Approval</td><td className="py-2 px-4 border-b text-green-700 font-semibold">1-3 days</td><td className="py-2 px-4 border-b">3-7 days</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Lender Selection</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Simultaneous comparison</td><td className="py-2 px-4 border-b">N/A (single lender)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Appraisal Ordered</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Day 5-7</td><td className="py-2 px-4 border-b">Day 7-14</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Pre-Approval</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">1-3 days</td><td className="py-2 px-4 border-b">3-7 days</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Lender Selection</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Simultaneous comparison</td><td className="py-2 px-4 border-b">N/A (single lender)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Appraisal Ordered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Day 5-7</td><td className="py-2 px-4 border-b">Day 7-14</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Underwriting Decision</td><td className="py-2 px-4 border-b">Day 15-20</td><td className="py-2 px-4 border-b">Day 20-30</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Closing</td><td className="py-2 px-4 text-green-700 font-semibold">Day 21-35</td><td className="py-2 px-4">Day 35-50</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Closing</td><td className="py-2 px-4 text-blue-700 font-semibold">Day 21-35</td><td className="py-2 px-4">Day 35-50</td></tr>
             </tbody>
           </table>
         </div>
@@ -689,7 +689,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Wholesale Mortgage Lending in the San Gabriel Valley [2026]</h2>
           <p className="text-gray-800">
             The San Gabriel Valley&apos;s nine-city corridor is one of the most complex and highest-value mortgage markets in all of California. With median home prices from $1 million to $3 million, a borrower population that includes Caltech researchers, JPL engineers, healthcare executives, international business owners, and self-employed professionals, the SGV demands the breadth and flexibility that only wholesale lending channels provide.
@@ -698,20 +698,20 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             A retail bank offers one set of products at one set of rates. A wholesale mortgage broker accesses 200+ lenders, each with distinct programs, rates, and underwriting guidelines. For a Caltech professor with consulting income, that means finding the lender who qualifies all income streams. For an Arcadia business owner, it means bank statement programs that calculate income from cash flow rather than tax returns. For a physician at Huntington Hospital, it means physician loan programs with student loan exclusions and employment contract qualification.
           </p>
           <p className="text-gray-800 mb-0">
-            Whether you are purchasing your first home in La Crescenta, upgrading to a San Marino estate, refinancing a Pasadena Craftsman, or acquiring investment property in Glendale, the wholesale channel provides more options, better pricing, and faster execution than any single retail lender. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a free consultation and wholesale rate comparison tailored to your San Gabriel Valley mortgage needs.
+            Whether you are purchasing your first home in La Crescenta, upgrading to a San Marino estate, refinancing a Pasadena Craftsman, or acquiring investment property in Glendale, the wholesale channel provides more options, better pricing, and faster execution than any single retail lender. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a free consultation and wholesale rate comparison tailored to your San Gabriel Valley mortgage needs.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free San Gabriel Valley Wholesale Rate Comparison</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             Purchase, refinance, jumbo, bank statement &amp; specialty programs for San Marino, La Ca&ntilde;ada Flintridge, Pasadena, Arcadia, South Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

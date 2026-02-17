@@ -95,7 +95,7 @@ export default function RootLayout({
         {/* Critical mobile viewport optimization */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="theme-color" content="#1e40af" />
+        <meta name="theme-color" content="#0f172a" />
 
         {/* Additional best practices meta tags */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

@@ -390,15 +390,15 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Built into process</td><td className="py-2 px-4 border-b">Impossible internally</td></tr>
-              <tr><td className="py-2 px-4 border-b">Program Variety</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive specialty products</td><td className="py-2 px-4 border-b">Limited to bank offerings</td></tr>
-              <tr><td className="py-2 px-4 border-b">Self-Employed Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Bank statement, asset depletion</td><td className="py-2 px-4 border-b">Typically tax returns only</td></tr>
-              <tr><td className="py-2 px-4 border-b">Jumbo Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ jumbo lenders</td><td className="py-2 px-4 border-b">1 jumbo product</td></tr>
-              <tr><td className="py-2 px-4 border-b">Compensation Transparency</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Fully disclosed</td><td className="py-2 px-4 border-b">Hidden in rate</td></tr>
-              <tr><td className="py-2 px-4 border-b">If Denied</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Submit to different lender</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
-              <tr><td className="py-2 px-4 border-b">Closing Speed</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Match lender to urgency</td><td className="py-2 px-4 border-b">Bank's timeline only</td></tr>
-              <tr><td className="py-2 px-4">Personal Service</td><td className="py-2 px-4 text-green-700 font-semibold">Direct relationship with broker</td><td className="py-2 px-4">May be handed off between departments</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into process</td><td className="py-2 px-4 border-b">Impossible internally</td></tr>
+              <tr><td className="py-2 px-4 border-b">Program Variety</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive specialty products</td><td className="py-2 px-4 border-b">Limited to bank offerings</td></tr>
+              <tr><td className="py-2 px-4 border-b">Self-Employed Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Bank statement, asset depletion</td><td className="py-2 px-4 border-b">Typically tax returns only</td></tr>
+              <tr><td className="py-2 px-4 border-b">Jumbo Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ jumbo lenders</td><td className="py-2 px-4 border-b">1 jumbo product</td></tr>
+              <tr><td className="py-2 px-4 border-b">Compensation Transparency</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Fully disclosed</td><td className="py-2 px-4 border-b">Hidden in rate</td></tr>
+              <tr><td className="py-2 px-4 border-b">If Denied</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Submit to different lender</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
+              <tr><td className="py-2 px-4 border-b">Closing Speed</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Match lender to urgency</td><td className="py-2 px-4 border-b">Bank's timeline only</td></tr>
+              <tr><td className="py-2 px-4">Personal Service</td><td className="py-2 px-4 text-blue-700 font-semibold">Direct relationship with broker</td><td className="py-2 px-4">May be handed off between departments</td></tr>
             </tbody>
           </table>
         </div>
@@ -509,12 +509,12 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Bank Statement Loans</td><td className="py-2 px-4 border-b text-green-700 font-semibold">40+ specialized lenders</td><td className="py-2 px-4 border-b">Often none</td></tr>
-              <tr><td className="py-2 px-4 border-b">DSCR Investment Loans</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ investor-focused lenders</td><td className="py-2 px-4 border-b">Limited or none</td></tr>
-              <tr><td className="py-2 px-4 border-b">Jumbo Loans</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ jumbo specialists</td><td className="py-2 px-4 border-b">1 product</td></tr>
-              <tr><td className="py-2 px-4 border-b">Non-QM Products</td><td className="py-2 px-4 border-b text-green-700 font-semibold">30+ non-QM lenders</td><td className="py-2 px-4 border-b">Rarely offered</td></tr>
-              <tr><td className="py-2 px-4 border-b">Foreign National</td><td className="py-2 px-4 border-b text-green-700 font-semibold">15+ international programs</td><td className="py-2 px-4 border-b">Very limited</td></tr>
-              <tr><td className="py-2 px-4">Recent Credit Events</td><td className="py-2 px-4 text-green-700 font-semibold">Multiple second-chance lenders</td><td className="py-2 px-4">Strict waiting periods</td></tr>
+              <tr><td className="py-2 px-4 border-b">Bank Statement Loans</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">40+ specialized lenders</td><td className="py-2 px-4 border-b">Often none</td></tr>
+              <tr><td className="py-2 px-4 border-b">DSCR Investment Loans</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ investor-focused lenders</td><td className="py-2 px-4 border-b">Limited or none</td></tr>
+              <tr><td className="py-2 px-4 border-b">Jumbo Loans</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ jumbo specialists</td><td className="py-2 px-4 border-b">1 product</td></tr>
+              <tr><td className="py-2 px-4 border-b">Non-QM Products</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ non-QM lenders</td><td className="py-2 px-4 border-b">Rarely offered</td></tr>
+              <tr><td className="py-2 px-4 border-b">Foreign National</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">15+ international programs</td><td className="py-2 px-4 border-b">Very limited</td></tr>
+              <tr><td className="py-2 px-4">Recent Credit Events</td><td className="py-2 px-4 text-blue-700 font-semibold">Multiple second-chance lenders</td><td className="py-2 px-4">Strict waiting periods</td></tr>
             </tbody>
           </table>
         </div>

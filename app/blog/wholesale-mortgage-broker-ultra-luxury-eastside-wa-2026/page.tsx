@@ -464,7 +464,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Medina properties frequently involve additional complexity: lakefront parcels with dock permits, guest houses requiring separate appraisals, and renovations of historic homes where as-completed valuations justify higher loan amounts. I work with appraisers who specialize in Medina&apos;s $5M-$30M+ property valuations and lenders who understand that a 6,500-square-foot lakefront estate on Evergreen Point Road requires different comparable analysis than a suburban home in Bellevue.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6">
+        <div className="bg-slate-50 p-6 rounded-lg my-6">
           <h4 className="font-bold mb-2">Medina Case Study: Tech Founder Pre-IPO Purchase</h4>
           <p className="mb-0">A pre-IPO startup founder purchased a $6.8M Medina lakefront estate. With $200K W-2 salary but $35M in illiquid stock options, traditional banks declined the application. Through wholesale channels, I secured a $5.1M bank statement loan (24-month personal and business deposits) at 6.625% with 10-year interest-only terms. Monthly payment: $28,178. The founder preserved 100% of equity holdings while acquiring the property.</p>
         </div>
@@ -499,7 +499,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Hunts Point transactions frequently involve pledged-asset mortgages where borrowers pledge investment portfolios as collateral instead of liquidating positions. This structure preserves investment gains, avoids capital gains tax events, and provides rates comparable to full-documentation jumbo loans. Through wholesale channels, I access five institutional lenders offering pledged-asset programs with loan amounts up to $20 million.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6">
+        <div className="bg-slate-50 p-6 rounded-lg my-6">
           <h4 className="font-bold mb-2">Hunts Point Case Study: Pledged-Asset Estate Purchase</h4>
           <p className="mb-0">A retired tech executive acquired a $14.5M Hunts Point waterfront estate. Rather than liquidating $10M+ from investment accounts (triggering a $2M+ capital gains tax event), the borrower pledged $12M in marketable securities. The wholesale lender funded $10.15M at 6.125% with 10-year interest-only terms. Monthly payment: $51,826. Capital gains tax avoided: approximately $2.1 million.</p>
         </div>
@@ -534,7 +534,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Tear-down/rebuild transactions represent a growing segment of Clyde Hill financing. Buyers acquire aging 1960s-1980s homes on premium lots, demolish the existing structure, and construct custom estates valued at 2-3x the acquisition price. Wholesale brokers structure these transactions using construction-to-permanent loans from institutional lenders, bridging the gap between lot value ($1.5M-$3M) and completed home value ($4M-$8M) in a single close.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6">
+        <div className="bg-slate-50 p-6 rounded-lg my-6">
           <h4 className="font-bold mb-2">Clyde Hill Case Study: Executive Tear-Down/Rebuild</h4>
           <p className="mb-0">A Microsoft VP acquired a 1970s-era Clyde Hill home for $2.8M on a 0.5-acre hilltop lot with Cascade views. The existing home was demolished and replaced with a 5,800 sq ft custom estate. Through wholesale channels, I structured a $4.2M construction-to-permanent loan with a single close, converting to a 30-year fixed jumbo mortgage upon completion. Appraised value at completion: $6.1M. Total financing cost savings versus separate construction and permanent loans: $47,000.</p>
         </div>
@@ -569,7 +569,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Yarrow Point&apos;s waterfront properties with private docks command substantial premiums. Dock permits on Lake Washington are limited and transferable with the property, adding $500,000-$1,500,000 to property values. Wholesale lenders experienced with waterfront appraisals ensure dock value is captured in the property valuation, maximizing the loan amount available to buyers. Retail banks frequently undervalue dock permits because their appraisal panels lack waterfront specialization.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6">
+        <div className="bg-slate-50 p-6 rounded-lg my-6">
           <h4 className="font-bold mb-2">Yarrow Point Case Study: Multi-Property Portfolio Restructure</h4>
           <p className="mb-0">A senior Amazon executive purchased a $4.9M Yarrow Point waterfront home while owning three rental properties in Bellevue and Redmond. Traditional DTI ratios exceeded 55%, disqualifying the borrower at retail banks. Through wholesale channels, I converted the three investment properties to DSCR loans (qualifying on rental income alone), reducing the borrower&apos;s personal DTI to 32%. The Yarrow Point purchase closed with a $3.675M institutional jumbo at 6.25%. Net rate savings across all four loans: 0.375% average.</p>
         </div>
@@ -604,7 +604,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Bank statement and asset depletion programs serve Beaux Arts Village&apos;s creative professional community particularly well. Artists, authors, consultants, and creative directors with variable income streams qualify through deposit history rather than tax returns that may understate earning capacity. Downsizing executives moving from $5M+ Medina or Hunts Point homes into $2M Beaux Arts properties often have substantial liquid assets from the sale proceeds, making asset depletion the ideal qualification path.
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6">
+        <div className="bg-slate-50 p-6 rounded-lg my-6">
           <h4 className="font-bold mb-2">Beaux Arts Village Case Study: Creative Professional Purchase</h4>
           <p className="mb-0">A successful independent film director purchased a $2.2M Beaux Arts Village lakefront cottage. With project-based income averaging $400K/year but tax returns showing $180K after production company deductions, retail banks offered only $850K. Through wholesale channels, I secured a $1.65M bank statement loan using 24 months of personal deposits showing $380K average annual income. Rate: 6.875%, 30-year fixed. The director preserved investment accounts and purchased without selling any production equipment.</p>
         </div>
@@ -858,7 +858,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="tel:+19498229662"
-              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-center hover:bg-blue-700 transition-colors no-underline"
+              className="inline-block bg-slate-900 text-white px-8 py-4 rounded-lg font-semibold text-center hover:bg-slate-800 transition-colors no-underline"
             >
               Call (949) 822-9662
             </a>

@@ -33,7 +33,7 @@ export default function DscrRentAnalyzerIndex() {
         </nav>
 
         <div className="text-center mb-12">
-          <Badge className="bg-purple-100 text-purple-700 mb-4">Investors</Badge>
+          <Badge className="bg-slate-100 text-blue-700 mb-4">Investors</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
             DSCR Rent Analyzer
           </h1>
@@ -64,7 +64,7 @@ export default function DscrRentAnalyzerIndex() {
                 >
                   <Card className="hover:shadow-md hover:border-purple-300 transition-all">
                     <CardContent className="p-4">
-                      <h3 className="font-semibold text-slate-900 group-hover:text-purple-600 transition-colors">
+                      <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                         {county.name}
                       </h3>
                       <div className="flex justify-between text-xs text-slate-500 mt-1">

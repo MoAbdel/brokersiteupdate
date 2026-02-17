@@ -187,19 +187,22 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-4">
-                <div className="text-2xl font-bold text-green-600 mb-1">18 Days</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">18 Days</div>
                 <div className="text-sm text-slate-600">Avg Closing</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-4">
-                <div className="text-2xl font-bold text-orange-600 mb-1">24/7</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">24/7</div>
                 <div className="text-sm text-slate-600">Availability</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-4">
-                <div className="text-2xl font-bold text-purple-600 mb-1">5.0★</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1 inline-flex items-center gap-1">
+                  <span>5.0</span>
+                  <Star className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                </div>
                 <div className="text-sm text-slate-600">Client Rating</div>
               </CardContent>
             </Card>
@@ -231,35 +234,35 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4 p-4 bg-green-50 rounded-lg">
+                  <div className="flex items-start space-x-4 p-4 bg-slate-50 rounded-lg">
                     <div className="bg-green-600 p-3 rounded-lg">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Email Response</h3>
-                      <p className="text-green-600 font-semibold">Use form below for detailed inquiries</p>
+                      <p className="text-blue-600 font-semibold">Use form below for detailed inquiries</p>
                       <p className="text-sm text-slate-600">Response within 1 business day</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4 p-4 bg-purple-50 rounded-lg">
+                  <div className="flex items-start space-x-4 p-4 bg-slate-50 rounded-lg">
                     <div className="bg-purple-600 p-3 rounded-lg">
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Service Area</h3>
-                      <p className="text-purple-600 font-semibold">All Orange County, California</p>
+                      <p className="text-blue-600 font-semibold">All Orange County, California</p>
                       <p className="text-sm text-slate-600">Based in Lake Forest • Serving all OC cities</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start space-x-4 p-4 bg-orange-50 rounded-lg">
+                  <div className="flex items-start space-x-4 p-4 bg-slate-50 rounded-lg">
                     <div className="bg-orange-600 p-3 rounded-lg">
                       <Clock className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Office Hours</h3>
-                      <p className="text-orange-600 font-semibold">24/7 Availability</p>
+                      <p className="text-blue-600 font-semibold">24/7 Availability</p>
                       <p className="text-sm text-slate-600">Evening & weekend appointments available</p>
                     </div>
                   </div>
@@ -277,23 +280,23 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                 <CardContent>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <span className="text-slate-700"><strong>Direct access</strong> - No call centers or middlemen</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <span className="text-slate-700"><strong>200+ lenders</strong> competing for your business</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <span className="text-slate-700"><strong>18-day average</strong> closing time</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <span className="text-slate-700"><strong>Extensive</strong> Orange County expertise</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <span className="text-slate-700"><strong>Licensed broker</strong> NMLS #1426884</span>
                     </div>
                   </div>
@@ -322,14 +325,14 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     <a href="https://share.google/wFT7ePRJSrCjZ6KAg"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center p-3 bg-green-50 hover:bg-green-100 rounded-lg transition-colors">
-                      <span className="text-green-600 font-medium">Google</span>
+                      className="flex items-center justify-center p-3 bg-slate-50 hover:bg-slate-100 rounded-lg transition-colors">
+                      <span className="text-blue-600 font-medium">Google</span>
                     </a>
                     <a href="https://www.instagram.com/mo_thebroker"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center p-3 bg-purple-50 hover:bg-purple-100 rounded-lg transition-colors">
-                      <span className="text-purple-600 font-medium">Instagram</span>
+                      className="flex items-center justify-center p-3 bg-slate-50 hover:bg-slate-100 rounded-lg transition-colors">
+                      <span className="text-blue-600 font-medium">Instagram</span>
                     </a>
                   </div>
                   <p className="text-sm text-slate-600 mt-4 text-center">
@@ -394,25 +397,25 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
 
           {/* Emergency Contact CTA */}
           <div className="mt-12">
-            <Card className="shadow-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <Card className="shadow-xl bg-slate-900 text-white">
               <CardContent className="p-8 text-center">
                 <h2 className="text-3xl font-bold mb-4">Need Immediate Help?</h2>
-                <p className="text-xl mb-6 text-blue-100">
+                <p className="text-xl mb-6 text-slate-200">
                   Time-sensitive mortgage questions? I'm available 24/7 for urgent inquiries.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a href="tel:+19498229662">
-                    <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg font-semibold">
+                    <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-4 text-lg font-semibold">
                       <Phone className="w-5 h-5 mr-2" />
                       Call Now: (949) 822-9662
                     </Button>
                   </a>
-                  <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg">
+                  <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg">
                     <Clock className="w-5 h-5 mr-2" />
                     Available 24/7
                   </Button>
                 </div>
-                <p className="text-sm text-blue-200 mt-4">
+                <p className="text-sm text-slate-200 mt-4">
                   Licensed mortgage broker NMLS #1426884 • Lumin Lending
                 </p>
               </CardContent>

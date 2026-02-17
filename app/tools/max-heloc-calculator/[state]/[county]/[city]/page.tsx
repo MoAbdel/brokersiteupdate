@@ -103,7 +103,7 @@ export default async function CityHelocPage({ params }: Props) {
       title={`${city.name} Max HELOC Calculator`}
       subtitle={`Calculate your maximum home equity line of credit in ${city.name}, ${county.name}. Median home value: ${formatCurrency(city.medianHomePrice)} | 2026 conforming limit: ${formatCurrency(county.conformingLoanLimit)}.`}
       badgeText={`${city.name}, ${state.toUpperCase()}`}
-      badgeColor="bg-amber-100 text-amber-700"
+      badgeColor="bg-slate-100 text-blue-700"
       breadcrumbs={breadcrumbs}
       faqs={faqs}
       internalLinks={internalLinks}

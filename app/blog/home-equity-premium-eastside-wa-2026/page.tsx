@@ -388,8 +388,8 @@ export default function HomeEquityPremiumEastsideWA2026() {
             The Premium Eastside&apos;s combination of high property values, concentrated tech wealth, and diverse housing stock creates unique equity opportunities that standard retail banking channels fail to serve effectively. A principal engineer at Microsoft holding $300,000 in unvested RSUs, a Mercer Island retiree with $4 million in liquid assets, and a Newcastle small business owner with strong bank deposits all qualify—but through different lender programs that a wholesale broker identifies and matches to each borrower&apos;s profile.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded p-4 mb-6">
-            <p className="text-green-800 text-sm"><strong>Key Insight:</strong> 72% of Premium Eastside homeowners hold first mortgage rates below 5%, making second-lien products (HELOC and HELOAN) the dominant equity strategy in 2026. Cash-out refinance serves the remaining 28% who purchased or refinanced at higher rates during 2023-2025.</p>
+          <div className="bg-slate-50 border border-slate-200 rounded p-4 mb-6">
+            <p className="text-slate-900 text-sm"><strong>Key Insight:</strong> 72% of Premium Eastside homeowners hold first mortgage rates below 5%, making second-lien products (HELOC and HELOAN) the dominant equity strategy in 2026. Cash-out refinance serves the remaining 28% who purchased or refinanced at higher rates during 2023-2025.</p>
           </div>
         </section>
 
@@ -415,7 +415,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Bellevue Neighborhood Equity Snapshot</caption>
                 <thead>
-                  <tr className="bg-indigo-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Neighborhood</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Median Value</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Typical Equity %</th>
@@ -537,7 +537,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Sammamish Home Equity Uses — Top 5 Purposes (2025-2026 Data)</caption>
                 <thead>
-                  <tr className="bg-amber-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Equity Use</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">% of Borrowers</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Avg. Draw Amount</th>

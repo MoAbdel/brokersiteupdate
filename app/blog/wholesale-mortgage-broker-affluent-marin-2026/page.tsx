@@ -780,7 +780,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
             <p className="text-xl font-bold mb-2">Get Your Personalized Wholesale Rate Quote</p>
             <p className="mb-4">Compare rates from 200+ wholesale lenders for your affluent Marin County purchase. Zero obligation.</p>
             <p className="text-2xl font-bold mb-2">
-              <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+              <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
             </p>
             <p className="text-sm">Mo Abdel | NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
           </div>

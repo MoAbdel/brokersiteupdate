@@ -172,7 +172,7 @@ export default function HECMProsConsPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">At a Glance: Reverse Mortgage Pros vs Cons</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="font-semibold text-green-700 mb-2">✓ Key Advantages</h3>
+              <h3 className="font-semibold text-blue-700 mb-2">✓ Key Advantages</h3>
               <ul className="text-sm text-gray-700 space-y-1">
                 <li>• Tax-free proceeds</li>
                 <li>• No monthly mortgage payments</li>
@@ -268,8 +268,8 @@ export default function HECMProsConsPage() {
           This protection is unique to government-insured reverse mortgages.
         </p>
 
-        <div className="bg-green-50 border border-green-200 p-6 rounded-lg my-8 not-prose">
-          <h3 className="text-lg font-bold text-green-800 mb-3">Non-Recourse Example</h3>
+        <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8 not-prose">
+          <h3 className="text-lg font-bold text-slate-900 mb-3">Non-Recourse Example</h3>
           <p className="text-gray-700">
             <strong>Scenario:</strong> A borrower takes a HECM with a home valued at $500,000. After
             15 years, the loan balance has grown to $450,000, but the home's value has declined to
@@ -681,9 +681,9 @@ export default function HECMProsConsPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-xl mt-12 not-prose">
+        <div className="bg-slate-900 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Get a Personalized Reverse Mortgage Analysis</h3>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Every situation is unique. Let's discuss whether a HECM aligns with your retirement
             goals and explore how much you might qualify for based on your home and circumstances.
           </p>

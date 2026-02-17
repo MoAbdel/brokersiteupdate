@@ -25,9 +25,9 @@ export default function BankStatementLoansPage() {
         
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="bg-orange-100 text-orange-600 mb-4">Non-QM Specialty Program</Badge>
+          <Badge className="bg-slate-100 text-blue-600 mb-4">Non-QM Specialty Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-orange-600">Bank Statement Loans</span> in Orange County
+            <span className="text-blue-600">Bank Statement Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Self-employed or have non-traditional income? Qualify for your Orange County mortgage using 
@@ -35,12 +35,12 @@ export default function BankStatementLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Bank Statement Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-orange-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -61,21 +61,21 @@ export default function BankStatementLoansPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">No Tax Returns Required</h3>
                     <p className="text-slate-600">Use 12-24 months of personal or business bank statements</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">Higher Loan Amounts</h3>
                     <p className="text-slate-600">Up to $3M for qualified borrowers in Orange County</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">Investment Properties OK</h3>
                     <p className="text-slate-600">Purchase or refinance rental and investment properties</p>
@@ -84,7 +84,7 @@ export default function BankStatementLoansPage() {
               </div>
             </div>
             
-            <div className="bg-orange-50 p-6 rounded-lg">
+            <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Perfect For:</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Self-employed business owners</li>
@@ -107,8 +107,8 @@ export default function BankStatementLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-orange-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FileText className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">1. Provide Bank Statements</CardTitle>
               </CardHeader>
@@ -122,8 +122,8 @@ export default function BankStatementLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calculator className="w-8 h-8 text-orange-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Calculator className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">2. Income Calculation</CardTitle>
               </CardHeader>
@@ -137,8 +137,8 @@ export default function BankStatementLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-orange-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">3. Loan Approval</CardTitle>
               </CardHeader>
@@ -192,27 +192,27 @@ export default function BankStatementLoansPage() {
               <h3 className="text-xl font-bold text-slate-900 mb-4">Documentation Required</h3>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">12-24 months bank statements</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Credit report (soft pull initially)</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Asset verification</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Property appraisal</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Business license (if applicable)</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">P&L statement (may be required)</span>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export default function BankStatementLoansPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="border border-slate-200 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-orange-600 mb-4">Personal Bank Statements</h3>
+              <h3 className="text-xl font-bold text-blue-600 mb-4">Personal Bank Statements</h3>
               <p className="text-slate-700 mb-4">
                 For sole proprietors and single-member LLCs who deposit business income 
                 into personal accounts.
@@ -249,7 +249,7 @@ export default function BankStatementLoansPage() {
             </div>
 
             <div className="border border-slate-200 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-orange-600 mb-4">Business Bank Statements</h3>
+              <h3 className="text-xl font-bold text-blue-600 mb-4">Business Bank Statements</h3>
               <p className="text-slate-700 mb-4">
                 For businesses with separate business bank accounts and more complex 
                 income streams.
@@ -273,7 +273,7 @@ export default function BankStatementLoansPage() {
         </div>
 
         {/* Orange County Market */}
-        <div className="bg-orange-50 rounded-lg p-8 mb-12">
+        <div className="bg-slate-50 rounded-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">
             Bank Statement Loans in Orange County
           </h2>
@@ -320,19 +320,19 @@ export default function BankStatementLoansPage() {
                 <h4 className="font-bold text-slate-900 mb-3">Why Choose Bank Statement Loans?</h4>
                 <div className="space-y-2 text-slate-700">
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Faster approval than traditional loans</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>No need to wait for tax season</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Privacy of financial information</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Qualify with fluctuating income</span>
                   </div>
                 </div>
@@ -382,24 +382,24 @@ export default function BankStatementLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-orange-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Pre-Approved?</h2>
-          <p className="text-xl mb-6 text-orange-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get your bank statement loan pre-approval with an experienced Non-QM specialist
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start Your Application
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-orange-100 mt-4">
+          <p className="text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Non-QM Specialist
           </p>
         </div>

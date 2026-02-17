@@ -170,7 +170,7 @@ export default function ReverseMortgageDelMarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Del Mar</td><td className="py-2 px-4 border-b">$3.0M</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Excellent (Jumbo)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Del Mar</td><td className="py-2 px-4 border-b">$3.0M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Excellent (Jumbo)</td></tr>
               <tr><td className="py-2 px-4 border-b">Solana Beach</td><td className="py-2 px-4 border-b">$1.9M</td><td className="py-2 px-4 border-b">Excellent</td></tr>
               <tr><td className="py-2 px-4 border-b">La Jolla</td><td className="py-2 px-4 border-b">$2.8M</td><td className="py-2 px-4 border-b">Excellent (Jumbo)</td></tr>
               <tr><td className="py-2 px-4">Carmel Valley</td><td className="py-2 px-4">$1.5M</td><td className="py-2 px-4">Excellent</td></tr>

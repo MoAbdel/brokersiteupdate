@@ -163,11 +163,11 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b font-semibold text-green-700">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b font-semibold text-green-700">Built into process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
-              <tr><td className="py-2 px-4 border-b">Program Variety</td><td className="py-2 px-4 border-b font-semibold text-green-700">Extensive</td><td className="py-2 px-4 border-b">Limited</td></tr>
-              <tr><td className="py-2 px-4 border-b">Overhead Costs</td><td className="py-2 px-4 border-b font-semibold text-green-700">Lower</td><td className="py-2 px-4 border-b">Higher</td></tr>
-              <tr><td className="py-2 px-4">Relationship</td><td className="py-2 px-4 font-semibold text-green-700">Personal</td><td className="py-2 px-4">Corporate</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b font-semibold text-blue-700">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b font-semibold text-blue-700">Built into process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
+              <tr><td className="py-2 px-4 border-b">Program Variety</td><td className="py-2 px-4 border-b font-semibold text-blue-700">Extensive</td><td className="py-2 px-4 border-b">Limited</td></tr>
+              <tr><td className="py-2 px-4 border-b">Overhead Costs</td><td className="py-2 px-4 border-b font-semibold text-blue-700">Lower</td><td className="py-2 px-4 border-b">Higher</td></tr>
+              <tr><td className="py-2 px-4">Relationship</td><td className="py-2 px-4 font-semibold text-blue-700">Personal</td><td className="py-2 px-4">Corporate</td></tr>
             </tbody>
           </table>
         </div>
@@ -240,12 +240,12 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Automatic</td><td className="py-2 px-4 border-b">Impossible</td></tr>
-              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b">Self-Employed Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive</td><td className="py-2 px-4 border-b">Limited</td></tr>
-              <tr><td className="py-2 px-4 border-b">Jumbo Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td><td className="py-2 px-4 border-b">1 lender</td></tr>
-              <tr><td className="py-2 px-4 border-b">If Denied</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Try another lender</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
-              <tr><td className="py-2 px-4">Speed</td><td className="py-2 px-4 text-green-700 font-semibold">Often faster</td><td className="py-2 px-4">Can be slower</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Automatic</td><td className="py-2 px-4 border-b">Impossible</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b">Self-Employed Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive</td><td className="py-2 px-4 border-b">Limited</td></tr>
+              <tr><td className="py-2 px-4 border-b">Jumbo Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td><td className="py-2 px-4 border-b">1 lender</td></tr>
+              <tr><td className="py-2 px-4 border-b">If Denied</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
+              <tr><td className="py-2 px-4">Speed</td><td className="py-2 px-4 text-blue-700 font-semibold">Often faster</td><td className="py-2 px-4">Can be slower</td></tr>
             </tbody>
           </table>
         </div>

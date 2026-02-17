@@ -193,12 +193,12 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Definitive Orange County Mortgage Guide 2026
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto">
               Complete resource for Orange County home buyers and homeowners. Licensed broker guidance
               for FHA, VA, conventional, and jumbo loans in all OC cities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>
@@ -267,11 +267,11 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                     </div>
                     <div>
                       <span className="text-sm font-semibold text-slate-900">Credit Score</span>
-                      <p className="text-green-600 font-bold">{program.creditScore}</p>
+                      <p className="text-blue-600 font-bold">{program.creditScore}</p>
                     </div>
                     <div>
                       <span className="text-sm font-semibold text-slate-900">Max Amount</span>
-                      <p className="text-purple-600 font-bold">{program.maxAmount}</p>
+                      <p className="text-blue-600 font-bold">{program.maxAmount}</p>
                     </div>
                   </div>
                   <div>
@@ -279,7 +279,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                     <ul className="space-y-1">
                       {program.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-center text-sm text-slate-600">
-                          <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
+                          <CheckCircle className="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" />
                           {benefit}
                         </li>
                       ))}
@@ -314,7 +314,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                 <CardContent className="space-y-3">
                   <div>
                     <span className="text-sm font-semibold text-slate-900">Median Home Price</span>
-                    <p className="text-2xl font-bold text-green-600">{cityData.medianPrice}</p>
+                    <p className="text-2xl font-bold text-blue-600">{cityData.medianPrice}</p>
                   </div>
                   <div>
                     <span className="text-sm font-semibold text-slate-900">Market Type</span>
@@ -364,7 +364,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {factor.guidelines.map((guideline, idx) => (
                         <li key={idx} className="flex items-center text-slate-600">
-                          <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
+                          <CheckCircle className="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" />
                           {guideline}
                         </li>
                       ))}
@@ -374,7 +374,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {factor.requirements.map((requirement, idx) => (
                         <li key={idx} className="flex items-center text-slate-600">
-                          <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
+                          <CheckCircle className="w-4 h-4 text-blue-600 mr-2 flex-shrink-0" />
                           {requirement}
                         </li>
                       ))}
@@ -443,7 +443,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Get Expert Orange County Mortgage Guidance</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
             Licensed mortgage broker Mo Abdel (NMLS #1426884) provides comprehensive guidance for all Orange County mortgage needs.
             Access to 200+ wholesale lenders ensures Competitive pricing and program options.
           </p>
@@ -452,23 +452,23 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Direct Phone</span>
-              <span className="text-blue-100">(949) 822-9662</span>
+              <span className="text-slate-200">(949) 822-9662</span>
             </div>
             <div className="flex flex-col items-center">
               <Mail className="w-8 h-8 mb-2" />
               <span className="font-semibold">Email</span>
-              <span className="text-blue-100">mo@luminlending.com</span>
+              <span className="text-slate-200">mo@luminlending.com</span>
             </div>
             <div className="flex flex-col items-center">
               <MapPin className="w-8 h-8 mb-2" />
               <span className="font-semibold">Service Area</span>
-              <span className="text-blue-100">Orange County, CA</span>
+              <span className="text-slate-200">Orange County, CA</span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/calculator">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <Calculator className="w-5 h-5 mr-2" />
                 Calculate Mortgage Payment
               </Button>

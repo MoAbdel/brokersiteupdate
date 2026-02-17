@@ -186,7 +186,7 @@ export default function NewportCoastMortgageBrokerPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Newport Coast Ultra-Luxury Estate Financing
               </h1>
-              <p className="text-xl max-w-3xl mx-auto mb-8 text-blue-100">
+              <p className="text-xl max-w-3xl mx-auto mb-8 text-slate-200">
                 Orange County's most prestigious coastal address. Specialized financing for ocean view estates, resort-style living, and ultra-luxury properties from $3M to $20M+.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -396,7 +396,7 @@ export default function NewportCoastMortgageBrokerPage() {
                 Estate Pre-Approval
               </Button>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Ultra-luxury coastal financing specialist
             </p>
           </div>

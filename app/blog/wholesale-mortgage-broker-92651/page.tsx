@@ -232,12 +232,12 @@ export default function WholesaleMortgageBroker92651Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Second home pricing</td><td className="py-2 px-4 border-b">Often premium rates</td><td className="py-2 px-4 border-b text-green-700">Competitive second home lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Unique properties</td><td className="py-2 px-4 border-b">May struggle with valuation</td><td className="py-2 px-4 border-b text-green-700">Lenders for custom architecture</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-green-700">Multiple programs available</td></tr>
-              <tr><td className="py-2 px-4">Creative income</td><td className="py-2 px-4">Traditional docs only</td><td className="py-2 px-4 text-green-700">Flexible income verification</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Second home pricing</td><td className="py-2 px-4 border-b">Often premium rates</td><td className="py-2 px-4 border-b text-blue-700">Competitive second home lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Unique properties</td><td className="py-2 px-4 border-b">May struggle with valuation</td><td className="py-2 px-4 border-b text-blue-700">Lenders for custom architecture</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-blue-700">Multiple programs available</td></tr>
+              <tr><td className="py-2 px-4">Creative income</td><td className="py-2 px-4">Traditional docs only</td><td className="py-2 px-4 text-blue-700">Flexible income verification</td></tr>
             </tbody>
           </table>
         </div>

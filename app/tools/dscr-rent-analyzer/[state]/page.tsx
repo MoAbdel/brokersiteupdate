@@ -56,7 +56,7 @@ export default async function StatePage({ params }: Props) {
         </nav>
 
         <div className="text-center mb-10">
-          <Badge className="bg-purple-100 text-purple-700 mb-4">{counties.length} Counties</Badge>
+          <Badge className="bg-slate-100 text-blue-700 mb-4">{counties.length} Counties</Badge>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
             {stateName} DSCR Rent Analyzer by County
           </h1>
@@ -75,7 +75,7 @@ export default async function StatePage({ params }: Props) {
             >
               <Card className="hover:shadow-md hover:border-purple-300 transition-all h-full">
                 <CardContent className="p-5">
-                  <h2 className="font-semibold text-slate-900 group-hover:text-purple-600 transition-colors mb-2">
+                  <h2 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors mb-2">
                     {county.name}
                   </h2>
                   <dl className="grid grid-cols-2 gap-2 text-xs text-slate-500">

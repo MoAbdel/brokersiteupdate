@@ -206,12 +206,12 @@ export default function WholesaleMortgage92679CotoDeCazaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Gated Community</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Horse Property</td><td className="py-2 px-4 border-b">Case by case</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Experienced lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+ compete</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">If Declined</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-green-700 font-semibold">Pivot immediately</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Gated Community</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Horse Property</td><td className="py-2 px-4 border-b">Case by case</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Experienced lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ compete</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">If Declined</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Pivot immediately</td></tr>
             </tbody>
           </table>
         </div>

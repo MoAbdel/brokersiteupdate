@@ -9,32 +9,32 @@ import { MapPin, Star, TrendingUp, Shield } from 'lucide-react';
 const getColorClasses = (color: string) => {
   const colorMap: Record<string, { bg: string; bgLight: string; text: string; buttonBg: string; buttonHover: string }> = {
     green: {
-      bg: 'bg-green-100',
-      bgLight: 'bg-green-50',
-      text: 'text-green-600',
-      buttonBg: 'bg-green-600',
-      buttonHover: 'hover:bg-green-700',
+      bg: 'bg-slate-100',
+      bgLight: 'bg-slate-50',
+      text: 'text-blue-600',
+      buttonBg: 'bg-slate-900',
+      buttonHover: 'hover:bg-slate-800',
     },
     blue: {
       bg: 'bg-blue-100',
       bgLight: 'bg-blue-50',
       text: 'text-blue-600',
-      buttonBg: 'bg-blue-600',
-      buttonHover: 'hover:bg-blue-700',
+      buttonBg: 'bg-slate-900',
+      buttonHover: 'hover:bg-slate-800',
     },
     purple: {
-      bg: 'bg-purple-100',
-      bgLight: 'bg-purple-50',
-      text: 'text-purple-600',
-      buttonBg: 'bg-purple-600',
-      buttonHover: 'hover:bg-purple-700',
+      bg: 'bg-slate-100',
+      bgLight: 'bg-slate-50',
+      text: 'text-blue-600',
+      buttonBg: 'bg-slate-900',
+      buttonHover: 'hover:bg-slate-800',
     },
     orange: {
-      bg: 'bg-orange-100',
-      bgLight: 'bg-orange-50',
-      text: 'text-orange-600',
-      buttonBg: 'bg-orange-600',
-      buttonHover: 'hover:bg-orange-700',
+      bg: 'bg-slate-100',
+      bgLight: 'bg-slate-50',
+      text: 'text-blue-600',
+      buttonBg: 'bg-slate-900',
+      buttonHover: 'hover:bg-slate-800',
     },
   };
   return colorMap[color] || colorMap.blue;
@@ -164,7 +164,7 @@ export default function OCNeighborhoodsGuide() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                 Get Neighborhood-Specific Rates
               </Button>
             </Link>
@@ -200,7 +200,7 @@ export default function OCNeighborhoodsGuide() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-600">Schools:</span>
-                  <span className="font-semibold text-green-600">{neighborhood.schoolRating}</span>
+                  <span className="font-semibold text-blue-600">{neighborhood.schoolRating}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-600">LA Commute:</span>
@@ -285,11 +285,11 @@ export default function OCNeighborhoodsGuide() {
                   <td className="py-3 px-2 font-semibold text-slate-900">{neighborhood.name}</td>
                   <td className="py-3 px-2 text-center">{neighborhood.medianPrice}</td>
                   <td className="py-3 px-2 text-center">{neighborhood.pricePerSqFt}</td>
-                  <td className="py-3 px-2 text-center text-green-600 font-semibold">{neighborhood.schoolRating}</td>
+                  <td className="py-3 px-2 text-center text-blue-600 font-semibold">{neighborhood.schoolRating}</td>
                   <td className="py-3 px-2 text-center">{neighborhood.commuteLA}</td>
                   <td className="py-3 px-2 text-center">
-                    <Badge className={neighborhood.crimeRating === 'Very High' ? 'bg-green-100 text-green-600' : 
-                                   neighborhood.crimeRating === 'High' ? 'bg-yellow-100 text-yellow-600' : 'bg-orange-100 text-orange-600'}>
+                    <Badge className={neighborhood.crimeRating === 'Very High' ? 'bg-slate-100 text-blue-600' : 
+                                   neighborhood.crimeRating === 'High' ? 'bg-yellow-100 text-yellow-600' : 'bg-slate-100 text-blue-600'}>
                       {neighborhood.crimeRating}
                     </Badge>
                   </td>
@@ -300,14 +300,14 @@ export default function OCNeighborhoodsGuide() {
         </div>
 
         {/* Mortgage Considerations by Price Range */}
-        <div className="bg-blue-600 text-white rounded-lg p-8 mb-12">
+        <div className="bg-slate-900 text-white rounded-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center mb-8">Mortgage Options by Price Range</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            <div className="bg-blue-700 rounded-lg p-6">
+            <div className="bg-slate-800 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Entry Level ($800K-$1.26M)</h3>
-              <p className="text-blue-100 mb-3">Costa Mesa, Parts of Huntington Beach</p>
-              <ul className="space-y-2 text-blue-100">
+              <p className="text-slate-200 mb-3">Costa Mesa, Parts of Huntington Beach</p>
+              <ul className="space-y-2 text-slate-200">
                 <li>• Conventional loans available</li>
                 <li>• FHA possible in some areas</li>
                 <li>• 5-10% down payment options</li>
@@ -315,10 +315,10 @@ export default function OCNeighborhoodsGuide() {
               </ul>
             </div>
 
-            <div className="bg-blue-700 rounded-lg p-6">
+            <div className="bg-slate-800 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Mid-Range ($1.26M-$2M)</h3>
-              <p className="text-blue-100 mb-3">Irvine, Mission Viejo, Huntington Beach</p>
-              <ul className="space-y-2 text-blue-100">
+              <p className="text-slate-200 mb-3">Irvine, Mission Viejo, Huntington Beach</p>
+              <ul className="space-y-2 text-slate-200">
                 <li>• Jumbo loans required</li>
                 <li>• 10-20% down typical</li>
                 <li>• Portfolio loan options</li>
@@ -326,10 +326,10 @@ export default function OCNeighborhoodsGuide() {
               </ul>
             </div>
 
-            <div className="bg-blue-700 rounded-lg p-6">
+            <div className="bg-slate-800 rounded-lg p-6">
               <h3 className="text-xl font-semibold mb-4">Luxury ($2M+)</h3>
-              <p className="text-blue-100 mb-3">Newport Beach, Laguna Beach</p>
-              <ul className="space-y-2 text-blue-100">
+              <p className="text-slate-200 mb-3">Newport Beach, Laguna Beach</p>
+              <ul className="space-y-2 text-slate-200">
                 <li>• Super jumbo specialists</li>
                 <li>• 20-30% down required</li>
                 <li>• Bank statement programs</li>
@@ -345,16 +345,16 @@ export default function OCNeighborhoodsGuide() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Trending Up</h3>
+              <h3 className="text-xl font-semibold mb-4 text-blue-600">Trending Up</h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <TrendingUp className="w-5 h-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <TrendingUp className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                   <div>
                     <strong>Irvine:</strong> New Great Park developments driving demand
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <TrendingUp className="w-5 h-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <TrendingUp className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                   <div>
                     <strong>Costa Mesa:</strong> Arts district gentrification accelerating
                   </div>
@@ -383,24 +383,24 @@ export default function OCNeighborhoodsGuide() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Find Your Perfect Orange County Neighborhood</h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized recommendations and mortgage pre-approval based on your budget, lifestyle, and goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
                 Start Neighborhood Analysis
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call Mo: (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-blue-100">
+          <p className="text-slate-200">
             Local Orange County Expert | NMLS #1426884 | 200+ Lender Network
           </p>
         </div>

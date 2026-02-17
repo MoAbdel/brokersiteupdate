@@ -273,13 +273,13 @@ export default function OrangeCountyRefinancingGuide() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Orange County Refinancing Guide 2026
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-green-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed">
               Comprehensive guide to refinancing your Orange County home. Explore rate-and-term refinancing,
               cash-out options, HELOCs, and HELOANs with expert insights from mortgage broker Mo Abdel, NMLS #1426884.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold">
                   Check Refinance Rates
                 </Button>
               </Link>
@@ -307,7 +307,7 @@ export default function OrangeCountyRefinancingGuide() {
               <Card key={index} className="text-center shadow-lg border-0">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">{insight.metric}</h3>
-                  <div className="text-3xl font-bold text-green-600 mb-1">{insight.value}</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-1">{insight.value}</div>
                   <div className="text-sm text-blue-600 font-medium mb-2">{insight.change}</div>
                   <p className="text-xs text-slate-600">{insight.insight}</p>
                 </CardContent>
@@ -336,7 +336,7 @@ export default function OrangeCountyRefinancingGuide() {
                 <CardContent className="p-6">
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="text-xl font-semibold text-slate-900">{option.type}</h3>
-                    <Badge className="bg-green-100 text-green-800">{option.timeframe}</Badge>
+                    <Badge className="bg-slate-100 text-slate-900">{option.timeframe}</Badge>
                   </div>
                   <p className="text-slate-600 mb-4">{option.description}</p>
                   <div className="space-y-2 mb-4">
@@ -381,11 +381,11 @@ export default function OrangeCountyRefinancingGuide() {
               const IconComponent = scenario.icon;
               const colorClasses: Record<string, string> = {
                 blue: 'bg-blue-100 text-blue-600',
-                green: 'bg-green-100 text-green-600',
-                purple: 'bg-purple-100 text-purple-600',
-                orange: 'bg-orange-100 text-orange-600',
+                green: 'bg-slate-100 text-blue-600',
+                purple: 'bg-slate-100 text-blue-600',
+                orange: 'bg-slate-100 text-blue-600',
                 red: 'bg-red-100 text-red-600',
-                indigo: 'bg-indigo-100 text-indigo-600'
+                indigo: 'bg-slate-100 text-blue-600'
               };
 
               return (
@@ -426,7 +426,7 @@ export default function OrangeCountyRefinancingGuide() {
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">{step.title}</h3>
                   <p className="text-slate-600 mb-4">{step.description}</p>
                   <div className="flex justify-between items-center text-sm">
-                    <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full">{step.timeframe}</span>
+                    <span className="bg-slate-100 text-slate-900 px-3 py-1 rounded-full">{step.timeframe}</span>
                     <span className="text-slate-500">{step.action}</span>
                   </div>
                 </CardContent>
@@ -527,7 +527,7 @@ export default function OrangeCountyRefinancingGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <Home className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <Home className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">HELOC Options</h3>
                 <p className="text-slate-600 mb-4">Explore home equity lines</p>
                 <Link href="/heloc-orange-county">
@@ -538,7 +538,7 @@ export default function OrangeCountyRefinancingGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <PiggyBank className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+                <PiggyBank className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">HELOAN Guide</h3>
                 <p className="text-slate-600 mb-4">Fixed-rate equity loans</p>
                 <Link href="/heloan-orange-county">
@@ -549,7 +549,7 @@ export default function OrangeCountyRefinancingGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <FileText className="w-12 h-12 text-orange-600 mx-auto mb-4" />
+                <FileText className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Freddie Mac</h3>
                 <p className="text-slate-600 mb-4">Official rate information</p>
                 <a href="https://www.freddiemac.com/pmms/" target="_blank" rel="noopener noreferrer">
@@ -567,13 +567,13 @@ export default function OrangeCountyRefinancingGuide() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Refinance Your Orange County Home?
           </h2>
-          <p className="text-xl mb-8 text-green-100">
+          <p className="text-xl mb-8 text-slate-200">
             Get personalized refinancing advice and Competitive pricing from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884.
             Access 200+ lenders for the best terms on rate-and-term refinancing, cash-out refinancing, HELOCs, and HELOANs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold">
                 Get Refinance Quote
               </Button>
             </Link>

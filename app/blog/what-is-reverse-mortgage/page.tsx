@@ -437,7 +437,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">Monthly Payments</td>
-                <td className="px-4 py-3 border-b font-semibold text-green-700">None required</td>
+                <td className="px-4 py-3 border-b font-semibold text-blue-700">None required</td>
                 <td className="px-4 py-3 border-b">Required</td>
                 <td className="px-4 py-3 border-b">Required</td>
               </tr>
@@ -449,7 +449,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">Credit Line Growth</td>
-                <td className="px-4 py-3 border-b font-semibold text-green-700">Yes (unused portion grows)</td>
+                <td className="px-4 py-3 border-b font-semibold text-blue-700">Yes (unused portion grows)</td>
                 <td className="px-4 py-3 border-b">No</td>
                 <td className="px-4 py-3 border-b">N/A (lump sum)</td>
               </tr>
@@ -467,7 +467,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">Credit Line Security</td>
-                <td className="px-4 py-3 border-b font-semibold text-green-700">Cannot be frozen</td>
+                <td className="px-4 py-3 border-b font-semibold text-blue-700">Cannot be frozen</td>
                 <td className="px-4 py-3 border-b">Can be frozen or reduced</td>
                 <td className="px-4 py-3 border-b">N/A</td>
               </tr>
@@ -479,7 +479,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium">Non-Recourse Protection</td>
-                <td className="px-4 py-3 font-semibold text-green-700">Yes (FHA insured)</td>
+                <td className="px-4 py-3 font-semibold text-blue-700">Yes (FHA insured)</td>
                 <td className="px-4 py-3">No</td>
                 <td className="px-4 py-3">No</td>
               </tr>
@@ -673,7 +673,7 @@ export default function WhatIsReverseMortgagePage() {
         </div>
 
         {/* EXPERT SUMMARY + CTA */}
-        <div className="expert-summary bg-green-50 p-6 rounded-xl border border-green-200 mt-10">
+        <div className="expert-summary bg-slate-50 p-6 rounded-xl border border-slate-200 mt-10">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Explore Your Reverse Mortgage Options?</h2>
 
           <p className="text-lg text-gray-800 mb-4">
@@ -685,7 +685,7 @@ export default function WhatIsReverseMortgagePage() {
           </p>
 
           <p className="text-lg font-semibold text-gray-900">
-            <strong>Contact Mo Abdel today</strong> for a personalized reverse mortgage assessment. We will review your eligibility, calculate your potential proceeds, and compare all your options—including alternatives that might better fit your situation. Call <a href="tel:+19498229662" className="text-green-700 hover:text-green-900">(949) 822-9662</a> or <Link href="/contact" className="text-green-700 hover:text-green-900">request a consultation online</Link>.
+            <strong>Contact Mo Abdel today</strong> for a personalized reverse mortgage assessment. We will review your eligibility, calculate your potential proceeds, and compare all your options—including alternatives that might better fit your situation. Call <a href="tel:+19498229662" className="text-blue-700 hover:text-green-900">(949) 822-9662</a> or <Link href="/contact" className="text-blue-700 hover:text-green-900">request a consultation online</Link>.
           </p>
         </div>
 

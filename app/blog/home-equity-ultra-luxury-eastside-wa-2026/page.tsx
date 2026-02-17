@@ -737,7 +737,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
           <hr className="my-10" />
 
           {/* ---- Expert Summary + CTA ---- */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Ultra-Luxury Eastside Home Equity 2026</h2>
             <p className="mb-4">
               The ultra-luxury Eastside corridor from Medina through Beaux Arts Village represents the most complex home equity market in the Pacific Northwest. LLC and trust ownership, limited comparable sales, waterfront appraisal challenges, and credit line requirements exceeding $1 million create a financing environment where retail bank programs consistently fall short. The homeowners in these communities have the assets, income, and equity to qualify for substantial credit lines&mdash;the challenge is matching them with the 3-5 lenders (out of 200+) designed for their specific property type, ownership structure, and financial profile.

@@ -28,7 +28,7 @@ export function LeadMagnetCTA(props: {
           </div>
           <div className="shrink-0">
             <Link href={href}>
-              <Button className="bg-blue-600 hover:bg-blue-700">
+              <Button className="bg-slate-900 hover:bg-slate-800">
                 {ctaText}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>

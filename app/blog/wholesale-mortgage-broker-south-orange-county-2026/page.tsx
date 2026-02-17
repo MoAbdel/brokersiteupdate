@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker South Orange County: Dana Point, Laguna, San Clemente [2026]',
@@ -135,22 +136,22 @@ export default function WholesaleMortgageBrokerSouthOC() {
                 <tr>
                   <td className="px-4 py-3 border-t">Jumbo options</td>
                   <td className="px-4 py-3 border-t">1-2 products</td>
-                  <td className="px-4 py-3 border-t text-green-700">20+ jumbo lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">20+ jumbo lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Rental income qualification</td>
                   <td className="px-4 py-3 border-t">Limited/none</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple programs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Self-employed programs</td>
                   <td className="px-4 py-3 border-t">Strict documentation</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement, P&L options</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&L options</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Second home rates</td>
                   <td className="px-4 py-3 border-t">Premium pricing</td>
-                  <td className="px-4 py-3 border-t text-green-700">Competitive through volume</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Competitive through volume</td>
                 </tr>
               </tbody>
             </table>
@@ -189,7 +190,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Dana Point Financing Insight</h4>
             <p className="mb-0">Dana Point&apos;s vacation rental market is significant—harbor-area properties can generate $4,000-$8,000/month in peak season. Wholesale brokers access lenders who count 75% of documented rental income for qualification, potentially adding $200,000+ to your purchasing power.</p>
           </div>
@@ -369,7 +370,10 @@ export default function WholesaleMortgageBrokerSouthOC() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free rate quote:</p>
-            <p className="text-lg">📞 (949) 822-9662</p>
+            <p className="text-lg inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

@@ -25,7 +25,7 @@ interface QuizData {
 const Progress = ({ value }: { value: number }) => (
   <div className="w-full bg-gray-200 rounded-full h-2">
     <div
-      className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+      className="bg-slate-900 h-2 rounded-full transition-all duration-300"
       style={{ width: `${value}%` }}
     />
   </div>
@@ -564,7 +564,7 @@ export default function MortgageQuiz() {
               <Button
                 onClick={handleNext}
                 disabled={!isStepValid()}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6"
+                className="bg-slate-900 hover:bg-slate-800 text-white px-6"
               >
                 {step === 4 ? 'Get My Options' : 'Next'}
                 <ArrowRight className="w-4 h-4 ml-2" />

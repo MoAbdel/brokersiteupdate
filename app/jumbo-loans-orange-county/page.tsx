@@ -105,8 +105,9 @@ export default function JumboLoansOrangeCountyPage() {
           {/* Header */}
           <section aria-label="Jumbo loans hero">
             <div className="text-center mb-12">
-              <div className="inline-flex items-center bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                🏰 Luxury Home Financing
+              <div className="inline-flex items-center bg-slate-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <Award className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
+                <span>Luxury Home Financing</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
                 Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
@@ -117,7 +118,7 @@ export default function JumboLoansOrangeCountyPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Apply for a jumbo loan">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Apply for a jumbo loan">
                     Apply for Jumbo Loan
                   </Button>
                 </Link>
@@ -141,17 +142,17 @@ export default function JumboLoansOrangeCountyPage() {
                   <div className="text-sm text-slate-500 mt-1">Maximum conventional loan</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">$1,249,126+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,249,126+</div>
                   <div className="text-slate-600">Jumbo Loan Territory</div>
                   <div className="text-sm text-slate-500 mt-1">Above conforming limits</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-600 mb-2">No Limit</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">No Limit</div>
                   <div className="text-slate-600">Maximum Loan Amount</div>
                   <div className="text-sm text-slate-500 mt-1">Based on qualification</div>
                 </div>
               </div>
-              <div className="bg-purple-50 p-6 rounded-lg">
+              <div className="bg-slate-50 p-6 rounded-lg">
                 <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Finance luxury homes throughout Orange County without borrowing restrictions</li>
@@ -174,7 +175,7 @@ export default function JumboLoansOrangeCountyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <Building className="w-12 h-12 text-purple-600 mb-4" aria-hidden="true" />
+                  <Building className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Luxury Home Access</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -200,7 +201,7 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <Shield className="w-12 h-12 text-green-600 mb-4" aria-hidden="true" />
+                  <Shield className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Flexible Terms</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -213,7 +214,7 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <DollarSign className="w-12 h-12 text-orange-600 mb-4" aria-hidden="true" />
+                  <DollarSign className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Low Down Payment Options</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -226,7 +227,7 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <TrendingUp className="w-12 h-12 text-indigo-600 mb-4" aria-hidden="true" />
+                  <TrendingUp className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Portfolio Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -268,38 +269,38 @@ export default function JumboLoansOrangeCountyPage() {
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Orange County 2026 Limits</td>
-                    <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,249,126 - $3M</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,126 - $3M</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,249,125</td>
                     <td className="px-6 py-4 text-center text-pink-600 font-bold">$3M+</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Minimum Down Payment</td>
-                    <td className="px-6 py-4 text-center text-green-600">10% - 20%</td>
+                    <td className="px-6 py-4 text-center text-blue-600">10% - 20%</td>
                     <td className="px-6 py-4 text-center text-blue-600">3% - 20%</td>
-                    <td className="px-6 py-4 text-center text-orange-600">20% - 30%</td>
+                    <td className="px-6 py-4 text-center text-blue-600">20% - 30%</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Private Mortgage Insurance</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-bold">Not Available</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Not Available</td>
                     <td className="px-6 py-4 text-center text-red-600">Required if &lt; 20% down</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-bold">Not Available</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Not Available</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Credit Score Requirement</td>
                     <td className="px-6 py-4 text-center text-yellow-600">700+ preferred</td>
-                    <td className="px-6 py-4 text-center text-green-600">620+</td>
+                    <td className="px-6 py-4 text-center text-blue-600">620+</td>
                     <td className="px-6 py-4 text-center text-red-600">740+</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Debt-to-Income Ratio</td>
                     <td className="px-6 py-4 text-center text-blue-600">50% max (flexible)</td>
-                    <td className="px-6 py-4 text-center text-green-600">Up to 50%</td>
+                    <td className="px-6 py-4 text-center text-blue-600">Up to 50%</td>
                     <td className="px-6 py-4 text-center text-yellow-600">36% preferred</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Cash Reserves Required</td>
                     <td className="px-6 py-4 text-center text-yellow-600">2-6 months</td>
-                    <td className="px-6 py-4 text-center text-green-600">0-2 months</td>
+                    <td className="px-6 py-4 text-center text-blue-600">0-2 months</td>
                     <td className="px-6 py-4 text-center text-red-600">6-12 months</td>
                   </tr>
                 </tbody>
@@ -319,35 +320,35 @@ export default function JumboLoansOrangeCountyPage() {
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-purple-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Newport Beach</div>
                       <p className="text-slate-600">Waterfront estates, luxury condos, and premium properties. Median home prices $3M+</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-purple-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Irvine</div>
                       <p className="text-slate-600">Luxury master-planned communities, new construction homes $1.5M - $4M+</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-purple-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Laguna Beach</div>
                       <p className="text-slate-600">Ocean-view estates, artistic community homes, unique luxury properties</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-purple-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Manhattan Beach Border</div>
                       <p className="text-slate-600">Luxury beachside communities, high-end family homes and estates</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <CheckCircle className="w-6 h-6 text-purple-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Yorba Linda & Villa Park</div>
                       <p className="text-slate-600">Executive homes, gated communities, luxury custom-built properties</p>
@@ -356,12 +357,12 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 p-8 rounded-2xl">
+              <div className="bg-slate-50 p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Jumbo Loan Qualification Requirements</h3>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center justify-between">
                     <span className="text-slate-700">Minimum Loan Amount:</span>
-                    <span className="font-bold text-purple-600">$1,249,126</span>
+                    <span className="font-bold text-blue-600">$1,249,126</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-slate-700">Typical Down Payment:</span>
@@ -369,7 +370,7 @@ export default function JumboLoansOrangeCountyPage() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-slate-700">Credit Score:</span>
-                    <span className="font-bold text-green-600">700+ Preferred</span>
+                    <span className="font-bold text-blue-600">700+ Preferred</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-slate-700">Debt-to-Income:</span>
@@ -396,7 +397,7 @@ export default function JumboLoansOrangeCountyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <Home className="w-10 h-10 text-purple-600 mb-4" aria-hidden="true" />
+                  <Home className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Jumbo Purchase Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -434,7 +435,7 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <Calculator className="w-10 h-10 text-green-600 mb-4" aria-hidden="true" />
+                  <Calculator className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Interest-Only Jumbo Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -453,7 +454,7 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
-                  <Building className="w-10 h-10 text-orange-600 mb-4" aria-hidden="true" />
+                  <Building className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                   <CardTitle className="text-xl">Portfolio Jumbo Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -478,8 +479,8 @@ export default function JumboLoansOrangeCountyPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-purple-600 font-bold text-xl">1</span>
+                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-blue-600 font-bold text-xl">1</span>
                   </div>
                   <CardTitle>Pre-Qualification Assessment</CardTitle>
                 </CardHeader>
@@ -490,8 +491,8 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-purple-600 font-bold text-xl">2</span>
+                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-blue-600 font-bold text-xl">2</span>
                   </div>
                   <CardTitle>Documentation & Pre-Approval</CardTitle>
                 </CardHeader>
@@ -502,8 +503,8 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-purple-600 font-bold text-xl">3</span>
+                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-blue-600 font-bold text-xl">3</span>
                   </div>
                   <CardTitle>Property Selection & Appraisal</CardTitle>
                 </CardHeader>
@@ -514,8 +515,8 @@ export default function JumboLoansOrangeCountyPage() {
 
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-purple-600 font-bold text-xl">4</span>
+                  <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-blue-600 font-bold text-xl">4</span>
                   </div>
                   <CardTitle>Underwriting & Closing</CardTitle>
                 </CardHeader>
@@ -533,7 +534,7 @@ export default function JumboLoansOrangeCountyPage() {
               <Link href="/va-loans-orange-county" className="group">
                 <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                   <CardHeader className="text-center">
-                    <Shield className="w-8 h-8 text-green-600 mx-auto mb-2" aria-hidden="true" />
+                    <Shield className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                     <CardTitle className="text-lg group-hover:text-blue-600">VA Loans</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -561,7 +562,7 @@ export default function JumboLoansOrangeCountyPage() {
               <Link href="/heloc-orange-county" className="group">
                 <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                   <CardHeader className="text-center">
-                    <DollarSign className="w-8 h-8 text-purple-600 mx-auto mb-2" aria-hidden="true" />
+                    <DollarSign className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                     <CardTitle className="text-lg group-hover:text-blue-600">HELOC</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -575,7 +576,7 @@ export default function JumboLoansOrangeCountyPage() {
               <Link href="/cash-out-refinance" className="group">
                 <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                   <CardHeader className="text-center">
-                    <Calculator className="w-8 h-8 text-orange-600 mx-auto mb-2" aria-hidden="true" />
+                    <Calculator className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                     <CardTitle className="text-lg group-hover:text-blue-600">Cash-Out Refi</CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -608,27 +609,27 @@ export default function JumboLoansOrangeCountyPage() {
           </section>
 
           {/* CTA Section */}
-          <section aria-label="Get started with jumbo loan financing" className="text-center bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 text-white">
+          <section aria-label="Get started with jumbo loan financing" className="text-center bg-slate-900 rounded-2xl p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Finance Your Orange County Luxury Home?
             </h2>
-            <p className="text-xl mb-6 text-purple-100" data-speakable="true">
+            <p className="text-xl mb-6 text-slate-200" data-speakable="true">
               Unlock luxury homeownership with competitive jumbo loan financing. Get started with Mo Abdel,
               your trusted Orange County jumbo loan specialist.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button className="bg-white text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg font-semibold" aria-label="Apply for jumbo loan financing">
+                <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold" aria-label="Apply for jumbo loan financing">
                   Apply for Jumbo Loan
                 </Button>
               </Link>
               <a href="tel:+19498229662">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg" aria-label="Call jumbo loan expert at (949) 822-9662">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Call jumbo loan expert at (949) 822-9662">
                   Call Jumbo Expert: (949) 822-9662
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-purple-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Specializing in Orange County luxury home financing
             </p>
           </section>

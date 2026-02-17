@@ -242,11 +242,11 @@ export default function HomeEquityCentralCoastGuide2026() {
               <tr><td className="py-2 px-4 border-b font-semibold">Rate Type</td><td className="py-2 px-4 border-b">Variable (Prime + margin)</td><td className="py-2 px-4 border-b">Fixed</td><td className="py-2 px-4 border-b">Fixed or Adjustable</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Feb 2026 Rate Range</td><td className="py-2 px-4 border-b">6.75%&ndash;9.50%</td><td className="py-2 px-4 border-b">7.00%&ndash;9.75%</td><td className="py-2 px-4 border-b">6.25%&ndash;7.75%</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Disbursement</td><td className="py-2 px-4 border-b">Revolving credit line</td><td className="py-2 px-4 border-b">Lump sum at closing</td><td className="py-2 px-4 border-b">Lump sum at closing</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Replaces First Mortgage?</td><td className="py-2 px-4 border-b">No (second lien)</td><td className="py-2 px-4 border-b">No (second lien)</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (new first mortgage)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Replaces First Mortgage?</td><td className="py-2 px-4 border-b">No (second lien)</td><td className="py-2 px-4 border-b">No (second lien)</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (new first mortgage)</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Max CLTV (Primary)</td><td className="py-2 px-4 border-b">90%</td><td className="py-2 px-4 border-b">85%&ndash;90%</td><td className="py-2 px-4 border-b">80%&ndash;85%</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Closing Costs</td><td className="py-2 px-4 border-b">$0&ndash;$2,000</td><td className="py-2 px-4 border-b">$2,000&ndash;$5,000</td><td className="py-2 px-4 border-b">$5,000&ndash;$15,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Closing Timeline</td><td className="py-2 px-4 border-b">21&ndash;30 days</td><td className="py-2 px-4 border-b">25&ndash;35 days</td><td className="py-2 px-4 border-b">30&ndash;45 days</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Best For</td><td className="py-2 px-4 text-green-700 font-semibold">Ongoing draws, flexibility</td><td className="py-2 px-4 text-green-700 font-semibold">Known amount, rate certainty</td><td className="py-2 px-4 text-green-700 font-semibold">Large amount, lower rate</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Best For</td><td className="py-2 px-4 text-blue-700 font-semibold">Ongoing draws, flexibility</td><td className="py-2 px-4 text-blue-700 font-semibold">Known amount, rate certainty</td><td className="py-2 px-4 text-blue-700 font-semibold">Large amount, lower rate</td></tr>
             </tbody>
           </table>
         </div>
@@ -274,13 +274,13 @@ export default function HomeEquityCentralCoastGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Montecito</td><td className="py-2 px-4 border-b font-semibold">$8,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$5,600,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$6,450,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Carpinteria</td><td className="py-2 px-4 border-b font-semibold">$2,500,000</td><td className="py-2 px-4 border-b">$420,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$1,580,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$1,830,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Santa Barbara</td><td className="py-2 px-4 border-b font-semibold">$2,300,000</td><td className="py-2 px-4 border-b">$380,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$1,460,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$1,690,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">San Luis Obispo</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$250,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$550,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$650,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Pismo Beach</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$220,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$580,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$680,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Cambria</td><td className="py-2 px-4 border-b font-semibold">$900,000</td><td className="py-2 px-4 border-b">$180,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$540,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$630,000</td></tr>
-              <tr><td className="py-2 px-4">Paso Robles</td><td className="py-2 px-4 font-semibold">$800,000</td><td className="py-2 px-4">$200,000</td><td className="py-2 px-4 text-green-700 font-semibold">$440,000</td><td className="py-2 px-4 text-green-700 font-semibold">$520,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Montecito</td><td className="py-2 px-4 border-b font-semibold">$8,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$5,600,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$6,450,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Carpinteria</td><td className="py-2 px-4 border-b font-semibold">$2,500,000</td><td className="py-2 px-4 border-b">$420,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,580,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,830,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Santa Barbara</td><td className="py-2 px-4 border-b font-semibold">$2,300,000</td><td className="py-2 px-4 border-b">$380,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,460,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,690,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">San Luis Obispo</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$250,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$550,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$650,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Pismo Beach</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$220,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$580,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$680,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Cambria</td><td className="py-2 px-4 border-b font-semibold">$900,000</td><td className="py-2 px-4 border-b">$180,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$540,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$630,000</td></tr>
+              <tr><td className="py-2 px-4">Paso Robles</td><td className="py-2 px-4 font-semibold">$800,000</td><td className="py-2 px-4">$200,000</td><td className="py-2 px-4 text-blue-700 font-semibold">$440,000</td><td className="py-2 px-4 text-blue-700 font-semibold">$520,000</td></tr>
             </tbody>
           </table>
         </div>
@@ -479,7 +479,7 @@ export default function HomeEquityCentralCoastGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Get Your Free Central Coast Home Equity Rate Quote</h2>
           <p className="text-gray-700">
             Central Coast homeowners from Montecito to Paso Robles hold $48 billion in accessible equity. Whether you need a $100,000 HELOC for renovations or a $3 million cash-out refinance on a Santa Barbara estate, Mo Abdel&apos;s wholesale access to 200+ lenders delivers the lowest rates and fees available in 2026.

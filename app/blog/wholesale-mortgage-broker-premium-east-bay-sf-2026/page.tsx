@@ -322,43 +322,43 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Lender Access</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Rate Shopping</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Automatic &mdash; broker shops for you</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops for you</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must apply at multiple banks</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must compare multiple sites</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">TIC Financing</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Access to TIC specialists (group &amp; fractional)</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Access to TIC specialists (group &amp; fractional)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Most banks decline TIC entirely</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Rarely available online</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Condo Conversion</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Mid-conversion &amp; post-conversion lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Mid-conversion &amp; post-conversion lenders</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Requires completed conversion</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Requires completed conversion</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Super-Jumbo ($2M+)</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Full access to $10M+ programs</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Full access to $10M+ programs</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Limited to bank&apos;s portfolio max</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Rarely available above $2M</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Pricing Model</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Wholesale (no retail markup)</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Wholesale (no retail markup)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Retail (includes branch/overhead costs)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Direct (lower overhead, limited products)</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Self-Employed Solutions</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Bank statement, asset depletion, DSCR</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Bank statement, asset depletion, DSCR</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Tax returns only (usually)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Limited alternative doc programs</td>
                 </tr>
@@ -705,7 +705,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
                   <td className="px-4 py-3 text-sm font-medium">San Francisco</td>
                   <td className="px-4 py-3 text-sm">$1,420,000</td>
                   <td className="px-4 py-3 text-sm">$1,500,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+5.6%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+5.6%</td>
                   <td className="px-4 py-3 text-sm">28</td>
                   <td className="px-4 py-3 text-sm">82%</td>
                 </tr>
@@ -713,7 +713,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
                   <td className="px-4 py-3 text-sm font-medium">Piedmont</td>
                   <td className="px-4 py-3 text-sm">$2,350,000</td>
                   <td className="px-4 py-3 text-sm">$2,500,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+6.4%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+6.4%</td>
                   <td className="px-4 py-3 text-sm">14</td>
                   <td className="px-4 py-3 text-sm">98%</td>
                 </tr>
@@ -721,7 +721,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
                   <td className="px-4 py-3 text-sm font-medium">Orinda</td>
                   <td className="px-4 py-3 text-sm">$1,850,000</td>
                   <td className="px-4 py-3 text-sm">$2,000,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+8.1%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+8.1%</td>
                   <td className="px-4 py-3 text-sm">18</td>
                   <td className="px-4 py-3 text-sm">95%</td>
                 </tr>
@@ -729,7 +729,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
                   <td className="px-4 py-3 text-sm font-medium">Lafayette</td>
                   <td className="px-4 py-3 text-sm">$1,780,000</td>
                   <td className="px-4 py-3 text-sm">$2,000,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+12.4%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+12.4%</td>
                   <td className="px-4 py-3 text-sm">16</td>
                   <td className="px-4 py-3 text-sm">93%</td>
                 </tr>
@@ -737,7 +737,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
                   <td className="px-4 py-3 text-sm font-medium">Moraga</td>
                   <td className="px-4 py-3 text-sm">$1,650,000</td>
                   <td className="px-4 py-3 text-sm">$1,800,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+9.1%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+9.1%</td>
                   <td className="px-4 py-3 text-sm">22</td>
                   <td className="px-4 py-3 text-sm">89%</td>
                 </tr>
@@ -885,16 +885,16 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </p>
 
           {/* ========== SECTION 16: EXPERT SUMMARY ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker in Premium East Bay &amp; San Francisco</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The premium East Bay and San Francisco corridor averages $1.96M in median home values across five cities with radically different property types and buyer profiles. San Francisco&apos;s TIC/condo conversion market, Piedmont&apos;s estate-level SFR enclave, Orinda&apos;s BART corridor estates, Lafayette&apos;s school-premium family market, and Moraga&apos;s retirement-focused country club community each require specialized lender matching that no single retail bank provides. Wholesale broker access to 200+ lenders &mdash; including TIC specialists, super-jumbo lenders, bank statement programs, asset depletion qualification, and DSCR investment products &mdash; creates the competitive environment that produces better rates, higher qualification amounts, and faster closings for every transaction type in this corridor.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The core value: lender matching based on property type and borrower profile. A TIC buyer in the Mission needs a fundamentally different lender than a Piedmont estate purchaser, and both need a different lender than a Moraga retiree using asset depletion or a San Francisco investor using DSCR financing. Wholesale access provides the product breadth and rate competition that transforms complex financing scenarios into closed transactions at optimal pricing.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I deliver 200+ lender competition, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free scenario analysis and pre-approval.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I deliver 200+ lender competition, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free scenario analysis and pre-approval.
             </p>
           </div>
 

@@ -209,51 +209,51 @@ export default function WholesaleVsRetailMortgagePage() {
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">200+ lenders</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">200+ lenders</td>
                   <td className="py-3 px-4 border-b">1 lender (themselves)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rate Shopping</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Built into process</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Built into process</td>
                   <td className="py-3 px-4 border-b">Not possible</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Overhead Costs</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Lower (no branches)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Lower (no branches)</td>
                   <td className="py-3 px-4 border-b">Higher (branches, marketing)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Program Variety</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Extensive specialty options</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Extensive specialty options</td>
                   <td className="py-3 px-4 border-b">Limited to bank products</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Self-Employed Options</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Bank statement, asset depletion</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Bank statement, asset depletion</td>
                   <td className="py-3 px-4 border-b">Limited or none</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">If Denied</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Try another lender same day</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Try another lender same day</td>
                   <td className="py-3 px-4 border-b">Start over elsewhere</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Personalized Service</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Direct broker relationship</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Direct broker relationship</td>
                   <td className="py-3 px-4 border-b">Call center, rotating contacts</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 font-medium">Closing Speed</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Often 21-30 days, some 14</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Often 21-30 days, some 14</td>
                   <td className="py-3 px-4">Often 30-45 days</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-4 mt-6">
-            <p className="font-semibold text-green-800 mb-1">The Bottom Line</p>
-            <p className="text-green-700 mb-0">
+          <div className="bg-slate-50 border-l-4 border-green-500 p-4 mt-6">
+            <p className="font-semibold text-slate-900 mb-1">The Bottom Line</p>
+            <p className="text-blue-700 mb-0">
               Wholesale mortgage lending provides structural advantages for most borrowers. The combination of lender competition, lower overhead, and program variety typically results in better rates, more approval options, and faster closings than retail bank channels.
             </p>
           </div>
@@ -420,52 +420,52 @@ export default function WholesaleVsRetailMortgagePage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b">Conventional Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">50+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">50+ lender options</td>
                 <td className="py-2 px-4 border-b">Yes (1 option)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">FHA Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">40+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">40+ lender options</td>
                 <td className="py-2 px-4 border-b">Yes (1 option)</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">VA Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">30+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">30+ lender options</td>
                 <td className="py-2 px-4 border-b">Yes (1 option)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Jumbo Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">50+ specialized lenders</td>
+                <td className="py-2 px-4 border-b text-blue-700">50+ specialized lenders</td>
                 <td className="py-2 px-4 border-b">Limited (1 option)</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Bank Statement Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">25+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">25+ lender options</td>
                 <td className="py-2 px-4 border-b">Rarely available</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">DSCR Investment Loans</td>
-                <td className="py-2 px-4 border-b text-green-700">20+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">20+ lender options</td>
                 <td className="py-2 px-4 border-b">Rarely available</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Asset Depletion</td>
-                <td className="py-2 px-4 border-b text-green-700">15+ lender options</td>
+                <td className="py-2 px-4 border-b text-blue-700">15+ lender options</td>
                 <td className="py-2 px-4 border-b">Not typically available</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Non-QM Programs</td>
-                <td className="py-2 px-4 border-b text-green-700">30+ specialized lenders</td>
+                <td className="py-2 px-4 border-b text-blue-700">30+ specialized lenders</td>
                 <td className="py-2 px-4 border-b">Not available</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Interest-Only Options</td>
-                <td className="py-2 px-4 border-b text-green-700">Available from multiple lenders</td>
+                <td className="py-2 px-4 border-b text-blue-700">Available from multiple lenders</td>
                 <td className="py-2 px-4 border-b">Very limited</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4">Foreign National</td>
-                <td className="py-2 px-4 text-green-700">10+ lender options</td>
+                <td className="py-2 px-4 text-blue-700">10+ lender options</td>
                 <td className="py-2 px-4">Generally not available</td>
               </tr>
             </tbody>
@@ -506,27 +506,27 @@ export default function WholesaleVsRetailMortgagePage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b">Pre-Approval</td>
-                <td className="py-2 px-4 border-b text-green-700">Same day - 2 days</td>
+                <td className="py-2 px-4 border-b text-blue-700">Same day - 2 days</td>
                 <td className="py-2 px-4 border-b">2-5 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Application to Processing</td>
-                <td className="py-2 px-4 border-b text-green-700">1-3 days</td>
+                <td className="py-2 px-4 border-b text-blue-700">1-3 days</td>
                 <td className="py-2 px-4 border-b">3-7 days</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b">Underwriting</td>
-                <td className="py-2 px-4 border-b text-green-700">5-10 days</td>
+                <td className="py-2 px-4 border-b text-blue-700">5-10 days</td>
                 <td className="py-2 px-4 border-b">7-14 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border-b">Clear to Close</td>
-                <td className="py-2 px-4 border-b text-green-700">14-25 days from application</td>
+                <td className="py-2 px-4 border-b text-blue-700">14-25 days from application</td>
                 <td className="py-2 px-4 border-b">21-35 days from application</td>
               </tr>
               <tr>
                 <td className="py-2 px-4">Average Total</td>
-                <td className="py-2 px-4 text-green-700 font-semibold">21-30 days</td>
+                <td className="py-2 px-4 text-blue-700 font-semibold">21-30 days</td>
                 <td className="py-2 px-4">30-45 days</td>
               </tr>
             </tbody>
@@ -642,10 +642,10 @@ export default function WholesaleVsRetailMortgagePage() {
         {/* Expert Summary + CTA */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl my-10">
           <h2 className="text-2xl font-bold text-white mt-0 mb-4">Expert Summary: Making Your Choice</h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-slate-200 mb-4">
             The wholesale vs retail comparison reveals structural advantages favoring wholesale for most borrowers. Access to 200+ lenders, competitive pricing through lower overhead, extensive program variety, approval flexibility, faster closing timelines, and personalized service make wholesale the optimal choice for rate-conscious borrowers, self-employed professionals, investors, and anyone who wants their mortgage options shopped across the market.
           </p>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Mo Abdel at Lumin Lending provides wholesale mortgage brokerage services across California and Washington. With access to over 200 wholesale lenders, Mo structures financing for purchases, refinances, jumbo loans, bank statement programs, and investment properties—delivering the wholesale advantage to every client.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

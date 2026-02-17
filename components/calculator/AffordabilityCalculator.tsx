@@ -123,7 +123,7 @@ export default function AffordabilityCalculator() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Input Form */}
         <Card className="lg:col-span-2 shadow-lg border-slate-200">
-          <CardHeader className="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-t-lg">
             <CardTitle className="flex items-center text-2xl">
               <Calculator className="w-6 h-6 mr-3" />
               Financial Information
@@ -280,7 +280,7 @@ export default function AffordabilityCalculator() {
         {/* Results */}
         <div className="space-y-6">
           <Card className="shadow-lg border-slate-200">
-            <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+            <CardHeader className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-t-lg">
               <CardTitle className="flex items-center text-xl">
                 <Home className="w-5 h-5 mr-2" />
                 You Can Afford
@@ -334,7 +334,7 @@ export default function AffordabilityCalculator() {
                     {results.frontEndRatio.toFixed(1)}%
                   </span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="w-full bg-slate-200 rounded-full h-2">
                   <div 
                     className={`h-2 rounded-full ${results.frontEndRatio <= 28 ? 'bg-green-500' : results.frontEndRatio <= 31 ? 'bg-yellow-500' : 'bg-red-500'}`}
                     style={{ width: `${Math.min(results.frontEndRatio / 40 * 100, 100)}%` }}
@@ -350,7 +350,7 @@ export default function AffordabilityCalculator() {
                     {results.backEndRatio.toFixed(1)}%
                   </span>
                 </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
+                <div className="w-full bg-slate-200 rounded-full h-2">
                   <div 
                     className={`h-2 rounded-full ${results.backEndRatio <= 36 ? 'bg-green-500' : results.backEndRatio <= 43 ? 'bg-yellow-500' : 'bg-red-500'}`}
                     style={{ width: `${Math.min(results.backEndRatio / 50 * 100, 100)}%` }}
@@ -363,7 +363,7 @@ export default function AffordabilityCalculator() {
 
           <Button 
             onClick={() => router.push('/contact')}
-            className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold">
+            className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
             Get Pre-Approved Now
           </Button>
         </div>

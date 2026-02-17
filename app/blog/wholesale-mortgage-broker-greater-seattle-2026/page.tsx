@@ -261,47 +261,47 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">30-Year Fixed Rate (Conforming)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.125% - 6.375%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.125% - 6.375%</td>
                 <td className="border border-gray-300 px-4 py-3">6.375% - 6.750%</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Jumbo Rate ($1.15M+ King County)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.250% - 6.625%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.250% - 6.625%</td>
                 <td className="border border-gray-300 px-4 py-3">6.500% - 7.000%</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Lender Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the bank)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">RSU/Stock Income Acceptance</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Lenders with 1-year vesting history</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Lenders with 1-year vesting history</td>
                 <td className="border border-gray-300 px-4 py-3">Typically requires 2-year average</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Bank Statement Programs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">25+ program options</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">25+ program options</td>
                 <td className="border border-gray-300 px-4 py-3">0-1 programs (if any)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Condo Approval Flexibility</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">30+ condo-friendly lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">30+ condo-friendly lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Bank&apos;s approved list only</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Non-QM Options (DSCR, asset depletion)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">40+ specialized lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">40+ specialized lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Not offered</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Closing Timeline</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">21-30 days</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">21-30 days</td>
                 <td className="border border-gray-300 px-4 py-3">30-45 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Cost Savings (30-year, $900K loan)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$42,000 - $56,000 total</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$42,000 - $56,000 total</td>
                 <td className="border border-gray-300 px-4 py-3">Baseline</td>
               </tr>
             </tbody>
@@ -447,7 +447,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Tax Returns Required</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">No</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">No</td>
                 <td className="border border-gray-300 px-4 py-3">Yes</td>
                 <td className="border border-gray-300 px-4 py-3">Yes</td>
               </tr>
@@ -477,8 +477,8 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Program Availability</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">25+ wholesale lenders</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">25+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
                 <td className="border border-gray-300 px-4 py-3">0-1 bank programs</td>
               </tr>
               <tr className="bg-gray-50">
@@ -719,21 +719,21 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: Greater Seattle Wholesale Mortgage Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             Greater Seattle&apos;s mortgage market demands more than a single bank can provide. Property values exceeding $1 million in premium neighborhoods, tech industry compensation packages that confuse traditional underwriters, a condo market with complex project characteristics, and ferry-connected island communities all require the breadth and flexibility that only wholesale broker access delivers.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             Working with a wholesale mortgage broker for your King County purchase or refinance means accessing 200+ lenders competing for your business, programs specifically designed for RSU income and self-employed borrowers, condo financing options beyond any bank&apos;s approved list, and rates that save $42,000-$56,000 over the life of your loan.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides direct wholesale lender access through <strong>Lumin Lending (NMLS #2716106)</strong> for Greater Seattle homebuyers and homeowners. With Washington and California licensing and relationships with 200+ wholesale lenders, Mo delivers the rate competition, program diversity, and underwriting expertise that King County buyers need to compete and win.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to access wholesale mortgage rates for your Greater Seattle purchase?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1-2 business days.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to access wholesale mortgage rates for your Greater Seattle purchase?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1-2 business days.
           </p>
         </div>
 

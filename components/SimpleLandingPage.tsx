@@ -1,5 +1,4 @@
 import HeroSection from './home/HeroSection';
-import QuickActionHub from './home/QuickActionHub';
 import WestCapitalAdvantage from './home/WestCapitalAdvantage';
 import GuidesAndResources from './home/GuidesAndResources';
 import WhyChooseUs from './home/WhyChooseUs';
@@ -15,9 +14,6 @@ export default function SimpleLandingPage() {
     >
       {/* Hero Section */}
       <HeroSection />
-
-      {/* Quick Action Hub */}
-      <QuickActionHub />
 
       {/* Lumin Lending Advantage */}
       <WestCapitalAdvantage />

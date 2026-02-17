@@ -155,7 +155,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -190,9 +190,9 @@ export default function OrangeCountySchoolDistrictsGuide() {
                   <div className="lg:col-span-2">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="text-2xl font-bold text-slate-900">{district.name}</h3>
-                      <div className="flex items-center bg-green-100 px-3 py-1 rounded-full">
-                        <Star className="w-4 h-4 text-green-600 mr-1" />
-                        <span className="font-semibold text-green-600">{district.rating}</span>
+                      <div className="flex items-center bg-slate-100 px-3 py-1 rounded-full">
+                        <Star className="w-4 h-4 text-blue-600 mr-1" />
+                        <span className="font-semibold text-blue-600">{district.rating}</span>
                       </div>
                     </div>
                     
@@ -234,7 +234,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
                         
                         <div className="space-y-2">
                           <Link href="/calculator/affordability">
-                            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                            <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white">
                               Calculate Affordability
                             </Button>
                           </Link>
@@ -400,8 +400,8 @@ export default function OrangeCountySchoolDistrictsGuide() {
             </div>
 
             <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200 text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-orange-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Orange County Department of Education</h3>
               <p className="text-slate-600 mb-6">
@@ -422,12 +422,12 @@ export default function OrangeCountySchoolDistrictsGuide() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Buy in Your Dream School District?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-slate-200 mb-8">
             Get pre-approved and start your search in Orange County's top-rated school districts. 
             Mo Abdel specializes in school district home financing.
           </p>
@@ -440,14 +440,14 @@ export default function OrangeCountySchoolDistrictsGuide() {
               </Button>
             </a>
             <Link href="/contact">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold">
                 Get Pre-Approved Today
               </Button>
             </Link>
           </div>
           
           <div className="mt-8 pt-8 border-t border-blue-500">
-            <p className="text-blue-100">
+            <p className="text-slate-200">
               <strong>Mo Abdel</strong> • NMLS #1426884 • Licensed Mortgage Broker serving Orange County families since 2015
             </p>
           </div>

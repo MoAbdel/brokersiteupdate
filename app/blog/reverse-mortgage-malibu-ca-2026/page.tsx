@@ -201,13 +201,13 @@ export default function ReverseMortgageMalibuPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Malibu Colony</td><td className="py-2 px-4 border-b">$10M-$50M+</td><td className="py-2 px-4 border-b">Ultra-exclusive gated beachfront</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Broad Beach</td><td className="py-2 px-4 border-b">$8M-$30M+</td><td className="py-2 px-4 border-b">Beachfront estates, private beach</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Carbon Beach</td><td className="py-2 px-4 border-b">$10M-$40M+</td><td className="py-2 px-4 border-b">"Billionaire's Beach" celebrity enclave</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Point Dume</td><td className="py-2 px-4 border-b">$3M-$15M</td><td className="py-2 px-4 border-b">Blufftop views, nature preserve access</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Malibu Colony</td><td className="py-2 px-4 border-b">$10M-$50M+</td><td className="py-2 px-4 border-b">Ultra-exclusive gated beachfront</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Broad Beach</td><td className="py-2 px-4 border-b">$8M-$30M+</td><td className="py-2 px-4 border-b">Beachfront estates, private beach</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Carbon Beach</td><td className="py-2 px-4 border-b">$10M-$40M+</td><td className="py-2 px-4 border-b">"Billionaire's Beach" celebrity enclave</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Point Dume</td><td className="py-2 px-4 border-b">$3M-$15M</td><td className="py-2 px-4 border-b">Blufftop views, nature preserve access</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Paradise Cove</td><td className="py-2 px-4 border-b">$2M-$8M</td><td className="py-2 px-4 border-b">Beach community, mobile home park nearby</td><td className="py-2 px-4 border-b">Proprietary or HECM</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Malibu Road</td><td className="py-2 px-4 border-b">$5M-$20M</td><td className="py-2 px-4 border-b">Oceanfront, dramatic coastline</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Serra Retreat</td><td className="py-2 px-4 border-b">$4M-$12M</td><td className="py-2 px-4 border-b">Gated hillside estates</td><td className="py-2 px-4 border-b text-green-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Malibu Road</td><td className="py-2 px-4 border-b">$5M-$20M</td><td className="py-2 px-4 border-b">Oceanfront, dramatic coastline</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Serra Retreat</td><td className="py-2 px-4 border-b">$4M-$12M</td><td className="py-2 px-4 border-b">Gated hillside estates</td><td className="py-2 px-4 border-b text-blue-700">Proprietary Jumbo</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Malibu Park</td><td className="py-2 px-4">$2M-$6M</td><td className="py-2 px-4">Canyon homes, more privacy</td><td className="py-2 px-4">Proprietary or HECM</td></tr>
             </tbody>
           </table>
@@ -301,13 +301,13 @@ export default function ReverseMortgageMalibuPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Maximum Home Value Basis</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$10M+ (varies by lender)</td></tr>
+              <tr><td className="py-2 px-4 border-b">Maximum Home Value Basis</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$10M+ (varies by lender)</td></tr>
               <tr><td className="py-2 px-4 border-b">Government Insurance</td><td className="py-2 px-4 border-b">Yes (FHA)</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4 border-b">HUD Counseling Required</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Varies by lender</td></tr>
               <tr><td className="py-2 px-4 border-b">Mortgage Insurance Premium</td><td className="py-2 px-4 border-b">2% upfront + 0.5% annual</td><td className="py-2 px-4 border-b">None</td></tr>
               <tr><td className="py-2 px-4 border-b">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Typically yes</td></tr>
               <tr><td className="py-2 px-4 border-b">Payout Options</td><td className="py-2 px-4 border-b">Lump sum, line of credit, tenure, term</td><td className="py-2 px-4 border-b">Varies by program</td></tr>
-              <tr><td className="py-2 px-4">Best For Malibu</td><td className="py-2 px-4">Lower-value properties only</td><td className="py-2 px-4 text-green-700 font-semibold">Most Malibu homes</td></tr>
+              <tr><td className="py-2 px-4">Best For Malibu</td><td className="py-2 px-4">Lower-value properties only</td><td className="py-2 px-4 text-blue-700 font-semibold">Most Malibu homes</td></tr>
             </tbody>
           </table>
         </div>
@@ -601,13 +601,13 @@ export default function ReverseMortgageMalibuPage() {
           </ul>
         </div>
 
-        <div className="bg-green-50 border border-green-200 p-6 rounded-xl my-8">
+        <div className="bg-slate-50 border border-slate-200 p-6 rounded-xl my-8">
           <h3 className="mt-0 text-green-900">Contact Mo Abdel - Malibu Reverse Mortgage Specialist</h3>
-          <p className="text-green-800 mb-2">
+          <p className="text-slate-900 mb-2">
             Ready to explore how a reverse mortgage can work for your Malibu property? Schedule a confidential consultation.
           </p>
           <p className="text-green-900 font-semibold mb-0">
-            Phone: <a href="tel:9498229662" className="text-green-700">(949) 822-9662</a>
+            Phone: <a href="tel:9498229662" className="text-blue-700">(949) 822-9662</a>
           </p>
         </div>
 

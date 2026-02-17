@@ -22,7 +22,8 @@ export const Card = React.forwardRef<HTMLDivElement, CardProps>(
     <div
       ref={ref}
       className={cn(
-        "rounded-lg border border-slate-200 bg-white text-slate-950 shadow-sm",
+        // `h-full` makes cards align cleanly in grids without affecting intrinsic layouts.
+        "h-full rounded-lg border border-slate-200 bg-white text-slate-950 shadow-sm",
         className
       )}
       {...props}

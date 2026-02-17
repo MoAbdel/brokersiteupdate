@@ -213,46 +213,46 @@ export default function BankStatementLoansWholesalePage() {
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">25+ bank statement lenders</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">25+ bank statement lenders</td>
                   <td className="py-3 px-4 border-b">1 program (if offered)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Income Calculation</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Multiple methods available</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Multiple methods available</td>
                   <td className="py-3 px-4 border-b">Single method</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Expense Factors</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">50-90% options</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">50-90% options</td>
                   <td className="py-3 px-4 border-b">Fixed factor</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Credit Flexibility</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">580-700+ programs</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">580-700+ programs</td>
                   <td className="py-3 px-4 border-b">Single requirement</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Loan Amounts</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Up to $3M+</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Up to $3M+</td>
                   <td className="py-3 px-4 border-b">Often limited</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">If Declined</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Try another lender</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Try another lender</td>
                   <td className="py-3 px-4 border-b">Start over elsewhere</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Rate Shopping</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Compare 25+ lenders</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Compare 25+ lenders</td>
                   <td className="py-3 px-4">Accept single quote</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-4 mt-6">
-            <p className="font-semibold text-green-800 mb-1">The Bottom Line</p>
-            <p className="text-green-700 mb-0">
+          <div className="bg-slate-50 border-l-4 border-green-500 p-4 mt-6">
+            <p className="font-semibold text-slate-900 mb-1">The Bottom Line</p>
+            <p className="text-blue-700 mb-0">
               Bank statement loans through wholesale brokers provide self-employed borrowers with optimized income calculations, competitive rates through lender competition, and approval flexibility that single-lender channels cannot match. The difference can mean qualifying for your home purchase versus being declined.
             </p>
           </div>
@@ -678,10 +678,10 @@ export default function BankStatementLoansWholesalePage() {
         {/* Expert Summary + CTA */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl my-10">
           <h2 className="text-2xl font-bold text-white mt-0 mb-4">Expert Summary: The Wholesale Advantage for Bank Statement Loans</h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-slate-200 mb-4">
             Bank statement loans through wholesale brokers provide self-employed borrowers with access to 25+ lenders offering varying income calculations, expense factors, credit requirements, and loan limits. This variety means finding the optimal program—not settling for a single lender&apos;s terms or facing denial when alternatives exist.
           </p>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Mo Abdel, NMLS #1426884, specializes in bank statement loans for self-employed borrowers throughout California and Washington. Through Lumin Lending (NMLS #2716106), Mo accesses the full wholesale market to maximize your qualifying income and secure competitive rates for your home purchase or refinance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

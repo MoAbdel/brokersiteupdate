@@ -338,37 +338,37 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Number of Lenders</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">200+ simultaneously</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">200+ simultaneously</td>
                   <td className="px-4 py-3 border-t">1 company, multiple products</td>
                   <td className="px-4 py-3 border-t">1 bank, own portfolio only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rate Pricing</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Institutional wholesale</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Institutional wholesale</td>
                   <td className="px-4 py-3 border-t">Retail markup applied</td>
                   <td className="px-4 py-3 border-t">Retail pricing + branch overhead</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo Specialization</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Multiple jumbo lenders compete</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Multiple jumbo lenders compete</td>
                   <td className="px-4 py-3 border-t">Limited jumbo options</td>
                   <td className="px-4 py-3 border-t">Single portfolio jumbo program</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">RSU Income Handling</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Best policy from 200+ lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Best policy from 200+ lenders</td>
                   <td className="px-4 py-3 border-t">Company&apos;s single RSU policy</td>
                   <td className="px-4 py-3 border-t">Bank&apos;s single RSU policy</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Options</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Bank statement, P&amp;L, asset depletion</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Bank statement, P&amp;L, asset depletion</td>
                   <td className="px-4 py-3 border-t">Limited alternative documentation</td>
                   <td className="px-4 py-3 border-t">Standard tax return only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Who Pays the Broker</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Lender pays (not borrower)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Lender pays (not borrower)</td>
                   <td className="px-4 py-3 border-t">Built into rate</td>
                   <td className="px-4 py-3 border-t">Built into rate</td>
                 </tr>
@@ -380,7 +380,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Non-Warrantable Condo</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Multiple NW condo lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Multiple NW condo lenders</td>
                   <td className="px-4 py-3 border-t">Rarely available</td>
                   <td className="px-4 py-3 border-t">Rarely available</td>
                 </tr>
@@ -421,41 +421,41 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
                   <td className="px-4 py-3 border-t">20%&ndash;40%</td>
                   <td className="px-4 py-3 border-t">2-year average of vested, 25% haircut</td>
                   <td className="px-4 py-3 border-t">Most recent 12-month vesting at 100%</td>
-                  <td className="px-4 py-3 border-t text-green-700">Match lender to your vesting pattern</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Match lender to your vesting pattern</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Stock Options</td>
                   <td className="px-4 py-3 border-t">5%&ndash;20%</td>
                   <td className="px-4 py-3 border-t">Not counted unless exercised 2+ years</td>
                   <td className="px-4 py-3 border-t">Current vested value as asset</td>
-                  <td className="px-4 py-3 border-t text-green-700">Use as asset rather than income if beneficial</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Use as asset rather than income if beneficial</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Annual Bonus</td>
                   <td className="px-4 py-3 border-t">10%&ndash;25%</td>
                   <td className="px-4 py-3 border-t">2-year average, documented by employer</td>
                   <td className="px-4 py-3 border-t">Most recent bonus at 100%</td>
-                  <td className="px-4 py-3 border-t text-green-700">Include employer bonus letter</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Include employer bonus letter</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Signing Bonus</td>
                   <td className="px-4 py-3 border-t">One-time</td>
                   <td className="px-4 py-3 border-t">Not counted as recurring income</td>
                   <td className="px-4 py-3 border-t">Counted as reserves/assets</td>
-                  <td className="px-4 py-3 border-t text-green-700">Deploy as reserves to strengthen profile</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Deploy as reserves to strengthen profile</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-Employment (Consultant)</td>
                   <td className="px-4 py-3 border-t">100% (if sole income)</td>
                   <td className="px-4 py-3 border-t">2-year tax return average</td>
                   <td className="px-4 py-3 border-t">12-month bank statement deposits</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement program avoids tax deduction penalty</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement program avoids tax deduction penalty</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-amber-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
+          <div className="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
             <p className="mb-0"><strong>Key Insight:</strong> A senior Google engineer earning $200K base + $300K/year in RSU vesting + $50K bonus has a total compensation of $550K. A conservative lender counts $200K base + $150K RSU (50% haircut) + $40K bonus (2-year average) = $390K. An aggressive lender counts $200K + $300K + $50K = $550K. That $160K income difference translates to roughly $400,000&ndash;$600,000 more in borrowing power &mdash; the difference between a $1.5M and a $2.1M purchase.</p>
           </div>
 
@@ -886,7 +886,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY + CTA ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Wholesale Mortgage Broker for Silicon Valley Tech Corridor</h2>
             <p>
               The Silicon Valley Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; demands wholesale mortgage broker access as a baseline requirement, not a luxury. With median values from $1.3M to $2M driving the need for jumbo financing, and tech compensation structures that confound standard underwriting, a broker&apos;s ability to shop 200+ lenders determines whether you get the right loan at the right rate.
@@ -898,7 +898,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
               Every city in this corridor has a distinct borrower profile, property mix, and financing challenge. A wholesale broker navigates all of them with one conversation, one application, and one closing.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your Silicon Valley mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a confidential consultation. Whether you are purchasing, refinancing, or accessing equity, I compare programs from 200+ wholesale lenders to find the best fit for your Tech Corridor property and tech compensation profile. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your Silicon Valley mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. Whether you are purchasing, refinancing, or accessing equity, I compare programs from 200+ wholesale lenders to find the best fit for your Tech Corridor property and tech compensation profile. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 

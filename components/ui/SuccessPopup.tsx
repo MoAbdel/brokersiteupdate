@@ -75,7 +75,7 @@ export default function SuccessPopup({
           {/* Action button */}
           <Button 
             onClick={onClose}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3"
+            className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3"
           >
             {buttonText}
           </Button>

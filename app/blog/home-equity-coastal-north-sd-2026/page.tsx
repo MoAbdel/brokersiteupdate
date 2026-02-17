@@ -355,28 +355,28 @@ export default function HomeEquityCoastalNorthSD() {
                   <td className="py-3 px-4 border-b">$3,800,000</td>
                   <td className="py-3 px-4 border-b">$3,040,000</td>
                   <td className="py-3 px-4 border-b">$1,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,540,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,540,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Rancho Santa Fe</td>
                   <td className="py-3 px-4 border-b">$4,500,000</td>
                   <td className="py-3 px-4 border-b">$3,600,000</td>
                   <td className="py-3 px-4 border-b">$1,800,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,800,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,800,000</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Solana Beach</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
                   <td className="py-3 px-4 border-b">$1,600,000</td>
                   <td className="py-3 px-4 border-b">$900,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$700,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$700,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Encinitas</td>
                   <td className="py-3 px-4">$1,800,000</td>
                   <td className="py-3 px-4">$1,440,000</td>
                   <td className="py-3 px-4">$800,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$640,000</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$640,000</td>
                 </tr>
               </tbody>
             </table>
@@ -418,7 +418,7 @@ export default function HomeEquityCoastalNorthSD() {
             A Del Mar Heights homeowner with a $4.2 million property and $1.6 million remaining mortgage at a locked-in low rate wants to purchase a $5.5 million oceanfront home. Rather than selling first (and risking losing the oceanfront opportunity), the homeowner opens a $1.2 million HELOC on the existing property for the down payment on the new home. After closing on the oceanfront purchase, they sell the Heights property and pay off the HELOC. Total bridge cost: interest-only payments for approximately 3 months. This strategy is only available through lenders who offer jumbo HELOCs above $1 million&mdash;a product class that wholesale channels provide access to while most retail banks cap at $500K.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Del Mar Equity Expertise</h4>
             <p className="mb-0">Del Mar&apos;s oceanfront properties present unique appraisal challenges&mdash;view premiums, bluff-proximity factors, and coastal zone restrictions all affect valuation. My experience structuring jumbo HELOC and cash-out transactions across Del Mar&apos;s distinct micro-markets ensures appraisals capture full property value, maximizing accessible equity for homeowners.</p>
           </div>
@@ -462,7 +462,7 @@ export default function HomeEquityCoastalNorthSD() {
             A HELOC is the ideal product: it preserves their valuable low first-mortgage rate, allows phased draws as construction progresses (they only pay interest on amounts drawn), and the 10-year draw period provides flexibility if renovation timelines shift. Through wholesale channels, the broker accesses a lender offering a $1.5 million jumbo HELOC at 80% CLTV on the $6.8 million property (total borrowing capacity of $5.44 million minus the $2.2 million first mortgage = $3.24 million in available equity). The lender also uses an equestrian-experienced appraiser who values the existing barn and paddock system appropriately, maximizing the property&apos;s appraised value.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rancho Santa Fe Equity Specialization</h4>
             <p className="mb-0">Accessing equity from Rancho Santa Fe estate properties requires understanding which lenders handle equestrian appraisals, trust-vested properties, and jumbo second liens above $1 million. My established relationships with wholesale lenders experienced in the RSF market ensure homeowners receive accurate valuations and competitive equity access terms calibrated to this unique community.</p>
           </div>
@@ -506,7 +506,7 @@ export default function HomeEquityCoastalNorthSD() {
             Through wholesale channels, the broker accesses a bank-statement HELOC lender who qualifies based on $38,000 monthly deposits rather than tax returns. A $250,000 HELOC consolidates the $185,000 in high-interest debt and provides $65,000 in additional credit for business inventory purchases. The HELOC rate is substantially lower than her 14% blended business debt rate, and she preserves her favorable first mortgage. Monthly cash flow improves by approximately $1,800&mdash;money she redirects into business growth.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Solana Beach Self-Employed Equity Access</h4>
             <p className="mb-0">Solana Beach&apos;s creative economy generates homeowners whose tax returns understate their financial capacity. My experience with bank-statement HELOC programs ensures self-employed Solana Beach residents can access equity at competitive rates without the frustration of tax-return-based denials that traditional banks deliver.</p>
           </div>
@@ -551,7 +551,7 @@ export default function HomeEquityCoastalNorthSD() {
             The $300,000 HELOC draw funds the investment property down payment. The Leucadia rental generates $7,500/month in peak-season Airbnb revenue, with an annualized average of $5,200/month. After PITIA on the rental and HELOC interest payments, the couple nets positive cash flow while building equity in two properties. Within 2 years, they plan to refinance the rental with a DSCR loan and pay off the HELOC, freeing up the credit line for their next investment. This entire strategy is enabled by wholesale access to jumbo HELOC lenders and DSCR investment lenders.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Encinitas Equity &amp; Investment Strategy</h4>
             <p className="mb-0">Encinitas homeowners increasingly use equity as a tool for wealth building rather than just expense coverage. My experience structuring HELOC-to-DSCR investment strategies for Encinitas clients&mdash;from Leucadia vacation rentals to Olivenhain ADU construction&mdash;ensures homeowners understand how to deploy equity strategically for both immediate needs and long-term wealth accumulation.</p>
           </div>

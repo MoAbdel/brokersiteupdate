@@ -156,7 +156,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Compare Your Options
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -210,23 +210,23 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Documentation</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None required</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">W-2s, tax returns (2 years), pay stubs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Employment Verification</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Not required</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Not required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Required (verbal VOE before closing)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">DTI Ratio Requirement</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None (property-based)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None (property-based)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Max 45-50% (varies by lender)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">15-25%</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">15-25%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Credit Score</td>
@@ -235,38 +235,38 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Max Financed Properties</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Unlimited</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Unlimited</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10 (including primary residence)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Entity/LLC Vesting</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Allowed (most lenders)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Allowed (most lenders)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not allowed</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Interest Rates</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Higher (varies by lender)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Lower base rates</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Lower base rates</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Mortgage Insurance</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Not required</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Not required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Required if LTV &gt; 80% (rare for invest.)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Prepayment Penalties</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Common (optional, reduces rate)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Not allowed</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Not allowed</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Closing Timeline</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">21-30 days</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">21-30 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reserve Requirements</td>
                   <td className="px-4 py-3 text-sm text-slate-600">6-12 months PITIA</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">2-6 months PITIA</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">2-6 months PITIA</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Loan Terms Available</td>
@@ -275,12 +275,12 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Short-Term Rental (STR)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Many lenders allow</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Many lenders allow</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Rental income must be documented</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Foreign Nationals</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Eligible at many lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Eligible at many lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not eligible (U.S. income required)</td>
                 </tr>
               </tbody>
@@ -345,23 +345,23 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25%</td>
                   <td className="px-4 py-3 text-sm text-slate-600">15-25%</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">3.5%</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">3.5%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Docs</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Mortgage Insurance</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None</td>
                   <td className="px-4 py-3 text-sm text-slate-600">If LTV &gt;80%</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">MIP for life of loan</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">MIP for life of loan</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Property Limit</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Unlimited</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Unlimited</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10</td>
                   <td className="px-4 py-3 text-sm text-slate-600">1 primary</td>
                 </tr>
@@ -369,11 +369,11 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Min. Credit Score</td>
                   <td className="px-4 py-3 text-sm text-slate-600">660-680</td>
                   <td className="px-4 py-3 text-sm text-slate-600">620-680</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">580+</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">580+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Best For</td>
-                  <td className="px-4 py-3 text-sm text-purple-600 font-medium">Portfolio scaling, self-employed</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Portfolio scaling, self-employed</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Rate-sensitive W-2 investors</td>
                   <td className="px-4 py-3 text-sm text-slate-600">First-time house hackers</td>
                 </tr>
@@ -402,36 +402,36 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Self-Employed with High Write-Offs</h4>
                 <p className="text-slate-600">Business owners who legitimately reduce taxable income through deductions often show low AGI on tax returns. Conventional underwriting uses this low AGI, making qualification difficult or impossible despite strong actual cash flow. DSCR ignores tax returns entirely, solving this problem for millions of self-employed investors.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Portfolio Investors Beyond 10 Properties</h4>
                 <p className="text-slate-600">Fannie Mae caps conventional investment property financing at 10 financed properties. Once an investor reaches this limit, DSCR becomes the primary financing vehicle for continued portfolio growth. There is no property count limit with DSCR loans, and each property qualifies independently.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">DTI Maxed Out Despite Strong Cash Flow</h4>
                 <p className="text-slate-600">An investor earning $150,000 with $6,000 in existing monthly obligations (including mortgages) has a 48% DTI &mdash; near or above conventional limits. Adding another property pushes DTI past the ceiling. DSCR does not calculate DTI at all; the new property qualifies on its own rental income regardless of the investor&apos;s other obligations.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Need for LLC/Entity Vesting</h4>
                 <p className="text-slate-600">Investors who require liability protection through LLC ownership must use DSCR or other non-QM programs. Conventional loans cannot be vested in entities. This is especially important for investors with significant personal assets who want to separate rental property liability from personal assets.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-purple-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-purple-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Speed-Dependent Acquisitions</h4>
                 <p className="text-slate-600">In competitive markets, the 21-30 day DSCR closing timeline (versus 30-45 days for conventional) can make the difference between winning and losing a deal. Sellers prefer faster closings, and DSCR&apos;s reduced documentation makes the 21-day timeline achievable rather than aspirational.</p>
@@ -449,29 +449,29 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <DollarSign className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <DollarSign className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">W-2 Employee with Low DTI</h4>
                 <p className="text-slate-600">A W-2 employee with a stable income, clean tax returns, and DTI below 45% will almost always get a better rate with conventional financing. The rate savings over a DSCR loan can be significant &mdash; reducing annual interest costs by thousands of dollars per property. If you can document income and your DTI allows it, conventional is the lower-cost path.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <Building2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <Building2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">First 1-4 Investment Properties</h4>
                 <p className="text-slate-600">Investors in the early stages of portfolio building (1-4 properties) have plenty of capacity under the 10-property conventional limit. Starting with conventional financing preserves lower rates and smaller down payments during the phase when capital efficiency matters most.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <Shield className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <Shield className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Rate Sensitivity Over Flexibility</h4>
                 <p className="text-slate-600">Investors prioritizing the lowest possible monthly payment over documentation flexibility benefit from conventional&apos;s lower rates. The monthly savings compound meaningfully over a 30-year hold. Conventional also offers 15-year fixed options for investors wanting to build equity faster at even lower rates.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <TrendingUp className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <TrendingUp className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Lower Down Payment Available</h4>
                 <p className="text-slate-600">Conventional investment property loans allow as low as 15% down for single-family investment properties, compared to DSCR&apos;s typical 20-25%. For capital-constrained investors, the 5-10% down payment difference translates to tens of thousands of dollars preserved for additional investments or reserves.</p>
@@ -489,7 +489,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-purple-50 border border-purple-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3 text-lg">DSCR Calculation</h3>
               <div className="bg-white rounded-lg p-3 mb-3">
                 <p className="text-center font-mono font-bold text-slate-900">
@@ -500,12 +500,12 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Monthly Rent: $4,500</p>
                 <p>Monthly PITIA: $3,600</p>
-                <p className="font-bold text-purple-700">DSCR = $4,500 &divide; $3,600 = 1.25</p>
+                <p className="font-bold text-blue-700">DSCR = $4,500 &divide; $3,600 = 1.25</p>
               </div>
               <p className="text-xs text-slate-500 mt-3">Only the subject property matters. Borrower income, employment, and other debts are irrelevant.</p>
             </div>
 
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3 text-lg">Conventional DTI Calculation</h3>
               <div className="bg-white rounded-lg p-3 mb-3">
                 <p className="text-center font-mono font-bold text-slate-900">
@@ -516,7 +516,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
               <div className="text-sm text-slate-600 space-y-1">
                 <p>Total Monthly Debts: $5,800</p>
                 <p>Gross Monthly Income: $12,500</p>
-                <p className="font-bold text-green-700">DTI = $5,800 &divide; $12,500 = 46.4%</p>
+                <p className="font-bold text-blue-700">DTI = $5,800 &divide; $12,500 = 46.4%</p>
               </div>
               <p className="text-xs text-slate-500 mt-3">All borrower debts and income are evaluated. Adding properties increases total debts and may push DTI above limits.</p>
             </div>
@@ -559,7 +559,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Portfolio Optimization: Refinance Review</h4>
                   <p className="text-slate-600">Periodically review the entire portfolio with your wholesale broker to identify refinance opportunities. Earlier DSCR loans with higher rates may benefit from rate-and-term refinances as market conditions change or as the borrower&apos;s profile strengthens.</p>
@@ -593,7 +593,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$150,000 (25%)</td>
-                  <td className="px-4 py-3 text-sm text-green-600">$120,000 (20%)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">$120,000 (20%)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$30,000 more for DSCR</td>
                 </tr>
                 <tr>
@@ -605,24 +605,24 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reserve Requirement</td>
                   <td className="px-4 py-3 text-sm text-slate-600">~$28,800 (8 mo.)</td>
-                  <td className="px-4 py-3 text-sm text-green-600">~$10,800 (3 mo.)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">~$10,800 (3 mo.)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$18,000 more for DSCR</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Total Capital Required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">~$190,000</td>
-                  <td className="px-4 py-3 text-sm text-green-600">~$142,000</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">~$142,000</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$48,000 more for DSCR</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Documentation Time</td>
-                  <td className="px-4 py-3 text-sm text-green-600">Minimal (1-2 hours)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Minimal (1-2 hours)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Extensive (5-10 hours)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">DSCR saves significant time</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">LLC Vesting</td>
-                  <td className="px-4 py-3 text-sm text-green-600">Available</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Available</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Not available</td>
                   <td className="px-4 py-3 text-sm text-slate-600">DSCR provides liability protection</td>
                 </tr>
@@ -630,9 +630,9 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
             </table>
           </div>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Important Cost Consideration
             </h3>
             <p className="text-sm text-slate-600">
@@ -648,9 +648,9 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </h2>
 
           <div className="space-y-6 mb-6">
-            <div className="bg-green-50 border border-green-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                <Target className="w-5 h-5 text-green-600" />
+                <Target className="w-5 h-5 text-blue-600" />
                 Scenario 1: W-2 Tech Worker, First Investment Property
               </h3>
               <div className="grid md:grid-cols-3 gap-4 mb-3 text-sm">
@@ -658,13 +658,13 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 <div><span className="text-slate-500">Credit Score:</span> <span className="font-medium">750</span></div>
                 <div><span className="text-slate-500">Current Properties:</span> <span className="font-medium">1 (primary)</span></div>
               </div>
-              <p className="text-sm text-green-700 font-medium mb-2">Winner: Conventional</p>
+              <p className="text-sm text-blue-700 font-medium mb-2">Winner: Conventional</p>
               <p className="text-sm text-slate-600">Strong W-2 income, clean documentation, high credit score, and well below the 10-property limit. Conventional financing delivers the lowest rate and smallest down payment. DSCR would work but costs more without providing meaningful benefit.</p>
             </div>
 
-            <div className="bg-purple-50 border border-purple-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                <Target className="w-5 h-5 text-purple-600" />
+                <Target className="w-5 h-5 text-blue-600" />
                 Scenario 2: Self-Employed Contractor, 3rd Rental Property
               </h3>
               <div className="grid md:grid-cols-3 gap-4 mb-3 text-sm">
@@ -672,7 +672,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 <div><span className="text-slate-500">Credit Score:</span> <span className="font-medium">720</span></div>
                 <div><span className="text-slate-500">Current Properties:</span> <span className="font-medium">3 financed</span></div>
               </div>
-              <p className="text-sm text-purple-700 font-medium mb-2">Winner: DSCR</p>
+              <p className="text-sm text-blue-700 font-medium mb-2">Winner: DSCR</p>
               <p className="text-sm text-slate-600">Despite $280K in actual gross income, tax returns show only $65K after business deductions. Conventional DTI calculation uses the $65K, making approval extremely difficult with 3 existing mortgages. DSCR ignores the tax returns entirely and qualifies based on the new property&apos;s rental income.</p>
             </div>
 
@@ -690,9 +690,9 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
               <p className="text-sm text-slate-600">With 11 financed properties, this investor has exceeded the 10-property conventional limit. DSCR is the only mainstream option for property #12. The investor can qualify based on the new property&apos;s rental income without impacting their existing conventional loans.</p>
             </div>
 
-            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+            <div className="bg-slate-50 border border-amber-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                <Target className="w-5 h-5 text-amber-600" />
+                <Target className="w-5 h-5 text-blue-600" />
                 Scenario 4: Foreign National, First U.S. Investment
               </h3>
               <div className="grid md:grid-cols-3 gap-4 mb-3 text-sm">
@@ -700,7 +700,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
                 <div><span className="text-slate-500">Credit Score:</span> <span className="font-medium">No U.S. credit</span></div>
                 <div><span className="text-slate-500">Down Payment:</span> <span className="font-medium">40% available</span></div>
               </div>
-              <p className="text-sm text-amber-700 font-medium mb-2">Winner: DSCR (only option)</p>
+              <p className="text-sm text-blue-700 font-medium mb-2">Winner: DSCR (only option)</p>
               <p className="text-sm text-slate-600">Foreign nationals without U.S. tax returns, employment, or credit history cannot qualify for conventional financing. DSCR loans with foreign national programs accept international credit references and require no U.S. income documentation. Higher down payments (30-40%) offset the lack of U.S. credit history.</p>
             </div>
           </div>
@@ -771,10 +771,10 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: The Right Loan Depends on Your Investor Profile
           </h2>
-          <p className="text-lg text-blue-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             There is no universal answer to the DSCR versus conventional question. W-2 borrowers with low DTI ratios and fewer than 10 properties benefit from conventional&apos;s lower rates. Self-employed investors, portfolio builders past the 10-property ceiling, and anyone requiring LLC vesting need DSCR&apos;s documentation flexibility. Many investors use both programs strategically at different portfolio stages.
           </p>
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both conventional and DSCR programs across 100+ lenders to identify the lowest-cost option for each investor&apos;s specific profile. Whether you qualify for conventional, need DSCR, or benefit from a mixed strategy, the wholesale channel delivers the broadest comparison and the best available terms in the market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -796,22 +796,22 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR & Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-investment-property-loans-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Investment Property Loans 2026
             </Link>
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained for Investors
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements: Rates, Ratios & Down Payment
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
             </Link>
-            <Link href="/blog/conventional-loans-complete-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Conventional Loans Complete Guide 2026
             </Link>
           </div>

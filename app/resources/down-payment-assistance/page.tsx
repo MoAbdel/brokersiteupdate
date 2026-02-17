@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import { 
   DollarSign, 
   Home, 
@@ -167,53 +168,47 @@ export default function DownPaymentAssistancePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Current Updated Resource</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Orange County Down Payment Assistance Programs
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Comprehensive guide to grants, loans, and assistance programs available for Orange County home buyers. 
-              Find programs that can help you save thousands on your home purchase.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <DollarSign className="w-5 h-5 mr-2" />
-                  Check Your Eligibility
-                </Button>
-              </Link>
-              <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                <Download className="w-5 h-5 mr-2" />
-                Download Guide (PDF)
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="min-h-screen bg-slate-50">
+      <PageHero
+        badgeText="Current Updated Resource"
+        badgeIcon={FileText}
+        title="Orange County Down Payment Assistance Programs"
+        subtitle={
+          <>
+            Comprehensive guide to grants, loans, and assistance programs available for Orange County home buyers.
+            Find programs that can help you save thousands on your home purchase.
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Check Your Eligibility',
+          icon: DollarSign,
+        }}
+        secondaryAction={{
+          href: '#download',
+          label: 'Download Guide (PDF)',
+          icon: Download,
+        }}
+      />
 
       {/* Quick Stats */}
-      <section className="py-8 border-b">
+      <section className="py-8 border-b border-slate-200/70 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
-              <div className="text-3xl font-bold text-blue-600">$40K+</div>
+              <div className="text-3xl font-bold text-slate-900">$40K+</div>
               <div className="text-sm text-slate-600">Max Assistance Available</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">25+</div>
+              <div className="text-3xl font-bold text-slate-900">25+</div>
               <div className="text-sm text-slate-600">Programs Available</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">0%</div>
+              <div className="text-3xl font-bold text-slate-900">0%</div>
               <div className="text-sm text-slate-600">Down for VA/USDA</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600">580+</div>
+              <div className="text-3xl font-bold text-slate-900">580+</div>
               <div className="text-sm text-slate-600">Min Credit Score</div>
             </div>
           </div>
@@ -235,7 +230,7 @@ export default function DownPaymentAssistancePage() {
           <div className="grid gap-6">
             {statePrograms.map((program, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
+                <CardHeader className="pb-4">
                   <div className="flex justify-between items-start">
                     <div>
                       <CardTitle className="text-xl mb-2">{program.name}</CardTitle>
@@ -248,11 +243,12 @@ export default function DownPaymentAssistancePage() {
                     <Building className="w-8 h-8 text-blue-600" />
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <div className="grid md:grid-cols-2 gap-6">
+                <CardContent className="pb-8">
+                  {/* Center the two sections as a group while keeping each column text left-aligned */}
+                  <div className="mx-auto grid max-w-4xl gap-6 text-left md:grid-cols-[minmax(0,1fr)_minmax(0,320px)]">
                     <div>
                       <h4 className="font-semibold mb-2 flex items-center">
-                        <CheckCircle className="w-4 h-4 mr-2 text-green-600" />
+                        <CheckCircle className="w-4 h-4 mr-2 text-blue-600" />
                         Requirements
                       </h4>
                       <ul className="space-y-1 text-sm text-slate-600">
@@ -264,12 +260,12 @@ export default function DownPaymentAssistancePage() {
                         ))}
                       </ul>
                     </div>
-                    <div>
-                      <div className="mb-4">
+                    <div className="space-y-4">
+                      <div>
                         <h4 className="font-semibold mb-2">Income Limit</h4>
                         <p className="text-sm text-slate-600">{program.incomeLimit}</p>
                       </div>
-                      <div className="mb-4">
+                      <div>
                         <h4 className="font-semibold mb-2">Best For</h4>
                         <p className="text-sm text-slate-600">{program.bestFor}</p>
                       </div>
@@ -306,7 +302,7 @@ export default function DownPaymentAssistancePage() {
             {localPrograms.map((program, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Home className="w-8 h-8 text-orange-600 mb-2" />
+                  <Home className="w-8 h-8 text-blue-600 mb-2" />
                   <CardTitle className="text-lg">{program.name}</CardTitle>
                   <Badge className="mt-2">{program.amount}</Badge>
                 </CardHeader>
@@ -321,7 +317,7 @@ export default function DownPaymentAssistancePage() {
                       <ul className="text-sm text-slate-600 space-y-1">
                         {program.requirements.map((req, idx) => (
                           <li key={idx} className="flex items-start">
-                            <CheckCircle className="w-3 h-3 mr-1 text-green-600 mt-0.5" />
+                            <CheckCircle className="w-3 h-3 mr-1 text-blue-600 mt-0.5" />
                             {req}
                           </li>
                         ))}
@@ -391,7 +387,7 @@ export default function DownPaymentAssistancePage() {
             {specialPrograms.map((program, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Users className="w-8 h-8 text-green-600 mb-2" />
+                  <Users className="w-8 h-8 text-blue-600 mb-2" />
                   <CardTitle className="text-lg">{program.name}</CardTitle>
                   <Badge variant="secondary">{program.amount}</Badge>
                 </CardHeader>
@@ -422,7 +418,7 @@ export default function DownPaymentAssistancePage() {
       </section>
 
       {/* Eligibility Calculator */}
-      <section className="py-16 bg-blue-50">
+      <section className="py-16 bg-slate-100/60">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="shadow-xl">
             <CardHeader className="text-center">
@@ -432,11 +428,11 @@ export default function DownPaymentAssistancePage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                <div className="bg-white border border-slate-200 border-l-4 border-l-blue-500 p-4 rounded-md">
                   <div className="flex">
-                    <AlertCircle className="w-5 h-5 text-yellow-600 mr-3 mt-0.5" />
+                    <AlertCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <div>
-                      <p className="text-sm text-yellow-800">
+                      <p className="text-sm text-slate-700">
                         <strong>Important:</strong> This is a preliminary check only. Final eligibility depends on 
                         complete application review and current program availability.
                       </p>
@@ -445,7 +441,7 @@ export default function DownPaymentAssistancePage() {
                 </div>
                 <div className="text-center">
                   <Link href="/contact">
-                    <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                    <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                       <Calculator className="w-5 h-5 mr-2" />
                       Check My Eligibility
                     </Button>
@@ -478,23 +474,23 @@ export default function DownPaymentAssistancePage() {
               <CardContent>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                     Last 2 years tax returns
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                     Last 30 days pay stubs
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                     Bank statements (2 months)
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                     Photo ID and Social Security card
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                     Proof of any additional income
                   </li>
                 </ul>
@@ -503,29 +499,29 @@ export default function DownPaymentAssistancePage() {
 
             <Card>
               <CardHeader>
-                <AlertCircle className="w-8 h-8 text-orange-600 mb-2" />
+                <AlertCircle className="w-8 h-8 text-blue-600 mb-2" />
                 <CardTitle>Important Tips</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start">
-                    <span className="text-orange-600 mr-2">•</span>
+                    <span className="text-blue-600 mr-2">•</span>
                     Apply early - some programs have limited funding
                   </li>
                   <li className="flex items-start">
-                    <span className="text-orange-600 mr-2">•</span>
+                    <span className="text-blue-600 mr-2">•</span>
                     Complete homebuyer education before applying
                   </li>
                   <li className="flex items-start">
-                    <span className="text-orange-600 mr-2">•</span>
+                    <span className="text-blue-600 mr-2">•</span>
                     Don't make large purchases before closing
                   </li>
                   <li className="flex items-start">
-                    <span className="text-orange-600 mr-2">•</span>
+                    <span className="text-blue-600 mr-2">•</span>
                     Keep all financial documents organized
                   </li>
                   <li className="flex items-start">
-                    <span className="text-orange-600 mr-2">•</span>
+                    <span className="text-blue-600 mr-2">•</span>
                     Consider multiple programs - you may qualify for several
                   </li>
                 </ul>
@@ -647,8 +643,8 @@ export default function DownPaymentAssistancePage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <FileText className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">FHA Resource Center</h3>
                 <p className="text-slate-600 mb-6">
@@ -668,8 +664,8 @@ export default function DownPaymentAssistancePage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">Financial Counseling Association</h3>
                 <p className="text-slate-600 mb-6">
@@ -690,8 +686,41 @@ export default function DownPaymentAssistancePage() {
         </div>
       </section>
 
+      {/* Download / Checklist */}
+      <section id="download" className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Card className="bg-slate-900 border-slate-800 text-white">
+            <CardContent className="p-8 text-center">
+              <h2 className="text-2xl md:text-3xl font-bold mb-3">Want the PDF Checklist?</h2>
+              <p className="text-slate-200 mb-6">
+                I can send you a clean, printable checklist of the most common requirements and documents for Orange
+                County down payment assistance programs.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Link href="/contact">
+                  <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
+                    <Download className="w-5 h-5 mr-2" />
+                    Request the PDF
+                  </Button>
+                </Link>
+                <a href="tel:+19498229662">
+                  <Button
+                    size="lg"
+                    variant="ghost"
+                    className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call (949) 822-9662
+                  </Button>
+                </a>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Ready to Explore Your Assistance Options?
@@ -702,13 +731,17 @@ export default function DownPaymentAssistancePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <DollarSign className="w-5 h-5 mr-2" />
                 Get Free Consultation
               </Button>
             </Link>
             <a href="tel:+19498229662">
-              <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
+              <Button
+                size="lg"
+                variant="ghost"
+                className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
+              >
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>

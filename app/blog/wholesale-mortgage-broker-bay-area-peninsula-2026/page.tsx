@@ -289,42 +289,42 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender options</td>
                   <td className="px-4 py-3 border-t">1 lender (their own products)</td>
-                  <td className="px-4 py-3 border-t text-green-700">200+ competing lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">200+ competing lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo products</td>
                   <td className="px-4 py-3 border-t">1-3 jumbo options</td>
-                  <td className="px-4 py-3 border-t text-green-700">25+ jumbo lenders with varying guidelines</td>
+                  <td className="px-4 py-3 border-t text-blue-700">25+ jumbo lenders with varying guidelines</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rate competitiveness</td>
                   <td className="px-4 py-3 border-t">Retail pricing with built-in margin</td>
-                  <td className="px-4 py-3 border-t text-green-700">Wholesale pricing (lenders compete for business)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Wholesale pricing (lenders compete for business)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">RSU/stock income</td>
                   <td className="px-4 py-3 border-t">Often not counted or restrictive rules</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple lenders with RSU-friendly policies</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple lenders with RSU-friendly policies</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-employed programs</td>
                   <td className="px-4 py-3 border-t">Tax returns required, strict DTI</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement, P&L, asset depletion options</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&L, asset depletion options</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Closing speed</td>
                   <td className="px-4 py-3 border-t">30-45 days typical</td>
-                  <td className="px-4 py-3 border-t text-green-700">21-30 days (fastest lender for each scenario)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">21-30 days (fastest lender for each scenario)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Broker compensation</td>
                   <td className="px-4 py-3 border-t">Loan officer paid by bank</td>
-                  <td className="px-4 py-3 border-t text-green-700">Broker paid by lender (no extra cost to borrower)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Broker paid by lender (no extra cost to borrower)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Declined application</td>
                   <td className="px-4 py-3 border-t">Start over at another bank</td>
-                  <td className="px-4 py-3 border-t text-green-700">Submit to alternative lender immediately</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Submit to alternative lender immediately</td>
                 </tr>
               </tbody>
             </table>
@@ -504,43 +504,43 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
                   <td className="px-4 py-3 border-t font-medium">W-2 + RSU</td>
                   <td className="px-4 py-3 border-t">W-2, pay stubs, vesting schedule</td>
                   <td className="px-4 py-3 border-t">Apple, Google, Meta engineer or manager</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders who count 75-100% of vested RSU value</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders who count 75-100% of vested RSU value</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Stock option exercise</td>
                   <td className="px-4 py-3 border-t">Exercise statements, 2-year history</td>
                   <td className="px-4 py-3 border-t">Early employee at pre-IPO startup</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders who accept stock option income as stable</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders who accept stock option income as stable</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Bank statement (self-employed)</td>
                   <td className="px-4 py-3 border-t">12-24 months business bank statements</td>
                   <td className="px-4 py-3 border-t">Startup founder, consultant, contractor</td>
-                  <td className="px-4 py-3 border-t text-green-700">Calculate income from deposits, not tax returns</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Calculate income from deposits, not tax returns</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Asset depletion</td>
                   <td className="px-4 py-3 border-t">Investment account statements</td>
                   <td className="px-4 py-3 border-t">Retired tech executive, VC partner</td>
-                  <td className="px-4 py-3 border-t text-green-700">Qualify on assets alone, no employment required</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Qualify on assets alone, no employment required</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Profit &amp; Loss statement</td>
                   <td className="px-4 py-3 border-t">CPA-prepared P&L, 1-2 years</td>
                   <td className="px-4 py-3 border-t">Business owner, independent professional</td>
-                  <td className="px-4 py-3 border-t text-green-700">Faster processing than full tax return analysis</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Faster processing than full tax return analysis</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">K-1 / partnership income</td>
                   <td className="px-4 py-3 border-t">K-1 forms, tax returns, business docs</td>
                   <td className="px-4 py-3 border-t">VC partner, law firm partner, fund manager</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders who understand K-1 income stability</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders who understand K-1 income stability</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">DSCR (investment property)</td>
                   <td className="px-4 py-3 border-t">Property rental income analysis</td>
                   <td className="px-4 py-3 border-t">Real estate investor, portfolio builder</td>
-                  <td className="px-4 py-3 border-t text-green-700">No personal income documentation required</td>
+                  <td className="px-4 py-3 border-t text-blue-700">No personal income documentation required</td>
                 </tr>
               </tbody>
             </table>
@@ -664,7 +664,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
             Hub Preview: Ultra-Luxury Peninsula — Atherton, Hillsborough, Woodside, Portola Valley &amp; Los Altos Hills
           </h2>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
             <p className="font-semibold mb-2">Hub CA-SV-A | Median Values: $4M-$10.8M | Focus: Estate Financing, Super Jumbo, Trust-Compatible Lending</p>
             <p className="mb-0">
               The ultra-luxury Peninsula corridor requires super jumbo mortgage access that extends well beyond
@@ -694,7 +694,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
             Hub Preview: Premium Silicon Valley — Palo Alto, Los Altos, Saratoga, Los Gatos &amp; Cupertino
           </h2>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <p className="font-semibold mb-2">Hub CA-SV-B | Median Values: $2.4M-$4.3M | Focus: Tech Executive RSU Qualification, Jumbo ARM Strategy</p>
             <p className="mb-0">
               Premium Silicon Valley is the heartland of technology executive home purchases. Palo Alto,
@@ -729,7 +729,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
             Hub Preview: Tech Corridor — Mountain View, Sunnyvale, San Jose, Santa Clara &amp; Campbell
           </h2>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
             <p className="font-semibold mb-2">Hub CA-SV-C | Median Values: $1.3M-$2M | Focus: W-2 + RSU Qualification, First-Time Jumbo Buyers</p>
             <p className="mb-0">
               The Tech Corridor serves the broadest buyer demographic on the Peninsula — from first-time

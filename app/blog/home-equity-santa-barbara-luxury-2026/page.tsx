@@ -540,31 +540,31 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
                   <td className="px-4 py-3 border-t font-medium">$10M+ liquid portfolio, retired</td>
                   <td className="px-4 py-3 border-t">Asset depletion at 360 months</td>
                   <td className="px-4 py-3 border-t">Best of 240/300/360-month depletion</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+50% qualifying income with 240-month</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+50% qualifying income with 240-month</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Trust distributions ($300K+/yr)</td>
                   <td className="px-4 py-3 border-t">Requires 2-yr history documentation</td>
                   <td className="px-4 py-3 border-t">1-yr history with trust document review</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Faster qualification, broader acceptance</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Faster qualification, broader acceptance</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Business ownership ($2M+ revenue)</td>
                   <td className="px-4 py-3 border-t">Tax return net income only</td>
                   <td className="px-4 py-3 border-t">Bank statement programs available</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+100%&ndash;300% qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+100%&ndash;300% qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Entertainment royalties/residuals</td>
                   <td className="px-4 py-3 border-t">Often excluded or heavily discounted</td>
                   <td className="px-4 py-3 border-t">2-yr average at full value</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$100K&ndash;$500K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$100K&ndash;$500K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Agricultural income (vineyard/orchard)</td>
                   <td className="px-4 py-3 border-t">Excluded from residential qualification</td>
                   <td className="px-4 py-3 border-t">Agricultural-aware lenders count it</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$15K&ndash;$50K+ qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$15K&ndash;$50K+ qualifying income</td>
                 </tr>
               </tbody>
             </table>
@@ -600,7 +600,7 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
                   <td className="px-4 py-3 border-t">$5,800,000</td>
                   <td className="px-4 py-3 border-t">$7,200,000</td>
                   <td className="px-4 py-3 border-t">$8,500,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+47%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+47%</td>
                   <td className="px-4 py-3 border-t">Super-Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -608,7 +608,7 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
                   <td className="px-4 py-3 border-t">$1,750,000</td>
                   <td className="px-4 py-3 border-t">$2,100,000</td>
                   <td className="px-4 py-3 border-t">$2,500,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+43%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+43%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr>
@@ -616,7 +616,7 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
                   <td className="px-4 py-3 border-t">$1,650,000</td>
                   <td className="px-4 py-3 border-t">$1,950,000</td>
                   <td className="px-4 py-3 border-t">$2,300,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+39%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+39%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
               </tbody>
@@ -703,16 +703,16 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Montecito, Santa Barbara &amp; Central Coast Luxury</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Central Coast luxury corridor &mdash; Montecito, Santa Barbara, and Carpinteria &mdash; holds an estimated $28 billion in combined residential equity, with Montecito&apos;s $8.5M median representing the single highest-value community in the entire hub system. Qualifying homeowners access $1.4M to $5.1M+ in tappable equity per property, with Butterfly Beach and Padaro Lane estates providing $8M&ndash;$50M+ in equity access. Every Montecito property and 94% of Santa Barbara properties require super-jumbo or jumbo lender access.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Central Coast&apos;s concentration of ultra-high-net-worth homeowners &mdash; living on trust distributions, portfolio income, entertainment royalties, and agricultural returns &mdash; demands lenders who understand alternative qualification methods. Asset depletion programs, trust income verification, and agricultural-aware lenders are essential in this market. Through wholesale broker access to every active super-jumbo lender, I match each homeowner with the qualification methodology and rate that optimizes their equity extraction.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare super-jumbo HELOC, HELOAN, and cash-out refinance products across all available lenders to secure the best rate and terms for your Central Coast luxury property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free estate equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare super-jumbo HELOC, HELOAN, and cash-out refinance products across all available lenders to secure the best rate and terms for your Central Coast luxury property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free estate equity analysis.
             </p>
           </div>
 

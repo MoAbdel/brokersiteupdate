@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { TrendingDown, DollarSign, Home, Clock, Calculator, CheckCircle, Zap, CreditCard, PiggyBank } from 'lucide-react';
+import { TrendingDown, DollarSign, Home, Clock, Calculator, CheckCircle, Zap, CreditCard, PiggyBank, AlertTriangle } from 'lucide-react';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -161,7 +161,7 @@ export default function RefinanceLoansPage() {
               now may be the perfect time to optimize your mortgage.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 <a href="tel:(949) 822-9662" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check My Refinance Options
@@ -213,8 +213,8 @@ export default function RefinanceLoansPage() {
                     </div>
                   </div>
                   
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
-                    <p className="text-green-800 font-semibold text-center">
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
+                    <p className="text-slate-900 font-semibold text-center">
                       Potential Savings: {option.averageSavings}
                     </p>
                   </div>
@@ -224,7 +224,7 @@ export default function RefinanceLoansPage() {
                     <ul className="space-y-2">
                       {option.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
                           <span className="text-slate-700">{benefit}</span>
                         </li>
                       ))}
@@ -238,7 +238,7 @@ export default function RefinanceLoansPage() {
                   </div>
                   
                   <Link href={option.link}>
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3">
+                    <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3">
                       Learn More
                     </Button>
                   </Link>
@@ -255,8 +255,8 @@ export default function RefinanceLoansPage() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingDown className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingDown className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Monthly Payments</h3>
                 <p className="text-slate-600">
@@ -277,8 +277,8 @@ export default function RefinanceLoansPage() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-orange-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Access Home Equity</h3>
                 <p className="text-slate-600">
@@ -288,8 +288,8 @@ export default function RefinanceLoansPage() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Home className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Eliminate PMI</h3>
                 <p className="text-slate-600">
@@ -331,52 +331,55 @@ export default function RefinanceLoansPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Good Times to Refinance</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4">✓ Good Times to Refinance</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                       <span>Loan pricing have dropped 0.5% or more</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                       <span>Your credit score has improved significantly</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                       <span>You want to eliminate PMI payments</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                       <span>You have significant equity to access</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                       <span>You want to switch from ARM to fixed-rate</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-orange-600 mb-4">⚠ Consider Carefully</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                    <AlertTriangle className="w-6 h-6 text-orange-500" aria-hidden="true" />
+                    <span>Consider Carefully</span>
+                  </h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <span className="w-5 h-5 text-orange-500 mr-3 mt-0.5">⚠</span>
+                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span>You plan to move within 2-3 years</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-5 h-5 text-orange-500 mr-3 mt-0.5">⚠</span>
+                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span>Your credit score has declined</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-5 h-5 text-orange-500 mr-3 mt-0.5">⚠</span>
+                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span>You're close to paying off your current loan</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-5 h-5 text-orange-500 mr-3 mt-0.5">⚠</span>
+                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span>Closing costs exceed potential savings</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-5 h-5 text-orange-500 mr-3 mt-0.5">⚠</span>
+                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span>Your home value has declined significantly</span>
                     </li>
                   </ul>
@@ -422,24 +425,24 @@ export default function RefinanceLoansPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-blue-600 text-white rounded-lg p-8">
+          <section className="text-center bg-slate-900 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Explore Your Refinance Options?</h2>
-            <p className="text-xl mb-6 text-blue-100">
+            <p className="text-xl mb-6 text-slate-200">
               Get your free rate review and discover how much you could save with a refinance in California or Washington.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
                 <a href="tel:(949) 822-9662">
                   Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                   Request Free Rate Review
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Mo Abdel - NMLS #1426884 | Licensed Mortgage Broker (CA &amp; WA)
             </p>
           </section>

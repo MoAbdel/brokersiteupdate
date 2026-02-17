@@ -275,7 +275,7 @@ export default function ReverseMortgageSacramentoGuidePage() {
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">Granite Bay</td>
                 <td className="py-2 px-4 border-b">$1,100,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">HECM or Proprietary</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM or Proprietary</td>
                 <td className="py-2 px-4 border-b">$440,000 - $660,000</td>
                 <td className="py-2 px-4 border-b">Los Lagos, Quarry Ponds, Loomis Basin</td>
               </tr>
@@ -338,7 +338,7 @@ export default function ReverseMortgageSacramentoGuidePage() {
               <tr><td className="py-2 px-4 border-b font-medium">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Yes (most programs)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Property Types</td><td className="py-2 px-4 border-b">SFR, FHA-approved condo, 2-4 units</td><td className="py-2 px-4 border-b">SFR, condo, some townhomes</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Credit Score</td><td className="py-2 px-4 border-b">No minimum (financial assessment)</td><td className="py-2 px-4 border-b">Typically 620+</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Best Sacramento Fit</td><td className="py-2 px-4 text-blue-700">Davis, Folsom, Roseville, El Dorado Hills</td><td className="py-2 px-4 text-green-700 font-semibold">Granite Bay estates above $1.15M</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Best Sacramento Fit</td><td className="py-2 px-4 text-blue-700">Davis, Folsom, Roseville, El Dorado Hills</td><td className="py-2 px-4 text-blue-700 font-semibold">Granite Bay estates above $1.15M</td></tr>
             </tbody>
           </table>
         </div>
@@ -660,7 +660,7 @@ export default function ReverseMortgageSacramentoGuidePage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Reverse Mortgages in the Sacramento &amp; Gold Country Region [2026]</h2>
           <p className="text-gray-800">
             The Sacramento and Gold Country region represents one of Northern California&apos;s strongest emerging markets for reverse mortgage equity access. With five affluent cities ranging from $650,000 median values in Roseville to $1.1 million in Granite Bay, Capital Region seniors hold billions in untapped home equity. Two powerful wealth drivers fuel this market: decades of state government pension accumulation by CalPERS retirees and the massive Bay Area transplant migration that brought coastal equity to Sacramento&apos;s suburbs. Combined with UC Davis faculty wealth and healthcare sector retirement income, the region&apos;s senior demographic is uniquely positioned for reverse mortgage success.
@@ -669,20 +669,20 @@ export default function ReverseMortgageSacramentoGuidePage() {
             For homes valued above $1,149,825, proprietary reverse mortgage programs unlock equity beyond the HECM cap. For the majority of Sacramento-area homes, the FHA-insured HECM product delivers government-backed protections including line of credit growth, non-recourse guarantees, and standardized fee structures. Working with a wholesale broker who compares programs from 200+ lenders ensures Capital Region seniors access the most competitive terms available in 2026.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
+            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free Sacramento Reverse Mortgage Consultation</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             Serving El Dorado Hills, Granite Bay, Folsom, Roseville &amp; Davis
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

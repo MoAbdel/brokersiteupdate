@@ -255,7 +255,7 @@ export default function AdminPage() {
               </p>
             </div>
             <Link href="/admin/weekly-update">
-              <Button className="bg-green-600 hover:bg-green-700 text-white">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white">
                 <Calendar className="w-5 h-5 mr-2" />
                 Weekly Update Hub
               </Button>
@@ -306,7 +306,7 @@ export default function AdminPage() {
           <div className="space-y-8">
             {/* Scraping and Add New Rate */}
             <Card className="shadow-lg border-slate-200">
-              <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+              <CardHeader className="bg-slate-900 text-white rounded-t-lg">
                 <div className="flex items-center justify-between">
                   <CardTitle className="flex items-center text-xl">
                     <Plus className="w-5 h-5 mr-2" />
@@ -315,7 +315,7 @@ export default function AdminPage() {
                   <Button 
                     onClick={scrapeRates}
                     disabled={isScrapingRates}
-                    className="bg-white text-blue-600 hover:bg-blue-50"
+                    className="bg-white text-slate-950 hover:bg-slate-100"
                     size="sm"
                   >
                     {isScrapingRates ? (
@@ -367,7 +367,7 @@ export default function AdminPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <Button onClick={handleCreateRate} className="bg-blue-600 hover:bg-blue-700">
+                  <Button onClick={handleCreateRate} className="bg-slate-900 hover:bg-slate-800">
                     <Plus className="w-4 h-4 mr-2" />
                     Add Rate
                   </Button>
@@ -404,7 +404,7 @@ export default function AdminPage() {
                           />
                         </div>
                         <div className="flex gap-2">
-                          <Button onClick={handleUpdateRate} className="bg-green-600 hover:bg-green-700">
+                          <Button onClick={handleUpdateRate} className="bg-slate-900 hover:bg-slate-800">
                             <Save className="w-4 h-4 mr-2" />
                             Save
                           </Button>
@@ -420,7 +420,7 @@ export default function AdminPage() {
                           <div className="flex items-center space-x-4 mt-1 text-sm text-slate-600">
                             <span>Rate: {rate.rate}%</span>
                             <span>APR: {rate.apr}%</span>
-                            {rate.is_featured && <Badge className="bg-green-100 text-green-800">Featured</Badge>}
+                            {rate.is_featured && <Badge className="bg-slate-100 text-slate-900">Featured</Badge>}
                           </div>
                         </div>
                         <div className="flex items-center space-x-2">
@@ -454,7 +454,7 @@ export default function AdminPage() {
           <div className="space-y-8">
             {/* Scraping and Add New Insight */}
             <Card className="shadow-lg border-slate-200">
-              <CardHeader className="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-t-lg">
+              <CardHeader className="bg-slate-900 text-white rounded-t-lg">
                 <div className="flex items-center justify-between">
                   <CardTitle className="flex items-center text-xl">
                     <Plus className="w-5 h-5 mr-2" />
@@ -463,7 +463,7 @@ export default function AdminPage() {
                   <Button 
                     onClick={scrapeInsights}
                     disabled={isScrapingInsights}
-                    className="bg-white text-green-600 hover:bg-green-50"
+                    className="bg-white text-slate-950 hover:bg-slate-100"
                     size="sm"
                   >
                     {isScrapingInsights ? (
@@ -533,7 +533,7 @@ export default function AdminPage() {
                     rows={2}
                   />
                 </div>
-                <Button onClick={handleCreateInsight} className="bg-green-600 hover:bg-green-700">
+                <Button onClick={handleCreateInsight} className="bg-slate-900 hover:bg-slate-800">
                   <Plus className="w-4 h-4 mr-2" />
                   Add Insight
                 </Button>
@@ -581,7 +581,7 @@ export default function AdminPage() {
                           rows={2}
                         />
                         <div className="flex gap-2">
-                          <Button onClick={handleUpdateInsight} className="bg-green-600 hover:bg-green-700">
+                          <Button onClick={handleUpdateInsight} className="bg-slate-900 hover:bg-slate-800">
                             <Save className="w-4 h-4 mr-2" />
                             Save
                           </Button>
@@ -597,7 +597,7 @@ export default function AdminPage() {
                             <h3 className="font-semibold text-slate-900">{insight.metric}</h3>
                             <span className="text-2xl font-bold text-blue-600">{insight.value}</span>
                             <div className={`flex items-center space-x-1 text-sm font-medium ${
-                              insight.trend === 'up' ? 'text-green-600' : 
+                              insight.trend === 'up' ? 'text-blue-600' : 
                               insight.trend === 'down' ? 'text-red-500' : 'text-slate-600'
                             }`}>
                               {insight.trend === 'up' && <TrendingUp className="w-4 h-4" />}
@@ -653,7 +653,7 @@ export default function AdminPage() {
                           <Badge className={
                             quote.status === 'new' ? 'bg-blue-100 text-blue-800' :
                             quote.status === 'contacted' ? 'bg-yellow-100 text-yellow-800' :
-                            quote.status === 'qualified' ? 'bg-green-100 text-green-800' :
+                            quote.status === 'qualified' ? 'bg-slate-100 text-slate-900' :
                             'bg-slate-100 text-slate-800'
                           }>
                             {quote.status}

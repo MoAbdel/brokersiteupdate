@@ -650,7 +650,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
                   <td className="px-4 py-3 border-t">$725,000</td>
                   <td className="px-4 py-3 border-t">$880,000</td>
                   <td className="px-4 py-3 border-t">$1,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+38%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+38%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -658,7 +658,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
                   <td className="px-4 py-3 border-t">$720,000</td>
                   <td className="px-4 py-3 border-t">$870,000</td>
                   <td className="px-4 py-3 border-t">$1,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+39%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+39%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
                 <tr>
@@ -666,7 +666,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
                   <td className="px-4 py-3 border-t">$555,000</td>
                   <td className="px-4 py-3 border-t">$685,000</td>
                   <td className="px-4 py-3 border-t">$800,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+44%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+44%</td>
                   <td className="px-4 py-3 border-t">Conforming</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -674,7 +674,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
                   <td className="px-4 py-3 border-t">$650,000</td>
                   <td className="px-4 py-3 border-t">$790,000</td>
                   <td className="px-4 py-3 border-t">$900,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+38%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+38%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
               </tbody>
@@ -769,16 +769,16 @@ export default function HomeEquityCentralCoastCommunities2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Central Coast Communities</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Central Coast corridor &mdash; San Luis Obispo, Pismo Beach, Paso Robles, and Cambria &mdash; holds an estimated $8.4 billion in combined residential equity, driven by 38&ndash;44% five-year appreciation across all four communities. With median values ranging from $800K in Paso Robles to $1M in San Luis Obispo and Pismo Beach, qualifying homeowners access $280K to $420K+ in tappable equity per property. The Central Coast&apos;s unique mix of college town premiums, coastal retirement demand, wine country estate values, and artist colony desirability creates a homeowner population with distinctively diverse income profiles.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Cal Poly professors with summer teaching and consulting income, Paso Robles winemakers with grape sale and tasting room revenue, Cambria artists with gallery commission and online marketplace sales, and Pismo Beach retirees with pension and distribution income all require specialized lender matching that conservative banks cannot provide. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type, property type, and equity goals.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Central Coast property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Central Coast property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

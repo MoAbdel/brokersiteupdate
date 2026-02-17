@@ -141,7 +141,7 @@ export default function ExitIntentModal() {
                     <h2 className="text-3xl font-bold leading-tight mb-4">
                         Wait! Don't Overpay For Your Mortgage.
                     </h2>
-                    <p className="text-blue-100 mb-6 text-lg">
+                    <p className="text-slate-200 mb-6 text-lg">
                         Banks charge retail prices. We give you wholesale rates.
                     </p>
                     <ul className="space-y-3 mb-8">
@@ -174,7 +174,7 @@ export default function ExitIntentModal() {
               <div className="space-y-4">
                 <Button 
                     onClick={handleCtaClick}
-                    className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg shadow-lg hover:shadow-green-600/20 transition-all duration-300 group"
+                    className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg shadow-lg hover:shadow-blue-600/20 transition-all duration-300 group"
                 >
                     Show Me My Rate {' '}
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -255,7 +255,7 @@ export default function ExitIntentModal() {
                     <Button 
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg font-bold shadow-lg hover:shadow-green-600/20 transition-all duration-300"
+                        className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg font-bold shadow-lg hover:shadow-green-600/20 transition-all duration-300"
                     >
                         {isSubmitting ? 'Analyzing Rates...' : 'Show Me My Savings'}
                     </Button>

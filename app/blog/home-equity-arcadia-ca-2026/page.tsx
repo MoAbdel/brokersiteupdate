@@ -329,8 +329,8 @@ export default function HomeEquityArcadiaCAPage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Keeps Current Mortgage</td>
-                <td className="py-2 px-4 border-b text-green-700">Yes</td>
-                <td className="py-2 px-4 border-b text-green-700">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-700">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-700">Yes</td>
                 <td className="py-2 px-4 border-b">No - Replaces</td>
               </tr>
               <tr>
@@ -341,13 +341,13 @@ export default function HomeEquityArcadiaCAPage() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Funding Flexibility</td>
-                <td className="py-2 px-4 border-b text-green-700">Draw as needed</td>
+                <td className="py-2 px-4 border-b text-blue-700">Draw as needed</td>
                 <td className="py-2 px-4 border-b">Lump sum</td>
                 <td className="py-2 px-4 border-b">Lump sum</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Closing Costs</td>
-                <td className="py-2 px-4 border-b text-green-700">Lower (0-2%)</td>
+                <td className="py-2 px-4 border-b text-blue-700">Lower (0-2%)</td>
                 <td className="py-2 px-4 border-b">Moderate</td>
                 <td className="py-2 px-4 border-b">Higher (2-5%)</td>
               </tr>

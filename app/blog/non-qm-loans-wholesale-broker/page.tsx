@@ -231,42 +231,42 @@ export default function NonQMLoansWholesaleBrokerPage() {
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Income Documentation</td>
                 <td className="py-3 px-4 border border-gray-300">Tax returns, W-2s, pay stubs</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Bank statements, assets, rental income, or traditional</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Bank statements, assets, rental income, or traditional</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">DTI Flexibility</td>
                 <td className="py-3 px-4 border border-gray-300">Generally under 43%</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Up to 50%+ with compensating factors</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Up to 50%+ with compensating factors</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Self-Employed</td>
                 <td className="py-3 px-4 border border-gray-300">Tax return income only</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Bank deposits reflect true cash flow</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Bank deposits reflect true cash flow</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Investment Property</td>
                 <td className="py-3 px-4 border border-gray-300">Personal income required</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Rental income qualifies (DSCR)</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Rental income qualifies (DSCR)</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Credit Events</td>
                 <td className="py-3 px-4 border border-gray-300">4-7 year waiting periods</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">2+ years possible</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">2+ years possible</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Foreign Nationals</td>
                 <td className="py-3 px-4 border border-gray-300">Generally not eligible</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Specialized programs available</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Specialized programs available</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Interest-Only Option</td>
                 <td className="py-3 px-4 border border-gray-300">Limited availability</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Widely available</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Widely available</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Lender Access</td>
                 <td className="py-3 px-4 border border-gray-300">Banks and credit unions</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">100+ specialty lenders via wholesale</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">100+ specialty lenders via wholesale</td>
               </tr>
             </tbody>
           </table>
@@ -604,32 +604,32 @@ export default function NonQMLoansWholesaleBrokerPage() {
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Non-QM Lender Access</td>
                 <td className="py-3 px-4 border border-gray-300">0-1</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">100+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">100+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Bank Statement Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Rarely offered</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">50+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">50+</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">DSCR Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Not available</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">40+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">40+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Asset Depletion</td>
                 <td className="py-3 px-4 border border-gray-300">Rare</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">30+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">30+</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Foreign National</td>
                 <td className="py-3 px-4 border border-gray-300">Very rare</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">20+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">20+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">If Denied</td>
                 <td className="py-3 px-4 border border-gray-300">Start over elsewhere</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">Try another lender same day</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">Try another lender same day</td>
               </tr>
             </tbody>
           </table>

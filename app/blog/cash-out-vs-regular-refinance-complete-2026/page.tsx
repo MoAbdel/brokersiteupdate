@@ -261,7 +261,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
           <section id="comparison-table">
             <h2 className="text-3xl font-bold mt-12 mb-6">Cash-Out vs Rate-and-Term Refinance: Complete Comparison</h2>
 
-            <div className="voice-answer bg-green-50 p-4 rounded-lg mb-6">
+            <div className="voice-answer bg-slate-50 p-4 rounded-lg mb-6">
               <p className="text-green-900 font-medium">
                 A cash-out refinance gives you cash by borrowing more than you owe, while a rate-and-term refinance only changes your rate or term without providing cash. Cash-out has higher rates and stricter requirements.
               </p>
@@ -273,69 +273,69 @@ export default function CashOutVsRegularRefinanceCompletePage() {
                   <tr>
                     <th className="border border-gray-200 px-4 py-3 text-left font-bold">Feature</th>
                     <th className="border border-gray-200 px-4 py-3 text-left font-bold bg-blue-50">Rate-and-Term Refinance</th>
-                    <th className="border border-gray-200 px-4 py-3 text-left font-bold bg-purple-50">Cash-Out Refinance</th>
+                    <th className="border border-gray-200 px-4 py-3 text-left font-bold bg-slate-50">Cash-Out Refinance</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Primary Purpose</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">Lower rate or change loan term</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">Access home equity as cash</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">Access home equity as cash</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Cash at Closing</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">No (maximum $2,000 allowed)</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">Yes (unlimited up to LTV limit)</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">Yes (unlimited up to LTV limit)</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Interest Rates</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">Lower (market rates)</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">0.125-0.5% higher than rate-and-term</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">0.125-0.5% higher than rate-and-term</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Maximum LTV (Conventional)</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">97% primary residence</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">80% primary residence</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">80% primary residence</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Maximum LTV (VA)</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">100%</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">100%</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">100%</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Maximum LTV (FHA)</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">97.75%</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">80%</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">80%</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Credit Score Minimum</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">620+ (580+ FHA streamline)</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">620+ (stricter underwriting)</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">620+ (stricter underwriting)</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Seasoning Requirement</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">Often none required</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">6-12 months typically</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">6-12 months typically</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Closing Timeline</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">21-30 days</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">30-45 days</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">30-45 days</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Typical Closing Costs</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">2-3% of loan amount</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">2-5% of loan amount</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">2-5% of loan amount</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">DTI Limit</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">Up to 50% with compensating factors</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">Typically 43-45%</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">Typically 43-45%</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3 font-semibold">Investment Property LTV</td>
                     <td className="border border-gray-200 px-4 py-3 bg-blue-50/30">85%</td>
-                    <td className="border border-gray-200 px-4 py-3 bg-purple-50/30">75%</td>
+                    <td className="border border-gray-200 px-4 py-3 bg-slate-50/30">75%</td>
                   </tr>
                 </tbody>
               </table>
@@ -384,39 +384,39 @@ export default function CashOutVsRegularRefinanceCompletePage() {
                 </ul>
               </div>
 
-              <div className="bg-purple-50 p-6 rounded-xl border border-purple-200">
+              <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
                 <h3 className="text-xl font-bold text-purple-900 mb-4">Choose Cash-Out Refinance If:</h3>
                 <ul className="space-y-3 text-purple-800">
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You need funds for home improvements
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You want to consolidate high-interest debt
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You have substantial equity (20%+ after cash-out)
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You can still improve or maintain your rate
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     Your current rate is higher than cash-out rates
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You prefer one mortgage over HELOC
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You need a large lump sum for investment
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-600 mr-2">&#10003;</span>
+                    <span className="text-blue-600 mr-2">&#10003;</span>
                     You want fixed-rate cash access (vs. variable HELOC)
                   </li>
                 </ul>
@@ -576,27 +576,27 @@ export default function CashOutVsRegularRefinanceCompletePage() {
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4">Scenario 2: Major Home Renovation</h3>
-            <div className="bg-purple-50 p-6 rounded-lg my-6">
+            <div className="bg-slate-50 p-6 rounded-lg my-6">
               <p className="font-semibold text-purple-900 mb-3">Situation:</p>
               <p className="text-purple-800 mb-4">Michael and Lisa want to add a $200,000 accessory dwelling unit (ADU) to their property. Their home is worth $1.2 million with a $400,000 mortgage at 4.5%.</p>
               <p className="font-semibold text-purple-900 mb-2">Best Choice: Consider a HELOC or Home Equity Loan</p>
-              <p className="text-purple-800">With a low existing rate of 4.5%, a cash-out refinance at 6.5% would increase their entire loan&apos;s rate. A <a href="/blog/how-does-heloc-work-2026" className="text-purple-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-purple-600 hover:underline">home equity loan</a> keeps their favorable first mortgage intact while accessing equity for the ADU.</p>
+              <p className="text-purple-800">With a low existing rate of 4.5%, a cash-out refinance at 6.5% would increase their entire loan&apos;s rate. A <a href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">home equity loan</a> keeps their favorable first mortgage intact while accessing equity for the ADU.</p>
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4">Scenario 3: Debt Consolidation with High Current Rate</h3>
-            <div className="bg-green-50 p-6 rounded-lg my-6">
+            <div className="bg-slate-50 p-6 rounded-lg my-6">
               <p className="font-semibold text-green-900 mb-3">Situation:</p>
-              <p className="text-green-800 mb-4">James has a $500,000 mortgage at 7.75% and $75,000 in credit card debt at 24% APR. His home is worth $850,000.</p>
+              <p className="text-slate-900 mb-4">James has a $500,000 mortgage at 7.75% and $75,000 in credit card debt at 24% APR. His home is worth $850,000.</p>
               <p className="font-semibold text-green-900 mb-2">Best Choice: Cash-Out Refinance</p>
-              <p className="text-green-800">James can do a cash-out refinance at 6.5%, lowering his mortgage rate while paying off the credit cards. His new $575,000 loan at 6.5% costs $3,634/month versus his current combined payments of $4,025 ($3,400 mortgage + $625 minimum credit card payments). He saves $391/month and eliminates 24% interest debt.</p>
+              <p className="text-slate-900">James can do a cash-out refinance at 6.5%, lowering his mortgage rate while paying off the credit cards. His new $575,000 loan at 6.5% costs $3,634/month versus his current combined payments of $4,025 ($3,400 mortgage + $625 minimum credit card payments). He saves $391/month and eliminates 24% interest debt.</p>
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4">Scenario 4: Investment Property Purchase</h3>
-            <div className="bg-orange-50 p-6 rounded-lg my-6">
+            <div className="bg-slate-50 p-6 rounded-lg my-6">
               <p className="font-semibold text-orange-900 mb-3">Situation:</p>
-              <p className="text-orange-800 mb-4">David wants to purchase a $400,000 rental property and needs $100,000 for the down payment. His primary residence is worth $900,000 with a $350,000 mortgage at 6.0%.</p>
+              <p className="text-slate-900 mb-4">David wants to purchase a $400,000 rental property and needs $100,000 for the down payment. His primary residence is worth $900,000 with a $350,000 mortgage at 6.0%.</p>
               <p className="font-semibold text-orange-900 mb-2">Best Choice: Cash-Out Refinance</p>
-              <p className="text-orange-800">David can refinance to $450,000 (50% LTV) at approximately 6.5%. The $100,000 cash funds his rental down payment. Since his current rate is already near market rates, the rate increase is minimal, and he gains an income-producing asset.</p>
+              <p className="text-slate-900">David can refinance to $450,000 (50% LTV) at approximately 6.5%. The $100,000 cash funds his rental down payment. Since his current rate is already near market rates, the rate increase is minimal, and he gains an income-producing asset.</p>
             </div>
           </section>
 
@@ -633,16 +633,16 @@ export default function CashOutVsRegularRefinanceCompletePage() {
                     <td className="border border-gray-200 px-4 py-3">$500,000</td>
                     <td className="border border-gray-200 px-4 py-3">6.125%</td>
                     <td className="border border-gray-200 px-4 py-3">$3,039</td>
-                    <td className="border border-gray-200 px-4 py-3 text-green-600 font-bold">-$372</td>
+                    <td className="border border-gray-200 px-4 py-3 text-blue-600 font-bold">-$372</td>
                   </tr>
-                  <tr className="bg-purple-50">
+                  <tr className="bg-slate-50">
                     <td className="border border-gray-200 px-4 py-3">Cash-Out ($100K)</td>
                     <td className="border border-gray-200 px-4 py-3">$600,000</td>
                     <td className="border border-gray-200 px-4 py-3">6.50%</td>
                     <td className="border border-gray-200 px-4 py-3">$3,792</td>
                     <td className="border border-gray-200 px-4 py-3 text-red-600 font-bold">+$381</td>
                   </tr>
-                  <tr className="bg-purple-50">
+                  <tr className="bg-slate-50">
                     <td className="border border-gray-200 px-4 py-3">Cash-Out ($200K)</td>
                     <td className="border border-gray-200 px-4 py-3">$700,000</td>
                     <td className="border border-gray-200 px-4 py-3">6.50%</td>
@@ -906,7 +906,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
               <div className="text-center">
                 <a
                   href="/contact"
-                  className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors"
+                  className="inline-block bg-slate-900 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-800 transition-colors"
                 >
                   Get Your Personalized Refinance Comparison
                 </a>

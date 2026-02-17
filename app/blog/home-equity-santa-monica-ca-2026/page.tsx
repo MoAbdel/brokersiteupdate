@@ -318,13 +318,13 @@ export default function HomeEquitySantaMonicaPage() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Keeps 1st Mortgage</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes</td>
                 <td className="py-2 px-4 border-b">No - replaces it</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Closing Costs</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Lower (0-2%)</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Lower (0-2%)</td>
                 <td className="py-2 px-4 border-b">Moderate (2-4%)</td>
                 <td className="py-2 px-4 border-b">Higher (2-5%)</td>
               </tr>

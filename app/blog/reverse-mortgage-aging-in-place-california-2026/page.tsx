@@ -155,7 +155,7 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get HECM Quote for Modifications
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -213,29 +213,29 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Prop 13 tax protection</strong> &mdash; locked-in low property tax rates for long-term owners</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Prop 19 portability</strong> &mdash; incentivizes staying put to retain your tax base</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>High home equity</strong> &mdash; California homeowners hold substantial equity for HECM access</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>ADU-friendly laws</strong> &mdash; AB 1033 and SB 9 make building caregiver units easier</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Cost advantage</strong> &mdash; home modifications cost a fraction of assisted living</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Community ties</strong> &mdash; remain near medical providers, family, and social networks</span>
                 </div>
               </div>
@@ -305,8 +305,8 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                   <td className="px-4 py-3 text-sm font-medium text-emerald-700">Line of Credit</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Phased modifications over time; uncertain future needs</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Draw as needed, any amount</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; unused funds grow over time</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Highest</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; unused funds grow over time</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Highest</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lump Sum</td>
@@ -326,8 +326,8 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Modified Tenure</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Monthly income + funds for modifications</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Monthly payment + line of credit</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; on LOC portion</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">High &mdash; income + flexibility</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; on LOC portion</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">High &mdash; income + flexibility</td>
                 </tr>
               </tbody>
             </table>
@@ -427,7 +427,7 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Kitchen Modifications</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Lowered counters, pull-out shelves, lever faucets, anti-scald valves</td>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$5,000 &ndash; $15,000</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Medium &mdash; daily use area</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Medium &mdash; daily use area</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Stairlift Installation</td>
@@ -439,13 +439,13 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Widened Doorways &amp; Hallways</td>
                   <td className="px-4 py-3 text-sm text-slate-600">36&quot; minimum clearance per opening, structural modifications</td>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$1,000 &ndash; $3,000 per opening</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Medium &mdash; wheelchair/walker access</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Medium &mdash; wheelchair/walker access</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Smart Home Technology</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Voice-controlled lights, smart locks, medical alerts, video doorbell, fall detection</td>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$2,000 &ndash; $8,000</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Medium &mdash; safety and convenience</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Medium &mdash; safety and convenience</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Wheelchair Ramp</td>
@@ -457,7 +457,7 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">First-Floor Bedroom Conversion</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Convert den/office to accessible bedroom with closet and flooring</td>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$10,000 &ndash; $30,000</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Medium &mdash; eliminates stair use</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Medium &mdash; eliminates stair use</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">ADU for Caregiver</td>
@@ -536,9 +536,9 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
             By contrast, staying in your current home and modifying it for aging in place preserves your existing property tax assessment entirely. For a senior who purchased their home in the 1980s or 1990s, the annual property tax savings from maintaining the original Prop 13 base rate can exceed $10,000-$15,000 per year compared to what they would pay on a newly purchased home. Over a decade of aging in place, this tax protection alone can save $100,000-$150,000 &mdash; more than enough to fund comprehensive home modifications.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Prop 19 Comparison: Stay vs Move
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
@@ -628,28 +628,28 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Monthly Payment</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">None required</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">None required</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Interest-only minimum</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Fixed monthly payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">New mortgage payment</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Credit Line Growth</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; grows over time</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; grows over time</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Can Be Frozen/Reduced</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">No</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">No</td>
                   <td className="px-4 py-3 text-sm text-red-600 font-medium">Yes &mdash; lender can freeze</td>
                   <td className="px-4 py-3 text-sm text-slate-600">N/A</td>
                   <td className="px-4 py-3 text-sm text-slate-600">N/A</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Non-Recourse Protection</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; FHA insured</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; FHA insured</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No</td>
@@ -663,14 +663,14 @@ export default function ReverseMortgageAgingInPlaceCalifornia2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Income Qualification</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Minimal &mdash; residual income</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Minimal &mdash; residual income</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full income verification</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full income verification</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full income verification</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Best For Seniors</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Ideal for fixed income</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Ideal for fixed income</td>
                   <td className="px-4 py-3 text-sm text-slate-600">If under 62 with income</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Small amounts only</td>
                   <td className="px-4 py-3 text-sm text-slate-600">If under 62 with income</td>

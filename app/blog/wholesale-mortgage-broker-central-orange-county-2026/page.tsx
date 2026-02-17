@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Central Orange County: Irvine, Newport Beach, Costa Mesa [2026]',
@@ -134,22 +135,22 @@ export default function WholesaleMortgageBrokerCentralOC() {
                 <tr>
                   <td className="px-4 py-3 border-t">RSU/Stock option income</td>
                   <td className="px-4 py-3 border-t">Often excluded</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple counting methods</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple counting methods</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Jumbo rates</td>
                   <td className="px-4 py-3 border-t">Single portfolio rate</td>
-                  <td className="px-4 py-3 border-t text-green-700">20+ competing lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">20+ competing lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Foreign national</td>
                   <td className="px-4 py-3 border-t">Typically unavailable</td>
-                  <td className="px-4 py-3 border-t text-green-700">Visa-specific programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Visa-specific programs</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Bank statement loans</td>
                   <td className="px-4 py-3 border-t">Rarely offered</td>
-                  <td className="px-4 py-3 border-t text-green-700">12/24 month programs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">12/24 month programs</td>
                 </tr>
               </tbody>
             </table>
@@ -198,7 +199,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Irvine Tech Professional Financing</h4>
             <p className="mb-0">Irvine&apos;s tech workforce at Blizzard, Google, Amazon, Rivian, and startups often has 40-60% of compensation in RSUs or stock options. Wholesale brokers access lenders who count vested equity at 75-100% for qualification—potentially adding $300,000+ to purchasing power compared to banks that exclude this income.</p>
           </div>
@@ -284,7 +285,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             </div>
           </div>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Costa Mesa First-Time Buyer Opportunity</h4>
             <p className="mb-0">Costa Mesa remains one of Central OC&apos;s most accessible markets for first-time buyers. With prices ranging from high $700Ks for condos to $1.3M for single-family, many purchases stay within conforming limits. Wholesale brokers still deliver value through rate competition and down payment assistance program access.</p>
           </div>
@@ -396,7 +397,10 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free rate quote:</p>
-            <p className="text-lg">📞 (949) 822-9662</p>
+            <p className="text-lg inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

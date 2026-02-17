@@ -150,13 +150,13 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
               Using Home Equity for Investment Property Down Payment: HELOC, Cash-Out &amp; Bridge Strategies in 2026
             </h1>
 
-            <p className="text-xl md:text-2xl text-blue-200 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
               According to Mo Abdel, NMLS #1426884, homeowners sitting on substantial equity have a direct path to investment property ownership without liquidating savings or selling assets. Whether through a HELOC, cash-out refinance, home equity loan, or bridge financing, your primary residence equity can fund the down payment on a rental or investment property. In our Orange County and California closings, investors using home equity for investment down payments consistently build multi-property portfolios faster than those waiting to save cash. Here is every strategy, how lenders evaluate borrowed down payments, and why combining home equity with a DSCR loan creates the most powerful acquisition structure available in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Equity Strategy Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -198,7 +198,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-white rounded-lg p-4">
-                <p className="text-sm font-medium text-green-700 mb-2">Accepted Down Payment Sources</p>
+                <p className="text-sm font-medium text-blue-700 mb-2">Accepted Down Payment Sources</p>
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>&bull; HELOC on primary residence or other property</li>
                   <li>&bull; Cash-out refinance proceeds</li>
@@ -252,8 +252,8 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Up to 85% CLTV</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Variable (prime-based)</td>
                   <td className="px-4 py-3 text-sm text-blue-600 font-medium">Moderate &mdash; payment on drawn amount</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Instant if open; 30-45 days if new</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely accepted</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Instant if open; 30-45 days if new</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely accepted</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Cash-Out Refinance</td>
@@ -262,7 +262,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Fixed (30-year typical)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Replaces existing payment; net impact varies</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely accepted</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely accepted</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Home Equity Loan (HELOAN)</td>
@@ -271,15 +271,15 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Fixed</td>
                   <td className="px-4 py-3 text-sm text-blue-600 font-medium">Moderate &mdash; fixed monthly payment added</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely accepted</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely accepted</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Bridge Loan</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Speed; competitive offer situations; short-term need</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Up to 70-75% LTV</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Variable or fixed (short-term)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">High &mdash; interest-only but higher rate</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">7-14 days</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">High &mdash; interest-only but higher rate</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">7-14 days</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Accepted; requires exit plan</td>
                 </tr>
                 <tr>
@@ -289,7 +289,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Fixed or variable</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Single payment covers both properties</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-45 days</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Select lenders only</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Select lenders only</td>
                 </tr>
               </tbody>
             </table>
@@ -406,9 +406,9 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             </li>
           </ol>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Important HELOC Considerations for Investment Property Down Payments
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -432,29 +432,29 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
 
           <h3 className="text-xl font-bold text-slate-900 mb-4">When Cash-Out Refinance Is the Better Choice</h3>
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Current Rates Are Lower Than Your Existing Rate</h4>
                 <p className="text-slate-600">If refinancing lowers your rate while also pulling out cash, you improve your cash flow and fund the down payment simultaneously. This is a rate improvement plus equity access in one transaction.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">You Need a Large Lump Sum</h4>
                 <p className="text-slate-600">Cash-out refinances typically access up to 80% LTV on primary residences. For high-value California and Washington homes, this can mean $300,000-$500,000+ in a single transaction &mdash; enough for multiple investment property down payments.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">You Prefer a Fixed-Rate Structure</h4>
                 <p className="text-slate-600">Unlike a variable-rate HELOC, a cash-out refinance locks in a fixed rate for 30 years. Investors who want payment predictability and rate certainty often prefer this structure.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">You Want to Consolidate Into One Payment</h4>
                 <p className="text-slate-600">If you already have a first mortgage plus a HELOC or second lien, a cash-out refinance consolidates everything into a single payment while also pulling additional equity for the investment property purchase.</p>
@@ -562,8 +562,8 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
 
           <h3 className="text-xl font-bold text-slate-900 mb-4">Cross-Collateralization: Pros and Cons for Investors</h3>
           <div className="grid md:grid-cols-2 gap-4 mb-6">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="font-semibold text-green-800 mb-2">Advantages</p>
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+              <p className="font-semibold text-slate-900 mb-2">Advantages</p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>&bull; Eliminates separate equity withdrawal transaction</li>
                 <li>&bull; May reduce overall closing costs (one transaction)</li>
@@ -615,8 +615,8 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
               <div className="bg-red-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-red-800">Result: This DTI exceeds the typical 45-50% conventional investment property maximum. The investor would be declined under conventional guidelines despite having strong equity and a cash-flowing rental property.</p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">DSCR Alternative: With a DSCR loan, the investor&apos;s DTI is irrelevant. The lender only evaluates whether the investment property&apos;s rent covers its PITIA. If the $2,800 PITIA is covered by $3,200 in rent (DSCR 1.14), the loan is approved regardless of the HELOC payment or personal DTI.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">DSCR Alternative: With a DSCR loan, the investor&apos;s DTI is irrelevant. The lender only evaluates whether the investment property&apos;s rent covers its PITIA. If the $2,800 PITIA is covered by $3,200 in rent (DSCR 1.14), the loan is approved regardless of the HELOC payment or personal DTI.</p>
               </div>
             </div>
           </div>
@@ -779,10 +779,10 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: Your Home Equity Is Your Fastest Path to Investment Property Ownership
           </h2>
-          <p className="text-lg text-blue-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             Homeowners across California and Washington are sitting on record levels of home equity. Converting that equity into investment property down payments through a HELOC, cash-out refinance, or bridge loan is the most proven strategy for building a rental portfolio without depleting cash reserves. When combined with a DSCR loan that qualifies the investment property on rental income alone, this approach eliminates the DTI bottleneck that stops conventional investors after their first few acquisitions.
           </p>
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both equity access products and DSCR investment property loans across 100+ lenders to build the optimal financing structure for each investor&apos;s portfolio goals. Whether you need a HELOC on your primary residence, a cash-out refinance, or a DSCR loan on your next rental property, the wholesale channel delivers better rates and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -804,22 +804,22 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Home Equity &amp; Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Cash-Out Refinance: How It Works in 2026
             </Link>
-            <Link href="/blog/how-does-heloc-work" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/how-does-heloc-work" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; How Does a HELOC Work? Complete Guide
             </Link>
-            <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; HELOC vs Cash-Out Refinance 2026
             </Link>
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained for Investors 2026
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements: Rates, Ratios &amp; Down Payment Guide
             </Link>
-            <Link href="/blog/what-can-you-use-home-equity-for-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/what-can-you-use-home-equity-for-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; What Can You Use Home Equity For? 2026 Guide
             </Link>
           </div>

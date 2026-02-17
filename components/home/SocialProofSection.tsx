@@ -109,33 +109,64 @@ export default function SocialProofSection() {
         </div>
 
         {/* Reviews Carousel */}
-        <div className="bg-slate-900 rounded-2xl p-8 text-white relative overflow-hidden">
-          <div className="absolute top-4 right-4 flex items-center gap-1 text-yellow-400">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-5 h-5 fill-current" aria-hidden="true" />
-            ))}
+        <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-slate-950 via-slate-950 to-slate-900 p-6 md:p-7 text-white shadow-xl shadow-slate-950/30">
+          {/* Subtle pattern + glow (matches the premium slate aesthetic) */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 opacity-[0.16]"
+            style={{
+              backgroundImage:
+                'linear-gradient(to right, rgba(148,163,184,0.22) 1px, transparent 1px), linear-gradient(to bottom, rgba(148,163,184,0.22) 1px, transparent 1px)',
+              backgroundSize: '56px 56px',
+            }}
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -top-20 left-1/2 h-56 w-[32rem] -translate-x-1/2 rounded-full bg-blue-600/15 blur-3xl"
+          />
+
+          <div className="absolute right-5 top-5 flex items-center gap-2 text-yellow-400/95">
+            <div className="flex items-center gap-1">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="h-4 w-4 fill-current" aria-hidden="true" />
+              ))}
+            </div>
+            <span className="text-xs font-semibold text-slate-200">5.0</span>
           </div>
 
           <div className="relative z-10">
             <div className="max-w-3xl mx-auto">
-              <div className="min-h-[200px] flex flex-col justify-center">
-                <p className="text-lg md:text-xl leading-relaxed mb-6 italic" data-speakable="true">
-                  &ldquo;{reviews[currentReview].quote}&rdquo;
-                </p>
-                <div className="flex flex-wrap items-center justify-between gap-4">
-                  <div>
-                    <p className="font-semibold text-lg">{reviews[currentReview].name}</p>
-                    <p className="text-slate-400 text-sm">
-                      {reviews[currentReview].location} &bull; {reviews[currentReview].date}
-                    </p>
+              <div className="min-h-[140px] md:min-h-[160px] flex flex-col justify-center">
+                <p className="text-sm font-semibold tracking-wide text-slate-300">Zillow review</p>
+                <blockquote className="mt-2 text-base md:text-lg leading-relaxed text-slate-100" data-speakable="true">
+                  <span className="text-slate-300">&ldquo;</span>
+                  {reviews[currentReview].quote}
+                  <span className="text-slate-300">&rdquo;</span>
+                </blockquote>
+
+                <div className="mt-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                  <div className="flex items-center gap-3">
+                    <div
+                      aria-hidden="true"
+                      className="h-9 w-9 rounded-full border border-white/10 bg-white/10 text-sm font-semibold text-white grid place-items-center"
+                    >
+                      {reviews[currentReview].name.trim().slice(0, 1).toUpperCase()}
+                    </div>
+                    <div>
+                      <p className="font-semibold text-base">{reviews[currentReview].name}</p>
+                      <p className="text-slate-400 text-sm">
+                        {reviews[currentReview].location} &bull; {reviews[currentReview].date}
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-white/10 px-3 py-1 rounded-full text-sm">
+
+                  <div className="flex flex-wrap gap-2 sm:justify-end">
+                    <span className="bg-white/10 px-3 py-1 rounded-full text-xs font-semibold text-slate-100">
                       {reviews[currentReview].loanType}
                     </span>
                     {reviews[currentReview].closedOnTime && (
-                      <span className="bg-green-600/30 px-3 py-1 rounded-full text-sm text-green-300">
-                        &#10003; Closed on time
+                      <span className="bg-emerald-500/15 border border-emerald-400/20 px-3 py-1 rounded-full text-xs font-semibold text-emerald-200">
+                        Closed on time
                       </span>
                     )}
                   </div>
@@ -143,13 +174,13 @@ export default function SocialProofSection() {
               </div>
 
               {/* Carousel Controls */}
-              <div className="flex items-center justify-center gap-4 mt-8 pt-6 border-t border-white/10">
+              <div className="flex items-center justify-center gap-4 mt-6 pt-5 border-t border-white/10">
                 <button
                   onClick={prevReview}
-                  className="bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+                  className="rounded-full border border-white/10 bg-white/5 p-2 transition-colors hover:bg-white/10 active:bg-white/15"
                   aria-label="Previous review"
                 >
-                  <ChevronLeft className="w-6 h-6" />
+                  <ChevronLeft className="w-5 h-5" />
                 </button>
 
                 <div className="flex gap-2">
@@ -157,8 +188,9 @@ export default function SocialProofSection() {
                     <button
                       key={index}
                       onClick={() => setCurrentReview(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${index === currentReview ? 'bg-white w-8' : 'bg-white/40'
-                        }`}
+                      className={`h-2 rounded-full transition-all ${
+                        index === currentReview ? 'bg-white/95 w-8' : 'bg-white/35 w-2'
+                      }`}
                       aria-label={`Go to review ${index + 1}`}
                     />
                   ))}
@@ -166,10 +198,10 @@ export default function SocialProofSection() {
 
                 <button
                   onClick={nextReview}
-                  className="bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+                  className="rounded-full border border-white/10 bg-white/5 p-2 transition-colors hover:bg-white/10 active:bg-white/15"
                   aria-label="Next review"
                 >
-                  <ChevronRight className="w-6 h-6" />
+                  <ChevronRight className="w-5 h-5" />
                 </button>
               </div>
             </div>

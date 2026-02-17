@@ -96,18 +96,18 @@ export default function SelfEmployedHomeLoans() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
-              <Briefcase className="w-12 h-12 text-purple-200" />
-              <span className="text-lg font-semibold text-purple-100">Specialized Programs</span>
+              <Briefcase className="w-12 h-12 text-slate-200" />
+              <span className="text-lg font-semibold text-slate-200">Specialized Programs</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Self-Employed Home Loans in California
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-purple-100" data-speakable="true">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200" data-speakable="true">
               Mortgage programs designed for business owners, freelancers, and 1099 contractors—without traditional W-2 income verification
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" aria-label="Check your qualification for self-employed home loans" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                <Button size="lg" aria-label="Check your qualification for self-employed home loans" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check My Qualification
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -150,15 +150,15 @@ export default function SelfEmployedHomeLoans() {
                   </li>
                 ))}
               </ul>
-              <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
+              <div className="bg-slate-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
                 <p className="text-slate-700 font-medium">
-                  <span className="text-purple-600 font-bold">The Solution:</span> Alternative income documentation programs
+                  <span className="text-blue-600 font-bold">The Solution:</span> Alternative income documentation programs
                   that evaluate your actual cash flow—not just what you reported to the IRS.
                 </p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 border-2 border-purple-200">
+            <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 border-2 border-slate-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">
                 Who Benefits from These Programs?
               </h3>
@@ -170,7 +170,7 @@ export default function SelfEmployedHomeLoans() {
                   { title: 'Commission-Based Professionals', description: 'High earners with non-traditional compensation' },
                   { title: 'Recent Business Owners', description: 'Less than 2 years of tax returns but strong cash flow' }
                 ].map((profile, index) => (
-                  <div key={index} className="bg-white rounded-lg p-4 border border-purple-200">
+                  <div key={index} className="bg-white rounded-lg p-4 border border-slate-200">
                     <div className="font-bold text-slate-900 mb-1">{profile.title}</div>
                     <p className="text-sm text-slate-600">{profile.description}</p>
                   </div>
@@ -195,10 +195,10 @@ export default function SelfEmployedHomeLoans() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Bank Statement Loans */}
-            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-purple-200">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-slate-200">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
-                  <FileText className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <FileText className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">Bank Statement Loans</h3>
               </div>
@@ -214,12 +214,12 @@ export default function SelfEmployedHomeLoans() {
                   'Down payment as low as 10%'
                 ].map((feature, index) => (
                   <div key={index} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-slate-600">{feature}</span>
                   </div>
                 ))}
               </div>
-              <div className="bg-purple-50 rounded-lg p-4">
+              <div className="bg-slate-50 rounded-lg p-4">
                 <div className="text-sm font-semibold text-purple-900 mb-1">Best For:</div>
                 <p className="text-sm text-slate-700">
                   Self-employed borrowers with strong bank deposits but low reported taxable income due to write-offs
@@ -261,10 +261,10 @@ export default function SelfEmployedHomeLoans() {
             </div>
 
             {/* Asset Depletion */}
-            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-green-200">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-slate-200">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                  <TrendingUp className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <TrendingUp className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">Asset Depletion Loans</h3>
               </div>
@@ -280,12 +280,12 @@ export default function SelfEmployedHomeLoans() {
                   'Ideal for retired entrepreneurs or high-net-worth individuals'
                 ].map((feature, index) => (
                   <div key={index} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-slate-600">{feature}</span>
                   </div>
                 ))}
               </div>
-              <div className="bg-green-50 rounded-lg p-4">
+              <div className="bg-slate-50 rounded-lg p-4">
                 <div className="text-sm font-semibold text-green-900 mb-1">Best For:</div>
                 <p className="text-sm text-slate-700">
                   Borrowers with significant liquid assets but limited or irregular documented income
@@ -294,10 +294,10 @@ export default function SelfEmployedHomeLoans() {
             </div>
 
             {/* P&L Programs */}
-            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-orange-200">
+            <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-slate-200">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
-                  <Briefcase className="w-6 h-6 text-orange-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
+                  <Briefcase className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">Profit & Loss Programs</h3>
               </div>
@@ -313,12 +313,12 @@ export default function SelfEmployedHomeLoans() {
                   'Purchase or refinance'
                 ].map((feature, index) => (
                   <div key={index} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-slate-600">{feature}</span>
                   </div>
                 ))}
               </div>
-              <div className="bg-orange-50 rounded-lg p-4">
+              <div className="bg-slate-50 rounded-lg p-4">
                 <div className="text-sm font-semibold text-orange-900 mb-1">Best For:</div>
                 <p className="text-sm text-slate-700">
                   Recently self-employed borrowers (1-2 years) with strong current earnings but limited tax history
@@ -369,12 +369,12 @@ export default function SelfEmployedHomeLoans() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Get Pre-Qualified as a Self-Employed Borrower?
           </h2>
-          <p className="text-xl mb-8 text-purple-100" data-speakable="true">
+          <p className="text-xl mb-8 text-slate-200" data-speakable="true">
             Let's discuss which program best fits your income documentation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" aria-label="Start your self-employed mortgage application" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+              <Button size="lg" aria-label="Start your self-employed mortgage application" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                 <Calculator className="w-5 h-5 mr-2" />
                 Start My Application
               </Button>
@@ -385,7 +385,7 @@ export default function SelfEmployedHomeLoans() {
               </Button>
             </a>
           </div>
-          <p className="text-sm text-purple-100 mt-6">
+          <p className="text-sm text-slate-200 mt-6">
             Mo Abdel, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | CA DRE #02291443
           </p>
         </div>

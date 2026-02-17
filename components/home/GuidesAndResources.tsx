@@ -85,7 +85,7 @@ export default function GuidesAndResources() {
         <div className="text-center">
           <Link
             href="/guides"
-            className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold text-sm hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 rounded-lg bg-slate-900 text-white font-semibold text-sm hover:bg-slate-800 transition-colors"
           >
             View All Guides &amp; Blog Posts
           </Link>

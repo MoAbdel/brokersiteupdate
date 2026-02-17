@@ -466,7 +466,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Westlake Village Reverse Mortgage Insight</h4>
             <p className="mb-0">Westlake Village&apos;s private lake and gated community properties do not create reverse mortgage eligibility issues. HOA-governed communities qualify for both HECM and proprietary programs. The private lake itself adds significant property value that appraisers factor into valuations. For North Ranch and Westlake Island properties, proprietary reverse mortgage programs offer proceeds based on the full appraised value rather than the HECM cap, potentially providing $800,000 to $1.5 million in accessible equity for qualified seniors.</p>
           </div>
@@ -503,7 +503,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Thousand Oaks Reverse Mortgage Insight</h4>
             <p className="mb-0">Amgen&apos;s pension and 401(k) programs provide substantial retirement income for former employees, but many retirees find that healthcare costs, long-term care planning, and lifestyle maintenance require supplemental funds. A reverse mortgage line of credit provides a growing reserve of accessible equity that Amgen retirees draw on as needed, without affecting Social Security benefits or creating taxable income events. A 72-year-old Newbury Park homeowner with a $1.1 million paid-off home can access approximately $535,000 in HECM proceeds.</p>
           </div>
@@ -537,7 +537,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Oak Park Reverse Mortgage Insight</h4>
             <p className="mb-0">Oak Park&apos;s original homeowners represent the ideal reverse mortgage candidate: they purchased decades ago at low prices, have fully paid mortgages or minimal balances, and are deeply rooted in a community they do not want to leave. The HECM line of credit option is particularly valuable for these homeowners because unused funds grow at the current interest rate plus 1.25%, effectively increasing available equity over time without any cost. An Oak Park senior who takes a $500,000 line of credit and draws only $100,000 in the first year will have an even larger available balance the following year.</p>
           </div>
@@ -573,7 +573,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Camarillo Reverse Mortgage Insight</h4>
             <p className="mb-0">Camarillo seniors connected to Naval Base Ventura County and the aerospace industry often have stable pension income that ensures they meet the HECM financial assessment requirements. This assessment verifies that borrowers can sustain property tax, insurance, and maintenance obligations. With Prop 13 keeping property taxes well below market-rate levels for long-term owners, most Camarillo seniors pass the financial assessment comfortably and avoid the Life Expectancy Set-Aside that reduces available proceeds for other borrowers.</p>
           </div>
@@ -609,7 +609,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Moorpark Reverse Mortgage Insight</h4>
             <p className="mb-0">Moorpark&apos;s country club and golf course properties qualify for reverse mortgages without issue. Golf course frontage and country club membership do not affect HECM eligibility. Moorpark Country Club homeowners benefit from HOA-maintained common areas that keep the neighborhood attractive and property values stable, which protects both the borrower&apos;s equity position and the FHA insurance fund. For Moorpark seniors, the tenure payment option provides guaranteed monthly income for as long as they live in the home.</p>
           </div>

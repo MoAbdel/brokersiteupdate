@@ -244,42 +244,42 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
             <tbody>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Pricing Structure</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Institutional tier</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Institutional tier</td>
                 <td className="py-3 px-4 border border-gray-300">Consumer tier with overhead</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Lender Options</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">200+ competing lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">200+ competing lenders</td>
                 <td className="py-3 px-4 border border-gray-300">1 lender</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Rate Shopping</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Built into process</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Built into process</td>
                 <td className="py-3 px-4 border border-gray-300">Must apply separately to each bank</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Overhead in Pricing</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Minimal</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Minimal</td>
                 <td className="py-3 px-4 border border-gray-300">Branch + marketing + corporate</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Specialty Programs</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Full access (bank statement, DSCR, non-QM)</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Full access (bank statement, DSCR, non-QM)</td>
                 <td className="py-3 px-4 border border-gray-300">Limited to bank offerings</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Fee Transparency</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Full disclosure required</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Full disclosure required</td>
                 <td className="py-3 px-4 border border-gray-300">Varies by institution</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">If Denied</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">Try different lender same day</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">Try different lender same day</td>
                 <td className="py-3 px-4 border border-gray-300">Start over at new institution</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Jumbo Loan Access</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">50+ jumbo lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">50+ jumbo lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Single product</td>
               </tr>
             </tbody>

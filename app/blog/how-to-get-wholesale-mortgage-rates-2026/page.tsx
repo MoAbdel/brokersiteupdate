@@ -130,10 +130,10 @@ export default function HowToGetWholesaleRatesPage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b">Base lender cost</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b">Included</td></tr>
-              <tr><td className="py-2 px-4 border-b">Branch network</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Not included</td></tr>
-              <tr><td className="py-2 px-4 border-b">Advertising budget</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Not included</td></tr>
-              <tr><td className="py-2 px-4 border-b">Corporate overhead</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Minimal</td></tr>
-              <tr><td className="py-2 px-4">Captive customer margin</td><td className="py-2 px-4">Included</td><td className="py-2 px-4 text-green-700 font-semibold">Competition reduces</td></tr>
+              <tr><td className="py-2 px-4 border-b">Branch network</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Not included</td></tr>
+              <tr><td className="py-2 px-4 border-b">Advertising budget</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Not included</td></tr>
+              <tr><td className="py-2 px-4 border-b">Corporate overhead</td><td className="py-2 px-4 border-b">Included</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Minimal</td></tr>
+              <tr><td className="py-2 px-4">Captive customer margin</td><td className="py-2 px-4">Included</td><td className="py-2 px-4 text-blue-700 font-semibold">Competition reduces</td></tr>
             </tbody>
           </table>
         </div>

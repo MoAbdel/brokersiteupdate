@@ -308,31 +308,31 @@ export default function NewportCoastMortgageGuide2026() {
                 <td className="py-2 px-4 border-b font-medium">Median Home Value</td>
                 <td className="py-2 px-4 border-b">$5.0M</td>
                 <td className="py-2 px-4 border-b">$5.4M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.0% YoY</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+8.0% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Avg. Days on Market</td>
                 <td className="py-2 px-4 border-b">45 days</td>
                 <td className="py-2 px-4 border-b">38 days</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Faster absorption</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Faster absorption</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Active Listings</td>
                 <td className="py-2 px-4 border-b">35-45</td>
                 <td className="py-2 px-4 border-b">28-38</td>
-                <td className="py-2 px-4 border-b text-amber-600 font-semibold">Constrained supply</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Constrained supply</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Avg. Loan Amount</td>
                 <td className="py-2 px-4 border-b">$3.7M</td>
                 <td className="py-2 px-4 border-b">$4.1M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+10.8% YoY</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+10.8% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Price per Sq Ft</td>
                 <td className="py-2 px-4 border-b">$1,080</td>
                 <td className="py-2 px-4 border-b">$1,165</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+7.9% YoY</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+7.9% YoY</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Sales Volume (Annual)</td>
@@ -350,7 +350,7 @@ export default function NewportCoastMortgageGuide2026() {
                 <td className="py-2 px-4 border-b font-medium">% Cash Transactions</td>
                 <td className="py-2 px-4 border-b">28%</td>
                 <td className="py-2 px-4 border-b">31%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Increasing</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Increasing</td>
               </tr>
             </tbody>
           </table>
@@ -495,10 +495,10 @@ export default function NewportCoastMortgageGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Interest-Only Available</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (5-10 yr)</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (5-10 yr)</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (5-10 yr)</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (5 yr)</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (5-10 yr)</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (5-10 yr)</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (5-10 yr)</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (5 yr)</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Typical Rate Premium</td>
@@ -623,30 +623,30 @@ export default function NewportCoastMortgageGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$2,000,000</td>
                 <td className="py-2 px-4 border-b">6.50%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.125%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$7,500</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$225,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">6.125%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$7,500</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$225,000</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$4,000,000</td>
                 <td className="py-2 px-4 border-b">6.625%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.25%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$15,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$450,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">6.25%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$15,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$450,000</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$7,000,000</td>
                 <td className="py-2 px-4 border-b">6.875%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.375%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$35,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,050,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">6.375%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$35,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,050,000</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$10,000,000</td>
                 <td className="py-2 px-4 border-b">7.125%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">6.50%</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$62,500</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,875,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">6.50%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$62,500</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,875,000</td>
               </tr>
             </tbody>
           </table>
@@ -675,29 +675,29 @@ export default function NewportCoastMortgageGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$2,000,000</td>
                 <td className="py-2 px-4 border-b">$12,220</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$10,208</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$2,012/mo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$10,208</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$2,012/mo</td>
                 <td className="py-2 px-4 border-b">$2,292</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$4,000,000</td>
                 <td className="py-2 px-4 border-b">$24,890</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$20,833</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$4,057/mo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$20,833</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$4,057/mo</td>
                 <td className="py-2 px-4 border-b">$4,583</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$7,000,000</td>
                 <td className="py-2 px-4 border-b">$44,485</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$37,188</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$7,297/mo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$37,188</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$7,297/mo</td>
                 <td className="py-2 px-4 border-b">$8,021</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">$10,000,000</td>
                 <td className="py-2 px-4 border-b">$64,532</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$54,167</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$10,365/mo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$54,167</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$10,365/mo</td>
                 <td className="py-2 px-4 border-b">$11,458</td>
               </tr>
             </tbody>
@@ -883,35 +883,35 @@ export default function NewportCoastMortgageGuide2026() {
                 <td className="py-2 px-4 border-b font-medium">Crystal Cove</td>
                 <td className="py-2 px-4 border-b">$16.2M</td>
                 <td className="py-2 px-4 border-b">$17.5M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+8.0%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+8.0%</td>
                 <td className="py-2 px-4 border-b">4-6</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Pelican Crest</td>
                 <td className="py-2 px-4 border-b">$9.8M</td>
                 <td className="py-2 px-4 border-b">$10.4M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+6.1%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+6.1%</td>
                 <td className="py-2 px-4 border-b">5-8</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Pelican Hill</td>
                 <td className="py-2 px-4 border-b">$7.1M</td>
                 <td className="py-2 px-4 border-b">$7.5M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+5.6%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+5.6%</td>
                 <td className="py-2 px-4 border-b">6-9</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Newport Ridge</td>
                 <td className="py-2 px-4 border-b">$3.1M</td>
                 <td className="py-2 px-4 border-b">$3.4M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+9.7%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+9.7%</td>
                 <td className="py-2 px-4 border-b">8-12</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Crystal Cove State Park Area</td>
                 <td className="py-2 px-4 border-b">$5.6M</td>
                 <td className="py-2 px-4 border-b">$5.9M</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">+5.4%</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">+5.4%</td>
                 <td className="py-2 px-4 border-b">5-7</td>
               </tr>
             </tbody>

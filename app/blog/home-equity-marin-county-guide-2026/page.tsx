@@ -372,8 +372,8 @@ export default function HomeEquityMarinCountyGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Preserves 1st Mortgage Rate</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
                 <td className="py-2 px-4 border-b text-red-600 font-semibold">No (replaces it)</td>
               </tr>
             </tbody>
@@ -411,30 +411,30 @@ export default function HomeEquityMarinCountyGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">760+</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b font-semibold">Best rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">720-759</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Competitive rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">700-719</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Standard rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">680-699</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Most lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Most lenders</td>
                 <td className="py-2 px-4 border-b">Higher rates</td>
               </tr>
               <tr>
@@ -580,7 +580,7 @@ export default function HomeEquityMarinCountyGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Home Equity in Marin County</h2>
           <p>
             Marin County homeowners hold exceptional equity positions, with the average long-term homeowner sitting on $800,000 to $3 million or more in accessible equity. The three primary access vehicles &mdash; HELOC, HELOAN, and cash-out refinance &mdash; each serve different financial needs, and the right choice depends on your specific goals, existing mortgage terms, and income documentation situation.
@@ -592,7 +592,7 @@ export default function HomeEquityMarinCountyGuide2026() {
             The jumbo and super-jumbo nature of most Marin County equity products makes lender comparison essential. Rate and term differences between lenders on a $750,000 HELOC can total thousands of dollars annually &mdash; savings that compound dramatically over the life of the product.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Marin County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Marin County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Marin County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Marin County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 

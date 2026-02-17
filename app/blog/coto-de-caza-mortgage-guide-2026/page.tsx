@@ -199,7 +199,7 @@ export default function CotoDeCazaMortgageGuidePage() {
                     <p className="text-blue-800 mb-4">
                         Get competitive jumbo rates from 50+ wholesale lenders. As your Coto de Caza mortgage specialist, I'll structure the optimal financing for your luxury home purchase.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your Jumbo Loan Quote
                     </a>
                 </div>

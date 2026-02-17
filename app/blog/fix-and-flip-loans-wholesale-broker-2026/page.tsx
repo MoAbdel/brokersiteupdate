@@ -150,13 +150,13 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
               Fix and Flip Loans: How Wholesale Brokers Get Better Rates for House Flippers in 2026
             </h1>
 
-            <p className="text-xl md:text-2xl text-blue-200 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
               According to Mo Abdel, NMLS #1426884, fix-and-flip investors who finance through a wholesale mortgage broker consistently access lower rates, higher leverage, and more flexible draw schedules than those who go directly to hard money lenders. In our California and Washington closings with fix-and-flip investors, the wholesale channel saves flippers thousands per project by accessing institutional fix-and-flip programs that hard money lenders cannot match. Here is every loan option, how ARV-based lending works, draw schedule mechanics, exit strategies from flip to hold, and why the BRRRR method creates the most scalable path for real estate investors in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Fix-and-Flip Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -205,20 +205,20 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
               <strong>ARV (After Repair Value)</strong> = The estimated market value of the property after all planned renovations are completed, determined by a licensed appraiser based on comparable recently sold properties.
             </p>
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Conservative: 65% ARV</p>
-                <p className="text-sm text-green-700">$650K ARV &times; 65% = <strong>$422,500</strong></p>
-                <p className="text-xs text-green-600 mt-1">Lower leverage, best rates</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Conservative: 65% ARV</p>
+                <p className="text-sm text-blue-700">$650K ARV &times; 65% = <strong>$422,500</strong></p>
+                <p className="text-xs text-blue-600 mt-1">Lower leverage, best rates</p>
               </div>
               <div className="bg-blue-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-blue-800">Standard: 70% ARV</p>
                 <p className="text-sm text-blue-700">$650K ARV &times; 70% = <strong>$455,000</strong></p>
                 <p className="text-xs text-blue-600 mt-1">Balanced leverage and pricing</p>
               </div>
-              <div className="bg-amber-100 rounded-lg p-4">
+              <div className="bg-slate-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-amber-800">Aggressive: 75% ARV</p>
-                <p className="text-sm text-amber-700">$650K ARV &times; 75% = <strong>$487,500</strong></p>
-                <p className="text-xs text-amber-600 mt-1">Maximum leverage, higher rates</p>
+                <p className="text-sm text-blue-700">$650K ARV &times; 75% = <strong>$487,500</strong></p>
+                <p className="text-xs text-blue-600 mt-1">Maximum leverage, higher rates</p>
               </div>
             </div>
           </div>
@@ -289,9 +289,9 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Wholesale Fix-Flip</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Lower rates; higher leverage; experienced flippers</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">70-75% ARV; 85-90% purchase</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">70-75% ARV; 85-90% purchase</td>
                   <td className="px-4 py-3 text-sm text-slate-600">9-18 months</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Structured 3-5 draws</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Structured 3-5 draws</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Sell or refinance</td>
                 </tr>
                 <tr>
@@ -306,9 +306,9 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">DSCR After Rehab</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Hold as rental; BRRRR exit; long-term income</td>
                   <td className="px-4 py-3 text-sm text-slate-600">75-80% of new appraised value</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">30-year fixed or ARM</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-year fixed or ARM</td>
                   <td className="px-4 py-3 text-sm text-slate-600">N/A (permanent loan)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Hold and collect rent</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Hold and collect rent</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Cash-Out After Rehab</td>
@@ -404,11 +404,11 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">~$57,000</td>
                   <td className="px-4 py-3 text-sm text-slate-600">~$75,000</td>
                 </tr>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <td className="px-4 py-3 text-sm font-bold text-slate-900">Est. Gross Profit (Before Tax)</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-bold">~$81,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-bold">~$98,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-bold">~$115,000</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-bold">~$81,000</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-bold">~$98,000</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-bold">~$115,000</td>
                 </tr>
               </tbody>
             </table>
@@ -454,9 +454,9 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
             </li>
           </ol>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               When Hard Money Still Makes Sense
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -579,11 +579,11 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                   <span>Post-Renovation Appraised Value:</span><span className="font-medium">$780,000</span>
                   <span>DSCR Refinance at 75% LTV:</span><span className="font-medium">$585,000</span>
                   <span>Payoff Fix-and-Flip Loan Balance:</span><span className="font-medium">$530,000</span>
-                  <span className="font-bold">Cash Recovered at Refinance:</span><span className="font-bold text-green-700">$55,000</span>
+                  <span className="font-bold">Cash Recovered at Refinance:</span><span className="font-bold text-blue-700">$55,000</span>
                 </div>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Result: The investor recovers $55,000 of the original $75,000 cash investment, leaving only $20,000 of capital permanently deployed in the property. The property now cash-flows as a long-term rental with a DSCR loan, and the recovered $55,000 funds the down payment on the next BRRRR acquisition. This example is illustrative; actual values depend on market conditions, appraisal results, and lender terms.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Result: The investor recovers $55,000 of the original $75,000 cash investment, leaving only $20,000 of capital permanently deployed in the property. The property now cash-flows as a long-term rental with a DSCR loan, and the recovered $55,000 funds the down payment on the next BRRRR acquisition. This example is illustrative; actual values depend on market conditions, appraisal results, and lender terms.</p>
               </div>
             </div>
           </div>
@@ -599,43 +599,43 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Borrower Experience</h4>
                 <p className="text-slate-600">Lenders classify borrowers by the number of completed flips: first-time, 1-3 flips, 4-10 flips, and 10+ flips. More experience unlocks higher leverage, lower rates, and reduced documentation requirements. Providing a track record (HUD settlement statements from prior flips) strengthens any application.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Credit Score</h4>
                 <p className="text-slate-600">Most wholesale fix-and-flip programs require 660-680 minimum credit scores. Borrowers with 720+ scores access the best rates and highest leverage. Hard money lenders may accept lower scores but charge premium rates to compensate.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Scope of Work and Budget</h4>
                 <p className="text-slate-600">A detailed scope of work (SOW) with itemized costs is required by all fix-and-flip lenders. The budget should include line items for every renovation category: demolition, structural, electrical, plumbing, HVAC, finishes, landscaping, and contingency. Realistic budgets from experienced contractors strengthen approval.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">ARV Validation</h4>
                 <p className="text-slate-600">Lenders order an appraisal that includes both the as-is value and the ARV based on comparable sales of renovated properties in the same area. The ARV must be supported by recent comps to justify the loan amount.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Liquidity and Reserves</h4>
                 <p className="text-slate-600">Lenders require cash reserves beyond the down payment to cover holding costs, unexpected expenses, and draw funding gaps. Typical reserve requirements are 3-6 months of projected carrying costs. Having documented reserves demonstrates the ability to complete the project even if unexpected costs arise.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Exit Strategy</h4>
                 <p className="text-slate-600">Every fix-and-flip lender wants a clear exit plan: sell the property at ARV, refinance into a DSCR loan, or refinance into a conventional mortgage. A pre-identified exit strategy demonstrates the borrower&apos;s planning and reduces lender risk. The BRRRR exit (refinance into DSCR) is increasingly popular and well-understood by institutional fix-and-flip lenders.</p>
@@ -793,10 +793,10 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: Wholesale Brokers Give Fix-and-Flip Investors a Competitive Edge in 2026
           </h2>
-          <p className="text-lg text-blue-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             The fix-and-flip market in 2026 rewards investors who execute efficiently and finance intelligently. Going directly to a single hard money lender means accepting their one product at their one price. Working with a wholesale broker means accessing institutional fix-and-flip programs from dozens of lenders, with lower rates, higher leverage, standardized draw processes, and more favorable terms on every deal.
           </p>
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending structures both the fix-and-flip acquisition financing and the DSCR refinance exit for BRRRR investors, creating a complete capital stack from purchase through long-term hold. Whether you are flipping your first property or your fiftieth, the wholesale channel delivers better economics on every project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -818,22 +818,22 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Fix-and-Flip &amp; Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained for Investors 2026
             </Link>
-            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling Guide
             </Link>
-            <Link href="/blog/wholesale-mortgage-lender-network-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-lender-network-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Lender Network 2026
             </Link>
-            <Link href="/blog/bank-statement-loans-wholesale-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Bank Statement Loans: Wholesale Broker Guide
             </Link>
-            <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Non-QM Loans: Wholesale Broker Advantage 2026
             </Link>
-            <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Mortgage Broker vs Bank: Which Gets Better Rates?
             </Link>
           </div>

@@ -471,7 +471,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Healdsburg Reverse Mortgage Insight</h4>
             <p className="mb-0">Healdsburg&apos;s unique position at the convergence of three premier wine valleys means many residential properties include vineyard acreage or are zoned for agricultural use. Properties with vineyard acreage qualify for reverse mortgages as long as the residential dwelling is the borrower&apos;s primary residence. The appraisal accounts for the total property, including agricultural improvements. For Dry Creek Corridor estate properties valued at $2 million to $4 million, proprietary reverse mortgage programs provide access to equity well beyond the HECM cap, with potential proceeds of $800,000 to $1.5 million for qualified seniors.</p>
           </div>
@@ -507,7 +507,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">St. Helena Reverse Mortgage Insight</h4>
             <p className="mb-0">St. Helena&apos;s harvest season economy creates a unique financial pattern for retirees. Many longtime residents earned income through winery ownership, vineyard management, or luxury hospitality that followed seasonal peaks and valleys. A reverse mortgage line of credit provides a financial buffer during slower months and a supplement to Social Security, pension, or investment income year-round. The non-taxable nature of reverse mortgage proceeds is particularly valuable for St. Helena homeowners who may also receive winery partnership distributions or vineyard lease income.</p>
           </div>
@@ -543,7 +543,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Calistoga Reverse Mortgage Insight</h4>
             <p className="mb-0">Calistoga&apos;s hot springs and spa heritage means many senior homeowners operated small hospitality businesses throughout their careers. The transition from active business management to retirement often coincides with the ideal time for a reverse mortgage: the property is paid off, the business income has stopped or reduced, and the homeowner wants to remain in a community they have been part of for decades. A HECM tenure payment provides reliable monthly income that replaces the business revenue stream while preserving the Prop 13 tax base that keeps property taxes manageable.</p>
           </div>
@@ -579,7 +579,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Sonoma Reverse Mortgage Insight</h4>
             <p className="mb-0">Sonoma&apos;s artistic and agricultural community includes many seniors whose wealth is concentrated in their real estate rather than in diversified financial portfolios. A winery founder who invested their career earnings into their property and business may have a $1.5 million home but modest retirement account balances. The HECM program is specifically designed for this situation: converting illiquid home equity into monthly income or a growing line of credit. Sonoma Plaza homeowners benefit from both the equity access and the Prop 13 preservation that keeps annual property taxes at $4,000 to $6,000 rather than the $10,000 to $15,000 that current market values would produce.</p>
           </div>
@@ -615,7 +615,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Napa Reverse Mortgage Insight</h4>
             <p className="mb-0">Napa&apos;s downtown renaissance has created a walkable urban environment that seniors value as they age. Old Town Napa homeowners can walk to the Oxbow Public Market, First Street restaurants, and medical offices without driving. This walkability supports the &quot;age in place&quot; strategy that reverse mortgages facilitate. Silverado Country Club residents benefit from the resort-style amenities and maintenance-included living while accessing equity through a HECM. The Wine Train corridor properties combine location value with strong appreciation trends that maintain equity positions over the life of a reverse mortgage.</p>
           </div>
@@ -651,7 +651,7 @@ export default function ReverseMortgageWineCountry2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Yountville Reverse Mortgage Insight</h4>
             <p className="mb-0">Yountville&apos;s walkability is its greatest aging-in-place asset. Seniors who can walk to restaurants, the post office, medical services, and cultural amenities reduce their dependence on driving&mdash;a critical quality-of-life factor as mobility changes with age. A reverse mortgage supports this lifestyle by eliminating the need to sell and relocate to access home equity. The Veterans Home residents who also own property in Yountville face unique planning considerations: the reverse mortgage on a privately owned home operates independently from VA benefits, and a specialist ensures both programs work together without conflict.</p>
           </div>

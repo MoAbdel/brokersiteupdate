@@ -291,35 +291,35 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t font-medium">Capitol Hill</td>
                   <td className="px-4 py-3 border-t">$750,000</td>
                   <td className="px-4 py-3 border-t">+34%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$310,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$310,000</td>
                   <td className="px-4 py-3 border-t">Investment property down payments, condo upgrades</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Queen Anne</td>
                   <td className="px-4 py-3 border-t">$950,000</td>
                   <td className="px-4 py-3 border-t">+37%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$440,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$440,000</td>
                   <td className="px-4 py-3 border-t">Historic restoration, view-home renovation</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Magnolia</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
                   <td className="px-4 py-3 border-t">+36%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$520,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$520,000</td>
                   <td className="px-4 py-3 border-t">Bluff-view upgrades, ADU construction</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Madison Park / Montlake</td>
                   <td className="px-4 py-3 border-t">$1,500,000</td>
                   <td className="px-4 py-3 border-t">+32%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$680,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$680,000</td>
                   <td className="px-4 py-3 border-t">Waterfront renovation, estate improvements</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Bainbridge Island</td>
                   <td className="px-4 py-3 border-t">$1,300,000</td>
                   <td className="px-4 py-3 border-t">+40%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$600,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$600,000</td>
                   <td className="px-4 py-3 border-t">Second home purchase, island property upgrades</td>
                 </tr>
               </tbody>
@@ -358,8 +358,8 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Interest Rate Type</td>
                   <td className="px-4 py-3 border-t">Variable (prime + margin)</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Fixed rate</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Fixed rate</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Fixed rate</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Fixed rate</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Current Rate Range (Feb 2026)</td>
@@ -369,19 +369,19 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Maximum CLTV (Wholesale)</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">85%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">85%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">85%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">85%</td>
                   <td className="px-4 py-3 border-t">80%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Impact on First Mortgage</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Keeps existing mortgage intact</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Keeps existing mortgage intact</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Keeps existing mortgage intact</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Keeps existing mortgage intact</td>
                   <td className="px-4 py-3 border-t">Replaces existing mortgage</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Closing Costs</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$0 &ndash; $500 (many no-cost options)</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$0 &ndash; $500 (many no-cost options)</td>
                   <td className="px-4 py-3 border-t">$2,000 &ndash; $4,000</td>
                   <td className="px-4 py-3 border-t">$5,000 &ndash; $12,000</td>
                 </tr>
@@ -412,7 +412,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$310K</p>
+                <p className="text-xl font-bold text-blue-700">$310K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Condo Market Share</p>
@@ -454,7 +454,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$440K</p>
+                <p className="text-xl font-bold text-blue-700">$440K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">View Premium</p>
@@ -496,7 +496,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$520K</p>
+                <p className="text-xl font-bold text-blue-700">$520K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Village Premium</p>
@@ -538,7 +538,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$680K</p>
+                <p className="text-xl font-bold text-blue-700">$680K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Waterfront Premium</p>
@@ -580,7 +580,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$600K</p>
+                <p className="text-xl font-bold text-blue-700">$600K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Remote Work Boost</p>
@@ -664,7 +664,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t">$560K</td>
                   <td className="px-4 py-3 border-t">$640K</td>
                   <td className="px-4 py-3 border-t">$750K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+34%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+34%</td>
                   <td className="px-4 py-3 border-t">$190K appreciation + paydown</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -672,7 +672,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t">$695K</td>
                   <td className="px-4 py-3 border-t">$800K</td>
                   <td className="px-4 py-3 border-t">$950K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+37%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+37%</td>
                   <td className="px-4 py-3 border-t">$255K appreciation + paydown</td>
                 </tr>
                 <tr>
@@ -680,7 +680,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t">$810K</td>
                   <td className="px-4 py-3 border-t">$930K</td>
                   <td className="px-4 py-3 border-t">$1.1M</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+36%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+36%</td>
                   <td className="px-4 py-3 border-t">$290K appreciation + paydown</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -688,7 +688,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t">$1.14M</td>
                   <td className="px-4 py-3 border-t">$1.28M</td>
                   <td className="px-4 py-3 border-t">$1.5M</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+32%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+32%</td>
                   <td className="px-4 py-3 border-t">$360K appreciation + paydown</td>
                 </tr>
                 <tr>
@@ -696,7 +696,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t">$930K</td>
                   <td className="px-4 py-3 border-t">$1.1M</td>
                   <td className="px-4 py-3 border-t">$1.3M</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+40%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+40%</td>
                   <td className="px-4 py-3 border-t">$370K appreciation + paydown</td>
                 </tr>
               </tbody>
@@ -838,19 +838,19 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           <hr className="my-10" />
 
           {/* ---- Expert Summary ---- */}
-          <div id="expert-summary" className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+          <div id="expert-summary" className="bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
             <h2 className="text-2xl font-bold text-green-900 mb-4 mt-0">Expert Summary: Urban Seattle Premium Home Equity Advantage</h2>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, Montlake, and Bainbridge Island&mdash;hold the Pacific Northwest&rsquo;s most valuable residential equity positions. With median values from $750K to $1.5M+ and long-term homeowners holding $310,000-$680,000+ in tappable equity, these communities demand specialized lending strategies that wholesale broker access uniquely provides. Tech-sector RSU income, condo warrantability navigation, waterfront appraisal expertise, and jumbo HELOC access above $1M represent capabilities that single-bank relationships cannot match.
             </p>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               Washington State&rsquo;s zero income tax amplifies every equity deployment strategy. Investment property income, ADU rentals, and capital gains face no state taxation&mdash;saving $5,000-$15,000+ annually compared to California or Oregon. Combined with constrained land supply that protects property values and tech-sector income that supports strong qualification profiles, Urban Seattle Premium homeowners access better rates, higher credit limits, and more flexible programs than any single institution provides.
             </p>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for Urban Seattle Premium homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From condo warrantability solutions in Capitol Hill to jumbo HELOC structures for Madison Park waterfront estates, Mo matches your specific property type, income profile, and financial goals to the best available program from 200+ wholesale lenders.
             </p>
-            <p className="text-green-800 mb-0">
-              <strong>Ready to unlock your Urban Seattle Premium home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Urban Seattle Premium homeowners receive funding within 2-4 weeks.
+            <p className="text-slate-900 mb-0">
+              <strong>Ready to unlock your Urban Seattle Premium home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Urban Seattle Premium homeowners receive funding within 2-4 weeks.
             </p>
           </div>
 

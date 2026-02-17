@@ -314,7 +314,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Line of Credit Growth</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Yes &mdash; unused credit grows annually</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Yes &mdash; unused credit grows annually</td>
                   <td className="px-4 py-3 border-t">Most programs do not offer this</td>
                 </tr>
                 <tr>
@@ -550,16 +550,16 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgage in Silicon Valley Tech Corridor</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Silicon Valley&apos;s Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; is home to approximately 47,000 seniors aged 62+ controlling an estimated $58 billion in home equity. With median values from $1.3M in San Jose and Campbell to $2M in Mountain View, every city exceeds the 2026 HECM limit of $1,149,825. This creates a market where both HECM and jumbo reverse mortgage products serve distinct roles depending on each homeowner&apos;s property value, retirement goals, and preference for the HECM line of credit growth feature.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The HECM line of credit growth feature represents one of the most powerful and underutilized retirement planning tools available to Tech Corridor seniors. Establishing a line of credit early &mdash; even before funds are needed &mdash; creates a growing financial reserve that compounds annually. For seniors who have adequate current income but want a safety net for future healthcare and long-term care costs, this strategy converts home equity into a self-growing reserve at zero out-of-pocket cost.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I present HECM and jumbo reverse mortgage options side by side with transparent cost analysis, ensuring you choose the product that genuinely serves your retirement goals. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage consultation.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I present HECM and jumbo reverse mortgage options side by side with transparent cost analysis, ensuring you choose the product that genuinely serves your retirement goals. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage consultation.
             </p>
           </div>
 

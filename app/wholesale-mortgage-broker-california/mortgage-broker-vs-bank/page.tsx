@@ -170,37 +170,37 @@ export default function MortgageBrokerVsBankPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Lender Access</td>
-                <td className="px-4 py-2 border-b text-green-700">200+ wholesale lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">200+ wholesale lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">1 lender (their own)</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Rate Shopping</td>
-                <td className="px-4 py-2 border-b text-green-700">Built into process</td>
+                <td className="px-4 py-2 border-b text-blue-700">Built into process</td>
                 <td className="px-4 py-2 border-b text-red-700">Not possible</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Average Rates</td>
-                <td className="px-4 py-2 border-b text-green-700">0.125-0.375% lower</td>
+                <td className="px-4 py-2 border-b text-blue-700">0.125-0.375% lower</td>
                 <td className="px-4 py-2 border-b text-red-700">Higher due to overhead</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Program Variety</td>
-                <td className="px-4 py-2 border-b text-green-700">Extensive (bank statement, DSCR, non-QM)</td>
+                <td className="px-4 py-2 border-b text-blue-700">Extensive (bank statement, DSCR, non-QM)</td>
                 <td className="px-4 py-2 border-b text-red-700">Limited to bank products</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Closing Speed</td>
-                <td className="px-4 py-2 border-b text-green-700">21-30 days average</td>
+                <td className="px-4 py-2 border-b text-blue-700">21-30 days average</td>
                 <td className="px-4 py-2 border-b text-red-700">35-45 days average</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Service Model</td>
-                <td className="px-4 py-2 border-b text-green-700">Single point of contact</td>
+                <td className="px-4 py-2 border-b text-blue-700">Single point of contact</td>
                 <td className="px-4 py-2 border-b text-red-700">Multiple departments</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Flexibility</td>
-                <td className="px-4 py-2 border-b text-green-700">High (can switch lenders)</td>
+                <td className="px-4 py-2 border-b text-blue-700">High (can switch lenders)</td>
                 <td className="px-4 py-2 border-b text-red-700">Low (single product line)</td>
               </tr>
             </tbody>
@@ -253,7 +253,7 @@ export default function MortgageBrokerVsBankPage() {
           <li><strong>Borrower-paid compensation:</strong> You pay the broker directly; in exchange, you receive a lower interest rate because no compensation is built in.</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6 border border-green-200">
+        <div className="bg-slate-50 p-6 rounded-lg my-6 border border-slate-200">
           <h4 className="font-bold text-green-900 mt-0">Key Insight</h4>
           <p className="mb-0">
             Despite broker compensation, total borrowing costs through brokers are typically lower than bank loans. The wholesale rate advantage more than offsets the compensation.
@@ -308,25 +308,25 @@ export default function MortgageBrokerVsBankPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">$700K Conventional (20% down)</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.00%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.00%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.25%</td>
                 <td className="px-4 py-2 border-b font-semibold">$39,120</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$1.2M Jumbo (25% down)</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.25%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.25%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.50%</td>
                 <td className="px-4 py-2 border-b font-semibold">$54,000</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$600K Bank Statement</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.125%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.125%</td>
                 <td className="px-4 py-2 border-b text-red-700">N/A (not offered)</td>
                 <td className="px-4 py-2 border-b">Broker-only program</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$500K FHA (3.5% down)</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">5.75%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">5.75%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.00%</td>
                 <td className="px-4 py-2 border-b font-semibold">$27,360</td>
               </tr>

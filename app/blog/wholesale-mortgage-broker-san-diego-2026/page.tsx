@@ -754,7 +754,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         </p>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h3 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Wholesale Mortgage Brokerage in San Diego</h3>
           <p className="text-gray-800">
             San Diego County&apos;s $48 billion annual mortgage market demands the pricing competition and program diversity that only wholesale broker channels can deliver. With eight premium communities ranging from $1.1 million to $4.5 million in median home value, jumbo loans dominate the landscape&mdash;and wholesale access to 50+ jumbo lenders creates measurable borrower advantages over single-lender retail channels.
@@ -763,7 +763,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             The three borrower segments that benefit most from wholesale brokerage in San Diego are: biotech professionals with complex stock compensation (who need lenders with flexible income calculation policies), military families seeking VA jumbo products (which are available from a limited subset of wholesale lenders), and self-employed entrepreneurs who qualify through bank statement programs unavailable at traditional banks. Each of these segments is overrepresented in San Diego compared to other California markets.
           </p>
           <p className="text-gray-800 mb-0">
-            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 200+ lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
+            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 200+ lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
           </p>
         </div>
 

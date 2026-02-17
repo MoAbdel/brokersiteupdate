@@ -295,28 +295,28 @@ export default function HowToGetWholesaleRatesPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">$500K Conventional</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.125%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.125%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.375%</td>
                 <td className="px-4 py-2 border-b">$76</td>
                 <td className="px-4 py-2 border-b font-semibold">$27,360</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$750K Conventional</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.125%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.125%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.375%</td>
                 <td className="px-4 py-2 border-b">$114</td>
                 <td className="px-4 py-2 border-b font-semibold">$41,040</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$1M Jumbo</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.375%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.375%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.625%</td>
                 <td className="px-4 py-2 border-b">$158</td>
                 <td className="px-4 py-2 border-b font-semibold">$56,880</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$1.5M Jumbo</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.375%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.375%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.750%</td>
                 <td className="px-4 py-2 border-b">$356</td>
                 <td className="px-4 py-2 border-b font-semibold">$128,160</td>

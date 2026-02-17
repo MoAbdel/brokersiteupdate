@@ -94,7 +94,7 @@ export default async function CityDscrPage({ params }: Props) {
       title={`${city.name} DSCR Rent Analyzer`}
       subtitle={`Calculate the minimum rent for a DSCR loan in ${city.name}, ${county.name}. Median rent: ${formatCurrency(city.medianRent)}/mo | Median home: ${formatCurrency(city.medianHomePrice)}.`}
       badgeText={`${city.name}, ${state.toUpperCase()}`}
-      badgeColor="bg-purple-100 text-purple-700"
+      badgeColor="bg-slate-100 text-blue-700"
       breadcrumbs={breadcrumbs}
       faqs={faqs}
       internalLinks={internalLinks}

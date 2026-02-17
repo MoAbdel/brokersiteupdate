@@ -205,9 +205,9 @@ export default function ReverseMortgagesPage() {
           <li><strong>Life Expectancy Set-Aside (LESA):</strong> If you cannot demonstrate ability to pay property charges, funds may be set aside from loan proceeds to cover these costs</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8">
+        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 my-8">
           <h3 className="text-xl font-bold text-green-900 mb-3">California & Washington HECM Advantages</h3>
-          <p className="text-green-800 mb-0">
+          <p className="text-slate-900 mb-0">
             California and Washington homeowners benefit from strong property values that maximize HECM proceeds. The 2026 FHA limit of $1,149,825 allows Orange County, Los Angeles, and Seattle-area seniors to access substantial equity. Many California homes exceed this limit, making <strong>proprietary (jumbo) reverse mortgages</strong> an important alternative for high-value properties.
           </p>
         </div>
@@ -730,7 +730,7 @@ export default function ReverseMortgagesPage() {
           <p className="text-blue-800 mb-4">
             If you are <strong>62 or older</strong> and own a home in California or Washington, a reverse mortgage may help you achieve financial security in retirement. As your licensed mortgage broker, I provide unbiased guidance on HECM and proprietary reverse mortgage options from multiple lenders.
           </p>
-          <a href="/contact-orange-county-mortgage-broker" aria-label="Schedule a reverse mortgage consultation" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+          <a href="/contact-orange-county-mortgage-broker" aria-label="Schedule a reverse mortgage consultation" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
             Schedule a Consultation
           </a>
         </div>

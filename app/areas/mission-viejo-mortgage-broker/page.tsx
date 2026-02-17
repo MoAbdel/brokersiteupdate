@@ -62,13 +62,13 @@ export default function MissionViejoMortgageBrokerPage() {
       title: 'Conventional Loans',
       description: 'Standard financing for Mission Viejo master-planned communities',
       benefits: ['As low as 3% down payment', 'No PMI with 20% down', 'Competitive loan pricing'],
-      icon: <Building className="w-8 h-8 text-green-600" />
+      icon: <Building className="w-8 h-8 text-blue-600" />
     },
     {
       title: 'Refinancing Solutions',
       description: 'Lower payments or access equity from your Mission Viejo home',
       benefits: ['Rate & term refinancing', 'Cash-out options', 'PMI removal'],
-      icon: <Home className="w-8 h-8 text-purple-600" />
+      icon: <Home className="w-8 h-8 text-blue-600" />
     }
   ];
 
@@ -93,7 +93,7 @@ export default function MissionViejoMortgageBrokerPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Mission Viejo Mortgage pricing
               </Button>
             </Link>
@@ -115,22 +115,22 @@ export default function MissionViejoMortgageBrokerPage() {
             <p className="text-slate-600">Median Home Price</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <GraduationCap className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <GraduationCap className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-1">10/10</h3>
             <p className="text-slate-600">School Ratings</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-1">Top 5</h3>
             <p className="text-slate-600">Safest Cities CA</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-1">95K+</h3>
             <p className="text-slate-600">Population</p>
@@ -156,13 +156,13 @@ export default function MissionViejoMortgageBrokerPage() {
                   <div className="space-y-2 mb-6">
                     {program.benefits.map((benefit, i) => (
                       <div key={i} className="flex items-center text-sm text-slate-700">
-                        <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                        <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                         {benefit}
                       </div>
                     ))}
                   </div>
                   <Link href="/loan-programs">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    <Button className="w-full bg-slate-900 hover:bg-slate-800">
                       Learn More
                     </Button>
                   </Link>
@@ -189,7 +189,7 @@ export default function MissionViejoMortgageBrokerPage() {
                 <CardContent>
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-sm text-slate-600">Avg Home Price:</span>
-                    <span className="font-bold text-green-600">{neighborhood.avgPrice}</span>
+                    <span className="font-bold text-blue-600">{neighborhood.avgPrice}</span>
                   </div>
                   <p className="text-slate-600 text-sm">{neighborhood.description}</p>
                 </CardContent>
@@ -219,8 +219,8 @@ export default function MissionViejoMortgageBrokerPage() {
               </div>
               
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                  <TreePine className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                  <TreePine className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Master-Planned Community Expertise</h3>
@@ -232,8 +232,8 @@ export default function MissionViejoMortgageBrokerPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                  <Shield className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                  <Shield className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Family-Oriented Solutions</h3>
@@ -371,8 +371,8 @@ export default function MissionViejoMortgageBrokerPage() {
 
               <Card className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <TreePine className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <TreePine className="w-6 h-6 text-blue-600" />
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Lake Mission Viejo Association</h3>
                   <p className="text-slate-600 text-sm mb-4">
@@ -393,26 +393,26 @@ export default function MissionViejoMortgageBrokerPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready for Your Mission Viejo Mortgage?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized pricing for your Mission Viejo neighborhood and loan needs
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get My Mission Viejo Rates
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all Mission Viejo neighborhoods
           </p>
         </div>

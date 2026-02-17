@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { TrendingUp, DollarSign, Calendar, Shield, CheckCircle, AlertCircle } from 'lucide-react';
+import { TrendingUp, DollarSign, Calendar, Shield, CheckCircle, AlertCircle, Flame, Home, CreditCard, Building2, GraduationCap, Siren, Briefcase } from 'lucide-react';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
 import AISummary from '@/components/seo/AISummary';
@@ -60,31 +60,11 @@ export default function HELOCPage() {
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <AISummary
-          pageType="loan-program"
-          triples={[
-            {
-              subject: 'A HELOC',
-              predicate: 'provides a revolving credit line secured by home equity with',
-              object: 'interest-only payments during a 5-10 year draw period',
-            },
-            {
-              subject: 'HELOC borrowers',
-              predicate: 'pay interest only on amounts drawn, not the full credit limit, requiring a minimum',
-              object: '680 credit score and up to 90% combined loan-to-value',
-            },
-            {
-              subject: 'Wholesale HELOC rates through Mo Abdel',
-              predicate: 'are sourced from',
-              object: '200+ lenders, giving borrowers access to pricing below retail bank posted rates',
-            },
-          ]}
-        />
-
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            🔥 #1 Most Popular Program in Orange County
+            <Flame className="w-4 h-4 mr-2 text-blue-700" aria-hidden="true" />
+            <span>#1 Most Popular Program in Orange County</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             HELOC: <span className="text-blue-600">Home Equity Line of Credit</span>
@@ -95,7 +75,7 @@ export default function HELOCPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get HELOC Rates & Pre-Approval
               </Button>
             </Link>
@@ -117,22 +97,22 @@ export default function HELOCPage() {
             <p className="text-slate-600">Competitive variable rates tied to prime. <span className="text-blue-600 font-semibold block mt-1">Fixed-rate options available</span></p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <DollarSign className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <DollarSign className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Up to $500K</h3>
             <p className="text-slate-600">Access substantial credit lines for major projects</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Calendar className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Calendar className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Interest Only</h3>
             <p className="text-slate-600">Pay only interest for first 10 years</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Flexible Terms</h3>
             <p className="text-slate-600">Customizable repayment options available</p>
@@ -146,21 +126,21 @@ export default function HELOCPage() {
             <div>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">1</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">1</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Apply & Get Approved</h3>
                     <p className="text-slate-600">We evaluate your Orange County home's value and your financial situation to determine your credit line limit.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">2</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">2</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Access Your Funds</h3>
                     <p className="text-slate-600">Use online banking, checks, or a debit card to access funds as needed - only pay interest on what you use.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">3</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">3</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Repay at Your Pace</h3>
                     <p className="text-slate-600">Make interest-only payments during the 10-year draw period, then enter a 20-year repayment phase.</p>
@@ -186,7 +166,7 @@ export default function HELOCPage() {
                 <div className="border-t pt-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Monthly Payment on $200K:</span>
-                    <span className="font-bold text-green-600">~$1,500/mo*</span>
+                    <span className="font-bold text-blue-600">~$1,500/mo*</span>
                   </div>
                 </div>
               </div>
@@ -212,14 +192,14 @@ export default function HELOCPage() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rate</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">Variable Rate</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Variable Rate</td>
                   <td className="px-6 py-4 text-center text-slate-600">8-18%</td>
                   <td className="px-6 py-4 text-center text-slate-600">18-29%</td>
                   <td className="px-6 py-4 text-center text-slate-600">Current Mortgage pricing</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Access to Funds</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">As Needed</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">As Needed</td>
                   <td className="px-6 py-4 text-center text-slate-600">Lump Sum</td>
                   <td className="px-6 py-4 text-center text-slate-600">As Needed</td>
                   <td className="px-6 py-4 text-center text-slate-600">Lump Sum</td>
@@ -227,7 +207,7 @@ export default function HELOCPage() {
 
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Maximum Amount</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">Up to $500K</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $500K</td>
                   <td className="px-6 py-4 text-center text-slate-600">$100K max</td>
                   <td className="px-6 py-4 text-center text-slate-600">$50K max</td>
                   <td className="px-6 py-4 text-center text-slate-600">Based on equity</td>
@@ -244,7 +224,10 @@ export default function HELOCPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 Home Renovations</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Home Renovations</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Kitchen remodels, bathroom upgrades, ADU construction, and other home improvements that add value.</p>
                 <p className="text-sm font-semibold text-blue-600">Perfect for ongoing projects</p>
               </CardContent>
@@ -252,41 +235,56 @@ export default function HELOCPage() {
 
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <CreditCard className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Debt Consolidation</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Pay off high-interest credit cards, personal loans, and other debts with one low payment.</p>
-                <p className="text-sm font-semibold text-green-600">Save thousands in interest</p>
+                <p className="text-sm font-semibold text-blue-600">Save thousands in interest</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏘️ Real Estate Investment</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Building2 className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Real Estate Investment</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Down payment for investment properties, fix-and-flip projects, or other real estate opportunities.</p>
-                <p className="text-sm font-semibold text-green-600">Leverage your equity</p>
+                <p className="text-sm font-semibold text-blue-600">Leverage your equity</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🎓 Education Expenses</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <GraduationCap className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Education Expenses</span>
+                </h3>
                 <p className="text-slate-600 mb-3">College tuition, private school, or educational expenses with Lower pricing than student loans.</p>
-                <p className="text-sm font-semibold text-green-600">Lower than student loans</p>
+                <p className="text-sm font-semibold text-blue-600">Lower than student loans</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🚨 Emergency Fund</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Siren className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Emergency Fund</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Peace of mind with access to funds for unexpected expenses or opportunities.</p>
-                <p className="text-sm font-semibold text-green-600">Only pay when you use it</p>
+                <p className="text-sm font-semibold text-blue-600">Only pay when you use it</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💼 Business Investment</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Briefcase className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Business Investment</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Fund business expansion, equipment purchases, or working capital needs.</p>
-                <p className="text-sm font-semibold text-green-600">Flexible business funding</p>
+                <p className="text-sm font-semibold text-blue-600">Flexible business funding</p>
               </CardContent>
             </Card>
           </div>
@@ -299,35 +297,35 @@ export default function HELOCPage() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">HELOC Requirements</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 640+</p>
                     <p className="text-slate-600 text-sm">Higher scores qualify for Better pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Combined LTV: Up to 80%</p>
                     <p className="text-slate-600 text-sm">Some programs allow up to 90%</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Debt-to-Income: 50% or lower</p>
                     <p className="text-slate-600 text-sm">Including the new HELOC payment</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Income Documentation</p>
                     <p className="text-slate-600 text-sm">W-2s, pay stubs, tax returns</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Property Type</p>
                     <p className="text-slate-600 text-sm">Primary residence, second home, or investment</p>
@@ -393,26 +391,29 @@ export default function HELOCPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Unlock Your Orange County Home's Equity?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized HELOC pricing and terms from multiple lenders in minutes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get My HELOC Rates
               </Button>
             </Link>
             <a href="tel:+19498229662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button
+                variant="ghost"
+                className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg"
+              >
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
@@ -435,6 +436,27 @@ export default function HELOCPage() {
             </p>
           </div>
         </div>
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'A HELOC',
+              predicate: 'provides a revolving credit line secured by home equity with',
+              object: 'interest-only payments during a 5-10 year draw period',
+            },
+            {
+              subject: 'HELOC borrowers',
+              predicate: 'pay interest only on amounts drawn, not the full credit limit, requiring a minimum',
+              object: '680 credit score and up to 90% combined loan-to-value',
+            },
+            {
+              subject: 'Wholesale HELOC rates through Mo Abdel',
+              predicate: 'are sourced from',
+              object: '200+ lenders, giving borrowers access to pricing below retail bank posted rates',
+            },
+          ]}
+        />
       </div>
     </div>
   );

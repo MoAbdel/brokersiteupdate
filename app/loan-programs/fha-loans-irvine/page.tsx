@@ -204,7 +204,7 @@ export default function FHALoansIrvinePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+19498229662">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
+                  <Button size="lg" className="bg-slate-900 hover:bg-slate-800 w-full">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
@@ -237,7 +237,7 @@ export default function FHALoansIrvinePage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600 mb-3">{benefit.description}</p>
-                    <p className="text-sm font-semibold text-green-700">{benefit.benefit}</p>
+                    <p className="text-sm font-semibold text-blue-700">{benefit.benefit}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -279,7 +279,7 @@ export default function FHALoansIrvinePage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <Shield className="w-6 h-6 mr-2" />
                     Irvine FHA Loan Data 2025
@@ -335,7 +335,7 @@ export default function FHALoansIrvinePage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Why It Works:</span>
-                        <p className="text-green-700 font-medium">{neighborhood.whyGood}</p>
+                        <p className="text-blue-700 font-medium">{neighborhood.whyGood}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -360,7 +360,7 @@ export default function FHALoansIrvinePage() {
                   <CardContent>
                     <div className="space-y-2">
                       <p className="text-slate-600 text-sm">{market.data}</p>
-                      <p className="text-green-700 font-semibold text-sm">{market.opportunity}</p>
+                      <p className="text-blue-700 font-semibold text-sm">{market.opportunity}</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -413,7 +413,7 @@ export default function FHALoansIrvinePage() {
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Irvine FHA loan specialist
             </p>
           </div>

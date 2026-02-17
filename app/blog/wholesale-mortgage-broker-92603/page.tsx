@@ -232,12 +232,12 @@ export default function WholesaleMortgageBroker92603Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement jumbo</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-green-700">Multiple lender options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Stock compensation</td><td className="py-2 px-4 border-b">Conservative calculations</td><td className="py-2 px-4 border-b text-green-700">Tech-savvy lenders available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Foreign nationals</td><td className="py-2 px-4 border-b">Limited programs</td><td className="py-2 px-4 border-b text-green-700">Dedicated international lending</td></tr>
-              <tr><td className="py-2 px-4">Deposit requirements</td><td className="py-2 px-4">Often $250K+ for best rates</td><td className="py-2 px-4 text-green-700">No deposit relationship needed</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement jumbo</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-blue-700">Multiple lender options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Stock compensation</td><td className="py-2 px-4 border-b">Conservative calculations</td><td className="py-2 px-4 border-b text-blue-700">Tech-savvy lenders available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Foreign nationals</td><td className="py-2 px-4 border-b">Limited programs</td><td className="py-2 px-4 border-b text-blue-700">Dedicated international lending</td></tr>
+              <tr><td className="py-2 px-4">Deposit requirements</td><td className="py-2 px-4">Often $250K+ for best rates</td><td className="py-2 px-4 text-blue-700">No deposit relationship needed</td></tr>
             </tbody>
           </table>
         </div>

@@ -146,8 +146,8 @@ export default function HomeEquityLoanPage() {
 
       {/* Header */}
       <header className="mb-12">
-        <div className="flex items-center gap-2 text-sm text-green-600 mb-4">
-          <span className="bg-green-100 px-3 py-1 rounded-full">Home Equity</span>
+        <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
+          <span className="bg-slate-100 px-3 py-1 rounded-full">Home Equity</span>
           <span>•</span>
           <time dateTime="2026-01-29">January 29, 2026</time>
           <span>•</span>
@@ -370,40 +370,40 @@ export default function HomeEquityLoanPage() {
         </h2>
 
         <div className="space-y-4 my-8">
-          <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
+          <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
             <div>
               <h4 className="font-semibold">Fixed Interest Rate</h4>
               <p className="text-gray-600 text-sm">Your rate never changes, regardless of market conditions. Protection from rising rates provides long-term budget certainty.</p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
+          <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
             <div>
               <h4 className="font-semibold">Predictable Payments</h4>
               <p className="text-gray-600 text-sm">Same payment amount every month for the life of the loan. Easy to budget and plan around.</p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
+          <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
             <div>
               <h4 className="font-semibold">Lump Sum Disbursement</h4>
               <p className="text-gray-600 text-sm">Receive the full amount at closing—ideal for large, immediate expenses like renovations or debt consolidation.</p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
+          <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
             <div>
               <h4 className="font-semibold">Lower Rates Than Unsecured Debt</h4>
               <p className="text-gray-600 text-sm">Because your home secures the loan, rates are typically much lower than credit cards or personal loans.</p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">5</div>
+          <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">5</div>
             <div>
               <h4 className="font-semibold">Potential Tax Benefits</h4>
               <p className="text-gray-600 text-sm">Interest may be tax-deductible if used for home improvements (consult a tax advisor).</p>
@@ -659,20 +659,20 @@ export default function HomeEquityLoanPage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Find the Right Home Equity Solution</h3>
-          <p className="text-green-100 mb-6">
+          <p className="text-slate-200 mb-6">
             With access to 200+ lenders, I can help you compare home equity loans, HELOCs, and
             cash-out refinance options to find the best fit for your goals and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
-              className="inline-block bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
+              className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-colors text-center"
             >
               Get Your Quote
             </Link>
             <a
               href="tel:+19498229662"
-              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors text-center"
+              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
               Call (949) 822-9662
             </a>

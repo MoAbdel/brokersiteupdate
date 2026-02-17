@@ -383,7 +383,7 @@ export default function CashOutVsRegularRefinancePage() {
                     <p className="text-blue-800 mb-4">
                         Let me analyze your situation and compare both options side-by-side. As a wholesale broker, I access 50+ lenders to find the best rates whether you need cash or just want better terms.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your Personalized Comparison
                     </a>
                 </div>

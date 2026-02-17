@@ -183,7 +183,7 @@ export default function QuailHillMortgageBrokerPage() {
                 Specialized financing for Irvine's premier master-planned community. Expert in newer construction luxury homes with resort-style amenities and contemporary family living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -225,21 +225,21 @@ export default function QuailHillMortgageBrokerPage() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Modern Infrastructure</h4>
                       <p className="text-slate-600">Newer construction with updated utilities, modern systems, and contemporary design</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Resort-Style Living</h4>
                       <p className="text-slate-600">Extensive amenities including pools, parks, trails, and recreational facilities</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Premium Location</h4>
                       <p className="text-slate-600">Central Irvine location with easy access to business districts and entertainment</p>
@@ -249,7 +249,7 @@ export default function QuailHillMortgageBrokerPage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
                     Quail Hill Market Data 2026
@@ -302,7 +302,7 @@ export default function QuailHillMortgageBrokerPage() {
                     <div className="space-y-2">
                       {property.features.map((feature, index) => (
                         <div key={index} className="flex items-center text-sm text-slate-700">
-                          <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                          <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                           {feature}
                         </div>
                       ))}
@@ -367,7 +367,7 @@ export default function QuailHillMortgageBrokerPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-slate-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Finance Your Quail Hill Dream Home?
@@ -384,7 +384,7 @@ export default function QuailHillMortgageBrokerPage() {
                 Get Pre-Approved
               </Button>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Quail Hill luxury community specialist
             </p>
           </div>

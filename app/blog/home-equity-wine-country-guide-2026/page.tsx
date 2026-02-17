@@ -319,14 +319,14 @@ export default function HomeEquityWineCountryGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Standard residential (no vineyard)</td>
                 <td className="py-2 px-4 border-b">$700K-$2M</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access, all lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access, all lenders</td>
                 <td className="py-2 px-4 border-b">Standard</td>
                 <td className="py-2 px-4 border-b">Any jumbo HELOC lender</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Home with small vineyard (1-5 acres)</td>
                 <td className="py-2 px-4 border-b">$1M-$3M</td>
-                <td className="py-2 px-4 border-b text-green-600">Most jumbo lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Most jumbo lenders</td>
                 <td className="py-2 px-4 border-b">Moderate</td>
                 <td className="py-2 px-4 border-b">Jumbo HELOC with Wine Country experience</td>
               </tr>
@@ -347,7 +347,7 @@ export default function HomeEquityWineCountryGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Condo/townhome (downtown)</td>
                 <td className="py-2 px-4 border-b">$500K-$1.2M</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access, all lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access, all lenders</td>
                 <td className="py-2 px-4 border-b">Standard</td>
                 <td className="py-2 px-4 border-b">Conforming or jumbo HELOC lender</td>
               </tr>
@@ -421,8 +421,8 @@ export default function HomeEquityWineCountryGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Preserves 1st Mortgage Rate</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
                 <td className="py-2 px-4 border-b text-red-600 font-semibold">No (replaces it)</td>
               </tr>
             </tbody>
@@ -474,30 +474,30 @@ export default function HomeEquityWineCountryGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">760+</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b font-semibold">Best rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">720-759</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Competitive rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">700-719</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Standard rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">680-699</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Most lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Most lenders</td>
                 <td className="py-2 px-4 border-b">Higher rates</td>
               </tr>
               <tr>
@@ -631,7 +631,7 @@ export default function HomeEquityWineCountryGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Home Equity in Wine Country</h2>
           <p>
             Wine Country homeowners across Napa and Sonoma counties hold exceptional equity positions, with the average long-term homeowner sitting on $550,000 to $1.3 million or more in accessible equity. The region&apos;s sustained appreciation driven by global wine tourism, agricultural preservation, and limited development has created deep equity reserves that represent powerful financial resources for renovation, investment, debt consolidation, and retirement planning.
@@ -643,7 +643,7 @@ export default function HomeEquityWineCountryGuide2026() {
             Vineyard properties, hospitality income, and the jumbo nature of most Wine Country equity products make lender selection critical. Rate and term differences between lenders on a $750,000 HELOC total thousands of dollars annually &mdash; savings that compound dramatically over the life of the product. A wholesale broker navigates these complexities to deliver the best available terms.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Wine Country home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Wine Country property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Wine Country home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Wine Country property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 

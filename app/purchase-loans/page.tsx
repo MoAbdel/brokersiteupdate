@@ -142,7 +142,7 @@ export default function PurchaseLoansPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg flex items-center">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Pre-Approved Today
                 </Button>
@@ -185,7 +185,7 @@ export default function PurchaseLoansPage() {
                     <ul className="space-y-2">
                       {loan.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
                           <span className="text-slate-700">{feature}</span>
                         </li>
                       ))}
@@ -193,7 +193,7 @@ export default function PurchaseLoansPage() {
                   </div>
                   
                   <Link href={loan.link}>
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3">
+                    <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3">
                       Learn More About {loan.title}
                     </Button>
                   </Link>
@@ -216,23 +216,23 @@ export default function PurchaseLoansPage() {
                 </h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <span className="text-slate-700">Access to 200+ lenders and loan programs</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <span className="text-slate-700">Shop multiple rates to find your best option</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <span className="text-slate-700">California and Washington market expertise</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <span className="text-slate-700">Personalized service throughout the process</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
                     <span className="text-slate-700">Wholesale rates often better than retail</span>
                   </li>
                 </ul>
@@ -312,7 +312,7 @@ export default function PurchaseLoansPage() {
 
             <div className="text-center mt-8">
               <a href="tel:(949) 822-9662">
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg flex items-center">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg flex items-center">
                   <Clock className="w-5 h-5 mr-2" />
                   Start Your Pre-Approval (24 Hour Turnaround)
                 </Button>
@@ -381,24 +381,24 @@ export default function PurchaseLoansPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-blue-600 text-white rounded-lg p-8">
+          <section className="text-center bg-slate-900 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Home Buying Journey?</h2>
-            <p className="text-xl mb-6 text-blue-100">
+            <p className="text-xl mb-6 text-slate-200">
               Get your free pre-approval consultation and discover what you can afford in California and Washington markets.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+                <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
                   Call (949) 822-9662
                 </Button>
               </a>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                   Schedule Consultation
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Mo Abdel - NMLS #1426884 | Licensed Mortgage Broker (CA &amp; WA)
             </p>
           </section>

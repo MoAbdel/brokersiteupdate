@@ -414,7 +414,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             Through wholesale channels, the broker identifies three lenders comfortable with trust-held income, racing industry documentation, and second-home jumbo financing. The winning lender offers a 30-year fixed jumbo with asset depletion qualification&mdash;counting the borrower&apos;s $12 million investment portfolio to create qualifying income of $400,000 annually, well above the threshold for a $3.36 million loan (80% LTV). No bank branch in Del Mar could replicate this solution.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Del Mar Expertise</h4>
             <p className="mb-0">I have closed jumbo transactions across Del Mar&apos;s distinct micro-markets, from oceanfront estates requiring $5M+ financing to Del Mar Heights family homes needing rate-competitive jumbo programs. Understanding the valuation differences between ocean-view and ocean-front properties&mdash;and which lenders differentiate these in their underwriting&mdash;translates directly to better outcomes for Del Mar buyers.</p>
           </div>
@@ -466,7 +466,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             Through wholesale channels, the broker accesses a super jumbo lender that accepts trust vesting without requiring property transfer, counts board fees and investment income at face value, and uses an equestrian-experienced appraiser who values the property at $8.1 million (higher than purchase price due to recent comparable sales). The combined qualifying income of $542,000 comfortably supports the requested loan amount. A retail bank would likely require trust removal, discount investment income, and use a general appraiser who undervalues the equestrian improvements.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rancho Santa Fe Specialization</h4>
             <p className="mb-0">Financing Rancho Santa Fe estates requires understanding the Covenant&apos;s architectural review process, Fairbanks Ranch&apos;s HOA structure, and the unique appraisal dynamics of equestrian properties. My experience with Rancho Santa Fe transactions across multiple property types&mdash;from Bridges golf estates to Santa Fe Valley ranches&mdash;ensures borrowers receive guidance calibrated to this market&apos;s specific lending requirements.</p>
           </div>
@@ -510,7 +510,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             At a traditional bank, Elena&apos;s $145,000 tax-return income qualifies her for approximately $580,000 in mortgage financing&mdash;nowhere near enough for a $2.2 million Lomas Santa Fe home she wants to purchase with 25% down ($1.65M loan needed). Through wholesale bank statement lending, the broker calculates qualifying income at $32,500/month ($390,000 annually) using her $65,000 average deposits with a 50% expense factor. This qualifying income comfortably supports the $1.65 million jumbo mortgage. Elena closes on her Solana Beach home within 28 days.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Solana Beach Market Knowledge</h4>
             <p className="mb-0">Solana Beach&apos;s compact geography means micro-location drives value dramatically&mdash;a two-block difference between Cedros and oceanfront can represent a $2 million price gap. Understanding which lenders appraise Solana Beach properties correctly, and which underwriters recognize the Cedros Design District&apos;s commercial proximity as an asset rather than a detriment, directly impacts financing outcomes for Solana Beach buyers.</p>
           </div>
@@ -555,7 +555,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             They want to purchase a $2.1 million property in Olivenhain with an existing horse corral (their daughter rides competitively). A $1.575 million mortgage at 75% LTV requires qualifying income well above what tax returns show. Through wholesale bank statement lending, the broker uses their combined personal bank deposits averaging $52,000/month. With a 50% expense factor, qualifying income reaches $312,000 annually&mdash;comfortably supporting the requested loan. The broker also selects a lender experienced with Olivenhain&apos;s equestrian properties, ensuring the appraisal captures the horse corral and trail-access premium.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Encinitas Self-Employed Lending</h4>
             <p className="mb-0">Encinitas has one of the highest self-employment rates among San Diego&apos;s coastal communities. My experience structuring bank statement, 1099, and P&amp;L-only loans for Encinitas entrepreneurs&mdash;from surf brand founders to wellness practitioners to Leucadia artists&mdash;means I understand the income documentation nuances that separate approval from denial in this market.</p>
           </div>

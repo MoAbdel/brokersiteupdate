@@ -58,7 +58,7 @@ export default function PillarPageHub() {
                 className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg border border-blue-100 p-8 hover:shadow-xl transition-all duration-300 group"
               >
                 <div className="flex items-start mb-6">
-                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-700 transition-colors">
+                  <div className="w-12 h-12 bg-slate-900 rounded-lg flex items-center justify-center mr-4 group-hover:bg-slate-800 transition-colors">
                     <Icon className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
@@ -92,7 +92,7 @@ export default function PillarPageHub() {
                 {/* Call to Action */}
                 <Link
                   href={pillar.href}
-                  className="inline-flex items-center bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors group-hover:shadow-md"
+                  className="inline-flex items-center bg-slate-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors group-hover:shadow-md"
                 >
                   Explore {pillar.title}
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -113,7 +113,7 @@ export default function PillarPageHub() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/calculator"
-              className="inline-flex items-center bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center bg-slate-900 text-white font-semibold px-8 py-3 rounded-lg hover:bg-slate-800 transition-colors"
             >
               <Calculator className="w-5 h-5 mr-2" />
               Calculate Payments

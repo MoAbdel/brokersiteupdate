@@ -162,7 +162,7 @@ export default function NorthwoodMortgageBrokerPage() {
                 Specialized financing for Irvine's premier modern family community. Expert in newer construction homes with contemporary amenities and family-focused design.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -204,21 +204,21 @@ export default function NorthwoodMortgageBrokerPage() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Contemporary Floor Plans</h4>
                       <p className="text-slate-600">Open concepts, modern kitchens, and family-focused layouts</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Updated Infrastructure</h4>
                       <p className="text-slate-600">Modern utilities, newer systems, and contemporary amenities</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Family Lifestyle</h4>
                       <p className="text-slate-600">Designed for contemporary family living with modern conveniences</p>
@@ -228,7 +228,7 @@ export default function NorthwoodMortgageBrokerPage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <MapPin className="w-6 h-6 mr-2" />
                     Northwood Market Data 2026
@@ -281,7 +281,7 @@ export default function NorthwoodMortgageBrokerPage() {
                     <div className="space-y-2">
                       {property.features.map((feature, index) => (
                         <div key={index} className="flex items-center text-sm text-slate-700">
-                          <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                          <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                           {feature}
                         </div>
                       ))}
@@ -315,7 +315,7 @@ export default function NorthwoodMortgageBrokerPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-slate-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Finance Your Modern Northwood Home?

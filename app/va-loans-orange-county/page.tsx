@@ -106,7 +106,7 @@ export default function VALoansOrangeCountyPage() {
         {/* Header */}
         <section aria-label="VA loans hero and call to action">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <div className="inline-flex items-center bg-slate-100 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               🇺🇸 Honoring Our Veterans
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
@@ -118,7 +118,7 @@ export default function VALoansOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Apply for a VA loan with Mo Abdel">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Apply for a VA loan with Mo Abdel">
                   Apply for VA Loan
                 </Button>
               </Link>
@@ -145,12 +145,12 @@ export default function VALoansOrangeCountyPage() {
                 <div className="text-sm text-slate-500 mt-1">Standard VA loan amount</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">$0</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">$0</div>
                 <div className="text-slate-600">Down Payment Required</div>
                 <div className="text-sm text-slate-500 mt-1">100% financing available</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">No Limit</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">No Limit</div>
                 <div className="text-slate-600">Above $1,249,125*</div>
                 <div className="text-sm text-slate-500 mt-1">*25% down on excess amount</div>
               </div>
@@ -175,7 +175,7 @@ export default function VALoansOrangeCountyPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <DollarSign className="w-12 h-12 text-green-600 mb-4" aria-hidden="true" />
+                <DollarSign className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">Zero Down Payment</CardTitle>
               </CardHeader>
               <CardContent>
@@ -201,7 +201,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <Star className="w-12 h-12 text-purple-600 mb-4" aria-hidden="true" />
+                <Star className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">Competitive pricing</CardTitle>
               </CardHeader>
               <CardContent>
@@ -214,7 +214,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <TrendingUp className="w-12 h-12 text-green-600 mb-4" aria-hidden="true" />
+                <TrendingUp className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">No Prepayment Penalty</CardTitle>
               </CardHeader>
               <CardContent>
@@ -240,7 +240,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <Award className="w-12 h-12 text-purple-600 mb-4" aria-hidden="true" />
+                <Award className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">Reusable Benefit</CardTitle>
               </CardHeader>
               <CardContent>
@@ -265,28 +265,28 @@ export default function VALoansOrangeCountyPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                  <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                   <div>
                     <div className="font-bold text-slate-900">Active Duty Military</div>
                     <p className="text-slate-600">Currently serving members of Army, Navy, Air Force, Marines, Space Force, or Coast Guard with 90+ days of service</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                  <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                   <div>
                     <div className="font-bold text-slate-900">Veterans</div>
                     <p className="text-slate-600">Honorably discharged veterans who served minimum required time (typically 24 months active duty)</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                  <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                   <div>
                     <div className="font-bold text-slate-900">National Guard & Reserves</div>
                     <p className="text-slate-600">Members with 6+ years of service or activated for 90+ days of federal service</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
+                  <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                   <div>
                     <div className="font-bold text-slate-900">Surviving Spouses</div>
                     <p className="text-slate-600">Unmarried surviving spouses of service members who died in service or from service-connected disabilities</p>
@@ -304,7 +304,7 @@ export default function VALoansOrangeCountyPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Down Payment:</span>
-                  <span className="font-bold text-green-600">$0</span>
+                  <span className="font-bold text-blue-600">$0</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">VA Funding Fee:</span>
@@ -331,7 +331,7 @@ export default function VALoansOrangeCountyPage() {
           <h2 className="text-3xl font-bold text-center mb-8">How Do VA vs FHA vs Conventional Loans Compare in Orange County?</h2>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
-              <thead className="bg-blue-600 text-white">
+              <thead className="bg-slate-900 text-white">
                 <tr>
                   <th scope="col" className="px-6 py-4 text-left">Loan Feature</th>
                   <th scope="col" className="px-6 py-4 text-center">VA Loan</th>
@@ -342,39 +342,39 @@ export default function VALoansOrangeCountyPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Orange County 2026 Limit</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">$1,249,125</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,125</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-purple-600 font-bold">$1,249,125</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,125</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Minimum Down Payment</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">0%</td>
-                  <td className="px-6 py-4 text-center text-orange-600">3.5%</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">0%</td>
+                  <td className="px-6 py-4 text-center text-blue-600">3.5%</td>
                   <td className="px-6 py-4 text-center text-red-600">3% - 20%</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Mortgage Insurance</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">None</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">None</td>
                   <td className="px-6 py-4 text-center text-red-600">Required (MIP)</td>
                   <td className="px-6 py-4 text-center text-red-600">PMI if &lt; 20% down</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Credit Score Requirement</td>
-                  <td className="px-6 py-4 text-center text-green-600">580+ (varies by lender)</td>
+                  <td className="px-6 py-4 text-center text-blue-600">580+ (varies by lender)</td>
                   <td className="px-6 py-4 text-center text-blue-600">580+</td>
-                  <td className="px-6 py-4 text-center text-purple-600">620+</td>
+                  <td className="px-6 py-4 text-center text-blue-600">620+</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Funding Fee</td>
                   <td className="px-6 py-4 text-center text-yellow-600">2.15% - 3.3%</td>
                   <td className="px-6 py-4 text-center text-blue-600">1.75%</td>
-                  <td className="px-6 py-4 text-center text-green-600">None</td>
+                  <td className="px-6 py-4 text-center text-blue-600">None</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Occupancy Requirement</td>
                   <td className="px-6 py-4 text-center text-blue-600">Primary residence</td>
                   <td className="px-6 py-4 text-center text-blue-600">Primary residence</td>
-                  <td className="px-6 py-4 text-center text-green-600">Any</td>
+                  <td className="px-6 py-4 text-center text-blue-600">Any</td>
                 </tr>
               </tbody>
             </table>
@@ -460,7 +460,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <TrendingUp className="w-10 h-10 text-green-600 mb-4" aria-hidden="true" />
+                <TrendingUp className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">VA Refinance Loans</CardTitle>
               </CardHeader>
               <CardContent>
@@ -479,7 +479,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <DollarSign className="w-10 h-10 text-purple-600 mb-4" aria-hidden="true" />
+                <DollarSign className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">VA Cash-Out Refinance</CardTitle>
               </CardHeader>
               <CardContent>
@@ -498,7 +498,7 @@ export default function VALoansOrangeCountyPage() {
 
             <Card className="border-2 hover:border-blue-300 transition-all duration-300">
               <CardHeader>
-                <FileText className="w-10 h-10 text-orange-600 mb-4" aria-hidden="true" />
+                <FileText className="w-10 h-10 text-blue-600 mb-4" aria-hidden="true" />
                 <CardTitle className="text-xl">VA Construction Loans</CardTitle>
               </CardHeader>
               <CardContent>
@@ -538,7 +538,7 @@ export default function VALoansOrangeCountyPage() {
             <Link href="/jumbo-loans-orange-county" className="group">
               <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                 <CardHeader className="text-center">
-                  <TrendingUp className="w-8 h-8 text-green-600 mx-auto mb-2" aria-hidden="true" />
+                  <TrendingUp className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                   <CardTitle className="text-lg group-hover:text-blue-600">Jumbo Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -552,7 +552,7 @@ export default function VALoansOrangeCountyPage() {
             <Link href="/heloc-orange-county" className="group">
               <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                 <CardHeader className="text-center">
-                  <DollarSign className="w-8 h-8 text-purple-600 mx-auto mb-2" aria-hidden="true" />
+                  <DollarSign className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                   <CardTitle className="text-lg group-hover:text-blue-600">HELOC</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -566,7 +566,7 @@ export default function VALoansOrangeCountyPage() {
             <Link href="/rate-term-refinance-orange-county" className="group">
               <Card className="border-2 hover:border-blue-300 transition-all duration-300 h-full">
                 <CardHeader className="text-center">
-                  <Calculator className="w-8 h-8 text-orange-600 mx-auto mb-2" aria-hidden="true" />
+                  <Calculator className="w-8 h-8 text-blue-600 mx-auto mb-2" aria-hidden="true" />
                   <CardTitle className="text-lg group-hover:text-blue-600">Refinancing</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -599,27 +599,27 @@ export default function VALoansOrangeCountyPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white" aria-label="Contact Mo Abdel to start your VA loan application">
+        <section className="text-center bg-slate-900 rounded-2xl p-8 text-white" aria-label="Contact Mo Abdel to start your VA loan application">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Use Your VA Benefits in Orange County?
           </h2>
-          <p className="text-xl mb-6 text-blue-100" data-speakable="true">
+          <p className="text-xl mb-6 text-slate-200" data-speakable="true">
             Honor your service with homeownership. Get started with your VA loan today with Mo Abdel,
             your trusted Orange County VA loan specialist.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold" aria-label="Start your VA loan application with Mo Abdel">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold" aria-label="Start your VA loan application with Mo Abdel">
                 Start My VA Loan Application
               </Button>
             </Link>
             <a href="tel:9498229662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg" aria-label="Call VA expert Mo Abdel at (949) 822-9662">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Call VA expert Mo Abdel at (949) 822-9662">
                 Call VA Expert: (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Proudly serving Orange County veterans
           </p>
         </section>

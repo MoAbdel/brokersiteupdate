@@ -119,7 +119,7 @@ export default function ContactForm() {
           </p>
           <Button 
             onClick={() => setShowSuccess(false)}
-            className="bg-blue-600 hover:bg-blue-700"
+            className="bg-slate-900 hover:bg-slate-800"
           >
             Submit Another Inquiry
           </Button>
@@ -279,7 +279,7 @@ export default function ContactForm() {
           type="submit"
           disabled={isSubmitting}
           aria-label="Submit mortgage quote request to Mo Abdel"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg"
+          className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg"
         >
           {isSubmitting ? 'Submitting...' : 'Get My Free Quote'}
         </Button>

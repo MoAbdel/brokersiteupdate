@@ -70,11 +70,11 @@ export default function DebtToIncomeCalculator() {
     switch (status) {
       case 'excellent':
         return {
-          bg: 'bg-green-50',
-          border: 'border-green-200',
-          icon: 'text-green-600',
-          title: 'text-green-800',
-          text: 'text-green-700'
+          bg: 'bg-slate-50',
+          border: 'border-slate-200',
+          icon: 'text-blue-600',
+          title: 'text-slate-900',
+          text: 'text-blue-700'
         };
       case 'good':
         return {
@@ -231,7 +231,7 @@ export default function DebtToIncomeCalculator() {
 
               <Button 
                 onClick={calculateDTI}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold"
+                className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg font-semibold"
               >
                 Calculate DTI Ratios
               </Button>
@@ -336,7 +336,7 @@ export default function DebtToIncomeCalculator() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                   Call (949) 822-9662
                 </Button>
               </a>

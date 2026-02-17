@@ -262,37 +262,37 @@ export default function ReverseMortgageNorthSoundGuide2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bellingham</td>
                 <td className="border border-gray-300 px-4 py-3">$664,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$350,000 - $400,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$350,000 - $400,000</td>
                 <td className="border border-gray-300 px-4 py-3">College-town retirees, mixed neighborhoods, waterfront and hillside properties</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Anacortes</td>
                 <td className="border border-gray-300 px-4 py-3">$645,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$340,000 - $385,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$340,000 - $385,000</td>
                 <td className="border border-gray-300 px-4 py-3">Waterfront community, marina access, ferry terminal to San Juans</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">San Juan Island</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$520,000 - $600,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$520,000 - $600,000</td>
                 <td className="border border-gray-300 px-4 py-3">Island access via ferry only, limited comparables, waterfront premiums, proprietary products for values above HECM limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Friday Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$1,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$475,000 - $550,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$475,000 - $550,000</td>
                 <td className="border border-gray-300 px-4 py-3">Town center of San Juan Island, walkable downtown, mixed residential/commercial</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Mukilteo</td>
                 <td className="border border-gray-300 px-4 py-3">$850,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$430,000 - $490,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$430,000 - $490,000</td>
                 <td className="border border-gray-300 px-4 py-3">Waterfront suburb, Whidbey Island ferry access, Snohomish County taxes</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Edmonds</td>
                 <td className="border border-gray-300 px-4 py-3">$900,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$450,000 - $515,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$450,000 - $515,000</td>
                 <td className="border border-gray-300 px-4 py-3">Charming downtown, Kingston ferry access, view properties, established neighborhoods</td>
               </tr>
             </tbody>
@@ -484,12 +484,12 @@ export default function ReverseMortgageNorthSoundGuide2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $4,000,000+</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $4,000,000+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">None</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">None</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">HUD Counseling Required</td>
@@ -508,7 +508,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Line of Credit Growth</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Yes (guaranteed)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Yes (guaranteed)</td>
                 <td className="border border-gray-300 px-4 py-3">Not typically offered</td>
               </tr>
               <tr>
@@ -617,21 +617,21 @@ export default function ReverseMortgageNorthSoundGuide2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: North Sound Reverse Mortgage Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             North Sound and San Juan Island seniors own some of Washington state&apos;s most valuable residential real estate. From Bellingham&apos;s $664,000 median to San Juan Island&apos;s $1.1 million median, this equity represents decades of homeownership and appreciation. A reverse mortgage converts this equity into retirement security&mdash;tax-free funds with no monthly payments, FHA non-recourse protection, and the guaranteed right to remain in your home for life.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             The North Sound region&apos;s unique characteristics&mdash;island properties, waterfront homes, ferry-access communities, and seasonal lifestyle patterns&mdash;require reverse mortgage expertise that generic lenders lack. Proper appraiser selection, island property qualification, waterfront valuation, and understanding of ferry-community living patterns determine whether your HECM delivers maximum benefit or falls short of available proceeds.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized HECM analysis for North Sound seniors through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial consultation through closing, Mo coordinates every aspect of the reverse mortgage process, including appraiser selection, HUD counseling referrals, and lender matching for both HECM and proprietary products.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to explore your North Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free HECM calculation based on your specific property and age. No obligation, no cost.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to explore your North Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free HECM calculation based on your specific property and age. No obligation, no cost.
           </p>
         </div>
 

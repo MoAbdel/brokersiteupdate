@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Home Equity Options in Redmond, WA: HELOC, HELOAN & Cash-Out [2026]',
@@ -209,7 +210,10 @@ export default function HomeEquityRedmond() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free consultation:</p>
-            <p>📞 (949) 822-9662</p>
+            <p className="inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

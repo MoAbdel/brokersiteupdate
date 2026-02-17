@@ -25,9 +25,9 @@ export default function FixFlipLoansPage() {
         
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="bg-purple-100 text-purple-600 mb-4">Real Estate Investor Program</Badge>
+          <Badge className="bg-slate-100 text-blue-600 mb-4">Real Estate Investor Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-purple-600">Fix & Flip Loans</span> in Orange County
+            <span className="text-blue-600">Fix & Flip Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Fast financing for real estate investors and flippers. Get up to 90% of purchase price + 
@@ -35,12 +35,12 @@ export default function FixFlipLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Investor Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-purple-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -61,21 +61,21 @@ export default function FixFlipLoansPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">Lightning Fast Closings</h3>
                     <p className="text-slate-600">Close in 4-5 weeks with proper documentation</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">High Loan-to-Cost Ratios</h3>
                     <p className="text-slate-600">Up to 90% of purchase price + 100% rehab costs</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">Flexible Terms</h3>
                     <p className="text-slate-600">6-24 month terms with interest-only payments</p>
@@ -84,7 +84,7 @@ export default function FixFlipLoansPage() {
               </div>
             </div>
             
-            <div className="bg-purple-50 p-6 rounded-lg">
+            <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Ideal For:</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Experienced real estate investors</li>
@@ -107,8 +107,8 @@ export default function FixFlipLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">Quick Closings</CardTitle>
               </CardHeader>
@@ -122,8 +122,8 @@ export default function FixFlipLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">High LTC</CardTitle>
               </CardHeader>
@@ -137,8 +137,8 @@ export default function FixFlipLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Hammer className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Hammer className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">Rehab Funding</CardTitle>
               </CardHeader>
@@ -152,8 +152,8 @@ export default function FixFlipLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-purple-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">High ARV</CardTitle>
               </CardHeader>
@@ -211,32 +211,32 @@ export default function FixFlipLoansPage() {
               <h3 className="text-xl font-bold text-slate-900 mb-4">Borrower Requirements</h3>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Credit score 600+ minimum</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Real estate investment experience</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Proof of funds for down payment</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Detailed rehab scope and budget</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Exit strategy (sale or refinance)</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Licensed contractor references</span>
                 </div>
               </div>
               
-              <div className="bg-white border border-purple-200 rounded-lg p-4 mt-4">
+              <div className="bg-white border border-slate-200 rounded-lg p-4 mt-4">
                 <h4 className="font-bold text-slate-900 mb-2">Experience Preferred:</h4>
                 <p className="text-sm text-slate-700">
                   While we work with newer investors, preference given to borrowers 
@@ -248,7 +248,7 @@ export default function FixFlipLoansPage() {
         </div>
 
         {/* Orange County Fix & Flip Market */}
-        <div className="bg-purple-50 rounded-lg p-8 mb-12">
+        <div className="bg-slate-50 rounded-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">
             Orange County Fix & Flip Market
           </h2>
@@ -299,19 +299,19 @@ export default function FixFlipLoansPage() {
                 <h4 className="font-bold text-slate-900 mb-3">Why Orange County?</h4>
                 <div className="space-y-2 text-slate-700">
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Strong buyer demand for move-in ready homes</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Consistent appreciation and market stability</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Large inventory of older homes needing updates</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>High-income buyers willing to pay for quality</span>
                   </div>
                 </div>
@@ -327,8 +327,8 @@ export default function FixFlipLoansPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold">1</span>
+              <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-blue-600 font-bold">1</span>
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Application</h3>
               <p className="text-sm text-slate-600">
@@ -338,8 +338,8 @@ export default function FixFlipLoansPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold">2</span>
+              <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-blue-600 font-bold">2</span>
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Appraisal</h3>
               <p className="text-sm text-slate-600">
@@ -349,8 +349,8 @@ export default function FixFlipLoansPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold">3</span>
+              <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-blue-600 font-bold">3</span>
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Closing</h3>
               <p className="text-sm text-slate-600">
@@ -360,8 +360,8 @@ export default function FixFlipLoansPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold">4</span>
+              <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-blue-600 font-bold">4</span>
               </div>
               <h3 className="font-bold text-slate-900 mb-2">Rehab Draws</h3>
               <p className="text-sm text-slate-600">
@@ -413,24 +413,24 @@ export default function FixFlipLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-purple-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Fund Your Next Flip?</h2>
-          <p className="text-xl mb-6 text-purple-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get fast approval and quick closing for your Orange County investment property
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get Investor Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-purple-100 mt-4">
+          <p className="text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Investor Specialist
           </p>
         </div>

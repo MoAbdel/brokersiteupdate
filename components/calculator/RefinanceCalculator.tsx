@@ -98,7 +98,7 @@ export default function RefinanceCalculator() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Input Form */}
         <Card className="lg:col-span-2 shadow-lg border-slate-200">
-          <CardHeader className="bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-t-lg">
             <CardTitle className="flex items-center text-2xl">
               <Calculator className="w-6 h-6 mr-3" />
               Current & New Loan Details
@@ -230,8 +230,10 @@ export default function RefinanceCalculator() {
         {/* Results */}
         <div className="space-y-6">
           {/* Main Result Card */}
-          <Card className={`shadow-lg border-slate-200 ${isGoodDeal ? 'ring-2 ring-green-500' : ''}`}>
-            <CardHeader className={`${isGoodDeal ? 'bg-gradient-to-r from-green-600 to-green-700' : 'bg-gradient-to-r from-slate-600 to-slate-700'} text-white rounded-t-lg`}>
+          <Card className={`shadow-lg border-slate-200 ${isGoodDeal ? 'ring-2 ring-blue-500/20' : ''}`}>
+            <CardHeader
+              className={`${isGoodDeal ? 'bg-gradient-to-r from-slate-900 to-slate-800' : 'bg-gradient-to-r from-slate-800 to-slate-700'} text-white rounded-t-lg`}
+            >
               <CardTitle className="flex items-center text-xl">
                 <RefreshCw className="w-5 h-5 mr-2" />
                 Refinance Results
@@ -239,7 +241,7 @@ export default function RefinanceCalculator() {
             </CardHeader>
             <CardContent className="p-6">
               {isGoodDeal && (
-                <div className="flex items-center mb-4 text-green-600">
+                <div className="flex items-center mb-4 text-blue-600">
                   <CheckCircle className="w-5 h-5 mr-2" />
                   <span className="font-semibold">Good refinance opportunity!</span>
                 </div>
@@ -259,7 +261,7 @@ export default function RefinanceCalculator() {
             <CardContent className="p-6 space-y-4">
               <div className="flex justify-between items-center">
                 <span className="text-slate-600">Monthly Savings:</span>
-                <span className={`font-semibold text-lg ${results.monthlySavings >= 0 ? 'text-green-600' : 'text-red-500'}`}>
+                <span className={`font-semibold text-lg ${results.monthlySavings >= 0 ? 'text-blue-600' : 'text-red-500'}`}>
                   {results.monthlySavings >= 0 ? '+' : ''}${Math.abs(results.monthlySavings).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
                 </span>
               </div>
@@ -298,7 +300,7 @@ export default function RefinanceCalculator() {
               
               <div className="flex justify-between items-center border-t pt-2">
                 <span className="text-slate-600 font-medium">Interest Savings:</span>
-                <span className={`font-bold text-lg ${results.totalInterestSavings >= 0 ? 'text-green-600' : 'text-red-500'}`}>
+                <span className={`font-bold text-lg ${results.totalInterestSavings >= 0 ? 'text-blue-600' : 'text-red-500'}`}>
                   {results.totalInterestSavings >= 0 ? '+' : ''}${Math.abs(results.totalInterestSavings).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
                 </span>
               </div>
@@ -307,7 +309,7 @@ export default function RefinanceCalculator() {
 
           <Button 
             onClick={() => router.push('/contact')}
-            className={`w-full ${isGoodDeal ? 'bg-green-600 hover:bg-green-700' : 'bg-purple-600 hover:bg-purple-700'} text-white py-3 text-lg font-semibold`}>
+            className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
             Get My Refinance Quote
           </Button>
         </div>

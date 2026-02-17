@@ -168,22 +168,22 @@ export default function HECMvsHELOCSeniorsPage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Monthly Payments</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700 font-semibold">None required</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700 font-semibold">None required</td>
                 <td className="border border-gray-200 px-4 py-2 text-red-700">Required</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Interest Rates</td>
                 <td className="border border-gray-200 px-4 py-2">Higher (variable or fixed)</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Lower (usually variable)</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Lower (usually variable)</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Income Qualification</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Not required</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Not required</td>
                 <td className="border border-gray-200 px-4 py-2 text-red-700">Required</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Credit Requirements</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Flexible</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Flexible</td>
                 <td className="border border-gray-200 px-4 py-2">680+ typically</td>
               </tr>
               <tr>
@@ -194,11 +194,11 @@ export default function HECMvsHELOCSeniorsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Upfront Costs</td>
                 <td className="border border-gray-200 px-4 py-2 text-red-700">Higher (MIP, origination)</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Lower</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Lower</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Non-Recourse</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Yes (FHA insured)</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Yes (FHA insured)</td>
                 <td className="border border-gray-200 px-4 py-2 text-red-700">No</td>
               </tr>
               <tr>
@@ -208,7 +208,7 @@ export default function HECMvsHELOCSeniorsPage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Line Freeze Risk</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">No</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">No</td>
                 <td className="border border-gray-200 px-4 py-2 text-red-700">Yes (lender discretion)</td>
               </tr>
             </tbody>
@@ -295,7 +295,7 @@ export default function HECMvsHELOCSeniorsPage() {
             <tbody>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">HELOC</td>
-                <td className="border border-gray-200 px-4 py-2 text-green-700">Prime + 0.5-2% (8-10%)</td>
+                <td className="border border-gray-200 px-4 py-2 text-blue-700">Prime + 0.5-2% (8-10%)</td>
                 <td className="border border-gray-200 px-4 py-2">Variable</td>
               </tr>
               <tr>

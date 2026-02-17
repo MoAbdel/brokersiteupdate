@@ -491,31 +491,31 @@ export default function HomeEquityPremiumSiliconValley2026() {
                   <td className="px-4 py-3 border-t font-medium">RSU Income ($300K/yr vesting)</td>
                   <td className="px-4 py-3 border-t">2-yr avg with 25% discount = $168K</td>
                   <td className="px-4 py-3 border-t">Current schedule at face value = $300K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$132K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$132K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Annual Performance Bonus ($80K avg)</td>
                   <td className="px-4 py-3 border-t">Excluded or 50% counted = $0&ndash;$40K</td>
                   <td className="px-4 py-3 border-t">2-yr average at full value = $80K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$40K&ndash;$80K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$40K&ndash;$80K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Stock Option Exercises ($120K/yr)</td>
                   <td className="px-4 py-3 border-t">Not counted = $0</td>
                   <td className="px-4 py-3 border-t">2-yr avg of exercises = $120K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$120K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$120K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Sabbatical Income (Stanford faculty)</td>
                   <td className="px-4 py-3 border-t">Excluded during leave = $0</td>
                   <td className="px-4 py-3 border-t">Continuity letter + return confirmation</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Full salary counted</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Full salary counted</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Board/Advisory Fees ($50K&ndash;$200K)</td>
                   <td className="px-4 py-3 border-t">Requires 2-yr history = often $0</td>
                   <td className="px-4 py-3 border-t">Contract-based with 1 yr history</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$50K&ndash;$200K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$50K&ndash;$200K qualifying income</td>
                 </tr>
               </tbody>
             </table>
@@ -602,16 +602,16 @@ export default function HomeEquityPremiumSiliconValley2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Premium Silicon Valley</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Premium Silicon Valley&apos;s five cities &mdash; Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino &mdash; hold an estimated $180 billion in combined residential equity, representing the highest per-capita concentration of home equity in the United States. With median values ranging from $2.4M in Los Gatos to $4.3M in Los Altos, qualifying homeowners access $1.4M to $2.6M+ in tappable equity per property. Every home in this corridor requires jumbo or super-jumbo lender access, making wholesale broker expertise not just beneficial but essential.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Silicon Valley tech income landscape &mdash; RSUs, stock options, bonuses, sabbatical income, and advisory fees &mdash; demands lenders who understand these compensation structures. Conservative banks leave $50K&ndash;$300K+ in qualifying income on the table by discounting or excluding non-W-2 compensation. Through wholesale broker access to 50+ jumbo lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer and compensation package.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Silicon Valley property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Silicon Valley property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

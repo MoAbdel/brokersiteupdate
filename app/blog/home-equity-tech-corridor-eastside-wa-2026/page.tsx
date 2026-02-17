@@ -406,8 +406,8 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
             The Tech Corridor&apos;s employer diversity creates a unique advantage: during the 2023-2024 tech layoff cycle, cities with concentrated single-employer dependency saw equity freezes as lenders tightened qualification for affected workers. The Tech Corridor&apos;s mix of Google, Microsoft, Costco, Nintendo, biotech, and university employment kept lending channels open because no single employer&apos;s reduction triggered market-wide concern. This resilience translates to more consistent HELOC availability and more competitive terms than markets with concentrated employer risk.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded p-4 mb-6">
-            <p className="text-green-800 text-sm"><strong>Key Insight:</strong> Tech Corridor homeowners who purchased between 2018 and 2021 hold the strongest equity positions—35-55% appreciation plus 4-7 years of principal reduction creates average tappable equity of $420,000-$490,000. Homeowners who purchased in 2022-2023 at peak prices hold thinner margins (15-25% equity) but still qualify for conforming HELOCs in Bothell and jumbo HELOCs in Kirkland and Redmond.</p>
+          <div className="bg-slate-50 border border-slate-200 rounded p-4 mb-6">
+            <p className="text-slate-900 text-sm"><strong>Key Insight:</strong> Tech Corridor homeowners who purchased between 2018 and 2021 hold the strongest equity positions—35-55% appreciation plus 4-7 years of principal reduction creates average tappable equity of $420,000-$490,000. Homeowners who purchased in 2022-2023 at peak prices hold thinner margins (15-25% equity) but still qualify for conforming HELOCs in Bothell and jumbo HELOCs in Kirkland and Redmond.</p>
           </div>
         </section>
 
@@ -433,7 +433,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Kirkland Neighborhood Equity Snapshot</caption>
                 <thead>
-                  <tr className="bg-indigo-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Neighborhood</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Median Value</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">5-Year Appreciation</th>
@@ -555,7 +555,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Woodinville Property Types &amp; Equity Profiles</caption>
                 <thead>
-                  <tr className="bg-purple-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Property Type</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Value Range</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Appraisal Complexity</th>
@@ -616,7 +616,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Issaquah Community Equity Comparison</caption>
                 <thead>
-                  <tr className="bg-amber-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Community</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Median Value</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Monthly HOA</th>
@@ -677,7 +677,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
               <table className="w-full border-collapse text-sm">
                 <caption className="text-left font-semibold text-gray-800 mb-2">Bothell Equity Profile by Neighborhood</caption>
                 <thead>
-                  <tr className="bg-teal-50">
+                  <tr className="bg-slate-50">
                     <th className="border border-gray-300 px-3 py-2 text-left">Neighborhood</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">Median Value</th>
                     <th className="border border-gray-300 px-3 py-2 text-left">County</th>

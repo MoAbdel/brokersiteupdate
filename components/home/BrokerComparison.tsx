@@ -20,7 +20,7 @@ export default function BrokerComparison() {
         <div className="hidden md:block overflow-x-auto">
           <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
             <thead>
-              <tr className="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+              <tr className="bg-slate-900 text-white">
                 <th className="px-6 py-4 text-left font-semibold">Feature</th>
                 <th className="px-6 py-4 text-center font-semibold">Mortgage Broker (Mo)</th>
                 <th className="px-6 py-4 text-center font-semibold">Big Banks</th>
@@ -106,7 +106,7 @@ export default function BrokerComparison() {
         {/* Mobile Comparison Cards */}
         <div className="md:hidden space-y-4">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4">
+            <div className="bg-slate-900 text-white p-4">
               <h3 className="text-lg font-bold text-center">Mortgage Broker (Mo) vs Big Banks</h3>
             </div>
             
@@ -235,7 +235,7 @@ export default function BrokerComparison() {
           </p>
           <a
             href="/contact"
-            className="inline-block bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-block bg-slate-900 text-white font-semibold px-8 py-3 rounded-lg hover:bg-slate-800 transition-colors"
           >
             Get Your Free pricing Quote
           </a>

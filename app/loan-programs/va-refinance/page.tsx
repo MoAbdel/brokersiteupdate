@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Shield, Star, Users, CheckCircle, AlertCircle, Flag } from 'lucide-react';
+import { BarChart3, CheckCircle, ClipboardList, DollarSign, Flag, Home, MapPin, RefreshCw, Shield, Star, Users, Zap, AlertCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'VA Refinance Orange County | 100% Cash-Out | Mo The Mortgage Broker NMLS #1426884',
@@ -25,7 +25,8 @@ export default function VALoansPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            🇺🇸 Exclusive Military Benefits
+            <Flag className="w-4 h-4 mr-2 text-red-700" aria-hidden="true" />
+            <span>Exclusive Military Benefits</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             <span className="text-red-600">VA Refinance</span> in Orange County
@@ -66,15 +67,15 @@ export default function VALoansPage() {
             <p className="text-slate-600">Never pay private mortgage insurance</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
             <p className="text-slate-600">Often lower than conventional loan pricing</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Flag className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Flag className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Reusable Benefit</h3>
             <p className="text-slate-600">Use multiple times throughout your life</p>
@@ -100,7 +101,7 @@ export default function VALoansPage() {
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-600 font-medium text-left">No Limit if 25% Down:</span>
-                <span className="font-bold text-green-600">Unlimited*</span>
+                <span className="font-bold text-blue-600">Unlimited*</span>
               </div>
             </div>
             <p className="text-xs text-slate-500 mt-6">*Above $1,266,300, you'll need 25% of the difference as down payment</p>
@@ -113,7 +114,10 @@ export default function VALoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💰 $0 Down Payment</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <DollarSign className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>$0 Down Payment</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Buy a $750K Orange County home without any down payment. This saves $150K compared to a 20% down conventional loan.</p>
                 <p className="text-sm font-semibold text-red-600">Massive upfront savings</p>
               </CardContent>
@@ -121,7 +125,10 @@ export default function VALoansPage() {
 
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🛡️ No Private Mortgage Insurance</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>No Private Mortgage Insurance</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Never pay PMI, even with $0 down. Save $400-800+ monthly compared to other $0 down programs.</p>
                 <p className="text-sm font-semibold text-red-600">Lifetime PMI savings</p>
               </CardContent>
@@ -129,7 +136,10 @@ export default function VALoansPage() {
 
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">📊 Flexible Underwriting</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <BarChart3 className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Flexible Underwriting</span>
+                </h3>
                 <p className="text-slate-600 mb-3">More forgiving credit requirements and debt-to-income ratios. Military experience counts toward stability.</p>
                 <p className="text-sm font-semibold text-red-600">Military-friendly approvals</p>
               </CardContent>
@@ -137,7 +147,10 @@ export default function VALoansPage() {
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🔄 Reusable Entitlement</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <RefreshCw className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Reusable Entitlement</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Use your VA benefit multiple times. Sell and buy again, or even have two VA loans simultaneously in some cases.</p>
                 <p className="text-sm font-semibold text-red-600">Lifetime benefit</p>
               </CardContent>
@@ -145,7 +158,10 @@ export default function VALoansPage() {
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 No Prepayment Penalties</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>No Prepayment Penalties</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Pay off your loan early without penalties. Make extra payments or refinance anytime without fees.</p>
                 <p className="text-sm font-semibold text-red-600">Flexible payoff options</p>
               </CardContent>
@@ -153,7 +169,10 @@ export default function VALoansPage() {
 
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">⚡ VA IRRRL Refinancing</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Zap className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>VA IRRRL Refinancing</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Streamlined refinancing with reduced documentation and often no appraisal required for rate reductions.</p>
                 <p className="text-sm font-semibold text-red-600">Easy future refinancing</p>
               </CardContent>
@@ -166,38 +185,41 @@ export default function VALoansPage() {
           <h2 className="text-3xl font-bold text-center mb-8">Who Qualifies for VA Loans?</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">✅ Eligible Service Members</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Eligible Service Members</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Veterans</p>
                     <p className="text-slate-600 text-sm">90+ days active duty during wartime or 181+ days during peacetime</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Active Duty Military</p>
                     <p className="text-slate-600 text-sm">Currently serving 90+ days (can buy before discharge)</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">National Guard & Reserves</p>
                     <p className="text-slate-600 text-sm">6+ years of service or 90+ days active duty</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Surviving Spouses</p>
                     <p className="text-slate-600 text-sm">Of service members who died in service or from service-related disability</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Certain Spouses</p>
                     <p className="text-slate-600 text-sm">Of service members MIA or POW for 90+ days</p>
@@ -207,7 +229,10 @@ export default function VALoansPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">📋 Additional Requirements</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <ClipboardList className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Additional Requirements</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-blue-500 mr-3 mt-1 flex-shrink-0" />
@@ -268,15 +293,15 @@ export default function VALoansPage() {
               <p className="text-slate-600 text-sm">Get pre-approved to know your buying power in Orange County market.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-green-600">3</span>
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">3</span>
               </div>
               <h3 className="text-lg font-semibold mb-2">Home Shopping</h3>
               <p className="text-slate-600 text-sm">Search Orange County with confidence, knowing you're pre-approved.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-purple-600">4</span>
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">4</span>
               </div>
               <h3 className="text-lg font-semibold mb-2">Close & Move In</h3>
               <p className="text-slate-600 text-sm">VA appraisal, underwriting, and closing - then enjoy your new home!</p>
@@ -290,7 +315,10 @@ export default function VALoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🏖️ Huntington Beach</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Huntington Beach</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Close to military bases, beach lifestyle, family-friendly</p>
                 <div className="text-sm text-slate-500">
                   • 15 min to Joint Forces Training Base
@@ -302,7 +330,10 @@ export default function VALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🌊 Costa Mesa</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Costa Mesa</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Central location, diverse housing options</p>
                 <div className="text-sm text-slate-500">
                   • Easy freeway access
@@ -314,7 +345,10 @@ export default function VALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🏡 Garden Grove</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Garden Grove</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Affordable options, diverse community</p>
                 <div className="text-sm text-slate-500">
                   • Military-friendly pricing
@@ -326,7 +360,10 @@ export default function VALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🎯 Mission Viejo</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Mission Viejo</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Family-oriented, excellent schools</p>
                 <div className="text-sm text-slate-500">
                   • Master-planned community
@@ -338,7 +375,10 @@ export default function VALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🌅 San Clemente</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>San Clemente</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Beach town, close to Camp Pendleton</p>
                 <div className="text-sm text-slate-500">
                   • 30 min to Camp Pendleton
@@ -350,7 +390,10 @@ export default function VALoansPage() {
 
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🏠 Orange</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Orange</span>
+                </h3>
                 <p className="text-slate-600 mb-2">Historic charm, family neighborhoods</p>
                 <div className="text-sm text-slate-500">
                   • Classic neighborhoods
@@ -396,15 +439,15 @@ export default function VALoansPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Funding Fee</td>
-                  <td className="px-6 py-4 text-center text-orange-600">2.15-3.3%*</td>
+                  <td className="px-6 py-4 text-center text-blue-600">2.15-3.3%*</td>
                   <td className="px-6 py-4 text-center text-slate-600">1.75% upfront</td>
-                  <td className="px-6 py-4 text-center text-green-600">None</td>
+                  <td className="px-6 py-4 text-center text-blue-600">None</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">No limit with 25% down</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">No limit with 25% down</td>
                   <td className="px-6 py-4 text-center text-slate-600">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-green-600">$766,550+</td>
+                  <td className="px-6 py-4 text-center text-blue-600">$766,550+</td>
                 </tr>
               </tbody>
             </table>

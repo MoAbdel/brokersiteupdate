@@ -83,7 +83,7 @@ export default function ServicesSection() {
               >
                 {/* Icon */}
                 <div className="mb-4 flex justify-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-slate-900 transition-colors duration-300">
                     <IconComponent className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function ServicesSection() {
               >
                 {/* Icon */}
                 <div className="mb-4 flex justify-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-slate-900 transition-colors duration-300">
                     <IconComponent className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function ServicesSection() {
           <Link href="/loan-programs">
             <Button
               size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4"
+              className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4"
             >
               Find Your Perfect Loan Program
               <ArrowRight className="w-5 h-5 ml-2" />

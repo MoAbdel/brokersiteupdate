@@ -447,7 +447,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-semibold border-b" colSpan={2}>Gig Harbor HECM Reverse Mortgage Snapshot</th>
                 </tr>
               </thead>
@@ -480,7 +480,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-semibold border-b" colSpan={2}>Maple Valley HECM Reverse Mortgage Snapshot</th>
                 </tr>
               </thead>
@@ -513,7 +513,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-semibold border-b" colSpan={2}>University Place HECM Reverse Mortgage Snapshot</th>
                 </tr>
               </thead>
@@ -546,7 +546,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-semibold border-b" colSpan={2}>Bonney Lake HECM Reverse Mortgage Snapshot</th>
                 </tr>
               </thead>
@@ -579,7 +579,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
-                <tr className="bg-green-50">
+                <tr className="bg-slate-50">
                   <th className="px-4 py-3 text-left font-semibold border-b" colSpan={2}>Steilacoom HECM Reverse Mortgage Snapshot</th>
                 </tr>
               </thead>
@@ -643,7 +643,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
                   <td className="px-4 py-3">$710K</td>
                   <td className="px-4 py-3">$735K</td>
                   <td className="px-4 py-3">$757K</td>
-                  <td className="px-4 py-3 text-green-700">+38%</td>
+                  <td className="px-4 py-3 text-blue-700">+38%</td>
                   <td className="px-4 py-3">$280K-$330K</td>
                   <td className="px-4 py-3">$380K-$440K</td>
                 </tr>
@@ -652,7 +652,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
                   <td className="px-4 py-3">$705K</td>
                   <td className="px-4 py-3">$728K</td>
                   <td className="px-4 py-3">$750K</td>
-                  <td className="px-4 py-3 text-green-700">+42%</td>
+                  <td className="px-4 py-3 text-blue-700">+42%</td>
                   <td className="px-4 py-3">$278K-$328K</td>
                   <td className="px-4 py-3">$375K-$435K</td>
                 </tr>
@@ -661,7 +661,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
                   <td className="px-4 py-3">$610K</td>
                   <td className="px-4 py-3">$632K</td>
                   <td className="px-4 py-3">$650K</td>
-                  <td className="px-4 py-3 text-green-700">+35%</td>
+                  <td className="px-4 py-3 text-blue-700">+35%</td>
                   <td className="px-4 py-3">$241K-$284K</td>
                   <td className="px-4 py-3">$325K-$377K</td>
                 </tr>
@@ -670,7 +670,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
                   <td className="px-4 py-3">$562K</td>
                   <td className="px-4 py-3">$582K</td>
                   <td className="px-4 py-3">$600K</td>
-                  <td className="px-4 py-3 text-green-700">+45%</td>
+                  <td className="px-4 py-3 text-blue-700">+45%</td>
                   <td className="px-4 py-3">$222K-$262K</td>
                   <td className="px-4 py-3">$300K-$348K</td>
                 </tr>
@@ -679,7 +679,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
                   <td className="px-4 py-3">$658K</td>
                   <td className="px-4 py-3">$680K</td>
                   <td className="px-4 py-3">$700K</td>
-                  <td className="px-4 py-3 text-green-700">+40%</td>
+                  <td className="px-4 py-3 text-blue-700">+40%</td>
                   <td className="px-4 py-3">$259K-$306K</td>
                   <td className="px-4 py-3">$350K-$406K</td>
                 </tr>
@@ -790,14 +790,14 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           </div>
 
           {/* ===== 9. EXPERT SUMMARY + CTA ===== */}
-          <div id="summary" className="bg-green-50 p-8 rounded-lg my-10 border border-green-200">
+          <div id="summary" className="bg-slate-50 p-8 rounded-lg my-10 border border-slate-200">
             <h2 className="text-3xl font-bold mb-4 mt-0 expert-summary">Expert Summary: HECM Reverse Mortgage for South Sound Homeowners 62+</h2>
             <p className="expert-summary">
               South Sound homeowners in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold significant home equity built over decades of ownership and steady appreciation. The HECM reverse mortgage program&mdash;FHA-insured, federally regulated, and requiring HUD counseling&mdash;provides a secure pathway to access this equity without monthly mortgage payments and without leaving the home you love. Whether you are a Gig Harbor waterfront homeowner maintaining a harbor lifestyle, a Maple Valley empty-nester transitioning to retirement, a University Place military retiree supplementing your pension, a Bonney Lake senior seeking affordable financial flexibility, or a Steilacoom resident preserving a historic home, the HECM program adapts to your specific retirement goals through flexible payout options.
             </p>
             <div className="mt-6 space-y-3">
               <p className="font-bold text-lg">Ready to explore reverse mortgage options in South Sound, WA?</p>
-              <p>Call <a href="tel:9498229662" className="text-green-800 font-bold hover:underline">(949) 822-9662</a> or visit <Link href="/contact" className="text-green-800 font-bold hover:underline">mothebroker.com/contact</Link> for a free, no-obligation consultation. I will explain your HECM eligibility, estimate available proceeds, and connect you with a HUD-approved counselor to begin the process.</p>
+              <p>Call <a href="tel:9498229662" className="text-slate-900 font-bold hover:underline">(949) 822-9662</a> or visit <Link href="/contact" className="text-slate-900 font-bold hover:underline">mothebroker.com/contact</Link> for a free, no-obligation consultation. I will explain your HECM eligibility, estimate available proceeds, and connect you with a HUD-approved counselor to begin the process.</p>
               <p className="text-sm text-gray-600">Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106</p>
             </div>
           </div>

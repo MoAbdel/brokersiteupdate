@@ -98,7 +98,7 @@ export default async function CountyDscrPage({ params }: Props) {
       title={`${county.name} DSCR Rent Analyzer`}
       subtitle={`Calculate the minimum rent needed for a DSCR loan in ${county.name}. Median rent: ${formatCurrency(county.medianRent)}/mo | Median home: ${formatCurrency(county.medianHomePrice)}.`}
       badgeText={`${county.name}, ${state.toUpperCase()}`}
-      badgeColor="bg-purple-100 text-purple-700"
+      badgeColor="bg-slate-100 text-blue-700"
       breadcrumbs={breadcrumbs}
       faqs={faqs}
       internalLinks={internalLinks}
@@ -128,7 +128,7 @@ export default async function CountyDscrPage({ params }: Props) {
               >
                 <Card className="hover:shadow-md hover:border-purple-300 transition-all">
                   <CardContent className="p-4">
-                    <h3 className="font-semibold text-slate-900 group-hover:text-purple-600 transition-colors text-sm">
+                    <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors text-sm">
                       {city.name}
                     </h3>
                     <div className="flex justify-between text-xs text-slate-500 mt-1">

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
-import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, CreditCard, Clock, Building } from 'lucide-react';
+import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, CreditCard, Clock, Building, Lightbulb } from 'lucide-react';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
@@ -178,12 +178,12 @@ export default function HELOCOrangeCountyPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg flex items-center" aria-label="Start 5-minute HELOC pre-approval application">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg flex items-center" aria-label="Start 5-minute HELOC pre-approval application">
                   <Zap className="w-5 h-5 mr-2" aria-hidden="true" />
                   5-Min Pre-Approval
                 </Button>
               </a>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
@@ -215,7 +215,7 @@ export default function HELOCOrangeCountyPage() {
                     <h4 className="text-lg font-semibold text-slate-900 mb-2">Flexible Access</h4>
                     <p className="text-slate-600">Draw Period: <strong>10 years</strong></p>
                     <p className="text-slate-600">Repayment: <strong>20 years</strong></p>
-                    <p className="text-green-600 font-bold">Use as Needed</p>
+                    <p className="text-blue-600 font-bold">Use as Needed</p>
                   </div>
                 </div>
               </div>
@@ -251,7 +251,7 @@ export default function HELOCOrangeCountyPage() {
                   <ul className="space-y-2">
                     {benefit.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                        <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{detail}</span>
                       </li>
                     ))}
@@ -296,12 +296,12 @@ export default function HELOCOrangeCountyPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/cash-out-refinance">
-                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Learn about cash-out refinance options">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Learn about cash-out refinance options">
                     Learn About Cash-Out Refinance
                   </Button>
                 </Link>
                 <Link href="/heloan-orange-county">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Compare HELOAN options in Orange County">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Compare HELOAN options in Orange County">
                     Compare HELOAN Options
                   </Button>
                 </Link>
@@ -321,9 +321,9 @@ export default function HELOCOrangeCountyPage() {
 
           {/* Fast HELOC Option */}
           <section className="mb-16" aria-label="5-minute HELOC pre-approval program">
-            <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-8">
+            <div className="bg-slate-50 border-2 border-slate-200 rounded-2xl p-8">
               <div className="text-center mb-8">
-                <div className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-full text-lg font-bold mb-4">
+                <div className="inline-flex items-center bg-slate-900 text-white px-6 py-3 rounded-full text-lg font-bold mb-4">
                   <Zap className="w-6 h-6 mr-2" aria-hidden="true" />
                   NEW: 5-Minute HELOC Pre-Approval
                 </div>
@@ -335,7 +335,7 @@ export default function HELOCOrangeCountyPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Clock className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">5-Minute Application</h3>
@@ -343,7 +343,7 @@ export default function HELOCOrangeCountyPage() {
                 </div>
 
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Users className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Streamlined Process</h3>
@@ -351,7 +351,7 @@ export default function HELOCOrangeCountyPage() {
                 </div>
 
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4">
                     <DollarSign className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Fast Funding</h3>
@@ -365,7 +365,7 @@ export default function HELOCOrangeCountyPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-semibold flex items-center" aria-label="Start 5-minute HELOC pre-approval now">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg font-semibold flex items-center" aria-label="Start 5-minute HELOC pre-approval now">
                     <Zap className="w-5 h-5 mr-2" aria-hidden="true" />
                     Start 5-Min Pre-Approval
                   </Button>
@@ -383,33 +383,36 @@ export default function HELOCOrangeCountyPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Typical Requirements</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4">✓ Typical Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> At least 15-20% in your home</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, verifiable income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> 50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Property Type:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal for Orange County Homeowners</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                    <Lightbulb className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                    <span>Ideal for Orange County Homeowners</span>
+                  </h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
@@ -474,9 +477,9 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-blue-600 text-white rounded-lg p-8" aria-label="Get started with your HELOC application">
+          <section className="text-center bg-slate-900 text-white rounded-lg p-8" aria-label="Get started with your HELOC application">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>
-            <p className="text-xl mb-6 text-blue-100">
+            <p className="text-xl mb-6 text-slate-200">
               Discover how much you can access with a HELOC and get started with our 5-minute pre-approval.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -485,15 +488,15 @@ export default function HELOCOrangeCountyPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg" aria-label="Start 5-minute HELOC application">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Start 5-minute HELOC application">
                   Start 5-Min HELOC Application
                 </Button>
               </a>
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
             </p>
           </section>

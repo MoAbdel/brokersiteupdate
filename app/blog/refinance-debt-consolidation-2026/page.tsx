@@ -146,8 +146,8 @@ export default function DebtConsolidationRefinancePage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Credit Cards</td><td className="py-2 px-4 border-b">18-28%*</td><td className="py-2 px-4 border-b text-red-600 font-semibold">$9,000-$14,000</td></tr>
               <tr><td className="py-2 px-4 border-b">Personal Loans</td><td className="py-2 px-4 border-b">10-20%*</td><td className="py-2 px-4 border-b text-red-600">$5,000-$10,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Cash-Out Refinance</td><td className="py-2 px-4 border-b">6-8%*</td><td className="py-2 px-4 border-b text-green-600 font-semibold">$3,000-$4,000</td></tr>
-              <tr><td className="py-2 px-4">HELOC/HELOAN</td><td className="py-2 px-4">6-10%*</td><td className="py-2 px-4 text-green-600 font-semibold">$3,000-$5,000</td></tr>
+              <tr><td className="py-2 px-4 border-b">Cash-Out Refinance</td><td className="py-2 px-4 border-b">6-8%*</td><td className="py-2 px-4 border-b text-blue-600 font-semibold">$3,000-$4,000</td></tr>
+              <tr><td className="py-2 px-4">HELOC/HELOAN</td><td className="py-2 px-4">6-10%*</td><td className="py-2 px-4 text-blue-600 font-semibold">$3,000-$5,000</td></tr>
             </tbody>
           </table>
         </div>
@@ -166,7 +166,7 @@ export default function DebtConsolidationRefinancePage() {
           </p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
           <p className="font-mono mb-2">
             <strong>After Cash-Out Refinance:</strong><br />
             $50,000 added to mortgage at 7%<br />
@@ -201,7 +201,7 @@ export default function DebtConsolidationRefinancePage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Pay off credit cards aggressively (3 years)</td><td className="py-2 px-4 border-b">$1,800</td><td className="py-2 px-4 border-b">~$15,000</td></tr>
               <tr><td className="py-2 px-4 border-b">Cash-out refinance (30 years)</td><td className="py-2 px-4 border-b">$333</td><td className="py-2 px-4 border-b">~$70,000</td></tr>
-              <tr><td className="py-2 px-4">Cash-out with accelerated payoff (7 years)</td><td className="py-2 px-4">$700</td><td className="py-2 px-4 text-green-600">~$12,000</td></tr>
+              <tr><td className="py-2 px-4">Cash-out with accelerated payoff (7 years)</td><td className="py-2 px-4">$700</td><td className="py-2 px-4 text-blue-600">~$12,000</td></tr>
             </tbody>
           </table>
         </div>

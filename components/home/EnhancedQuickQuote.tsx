@@ -355,7 +355,7 @@ export default function EnhancedQuickQuote() {
               )}
               <Button 
                 onClick={() => setShowSuccess(false)}
-                className="bg-blue-600 hover:bg-blue-700"
+                className="bg-slate-900 hover:bg-slate-800"
               >
                 Get Another Quote
               </Button>
@@ -419,7 +419,7 @@ export default function EnhancedQuickQuote() {
               <div key={step} className="flex items-center">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold ${
                   currentStep >= step 
-                    ? 'bg-blue-600 text-white' 
+                    ? 'bg-slate-900 text-white' 
                     : 'bg-slate-200 text-slate-600'
                 }`}>
                   {step}
@@ -550,7 +550,7 @@ export default function EnhancedQuickQuote() {
                     <div className="space-y-1">
                       {LOAN_PROGRAMS[formData.loanPurpose as keyof typeof LOAN_PROGRAMS].programs.map((program, index) => (
                         <div key={index} className="flex items-center text-sm text-slate-700">
-                          <div className="w-1 h-1 bg-blue-600 rounded-full mr-2"></div>
+                          <div className="w-1 h-1 bg-slate-900 rounded-full mr-2"></div>
                           {program}
                         </div>
                       ))}
@@ -1050,7 +1050,7 @@ export default function EnhancedQuickQuote() {
                     (currentStep === 1 && !isStep1Complete) ||
                     (currentStep === 2 && !isStep2Complete())
                   }
-                  className="bg-blue-600 hover:bg-blue-700 text-white flex items-center"
+                  className="bg-slate-900 hover:bg-slate-800 text-white flex items-center"
                 >
                   Next Step
                   <ChevronRight className="w-4 h-4 ml-1" />
@@ -1061,7 +1061,7 @@ export default function EnhancedQuickQuote() {
                 <Button
                   type="submit"
                   disabled={isSubmitting || !isStep3Complete}
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   {isSubmitting ? (
                     "Getting Your Quote..."

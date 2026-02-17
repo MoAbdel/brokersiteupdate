@@ -29,7 +29,7 @@ async function sendEmailNotification(_quoteData: any) {
 
     // Using Resend SDK - temporarily disabled to fix build
     // const emailBody = `
-    //   <h2>🎯 New Quote Request Received!</h2>
+    //   <h2>New Quote Request Received</h2>
     //   <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
     //     <h3 style="color: #1e40af; margin-top: 0;">Contact Information</h3>
     //     <p><strong>Name:</strong> ${_quoteData.full_name}</p>
@@ -41,7 +41,7 @@ async function sendEmailNotification(_quoteData: any) {
     // const { data, error } = await resend.emails.send({
     //   from: 'MoTheBroker.com <onboarding@resend.dev>',
     //   to: ['moabdel94@gmail.com'],
-    //   subject: `🎯 New Quote Request - ${_quoteData.full_name} ($${_quoteData.loan_amount?.toLocaleString() || 'N/A'})`,
+    //   subject: `New Quote Request - ${_quoteData.full_name} ($${_quoteData.loan_amount?.toLocaleString() || 'N/A'})`,
     //   html: emailBody,
     // });
 
@@ -138,16 +138,16 @@ export async function POST(request: Request) {
 
     fs.writeFileSync(filepath, JSON.stringify(submission, null, 2));
 
-    console.log('💾 New submission saved:', submission.email, 'Source:', submission.source);
+    console.log('New submission saved:', submission.email, 'Source:', submission.source);
 
     // Send notifications asynchronously (don't wait for them)
     Promise.all([
       sendEmailNotification(submission),
       sendSMSNotification(submission)
     ]).catch(error => {
-      console.error('❌ Notification error:', error);
+      console.error('Notification error:', error);
       // Log to help debug notification issues
-      console.log('📧 Quote data for notifications:', {
+      console.log('Quote data for notifications:', {
         id: submission.id,
         name: submission.full_name,
         email: submission.email,

@@ -325,61 +325,61 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Lender Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the bank)</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the credit union)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">30-Year Fixed Rate (Conforming)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.125% - 6.375%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.125% - 6.375%</td>
                 <td className="border border-gray-300 px-4 py-3">6.375% - 6.750%</td>
                 <td className="border border-gray-300 px-4 py-3">6.250% - 6.625%</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Jumbo Rate ($1.15M+ King County)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.250% - 6.625%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.250% - 6.625%</td>
                 <td className="border border-gray-300 px-4 py-3">6.500% - 7.000%</td>
                 <td className="border border-gray-300 px-4 py-3">6.500% - 6.875%</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Bank Statement Programs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">25+ program options</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">25+ program options</td>
                 <td className="border border-gray-300 px-4 py-3">0-1 programs</td>
                 <td className="border border-gray-300 px-4 py-3">Not offered</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Renovation Loan Programs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">15+ programs (FHA 203k, HomeStyle, portfolio)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">15+ programs (FHA 203k, HomeStyle, portfolio)</td>
                 <td className="border border-gray-300 px-4 py-3">1-2 programs</td>
                 <td className="border border-gray-300 px-4 py-3">1 program (if any)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">New Construction Financing</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">20+ construction lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">20+ construction lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Bank&apos;s own program</td>
                 <td className="border border-gray-300 px-4 py-3">Limited or none</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Non-QM Options (DSCR, asset depletion)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">40+ specialized lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">40+ specialized lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Not offered</td>
                 <td className="border border-gray-300 px-4 py-3">Not offered</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Closing Timeline</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">21-30 days</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">21-30 days</td>
                 <td className="border border-gray-300 px-4 py-3">30-45 days</td>
                 <td className="border border-gray-300 px-4 py-3">30-40 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Loyalty To</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">The borrower</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">The borrower</td>
                 <td className="border border-gray-300 px-4 py-3">The bank</td>
                 <td className="border border-gray-300 px-4 py-3">The credit union</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Cost Savings (30-year, $850K loan)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$38,000 - $53,000 total</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$38,000 - $53,000 total</td>
                 <td className="border border-gray-300 px-4 py-3">Baseline</td>
                 <td className="border border-gray-300 px-4 py-3">$10,000 - $18,000 vs bank</td>
               </tr>
@@ -549,7 +549,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3">$616,000</td>
                 <td className="border border-gray-300 px-4 py-3">$735,000</td>
                 <td className="border border-gray-300 px-4 py-3">$850,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+38.0%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+38.0%</td>
                 <td className="border border-gray-300 px-4 py-3">7.6%</td>
               </tr>
               <tr className="bg-gray-50">
@@ -557,7 +557,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3">$669,000</td>
                 <td className="border border-gray-300 px-4 py-3">$810,000</td>
                 <td className="border border-gray-300 px-4 py-3">$950,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+42.0%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+42.0%</td>
                 <td className="border border-gray-300 px-4 py-3">8.4%</td>
               </tr>
               <tr>
@@ -565,7 +565,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3">$574,000</td>
                 <td className="border border-gray-300 px-4 py-3">$675,000</td>
                 <td className="border border-gray-300 px-4 py-3">$780,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+36.0%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+36.0%</td>
                 <td className="border border-gray-300 px-4 py-3">7.2%</td>
               </tr>
               <tr className="bg-gray-50">
@@ -573,7 +573,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3">$625,000</td>
                 <td className="border border-gray-300 px-4 py-3">$775,000</td>
                 <td className="border border-gray-300 px-4 py-3">$900,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+44.0%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+44.0%</td>
                 <td className="border border-gray-300 px-4 py-3">8.8%</td>
               </tr>
             </tbody>
@@ -597,12 +597,12 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3 font-medium">First-Time Buyer (5% down)</td>
                 <td className="border border-gray-300 px-4 py-3">Conventional, rate buydown</td>
                 <td className="border border-gray-300 px-4 py-3">FHA 203(k) renovation</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Best fit: 3% down + lender-paid PMI</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Best fit: 3% down + lender-paid PMI</td>
                 <td className="border border-gray-300 px-4 py-3">New construction conventional</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Boeing/Aerospace Worker</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Best fit: Overtime-friendly lender</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Best fit: Overtime-friendly lender</td>
                 <td className="border border-gray-300 px-4 py-3">Conventional jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">Conforming with shift diff income</td>
                 <td className="border border-gray-300 px-4 py-3">Conventional conforming</td>
@@ -612,7 +612,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
                 <td className="border border-gray-300 px-4 py-3">Conforming with RSU counting</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo with RSU + bonus</td>
                 <td className="border border-gray-300 px-4 py-3">Conforming with stock income</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Best fit: Remote income + RSU lender</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Best fit: Remote income + RSU lender</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Self-Employed / Business Owner</td>
@@ -624,7 +624,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Move-Up Buyer (selling current home)</td>
                 <td className="border border-gray-300 px-4 py-3">Bridge loan + conventional</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Best fit: Bridge + renovation combo</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Best fit: Bridge + renovation combo</td>
                 <td className="border border-gray-300 px-4 py-3">Bridge + conventional</td>
                 <td className="border border-gray-300 px-4 py-3">Bridge + new construction</td>
               </tr>
@@ -698,15 +698,15 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
         </div>
 
         {/* ========== EXPERT SUMMARY ========== */}
-        <div id="summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div id="summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker Advantage in Suburban King County</h2>
-          <p className="text-green-800 mb-3">
+          <p className="text-slate-900 mb-3">
             Suburban King County&apos;s mortgage market rewards buyers who leverage wholesale broker access over retail banking channels. With median home prices ranging from $780,000 in Kenmore to $950,000 in Lake Forest Park, these communities sit at the conforming-jumbo boundary where program selection and lender expertise directly determine monthly payment amounts, qualification success, and total loan cost over 30 years.
           </p>
-          <p className="text-green-800 mb-3">
+          <p className="text-slate-900 mb-3">
             Each city presents distinct lending opportunities: Shoreline&apos;s Boeing and tech commuter profiles demand overtime-counting and RSU-friendly lenders. Lake Forest Park&apos;s renovation market requires access to multiple renovation-purchase programs. Kenmore&apos;s first-time buyer demographic benefits from lender-paid PMI and down payment optimization. Snoqualmie&apos;s new construction pipeline needs construction-to-permanent specialists with extended rate locks.
           </p>
-          <p className="text-green-800 mb-0">
+          <p className="text-slate-900 mb-0">
             A wholesale mortgage broker with 200+ lender access matches each buyer profile to the optimal lender, program, and pricing structure. The result: $38,000-$53,000 in total savings compared to retail bank financing on a typical Suburban King County purchase, faster closings (21-30 days versus 30-45 days), and access to renovation, construction, and non-QM programs that banks either restrict or refuse.
           </p>
         </div>

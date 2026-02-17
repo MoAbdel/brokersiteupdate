@@ -236,13 +236,13 @@ export default function SupportBubble() {
                       </motion.div>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white">Customer Support</h3>
+                      <h3 className="text-xl font-bold text-white">Get Your Free Rate Quote</h3>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="flex h-2 w-2">
                           <span className="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-green-400 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                         </span>
-                        <p className="text-slate-300 text-xs font-medium">Typically replies in minutes</p>
+                        <p className="text-slate-300 text-xs font-medium">We shop 50+ lenders so you don&apos;t have to</p>
                       </div>
                     </div>
                   </div>
@@ -386,7 +386,7 @@ export default function SupportBubble() {
                         <Button
                           type="submit"
                           disabled={isSubmitting}
-                          className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 hover:shadow-blue-500/40 hover:-translate-y-0.5"
+                          className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold py-4 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-300 hover:shadow-slate-900/30 hover:-translate-y-0.5"
                         >
                           <span className="flex items-center justify-center gap-2">
                             {isSubmitting ? (
@@ -396,7 +396,7 @@ export default function SupportBubble() {
                               </>
                             ) : (
                               <>
-                                Send Message
+                                Get My Rate Options
                                 <ChevronRight className="w-4 h-4" />
                               </>
                             )}
@@ -412,7 +412,7 @@ export default function SupportBubble() {
               <div className="bg-slate-50/80 backdrop-blur-sm p-4 text-center border-t border-slate-100">
                 <p className="text-xs text-slate-500 flex items-center justify-center gap-1">
                   Or call us directly at
-                  <a href="tel:9498229662" className="text-blue-600 font-bold hover:underline">
+                  <a href="tel:9498229662" className="text-slate-700 font-bold hover:underline hover:text-slate-900">
                     (949) 822-9662
                   </a>
                 </p>

@@ -163,7 +163,7 @@ export default function ConventionalLoansOrangeCounty() {
       <Breadcrumbs />
 
       {/* Hero Section */}
-      <section aria-label="Conventional loan overview" className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white py-20">
+      <section aria-label="Conventional loan overview" className="relative bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -173,7 +173,7 @@ export default function ConventionalLoansOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Conventional Loans in Orange County – Flexible Home Financing
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Get traditional home financing with down payments as low as 3%. Access competitive pricing from 200+ wholesale lenders with flexible terms for your Orange County home purchase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -236,7 +236,7 @@ export default function ConventionalLoansOrangeCounty() {
               <dl className="space-y-4">
                 {requirements.map((requirement, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
                     <dd className="text-slate-700">{requirement}</dd>
                   </div>
                 ))}
@@ -249,7 +249,7 @@ export default function ConventionalLoansOrangeCounty() {
                 <tbody>
                   <tr className="border-b border-slate-200">
                     <td className="py-3 font-semibold text-slate-700">Orange County Conforming Limit</td>
-                    <td className="py-3 text-right text-xl font-bold text-green-600">$1,249,125</td>
+                    <td className="py-3 text-right text-xl font-bold text-blue-600">$1,249,125</td>
                   </tr>
                   <tr className="border-b border-slate-200">
                     <td className="py-3 font-semibold text-slate-700">Minimum Down Payment</td>
@@ -257,7 +257,7 @@ export default function ConventionalLoansOrangeCounty() {
                   </tr>
                   <tr>
                     <td className="py-3 font-semibold text-slate-700">Maximum Loan-to-Value</td>
-                    <td className="py-3 text-right text-xl font-bold text-purple-600">97%</td>
+                    <td className="py-3 text-right text-xl font-bold text-blue-600">97%</td>
                   </tr>
                 </tbody>
               </table>
@@ -289,7 +289,7 @@ export default function ConventionalLoansOrangeCounty() {
             <div className="overflow-x-auto">
               <table className="w-full">
                 <caption className="sr-only">Side-by-side comparison of conventional and FHA loan features for Orange County borrowers</caption>
-                <thead className="bg-gradient-to-r from-blue-600 to-green-600 text-white">
+                <thead className="bg-slate-900 text-white">
                   <tr>
                     <th scope="col" className="px-6 py-4 text-left font-semibold">Feature</th>
                     <th scope="col" className="px-6 py-4 text-left font-semibold">Conventional Loan</th>
@@ -301,7 +301,7 @@ export default function ConventionalLoansOrangeCounty() {
                     <tr key={index} className={index % 2 === 0 ? 'bg-slate-50' : 'bg-white'}>
                       <td className="px-6 py-4 font-semibold text-slate-700">{comparison.feature}</td>
                       <td className="px-6 py-4 text-blue-600 font-medium">{comparison.conventional}</td>
-                      <td className="px-6 py-4 text-green-600 font-medium">{comparison.fha}</td>
+                      <td className="px-6 py-4 text-blue-600 font-medium">{comparison.fha}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -398,7 +398,7 @@ export default function ConventionalLoansOrangeCounty() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Get Your Conventional Loan in Orange County?
           </h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-slate-200">
             Access competitive pricing from 200+ lenders and get pre-approved in minutes.
             Mo Abdel makes conventional loans simple and affordable.
           </p>

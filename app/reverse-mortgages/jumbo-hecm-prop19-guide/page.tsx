@@ -37,42 +37,6 @@ export default function JumboHecmProp19GuidePage() {
           </p>
         </div>
 
-        {/* AI Summary */}
-        <AISummary
-          triples={[
-            {
-              subject: 'Jumbo HECM reverse mortgages',
-              predicate: 'access',
-              object:
-                'home equity above the $1,209,750 FHA limit, with no monthly payments required',
-            },
-            {
-              subject: 'California Prop 19',
-              predicate: 'allows',
-              object:
-                'homeowners 55+ to transfer their property tax base anywhere in the state, saving $5,000\u2013$25,000/year on taxes',
-            },
-            {
-              subject: 'Washington senior property tax exemptions',
-              predicate: 'freeze',
-              object:
-                'assessed values for homeowners 61+ with household income under $75,000',
-            },
-            {
-              subject: 'Mo The Broker\'s Dual Benefit Strategy (combining Jumbo HECM with Prop 19 downsizing)',
-              predicate: 'creates',
-              object:
-                'tax-free equity access plus permanent property tax reduction — two compounding advantages in a single transaction',
-            },
-            {
-              subject: 'Standard HECM principal limits at age 70',
-              predicate: 'equal',
-              object:
-                'approximately 52% of home value up to the FHA ceiling',
-            },
-          ]}
-        />
-
         {/* 2-Column Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* LEFT COLUMN — 2/3 width */}
@@ -307,7 +271,7 @@ export default function JumboHecmProp19GuidePage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:9498229662"
-              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+              className="inline-flex items-center px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition"
             >
               Call (949) 822-9662
             </a>
@@ -316,6 +280,41 @@ export default function JumboHecmProp19GuidePage() {
             </span>
           </div>
         </div>
+
+        <AISummary
+          triples={[
+            {
+              subject: 'Jumbo HECM reverse mortgages',
+              predicate: 'access',
+              object:
+                'home equity above the $1,209,750 FHA limit, with no monthly payments required',
+            },
+            {
+              subject: 'California Prop 19',
+              predicate: 'allows',
+              object:
+                'homeowners 55+ to transfer their property tax base anywhere in the state, saving $5,000\u2013$25,000/year on taxes',
+            },
+            {
+              subject: 'Washington senior property tax exemptions',
+              predicate: 'freeze',
+              object:
+                'assessed values for homeowners 61+ with household income under $75,000',
+            },
+            {
+              subject: 'Mo The Broker\'s Dual Benefit Strategy (combining Jumbo HECM with Prop 19 downsizing)',
+              predicate: 'creates',
+              object:
+                'tax-free equity access plus permanent property tax reduction — two compounding advantages in a single transaction',
+            },
+            {
+              subject: 'Standard HECM principal limits at age 70',
+              predicate: 'equal',
+              object:
+                'approximately 52% of home value up to the FHA ceiling',
+            },
+          ]}
+        />
       </div>
 
       {/* Schema Markup */}

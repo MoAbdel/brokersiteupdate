@@ -647,7 +647,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
                   <td className="px-4 py-3">$1.18M</td>
                   <td className="px-4 py-3">$1.25M</td>
                   <td className="px-4 py-3">$1.30M</td>
-                  <td className="px-4 py-3 text-green-700">+4.0%</td>
+                  <td className="px-4 py-3 text-blue-700">+4.0%</td>
                   <td className="px-4 py-3">12 days</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
@@ -655,7 +655,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
                   <td className="px-4 py-3">$1.28M</td>
                   <td className="px-4 py-3">$1.35M</td>
                   <td className="px-4 py-3">$1.40M</td>
-                  <td className="px-4 py-3 text-green-700">+3.7%</td>
+                  <td className="px-4 py-3 text-blue-700">+3.7%</td>
                   <td className="px-4 py-3">10 days</td>
                 </tr>
                 <tr className="border-b">
@@ -663,7 +663,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
                   <td className="px-4 py-3">$1.15M</td>
                   <td className="px-4 py-3">$1.24M</td>
                   <td className="px-4 py-3">$1.30M</td>
-                  <td className="px-4 py-3 text-green-700">+4.8%</td>
+                  <td className="px-4 py-3 text-blue-700">+4.8%</td>
                   <td className="px-4 py-3">18 days</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
@@ -671,7 +671,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
                   <td className="px-4 py-3">$1.08M</td>
                   <td className="px-4 py-3">$1.15M</td>
                   <td className="px-4 py-3">$1.20M</td>
-                  <td className="px-4 py-3 text-green-700">+4.3%</td>
+                  <td className="px-4 py-3 text-blue-700">+4.3%</td>
                   <td className="px-4 py-3">14 days</td>
                 </tr>
                 <tr>
@@ -679,7 +679,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
                   <td className="px-4 py-3">$910K</td>
                   <td className="px-4 py-3">$965K</td>
                   <td className="px-4 py-3">$1.00M</td>
-                  <td className="px-4 py-3 text-green-700">+3.6%</td>
+                  <td className="px-4 py-3 text-blue-700">+3.6%</td>
                   <td className="px-4 py-3">16 days</td>
                 </tr>
               </tbody>

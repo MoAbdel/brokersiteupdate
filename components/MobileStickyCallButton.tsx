@@ -59,7 +59,7 @@ export default function MobileStickyCallButton() {
               <Phone className="w-5 h-5 text-green-600 animate-pulse" />
             </div>
             <div className="text-left">
-              <span className="block text-[10px] font-normal text-green-100 uppercase tracking-wider leading-none mb-1">Tap to Call Mo Abdel</span>
+              <span className="block text-[10px] font-normal text-slate-200 uppercase tracking-wider leading-none mb-1">Tap to Call Mo Abdel</span>
               <span className="block text-xl font-black leading-none uppercase tracking-tight">{PHONE_DISPLAY}</span>
             </div>
           </a>

@@ -8,6 +8,7 @@ import { Phone, MapPin, Calculator, TrendingUp, Home, DollarSign } from 'lucide-
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { PHONE_DISPLAY, PHONE_TEL_HREF, SITE_ORIGIN } from '@/lib/site';
+import PageHero from '@/components/marketing/PageHero';
 
 interface CityData {
   name: string;
@@ -143,40 +144,35 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
       />
 
       <Breadcrumbs />
-      <article className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-        {/* Hero Section */}
-        <section className="py-16 px-4" aria-label={`${cityData.name} mortgage broker hero`}>
-          <div className="max-w-6xl mx-auto text-center">
-            <Badge variant="secondary" className="mb-4">
-              <MapPin className="w-4 h-4 mr-2" aria-hidden="true" />
-              Serving {cityData.name}, CA
-            </Badge>
-
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              {cityData.name} <span className="text-blue-600">Mortgage Broker</span>: Home Loans and Refinancing
-            </h1>
-
-            <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto" data-speakable="true">
-              Expert mortgage services for {cityData.name} residents. Access to 200+ lenders,
-              Competitive pricing, and personalized service. NMLS #1426884 Licensed & Bonded.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href={PHONE_TEL_HREF}>
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700" aria-label={`Call Mo Abdel for a free mortgage quote at ${PHONE_DISPLAY}`}>
-                  <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
-                  Get Free Quote: {PHONE_DISPLAY}
-                </Button>
-              </a>
-              <Link href="/calculator">
-                <Button variant="outline" size="lg" aria-label="Calculate your monthly mortgage payment">
-                  <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
-                  Calculate Payment
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </section>
+      <article className="min-h-screen bg-slate-50">
+        <PageHero
+          badgeText={`Serving ${cityData.name}, CA`}
+          badgeIcon={MapPin}
+          title={
+            <>
+              {cityData.name} <span className="text-slate-200">Mortgage Broker</span>
+              : Home Loans and Refinancing
+            </>
+          }
+          subtitle={
+            <>
+              Expert mortgage services for {cityData.name} residents. Access to 200+ lenders, competitive
+              pricing, and personalized service. NMLS #1426884 licensed & bonded.
+            </>
+          }
+          primaryAction={{
+            href: PHONE_TEL_HREF,
+            label: `Call: ${PHONE_DISPLAY}`,
+            icon: Phone,
+            ariaLabel: `Call Mo Abdel for a free mortgage quote at ${PHONE_DISPLAY}`,
+          }}
+          secondaryAction={{
+            href: '/calculator',
+            label: 'Calculate Payment',
+            icon: Calculator,
+            ariaLabel: 'Calculate your monthly mortgage payment',
+          }}
+        />
 
         {/* Market Statistics */}
         <section className="py-12 px-4 bg-white" aria-label={`${cityData.name} housing market statistics`}>
@@ -198,7 +194,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <DollarSign className="w-8 h-8 text-green-600 mx-auto mb-3" aria-hidden="true" />
+                  <DollarSign className="w-8 h-8 text-blue-600 mx-auto mb-3" aria-hidden="true" />
                   <div className="text-2xl font-bold text-slate-900">
                     ${cityData.medianHouseholdIncome.toLocaleString()}
                   </div>
@@ -208,7 +204,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <TrendingUp className="w-8 h-8 text-purple-600 mx-auto mb-3" aria-hidden="true" />
+                  <TrendingUp className="w-8 h-8 text-blue-600 mx-auto mb-3" aria-hidden="true" />
                   <div className="text-2xl font-bold text-slate-900">
                     {cityData.population.toLocaleString()}
                   </div>
@@ -218,7 +214,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
 
               <Card>
                 <CardContent className="p-6 text-center">
-                  <Calculator className="w-8 h-8 text-orange-600 mx-auto mb-3" aria-hidden="true" />
+                  <Calculator className="w-8 h-8 text-blue-600 mx-auto mb-3" aria-hidden="true" />
                   <div className="text-2xl font-bold text-slate-900">
                     ${cityData.averageLoanAmount.toLocaleString()}
                   </div>
@@ -277,8 +273,8 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                    <span className="text-green-600 font-bold">4</span>
+                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                    <span className="text-blue-600 font-bold">4</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">NMLS Licensed & Bonded</h3>
@@ -289,8 +285,8 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                    <span className="text-green-600 font-bold">5</span>
+                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                    <span className="text-blue-600 font-bold">5</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">Transparent Process</h3>
@@ -301,8 +297,8 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                    <span className="text-green-600 font-bold">6</span>
+                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                    <span className="text-blue-600 font-bold">6</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-2">Personalized Service</h3>
@@ -363,12 +359,12 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
             <h2 className="text-3xl font-bold text-white mb-4">
               Ready to Get Started with Your {cityData.name} Mortgage?
             </h2>
-            <p className="text-xl text-blue-100 mb-8" data-speakable="true">
+            <p className="text-xl text-slate-200 mb-8" data-speakable="true">
               Get a personalized loan quote and pre-approval in minutes. No obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={PHONE_TEL_HREF}>
-                <Button size="lg" variant="default" className="bg-white text-blue-600 hover:bg-blue-50" aria-label={`Call Mo Abdel at ${PHONE_DISPLAY}`}>
+                <Button size="lg" variant="default" className="bg-white text-slate-950 hover:bg-slate-100" aria-label={`Call Mo Abdel at ${PHONE_DISPLAY}`}>
                   <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
                   Call: {PHONE_DISPLAY}
                 </Button>

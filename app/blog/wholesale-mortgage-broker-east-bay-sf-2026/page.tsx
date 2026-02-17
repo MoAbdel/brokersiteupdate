@@ -930,7 +930,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               The East Bay and San Francisco mortgage market is defined by jumbo loan amounts, complex tech-driven
@@ -948,10 +948,10 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               banks cannot replicate.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
               a complimentary mortgage consultation. I will review your financial profile, identify the best
               lender matches from 200+ wholesale options, and provide a personalized rate comparison -- with
-              no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

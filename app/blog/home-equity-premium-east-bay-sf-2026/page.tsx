@@ -358,7 +358,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$1,500,000</td>
                   <td className="py-3 px-4 border-b">$1,200,000</td>
                   <td className="py-3 px-4 border-b">$700,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$500,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$500,000</td>
                   <td className="py-3 px-4 border-b text-sm">Pacific Heights, Marina, Noe Valley, Mission Dolores, Russian Hill</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -366,7 +366,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$2,500,000</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
                   <td className="py-3 px-4 border-b">$1,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,000,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,000,000</td>
                   <td className="py-3 px-4 border-b text-sm">Piedmont Hills, Wildwood, Crocker Highlands border</td>
                 </tr>
                 <tr>
@@ -374,7 +374,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$2,000,000</td>
                   <td className="py-3 px-4 border-b">$1,600,000</td>
                   <td className="py-3 px-4 border-b">$850,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$750,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$750,000</td>
                   <td className="py-3 px-4 border-b text-sm">Orinda Village, Glorietta, Sleepy Hollow</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -382,7 +382,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$2,000,000</td>
                   <td className="py-3 px-4 border-b">$1,600,000</td>
                   <td className="py-3 px-4 border-b">$900,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$700,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$700,000</td>
                   <td className="py-3 px-4 border-b text-sm">Happy Valley, Trail Neighborhood, Burton Valley</td>
                 </tr>
                 <tr>
@@ -390,7 +390,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4">$1,800,000</td>
                   <td className="py-3 px-4">$1,440,000</td>
                   <td className="py-3 px-4">$800,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$640,000</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$640,000</td>
                   <td className="py-3 px-4 text-sm">Moraga Country Club, Campolindo, Sanders Ranch</td>
                 </tr>
               </tbody>
@@ -434,7 +434,7 @@ export default function HomeEquityPremiumEastBaySF() {
             A tech executive owns a 2-bedroom TIC unit in Noe Valley valued at $1.6 million with a $750,000 existing TIC mortgage. The building&apos;s four owners have agreed to convert to condominiums, but the process requires $120,000 in legal, engineering, and permit costs split among the owners ($30,000 per unit). Traditional banks deny HELOC applications on TIC properties outright. Through wholesale channels, the broker places a specialized TIC-eligible HELOC with a niche lender for $150,000, covering the conversion costs plus a reserve. Once the condo map records, the newly created condo unit appraises at $1.85 million&mdash;a $250,000 value increase from the TIC-to-condo conversion alone. The homeowner then refinances into a conventional condo mortgage, pays off the TIC HELOC, and holds a property with significantly expanded equity access options. This entire strategy depends on wholesale access to TIC-specialized lenders that retail channels do not offer.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: San Francisco Equity Expertise</h4>
             <p className="mb-0">In our San Francisco closings, we consistently navigate the city&apos;s unique challenges&mdash;TIC financing, condo HOA reserve requirements, seismic retrofit liens, and multi-unit building complexities. My experience structuring jumbo HELOC and cash-out transactions across SF&apos;s distinct neighborhoods ensures homeowners receive accurate appraisals that account for view premiums, unit position, and building-specific factors that directly affect accessible equity.</p>
           </div>
@@ -478,7 +478,7 @@ export default function HomeEquityPremiumEastBaySF() {
             A jumbo HELOC is the optimal product: it preserves their valuable low first-mortgage rate, allows phased draws as construction progresses (they only pay interest on amounts drawn), and the 10-year draw period provides flexibility if contractor timelines shift. Through wholesale channels, the broker accesses a lender offering a $1.3 million jumbo HELOC at 80% CLTV on the $4.2 million property (total borrowing capacity of $3.36 million minus the $1.8 million first mortgage = $1.56 million in available equity). The completed ADU adds an estimated $400,000&ndash;$500,000 in value, further strengthening their equity position.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Piedmont Estate Equity Specialization</h4>
             <p className="mb-0">In our East Bay closings, Piedmont&apos;s historic estates present unique appraisal complexities&mdash;non-conforming room counts, period-specific construction methods, and lot configurations that require experienced valuers. My established relationships with lenders who use Piedmont-experienced appraisers ensure these properties receive accurate valuations that capture the full school-district premium and estate character, maximizing accessible equity for homeowners.</p>
           </div>
@@ -519,7 +519,7 @@ export default function HomeEquityPremiumEastBaySF() {
             A finance executive owns a $2.8 million Sleepy Hollow estate with a $1.1 million first mortgage locked at a favorable rate. She identifies a $950,000 duplex in Walnut Creek that pencils at strong rental returns. She needs $237,500 for the 25% down payment plus closing costs. Rather than liquidating RSU positions and triggering capital gains, she opens a $400,000 HELOC on the Orinda property (80% CLTV on $2.8M = $2.24M capacity minus $1.1M first = $1.14M available equity). The HELOC funds the investment purchase, and within 18 months, the duplex&apos;s rental income qualifies for a <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">cash-out refinance</a> or DSCR loan that retires the HELOC draw&mdash;freeing the credit line for the next opportunity.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Orinda Estate Equity Expertise</h4>
             <p className="mb-0">In our East Bay closings, Orinda&apos;s hillside properties require lenders comfortable with large-lot valuations, well/septic considerations on older parcels, and fire zone insurance requirements that affect debt-to-income calculations. My experience with these Orinda-specific factors ensures appraisals capture accurate values and lenders account for the community&apos;s true cost of ownership when structuring equity products.</p>
           </div>
@@ -563,7 +563,7 @@ export default function HomeEquityPremiumEastBaySF() {
             Through wholesale channels, the broker accesses a lender offering a $700,000 jumbo HELOC at 80% CLTV on the $2.6 million property (total capacity of $2.08M minus $1.15M first = $930K available). The phased HELOC draw aligns with contractor milestones: $280,000 for the main home renovation in months 1&ndash;5, then $320,000 for the ADU in months 6&ndash;12. The completed ADU generates $2,800/month in rental income, and the renovated main home appraises at $3.0 million&mdash;a $400,000 value increase that further strengthens the family&apos;s equity position. Interest-only payments during the draw period keep monthly costs manageable during the construction phase.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Lafayette Family Equity Strategies</h4>
             <p className="mb-0">In our East Bay closings, Lafayette families consistently use equity as a wealth-building tool rather than just a funding source. My experience structuring HELOC-funded renovations and ADU projects across the Lamorinda corridor ensures families understand the full financial picture&mdash;construction costs, ADU rental income projections, post-renovation value increases, and the long-term equity growth that well-executed improvements deliver in school-premium communities like Lafayette.</p>
           </div>
@@ -607,7 +607,7 @@ export default function HomeEquityPremiumEastBaySF() {
             The optimal product: a $500,000 HELOC that provides a revolving credit line they draw from as needed. During the 10-year draw period, they access $30,000&ndash;$50,000 annually for travel and lifestyle expenses, making interest-only payments on amounts drawn. If long-term care needs arise, the remaining HELOC balance provides immediate access without a new loan application. At 80% CLTV on a $2.2 million home with no first mortgage, the $500,000 HELOC uses only 28% of available borrowing capacity&mdash;leaving substantial reserve. Wholesale broker access identifies the most competitive HELOC rate for this exceptionally low-risk profile: no first mortgage, high equity, strong credit.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Moraga Retirement Equity Planning</h4>
             <p className="mb-0">In our East Bay closings, Moraga homeowners approaching or in retirement frequently have substantial equity but limited income documentation. My experience structuring equity access for asset-rich, income-variable retirees ensures these homeowners qualify through appropriate documentation channels&mdash;asset depletion, pension-based, or bank-statement programs&mdash;rather than facing the standard income-based denials that retail banks deliver to otherwise highly qualified borrowers.</p>
           </div>
@@ -674,7 +674,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$1,350,000</td>
                   <td className="py-3 px-4 border-b">$1,420,000</td>
                   <td className="py-3 px-4 border-b">$1,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+11.1%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+11.1%</td>
                   <td className="py-3 px-4 border-b text-sm">Tech recovery, AI boom, limited SFR supply</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -682,7 +682,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$2,100,000</td>
                   <td className="py-3 px-4 border-b">$2,350,000</td>
                   <td className="py-3 px-4 border-b">$2,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+19.0%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+19.0%</td>
                   <td className="py-3 px-4 border-b text-sm">School district demand, limited inventory</td>
                 </tr>
                 <tr>
@@ -690,7 +690,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$1,700,000</td>
                   <td className="py-3 px-4 border-b">$1,850,000</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+17.6%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+17.6%</td>
                   <td className="py-3 px-4 border-b text-sm">BART access premium, estate demand</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -698,7 +698,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4 border-b">$1,700,000</td>
                   <td className="py-3 px-4 border-b">$1,880,000</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+17.6%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+17.6%</td>
                   <td className="py-3 px-4 border-b text-sm">School premium, downtown revitalization</td>
                 </tr>
                 <tr>
@@ -706,7 +706,7 @@ export default function HomeEquityPremiumEastBaySF() {
                   <td className="py-3 px-4">$1,520,000</td>
                   <td className="py-3 px-4">$1,680,000</td>
                   <td className="py-3 px-4">$1,800,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">+18.4%</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">+18.4%</td>
                   <td className="py-3 px-4 text-sm">Campolindo schools, relative value in Lamorinda</td>
                 </tr>
               </tbody>

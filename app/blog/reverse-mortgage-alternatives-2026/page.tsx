@@ -156,7 +156,7 @@ export default function ReverseMortgageAlternatives2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Compare Your Options Free
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -254,21 +254,21 @@ export default function ReverseMortgageAlternatives2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">HELOC</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Flexible access; ongoing expenses</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Up to 80% CLTV</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Yes (interest-only draw period)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes (interest-only draw period)</td>
                   <td className="px-4 py-3 text-sm text-emerald-600 font-medium">Yes</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Home Equity Loan (HELOAN)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Lump sum need; fixed payments</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Up to 80% CLTV</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Yes (fixed P&amp;I)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes (fixed P&amp;I)</td>
                   <td className="px-4 py-3 text-sm text-emerald-600 font-medium">Yes</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Cash-Out Refinance</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Replacing existing mortgage; rate improvement</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Up to 80% LTV</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Yes (new mortgage payment)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes (new mortgage payment)</td>
                   <td className="px-4 py-3 text-sm text-emerald-600 font-medium">Yes</td>
                 </tr>
                 <tr>
@@ -283,7 +283,7 @@ export default function ReverseMortgageAlternatives2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Downsizing without tax penalty</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Full equity (via sale)</td>
                   <td className="px-4 py-3 text-sm text-emerald-600 font-medium">No (transfers tax base)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">No (move required)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">No (move required)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Downsizing</td>

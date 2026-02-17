@@ -125,7 +125,7 @@ export default function MissionViejoMortgageGuide2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
               <span className="text-green-400 text-sm font-medium">Mission Viejo Mortgage Broker</span>
             </div>
 
@@ -140,7 +140,7 @@ export default function MissionViejoMortgageGuide2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Mission Viejo Rate Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -173,15 +173,15 @@ export default function MissionViejoMortgageGuide2026() {
             <h3 className="font-semibold text-slate-900 mb-4">Mission Viejo Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1.1M</p>
+                <p className="text-3xl font-bold text-blue-600">$1.1M</p>
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">96,000</p>
+                <p className="text-3xl font-bold text-blue-600">96,000</p>
                 <p className="text-sm text-slate-600">Population</p>
               </div>
             </div>
@@ -202,22 +202,22 @@ export default function MissionViejoMortgageGuide2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">100+ Lender Competition</h4>
                 <p className="text-slate-600">Multiple lenders compete for your loan, driving down rates and fees automatically.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Lower Overhead Costs</h4>
                 <p className="text-slate-600">No branch networks or massive marketing budgets—savings passed directly to you.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Local Market Expertise</h4>
                 <p className="text-slate-600">Understanding of Mission Viejo's neighborhoods, HOA communities, and property values for accurate appraisals.</p>
@@ -250,7 +250,7 @@ export default function MissionViejoMortgageGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <DollarSign className="w-8 h-8 text-green-600" />
+                <DollarSign className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,266,300)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -265,7 +265,7 @@ export default function MissionViejoMortgageGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Users className="w-8 h-8 text-indigo-600" />
+                <Users className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">FHA Loans (First-Time Buyers)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -295,7 +295,7 @@ export default function MissionViejoMortgageGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <TrendingUp className="w-8 h-8 text-purple-600" />
+                <TrendingUp className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">HELOC & Cash-Out Refinance</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -345,35 +345,35 @@ export default function MissionViejoMortgageGuide2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-4">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Gather Your Documents</h4>
                   <p className="text-slate-600">W-2s (2 years), pay stubs (30 days), bank statements (2 months), tax returns if self-employed.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Check Your Credit Score</h4>
                   <p className="text-slate-600">Minimum 620 for conventional, 580 for FHA. Higher scores unlock better Mission Viejo mortgage rates.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Calculate Your DTI Ratio</h4>
                   <p className="text-slate-600">Total monthly debts ÷ gross monthly income. Most programs require 43% or lower DTI.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
                   <p className="text-slate-600">Mo Abdel compares rates from 100+ lenders to find your best Mission Viejo mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Receive Pre-Approval Letter</h4>
                   <p className="text-slate-600">Valid for 60-90 days. Strong pre-approval letters help you compete in Mission Viejo's market.</p>
@@ -404,12 +404,12 @@ export default function MissionViejoMortgageGuide2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to Explore Mission Viejo Mortgage Options?
           </h2>
-          <p className="text-lg text-green-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Get a personalized rate quote from 100+ wholesale lenders. No credit check required for initial consultation. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Free Rate Quote
               </Button>
             </Link>
@@ -426,22 +426,22 @@ export default function MissionViejoMortgageGuide2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Mission Viejo Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/fha-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/fha-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → FHA Loans in Orange County 2026
             </Link>
-            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Jumbo Loan Programs for Orange County
             </Link>
-            <Link href="/blog/va-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/va-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → VA Loans for Orange County Military
             </Link>
-            <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/calculator" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Mission Viejo Affordability Calculator
             </Link>
-            <Link href="/blog/laguna-niguel-refinance-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/laguna-niguel-refinance-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Nearby: Laguna Niguel Mortgages
             </Link>
-            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Nearby: Rancho Santa Margarita Mortgages
             </Link>
           </div>

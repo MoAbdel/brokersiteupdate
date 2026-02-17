@@ -322,37 +322,37 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Jumbo Rate Competition</td>
                   <td className="px-4 py-3 text-sm text-gray-800">50+ jumbo lenders compete for your loan</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$2,400&ndash;$9,000/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$2,400&ndash;$9,000/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Danville, Pleasanton, all cities</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Gated Community Expertise</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Blackhawk, Ruby Hill, Castlewood lender matching</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$4,800&ndash;$12,000/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$4,800&ndash;$12,000/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Danville, Pleasanton</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">New Construction Programs</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Extended rate locks, builder incentive optimization</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$1,800&ndash;$6,000/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$1,800&ndash;$6,000/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Dublin, Pleasanton</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">55+ Community Lending</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Rossmoor cooperative, asset depletion, pension income</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$1,200&ndash;$4,800/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$1,200&ndash;$4,800/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Walnut Creek (Rossmoor)</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Tech Income Qualification</td>
                   <td className="px-4 py-3 text-sm text-gray-800">RSU counting, manufacturing bonus, dual-income</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$2,400&ndash;$7,200/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$2,400&ndash;$7,200/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Pleasanton, Dublin, Fremont</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Self-Employed Solutions</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Bank statement, asset depletion, CPA letter programs</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">$3,600&ndash;$10,800/year</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">$3,600&ndash;$10,800/year</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Danville, Walnut Creek, all cities</td>
                 </tr>
               </tbody>
@@ -381,43 +381,43 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Lender Access</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Rate Shopping</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Automatic &mdash; broker shops 50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops 50+ lenders</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must apply at multiple banks</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must compare multiple sites</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Gated Community Financing</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Blackhawk, Ruby Hill, Castlewood specialists</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Blackhawk, Ruby Hill, Castlewood specialists</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Standard guidelines (may not fit)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Limited luxury property experience</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">55+ Community (Rossmoor)</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Asset depletion &amp; cooperative specialists</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Asset depletion &amp; cooperative specialists</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Limited retirement income flexibility</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Rarely handle cooperative ownership</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">New Construction</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Extended locks up to 360 days</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Extended locks up to 360 days</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Standard 60&ndash;90 day locks</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Standard locks, limited builder programs</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Pricing Model</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Wholesale (no retail markup)</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Wholesale (no retail markup)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Retail (includes branch/overhead costs)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Direct (lower overhead, limited products)</td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Self-Employed Solutions</td>
-                  <td className="px-4 py-3 text-sm text-green-700 font-semibold">Bank statement, asset depletion, DSCR</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Bank statement, asset depletion, DSCR</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Tax returns only (usually)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Limited alternative doc programs</td>
                 </tr>
@@ -611,7 +611,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Danville</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,800,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+9.8%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+9.8%</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,260,000&ndash;$2,400,000</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Jumbo / Super-Jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Portfolio jumbo, gated community specialist</td>
@@ -619,7 +619,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Walnut Creek</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,100,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+7.2%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+7.2%</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$770,000&ndash;$1,400,000</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Conforming High-Balance / Jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Asset depletion, 55+ cooperative, condo</td>
@@ -627,7 +627,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Pleasanton</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,300,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+11.4%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+11.4%</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$910,000&ndash;$1,800,000</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Tech dual-income jumbo, RSU counting</td>
@@ -635,7 +635,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Dublin</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,100,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+12.3%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+12.3%</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$770,000&ndash;$1,200,000</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Conforming High-Balance / Jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">New construction, extended rate lock</td>
@@ -643,7 +643,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm text-gray-800 font-medium">Fremont</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$1,100,000</td>
-                  <td className="px-4 py-3 text-sm text-green-700">+8.6%</td>
+                  <td className="px-4 py-3 text-sm text-blue-700">+8.6%</td>
                   <td className="px-4 py-3 text-sm text-gray-800">$770,000&ndash;$1,350,000</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Conforming High-Balance / Jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Manufacturing income, multi-generational</td>
@@ -728,15 +728,15 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 my-8">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 my-8">
             <h2 className="text-2xl font-bold text-green-900 mt-0 mb-4">Expert Summary: Wholesale Mortgage Broker for the Affluent Suburban East Bay</h2>
-            <p className="text-green-800 text-lg mb-3">
+            <p className="text-slate-900 text-lg mb-3">
               The Affluent Suburban East Bay &mdash; Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; demands wholesale mortgage access because no single retail bank competitively serves the full spectrum of financing scenarios this corridor produces. Blackhawk and Ruby Hill gated community purchases require portfolio jumbo specialists. Rossmoor 55+ transactions need cooperative ownership and asset depletion expertise. Dublin new construction demands extended rate locks up to 360 days. Pleasanton tech dual-income households need lenders who maximize RSU income counting. Fremont Tesla employees need manufacturing income specialists who count total compensation. With 200+ lenders including 50+ jumbo specialists, I match each Suburban East Bay transaction to the lender whose specific expertise, pricing, and underwriting guidelines deliver the best outcome for that exact scenario.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               <strong>The wholesale rate advantage in this corridor is $2,400 to $12,000 per year on typical loan amounts.</strong> Over a 7-year average hold period, that is $16,800 to $84,000 in total savings &mdash; money that stays in your household rather than subsidizing a retail bank&apos;s overhead.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               Whether you are a first-time jumbo buyer in Dublin, a Blackhawk estate purchaser in Danville, a Rossmoor retiree in Walnut Creek, a dual-income tech family in Pleasanton, or a Tesla employee in Fremont, the first step is a conversation about your specific property, income, and financing goals. I will show you exactly what 200+ wholesale lenders offer for your scenario.
             </p>
           </div>

@@ -805,7 +805,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; demands a wholesale mortgage broker approach. With median home values from $2.7 million to $5 million, ownership structures spanning trusts and LLCs, and income profiles ranging from creative professionals to multi-generational wealth, no single retail bank accommodates the full spectrum of scenarios this market produces. Wholesale access to 200+ lenders through Lumin Lending (NMLS #2716106) provides the lender matching, rate competition, and underwriting flexibility that ultra-luxury Marin transactions require.
@@ -814,7 +814,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
               Whether you are purchasing a $5 million estate in Ross through a family trust, financing a waterfront home in Tiburon with RSU income, acquiring a Belvedere island property through an LLC, or qualifying for a Mill Valley canyon home with bank statement documentation &mdash; the wholesale channel contains the lender whose guidelines align with your exact scenario.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 200+ wholesale options &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 200+ wholesale options &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

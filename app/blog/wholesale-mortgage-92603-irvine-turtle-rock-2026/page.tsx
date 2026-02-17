@@ -224,12 +224,12 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed</td><td className="py-2 px-4 border-b">Tax returns required</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Bank statement options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">RSU Income</td><td className="py-2 px-4 border-b">Varies</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple options</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Denied Fallback</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-green-700 font-semibold">Pivot same day</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed</td><td className="py-2 px-4 border-b">Tax returns required</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Bank statement options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">RSU Income</td><td className="py-2 px-4 border-b">Varies</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Specialized lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple options</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Denied Fallback</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Pivot same day</td></tr>
             </tbody>
           </table>
         </div>

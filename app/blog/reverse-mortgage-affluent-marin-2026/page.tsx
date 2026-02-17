@@ -825,7 +825,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               Affluent Marin County &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; offers homeowners aged 62 and older a powerful retirement planning tool through reverse mortgages. With the 2026 HECM limit at $1,149,825, Novato homeowners benefit fully from standard HECM programs, while Sausalito, Corte Madera, San Anselmo, and Larkspur homeowners access additional equity through jumbo reverse mortgage products. Each community presents unique considerations: Sausalito houseboats require property classification evaluation, Larkspur historic homes may need condition updates, and Novato veterans can combine HECM with VA benefits.
@@ -834,7 +834,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               The HECM line of credit growth feature, the non-recourse protection guaranteeing you never owe more than your home&apos;s value, and the flexibility of multiple payout options make reverse mortgages a strategic financial instrument &mdash; not a last resort. Wholesale access through Lumin Lending (NMLS #2716106) ensures you compare HECM and jumbo reverse options from multiple lenders to secure the most competitive terms available.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to explore your reverse mortgage options in affluent Marin?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage, and retirement objectives to determine whether standard HECM or jumbo reverse is the optimal path &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              <strong>Ready to explore your reverse mortgage options in affluent Marin?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage, and retirement objectives to determine whether standard HECM or jumbo reverse is the optimal path &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

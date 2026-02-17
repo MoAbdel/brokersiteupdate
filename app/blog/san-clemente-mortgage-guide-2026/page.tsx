@@ -118,7 +118,7 @@ export default function SanClementeMortgageGuidePage() {
                             <tbody className="divide-y divide-blue-100">
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">VA Loan</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">0%</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">0%</td>
                                     <td className="py-3 px-4">Military/Veterans (South OC focus)</td>
                                 </tr>
                                 <tr>

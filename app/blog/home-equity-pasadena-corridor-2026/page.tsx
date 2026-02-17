@@ -616,31 +616,31 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t font-medium">Caltech Research Stipend ($20K&ndash;$50K/yr)</td>
                   <td className="px-4 py-3 border-t">Often excluded as &quot;temporary&quot; = $0</td>
                   <td className="px-4 py-3 border-t">Counted with tenure/appointment verification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$20K&ndash;$50K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$20K&ndash;$50K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">JPL Mission Contract Income ($30K&ndash;$60K bonus)</td>
                   <td className="px-4 py-3 border-t">Excluded (contract-based) = $0</td>
                   <td className="px-4 py-3 border-t">2-yr average with NASA contract verification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$30K&ndash;$60K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$30K&ndash;$60K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Disney/DreamWorks Guild Overtime ($25K&ndash;$60K/yr)</td>
                   <td className="px-4 py-3 border-t">2-yr average with declining trend exclusion</td>
                   <td className="px-4 py-3 border-t">Current project verified, production-cycle aware</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$15K&ndash;$35K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$15K&ndash;$35K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Business Income (Glendale/Montrose)</td>
                   <td className="px-4 py-3 border-t">Net on tax returns after deductions</td>
                   <td className="px-4 py-3 border-t">12&ndash;24 mo bank statement deposits</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Often 2&ndash;3x qualifying income increase</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Often 2&ndash;3x qualifying income increase</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Healthcare Professional Bonus ($20K&ndash;$80K/yr)</td>
                   <td className="px-4 py-3 border-t">Requires 2-yr history, averaged</td>
                   <td className="px-4 py-3 border-t">Current contract + employment letter</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$10K&ndash;$40K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$10K&ndash;$40K qualifying income</td>
                 </tr>
               </tbody>
             </table>
@@ -671,7 +671,7 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">$1,020,000</td>
                   <td className="px-4 py-3 border-t">$1,200,000</td>
                   <td className="px-4 py-3 border-t">$1,400,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+37%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+37%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -679,7 +679,7 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">$890,000</td>
                   <td className="px-4 py-3 border-t">$1,050,000</td>
                   <td className="px-4 py-3 border-t">$1,200,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+35%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+35%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr>
@@ -687,7 +687,7 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">$870,000</td>
                   <td className="px-4 py-3 border-t">$1,030,000</td>
                   <td className="px-4 py-3 border-t">$1,200,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+38%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+38%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -695,7 +695,7 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">$810,000</td>
                   <td className="px-4 py-3 border-t">$950,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+36%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+36%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
                 <tr>
@@ -703,7 +703,7 @@ export default function HomeEquityPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">$705,000</td>
                   <td className="px-4 py-3 border-t">$850,000</td>
                   <td className="px-4 py-3 border-t">$1,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+42%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+42%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
               </tbody>
@@ -790,16 +790,16 @@ export default function HomeEquityPasadenaCorridor2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in the Pasadena Corridor</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Pasadena Corridor &mdash; Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta &mdash; holds an estimated $18.4 billion in combined residential equity, representing the San Gabriel Valley&apos;s largest accessible equity market. With median values ranging from $1M in La Crescenta to $1.4M in Sierra Madre, qualifying homeowners access $380K to $580K+ in tappable equity per property. The corridor&apos;s strong appreciation of 35&ndash;42% over five years has created new equity positions for owners who purchased as recently as 2020&ndash;2022.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Pasadena Corridor&apos;s diverse income landscape &mdash; Caltech research stipends, JPL contract bonuses, Disney/DreamWorks guild compensation, Glendale&apos;s self-employed business community, and healthcare professional earnings &mdash; demands lenders who understand these structures. Conservative banks leave $20K&ndash;$120K+ in qualifying income on the table by excluding non-standard compensation. Through wholesale broker access to 50+ jumbo lenders and bank statement programs, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type and property.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Pasadena Corridor property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Pasadena Corridor property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

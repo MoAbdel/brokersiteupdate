@@ -240,8 +240,8 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Westlake Village</td><td className="py-2 px-4 border-b font-semibold">$1,400,000</td><td className="py-2 px-4 border-b">$1.1M&ndash;$1.3M</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">22%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Oak Park</td><td className="py-2 px-4 border-b font-semibold">$1,200,000</td><td className="py-2 px-4 border-b">$950K&ndash;$1.1M</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary or HECM</td><td className="py-2 px-4 border-b">19%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Westlake Village</td><td className="py-2 px-4 border-b font-semibold">$1,400,000</td><td className="py-2 px-4 border-b">$1.1M&ndash;$1.3M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">22%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Oak Park</td><td className="py-2 px-4 border-b font-semibold">$1,200,000</td><td className="py-2 px-4 border-b">$950K&ndash;$1.1M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary or HECM</td><td className="py-2 px-4 border-b">19%</td></tr>
               <tr><td className="py-2 px-4 border-b">Thousand Oaks</td><td className="py-2 px-4 border-b font-semibold">$1,100,000</td><td className="py-2 px-4 border-b">$850K&ndash;$1M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4 border-b">21%</td></tr>
               <tr><td className="py-2 px-4 border-b">Camarillo</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$750K&ndash;$900K</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4 border-b">24%</td></tr>
               <tr><td className="py-2 px-4">Moorpark</td><td className="py-2 px-4 font-semibold">$900,000</td><td className="py-2 px-4">$670K&ndash;$810K</td><td className="py-2 px-4 text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4">16%</td></tr>
@@ -334,7 +334,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Line of Credit</td><td className="py-2 px-4 border-b">Draw funds as needed; unused portion grows</td><td className="py-2 px-4 border-b">Flexible expenses, emergency fund</td><td className="py-2 px-4 border-b">Adjustable</td><td className="py-2 px-4 border-b text-green-700 font-semibold">58% of borrowers</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Line of Credit</td><td className="py-2 px-4 border-b">Draw funds as needed; unused portion grows</td><td className="py-2 px-4 border-b">Flexible expenses, emergency fund</td><td className="py-2 px-4 border-b">Adjustable</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">58% of borrowers</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Tenure Payments</td><td className="py-2 px-4 border-b">Fixed monthly income for life</td><td className="py-2 px-4 border-b">Retirement income supplement</td><td className="py-2 px-4 border-b">Adjustable</td><td className="py-2 px-4 border-b">24% of borrowers</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Lump Sum</td><td className="py-2 px-4 border-b">Single disbursement at closing</td><td className="py-2 px-4 border-b">Pay off existing mortgage, large expense</td><td className="py-2 px-4 border-b">Fixed</td><td className="py-2 px-4 border-b">10% of borrowers</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Term Payments</td><td className="py-2 px-4 border-b">Fixed monthly payments for set period</td><td className="py-2 px-4 border-b">Bridge to Social Security, pension</td><td className="py-2 px-4 border-b">Adjustable</td><td className="py-2 px-4 border-b">5% of borrowers</td></tr>
@@ -366,11 +366,11 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Westlake Village</td><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$1,250,000</td><td className="py-2 px-4 border-b font-semibold">$1,400,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">+27.3%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Oak Park</td><td className="py-2 px-4 border-b">$950,000</td><td className="py-2 px-4 border-b">$1,080,000</td><td className="py-2 px-4 border-b font-semibold">$1,200,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">+26.3%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Thousand Oaks</td><td className="py-2 px-4 border-b">$870,000</td><td className="py-2 px-4 border-b">$980,000</td><td className="py-2 px-4 border-b font-semibold">$1,100,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">+26.4%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Camarillo</td><td className="py-2 px-4 border-b">$790,000</td><td className="py-2 px-4 border-b">$890,000</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">+26.6%</td></tr>
-              <tr><td className="py-2 px-4">Moorpark</td><td className="py-2 px-4">$720,000</td><td className="py-2 px-4">$810,000</td><td className="py-2 px-4 font-semibold">$900,000</td><td className="py-2 px-4 text-green-700 font-semibold">+25.0%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Westlake Village</td><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$1,250,000</td><td className="py-2 px-4 border-b font-semibold">$1,400,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">+27.3%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Oak Park</td><td className="py-2 px-4 border-b">$950,000</td><td className="py-2 px-4 border-b">$1,080,000</td><td className="py-2 px-4 border-b font-semibold">$1,200,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">+26.3%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Thousand Oaks</td><td className="py-2 px-4 border-b">$870,000</td><td className="py-2 px-4 border-b">$980,000</td><td className="py-2 px-4 border-b font-semibold">$1,100,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">+26.4%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Camarillo</td><td className="py-2 px-4 border-b">$790,000</td><td className="py-2 px-4 border-b">$890,000</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">+26.6%</td></tr>
+              <tr><td className="py-2 px-4">Moorpark</td><td className="py-2 px-4">$720,000</td><td className="py-2 px-4">$810,000</td><td className="py-2 px-4 font-semibold">$900,000</td><td className="py-2 px-4 text-blue-700 font-semibold">+25.0%</td></tr>
             </tbody>
           </table>
         </div>
@@ -511,7 +511,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Get Your Free Ventura County Reverse Mortgage Assessment</h2>
           <p className="text-gray-700">
             Ventura County homeowners across the Conejo Valley and beyond hold $18 billion in senior home equity. Whether your property is a $1.4 million Westlake Village estate or a $900,000 Moorpark family home, Mo Abdel&apos;s wholesale access to 200+ lenders ensures you receive the most competitive reverse mortgage terms available in 2026.

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Irvine Wholesale Mortgage Broker | 200+ Lenders, Better Rates | Mo Abdel',
@@ -137,7 +138,15 @@ export default function WholesaleMortgageBrokerIrvinePage() {
         </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
-          <p className="text-sm text-gray-700"><strong>Mo Abdel</strong> | Senior Mortgage Broker | NMLS #1426884<br />Lumin Lending | NMLS #2716106 | DRE #02291443<br />Irvine Wholesale Mortgage Specialist<br />📞 (949) 822-9662</p>
+          <p className="text-sm text-gray-700">
+            <strong>Mo Abdel</strong> | Senior Mortgage Broker | NMLS #1426884<br />
+            Lumin Lending | NMLS #2716106 | DRE #02291443<br />
+            Irvine Wholesale Mortgage Specialist<br />
+            <span className="inline-flex items-center gap-2">
+              <Phone className="w-4 h-4 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </span>
+          </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">Equal Housing Lender. All loans subject to credit approval.</p>
         </div>
       </section>

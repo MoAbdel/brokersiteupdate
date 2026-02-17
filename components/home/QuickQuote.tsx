@@ -118,7 +118,7 @@ export default function QuickQuote() {
               </p>
               <Button 
                 onClick={() => setShowSuccess(false)}
-                className="bg-blue-600 hover:bg-blue-700"
+                className="bg-slate-900 hover:bg-slate-800"
               >
                 Submit Another Quote
               </Button>
@@ -286,7 +286,7 @@ export default function QuickQuote() {
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="w-full bg-slate-900 hover:bg-slate-800 text-white py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               {isSubmitting ? (
                 "Processing..."

@@ -342,7 +342,7 @@ export default function SelfEmployedMortgageBrokerPage() {
               <tr>
                 <td className="px-4 py-2 border-b">Full Doc</td>
                 <td className="px-4 py-2 border-b">2 years tax returns</td>
-                <td className="px-4 py-2 border-b text-green-700">None</td>
+                <td className="px-4 py-2 border-b text-blue-700">None</td>
                 <td className="px-4 py-2 border-b">$3M+</td>
               </tr>
               <tr>
@@ -512,32 +512,32 @@ export default function SelfEmployedMortgageBrokerPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Program Options</td>
-                <td className="px-4 py-2 border-b text-green-700">Bank statement, P&L, asset, DSCR, full doc</td>
+                <td className="px-4 py-2 border-b text-blue-700">Bank statement, P&L, asset, DSCR, full doc</td>
                 <td className="px-4 py-2 border-b text-red-700">Full doc only (usually)</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Lender Access</td>
-                <td className="px-4 py-2 border-b text-green-700">200+ lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">200+ lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">1 lender</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Income Calculation</td>
-                <td className="px-4 py-2 border-b text-green-700">Multiple methods available</td>
+                <td className="px-4 py-2 border-b text-blue-700">Multiple methods available</td>
                 <td className="px-4 py-2 border-b text-red-700">Tax return only</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Approval Flexibility</td>
-                <td className="px-4 py-2 border-b text-green-700">High (alternative lenders)</td>
+                <td className="px-4 py-2 border-b text-blue-700">High (alternative lenders)</td>
                 <td className="px-4 py-2 border-b text-red-700">Low (rigid guidelines)</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Problem Solving</td>
-                <td className="px-4 py-2 border-b text-green-700">Switch lenders if needed</td>
+                <td className="px-4 py-2 border-b text-blue-700">Switch lenders if needed</td>
                 <td className="px-4 py-2 border-b text-red-700">Decline or restart elsewhere</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Self-Employed Expertise</td>
-                <td className="px-4 py-2 border-b text-green-700">Specialized knowledge</td>
+                <td className="px-4 py-2 border-b text-blue-700">Specialized knowledge</td>
                 <td className="px-4 py-2 border-b text-red-700">Generalist approach</td>
               </tr>
             </tbody>

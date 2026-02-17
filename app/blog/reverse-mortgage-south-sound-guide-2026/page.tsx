@@ -293,31 +293,31 @@ export default function ReverseMortgageSouthSoundGuide2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Gig Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$757,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$400,000 - $455,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$400,000 - $455,000</td>
                 <td className="border border-gray-300 px-4 py-3">Harbor town premium, waterfront properties, Tacoma Narrows Bridge commuter wealth</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Maple Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$750,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$395,000 - $450,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$395,000 - $450,000</td>
                 <td className="border border-gray-300 px-4 py-3">Mountain gateway, family estates, horse property, rural luxury</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Steilacoom</td>
                 <td className="border border-gray-300 px-4 py-3">$700,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$370,000 - $420,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$370,000 - $420,000</td>
                 <td className="border border-gray-300 px-4 py-3">Historic military town, VA loan history, historic preservation district</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">University Place</td>
                 <td className="border border-gray-300 px-4 py-3">$650,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$340,000 - $390,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$340,000 - $390,000</td>
                 <td className="border border-gray-300 px-4 py-3">Chambers Bay golf/waterfront premium, established neighborhoods, Sound views</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bonney Lake</td>
                 <td className="border border-gray-300 px-4 py-3">$600,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$315,000 - $360,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$315,000 - $360,000</td>
                 <td className="border border-gray-300 px-4 py-3">Mountain view family homes, JBLM adjacent, growing community</td>
               </tr>
             </tbody>
@@ -487,35 +487,35 @@ export default function ReverseMortgageSouthSoundGuide2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Gig Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$525,000</td>
                 <td className="border border-gray-300 px-4 py-3">$757,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+44%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+44%</td>
                 <td className="border border-gray-300 px-4 py-3">18 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Maple Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$510,000</td>
                 <td className="border border-gray-300 px-4 py-3">$750,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+47%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+47%</td>
                 <td className="border border-gray-300 px-4 py-3">14 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Steilacoom</td>
                 <td className="border border-gray-300 px-4 py-3">$475,000</td>
                 <td className="border border-gray-300 px-4 py-3">$700,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+47%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+47%</td>
                 <td className="border border-gray-300 px-4 py-3">16 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">University Place</td>
                 <td className="border border-gray-300 px-4 py-3">$440,000</td>
                 <td className="border border-gray-300 px-4 py-3">$650,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+48%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+48%</td>
                 <td className="border border-gray-300 px-4 py-3">12 days</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bonney Lake</td>
                 <td className="border border-gray-300 px-4 py-3">$410,000</td>
                 <td className="border border-gray-300 px-4 py-3">$600,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+46%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+46%</td>
                 <td className="border border-gray-300 px-4 py-3">10 days</td>
               </tr>
             </tbody>
@@ -732,21 +732,21 @@ export default function ReverseMortgageSouthSoundGuide2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="expert-summary bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="expert-summary bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: South Sound Reverse Mortgage Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             South Sound seniors across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold $3.6 billion in combined residential equity built through decades of homeownership in one of Washington&apos;s most resilient housing markets. With median values from $600,000 to $757,000 and all properties well within the $1,149,825 HECM limit, every South Sound community delivers substantial reverse mortgage proceeds. Washington&apos;s zero state income tax amplifies the benefit&mdash;every dollar of HECM proceeds stays in your pocket.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             The South Sound region&apos;s distinctive characteristics&mdash;harbor town waterfront premiums, equestrian estate valuations, Chambers Bay golf course adjacency, JBLM military retiree transitions, and Steilacoom historic preservation&mdash;require reverse mortgage expertise that generic lenders lack. Proper appraiser selection, understanding of military VA-to-HECM transitions, and knowledge of local property value drivers determine whether your HECM delivers maximum benefit.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized HECM analysis for South Sound seniors through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From initial consultation through closing, Mo coordinates appraiser selection, HUD counseling referrals, lender matching for both HECM and proprietary products, and VA-to-equity transition planning for military retirees.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to explore your South Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation HECM calculation based on your specific property and age.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to explore your South Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation HECM calculation based on your specific property and age.
           </p>
         </div>
 

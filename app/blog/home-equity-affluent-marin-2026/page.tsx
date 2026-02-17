@@ -425,7 +425,7 @@ export default function HomeEquityAffluentMarin2026() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Sausalito Example: Houseboat Renovation</h4>
             <p className="mb-0">A graphic designer on Issaquah Dock owns a 1,200 sq ft floating home valued at $1.4M with $400K remaining mortgage. Traditional banks declined the HELOC application because they don&apos;t underwrite houseboats. Through wholesale channels, I placed the borrower with a portfolio lender offering a $350K HELOC at prime + 1.25% with a 10-year draw period. The funds covered a complete marine-grade renovation including new flotation systems, deck replacement, and a modern kitchen. Post-renovation appraised value: $1.85M.</p>
           </div>
@@ -460,7 +460,7 @@ export default function HomeEquityAffluentMarin2026() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Corte Madera Example: ADU Construction</h4>
             <p className="mb-0">A dual-income family near Neil Cummins Elementary owns a $1.65M home with $550K remaining mortgage. They secured a $280K HELOC at prime + 0.5% to build a 600 sq ft detached ADU for the wife&apos;s parents. The ADU adds an estimated $250K-$300K in property value, effectively making the project equity-neutral while solving a family housing need. Monthly HELOC payment during draw period: approximately $1,950.</p>
           </div>
@@ -495,7 +495,7 @@ export default function HomeEquityAffluentMarin2026() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Larkspur Example: Historic Craftsman Restoration</h4>
             <p className="mb-0">A couple in Baltimore Park purchased their 1920 Craftsman for $950K in 2015. Current value: $2.1M. With $320K remaining mortgage, they accessed a $450K jumbo HELOC to fund a historically sensitive renovation: seismic retrofit ($85K), full electrical and plumbing replacement ($120K), kitchen expansion ($95K), and landscape restoration ($45K). The phased draw schedule aligned with their contractor&apos;s six-month renovation timeline. Post-renovation estimated value: $2.6M.</p>
           </div>
@@ -530,7 +530,7 @@ export default function HomeEquityAffluentMarin2026() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">San Anselmo Example: Self-Employed Writer</h4>
             <p className="mb-0">A freelance author in Downtown San Anselmo owns a $1.6M home with $380K remaining mortgage. Her Schedule C shows $85K net income after deductions, but her bank statements show $210K in annual deposits. Chase and Wells Fargo denied her HELOC application based on tax return income. Through wholesale channels, I placed her with a portfolio lender offering a bank statement HELOC: $300K credit line at prime + 0.75% based on 24-month deposit average. She used the funds for a home office addition and her children&apos;s college tuition.</p>
           </div>
@@ -565,7 +565,7 @@ export default function HomeEquityAffluentMarin2026() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Novato Example: VA Cash-Out for Investment</h4>
             <p className="mb-0">A retired Air Force officer in Hamilton owns a $1.05M home with $280K remaining VA mortgage at 4.5%. Using VA cash-out refinance, he accessed $470K in equity at 5.75% while consolidating to a single payment. He invested $400K into a Novato rental property purchased through a <Link href="/blog/wholesale-mortgage-broker-affluent-marin-2026" className="text-blue-700 underline font-medium">wholesale mortgage channel</Link>, creating $3,200/month in rental income that covers both the rental mortgage and a portion of his primary home payment.</p>
           </div>

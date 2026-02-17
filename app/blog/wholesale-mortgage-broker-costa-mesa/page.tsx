@@ -218,7 +218,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             <p className="text-sm mb-2"><strong>Price Range:</strong> $800K - $1.5M</p>
             <p className="text-sm mb-0">Charming bungalows, mid-century homes, tree-lined streets. Proximity to Newport Beach drives values. Popular with young professionals and families seeking character homes. Strong appreciation trajectory.</p>
           </div>
-          <div className="bg-green-50 p-6 rounded-xl">
+          <div className="bg-slate-50 p-6 rounded-xl">
             <h4 className="mt-0 text-green-900">Westside Costa Mesa</h4>
             <p className="text-sm mb-2"><strong>Price Range:</strong> $700K - $1.1M</p>
             <p className="text-sm mb-0">More affordable entry point. Growing arts and dining scene. First-time buyer opportunities. Proximity to Huntington Beach and 405 freeway. Active renovation and infill market.</p>
@@ -400,11 +400,11 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">South Coast Metro Condo</td><td className="py-2 px-4 border-b">$700,000</td><td className="py-2 px-4 border-b">$560,000</td><td className="py-2 px-4 border-b text-green-700">~$35,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">Westside Single Family</td><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b">$720,000</td><td className="py-2 px-4 border-b text-green-700">~$45,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">Eastside Bungalow</td><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-green-700">~$55,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">Mesa del Mar Home</td><td className="py-2 px-4 border-b">$1,400,000</td><td className="py-2 px-4 border-b">$1,120,000</td><td className="py-2 px-4 border-b text-green-700">~$70,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4">Mesa Verde Estate</td><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4">$1,600,000</td><td className="py-2 px-4 text-green-700">~$100,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">South Coast Metro Condo</td><td className="py-2 px-4 border-b">$700,000</td><td className="py-2 px-4 border-b">$560,000</td><td className="py-2 px-4 border-b text-blue-700">~$35,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Westside Single Family</td><td className="py-2 px-4 border-b">$900,000</td><td className="py-2 px-4 border-b">$720,000</td><td className="py-2 px-4 border-b text-blue-700">~$45,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Eastside Bungalow</td><td className="py-2 px-4 border-b">$1,100,000</td><td className="py-2 px-4 border-b">$880,000</td><td className="py-2 px-4 border-b text-blue-700">~$55,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">Mesa del Mar Home</td><td className="py-2 px-4 border-b">$1,400,000</td><td className="py-2 px-4 border-b">$1,120,000</td><td className="py-2 px-4 border-b text-blue-700">~$70,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4">Mesa Verde Estate</td><td className="py-2 px-4">$2,000,000</td><td className="py-2 px-4">$1,600,000</td><td className="py-2 px-4 text-blue-700">~$100,000 over 30 years</td></tr>
             </tbody>
           </table>
         </div>
@@ -520,14 +520,14 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-green-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-green-700">200+ wholesale lenders</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-green-700">Multiple 12 and 24 month options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-green-700">20+ jumbo lender options</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Condo Expertise</td><td className="py-3 px-4 border-b">Limited flexibility</td><td className="py-3 px-4 border-b text-green-700">Non-warrantable options available</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Not available</td><td className="py-3 px-4 border-b text-green-700">Standard wholesale offering</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Costa Mesa Knowledge</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-green-700">Local market expertise</td></tr>
-              <tr><td className="py-3 px-4">Service Model</td><td className="py-3 px-4">Branch or call center</td><td className="py-3 px-4 text-green-700">Direct broker relationship</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Condo Expertise</td><td className="py-3 px-4 border-b">Limited flexibility</td><td className="py-3 px-4 border-b text-blue-700">Non-warrantable options available</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Not available</td><td className="py-3 px-4 border-b text-blue-700">Standard wholesale offering</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Costa Mesa Knowledge</td><td className="py-3 px-4 border-b">Generic national guidelines</td><td className="py-3 px-4 border-b text-blue-700">Local market expertise</td></tr>
+              <tr><td className="py-3 px-4">Service Model</td><td className="py-3 px-4">Branch or call center</td><td className="py-3 px-4 text-blue-700">Direct broker relationship</td></tr>
             </tbody>
           </table>
         </div>

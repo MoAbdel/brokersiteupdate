@@ -224,12 +224,12 @@ export default function WholesaleMortgage92660NewportHarborPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Access</td><td className="py-2 px-4 border-b">1 bank</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Dozens of programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">DSCR Investor</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Yes - extensive</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Case by case</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Standard programs</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Flexibility</td><td className="py-2 px-4">Rigid guidelines</td><td className="py-2 px-4 text-green-700 font-semibold">Match lender to borrower</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Access</td><td className="py-2 px-4 border-b">1 bank</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Dozens of programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">DSCR Investor</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - extensive</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Case by case</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Standard programs</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Flexibility</td><td className="py-2 px-4">Rigid guidelines</td><td className="py-2 px-4 text-blue-700 font-semibold">Match lender to borrower</td></tr>
             </tbody>
           </table>
         </div>

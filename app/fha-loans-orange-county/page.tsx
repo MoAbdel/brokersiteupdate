@@ -234,13 +234,16 @@ export default function FHALoansOrangeCountyPage() {
               homeownership in one of California's most desirable markets. With flexible qualification requirements
               and Competitive pricing, FHA financing opens doors that might otherwise remain closed.
             </p>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
-              <p className="text-green-800 font-semibold text-lg">
-                💰 Buy a $500K Orange County home with just $17,500 down (3.5%)
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
+              <p className="text-slate-900 font-semibold text-lg">
+                <span className="inline-flex items-center gap-2">
+                  <DollarSign className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Buy a $500K Orange County home with just $17,500 down (3.5%)</span>
+                </span>
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call to get pre-approved for an FHA loan">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Call to get pre-approved for an FHA loan">
                 <a href="tel:(949) 822-9662" className="flex items-center">
                   <Home className="w-5 h-5 mr-2" aria-hidden="true" />
                   Get Pre-Approved for FHA
@@ -272,12 +275,12 @@ export default function FHALoansOrangeCountyPage() {
                 <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
               </div>
               <div className="bg-white rounded-lg p-6 text-center">
-                <h3 className="text-2xl font-bold text-green-600 mb-2">3.5%</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">3.5%</h3>
                 <p className="text-slate-700">Minimum Down Payment</p>
                 <p className="text-sm text-slate-600 mt-2">With 580+ credit score</p>
               </div>
               <div className="bg-white rounded-lg p-6 text-center">
-                <h3 className="text-2xl font-bold text-orange-600 mb-2">580+</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">580+</h3>
                 <p className="text-slate-700">Minimum Credit Score</p>
                 <p className="text-sm text-slate-600 mt-2">For 3.5% down payment</p>
               </div>
@@ -305,7 +308,7 @@ export default function FHALoansOrangeCountyPage() {
                 <ul className="space-y-2">
                   {benefit.details.map((detail, idx) => (
                     <li key={idx} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span className="text-slate-700">{detail}</span>
                     </li>
                   ))}
@@ -350,12 +353,12 @@ export default function FHALoansOrangeCountyPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/conventional-loans-orange-county">
-                <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Compare conventional loan options in Orange County">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Compare conventional loan options in Orange County">
                   Compare Conventional Loans
                 </Button>
               </Link>
               <Link href="/va-loans-orange-county">
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Explore VA loan options in Orange County">
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Explore VA loan options in Orange County">
                   Explore VA Loans
                 </Button>
               </Link>
@@ -376,7 +379,7 @@ export default function FHALoansOrangeCountyPage() {
                 <ul className="space-y-3">
                   {req.requirements.map((requirement, idx) => (
                     <li key={idx} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                       <span className="text-slate-700">{requirement}</span>
                     </li>
                   ))}
@@ -387,7 +390,7 @@ export default function FHALoansOrangeCountyPage() {
         </section>
 
         {/* FHA Loan Process */}
-        <section className="mb-16 bg-green-50 rounded-xl p-8" aria-label="Step-by-step FHA loan application process">
+        <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="Step-by-step FHA loan application process">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
             What Is the FHA Loan Process in Orange County?
           </h2>
@@ -427,8 +430,8 @@ export default function FHALoansOrangeCountyPage() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-green-600">4</span>
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">4</span>
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Closing</h3>
               <p className="text-slate-600">
@@ -476,24 +479,24 @@ export default function FHALoansOrangeCountyPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center bg-blue-600 text-white rounded-lg p-8" aria-label="Contact Mo Abdel to start your FHA loan application">
+        <section className="text-center bg-slate-900 text-white rounded-lg p-8" aria-label="Contact Mo Abdel to start your FHA loan application">
           <h2 className="text-3xl font-bold mb-4">Ready to Buy Your Orange County Home?</h2>
-          <p className="text-xl mb-6 text-blue-100" data-speakable="true">
+          <p className="text-xl mb-6 text-slate-200" data-speakable="true">
             Get pre-approved for an FHA loan with just 3.5% down and start your homeownership journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+            <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
               <a href="tel:(949) 822-9662">
                 Call (949) 822-9662
               </a>
             </Button>
             <Link href="/contact">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg" aria-label="Apply to get pre-approved for an FHA loan">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Apply to get pre-approved for an FHA loan">
                 Get Pre-Approved for FHA Loan
               </Button>
             </Link>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
           </p>
         </section>

@@ -190,7 +190,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
                 Specialized financing for Newport Beach's most prestigious beachside community. Expert in luxury coastal homes with direct beach access, top schools, and family-oriented luxury living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -232,21 +232,21 @@ export default function CoronaDelMarMortgageBrokerPage() {
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Beach Access</h4>
                       <p className="text-slate-600">Direct access to Corona del Mar State Beach with pristine sand and coastal recreation</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Educational Excellence</h4>
                       <p className="text-slate-600">Top-rated Corona del Mar High School and excellent educational opportunities</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Luxury Lifestyle</h4>
                       <p className="text-slate-600">Upscale shopping, fine dining, and sophisticated coastal living experience</p>
@@ -309,7 +309,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
                     <div className="space-y-2">
                       {property.features.map((feature, index) => (
                         <div key={index} className="flex items-center text-sm text-slate-700">
-                          <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                          <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                           {feature}
                         </div>
                       ))}
@@ -387,16 +387,16 @@ export default function CoronaDelMarMortgageBrokerPage() {
               Get luxury financing expertise for Newport Beach's most prestigious beachside community. Specialized solutions for $2M+ coastal properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>
-              <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Sun className="w-5 h-5 mr-2" />
                 Beachside Pre-Approval
               </Button>
             </div>
-            <p className="text-sm text-orange-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Corona del Mar luxury coastal specialist
             </p>
           </div>

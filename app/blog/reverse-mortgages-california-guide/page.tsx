@@ -261,7 +261,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required monthly</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required monthly</td></tr>
               <tr><td className="py-2 px-4 border-b">Loan Balance Over Time</td><td className="py-2 px-4 border-b">Increases (negative amortization)</td><td className="py-2 px-4 border-b">Decreases with payments</td></tr>
               <tr><td className="py-2 px-4 border-b">Home Equity Over Time</td><td className="py-2 px-4 border-b">Typically decreases</td><td className="py-2 px-4 border-b">Typically increases</td></tr>
               <tr><td className="py-2 px-4 border-b">Age Requirement</td><td className="py-2 px-4 border-b">62+ years old</td><td className="py-2 px-4 border-b">18+ (legal adult)</td></tr>
@@ -445,7 +445,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
           HUD maintains a list of approved counseling agencies. Mo Abdel at Lumin Lending provides referrals to HUD-approved counselors as part of the reverse mortgage consultation process. You can also search the HUD website directly for approved agencies in California or Washington.
         </p>
 
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-6">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-6 my-6">
           <p className="text-sm text-gray-700 mb-0">
             <strong>Why Counseling Matters:</strong> The HUD counseling requirement exists to protect seniors. Counselors are independent third parties with no financial interest in whether you get a reverse mortgage. They provide objective information to help you make an informed decision. Mo Abdel at Lumin Lending (NMLS #1426884) fully supports this requirement and encourages thorough counseling before proceeding.
           </p>
@@ -850,10 +850,10 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b">Age Requirement</td><td className="py-2 px-4 border-b">62+</td><td className="py-2 px-4 border-b">None</td></tr>
-              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required</td></tr>
-              <tr><td className="py-2 px-4 border-b">Credit Line Growth</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Yes (HECM)</td><td className="py-2 px-4 border-b">No</td></tr>
-              <tr><td className="py-2 px-4 border-b">Upfront Costs</td><td className="py-2 px-4 border-b">Higher</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Lower</td></tr>
-              <tr><td className="py-2 px-4 border-b">Income Requirements</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Minimal</td><td className="py-2 px-4 border-b">Must qualify</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payments</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None required</td><td className="py-2 px-4 border-b">Required</td></tr>
+              <tr><td className="py-2 px-4 border-b">Credit Line Growth</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes (HECM)</td><td className="py-2 px-4 border-b">No</td></tr>
+              <tr><td className="py-2 px-4 border-b">Upfront Costs</td><td className="py-2 px-4 border-b">Higher</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Lower</td></tr>
+              <tr><td className="py-2 px-4 border-b">Income Requirements</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Minimal</td><td className="py-2 px-4 border-b">Must qualify</td></tr>
               <tr><td className="py-2 px-4">Best For</td><td className="py-2 px-4">Seniors who can't afford payments</td><td className="py-2 px-4">Those who can make payments</td></tr>
             </tbody>
           </table>

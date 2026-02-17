@@ -323,7 +323,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Replaces 1st Mortgage</td><td className="py-2 px-4 border border-gray-300 text-green-700">Yes</td><td className="py-2 px-4 border border-gray-300 text-red-700">No</td><td className="py-2 px-4 border border-gray-300 text-red-700">No</td></tr>
+              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Replaces 1st Mortgage</td><td className="py-2 px-4 border border-gray-300 text-blue-700">Yes</td><td className="py-2 px-4 border border-gray-300 text-red-700">No</td><td className="py-2 px-4 border border-gray-300 text-red-700">No</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Interest Rate Type</td><td className="py-2 px-4 border border-gray-300">Fixed (usually)</td><td className="py-2 px-4 border border-gray-300">Variable</td><td className="py-2 px-4 border border-gray-300">Fixed</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Fund Disbursement</td><td className="py-2 px-4 border border-gray-300">Lump sum</td><td className="py-2 px-4 border border-gray-300">Draw as needed</td><td className="py-2 px-4 border border-gray-300">Lump sum</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Typical Closing Costs</td><td className="py-2 px-4 border border-gray-300">2-5% of loan</td><td className="py-2 px-4 border border-gray-300">0-2% of line</td><td className="py-2 px-4 border border-gray-300">2-5% of loan</td></tr>
@@ -345,7 +345,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border border-gray-300">
             <thead>
-              <tr className="bg-green-50">
+              <tr className="bg-slate-50">
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Product</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Max LTV/CLTV</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Min Equity After</th>
@@ -496,9 +496,9 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           A HELOC consists of two distinct phases that fundamentally change your payment experience:
         </p>
 
-        <div className="bg-green-50 p-6 rounded-xl border border-green-200 mb-6">
+        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-6">
           <h4 className="font-bold text-green-900 mb-3">Draw Period (Typically 10 Years)</h4>
-          <ul className="mb-0 text-green-800">
+          <ul className="mb-0 text-slate-900">
             <li>Access your credit line as needed, like a credit card</li>
             <li>Minimum payments are often interest-only</li>
             <li>Pay down and re-borrow repeatedly</li>
@@ -506,7 +506,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           </ul>
         </div>
 
-        <div className="bg-amber-50 p-6 rounded-xl border border-amber-200 mb-6">
+        <div className="bg-slate-50 p-6 rounded-xl border border-amber-200 mb-6">
           <h4 className="font-bold text-amber-900 mb-3">Repayment Period (Typically 10-20 Years)</h4>
           <ul className="mb-0 text-amber-800">
             <li>No more draws allowed - line converts to a loan</li>
@@ -565,7 +565,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           A HELOAN works like a traditional installment loan: you receive a lump sum at closing, have a fixed interest rate for the entire term, and make equal monthly payments until the loan is paid off. Terms typically range from 5 to 30 years.
         </p>
 
-        <div className="bg-purple-50 p-6 rounded-xl border border-purple-200 mb-6">
+        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-6">
           <h4 className="font-bold text-purple-900 mb-3">HELOAN Key Characteristics</h4>
           <ul className="mb-0 text-purple-800">
             <li><strong>Fixed rate:</strong> Locked in at closing, never changes</li>
@@ -630,7 +630,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           </div>
 
           <div className="ml-4">
-            <p className="font-semibold text-green-800 mb-2">If your rate is BELOW current market rates (want to keep your rate):</p>
+            <p className="font-semibold text-slate-900 mb-2">If your rate is BELOW current market rates (want to keep your rate):</p>
             <ul className="list-disc ml-6 text-gray-700">
               <li>Ongoing or uncertain expenses? <strong>HELOC</strong></li>
               <li>Want flexible access + emergency backup? <strong>HELOC</strong></li>
@@ -705,7 +705,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border border-gray-300">
             <thead>
-              <tr className="bg-green-50">
+              <tr className="bg-slate-50">
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Product</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Excellent Credit (740+)</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Good Credit (700-739)</th>
@@ -728,7 +728,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border border-gray-300">
             <thead>
-              <tr className="bg-purple-50">
+              <tr className="bg-slate-50">
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Cost Component</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">Cash-Out Refi</th>
                 <th className="py-3 px-4 text-left font-bold border border-gray-300">HELOC</th>
@@ -946,7 +946,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             Get a personalized analysis comparing cash-out refinance, HELOC, and HELOAN options based on your specific situation. I'll evaluate your current mortgage rate, equity position, and goals to recommend the optimal path forward.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+            <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white text-center px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
               Get Your Free Equity Analysis
             </a>
             <a href="tel:+19498229662" className="inline-block bg-white text-gray-900 text-center px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">

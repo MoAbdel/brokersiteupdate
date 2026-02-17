@@ -226,7 +226,7 @@ export default function BankStatementLoansGuide2026() {
               <div className="inline-flex items-center gap-2 bg-blue-500/20 rounded-full px-4 py-1.5 border border-blue-500/30">
                 <span className="text-blue-400 text-sm font-medium">Self-Employed Mortgage Specialist</span>
               </div>
-              <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 border border-green-500/30">
+              <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 border border-green-500/30">
                 <span className="text-green-400 text-sm font-medium">Last updated: February 14, 2026</span>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function BankStatementLoansGuide2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check My Eligibility
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -268,7 +268,7 @@ export default function BankStatementLoansGuide2026() {
         {/* Author E-E-A-T Box */}
         <section className="mb-8">
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 flex flex-col sm:flex-row gap-4 items-start">
-            <div className="shrink-0 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold">MA</div>
+            <div className="shrink-0 w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center text-white text-2xl font-bold">MA</div>
             <div>
               <p className="font-semibold text-slate-900 text-lg">Written by Mo Abdel, NMLS #1426884</p>
               <p className="text-slate-600 text-sm mb-2">Wholesale Mortgage Broker at Lumin Lending, Inc. (NMLS #2716106) &mdash; Licensed in California &amp; Washington</p>
@@ -349,8 +349,8 @@ export default function BankStatementLoansGuide2026() {
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">Tax Returns Required</td>
-                  <td className="p-4 text-green-700 font-semibold">No</td>
-                  <td className="p-4 text-green-700 font-semibold">No</td>
+                  <td className="p-4 text-blue-700 font-semibold">No</td>
+                  <td className="p-4 text-blue-700 font-semibold">No</td>
                   <td className="p-4 text-red-700 font-semibold">Yes (2 years)</td>
                 </tr>
                 <tr>
@@ -399,9 +399,9 @@ export default function BankStatementLoansGuide2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
-            <p className="text-green-800 text-sm">
-              <strong>Broker Tip:</strong> In our experience helping self-employed borrowers, bank statement loans deliver the best combination of qualifying power and competitive rates. P&L-only loans work for borrowers who cannot provide 12+ months of statements, but they carry higher rates and stricter terms. Learn more about all non-QM options in our <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-green-700 underline hover:text-green-900">complete Non-QM loans guide</Link>.
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
+            <p className="text-slate-900 text-sm">
+              <strong>Broker Tip:</strong> In our experience helping self-employed borrowers, bank statement loans deliver the best combination of qualifying power and competitive rates. P&L-only loans work for borrowers who cannot provide 12+ months of statements, but they carry higher rates and stricter terms. Learn more about all non-QM options in our <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-700 underline hover:text-green-900">complete Non-QM loans guide</Link>.
             </p>
           </div>
         </section>
@@ -430,9 +430,9 @@ export default function BankStatementLoansGuide2026() {
                 <p className="text-slate-600 text-sm">Business accounts: 50% expense factor. Personal: 100% of deposits.</p>
                 <p className="text-lg font-semibold text-slate-900 mt-2">Business Example: $330,000 x 50% = $165,000 annual income</p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4 border border-green-200">
-                <h4 className="font-medium text-green-700 mb-2">Step 4: Monthly Qualifying Income</h4>
-                <p className="text-lg font-bold text-green-800">$165,000 / 12 = $13,750/month qualifying income</p>
+              <div className="bg-slate-100 rounded-lg p-4 border border-slate-200">
+                <h4 className="font-medium text-blue-700 mb-2">Step 4: Monthly Qualifying Income</h4>
+                <p className="text-lg font-bold text-slate-900">$165,000 / 12 = $13,750/month qualifying income</p>
               </div>
             </div>
           </div>
@@ -470,15 +470,15 @@ export default function BankStatementLoansGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Building2 className="w-8 h-8 text-green-600" />
+                <Building2 className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Business Bank Statements</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 Best for LLC owners, S-Corp shareholders, and business owners with dedicated business accounts.
               </p>
-              <div className="bg-green-50 rounded-lg p-4">
-                <h4 className="font-medium text-green-800 mb-2">Considerations</h4>
-                <ul className="text-sm text-green-700 space-y-1">
+              <div className="bg-slate-50 rounded-lg p-4">
+                <h4 className="font-medium text-slate-900 mb-2">Considerations</h4>
+                <ul className="text-sm text-blue-700 space-y-1">
                   <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" /> Standard 50% expense factor applied</li>
                   <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" /> Can document actual expenses for lower factor</li>
                   <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" /> Higher gross deposits may offset factor</li>
@@ -488,7 +488,7 @@ export default function BankStatementLoansGuide2026() {
             </div>
           </div>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
+          <div className="bg-slate-50 border border-amber-200 rounded-lg p-4 mt-4">
             <p className="text-amber-800 text-sm">
               <strong>From Our Closings:</strong> In our bank statement loan closings at Lumin Lending, we recommend using whichever account type shows the strongest, most consistent deposit history. If your business account shows $50,000+ monthly deposits, the 50% expense factor still yields $25,000/month qualifying income &mdash; often more than what personal statements show. Last quarter, we helped a dental practice owner switch from personal to business statements and increase her qualifying income by 40%, securing a home in Newport Beach she had been told she could not afford.
             </p>
@@ -585,8 +585,8 @@ export default function BankStatementLoansGuide2026() {
                   <td className="p-4 text-slate-600 font-medium">740+</td>
                   <td className="p-4 text-slate-600">7.25-7.75%</td>
                   <td className="p-4 text-slate-600">7.00-7.50%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.875-7.25%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.75-7.125%</td>
+                  <td className="p-4 text-blue-700 font-semibold">6.875-7.25%</td>
+                  <td className="p-4 text-blue-700 font-semibold">6.75-7.125%</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">700-739</td>
@@ -623,8 +623,8 @@ export default function BankStatementLoansGuide2026() {
             Rates shown are illustrative wholesale pricing for 12-month bank statement programs on primary residences, February 2026. 24-month programs may offer 0.125% lower rates due to reduced lender risk. Actual rates depend on loan amount, property type, and lender-specific overlays. Jumbo bank statement loans ($1.15M+) carry a 0.125-0.25% premium.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
-            <p className="text-green-800 text-sm">
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
+            <p className="text-slate-900 text-sm">
               <strong>February 2026 Rate Trend:</strong> Bank statement loan rates have declined 0.50-0.75% from Q2 2025 peaks, creating an improved entry point for self-employed borrowers. The wholesale channel amplifies this improvement &mdash; based on closings this month, we are securing rates 0.25-0.375% below published retail averages.
             </p>
           </div>
@@ -645,7 +645,7 @@ export default function BankStatementLoansGuide2026() {
                 <tr>
                   <th className="text-left p-4 font-semibold text-slate-900">Scenario</th>
                   <th className="text-left p-4 font-semibold text-slate-900">Retail Lender Rate</th>
-                  <th className="text-left p-4 font-semibold text-green-800">Wholesale Broker Rate</th>
+                  <th className="text-left p-4 font-semibold text-slate-900">Wholesale Broker Rate</th>
                   <th className="text-left p-4 font-semibold text-blue-800">Monthly Savings</th>
                 </tr>
               </thead>
@@ -653,31 +653,31 @@ export default function BankStatementLoansGuide2026() {
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">740+ FICO, 20% down, $750K loan</td>
                   <td className="p-4 text-slate-600">7.375%</td>
-                  <td className="p-4 text-green-700 font-semibold">6.875%</td>
+                  <td className="p-4 text-blue-700 font-semibold">6.875%</td>
                   <td className="p-4 text-blue-700 font-semibold">$258/mo</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">700 FICO, 15% down, $900K loan</td>
                   <td className="p-4 text-slate-600">8.125%</td>
-                  <td className="p-4 text-green-700 font-semibold">7.625%</td>
+                  <td className="p-4 text-blue-700 font-semibold">7.625%</td>
                   <td className="p-4 text-blue-700 font-semibold">$331/mo</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">680 FICO, 20% down, $600K loan</td>
                   <td className="p-4 text-slate-600">8.50%</td>
-                  <td className="p-4 text-green-700 font-semibold">8.00%</td>
+                  <td className="p-4 text-blue-700 font-semibold">8.00%</td>
                   <td className="p-4 text-blue-700 font-semibold">$211/mo</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">740+ FICO, 25% down, $1.5M jumbo</td>
                   <td className="p-4 text-slate-600">7.625%</td>
-                  <td className="p-4 text-green-700 font-semibold">7.125%</td>
+                  <td className="p-4 text-blue-700 font-semibold">7.125%</td>
                   <td className="p-4 text-blue-700 font-semibold">$537/mo</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">660 FICO, 15% down, $500K loan</td>
                   <td className="p-4 text-slate-600">9.25%</td>
-                  <td className="p-4 text-green-700 font-semibold">8.625%</td>
+                  <td className="p-4 text-blue-700 font-semibold">8.625%</td>
                   <td className="p-4 text-blue-700 font-semibold">$227/mo</td>
                 </tr>
               </tbody>
@@ -687,9 +687,9 @@ export default function BankStatementLoansGuide2026() {
             Rates based on 30-year fixed, 12-month personal bank statement program, primary residence, February 2026. Monthly savings calculated over the loan term. Wholesale rates sourced from Mo Abdel&apos;s active lender pricing sheets. Retail rates from published non-QM lender rate cards. Your actual rate depends on full application review. Learn more about the <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">wholesale vs retail mortgage broker</Link> pricing difference.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
-            <p className="text-green-800 text-sm">
-              <strong>Real Savings Example:</strong> A self-employed business owner in Irvine recently closed a $1.1M bank statement loan through our wholesale channel at 7.00% &mdash; the same scenario was quoted at 7.50% by two retail non-QM lenders. Over 30 years, the wholesale rate saves $124,200 in total interest. This is why 70%+ of non-QM borrowers choose <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-700 underline hover:text-green-900">wholesale mortgage brokers</Link>.
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
+            <p className="text-slate-900 text-sm">
+              <strong>Real Savings Example:</strong> A self-employed business owner in Irvine recently closed a $1.1M bank statement loan through our wholesale channel at 7.00% &mdash; the same scenario was quoted at 7.50% by two retail non-QM lenders. Over 30 years, the wholesale rate saves $124,200 in total interest. This is why 70%+ of non-QM borrowers choose <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-700 underline hover:text-green-900">wholesale mortgage brokers</Link>.
             </p>
           </div>
         </section>
@@ -711,8 +711,8 @@ export default function BankStatementLoansGuide2026() {
                 <h3 className="text-lg font-semibold text-slate-900">Orange County</h3>
               </div>
               <p className="text-slate-600 text-sm mb-3">Median home price: $1.15M. Self-employment rate: 16%. Bank statement loans are the primary non-QM product for OC business owners, especially in Newport Beach, Irvine, and Laguna Beach where median prices exceed $1.5M.</p>
-              <div className="bg-orange-50 rounded-lg p-3">
-                <p className="text-orange-800 text-sm font-medium">Typical OC bank statement borrower: Business owner earning $250K-$500K, showing $90K-$150K on tax returns, needs $800K-$1.5M loan.</p>
+              <div className="bg-slate-50 rounded-lg p-3">
+                <p className="text-slate-900 text-sm font-medium">Typical OC bank statement borrower: Business owner earning $250K-$500K, showing $90K-$150K on tax returns, needs $800K-$1.5M loan.</p>
               </div>
             </div>
 
@@ -733,7 +733,7 @@ export default function BankStatementLoansGuide2026() {
                 <h3 className="text-lg font-semibold text-slate-900">Los Angeles (Westside, DTLA, South Bay)</h3>
               </div>
               <p className="text-slate-600 text-sm mb-3">Median home price: $950K. LA has the highest self-employment count in California with entertainment, creative, and professional services sectors. Freelancers, content creators, and production company owners rely heavily on bank statement programs.</p>
-              <div className="bg-purple-50 rounded-lg p-3">
+              <div className="bg-slate-50 rounded-lg p-3">
                 <p className="text-purple-800 text-sm font-medium">Typical LA borrower: Entertainment professional or creative entrepreneur, $180K-$400K deposits, needs $700K-$1.2M loan.</p>
               </div>
             </div>
@@ -744,8 +744,8 @@ export default function BankStatementLoansGuide2026() {
                 <h3 className="text-lg font-semibold text-slate-900">San Diego (Coastal, La Jolla, Del Mar)</h3>
               </div>
               <p className="text-slate-600 text-sm mb-3">Median home price: $925K. Biotech professionals, military contractors, and cross-border business owners form the core bank statement borrower base. Coastal areas like La Jolla and Del Mar require jumbo bank statement programs.</p>
-              <div className="bg-green-50 rounded-lg p-3">
-                <p className="text-green-800 text-sm font-medium">Typical SD borrower: Biotech consultant or cross-border entrepreneur, $200K-$450K deposits, needs $750K-$1.5M loan.</p>
+              <div className="bg-slate-50 rounded-lg p-3">
+                <p className="text-slate-900 text-sm font-medium">Typical SD borrower: Biotech consultant or cross-border entrepreneur, $200K-$450K deposits, needs $750K-$1.5M loan.</p>
               </div>
             </div>
           </div>
@@ -766,42 +766,42 @@ export default function BankStatementLoansGuide2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-4">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Gather 12-24 Months of Bank Statements</h4>
                   <p className="text-slate-600">Download complete statements from your bank. Ensure all pages are included with no missing months. In our experience, 24-month programs provide higher qualifying income for borrowers with growing businesses.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Document Your Self-Employment</h4>
                   <p className="text-slate-600">Business license, CPA letter, or 2+ years of business tax returns (to prove history, not income). The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS Self-Employed Tax Center</a> outlines the documentation requirements.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Prepare to Explain Large Deposits</h4>
                   <p className="text-slate-600">Any deposit over $10,000 or unusual deposits need explanation and documentation (invoices, contracts). Based on closings with 200+ lenders, organized deposit documentation is the single biggest factor in approval speed.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
                   <p className="text-slate-600">Mo Abdel shops 200+ wholesale lenders including 20+ bank statement specialists to find the best combination of rate, terms, and approval flexibility for your specific situation.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Underwriting Review (5-7 Business Days)</h4>
                   <p className="text-slate-600">Manual underwriting takes longer than automated. Expect questions about deposit sources and business operations. A wholesale broker pre-screens your file to minimize surprises.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold shrink-0">6</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">6</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Approval, Lock Rate, and Close</h4>
                   <p className="text-slate-600">Once approved, lock your rate and proceed to closing. Typical timeline: 35-45 days total. Learn more about <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">why a mortgage broker closes faster than a bank</Link>.</p>
@@ -818,57 +818,57 @@ export default function BankStatementLoansGuide2026() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Keep Deposits Consistent</h4>
-                  <p className="text-sm text-green-700">Regular, consistent deposits are easier to document than sporadic large deposits. In our experience, lenders approve files 30% faster when deposits follow a predictable pattern.</p>
+                  <h4 className="font-semibold text-slate-900">Keep Deposits Consistent</h4>
+                  <p className="text-sm text-blue-700">Regular, consistent deposits are easier to document than sporadic large deposits. In our experience, lenders approve files 30% faster when deposits follow a predictable pattern.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Avoid Overdrafts</h4>
-                  <p className="text-sm text-green-700">NSF fees and overdrafts raise red flags. Keep accounts in positive standing for the entire statement period. Even one overdraft can trigger additional underwriter scrutiny.</p>
+                  <h4 className="font-semibold text-slate-900">Avoid Overdrafts</h4>
+                  <p className="text-sm text-blue-700">NSF fees and overdrafts raise red flags. Keep accounts in positive standing for the entire statement period. Even one overdraft can trigger additional underwriter scrutiny.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Document Large Deposits</h4>
-                  <p className="text-sm text-green-700">Keep invoices, contracts, and receipts for any deposit over $10,000. Pre-organizing a deposit explanation letter saves weeks during underwriting.</p>
+                  <h4 className="font-semibold text-slate-900">Document Large Deposits</h4>
+                  <p className="text-sm text-blue-700">Keep invoices, contracts, and receipts for any deposit over $10,000. Pre-organizing a deposit explanation letter saves weeks during underwriting.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Use Business Account If Higher Volume</h4>
-                  <p className="text-sm text-green-700">Even with 50% expense factor, higher business deposits may qualify you for more. A business account showing $80K/month deposits yields $40K/month qualifying income.</p>
+                  <h4 className="font-semibold text-slate-900">Use Business Account If Higher Volume</h4>
+                  <p className="text-sm text-blue-700">Even with 50% expense factor, higher business deposits may qualify you for more. A business account showing $80K/month deposits yields $40K/month qualifying income.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Separate Personal and Business Accounts</h4>
-                  <p className="text-sm text-green-700">Co-mingled funds complicate underwriting. Maintain separate accounts and transfer owner draws via regular monthly payments to create a clean paper trail.</p>
+                  <h4 className="font-semibold text-slate-900">Separate Personal and Business Accounts</h4>
+                  <p className="text-sm text-blue-700">Co-mingled funds complicate underwriting. Maintain separate accounts and transfer owner draws via regular monthly payments to create a clean paper trail.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-green-800">Work with a Wholesale Broker</h4>
-                  <p className="text-sm text-green-700">A <Link href="/blog/self-employed-mortgage-broker-2026" className="text-green-700 underline hover:text-green-900">self-employed mortgage specialist</Link> knows which of the 200+ lenders offers the best terms for your specific income profile and business type.</p>
+                  <h4 className="font-semibold text-slate-900">Work with a Wholesale Broker</h4>
+                  <p className="text-sm text-blue-700">A <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-700 underline hover:text-green-900">self-employed mortgage specialist</Link> knows which of the 200+ lenders offers the best terms for your specific income profile and business type.</p>
                 </div>
               </div>
             </div>
@@ -879,11 +879,11 @@ export default function BankStatementLoansGuide2026() {
         <section className="mb-12">
           <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-200 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-4">
-              <Building2 className="w-8 h-8 text-indigo-600" />
+              <Building2 className="w-8 h-8 text-blue-600" />
               <h2 className="text-2xl font-bold text-slate-900">Self-Employed AND an Investor? Consider DSCR Loans</h2>
             </div>
             <p className="text-slate-700 mb-4">
-              Many self-employed borrowers also own rental properties. If you are building a real estate portfolio alongside your business, <Link href="/blog/dscr-investment-property-loans-2026" className="text-indigo-600 font-semibold hover:underline">DSCR (Debt Service Coverage Ratio) loans</Link> qualify based on the property&apos;s rental income &mdash; not your personal income or bank statements. This means your tax write-offs and business deductions never enter the equation. In February 2026, DSCR loan rates start at 6.50% through wholesale channels for well-qualified scenarios.
+              Many self-employed borrowers also own rental properties. If you are building a real estate portfolio alongside your business, <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 font-semibold hover:underline">DSCR (Debt Service Coverage Ratio) loans</Link> qualify based on the property&apos;s rental income &mdash; not your personal income or bank statements. This means your tax write-offs and business deductions never enter the equation. In February 2026, DSCR loan rates start at 6.50% through wholesale channels for well-qualified scenarios.
             </p>
             <p className="text-slate-700 mb-4">
               In our experience helping self-employed investors, a combined strategy works best: use a bank statement loan for your primary residence, then use DSCR loans for investment properties. This approach maximizes your borrowing power across both your personal home and your rental portfolio without income documentation overlap. We have closed dozens of &quot;dual-program&quot; packages where a business owner finances their primary residence via bank statements and simultaneously finances 2-5 rental properties via DSCR &mdash; with no income documentation overlap between the two.
@@ -892,7 +892,7 @@ export default function BankStatementLoansGuide2026() {
             {/* DSCR vs Bank Statement Comparison */}
             <div className="overflow-x-auto mb-4">
               <table className="w-full border-collapse bg-white rounded-lg overflow-hidden text-sm">
-                <thead className="bg-indigo-100">
+                <thead className="bg-slate-100">
                   <tr>
                     <th className="text-left p-3 font-semibold text-indigo-900">Feature</th>
                     <th className="text-left p-3 font-semibold text-indigo-900">Bank Statement Loan</th>
@@ -912,8 +912,8 @@ export default function BankStatementLoansGuide2026() {
                   </tr>
                   <tr>
                     <td className="p-3 text-slate-600 font-medium">Tax Returns</td>
-                    <td className="p-3 text-green-700 font-semibold">Not required</td>
-                    <td className="p-3 text-green-700 font-semibold">Not required</td>
+                    <td className="p-3 text-blue-700 font-semibold">Not required</td>
+                    <td className="p-3 text-blue-700 font-semibold">Not required</td>
                   </tr>
                   <tr>
                     <td className="p-3 text-slate-600 font-medium">Feb 2026 Rates</td>
@@ -937,18 +937,18 @@ export default function BankStatementLoansGuide2026() {
             <div className="grid sm:grid-cols-3 gap-3 mb-4">
               <div className="bg-white rounded-lg p-3 text-center">
                 <p className="text-sm text-slate-500">DSCR Qualifying</p>
-                <p className="text-lg font-bold text-indigo-700">Rental Income Only</p>
+                <p className="text-lg font-bold text-blue-700">Rental Income Only</p>
               </div>
               <div className="bg-white rounded-lg p-3 text-center">
                 <p className="text-sm text-slate-500">Min DSCR Ratio</p>
-                <p className="text-lg font-bold text-indigo-700">1.0-1.25x</p>
+                <p className="text-lg font-bold text-blue-700">1.0-1.25x</p>
               </div>
               <div className="bg-white rounded-lg p-3 text-center">
                 <p className="text-sm text-slate-500">Tax Returns</p>
-                <p className="text-lg font-bold text-indigo-700">Not Required</p>
+                <p className="text-lg font-bold text-blue-700">Not Required</p>
               </div>
             </div>
-            <Link href="/blog/dscr-investment-property-loans-2026" className="inline-flex items-center text-indigo-600 font-semibold hover:underline">
+            <Link href="/blog/dscr-investment-property-loans-2026" className="inline-flex items-center text-blue-600 font-semibold hover:underline">
               Read our complete DSCR loans guide <ArrowRight className="w-4 h-4 ml-1" />
             </Link>
           </div>
@@ -1032,15 +1032,15 @@ export default function BankStatementLoansGuide2026() {
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b font-medium text-sm">Feb 2026 Rate Range</td>
-                  <td className="py-2 px-4 border-b text-sm text-green-700 font-semibold">6.875-8.75%</td>
+                  <td className="py-2 px-4 border-b text-sm text-blue-700 font-semibold">6.875-8.75%</td>
                   <td className="py-2 px-4 border-b text-sm">7.00-8.50%</td>
                   <td className="py-2 px-4 border-b text-sm">7.25-9.00%</td>
                   <td className="py-2 px-4 border-b text-sm">7.50-9.25%</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-4 border-b font-medium text-sm">Interest-Only Available</td>
-                  <td className="py-2 px-4 border-b text-sm text-green-700 font-semibold">Yes (5-10 yr)</td>
-                  <td className="py-2 px-4 border-b text-sm text-green-700 font-semibold">Yes (5-10 yr)</td>
+                  <td className="py-2 px-4 border-b text-sm text-blue-700 font-semibold">Yes (5-10 yr)</td>
+                  <td className="py-2 px-4 border-b text-sm text-blue-700 font-semibold">Yes (5-10 yr)</td>
                   <td className="py-2 px-4 border-b text-sm">Select lenders</td>
                   <td className="py-2 px-4 border-b text-sm">Select lenders</td>
                 </tr>
@@ -1185,12 +1185,12 @@ export default function BankStatementLoansGuide2026() {
               <p className="text-sm text-slate-600">Access to every major bank statement lender in the wholesale channel, not just one institution&apos;s guidelines.</p>
             </div>
             <div className="border border-slate-200 rounded-xl p-5 text-center">
-              <DollarSign className="w-10 h-10 text-green-600 mx-auto mb-3" />
+              <DollarSign className="w-10 h-10 text-blue-600 mx-auto mb-3" />
               <h3 className="font-semibold text-slate-900 mb-2">Wholesale Pricing</h3>
               <p className="text-sm text-slate-600">Institutional rates 0.25-0.5% below retail. On a $750K loan, that saves $150-$300/month for the life of the loan.</p>
             </div>
             <div className="border border-slate-200 rounded-xl p-5 text-center">
-              <Shield className="w-10 h-10 text-purple-600 mx-auto mb-3" />
+              <Shield className="w-10 h-10 text-blue-600 mx-auto mb-3" />
               <h3 className="font-semibold text-slate-900 mb-2">Expert Matching</h3>
               <p className="text-sm text-slate-600">In our experience, matching your profile to the right lender&apos;s overlay is the difference between approval and denial.</p>
             </div>
@@ -1206,7 +1206,7 @@ export default function BankStatementLoansGuide2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Self-Employed? Your Tax Returns Don&apos;t Define Your Mortgage.
           </h2>
-          <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Bank statement loans use your real income -- not your tax-optimized returns. Get a free consultation to see how much home you actually qualify for. Based on closings with 200+ lenders, we find the best rate for your specific situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

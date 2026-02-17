@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   TrendingUp,
   Home,
@@ -117,24 +118,24 @@ export default function MarketDataPage() {
       value: 'Seller\'s Market',
       description: 'Low inventory driving competition',
       icon: Activity,
-      color: 'text-red-600',
-      bgColor: 'bg-red-50'
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100'
     },
     {
       title: 'Price Trend',
       value: 'Rising',
       description: '+3.2% year over year',
       icon: TrendingUp,
-      color: 'text-green-600',
-      bgColor: 'bg-green-50'
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100'
     },
     {
       title: 'Buyer Competition',
       value: 'High',
       description: 'Multiple offers common',
       icon: Users,
-      color: 'text-orange-600',
-      bgColor: 'bg-orange-50'
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100'
     },
     {
       title: 'Interest Rate Impact',
@@ -142,7 +143,7 @@ export default function MarketDataPage() {
       description: 'Rates affecting affordability',
       icon: Percent,
       color: 'text-blue-600',
-      bgColor: 'bg-blue-50'
+      bgColor: 'bg-slate-100'
     }
   ];
 
@@ -189,38 +190,29 @@ export default function MarketDataPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Live Market Data</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              California &amp; Washington Housing Market Data
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Current market trends, pricing data, and analysis to help you make informed decisions 
-              about buying, refinancing, or investing across California and Washington.
-            </p>
-            <p className="text-sm text-blue-100 max-w-3xl mx-auto mb-8">
+      <PageHero
+        badgeText="Live Market Data"
+        badgeIcon={Activity}
+        title={<>California &amp; Washington Housing Market Data</>}
+        subtitle={
+          <>
+            Current market trends, pricing data, and analysis to help you make informed decisions about buying, refinancing, or investing across California and Washington.
+            <span className="block mt-2 text-sm text-slate-300">
               Current city-level table below uses Orange County as the active benchmark cluster while statewide dashboards continue expanding.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <TrendingUp className="w-5 h-5 mr-2" />
-                  Market Analysis
-                </Button>
-              </Link>
-              <Link href="/calculator">
-                <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                  <Calculator className="w-5 h-5 mr-2" />
-                  Affordability Calculator
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+            </span>
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Market Analysis',
+          icon: TrendingUp,
+        }}
+        secondaryAction={{
+          href: '/calculator',
+          label: 'Affordability Calculator',
+          icon: Calculator,
+        }}
+      />
 
       {/* Current Market Overview */}
       <section className="py-16">
@@ -237,10 +229,10 @@ export default function MarketDataPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <Card className="text-center">
               <CardContent className="p-6">
-                <DollarSign className="w-8 h-8 text-green-600 mx-auto mb-2" />
+                <DollarSign className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-slate-900">{currentData.medianPrice}</div>
                 <div className="text-sm text-slate-600">Median Sale Price</div>
-                <div className="text-xs text-green-600 mt-1">{currentData.priceChange} YoY</div>
+                <div className="text-xs text-blue-600 mt-1">{currentData.priceChange} YoY</div>
               </CardContent>
             </Card>
 
@@ -255,7 +247,7 @@ export default function MarketDataPage() {
 
             <Card className="text-center">
               <CardContent className="p-6">
-                <BarChart3 className="w-8 h-8 text-orange-600 mx-auto mb-2" />
+                <BarChart3 className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-slate-900">{currentData.inventoryLevel}</div>
                 <div className="text-sm text-slate-600">Months of Inventory</div>
                 <div className="text-xs text-red-600">Low supply</div>
@@ -264,10 +256,10 @@ export default function MarketDataPage() {
 
             <Card className="text-center">
               <CardContent className="p-6">
-                <Home className="w-8 h-8 text-purple-600 mx-auto mb-2" />
+                <Home className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-slate-900">{currentData.salesVolume}</div>
                 <div className="text-sm text-slate-600">Homes Sold (Aug)</div>
-                <div className="text-xs text-green-600">+15% from Jul</div>
+                <div className="text-xs text-blue-600">+15% from Jul</div>
               </CardContent>
             </Card>
           </div>
@@ -316,8 +308,8 @@ export default function MarketDataPage() {
                     <MapPin className="w-5 h-5 text-blue-600" />
                   </div>
                   <div className="flex items-center">
-                    <TrendingUp className="w-4 h-4 text-green-600 mr-1" />
-                    <span className="text-sm text-green-600">{city.change}</span>
+                    <TrendingUp className="w-4 h-4 text-blue-600 mr-1" />
+                    <span className="text-sm text-blue-600">{city.change}</span>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -360,7 +352,7 @@ export default function MarketDataPage() {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <div 
-                          className="bg-blue-600 h-2 rounded-full" 
+                          className="bg-slate-900 h-2 rounded-full" 
                           style={{width: range.percentage}}
                         ></div>
                       </div>
@@ -384,7 +376,7 @@ export default function MarketDataPage() {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <TrendingUp className="w-5 h-5 mr-2 text-green-600" />
+                    <TrendingUp className="w-5 h-5 mr-2 text-blue-600" />
                     Price & Volume Trends
                   </CardTitle>
                 </CardHeader>
@@ -442,7 +434,7 @@ export default function MarketDataPage() {
       {/* Market Forecast */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+          <Card className="bg-slate-900 text-white">
             <CardContent className="p-8">
               <div className="text-center">
                 <Target className="w-12 h-12 mx-auto mb-4" />
@@ -496,7 +488,7 @@ export default function MarketDataPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                 Get Market Analysis
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>

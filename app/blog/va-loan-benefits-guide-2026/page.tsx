@@ -265,7 +265,7 @@ export default function VALoanBenefitsGuidePage() {
                     <p className="text-blue-800 mb-4">
                         Compare VA loan rates from 50+ wholesale lenders. As your VA loan specialist, I'll help you maximize your military benefit with competitive pricing.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your VA Loan Quote
                     </a>
                 </div>

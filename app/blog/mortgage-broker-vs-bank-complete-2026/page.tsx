@@ -287,67 +287,67 @@ export default function MortgageBrokerVsBankCompletePage() {
                   <td className="py-4 px-4 font-semibold">Lender Access</td>
                   <td className="py-4 px-4">200+ wholesale lenders</td>
                   <td className="py-4 px-4">1 institution only</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold">Rate Shopping</td>
                   <td className="py-4 px-4">Built into every transaction</td>
                   <td className="py-4 px-4">Not possible</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-4 font-semibold">Pricing Model</td>
                   <td className="py-4 px-4">Wholesale/Institutional</td>
                   <td className="py-4 px-4">Retail + Overhead Margin</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold">Overhead Costs in Rate</td>
                   <td className="py-4 px-4">Minimal (no branches)</td>
                   <td className="py-4 px-4">High (branches, ads, HQ)</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-4 font-semibold">Self-Employed Programs</td>
                   <td className="py-4 px-4">Bank statement, P&L, 1099</td>
                   <td className="py-4 px-4">Limited or none</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold">Jumbo Loan Options</td>
                   <td className="py-4 px-4">50+ specialty lenders</td>
                   <td className="py-4 px-4">1 proprietary product</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-4 font-semibold">If Initially Denied</td>
                   <td className="py-4 px-4">Move to another lender same day</td>
                   <td className="py-4 px-4">Start over elsewhere</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold">Average Closing Time</td>
                   <td className="py-4 px-4">21-30 days</td>
                   <td className="py-4 px-4">30-45 days</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-4 font-semibold">Compensation Transparency</td>
                   <td className="py-4 px-4">Fully disclosed on Loan Estimate</td>
                   <td className="py-4 px-4">Built into rate, less visible</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold">Relationship</td>
                   <td className="py-4 px-4">Personal, direct contact</td>
                   <td className="py-4 px-4">Corporate, may change contacts</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-4 px-4 font-semibold">Who They Work For</td>
                   <td className="py-4 px-4">You (independent advocate)</td>
                   <td className="py-4 px-4">Their employer (sales quotas)</td>
-                  <td className="py-4 px-4 text-green-600 font-bold">Broker</td>
+                  <td className="py-4 px-4 text-blue-600 font-bold">Broker</td>
                 </tr>
               </tbody>
             </table>
@@ -356,32 +356,32 @@ export default function MortgageBrokerVsBankCompletePage() {
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Mortgage Brokers Win: The 7 Structural Advantages</h3>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">1. Access to 200+ Lenders</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">1. Access to 200+ Lenders</h4>
               <p className="text-sm text-gray-700 mb-0">Brokers maintain relationships with wholesale lenders across the country, enabling them to find the best fit for each borrower's unique profile.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">2. Rate Shopping Built In</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">2. Rate Shopping Built In</h4>
               <p className="text-sm text-gray-700 mb-0">Every broker transaction involves comparing options across multiple lenders—something bank customers cannot do without applying to multiple institutions.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">3. Wholesale Pricing</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">3. Wholesale Pricing</h4>
               <p className="text-sm text-gray-700 mb-0">Wholesale rates exclude the overhead costs built into retail bank pricing: branches, advertising, corporate structure. These savings pass to borrowers.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">4. Specialty Programs</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">4. Specialty Programs</h4>
               <p className="text-sm text-gray-700 mb-0">Bank statement loans, DSCR for investors, asset depletion, non-QM options—brokers access programs most banks don't offer.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">5. Backup Options</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">5. Backup Options</h4>
               <p className="text-sm text-gray-700 mb-0">If one lender denies a loan, brokers move to another immediately. Bank customers must start over at a different institution.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">6. Transparent Compensation</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">6. Transparent Compensation</h4>
               <p className="text-sm text-gray-700 mb-0">Broker compensation is disclosed on your Loan Estimate. Bank profit margins are hidden in the rate itself.</p>
             </div>
-            <div className="bg-green-50 p-5 rounded-xl border border-green-200">
-              <h4 className="font-bold text-green-800 mt-0 mb-2">7. Independence</h4>
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-900 mt-0 mb-2">7. Independence</h4>
               <p className="text-sm text-gray-700 mb-0">Brokers work for borrowers, not a single institution. Their success depends on client satisfaction and referrals, not sales quotas.</p>
             </div>
           </div>
@@ -477,27 +477,27 @@ export default function MortgageBrokerVsBankCompletePage() {
             <tbody className="divide-y divide-gray-200">
               <tr>
                 <td className="py-3 px-4">$500,000 Conforming</td>
-                <td className="py-3 px-4 text-green-700 font-semibold">6.25%</td>
+                <td className="py-3 px-4 text-blue-700 font-semibold">6.25%</td>
                 <td className="py-3 px-4">6.50%</td>
-                <td className="py-3 px-4 text-green-700 font-bold">$30,240</td>
+                <td className="py-3 px-4 text-blue-700 font-bold">$30,240</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4">$800,000 Jumbo</td>
-                <td className="py-3 px-4 text-green-700 font-semibold">6.375%</td>
+                <td className="py-3 px-4 text-blue-700 font-semibold">6.375%</td>
                 <td className="py-3 px-4">6.75%</td>
-                <td className="py-3 px-4 text-green-700 font-bold">$72,000</td>
+                <td className="py-3 px-4 text-blue-700 font-bold">$72,000</td>
               </tr>
               <tr>
                 <td className="py-3 px-4">$600,000 Bank Statement</td>
-                <td className="py-3 px-4 text-green-700 font-semibold">7.25%</td>
+                <td className="py-3 px-4 text-blue-700 font-semibold">7.25%</td>
                 <td className="py-3 px-4">N/A (not offered)</td>
-                <td className="py-3 px-4 text-green-700 font-bold">Program access</td>
+                <td className="py-3 px-4 text-blue-700 font-bold">Program access</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4">$450,000 FHA</td>
-                <td className="py-3 px-4 text-green-700 font-semibold">5.875%</td>
+                <td className="py-3 px-4 text-blue-700 font-semibold">5.875%</td>
                 <td className="py-3 px-4">6.125%</td>
-                <td className="py-3 px-4 text-green-700 font-bold">$27,180</td>
+                <td className="py-3 px-4 text-blue-700 font-bold">$27,180</td>
               </tr>
             </tbody>
           </table>
@@ -524,32 +524,32 @@ export default function MortgageBrokerVsBankCompletePage() {
             <tbody className="divide-y divide-gray-200">
               <tr>
                 <td className="py-3 px-4 font-semibold">Bank Statement Loans</td>
-                <td className="py-3 px-4 text-green-700">20+ lenders</td>
+                <td className="py-3 px-4 text-blue-700">20+ lenders</td>
                 <td className="py-3 px-4 text-red-600">Not offered</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 font-semibold">DSCR Investment Loans</td>
-                <td className="py-3 px-4 text-green-700">15+ lenders</td>
+                <td className="py-3 px-4 text-blue-700">15+ lenders</td>
                 <td className="py-3 px-4 text-red-600">Rarely offered</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 font-semibold">Asset Depletion</td>
-                <td className="py-3 px-4 text-green-700">12+ lenders</td>
+                <td className="py-3 px-4 text-blue-700">12+ lenders</td>
                 <td className="py-3 px-4 text-red-600">Limited or none</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 font-semibold">Jumbo Options</td>
-                <td className="py-3 px-4 text-green-700">50+ lenders</td>
+                <td className="py-3 px-4 text-blue-700">50+ lenders</td>
                 <td className="py-3 px-4">1 product</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 font-semibold">Recent Credit Events</td>
-                <td className="py-3 px-4 text-green-700">Multiple non-QM options</td>
+                <td className="py-3 px-4 text-blue-700">Multiple non-QM options</td>
                 <td className="py-3 px-4 text-red-600">Strict timelines</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 font-semibold">Foreign Nationals</td>
-                <td className="py-3 px-4 text-green-700">Several lenders</td>
+                <td className="py-3 px-4 text-blue-700">Several lenders</td>
                 <td className="py-3 px-4 text-red-600">Generally not offered</td>
               </tr>
             </tbody>
@@ -559,8 +559,8 @@ export default function MortgageBrokerVsBankCompletePage() {
         <h3 className="text-2xl font-bold text-gray-900 mb-4">When to Choose Each Option</h3>
 
         <div className="grid md:grid-cols-2 gap-6 my-6">
-          <div className="bg-green-50 p-6 rounded-xl border border-green-200">
-            <h4 className="text-xl font-bold text-green-800 mt-0 mb-3">Choose a Broker When:</h4>
+          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+            <h4 className="text-xl font-bold text-slate-900 mt-0 mb-3">Choose a Broker When:</h4>
             <ul className="space-y-2 mb-0">
               <li><strong>You want the best rate:</strong> Shopping across 200+ lenders finds optimal pricing</li>
               <li><strong>You're self-employed:</strong> Bank statement and alternative documentation options</li>
@@ -618,13 +618,13 @@ export default function MortgageBrokerVsBankCompletePage() {
                 </tr>
                 <tr>
                   <td className="py-3 px-4">2025</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">24%</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">24%</td>
                   <td className="py-3 px-4">45%</td>
                   <td className="py-3 px-4">31%</td>
                 </tr>
                 <tr className="bg-gray-100">
                   <td className="py-3 px-4">2026 (Projected)</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">26%+</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">26%+</td>
                   <td className="py-3 px-4">42%</td>
                   <td className="py-3 px-4">32%</td>
                 </tr>
@@ -651,33 +651,33 @@ export default function MortgageBrokerVsBankCompletePage() {
                 <tr>
                   <td className="py-3 px-4 font-semibold">Branch Network</td>
                   <td className="py-3 px-4">$3-5 billion</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">$0</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">$0</td>
                 </tr>
                 <tr className="bg-blue-100/50">
                   <td className="py-3 px-4 font-semibold">Advertising</td>
                   <td className="py-3 px-4">$500M-$2 billion</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">Minimal (referral-based)</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">Minimal (referral-based)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 font-semibold">Corporate Overhead</td>
                   <td className="py-3 px-4">Billions</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">Lean operations</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">Lean operations</td>
                 </tr>
                 <tr className="bg-blue-100/50">
                   <td className="py-3 px-4 font-semibold">How Recovered</td>
                   <td className="py-3 px-4">Built into mortgage rates</td>
-                  <td className="py-3 px-4 text-green-700 font-bold">Not in borrower costs</td>
+                  <td className="py-3 px-4 text-blue-700 font-bold">Not in borrower costs</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-        <div className="bg-indigo-50 p-8 rounded-2xl border border-indigo-200 mb-8">
+        <div className="bg-slate-50 p-8 rounded-2xl border border-indigo-200 mb-8">
           <h3 className="text-2xl font-bold text-indigo-900 mt-0 mb-4">Closing Time Comparison (2026 Data)</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="text-center">
-              <p className="text-5xl font-bold text-green-600 mb-2">21-30</p>
+              <p className="text-5xl font-bold text-blue-600 mb-2">21-30</p>
               <p className="text-lg font-semibold text-gray-700">Days (Broker Average)</p>
             </div>
             <div className="text-center">
@@ -685,7 +685,7 @@ export default function MortgageBrokerVsBankCompletePage() {
               <p className="text-lg font-semibold text-gray-700">Days (Bank Average)</p>
             </div>
           </div>
-          <p className="text-sm text-indigo-700 mt-4 italic text-center">
+          <p className="text-sm text-blue-700 mt-4 italic text-center">
             Brokers close faster due to direct underwriter relationships, lender selection flexibility, and leaner operations without corporate bureaucracy layers.
           </p>
         </div>

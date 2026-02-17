@@ -181,7 +181,7 @@ export default function ZipCode92602MortgageBrokerPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 822-9662">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
+                  <Button size="lg" className="bg-slate-900 hover:bg-slate-800 w-full">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
@@ -231,7 +231,7 @@ export default function ZipCode92602MortgageBrokerPage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <Hash className="w-6 h-6 mr-2" />
                     92602 Market Data 2026
@@ -350,7 +350,7 @@ export default function ZipCode92602MortgageBrokerPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-slate-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Finance Your 92602 Home?
@@ -371,7 +371,7 @@ export default function ZipCode92602MortgageBrokerPage() {
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • 92602 ZIP code specialist
             </p>
           </div>

@@ -482,7 +482,7 @@ export default function HomeEquitySanDiegoGuidePage() {
               </tr>
               <tr>
                 <td className="py-3 px-4 font-medium">Recommended</td>
-                <td className="py-3 px-4 font-bold text-green-700">Best choice: preserves rate, pays as needed</td>
+                <td className="py-3 px-4 font-bold text-blue-700">Best choice: preserves rate, pays as needed</td>
                 <td className="py-3 px-4">Good alternative if rate stability preferred</td>
                 <td className="py-3 px-4">Only if existing rate is significantly higher than current rates</td>
               </tr>
@@ -709,7 +709,7 @@ export default function HomeEquitySanDiegoGuidePage() {
         </p>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h3 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Home Equity in San Diego</h3>
           <p className="text-gray-800">
             San Diego County represents one of California&apos;s most robust home equity markets, with $420 billion in total residential equity and eight premium communities offering median values from $1.1 million to $4.5 million. The combination of biotech-driven economic growth, military housing stability, and coastal supply constraints has created exceptional equity positions for long-term homeowners across the region.
@@ -718,7 +718,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             For most San Diego homeowners, the choice between HELOC, HELOAN, and cash-out refinance depends on three factors: your current first mortgage rate, how you plan to use the funds, and whether you need flexibility or payment certainty. The majority of San Diego equity borrowers in the luxury market benefit from jumbo HELOC products that preserve favorable first mortgage rates while providing flexible access to substantial credit lines.
           </p>
           <p className="text-gray-800 mb-0">
-            Working with a wholesale mortgage broker provides San Diego homeowners with access to 200+ lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
+            Working with a wholesale mortgage broker provides San Diego homeowners with access to 200+ lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
           </p>
         </div>
 

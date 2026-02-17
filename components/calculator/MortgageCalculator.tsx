@@ -107,7 +107,7 @@ export default function MortgageCalculator() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Input Form */}
         <Card className="lg:col-span-2 shadow-lg border-slate-200">
-          <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+          <CardHeader className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-t-lg">
             <CardTitle className="flex items-center text-2xl">
               <Calculator className="w-6 h-6 mr-3" />
               Loan Details
@@ -229,11 +229,11 @@ export default function MortgageCalculator() {
                     const loanAmount = parseFloat(formData.loanAmount) || 0;
                     const ltv = homePrice > 0 ? (loanAmount / homePrice) * 100 : 0;
                     return ltv < 80 && ltv > 0 ? (
-                      <span className="ml-2 text-xs text-green-600 font-semibold">
+                      <span className="ml-2 text-xs text-blue-600 font-semibold">
                         (Auto $0 - LTV {ltv.toFixed(1)}% &lt; 80%)
                       </span>
                     ) : ltv >= 80 ? (
-                      <span className="ml-2 text-xs text-orange-600 font-semibold">
+                      <span className="ml-2 text-xs text-slate-600 font-semibold">
                         (LTV {ltv.toFixed(1)}% ≥ 80%)
                       </span>
                     ) : null;
@@ -273,7 +273,7 @@ export default function MortgageCalculator() {
         {/* Results */}
         <div className="space-y-6">
           <Card className="shadow-lg border-slate-200">
-            <CardHeader className="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-t-lg">
+            <CardHeader className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-t-lg">
               <CardTitle className="flex items-center text-xl">
                 <Home className="w-5 h-5 mr-2" />
                 Monthly Payment
@@ -312,10 +312,10 @@ export default function MortgageCalculator() {
               
               <div className="flex justify-between items-center">
                 <span className="text-slate-600">PMI:</span>
-                <span className={`font-semibold ${parseFloat(formData.pmi) === 0 ? 'text-green-600' : 'text-slate-900'}`}>
+                <span className={`font-semibold ${parseFloat(formData.pmi) === 0 ? 'text-blue-600' : 'text-slate-900'}`}>
                   ${parseFloat(formData.pmi).toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0})}
                   {parseFloat(formData.pmi) === 0 && (
-                    <span className="ml-2 text-xs text-green-600 font-normal">
+                    <span className="ml-2 text-xs text-blue-600 font-normal">
                       (LTV &lt; 80%)
                     </span>
                   )}
@@ -359,7 +359,7 @@ export default function MortgageCalculator() {
 
           <Button 
             onClick={() => router.push('/contact')}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold">
+            className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
             Get My Personalized pricing Quote
           </Button>
         </div>

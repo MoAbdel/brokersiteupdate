@@ -307,28 +307,28 @@ export default function ReverseMortgageWesternLALuxury2026() {
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Hidden Hills</td>
                   <td className="py-3 px-4 border-b">$6,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $2.8M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $2.8M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Fully gated city, equestrian estates, Long Valley Rd</td>
                   <td className="py-3 px-4 border-b">Celebrity retirees, entertainment executives, equestrian families</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Calabasas</td>
                   <td className="py-3 px-4 border-b">$1,800,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $900K+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $900K+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">The Oaks, Monte Nido, Calabasas Park, Mountain View</td>
                   <td className="py-3 px-4 border-b">Entertainment wealth, corporate executives, long-term owners</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Westlake Village</td>
                   <td className="py-3 px-4 border-b">$1,400,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $700K+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $700K+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">North Ranch, Lake Sherwood, Westlake Island</td>
                   <td className="py-3 px-4 border-b">Lake community retirees, corporate transplants, waterfront seniors</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Agoura Hills</td>
                   <td className="py-3 px-4">$1,100,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$550K (HECM) / N/A (near limit)</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$550K (HECM) / N/A (near limit)</td>
                   <td className="py-3 px-4">Morrison Ranch, Oak Park adjacent, Las Virgenes corridor</td>
                   <td className="py-3 px-4">Suburban premium families, Las Virgenes USD, mountain-adjacent</td>
                 </tr>
@@ -432,7 +432,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             Through wholesale broker access, a proprietary reverse mortgage lender experienced in trust-and-LLC-vested properties provides a $4.2 million line of credit. The producer draws $15,500/month to cover all property expenses while preserving investment portfolios for his heirs. The trust and LLC structures remain intact, maintaining estate planning benefits. His three adult children understand the reverse mortgage terms and inheritance options through a family consultation I facilitate before closing.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Hidden Hills Reverse Mortgage Expertise</h4>
             <p className="mb-0">In our Hidden Hills reverse mortgage closings, the intersection of celebrity-level property values, equestrian zoning, trust-and-LLC ownership, and the fully gated city&apos;s access requirements creates a complexity level that generic reverse mortgage providers cannot handle. I coordinate gated community appraiser access, assign equestrian-experienced valuators, and connect clients with lenders who accept complex entity structures&mdash;ensuring Hidden Hills seniors access the equity they have earned without compromising estate planning or privacy.</p>
           </div>
@@ -475,7 +475,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             A proprietary reverse mortgage based on the $5.8 million home value first pays off the existing $900,000 mortgage (eliminating monthly payments immediately) and provides a $1.6 million line of credit for supplemental income and property expenses. The net effect: $7,500/month in former mortgage payments redirected to living expenses, plus access to $1.6 million in additional equity. Her entertainment industry colleagues in The Oaks have taken similar approaches, creating a peer-validated retirement strategy within the community.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Calabasas Reverse Mortgage Specialization</h4>
             <p className="mb-0">In our Calabasas reverse mortgage closings, entertainment industry income documentation&mdash;residuals, royalties, SAG-AFTRA payments, production income&mdash;requires underwriters who understand these non-standard income streams. I work with reverse mortgage lenders experienced in entertainment industry financial profiles, ensuring Calabasas seniors qualify for optimal proceeds rather than facing denials from lenders unfamiliar with industry compensation structures.</p>
           </div>
@@ -515,7 +515,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             A 64-year-old recently retired aerospace engineer in Morrison Ranch owns a $1.4 million home with a $280,000 remaining mortgage. He wants to plan for potential long-term care needs that could arise in 10&ndash;15 years while eliminating his mortgage payment now. An FHA HECM first pays off the $280,000 existing mortgage, eliminating the $2,100/month payment. The remaining proceeds establish a growing line of credit of approximately $290,000. He draws nothing from the credit line, allowing it to grow at the loan&apos;s interest rate. After 10 years, the available credit has grown to approximately $472,000. After 15 years: approximately $603,000. This growing reserve creates a self-funding long-term care strategy secured by his home&mdash;without monthly insurance premiums or investment risk.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Agoura Hills Retirement Strategy</h4>
             <p className="mb-0">In our Agoura Hills reverse mortgage consultations, the growing line of credit strategy resonates powerfully with aerospace and engineering retirees who appreciate the mathematical certainty of annual credit growth. I model specific growth scenarios&mdash;5-year, 10-year, and 15-year projections&mdash;showing clients exactly how their untouched credit line compounds over time, creating a quantifiable long-term care funding reserve without insurance premiums or market risk.</p>
           </div>
@@ -558,7 +558,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             A proprietary reverse mortgage provides a $1.3 million line of credit based on the $2.8 million appraised value. They draw $120,000 immediately for the renovation, then establish monthly draws of $4,200 to cover property tax and HOA. The remaining $930,000+ in untapped credit serves as a long-term reserve for healthcare, additional home modifications, and unexpected expenses over the next 15+ years. Neither spouse makes a monthly mortgage payment, and the investment portfolio remains fully invested for growth.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Westlake Village Lake Community Expertise</h4>
             <p className="mb-0">In our Westlake Village reverse mortgage closings, the lake and waterfront premium requires appraisers who understand how water access, dock rights, and view orientation affect property values. I assign appraisers with documented Westlake Village experience who capture the full waterfront premium&mdash;the difference between a $2.2 million non-view appraisal and a $2.8 million lake-view appraisal directly translates to $280,000 more in accessible reverse mortgage proceeds.</p>
           </div>

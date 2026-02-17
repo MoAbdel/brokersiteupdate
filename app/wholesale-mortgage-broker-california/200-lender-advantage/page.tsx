@@ -199,25 +199,25 @@ export default function TwoHundredLenderAdvantagePage() {
               <tr>
                 <td className="px-4 py-2 border-b">Conforming 760+ credit</td>
                 <td className="px-4 py-2 border-b text-red-700">6.25%</td>
-                <td className="px-4 py-2 border-b text-green-700">6.00%</td>
+                <td className="px-4 py-2 border-b text-blue-700">6.00%</td>
                 <td className="px-4 py-2 border-b font-semibold">0.25%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Jumbo 720+ credit</td>
                 <td className="px-4 py-2 border-b text-red-700">6.625%</td>
-                <td className="px-4 py-2 border-b text-green-700">6.25%</td>
+                <td className="px-4 py-2 border-b text-blue-700">6.25%</td>
                 <td className="px-4 py-2 border-b font-semibold">0.375%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Bank Statement</td>
                 <td className="px-4 py-2 border-b text-red-700">N/A</td>
-                <td className="px-4 py-2 border-b text-green-700">7.25%</td>
+                <td className="px-4 py-2 border-b text-blue-700">7.25%</td>
                 <td className="px-4 py-2 border-b font-semibold">Available</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">DSCR Investment</td>
                 <td className="px-4 py-2 border-b text-red-700">N/A</td>
-                <td className="px-4 py-2 border-b text-green-700">7.00%</td>
+                <td className="px-4 py-2 border-b text-blue-700">7.00%</td>
                 <td className="px-4 py-2 border-b font-semibold">Available</td>
               </tr>
             </tbody>
@@ -256,42 +256,42 @@ export default function TwoHundredLenderAdvantagePage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">Conventional Conforming</td>
-                <td className="px-4 py-2 border-b text-green-700">100+</td>
+                <td className="px-4 py-2 border-b text-blue-700">100+</td>
                 <td className="px-4 py-2 border-b">Yes</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Jumbo</td>
-                <td className="px-4 py-2 border-b text-green-700">50+</td>
+                <td className="px-4 py-2 border-b text-blue-700">50+</td>
                 <td className="px-4 py-2 border-b">Limited (1 product)</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Bank Statement</td>
-                <td className="px-4 py-2 border-b text-green-700">30+</td>
+                <td className="px-4 py-2 border-b text-blue-700">30+</td>
                 <td className="px-4 py-2 border-b text-red-700">Rarely</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">DSCR Investment</td>
-                <td className="px-4 py-2 border-b text-green-700">25+</td>
+                <td className="px-4 py-2 border-b text-blue-700">25+</td>
                 <td className="px-4 py-2 border-b text-red-700">No</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Asset Depletion</td>
-                <td className="px-4 py-2 border-b text-green-700">20+</td>
+                <td className="px-4 py-2 border-b text-blue-700">20+</td>
                 <td className="px-4 py-2 border-b text-red-700">No</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Foreign National</td>
-                <td className="px-4 py-2 border-b text-green-700">15+</td>
+                <td className="px-4 py-2 border-b text-blue-700">15+</td>
                 <td className="px-4 py-2 border-b text-red-700">No</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Recent Credit Event</td>
-                <td className="px-4 py-2 border-b text-green-700">20+</td>
+                <td className="px-4 py-2 border-b text-blue-700">20+</td>
                 <td className="px-4 py-2 border-b text-red-700">No</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Interest-Only Jumbo</td>
-                <td className="px-4 py-2 border-b text-green-700">15+</td>
+                <td className="px-4 py-2 border-b text-blue-700">15+</td>
                 <td className="px-4 py-2 border-b text-red-700">Rarely</td>
               </tr>
             </tbody>
@@ -487,37 +487,37 @@ export default function TwoHundredLenderAdvantagePage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Rate Options</td>
-                <td className="px-4 py-2 border-b text-green-700">Multiple quotes, best wins</td>
+                <td className="px-4 py-2 border-b text-blue-700">Multiple quotes, best wins</td>
                 <td className="px-4 py-2 border-b text-red-700">Take it or leave it</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Programs</td>
-                <td className="px-4 py-2 border-b text-green-700">Full market access</td>
+                <td className="px-4 py-2 border-b text-blue-700">Full market access</td>
                 <td className="px-4 py-2 border-b text-red-700">Bank products only</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">If Declined</td>
-                <td className="px-4 py-2 border-b text-green-700">Try 199 other lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">Try 199 other lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">Start over elsewhere</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Speed Options</td>
-                <td className="px-4 py-2 border-b text-green-700">14-30 days available</td>
+                <td className="px-4 py-2 border-b text-blue-700">14-30 days available</td>
                 <td className="px-4 py-2 border-b text-red-700">35-45 days typical</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Jumbo Access</td>
-                <td className="px-4 py-2 border-b text-green-700">50+ jumbo lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">50+ jumbo lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">1 jumbo product</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Non-QM Access</td>
-                <td className="px-4 py-2 border-b text-green-700">50+ non-QM lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">50+ non-QM lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">Usually none</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Competition</td>
-                <td className="px-4 py-2 border-b text-green-700">Built into model</td>
+                <td className="px-4 py-2 border-b text-blue-700">Built into model</td>
                 <td className="px-4 py-2 border-b text-red-700">None</td>
               </tr>
             </tbody>

@@ -342,7 +342,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Woodinville</td>
                 <td className="border border-gray-300 px-4 py-3">$950,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$200K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$200K below</td>
                 <td className="border border-gray-300 px-4 py-3">Hollywood Hill, Wine Country, Bear Creek</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (full value captured)</td>
               </tr>
@@ -367,16 +367,16 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
                 <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Actual home value ($1M&ndash;$5M+)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Actual home value ($1M&ndash;$5M+)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">None</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">None</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Line of Credit Growth</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Yes (guaranteed annual growth)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Yes (guaranteed annual growth)</td>
                 <td className="border border-gray-300 px-4 py-3">Not typically offered</td>
               </tr>
               <tr className="bg-gray-50">
@@ -386,7 +386,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Non-Recourse Guarantee</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured (guaranteed)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured (guaranteed)</td>
                 <td className="border border-gray-300 px-4 py-3">Lender non-recourse (varies)</td>
               </tr>
               <tr className="bg-gray-50">
@@ -396,13 +396,13 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">WA State Tax on Proceeds</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Best For Premium Eastside</td>
                 <td className="border border-gray-300 px-4 py-3">Woodinville, Kirkland (near limit), growing LOC</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Sammamish, Newcastle (above limit)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Sammamish, Newcastle (above limit)</td>
               </tr>
             </tbody>
           </table>
@@ -456,8 +456,8 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Kirkland Insight:</strong> A 68-year-old retired Google engineer in Houghton owns a $1.6 million home purchased in 2005 for $620,000. Annual property taxes of $11,200 and rising maintenance costs strain the fixed retirement budget. A proprietary reverse mortgage provides $525,000 to $800,000 based on the full $1.6 million value&mdash;compared to $520,000 to $600,000 through HECM capped at $1,149,825. The additional $100,000 to $200,000 from the proprietary program covers 8 to 15 years of additional property tax payments. Washington&apos;s zero state income tax maximizes the efficiency of every dollar accessed.
           </p>
         </div>
@@ -509,8 +509,8 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Sammamish Insight:</strong> A 70-year-old retired Microsoft program manager in the Sahalee neighborhood owns a $2.8 million home on 1.5 acres with no existing mortgage. His wife, 67, wants to remain in the home near their grandchildren. Annual property taxes of $19,600 plus $15,000 in annual maintenance on the large lot create significant ongoing costs. A proprietary jumbo reverse mortgage provides $920,000 to $1.4 million, with $3,000 drawn monthly to cover property taxes and maintenance. The estate lot&apos;s acreage premium is captured by an appraiser experienced with Sammamish rural-residential valuations, maximizing proceeds.
           </p>
         </div>
@@ -557,8 +557,8 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Newcastle Insight:</strong> A 66-year-old retired Boeing executive in Olympus owns a $2.2 million home with panoramic views of Lake Washington and Mt. Rainier. The property taxes of $15,400 annually increase each year without Prop 13 protection. She is planning semi-retirement with reduced consulting income. A proprietary reverse mortgage provides $720,000 to $1.1 million based on the full $2.2 million value&mdash;compared to $520,000 to $600,000 through HECM. The view premium, properly captured by an experienced appraiser, adds an estimated $200,000 to $400,000 in accessible equity.
           </p>
         </div>
@@ -610,8 +610,8 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Woodinville Insight:</strong> A 72-year-old retired couple on a 5-acre Hollywood Hill property valued at $2.1 million wants to maintain their rural lifestyle without selling. Annual property taxes of $14,700 and $12,000 in annual property maintenance create $26,700 in fixed costs. A proprietary reverse mortgage provides $690,000 to $1.05 million based on the full value. Alternatively, their neighbor in West Woodinville with a $900,000 home uses a standard HECM with a growing line of credit&mdash;the $900,000 value falls below the HECM limit, so the FHA program captures full value with the added benefit of annual credit line growth.
           </p>
         </div>
@@ -673,10 +673,10 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">6-Year Appreciation</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+46%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+44%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+42%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+46%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+44%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+42%</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Est. Seniors 62+</td>

@@ -692,16 +692,16 @@ export default function HomeEquityInlandEmpireGuide2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in the Inland Empire</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Inland Empire&apos;s affluent western corridor &mdash; Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland &mdash; holds $18.4 billion in residential home equity across 68,000 owner-occupied homes. With median values from $700,000 in Redlands to $1,000,000 in Alta Loma, homeowners access $255,000 to $420,000+ in tappable equity per property. The Ontario Airport corridor&apos;s 12-18% faster-than-average appreciation rate continues building equity at an accelerated pace.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               LA commuter incomes paired with IE housing costs create favorable debt-to-income ratios that strengthen HELOC qualification. College-town stability in Claremont provides 40% lower price volatility during market corrections. ADU construction delivers 130-175% return on equity with $1,800-$2,800/month rental income. These factors combine to make the IE affluent corridor one of California&apos;s strongest markets for strategic equity deployment.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your specific Inland Empire property and financial profile. LA commuter income qualification, self-employed documentation solutions, and conforming-jumbo boundary expertise are standard service &mdash; not add-ons. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your specific Inland Empire property and financial profile. LA commuter income qualification, self-employed documentation solutions, and conforming-jumbo boundary expertise are standard service &mdash; not add-ons. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

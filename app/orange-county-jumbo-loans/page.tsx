@@ -125,7 +125,7 @@ export default function OrangeCountyJumboLoansPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <div className="flex justify-center mb-4">
-              <Badge className="bg-purple-100 text-purple-700 px-4 py-2 text-sm font-medium">
+              <Badge className="bg-slate-100 text-blue-700 px-4 py-2 text-sm font-medium">
                 <Crown className="w-4 h-4 mr-2" />
                 Luxury Home Financing
               </Badge>
@@ -141,11 +141,11 @@ export default function OrangeCountyJumboLoansPage() {
             {/* Quick Stats */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-slate-600">
               <div className="flex items-center">
-                <DollarSign className="w-4 h-4 mr-1 text-green-600" />
+                <DollarSign className="w-4 h-4 mr-1 text-blue-600" />
                 Loans Above $1,266,300
               </div>
               <div className="flex items-center">
-                <Crown className="w-4 h-4 mr-1 text-purple-600" />
+                <Crown className="w-4 h-4 mr-1 text-blue-600" />
                 Luxury Property Specialist
               </div>
               <div className="flex items-center">
@@ -160,17 +160,17 @@ export default function OrangeCountyJumboLoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready for Your Jumbo Loan?</h3>
-                <p className="text-purple-100">Luxury home financing specialist serving Orange County</p>
+                <p className="text-slate-200">Luxury home financing specialist serving Orange County</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+19498229662">
-                  <Button className="bg-white text-purple-600 hover:bg-purple-50">
+                  <Button className="bg-white text-slate-950 hover:bg-slate-100">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662
                   </Button>
                 </a>
                 <Link href="/contact-orange-county-mortgage-broker">
-                  <Button variant="ghost" className="border-white text-white hover:bg-white hover:text-purple-600">
+                  <Button variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                     <Calculator className="w-4 h-4 mr-2" />
                     Get Jumbo pricing Quote
                   </Button>
@@ -188,49 +188,49 @@ export default function OrangeCountyJumboLoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
-                    <Crown className="w-6 h-6 mr-3 text-purple-600" />
+                    <Crown className="w-6 h-6 mr-3 text-blue-600" />
                     Orange County Jumbo Loan Benefits
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Higher Loan Amounts</h4>
                         <p className="text-sm text-slate-600">Finance luxury homes above $1,266,300</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
                         <p className="text-sm text-slate-600">Often similar to conforming loan rates</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Flexible Down Payments</h4>
                         <p className="text-sm text-slate-600">Options from 10-20% depending on loan type</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Various Property Types</h4>
                         <p className="text-sm text-slate-600">Primary, secondary, and investment properties</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">No Mortgage Insurance</h4>
                         <p className="text-sm text-slate-600">Avoid PMI with adequate down payment</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Interest-Only Options</h4>
                         <p className="text-sm text-slate-600">Available for qualified borrowers</p>
@@ -248,10 +248,10 @@ export default function OrangeCountyJumboLoansPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="bg-purple-50 p-6 rounded-lg mb-6">
+                  <div className="bg-slate-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-purple-700 mb-2">$1,266,300+</h3>
-                      <p className="text-purple-600">Jumbo Loan Threshold in Orange County (2025)</p>
+                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,266,300+</h3>
+                      <p className="text-blue-600">Jumbo Loan Threshold in Orange County (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">Loans above this amount require jumbo financing</p>
                     </div>
                   </div>
@@ -336,7 +336,7 @@ export default function OrangeCountyJumboLoansPage() {
                     
                     <div className="border border-slate-200 rounded-lg p-4">
                       <h4 className="font-bold text-slate-900 mb-2 flex items-center">
-                        <Shield className="w-5 h-5 mr-2 text-green-600" />
+                        <Shield className="w-5 h-5 mr-2 text-blue-600" />
                         Portfolio Jumbo
                       </h4>
                       <p className="text-sm text-slate-600 mb-3">
@@ -351,7 +351,7 @@ export default function OrangeCountyJumboLoansPage() {
                     
                     <div className="border border-slate-200 rounded-lg p-4">
                       <h4 className="font-bold text-slate-900 mb-2 flex items-center">
-                        <Calculator className="w-5 h-5 mr-2 text-purple-600" />
+                        <Calculator className="w-5 h-5 mr-2 text-blue-600" />
                         Interest-Only Jumbo
                       </h4>
                       <p className="text-sm text-slate-600 mb-3">
@@ -366,7 +366,7 @@ export default function OrangeCountyJumboLoansPage() {
                     
                     <div className="border border-slate-200 rounded-lg p-4">
                       <h4 className="font-bold text-slate-900 mb-2 flex items-center">
-                        <TrendingUp className="w-5 h-5 mr-2 text-orange-600" />
+                        <TrendingUp className="w-5 h-5 mr-2 text-blue-600" />
                         ARM Jumbo
                       </h4>
                       <p className="text-sm text-slate-600 mb-3">
@@ -392,8 +392,8 @@ export default function OrangeCountyJumboLoansPage() {
                 <CardContent className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Crown className="w-8 h-8 text-purple-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Crown className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">Luxury Market Expertise</h3>
                       <p className="text-slate-600">
@@ -410,8 +410,8 @@ export default function OrangeCountyJumboLoansPage() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Clock className="w-8 h-8 text-green-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Clock className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">Personalized Service</h3>
                       <p className="text-slate-600">

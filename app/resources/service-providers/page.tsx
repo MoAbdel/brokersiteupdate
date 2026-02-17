@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   Users,
   Home,
@@ -40,7 +41,7 @@ export default function ServiceProvidersPage() {
       category: 'Real Estate Agents',
       icon: Home,
       color: 'text-blue-600',
-      bgColor: 'bg-blue-50',
+      bgColor: 'bg-slate-100',
       description: 'Licensed Orange County real estate professionals',
       providers: [
         {
@@ -78,8 +79,8 @@ export default function ServiceProvidersPage() {
     {
       category: 'Home Inspectors',
       icon: Shield,
-      color: 'text-green-600',
-      bgColor: 'bg-green-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Certified home inspection professionals',
       providers: [
         {
@@ -117,8 +118,8 @@ export default function ServiceProvidersPage() {
     {
       category: 'Contractors & Repair',
       icon: Hammer,
-      color: 'text-orange-600',
-      bgColor: 'bg-orange-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Licensed contractors for repairs and improvements',
       providers: [
         {
@@ -156,8 +157,8 @@ export default function ServiceProvidersPage() {
     {
       category: 'Insurance Providers',
       icon: Shield,
-      color: 'text-teal-600',
-      bgColor: 'bg-teal-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Homeowners and mortgage insurance providers',
       providers: [
         {
@@ -195,8 +196,8 @@ export default function ServiceProvidersPage() {
     {
       category: 'Home Services',
       icon: Wrench,
-      color: 'text-red-600',
-      bgColor: 'bg-red-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       description: 'Moving, cleaning, and home service professionals',
       providers: [
         {
@@ -237,33 +238,26 @@ export default function ServiceProvidersPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Trusted Professionals</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Orange County Service Providers Directory
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Connect with vetted, experienced professionals for your Orange County home buying journey. 
-              From real estate agents to contractors, find trusted experts who deliver quality results.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <Users className="w-5 h-5 mr-2" />
-                  Get Referrals
-                </Button>
-              </Link>
-              <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                <Phone className="w-5 h-5 mr-2" />
-                Request Introductions
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badgeText="Trusted Professionals"
+        badgeIcon={Award}
+        title="Orange County Service Providers Directory"
+        subtitle={
+          <>
+            Connect with vetted, experienced professionals for your Orange County home buying journey. From real estate agents to contractors, find trusted experts who deliver quality results.
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Get Referrals',
+          icon: Users,
+        }}
+        secondaryAction={{
+          href: 'tel:9498229662',
+          label: 'Request Introductions',
+          icon: Phone,
+        }}
+      />
 
       {/* Stats */}
       <section className="py-8 border-b">
@@ -407,19 +401,19 @@ export default function ServiceProvidersPage() {
                               <p className="text-xs font-semibold text-slate-700 mb-1">Credentials:</p>
                               <div className="space-y-1">
                                 {'license' in provider && provider.license && (
-                                  <div className="flex items-center text-xs text-green-700">
+                                  <div className="flex items-center text-xs text-blue-700">
                                     <CheckCircle className="w-3 h-3 mr-1" />
                                     {provider.license}
                                   </div>
                                 )}
                                 {'certifications' in provider && provider.certifications && provider.certifications.map((cert, idx) => (
-                                  <div key={idx} className="flex items-center text-xs text-green-700">
+                                  <div key={idx} className="flex items-center text-xs text-blue-700">
                                     <CheckCircle className="w-3 h-3 mr-1" />
                                     {cert}
                                   </div>
                                 ))}
                                 {'bonded' in provider && provider.bonded && (
-                                  <div className="flex items-center text-xs text-green-700">
+                                  <div className="flex items-center text-xs text-blue-700">
                                     <CheckCircle className="w-3 h-3 mr-1" />
                                     {provider.bonded}
                                   </div>
@@ -467,7 +461,7 @@ export default function ServiceProvidersPage() {
 
             <Card className="text-center">
               <CardContent className="p-6">
-                <Shield className="w-8 h-8 text-green-600 mx-auto mb-3" />
+                <Shield className="w-8 h-8 text-blue-600 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Licensed & Insured</h3>
                 <p className="text-sm text-slate-600">All providers are properly licensed and carry insurance</p>
               </CardContent>
@@ -483,7 +477,7 @@ export default function ServiceProvidersPage() {
 
             <Card className="text-center">
               <CardContent className="p-6">
-                <CheckCircle className="w-8 h-8 text-purple-600 mx-auto mb-3" />
+                <CheckCircle className="w-8 h-8 text-blue-600 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Personally Vetted</h3>
                 <p className="text-sm text-slate-600">I work with these professionals regularly</p>
               </CardContent>
@@ -562,7 +556,7 @@ export default function ServiceProvidersPage() {
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">National Association of Realtors</h3>
                 <p className="text-slate-600 mb-6">
                   The largest trade association in the United States, representing over 1.5 million members. 
-                  Find Realtor® code of ethics, professional standards, and member directories.
+                  Find Realtor code of ethics, professional standards, and member directories.
                 </p>
                 <a 
                   href="https://www.nar.realtor/" 
@@ -578,8 +572,8 @@ export default function ServiceProvidersPage() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Building className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Building className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">California Association of Mortgage Professionals</h3>
                 <p className="text-slate-600 mb-6">
@@ -602,7 +596,7 @@ export default function ServiceProvidersPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Need an Introduction to Any of These Professionals?

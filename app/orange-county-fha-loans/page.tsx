@@ -125,7 +125,7 @@ export default function OrangeCountyFHALoansPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <div className="flex justify-center mb-4">
-              <Badge className="bg-green-100 text-green-700 px-4 py-2 text-sm font-medium">
+              <Badge className="bg-slate-100 text-blue-700 px-4 py-2 text-sm font-medium">
                 <Home className="w-4 h-4 mr-2" />
                 FHA Approved Lender Access
               </Badge>
@@ -141,7 +141,7 @@ export default function OrangeCountyFHALoansPage() {
             {/* Quick Stats */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-slate-600">
               <div className="flex items-center">
-                <DollarSign className="w-4 h-4 mr-1 text-green-600" />
+                <DollarSign className="w-4 h-4 mr-1 text-blue-600" />
                 3.5% Minimum Down Payment
               </div>
               <div className="flex items-center">
@@ -149,7 +149,7 @@ export default function OrangeCountyFHALoansPage() {
                 Government-Backed Security
               </div>
               <div className="flex items-center">
-                <Users className="w-4 h-4 mr-1 text-purple-600" />
+                <Users className="w-4 h-4 mr-1 text-blue-600" />
                 Flexible Credit Requirements
               </div>
             </div>
@@ -160,11 +160,11 @@ export default function OrangeCountyFHALoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready to Apply for Your FHA Loan?</h3>
-                <p className="text-blue-100">Get pre-approved in Orange County today</p>
+                <p className="text-slate-200">Get pre-approved in Orange County today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+19498229662">
-                  <Button className="bg-white text-blue-600 hover:bg-blue-50">
+                  <Button className="bg-white text-slate-950 hover:bg-slate-100">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662
                   </Button>
@@ -188,49 +188,49 @@ export default function OrangeCountyFHALoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
-                    <Home className="w-6 h-6 mr-3 text-green-600" />
+                    <Home className="w-6 h-6 mr-3 text-blue-600" />
                     Orange County FHA Loan Benefits
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Low Down Payment</h4>
                         <p className="text-sm text-slate-600">As little as 3.5% down payment required</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Flexible Credit</h4>
                         <p className="text-sm text-slate-600">Credit scores as low as 580 accepted</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
                         <p className="text-sm text-slate-600">Government-backed for Lower pricing</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Gift Funds Allowed</h4>
                         <p className="text-sm text-slate-600">Down payment can be gifted from family</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Assumable Loans</h4>
                         <p className="text-sm text-slate-600">Buyers can assume your FHA loan</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Streamline Refinance</h4>
                         <p className="text-sm text-slate-600">Easy refinancing options available</p>
@@ -248,10 +248,10 @@ export default function OrangeCountyFHALoansPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="bg-green-50 p-6 rounded-lg mb-6">
+                  <div className="bg-slate-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-green-700 mb-2">$1,266,300</h3>
-                      <p className="text-green-600">Maximum FHA Loan Amount in Orange County (2025)</p>
+                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,266,300</h3>
+                      <p className="text-blue-600">Maximum FHA Loan Amount in Orange County (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">High-cost area designation allows for higher loan limits</p>
                     </div>
                   </div>
@@ -289,8 +289,8 @@ export default function OrangeCountyFHALoansPage() {
                       'Fullerton', 'Laguna Beach', 'Yorba Linda', 'Tustin',
                       'Aliso Viejo', 'Dana Point', 'Lake Forest', 'Fountain Valley'
                     ].map((city) => (
-                      <div key={city} className="text-center p-3 bg-slate-50 hover:bg-green-50 rounded-lg transition-colors">
-                        <span className="text-slate-700 hover:text-green-600 font-medium">{city}</span>
+                      <div key={city} className="text-center p-3 bg-slate-50 hover:bg-slate-50 rounded-lg transition-colors">
+                        <span className="text-slate-700 hover:text-blue-600 font-medium">{city}</span>
                       </div>
                     ))}
                   </div>
@@ -319,8 +319,8 @@ export default function OrangeCountyFHALoansPage() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Clock className="w-8 h-8 text-green-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Clock className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">Fast FHA Approvals</h3>
                       <p className="text-slate-600">
@@ -328,8 +328,8 @@ export default function OrangeCountyFHALoansPage() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <MapPin className="w-8 h-8 text-purple-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <MapPin className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">Orange County Expert</h3>
                       <p className="text-slate-600">

@@ -181,7 +181,7 @@ export default function ZipCode92614MortgageBrokerPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 822-9662">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
+                  <Button size="lg" className="bg-slate-900 hover:bg-slate-800 w-full">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -360,19 +360,19 @@ export default function ZipCode92614MortgageBrokerPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">
-                <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Star className="w-5 h-5 mr-2" />
                   Get Pre-Approved
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-green-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • 92614 ZIP code growth area specialist
             </p>
           </div>

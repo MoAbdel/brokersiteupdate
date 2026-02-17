@@ -262,35 +262,35 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">San Marino</td>
                 <td className="py-2 px-4 border-b">$3,000,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td>
                 <td className="py-2 px-4 border-b">$1,200,000 - $1,800,000</td>
                 <td className="py-2 px-4 border-b">Old Mill, Lacy Park, Huntington Dr</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">La Ca&ntilde;ada Flintridge</td>
                 <td className="py-2 px-4 border-b">$2,200,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td>
                 <td className="py-2 px-4 border-b">$880,000 - $1,320,000</td>
                 <td className="py-2 px-4 border-b">Descanso Gardens area, Flintridge</td>
               </tr>
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">South Pasadena</td>
                 <td className="py-2 px-4 border-b">$1,800,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td>
                 <td className="py-2 px-4 border-b">$720,000 - $1,080,000</td>
                 <td className="py-2 px-4 border-b">Marengo Ave, Mission District</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Arcadia</td>
                 <td className="py-2 px-4 border-b">$1,800,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td>
                 <td className="py-2 px-4 border-b">$720,000 - $1,080,000</td>
                 <td className="py-2 px-4 border-b">Upper Rancho, Arcadia Highlands</td>
               </tr>
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">Sierra Madre</td>
                 <td className="py-2 px-4 border-b">$1,400,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary Jumbo</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td>
                 <td className="py-2 px-4 border-b">$560,000 - $840,000</td>
                 <td className="py-2 px-4 border-b">Canyon, Downtown, Mt. Wilson Trail</td>
               </tr>
@@ -353,7 +353,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
               <tr><td className="py-2 px-4 border-b font-medium">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Yes (most programs)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Property Types</td><td className="py-2 px-4 border-b">SFR, FHA-approved condo, 2-4 units</td><td className="py-2 px-4 border-b">SFR, condo, some townhomes</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Credit Score</td><td className="py-2 px-4 border-b">No minimum (financial assessment)</td><td className="py-2 px-4 border-b">Typically 620+</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Best SGV Fit</td><td className="py-2 px-4 text-blue-700">Montrose, La Crescenta, some Pasadena/Glendale</td><td className="py-2 px-4 text-green-700 font-semibold">San Marino, La Ca&ntilde;ada, South Pasadena, Arcadia, Sierra Madre</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Best SGV Fit</td><td className="py-2 px-4 text-blue-700">Montrose, La Crescenta, some Pasadena/Glendale</td><td className="py-2 px-4 text-blue-700 font-semibold">San Marino, La Ca&ntilde;ada, South Pasadena, Arcadia, Sierra Madre</td></tr>
             </tbody>
           </table>
         </div>
@@ -677,7 +677,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Reverse Mortgages in the San Gabriel Valley [2026]</h2>
           <p className="text-gray-800">
             The San Gabriel Valley represents one of Southern California&apos;s strongest markets for reverse mortgage equity access. With nine cities ranging from $1 million median values in La Crescenta to $3 million in San Marino, SGV seniors hold an extraordinary volume of untapped home equity. The region&apos;s concentration of retired Caltech, JPL, and healthcare professionals creates a demographic perfectly suited to reverse mortgage products: high equity, fixed retirement incomes, and deep community ties that make aging in place the preferred choice.
@@ -686,20 +686,20 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
             For homes valued above $1,149,825, proprietary reverse mortgage programs unlock equity far beyond what the standard HECM provides. For homes at or near the HECM limit, the FHA-insured product delivers government-backed protections including line of credit growth and guaranteed non-recourse terms. In either case, working with a wholesale broker who compares programs from multiple lenders ensures SGV seniors access the most competitive terms available in 2026.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in the San Gabriel Valley and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
+            If you own a home in the San Gabriel Valley and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free San Gabriel Valley Reverse Mortgage Consultation</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             Serving San Marino, La Ca&ntilde;ada Flintridge, Pasadena, Arcadia, South Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

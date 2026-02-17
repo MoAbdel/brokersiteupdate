@@ -661,7 +661,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
         </p>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h3 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Reverse Mortgages in San Diego</h3>
           <p className="text-gray-800">
             San Diego County offers one of the strongest reverse mortgage markets in California. With median home values ranging from $1.1 million in Poway to $4.5 million in Rancho Santa Fe, seniors 62 and older have access to substantial equity through both HECM and proprietary programs. The region&apos;s economic diversity&mdash;anchored by biotech, military, and tourism&mdash;supports stable property values that protect reverse mortgage borrowers over time.
@@ -670,7 +670,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             For most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,149,825 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
           </p>
           <p className="text-gray-800 mb-0">
-            HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> to discuss your San Diego reverse mortgage options.
+            HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your San Diego reverse mortgage options.
           </p>
         </div>
 

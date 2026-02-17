@@ -125,7 +125,7 @@ export default function HELOCvsCashOutGuide() {
                 <li>Two payments: first mortgage + HELOC</li>
               </ul>
             </div>
-            <div className="bg-purple-50 p-6 rounded-lg">
+            <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="font-bold text-purple-800 mb-3">Cash-Out Refinance Structure</h3>
               <ul className="space-y-2 text-purple-900">
                 <li>Replaces existing first mortgage</li>
@@ -212,7 +212,7 @@ export default function HELOCvsCashOutGuide() {
             <li><strong>You need maximum equity access:</strong> Cash-out refinances sometimes allow higher LTV than HELOCs</li>
           </ul>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-purple-800 mb-3">Cash-Out Refinance Example Scenario:</h3>
             <p className="text-purple-900">You have a $300,000 mortgage at 7.5% on a home worth $600,000. Current rates are lower. A cash-out refinance could lower your rate, give you $150,000 cash, and simplify to one monthly payment.</p>
           </div>

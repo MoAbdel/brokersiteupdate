@@ -215,7 +215,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
                 Expert mortgage services for families prioritizing education. Specialized financing for homes within California's #1 rated large school district boundaries.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -262,7 +262,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
               </div>
               
               <Card className="shadow-xl">
-                <CardHeader className="bg-blue-600 text-white">
+                <CardHeader className="bg-slate-900 text-white">
                   <CardTitle className="flex items-center">
                     <GraduationCap className="w-6 h-6 mr-2" />
                     IUSD Excellence Data 2024
@@ -312,7 +312,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
                   <CardContent>
                     <div className="space-y-2">
                       <p className="text-slate-600 text-sm">{school.achievement}</p>
-                      <p className="text-green-700 font-semibold text-sm">{school.highlight}</p>
+                      <p className="text-blue-700 font-semibold text-sm">{school.highlight}</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -362,7 +362,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
               {affordabilityOptions.map((option) => (
                 <Card key={option.option} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-green-600">{option.option}</CardTitle>
+                    <CardTitle className="text-blue-600">{option.option}</CardTitle>
                     <p className="text-xl font-bold text-slate-900">{option.priceRange}</p>
                   </CardHeader>
                   <CardContent>
@@ -373,7 +373,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Family Benefit:</span>
-                        <p className="text-green-700 font-medium">{option.benefit}</p>
+                        <p className="text-blue-700 font-medium">{option.benefit}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -423,7 +423,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
                 IUSD Home Search
               </Button>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • IUSD boundary specialist
             </p>
           </div>

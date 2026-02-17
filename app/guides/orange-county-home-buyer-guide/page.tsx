@@ -195,7 +195,7 @@ export default function OrangeCountyHomeBuyerGuide() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <Breadcrumbs />
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white py-20">
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -205,7 +205,7 @@ export default function OrangeCountyHomeBuyerGuide() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Orange County Home Buyer Guide 2026
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed">
               Your complete guide to buying a home in Orange County. From mortgage pre-approval to closing, 
               navigate the process with confidence using expert insights from local mortgage broker Mo Abdel.
             </p>
@@ -240,8 +240,8 @@ export default function OrangeCountyHomeBuyerGuide() {
             </Card>
             <Card className="text-center shadow-lg border-0">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-6 h-6 text-green-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <DollarSign className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">3.5%</h3>
                 <p className="text-slate-600">Min Down Payment</p>
@@ -249,8 +249,8 @@ export default function OrangeCountyHomeBuyerGuide() {
             </Card>
             <Card className="text-center shadow-lg border-0">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-6 h-6 text-purple-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">45 Days</h3>
                 <p className="text-slate-600">Avg. Closing Time</p>
@@ -258,8 +258,8 @@ export default function OrangeCountyHomeBuyerGuide() {
             </Card>
             <Card className="text-center shadow-lg border-0">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-6 h-6 text-orange-600" />
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-6 h-6 text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900">200+</h3>
                 <p className="text-slate-600">Lender Options</p>
@@ -319,7 +319,7 @@ export default function OrangeCountyHomeBuyerGuide() {
                 <CardContent className="p-6">
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="text-xl font-semibold text-slate-900">{loan.name}</h3>
-                    <Badge className="bg-green-100 text-green-800">{loan.downPayment} down</Badge>
+                    <Badge className="bg-slate-100 text-slate-900">{loan.downPayment} down</Badge>
                   </div>
                   <p className="text-slate-600 mb-4">{loan.description}</p>
                   <div className="flex justify-between items-center">
@@ -355,7 +355,7 @@ export default function OrangeCountyHomeBuyerGuide() {
                     <h3 className="text-lg font-semibold text-slate-900">{neighborhood.name}</h3>
                     <MapPin className="w-5 h-5 text-blue-600" />
                   </div>
-                  <p className="text-2xl font-bold text-green-600 mb-2">{neighborhood.medianPrice}</p>
+                  <p className="text-2xl font-bold text-blue-600 mb-2">{neighborhood.medianPrice}</p>
                   <p className="text-slate-600 mb-4">{neighborhood.highlight}</p>
                   <Link href={neighborhood.link}>
                     <Button variant="outline" className="w-full">
@@ -449,7 +449,7 @@ export default function OrangeCountyHomeBuyerGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <FileText className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <FileText className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Neighborhood Comparisons</h3>
                 <p className="text-slate-600 mb-4">Compare Orange County cities and neighborhoods</p>
                 <Link href="/neighborhood-guide">
@@ -460,7 +460,7 @@ export default function OrangeCountyHomeBuyerGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <Users className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+                <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">California Housing Finance</h3>
                 <p className="text-slate-600 mb-4">First-time buyer programs and assistance</p>
                 <a href="https://www.calhfa.ca.gov/" target="_blank" rel="noopener noreferrer">
@@ -482,7 +482,7 @@ export default function OrangeCountyHomeBuyerGuide() {
 
             <Card className="shadow-lg border-0">
               <CardContent className="p-6 text-center">
-                <Home className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <Home className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">HUD Housing Counseling</h3>
                 <p className="text-slate-600 mb-4">Find certified housing counselors near you</p>
                 <a href="https://www.hud.gov/findacounselor" target="_blank" rel="noopener noreferrer">
@@ -500,7 +500,7 @@ export default function OrangeCountyHomeBuyerGuide() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Start Your Orange County Home Buying Journey?
           </h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-slate-200">
             Get pre-approved today and start shopping with confidence. Access Competitive pricing from 200+ lenders 
             with personalized service from experienced Orange County mortgage broker Mo Abdel.
           </p>

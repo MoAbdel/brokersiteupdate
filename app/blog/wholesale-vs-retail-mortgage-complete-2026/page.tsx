@@ -261,14 +261,14 @@ export default function WholesaleVsRetailMortgageCompletePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Built into the process</td><td className="py-2 px-4 border-b">Not available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Pricing Model</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Wholesale/Institutional</td><td className="py-2 px-4 border-b">Retail + Margin</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Overhead Costs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Minimal</td><td className="py-2 px-4 border-b">Significant</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive options</td><td className="py-2 px-4 border-b">Limited</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Access</td><td className="py-2 px-4 border-b text-green-700 font-semibold">100+ lenders</td><td className="py-2 px-4 border-b">Rarely available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">If Denied</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Try another lender immediately</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Relationship</td><td className="py-2 px-4 text-green-700 font-semibold">Personal, direct access</td><td className="py-2 px-4">Corporate, transactional</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into the process</td><td className="py-2 px-4 border-b">Not available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Pricing Model</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Wholesale/Institutional</td><td className="py-2 px-4 border-b">Retail + Margin</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Overhead Costs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Minimal</td><td className="py-2 px-4 border-b">Significant</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive options</td><td className="py-2 px-4 border-b">Limited</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Access</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">100+ lenders</td><td className="py-2 px-4 border-b">Rarely available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">If Denied</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender immediately</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Relationship</td><td className="py-2 px-4 text-blue-700 font-semibold">Personal, direct access</td><td className="py-2 px-4">Corporate, transactional</td></tr>
             </tbody>
           </table>
         </div>
@@ -300,11 +300,11 @@ export default function WholesaleVsRetailMortgageCompletePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Branch Network</td><td className="py-2 px-4 border-b">Thousands of locations</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None</td></tr>
-              <tr><td className="py-2 px-4 border-b">National Advertising</td><td className="py-2 px-4 border-b">Hundreds of millions annually</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Referral-based</td></tr>
-              <tr><td className="py-2 px-4 border-b">Corporate Structure</td><td className="py-2 px-4 border-b">Large executive teams</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Lean operations</td></tr>
-              <tr><td className="py-2 px-4 border-b">ATM Infrastructure</td><td className="py-2 px-4 border-b">Network maintenance</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None</td></tr>
-              <tr><td className="py-2 px-4">Impact on Pricing</td><td className="py-2 px-4">Built into your rate</td><td className="py-2 px-4 text-green-700 font-semibold">Not included</td></tr>
+              <tr><td className="py-2 px-4 border-b">Branch Network</td><td className="py-2 px-4 border-b">Thousands of locations</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None</td></tr>
+              <tr><td className="py-2 px-4 border-b">National Advertising</td><td className="py-2 px-4 border-b">Hundreds of millions annually</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Referral-based</td></tr>
+              <tr><td className="py-2 px-4 border-b">Corporate Structure</td><td className="py-2 px-4 border-b">Large executive teams</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Lean operations</td></tr>
+              <tr><td className="py-2 px-4 border-b">ATM Infrastructure</td><td className="py-2 px-4 border-b">Network maintenance</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None</td></tr>
+              <tr><td className="py-2 px-4">Impact on Pricing</td><td className="py-2 px-4">Built into your rate</td><td className="py-2 px-4 text-blue-700 font-semibold">Not included</td></tr>
             </tbody>
           </table>
         </div>
@@ -438,18 +438,18 @@ export default function WholesaleVsRetailMortgageCompletePage() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full">
             <thead>
-              <tr className="bg-green-100">
+              <tr className="bg-slate-100">
                 <th className="py-3 px-4 text-left">Cost Element</th>
                 <th className="py-3 px-4 text-left">Impact on Wholesale</th>
                 <th className="py-3 px-4 text-left">Impact on Retail</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Physical Infrastructure</td><td className="py-2 px-4 border-b text-green-700">Home office or small office</td><td className="py-2 px-4 border-b text-red-700">Nationwide branch network</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Marketing Spend</td><td className="py-2 px-4 border-b text-green-700">Referral and local marketing</td><td className="py-2 px-4 border-b text-red-700">National TV, digital, sponsorships</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Staff Overhead</td><td className="py-2 px-4 border-b text-green-700">Loan-focused team</td><td className="py-2 px-4 border-b text-red-700">Tellers, managers, support staff</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Technology Costs</td><td className="py-2 px-4 border-b text-green-700">Lender-provided platforms</td><td className="py-2 px-4 border-b text-red-700">Proprietary systems development</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Executive Compensation</td><td className="py-2 px-4 text-green-700">Owner-operator model</td><td className="py-2 px-4 text-red-700">Large executive teams</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Physical Infrastructure</td><td className="py-2 px-4 border-b text-blue-700">Home office or small office</td><td className="py-2 px-4 border-b text-red-700">Nationwide branch network</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Marketing Spend</td><td className="py-2 px-4 border-b text-blue-700">Referral and local marketing</td><td className="py-2 px-4 border-b text-red-700">National TV, digital, sponsorships</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Staff Overhead</td><td className="py-2 px-4 border-b text-blue-700">Loan-focused team</td><td className="py-2 px-4 border-b text-red-700">Tellers, managers, support staff</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Technology Costs</td><td className="py-2 px-4 border-b text-blue-700">Lender-provided platforms</td><td className="py-2 px-4 border-b text-red-700">Proprietary systems development</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Executive Compensation</td><td className="py-2 px-4 text-blue-700">Owner-operator model</td><td className="py-2 px-4 text-red-700">Large executive teams</td></tr>
             </tbody>
           </table>
         </div>
@@ -465,14 +465,14 @@ export default function WholesaleVsRetailMortgageCompletePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Conventional</td><td className="py-2 px-4 border-b text-green-700">200+ lenders</td><td className="py-2 px-4 border-b">1 lender</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">FHA</td><td className="py-2 px-4 border-b text-green-700">150+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA</td><td className="py-2 px-4 border-b text-green-700">100+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo</td><td className="py-2 px-4 border-b text-green-700">50+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b text-green-700">50+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b text-green-700">40+ lenders</td><td className="py-2 px-4 border-b text-red-700">Not available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b text-green-700">30+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Non-QM (Various)</td><td className="py-2 px-4 text-green-700">100+ lenders</td><td className="py-2 px-4 text-red-700">Not available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Conventional</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td><td className="py-2 px-4 border-b">1 lender</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">FHA</td><td className="py-2 px-4 border-b text-blue-700">150+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA</td><td className="py-2 px-4 border-b text-blue-700">100+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo</td><td className="py-2 px-4 border-b text-blue-700">50+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b text-blue-700">50+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b text-blue-700">40+ lenders</td><td className="py-2 px-4 border-b text-red-700">Not available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b text-blue-700">30+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Non-QM (Various)</td><td className="py-2 px-4 text-blue-700">100+ lenders</td><td className="py-2 px-4 text-red-700">Not available</td></tr>
             </tbody>
           </table>
         </div>
@@ -604,13 +604,13 @@ export default function WholesaleVsRetailMortgageCompletePage() {
           </p>
         </div>
 
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-6 my-8">
           <h3 className="mt-0">Ready to Access Wholesale Mortgage Pricing?</h3>
           <p>
             Experience the 200+ lender advantage. Whether you're purchasing, refinancing, or exploring investment property financing, wholesale access gives you options retail banks simply cannot match.
           </p>
           <p className="mb-0">
-            <a href="/contact" className="font-semibold text-green-700">Contact Mo Abdel today</a> for a personalized comparison of your mortgage options. No obligation, full transparency.
+            <a href="/contact" className="font-semibold text-blue-700">Contact Mo Abdel today</a> for a personalized comparison of your mortgage options. No obligation, full transparency.
           </p>
         </div>
 

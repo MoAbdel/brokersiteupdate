@@ -262,14 +262,14 @@ export default function BankStatementLoansWholesaleCompletePage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="py-3 px-4 border-b font-semibold">Credit Score</td><td className="py-3 px-4 border-b">660-720 typical</td><td className="py-3 px-4 border-b text-green-700">Programs available 620+</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Down Payment</td><td className="py-3 px-4 border-b">15-20% standard</td><td className="py-3 px-4 border-b text-green-700">10% down options available</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Statement Period</td><td className="py-3 px-4 border-b">24 months common</td><td className="py-3 px-4 border-b text-green-700">12-month programs available</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Self-Employment</td><td className="py-3 px-4 border-b">2 years minimum</td><td className="py-3 px-4 border-b text-green-700">1 year with same industry</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Debt-to-Income</td><td className="py-3 px-4 border-b">43-50% max</td><td className="py-3 px-4 border-b text-green-700">Up to 55% with some lenders</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Reserves</td><td className="py-3 px-4 border-b">6-12 months PITI</td><td className="py-3 px-4 border-b text-green-700">As low as 3 months available</td></tr>
-                <tr><td className="py-3 px-4 border-b font-semibold">Loan Amount</td><td className="py-3 px-4 border-b">$100K - $2M</td><td className="py-3 px-4 border-b text-green-700">Up to $3M+ through specialists</td></tr>
-                <tr><td className="py-3 px-4 font-semibold">Property Types</td><td className="py-3 px-4">Primary, Second Home</td><td className="py-3 px-4 text-green-700">Investment property options</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Credit Score</td><td className="py-3 px-4 border-b">660-720 typical</td><td className="py-3 px-4 border-b text-blue-700">Programs available 620+</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Down Payment</td><td className="py-3 px-4 border-b">15-20% standard</td><td className="py-3 px-4 border-b text-blue-700">10% down options available</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Statement Period</td><td className="py-3 px-4 border-b">24 months common</td><td className="py-3 px-4 border-b text-blue-700">12-month programs available</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Self-Employment</td><td className="py-3 px-4 border-b">2 years minimum</td><td className="py-3 px-4 border-b text-blue-700">1 year with same industry</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Debt-to-Income</td><td className="py-3 px-4 border-b">43-50% max</td><td className="py-3 px-4 border-b text-blue-700">Up to 55% with some lenders</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Reserves</td><td className="py-3 px-4 border-b">6-12 months PITI</td><td className="py-3 px-4 border-b text-blue-700">As low as 3 months available</td></tr>
+                <tr><td className="py-3 px-4 border-b font-semibold">Loan Amount</td><td className="py-3 px-4 border-b">$100K - $2M</td><td className="py-3 px-4 border-b text-blue-700">Up to $3M+ through specialists</td></tr>
+                <tr><td className="py-3 px-4 font-semibold">Property Types</td><td className="py-3 px-4">Primary, Second Home</td><td className="py-3 px-4 text-blue-700">Investment property options</td></tr>
               </tbody>
             </table>
           </div>
@@ -356,8 +356,8 @@ export default function BankStatementLoansWholesaleCompletePage() {
           <h3>Ideal Candidates</h3>
 
           <div className="grid md:grid-cols-2 gap-6 my-6">
-            <div className="bg-green-50 p-5 rounded-xl">
-              <h4 className="mt-0 text-green-800">Strong Candidates</h4>
+            <div className="bg-slate-50 p-5 rounded-xl">
+              <h4 className="mt-0 text-slate-900">Strong Candidates</h4>
               <ul className="mb-0 text-green-900">
                 <li>Business owners with 2+ years operation</li>
                 <li>Consistent monthly deposit patterns</li>
@@ -512,8 +512,8 @@ export default function BankStatementLoansWholesaleCompletePage() {
             With a bank, denial means starting over. With a wholesale broker:
           </p>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-6 my-6">
-            <h4 className="mt-0 text-green-800">Wholesale Broker Response to Common Denials</h4>
+          <div className="bg-slate-50 border-l-4 border-green-500 p-6 my-6">
+            <h4 className="mt-0 text-slate-900">Wholesale Broker Response to Common Denials</h4>
             <ul className="mb-0">
               <li><strong>Denied for expense factor?</strong> Submit to lender using different calculation</li>
               <li><strong>Denied for credit score?</strong> Submit to lender with lower minimum</li>
@@ -535,13 +535,13 @@ export default function BankStatementLoansWholesaleCompletePage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement Lenders</td><td className="py-2 px-4 border-b">0-1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">30+</td></tr>
-                <tr><td className="py-2 px-4 border-b font-semibold">Expense Factor Options</td><td className="py-2 px-4 border-b">Fixed (usually 50%)</td><td className="py-2 px-4 border-b text-green-700 font-semibold">25-50% depending on lender</td></tr>
-                <tr><td className="py-2 px-4 border-b font-semibold">Credit Score Minimum</td><td className="py-2 px-4 border-b">Usually 680-700</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Programs from 620+</td></tr>
-                <tr><td className="py-2 px-4 border-b font-semibold">12-Month Programs</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple options</td></tr>
-                <tr><td className="py-2 px-4 border-b font-semibold">Maximum Loan Amount</td><td className="py-2 px-4 border-b">$1-1.5M typical</td><td className="py-2 px-4 border-b text-green-700 font-semibold">$3M+ through specialists</td></tr>
-                <tr><td className="py-2 px-4 border-b font-semibold">After Denial</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Submit to another lender</td></tr>
-                <tr><td className="py-2 px-4 font-semibold">Rate Shopping</td><td className="py-2 px-4">Not possible</td><td className="py-2 px-4 text-green-700 font-semibold">Built into process</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement Lenders</td><td className="py-2 px-4 border-b">0-1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">Expense Factor Options</td><td className="py-2 px-4 border-b">Fixed (usually 50%)</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">25-50% depending on lender</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">Credit Score Minimum</td><td className="py-2 px-4 border-b">Usually 680-700</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Programs from 620+</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">12-Month Programs</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple options</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">Maximum Loan Amount</td><td className="py-2 px-4 border-b">$1-1.5M typical</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$3M+ through specialists</td></tr>
+                <tr><td className="py-2 px-4 border-b font-semibold">After Denial</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Submit to another lender</td></tr>
+                <tr><td className="py-2 px-4 font-semibold">Rate Shopping</td><td className="py-2 px-4">Not possible</td><td className="py-2 px-4 text-blue-700 font-semibold">Built into process</td></tr>
               </tbody>
             </table>
           </div>
@@ -783,12 +783,12 @@ export default function BankStatementLoansWholesaleCompletePage() {
         <section className="my-12">
           <h2>Ready to Explore Bank Statement Loan Options?</h2>
 
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-xl">
+          <div className="bg-slate-900 text-white p-8 rounded-xl">
             <h3 className="text-white mt-0 text-2xl">The Wholesale Advantage for Self-Employed Borrowers</h3>
-            <p className="text-blue-100 text-lg mb-6">
+            <p className="text-slate-200 text-lg mb-6">
               Bank statement loans solve the fundamental challenge facing self-employed borrowers: qualifying based on actual earning capacity rather than tax return income. The difference between approval and denial often comes down to finding the right lender - and that's where wholesale broker access changes everything.
             </p>
-            <p className="text-blue-100 mb-6">
+            <p className="text-slate-200 mb-6">
               With access to <strong className="text-white">30+ bank statement lenders</strong>, each using different expense factors, credit requirements, and calculation methods, wholesale brokers find solutions when banks say no. Whether you need a 12-month program, a flexible expense factor, or jumbo loan amounts to $3M+, the wholesale channel provides options retail banks simply don't offer.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -800,7 +800,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
               </a>
               <a
                 href="tel:+19498229662"
-                className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors text-center"
+                className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors text-center"
               >
                 Call (949) 822-9662
               </a>

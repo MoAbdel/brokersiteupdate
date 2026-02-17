@@ -210,12 +210,12 @@ export default function NonQMLoansWholesalePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Lenders</td><td className="py-2 px-4 border-b">0-1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">100+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Program Types</td><td className="py-2 px-4 border-b">Very limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Full spectrum</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-green-700 font-semibold">40+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Foreign National</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-green-700 font-semibold">20+ lenders</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Expertise</td><td className="py-2 px-4">General</td><td className="py-2 px-4 text-green-700 font-semibold">Specialist</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Lenders</td><td className="py-2 px-4 border-b">0-1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">100+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Program Types</td><td className="py-2 px-4 border-b">Very limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Full spectrum</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">40+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Foreign National</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">20+ lenders</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Expertise</td><td className="py-2 px-4">General</td><td className="py-2 px-4 text-blue-700 font-semibold">Specialist</td></tr>
             </tbody>
           </table>
         </div>

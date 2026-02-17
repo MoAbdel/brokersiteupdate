@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
+import { TrendingUp, Shield, Home, CheckCircle, AlertCircle, DollarSign, Trophy, Zap, ClipboardList } from 'lucide-react';
 import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
 import AISummary from '@/components/seo/AISummary';
 import SemanticTable from '@/components/seo/SemanticTable';
@@ -38,31 +38,11 @@ export default function ConventionalLoansPage() {
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <AISummary
-          pageType="loan-program"
-          triples={[
-            {
-              subject: 'Conventional loans',
-              predicate: 'require as little as',
-              object: '3% down payment for primary residences with PMI removable at 80% LTV',
-            },
-            {
-              subject: 'The 2026 conforming loan limit in Orange County',
-              predicate: 'is',
-              object: '$1,266,300 for single-family homes (set by FHFA)',
-            },
-            {
-              subject: 'Wholesale broker rates for conventional loans',
-              predicate: 'are typically',
-              object: '0.125-0.25% lower than retail bank rates for borrowers with 740+ credit scores',
-            },
-          ]}
-        />
-
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            🏆 Most Popular Loan Program
+            <Trophy className="w-4 h-4 mr-2 text-blue-700" aria-hidden="true" />
+            <span>Most Popular Loan Program</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             <span className="text-blue-600">Conventional Loans</span> in Orange County
@@ -74,7 +54,7 @@ export default function ConventionalLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Pre-Approved Today
               </Button>
             </Link>
@@ -96,22 +76,22 @@ export default function ConventionalLoansPage() {
             <p className="text-slate-600">Low down payment options for qualified buyers</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <TrendingUp className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Competitive pricing</h3>
             <p className="text-slate-600">Often the lowest rates available in the market</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Home className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Home className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Any Property Type</h3>
             <p className="text-slate-600">Primary, second homes, investment properties, condos</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">PMI Removable</h3>
             <p className="text-slate-600">Cancel PMI when you reach 20% equity</p>
@@ -144,7 +124,7 @@ export default function ConventionalLoansPage() {
                   </div>
                   <div className="flex justify-between border-t pt-2">
                     <span className="text-slate-600">Above Conforming:</span>
-                    <span className="font-bold text-purple-600">Jumbo Loan Required</span>
+                    <span className="font-bold text-blue-600">Jumbo Loan Required</span>
                   </div>
                 </div>
                 <p className="text-xs text-slate-500 mt-4">*2025 conforming loan limits set by FHFA. Above these amounts require jumbo financing.</p>
@@ -161,7 +141,10 @@ export default function ConventionalLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏆 Best pricing Available</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Trophy className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Best pricing Available</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Conventional loans typically offer the lowest loan pricing, especially for buyers with good credit scores (740+).</p>
                 <p className="text-sm font-semibold text-blue-600">Often 0.125-0.25% lower than government loans</p>
               </CardContent>
@@ -169,7 +152,10 @@ export default function ConventionalLoansPage() {
 
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🛡️ PMI Can Be Removed</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>PMI Can Be Removed</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Unlike FHA loans, PMI automatically cancels at 78% LTV or you can request removal at 80% LTV through appreciation or payments.</p>
                 <p className="text-sm font-semibold text-blue-600">Save hundreds monthly long-term</p>
               </CardContent>
@@ -177,7 +163,10 @@ export default function ConventionalLoansPage() {
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 Any Property Type</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Any Property Type</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Primary residences, second homes, investment properties, condos, co-ops, and manufactured homes on permanent foundations.</p>
                 <p className="text-sm font-semibold text-blue-600">Maximum flexibility</p>
               </CardContent>
@@ -185,7 +174,10 @@ export default function ConventionalLoansPage() {
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Higher Loan Amounts</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <DollarSign className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Higher Loan Amounts</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Conforming loans up to $1,266,300 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
                 <p className="text-sm font-semibold text-blue-600">Perfect for Orange County prices</p>
               </CardContent>
@@ -193,7 +185,10 @@ export default function ConventionalLoansPage() {
 
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">⚡ Faster Processing</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Zap className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Faster Processing</span>
+                </h3>
                 <p className="text-slate-600 mb-3">No government approvals needed. Automated underwriting systems provide faster decisions and closings.</p>
                 <p className="text-sm font-semibold text-blue-600">Often close in 2-3 weeks</p>
               </CardContent>
@@ -201,7 +196,10 @@ export default function ConventionalLoansPage() {
 
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">📈 Cash-Out Friendly</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <TrendingUp className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Cash-Out Friendly</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Higher cash-out refinance limits (up to 80% LTV) and more flexible uses of proceeds than government programs.</p>
                 <p className="text-sm font-semibold text-blue-600">Access more equity</p>
               </CardContent>
@@ -213,26 +211,26 @@ export default function ConventionalLoansPage() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Conventional Loan Down Payment Options</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-green-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-green-600">3%</span>
+            <div className="bg-slate-50 p-6 rounded-xl text-center">
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">3%</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">3% Down Program</h3>
               <div className="text-left space-y-2 text-sm">
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>First-time buyers only</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>Primary residence only</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>Income limits may apply</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>PMI required until 20% equity</span>
                 </div>
               </div>
@@ -263,26 +261,26 @@ export default function ConventionalLoansPage() {
               </div>
             </div>
 
-            <div className="bg-purple-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-purple-600">20%</span>
+            <div className="bg-slate-50 p-6 rounded-xl text-center">
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">20%</span>
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">20%+ No PMI</h3>
               <div className="text-left space-y-2 text-sm">
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>No mortgage insurance</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>Best loan pricing</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>Any property type</span>
                 </div>
                 <div className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-purple-600 mr-2" />
+                  <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
                   <span>Investment properties OK</span>
                 </div>
               </div>
@@ -295,38 +293,41 @@ export default function ConventionalLoansPage() {
           <h2 className="text-3xl font-bold text-center mb-8">Conventional Loan Requirements</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">✅ Qualifying Standards</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Qualifying Standards</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 620+ (740+ for best pricing)</p>
                     <p className="text-slate-600 text-sm">Higher scores unlock premium pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Debt-to-Income: 50%</p>
                     <p className="text-slate-600 text-sm">Higher ratios possible with compensating factors</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Employment: 2+ years stable history</p>
                     <p className="text-slate-600 text-sm">Same field/industry preferred</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Cash Reserves: 2+ months recommended</p>
                     <p className="text-slate-600 text-sm">More required for investment properties</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Down Payment Source: Must be documented</p>
                     <p className="text-slate-600 text-sm">Gift funds acceptable with proper documentation</p>
@@ -336,7 +337,10 @@ export default function ConventionalLoansPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">📋 Additional Considerations</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <ClipboardList className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Additional Considerations</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
@@ -397,7 +401,7 @@ export default function ConventionalLoansPage() {
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Down Payment</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">3-20%</td>
                   <td className="px-6 py-4 text-center text-slate-600">3.5%</td>
-                  <td className="px-6 py-4 text-center text-green-600">$0</td>
+                  <td className="px-6 py-4 text-center text-blue-600">$0</td>
                   <td className="px-6 py-4 text-center text-slate-600">10-20%</td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -411,15 +415,15 @@ export default function ConventionalLoansPage() {
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
                   <td className="px-6 py-4 text-center text-slate-600">$1,149,825</td>
-                  <td className="px-6 py-4 text-center text-green-600">No limit</td>
-                  <td className="px-6 py-4 text-center text-green-600">No limit</td>
+                  <td className="px-6 py-4 text-center text-blue-600">No limit</td>
+                  <td className="px-6 py-4 text-center text-blue-600">No limit</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Mortgage Insurance</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">PMI - Removable</td>
-                  <td className="px-6 py-4 text-center text-orange-600">MIP - Long Term</td>
-                  <td className="px-6 py-4 text-center text-green-600">None</td>
-                  <td className="px-6 py-4 text-center text-green-600">None</td>
+                  <td className="px-6 py-4 text-center text-blue-600">MIP - Long Term</td>
+                  <td className="px-6 py-4 text-center text-blue-600">None</td>
+                  <td className="px-6 py-4 text-center text-blue-600">None</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Property Types</td>
@@ -431,9 +435,9 @@ export default function ConventionalLoansPage() {
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Credit Score</td>
                   <td className="px-6 py-4 text-center text-slate-600">620+</td>
-                  <td className="px-6 py-4 text-center text-green-600">580+</td>
-                  <td className="px-6 py-4 text-center text-green-600">580+</td>
-                  <td className="px-6 py-4 text-center text-orange-600">700+</td>
+                  <td className="px-6 py-4 text-center text-blue-600">580+</td>
+                  <td className="px-6 py-4 text-center text-blue-600">580+</td>
+                  <td className="px-6 py-4 text-center text-blue-600">700+</td>
                 </tr>
               </tbody>
             </table>
@@ -461,8 +465,8 @@ export default function ConventionalLoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <TrendingUp className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <TrendingUp className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Investment Property Friendly</h3>
@@ -474,8 +478,8 @@ export default function ConventionalLoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Shield className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Shield className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Condo Approval Flexibility</h3>
@@ -501,7 +505,7 @@ export default function ConventionalLoansPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Typical Down Payment:</span>
-                  <span className="font-bold text-green-600">10-20%</span>
+                  <span className="font-bold text-blue-600">10-20%</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Investment Property Usage:</span>
@@ -546,26 +550,26 @@ export default function ConventionalLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready for the Most Popular Loan Program?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved with competitive conventional loan pricing and flexible terms
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start My Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
@@ -588,6 +592,27 @@ export default function ConventionalLoansPage() {
             </p>
           </div>
         </div>
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'Conventional loans',
+              predicate: 'require as little as',
+              object: '3% down payment for primary residences with PMI removable at 80% LTV',
+            },
+            {
+              subject: 'The 2026 conforming loan limit in Orange County',
+              predicate: 'is',
+              object: '$1,266,300 for single-family homes (set by FHFA)',
+            },
+            {
+              subject: 'Wholesale broker rates for conventional loans',
+              predicate: 'are typically',
+              object: '0.125-0.25% lower than retail bank rates for borrowers with 740+ credit scores',
+            },
+          ]}
+        />
       </div>
     </div>
   );

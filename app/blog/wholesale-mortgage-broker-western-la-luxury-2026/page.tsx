@@ -417,7 +417,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             Through wholesale channels, the broker identifies three super jumbo lenders experienced with entertainment industry income. The winning lender accepts royalty income averaging, counts production company K-1 distributions, and allows trust vesting with a standard trust review. The 10-year interest-only structure reduces monthly payments significantly, preserving cash flow for active investment in new music projects. No bank branch in Calabasas could replicate this solution.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Hidden Hills Expertise</h4>
             <p className="mb-0">Hidden Hills transactions demand absolute discretion combined with deep super jumbo lending expertise. My experience structuring $5M+ loans for entertainment industry clients&mdash;navigating entity ownership, royalty income documentation, and privacy requirements&mdash;translates directly to outcomes that protect both the borrower&apos;s financial interests and their personal privacy. Understanding which lenders handle celebrity transactions with appropriate confidentiality is knowledge built through direct experience.</p>
           </div>
@@ -461,7 +461,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             Using tax returns, a bank qualifies her for approximately $2.4 million in financing&mdash;insufficient for the $3.04 million mortgage she needs (80% LTV). Through wholesale bank statement lending, her business account deposits averaging $180,000/month over 24 months create qualifying income of $1,080,000 annually (with 50% expense factor), comfortably supporting the $3.04 million jumbo mortgage. The broker also identifies a lender comfortable with LLC entity ownership, allowing the property to remain in her management company&apos;s name for liability protection.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Calabasas Entertainment Lending</h4>
             <p className="mb-0">Calabasas&apos;s entertainment-driven economy produces borrowers with income profiles that confuse traditional underwriters. My experience documenting and structuring loans around royalty income, production company revenue, brand deals, and social media monetization ensures Calabasas borrowers receive financing calibrated to the entertainment industry&apos;s unique compensation patterns rather than being forced into rigid W-2 qualification frameworks.</p>
           </div>
@@ -505,7 +505,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             Combined tax-return income of approximately $445,000 (wife&apos;s 1099 income minus SE tax deductions + husband&apos;s $95K) would qualify for a conforming loan, but the $1.2 million mortgage needed (80% LTV) pushes into jumbo territory. Through wholesale channels, the broker accesses a jumbo lender who counts the wife&apos;s 3-year WGA income history without requiring a single employer, and uses the husband&apos;s bank statement deposits of $15,000/month to supplement his tax return income. The combined qualifying income secures a 30-year fixed jumbo mortgage at a competitive rate. The family moves in time for the school year.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Agoura Hills Family Financing</h4>
             <p className="mb-0">Agoura Hills buyers are often navigating the conforming-to-jumbo threshold while managing entertainment industry income complexity. My experience optimizing loan structure around this pricing inflection point&mdash;determining whether higher down payment to stay conforming or embracing jumbo at competitive wholesale rates delivers better total cost&mdash;ensures Agoura Hills families get financing advice calibrated to their specific purchase price and income profile.</p>
           </div>
@@ -549,7 +549,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             Through wholesale channels, the broker accesses a jumbo lender that counts all four income sources at face value, accepts trust vesting without property transfer, and uses an appraiser experienced with North Ranch lakefront properties. The appraiser values the waterfront premium at $600,000 above comparable non-lakefront homes&mdash;an assessment that a general-purpose appraiser would likely miss, reducing the property valuation and increasing the effective LTV. The trust-friendly jumbo mortgage closes in 26 days with competitive fixed-rate pricing.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Westlake Village Lake Community Expertise</h4>
             <p className="mb-0">Westlake Village and North Ranch financing success depends on appraisers who understand waterfront premium valuation and lenders comfortable with lake-community HOA structures. My experience with lakefront and golf-community properties across Southern California ensures Westlake Village buyers receive accurate property valuations and competitive financing from lenders calibrated to this market.</p>
           </div>

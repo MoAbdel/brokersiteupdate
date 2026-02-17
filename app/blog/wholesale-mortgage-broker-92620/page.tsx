@@ -218,11 +218,11 @@ export default function WholesaleMortgageBroker92620Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Yes - Built In</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ Lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Closing Speed</td><td className="py-2 px-4 border-b">30-45 days typical</td><td className="py-2 px-4 border-b text-green-700 font-semibold">21-30 days available</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-green-700 font-semibold">Try another lender same day</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - Built In</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Closing Speed</td><td className="py-2 px-4 border-b">30-45 days typical</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">21-30 days available</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
           </table>
         </div>

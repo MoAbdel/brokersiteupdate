@@ -308,35 +308,35 @@ export default function HomeEquityVenturaCountyGuide2026() {
                 <td className="py-2 px-4 border-b">$165,000</td>
                 <td className="py-2 px-4 border-b">Entertainment, Finance, Healthcare</td>
                 <td className="py-2 px-4 border-b">11.8%</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Strong</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Strong</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Oak Park</td>
                 <td className="py-2 px-4 border-b">$155,000</td>
                 <td className="py-2 px-4 border-b">Biotech, Tech, Professional Services</td>
                 <td className="py-2 px-4 border-b">12.9%</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Strong</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Strong</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Thousand Oaks</td>
                 <td className="py-2 px-4 border-b">$140,000</td>
                 <td className="py-2 px-4 border-b">Biotech (Amgen), Healthcare, Education</td>
                 <td className="py-2 px-4 border-b">12.7%</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Strong</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Strong</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Camarillo</td>
                 <td className="py-2 px-4 border-b">$120,000</td>
                 <td className="py-2 px-4 border-b">Defense, Agriculture Tech, Healthcare</td>
                 <td className="py-2 px-4 border-b">12.0%</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Strong</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Strong</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Moorpark</td>
                 <td className="py-2 px-4 border-b">$130,000</td>
                 <td className="py-2 px-4 border-b">Tech, Education, Small Business</td>
                 <td className="py-2 px-4 border-b">14.4%</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Very Strong</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Very Strong</td>
               </tr>
             </tbody>
           </table>
@@ -411,8 +411,8 @@ export default function HomeEquityVenturaCountyGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Preserves 1st Mortgage Rate</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes</td>
                 <td className="py-2 px-4 border-b text-red-600 font-semibold">No (replaces it)</td>
               </tr>
             </tbody>
@@ -466,30 +466,30 @@ export default function HomeEquityVenturaCountyGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">760+</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b font-semibold">Best rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">720-759</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Competitive rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">700-719</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Most lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Full access</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full access</td>
                 <td className="py-2 px-4 border-b">Standard rates</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">680-699</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Select lenders</td>
-                <td className="py-2 px-4 border-b text-green-600">Most lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">Most lenders</td>
                 <td className="py-2 px-4 border-b">Higher rates</td>
               </tr>
               <tr>
@@ -651,7 +651,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Home Equity in Ventura County</h2>
           <p>
             Ventura County homeowners in the Conejo Valley and biotech corridor hold exceptional equity positions, with the average long-term homeowner sitting on $550,000 to $1.2 million or more in accessible equity. The combination of LA-competitive incomes and moderately priced (by Southern California standards) suburban housing creates ideal conditions for equity access at the most favorable terms available.
@@ -663,7 +663,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             For homeowners preserving a low existing mortgage rate, a HELOC or HELOAN as a second lien is typically the better choice. For those with above-market rates or seeking to simplify their finances, cash-out refinance consolidates everything into a single, optimized payment. The jumbo nature of most Conejo Valley equity products makes lender comparison essential &mdash; rate and term differences on a $600,000 HELOC total thousands of dollars annually.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 

@@ -462,7 +462,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">El Dorado Hills Reverse Mortgage Insight</h4>
             <p className="mb-0">El Dorado Hills&apos; Bay Area transplant population creates a distinct reverse mortgage dynamic. These homeowners downsized from expensive coastal markets, often purchasing their El Dorado Hills home with substantial down payments or in cash. Many arrived with significant retirement savings from Bay Area tech, healthcare, or professional services careers. A reverse mortgage adds a second layer of retirement security&mdash;a growing line of credit that supplements investment income and provides a tax-free buffer against market downturns. The Serrano community&apos;s HOA-maintained amenities support property values that protect both the borrower&apos;s equity position and the FHA insurance fund.</p>
           </div>
@@ -498,7 +498,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Granite Bay Reverse Mortgage Insight</h4>
             <p className="mb-0">Granite Bay&apos;s equestrian properties present unique but fully manageable reverse mortgage considerations. Homes with barns, riding arenas, and multi-acre lots qualify for both HECM and proprietary reverse mortgages. The key is obtaining an appraisal from a qualified appraiser experienced with equestrian and estate properties, who can properly value agricultural improvements and acreage premiums. For Los Lagos waterfront estates valued at $2 million to $4 million, proprietary reverse mortgage programs provide access to $800,000 to $1.5 million in proceeds&mdash;significantly more than the HECM cap allows.</p>
           </div>
@@ -534,7 +534,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Folsom Reverse Mortgage Insight</h4>
             <p className="mb-0">Folsom&apos;s Intel retirees represent a strong reverse mortgage profile: stable pension or 401(k) income, fully paid or nearly paid mortgages, and deep roots in a community they chose for both career and lifestyle reasons. The HECM financial assessment views Intel pension and retirement distributions favorably, as these are consistent, documented income sources. A 72-year-old Folsom homeowner with a paid-off $760,000 home can access approximately $370,000 in HECM proceeds through a line of credit, lump sum, or monthly tenure payments of $1,950 per month for life.</p>
           </div>
@@ -570,7 +570,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Roseville Reverse Mortgage Insight</h4>
             <p className="mb-0">Sun City Roseville is one of the Sacramento region&apos;s most natural reverse mortgage communities. The 55+ age restriction ensures that every homeowner is either at or approaching HECM eligibility age. The community&apos;s HOA-maintained common areas, golf courses, and activity centers keep property values stable and homes well-maintained&mdash;both factors that support strong appraisals. Sun City homeowners who purchased during the community&apos;s original development phase in the late 1990s for $200,000 to $350,000 now hold $300,000 to $450,000 in equity that a reverse mortgage converts into monthly income or a growing line of credit.</p>
           </div>
@@ -606,7 +606,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Davis Reverse Mortgage Insight</h4>
             <p className="mb-0">UC Davis faculty and researchers represent one of the strongest reverse mortgage profiles in the Sacramento region. Tenured professors typically retire with UC Retirement Plan (UCRP) pensions that provide stable, predictable income&mdash;exactly what the HECM financial assessment evaluates favorably. Davis&apos;s bike-friendly infrastructure supports aging in place by providing transportation alternatives as driving becomes less practical. A retired professor in Old North Davis with a $900,000 home and a UCRP pension can access approximately $440,000 in HECM proceeds while maintaining the Prop 13 assessment that keeps property taxes at $3,500 instead of the $9,000+ that current market value would produce.</p>
           </div>

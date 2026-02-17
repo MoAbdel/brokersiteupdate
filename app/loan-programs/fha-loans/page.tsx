@@ -7,7 +7,7 @@ import TopicClusterLinks from '@/components/seo/TopicClusterLinks';
 import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
 import AISummary from '@/components/seo/AISummary';
 import SemanticTable from '@/components/seo/SemanticTable';
-import { Home, Shield, Users, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
+import { BarChart3, CheckCircle, DollarSign, Gift, Home, Landmark, RefreshCw, Shield, ShieldCheck, Users, AlertCircle, AlertTriangle, PiggyBank } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County [2026 Limits, 3.5% Down & Wholesale MIP Savings]',
@@ -40,31 +40,11 @@ export default function FHALoansPage() {
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <AISummary
-          pageType="loan-program"
-          triples={[
-            {
-              subject: 'FHA loans',
-              predicate: 'require only',
-              object: '3.5% down payment with a 580+ credit score (10% down for 500-579)',
-            },
-            {
-              subject: 'The 2026 FHA loan limit in Orange County',
-              predicate: 'is',
-              object: '$1,266,300 for single-family homes, matching the conforming limit',
-            },
-            {
-              subject: 'FHA mortgage insurance premium (MIP)',
-              predicate: 'includes',
-              object: '1.75% upfront fee plus 0.55% annual premium for loans over 95% LTV',
-            },
-          ]}
-        />
-
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            🏠 Government-Backed Loan Program
+            <ShieldCheck className="w-4 h-4 mr-2 text-blue-700" aria-hidden="true" />
+            <span>Government-Backed Loan Program</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             <span className="text-blue-600">FHA Loans</span> in Orange County
@@ -76,7 +56,7 @@ export default function FHALoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Pre-Approved for FHA Loan
               </Button>
             </Link>
@@ -98,22 +78,22 @@ export default function FHALoansPage() {
             <p className="text-slate-600">Minimum down payment - lower than most conventional loans</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Credit Score 500+</h3>
             <p className="text-slate-600">Flexible credit requirements for Orange County buyers</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Gift Funds OK</h3>
             <p className="text-slate-600">Down payment can come from family gifts</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Home className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Home className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Government Backed</h3>
             <p className="text-slate-600">FHA insurance protects lenders, benefiting buyers</p>
@@ -159,7 +139,10 @@ export default function FHALoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏦 Lower Down Payment Requirements</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Landmark className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Lower Down Payment Requirements</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Just 3.5% down vs 5-20% for conventional loans. On a $650K Orange County home, that's $22,750 vs $32,500-$130,000.</p>
                 <p className="text-sm font-semibold text-blue-600">Save thousands upfront</p>
               </CardContent>
@@ -167,7 +150,10 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">📊 Flexible Credit Standards</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <BarChart3 className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Flexible Credit Standards</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Credit scores as low as 580 with 3.5% down, or 500-579 with 10% down. More forgiving of past credit issues.</p>
                 <p className="text-sm font-semibold text-blue-600">Second chances for homeownership</p>
               </CardContent>
@@ -175,7 +161,10 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🎁 Gift Funds Allowed</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Gift className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Gift Funds Allowed</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Entire down payment can come from family gifts, grants, or employer programs. No seasoning requirements.</p>
                 <p className="text-sm font-semibold text-blue-600">Family can help with homeownership</p>
               </CardContent>
@@ -183,7 +172,10 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Competitive Interest pricing</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <PiggyBank className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Competitive Interest pricing</span>
+                </h3>
                 <p className="text-slate-600 mb-3">FHA pricing is often similar to or better than conventional loan pricing, especially for buyers with lower credit scores.</p>
                 <p className="text-sm font-semibold text-blue-600">Government backing = Better pricing</p>
               </CardContent>
@@ -191,7 +183,10 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🔄 FHA Streamline Refinance</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <RefreshCw className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>FHA Streamline Refinance</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Future refinancing can be faster and easier with reduced documentation and no appraisal in many cases.</p>
                 <p className="text-sm font-semibold text-blue-600">Easier future refinancing</p>
               </CardContent>
@@ -199,7 +194,10 @@ export default function FHALoansPage() {
 
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 Property Flexibility</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Property Flexibility</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Can be used for 1-4 unit properties, condos, manufactured homes, and even some fixer-uppers with FHA 203(k) loans.</p>
                 <p className="text-sm font-semibold text-blue-600">Various property types allowed</p>
               </CardContent>
@@ -212,34 +210,37 @@ export default function FHALoansPage() {
           <h2 className="text-3xl font-bold text-center mb-8">FHA Loan Requirements for Orange County</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">✅ Qualifying Requirements</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Qualifying Requirements</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 500+ (580+ for 3.5% down, 500-579 for 10% down)</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Debt-to-Income: 50% in some cases</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Employment: 2+ years stable employment</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Primary Residence: Must be your main home</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">No Recent Bankruptcy: 2+ years since Chapter 7, 1+ year Chapter 13</p>
                   </div>
@@ -248,7 +249,10 @@ export default function FHALoansPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">⚠️ Important Considerations</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <AlertTriangle className="w-6 h-6 text-orange-500" aria-hidden="true" />
+                <span>Important Considerations</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
@@ -308,8 +312,8 @@ export default function FHALoansPage() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Mortgage Insurance</td>
-                  <td className="px-6 py-4 text-center text-orange-600">MIP - Long Term</td>
-                  <td className="px-6 py-4 text-center text-green-600">PMI - Removable at 20%</td>
+                  <td className="px-6 py-4 text-center text-blue-600">MIP - Long Term</td>
+                  <td className="px-6 py-4 text-center text-blue-600">PMI - Removable at 20%</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Debt-to-Income Ratio</td>
@@ -319,12 +323,12 @@ export default function FHALoansPage() {
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Gift Funds</td>
                   <td className="px-6 py-4 text-center text-blue-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
-                  <td className="px-6 py-4 text-center text-green-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
+                  <td className="px-6 py-4 text-center text-blue-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
                   <td className="px-6 py-4 text-center text-slate-600">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">$766,550+</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$766,550+</td>
                 </tr>
               </tbody>
             </table>
@@ -351,8 +355,8 @@ export default function FHALoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Users className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Users className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Perfect for First-Time Buyers</h3>
@@ -364,8 +368,8 @@ export default function FHALoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Shield className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Shield className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Competitive in All Markets</h3>
@@ -391,7 +395,7 @@ export default function FHALoansPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Typical Down Payment Saved:</span>
-                  <span className="font-bold text-green-600">$10K-30K</span>
+                  <span className="font-bold text-blue-600">$10K-30K</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">First-Time Buyer Usage:</span>
@@ -432,26 +436,26 @@ export default function FHALoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Buy Your Orange County Home with FHA?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved with just 3.5% down and flexible credit requirements
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start My FHA Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>
@@ -479,6 +483,27 @@ export default function FHALoansPage() {
         <TopicClusterLinks
           currentPage="/loan-programs/fha-loans"
           clusterType="loan-programs"
+        />
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'FHA loans',
+              predicate: 'require only',
+              object: '3.5% down payment with a 580+ credit score (10% down for 500-579)',
+            },
+            {
+              subject: 'The 2026 FHA loan limit in Orange County',
+              predicate: 'is',
+              object: '$1,266,300 for single-family homes, matching the conforming limit',
+            },
+            {
+              subject: 'FHA mortgage insurance premium (MIP)',
+              predicate: 'includes',
+              object: '1.75% upfront fee plus 0.55% annual premium for loans over 95% LTV',
+            },
+          ]}
         />
       </div>
     </div>

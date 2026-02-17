@@ -523,7 +523,7 @@ export default function ReverseMortgageLAWestsideBeach() {
             The appraisal process in Beach Cities requires special attention. Sand section homes in Manhattan Beach and Hermosa Beach can show $1 million or more in value difference within a single block based on ocean view, walk-street location, or lot width. I work with appraisers who understand these micro-market dynamics and can properly value properties that might otherwise be underappraised by generalist firms. For a detailed city-by-city breakdown including specific neighborhood analysis, payout estimates, and qualification pathways, see the <a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-600 hover:text-blue-800">Manhattan Beach reverse mortgage guide</a> and related Beach Cities hub posts.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <h4 className="font-bold mb-2">Beach Cities Hub Highlights</h4>
             <ul className="space-y-1 mb-0">
               <li><strong>Manhattan Beach:</strong> $3.4M median - jumbo reverse mortgage territory, sand section vs. hill section strategies</li>
@@ -552,7 +552,7 @@ export default function ReverseMortgageLAWestsideBeach() {
             The Westside hub also benefits from the broader Silicon Beach economic ecosystem. Companies like Google, Facebook (Meta), Snap, and numerous startups have established offices in Playa Vista, driving employment and housing demand throughout the surrounding communities. While these tech workers are typically too young for reverse mortgages themselves, their demand for housing pushes property values higher for senior homeowners who benefit from increased equity. For comprehensive Westside city coverage, explore the dedicated hub posts covering Culver City, Playa del Rey, Marina del Rey, and Westchester reverse mortgage options.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <h4 className="font-bold mb-2">Westside Hub Highlights</h4>
             <ul className="space-y-1 mb-0">
               <li><strong>Culver City:</strong> $1.3M median - entertainment industry retirees, rapid appreciation near studios</li>

@@ -63,8 +63,8 @@ export default function HomeEquityForRenovationsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold text-green-700">HELOC/HELOAN</td><td className="py-2 px-4 border-b text-green-700">6-10%*</td><td className="py-2 px-4 border-b text-green-700">Yes, for home improvements</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold text-green-700">Cash-Out Refinance</td><td className="py-2 px-4 border-b text-green-700">6-8%*</td><td className="py-2 px-4 border-b text-green-700">Yes, for home improvements</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold text-blue-700">HELOC/HELOAN</td><td className="py-2 px-4 border-b text-blue-700">6-10%*</td><td className="py-2 px-4 border-b text-blue-700">Yes, for home improvements</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold text-blue-700">Cash-Out Refinance</td><td className="py-2 px-4 border-b text-blue-700">6-8%*</td><td className="py-2 px-4 border-b text-blue-700">Yes, for home improvements</td></tr>
               <tr><td className="py-2 px-4 border-b">Personal Loan</td><td className="py-2 px-4 border-b">10-20%*</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4">Credit Cards</td><td className="py-2 px-4">18-28%*</td><td className="py-2 px-4">No</td></tr>
             </tbody>
@@ -142,18 +142,18 @@ export default function HomeEquityForRenovationsPage() {
         <div className="overflow-x-auto my-6">
           <table className="min-w-full">
             <thead>
-              <tr className="bg-green-100">
+              <tr className="bg-slate-100">
                 <th className="py-3 px-4 text-left">Project</th>
                 <th className="py-3 px-4 text-left">Typical Cost</th>
                 <th className="py-3 px-4 text-left">Typical ROI</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Garage door replacement</td><td className="py-2 px-4 border-b">$4,000-$8,000</td><td className="py-2 px-4 border-b font-semibold text-green-700">90-100%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Minor kitchen remodel</td><td className="py-2 px-4 border-b">$25,000-$40,000</td><td className="py-2 px-4 border-b font-semibold text-green-700">70-80%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Siding replacement</td><td className="py-2 px-4 border-b">$15,000-$25,000</td><td className="py-2 px-4 border-b font-semibold text-green-700">70-80%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Window replacement</td><td className="py-2 px-4 border-b">$15,000-$30,000</td><td className="py-2 px-4 border-b font-semibold text-green-700">65-75%</td></tr>
-              <tr><td className="py-2 px-4">Bathroom remodel</td><td className="py-2 px-4">$20,000-$40,000</td><td className="py-2 px-4 font-semibold text-green-700">60-70%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Garage door replacement</td><td className="py-2 px-4 border-b">$4,000-$8,000</td><td className="py-2 px-4 border-b font-semibold text-blue-700">90-100%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Minor kitchen remodel</td><td className="py-2 px-4 border-b">$25,000-$40,000</td><td className="py-2 px-4 border-b font-semibold text-blue-700">70-80%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Siding replacement</td><td className="py-2 px-4 border-b">$15,000-$25,000</td><td className="py-2 px-4 border-b font-semibold text-blue-700">70-80%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Window replacement</td><td className="py-2 px-4 border-b">$15,000-$30,000</td><td className="py-2 px-4 border-b font-semibold text-blue-700">65-75%</td></tr>
+              <tr><td className="py-2 px-4">Bathroom remodel</td><td className="py-2 px-4">$20,000-$40,000</td><td className="py-2 px-4 font-semibold text-blue-700">60-70%</td></tr>
             </tbody>
           </table>
         </div>

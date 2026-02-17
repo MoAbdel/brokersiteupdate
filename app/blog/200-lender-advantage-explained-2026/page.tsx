@@ -125,8 +125,8 @@ export default function TwoHundredLenderAdvantagePage() {
           <li><strong>Market-driven pricing:</strong> Competition benefits borrowers</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-xl my-6">
-          <h4 className="mt-0 text-green-800">How Rate Shopping Works</h4>
+        <div className="bg-slate-50 p-6 rounded-xl my-6">
+          <h4 className="mt-0 text-slate-900">How Rate Shopping Works</h4>
           <p className="text-green-900 mb-0">
             Your broker reviews rate sheets from multiple lenders for your specific scenario (credit score, loan amount, property type, etc.). Each lender prices differently—Lender A might be best for a 750 credit score while Lender B beats everyone on 680 scores. The broker identifies who's most competitive for <em>your</em> situation.
           </p>
@@ -153,10 +153,10 @@ export default function TwoHundredLenderAdvantagePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Lender denies for DTI</td><td className="py-2 px-4 border-b text-red-600">Start over at new institution</td><td className="py-2 px-4 border-b text-green-700">Try lender with higher DTI limit</td></tr>
-              <tr><td className="py-2 px-4 border-b">Self-employed income</td><td className="py-2 px-4 border-b text-red-600">Tax return income only</td><td className="py-2 px-4 border-b text-green-700">Bank statement lenders available</td></tr>
-              <tr><td className="py-2 px-4 border-b">Recent credit event</td><td className="py-2 px-4 border-b text-red-600">Waiting period required</td><td className="py-2 px-4 border-b text-green-700">Non-QM lenders with shorter waits</td></tr>
-              <tr><td className="py-2 px-4">Unique property type</td><td className="py-2 px-4 text-red-600">May not qualify</td><td className="py-2 px-4 text-green-700">Find lender who accepts it</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender denies for DTI</td><td className="py-2 px-4 border-b text-red-600">Start over at new institution</td><td className="py-2 px-4 border-b text-blue-700">Try lender with higher DTI limit</td></tr>
+              <tr><td className="py-2 px-4 border-b">Self-employed income</td><td className="py-2 px-4 border-b text-red-600">Tax return income only</td><td className="py-2 px-4 border-b text-blue-700">Bank statement lenders available</td></tr>
+              <tr><td className="py-2 px-4 border-b">Recent credit event</td><td className="py-2 px-4 border-b text-red-600">Waiting period required</td><td className="py-2 px-4 border-b text-blue-700">Non-QM lenders with shorter waits</td></tr>
+              <tr><td className="py-2 px-4">Unique property type</td><td className="py-2 px-4 text-red-600">May not qualify</td><td className="py-2 px-4 text-blue-700">Find lender who accepts it</td></tr>
             </tbody>
           </table>
         </div>
@@ -250,12 +250,12 @@ export default function TwoHundredLenderAdvantagePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate shopping</td><td className="py-2 px-4 border-b">Not possible</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Built into process</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Denial recovery</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Try another lender same day</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Specialty programs</td><td className="py-2 px-4 border-b">Limited to bank's offerings</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Access to all specialty lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Guideline flexibility</td><td className="py-2 px-4">One set of rules</td><td className="py-2 px-4 text-green-700 font-semibold">200+ sets of rules</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate shopping</td><td className="py-2 px-4 border-b">Not possible</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into process</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Denial recovery</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender same day</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Specialty programs</td><td className="py-2 px-4 border-b">Limited to bank's offerings</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Access to all specialty lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Guideline flexibility</td><td className="py-2 px-4">One set of rules</td><td className="py-2 px-4 text-blue-700 font-semibold">200+ sets of rules</td></tr>
             </tbody>
           </table>
         </div>

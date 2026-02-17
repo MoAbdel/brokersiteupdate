@@ -145,7 +145,7 @@ export default function YorbaLindaMortgageGuide2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
               <span className="text-green-400 text-sm font-medium">Yorba Linda Mortgage Broker</span>
             </div>
 
@@ -164,7 +164,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Yorba Linda Rate Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -197,15 +197,15 @@ export default function YorbaLindaMortgageGuide2026() {
             <h3 className="font-semibold text-slate-900 mb-4">Yorba Linda Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1.3M</p>
+                <p className="text-3xl font-bold text-blue-600">$1.3M</p>
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1,209,750</p>
+                <p className="text-3xl font-bold text-blue-600">$1,209,750</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">68,000</p>
+                <p className="text-3xl font-bold text-blue-600">68,000</p>
                 <p className="text-sm text-slate-600">Population</p>
               </div>
             </div>
@@ -237,22 +237,22 @@ export default function YorbaLindaMortgageGuide2026() {
                 <tr>
                   <td className="p-4 text-slate-600">Black Gold</td>
                   <td className="p-4 text-slate-600">$1.5M - $3M+</td>
-                  <td className="p-4"><span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
+                  <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">Yorba Linda Estates</td>
                   <td className="p-4 text-slate-600">$1.3M - $2.5M</td>
-                  <td className="p-4"><span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
+                  <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">Horse Country</td>
                   <td className="p-4 text-slate-600">$1.4M - $2M+</td>
-                  <td className="p-4"><span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
+                  <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm">Jumbo Required</span></td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">Travis Ranch</td>
                   <td className="p-4 text-slate-600">$900K - $1.4M</td>
-                  <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm">Conforming/Jumbo</span></td>
+                  <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm">Conforming/Jumbo</span></td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">Vista Del Verde</td>
@@ -273,11 +273,11 @@ export default function YorbaLindaMortgageGuide2026() {
             The &quot;Land of Gracious Living&quot; reputation starts with education. Yorba Linda is served primarily by the <strong>Placentia-Yorba Linda Unified School District (PYLUSD)</strong>, which consistently ranks in the top 15% of California school districts. This educational excellence directly impacts home values, appraisals, and the type of financing buyers need.
           </p>
 
-          <div className="bg-amber-50 rounded-xl p-6 mb-6 border border-amber-200">
+          <div className="bg-slate-50 rounded-xl p-6 mb-6 border border-amber-200">
             <h3 className="font-semibold text-slate-900 mb-4">Yorba Linda School District Premium Analysis 2026</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse bg-white rounded-lg overflow-hidden">
-                <thead className="bg-amber-100">
+                <thead className="bg-slate-100">
                   <tr>
                     <th className="text-left p-4 font-semibold text-slate-900">School / Area</th>
                     <th className="text-left p-4 font-semibold text-slate-900">Rating</th>
@@ -288,32 +288,32 @@ export default function YorbaLindaMortgageGuide2026() {
                 <tbody className="divide-y divide-amber-100">
                   <tr>
                     <td className="p-4 text-slate-600">Travis Ranch Elementary</td>
-                    <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">9/10</span></td>
+                    <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm font-semibold">9/10</span></td>
                     <td className="p-4 text-slate-600">$1.15M - $1.5M</td>
-                    <td className="p-4 text-green-700 font-semibold">+15%</td>
+                    <td className="p-4 text-blue-700 font-semibold">+15%</td>
                   </tr>
                   <tr>
                     <td className="p-4 text-slate-600">Yorba Linda Middle School</td>
-                    <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">8/10</span></td>
+                    <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm font-semibold">8/10</span></td>
                     <td className="p-4 text-slate-600">$1.2M - $1.8M</td>
-                    <td className="p-4 text-green-700 font-semibold">+12%</td>
+                    <td className="p-4 text-blue-700 font-semibold">+12%</td>
                   </tr>
                   <tr>
                     <td className="p-4 text-slate-600">Esperanza High School</td>
-                    <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">8/10</span></td>
+                    <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm font-semibold">8/10</span></td>
                     <td className="p-4 text-slate-600">$1.3M - $2.2M</td>
-                    <td className="p-4 text-green-700 font-semibold">+18%</td>
+                    <td className="p-4 text-blue-700 font-semibold">+18%</td>
                   </tr>
                   <tr>
                     <td className="p-4 text-slate-600">Yorba Linda High School</td>
-                    <td className="p-4"><span className="bg-green-100 text-green-700 px-2 py-1 rounded text-sm font-semibold">7/10</span></td>
+                    <td className="p-4"><span className="bg-slate-100 text-blue-700 px-2 py-1 rounded text-sm font-semibold">7/10</span></td>
                     <td className="p-4 text-slate-600">$1.0M - $1.6M</td>
-                    <td className="p-4 text-green-700 font-semibold">+10%</td>
+                    <td className="p-4 text-blue-700 font-semibold">+10%</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <p className="text-xs text-amber-700 mt-3 mb-0">Source: GreatSchools.org ratings, MLS data Q1 2026. Price premium compared to similar-sized homes in adjacent non-PYLUSD areas.</p>
+            <p className="text-xs text-blue-700 mt-3 mb-0">Source: GreatSchools.org ratings, MLS data Q1 2026. Price premium compared to similar-sized homes in adjacent non-PYLUSD areas.</p>
           </div>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
@@ -323,7 +323,7 @@ export default function YorbaLindaMortgageGuide2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            The school district premium is a critical factor for Yorba Linda mortgage planning. Buyers targeting the Esperanza High School attendance zone should budget for homes priced $1.3M-$2.2M, which places most purchases firmly in <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:underline">jumbo loan territory</Link>. Wholesale jumbo channels offer 0.25-0.5% lower rates than retail banks, translating to $50,000-$100,000 in savings over a 30-year mortgage on a typical Yorba Linda home.
+            The school district premium is a critical factor for Yorba Linda mortgage planning. Buyers targeting the Esperanza High School attendance zone should budget for homes priced $1.3M-$2.2M, which places most purchases firmly in <Link href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:underline">jumbo loan territory</Link>. Wholesale jumbo channels offer 0.25-0.5% lower rates than retail banks, translating to $50,000-$100,000 in savings over a 30-year mortgage on a typical Yorba Linda home.
           </p>
         </section>
 
@@ -338,7 +338,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse bg-white rounded-lg overflow-hidden">
-              <thead className="bg-green-100">
+              <thead className="bg-slate-100">
                 <tr>
                   <th className="text-left p-4 font-semibold text-slate-900">Scenario</th>
                   <th className="text-left p-4 font-semibold text-slate-900">Typical Wholesale Advantage</th>
@@ -349,27 +349,27 @@ export default function YorbaLindaMortgageGuide2026() {
               <tbody className="divide-y divide-green-100">
                 <tr>
                   <td className="p-4 text-slate-600">$1.3M Conforming (20% dn)</td>
-                  <td className="p-4 text-green-700 font-semibold">0.25–0.375% below retail</td>
-                  <td className="p-4 text-green-700 font-semibold">$200–$300/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$72,000–$108,000</td>
+                  <td className="p-4 text-blue-700 font-semibold">0.25–0.375% below retail</td>
+                  <td className="p-4 text-blue-700 font-semibold">$200–$300/mo</td>
+                  <td className="p-4 text-blue-700 font-bold">$72,000–$108,000</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">$1.8M Jumbo (15% dn)</td>
-                  <td className="p-4 text-green-700 font-semibold">0.375–0.50% below retail</td>
-                  <td className="p-4 text-green-700 font-semibold">$400–$550/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$144,000–$198,000</td>
+                  <td className="p-4 text-blue-700 font-semibold">0.375–0.50% below retail</td>
+                  <td className="p-4 text-blue-700 font-semibold">$400–$550/mo</td>
+                  <td className="p-4 text-blue-700 font-bold">$144,000–$198,000</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600">$2.5M Jumbo (20% dn)</td>
-                  <td className="p-4 text-green-700 font-semibold">0.375–0.50% below retail</td>
-                  <td className="p-4 text-green-700 font-semibold">$550–$700/mo</td>
-                  <td className="p-4 text-green-700 font-bold">$198,000–$252,000</td>
+                  <td className="p-4 text-blue-700 font-semibold">0.375–0.50% below retail</td>
+                  <td className="p-4 text-blue-700 font-semibold">$550–$700/mo</td>
+                  <td className="p-4 text-blue-700 font-bold">$198,000–$252,000</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-slate-500 mb-6">
-            Savings estimates are illustrative based on typical wholesale vs. retail pricing differentials for well-qualified borrowers (740+ FICO). Actual rates vary by credit profile, LTV, and loan program. Learn more in our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:underline">complete wholesale vs. retail mortgage comparison</Link>.
+            Savings estimates are illustrative based on typical wholesale vs. retail pricing differentials for well-qualified borrowers (740+ FICO). Actual rates vary by credit profile, LTV, and loan program. Learn more in our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:underline">complete wholesale vs. retail mortgage comparison</Link>.
           </p>
         </section>
 
@@ -382,7 +382,7 @@ export default function YorbaLindaMortgageGuide2026() {
           <div className="space-y-6">
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <DollarSign className="w-8 h-8 text-purple-600" />
+                <DollarSign className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Most Common in Yorba Linda)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -413,7 +413,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <TrendingUp className="w-8 h-8 text-orange-600" />
+                <TrendingUp className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Bank Statement Loans (Self-Employed Yorba Linda Buyers)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -438,35 +438,35 @@ export default function YorbaLindaMortgageGuide2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-4">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Determine Your Budget</h4>
                   <p className="text-slate-600">Calculate maximum purchase price based on income, debts, and down payment funds. Yorba Linda median prices require $260,000+ down for conventional 20% down.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Gather Documentation</h4>
                   <p className="text-slate-600">W-2s/tax returns (2 years), pay stubs (30 days), bank statements (2-3 months), asset statements for reserves.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
                   <p className="text-slate-600">Mo Abdel shops 100+ lenders simultaneously for your best Yorba Linda jumbo or conforming rate.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Receive Pre-Approval Letter</h4>
                   <p className="text-slate-600">Strong pre-approval letters are essential in Yorba Linda&apos;s competitive market where multiple offers are common. In our Yorba Linda closings, listings regularly receive 3-5 offers within the first week, so a fully underwritten pre-approval gives you a decisive edge.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Lock Rate and Close</h4>
                   <p className="text-slate-600">Once in contract, lock your rate and proceed to underwriting. Typical close: 30-45 days.</p>
@@ -497,12 +497,12 @@ export default function YorbaLindaMortgageGuide2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to Buy in Yorba Linda?
           </h2>
-          <p className="text-lg text-green-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Get wholesale rates on jumbo loans, conforming loans, and specialty products for Yorba Linda properties. Free consultation with no credit check required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Free Rate Quote
               </Button>
             </Link>
@@ -528,25 +528,25 @@ export default function YorbaLindaMortgageGuide2026() {
           </p>
           <ul className="text-slate-600 space-y-3 mb-6">
             <li className="flex gap-3">
-              <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-1" />
+              <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-1" />
               <span><strong>Equestrian Properties (Horse Country):</strong> Properties with horse facilities, corrals, and acreage typically appraise higher but require specialized comparable analysis. Wholesale lenders familiar with OC equestrian properties ensure accurate appraisals that support your purchase price.</span>
             </li>
             <li className="flex gap-3">
-              <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-1" />
+              <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-1" />
               <span><strong>Richard Nixon Presidential Library Area:</strong> Homes near the library and Yorba Linda Boulevard corridor benefit from tourism-driven commercial activity. This area features a mix of original ranch-style homes ($800K-$1.1M) and newer builds ($1.2M+), offering both conforming and jumbo financing options.</span>
             </li>
             <li className="flex gap-3">
-              <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-1" />
+              <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-1" />
               <span><strong>Mello-Roos Tax Districts:</strong> Several newer Yorba Linda developments carry Mello-Roos assessments of $3,000-$8,000/year on top of base property taxes. This additional expense affects your debt-to-income ratio and maximum loan qualification. Wholesale brokers factor these costs into your pre-approval to prevent surprises.</span>
             </li>
             <li className="flex gap-3">
-              <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-1" />
+              <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-1" />
               <span><strong>HOA Communities:</strong> Gated communities in Yorba Linda (e.g., Black Gold, portions of Yorba Linda Estates) carry HOA fees of $200-$600/month. These fees reduce your qualifying income, making it important to account for them early in the mortgage planning process.</span>
             </li>
           </ul>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
-            <p className="text-green-800 mb-0">
+          <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
+            <p className="text-slate-900 mb-0">
               <strong>E-E-A-T Note:</strong> Mo Abdel has personally closed over 200 transactions in the Yorba Linda / North Orange County market since 2009, including equestrian properties in Horse Country, luxury estates in Black Gold, and condos in Travis Ranch. This local expertise ensures accurate property valuation and optimal loan structuring for every Yorba Linda neighborhood.
             </p>
           </div>
@@ -556,28 +556,28 @@ export default function YorbaLindaMortgageGuide2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Yorba Linda Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Jumbo Loans Orange County 2026
             </Link>
-            <Link href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Bank Statement Loans for Self-Employed
             </Link>
-            <Link href="/blog/home-equity-california-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Home Equity California Guide 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-north-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-north-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → North Orange County Wholesale Mortgage Hub
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-yorba-linda-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-yorba-linda-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Wholesale Mortgage Broker Yorba Linda
             </Link>
-            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Non-QM Loans Complete Guide 2026
             </Link>
-            <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Wholesale vs. Retail Mortgage Comparison
             </Link>
           </div>

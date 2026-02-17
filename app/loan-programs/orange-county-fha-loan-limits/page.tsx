@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, Home, TrendingUp, MapPin, Phone, CheckCircle } from 'lucide-react';
+import { DollarSign, Home, TrendingUp, MapPin, Phone, CheckCircle, Waves } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA | Mo Abdel NMLS #1426884',
@@ -29,11 +29,12 @@ export default function OrangeCountyFHALoanLimitsPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            📈 Updated for 2026
+          <div className="inline-flex items-center bg-slate-100 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <TrendingUp className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
+            <span>Updated for 2026</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Orange County <span className="text-green-600">FHA Loan Limits</span> 2026
+            Orange County <span className="text-blue-600">FHA Loan Limits</span> 2026
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Current FHA loan limits in Orange County allow financing up to $1,266,300 for single-family homes.
@@ -41,12 +42,12 @@ export default function OrangeCountyFHALoanLimitsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get FHA Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-green-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
                 (949) 822-9662
               </Button>
@@ -60,9 +61,9 @@ export default function OrangeCountyFHALoanLimitsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6 text-center">
-                <DollarSign className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                <DollarSign className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Single Family</h3>
-                <div className="text-2xl font-bold text-green-600">$1,266,300</div>
+                <div className="text-2xl font-bold text-blue-600">$1,266,300</div>
                 <p className="text-sm text-slate-600 mt-2">Most OC homes eligible</p>
               </CardContent>
             </Card>
@@ -78,18 +79,18 @@ export default function OrangeCountyFHALoanLimitsPage() {
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6 text-center">
-                <TrendingUp className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+                <TrendingUp className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Triplex (3-unit)</h3>
-                <div className="text-2xl font-bold text-purple-600">$1,959,600</div>
+                <div className="text-2xl font-bold text-blue-600">$1,959,600</div>
                 <p className="text-sm text-slate-600 mt-2">Multi-family investing</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6 text-center">
-                <MapPin className="w-12 h-12 text-orange-600 mx-auto mb-4" />
+                <MapPin className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Fourplex (4-unit)</h3>
-                <div className="text-2xl font-bold text-orange-600">$2,435,300</div>
+                <div className="text-2xl font-bold text-blue-600">$2,435,300</div>
                 <p className="text-sm text-slate-600 mt-2">Maximum property size</p>
               </CardContent>
             </Card>
@@ -99,32 +100,38 @@ export default function OrangeCountyFHALoanLimitsPage() {
         {/* Coverage by City */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">FHA Loan Coverage by Orange County City</h2>
-          <div className="bg-green-50 p-8 rounded-2xl">
+          <div className="bg-slate-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-lg font-bold text-slate-900 mb-3">🏠 High Coverage Cities</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>High Coverage Cities</span>
+                </h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span>Garden Grove</span>
-                    <span className="text-green-600 font-semibold">95% of homes</span>
+                    <span className="text-blue-600 font-semibold">95% of homes</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Westminster</span>
-                    <span className="text-green-600 font-semibold">90% of homes</span>
+                    <span className="text-blue-600 font-semibold">90% of homes</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Santa Ana</span>
-                    <span className="text-green-600 font-semibold">85% of homes</span>
+                    <span className="text-blue-600 font-semibold">85% of homes</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Fountain Valley</span>
-                    <span className="text-green-600 font-semibold">80% of homes</span>
+                    <span className="text-blue-600 font-semibold">80% of homes</span>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-lg font-bold text-slate-900 mb-3">🏘️ Moderate Coverage Cities</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <MapPin className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Moderate Coverage Cities</span>
+                </h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span>Irvine</span>
@@ -146,7 +153,10 @@ export default function OrangeCountyFHALoanLimitsPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-lg font-bold text-slate-900 mb-3">🏖️ Premium Coastal Cities</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Waves className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Premium Coastal Cities</span>
+                </h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span>Newport Beach</span>
@@ -169,7 +179,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
             </div>
             <p className="text-sm text-slate-600 mt-4 text-center">
               *Percentages based on current listings under FHA loan limits.
-              <Link href="/loan-programs/jumbo-loans" className="text-green-600 hover:text-green-700 underline ml-1">
+              <Link href="/loan-programs/jumbo-loans" className="text-blue-600 hover:text-blue-700 underline ml-1">
                 Jumbo loans available for properties above limits
               </Link>
             </p>
@@ -182,13 +192,13 @@ export default function OrangeCountyFHALoanLimitsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <CheckCircle className="w-12 h-12 text-green-600 mb-4" />
+                <CheckCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Low Down Payment</h3>
                 <p className="text-slate-600 mb-3">
                   Just 3.5% down payment required for Orange County homes up to $1,266,300.
                   Perfect for first-time buyers in expensive OC market.
                 </p>
-                <p className="text-sm font-semibold text-green-600">Example: $38,125 down on $1M home</p>
+                <p className="text-sm font-semibold text-blue-600">Example: $38,125 down on $1M home</p>
               </CardContent>
             </Card>
 
@@ -206,13 +216,13 @@ export default function OrangeCountyFHALoanLimitsPage() {
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <CheckCircle className="w-12 h-12 text-purple-600 mb-4" />
+                <CheckCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Gift Funds Allowed</h3>
                 <p className="text-slate-600 mb-3">
                   100% of down payment and closing costs can come from family gifts.
                   Great for Orange County families helping first-time buyers.
                 </p>
-                <p className="text-sm font-semibold text-purple-600">Family assistance welcome</p>
+                <p className="text-sm font-semibold text-blue-600">Family assistance welcome</p>
               </CardContent>
             </Card>
           </div>
@@ -226,9 +236,9 @@ export default function OrangeCountyFHALoanLimitsPage() {
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left font-semibold text-slate-900">Feature</th>
-                  <th className="px-6 py-4 text-center font-semibold text-green-600">FHA Loans</th>
+                  <th className="px-6 py-4 text-center font-semibold text-blue-600">FHA Loans</th>
                   <th className="px-6 py-4 text-center font-semibold text-blue-600">Conventional</th>
-                  <th className="px-6 py-4 text-center font-semibold text-purple-600">Jumbo</th>
+                  <th className="px-6 py-4 text-center font-semibold text-blue-600">Jumbo</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
@@ -240,13 +250,13 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 font-medium">Down Payment</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-semibold">3.5%</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-semibold">3.5%</td>
                   <td className="px-6 py-4 text-center">3-20%</td>
                   <td className="px-6 py-4 text-center">10-25%</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 font-medium">Credit Score</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-semibold">580+</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-semibold">580+</td>
                   <td className="px-6 py-4 text-center">620+</td>
                   <td className="px-6 py-4 text-center">680+</td>
                 </tr>
@@ -258,7 +268,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 font-medium">Gift Funds</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-semibold">100% allowed</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-semibold">100% allowed</td>
                   <td className="px-6 py-4 text-center">Varies</td>
                   <td className="px-6 py-4 text-center">Limited</td>
                 </tr>
@@ -326,27 +336,27 @@ export default function OrangeCountyFHALoanLimitsPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-green-600 to-green-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Use Your FHA Loan in Orange County?
           </h2>
-          <p className="text-xl mb-6 text-green-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved for an FHA loan up to $1,266,300 with just 3.5% down
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start My FHA Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-green-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed FHA specialist • NMLS #1426884 • Orange County mortgage broker since 2015
           </p>
         </div>

@@ -167,8 +167,8 @@ export default function ReverseMortgagePalosVerdesPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Under $1.15M</td><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">Up to $1,149,825 basis</td></tr>
               <tr><td className="py-2 px-4 border-b">$1.15M - $2M</td><td className="py-2 px-4 border-b">Proprietary</td><td className="py-2 px-4 border-b">Full value consideration</td></tr>
-              <tr><td className="py-2 px-4 border-b">$2M - $4M</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Proprietary</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Full value consideration</td></tr>
-              <tr><td className="py-2 px-4">$4M+</td><td className="py-2 px-4 text-green-700 font-semibold">Proprietary</td><td className="py-2 px-4 text-green-700 font-semibold">Jumbo specialists</td></tr>
+              <tr><td className="py-2 px-4 border-b">$2M - $4M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Full value consideration</td></tr>
+              <tr><td className="py-2 px-4">$4M+</td><td className="py-2 px-4 text-blue-700 font-semibold">Proprietary</td><td className="py-2 px-4 text-blue-700 font-semibold">Jumbo specialists</td></tr>
             </tbody>
           </table>
         </div>

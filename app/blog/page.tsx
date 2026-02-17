@@ -300,7 +300,7 @@ export default function BlogIndexPage() {
                     </p>
                     <Link
                         href="/contact"
-                        className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                        className="inline-block bg-slate-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors"
                     >
                         Get Your Free Quote
                     </Link>

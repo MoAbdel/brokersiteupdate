@@ -259,13 +259,13 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b font-semibold text-green-700">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b font-semibold text-green-700">Built into process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
-              <tr><td className="py-2 px-4 border-b">Average Rate Advantage</td><td className="py-2 px-4 border-b font-semibold text-green-700">0.25-0.75% lower</td><td className="py-2 px-4 border-b">Baseline</td></tr>
-              <tr><td className="py-2 px-4 border-b">Overhead Costs in Rate</td><td className="py-2 px-4 border-b font-semibold text-green-700">Minimal</td><td className="py-2 px-4 border-b">Significant</td></tr>
-              <tr><td className="py-2 px-4 border-b">Jumbo Lenders</td><td className="py-2 px-4 border-b font-semibold text-green-700">50+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b">Bank Statement Lenders</td><td className="py-2 px-4 border-b font-semibold text-green-700">30+</td><td className="py-2 px-4 border-b">0-1</td></tr>
-              <tr><td className="py-2 px-4">Closing Timeline</td><td className="py-2 px-4 font-semibold text-green-700">14-21 days typical</td><td className="py-2 px-4">30-45 days typical</td></tr>
+              <tr><td className="py-2 px-4 border-b">Lender Options</td><td className="py-2 px-4 border-b font-semibold text-blue-700">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate Shopping</td><td className="py-2 px-4 border-b font-semibold text-blue-700">Built into process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
+              <tr><td className="py-2 px-4 border-b">Average Rate Advantage</td><td className="py-2 px-4 border-b font-semibold text-blue-700">0.25-0.75% lower</td><td className="py-2 px-4 border-b">Baseline</td></tr>
+              <tr><td className="py-2 px-4 border-b">Overhead Costs in Rate</td><td className="py-2 px-4 border-b font-semibold text-blue-700">Minimal</td><td className="py-2 px-4 border-b">Significant</td></tr>
+              <tr><td className="py-2 px-4 border-b">Jumbo Lenders</td><td className="py-2 px-4 border-b font-semibold text-blue-700">50+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b">Bank Statement Lenders</td><td className="py-2 px-4 border-b font-semibold text-blue-700">30+</td><td className="py-2 px-4 border-b">0-1</td></tr>
+              <tr><td className="py-2 px-4">Closing Timeline</td><td className="py-2 px-4 font-semibold text-blue-700">14-21 days typical</td><td className="py-2 px-4">30-45 days typical</td></tr>
             </tbody>
           </table>
         </div>
@@ -282,10 +282,10 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-green-700">6.25%</td><td className="py-2 px-4 border-b">6.75%</td><td className="py-2 px-4 border-b text-green-700">0.50%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Monthly Payment (P&I)</td><td className="py-2 px-4 border-b font-semibold text-green-700">$4,926</td><td className="py-2 px-4 border-b">$5,192</td><td className="py-2 px-4 border-b text-green-700">$266/month</td></tr>
-              <tr><td className="py-2 px-4 border-b">Year 1 Interest</td><td className="py-2 px-4 border-b font-semibold text-green-700">$49,600</td><td className="py-2 px-4 border-b">$53,600</td><td className="py-2 px-4 border-b text-green-700">$4,000</td></tr>
-              <tr><td className="py-2 px-4">30-Year Total Interest</td><td className="py-2 px-4 font-semibold text-green-700">$973,360</td><td className="py-2 px-4">$1,069,120</td><td className="py-2 px-4 text-green-700">$95,760</td></tr>
+              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-blue-700">6.25%</td><td className="py-2 px-4 border-b">6.75%</td><td className="py-2 px-4 border-b text-blue-700">0.50%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payment (P&I)</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$4,926</td><td className="py-2 px-4 border-b">$5,192</td><td className="py-2 px-4 border-b text-blue-700">$266/month</td></tr>
+              <tr><td className="py-2 px-4 border-b">Year 1 Interest</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$49,600</td><td className="py-2 px-4 border-b">$53,600</td><td className="py-2 px-4 border-b text-blue-700">$4,000</td></tr>
+              <tr><td className="py-2 px-4">30-Year Total Interest</td><td className="py-2 px-4 font-semibold text-blue-700">$973,360</td><td className="py-2 px-4">$1,069,120</td><td className="py-2 px-4 text-blue-700">$95,760</td></tr>
             </tbody>
           </table>
         </div>
@@ -462,13 +462,13 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-green-700">6.125%</td><td className="py-2 px-4 border-b">6.625%</td><td className="py-2 px-4 border-b">6.500%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-blue-700">6.125%</td><td className="py-2 px-4 border-b">6.625%</td><td className="py-2 px-4 border-b">6.500%</td></tr>
               <tr><td className="py-2 px-4 border-b">Origination Fee</td><td className="py-2 px-4 border-b">$3,750 (0.5%)</td><td className="py-2 px-4 border-b">$7,500 (1%)</td><td className="py-2 px-4 border-b">$5,625 (0.75%)</td></tr>
-              <tr><td className="py-2 px-4 border-b">Discount Points</td><td className="py-2 px-4 border-b font-semibold text-green-700">$0</td><td className="py-2 px-4 border-b">$0</td><td className="py-2 px-4 border-b">$0</td></tr>
+              <tr><td className="py-2 px-4 border-b">Discount Points</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$0</td><td className="py-2 px-4 border-b">$0</td><td className="py-2 px-4 border-b">$0</td></tr>
               <tr><td className="py-2 px-4 border-b">Underwriting Fee</td><td className="py-2 px-4 border-b">$1,095</td><td className="py-2 px-4 border-b">$1,295</td><td className="py-2 px-4 border-b">$995</td></tr>
               <tr><td className="py-2 px-4 border-b">Processing Fee</td><td className="py-2 px-4 border-b">$795</td><td className="py-2 px-4 border-b">$995</td><td className="py-2 px-4 border-b">$695</td></tr>
-              <tr><td className="py-2 px-4 border-b">Monthly Payment</td><td className="py-2 px-4 border-b font-semibold text-green-700">$4,558</td><td className="py-2 px-4 border-b">$4,802</td><td className="py-2 px-4 border-b">$4,738</td></tr>
-              <tr><td className="py-2 px-4">Annual Savings vs Bank</td><td className="py-2 px-4 font-semibold text-green-700">$2,928</td><td className="py-2 px-4">—</td><td className="py-2 px-4">$768</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payment</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$4,558</td><td className="py-2 px-4 border-b">$4,802</td><td className="py-2 px-4 border-b">$4,738</td></tr>
+              <tr><td className="py-2 px-4">Annual Savings vs Bank</td><td className="py-2 px-4 font-semibold text-blue-700">$2,928</td><td className="py-2 px-4">—</td><td className="py-2 px-4">$768</td></tr>
             </tbody>
           </table>
         </div>
@@ -485,11 +485,11 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-green-700">6.375%</td><td className="py-2 px-4 border-b">6.875%</td><td className="py-2 px-4 border-b">6.750%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Interest Rate</td><td className="py-2 px-4 border-b font-semibold text-blue-700">6.375%</td><td className="py-2 px-4 border-b">6.875%</td><td className="py-2 px-4 border-b">6.750%</td></tr>
               <tr><td className="py-2 px-4 border-b">Origination Fee</td><td className="py-2 px-4 border-b">$7,500 (0.5%)</td><td className="py-2 px-4 border-b">$15,000 (1%)</td><td className="py-2 px-4 border-b">$11,250 (0.75%)</td></tr>
-              <tr><td className="py-2 px-4 border-b">Monthly Payment</td><td className="py-2 px-4 border-b font-semibold text-green-700">$9,361</td><td className="py-2 px-4 border-b">$9,849</td><td className="py-2 px-4 border-b">$9,729</td></tr>
-              <tr><td className="py-2 px-4 border-b">Year 1 Interest</td><td className="py-2 px-4 border-b font-semibold text-green-700">$94,875</td><td className="py-2 px-4 border-b">$102,375</td><td className="py-2 px-4 border-b">$100,500</td></tr>
-              <tr><td className="py-2 px-4">Annual Savings vs Bank</td><td className="py-2 px-4 font-semibold text-green-700">$5,856</td><td className="py-2 px-4">—</td><td className="py-2 px-4">$1,440</td></tr>
+              <tr><td className="py-2 px-4 border-b">Monthly Payment</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$9,361</td><td className="py-2 px-4 border-b">$9,849</td><td className="py-2 px-4 border-b">$9,729</td></tr>
+              <tr><td className="py-2 px-4 border-b">Year 1 Interest</td><td className="py-2 px-4 border-b font-semibold text-blue-700">$94,875</td><td className="py-2 px-4 border-b">$102,375</td><td className="py-2 px-4 border-b">$100,500</td></tr>
+              <tr><td className="py-2 px-4">Annual Savings vs Bank</td><td className="py-2 px-4 font-semibold text-blue-700">$5,856</td><td className="py-2 px-4">—</td><td className="py-2 px-4">$1,440</td></tr>
             </tbody>
           </table>
         </div>
@@ -754,7 +754,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
         </p>
 
         {/* Expert Summary + CTA */}
-        <div className="expert-summary bg-green-50 p-6 rounded-xl my-8">
+        <div className="expert-summary bg-slate-50 p-6 rounded-xl my-8">
           <h2 className="mt-0">Expert Summary: Work with a California Wholesale Mortgage Broker</h2>
           <p>
             California&apos;s high home prices make mortgage costs significant—and the wholesale channel delivers measurable savings. By accessing 200+ lenders through a licensed wholesale broker, California borrowers secure institutional pricing that banks simply cannot match. The 0.25-0.75% rate advantage translates to tens of thousands in savings over your loan term.

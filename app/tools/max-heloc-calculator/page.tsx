@@ -33,7 +33,7 @@ export default function MaxHelocCalculatorIndex() {
         </nav>
 
         <div className="text-center mb-12">
-          <Badge className="bg-amber-100 text-amber-700 mb-4">97 Counties</Badge>
+          <Badge className="bg-slate-100 text-blue-700 mb-4">97 Counties</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
             Max HELOC Calculator
           </h1>
@@ -63,7 +63,7 @@ export default function MaxHelocCalculatorIndex() {
                 >
                   <Card className="hover:shadow-md hover:border-amber-300 transition-all">
                     <CardContent className="p-4">
-                      <h3 className="font-semibold text-slate-900 group-hover:text-amber-600 transition-colors">
+                      <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                         {county.name}
                       </h3>
                       <div className="flex justify-between text-xs text-slate-500 mt-1">

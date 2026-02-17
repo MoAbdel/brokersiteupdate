@@ -470,19 +470,19 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">$400K HECM line of credit invested in bonds yielding $24K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax</td>
                   <td className="px-4 py-3 border-t">$2,160 state tax (9%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$2,160/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$2,160/yr saved</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">$300K reverse proceeds used for rental property earning $30K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax</td>
                   <td className="px-4 py-3 border-t">$2,700 state tax (9%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$2,700/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$2,700/yr saved</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$200K deployed into dividend portfolio yielding $14K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax</td>
                   <td className="px-4 py-3 border-t">$1,260 state tax (9%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$1,260/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$1,260/yr saved</td>
                 </tr>
               </tbody>
             </table>
@@ -748,16 +748,16 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgages in Greater Seattle</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Greater Seattle&apos;s 142,000+ eligible senior homeowners hold over $78 billion in residential equity &mdash; the largest reverse mortgage opportunity in Washington State. The 2026 HECM limit of $1,149,825 covers most King County single-family homes, while jumbo reverse products serve Bainbridge Island and premium Seattle neighborhoods where values exceed the FHA cap. Washington&apos;s zero state income tax creates a compounding advantage that saves seniors $20,000-$60,000 over a 15-year period compared to high-tax states.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Urban Seattle Premium hub (Queen Anne, Magnolia, Capitol Hill, Ballard, West Seattle, Bainbridge Island) offers both HECM and jumbo reverse options for homes ranging from $800,000 to $3,000,000+. The Suburban King County hub (Shoreline, Lake Forest Park, Kenmore, Snoqualmie) provides streamlined single-family home HECM qualification with 30-35 day processing. HECM for Purchase enables urban-to-suburban downsizing without monthly mortgage payments &mdash; a strategy that preserves sale proceeds for retirement while securing a new home.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare reverse mortgage products from 200+ lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare reverse mortgage products from 200+ lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage analysis.
             </p>
           </div>
 

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage Seattle Eastside WA: Bellevue, Kirkland, Sammamish Guide [2026]',
@@ -239,7 +240,7 @@ export default function ReverseMortgageSeattleEastside() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bellevue-Specific Insight</h4>
             <p className="mb-0">Downtown Bellevue condo owners face a unique challenge: many newer luxury buildings (built 2015+) lack FHA condo approval, making HECM impossible. However, jumbo reverse mortgages don&apos;t require FHA approval, making them the only option for buildings like One88, Bellevue Towers, or Avenue Bellevue.</p>
           </div>
@@ -484,7 +485,10 @@ export default function ReverseMortgageSeattleEastside() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free consultation:</p>
-            <p className="text-lg">📞 (949) 822-9662</p>
+            <p className="text-lg inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

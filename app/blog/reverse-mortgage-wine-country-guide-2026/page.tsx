@@ -261,21 +261,21 @@ export default function ReverseMortgageWineCountryGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Calistoga</td>
                 <td className="py-2 px-4 border-b">$1,000,000</td>
-                <td className="py-2 px-4 border-b text-green-600">Yes (within HECM limit)</td>
+                <td className="py-2 px-4 border-b text-blue-600">Yes (within HECM limit)</td>
                 <td className="py-2 px-4 border-b">FHA HECM</td>
                 <td className="py-2 px-4 border-b">Hot springs properties, Upper Valley homes, boutique ranches</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Sonoma</td>
                 <td className="py-2 px-4 border-b">$1,000,000</td>
-                <td className="py-2 px-4 border-b text-green-600">Yes (within HECM limit)</td>
+                <td className="py-2 px-4 border-b text-blue-600">Yes (within HECM limit)</td>
                 <td className="py-2 px-4 border-b">FHA HECM</td>
                 <td className="py-2 px-4 border-b">Sonoma Plaza homes, Valley of the Moon estates, winery adjacent</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Napa</td>
                 <td className="py-2 px-4 border-b">$900,000</td>
-                <td className="py-2 px-4 border-b text-green-600">Yes (within HECM limit)</td>
+                <td className="py-2 px-4 border-b text-blue-600">Yes (within HECM limit)</td>
                 <td className="py-2 px-4 border-b">FHA HECM</td>
                 <td className="py-2 px-4 border-b">Downtown Victorian, Browns Valley, Silverado, Old Town</td>
               </tr>
@@ -400,8 +400,8 @@ export default function ReverseMortgageWineCountryGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Non-Recourse Protection</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes (FHA insured)</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes (most programs)</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes (FHA insured)</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes (most programs)</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Payout Options</td>
@@ -410,7 +410,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Line of Credit Growth</td>
-                <td className="py-2 px-4 border-b text-green-600 font-semibold">Yes (unique HECM feature)</td>
+                <td className="py-2 px-4 border-b text-blue-600 font-semibold">Yes (unique HECM feature)</td>
                 <td className="py-2 px-4 border-b text-red-600">Typically not available</td>
               </tr>
               <tr>
@@ -636,7 +636,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Reverse Mortgages in Wine Country</h2>
           <p>
             Wine Country seniors hold exceptional equity positions across Napa and Sonoma counties, with property values ranging from $900,000 in Napa to $1.5 million and above in St. Helena and Healdsburg. This equity represents a powerful retirement resource that a reverse mortgage converts into tax-free proceeds without monthly payments and without surrendering homeownership.
@@ -648,7 +648,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             Wine Country properties with vineyard acreage, hospitality income, and second-home transition histories require lenders experienced with these characteristics. A wholesale broker matches your property to the right lender, compares HECM and proprietary options side by side, and ensures the application is structured to maximize proceeds while minimizing costs.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore reverse mortgage options for your Wine Country home?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> for a personalized reverse mortgage analysis. I compare HECM and proprietary programs from multiple wholesale lenders to find the combination of proceeds, costs, and terms that best supports your Wine Country retirement. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore reverse mortgage options for your Wine Country home?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized reverse mortgage analysis. I compare HECM and proprietary programs from multiple wholesale lenders to find the combination of proceeds, costs, and terms that best supports your Wine Country retirement. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 

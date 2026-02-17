@@ -80,7 +80,7 @@ export async function POST(request: Request) {
 
     fs.writeFileSync(filepath, JSON.stringify(subscription, null, 2));
 
-    console.log('💾 New newsletter subscription saved:', subscription.email, 'Source:', subscription.source);
+    console.log('New newsletter subscription saved:', subscription.email, 'Source:', subscription.source);
 
     return NextResponse.json({
       success: true,

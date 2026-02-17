@@ -239,23 +239,23 @@ export default function GolfCourseHomesMortgageBrokerPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center mb-4">
-                <Target className="w-8 h-8 text-green-200 mr-2" />
+                <Target className="w-8 h-8 text-slate-200 mr-2" />
                 <h1 className="text-4xl md:text-5xl font-bold">
                   Orange County Golf Course Homes Specialist
                 </h1>
               </div>
-              <p className="text-xl max-w-3xl mx-auto mb-8 text-green-100">
+              <p className="text-xl max-w-3xl mx-auto mb-8 text-slate-200">
                 Exclusive financing for Orange County's premier golf course communities. From championship fairway estates to luxury golf condos, expert guidance for the ultimate golf lifestyle.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 822-9662">
-                  <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 w-full">
+                  <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
                 </a>
                 <a href="/calculator">
-                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-green-600 w-full">
+                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600 w-full">
                     <Calculator className="w-5 h-5 mr-2" />
                     Golf Course Calculator
                   </Button>
@@ -275,7 +275,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
               {propertyTypes.map((property) => (
                 <Card key={property.type} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-green-600">{property.type}</CardTitle>
+                    <CardTitle className="text-blue-600">{property.type}</CardTitle>
                     <p className="text-2xl font-bold text-slate-900">{property.priceRange}</p>
                   </CardHeader>
                   <CardContent>
@@ -310,7 +310,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
               {golfCommunities.map((community) => (
                 <Card key={community.community} className="shadow-lg hover:shadow-xl transition-shadow">
                   <CardHeader>
-                    <CardTitle className="text-green-600">{community.community}</CardTitle>
+                    <CardTitle className="text-blue-600">{community.community}</CardTitle>
                     <p className="text-slate-500 text-sm flex items-center">
                       <MapPin className="w-4 h-4 mr-1" />
                       {community.location}
@@ -353,7 +353,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Your Benefit:</span>
-                        <p className="text-green-700 font-medium text-sm">{amenity.benefit}</p>
+                        <p className="text-blue-700 font-medium text-sm">{amenity.benefit}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -364,7 +364,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
         </section>
 
         {/* Financing Considerations */}
-        <section className="py-16 bg-green-50">
+        <section className="py-16 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
               Golf Course Home Financing Considerations
@@ -373,7 +373,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
               {financingConsiderations.map((consideration) => (
                 <Card key={consideration.factor} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-orange-600">{consideration.factor}</CardTitle>
+                    <CardTitle className="text-blue-600">{consideration.factor}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
@@ -383,7 +383,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Our Strategy:</span>
-                        <p className="text-green-700 font-medium">{consideration.strategy}</p>
+                        <p className="text-blue-700 font-medium">{consideration.strategy}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -403,21 +403,21 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <Eye className="w-6 h-6 text-green-600 mt-1" />
+                    <Eye className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Golf Market Knowledge</h3>
                       <p className="text-slate-600">Deep understanding of golf course property values and community dynamics</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Trophy className="w-6 h-6 text-green-600 mt-1" />
+                    <Trophy className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Championship Course Experience</h3>
                       <p className="text-slate-600">Specialized knowledge of premier golf communities and championship courses</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Trees className="w-6 h-6 text-green-600 mt-1" />
+                    <Trees className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Lifestyle Understanding</h3>
                       <p className="text-slate-600">Appreciation for golf lifestyle and luxury community amenities</p>
@@ -426,7 +426,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
                 </div>
               </div>
               
-              <Card className="shadow-xl border-green-200">
+              <Card className="shadow-xl border-slate-200">
                 <CardHeader className="bg-gradient-to-r from-green-600 to-emerald-600 text-white">
                   <CardTitle className="flex items-center">
                     <Crown className="w-6 h-6 mr-2" />
@@ -463,7 +463,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 bg-green-50">
+        <section className="py-16 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
               Golf Course Home Financing FAQ
@@ -472,7 +472,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
               {schemaData[0]?.data?.questions?.map((faq: any, index: number) => (
                 <Card key={index} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-lg text-green-600">{faq.question}</CardTitle>
+                    <CardTitle className="text-lg text-blue-600">{faq.question}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-700">{faq.answer}</p>
@@ -494,19 +494,19 @@ export default function GolfCourseHomesMortgageBrokerPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">
-                <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Target className="w-5 h-5 mr-2" />
                   Golf Course Pre-Approval
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-green-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Golf course and luxury community specialist
             </p>
           </div>

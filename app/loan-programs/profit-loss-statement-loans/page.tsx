@@ -9,6 +9,9 @@ import {
   TrendingUp, 
   CheckCircle, 
   AlertCircle, 
+  AlertTriangle,
+  BarChart3,
+  Lightbulb,
   Users,
   Clock,
   DollarSign,
@@ -35,11 +38,12 @@ export default function ProfitLossStatementLoansPage() {
         
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            📊 CPA-Prepared Documentation
+          <div className="inline-flex items-center bg-slate-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <BarChart3 className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
+            <span>CPA-Prepared Documentation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-purple-600">P&L Statement Loans</span> in Orange County
+            <span className="text-blue-600">P&L Statement Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Use CPA-prepared Profit & Loss statements for income verification instead of tax returns. 
@@ -48,12 +52,12 @@ export default function ProfitLossStatementLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get P&L Loan Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-purple-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -63,8 +67,8 @@ export default function ProfitLossStatementLoansPage() {
         {/* Key Benefits */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <FileText className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <FileText className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">CPA-Prepared P&L</h3>
             <p className="text-slate-600">Professional financial statements prepared by your CPA</p>
@@ -77,15 +81,15 @@ export default function ProfitLossStatementLoansPage() {
             <p className="text-slate-600">Keep your personal tax information private</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Building className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Building className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Business Income Focus</h3>
             <p className="text-slate-600">Qualify based on business performance and cash flow</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <TrendingUp className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Flexible Terms</h3>
             <p className="text-slate-600">Various loan amounts and terms available</p>
@@ -95,34 +99,34 @@ export default function ProfitLossStatementLoansPage() {
         {/* How P&L Statement Loans Work */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">How P&L Statement Loans Work</h2>
-          <div className="bg-purple-50 p-8 rounded-2xl">
+          <div className="bg-slate-50 p-8 rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">The P&L Loan Process</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">1</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">1</div>
                     <div>
                       <p className="font-semibold text-slate-900">CPA Prepares P&L Statement</p>
                       <p className="text-slate-600 text-sm">Your CPA creates a detailed profit & loss statement for the most recent 12 months</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">2</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">2</div>
                     <div>
                       <p className="font-semibold text-slate-900">Business Income Analysis</p>
                       <p className="text-slate-600 text-sm">Lender reviews net income, cash flow, and business performance trends</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">3</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">3</div>
                     <div>
                       <p className="font-semibold text-slate-900">Income Verification</p>
                       <p className="text-slate-600 text-sm">CPA letter confirms accuracy and business income is used for qualification</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">4</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">4</div>
                     <div>
                       <p className="font-semibold text-slate-900">Loan Approval</p>
                       <p className="text-slate-600 text-sm">Business income used for debt-to-income calculations and loan approval</p>
@@ -144,16 +148,16 @@ export default function ProfitLossStatementLoansPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Net Business Income:</span>
-                    <span className="font-bold text-green-600">$250,000</span>
+                    <span className="font-bold text-blue-600">$250,000</span>
                   </div>
                   <div className="border-t pt-2">
                     <div className="flex justify-between">
                       <span className="text-slate-600">Monthly Qualifying Income:</span>
-                      <span className="font-bold text-purple-600">$20,833/month</span>
+                      <span className="font-bold text-blue-600">$20,833/month</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-slate-500">Max Loan Amount (50% DTI):</span>
-                      <span className="font-bold text-purple-600">~$580,000</span>
+                      <span className="font-bold text-blue-600">~$580,000</span>
                     </div>
                   </div>
                 </div>
@@ -167,34 +171,40 @@ export default function ProfitLossStatementLoansPage() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Who Benefits from P&L Statement Loans?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-purple-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-purple-800 mb-4">✅ Perfect Candidates</h3>
+            <div className="bg-slate-50 p-6 rounded-xl">
+              <h3 className="text-xl font-bold text-purple-800 mb-4 flex items-center gap-2">
+                <CheckCircle className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Perfect Candidates</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-purple-700"><strong>S-Corp & LLC Owners:</strong> Business income flows through to personal returns but want to use business statements</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>S-Corp & LLC Owners:</strong> Business income flows through to personal returns but want to use business statements</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-purple-700"><strong>Partnership Business Owners:</strong> Multiple partners with complex K-1 distributions</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Partnership Business Owners:</strong> Multiple partners with complex K-1 distributions</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-purple-700"><strong>Professional Service Providers:</strong> Lawyers, doctors, consultants with established practices</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Professional Service Providers:</strong> Lawyers, doctors, consultants with established practices</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-purple-700"><strong>Franchisee Owners:</strong> Multiple franchise locations with consolidated P&L statements</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Franchisee Owners:</strong> Multiple franchise locations with consolidated P&L statements</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-purple-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-purple-700"><strong>Growing Businesses:</strong> Current year income significantly higher than previous tax returns</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Growing Businesses:</strong> Current year income significantly higher than previous tax returns</span>
                 </div>
               </div>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-slate-800 mb-4">💡 Common Situations</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+                <Lightbulb className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Common Situations</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-slate-600 mr-3 mt-1 flex-shrink-0" />
@@ -228,35 +238,35 @@ export default function ProfitLossStatementLoansPage() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <CheckCircle className="w-6 h-6 text-green-600 mr-2" />
+                  <CheckCircle className="w-6 h-6 text-blue-600 mr-2" />
                   Program Benefits
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <DollarSign className="w-5 h-5 text-green-600 mr-3 mt-1" />
+                    <DollarSign className="w-5 h-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold">Loan Amounts: $100K - $3M+</p>
                       <p className="text-sm text-slate-600">Primary residence, second home, and investment properties</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <Calculator className="w-5 h-5 text-green-600 mr-3 mt-1" />
+                    <Calculator className="w-5 h-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold">Down Payment: 10-25%</p>
                       <p className="text-sm text-slate-600">Varies by property type and loan program</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <TrendingUp className="w-5 h-5 text-green-600 mr-3 mt-1" />
+                    <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold">DTI Ratio 50%</p>
                       <p className="text-sm text-slate-600">Higher ratios with compensating factors</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <Clock className="w-5 h-5 text-green-600 mr-3 mt-1" />
+                    <Clock className="w-5 h-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <p className="font-semibold">Terms: 15-30 years</p>
                       <p className="text-sm text-slate-600">Fixed and adjustable pricing options available</p>
@@ -314,31 +324,34 @@ export default function ProfitLossStatementLoansPage() {
           <h2 className="text-3xl font-bold text-center mb-8">P&L Statement Loan Requirements</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">✅ Qualification Criteria</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>Qualification Criteria</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 680+ (varies by program)</p>
                     <p className="text-slate-600 text-sm">Higher scores unlock Better pricing and lower down payments</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Business Operating: 2+ years</p>
                     <p className="text-slate-600 text-sm">Established business with operating history</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">CPA Relationship: 1+ years</p>
                     <p className="text-slate-600 text-sm">Established relationship with licensed CPA</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Business Income Consistency</p>
                     <p className="text-slate-600 text-sm">Stable or growing business income trends</p>
@@ -348,7 +361,10 @@ export default function ProfitLossStatementLoansPage() {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">⚠️ Important Considerations</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <AlertTriangle className="w-6 h-6 text-orange-500" aria-hidden="true" />
+                <span>Important Considerations</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
@@ -391,39 +407,39 @@ export default function ProfitLossStatementLoansPage() {
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900">Feature</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-purple-600">P&L Statement</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">P&L Statement</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Bank Statement</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">Asset Depletion</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Asset Depletion</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Documentation Required</td>
-                  <td className="px-6 py-4 text-center text-purple-600 font-bold">CPA P&L Statements</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">CPA P&L Statements</td>
                   <td className="px-6 py-4 text-center text-slate-600">12-24 Month Bank Statements</td>
                   <td className="px-6 py-4 text-center text-slate-600">Asset Statements</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Best For</td>
-                  <td className="px-6 py-4 text-center text-purple-600 font-bold">Established Businesses</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Established Businesses</td>
                   <td className="px-6 py-4 text-center text-slate-600">Self-Employed</td>
                   <td className="px-6 py-4 text-center text-slate-600">High Net Worth</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Down Payment</td>
-                  <td className="px-6 py-4 text-center text-purple-600">10-25%</td>
+                  <td className="px-6 py-4 text-center text-blue-600">10-25%</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">10-20%</td>
                   <td className="px-6 py-4 text-center text-slate-600">20-30%</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Privacy Level</td>
-                  <td className="px-6 py-4 text-center text-purple-600 font-bold">Highest</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Highest</td>
                   <td className="px-6 py-4 text-center text-slate-600">Medium</td>
                   <td className="px-6 py-4 text-center text-slate-600">High</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Processing Time</td>
-                  <td className="px-6 py-4 text-center text-purple-600">2-3 weeks</td>
+                  <td className="px-6 py-4 text-center text-blue-600">2-3 weeks</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">2-3 weeks</td>
                   <td className="px-6 py-4 text-center text-slate-600">2-3 weeks</td>
                 </tr>
@@ -439,8 +455,8 @@ export default function ProfitLossStatementLoansPage() {
             <div>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Building className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Building className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Professional Services Hub</h3>
@@ -465,8 +481,8 @@ export default function ProfitLossStatementLoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <TrendingUp className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <TrendingUp className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Growing Businesses</h3>
@@ -479,7 +495,7 @@ export default function ProfitLossStatementLoansPage() {
               </div>
             </div>
             
-            <div className="bg-purple-50 p-8 rounded-2xl">
+            <div className="bg-slate-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">OC P&L Loan Market</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -488,7 +504,7 @@ export default function ProfitLossStatementLoansPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Most Common Property:</span>
-                  <span className="font-bold text-green-600">Primary Residence</span>
+                  <span className="font-bold text-blue-600">Primary Residence</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Typical Down Payment:</span>
@@ -515,26 +531,26 @@ export default function ProfitLossStatementLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Use Your Business P&L for Financing?
           </h2>
-          <p className="text-xl mb-6 text-purple-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get specialized P&L statement loan financing while keeping your personal tax information private
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get My P&L Loan Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-purple-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • P&L Statement loan specialist
           </p>
         </div>

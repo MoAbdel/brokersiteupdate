@@ -238,7 +238,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                   Orange County Waterfront Homes Specialist
                 </h1>
               </div>
-              <p className="text-xl max-w-3xl mx-auto mb-8 text-blue-100">
+              <p className="text-xl max-w-3xl mx-auto mb-8 text-slate-200">
                 Exclusive financing for Orange County's most prestigious waterfront properties. From oceanfront estates to bayfront mansions, expert guidance for luxury coastal real estate.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -315,7 +315,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                       <p className="text-slate-600">{location.highlight}</p>
                       <div>
                         <span className="text-slate-500 text-sm">Unique Feature:</span>
-                        <p className="text-green-700 font-medium text-sm">{location.uniqueFeature}</p>
+                        <p className="text-blue-700 font-medium text-sm">{location.uniqueFeature}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -335,7 +335,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
               {financingChallenges.map((challenge) => (
                 <Card key={challenge.challenge} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-orange-600">{challenge.challenge}</CardTitle>
+                    <CardTitle className="text-blue-600">{challenge.challenge}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
@@ -344,8 +344,8 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                         <p className="text-slate-600">{challenge.issue}</p>
                       </div>
                       <div>
-                        <span className="text-green-600 text-sm font-semibold">Our Solution:</span>
-                        <p className="text-green-700 font-medium">{challenge.solution}</p>
+                        <span className="text-blue-600 text-sm font-semibold">Our Solution:</span>
+                        <p className="text-blue-700 font-medium">{challenge.solution}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -502,7 +502,7 @@ export default function WaterfrontHomesMortgageBrokerPage() {
                 </Button>
               </a>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Waterfront and luxury coastal specialist
             </p>
           </div>

@@ -138,8 +138,8 @@ export default function WhatCanYouUseHomeEquityForPage() {
 
       {/* Header */}
       <header className="mb-12">
-        <div className="flex items-center gap-2 text-sm text-green-600 mb-4">
-          <span className="bg-green-100 px-3 py-1 rounded-full">Home Equity Guide</span>
+        <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
+          <span className="bg-slate-100 px-3 py-1 rounded-full">Home Equity Guide</span>
           <span>•</span>
           <time dateTime="2026-01-29">January 29, 2026</time>
           <span>•</span>
@@ -164,7 +164,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">12 Best Uses for Home Equity</h2>
           <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
             <div>
-              <h3 className="font-semibold text-green-700 mb-2">Value-Building Uses</h3>
+              <h3 className="font-semibold text-blue-700 mb-2">Value-Building Uses</h3>
               <ol className="space-y-1">
                 <li>1. Home renovations & improvements</li>
                 <li>2. Debt consolidation</li>
@@ -233,7 +233,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
           home equity product can save thousands in interest and simplify your finances:
         </p>
 
-        <div className="bg-green-50 p-6 rounded-lg my-8 not-prose">
+        <div className="bg-slate-50 p-6 rounded-lg my-8 not-prose">
           <h4 className="font-bold text-gray-900 mb-3">Debt Consolidation Example</h4>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div className="bg-white p-4 rounded">
@@ -246,7 +246,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
               </ul>
             </div>
             <div className="bg-white p-4 rounded">
-              <h5 className="font-semibold text-green-600 mb-2">After: Home Equity Loan</h5>
+              <h5 className="font-semibold text-blue-600 mb-2">After: Home Equity Loan</h5>
               <ul className="text-gray-700 space-y-1">
                 <li>$40,000 at 8% fixed</li>
                 <li>Monthly payment: ~$485 (10-year)</li>
@@ -591,7 +591,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Ready to Put Your Equity to Work?</h3>
-          <p className="text-green-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Let's discuss your goals and find the best way to access your home equity. With
             200+ lenders, I can help you compare options and find the most favorable terms
             for your situation.
@@ -599,13 +599,13 @@ export default function WhatCanYouUseHomeEquityForPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
-              className="inline-block bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
+              className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-colors text-center"
             >
               Get Your Free Quote
             </Link>
             <a
               href="tel:+19498229662"
-              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors text-center"
+              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
               Call (949) 822-9662
             </a>

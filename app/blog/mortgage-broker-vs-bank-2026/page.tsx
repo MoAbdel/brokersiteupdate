@@ -156,10 +156,10 @@ export default function MortgageBrokerVsBankPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Branch Network</td><td className="py-2 px-4 border-b">Thousands of locations</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None</td></tr>
-              <tr><td className="py-2 px-4 border-b">Advertising</td><td className="py-2 px-4 border-b">Hundreds of millions/year</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Minimal (referral-based)</td></tr>
-              <tr><td className="py-2 px-4 border-b">Corporate Structure</td><td className="py-2 px-4 border-b">Large executive teams</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Lean operations</td></tr>
-              <tr><td className="py-2 px-4">These Costs</td><td className="py-2 px-4">Built into your rate</td><td className="py-2 px-4 text-green-700 font-semibold">Not in your rate</td></tr>
+              <tr><td className="py-2 px-4 border-b">Branch Network</td><td className="py-2 px-4 border-b">Thousands of locations</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None</td></tr>
+              <tr><td className="py-2 px-4 border-b">Advertising</td><td className="py-2 px-4 border-b">Hundreds of millions/year</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Minimal (referral-based)</td></tr>
+              <tr><td className="py-2 px-4 border-b">Corporate Structure</td><td className="py-2 px-4 border-b">Large executive teams</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Lean operations</td></tr>
+              <tr><td className="py-2 px-4">These Costs</td><td className="py-2 px-4">Built into your rate</td><td className="py-2 px-4 text-blue-700 font-semibold">Not in your rate</td></tr>
             </tbody>
           </table>
         </div>
@@ -209,14 +209,14 @@ export default function MortgageBrokerVsBankPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Built into the process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Pricing Model</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Wholesale/Institutional</td><td className="py-2 px-4 border-b">Retail + Margin</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Programs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive (bank statement, etc.)</td><td className="py-2 px-4 border-b">Limited</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">If Denied</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Try another lender same day</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Speed</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Often faster</td><td className="py-2 px-4 border-b">Can be slower</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Relationship</td><td className="py-2 px-4 text-green-700 font-semibold">Personal, direct</td><td className="py-2 px-4">Corporate, transactional</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td><td className="py-2 px-4 border-b">1</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into the process</td><td className="py-2 px-4 border-b">Not possible</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Pricing Model</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Wholesale/Institutional</td><td className="py-2 px-4 border-b">Retail + Margin</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive (bank statement, etc.)</td><td className="py-2 px-4 border-b">Limited</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">If Denied</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender same day</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Speed</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Often faster</td><td className="py-2 px-4 border-b">Can be slower</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Relationship</td><td className="py-2 px-4 text-blue-700 font-semibold">Personal, direct</td><td className="py-2 px-4">Corporate, transactional</td></tr>
             </tbody>
           </table>
         </div>

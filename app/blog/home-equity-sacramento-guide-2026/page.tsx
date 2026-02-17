@@ -276,7 +276,7 @@ export default function HomeEquitySacramentoGuidePage() {
                 <td className="py-2 px-4 border-b font-semibold">Granite Bay</td>
                 <td className="py-2 px-4 border-b">$1,100,000</td>
                 <td className="py-2 px-4 border-b">$650,000 - $900,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">Jumbo HELOC / Cash-Out</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">Jumbo HELOC / Cash-Out</td>
                 <td className="py-2 px-4 border-b">Los Lagos, Quarry Ponds, Loomis Basin</td>
               </tr>
               <tr>
@@ -338,7 +338,7 @@ export default function HomeEquitySacramentoGuidePage() {
               <tr><td className="py-2 px-4 border-b font-medium">Max LTV</td><td className="py-2 px-4 border-b">80-90% CLTV</td><td className="py-2 px-4 border-b">80-90% CLTV</td><td className="py-2 px-4 border-b">80% LTV (conventional)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Closing Costs</td><td className="py-2 px-4 border-b">Low to none</td><td className="py-2 px-4 border-b">Moderate</td><td className="py-2 px-4 border-b">Higher (full refinance costs)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Closing Timeline</td><td className="py-2 px-4 border-b">2-4 weeks</td><td className="py-2 px-4 border-b">2-4 weeks</td><td className="py-2 px-4 border-b">30-45 days</td></tr>
-              <tr><td className="py-2 px-4 font-medium">Best Sacramento Fit</td><td className="py-2 px-4 text-blue-700">Homeowners keeping low first mortgage rate; ongoing/flexible needs</td><td className="py-2 px-4 text-blue-700">One-time fixed expense; rate certainty preference</td><td className="py-2 px-4 text-green-700 font-semibold">Homeowners with high-rate first mortgage; large lump sum need</td></tr>
+              <tr><td className="py-2 px-4 font-medium">Best Sacramento Fit</td><td className="py-2 px-4 text-blue-700">Homeowners keeping low first mortgage rate; ongoing/flexible needs</td><td className="py-2 px-4 text-blue-700">One-time fixed expense; rate certainty preference</td><td className="py-2 px-4 text-blue-700 font-semibold">Homeowners with high-rate first mortgage; large lump sum need</td></tr>
             </tbody>
           </table>
         </div>
@@ -626,7 +626,7 @@ export default function HomeEquitySacramentoGuidePage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Home Equity in the Sacramento &amp; Gold Country Region [2026]</h2>
           <p className="text-gray-800">
             The Sacramento and Gold Country region offers one of Northern California&apos;s strongest home equity markets, with five affluent cities providing $650,000 to $1.1 million in median property values and billions in collective accessible equity. Two powerful wealth drivers shape this market: decades of CalPERS pension accumulation by state government retirees and the massive Bay Area transplant migration that brought coastal equity to Capital Region suburbs. The result is a homeowner demographic with high equity, stable income, and strong motivation to access that equity for renovation, debt consolidation, ADU construction, and retirement planning.
@@ -635,20 +635,20 @@ export default function HomeEquitySacramentoGuidePage() {
             Product selection in the current rate environment hinges on your existing first mortgage rate. Homeowners with sub-4% rates originated in 2020-2021 preserve that favorable rate through HELOC products in second lien position. Homeowners with rates above current market levels benefit from cash-out refinancing that simultaneously lowers their first-lien rate and provides equity access. In every case, working with a wholesale broker who compares products from 200+ lenders ensures Sacramento homeowners receive the most competitive rates and lowest fees available.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and want to explore your equity options, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the home equity products best suited to your situation.
+            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and want to explore your equity options, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the home equity products best suited to your situation.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free Sacramento Home Equity Consultation</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             Serving El Dorado Hills, Granite Bay, Folsom, Roseville &amp; Davis
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

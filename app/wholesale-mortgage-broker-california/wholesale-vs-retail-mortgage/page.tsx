@@ -201,7 +201,7 @@ export default function WholesaleVsRetailMortgagePage() {
           <li><strong>Efficient operations:</strong> Focus exclusively on underwriting and funding</li>
         </ul>
 
-        <div className="bg-green-50 p-6 rounded-lg my-6 border border-green-200">
+        <div className="bg-slate-50 p-6 rounded-lg my-6 border border-slate-200">
           <h4 className="font-bold text-green-900 mt-0">Wholesale Advantage Example</h4>
           <p className="mb-0">
             On a $750,000 California home purchase, a 0.25% rate difference (6.25% vs 6.50%) saves approximately <strong>$13,500 in interest</strong> over 30 years. Additionally, wholesale closing costs are typically $2,000-4,000 lower than retail channels.
@@ -258,28 +258,28 @@ export default function WholesaleVsRetailMortgagePage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">$600K Conventional</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.125%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.125%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.375%</td>
                 <td className="px-4 py-2 border-b">$91</td>
                 <td className="px-4 py-2 border-b font-semibold">$32,760</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$1M Jumbo</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">6.375%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">6.375%</td>
                 <td className="px-4 py-2 border-b text-red-700">6.625%</td>
                 <td className="px-4 py-2 border-b">$158</td>
                 <td className="px-4 py-2 border-b font-semibold">$56,880</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$500K Bank Statement</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.25%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.25%</td>
                 <td className="px-4 py-2 border-b text-red-700">7.75%</td>
                 <td className="px-4 py-2 border-b">$166</td>
                 <td className="px-4 py-2 border-b font-semibold">$59,760</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">$800K DSCR Investment</td>
-                <td className="px-4 py-2 border-b text-green-700 font-semibold">7.00%</td>
+                <td className="px-4 py-2 border-b text-blue-700 font-semibold">7.00%</td>
                 <td className="px-4 py-2 border-b text-red-700">7.50%</td>
                 <td className="px-4 py-2 border-b">$260</td>
                 <td className="px-4 py-2 border-b font-semibold">$93,600</td>
@@ -308,22 +308,22 @@ export default function WholesaleVsRetailMortgagePage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">Origination Fee</td>
-                <td className="px-4 py-2 border-b text-green-700">0-0.5%</td>
+                <td className="px-4 py-2 border-b text-blue-700">0-0.5%</td>
                 <td className="px-4 py-2 border-b text-red-700">1-1.5%</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Processing Fee</td>
-                <td className="px-4 py-2 border-b text-green-700">$500-800</td>
+                <td className="px-4 py-2 border-b text-blue-700">$500-800</td>
                 <td className="px-4 py-2 border-b text-red-700">$800-1,500</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Underwriting Fee</td>
-                <td className="px-4 py-2 border-b text-green-700">$0-500</td>
+                <td className="px-4 py-2 border-b text-blue-700">$0-500</td>
                 <td className="px-4 py-2 border-b text-red-700">$500-1,000</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Admin/Doc Fees</td>
-                <td className="px-4 py-2 border-b text-green-700">$0-300</td>
+                <td className="px-4 py-2 border-b text-blue-700">$0-300</td>
                 <td className="px-4 py-2 border-b text-red-700">$300-750</td>
               </tr>
             </tbody>

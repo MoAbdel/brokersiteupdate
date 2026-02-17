@@ -560,31 +560,31 @@ export default function HomeEquityLABeachCities2026() {
                   <td className="px-4 py-3 border-t font-medium">Security Clearance Premium ($30K&ndash;$60K/yr)</td>
                   <td className="px-4 py-3 border-t">Often excluded as &quot;temporary&quot; = $0</td>
                   <td className="px-4 py-3 border-t">Counted with active clearance verification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$30K&ndash;$60K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$30K&ndash;$60K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Program Completion Bonus ($40K&ndash;$100K)</td>
                   <td className="px-4 py-3 border-t">Excluded (one-time) = $0</td>
                   <td className="px-4 py-3 border-t">2-yr average with employer verification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$40K&ndash;$100K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$40K&ndash;$100K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Overtime ($25K&ndash;$50K/yr for engineers)</td>
                   <td className="px-4 py-3 border-t">2-yr average with declining trend exclusion</td>
                   <td className="px-4 py-3 border-t">2-yr average, project-cycle aware</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$15K&ndash;$30K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$15K&ndash;$30K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Entertainment Residuals ($50K&ndash;$200K/yr)</td>
                   <td className="px-4 py-3 border-t">Excluded as variable = $0</td>
                   <td className="px-4 py-3 border-t">2-yr average of residual statements</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$50K&ndash;$200K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$50K&ndash;$200K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Episodic Fees ($150K&ndash;$400K/season)</td>
                   <td className="px-4 py-3 border-t">Requires 2-yr history, averaged = $75K&ndash;$200K</td>
                   <td className="px-4 py-3 border-t">Current contract value accepted</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$75K&ndash;$200K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$75K&ndash;$200K qualifying income</td>
                 </tr>
               </tbody>
             </table>
@@ -615,7 +615,7 @@ export default function HomeEquityLABeachCities2026() {
                   <td className="px-4 py-3 border-t">$2,650,000</td>
                   <td className="px-4 py-3 border-t">$3,050,000</td>
                   <td className="px-4 py-3 border-t">$3,400,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+28%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+28%</td>
                   <td className="px-4 py-3 border-t">Super-Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -623,7 +623,7 @@ export default function HomeEquityLABeachCities2026() {
                   <td className="px-4 py-3 border-t">$1,950,000</td>
                   <td className="px-4 py-3 border-t">$2,200,000</td>
                   <td className="px-4 py-3 border-t">$2,500,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+28%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+28%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr>
@@ -631,7 +631,7 @@ export default function HomeEquityLABeachCities2026() {
                   <td className="px-4 py-3 border-t">$1,100,000</td>
                   <td className="px-4 py-3 border-t">$1,280,000</td>
                   <td className="px-4 py-3 border-t">$1,500,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+36%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+36%</td>
                   <td className="px-4 py-3 border-t">Jumbo / Conforming</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -639,7 +639,7 @@ export default function HomeEquityLABeachCities2026() {
                   <td className="px-4 py-3 border-t">$815,000</td>
                   <td className="px-4 py-3 border-t">$1,020,000</td>
                   <td className="px-4 py-3 border-t">$1,200,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+47%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+47%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
               </tbody>
@@ -726,16 +726,16 @@ export default function HomeEquityLABeachCities2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in LA Beach Cities</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The LA Beach Cities corridor &mdash; Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo &mdash; holds an estimated $42 billion in combined residential equity, representing one of the highest per-capita concentrations of home equity in Los Angeles County. With median values ranging from $1.2M in El Segundo to $3.4M in Manhattan Beach, qualifying homeowners access $720K to $2M+ in tappable equity per property. Nearly every home in Manhattan Beach and Hermosa Beach requires jumbo lender access, making wholesale broker expertise essential.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The South Bay&apos;s aerospace and entertainment income landscape &mdash; security clearance premiums, program bonuses, residuals, episodic fees, and variable compensation &mdash; demands lenders who understand these structures. Conservative banks leave $30K&ndash;$200K+ in qualifying income on the table by excluding non-base compensation. Through wholesale broker access to 50+ jumbo lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer and compensation package.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Beach Cities property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Beach Cities property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

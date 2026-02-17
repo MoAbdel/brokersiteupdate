@@ -233,12 +233,12 @@ export default function WholesaleMortgageBroker92661Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Investment property</td><td className="py-2 px-4 border-b">Limited options, higher rates</td><td className="py-2 px-4 border-b text-green-700">DSCR and investor programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Short-term rental</td><td className="py-2 px-4 border-b">Often not considered</td><td className="py-2 px-4 border-b text-green-700">Vacation rental income accepted</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Multi-family jumbo</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-green-700">Multiple lender options</td></tr>
-              <tr><td className="py-2 px-4">Portfolio flexibility</td><td className="py-2 px-4">May limit properties</td><td className="py-2 px-4 text-green-700">Finance multiple investments</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Investment property</td><td className="py-2 px-4 border-b">Limited options, higher rates</td><td className="py-2 px-4 border-b text-blue-700">DSCR and investor programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Short-term rental</td><td className="py-2 px-4 border-b">Often not considered</td><td className="py-2 px-4 border-b text-blue-700">Vacation rental income accepted</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Multi-family jumbo</td><td className="py-2 px-4 border-b">Limited availability</td><td className="py-2 px-4 border-b text-blue-700">Multiple lender options</td></tr>
+              <tr><td className="py-2 px-4">Portfolio flexibility</td><td className="py-2 px-4">May limit properties</td><td className="py-2 px-4 text-blue-700">Finance multiple investments</td></tr>
             </tbody>
           </table>
         </div>

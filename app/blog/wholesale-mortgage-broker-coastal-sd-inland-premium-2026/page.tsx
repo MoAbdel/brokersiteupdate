@@ -286,28 +286,28 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
                   <td className="px-4 py-3 border-t">$2,500,000</td>
                   <td className="px-4 py-3 border-t">$1.5M&ndash;$4M</td>
                   <td className="px-4 py-3 border-t">Biotech professionals, UCSD faculty, physicians</td>
-                  <td className="px-4 py-3 border-t text-green-700">RSU/stock income qualification from 20+ jumbo lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">RSU/stock income qualification from 20+ jumbo lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Coronado</td>
                   <td className="px-4 py-3 border-t">$2,200,000</td>
                   <td className="px-4 py-3 border-t">$1.2M&ndash;$3.5M</td>
                   <td className="px-4 py-3 border-t">Navy officers, military retirees, luxury buyers</td>
-                  <td className="px-4 py-3 border-t text-green-700">VA-to-jumbo transitions, BAH income, island premiums</td>
+                  <td className="px-4 py-3 border-t text-blue-700">VA-to-jumbo transitions, BAH income, island premiums</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Carlsbad</td>
                   <td className="px-4 py-3 border-t">$1,300,000</td>
                   <td className="px-4 py-3 border-t">$800K&ndash;$2M</td>
                   <td className="px-4 py-3 border-t">Business owners, tech workers, families</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement programs, self-employed qualification</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement programs, self-employed qualification</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Poway</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
                   <td className="px-4 py-3 border-t">$700K&ndash;$1.5M</td>
                   <td className="px-4 py-3 border-t">Families relocating, equestrian buyers, professionals</td>
-                  <td className="px-4 py-3 border-t text-green-700">Acreage/equestrian lenders, Poway USD premium</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Acreage/equestrian lenders, Poway USD premium</td>
                 </tr>
               </tbody>
             </table>
@@ -338,49 +338,49 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo loan options</td>
-                  <td className="px-4 py-3 border-t text-green-700">20&ndash;30+ jumbo lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">20&ndash;30+ jumbo lenders</td>
                   <td className="px-4 py-3 border-t">1&ndash;2 in-house products</td>
                   <td className="px-4 py-3 border-t">1 product, strict criteria</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">RSU/stock income</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple lenders accept vested RSUs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple lenders accept vested RSUs</td>
                   <td className="px-4 py-3 border-t">Case-by-case, often denied</td>
                   <td className="px-4 py-3 border-t">Rarely accepted</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Military BAH/BAS income</td>
-                  <td className="px-4 py-3 border-t text-green-700">Full qualification, VA + conventional</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Full qualification, VA + conventional</td>
                   <td className="px-4 py-3 border-t">VA only, limited conventional</td>
                   <td className="px-4 py-3 border-t">VA only (NFCU exception)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Bank statement programs</td>
-                  <td className="px-4 py-3 border-t text-green-700">12 &amp; 24-month options, 15+ lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">12 &amp; 24-month options, 15+ lenders</td>
                   <td className="px-4 py-3 border-t">Not available</td>
                   <td className="px-4 py-3 border-t">Not available</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">DSCR investor loans</td>
-                  <td className="px-4 py-3 border-t text-green-700">30+ DSCR lenders, no income docs</td>
+                  <td className="px-4 py-3 border-t text-blue-700">30+ DSCR lenders, no income docs</td>
                   <td className="px-4 py-3 border-t">Not offered</td>
                   <td className="px-4 py-3 border-t">Not offered</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rate competitiveness</td>
-                  <td className="px-4 py-3 border-t text-green-700">Institutional wholesale pricing</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Institutional wholesale pricing</td>
                   <td className="px-4 py-3 border-t">Retail markup applied</td>
                   <td className="px-4 py-3 border-t">Competitive on small loans only</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Closing timeline</td>
-                  <td className="px-4 py-3 border-t text-green-700">21&ndash;30 days typical</td>
+                  <td className="px-4 py-3 border-t text-blue-700">21&ndash;30 days typical</td>
                   <td className="px-4 py-3 border-t">30&ndash;45 days</td>
                   <td className="px-4 py-3 border-t">35&ndash;50 days</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Non-QM/alternative docs</td>
-                  <td className="px-4 py-3 border-t text-green-700">Asset depletion, P&amp;L, 1099</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Asset depletion, P&amp;L, 1099</td>
                   <td className="px-4 py-3 border-t">Very limited</td>
                   <td className="px-4 py-3 border-t">Not available</td>
                 </tr>
@@ -405,7 +405,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
             The median home value of $2.5 million places virtually every La Jolla purchase in jumbo territory. From The Village&apos;s walkable oceanside charm to Bird Rock&apos;s surf-culture family homes and Windansea&apos;s iconic coastal properties, each La Jolla neighborhood demands loan amounts that wholesale broker access prices more competitively than any single bank. The Shores, La Jolla&apos;s most exclusive enclave, regularly sees transactions at $5M&ndash;$15M+ requiring ultra-jumbo specialists that only wholesale channels access.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-lg mb-2 mt-0">La Jolla Biotech Income Qualification</h3>
             <p className="mb-0">
               Biotech professionals earning $200K&ndash;$500K+ frequently receive 30&ndash;50% of compensation as RSUs. A senior scientist at Illumina with $180K base salary and $150K in vesting RSUs has $330K in qualifying income&mdash;but only through lenders who count equity compensation. Wholesale brokers connect these buyers to the 8&ndash;12 jumbo lenders who accept RSU income, expanding purchasing power by $400,000&ndash;$800,000 compared to banks that exclude stock-based pay.
@@ -480,7 +480,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
             Green Valley&apos;s equestrian properties, Old Poway&apos;s character homes, and the rural eastern reaches of the city present unique appraisal and underwriting challenges. Properties on 2&ndash;10+ acre parcels with horse facilities, secondary structures, and agricultural elements require lenders experienced in rural residential valuation. Wholesale broker access identifies the subset of jumbo and conventional lenders who underwrite acreage properties without penalizing lot size&mdash;a critical distinction when banks routinely decline homes on parcels exceeding 5 acres.
           </p>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-lg mb-2 mt-0">Poway Family Relocation Financing</h3>
             <p className="mb-0">
               Families relocating from coastal SD or out-of-state find Poway&apos;s value compelling: $1.1M buys a 3,000+ sq ft home on a half-acre lot with top-rated schools, compared to $2.5M+ for equivalent space in La Jolla. Wholesale brokers facilitate bridge loans for families selling and buying simultaneously, accessing lenders who count sale-of-home proceeds as reserves before the prior property closes. This eliminates the &quot;sell first, then buy&quot; dilemma that forces families into temporary housing.
@@ -646,42 +646,42 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
                   <td className="px-4 py-3 border-t">La Jolla</td>
                   <td className="px-4 py-3 border-t">RSU/stock compensation</td>
                   <td className="px-4 py-3 border-t">RSU-accepting jumbo lenders</td>
-                  <td className="px-4 py-3 border-t text-green-700">8&ndash;12</td>
+                  <td className="px-4 py-3 border-t text-blue-700">8&ndash;12</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Navy officer</td>
                   <td className="px-4 py-3 border-t">Coronado</td>
                   <td className="px-4 py-3 border-t">BAH/BAS non-taxable income</td>
                   <td className="px-4 py-3 border-t">VA jumbo + gross-up calculation</td>
-                  <td className="px-4 py-3 border-t text-green-700">15&ndash;20</td>
+                  <td className="px-4 py-3 border-t text-blue-700">15&ndash;20</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Restaurant/retail owner</td>
                   <td className="px-4 py-3 border-t">Carlsbad</td>
                   <td className="px-4 py-3 border-t">Tax write-offs reduce income</td>
                   <td className="px-4 py-3 border-t">12-mo bank statement program</td>
-                  <td className="px-4 py-3 border-t text-green-700">15+</td>
+                  <td className="px-4 py-3 border-t text-blue-700">15+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Defense contractor</td>
                   <td className="px-4 py-3 border-t">Poway</td>
                   <td className="px-4 py-3 border-t">Classified income restrictions</td>
                   <td className="px-4 py-3 border-t">VOE-based conventional programs</td>
-                  <td className="px-4 py-3 border-t text-green-700">10&ndash;15</td>
+                  <td className="px-4 py-3 border-t text-blue-700">10&ndash;15</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Real estate investor</td>
                   <td className="px-4 py-3 border-t">All 4 cities</td>
                   <td className="px-4 py-3 border-t">Multiple properties, complex returns</td>
                   <td className="px-4 py-3 border-t">DSCR, asset depletion</td>
-                  <td className="px-4 py-3 border-t text-green-700">30+</td>
+                  <td className="px-4 py-3 border-t text-blue-700">30+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Physician/surgeon</td>
                   <td className="px-4 py-3 border-t">La Jolla</td>
                   <td className="px-4 py-3 border-t">Student debt, new-attending income</td>
                   <td className="px-4 py-3 border-t">Doctor loan programs, DTI exceptions</td>
-                  <td className="px-4 py-3 border-t text-green-700">6&ndash;10</td>
+                  <td className="px-4 py-3 border-t text-blue-700">6&ndash;10</td>
                 </tr>
               </tbody>
             </table>

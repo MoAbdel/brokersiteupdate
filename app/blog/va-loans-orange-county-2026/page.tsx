@@ -112,12 +112,12 @@ export default function VALoansOrangeCountyPage() {
                             <tbody className="divide-y divide-blue-100">
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Down Payment</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">0%</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">0%</td>
                                     <td className="py-3 px-4">3% - 20%</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Monthly PMI</td>
-                                    <td className="py-3 px-4 text-green-700 font-bold">None</td>
+                                    <td className="py-3 px-4 text-blue-700 font-bold">None</td>
                                     <td className="py-3 px-4">Required if &lt;20% down</td>
                                 </tr>
                                 <tr>

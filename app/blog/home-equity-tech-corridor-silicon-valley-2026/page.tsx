@@ -384,9 +384,9 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Best For Tech Corridor Owners</td>
-                  <td className="px-4 py-3 border-t text-green-700">Ongoing access, renovations, RSU bridge</td>
-                  <td className="px-4 py-3 border-t text-green-700">One-time expense, rate certainty</td>
-                  <td className="px-4 py-3 border-t text-green-700">Rate improvement + cash access combined</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Ongoing access, renovations, RSU bridge</td>
+                  <td className="px-4 py-3 border-t text-blue-700">One-time expense, rate certainty</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Rate improvement + cash access combined</td>
                 </tr>
               </tbody>
             </table>
@@ -414,7 +414,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
             <li><strong>Title search and insurance:</strong> Ensures clear title and establishes lien position. Properties held in trusts or LLCs require additional documentation that wholesale lenders handle routinely.</li>
           </ol>
 
-          <div className="bg-amber-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
+          <div className="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
             <p className="mb-0"><strong>Tech Income Tip:</strong> If your compensation includes RSUs, stock options, bonuses, or deferred compensation, a wholesale broker is essential. Each lender has different policies for counting non-base salary income. One lender may count 100% of vested RSUs while another counts only 75%. A broker compares these policies to maximize your qualifying income.</p>
           </div>
 
@@ -835,7 +835,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY + CTA ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Home Equity in the Silicon Valley Tech Corridor</h2>
             <p>
               The Silicon Valley Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; represents one of the most equity-rich corridors in the United States. With median home values ranging from $1.3 million to $2 million, virtually every homeowner in this corridor holds equity that exceeds what standard bank products can access. Jumbo HELOCs, specialty HELOANs, and jumbo cash-out refinances available through the wholesale channel are the tools that unlock this value.
@@ -847,7 +847,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
               Whether you are a Google engineer in Cuesta Park considering an ADU, a dual-income LinkedIn couple in Cherry Chase consolidating debt, a first-generation homeowner in Cambrian funding college tuition, or a Campbell condo owner leveraging equity into a single-family upgrade, the right equity product at the right rate from the right lender changes the financial outcome.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to 200+ lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to 200+ lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 

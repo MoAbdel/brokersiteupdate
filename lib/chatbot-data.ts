@@ -374,7 +374,7 @@ export const fallbackResponses = [
 ];
 
 // Welcome message
-export const welcomeMessage = `👋 Hi! I'm Mo's AI assistant. I can help you with:
+export const welcomeMessage = `Hi! I'm Mo's AI assistant. I can help you with:
 • Current refinance pricing and programs
 • Home equity solutions (HELOC/HELOAN)
 • Qualification requirements for refinancing
@@ -383,6 +383,6 @@ export const welcomeMessage = `👋 Hi! I'm Mo's AI assistant. I can help you wi
 
 What can I help you with today?
 
-📞 For personalized assistance: (949) 822-9662
+For personalized assistance: (949) 822-9662
 
 *This is an automated assistant. Information provided is for educational purposes only and not a commitment to lend. All loans subject to underwriting approval. Pricing and terms subject to change without notice.*`;

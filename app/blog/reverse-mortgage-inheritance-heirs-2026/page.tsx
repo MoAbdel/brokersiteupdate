@@ -98,8 +98,8 @@ export default function ReverseMortgageInheritanceHeirsPage() {
           The most important protection for reverse mortgage borrowers and their heirs is the non-recourse feature mandated by FHA:
         </p>
 
-        <div className="bg-green-50 p-6 rounded-xl my-6">
-          <h3 className="mt-0 text-green-800">What Non-Recourse Means</h3>
+        <div className="bg-slate-50 p-6 rounded-xl my-6">
+          <h3 className="mt-0 text-slate-900">What Non-Recourse Means</h3>
           <ul className="text-green-900 mb-0">
             <li><strong>Maximum liability = home value:</strong> Neither borrower nor heirs ever owe more than the home is worth</li>
             <li><strong>No personal liability:</strong> The debt cannot follow heirs to their personal assets</li>
@@ -120,9 +120,9 @@ export default function ReverseMortgageInheritanceHeirsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Equity remaining</td><td className="py-2 px-4 border-b">$400,000</td><td className="py-2 px-4 border-b">$600,000</td><td className="py-2 px-4 border-b text-green-700">Pay $400,000, inherit $200,000 equity</td></tr>
+              <tr><td className="py-2 px-4 border-b">Equity remaining</td><td className="py-2 px-4 border-b">$400,000</td><td className="py-2 px-4 border-b">$600,000</td><td className="py-2 px-4 border-b text-blue-700">Pay $400,000, inherit $200,000 equity</td></tr>
               <tr><td className="py-2 px-4 border-b">Break even</td><td className="py-2 px-4 border-b">$500,000</td><td className="py-2 px-4 border-b">$500,000</td><td className="py-2 px-4 border-b">Pay $500,000 to keep home, or walk away</td></tr>
-              <tr><td className="py-2 px-4">Underwater</td><td className="py-2 px-4">$600,000</td><td className="py-2 px-4">$450,000</td><td className="py-2 px-4 text-green-700">Pay only $427,500 (95% of value) to keep, OR walk away with zero owed</td></tr>
+              <tr><td className="py-2 px-4">Underwater</td><td className="py-2 px-4">$600,000</td><td className="py-2 px-4">$450,000</td><td className="py-2 px-4 text-blue-700">Pay only $427,500 (95% of value) to keep, OR walk away with zero owed</td></tr>
             </tbody>
           </table>
         </div>

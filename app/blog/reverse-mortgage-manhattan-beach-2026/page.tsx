@@ -180,7 +180,7 @@ export default function ReverseMortgageManhattanBeachPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Manhattan Beach</td><td className="py-2 px-4 border-b">$3.2M</td><td className="py-2 px-4 border-b text-green-700 font-semibold">High (Jumbo available)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Manhattan Beach</td><td className="py-2 px-4 border-b">$3.2M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">High (Jumbo available)</td></tr>
               <tr><td className="py-2 px-4 border-b">Hermosa Beach</td><td className="py-2 px-4 border-b">$2.0M</td><td className="py-2 px-4 border-b">High</td></tr>
               <tr><td className="py-2 px-4 border-b">Redondo Beach</td><td className="py-2 px-4 border-b">$1.4M</td><td className="py-2 px-4 border-b">High</td></tr>
               <tr><td className="py-2 px-4">El Segundo</td><td className="py-2 px-4">$1.5M</td><td className="py-2 px-4">High</td></tr>

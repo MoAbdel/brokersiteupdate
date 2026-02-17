@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { DollarSign, PieChart, TrendingUp, Users, Check, AlertCircle, Calculator, Phone } from 'lucide-react';
+import { DollarSign, PieChart, TrendingUp, Users, Check, AlertCircle, Calculator, Phone, XCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Asset Depletion Loans Orange County | Asset-Based Mortgage | High Net Worth Lending',
@@ -25,9 +25,9 @@ export default function AssetDepletionLoansPage() {
         
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <Badge className="bg-green-100 text-green-600 mb-4">High Net Worth Program</Badge>
+          <Badge className="bg-slate-100 text-blue-600 mb-4">High Net Worth Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-green-600">Asset Depletion Loans</span> in Orange County
+            <span className="text-blue-600">Asset Depletion Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             High net worth but limited income documentation? Qualify for your Orange County mortgage 
@@ -35,12 +35,12 @@ export default function AssetDepletionLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Asset-Based Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-green-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -61,21 +61,21 @@ export default function AssetDepletionLoansPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">No Income Documentation</h3>
                     <p className="text-slate-600">No W-2s, tax returns, or employment verification required</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">Asset-Based Qualification</h3>
                     <p className="text-slate-600">Use retirement accounts, investments, and savings to qualify</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <Check className="w-6 h-6 text-green-600 mr-3 mt-1" />
+                  <Check className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-slate-900">High Loan Amounts</h3>
                     <p className="text-slate-600">Up to $5M for qualified high net worth borrowers</p>
@@ -84,7 +84,7 @@ export default function AssetDepletionLoansPage() {
               </div>
             </div>
             
-            <div className="bg-green-50 p-6 rounded-lg">
+            <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Perfect For:</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Retirees with substantial assets</li>
@@ -107,8 +107,8 @@ export default function AssetDepletionLoansPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <PieChart className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <PieChart className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">1. Asset Documentation</CardTitle>
               </CardHeader>
@@ -122,8 +122,8 @@ export default function AssetDepletionLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calculator className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Calculator className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">2. Income Calculation</CardTitle>
               </CardHeader>
@@ -137,8 +137,8 @@ export default function AssetDepletionLoansPage() {
 
             <Card className="text-center">
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
                 <CardTitle className="text-center">3. Loan Approval</CardTitle>
               </CardHeader>
@@ -159,53 +159,62 @@ export default function AssetDepletionLoansPage() {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold text-slate-900 mb-4">✅ Qualifying Assets (100%)</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <Check className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Qualifying Assets (100%)</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Bank accounts (checking/savings)</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Money market accounts</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">CDs (Certificates of Deposit)</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Treasury bills and bonds</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Publicly traded securities</span>
                 </div>
               </div>
               
-              <h3 className="text-xl font-bold text-slate-900 mb-4 mt-6">✅ Retirement Accounts (70%)</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-4 mt-6 flex items-center gap-2">
+                <Check className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Retirement Accounts (70%)</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">401(k) and 403(b) accounts</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Traditional and Roth IRAs</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">SEP-IRAs and SIMPLE IRAs</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
-                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <Check className="w-5 h-5 text-blue-600 mr-3" />
                   <span className="text-slate-700">Pension plans</span>
                 </div>
               </div>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold text-slate-900 mb-4">❌ Non-Qualifying Assets</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <XCircle className="w-5 h-5 text-red-600" aria-hidden="true" />
+                <span>Non-Qualifying Assets</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-center bg-red-50 p-3 rounded-lg">
                   <AlertCircle className="w-5 h-5 text-red-600 mr-3" />
@@ -229,7 +238,7 @@ export default function AssetDepletionLoansPage() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-6">
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-6">
                 <h4 className="font-bold text-slate-900 mb-2">Asset Calculation Example:</h4>
                 <div className="text-sm text-slate-700">
                   <div className="flex justify-between mb-1">
@@ -290,32 +299,32 @@ export default function AssetDepletionLoansPage() {
               <h3 className="text-xl font-bold text-slate-900 mb-4">Documentation Required</h3>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Asset statements (2-3 months)</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Credit report</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Property appraisal</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Purchase contract (if buying)</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Asset verification letters</span>
                 </div>
                 <div className="flex items-center">
-                  <Check className="w-5 h-5 text-green-600 mr-2" />
+                  <Check className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-slate-700">Identity verification</span>
                 </div>
               </div>
               
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
                 <h4 className="font-bold text-slate-900 mb-2">Asset Requirements:</h4>
                 <p className="text-sm text-slate-700">
                   Minimum $500K in qualifying liquid assets required. 
@@ -327,7 +336,7 @@ export default function AssetDepletionLoansPage() {
         </div>
 
         {/* Orange County Market */}
-        <div className="bg-green-50 rounded-lg p-8 mb-12">
+        <div className="bg-slate-50 rounded-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">
             Asset Depletion Loans in Orange County
           </h2>
@@ -372,19 +381,19 @@ export default function AssetDepletionLoansPage() {
                 <h4 className="font-bold text-slate-900 mb-3">Advantages for Orange County Buyers</h4>
                 <div className="space-y-2 text-slate-700">
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>No income documentation delays</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Perfect for luxury home purchases</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Privacy protection for high net worth</span>
                   </div>
                   <div className="flex items-center">
-                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    <Check className="w-4 h-4 text-blue-600 mr-2" />
                     <span>Quick closings for competitive offers</span>
                   </div>
                 </div>
@@ -434,24 +443,24 @@ export default function AssetDepletionLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-green-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Leverage Your Assets for Your Dream Home</h2>
-          <p className="text-xl mb-6 text-green-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved using your investment portfolio and liquid assets
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start Asset-Based Application
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-green-100 mt-4">
+          <p className="text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • High Net Worth Specialist
           </p>
         </div>

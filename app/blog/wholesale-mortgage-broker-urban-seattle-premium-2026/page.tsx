@@ -357,52 +357,52 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Jumbo Rate ($1.15M+ King County)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.125% &ndash; 6.500%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.125% &ndash; 6.500%</td>
                 <td className="border border-gray-300 px-4 py-3">6.500% &ndash; 7.000%</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Super Jumbo Rate ($2M+)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">6.250% &ndash; 6.750%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">6.250% &ndash; 6.750%</td>
                 <td className="border border-gray-300 px-4 py-3">6.750% &ndash; 7.250%</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Lender Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the bank)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">RSU/Stock Income Qualification</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">1-year vesting history; unvested counted</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">1-year vesting history; unvested counted</td>
                 <td className="border border-gray-300 px-4 py-3">2-year average; unvested excluded</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Bank Statement Programs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">25+ program options</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">25+ program options</td>
                 <td className="border border-gray-300 px-4 py-3">0&ndash;1 programs</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">DSCR Investment Loans</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">20+ DSCR lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">20+ DSCR lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Not offered</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Condo Approval Flexibility</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">30+ condo-friendly lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">30+ condo-friendly lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Bank&apos;s approved list only</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Waterfront Property Expertise</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Specialized appraisers + waterfront lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Specialized appraisers + waterfront lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Standard appraisal process</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Closing Timeline</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">21&ndash;30 days</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">21&ndash;30 days</td>
                 <td className="border border-gray-300 px-4 py-3">30&ndash;45 days</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Savings ($1.5M loan, 30-year)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$52,000 &ndash; $68,000 total</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$52,000 &ndash; $68,000 total</td>
                 <td className="border border-gray-300 px-4 py-3">Baseline</td>
               </tr>
             </tbody>
@@ -604,7 +604,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Capitol Hill</td>
                 <td className="border border-gray-300 px-4 py-3">$1,125,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,250,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+11.1%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+11.1%</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$125,000</td>
               </tr>
@@ -612,7 +612,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Central District</td>
                 <td className="border border-gray-300 px-4 py-3">$980,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+12.2%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+12.2%</td>
                 <td className="border border-gray-300 px-4 py-3">High-Balance / Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$110,000</td>
               </tr>
@@ -620,7 +620,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Madison Park</td>
                 <td className="border border-gray-300 px-4 py-3">$2,550,000</td>
                 <td className="border border-gray-300 px-4 py-3">$2,800,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+9.8%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+9.8%</td>
                 <td className="border border-gray-300 px-4 py-3">Super Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$280,000</td>
               </tr>
@@ -628,7 +628,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Montlake</td>
                 <td className="border border-gray-300 px-4 py-3">$1,780,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,950,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+9.6%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+9.6%</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$195,000</td>
               </tr>
@@ -636,7 +636,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Queen Anne (Upper)</td>
                 <td className="border border-gray-300 px-4 py-3">$1,480,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,650,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+11.5%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+11.5%</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$165,000</td>
               </tr>
@@ -644,7 +644,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Magnolia</td>
                 <td className="border border-gray-300 px-4 py-3">$1,310,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,450,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+10.7%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+10.7%</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$145,000</td>
               </tr>
@@ -652,7 +652,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Ballard</td>
                 <td className="border border-gray-300 px-4 py-3">$935,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,050,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+12.3%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+12.3%</td>
                 <td className="border border-gray-300 px-4 py-3">High-Balance / Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$105,000</td>
               </tr>
@@ -660,7 +660,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Fremont</td>
                 <td className="border border-gray-300 px-4 py-3">$920,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,025,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+11.4%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+11.4%</td>
                 <td className="border border-gray-300 px-4 py-3">High-Balance / Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$102,500</td>
               </tr>
@@ -668,7 +668,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">West Seattle</td>
                 <td className="border border-gray-300 px-4 py-3">$825,000</td>
                 <td className="border border-gray-300 px-4 py-3">$975,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+18.2%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+18.2%</td>
                 <td className="border border-gray-300 px-4 py-3">High-Balance Conventional</td>
                 <td className="border border-gray-300 px-4 py-3">$97,500</td>
               </tr>
@@ -676,7 +676,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bainbridge Island</td>
                 <td className="border border-gray-300 px-4 py-3">$975,000</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
-                <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">+12.8%</td>
+                <td className="border border-gray-300 px-4 py-3 text-blue-700 font-semibold">+12.8%</td>
                 <td className="border border-gray-300 px-4 py-3">Jumbo</td>
                 <td className="border border-gray-300 px-4 py-3">$110,000</td>
               </tr>
@@ -813,21 +813,21 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
         </div>
 
         {/* Expert Summary + CTA */}
-        <div id="expert-summary" className="expert-summary bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div id="expert-summary" className="expert-summary bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: Urban Seattle Premium Wholesale Mortgage Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             Seattle&apos;s premium neighborhoods demand mortgage solutions that no single bank provides. Capitol Hill tech professionals need RSU-optimized underwriting that recognizes 100% of their compensation. Madison Park waterfront buyers require super jumbo lenders who value lake frontage accurately. Ballard investors need DSCR financing with zero personal income documentation. Bainbridge Island remote workers need jumbo lenders comfortable with island property types and ferry-community dynamics. Wholesale access to 200+ lenders solves every one of these challenges with competitive rates and specialized programs.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             The numbers quantify the wholesale advantage: 0.25&ndash;0.50% lower rates saving $52,000&ndash;$68,000 per $1.5 million loan over 30 years, 15&ndash;30% more purchasing power through tech-friendly RSU underwriting, 50+ jumbo lender options versus a bank&apos;s single product, and 20+ DSCR programs for investment property financing that banks refuse to offer. These advantages compound for every borrower with complex income, premium property type, or investment goals.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides direct wholesale lender access through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong> for urban Seattle premium neighborhood buyers and investors. Licensed in Washington and California with relationships across 200+ wholesale lenders, Mo delivers the rate competition, RSU expertise, and program breadth that Seattle&apos;s premium market demands.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to access wholesale mortgage rates for your Seattle premium neighborhood purchase?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1&ndash;2 business days.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to access wholesale mortgage rates for your Seattle premium neighborhood purchase?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1&ndash;2 business days.
           </p>
         </div>
 

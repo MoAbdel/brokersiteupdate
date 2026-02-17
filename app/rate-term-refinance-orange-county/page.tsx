@@ -210,12 +210,12 @@ export default function RateTermRefinanceOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Rate & Term Refinance in Orange County – Lower Your Payment
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-indigo-100 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance pricing from 200+ lenders for your Orange County home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold" aria-label="Get a refinance quote">
+                <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold" aria-label="Get a refinance quote">
                   Get Refinance Quote
                 </Button>
               </Link>
@@ -246,7 +246,7 @@ export default function RateTermRefinanceOrangeCounty() {
               <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="w-12 h-12 bg-gradient-to-br from-indigo-100 to-blue-100 rounded-lg flex items-center justify-center mb-4">
-                    <benefit.icon className="w-6 h-6 text-indigo-600" aria-hidden="true" />
+                    <benefit.icon className="w-6 h-6 text-blue-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">{benefit.title}</h3>
                   <p className="text-slate-600">{benefit.description}</p>
@@ -275,7 +275,7 @@ export default function RateTermRefinanceOrangeCounty() {
                 <CardContent className="p-6">
                   <div className="flex justify-between items-start mb-4">
                     <h3 className="text-xl font-bold text-slate-900">{scenario.scenario}</h3>
-                    <Badge className="bg-indigo-100 text-indigo-800">{scenario.savings}</Badge>
+                    <Badge className="bg-slate-100 text-indigo-800">{scenario.savings}</Badge>
                   </div>
                   <p className="text-slate-600">{scenario.description}</p>
                 </CardContent>
@@ -304,7 +304,7 @@ export default function RateTermRefinanceOrangeCounty() {
                   <h3 className="text-xl font-bold text-slate-900 mb-3">{type.type}</h3>
                   <p className="text-slate-600 mb-4">{type.description}</p>
                   <div className="bg-gradient-to-r from-indigo-50 to-blue-50 p-3 rounded-lg">
-                    <p className="text-sm font-medium text-indigo-700">
+                    <p className="text-sm font-medium text-blue-700">
                       <strong>Best for:</strong> {type.bestFor}
                     </p>
                   </div>
@@ -329,7 +329,7 @@ export default function RateTermRefinanceOrangeCounty() {
               <div className="space-y-4">
                 {requirements.map((requirement, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                    <CheckCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
                     <span className="text-slate-700">{requirement}</span>
                   </div>
                 ))}
@@ -344,15 +344,15 @@ export default function RateTermRefinanceOrangeCounty() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">New Pricing</label>
-                  <div className="text-2xl font-bold text-green-600">5.5%</div>
+                  <div className="text-2xl font-bold text-blue-600">5.5%</div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">Monthly Savings</label>
-                  <div className="text-2xl font-bold text-indigo-600">$250+</div>
+                  <div className="text-2xl font-bold text-blue-600">$250+</div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">Annual Savings</label>
-                  <div className="text-2xl font-bold text-purple-600">$3,000+</div>
+                  <div className="text-2xl font-bold text-blue-600">$3,000+</div>
                 </div>
               </div>
               <div className="mt-6">
@@ -450,13 +450,13 @@ export default function RateTermRefinanceOrangeCounty() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Lower Your Orange County Mortgage Payment?
           </h2>
-          <p className="text-xl mb-8 text-indigo-100" data-speakable="true">
+          <p className="text-xl mb-8 text-slate-200" data-speakable="true">
             Access competitive refinance pricing from 200+ lenders and start saving money every month.
             Mo Abdel makes refinancing simple and profitable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold" aria-label="Start your refinance application">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4 text-lg font-semibold" aria-label="Start your refinance application">
                 Start Your Refinance
               </Button>
             </Link>

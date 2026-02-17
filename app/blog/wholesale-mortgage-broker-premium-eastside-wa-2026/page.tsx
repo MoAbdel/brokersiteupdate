@@ -544,7 +544,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
             Newcastle&apos;s proximity to Microsoft&apos;s Factoria and Redmond campuses means a significant portion of buyers carry RSU-dominant compensation packages. In our Newcastle transactions, dual-tech-income households present unique DTI challenges when both spouses hold RSU grants. A wholesale broker accesses lenders using the most favorable RSU calculation methodology&mdash;some count 100% of vested RSU income, while others use a conservative two-year average. The difference in qualification amount between lender guidelines can exceed $400,000 in purchasing power. Newcastle also attracts Bellevue investors building rental portfolios; DSCR loans through wholesale channels allow these investors to finance Newcastle rental properties based on rent alone, without impacting their primary residence mortgage qualification.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Newcastle Scenario: Dual-Tech Income Jumbo</h4>
             <p className="mb-0">A Microsoft engineer and Google product manager purchased a $1.65M Newcastle Hills view home. Combined base salary of $380K with $420K in RSUs required a lender counting full vested RSU income. Wholesale channel identified a lender approving at 6.25% jumbo&mdash;two retail banks had declined due to conservative RSU treatment.</p>
           </div>
@@ -628,7 +628,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
             Kirkland&apos;s competitive market dynamics demand fast-close capability from wholesale channels. Properties in Juanita and Houghton receive 5-12 offers within the first week, and buyers with conventional pre-approval from a retail bank regularly lose to cash offers. Wholesale broker pre-approval with full underwriting sign-off and 21-day close commitment levels the playing field. Mixed-use investment properties near downtown Kirkland and Totem Lake&mdash;such as live-work units and retail-residential combos&mdash;require lenders with mixed-use underwriting experience. DSCR loans through wholesale channels enable Kirkland investors to finance these properties based on rental income projections alone, an option unavailable at retail banks. In our Kirkland closings, we consistently see Google employees with L5-L7 compensation packages where 50-70% of total comp is in RSUs, requiring lenders with proven Google equity valuation methodologies.
           </p>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Kirkland Scenario: Waterfront Jumbo With RSU Income</h4>
             <p className="mb-0">A Google senior staff engineer purchased a $2.8M Moss Bay waterfront property. Base salary of $265K plus $650K in vesting RSUs. Wholesale lender used two-year RSU average plus 60% of unvested stock value for reserves, approving at 6.00% jumbo&mdash;0.625% below the best retail waterfront jumbo offer, saving $1,458/month.</p>
           </div>
@@ -670,7 +670,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
             Redmond&apos;s new construction pipeline is the largest on the Premium Eastside, with developments near Marymoor Park, Overlake Village, and the Spring District creating strong demand for construction-to-permanent and end-loan financing. Wholesale channels offer single-close construction loans that lock the permanent rate at construction start&mdash;a critical advantage in a rising-rate environment. Microsoft&apos;s ESPP program allows employees to purchase company stock at a 15% discount, creating an additional income stream that some lenders count toward qualification. In our Redmond closings, we have found that the difference between lenders who count ESPP income and those who ignore it can mean $150,000-$250,000 in additional purchasing power. For Redmond investors building rental portfolios near the expanding light rail network, DSCR loans provide a path to finance investment properties without impacting their primary home mortgage DTI. Rental demand near the new light rail stations drives DSCR ratios of 1.15-1.35, comfortably above the 1.0 threshold.
           </p>
 
-          <div className="bg-indigo-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Redmond Scenario: New Construction End-Loan</h4>
             <p className="mb-0">A Microsoft principal engineer purchased a $1.45M new-build on Education Hill. Builder required close within 30 days of completion. Wholesale broker secured 25-day close with a jumbo lender at 6.125%, counting Microsoft RSUs and ESPP as qualifying income. Retail bank had quoted 6.50% and could not meet the 30-day deadline.</p>
           </div>

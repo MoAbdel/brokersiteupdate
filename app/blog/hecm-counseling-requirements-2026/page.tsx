@@ -209,8 +209,8 @@ export default function HECMCounselingPage() {
           can process your application without a valid counseling certificate.
         </p>
 
-        <div className="bg-green-50 border border-green-200 p-6 rounded-lg my-8 not-prose">
-          <h3 className="text-lg font-bold text-green-800 mb-3">Why Counseling Protects You</h3>
+        <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8 not-prose">
+          <h3 className="text-lg font-bold text-slate-900 mb-3">Why Counseling Protects You</h3>
           <ul className="space-y-2 text-gray-700">
             <li>✓ <strong>Independent perspective:</strong> Counselors have no financial interest in your loan decision</li>
             <li>✓ <strong>Complete information:</strong> All costs, risks, and alternatives must be discussed</li>
@@ -719,9 +719,9 @@ export default function HECMCounselingPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-xl mt-12 not-prose">
+        <div className="bg-slate-900 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Ready to Explore Your Options?</h3>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Before counseling, it helps to understand your potential loan amount and options.
             Let's discuss your situation and provide preliminary information to make your
             counseling session more productive.

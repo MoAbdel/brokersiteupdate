@@ -333,8 +333,8 @@ export default function ProprietaryReverseMortgagePage() {
           HECM's first-year disbursement limits allow.
         </p>
 
-        <div className="bg-green-50 border border-green-200 p-6 rounded-lg my-8 not-prose">
-          <h3 className="text-lg font-bold text-green-800 mb-3">When HECM Is Still Better</h3>
+        <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8 not-prose">
+          <h3 className="text-lg font-bold text-slate-900 mb-3">When HECM Is Still Better</h3>
           <p className="text-gray-700 mb-4">
             Even with high-value homes, HECM may be preferable when:
           </p>
@@ -468,7 +468,7 @@ export default function ProprietaryReverseMortgagePage() {
 
         <div className="space-y-4 my-8">
           <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
             <div>
               <h4 className="font-semibold">Higher Loan Amounts</h4>
               <p className="text-gray-600 text-sm">Access significantly more equity from high-value homes—potentially $1 million+ more than HECM maximum.</p>
@@ -476,7 +476,7 @@ export default function ProprietaryReverseMortgagePage() {
           </div>
 
           <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
             <div>
               <h4 className="font-semibold">No FHA Mortgage Insurance Premium</h4>
               <p className="text-gray-600 text-sm">Save 2% upfront plus 0.5% annually that HECM borrowers pay for FHA insurance.</p>
@@ -484,7 +484,7 @@ export default function ProprietaryReverseMortgagePage() {
           </div>
 
           <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
             <div>
               <h4 className="font-semibold">Younger Borrower Options</h4>
               <p className="text-gray-600 text-sm">Some programs accept borrowers as young as 55, versus HECM's 62 minimum.</p>
@@ -492,7 +492,7 @@ export default function ProprietaryReverseMortgagePage() {
           </div>
 
           <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
             <div>
               <h4 className="font-semibold">Condo Flexibility</h4>
               <p className="text-gray-600 text-sm">Condos don't need FHA approval, expanding options for condo owners.</p>
@@ -500,7 +500,7 @@ export default function ProprietaryReverseMortgagePage() {
           </div>
 
           <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-            <div className="bg-green-100 text-green-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">5</div>
+            <div className="bg-slate-100 text-blue-700 font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">5</div>
             <div>
               <h4 className="font-semibold">Faster Processing</h4>
               <p className="text-gray-600 text-sm">Without FHA underwriting requirements, some proprietary loans close more quickly.</p>
@@ -760,7 +760,7 @@ export default function ProprietaryReverseMortgagePage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Have a High-Value Home?</h3>
-          <p className="text-purple-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Let's discuss whether a proprietary reverse mortgage makes sense for your situation.
             I'll compare HECM and jumbo options to find the best solution for accessing your
             home equity.
@@ -768,13 +768,13 @@ export default function ProprietaryReverseMortgagePage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
-              className="inline-block bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors text-center"
+              className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-slate-50 transition-colors text-center"
             >
               Schedule Consultation
             </Link>
             <a
               href="tel:+19498229662"
-              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors text-center"
+              className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
               Call (949) 822-9662
             </a>

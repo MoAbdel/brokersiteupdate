@@ -468,8 +468,8 @@ export default function CashOutRefinanceHowItWorksPage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 my-6">
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-bold text-green-800 mb-3">Cash-Out Refinance Advantages</h3>
+            <div className="bg-slate-50 p-6 rounded-lg">
+              <h3 className="font-bold text-slate-900 mb-3">Cash-Out Refinance Advantages</h3>
               <ul className="space-y-2 text-green-900">
                 <li>Single monthly payment simplicity</li>
                 <li>Fixed rate option for predictability</li>
@@ -609,7 +609,7 @@ export default function CashOutRefinanceHowItWorksPage() {
             <p className="text-blue-800 font-semibold">
               Call: (949) 822-9662 | Email: mabdel@luminlending.com
             </p>
-            <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
+            <a href="/contact" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors mt-4">
               Request Your Free Quote
             </a>
           </div>

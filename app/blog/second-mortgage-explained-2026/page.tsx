@@ -200,11 +200,11 @@ export default function SecondMortgageExplainedPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">First mortgage</td><td className="py-2 px-4 border-b text-green-700">Stays the same</td><td className="py-2 px-4 border-b">Replaced with new loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Current low rate</td><td className="py-2 px-4 border-b text-green-700">Preserved</td><td className="py-2 px-4 border-b text-red-600">Lost</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Number of payments</td><td className="py-2 px-4 border-b">Two (first + second)</td><td className="py-2 px-4 border-b text-green-700">One</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Closing costs</td><td className="py-2 px-4 border-b text-green-700">Lower (only on second)</td><td className="py-2 px-4 border-b">Higher (on full amount)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate on new money</td><td className="py-2 px-4 border-b">Higher (second lien)</td><td className="py-2 px-4 border-b text-green-700">Lower (first lien)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">First mortgage</td><td className="py-2 px-4 border-b text-blue-700">Stays the same</td><td className="py-2 px-4 border-b">Replaced with new loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Current low rate</td><td className="py-2 px-4 border-b text-blue-700">Preserved</td><td className="py-2 px-4 border-b text-red-600">Lost</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Number of payments</td><td className="py-2 px-4 border-b">Two (first + second)</td><td className="py-2 px-4 border-b text-blue-700">One</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Closing costs</td><td className="py-2 px-4 border-b text-blue-700">Lower (only on second)</td><td className="py-2 px-4 border-b">Higher (on full amount)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate on new money</td><td className="py-2 px-4 border-b">Higher (second lien)</td><td className="py-2 px-4 border-b text-blue-700">Lower (first lien)</td></tr>
               <tr><td className="py-2 px-4">Best when</td><td className="py-2 px-4">First mortgage rate is great</td><td className="py-2 px-4">First mortgage rate is high</td></tr>
             </tbody>
           </table>

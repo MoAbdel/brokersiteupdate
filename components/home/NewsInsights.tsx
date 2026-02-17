@@ -191,7 +191,7 @@ export default function NewsInsights() {
                 <Button
                   type="submit"
                   disabled={isSubmitting || !email.trim()}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 whitespace-nowrap"
+                  className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 whitespace-nowrap"
                 >
                   {isSubmitting ? (
                     'Subscribing...'

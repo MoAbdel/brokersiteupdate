@@ -213,46 +213,46 @@ export default function SelfEmployedMortgageBrokerPage() {
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Bank Statement Programs</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">25+ lender options</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">25+ lender options</td>
                   <td className="py-3 px-4 border-b">Rarely available</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Income Calculation Methods</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Multiple approaches</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Multiple approaches</td>
                   <td className="py-3 px-4 border-b">Tax returns only</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Expense Factor Flexibility</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">50-90% options</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">50-90% options</td>
                   <td className="py-3 px-4 border-b">N/A</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Asset Depletion</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Available</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Available</td>
                   <td className="py-3 px-4 border-b">Rarely</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">1-Year Self-Employment</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Some lenders allow</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Some lenders allow</td>
                   <td className="py-3 px-4 border-b">2 years required</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">If Declined</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">Try another lender</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">Try another lender</td>
                   <td className="py-3 px-4 border-b">Start over elsewhere</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Jumbo Options</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Up to $3M+</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Up to $3M+</td>
                   <td className="py-3 px-4">Limited</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-4 mt-6">
-            <p className="font-semibold text-green-800 mb-1">The Bottom Line</p>
-            <p className="text-green-700 mb-0">
+          <div className="bg-slate-50 border-l-4 border-green-500 p-4 mt-6">
+            <p className="font-semibold text-slate-900 mb-1">The Bottom Line</p>
+            <p className="text-blue-700 mb-0">
               Self-employed borrowers need mortgage brokers because banks lack the program variety required to serve entrepreneurs, business owners, and freelancers. Wholesale broker access to 25+ self-employed lending programs means finding qualification paths that banks simply cannot offer.
             </p>
           </div>
@@ -642,13 +642,13 @@ export default function SelfEmployedMortgageBrokerPage() {
         {/* Expert Summary + CTA */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl my-10">
           <h2 className="text-2xl font-bold text-white mt-0 mb-4">Expert Summary: Self-Employed Mortgage Success</h2>
-          <p className="text-blue-100 mb-4">
+          <p className="text-slate-200 mb-4">
             Self-employed borrowers face mortgage challenges that banks cannot solve. The mismatch between tax optimization and income documentation creates qualification barriers that require specialized programs—bank statement loans, asset depletion, 1099 programs, and creative conventional structuring.
           </p>
-          <p className="text-blue-100 mb-4">
+          <p className="text-slate-200 mb-4">
             Wholesale mortgage brokers access 25+ lenders offering these specialized programs. The variety of income calculation methods, expense factors, credit requirements, and loan limits means finding qualification paths that banks simply cannot offer. When one lender declines, another with different guidelines may approve.
           </p>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Mo Abdel, NMLS #1426884, specializes in self-employed mortgage solutions throughout California and Washington. Through Lumin Lending (NMLS #2716106), Mo provides the wholesale market access that transforms self-employed mortgage challenges into successful homeownership.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

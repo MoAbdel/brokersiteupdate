@@ -59,14 +59,14 @@ export default function ProgramSnapshot() {
                 <ul className="text-sm text-slate-600 mb-8 space-y-2">
                   {program.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center justify-center">
-                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      <span className="w-1.5 h-1.5 bg-slate-900 rounded-full mr-2"></span>
                       {feature}
                     </li>
                   ))}
                 </ul>
 
                 <a href={`/quiz?intent=${program.intent}`}>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3">
                     Start Here
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>

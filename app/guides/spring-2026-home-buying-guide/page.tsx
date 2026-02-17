@@ -260,7 +260,7 @@ export default function Spring2026HomeBuyingGuidePage() {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-12">
                             <div className="flex items-center justify-center mb-4">
-                                <Leaf className="w-8 h-8 text-green-600 mr-2" />
+                                <Leaf className="w-8 h-8 text-blue-600 mr-2" />
                                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
                                     Spring 2026 Home Buying Guide
                                 </h1>
@@ -269,7 +269,7 @@ export default function Spring2026HomeBuyingGuidePage() {
                                 Navigate Orange County's spring market with expert insights, seasonal trends, and strategic buying advice for optimal 2026 home purchases.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                                <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                                     <Phone className="w-5 h-5 mr-2" />
                                     Call (949) 822-9662
                                 </Button>
@@ -293,13 +293,13 @@ export default function Spring2026HomeBuyingGuidePage() {
                                 <Card key={advantage.name} className="shadow-lg hover:shadow-xl transition-shadow">
                                     <CardHeader>
                                         <div className="flex items-center space-x-3">
-                                            <div className="text-green-600">{advantage.icon}</div>
-                                            <CardTitle className="text-green-600">{advantage.name}</CardTitle>
+                                            <div className="text-blue-600">{advantage.icon}</div>
+                                            <CardTitle className="text-blue-600">{advantage.name}</CardTitle>
                                         </div>
                                     </CardHeader>
                                     <CardContent>
                                         <p className="text-slate-600 mb-3">{advantage.description}</p>
-                                        <p className="text-sm font-semibold text-green-700">{advantage.benefit}</p>
+                                        <p className="text-sm font-semibold text-blue-700">{advantage.benefit}</p>
                                     </CardContent>
                                 </Card>
                             ))}
@@ -316,10 +316,10 @@ export default function Spring2026HomeBuyingGuidePage() {
                         <div className="space-y-8">
                             {monthlyTimeline.map((timeline, index) => (
                                 <Card key={timeline.month} className="shadow-lg">
-                                    <CardHeader className="bg-green-100">
+                                    <CardHeader className="bg-slate-100">
                                         <div className="flex items-center justify-between">
-                                            <CardTitle className="text-xl text-green-800">{timeline.month}</CardTitle>
-                                            <span className="text-green-600 font-semibold">{timeline.focus}</span>
+                                            <CardTitle className="text-xl text-slate-900">{timeline.month}</CardTitle>
+                                            <span className="text-blue-600 font-semibold">{timeline.focus}</span>
                                         </div>
                                     </CardHeader>
                                     <CardContent className="p-6">
@@ -329,15 +329,15 @@ export default function Spring2026HomeBuyingGuidePage() {
                                                 <ul className="space-y-2">
                                                     {timeline.activities.map((activity, actIndex) => (
                                                         <li key={actIndex} className="flex items-center text-slate-700">
-                                                            <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                                                            <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                                                             {activity}
                                                         </li>
                                                     ))}
                                                 </ul>
                                             </div>
-                                            <div className="bg-green-50 p-4 rounded-lg">
-                                                <h4 className="font-semibold text-green-800 mb-2">Expert Tip:</h4>
-                                                <p className="text-green-700 text-sm">{timeline.tip}</p>
+                                            <div className="bg-slate-50 p-4 rounded-lg">
+                                                <h4 className="font-semibold text-slate-900 mb-2">Expert Tip:</h4>
+                                                <p className="text-blue-700 text-sm">{timeline.tip}</p>
                                             </div>
                                         </div>
                                     </CardContent>
@@ -368,7 +368,7 @@ export default function Spring2026HomeBuyingGuidePage() {
                                             </div>
                                             <div>
                                                 <span className="text-slate-500 text-sm">Buyer Opportunity:</span>
-                                                <p className="text-green-700 font-medium">{trend.opportunity}</p>
+                                                <p className="text-blue-700 font-medium">{trend.opportunity}</p>
                                             </div>
                                         </div>
                                     </CardContent>
@@ -379,26 +379,26 @@ export default function Spring2026HomeBuyingGuidePage() {
                 </section>
 
                 {/* Pre-Approval CTA */}
-                <section className="py-16 bg-green-50">
+                <section className="py-16 bg-slate-50">
                     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                         <Card className="shadow-xl bg-gradient-to-r from-green-600 to-emerald-600 text-white">
                             <CardContent className="p-8 text-center">
                                 <Clock className="w-16 h-16 mx-auto mb-4 opacity-90" />
                                 <h3 className="text-2xl font-bold mb-4">Get Ready for Spring 2026 Success</h3>
-                                <p className="text-lg mb-6 text-green-100">
+                                <p className="text-lg mb-6 text-slate-200">
                                     Start your spring home buying journey with mortgage pre-approval and expert market guidance
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                    <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
+                                    <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                                         <Phone className="w-5 h-5 mr-2" />
                                         Call (949) 822-9662
                                     </Button>
-                                    <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
+                                    <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                                         <Calculator className="w-5 h-5 mr-2" />
                                         Get Pre-Approved Now
                                     </Button>
                                 </div>
-                                <p className="text-sm text-green-200 mt-4">
+                                <p className="text-sm text-slate-200 mt-4">
                                     Licensed mortgage broker NMLS #1426884 • Spring 2026 market specialist
                                 </p>
                             </CardContent>
@@ -416,8 +416,8 @@ export default function Spring2026HomeBuyingGuidePage() {
                             {schemaData[1]?.data?.steps?.map((step: any, index: number) => (
                                 <Card key={index} className="shadow-lg">
                                     <CardHeader>
-                                        <CardTitle className="flex items-center text-green-600">
-                                            <span className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">
+                                        <CardTitle className="flex items-center text-blue-600">
+                                            <span className="bg-slate-900 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">
                                                 {index + 1}
                                             </span>
                                             {step.name}
@@ -442,16 +442,16 @@ export default function Spring2026HomeBuyingGuidePage() {
                             Get expert guidance and optimal financing for Orange County's prime spring home buying season.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
+                            <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                                 <Phone className="w-5 h-5 mr-2" />
                                 Call (949) 822-9662
                             </Button>
-                            <Button size="lg" variant="outline" className="bg-white text-green-600 hover:bg-gray-100">
+                            <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                                 <Leaf className="w-5 h-5 mr-2" />
                                 Spring Market Analysis
                             </Button>
                         </div>
-                        <p className="text-sm text-green-200 mt-4">
+                        <p className="text-sm text-slate-200 mt-4">
                             Licensed mortgage broker NMLS #1426884 • Orange County spring market expert
                         </p>
                     </div>

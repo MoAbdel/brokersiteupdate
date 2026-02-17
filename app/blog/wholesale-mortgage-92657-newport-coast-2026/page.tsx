@@ -197,11 +197,11 @@ export default function WholesaleMortgage92657NewportCoastPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Max Loan Amount</td><td className="py-2 px-4 border-b">$5-10M typical</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Up to $30M</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Asset Requirements</td><td className="py-2 px-4 border-b">AUM minimums</td><td className="py-2 px-4 border-b text-green-700 font-semibold">None</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple lenders</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Custom Structures</td><td className="py-2 px-4">Requires relationship</td><td className="py-2 px-4 text-green-700 font-semibold">Immediate access</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Max Loan Amount</td><td className="py-2 px-4 border-b">$5-10M typical</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Up to $30M</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Asset Requirements</td><td className="py-2 px-4 border-b">AUM minimums</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">None</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple lenders</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Custom Structures</td><td className="py-2 px-4">Requires relationship</td><td className="py-2 px-4 text-blue-700 font-semibold">Immediate access</td></tr>
             </tbody>
           </table>
         </div>

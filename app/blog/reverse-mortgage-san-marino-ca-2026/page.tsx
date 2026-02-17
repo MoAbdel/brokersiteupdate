@@ -206,7 +206,7 @@ export default function ReverseMortgageSanMarino() {
                 <tr>
                   <td className="px-4 py-3 border-t">Best For San Marino</td>
                   <td className="px-4 py-3 border-t">Entry-level properties only</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Most San Marino homes</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Most San Marino homes</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">FHA Insurance Required</td>
@@ -511,7 +511,7 @@ export default function ReverseMortgageSanMarino() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Monthly Payments</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">None required</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">None required</td>
                   <td className="px-4 py-3 border-t">Required monthly payments</td>
                 </tr>
                 <tr>
@@ -521,12 +521,12 @@ export default function ReverseMortgageSanMarino() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Income Qualification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Minimal requirements</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Minimal requirements</td>
                   <td className="px-4 py-3 border-t">Strict income verification</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Credit Line Growth</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Yes (unused portion grows)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Yes (unused portion grows)</td>
                   <td className="px-4 py-3 border-t">No growth feature</td>
                 </tr>
                 <tr>
@@ -536,7 +536,7 @@ export default function ReverseMortgageSanMarino() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Best For</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Retirement income, aging in place</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Retirement income, aging in place</td>
                   <td className="px-4 py-3 border-t">Short-term needs with repayment ability</td>
                 </tr>
               </tbody>

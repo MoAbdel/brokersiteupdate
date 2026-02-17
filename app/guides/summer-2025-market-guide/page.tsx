@@ -283,7 +283,7 @@ export default function Summer2026MarketGuidePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center mb-4">
-                <Sun className="w-8 h-8 text-orange-600 mr-2" />
+                <Sun className="w-8 h-8 text-blue-600 mr-2" />
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
                   Summer 2026 Market Guide
                 </h1>
@@ -293,7 +293,7 @@ export default function Summer2026MarketGuidePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 822-9662">
-                  <Button size="lg" className="bg-orange-600 hover:bg-orange-700 w-full">
+                  <Button size="lg" className="bg-slate-900 hover:bg-slate-800 w-full">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
@@ -320,8 +320,8 @@ export default function Summer2026MarketGuidePage() {
                 <Card key={challenge.challenge} className="shadow-lg hover:shadow-xl transition-shadow">
                   <CardHeader>
                     <div className="flex items-center space-x-3">
-                      <div className="text-orange-600">{challenge.icon}</div>
-                      <CardTitle className="text-orange-600">{challenge.challenge}</CardTitle>
+                      <div className="text-blue-600">{challenge.icon}</div>
+                      <CardTitle className="text-blue-600">{challenge.challenge}</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent>
@@ -332,7 +332,7 @@ export default function Summer2026MarketGuidePage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Strategy:</span>
-                        <p className="text-green-700 font-medium">{challenge.strategy}</p>
+                        <p className="text-blue-700 font-medium">{challenge.strategy}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -352,7 +352,7 @@ export default function Summer2026MarketGuidePage() {
               {summerAdvantages.map((advantage) => (
                 <Card key={advantage.advantage} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-green-600">{advantage.advantage}</CardTitle>
+                    <CardTitle className="text-blue-600">{advantage.advantage}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
@@ -362,7 +362,7 @@ export default function Summer2026MarketGuidePage() {
                       </div>
                       <div>
                         <span className="text-slate-500 text-sm">Your Opportunity:</span>
-                        <p className="text-green-700 font-medium">{advantage.opportunity}</p>
+                        <p className="text-blue-700 font-medium">{advantage.opportunity}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -381,10 +381,10 @@ export default function Summer2026MarketGuidePage() {
             <div className="space-y-8">
               {monthlyStrategy.map((timeline) => (
                 <Card key={timeline.month} className="shadow-lg">
-                  <CardHeader className="bg-orange-100">
+                  <CardHeader className="bg-slate-100">
                     <div className="flex items-center justify-between">
-                      <CardTitle className="text-xl text-orange-800">{timeline.month}</CardTitle>
-                      <span className="text-orange-600 font-semibold">{timeline.focus}</span>
+                      <CardTitle className="text-xl text-slate-900">{timeline.month}</CardTitle>
+                      <span className="text-blue-600 font-semibold">{timeline.focus}</span>
                     </div>
                   </CardHeader>
                   <CardContent className="p-6">
@@ -394,15 +394,15 @@ export default function Summer2026MarketGuidePage() {
                         <ul className="space-y-2">
                           {timeline.activities.map((activity, actIndex) => (
                             <li key={actIndex} className="flex items-center text-slate-700">
-                              <div className="w-2 h-2 bg-orange-600 rounded-full mr-3"></div>
+                              <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                               {activity}
                             </li>
                           ))}
                         </ul>
                       </div>
-                      <div className="bg-orange-50 p-4 rounded-lg">
-                        <h4 className="font-semibold text-orange-800 mb-2">Market Condition:</h4>
-                        <p className="text-orange-700 text-sm">{timeline.marketCondition}</p>
+                      <div className="bg-slate-50 p-4 rounded-lg">
+                        <h4 className="font-semibold text-slate-900 mb-2">Market Condition:</h4>
+                        <p className="text-blue-700 text-sm">{timeline.marketCondition}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -428,8 +428,8 @@ export default function Summer2026MarketGuidePage() {
                     <div className="space-y-3">
                       <p className="text-slate-600">{strat.description}</p>
                       <div>
-                        <span className="text-green-600 text-sm font-semibold">Advantage:</span>
-                        <p className="text-green-700 text-sm">{strat.advantage}</p>
+                        <span className="text-blue-600 text-sm font-semibold">Advantage:</span>
+                        <p className="text-blue-700 text-sm">{strat.advantage}</p>
                       </div>
                       <div>
                         <span className="text-red-600 text-sm font-semibold">Risk:</span>
@@ -444,26 +444,26 @@ export default function Summer2026MarketGuidePage() {
         </section>
 
         {/* Success Strategy CTA */}
-        <section className="py-16 bg-orange-50">
+        <section className="py-16 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Card className="shadow-xl bg-gradient-to-r from-orange-600 to-red-600 text-white">
               <CardContent className="p-8 text-center">
                 <Clock className="w-16 h-16 mx-auto mb-4 opacity-90" />
                 <h3 className="text-2xl font-bold mb-4">Summer Success Requires Expert Strategy</h3>
-                <p className="text-lg mb-6 text-orange-100">
+                <p className="text-lg mb-6 text-slate-200">
                   Peak competition demands professional guidance and strategic pre-approval to win in summer 2026
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+                  <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
-                  <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+                  <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                     <Zap className="w-5 h-5 mr-2" />
                     Get Competitive Edge
                   </Button>
                 </div>
-                <p className="text-sm text-orange-200 mt-4">
+                <p className="text-sm text-slate-200 mt-4">
                   Licensed mortgage broker NMLS #1426884 • Summer 2026 market strategist
                 </p>
               </CardContent>
@@ -481,8 +481,8 @@ export default function Summer2026MarketGuidePage() {
               {schemaData[1]?.data?.steps?.map((step: any, index: number) => (
                 <Card key={index} className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="flex items-center text-orange-600">
-                      <span className="bg-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">
+                    <CardTitle className="flex items-center text-blue-600">
+                      <span className="bg-slate-900 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm mr-3">
                         {index + 1}
                       </span>
                       {step.name}
@@ -507,16 +507,16 @@ export default function Summer2026MarketGuidePage() {
               Get the competitive advantage and expert strategy needed for Orange County's peak real estate season.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
                 Call (949) 822-9662
               </Button>
-              <Button size="lg" variant="outline" className="bg-white text-orange-600 hover:bg-gray-100">
+              <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Sun className="w-5 h-5 mr-2" />
                 Summer Strategy Session
               </Button>
             </div>
-            <p className="text-sm text-orange-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Licensed mortgage broker NMLS #1426884 • Orange County summer market expert
             </p>
           </div>

@@ -135,19 +135,19 @@ export default function AboutMoAbdelPage() {
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-green-600 mb-2">18</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">18</div>
                 <div className="text-sm text-slate-600">Avg Closing Days</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-orange-600 mb-2">NMLS</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">NMLS</div>
                 <div className="text-sm text-slate-600">Licensed Professional</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-purple-600 mb-2">24/7</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">24/7</div>
                 <div className="text-sm text-slate-600">Availability</div>
               </CardContent>
             </Card>
@@ -190,28 +190,28 @@ export default function AboutMoAbdelPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <Shield className="w-5 h-5 text-green-600 mt-1" />
+                    <Shield className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <div className="font-semibold">NMLS #1426884</div>
                       <div className="text-sm text-slate-600">Nationwide Multistate Licensing System</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Shield className="w-5 h-5 text-green-600 mt-1" />
+                    <Shield className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <div className="font-semibold">California Licensed Mortgage Broker</div>
                       <div className="text-sm text-slate-600">Department of Financial Protection</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Shield className="w-5 h-5 text-green-600 mt-1" />
+                    <Shield className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <div className="font-semibold">Lumin Lending</div>
                       <div className="text-sm text-slate-600">NMLS #2716106 - Licensed Brokerage</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Shield className="w-5 h-5 text-green-600 mt-1" />
+                    <Shield className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <div className="font-semibold">Continuing Education Current</div>
                       <div className="text-sm text-slate-600">Annual Requirements Met</div>
@@ -288,8 +288,8 @@ export default function AboutMoAbdelPage() {
                   </p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Clock className="w-8 h-8 text-green-600" />
+                  <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Clock className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-3">18-Day Average Closing</h3>
                   <p className="text-slate-600">
@@ -297,8 +297,8 @@ export default function AboutMoAbdelPage() {
                   </p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Award className="w-8 h-8 text-purple-600" />
+                  <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Award className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-3">Expert Guidance</h3>
                   <p className="text-slate-600">
@@ -334,26 +334,26 @@ export default function AboutMoAbdelPage() {
           </Card>
 
           {/* CTA Section */}
-          <Card className="shadow-xl bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+          <Card className="shadow-xl bg-slate-900 text-white">
             <CardContent className="p-8 text-center">
               <h2 className="text-3xl font-bold mb-4">Ready to Work Together?</h2>
-              <p className="text-xl mb-6 text-blue-100">
+              <p className="text-xl mb-6 text-slate-200">
                 Let's discuss your mortgage needs and find the perfect loan program for you.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+                  <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
                     Start My Application
                   </Button>
                 </Link>
                 <a href="tel:9498229662">
-                  <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+                  <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
                     (949) 822-9662
                   </Button>
                 </a>
               </div>
-              <p className="text-sm text-blue-200 mt-4">
+              <p className="text-sm text-slate-200 mt-4">
                 Licensed mortgage broker NMLS #1426884 • Available 24/7
               </p>
             </CardContent>

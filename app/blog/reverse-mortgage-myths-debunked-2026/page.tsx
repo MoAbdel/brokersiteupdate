@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { CheckCircle2, XCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage Myths Debunked: Scam or Legitimate? [2026]',
@@ -96,12 +97,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #1: "Reverse Mortgages Are Scams"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">Reverse mortgages are predatory scams designed to steal homes from seniors.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">HECM reverse mortgages are legitimate, FHA-insured financial products with extensive federal regulation and consumer protections.</p>
         </div>
 
@@ -125,12 +132,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #2: "The Bank Takes Your Home"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">When you get a reverse mortgage, the bank owns your home.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">You retain full ownership. The lender has a lien (same as any mortgage), but the title stays in your name.</p>
         </div>
 
@@ -147,12 +160,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #3: "You Can Owe More Than the Home Is Worth"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">If the loan balance grows larger than your home value, you or your heirs will be stuck with massive debt.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">HECM is non-recourse: you or heirs can never owe more than the home's value. FHA insurance covers any shortfall.</p>
         </div>
 
@@ -168,12 +187,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #4: "You'll Lose Your Home"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">People with reverse mortgages end up losing their homes to foreclosure.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">You can stay in your home for life as long as you meet basic obligations: pay property taxes, maintain insurance, and keep up the property.</p>
         </div>
 
@@ -196,12 +221,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #5: "Reverse Mortgages Are Only for Desperate People"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">Only seniors in financial trouble get reverse mortgages.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">Many financially comfortable seniors use reverse mortgages strategically as a retirement planning tool.</p>
         </div>
 
@@ -217,12 +248,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #6: "Your Heirs Get Nothing"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">A reverse mortgage uses up all your equity, leaving nothing for your children.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">Many reverse mortgage borrowers die with significant equity remaining. Heirs inherit any equity above the loan balance.</p>
         </div>
 
@@ -245,12 +282,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #7: "You Need Good Credit"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">You need excellent credit to qualify for a reverse mortgage.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">There is no minimum credit score requirement for HECM reverse mortgages. Lenders review credit history as part of financial assessment, but scores don't determine eligibility.</p>
         </div>
 
@@ -266,12 +309,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #8: "It's Too Expensive"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">Reverse mortgage fees are outrageously high and make them a bad deal.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">Costs are higher than traditional refinancing but are regulated by FHA with caps on origination fees. Most costs can be financed (no out-of-pocket). The value depends on how you use the product.</p>
         </div>
 
@@ -291,12 +340,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #9: "Medicare/Social Security Will Be Affected"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">Reverse mortgage funds will cause you to lose Medicare or Social Security.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">Reverse mortgage proceeds do not affect Social Security or Medicare, as these are not means-tested programs. Medicaid (which is means-tested) may be affected.</p>
         </div>
 
@@ -311,12 +366,18 @@ export default function ReverseMortgageMythsDebunkedPage() {
         <h2>Myth #10: "You Can't Get Out Once You're In"</h2>
 
         <div className="bg-red-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-red-800 mb-0">❌ THE MYTH</p>
+          <p className="font-semibold text-red-800 mb-0 flex items-center gap-2">
+            <XCircle className="w-5 h-5 text-red-700" aria-hidden="true" />
+            <span>THE MYTH</span>
+          </p>
           <p className="text-red-900 mb-0">Once you have a reverse mortgage, you're locked in forever.</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg my-4">
-          <p className="font-semibold text-green-800 mb-0">✅ THE TRUTH</p>
+        <div className="bg-slate-50 p-4 rounded-lg my-4">
+          <p className="font-semibold text-slate-900 mb-0 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-700" aria-hidden="true" />
+            <span>THE TRUTH</span>
+          </p>
           <p className="text-green-900 mb-0">You can pay off or refinance a reverse mortgage at any time with no prepayment penalty. You can also sell the home whenever you choose.</p>
         </div>
 

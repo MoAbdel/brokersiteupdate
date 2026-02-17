@@ -234,12 +234,12 @@ export default function ReverseMortgagePacificPalisades() {
                 <tr>
                   <td className="px-4 py-3 border-t">Maximum Home Value Used</td>
                   <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$10M+ (varies by lender)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$10M+ (varies by lender)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Best For Pacific Palisades</td>
                   <td className="px-4 py-3 border-t">Not recommended for most properties</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">All Pacific Palisades properties</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">All Pacific Palisades properties</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">FHA Insurance</td>
@@ -249,7 +249,7 @@ export default function ReverseMortgagePacificPalisades() {
                 <tr>
                   <td className="px-4 py-3 border-t">Equity Access Potential</td>
                   <td className="px-4 py-3 border-t">Capped at ~$600K-$700K</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$1M-$4M+ based on full value</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$1M-$4M+ based on full value</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">HUD Counseling</td>
@@ -259,12 +259,12 @@ export default function ReverseMortgagePacificPalisades() {
                 <tr>
                   <td className="px-4 py-3 border-t">Privacy Considerations</td>
                   <td className="px-4 py-3 border-t">Standard process</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Discretionary handling available</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Discretionary handling available</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Appraiser Experience</td>
                   <td className="px-4 py-3 border-t">Standard FHA appraiser</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Luxury property specialists</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Luxury property specialists</td>
                 </tr>
               </tbody>
             </table>
@@ -492,7 +492,7 @@ export default function ReverseMortgagePacificPalisades() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Monthly Payments</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">None required</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">None required</td>
                   <td className="px-4 py-3 border-t">Required</td>
                 </tr>
                 <tr>
@@ -502,17 +502,17 @@ export default function ReverseMortgagePacificPalisades() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Credit Line Growth</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Yes (unused portion grows)</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Yes (unused portion grows)</td>
                   <td className="px-4 py-3 border-t">No</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Income Requirements</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">No income qualification</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">No income qualification</td>
                   <td className="px-4 py-3 border-t">Income verification required</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Best For</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">Retirement income, payment elimination</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">Retirement income, payment elimination</td>
                   <td className="px-4 py-3 border-t">Short-term needs with ability to repay</td>
                 </tr>
               </tbody>

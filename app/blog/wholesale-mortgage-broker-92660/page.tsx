@@ -233,12 +233,12 @@ export default function WholesaleMortgageBroker92660Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-green-700">200+ competing for your loan</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM programs</td><td className="py-2 px-4 border-b">Limited or none</td><td className="py-2 px-4 border-b text-green-700">Dozens of non-QM lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Complex income</td><td className="py-2 px-4 border-b">Often declined</td><td className="py-2 px-4 border-b text-green-700">Multiple solutions available</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Foreign nationals</td><td className="py-2 px-4 border-b">Rarely approved</td><td className="py-2 px-4 border-b text-green-700">Dedicated programs</td></tr>
-              <tr><td className="py-2 px-4">Underwriting flexibility</td><td className="py-2 px-4">Rigid guidelines</td><td className="py-2 px-4 text-green-700">Lender matching for your situation</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing for your loan</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM programs</td><td className="py-2 px-4 border-b">Limited or none</td><td className="py-2 px-4 border-b text-blue-700">Dozens of non-QM lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Complex income</td><td className="py-2 px-4 border-b">Often declined</td><td className="py-2 px-4 border-b text-blue-700">Multiple solutions available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Foreign nationals</td><td className="py-2 px-4 border-b">Rarely approved</td><td className="py-2 px-4 border-b text-blue-700">Dedicated programs</td></tr>
+              <tr><td className="py-2 px-4">Underwriting flexibility</td><td className="py-2 px-4">Rigid guidelines</td><td className="py-2 px-4 text-blue-700">Lender matching for your situation</td></tr>
             </tbody>
           </table>
         </div>

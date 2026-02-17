@@ -476,7 +476,7 @@ export default function HELOCvsHomeEquityLoanPage() {
             <p className="mb-4"><strong>Situation:</strong> Newport Beach homeowner planning $80,000 kitchen remodel with potential for scope expansion</p>
             <p className="mb-2"><strong>HELOC Approach:</strong> $100,000 credit line, draw funds as contractors invoice, pay interest only on actual draws. If project expands to $95,000, funds are readily available.</p>
             <p className="mb-2"><strong>Home Equity Loan Approach:</strong> $100,000 lump sum, full amount disbursed at closing. Unused funds sit in bank earning minimal interest while loan charges full interest.</p>
-            <p className="font-semibold text-green-800">Better choice: HELOC - Flexibility matches project uncertainty, only pay interest on actual draws.</p>
+            <p className="font-semibold text-slate-900">Better choice: HELOC - Flexibility matches project uncertainty, only pay interest on actual draws.</p>
           </div>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Scenario 2: Credit Card Debt Consolidation</h3>
@@ -494,12 +494,12 @@ export default function HELOCvsHomeEquityLoanPage() {
             <p className="mb-4"><strong>Situation:</strong> Laguna Beach family wants $200,000 emergency access but expects to use only $20,000-$30,000 occasionally</p>
             <p className="mb-2"><strong>HELOC Approach:</strong> $200,000 credit line costs nothing when unused. Draw small amounts as needed, pay interest only on outstanding balance.</p>
             <p className="mb-2"><strong>Home Equity Loan Approach:</strong> Full $200,000 disbursed at closing. Pay interest on entire amount even if only $25,000 is actually needed.</p>
-            <p className="font-semibold text-green-800">Better choice: HELOC - Pay interest only on what you use, full credit available when needed.</p>
+            <p className="font-semibold text-slate-900">Better choice: HELOC - Pay interest only on what you use, full credit available when needed.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 my-6">
-            <div className="bg-green-50 p-6 rounded-lg">
-              <h3 className="font-bold text-green-800 mb-3">Choose HELOC When</h3>
+            <div className="bg-slate-50 p-6 rounded-lg">
+              <h3 className="font-bold text-slate-900 mb-3">Choose HELOC When</h3>
               <ul className="space-y-2 text-green-900">
                 <li>Expenses are ongoing or uncertain</li>
                 <li>You want emergency fund backup</li>
@@ -509,7 +509,7 @@ export default function HELOCvsHomeEquityLoanPage() {
                 <li>Rate decrease is possible</li>
               </ul>
             </div>
-            <div className="bg-purple-50 p-6 rounded-lg">
+            <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="font-bold text-purple-800 mb-3">Choose Home Equity Loan When</h3>
               <ul className="space-y-2 text-purple-900">
                 <li>You need a specific fixed amount</li>
@@ -641,7 +641,7 @@ export default function HELOCvsHomeEquityLoanPage() {
             <p className="text-blue-800 font-semibold">
               Call: (949) 822-9662 | Email: mabdel@luminlending.com
             </p>
-            <a href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-4">
+            <a href="/contact" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors mt-4">
               Request Your Free Quote
             </a>
           </div>

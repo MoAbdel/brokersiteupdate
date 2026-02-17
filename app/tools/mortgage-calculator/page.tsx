@@ -321,7 +321,7 @@ export default function MortgageCalculatorPage() {
               <div className="space-y-6">
                 
                 {/* Monthly Payment Result */}
-                <Card className="shadow-xl border-green-200 bg-green-50">
+                <Card className="shadow-xl border-slate-200 bg-slate-50">
                   <CardHeader className="bg-green-600 text-white">
                     <CardTitle className="flex items-center text-2xl">
                       <Home className="w-6 h-6 mr-3" />
@@ -330,26 +330,26 @@ export default function MortgageCalculatorPage() {
                   </CardHeader>
                   <CardContent className="p-6">
                     <div className="text-center">
-                      <div className="text-4xl font-bold text-green-600 mb-2">
+                      <div className="text-4xl font-bold text-blue-600 mb-2">
                         {formatCurrency(monthlyPITI)}
                       </div>
                       <p className="text-lg text-slate-600">Total Monthly Payment (PITI)</p>
                     </div>
                     
                     <div className="mt-6 space-y-3">
-                      <div className="flex justify-between border-b border-green-200 pb-2">
+                      <div className="flex justify-between border-b border-slate-200 pb-2">
                         <span className="text-slate-600">Principal & Interest</span>
                         <span className="font-semibold">{formatCurrency(monthlyPayment)}</span>
                       </div>
-                      <div className="flex justify-between border-b border-green-200 pb-2">
+                      <div className="flex justify-between border-b border-slate-200 pb-2">
                         <span className="text-slate-600">Property Tax</span>
                         <span className="font-semibold">{formatCurrency(parseFloat(propertyTax) / 12)}</span>
                       </div>
-                      <div className="flex justify-between border-b border-green-200 pb-2">
+                      <div className="flex justify-between border-b border-slate-200 pb-2">
                         <span className="text-slate-600">Home Insurance</span>
                         <span className="font-semibold">{formatCurrency(parseFloat(insurance) / 12)}</span>
                       </div>
-                      <div className="flex justify-between border-b border-green-200 pb-2">
+                      <div className="flex justify-between border-b border-slate-200 pb-2">
                         <span className="text-slate-600">PMI</span>
                         <span className="font-semibold">{formatCurrency(parseFloat(pmi))}</span>
                       </div>

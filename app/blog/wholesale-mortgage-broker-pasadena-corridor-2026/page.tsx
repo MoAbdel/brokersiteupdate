@@ -374,7 +374,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">Full (W-2/Tax Returns)</td>
                   <td className="px-4 py-3 border-t">$3M+</td>
                   <td className="px-4 py-3 border-t">JPL/Caltech W-2 employees</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lowest</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lowest</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Physician Loan</td>
@@ -382,7 +382,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">Employment contract / W-2</td>
                   <td className="px-4 py-3 border-t">$2M</td>
                   <td className="px-4 py-3 border-t">MDs, dentists, veterinarians</td>
-                  <td className="px-4 py-3 border-t text-green-700">Low (no PMI)</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Low (no PMI)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Bank Statement (12-mo)</td>
@@ -414,7 +414,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">None (property income)</td>
                   <td className="px-4 py-3 border-t">$2M</td>
                   <td className="px-4 py-3 border-t">Rental investors, ADU</td>
-                  <td className="px-4 py-3 border-t text-orange-700">Higher</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Higher</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">FHA High-Balance</td>
@@ -422,7 +422,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t">Full documentation</td>
                   <td className="px-4 py-3 border-t">$1,149,825</td>
                   <td className="px-4 py-3 border-t">First-time buyers, La Crescenta</td>
-                  <td className="px-4 py-3 border-t text-green-700">Low</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Low</td>
                 </tr>
               </tbody>
             </table>
@@ -460,7 +460,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Pasadena Financing Insight</h4>
             <p className="mb-0">JPL employs a mix of civil servants (NASA) and contract employees (Caltech-managed). Civil servant W-2 employees qualify straightforwardly for conventional jumbo loans. Contract researchers, postdoctoral fellows, and grant-funded scientists often have stipend income, consulting side income, or international pay structures that require bank statement or asset depletion programs. Wholesale brokers match each JPL compensation structure to the optimal lender&mdash;a physician loan for JPL medical staff, conventional jumbo for W-2 engineers, or bank statement for consulting scientists.</p>
           </div>
@@ -495,7 +495,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Sierra Madre Financing Insight</h4>
             <p className="mb-0">Sierra Madre&apos;s limited inventory means homes frequently receive multiple offers within days of listing. Buyers with wholesale broker pre-approval have a competitive advantage because the pre-approval represents verification against 200+ lender guidelines rather than a single bank&apos;s criteria. If one lender&apos;s appraisal comes in low or underwriting raises an issue, the broker pivots to alternative lenders without restarting the process&mdash;a flexibility that single-lender pre-approvals cannot match.</p>
           </div>
@@ -532,7 +532,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Glendale Financing Insight</h4>
             <p className="mb-0">Glendale&apos;s Armenian-American business community exemplifies why wholesale broker access matters. A typical Glendale business owner reports $120,000 on tax returns after deductions but deposits $30,000+ monthly into business accounts. Banks qualify at $120,000, limiting purchasing power to roughly $550,000. A 12-month bank statement program qualifies that same borrower at $360,000 annual income&mdash;triple the bank&apos;s figure&mdash;unlocking purchasing power above $1.5 million. This is not aggressive lending; it is accurate income documentation.</p>
           </div>
@@ -568,7 +568,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Montrose Financing Insight</h4>
             <p className="mb-0">Montrose&apos;s housing stock includes many homes built in the 1940s&ndash;1960s that offer renovation potential. Wholesale brokers access renovation loan programs (conventional and FHA 203k) that bundle purchase and improvement costs into a single mortgage. A buyer purchasing a $950,000 Montrose home can add $150,000 in renovation financing, creating a property worth $1.3M+ post-improvement. This approach builds instant equity in a community with strong appreciation fundamentals.</p>
           </div>
@@ -604,7 +604,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">La Crescenta Financing Insight</h4>
             <p className="mb-0">La Crescenta represents the corridor&apos;s best value proposition for families. A household earning $180,000 qualifies for approximately $950,000 with conventional financing at current rates&mdash;placing the median-priced home within reach with 5&ndash;10% down. CalHFA down payment assistance programs can supplement savings for buyers under income limits. Wholesale brokers access the full spectrum of conventional, FHA, and VA programs at wholesale pricing, saving $2,000&ndash;$4,000 annually compared to retail lender rates on the same programs.</p>
           </div>

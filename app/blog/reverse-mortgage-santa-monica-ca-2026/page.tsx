@@ -195,19 +195,19 @@ export default function ReverseMortgageSantaMonicaPage() {
                   <td className="py-3 px-4 font-medium">North of Montana</td>
                   <td className="py-3 px-4">$3.5M - $15M+</td>
                   <td className="py-3 px-4">Estate homes, luxury properties</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Proprietary/Jumbo</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Proprietary/Jumbo</td>
                 </tr>
                 <tr className="border-t bg-gray-50">
                   <td className="py-3 px-4 font-medium">Ocean Park</td>
                   <td className="py-3 px-4">$1.8M - $4M</td>
                   <td className="py-3 px-4">Craftsman homes, beach cottages</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Proprietary/Jumbo</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Proprietary/Jumbo</td>
                 </tr>
                 <tr className="border-t">
                   <td className="py-3 px-4 font-medium">Wilshire Montana</td>
                   <td className="py-3 px-4">$2M - $5M</td>
                   <td className="py-3 px-4">Mid-century modern, condos</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Proprietary/Jumbo</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Proprietary/Jumbo</td>
                 </tr>
                 <tr className="border-t bg-gray-50">
                   <td className="py-3 px-4 font-medium">Sunset Park</td>
@@ -274,7 +274,7 @@ export default function ReverseMortgageSantaMonicaPage() {
             <li><strong>Financial assessment:</strong> Lenders evaluate your ability to pay ongoing property charges including property taxes, homeowners insurance, HOA fees (if applicable), and basic maintenance. Santa Monica&apos;s high property values mean higher taxes, so this assessment is important.</li>
           </ul>
 
-          <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+          <div className="bg-slate-50 border-l-4 border-amber-500 p-6 my-8">
             <h3 className="text-lg font-bold text-amber-900 mt-0 mb-2">Santa Monica-Specific Considerations</h3>
             <p className="text-amber-900 mb-0">
               <strong>Coastal Zone Properties:</strong> Homes in the California Coastal Zone may require additional documentation regarding coastal commission approvals or restrictions. This rarely prevents reverse mortgage approval but may add processing time.<br /><br />
@@ -317,7 +317,7 @@ export default function ReverseMortgageSantaMonicaPage() {
                 <tr className="border-t bg-gray-50">
                   <td className="py-3 px-4 font-medium">Proprietary/Jumbo</td>
                   <td className="py-3 px-4">$4M - $10M+</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Most Santa Monica homes</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Most Santa Monica homes</td>
                   <td className="py-3 px-4">Higher limits, luxury property expertise</td>
                 </tr>
               </tbody>
@@ -370,7 +370,7 @@ export default function ReverseMortgageSantaMonicaPage() {
             <li><strong>Combination:</strong> Mix monthly payments with line of credit for both regular income and emergency access.</li>
           </ul>
 
-          <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+          <div className="bg-slate-50 border-l-4 border-green-500 p-6 my-8">
             <h3 className="text-lg font-bold text-green-900 mt-0 mb-2">The Line of Credit Growth Feature</h3>
             <p className="text-green-900 mb-0">
               One of HECM&apos;s most powerful features: your unused line of credit grows over time. If you establish a $400,000 line of credit and don&apos;t touch it, that available credit increases each year. This creates a growing financial reserve that can help fund future healthcare costs, home modifications, or simply provide peace of mind.
@@ -426,7 +426,7 @@ export default function ReverseMortgageSantaMonicaPage() {
             <li>You maintain all landlord obligations while receiving reverse mortgage benefits</li>
           </ul>
 
-          <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+          <div className="bg-slate-50 border-l-4 border-amber-500 p-6 my-8">
             <p className="text-amber-900 mb-0">
               <strong>Important:</strong> If you&apos;re considering a reverse mortgage on an owner-occupied multi-unit property in Santa Monica, consult with a reverse mortgage specialist who understands both the lending requirements and Santa Monica&apos;s specific landlord-tenant laws. Your obligations as a landlord continue unchanged.
             </p>
@@ -489,8 +489,8 @@ export default function ReverseMortgageSantaMonicaPage() {
               <tbody>
                 <tr className="border-t">
                   <td className="py-3 px-4 font-medium">Reverse Mortgage</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">None</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">Yes</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">None</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">Yes</td>
                   <td className="py-3 px-4">For taxes/insurance</td>
                   <td className="py-3 px-4">Long-term aging in place</td>
                 </tr>
@@ -565,7 +565,7 @@ export default function ReverseMortgageSantaMonicaPage() {
             <li><strong>Deed in lieu of foreclosure:</strong> If the loan balance exceeds home value (rare in Santa Monica), heirs can simply surrender the property with no personal liability due to non-recourse protection.</li>
           </ul>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-green-900 mb-3">Non-Recourse Protection: Peace of Mind</h3>
             <p className="text-green-900 mb-0">
               HECM reverse mortgages are non-recourse loans. This means neither you nor your heirs will ever owe more than the home&apos;s fair market value at the time of repayment, even if the loan balance has grown larger than the home&apos;s worth. This protection is guaranteed by FHA insurance.

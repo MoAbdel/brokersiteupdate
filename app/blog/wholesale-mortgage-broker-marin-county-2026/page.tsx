@@ -320,49 +320,49 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Lender Options</td>
-                <td className="py-2 px-4 border-b text-green-600">200+ competing lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">200+ competing lenders</td>
                 <td className="py-2 px-4 border-b text-red-600">1 lender (their own)</td>
                 <td className="py-2 px-4 border-b">Critical for jumbo and non-QM program access</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Rate Pricing</td>
-                <td className="py-2 px-4 border-b text-green-600">Wholesale (lower overhead)</td>
+                <td className="py-2 px-4 border-b text-blue-600">Wholesale (lower overhead)</td>
                 <td className="py-2 px-4 border-b text-red-600">Retail (includes branch costs)</td>
                 <td className="py-2 px-4 border-b">$4,800-$12,000/year savings on jumbo loans</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Income Documentation</td>
-                <td className="py-2 px-4 border-b text-green-600">Multiple options (bank stmt, asset, 1099)</td>
+                <td className="py-2 px-4 border-b text-blue-600">Multiple options (bank stmt, asset, 1099)</td>
                 <td className="py-2 px-4 border-b text-yellow-600">Standard docs (tax returns required)</td>
                 <td className="py-2 px-4 border-b">Essential for Marin&apos;s 34% self-employed population</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Jumbo Expertise</td>
-                <td className="py-2 px-4 border-b text-green-600">Multiple jumbo lenders compared</td>
+                <td className="py-2 px-4 border-b text-blue-600">Multiple jumbo lenders compared</td>
                 <td className="py-2 px-4 border-b text-yellow-600">One jumbo program</td>
                 <td className="py-2 px-4 border-b">Most Marin purchases require jumbo financing</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Closing Speed</td>
-                <td className="py-2 px-4 border-b text-green-600">21-30 days typical</td>
+                <td className="py-2 px-4 border-b text-blue-600">21-30 days typical</td>
                 <td className="py-2 px-4 border-b text-yellow-600">30-45 days typical</td>
                 <td className="py-2 px-4 border-b">Competitive advantage in Marin&apos;s fast-moving market</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Loan Officer Incentive</td>
-                <td className="py-2 px-4 border-b text-green-600">Find best fit for borrower</td>
+                <td className="py-2 px-4 border-b text-blue-600">Find best fit for borrower</td>
                 <td className="py-2 px-4 border-b text-red-600">Sell bank&apos;s products</td>
                 <td className="py-2 px-4 border-b">Alignment of interest matters for complex scenarios</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Fee Transparency</td>
-                <td className="py-2 px-4 border-b text-green-600">Full TRID disclosure + wholesale pricing</td>
+                <td className="py-2 px-4 border-b text-blue-600">Full TRID disclosure + wholesale pricing</td>
                 <td className="py-2 px-4 border-b text-yellow-600">TRID disclosure (retail pricing)</td>
                 <td className="py-2 px-4 border-b">Borrowers see true cost comparison</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Denial Recovery</td>
-                <td className="py-2 px-4 border-b text-green-600">Submit to alternative lender</td>
+                <td className="py-2 px-4 border-b text-blue-600">Submit to alternative lender</td>
                 <td className="py-2 px-4 border-b text-red-600">Start over at another bank</td>
                 <td className="py-2 px-4 border-b">Reduces risk of losing Marin County purchase</td>
               </tr>
@@ -579,7 +579,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
         ))}
 
         {/* Expert Summary + CTA */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Wholesale Mortgage Lending in Marin County</h2>
           <p>
             Marin County&apos;s mortgage landscape demands the depth and flexibility that only wholesale lending provides. With median home values of $1.6 million, a third of the workforce self-employed, and property values ranging from $1 million to $10 million+, no single bank can serve every Marin County borrower effectively. Wholesale brokerage connects borrowers to 200+ competing lenders, driving rates down and expanding program access for jumbo, bank statement, asset depletion, and specialty financing.
@@ -591,7 +591,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             Whether you are a first-time buyer in Novato, a tech executive purchasing in Tiburon, a self-employed creative relocating to Sausalito, or an investor acquiring rental properties across the county, wholesale lending provides the tools and competition necessary to secure the best available financing.
           </p>
           <p className="mb-0">
-            <strong>Ready to experience wholesale mortgage advantage in Marin County?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a complimentary rate comparison. I run your scenario across multiple wholesale lenders simultaneously and present the top options side by side &mdash; rates, fees, and terms &mdash; so you make an informed decision with full transparency. No obligation, no retail markup, no bank sales pressure.
+            <strong>Ready to experience wholesale mortgage advantage in Marin County?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary rate comparison. I run your scenario across multiple wholesale lenders simultaneously and present the top options side by side &mdash; rates, fees, and terms &mdash; so you make an informed decision with full transparency. No obligation, no retail markup, no bank sales pressure.
           </p>
         </div>
 

@@ -152,10 +152,10 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b">$960,000</td><td className="py-2 px-4 border-b text-green-700">~$60,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-green-700">~$75,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b">$2,000,000</td><td className="py-2 px-4 border-b">$1,600,000</td><td className="py-2 px-4 border-b text-green-700">~$100,000 over 30 years</td></tr>
-              <tr><td className="py-2 px-4">$3,000,000</td><td className="py-2 px-4">$2,400,000</td><td className="py-2 px-4 text-green-700">~$150,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b">$960,000</td><td className="py-2 px-4 border-b text-blue-700">~$60,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$1,500,000</td><td className="py-2 px-4 border-b">$1,200,000</td><td className="py-2 px-4 border-b text-blue-700">~$75,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4 border-b">$2,000,000</td><td className="py-2 px-4 border-b">$1,600,000</td><td className="py-2 px-4 border-b text-blue-700">~$100,000 over 30 years</td></tr>
+              <tr><td className="py-2 px-4">$3,000,000</td><td className="py-2 px-4">$2,400,000</td><td className="py-2 px-4 text-blue-700">~$150,000 over 30 years</td></tr>
             </tbody>
           </table>
         </div>
@@ -241,12 +241,12 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 option</td><td className="py-2 px-4 border-b text-green-700">20+ options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail markup</td><td className="py-2 px-4 border-b text-green-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-green-700">Multiple lender options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Super jumbo ($2M+)</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-green-700">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Yorba Linda expertise</td><td className="py-2 px-4 border-b">Generic</td><td className="py-2 px-4 border-b text-green-700">Local market knowledge</td></tr>
-              <tr><td className="py-2 px-4">Service</td><td className="py-2 px-4">Call center</td><td className="py-2 px-4 text-green-700">Direct broker access</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 option</td><td className="py-2 px-4 border-b text-blue-700">20+ options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail markup</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-blue-700">Multiple lender options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Super jumbo ($2M+)</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-blue-700">Multiple programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Yorba Linda expertise</td><td className="py-2 px-4 border-b">Generic</td><td className="py-2 px-4 border-b text-blue-700">Local market knowledge</td></tr>
+              <tr><td className="py-2 px-4">Service</td><td className="py-2 px-4">Call center</td><td className="py-2 px-4 text-blue-700">Direct broker access</td></tr>
             </tbody>
           </table>
         </div>

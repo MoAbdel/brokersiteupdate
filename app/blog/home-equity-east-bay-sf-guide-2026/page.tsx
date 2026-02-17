@@ -864,7 +864,7 @@ export default function HomeEquityEastBaySFGuide2026() {
           </div>
 
           {/* ========== EXPERT SUMMARY ========== */}
-          <div id="summary" className="bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div id="summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
               East Bay and San Francisco homeowners hold an estimated $180 billion in combined residential equity
@@ -881,10 +881,10 @@ export default function HomeEquityEastBaySFGuide2026() {
               more options, and faster closings.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to access your home equity?</strong> Call <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to access your home equity?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
               a complimentary equity consultation. I will provide a personalized analysis of your available equity,
               recommend the optimal product (HELOC, HELOAN, or cash-out), and identify the best lender match from
-              200+ wholesale options -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-green-700 font-semibold">free online quote</a>.
+              200+ wholesale options -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

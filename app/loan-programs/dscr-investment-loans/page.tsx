@@ -37,27 +37,6 @@ export default function DSCRInvestmentLoansPage() {
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <AISummary
-          pageType="loan-program"
-          triples={[
-            {
-              subject: 'DSCR loans',
-              predicate: 'qualify investors based on',
-              object: 'property rental income rather than personal income, requiring no tax returns or W-2s',
-            },
-            {
-              subject: 'A DSCR ratio of 1.0',
-              predicate: 'means the property generates',
-              object: 'enough rental income to fully cover the monthly mortgage payment',
-            },
-            {
-              subject: 'DSCR investment loans through a wholesale broker',
-              predicate: 'offer loan amounts up to',
-              object: '$2M+ with 20-25% down payment and 620+ credit score minimum',
-            },
-          ]}
-        />
-
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Investment Property Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
@@ -69,7 +48,7 @@ export default function DSCRInvestmentLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get DSCR Pre-Approval
               </Button>
             </Link>
@@ -149,24 +128,24 @@ export default function DSCRInvestmentLoansPage() {
           />
         </div>
 
-        <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Expand Your Investment Portfolio?</h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved for DSCR investment loans with no income documentation hassles
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start DSCR Application
               </Button>
             </Link>
             <a href="tel:9498229662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-blue-100 mt-4">
+          <p className="text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Investment Specialist
           </p>
         </div>
@@ -189,6 +168,27 @@ export default function DSCRInvestmentLoansPage() {
             </p>
           </div>
         </div>
+
+        <AISummary
+          pageType="loan-program"
+          triples={[
+            {
+              subject: 'DSCR loans',
+              predicate: 'qualify investors based on',
+              object: 'property rental income rather than personal income, requiring no tax returns or W-2s',
+            },
+            {
+              subject: 'A DSCR ratio of 1.0',
+              predicate: 'means the property generates',
+              object: 'enough rental income to fully cover the monthly mortgage payment',
+            },
+            {
+              subject: 'DSCR investment loans through a wholesale broker',
+              predicate: 'offer loan amounts up to',
+              object: '$2M+ with 20-25% down payment and 620+ credit score minimum',
+            },
+          ]}
+        />
       </div>
     </div>
   );

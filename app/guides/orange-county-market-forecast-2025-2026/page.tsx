@@ -227,7 +227,7 @@ export default function OrangeCountyMarketForecast() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -278,11 +278,11 @@ export default function OrangeCountyMarketForecast() {
                     </td>
                     <td className="px-6 py-4 font-medium text-slate-700">{prediction.current}</td>
                     <td className="px-6 py-4 font-medium text-blue-600">{prediction.q4_2025}</td>
-                    <td className="px-6 py-4 font-medium text-green-600">{prediction.q2_2025}</td>
-                    <td className="px-6 py-4 font-bold text-green-700">{prediction.full_2025}</td>
+                    <td className="px-6 py-4 font-medium text-blue-600">{prediction.q2_2025}</td>
+                    <td className="px-6 py-4 font-bold text-blue-700">{prediction.full_2025}</td>
                     <td className="px-6 py-4">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        prediction.confidence === 'High' ? 'bg-green-100 text-green-800' :
+                        prediction.confidence === 'High' ? 'bg-slate-100 text-slate-900' :
                         prediction.confidence === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
                         'bg-red-100 text-red-800'
                       }`}>
@@ -315,7 +315,7 @@ export default function OrangeCountyMarketForecast() {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-slate-900">{scenario.scenario}</h3>
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    scenario.scenario === 'Optimistic' ? 'bg-green-100 text-green-800' :
+                    scenario.scenario === 'Optimistic' ? 'bg-slate-100 text-slate-900' :
                     scenario.scenario === 'Base Case' ? 'bg-blue-100 text-blue-800' :
                     'bg-red-100 text-red-800'
                   }`}>
@@ -365,7 +365,7 @@ export default function OrangeCountyMarketForecast() {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-slate-900">{timing.scenario}</h3>
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    timing.riskLevel === 'Low' ? 'bg-green-100 text-green-800' :
+                    timing.riskLevel === 'Low' ? 'bg-slate-100 text-slate-900' :
                     timing.riskLevel === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
                     'bg-red-100 text-red-800'
                   }`}>
@@ -413,7 +413,7 @@ export default function OrangeCountyMarketForecast() {
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-slate-900">{area.area}</h3>
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    area.outlook === 'Very Strong' ? 'bg-green-100 text-green-800' :
+                    area.outlook === 'Very Strong' ? 'bg-slate-100 text-slate-900' :
                     area.outlook === 'Strong' ? 'bg-blue-100 text-blue-800' :
                     'bg-yellow-100 text-yellow-800'
                   }`}>
@@ -428,7 +428,7 @@ export default function OrangeCountyMarketForecast() {
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">2025 Forecast:</span>
-                    <div className="font-semibold text-green-600">{area.forecast2025}</div>
+                    <div className="font-semibold text-blue-600">{area.forecast2025}</div>
                   </div>
                 </div>
                 
@@ -442,7 +442,7 @@ export default function OrangeCountyMarketForecast() {
                     <h4 className="font-semibold text-slate-800 mb-2">Growth Drivers</h4>
                     <ul className="space-y-1">
                       {area.drivers.map((driver, idx) => (
-                        <li key={idx} className="text-sm text-green-600">+ {driver}</li>
+                        <li key={idx} className="text-sm text-blue-600">+ {driver}</li>
                       ))}
                     </ul>
                   </div>
@@ -550,25 +550,25 @@ export default function OrangeCountyMarketForecast() {
               </ul>
             </div>
 
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6">
+            <div className="bg-slate-50 border border-slate-200 rounded-lg p-6">
               <div className="flex items-center mb-4">
-                <Target className="w-6 h-6 text-green-600 mr-3" />
+                <Target className="w-6 h-6 text-blue-600 mr-3" />
                 <h3 className="text-xl font-bold text-green-900">Market Opportunities</h3>
               </div>
               <ul className="space-y-3">
-                <li className="text-green-700">
+                <li className="text-blue-700">
                   <span className="font-semibold">Rate Decline:</span> Faster Fed easing could accelerate demand
                 </li>
-                <li className="text-green-700">
+                <li className="text-blue-700">
                   <span className="font-semibold">New Construction:</span> Increased supply could moderate luxury market prices
                 </li>
-                <li className="text-green-700">
+                <li className="text-blue-700">
                   <span className="font-semibold">Tech Recovery:</span> AI and biotech growth could drive high-end demand
                 </li>
-                <li className="text-green-700">
+                <li className="text-blue-700">
                   <span className="font-semibold">Infrastructure Investment:</span> Transit improvements could boost certain areas
                 </li>
-                <li className="text-green-700">
+                <li className="text-blue-700">
                   <span className="font-semibold">Climate Migration:</span> People relocating from other states for weather
                 </li>
               </ul>
@@ -578,12 +578,12 @@ export default function OrangeCountyMarketForecast() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Time Your Orange County Real Estate Move?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-slate-200 mb-8">
             Get personalized market timing advice and financing strategies based on these forecasts. 
             Mo Abdel helps you navigate Orange County's changing market conditions.
           </p>
@@ -596,14 +596,14 @@ export default function OrangeCountyMarketForecast() {
               </Button>
             </a>
             <Link href="/contact">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold">
                 Get Market Timing Analysis
               </Button>
             </Link>
           </div>
           
           <div className="mt-8 pt-8 border-t border-blue-500">
-            <p className="text-blue-100">
+            <p className="text-slate-200">
               <strong>Mo Abdel</strong> • NMLS #1426884 • Orange County market expert since 2015 • Updated forecasts monthly
             </p>
           </div>

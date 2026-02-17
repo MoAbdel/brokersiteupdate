@@ -3,7 +3,23 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Zap, TrendingUp, Users, CheckCircle, AlertCircle, Briefcase } from 'lucide-react';
+import {
+  AlertCircle,
+  AlertTriangle,
+  BarChart3,
+  Briefcase,
+  CheckCircle,
+  Globe,
+  Hammer,
+  Home,
+  Landmark,
+  Lightbulb,
+  PiggyBank,
+  Sprout,
+  TrendingUp,
+  Users,
+  Zap,
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans | Mo Abdel - Orange County Mortgage Broker',
@@ -24,11 +40,12 @@ export default function NonQMLoansPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            ⚡ Alternative Documentation
+          <div className="inline-flex items-center bg-slate-100 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <Zap className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
+            <span>Alternative Documentation</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-orange-600">Non-QM Loans</span> in Orange County
+            <span className="text-blue-600">Non-QM Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Specialized mortgage programs for self-employed borrowers, investors, and unique
@@ -37,12 +54,12 @@ export default function NonQMLoansPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Non-QM Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-orange-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -52,8 +69,8 @@ export default function NonQMLoansPage() {
         {/* Key Benefits */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Zap className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Zap className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Flexible Documentation</h3>
             <p className="text-slate-600">Bank statements, asset-based, or alternative income verification</p>
@@ -66,15 +83,15 @@ export default function NonQMLoansPage() {
             <p className="text-slate-600">Perfect for business owners and independent contractors</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <TrendingUp className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <TrendingUp className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Higher DTI OK</h3>
             <p className="text-slate-600">Debt-to-income ratios up to 50% with strong compensating factors</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Users className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Investment Properties</h3>
             <p className="text-slate-600">Finance multiple investment properties with alternative income</p>
@@ -88,7 +105,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/bank-statement-loans" className="block">
               <Card className="border-l-4 border-l-blue-500 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">🏦 Bank Statement Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Landmark className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>Bank Statement Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• 12-24 months bank statements</div>
                     <div>• No tax returns required</div>
@@ -97,7 +117,7 @@ export default function NonQMLoansPage() {
                     <div>• 10-20% down payment</div>
                   </div>
                   <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Self-employed, 1099 contractors</p>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 text-sm">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -107,7 +127,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/asset-depletion-loans" className="block">
               <Card className="border-l-4 border-l-green-500 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">💰 Asset-Based Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <PiggyBank className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>Asset-Based Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• Income based on liquid assets</div>
                     <div>• Stocks, bonds, retirement accounts</div>
@@ -115,8 +138,8 @@ export default function NonQMLoansPage() {
                     <div>• No employment verification</div>
                     <div>• 20-30% down payment</div>
                   </div>
-                  <p className="text-sm font-semibold text-green-600 mb-4">Best for: Retirees, high-net-worth individuals</p>
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 text-sm">
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Retirees, high-net-worth individuals</p>
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -126,7 +149,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/profit-loss-statement-loans" className="block">
               <Card className="border-l-4 border-l-purple-500 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">📊 P&L Statement Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <BarChart3 className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>P&amp;L Statement Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• CPA-prepared P&L statements</div>
                     <div>• Business financial statements</div>
@@ -134,8 +160,8 @@ export default function NonQMLoansPage() {
                     <div>• Business income qualification</div>
                     <div>• 10-25% down payment</div>
                   </div>
-                  <p className="text-sm font-semibold text-purple-600 mb-4">Best for: Business owners, partnerships</p>
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 text-sm">
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Business owners, partnerships</p>
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -145,7 +171,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/dscr-investment-loans" className="block">
               <Card className="border-l-4 border-l-orange-500 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 DSCR Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>DSCR Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• Debt Service Coverage Ratio</div>
                     <div>• Property cash flow based</div>
@@ -153,8 +182,8 @@ export default function NonQMLoansPage() {
                     <div>• Investment properties only</div>
                     <div>• 20-25% down payment</div>
                   </div>
-                  <p className="text-sm font-semibold text-orange-600 mb-4">Best for: Real estate investors</p>
-                  <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-2 text-sm">
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Real estate investors</p>
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -165,7 +194,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/foreign-national-loans" className="block">
               <Card className="border-l-4 border-l-yellow-500 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">🌍 Foreign National</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Globe className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>Foreign National</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• No US credit required</div>
                     <div>• Foreign income acceptable</div>
@@ -174,7 +206,7 @@ export default function NonQMLoansPage() {
                     <div>• 30-40% down payment</div>
                   </div>
                   <p className="text-sm font-semibold text-yellow-600 mb-4">Best for: International buyers</p>
-                  <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white py-2 text-sm">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -184,7 +216,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/fix-flip-loans" className="block">
               <Card className="border-l-4 border-l-purple-600 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">🏗️ Fix & Flip Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Hammer className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>Fix &amp; Flip Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• Short-term financing (6-24 months)</div>
                     <div>• Quick closing (7-10 days)</div>
@@ -192,8 +227,8 @@ export default function NonQMLoansPage() {
                     <div>• Interest-only payments</div>
                     <div>• Rehab funds available</div>
                   </div>
-                  <p className="text-sm font-semibold text-purple-600 mb-4">Best for: Real estate investors, flippers</p>
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 text-sm">
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Real estate investors, flippers</p>
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -203,7 +238,10 @@ export default function NonQMLoansPage() {
             <Link href="/loan-programs/usda-rural-loans" className="block">
               <Card className="border-l-4 border-l-green-600 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full cursor-pointer">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">🌾 USDA Rural Loans</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Sprout className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                    <span>USDA Rural Loans</span>
+                  </h3>
                   <div className="space-y-2 text-sm text-slate-600 mb-4">
                     <div>• 0% down payment required</div>
                     <div>• No PMI required</div>
@@ -211,8 +249,8 @@ export default function NonQMLoansPage() {
                     <div>• Rural area requirement</div>
                     <div>• Primary residence only</div>
                   </div>
-                  <p className="text-sm font-semibold text-green-600 mb-4">Best for: Rural/suburban homebuyers</p>
-                  <Button className="w-full bg-green-700 hover:bg-green-800 text-white py-2 text-sm">
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Rural/suburban homebuyers</p>
+                  <Button className="w-full bg-slate-800 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>
                 </CardContent>
@@ -225,38 +263,44 @@ export default function NonQMLoansPage() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Who Benefits from Non-QM Loans?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-orange-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-orange-800 mb-4">✅ Perfect Candidates</h3>
+            <div className="bg-slate-50 p-6 rounded-xl">
+              <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <CheckCircle className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Perfect Candidates</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>Self-Employed Business Owners:</strong> Write off significant expenses, making tax returns lower than actual income</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Self-Employed Business Owners:</strong> Write off significant expenses, making tax returns lower than actual income</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>Real Estate Investors:</strong> Multiple properties with rental income and cash flow focus</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Real Estate Investors:</strong> Multiple properties with rental income and cash flow focus</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>Commission-Based Professionals:</strong> Realtors, loan officers, sales executives with variable income</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Commission-Based Professionals:</strong> Realtors, loan officers, sales executives with variable income</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>Freelancers & Consultants:</strong> 1099 income without traditional employment verification</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Freelancers & Consultants:</strong> 1099 income without traditional employment verification</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>High-Net-Worth Individuals:</strong> Asset-rich but income appears low on tax returns</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>High-Net-Worth Individuals:</strong> Asset-rich but income appears low on tax returns</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-orange-600 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-orange-700"><strong>Foreign Nationals:</strong> International buyers without US credit history</span>
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-blue-700"><strong>Foreign Nationals:</strong> International buyers without US credit history</span>
                 </div>
               </div>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-slate-800 mb-4">💡 Common Situations</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+                <Lightbulb className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                <span>Common Situations</span>
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-slate-600 mr-3 mt-1 flex-shrink-0" />
@@ -296,28 +340,28 @@ export default function NonQMLoansPage() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">How Bank Statement Loans Work</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">1</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">1</div>
                     <div>
                       <p className="font-semibold text-slate-900">Submit Bank Statements</p>
                       <p className="text-slate-600 text-sm">12 or 24 months of personal and/or business bank statements showing deposits</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">2</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">2</div>
                     <div>
                       <p className="font-semibold text-slate-900">Income Calculation</p>
                       <p className="text-slate-600 text-sm">Lender analyzes average monthly deposits to determine qualifying income</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">3</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">3</div>
                     <div>
                       <p className="font-semibold text-slate-900">Expense Factor Applied</p>
                       <p className="text-slate-600 text-sm">50% expense factor (personal) or 25% (business) applied to account for business expenses</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">4</div>
+                    <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1 text-sm">4</div>
                     <div>
                       <p className="font-semibold text-slate-900">Qualification & Approval</p>
                       <p className="text-slate-600 text-sm">Calculated income used for debt-to-income ratio and loan approval</p>
@@ -335,7 +379,7 @@ export default function NonQMLoansPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Expense Factor (50%):</span>
-                    <span className="font-bold text-orange-600">-$12,500</span>
+                    <span className="font-bold text-blue-600">-$12,500</span>
                   </div>
                   <div className="border-t pt-2">
                     <div className="flex justify-between">
@@ -359,38 +403,41 @@ export default function NonQMLoansPage() {
           <h2 className="text-3xl font-bold text-center mb-8">Non-QM Loan Requirements</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">✅ General Requirements</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                <span>General Requirements</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 620+ (varies by program)</p>
                     <p className="text-slate-600 text-sm">Higher scores unlock Better pricing and terms</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Down Payment: 10-30% (varies by program)</p>
                     <p className="text-slate-600 text-sm">Higher down payments often mean Better pricing</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Debt-to-Income: 50%</p>
                     <p className="text-slate-600 text-sm">Higher ratios acceptable with compensating factors</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Cash Reserves: 2-12 months</p>
                     <p className="text-slate-600 text-sm">Varies significantly by loan program and property type</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Alternative Documentation</p>
                     <p className="text-slate-600 text-sm">Bank statements, P&L, asset statements, or other verification</p>
@@ -400,7 +447,10 @@ export default function NonQMLoansPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">⚠️ Important Considerations</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <AlertTriangle className="w-6 h-6 text-orange-500" aria-hidden="true" />
+                <span>Important Considerations</span>
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <AlertCircle className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
@@ -450,39 +500,39 @@ export default function NonQMLoansPage() {
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900">Feature</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-orange-600">Non-QM Loans</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Non-QM Loans</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">Traditional Loans</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Income Documentation</td>
-                  <td className="px-6 py-4 text-center text-orange-600 font-bold">Alternative Methods</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Alternative Methods</td>
                   <td className="px-6 py-4 text-center text-slate-600">Tax Returns, W-2s</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">DTI Limits</td>
-                  <td className="px-6 py-4 text-center text-orange-600 font-bold">Up to 50%</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to 50%</td>
                   <td className="px-6 py-4 text-center text-slate-600">Up to 43-50%</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest pricing</td>
-                  <td className="px-6 py-4 text-center text-orange-600">0.5-2% Higher</td>
+                  <td className="px-6 py-4 text-center text-blue-600">0.5-2% Higher</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Lowest Available</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Down Payment</td>
-                  <td className="px-6 py-4 text-center text-orange-600">10-30%</td>
+                  <td className="px-6 py-4 text-center text-blue-600">10-30%</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">3-20%</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Processing Time</td>
-                  <td className="px-6 py-4 text-center text-orange-600">2-3 weeks</td>
+                  <td className="px-6 py-4 text-center text-blue-600">2-3 weeks</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">2-3 weeks</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Best For</td>
-                  <td className="px-6 py-4 text-center text-orange-600 font-bold">Complex Income</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Complex Income</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">W-2 Employees</td>
                 </tr>
               </tbody>
@@ -497,8 +547,8 @@ export default function NonQMLoansPage() {
             <div>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Briefcase className="w-6 h-6 text-orange-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Briefcase className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Entrepreneurial Market</h3>
@@ -523,8 +573,8 @@ export default function NonQMLoansPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 mt-1">
-                    <Users className="w-6 h-6 text-green-600" />
+                  <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mr-4 mt-1">
+                    <Users className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">International Buyers</h3>
@@ -537,7 +587,7 @@ export default function NonQMLoansPage() {
               </div>
             </div>
 
-            <div className="bg-orange-50 p-8 rounded-2xl">
+            <div className="bg-slate-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">OC Non-QM Market Insights</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -550,7 +600,7 @@ export default function NonQMLoansPage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Most Popular Program:</span>
-                  <span className="font-bold text-green-600">Bank Statement</span>
+                  <span className="font-bold text-blue-600">Bank Statement</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Investment Property %:</span>
@@ -573,26 +623,26 @@ export default function NonQMLoansPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready for Alternative Income Documentation?
           </h2>
-          <p className="text-xl mb-6 text-orange-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get specialized Non-QM financing tailored to your unique income situation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get My Non-QM Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-orange-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Non-QM lending specialist
           </p>
         </div>

@@ -268,8 +268,8 @@ export default function HomeEquityNorthSoundGuide2026() {
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Interest Rate Type</td>
                 <td className="border border-gray-300 px-4 py-3">Variable (prime + margin)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Fixed rate</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Fixed rate</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Fixed rate</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Fixed rate</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Current Rate Range (Feb 2026)</td>
@@ -279,14 +279,14 @@ export default function HomeEquityNorthSoundGuide2026() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Maximum CLTV (Wholesale)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">90%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">90%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">90%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">90%</td>
                 <td className="border border-gray-300 px-4 py-3">80%</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Impact on First Mortgage</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Keeps existing mortgage intact</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Keeps existing mortgage intact</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Keeps existing mortgage intact</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Keeps existing mortgage intact</td>
                 <td className="border border-gray-300 px-4 py-3">Replaces existing mortgage</td>
               </tr>
               <tr className="bg-gray-50">
@@ -297,7 +297,7 @@ export default function HomeEquityNorthSoundGuide2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Closing Costs</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 - $500 (many no-cost options)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 - $500 (many no-cost options)</td>
                 <td className="border border-gray-300 px-4 py-3">$1,500 - $3,000</td>
                 <td className="border border-gray-300 px-4 py-3">$4,000 - $8,000</td>
               </tr>
@@ -343,42 +343,42 @@ export default function HomeEquityNorthSoundGuide2026() {
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bellingham</td>
                 <td className="border border-gray-300 px-4 py-3">$664,000</td>
                 <td className="border border-gray-300 px-4 py-3">$280,000 - $350,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $297,600</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $297,600</td>
                 <td className="border border-gray-300 px-4 py-3">Home renovations, ADU construction, investment property down payment</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Anacortes</td>
                 <td className="border border-gray-300 px-4 py-3">$645,000</td>
                 <td className="border border-gray-300 px-4 py-3">$260,000 - $340,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $280,500</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $280,500</td>
                 <td className="border border-gray-300 px-4 py-3">Dock/waterfront improvements, boat moorage, vacation rental upgrade</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">San Juan Island</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
                 <td className="border border-gray-300 px-4 py-3">$500,000 - $700,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $590,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $590,000</td>
                 <td className="border border-gray-300 px-4 py-3">Property maintenance, guest house construction, estate planning</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Friday Harbor</td>
                 <td className="border border-gray-300 px-4 py-3">$1,000,000</td>
                 <td className="border border-gray-300 px-4 py-3">$420,000 - $600,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $500,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $500,000</td>
                 <td className="border border-gray-300 px-4 py-3">Business expansion, commercial property investment, home upgrades</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Mukilteo</td>
                 <td className="border border-gray-300 px-4 py-3">$850,000</td>
                 <td className="border border-gray-300 px-4 py-3">$350,000 - $480,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $415,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $415,000</td>
                 <td className="border border-gray-300 px-4 py-3">Kitchen/bath remodel, college funding, debt consolidation</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Edmonds</td>
                 <td className="border border-gray-300 px-4 py-3">$900,000</td>
                 <td className="border border-gray-300 px-4 py-3">$380,000 - $520,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Up to $460,000</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $460,000</td>
                 <td className="border border-gray-300 px-4 py-3">ADU construction, energy upgrades, retirement cash reserve</td>
               </tr>
             </tbody>
@@ -529,43 +529,43 @@ export default function HomeEquityNorthSoundGuide2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Rate</td>
                 <td className="border border-gray-300 px-4 py-3">Prime + 0.50% to + 2.00%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Prime - 0.25% to + 1.50%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Prime - 0.25% to + 1.50%</td>
                 <td className="border border-gray-300 px-4 py-3">0.25% - 0.75% lower rate</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Maximum CLTV</td>
                 <td className="border border-gray-300 px-4 py-3">80%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">90%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">90%</td>
                 <td className="border border-gray-300 px-4 py-3">10% more equity access</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Closing Costs</td>
                 <td className="border border-gray-300 px-4 py-3">$300 - $1,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (many no-cost options)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (many no-cost options)</td>
                 <td className="border border-gray-300 px-4 py-3">Zero out-of-pocket</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Intro Rate Period</td>
                 <td className="border border-gray-300 px-4 py-3">6-12 months</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">12-24 months (6.99% intro)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">12-24 months (6.99% intro)</td>
                 <td className="border border-gray-300 px-4 py-3">Longer low-rate period</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Self-Employed Options</td>
                 <td className="border border-gray-300 px-4 py-3">Tax returns required</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Bank statement programs available</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Bank statement programs available</td>
                 <td className="border border-gray-300 px-4 py-3">Flexible documentation</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Island Property Acceptance</td>
                 <td className="border border-gray-300 px-4 py-3">Often restricted</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Multiple island-friendly lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Multiple island-friendly lenders</td>
                 <td className="border border-gray-300 px-4 py-3">Island properties approved</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Approval Speed</td>
                 <td className="border border-gray-300 px-4 py-3">3-4 weeks</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">7-10 days (AVM eligible) to 3 weeks</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">7-10 days (AVM eligible) to 3 weeks</td>
                 <td className="border border-gray-300 px-4 py-3">Faster funding</td>
               </tr>
             </tbody>
@@ -651,21 +651,21 @@ export default function HomeEquityNorthSoundGuide2026() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
           <h2 className="text-2xl font-bold text-green-900 mb-4">
             Expert Summary: North Sound Home Equity Advantage
           </h2>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             North Sound homeowners from Bellingham to Edmonds and across the San Juan Islands hold substantial equity built through decades of property appreciation and mortgage paydown. This equity represents a powerful financial tool&mdash;one that funds renovations, consolidates expensive debt, builds retirement income, and creates investment opportunities. The key to maximizing your equity benefit is accessing the right programs through the right channels.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             Wholesale broker access delivers measurably better HELOC and HELOAN terms than local bank offerings: lower rates, higher CLTV limits (90% versus 80%), zero closing costs, and flexible qualification for self-employed and seasonal income earners. For waterfront and island property owners, wholesale access includes lenders that actively finance the unique property types that many banks restrict or decline.
           </p>
-          <p className="text-green-800 mb-4">
+          <p className="text-slate-900 mb-4">
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for North Sound homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial equity assessment through funding, Mo matches your specific property, income profile, and financial goals to the best available HELOC, HELOAN, or cash-out refinance program from 200+ wholesale lenders.
           </p>
-          <p className="text-green-800 mb-0">
-            <strong>Ready to unlock your North Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most North Sound homeowners receive funding within 2-3 weeks.
+          <p className="text-slate-900 mb-0">
+            <strong>Ready to unlock your North Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most North Sound homeowners receive funding within 2-3 weeks.
           </p>
         </div>
 

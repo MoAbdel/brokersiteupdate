@@ -26,14 +26,14 @@ export default function BankStatementLoansIrvinePage() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Badge className="bg-orange-100 text-orange-600">Non-QM Specialty Program</Badge>
+            <Badge className="bg-slate-100 text-blue-600">Non-QM Specialty Program</Badge>
             <Badge className="bg-blue-100 text-blue-600 flex items-center gap-1">
               <MapPin className="w-3 h-3" />
               Irvine CA
             </Badge>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-orange-600">Bank Statement Loans</span> in Irvine CA
+            <span className="text-blue-600">Bank Statement Loans</span> in Irvine CA
           </h1>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Self-employed professionals in Irvine can qualify for mortgages using 12-24 months of bank statements 
@@ -41,12 +41,12 @@ export default function BankStatementLoansIrvinePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get Irvine Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-orange-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -67,7 +67,7 @@ export default function BankStatementLoansIrvinePage() {
               <p className="text-slate-600 text-sm">Median home price $1.4M+ requires flexible financing for self-employed buyers</p>
             </div>
             <div className="text-center">
-              <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Entrepreneur Hub</h3>
@@ -93,23 +93,23 @@ export default function BankStatementLoansIrvinePage() {
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Who Qualifies:</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Tech entrepreneurs and consultants</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Real estate investors and agents</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Medical practice owners</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Small business owners</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Contractors and freelancers</span>
                 </li>
               </ul>
@@ -118,23 +118,23 @@ export default function BankStatementLoansIrvinePage() {
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Program Features:</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <DollarSign className="w-5 h-5 text-orange-600 mt-1 flex-shrink-0" />
+                  <DollarSign className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Loan amounts up to $3M+</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <FileText className="w-5 h-5 text-orange-600 mt-1 flex-shrink-0" />
+                  <FileText className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">12 or 24 month bank statements</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <TrendingUp className="w-5 h-5 text-orange-600 mt-1 flex-shrink-0" />
+                  <TrendingUp className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">No tax returns required</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Calculator className="w-5 h-5 text-orange-600 mt-1 flex-shrink-0" />
+                  <Calculator className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Down payments from 10%</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Users className="w-5 h-5 text-orange-600 mt-1 flex-shrink-0" />
+                  <Users className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <span className="text-slate-700">Purchase or refinance</span>
                 </li>
               </ul>
@@ -182,15 +182,15 @@ export default function BankStatementLoansIrvinePage() {
               <p className="text-slate-600">Provide 12-24 months of personal or business bank statements</p>
             </div>
             <div className="text-center">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-orange-600">2</span>
+              <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">2</span>
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Income Calculation</h3>
               <p className="text-slate-600">We calculate qualifying income from your deposits and cash flow</p>
             </div>
             <div className="text-center">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-green-600">3</span>
+              <div className="bg-slate-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">3</span>
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Fast Approval</h3>
               <p className="text-slate-600">Get approved quickly to compete in Irvine's fast-moving market</p>
@@ -199,7 +199,7 @@ export default function BankStatementLoansIrvinePage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-lg p-8 text-center text-white">
+        <div className="bg-slate-900 rounded-lg p-8 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Ready to Buy Your Irvine Home?</h2>
           <p className="text-xl mb-6">
             Don't let complex income documentation delay your Irvine home purchase. 
@@ -207,12 +207,12 @@ export default function BankStatementLoansIrvinePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-orange-600 hover:bg-slate-100 px-8 py-3 text-lg">
+              <Button className="bg-white text-blue-600 hover:bg-slate-100 px-8 py-3 text-lg">
                 Start Your Application
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-orange-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
                 (949) 822-9662
               </Button>

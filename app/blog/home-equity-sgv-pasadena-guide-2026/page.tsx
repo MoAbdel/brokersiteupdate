@@ -262,28 +262,28 @@ export default function HomeEquitySGVPasadenaGuidePage() {
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">San Marino</td>
                 <td className="py-2 px-4 border-b">$3,000,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,800,000 - $2,400,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,800,000 - $2,400,000</td>
                 <td className="py-2 px-4 border-b">Super-jumbo HELOC, Jumbo HELOAN</td>
                 <td className="py-2 px-4 border-b">Old Mill, Huntington Dr, Lacy Park</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">La Ca&ntilde;ada Flintridge</td>
                 <td className="py-2 px-4 border-b">$2,200,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,200,000 - $1,760,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,200,000 - $1,760,000</td>
                 <td className="py-2 px-4 border-b">Jumbo HELOC, Jumbo cash-out refi</td>
                 <td className="py-2 px-4 border-b">Descanso area, Flintridge proper</td>
               </tr>
               <tr className="bg-yellow-50">
                 <td className="py-2 px-4 border-b font-semibold">South Pasadena</td>
                 <td className="py-2 px-4 border-b">$1,800,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,000,000 - $1,440,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,000,000 - $1,440,000</td>
                 <td className="py-2 px-4 border-b">Jumbo HELOC, Jumbo HELOAN</td>
                 <td className="py-2 px-4 border-b">Marengo Ave, Mission District</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-semibold">Arcadia</td>
                 <td className="py-2 px-4 border-b">$1,800,000</td>
-                <td className="py-2 px-4 border-b text-green-700 font-semibold">$1,000,000 - $1,440,000</td>
+                <td className="py-2 px-4 border-b text-blue-700 font-semibold">$1,000,000 - $1,440,000</td>
                 <td className="py-2 px-4 border-b">Jumbo HELOC, Jumbo cash-out refi</td>
                 <td className="py-2 px-4 border-b">Upper Rancho, Arcadia Highlands</td>
               </tr>
@@ -346,13 +346,13 @@ export default function HomeEquitySGVPasadenaGuidePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-medium">Rate Type</td><td className="py-2 px-4 border-b">Variable (some fixed options)</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Fixed</td><td className="py-2 px-4 border-b">Fixed or adjustable</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Disbursement</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Revolving credit line</td><td className="py-2 px-4 border-b">Lump sum</td><td className="py-2 px-4 border-b">Lump sum at closing</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Rate Type</td><td className="py-2 px-4 border-b">Variable (some fixed options)</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Fixed</td><td className="py-2 px-4 border-b">Fixed or adjustable</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Disbursement</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Revolving credit line</td><td className="py-2 px-4 border-b">Lump sum</td><td className="py-2 px-4 border-b">Lump sum at closing</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Lien Position</td><td className="py-2 px-4 border-b">2nd lien</td><td className="py-2 px-4 border-b">2nd lien</td><td className="py-2 px-4 border-b">Replaces 1st mortgage</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Existing Mortgage</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Stays intact</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Stays intact</td><td className="py-2 px-4 border-b">Paid off and replaced</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Existing Mortgage</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Stays intact</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Stays intact</td><td className="py-2 px-4 border-b">Paid off and replaced</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Draw Period</td><td className="py-2 px-4 border-b">5-10 years</td><td className="py-2 px-4 border-b">N/A (lump sum)</td><td className="py-2 px-4 border-b">N/A (lump sum)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Repayment Period</td><td className="py-2 px-4 border-b">10-20 years</td><td className="py-2 px-4 border-b">10-30 years</td><td className="py-2 px-4 border-b">15-30 years</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Closing Costs</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Low to none</td><td className="py-2 px-4 border-b">Moderate</td><td className="py-2 px-4 border-b">Full refinance costs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Closing Costs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Low to none</td><td className="py-2 px-4 border-b">Moderate</td><td className="py-2 px-4 border-b">Full refinance costs</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Jumbo Available</td><td className="py-2 px-4 border-b">Yes, to $3M+</td><td className="py-2 px-4 border-b">Yes, to $2M+</td><td className="py-2 px-4 border-b">Yes, to $5M+</td></tr>
               <tr><td className="py-2 px-4 font-medium">Best SGV Use Case</td><td className="py-2 px-4 text-blue-700">Staged renovations, flexible needs</td><td className="py-2 px-4 text-blue-700">One-time project, fixed payments</td><td className="py-2 px-4 text-blue-700">High existing rate, large equity need</td></tr>
             </tbody>
@@ -460,7 +460,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
               <tr><td className="py-2 px-4 border-b font-medium">Credit Line Range</td><td className="py-2 px-4 border-b">$500K - $1.5M</td><td className="py-2 px-4 border-b">$1.5M - $3M+</td><td className="py-2 px-4 border-b">$250K - $2M</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Max CLTV</td><td className="py-2 px-4 border-b">80%</td><td className="py-2 px-4 border-b">70-75%</td><td className="py-2 px-4 border-b">70-75%</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Min Credit Score</td><td className="py-2 px-4 border-b">700</td><td className="py-2 px-4 border-b">720</td><td className="py-2 px-4 border-b">680</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Income Documentation</td><td className="py-2 px-4 border-b">Full doc (W-2/tax)</td><td className="py-2 px-4 border-b">Full doc (W-2/tax)</td><td className="py-2 px-4 border-b text-green-700 font-semibold">12-24 months bank statements</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Income Documentation</td><td className="py-2 px-4 border-b">Full doc (W-2/tax)</td><td className="py-2 px-4 border-b">Full doc (W-2/tax)</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">12-24 months bank statements</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Draw Period</td><td className="py-2 px-4 border-b">10 years</td><td className="py-2 px-4 border-b">5-10 years</td><td className="py-2 px-4 border-b">10 years</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Repayment Period</td><td className="py-2 px-4 border-b">15-20 years</td><td className="py-2 px-4 border-b">10-15 years</td><td className="py-2 px-4 border-b">15-20 years</td></tr>
               <tr><td className="py-2 px-4 font-medium">Best SGV Fit</td><td className="py-2 px-4 text-blue-700">Pasadena, Glendale, Sierra Madre</td><td className="py-2 px-4 text-blue-700">San Marino, La Ca&ntilde;ada Flintridge</td><td className="py-2 px-4 text-blue-700">Self-employed across all SGV cities</td></tr>
@@ -512,10 +512,10 @@ export default function HomeEquitySGVPasadenaGuidePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Full kitchen remodel</td><td className="py-2 px-4 border-b">$85,000 - $175,000</td><td className="py-2 px-4 border-b">$100,000 - $225,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">75-130%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Primary bathroom remodel</td><td className="py-2 px-4 border-b">$45,000 - $90,000</td><td className="py-2 px-4 border-b">$50,000 - $100,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">70-110%</td></tr>
-              <tr><td className="py-2 px-4 border-b">ADU construction (detached)</td><td className="py-2 px-4 border-b">$200,000 - $350,000</td><td className="py-2 px-4 border-b">$300,000 - $450,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">85-150%</td></tr>
-              <tr><td className="py-2 px-4 border-b">Garage conversion ADU</td><td className="py-2 px-4 border-b">$80,000 - $150,000</td><td className="py-2 px-4 border-b">$120,000 - $200,000</td><td className="py-2 px-4 border-b text-green-700 font-semibold">100-150%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Full kitchen remodel</td><td className="py-2 px-4 border-b">$85,000 - $175,000</td><td className="py-2 px-4 border-b">$100,000 - $225,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">75-130%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Primary bathroom remodel</td><td className="py-2 px-4 border-b">$45,000 - $90,000</td><td className="py-2 px-4 border-b">$50,000 - $100,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">70-110%</td></tr>
+              <tr><td className="py-2 px-4 border-b">ADU construction (detached)</td><td className="py-2 px-4 border-b">$200,000 - $350,000</td><td className="py-2 px-4 border-b">$300,000 - $450,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">85-150%</td></tr>
+              <tr><td className="py-2 px-4 border-b">Garage conversion ADU</td><td className="py-2 px-4 border-b">$80,000 - $150,000</td><td className="py-2 px-4 border-b">$120,000 - $200,000</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">100-150%</td></tr>
               <tr><td className="py-2 px-4 border-b">Seismic retrofit</td><td className="py-2 px-4 border-b">$50,000 - $200,000</td><td className="py-2 px-4 border-b">Preservation of value</td><td className="py-2 px-4 border-b">Insurance savings + safety</td></tr>
               <tr><td className="py-2 px-4">Solar + battery system</td><td className="py-2 px-4">$30,000 - $60,000</td><td className="py-2 px-4">$25,000 - $50,000</td><td className="py-2 px-4">70-85% + utility savings</td></tr>
             </tbody>
@@ -695,7 +695,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
         </div>
 
         {/* Expert Summary */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+        <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="mt-0 text-xl font-bold text-green-900">Expert Summary: Home Equity in the San Gabriel Valley [2026]</h2>
           <p className="text-gray-800">
             The San Gabriel Valley&apos;s nine-city corridor represents one of the most equity-rich housing markets in all of Southern California. With median values ranging from $1 million in La Crescenta to $3 million in San Marino, SGV homeowners collectively hold tens of billions in accessible home equity. The 2026 market presents strong opportunities for homeowners to leverage this equity for renovations that increase property value, ADU construction that generates rental income, investment property acquisition, and debt consolidation at favorable rates.
@@ -704,20 +704,20 @@ export default function HomeEquitySGVPasadenaGuidePage() {
             The key to maximizing your equity access is choosing the right product (HELOC, HELOAN, or cash-out refinance) based on your existing mortgage terms, intended use of funds, and preference for fixed versus variable rates. Equally important is comparing programs from multiple wholesale lenders rather than accepting a single bank&apos;s offering. In the jumbo HELOC space that serves most SGV properties, rate and term differences across lenders can save homeowners tens of thousands of dollars over the life of the credit line.
           </p>
           <p className="text-gray-800 mb-0">
-            Contact Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-semibold">(949) 822-9662</a> for a free consultation on home equity options for your San Gabriel Valley property. I provide wholesale rate comparisons, product recommendations tailored to your goals, and a clear path from application to closing.
+            Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a free consultation on home equity options for your San Gabriel Valley property. I provide wholesale rate comparisons, product recommendations tailored to your goals, and a clear path from application to closing.
           </p>
         </div>
 
         {/* CTA */}
         <div className="bg-blue-900 text-white p-8 rounded-xl my-8 text-center">
           <h2 className="text-white mt-0 text-2xl font-bold">Get Your Free San Gabriel Valley Home Equity Consultation</h2>
-          <p className="text-blue-100 text-lg">
+          <p className="text-slate-200 text-lg">
             HELOC, HELOAN &amp; Cash-Out Refinance for San Marino, La Ca&ntilde;ada Flintridge, Pasadena, Arcadia, South Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-blue-200">(949) 822-9662</a>
+            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
           </p>
-          <p className="text-blue-200 text-sm mb-0">
+          <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
           </p>
         </div>

@@ -125,7 +125,7 @@ export default function LaderaRanchMortgageGuide2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-green-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-green-500/30">
               <span className="text-green-400 text-sm font-medium">Ladera Ranch Mortgage Broker</span>
             </div>
 
@@ -140,7 +140,7 @@ export default function LaderaRanchMortgageGuide2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Ladera Ranch Rate Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -173,15 +173,15 @@ export default function LaderaRanchMortgageGuide2026() {
             <h3 className="font-semibold text-slate-900 mb-4">Ladera Ranch Real Estate Snapshot 2026</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1.4M</p>
+                <p className="text-3xl font-bold text-blue-600">$1.4M</p>
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-green-600">30,000</p>
+                <p className="text-3xl font-bold text-blue-600">30,000</p>
                 <p className="text-sm text-slate-600">Population</p>
               </div>
             </div>
@@ -198,9 +198,9 @@ export default function LaderaRanchMortgageGuide2026() {
             How Do Ladera Ranch HOA Fees Affect Your Mortgage Qualification?
           </h2>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <Star className="w-5 h-5 text-amber-600" />
+              <Star className="w-5 h-5 text-blue-600" />
               Important: HOA Fees Impact DTI
             </h3>
             <p className="text-slate-600 mb-4">
@@ -233,22 +233,22 @@ export default function LaderaRanchMortgageGuide2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">100+ Lender Competition</h4>
                 <p className="text-slate-600">Multiple jumbo lenders compete for your loan, driving down rates on high-balance mortgages.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Jumbo Loan Expertise</h4>
                 <p className="text-slate-600">Specialized knowledge of jumbo underwriting guidelines and lender preferences for Ladera Ranch properties.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">HOA-Friendly Lenders</h4>
                 <p className="text-slate-600">Access to lenders experienced with master-planned community requirements and HOA documentation.</p>
@@ -266,7 +266,7 @@ export default function LaderaRanchMortgageGuide2026() {
           <div className="space-y-6">
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <DollarSign className="w-8 h-8 text-green-600" />
+                <DollarSign className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,266,300)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -297,7 +297,7 @@ export default function LaderaRanchMortgageGuide2026() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Users className="w-8 h-8 text-indigo-600" />
+                <Users className="w-8 h-8 text-blue-600" />
                 <h3 className="text-xl font-semibold text-slate-900">FHA Loans (First-Time Buyers)</h3>
               </div>
               <p className="text-slate-600 mb-4">
@@ -362,35 +362,35 @@ export default function LaderaRanchMortgageGuide2026() {
           <div className="bg-slate-50 rounded-xl p-6">
             <ol className="space-y-4">
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">1</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">1</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Gather Your Documents</h4>
                   <p className="text-slate-600">W-2s (2 years), pay stubs (30 days), bank statements (2 months), tax returns. Jumbo loans may require additional asset documentation.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">2</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Check Your Credit Score</h4>
                   <p className="text-slate-600">680+ recommended for jumbo loans. Higher scores unlock better Ladera Ranch mortgage rates on high-balance loans.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">3</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Calculate Budget Including HOA</h4>
                   <p className="text-slate-600">Factor in $200-$400+ monthly HOA fees when calculating your housing budget and DTI ratio.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">4</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
                   <p className="text-slate-600">Mo Abdel compares jumbo rates from 100+ lenders to find your best Ladera Ranch mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-green-600 text-white font-bold shrink-0">5</span>
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">5</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Receive Pre-Approval Letter</h4>
                   <p className="text-slate-600">Valid for 60-90 days. Strong jumbo pre-approval letters help you compete in Ladera Ranch's market.</p>
@@ -421,12 +421,12 @@ export default function LaderaRanchMortgageGuide2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to Explore Ladera Ranch Mortgage Options?
           </h2>
-          <p className="text-lg text-green-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
             Get a personalized jumbo loan quote from 100+ wholesale lenders. Specialized expertise in Ladera Ranch's master-planned community requirements. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Free Rate Quote
               </Button>
             </Link>
@@ -443,22 +443,22 @@ export default function LaderaRanchMortgageGuide2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Ladera Ranch Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Jumbo Loan Programs for Orange County
             </Link>
-            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/mission-viejo-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Nearby: Mission Viejo Mortgages
             </Link>
-            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Nearby: Rancho Santa Margarita Mortgages
             </Link>
-            <Link href="/blog/va-loans-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/va-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → VA Loans for Orange County Military
             </Link>
-            <Link href="/calculator" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/calculator" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Ladera Ranch Affordability Calculator
             </Link>
-            <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → First-Time Homebuyer Guide
             </Link>
           </div>

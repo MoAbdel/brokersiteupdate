@@ -168,7 +168,7 @@ export default function WeeklyUpdatePage() {
     return (
       <div className="min-h-screen bg-slate-50 flex items-center justify-center">
         <Card className="max-w-md w-full mx-4 shadow-xl">
-          <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-t-lg">
+          <CardHeader className="bg-slate-900 text-white rounded-t-lg">
             <CardTitle>Admin Access Required</CardTitle>
           </CardHeader>
           <CardContent className="p-6">
@@ -181,7 +181,7 @@ export default function WeeklyUpdatePage() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
               />
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
+              <Button type="submit" className="w-full bg-slate-900 hover:bg-slate-800">
                 Access Weekly Update Dashboard
               </Button>
             </form>
@@ -213,7 +213,7 @@ export default function WeeklyUpdatePage() {
           </div>
           
           <div className="flex items-center gap-4 mt-4">
-            <Badge className="bg-green-100 text-green-800">
+            <Badge className="bg-slate-100 text-slate-900">
               Last Updated: {lastUpdated}
             </Badge>
             <Badge className="bg-blue-100 text-blue-800">
@@ -224,7 +224,7 @@ export default function WeeklyUpdatePage() {
 
         {/* Quick Update Checklist */}
         <Card className="mb-8 shadow-lg border-slate-200">
-          <CardHeader className="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-t-lg">
+          <CardHeader className="bg-slate-900 text-white rounded-t-lg">
             <CardTitle className="flex items-center text-xl">
               <Calculator className="w-5 h-5 mr-2" />
               Weekly Update Checklist
@@ -241,7 +241,7 @@ export default function WeeklyUpdatePage() {
                   <Badge className={
                     item.priority === 'High' ? 'bg-red-100 text-red-800' :
                     item.priority === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
-                    'bg-green-100 text-green-800'
+                    'bg-slate-100 text-slate-900'
                   }>
                     {item.priority}
                   </Badge>
@@ -251,14 +251,14 @@ export default function WeeklyUpdatePage() {
             
             <div className="mt-6 flex gap-4">
               <Link href="/admin">
-                <Button className="bg-blue-600 hover:bg-blue-700">
+                <Button className="bg-slate-900 hover:bg-slate-800">
                   <Database className="w-4 h-4 mr-2" />
                   Go to Data Entry
                 </Button>
               </Link>
               <Button 
                 variant="ghost" 
-                className="text-green-600 border-green-200"
+                className="text-blue-600 border-slate-200"
                 onClick={() => window.location.reload()}
               >
                 <RefreshCw className="w-4 h-4 mr-2" />
@@ -309,7 +309,7 @@ export default function WeeklyUpdatePage() {
 
         {/* Quick Tips */}
         <Card className="mt-8 shadow-lg border-slate-200">
-          <CardHeader className="bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-t-lg">
+          <CardHeader className="bg-slate-900 text-white rounded-t-lg">
             <CardTitle className="flex items-center text-xl">
               <TrendingUp className="w-5 h-5 mr-2" />
               Pro Tips for Weekly Updates
@@ -318,23 +318,23 @@ export default function WeeklyUpdatePage() {
           <CardContent className="p-6">
             <ul className="space-y-3 text-slate-700">
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-blue-600 mr-2">•</span>
                 <span>Update rates every <strong>Thursday morning</strong> after Freddie Mac PMMS releases (usually 10am ET)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-blue-600 mr-2">•</span>
                 <span>Check MBA data every <strong>Wednesday</strong> for mortgage application trends</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-blue-600 mr-2">•</span>
                 <span>Redfin updates Orange County data <strong>weekly</strong> - best source for local metrics</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-blue-600 mr-2">•</span>
                 <span>Use Fed Funds Rate from FRED for the most current federal rate data</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-blue-600 mr-2">•</span>
                 <span>Screenshot important charts from these sources to share with clients</span>
               </li>
             </ul>

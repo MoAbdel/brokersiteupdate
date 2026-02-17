@@ -141,7 +141,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
               <Layers className="w-4 h-4 text-purple-400" />
               <span className="text-purple-400 text-sm font-medium">DSCR Portfolio Scaling</span>
             </div>
@@ -156,7 +156,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Portfolio DSCR Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -188,9 +188,9 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             Beyond the property count limit, conventional underwriting creates a second barrier: personal debt-to-income (DTI) ratio compression. Each additional financed property adds its full PITIA to the borrower&apos;s debt column. Even with strong rental income offsets (typically 75% of rent credited), portfolio investors frequently exceed the 45-50% DTI threshold before reaching property number 10. DSCR loans eliminate both barriers simultaneously &mdash; no property count limit and no personal DTI calculation.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-purple-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               The Conventional Financing Ceiling
             </h3>
             <div className="grid md:grid-cols-3 gap-4">
@@ -201,12 +201,12 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               </div>
               <div className="bg-white rounded-lg p-4">
                 <p className="text-sm text-slate-600">DSCR Property Limit</p>
-                <p className="text-2xl font-bold text-green-600">Unlimited</p>
+                <p className="text-2xl font-bold text-blue-600">Unlimited</p>
                 <p className="text-xs text-slate-500 mt-1">Each property qualifies independently</p>
               </div>
               <div className="bg-white rounded-lg p-4">
                 <p className="text-sm text-slate-600">DTI Requirement</p>
-                <p className="text-2xl font-bold text-green-600">None</p>
+                <p className="text-2xl font-bold text-blue-600">None</p>
                 <p className="text-xs text-slate-500 mt-1">DSCR uses property income only</p>
               </div>
             </div>
@@ -253,38 +253,38 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Rate Structure</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Fixed 30-year available</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Fixed 30-year available</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Fixed or ARM (5-10 yr terms)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Variable rate</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Mixed (lowest blended cost)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Variable rate</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Mixed (lowest blended cost)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Down Payment</td>
                   <td className="px-4 py-3 text-sm text-slate-600">20-25% per property</td>
                   <td className="px-4 py-3 text-sm text-slate-600">25-30% aggregate LTV</td>
                   <td className="px-4 py-3 text-sm text-slate-600">30-40% equity required</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">15-25% (varies by type)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">15-25% (varies by type)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Qualification</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Property income only</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Property income only</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Portfolio-level DSCR</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Net worth + portfolio cash flow</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Personal income + property income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">LLC Vesting</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes</td>
                   <td className="px-4 py-3 text-sm text-slate-600">DSCR only (not conventional)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Sell Individual Property</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Simple payoff</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Requires release clause</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Simple payoff</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Requires release clause</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Reduces available credit</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Simple payoff</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Simple payoff</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Best For</td>
@@ -324,29 +324,29 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Single LLC per Property</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Maximum</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">High (fees per entity)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely accepted</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Maximum</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">High (fees per entity)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely accepted</td>
                   <td className="px-4 py-3 text-sm text-slate-600">High-value properties ($500K+)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Series LLC</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Strong (per series)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Low (one filing)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Limited (not all states)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Strong (per series)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Low (one filing)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Limited (not all states)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">10+ properties in series LLC states</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Holding Company LLC</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Moderate (shared entity)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Low (one entity)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Widely accepted</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Low (one entity)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely accepted</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Smaller portfolios (3-8 properties)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Land Trust + LLC</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Strong (privacy + protection)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600">Moderate</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Strong (privacy + protection)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600">Moderate</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Select lenders only</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Privacy-focused investors</td>
                 </tr>
@@ -453,26 +453,26 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             DSCR loans are particularly well-suited for 1031 exchanges because the qualification is based on the replacement property&apos;s income potential, not the investor&apos;s personal tax situation (which becomes complex during exchange years). The 45-day identification period and 180-day closing deadline require a financing partner who can execute within these IRS-mandated windows. A wholesale broker pre-approves DSCR financing before the exchange begins, ensuring the replacement property closes within the required timeframe.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <TrendingUp className="w-5 h-5 text-green-600" />
+              <TrendingUp className="w-5 h-5 text-blue-600" />
               1031 Exchange + DSCR Timeline
             </h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <span className="bg-green-600 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 0</span>
+                <span className="bg-slate-900 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 0</span>
                 <span className="text-slate-600">Close sale of relinquished property; proceeds go to Qualified Intermediary</span>
               </div>
               <div className="flex items-center gap-3">
-                <span className="bg-green-600 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 1</span>
+                <span className="bg-slate-900 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 1</span>
                 <span className="text-slate-600">Submit DSCR loan application for pre-identified replacement property</span>
               </div>
               <div className="flex items-center gap-3">
-                <span className="bg-amber-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 45</span>
+                <span className="bg-slate-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 45</span>
                 <span className="text-slate-600"><strong>IRS deadline:</strong> Identify up to 3 replacement properties in writing</span>
               </div>
               <div className="flex items-center gap-3">
-                <span className="bg-green-600 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 60</span>
+                <span className="bg-slate-900 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center shrink-0">Day 60</span>
                 <span className="text-slate-600">Typical DSCR loan closing (21-30 day underwriting after appraisal)</span>
               </div>
               <div className="flex items-center gap-3">
@@ -482,9 +482,9 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </div>
           </div>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6">
             <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Important 1031 Exchange Note
             </h3>
             <p className="text-sm text-slate-600">
@@ -503,22 +503,22 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
           </p>
 
           <div className="space-y-4 mb-6">
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Cash-Out Refinance for Acquisition Capital</h4>
                 <p className="text-slate-600">Refinance appreciated properties at 70-75% LTV to extract equity. The extracted cash becomes the down payment for the next DSCR acquisition. A property purchased at $400,000 that appreciates to $550,000 can release $12,500-$62,500 in equity through a cash-out refinance (depending on existing loan balance and target LTV), fueling the next purchase.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Rate-and-Term Refinance for Cost Reduction</h4>
                 <p className="text-slate-600">When DSCR rates improve or a borrower&apos;s credit score increases, rate-and-term refinancing reduces monthly payments across the portfolio. A rate reduction across 15 properties compounds into meaningful annual savings, improving portfolio-level cash flow without any equity extraction.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Conventional-to-DSCR Migration</h4>
                 <p className="text-slate-600">Refinancing existing conventional loans into DSCR frees up personal DTI capacity. This allows the investor to use conventional financing for a primary residence upgrade or other personal lending needs while maintaining portfolio financing through DSCR channels. Each conventional loan converted to DSCR removes that payment from the borrower&apos;s DTI calculation.</p>
@@ -529,27 +529,27 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
           <h3 className="text-xl font-bold text-slate-900 mb-4">6 Steps to Execute a Portfolio-Level DSCR Refinance</h3>
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>Rank properties by equity position</strong> &mdash; prioritize properties with the most appreciation for cash-out potential</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Calculate individual DSCR ratios</strong> &mdash; verify each property meets minimum DSCR requirements for refinance qualification</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Check prepayment penalties</strong> &mdash; ensure existing loans are past their penalty periods or factor penalty costs into the refinance analysis</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>Submit all scenarios to a wholesale broker</strong> &mdash; compare refinance terms from 100+ DSCR lenders for each property simultaneously</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Sequence refinances strategically</strong> &mdash; stagger closings to manage cash flow impact and appraisal scheduling</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Deploy extracted equity into acquisitions</strong> &mdash; use cash-out proceeds as down payments for DSCR-qualified replacement properties</span>
             </li>
           </ol>
@@ -565,9 +565,9 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 rounded-xl p-6">
+            <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <BarChart3 className="w-5 h-5 text-green-600" />
+                <BarChart3 className="w-5 h-5 text-blue-600" />
                 Portfolio Health Metrics
               </h3>
               <ul className="text-slate-600 space-y-2">
@@ -577,9 +577,9 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
                 <li><strong>Weighted Average Rate:</strong> Blended interest rate across all portfolio loans</li>
               </ul>
             </div>
-            <div className="bg-amber-50 rounded-xl p-6">
+            <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <AlertCircle className="w-5 h-5 text-amber-600" />
+                <AlertCircle className="w-5 h-5 text-blue-600" />
                 Portfolio Risk Factors
               </h3>
               <ul className="text-slate-600 space-y-2">
@@ -604,9 +604,9 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             Beyond rate competition, wholesale brokers provide portfolio investors with policy expertise across lenders. Some lenders cap exposure at 10 properties while others allow 50+. Some require reserves on every financed property while others only require reserves for the subject property. Some apply rate adjustments for property counts above 10, while others have no count-based pricing penalties. Only a broker who actively works with 100+ wholesale lenders knows which policies apply at which lenders for your specific scenario.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <DollarSign className="w-5 h-5 text-purple-600" />
+              <DollarSign className="w-5 h-5 text-blue-600" />
               Portfolio Investor Wholesale Advantages
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
@@ -702,15 +702,15 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: Scale Your Portfolio with Wholesale DSCR Access
           </h2>
-          <p className="text-lg text-purple-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             Portfolio investors who rely on conventional financing hit predictable walls at the 10-property limit and DTI ceiling. DSCR loans remove both barriers while adding entity vesting, unlimited property counts, and no personal income documentation. The difference between retail and wholesale DSCR access is the difference between one lender&apos;s terms and the best terms from 100+ lenders.
           </p>
-          <p className="text-lg text-purple-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             Mo Abdel at Lumin Lending structures DSCR portfolio financing across California and Washington, matching each property in your portfolio with the lender offering the most competitive rate, reserves policy, and entity-friendly underwriting. Whether you own 5 properties or 50, wholesale DSCR access makes every acquisition more efficient.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Portfolio DSCR Quote
               </Button>
             </Link>
@@ -727,22 +727,22 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR &amp; Portfolio Investment Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained for Investors
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements 2026
             </Link>
-            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs Conventional Investment Property Loans
             </Link>
-            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Short-Term Rentals &amp; Airbnb
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/dscr-investment-property-loans-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Investment Property Loans 2026
             </Link>
           </div>

@@ -338,9 +338,9 @@ export default function WhatIsReverseMortgagePage() {
                     A reverse mortgage makes sense in certain situations:
                 </p>
 
-                <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-6">
+                <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 my-6">
                     <h3 className="text-lg font-bold text-green-900 mt-0">Good Candidates for Reverse Mortgages:</h3>
-                    <ul className="mb-0 text-green-800">
+                    <ul className="mb-0 text-slate-900">
                         <li>Seniors 62+ who plan to stay in their home long-term</li>
                         <li>Homeowners with significant equity seeking to eliminate mortgage payments</li>
                         <li>Retirees needing supplemental income without affecting Social Security or Medicare</li>
@@ -366,7 +366,7 @@ export default function WhatIsReverseMortgagePage() {
                     <p className="text-blue-800 mb-4">
                         Understanding whether a reverse mortgage fits your retirement strategy requires personalized analysis. As your California reverse mortgage specialist, I'll help you understand your options, compare costs, and connect you with HUD-approved counseling.
                     </p>
-                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your Free Reverse Mortgage Consultation
                     </a>
                 </div>

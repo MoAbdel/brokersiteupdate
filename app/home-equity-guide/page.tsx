@@ -845,7 +845,7 @@ export default function HomeEquityGuidePage() {
                         Compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders. Get a personalized blended rate analysis to determine which product optimizes your financial situation.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-center">
+                        <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors text-center">
                             Get Your Custom Analysis
                         </a>
                         <a href="tel:+19498229662" className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors text-center">

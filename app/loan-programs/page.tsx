@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { Home, Shield, Users, TrendingUp, DollarSign, Zap, ArrowRight } from 'lucide-react';
+import { ArrowRight, BarChart3, Briefcase, DollarSign, Hammer, Home, PiggyBank, Shield, Sprout, Target, TrendingUp, Users, Zap } from 'lucide-react';
 import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -105,7 +105,7 @@ export default function ProgramsPage() {
         <div className="mb-16">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              <span className="text-blue-600">HELOC & Cash-Out Refinance Options</span>
+              <span className="text-slate-900">HELOC & Cash-Out Refinance Options</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Unlock your home's equity with flexible credit lines and loans across California and Washington
@@ -114,15 +114,15 @@ export default function ProgramsPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             {/* HELOC */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 border-2 border-blue-300 relative">
+            <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg relative">
               <div className="absolute -top-4 left-6">
-                <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold">
+                <span className="bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-bold">
                   #1 MOST POPULAR
                 </span>
               </div>
 
               <div className="flex items-center mb-6 mt-4">
-                <div className="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mr-4">
+                <div className="w-16 h-16 bg-slate-900 rounded-xl flex items-center justify-center mr-4">
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <div>
@@ -131,18 +131,18 @@ export default function ProgramsPage() {
                 </div>
               </div>
 
-              <div className="bg-green-100 border-2 border-green-300 rounded-lg p-4 mb-4">
+              <div className="bg-slate-100 border-2 border-slate-300 rounded-lg p-4 mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <Zap className="w-5 h-5 text-green-600 mr-2" />
-                  <span className="text-green-800 font-bold">NEW: 5-Minute Pre-Approval</span>
+                  <Zap className="w-5 h-5 text-blue-600 mr-2" />
+                  <span className="text-slate-900 font-bold">NEW: 5-Minute Pre-Approval</span>
                 </div>
-                <p className="text-green-700 text-center text-sm">
+                <p className="text-blue-700 text-center text-sm">
                   Revolutionary fast-track program • Funds in 5-7 business days
                 </p>
               </div>
 
-              <div className="bg-blue-200 rounded-lg p-4 mb-6">
-                <p className="text-blue-900 font-bold text-center text-lg">
+              <div className="bg-slate-100 border border-slate-200 rounded-lg p-4 mb-6">
+                <p className="text-slate-900 font-bold text-center text-lg">
                   Access $50K - $500K • Competitive variable rates
                 </p>
               </div>
@@ -167,13 +167,13 @@ export default function ProgramsPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold flex items-center justify-center">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold flex items-center justify-center">
                     <Zap className="w-5 h-5 mr-2" />
                     5-Min Pre-Approval
                   </Button>
                 </a>
                 <Link href="/heloc-orange-county">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg font-semibold">
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
                     Traditional HELOC Details
                   </Button>
                 </Link>
@@ -181,15 +181,15 @@ export default function ProgramsPage() {
             </div>
 
             {/* HELOAN */}
-            <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 border-2 border-green-300 relative">
+            <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg relative">
               <div className="absolute -top-4 left-6">
-                <span className="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-bold">
+                <span className="bg-slate-700 text-white px-4 py-2 rounded-full text-sm font-bold">
                   FIXED PAYMENT
                 </span>
               </div>
 
               <div className="flex items-center mb-6 mt-4">
-                <div className="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center mr-4">
+                <div className="w-16 h-16 bg-slate-900 rounded-xl flex items-center justify-center mr-4">
                   <DollarSign className="w-8 h-8 text-white" />
                 </div>
                 <div>
@@ -198,33 +198,33 @@ export default function ProgramsPage() {
                 </div>
               </div>
 
-              <div className="bg-green-200 rounded-lg p-4 mb-6">
-                <p className="text-green-900 font-bold text-center text-lg">
+              <div className="bg-slate-100 border border-slate-200 rounded-lg p-4 mb-6">
+                <p className="text-slate-900 font-bold text-center text-lg">
                   Lump sum up to $500K • Fixed monthly payments
                 </p>
               </div>
 
               <div className="space-y-3 mb-6">
                 <div className="flex items-center">
-                  <span className="text-green-600 mr-3 text-xl">✓</span>
+                  <span className="text-blue-600 mr-3 text-xl">✓</span>
                   <span className="text-slate-700"><strong>Fixed loan pricing</strong> - payment never changes</span>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-green-600 mr-3 text-xl">✓</span>
+                  <span className="text-blue-600 mr-3 text-xl">✓</span>
                   <span className="text-slate-700"><strong>Lump sum at closing</strong> - get all cash upfront</span>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-green-600 mr-3 text-xl">✓</span>
+                  <span className="text-blue-600 mr-3 text-xl">✓</span>
                   <span className="text-slate-700"><strong>Predictable payments</strong> - budget with confidence</span>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-green-600 mr-3 text-xl">✓</span>
+                  <span className="text-blue-600 mr-3 text-xl">✓</span>
                   <span className="text-slate-700"><strong>Lower pricing</strong> than personal loans or credit cards</span>
                 </div>
               </div>
 
               <Link href="/heloan-orange-county">
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg font-semibold">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
                   Get HELOAN Pricing & Terms
                 </Button>
               </Link>
@@ -246,28 +246,28 @@ export default function ProgramsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             {/* Cash-Out Refinancing */}
             <Link href="/cash-out-refinance" className="block h-full group">
-              <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-orange-200 relative h-full transition-all duration-300 hover:border-orange-400 hover:shadow-2xl">
+              <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-slate-200 relative h-full transition-all duration-300 hover:border-slate-300 hover:shadow-2xl">
                 <div className="absolute -top-4 left-6">
-                  <span className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
-                    🔥 MOST POPULAR
+                  <span className="bg-slate-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
+                    MOST POPULAR
                   </span>
                 </div>
 
                 <div className="flex items-center mb-6 mt-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-2xl">🏠</span>
+                  <div className="w-12 h-12 bg-slate-900 rounded-lg flex items-center justify-center mr-4">
+                    <Home className="w-6 h-6 text-white" aria-hidden="true" />
                   </div>
                   <div>
                     <div className="flex items-center justify-between">
                       <h3 className="text-2xl font-bold text-slate-900">Cash-Out Refinancing</h3>
-                      <ArrowRight className="w-6 h-6 text-orange-500 transform group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight className="w-6 h-6 text-blue-600 transform group-hover:translate-x-1 transition-transform" />
                     </div>
                     <p className="text-slate-600">Unlock your home's equity for major financial goals</p>
                   </div>
                 </div>
 
-                <div className="bg-orange-50 rounded-lg p-4 mb-6">
-                  <p className="text-orange-800 font-semibold text-center">
+                <div className="bg-slate-50 rounded-lg p-4 mb-6">
+                  <p className="text-slate-900 font-semibold text-center">
                     Unlock $50K - $500K+ from your home
                   </p>
                 </div>
@@ -276,15 +276,15 @@ export default function ProgramsPage() {
                   <h4 className="text-lg font-semibold text-slate-900 mb-3">Key Features:</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <span className="text-orange-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Access up to 80% of your home's value in cash</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-orange-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Rates often lower than personal loans or credit cards</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-orange-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Consolidate high-interest debt into one low payment</span>
                     </li>
                   </ul>
@@ -299,28 +299,28 @@ export default function ProgramsPage() {
 
             {/* Rate & Term Refinancing */}
             <Link href="/loan-programs/rate-term-refinance" className="block h-full group">
-              <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-green-200 relative h-full transition-all duration-300 hover:border-green-400 hover:shadow-2xl">
+              <div className="bg-white rounded-lg shadow-xl p-8 border-2 border-slate-200 relative h-full transition-all duration-300 hover:border-slate-300 hover:shadow-2xl">
                 <div className="absolute -top-4 left-6">
-                  <span className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
-                    💰 MONEY SAVER
+                  <span className="bg-slate-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center">
+                    MONEY SAVER
                   </span>
                 </div>
 
                 <div className="flex items-center mb-6 mt-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg flex items-center justify-center mr-4">
-                    <span className="text-2xl">📉</span>
+                  <div className="w-12 h-12 bg-slate-900 rounded-lg flex items-center justify-center mr-4">
+                    <TrendingUp className="w-6 h-6 text-white" aria-hidden="true" />
                   </div>
                   <div>
                     <div className="flex items-center justify-between">
                       <h3 className="text-2xl font-bold text-slate-900">Rate & Term Refinancing</h3>
-                      <ArrowRight className="w-6 h-6 text-green-500 transform group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight className="w-6 h-6 text-blue-600 transform group-hover:translate-x-1 transition-transform" />
                     </div>
                     <p className="text-slate-600">Lower your payments or pay off your mortgage faster</p>
                   </div>
                 </div>
 
-                <div className="bg-green-50 rounded-lg p-4 mb-6">
-                  <p className="text-green-800 font-semibold text-center">
+                <div className="bg-slate-50 rounded-lg p-4 mb-6">
+                  <p className="text-slate-900 font-semibold text-center">
                     Save $200-500/month on payments
                   </p>
                 </div>
@@ -329,19 +329,19 @@ export default function ProgramsPage() {
                   <h4 className="text-lg font-semibold text-slate-900 mb-3">Key Features:</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Reduce monthly payments with current pricing</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Eliminate PMI when you reach 20% equity</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Switch from ARM to fixed-rate for stability</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-600 mr-3 mt-1">✓</span>
+                      <span className="text-blue-600 mr-3 mt-1">✓</span>
                       <span className="text-slate-700">Shorten loan term to save thousands in interest</span>
                     </li>
                   </ul>
@@ -392,7 +392,9 @@ export default function ProgramsPage() {
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">Best For:</h3>
                 <p className="text-slate-600 mb-6">{program.bestFor}</p>
                 <Link href={program.href}>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Learn More About {program.title} →</Button>
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950">
+                    Learn More About {program.title} →
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -450,8 +452,8 @@ export default function ProgramsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <Link href="/loan-programs/bank-statement-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">📊</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <BarChart3 className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Bank Statement Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">Perfect for self-employed borrowers who can't document traditional income</p>
@@ -460,7 +462,7 @@ export default function ProgramsPage() {
                   • Up to $3M loan amounts<br />
                   • Investment properties OK
                 </div>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -468,8 +470,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/asset-depletion-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">💼</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Briefcase className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Asset Depletion</h3>
                 <p className="text-sm text-slate-600 mb-3">Qualify using your assets instead of traditional income</p>
@@ -478,7 +480,7 @@ export default function ProgramsPage() {
                   • Investment portfolios<br />
                   • High net worth borrowers
                 </div>
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -486,8 +488,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/fix-flip-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">🏗️</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Hammer className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Fix & Flip Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">Short-term financing for real estate investors and flippers</p>
@@ -496,7 +498,7 @@ export default function ProgramsPage() {
                   • Quick closings (7-10 days)<br />
                   • Up to 90% ARV
                 </div>
-                <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -504,8 +506,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/dscr-investment-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">🎯</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Target className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">DSCR Investment Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">Qualify based on rental income, not personal income</p>
@@ -514,7 +516,7 @@ export default function ProgramsPage() {
                   • Portfolio lenders<br />
                   • 1.0+ DSCR required
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -522,8 +524,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/foreign-national-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">📈</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <TrendingUp className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">Foreign National Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">Mortgages for non-US citizens investing in US real estate</p>
@@ -532,7 +534,7 @@ export default function ProgramsPage() {
                   • 25-40% down payment<br />
                   • Purchase or refinance
                 </div>
-                <Button className="w-full bg-red-600 hover:bg-red-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -540,8 +542,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/usda-rural-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">🌾</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <Sprout className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">USDA Rural Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">Zero down payment for eligible rural and suburban areas</p>
@@ -550,7 +552,7 @@ export default function ProgramsPage() {
                   • Income limits apply<br />
                   • Rural area requirement
                 </div>
-                <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -558,8 +560,8 @@ export default function ProgramsPage() {
 
             <Link href="/loan-programs/profit-loss-statement-loans" className="block">
               <div className="bg-white p-6 rounded-lg shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <span className="text-2xl">📊</span>
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                  <BarChart3 className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">P&L Statement Loans</h3>
                 <p className="text-sm text-slate-600 mb-3">CPA-prepared profit & loss statements for income verification</p>
@@ -568,7 +570,7 @@ export default function ProgramsPage() {
                   • CPA-prepared statements<br />
                   • Business income focus
                 </div>
-                <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 text-sm">
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">
                   Get Details →
                 </Button>
               </div>
@@ -581,7 +583,7 @@ export default function ProgramsPage() {
               With access to 200+ lenders, we have solutions for almost every situation.
             </p>
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2">
+              <Button className="bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white px-6 py-2">
                 Discuss Your Unique Situation
               </Button>
             </Link>
@@ -596,7 +598,7 @@ export default function ProgramsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-blue-600">📊</span>
+                <BarChart3 className="w-7 h-7 text-blue-600" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Credit Score</h3>
               <p className="text-slate-600">
@@ -606,7 +608,7 @@ export default function ProgramsPage() {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-blue-600">💰</span>
+                <PiggyBank className="w-7 h-7 text-blue-600" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Down Payment</h3>
               <p className="text-slate-600">
@@ -616,7 +618,7 @@ export default function ProgramsPage() {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-blue-600">🏠</span>
+                <Home className="w-7 h-7 text-blue-600" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Property Type</h3>
               <p className="text-slate-600">
@@ -628,20 +630,20 @@ export default function ProgramsPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-blue-600 text-white rounded-lg p-8">
+        <div className="text-center bg-slate-900 text-white rounded-lg p-8">
           <h2 className="text-3xl font-bold mb-4">Ready to Find Your Perfect Loan?</h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Let me analyze your situation and recommend the best loan program for your needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-base sm:text-lg">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-base sm:text-lg">
                 <span className="sm:hidden">Get Recommendations</span>
                 <span className="hidden sm:inline">Get Program Recommendations</span>
               </Button>
             </Link>
             <Link href="/calculator">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Calculate Payments
               </Button>
             </Link>

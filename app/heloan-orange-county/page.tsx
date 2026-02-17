@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, CreditCard, PiggyBank } from 'lucide-react';
+import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, CreditCard, PiggyBank, Lightbulb } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 
@@ -225,7 +225,7 @@ export default function HELOANOrangeCountyPage() {
               or debt consolidation. With fixed rates and transparent terms, it's the stable alternative to variable HELOCs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call to get HELOAN pricing and terms">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Call to get HELOAN pricing and terms">
                 <a href="tel:(949) 822-9662" className="flex items-center">
                   <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
                   Get HELOAN Pricing & Terms
@@ -240,7 +240,7 @@ export default function HELOANOrangeCountyPage() {
           </div>
 
           {/* 2026 Loan Limits for Home Equity */}
-          <section className="mb-16 bg-green-50 rounded-xl p-8" aria-label="2026 home equity loan limits in Orange County">
+          <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="2026 home equity loan limits in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
               What Are the 2026 Loan Limits for Home Equity in Orange County?
             </h2>
@@ -252,7 +252,7 @@ export default function HELOANOrangeCountyPage() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-green-600 mb-2">$1,249,125</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,249,125</h3>
                   <p className="text-slate-700">2026 Conforming Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Maximum for conventional programs</p>
                 </div>
@@ -262,7 +262,7 @@ export default function HELOANOrangeCountyPage() {
                   <p className="text-sm text-slate-600 mt-2">FHA-backed equity options</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-orange-600 mb-2">Up to 90%</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-2">Up to 90%</h3>
                   <p className="text-slate-700">Combined Loan-to-Value</p>
                   <p className="text-sm text-slate-600 mt-2">Total borrowing capacity</p>
                 </div>
@@ -293,7 +293,7 @@ export default function HELOANOrangeCountyPage() {
                   <ul className="space-y-2">
                     {benefit.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                        <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{detail}</span>
                       </li>
                     ))}
@@ -338,12 +338,12 @@ export default function HELOANOrangeCountyPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/heloc-orange-county">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Compare HELOC options in Orange County">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Compare HELOC options in Orange County">
                     Compare HELOC Options
                   </Button>
                 </Link>
                 <Link href="/cash-out-refinance">
-                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Explore cash-out refinance options">
+                  <Button className="bg-slate-900 hover:bg-slate-800 text-white px-6 py-2" aria-label="Explore cash-out refinance options">
                     Explore Cash-Out Refinance
                   </Button>
                 </Link>
@@ -368,7 +368,7 @@ export default function HELOANOrangeCountyPage() {
                   <ul className="space-y-2 mb-6">
                     {use.examples.map((example, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                        <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{example}</span>
                       </li>
                     ))}
@@ -393,33 +393,36 @@ export default function HELOANOrangeCountyPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Qualification Requirements</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4">✓ Qualification Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> At least 15-20% remaining after loan</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, documented income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> Total debts under 43-50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Property:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal Candidates</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
+                    <Lightbulb className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                    <span>Ideal Candidates</span>
+                  </h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
@@ -484,24 +487,24 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-green-600 text-white rounded-lg p-8" aria-label="Get started with your home equity loan">
+          <section className="text-center bg-slate-900 text-white rounded-lg p-8" aria-label="Get started with your home equity loan">
             <h2 className="text-3xl font-bold mb-4">Ready for Fixed-Rate Home Equity Access?</h2>
-            <p className="text-xl mb-6 text-green-100">
+            <p className="text-xl mb-6 text-slate-200">
               Get your free equity consultation and discover your HELOAN options in Orange County's market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">
                   Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg" aria-label="Schedule a free equity loan consultation">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Schedule a free equity loan consultation">
                   Free Equity Loan Consultation
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-green-200 mt-4">
+            <p className="text-sm text-slate-200 mt-4">
               Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
             </p>
           </section>

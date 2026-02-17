@@ -350,43 +350,43 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
                   <td className="border border-gray-300 px-3 py-2 font-medium">Lender Access</td>
                   <td className="border border-gray-300 px-3 py-2">200+ wholesale lenders</td>
                   <td className="border border-gray-300 px-3 py-2">1 lender (their own)</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-3 py-2 font-medium">Rate Markup</td>
                   <td className="border border-gray-300 px-3 py-2">0% (lender-direct pricing)</td>
                   <td className="border border-gray-300 px-3 py-2">0.25-0.75% retail margin</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Jumbo Max Loan</td>
                   <td className="border border-gray-300 px-3 py-2">$20M+</td>
                   <td className="border border-gray-300 px-3 py-2">$3-5M typical cap</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-3 py-2 font-medium">Non-QM Programs</td>
                   <td className="border border-gray-300 px-3 py-2">50+ specialized lenders</td>
                   <td className="border border-gray-300 px-3 py-2">Limited or none</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Bank Statement Loans</td>
                   <td className="border border-gray-300 px-3 py-2">12-24 month programs</td>
                   <td className="border border-gray-300 px-3 py-2">Rarely offered</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-3 py-2 font-medium">Closing Timeline</td>
                   <td className="border border-gray-300 px-3 py-2">21-45 days</td>
                   <td className="border border-gray-300 px-3 py-2">45-60 days</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Broker Fee</td>
                   <td className="border border-gray-300 px-3 py-2">$0 (lender-paid)</td>
                   <td className="border border-gray-300 px-3 py-2">N/A (built into rate)</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700 font-medium">Wholesale</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
               </tbody>
             </table>
@@ -818,35 +818,35 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
                   <td className="border border-gray-300 px-3 py-2 font-medium">Santa Monica</td>
                   <td className="border border-gray-300 px-3 py-2">$2.38M</td>
                   <td className="border border-gray-300 px-3 py-2">$2.45M</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700">+2.9%</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700">+2.9%</td>
                   <td className="border border-gray-300 px-3 py-2">34</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-3 py-2 font-medium">Brentwood</td>
                   <td className="border border-gray-300 px-3 py-2">$3.72M</td>
                   <td className="border border-gray-300 px-3 py-2">$3.85M</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700">+3.5%</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700">+3.5%</td>
                   <td className="border border-gray-300 px-3 py-2">41</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Pacific Palisades</td>
                   <td className="border border-gray-300 px-3 py-2">$5.28M</td>
                   <td className="border border-gray-300 px-3 py-2">$5.42M</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700">+2.7%</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700">+2.7%</td>
                   <td className="border border-gray-300 px-3 py-2">52</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-3 py-2 font-medium">Malibu</td>
                   <td className="border border-gray-300 px-3 py-2">$5.51M</td>
                   <td className="border border-gray-300 px-3 py-2">$5.65M</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700">+2.5%</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700">+2.5%</td>
                   <td className="border border-gray-300 px-3 py-2">67</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Calabasas</td>
                   <td className="border border-gray-300 px-3 py-2">$2.12M</td>
                   <td className="border border-gray-300 px-3 py-2">$2.18M</td>
-                  <td className="border border-gray-300 px-3 py-2 text-green-700">+2.8%</td>
+                  <td className="border border-gray-300 px-3 py-2 text-blue-700">+2.8%</td>
                   <td className="border border-gray-300 px-3 py-2">28</td>
                 </tr>
               </tbody>
@@ -1149,7 +1149,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="tel:+19498229662"
-                className="inline-flex items-center justify-center bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition"
+                className="inline-flex items-center justify-center bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition"
               >
                 Call (949) 822-9662
               </a>

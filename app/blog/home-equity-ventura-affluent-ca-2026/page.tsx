@@ -746,7 +746,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
           <hr className="my-10" />
 
           {/* ---- Expert Summary + CTA ---- */}
-          <div id="expert-summary" className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
+          <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Ventura County Home Equity 2026</h2>
             <p className="mb-4">
               Ventura County&apos;s affluent corridor from Westlake Village through Moorpark holds billions in tappable home equity built on a decade of sustained appreciation, constrained housing supply, and a robust economic base anchored by the biotech corridor, LA commuter demand, and family-focused community planning. Whether you need a jumbo HELOC for a North Ranch estate renovation, a conforming HELOC for a Camarillo ADU, or a portfolio program for a Moorpark horse property, the right product exists among 200+ wholesale lenders&mdash;the challenge is identifying it without submitting applications to each one individually.

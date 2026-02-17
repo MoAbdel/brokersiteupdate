@@ -123,7 +123,7 @@ export default function LocalMarketInsights() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Top-Rated Schools</h4>
                   <p className="text-slate-600 text-sm">Multiple highly-rated school districts throughout the county</p>
@@ -131,7 +131,7 @@ export default function LocalMarketInsights() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Prime Location</h4>
                   <p className="text-slate-600 text-sm">Easy access to beaches, mountains, and major employment centers</p>
@@ -139,7 +139,7 @@ export default function LocalMarketInsights() {
               </div>
 
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mt-2"></div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Strong Property Values</h4>
                   <p className="text-slate-600 text-sm">Consistent appreciation and desirable communities across both states</p>
@@ -155,7 +155,7 @@ export default function LocalMarketInsights() {
           </p>
 
           <Link href="/loan-programs">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
               Explore Loan Programs
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>

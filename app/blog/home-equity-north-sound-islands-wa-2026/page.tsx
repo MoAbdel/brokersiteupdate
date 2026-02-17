@@ -213,8 +213,8 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
             <span className="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">HELOC</span>
             <span className="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">HELOAN</span>
             <span className="bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full">Cash-Out Refinance</span>
-            <span className="bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">North Sound &amp; Islands</span>
-            <span className="bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">Washington State</span>
+            <span className="bg-slate-100 text-slate-900 text-xs font-medium px-3 py-1 rounded-full">North Sound &amp; Islands</span>
+            <span className="bg-slate-100 text-slate-900 text-xs font-medium px-3 py-1 rounded-full">Washington State</span>
           </div>
         </header>
 

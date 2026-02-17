@@ -595,28 +595,28 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$2,750,000</td>
                   <td className="px-4 py-3 border-t">$3,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+9.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+9.1%</td>
                   <td className="px-4 py-3 border-t">$1.6M avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Palos Verdes Estates</td>
                   <td className="px-4 py-3 border-t">$2,600,000</td>
                   <td className="px-4 py-3 border-t">$2,900,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.5%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.5%</td>
                   <td className="px-4 py-3 border-t">$1.5M avg per home</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$1,780,000</td>
                   <td className="px-4 py-3 border-t">$2,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+12.4%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+12.4%</td>
                   <td className="px-4 py-3 border-t">$980K avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$1,800,000</td>
                   <td className="px-4 py-3 border-t">$2,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$940K avg per home</td>
                 </tr>
               </tbody>
@@ -746,15 +746,15 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
           </p>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity on the Palos Verdes Peninsula</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Palos Verdes Peninsula&apos;s four cities hold an estimated $9.6 billion in tappable home equity across 16,500 homes. With median values ranging from $2M (Rancho Palos Verdes and Rolling Hills Estates) to $3M (Rolling Hills), homeowners access $800K to $1.9M+ in equity per property through HELOC, HELOAN, and cash-out refinance products.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               From equestrian estate HELOCs in Rolling Hills to bluff-top equity access in Lunada Bay, from Portuguese Bend geological documentation to trust-held property credit lines, every PV Peninsula equity transaction benefits from specialized lending knowledge. The difference between an informed wholesale broker and a generic bank loan officer translates directly to more accessible equity, better rates, and successful transactions.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your PV Peninsula home equity specialist, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders, assign peninsula-experienced appraisers, and navigate the unique challenges of gated cities, equestrian properties, and oceanfront valuations. Contact me today for your free equity analysis.
             </p>
           </div>

@@ -206,12 +206,12 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+ lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Dozens of lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-green-700 font-semibold">200+ lenders compete</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-green-700 font-semibold">Try another lender same day</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Dozens of lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders compete</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
           </table>
         </div>

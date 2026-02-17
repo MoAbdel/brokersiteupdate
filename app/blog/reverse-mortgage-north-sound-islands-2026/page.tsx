@@ -426,7 +426,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Anacortes Reverse Mortgage Insight</h4>
             <p className="mb-0">Anacortes&apos;s position as the San Juan Islands ferry gateway creates sustained property demand that supports long-term reverse mortgage value. Refinery retirees represent a unique demographic &mdash; well-pensioned industrial workers who purchased modest homes decades ago and now hold substantial equity. The combination of refinery pension income, Social Security, and HECM proceeds creates a three-pillar retirement income structure. Washington&apos;s zero state income tax ensures none of these income sources face state taxation, maximizing total retirement purchasing power in a community where marina fees and boating costs are common senior expenses.</p>
           </div>
@@ -486,7 +486,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bellingham Reverse Mortgage Insight</h4>
             <p className="mb-0">Bellingham&apos;s sustained popularity as a retirement and relocation destination has driven consistent property appreciation that supports strong reverse mortgage equity positions. The city&apos;s combination of outdoor recreation access, university cultural amenities, craft food and beverage scene, and moderate cost of living (compared to Seattle) attracts a continuous stream of buyers &mdash; maintaining demand that protects reverse mortgage borrowers&apos; long-term equity. Western Washington University retirees with TIAA-CREF retirement accounts and state pensions benefit from layering HECM proceeds on top of these income sources, all state-income-tax-free.</p>
           </div>
@@ -546,7 +546,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bainbridge Island Reverse Mortgage Insight</h4>
             <p className="mb-0">Bainbridge Island&apos;s ferry connection to downtown Seattle creates a unique property value dynamic: the island offers pastoral beauty and artistic community while maintaining direct urban access. This dual appeal sustains strong demand and property values that support robust reverse mortgage equity positions. Seniors who commuted to Seattle via ferry for decades have built careers, community, and home equity simultaneously. The reverse mortgage converts that equity into retirement income without breaking the island connection. For waterfront properties exceeding the $1,149,825 HECM limit, proprietary programs access the full value, and wholesale broker access to multiple lenders is essential for comparing terms.</p>
           </div>
@@ -606,7 +606,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">San Juan Islands Reverse Mortgage Insight</h4>
             <p className="mb-0">San Juan Islands reverse mortgages present the most complex appraisal challenges in Washington state. Limited comparable sales on each island, extreme variance between waterfront and inland values, seasonal market fluctuations, and unique property characteristics (water systems, septic, island-specific building codes) all require appraisers with deep island market knowledge. An undervaluation of $100,000 on a $1 million island property directly reduces reverse mortgage proceeds by $45,000 to $55,000. Wholesale broker coordination with island-experienced appraisers is the single most important factor in maximizing San Juan Islands reverse mortgage outcomes.</p>
           </div>
@@ -666,7 +666,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Whidbey Island Reverse Mortgage Insight</h4>
             <p className="mb-0">Whidbey Island&apos;s dual character &mdash; military north and artistic south &mdash; creates distinct reverse mortgage demographics. Oak Harbor Navy retirees typically have military pensions, TRICARE health coverage, and VA benefits that layer effectively with HECM reverse mortgage income. Southern Whidbey artists and creative professionals often have less traditional retirement income structures, making the reverse mortgage a critical component of their financial plan. All Whidbey properties fall within the HECM limit, making standard FHA programs the optimal choice with full non-recourse protection and the growing line of credit feature. The Deception Pass bridge connection (north) and Clinton-Mukilteo ferry (south) provide mainland access without the isolation of the San Juan Islands.</p>
           </div>

@@ -296,42 +296,42 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo Loan Options</td>
                   <td className="px-4 py-3 border-t">1&ndash;2 products, one rate</td>
-                  <td className="px-4 py-3 border-t text-green-700">20+ jumbo lenders competing for your loan</td>
+                  <td className="px-4 py-3 border-t text-blue-700">20+ jumbo lenders competing for your loan</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Rate on $2.5M Loan</td>
                   <td className="px-4 py-3 border-t">Bank&apos;s posted rate, limited negotiation</td>
-                  <td className="px-4 py-3 border-t text-green-700">0.25%&ndash;0.50% lower through lender competition</td>
+                  <td className="px-4 py-3 border-t text-blue-700">0.25%&ndash;0.50% lower through lender competition</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Equestrian Property Experience</td>
                   <td className="px-4 py-3 border-t">Limited or none; may decline</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders experienced with barns, arenas, acreage</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders experienced with barns, arenas, acreage</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Trust/LLC Purchase</td>
                   <td className="px-4 py-3 border-t">Restrictive; often requires restructuring</td>
-                  <td className="px-4 py-3 border-t text-green-700">Multiple lenders accepting entity ownership</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Multiple lenders accepting entity ownership</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Self-Employed Programs</td>
                   <td className="px-4 py-3 border-t">Strict W-2 and tax return only</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement, P&amp;L, asset depletion, 1099</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&amp;L, asset depletion, 1099</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Gated City Appraisal</td>
                   <td className="px-4 py-3 border-t">Generic appraiser; often inaccurate</td>
-                  <td className="px-4 py-3 border-t text-green-700">PV Peninsula-experienced luxury appraisers</td>
+                  <td className="px-4 py-3 border-t text-blue-700">PV Peninsula-experienced luxury appraisers</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">DSCR Investment Loans</td>
                   <td className="px-4 py-3 border-t">Not offered by most banks</td>
-                  <td className="px-4 py-3 border-t text-green-700">10+ DSCR lenders, rental income qualification</td>
+                  <td className="px-4 py-3 border-t text-blue-700">10+ DSCR lenders, rental income qualification</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Closing Timeline</td>
                   <td className="px-4 py-3 border-t">35&ndash;50 days average</td>
-                  <td className="px-4 py-3 border-t text-green-700">25&ndash;35 days with dedicated processing</td>
+                  <td className="px-4 py-3 border-t text-blue-700">25&ndash;35 days with dedicated processing</td>
                 </tr>
               </tbody>
             </table>
@@ -666,28 +666,28 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
                   <td className="px-4 py-3 border-t font-medium">Palos Verdes Estates</td>
                   <td className="px-4 py-3 border-t">$2,600,000</td>
                   <td className="px-4 py-3 border-t">$2,900,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.5%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.5%</td>
                   <td className="px-4 py-3 border-t">Jumbo non-conforming</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Rancho Palos Verdes</td>
                   <td className="px-4 py-3 border-t">$1,780,000</td>
                   <td className="px-4 py-3 border-t">$2,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+12.4%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+12.4%</td>
                   <td className="px-4 py-3 border-t">Jumbo non-conforming</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills</td>
                   <td className="px-4 py-3 border-t">$2,750,000</td>
                   <td className="px-4 py-3 border-t">$3,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+9.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+9.1%</td>
                   <td className="px-4 py-3 border-t">Ultra-jumbo / trust</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Rolling Hills Estates</td>
                   <td className="px-4 py-3 border-t">$1,800,000</td>
                   <td className="px-4 py-3 border-t">$2,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">Jumbo competitive tier</td>
                 </tr>
               </tbody>
@@ -813,15 +813,15 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgages on the Palos Verdes Peninsula</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Palos Verdes Peninsula&apos;s four cities &mdash; Palos Verdes Estates ($2.9M median), Rolling Hills ($3M median), Rancho Palos Verdes ($2M median), and Rolling Hills Estates ($2M median) &mdash; represent some of Southern California&apos;s most distinctive and valuable residential real estate. With 98% of purchases requiring jumbo financing, wholesale broker access to 200+ lenders is not a luxury but a necessity for securing competitive rates and appropriate loan programs.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               From equestrian estate financing in Rolling Hills to cliff-side appraisals in Lunada Bay, from Portuguese Bend geological documentation to trust purchases in gated communities, every PV Peninsula transaction benefits from specialized lending knowledge. The difference between an informed wholesale broker and a generic bank loan officer translates directly to better rates, smoother transactions, and successful closings.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your PV Peninsula wholesale mortgage broker, I deliver 200+ lender competition for your loan, peninsula-experienced appraisers, direct underwriter relationships, and the local market expertise that these unique properties demand. Contact me today for a free consultation and pre-qualification.
             </p>
           </div>

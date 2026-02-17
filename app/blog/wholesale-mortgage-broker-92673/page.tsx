@@ -238,12 +238,12 @@ export default function WholesaleMortgageBroker92673Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700">200+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA jumbo expertise</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700">Multiple VA lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Second home programs</td><td className="py-2 px-4 border-b">May restrict</td><td className="py-2 px-4 border-b text-green-700">Multiple options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail</td><td className="py-2 px-4 border-b text-green-700">Wholesale</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Coastal property comfort</td><td className="py-2 px-4 border-b">Standard</td><td className="py-2 px-4 border-b text-green-700">Experienced lenders</td></tr>
-              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-green-700">25-35 days</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700">200+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA jumbo expertise</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700">Multiple VA lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Second home programs</td><td className="py-2 px-4 border-b">May restrict</td><td className="py-2 px-4 border-b text-blue-700">Multiple options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail</td><td className="py-2 px-4 border-b text-blue-700">Wholesale</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Coastal property comfort</td><td className="py-2 px-4 border-b">Standard</td><td className="py-2 px-4 border-b text-blue-700">Experienced lenders</td></tr>
+              <tr><td className="py-2 px-4">Closing speed</td><td className="py-2 px-4">30-45 days</td><td className="py-2 px-4 text-blue-700">25-35 days</td></tr>
             </tbody>
           </table>
         </div>

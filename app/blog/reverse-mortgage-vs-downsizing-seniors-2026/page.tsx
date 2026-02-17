@@ -156,7 +156,7 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Your Personalized Analysis
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -269,7 +269,7 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lifestyle Change</td>
                   <td className="px-4 py-3 text-sm text-emerald-600 font-medium">None &mdash; stay in your home</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Significant &mdash; new home, new neighborhood</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Significant &mdash; new home, new neighborhood</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Timeline to Access Funds</td>
@@ -396,7 +396,7 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
                   <td className="px-4 py-3 text-sm text-right text-slate-600">35.9%</td>
                   <td className="px-4 py-3 text-sm text-right text-slate-600">35.9%</td>
                 </tr>
-                <tr className="bg-amber-50">
+                <tr className="bg-slate-50">
                   <td className="px-4 py-3 text-sm font-semibold text-amber-800" colSpan={4}>Key Differences</td>
                 </tr>
                 <tr>
@@ -584,7 +584,7 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
             </li>
           </ol>
 
-          <div className="bg-amber-50 border border-amber-200 p-6 rounded-lg my-8">
+          <div className="bg-slate-50 border border-amber-200 p-6 rounded-lg my-8">
             <h3 className="text-lg font-bold text-amber-800 mb-3">Critical Insight: The Line of Credit Growth Feature</h3>
             <p className="text-slate-700">
               If you establish a HECM line of credit and do <strong>not</strong> draw on it immediately, the unused credit grows at the same rate as the loan&apos;s interest rate. This growth feature is unique to HECMs and creates a financial safety net that increases in value over time. A $300,000 line of credit established at age 65 could grow to $500,000+ by age 80 without any draws. This optionality has significant value that is difficult to replicate through downsizing, and it is the primary reason financial planners increasingly recommend establishing a HECM early in retirement as a strategic reserve.
@@ -624,7 +624,7 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
             </ol>
           </div>
 
-          <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg my-8">
+          <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8">
             <h3 className="text-lg font-bold text-purple-800 mb-3">Consider HECM for Purchase If You:</h3>
             <ol className="list-decimal pl-5 space-y-2 text-slate-700">
               <li>Want to downsize AND have no monthly mortgage payment</li>

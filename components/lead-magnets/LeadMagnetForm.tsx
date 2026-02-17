@@ -135,7 +135,7 @@ export function LeadMagnetForm(props: {
         <p className="text-slate-600 mb-6">
           Mo will review your info and follow up within 1 business day.
         </p>
-        <Button onClick={() => setShowSuccess(false)} className="bg-blue-600 hover:bg-blue-700">
+        <Button onClick={() => setShowSuccess(false)} className="bg-slate-900 hover:bg-slate-800">
           Submit another request
         </Button>
       </div>
@@ -268,7 +268,7 @@ export function LeadMagnetForm(props: {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg"
+          className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg"
         >
           {isSubmitting ? 'Submitting...' : 'Send my free summary'}
         </Button>

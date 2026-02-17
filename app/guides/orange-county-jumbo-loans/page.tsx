@@ -255,7 +255,7 @@ export default function OrangeCountyJumboLoansGuide() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -300,10 +300,10 @@ export default function OrangeCountyJumboLoansGuide() {
             <div className="bg-white border border-slate-200 rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Jumbo Loan Territory</h3>
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">$1,249,126+</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">$1,249,126+</div>
                 <p className="text-slate-600 mb-4">Above conforming limits</p>
-                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                  <p className="text-sm text-green-700">
+                <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                  <p className="text-sm text-blue-700">
                     Loans above this amount require jumbo loan programs with specialized underwriting
                   </p>
                 </div>
@@ -344,7 +344,7 @@ export default function OrangeCountyJumboLoansGuide() {
                 <div className="space-y-3 mb-4">
                   <div>
                     <span className="text-sm text-slate-600">Median Price:</span>
-                    <div className="font-bold text-green-600">{market.medianPrice}</div>
+                    <div className="font-bold text-blue-600">{market.medianPrice}</div>
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Price Range:</span>
@@ -397,9 +397,9 @@ export default function OrangeCountyJumboLoansGuide() {
                   <h3 className="text-xl font-bold text-slate-900">{feature.feature}</h3>
                 </div>
                 <p className="text-slate-600 mb-4">{feature.description}</p>
-                <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-                  <span className="text-sm font-medium text-green-800">Benefit: </span>
-                  <span className="text-sm font-bold text-green-600">{feature.benefit}</span>
+                <div className="bg-slate-50 border border-slate-200 rounded-lg p-3">
+                  <span className="text-sm font-medium text-slate-900">Benefit: </span>
+                  <span className="text-sm font-bold text-blue-600">{feature.benefit}</span>
                 </div>
               </div>
             ))}
@@ -427,7 +427,7 @@ export default function OrangeCountyJumboLoansGuide() {
                 <div className="grid grid-cols-2 gap-4 mb-4">
                   <div className="bg-white rounded-lg p-3">
                     <div className="text-sm text-slate-600">Down Payment</div>
-                    <div className="font-semibold text-green-600">{loan.downPayment}</div>
+                    <div className="font-semibold text-blue-600">{loan.downPayment}</div>
                   </div>
                   <div className="bg-white rounded-lg p-3">
                     <div className="text-sm text-slate-600">Interest pricing</div>
@@ -439,7 +439,7 @@ export default function OrangeCountyJumboLoansGuide() {
                   </div>
                   <div className="bg-white rounded-lg p-3">
                     <div className="text-sm text-slate-600">Credit Score</div>
-                    <div className="font-semibold text-purple-600">{loan.creditScore}</div>
+                    <div className="font-semibold text-blue-600">{loan.creditScore}</div>
                   </div>
                 </div>
                 
@@ -486,7 +486,7 @@ export default function OrangeCountyJumboLoansGuide() {
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Ideal:</span>
-                    <div className="font-semibold text-green-600">{factor.ideal}</div>
+                    <div className="font-semibold text-blue-600">{factor.ideal}</div>
                   </div>
                 </div>
                 
@@ -529,7 +529,7 @@ export default function OrangeCountyJumboLoansGuide() {
                 <div className="grid grid-cols-2 gap-4 mb-4">
                   <div>
                     <span className="text-sm text-slate-600">Min Assets:</span>
-                    <div className="font-semibold text-green-600">{bank.minAssets}</div>
+                    <div className="font-semibold text-blue-600">{bank.minAssets}</div>
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Jumbo Rates:</span>
@@ -557,12 +557,12 @@ export default function OrangeCountyJumboLoansGuide() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Finance Your Orange County Luxury Home?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-slate-200 mb-8">
             Get competitive jumbo loan pricing and access exclusive Orange County properties. 
             Mo Abdel specializes in jumbo financing for luxury home buyers.
           </p>
@@ -575,14 +575,14 @@ export default function OrangeCountyJumboLoansGuide() {
               </Button>
             </a>
             <Link href="/contact">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold">
                 Get Jumbo Loan Quote
               </Button>
             </Link>
           </div>
           
           <div className="mt-8 pt-8 border-t border-blue-500">
-            <p className="text-blue-100">
+            <p className="text-slate-200">
               <strong>Mo Abdel</strong> • NMLS #1426884 • Specializing in Orange County luxury home financing since 2015
             </p>
           </div>

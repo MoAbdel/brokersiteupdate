@@ -224,12 +224,12 @@ export default function WholesaleMortgage92629DanaPointPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-green-700 font-semibold">50+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA Jumbo</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Ocean View</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Coastal specialists</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-green-700 font-semibold">Extensive options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Vacation Rental</td><td className="py-2 px-4 border-b">Difficult</td><td className="py-2 px-4 border-b text-green-700 font-semibold">DSCR programs</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Rate Shopping</td><td className="py-2 px-4">No</td><td className="py-2 px-4 text-green-700 font-semibold">200+ compete</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA Jumbo</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Ocean View</td><td className="py-2 px-4 border-b">Standard process</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Coastal specialists</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive options</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Vacation Rental</td><td className="py-2 px-4 border-b">Difficult</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">DSCR programs</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Rate Shopping</td><td className="py-2 px-4">No</td><td className="py-2 px-4 text-blue-700 font-semibold">200+ compete</td></tr>
             </tbody>
           </table>
         </div>

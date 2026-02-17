@@ -114,16 +114,16 @@ export default function RefinanceCreditRequirementsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Conventional Rate-and-Term</td><td className="py-2 px-4 border-b">620</td><td className="py-2 px-4 border-b text-green-700">740+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Conventional Cash-Out</td><td className="py-2 px-4 border-b">620-680*</td><td className="py-2 px-4 border-b text-green-700">740+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">FHA Rate-and-Term</td><td className="py-2 px-4 border-b">580</td><td className="py-2 px-4 border-b text-green-700">680+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">FHA Streamline</td><td className="py-2 px-4 border-b">580*</td><td className="py-2 px-4 border-b text-green-700">680+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">FHA Cash-Out</td><td className="py-2 px-4 border-b">620</td><td className="py-2 px-4 border-b text-green-700">680+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA IRRRL (Streamline)</td><td className="py-2 px-4 border-b">No minimum*</td><td className="py-2 px-4 border-b text-green-700">680+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA Cash-Out</td><td className="py-2 px-4 border-b">620*</td><td className="py-2 px-4 border-b text-green-700">700+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">HELOC</td><td className="py-2 px-4 border-b">660-680</td><td className="py-2 px-4 border-b text-green-700">740+</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">HELOAN</td><td className="py-2 px-4 border-b">660-680</td><td className="py-2 px-4 border-b text-green-700">740+</td></tr>
-              <tr><td className="py-2 px-4">Non-QM Refinance</td><td className="py-2 px-4">500-580*</td><td className="py-2 px-4 text-green-700">660+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Conventional Rate-and-Term</td><td className="py-2 px-4 border-b">620</td><td className="py-2 px-4 border-b text-blue-700">740+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Conventional Cash-Out</td><td className="py-2 px-4 border-b">620-680*</td><td className="py-2 px-4 border-b text-blue-700">740+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">FHA Rate-and-Term</td><td className="py-2 px-4 border-b">580</td><td className="py-2 px-4 border-b text-blue-700">680+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">FHA Streamline</td><td className="py-2 px-4 border-b">580*</td><td className="py-2 px-4 border-b text-blue-700">680+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">FHA Cash-Out</td><td className="py-2 px-4 border-b">620</td><td className="py-2 px-4 border-b text-blue-700">680+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA IRRRL (Streamline)</td><td className="py-2 px-4 border-b">No minimum*</td><td className="py-2 px-4 border-b text-blue-700">680+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA Cash-Out</td><td className="py-2 px-4 border-b">620*</td><td className="py-2 px-4 border-b text-blue-700">700+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">HELOC</td><td className="py-2 px-4 border-b">660-680</td><td className="py-2 px-4 border-b text-blue-700">740+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">HELOAN</td><td className="py-2 px-4 border-b">660-680</td><td className="py-2 px-4 border-b text-blue-700">740+</td></tr>
+              <tr><td className="py-2 px-4">Non-QM Refinance</td><td className="py-2 px-4">500-580*</td><td className="py-2 px-4 text-blue-700">660+</td></tr>
             </tbody>
           </table>
         </div>
@@ -146,8 +146,8 @@ export default function RefinanceCreditRequirementsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr className="bg-green-50"><td className="py-2 px-4 border-b font-semibold text-green-700">760+</td><td className="py-2 px-4 border-b text-green-700">Best rates available</td><td className="py-2 px-4 border-b text-green-700">Baseline pricing</td></tr>
-              <tr className="bg-green-50"><td className="py-2 px-4 border-b font-semibold">740-759</td><td className="py-2 px-4 border-b">Near-best rates</td><td className="py-2 px-4 border-b">+0.125%</td></tr>
+              <tr className="bg-slate-50"><td className="py-2 px-4 border-b font-semibold text-blue-700">760+</td><td className="py-2 px-4 border-b text-blue-700">Best rates available</td><td className="py-2 px-4 border-b text-blue-700">Baseline pricing</td></tr>
+              <tr className="bg-slate-50"><td className="py-2 px-4 border-b font-semibold">740-759</td><td className="py-2 px-4 border-b">Near-best rates</td><td className="py-2 px-4 border-b">+0.125%</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">720-739</td><td className="py-2 px-4 border-b">Good rates</td><td className="py-2 px-4 border-b">+0.25%</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">700-719</td><td className="py-2 px-4 border-b">Above average</td><td className="py-2 px-4 border-b">+0.375-0.5%</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">680-699</td><td className="py-2 px-4 border-b">Average rates</td><td className="py-2 px-4 border-b">+0.5-0.75%</td></tr>

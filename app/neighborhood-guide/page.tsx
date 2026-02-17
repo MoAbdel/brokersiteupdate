@@ -23,8 +23,8 @@ const comparisonGuides = [
     description: 'Complete comparison of Orange County\'s top family-friendly city against luxury coastal living',
     features: ['Home Prices & Market Data', 'School Ratings Comparison', 'Lifestyle & Amenities', 'Mortgage Considerations'],
     url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
-    badgeClass: 'bg-blue-600',
-    buttonClass: 'bg-blue-600 hover:bg-blue-700',
+    badgeClass: 'bg-slate-900',
+    buttonClass: 'bg-slate-900 hover:bg-slate-800',
     highlight: 'Most Popular'
   },
   {
@@ -32,8 +32,8 @@ const comparisonGuides = [
     description: 'Side-by-side comparison of 6+ Orange County neighborhoods with ratings and market insights',
     features: ['Multiple Neighborhood Ratings', 'Market Trends Analysis', 'Commute Comparisons', 'Investment Potential'],
     url: '/neighborhood-guide/orange-county-neighborhoods-comparison-guide',
-    badgeClass: 'bg-purple-600',
-    buttonClass: 'bg-purple-600 hover:bg-purple-700',
+    badgeClass: 'bg-slate-900',
+    buttonClass: 'bg-slate-900 hover:bg-slate-800',
     highlight: 'Comprehensive'
   }
 ];
@@ -119,8 +119,8 @@ export default function NeighborhoodGuidePage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Home className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Home className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Mortgage Insights</h3>
               <p className="text-slate-600">
@@ -128,8 +128,8 @@ export default function NeighborhoodGuidePage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="w-8 h-8 text-purple-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <MapPin className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Local Expertise</h3>
               <p className="text-slate-600">
@@ -190,7 +190,7 @@ export default function NeighborhoodGuidePage() {
                 <CardContent className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">Complete OC Neighborhoods</h3>
                   <p className="text-slate-600 text-sm mb-3">Comprehensive analysis of 6+ Orange County areas</p>
-                  <div className="text-xs text-purple-600 font-medium">Most Comprehensive →</div>
+                  <div className="text-xs text-blue-600 font-medium">Most Comprehensive →</div>
                 </CardContent>
               </Card>
             </Link>
@@ -262,15 +262,15 @@ export default function NeighborhoodGuidePage() {
             </p>
             <div className="space-y-3">
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span className="text-sm">Budget analysis and pre-approval</span>
               </div>
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span className="text-sm">Neighborhood recommendations based on your needs</span>
               </div>
               <div className="flex items-center">
-                <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <div className="w-2 h-2 bg-slate-900 rounded-full mr-3"></div>
                 <span className="text-sm">Market timing and strategy advice</span>
               </div>
             </div>
@@ -282,22 +282,22 @@ export default function NeighborhoodGuidePage() {
           <h2 className="text-3xl font-bold mb-4">
             Ready to Find Your Perfect Orange County Neighborhood?
           </h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized neighborhood recommendations and mortgage pre-approval
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Start Your Neighborhood Analysis
               </Button>
             </Link>
             <a href="tel:9498229662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-blue-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884
           </p>
         </div>

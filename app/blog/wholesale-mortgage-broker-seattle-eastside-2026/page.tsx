@@ -635,25 +635,25 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
                   <td className="px-4 py-3 border-t font-medium">State Income Tax on $400K Income</td>
                   <td className="px-4 py-3 border-t">$0</td>
                   <td className="px-4 py-3 border-t">$37,200 (CA 9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$37,200</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$37,200</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Wholesale vs Retail Rate Savings ($1.5M loan)</td>
                   <td className="px-4 py-3 border-t">Wholesale pricing</td>
                   <td className="px-4 py-3 border-t">Retail markup</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$3,600-$6,000</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$3,600-$6,000</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">State Tax on Investment Returns ($50K)</td>
                   <td className="px-4 py-3 border-t">$0</td>
                   <td className="px-4 py-3 border-t">$4,650</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$4,650</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$4,650</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium font-bold">Total Annual Advantage</td>
                   <td className="px-4 py-3 border-t font-bold">—</td>
                   <td className="px-4 py-3 border-t font-bold">—</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-bold">$45,450-$47,850</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-bold">$45,450-$47,850</td>
                 </tr>
               </tbody>
             </table>
@@ -828,15 +828,15 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker Advantage on the Seattle Eastside</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Seattle Eastside mortgage market is defined by high property values, complex tech compensation, and fierce buyer competition. In this environment, a wholesale mortgage broker provides advantages that retail banks structurally cannot match: access to 200+ lenders, expert tech income qualification, jumbo and super-jumbo expertise up to $10M+, and rates that consistently beat retail bank pricing by $200-$500+ per month on typical Eastside jumbo loans.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               For Amazon, Microsoft, Google, and Meta employees, the wholesale broker difference is measured in purchasing power. The right lender counts your RSU income at full value, qualifies your bonus at offer letter amounts, and processes your offer letter for pre-approval before your first day of work. The wrong lender — typically a retail bank with one qualification methodology — leaves $500K-$1M in purchasing power on the table.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               Combined with Washington State&apos;s zero income tax, the wholesale broker advantage on the Eastside amounts to $45,000-$48,000+ per year in total financial benefit compared to a California retail bank transaction. Whether you are buying your first Eastside home, upgrading to a larger property, or investing in rental real estate, wholesale broker access transforms your mortgage from a commodity into a strategic financial advantage.
             </p>
           </div>

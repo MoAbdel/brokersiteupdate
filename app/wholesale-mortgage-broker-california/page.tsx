@@ -158,27 +158,27 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b">Lender Options</td>
-                <td className="px-4 py-2 border-b font-semibold text-green-700">200+</td>
+                <td className="px-4 py-2 border-b font-semibold text-blue-700">200+</td>
                 <td className="px-4 py-2 border-b text-red-700">1</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Rate Shopping</td>
-                <td className="px-4 py-2 border-b font-semibold text-green-700">Built into process</td>
+                <td className="px-4 py-2 border-b font-semibold text-blue-700">Built into process</td>
                 <td className="px-4 py-2 border-b text-red-700">Not possible</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Program Variety</td>
-                <td className="px-4 py-2 border-b font-semibold text-green-700">Extensive</td>
+                <td className="px-4 py-2 border-b font-semibold text-blue-700">Extensive</td>
                 <td className="px-4 py-2 border-b text-red-700">Limited</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Overhead Costs</td>
-                <td className="px-4 py-2 border-b font-semibold text-green-700">Lower</td>
+                <td className="px-4 py-2 border-b font-semibold text-blue-700">Lower</td>
                 <td className="px-4 py-2 border-b text-red-700">Higher</td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b">Relationship</td>
-                <td className="px-4 py-2 border-b font-semibold text-green-700">Personal</td>
+                <td className="px-4 py-2 border-b font-semibold text-blue-700">Personal</td>
                 <td className="px-4 py-2 border-b text-red-700">Corporate</td>
               </tr>
             </tbody>

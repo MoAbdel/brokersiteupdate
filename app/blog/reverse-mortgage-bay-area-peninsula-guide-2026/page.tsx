@@ -635,7 +635,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
             Hub Preview: Ultra-Luxury Peninsula — Atherton, Hillsborough, Woodside, Portola Valley &amp; Los Altos Hills
           </h2>
 
-          <div className="bg-amber-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-amber-500">
             <p className="font-semibold mb-2">Hub CA-SV-A | Median Values: $4M-$10.8M | Focus: Estate Financing &amp; Generational Wealth</p>
             <p className="mb-0">
               The ultra-luxury Peninsula corridor represents the highest concentration of residential wealth in the
@@ -671,7 +671,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
             Hub Preview: Premium Silicon Valley — Palo Alto, Los Altos, Saratoga, Los Gatos &amp; Cupertino
           </h2>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <p className="font-semibold mb-2">Hub CA-SV-B | Median Values: $2.4M-$4.3M | Focus: Tech Executive Retirement &amp; Equity Optimization</p>
             <p className="mb-0">
               The premium Silicon Valley hub encompasses cities where retired and semi-retired tech executives,
@@ -707,7 +707,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
             Hub Preview: Tech Corridor — Mountain View, Sunnyvale, San Jose, Santa Clara &amp; Campbell
           </h2>
 
-          <div className="bg-purple-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
+          <div className="bg-slate-50 p-6 rounded-lg my-6 border-l-4 border-purple-500">
             <p className="font-semibold mb-2">Hub CA-SV-C | Median Values: $1.3M-$2M | Focus: First-Generation Homeowner Retirement &amp; Equity Access</p>
             <p className="mb-0">
               The Tech Corridor hub represents the working backbone of Silicon Valley, where long-tenured

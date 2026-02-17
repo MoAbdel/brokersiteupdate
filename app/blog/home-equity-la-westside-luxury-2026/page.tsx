@@ -579,31 +579,31 @@ export default function HomeEquityLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t font-medium">Entertainment Residuals ($40K&ndash;$180K/yr)</td>
                   <td className="px-4 py-3 border-t">Excluded as variable = $0</td>
                   <td className="px-4 py-3 border-t">2-yr average of residual statements</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$40K&ndash;$180K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$40K&ndash;$180K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Episodic / Production Fees ($100K&ndash;$350K)</td>
                   <td className="px-4 py-3 border-t">Requires 2-yr W-2 history, averaged = $50K&ndash;$175K</td>
                   <td className="px-4 py-3 border-t">Current contract value accepted</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$50K&ndash;$175K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$50K&ndash;$175K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Pilot Flight Hour Premiums ($40K&ndash;$80K/yr)</td>
                   <td className="px-4 py-3 border-t">2-yr average with declining trend exclusion</td>
                   <td className="px-4 py-3 border-t">Current pay stub annualized with seniority verification</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$20K&ndash;$40K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$20K&ndash;$40K qualifying income</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Pilot Per Diem &amp; International ($15K&ndash;$30K/yr)</td>
                   <td className="px-4 py-3 border-t">Excluded (non-taxable) = $0</td>
                   <td className="px-4 py-3 border-t">Counted as addback to gross income</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$15K&ndash;$30K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$15K&ndash;$30K qualifying income</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Freelance / 1099 Creative ($60K&ndash;$200K/yr)</td>
                   <td className="px-4 py-3 border-t">Net income after deductions = $20K&ndash;$80K</td>
                   <td className="px-4 py-3 border-t">Bank statement deposits (12&ndash;24 mo avg)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+$30K&ndash;$120K qualifying income</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+$30K&ndash;$120K qualifying income</td>
                 </tr>
               </tbody>
             </table>
@@ -634,7 +634,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">$940,000</td>
                   <td className="px-4 py-3 border-t">$1,120,000</td>
                   <td className="px-4 py-3 border-t">$1,300,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+38%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+38%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -642,7 +642,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">$880,000</td>
                   <td className="px-4 py-3 border-t">$1,050,000</td>
                   <td className="px-4 py-3 border-t">$1,200,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+36%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+36%</td>
                   <td className="px-4 py-3 border-t">Jumbo / Conforming</td>
                 </tr>
                 <tr>
@@ -650,7 +650,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">$830,000</td>
                   <td className="px-4 py-3 border-t">$960,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+33%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+33%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -658,7 +658,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">$810,000</td>
                   <td className="px-4 py-3 border-t">$950,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+36%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+36%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
               </tbody>
@@ -745,16 +745,16 @@ export default function HomeEquityLAWestsideLuxury2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in the LA Westside</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The LA Westside corridor &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; holds an estimated $8.6 billion in combined residential equity, driven by the entertainment industry&apos;s expansion at Amazon Studios, Sony Pictures, and Culver Studios alongside LAX&apos;s massive aviation workforce. With median values ranging from $1.1M in Westchester and Marina del Rey to $1.3M in Culver City, qualifying homeowners access $440K to $650K+ in tappable equity per property. The corridor&apos;s rapid appreciation of 33&ndash;38% over five years has created new equity positions for owners who purchased as recently as 2020&ndash;2022.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The LA Westside&apos;s entertainment, aviation, and creative professional income landscape &mdash; residuals, episodic fees, production bonuses, flight hour premiums, per diem, and freelance creative income &mdash; demands lenders who understand these structures. Conservative banks leave $30K&ndash;$120K+ in qualifying income on the table by excluding non-standard compensation. Marina del Rey&apos;s condo market adds building warrantability requirements that eliminate many retail bank options. Through wholesale broker access to 50+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type and property.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your LA Westside property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your LA Westside property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

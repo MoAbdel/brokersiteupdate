@@ -360,7 +360,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
                   <td className="py-3 px-4 border-b">$2,500,000</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
                   <td className="py-3 px-4 border-b">$1,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,000,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,000,000</td>
                   <td className="py-3 px-4 border-b text-sm">The Village, Shores, Bird Rock, Windansea, UCSD corridor</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -368,7 +368,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
                   <td className="py-3 px-4 border-b">$2,200,000</td>
                   <td className="py-3 px-4 border-b">$1,760,000</td>
                   <td className="py-3 px-4 border-b">$880,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$880,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$880,000</td>
                   <td className="py-3 px-4 border-b text-sm">Crown Manor, The Shores, Coronado Cays, Village area</td>
                 </tr>
                 <tr>
@@ -376,7 +376,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
                   <td className="py-3 px-4 border-b">$1,300,000</td>
                   <td className="py-3 px-4 border-b">$1,040,000</td>
                   <td className="py-3 px-4 border-b">$600,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$440,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$440,000</td>
                   <td className="py-3 px-4 border-b text-sm">Bressi Ranch, La Costa, Aviara, Carlsbad Village</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -384,7 +384,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
                   <td className="py-3 px-4">$1,100,000</td>
                   <td className="py-3 px-4">$880,000</td>
                   <td className="py-3 px-4">$500,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$380,000</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$380,000</td>
                   <td className="py-3 px-4 text-sm">Green Valley, Old Poway, horse property corridors, Poway USD</td>
                 </tr>
               </tbody>
@@ -434,7 +434,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
             Through wholesale channels, the broker accesses a $700,000 jumbo HELOC on her Bird Rock home (80% CLTV on $3.2M = $2.56M capacity minus $1.3M first mortgage = $1.26M available). She draws $450,000 for the Park City down payment. When the RSU vest executes 8 months later, she pays down the HELOC draw with after-tax proceeds and retains the credit line for future use. Total cost: approximately 8 months of interest-only payments on $450,000&mdash;far less than the capital gains impact of premature investment liquidation. This strategy requires a wholesale lender offering jumbo HELOCs above $500K with fast processing&mdash;a product class that retail banks rarely offer at competitive terms.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: La Jolla Equity Expertise</h4>
             <p className="mb-0">La Jolla&apos;s mix of oceanfront estates, Village TIC conversions, and biotech-corridor professionals requires lender selection expertise that goes beyond standard HELOC placement. My experience navigating La Jolla&apos;s unique property types&mdash;from TIC units requiring specialized title to Shores properties demanding coastal-zone appraisals&mdash;ensures homeowners access maximum equity at the most competitive wholesale terms.</p>
           </div>
@@ -481,7 +481,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
             Rather than selling the Coronado property (which would trigger capital gains on $1.2 million in appreciation) or refinancing out of the VA loan (losing the favorable rate), the broker structures a $350,000 conventional HELOC behind the VA first mortgage. This requires VA subordination from the VA loan servicer&mdash;a specialized process the broker facilitates through a wholesale lender experienced with military-to-civilian transitions. The Captain draws $250,000 for the business launch and retains $100,000 in credit-line reserve. Monthly cost: interest-only payments on the drawn amount. As consulting revenue grows, the Captain repays the HELOC draw while maintaining the VA first mortgage&apos;s favorable terms.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Coronado Military Equity Specialization</h4>
             <p className="mb-0">Coronado&apos;s military community deserves equity access solutions calibrated to military-specific challenges&mdash;VA subordination requirements, PCS relocation timelines, and career transition financing. My experience structuring HELOCs behind VA first mortgages for Coronado military families ensures these homeowners preserve their VA loan benefits while accessing the substantial equity their island properties have accumulated.</p>
           </div>
@@ -528,7 +528,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
             Through wholesale channels, the broker secures a $420,000 HELOC (80% CLTV on $1.4M = $1.12M minus $540K first mortgage = $580K available). The couple draws renovation funds in phases as construction progresses&mdash;$80,000 for demolition and framing, $120,000 for mechanical and finishes, $120,000 for second-story completion. Upon project completion, the renovated home appraises at $1.85 million. Their total mortgage position ($540K first + $320K HELOC draw = $860K) represents only 46% LTV on the new value&mdash;meaning the renovation created approximately $450,000 in additional equity beyond the cost. The remaining $100,000 in unused HELOC credit is available for future needs. For detailed information on this approach, see our <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance guide</a>.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Carlsbad Renovation Equity Expertise</h4>
             <p className="mb-0">Carlsbad&apos;s coastal renovation market requires understanding both construction-draw HELOC mechanics and post-renovation appraisal dynamics. My experience with phased-draw HELOCs for Carlsbad Village remodels and Aviara luxury upgrades ensures homeowners access equity at optimal terms while structuring draws to align with contractor payment schedules.</p>
           </div>
@@ -575,7 +575,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
             Through wholesale channels, the broker secures a $400,000 HELOC on the property (80% CLTV on $1.25M = $1M minus $480K first mortgage = $520K available). The couple draws $180,000 for ADU construction and draws tuition payments annually ($38,000 per year for 4 years). The ADU adds approximately $150,000&ndash;$200,000 in property value upon completion, partially offsetting the equity draw. The parents contribute $1,200/month in ADU rent to help cover HELOC interest payments. After 4 years, the couple has a completed ADU generating rental income (or housing family), a college graduate, and a manageable HELOC balance that they repay over the 20-year amortization period. For more on fixed-rate alternatives, see our <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Home Equity Loan Fixed Rate guide</a>.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Poway Family Equity Planning</h4>
             <p className="mb-0">Poway families deserve equity strategies that align with real life&mdash;college tuition, growing families, aging parents, and horse property improvements all happening simultaneously. My experience structuring multi-purpose HELOCs for Poway homeowners ensures families access the right amount of equity with optimal terms for their specific combination of needs, rather than the one-size-fits-all products retail banks offer.</p>
           </div>

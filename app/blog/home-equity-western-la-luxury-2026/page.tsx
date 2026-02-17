@@ -555,27 +555,27 @@ export default function HomeEquityWesternLALuxury2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Royalties/Residuals</td>
                   <td className="px-4 py-3 border-t">Often excluded or heavily discounted</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders using 2-year royalty history at full value</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders using 2-year royalty history at full value</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Production Company S-Corp</td>
                   <td className="px-4 py-3 border-t">Uses tax return net income (after deductions)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Bank statement programs using gross deposits</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Bank statement programs using gross deposits</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Variable Project Income</td>
                   <td className="px-4 py-3 border-t">2-year average penalizes low years</td>
-                  <td className="px-4 py-3 border-t text-green-700">12-month bank statement using recent earnings</td>
+                  <td className="px-4 py-3 border-t text-blue-700">12-month bank statement using recent earnings</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Licensing Fees</td>
                   <td className="px-4 py-3 border-t">Treated as one-time, non-recurring</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lenders recognizing recurring licensing patterns</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lenders recognizing recurring licensing patterns</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">High Net Worth / Low Income</td>
                   <td className="px-4 py-3 border-t">Declined (insufficient DTI)</td>
-                  <td className="px-4 py-3 border-t text-green-700">Asset depletion: $5M portfolio = $166K+ annual income</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Asset depletion: $5M portfolio = $166K+ annual income</td>
                 </tr>
               </tbody>
             </table>
@@ -627,28 +627,28 @@ export default function HomeEquityWesternLALuxury2026() {
                   <td className="px-4 py-3 border-t font-medium">Hidden Hills</td>
                   <td className="px-4 py-3 border-t">$5,400,000</td>
                   <td className="px-4 py-3 border-t">$6,000,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$3.2M avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Calabasas</td>
                   <td className="px-4 py-3 border-t">$1,620,000</td>
                   <td className="px-4 py-3 border-t">$1,800,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$880K avg per home</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Westlake Village</td>
                   <td className="px-4 py-3 border-t">$1,260,000</td>
                   <td className="px-4 py-3 border-t">$1,400,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$640K avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Agoura Hills</td>
                   <td className="px-4 py-3 border-t">$990,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$480K avg per home</td>
                 </tr>
               </tbody>
@@ -778,15 +778,15 @@ export default function HomeEquityWesternLALuxury2026() {
           </p>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Western LA&apos;s Luxury Corridor</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Hidden Hills ($6M median), Calabasas ($1.8M median), Westlake Village ($1.4M median), and Agoura Hills ($1.1M median) collectively hold over $11 billion in residential home equity. Entertainment industry income profiles, LLC/trust ownership structures, and ultra-luxury property valuations require specialized lending expertise that standard banks do not provide.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               From $3M+ jumbo HELOCs on Hidden Hills compounds to conforming-tier equity products for Agoura Hills family homes, the right equity product exists for every Western LA homeowner. Bank statement qualification for entertainment professionals, asset depletion for high-net-worth borrowers with minimal salary, and entity-ownership HELOC programs all become accessible through wholesale broker access to 200+ lenders.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your Western LA equity specialist, I deliver entertainment income qualification expertise, entity ownership navigation, luxury property appraisal management, and the privacy standards this market demands. Contact me today for your free home equity analysis.
             </p>
           </div>

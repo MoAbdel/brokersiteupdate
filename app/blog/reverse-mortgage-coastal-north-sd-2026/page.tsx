@@ -307,28 +307,28 @@ export default function ReverseMortgageCoastalNorthSD2026() {
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rancho Santa Fe</td>
                   <td className="py-3 px-4 border-b">$4,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $2.2M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $2.2M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">The Covenant, Fairbanks Ranch, The Bridges, Cielo</td>
                   <td className="py-3 px-4 border-b">Equestrian retirees, physician families, trust-held estates</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Del Mar</td>
                   <td className="py-3 px-4 border-b">$3,800,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $1.9M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $1.9M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Stratford Court, Del Mar Heights, Village, Torrey Pines</td>
                   <td className="py-3 px-4 border-b">Racing community, oceanfront retirees, seasonal residents</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Solana Beach</td>
                   <td className="py-3 px-4 border-b">$2,000,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$575K (HECM) / $1M+ (Proprietary)</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$575K (HECM) / $1M+ (Proprietary)</td>
                   <td className="py-3 px-4 border-b">Fletcher Cove, Lomas Santa Fe, Cedros District</td>
                   <td className="py-3 px-4 border-b">Downsizer equity, creative retirees, design district seniors</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Encinitas</td>
                   <td className="py-3 px-4">$1,800,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$575K (HECM) / $900K+ (Proprietary)</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$575K (HECM) / $900K+ (Proprietary)</td>
                   <td className="py-3 px-4">Cardiff-by-the-Sea, Old Encinitas, Olivenhain, Leucadia</td>
                   <td className="py-3 px-4">Surf culture retirees, wellness entrepreneurs, long-term owners</td>
                 </tr>
@@ -429,7 +429,7 @@ export default function ReverseMortgageCoastalNorthSD2026() {
             A 74-year-old retired attorney in Del Mar Heights owns a $4.8 million oceanfront home free and clear. His fixed retirement income from Social Security and a pension covers basic expenses but not the property taxes ($48,000/year), home maintenance ($30,000/year), and healthcare costs ($22,000/year) that coastal living demands. Rather than sell the home his family has owned for 32 years, a proprietary reverse mortgage provides a $2.1 million line of credit based on actual home value. He draws $8,300/month to cover property-related expenses and healthcare, with no monthly mortgage payment required. The remaining credit line serves as a long-term care funding reserve. His heirs inherit the home and any remaining equity above the loan balance.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Del Mar Reverse Mortgage Expertise</h4>
             <p className="mb-0">In our Del Mar reverse mortgage closings, oceanfront property appraisals present the primary challenge. View premiums, bluff-proximity factors, and coastal zone restrictions all affect valuation&mdash;and a reverse mortgage payout is directly tied to appraised value. I assign certified luxury appraisers with documented Del Mar experience who capture the full oceanfront premium, maximizing proceeds for senior homeowners.</p>
           </div>
@@ -469,7 +469,7 @@ export default function ReverseMortgageCoastalNorthSD2026() {
             A 76-year-old retired physician couple holds a $7.2 million Covenant estate in a revocable living trust. The property includes a 6-stall barn, covered arena, and 4 acres of paddock. Their retirement income from pensions and investments covers daily expenses but not the $85,000 annual property tax, $45,000 equestrian facility maintenance, and $60,000 home maintenance costs. Rather than sell the estate they have called home for 28 years, a proprietary reverse mortgage&mdash;structured through a lender accepting trust-held properties&mdash;provides a $3.2 million line of credit. Monthly draws of $15,000 cover all property-related costs without touching investment portfolios. The trust structure remains intact, preserving estate planning benefits for their three adult children.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Rancho Santa Fe Reverse Mortgage Specialization</h4>
             <p className="mb-0">In our Rancho Santa Fe reverse mortgage closings, trust ownership and equestrian property valuations present the two most common challenges. I maintain relationships with reverse mortgage lenders experienced in trust-vested properties and assign appraisers who properly value equestrian improvements&mdash;barns, arenas, paddock systems&mdash;that generic appraisers routinely undervalue, directly reducing proceeds for senior homeowners.</p>
           </div>
@@ -509,7 +509,7 @@ export default function ReverseMortgageCoastalNorthSD2026() {
             A 68-year-old retired educator sells her $4.2 million Del Mar home and wants to purchase a $2.1 million single-level home in Lomas Santa Fe for aging-in-place convenience. Using the HECM for Purchase program, she makes a down payment of approximately $1.15 million (roughly 55% of the purchase price) and the reverse mortgage covers the remaining $950,000. She has no monthly mortgage payment on the new home, and the $3 million in net proceeds from the Del Mar sale (minus the down payment) goes into investment accounts generating retirement income. The combination of reverse mortgage financing plus invested sale proceeds creates a retirement income strategy that neither approach alone achieves.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Solana Beach Senior Equity Access</h4>
             <p className="mb-0">In our Solana Beach reverse mortgage closings, the HECM for Purchase program is increasingly popular among downsizers from Del Mar and Rancho Santa Fe. I coordinate the sale-purchase-reverse mortgage timeline to ensure seamless transactions, preventing the cash flow gaps and contingency complications that derail downsizing plans when handled by brokers unfamiliar with HECM for Purchase logistics.</p>
           </div>
@@ -550,7 +550,7 @@ export default function ReverseMortgageCoastalNorthSD2026() {
             A 66-year-old retired yoga instructor in Old Encinitas owns a $2.4 million home free and clear near the Self-Realization Fellowship. Her retirement income from Social Security and modest savings covers current expenses but provides no buffer for healthcare costs, home maintenance, or unexpected expenses. Rather than sell the home she has owned for 30 years, she establishes a HECM reverse mortgage with the growing line of credit option. The initial credit line of approximately $575,000 (based on the HECM limit) grows annually at the loan&apos;s interest rate. She draws nothing initially, allowing the credit line to grow. After 5 years, the available credit has grown to approximately $735,000. She begins drawing $3,500/month for healthcare and lifestyle expenses, knowing the untapped credit continues growing. By age 80, she has a substantial financial safety net that increases each year she does not use it&mdash;all secured by the home she continues to live in.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T Marker: Encinitas Senior Equity &amp; Retirement Strategy</h4>
             <p className="mb-0">In our Encinitas reverse mortgage consultations, the growing line of credit strategy resonates strongly with wellness-community seniors who value financial security over immediate access. I work with Encinitas seniors and their financial advisors to model how the HECM credit line growth interacts with Social Security optimization, Medicare planning, and long-term care funding&mdash;creating an integrated retirement strategy rather than a standalone loan product.</p>
           </div>

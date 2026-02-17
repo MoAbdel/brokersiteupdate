@@ -366,7 +366,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">Full (W-2/Tax Returns)</td>
                   <td className="px-4 py-3 border-t">$3M+</td>
                   <td className="px-4 py-3 border-t">Studio W-2 employees</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lowest</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lowest</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Bank Statement (12-mo)</td>
@@ -398,7 +398,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">None (property income)</td>
                   <td className="px-4 py-3 border-t">$2M</td>
                   <td className="px-4 py-3 border-t">Rental/Airbnb investors</td>
-                  <td className="px-4 py-3 border-t text-orange-700">Higher</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Higher</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Non-Warrantable Condo</td>
@@ -414,7 +414,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
                   <td className="px-4 py-3 border-t">Full (military verification)</td>
                   <td className="px-4 py-3 border-t">$2M+</td>
                   <td className="px-4 py-3 border-t">Veterans, LAX military</td>
-                  <td className="px-4 py-3 border-t text-green-700">Lowest</td>
+                  <td className="px-4 py-3 border-t text-blue-700">Lowest</td>
                 </tr>
               </tbody>
             </table>
@@ -452,7 +452,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Culver City Financing Insight</h4>
             <p className="mb-0">Amazon Studios&apos; expansion has attracted 3,700+ entertainment industry jobs to Culver City since 2022. Many of these professionals are high-earning but self-employed or contract-based. Bank statement loan programs capture their true earning power by analyzing 12&ndash;24 months of deposits rather than tax returns that show significant business deductions. A creative professional depositing $25,000/month qualifies for approximately $1.5 million in purchasing power through wholesale bank statement programs.</p>
           </div>
@@ -488,7 +488,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Playa del Rey Financing Insight</h4>
             <p className="mb-0">Playa del Rey&apos;s blufftop homes have appreciated 38% over the past five years, outpacing LA County averages by 12 percentage points. The area&apos;s resistance to high-density development preserves property values and limits inventory, creating strong long-term equity positions for buyers. VA jumbo loans at 0% down are particularly valuable here for the military and airline pilot population near LAX.</p>
           </div>
@@ -525,7 +525,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Marina del Rey Financing Insight</h4>
             <p className="mb-0">An estimated 40% of Marina del Rey condo buildings have non-warrantable characteristics that disqualify them from conventional financing. Wholesale brokers are the primary pathway to financing these properties. Non-warrantable condo programs require 15&ndash;20% down and carry slightly higher rates (0.25%&ndash;0.50% above conventional), but they are the only option for many of the most desirable marina-view units. Boat slip values ($50K&ndash;$200K) are excluded from the property appraisal but add significant lifestyle value.</p>
           </div>
@@ -561,7 +561,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             </table>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Westchester Financing Insight</h4>
             <p className="mb-0">Westchester&apos;s mid-century housing stock creates strong renovation loan demand. FHA 203(k) and conventional renovation loans allow buyers to purchase a $900K fixer, borrow an additional $200K&ndash;$300K for renovations, and create a property worth $1.4M+. Wholesale brokers access renovation lenders with lower rates and faster close times than retail banks, which frequently mishandle the renovation draw process. The LAX Flight Path area offers an additional 5&ndash;10% price discount that savvy buyers leverage for equity from day one.</p>
           </div>

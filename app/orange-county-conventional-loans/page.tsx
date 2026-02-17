@@ -140,7 +140,7 @@ export default function OrangeCountyConventionalLoansPage() {
             {/* Quick Stats */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-slate-600">
               <div className="flex items-center">
-                <DollarSign className="w-4 h-4 mr-1 text-green-600" />
+                <DollarSign className="w-4 h-4 mr-1 text-blue-600" />
                 3% Minimum Down Payment
               </div>
               <div className="flex items-center">
@@ -148,7 +148,7 @@ export default function OrangeCountyConventionalLoansPage() {
                 No MI with 20% Down
               </div>
               <div className="flex items-center">
-                <TrendingDown className="w-4 h-4 mr-1 text-purple-600" />
+                <TrendingDown className="w-4 h-4 mr-1 text-blue-600" />
                 Competitive Interest pricing
               </div>
             </div>
@@ -159,11 +159,11 @@ export default function OrangeCountyConventionalLoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready for Your Conventional Loan?</h3>
-                <p className="text-blue-100">compare pricing from 200+ lenders today</p>
+                <p className="text-slate-200">compare pricing from 200+ lenders today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+19498229662">
-                  <Button className="bg-white text-blue-600 hover:bg-blue-50">
+                  <Button className="bg-white text-slate-950 hover:bg-slate-100">
                     <Phone className="w-4 h-4 mr-2" />
                     (949) 822-9662
                   </Button>
@@ -194,42 +194,42 @@ export default function OrangeCountyConventionalLoansPage() {
                 <CardContent className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Low Down Payment Options</h4>
                         <p className="text-sm text-slate-600">As little as 3% down for qualified borrowers</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">No Mortgage Insurance</h4>
                         <p className="text-sm text-slate-600">Eliminate PMI with 20% down payment</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Competitive pricing</h4>
                         <p className="text-sm text-slate-600">Often Lower pricing than FHA loans</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">No Property Restrictions</h4>
                         <p className="text-sm text-slate-600">Can be used for any property type</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Higher Loan Limits</h4>
                         <p className="text-sm text-slate-600">Up to $1,266,300 in Orange County</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Flexible Terms</h4>
                         <p className="text-sm text-slate-600">15, 20, and 30-year options available</p>
@@ -287,7 +287,7 @@ export default function OrangeCountyConventionalLoansPage() {
                         <tr className="border-b-2 border-slate-200">
                           <th className="text-left py-3 px-4 font-semibold">Feature</th>
                           <th className="text-left py-3 px-4 font-semibold text-blue-600">Conventional</th>
-                          <th className="text-left py-3 px-4 font-semibold text-green-600">FHA</th>
+                          <th className="text-left py-3 px-4 font-semibold text-blue-600">FHA</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -367,8 +367,8 @@ export default function OrangeCountyConventionalLoansPage() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Clock className="w-8 h-8 text-green-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Clock className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">18-Day Closings</h3>
                       <p className="text-slate-600">
@@ -376,8 +376,8 @@ export default function OrangeCountyConventionalLoansPage() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <MapPin className="w-8 h-8 text-purple-600" />
+                      <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <MapPin className="w-8 h-8 text-blue-600" />
                       </div>
                       <h3 className="text-lg font-bold mb-3">Local Expertise</h3>
                       <p className="text-slate-600">

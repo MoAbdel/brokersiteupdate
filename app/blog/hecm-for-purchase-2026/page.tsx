@@ -208,8 +208,8 @@ export default function HECMForPurchasePage() {
           finance the remainder with a reverse mortgage.
         </p>
 
-        <div className="bg-green-50 border border-green-200 p-6 rounded-lg my-8 not-prose">
-          <h3 className="text-lg font-bold text-green-800 mb-3">How It Works: Simple Example</h3>
+        <div className="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8 not-prose">
+          <h3 className="text-lg font-bold text-slate-900 mb-3">How It Works: Simple Example</h3>
           <p className="text-gray-700 mb-4">
             <strong>Scenario:</strong> A 70-year-old couple wants to buy a $500,000 home near their grandchildren.
           </p>
@@ -688,9 +688,9 @@ export default function HECMForPurchasePage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-xl mt-12 not-prose">
+        <div className="bg-slate-900 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Considering HECM for Purchase?</h3>
-          <p className="text-blue-100 mb-6">
+          <p className="text-slate-200 mb-6">
             Let's discuss your home buying plans and see how HECM for Purchase could work for your
             situation. I'll provide a preliminary estimate of down payment requirements and walk
             you through the process.

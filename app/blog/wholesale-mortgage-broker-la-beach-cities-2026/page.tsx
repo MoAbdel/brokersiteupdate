@@ -268,42 +268,42 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Jumbo Loan Options</td>
                     <td className="px-4 py-3 border-t">1&ndash;3 jumbo products (own portfolio)</td>
-                    <td className="px-4 py-3 border-t text-green-700">20&ndash;30+ jumbo lenders with varying guidelines</td>
+                    <td className="px-4 py-3 border-t text-blue-700">20&ndash;30+ jumbo lenders with varying guidelines</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Max Loan Amount</td>
                     <td className="px-4 py-3 border-t">Typically $3&ndash;5M cap</td>
-                    <td className="px-4 py-3 border-t text-green-700">Up to $10M+ through Sand Section specialists</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Up to $10M+ through Sand Section specialists</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Aerospace Income</td>
                     <td className="px-4 py-3 border-t">Base salary only, excludes RSU/bonus</td>
-                    <td className="px-4 py-3 border-t text-green-700">Lenders counting RSU vesting, bonuses, deferred comp</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Lenders counting RSU vesting, bonuses, deferred comp</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Self-Employed Programs</td>
                     <td className="px-4 py-3 border-t">Full documentation required (2-year tax returns)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Bank statement, P&amp;L, 1099, asset depletion</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&amp;L, 1099, asset depletion</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Construction / Teardown</td>
                     <td className="px-4 py-3 border-t">Separate construction and permanent loans</td>
-                    <td className="px-4 py-3 border-t text-green-700">One-time-close construction-to-permanent up to $10M</td>
+                    <td className="px-4 py-3 border-t text-blue-700">One-time-close construction-to-permanent up to $10M</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Rate Shopping</td>
                     <td className="px-4 py-3 border-t">Single rate from single lender</td>
-                    <td className="px-4 py-3 border-t text-green-700">Multiple competing rate quotes in real-time</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Multiple competing rate quotes in real-time</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Closing Speed</td>
                     <td className="px-4 py-3 border-t">35&ndash;50 days typical</td>
-                    <td className="px-4 py-3 border-t text-green-700">21&ndash;45 days (rush options for competitive offers)</td>
+                    <td className="px-4 py-3 border-t text-blue-700">21&ndash;45 days (rush options for competitive offers)</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Cost to Borrower</td>
                     <td className="px-4 py-3 border-t">Bank overhead built into higher rates</td>
-                    <td className="px-4 py-3 border-t text-green-700">Lower overhead = lower rates in most cases</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Lower overhead = lower rates in most cases</td>
                   </tr>
                 </tbody>
               </table>
@@ -401,28 +401,28 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                     <td className="px-4 py-3 border-t">$3.4M</td>
                     <td className="px-4 py-3 border-t">Aerospace exec, tech, finance, entertainment</td>
                     <td className="px-4 py-3 border-t">RSU + bonus income, $5M+ Sand Section loans</td>
-                    <td className="px-4 py-3 border-t text-green-700">Ultra-jumbo lenders, RSU-counting programs</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Ultra-jumbo lenders, RSU-counting programs</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Hermosa Beach</td>
                     <td className="px-4 py-3 border-t">$2.5M</td>
                     <td className="px-4 py-3 border-t">Entrepreneur, creative, dual-income professional</td>
                     <td className="px-4 py-3 border-t">Self-employed, variable income, small lot premium</td>
-                    <td className="px-4 py-3 border-t text-green-700">Bank statement jumbo, lifestyle-property appraisal</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Bank statement jumbo, lifestyle-property appraisal</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Redondo Beach</td>
                     <td className="px-4 py-3 border-t">$1.5M</td>
                     <td className="px-4 py-3 border-t">Professional couple, medical, small business</td>
                     <td className="px-4 py-3 border-t">North vs. South value split, Riviera premium</td>
-                    <td className="px-4 py-3 border-t text-green-700">Jumbo + conforming options, view-premium appraisal</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Jumbo + conforming options, view-premium appraisal</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">El Segundo</td>
                     <td className="px-4 py-3 border-t">$1.2M</td>
                     <td className="px-4 py-3 border-t">Aerospace engineer, tech worker, Mattel/YouTube</td>
                     <td className="px-4 py-3 border-t">RSU income, relocation packages, near conforming limit</td>
-                    <td className="px-4 py-3 border-t text-green-700">RSU specialists, conforming + jumbo flexibility</td>
+                    <td className="px-4 py-3 border-t text-blue-700">RSU specialists, conforming + jumbo flexibility</td>
                   </tr>
                 </tbody>
               </table>
@@ -618,7 +618,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                     <td className="px-4 py-3 border-t font-medium">Manhattan Beach</td>
                     <td className="px-4 py-3 border-t">$3.15M</td>
                     <td className="px-4 py-3 border-t">$3.4M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+7.9%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+7.9%</td>
                     <td className="px-4 py-3 border-t">$2.0M&ndash;$8.0M</td>
                     <td className="px-4 py-3 border-t">Ultra-jumbo, RSU income, construction-to-perm</td>
                   </tr>
@@ -626,7 +626,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                     <td className="px-4 py-3 border-t font-medium">Hermosa Beach</td>
                     <td className="px-4 py-3 border-t">$2.3M</td>
                     <td className="px-4 py-3 border-t">$2.5M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+8.7%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+8.7%</td>
                     <td className="px-4 py-3 border-t">$1.5M&ndash;$3.5M</td>
                     <td className="px-4 py-3 border-t">Jumbo bank statement, self-employed, full-doc</td>
                   </tr>
@@ -634,7 +634,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                     <td className="px-4 py-3 border-t font-medium">Redondo Beach</td>
                     <td className="px-4 py-3 border-t">$1.38M</td>
                     <td className="px-4 py-3 border-t">$1.5M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+8.7%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+8.7%</td>
                     <td className="px-4 py-3 border-t">$1.0M&ndash;$2.5M</td>
                     <td className="px-4 py-3 border-t">Jumbo + conforming, DSCR, view-premium</td>
                   </tr>
@@ -642,7 +642,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                     <td className="px-4 py-3 border-t font-medium">El Segundo</td>
                     <td className="px-4 py-3 border-t">$1.1M</td>
                     <td className="px-4 py-3 border-t">$1.2M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+9.1%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+9.1%</td>
                     <td className="px-4 py-3 border-t">$0.9M&ndash;$1.5M</td>
                     <td className="px-4 py-3 border-t">Conforming high-balance, RSU income, relocation</td>
                   </tr>
@@ -775,7 +775,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
           </div>
 
           {/* EXPERT SUMMARY */}
-          <div className="expert-summary bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div className="expert-summary bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Wholesale Mortgage Advantage for LA Beach Cities</h2>
             <p className="mb-4">
               The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of Southern California&apos;s most competitive and financially demanding mortgage markets. With median values spanning $1.2 million to $3.4 million (and Sand Section Manhattan Beach exceeding $5M), virtually every transaction demands jumbo financing from lenders equipped to handle aerospace compensation complexity, self-employed income documentation, beachfront property appraisals, and ultra-competitive offer timelines. A wholesale broker with 200+ lender relationships and section-level South Bay market intelligence matches each buyer with the optimal program.

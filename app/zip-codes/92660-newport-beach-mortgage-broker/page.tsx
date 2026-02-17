@@ -181,7 +181,7 @@ export default function ZipCode92660MortgageBrokerPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 822-9662">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full">
+                  <Button size="lg" className="bg-slate-900 hover:bg-slate-800 w-full">
                     <Phone className="w-5 h-5 mr-2" />
                     Call (949) 822-9662
                   </Button>
@@ -360,13 +360,13 @@ export default function ZipCode92660MortgageBrokerPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" variant="outline" className="bg-white text-amber-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
               </a>
               <a href="/contact">
-                <Button size="lg" variant="outline" className="bg-white text-amber-600 hover:bg-gray-100 w-full">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 w-full">
                   <Crown className="w-5 h-5 mr-2" />
                   Luxury Pre-Approval
                 </Button>

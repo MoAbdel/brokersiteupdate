@@ -471,19 +471,19 @@ export default function HomeEquitySeattleEastsideGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">$500K HELOC used for rental property generating $60K/yr income</td>
                   <td className="px-4 py-3 border-t">$0 state tax on rental income</td>
                   <td className="px-4 py-3 border-t">$5,580 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$5,580/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$5,580/yr saved</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">$300K HELOC invested in portfolio returning $30K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax on investment gains</td>
                   <td className="px-4 py-3 border-t">$2,790 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$2,790/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$2,790/yr saved</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">$200K cash-out used for business capitalization earning $40K/yr</td>
                   <td className="px-4 py-3 border-t">$0 state tax on business income</td>
                   <td className="px-4 py-3 border-t">$3,720 state tax (9.3%)</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">$3,720/yr saved</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">$3,720/yr saved</td>
                 </tr>
               </tbody>
             </table>
@@ -763,15 +763,15 @@ export default function HomeEquitySeattleEastsideGuide2026() {
           </div>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity on the Seattle Eastside</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The Seattle Eastside holds over $82 billion in residential home equity across 14 cities, making it one of the most equity-rich corridors in the United States. With median home values ranging from $1 million in Bothell to $5 million in Medina, homeowners have access to $520,000 to $3.2 million in tappable equity per property.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Washington State&apos;s zero state income tax amplifies the value of strategic equity deployment. Whether funding ADU construction, acquiring investment properties, consolidating debt, or bridging stock liquidation, every dollar of return faces no state income taxation. Over a decade, this advantage compounds to tens of thousands of dollars compared to high-tax states like California.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your unique Eastside property and financial profile. Tech income qualification, jumbo equity products, and entity-owned property expertise are standard service — not add-ons.
             </p>
           </div>

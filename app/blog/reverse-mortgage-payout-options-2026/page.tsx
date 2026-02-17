@@ -158,7 +158,7 @@ export default function ReverseMortgagePayoutOptionsPage() {
         </ul>
 
         <h4>The Growth Feature Explained</h4>
-        <div className="bg-green-50 p-6 rounded-xl my-4">
+        <div className="bg-slate-50 p-6 rounded-xl my-4">
           <p className="text-green-900">
             <strong>This is unique to HECM reverse mortgages.</strong> Your unused credit line grows at the same rate being charged on your loan balance (interest rate + MIP). If you have $200,000 available and don't draw anything, that amount grows—potentially to $250,000, $300,000, or more over time—even if your home value stays flat or declines.
           </p>
@@ -269,8 +269,8 @@ export default function ReverseMortgagePayoutOptionsPage() {
             <tbody>
               <tr><td className="py-2 px-3 border-b font-semibold">Rate Type</td><td className="py-2 px-3 border-b">Fixed</td><td className="py-2 px-3 border-b">Adjustable</td><td className="py-2 px-3 border-b">Adjustable</td><td className="py-2 px-3 border-b">Adjustable</td></tr>
               <tr><td className="py-2 px-3 border-b font-semibold">Access Pattern</td><td className="py-2 px-3 border-b">One-time</td><td className="py-2 px-3 border-b">As needed</td><td className="py-2 px-3 border-b">Monthly for life</td><td className="py-2 px-3 border-b">Monthly for period</td></tr>
-              <tr><td className="py-2 px-3 border-b font-semibold">Growth Feature</td><td className="py-2 px-3 border-b">No</td><td className="py-2 px-3 border-b text-green-700 font-semibold">Yes</td><td className="py-2 px-3 border-b">No</td><td className="py-2 px-3 border-b">No</td></tr>
-              <tr><td className="py-2 px-3 border-b font-semibold">Flexibility</td><td className="py-2 px-3 border-b">Low</td><td className="py-2 px-3 border-b text-green-700 font-semibold">High</td><td className="py-2 px-3 border-b">Medium</td><td className="py-2 px-3 border-b">Medium</td></tr>
+              <tr><td className="py-2 px-3 border-b font-semibold">Growth Feature</td><td className="py-2 px-3 border-b">No</td><td className="py-2 px-3 border-b text-blue-700 font-semibold">Yes</td><td className="py-2 px-3 border-b">No</td><td className="py-2 px-3 border-b">No</td></tr>
+              <tr><td className="py-2 px-3 border-b font-semibold">Flexibility</td><td className="py-2 px-3 border-b">Low</td><td className="py-2 px-3 border-b text-blue-700 font-semibold">High</td><td className="py-2 px-3 border-b">Medium</td><td className="py-2 px-3 border-b">Medium</td></tr>
               <tr><td className="py-2 px-3 font-semibold">Best When</td><td className="py-2 px-3">Large immediate need</td><td className="py-2 px-3">Uncertain needs</td><td className="py-2 px-3">Need steady income</td><td className="py-2 px-3">Bridge to other income</td></tr>
             </tbody>
           </table>

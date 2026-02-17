@@ -298,28 +298,28 @@ export default function HomeEquitySuburbanKingCounty2026() {
                   <td className="px-4 py-3 border-t font-medium">Shoreline</td>
                   <td className="px-4 py-3 border-t">$850,000</td>
                   <td className="px-4 py-3 border-t">+42%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$380,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$380,000</td>
                   <td className="px-4 py-3 border-t">Mid-century renovation, ADU construction</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Lake Forest Park</td>
                   <td className="px-4 py-3 border-t">$950,000</td>
                   <td className="px-4 py-3 border-t">+38%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$460,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$460,000</td>
                   <td className="px-4 py-3 border-t">Lakefront upgrades, dock improvements</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Kenmore</td>
                   <td className="px-4 py-3 border-t">$780,000</td>
                   <td className="px-4 py-3 border-t">+35%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$330,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$330,000</td>
                   <td className="px-4 py-3 border-t">Waterfront improvements, debt consolidation</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Snoqualmie</td>
                   <td className="px-4 py-3 border-t">$900,000</td>
                   <td className="px-4 py-3 border-t">+40%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$410,000</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$410,000</td>
                   <td className="px-4 py-3 border-t">New construction equity capture, investment</td>
                 </tr>
               </tbody>
@@ -358,8 +358,8 @@ export default function HomeEquitySuburbanKingCounty2026() {
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Interest Rate Type</td>
                   <td className="px-4 py-3 border-t">Variable (prime + margin)</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Fixed rate</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Fixed rate</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Fixed rate</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Fixed rate</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Current Rate Range (Feb 2026)</td>
@@ -369,14 +369,14 @@ export default function HomeEquitySuburbanKingCounty2026() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Maximum CLTV (Wholesale)</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">90%</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">90%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">90%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">90%</td>
                   <td className="px-4 py-3 border-t">80%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Impact on First Mortgage</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Keeps existing mortgage intact</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">Keeps existing mortgage intact</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Keeps existing mortgage intact</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">Keeps existing mortgage intact</td>
                   <td className="px-4 py-3 border-t">Replaces existing mortgage</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -387,7 +387,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Closing Costs</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">$0 &ndash; $500 (many no-cost options)</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">$0 &ndash; $500 (many no-cost options)</td>
                   <td className="px-4 py-3 border-t">$1,500 &ndash; $3,000</td>
                   <td className="px-4 py-3 border-t">$4,000 &ndash; $8,000</td>
                 </tr>
@@ -424,7 +424,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$380K</p>
+                <p className="text-xl font-bold text-blue-700">$380K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Light Rail Premium</p>
@@ -466,7 +466,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$460K</p>
+                <p className="text-xl font-bold text-blue-700">$460K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Lakefront Premium</p>
@@ -512,7 +512,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$330K</p>
+                <p className="text-xl font-bold text-blue-700">$330K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Trail Premium</p>
@@ -558,7 +558,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Avg Tappable Equity</p>
-                <p className="text-xl font-bold text-green-700">$410K</p>
+                <p className="text-xl font-bold text-blue-700">$410K</p>
               </div>
               <div>
                 <p className="text-sm text-gray-500 mb-1">Remote Work Premium</p>
@@ -651,7 +651,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
                   <td className="px-4 py-3 border-t">$600K</td>
                   <td className="px-4 py-3 border-t">$710K</td>
                   <td className="px-4 py-3 border-t">$850K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+42%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+42%</td>
                   <td className="px-4 py-3 border-t">$250K appreciation + paydown</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -659,7 +659,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
                   <td className="px-4 py-3 border-t">$690K</td>
                   <td className="px-4 py-3 border-t">$800K</td>
                   <td className="px-4 py-3 border-t">$950K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+38%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+38%</td>
                   <td className="px-4 py-3 border-t">$260K appreciation + paydown</td>
                 </tr>
                 <tr>
@@ -667,7 +667,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
                   <td className="px-4 py-3 border-t">$580K</td>
                   <td className="px-4 py-3 border-t">$660K</td>
                   <td className="px-4 py-3 border-t">$780K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+35%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+35%</td>
                   <td className="px-4 py-3 border-t">$200K appreciation + paydown</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -675,7 +675,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
                   <td className="px-4 py-3 border-t">$645K</td>
                   <td className="px-4 py-3 border-t">$755K</td>
                   <td className="px-4 py-3 border-t">$900K</td>
-                  <td className="px-4 py-3 border-t font-semibold text-green-700">+40%</td>
+                  <td className="px-4 py-3 border-t font-semibold text-blue-700">+40%</td>
                   <td className="px-4 py-3 border-t">$255K appreciation + paydown</td>
                 </tr>
               </tbody>
@@ -817,19 +817,19 @@ export default function HomeEquitySuburbanKingCounty2026() {
           <hr className="my-10" />
 
           {/* ---- Expert Summary ---- */}
-          <div id="expert-summary" className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
+          <div id="expert-summary" className="bg-slate-50 border-l-4 border-green-500 p-6 rounded-r-lg my-8">
             <h2 className="text-2xl font-bold text-green-900 mb-4 mt-0">Expert Summary: Suburban King County Home Equity Advantage</h2>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               Suburban King County&apos;s four communities&mdash;Shoreline, Lake Forest Park, Kenmore, and Snoqualmie&mdash;represent the optimal intersection of strong equity positions and conforming loan product access. With median values from $780K to $950K, homeowners hold $330,000-$460,000 in average tappable equity while qualifying for the most competitive HELOC rates available through conforming product channels. Sound Transit light rail is actively boosting Shoreline values 10-18%, lakefront properties in Lake Forest Park and Kenmore command premium equity positions, and Snoqualmie&apos;s remote-work migration has built $200,000-$350,000 in appreciation in just 5 years.
             </p>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               Washington State&apos;s zero income tax amplifies every equity deployment strategy. ADU rental income, investment property returns, and capital gains from equity-funded ventures face no state taxation&mdash;saving $2,000-$6,000+ annually compared to California or Oregon. Combined with conforming product availability and 200+ wholesale lender access, Suburban King County homeowners access better rates, higher CLTV limits, and more flexible qualification programs than any single bank provides.
             </p>
-            <p className="text-green-800 mb-4">
+            <p className="text-slate-900 mb-4">
               <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for Suburban King County homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial equity assessment through funding, Mo matches your specific property type, income profile, and financial goals to the best available HELOC, HELOAN, or cash-out refinance program from 200+ wholesale lenders.
             </p>
-            <p className="text-green-800 mb-0">
-              <strong>Ready to unlock your Suburban King County home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-green-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-green-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Suburban King County homeowners receive funding within 2-3 weeks.
+            <p className="text-slate-900 mb-0">
+              <strong>Ready to unlock your Suburban King County home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Suburban King County homeowners receive funding within 2-3 weeks.
             </p>
           </div>
 

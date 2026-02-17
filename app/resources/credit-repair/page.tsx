@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   CreditCard,
   TrendingUp,
@@ -38,7 +39,7 @@ export default function CreditRepairPage() {
       rate: '6.00%',
       description: 'Best pricing available',
       color: 'bg-green-600',
-      textColor: 'text-green-600'
+      textColor: 'text-blue-600'
     },
     {
       range: '740-799',
@@ -62,7 +63,7 @@ export default function CreditRepairPage() {
       rate: '6.75%',
       description: 'Higher rates',
       color: 'bg-orange-600',
-      textColor: 'text-orange-600'
+      textColor: 'text-blue-600'
     },
     {
       range: '300-579',
@@ -230,29 +231,21 @@ export default function CreditRepairPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Credit Improvement Guide</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Credit Repair Resources & Strategies
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Improve your credit score to qualify for better mortgage pricing and save thousands. 
-              Expert strategies, dispute templates, and step-by-step guidance for Orange County home buyers.
-            </p>
-            <div className="flex justify-center">
-              <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <CreditCard className="w-5 h-5 mr-2" />
-                  Credit Analysis
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badgeText="Credit Improvement Guide"
+        badgeIcon={TrendingUp}
+        title="Credit Repair Resources & Strategies"
+        subtitle={
+          <>
+            Improve your credit score to qualify for better mortgage pricing and save thousands. Expert strategies, dispute templates, and step-by-step guidance for Orange County home buyers.
+          </>
+        }
+        primaryAction={{
+          href: '/contact',
+          label: 'Credit Analysis',
+          icon: CreditCard,
+        }}
+      />
 
       {/* Credit Score Impact */}
       <section className="py-16">
@@ -291,13 +284,13 @@ export default function CreditRepairPage() {
             ))}
           </div>
 
-          <Card className="bg-green-50 border-green-200">
+          <Card className="bg-slate-50 border-slate-200">
             <CardContent className="p-6">
               <div className="flex items-center">
-                <DollarSign className="w-8 h-8 text-green-600 mr-4" />
+                <DollarSign className="w-8 h-8 text-blue-600 mr-4" />
                 <div>
-                  <h3 className="font-bold text-lg text-green-800">Potential Savings Example</h3>
-                  <p className="text-green-700">
+                  <h3 className="font-bold text-lg text-slate-900">Potential Savings Example</h3>
+                  <p className="text-blue-700">
                     Improving from 620 to 740+ credit score on a $800,000 Orange County home could save you 
                     <strong> $85,000+ over 30 years</strong> in interest payments.
                   </p>
@@ -343,7 +336,7 @@ export default function CreditRepairPage() {
                     <h4 className="font-semibold text-sm">Improvement Tips:</h4>
                     {factor.tips.map((tip, idx) => (
                       <div key={idx} className="flex items-start text-sm">
-                        <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                        <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                         {tip}
                       </div>
                     ))}
@@ -378,13 +371,13 @@ export default function CreditRepairPage() {
                         className={`mt-2 ${
                           win.priority === 'High' ? 'bg-red-100 text-red-800' :
                           win.priority === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
-                          'bg-green-100 text-green-800'
+                          'bg-slate-100 text-slate-900'
                         }`}
                       >
                         {win.priority} Priority
                       </Badge>
                     </div>
-                    <TrendingUp className="w-6 h-6 text-green-600" />
+                    <TrendingUp className="w-6 h-6 text-blue-600" />
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -395,7 +388,7 @@ export default function CreditRepairPage() {
                     </div>
                     <div>
                       <div className="text-sm font-semibold text-slate-700">Potential Impact:</div>
-                      <div className="text-sm text-green-600 font-semibold">{win.impact}</div>
+                      <div className="text-sm text-blue-600 font-semibold">{win.impact}</div>
                     </div>
                     <div>
                       <div className="text-sm text-slate-600">{win.description}</div>
@@ -473,7 +466,7 @@ export default function CreditRepairPage() {
                   <tr key={index} className="border-t">
                     <td className="px-6 py-4 font-semibold">{req.loanType}</td>
                     <td className="px-6 py-4">{req.minScore}</td>
-                    <td className="px-6 py-4 text-green-600 font-semibold">{req.idealScore}</td>
+                    <td className="px-6 py-4 text-blue-600 font-semibold">{req.idealScore}</td>
                     <td className="px-6 py-4">{req.downPayment}</td>
                     <td className="px-6 py-4 text-sm text-slate-600">{req.benefits}</td>
                   </tr>
@@ -494,24 +487,25 @@ export default function CreditRepairPage() {
               <p className="text-slate-600">Keep your credit in top shape for your mortgage application</p>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-2 gap-6">
+              {/* Center the two sections as a group while keeping each column text left-aligned */}
+              <div className="mx-auto grid max-w-3xl md:grid-cols-2 gap-6 text-left">
                 <div>
                   <h4 className="font-semibold mb-3">Free Credit Monitoring:</h4>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Credit Karma - Free scores and reports
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Credit Sesame - Credit monitoring
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Bank apps - Most banks offer free scores
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       AnnualCreditReport.com - Official free reports
                     </li>
                   </ul>
@@ -520,19 +514,19 @@ export default function CreditRepairPage() {
                   <h4 className="font-semibold mb-3">Before Applying for Mortgage:</h4>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start">
-                      <AlertTriangle className="w-4 h-4 mr-2 text-orange-600 mt-0.5" />
+                      <AlertTriangle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Don't apply for new credit cards
                     </li>
                     <li className="flex items-start">
-                      <AlertTriangle className="w-4 h-4 mr-2 text-orange-600 mt-0.5" />
+                      <AlertTriangle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Don't close existing accounts
                     </li>
                     <li className="flex items-start">
-                      <AlertTriangle className="w-4 h-4 mr-2 text-orange-600 mt-0.5" />
+                      <AlertTriangle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Keep balances low (under 10%)
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-4 h-4 mr-2 text-green-600 mt-0.5" />
+                      <CheckCircle className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
                       Pay all bills on time
                     </li>
                   </ul>
@@ -607,7 +601,7 @@ export default function CreditRepairPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <section className="py-16 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Ready to Improve Your Credit & Get Pre-Approved?

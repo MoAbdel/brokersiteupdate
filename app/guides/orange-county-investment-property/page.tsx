@@ -205,7 +205,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 822-9662">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg font-semibold">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (949) 822-9662
                 </Button>
@@ -251,12 +251,12 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                     <td className="px-6 py-4">
                       <div className="font-semibold text-slate-900">{area.area}</div>
                     </td>
-                    <td className="px-6 py-4 font-semibold text-green-600">{area.medianPrice}</td>
+                    <td className="px-6 py-4 font-semibold text-blue-600">{area.medianPrice}</td>
                     <td className="px-6 py-4 text-slate-600">{area.rentRange}</td>
                     <td className="px-6 py-4 font-semibold text-blue-600">{area.capRate}</td>
                     <td className="px-6 py-4">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        area.cashFlow === 'Positive' ? 'bg-green-100 text-green-800' :
+                        area.cashFlow === 'Positive' ? 'bg-slate-100 text-slate-900' :
                         area.cashFlow === 'Break-even' ? 'bg-yellow-100 text-yellow-800' :
                         'bg-red-100 text-red-800'
                       }`}>
@@ -265,7 +265,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                     </td>
                     <td className="px-6 py-4">
                       <div className="space-y-1">
-                        <div className="text-xs text-green-600">
+                        <div className="text-xs text-blue-600">
                           Pros: {area.pros.join(', ')}
                         </div>
                         <div className="text-xs text-red-600">
@@ -306,7 +306,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                   </div>
                   <div className="bg-white rounded-lg p-3">
                     <div className="text-sm text-slate-600">Down Payment</div>
-                    <div className="font-semibold text-green-600">{program.downPayment}</div>
+                    <div className="font-semibold text-blue-600">{program.downPayment}</div>
                   </div>
                 </div>
                 
@@ -334,7 +334,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
           
           <div className="text-center mt-8">
             <Link href="/loan-programs/dscr-investment-loans">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 mr-4">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 mr-4">
                 Learn More About DSCR Loans
               </Button>
             </Link>
@@ -375,7 +375,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                   
                   <div>
                     <span className="text-sm font-medium text-slate-600">Good Range:</span>
-                    <div className="font-semibold text-green-600">{metric.goodRange}</div>
+                    <div className="font-semibold text-blue-600">{metric.goodRange}</div>
                   </div>
                   
                   <p className="text-slate-600">{metric.description}</p>
@@ -414,7 +414,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Capital Needed:</span>
-                    <div className="font-medium text-green-600">{strategy.capitalNeeded}</div>
+                    <div className="font-medium text-blue-600">{strategy.capitalNeeded}</div>
                   </div>
                   <div>
                     <span className="text-sm text-slate-600">Expected Return:</span>
@@ -477,12 +477,12 @@ export default function OrangeCountyInvestmentPropertyGuide() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Start Building Your Investment Portfolio?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-slate-200 mb-8">
             Get expert guidance on investment property financing in Orange County. 
             Mo Abdel specializes in DSCR loans and portfolio lending for real estate investors.
           </p>
@@ -495,14 +495,14 @@ export default function OrangeCountyInvestmentPropertyGuide() {
               </Button>
             </a>
             <Link href="/contact">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg font-semibold">
                 Get Investment Loan Quote
               </Button>
             </Link>
           </div>
           
           <div className="mt-8 pt-8 border-t border-blue-500">
-            <p className="text-blue-100">
+            <p className="text-slate-200">
               <strong>Mo Abdel</strong> • NMLS #1426884 • Specializing in Orange County investment property financing since 2015
             </p>
           </div>

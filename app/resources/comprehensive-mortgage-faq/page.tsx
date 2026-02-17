@@ -214,11 +214,11 @@ export default function ComprehensiveMortgageFAQ() {
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <HelpCircle className="w-16 h-16 mx-auto mb-6 text-blue-200" />
+            <HelpCircle className="w-16 h-16 mx-auto mb-6 text-slate-200" />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Comprehensive Mortgage FAQ
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto">
               Professional answers to every mortgage question. Licensed broker expertise for Orange County
               home buyers, homeowners, and investors.
             </p>
@@ -299,7 +299,7 @@ export default function ComprehensiveMortgageFAQ() {
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Have a Question Not Answered Here?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
             Get personalized answers from licensed mortgage broker Mo Abdel (NMLS #1426884).
             Comprehensive guidance for all Orange County mortgage needs.
           </p>
@@ -308,23 +308,23 @@ export default function ComprehensiveMortgageFAQ() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Call Direct</span>
-              <span className="text-blue-100">(949) 822-9662</span>
+              <span className="text-slate-200">(949) 822-9662</span>
             </div>
             <div className="flex flex-col items-center">
               <Calculator className="w-8 h-8 mb-2" />
               <span className="font-semibold">Free Consultation</span>
-              <span className="text-blue-100">Personalized Guidance</span>
+              <span className="text-slate-200">Personalized Guidance</span>
             </div>
             <div className="flex flex-col items-center">
               <AlertCircle className="w-8 h-8 mb-2" />
               <span className="font-semibold">Response Time</span>
-              <span className="text-blue-100">Within 24 Hours</span>
+              <span className="text-slate-200">Within 24 Hours</span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact-orange-county-mortgage-broker">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <Phone className="w-5 h-5 mr-2" />
                 Ask Your Question
               </Button>

@@ -245,42 +245,42 @@ export default function TwoHundredLenderAdvantagePage() {
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Lender Options</td>
                 <td className="py-3 px-4 border border-gray-300">1</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">200+</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">200+</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Rate Shopping</td>
                 <td className="py-3 px-4 border border-gray-300">Not possible</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">Built into process</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">Built into process</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">If First Choice Denies</td>
                 <td className="py-3 px-4 border border-gray-300">Start over elsewhere</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">Submit to another lender same day</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">Submit to another lender same day</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Competitive Pressure</td>
                 <td className="py-3 px-4 border border-gray-300">None</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">Constant (200+ alternatives)</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">Constant (200+ alternatives)</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Jumbo Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">1 product</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">50+ lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">50+ lenders</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Bank Statement Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Rarely available</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">50+ lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">50+ lenders</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">DSCR Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Not available</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">40+ lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">40+ lenders</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Guideline Flexibility</td>
                 <td className="py-3 px-4 border border-gray-300">One set of rules</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700 font-semibold">200+ different guidelines</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">200+ different guidelines</td>
               </tr>
             </tbody>
           </table>
@@ -299,8 +299,8 @@ export default function TwoHundredLenderAdvantagePage() {
           Mo Abdel notes: "I regularly see rate differences of 0.25% to 0.5% between lenders for identical loan profiles. On a $750,000 mortgage over 30 years, that difference represents tens of thousands of dollars. The 200+ lender network ensures borrowers capture these savings rather than leaving them on the table at a single bank."
         </p>
 
-        <div className="bg-green-50 p-6 rounded-xl my-6 border border-green-200">
-          <h4 className="mt-0 text-green-800">How Rate Shopping Creates Value</h4>
+        <div className="bg-slate-50 p-6 rounded-xl my-6 border border-slate-200">
+          <h4 className="mt-0 text-slate-900">How Rate Shopping Creates Value</h4>
           <p className="text-green-900 mb-0">
             When your broker reviews rate sheets from multiple lenders, they see exactly how each lender prices your specific scenario. A borrower with 740 credit, 20% down, and a $600,000 loan amount will receive different pricing from different lenders. Some lenders price 740 credit aggressively; others reserve their best pricing for 760+. Some have excellent pricing on $600,000 loan amounts; others are more competitive at $500,000 or $700,000. The broker identifies who's most competitive for <em>your exact profile</em>—something impossible when applying to a single bank.
           </p>
@@ -440,27 +440,27 @@ export default function TwoHundredLenderAdvantagePage() {
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Self-employed, strong deposits, modest tax returns</td>
                 <td className="py-3 px-4 border border-gray-300">"Your tax return income is insufficient"</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">"Let's use a bank statement loan from one of our 50+ bank statement lenders"</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">"Let's use a bank statement loan from one of our 50+ bank statement lenders"</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Investment property purchase</td>
                 <td className="py-3 px-4 border border-gray-300">"Your DTI is too high with rental properties"</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">"DSCR loan qualifies on rental income—40+ lender options"</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">"DSCR loan qualifies on rental income—40+ lender options"</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Jumbo loan in competitive market</td>
                 <td className="py-3 px-4 border border-gray-300">"Our jumbo rate is X, take it or leave it"</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">"Comparing 50+ jumbo lenders—here are your top 3 options"</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">"Comparing 50+ jumbo lenders—here are your top 3 options"</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">DTI at 47%</td>
                 <td className="py-3 px-4 border border-gray-300">"Exceeds our 43% maximum"</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">"Several lenders go to 50%—let's find your best option"</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">"Several lenders go to 50%—let's find your best option"</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Need to close in 18 days</td>
                 <td className="py-3 px-4 border border-gray-300">"We target 30-45 days, no guarantees"</td>
-                <td className="py-3 px-4 border border-gray-300 text-green-700">"I have 15+ lenders that consistently hit 18-day closings"</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">"I have 15+ lenders that consistently hit 18-day closings"</td>
               </tr>
             </tbody>
           </table>

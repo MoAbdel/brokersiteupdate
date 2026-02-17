@@ -635,7 +635,7 @@ export default function HomeEquitySacramentoAffluent2026() {
                   <td className="px-4 py-3 border-t">$630,000</td>
                   <td className="px-4 py-3 border-t">$810,000</td>
                   <td className="px-4 py-3 border-t">$955,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+52%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+52%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -643,7 +643,7 @@ export default function HomeEquitySacramentoAffluent2026() {
                   <td className="px-4 py-3 border-t">$780,000</td>
                   <td className="px-4 py-3 border-t">$950,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+41%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+41%</td>
                   <td className="px-4 py-3 border-t">Jumbo</td>
                 </tr>
                 <tr>
@@ -651,7 +651,7 @@ export default function HomeEquitySacramentoAffluent2026() {
                   <td className="px-4 py-3 border-t">$540,000</td>
                   <td className="px-4 py-3 border-t">$660,000</td>
                   <td className="px-4 py-3 border-t">$760,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+41%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+41%</td>
                   <td className="px-4 py-3 border-t">Conforming</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -659,7 +659,7 @@ export default function HomeEquitySacramentoAffluent2026() {
                   <td className="px-4 py-3 border-t">$480,000</td>
                   <td className="px-4 py-3 border-t">$575,000</td>
                   <td className="px-4 py-3 border-t">$650,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+35%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+35%</td>
                   <td className="px-4 py-3 border-t">Conforming</td>
                 </tr>
                 <tr>
@@ -667,7 +667,7 @@ export default function HomeEquitySacramentoAffluent2026() {
                   <td className="px-4 py-3 border-t">$610,000</td>
                   <td className="px-4 py-3 border-t">$740,000</td>
                   <td className="px-4 py-3 border-t">$850,000</td>
-                  <td className="px-4 py-3 border-t text-green-700 font-semibold">+39%</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">+39%</td>
                   <td className="px-4 py-3 border-t">Conforming / Jumbo</td>
                 </tr>
               </tbody>
@@ -762,16 +762,16 @@ export default function HomeEquitySacramentoAffluent2026() {
           </p>
 
           {/* Expert Summary + CTA */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in Sacramento Affluent Communities</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Sacramento&apos;s affluent eastern corridor &mdash; El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; holds an estimated $18.6 billion in combined residential equity, driven by 35&ndash;52% five-year appreciation and sustained Bay Area equity migration. With median values ranging from $650K in Roseville to $1.1M in Granite Bay, qualifying homeowners access $220K to $480K+ in tappable equity per property. The region&apos;s concentration of tech professionals, state government employees, university faculty, medical professionals, and business owners creates a diverse income landscape that requires specialized lender matching.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               Intel engineers with RSU vesting, UC Davis professors with sabbatical adjustments, Granite Bay equestrian property owners with complex valuations, state government professionals with CalPERS overtime, and Bay Area remote workers with total compensation packages all require lenders experienced with their specific income and property types. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer, compensation structure, and property characteristics.
             </p>
-            <p className="text-green-800">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Sacramento affluent community property. Call <a href="tel:9498229662" className="text-green-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+            <p className="text-slate-900">
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Sacramento affluent community property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
             </p>
           </div>
 

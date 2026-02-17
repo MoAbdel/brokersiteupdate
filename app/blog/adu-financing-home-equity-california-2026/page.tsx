@@ -149,13 +149,13 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
               ADU Financing with Home Equity: HELOC, Cash-Out &amp; DSCR Options in California [2026]
             </h1>
 
-            <p className="text-xl md:text-2xl text-blue-200 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
               California&apos;s ADU boom is accelerating in 2026, fueled by AB 1033&apos;s separate-sale provisions and SB 9&apos;s lot-splitting rules. Homeowners are building accessory dwelling units for rental income, multigenerational housing, and property value appreciation &mdash; and home equity is the primary funding source. Mo Abdel at Lumin Lending structures ADU financing using HELOC, cash-out refinance, construction-to-permanent, and DSCR loans across 100+ wholesale lenders to match each homeowner&apos;s equity position and investment goals.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get ADU Financing Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -207,29 +207,29 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>AB 1033 (2025)</strong> &mdash; ADUs can be sold separately as condominiums in participating cities</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>SB 9 (2022)</strong> &mdash; allows lot splits and duplexes on single-family zoned parcels statewide</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>AB 68 (2020)</strong> &mdash; streamlined permitting, eliminated owner-occupancy requirements</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>SB 13 (2020)</strong> &mdash; reduced impact fees, prevented HOA bans on ADUs</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>60-day permit approval</strong> &mdash; cities must act on complete ADU applications within 60 days</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>No impact fees</strong> &mdash; ADUs under 750 sq ft are exempt from development impact fees</span>
                 </div>
               </div>
@@ -405,7 +405,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                   <td className="px-3 py-3 text-sm text-slate-600">$250,000&ndash;$350,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$320,000&ndash;$450,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$2,200&ndash;$3,200</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">8&ndash;14%</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">8&ndash;14%</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">LA County</td>
@@ -413,7 +413,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                   <td className="px-3 py-3 text-sm text-slate-600">$230,000&ndash;$330,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$300,000&ndash;$420,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$2,000&ndash;$3,000</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">8&ndash;13%</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">8&ndash;13%</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Bay Area (SF/Peninsula)</td>
@@ -421,7 +421,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                   <td className="px-3 py-3 text-sm text-slate-600">$300,000&ndash;$420,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$380,000&ndash;$500,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$2,800&ndash;$4,000</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">9&ndash;15%</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">9&ndash;15%</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">San Diego County</td>
@@ -429,7 +429,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                   <td className="px-3 py-3 text-sm text-slate-600">$220,000&ndash;$320,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$280,000&ndash;$400,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$1,800&ndash;$2,800</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">7&ndash;13%</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">7&ndash;13%</td>
                 </tr>
                 <tr>
                   <td className="px-3 py-3 text-sm font-medium text-slate-900">Sacramento Region</td>
@@ -437,7 +437,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                   <td className="px-3 py-3 text-sm text-slate-600">$190,000&ndash;$280,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$240,000&ndash;$350,000</td>
                   <td className="px-3 py-3 text-sm text-slate-600">$1,500&ndash;$2,300</td>
-                  <td className="px-3 py-3 text-sm text-green-600 font-medium">7&ndash;12%</td>
+                  <td className="px-3 py-3 text-sm text-blue-600 font-medium">7&ndash;12%</td>
                 </tr>
               </tbody>
             </table>
@@ -498,9 +498,9 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             </li>
           </ol>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               HELOC Considerations for ADU Construction
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -569,29 +569,29 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>DSCR ratio of 1.0+</strong> &mdash; rental income must cover the mortgage payment</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Credit score 660-680+</strong> &mdash; requirements vary by lender</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>20-25% equity</strong> &mdash; based on combined property value including ADU</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>ADU must be completed</strong> &mdash; DSCR loans cannot fund active construction</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Signed lease or market rent appraisal</strong> &mdash; verifies rental income for DSCR calculation</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>6-12 months reserves</strong> &mdash; verified through bank statements</span>
                 </div>
               </div>
@@ -640,22 +640,22 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                 <tbody className="divide-y divide-slate-200">
                   <tr>
                     <td className="px-4 py-3 text-sm font-medium text-blue-700">California ADU</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">7-15% cash-on-cash</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">7-15% cash-on-cash</td>
                     <td className="px-4 py-3 text-sm text-slate-600">Low (real estate)</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">Depreciation + interest deductions</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; home equity financing</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">Depreciation + interest deductions</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; home equity financing</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 text-sm font-medium text-slate-900">S&amp;P 500 Index</td>
                     <td className="px-4 py-3 text-sm text-slate-600">8-12% historical average</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">High (public market)</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">High (public market)</td>
                     <td className="px-4 py-3 text-sm text-slate-600">Capital gains treatment</td>
                     <td className="px-4 py-3 text-sm text-slate-600">Limited (margin)</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 text-sm font-medium text-slate-900">High-Yield Savings</td>
                     <td className="px-4 py-3 text-sm text-slate-600">4-5% (variable)</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">Highest</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">Highest</td>
                     <td className="px-4 py-3 text-sm text-slate-600">Ordinary income tax</td>
                     <td className="px-4 py-3 text-sm text-slate-600">No</td>
                   </tr>
@@ -663,8 +663,8 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                     <td className="px-4 py-3 text-sm font-medium text-slate-900">Rental Property (Separate)</td>
                     <td className="px-4 py-3 text-sm text-slate-600">5-10% cash-on-cash</td>
                     <td className="px-4 py-3 text-sm text-slate-600">Low (real estate)</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">Full real estate tax benefits</td>
-                    <td className="px-4 py-3 text-sm text-green-600 font-medium">Yes &mdash; investment mortgage</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">Full real estate tax benefits</td>
+                    <td className="px-4 py-3 text-sm text-blue-600 font-medium">Yes &mdash; investment mortgage</td>
                   </tr>
                 </tbody>
               </table>
@@ -713,8 +713,8 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
                 <p className="text-slate-600">Obtain final inspection and certificate of occupancy. List the ADU for rent. Screen tenants and execute lease agreement. Most California ADUs receive multiple applications within the first week of listing due to strong rental demand.</p>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
-              <CheckCircle2 className="w-6 h-6 text-green-600 shrink-0 mt-1" />
+            <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
+              <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Month 12+: Rental Income Begins</h4>
                 <p className="text-slate-600">Collect first rent payment. Rental income offsets or exceeds HELOC/mortgage cost. Optional: apply for DSCR refinance to convert construction debt to permanent rental income-qualified financing.</p>
@@ -869,10 +869,10 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: Home Equity Is the Optimal ADU Financing Tool in California
           </h2>
-          <p className="text-lg text-blue-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             California homeowners hold trillions of dollars in home equity. Converting a portion of that dormant equity into an income-producing ADU is one of the highest-return investments available in 2026. HELOC, cash-out refinance, home equity loan, and DSCR products each serve different homeowner profiles, and choosing the right structure can save tens of thousands in interest costs over the life of the loan.
           </p>
-          <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares ADU financing programs from 100+ lenders to match each homeowner with the optimal rates, terms, and structure. Whether you need a HELOC for phased construction draws, a cash-out refinance for a lump sum build, or a DSCR loan to refinance post-completion using rental income, the wholesale channel delivers better pricing and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

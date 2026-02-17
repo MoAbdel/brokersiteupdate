@@ -141,7 +141,7 @@ export default function DSCRLoanCalculatorRatio2026() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-purple-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
+            <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 mb-6 border border-purple-500/30">
               <Calculator className="w-4 h-4 text-purple-400" />
               <span className="text-purple-400 text-sm font-medium">DSCR Calculator Guide</span>
             </div>
@@ -156,7 +156,7 @@ export default function DSCRLoanCalculatorRatio2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Your DSCR Calculated
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -185,9 +185,9 @@ export default function DSCRLoanCalculatorRatio2026() {
             The Debt Service Coverage Ratio is the metric that determines whether an investment property qualifies for a DSCR loan. The formula itself is simple: divide the property&apos;s monthly gross rental income by the total monthly mortgage payment. The result tells lenders whether the property generates enough rental revenue to cover its own debt obligation.
           </p>
 
-          <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <PieChart className="w-5 h-5 text-purple-600" />
+              <PieChart className="w-5 h-5 text-blue-600" />
               The Complete DSCR Formula
             </h3>
             <div className="bg-white rounded-lg p-4 mb-4">
@@ -217,17 +217,17 @@ export default function DSCRLoanCalculatorRatio2026() {
               </div>
             </div>
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">DSCR 1.25+ = Strong</p>
-                <p className="text-xs text-green-600 mt-1">25%+ income cushion above payment</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">DSCR 1.25+ = Strong</p>
+                <p className="text-xs text-blue-600 mt-1">25%+ income cushion above payment</p>
               </div>
               <div className="bg-blue-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-blue-800">DSCR 1.0-1.24 = Standard</p>
                 <p className="text-xs text-blue-600 mt-1">Income covers payment; qualifies at most lenders</p>
               </div>
-              <div className="bg-amber-100 rounded-lg p-4">
+              <div className="bg-slate-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-amber-800">DSCR &lt;1.0 = Below Breakeven</p>
-                <p className="text-xs text-amber-600 mt-1">Select lenders; compensating factors needed</p>
+                <p className="text-xs text-blue-600 mt-1">Select lenders; compensating factors needed</p>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function DSCRLoanCalculatorRatio2026() {
           {/* Example 1: SFR $300K */}
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <Home className="w-5 h-5 text-purple-600" />
+              <Home className="w-5 h-5 text-blue-600" />
               Example 1: Single-Family Residence &mdash; $300,000 Purchase Price
             </h3>
             <div className="space-y-3">
@@ -274,8 +274,8 @@ export default function DSCRLoanCalculatorRatio2026() {
                   $2,200 &divide; $1,880 = 1.17 DSCR
                 </p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Result: This property qualifies with a 1.17 DSCR &mdash; above the 1.0 minimum at most lenders. Standard pricing applies. A rent increase to $2,350 would push the ratio to 1.25 for premium pricing.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Result: This property qualifies with a 1.17 DSCR &mdash; above the 1.0 minimum at most lenders. Standard pricing applies. A rent increase to $2,350 would push the ratio to 1.25 for premium pricing.</p>
               </div>
             </div>
           </div>
@@ -283,7 +283,7 @@ export default function DSCRLoanCalculatorRatio2026() {
           {/* Example 2: Duplex $500K */}
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <Building2 className="w-5 h-5 text-purple-600" />
+              <Building2 className="w-5 h-5 text-blue-600" />
               Example 2: Duplex &mdash; $500,000 Purchase Price
             </h3>
             <div className="space-y-3">
@@ -312,8 +312,8 @@ export default function DSCRLoanCalculatorRatio2026() {
                   $4,000 &divide; $3,115 = 1.28 DSCR
                 </p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Result: This duplex produces a strong 1.28 DSCR &mdash; above the 1.25 threshold for best available rates. Multi-unit properties frequently produce higher DSCR ratios because combined rents outpace the single mortgage payment.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Result: This duplex produces a strong 1.28 DSCR &mdash; above the 1.25 threshold for best available rates. Multi-unit properties frequently produce higher DSCR ratios because combined rents outpace the single mortgage payment.</p>
               </div>
             </div>
           </div>
@@ -321,7 +321,7 @@ export default function DSCRLoanCalculatorRatio2026() {
           {/* Example 3: Condo $750K */}
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <Building2 className="w-5 h-5 text-purple-600" />
+              <Building2 className="w-5 h-5 text-blue-600" />
               Example 3: Condo &mdash; $750,000 Purchase Price (with HOA)
             </h3>
             <div className="space-y-3">
@@ -336,7 +336,7 @@ export default function DSCRLoanCalculatorRatio2026() {
                   <span>Principal &amp; Interest:</span><span className="font-medium">$3,695</span>
                   <span>Property Taxes ($9,000/yr):</span><span className="font-medium">$750</span>
                   <span>Insurance ($1,500/yr):</span><span className="font-medium">$125</span>
-                  <span>HOA Dues:</span><span className="font-medium text-amber-600">$450</span>
+                  <span>HOA Dues:</span><span className="font-medium text-blue-600">$450</span>
                   <span className="font-bold">Total PITIA:</span><span className="font-bold">$5,020</span>
                 </div>
               </div>
@@ -346,7 +346,7 @@ export default function DSCRLoanCalculatorRatio2026() {
                   $4,200 &divide; $5,020 = 0.84 DSCR
                 </p>
               </div>
-              <div className="bg-amber-100 rounded-lg p-4">
+              <div className="bg-slate-100 rounded-lg p-4">
                 <p className="text-sm font-medium text-amber-800">Result: This condo falls below the 1.0 breakeven threshold at 0.84 DSCR. The $450 HOA fee significantly impacts the ratio. This property still qualifies with select lenders that accept sub-1.0 DSCR ratios, but will require a higher down payment (25-30%) and strong credit score (700+). Without the HOA, the DSCR would be 0.92 &mdash; still below breakeven but closer to qualifying at more lenders.</p>
               </div>
             </div>
@@ -355,7 +355,7 @@ export default function DSCRLoanCalculatorRatio2026() {
           {/* Example 4: STR $1M */}
           <div className="bg-slate-50 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
-              <Star className="w-5 h-5 text-purple-600" />
+              <Star className="w-5 h-5 text-blue-600" />
               Example 4: Short-Term Rental &mdash; $1,000,000 Purchase Price
             </h3>
             <div className="space-y-3">
@@ -384,8 +384,8 @@ export default function DSCRLoanCalculatorRatio2026() {
                   $8,000 &divide; $6,130 = 1.31 DSCR
                 </p>
               </div>
-              <div className="bg-green-100 rounded-lg p-4">
-                <p className="text-sm font-medium text-green-800">Result: Even after the lender&apos;s 80% discount factor on AirDNA projections, this STR property produces a strong 1.31 DSCR. Note that the lender uses $8,000 (discounted) rather than the full $10,000 projected monthly income. Rental income projections are estimates and actual income may vary.</p>
+              <div className="bg-slate-100 rounded-lg p-4">
+                <p className="text-sm font-medium text-slate-900">Result: Even after the lender&apos;s 80% discount factor on AirDNA projections, this STR property produces a strong 1.31 DSCR. Note that the lender uses $8,000 (discounted) rather than the full $10,000 projected monthly income. Rental income projections are estimates and actual income may vary.</p>
               </div>
             </div>
           </div>
@@ -458,7 +458,7 @@ export default function DSCRLoanCalculatorRatio2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Monthly HOA</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$0</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$0</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">$450</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">$450</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$0</td>
                 </tr>
                 <tr>
@@ -468,19 +468,19 @@ export default function DSCRLoanCalculatorRatio2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$5,020</td>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">$6,130</td>
                 </tr>
-                <tr className="bg-purple-50">
+                <tr className="bg-slate-50">
                   <td className="px-4 py-3 text-sm font-bold text-purple-900">DSCR Ratio</td>
-                  <td className="px-4 py-3 text-sm font-bold text-green-700">1.17</td>
-                  <td className="px-4 py-3 text-sm font-bold text-green-700">1.28</td>
-                  <td className="px-4 py-3 text-sm font-bold text-amber-700">0.84</td>
-                  <td className="px-4 py-3 text-sm font-bold text-green-700">1.31</td>
+                  <td className="px-4 py-3 text-sm font-bold text-blue-700">1.17</td>
+                  <td className="px-4 py-3 text-sm font-bold text-blue-700">1.28</td>
+                  <td className="px-4 py-3 text-sm font-bold text-blue-700">0.84</td>
+                  <td className="px-4 py-3 text-sm font-bold text-blue-700">1.31</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Qualification Status</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Qualifies (standard)</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Qualifies (premium)</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">Select lenders only</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">Qualifies (premium)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Qualifies (standard)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Qualifies (premium)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Select lenders only</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Qualifies (premium)</td>
                 </tr>
               </tbody>
             </table>
@@ -526,50 +526,50 @@ export default function DSCRLoanCalculatorRatio2026() {
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Increase rent by $200/mo</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$2,200 rent</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$2,400 rent</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">1.28</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">+0.11</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.28</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">+0.11</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Reduce rent by $200/mo</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$2,200 rent</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$2,000 rent</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">1.06</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">-0.11</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.06</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">-0.11</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Larger down payment (80% &rarr; 75% LTV)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$1,480 P&amp;I</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$1,315 P&amp;I</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">1.28</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">+0.11</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.28</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">+0.11</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lower property taxes</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$300/mo taxes</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$225/mo taxes</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">1.21</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">+0.04</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.21</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">+0.04</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Shop for cheaper insurance</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$100/mo insurance</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$75/mo insurance</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">1.19</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">+0.02</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.19</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">+0.02</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Add $300/mo HOA</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$0 HOA</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$300 HOA</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">1.01</td>
-                  <td className="px-4 py-3 text-sm text-amber-600 font-medium">-0.16</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.01</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">-0.16</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Combine: raise rent + lower taxes</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Multiple variables</td>
                   <td className="px-4 py-3 text-sm text-slate-600">$2,400 rent, $225 taxes</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">1.33</td>
-                  <td className="px-4 py-3 text-sm text-green-600 font-medium">+0.16</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">1.33</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">+0.16</td>
                 </tr>
               </tbody>
             </table>
@@ -590,31 +590,31 @@ export default function DSCRLoanCalculatorRatio2026() {
 
           <ol className="space-y-3 text-slate-600 mb-6">
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">1</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">1</span>
               <span><strong>Raise the rental rate to market level</strong> &mdash; if the current lease is below market rent, show the lender the appraisal&apos;s 1007 rent schedule as evidence that higher rent is achievable at lease renewal</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">2</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">2</span>
               <span><strong>Increase the down payment</strong> &mdash; a larger down payment reduces the loan amount, which lowers the principal and interest component of PITIA and directly improves the DSCR</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">3</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">3</span>
               <span><strong>Shop for competitive insurance</strong> &mdash; get quotes from multiple landlord insurance providers; even a $25/month reduction improves the DSCR ratio by approximately 0.01-0.02 points</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">4</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
               <span><strong>Appeal the property tax assessment</strong> &mdash; if the county&apos;s assessed value exceeds the actual purchase price or current market value, filing an appeal can reduce the annual tax bill and improve the monthly DSCR</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">5</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
               <span><strong>Choose a property without HOA</strong> &mdash; HOA dues are the silent DSCR killer; selecting a single-family home or small multi-unit without HOA eliminates this drag on the ratio</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">6</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
               <span><strong>Select a prepayment penalty option</strong> &mdash; many DSCR lenders offer lower rates in exchange for a 2-3 year prepayment penalty; the lower rate reduces P&amp;I and improves the DSCR</span>
             </li>
             <li className="flex gap-3">
-              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-purple-100 text-purple-700 font-bold text-sm shrink-0">7</span>
+              <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">7</span>
               <span><strong>Use a wholesale broker to find the lowest rate</strong> &mdash; even a small rate difference across lenders changes the P&amp;I payment, which is typically the largest PITIA component and has the greatest impact on DSCR</span>
             </li>
           </ol>
@@ -680,7 +680,7 @@ export default function DSCRLoanCalculatorRatio2026() {
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div className="border border-slate-200 rounded-xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <Home className="w-5 h-5 text-green-600" />
+                <Home className="w-5 h-5 text-blue-600" />
                 Single-Family Residence
               </h4>
               <ul className="text-sm text-slate-600 space-y-2">
@@ -706,7 +706,7 @@ export default function DSCRLoanCalculatorRatio2026() {
             </div>
             <div className="border border-slate-200 rounded-xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <Building2 className="w-5 h-5 text-amber-600" />
+                <Building2 className="w-5 h-5 text-blue-600" />
                 Condominium
               </h4>
               <ul className="text-sm text-slate-600 space-y-2">
@@ -719,7 +719,7 @@ export default function DSCRLoanCalculatorRatio2026() {
             </div>
             <div className="border border-slate-200 rounded-xl p-6">
               <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-                <BarChart3 className="w-5 h-5 text-purple-600" />
+                <BarChart3 className="w-5 h-5 text-blue-600" />
                 Short-Term Rental
               </h4>
               <ul className="text-sm text-slate-600 space-y-2">
@@ -753,29 +753,29 @@ export default function DSCRLoanCalculatorRatio2026() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Rate shopping across 100+ lenders</strong> reduces the P&amp;I component, which directly improves the DSCR ratio</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Matching DSCR ratio to lender thresholds</strong> ensures you get the best pricing tier available for your specific ratio</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Finding sub-1.0 DSCR programs</strong> for investors whose properties fall below breakeven but still represent strong investments</span>
                 </div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Identifying lenders that use lease vs. market rent</strong> to select the income source that produces the highest DSCR</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>Negotiating prepayment structures</strong> that lower the rate and improve the DSCR at the optimal trade-off point</span>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-sm text-slate-600"><strong>STR income method matching</strong> to lenders that accept the investor&apos;s available documentation type</span>
                 </div>
               </div>
@@ -807,9 +807,9 @@ export default function DSCRLoanCalculatorRatio2026() {
             When refinancing with cash-out, the larger loan amount increases the P&amp;I payment, which raises the PITIA denominator and reduces the DSCR. Investors must balance the desire for equity extraction against the impact on the DSCR ratio. For properties with significant appreciation and stable or rising rents, cash-out refinances often still produce qualifying DSCR ratios. Max cash-out LTV for DSCR loans is typically 70-75%.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <AlertCircle className="w-5 h-5 text-amber-600" />
+              <AlertCircle className="w-5 h-5 text-blue-600" />
               Key DSCR Calculation Reminders
             </h3>
             <ul className="text-sm text-slate-600 space-y-2">
@@ -892,15 +892,15 @@ export default function DSCRLoanCalculatorRatio2026() {
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Expert Summary: Mastering the DSCR Calculation Is the Foundation of Smart Investment Financing
           </h2>
-          <p className="text-lg text-purple-100 mb-4 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
             Every DSCR loan approval starts with a single calculation: monthly gross rental income divided by monthly PITIA. Understanding how each variable &mdash; rent, principal, interest, taxes, insurance, and HOA &mdash; impacts this ratio gives investors the power to evaluate deals accurately, improve qualification odds through strategic adjustments, and set realistic expectations before submitting an application.
           </p>
-          <p className="text-lg text-purple-100 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             As a wholesale mortgage broker, Mo Abdel at Lumin Lending runs precise DSCR calculations using current lender rates and local market data, then matches each property&apos;s ratio with the optimal lender from 100+ available programs. Whether your DSCR is 1.50 or 0.80, wholesale access ensures you find the best possible program for your specific investment scenario.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4">
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-4">
                 Get Your DSCR Calculated Free
               </Button>
             </Link>
@@ -917,22 +917,22 @@ export default function DSCRLoanCalculatorRatio2026() {
         <section className="mt-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related DSCR &amp; Investment Property Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans Explained: How Investors Qualify Without W-2s
             </Link>
-            <Link href="/blog/dscr-loan-requirements-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Requirements: Rates, Ratios &amp; Down Payment Guide
             </Link>
-            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs Conventional Loans for Investment Properties
             </Link>
-            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Short-Term Rentals: Airbnb &amp; VRBO Guide
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker California 2026
             </Link>
-            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-green-600 hover:text-green-700 hover:underline">
+            <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
             </Link>
           </div>

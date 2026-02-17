@@ -355,7 +355,7 @@ export default function EnhancedContactForm() {
 
           <Button
             onClick={resetForm}
-            className="bg-blue-600 hover:bg-blue-700 mb-4"
+            className="bg-slate-900 hover:bg-slate-800 mb-4"
           >
             Submit Another Quote Request
           </Button>
@@ -373,13 +373,13 @@ export default function EnhancedContactForm() {
 
   return (
     <Card className="bg-white shadow-lg">
-      <CardHeader className="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <CardHeader className="bg-slate-900 text-white">
         <CardTitle className="flex items-center justify-between">
           <div className="flex items-center">
             <Calculator className="w-6 h-6 mr-3" />
             <span>Get Your Personalized Quote</span>
           </div>
-          <Badge variant="secondary" className="bg-blue-800 text-blue-100">
+          <Badge variant="secondary" className="bg-blue-800 text-slate-200">
             Step {currentStep} of 3
           </Badge>
         </CardTitle>
@@ -800,7 +800,7 @@ export default function EnhancedContactForm() {
                 type="button"
                 onClick={nextStep}
                 disabled={currentStep === 1 ? !canProceedToStep2() : !canProceedToStep3()}
-                className="ml-auto bg-blue-600 hover:bg-blue-700"
+                className="ml-auto bg-slate-900 hover:bg-slate-800"
               >
                 Next Step
                 <ChevronRight className="w-5 h-5 ml-1" />
@@ -809,7 +809,7 @@ export default function EnhancedContactForm() {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="ml-auto bg-green-600 hover:bg-green-700 text-white px-8"
+                className="ml-auto bg-slate-900 hover:bg-slate-800 text-white px-8"
               >
                 {isSubmitting ? 'Submitting...' : 'Get My Quote'}
               </Button>

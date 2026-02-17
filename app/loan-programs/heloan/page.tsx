@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
-import { DollarSign, Calendar, CheckCircle, AlertCircle, TrendingUp, Shield } from 'lucide-react';
+import { AlertCircle, AlertTriangle, Briefcase, Building2, Calendar, Car, CheckCircle, CreditCard, DollarSign, GraduationCap, Home, PiggyBank, Shield, TrendingUp } from 'lucide-react';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -48,11 +48,12 @@ export default function HELOANPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            💰 Fixed Payment Solution
+          <div className="inline-flex items-center bg-slate-100 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <PiggyBank className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
+            <span>Fixed Payment Solution</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            HELOAN: <span className="text-green-600">Home Equity Loan</span>
+            HELOAN: <span className="text-blue-600">Home Equity Loan</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
             Get a lump sum from your Orange County home's equity with a fixed loan pricing
@@ -60,12 +61,12 @@ export default function HELOANPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                 Get HELOAN Pricing & Terms
               </Button>
             </Link>
             <a href="tel:9498229662">
-              <Button variant="ghost" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-green-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -75,8 +76,8 @@ export default function HELOANPage() {
         {/* Key Benefits */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <DollarSign className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <DollarSign className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Fixed Rate</h3>
             <p className="text-slate-600">Loan pricing never changes - budget with confidence</p>
@@ -89,15 +90,15 @@ export default function HELOANPage() {
             <p className="text-slate-600">Large lump sum for major projects or investments</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Calendar className="w-8 h-8 text-purple-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Calendar className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">15-30 Year Terms</h3>
             <p className="text-slate-600">Choose the payment schedule that fits your budget</p>
           </div>
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-orange-600" />
+            <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Shield className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">Predictable Payments</h3>
             <p className="text-slate-600">Same payment every month for the life of the loan</p>
@@ -112,19 +113,19 @@ export default function HELOANPage() {
               <thead className="bg-slate-50">
                 <tr>
                   <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900">Feature</th>
-                  <th className="px-6 py-4 text-center text-sm font-semibold text-green-600">HELOAN (Home Equity Loan)</th>
+                  <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">HELOAN (Home Equity Loan)</th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-blue-600">HELOC (Line of Credit)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Interest Rate Type</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">Fixed Rate</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Fixed Rate</td>
                   <td className="px-6 py-4 text-center text-slate-600">Variable Rate</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Payment Amount</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">Same Every Month</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">Same Every Month</td>
                   <td className="px-6 py-4 text-center text-slate-600">Can Vary</td>
                 </tr>
                 <tr>
@@ -134,13 +135,18 @@ export default function HELOANPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Best For</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">One-Time Expenses</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">One-Time Expenses</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">Ongoing Projects</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Rate Stability</td>
-                  <td className="px-6 py-4 text-center text-green-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
-                  <td className="px-6 py-4 text-center text-orange-500">⚠️ Variable</td>
+                  <td className="px-6 py-4 text-center text-blue-600"><CheckCircle className="w-5 h-5 mx-auto" /></td>
+                  <td className="px-6 py-4 text-center">
+                    <span className="inline-flex items-center justify-center gap-1 text-orange-600 font-semibold">
+                      <AlertTriangle className="w-4 h-4" aria-hidden="true" />
+                      <span>Variable</span>
+                    </span>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -154,28 +160,28 @@ export default function HELOANPage() {
             <div>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">1</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">1</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Apply for Your Loan Amount</h3>
                     <p className="text-slate-600">We determine how much equity you can access based on your Orange County home's value and your financial situation.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">2</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">2</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Lock in Your Fixed Rate</h3>
                     <p className="text-slate-600">Secure a fixed loan pricing that won't change for the life of the loan, giving you payment predictability.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">3</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">3</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Receive Your Lump Sum</h3>
                     <p className="text-slate-600">Get all your funds at closing to use immediately for your project, debt payoff, or investment.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">4</div>
+                  <div className="w-8 h-8 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold mr-4 mt-1">4</div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Make Fixed Monthly Payments</h3>
                     <p className="text-slate-600">Enjoy predictable principal and interest payments that never change throughout the loan term.</p>
@@ -183,7 +189,7 @@ export default function HELOANPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 p-8 rounded-2xl">
+            <div className="bg-slate-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">HELOAN Example</h3>
               <div className="space-y-4">
                 <div className="flex justify-between">
@@ -201,15 +207,15 @@ export default function HELOANPage() {
                 <div className="border-t pt-4">
                   <div className="flex justify-between mb-2">
                     <span className="text-slate-600">HELOAN Amount:</span>
-                    <span className="font-bold text-green-600">$200,000</span>
+                    <span className="font-bold text-blue-600">$200,000</span>
                   </div>
                   <div className="flex justify-between mb-2">
                     <span className="text-slate-600">Fixed Rate:</span>
-                    <span className="font-bold text-green-600">8.25%</span>
+                    <span className="font-bold text-blue-600">8.25%</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Monthly Payment (15 years):</span>
-                    <span className="font-bold text-green-600">$1,924/mo</span>
+                    <span className="font-bold text-blue-600">$1,924/mo</span>
                   </div>
                 </div>
               </div>
@@ -224,49 +230,67 @@ export default function HELOANPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="border-l-4 border-l-green-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏠 Major Home Renovations</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Major Home Renovations</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Kitchen remodels, room additions, ADU construction, and other large home improvement projects.</p>
-                <p className="text-sm font-semibold text-green-600">Perfect for big one-time projects</p>
+                <p className="text-sm font-semibold text-blue-600">Perfect for big one-time projects</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-blue-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💳 Debt Consolidation</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <CreditCard className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Debt Consolidation</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Pay off all high-interest credit cards and personal loans with one fixed payment.</p>
-                <p className="text-sm font-semibold text-green-600">Predictable debt payoff</p>
+                <p className="text-sm font-semibold text-blue-600">Predictable debt payoff</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🏘️ Investment Property Down Payment</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Building2 className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Investment Property Down Payment</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Use your Orange County home equity as a down payment for rental or investment properties.</p>
-                <p className="text-sm font-semibold text-green-600">Leverage your equity</p>
+                <p className="text-sm font-semibold text-blue-600">Leverage your equity</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-orange-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🎓 Education Expenses</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <GraduationCap className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Education Expenses</span>
+                </h3>
                 <p className="text-slate-600 mb-3">College tuition, private school costs, or other educational investments with fixed payments.</p>
-                <p className="text-sm font-semibold text-green-600">Lower than most student loans</p>
+                <p className="text-sm font-semibold text-blue-600">Lower than most student loans</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-red-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">💼 Business Investment</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Briefcase className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Business Investment</span>
+                </h3>
                 <p className="text-slate-600 mb-3">Start or expand a business with a large lump sum and predictable monthly payments.</p>
-                <p className="text-sm font-semibold text-green-600">Fixed business funding</p>
+                <p className="text-sm font-semibold text-blue-600">Fixed business funding</p>
               </CardContent>
             </Card>
 
             <Card className="border-l-4 border-l-yellow-500">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-3">🚗 Major Purchases</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                  <Car className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Major Purchases</span>
+                </h3>
                 <p className="text-slate-600 mb-3">RVs, boats, luxury vehicles, or other large purchases with Better pricing than auto loans.</p>
-                <p className="text-sm font-semibold text-green-600">Better pricing than auto loans</p>
+                <p className="text-sm font-semibold text-blue-600">Better pricing than auto loans</p>
               </CardContent>
             </Card>
           </div>
@@ -279,28 +303,28 @@ export default function HELOANPage() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">HELOAN Requirements</h2>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Credit Score: 640+</p>
                     <p className="text-slate-600 text-sm">Higher scores qualify for better fixed rates</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Combined LTV: Up to 80%</p>
                     <p className="text-slate-600 text-sm">Total of first mortgage plus HELOAN</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Debt-to-Income: 50% or lower</p>
                     <p className="text-slate-600 text-sm">Including the new HELOAN payment</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-slate-900">Stable Income</p>
                     <p className="text-slate-600 text-sm">2+ years employment history preferred</p>
@@ -346,26 +370,26 @@ export default function HELOANPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-to-r from-green-600 to-green-700 rounded-2xl p-8 text-white">
+        <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
             Ready for Fixed-Rate Home Equity Financing?
           </h2>
-          <p className="text-xl mb-6 text-green-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get personalized HELOAN pricing and payment options from multiple lenders
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-semibold">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg font-semibold">
                 Get My HELOAN Pricing
               </Button>
             </Link>
             <a href="tel:9498229662">
-              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-sm text-green-200 mt-4">
+          <p className="text-sm text-slate-200 mt-4">
             Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Serving all of Orange County
           </p>
         </div>

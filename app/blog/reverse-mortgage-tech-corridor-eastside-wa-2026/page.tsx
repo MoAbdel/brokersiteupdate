@@ -324,35 +324,35 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Redmond</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$50K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$50K below</td>
                 <td className="border border-gray-300 px-4 py-3">Education Hill, Overlake, Willows/Rose Hill</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (full value captured)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Issaquah</td>
                 <td className="border border-gray-300 px-4 py-3">$1,000,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$150K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$150K below</td>
                 <td className="border border-gray-300 px-4 py-3">Highlands, Talus, Squak Mountain</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (full value captured)</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Bothell</td>
                 <td className="border border-gray-300 px-4 py-3">$850,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$300K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$300K below</td>
                 <td className="border border-gray-300 px-4 py-3">Canyon Park, North Creek, Queensborough</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (growing LOC ideal)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Kenmore</td>
                 <td className="border border-gray-300 px-4 py-3">$750,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$400K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$400K below</td>
                 <td className="border border-gray-300 px-4 py-3">Kenmore Waterfront, Burke-Gilman, Arrowhead</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (growing LOC ideal)</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Maple Valley</td>
                 <td className="border border-gray-300 px-4 py-3">$700,000</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$450K below</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$450K below</td>
                 <td className="border border-gray-300 px-4 py-3">Lake Wilderness, Four Corners, Shadow Ridge</td>
                 <td className="border border-gray-300 px-4 py-3">HECM (growing LOC ideal)</td>
               </tr>
@@ -376,27 +376,27 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$1,149,825 (covers all medians)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1,149,825 (covers all medians)</td>
                 <td className="border border-gray-300 px-4 py-3">Actual home value ($1M&ndash;$5M+)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Line of Credit Growth</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Yes (guaranteed annual growth)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Yes (guaranteed annual growth)</td>
                 <td className="border border-gray-300 px-4 py-3">Not typically offered</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
                 <td className="border border-gray-300 px-4 py-3">2% upfront + 0.50% annual</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">None</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">None</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Non-Recourse Guarantee</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">FHA-insured (guaranteed)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">FHA-insured (guaranteed)</td>
                 <td className="border border-gray-300 px-4 py-3">Lender non-recourse (varies)</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Payout Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">5 options: lump sum, LOC, tenure, term, combo</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">5 options: lump sum, LOC, tenure, term, combo</td>
                 <td className="border border-gray-300 px-4 py-3">Typically lump sum or LOC</td>
               </tr>
               <tr className="bg-gray-50">
@@ -406,12 +406,12 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">WA State Tax on Proceeds</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$0 (no state income tax)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">Tech Corridor Best For</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">Most tech corridor homes (below limit)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Most tech corridor homes (below limit)</td>
                 <td className="border border-gray-300 px-4 py-3">Education Hill, Highlands homes above limit</td>
               </tr>
             </tbody>
@@ -466,8 +466,8 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Redmond Insight:</strong> A 69-year-old retired Microsoft principal engineer in Overlake owns a $1.15 million home purchased in 1998 for $310,000. He holds $8 million in Microsoft stock with a cost basis of $600,000. Selling stock triggers $7.4 million in federal capital gains. A HECM reverse mortgage provides a $520,000 growing line of credit based on the full home value (below the $1,149,825 limit). He draws $3,500 monthly during a market correction, preserving the stock position for recovery. The unused credit line portion grows annually, increasing his available safety net. Washington&apos;s zero state income tax means his Social Security, Microsoft pension, and RMDs are all state-tax-free.
           </p>
         </div>
@@ -519,8 +519,8 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Issaquah Insight:</strong> A 73-year-old retired Amazon operations manager in Issaquah Highlands owns a $1.4 million home with a remaining $180,000 mortgage. Annual property taxes of $9,800 and $4,800 in HOA dues create $14,600 in mandatory annual housing costs. A HECM reverse mortgage first pays off the $180,000 existing mortgage (eliminating the monthly payment), then provides a growing line of credit with the remaining proceeds. The outdoor lifestyle at Issaquah Highlands&mdash;with 38 miles of trails starting at the front door&mdash;makes aging in place particularly appealing for active retirees.
           </p>
         </div>
@@ -567,8 +567,8 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Bothell Insight:</strong> A 66-year-old retired UW Bothell professor in Queensborough owns a $880,000 home free and clear. Living on a university pension and Social Security, she wants a financial cushion without selling her home. A HECM reverse mortgage provides a $380,000 growing line of credit. She draws nothing initially, allowing the credit line to grow annually. By age 76, the unused line has grown to approximately $500,000+&mdash;a substantial emergency fund that cost nothing to establish and grows without any action required. This &ldquo;standby&rdquo; reverse mortgage strategy is ideal for Bothell seniors who want security without immediate liquidity needs.
           </p>
         </div>
@@ -615,8 +615,8 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Kenmore Insight:</strong> A 71-year-old retired couple along the Burke-Gilman Trail corridor owns a $820,000 home purchased in 2001 for $245,000. They walk and bike the Burke-Gilman daily&mdash;the active lifestyle is central to their retirement. Annual property taxes of $5,740 and rising maintenance costs on the 24-year-old home create budget pressure. A HECM reverse mortgage provides a $355,000 growing line of credit. They draw $2,000 monthly for the first three years to fund a new roof and HVAC replacement, then reduce draws to $800 monthly for ongoing property taxes. The growing line of credit ensures funds remain available for decades.
           </p>
         </div>
@@ -663,8 +663,8 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             </tbody>
           </table>
         </div>
-        <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
-          <p className="text-green-800 mb-0">
+        <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
+          <p className="text-slate-900 mb-0">
             <strong>Maple Valley Insight:</strong> A 64-year-old recently retired teacher near Lake Wilderness owns a $720,000 home with a $95,000 remaining mortgage. Annual property taxes of $5,040 plus the existing mortgage payment of $850 monthly create ongoing housing costs. A HECM reverse mortgage pays off the $95,000 mortgage (eliminating the $850 monthly payment), then establishes a growing line of credit with remaining proceeds. The annual savings of $10,200 from the eliminated mortgage payment, combined with the growing credit line, creates a retirement income strategy that strengthens every year. Washington&apos;s zero state income tax means the teacher&apos;s pension and Social Security are entirely state-tax-free.
           </p>
         </div>
@@ -729,11 +729,11 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">6-Year Appreciation</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+43%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+42%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+42%</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-green-700">+41%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+43%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+42%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+42%</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">+41%</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Est. Seniors 62+</td>

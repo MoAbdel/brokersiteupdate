@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker North Orange County: Anaheim, Yorba Linda, Orange, Fullerton [2026]',
@@ -136,22 +137,22 @@ export default function WholesaleMortgageBrokerNorthOC() {
                 <tr>
                   <td className="px-4 py-3 border-t">First-time buyer programs</td>
                   <td className="px-4 py-3 border-t">1-2 options</td>
-                  <td className="px-4 py-3 border-t text-green-700">10+ including DPA</td>
+                  <td className="px-4 py-3 border-t text-blue-700">10+ including DPA</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">VA loans</td>
                   <td className="px-4 py-3 border-t">Basic VA products</td>
-                  <td className="px-4 py-3 border-t text-green-700">VA specialists, VA jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700">VA specialists, VA jumbo</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Rate shopping</td>
                   <td className="px-4 py-3 border-t">Their rate or nothing</td>
-                  <td className="px-4 py-3 border-t text-green-700">200+ lenders competing</td>
+                  <td className="px-4 py-3 border-t text-blue-700">200+ lenders competing</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Closing speed</td>
                   <td className="px-4 py-3 border-t">30-45 days typical</td>
-                  <td className="px-4 py-3 border-t text-green-700">21 days available</td>
+                  <td className="px-4 py-3 border-t text-blue-700">21 days available</td>
                 </tr>
               </tbody>
             </table>
@@ -190,7 +191,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
             </div>
           </div>
 
-          <div className="bg-orange-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Anaheim Investment Property Opportunity</h4>
             <p className="mb-0">Anaheim&apos;s proximity to Disneyland, Angel Stadium, and Honda Center creates strong rental demand. Investors can purchase with DSCR loans based on rental income rather than personal income—qualifying based on the property&apos;s cash flow potential. Wholesale brokers access 15+ DSCR lenders with varying qualification criteria.</p>
           </div>
@@ -228,7 +229,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Yorba Linda Equestrian Property Financing</h4>
             <p className="mb-0">Horse properties require specialized appraisers who understand equestrian value—stables, arenas, pastures, and trail access add significant worth that standard appraisers miss. Wholesale brokers work with equestrian-experienced appraisers and lenders who properly value these unique properties.</p>
           </div>
@@ -420,7 +421,10 @@ export default function WholesaleMortgageBrokerNorthOC() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a free rate quote:</p>
-            <p className="text-lg">📞 (949) 822-9662</p>
+            <p className="text-lg inline-flex items-center gap-2">
+              <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
+              <span>(949) 822-9662</span>
+            </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

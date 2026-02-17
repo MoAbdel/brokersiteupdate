@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { Home, GraduationCap, Car, MapPin } from 'lucide-react';
+import { AlertTriangle, Car, CheckCircle, GraduationCap, Home, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Irvine vs Newport Beach Home Buying Guide 2026 | Best Neighborhoods Orange County',
@@ -42,7 +42,7 @@ export default function IrvineVsNewportBeachGuide() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                 Get Pre-Approved Today
               </Button>
             </Link>
@@ -59,11 +59,11 @@ export default function IrvineVsNewportBeachGuide() {
           <h2 className="text-3xl font-bold text-center mb-8">Quick Comparison Overview</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Home className="w-8 h-8 text-green-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Home className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Median Home Price</h3>
-              <p className="text-lg font-bold text-green-600">Irvine: $1.4M</p>
+              <p className="text-lg font-bold text-blue-600">Irvine: $1.4M</p>
               <p className="text-lg font-bold text-blue-600">Newport: $2.8M</p>
             </div>
             <div className="text-center">
@@ -71,15 +71,15 @@ export default function IrvineVsNewportBeachGuide() {
                 <GraduationCap className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">School Ratings</h3>
-              <p className="text-lg font-bold text-green-600">Irvine: 9-10/10</p>
+              <p className="text-lg font-bold text-blue-600">Irvine: 9-10/10</p>
               <p className="text-lg font-bold text-blue-600">Newport: 8-9/10</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Car className="w-8 h-8 text-purple-600" />
+              <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Car className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Commute to LA</h3>
-              <p className="text-lg font-bold text-green-600">Irvine: 45-60 min</p>
+              <p className="text-lg font-bold text-blue-600">Irvine: 45-60 min</p>
               <p className="text-lg font-bold text-blue-600">Newport: 50-70 min</p>
             </div>
           </div>
@@ -91,15 +91,18 @@ export default function IrvineVsNewportBeachGuide() {
           {/* Irvine Section */}
           <div className="bg-white rounded-lg shadow-lg p-8">
             <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                <GraduationCap className="w-6 h-6 text-green-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mr-4">
+                <GraduationCap className="w-6 h-6 text-blue-600" />
               </div>
               <h2 className="text-3xl font-bold text-slate-900">Irvine Home Loans and Mortgage pricing</h2>
             </div>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-green-600">✅ Why Choose Irvine</h3>
+                <h3 className="text-xl font-semibold mb-3 text-blue-600 flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Why Choose Irvine</span>
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• <strong>Top-rated schools:</strong> Irvine Unified School District consistently ranks #1 in California</li>
                   <li>• <strong>Master-planned communities:</strong> Newer construction, well-designed neighborhoods</li>
@@ -112,7 +115,7 @@ export default function IrvineVsNewportBeachGuide() {
 
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-slate-600">Market Stats & Home Types</h3>
-                <div className="bg-green-50 p-4 rounded-lg">
+                <div className="bg-slate-50 p-4 rounded-lg">
                   <p><strong>Median Home Price:</strong> $1,400,000</p>
                   <p><strong>Price per sq ft:</strong> $650-$850</p>
                   <p><strong>Popular Home Types:</strong> Single-family detached, townhomes, condos</p>
@@ -122,7 +125,10 @@ export default function IrvineVsNewportBeachGuide() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-red-600">⚠️ Consider This</h3>
+                <h3 className="text-xl font-semibold mb-3 text-red-600 flex items-center gap-2">
+                  <AlertTriangle className="w-5 h-5 text-red-600" aria-hidden="true" />
+                  <span>Consider This</span>
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Limited nightlife and entertainment options</li>
                   <li>• Can feel "corporate" or sterile to some</li>
@@ -144,7 +150,10 @@ export default function IrvineVsNewportBeachGuide() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-blue-600">✅ Why Choose Newport Beach</h3>
+                <h3 className="text-xl font-semibold mb-3 text-blue-600 flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  <span>Why Choose Newport Beach</span>
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• <strong>Oceanfront lifestyle:</strong> Beach access, boating, water activities</li>
                   <li>• <strong>Luxury amenities:</strong> High-end shopping, dining, entertainment</li>
@@ -167,7 +176,10 @@ export default function IrvineVsNewportBeachGuide() {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-red-600">⚠️ Consider This</h3>
+                <h3 className="text-xl font-semibold mb-3 text-red-600 flex items-center gap-2">
+                  <AlertTriangle className="w-5 h-5 text-red-600" aria-hidden="true" />
+                  <span>Consider This</span>
+                </h3>
                 <ul className="space-y-2 text-slate-700">
                   <li>• Significantly higher home prices and living costs</li>
                   <li>• Limited inventory, competitive market</li>
@@ -180,7 +192,7 @@ export default function IrvineVsNewportBeachGuide() {
         </div>
 
         {/* Mortgage Considerations */}
-        <div className="bg-blue-600 text-white rounded-lg p-8 mb-12">
+        <div className="bg-slate-900 text-white rounded-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center mb-8">Orange County Mortgage Broker: Financing Solutions for Irvine and Newport Beach</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -203,11 +215,11 @@ export default function IrvineVsNewportBeachGuide() {
             </div>
           </div>
           <div className="text-center mt-8">
-            <p className="text-blue-100 mb-4">
+            <p className="text-slate-200 mb-4">
               As an Orange County mortgage broker, I have access to 200+ lenders including jumbo and super jumbo specialists.
             </p>
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3">
                 Get Your Custom pricing Quote
               </Button>
             </Link>
@@ -220,7 +232,7 @@ export default function IrvineVsNewportBeachGuide() {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-green-600 mb-4">Top Irvine Neighborhoods</h3>
+              <h3 className="text-2xl font-bold text-blue-600 mb-4">Top Irvine Neighborhoods</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-green-600 pl-4">
                   <h4 className="font-semibold">Turtle Rock</h4>
@@ -271,7 +283,7 @@ export default function IrvineVsNewportBeachGuide() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-green-600">Irvine Market Outlook</h3>
+              <h3 className="text-xl font-semibold mb-4 text-blue-600">Irvine Market Outlook</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Continued strong demand from tech workers</li>
                 <li>• New construction in Great Park area</li>
@@ -292,24 +304,24 @@ export default function IrvineVsNewportBeachGuide() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-lg p-8 text-center">
+        <div className="bg-slate-900 text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Buy in Irvine or Newport Beach?</h2>
-          <p className="text-xl mb-6 text-blue-100">
+          <p className="text-xl mb-6 text-slate-200">
             Get pre-approved with a local Orange County mortgage expert who knows both markets inside and out.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
                 Start My Pre-Approval
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                 Call Mo: (949) 822-9662
               </Button>
             </a>
           </div>
-          <p className="text-blue-100 mt-4">NMLS #1426884 | Serving all of Orange County</p>
+          <p className="text-slate-200 mt-4">NMLS #1426884 | Serving all of Orange County</p>
         </div>
       </div>
     </div>

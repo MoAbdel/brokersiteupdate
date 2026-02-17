@@ -260,42 +260,42 @@ export default function HomeEquityCASD_A() {
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Del Mar</td>
                   <td className="py-3 px-4 border-b">$3,800,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,540,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,540,000</td>
                   <td className="py-3 px-4 border-b">Stratford Court, Del Mar Heights, Torrey Pines</td>
                   <td className="py-3 px-4 border-b">Jumbo HELOC, Cash-Out Refi</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">La Jolla</td>
                   <td className="py-3 px-4 border-b">$3,200,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,260,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,260,000</td>
                   <td className="py-3 px-4 border-b">La Jolla Shores, Bird Rock, Muirlands, WindanSea</td>
                   <td className="py-3 px-4 border-b">Jumbo HELOC, HELOAN</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rancho Santa Fe</td>
                   <td className="py-3 px-4 border-b">$4,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$1,800,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$1,800,000</td>
                   <td className="py-3 px-4 border-b">The Covenant, Fairbanks Ranch, The Bridges</td>
                   <td className="py-3 px-4 border-b">Cash-Out Refi, Jumbo HELOC</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Solana Beach</td>
                   <td className="py-3 px-4 border-b">$2,050,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$720,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$720,000</td>
                   <td className="py-3 px-4 border-b">Lomas Santa Fe, Cedros District, Blufftop</td>
                   <td className="py-3 px-4 border-b">HELOC, HELOAN</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Encinitas</td>
                   <td className="py-3 px-4 border-b">$1,850,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">$650,000</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">$650,000</td>
                   <td className="py-3 px-4 border-b">Cardiff-by-the-Sea, Leucadia, Olivenhain</td>
                   <td className="py-3 px-4 border-b">HELOC, Bank Statement HELOC</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Carlsbad</td>
                   <td className="py-3 px-4">$1,450,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">$480,000</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">$480,000</td>
                   <td className="py-3 px-4">Aviara, La Costa, Olde Carlsbad, Bressi Ranch</td>
                   <td className="py-3 px-4">HELOC, Cash-Out Refi</td>
                 </tr>
@@ -464,7 +464,7 @@ export default function HomeEquityCASD_A() {
             A retired tech executive owns a $6.5 million Del Mar beachfront property with a $2.1 million first mortgage locked at a low rate from 2021. He plans a full interior renovation&mdash;new kitchen, primary suite expansion, outdoor living space&mdash;estimated at $1.2 million over 14 months. A cash-out refinance would replace his favorable first mortgage rate with a higher current rate, costing tens of thousands annually. Instead, through wholesale channels, the broker secures a $1.3 million jumbo HELOC as a second lien, preserving the low first-mortgage rate. The homeowner draws funds in phases as contractors complete milestones, paying interest only on amounts drawn. Total interest savings versus cash-out refinance: over $85,000 across the renovation period.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: Del Mar Equity Expertise</h4>
             <p className="mb-0">Del Mar&apos;s oceanfront properties present unique appraisal challenges&mdash;view premiums, bluff-proximity factors, coastal zone regulations, and Thoroughbred Club proximity all affect valuation. My experience structuring jumbo HELOC and cash-out transactions across Del Mar&apos;s distinct micro-markets ensures appraisals capture full property value, maximizing accessible equity.</p>
           </div>
@@ -506,7 +506,7 @@ export default function HomeEquityCASD_A() {
             A Torrey Pines biotech VP owns a $4.1 million Muirlands home with a $1.6 million first mortgage at a sub-5% rate. She holds $2.8 million in unvested RSUs that will vest over 3 years but needs $600,000 now for her daughter&apos;s medical school tuition and a kitchen-to-outdoor-living renovation. Selling vested stock would trigger significant capital gains taxes. Instead, the broker secures a $700,000 jumbo HELOC through wholesale channels. The VP draws $600,000 immediately, pays interest-only during the draw period, and repays the HELOC as RSUs vest and are sold at planned intervals with tax-loss harvesting. Total tax savings versus immediate stock liquidation: approximately $127,000.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: La Jolla Professional Equity Access</h4>
             <p className="mb-0">La Jolla&apos;s biotech and academic professional base requires equity products that accommodate stock-based compensation, sabbatical income gaps, and asset-heavy portfolios. My experience with asset-depletion HELOC programs and bank-statement qualification paths ensures La Jolla professionals access equity based on their complete financial picture, not just the most recent tax return.</p>
           </div>
@@ -547,7 +547,7 @@ export default function HomeEquityCASD_A() {
             A retired surgeon and his wife own a $7.2 million Covenant estate with equestrian facilities, held in a revocable living trust. Their remaining first mortgage is $2.4 million at a locked-in rate from 2020. They want to build a new 8-stall barn, covered arena, and riding trail system&mdash;total estimated cost: $1.6 million over 20 months. Through wholesale channels, the broker accesses a lender offering trust-vested jumbo HELOCs with equestrian-experienced appraisers. The $1.8 million HELOC allows phased draws aligned to construction milestones. The property remains in the trust throughout the process, preserving estate planning structure. Post-improvement, the property appraises at $8.5 million&mdash;a $1.3 million value increase against $1.6 million invested, with the improved equity position supporting future financial flexibility.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: Rancho Santa Fe Equity Specialization</h4>
             <p className="mb-0">Accessing equity from Rancho Santa Fe estate properties requires understanding which lenders handle equestrian appraisals, trust-vested properties, and jumbo second liens above $1 million. My established relationships with wholesale lenders experienced in the RSF market ensure homeowners receive accurate valuations and competitive equity access terms calibrated to this unique community&apos;s needs.</p>
           </div>
@@ -588,7 +588,7 @@ export default function HomeEquityCASD_A() {
             A Lomas Santa Fe couple owns a $2.8 million property with a $1.1 million first mortgage at a locked-in low rate. Their large lot supports a detached ADU, estimated construction cost: $285,000. Through wholesale channels, the broker secures a $350,000 HELOC (80% CLTV on $2.8M = $2.24M capacity minus $1.1M first mortgage = $1.14M available). They draw funds in phases during 8 months of construction. The completed ADU rents for $3,800 per month. At that rental rate, the ADU income covers the HELOC interest-only payment with $2,400+ remaining each month. The property reappraises at $3.15 million&mdash;the ADU added $350,000 in value against $285,000 in construction cost, netting both cash flow and increased equity.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: Solana Beach ADU &amp; Modernization Expertise</h4>
             <p className="mb-0">Solana Beach&apos;s limited inventory and high rental demand make ADU construction one of the strongest equity deployment strategies in San Diego County. My experience structuring HELOC financing for Solana Beach ADU projects&mdash;from permitting through construction draws to post-completion reappraisal&mdash;ensures homeowners maximize both rental income and long-term property value.</p>
           </div>
@@ -633,7 +633,7 @@ export default function HomeEquityCASD_A() {
             Through wholesale channels, the broker accesses a bank-statement HELOC lender who qualifies based on $42,000 monthly deposits rather than tax returns. A $275,000 HELOC consolidates the $195,000 in high-interest debt and provides $80,000 in additional credit for studio expansion. The HELOC rate is substantially lower than her 15% blended business debt rate, and she preserves her favorable first mortgage. Monthly cash flow improves by approximately $2,100&mdash;money she redirects into a second studio location. Learn more about <Link href="/blog/refinance-debt-consolidation-2026" className="text-blue-600 hover:underline">using equity for debt consolidation strategies</Link>.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: Encinitas Self-Employed Equity Access</h4>
             <p className="mb-0">Encinitas&apos;s creative and wellness economy generates homeowners whose tax returns understate their financial capacity. My experience with bank-statement HELOC programs ensures self-employed Encinitas residents access equity at competitive rates without the frustration of tax-return-based denials. From Leucadia surf entrepreneurs to Olivenhain equestrian business owners, I connect Encinitas homeowners with lenders who evaluate real cash flow.</p>
           </div>
@@ -675,7 +675,7 @@ export default function HomeEquityCASD_A() {
             An Aviara couple with a $3.1 million home and $1.2 million first mortgage wants to purchase a $950,000 rental property in Vista for long-term cash flow. They need $237,500 for the 25% down payment plus closing costs. Rather than liquidating their investment portfolio (and triggering $40,000+ in capital gains taxes), they open a $400,000 HELOC on their Aviara home (80% CLTV on $3.1M = $2.48M capacity minus $1.2M first mortgage = $1.28M available). The $250,000 draw funds the rental purchase. The Vista rental generates $4,200 per month in rent. After PITIA on the rental and HELOC interest payments, the couple nets positive cash flow of approximately $1,800 per month while building equity in two properties. Within 18 months, they refinance the rental into a DSCR loan, repay the HELOC, and redeploy the credit line for their next acquisition.
           </p>
 
-          <div className="bg-green-50 p-6 rounded-lg my-6">
+          <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">E-E-A-T: Carlsbad Family &amp; Investment Equity Access</h4>
             <p className="mb-0">Carlsbad&apos;s diverse housing stock creates equity needs ranging from $200K home upgrades in Bressi Ranch to $1M+ Aviara investment strategies. My experience matching Carlsbad homeowners with the right equity product&mdash;whether a conforming HELOC for La Costa families or a jumbo cash-out refinance for Aviara investors&mdash;ensures each client receives the optimal solution for their specific property type and financial objective.</p>
           </div>
@@ -733,42 +733,42 @@ export default function HomeEquityCASD_A() {
                   <td className="py-3 px-4 border-b font-medium">Del Mar</td>
                   <td className="py-3 px-4 border-b">$2,450,000</td>
                   <td className="py-3 px-4 border-b">$3,800,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+55%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+55%</td>
                   <td className="py-3 px-4 border-b">$1,350,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">La Jolla</td>
                   <td className="py-3 px-4 border-b">$2,100,000</td>
                   <td className="py-3 px-4 border-b">$3,200,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+52%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+52%</td>
                   <td className="py-3 px-4 border-b">$1,100,000</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Rancho Santa Fe</td>
                   <td className="py-3 px-4 border-b">$3,000,000</td>
                   <td className="py-3 px-4 border-b">$4,500,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+50%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+50%</td>
                   <td className="py-3 px-4 border-b">$1,500,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Solana Beach</td>
                   <td className="py-3 px-4 border-b">$1,350,000</td>
                   <td className="py-3 px-4 border-b">$2,050,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+52%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+52%</td>
                   <td className="py-3 px-4 border-b">$700,000</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Encinitas</td>
                   <td className="py-3 px-4 border-b">$1,200,000</td>
                   <td className="py-3 px-4 border-b">$1,850,000</td>
-                  <td className="py-3 px-4 border-b text-green-700 font-semibold">+54%</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">+54%</td>
                   <td className="py-3 px-4 border-b">$650,000</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Carlsbad</td>
                   <td className="py-3 px-4">$925,000</td>
                   <td className="py-3 px-4">$1,450,000</td>
-                  <td className="py-3 px-4 text-green-700 font-semibold">+57%</td>
+                  <td className="py-3 px-4 text-blue-700 font-semibold">+57%</td>
                   <td className="py-3 px-4">$525,000</td>
                 </tr>
               </tbody>

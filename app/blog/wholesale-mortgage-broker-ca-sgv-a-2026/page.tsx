@@ -270,7 +270,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 text-lg">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get SGV Wholesale Rate Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
@@ -901,42 +901,42 @@ export default function WholesaleMortgageBrokerSGV2026() {
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">San Marino</td>
                   <td className="border border-slate-300 px-4 py-3">$3.85M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+4.2%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+4.2%</td>
                   <td className="border border-slate-300 px-4 py-3">38</td>
                   <td className="border border-slate-300 px-4 py-3">Super-jumbo / Foreign national</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-300 px-4 py-3 font-medium">Arcadia</td>
                   <td className="border border-slate-300 px-4 py-3">$1.92M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+5.1%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+5.1%</td>
                   <td className="border border-slate-300 px-4 py-3">28</td>
                   <td className="border border-slate-300 px-4 py-3">Bank statement / Jumbo</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">Pasadena (South)</td>
                   <td className="border border-slate-300 px-4 py-3">$1.58M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+3.8%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+3.8%</td>
                   <td className="border border-slate-300 px-4 py-3">24</td>
                   <td className="border border-slate-300 px-4 py-3">Jumbo / Renovation</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-300 px-4 py-3 font-medium">La Ca&ntilde;ada Flintridge</td>
                   <td className="border border-slate-300 px-4 py-3">$2.45M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+3.5%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+3.5%</td>
                   <td className="border border-slate-300 px-4 py-3">32</td>
                   <td className="border border-slate-300 px-4 py-3">Jumbo / Interest-only</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">South Pasadena</td>
                   <td className="border border-slate-300 px-4 py-3">$1.48M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+4.6%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+4.6%</td>
                   <td className="border border-slate-300 px-4 py-3">21</td>
                   <td className="border border-slate-300 px-4 py-3">Jumbo / 1099 income</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-300 px-4 py-3 font-medium">Sierra Madre</td>
                   <td className="border border-slate-300 px-4 py-3">$1.28M</td>
-                  <td className="border border-slate-300 px-4 py-3 text-green-600">+5.8%</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-600">+5.8%</td>
                   <td className="border border-slate-300 px-4 py-3">19</td>
                   <td className="border border-slate-300 px-4 py-3">High-balance conforming / Jumbo</td>
                 </tr>
@@ -948,9 +948,9 @@ export default function WholesaleMortgageBrokerSGV2026() {
             SGV foothill luxury markets show consistent appreciation of 3.5-5.8% year-over-year in February 2026, with Sierra Madre leading at 5.8% due to limited inventory and increasing demand from remote workers seeking mountain-adjacent living. Arcadia&rsquo;s 5.1% growth reflects sustained international buyer demand and new-construction activity in Upper Rancho. Notably, South Pasadena&rsquo;s 21-day average days on market is the fastest in the corridor, indicating intense competition where pre-approval speed and closing certainty from wholesale channels provide decisive advantages.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+          <div className="bg-slate-50 border border-amber-200 rounded-xl p-6 mb-6">
             <h3 className="text-lg font-semibold text-slate-900 mb-3 flex items-center gap-2">
-              <TrendingUp className="w-5 h-5 text-amber-600" />
+              <TrendingUp className="w-5 h-5 text-blue-600" />
               2026 Loan Limit Impact on SGV Financing
             </h3>
             <p className="text-slate-600 mb-3">
@@ -958,19 +958,19 @@ export default function WholesaleMortgageBrokerSGV2026() {
             </p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span><strong>Sierra Madre:</strong> Many properties fall near the conforming-jumbo crossover point. Wholesale brokers identify the optimal program&mdash;sometimes a conforming loan saves thousands compared to jumbo pricing.</span>
               </li>
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span><strong>South Pasadena &amp; Pasadena:</strong> Jumbo territory ($1.3M-$3M) where wholesale jumbo rates are 0.25-0.50% below retail bank jumbo pricing.</span>
               </li>
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span><strong>Arcadia &amp; La Ca&ntilde;ada:</strong> Deep jumbo territory ($1.5M-$4M) where lender competition through wholesale channels produces the largest rate savings.</span>
               </li>
               <li className="flex items-start gap-2">
-                <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span><strong>San Marino:</strong> Super-jumbo territory ($2.5M-$8M+) where only wholesale brokers access the 10-15 lenders offering financing above $3M.</span>
               </li>
             </ul>

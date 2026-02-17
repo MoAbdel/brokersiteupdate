@@ -6,6 +6,7 @@ import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
+import PageHero from '@/components/marketing/PageHero';
 import {
   DollarSign,
   Calculator,
@@ -48,8 +49,8 @@ export default function ResourcesPage() {
       icon: DollarSign,
       link: '/resources/down-payment-assistance',
       badge: 'Most Popular',
-      color: 'text-green-600',
-      bgColor: 'bg-green-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       features: ['25+ Programs Listed', 'Income Calculators', 'Eligibility Guide', '2026 Updated']
     },
     {
@@ -59,7 +60,7 @@ export default function ResourcesPage() {
       link: '/calculator',
       badge: 'Interactive',
       color: 'text-blue-600',
-      bgColor: 'bg-blue-50',
+      bgColor: 'bg-slate-100',
       features: ['Payment Calculator', 'Affordability Tool', 'Refinance Analysis', 'Real-Time Rates']
     },
     {
@@ -68,8 +69,8 @@ export default function ResourcesPage() {
       icon: Home,
       link: '/guides/orange-county-home-buyer-guide',
       badge: 'Comprehensive',
-      color: 'text-orange-600',
-      bgColor: 'bg-orange-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       features: ['Step-by-Step Process', 'Required Documents', 'Timeline Guide', 'Cost Breakdown']
     },
     {
@@ -78,8 +79,8 @@ export default function ResourcesPage() {
       icon: CheckSquare,
       link: '/resources/document-checklist',
       badge: 'Downloads',
-      color: 'text-indigo-600',
-      bgColor: 'bg-indigo-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       features: ['Application Checklist', 'Income Templates', 'Asset Documentation', 'PDF Downloads']
     },
     {
@@ -88,8 +89,8 @@ export default function ResourcesPage() {
       icon: BookOpen,
       link: '/resources/glossary',
       badge: 'Reference',
-      color: 'text-teal-600',
-      bgColor: 'bg-teal-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       features: ['500+ Terms', 'Simple Explanations', 'Search Function', 'Examples']
     },
     {
@@ -98,8 +99,8 @@ export default function ResourcesPage() {
       icon: Users,
       link: '/resources/service-providers',
       badge: 'Directory',
-      color: 'text-amber-600',
-      bgColor: 'bg-amber-50',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
       features: ['Vetted Professionals', 'Contact Info', 'Reviews', 'Service Areas']
     }
   ];
@@ -168,35 +169,26 @@ export default function ResourcesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <Badge className="bg-white/20 text-white mb-4">Free Resources & Tools</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              California &amp; Washington Mortgage Resources Center
-            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Everything you need to navigate the home buying process. From down payment assistance
-              to market data, calculators to guides - all free and updated for 2026.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/resources/down-payment-assistance">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  <DollarSign className="w-5 h-5 mr-2" />
-                  Down Payment Help
-                </Button>
-              </Link>
-              <Link href="/calculator">
-                <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
-                  <Calculator className="w-5 h-5 mr-2" />
-                  Mortgage Calculators
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badgeText="Free Resources & Tools"
+        badgeIcon={FileText}
+        title={<>California &amp; Washington Mortgage Resources Center</>}
+        subtitle={
+          <>
+            Everything you need to navigate the home buying process. From down payment assistance to market data, calculators to guides - all free and updated for 2026.
+          </>
+        }
+        primaryAction={{
+          href: '/resources/down-payment-assistance',
+          label: 'Down Payment Help',
+          icon: DollarSign,
+        }}
+        secondaryAction={{
+          href: '/calculator',
+          label: 'Mortgage Calculators',
+          icon: Calculator,
+        }}
+      />
 
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -270,7 +262,7 @@ export default function ResourcesPage() {
                   <div className="space-y-2 mb-4">
                     {resource.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center text-sm text-slate-600">
-                        <CheckSquare className="w-4 h-4 mr-2 text-green-600" />
+                        <CheckSquare className="w-4 h-4 mr-2 text-blue-600" />
                         {feature}
                       </div>
                     ))}
@@ -328,7 +320,7 @@ export default function ResourcesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Building className="w-8 h-8 text-green-600 mr-3" />
+                  <Building className="w-8 h-8 text-blue-600 mr-3" />
                   <div>
                     <h3 className="font-semibold text-lg">Federal Housing Finance Agency</h3>
                     <Badge variant="secondary">FHFA</Badge>
@@ -376,7 +368,7 @@ export default function ResourcesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Home className="w-8 h-8 text-purple-600 mr-3" />
+                  <Home className="w-8 h-8 text-blue-600 mr-3" />
                   <div>
                     <h3 className="font-semibold text-lg">HUD Housing Counseling</h3>
                     <Badge variant="secondary">HUD</Badge>
@@ -400,7 +392,7 @@ export default function ResourcesPage() {
             <Card className="hover:shadow-lg transition-shadow md:col-span-2 lg:col-span-1">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <TrendingUp className="w-8 h-8 text-orange-600 mr-3" />
+                  <TrendingUp className="w-8 h-8 text-blue-600 mr-3" />
                   <div>
                     <h3 className="font-semibold text-lg">Mortgage Bankers Association</h3>
                     <Badge variant="secondary">MBA</Badge>
@@ -515,7 +507,7 @@ export default function ResourcesPage() {
       {/* Newsletter Signup */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+          <Card className="bg-slate-900 text-white">
             <CardContent className="p-8 text-center">
               <Award className="w-12 h-12 mx-auto mb-4" />
               <h2 className="text-2xl font-bold mb-4">
@@ -554,7 +546,7 @@ export default function ResourcesPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                 Get Free Consultation
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>

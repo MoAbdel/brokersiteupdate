@@ -268,42 +268,42 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Jumbo Loan Options</td>
                     <td className="px-4 py-3 border-t">1&ndash;3 jumbo products (own portfolio)</td>
-                    <td className="px-4 py-3 border-t text-green-700">20&ndash;30+ jumbo lenders with varying guidelines</td>
+                    <td className="px-4 py-3 border-t text-blue-700">20&ndash;30+ jumbo lenders with varying guidelines</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Max Loan Amount</td>
                     <td className="px-4 py-3 border-t">Typically $3&ndash;5M cap</td>
-                    <td className="px-4 py-3 border-t text-green-700">Up to $10M+ through specialized lenders</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Up to $10M+ through specialized lenders</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Trust / LLC Vesting</td>
                     <td className="px-4 py-3 border-t">Limited options, often requires individual vesting first</td>
-                    <td className="px-4 py-3 border-t text-green-700">Multiple lenders allow direct trust or LLC closing</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Multiple lenders allow direct trust or LLC closing</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Self-Employed Programs</td>
                     <td className="px-4 py-3 border-t">Full documentation required (2-year tax returns)</td>
-                    <td className="px-4 py-3 border-t text-green-700">Bank statement, P&amp;L, 1099, asset depletion</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Bank statement, P&amp;L, 1099, asset depletion</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Foreign National / Visa</td>
                     <td className="px-4 py-3 border-t">Rarely available or highly restrictive</td>
-                    <td className="px-4 py-3 border-t text-green-700">Dedicated programs for H-1B, L-1, O-1, and non-resident buyers</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Dedicated programs for H-1B, L-1, O-1, and non-resident buyers</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Rate Shopping</td>
                     <td className="px-4 py-3 border-t">Single rate from single lender</td>
-                    <td className="px-4 py-3 border-t text-green-700">Multiple competing rate quotes in real-time</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Multiple competing rate quotes in real-time</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Closing Speed</td>
                     <td className="px-4 py-3 border-t">35&ndash;50 days typical</td>
-                    <td className="px-4 py-3 border-t text-green-700">21&ndash;45 days (rush options available)</td>
+                    <td className="px-4 py-3 border-t text-blue-700">21&ndash;45 days (rush options available)</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Cost to Borrower</td>
                     <td className="px-4 py-3 border-t">Bank overhead built into higher rates</td>
-                    <td className="px-4 py-3 border-t text-green-700">Lower overhead = lower rates in most cases</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Lower overhead = lower rates in most cases</td>
                   </tr>
                 </tbody>
               </table>
@@ -401,28 +401,28 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t">$3.0M</td>
                     <td className="px-4 py-3 border-t">Legacy wealth, trust income, business owners</td>
                     <td className="px-4 py-3 border-t">Trust vesting, intergenerational transfers, asset-based</td>
-                    <td className="px-4 py-3 border-t text-green-700">Trust-friendly lenders, asset depletion jumbo</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Trust-friendly lenders, asset depletion jumbo</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">La Ca&ntilde;ada Flintridge</td>
                     <td className="px-4 py-3 border-t">$2.2M</td>
                     <td className="px-4 py-3 border-t">JPL/Caltech, medical, corporate executive</td>
                     <td className="px-4 py-3 border-t">Research grants, deferred comp, RSU income</td>
-                    <td className="px-4 py-3 border-t text-green-700">RSU-counting lenders, grant income programs</td>
+                    <td className="px-4 py-3 border-t text-blue-700">RSU-counting lenders, grant income programs</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">South Pasadena</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
                     <td className="px-4 py-3 border-t">Medical, creative professional, dual-income</td>
                     <td className="px-4 py-3 border-t">Historic property appraisal, renovation costs</td>
-                    <td className="px-4 py-3 border-t text-green-700">Historic-home appraisal expertise, renovation financing</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Historic-home appraisal expertise, renovation financing</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 border-t font-medium">Arcadia</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
                     <td className="px-4 py-3 border-t">Business owner, international buyer, investor</td>
                     <td className="px-4 py-3 border-t">Foreign income, multi-entity business, gift funds</td>
-                    <td className="px-4 py-3 border-t text-green-700">Foreign national programs, gift fund specialists</td>
+                    <td className="px-4 py-3 border-t text-blue-700">Foreign national programs, gift fund specialists</td>
                   </tr>
                 </tbody>
               </table>
@@ -626,7 +626,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">San Marino</td>
                     <td className="px-4 py-3 border-t">$2.75M</td>
                     <td className="px-4 py-3 border-t">$3.0M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+9.1%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+9.1%</td>
                     <td className="px-4 py-3 border-t">$2.0M&ndash;$4.5M</td>
                     <td className="px-4 py-3 border-t">Jumbo full-doc, asset depletion, trust vesting</td>
                   </tr>
@@ -634,7 +634,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">La Ca&ntilde;ada Flintridge</td>
                     <td className="px-4 py-3 border-t">$2.05M</td>
                     <td className="px-4 py-3 border-t">$2.2M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+7.3%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+7.3%</td>
                     <td className="px-4 py-3 border-t">$1.5M&ndash;$2.8M</td>
                     <td className="px-4 py-3 border-t">Jumbo full-doc, RSU income, bank statement</td>
                   </tr>
@@ -642,7 +642,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">South Pasadena</td>
                     <td className="px-4 py-3 border-t">$1.68M</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+7.1%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+7.1%</td>
                     <td className="px-4 py-3 border-t">$1.2M&ndash;$2.0M</td>
                     <td className="px-4 py-3 border-t">Jumbo full-doc, bank statement, renovation</td>
                   </tr>
@@ -650,7 +650,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
                     <td className="px-4 py-3 border-t font-medium">Arcadia</td>
                     <td className="px-4 py-3 border-t">$1.65M</td>
                     <td className="px-4 py-3 border-t">$1.8M</td>
-                    <td className="px-4 py-3 border-t text-green-700">+9.1%</td>
+                    <td className="px-4 py-3 border-t text-blue-700">+9.1%</td>
                     <td className="px-4 py-3 border-t">$1.2M&ndash;$2.5M</td>
                     <td className="px-4 py-3 border-t">Bank statement, foreign national, DSCR</td>
                   </tr>
@@ -783,7 +783,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
           </div>
 
           {/* EXPERT SUMMARY */}
-          <div className="expert-summary bg-green-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
+          <div className="expert-summary bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Wholesale Mortgage Advantage for Foothill Luxury Communities</h2>
             <p className="mb-4">
               The SGV foothill luxury corridor&mdash;San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;demands mortgage solutions that retail banks cannot deliver. With median home prices ranging from $1.8 million to $3 million, every transaction requires jumbo financing from lenders equipped to handle trust vesting, complex income documentation, historic property appraisals, and international buyer protocols. A wholesale broker with 200+ lender relationships matches each borrower&apos;s unique profile with the optimal program, delivering lower rates, faster closings, and higher approval odds than any single bank can provide.

@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent } from '@/components/ui/Card';
+import PageHero from '@/components/marketing/PageHero';
+import { Calculator } from 'lucide-react';
 
 interface Breadcrumb {
   label: string;
@@ -35,7 +37,7 @@ export default function ToolPageLayout({
   title,
   subtitle,
   badgeText,
-  badgeColor = 'bg-emerald-100 text-emerald-700',
+  badgeColor = 'bg-slate-900 text-slate-50',
   breadcrumbs,
   faqs,
   internalLinks,
@@ -44,7 +46,7 @@ export default function ToolPageLayout({
   schemaJsonLd,
 }: ToolPageLayoutProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <div className="min-h-screen bg-slate-50">
       {/* Schema.org JSON-LD */}
       {schemaJsonLd?.map((schema, i) => (
         <script
@@ -73,16 +75,23 @@ export default function ToolPageLayout({
       </nav>
 
       {/* Header */}
-      <header className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-8 text-center">
-        <Badge className={badgeColor}>{badgeText}</Badge>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 mb-4">
-          {title}
-        </h1>
-        <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">{subtitle}</p>
-      </header>
+      <div className="pt-6">
+        {/* Keep badgeColor prop for compatibility; PageHero provides consistent styling. */}
+        <div className="hidden">
+          <Badge className={badgeColor}>{badgeText}</Badge>
+        </div>
+        <PageHero
+          badgeText={badgeText}
+          badgeIcon={Calculator}
+          title={title}
+          subtitle={subtitle}
+          primaryAction={{ href: '/contact', label: 'Get a Free Quote' }}
+          secondaryAction={{ href: '/calculator', label: 'Browse Calculators' }}
+        />
+      </div>
 
       {/* Calculator Content */}
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">{children}</main>
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">{children}</main>
 
       {/* FAQ Section */}
       {faqs.length > 0 && (
@@ -103,22 +112,22 @@ export default function ToolPageLayout({
 
       {/* CTA */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-        <Card className="bg-blue-50 border-blue-200">
+        <Card className="bg-slate-900 border-slate-800 text-white">
           <CardContent className="p-8 text-center">
-            <h2 className="text-2xl font-bold text-slate-900 mb-3">
+            <h2 className="text-2xl font-bold text-white mb-3">
               Ready to Take the Next Step?
             </h2>
-            <p className="text-slate-700 mb-6 max-w-2xl mx-auto">{ctaText}</p>
+            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">{ctaText}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-950 font-semibold rounded-lg hover:bg-slate-100 transition-colors"
               >
                 Get a Free Quote
               </Link>
               <a
                 href="tel:9498229662"
-                className="inline-flex items-center justify-center px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 border border-white/25 text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
               >
                 Call (949) 822-9662
               </a>

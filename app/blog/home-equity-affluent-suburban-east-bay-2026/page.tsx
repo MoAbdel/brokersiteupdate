@@ -649,35 +649,35 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
                   <td className="px-4 py-3 border-t font-medium">Danville</td>
                   <td className="px-4 py-3 border-t">$1,620,000</td>
                   <td className="px-4 py-3 border-t">$1,800,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$920K avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Pleasanton</td>
                   <td className="px-4 py-3 border-t">$1,180,000</td>
                   <td className="px-4 py-3 border-t">$1,300,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+10.2%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+10.2%</td>
                   <td className="px-4 py-3 border-t">$680K avg per home</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Walnut Creek</td>
                   <td className="px-4 py-3 border-t">$990,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.1%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.1%</td>
                   <td className="px-4 py-3 border-t">$560K avg per home</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Dublin</td>
                   <td className="px-4 py-3 border-t">$975,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+12.8%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+12.8%</td>
                   <td className="px-4 py-3 border-t">$380K avg per home</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Fremont</td>
                   <td className="px-4 py-3 border-t">$985,000</td>
                   <td className="px-4 py-3 border-t">$1,100,000</td>
-                  <td className="px-4 py-3 border-t text-green-700">+11.7%</td>
+                  <td className="px-4 py-3 border-t text-blue-700">+11.7%</td>
                   <td className="px-4 py-3 border-t">$480K avg per home</td>
                 </tr>
               </tbody>
@@ -864,15 +864,15 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
           </p>
 
           {/* Expert Summary */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
+          <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Home Equity in the Affluent Suburban East Bay</h2>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               The affluent suburban East Bay&apos;s five cities hold an estimated $48 billion in tappable home equity across 185,000 homes. With median values ranging from $1.1M (Walnut Creek, Dublin, Fremont) to $1.8M (Danville), homeowners access $440K to $1.08M+ in equity per property through HELOC, HELOAN, and cash-out refinance products.
             </p>
-            <p className="text-green-800 mb-3">
+            <p className="text-slate-900 mb-3">
               From Blackhawk gated estate HELOCs in Danville to Rossmoor 55+ community equity access in Walnut Creek, from Ruby Hill golf course premiums in Pleasanton to new construction equity timing in Dublin and Tesla RSU qualification in Fremont, every suburban East Bay equity transaction benefits from specialized lending knowledge. The difference between an informed wholesale broker and a generic bank loan officer translates directly to more accessible equity, better rates, and successful transactions.
             </p>
-            <p className="text-green-800">
+            <p className="text-slate-900">
               As your suburban East Bay home equity specialist, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders, assign locally experienced appraisers, and navigate the unique challenges of gated communities, 55+ cooperative properties, Mello-Roos tax structures, and tech compensation qualification. Contact me today for your free equity analysis.
             </p>
           </div>
