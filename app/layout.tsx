@@ -3,12 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
-import FacebookPixel from '@/components/FacebookPixel';
-import MobileStickyCallButton from '@/components/MobileStickyCallButton';
-import SupportBubble from '@/components/SupportBubble';
-import ExitIntentModal from '@/components/ExitIntentModal';
-import ConditionalSiteEnhancements from '@/components/ConditionalSiteEnhancements';
+import DeferredWidgets from '@/components/DeferredWidgets';
 import { siteRootSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
@@ -19,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Mo Abdel | California & Washington Mortgage Broker | NMLS #1426884',
-  description: 'Expert mortgage broker serving California and Washington with 200+ lenders. Fast closings for FHA, VA, Conventional, Non-QM, and investor loans. Mo Abdel, NMLS #1426884.',
+  title: 'Mo Abdel | CA & WA Mortgage Broker | NMLS #1426884',
+  description: 'Mortgage broker serving CA and WA with 200+ lenders. Fast closings for FHA, VA, conventional, non-QM and investor loans. NMLS #1426884.',
   keywords: [
     'California mortgage broker',
     'Washington mortgage broker',
@@ -46,8 +41,8 @@ export const metadata: Metadata = {
     apple: '/favicon.png',
   },
   openGraph: {
-    title: 'California & Washington Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Get competitive mortgage pricing from 200+ lenders across California and Washington with fast closings, unbiased advice, and flexible home loan programs.',
+    title: 'CA & WA Mortgage Broker | Mo Abdel NMLS #1426884',
+    description: 'Competitive mortgage pricing from 200+ lenders across CA and WA. Fast closings, unbiased advice, flexible home loan programs.',
     url: 'https://www.mothebroker.com',
     siteName: 'Mo Abdel | Mortgage Broker',
     locale: 'en_US',
@@ -55,8 +50,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'California & Washington Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
+    title: 'CA & WA Mortgage Broker | Mo Abdel NMLS #1426884',
+    description: 'Competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
     creator: '@mothebroker',
     site: '@mothebroker',
   },
@@ -76,21 +71,10 @@ export default function RootLayout({
         {/* Canonical URL will be handled by individual pages */}
         <link rel="manifest" href="/manifest.json" />
 
-        {/* Optimized resource hints for critical path */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
-        <link rel="preconnect" href="https://connect.facebook.net" crossOrigin="" />
-        {/* CRITICAL: Optimize resource loading to prevent render blocking */}
+        {/* DNS prefetch for deferred 3rd-party scripts */}
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//www.facebook.com" />
-
-        {/* Critical: Image dimension hints to prevent CLS */}
-        <style dangerouslySetInnerHTML={{
-          __html: `
-            .hero-image-container { width: 100%; height: 400px; }
-            @media (min-width: 768px) { .hero-image-container { height: 500px; } }
-            @media (min-width: 1024px) { .hero-image-container { height: 600px; } }
-          `
-        }} />
+        <link rel="dns-prefetch" href="//connect.facebook.net" />
 
         {/* Critical mobile viewport optimization */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -117,12 +101,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <GoogleAnalytics />
-        <FacebookPixel />
-        <ConditionalSiteEnhancements />
-        <ExitIntentModal />
-        <SupportBubble />
-        <MobileStickyCallButton />
+        <DeferredWidgets />
         <Analytics />
 
         {/* Site-wide structured data: entity graph + loan catalog */}

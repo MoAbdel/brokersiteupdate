@@ -13,7 +13,7 @@ const nextConfig = {
   
   // HTTP/2+ and Performance optimizations
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    optimizePackageImports: ['lucide-react', 'framer-motion', '@vercel/analytics'],
   },
 
 

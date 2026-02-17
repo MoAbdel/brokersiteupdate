@@ -398,10 +398,11 @@ export default function PremiumContactForm() {
       >
         {/* Progress Bar */}
         <div className="absolute top-0 left-0 w-full h-1 bg-slate-100">
-          <motion.div 
-            className="h-full bg-slate-900"
-            initial={{ width: "33%" }}
-            animate={{ width: `${(currentStep / 3) * 100}%` }}
+          <motion.div
+            className="h-full bg-slate-900 origin-left"
+            style={{ width: '100%' }}
+            initial={{ scaleX: 0.33 }}
+            animate={{ scaleX: currentStep / 3 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           />
         </div>

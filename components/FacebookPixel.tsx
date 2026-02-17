@@ -47,7 +47,7 @@ export default function FacebookPixel() {
           width="1"
           style={{ display: 'none' }}
           src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
-          alt=""
+          alt="Facebook tracking pixel"
         />
       </noscript>
     </>
