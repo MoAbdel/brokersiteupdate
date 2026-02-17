@@ -3,7 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Home, DollarSign, TrendingUp, Users, CheckCircle, CreditCard } from 'lucide-react';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Orange County FHA Loans | 3.5% Down Options | Mo Abdel',
@@ -22,19 +23,22 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/fha-loans-orange-county';
+
 const structuredData = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/fha-loans-orange-county',
+  pageUrl: PAGE_URL,
   serviceType: 'FHA Home Loan Services',
   serviceName: 'Orange County FHA Loans',
   serviceDescription: 'Expert FHA home loan services in Orange County, CA',
 });
 
 const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/fha-loans-orange-county',
+  pageUrl: PAGE_URL,
   title: 'Orange County FHA Loans | 3.5% Down Options | Mo Abdel',
   description:
     'Explore Orange County FHA loans with 3.5% down, flexible credit guidelines, and high-cost limits. Get a fast quote from Mo Abdel (NMLS #1426884).',
   breadcrumbName: 'FHA Loans',
+  dateModified: '2026-02-16',
 });
 
 const fhaBenefits = [
@@ -146,6 +150,21 @@ const faqs = [
   }
 ];
 
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
+
+const howToSchema = buildHowToSchema({
+  name: 'How to Apply for an FHA Loan in Orange County',
+  description: 'Step-by-step FHA loan application process with a wholesale mortgage broker in Orange County.',
+  totalTime: 'P30D',
+  url: PAGE_URL,
+  steps: [
+    { name: 'Pre-Approval', text: 'Get pre-approved to understand your budget and show sellers you\'re serious in Orange County\'s competitive market.' },
+    { name: 'Home Shopping', text: 'Search for FHA-eligible homes within the $1,266,300 loan limit. Mo will help identify suitable properties.' },
+    { name: 'FHA Appraisal', text: 'FHA requires a special appraisal to ensure the property meets standards and is worth the purchase price.' },
+    { name: 'Closing', text: 'Final underwriting, closing preparation, and keys to your new Orange County home.' },
+  ],
+});
+
 const comparisonData = [
   {
     feature: 'Down Payment',
@@ -181,7 +200,7 @@ const comparisonData = [
 
 export default function FHALoansOrangeCountyPage() {
   return (
-    <>
+    <article className="min-h-screen py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -190,18 +209,29 @@ export default function FHALoansOrangeCountyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      <div className="min-h-screen py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          {/* Hero Section */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+
+      <Breadcrumbs />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Hero Section */}
+        <section aria-label="FHA loans overview and call to action">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               FHA Loans in <span className="text-blue-600">Orange County, CA</span>
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Make homeownership affordable in Orange County with FHA loans requiring as little as 3.5% down. 
-              Perfect for first-time buyers and those with less-than-perfect credit, FHA loans provide a path to 
-              homeownership in one of California's most desirable markets. With flexible qualification requirements 
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
+              Make homeownership affordable in Orange County with FHA loans requiring as little as 3.5% down.
+              Perfect for first-time buyers and those with less-than-perfect credit, FHA loans provide a path to
+              homeownership in one of California's most desirable markets. With flexible qualification requirements
               and Competitive pricing, FHA financing opens doors that might otherwise remain closed.
             </p>
             <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
@@ -210,264 +240,264 @@ export default function FHALoansOrangeCountyPage() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call to get pre-approved for an FHA loan">
                 <a href="tel:(949) 822-9662" className="flex items-center">
-                  <Home className="w-5 h-5 mr-2" />
+                  <Home className="w-5 h-5 mr-2" aria-hidden="true" />
                   Get Pre-Approved for FHA
                 </a>
               </Button>
               <Link href="/calculator">
-                <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Calculate your FHA loan monthly payments">
                   Calculate FHA Payments
                 </Button>
               </Link>
             </div>
           </div>
+        </section>
 
-          {/* 2026 FHA Loan Limits */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2026 FHA Loan Limits in Orange County
-            </h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-slate-700 mb-6 text-center">
-                The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
-                matching the conforming high-cost limit for this area.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
-                  <p className="text-slate-700">2026 FHA Loan Limit</p>
-                  <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-green-600 mb-2">3.5%</h3>
-                  <p className="text-slate-700">Minimum Down Payment</p>
-                  <p className="text-sm text-slate-600 mt-2">With 580+ credit score</p>
-                </div>
-                <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-orange-600 mb-2">580+</h3>
-                  <p className="text-slate-700">Minimum Credit Score</p>
-                  <p className="text-sm text-slate-600 mt-2">For 3.5% down payment</p>
-                </div>
+        {/* 2026 FHA Loan Limits */}
+        <section className="mb-16 bg-blue-50 rounded-xl p-8" aria-label="2026 FHA loan limits for Orange County">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
+            What Are the 2026 FHA Loan Limits in Orange County?
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-lg text-slate-700 mb-6 text-center" data-speakable="true">
+              The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
+              matching the conforming high-cost limit for this area.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-lg p-6 text-center">
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
+                <p className="text-slate-700">2026 FHA Loan Limit</p>
+                <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 text-center">
+                <h3 className="text-2xl font-bold text-green-600 mb-2">3.5%</h3>
+                <p className="text-slate-700">Minimum Down Payment</p>
+                <p className="text-sm text-slate-600 mt-2">With 580+ credit score</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 text-center">
+                <h3 className="text-2xl font-bold text-orange-600 mb-2">580+</h3>
+                <p className="text-slate-700">Minimum Credit Score</p>
+                <p className="text-sm text-slate-600 mt-2">For 3.5% down payment</p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Benefits of FHA Loans */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of FHA Loans in Orange County
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {fhaBenefits.map((benefit, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
-                  <div className="flex items-center mb-6">
-                    <benefit.icon className="w-12 h-12 text-blue-600 mr-4" />
-                    <div>
-                      <h3 className="text-2xl font-bold text-slate-900">{benefit.title}</h3>
-                      <p className="text-slate-600">{benefit.description}</p>
-                    </div>
+        {/* Benefits of FHA Loans */}
+        <section className="mb-16" aria-label="Benefits and advantages of FHA loans in Orange County">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
+            What Are the Benefits of FHA Loans in Orange County?
+          </h2>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {fhaBenefits.map((benefit, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
+                <div className="flex items-center mb-6">
+                  <benefit.icon className="w-12 h-12 text-blue-600 mr-4" aria-hidden="true" />
+                  <div>
+                    <h3 className="text-2xl font-bold text-slate-900">{benefit.title}</h3>
+                    <p className="text-slate-600">{benefit.description}</p>
                   </div>
-                  
-                  <ul className="space-y-2">
-                    {benefit.details.map((detail, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-slate-700">{detail}</span>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
-              ))}
-            </div>
-          </section>
 
-          {/* FHA vs Conventional vs VA Comparison */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FHA vs Conventional vs VA Loans
-            </h2>
-            
-            <div className="max-w-6xl mx-auto overflow-x-auto">
-              <table className="w-full bg-white rounded-lg shadow-md">
-                <thead>
-                  <tr className="bg-slate-100">
-                    <th className="px-6 py-4 text-left font-bold text-slate-900">Feature</th>
-                    <th className="px-6 py-4 text-center font-bold text-blue-600">FHA Loan</th>
-                    <th className="px-6 py-4 text-center font-bold text-slate-600">Conventional</th>
-                    <th className="px-6 py-4 text-center font-bold text-slate-600">VA Loan</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonData.map((row, index) => (
-                    <tr key={index} className="border-b border-slate-200">
-                      <td className="px-6 py-4 font-medium text-slate-900">{row.feature}</td>
-                      <td className="px-6 py-4 text-center text-blue-600 font-medium">{row.fha}</td>
-                      <td className="px-6 py-4 text-center text-slate-600">{row.conventional}</td>
-                      <td className="px-6 py-4 text-center text-slate-600">{row.va}</td>
-                    </tr>
+                <ul className="space-y-2">
+                  {benefit.details.map((detail, idx) => (
+                    <li key={idx} className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                      <span className="text-slate-700">{detail}</span>
+                    </li>
                   ))}
-                </tbody>
-              </table>
-            </div>
-            
-            <div className="text-center mt-8">
-              <p className="text-slate-600 mb-4">
-                Not sure which loan type is best for you? I can help you compare options based on your specific situation.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/conventional-loans-orange-county">
-                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2">
-                    Compare Conventional Loans
-                  </Button>
-                </Link>
-                <Link href="/va-loans-orange-county">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2">
-                    Explore VA Loans
-                  </Button>
-                </Link>
+                </ul>
               </div>
-            </div>
-          </section>
+            ))}
+          </div>
+        </section>
 
-          {/* Who Qualifies for FHA */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Who Qualifies for FHA Loans in Orange County?
-            </h2>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {fhaRequirements.map((req, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-6">{req.category}</h3>
-                  <ul className="space-y-3">
-                    {req.requirements.map((requirement, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
-                        <span className="text-slate-700">{requirement}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
+        {/* FHA vs Conventional vs VA Comparison */}
+        <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="Comparison of FHA, conventional, and VA loan programs">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
+            How Do FHA vs Conventional vs VA Loans Compare?
+          </h2>
 
-          {/* FHA Loan Process */}
-          <section className="mb-16 bg-green-50 rounded-xl p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FHA Loan Process in Orange County
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-blue-600">1</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">Pre-Approval</h3>
-                <p className="text-slate-600">
-                  Get pre-approved to understand your budget and show sellers you're serious 
-                  in Orange County's competitive market.
-                </p>
-              </div>
+          <div className="max-w-6xl mx-auto overflow-x-auto">
+            <table className="w-full bg-white rounded-lg shadow-md">
+              <thead>
+                <tr className="bg-slate-100">
+                  <th scope="col" className="px-6 py-4 text-left font-bold text-slate-900">Feature</th>
+                  <th scope="col" className="px-6 py-4 text-center font-bold text-blue-600">FHA Loan</th>
+                  <th scope="col" className="px-6 py-4 text-center font-bold text-slate-600">Conventional</th>
+                  <th scope="col" className="px-6 py-4 text-center font-bold text-slate-600">VA Loan</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonData.map((row, index) => (
+                  <tr key={index} className="border-b border-slate-200">
+                    <td className="px-6 py-4 font-medium text-slate-900">{row.feature}</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-medium">{row.fha}</td>
+                    <td className="px-6 py-4 text-center text-slate-600">{row.conventional}</td>
+                    <td className="px-6 py-4 text-center text-slate-600">{row.va}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-blue-600">2</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">Home Shopping</h3>
-                <p className="text-slate-600">
-                  Search for FHA-eligible homes within the $1,266,300 loan limit. 
-                  I'll help identify suitable properties.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-blue-600">3</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">FHA Appraisal</h3>
-                <p className="text-slate-600">
-                  FHA requires a special appraisal to ensure the property meets 
-                  standards and is worth the purchase price.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-green-600">4</span>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-3">Closing</h3>
-                <p className="text-slate-600">
-                  Final underwriting, closing preparation, and keys to your 
-                  new Orange County home!
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FAQs About FHA Loans in Orange County
-            </h2>
-            <div className="max-w-4xl mx-auto">
-              {faqs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-md p-6 mb-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Internal Links Section */}
-          <section className="mb-16">
-            <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              Explore Related Orange County Mortgage Services
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/purchase-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Purchase Loans</span>
-              </Link>
-              <Link href="/conventional-loans-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Conventional Loans</span>
-              </Link>
-              <Link href="/va-loans-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">VA Loans</span>
-              </Link>
-              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Irvine FHA Loans</span>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA Section */}
-          <section className="text-center bg-blue-600 text-white rounded-lg p-8">
-            <h2 className="text-3xl font-bold mb-4">Ready to Buy Your Orange County Home?</h2>
-            <p className="text-xl mb-6 text-blue-100">
-              Get pre-approved for an FHA loan with just 3.5% down and start your homeownership journey today.
+          <div className="text-center mt-8">
+            <p className="text-slate-600 mb-4">
+              Not sure which loan type is best for you? I can help you compare options based on your specific situation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662">
-                  Call (949) 822-9662
-                </a>
-              </Button>
-              <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg">
-                  Get Pre-Approved for FHA Loan
+              <Link href="/conventional-loans-orange-county">
+                <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Compare conventional loan options in Orange County">
+                  Compare Conventional Loans
+                </Button>
+              </Link>
+              <Link href="/va-loans-orange-county">
+                <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Explore VA loan options in Orange County">
+                  Explore VA Loans
                 </Button>
               </Link>
             </div>
-            <p className="text-sm text-blue-200 mt-4">
-              Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
-            </p>
-          </section>
-        </div>
+          </div>
+        </section>
+
+        {/* Who Qualifies for FHA */}
+        <section className="mb-16" aria-label="FHA loan qualification requirements in Orange County">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
+            Who Qualifies for FHA Loans in Orange County?
+          </h2>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {fhaRequirements.map((req, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
+                <h3 className="text-2xl font-bold text-blue-600 mb-6">{req.category}</h3>
+                <ul className="space-y-3">
+                  {req.requirements.map((requirement, idx) => (
+                    <li key={idx} className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                      <span className="text-slate-700">{requirement}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* FHA Loan Process */}
+        <section className="mb-16 bg-green-50 rounded-xl p-8" aria-label="Step-by-step FHA loan application process">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
+            What Is the FHA Loan Process in Orange County?
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">1</span>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">Pre-Approval</h3>
+              <p className="text-slate-600">
+                Get pre-approved to understand your budget and show sellers you're serious
+                in Orange County's competitive market.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">2</span>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">Home Shopping</h3>
+              <p className="text-slate-600">
+                Search for FHA-eligible homes within the $1,266,300 loan limit.
+                I'll help identify suitable properties.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-blue-600">3</span>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">FHA Appraisal</h3>
+              <p className="text-slate-600">
+                FHA requires a special appraisal to ensure the property meets
+                standards and is worth the purchase price.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-green-600">4</span>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-3">Closing</h3>
+              <p className="text-slate-600">
+                Final underwriting, closing preparation, and keys to your
+                new Orange County home!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-16" aria-label="Frequently asked questions about FHA loans in Orange County">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
+            FAQs About FHA Loans in Orange County
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md p-6 mb-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
+                <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Internal Links Section */}
+        <section className="mb-16" aria-label="Related Orange County mortgage services">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
+            Explore Related Orange County Mortgage Services
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link href="/purchase-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Purchase Loans</span>
+            </Link>
+            <Link href="/conventional-loans-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Conventional Loans</span>
+            </Link>
+            <Link href="/va-loans-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">VA Loans</span>
+            </Link>
+            <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Irvine FHA Loans</span>
+            </Link>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="text-center bg-blue-600 text-white rounded-lg p-8" aria-label="Contact Mo Abdel to start your FHA loan application">
+          <h2 className="text-3xl font-bold mb-4">Ready to Buy Your Orange County Home?</h2>
+          <p className="text-xl mb-6 text-blue-100" data-speakable="true">
+            Get pre-approved for an FHA loan with just 3.5% down and start your homeownership journey today.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
+              <a href="tel:(949) 822-9662">
+                Call (949) 822-9662
+              </a>
+            </Button>
+            <Link href="/contact">
+              <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg" aria-label="Apply to get pre-approved for an FHA loan">
+                Get Pre-Approved for FHA Loan
+              </Button>
+            </Link>
+          </div>
+          <p className="text-sm text-blue-200 mt-4">
+            Mo Abdel - NMLS #1426884 | Licensed Orange County Mortgage Broker
+          </p>
+        </section>
       </div>
-    </>
+    </article>
   );
 }

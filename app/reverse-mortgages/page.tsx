@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import { buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Complete Guide to Reverse Mortgages in California & Washington [2026] | Mo Abdel NMLS #1426884',
@@ -20,17 +21,64 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/reverse-mortgages';
+
+const brokerEntityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Reverse Mortgages (HECM)',
+  serviceName: 'Reverse Mortgages in California & Washington',
+  serviceDescription: 'HECM reverse mortgage guide for California and Washington seniors 62+. Learn eligibility, payout options, HUD counseling requirements, and compare HECM vs HELOC.',
+});
+
 const reverseMortgagesPageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/reverse-mortgages',
+  pageUrl: PAGE_URL,
   title: 'Complete Guide to Reverse Mortgages in California & Washington [2026] | Mo Abdel NMLS #1426884',
   description:
     'HECM reverse mortgage guide for California and Washington seniors 62+. Learn eligibility, payout options, HUD counseling requirements, and compare HECM vs HELOC.',
   breadcrumbName: 'Reverse Mortgages',
+  dateModified: '2026-02-16',
 });
+
+const faqs = [
+  {
+    question: 'What is the minimum age requirement for a reverse mortgage?',
+    answer: 'The minimum age requirement for a HECM reverse mortgage is 62 years old. At least one borrower on the loan must be 62 or older. If you have a younger spouse, they can be listed as an eligible non-borrowing spouse, which provides certain protections.',
+  },
+  {
+    question: 'Is HUD counseling required for a reverse mortgage?',
+    answer: 'Yes, HUD counseling is mandatory for all HECM reverse mortgages. You must complete counseling with a HUD-approved counselor before applying. This requirement protects seniors by ensuring they fully understand the loan terms, costs, and alternatives before proceeding.',
+  },
+  {
+    question: 'How do I receive money from a reverse mortgage?',
+    answer: 'HECM reverse mortgages offer five payout options: lump sum (fixed rate), monthly tenure payments for life, monthly term payments for a set period, a line of credit that grows over time, or a combination of these options. Most borrowers choose the line of credit for its flexibility and growth feature.',
+  },
+  {
+    question: 'Do I still own my home with a reverse mortgage?',
+    answer: 'Yes, you retain full ownership of your home with a reverse mortgage. The lender places a lien on the property, but you keep the title and can live in the home as long as you maintain it, pay property taxes, and keep homeowners insurance current.',
+  },
+  {
+    question: 'What happens to a reverse mortgage when the borrower dies?',
+    answer: 'When the last borrower passes away, heirs have options: they can repay the loan and keep the home, sell the home and keep any remaining equity, or let the lender sell the property. HECM loans are non-recourse, meaning heirs never owe more than the home\'s value, even if the loan balance exceeds it.',
+  },
+  {
+    question: 'What is the difference between HECM and proprietary reverse mortgages?',
+    answer: 'HECM loans are FHA-insured with lending limits (currently $1,149,825 in 2026), while proprietary (jumbo) reverse mortgages are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity but lack FHA insurance protections and typically have higher costs.',
+  },
+  {
+    question: 'Can I qualify for a reverse mortgage with an existing mortgage?',
+    answer: 'Yes, you can get a reverse mortgage even with an existing mortgage. The reverse mortgage proceeds must first pay off your current mortgage, then any remaining funds are available to you. Many seniors use reverse mortgages specifically to eliminate monthly mortgage payments.',
+  },
+];
+
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 export default function ReverseMortgagesPage() {
   return (
     <article className="max-w-4xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(brokerEntityGraph) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reverseMortgagesPageSchema) }}
@@ -57,7 +105,7 @@ export default function ReverseMortgagesPage() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-29",
-            "dateModified": "2026-01-29",
+            "dateModified": "2026-02-16",
             "copyrightYear": "2026",
             "about": {
               "@type": "FinancialProduct",
@@ -69,71 +117,10 @@ export default function ReverseMortgagesPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is the minimum age requirement for a reverse mortgage?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The minimum age requirement for a HECM reverse mortgage is 62 years old. At least one borrower on the loan must be 62 or older. If you have a younger spouse, they can be listed as an eligible non-borrowing spouse, which provides certain protections."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Is HUD counseling required for a reverse mortgage?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, HUD counseling is mandatory for all HECM reverse mortgages. You must complete counseling with a HUD-approved counselor before applying. This requirement protects seniors by ensuring they fully understand the loan terms, costs, and alternatives before proceeding."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How do I receive money from a reverse mortgage?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "HECM reverse mortgages offer five payout options: lump sum (fixed rate), monthly tenure payments for life, monthly term payments for a set period, a line of credit that grows over time, or a combination of these options. Most borrowers choose the line of credit for its flexibility and growth feature."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do I still own my home with a reverse mortgage?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, you retain full ownership of your home with a reverse mortgage. The lender places a lien on the property, but you keep the title and can live in the home as long as you maintain it, pay property taxes, and keep homeowners insurance current."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What happens to a reverse mortgage when the borrower dies?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "When the last borrower passes away, heirs have options: they can repay the loan and keep the home, sell the home and keep any remaining equity, or let the lender sell the property. HECM loans are non-recourse, meaning heirs never owe more than the home's value, even if the loan balance exceeds it."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What is the difference between HECM and proprietary reverse mortgages?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "HECM loans are FHA-insured with lending limits (currently $1,149,825 in 2026), while proprietary (jumbo) reverse mortgages are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity but lack FHA insurance protections and typically have higher costs."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can I qualify for a reverse mortgage with an existing mortgage?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, you can get a reverse mortgage even with an existing mortgage. The reverse mortgage proceeds must first pay off your current mortgage, then any remaining funds are available to you. Many seniors use reverse mortgages specifically to eliminate monthly mortgage payments."
-                }
-              }
-            ]
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+
+      <Breadcrumbs />
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -145,16 +132,16 @@ export default function ReverseMortgagesPage() {
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated January 2026</p>
       </header>
 
-      <section className="prose prose-lg max-w-none">
+      <section aria-label="Reverse mortgage overview and guide content" className="prose prose-lg max-w-none">
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
-          <p className="lead font-semibold text-gray-900 mb-0">
+          <p className="lead font-semibold text-gray-900 mb-0" data-speakable="true">
             <strong>Important Age Requirement:</strong> Reverse mortgages are exclusively available to homeowners age 62 and older. A Home Equity Conversion Mortgage (HECM) allows qualifying seniors to convert home equity into tax-free cash without monthly mortgage payments. In 2026, California and Washington homeowners with significant home equity have access to HECM loans with lending limits up to $1,149,825.
           </p>
         </div>
 
         {/* Section 1: What Is a Reverse Mortgage (HECM)? */}
         <h2 id="what-is-hecm">What Is a Reverse Mortgage (HECM)?</h2>
-        <p>
+        <p data-speakable="true">
           A Home Equity Conversion Mortgage (HECM) is an FHA-insured loan that allows homeowners <strong>age 62 and older</strong> to access their home equity without selling their home or making monthly mortgage payments. Unlike a traditional mortgage where you make payments to the lender, a reverse mortgage pays you.
         </p>
         <p>
@@ -182,7 +169,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 2: HECM Eligibility Requirements */}
         <h2 id="eligibility-requirements">HECM Eligibility Requirements</h2>
-        <p>
+        <p data-speakable="true">
           Qualifying for a reverse mortgage involves meeting specific age, property, and financial requirements. The eligibility criteria protect seniors from taking on obligations they cannot sustain.
         </p>
 
@@ -227,7 +214,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 3: How Reverse Mortgage Payouts Work */}
         <h2 id="payout-options">How Reverse Mortgage Payouts Work</h2>
-        <p>
+        <p data-speakable="true">
           HECM loans offer flexible payment options to match your financial needs. Understanding each option helps you maximize the value of your reverse mortgage.
         </p>
 
@@ -344,7 +331,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 4: HECM vs HELOC for Seniors */}
         <h2 id="hecm-vs-heloc">HECM vs HELOC for Seniors</h2>
-        <p>
+        <p data-speakable="true">
           Seniors with home equity have multiple options for accessing their equity. Understanding the differences between a HECM reverse mortgage and a HELOC (Home Equity Line of Credit) helps you choose the right product for your situation.
         </p>
 
@@ -420,7 +407,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 4b: HECM Costs and Fees */}
         <h2 id="costs-and-fees">Reverse Mortgage Costs and Fees</h2>
-        <p>
+        <p data-speakable="true">
           Understanding HECM costs helps you evaluate whether a reverse mortgage makes financial sense for your situation. While upfront costs are higher than traditional mortgages, most fees can be financed into the loan rather than paid out of pocket.
         </p>
 
@@ -514,7 +501,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 5: Pros and Cons of Reverse Mortgages */}
         <h2 id="pros-and-cons">Pros and Cons of Reverse Mortgages</h2>
-        <p>
+        <p data-speakable="true">
           A reverse mortgage is a significant financial decision. Understanding both the advantages and potential drawbacks helps you make an informed choice.
         </p>
 
@@ -550,7 +537,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 6: HUD Counseling Requirement */}
         <h2 id="hud-counseling">HUD Counseling Requirement</h2>
-        <p>
+        <p data-speakable="true">
           <strong>HUD counseling is mandatory for all HECM reverse mortgages.</strong> Before applying for a HECM, you must complete a counseling session with a HUD-approved reverse mortgage counselor. This requirement protects seniors from potential scams and ensures borrowers fully understand the loan.
         </p>
 
@@ -582,7 +569,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 7: Proprietary (Jumbo) Reverse Mortgages */}
         <h2 id="proprietary-reverse-mortgages">Proprietary (Jumbo) Reverse Mortgages</h2>
-        <p>
+        <p data-speakable="true">
           For California and Washington homeowners with properties valued above the FHA limit of $1,149,825, proprietary (jumbo) reverse mortgages provide access to additional equity not available through HECMs.
         </p>
 
@@ -657,7 +644,7 @@ export default function ReverseMortgagesPage() {
 
         {/* Section 8: Estate Planning Considerations */}
         <h2 id="estate-planning">Estate Planning Considerations</h2>
-        <p>
+        <p data-speakable="true">
           A reverse mortgage affects your estate and should be part of a comprehensive financial plan. Working with an estate planning attorney helps ensure your reverse mortgage strategy aligns with your overall goals.
         </p>
 
@@ -743,7 +730,7 @@ export default function ReverseMortgagesPage() {
           <p className="text-blue-800 mb-4">
             If you are <strong>62 or older</strong> and own a home in California or Washington, a reverse mortgage may help you achieve financial security in retirement. As your licensed mortgage broker, I provide unbiased guidance on HECM and proprietary reverse mortgage options from multiple lenders.
           </p>
-          <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+          <a href="/contact-orange-county-mortgage-broker" aria-label="Schedule a reverse mortgage consultation" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
             Schedule a Consultation
           </a>
         </div>

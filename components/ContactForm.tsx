@@ -275,9 +275,10 @@ export default function ContactForm() {
           />
         </div>
         
-        <Button 
-          type="submit" 
+        <Button
+          type="submit"
           disabled={isSubmitting}
+          aria-label="Submit mortgage quote request to Mo Abdel"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 text-lg"
         >
           {isSubmitting ? 'Submitting...' : 'Get My Free Quote'}

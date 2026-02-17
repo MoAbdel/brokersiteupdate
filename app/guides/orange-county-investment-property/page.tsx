@@ -4,18 +4,45 @@ import Link from 'next/link';
 import { Building, TrendingUp, DollarSign, MapPin, Calculator, Phone, Home, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-investment-property';
 
 export const metadata: Metadata = {
   title: 'Orange County Investment Property Guide 2026 | Real Estate Investing',
   description: 'Complete guide to buying investment properties in Orange County. Market analysis, DSCR loans, cap rates, rental yields, and financing strategies for real estate investors.',
+  openGraph: {
+    title: 'Orange County Investment Property Guide 2026',
+    description: 'Complete guide to buying investment properties in Orange County. Market analysis, DSCR loans, cap rates, rental yields, and financing strategies.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/orange-county-investment-property',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/orange-county-investment-property',
-      'x-default': 'https://www.mothebroker.com/guides/orange-county-investment-property',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Investment Property Financing',
+  serviceName: 'Orange County Investment Property Guidance',
+  serviceDescription: 'Expert investment property financing for Orange County including DSCR loans, portfolio lending, fix-and-flip, and commercial loans for real estate investors.',
+  areaServedNames: ['Santa Ana', 'Garden Grove', 'Costa Mesa', 'Irvine', 'Newport Beach'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County Investment Property Guide 2026',
+  description: 'Complete guide to buying investment properties in Orange County with market analysis, financing options, and investment strategies.',
+  breadcrumbName: 'Investment Property Guide',
+  dateModified: '2026-02-16',
+});
 
 export default function OrangeCountyInvestmentPropertyGuide() {
   const investmentAreas = [
@@ -156,7 +183,11 @@ export default function OrangeCountyInvestmentPropertyGuide() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <div className="relative py-20 lg:py-32 overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -478,5 +509,6 @@ export default function OrangeCountyInvestmentPropertyGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

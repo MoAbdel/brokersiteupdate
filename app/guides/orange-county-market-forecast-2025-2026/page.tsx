@@ -1,11 +1,43 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { TrendingUp, Calendar, BarChart3, MapPin, Calculator, Phone, AlertCircle, Target } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
-export const metadata = {
-  robots: { index: false, follow: true },
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-market-forecast-2025-2026';
+
+export const metadata: Metadata = {
+  title: 'Orange County Real Estate Market Forecast 2025-2026 | Expert Analysis',
+  description: 'Expert Orange County housing market forecast with price predictions, interest rate scenarios, and optimal timing strategies for buyers and sellers. NMLS #1426884.',
+  openGraph: {
+    title: 'Orange County Real Estate Market Forecast 2025-2026',
+    description: 'Expert Orange County housing market forecast with price predictions, interest rate scenarios, and optimal timing strategies for buyers and sellers.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
+  alternates: {
+    canonical: PAGE_URL,
+  },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Real Estate Market Analysis',
+  serviceName: 'Orange County Market Forecast & Timing Strategy',
+  serviceDescription: 'Expert real estate market analysis and forecasting for Orange County home buyers and sellers with price predictions, rate scenarios, and timing strategies.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Santa Ana', 'Huntington Beach'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County Real Estate Market Forecast 2025-2026',
+  description: 'Expert analysis and predictions for Orange County housing market with rate forecasts and area-specific pricing trends.',
+  breadcrumbName: 'Market Forecast',
+  dateModified: '2026-02-16',
+});
 
 export default function OrangeCountyMarketForecast() {
   const marketPredictions = [
@@ -173,7 +205,11 @@ export default function OrangeCountyMarketForecast() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <div className="relative py-20 lg:py-32 overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -574,5 +610,6 @@ export default function OrangeCountyMarketForecast() {
         </div>
       </section>
     </div>
+    </>
   );
 }

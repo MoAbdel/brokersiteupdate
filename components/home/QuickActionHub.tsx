@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { User, FileText, Lock, CreditCard, Mail, Globe, LucideIcon } from 'lucide-react';
 
@@ -71,7 +69,7 @@ export default function QuickActionHub() {
   ];
 
   return (
-    <section className="relative py-16 pb-24 bg-slate-900">
+    <section className="relative py-16 pb-24 bg-slate-900" aria-label="Quick actions for mortgage applications, documents, and resources">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
@@ -94,6 +92,7 @@ export default function QuickActionHub() {
                 target={isExternal ? '_blank' : undefined}
                 rel={isExternal ? 'noopener noreferrer' : undefined}
                 download={action.download}
+                aria-label={action.title}
                 className={`flex items-center gap-3 bg-white hover:bg-slate-50 text-slate-900 px-4 py-4 rounded-lg transition-all duration-200 hover:shadow-md ${action.title === 'NMLSConsumerAccess.org' ? 'col-span-2 sm:col-span-1 justify-center' : ''
                   }`}
               >

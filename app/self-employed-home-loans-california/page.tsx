@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { TrendingUp, FileText, DollarSign, CheckCircle, ArrowRight, Calculator, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Self-Employed Home Loans California | Bank Statement & Non-QM Programs | Lumin Lending',
@@ -16,11 +18,81 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/self-employed-home-loans-california';
+
+const brokerEntityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Self-Employed Home Loans',
+  serviceName: 'Self-Employed Home Loans in California',
+  serviceDescription: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs.',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Self-Employed Home Loans California | Bank Statement & Non-QM Programs | Lumin Lending',
+  description: 'Specialized mortgage programs for self-employed borrowers in California. Bank statement loans, DSCR, asset depletion, and P&L programs.',
+  breadcrumbName: 'Self-Employed Home Loans California',
+  dateModified: '2026-02-16',
+});
+
+const faqs = [
+  {
+    question: 'Do I need 2 years of tax returns if I\'m self-employed?',
+    answer: 'Not necessarily. While traditional conforming loans require 2 years of tax returns, bank statement programs, DSCR loans, and asset depletion programs do not. The right program depends on your specific situation and documentation availability.'
+  },
+  {
+    question: 'What if my tax returns show lower income than I actually earn?',
+    answer: 'This is exactly why bank statement programs exist. We calculate your income based on actual deposits into your business or personal accounts, not your adjusted gross income on tax returns. This typically results in significantly higher qualifying income.'
+  },
+  {
+    question: 'Can I use business bank statements or do they need to be personal?',
+    answer: 'Most bank statement programs accept either business or personal bank statements. Business accounts are common for sole proprietors, LLCs, and S-Corps. We analyze deposits and apply an expense factor (typically 25-50%) to arrive at qualifying income.'
+  },
+  {
+    question: 'How long does it take to get approved for a self-employed mortgage?',
+    answer: 'The approval timeline varies by program complexity and documentation readiness. Bank statement loans typically take 15-21 days from application to closing, while DSCR investor loans can often close even faster. Having your documentation organized upfront helps expedite the process significantly.'
+  }
+];
+
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
+
+const howToSchema = buildHowToSchema({
+  name: 'How to Get a Self-Employed Home Loan in California',
+  description: 'Simplified self-employed mortgage application process designed for business owners with Lumin Lending.',
+  totalTime: 'P21D',
+  url: PAGE_URL,
+  steps: [
+    { name: 'Income Analysis', text: 'We review your business structure and identify the optimal documentation strategy' },
+    { name: 'Document Gathering', text: 'Collect bank statements, P&Ls, or asset statements based on your chosen program' },
+    { name: 'Lender Matching', text: 'Submit to specialized non-QM lenders with self-employed expertise' },
+    { name: 'Close in 15-21 Days', text: 'Streamlined underwriting and fast funding' },
+  ],
+});
+
 export default function SelfEmployedHomeLoans() {
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(brokerEntityGraph) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+
+      <Breadcrumbs />
+
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-600 to-blue-600 text-white py-20">
+      <section aria-label="Self-employed home loans hero" className="bg-gradient-to-br from-purple-600 to-blue-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
@@ -30,19 +102,19 @@ export default function SelfEmployedHomeLoans() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Self-Employed Home Loans in California
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-purple-100">
+            <p className="text-xl md:text-2xl mb-8 text-purple-100" data-speakable="true">
               Mortgage programs designed for business owners, freelancers, and 1099 contractors—without traditional W-2 income verification
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                <Button size="lg" aria-label="Check your qualification for self-employed home loans" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                   <Calculator className="w-5 h-5 mr-2" />
                   Check My Qualification
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
               <a href="tel:+19498229662">
-                <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 822-9662" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                   Call (949) 822-9662
                 </Button>
               </a>
@@ -52,14 +124,14 @@ export default function SelfEmployedHomeLoans() {
       </section>
 
       {/* The Self-Employed Challenge */}
-      <section className="py-16 bg-white">
+      <section aria-label="The self-employed mortgage challenge" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
                 The Self-Employed Mortgage Challenge
               </h2>
-              <p className="text-lg text-slate-600 mb-4">
+              <p className="text-lg text-slate-600 mb-4" data-speakable="true">
                 Traditional mortgage underwriting was built for W-2 employees. If you're self-employed, you face unique obstacles:
               </p>
               <ul className="space-y-3 mb-6">
@@ -110,13 +182,13 @@ export default function SelfEmployedHomeLoans() {
       </section>
 
       {/* Program Options */}
-      <section className="py-16 bg-slate-50">
+      <section aria-label="Self-employed mortgage program options" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Self-Employed Mortgage Program Options
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto" data-speakable="true">
               Multiple pathways to qualification based on your income documentation
             </p>
           </div>
@@ -258,13 +330,13 @@ export default function SelfEmployedHomeLoans() {
       </section>
 
       {/* Process Section */}
-      <section className="py-16 bg-white">
+      <section aria-label="Self-employed loan application process" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               The Lumin Lending Self-Employed Loan Process
             </h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-slate-600" data-speakable="true">
               Simplified application designed for business owners
             </p>
           </div>
@@ -292,23 +364,23 @@ export default function SelfEmployedHomeLoans() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <section aria-label="Get pre-qualified as a self-employed borrower" className="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Get Pre-Qualified as a Self-Employed Borrower?
           </h2>
-          <p className="text-xl mb-8 text-purple-100">
+          <p className="text-xl mb-8 text-purple-100" data-speakable="true">
             Let's discuss which program best fits your income documentation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+              <Button size="lg" aria-label="Start your self-employed mortgage application" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                 <Calculator className="w-5 h-5 mr-2" />
                 Start My Application
               </Button>
             </Link>
             <a href="tel:+19498229662">
-              <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+              <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 822-9662" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
                 Call (949) 822-9662
               </Button>
             </a>
@@ -320,30 +392,13 @@ export default function SelfEmployedHomeLoans() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 bg-white">
+      <section aria-label="Self-employed mortgage frequently asked questions" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
             Self-Employed Mortgage FAQs
           </h2>
           <div className="space-y-6">
-            {[
-              {
-                question: 'Do I need 2 years of tax returns if I\'m self-employed?',
-                answer: 'Not necessarily. While traditional conforming loans require 2 years of tax returns, bank statement programs, DSCR loans, and asset depletion programs do not. The right program depends on your specific situation and documentation availability.'
-              },
-              {
-                question: 'What if my tax returns show lower income than I actually earn?',
-                answer: 'This is exactly why bank statement programs exist. We calculate your income based on actual deposits into your business or personal accounts, not your adjusted gross income on tax returns. This typically results in significantly higher qualifying income.'
-              },
-              {
-                question: 'Can I use business bank statements or do they need to be personal?',
-                answer: 'Most bank statement programs accept either business or personal bank statements. Business accounts are common for sole proprietors, LLCs, and S-Corps. We analyze deposits and apply an expense factor (typically 25-50%) to arrive at qualifying income.'
-              },
-              {
-                question: 'How long does it take to get approved for a self-employed mortgage?',
-                answer: 'The approval timeline varies by program complexity and documentation readiness. Bank statement loans typically take 15-21 days from application to closing, while DSCR investor loans can often close even faster. Having your documentation organized upfront helps expedite the process significantly.'
-              }
-            ].map((faq, index) => (
+            {faqs.map((faq, index) => (
               <div key={index} className="bg-slate-50 rounded-lg p-6">
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{faq.question}</h3>
                 <p className="text-slate-600">{faq.answer}</p>
@@ -352,6 +407,6 @@ export default function SelfEmployedHomeLoans() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

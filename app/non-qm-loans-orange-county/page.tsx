@@ -5,6 +5,8 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, TrendingUp, Users, FileText, Calculator, Shield, Zap } from 'lucide-react';
 import Link from 'next/link';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans in Orange County, CA | Alternative Documentation Loans',
@@ -22,6 +24,24 @@ export const metadata: Metadata = {
     },
   },
 };
+
+const PAGE_URL = 'https://www.mothebroker.com/non-qm-loans-orange-county';
+
+const brokerEntityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Non-QM Loans',
+  serviceName: 'Non-QM Loans in Orange County',
+  serviceDescription: 'Non-QM loans in Orange County with flexible income verification. Perfect for self-employed, investors, and non-traditional borrowers.',
+  areaServedNames: ['Orange County, CA', 'Irvine', 'Newport Beach', 'Mission Viejo', 'Anaheim', 'Costa Mesa', 'Huntington Beach', 'Santa Ana'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Non-QM Loans in Orange County, CA | Alternative Documentation Loans',
+  description: 'Get Non-QM loans in Orange County with flexible income verification. Perfect for self-employed, investors, and non-traditional borrowers.',
+  breadcrumbName: 'Non-QM Loans Orange County',
+  dateModified: '2026-02-16',
+});
 
 const benefits = [
   {
@@ -94,11 +114,72 @@ const cities = [
   'Irvine', 'Newport Beach', 'Mission Viejo', 'Anaheim', 'Costa Mesa', 'Huntington Beach', 'Santa Ana'
 ];
 
+const faqs = [
+  {
+    question: 'What does Non-QM stand for and what makes it different?',
+    answer: 'Non-QM stands for Non-Qualified Mortgage. These loans don\'t meet the strict federal guidelines of QM loans, allowing for more flexible underwriting and alternative income documentation methods.'
+  },
+  {
+    question: 'Can self-employed borrowers qualify for Non-QM loans?',
+    answer: 'Absolutely! Non-QM loans are perfect for self-employed borrowers who can use bank statements, profit & loss statements, or asset documentation instead of traditional W-2s and tax returns.'
+  },
+  {
+    question: 'What are the typical down payment requirements for Non-QM loans?',
+    answer: 'Down payments typically range from 10-25% depending on the loan program, borrower profile, and property type. Some programs may allow lower down payments with compensating factors.'
+  },
+  {
+    question: 'How much can I borrow with a Non-QM loan in Orange County?',
+    answer: 'Non-QM loans can go well above traditional conforming limits, often up to $5M or more depending on the lender and your qualification factors.'
+  },
+  {
+    question: 'What documentation do I need for a Non-QM loan?',
+    answer: 'Documentation varies by program but may include: 12-24 months of bank statements, profit & loss statements, asset statements, CPA letters, or other alternative income verification methods.'
+  },
+  {
+    question: 'Are loan pricing higher on Non-QM loans?',
+    answer: 'Non-QM loans typically have slightly higher pricing than traditional loans due to the additional flexibility and risk. However, they often provide access to financing that wouldn\'t otherwise be available.'
+  }
+];
+
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
+
+const howToSchema = buildHowToSchema({
+  name: 'How to Apply for a Non-QM Loan in Orange County',
+  description: 'Streamlined Non-QM loan application process designed for borrowers with unique financial circumstances.',
+  totalTime: 'P35D',
+  url: PAGE_URL,
+  steps: [
+    { name: 'Initial Consultation', text: 'Discuss your unique situation and determine the best Non-QM program' },
+    { name: 'Alternative Documentation', text: 'Submit bank statements, P&L, or asset documentation' },
+    { name: 'Customized Underwriting', text: 'Flexible underwriting based on your complete financial picture' },
+    { name: 'Quick Closing', text: 'Faster approval and closing process than traditional loans' },
+  ],
+});
+
 export default function NonQMLoansOrangeCounty() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <article className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(brokerEntityGraph) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+
+      <Breadcrumbs />
+
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white py-20">
+      <section aria-label="Non-QM loans hero" className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -108,17 +189,17 @@ export default function NonQMLoansOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Non-QM Loans in Orange County – Flexible Financing Solutions
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-purple-100 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Break free from traditional lending restrictions. Non-QM loans offer flexible income verification and creative qualification methods for Orange County's diverse borrowers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
+                <Button size="lg" aria-label="Apply for a Non-QM loan" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
                   Apply for Non-QM Loan
                 </Button>
               </Link>
               <Link href="/calculator">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+                <Button size="lg" variant="outline" aria-label="Calculate Non-QM loan payments" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   Calculate Payments
                 </Button>
               </Link>
@@ -128,13 +209,13 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16">
+      <section aria-label="Non-QM loan benefits" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Why Choose Non-QM Loans?
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto" data-speakable="true">
               Non-QM (Non-Qualified Mortgage) loans provide flexible lending solutions for borrowers who don't fit traditional lending criteria.
             </p>
           </div>
@@ -156,14 +237,14 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* Who Qualifies Section */}
-      <section className="py-16 bg-slate-50">
+      <section aria-label="Non-QM loan eligibility requirements" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
                 Who Qualifies for Non-QM Loans?
               </h2>
-              <p className="text-lg text-slate-600 mb-8">
+              <p className="text-lg text-slate-600 mb-8" data-speakable="true">
                 Non-QM loans are designed for borrowers with unique financial situations that don't fit traditional lending boxes.
               </p>
               <div className="space-y-4">
@@ -197,7 +278,7 @@ export default function NonQMLoansOrangeCounty() {
               </div>
               <div className="mt-6">
                 <Link href="/contact">
-                  <Button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3">
+                  <Button aria-label="Get pre-qualified for a Non-QM loan today" className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-3">
                     Get Pre-Qualified Today
                   </Button>
                 </Link>
@@ -208,13 +289,13 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* Loan Types */}
-      <section className="py-16">
+      <section aria-label="Non-QM loan program options" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Non-QM Loan Program Options
             </h2>
-            <p className="text-xl text-slate-600">
+            <p className="text-xl text-slate-600" data-speakable="true">
               Multiple Non-QM programs designed to meet different borrower needs and financial situations.
             </p>
           </div>
@@ -241,13 +322,13 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-gradient-to-br from-slate-50 to-purple-50">
+      <section aria-label="Non-QM loan application process" className="py-16 bg-gradient-to-br from-slate-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Non-QM Loan Application Process
             </h2>
-            <p className="text-xl text-slate-600">
+            <p className="text-xl text-slate-600" data-speakable="true">
               Our streamlined process is designed for borrowers with unique financial circumstances.
             </p>
           </div>
@@ -274,7 +355,7 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* Cities Served */}
-      <section className="py-16">
+      <section aria-label="Orange County cities served for Non-QM loans" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -296,7 +377,7 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-slate-50">
+      <section aria-label="Non-QM loan frequently asked questions" className="py-16 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -305,32 +386,7 @@ export default function NonQMLoansOrangeCounty() {
           </div>
 
           <div className="space-y-8">
-            {[
-              {
-                question: 'What does Non-QM stand for and what makes it different?',
-                answer: 'Non-QM stands for Non-Qualified Mortgage. These loans don\'t meet the strict federal guidelines of QM loans, allowing for more flexible underwriting and alternative income documentation methods.'
-              },
-              {
-                question: 'Can self-employed borrowers qualify for Non-QM loans?',
-                answer: 'Absolutely! Non-QM loans are perfect for self-employed borrowers who can use bank statements, profit & loss statements, or asset documentation instead of traditional W-2s and tax returns.'
-              },
-              {
-                question: 'What are the typical down payment requirements for Non-QM loans?',
-                answer: 'Down payments typically range from 10-25% depending on the loan program, borrower profile, and property type. Some programs may allow lower down payments with compensating factors.'
-              },
-              {
-                question: 'How much can I borrow with a Non-QM loan in Orange County?',
-                answer: 'Non-QM loans can go well above traditional conforming limits, often up to $5M or more depending on the lender and your qualification factors.'
-              },
-              {
-                question: 'What documentation do I need for a Non-QM loan?',
-                answer: 'Documentation varies by program but may include: 12-24 months of bank statements, profit & loss statements, asset statements, CPA letters, or other alternative income verification methods.'
-              },
-              {
-                question: 'Are loan pricing higher on Non-QM loans?',
-                answer: 'Non-QM loans typically have slightly higher pricing than traditional loans due to the additional flexibility and risk. However, they often provide access to financing that wouldn\'t otherwise be available.'
-              }
-            ].map((faq, index) => (
+            {faqs.map((faq, index) => (
               <Card key={index} className="shadow-lg border-0">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold text-slate-900 mb-3">{faq.question}</h3>
@@ -343,29 +399,29 @@ export default function NonQMLoansOrangeCounty() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-600 text-white">
+      <section aria-label="Contact us about Non-QM loans" className="py-16 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Explore Non-QM Loan Options in Orange County?
           </h2>
-          <p className="text-xl mb-8 text-purple-100">
-            Break free from traditional lending restrictions. Get flexible financing solutions 
+          <p className="text-xl mb-8 text-purple-100" data-speakable="true">
+            Break free from traditional lending restrictions. Get flexible financing solutions
             designed for your unique financial situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" aria-label="Start your Non-QM loan application" className="bg-white text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold">
                 Start Your Application
               </Button>
             </Link>
             <a href="tel:(949) 822-9662">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+              <Button size="lg" variant="outline" aria-label="Call Mo Abdel at (949) 822-9662" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                 Call (949) 822-9662
               </Button>
             </a>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

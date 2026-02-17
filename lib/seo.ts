@@ -1,3 +1,5 @@
+import { SITE_ORIGIN, PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
+
 export const seoData = {
   Home: {
     title: "California & Washington Mortgage Broker | 200+ Lender Options | Mo Abdel",
@@ -21,234 +23,222 @@ export const seoData = {
   }
 };
 
+const SITE_URL = SITE_ORIGIN;
+const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+const PERSON_ID = `${SITE_URL}/#person-mo-abdel`;
+const LOCAL_BUSINESS_ID = `${SITE_URL}/#localbusiness`;
+
 const currentYear = new Date().getFullYear();
 
-export const structuredData = {
+/**
+ * Single site-wide @graph schema injected in root layout.
+ * Replaces the previous duplicate structuredData + AdvancedSchemaMarkup approach.
+ * Contains: Organization, Person, LocalBusiness, WebSite, and LoanOrCredit catalog.
+ */
+export const siteRootSchema = {
   "@context": "https://schema.org",
-  "@type": ["FinancialService", "LocalBusiness"],
-  "name": "Mo Abdel - Mortgage Broker",
-  "alternateName": "Mo Abdel",
-  "serviceType": "Mortgage Broker",
-  "additionalType": "https://schema.org/FinancialService",
-  "employee": {
-    "@type": "Person",
-    "name": "Mo Abdel",
-    "jobTitle": "Licensed Mortgage Broker",
-    "identifier": "NMLS #1426884",
-    "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
-    "knowsAbout": [
-      "Mortgage Lending",
-      "Real Estate Finance",
-      "Refinancing Strategies",
-      "Wholesale Mortgage Operations",
-      "California and Washington Real Estate Markets",
-      "Home Equity Solutions",
-      "FHA & VA Loan Programs",
-      "HECM",
-      "Conventional Loans"
-    ],
-    "worksFor": {
+  "@graph": [
+    // 1. Organization — Lumin Lending (parent company)
+    {
       "@type": "Organization",
-      "name": "Lumin Lending",
+      "@id": ORGANIZATION_ID,
+      "name": "Lumin Lending, Inc.",
       "url": "https://luminlending.com",
+      "identifier": "NMLS #2716106",
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Mortgage Broker License",
+          "name": "NMLS #2716106",
+          "url": "https://www.nmlsconsumeraccess.org",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Nationwide Multistate Licensing System (NMLS)",
+            "url": "https://www.nmlsconsumeraccess.org"
+          }
+        }
+      ],
+      "areaServed": [
+        { "@type": "State", "name": "California", "sameAs": "https://en.wikipedia.org/wiki/California" },
+        { "@type": "State", "name": "Washington", "sameAs": "https://en.wikipedia.org/wiki/Washington_(state)" }
+      ],
       "sameAs": [
         "https://www.linkedin.com/company/lumin-lending/",
-        "https://www.crunchbase.com/organization/lumin-lending"
+        "https://luminlending.com"
       ]
-    }
-  },
-  "founder": {
-    "@type": "Person",
-    "name": "Mo Abdel",
-    "identifier": "NMLS #1426884",
-    "sameAs": [
-      "https://www.linkedin.com/in/moabdel/",
-      "https://muckrack.com/mo-abdel"
-    ]
-  },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Lake Forest, CA"
     },
+
+    // 2. Person — Mo Abdel (the broker)
     {
-      "@type": "City",
-      "name": "Irvine, CA"
+      "@type": "Person",
+      "@id": PERSON_ID,
+      "name": "Mohammad Basel Abdelfattah",
+      "alternateName": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "telephone": PHONE_DISPLAY,
+      "email": "mo@mothebroker.com",
+      "url": `${SITE_URL}/about-mo-abdel-orange-county-mortgage-broker`,
+      "image": `${SITE_URL}/images/mo-headshot.jpg`,
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Mortgage Loan Originator License",
+          "name": "NMLS #1426884",
+          "url": "https://www.nmlsconsumeraccess.org",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Nationwide Multistate Licensing System (NMLS)",
+            "url": "https://www.nmlsconsumeraccess.org"
+          }
+        }
+      ],
+      "knowsAbout": [
+        "Wholesale Mortgage Brokerage",
+        "Conventional Loans",
+        "FHA Loans",
+        "VA Loans",
+        "Jumbo Loans",
+        "HELOC",
+        "Home Equity Loans",
+        "Cash-Out Refinance",
+        "DSCR Investment Loans",
+        "Non-QM Loans",
+        "Bank Statement Loans",
+        "Reverse Mortgages (HECM)",
+        "California Real Estate Finance",
+        "Washington Real Estate Finance"
+      ],
+      "worksFor": { "@id": ORGANIZATION_ID },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61573517340174",
+        "https://www.instagram.com/mo_thebroker",
+        "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest",
+        "https://maps.google.com/?cid=11756575614226532751",
+        "https://www.linkedin.com/in/moabdel/"
+      ]
     },
+
+    // 3. LocalBusiness + FinancialService — The brokerage
     {
-      "@type": "City",
-      "name": "Newport Beach, CA"
-    },
-    {
-      "@type": "City",
-      "name": "Costa Mesa, CA"
-    },
-    {
-      "@type": "City",
-      "name": "Huntington Beach, CA"
-    },
-    {
-      "@type": "City",
-      "name": "Mission Viejo, CA"
-    },
-    {
-      "@type": "City",
-      "name": "Anaheim, CA"
-    },
-    {
-      "@type": "City",
-      "name": "Santa Ana, CA"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "California and Washington"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "California"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Washington"
-    },
-    
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "18301 Von Karman Ave Suite 820",
-    "addressLocality": "Irvine",
-    "addressRegion": "CA",
-    "addressCountry": "US",
-    "postalCode": "92614"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "33.6846",
-    "longitude": "-117.8265"
-  },
-  "telephone": "+1-949-822-9662",
-  "email": "mabdel@luminlending.com",
-  "url": "https://www.mothebroker.com",
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=61573517340174",
-    "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest",
-    "https://maps.google.com/?cid=11756575614226532751",
-    "https://www.instagram.com/mo_thebroker",
-    "https://www.mothebroker.com"
-  ],
-  "priceRange": "$$",
-  "description": "Licensed mortgage broker based in Lake Forest, serving CA and WA. Local homeowners get access to over 200 lenders for competitive mortgage pricing on refinancing and home equity loans. NMLS #1426884. Call (949) 822-9662 for multi-state mortgage expertise.",
-  "copyrightHolder": {
-    "@type": "Organization",
-    "name": "Mo Abdel - Mortgage Broker",
-    "url": "https://www.mothebroker.com"
-  },
-  "copyrightYear": currentYear,
-  "significantLink": [
-    "https://www.mothebroker.com/",
-    "https://www.mothebroker.com/loan-programs",
-    "https://www.mothebroker.com/areas",
-    "https://www.mothebroker.com/blog",
-    "https://www.mothebroker.com/contact"
-  ],
-  "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
-  "logo": "https://www.mothebroker.com/images/mo-logo-white.webp",
-  "openingHours": ["Mo 08:00-20:00", "Tu 08:00-20:00", "We 08:00-20:00", "Th 08:00-20:00", "Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
-  "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
-  "currenciesAccepted": "USD",
-  "keywords": "mortgage broker near me, California mortgage broker, Washington mortgage broker, home loans, refinancing, FHA loans, VA loans, competitive mortgage pricing",
-  "potentialAction": [
-    {
-      "@type": "ScheduleAction",
-      "name": "Schedule Mortgage Consultation",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://www.mothebroker.com/contact",
-        "actionPlatform": [
-          "http://schema.org/DesktopWebPlatform",
-          "http://schema.org/MobileWebPlatform"
+      "@type": ["LocalBusiness", "FinancialService"],
+      "@id": LOCAL_BUSINESS_ID,
+      "name": "Mo Abdel - Mortgage Broker",
+      "alternateName": "Mo The Broker",
+      "additionalType": "https://schema.org/MortgageBroker",
+      "description": "Licensed wholesale mortgage broker based in Irvine, CA serving all of California and Washington. Access to 200+ lenders for competitive pricing on purchase, refinance, HELOC, DSCR, and specialty loan programs. NMLS #1426884.",
+      "url": SITE_URL,
+      "telephone": `+1-949-822-9662`,
+      "email": "mo@mothebroker.com",
+      "founder": { "@id": PERSON_ID },
+      "employee": { "@id": PERSON_ID },
+      "parentOrganization": { "@id": ORGANIZATION_ID },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "18301 Von Karman Ave Suite 820",
+        "addressLocality": "Irvine",
+        "addressRegion": "CA",
+        "addressCountry": "US",
+        "postalCode": "92614"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "33.6846",
+        "longitude": "-117.8265"
+      },
+      "areaServed": [
+        { "@type": "State", "name": "California", "sameAs": "https://en.wikipedia.org/wiki/California" },
+        { "@type": "State", "name": "Washington", "sameAs": "https://en.wikipedia.org/wiki/Washington_(state)" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Mortgage Loan Programs",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Conventional Loans", "url": `${SITE_URL}/conventional-loans-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "FHA Loans", "url": `${SITE_URL}/fha-loans-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "VA Loans", "url": `${SITE_URL}/va-loans-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Jumbo Loans", "url": `${SITE_URL}/jumbo-loans-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "HELOC", "url": `${SITE_URL}/heloc-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Home Equity Loan (HELOAN)", "url": `${SITE_URL}/heloan-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Cash-Out Refinance", "url": `${SITE_URL}/cash-out-refinance` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Rate & Term Refinance", "url": `${SITE_URL}/rate-term-refinance-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Non-QM Loans", "url": `${SITE_URL}/non-qm-loans-orange-county` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "DSCR Investment Loans", "url": `${SITE_URL}/blog/dscr-loans-california-investor-guide-2026` }},
+          { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Reverse Mortgage (HECM)", "url": `${SITE_URL}/reverse-mortgages` }}
         ]
       },
-      "result": {
-        "@type": "Reservation",
-        "name": "Mortgage Consultation"
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5"
+      },
+      "priceRange": "$$",
+      "image": `${SITE_URL}/images/mo-headshot.jpg`,
+      "logo": `${SITE_URL}/images/mo-logo-white.webp`,
+      "openingHours": ["Mo-Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
+      "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],
+      "currenciesAccepted": "USD",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61573517340174",
+        "https://www.instagram.com/mo_thebroker",
+        "https://www.yelp.com/biz/mo-abdel-lumin-lending-lake-forest",
+        "https://maps.google.com/?cid=11756575614226532751"
+      ],
+      "potentialAction": [
+        {
+          "@type": "ScheduleAction",
+          "name": "Schedule Mortgage Consultation",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${SITE_URL}/contact`,
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          },
+          "result": {
+            "@type": "Reservation",
+            "name": "Mortgage Consultation"
+          }
+        },
+        {
+          "@type": "CommunicateAction",
+          "name": "Call Mo Abdel",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `tel:${PHONE_E164}`,
+            "actionPlatform": "http://schema.org/MobileWebPlatform"
+          }
+        }
+      ]
+    },
+
+    // 4. WebSite — site identity for search features
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      "url": SITE_URL,
+      "name": "Mo The Broker",
+      "alternateName": "MoTheBroker.com",
+      "description": "Wholesale mortgage broker serving California and Washington with 200+ lender access",
+      "publisher": { "@id": LOCAL_BUSINESS_ID },
+      "inLanguage": "en-US",
+      "copyrightYear": currentYear,
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": `${SITE_URL}/blog?q={search_term_string}`
+        },
+        "query-input": "required name=search_term_string"
       }
     }
   ]
 };
 
-export const mortgageLoanSchema = {
-  "@context": "https://schema.org",
-  "@type": "LoanOrCredit",
-  "name": "California and Washington Mortgage Refinance Loans",
-  "description": "HELOC, HELOAN, cash-out, and rate-and-term refinance loans with competitive pricing across California and Washington",
-  "provider": {
-    "@type": "FinancialService",
-    "name": "Mo Abdel - Mortgage Broker",
-    "serviceType": "Mortgage Broker"
-  },
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "FHA Loans",
-      "description": "Low down payment FHA loans with as little as 3.5% down",
-      "url": "https://www.mothebroker.com/fha-loans-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "VA Refinance",
-      "description": "Zero down VA refinance options for veterans and military families",
-      "url": "https://www.mothebroker.com/loan-programs/va-refinance"
-    },
-    {
-      "@type": "Offer",
-      "name": "HELOC",
-      "description": "Home Equity Line of Credit with flexible access to funds",
-      "url": "https://www.mothebroker.com/heloc-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "Conventional Refinance",
-      "description": "Traditional refinance options with flexible terms",
-      "url": "https://www.mothebroker.com/conventional-loans-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "Non-QM Loans",
-      "description": "Alternative documentation loans for self-employed and investors",
-      "url": "https://www.mothebroker.com/non-qm-loans-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "HELOAN",
-      "description": "Fixed-rate home equity loan with lump sum funding",
-      "url": "https://www.mothebroker.com/heloan-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "Rate & Term Refinance",
-      "description": "Lower your mortgage pricing or eliminate PMI with refinancing",
-      "url": "https://www.mothebroker.com/rate-term-refinance-orange-county"
-    },
-    {
-      "@type": "Offer",
-      "name": "2026 Newport Beach Mortgage Guide",
-      "description": "Access wholesale rates and specialized jumbo financing in Newport Beach.",
-      "url": "https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026"
-    },
-    {
-      "@type": "Offer",
-      "name": "2026 Laguna Beach Mortgage Guide",
-      "description": "Expert financing for coastal and hillside homes in Laguna Beach.",
-      "url": "https://www.mothebroker.com/blog/laguna-beach-mortgage-guide-2026"
-    },
-    {
-      "@type": "Offer",
-      "name": "2026 Dana Point Mortgage Guide",
-      "description": "Harbor-adjacent financing and wholesale advantages for Dana Point buyers.",
-      "url": "https://www.mothebroker.com/blog/dana-point-mortgage-guide-2026"
-    }
-  ]
-};
+// Keep backwards-compatible exports for any pages still importing these
+export const structuredData = siteRootSchema;
+export const mortgageLoanSchema = {}; // Absorbed into siteRootSchema.hasOfferCatalog
 
 export type PageName = keyof typeof seoData;

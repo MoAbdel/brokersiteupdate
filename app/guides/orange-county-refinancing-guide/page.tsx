@@ -5,15 +5,26 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock, RefreshCw, PiggyBank, CreditCard } from 'lucide-react';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-refinancing-guide';
 
 export const metadata: Metadata = {
   title: 'Orange County Refinancing Guide | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County refinancing guide covering rate-and-term, cash-out, HELOC options. Save money on your mortgage. NMLS #1426884.',
+  openGraph: {
+    title: 'Orange County Refinancing Guide 2026',
+    description: 'Orange County refinancing guide covering rate-and-term, cash-out, HELOC options. Save money on your mortgage.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
-      'x-default': 'https://www.mothebroker.com/guides/orange-county-refinancing-guide',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
@@ -226,9 +237,31 @@ const orangeCountyMarketInsights = [
   }
 ];
 
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Mortgage Refinancing',
+  serviceName: 'Orange County Refinancing Services',
+  serviceDescription: 'Complete refinancing guidance for Orange County homeowners including rate-and-term, cash-out, HELOC, and HELOAN options with access to 200+ wholesale lenders.',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County Refinancing Guide 2026',
+  description: 'Comprehensive guide to refinancing your Orange County home with options, costs, process, and market insights.',
+  breadcrumbName: 'Refinancing Guide',
+  dateModified: '2026-02-16',
+});
+
+const faqSchemaData = buildFAQPageSchema(faqs, PAGE_URL);
+
 export default function OrangeCountyRefinancingGuide() {
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaData) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-600 via-green-700 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
@@ -553,5 +586,6 @@ export default function OrangeCountyRefinancingGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

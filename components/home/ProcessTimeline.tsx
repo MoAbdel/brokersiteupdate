@@ -78,8 +78,27 @@ export default function ProcessTimeline() {
     };
   }, []);
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Get a Mortgage with a Wholesale Broker",
+    "description": "5-step mortgage process from application to closing with access to 50+ wholesale lenders",
+    "totalTime": "P21D",
+    "step": [
+      { "@type": "HowToStep", "position": 1, "name": "Submit Application", "text": "Complete a quick mortgage application — no upfront credit check required. Takes about 10-15 minutes." },
+      { "@type": "HowToStep", "position": 2, "name": "Lender Shopping", "text": "We compare your profile across 50+ wholesale lenders to find the best rates and terms for your situation." },
+      { "@type": "HowToStep", "position": 3, "name": "Compare Options", "text": "Review side-by-side loan options with transparent rates, terms, and closing costs — no hidden fees." },
+      { "@type": "HowToStep", "position": 4, "name": "Lock Your Rate", "text": "Secure your interest rate with a rate lock guarantee, protecting you from market fluctuations." },
+      { "@type": "HowToStep", "position": 5, "name": "Close Your Loan", "text": "Final document signing and funding — typical closing in 15-21 days from application." }
+    ]
+  };
+
   return (
-    <div className="hidden md:block w-full max-w-6xl mx-auto px-4 mt-8 lg:mt-12 mb-10">
+    <div className="hidden md:block w-full max-w-6xl mx-auto px-4 mt-8 lg:mt-12 mb-10" aria-label="Mortgage application process steps">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <div className="relative">
         {/* Progress Line Background (Gray) */}
         <div className="absolute top-1/2 left-0 w-full h-1 bg-slate-200 -translate-y-1/2 rounded-full hidden md:block" />

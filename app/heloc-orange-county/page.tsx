@@ -4,7 +4,8 @@ import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, CreditCard, Clock, Building } from 'lucide-react';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Orange County HELOC | Flexible Home Equity Credit Line',
@@ -23,19 +24,22 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/heloc-orange-county';
+
 const structuredData = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/heloc-orange-county',
+  pageUrl: PAGE_URL,
   serviceType: 'HELOC Home Equity Line of Credit',
   serviceName: 'Orange County HELOC',
   serviceDescription: 'Expert HELOC services in Orange County, CA',
 });
 
 const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/heloc-orange-county',
+  pageUrl: PAGE_URL,
   title: 'Orange County HELOC | Flexible Home Equity Credit Line',
   description:
     'Access home equity with a HELOC in Orange County. Compare draw periods, repayment options, and lender terms with Mo Abdel (NMLS #1426884).',
   breadcrumbName: 'HELOC',
+  dateModified: '2026-02-16',
 });
 
 const helocBenefits = [
@@ -108,18 +112,7 @@ const faqs = [
   }
 ];
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer
-    }
-  }))
-};
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 const comparisonData = [
   {
@@ -150,7 +143,7 @@ const comparisonData = [
 
 export default function HELOCOrangeCountyPage() {
   return (
-    <>
+    <article aria-label="Orange County HELOC home equity line of credit">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -163,6 +156,9 @@ export default function HELOCOrangeCountyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+
+      <Breadcrumbs />
+
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -171,7 +167,7 @@ export default function HELOCOrangeCountyPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               Home Equity Line of Credit (HELOC) in <span className="text-blue-600">Orange County, CA</span>
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
               A HELOC provides flexible access to your Orange County home's equity with a revolving credit line.
               Draw funds as needed for home improvements, education, debt consolidation, or other major expenses.
               With Orange County's strong property values, many homeowners have substantial equity available.
@@ -182,21 +178,21 @@ export default function HELOCOrangeCountyPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg flex items-center">
-                  <Zap className="w-5 h-5 mr-2" />
+                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg flex items-center" aria-label="Start 5-minute HELOC pre-approval application">
+                  <Zap className="w-5 h-5 mr-2" aria-hidden="true" />
                   5-Min Pre-Approval
                 </Button>
               </a>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
           </div>
 
           {/* How a HELOC Works */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
+          <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="How a HELOC works in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              How a HELOC Works in Orange County
+              How Does a HELOC Work in Orange County?
             </h2>
 
             <div className="max-w-4xl mx-auto">
@@ -233,16 +229,19 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* Benefits of a HELOC */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Benefits of a HELOC in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of a HELOC in Orange County
+              What Are the Benefits of a HELOC in Orange County?
             </h2>
+            <p className="text-lg text-slate-700 max-w-4xl mx-auto mb-8 text-center" data-speakable="true">
+              A HELOC gives Orange County homeowners flexible, revolving access to home equity with interest-only payments during the draw period and competitive variable rates.
+            </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {helocBenefits.map((benefit, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
                   <div className="flex items-center mb-6">
-                    <benefit.icon className="w-12 h-12 text-blue-600 mr-4" />
+                    <benefit.icon className="w-12 h-12 text-blue-600 mr-4" aria-hidden="true" />
                     <div>
                       <h3 className="text-2xl font-bold text-slate-900">{benefit.title}</h3>
                       <p className="text-slate-600">{benefit.description}</p>
@@ -252,7 +251,7 @@ export default function HELOCOrangeCountyPage() {
                   <ul className="space-y-2">
                     {benefit.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{detail}</span>
                       </li>
                     ))}
@@ -263,9 +262,9 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* HELOC vs Cash-Out Refinance vs HELOAN */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-blue-50 rounded-xl p-8" aria-label="HELOC vs cash-out refinance vs home equity loan comparison">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              HELOC vs Cash-Out Refinance vs Home Equity Loan
+              HELOC vs Cash-Out Refinance vs Home Equity Loan: Which Is Best?
             </h2>
 
             <div className="max-w-6xl mx-auto overflow-x-auto">
@@ -297,12 +296,12 @@ export default function HELOCOrangeCountyPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/cash-out-refinance">
-                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2">
+                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Learn about cash-out refinance options">
                     Learn About Cash-Out Refinance
                   </Button>
                 </Link>
                 <Link href="/heloan-orange-county">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2">
+                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Compare HELOAN options in Orange County">
                     Compare HELOAN Options
                   </Button>
                 </Link>
@@ -310,7 +309,7 @@ export default function HELOCOrangeCountyPage() {
             </div>
           </section>
 
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Free HELOC vs cash-out worksheet">
             <LeadMagnetCTA
               title="Free: HELOC vs Cash-Out Worksheet"
               description="Not sure which option fits your goal? Get a quick comparison worksheet and next-step plan based on your timeline and cash needs."
@@ -321,15 +320,15 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* Fast HELOC Option */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="5-minute HELOC pre-approval program">
             <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-8">
               <div className="text-center mb-8">
                 <div className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-full text-lg font-bold mb-4">
-                  <Zap className="w-6 h-6 mr-2" />
+                  <Zap className="w-6 h-6 mr-2" aria-hidden="true" />
                   NEW: 5-Minute HELOC Pre-Approval
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">Get Your Orange County HELOC Pre-Approved in Just 5 Minutes</h2>
-                <p className="text-xl text-slate-700 max-w-3xl mx-auto">
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">How Can You Get Pre-Approved for a HELOC in Just 5 Minutes?</h2>
+                <p className="text-xl text-slate-700 max-w-3xl mx-auto" data-speakable="true">
                   Revolutionary fast-track HELOC program with instant pre-approval decisions and funds available in 5-7 business days.
                 </p>
               </div>
@@ -337,7 +336,7 @@ export default function HELOCOrangeCountyPage() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Clock className="w-8 h-8 text-white" />
+                    <Clock className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">5-Minute Application</h3>
                   <p className="text-slate-700">Quick online application with instant decision technology</p>
@@ -345,7 +344,7 @@ export default function HELOCOrangeCountyPage() {
 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Users className="w-8 h-8 text-white" />
+                    <Users className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Streamlined Process</h3>
                   <p className="text-slate-700">Simplified documentation and faster underwriting</p>
@@ -353,7 +352,7 @@ export default function HELOCOrangeCountyPage() {
 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <DollarSign className="w-8 h-8 text-white" />
+                    <DollarSign className="w-8 h-8 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Fast Funding</h3>
                   <p className="text-slate-700">Access your funds in 5-7 business days after approval</p>
@@ -366,8 +365,8 @@ export default function HELOCOrangeCountyPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-semibold flex items-center">
-                    <Zap className="w-5 h-5 mr-2" />
+                  <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg font-semibold flex items-center" aria-label="Start 5-minute HELOC pre-approval now">
+                    <Zap className="w-5 h-5 mr-2" aria-hidden="true" />
                     Start 5-Min Pre-Approval
                   </Button>
                 </a>
@@ -376,7 +375,7 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* Who Qualifies */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="HELOC qualification requirements in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Who Qualifies for a HELOC in Orange County?
             </h2>
@@ -387,23 +386,23 @@ export default function HELOCOrangeCountyPage() {
                   <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Typical Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> At least 15-20% in your home</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, verifiable income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> 50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Property Type:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
@@ -413,23 +412,23 @@ export default function HELOCOrangeCountyPage() {
                   <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal for Orange County Homeowners</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Planning home renovations or improvements</span>
                     </li>
                     <li className="flex items-start">
-                      <Building className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Building className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Need flexible access to funds over time</span>
                     </li>
                     <li className="flex items-start">
-                      <CreditCard className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <CreditCard className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Want to consolidate high-interest debts</span>
                     </li>
                     <li className="flex items-start">
-                      <Calculator className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Calculator className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Prefer interest-only payments initially</span>
                     </li>
                     <li className="flex items-start">
-                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Have benefited from Orange County appreciation</span>
                     </li>
                   </ul>
@@ -439,7 +438,7 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Frequently asked questions about HELOCs in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               FAQs About HELOCs in Orange County
             </h2>
@@ -454,7 +453,7 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* Internal Links Section */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Related Orange County mortgage services">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
               Explore Related Orange County Mortgage Services
             </h2>
@@ -475,7 +474,7 @@ export default function HELOCOrangeCountyPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-blue-600 text-white rounded-lg p-8">
+          <section className="text-center bg-blue-600 text-white rounded-lg p-8" aria-label="Get started with your HELOC application">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>
             <p className="text-xl mb-6 text-blue-100">
               Discover how much you can access with a HELOC and get started with our 5-minute pre-approval.
@@ -486,11 +485,11 @@ export default function HELOCOrangeCountyPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
+                <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg" aria-label="Start 5-minute HELOC application">
                   Start 5-Min HELOC Application
                 </Button>
               </a>
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">Call (949) 822-9662</a>
               </Button>
             </div>
@@ -500,6 +499,6 @@ export default function HELOCOrangeCountyPage() {
           </section>
         </div>
       </div>
-    </>
+    </article>
   );
 }

@@ -7,7 +7,7 @@ import ProcessTimeline from "./ProcessTimeline";
 
 export default function HeroSection() {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-28 overflow-hidden bg-white">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-28 overflow-hidden bg-white" aria-label="Mortgage broker hero with value proposition and call to action">
       {/* Background: Subtle Grid Pattern Only */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] mask-image-[radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
@@ -28,7 +28,7 @@ export default function HeroSection() {
               <p className="text-2xl text-slate-700 font-medium mb-4">
                 Mo Abdel | Sr. Mortgage Broker | Lumin Lending
               </p>
-              <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto" data-speakable="true">
                 Skip the bank. We access 50+ wholesale lenders to find you lower rates, faster approvals, and zero bureaucratic headaches.
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function HeroSection() {
           {/* Enhanced CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
             <Link href="/contact" className="w-full sm:w-auto">
-              <Button size="lg" className="w-full sm:w-auto h-12 bg-white/10 backdrop-blur-md border border-green-600/30 text-green-700 hover:bg-green-50/50 hover:border-green-600 hover:shadow-lg hover:shadow-green-500/10 px-8 text-base font-semibold rounded-full transition-all duration-300 group">
+              <Button size="lg" aria-label="Get my loan options - start your mortgage application" className="w-full sm:w-auto h-12 bg-white/10 backdrop-blur-md border border-green-600/30 text-green-700 hover:bg-green-50/50 hover:border-green-600 hover:shadow-lg hover:shadow-green-500/10 px-8 text-base font-semibold rounded-full transition-all duration-300 group">
                 <Calculator className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform text-green-600" />
                 Get My Loan Options
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform text-green-600" />
@@ -65,7 +65,7 @@ export default function HeroSection() {
             </Link>
 
             <a href="tel:+19498229662" className="w-full sm:w-auto">
-              <Button size="lg" variant="ghost" className="w-full sm:w-auto h-12 bg-white/10 backdrop-blur-md border border-slate-200 text-slate-600 hover:bg-slate-50/50 hover:border-slate-400 hover:text-slate-900 px-8 text-base font-medium rounded-full transition-all duration-300">
+              <Button size="lg" variant="ghost" aria-label="Schedule a mortgage strategy session - call (949) 822-9662" className="w-full sm:w-auto h-12 bg-white/10 backdrop-blur-md border border-slate-200 text-slate-600 hover:bg-slate-50/50 hover:border-slate-400 hover:text-slate-900 px-8 text-base font-medium rounded-full transition-all duration-300">
                 <Phone className="w-4 h-4 mr-2" />
                 Schedule Strategy Session
               </Button>

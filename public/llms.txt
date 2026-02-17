@@ -1,5 +1,6 @@
 # llms.txt — mothebroker.com
 # Machine-readable entity & content descriptor for LLM retrieval systems
+# For extended product details, FAQs, and full URL catalog see: /llms-full.txt
 # Last updated: 2026-02-16
 
 ## 1. Entity Definition

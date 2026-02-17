@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 import { Building2 } from 'lucide-react';
@@ -33,14 +31,14 @@ export default function WestCapitalAdvantage() {
   ];
 
   return (
-    <section className="py-16 bg-white border-t-0">
+    <section className="py-16 bg-white border-t-0" aria-label="Wholesale mortgage pricing advantage and loan programs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            The Lumin Lending Advantage
+            How Does Wholesale Mortgage Pricing Save You Money?
           </h2>
-          <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Access to wholesale pricing that retail banks simply cannot match
+          <p className="text-lg text-slate-600 max-w-3xl mx-auto" data-speakable="true">
+            Wholesale mortgage pricing gives you access to institutional rates that retail banks simply cannot match, saving thousands over the life of your loan.
           </p>
         </div>
 

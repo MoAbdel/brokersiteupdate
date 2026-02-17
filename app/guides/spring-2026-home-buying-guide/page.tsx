@@ -7,18 +7,45 @@ import AIOOptimization from '@/components/seo/AIOOptimization';
 import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
 import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide';
 
 export const metadata: Metadata = {
     title: 'Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884',
     description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases. Call (949) 822-9662.',
-    alternates: {
-    canonical: 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
-    languages: {
-      'en-US': 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
-      'x-default': 'https://www.mothebroker.com/guides/spring-2026-home-buying-guide',
+    openGraph: {
+      title: 'Spring 2026 Orange County Home Buying Guide',
+      description: 'Spring 2026 Orange County home buying guide. Market trends, mortgage pricing, inventory levels, and expert tips for successful spring home purchases.',
+      url: PAGE_URL,
+      type: 'article',
+      siteName: 'Mo Abdel | Mortgage Broker',
     },
-  },
+    alternates: {
+      canonical: PAGE_URL,
+      languages: {
+        'en-US': PAGE_URL,
+        'x-default': PAGE_URL,
+      },
+    },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Seasonal Home Buying Guidance',
+  serviceName: 'Spring 2026 Home Buying Strategy',
+  serviceDescription: 'Expert spring 2026 home buying guidance for Orange County with seasonal market analysis, inventory trends, and month-by-month buying strategies.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Costa Mesa', 'Anaheim Hills'],
+});
+
+const springWebPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Spring 2026 Orange County Home Buying Guide',
+  description: 'Navigate Orange County spring market with expert insights, seasonal trends, and strategic buying advice.',
+  breadcrumbName: 'Spring 2026 Guide',
+  dateModified: '2026-02-16',
+});
 
 export default function Spring2026HomeBuyingGuidePage() {
 
@@ -196,6 +223,8 @@ export default function Spring2026HomeBuyingGuidePage() {
 
     return (
         <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(springWebPageSchema) }} />
             {/* SEO Optimization Components */}
             <AIOOptimization
                 title="Spring 2026 Orange County Home Buying Guide | Best Time to Buy | Mo Abdel NMLS #1426884"
@@ -209,6 +238,7 @@ export default function Spring2026HomeBuyingGuidePage() {
 
             {/* Page Content */}
             <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+                <Breadcrumbs />
                 {/* Hidden AI Content */}
                 <div style={{ display: 'none' }} aria-hidden="true">
                     <h1>Spring 2026 Orange County Home Buying Guide</h1>

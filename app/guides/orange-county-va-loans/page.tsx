@@ -1,11 +1,49 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Shield, Star, Home, MapPin, Calculator, Phone, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
-export const metadata = {
-  robots: { index: false, follow: true },
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-va-loans';
+
+export const metadata: Metadata = {
+  title: 'VA Loans for Orange County Veterans 2026 | Zero Down Home Buying Guide',
+  description: 'Complete guide to VA home loans in Orange County. $0 down, no PMI, competitive pricing for veterans and military families. Loan limits, eligibility, and process. NMLS #1426884.',
+  openGraph: {
+    title: 'VA Loans for Orange County Veterans 2026',
+    description: 'Complete guide to VA home loans in Orange County. $0 down, no PMI, competitive pricing for veterans and military families.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
+  alternates: {
+    canonical: PAGE_URL,
+  },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'VA Home Loans',
+  serviceName: 'Orange County VA Loan Services',
+  serviceDescription: 'Expert VA loan guidance for Orange County veterans and military families. Zero down payment, no PMI, and competitive pricing on homes near Camp Pendleton and military bases.',
+  areaServedNames: ['San Clemente', 'Dana Point', 'Mission Viejo', 'Huntington Beach', 'Costa Mesa', 'Los Alamitos'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'VA Loans for Orange County Veterans 2026',
+  description: 'Complete guide to VA home loans in Orange County with eligibility, loan limits, and step-by-step process.',
+  breadcrumbName: 'VA Loans Guide',
+  dateModified: '2026-02-16',
+});
+
+const faqSchema = buildFAQPageSchema([
+  { question: 'What is the VA loan limit for Orange County in 2025?', answer: 'The 2025 VA loan limit for Orange County is $1,266,300 for standard VA loans with $0 down payment. VA jumbo loans above this amount require 25% down on the excess amount.' },
+  { question: 'Can I use a VA loan in Orange County with no down payment?', answer: 'Yes, VA loans allow $0 down payment for homes up to the $1,266,300 loan limit in Orange County. This benefit saves veterans $200,000+ compared to conventional loan down payments on typical OC homes.' },
+  { question: 'Which Orange County areas are best for VA home buyers?', answer: 'Mission Viejo ($950K median, 100% VA coverage), Costa Mesa ($950K median, 100% coverage), and San Clemente ($1.2M median, 85% coverage near Camp Pendleton) are popular choices for military families.' },
+], PAGE_URL);
 
 export default function OrangeCountyVALoansGuide() {
   const vaLoanBenefits = [
@@ -187,7 +225,12 @@ export default function OrangeCountyVALoansGuide() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <div className="relative py-20 lg:py-32 overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -535,5 +578,6 @@ export default function OrangeCountyVALoansGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

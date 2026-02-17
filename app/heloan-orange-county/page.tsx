@@ -3,7 +3,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, CreditCard, PiggyBank } from 'lucide-react';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
@@ -22,19 +23,22 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/heloan-orange-county';
+
 const structuredData = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/heloan-orange-county',
+  pageUrl: PAGE_URL,
   serviceType: 'Home Equity Loan HELOAN',
   serviceName: 'Orange County Home Equity Loan',
   serviceDescription: 'Expert home equity loan services in Orange County, CA',
 });
 
 const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/heloan-orange-county',
+  pageUrl: PAGE_URL,
   title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
   description:
     'Get a fixed-rate home equity loan in Orange County with predictable payments and clear terms. Compare HELOAN options with Mo Abdel (NMLS #1426884).',
   breadcrumbName: 'HELOAN',
+  dateModified: '2026-02-16',
 });
 
 const heloanBenefits = [
@@ -107,18 +111,7 @@ const faqs = [
   }
 ];
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer
-    }
-  }))
-};
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 const comparisonData = [
   {
@@ -159,7 +152,7 @@ const commonUses = [
     icon: Home,
     examples: [
       'Kitchen and bathroom remodels',
-      'Home additions and expansions', 
+      'Home additions and expansions',
       'Pool installation and landscaping',
       'Solar panel installations'
     ],
@@ -202,7 +195,7 @@ const commonUses = [
 
 export default function HELOANOrangeCountyPage() {
   return (
-    <>
+    <article aria-label="Orange County home equity loan HELOAN options">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -215,28 +208,31 @@ export default function HELOANOrangeCountyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+
+      <Breadcrumbs />
+
       <div className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               Home Equity Loans in <span className="text-blue-600">Orange County, CA</span>
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              A Home Equity Loan (HELOAN) provides a fixed-rate lump sum secured by your Orange County home's equity. 
-              Get predictable monthly payments and immediate access to substantial funds for major expenses, home improvements, 
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
+              A Home Equity Loan (HELOAN) provides a fixed-rate lump sum secured by your Orange County home's equity.
+              Get predictable monthly payments and immediate access to substantial funds for major expenses, home improvements,
               or debt consolidation. With fixed rates and transparent terms, it's the stable alternative to variable HELOCs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Call to get HELOAN pricing and terms">
                 <a href="tel:(949) 822-9662" className="flex items-center">
-                  <Calculator className="w-5 h-5 mr-2" />
+                  <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
                   Get HELOAN Pricing & Terms
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Schedule a free equity consultation">
                   Free Equity Consultation
                 </Button>
               </Link>
@@ -244,14 +240,14 @@ export default function HELOANOrangeCountyPage() {
           </div>
 
           {/* 2026 Loan Limits for Home Equity */}
-          <section className="mb-16 bg-green-50 rounded-xl p-8">
+          <section className="mb-16 bg-green-50 rounded-xl p-8" aria-label="2026 home equity loan limits in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
-              2026 Loan Limits for Home Equity in Orange County
+              What Are the 2026 Loan Limits for Home Equity in Orange County?
             </h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-slate-700 mb-6 text-center">
-                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,249,125</strong>, 
-                with FHA-backed options capped at <strong>$1,266,300</strong>. With Orange County's high property values, 
+              <p className="text-lg text-slate-700 mb-6 text-center" data-speakable="true">
+                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,249,125</strong>,
+                with FHA-backed options capped at <strong>$1,266,300</strong>. With Orange County's high property values,
                 many homeowners can access substantial borrowing capacity.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -275,26 +271,29 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* Benefits of a Home Equity Loan */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Benefits of a home equity loan in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of a Home Equity Loan in Orange County
+              What Are the Benefits of a Home Equity Loan in Orange County?
             </h2>
-            
+            <p className="text-lg text-slate-700 max-w-4xl mx-auto mb-8 text-center" data-speakable="true">
+              A home equity loan gives Orange County homeowners a fixed-rate lump sum with predictable monthly payments, lower rates than credit cards, and immediate access to substantial funds.
+            </p>
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {heloanBenefits.map((benefit, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
                   <div className="flex items-center mb-6">
-                    <benefit.icon className="w-12 h-12 text-blue-600 mr-4" />
+                    <benefit.icon className="w-12 h-12 text-blue-600 mr-4" aria-hidden="true" />
                     <div>
                       <h3 className="text-2xl font-bold text-slate-900">{benefit.title}</h3>
                       <p className="text-slate-600">{benefit.description}</p>
                     </div>
                   </div>
-                  
+
                   <ul className="space-y-2">
                     {benefit.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{detail}</span>
                       </li>
                     ))}
@@ -305,11 +304,11 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* HELOAN vs HELOC vs Cash-Out Refinance */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section className="mb-16 bg-blue-50 rounded-xl p-8" aria-label="HELOAN vs HELOC vs cash-out refinance comparison">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              HELOAN vs HELOC vs Cash-Out Refinance
+              HELOAN vs HELOC vs Cash-Out Refinance: Which Is Right for You?
             </h2>
-            
+
             <div className="max-w-6xl mx-auto overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-md">
                 <thead>
@@ -332,19 +331,19 @@ export default function HELOANOrangeCountyPage() {
                 </tbody>
               </table>
             </div>
-            
+
             <div className="text-center mt-8">
               <p className="text-slate-600 mb-4">
                 Need help deciding which option is best for your situation? I can analyze your specific needs and Orange County property value.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/heloc-orange-county">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2">
+                  <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2" aria-label="Compare HELOC options in Orange County">
                     Compare HELOC Options
                   </Button>
                 </Link>
                 <Link href="/cash-out-refinance">
-                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2">
+                  <Button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2" aria-label="Explore cash-out refinance options">
                     Explore Cash-Out Refinance
                   </Button>
                 </Link>
@@ -353,28 +352,28 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* Common Uses for HELOANs */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Common uses for home equity loans in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Common Uses for Home Equity Loans in Orange County
+              What Are Common Uses for Home Equity Loans in Orange County?
             </h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {commonUses.map((use, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
                   <div className="flex items-center mb-6">
-                    <use.icon className="w-12 h-12 text-blue-600 mr-4" />
+                    <use.icon className="w-12 h-12 text-blue-600 mr-4" aria-hidden="true" />
                     <h3 className="text-2xl font-bold text-slate-900">{use.category}</h3>
                   </div>
-                  
+
                   <ul className="space-y-2 mb-6">
                     {use.examples.map((example, idx) => (
                       <li key={idx} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-slate-700">{example}</span>
                       </li>
                     ))}
                   </ul>
-                  
+
                   <div className="bg-slate-50 rounded-lg p-4">
                     <p className="text-slate-700 font-medium">
                       <strong>Benefit:</strong> {use.benefit}
@@ -386,34 +385,34 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* Who Qualifies */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
+          <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="Home equity loan qualification requirements">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Who Qualifies for a Home Equity Loan in Orange County?
             </h2>
-            
+
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Qualification Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 680+ for best pricing</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> At least 15-20% remaining after loan</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, documented income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> Total debts under 43-50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Property:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
@@ -423,23 +422,23 @@ export default function HELOANOrangeCountyPage() {
                   <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal Candidates</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Home className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Planning specific one-time expenses</span>
                     </li>
                     <li className="flex items-start">
-                      <Calculator className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Calculator className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Prefer predictable fixed payments</span>
                     </li>
                     <li className="flex items-start">
-                      <Shield className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Shield className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Want rate protection from market changes</span>
                     </li>
                     <li className="flex items-start">
-                      <DollarSign className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <DollarSign className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Need substantial lump sum amount</span>
                     </li>
                     <li className="flex items-start">
-                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Orange County homeowners with appreciated equity</span>
                     </li>
                   </ul>
@@ -449,7 +448,7 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Frequently asked questions about home equity loans in Orange County">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               FAQs About Home Equity Loans in Orange County
             </h2>
@@ -464,7 +463,7 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* Internal Links Section */}
-          <section className="mb-16">
+          <section className="mb-16" aria-label="Related Orange County mortgage services">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
               Explore Related Orange County Mortgage Services
             </h2>
@@ -485,19 +484,19 @@ export default function HELOANOrangeCountyPage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-green-600 text-white rounded-lg p-8">
+          <section className="text-center bg-green-600 text-white rounded-lg p-8" aria-label="Get started with your home equity loan">
             <h2 className="text-3xl font-bold mb-4">Ready for Fixed-Rate Home Equity Access?</h2>
             <p className="text-xl mb-6 text-green-100">
               Get your free equity consultation and discover your HELOAN options in Orange County's market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">
                   Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg" aria-label="Schedule a free equity loan consultation">
                   Free Equity Loan Consultation
                 </Button>
               </Link>
@@ -508,6 +507,6 @@ export default function HELOANOrangeCountyPage() {
           </section>
         </div>
       </div>
-    </>
+    </article>
   );
 }

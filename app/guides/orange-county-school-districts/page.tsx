@@ -1,11 +1,49 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GraduationCap, Home, TrendingUp, MapPin, Star, Phone, Calculator } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
-export const metadata = {
-  robots: { index: false, follow: true },
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-school-districts';
+
+export const metadata: Metadata = {
+  title: 'Orange County School District Home Buying Guide 2026 | Mo Abdel',
+  description: 'Find the best homes in Orange County top-rated school districts. Irvine, Newport-Mesa, Capistrano Unified ratings, home prices, and mortgage options. NMLS #1426884.',
+  openGraph: {
+    title: 'Orange County School District Home Buying Guide 2026',
+    description: 'Find the best homes in Orange County top-rated school districts. Irvine, Newport-Mesa, Capistrano Unified ratings, home prices, and mortgage options.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
+  alternates: {
+    canonical: PAGE_URL,
+  },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'School District Home Financing',
+  serviceName: 'Orange County School District Home Buying Guidance',
+  serviceDescription: 'Expert mortgage guidance for buying homes in Orange County top-rated school districts including Irvine Unified, Newport-Mesa, and Capistrano Unified.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Dana Point', 'San Clemente', 'Laguna Beach', 'Los Alamitos'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County School District Home Buying Guide 2026',
+  description: 'Find the best homes in Orange County top-rated school districts with mortgage options and neighborhood analysis.',
+  breadcrumbName: 'School District Guide',
+  dateModified: '2026-02-16',
+});
+
+const faqSchema = buildFAQPageSchema([
+  { question: 'Which Orange County school districts have the highest ratings?', answer: 'Irvine Unified (10/10), Newport-Mesa Unified (9/10), Capistrano Unified (9/10), Laguna Beach Unified (9/10), and Los Alamitos Unified (9/10) consistently rank among the top districts in California.' },
+  { question: 'How do school district ratings affect home prices in Orange County?', answer: 'Homes in top-rated school districts command premium prices. Irvine Unified homes have a median price of $1,400,000, Newport-Mesa at $1,800,000, and Laguna Beach at $2,200,000. These districts offer better resale value protection.' },
+  { question: 'What loan types work best for school district homes in Orange County?', answer: 'Conventional loans cover homes up to $1,266,300, jumbo loans serve luxury districts like Laguna Beach and Newport Coast, and FHA loans with 3.5% down work for more affordable district areas.' },
+], PAGE_URL);
 
 export default function OrangeCountySchoolDistrictsGuide() {
   const topSchoolDistricts = [
@@ -94,7 +132,12 @@ export default function OrangeCountySchoolDistrictsGuide() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <div className="relative py-20 lg:py-32 overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -411,5 +454,6 @@ export default function OrangeCountySchoolDistrictsGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

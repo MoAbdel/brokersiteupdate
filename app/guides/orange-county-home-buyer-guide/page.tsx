@@ -4,6 +4,10 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock } from 'lucide-react';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide';
 
 export const metadata: Metadata = {
   title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process | Mo Abdel',
@@ -11,14 +15,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Orange County Home Buyer Guide 2026 | Complete Mortgage Process',
     description: 'Complete Orange County home buying guide covering mortgage pre-approval, down payments, neighborhoods, and closing costs.',
+    url: PAGE_URL,
     type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
     publishedTime: '2026-01-10T08:00:00.000Z',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
-      'x-default': 'https://www.mothebroker.com/guides/orange-county-home-buyer-guide',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
@@ -162,9 +168,32 @@ const faqs = [
   }
 ];
 
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Home Buying Guidance',
+  serviceName: 'Orange County Home Buyer Guide',
+  serviceDescription: 'Complete home buying guide for Orange County covering mortgage pre-approval, loan options, neighborhoods, closing process, and first-time buyer programs.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Mission Viejo', 'Costa Mesa', 'Anaheim', 'Huntington Beach'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County Home Buyer Guide 2026',
+  description: 'Complete guide to buying a home in Orange County with loan options, neighborhood comparisons, and step-by-step process.',
+  breadcrumbName: 'Home Buyer Guide',
+  dateModified: '2026-02-16',
+});
+
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
+
 export default function OrangeCountyHomeBuyerGuide() {
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
@@ -490,5 +519,6 @@ export default function OrangeCountyHomeBuyerGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

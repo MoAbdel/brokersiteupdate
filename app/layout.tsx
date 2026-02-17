@@ -5,12 +5,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import FacebookPixel from '@/components/FacebookPixel';
-import AdvancedSchemaMarkup from '@/components/seo/AdvancedSchemaMarkup';
 import MobileStickyCallButton from '@/components/MobileStickyCallButton';
 import SupportBubble from '@/components/SupportBubble';
 import ExitIntentModal from '@/components/ExitIntentModal';
 import ConditionalSiteEnhancements from '@/components/ConditionalSiteEnhancements';
-import { structuredData, mortgageLoanSchema } from '@/lib/seo';
+import { siteRootSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
 
@@ -51,14 +50,6 @@ export const metadata: Metadata = {
     description: 'Get competitive mortgage pricing from 200+ lenders across California and Washington with fast closings, unbiased advice, and flexible home loan programs.',
     url: 'https://www.mothebroker.com',
     siteName: 'Mo Abdel | Mortgage Broker',
-    images: [
-      {
-        url: '/images/mo-headshot.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'California and Washington Mortgage Broker - Mo Abdel NMLS #1426884',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
@@ -66,7 +57,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'California & Washington Mortgage Broker | Mo Abdel NMLS #1426884',
     description: 'Get competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
-    images: ['/images/mo-headshot.jpg'],
     creator: '@mothebroker',
     site: '@mothebroker',
   },
@@ -92,9 +82,6 @@ export default function RootLayout({
         {/* CRITICAL: Optimize resource loading to prevent render blocking */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//www.facebook.com" />
-
-        {/* CRITICAL: Preload key images for LCP optimization with dimensions for CLS prevention */}
-        <link rel="preload" href="/images/mo-headshot.jpg" as="image" type="image/jpeg" media="(min-width: 640px)" />
 
         {/* Critical: Image dimension hints to prevent CLS */}
         <style dangerouslySetInnerHTML={{
@@ -122,12 +109,11 @@ export default function RootLayout({
 
 
 
-        <AdvancedSchemaMarkup type="Organization" />
         <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
       </head>
       <body className={`min-h-screen ${inter.className}`}>
         <Header />
-        <main className="flex-1">
+        <main id="main-content" className="flex-1">
           {children}
         </main>
         <Footer />
@@ -139,12 +125,12 @@ export default function RootLayout({
         <MobileStickyCallButton />
         <Analytics />
 
-        {/* Combined structured data - single script for better performance */}
+        {/* Site-wide structured data: entity graph + loan catalog */}
         <script
-          id="combined-structured-data"
+          id="site-root-schema"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify([structuredData, mortgageLoanSchema])
+            __html: JSON.stringify(siteRootSchema)
           }}
         />
       </body>

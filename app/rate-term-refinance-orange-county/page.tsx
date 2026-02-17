@@ -5,7 +5,8 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, TrendingDown, Calendar, Shield, Calculator, Users, Zap } from 'lucide-react';
 import Link from 'next/link';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Orange County Rate-and-Term Refinance | Lower Payment Options',
@@ -23,6 +24,8 @@ export const metadata: Metadata = {
     },
   },
 };
+
+const PAGE_URL = 'https://www.mothebroker.com/rate-term-refinance-orange-county';
 
 const benefits = [
   {
@@ -59,7 +62,7 @@ const benefits = [
 
 const whenToRefinance = [
   {
-    scenario: 'Pricing Has Dropped',
+    scenario: 'Pricing Have Dropped',
     description: 'When Market pricing is 0.5% or more below your current pricing',
     savings: 'Monthly payment reduction'
   },
@@ -117,18 +120,19 @@ const cities = [
 ];
 
 const pageSchema = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+  pageUrl: PAGE_URL,
   serviceType: 'Mortgage Rate and Term Refinance',
   serviceName: 'Orange County Rate-and-Term Refinance',
   serviceDescription: 'Expert rate-and-term refinance services in Orange County, CA',
 });
 
 const webPageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/rate-term-refinance-orange-county',
+  pageUrl: PAGE_URL,
   title: 'Orange County Rate-and-Term Refinance | Lower Payment Options',
   description:
     'Refinance to lower your monthly payment, shorten your term, or remove PMI. Compare Orange County rate-and-term options with Mo Abdel (NMLS #1426884).',
   breadcrumbName: 'Rate-and-Term Refinance',
+  dateModified: '2026-02-16',
 });
 
 const faqItems = [
@@ -158,22 +162,24 @@ const faqItems = [
   }
 ];
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqItems.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer
-    }
-  }))
-};
+const faqSchema = buildFAQPageSchema(faqItems, PAGE_URL);
+
+const howToSchema = buildHowToSchema({
+  name: 'How to Refinance Your Mortgage Rate and Term in Orange County',
+  description: 'Streamlined rate and term refinance process to lower your monthly payment, shorten your term, or remove PMI.',
+  totalTime: 'P21D',
+  url: PAGE_URL,
+  steps: [
+    { name: 'Loan Comparison', text: 'Compare your current pricing with available competitive pricing' },
+    { name: 'Application Submission', text: 'Complete refinance application with income verification' },
+    { name: 'Home Appraisal', text: 'Property appraisal confirms current value and equity' },
+    { name: 'Closing & Funding', text: 'Sign new loan documents and enjoy lower payments' },
+  ],
+});
 
 export default function RateTermRefinanceOrangeCounty() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <article className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
@@ -186,8 +192,15 @@ export default function RateTermRefinanceOrangeCounty() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+
+      <Breadcrumbs />
+
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 text-white py-20">
+      <section aria-label="Rate and term refinance hero" className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -197,17 +210,17 @@ export default function RateTermRefinanceOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Rate & Term Refinance in Orange County – Lower Your Payment
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-indigo-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 text-indigo-100 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance pricing from 200+ lenders for your Orange County home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold">
+                <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold" aria-label="Get a refinance quote">
                   Get Refinance Quote
                 </Button>
               </Link>
               <Link href="/calculator">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg" aria-label="Calculate your refinance savings">
                   Calculate Savings
                 </Button>
               </Link>
@@ -217,13 +230,13 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16">
+      <section aria-label="Benefits of rate and term refinancing" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Benefits of Rate & Term Refinancing
+              What Are the Benefits of Rate & Term Refinancing?
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto" data-speakable="true">
               Rate and term refinancing can improve your mortgage terms without taking cash out of your home.
             </p>
           </div>
@@ -233,7 +246,7 @@ export default function RateTermRefinanceOrangeCounty() {
               <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="w-12 h-12 bg-gradient-to-br from-indigo-100 to-blue-100 rounded-lg flex items-center justify-center mb-4">
-                    <benefit.icon className="w-6 h-6 text-indigo-600" />
+                    <benefit.icon className="w-6 h-6 text-indigo-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">{benefit.title}</h3>
                   <p className="text-slate-600">{benefit.description}</p>
@@ -245,7 +258,7 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* When to Refinance */}
-      <section className="py-16 bg-slate-50">
+      <section aria-label="When to refinance your mortgage" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -273,11 +286,11 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* Refinance Types */}
-      <section className="py-16">
+      <section aria-label="Types of rate and term refinancing" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Types of Rate & Term Refinancing
+              What Types of Rate & Term Refinancing Are Available?
             </h2>
             <p className="text-xl text-slate-600">
               Different refinancing strategies to meet your specific financial goals.
@@ -303,20 +316,20 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* Requirements & Calculator */}
-      <section className="py-16 bg-gradient-to-br from-slate-50 to-indigo-50">
+      <section aria-label="Refinance requirements and savings calculator" className="py-16 bg-gradient-to-br from-slate-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Refinance Requirements in California
+                What Are the Refinance Requirements in California?
               </h2>
-              <p className="text-lg text-slate-600 mb-8">
+              <p className="text-lg text-slate-600 mb-8" data-speakable="true">
                 Rate and term refinancing has similar qualification requirements to your original mortgage.
               </p>
               <div className="space-y-4">
                 {requirements.map((requirement, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
                     <span className="text-slate-700">{requirement}</span>
                   </div>
                 ))}
@@ -344,7 +357,7 @@ export default function RateTermRefinanceOrangeCounty() {
               </div>
               <div className="mt-6">
                 <Link href="/contact">
-                  <Button className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-semibold py-3">
+                  <Button className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-semibold py-3" aria-label="Get your exact refinance savings quote">
                     Get Your Exact Savings Quote
                   </Button>
                 </Link>
@@ -355,11 +368,11 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* Process Steps */}
-      <section className="py-16">
+      <section aria-label="Rate and term refinance process steps" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Rate & Term Refinance Process
+              How Does the Rate & Term Refinance Process Work?
             </h2>
             <p className="text-xl text-slate-600">
               Our streamlined refinancing process makes improving your mortgage terms simple and fast.
@@ -388,7 +401,7 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* Cities Served */}
-      <section className="py-16 bg-slate-50">
+      <section aria-label="Orange County cities served for refinancing" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -410,7 +423,7 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16">
+      <section aria-label="Frequently asked questions about rate and term refinancing" className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -432,29 +445,29 @@ export default function RateTermRefinanceOrangeCounty() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-600 text-white">
+      <section aria-label="Get started with rate and term refinancing" className="py-16 bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Lower Your Orange County Mortgage Payment?
           </h2>
-          <p className="text-xl mb-8 text-indigo-100">
-            Access competitive refinance pricing from 200+ lenders and start saving money every month. 
+          <p className="text-xl mb-8 text-indigo-100" data-speakable="true">
+            Access competitive refinance pricing from 200+ lenders and start saving money every month.
             Mo Abdel makes refinancing simple and profitable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold">
+              <Button size="lg" className="bg-white text-indigo-700 hover:bg-indigo-50 px-8 py-4 text-lg font-semibold" aria-label="Start your refinance application">
                 Start Your Refinance
               </Button>
             </Link>
             <Link href="tel:+19498229662">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 Call (949) 822-9662
               </Button>
             </Link>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

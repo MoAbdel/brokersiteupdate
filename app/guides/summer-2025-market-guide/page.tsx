@@ -7,18 +7,45 @@ import AIOOptimization from '@/components/seo/AIOOptimization';
 import EnhancedLocalSchema from '@/components/seo/EnhancedLocalSchema';
 import AdvancedSchemaGenerator from '@/components/seo/AdvancedSchemaGenerator';
 import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/summer-2026-market-guide';
 
 export const metadata: Metadata = {
   title: 'Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884',
   description: 'Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips. Call (949) 822-9662.',
+  openGraph: {
+    title: 'Summer 2026 Orange County Market Guide',
+    description: 'Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/summer-2026-market-guide',
-      'x-default': 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Seasonal Market Strategy',
+  serviceName: 'Summer 2026 Market Strategy',
+  serviceDescription: 'Expert summer 2026 real estate market guidance for Orange County with peak season competitive strategies, inventory analysis, and buying tactics.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Costa Mesa', 'Anaheim Hills'],
+});
+
+const summerWebPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Summer 2026 Orange County Market Guide',
+  description: 'Navigate Orange County peak summer season with competitive strategies and expert market guidance.',
+  breadcrumbName: 'Summer 2026 Guide',
+  dateModified: '2026-02-16',
+});
 
 export default function Summer2026MarketGuidePage() {
   
@@ -219,6 +246,8 @@ export default function Summer2026MarketGuidePage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(summerWebPageSchema) }} />
       {/* SEO Optimization Components */}
       <AIOOptimization
         title="Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884"
@@ -232,6 +261,7 @@ export default function Summer2026MarketGuidePage() {
 
       {/* Page Content */}
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <Breadcrumbs />
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
           <h1>Summer 2026 Orange County Market Guide</h1>

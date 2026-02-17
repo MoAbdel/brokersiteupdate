@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { Phone, Mail, MapPin, Heart, Home, Users } from 'lucide-react';
 import { buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Orange County Mortgage Broker | NMLS #1426884',
@@ -34,6 +35,7 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-900 to-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Phone, MapPin, Star, Shield, Award, Clock, Users } from 'lucide-react';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Licensed Orange County Mortgage Broker NMLS #1426884',
@@ -79,26 +80,8 @@ export default function AboutMoAbdelPage() {
       />
 
       <div className="min-h-screen py-12 bg-gradient-to-b from-slate-50 to-white">
+        <Breadcrumbs />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          {/* Breadcrumb Navigation */}
-          <nav className="flex mb-8" aria-label="Breadcrumb">
-            <ol className="inline-flex items-center space-x-1 md:space-x-3">
-              <li className="inline-flex items-center">
-                <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                  </svg>
-                  <span className="ml-1 text-sm font-medium text-gray-500">About Mo Abdel</span>
-                </div>
-              </li>
-            </ol>
-          </nav>
 
           {/* Hero Section */}
           <div className="text-center mb-16">

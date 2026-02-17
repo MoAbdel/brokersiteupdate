@@ -1,7 +1,49 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Crown, TrendingUp, Home, MapPin, Calculator, Phone, DollarSign, Star } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-jumbo-loans';
+
+export const metadata: Metadata = {
+  title: 'Orange County Jumbo Loan Guide 2026 | Luxury Home Financing',
+  description: 'Complete guide to jumbo mortgages for Orange County luxury properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates. NMLS #1426884.',
+  openGraph: {
+    title: 'Orange County Jumbo Loan Guide 2026',
+    description: 'Complete guide to jumbo mortgages for Orange County luxury properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
+  alternates: {
+    canonical: PAGE_URL,
+  },
+};
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Jumbo Mortgage Loans',
+  serviceName: 'Orange County Jumbo Loan Financing',
+  serviceDescription: 'Expert jumbo loan guidance for Orange County luxury properties above the conforming limit. Conventional jumbo, bank statement, asset depletion, and interest-only options.',
+  areaServedNames: ['Newport Coast', 'Newport Beach', 'Laguna Beach', 'Corona del Mar', 'Irvine', 'Coto de Caza'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Orange County Jumbo Loan Guide 2026',
+  description: 'Complete guide to jumbo mortgages for luxury Orange County properties with loan types, qualification requirements, and market analysis.',
+  breadcrumbName: 'Jumbo Loans Guide',
+  dateModified: '2026-02-16',
+});
+
+const faqSchema = buildFAQPageSchema([
+  { question: 'What is the jumbo loan threshold in Orange County for 2026?', answer: 'Loans above $1,249,125 are considered jumbo in Orange County for 2026. Approximately 60-70% of Orange County home purchases require jumbo financing due to the high-cost housing market.' },
+  { question: 'What credit score do I need for a jumbo loan in Orange County?', answer: 'Conventional jumbo loans require 740+ for the best pricing. Bank statement jumbo loans accept 700+, asset depletion jumbo requires 720+, and interest-only jumbo needs 760+. Higher scores unlock better rates and terms.' },
+  { question: 'Which Orange County areas require jumbo loans?', answer: 'Newport Coast (95% of purchases), Balboa Island (90%), Laguna Beach (85%), Corona del Mar (80%), Turtle Rock in Irvine (70%), and Coto de Caza (65%) are the primary areas requiring jumbo financing.' },
+], PAGE_URL);
 
 export default function OrangeCountyJumboLoansGuide() {
   const luxuryMarkets = [
@@ -190,7 +232,12 @@ export default function OrangeCountyJumboLoansGuide() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <div className="relative py-20 lg:py-32 overflow-hidden bg-white">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -542,5 +589,6 @@ export default function OrangeCountyJumboLoansGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

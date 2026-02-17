@@ -5,18 +5,45 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, DollarSign, MapPin, GraduationCap, Calculator, Phone, Mail, Building, Users, Shield, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide';
 
 export const metadata: Metadata = {
   title: 'Definitive Orange County Mortgage Guide 2026 | Complete Resource',
   description: 'Complete guide to Orange County mortgages by licensed broker Mo Abdel (NMLS #1426884). FHA, VA, conventional, jumbo loans, market data, and expert guidance.',
+  openGraph: {
+    title: 'Definitive Orange County Mortgage Guide 2026',
+    description: 'Complete guide to Orange County mortgages by licensed broker Mo Abdel. FHA, VA, conventional, jumbo loans, market data, and expert guidance.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide',
-      'x-default': 'https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Mortgage Brokerage Services',
+  serviceName: 'Complete Orange County Mortgage Guide',
+  serviceDescription: 'Comprehensive mortgage guide covering all loan programs available in Orange County including conventional, FHA, VA, and jumbo loans with city-specific market data.',
+  areaServedNames: ['Irvine', 'Newport Beach', 'Anaheim', 'Costa Mesa', 'Huntington Beach', 'Mission Viejo'],
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Definitive Orange County Mortgage Guide 2026',
+  description: 'Complete guide to Orange County mortgages with loan programs, qualification requirements, city guides, and market insights.',
+  breadcrumbName: 'Definitive Mortgage Guide',
+  dateModified: '2026-02-16',
+});
 
 export default function DefinitiveOrangeCountyMortgageGuide() {
   const loanPrograms = [
@@ -154,7 +181,11 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
   ];
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -471,5 +502,6 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
         </div>
       </section>
     </div>
+    </>
   );
 }

@@ -44,14 +44,14 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-16 bg-gradient-to-br from-blue-50 to-slate-50">
+    <section className="py-16 bg-gradient-to-br from-blue-50 to-slate-50" aria-label="Why choose a mortgage broker over traditional banks">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <Badge className="bg-green-100 text-green-800 mb-4">Lumin Lending Advantage</Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             Why Choose a Mortgage Broker vs Banks?
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto" data-speakable="true">
             Unlike retail banks with limited product offerings, I leverage wholesale lending channels
             and 50+ lender relationships to provide more options and competitive pricing for every
             California and Washington homeowner.

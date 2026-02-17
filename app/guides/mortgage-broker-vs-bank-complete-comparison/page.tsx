@@ -5,18 +5,50 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { CheckCircle, Building, Users, DollarSign, Clock, Shield, Target, Phone, Calculator, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison';
 
 export const metadata: Metadata = {
   title: 'Mortgage Broker vs Bank: Complete Comparison Guide 2026',
   description: 'Comprehensive comparison of mortgage brokers vs banks by licensed broker Mo Abdel (NMLS #1426884). Rates, service, options, and expert guidance for Orange County buyers.',
+  openGraph: {
+    title: 'Mortgage Broker vs Bank: Complete Comparison Guide 2026',
+    description: 'Comprehensive comparison of mortgage brokers vs banks. Rates, service, options, and expert guidance for Orange County buyers.',
+    url: PAGE_URL,
+    type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison',
-      'x-default': 'https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
+
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Mortgage Brokerage Comparison',
+  serviceName: 'Mortgage Broker vs Bank Comparison Guide',
+  serviceDescription: 'Comprehensive comparison of mortgage brokers vs banks covering rates, service, loan options, closing speed, and costs for Orange County home buyers.',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Mortgage Broker vs Bank: Complete Comparison Guide 2026',
+  description: 'Comprehensive analysis of mortgage brokers vs banks with cost comparison, service analysis, and expert recommendations.',
+  breadcrumbName: 'Broker vs Bank',
+  dateModified: '2026-02-16',
+});
+
+const faqSchema = buildFAQPageSchema([
+  { question: 'Are mortgage broker rates lower than bank rates?', answer: 'Yes, mortgage brokers access wholesale rates typically 0.125-0.25% lower than retail bank rates. On a $1M Orange County home, this saves approximately $149/month and $53,640 over 30 years compared to bank financing.' },
+  { question: 'How many lenders does a mortgage broker have access to?', answer: 'A mortgage broker like Mo Abdel accesses 200+ wholesale lenders, compared to a bank which offers only their own products. This wide access means better rate shopping, more loan program options, and higher approval chances.' },
+  { question: 'Is closing faster with a mortgage broker or bank?', answer: 'Mortgage brokers average 18-25 day closings compared to 21-30 days for banks. Established lender relationships and efficient processing give brokers an edge, especially in Orange County competitive markets.' },
+], PAGE_URL);
 
 export default function MortgageBrokerVsBankComparison() {
   const comparisonData = [
@@ -246,7 +278,12 @@ export default function MortgageBrokerVsBankComparison() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <Breadcrumbs />
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -753,6 +790,7 @@ export default function MortgageBrokerVsBankComparison() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

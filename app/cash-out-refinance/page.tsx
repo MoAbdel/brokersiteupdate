@@ -3,7 +3,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank } from 'lucide-react';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
   title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
@@ -22,19 +23,22 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGE_URL = 'https://www.mothebroker.com/cash-out-refinance';
+
 const structuredData = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/cash-out-refinance',
+  pageUrl: PAGE_URL,
   serviceType: 'Cash-Out Refinance Services',
   serviceName: 'Orange County Cash-Out Refinance',
   serviceDescription: 'Expert cash-out refinance services in Orange County, CA',
 });
 
 const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/cash-out-refinance',
+  pageUrl: PAGE_URL,
   title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
   description:
     'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
   breadcrumbName: 'Cash-Out Refinance',
+  dateModified: '2026-02-16',
 });
 
 const cashOutUses = [
@@ -111,18 +115,20 @@ const faqs = [
   }
 ];
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer
-    }
-  }))
-};
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
+
+const howToSchema = buildHowToSchema({
+  name: 'How to Get a Cash-Out Refinance in Orange County',
+  description: 'Step-by-step cash-out refinance process to turn your Orange County home equity into cash.',
+  totalTime: 'P21D',
+  url: PAGE_URL,
+  steps: [
+    { name: 'Consultation & Analysis', text: 'We\'ll review your goals, current mortgage, and home value to determine your cash-out potential.' },
+    { name: 'Application & Documentation', text: 'Complete the application and gather required documents. Mo will guide you through each step.' },
+    { name: 'Appraisal & Underwriting', text: 'Professional appraisal confirms your home\'s current value. Underwriter reviews and approves your loan.' },
+    { name: 'Closing & Cash-Out', text: 'At closing, you\'ll sign documents and receive your cash. The process typically takes 2-3 weeks total.' },
+  ],
+});
 
 const comparisonPoints = [
   {
@@ -166,44 +172,54 @@ export default function CashOutRefinancePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <div className="min-h-screen py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <Breadcrumbs />
+      <article className="min-h-screen py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Cash-Out Refinance in <span className="text-blue-600">Orange County, CA</span>
-            </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Turn your Orange County home's equity into cash while refinancing your mortgage. With rising home values 
-              throughout the county, you may have more equity available than you realize. Access funds for home improvements, 
-              debt consolidation, investments, or any major financial goal.
-            </p>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
-              <p className="text-green-800 font-semibold text-lg">
-                🏠 Orange County homes have appreciated significantly - you may qualify for $100K+ in cash!
+          <section aria-label="Cash-out refinance hero">
+            <div className="text-center mb-16">
+              <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+                Cash-Out Refinance in <span className="text-blue-600">Orange County, CA</span>
+              </h1>
+              <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
+                Turn your Orange County home's equity into cash while refinancing your mortgage. With rising home values
+                throughout the county, you may have more equity available than you realize. Access funds for home improvements,
+                debt consolidation, investments, or any major financial goal.
               </p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 822-9662" className="flex items-center">
-                  <Calculator className="w-5 h-5 mr-2" />
-                  Calculate My Cash-Out Amount
-                </a>
-              </Button>
-              <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                  Get My Cash-Out Quote
+              <div className="bg-green-50 border border-green-200 rounded-lg p-6 max-w-2xl mx-auto mb-8">
+                <p className="text-green-800 font-semibold text-lg">
+                  🏠 Orange County homes have appreciated significantly - you may qualify for $100K+ in cash!
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg" aria-label="Calculate your cash-out refinance amount">
+                  <a href="tel:(949) 822-9662" className="flex items-center">
+                    <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
+                    Calculate My Cash-Out Amount
+                  </a>
                 </Button>
-              </Link>
+                <Link href="/contact">
+                  <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Get a cash-out refinance quote">
+                    Get My Cash-Out Quote
+                  </Button>
+                </Link>
+              </div>
             </div>
-          </div>
+          </section>
 
           {/* How Cash-Out Refinancing Works */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
+          <section aria-label="How cash-out refinancing works" className="mb-16 bg-slate-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              How Cash-Out Refinancing Works in Orange County
+              How Does Cash-Out Refinancing Work in Orange County?
             </h2>
-            
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto text-center mb-8" data-speakable="true">
+              A cash-out refinance replaces your current mortgage with a larger loan, giving you the difference in cash to use for renovations, debt payoff, or investments.
+            </p>
+
             <div className="max-w-4xl mx-auto">
               <div className="bg-white rounded-lg shadow-md p-8 mb-8">
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Example Scenario</h3>
@@ -228,7 +244,7 @@ export default function CashOutRefinancePage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="text-center">
                 <p className="text-slate-600 text-lg">
                   <em>This example shows the potential available with Orange County's appreciated home values.</em>
@@ -238,74 +254,74 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Benefits of Cash-Out Refinancing */}
-          <section className="mb-16">
+          <section aria-label="Benefits of cash-out refinancing" className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of Cash-Out Refinancing in Orange County
+              What Are the Benefits of Cash-Out Refinancing in Orange County?
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-green-600" />
+                  <DollarSign className="w-8 h-8 text-green-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Access Large Amounts</h3>
                 <p className="text-slate-600">
-                  With Orange County's high home values, access $100K-500K+ in cash - 
+                  With Orange County's high home values, access $100K-500K+ in cash -
                   much more than credit cards or personal loans allow.
                 </p>
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-blue-600" />
+                  <TrendingUp className="w-8 h-8 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Interest pricing</h3>
                 <p className="text-slate-600">
-                  Mortgage pricing are significantly lower than credit cards, personal loans, 
+                  Mortgage pricing are significantly lower than credit cards, personal loans,
                   or other forms of borrowing.
                 </p>
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-purple-600" />
+                  <Home className="w-8 h-8 text-purple-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Tax Benefits</h3>
                 <p className="text-slate-600">
-                  Interest may be tax-deductible when used for home improvements, 
+                  Interest may be tax-deductible when used for home improvements,
                   providing additional savings.
                 </p>
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calculator className="w-8 h-8 text-orange-600" />
+                  <Calculator className="w-8 h-8 text-orange-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Monthly Payments</h3>
                 <p className="text-slate-600">
-                  Spread payments over 30 years for much lower monthly obligations 
+                  Spread payments over 30 years for much lower monthly obligations
                   compared to other loan types.
                 </p>
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CreditCard className="w-8 h-8 text-red-600" />
+                  <CreditCard className="w-8 h-8 text-red-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Debt Consolidation</h3>
                 <p className="text-slate-600">
-                  Pay off high-interest debts and simplify your finances with 
+                  Pay off high-interest debts and simplify your finances with
                   one low-rate mortgage payment.
                 </p>
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 text-center">
                 <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <PiggyBank className="w-8 h-8 text-yellow-600" />
+                  <PiggyBank className="w-8 h-8 text-yellow-600" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Fixed Rate Option</h3>
                 <p className="text-slate-600">
-                  Lock in current pricing with a fixed-rate mortgage, providing 
+                  Lock in current pricing with a fixed-rate mortgage, providing
                   payment predictability for decades.
                 </p>
               </div>
@@ -313,34 +329,34 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Popular Uses for Cash-Out Refinancing */}
-          <section className="mb-16">
+          <section aria-label="Popular uses for cash-out refinancing" className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Popular Uses for Cash-Out Refinancing in Orange County
+              What Are Popular Uses for Cash-Out Refinancing in Orange County?
             </h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {cashOutUses.map((use, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200">
                   <div className="flex items-center mb-6">
-                    <use.icon className="w-12 h-12 text-blue-600 mr-4" />
+                    <use.icon className="w-12 h-12 text-blue-600 mr-4" aria-hidden="true" />
                     <div>
                       <h3 className="text-2xl font-bold text-slate-900">{use.title}</h3>
                       <p className="text-slate-600">{use.description}</p>
                     </div>
                   </div>
-                  
+
                   <div className="mb-6">
                     <h4 className="text-lg font-semibold text-slate-900 mb-3">Benefits:</h4>
                     <ul className="space-y-2">
                       {use.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
                           <span className="text-slate-700">{benefit}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div className="bg-slate-50 rounded-lg p-4">
                     <p className="text-slate-700">
                       <strong>Popular for:</strong> {use.popularProjects}
@@ -352,11 +368,11 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Cash-Out Refinance vs Other Options */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
+          <section aria-label="Cash-out refinance versus other financing options" className="mb-16 bg-blue-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Cash-Out Refinance vs Other Financing Options
+              How Does a Cash-Out Refinance Compare to Other Financing Options?
             </h2>
-            
+
             <div className="max-w-6xl mx-auto overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-md">
                 <thead>
@@ -379,41 +395,41 @@ export default function CashOutRefinancePage() {
                 </tbody>
               </table>
             </div>
-            
+
             <p className="text-center text-slate-600 mt-6">
               *Tax benefits depend on how funds are used. Consult with a tax professional.
             </p>
           </section>
 
           {/* Who Qualifies */}
-          <section className="mb-16">
+          <section aria-label="Cash-out refinance qualification requirements" className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Who Qualifies for Cash-Out Refinancing in Orange County?
             </h2>
-            
+
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-2xl font-bold text-green-600 mb-4">✓ Typical Requirements</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Credit Score:</strong> 620+ (higher for best pricing)</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Equity:</strong> Keep at least 20% after cash-out</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Income:</strong> Stable, verifiable income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>DTI Ratio:</strong> Total debts under 43-50% of income</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span><strong>Occupancy:</strong> Primary residence preferred</span>
                     </li>
                   </ul>
@@ -423,23 +439,23 @@ export default function CashOutRefinancePage() {
                   <h3 className="text-2xl font-bold text-blue-600 mb-4">💡 Ideal Candidates</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <Building className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Building className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Homeowners with significant equity gains</span>
                     </li>
                     <li className="flex items-start">
-                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <TrendingUp className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Those with high-interest debts to consolidate</span>
                     </li>
                     <li className="flex items-start">
-                      <Hammer className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <Hammer className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Planning major home improvements</span>
                     </li>
                     <li className="flex items-start">
-                      <GraduationCap className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <GraduationCap className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Need funding for education or investments</span>
                     </li>
                     <li className="flex items-start">
-                      <DollarSign className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
+                      <DollarSign className="w-5 h-5 text-blue-600 mr-3 mt-0.5" aria-hidden="true" />
                       <span>Want access to large amounts of low-cost capital</span>
                     </li>
                   </ul>
@@ -449,11 +465,11 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Process Steps */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
+          <section aria-label="Cash-out refinance process steps" className="mb-16 bg-slate-50 rounded-xl p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              How the Cash-Out Refinance Process Works
+              How Does the Cash-Out Refinance Process Work?
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -461,7 +477,7 @@ export default function CashOutRefinancePage() {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-3">Consultation & Analysis</h3>
                 <p className="text-slate-600">
-                  We'll review your goals, current mortgage, and home value to determine 
+                  We'll review your goals, current mortgage, and home value to determine
                   your cash-out potential.
                 </p>
               </div>
@@ -472,7 +488,7 @@ export default function CashOutRefinancePage() {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-3">Application & Documentation</h3>
                 <p className="text-slate-600">
-                  Complete the application and gather required documents. I'll guide 
+                  Complete the application and gather required documents. I'll guide
                   you through each step.
                 </p>
               </div>
@@ -483,7 +499,7 @@ export default function CashOutRefinancePage() {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-3">Appraisal & Underwriting</h3>
                 <p className="text-slate-600">
-                  Professional appraisal confirms your home's current value. Underwriter 
+                  Professional appraisal confirms your home's current value. Underwriter
                   reviews and approves your loan.
                 </p>
               </div>
@@ -502,7 +518,7 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* FAQ Section */}
-          <section className="mb-16">
+          <section aria-label="Frequently asked questions about cash-out refinancing" className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
               Orange County Cash-Out Refinance FAQs
             </h2>
@@ -517,41 +533,41 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Why Work With Mo The Broker */}
-          <section className="mb-16 bg-blue-600 text-white rounded-xl p-8">
+          <section aria-label="Why work with Mo The Broker for cash-out refinance" className="mb-16 bg-blue-600 text-white rounded-xl p-8">
             <h2 className="text-3xl font-bold mb-8 text-center">
               Why Work With Mo The Broker for Your Cash-Out Refinance?
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-white" />
+                  <Home className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Orange County Expertise</h3>
                 <p className="text-blue-100">
-                  Deep knowledge of local market values and trends. I understand Orange County's 
+                  Deep knowledge of local market values and trends. I understand Orange County's
                   unique neighborhoods and property values.
                 </p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Building className="w-8 h-8 text-white" />
+                  <Building className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">200+ Lender Network</h3>
                 <p className="text-blue-100">
-                  Access to wholesale pricing and multiple program options. I shop the market 
+                  Access to wholesale pricing and multiple program options. I shop the market
                   to find your best cash-out refinance terms.
                 </p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle className="w-8 h-8 text-white" />
+                  <CheckCircle className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Personalized Service</h3>
                 <p className="text-blue-100">
-                  Direct access to me throughout the process. No call centers or 
+                  Direct access to me throughout the process. No call centers or
                   account transfers - just personalized service from start to finish.
                 </p>
               </div>
@@ -559,7 +575,7 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* Internal Links Section */}
-          <section className="mb-16">
+          <section aria-label="Related Orange County mortgage services" className="mb-16">
             <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
               Explore Related Orange County Mortgage Services
             </h2>
@@ -580,19 +596,19 @@ export default function CashOutRefinancePage() {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center bg-green-600 text-white rounded-lg p-8">
+          <section aria-label="Get started with cash-out refinance" className="text-center bg-green-600 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>
-            <p className="text-xl mb-6 text-green-100">
+            <p className="text-xl mb-6 text-green-100" data-speakable="true">
               Discover how much cash you can access with a cash-out refinance in Orange County's current market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg">
+              <Button className="bg-white text-green-600 hover:bg-green-50 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
                 <a href="tel:(949) 822-9662">
                   Call (949) 822-9662
                 </a>
               </Button>
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg" aria-label="Get your cash-out refinance quote">
                   Get My Cash-Out Quote
                 </Button>
               </Link>
@@ -602,7 +618,7 @@ export default function CashOutRefinancePage() {
             </p>
           </section>
         </div>
-      </div>
+      </article>
     </>
   );
 }

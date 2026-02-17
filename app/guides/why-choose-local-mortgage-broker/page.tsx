@@ -18,6 +18,10 @@ import {
   CheckCircle,
   ArrowLeft
 } from 'lucide-react';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+
+const PAGE_URL = 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker';
 
 export const metadata: Metadata = {
   title: 'Why Choose a Local Orange County Mortgage Broker | Mo Abdel Guide',
@@ -25,23 +29,44 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Why Choose a Local Orange County Mortgage Broker | Mo Abdel Guide',
     description: 'Discover why working with a local Orange County mortgage broker like Mo Abdel provides Better pricing, personalized service, and market expertise for your home loan.',
+    url: PAGE_URL,
     type: 'article',
+    siteName: 'Mo Abdel | Mortgage Broker',
     publishedTime: '2026-07-18T08:30:00Z',
   },
   alternates: {
-    canonical: 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
+    canonical: PAGE_URL,
     languages: {
-      'en-US': 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
-      'x-default': 'https://www.mothebroker.com/guides/why-choose-local-mortgage-broker',
+      'en-US': PAGE_URL,
+      'x-default': PAGE_URL,
     },
   },
 };
 
+const entityGraph = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Local Mortgage Brokerage',
+  serviceName: 'Local Orange County Mortgage Broker Services',
+  serviceDescription: 'Expert local Orange County mortgage brokerage with deep market knowledge, 200+ lender access, personalized service, and established professional network.',
+});
+
+const webPageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Why Choose a Local Orange County Mortgage Broker',
+  description: 'Discover the advantages of working with a local Orange County mortgage broker including better rates, personalized service, and market expertise.',
+  breadcrumbName: 'Why Choose Local Broker',
+  dateModified: '2026-02-16',
+});
+
 export default function WhyChooseLocalMortgageBrokerGuide() {
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <Breadcrumbs />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
+
         {/* Back Navigation */}
         <div className="mb-8">
           <Link 
@@ -328,5 +353,6 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
         </div>
       </div>
     </div>
+    </>
   );
 }
