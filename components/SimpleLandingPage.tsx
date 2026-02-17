@@ -18,11 +18,11 @@ export default function SimpleLandingPage() {
       {/* Lumin Lending Advantage */}
       <WestCapitalAdvantage />
 
-      {/* Guides & Resources */}
-      <GuidesAndResources />
-
       {/* Why Choose Us */}
       <WhyChooseUs />
+
+      {/* Guides & Resources */}
+      <GuidesAndResources />
 
       {/* Service Areas */}
       <ServiceAreasGrid />

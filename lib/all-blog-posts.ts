@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 10: 3 HECM + 3 Equity + 3 Wholesale/DSCR + 1 Purchase (Feb 17, 2026) =====
+  {
+    slug: 'reverse-mortgage-social-security-medicare-2026',
+    title: 'How a Reverse Mortgage Affects Social Security & Medicare Benefits [2026]',
+    excerpt: 'Learn how HECM reverse mortgage proceeds affect Social Security, Medicare, Medicaid, and SSI benefits. Loan advances are not income — but asset rules matter for means-tested programs.',
+    date: '2026-02-17',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-line-of-credit-growth-2026',
+    title: 'Reverse Mortgage Line of Credit Growth Rate: The Hidden HECM Advantage [2026]',
+    excerpt: 'Discover how unused HECM line of credit grows over time — compounding annually at the same rate as loan interest plus MIP. Growth projections, strategies, and comparison to HELOC.',
+    date: '2026-02-17',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-non-borrowing-spouse-2026',
+    title: 'Reverse Mortgage Non-Borrowing Spouse Protections: Complete Guide [2026]',
+    excerpt: 'Complete guide to non-borrowing spouse protections under 2015 HUD rules. How NBS can stay in the home, eligibility requirements, MOE deferral periods, and strategies for couples.',
+    date: '2026-02-17',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-tax-deduction-2026',
+    title: 'Home Equity Loan Tax Deduction Rules 2026: What Interest Is Deductible?',
+    excerpt: 'Home equity loan and HELOC interest tax deduction rules under TCJA. Deductible only when funds buy, build, or improve your home. $750K combined debt limit. Documentation requirements.',
+    date: '2026-02-17',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-college-tuition-heloc-2026',
+    title: 'Using Home Equity for College Tuition: HELOC vs Parent PLUS Loans [2026]',
+    excerpt: 'Compare HELOC vs Parent PLUS loans for college funding. Rate comparison, repayment flexibility, FAFSA impact, tax implications, and strategies for parents financing education.',
+    date: '2026-02-17',
+    category: 'Home Equity',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'cash-out-refinance-vs-personal-loan-2026',
+    title: 'Cash-Out Refinance vs Personal Loan: Best Way to Access Cash [2026]',
+    excerpt: 'Compare cash-out refinance vs personal loans: rates, closing costs, funding speed, and risk. Decision framework based on amount needed, urgency, and financial goals.',
+    date: '2026-02-17',
+    category: 'Refinance',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'foreign-national-mortgage-loans-2026',
+    title: 'Foreign National Mortgage Loans: How Non-US Citizens Buy Property [2026]',
+    excerpt: 'Foreign national mortgage programs: visa types that qualify, ITIN loans, documentation requirements, down payment minimums, and why wholesale brokers offer the widest access.',
+    date: '2026-02-17',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'bridge-loans-vs-dscr-investment-2026',
+    title: 'Bridge Loans vs DSCR Loans: Which Investment Property Loan Is Right? [2026]',
+    excerpt: 'Compare bridge loans vs DSCR loans for investment properties. Short-term acquisition financing vs long-term rental holds. BRRRR strategy, rate comparison, and decision framework.',
+    date: '2026-02-17',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'interest-only-mortgage-loans-2026',
+    title: 'Interest-Only Mortgage Loans 2026: Who Qualifies and When They Make Sense',
+    excerpt: 'Interest-only mortgage guide: qualification requirements, payment comparisons, risks of payment shock, jumbo IO programs in CA and WA luxury markets, and wholesale broker access.',
+    date: '2026-02-17',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'jumbo-loan-requirements-california-washington-2026',
+    title: 'Jumbo Loan Requirements 2026: Qualifying for High-Balance Mortgages in CA & WA',
+    excerpt: 'Jumbo loan requirements for California and Washington: 2026 conforming limits by county, credit score minimums, down payment, reserves, and wholesale broker jumbo access.',
+    date: '2026-02-17',
+    category: 'Loan Programs',
+    readTime: '11 min read',
+  },
   // ===== BATCH 9: 3 DSCR Clusters + 2 Wholesale Clusters + 3 HECM Clusters + 2 Equity Clusters (Feb 16, 2026) =====
   {
     slug: 'dscr-loans-short-term-rentals-airbnb-2026',
