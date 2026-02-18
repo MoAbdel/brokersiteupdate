@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ['dscr loan requirements 2026', 'DSCR loan qualifications', 'DSCR ratio requirements', 'DSCR loan down payment', 'DSCR credit score requirements', 'investment property loan requirements'],
   openGraph: {
     title: 'DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide',
-    description: 'Complete DSCR loan requirements guide: Ratios, credit scores, down payments, reserves, and property type eligibility. Apply with wholesale access to 100+ lenders.',
+    description: 'Complete DSCR loan requirements guide: Ratios, credit scores, down payments, reserves, and property type eligibility. Apply with wholesale access to 200+ lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-requirements-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -464,7 +464,7 @@ export default function DSCRLoanRequirements2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            The rate differential between a 760+ score and a 660 score on the same DSCR loan can exceed 2 full percentage points. On a $500,000 loan, that gap translates to roughly $10,000 per year in additional interest. For portfolio investors financing 5-10 properties, this differential compounds into six-figure annual cost differences. Working with a wholesale broker who accesses 100+ lenders ensures you find the most competitive rate for your specific credit tier.
+            The rate differential between a 760+ score and a 660 score on the same DSCR loan can exceed 2 full percentage points. On a $500,000 loan, that gap translates to roughly $10,000 per year in additional interest. For portfolio investors financing 5-10 properties, this differential compounds into six-figure annual cost differences. Working with a wholesale broker who accesses 200+ lenders ensures you find the most competitive rate for your specific credit tier.
           </p>
         </section>
 

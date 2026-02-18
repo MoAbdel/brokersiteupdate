@@ -63,7 +63,7 @@ const faqData = [
   },
   {
     question: "What is the advantage of using a wholesale broker for DSCR loans?",
-    answer: "A wholesale mortgage broker accesses DSCR programs from 100+ lenders simultaneously, comparing rates, terms, DSCR ratio requirements, and LTV limits across the entire market. Retail lenders offer only their own DSCR product. Wholesale access typically results in lower rates, better terms, and access to niche programs that match specific investor scenarios."
+    answer: "A wholesale mortgage broker accesses DSCR programs from 200+ lenders simultaneously, comparing rates, terms, DSCR ratio requirements, and LTV limits across the entire market. Retail lenders offer only their own DSCR product. Wholesale access typically results in lower rates, better terms, and access to niche programs that match specific investor scenarios."
   },
   {
     question: "How long does it take to close a DSCR loan?",
@@ -691,7 +691,7 @@ export default function DSCRLoansExplainedInvestors2026() {
 
             <div className="border-l-4 border-purple-500 pl-4">
               <h3 className="font-semibold text-slate-900 mb-2">Are DSCR loan rates higher than conventional investment property rates?</h3>
-              <p className="text-slate-600"><strong>DSCR rates are typically higher than conventional investment property rates due to the non-QM classification and reduced documentation requirements.</strong> The premium varies by lender and market conditions. Wholesale broker access narrows this gap by comparing rates across 100+ lenders to find the most competitive pricing for each scenario.</p>
+              <p className="text-slate-600"><strong>DSCR rates are typically higher than conventional investment property rates due to the non-QM classification and reduced documentation requirements.</strong> The premium varies by lender and market conditions. Wholesale broker access narrows this gap by comparing rates across 200+ lenders to find the most competitive pricing for each scenario.</p>
             </div>
 
             <div className="border-l-4 border-purple-500 pl-4">
@@ -736,7 +736,7 @@ export default function DSCRLoansExplainedInvestors2026() {
             DSCR loans eliminate the documentation barriers that prevent productive investors from scaling their portfolios. No W-2s, no tax returns, no employment verification, no property count limits, and the ability to vest in an LLC. The property pays for itself through rental income, and that is all that matters for qualification.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares DSCR programs from 100+ lenders to match each investor with the optimal rates, terms, and ratio requirements. Whether you are purchasing your first rental property or adding your fiftieth, the wholesale channel delivers better pricing and broader program access than any single retail lender.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares DSCR programs from 200+ lenders to match each investor with the optimal rates, terms, and ratio requirements. Whether you are purchasing your first rental property or adding your fiftieth, the wholesale channel delivers better pricing and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

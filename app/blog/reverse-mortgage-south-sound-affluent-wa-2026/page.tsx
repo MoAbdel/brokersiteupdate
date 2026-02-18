@@ -45,7 +45,7 @@ const faqData = [
   },
   {
     question: 'How much equity can I access with a reverse mortgage on my Gig Harbor home?',
-    answer: 'The amount depends on your age, current interest rates, and home value (subject to the 2026 FHA lending limit of $1,209,750). A 70-year-old with a $757,000 Gig Harbor home and no existing mortgage could access approximately $340,000-$415,000 through a HECM. Gig Harbor waterfront properties exceeding the FHA limit may qualify for proprietary jumbo reverse mortgage products with higher payout limits.',
+    answer: 'The amount depends on your age, current interest rates, and home value (subject to the 2026 FHA lending limit of $1,209,750). A 70-year-old with a $757,000 Gig Harbor home and no existing mortgage accesses approximately $340,000-$415,000 through a HECM. Gig Harbor waterfront properties exceeding the FHA limit may qualify for proprietary jumbo reverse mortgage products with higher payout limits.',
   },
   {
     question: 'Do I have to attend counseling before getting a reverse mortgage in Washington State?',
@@ -61,7 +61,7 @@ const faqData = [
   },
   {
     question: 'Will a reverse mortgage affect my Social Security or Medicare benefits?',
-    answer: 'Reverse mortgage proceeds are not considered income by the IRS, so they do not affect Social Security or Medicare Part A/B benefits. However, if you receive Medicaid or Supplemental Security Income (SSI), unspent HECM funds sitting in a bank account could count as assets and potentially affect eligibility. The line of credit option allows controlled disbursement to manage asset levels for means-tested programs.',
+    answer: 'Reverse mortgage proceeds are not considered income by the IRS, so they do not affect Social Security or Medicare Part A/B benefits. However, if you receive Medicaid or Supplemental Security Income (SSI), unspent HECM funds sitting in a bank account count as assets and affect eligibility. The line of credit option allows controlled disbursement to manage asset levels for means-tested programs.',
   },
   {
     question: 'What happens to my reverse mortgage if I need to move to assisted living?',
@@ -251,12 +251,24 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Published February 15, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ===== 1. CITATION HOOK ===== */}
           <div className="citation-hook">
             <p className="text-xl text-gray-700 leading-relaxed">
-              South Sound homeowners aged 62 and older hold an estimated $3.2 billion in untapped home equity across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom, according to Pierce and King County Assessor data compiled in January 2026. According to Mo Abdel, NMLS #1426884, the HECM reverse mortgage program allows qualifying South Sound seniors to convert a portion of this equity into tax-free funds&mdash;with no monthly mortgage payments required&mdash;while retaining full homeownership. Updated February 2026.
+              South Sound homeowners aged 62 and older hold an estimated $3.2 billion in untapped home equity across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom, according to Pierce and King County Assessor data compiled in January 2026. According to Mo Abdel, NMLS #1426884, the HECM reverse mortgage program allows qualifying South Sound seniors to convert a portion of this equity into loan proceeds (not considered taxable income\u2014consult a tax professional)&mdash;with no monthly mortgage payments required&mdash;while retaining full homeownership. Updated February 2026.
             </p>
           </div>
 
@@ -767,7 +779,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
             <div>
               <h3 className="text-xl font-bold mb-2">Does a reverse mortgage affect my VA benefits or military pension?</h3>
               <p className="paa-answer"><strong>No. HECM reverse mortgage proceeds do not affect VA disability compensation, military retirement pay, TRICARE, or Social Security benefits for South Sound military retirees.</strong></p>
-              <p>Reverse mortgage proceeds are classified as loan advances, not income, by the IRS and VA. Military retirees in University Place and Steilacoom near JBLM can access home equity through a HECM without any reduction in VA benefits, military pension, or Social Security. The only means-tested programs potentially affected are Medicaid and SSI, where unspent HECM funds in bank accounts could count as assets.</p>
+              <p>Reverse mortgage proceeds are classified as loan advances, not income, by the IRS and VA. Military retirees in University Place and Steilacoom near JBLM can access home equity through a HECM without any reduction in VA benefits, military pension, or Social Security. The only means-tested programs affected are Medicaid and SSI, where unspent HECM funds in bank accounts count as assets.</p>
             </div>
 
             <div>

@@ -43,7 +43,7 @@ const faqData = [
   },
   {
     question: "Are DSCR loan rates higher for short-term rentals than long-term rentals?",
-    answer: "Generally yes. DSCR loan rates for short-term rental properties carry a small premium compared to long-term rental DSCR programs, typically reflected as a pricing adjustment rather than a dramatically different rate. The premium accounts for the perceived higher risk of seasonal and variable income. Wholesale broker access helps minimize this premium by comparing STR-specific pricing across 100+ lenders."
+    answer: "Generally yes. DSCR loan rates for short-term rental properties carry a small premium compared to long-term rental DSCR programs, typically reflected as a pricing adjustment rather than a dramatically different rate. The premium accounts for the perceived higher risk of seasonal and variable income. Wholesale broker access helps minimize this premium by comparing STR-specific pricing across 200+ lenders."
   },
   {
     question: "What down payment is required for a short-term rental DSCR loan?",
@@ -289,7 +289,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lender Availability</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Growing but fewer lenders than LTR</td>
-                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely available (100+ lenders)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely available (200+ lenders)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Local Regulation Review</td>
@@ -386,7 +386,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
               <li>&bull; <strong>Market saturation</strong> &mdash; supply and demand dynamics for STRs in the specific area</li>
             </ul>
             <p className="text-sm text-slate-600">
-              Most lenders that accept AirDNA data apply a discount factor (typically 75-90%) to the projected annual revenue as a conservative buffer. This means a property projected to earn $80,000 annually by AirDNA might be calculated at $60,000-$72,000 for DSCR purposes.
+              Most lenders that accept AirDNA data apply a discount factor (typically 75-90%) to the projected annual revenue as a conservative buffer. This means a property projected to earn $80,000 annually by AirDNA is typically calculated at $60,000-$72,000 for DSCR purposes.
             </p>
           </div>
         </section>
@@ -714,6 +714,260 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           </div>
         </section>
 
+        {/* Top STR Markets */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            Top STR Markets in California and Washington for DSCR Financing
+          </h2>
+          <p className="text-lg text-slate-600 mb-6">
+            Not all short-term rental markets perform equally. Some California and Washington destinations command premium nightly rates, maintain year-round occupancy, and generate strong annualized revenue that translates to excellent DSCR ratios. Understanding which markets support the strongest STR income helps investors target properties where DSCR qualification is easiest.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            The strongest STR markets share common characteristics: tourism infrastructure, peak-season demand that drives rates above $150-$250 per night, and consistent off-season demand that prevents income collapse. Coastal California markets like Big Bear and Palm Springs lead in revenue potential, while Washington mountain and island destinations provide geographic diversification and year-round booking potential.
+          </p>
+
+          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Market Location</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Avg Nightly Rate</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Annual Occupancy %</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Est. Annual Revenue*</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Typical DSCR Range</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Big Bear, CA</td>
+                  <td className="px-4 py-3 text-slate-600">$185-$220</td>
+                  <td className="px-4 py-3 text-slate-600">72-78%</td>
+                  <td className="px-4 py-3 text-slate-600">$48,000-$62,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">1.15-1.35</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Palm Springs, CA</td>
+                  <td className="px-4 py-3 text-slate-600">$195-$240</td>
+                  <td className="px-4 py-3 text-slate-600">75-82%</td>
+                  <td className="px-4 py-3 text-slate-600">$53,000-$71,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">1.20-1.45</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Lake Tahoe, CA/NV</td>
+                  <td className="px-4 py-3 text-slate-600">$210-$260</td>
+                  <td className="px-4 py-3 text-slate-600">70-76%</td>
+                  <td className="px-4 py-3 text-slate-600">$53,000-$72,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">1.18-1.40</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Oceanside, CA</td>
+                  <td className="px-4 py-3 text-slate-600">$155-$195</td>
+                  <td className="px-4 py-3 text-slate-600">68-75%</td>
+                  <td className="px-4 py-3 text-slate-600">$38,000-$53,000</td>
+                  <td className="px-4 py-3 text-slate-600">0.95-1.25</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">San Diego, CA</td>
+                  <td className="px-4 py-3 text-slate-600">$140-$180</td>
+                  <td className="px-4 py-3 text-slate-600">72-80%</td>
+                  <td className="px-4 py-3 text-slate-600">$37,000-$52,000</td>
+                  <td className="px-4 py-3 text-slate-600">0.90-1.20</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Leavenworth, WA</td>
+                  <td className="px-4 py-3 text-slate-600">$160-$210</td>
+                  <td className="px-4 py-3 text-slate-600">65-72%</td>
+                  <td className="px-4 py-3 text-slate-600">$38,000-$55,000</td>
+                  <td className="px-4 py-3 text-slate-600">0.95-1.30</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">San Juan Islands, WA</td>
+                  <td className="px-4 py-3 text-slate-600">$175-$240</td>
+                  <td className="px-4 py-3 text-slate-600">60-68%</td>
+                  <td className="px-4 py-3 text-slate-600">$38,000-$59,000</td>
+                  <td className="px-4 py-3 text-slate-600">0.90-1.35</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 italic mb-6">
+            *Annual revenue estimates based on 3-bedroom properties with average amenities. Actual performance varies by property condition, location within market, amenities, management quality, and platform optimization. Data sourced from AirDNA market reports and industry benchmarks. DSCR calculations assume typical PITIA of $5,000-$6,500 monthly. Rental income projections are estimates and actual income may vary.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            These markets represent the strongest STR income potential for DSCR qualification. Properties in Big Bear and Palm Springs consistently produce DSCR ratios above 1.20, making qualification straightforward with most lenders. Even secondary markets like Oceanside and Leavenworth provide viable DSCR candidacy when properties are well-maintained and properly priced.
+          </p>
+        </section>
+
+        {/* STR Operating Costs */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            STR Management Costs and Cash Flow Impact on DSCR Qualification
+          </h2>
+          <p className="text-lg text-slate-600 mb-6">
+            While DSCR loan qualification is based on gross rental income (operating expenses do not reduce the qualifying income), understanding STR operating costs is critical for evaluating actual cash flow and profitability. The gap between gross revenue and net operating income determines whether an STR investment produces positive cash flow after all expenses are covered.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            STR properties carry substantially higher operating costs than long-term rentals. The intensive guest management, cleaning between stays, platform fees, and premium insurance required for short-term rental operations eat into gross revenue. Savvy STR investors budget for these expenses upfront and ensure that the projected gross income still produces positive net cash flow after expenses are deducted.
+          </p>
+
+          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Operating Expense Category</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Typical % of Revenue</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Dollar Range (Annual)</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Impact on Net Cash Flow</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Professional Property Management</td>
+                  <td className="px-4 py-3 text-slate-600">8-12%</td>
+                  <td className="px-4 py-3 text-slate-600">$4,000-$7,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">Major impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Cleaning & Turnover</td>
+                  <td className="px-4 py-3 text-slate-600">10-15%</td>
+                  <td className="px-4 py-3 text-slate-600">$5,000-$9,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">Major impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Platform Fees (Airbnb 3%, VRBO 15%)</td>
+                  <td className="px-4 py-3 text-slate-600">6-16%</td>
+                  <td className="px-4 py-3 text-slate-600">$3,000-$10,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">Major impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">STR Insurance Premium</td>
+                  <td className="px-4 py-3 text-slate-600">3-6%</td>
+                  <td className="px-4 py-3 text-slate-600">$1,500-$4,000</td>
+                  <td className="px-4 py-3 text-slate-600">Moderate impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Supplies & Consumables</td>
+                  <td className="px-4 py-3 text-slate-600">3-5%</td>
+                  <td className="px-4 py-3 text-slate-600">$1,500-$3,000</td>
+                  <td className="px-4 py-3 text-slate-600">Moderate impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Maintenance & Repairs</td>
+                  <td className="px-4 py-3 text-slate-600">5-8%</td>
+                  <td className="px-4 py-3 text-slate-600">$2,500-$5,000</td>
+                  <td className="px-4 py-3 text-slate-600">Moderate impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Utilities (Higher than LTR)</td>
+                  <td className="px-4 py-3 text-slate-600">4-7%</td>
+                  <td className="px-4 py-3 text-slate-600">$2,000-$4,000</td>
+                  <td className="px-4 py-3 text-slate-600">Moderate impact</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Total Operating Costs</td>
+                  <td className="px-4 py-3 text-blue-600 font-semibold">39-59%</td>
+                  <td className="px-4 py-3 text-blue-600 font-semibold">$19,500-$42,000</td>
+                  <td className="px-4 py-3 text-blue-600 font-semibold">Critical evaluation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 italic mb-6">
+            Operating expense percentages are industry averages and vary significantly based on property location, property condition, guest volume, management approach, and platform choice. Self-managed properties have lower management costs but higher time investment. Cleaning frequency depends on booking volume and property size.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            The critical insight: A property qualifying for a DSCR loan with $60,000 annual gross revenue may only produce $24,000-$36,600 in net operating income after expenses. This net figure, not the gross qualifying income, determines true profitability. Investors should model operating costs carefully and ensure sufficient reserves to cover months when occupancy is lower than projected. This is why lenders require 9-12 months of reserves for STR properties — the cash flow can be volatile due to high operating costs and seasonal variation.
+          </p>
+        </section>
+
+        {/* DSCR Requirements by Lender Tier */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            DSCR Requirements by STR Lender Tier: Pricing and Terms Comparison
+          </h2>
+          <p className="text-lg text-slate-600 mb-6">
+            Not all STR DSCR lenders have identical requirements. The wholesale lending market segments into three distinct tiers: Prime lenders with the most restrictive requirements but the lowest rates, Standard tier lenders offering balanced terms, and Flexible lenders accepting weaker ratios but charging higher rates. Understanding this tier structure helps investors identify which lenders match their scenario and what compensating factors strengthen an application.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            Tier 1 Prime lenders dominate the market and offer the most competitive pricing, but require strong DSCR ratios (1.25+), high credit scores (740+), and substantial reserves. Tier 2 Standard lenders serve the broader market with moderate requirements and rates. Tier 3 Flexible lenders will approve properties with marginal DSCR ratios (0.75-0.99) but compensate with higher interest rates, larger down payments, or additional reserve requirements. A wholesale broker compares across all tiers to find the best risk-adjusted solution.
+          </p>
+
+          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Qualification Metric</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Tier 1 Prime Lenders</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Tier 2 Standard Lenders</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Tier 3 Flexible Lenders</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Minimum DSCR</td>
+                  <td className="px-4 py-3 text-slate-600">1.25</td>
+                  <td className="px-4 py-3 text-slate-600">1.0</td>
+                  <td className="px-4 py-3 text-slate-600">0.75</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Minimum Credit Score</td>
+                  <td className="px-4 py-3 text-slate-600">740+</td>
+                  <td className="px-4 py-3 text-slate-600">680-720</td>
+                  <td className="px-4 py-3 text-slate-600">660-680</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Max LTV (Purchase)</td>
+                  <td className="px-4 py-3 text-slate-600">75-80%</td>
+                  <td className="px-4 py-3 text-slate-600">75-80%</td>
+                  <td className="px-4 py-3 text-slate-600">70-75%</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Interest Rate (APR)</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">5.75%-6.25%</td>
+                  <td className="px-4 py-3 text-slate-600">6.25%-7.25%</td>
+                  <td className="px-4 py-3 text-slate-600">7.25%-8.75%</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Reserve Requirement</td>
+                  <td className="px-4 py-3 text-slate-600">6 months PITIA</td>
+                  <td className="px-4 py-3 text-slate-600">9 months PITIA</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">12 months PITIA</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Operating History Required</td>
+                  <td className="px-4 py-3 text-slate-600">None (AirDNA accepted)</td>
+                  <td className="px-4 py-3 text-slate-600">0-12 months</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">12-24 months</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Min. Down Payment</td>
+                  <td className="px-4 py-3 text-slate-600">20-25%</td>
+                  <td className="px-4 py-3 text-slate-600">20-25%</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">25-30%</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Points/Origination</td>
+                  <td className="px-4 py-3 text-blue-600 font-medium">0.75-1.5%</td>
+                  <td className="px-4 py-3 text-slate-600">1.5-2.5%</td>
+                  <td className="px-4 py-3 text-slate-600">2.5-3.5%</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-slate-900">Best For</td>
+                  <td className="px-4 py-3 text-slate-600">Strong STR properties, premium markets</td>
+                  <td className="px-4 py-3 text-slate-600">Most STR investors, balanced terms</td>
+                  <td className="px-4 py-3 text-slate-600">Below-1.0 DSCR, marginal approval</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 italic mb-6">
+            Interest rates, points, and terms reflect market conditions as of February 2026 and vary by individual lender, loan structure, and market conditions. These are representative ranges based on typical wholesale pricing. Actual rates depend on credit score, down payment, property location, STR market strength, and reserve coverage. Contact a licensed loan officer for current pricing.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            The tier structure illustrates the critical trade-off in STR DSCR financing: Prime tier lenders deliver the best rates but require the strongest credit and DSCR ratios. Flexible tier lenders will approve marginal deals but charge substantially more for the risk. A wholesale broker's advantage lies in simultaneously evaluating all three tiers and identifying whether a property qualifies at Tier 1 with a best rate, or whether Tier 2 or Tier 3 represents the optimal solution. For a property with a 1.10 DSCR, Tier 2 Standard lenders likely offer better pricing than Tier 3 Flexible lenders, while a property at 0.85 DSCR has no choice but Tier 3 or a standard long-term rental DSCR program.
+          </p>
+        </section>
+
         {/* People Also Ask */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -788,7 +1042,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             Short-term rental investors no longer need to choose between maximizing Airbnb revenue and qualifying for a mortgage. DSCR loans bridge this gap by evaluating the property&apos;s vacation rental income potential &mdash; not the investor&apos;s W-2s, tax returns, or employment status. With AirDNA projections, actual booking history, and hybrid income calculation methods, STR DSCR programs accommodate investors at every stage, from first-time Airbnb hosts to seasoned vacation rental portfolio operators.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares STR DSCR programs from 100+ lenders to match each investor with the optimal combination of income calculation method, DSCR ratio threshold, pricing, and terms. Whether you are purchasing your first vacation rental or scaling an existing STR portfolio across California and Washington, wholesale broker access delivers better outcomes than any single retail lender.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares STR DSCR programs from 200+ lenders to match each investor with the optimal combination of income calculation method, DSCR ratio threshold, pricing, and terms. Whether you are purchasing your first vacation rental or scaling an existing STR portfolio across California and Washington, wholesale broker access delivers better outcomes than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

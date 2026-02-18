@@ -50,7 +50,7 @@ const faqData = [
   },
   {
     question: 'What jumbo loan limits apply in King County for Kirkland, Redmond, and Bothell in 2026?',
-    answer: 'The 2026 conforming loan limit in King County is $1,149,825. Any loan above this threshold requires jumbo financing. With Kirkland homes at $1.3M median, Redmond at $1.4M, and even Bothell at $1M, most Eastside tech corridor purchases require jumbo programs. Wholesale brokers access jumbo loans up to $5M+ with rates competitive to conforming loans.',
+    answer: 'The 2026 conforming loan limit in King County is $1,209,750. Any loan above this threshold requires jumbo financing. With Kirkland homes at $1.3M median, Redmond at $1.4M, and even Bothell at $1M, most Eastside tech corridor purchases require jumbo programs. Wholesale brokers access jumbo loans up to $5M+ with rates competitive to conforming loans.',
   },
   {
     question: 'How do bank statement loans work for self-employed borrowers in Woodinville or Issaquah?',
@@ -578,7 +578,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           </p>
 
           <p>
-            Bothell draws first-time Eastside buyers who are priced out of Kirkland and Redmond, early-career tech workers at Canyon Park companies, UW Bothell faculty and administrators, and investors targeting the rental market around the university campus. The $1M median means many purchases fall just below or at the $1,149,825 conforming jumbo threshold in King County, creating an opportunity for wholesale brokers to find conforming high-balance programs at lower rates than full jumbo products. For the investment-minded buyer, Bothell&rsquo;s proximity to UW Bothell and the biotech corridor creates strong rental demand that supports DSCR qualification.
+            Bothell draws first-time Eastside buyers who are priced out of Kirkland and Redmond, early-career tech workers at Canyon Park companies, UW Bothell faculty and administrators, and investors targeting the rental market around the university campus. The $1M median means many purchases fall just below or at the $1,209,750 conforming jumbo threshold in King County, creating an opportunity for wholesale brokers to find conforming high-balance programs at lower rates than full jumbo products. For the investment-minded buyer, Bothell&rsquo;s proximity to UW Bothell and the biotech corridor creates strong rental demand that supports DSCR qualification.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -600,7 +600,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           </div>
 
           <p>
-            <strong>Bothell Scenario:</strong> A biotech researcher at Seagen ($145K salary) and their spouse (UW Bothell adjunct professor, $65K salary) want to purchase their first home&mdash;a $1.05M property near Canyon Park. They also plan to convert their current Bothell rental apartment situation into a rental investment, purchasing a $650K condo near UW Bothell campus using a DSCR loan. Through wholesale channels, we structure the primary residence purchase as a conforming high-balance loan at 6.375% (below the $1,149,825 King County limit with 10% down) and simultaneously qualify the $650K investment condo on a DSCR basis using projected rent of $2,800/month, avoiding DTI impact on the primary purchase.
+            <strong>Bothell Scenario:</strong> A biotech researcher at Seagen ($145K salary) and their spouse (UW Bothell adjunct professor, $65K salary) want to purchase their first home&mdash;a $1.05M property near Canyon Park. They also plan to convert their current Bothell rental apartment situation into a rental investment, purchasing a $650K condo near UW Bothell campus using a DSCR loan. Through wholesale channels, we structure the primary residence purchase as a conforming high-balance loan at 6.375% (below the $1,209,750 King County limit with 10% down) and simultaneously qualify the $650K investment condo on a DSCR basis using projected rent of $2,800/month, avoiding DTI impact on the primary purchase.
           </p>
 
           {/* ===== 5. GOOGLE E-E-A-T NARRATIVE ===== */}
@@ -766,7 +766,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
             <div>
               <h3 className="text-xl font-bold mb-2">Is Bothell the most affordable way to enter the Eastside housing market?</h3>
               <p className="paa-answer"><strong>Yes. Bothell&rsquo;s $1M median is $200K-$400K below neighboring Kirkland, Redmond, and Woodinville, making it the most affordable Eastside tech corridor city for first-time buyers.</strong></p>
-              <p>Bothell&rsquo;s affordability advantage is amplified by its position near the King County conforming loan limit of $1,149,825. Many Bothell purchases qualify for conforming high-balance loans at lower rates than full jumbo products, creating an additional savings layer versus buying in cities where full jumbo financing is always required.</p>
+              <p>Bothell&rsquo;s affordability advantage is amplified by its position near the King County conforming loan limit of $1,209,750. Many Bothell purchases qualify for conforming high-balance loans at lower rates than full jumbo products, creating an additional savings layer versus buying in cities where full jumbo financing is always required.</p>
             </div>
 
             <div>
