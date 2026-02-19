@@ -119,7 +119,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
                 "name": "Can self-employed borrowers get wholesale mortgage rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 50+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions."
+                  "text": "Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 200+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions."
                 }
               },
               {
@@ -403,7 +403,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
           California's median home price exceeds $800,000 statewide, with major metros significantly higher. Los Angeles County median exceeds $950,000, San Francisco Bay Area exceeds $1.3 million, Orange County exceeds $1.1 million, and San Diego County exceeds $900,000.
         </p>
         <p>
-          These price points frequently require jumbo loans (above the 2026 conforming limit of $1,149,825 in high-cost California counties). Wholesale brokers provide particular value for jumbo loans because they access 50+ jumbo lenders rather than a single bank's jumbo product. The ability to shop jumbo rates across dozens of portfolio lenders often produces significantly better terms.
+          These price points frequently require jumbo loans (above the 2026 conforming limit of $1,209,750 in high-cost California counties). Wholesale brokers provide particular value for jumbo loans because they access 50+ jumbo lenders rather than a single bank's jumbo product. The ability to shop jumbo rates across dozens of portfolio lenders often produces significantly better terms.
         </p>
 
         <h3>2026 California Conforming Loan Limits</h3>
@@ -419,12 +419,12 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border border-gray-300">High-Cost</td>
-                <td className="py-2 px-4 border border-gray-300">$1,149,825</td>
+                <td className="py-2 px-4 border border-gray-300">$1,209,750</td>
                 <td className="py-2 px-4 border border-gray-300">Los Angeles, Orange, San Diego, San Francisco, and most coastal counties</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-2 px-4 border border-gray-300">Standard</td>
-                <td className="py-2 px-4 border border-gray-300">$766,550</td>
+                <td className="py-2 px-4 border border-gray-300">$806,500</td>
                 <td className="py-2 px-4 border border-gray-300">Select inland counties</td>
               </tr>
             </tbody>
@@ -480,7 +480,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>Conventional Loans</h3>
         <p>
-          Standard mortgage financing backed by Fannie Mae or Freddie Mac. Features include down payments as low as 3% for first-time buyers, credit scores starting at 620, loan amounts up to $1,149,825 conforming in high-cost California areas, and competitive rates with private mortgage insurance (PMI) options.
+          Standard mortgage financing backed by Fannie Mae or Freddie Mac. Features include down payments as low as 3% for first-time buyers, credit scores starting at 620, loan amounts up to $1,209,750 conforming in high-cost California areas, and competitive rates with private mortgage insurance (PMI) options.
         </p>
 
         <h3>Jumbo Loans</h3>
@@ -663,7 +663,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>Can self-employed borrowers get wholesale mortgage rates?</h3>
         <p>
-          Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 50+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions.
+          Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 200+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions.
         </p>
 
         <h3>How do I verify a California mortgage broker is legitimate?</h3>
@@ -700,13 +700,13 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
           <h4>Wholesale Mortgage Education</h4>
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California: Complete Guide</a></li>
-            <li><a href="/blog/200-lender-advantage">The 200+ Lender Advantage Explained</a></li>
+            <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
             <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank: Which Is Better?</a></li>
           </ul>
           <h4>Specialty Programs</h4>
           <ul>
             <li><a href="/blog/bank-statement-loans-self-employed-2026">Bank Statement Loans for Self-Employed</a></li>
-            <li><a href="/blog/non-qm-loans-wholesale-broker">Non-QM Loans Through Wholesale Brokers</a></li>
+            <li><a href="/blog/non-qm-loans-wholesale-broker-2026">Non-QM Loans Through Wholesale Brokers</a></li>
             <li><a href="/blog/dscr-investment-property-loans-2026">DSCR Investment Property Loans</a></li>
           </ul>
           <h4>California Markets</h4>

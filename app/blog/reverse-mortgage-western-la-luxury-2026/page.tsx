@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage in Hidden Hills, Calabasas & Western LA Luxury [2026] | Mo Abdel',
-  description: 'Reverse mortgage guide for Hidden Hills, Calabasas, Agoura Hills & Westlake Village seniors 62+. HECM and jumbo reverse mortgage for homes $1.1M-$6M. FHA limit $1,149,825. NMLS #1426884.',
+  description: 'Reverse mortgage guide for Hidden Hills, Calabasas, Agoura Hills & Westlake Village seniors 62+. HECM and jumbo reverse mortgage for homes $1.1M-$6M. FHA limit $1,209,750. NMLS #1426884.',
   keywords: [
     'reverse mortgage Hidden Hills',
     'reverse mortgage Calabasas',
@@ -37,11 +37,11 @@ export default function ReverseMortgageWesternLALuxury2026() {
   const faqData = [
     {
       question: 'Can seniors in Hidden Hills get a reverse mortgage on a $6 million gated estate?',
-      answer: 'Yes. The FHA HECM program caps at $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Hidden Hills seniors with estates above the HECM limit access significantly greater equity through proprietary programs available via wholesale broker channels. The fully gated city with equestrian zoning requires appraisers experienced in valuing large-lot equestrian estates.',
+      answer: 'Yes. The FHA HECM program caps at $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Hidden Hills seniors with estates above the HECM limit access significantly greater equity through proprietary programs available via wholesale broker channels. The fully gated city with equestrian zoning requires appraisers experienced in valuing large-lot equestrian estates.',
     },
     {
       question: 'What is the 2026 HECM lending limit and how does it affect Calabasas homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Since Calabasas has a median home value of $1.8 million and many properties in The Oaks and Monte Nido exceed $3 million to $8 million, the standard HECM program alone does not access the full equity value. Proprietary reverse mortgage programs bridge this gap by using actual home value for payout calculations.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Since Calabasas has a median home value of $1.8 million and many properties in The Oaks and Monte Nido exceed $3 million to $8 million, the standard HECM program alone does not access the full equity value. Proprietary reverse mortgage programs bridge this gap by using actual home value for payout calculations.',
     },
     {
       question: 'Is HUD counseling required for a reverse mortgage in Western LA?',
@@ -81,7 +81,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
     },
     {
       question: 'Why use a wholesale broker for a Western LA luxury reverse mortgage instead of a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Western LA homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential for maximizing equity access. Banks typically offer only their own HECM product. Wholesale brokers also assign luxury-experienced appraisers who maximize property valuations.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Western LA homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential for maximizing equity access. Banks typically offer only their own HECM product. Wholesale brokers also assign luxury-experienced appraisers who maximize property valuations.',
     },
   ];
 
@@ -199,13 +199,25 @@ export default function ReverseMortgageWesternLALuxury2026() {
           </div>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Western LA Luxury Senior Home Equity</p>
             <p className="text-gray-800 mb-0">
-              Homeowners aged 62 and older across Western LA&apos;s luxury corridor&mdash;Hidden Hills, Calabasas, Agoura Hills, and Westlake Village&mdash;hold an estimated <strong>$4.2 billion in senior-held home equity</strong>, based on Los Angeles County assessor data and U.S. Census age demographics. With median home values ranging from $1.1 million in Agoura Hills to $6 million in Hidden Hills, three of four cities exceed the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>. A 70-year-old Hidden Hills homeowner with a $6 million gated estate and no existing mortgage could access an estimated <strong>$2.8 million or more through proprietary reverse mortgage programs</strong>&mdash;nearly five times the standard HECM payout. For entertainment industry retirees, corporate executives, and long-term homeowners who want to age in place within their gated communities and mountain canyon homes, the reverse mortgage converts decades of appreciation into retirement liquidity with no monthly mortgage payments.
+              Homeowners aged 62 and older across Western LA&apos;s luxury corridor&mdash;Hidden Hills, Calabasas, Agoura Hills, and Westlake Village&mdash;hold an estimated <strong>$4.2 billion in senior-held home equity</strong>, based on Los Angeles County assessor data and U.S. Census age demographics. With median home values ranging from $1.1 million in Agoura Hills to $6 million in Hidden Hills, three of four cities exceed the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>. A 70-year-old Hidden Hills homeowner with a $6 million gated estate and no existing mortgage could access an estimated <strong>$2.8 million or more through proprietary reverse mortgage programs</strong>&mdash;nearly five times the standard HECM payout. For entertainment industry retirees, corporate executives, and long-term homeowners who want to age in place within their gated communities and mountain canyon homes, the reverse mortgage converts decades of appreciation into retirement liquidity with no monthly mortgage payments.
             </p>
           </div>
 
@@ -231,7 +243,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
           {/* HECM vs PROPRIETARY COMPARISON */}
           <h2 id="hecm-vs-proprietary" className="text-2xl font-bold mt-10 mb-4">HECM vs. Proprietary Reverse Mortgage: Western LA Luxury Comparison</h2>
           <p>
-            Three of four Western LA luxury cities have median home values exceeding the 2026 FHA HECM lending limit of $1,149,825. Hidden Hills at $6 million and Calabasas at $1.8 million substantially exceed this threshold, while Westlake Village at $1.4 million and Agoura Hills at $1.1 million fall closer to or at the limit. Understanding when the HECM program is sufficient versus when proprietary programs deliver greater benefit is essential for Western LA seniors seeking optimal reverse mortgage outcomes.
+            Three of four Western LA luxury cities have median home values exceeding the 2026 FHA HECM lending limit of $1,209,750. Hidden Hills at $6 million and Calabasas at $1.8 million substantially exceed this threshold, while Westlake Village at $1.4 million and Agoura Hills at $1.1 million fall closer to or at the limit. Understanding when the HECM program is sufficient versus when proprietary programs deliver greater benefit is essential for Western LA seniors seeking optimal reverse mortgage outcomes.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -245,7 +257,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
               <tbody>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Max Home Value Used</td>
-                  <td className="py-3 px-4 border-b">$1,149,825 (2026 FHA limit)</td>
+                  <td className="py-3 px-4 border-b">$1,209,750 (2026 FHA limit)</td>
                   <td className="py-3 px-4 border-b">Actual home value ($2M&ndash;$10M+)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -290,7 +302,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
           {/* MEGA TABLE */}
           <h2 id="mega-table" className="text-2xl font-bold mt-10 mb-4">Western LA Luxury Reverse Mortgage: City-by-City Overview</h2>
           <p>
-            The following table summarizes reverse mortgage opportunities across the four Western LA luxury cities. Estimated HECM proceeds are based on a 72-year-old borrower with no existing mortgage using the $1,149,825 FHA limit. Proprietary estimates reflect actual home values with program-specific principal limit factors.
+            The following table summarizes reverse mortgage opportunities across the four Western LA luxury cities. Estimated HECM proceeds are based on a 72-year-old borrower with no existing mortgage using the $1,209,750 FHA limit. Proprietary estimates reflect actual home values with program-specific principal limit factors.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -336,7 +348,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            *HECM proceeds estimated for a 72-year-old borrower with no existing mortgage at current interest rates using the $1,149,825 FHA lending limit (or actual value if below). Proprietary estimates based on actual median home value. Actual proceeds vary by borrower age, interest rate, home value, and existing liens.
+            *HECM proceeds estimated for a 72-year-old borrower with no existing mortgage at current interest rates using the $1,209,750 FHA lending limit (or actual value if below). Proprietary estimates based on actual median home value. Actual proceeds vary by borrower age, interest rate, home value, and existing liens.
           </p>
 
           <hr className="my-10" />
@@ -391,7 +403,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
             </table>
           </div>
           <p>
-            For Hidden Hills and Calabasas seniors with homes well above the HECM limit, the proprietary reverse mortgage&apos;s higher payout often outweighs the HECM&apos;s growing credit line feature. However, for Agoura Hills seniors with homes near the $1,149,825 HECM limit, the growing line of credit is exceptionally valuable: a $550,000 HECM credit line at 5% annual growth becomes approximately $896,000 after 10 years without any draws&mdash;a powerful long-term care funding strategy.
+            For Hidden Hills and Calabasas seniors with homes well above the HECM limit, the proprietary reverse mortgage&apos;s higher payout often outweighs the HECM&apos;s growing credit line feature. However, for Agoura Hills seniors with homes near the $1,209,750 HECM limit, the growing line of credit is exceptionally valuable: a $550,000 HECM credit line at 5% annual growth becomes approximately $896,000 after 10 years without any draws&mdash;a powerful long-term care funding strategy.
           </p>
 
           <hr className="my-10" />
@@ -573,7 +585,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
           </p>
 
           <p>
-            As a California-licensed wholesale mortgage broker (DRE #02291443, NMLS #1426884) working through Lumin Lending (NMLS #2716106), I access both FHA HECM programs and proprietary reverse mortgage products from multiple lenders. For Hidden Hills seniors with $6&ndash;$25 million estates, the proprietary reverse mortgage delivers $2&ndash;$8 million in accessible equity that the HECM&apos;s $1,149,825 cap cannot approach. For Agoura Hills seniors near the limit, the HECM&apos;s growing line of credit and non-recourse protection may be the superior choice. I present both programs transparently and recommend the option that serves each client&apos;s specific situation.
+            As a California-licensed wholesale mortgage broker (DRE #02291443, NMLS #1426884) working through Lumin Lending (NMLS #2716106), I access both FHA HECM programs and proprietary reverse mortgage products from multiple lenders. For Hidden Hills seniors with $6&ndash;$25 million estates, the proprietary reverse mortgage delivers $2&ndash;$8 million in accessible equity that the HECM&apos;s $1,209,750 cap cannot approach. For Agoura Hills seniors near the limit, the HECM&apos;s growing line of credit and non-recourse protection may be the superior choice. I present both programs transparently and recommend the option that serves each client&apos;s specific situation.
           </p>
 
           <p>
@@ -659,7 +671,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the maximum reverse mortgage for a Hidden Hills estate?</h3>
-              <p><strong>The FHA HECM caps at proceeds based on the $1,149,825 limit. Proprietary programs use actual home value, delivering $2M&ndash;$5M+ in proceeds for Hidden Hills estates valued at $6M&ndash;$25M.</strong></p>
+              <p><strong>The FHA HECM caps at proceeds based on the $1,209,750 limit. Proprietary programs use actual home value, delivering $2M&ndash;$5M+ in proceeds for Hidden Hills estates valued at $6M&ndash;$25M.</strong></p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I stay in my Calabasas home with a reverse mortgage?</h3>
@@ -718,7 +730,7 @@ export default function ReverseMortgageWesternLALuxury2026() {
               <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview of HECM and proprietary programs</li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Payout Options Explained</a> &mdash; Complete guide to lump sum, tenure, term, credit line &amp; combo</li>
               <li><a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Myths Debunked</a> &mdash; Common misconceptions clarified with facts</li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-600 hover:underline font-medium">Reverse Mortgage vs. HELOC for Seniors</a> &mdash; Side-by-side comparison for homeowners 62+</li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage vs. HELOC for Seniors</a> &mdash; Side-by-side comparison for homeowners 62+</li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Requirements</a> &mdash; Complete eligibility checklist and qualification guide</li>
             </ul>
           </div>

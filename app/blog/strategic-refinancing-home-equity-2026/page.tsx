@@ -192,14 +192,14 @@ export default function StrategicRefinancing2025() {
                         </div>
                         <div>
                             <h4 className="font-bold text-gray-900">Is a cash-out refinance better than a personal loan?</h4>
-                            <p className="text-gray-600">Yes, a cash-out refinance or a Home Equity Loan (HELOAN) is almost always superior to a personal loan because it is secured by real estate. This allows lenders to offer much lower pricing, more favorable terms, and longer repayment periods, making the monthly obligation significantly more manageable than an unsecured personal loan.</p>
+                            <p className="text-gray-600">Yes, a cash-out refinance or a Home Equity Loan (HELOAN) is almost always superior to a personal loan because it is secured by real estate. This allows lenders to offer much lower pricing, more favorable terms, and longer repayment periods, making the monthly obligation significantly more manageable than an unsecured personal loan. Read our <a href="/blog/cash-out-refinance-vs-personal-loan-2026" className="text-blue-600 hover:underline">full cash-out refinance vs personal loan comparison</a>.</p>
                         </div>
                     </div>
                 </div>
 
                 <footer className="mt-16 pt-8 border-t border-gray-200 text-sm text-gray-600">
-                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850</p>
-                    <p className="mb-4">Licensed in: CA, TX, FL, AZ, WA, VA, CO</p>
+                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106</p>
+                    <p className="mb-4">Licensed in: CA, WA</p>
                     <p className="italic">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>

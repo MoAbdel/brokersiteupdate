@@ -478,7 +478,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold text-sm shrink-0">3</span>
-              <span><strong>Apply through a wholesale broker</strong> &mdash; compare HELOC rates across 100+ lenders for the best terms</span>
+              <span><strong>Apply through a wholesale broker</strong> &mdash; compare HELOC rates across 200+ lenders for the best terms</span>
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold text-sm shrink-0">4</span>
@@ -873,7 +873,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             California homeowners hold trillions of dollars in home equity. Converting a portion of that dormant equity into an income-producing ADU is one of the highest-return investments available in 2026. HELOC, cash-out refinance, home equity loan, and DSCR products each serve different homeowner profiles, and choosing the right structure can save tens of thousands in interest costs over the life of the loan.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares ADU financing programs from 100+ lenders to match each homeowner with the optimal rates, terms, and structure. Whether you need a HELOC for phased construction draws, a cash-out refinance for a lump sum build, or a DSCR loan to refinance post-completion using rental income, the wholesale channel delivers better pricing and broader program access than any single retail lender.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares ADU financing programs from 200+ lenders to match each homeowner with the optimal rates, terms, and structure. Whether you need a HELOC for phased construction draws, a cash-out refinance for a lump sum build, or a DSCR loan to refinance post-completion using rental income, the wholesale channel delivers better pricing and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -897,7 +897,7 @@ export default function ADUFinancingHomeEquityCalifornia2026() {
             <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Cash-Out Refinance: How It Works [2026 Guide]
             </Link>
-            <Link href="/blog/how-does-heloc-work" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/loan-programs/heloc" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; How Does a HELOC Work? Complete Guide
             </Link>
             <Link href="/blog/heloc-vs-home-equity-loan-2026" className="text-blue-600 hover:text-blue-700 hover:underline">

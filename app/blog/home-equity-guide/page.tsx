@@ -194,6 +194,18 @@ export default function HomeEquityGuidePage() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -1030,7 +1042,7 @@ export default function HomeEquityGuidePage() {
           <ul>
             <li><a href="/blog/reverse-mortgages-california-guide">Complete Reverse Mortgage Guide</a></li>
             <li><a href="/blog/hecm-vs-heloc-seniors-2026">HECM vs HELOC for Seniors</a></li>
-            <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026">Reverse Mortgage vs HELOC Comparison</a></li>
+            <li><a href="/blog/reverse-mortgage-complete-guide-2026">Reverse Mortgage vs HELOC Comparison</a></li>
           </ul>
           <h4>Location-Specific</h4>
           <ul>

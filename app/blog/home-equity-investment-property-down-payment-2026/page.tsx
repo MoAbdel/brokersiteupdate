@@ -663,7 +663,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold text-sm shrink-0">8</span>
-              <span><strong>Wholesale broker access</strong> &mdash; comparing equity products and DSCR loans across 100+ lenders through a wholesale broker ensures the best combined rate strategy</span>
+              <span><strong>Wholesale broker access</strong> &mdash; comparing equity products and DSCR loans across 200+ lenders through a wholesale broker ensures the best combined rate strategy</span>
             </li>
           </ol>
         </section>
@@ -783,7 +783,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             Homeowners across California and Washington are sitting on record levels of home equity. Converting that equity into investment property down payments through a HELOC, cash-out refinance, or bridge loan is the most proven strategy for building a rental portfolio without depleting cash reserves. When combined with a DSCR loan that qualifies the investment property on rental income alone, this approach eliminates the DTI bottleneck that stops conventional investors after their first few acquisitions.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both equity access products and DSCR investment property loans across 100+ lenders to build the optimal financing structure for each investor&apos;s portfolio goals. Whether you need a HELOC on your primary residence, a cash-out refinance, or a DSCR loan on your next rental property, the wholesale channel delivers better rates and broader program access than any single retail lender.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both equity access products and DSCR investment property loans across 200+ lenders to build the optimal financing structure for each investor&apos;s portfolio goals. Whether you need a HELOC on your primary residence, a cash-out refinance, or a DSCR loan on your next rental property, the wholesale channel delivers better rates and broader program access than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -807,7 +807,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Cash-Out Refinance: How It Works in 2026
             </Link>
-            <Link href="/blog/how-does-heloc-work" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/loan-programs/heloc" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; How Does a HELOC Work? Complete Guide
             </Link>
             <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">

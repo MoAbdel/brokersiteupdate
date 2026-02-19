@@ -234,11 +234,6 @@
       "permanent": true
     },
     {
-      "source": "/tools/:path*",
-      "destination": "/calculator",
-      "permanent": true
-    },
-    {
       "source": "/programs/dscr-investment-loans",
       "destination": "/loan-programs/dscr-investment-loans",
       "permanent": true
@@ -586,16 +581,6 @@
     {
       "source": "/blog/wholesale-mortgage-broker-92887",
       "destination": "/blog/wholesale-mortgage-broker-north-orange-county-2026#yorba-linda",
-      "permanent": true
-    },
-    {
-      "source": "/purchase-loans",
-      "destination": "/loan-programs",
-      "permanent": true
-    },
-    {
-      "source": "/luxury-markets",
-      "destination": "/areas",
       "permanent": true
     },
     {

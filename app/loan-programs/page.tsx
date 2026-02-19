@@ -425,10 +425,10 @@ export default function ProgramsPage() {
             <Link className="text-blue-700 hover:underline" href="/loan-programs/orange-county-fha-loan-limits">
               FHA Loan Limits (Regional)
             </Link>
-            <Link className="text-blue-700 hover:underline" href="/orange-county-conventional-loans">
+            <Link className="text-blue-700 hover:underline" href="/conventional-loans-orange-county">
               Conventional Loans (Regional)
             </Link>
-            <Link className="text-blue-700 hover:underline" href="/orange-county-fha-loans">
+            <Link className="text-blue-700 hover:underline" href="/fha-loans-orange-county">
               FHA Loans (Regional)
             </Link>
             <Link className="text-blue-700 hover:underline" href="/non-qm-loans-orange-county">

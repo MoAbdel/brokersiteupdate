@@ -40,7 +40,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
   const faqData = [
     {
       question: 'How much can a Palos Verdes Estates senior receive from a reverse mortgage?',
-      answer: 'The amount depends on age, home value, and program type. The FHA HECM program caps at $1,149,825 regardless of PV Estates\' $2.9 million median value. Proprietary jumbo reverse mortgage programs calculate payouts based on actual home value, delivering $1.2 million or more in proceeds for typical PV Estates bluff-top homes. Lunada Bay and Malaga Cove properties valued at $4M-$8M+ access even greater proceeds through proprietary channels.',
+      answer: 'The amount depends on age, home value, and program type. The FHA HECM program caps at $1,209,750 regardless of PV Estates\' $2.9 million median value. Proprietary jumbo reverse mortgage programs calculate payouts based on actual home value, delivering $1.2 million or more in proceeds for typical PV Estates bluff-top homes. Lunada Bay and Malaga Cove properties valued at $4M-$8M+ access even greater proceeds through proprietary channels.',
     },
     {
       question: 'Can I get a reverse mortgage on a Rolling Hills equestrian estate?',
@@ -72,7 +72,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
     },
     {
       question: 'What is the 2026 HECM lending limit and how does it affect the PV Peninsula?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Since every PV Peninsula city has a median home value of $2 million or above, the HECM program alone leaves substantial equity inaccessible. Proprietary jumbo reverse mortgage programs bridge this gap by using actual home value for payout calculations, providing $1M-$2M+ in proceeds versus $575K from the HECM alone.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Since every PV Peninsula city has a median home value of $2 million or above, the HECM program alone leaves substantial equity inaccessible. Proprietary jumbo reverse mortgage programs bridge this gap by using actual home value for payout calculations, providing $1M-$2M+ in proceeds versus $575K from the HECM alone.',
     },
     {
       question: 'How long does the reverse mortgage process take for PV Peninsula homes?',
@@ -84,7 +84,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
     },
     {
       question: 'Why use a wholesale broker for a PV Peninsula reverse mortgage instead of a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For PV Peninsula homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Additionally, wholesale brokers assign peninsula-experienced appraisers who capture ocean view premiums, equestrian improvement values, and micro-neighborhood distinctions that maximize proceeds.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For PV Peninsula homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Additionally, wholesale brokers assign peninsula-experienced appraisers who capture ocean view premiums, equestrian improvement values, and micro-neighborhood distinctions that maximize proceeds.',
     },
   ];
 
@@ -202,13 +202,25 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
           </div>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Palos Verdes Peninsula Senior Home Equity</p>
             <p className="text-gray-800 mb-0">
-              The four cities of the Palos Verdes Peninsula&mdash;Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills, and Rolling Hills Estates&mdash;are home to an estimated <strong>7,200 homeowners aged 62 and older</strong> holding a combined <strong>$8.4 billion in senior-held home equity</strong>, based on Los Angeles County assessor data and U.S. Census age demographics. With median values ranging from $2 million (Rancho Palos Verdes and Rolling Hills Estates) to $3 million (Rolling Hills), every PV Peninsula city far exceeds the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>. A 72-year-old Rolling Hills homeowner with a $3 million equestrian estate and no existing mortgage could access an estimated <strong>$1.4 million or more through proprietary reverse mortgage programs</strong>&mdash;more than double the standard HECM payout. For peninsula seniors who have spent decades building equity in one of Southern California&apos;s most exclusive residential enclaves, the reverse mortgage unlocks that wealth without selling the home or making monthly mortgage payments.
+              The four cities of the Palos Verdes Peninsula&mdash;Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills, and Rolling Hills Estates&mdash;are home to an estimated <strong>7,200 homeowners aged 62 and older</strong> holding a combined <strong>$8.4 billion in senior-held home equity</strong>, based on Los Angeles County assessor data and U.S. Census age demographics. With median values ranging from $2 million (Rancho Palos Verdes and Rolling Hills Estates) to $3 million (Rolling Hills), every PV Peninsula city far exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>. A 72-year-old Rolling Hills homeowner with a $3 million equestrian estate and no existing mortgage could access an estimated <strong>$1.4 million or more through proprietary reverse mortgage programs</strong>&mdash;more than double the standard HECM payout. For peninsula seniors who have spent decades building equity in one of Southern California&apos;s most exclusive residential enclaves, the reverse mortgage unlocks that wealth without selling the home or making monthly mortgage payments.
             </p>
           </div>
 
@@ -234,7 +246,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
           {/* HECM vs PROPRIETARY COMPARISON */}
           <h2 id="hecm-vs-proprietary" className="text-2xl font-bold mt-10 mb-4">HECM vs. Proprietary Reverse Mortgage: PV Peninsula Comparison</h2>
           <p>
-            Every city on the Palos Verdes Peninsula has a median home value that exceeds the 2026 FHA HECM lending limit of $1,149,825 by $850,000 or more. Rolling Hills at $3 million and Palos Verdes Estates at $2.9 million exceed the limit by $1.85 million and $1.75 million respectively. This means the standard government-insured reverse mortgage program captures only a fraction of the equity available to PV Peninsula seniors. Proprietary programs are essential for maximizing proceeds.
+            Every city on the Palos Verdes Peninsula has a median home value that exceeds the 2026 FHA HECM lending limit of $1,209,750 by $850,000 or more. Rolling Hills at $3 million and Palos Verdes Estates at $2.9 million exceed the limit by $1.85 million and $1.75 million respectively. This means the standard government-insured reverse mortgage program captures only a fraction of the equity available to PV Peninsula seniors. Proprietary programs are essential for maximizing proceeds.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -248,7 +260,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
               <tbody>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Max Home Value Used</td>
-                  <td className="py-3 px-4 border-b">$1,149,825 (2026 FHA limit)</td>
+                  <td className="py-3 px-4 border-b">$1,209,750 (2026 FHA limit)</td>
                   <td className="py-3 px-4 border-b">Actual home value ($2M&ndash;$10M+)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -293,7 +305,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
           {/* MEGA TABLE */}
           <h2 id="mega-table" className="text-2xl font-bold mt-10 mb-4">PV Peninsula Reverse Mortgage: City-by-City Overview</h2>
           <p>
-            The following table summarizes reverse mortgage opportunities across the four PV Peninsula cities. Estimated HECM proceeds are based on a 72-year-old borrower with no existing mortgage using the $1,149,825 FHA limit. Proprietary estimates reflect actual home values with program-specific principal limit factors.
+            The following table summarizes reverse mortgage opportunities across the four PV Peninsula cities. Estimated HECM proceeds are based on a 72-year-old borrower with no existing mortgage using the $1,209,750 FHA limit. Proprietary estimates reflect actual home values with program-specific principal limit factors.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -339,7 +351,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            *HECM proceeds estimated for a 72-year-old borrower with no existing mortgage at current interest rates using the $1,149,825 FHA lending limit. Proprietary estimates based on actual median home value with program-specific principal limit factors. Actual proceeds vary by borrower age, interest rate, home value, and existing liens.
+            *HECM proceeds estimated for a 72-year-old borrower with no existing mortgage at current interest rates using the $1,209,750 FHA lending limit. Proprietary estimates based on actual median home value with program-specific principal limit factors. Actual proceeds vary by borrower age, interest rate, home value, and existing liens.
           </p>
 
           <hr className="my-10" />
@@ -659,7 +671,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the maximum reverse mortgage for a Palos Verdes Estates ocean bluff home?</h3>
-              <p><strong>The FHA HECM caps at proceeds based on the $1,149,825 limit. Proprietary programs use actual home value, delivering $1.3M&ndash;$3.5M+ in proceeds for PV Estates bluff-top properties valued at $3M&ndash;$8M+.</strong></p>
+              <p><strong>The FHA HECM caps at proceeds based on the $1,209,750 limit. Proprietary programs use actual home value, delivering $1.3M&ndash;$3.5M+ in proceeds for PV Estates bluff-top properties valued at $3M&ndash;$8M+.</strong></p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a reverse mortgage on an equestrian property in Rolling Hills?</h3>
@@ -718,7 +730,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
               <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview of HECM and proprietary programs</li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Payout Options Explained</a> &mdash; Complete guide to lump sum, tenure, term, credit line &amp; combo</li>
               <li><a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Myths Debunked</a> &mdash; Common misconceptions clarified with facts</li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-600 hover:underline font-medium">Reverse Mortgage vs. HELOC for Seniors</a> &mdash; Side-by-side comparison for homeowners 62+</li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage vs. HELOC for Seniors</a> &mdash; Side-by-side comparison for homeowners 62+</li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Requirements</a> &mdash; Complete eligibility checklist and qualification guide</li>
             </ul>
           </div>

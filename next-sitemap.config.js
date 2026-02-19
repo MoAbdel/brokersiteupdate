@@ -170,7 +170,6 @@ module.exports = {
     '/blog/reverse-mortgage-la-jolla-ca-2026',
     '/blog/wholesale-mortgage-broker-92672',
     '/blog/wholesale-mortgage-broker-92662',
-    '/luxury-markets',
     '/guides/summer-2025-market-guide',
     // Exclude redirect source URLs (these 301 to -2026 versions)
     '/blog/200-lender-advantage',
@@ -194,7 +193,6 @@ module.exports = {
     '/orange-county-fha-loans',
     '/orange-county-jumbo-loans',
     '/orange-county-conventional-loans',
-    '/purchase-loans',
     '/quiz',
     '/admin',
   ],
@@ -427,6 +425,14 @@ module.exports = {
       '/loan-programs/usda-rural-loans',
       '/loan-programs/fix-flip-loans',
       '/loan-programs/profit-loss-statement-loans',
+
+      // Content pages (restored from redirects)
+      '/purchase-loans',
+      '/luxury-markets',
+      '/refinance-loans',
+      '/home-equity-guide',
+      '/self-employed-home-loans-california',
+      '/heloc-specialist-orange-county',
 
       // Legacy/SEO landing pages
       '/fha-loans-orange-county',

@@ -34,11 +34,11 @@ export default function ReverseMortgagePasadenaCorridor2026() {
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect Pasadena Corridor homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Pasadena and Sierra Madre, where median values exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Glendale, Montrose, and La Crescenta homes near or slightly above this limit benefit from strong HECM payout optimization.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Pasadena and Sierra Madre, where median values exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Glendale, Montrose, and La Crescenta homes near or slightly above this limit benefit from strong HECM payout optimization.',
     },
     {
       question: 'How much can a Sierra Madre senior receive from a reverse mortgage on a $1.4 million home?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Sierra Madre home valued at $1.4 million, the HECM program caps calculations at $1,149,825. A 72-year-old borrower could access approximately $517,000 to $632,000 through HECM. A proprietary reverse mortgage uses the full $1.4 million value, potentially providing $490,000 to $770,000 depending on the lender program and borrower age.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Sierra Madre home valued at $1.4 million, the HECM program caps calculations at $1,209,750. A 72-year-old borrower could access approximately $517,000 to $632,000 through HECM. A proprietary reverse mortgage uses the full $1.4 million value, potentially providing $490,000 to $770,000 depending on the lender program and borrower age.',
     },
     {
       question: 'Do I lose ownership of my Glendale home with a reverse mortgage?',
@@ -74,7 +74,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Pasadena Corridor homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes. A broker delivers competitive rate comparison and program matching across the full market.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Pasadena Corridor homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes. A broker delivers competitive rate comparison and program matching across the full market.',
     },
   ];
 
@@ -227,12 +227,24 @@ export default function ReverseMortgagePasadenaCorridor2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five Pasadena Corridor communities &mdash; Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta &mdash; are home to an estimated <strong>28,400 homeowners aged 62 and older</strong> sitting on a combined <strong>$26.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Sierra Madre&apos;s $1.4 million median and Pasadena&apos;s $1.2 million median both exceed or approach the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, creating a market where both HECM and proprietary reverse mortgage programs deliver value depending on neighborhood and property type. &quot;The Pasadena Corridor is one of the most academically and professionally accomplished retirement corridors in Southern California. Caltech researchers, JPL engineers, Glendale media professionals, and Sierra Madre physicians have built extraordinary equity in historic homes that deserve a reverse mortgage strategy as sophisticated as the homeowners themselves,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five Pasadena Corridor communities &mdash; Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta &mdash; are home to an estimated <strong>28,400 homeowners aged 62 and older</strong> sitting on a combined <strong>$26.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Sierra Madre&apos;s $1.4 million median and Pasadena&apos;s $1.2 million median both exceed or approach the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, creating a market where both HECM and proprietary reverse mortgage programs deliver value depending on neighborhood and property type. &quot;The Pasadena Corridor is one of the most academically and professionally accomplished retirement corridors in Southern California. Caltech researchers, JPL engineers, Glendale media professionals, and Sierra Madre physicians have built extraordinary equity in historic homes that deserve a reverse mortgage strategy as sophisticated as the homeowners themselves,&quot; Abdel explains.
             </p>
           </div>
 
@@ -261,7 +273,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. The Pasadena Corridor spans five distinct communities along the San Gabriel Mountain foothills, each with its own real estate character. From Pasadena&apos;s grand Craftsman bungalows and Sierra Madre&apos;s secluded canyon estates to Glendale&apos;s hillside view homes and La Crescenta&apos;s family-oriented foothill neighborhoods, this corridor represents one of Southern California&apos;s most established and equity-rich retirement regions. Understanding the FHA HECM cap of $1,149,825 and how proprietary programs serve values above that threshold is essential for every Pasadena Corridor senior evaluating this financial tool.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. The Pasadena Corridor spans five distinct communities along the San Gabriel Mountain foothills, each with its own real estate character. From Pasadena&apos;s grand Craftsman bungalows and Sierra Madre&apos;s secluded canyon estates to Glendale&apos;s hillside view homes and La Crescenta&apos;s family-oriented foothill neighborhoods, this corridor represents one of Southern California&apos;s most established and equity-rich retirement regions. Understanding the FHA HECM cap of $1,209,750 and how proprietary programs serve values above that threshold is essential for every Pasadena Corridor senior evaluating this financial tool.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -431,7 +443,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
           </div>
 
           <p>
-            <strong>Retirement Scenario:</strong> A 71-year-old retired JPL mission systems engineer in Bungalow Heaven owns a 1922 Craftsman bungalow valued at $1.25 million, purchased in 1996 for $285,000. The home is free and clear. Monthly expenses include $1,400 in property taxes, $800 in insurance, and living costs totaling $5,500. JPL pension and Social Security provide $6,200 monthly, creating a manageable but tight budget. The home needs $120,000 in foundation repairs, electrical upgrades, and kitchen renovation to support comfortable aging in place. An FHA HECM provides a $565,000 line of credit (calculated at the $1,149,825 cap). The retiree draws $120,000 for renovations immediately and preserves the remaining $445,000 as a growing credit line. After 10 years, the unused balance could grow to approximately $640,000, creating a substantial financial reserve for later-stage retirement needs.
+            <strong>Retirement Scenario:</strong> A 71-year-old retired JPL mission systems engineer in Bungalow Heaven owns a 1922 Craftsman bungalow valued at $1.25 million, purchased in 1996 for $285,000. The home is free and clear. Monthly expenses include $1,400 in property taxes, $800 in insurance, and living costs totaling $5,500. JPL pension and Social Security provide $6,200 monthly, creating a manageable but tight budget. The home needs $120,000 in foundation repairs, electrical upgrades, and kitchen renovation to support comfortable aging in place. An FHA HECM provides a $565,000 line of credit (calculated at the $1,209,750 cap). The retiree draws $120,000 for renovations immediately and preserves the remaining $445,000 as a growing credit line. After 10 years, the unused balance could grow to approximately $640,000, creating a substantial financial reserve for later-stage retirement needs.
           </p>
 
           <p>
@@ -554,7 +566,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
           </h2>
 
           <p>
-            Montrose&apos;s <strong>$1.1 million</strong> median home value positions it squarely in the HECM sweet spot &mdash; close enough to the $1,149,825 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. This unincorporated community in the Crescenta Valley, anchored by the beloved Montrose Shopping Park along Honolulu Avenue, offers a small-town atmosphere that has attracted long-term residents who value community connection over urban convenience. Many Montrose homeowners have lived in their properties for 25 to 35 years, creating deep equity positions on homes originally purchased for $150,000 to $350,000.
+            Montrose&apos;s <strong>$1.1 million</strong> median home value positions it squarely in the HECM sweet spot &mdash; close enough to the $1,209,750 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. This unincorporated community in the Crescenta Valley, anchored by the beloved Montrose Shopping Park along Honolulu Avenue, offers a small-town atmosphere that has attracted long-term residents who value community connection over urban convenience. Many Montrose homeowners have lived in their properties for 25 to 35 years, creating deep equity positions on homes originally purchased for $150,000 to $350,000.
           </p>
 
           <p>
@@ -767,7 +779,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount in Pasadena?</h3>
-          <p><strong>FHA HECM caps payout calculations at $1,149,825 regardless of home value. Proprietary programs use actual value, providing more for Pasadena homes above that threshold.</strong></p>
+          <p><strong>FHA HECM caps payout calculations at $1,209,750 regardless of home value. Proprietary programs use actual value, providing more for Pasadena homes above that threshold.</strong></p>
 
           <h3>Can I get a reverse mortgage on a historic Craftsman home in Bungalow Heaven?</h3>
           <p><strong>Yes. Historic Craftsman homes qualify for both HECM and proprietary reverse mortgages. Historic designation often increases appraised value, potentially boosting proceeds.</strong></p>
@@ -826,7 +838,7 @@ export default function ReverseMortgagePasadenaCorridor2026() {
               <li><a href="/blog/reverse-mortgage-san-marino-ca-2026" className="text-blue-700 underline">Reverse Mortgage San Marino: In-Depth Guide</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
               <li><a href="/blog/what-is-reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">What Is a Reverse Mortgage? Complete Guide 2026</a></li>
             </ul>
           </div>

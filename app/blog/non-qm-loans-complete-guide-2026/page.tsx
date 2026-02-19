@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors | Mo Abdel',
-  description: 'Non-QM loans Orange County 2026: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 100+ lenders. NMLS #1426884.',
+  description: 'Non-QM loans Orange County 2026: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 200+ lenders. NMLS #1426884.',
   keywords: ['Non-QM loans Orange County', 'bank statement loans California', 'DSCR loans Orange County', 'self-employed mortgage 2026'],
   openGraph: {
     title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors',
@@ -333,7 +333,7 @@ export default function NonQMLoansGuide2026() {
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">Loan Limits</td>
-                  <td className="p-4 text-slate-600">$1,266,300 (conforming)</td>
+                  <td className="p-4 text-slate-600">$1,209,750 (conforming)</td>
                   <td className="p-4 text-slate-600">Up to $3M+ (varies by lender)</td>
                 </tr>
               </tbody>
@@ -442,6 +442,9 @@ export default function NonQMLoansGuide2026() {
             </Link>
             <Link href="/loan-programs/foreign-national-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Foreign National Loans
+            </Link>
+            <Link href="/blog/foreign-national-mortgage-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Foreign National Mortgage Loans: Complete 2026 Guide
             </Link>
             <Link href="/self-employed-home-loans-california" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Self-Employed Home Loans CA

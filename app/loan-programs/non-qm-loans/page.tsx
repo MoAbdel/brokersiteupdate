@@ -224,7 +224,7 @@ export default function NonQMLoansPage() {
                     <div>• Short-term financing (6-24 months)</div>
                     <div>• Quick closing (7-10 days)</div>
                     <div>• Up to 90% of purchase price</div>
-                    <div>• Interest-only payments</div>
+                    <div>• <a href="/blog/interest-only-mortgage-loans-2026" className="text-blue-600 hover:underline">Interest-only payments</a></div>
                     <div>• Rehab funds available</div>
                   </div>
                   <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Real estate investors, flippers</p>
@@ -581,6 +581,7 @@ export default function NonQMLoansPage() {
                     <p className="text-slate-600">
                       Significant foreign national activity, particularly from Asia-Pacific
                       region, utilizing asset-based and foreign national programs.
+                      Read our <a href="/blog/foreign-national-mortgage-loans-2026" className="text-blue-600 hover:underline font-medium">Complete Foreign National Mortgage Loans Guide</a>.
                     </p>
                   </div>
                 </div>

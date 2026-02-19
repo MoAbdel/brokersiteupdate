@@ -30,11 +30,11 @@ export default function ReverseMortgageFoothillLuxury2026() {
   const faqData = [
     {
       question: 'Can San Marino homeowners get a reverse mortgage on a $4 million estate?',
-      answer: 'Yes. The FHA HECM limit for 2026 is $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. San Marino estates averaging $3 million and frequently exceeding $5 million are ideal candidates for proprietary reverse mortgages that access equity far beyond the HECM cap.',
+      answer: 'Yes. The FHA HECM limit for 2026 is $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. San Marino estates averaging $3 million and frequently exceeding $5 million are ideal candidates for proprietary reverse mortgages that access equity far beyond the HECM cap.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect foothill luxury homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations. In San Marino, La Cañada Flintridge, South Pasadena, and Arcadia, where median values exceed this limit by $650,000 to $1.85 million, seniors need proprietary programs to access their full equity position.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations. In San Marino, La Cañada Flintridge, South Pasadena, and Arcadia, where median values exceed this limit by $650,000 to $1.85 million, seniors need proprietary programs to access their full equity position.',
     },
     {
       question: 'How much can a La Cañada Flintridge senior receive from a reverse mortgage?',
@@ -226,12 +226,24 @@ export default function ReverseMortgageFoothillLuxury2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 11, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four San Gabriel Valley foothill luxury communities &mdash; La Ca&ntilde;ada Flintridge, South Pasadena, San Marino, and Arcadia &mdash; contain an estimated <strong>12,800 homeowners aged 62 and older</strong> sitting on a combined <strong>$22.4 billion in home equity</strong>, based on 2026 LA County assessor records and U.S. Census demographic projections. Every one of these cities has a median home value exceeding the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, making proprietary (jumbo) reverse mortgage programs essential for seniors seeking full equity access. &quot;The SGV foothills represent a unique blend of generational wealth, aerospace-sector pensions, and Asian-American retirement planning traditions. Each city demands a customized reverse mortgage strategy that accounts for cultural preferences, estate planning structures, and home values that far exceed the HECM ceiling,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four San Gabriel Valley foothill luxury communities &mdash; La Ca&ntilde;ada Flintridge, South Pasadena, San Marino, and Arcadia &mdash; contain an estimated <strong>12,800 homeowners aged 62 and older</strong> sitting on a combined <strong>$22.4 billion in home equity</strong>, based on 2026 LA County assessor records and U.S. Census demographic projections. Every one of these cities has a median home value exceeding the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary (jumbo) reverse mortgage programs essential for seniors seeking full equity access. &quot;The SGV foothills represent a unique blend of generational wealth, aerospace-sector pensions, and Asian-American retirement planning traditions. Each city demands a customized reverse mortgage strategy that accounts for cultural preferences, estate planning structures, and home values that far exceed the HECM ceiling,&quot; Abdel explains.
             </p>
           </div>
 
@@ -259,7 +271,7 @@ export default function ReverseMortgageFoothillLuxury2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the SGV foothill luxury communities, median home values range from $1.8 million in South Pasadena and Arcadia to $3 million in San Marino, placing every city well above the 2026 FHA HECM lending limit of $1,149,825. Understanding the gap between the HECM cap and actual home values is critical for every foothill luxury senior evaluating reverse mortgage options.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the SGV foothill luxury communities, median home values range from $1.8 million in South Pasadena and Arcadia to $3 million in San Marino, placing every city well above the 2026 FHA HECM lending limit of $1,209,750. Understanding the gap between the HECM cap and actual home values is critical for every foothill luxury senior evaluating reverse mortgage options.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -695,7 +707,7 @@ export default function ReverseMortgageFoothillLuxury2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount in San Marino?</h3>
-          <p>FHA HECM caps payout calculations at $1,149,825 regardless of home value. Proprietary programs use actual home value, delivering significantly more for San Marino estates averaging $3 million.</p>
+          <p>FHA HECM caps payout calculations at $1,209,750 regardless of home value. Proprietary programs use actual home value, delivering significantly more for San Marino estates averaging $3 million.</p>
 
           <h3>Can I get a reverse mortgage on a home in a living trust?</h3>
           <p>Yes. Both HECM and proprietary programs accept properties held in revocable living trusts, which are standard in San Marino, La Ca&ntilde;ada Flintridge, and throughout the SGV foothills.</p>
@@ -755,7 +767,7 @@ export default function ReverseMortgageFoothillLuxury2026() {
               <li><a href="/blog/reverse-mortgage-arcadia-ca-2026" className="text-blue-700 underline">Reverse Mortgage Arcadia CA: In-Depth Guide</a></li>
               <li><a href="/blog/reverse-mortgage-san-marino-ca-2026" className="text-blue-700 underline">Reverse Mortgage San Marino CA: In-Depth Guide</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

@@ -54,7 +54,7 @@ export default function ReverseMortgageSanMarino() {
         name: 'Can I get a reverse mortgage on my San Marino historic estate?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, San Marino homeowners 62 and older can qualify for reverse mortgages on historic properties. With San Marino median home values around $3.8 million, most homeowners require jumbo reverse mortgage products that exceed the 2026 HECM limit of $1,149,825. Historic estates near Huntington Library and throughout San Marino qualify for these specialized products.',
+          text: 'Yes, San Marino homeowners 62 and older can qualify for reverse mortgages on historic properties. With San Marino median home values around $3.8 million, most homeowners require jumbo reverse mortgage products that exceed the 2026 HECM limit of $1,209,750. Historic estates near Huntington Library and throughout San Marino qualify for these specialized products.',
         },
       },
       {
@@ -62,7 +62,7 @@ export default function ReverseMortgageSanMarino() {
         name: 'Why do San Marino homeowners need jumbo reverse mortgages?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The standard FHA HECM limit is $1,149,825 for 2026. San Marino homes typically range from $2.5M to $15M+, meaning the HECM limit captures only a fraction of available equity. Jumbo reverse mortgages allow San Marino seniors to access equity based on their full home value, which is essential for maximizing retirement funds in this ultra-high-value market.',
+          text: 'The standard FHA HECM limit is $1,209,750 for 2026. San Marino homes typically range from $2.5M to $15M+, meaning the HECM limit captures only a fraction of available equity. Jumbo reverse mortgages allow San Marino seniors to access equity based on their full home value, which is essential for maximizing retirement funds in this ultra-high-value market.',
         },
       },
       {
@@ -135,10 +135,22 @@ export default function ReverseMortgageSanMarino() {
           <p className="text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="lead font-semibold text-gray-900 mb-0">
-              San Marino homeowners 62 and older can access substantial home equity through a reverse mortgage without monthly mortgage payments. With San Marino&apos;s median home value around <strong>$3.8 million</strong>, qualifying seniors require specialized jumbo reverse mortgage products that far exceed the standard HECM limit of $1,149,825. As a wholesale mortgage broker serving San Marino and Los Angeles County, I help seniors in historic estates throughout this prestigious community navigate both standard HECM and proprietary jumbo reverse mortgage options to maximize their retirement equity access.
+              San Marino homeowners 62 and older can access substantial home equity through a reverse mortgage without monthly mortgage payments. With San Marino&apos;s median home value around <strong>$3.8 million</strong>, qualifying seniors require specialized jumbo reverse mortgage products that far exceed the standard HECM limit of $1,209,750. As a wholesale mortgage broker serving San Marino and Los Angeles County, I help seniors in historic estates throughout this prestigious community navigate both standard HECM and proprietary jumbo reverse mortgage options to maximize their retirement equity access.
             </p>
           </div>
 
@@ -200,7 +212,7 @@ export default function ReverseMortgageSanMarino() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Maximum Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">$4M-$10M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -238,7 +250,7 @@ export default function ReverseMortgageSanMarino() {
           </div>
 
           <p>
-            For a $3.8 million San Marino home, a standard HECM would calculate proceeds based only on $1,149,825—capturing just 30% of the home&apos;s value. A jumbo reverse mortgage calculates proceeds based on the full appraised value, potentially providing access to $1,400,000 to $1,900,000 or more depending on borrower age and current interest rates.
+            For a $3.8 million San Marino home, a standard HECM would calculate proceeds based only on $1,209,750—capturing just 30% of the home&apos;s value. A jumbo reverse mortgage calculates proceeds based on the full appraised value, potentially providing access to $1,400,000 to $1,900,000 or more depending on borrower age and current interest rates.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">San Marino Reverse Mortgage Eligibility Requirements</h2>
@@ -456,14 +468,14 @@ export default function ReverseMortgageSanMarino() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a reverse mortgage on my San Marino historic estate?</h3>
               <p>
-                Yes, San Marino homeowners 62 and older can qualify for reverse mortgages on historic properties. With San Marino median home values around $3.8 million, most homeowners require jumbo reverse mortgage products that exceed the 2026 HECM limit of $1,149,825. Historic estates near Huntington Library and throughout San Marino qualify for these specialized products. The key requirements are age (62+), primary residence status, and sufficient equity.
+                Yes, San Marino homeowners 62 and older can qualify for reverse mortgages on historic properties. With San Marino median home values around $3.8 million, most homeowners require jumbo reverse mortgage products that exceed the 2026 HECM limit of $1,209,750. Historic estates near Huntington Library and throughout San Marino qualify for these specialized products. The key requirements are age (62+), primary residence status, and sufficient equity.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why do San Marino homeowners need jumbo reverse mortgages?</h3>
               <p>
-                The standard FHA HECM limit is $1,149,825 for 2026. San Marino homes typically range from $2.5M to $15M+, meaning the HECM limit captures only a fraction of available equity. A standard HECM on a $3.8M San Marino home would calculate proceeds based only on $1,149,825—leaving over $2.6 million in equity inaccessible. Jumbo reverse mortgages allow San Marino seniors to access equity based on their full home value, which is essential for maximizing retirement funds in this ultra-high-value market.
+                The standard FHA HECM limit is $1,209,750 for 2026. San Marino homes typically range from $2.5M to $15M+, meaning the HECM limit captures only a fraction of available equity. A standard HECM on a $3.8M San Marino home would calculate proceeds based only on $1,209,750—leaving over $2.6 million in equity inaccessible. Jumbo reverse mortgages allow San Marino seniors to access equity based on their full home value, which is essential for maximizing retirement funds in this ultra-high-value market.
               </p>
             </div>
 
@@ -600,7 +612,7 @@ export default function ReverseMortgageSanMarino() {
             <ul className="space-y-2">
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Complete Reverse Mortgage Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">Reverse Mortgage vs HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage vs HELOC for Seniors</a></li>
               <li><a href="/blog/reverse-mortgage-beverly-hills-2026" className="text-blue-600 hover:underline">Reverse Mortgage in Beverly Hills</a></li>
               <li><a href="/blog/reverse-mortgage-california-washington-pillar-2026" className="text-blue-600 hover:underline">California Reverse Mortgage Guide</a></li>
               <li><a href="/contact" className="text-blue-600 hover:underline">Get Your Free Quote</a></li>

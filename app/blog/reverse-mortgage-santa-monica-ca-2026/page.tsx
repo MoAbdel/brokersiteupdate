@@ -54,7 +54,7 @@ export default function ReverseMortgageSantaMonicaPage() {
         name: 'Can I get a reverse mortgage on my Santa Monica home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, Santa Monica homeowners 62 and older can qualify for reverse mortgages. With median home values around $2.1 million, many Santa Monica properties exceed the FHA HECM limit of $1,149,825, making proprietary (jumbo) reverse mortgages an excellent option for accessing additional equity.',
+          text: 'Yes, Santa Monica homeowners 62 and older can qualify for reverse mortgages. With median home values around $2.1 million, many Santa Monica properties exceed the FHA HECM limit of $1,209,750, making proprietary (jumbo) reverse mortgages an excellent option for accessing additional equity.',
         },
       },
       {
@@ -62,7 +62,7 @@ export default function ReverseMortgageSantaMonicaPage() {
         name: 'How much equity can Santa Monica seniors access through a reverse mortgage?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Santa Monica seniors can access substantial equity based on their age, home value, and current interest rates. The standard HECM limit is $1,149,825, while proprietary programs can access equity on homes valued at $2 million, $3 million, or higher. A 75-year-old with a $2.1 million home and no existing mortgage could potentially access $600,000 to $900,000 or more.',
+          text: 'Santa Monica seniors can access substantial equity based on their age, home value, and current interest rates. The standard HECM limit is $1,209,750, while proprietary programs can access equity on homes valued at $2 million, $3 million, or higher. A 75-year-old with a $2.1 million home and no existing mortgage could potentially access $600,000 to $900,000 or more.',
         },
       },
       {
@@ -134,6 +134,18 @@ export default function ReverseMortgageSantaMonicaPage() {
           </p>
           <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           {/* Introduction */}
@@ -227,7 +239,7 @@ export default function ReverseMortgageSantaMonicaPage() {
 
           <h3>North of Montana: Santa Monica&apos;s Premier Neighborhood</h3>
           <p>
-            North of Montana represents Santa Monica&apos;s most exclusive residential area. Tree-lined streets, estate homes, and proximity to top-rated schools have created a neighborhood where values regularly exceed $5 million. For seniors in this area, proprietary (jumbo) reverse mortgages are essential since standard HECM limits cap at $1,149,825.
+            North of Montana represents Santa Monica&apos;s most exclusive residential area. Tree-lined streets, estate homes, and proximity to top-rated schools have created a neighborhood where values regularly exceed $5 million. For seniors in this area, proprietary (jumbo) reverse mortgages are essential since standard HECM limits cap at $1,209,750.
           </p>
           <p>
             Long-term North of Montana residents often purchased homes in the 1970s, 1980s, or 1990s for $200,000 to $600,000. These properties now represent $3 million to $10 million or more in value, creating extraordinary equity positions. A jumbo reverse mortgage can help access this wealth while maintaining residence in the neighborhood.
@@ -291,7 +303,7 @@ export default function ReverseMortgageSantaMonicaPage() {
 
           <h3>Understanding HECM Limits vs. Proprietary Programs</h3>
           <p>
-            The FHA&apos;s HECM program has a maximum claim amount of <strong>$1,149,825 for 2026</strong>. This means even if your Santa Monica home is worth $3 million, the HECM calculation treats it as if it were worth $1,149,825. For most Santa Monica homeowners, this leaves substantial equity on the table.
+            The FHA&apos;s HECM program has a maximum claim amount of <strong>$1,209,750 for 2026</strong>. This means even if your Santa Monica home is worth $3 million, the HECM calculation treats it as if it were worth $1,209,750. For most Santa Monica homeowners, this leaves substantial equity on the table.
           </p>
           <p>
             Proprietary (jumbo) reverse mortgages fill this gap. These non-FHA programs can access equity on homes valued at $2 million, $4 million, $10 million, or higher. While they may have slightly different terms than HECM, they&apos;re often the better choice for high-value Santa Monica properties.
@@ -310,7 +322,7 @@ export default function ReverseMortgageSantaMonicaPage() {
               <tbody>
                 <tr className="border-t">
                   <td className="py-3 px-4 font-medium">FHA HECM</td>
-                  <td className="py-3 px-4">$1,149,825</td>
+                  <td className="py-3 px-4">$1,209,750</td>
                   <td className="py-3 px-4">Lower-value properties</td>
                   <td className="py-3 px-4">FHA insurance, non-recourse guarantee</td>
                 </tr>
@@ -598,12 +610,12 @@ export default function ReverseMortgageSantaMonicaPage() {
           <div className="space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">Can I get a reverse mortgage on my Santa Monica home?</h3>
-              <p className="mb-0">Yes, Santa Monica homeowners 62 and older can qualify for reverse mortgages. With median home values around $2.1 million, many Santa Monica properties exceed the FHA HECM limit of $1,149,825, making proprietary (jumbo) reverse mortgages an excellent option for accessing additional equity.</p>
+              <p className="mb-0">Yes, Santa Monica homeowners 62 and older can qualify for reverse mortgages. With median home values around $2.1 million, many Santa Monica properties exceed the FHA HECM limit of $1,209,750, making proprietary (jumbo) reverse mortgages an excellent option for accessing additional equity.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">How much equity can Santa Monica seniors access through a reverse mortgage?</h3>
-              <p className="mb-0">Santa Monica seniors can access substantial equity based on their age, home value, and current interest rates. The standard HECM limit is $1,149,825, while proprietary programs can access equity on homes valued at $2 million, $3 million, or higher. A 75-year-old with a $2.1 million home and no existing mortgage could potentially access $600,000 to $900,000 or more.</p>
+              <p className="mb-0">Santa Monica seniors can access substantial equity based on their age, home value, and current interest rates. The standard HECM limit is $1,209,750, while proprietary programs can access equity on homes valued at $2 million, $3 million, or higher. A 75-year-old with a $2.1 million home and no existing mortgage could potentially access $600,000 to $900,000 or more.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -652,7 +664,7 @@ export default function ReverseMortgageSantaMonicaPage() {
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Complete Reverse Mortgage Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-beverly-hills-2026" className="text-blue-600 hover:underline">Reverse Mortgage in Beverly Hills</a></li>
               <li><a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-600 hover:underline">Reverse Mortgage in Manhattan Beach</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options Explained</a></li>
             </ul>

@@ -30,11 +30,11 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
   const faqData = [
     {
       question: 'Can San Francisco condo owners get a reverse mortgage on a $2 million unit?',
-      answer: 'Yes. FHA HECM reverse mortgages are available for FHA-approved condominiums, and the 2026 lending limit is $1,149,825. For condos valued above this limit, proprietary (jumbo) reverse mortgage programs serve units valued at $2 million to $10 million or more. San Francisco condo owners should verify their building is on the FHA-approved list or pursue proprietary programs that have more flexible property eligibility.',
+      answer: 'Yes. FHA HECM reverse mortgages are available for FHA-approved condominiums, and the 2026 lending limit is $1,209,750. For condos valued above this limit, proprietary (jumbo) reverse mortgage programs serve units valued at $2 million to $10 million or more. San Francisco condo owners should verify their building is on the FHA-approved list or pursue proprietary programs that have more flexible property eligibility.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect East Bay homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Piedmont ($2.5M median), Orinda ($2M), Lafayette ($2M), and San Francisco ($1.5M), most seniors need proprietary programs to access equity beyond the HECM cap. Moraga homes near $1.8M also exceed the limit significantly.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Piedmont ($2.5M median), Orinda ($2M), Lafayette ($2M), and San Francisco ($1.5M), most seniors need proprietary programs to access equity beyond the HECM cap. Moraga homes near $1.8M also exceed the limit significantly.',
     },
     {
       question: 'Can I get a reverse mortgage on a TIC (Tenancy in Common) property in San Francisco?',
@@ -42,7 +42,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
     },
     {
       question: 'How much money can a Piedmont senior receive from a reverse mortgage?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Piedmont home valued at $2.5 million, the FHA HECM caps at the $1,149,825 limit, providing approximately $517,000 to $632,000 for a 72-year-old borrower. A proprietary reverse mortgage bases payouts on actual value, potentially delivering $875,000 to $1.375 million depending on program and borrower age.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Piedmont home valued at $2.5 million, the FHA HECM caps at the $1,209,750 limit, providing approximately $517,000 to $632,000 for a 72-year-old borrower. A proprietary reverse mortgage bases payouts on actual value, potentially delivering $875,000 to $1.375 million depending on program and borrower age.',
     },
     {
       question: 'Do I lose ownership of my Orinda home with a reverse mortgage?',
@@ -74,7 +74,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For East Bay and SF homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For East Bay and SF homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
     },
   ];
 
@@ -227,12 +227,24 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>72,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$94 billion in home equity</strong>, based on 2026 county assessor data and U.S. Census demographic projections. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3 million Pacific Heights condo with TIC conversion complications to a $2.5 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>72,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$94 billion in home equity</strong>, based on 2026 county assessor data and U.S. Census demographic projections. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3 million Pacific Heights condo with TIC conversion complications to a $2.5 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
             </p>
           </div>
 
@@ -261,7 +273,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the premium East Bay and San Francisco corridor, home values range from $1.5 million in San Francisco to $2.5 million in Piedmont &mdash; each exceeding the FHA HECM cap of $1,149,825. This creates a market where understanding both HECM protections and proprietary jumbo access is critical for every senior evaluating reverse mortgage options. San Francisco adds unique complexity through its condo-dominated housing stock and TIC ownership structures that require specialized reverse mortgage knowledge.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the premium East Bay and San Francisco corridor, home values range from $1.5 million in San Francisco to $2.5 million in Piedmont &mdash; each exceeding the FHA HECM cap of $1,209,750. This creates a market where understanding both HECM protections and proprietary jumbo access is critical for every senior evaluating reverse mortgage options. San Francisco adds unique complexity through its condo-dominated housing stock and TIC ownership structures that require specialized reverse mortgage knowledge.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -767,7 +779,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount for a San Francisco condo?</h3>
-          <p><strong>FHA HECM caps at $1,149,825 regardless of condo value. Proprietary programs use actual value, providing significantly more for high-value SF condominiums.</strong></p>
+          <p><strong>FHA HECM caps at $1,209,750 regardless of condo value. Proprietary programs use actual value, providing significantly more for high-value SF condominiums.</strong></p>
 
           <h3>Can I get a reverse mortgage on a TIC property in San Francisco?</h3>
           <p><strong>Standard HECM does not cover TIC properties. Some proprietary lenders offer TIC-specific programs, but availability is limited and terms vary.</strong></p>
@@ -827,7 +839,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
               <li><a href="/blog/reverse-mortgage-affluent-marin-2026" className="text-blue-700 underline">Reverse Mortgage: Affluent Marin County 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

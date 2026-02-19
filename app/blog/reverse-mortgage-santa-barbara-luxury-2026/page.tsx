@@ -30,11 +30,11 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
   const faqData = [
     {
       question: 'Can Montecito homeowners get a reverse mortgage on a $10 million estate?',
-      answer: 'Yes. The FHA HECM limit for 2026 is $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Montecito estates with a median value around $8.5 million require proprietary reverse mortgages that operate well above the HECM ceiling, accessing equity through private-label programs available via the wholesale broker channel.',
+      answer: 'Yes. The FHA HECM limit for 2026 is $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Montecito estates with a median value around $8.5 million require proprietary reverse mortgages that operate well above the HECM ceiling, accessing equity through private-label programs available via the wholesale broker channel.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect Santa Barbara County homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Montecito, Santa Barbara, and Carpinteria, where median values range from $2.3 million to $8.5 million, the HECM captures only a fraction of available equity. Proprietary programs are essential for accessing the full equity position.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Montecito, Santa Barbara, and Carpinteria, where median values range from $2.3 million to $8.5 million, the HECM captures only a fraction of available equity. Proprietary programs are essential for accessing the full equity position.',
     },
     {
       question: 'How much money can a Santa Barbara senior receive from a reverse mortgage?',
@@ -225,12 +225,24 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 11, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the three Santa Barbara luxury communities &mdash; Montecito, Santa Barbara, and Carpinteria &mdash; contain an estimated <strong>9,400 homeowners aged 62 and older</strong> sitting on a combined <strong>$28.6 billion in home equity</strong>, based on 2026 Santa Barbara County assessor data and U.S. Census demographic projections. Montecito&apos;s <strong>$8.5 million</strong> median home value makes it one of the wealthiest residential communities in the United States, where the 2026 FHA HECM lending limit of $1,149,825 captures barely 13.5% of median property value. &quot;Santa Barbara luxury homeowners represent the highest concentration of untapped reverse mortgage equity on the Central Coast. A Montecito estate worth $12 million holds $10.85 million above the HECM ceiling &mdash; only proprietary jumbo programs can access equity at that scale,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the three Santa Barbara luxury communities &mdash; Montecito, Santa Barbara, and Carpinteria &mdash; contain an estimated <strong>9,400 homeowners aged 62 and older</strong> sitting on a combined <strong>$28.6 billion in home equity</strong>, based on 2026 Santa Barbara County assessor data and U.S. Census demographic projections. Montecito&apos;s <strong>$8.5 million</strong> median home value makes it one of the wealthiest residential communities in the United States, where the 2026 FHA HECM lending limit of $1,209,750 captures barely 13.5% of median property value. &quot;Santa Barbara luxury homeowners represent the highest concentration of untapped reverse mortgage equity on the Central Coast. A Montecito estate worth $12 million holds $10.85 million above the HECM ceiling &mdash; only proprietary jumbo programs can access equity at that scale,&quot; Abdel explains.
             </p>
           </div>
 
@@ -257,7 +269,7 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the Santa Barbara luxury corridor, home values span from $2.3 million in Santa Barbara proper to $8.5 million in Montecito &mdash; a range that places every community far above the 2026 FHA HECM lending limit of $1,149,825 and makes proprietary jumbo reverse mortgage programs essential for every senior in this market.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the Santa Barbara luxury corridor, home values span from $2.3 million in Santa Barbara proper to $8.5 million in Montecito &mdash; a range that places every community far above the 2026 FHA HECM lending limit of $1,209,750 and makes proprietary jumbo reverse mortgage programs essential for every senior in this market.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -362,7 +374,7 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
           </div>
 
           <p>
-            For Montecito homeowners with $8 million to $20 million estates, proprietary programs deliver proceeds in the multi-million-dollar range &mdash; orders of magnitude above what HECM provides at the $1,149,825 cap. However, a small HECM credit line established separately can serve as a growing financial reserve with unique protections (non-recourse guarantee, credit line growth) that proprietary programs do not match. Some ultra-luxury borrowers use both programs strategically.
+            For Montecito homeowners with $8 million to $20 million estates, proprietary programs deliver proceeds in the multi-million-dollar range &mdash; orders of magnitude above what HECM provides at the $1,209,750 cap. However, a small HECM credit line established separately can serve as a growing financial reserve with unique protections (non-recourse guarantee, credit line growth) that proprietary programs do not match. Some ultra-luxury borrowers use both programs strategically.
           </p>
 
           {/* ========== MONTECITO ========== */}
@@ -545,7 +557,7 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
           </h2>
 
           <p>
-            The Santa Barbara luxury corridor presents the most extreme home value range of any reverse mortgage market in California. Within a 20-mile coastal stretch, median values span from $2.3 million in Santa Barbara to $8.5 million in Montecito, with individual properties reaching $20 million to $50 million and beyond. The standard FHA HECM program, capped at $1,149,825, captures between 13.5% (Montecito) and 50% (Santa Barbara) of median home values across these communities. No bank-offered HECM product alone can serve this market effectively.
+            The Santa Barbara luxury corridor presents the most extreme home value range of any reverse mortgage market in California. Within a 20-mile coastal stretch, median values span from $2.3 million in Santa Barbara to $8.5 million in Montecito, with individual properties reaching $20 million to $50 million and beyond. The standard FHA HECM program, capped at $1,209,750, captures between 13.5% (Montecito) and 50% (Santa Barbara) of median home values across these communities. No bank-offered HECM product alone can serve this market effectively.
           </p>
 
           <p>
@@ -644,7 +656,7 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount in Montecito?</h3>
-          <p>FHA HECM caps at $1,149,825, capturing only 13.5% of Montecito&apos;s $8.5 million median. Proprietary jumbo programs use actual home value, delivering multi-million-dollar proceeds for Montecito estates.</p>
+          <p>FHA HECM caps at $1,209,750, capturing only 13.5% of Montecito&apos;s $8.5 million median. Proprietary jumbo programs use actual home value, delivering multi-million-dollar proceeds for Montecito estates.</p>
 
           <h3>Can I get a reverse mortgage on a fire-rebuilt Montecito home?</h3>
           <p>Yes. Once reconstruction is complete with a certificate of occupancy, fire-rebuilt homes qualify and often appraise at premium values due to modern construction and updated building codes.</p>
@@ -704,7 +716,7 @@ export default function ReverseMortgageSantaBarbaraLuxury2026() {
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
               <li><a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-700 underline">Reverse Mortgage Myths Debunked</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

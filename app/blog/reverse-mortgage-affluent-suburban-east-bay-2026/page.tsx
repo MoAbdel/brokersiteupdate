@@ -30,11 +30,11 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
   const faqData = [
     {
       question: 'Can Blackhawk homeowners get a reverse mortgage on a $3 million gated community home?',
-      answer: 'Yes. The FHA HECM program caps at $1,149,825 for 2026, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Blackhawk estate owners need proprietary programs to access their full equity. These programs are available through wholesale broker channels and base payouts on actual home value rather than the FHA ceiling.',
+      answer: 'Yes. The FHA HECM program caps at $1,209,750 for 2026, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Blackhawk estate owners need proprietary programs to access their full equity. These programs are available through wholesale broker channels and base payouts on actual home value rather than the FHA ceiling.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect East Bay suburban homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. Danville ($1.8M median) and Pleasanton ($1.3M) exceed this limit, requiring proprietary programs for full equity access. Walnut Creek, Dublin, and Fremont homes near $1.1M can use HECM more effectively since values align closely with the cap.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. Danville ($1.8M median) and Pleasanton ($1.3M) exceed this limit, requiring proprietary programs for full equity access. Walnut Creek, Dublin, and Fremont homes near $1.1M can use HECM more effectively since values align closely with the cap.',
     },
     {
       question: 'Can Rossmoor 55+ community residents qualify for a reverse mortgage?',
@@ -42,7 +42,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
     },
     {
       question: 'How much money can a Danville senior receive from a reverse mortgage?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Danville home valued at $1.8 million, the FHA HECM caps at the $1,149,825 limit, providing approximately $517,000 to $632,000 for a 72-year-old. A proprietary reverse mortgage bases payouts on actual value, potentially delivering $630,000 to $990,000 depending on program and borrower age.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Danville home valued at $1.8 million, the FHA HECM caps at the $1,209,750 limit, providing approximately $517,000 to $632,000 for a 72-year-old. A proprietary reverse mortgage bases payouts on actual value, potentially delivering $630,000 to $990,000 depending on program and borrower age.',
     },
     {
       question: 'Do I lose ownership of my Pleasanton home with a reverse mortgage?',
@@ -74,7 +74,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For East Bay suburban homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For East Bay suburban homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
     },
   ];
 
@@ -227,12 +227,24 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five affluent suburban East Bay communities &mdash; Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; are home to an estimated <strong>48,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$52 billion in home equity</strong>, based on 2026 Contra Costa and Alameda County assessor data and U.S. Census demographic projections. Danville and Pleasanton median values exceed the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, while Walnut Creek, Dublin, and Fremont align closely with the cap &mdash; creating a corridor where HECM optimization and proprietary jumbo programs serve different communities based on precise value positioning. &quot;The BART corridor suburban East Bay is one of the most strategically interesting reverse mortgage markets in California. Rossmoor alone has 9,000 households of seniors, Blackhawk has estate homes above $3 million, and Fremont has the most diverse senior population in the Bay Area. Each demands a completely different approach,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five affluent suburban East Bay communities &mdash; Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; are home to an estimated <strong>48,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$52 billion in home equity</strong>, based on 2026 Contra Costa and Alameda County assessor data and U.S. Census demographic projections. Danville and Pleasanton median values exceed the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, while Walnut Creek, Dublin, and Fremont align closely with the cap &mdash; creating a corridor where HECM optimization and proprietary jumbo programs serve different communities based on precise value positioning. &quot;The BART corridor suburban East Bay is one of the most strategically interesting reverse mortgage markets in California. Rossmoor alone has 9,000 households of seniors, Blackhawk has estate homes above $3 million, and Fremont has the most diverse senior population in the Bay Area. Each demands a completely different approach,&quot; Abdel explains.
             </p>
           </div>
 
@@ -261,7 +273,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the affluent suburban East Bay, home values range from $1.1 million in Dublin and Fremont to $1.8 million in Danville &mdash; a corridor where the FHA HECM cap of $1,149,825 creates a strategic divide. Communities near the cap maximize HECM benefits with full FHA protections, while those above it require proprietary programs for complete equity access. Understanding where each city falls relative to this threshold is the first step in building a reverse mortgage strategy.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the affluent suburban East Bay, home values range from $1.1 million in Dublin and Fremont to $1.8 million in Danville &mdash; a corridor where the FHA HECM cap of $1,209,750 creates a strategic divide. Communities near the cap maximize HECM benefits with full FHA protections, while those above it require proprietary programs for complete equity access. Understanding where each city falls relative to this threshold is the first step in building a reverse mortgage strategy.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -444,7 +456,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
           </h2>
 
           <p>
-            Walnut Creek&apos;s <strong>$1.1 million</strong> median home value positions it in the HECM sweet spot &mdash; close to the $1,149,825 FHA lending limit, meaning the standard HECM program captures nearly all home value for payout calculations. This makes Walnut Creek seniors among the best-positioned HECM candidates in the East Bay. The city&apos;s 70,000 residents include a remarkably large senior population anchored by Rossmoor, the largest 55+ community in Northern California with approximately 9,000 households and 10,000 residents aged 55 and older.
+            Walnut Creek&apos;s <strong>$1.1 million</strong> median home value positions it in the HECM sweet spot &mdash; close to the $1,209,750 FHA lending limit, meaning the standard HECM program captures nearly all home value for payout calculations. This makes Walnut Creek seniors among the best-positioned HECM candidates in the East Bay. The city&apos;s 70,000 residents include a remarkably large senior population anchored by Rossmoor, the largest 55+ community in Northern California with approximately 9,000 households and 10,000 residents aged 55 and older.
           </p>
 
           <p>
@@ -554,7 +566,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
           </h2>
 
           <p>
-            Dublin&apos;s <strong>$1.1 million</strong> median home value positions it at the HECM optimization threshold &mdash; close enough to the $1,149,825 FHA lending limit that the standard HECM program captures virtually all home value for payout calculations. The city&apos;s rapid growth from 29,000 residents in 2000 to over 80,000 in 2026 has created a unique reverse mortgage dynamic: many homeowners purchased relatively new construction at prices that have already appreciated 40% to 80% in just 10 to 15 years.
+            Dublin&apos;s <strong>$1.1 million</strong> median home value positions it at the HECM optimization threshold &mdash; close enough to the $1,209,750 FHA lending limit that the standard HECM program captures virtually all home value for payout calculations. The city&apos;s rapid growth from 29,000 residents in 2000 to over 80,000 in 2026 has created a unique reverse mortgage dynamic: many homeowners purchased relatively new construction at prices that have already appreciated 40% to 80% in just 10 to 15 years.
           </p>
 
           <p>
@@ -767,7 +779,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount for a Danville home?</h3>
-          <p><strong>FHA HECM caps at $1,149,825 regardless of home value. Proprietary programs use actual value, providing significantly more for Danville homes averaging $1.8 million.</strong></p>
+          <p><strong>FHA HECM caps at $1,209,750 regardless of home value. Proprietary programs use actual value, providing significantly more for Danville homes averaging $1.8 million.</strong></p>
 
           <h3>Can Rossmoor residents qualify for a reverse mortgage?</h3>
           <p><strong>Yes. Most Rossmoor condos qualify for HECM. Co-op units need specialized programs. Values within the FHA limit maximize protections and payout potential.</strong></p>
@@ -827,7 +839,7 @@ export default function ReverseMortgageAffluentSuburbanEastBay2026() {
               <li><a href="/blog/reverse-mortgage-affluent-marin-2026" className="text-blue-700 underline">Reverse Mortgage: Affluent Marin County 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

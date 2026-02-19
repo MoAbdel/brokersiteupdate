@@ -30,11 +30,11 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
   const faqData = [
     {
       question: 'Can Culver City homeowners near Amazon Studios get a reverse mortgage on a $1.5 million home?',
-      answer: 'Yes. The FHA HECM program serves homes up to the 2026 lending limit of $1,149,825, covering a significant portion of Culver City home values. For homes above this limit, proprietary (jumbo) reverse mortgage programs base payouts on actual home value. Culver City seniors in the Arts District and Downtown areas frequently exceed the HECM cap, requiring proprietary access for full equity utilization.',
+      answer: 'Yes. The FHA HECM program serves homes up to the 2026 lending limit of $1,209,750, covering a significant portion of Culver City home values. For homes above this limit, proprietary (jumbo) reverse mortgage programs base payouts on actual home value. Culver City seniors in the Arts District and Downtown areas frequently exceed the HECM cap, requiring proprietary access for full equity utilization.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect LA Westside homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. Culver City ($1.3M median) slightly exceeds this limit, while Playa del Rey ($1.2M), Marina del Rey ($1.1M), and Westchester ($1.1M) align closely with the cap, making HECM an effective tool for most Westside seniors.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. Culver City ($1.3M median) slightly exceeds this limit, while Playa del Rey ($1.2M), Marina del Rey ($1.1M), and Westchester ($1.1M) align closely with the cap, making HECM an effective tool for most Westside seniors.',
     },
     {
       question: 'Can I get a reverse mortgage on a Marina del Rey condo?',
@@ -42,7 +42,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
     },
     {
       question: 'How much money can a Playa del Rey senior receive from a reverse mortgage?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Playa del Rey home valued at $1.2 million, an FHA HECM captures nearly the entire value under the $1,149,825 limit, providing approximately $420,000 to $660,000 for a 72-year-old borrower. This makes Playa del Rey one of the most HECM-optimized communities on the LA Westside.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Playa del Rey home valued at $1.2 million, an FHA HECM captures nearly the entire value under the $1,209,750 limit, providing approximately $420,000 to $660,000 for a 72-year-old borrower. This makes Playa del Rey one of the most HECM-optimized communities on the LA Westside.',
     },
     {
       question: 'Do I lose ownership of my Culver City home with a reverse mortgage?',
@@ -74,7 +74,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For LA Westside homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs provides additional equity access. Even for homes near the limit, a broker compares rate and fee structures across multiple HECM lenders to find the best terms.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For LA Westside homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs provides additional equity access. Even for homes near the limit, a broker compares rate and fee structures across multiple HECM lenders to find the best terms.',
     },
   ];
 
@@ -226,12 +226,24 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four LA Westside communities &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$19.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Home values across all four communities cluster tightly around the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, creating a corridor where HECM optimization delivers strong payouts with full FHA protections while proprietary programs serve upper-tier properties in Culver City&apos;s Arts District and Playa del Rey&apos;s bluff-top homes. &quot;The LA Westside studio corridor is unlike any reverse mortgage market in the country. Amazon Studios, Sony Pictures, and Apple TV+ have transformed Culver City into a global entertainment hub, and the creative professionals who built their careers here over 30 years now hold $1 million to $2 million in home equity. That is a retirement resource most of them have never considered accessing,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four LA Westside communities &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$19.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Home values across all four communities cluster tightly around the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, creating a corridor where HECM optimization delivers strong payouts with full FHA protections while proprietary programs serve upper-tier properties in Culver City&apos;s Arts District and Playa del Rey&apos;s bluff-top homes. &quot;The LA Westside studio corridor is unlike any reverse mortgage market in the country. Amazon Studios, Sony Pictures, and Apple TV+ have transformed Culver City into a global entertainment hub, and the creative professionals who built their careers here over 30 years now hold $1 million to $2 million in home equity. That is a retirement resource most of them have never considered accessing,&quot; Abdel explains.
             </p>
           </div>
 
@@ -259,7 +271,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the LA Westside luxury corridor, home values cluster between $1.1 million and $1.3 million at the median &mdash; a range that straddles the 2026 FHA HECM cap of $1,149,825. This tight clustering creates a unique strategic opportunity: most Westside seniors can maximize HECM benefits with full FHA protections, while upper-tier properties in premium neighborhoods access additional equity through proprietary programs. The entertainment industry&apos;s dominance in this corridor adds distinct income patterns &mdash; SAG-AFTRA residuals, DGA pensions, and production company retirement benefits &mdash; that require specialized financial assessment knowledge.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the LA Westside luxury corridor, home values cluster between $1.1 million and $1.3 million at the median &mdash; a range that straddles the 2026 FHA HECM cap of $1,209,750. This tight clustering creates a unique strategic opportunity: most Westside seniors can maximize HECM benefits with full FHA protections, while upper-tier properties in premium neighborhoods access additional equity through proprietary programs. The entertainment industry&apos;s dominance in this corridor adds distinct income patterns &mdash; SAG-AFTRA residuals, DGA pensions, and production company retirement benefits &mdash; that require specialized financial assessment knowledge.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -422,7 +434,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           </div>
 
           <p>
-            <strong>Retirement Scenario:</strong> A 71-year-old retired Sony Pictures post-production supervisor owns a $1.4 million Culver City home two blocks from Sony Studios, purchased in 1996 for $285,000. The home is free and clear. Retirement income includes a SAG-AFTRA pension of $2,800 monthly, Social Security of $2,600, and variable residual payments averaging $800 monthly. Total income averages $6,200, but residuals fluctuate between $200 and $1,400 depending on rerun and streaming cycles. Monthly expenses total $5,800. An FHA HECM provides a $560,000 line of credit based on the $1,149,825 cap. The retiree leaves the line untouched during strong residual months and draws $1,000 to $2,000 during lean periods. The unused portion grows annually, building a financial cushion that expands even during no-draw periods.
+            <strong>Retirement Scenario:</strong> A 71-year-old retired Sony Pictures post-production supervisor owns a $1.4 million Culver City home two blocks from Sony Studios, purchased in 1996 for $285,000. The home is free and clear. Retirement income includes a SAG-AFTRA pension of $2,800 monthly, Social Security of $2,600, and variable residual payments averaging $800 monthly. Total income averages $6,200, but residuals fluctuate between $200 and $1,400 depending on rerun and streaming cycles. Monthly expenses total $5,800. An FHA HECM provides a $560,000 line of credit based on the $1,209,750 cap. The retiree leaves the line untouched during strong residual months and draws $1,000 to $2,000 during lean periods. The unused portion grows annually, building a financial cushion that expands even during no-draw periods.
           </p>
 
           <p>
@@ -535,7 +547,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           </h2>
 
           <p>
-            Westchester&apos;s <strong>$1.1 million</strong> median home value positions this LA neighborhood in the HECM sweet spot &mdash; close enough to the $1,149,825 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. The neighborhood&apos;s 55,000 residents include a distinctive concentration of airline and airport industry retirees &mdash; pilots, flight attendants, mechanics, air traffic controllers, and TSA employees who chose Westchester specifically for its proximity to LAX over 20 to 40 years of commuting. These retirees now own mid-century homes purchased for $200,000 to $500,000 that have appreciated to $900,000 to $1.4 million.
+            Westchester&apos;s <strong>$1.1 million</strong> median home value positions this LA neighborhood in the HECM sweet spot &mdash; close enough to the $1,209,750 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. The neighborhood&apos;s 55,000 residents include a distinctive concentration of airline and airport industry retirees &mdash; pilots, flight attendants, mechanics, air traffic controllers, and TSA employees who chose Westchester specifically for its proximity to LAX over 20 to 40 years of commuting. These retirees now own mid-century homes purchased for $200,000 to $500,000 that have appreciated to $900,000 to $1.4 million.
           </p>
 
           <p>
@@ -687,7 +699,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount for a Culver City home?</h3>
-          <p><strong>FHA HECM caps at $1,149,825 regardless of home value. Proprietary programs use actual value, providing more for Culver City homes averaging $1.3 million.</strong></p>
+          <p><strong>FHA HECM caps at $1,209,750 regardless of home value. Proprietary programs use actual value, providing more for Culver City homes averaging $1.3 million.</strong></p>
 
           <h3>Can I get a reverse mortgage on a Marina del Rey condo?</h3>
           <p><strong>Yes. HECM requires FHA project approval for the building. Proprietary programs offer flexible condo eligibility for buildings without FHA approval.</strong></p>
@@ -747,7 +759,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
               <li><a href="/blog/home-equity-la-westside-luxury-2026" className="text-blue-700 underline">Home Equity: LA Westside HELOC &amp; Cash-Out 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

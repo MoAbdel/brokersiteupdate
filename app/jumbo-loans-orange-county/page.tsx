@@ -9,7 +9,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, 
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
-  description: 'Get jumbo loans in Orange County above $1,249,125 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
+  description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/jumbo-loans-orange-county',
     languages: {
@@ -32,7 +32,7 @@ const pageSchema = buildServiceWebPageSchema({
   pageUrl: PAGE_URL,
   title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
   description:
-    'Get jumbo loans in Orange County above $1,249,125 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
+    'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
   breadcrumbName: 'Jumbo Loans',
   dateModified: '2026-02-16',
 });
@@ -40,7 +40,7 @@ const pageSchema = buildServiceWebPageSchema({
 const faqs = [
   {
     question: "What qualifies as a jumbo loan in Orange County?",
-    answer: "Any mortgage above $1,249,125 in Orange County is considered a jumbo loan in 2026. This includes most luxury homes in Newport Beach, high-end Irvine properties, and premium communities throughout OC where home values exceed conforming limits."
+    answer: "Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2026. This includes most luxury homes in Newport Beach, high-end Irvine properties, and premium communities throughout OC where home values exceed conforming limits."
   },
   {
     question: "Are jumbo loan pricing higher than conventional rates?",
@@ -68,7 +68,7 @@ const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 const howToSchema = buildHowToSchema({
   name: 'How to Apply for a Jumbo Loan in Orange County',
-  description: 'Step-by-step jumbo loan application process for luxury home financing above $1,249,125 in Orange County.',
+  description: 'Step-by-step jumbo loan application process for luxury home financing above $1,209,750 in Orange County.',
   totalTime: 'P21D',
   url: PAGE_URL,
   steps: [
@@ -113,7 +113,7 @@ export default function JumboLoansOrangeCountyPage() {
                 Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
               </h1>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8" data-speakable="true">
-                Finance luxury homes above $1,249,125 in Orange County with competitive jumbo loans.
+                Finance luxury homes above $1,209,750 in Orange County with competitive jumbo loans.
                 Mo Abdel specializes in high-balance mortgage financing for Newport Beach, Irvine, Laguna Beach, and premium properties throughout OC.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -137,7 +137,7 @@ export default function JumboLoansOrangeCountyPage() {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,249,125</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
                   <div className="text-slate-600">2026 Conforming Loan Limit</div>
                   <div className="text-sm text-slate-500 mt-1">Maximum conventional loan</div>
                 </div>
@@ -270,7 +270,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-semibold">Orange County 2026 Limits</td>
                     <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,126 - $3M</td>
-                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,249,125</td>
+                    <td className="px-6 py-4 text-center text-blue-600 font-bold">Up to $1,209,750</td>
                     <td className="px-6 py-4 text-center text-pink-600 font-bold">$3M+</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
@@ -402,7 +402,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Finance luxury homes above $1,249,125 in Orange County. Perfect for high-end
+                    Finance luxury homes above $1,209,750 in Orange County. Perfect for high-end
                     properties in Newport Beach, Irvine, and premium OC communities.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
@@ -449,6 +449,7 @@ export default function JumboLoansOrangeCountyPage() {
                     <li>• Qualify for larger loan amounts</li>
                     <li>• Converts to principal and interest</li>
                   </ul>
+                  <a href="/blog/interest-only-mortgage-loans-2026" className="mt-4 inline-block text-blue-600 hover:underline font-medium text-sm">Learn How Interest-Only Loans Work →</a>
                 </CardContent>
               </Card>
 

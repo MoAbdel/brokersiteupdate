@@ -30,11 +30,11 @@ export default function ReverseMortgageLABeachCities2026() {
   const faqData = [
     {
       question: 'Can Manhattan Beach Sand Section homeowners get a reverse mortgage on a $5 million home?',
-      answer: 'Yes. The FHA HECM limit for 2026 is $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Manhattan Beach Sand Section estates regularly exceed $5 million, making proprietary reverse mortgages the essential tool for accessing full equity without monthly mortgage payments.',
+      answer: 'Yes. The FHA HECM limit for 2026 is $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Manhattan Beach Sand Section estates regularly exceed $5 million, making proprietary reverse mortgages the essential tool for accessing full equity without monthly mortgage payments.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect LA Beach Cities homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Manhattan Beach and Hermosa Beach, where median values exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Redondo Beach and El Segundo homes near this limit can use HECM effectively.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In Manhattan Beach and Hermosa Beach, where median values exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Redondo Beach and El Segundo homes near this limit can use HECM effectively.',
     },
     {
       question: 'How much money can a Hermosa Beach senior receive from a reverse mortgage?',
@@ -74,7 +74,7 @@ export default function ReverseMortgageLABeachCities2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For LA Beach Cities homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For LA Beach Cities homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value homes.',
     },
   ];
 
@@ -226,12 +226,24 @@ export default function ReverseMortgageLABeachCities2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 11, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four LA Beach Cities &mdash; Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo &mdash; are home to an estimated <strong>14,600 homeowners aged 62 and older</strong> sitting on a combined <strong>$18.7 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Manhattan Beach and Hermosa Beach median home values exceed the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, requiring proprietary jumbo reverse mortgage programs for full equity access. Redondo Beach and El Segundo seniors benefit from home values that align closely with the HECM ceiling, maximizing FHA-insured payout potential. &quot;The LA Beach Cities corridor spans a remarkable equity range &mdash; from El Segundo&apos;s $1.2 million aerospace corridor homes to Manhattan Beach&apos;s $8 million Sand Section estates. Each city demands a different reverse mortgage strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four LA Beach Cities &mdash; Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo &mdash; are home to an estimated <strong>14,600 homeowners aged 62 and older</strong> sitting on a combined <strong>$18.7 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Manhattan Beach and Hermosa Beach median home values exceed the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, requiring proprietary jumbo reverse mortgage programs for full equity access. Redondo Beach and El Segundo seniors benefit from home values that align closely with the HECM ceiling, maximizing FHA-insured payout potential. &quot;The LA Beach Cities corridor spans a remarkable equity range &mdash; from El Segundo&apos;s $1.2 million aerospace corridor homes to Manhattan Beach&apos;s $8 million Sand Section estates. Each city demands a different reverse mortgage strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
             </p>
           </div>
 
@@ -259,7 +271,7 @@ export default function ReverseMortgageLABeachCities2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the LA Beach Cities, the wide range of home values &mdash; from $1.2 million in El Segundo to $3.4 million at the Manhattan Beach median &mdash; creates distinct reverse mortgage strategies for each community. Understanding the FHA HECM cap of $1,149,825 and how proprietary programs operate above that threshold is critical for every Beach Cities senior evaluating this financial tool.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the LA Beach Cities, the wide range of home values &mdash; from $1.2 million in El Segundo to $3.4 million at the Manhattan Beach median &mdash; creates distinct reverse mortgage strategies for each community. Understanding the FHA HECM cap of $1,209,750 and how proprietary programs operate above that threshold is critical for every Beach Cities senior evaluating this financial tool.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -477,7 +489,7 @@ export default function ReverseMortgageLABeachCities2026() {
           </div>
 
           <p>
-            <strong>Retirement Scenario:</strong> A 69-year-old retired creative director lives in a Hermosa Beach bungalow two blocks from the pier, valued at $2.3 million with no mortgage. Social Security provides $3,200 monthly, and a modest freelance income adds $1,500 during active months. The senior wants to maintain the beach lifestyle without selling but needs funds for home maintenance (the original 1960s bungalow needs $150,000 in updates) and supplemental income. An FHA HECM provides a $580,000 line of credit based on the $1,149,825 cap. The senior draws $150,000 for renovations and uses the remaining credit line for supplemental income. The unused portion grows annually, creating a expanding financial safety net.
+            <strong>Retirement Scenario:</strong> A 69-year-old retired creative director lives in a Hermosa Beach bungalow two blocks from the pier, valued at $2.3 million with no mortgage. Social Security provides $3,200 monthly, and a modest freelance income adds $1,500 during active months. The senior wants to maintain the beach lifestyle without selling but needs funds for home maintenance (the original 1960s bungalow needs $150,000 in updates) and supplemental income. An FHA HECM provides a $580,000 line of credit based on the $1,209,750 cap. The senior draws $150,000 for renovations and uses the remaining credit line for supplemental income. The unused portion grows annually, creating a expanding financial safety net.
           </p>
 
           <p>
@@ -545,7 +557,7 @@ export default function ReverseMortgageLABeachCities2026() {
           </h2>
 
           <p>
-            El Segundo&apos;s <strong>$1.2 million</strong> median home value places it in the HECM sweet spot &mdash; close enough to the $1,149,825 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. This makes El Segundo seniors among the best-positioned HECM candidates in the entire South Bay region. Unlike Manhattan Beach or Hermosa Beach, where proprietary programs are essential, El Segundo homeowners access maximum FHA-insured protections (including non-recourse guarantees and the growing line of credit) without leaving significant equity on the table.
+            El Segundo&apos;s <strong>$1.2 million</strong> median home value places it in the HECM sweet spot &mdash; close enough to the $1,209,750 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. This makes El Segundo seniors among the best-positioned HECM candidates in the entire South Bay region. Unlike Manhattan Beach or Hermosa Beach, where proprietary programs are essential, El Segundo homeowners access maximum FHA-insured protections (including non-recourse guarantees and the growing line of credit) without leaving significant equity on the table.
           </p>
 
           <p>
@@ -690,7 +702,7 @@ export default function ReverseMortgageLABeachCities2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount in Manhattan Beach?</h3>
-          <p>FHA HECM caps payout calculations at $1,149,825 regardless of home value. Proprietary programs use actual home value, providing significantly more for Manhattan Beach homes averaging $3.4 million.</p>
+          <p>FHA HECM caps payout calculations at $1,209,750 regardless of home value. Proprietary programs use actual home value, providing significantly more for Manhattan Beach homes averaging $3.4 million.</p>
 
           <h3>Can I keep my Manhattan Beach home with a reverse mortgage?</h3>
           <p>Yes, you retain full ownership and title. You live in the home without monthly mortgage payments as long as it remains your primary residence and you maintain taxes and insurance.</p>
@@ -750,7 +762,7 @@ export default function ReverseMortgageLABeachCities2026() {
               <li><a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-700 underline">Reverse Mortgage Manhattan Beach: In-Depth Guide</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

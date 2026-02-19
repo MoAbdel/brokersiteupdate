@@ -30,15 +30,15 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
   const faqData = [
     {
       question: 'Can La Jolla homeowners get a reverse mortgage on a $5 million oceanfront property?',
-      answer: 'Yes. The FHA HECM limit for 2026 is $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. La Jolla oceanfront and Muirlands estates routinely exceed $5 million, making proprietary reverse mortgages the essential tool for accessing full equity without monthly mortgage payments. These programs evaluate the full property value for payout calculations.',
+      answer: 'Yes. The FHA HECM limit for 2026 is $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. La Jolla oceanfront and Muirlands estates routinely exceed $5 million, making proprietary reverse mortgages the essential tool for accessing full equity without monthly mortgage payments. These programs evaluate the full property value for payout calculations.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it affect San Diego County homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In La Jolla and Coronado, where median values far exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Carlsbad and Poway homes closer to this limit can use HECM more effectively, though many Carlsbad coastal properties still exceed the threshold.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations regardless of actual property value. In La Jolla and Coronado, where median values far exceed this limit, seniors need proprietary programs to access equity beyond the HECM cap. Carlsbad and Poway homes closer to this limit can use HECM more effectively, though many Carlsbad coastal properties still exceed the threshold.',
     },
     {
       question: 'How much money can a Coronado senior receive from a reverse mortgage?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Coronado home valued at $2.2 million, a proprietary reverse mortgage can typically access 35% to 55% of home value depending on age. A 72-year-old homeowner with a $2.2 million Village property could access approximately $770,000 to $1.21 million in proceeds. HECM calculations cap at $1,149,825, providing approximately $517,000 to $632,000.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Coronado home valued at $2.2 million, a proprietary reverse mortgage can typically access 35% to 55% of home value depending on age. A 72-year-old homeowner with a $2.2 million Village property could access approximately $770,000 to $1.21 million in proceeds. HECM calculations cap at $1,209,750, providing approximately $517,000 to $632,000.',
     },
     {
       question: 'Do military retirees in Coronado qualify for reverse mortgages?',
@@ -74,7 +74,7 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
     },
     {
       question: 'Why use a wholesale mortgage broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For San Diego County homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value La Jolla, Coronado, and coastal Carlsbad homes.',
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For San Diego County homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives for high-value La Jolla, Coronado, and coastal Carlsbad homes.',
     },
   ];
 
@@ -226,12 +226,24 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four Coastal San Diego and Inland Premium communities &mdash; La Jolla, Coronado, Carlsbad, and Poway &mdash; are home to an estimated <strong>22,700 homeowners aged 62 and older</strong> sitting on a combined <strong>$31.4 billion in home equity</strong>, based on 2026 San Diego County assessor data and U.S. Census demographic projections. La Jolla&apos;s $2.5 million median and Coronado&apos;s $2.2 million median far exceed the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, requiring proprietary jumbo reverse mortgage programs for full equity access. &quot;San Diego County presents one of the most compelling reverse mortgage corridors in California. You have UCSD biotech researchers in La Jolla sitting on $4 million ocean-view estates, retired Navy admirals in Coronado with $3 million island properties, Carlsbad beach retirees with $1.5 million coastal homes, and Poway families with $1.1 million ranch properties perfect for HECM optimization. Each community demands a different program and strategy,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four Coastal San Diego and Inland Premium communities &mdash; La Jolla, Coronado, Carlsbad, and Poway &mdash; are home to an estimated <strong>22,700 homeowners aged 62 and older</strong> sitting on a combined <strong>$31.4 billion in home equity</strong>, based on 2026 San Diego County assessor data and U.S. Census demographic projections. La Jolla&apos;s $2.5 million median and Coronado&apos;s $2.2 million median far exceed the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, requiring proprietary jumbo reverse mortgage programs for full equity access. &quot;San Diego County presents one of the most compelling reverse mortgage corridors in California. You have UCSD biotech researchers in La Jolla sitting on $4 million ocean-view estates, retired Navy admirals in Coronado with $3 million island properties, Carlsbad beach retirees with $1.5 million coastal homes, and Poway families with $1.1 million ranch properties perfect for HECM optimization. Each community demands a different program and strategy,&quot; Abdel explains.
             </p>
           </div>
 
@@ -259,7 +271,7 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. These four San Diego County communities represent a dramatic range of property values and lifestyle profiles &mdash; from La Jolla&apos;s $2.5 million oceanfront research corridor to Poway&apos;s $1.1 million equestrian country setting. This diversity creates distinct reverse mortgage strategies for each community. Understanding the FHA HECM cap of $1,149,825 and how proprietary programs operate above that threshold is critical for every San Diego County senior evaluating this financial tool.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. These four San Diego County communities represent a dramatic range of property values and lifestyle profiles &mdash; from La Jolla&apos;s $2.5 million oceanfront research corridor to Poway&apos;s $1.1 million equestrian country setting. This diversity creates distinct reverse mortgage strategies for each community. Understanding the FHA HECM cap of $1,209,750 and how proprietary programs operate above that threshold is critical for every San Diego County senior evaluating this financial tool.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -495,11 +507,11 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
           </h2>
 
           <p>
-            Carlsbad&apos;s <strong>$1.3 million</strong> median home value positions it at the HECM threshold &mdash; close enough to the $1,149,825 FHA lending limit that both HECM and proprietary programs deliver meaningful value depending on the specific neighborhood and property type. This 42-square-mile coastal city of 115,000 residents stretches from the Pacific Ocean east to the I-15 corridor, creating dramatically different home values and lifestyle profiles within a single city. Carlsbad Village and the coastal neighborhoods command coastal premiums, while inland communities like Bressi Ranch and La Costa Oaks offer more moderate pricing with resort-quality amenities.
+            Carlsbad&apos;s <strong>$1.3 million</strong> median home value positions it at the HECM threshold &mdash; close enough to the $1,209,750 FHA lending limit that both HECM and proprietary programs deliver meaningful value depending on the specific neighborhood and property type. This 42-square-mile coastal city of 115,000 residents stretches from the Pacific Ocean east to the I-15 corridor, creating dramatically different home values and lifestyle profiles within a single city. Carlsbad Village and the coastal neighborhoods command coastal premiums, while inland communities like Bressi Ranch and La Costa Oaks offer more moderate pricing with resort-quality amenities.
           </p>
 
           <p>
-            <strong>Carlsbad Village</strong> &mdash; the historic downtown along Carlsbad Boulevard and State Street &mdash; features beachside cottages, Spanish-style homes, and newer construction ranging from $1.2 million to $2.5 million. The walkable village with its restaurants, shops, and farmers market creates an ideal retirement setting. <strong>Aviara</strong> commands the highest premiums in Carlsbad at $1.5 million to $3 million, with resort-adjacent homes overlooking the Batiquitos Lagoon and the Park Hyatt Aviara golf course. <strong>Bressi Ranch</strong> offers master-planned community living at $1 million to $1.5 million, popular with retirees who value newer construction and community amenities. <strong>La Costa</strong> provides a range of options from townhomes at $800,000 to estate homes at $2 million, with access to the La Costa Resort and Spa grounds.
+            <strong>Carlsbad Village</strong> &mdash; the historic downtown along Carlsbad Boulevard and State Street &mdash; features beachside cottages, Spanish-style homes, and newer construction ranging from $1.2 million to $2.5 million. The walkable village with its restaurants, shops, and farmers market creates an ideal retirement setting. <strong>Aviara</strong> commands the highest premiums in Carlsbad at $1.5 million to $3 million, with resort-adjacent homes overlooking the Batiquitos Lagoon and the Park Hyatt Aviara golf course. <strong>Bressi Ranch</strong> offers master-planned community living at $1 million to $1.5 million, known for newer construction and community amenities. <strong>La Costa</strong> provides a range of options from townhomes at $800,000 to estate homes at $2 million, with access to the La Costa Resort and Spa grounds.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -550,11 +562,11 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
           </h2>
 
           <p>
-            Poway&apos;s <strong>$1.1 million</strong> median home value places it in the HECM sweet spot &mdash; close enough to the $1,149,825 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. Known as &quot;The City in the Country,&quot; Poway&apos;s 49,000 residents enjoy a semi-rural lifestyle with equestrian trails, open space preserves, and spacious lots that distinguish it from San Diego&apos;s denser coastal communities. The <strong>Poway Unified School District (PUSD)</strong> &mdash; consistently ranked among the top school districts in San Diego County &mdash; has attracted families who purchased homes during their working years and now find themselves retirement-age with substantial equity in properties that far exceed their current space needs.
+            Poway&apos;s <strong>$1.1 million</strong> median home value places it in the HECM sweet spot &mdash; close enough to the $1,209,750 FHA lending limit that the standard HECM program captures virtually all of the home&apos;s value for payout calculations. Known as &quot;The City in the Country,&quot; Poway&apos;s 49,000 residents enjoy a semi-rural lifestyle with equestrian trails, open space preserves, and spacious lots that distinguish it from San Diego&apos;s denser coastal communities. The <strong>Poway Unified School District (PUSD)</strong> &mdash; consistently ranked among the top school districts in San Diego County &mdash; has attracted families who purchased homes during their working years and now find themselves retirement-age with substantial equity in properties that far exceed their current space needs.
           </p>
 
           <p>
-            <strong>Poway proper</strong> encompasses the central residential areas with ranch-style homes on half-acre to multi-acre lots, valued at $1 million to $1.5 million. These properties often include horse facilities, workshops, and guest houses that add to appraisal value. <strong>Green Valley</strong> offers a gated community setting with homes ranging from $900,000 to $1.3 million, popular with retirees who value security and community amenities. The <strong>Old Poway Park</strong> area provides walkable access to Poway&apos;s quaint downtown with its farmers market, heritage railroad, and community events, with homes from $850,000 to $1.2 million &mdash; squarely within the HECM optimal range where the FHA lending limit closely matches actual home values.
+            <strong>Poway proper</strong> encompasses the central residential areas with ranch-style homes on half-acre to multi-acre lots, valued at $1 million to $1.5 million. These properties often include horse facilities, workshops, and guest houses that add to appraisal value. <strong>Green Valley</strong> offers a gated community setting with homes ranging from $900,000 to $1.3 million, known for its security features and community amenities. The <strong>Old Poway Park</strong> area provides walkable access to Poway&apos;s quaint downtown with its farmers market, heritage railroad, and community events, with homes from $850,000 to $1.2 million &mdash; squarely within the HECM optimal range where the FHA lending limit closely matches actual home values.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -695,7 +707,7 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
           </h2>
 
           <h3>What is the maximum reverse mortgage amount in La Jolla?</h3>
-          <p><strong>FHA HECM caps payout at $1,149,825 regardless of value. Proprietary programs use actual home value, providing significantly more for La Jolla properties averaging $2.5 million.</strong></p>
+          <p><strong>FHA HECM caps payout at $1,209,750 regardless of value. Proprietary programs use actual home value, providing significantly more for La Jolla properties averaging $2.5 million.</strong></p>
 
           <h3>Can military retirees in Coronado keep VA benefits with a reverse mortgage?</h3>
           <p><strong>Yes. Reverse mortgage proceeds do not affect VA disability compensation, military pension, or Tricare benefits. They are loan advances, not countable income.</strong></p>
@@ -755,7 +767,7 @@ export default function ReverseMortgageCoastalSDInlandPremium2026() {
               <li><a href="/blog/reverse-mortgage-del-mar-2026" className="text-blue-700 underline">Reverse Mortgage Del Mar: In-Depth Guide</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
             </ul>
           </div>
 

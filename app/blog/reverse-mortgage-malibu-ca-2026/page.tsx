@@ -81,7 +81,7 @@ export default function ReverseMortgageMalibuPage() {
                 "name": "What is the maximum reverse mortgage amount for Malibu properties?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The FHA HECM limit is $1,149,825 for 2026. Since most Malibu homes exceed this value, proprietary (jumbo) reverse mortgages are typically the better option, with some programs accepting home values up to $10 million or more, allowing Malibu seniors to access substantially more equity."
+                  "text": "The FHA HECM limit is $1,209,750 for 2026. Since most Malibu homes exceed this value, proprietary (jumbo) reverse mortgages are typically the better option, with some programs accepting home values up to $10 million or more, allowing Malibu seniors to access substantially more equity."
                 }
               },
               {
@@ -144,6 +144,12 @@ export default function ReverseMortgageMalibuPage() {
           Accessing equity in Southern California's iconic coastal paradise
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -218,7 +224,7 @@ export default function ReverseMortgageMalibuPage() {
           Malibu Colony stands as perhaps the most prestigious residential address in Southern California. This gated enclave has been home to Hollywood royalty since the 1920s when silent film stars first established beach retreats here. Today, Colony homes range from $10 million to over $50 million, with the community maintaining strict privacy standards that attract high-profile residents seeking sanctuary from public life.
         </p>
         <p>
-          For Colony homeowners considering reverse mortgages, the proprietary jumbo programs offer the only viable path to accessing meaningful equity. With standard HECM limits of $1,149,825 representing just a fraction of typical property values, jumbo reverse mortgages designed for luxury properties become essential for Malibu Colony seniors.
+          For Colony homeowners considering reverse mortgages, the proprietary jumbo programs offer the only viable path to accessing meaningful equity. With standard HECM limits of $1,209,750 representing just a fraction of typical property values, jumbo reverse mortgages designed for luxury properties become essential for Malibu Colony seniors.
         </p>
 
         <h3>Broad Beach: Expansive Estates with Sand at Your Door</h3>
@@ -301,7 +307,7 @@ export default function ReverseMortgageMalibuPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Maximum Home Value Basis</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$10M+ (varies by lender)</td></tr>
+              <tr><td className="py-2 px-4 border-b">Maximum Home Value Basis</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">$10M+ (varies by lender)</td></tr>
               <tr><td className="py-2 px-4 border-b">Government Insurance</td><td className="py-2 px-4 border-b">Yes (FHA)</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4 border-b">HUD Counseling Required</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Varies by lender</td></tr>
               <tr><td className="py-2 px-4 border-b">Mortgage Insurance Premium</td><td className="py-2 px-4 border-b">2% upfront + 0.5% annual</td><td className="py-2 px-4 border-b">None</td></tr>
@@ -314,10 +320,10 @@ export default function ReverseMortgageMalibuPage() {
 
         <h3>Why Proprietary Programs Dominate in Malibu</h3>
         <p>
-          With the 2026 HECM limit of $1,149,825 representing less than 40% of Malibu's $3.2 million median home value—and a mere fraction of values in communities like Malibu Colony, Broad Beach, and Carbon Beach—proprietary jumbo reverse mortgages provide the only path to accessing meaningful equity for most Malibu seniors.
+          With the 2026 HECM limit of $1,209,750 representing less than 40% of Malibu's $3.2 million median home value—and a mere fraction of values in communities like Malibu Colony, Broad Beach, and Carbon Beach—proprietary jumbo reverse mortgages provide the only path to accessing meaningful equity for most Malibu seniors.
         </p>
         <p>
-          Consider a Point Dume homeowner with a property valued at $5 million. Under HECM, the maximum calculation basis would be $1,149,825, severely limiting available proceeds. A proprietary jumbo program using the full $5 million value could provide substantially more funds, making the difference between a helpful supplement and a transformative financial resource.
+          Consider a Point Dume homeowner with a property valued at $5 million. Under HECM, the maximum calculation basis would be $1,209,750, severely limiting available proceeds. A proprietary jumbo program using the full $5 million value could provide substantially more funds, making the difference between a helpful supplement and a transformative financial resource.
         </p>
 
         <h3>Proprietary Program Benefits for Luxury Properties</h3>
@@ -539,7 +545,7 @@ export default function ReverseMortgageMalibuPage() {
 
         <h3>What is the maximum reverse mortgage amount for Malibu properties?</h3>
         <p>
-          The FHA HECM limit is $1,149,825 for 2026, which represents only a small fraction of most Malibu property values. Proprietary (jumbo) reverse mortgages are typically the better option for Malibu seniors, with some programs accepting home values up to $10 million or more. This allows Malibu homeowners to access substantially more equity than HECM programs would permit.
+          The FHA HECM limit is $1,209,750 for 2026, which represents only a small fraction of most Malibu property values. Proprietary (jumbo) reverse mortgages are typically the better option for Malibu seniors, with some programs accepting home values up to $10 million or more. This allows Malibu homeowners to access substantially more equity than HECM programs would permit.
         </p>
 
         <h3>Do Malibu Colony and gated community homes qualify for reverse mortgages?</h3>
@@ -587,7 +593,7 @@ export default function ReverseMortgageMalibuPage() {
           <ul>
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Complete Reverse Mortgage Guide 2026</a></li>
             <li><a href="/blog/reverse-mortgage-requirements-complete-2026">Reverse Mortgage Requirements</a></li>
-            <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026">Reverse Mortgage vs HELOC for Seniors</a></li>
+            <li><a href="/blog/reverse-mortgage-complete-guide-2026">Reverse Mortgage vs HELOC for Seniors</a></li>
             <li><a href="/blog/reverse-mortgage-payout-options-2026">Reverse Mortgage Payout Options Explained</a></li>
             <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026">Reverse Mortgages and Inheritance</a></li>
           </ul>

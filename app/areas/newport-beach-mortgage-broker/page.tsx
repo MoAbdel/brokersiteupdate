@@ -78,7 +78,7 @@ const faqSchema = {
       "name": "Do I need a jumbo loan for Newport Beach homes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+."
+        "text": "Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,209,750, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+."
       }
     },
     {
@@ -379,7 +379,7 @@ export default function NewportBeachMortgageBrokerPage() {
                     <div className="border-l-4 border-green-600 pl-4">
                       <h4 className="font-bold text-slate-900 mb-2">Do I need a jumbo loan for Newport Beach homes?</h4>
                       <p className="text-slate-600 text-sm">
-                        Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,266,300, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+.
+                        Yes, 95% of Newport Beach homes exceed the 2025 conforming loan limit of $1,209,750, requiring jumbo loan financing. Mo Abdel specializes in luxury jumbo loans up to $10M+.
                       </p>
                     </div>
                     
@@ -465,7 +465,7 @@ export default function NewportBeachMortgageBrokerPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3 text-sm">
-                    <Link href="/orange-county-jumbo-loans" className="block text-blue-600 hover:text-blue-700 font-medium">
+                    <Link href="/jumbo-loans-orange-county" className="block text-blue-600 hover:text-blue-700 font-medium">
                       Orange County Jumbo Loans →
                     </Link>
                     <Link href="/heloc-orange-county" className="block text-blue-600 hover:text-blue-700 font-medium">

@@ -134,10 +134,16 @@ export default function WhatIsReverseMortgagePage() {
                 <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated January 2026</p>
             </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
             <section className="prose prose-lg max-w-none">
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        <strong>What is a reverse mortgage?</strong> A reverse mortgage is a specialized home loan designed for homeowners <strong>age 62 and older</strong> that converts home equity into tax-free cash without requiring monthly mortgage payments. The most common type is the HECM (Home Equity Conversion Mortgage), which is insured by the Federal Housing Administration (FHA) and requires <strong>HUD-approved counseling</strong> before closing.
+                        <strong>What is a reverse mortgage?</strong> A reverse mortgage is a specialized home loan designed for homeowners <strong>age 62 and older</strong> that converts home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without requiring monthly mortgage payments. The most common type is the HECM (Home Equity Conversion Mortgage), which is insured by the Federal Housing Administration (FHA) and requires <strong>HUD-approved counseling</strong> before closing.
                     </p>
                 </div>
 
@@ -304,7 +310,7 @@ export default function WhatIsReverseMortgagePage() {
 
                 <h3>Reverse Mortgage vs. Home Equity Loan</h3>
                 <p>
-                    A traditional home equity loan or <Link href="/blog/reverse-mortgage-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HELOC</Link> requires monthly payments, which may strain a fixed retirement income. Reverse mortgages eliminate monthly payment obligations but accumulate interest over time.
+                    A traditional home equity loan or <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">HELOC</Link> requires monthly payments, which may strain a fixed retirement income. Reverse mortgages eliminate monthly payment obligations but accumulate interest over time.
                 </p>
 
                 <h3>Reverse Mortgage vs. Selling Your Home</h3>
@@ -342,7 +348,7 @@ export default function WhatIsReverseMortgagePage() {
                     <h3 className="text-lg font-bold text-green-900 mt-0">Good Candidates for Reverse Mortgages:</h3>
                     <ul className="mb-0 text-slate-900">
                         <li>Seniors 62+ who plan to stay in their home long-term</li>
-                        <li>Homeowners with significant equity seeking to eliminate mortgage payments</li>
+                        <li>Homeowners with significant equity seeking to replace your current mortgage payment with no required monthly principal and interest payments (you must continue to pay property taxes, homeowners insurance, and maintain the home)</li>
                         <li>Retirees needing supplemental income without affecting Social Security or Medicare</li>
                         <li>Those wanting to delay Social Security benefits to maximize lifetime payments</li>
                         <li>Seniors facing unexpected expenses (medical bills, home repairs)</li>
@@ -422,7 +428,7 @@ export default function WhatIsReverseMortgagePage() {
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <p className="text-sm text-gray-600">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106<br />
-                        Licensed in: CA, WA, CO<br /><br />
+                        Licensed in: CA, WA<br /><br />
                         <strong>Equal Housing Lender.</strong> This material is not from HUD or FHA and has not been approved by HUD or a government agency. All loans subject to credit approval, underwriting guidelines, and program availability. Reverse mortgage borrowers must be 62 years or older. You must complete HUD-approved counseling before obtaining a reverse mortgage. This is not a commitment to lend. Information is for educational purposes only. Contact a licensed loan officer for personalized guidance.
                     </p>
                 </div>

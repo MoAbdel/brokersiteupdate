@@ -46,7 +46,7 @@ export default function ReverseMortgageArcadia() {
         name: 'How much equity can I access with a reverse mortgage in Arcadia?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 HECM limit is $1,149,825, which covers most Arcadia homes. For a $1.6M home, a 70-year-old homeowner could potentially access $450,000-$550,000 through HECM. Higher-value properties in Upper Rancho or Highland Oaks may benefit from jumbo reverse mortgages.',
+          text: 'The 2026 HECM limit is $1,209,750, which covers most Arcadia homes. For a $1.6M home, a 70-year-old homeowner could potentially access $450,000-$550,000 through HECM. Higher-value properties in Upper Rancho or Highland Oaks may benefit from jumbo reverse mortgages.',
         },
       },
       {
@@ -136,6 +136,18 @@ export default function ReverseMortgageArcadia() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             Arcadia homeowners 62 and older can access substantial home equity through a reverse mortgage without making monthly mortgage payments. With Arcadia&apos;s median home value around $1.6 million and the city&apos;s reputation as one of the San Gabriel Valley&apos;s premier communities, qualifying seniors have built significant wealth in their properties. As a wholesale mortgage broker serving Arcadia and Los Angeles County, I help seniors navigate the reverse mortgage process with access to competitive rates from multiple HECM lenders, plus jumbo reverse options for higher-value properties.
@@ -146,14 +158,14 @@ export default function ReverseMortgageArcadia() {
             Arcadia has long been recognized as one of Southern California&apos;s most desirable communities, combining excellent schools, safe neighborhoods, and convenient access to both downtown Los Angeles and the natural beauty of the San Gabriel Mountains. The city&apos;s proximity to the historic Santa Anita Park racetrack, the Westfield Santa Anita shopping center, and the Los Angeles County Arboretum has attracted residents who appreciate both urban amenities and suburban tranquility.
           </p>
           <p>
-            Long-term Arcadia homeowners who purchased their properties decades ago have witnessed remarkable appreciation. A home purchased in the Upper Rancho neighborhood for $400,000 in the 1990s is now worth $2 million or more. This creates an opportunity: seniors can convert a portion of this home equity into tax-free funds to supplement retirement income, cover healthcare costs, make home modifications, or simply enjoy greater financial flexibility—all while continuing to live in the community they love.
+            Long-term Arcadia homeowners who purchased their properties decades ago have witnessed remarkable appreciation. A home purchased in the Upper Rancho neighborhood for $400,000 in the 1990s is now worth $2 million or more. This creates an opportunity: seniors can convert a portion of this home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) to supplement retirement income, cover healthcare costs, make home modifications, or simply enjoy greater financial flexibility—all while continuing to live in the community they love.
           </p>
 
           <div className="bg-gray-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-lg mb-3">Arcadia Market Snapshot for Seniors (2026):</h3>
             <ul className="space-y-2">
               <li><strong>Median Home Value:</strong> $1,600,000</li>
-              <li><strong>2026 HECM Limit:</strong> $1,149,825</li>
+              <li><strong>2026 HECM Limit:</strong> $1,209,750</li>
               <li><strong>Premium Neighborhoods:</strong> Upper Rancho, Highland Oaks, Santa Anita Oaks</li>
               <li><strong>Demographics:</strong> Strong Asian-American community, multigenerational households, established families</li>
               <li><strong>School District:</strong> Arcadia Unified School District (top-ranked in California)</li>
@@ -181,7 +193,7 @@ export default function ReverseMortgageArcadia() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Arcadia&apos;s Unique Position: HECM vs. Jumbo Reverse Mortgages</h2>
           <p>
-            Arcadia&apos;s median home value of $1.6 million places many properties above the 2026 HECM limit of $1,149,825. This creates an important decision point for Arcadia seniors: stick with the federally-insured HECM product or explore proprietary jumbo reverse mortgages that can accommodate higher home values.
+            Arcadia&apos;s median home value of $1.6 million places many properties above the 2026 HECM limit of $1,209,750. This creates an important decision point for Arcadia seniors: stick with the federally-insured HECM product or explore proprietary jumbo reverse mortgages that can accommodate higher home values.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -196,7 +208,7 @@ export default function ReverseMortgageArcadia() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Max Home Value Considered</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">$4M-$10M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -484,7 +496,7 @@ export default function ReverseMortgageArcadia() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much equity can I access with a reverse mortgage in Arcadia?</h3>
-              <p>The 2026 HECM limit is $1,149,825, which covers most Arcadia homes. For a $1.6M home, a 70-year-old homeowner could potentially access $450,000-$550,000 through HECM. Higher-value properties may benefit from jumbo reverse mortgages that consider the full property value.</p>
+              <p>The 2026 HECM limit is $1,209,750, which covers most Arcadia homes. For a $1.6M home, a 70-year-old homeowner could potentially access $450,000-$550,000 through HECM. Higher-value properties may benefit from jumbo reverse mortgages that consider the full property value.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Are Arcadia condos and townhomes eligible for reverse mortgages?</h3>
@@ -535,7 +547,7 @@ export default function ReverseMortgageArcadia() {
             <ul className="space-y-2">
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Complete Guide to Reverse Mortgages in 2026</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements Explained</a></li>
-              <li><a href="/blog/reverse-mortgage-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">Reverse Mortgage vs. HELOC: Which Is Right for Seniors?</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage vs. HELOC: Which Is Right for Seniors?</a></li>
               <li><a href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">Reverse Mortgage Calculator</a></li>
               <li><a href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</a></li>
             </ul>

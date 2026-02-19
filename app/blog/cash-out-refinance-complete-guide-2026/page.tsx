@@ -327,8 +327,8 @@ export default function CashOutRefinanceCompleteGuidePage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-medium">2026 Loan Limit</td>
-                <td className="border border-gray-200 px-4 py-2">$1,266,300</td>
-                <td className="border border-gray-200 px-4 py-2">$1,266,300</td>
+                <td className="border border-gray-200 px-4 py-2">$1,209,750</td>
+                <td className="border border-gray-200 px-4 py-2">$1,209,750</td>
                 <td className="border border-gray-200 px-4 py-2">No limit</td>
                 <td className="border border-gray-200 px-4 py-2">$1.5M+</td>
               </tr>
@@ -370,7 +370,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
 
         <h3>Equity and LTV Requirements</h3>
         <p>
-          The 80% maximum LTV rule means you must retain 20% equity after the cash-out. For California's high-value properties, this translates to substantial cash availability. The 2026 conforming loan limit of $1,266,300 covers most Southern California properties, though jumbo options exist for larger amounts. According to the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency</a>, conforming limits increased 5.5% for 2026.
+          The 80% maximum LTV rule means you must retain 20% equity after the cash-out. For California's high-value properties, this translates to substantial cash availability. The 2026 conforming loan limit of $1,209,750 covers most Southern California properties, though jumbo options exist for larger amounts. According to the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency</a>, conforming limits increased 5.5% for 2026.
         </p>
 
         <h3>Credit Score Thresholds</h3>
@@ -746,6 +746,11 @@ export default function CashOutRefinanceCompleteGuidePage() {
                 Home Equity & Refinancing Pillar Guide [2026]
               </a>
             </li>
+            <li>
+              <a href="/blog/cash-out-refinance-vs-personal-loan-2026" className="text-blue-600 hover:underline">
+                Cash-Out Refinance vs Personal Loan: Full Comparison [2026]
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -754,7 +759,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
         <div className="bg-gray-100 p-6 rounded-lg">
           <p className="text-sm text-gray-600">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO<br /><br />
+            Licensed in: CA, WA<br /><br />
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
           </p>
         </div>
