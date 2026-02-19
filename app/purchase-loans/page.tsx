@@ -28,8 +28,6 @@ const structuredData = buildBrokerEntityGraph({
   serviceName: 'California and Washington Purchase Loans',
   serviceDescription: 'Expert home purchase loan services across California and Washington',
   areaServedNames: ['California', 'Washington'],
-  addressLocality: 'California',
-  addressRegion: 'US',
 });
 
 const pageSchema = buildServiceWebPageSchema({
@@ -86,7 +84,7 @@ const purchaseLoans = [
     downPayment: '10% - 20%',
     bestFor: 'Luxury homes in California and Washington',
     features: [
-      'Loans above conforming limits ($1,266,300+)',
+      'Loans above conforming limits ($1,209,750+)',
       'Competitive jumbo rates',
       'Flexible underwriting guidelines',
       'Various ARM and fixed-rate options'

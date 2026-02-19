@@ -6,14 +6,8 @@ import Link from "next/link";
 const googleReviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Mo Abdel - Lumin Lending",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "25",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
+  "@id": "https://www.mothebroker.com/#localbusiness",
+  "name": "Mo Abdel - Mortgage Broker",
   "review": [
     {
       "@type": "Review",

@@ -35,8 +35,10 @@ const personSchema = {
   "telephone": "(949) 822-9662",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Lake Forest",
+    "streetAddress": "18301 Von Karman Ave Suite 820",
+    "addressLocality": "Irvine",
     "addressRegion": "CA",
+    "postalCode": "92614",
     "addressCountry": "US"
   },
   "areaServed": [

@@ -29,9 +29,10 @@ const contactSchema = {
   "telephone": "(949) 822-9662",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Lake Forest",
+    "streetAddress": "18301 Von Karman Ave Suite 820",
+    "addressLocality": "Irvine",
     "addressRegion": "CA",
-    "postalCode": "92630",
+    "postalCode": "92614",
     "addressCountry": "US"
   },
   "areaServed": [
@@ -87,11 +88,6 @@ const contactSchema = {
         }
       }
     ]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "50+"
   },
   "contactPoint": {
     "@type": "ContactPoint",

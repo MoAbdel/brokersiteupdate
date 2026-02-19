@@ -28,8 +28,6 @@ const structuredData = buildBrokerEntityGraph({
   serviceName: 'California and Washington Refinance Loans',
   serviceDescription: 'Expert mortgage refinance services across California and Washington',
   areaServedNames: ['California', 'Washington'],
-  addressLocality: 'California',
-  addressRegion: 'US',
 });
 
 const pageSchema = buildServiceWebPageSchema({
