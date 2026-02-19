@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 11: 2 HECM + 3 Equity + 3 Wholesale + 2 DSCR (Feb 19, 2026) =====
+  {
+    slug: 'hecm-refinance-existing-reverse-mortgage-2026',
+    title: 'How to Refinance an Existing Reverse Mortgage [2026]',
+    excerpt: 'Complete guide to HECM-to-HECM refinance: when it makes sense, net tangible benefit test, 5x rule, costs, and how wholesale broker access to 200+ lenders finds the best terms.',
+    date: '2026-02-19',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-long-term-care-planning-2026',
+    title: 'Using a Reverse Mortgage to Fund Long-Term Care [2026]',
+    excerpt: 'How HECM reverse mortgage proceeds fund in-home care, assisted living, and memory care. Compare LOC growth, tenure payments, and lump sum options for California and Washington seniors.',
+    date: '2026-02-19',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-vs-personal-loan-home-improvement-2026',
+    title: 'HELOC vs Personal Loan for Home Improvements: Which Is Better? [2026]',
+    excerpt: 'Detailed comparison of HELOC vs personal loan for home renovations. Covers rates, tax deductibility, funding speed, loan amounts, and when each option makes sense.',
+    date: '2026-02-19',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-sharing-vs-heloc-2026',
+    title: 'Home Equity Sharing Agreements vs HELOC: Complete Comparison [2026]',
+    excerpt: 'Compare equity sharing companies (Hometap, Unison, Point) to traditional HELOCs. Hidden costs of giving up 15-40% of appreciation vs keeping 100% with a HELOC.',
+    date: '2026-02-19',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'cash-out-refinance-rental-property-investors-2026',
+    title: 'Cash-Out Refinance for Rental Property: Complete Investor Guide [2026]',
+    excerpt: 'How investors pull equity from rental properties using conventional, DSCR, and non-QM cash-out options. Covers LTV limits, seasoning requirements, and BRRRR exit strategies.',
+    date: '2026-02-19',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'physician-mortgage-loans-wholesale-2026',
+    title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026]',
+    excerpt: 'Doctor and physician loan programs through wholesale brokers: 0-10% down with no PMI, student debt solutions, and 15-20+ physician lenders. MD, DO, DDS, DMD, OD, PA, NP eligible.',
+    date: '2026-02-19',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'non-qm-profit-loss-loans-self-employed-2026',
+    title: 'P&L Statement Loans: How Self-Employed Borrowers Qualify [2026]',
+    excerpt: 'Profit and loss statement mortgage programs let self-employed borrowers qualify using CPA-prepared P&L instead of tax returns. Compare P&L vs bank statement vs full doc loans.',
+    date: '2026-02-19',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-closing-timeline-2026',
+    title: 'Wholesale Mortgage Closing Process: Timeline & What to Expect [2026]',
+    excerpt: 'Step-by-step breakdown of the wholesale mortgage closing process from application to funding. How wholesale brokers close in 21-30 days vs 35-50 days at retail banks.',
+    date: '2026-02-19',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loans-california-best-markets-2026',
+    title: 'Best California Markets for DSCR Investment Loans [2026]',
+    excerpt: 'Analysis of top CA metros for DSCR loan investors: Sacramento, Inland Empire, San Diego, and vacation markets. Rental yields, DSCR ratios, and STR vs LTR opportunities.',
+    date: '2026-02-19',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-refinance-investment-property-2026',
+    title: 'DSCR Refinance: How to Lower Your Investment Property Rate [2026]',
+    excerpt: 'Guide to refinancing investment property loans into DSCR programs. Covers rate-and-term vs cash-out, seasoning requirements, prepay penalties, and BRRRR exit strategies.',
+    date: '2026-02-19',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 10: 3 HECM + 3 Equity + 3 Wholesale/DSCR + 1 Purchase (Feb 17, 2026) =====
   {
     slug: 'reverse-mortgage-social-security-medicare-2026',
