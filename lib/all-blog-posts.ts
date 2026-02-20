@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 12: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 20, 2026) =====
+  {
+    slug: 'dscr-1031-exchange-financing-2026',
+    title: 'DSCR Loans + 1031 Exchange: Investor Financing Strategy Guide [2026]',
+    excerpt: 'How DSCR loans solve 1031 exchange financing challenges: no income verification means faster closings within the 45/180-day deadline. Compare DSCR vs conventional vs bridge for replacement properties.',
+    date: '2026-02-20',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loans-multi-family-2-4-unit-2026',
+    title: 'DSCR Loans for Multi-Family Properties: 2-4 Unit Financing Guide [2026]',
+    excerpt: 'DSCR loan qualification for duplexes, triplexes, and fourplexes: multiple income streams produce stronger ratios. Compare DSCR vs conventional vs FHA for 2-4 unit investment properties.',
+    date: '2026-02-20',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'why-real-estate-agents-recommend-mortgage-brokers-2026',
+    title: 'Why Real Estate Agents Recommend Wholesale Mortgage Brokers [2026]',
+    excerpt: 'Top listing and buyer agents prefer wholesale mortgage brokers for faster closings, more loan programs, competitive pricing, and problem-solving ability that saves deals banks decline.',
+    date: '2026-02-20',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-jumbo-loan-pricing-2026',
+    title: 'How Wholesale Brokers Price Jumbo Loans: Savings Guide [2026]',
+    excerpt: 'Jumbo loans have wider pricing spreads between lenders than conforming — wholesale shopping saves more on jumbos. Par pricing, rate sheets, and super jumbo tier comparison.',
+    date: '2026-02-20',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'cash-out-refinance-vs-heloc-investment-property-2026',
+    title: 'Cash-Out Refinance vs HELOC for Investment Properties: Complete Comparison [2026]',
+    excerpt: 'Head-to-head comparison of cash-out refinance, HELOC, and DSCR cash-out for investment property equity extraction. LTV limits, rates, BRRRR alignment, and investor profile matching.',
+    date: '2026-02-20',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'home-equity-buy-second-home-vacation-2026',
+    title: 'Using Home Equity to Buy a Second Home or Vacation Property [2026]',
+    excerpt: 'Three methods to tap equity for a second home: HELOC, cash-out refinance, and HELOAN. Covers second home vs investment classification, DTI math, and CA/WA vacation markets.',
+    date: '2026-02-20',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-requirements-california-washington-2026',
+    title: 'HELOC Requirements: California & Washington Qualification Guide [2026]',
+    excerpt: 'Complete HELOC qualification guide: credit score minimums (620-720), DTI limits, LTV/CLTV caps, income documentation, and requirements comparison across bank, credit union, and wholesale channels.',
+    date: '2026-02-20',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-property-tax-prop-19-california-2026',
+    title: 'Reverse Mortgage + Prop 19 Property Tax Savings for California Seniors [2026]',
+    excerpt: 'How HECM reverse mortgages combine with Prop 19 property tax base transfers for California seniors 55+. Stay in your home or use HECM for Purchase with tax base preservation.',
+    date: '2026-02-20',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-home-repairs-aging-modifications-2026',
+    title: 'Reverse Mortgage for Home Repairs & Aging-in-Place Modifications [2026]',
+    excerpt: 'How seniors 62+ use HECM proceeds for aging-in-place modifications: grab bars, walk-in tubs, stair lifts, widened doorways, and ADU additions. Cost ranges and LOC vs tenure strategies.',
+    date: '2026-02-20',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'hecm-loan-limits-maximum-claim-2026',
+    title: 'HECM Loan Limits & Maximum Claim Amount [2026]',
+    excerpt: 'Complete guide to 2026 HECM lending limits ($1,209,750), Maximum Claim Amount calculation, Principal Limit Factors by age, and when proprietary reverse mortgages make sense for higher-value homes.',
+    date: '2026-02-20',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
   // ===== BATCH 11: 2 HECM + 3 Equity + 3 Wholesale + 2 DSCR (Feb 19, 2026) =====
   {
     slug: 'hecm-refinance-existing-reverse-mortgage-2026',

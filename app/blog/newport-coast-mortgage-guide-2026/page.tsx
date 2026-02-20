@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Newport Coast Mortgage Rates & Loans 2026: Jumbo, Asset-Depletion & Luxury Financing',
-  description: 'Newport Coast mortgage broker with $220M+ closed in 92657. Jumbo rates from 5.875%, asset-depletion, bank statement & foreign national loans for Crystal Cove, Pelican Crest & Pelican Hill. NMLS #1426884.',
+  title: 'Newport Coast Mortgage Guide 2026: Save $25K+/Yr on Jumbo & Super-Jumbo Loans (92657)',
+  description: 'Newport Coast luxury mortgage specialist — $220M+ closed in 92657. Wholesale jumbo rates 0.25-0.50% below retail banks. Crystal Cove, Pelican Crest & Pelican Hill financing from $2.7M-$38M. Get your rate quote.',
   keywords: [
     'Newport Coast mortgage broker',
     'Crystal Cove mortgage',
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     '92657 mortgage broker',
   ],
   openGraph: {
-    title: 'Newport Coast Mortgage Rates & Loans 2026: Jumbo, Asset-Depletion & Luxury Financing',
-    description: 'Newport Coast mortgage broker with $220M+ closed in 92657. Jumbo rates from 5.875%, asset-depletion, bank statement & foreign national loans for Crystal Cove, Pelican Crest & Pelican Hill.',
+    title: 'Newport Coast Mortgage Guide 2026: Save $25K+/Yr on Jumbo & Super-Jumbo Loans (92657)',
+    description: 'Newport Coast luxury mortgage specialist — $220M+ closed in 92657. Wholesale jumbo rates 0.25-0.50% below retail banks. Crystal Cove, Pelican Crest & Pelican Hill financing from $2.7M-$38M. Get your rate quote.',
     url: 'https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-08T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-20T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -113,6 +113,18 @@ export default function NewportCoastMortgageGuide2026() {
       question: 'Can I use crypto assets to qualify for a Newport Coast jumbo loan?',
       answer: 'Yes. Select wholesale jumbo and Non-QM lenders accept cryptocurrency holdings, including Bitcoin, Ethereum, and stablecoins, as qualifying assets for Newport Coast purchases at 50-70% of current market value. Crypto assets held for 60+ days in a verifiable exchange or cold wallet can count toward reserves and, in asset-depletion programs, toward qualifying income. The key requirement is a documented 60-day transaction history from a regulated exchange. Borrowers with significant crypto portfolios pair digital assets with traditional holdings to strengthen their overall qualification profile without liquidating positions at unfavorable tax events.'
     },
+    {
+      question: 'What is the difference between a jumbo loan and a super-jumbo loan for Newport Coast?',
+      answer: 'A jumbo loan exceeds the Orange County conforming limit of $1,209,750 but stays below $3 million. A super-jumbo loan exceeds $3 million, which covers 78% of financed Newport Coast transactions. Super-jumbo loans require higher credit scores (720-740+), larger reserves (12-24+ months PITIA), and specialized institutional lenders that portfolio these loans rather than selling them on the secondary market. In our Newport Coast closings, super-jumbo borrowers save the most through wholesale broker access because the rate spread between retail and wholesale widens at higher loan amounts.'
+    },
+    {
+      question: 'Can I refinance my Newport Coast home to tap equity without selling?',
+      answer: 'Yes. Newport Coast homeowners with substantial equity have three primary options: a jumbo cash-out refinance that replaces your existing mortgage with a larger loan, a jumbo HELOC providing a revolving credit line up to $5 million, or a home equity loan (HELOAN) for a fixed lump-sum second lien. In our Newport Coast closings, most homeowners choose a HELOC for flexibility or a cash-out refinance when current rates are lower than their existing rate. With median home values exceeding $5.4 million and average equity positions of $3-5 million, Newport Coast homeowners are well-positioned to access capital through wholesale equity products.'
+    },
+    {
+      question: 'How does Newport Coast property insurance affect my mortgage payment and qualification?',
+      answer: 'Newport Coast homeowners insurance premiums have increased significantly in 2025-2026 due to wildfire risk reassessments across coastal California. Annual premiums for Newport Coast estates range from $8,000 to $25,000+ depending on property value, construction materials, and proximity to brush areas. Lenders include insurance premiums in your PITIA (principal, interest, taxes, insurance, assessments) calculation, which directly impacts your debt-to-income ratio and maximum qualifying loan amount. In our Newport Coast closings, we advise borrowers to obtain insurance quotes before finalizing loan amounts, as premium increases of $5,000-$10,000 per year can reduce borrowing capacity by $75,000-$150,000.'
+    },
   ];
 
   return (
@@ -140,7 +152,7 @@ export default function NewportCoastMortgageGuide2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-01-08',
-            dateModified: '2026-02-14',
+            dateModified: '2026-02-20',
             description: 'Navigate the ultra-luxury mortgage market of Newport Coast in 2026. Specializing in institutional jumbo, asset-depletion, bank statement, and foreign national financing for Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge estates.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -236,23 +248,29 @@ export default function NewportCoastMortgageGuide2026() {
           Newport Coast Mortgage Rates &amp; Loans 2026: Jumbo, Asset-Depletion &amp; Luxury Financing for Crystal Cove, Pelican Crest &amp; Pelican Hill
         </h1>
         <p className="text-lg text-gray-600">
-          $220M+ closed in Newport Coast&apos;s 92657 ZIP &mdash; institutional jumbo rates from 5.875%, asset-depletion, bank statement &amp; foreign national programs for estates from $2.7M to $38M
+          Every financed Newport Coast purchase is a jumbo loan &mdash; and the wrong lender costs you $25,000+ per year in unnecessary interest. With $220M+ closed in the 92657 ZIP code, we deliver wholesale institutional jumbo pricing, asset-depletion, bank statement &amp; foreign national programs for estates from $2.7M to $38M.
         </p>
         <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Last updated: February 14, 2026</span>
+          <span>Last updated: February 20, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Newport Coast Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Newport Coast is a master-planned community of approximately <strong>2,800 homes</strong> within the City of Newport Beach, with a <strong>median home value exceeding $5.4 million</strong> as of February 2026 (up from $5.2M in late 2025). The 92657 ZIP code contains <strong>zero conforming-eligible purchase transactions</strong> &mdash; every purchase mortgage is jumbo-category. Newport Coast&apos;s average loan amount of <strong>$4.1 million</strong> demands institutional-tier underwriting, and wholesale broker access unlocks <strong>30+ specialized ultra-luxury lenders</strong> with pricing and flexibility unavailable through retail banking channels. The 2026 conforming loan limit for Orange County is <strong>$1,149,825</strong> &mdash; Newport Coast&apos;s entry-level properties exceed this threshold by 2-3x.
+            Newport Coast is a master-planned community of approximately <strong>2,800 homes</strong> within the City of Newport Beach, with a <strong>median home value exceeding $5.4 million</strong> as of February 2026 (up from $5.2M in late 2025). The 92657 ZIP code contains <strong>zero conforming-eligible purchase transactions</strong> &mdash; every purchase mortgage is jumbo-category. Newport Coast&apos;s average loan amount of <strong>$4.1 million</strong> demands institutional-tier underwriting, and wholesale broker access unlocks <strong>30+ specialized ultra-luxury lenders</strong> with pricing and flexibility unavailable through retail banking channels. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; Newport Coast&apos;s entry-level properties exceed this threshold by 2-3x.
           </p>
         </div>
 
@@ -279,7 +297,7 @@ export default function NewportCoastMortgageGuide2026() {
 
         {/* E-E-A-T Narrative Introduction */}
         <p>
-          Only one ZIP code in Orange County has a median home value above $5 million, zero conforming-eligible purchase transactions, and a 31% all-cash buyer rate that still leaves the majority of purchasers seeking jumbo financing: <strong>92657 &mdash; Newport Coast</strong>. Perched on bluffs overlooking the Pacific between Corona del Mar and Laguna Beach, this master-planned community of approximately 2,800 homes delivers oceanfront grandeur, 24-hour gated security, and adjacency to Crystal Cove State Park&apos;s permanently protected coastline. The properties here &mdash; Mediterranean villas, contemporary estates, and custom oceanfront compounds &mdash; routinely transact between $4 million and $35 million, placing every financed purchase squarely in super-jumbo territory where lender selection determines whether you save or waste six figures over the life of the loan.
+          Only one ZIP code in Orange County has a median home value above $5 million, zero conforming-eligible purchase transactions, and a 31% all-cash buyer rate that still leaves the majority of purchasers seeking jumbo financing: <strong>92657 &mdash; Newport Coast</strong>. Perched on bluffs overlooking the Pacific between Corona del Mar and Laguna Beach, this master-planned community of approximately 2,800 homes delivers oceanfront grandeur, 24-hour gated security, and adjacency to Crystal Cove State Park&apos;s permanently protected coastline. The properties here &mdash; Mediterranean villas, contemporary estates, and custom oceanfront compounds &mdash; routinely transact between $4 million and $35 million, placing every financed purchase squarely in super-jumbo territory where lender selection determines whether you save or waste six figures over the life of the loan. Understanding <a href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">California jumbo loan requirements</a> is the first step toward securing the right financing structure for a Newport Coast purchase.
         </p>
         <p>
           <strong>E-E-A-T Marker:</strong> <em>In our Newport Coast closings over the past 10 years, we have originated more than $220 million in luxury mortgage volume across Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge. As a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) working through Lumin Lending (NMLS #2716106), I access 200+ wholesale lending partners including institutional jumbo desks, private bank portfolios, and specialized Non-QM platforms that are not available through retail banking channels. In Q4 2025 and Q1 2026 alone, we closed 14 Newport Coast transactions averaging $4.2 million per loan. Our most recent Crystal Cove closing in February 2026 was a $12.8 million asset-depletion purchase that funded in 23 business days &mdash; a timeline that no retail bank in Orange County matched when the borrower initially shopped rates.</em>
@@ -343,7 +361,7 @@ export default function NewportCoastMortgageGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Conforming Loan Limit (OC)</td>
                 <td className="py-2 px-4 border-b">$1,209,750</td>
-                <td className="py-2 px-4 border-b">$1,149,825</td>
+                <td className="py-2 px-4 border-b">$1,209,750</td>
                 <td className="py-2 px-4 border-b text-red-600 font-semibold">All NC sales are jumbo</td>
               </tr>
               <tr>
@@ -845,7 +863,7 @@ export default function NewportCoastMortgageGuide2026() {
           <li><strong>Jumbo HELOC:</strong> Revolving credit line up to $2 million (some lenders up to $5 million). Variable rate with interest-only draw period. Best for ongoing or uncertain funding needs. See our <a href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Orange County guide</a> and our comprehensive <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California home equity guide</a> for statewide HELOC options.</li>
           <li><strong>Cash-Out Refinance:</strong> Replace your existing mortgage with a new, larger loan and receive the difference in cash. Best when current rates are favorable or when you want to consolidate a first and second lien.</li>
           <li><strong>Home Equity Loan (HELOAN):</strong> Fixed-rate second lien with a lump-sum disbursement. Best for one-time expenses with a known cost. See our <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">home equity for renovations guide</a>.</li>
-          <li><strong>Reverse Mortgage (HECM):</strong> Newport Coast homeowners aged 62+ with significant equity can access tax-free funds through a <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">reverse mortgage</a>. The 2026 HECM limit is $1,209,750, and proprietary jumbo reverse programs extend to $4 million for high-value Newport Coast properties.</li>
+          <li><strong>Reverse Mortgage (HECM):</strong> Newport Coast homeowners aged 62+ with significant equity can access loan proceeds (not considered taxable income\u2014consult a tax professional) through a <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">reverse mortgage</a>. The 2026 HECM limit is $1,209,750, and proprietary jumbo reverse programs extend to $4 million for high-value Newport Coast properties.</li>
         </ul>
 
         {/* Investment Property */}
@@ -968,7 +986,7 @@ export default function NewportCoastMortgageGuide2026() {
 
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">What is the conforming loan limit for Orange County in 2026?</h3>
-            <p className="paa-answer mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence, set by the Federal Housing Finance Agency (FHFA). Every Newport Coast purchase exceeds this limit by a factor of 2-10x, requiring jumbo or super-jumbo financing through institutional lenders.</strong></p>
+            <p className="paa-answer mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,209,750 for a single-family residence, set by the Federal Housing Finance Agency (FHFA). Every Newport Coast purchase exceeds this limit by a factor of 2-10x, requiring jumbo or super-jumbo financing through institutional lenders.</strong></p>
           </div>
 
           <div className="border border-gray-200 rounded-lg p-5">
@@ -1010,6 +1028,21 @@ export default function NewportCoastMortgageGuide2026() {
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">Can I use crypto assets to qualify for a Newport Coast jumbo loan?</h3>
             <p className="paa-answer mb-0"><strong>Yes. Select wholesale jumbo and Non-QM lenders accept cryptocurrency holdings &mdash; including Bitcoin, Ethereum, and stablecoins &mdash; as qualifying assets for Newport Coast purchases at 50-70% of current market value.</strong> Crypto assets held for 60+ days in a verifiable exchange or cold wallet can count toward reserves and, in asset-depletion programs, toward qualifying income. The key requirement is a documented 60-day transaction history from a regulated exchange. In our Newport Coast closings, borrowers with significant crypto portfolios pair digital assets with traditional holdings to strengthen their overall qualification profile without liquidating positions at unfavorable tax events.</p>
           </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">How much equity do Newport Coast homeowners typically have?</h3>
+            <p className="paa-answer mb-0"><strong>Newport Coast homeowners average $3.2-4.8 million in tappable equity due to sustained appreciation and large initial down payments on ultra-luxury properties.</strong> This equity supports <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">jumbo HELOCs, cash-out refinances, and home equity loans</a> through wholesale channels with competitive pricing on high-balance second liens.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">What jumbo loan requirements apply in California for 2026?</h3>
+            <p className="paa-answer mb-0"><strong>California jumbo loans require 680-740+ credit scores, 10-30% down payment, and 6-24 months reserves depending on loan amount and program type.</strong> Newport Coast buyers face the upper end of these requirements due to super-jumbo loan sizes. See our <a href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">complete California jumbo loan requirements guide</a> for detailed breakdowns by loan tier.</p>
+          </div>
+
+          <div className="border border-gray-200 rounded-lg p-5">
+            <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">Why use a wholesale mortgage broker instead of a bank for Newport Coast?</h3>
+            <p className="paa-answer mb-0"><strong>Wholesale brokers access 200+ lenders simultaneously, saving Newport Coast buyers 0.25-0.50% on jumbo rates &mdash; $12,500-$25,000 annually on a $5M loan.</strong> In our Newport Coast closings, wholesale pricing consistently beats retail bank quotes because institutional jumbo desks compete for broker-submitted deals. Our <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage broker guide</a> details the full rate advantage.</p>
+          </div>
         </div>
 
         {/* FAQ Section */}
@@ -1049,10 +1082,11 @@ export default function NewportCoastMortgageGuide2026() {
         {/* Internal Links */}
         <h2>Related Newport Coast &amp; Orange County Mortgage Resources</h2>
         <ul>
+          <li><a href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">Jumbo Loan Requirements California &amp; Washington 2026: Complete Guide</a></li>
           <li><a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California 2026: Statewide Rate Guide</a></li>
+          <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">Home Equity California Guide 2026: HELOC, HELOAN &amp; Cash-Out</a></li>
           <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker Orange County 2026</a></li>
           <li><a href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:underline">Jumbo Loans Orange County 2026: Rates, Limits &amp; Programs</a></li>
-          <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">Home Equity California Guide 2026: HELOC, HELOAN &amp; Cash-Out</a></li>
           <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage California Guide 2026: HECM &amp; Proprietary Programs</a></li>
           <li><a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Loans for Self-Employed Borrowers</a></li>
           <li><a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">Non-QM Loans: Complete Wholesale Broker Guide</a></li>

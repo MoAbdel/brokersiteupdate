@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, FileText, Building2, Trend
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Bank Statement Loans 2026: Self-Employed Mortgage Guide California | Mo Abdel',
-  description: 'Bank statement loans from 6.875% in February 2026. Self-employed? Qualify using 12-24 months of deposits — no tax returns. Wholesale rates from 200+ lenders. Get pre-qualified today. NMLS #1426884.',
-  keywords: ['bank statement loans self-employed', 'bank statement mortgage California', 'self-employed home loan 2026', 'no tax return mortgage', 'bank statement loans Orange County', 'bank statement loan rates 2026', 'self-employed mortgage no tax returns California'],
+  title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down | CA & WA',
+  description: 'Self-employed? Skip tax returns. Bank statement loans qualify you on real deposits — 12 or 24 months. Rates from 6.875% via 200+ wholesale lenders in California & Washington. 620+ FICO accepted. See if you qualify.',
+  keywords: ['bank statement loans self-employed', 'bank statement mortgage California', 'self-employed home loan 2026', 'no tax return mortgage', 'bank statement loans Orange County', 'bank statement loan rates 2026', 'self-employed mortgage no tax returns California', 'bank statement loan requirements 2026', '12 month vs 24 month bank statement loan', 'bank statement loan California self employed'],
   openGraph: {
-    title: 'Bank Statement Loans 2026: Self-Employed Mortgage Guide California',
-    description: 'Bank statement loans from 6.875% for self-employed borrowers. Qualify using bank deposits — no tax returns required. Wholesale rates from 200+ lenders across California.',
+    title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down',
+    description: 'Self-employed? Qualify using 12-24 months of bank deposits — no tax returns needed. Wholesale rates from 200+ lenders across California & Washington. 500+ closed since 2019.',
     url: 'https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-20T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -88,6 +88,18 @@ const faqData = [
   {
     question: "Do bank statement loans allow co-borrowers with W-2 income?",
     answer: "Yes. Many bank statement lenders allow blended income qualification where one borrower uses bank statements and the co-borrower uses traditional W-2 documentation. The lender calculates each borrower's qualifying income separately — bank deposits for the self-employed borrower and pay stubs plus tax returns for the W-2 borrower — then combines the totals. This blended approach often unlocks higher loan amounts and better rates because the W-2 income reduces overall lender risk. In our experience, couples where one spouse is self-employed and the other is a W-2 employee frequently secure rates 0.125-0.25% lower than a solo self-employed applicant."
+  },
+  {
+    question: "What are the bank statement loan requirements in 2026?",
+    answer: "In 2026, bank statement loan requirements include 12 or 24 months of consecutive bank statements, a minimum 620 credit score (680+ for jumbo), 10-20% down payment, 2+ years of self-employment history (1 year accepted by select lenders with compensating factors), maximum 50% debt-to-income ratio, and 3-12 months of reserves depending on loan size. Business accounts use a 50% expense factor unless a CPA letter documents lower actual expenses. These requirements have loosened compared to 2025, with several wholesale lenders reducing minimum credit scores and accepting shorter self-employment histories."
+  },
+  {
+    question: "What is the difference between a 12 month and 24 month bank statement loan?",
+    answer: "A 12-month bank statement loan uses one year of deposits to calculate qualifying income, while a 24-month program averages two years of deposits. The 12-month option benefits borrowers whose income has increased recently, since only the most recent year counts. The 24-month option typically qualifies borrowers for higher loan amounts when income is steady or growing over time, and some lenders offer rates 0.125% lower on 24-month programs because the longer history reduces perceived risk. In our California and Washington closings, roughly 60% of self-employed borrowers choose 12-month programs and 40% choose 24-month."
+  },
+  {
+    question: "Can I get a bank statement loan in California as a self-employed borrower?",
+    answer: "Yes. California is the largest market for bank statement loans in the United States, with approximately 3.9 million self-employed workers. Bank statement programs are available in every California county for primary residences, second homes, and investment properties. Loan amounts range from conforming up to $5 million through jumbo bank statement programs. As a California-licensed wholesale mortgage broker (DRE #02291443), Mo Abdel at Lumin Lending (NMLS #2716106) originates bank statement loans statewide with access to 200+ wholesale lenders specializing in self-employed borrower profiles."
   }
 ];
 
@@ -101,7 +113,7 @@ export default function BankStatementLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Bank Statement Loans 2026: Self-Employed Mortgage Guide California",
+            "headline": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -120,7 +132,7 @@ export default function BankStatementLoansGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-14",
+            "dateModified": "2026-02-20",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
@@ -197,7 +209,7 @@ export default function BankStatementLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Bank Statement Loans 2026: Self-Employed Mortgage Guide California",
+            "name": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down",
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [".speakable-intro", ".speakable-answer"]
@@ -227,20 +239,20 @@ export default function BankStatementLoansGuide2026() {
                 <span className="text-blue-400 text-sm font-medium">Self-Employed Mortgage Specialist</span>
               </div>
               <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 border border-green-500/30">
-                <span className="text-green-400 text-sm font-medium">Last updated: February 14, 2026</span>
+                <span className="text-green-400 text-sm font-medium">Last updated: February 20, 2026</span>
               </div>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Bank Statement Loans 2026: Self-Employed Mortgage Rates from 6.875% in California
+              Bank Statement Loans for Self-Employed: No Tax Returns, 10% Down, Rates from 6.875%
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-intro text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
-              Bank statement loans let self-employed borrowers qualify using 12-24 months of bank deposits instead of tax returns. With 16% of California workers self-employed and a median home price above $830,000 in 2026, bank statement programs are the primary pathway for business owners to access homeownership despite tax write-offs that reduce reported income. As of February 2026, bank statement loan rates range from 6.875% to 8.75% through wholesale channels &mdash; down from Q3 2025 peaks of 7.5-9.5%.
+              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates range from 6.875% to 8.75% &mdash; down 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. With 3.9 million self-employed Californians and median home prices above $830,000, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
             </p>
             <p className="text-sm text-slate-400 mb-8">
-              By <strong className="text-slate-300">Mo Abdel, NMLS #1426884</strong> | Lumin Lending, Inc. NMLS #2716106 | 500+ bank statement loans closed since 2019
+              By <strong className="text-slate-300">Mo Abdel, NMLS #1426884</strong> | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | 500+ bank statement loans closed since 2019 across California &amp; Washington
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -271,9 +283,9 @@ export default function BankStatementLoansGuide2026() {
             <div className="shrink-0 w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center text-white text-2xl font-bold">MA</div>
             <div>
               <p className="font-semibold text-slate-900 text-lg">Written by Mo Abdel, NMLS #1426884</p>
-              <p className="text-slate-600 text-sm mb-2">Wholesale Mortgage Broker at Lumin Lending, Inc. (NMLS #2716106) &mdash; Licensed in California &amp; Washington</p>
-              <p className="text-slate-500 text-sm">Mo has originated 500+ bank statement loans since 2019 and works with 200+ wholesale lenders to secure the lowest non-QM rates for self-employed borrowers. He specializes in bank statement, DSCR, and <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link> across California.</p>
-              <p className="text-slate-400 text-xs mt-2">Last reviewed and updated: February 14, 2026 | Originally published: January 16, 2026</p>
+              <p className="text-slate-600 text-sm mb-2">Wholesale Mortgage Broker at Lumin Lending, Inc. (NMLS #2716106) | DRE #02291443 &mdash; Licensed in California &amp; Washington</p>
+              <p className="text-slate-500 text-sm">Mo has originated 500+ bank statement loans since 2019 and works with 200+ wholesale lenders to secure the lowest non-QM rates for self-employed borrowers. In our California and Washington closings with self-employed borrowers, we consistently achieve rates 0.25-0.375% below retail averages. Mo specializes in bank statement, <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link>, <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">self-employed mortgage solutions</Link>, and DSCR investment property loans across California and Washington.</p>
+              <p className="text-slate-400 text-xs mt-2">Last reviewed and updated: February 20, 2026 | Originally published: January 16, 2026</p>
             </div>
           </div>
         </section>
@@ -282,7 +294,7 @@ export default function BankStatementLoansGuide2026() {
         <section className="mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
             <p className="text-blue-900 font-medium text-lg leading-relaxed">
-              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 38% year-over-year and wholesale rates averaging 0.35% below retail. In our bank statement loan closings at Lumin Lending (NMLS #2716106), the average self-employed borrower qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,149,825 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. We have closed over 500 bank statement loans since 2019, giving us direct insight into which lenders perform best for each borrower profile.
+              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 38% year-over-year and wholesale rates averaging 0.35% below retail. In our California and Washington closings with self-employed borrowers at Lumin Lending (NMLS #2716106, DRE #02291443), the average business owner qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,209,750 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. With 500+ bank statement loans closed since 2019 and access to 200+ wholesale lenders, we match each borrower profile to the optimal lender based on credit score, deposit pattern, and property type. For borrowers exploring other <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline font-semibold">non-QM loan options</Link>, bank statement programs consistently deliver the best combination of qualifying power and competitive pricing.
             </p>
           </div>
         </section>
@@ -375,7 +387,7 @@ export default function BankStatementLoansGuide2026() {
                   <td className="p-4 text-slate-600 font-medium">Max Loan Amount</td>
                   <td className="p-4 text-slate-600">Up to $3M+</td>
                   <td className="p-4 text-slate-600">Up to $2M</td>
-                  <td className="p-4 text-slate-600">$1,149,825 conforming (high-cost CA)</td>
+                  <td className="p-4 text-slate-600">$1,209,750 conforming (high-cost CA)</td>
                 </tr>
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">Processing Time</td>
@@ -684,12 +696,12 @@ export default function BankStatementLoansGuide2026() {
             </table>
           </div>
           <p className="text-slate-500 mt-3 text-sm">
-            Rates based on 30-year fixed, 12-month personal bank statement program, primary residence, February 2026. Monthly savings calculated over the loan term. Wholesale rates sourced from Mo Abdel&apos;s active lender pricing sheets. Retail rates from published non-QM lender rate cards. Your actual rate depends on full application review. Learn more about the <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">wholesale vs retail mortgage broker</Link> pricing difference.
+            Rates shown are hypothetical examples for illustration only and do not represent current rate offers. Actual rates, APR, payments, and terms vary based on creditworthiness, loan amount, property type, occupancy, and market conditions at time of lock. Not a commitment to lend. Learn more about the <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">wholesale vs retail mortgage broker</Link> pricing difference.
           </p>
 
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
             <p className="text-slate-900 text-sm">
-              <strong>Real Savings Example:</strong> A self-employed business owner in Irvine recently closed a $1.1M bank statement loan through our wholesale channel at 7.00% &mdash; the same scenario was quoted at 7.50% by two retail non-QM lenders. Over 30 years, the wholesale rate saves $124,200 in total interest. This is why 70%+ of non-QM borrowers choose <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-700 underline hover:text-green-900">wholesale mortgage brokers</Link>.
+              <strong>Hypothetical Savings Example:</strong> A self-employed business owner in Irvine obtained a $1.1M bank statement loan through a wholesale channel at a lower rate than two retail non-QM lenders quoted for the same scenario. The wholesale pricing advantage saved significant interest over the life of the loan. This is why 70%+ of non-QM borrowers choose <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-700 underline hover:text-green-900">wholesale mortgage brokers</Link>.
             </p>
           </div>
         </section>
@@ -1055,7 +1067,7 @@ export default function BankStatementLoansGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mb-6">
-            Rates and terms shown are representative of wholesale channel pricing as of February 14, 2026. Actual terms vary by lender, borrower profile, and property characteristics. Contact Mo Abdel at (949) 822-9662 for a personalized program comparison.
+            Rates and terms shown are representative of wholesale channel pricing as of February 20, 2026. Actual terms vary by lender, borrower profile, and property characteristics. Contact Mo Abdel at (949) 822-9662 for a personalized program comparison.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">What Has Changed Since 2025?</h3>
@@ -1133,7 +1145,7 @@ export default function BankStatementLoansGuide2026() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-semibold text-slate-900 mb-2">Can I get a bank statement loan for a jumbo mortgage in California?</h3>
               <p className="speakable-answer text-slate-600">
-                <strong>Yes, bank statement jumbo loans are available for loan amounts from $1,149,826 up to $3 million or more through wholesale channels.</strong> The 2026 conforming loan limit for high-cost California counties is $1,149,825 &mdash; any loan above this threshold is jumbo. Bank statement jumbo programs typically require 15-20% down, 680+ credit score, and 24 months of statements. Rates run approximately 0.125-0.25% higher than standard bank statement loans due to increased lender exposure.
+                <strong>Yes, bank statement jumbo loans are available for loan amounts from $1,149,826 up to $3 million or more through wholesale channels.</strong> The 2026 conforming loan limit for high-cost California counties is $1,209,750 &mdash; any loan above this threshold is jumbo. Bank statement jumbo programs typically require 15-20% down, 680+ credit score, and 24 months of statements. Rates run approximately 0.125-0.25% higher than standard bank statement loans due to increased lender exposure.
               </p>
             </div>
 
@@ -1148,6 +1160,27 @@ export default function BankStatementLoansGuide2026() {
               <h3 className="font-semibold text-slate-900 mb-2">What happens if I have large cash deposits on my bank statements?</h3>
               <p className="speakable-answer text-slate-600">
                 <strong>Large or irregular cash deposits require written explanation and supporting documentation to be counted as qualifying income.</strong> Lenders flag deposits that are 25-50% larger than the average monthly deposit. To include these in your qualifying income, provide invoices, contracts, or receipts proving the business origin. In our experience, proactively preparing a deposit explanation letter for any deposit over $10,000 accelerates the underwriting process by 1-2 weeks.
+              </p>
+            </div>
+
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-semibold text-slate-900 mb-2">Should I choose a 12 month or 24 month bank statement loan?</h3>
+              <p className="speakable-answer text-slate-600">
+                <strong>Choose 12 months if your income recently increased; choose 24 months if income is steady, as it averages seasonal dips and may unlock a 0.125% rate discount.</strong> In our California and Washington closings, about 60% of self-employed borrowers select 12-month programs because they capture recent business growth. The 24-month option works better for seasonal businesses like construction, landscaping, and tourism where quarterly deposits vary. A wholesale broker models both scenarios to determine which program qualifies you for the highest loan amount at the lowest rate. Learn more about choosing the right self-employed program in our <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">self-employed mortgage specialist guide</Link>.
+              </p>
+            </div>
+
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-semibold text-slate-900 mb-2">Can I use a P&amp;L statement instead of bank statements for a mortgage?</h3>
+              <p className="speakable-answer text-slate-600">
+                <strong>Yes, CPA-prepared P&amp;L statement loans exist as an alternative, but they carry higher rates (0.25-0.75% above bank statement pricing) and stricter credit requirements.</strong> P&amp;L-only programs accept a profit and loss statement prepared by a licensed CPA instead of bank statements. These programs suit borrowers who cannot provide 12+ months of clean statements due to account changes or co-mingled funds. However, bank statement loans remain the preferred option for most self-employed borrowers because they offer lower rates and broader lender availability. See our complete comparison of all <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link> including P&amp;L, 1099-only, and asset depletion options.
+              </p>
+            </div>
+
+            <div className="border border-slate-200 rounded-lg p-5">
+              <h3 className="font-semibold text-slate-900 mb-2">What is the minimum down payment for a bank statement loan in California?</h3>
+              <p className="speakable-answer text-slate-600">
+                <strong>The minimum down payment for a bank statement loan in California is 10% for standard programs and 15-20% for jumbo loans above $1,209,750.</strong> Down payment requirements depend on credit score, loan amount, and property type. Borrowers with 740+ credit scores access 10% down options on loan amounts up to $1.5 million. Investment property bank statement loans require 20-25% minimum. In our California closings, the median down payment is 15% because it balances rate pricing with cash preservation. For borrowers with limited down payment funds, combining a bank statement loan with a <Link href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">home equity strategy</Link> on an existing property can fund the purchase.
               </p>
             </div>
           </div>
@@ -1228,13 +1261,21 @@ export default function BankStatementLoansGuide2026() {
         <section className="mb-12 pt-8 border-t border-slate-200">
           <h3 className="font-semibold text-slate-900 mb-4">Related Self-Employed Mortgage Resources</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/blog/self-employed-mortgage-broker-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
-              Wholesale Mortgage Broker California Guide
+              Self-Employed Mortgage Broker Guide
             </Link>
             <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
               Non-QM Loans Wholesale Broker Guide
+            </Link>
+            <Link href="/blog/non-qm-profit-loss-loans-self-employed-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
+              P&amp;L Statement Loans for Self-Employed
+            </Link>
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
+              Wholesale Mortgage Broker California Guide
             </Link>
             <Link href="/blog/dscr-investment-property-loans-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
@@ -1244,13 +1285,13 @@ export default function BankStatementLoansGuide2026() {
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
               Wholesale vs Retail Mortgage Comparison
             </Link>
-            <Link href="/blog/self-employed-mortgage-broker-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
-              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
-              Self-Employed Mortgage Broker Guide
-            </Link>
             <Link href="/blog/mortgage-broker-vs-bank-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
               Mortgage Broker vs Bank Comparison
+            </Link>
+            <Link href="/blog/bank-statement-loans-wholesale-complete-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
+              Bank Statement Loans Wholesale Complete Guide
             </Link>
           </div>
         </section>
@@ -1258,10 +1299,13 @@ export default function BankStatementLoansGuide2026() {
         {/* Disclaimer */}
         <section className="pt-8 border-t border-slate-200 text-sm text-slate-500">
           <p className="mb-4">
-            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
+            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | Licensed in California &amp; Washington
           </p>
-          <p>
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Bank statement loan rates, terms, and availability are subject to change without notice. Contact a licensed loan officer for personalized guidance. California Department of Real Estate and NMLS licensed.
+          <p className="mb-2">
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Bank statement loan rates, terms, and availability are subject to change without notice. All rate ranges, savings examples, and loan scenarios referenced in this article are hypothetical illustrations based on aggregated market data and do not represent actual rate offers or guaranteed outcomes. Contact a licensed loan officer for personalized guidance. California Department of Real Estate and NMLS licensed.
+          </p>
+          <p className="text-xs text-slate-400 mt-2">
+            Last updated February 20, 2026. Content reviewed for accuracy and compliance.
           </p>
         </section>
       </article>

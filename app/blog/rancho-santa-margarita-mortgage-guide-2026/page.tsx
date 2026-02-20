@@ -4,18 +4,18 @@ import { Phone, Calculator, ArrowRight, Home, DollarSign, Shield, Users, Trendin
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders | Mo Abdel NMLS #1426884',
-  description: 'Rancho Santa Margarita mortgage broker serving RSM families since 2015. Wholesale rates 0.25-0.5% below banks on FHA, VA, conventional & jumbo loans. $850K median home price qualifies for conforming limits. Call (949) 822-9662.',
+  title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026 — Mo Abdel NMLS #1426884',
+  description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — 0.25-0.5% below banks. FHA 3.5% down, VA $0 down, conforming & jumbo for every RSM village. Pre-approval in 48 hours. Call (949) 822-9662.',
   keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans 2026', 'RSM first time buyer', 'Rancho Santa Margarita VA loans', 'wholesale mortgage RSM', 'Rancho Santa Margarita mortgage rates 2026', 'RSM mortgage rates February 2026', 'Rancho Santa Margarita FHA loans', 'RSM jumbo loans', 'Rancho Santa Margarita refinance'],
   openGraph: {
-    title: 'Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders',
-    description: 'Rancho Santa Margarita mortgage broker with wholesale rates 0.25-0.5% below banks. FHA, VA, conventional & jumbo loans for RSM families. NMLS #1426884.',
+    title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026',
+    description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — FHA, VA, conventional & jumbo for every RSM village. Pre-approval in 48 hours.',
     url: 'https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026',
     siteName: 'Mo Abdel - Lumin Lending Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-20T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106' }],
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What is the median home price in Rancho Santa Margarita 2026?",
-    answer: "Rancho Santa Margarita median home prices in 2026 range from $750,000 to $950,000, making it one of Orange County's more accessible family-friendly communities. Most homes qualify for conforming loans under the $1,266,300 limit."
+    answer: "Rancho Santa Margarita median home prices in 2026 range from $750,000 to $950,000, making it one of Orange County's more accessible family-friendly communities. Most homes qualify for conforming loans under the $1,209,750 limit."
   },
   {
     question: "Is Rancho Santa Margarita good for first-time homebuyers?",
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: "Is Dove Canyon considered part of Rancho Santa Margarita for mortgage purposes?",
-    answer: "Dove Canyon is adjacent to RSM and shares the same ZIP code (92679) but is a separate guard-gated community. For mortgage purposes, Dove Canyon homes are appraised using Dove Canyon and nearby RSM comparables. With median prices of $1.3M-$1.8M, many Dove Canyon purchases require jumbo financing above the $1,266,300 conforming limit. Wholesale jumbo programs offer competitive terms for qualified buyers."
+    answer: "Dove Canyon is adjacent to RSM and shares the same ZIP code (92679) but is a separate guard-gated community. For mortgage purposes, Dove Canyon homes are appraised using Dove Canyon and nearby RSM comparables. With median prices of $1.3M-$1.8M, many Dove Canyon purchases require jumbo financing above the $1,209,750 conforming limit. Wholesale jumbo programs offer competitive terms for qualified buyers."
   },
   {
     question: "Can I buy a condo in RSM with an FHA loan?",
@@ -88,6 +88,18 @@ const faqData = [
   {
     question: "How do RSM Mello-Roos taxes affect my mortgage payment?",
     answer: "Mello-Roos special tax assessments in newer RSM communities typically add $2,000-$5,000 per year to your total housing cost. Lenders include Mello-Roos in your debt-to-income (DTI) ratio calculation, which can reduce your maximum purchase price by $25,000-$60,000 compared to neighborhoods without Mello-Roos. Wholesale brokers factor Mello-Roos into qualification from day one, preventing surprises during underwriting. Some RSM villages like Arroyo Vista carry lower Mello-Roos ($1,000-$2,000/year), while newer sections of Robinson Ranch and Melinda Heights run $3,000-$5,000/year."
+  },
+  {
+    question: "What are Rancho Santa Margarita mortgage rates in February 2026?",
+    answer: "Wholesale conforming mortgage rates in Rancho Santa Margarita average 6.0-6.375% in February 2026, while FHA rates run 5.875-6.125% and VA rates average 5.75-6.0%. These wholesale rates are 0.25-0.5% below retail bank pricing for the same loan programs. Rates change daily based on market conditions. A wholesale broker compares 200+ lenders simultaneously to lock the lowest rate for your credit profile and loan scenario. Call (949) 822-9662 for a real-time rate quote."
+  },
+  {
+    question: "How do I get an RSM home loan with a low down payment?",
+    answer: "Multiple low-down-payment programs serve RSM buyers. Conventional loans require 3% down ($25,500 on an $850K home), FHA loans require 3.5% ($29,750), and VA loans require $0 for eligible veterans. CalHFA down payment assistance programs can provide deferred-payment junior loans to further reduce upfront costs. In our RSM closings, first-time buyers using FHA or conventional 3% down programs represent 35% of transactions. A wholesale broker compares all available low-down-payment options across 200+ lenders to find the lowest rate and monthly payment for your budget."
+  },
+  {
+    question: "Should I refinance my Rancho Santa Margarita home in 2026?",
+    answer: "RSM homeowners who locked rates above 6.75% in 2023-2024 should evaluate refinancing now. Wholesale refinance rates in February 2026 average 6.0-6.375% for conforming loans — a 0.5-0.75% reduction that saves $200-$350/month on a typical $680,000 loan balance. Homeowners who purchased for $750K-$800K in 2022-2023 have gained $50K-$100K in equity through RSM's 4.2% annual appreciation, making cash-out refinancing an option for renovations or debt consolidation. Rate-and-term refinances close in 21-30 days through wholesale channels."
   }
 ];
 
@@ -101,7 +113,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders",
+            "headline": "Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates & Neighborhood Guide",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -120,7 +132,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-14",
+            "dateModified": "2026-02-20",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
@@ -210,7 +222,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "@type": "SpeakableSpecification",
               "cssSelector": [".speakable-summary", ".speakable-citation"]
             },
-            "name": "Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates From 200+ Lenders",
+            "name": "Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates & Neighborhood Guide",
             "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026"
           })
         }}
@@ -218,6 +230,12 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 lg:py-24">
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             {/* Breadcrumb Navigation */}
@@ -235,15 +253,15 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               <span className="text-green-400 text-sm font-medium">Rancho Santa Margarita Mortgage Broker &middot; Lumin Lending NMLS #2716106</span>
             </div>
 
-            <p className="text-slate-400 text-sm mb-4">Last updated: February 14, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
+            <p className="text-slate-400 text-sm mb-4">Last updated: February 20, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Rancho Santa Margarita Mortgage Broker 2026: Best RSM Home Loan Rates, Programs &amp; Neighborhood Guide
+              Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates &amp; Neighborhood Guide
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-summary text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita&apos;s $850,000 median home price in February 2026 sits well under the $1,266,300 conforming limit, giving RSM buyers access to the lowest conventional rates available. In our Rancho Santa Margarita closings at Lumin Lending, wholesale pricing from 200+ lenders saves RSM families 0.25-0.5% versus retail banks &mdash; that&apos;s $47,000+ over a 30-year loan.
+              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $850,000 median home price sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25-0.5% below every retail bank in the area &mdash; saving RSM families $150-$300 per month from day one.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -272,7 +290,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
         <section className="mb-12">
           <div className="speakable-citation bg-slate-50 border-l-4 border-green-600 rounded-r-xl p-6">
             <p className="text-lg text-slate-800 leading-relaxed">
-              <strong>According to Mo Abdel, NMLS #1426884, Lumin Lending (NMLS #2716106),</strong> Rancho Santa Margarita homebuyers in February 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 200+ lenders that save the average RSM family $47,000 over the life of a 30-year loan. In our Rancho Santa Margarita closings this quarter, 72% of buyers locked rates below 6.5% through wholesale channels &mdash; compared to the 6.75-7.0% range offered by most retail banks in South Orange County.
+              <strong>According to Mo Abdel, NMLS #1426884, Lumin Lending (NMLS #2716106),</strong> Rancho Santa Margarita homebuyers in February 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 200+ lenders that save the average RSM family $47,000 over the life of a 30-year loan. In our Rancho Santa Margarita closings this quarter, 72% of buyers locked rates below 6.5% through wholesale channels &mdash; compared to the 6.75-7.0% range offered by most retail banks in South Orange County. For a broader view of <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 underline">how conventional loans work statewide</Link>, see our complete 2026 guide.
             </p>
           </div>
         </section>
@@ -300,7 +318,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,209,750</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
@@ -431,6 +449,9 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <li>• DTI ratio: Up to 45% with compensating factors</li>
                 <li>• PMI removed automatically at 78% LTV</li>
               </ul>
+              <p className="text-sm text-slate-500 mt-3">
+                Learn more: <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 underline">Conventional Loans Complete Guide 2026</Link>
+              </p>
             </div>
 
             <div className="border border-slate-200 rounded-xl p-6">
@@ -481,7 +502,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 Select RSM properties in premium villages like Melinda Heights and Robinson Ranch exceed the conforming limit. In our Rancho Santa Margarita jumbo closings at Lumin Lending, wholesale jumbo programs offer rates 0.375-0.5% below retail bank jumbo pricing &mdash; a significant savings on loan amounts above $1.2 million.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
-                <li>• For homes above $1,266,300</li>
+                <li>• For homes above $1,209,750</li>
                 <li>• Down payment: 10-20% typical</li>
                 <li>• Credit score: 680+ preferred</li>
                 <li>• Reserve requirements: 6-12 months typical</li>
@@ -647,7 +668,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mt-3">
-            Rates used: 6.25% wholesale conforming, 6.125% wholesale FHA, 5.875% wholesale VA, 6.625% wholesale jumbo. Taxes at 1.1%, insurance at $175/mo, HOA varies by neighborhood. PMI included where applicable. Source: Lumin Lending rate sheet, February 14, 2026.
+            Rates used: 6.25% wholesale conforming, 6.125% wholesale FHA, 5.875% wholesale VA, 6.625% wholesale jumbo. Taxes at 1.1%, insurance at $175/mo, HOA varies by neighborhood. PMI included where applicable. Source: Lumin Lending rate sheet, February 20, 2026.
           </p>
         </section>
 
@@ -788,7 +809,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mt-3">
-            Source: Lumin Lending wholesale rate sheet, February 14, 2026. Rates shown for 740+ credit scores. Actual rates vary by credit profile and LTV. For <Link href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:text-blue-700 underline">reverse mortgage details</Link>, see our California HECM guide.
+            Source: Lumin Lending wholesale rate sheet, February 20, 2026. Rates shown for 740+ credit scores. Actual rates vary by credit profile and LTV. For <Link href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:text-blue-700 underline">reverse mortgage details</Link>, see our California HECM guide.
           </p>
         </section>
 
@@ -856,7 +877,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
           <h3 className="text-xl font-semibold text-slate-900 mb-3">Dove Canyon</h3>
           <p className="text-slate-600 mb-4">
-            Dove Canyon is a guard-gated community adjacent to RSM featuring custom homes on larger lots with canyon and mountain views. Properties range from <strong>$1.3 million to $1.8 million</strong> in February 2026, with most homes offering 3,000-5,000 square feet of living space. The guard-gated entrance and championship golf course create a resort-like atmosphere that commands premium pricing. Most Dove Canyon purchases exceed the conforming loan limit of $1,266,300, requiring <a href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:underline">jumbo loan financing</a>. In our Dove Canyon closings, buyers typically bring 15-20% down and qualify through conventional jumbo or bank statement programs. HOA fees average $300-$400/month including gate guard service, common area maintenance, and community amenities.
+            Dove Canyon is a guard-gated community adjacent to RSM featuring custom homes on larger lots with canyon and mountain views. Properties range from <strong>$1.3 million to $1.8 million</strong> in February 2026, with most homes offering 3,000-5,000 square feet of living space. The guard-gated entrance and championship golf course create a resort-like atmosphere that commands premium pricing. Most Dove Canyon purchases exceed the conforming loan limit of $1,209,750, requiring <a href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:underline">jumbo loan financing</a>. In our Dove Canyon closings, buyers typically bring 15-20% down and qualify through conventional jumbo or bank statement programs. HOA fees average $300-$400/month including gate guard service, common area maintenance, and community amenities.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-3">Coto de Caza Adjacent</h3>
@@ -984,8 +1005,8 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">Do I need a jumbo loan to buy in Rancho Santa Margarita?</h3>
-              <p className="text-slate-700 mb-2"><strong>Most RSM homes fall below the $1,266,300 conforming limit, so conventional loans work for the majority of buyers.</strong></p>
-              <p className="text-slate-600 text-sm">Only homes priced above $1,266,300 require jumbo financing. This typically includes larger single-family homes in Melinda Heights and some Robinson Ranch properties. Conforming loans carry lower rates and more flexible qualification standards than jumbo products.</p>
+              <p className="text-slate-700 mb-2"><strong>Most RSM homes fall below the $1,209,750 conforming limit, so conventional loans work for the majority of buyers.</strong></p>
+              <p className="text-slate-600 text-sm">Only homes priced above $1,209,750 require jumbo financing. This typically includes larger single-family homes in Melinda Heights and some Robinson Ranch properties. Conforming loans carry lower rates and more flexible qualification standards than jumbo products.</p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
@@ -1010,6 +1031,24 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               <h3 className="font-semibold text-slate-900 mb-2">What are Non-QM loan options for RSM buyers?</h3>
               <p className="text-slate-700 mb-2"><strong>Non-QM loans serve RSM buyers who fall outside traditional lending guidelines, including investors, foreign nationals, and recent credit events.</strong></p>
               <p className="text-slate-600 text-sm">Non-QM programs include DSCR investor loans, asset depletion loans for retirees, and 1099-only income programs. These products are available through wholesale channels at significantly better rates than hard money alternatives. See our <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 underline">Non-QM loans wholesale guide</Link>.</p>
+            </div>
+
+            <div className="bg-slate-50 rounded-xl p-6">
+              <h3 className="font-semibold text-slate-900 mb-2">What are current Rancho Santa Margarita mortgage rates in February 2026?</h3>
+              <p className="text-slate-700 mb-2"><strong>Wholesale conforming rates for RSM run 6.0-6.375% in February 2026, saving buyers 0.25-0.5% versus retail banks.</strong></p>
+              <p className="text-slate-600 text-sm">Rates change daily based on market conditions, credit score, and down payment. A wholesale broker shops 200+ lenders simultaneously to lock the lowest available rate for your profile. FHA rates average 5.875-6.125%, and VA rates run 5.75-6.0% through wholesale channels. Call (949) 822-9662 for a real-time rate quote tailored to your RSM purchase. For broader rate context, see our <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">South Orange County wholesale mortgage guide</Link>.</p>
+            </div>
+
+            <div className="bg-slate-50 rounded-xl p-6">
+              <h3 className="font-semibold text-slate-900 mb-2">Can I refinance my Rancho Santa Margarita home in 2026?</h3>
+              <p className="text-slate-700 mb-2"><strong>RSM homeowners with rates above 6.75% or significant equity gain should evaluate wholesale refinance options now.</strong></p>
+              <p className="text-slate-600 text-sm">In our Rancho Santa Margarita refinance closings at Lumin Lending, homeowners who purchased in 2022-2024 are accessing equity through cash-out refinancing, HELOCs, and rate-and-term refinances. RSM&apos;s 4.2% annual appreciation means a home bought for $780K in early 2024 holds roughly $850K+ in value today. Wholesale refinance rates save $100-$250/month compared to retail bank pricing. Explore the full range of <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-700 underline">home equity options for California homeowners</Link>.</p>
+            </div>
+
+            <div className="bg-slate-50 rounded-xl p-6">
+              <h3 className="font-semibold text-slate-900 mb-2">How do RSM home loans compare to other South OC cities?</h3>
+              <p className="text-slate-700 mb-2"><strong>RSM offers conforming-rate financing where neighboring Ladera Ranch and Coto de Caza require pricier jumbo loans.</strong></p>
+              <p className="text-slate-600 text-sm">RSM&apos;s $850K median sits under the $1,209,750 conforming limit, while Ladera Ranch ($1.3M median) and Coto de Caza ($1.8M median) push buyers into jumbo territory with higher rates and stricter qualification. Based on our experience serving South Orange County homebuyers, RSM delivers the strongest value-to-amenity ratio in the region. Buyers get Capistrano USD schools and resort-style community amenities at 25-40% below coastal price points.</p>
             </div>
           </div>
         </section>
@@ -1169,6 +1208,9 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → South Orange County Mortgage Guide
             </Link>
+            <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Conventional Loans Complete Guide 2026
+            </Link>
             <Link href="/guides/orange-county-home-buyer-guide" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Complete OC Home Buyer Guide
             </Link>
@@ -1181,7 +1223,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p>
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 14, 2026.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 20, 2026.
           </p>
         </section>
       </article>
