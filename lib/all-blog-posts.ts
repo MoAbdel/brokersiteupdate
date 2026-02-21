@@ -11,6 +11,63 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 13: 2 Refinance + 2 HECM + 2 DSCR + 1 Wholesale (Feb 21, 2026) =====
+  {
+    slug: 'fha-streamline-refinance-guide-2026',
+    title: 'FHA Streamline Refinance 2026: No Appraisal, Lower Payment in 15-21 Days',
+    excerpt: 'FHA streamline refinance eliminates appraisal and income verification for existing FHA borrowers. Close in 15-21 days through wholesale channels. 200+ lenders.',
+    date: '2026-02-21',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'va-irrrl-streamline-refinance-2026',
+    title: 'VA IRRRL Streamline Refinance 2026: No Appraisal, Lower Rate for Veterans',
+    excerpt: 'VA IRRRL streamline refinance for veterans: no appraisal, no income docs, 0.5% funding fee. Close in 15-25 days through 200+ wholesale lenders.',
+    date: '2026-02-21',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-condo-requirements-2026',
+    title: 'Reverse Mortgage for Condos 2026: FHA Approval Requirements & HECM Eligibility',
+    excerpt: 'Can you get a reverse mortgage on a condo? FHA condo approval requirements for HECM, single-unit approval options, and proprietary alternatives for seniors 62+.',
+    date: '2026-02-21',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-property-tax-insurance-2026',
+    title: 'Reverse Mortgage Property Tax & Insurance Requirements 2026: What HECM Borrowers Must Know',
+    excerpt: 'Reverse mortgage property tax and insurance obligations explained. LESA set-asides, default prevention, Prop 13/19 impacts. Essential guide for HECM borrowers 62+.',
+    date: '2026-02-21',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-first-investment-property-2026',
+    title: 'How to Buy Your First Investment Property with a DSCR Loan [2026]',
+    excerpt: 'DSCR loans let first-time investors qualify on rental income — no W-2s or tax returns needed. 20% down, 660+ credit. Access 50+ DSCR lenders through wholesale channels.',
+    date: '2026-02-21',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loans-multi-family-guide-2026',
+    title: 'DSCR Loans for Multi-Family Properties 2026: 2-4 Unit Investor Guide',
+    excerpt: 'DSCR multi-family loans for 2-4 unit investment properties. Stronger cash flow ratios, residential terms, 50+ wholesale lenders. Scale your portfolio.',
+    date: '2026-02-21',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'non-qm-loan-programs-complete-guide-2026',
+    title: 'Non-QM Loan Programs 2026: Complete Guide to 7 Non-Traditional Mortgage Types',
+    excerpt: 'Complete guide to non-QM loan programs: bank statement, DSCR, asset depletion, interest-only, foreign national, and more. 50+ wholesale lenders.',
+    date: '2026-02-21',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
   // ===== BATCH 12: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 20, 2026) =====
   {
     slug: 'dscr-1031-exchange-financing-2026',

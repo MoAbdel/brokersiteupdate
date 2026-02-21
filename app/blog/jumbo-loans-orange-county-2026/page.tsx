@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026: $1.15M+ Limits, 10% Down & Wholesale Rates | Mo Abdel',
-  description: 'Orange County jumbo loans above $1,149,825 with 10% down through wholesale channels. Compare jumbo vs conforming, save $5K-$18K/yr over retail banks. 200+ lenders. NMLS #1426884.',
+  description: 'Orange County jumbo loans above $1,209,750 with 10% down through wholesale channels. Compare jumbo vs conforming, save $5K-$18K/yr over retail banks. 200+ lenders. NMLS #1426884.',
   keywords: [
     'jumbo loans Orange County',
     'jumbo loan rates Orange County 2026',
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Jumbo Loans Orange County 2026: Wholesale Rates & Luxury Home Financing',
-    description: 'Access 100+ wholesale lenders for jumbo loans above $1,149,825 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
+    description: 'Access 200+ wholesale lenders for jumbo loans above $1,209,750 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
     url: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-06T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-21T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -65,8 +65,8 @@ export default function JumboLoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-06",
-                        "dateModified": "2026-02-14",
-                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,149,825. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
+                        "dateModified": "2026-02-21",
+                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })
                 }}
             />
@@ -83,7 +83,7 @@ export default function JumboLoansOrangeCountyPage() {
                                 "name": "What is the jumbo loan limit for Orange County in 2026?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "In 2026, Orange County's conforming loan limit is $1,149,825 for single-family homes. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting."
+                                    "text": "In 2026, Orange County's conforming loan limit is $1,209,750 for single-family homes. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting."
                                 }
                             },
                             {
@@ -214,13 +214,13 @@ export default function JumboLoansOrangeCountyPage() {
 
             <header className="mb-8">
                 <div className="inline-flex items-center gap-2 bg-blue-50 rounded-full px-4 py-1.5 mb-4 border border-blue-100">
-                    <span className="text-blue-700 text-sm font-medium">Last updated February 14, 2026 | Orange County Jumbo Loan Expert</span>
+                    <span className="text-blue-700 text-sm font-medium">Last updated February 21, 2026 | Orange County Jumbo Loan Expert</span>
                 </div>
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
                     Jumbo Loans in Orange County 2026: 10% Down, Wholesale Rates &amp; $1.15M+ Financing
                 </h1>
                 <p className="text-lg text-gray-600 mb-4">
-                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,149,825</strong>—any mortgage above this threshold requires jumbo financing.
+                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong>—any mortgage above this threshold requires jumbo financing.
                 </p>
                 <p className="text-sm text-gray-500">
                     By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>
@@ -228,9 +228,20 @@ export default function JumboLoansOrangeCountyPage() {
             </header>
 
             <section className="prose prose-lg max-w-none">
+                <div className="bg-white p-6 rounded-xl border-2 border-blue-200 mb-8 shadow-sm">
+                    <p className="text-gray-800 mb-4">
+                        According to <strong>Mo Abdel, NMLS #1426884</strong>, a licensed wholesale mortgage broker serving Orange County for over 15 years, the jumbo loan landscape in early 2026 presents a distinct advantage for buyers who bypass retail banks in favor of institutional wholesale channels. With 42% of all Orange County purchase mortgages now classified as jumbo &mdash; the highest share in a decade &mdash; understanding how wholesale pricing works is essential for anyone financing above the $1,209,750 conforming limit.
+                    </p>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-0">
+                        <li><strong>Orange County jumbo loans</strong> closed through wholesale channels carry interest rates 0.25&ndash;0.625% lower than retail bank jumbo rates in February 2026.</li>
+                        <li><strong>Wholesale jumbo down payments</strong> start at 10% for primary residences, compared to the 20&ndash;25% minimums imposed by most retail banks for loans above $1.2M.</li>
+                        <li><strong>Self-employed Orange County buyers</strong> represent 35% of local jumbo originations and qualify through bank statement programs that use 12&ndash;24 months of deposits instead of tax returns.</li>
+                    </ul>
+                </div>
+
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,149,825</strong> for high-cost areas. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
+                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,209,750</strong> for high-cost areas. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
                     </p>
                 </div>
 
@@ -253,7 +264,7 @@ export default function JumboLoansOrangeCountyPage() {
                             <tbody className="divide-y divide-blue-100">
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">1-Unit (Single Family)</td>
-                                    <td className="py-3 px-4">$1,149,825</td>
+                                    <td className="py-3 px-4">$1,209,750</td>
                                     <td className="py-3 px-4 text-blue-700 font-bold">$1,149,826+</td>
                                 </tr>
                                 <tr>
@@ -514,7 +525,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Jumbo loans involve more thorough underwriting than conforming mortgages. In our Orange County jumbo closings, we have refined this process to minimize delays and maximize certainty. Here is the typical timeline for an Orange County jumbo loan through wholesale channels:
                 </p>
                 <ol>
-                    <li className="mb-3"><strong>Pre-Qualification (Day 1-2):</strong> Initial review of income, assets, and credit. We shop 100+ wholesale lenders to identify the best jumbo programs for your profile.</li>
+                    <li className="mb-3"><strong>Pre-Qualification (Day 1-2):</strong> Initial review of income, assets, and credit. We shop 200+ wholesale lenders to identify the best jumbo programs for your profile.</li>
                     <li className="mb-3"><strong>Full Application &amp; Document Collection (Day 2-7):</strong> Submit complete documentation package including tax returns (or bank statements for non-QM), asset verification, and identity documents.</li>
                     <li className="mb-3"><strong>Pre-Approval Issuance (Day 5-10):</strong> Receive a strong pre-approval letter that carries weight in Orange County&apos;s competitive luxury market. Sellers and listing agents prefer wholesale pre-approvals backed by institutional underwriting.</li>
                     <li className="mb-3"><strong>Property Under Contract &amp; Appraisal (Day 10-20):</strong> Once your offer is accepted, the lender orders an appraisal. Jumbo appraisals in OC often require a second appraisal for properties above $2M.</li>
@@ -613,7 +624,8 @@ export default function JumboLoansOrangeCountyPage() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-blue-600 mt-3 mb-0">Rates shown for full-doc jumbo, primary residence, 20% down, 740+ FICO, February 2026. Non-QM jumbo (bank statement, DSCR, asset-depletion) carry 0.50-1.50% premium. Actual rates vary by scenario.</p>
+                    <p className="text-xs text-blue-600 mt-3 mb-2">Rates shown for full-doc jumbo, primary residence, 20% down, 740+ FICO, February 2026. Non-QM jumbo (bank statement, DSCR, asset-depletion) carry 0.50-1.50% premium. Actual rates vary by scenario.</p>
+                    <p className="text-xs text-gray-500 mt-0 mb-0"><em>Rates shown are illustrative of wholesale vs. retail pricing spreads and are not guaranteed rate quotes. Actual rates depend on individual borrower qualifications and market conditions at time of lock.</em></p>
                 </div>
 
                 {/* People Also Ask Section */}
@@ -622,7 +634,7 @@ export default function JumboLoansOrangeCountyPage() {
                 <div className="space-y-4 my-8">
                     <div className="border border-gray-200 rounded-lg p-5">
                         <h3 className="font-semibold text-gray-900 mb-2 mt-0">What is the conforming loan limit for Orange County in 2026?</h3>
-                        <p className="text-gray-600 mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence, set by the Federal Housing Finance Agency (FHFA).</strong> Any mortgage above this threshold is classified as a jumbo loan. Multi-unit limits are $1,472,250 for duplexes, $1,779,525 for triplexes, and $2,211,600 for fourplexes. Orange County is designated a high-cost area, with limits above the national baseline of $802,650.</p>
+                        <p className="text-gray-600 mb-0"><strong>The 2026 conforming loan limit for Orange County is $1,209,750 for a single-family residence, set by the Federal Housing Finance Agency (FHFA).</strong> Any mortgage above this threshold is classified as a jumbo loan. Multi-unit limits are $1,472,250 for duplexes, $1,779,525 for triplexes, and $2,211,600 for fourplexes. Orange County is designated a high-cost area, with limits above the national baseline of $802,650.</p>
                     </div>
 
                     <div className="border border-gray-200 rounded-lg p-5">
@@ -642,7 +654,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                     <div className="border border-gray-200 rounded-lg p-5">
                         <h3 className="font-semibold text-gray-900 mb-2 mt-0">What is the difference between jumbo and super-jumbo loans?</h3>
-                        <p className="text-gray-600 mb-0"><strong>While any loan above $1,149,825 in Orange County is classified as jumbo, &quot;super-jumbo&quot; generally refers to loans above $3 million that require institutional private desk underwriting.</strong> Super-jumbo loans involve more thorough financial review, typically require 20-25% down minimum, and often need two independent appraisals. Our wholesale partners include multiple institutional desks that specialize in super-jumbo transactions up to $20M+.</p>
+                        <p className="text-gray-600 mb-0"><strong>While any loan above $1,209,750 in Orange County is classified as jumbo, &quot;super-jumbo&quot; generally refers to loans above $3 million that require institutional private desk underwriting.</strong> Super-jumbo loans involve more thorough financial review, typically require 20-25% down minimum, and often need two independent appraisals. Our wholesale partners include multiple institutional desks that specialize in super-jumbo transactions up to $20M+.</p>
                     </div>
 
                     <div className="border border-gray-200 rounded-lg p-5">
@@ -662,7 +674,7 @@ export default function JumboLoansOrangeCountyPage() {
                 <div className="space-y-6 my-8">
                     <div className="border-b border-gray-200 pb-5">
                         <h3 className="font-bold text-gray-900 mb-2 mt-0">What is the jumbo loan limit for Orange County in 2026?</h3>
-                        <p className="text-gray-700 mb-0">The 2026 conforming loan limit for Orange County is $1,149,825 for a single-family residence. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting. This limit is set annually by the Federal Housing Finance Agency (FHFA) based on median home price changes.</p>
+                        <p className="text-gray-700 mb-0">The 2026 conforming loan limit for Orange County is $1,209,750 for a single-family residence. Any mortgage exceeding this amount is classified as a jumbo loan and requires specialized underwriting. This limit is set annually by the Federal Housing Finance Agency (FHFA) based on median home price changes.</p>
                     </div>
 
                     <div className="border-b border-gray-200 pb-5">
@@ -776,13 +788,22 @@ export default function JumboLoansOrangeCountyPage() {
                         <Link href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-600 hover:underline text-sm">
                             → Bank Statement Loans: Complete Wholesale Guide
                         </Link>
+                        <Link href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline text-sm">
+                            → Jumbo Loan Requirements CA &amp; WA
+                        </Link>
+                        <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:underline text-sm">
+                            → Conventional Loans Complete Guide
+                        </Link>
+                        <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:underline text-sm">
+                            → First-Time Homebuyer Guide OC
+                        </Link>
                     </div>
                 </div>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a><br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
