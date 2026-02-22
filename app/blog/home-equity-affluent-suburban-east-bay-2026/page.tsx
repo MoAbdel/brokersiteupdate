@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026',
@@ -55,7 +57,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-10',
+    dateModified: '2026-02-22',
     description: 'Comprehensive home equity guide for Danville, Walnut Creek, Pleasanton, Dublin, and Fremont covering HELOC, HELOAN, and cash-out refinance for Iron Horse Corridor estates, Rossmoor 55+ communities, Tri-Valley family homes, new construction growth markets, and diverse suburban neighborhoods.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026',
     about: [
@@ -114,7 +116,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
         name: 'What credit score is needed for a jumbo HELOC in the East Bay?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Most jumbo HELOC lenders require 700+ credit scores, with the best rates available at 740+. For conforming HELOCs under $726,200, minimum scores of 660-680 may qualify through select wholesale lenders. A wholesale broker comparing 200+ lenders finds the optimal combination of rate and score requirement for each borrower.',
+          text: 'Most jumbo HELOC lenders require 700+ credit scores, with the best rates available at 740+. For conforming HELOCs under $806,500, minimum scores of 660-680 may qualify through select wholesale lenders. A wholesale broker comparing 200+ lenders finds the optimal combination of rate and score requirement for each borrower.',
         },
       },
       {
@@ -228,7 +230,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
             Home Equity in Danville, Walnut Creek &amp; Suburban East Bay: HELOC &amp; Cash-Out [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 10, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for 5 affluent suburban East Bay cities | Licensed in CA &amp; WA
@@ -270,7 +272,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The affluent suburban East Bay &mdash; stretching from the Iron Horse Corridor estates of Danville through the urban luxury of Walnut Creek, the family-oriented Tri-Valley communities of Pleasanton and Dublin, and the diverse tech hub of Fremont &mdash; represents one of Northern California&apos;s strongest home equity markets. Homeowners across these five cities sit on $400,000 to $1.4 million+ in tappable equity, built through sustained appreciation driven by BART connectivity, top-rated school districts, tech industry employment, and persistent housing supply constraints. As a wholesale mortgage broker with access to over 200 lenders, I help suburban East Bay homeowners compare <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC, cash-out refinance</a>, and <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">HELOAN products</a> to find the lowest rates and best terms for their specific property type and financial situation.
+            The affluent suburban East Bay &mdash; stretching from the Iron Horse Corridor estates of Danville through the urban luxury of Walnut Creek, the family-oriented Tri-Valley communities of Pleasanton and Dublin, and the diverse tech hub of Fremont &mdash; represents one of Northern California&apos;s strongest home equity markets. These five cities hold an estimated $48 billion in combined tappable home equity across approximately 185,000 owner-occupied homes, with individual homeowners sitting on $440,000 to $1.4 million+ in accessible equity. This wealth was built through sustained appreciation averaging 5.8% annually over the past decade, driven by BART connectivity, top-rated school districts, tech industry employment, and a structural housing supply deficit of 50,000&ndash;80,000 units across Contra Costa and Alameda counties. As a wholesale mortgage broker with access to over 200 lenders, I help suburban East Bay homeowners compare <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC, cash-out refinance</a>, and <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">HELOAN products</a> to find the lowest rates and best terms for their specific property type and financial situation.
           </p>
 
           <p>
@@ -809,7 +811,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What credit score is needed for a jumbo HELOC in the East Bay?</h3>
-              <p>Most jumbo HELOC lenders require 700+ credit scores, with the best rates available at 740+. For conforming HELOCs under $726,200, minimum scores of 660&ndash;680 may qualify through select wholesale lenders. A wholesale broker comparing 200+ lenders finds the optimal combination of rate and minimum score requirement for each borrower&apos;s credit profile.</p>
+              <p>Most jumbo HELOC lenders require 700+ credit scores, with the best rates available at 740+. For conforming HELOCs under $806,500, minimum scores of 660&ndash;680 may qualify through select wholesale lenders. A wholesale broker comparing 200+ lenders finds the optimal combination of rate and minimum score requirement for each borrower&apos;s credit profile.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How long does it take to close a HELOC in the suburban East Bay?</h3>
@@ -860,7 +862,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
           </div>
 
           <p>
-            Explore additional equity resources: <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance</a> | <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Home Equity Loan (Fixed Rate) Guide</a> | <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> | <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a>. For government resources on home equity borrowing, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> and <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a>.
+            Explore additional equity resources: <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance</a> | <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Home Equity Loan (Fixed Rate) Guide</a> | <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> | <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a> | <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a> | <a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline">Using Home Equity for College Tuition</a>. For government resources on home equity borrowing, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> and <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a>.
           </p>
 
           {/* Expert Summary */}

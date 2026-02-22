@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: 'Cash out refinance how it works: Replace your mortgage with a larger loan and get the difference in cash. Complete requirements, process, and comparison guide.',
     type: 'article',
     publishedTime: '2026-02-01',
-    modifiedTime: '2026-02-01',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     url: 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
@@ -52,7 +52,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-01",
-            "dateModified": "2026-02-01",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026",
@@ -248,14 +248,14 @@ export default function CashOutRefinanceCompleteGuidePage() {
         <p className="text-lg text-gray-600">
           Everything you need to know about converting home equity to cash through refinancing
         </p>
-        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         {/* CITATION HOOK (50-75 words) */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a cash-out refinance replaces your existing mortgage with a new, larger loan—giving you the difference in cash at closing. In 2026, most lenders require at least 20% equity remaining (80% max LTV), a credit score of 620+, and debt-to-income ratio below 43%. This option works best when you need a large lump sum and can benefit from current rate conditions.
+            According to Mo Abdel, NMLS #1426884, a cash-out refinance replaces your existing mortgage with a new, larger loan&mdash;giving you the difference in cash at closing. American homeowners held an estimated <strong>$17.6 trillion in tappable equity</strong> as of Q4 2025, per ICE Mortgage Technology data, making cash-out refinancing one of the most widely used equity access tools in 2026. Most lenders require at least 20% equity remaining (80% max LTV), a credit score of 620+, and a debt-to-income ratio below 43%. With the 2026 conforming loan limit at <strong>$1,209,750</strong> in high-cost areas like Orange County, California homeowners can access substantial funds through a single transaction.
           </p>
         </div>
 
@@ -648,6 +648,16 @@ export default function CashOutRefinanceCompleteGuidePage() {
           <strong>Your old mortgage is paid off completely by the new loan at closing; you then make payments only on the new, larger mortgage.</strong> The payoff happens automatically through the title/escrow company. Your credit report shows one mortgage paid off and one new mortgage opened.
         </p>
 
+        <h3>Can self-employed borrowers qualify for a cash-out refinance?</h3>
+        <p className="paa-answer">
+          <strong>Yes. Self-employed borrowers qualify using 2 years of tax returns, or through <a href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-600 hover:underline">bank statement loan programs</a> that use 12&ndash;24 months of deposits instead of tax returns.</strong> Wholesale broker access to 200+ lenders includes non-QM programs specifically designed for self-employed borrowers whose tax returns understate actual income due to legitimate business deductions.
+        </p>
+
+        <h3>What is the difference between a cash-out refinance and a second mortgage?</h3>
+        <p className="paa-answer">
+          <strong>A cash-out refinance replaces your first mortgage with one new, larger loan. A second mortgage (HELOC or HELOAN) adds a separate loan behind your existing first mortgage, resulting in two payments.</strong> Cash-out refinancing works well when you need a large lump sum and your current rate is not significantly below market. A second mortgage preserves your existing low rate while accessing equity. See our <a href="/blog/second-mortgage-explained-2026" className="text-blue-600 hover:underline">second mortgage guide</a> for a full comparison.
+        </p>
+
         {/* EXTENDED FAQ (400-500 words) */}
         <h2>Frequently Asked Questions</h2>
 
@@ -749,6 +759,21 @@ export default function CashOutRefinanceCompleteGuidePage() {
             <li>
               <a href="/blog/cash-out-refinance-vs-personal-loan-2026" className="text-blue-600 hover:underline">
                 Cash-Out Refinance vs Personal Loan: Full Comparison [2026]
+              </a>
+            </li>
+            <li>
+              <a href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">
+                Investment Property Cash-Out Refinance Guide [2026]
+              </a>
+            </li>
+            <li>
+              <a href="/blog/equity-extraction-risks-2026" className="text-blue-600 hover:underline">
+                Equity Extraction Risks: What Homeowners Should Know [2026]
+              </a>
+            </li>
+            <li>
+              <a href="/blog/when-to-refinance-2026" className="text-blue-600 hover:underline">
+                When to Refinance Your Mortgage: Timing Guide [2026]
               </a>
             </li>
           </ul>

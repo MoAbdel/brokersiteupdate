@@ -29,6 +29,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-17T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
 };
 
@@ -110,7 +112,7 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
               url: 'https://www.mothebroker.com',
             },
             datePublished: '2026-02-17',
-            dateModified: '2026-02-17',
+            dateModified: '2026-02-22',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026',
@@ -179,10 +181,22 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
           Reverse Mortgage Line of Credit Growth Rate: The Hidden HECM Advantage [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          Your unused HECM credit line grows every month—compounding like an investment but without the risk. Here is exactly how it works, what it means for your retirement, and why financial planners call it the most underutilized feature in home equity lending.
+          Your unused HECM credit line grows every month—compounding like an investment but without market risk. At current 2026 growth rates of 7.00% to 8.25%, a $200,000 credit line doubles in approximately 9 to 10 years without borrowing a single dollar. Here is exactly how the growth mechanism works, what it means for your retirement security, and why financial planners increasingly call it the most underutilized feature in home equity lending for seniors 62 and older.
         </p>
-        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 2026</p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
 
@@ -887,13 +901,15 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
           <li><Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors: Which Is Better?</Link></li>
           <li><Link href="/blog/when-not-to-get-reverse-mortgage-2026" className="text-blue-600 hover:underline">When NOT to Get a Reverse Mortgage</Link></li>
           <li><Link href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage California: State Guide</Link></li>
+          <li><Link href="/blog/reverse-mortgage-pros-cons-2026" className="text-blue-600 hover:underline">Reverse Mortgage Pros &amp; Cons: Complete Analysis</Link></li>
+          <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements: Complete 2026 Guide</Link></li>
         </ul>
       </section>
 
       <footer className="mt-12 pt-8 border-t border-gray-200">
         <div className="bg-gray-100 p-6 rounded-lg">
           <p className="text-sm text-gray-600">
-            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending NMLS #2716106<br />
+            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443<br />
             <br />
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Reverse mortgage borrowers must be 62 or older and complete HUD-approved counseling. This is not a commitment to lend. Growth rate projections are illustrative and based on assumed constant rates; actual growth rates on variable-rate HECMs fluctuate with market conditions. Past growth rates do not guarantee future results. Information provided is for educational purposes only and does not constitute financial advice. Consult with a licensed mortgage professional and financial advisor for personalized guidance.
           </p>

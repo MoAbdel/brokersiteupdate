@@ -6,17 +6,17 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026] | Mo Abdel',
-  description: 'DSCR loans for portfolio investors scaling to 10+ properties in 2026. Blanket loans, entity structuring, 1031 exchange strategies, and wholesale rates from 100+ lenders. NMLS #1426884.',
+  description: 'DSCR loans for portfolio investors scaling to 10+ properties in 2026. Blanket loans, entity structuring, 1031 exchange strategies, and wholesale rates from 200+ lenders. NMLS #1426884.',
   keywords: ['dscr loan portfolio investor', 'DSCR loans multiple properties', 'portfolio investor DSCR financing', 'blanket DSCR loan', 'scaling rental portfolio 2026', 'LLC entity structuring DSCR'],
   openGraph: {
     title: 'DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026]',
-    description: 'How portfolio investors use DSCR loans to scale past conventional limits. Blanket loans, entity structuring, 1031 exchanges, and wholesale rate access from 100+ lenders.',
+    description: 'How portfolio investors use DSCR loans to scale past conventional limits. Blanket loans, entity structuring, 1031 exchanges, and wholesale rate access from 200+ lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-16T00:00:00Z',
-    modifiedTime: '2026-02-16T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-16",
-            "dateModified": "2026-02-16",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026",
@@ -151,7 +151,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Portfolio investors who hit the conventional 10-property ceiling face a binary choice: stop acquiring or switch to DSCR financing. According to Mo Abdel, NMLS #1426884, investors who transition to DSCR loans remove every property-count barrier, eliminate personal income documentation, and unlock entity-based vesting for liability protection. In our California and Washington closings, portfolio investors who switch from conventional to DSCR consistently acquire 3-5 additional properties per year that conventional underwriting would have blocked.
+              Portfolio investors who hit the conventional 10-property ceiling face a binary choice: stop acquiring or switch to DSCR financing. With Fannie Mae and Freddie Mac capping conventional investment financing at 10 financed properties per borrower, DSCR loans have become the dominant scaling tool for serious investors. According to Mo Abdel, NMLS #1426884, investors who transition to DSCR loans remove every property-count barrier, eliminate personal income documentation, and unlock entity-based vesting for liability protection. In our California and Washington closings, portfolio investors who switch from conventional to DSCR consistently acquire 3&ndash;5 additional properties per year that conventional underwriting would have blocked &mdash; with wholesale rate spreads saving five figures annually across a 15+ property portfolio.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -297,7 +297,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic">
-            Rates, terms, and qualification requirements vary by lender. Rental income projections are estimates and actual income may vary. This comparison reflects typical market ranges in February 2026.
+            Rates, terms, and qualification requirements vary by lender. Rental income projections are estimates and actual income may vary. This comparison reflects typical market ranges as of February 22, 2026.
           </p>
         </section>
 
@@ -406,7 +406,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-purple-600 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Engage a Wholesale Mortgage Broker</h4>
-                  <p className="text-slate-600">A wholesale broker compares DSCR programs from 100+ lenders simultaneously. For portfolio investors, this means identifying lenders with no property-count rate adjustments, favorable reserve policies, and entity-friendly underwriting.</p>
+                  <p className="text-slate-600">A wholesale broker compares DSCR programs from 200+ lenders simultaneously. For portfolio investors, this means identifying lenders with no property-count rate adjustments, favorable reserve policies, and entity-friendly underwriting.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -613,7 +613,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               <div>
                 <p className="text-sm font-medium text-slate-700 mb-2">Rate &amp; Pricing Benefits:</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>&bull; Compare DSCR rates from 100+ lenders per deal</li>
+                  <li>&bull; Compare DSCR rates from 200+ lenders per deal</li>
                   <li>&bull; Identify lenders with no property-count rate adjustments</li>
                   <li>&bull; Access volume-based relationship pricing</li>
                   <li>&bull; Negotiate prepayment penalty structures per property</li>
@@ -703,7 +703,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             Expert Summary: Scale Your Portfolio with Wholesale DSCR Access
           </h2>
           <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
-            Portfolio investors who rely on conventional financing hit predictable walls at the 10-property limit and DTI ceiling. DSCR loans remove both barriers while adding entity vesting, unlimited property counts, and no personal income documentation. The difference between retail and wholesale DSCR access is the difference between one lender&apos;s terms and the best terms from 100+ lenders.
+            Portfolio investors who rely on conventional financing hit predictable walls at the 10-property limit and DTI ceiling. DSCR loans remove both barriers while adding entity vesting, unlimited property counts, and no personal income documentation. The difference between retail and wholesale DSCR access is the difference between one lender&apos;s terms and the best terms from 200+ lenders.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             Mo Abdel at Lumin Lending structures DSCR portfolio financing across California and Washington, matching each property in your portfolio with the lender offering the most competitive rate, reserves policy, and entity-friendly underwriting. Whether you own 5 properties or 50, wholesale DSCR access makes every acquisition more efficient.
@@ -744,6 +744,12 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </Link>
             <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Investment Property Loans 2026
+            </Link>
+            <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loan Calculator &amp; Ratio Guide
+            </Link>
+            <Link href="/blog/fix-and-flip-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Fix-and-Flip Loans: Wholesale Broker Guide
             </Link>
           </div>
         </section>

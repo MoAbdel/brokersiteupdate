@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-14T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -121,7 +121,7 @@ export default function HomeEquityWineCountry2026() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-14',
-    dateModified: '2026-02-14',
+    dateModified: '2026-02-22',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-wine-country-2026',
     about: [
       { '@type': 'FinancialProduct', name: 'Home Equity Line of Credit (HELOC)' },
@@ -254,19 +254,25 @@ export default function HomeEquityWineCountry2026() {
             Wine Country Home Equity 2026: HELOC, HELOAN &amp; Cash-Out Refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa &amp; Yountville
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | Updated February 14, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for Sonoma &amp; Napa County vineyard estates | Licensed in CA &amp; WA
           </p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Wine Country homeowners across Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $850K in Napa to $2.2 million in St. Helena, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 200+ lenders &mdash; including specialists in vineyard collateral, seasonal hospitality income, and agricultural-residential hybrid properties.
+              Wine Country homeowners across Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026, according to county assessor records and MLS data. With median values ranging from $850K in Napa to $2.2 million in St. Helena, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 200+ lenders &mdash; including specialists in vineyard collateral, seasonal hospitality income, and agricultural-residential hybrid properties.
             </p>
           </div>
 
@@ -1179,6 +1185,8 @@ export default function HomeEquityWineCountry2026() {
               <li><Link href="/blog/heloc-complete-guide-2026" className="text-blue-700 underline">HELOC Complete Guide 2026</Link></li>
               <li><Link href="/blog/when-to-refinance-2026" className="text-blue-700 underline">When to Refinance 2026</Link></li>
               <li><Link href="/blog/refinance-closing-costs-2026" className="text-blue-700 underline">Refinance Closing Costs 2026</Link></li>
+              <li><Link href="/blog/home-equity-marin-county-guide-2026" className="text-blue-700 underline">Marin County Home Equity Guide 2026</Link> &mdash; Neighboring Wine Country region</li>
+              <li><Link href="/blog/home-equity-tax-deduction-2026" className="text-blue-700 underline">Home Equity Tax Deduction Guide 2026</Link></li>
             </ul>
           </div>
 

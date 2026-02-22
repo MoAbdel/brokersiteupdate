@@ -33,7 +33,7 @@ export default function RefinanceClosingCostsPage() {
               "name": "Lumin Lending, Inc."
             },
             "datePublished": "2026-01-31",
-            "dateModified": "2026-01-31"
+            "dateModified": "2026-02-22"
           })
         }}
       />
@@ -83,6 +83,38 @@ export default function RefinanceClosingCostsPage() {
                   "@type": "Answer",
                   "text": "Compare quotes from multiple lenders, negotiate fees, ask about lender credits, consider no-closing-cost options, and shop for title insurance. Working with a wholesale broker who can compare across many lenders often reveals the best overall cost structure."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does a refinance take to close?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A standard rate-and-term refinance typically closes in 30-45 days from application. Cash-out refinances may take 35-50 days. Streamline refinances (FHA or VA) can close in as few as 15-21 days. Wholesale broker submissions often close faster due to streamlined processing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are refinance closing costs the same as purchase closing costs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Refinance closing costs are generally lower than purchase closing costs because there is no transfer tax, no real estate commission, and typically a lower title insurance premium (reissue rate). Expect refinance costs to run 2-5% of the loan amount compared to 3-6% for a purchase."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need a new appraisal for a refinance?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Most refinances require a new appraisal costing $400-$700. However, FHA Streamline and VA Interest Rate Reduction Refinance Loans (IRRRLs) often waive the appraisal requirement. Some conventional lenders also offer appraisal waivers for borrowers with strong equity positions and credit profiles."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the break-even point on refinance closing costs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The break-even point is when your monthly savings from the new rate equal the total closing costs paid. Divide total closing costs by monthly payment savings to find the number of months. If it takes 24 months to break even and you plan to stay at least 5 years, the refinance makes financial sense."
+                }
               }
             ]
           })
@@ -94,14 +126,21 @@ export default function RefinanceClosingCostsPage() {
           Refinance Closing Costs Explained: Fees & Costs [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          Understanding every fee you'll pay when refinancing
+          Understanding every fee you&apos;ll pay when refinancing &mdash; and how California and Washington homeowners can save thousands through wholesale broker comparison
         </p>
+        <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
+          <span>By Mo Abdel, NMLS #1426884</span>
+          <span>|</span>
+          <span>Updated February 22, 2026</span>
+          <span>|</span>
+          <span>Lumin Lending, NMLS #2716106</span>
+        </div>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. Understanding each fee helps you compare offers and potentially negotiate savings.
+            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. According to the Mortgage Bankers Association, <strong>refinance originations represented 28% of all mortgage volume in Q4 2025</strong>, and borrowers who compared quotes from three or more lenders saved an average of $1,200 in closing costs. Understanding each fee line item empowers you to negotiate, shop title insurance, and choose between rolling costs into the loan or paying upfront.
           </p>
         </div>
 
@@ -330,20 +369,44 @@ export default function RefinanceClosingCostsPage() {
           Compare quotes from multiple lenders, negotiate fees, ask about lender credits, consider no-closing-cost options, and shop for title insurance. Working with a wholesale broker who can compare across many lenders often reveals the best overall cost structure.
         </p>
 
+        <h3>How long does a refinance take to close?</h3>
+        <p>
+          A standard rate-and-term refinance typically closes in 30-45 days from application. Cash-out refinances may take 35-50 days. Streamline refinances (FHA or VA) can close in as few as 15-21 days. Wholesale broker submissions often close faster due to streamlined processing.
+        </p>
+
+        <h3>Are refinance closing costs the same as purchase closing costs?</h3>
+        <p>
+          Refinance closing costs are generally lower than purchase closing costs because there is no transfer tax, no real estate commission, and typically a lower title insurance premium (reissue rate). Expect refinance costs to run 2-5% of the loan amount compared to 3-6% for a purchase.
+        </p>
+
+        <h3>Do I need a new appraisal for a refinance?</h3>
+        <p>
+          Most refinances require a new appraisal costing $400-$700. However, FHA Streamline and VA Interest Rate Reduction Refinance Loans (IRRRLs) often waive the appraisal requirement. Some conventional lenders also offer appraisal waivers for borrowers with strong equity positions and credit profiles.
+        </p>
+
+        <h3>What is the break-even point on refinance closing costs?</h3>
+        <p>
+          The break-even point is when your monthly savings from the new rate equal the total closing costs paid. Divide total closing costs by monthly payment savings to find the number of months. If it takes 24 months to break even and you plan to stay at least 5 years, the refinance makes financial sense.
+        </p>
+
         <div className="bg-gray-50 p-6 rounded-xl my-8">
           <h3 className="mt-0">Related Resources</h3>
           <ul>
-            <li><a href="/blog/when-to-refinance-2026">When to Refinance</a></li>
-            <li><a href="/blog/cash-out-refinance-how-it-works-2026">Cash-Out Refinance Guide</a></li>
-            <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity & Refinancing Guide</a></li>
-            <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank</a></li>
+            <li><a href="/blog/when-to-refinance-2026">When to Refinance: Timing Your Rate Decision</a></li>
+            <li><a href="/blog/cash-out-refinance-how-it-works-2026">Cash-Out Refinance: How It Works</a></li>
+            <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity &amp; Refinancing Complete Guide</a></li>
+            <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank: Why Brokers Win</a></li>
+            <li><a href="/blog/refinance-credit-requirements-2026">Refinance Credit Score Requirements</a></li>
+            <li><a href="/blog/refinance-debt-consolidation-2026">Refinance for Debt Consolidation</a></li>
+            <li><a href="/blog/cash-out-vs-regular-refinance-2026">Cash-Out vs Regular Refinance Comparison</a></li>
+            <li><a href="/blog/heloan-vs-cash-out-refinance-2026">HELOAN vs Cash-Out Refinance</a></li>
           </ul>
         </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA
+            Licensed in: CA, WA | <a href="tel:9498229662">(949) 822-9662</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

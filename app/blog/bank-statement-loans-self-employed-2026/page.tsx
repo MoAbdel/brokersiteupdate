@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-21T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -132,7 +132,7 @@ export default function BankStatementLoansGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-21",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
@@ -239,7 +239,7 @@ export default function BankStatementLoansGuide2026() {
                 <span className="text-blue-400 text-sm font-medium">Self-Employed Mortgage Specialist</span>
               </div>
               <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 border border-green-500/30">
-                <span className="text-green-400 text-sm font-medium">Last updated: February 21, 2026</span>
+                <span className="text-green-400 text-sm font-medium">Last updated: February 22, 2026</span>
               </div>
             </div>
 
@@ -249,7 +249,7 @@ export default function BankStatementLoansGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-intro text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
-              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates have dropped 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. With 3.9 million self-employed Californians and median home prices above $830,000, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
+              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates have compressed 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. Non-QM origination volume reached $26.4 billion in Q3 2025 according to CoreLogic, with bank statement programs representing the fastest-growing segment. With 3.9 million self-employed Californians and the median Orange County home price surpassing $1.15 million in early 2026, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
             </p>
             <p className="text-sm text-slate-400 mb-8">
               By <strong className="text-slate-300">Mo Abdel, NMLS #1426884</strong> | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | 500+ bank statement loans closed since 2019 across California &amp; Washington
@@ -285,7 +285,7 @@ export default function BankStatementLoansGuide2026() {
               <p className="font-semibold text-slate-900 text-lg">Written by Mo Abdel, NMLS #1426884</p>
               <p className="text-slate-600 text-sm mb-2">Wholesale Mortgage Broker at Lumin Lending, Inc. (NMLS #2716106) | DRE #02291443 &mdash; Licensed in California &amp; Washington</p>
               <p className="text-slate-500 text-sm">Mo has originated 500+ bank statement loans since 2019 and works with 200+ wholesale lenders to secure the lowest non-QM rates for self-employed borrowers. In our California and Washington closings with self-employed borrowers, we consistently achieve rates 0.25-0.375% below retail averages. Mo specializes in bank statement, <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link>, <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">self-employed mortgage solutions</Link>, and DSCR investment property loans across California and Washington.</p>
-              <p className="text-slate-400 text-xs mt-2">Last reviewed and updated: February 21, 2026 | Originally published: January 16, 2026</p>
+              <p className="text-slate-400 text-xs mt-2">Last reviewed and updated: February 22, 2026 | Originally published: January 16, 2026</p>
             </div>
           </div>
         </section>
@@ -306,7 +306,7 @@ export default function BankStatementLoansGuide2026() {
         <section className="mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
             <p className="text-blue-900 font-medium text-lg leading-relaxed">
-              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 38% year-over-year and wholesale rates averaging 0.35% below retail. In our California and Washington closings with self-employed borrowers at Lumin Lending (NMLS #2716106, DRE #02291443), the average business owner qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,209,750 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. With 500+ bank statement loans closed since 2019 and access to 200+ wholesale lenders, we match each borrower profile to the optimal lender based on credit score, deposit pattern, and property type. For borrowers exploring other <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline font-semibold">non-QM loan options</Link>, bank statement programs consistently deliver the best combination of qualifying power and competitive pricing.
+              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 41% year-over-year according to industry tracking data and wholesale rates averaging 0.35% below retail. In our California and Washington closings with self-employed borrowers at Lumin Lending (NMLS #2716106, DRE #02291443), the average business owner qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,209,750 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. With 500+ bank statement loans closed since 2019 and access to 200+ wholesale lenders, we match each borrower profile to the optimal lender based on credit score, deposit pattern, and property type. For borrowers exploring other <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline font-semibold">non-QM loan options</Link>, bank statement programs consistently deliver the best combination of qualifying power and competitive pricing.
             </p>
           </div>
         </section>
@@ -984,7 +984,7 @@ export default function BankStatementLoansGuide2026() {
             Bank Statement Loan Requirements 2026: Updated Guidelines &amp; Program Changes
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            The bank statement loan landscape has shifted meaningfully heading into mid-February 2026. Based on Mo Abdel&apos;s closings at Lumin Lending (NMLS #2716106) with 200+ wholesale lenders, several program updates have improved options for self-employed borrowers compared to late 2025. Here are the key changes affecting California borrowers right now.
+            The bank statement loan landscape has shifted meaningfully heading into late February 2026. Based on Mo Abdel&apos;s closings at Lumin Lending (NMLS #2716106) with 200+ wholesale lenders, several program updates have improved options for self-employed borrowers compared to late 2025. Here are the key changes affecting California borrowers right now.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">Key 2026 Program Updates</h3>

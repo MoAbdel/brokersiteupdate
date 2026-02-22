@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-12T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026',
@@ -102,7 +104,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-12',
-            dateModified: '2026-02-12',
+            dateModified: '2026-02-22',
             description: 'Complete reverse mortgage guide for San Francisco, Piedmont, Orinda, Lafayette, and Moraga seniors covering HECM and proprietary jumbo options for urban luxury condos and Lamorinda hilltop estates.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -224,7 +226,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           <p className="text-lg text-gray-600 mb-2">
             HECM and jumbo reverse mortgage options for urban luxury condos and Lamorinda hilltop estates &mdash; homes $1.5M&ndash;$2.5M+
           </p>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
         </header>
 
           <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -244,7 +246,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>72,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$94 billion in home equity</strong>, based on 2026 county assessor data and U.S. Census demographic projections. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3 million Pacific Heights condo with TIC conversion complications to a $2.5 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>72,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$94 billion in home equity</strong>, based on 2026 county assessor data and U.S. Census demographic projections. Nationally, reverse mortgage endorsements rose in the second half of 2025 as seniors increasingly sought alternatives to selling their homes amid high housing costs. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. Bay Area home values appreciated an average of <strong>3.5% year-over-year through Q4 2025</strong>, further widening the gap between actual property values and the HECM cap. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3 million Pacific Heights condo with TIC conversion complications to a $2.5 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
             </p>
           </div>
 
@@ -840,6 +842,9 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/hecm-for-purchase-2026" className="text-blue-700 underline">HECM for Purchase: Buy a Home with a Reverse Mortgage</a></li>
+              <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-700 underline">Reverse Mortgage &amp; Inheritance: What Heirs Need to Know</a></li>
+              <li><a href="/blog/hecm-counseling-requirements-2026" className="text-blue-700 underline">HECM Counseling Requirements: What to Expect</a></li>
             </ul>
           </div>
 

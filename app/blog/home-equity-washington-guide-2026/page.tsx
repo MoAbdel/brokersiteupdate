@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-06T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
@@ -39,7 +41,7 @@ export default function HomeEquityWashingtonGuide() {
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-06',
-    dateModified: '2026-02-06',
+    dateModified: '2026-02-22',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
   };
 
@@ -175,12 +177,12 @@ export default function HomeEquityWashingtonGuide() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Home Equity Washington Guide: HELOC, HELOAN &amp; Cash-Out [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
         </header>
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Washington State homeowners are sitting on an extraordinary amount of home equity. With statewide median home values exceeding $640,000 and Seattle-area properties averaging well above $1 million, Washington residents have accumulated hundreds of billions in tappable equity through years of sustained appreciation. Whether you need to renovate, consolidate debt, fund education, invest in a business, or create a financial safety net, three primary products let you convert that equity into usable capital: HELOCs, home equity loans (HELOANs), and cash-out refinances. As a wholesale mortgage broker licensed in Washington, I compare rates and programs from over 200 lenders to find the best home equity solution for each borrower&apos;s situation.
+            Washington State homeowners hold an estimated <strong>$180 billion+ in tappable home equity</strong>&mdash;the largest equity reserve in the Pacific Northwest. With statewide median home values exceeding $640,000, Seattle-area properties averaging well above $1 million, and the Washington Center for Real Estate Research reporting 4.2% year-over-year appreciation statewide through Q4 2025, equity positions continue to grow. Combined with Washington&rsquo;s zero state income tax&mdash;meaning returns from equity-funded investments face no state-level taxation&mdash;the state offers one of the most favorable environments in the country for strategic equity deployment. Three primary products let homeowners convert that equity into usable capital: HELOCs, home equity loans (HELOANs), and cash-out refinances. As a wholesale mortgage broker licensed in Washington, I compare rates and programs from over 200 lenders to find the best home equity solution for each borrower&apos;s situation.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -771,7 +773,26 @@ export default function HomeEquityWashingtonGuide() {
                   South Sound: Gig Harbor, Maple Valley, University Place, Bonney Lake
                 </a>
               </li>
+              <li>
+                <a href="/blog/home-equity-urban-seattle-premium-2026" className="text-blue-600 hover:text-blue-800 font-medium">
+                  Urban Seattle Premium: Capitol Hill, Queen Anne, Magnolia, Madison Park
+                </a>
+              </li>
+              <li>
+                <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
+                  California Home Equity Guide: Compare WA vs. CA Equity Strategies
+                </a>
+              </li>
             </ul>
+          </div>
+
+          <div className="bg-gray-100 p-4 rounded-lg mt-8">
+            <p className="text-xs text-gray-500 mb-2">
+              <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | Licensed in CA &amp; WA
+            </p>
+            <p className="text-xs text-gray-500">
+              Equal Housing Lender. This is not a commitment to lend. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. Information is for educational purposes only and does not constitute financial or tax advice. HELOC, HELOAN, and cash-out refinance rates and terms vary by lender, credit profile, and property characteristics. Tax deductibility of interest depends on use of funds&mdash;consult your tax advisor. Equity estimates are illustrative and based on market data; actual equity access requires property appraisal and lender approval. Contact a licensed loan officer for personalized guidance.
+            </p>
           </div>
 
         </section>

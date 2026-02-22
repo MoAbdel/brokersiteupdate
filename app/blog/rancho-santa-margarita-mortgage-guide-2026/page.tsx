@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-20T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106' }],
 };
@@ -132,7 +132,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-20",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
@@ -253,7 +253,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               <span className="text-green-400 text-sm font-medium">Rancho Santa Margarita Mortgage Broker &middot; Lumin Lending NMLS #2716106</span>
             </div>
 
-            <p className="text-slate-400 text-sm mb-4">Last updated: February 20, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
+            <p className="text-slate-400 text-sm mb-4">Last updated: February 22, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates &amp; Neighborhood Guide
@@ -261,7 +261,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-summary text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $850,000 median home price sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25-0.5% below every retail bank in the area &mdash; saving RSM families $150-$300 per month from day one.
+              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $850,000 median home price sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. With 4.2% annual appreciation over the past 5 years and inventory averaging 18&ndash;22 days on market in Q1 2026, RSM remains one of South Orange County&apos;s strongest family markets. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25&ndash;0.5% below every retail bank in the area &mdash; saving RSM families $150&ndash;$300 per month from day one.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -1223,7 +1223,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p>
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 20, 2026.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 22, 2026.
           </p>
         </section>
       </article>

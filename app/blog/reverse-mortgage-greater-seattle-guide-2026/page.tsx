@@ -55,7 +55,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-08',
-    dateModified: '2026-02-08',
+    dateModified: '2026-02-22',
     description: 'Comprehensive reverse mortgage guide for Greater Seattle covering HECM, jumbo reverse, and HECM for Purchase across urban and suburban King County.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-greater-seattle-guide-2026',
     about: [
@@ -68,7 +68,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
   const faqData = [
     {
       question: 'What is the HECM lending limit for Greater Seattle in 2026?',
-      answer: 'The 2026 HECM lending limit is $1,149,825 nationwide, including all of King County and Greater Seattle. This is the maximum home value used to calculate your reverse mortgage proceeds. Homes valued above this limit are capped at $1,149,825 for HECM calculations, though jumbo reverse mortgage products access equity on homes valued up to $10 million or more.',
+      answer: 'The 2026 HECM lending limit is $1,209,750 nationwide, including all of King County and Greater Seattle. This is the maximum home value used to calculate your reverse mortgage proceeds. Homes valued above this limit are capped at $1,209,750 for HECM calculations, though jumbo reverse mortgage products access equity on homes valued up to $10 million or more.',
     },
     {
       question: 'Can I get a reverse mortgage on a Seattle condo?',
@@ -76,11 +76,11 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
     },
     {
       question: 'How much money can I get from a reverse mortgage in Seattle?',
-      answer: 'Reverse mortgage proceeds depend on your age, home value (up to the $1,149,825 HECM limit), current interest rates, and existing mortgage balance. A 72-year-old Seattle homeowner with an $850,000 home and no existing mortgage typically accesses $380,000-$440,000 through a HECM. Younger borrowers at age 62 access less (approximately 40-45% of home value), while older borrowers at age 80+ access more (approximately 60-65%).',
+      answer: 'Reverse mortgage proceeds depend on your age, home value (up to the $1,209,750 HECM limit), current interest rates, and existing mortgage balance. A 72-year-old Seattle homeowner with an $850,000 home and no existing mortgage typically accesses $380,000-$440,000 through a HECM. Younger borrowers at age 62 access less (approximately 40-45% of home value), while older borrowers at age 80+ access more (approximately 60-65%).',
     },
     {
       question: 'Do I have to pay monthly mortgage payments with a reverse mortgage?',
-      answer: 'No. Reverse mortgages eliminate monthly mortgage payments entirely. You remain responsible for property taxes, homeowners insurance, and basic home maintenance. This is the core benefit for Greater Seattle seniors living on fixed incomes in high-value homes: converting home equity into tax-free cash without creating a monthly payment obligation.',
+      answer: 'No. Reverse mortgages eliminate monthly mortgage payments entirely. You remain responsible for property taxes, homeowners insurance, and basic home maintenance. This is the core benefit for Greater Seattle seniors living on fixed incomes in high-value homes: converting home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without creating a monthly payment obligation.',
     },
     {
       question: 'What happens to my Seattle home when I pass away or move out?',
@@ -96,15 +96,15 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
     },
     {
       question: 'What is the difference between a HECM and a jumbo reverse mortgage?',
-      answer: 'A HECM is FHA-insured with a 2026 lending limit of $1,149,825, requires HUD-approved counseling, and offers FHA protections including non-recourse guarantees. A jumbo reverse mortgage is a private (proprietary) product with no FHA cap, accessing equity on homes valued at $1.5M to $10M+. Jumbo products do not require HUD counseling but lack FHA insurance protections. Seattle homeowners with properties above $1.15M benefit from jumbo products.',
+      answer: 'A HECM is FHA-insured with a 2026 lending limit of $1,209,750, requires HUD-approved counseling, and offers FHA protections including non-recourse guarantees. A jumbo reverse mortgage is a private (proprietary) product with no FHA cap, accessing equity on homes valued at $1.5M to $10M+. Jumbo products do not require HUD counseling but lack FHA insurance protections. Seattle homeowners with properties above $1.15M benefit from jumbo products.',
     },
     {
       question: 'How does Washington State tax treatment affect reverse mortgages?',
-      answer: 'Washington State has no state income tax, which means reverse mortgage proceeds (already tax-free at the federal level since they are loan advances, not income) face zero state taxation as well. Additionally, any investment returns generated by deploying reverse mortgage proceeds face no state income tax. This creates a double tax advantage for Greater Seattle seniors compared to seniors in states like California or Oregon.',
+      answer: 'Washington State has no state income tax, which means reverse mortgage proceeds (already not considered taxable income at the federal level since they are loan advances, not income) face zero state taxation as well. Additionally, any investment returns generated by deploying reverse mortgage proceeds face no state income tax. This creates a double tax advantage for Greater Seattle seniors compared to seniors in states like California or Oregon.',
     },
     {
       question: 'Can I get a reverse mortgage on a Bainbridge Island home?',
-      answer: 'Yes. Bainbridge Island homes qualify for both HECM and jumbo reverse mortgages. With a median home value of $1,300,000, most Bainbridge Island homeowners benefit from jumbo reverse products that access equity above the $1,149,825 HECM cap. Single-family homes, townhomes, and approved condos all qualify. The island lifestyle makes reverse mortgages especially attractive for retirees who want to age in place.',
+      answer: 'Yes. Bainbridge Island homes qualify for both HECM and jumbo reverse mortgages. With a median home value of $1,300,000, most Bainbridge Island homeowners benefit from jumbo reverse products that access equity above the $1,209,750 HECM cap. Single-family homes, townhomes, and approved condos all qualify. The island lifestyle makes reverse mortgages especially attractive for retirees who want to age in place.',
     },
     {
       question: 'What are the closing costs for a reverse mortgage in King County?',
@@ -186,12 +186,24 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             Greater Seattle Reverse Mortgage: Urban &amp; Suburban King County HECM Guide [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 8, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HECM, jumbo reverse &amp; HECM for Purchase across Seattle &amp; King County | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -199,7 +211,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-blue-900 mb-2">Greater Seattle Reverse Mortgage Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
-              <li>2026 HECM lending limit: $1,149,825 &mdash; the highest in program history, covering most Greater Seattle single-family homes</li>
+              <li>2026 HECM lending limit: $1,209,750 &mdash; the highest in program history, covering most Greater Seattle single-family homes</li>
               <li>Approximately 142,000 King County homeowners are age 62+ with median home equity exceeding $550,000 &mdash; making them eligible for HECM reverse mortgages</li>
               <li>Washington State has no state income tax, meaning reverse mortgage proceeds and any returns from deployed funds face zero state taxation</li>
               <li>Seattle condo reverse mortgages are available through FHA-approved buildings and Single Unit Approval (SUA) for non-approved complexes</li>
@@ -208,7 +220,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Greater Seattle seniors own some of the most valuable residential real estate in the Pacific Northwest. From Queen Anne Victorians and Capitol Hill craftsman homes to Bainbridge Island waterfront estates and Snoqualmie mountain-view properties, King County homeowners age 62 and older sit on substantial home equity that a reverse mortgage converts into tax-free retirement funding &mdash; all without monthly mortgage payments. As a wholesale mortgage broker with access to over 200 lenders, I help Greater Seattle seniors compare HECM, jumbo reverse mortgage, and HECM for Purchase products to find the optimal program for their specific property, age, and financial goals.
+            Greater Seattle seniors own some of the most valuable residential real estate in the Pacific Northwest. With an estimated 142,000 King County homeowners aged 62 and older holding a combined $78 billion in residential equity, the Greater Seattle area represents Washington State&apos;s largest reverse mortgage opportunity. From Queen Anne Victorians and Capitol Hill craftsman homes to Bainbridge Island waterfront estates and Snoqualmie mountain-view properties, King County homeowners age 62 and older sit on substantial home equity that a reverse mortgage converts into retirement loan proceeds &mdash; all without monthly mortgage payments. As a wholesale mortgage broker with access to over 200 lenders, I help Greater Seattle seniors compare HECM, jumbo reverse mortgage, and HECM for Purchase products to find the optimal program for their specific property, age, and financial goals.
           </p>
 
           <p>
@@ -219,7 +231,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           <div className="bg-gray-50 p-6 rounded-lg my-8 border border-gray-200">
             <h2 className="text-xl font-bold mb-3">Greater Seattle Reverse Mortgage at a Glance</h2>
             <ul className="space-y-2">
-              <li><strong>HECM limit (2026):</strong> $1,149,825 &mdash; covers homes valued up to this amount for calculation purposes</li>
+              <li><strong>HECM limit (2026):</strong> $1,209,750 &mdash; covers homes valued up to this amount for calculation purposes</li>
               <li><strong>Minimum age:</strong> 62 years old (youngest borrower on title)</li>
               <li><strong>Monthly payments:</strong> None required &mdash; property taxes, insurance, and maintenance remain your responsibility</li>
               <li><strong>Seattle condos:</strong> Eligible through FHA-approved buildings or Single Unit Approval process</li>
@@ -248,9 +260,9 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Max Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$4M-$10M+ (varies by lender)</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">FHA Insured</td>
@@ -299,7 +311,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           </div>
 
           <p>
-            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The 2026 HECM limit of $1,149,825 covers the majority of Greater Seattle single-family homes. For Seattle seniors in neighborhoods like Ballard ($850K median), Shoreline ($750K), and Kenmore ($900K), a standard HECM provides full equity access. Bainbridge Island ($1.3M median), Queen Anne ($1.2M+), and Magnolia ($1.1M+) homeowners benefit from jumbo reverse products that access equity above the HECM cap. As a wholesale broker, I present both HECM and jumbo options side-by-side so you can compare total proceeds, costs, and protections before choosing.
+            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The 2026 HECM limit of $1,209,750 covers the majority of Greater Seattle single-family homes. For Seattle seniors in neighborhoods like Ballard ($850K median), Shoreline ($750K), and Kenmore ($900K), a standard HECM provides full equity access. Bainbridge Island ($1.3M median), Queen Anne ($1.2M+), and Magnolia ($1.1M+) homeowners benefit from jumbo reverse products that access equity above the HECM cap. As a wholesale broker, I present both HECM and jumbo options side-by-side so you can compare total proceeds, costs, and protections before choosing.
           </p>
 
           {/* City/Neighborhood Table */}
@@ -408,7 +420,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold">Scenario 1: Queen Anne Victorian &mdash; Eliminating Existing Mortgage</h4>
-                <p className="text-sm mt-1">A 68-year-old retired Boeing engineer owns a Queen Anne Victorian valued at $1.25M with a remaining $180,000 mortgage. A HECM reverse mortgage (capped at $1,149,825 value) eliminates the $1,400/month mortgage payment and provides an additional $180,000 credit line for home maintenance and retirement expenses. Monthly cash flow improves by $1,400 immediately, with a growing credit line available for future needs. Washington&apos;s zero income tax means every dollar of freed-up cash flow retains its full value.</p>
+                <p className="text-sm mt-1">A 68-year-old retired Boeing engineer owns a Queen Anne Victorian valued at $1.25M with a remaining $180,000 mortgage. A HECM reverse mortgage (capped at $1,209,750 value) eliminates the $1,400/month mortgage payment and provides an additional $180,000 credit line for home maintenance and retirement expenses. Monthly cash flow improves by $1,400 immediately, with a growing credit line available for future needs. Washington&apos;s zero income tax means every dollar of freed-up cash flow retains its full value.</p>
               </div>
               <div>
                 <h4 className="font-semibold">Scenario 2: Bainbridge Island Waterfront &mdash; Jumbo Reverse for Estate Planning</h4>
@@ -452,7 +464,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           {/* Washington State Tax Advantage */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Washington State Zero-Income-Tax Advantage for Reverse Mortgage Borrowers</h2>
           <p>
-            Washington State&apos;s absence of state income tax creates a compounding advantage for reverse mortgage borrowers that sets Greater Seattle seniors apart from counterparts in Oregon (up to 9.9% state tax) and California (up to 13.3%). Reverse mortgage proceeds are already tax-free at the federal level because they are loan advances rather than income. Washington&apos;s zero state tax creates an additional layer of protection.
+            Washington State&apos;s absence of state income tax creates a compounding advantage for reverse mortgage borrowers that sets Greater Seattle seniors apart from counterparts in Oregon (up to 9.9% state tax) and California (up to 13.3%). Reverse mortgage proceeds are already not considered taxable income at the federal level because they are loan advances rather than income. Washington&apos;s zero state tax creates an additional layer of protection.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -670,7 +682,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           </div>
 
           <p>
-            For the complete Washington State overview, visit our <a href="/blog/reverse-mortgage-washington-guide-2026" className="text-blue-600 hover:underline">Washington State Reverse Mortgage Guide</a>. Seniors also exploring traditional equity options should review our <a href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs. HELOC for Seniors comparison</a> and <a href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:underline">HECM Pros and Cons guide</a>.
+            For the complete Washington State overview, visit our <a href="/blog/reverse-mortgage-washington-guide-2026" className="text-blue-600 hover:underline">Washington State Reverse Mortgage Guide</a>. Seniors also exploring traditional equity options should review our <a href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs. HELOC for Seniors comparison</a>, <a href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:underline">HECM Pros and Cons guide</a>, and <a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage Complete Guide 2026</a>. For those considering using proceeds strategically, see our <a href="/blog/reverse-mortgage-line-of-credit-growth-2026" className="text-blue-600 hover:underline">Reverse Mortgage Line of Credit Growth guide</a>.
           </p>
 
           {/* The Reverse Mortgage Process */}
@@ -723,7 +735,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">HECM + Jumbo Access</h3>
-              <p>Bainbridge Island and premium Seattle neighborhoods require jumbo reverse products that most HECM-only lenders do not offer. A wholesale broker provides side-by-side HECM and jumbo comparisons, ensuring high-value homeowners understand both options. This is essential for properties valued above $1,149,825 where HECM proceeds are capped.</p>
+              <p>Bainbridge Island and premium Seattle neighborhoods require jumbo reverse products that most HECM-only lenders do not offer. A wholesale broker provides side-by-side HECM and jumbo comparisons, ensuring high-value homeowners understand both options. This is essential for properties valued above $1,209,750 where HECM proceeds are capped.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Condo Approval Expertise</h3>
@@ -751,7 +763,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgages in Greater Seattle</h2>
             <p className="text-slate-900 mb-3">
-              Greater Seattle&apos;s 142,000+ eligible senior homeowners hold over $78 billion in residential equity &mdash; the largest reverse mortgage opportunity in Washington State. The 2026 HECM limit of $1,149,825 covers most King County single-family homes, while jumbo reverse products serve Bainbridge Island and premium Seattle neighborhoods where values exceed the FHA cap. Washington&apos;s zero state income tax creates a compounding advantage that saves seniors $20,000-$60,000 over a 15-year period compared to high-tax states.
+              Greater Seattle&apos;s 142,000+ eligible senior homeowners hold over $78 billion in residential equity &mdash; the largest reverse mortgage opportunity in Washington State. The 2026 HECM limit of $1,209,750 covers most King County single-family homes, while jumbo reverse products serve Bainbridge Island and premium Seattle neighborhoods where values exceed the FHA cap. Washington&apos;s zero state income tax creates a compounding advantage that saves seniors $20,000-$60,000 over a 15-year period compared to high-tax states.
             </p>
             <p className="text-slate-900 mb-3">
               The Urban Seattle Premium hub (Queen Anne, Magnolia, Capitol Hill, Ballard, West Seattle, Bainbridge Island) offers both HECM and jumbo reverse options for homes ranging from $800,000 to $3,000,000+. The Suburban King County hub (Shoreline, Lake Forest Park, Kenmore, Snoqualmie) provides streamlined single-family home HECM qualification with 30-35 day processing. HECM for Purchase enables urban-to-suburban downsizing without monthly mortgage payments &mdash; a strategy that preserves sale proceeds for retirement while securing a new home.
@@ -779,7 +791,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           {/* Disclaimer */}
           <div className="bg-gray-100 p-4 rounded-lg mt-8">
             <p className="text-sm text-gray-600">
-              Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Reverse mortgage borrowers must maintain property taxes, homeowners insurance, and property maintenance. HECM reverse mortgages are FHA-insured and subject to FHA lending limits and guidelines. The 2026 HECM lending limit is $1,149,825. Jumbo reverse mortgages are proprietary products not insured by FHA. Reverse mortgage proceeds are generally not considered taxable income; consult your tax advisor. Washington State has no state income tax as of 2026; tax laws are subject to change. Non-recourse protection means borrowers and heirs never owe more than the home&apos;s fair market value at the time of repayment. Information is for educational purposes only and does not constitute financial, tax, or legal advice. Estimated proceeds are illustrative; actual amounts depend on borrower age, interest rates, property appraisal, and existing liens. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443.
+              Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Reverse mortgage borrowers must maintain property taxes, homeowners insurance, and property maintenance. HECM reverse mortgages are FHA-insured and subject to FHA lending limits and guidelines. The 2026 HECM lending limit is $1,209,750. Jumbo reverse mortgages are proprietary products not insured by FHA. Reverse mortgage proceeds are generally not considered taxable income; consult your tax advisor. Washington State has no state income tax as of 2026; tax laws are subject to change. Non-recourse protection means borrowers and heirs never owe more than the home&apos;s fair market value at the time of repayment. Information is for educational purposes only and does not constitute financial, tax, or legal advice. Estimated proceeds are illustrative; actual amounts depend on borrower age, interest rates, property appraisal, and existing liens. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443.
             </p>
           </div>
 

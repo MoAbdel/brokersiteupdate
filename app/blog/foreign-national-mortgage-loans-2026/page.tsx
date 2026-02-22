@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Foreign National Mortgage Loans: How Non-US Citizens Buy Property [2026] | Mo Abdel',
-  description: 'Foreign national mortgage loans 2026: How non-US citizens buy property in California and Washington. Visa types, ITIN loans, down payment requirements, documentation guide. Wholesale rates from 100+ lenders. NMLS #1426884.',
+  description: 'Foreign national mortgage loans 2026: How non-US citizens buy property in California and Washington. Visa types, ITIN loans, down payment requirements, documentation guide. Wholesale rates from 200+ lenders. NMLS #1426884.',
   keywords: ['foreign national mortgage loans', 'non-US citizen home loans', 'ITIN mortgage loans 2026', 'foreign national property purchase', 'H-1B visa mortgage', 'non-resident alien home loan', 'foreign buyer mortgage California', 'foreign national mortgage Washington'],
   openGraph: {
     title: 'Foreign National Mortgage Loans: How Non-US Citizens Buy Property [2026]',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-17T00:00:00Z',
-    modifiedTime: '2026-02-17T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function ForeignNationalMortgageLoans2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-17",
-            "dateModified": "2026-02-17",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
@@ -166,7 +166,7 @@ export default function ForeignNationalMortgageLoans2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, foreign nationals purchase billions of dollars in US real estate annually, yet most major banks refuse to offer mortgage programs to non-US citizens. The National Association of Realtors reports that international buyers purchased $42 billion in US residential real estate in the 12-month period ending March 2025, with California and Washington ranking among the top destination states. Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
+              According to Mo Abdel, NMLS #1426884, foreign nationals purchase billions of dollars in US real estate annually, yet most major banks refuse to offer mortgage programs to non-US citizens. The National Association of Realtors reports that international buyers purchased $42 billion in US residential real estate in the 12-month period ending March 2025, a 13% increase from the prior year, with California and Washington ranking among the top destination states. Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -430,7 +430,7 @@ export default function ForeignNationalMortgageLoans2026() {
                 </tr>
                 <tr className="border-b bg-slate-50/50">
                   <td className="p-4 font-medium text-slate-900">Max Loan Amount</td>
-                  <td className="p-4 text-slate-600">$1,266,300 (2026 conforming)</td>
+                  <td className="p-4 text-slate-600">$1,209,750 (2026 conforming)</td>
                   <td className="p-4 text-slate-600">Up to $3-5 million</td>
                   <td className="p-4 text-slate-600">Up to $3-5 million</td>
                 </tr>
@@ -655,7 +655,7 @@ export default function ForeignNationalMortgageLoans2026() {
                 California Foreign National Market
               </h3>
               <ul className="space-y-3 text-slate-600 text-sm">
-                <li><strong>2026 conforming loan limit:</strong> $1,266,300 (high-balance areas). Foreign national non-QM programs go up to $3-5 million.</li>
+                <li><strong>2026 conforming loan limit:</strong> $1,209,750 (high-balance areas). Foreign national non-QM programs go up to $3-5 million.</li>
                 <li><strong>Top international buyer markets:</strong> Los Angeles, Orange County, San Francisco Bay Area, San Diego, Sacramento.</li>
                 <li><strong>Property tax:</strong> California Proposition 13 caps property tax increases at 2% per year on assessed value, benefiting long-term foreign investors.</li>
                 <li><strong>Title holding:</strong> Foreign nationals commonly hold title through an LLC or revocable trust. California allows both.</li>
@@ -670,7 +670,7 @@ export default function ForeignNationalMortgageLoans2026() {
                 Washington Foreign National Market
               </h3>
               <ul className="space-y-3 text-slate-600 text-sm">
-                <li><strong>2026 conforming loan limit:</strong> $1,149,825 (King/Snohomish County). Foreign national programs exceed this significantly.</li>
+                <li><strong>2026 conforming loan limit:</strong> $1,209,750 (King/Snohomish County). Foreign national programs exceed this significantly.</li>
                 <li><strong>Top international buyer markets:</strong> Bellevue, Redmond, Kirkland, Sammamish, Mercer Island, Seattle.</li>
                 <li><strong>No state income tax:</strong> Washington has no state income tax, making it attractive for high-income foreign workers and investors.</li>
                 <li><strong>Property tax:</strong> Rates vary by county; King County averages approximately 0.9% of assessed value annually.</li>
@@ -881,6 +881,12 @@ export default function ForeignNationalMortgageLoans2026() {
             </Link>
             <Link href="/blog/self-employed-mortgage-broker-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
               &rarr; Self-Employed Mortgage Broker Guide 2026
+            </Link>
+            <Link href="/blog/interest-only-mortgage-loans-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
+              &rarr; Interest-Only Mortgage Loans 2026
+            </Link>
+            <Link href="/blog/asset-depletion-loans-guide-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
+              &rarr; Asset Depletion Loans Guide 2026
             </Link>
           </div>
         </section>

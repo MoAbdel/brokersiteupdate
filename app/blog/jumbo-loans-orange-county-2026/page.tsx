@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-06T00:00:00Z',
-    modifiedTime: '2026-02-21T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -65,7 +65,7 @@ export default function JumboLoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-06",
-                        "dateModified": "2026-02-21",
+                        "dateModified": "2026-02-22",
                         "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })
                 }}
@@ -214,13 +214,13 @@ export default function JumboLoansOrangeCountyPage() {
 
             <header className="mb-8">
                 <div className="inline-flex items-center gap-2 bg-blue-50 rounded-full px-4 py-1.5 mb-4 border border-blue-100">
-                    <span className="text-blue-700 text-sm font-medium">Last updated February 21, 2026 | Orange County Jumbo Loan Expert</span>
+                    <span className="text-blue-700 text-sm font-medium">Last updated February 22, 2026 | Orange County Jumbo Loan Expert</span>
                 </div>
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
                     Jumbo Loans in Orange County 2026: 10% Down, Wholesale Rates &amp; $1.15M+ Financing
                 </h1>
                 <p className="text-lg text-gray-600 mb-4">
-                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong>—any mortgage above this threshold requires jumbo financing.
+                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million and 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), wholesale jumbo access is no longer optional for serious OC buyers.
                 </p>
                 <p className="text-sm text-gray-500">
                     By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>
@@ -802,7 +802,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a><br />
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a><br />
                         Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">

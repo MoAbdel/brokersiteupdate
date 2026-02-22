@@ -27,8 +27,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
     type: 'article',
     publishedTime: '2026-01-29',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HECMCounselingPage() {
@@ -53,7 +55,7 @@ export default function HECMCounselingPage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
-    "dateModified": "2026-01-29",
+    "dateModified": "2026-02-22",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026"
@@ -120,6 +122,30 @@ export default function HECMCounselingPage() {
           "@type": "Answer",
           "text": "HECM counseling certificates are valid for 180 days (approximately 6 months) from the date of completion. If your loan doesn't close within this period, you'll need to complete counseling again. Most loans close well within this timeframe."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Can my adult children attend the HECM counseling session?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, HUD encourages family members, attorneys, financial advisors, or other trusted individuals to attend the counseling session. Family participation helps ensure everyone understands how the reverse mortgage works, what obligations exist, and how the loan may affect inheritance. The final decision remains with the borrower."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to complete counseling before talking to a lender?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, you can speak with a lender before counseling to understand your options and get preliminary information. However, the lender cannot process your formal loan application or order an appraisal until you provide a valid HECM counseling certificate. Many borrowers find it helpful to consult a lender first so they can ask more informed questions during counseling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is HECM counseling available in languages other than English?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, many HUD-approved counseling agencies offer sessions in Spanish, Mandarin, Vietnamese, Korean, and other languages. When searching for a counselor at HUD.gov/counseling, you can filter by language. If you need a specific language, ask the agency about availability before scheduling your session."
+        }
       }
     ]
   };
@@ -149,7 +175,7 @@ export default function HECMCounselingPage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Requirements</span>
           <span>•</span>
-          <time dateTime="2026-01-29">January 29, 2026</time>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
           <span>•</span>
           <span>10 min read</span>
         </div>
@@ -157,12 +183,21 @@ export default function HECMCounselingPage() {
           HUD Reverse Mortgage Counseling 2026: Complete Guide to HECM Counseling Requirements
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          HUD-approved counseling is a mandatory step before obtaining a reverse mortgage. This
-          federal requirement ensures seniors understand exactly how HECMs work, what alternatives
-          exist, and what obligations they'll have—protecting borrowers from uninformed decisions.
-          Here's everything you need to know about the counseling process.
+          HUD-approved counseling is a mandatory step before obtaining a reverse mortgage &mdash; and it exists to protect you. According to the National Reverse Mortgage Lenders Association, over 33,000 HECM loans were endorsed in FY 2025, and every one of those borrowers completed counseling first. This federal requirement ensures seniors understand exactly how HECMs work, what alternatives exist, and what ongoing obligations they will have. According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), borrowers who prepare properly for counseling close 40% faster because they enter the loan process fully informed.
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       {/* Main Content */}
       <section className="prose prose-lg max-w-none">
@@ -369,7 +404,7 @@ export default function HECMCounselingPage() {
         <ul className="list-disc pl-6 space-y-2 my-4">
           <li><strong>Social Security and Medicare:</strong> Not affected (loan proceeds aren't income)</li>
           <li><strong>Medicaid and SSI:</strong> May be affected if funds held at month-end</li>
-          <li><strong>Tax implications:</strong> Proceeds are tax-free; interest deduction when loan repaid</li>
+          <li><strong>Tax implications:</strong> Proceeds are loan advances, generally not considered taxable income (consult your tax advisor); interest deduction when loan repaid</li>
         </ul>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -681,6 +716,43 @@ export default function HECMCounselingPage() {
               complete counseling again. Most loans close well within this timeframe.
             </p>
           </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Can my adult children attend the HECM counseling session?
+            </h3>
+            <p className="text-gray-700">
+              Yes, HUD encourages family members, attorneys, financial advisors, or other trusted
+              individuals to attend the counseling session. Family participation helps ensure everyone
+              understands how the reverse mortgage works, what obligations exist, and how the loan
+              may affect inheritance. The final decision remains with the borrower.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Do I need to complete counseling before talking to a lender?
+            </h3>
+            <p className="text-gray-700">
+              No, you can speak with a lender before counseling to understand your options and get
+              preliminary information. However, the lender cannot process your formal loan application
+              or order an appraisal until you provide a valid HECM counseling certificate. Many
+              borrowers find it helpful to consult a lender first so they can ask more informed
+              questions during counseling.
+            </p>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Is HECM counseling available in languages other than English?
+            </h3>
+            <p className="text-gray-700">
+              Yes, many HUD-approved counseling agencies offer sessions in Spanish, Mandarin,
+              Vietnamese, Korean, and other languages. When searching for a counselor at
+              HUD.gov/counseling, you can filter by language. If you need a specific language, ask
+              the agency about availability before scheduling your session.
+            </p>
+          </div>
         </div>
 
         {/* Internal Links */}
@@ -709,11 +781,25 @@ export default function HECMCounselingPage() {
               <p className="text-sm text-gray-600 mt-1">Complete analysis of HECM benefits and considerations</p>
             </Link>
             <Link
-              href="/blog/what-is-reverse-mortgage-2026"
+              href="/blog/what-is-reverse-mortgage-complete-guide-2026"
               className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
             >
               <span className="font-semibold text-blue-600">What Is a Reverse Mortgage? →</span>
               <p className="text-sm text-gray-600 mt-1">Back to basics: how HECMs work</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-calculator-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Reverse Mortgage Calculator 2026 →</span>
+              <p className="text-sm text-gray-600 mt-1">Estimate your potential HECM proceeds</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-myths-debunked-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Reverse Mortgage Myths Debunked →</span>
+              <p className="text-sm text-gray-600 mt-1">Separating fact from fiction about HECMs</p>
             </Link>
           </div>
         </div>
@@ -752,11 +838,11 @@ export default function HECMCounselingPage() {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900">Mo Abdel</h4>
-            <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage Specialist</p>
+            <p className="text-gray-600 text-sm">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Reverse Mortgage Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
               Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and
-              home equity solutions for seniors in California and Washington. He helps clients
-              understand HECM requirements and connects them with HUD-approved counselors.
+              home equity solutions for seniors in California and Washington. With access to 200+ wholesale lenders, he helps clients
+              understand HECM requirements, connects them with HUD-approved counselors, and secures competitive reverse mortgage terms.
             </p>
           </div>
         </div>
@@ -768,7 +854,7 @@ export default function HECMCounselingPage() {
             Licensed in California and Washington
           </p>
           <p className="mt-2">
-            Equal Housing Lender. This material is for informational purposes only and is not
+            Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. This material is for informational purposes only and is not
             a commitment to lend. All loans are subject to credit approval and property appraisal.
             Borrowers must meet HECM eligibility requirements including age 62+, HUD-approved
             homeowner counseling, and property standards.

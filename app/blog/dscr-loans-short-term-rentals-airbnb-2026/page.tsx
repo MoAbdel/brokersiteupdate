@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-16T00:00:00Z',
-    modifiedTime: '2026-02-16T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-16",
-            "dateModified": "2026-02-16",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
@@ -151,7 +151,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, short-term rental investors using platforms like Airbnb and VRBO are increasingly turning to DSCR loans to finance vacation rental properties. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 100 wholesale lenders offering STR-specific DSCR programs in 2026, the financing landscape for vacation rental investors has never been more competitive.
+              According to Mo Abdel, NMLS #1426884, short-term rental investors using platforms like Airbnb and VRBO are turning to DSCR loans to finance vacation rental properties at record pace &mdash; AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 200+ wholesale lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -588,7 +588,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             The wholesale mortgage broker advantage is amplified for STR DSCR loans because the variation between lender programs is even greater than standard DSCR lending. Not all DSCR lenders accept short-term rental income. Among those that do, the differences in income calculation methods, discount factors, operating history requirements, and geographic restrictions create a complex landscape that a single retail lender cannot navigate.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Mo Abdel at Lumin Lending accesses STR DSCR programs from 100+ wholesale lenders simultaneously, identifying the specific programs that match each investor&apos;s scenario. One lender accepts AirDNA projections with no operating history; another requires 12 months of booking data but offers better pricing. One lender allows 80% LTV on STR purchases; another caps at 75% but accepts lower DSCR ratios. Wholesale access means finding the intersection of the best rate, terms, and qualification flexibility for each unique deal.
+            Mo Abdel at Lumin Lending accesses STR DSCR programs from 200+ wholesale lenders simultaneously, identifying the specific programs that match each investor&apos;s scenario. One lender accepts AirDNA projections with no operating history; another requires 12 months of booking data but offers better pricing. One lender allows 80% LTV on STR purchases; another caps at 75% but accepts lower DSCR ratios. Wholesale access means finding the intersection of the best rate, terms, and qualification flexibility for each unique deal.
           </p>
 
           <h3 className="text-xl font-bold text-slate-900 mb-4">6 Reasons STR Investors Choose a Wholesale Broker for DSCR Financing</h3>
@@ -1080,6 +1080,12 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </Link>
             <Link href="/blog/wholesale-mortgage-broker-washington-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale Mortgage Broker Washington 2026
+            </Link>
+            <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Investment Property Loans: Complete Guide
+            </Link>
+            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loans for Portfolio Investors: Scaling Strategy
             </Link>
           </div>
         </section>

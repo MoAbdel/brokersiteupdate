@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-15T00:00:00Z',
-    modifiedTime: '2026-02-15T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoansExplainedInvestors2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-15",
-            "dateModified": "2026-02-15",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-explained-investors-2026",
@@ -151,7 +151,7 @@ export default function DSCRLoansExplainedInvestors2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, DSCR loans represent the single most powerful financing tool available to real estate investors in 2026. Unlike conventional mortgages that demand W-2s, tax returns, and employment verification, DSCR loans qualify borrowers based on one factor alone: whether the property&apos;s rental income covers the mortgage payment. Investors across California and Washington are using DSCR financing to scale portfolios without the documentation bottlenecks that hold back traditional lending.
+              According to Mo Abdel, NMLS #1426884, DSCR loans represent the single most powerful financing tool available to real estate investors in 2026. Non-QM originations &mdash; with DSCR as the largest segment &mdash; surpassed <strong>$30 billion in 2025</strong>, a 22% increase over the prior year. Unlike conventional mortgages that demand W-2s, tax returns, and employment verification, DSCR loans qualify borrowers based on one factor alone: whether the property&apos;s rental income covers the mortgage payment. Investors across California and Washington are using DSCR financing to scale portfolios without the documentation bottlenecks that hold back traditional lending.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -411,7 +411,7 @@ export default function DSCRLoansExplainedInvestors2026() {
             DSCR loans solve this problem by evaluating each property independently. The question becomes: does this specific property generate enough rental income to cover its own mortgage payment? If yes, the loan is approved. The borrower&apos;s personal income, employment status, tax return deductions, and number of existing properties are irrelevant.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            This property-level underwriting approach has made DSCR the fastest-growing segment of non-QM lending. According to industry data, non-QM originations (which include DSCR) exceeded $25 billion in 2025, with DSCR products representing the largest share. The growth continues into 2026 as more investors discover these programs and more lenders enter the space, driving competition that benefits borrowers through better rates and terms.
+            This property-level underwriting approach has made DSCR the fastest-growing segment of non-QM lending. According to industry data, non-QM originations (which include DSCR) exceeded $30 billion in 2025, with DSCR products representing the largest share. The growth continues into 2026 as more investors discover these programs and more lenders enter the space, driving competition that benefits borrowers through better rates and terms.
           </p>
         </section>
 
@@ -774,6 +774,12 @@ export default function DSCRLoansExplainedInvestors2026() {
             </Link>
             <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Non-QM Loans Complete Guide 2026
+            </Link>
+            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loans for Short-Term Rentals &amp; Airbnb
+            </Link>
+            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Scaling Your Portfolio with DSCR Loans
             </Link>
           </div>
         </section>

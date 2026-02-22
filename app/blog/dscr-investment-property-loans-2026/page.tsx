@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   keywords: ['DSCR loans Orange County', 'investment property loans California', 'DSCR mortgage 2026', 'rental property financing no tax returns'],
   openGraph: {
     title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns',
-    description: 'DSCR investment property loans: Qualify based on rental income, not personal income. Access wholesale rates from 100+ lenders.',
+    description: 'DSCR investment property loans: Qualify based on rental income, not personal income. Access wholesale rates from 200+ lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-investment-property-loans-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-18T00:00:00Z',
-    modifiedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -48,7 +48,19 @@ const faqData = [
   },
   {
     question: "What are DSCR loan rates compared to conventional investment property loans?",
-    answer: "DSCR rates are typically 0.5-1.5% higher than conventional investment property rates due to the reduced documentation and increased risk. However, wholesale broker access can significantly narrow this gap by comparing rates across 50+ DSCR lenders."
+    answer: "DSCR rates are typically 0.5-1.5% higher than conventional investment property rates due to the reduced documentation and increased risk. However, wholesale broker access can significantly narrow this gap by comparing rates across 200+ lenders, many of which specialize in DSCR and non-QM programs."
+  },
+  {
+    question: "Can I get a DSCR loan on a multi-family property in California?",
+    answer: "Yes. DSCR loans are available for 2-4 unit residential properties in California. Multi-family properties often produce stronger DSCR ratios because combined rental income from multiple units exceeds the mortgage payment more easily than a single-family rental. Down payments are typically 25% for multi-family DSCR loans, with some lenders requiring 30% for 3-4 unit properties."
+  },
+  {
+    question: "Is there a maximum number of DSCR loans I can have?",
+    answer: "No. Unlike conventional loans which cap at 10 financed properties, DSCR programs have no limit on the number of properties you can finance. Many portfolio investors use DSCR loans to scale beyond the conventional 10-property ceiling. Each property is evaluated independently based on its own rental income and DSCR ratio, making this loan type ideal for investors building large rental portfolios in California and Washington."
+  },
+  {
+    question: "Do DSCR loans allow cash-out refinancing on investment properties?",
+    answer: "Yes. DSCR cash-out refinancing allows investors to pull equity from existing rental properties without documenting personal income. Maximum cash-out LTV is typically 70-75%, and the property must still meet the lender's minimum DSCR ratio after the refinance. This strategy is popular among investors who want to recycle equity into additional property acquisitions without affecting their personal DTI ratio."
   }
 ];
 
@@ -75,7 +87,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-18",
-            "dateModified": "2026-01-18",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
@@ -127,7 +139,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              DSCR loans qualify investors based on rental income, not tax returns—no W-2s, no pay stubs, no employment verification. With a DSCR ratio of 1.0+ (rent covers payment), investors can finance unlimited properties through wholesale channels with rates 0.5-1% below retail non-QM lenders.
+              DSCR loans qualify investors based on rental income, not tax returns—no W-2s, no pay stubs, no employment verification. Non-QM originations, including DSCR loans, reached $26 billion in Q3 2025, a 41% year-over-year increase driven by investor demand for documentation-free financing. With a DSCR ratio of 1.0+ (rent covers payment), investors can finance unlimited properties through wholesale channels with access to 200+ lenders competing for your business.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -444,7 +456,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-purple-600 text-white font-bold shrink-0">2</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Contact a Wholesale Mortgage Broker</h4>
-                  <p className="text-slate-600">DSCR programs vary significantly across lenders. A wholesale broker compares 50+ DSCR lenders to find the best rates and terms for your situation.</p>
+                  <p className="text-slate-600">DSCR programs vary significantly across lenders. A wholesale broker compares programs from 200+ lenders, including dozens of DSCR specialists, to find the best rates and terms for your situation.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -494,7 +506,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
             Ready to Finance Your Next Investment Property?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get a DSCR loan quote from 50+ wholesale lenders. No tax returns required, no income verification, close in 21-30 days. Specialized expertise in Orange County investment properties.
+            Get a DSCR loan quote from 200+ wholesale lenders. No tax returns required, no income verification, close in 21-30 days. Specialized expertise in California and Washington investment properties.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -532,6 +544,12 @@ export default function DSCRInvestmentPropertyLoans2026() {
             </Link>
             <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Why Use a Wholesale Broker?
+            </Link>
+            <Link href="/blog/foreign-national-mortgage-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Foreign National Mortgage Loans Guide
+            </Link>
+            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Investment Property Cash-Out Refinance
             </Link>
           </div>
         </section>

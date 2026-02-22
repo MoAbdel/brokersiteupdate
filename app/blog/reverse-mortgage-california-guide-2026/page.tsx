@@ -82,7 +82,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
       }
     },
     "datePublished": "2026-02-06",
-    "dateModified": "2026-02-06",
+    "dateModified": "2026-02-22",
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/reverse-mortgage-california-guide-2026",
@@ -252,15 +252,21 @@ export default function ReverseMortgageCaliforniaGuide2026() {
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage California Guide: Complete HECM Resource [2026]</h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
         </header>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;California homeowners 62 and older hold more collective home equity than seniors in any other state. In our California closings, we consistently see retirees unlock six-figure proceeds from homes they&apos;ve owned for decades, often without realizing how much equity Prop 13 helped them build. This guide covers every HECM detail a California senior needs to make a confident decision.&quot;
+              &quot;California homeowners 62 and older hold an estimated $3.6 trillion in housing wealth &mdash; more collective home equity than seniors in any other state. With the 2026 HECM lending limit at a record $1,209,750, eligible Californians access larger reverse mortgage proceeds than ever before. In our California closings, we consistently see retirees unlock six-figure proceeds from homes they&apos;ve owned for decades, often without realizing how much equity Prop 13 helped them build. This guide covers every HECM detail a California senior needs to make a confident decision.&quot;
             </p>
             <p className="text-gray-600 mt-2">— Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -666,7 +672,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
           <div id="expert-summary" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 expert-summary">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary: California Reverse Mortgage Guidance from Mo Abdel</h2>
             <p className="text-gray-800">
-              California&apos;s combination of high property values, Proposition 13 protections, and a large population of equity-rich seniors makes it the premier state for reverse mortgage origination. Whether you own a $600,000 home in the Inland Empire or a $4 million estate on the Bay Area Peninsula, there is a reverse mortgage program structured to convert your equity into retirement security without monthly payments or loss of homeownership.
+              California&apos;s combination of high property values, Proposition 13 protections, and a large population of equity-rich seniors makes it the premier state for reverse mortgage origination. With roughly 2.4 million California homeowners aged 62 and older and a statewide median home value exceeding $780,000 as of Q1 2026, the reverse mortgage opportunity in California is unmatched. Whether you own a $600,000 home in the Inland Empire or a $4 million estate on the Bay Area Peninsula, there is a reverse mortgage program structured to convert your equity into retirement security without monthly payments or loss of homeownership.
             </p>
             <p className="text-gray-800">
               The HECM program&apos;s non-recourse protection, line of credit growth feature, and multiple payout options provide unmatched flexibility. For high-value properties, jumbo proprietary programs extend access beyond FHA limits. In every case, the process begins with education, and the mandatory HUD counseling session ensures every borrower understands their options before making a commitment.
@@ -674,6 +680,19 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <p className="text-gray-800 font-semibold">
               Ready to explore your California reverse mortgage options? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property and goals.
             </p>
+          </div>
+
+          {/* Related Resources */}
+          <div className="bg-gray-50 p-6 rounded-lg my-8">
+            <h3 className="font-bold text-lg mb-3">Related California Reverse Mortgage Resources</h3>
+            <ul className="space-y-2 mb-0">
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage Complete Guide 2026</a> &mdash; National HECM overview with eligibility requirements and payout mechanics</li>
+              <li><a href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors 2026</a> &mdash; Compare reverse mortgages with home equity lines of credit</li>
+              <li><a href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:underline">HECM Pros and Cons 2026</a> &mdash; Honest evaluation of reverse mortgage advantages and drawbacks</li>
+              <li><a href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">Reverse Mortgage Calculator 2026</a> &mdash; Estimate your HECM proceeds based on age, home value, and rates</li>
+              <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:underline">Reverse Mortgage Inheritance &amp; Heirs 2026</a> &mdash; What your family needs to know about reverse mortgage estate planning</li>
+              <li><a href="/blog/reverse-mortgage-washington-guide-2026" className="text-blue-600 hover:underline">Washington State Reverse Mortgage Guide 2026</a> &mdash; Our complete guide for Washington homeowners</li>
+            </ul>
           </div>
 
           {/* Footer */}

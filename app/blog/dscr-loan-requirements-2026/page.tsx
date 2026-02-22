@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide | Mo Abdel',
-  description: 'DSCR loan requirements 2026: Complete guide to qualification ratios, credit scores, down payments, reserves, and property types. Wholesale access to 100+ DSCR lenders. NMLS #1426884.',
+  description: 'DSCR loan requirements 2026: Complete guide to qualification ratios, credit scores, down payments, reserves, and property types. Wholesale access to 200+ DSCR lenders. NMLS #1426884.',
   keywords: ['dscr loan requirements 2026', 'DSCR loan qualifications', 'DSCR ratio requirements', 'DSCR loan down payment', 'DSCR credit score requirements', 'investment property loan requirements'],
   openGraph: {
     title: 'DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-15T00:00:00Z',
-    modifiedTime: '2026-02-15T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoanRequirements2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-15",
-            "dateModified": "2026-02-15",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
@@ -151,7 +151,7 @@ export default function DSCRLoanRequirements2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, understanding DSCR loan requirements in 2026 is the difference between closing a profitable investment and missing the opportunity entirely. DSCR qualification criteria vary dramatically between lenders &mdash; minimum ratios range from 0.75 to 1.25, credit score floors span 620 to 700, and down payment requirements shift from 15% to 30% depending on the lender and scenario. A wholesale broker comparing 100+ DSCR programs finds the requirements that match your specific investor profile.
+              According to Mo Abdel, NMLS #1426884, understanding DSCR loan requirements in 2026 is the difference between closing a profitable investment and missing the opportunity entirely. DSCR origination volume surged 47% year-over-year in H2 2025 according to CoreLogic, driven by investors seeking income-based qualification. DSCR qualification criteria vary dramatically between lenders &mdash; minimum ratios range from 0.75 to 1.25, credit score floors span 620 to 700, and down payment requirements shift from 15% to 30% depending on the lender and scenario. A wholesale broker comparing 200+ DSCR programs finds the requirements that match your specific investor profile.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -185,7 +185,7 @@ export default function DSCRLoanRequirements2026() {
             DSCR (Debt Service Coverage Ratio) loans are non-QM investment property mortgages that qualify borrowers based on the property&apos;s rental income rather than personal income documentation. The core formula is straightforward: <strong>DSCR = Net Operating Income / Annual Debt Service</strong>. For residential investment properties, this simplifies to monthly gross rental income divided by monthly PITIA (Principal, Interest, Taxes, Insurance, Association dues).
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Because DSCR loans are non-QM products, there are no standardized guidelines from Fannie Mae or Freddie Mac. Each lender sets their own requirements, which is why a wholesale broker&apos;s market-wide access is critical. Below are the core qualification pillars that every DSCR lender evaluates, along with typical ranges across the wholesale market in February 2026.
+            Because DSCR loans are non-QM products, there are no standardized guidelines from Fannie Mae or Freddie Mac. Each lender sets their own requirements, which is why a wholesale broker&apos;s market-wide access is critical. Below are the core qualification pillars that every DSCR lender evaluates, along with typical ranges across the wholesale market as of late February 2026.
           </p>
 
           {/* Master Requirements Checklist Table */}
@@ -283,7 +283,7 @@ export default function DSCRLoanRequirements2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">6</span>
-              <span><strong>Contact a wholesale mortgage broker</strong> &mdash; submit your scenario to compare programs from 100+ DSCR lenders simultaneously</span>
+              <span><strong>Contact a wholesale mortgage broker</strong> &mdash; submit your scenario to compare programs from 200+ DSCR lenders simultaneously</span>
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">7</span>
@@ -730,7 +730,7 @@ export default function DSCRLoanRequirements2026() {
             DSCR loan requirements in 2026 are not one-size-fits-all. Credit score thresholds, DSCR ratio minimums, down payment percentages, reserve requirements, and prepayment penalty structures all vary significantly between lenders. An investor who is declined at one lender may qualify easily at another with better terms.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending compares DSCR programs from 100+ wholesale lenders to identify the lender whose specific requirements match your credit score, property type, DSCR ratio, and investment strategy. No single retail lender can offer this breadth of comparison. Contact us to find out which DSCR programs you qualify for today.
+            Mo Abdel at Lumin Lending compares DSCR programs from 200+ wholesale lenders to identify the lender whose specific requirements match your credit score, property type, DSCR ratio, and investment strategy. No single retail lender can offer this breadth of comparison. Contact us to find out which DSCR programs you qualify for today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -768,6 +768,12 @@ export default function DSCRLoanRequirements2026() {
             </Link>
             <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Non-QM Loans Complete Guide 2026
+            </Link>
+            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loans for Short-Term Rentals &amp; Airbnb
+            </Link>
+            <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bank Statement Loans for Self-Employed 2026
             </Link>
           </div>
         </section>

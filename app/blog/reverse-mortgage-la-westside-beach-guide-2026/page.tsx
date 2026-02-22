@@ -28,7 +28,7 @@ export default function ReverseMortgageLAWestsideBeach() {
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-06',
-    dateModified: '2026-02-06',
+    dateModified: '2026-02-22',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
   };
 
@@ -41,7 +41,7 @@ export default function ReverseMortgageLAWestsideBeach() {
         name: 'Which LA Beach Cities have the highest reverse mortgage potential in 2026?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Manhattan Beach leads with a $3.4 million median home value, followed by Hermosa Beach at $2.5 million and Redondo Beach at $1.5 million. Most Beach Cities properties exceed the $1,149,825 HECM limit, making jumbo reverse mortgages the preferred option for maximizing equity access.',
+          text: 'Manhattan Beach leads with a $3.4 million median home value, followed by Hermosa Beach at $2.5 million and Redondo Beach at $1.5 million. Most Beach Cities properties exceed the $1,209,750 HECM limit, making jumbo reverse mortgages the preferred option for maximizing equity access.',
         },
       },
       {
@@ -73,7 +73,7 @@ export default function ReverseMortgageLAWestsideBeach() {
         name: 'What is the difference between HECM and jumbo reverse mortgages for Beach Cities homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'HECM is FHA-insured with a 2026 lending limit of $1,149,825, offering government-backed protections. Jumbo reverse mortgages are proprietary products with no FHA cap, designed for high-value homes like those in Manhattan Beach and Hermosa Beach. Jumbo products access more equity but have different fee structures.',
+          text: 'HECM is FHA-insured with a 2026 lending limit of $1,209,750, offering government-backed protections. Jumbo reverse mortgages are proprietary products with no FHA cap, designed for high-value homes like those in Manhattan Beach and Hermosa Beach. Jumbo products access more equity but have different fee structures.',
         },
       },
       {
@@ -202,21 +202,33 @@ export default function ReverseMortgageLAWestsideBeach() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Reverse Mortgage LA Westside &amp; Beach Cities: Complete Guide for Manhattan Beach, Hermosa Beach, Culver City &amp; More [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
           <p className="text-xl text-gray-700 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884, LA Westside and Beach Cities homeowners aged 62 and older are sitting on some of the most valuable residential equity in Southern California. With median home values ranging from $1.1 million in Westchester to $3.4 million in Manhattan Beach, this region&apos;s seniors hold between $800,000 and $3 million or more in accessible home equity. Reverse mortgages convert that equity into tax-free funds without monthly mortgage payments, and as a wholesale broker with Lumin Lending (NMLS #2716106), I access both FHA HECM and proprietary jumbo products to match each homeowner&apos;s specific financial situation.
+            According to Mo Abdel, NMLS #1426884, LA Westside and Beach Cities homeowners aged 62 and older are sitting on some of the most valuable residential equity in Southern California. An estimated 12,000 to 15,000 senior homeowners in this corridor hold a combined $22 billion or more in housing wealth. With median home values ranging from $1.1 million in Westchester to $3.4 million in Manhattan Beach, this region&apos;s seniors hold between $800,000 and $3 million or more in accessible home equity. Reverse mortgages convert that equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without monthly mortgage payments, and as a wholesale broker with Lumin Lending (NMLS #2716106), I access both FHA HECM and proprietary jumbo products to match each homeowner&apos;s specific financial situation.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">LA Westside &amp; Beach Cities Reverse Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>Region Median Home Value:</strong> $1.1M - $3.4M (varies by city and section)</li>
-              <li><strong>2026 HECM Lending Limit:</strong> $1,149,825</li>
+              <li><strong>2026 HECM Lending Limit:</strong> $1,209,750</li>
               <li><strong>Jumbo Reverse Available:</strong> Yes, for homes valued up to $10M+</li>
               <li><strong>Key Industries:</strong> Aerospace (El Segundo), Entertainment (Culver City), Tech/Creative (Playa Vista)</li>
               <li><strong>Cities Covered:</strong> Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, Westchester</li>
@@ -304,7 +316,7 @@ export default function ReverseMortgageLAWestsideBeach() {
           </div>
 
           <p>
-            As the table shows, Manhattan Beach and Hermosa Beach almost universally require jumbo reverse mortgage products because their home values far exceed the 2026 HECM lending limit of $1,149,825. Redondo Beach, El Segundo, Culver City, and Playa del Rey fall in a middle range where either product type works depending on the specific property value. Marina del Rey and Westchester homeowners frequently qualify for standard HECM products, which carry FHA insurance protections.
+            As the table shows, Manhattan Beach and Hermosa Beach almost universally require jumbo reverse mortgage products because their home values far exceed the 2026 HECM lending limit of $1,209,750. Redondo Beach, El Segundo, Culver City, and Playa del Rey fall in a middle range where either product type works depending on the specific property value. Marina del Rey and Westchester homeowners frequently qualify for standard HECM products, which carry FHA insurance protections.
           </p>
 
           {/* HECM Qualification Requirements */}
@@ -606,6 +618,9 @@ export default function ReverseMortgageLAWestsideBeach() {
               <li><a href="/blog/wholesale-mortgage-broker-la-westside-beach-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker LA Westside &amp; Beach Cities [2026]</a> - Why wholesale lending saves money in high-value markets</li>
               <li><a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage LA South Bay &amp; Palos Verdes Guide [2026]</a> - Adjacent region coverage for Palos Verdes, Torrance, and more</li>
               <li><a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Manhattan Beach [2026]</a> - Detailed Manhattan Beach reverse mortgage analysis</li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Complete Guide [2026]</a> - National HECM overview with all eligibility requirements</li>
+              <li><a href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:text-blue-800">HECM Pros and Cons [2026]</a> - Honest evaluation of reverse mortgage advantages and drawbacks</li>
+              <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage &amp; Inheritance [2026]</a> - What heirs need to know about reverse mortgage estate planning</li>
             </ul>
           </div>
 
@@ -614,7 +629,7 @@ export default function ReverseMortgageLAWestsideBeach() {
 
           <h3 className="text-lg font-semibold mt-6 mb-2">Which LA Beach Cities have the highest reverse mortgage potential in 2026?</h3>
           <p>
-            Manhattan Beach leads with a $3.4 million median home value, followed by Hermosa Beach at $2.5 million and Redondo Beach at $1.5 million. Most Beach Cities properties exceed the $1,149,825 HECM limit, making jumbo reverse mortgages the preferred option for maximizing equity access.
+            Manhattan Beach leads with a $3.4 million median home value, followed by Hermosa Beach at $2.5 million and Redondo Beach at $1.5 million. Most Beach Cities properties exceed the $1,209,750 HECM limit, making jumbo reverse mortgages the preferred option for maximizing equity access.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">Do I need a jumbo reverse mortgage for my Manhattan Beach home?</h3>
@@ -634,7 +649,7 @@ export default function ReverseMortgageLAWestsideBeach() {
 
           <h3 className="text-lg font-semibold mt-6 mb-2">What is the difference between HECM and jumbo reverse mortgages for Beach Cities homes?</h3>
           <p>
-            HECM is FHA-insured with a 2026 lending limit of $1,149,825, offering government-backed protections. Jumbo reverse mortgages are proprietary products with no FHA cap, designed for high-value homes like those in Manhattan Beach and Hermosa Beach. Jumbo products access more equity but have different fee structures.
+            HECM is FHA-insured with a 2026 lending limit of $1,209,750, offering government-backed protections. Jumbo reverse mortgages are proprietary products with no FHA cap, designed for high-value homes like those in Manhattan Beach and Hermosa Beach. Jumbo products access more equity but have different fee structures.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">Can I stay in my Culver City home with a reverse mortgage?</h3>
@@ -703,7 +718,13 @@ export default function ReverseMortgageLAWestsideBeach() {
             <p className="mb-3">
               Call <a href="tel:+19498229662" className="text-blue-600 font-bold">(949) 822-9662</a> or visit <a href="https://www.mothebroker.com" className="text-blue-600 hover:text-blue-800">mothebroker.com</a> to schedule your no-obligation reverse mortgage analysis. I serve all LA Westside and Beach Cities including Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, and Westchester.
             </p>
-            <p className="text-sm text-gray-600 mb-0">Mo Abdel | NMLS #1426884 | Lumin Lending NMLS #2716106 | Licensed in California</p>
+            <p className="text-sm text-gray-600 mb-0">Mo Abdel | NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Licensed in California &amp; Washington</p>
+          </div>
+
+          <div className="bg-gray-100 p-4 rounded-lg mt-8">
+            <p className="text-xs text-gray-600 mb-0">
+              Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Reverse mortgage borrowers must maintain property taxes, homeowners insurance, and property maintenance. HECM reverse mortgages are FHA-insured and subject to FHA lending limits and guidelines. The 2026 HECM lending limit is $1,209,750. Jumbo reverse mortgages are proprietary products not insured by FHA. Reverse mortgage proceeds are generally not considered taxable income; consult your tax advisor. Non-recourse protection means borrowers and heirs never owe more than the home&apos;s fair market value at the time of repayment. Information is for educational purposes only and does not constitute financial, tax, or legal advice. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>
+            </p>
           </div>
 
         </section>

@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-11T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026',
@@ -55,7 +57,7 @@ export default function HomeEquityPasadenaCorridor2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-11',
-    dateModified: '2026-02-11',
+    dateModified: '2026-02-22',
     description: 'Comprehensive home equity guide for the Pasadena Corridor covering jumbo HELOC, HELOAN, and cash-out refinance for Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta homeowners.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026',
     about: [
@@ -108,7 +110,7 @@ export default function HomeEquityPasadenaCorridor2026() {
     },
     {
       question: 'Can self-employed Glendale business owners qualify for a HELOC?',
-      answer: 'Yes. Glendale\'s vibrant small business community, particularly along Brand Boulevard, Honolulu Avenue in Montrose, and the downtown commercial district, includes many self-employed professionals whose tax returns understate their true earning capacity due to business deductions. Bank statement HELOC programs allow qualification based on 12-24 months of business account deposits rather than net income on tax returns. This frequently doubles or triples qualifying income for Glendale business owners. Wholesale broker access identifies the best bank statement HELOC terms across 50+ lenders.',
+      answer: 'Yes. Glendale\'s vibrant small business community, particularly along Brand Boulevard, Honolulu Avenue in Montrose, and the downtown commercial district, includes many self-employed professionals whose tax returns understate their true earning capacity due to business deductions. Bank statement HELOC programs allow qualification based on 12-24 months of business account deposits rather than net income on tax returns. This frequently doubles or triples qualifying income for Glendale business owners. Wholesale broker access identifies the best bank statement HELOC terms across 200+ lenders.',
     },
     {
       question: 'Does La Crescenta\'s school district rating affect home equity options?',
@@ -189,7 +191,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             Home Equity in Pasadena, Sierra Madre &amp; Pasadena Corridor: HELOC &amp; Cash-Out [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 11, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             Jumbo HELOC, HELOAN &amp; cash-out refinance for the Pasadena Corridor | Licensed in CA &amp; WA
@@ -204,7 +206,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             <ul className="text-blue-800 space-y-1 text-base">
               <li>Pasadena Corridor homeowners across Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta hold an estimated $18.4 billion in combined residential equity &mdash; the San Gabriel Valley&apos;s largest concentration of tappable home equity outside of San Marino and La Ca&ntilde;ada Flintridge</li>
               <li>Average tappable equity per homeowner ranges from $380K in La Crescenta to $580K+ in Sierra Madre, assuming 75% CLTV and typical mortgage balances for owners who purchased between 2015 and 2022</li>
-              <li>Los Angeles County recorded 4,128 HELOC originations in Q3 2025, with the Pasadena Corridor contributing disproportionately due to its concentration of professional-class homeowners at Caltech, JPL, Disney, DreamWorks, and healthcare institutions (CoreLogic)</li>
+              <li>Los Angeles County recorded 4,128 HELOC originations in Q3 2025, with the Pasadena Corridor contributing disproportionately due to its concentration of professional-class homeowners at Caltech, JPL, Disney, DreamWorks, and healthcare institutions (CoreLogic). Q4 2025 originations are projected 8% higher as homeowners capitalize on accumulated equity</li>
               <li>Pasadena&apos;s historic Bungalow Heaven district alone contains over 800 Craftsman homes &mdash; the largest Craftsman bungalow collection in the United States &mdash; driving significant renovation HELOC demand as owners invest $150K&ndash;$500K in period-appropriate modernization</li>
             </ul>
           </div>
@@ -308,7 +310,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            *Average tappable equity assumes 75% CLTV and 18% average existing mortgage-to-value ratio (reflecting typical purchase leverage for Pasadena Corridor homeowners who bought between 2015 and 2022). Actual equity access depends on credit score, income verification, lender programs, and current appraisal value. Estimates based on Q4 2025 / Q1 2026 market data.
+            *Average tappable equity assumes 75% CLTV and 18% average existing mortgage-to-value ratio (reflecting typical purchase leverage for Pasadena Corridor homeowners who bought between 2015 and 2022). Actual equity access depends on credit score, income verification, lender programs, and current appraisal value. Estimates based on Q1 2026 market data.
           </p>
 
           {/* Product Comparison Table */}
@@ -731,7 +733,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Sierra Madre right now?</h3>
-              <p><strong>Jumbo HELOC rates for Sierra Madre vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 50+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
+              <p><strong>Jumbo HELOC rates for Sierra Madre vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 200+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better in La Crescenta?</h3>

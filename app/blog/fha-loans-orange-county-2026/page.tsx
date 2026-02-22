@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
-  description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  description: 'FHA loans Orange County 2026: Loan limits up to $1,209,750, 3.5% down payment, 580+ credit score. Compare FHA lenders through a wholesale broker with 200+ partners. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
     languages: {
@@ -36,8 +36,69 @@ export default function FHALoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-02",
-                        "dateModified": "2026-01-02",
+                        "dateModified": "2026-02-22",
                         "description": "Master FHA loan requirements for Orange County in 2026. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
+                    })
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Can I use an FHA loan to buy a condo in Orange County?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "Yes, but the condo complex must be FHA-approved. Not all condo complexes meet FHA requirements. Your lender can verify if a specific complex is FHA-approved. Wholesale brokers often have updated lists of approved complexes in Orange County." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How much do I need for closing costs with an FHA loan?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "Closing costs typically range from 2-5% of the loan amount. FHA allows sellers to contribute up to 6% toward closing costs, and you may also use gift funds. Wholesale brokers can help structure your transaction to minimize out-of-pocket costs." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I get an FHA loan if I've had a bankruptcy or foreclosure?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "Yes, with waiting periods. Chapter 7 bankruptcy requires a two-year waiting period, Chapter 13 requires one year of on-time payments. Foreclosure requires a three-year waiting period." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Do I have to be a first-time homebuyer to get an FHA loan?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "No, FHA loans are available to all qualified borrowers, not just first-time buyers. However, you must use the property as your primary residence." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I remove FHA mortgage insurance?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "If you put down less than 10%, FHA mortgage insurance remains for the life of the loan. With 10%+ down, MIP can be removed after 11 years. Alternatively, you can refinance to a conventional loan once you have 20% equity." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What if the property doesn't pass the FHA appraisal?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "If issues are identified, you have several options: negotiate with the seller to make repairs, pay for repairs yourself, request a second appraisal, or walk away from the transaction." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I use gift funds for my FHA down payment?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "Yes, FHA allows 100% of your down payment to come from gift funds from family members. The donor must provide a gift letter stating the funds are a gift, not a loan." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What is the FHA loan limit for Orange County in 2026?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "The 2026 FHA loan limit for a single-family home in Orange County is $1,209,750. Two-unit properties allow up to $1,032,975, three-unit up to $1,248,575, and four-unit up to $1,551,200." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How does a wholesale broker help with FHA loans?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "A wholesale broker compares FHA programs across 200+ lenders to find the best pricing, fewest overlays, and fastest closing. Different lenders have different minimum credit scores, DTI limits, and fee structures for FHA loans." }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I use an FHA loan to buy a multi-unit property in Orange County?",
+                                "acceptedAnswer": { "@type": "Answer", "text": "Yes, FHA allows financing for 1-4 unit properties as long as you occupy one unit as your primary residence. This is a popular house-hacking strategy in Orange County, where rental income from the other units helps offset the mortgage payment." }
+                            }
+                        ]
                     })
                 }}
             />
@@ -47,14 +108,21 @@ export default function FHALoansOrangeCountyPage() {
                     FHA Loans in Orange County 2026: Complete Guide & Requirements
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Everything you need to know about FHA financing in Orange County's competitive housing market
+                    Everything you need to know about FHA financing in Orange County&apos;s competitive housing market &mdash; with 2026 loan limits, credit requirements, and wholesale broker pricing
                 </p>
+                <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
+                    <span>By Mo Abdel, NMLS #1426884</span>
+                    <span>|</span>
+                    <span>Updated February 22, 2026</span>
+                    <span>|</span>
+                    <span>Lumin Lending, NMLS #2716106</span>
+                </div>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
+                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). FHA purchase applications rose <strong>18% year-over-year in Q4 2025</strong> nationally, driven by first-time buyers entering the market. Orange County&apos;s 2026 FHA loan limit of <strong>$1,209,750</strong> covers the majority of homes in the county. While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
                     </p>
                 </div>
 
@@ -122,7 +190,7 @@ export default function FHALoansOrangeCountyPage() {
                     FHA loan limits vary by county and are adjusted annually. For Orange County in 2026:
                 </p>
                 <ul>
-                    <li><strong>Single-family home:</strong> $1,266,300</li>
+                    <li><strong>Single-family home:</strong> $1,209,750</li>
                     <li><strong>Two-unit property:</strong> $1,032,975</li>
                     <li><strong>Three-unit property:</strong> $1,248,575</li>
                     <li><strong>Four-unit property:</strong> $1,551,200</li>
@@ -153,7 +221,7 @@ export default function FHALoansOrangeCountyPage() {
                     Retail banks offer only their own FHA products. Wholesale brokers can:
                 </p>
                 <ul>
-                    <li>Compare FHA programs across 50+ lenders</li>
+                    <li>Compare FHA programs across 200+ lenders</li>
                     <li>Find lenders with minimal overlays for challenging scenarios</li>
                     <li>Match your specific situation with the optimal lender</li>
                 </ul>
@@ -271,8 +339,8 @@ export default function FHALoansOrangeCountyPage() {
                             </tr>
                             <tr>
                                 <td>Loan Limits (OC)</td>
-                                <td>$1,266,300</td>
-                                <td>$1,249,125 (conforming)</td>
+                                <td>$1,209,750</td>
+                                <td>$1,209,750 (conforming)</td>
                             </tr>
                             <tr>
                                 <td>Property Types</td>
@@ -349,6 +417,35 @@ export default function FHALoansOrangeCountyPage() {
                     Yes, FHA allows 100% of your down payment to come from gift funds from family members. The donor must provide a gift letter stating the funds are a gift, not a loan. Proper documentation is required to verify the source and transfer of funds.
                 </p>
 
+                <h3>What is the FHA loan limit for Orange County in 2026?</h3>
+                <p>
+                    The 2026 FHA loan limit for a single-family home in Orange County is $1,209,750. Two-unit properties allow up to $1,032,975, three-unit up to $1,248,575, and four-unit up to $1,551,200. These limits are set by the Federal Housing Finance Agency and adjusted annually based on home price changes.
+                </p>
+
+                <h3>How does a wholesale broker help with FHA loans?</h3>
+                <p>
+                    A wholesale broker compares FHA programs across 200+ lenders to find the best pricing, fewest overlays, and fastest closing timeline. Different lenders apply different minimum credit scores, DTI limits, and fee structures for FHA loans. A wholesale broker identifies the lender whose guidelines best match your financial profile.
+                </p>
+
+                <h3>Can I use an FHA loan to buy a multi-unit property in Orange County?</h3>
+                <p>
+                    Yes, FHA allows financing for 1-4 unit properties as long as you occupy one unit as your primary residence. This is a popular house-hacking strategy in Orange County, where rental income from the other units helps offset the mortgage payment. The 2026 multi-unit FHA limits in Orange County extend up to $1,551,200 for four-unit properties.
+                </p>
+
+                <div className="bg-gray-50 p-6 rounded-xl my-8">
+                    <h3 className="mt-0">Related Resources</h3>
+                    <ul>
+                        <li><a href="/blog/first-time-homebuyer-guide-orange-county-2026">First-Time Homebuyer Guide: Orange County 2026</a></li>
+                        <li><a href="/blog/conventional-loans-complete-guide-2026">Conventional Loans Complete Guide 2026</a></li>
+                        <li><a href="/blog/va-loan-benefits-guide-2026">VA Loan Benefits Guide 2026</a></li>
+                        <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank: Why Brokers Win</a></li>
+                        <li><a href="/blog/refinance-closing-costs-2026">Refinance Closing Costs Explained</a></li>
+                        <li><a href="/blog/va-loans-orange-county-2026">VA Loans in Orange County 2026</a></li>
+                        <li><a href="/blog/jumbo-loan-requirements-california-washington-2026">Jumbo Loan Requirements: CA &amp; WA</a></li>
+                        <li><a href="/blog/non-qm-loans-wholesale-broker-2026">Non-QM Loans Through a Wholesale Broker</a></li>
+                    </ul>
+                </div>
+
                 <h2>Ready to Explore FHA Financing in Orange County?</h2>
                 <p>
                     FHA loans provide accessible homeownership opportunities in Orange County's competitive housing market. Whether you're a first-time buyer with limited down payment funds or someone with past credit challenges, FHA financing combined with wholesale broker expertise can help you achieve your homeownership goals.
@@ -359,8 +456,8 @@ export default function FHALoansOrangeCountyPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
+                        Licensed in: CA, WA | <a href="tel:9498229662">(949) 822-9662</a>
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-coastal-sd-inland-premium-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-coastal-sd-inland-premium-2026',
@@ -54,7 +56,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-10',
+    dateModified: '2026-02-22',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-coastal-sd-inland-premium-2026',
     about: {
       '@type': 'FinancialProduct',
@@ -235,7 +237,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
           <p className="text-lg text-gray-600">How Coastal San Diego and Inland Premium homeowners access $300K&ndash;$1.5M+ in equity through jumbo HELOC, cash-out refinance, and HELOAN programs</p>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
             <span>By <strong className="text-gray-700">Mo Abdel</strong>, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</span>
-            <span>Updated: February 10, 2026</span>
+            <span>Updated: February 22, 2026</span>
             <span>22 min read</span>
           </div>
         </header>
@@ -244,9 +246,9 @@ export default function HomeEquityCoastalSDInlandPremium() {
 
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
-            <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal SD &amp; Inland Premium Tappable Equity</p>
+            <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal SD &amp; Inland Premium Tappable Equity (February 2026)</p>
             <p className="text-gray-800 mb-0">
-              Homeowners across Coastal San Diego and Inland Premium communities&mdash;La Jolla, Coronado, Carlsbad, and Poway&mdash;hold an estimated <strong>$6.8 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on San Diego County assessor valuations and average outstanding mortgage balances. With median home values ranging from $1.1 million in Poway to $2.5 million in La Jolla, individual homeowners have between <strong>$300,000 and $1.5 million+ in accessible equity</strong> depending on property value, neighborhood, and existing liens. This equity funds home renovations, consolidates high-interest debt, covers education costs, finances investment property acquisitions, and provides retirement liquidity&mdash;all without selling the home. Wholesale broker access to 200+ lenders ensures homeowners across these four distinct San Diego communities find the optimal equity product at the most competitive terms available in the market.
+              Homeowners across Coastal San Diego and Inland Premium communities&mdash;La Jolla, Coronado, Carlsbad, and Poway&mdash;hold an estimated <strong>$6.8 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on San Diego County assessor valuations and average outstanding mortgage balances. San Diego County home values appreciated approximately <strong>4.1% year-over-year through Q4 2025</strong>, further expanding tappable equity positions across this corridor. With median home values ranging from $1.1 million in Poway to $2.5 million in La Jolla, individual homeowners have between <strong>$300,000 and $1.5 million+ in accessible equity</strong> depending on property value, neighborhood, and existing liens. This equity funds home renovations, consolidates high-interest debt, covers education costs, finances investment property acquisitions, and provides retirement liquidity&mdash;all without selling the home. Wholesale broker access to 200+ lenders ensures homeowners across these four distinct San Diego communities find the optimal equity product at the most competitive terms available in the market.
             </p>
           </div>
 
@@ -821,6 +823,8 @@ export default function HomeEquityCoastalSDInlandPremium() {
               <li><a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline font-medium">Home Equity Loan Fixed Rate Guide</a> &mdash; When a HELOAN makes more sense than a HELOC</li>
               <li><a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline font-medium">Home Equity for Renovations</a> &mdash; Complete guide to using equity for home improvement projects</li>
               <li><a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline font-medium">Cash-Out Refinance: How It Works</a> &mdash; Step-by-step cash-out refinance process and qualification</li>
+              <li><a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline font-medium">Home Equity Tax Deduction Guide 2026</a> &mdash; When HELOC and HELOAN interest is deductible</li>
+              <li><a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline font-medium">Home Equity for College Tuition</a> &mdash; Using HELOC draws for education funding strategies</li>
             </ul>
           </div>
 

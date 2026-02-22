@@ -1,8 +1,30 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Conventional Loans Complete Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
-  description: 'Complete guide to conventional mortgage loans in 2026. Learn requirements, down payment options, and wholesale pricing advantages. NMLS #1426884.',
+  description: 'Complete guide to conventional mortgage loans in 2026. Conforming limits, down payment options, PMI removal, and wholesale pricing advantages. $806,500 baseline / $1,209,750 OC limit. NMLS #1426884.',
+  keywords: [
+    'conventional loan 2026',
+    'conforming loan limits 2026',
+    'conventional mortgage requirements',
+    'PMI removal conventional loan',
+    'Fannie Mae guidelines 2026',
+    'Freddie Mac Home Possible',
+    'conventional vs FHA loan',
+    'conventional loan down payment',
+    'Orange County conventional mortgage',
+    'wholesale conventional loan rates',
+  ],
+  openGraph: {
+    title: 'Conventional Loans Complete Guide 2026: Everything You Need to Know',
+    description: 'Master conventional mortgages: conforming limits, down payment options, PMI removal, and wholesale pricing advantages for CA & WA borrowers.',
+    url: 'https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026',
+    type: 'article',
+    authors: ['Mo Abdel'],
+    publishedTime: '2026-01-20T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
+  },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026',
     languages: {
@@ -28,6 +50,7 @@ export default function ConventionalLoansGuide2026Page() {
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
                             "url": "https://www.mothebroker.com/about",
+                            "worksFor": { "@type": "Organization", "name": "Lumin Lending", "identifier": "NMLS #2716106" },
                             "knowsAbout": ["Conventional Mortgages", "Conforming Loans", "Fannie Mae Guidelines", "Freddie Mac Programs"]
                         },
                         "publisher": {
@@ -36,7 +59,7 @@ export default function ConventionalLoansGuide2026Page() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-20",
-                        "dateModified": "2026-01-20",
+                        "dateModified": "2026-02-22",
                         "mainEntity": {
                             "@type": "WebPage",
                             "@id": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
@@ -58,19 +81,41 @@ export default function ConventionalLoansGuide2026Page() {
                 }}
             />
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            { "@type": "Question", "name": "What credit score do I need for a conventional loan?", "acceptedAnswer": { "@type": "Answer", "text": "The minimum credit score for most conventional loans is 620, though some programs require 640+. For optimal pricing, aim for 740 or higher." }},
+                            { "@type": "Question", "name": "Can I get a conventional loan with 3% down?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Fannie Mae's HomeReady and Freddie Mac's Home Possible programs allow 3% down for qualified first-time buyers meeting income limits." }},
+                            { "@type": "Question", "name": "How is conventional PMI different from FHA mortgage insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Conventional PMI can be removed once you reach 20% equity. FHA MIP typically remains for the life of the loan on purchases with less than 10% down." }},
+                            { "@type": "Question", "name": "What are conforming loan limits for 2026?", "acceptedAnswer": { "@type": "Answer", "text": "The 2026 conforming loan limit is $806,500 for most areas. High-cost areas like Orange County allow up to $1,209,750." }},
+                            { "@type": "Question", "name": "Can I use gift funds for my conventional loan down payment?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Gift funds from family members are permitted with a gift letter stating no repayment is expected." }},
+                            { "@type": "Question", "name": "How long does a conventional loan take to close?", "acceptedAnswer": { "@type": "Answer", "text": "Most conventional loans close in 30-45 days. Wholesale brokers often close faster due to streamlined operations." }},
+                            { "@type": "Question", "name": "Can I use a conventional loan for a condo in Orange County?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Condominiums qualify when the HOA meets Fannie Mae or Freddie Mac project approval requirements." }},
+                            { "@type": "Question", "name": "What is the difference between conforming and non-conforming conventional loans?", "acceptedAnswer": { "@type": "Answer", "text": "Conforming loans fall within FHFA limits ($806,500 baseline, $1,209,750 in Orange County). Non-conforming jumbo loans exceed these limits." }},
+                            { "@type": "Question", "name": "Can I refinance from FHA to conventional to remove mortgage insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Homeowners with 20%+ equity save hundreds monthly by refinancing from FHA (lifetime MIP) to conventional (removable PMI)." }},
+                            { "@type": "Question", "name": "Do conventional loans allow non-occupant co-borrowers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Fannie Mae allows non-occupant co-borrowers to help qualify, useful for first-time buyers in high-cost markets." }}
+                        ]
+                    })
+                }}
+            />
+
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
                     Conventional Loans Complete Guide 2026: Everything You Need to Know
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Master the most popular mortgage option with expert wholesale guidance
+                    By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
                 </p>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. In 2026, the conforming loan limit for Orange County is <strong>$1,249,125</strong> for single-family homes. Working with a <strong>wholesale mortgage broker</strong> provides access to conventional loan pricing that typically undercuts retail bank offerings by meaningful margins—savings that compound over the life of your loan.
+                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. Accounting for approximately 70% of all U.S. home loans (Mortgage Bankers Association), conventional mortgages are the most widely used financing option in the country. In 2026, the FHFA set the conforming loan limit at <strong>$806,500</strong> baseline and <strong>$1,209,750</strong> for high-cost areas like Orange County. Working with a <strong>wholesale mortgage broker</strong> with access to 200+ lenders provides conventional loan pricing that typically undercuts retail bank offerings by meaningful margins&mdash;savings that compound over the life of your loan.
                     </p>
                 </div>
 
@@ -276,7 +321,7 @@ export default function ConventionalLoansGuide2026Page() {
 
                 <h3>What are conforming loan limits for 2026?</h3>
                 <p>
-                    The 2026 conforming loan limit for single-family homes in most of the U.S. is $832,750. High-cost areas like Orange County can go up to $1,249,125. Loans exceeding local conforming limits require jumbo financing with different requirements.
+                    The 2026 conforming loan limit for single-family homes in most of the U.S. is $806,500. High-cost areas like Orange County can go up to $1,209,750. Loans exceeding local conforming limits require jumbo financing with different requirements.
                 </p>
 
                 <h3>Can I use gift funds for my conventional loan down payment?</h3>
@@ -289,21 +334,55 @@ export default function ConventionalLoansGuide2026Page() {
                     Most conventional loans close in 30-45 days from application. Wholesale brokers often close faster than retail banks due to streamlined operations and established lender relationships. Complex files or property issues may extend timelines.
                 </p>
 
+                <h3>Can I use a conventional loan for a condo in Orange County?</h3>
+                <p>
+                    Yes. Condominiums qualify for conventional financing when the HOA meets Fannie Mae or Freddie Mac project approval requirements, including adequate reserves, owner-occupancy ratios, and no pending litigation. Some buildings have &quot;spot approval&quot; eligibility through certain wholesale lenders even when the full project is not approved. A wholesale broker identifies lenders with flexible condo guidelines for both warrantable and non-warrantable condominiums. Learn more about condo-specific considerations in our <Link href="/blog/fha-loans-orange-county-2026" className="text-blue-600 hover:underline">FHA Loans Orange County</Link> guide.
+                </p>
+
+                <h3>What is the difference between conforming and non-conforming conventional loans?</h3>
+                <p>
+                    Conforming loans fall within Fannie Mae and Freddie Mac loan limits ($806,500 baseline, $1,209,750 in Orange County for 2026). Non-conforming (jumbo) conventional loans exceed these limits and require separate underwriting with potentially higher credit scores and down payments. For detailed jumbo guidance, see our <Link href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">Jumbo Loan Requirements Guide</Link>.
+                </p>
+
+                <h3>Can I refinance from FHA to a conventional loan to remove mortgage insurance?</h3>
+                <p>
+                    Yes, and this is one of the most popular refinance strategies. FHA loans carry mortgage insurance premiums (MIP) for the life of the loan on most transactions, while conventional loan PMI is removed at 80% LTV. Homeowners who originally purchased with FHA financing and have built 20%+ equity often save hundreds per month by refinancing to conventional. Our <Link href="/blog/when-to-refinance-2026" className="text-blue-600 hover:underline">When to Refinance Guide</Link> covers this strategy in detail.
+                </p>
+
+                <h3>Do conventional loans allow co-borrowers who are not on the title?</h3>
+                <p>
+                    Fannie Mae allows non-occupant co-borrowers on conventional loans, which helps borrowers who need additional qualifying income. The co-borrower signs the mortgage but does not need to live in the property. This is particularly useful for first-time buyers in high-cost markets like Orange County who have a parent or family member willing to help qualify for a larger loan amount.
+                </p>
+
+                <h2>Related Mortgage Guides</h2>
+                <div className="bg-gray-50 p-6 rounded-xl my-8">
+                    <ul className="space-y-2 mb-0">
+                        <li><Link href="/blog/fha-loans-orange-county-2026" className="text-blue-600 hover:underline">FHA Loans Orange County 2026</Link> &mdash; Compare conventional vs. FHA for Orange County purchases.</li>
+                        <li><Link href="/blog/va-loan-benefits-guide-2026" className="text-blue-600 hover:underline">VA Loan Benefits Guide 2026</Link> &mdash; How VA loans compare to conventional for military borrowers.</li>
+                        <li><Link href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">Jumbo Loan Requirements CA &amp; WA</Link> &mdash; When your loan exceeds conforming limits.</li>
+                        <li><Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">Mortgage Broker vs. Bank Complete Guide</Link> &mdash; Why wholesale pricing delivers better conventional loan terms.</li>
+                        <li><Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:underline">First-Time Homebuyer Guide Orange County</Link> &mdash; 3% down conventional options for first-time buyers.</li>
+                        <li><Link href="/blog/when-to-refinance-2026" className="text-blue-600 hover:underline">When to Refinance 2026</Link> &mdash; Refinancing from FHA to conventional and rate improvement strategies.</li>
+                        <li><Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:underline">Wholesale vs. Retail Mortgage Comparison</Link> &mdash; Understand wholesale pricing advantages in detail.</li>
+                        <li><Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide 2026</Link> &mdash; HELOC and cash-out refinance options for existing homeowners.</li>
+                    </ul>
+                </div>
+
                 <h2>Ready to explore conventional loan options?</h2>
                 <p>
-                    Conventional loans offer the flexibility, competitive pricing, and long-term advantages that make them the most popular mortgage choice. Working with an experienced wholesale mortgage broker ensures you access the best available pricing from multiple lenders competing for your business.
+                    Conventional loans offer the flexibility, competitive pricing, and long-term advantages that make them the most popular mortgage choice in America. Working with a wholesale mortgage broker who accesses 200+ lenders ensures you receive the most competitive pricing from multiple lenders competing for your business&mdash;rather than accepting a single bank&rsquo;s take-it-or-leave-it offer.
                 </p>
                 <p>
-                    Contact us today for a free consultation and personalized conventional loan rate comparison. Our wholesale lender relationships and expert guidance help you secure optimal financing for your home purchase or refinance.
+                    Contact Mo Abdel today for a free consultation and personalized conventional loan rate comparison. Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a>.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO
+                        Licensed in: CA, WA | Wholesale broker with access to 200+ lenders
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
-                        Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
+                        Equal Housing Lender. This is not a commitment to lend. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>
                 </div>
             </section>

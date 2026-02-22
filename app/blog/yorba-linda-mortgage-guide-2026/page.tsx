@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-21T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -94,7 +94,7 @@ export default function YorbaLindaMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-21",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
@@ -168,12 +168,12 @@ export default function YorbaLindaMortgageGuide2026() {
             </h1>
 
             <p className="text-sm text-slate-400 mb-4">
-              By Mo Abdel, NMLS #1426884 — Lumin Lending, NMLS #2716106 | Last updated February 21, 2026
+              By Mo Abdel, NMLS #1426884 — Lumin Lending, NMLS #2716106 | Last updated February 22, 2026
             </p>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Yorba Linda median home prices exceed $1.2M in 2026, with luxury neighborhoods reaching $2M+. Wholesale mortgage brokers access 200+ lenders to secure rates 0.25-0.5% below retail banks—potentially saving $50,000+ over a 30-year loan.
+              Yorba Linda median home prices exceed $1.3M in early 2026, with luxury neighborhoods like Black Gold and Horse Country reaching $2M+. An estimated 62% of Yorba Linda purchases now require jumbo financing above the $1,209,750 conforming limit. Wholesale mortgage brokers access 200+ lenders simultaneously&mdash;shopping your loan across the full market to deliver pricing that single-bank applications cannot match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

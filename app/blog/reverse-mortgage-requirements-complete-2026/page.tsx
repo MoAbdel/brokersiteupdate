@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist | MoTheBroker',
-  description: 'Reverse mortgage requirements 2026: Borrowers must be 62+, own home as primary residence, have 50%+ equity, complete HUD counseling, pass financial assessment. FHA limit $1,149,825. NMLS #1426884.',
+  description: 'Reverse mortgage requirements 2026: Borrowers must be 62+, own home as primary residence, have 50%+ equity, complete HUD counseling, pass financial assessment. FHA limit $1,209,750. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
     languages: {
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist',
-    description: 'Complete guide to reverse mortgage requirements 2026. Age 62+, primary residence, HUD counseling, financial assessment. FHA limit $1,149,825.',
+    description: 'Complete guide to reverse mortgage requirements 2026. Age 62+, primary residence, HUD counseling, financial assessment. FHA limit $1,209,750.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
     type: 'article',
     publishedTime: '2026-02-01',
-    modifiedTime: '2026-02-01',
+    modifiedTime: '2026-02-22',
     authors: ['Mo Abdel'],
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
   },
@@ -63,7 +63,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-02-01",
-    "dateModified": "2026-02-01",
+    "dateModified": "2026-02-22",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
@@ -114,7 +114,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         "name": "What is the FHA lending limit for HECM in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The 2026 FHA HECM lending limit is $1,149,825 nationwide. This is the maximum home value used to calculate your loan amount. Homes worth more than this limit are still eligible, but loan calculations are capped at $1,149,825."
+          "text": "The 2026 FHA HECM lending limit is $1,209,750 nationwide. This is the maximum home value used to calculate your loan amount. Homes worth more than this limit are still eligible, but loan calculations are capped at $1,209,750."
         }
       },
       {
@@ -222,7 +222,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Requirements</span>
           <span>-</span>
-          <time dateTime="2026-02-01">February 1, 2026</time>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
           <span>-</span>
           <span>15 min read</span>
         </div>
@@ -233,10 +233,22 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* Citation Hook - 50-75 words */}
         <div className="citation-hook bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
           <p className="text-lg text-gray-800 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884, to qualify for a reverse mortgage in 2026, borrowers must be 62 or older, own their home as a primary residence, have sufficient equity (generally 50%+), and complete HUD-approved counseling. The 2026 FHA HECM lending limit is $1,149,825, with no minimum credit score—though a financial assessment evaluates your ability to pay property taxes and insurance.
+            According to Mo Abdel, NMLS #1426884, to qualify for a reverse mortgage in 2026, borrowers must be 62 or older, own their home as a primary residence, have sufficient equity (generally 50%+), and complete HUD-approved counseling. HUD endorsed 31,894 HECM loans in FY 2025, a 12% increase from FY 2024, as seniors increasingly tap home equity without monthly payments. The 2026 FHA HECM lending limit is $1,209,750, with no minimum credit score—though a financial assessment evaluates your ability to pay property taxes and insurance.
           </p>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       {/* Main Content */}
       <section className="prose prose-lg max-w-none">
@@ -254,7 +266,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         </p>
 
         <p>
-          The eligibility criteria for reverse mortgages have remained consistent in recent years, with the primary changes involving lending limits and financial assessment guidelines. In 2026, the FHA increased the HECM lending limit to $1,149,825, allowing more homeowners to access greater equity from their properties.
+          The eligibility criteria for reverse mortgages have remained consistent in recent years, with the primary changes involving lending limits and financial assessment guidelines. In 2026, the FHA increased the HECM lending limit to $1,209,750, allowing more homeowners to access greater equity from their properties.
         </p>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -299,7 +311,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
               </tr>
               <tr className="bg-gray-100">
                 <td className="py-3 font-medium">2026 FHA Limit</td>
-                <td className="py-3">$1,149,825</td>
+                <td className="py-3">$1,209,750</td>
                 <td className="py-3">Nationwide maximum</td>
               </tr>
             </tbody>
@@ -330,7 +342,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
             <strong>Submit application and complete financial assessment</strong> — Your lender reviews income, credit history, and ability to pay ongoing property charges. If concerns exist, a Life Expectancy Set-Aside (LESA) may be required.
           </li>
           <li>
-            <strong>Property appraisal and underwriting</strong> — An FHA-approved appraiser evaluates your home. The appraisal determines your maximum loan amount based on the lesser of appraised value or the $1,149,825 FHA limit.
+            <strong>Property appraisal and underwriting</strong> — An FHA-approved appraiser evaluates your home. The appraisal determines your maximum loan amount based on the lesser of appraised value or the $1,209,750 FHA limit.
           </li>
         </ol>
 
@@ -605,7 +617,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
               </tr>
               <tr className="border-b bg-gray-50">
                 <td className="px-4 py-3 font-medium">Maximum Loan</td>
-                <td className="px-4 py-3">$1,149,825</td>
+                <td className="px-4 py-3">$1,209,750</td>
                 <td className="px-4 py-3">$4M+ available</td>
                 <td className="px-4 py-3">Varies by program</td>
               </tr>
@@ -740,10 +752,10 @@ export default function ReverseMortgageRequirementsCompletePage() {
               What is the 2026 FHA lending limit for reverse mortgages?
             </h3>
             <p className="paa-answer text-gray-700 font-medium mb-2">
-              The 2026 FHA HECM lending limit is $1,149,825 nationwide, regardless of actual home value.
+              The 2026 FHA HECM lending limit is $1,209,750 nationwide, regardless of actual home value.
             </p>
             <p className="text-gray-600">
-              Homes worth more than the FHA limit still qualify, but loan calculations are capped at $1,149,825. For high-value properties, proprietary reverse mortgages can access additional equity beyond FHA limits.
+              Homes worth more than the FHA limit still qualify, but loan calculations are capped at $1,209,750. For high-value properties, proprietary reverse mortgages can access additional equity beyond FHA limits.
             </p>
           </div>
 
@@ -948,6 +960,20 @@ export default function ReverseMortgageRequirementsCompletePage() {
               <span className="font-semibold text-blue-600">Reverse Mortgage Calculator &rarr;</span>
               <p className="text-sm text-gray-600 mt-1">Estimate how much you can access from your home equity</p>
             </Link>
+            <Link
+              href="/blog/reverse-mortgage-non-borrowing-spouse-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Non-Borrowing Spouse Protections &rarr;</span>
+              <p className="text-sm text-gray-600 mt-1">FHA protections for spouses under 62 on HECM loans</p>
+            </Link>
+            <Link
+              href="/blog/proprietary-reverse-mortgage-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Proprietary Reverse Mortgages &rarr;</span>
+              <p className="text-sm text-gray-600 mt-1">Jumbo reverse mortgage options for high-value California and Washington homes</p>
+            </Link>
           </div>
         </div>
 
@@ -1012,7 +1038,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
             Licensed in California and Washington
           </p>
           <p className="mt-2">
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. HECM borrowers must be 62+ and complete HUD-approved counseling before applying. Individual circumstances vary; contact a licensed loan officer for personalized guidance.
+            Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. HECM borrowers must be 62+ and complete HUD-approved counseling before applying. Individual circumstances vary; contact a licensed loan officer for personalized guidance.
           </p>
         </div>
       </footer>

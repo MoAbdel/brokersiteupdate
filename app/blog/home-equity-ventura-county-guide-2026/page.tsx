@@ -46,7 +46,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
     },
     {
       question: 'Do I need a jumbo HELOC for my Ventura County property?',
-      answer: 'If the equity amount you need exceeds conforming second-lien limits (generally $726,200), you require a jumbo HELOC. Westlake Village, Oak Park, and upper Thousand Oaks properties frequently require jumbo products due to their high values. A wholesale broker accesses specialized jumbo HELOC lenders that retail banks rarely offer.'
+      answer: 'If the equity amount you need exceeds conforming second-lien limits (generally $806,500), you require a jumbo HELOC. Westlake Village, Oak Park, and upper Thousand Oaks properties frequently require jumbo products due to their high values. A wholesale broker accesses specialized jumbo HELOC lenders that retail banks rarely offer.'
     },
     {
       question: 'What credit score do I need for a Ventura County HELOC?',
@@ -115,7 +115,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
               identifier: 'NMLS #2716106',
             },
             datePublished: '2026-02-08',
-            dateModified: '2026-02-08',
+            dateModified: '2026-02-22',
             description: 'Comprehensive home equity guide for Ventura County homeowners. Compare HELOC, HELOAN, and cash-out refinance options across Westlake Village, Thousand Oaks, Oak Park, Camarillo, and Moorpark.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -193,18 +193,24 @@ export default function HomeEquityVenturaCountyGuide2026() {
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 8, 2026</span>
+          <span>Updated February 22, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Ventura County Home Equity Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Ventura County&apos;s Conejo Valley and biotech corridor homeowners hold an estimated <strong>$42 billion in residential real estate equity</strong> across approximately 280,000 housing units. The affluent communities of Westlake Village ($1.4M median), Oak Park ($1.2M), Thousand Oaks ($1.1M), Camarillo ($1.0M), and Moorpark ($900K) concentrate <strong>some of the deepest suburban equity reserves in Southern California</strong>. Approximately <strong>62% of homeowners in these communities have a combined loan-to-value ratio below 50%</strong>, positioning them for substantial equity access. Wholesale broker access unlocks <strong>50+ specialized jumbo and conforming HELOC lenders</strong> not available through retail banking channels.
+            Ventura County&apos;s Conejo Valley and biotech corridor homeowners hold an estimated <strong>$42 billion in residential real estate equity</strong> across approximately 280,000 housing units. The affluent communities of Westlake Village ($1.4M median), Oak Park ($1.2M), Thousand Oaks ($1.1M), Camarillo ($1.0M), and Moorpark ($900K) concentrate <strong>some of the deepest suburban equity reserves in Southern California</strong>. Approximately <strong>62% of homeowners in these communities have a combined loan-to-value ratio below 50%</strong>, positioning them for substantial equity access. Ventura County home values appreciated <strong>4.8% year-over-year through Q1 2026</strong>, further expanding available equity. Wholesale broker access unlocks <strong>200+ specialized jumbo and conforming HELOC lenders</strong> not available through retail banking channels.
           </p>
         </div>
 
@@ -610,7 +616,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
           Home equity products are not commodities. The same $500,000 HELOC on the same Ventura County property carries meaningfully different rates, fees, and terms depending on the lender. A wholesale mortgage broker eliminates the time-consuming process of shopping multiple banks individually while accessing lenders not available to consumers directly.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 50+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
+          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 200+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
         </p>
 
         <h3>Rate Comparison Advantage</h3>
@@ -663,7 +669,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             For homeowners preserving a low existing mortgage rate, a HELOC or HELOAN as a second lien is typically the better choice. For those with above-market rates or seeking to simplify their finances, cash-out refinance consolidates everything into a single, optimized payment. The jumbo nature of most Conejo Valley equity products makes lender comparison essential &mdash; rate and term differences on a $600,000 HELOC total thousands of dollars annually.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 200+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 
@@ -677,6 +683,8 @@ export default function HomeEquityVenturaCountyGuide2026() {
             <li><a href="/blog/second-mortgage-explained-2026">Second Mortgage Explained [2026]</a></li>
             <li><a href="/blog/equity-extraction-risks-2026">Equity Extraction: Risks and Rewards [2026]</a></li>
             <li><a href="/blog/bank-statement-loans-self-employed-2026">Bank Statement Loans for Self-Employed [2026]</a></li>
+            <li><a href="/blog/home-equity-tax-deduction-2026">Home Equity Tax Deduction Guide [2026]</a></li>
+            <li><a href="/blog/home-equity-college-tuition-heloc-2026">Using Home Equity for College Tuition [2026]</a></li>
           </ul>
         </div>
 
@@ -692,7 +700,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify. Home equity products carry the risk of foreclosure if payments are not made. Consult a financial advisor before using home equity to ensure alignment with your financial goals.
           </p>
           <p className="text-xs text-gray-500 mb-0">
-            Information current as of February 2026. Ventura County home values, equity estimates, and program details are subject to change. Consult official sources for the most current data.
+            Information current as of February 22, 2026. Ventura County home values, equity estimates, and program details are subject to change. Consult official sources for the most current data.
           </p>
         </div>
       </section>

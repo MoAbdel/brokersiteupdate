@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-14T00:00:00Z',
-    modifiedTime: '2026-02-14T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -76,7 +76,7 @@ const faqData = [
   },
   {
     question: 'What are the property tax implications of cash-out refinancing in Washington?',
-    answer: 'Washington has no state income tax, making cash-out refinancing particularly advantageous. Borrowed funds are tax-free, and with no state income burden, homeowners retain more monthly cash flow to service larger equity loans than high-tax states.',
+    answer: 'Washington has no state income tax, making cash-out refinancing particularly advantageous. Borrowed funds are not considered taxable income (consult your tax advisor), and with no state income burden, homeowners retain more monthly cash flow to service larger equity loans than in high-tax states.',
   },
   {
     question: 'Do Montlake properties near UW qualify for special equity programs?',
@@ -112,7 +112,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-14',
-    dateModified: '2026-02-14',
+    dateModified: '2026-02-22',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-urban-seattle-premium-2026',
     description: 'Urban Seattle premium home equity guide covering HELOC, HELOAN, and cash-out refinance for Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island homeowners.',
     about: {
@@ -229,17 +229,23 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           </p>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
             <span>By Mo Abdel, NMLS #1426884</span><span>|</span>
-            <span>Updated February 14, 2026</span><span>|</span>
+            <span>Updated February 22, 2026</span><span>|</span>
             <span>Lumin Lending, NMLS #2716106</span>
           </div>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and tech-sector RSU income creating uniquely strong qualification profiles, homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
+              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026, representing the Pacific Northwest&rsquo;s highest concentration of accessible residential equity. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and the Seattle metro area adding 12,400 tech jobs in 2025 alone (Washington Employment Security Department), RSU income creates uniquely strong qualification profiles. Homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
             </p>
           </div>
 
@@ -362,10 +368,10 @@ export default function HomeEquityUrbanSeattlePremium2026() {
                   <td className="px-4 py-3 border-t font-semibold text-blue-700">Fixed rate</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 border-t font-medium">Current Rate Range (Feb 2026)</td>
-                  <td className="px-4 py-3 border-t">8.25% &ndash; 10.50%</td>
-                  <td className="px-4 py-3 border-t">7.75% &ndash; 9.75%</td>
-                  <td className="px-4 py-3 border-t">6.25% &ndash; 7.25%</td>
+                  <td className="px-4 py-3 border-t font-medium">Rate Structure</td>
+                  <td className="px-4 py-3 border-t">Prime + margin (variable)</td>
+                  <td className="px-4 py-3 border-t">Fixed for full term</td>
+                  <td className="px-4 py-3 border-t">Fixed or adjustable</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Maximum CLTV (Wholesale)</td>
@@ -396,7 +402,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           </div>
 
           <p>
-            For Urban Seattle Premium homeowners who secured mortgages between 2020 and 2022 at rates between 2.75% and 4.50%, HELOCs and HELOANs deliver the best outcome because they preserve the low-rate first mortgage. A Queen Anne homeowner with a 3.25% first mortgage loses that rate permanently by cash-out refinancing at 6.75%&mdash;adding $1,400+ per month on a $500,000 balance. For detailed product mechanics, read the <Link href="/blog/heloc-vs-home-equity-loan-2026" className="text-blue-700 underline font-medium">HELOC vs Home Equity Loan Guide</Link>.
+            For Urban Seattle Premium homeowners who secured mortgages between 2020 and 2022 at rates between 2.75% and 4.50%, HELOCs and HELOANs deliver the best outcome because they preserve the low-rate first mortgage. A Queen Anne homeowner with a low-rate first mortgage loses that rate permanently by cash-out refinancing at today&rsquo;s higher market rates&mdash;adding hundreds or even thousands per month on a $500,000 balance. For detailed product mechanics, read the <Link href="/blog/heloc-vs-home-equity-loan-2026" className="text-blue-700 underline font-medium">HELOC vs Home Equity Loan Guide</Link>.
           </p>
 
           <hr className="my-10" />
@@ -518,7 +524,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           </p>
 
           <p>
-            Magnolia&rsquo;s ADU and DADU opportunity mirrors Shoreline&rsquo;s but at higher property values. The neighborhood&rsquo;s generous lot sizes (typically 5,000-8,000 sq ft) accommodate detached ADUs that generate $2,400-$3,200 monthly rental income. A $220,000-$340,000 HELOC-financed DADU adds $300,000-$450,000 in property value while creating tax-free rental income at the Washington State level. Magnolia&rsquo;s walkable village, Discovery Park access, and family-friendly character make ADU rentals consistently desirable.
+            Magnolia&rsquo;s ADU and DADU opportunity mirrors Shoreline&rsquo;s but at higher property values. The neighborhood&rsquo;s generous lot sizes (typically 5,000-8,000 sq ft) accommodate detached ADUs that generate $2,400-$3,200 monthly rental income. A $220,000-$340,000 HELOC-financed DADU adds $300,000-$450,000 in property value while creating loan proceeds (generally not considered taxable income) rental income at the Washington State level. Magnolia&rsquo;s walkable village, Discovery Park access, and family-friendly character make ADU rentals consistently desirable.
           </p>
 
           <p>
@@ -556,7 +562,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           </p>
 
           <p>
-            <strong>Jumbo HELOC access separates wholesale brokers from retail banks in Madison Park.</strong> Properties above the $1,149,825 conforming limit (2026 King County) require jumbo HELOC products. Most retail banks limit jumbo HELOC credit lines to $500,000-$750,000. Wholesale broker access unlocks portfolio lenders offering credit lines of $1,000,000-$2,000,000+ for qualified Madison Park and Montlake homeowners. The difference between a $500,000 bank HELOC and a $1,200,000 wholesale HELOC represents $700,000 in additional equity access for a single property.
+            <strong>Jumbo HELOC access separates wholesale brokers from retail banks in Madison Park.</strong> Properties above the $1,209,750 conforming limit (2026 King County) require jumbo HELOC products. Most retail banks limit jumbo HELOC credit lines to $500,000-$750,000. Wholesale broker access unlocks portfolio lenders offering credit lines of $1,000,000-$2,000,000+ for qualified Madison Park and Montlake homeowners. The difference between a $500,000 bank HELOC and a $1,200,000 wholesale HELOC represents $700,000 in additional equity access for a single property.
           </p>
 
           <p>
@@ -806,7 +812,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">Does Washington State tax home equity loan proceeds?</h3>
-              <p className="mb-0"><strong>Washington State has no state income tax, meaning all returns from deployed equity are tax-free at the state level.</strong> HELOC-funded rental income, investment returns, and capital gains compound faster in Washington than in California or Oregon, saving $5,000-$15,000+ annually on typical Urban Seattle Premium equity deployments.</p>
+              <p className="mb-0"><strong>Washington State has no state income tax, meaning returns from deployed equity are not subject to state income tax.</strong> HELOC-funded rental income, investment returns, and capital gains compound faster in Washington than in California or Oregon, saving $5,000-$15,000+ annually on typical Urban Seattle Premium equity deployments.</p>
             </div>
 
             <div className="border border-gray-200 rounded-lg p-5">
@@ -901,7 +907,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           {/* ---- Disclaimer ---- */}
           <div className="border-t border-gray-200 pt-6 mt-8">
             <p className="text-xs text-gray-500">
-              <strong>Disclaimer:</strong> This content is for informational purposes only and does not constitute a loan commitment or guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Washington State has no state income tax as of 2026; tax laws are subject to change. Information is for educational purposes only and does not constitute financial or tax advice. Equity estimates are illustrative and based on market data; actual equity access requires property appraisal and lender approval. Condo warrantability varies by building; individual condo HELOC approval is subject to HOA review. Waterfront and lakefront valuations depend on specific property characteristics and appraiser methodology. RSU qualification requirements vary by lender. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized home equity analysis and current rate quotes.
+              <strong>Disclaimer:</strong> This is not a commitment to lend. This content is for informational and educational purposes only and does not constitute financial advice or a guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Washington State has no state income tax as of 2026; tax laws are subject to change. Information is for educational purposes only and does not constitute financial or tax advice. Equity estimates are illustrative and based on market data; actual equity access requires property appraisal and lender approval. Condo warrantability varies by building; individual condo HELOC approval is subject to HOA review. Waterfront and lakefront valuations depend on specific property characteristics and appraiser methodology. RSU qualification requirements vary by lender. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized home equity analysis and current rate quotes.
             </p>
           </div>
 

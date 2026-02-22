@@ -133,46 +133,49 @@ Examples:
 
 ## Content Distribution Strategy
 
-### PRIORITY BACKLOG (Clear Before Opportunity Queue)
+### PRIORITY BACKLOG — ✅ CLEARED (Feb 2026)
 
-**These posts MUST be generated before any opportunity-queue items.** When "Generate X posts" is invoked, draw from this backlog first. Once all items are ✅, delete this section and resume normal opportunity-queue flow.
+All 13 backlog items have been generated. Normal opportunity-queue flow is now active.
 
-#### DSCR Cluster Posts (6 posts) — HIGHEST PRIORITY
-| # | Title | Target Slug | Status |
+<details>
+<summary>Completed backlog (click to expand)</summary>
+
+#### DSCR Cluster Posts (6 posts) — ✅ ALL COMPLETE
+| # | Title | Actual Slug | Status |
 |---|-------|-------------|--------|
-| 1 | DSCR Loans Explained: How Investors Qualify Without W-2s | dscr-loans-explained-investors-2026 | ⬜ |
-| 2 | DSCR Loan Requirements 2026: Rates, Ratios & Down Payment | dscr-loan-requirements-2026 | ⬜ |
-| 3 | DSCR vs Conventional Investment Property Loans | dscr-vs-conventional-investment-property-2026 | ⬜ |
-| 4 | DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing | dscr-loans-short-term-rentals-airbnb-2026 | ⬜ |
-| 5 | DSCR Loan Calculator: How to Calculate Your Ratio | dscr-loan-calculator-ratio-2026 | ⬜ |
-| 6 | DSCR Loans for Portfolio Investors: Scaling with Wholesale Rates | dscr-loans-portfolio-investors-scaling-2026 | ⬜ |
+| 1 | DSCR Loans Explained: How Investors Qualify Without W-2s | dscr-loans-explained-investors-2026 | ✅ |
+| 2 | DSCR Loan Requirements 2026: Rates, Ratios & Down Payment | dscr-loan-requirements-2026 | ✅ |
+| 3 | DSCR vs Conventional Investment Property Loans | dscr-vs-conventional-investment-property-2026 | ✅ |
+| 4 | DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing | dscr-loans-short-term-rentals-airbnb-2026 | ✅ |
+| 5 | DSCR Loan Calculator: How to Calculate Your Ratio | dscr-loan-calculator-ratio-2026 | ✅ |
+| 6 | DSCR Loans for Portfolio Investors: Scaling with Wholesale Rates | dscr-loans-portfolio-investors-scaling-2026 | ✅ |
 
-#### Remaining HECM Hub (1 post)
-| Hub ID | Title | Status |
-|--------|-------|--------|
-| WA-SS-A | Reverse Mortgage South Sound Affluent 2026 | ⬜ |
+#### HECM Hub (1 post) — ✅ COMPLETE
+| Hub ID | Title | Actual Slug | Status |
+|--------|-------|-------------|--------|
+| WA-SS-A | Reverse Mortgage South Sound Affluent 2026 | reverse-mortgage-south-sound-affluent-wa-2026 | ✅ |
 
-#### Remaining Equity Hub Posts (5 posts)
-| Hub ID | Title | Status |
-|--------|-------|--------|
-| CA-VC-A | Home Equity Ventura Affluent 2026 | ⬜ |
-| WA-SE-A | Home Equity Ultra-Luxury Eastside WA 2026 | ⬜ |
-| WA-SE-B | Home Equity Premium Eastside WA 2026 | ⬜ |
-| WA-SE-C | Home Equity Tech Corridor Eastside WA 2026 | ⬜ |
-| WA-NS-A | Home Equity North Sound Islands 2026 | ⬜ |
+#### Equity Hub Posts (5 posts) — ✅ ALL COMPLETE
+| Hub ID | Title | Actual Slug | Status |
+|--------|-------|-------------|--------|
+| CA-VC-A | Home Equity Ventura Affluent 2026 | home-equity-ventura-affluent-ca-2026 | ✅ |
+| WA-SE-A | Home Equity Ultra-Luxury Eastside WA 2026 | home-equity-ultra-luxury-eastside-wa-2026 | ✅ |
+| WA-SE-B | Home Equity Premium Eastside WA 2026 | home-equity-premium-eastside-wa-2026 | ✅ |
+| WA-SE-C | Home Equity Tech Corridor Eastside WA 2026 | home-equity-tech-corridor-eastside-wa-2026 | ✅ |
+| WA-NS-A | Home Equity North Sound Islands 2026 | home-equity-north-sound-islands-wa-2026 | ✅ |
 
-#### Remaining Wholesale Hub Post (1 post)
-| Hub ID | Title | Status |
-|--------|-------|--------|
-| WA-SE-C | Wholesale Mortgage Broker Tech Corridor Eastside WA 2026 | ⬜ |
+#### Wholesale Hub Post (1 post) — ✅ COMPLETE
+| Hub ID | Title | Actual Slug | Status |
+|--------|-------|-------------|--------|
+| WA-SE-C | Wholesale Mortgage Broker Tech Corridor Eastside WA 2026 | wholesale-mortgage-tech-corridor-eastside-wa-2026 | ✅ |
 
-**Total backlog: 13 posts.** Generate these first in any batch. Track balance still applies within the backlog (mix DSCR, HECM, and Equity across batches).
+</details>
 
 ---
 
 ### Opportunity-Queue-Driven System
 
-**After the priority backlog is cleared,** "Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.
+"Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.
 
 The opportunity queue is built from GSC search performance data and scores every pending hub+track pair by real demand signals, striking-distance potential, business value, and cannibalization risk.
 
@@ -631,7 +634,7 @@ Key facts:
 **Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
 Licensed in: CA, WA
 
-Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
+Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Information is for educational purposes only and does not constitute financial, tax, or legal advice. Contact a licensed loan officer for personalized guidance.
 ---
 
 ## Schema Markup
@@ -1085,26 +1088,56 @@ After adding entries, confirm:
 
 ## Compliance Gate
 
-**MANDATORY:** Every post must pass ALL items before output:
+**MANDATORY:** Every post must pass ALL items before output. See `references/compliance-rules.md` for detailed rules, examples, and rationale.
 
-- [ ] NO specific interest rate percentages
+> Updated 2026-02-17 after full-site audit found 70+ violations. Every rule maps to a real violation.
+
+### Rates & Claims (HARD BLOCK)
+- [ ] NO specific interest rate percentages (Reg Z trigger term)
 - [ ] NO guaranteed savings amounts
-- [ ] NO "lowest rate" claims without qualification
-- [ ] NO guaranteed approval language
-- [ ] INCLUDES NMLS #1426884 and Lumin Lending NMLS #2716106
-- [ ] INCLUDES Equal Housing Lender statement
-- [ ] INCLUDES educational disclaimer
-- [ ] Uses inclusive, non-discriminatory language
-- [ ] HECM posts: HUD counseling requirement mentioned
-- [ ] HECM posts: Age 62+ requirement clearly stated
-- [ ] Wholesale posts: "200+ lenders" claim is accurate
-- [ ] Wholesale posts: No specific rate comparisons
-- [ ] DSCR posts: No guaranteed DSCR ratio thresholds (varies by lender)
-- [ ] DSCR posts: No specific interest rate quotes
-- [ ] DSCR posts: Disclaimer that rental income projections are estimates
-- [ ] DSCR posts: Note that property types and eligibility vary by lender program
+- [ ] NO "lowest rate", "best rate", "best mortgage broker" claims
+- [ ] NO "Best Rate Guarantee" or guarantee language
+- [ ] NO "wholesale rates for consumers" pricing claims
+- [ ] NO confirmshaming or high-pressure CTAs
+- [ ] NO "hassle-free", "zero headaches" unsubstantiated claims
 
-See `references/compliance-rules.md` for complete requirements.
+### Entity & Licensing (HARD BLOCK)
+- [ ] INCLUDES Mo Abdel NMLS #1426884
+- [ ] INCLUDES Lumin Lending NMLS #2716106 and DRE #02291443
+- [ ] States listed as **CA, WA ONLY** (NEVER TX, FL, AZ, VA, CO)
+- [ ] Lender count is "200+ lenders" (NEVER 50+ or 100+)
+- [ ] Company name is "Lumin Lending" (NEVER "West Capital Lending")
+
+### Required Disclosures (HARD BLOCK)
+- [ ] INCLUDES Equal Housing Lender statement
+- [ ] INCLUDES "not a commitment to lend" + "not all borrowers will qualify"
+- [ ] INCLUDES educational/not-financial-advice disclaimer
+- [ ] Footer disclosure block present and complete
+
+### HECM-Specific (HARD BLOCK if applicable)
+- [ ] HUD/FHA disclaimer present: "not provided by HUD or FHA"
+- [ ] NO "tax-free" — must use "generally not considered taxable income (consult your tax advisor)"
+- [ ] NO "eliminate mortgage payments" — must say "no required monthly principal and interest payments" + tax/insurance/maintenance obligation
+- [ ] Age 62+ and HUD counseling requirements stated
+- [ ] Benefits disclaimer present if Social Security/Medicare discussed
+
+### Fair Housing (HARD BLOCK for geo/city content)
+- [ ] NO demographic descriptions of neighborhoods (who lives there)
+- [ ] NO `bestFor` targeting by protected class
+- [ ] Neighborhoods described by property type, amenities, architecture ONLY
+
+### Unauthorized Practice
+- [ ] Tax discussion → "consult your CPA" disclaimer
+- [ ] Legal/estate topics → "consult an attorney" disclaimer
+- [ ] Investment discussion → "not investment advice" disclaimer
+- [ ] Benefits discussion → "contact SSA/VA/Medicare" disclaimer
+
+### Content Accuracy
+- [ ] Conforming limit: $806,500 (baseline) / $1,209,750 (high-cost) — 2025 FHFA
+- [ ] All data attributed to source with date
+- [ ] DSCR posts: disclaimer that ratios/projections are estimates, vary by lender
+
+**If ANY HARD BLOCK item fails, the post MUST be revised before output.**
 
 ## Pre-Output Quality Gates
 
