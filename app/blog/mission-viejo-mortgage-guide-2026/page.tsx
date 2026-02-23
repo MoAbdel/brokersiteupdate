@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
-  description: 'Mission Viejo mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
+  title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders | Mo Abdel',
+  description: 'Mission Viejo mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
   keywords: ['Mission Viejo mortgage broker', 'Mission Viejo home loans', 'Mission Viejo mortgage rates 2026', 'wholesale mortgage Mission Viejo'],
   openGraph: {
-    title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
-    description: 'Mission Viejo mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders',
+    description: 'Mission Viejo mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
     url: 'https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-18T00:00:00Z',
-    modifiedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What are current mortgage rates in Mission Viejo?",
-    answer: "Mission Viejo mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 100+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
+    answer: "Mission Viejo mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 200+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
   },
   {
     question: "How much do I need for a down payment on a Mission Viejo home?",
@@ -31,7 +31,7 @@ const faqData = [
   },
   {
     question: "What is the conforming loan limit in Mission Viejo for 2026?",
-    answer: "The 2026 conforming loan limit in Orange County, including Mission Viejo, is $1,266,300. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
+    answer: "The 2026 conforming loan limit in Orange County, including Mission Viejo, is $1,209,750. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
   },
   {
     question: "Is Mission Viejo good for first-time homebuyers?",
@@ -43,11 +43,23 @@ const faqData = [
   },
   {
     question: "Why use a mortgage broker instead of a bank in Mission Viejo?",
-    answer: "A wholesale mortgage broker like Mo Abdel shops 100+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
+    answer: "A wholesale mortgage broker like Mo Abdel shops 200+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
   },
   {
     question: "What credit score do I need to buy a home in Mission Viejo?",
     answer: "Minimum credit scores for Mission Viejo mortgages: 620 for conventional loans, 580 for FHA loans, and 620 for most jumbo loans. Higher scores qualify for better rates across all loan types."
+  },
+  {
+    question: "Can I refinance my existing Mission Viejo mortgage through a wholesale broker?",
+    answer: "Yes. Whether you want a rate-and-term refinance or cash-out refinance, a wholesale broker compares 200+ lenders simultaneously. Mission Viejo homeowners who purchased before 2022 have built significant equity, making cash-out refinancing an attractive option for home improvements or debt consolidation."
+  },
+  {
+    question: "Are there self-employed mortgage options for Mission Viejo buyers?",
+    answer: "Yes. Bank statement loan programs use 12-24 months of deposits instead of tax returns. This benefits self-employed professionals, small business owners, and independent contractors purchasing in Mission Viejo. A wholesale broker matches you with lenders offering the most favorable bank statement program terms."
+  },
+  {
+    question: "What are Mission Viejo Mello-Roos fees and how do they affect my mortgage?",
+    answer: "Some Mission Viejo neighborhoods, especially newer developments, have Mello-Roos special tax assessments ranging from $1,000 to $4,000+ annually. Lenders include these in your debt-to-income ratio calculation. A wholesale broker helps structure your loan to accommodate these additional costs while maintaining qualification."
   }
 ];
 
@@ -61,7 +73,7 @@ export default function MissionViejoMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Mission Viejo Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
+            "headline": "Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -74,7 +86,7 @@ export default function MissionViejoMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-18",
-            "dateModified": "2026-01-18",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026",
@@ -130,12 +142,12 @@ export default function MissionViejoMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Mission Viejo Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
+              Mission Viejo Mortgage Broker 2026: Access Wholesale Rates from 200+ Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Mission Viejo mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.1M and the 2026 conforming limit at $1,266,300, most Mission Viejo buyers qualify for conventional financing with competitive wholesale rates.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Mission Viejo mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With 96,000 residents, median home prices at $1.1M, and the 2026 conforming limit at $1,209,750, most Mission Viejo buyers qualify for conventional financing with competitive wholesale rates &mdash; saving an average of $4,500-$9,000 annually compared to retail bank pricing.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -177,7 +189,7 @@ export default function MissionViejoMortgageGuide2026() {
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,209,750</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
@@ -205,7 +217,7 @@ export default function MissionViejoMortgageGuide2026() {
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
               <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
-                <h4 className="font-semibold text-slate-900">100+ Lender Competition</h4>
+                <h4 className="font-semibold text-slate-900">200+ Lender Competition</h4>
                 <p className="text-slate-600">Multiple lenders compete for your loan, driving down rates and fees automatically.</p>
               </div>
             </div>
@@ -236,7 +248,7 @@ export default function MissionViejoMortgageGuide2026() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <Home className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 Most Mission Viejo homes qualify for conforming loans with the best available rates. Ideal for the majority of buyers in this market where median prices fall below the limit.
@@ -251,7 +263,7 @@ export default function MissionViejoMortgageGuide2026() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <DollarSign className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 Luxury homes in Mission Viejo's premier neighborhoods like Casta del Sol, Aegean Hills, and La Paz may exceed conforming limits. Wholesale jumbo access ensures competitive rates.
@@ -369,7 +381,7 @@ export default function MissionViejoMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares rates from 100+ lenders to find your best Mission Viejo mortgage option.</p>
+                  <p className="text-slate-600">Mo Abdel compares rates from 200+ lenders to find your best Mission Viejo mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -405,7 +417,7 @@ export default function MissionViejoMortgageGuide2026() {
             Ready to Explore Mission Viejo Mortgage Options?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get a personalized rate quote from 100+ wholesale lenders. No credit check required for initial consultation. Fast response within 24 hours.
+            Get a personalized rate quote from 200+ wholesale lenders. No credit check required for initial consultation. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -441,8 +453,11 @@ export default function MissionViejoMortgageGuide2026() {
             <Link href="/blog/laguna-niguel-refinance-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Nearby: Laguna Niguel Mortgages
             </Link>
-            <Link href="/blog/rancho-santa-margarita-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
-              → Nearby: Rancho Santa Margarita Mortgages
+            <Link href="/blog/ladera-ranch-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Nearby: Ladera Ranch Mortgages
+            </Link>
+            <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Self-Employed Mortgage Guide
             </Link>
           </div>
         </section>

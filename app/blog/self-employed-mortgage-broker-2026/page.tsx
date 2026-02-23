@@ -3,6 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Self-Employed? Why You Need a Wholesale Mortgage Broker [2026]',
   description: 'Self-employed mortgage solutions 2026: Bank statement loans, asset depletion, P&L programs. Learn why wholesale brokers solve challenges banks create. NMLS #1426884.',
+  openGraph: {
+    title: 'Self-Employed? Why You Need a Wholesale Mortgage Broker [2026]',
+    description: 'Self-employed mortgage solutions 2026: Bank statement loans, asset depletion, P&L programs. Learn why wholesale brokers solve challenges banks create.',
+    url: 'https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026',
+    type: 'article',
+    publishedTime: '2026-01-30',
+    modifiedTime: '2026-02-22T00:00:00Z',
+    authors: ['Mo Abdel'],
+  },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026',
     languages: {
@@ -35,7 +45,7 @@ export default function SelfEmployedMortgageBrokerPage() {
               "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
             },
             "datePublished": "2026-01-30",
-            "dateModified": "2026-01-30"
+            "dateModified": "2026-02-22"
           })
         }}
       />
@@ -51,7 +61,7 @@ export default function SelfEmployedMortgageBrokerPage() {
                 "name": "Can I get a mortgage if I'm self-employed?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 50+ specialized lenders."
+                  "text": "Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 200+ specialized lenders."
                 }
               },
               {
@@ -85,6 +95,46 @@ export default function SelfEmployedMortgageBrokerPage() {
                   "@type": "Answer",
                   "text": "Down payment requirements for self-employed programs typically range from 10-20%, depending on the loan program, credit score, and loan amount. Some programs may require more for larger loan amounts or lower credit scores."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "What is an asset depletion loan for self-employed borrowers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An asset depletion loan qualifies borrowers based on liquid assets rather than income. The lender divides total qualifying assets by the loan term (e.g., 360 months) to calculate monthly income. A borrower with $2 million in investments could qualify based on approximately $5,555 per month in imputed income, regardless of tax return figures. This program serves high-net-worth self-employed individuals with substantial assets but limited reported income."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use a P&L statement instead of tax returns for a mortgage?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. P&L-only programs accept a CPA-prepared profit and loss statement as income documentation, bypassing tax returns entirely. The CPA must provide a comfort letter verifying the business financials. These programs are available through wholesale lenders and serve business owners whose recent P&L reflects stronger income than prior-year tax returns show."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do self-employed borrowers pay higher mortgage rates?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Non-QM programs like bank statement loans do carry slightly higher rates than conventional full-documentation mortgages, typically ranging from 0.5% to 1.5% above conventional rates. However, wholesale broker access to 200+ lenders creates competitive pricing pressure. Many self-employed borrowers find that qualifying for a larger loan at a slightly higher rate beats being denied or limited to a smaller loan at a conventional bank."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I refinance out of a bank statement loan later?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Many self-employed borrowers use bank statement loans as a bridge strategy: purchase or refinance now with bank statement documentation, then refinance into a conventional loan after filing higher-income tax returns. There are typically no prepayment penalties after 2-3 years on most bank statement programs, making this a viable path to lower long-term rates."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of business owners benefit most from wholesale mortgage brokers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Freelancers, consultants, LLC owners, S-Corp shareholders, sole proprietors, gig economy workers, real estate investors, and anyone with complex or fluctuating income benefits from wholesale broker access. Brokers match each borrower profile to the lender with the most favorable guidelines for their specific business structure and income documentation pattern."
+                }
               }
             ]
           })
@@ -98,12 +148,13 @@ export default function SelfEmployedMortgageBrokerPage() {
         <p className="text-lg text-gray-600">
           Bank statement loans, asset depletion, and 200+ lenders that understand self-employment
         </p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Self-employed borrowers face unique mortgage challenges that wholesale brokers solve through access to <strong>bank statement loans, asset depletion programs, and 200+ lenders</strong> with varying income calculation methods. While banks require tax returns that understate self-employed income, wholesale lenders look at actual cash flow—often qualifying borrowers for significantly more than banks would approve.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Self-employed borrowers face unique mortgage challenges that wholesale brokers solve through access to <strong>bank statement loans, asset depletion programs, and 200+ lenders</strong> with varying income calculation methods.&quot; The Bureau of Labor Statistics reports 16.5 million Americans are self-employed as of Q4 2025, yet traditional lenders deny 40-60% of self-employed mortgage applications due to tax-return-based income calculations. While banks require tax returns that understate self-employed income, wholesale lenders look at actual cash flow&mdash;often qualifying borrowers for significantly more than banks would approve. For more on non-QM options, see our <a href="/blog/non-qm-loans-wholesale-broker-2026">non-QM wholesale guide</a>.
           </p>
         </div>
 
@@ -408,7 +459,7 @@ export default function SelfEmployedMortgageBrokerPage() {
 
         <h3>Can I get a mortgage if I'm self-employed?</h3>
         <p>
-          Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 50+ specialized lenders.
+          Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 200+ specialized lenders.
         </p>
 
         <h3>Why do banks deny self-employed borrowers?</h3>

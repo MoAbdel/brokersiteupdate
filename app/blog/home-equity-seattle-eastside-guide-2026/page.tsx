@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
+  title: 'Seattle Eastside Home Equity: No-Income-Tax State HELOC & Cash-Out Guide [2026]',
   description: 'Home equity Seattle Eastside guide covering HELOC, HELOAN & cash-out refinance for 14 cities. No WA state income tax advantage. 200+ lender access. NMLS #1426884.',
   keywords: [
     'home equity Seattle Eastside',
@@ -21,12 +21,15 @@ export const metadata: Metadata = {
     'no income tax HELOC Washington',
   ],
   openGraph: {
-    title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
+    title: 'Seattle Eastside Home Equity: No-Income-Tax State HELOC & Cash-Out Guide [2026]',
     description: 'HELOC, HELOAN & cash-out refinance guide for 14 Seattle Eastside cities. No WA income tax advantage.',
     url: 'https://www.mothebroker.com/blog/home-equity-seattle-eastside-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-07T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-seattle-eastside-guide-2026',
     languages: {
@@ -40,7 +43,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
+    headline: 'Seattle Eastside Home Equity: No-Income-Tax State HELOC & Cash-Out Guide [2026]',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -55,7 +58,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-07',
-    dateModified: '2026-02-07',
+    dateModified: '2026-02-22',
     description: 'Comprehensive home equity guide for 14 Seattle Eastside cities covering HELOC, HELOAN, and cash-out refinance options.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-seattle-eastside-guide-2026',
     about: [
@@ -222,15 +225,21 @@ export default function HomeEquitySeattleEastsideGuide2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Seattle Eastside Home Equity: Tax-Free State HELOC &amp; Cash-Out Guide [2026]
+            Seattle Eastside Home Equity: No-Income-Tax State HELOC &amp; Cash-Out Guide [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for 14 Eastside cities | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -247,11 +256,11 @@ export default function HomeEquitySeattleEastsideGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Seattle Eastside homeowners sit on some of the largest home equity positions in the nation. From Medina estates with $3 million or more in accessible equity to Bothell family homes with $500,000 in built-up value, the Eastside provides extraordinary opportunities to leverage your equity for renovations, investments, debt consolidation, education, and more. As a wholesale mortgage broker with access to over 200 lenders, I help Eastside homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available — all amplified by Washington State&apos;s zero state income tax advantage.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Seattle Eastside homeowners hold an estimated $82 billion in total residential equity across 14 cities as of Q1 2026 &mdash; with Bellevue alone seeing a 12.4% year-over-year median price increase to $1.5 million. From Medina estates with $3 million or more in accessible equity to Bothell family homes with $500,000 in built-up value, the Eastside provides extraordinary opportunities to leverage your equity for renovations, investments, debt consolidation, education, and more. As a wholesale mortgage broker with access to over 200 lenders, I help Eastside homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; all amplified by Washington State&apos;s zero state income tax advantage.
           </p>
 
           <p>
-            This regional guide covers home equity options for 14 Seattle Eastside cities, organized into three hubs based on property values and homeowner profiles. Whether you are a Bellevue tech executive looking to finance an ADU, a Mercer Island retiree consolidating expenses, or a Redmond startup founder accessing capital, the right equity product exists — and wholesale broker access ensures you find it at the best possible price.
+            This regional guide covers home equity options for 14 Seattle Eastside cities, organized into three hubs based on property values and homeowner profiles. Whether you are a Bellevue tech executive looking to finance an ADU, a Mercer Island retiree consolidating expenses, or a Redmond startup founder accessing capital, the right equity product exists &mdash; and wholesale broker access ensures you find it at the best possible price. For homeowners exploring all equity product types, our <a href="/blog/heloc-complete-guide-2026" className="text-blue-600 hover:underline">HELOC Complete Guide</a> covers the fundamentals, while the <a href="/blog/home-equity-greater-seattle-guide-2026" className="text-blue-600 hover:underline">Greater Seattle Home Equity Guide</a> provides statewide context.
           </p>
 
           {/* Product Comparison */}

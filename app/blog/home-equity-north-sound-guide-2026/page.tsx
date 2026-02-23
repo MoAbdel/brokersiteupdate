@@ -25,7 +25,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-north-sound-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-08T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-north-sound-guide-2026',
     languages: {
@@ -51,7 +54,7 @@ export default function HomeEquityNorthSoundGuide2026() {
     },
     {
       question: 'What HELOC rates are available for North Sound properties in 2026?',
-      answer: 'North Sound HELOC rates through wholesale channels range from prime minus 0.25% to prime plus 1.50% in February 2026, with the prime rate at 8.50%. This translates to HELOC rates between 8.25% and 10.00% depending on credit score, loan-to-value ratio, and property type. Wholesale brokers access promotional intro rates as low as 6.99% for the first 12-24 months from select lenders.',
+      answer: 'North Sound HELOC rates through wholesale channels are typically calculated as Prime Rate plus or minus a margin based on credit score, loan-to-value ratio, and property type. Wholesale brokers often access more competitive margins and promotional introductory rates from select lenders. Contact Mo Abdel for current rate information specific to your situation.',
     },
     {
       question: 'Is a cash-out refinance better than a HELOC for North Sound homeowners?',
@@ -118,7 +121,7 @@ export default function HomeEquityNorthSoundGuide2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-08',
-            dateModified: '2026-02-08',
+            dateModified: '2026-02-22',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-north-sound-guide-2026',
             description: 'North Sound home equity guide: HELOC, HELOAN & cash-out refinance for Bellingham, Anacortes, San Juan Island, Mukilteo & Edmonds homeowners.',
           }),
@@ -204,10 +207,22 @@ export default function HomeEquityNorthSoundGuide2026() {
         </p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span><span>|</span>
-          <span>Updated February 8, 2026</span><span>|</span>
+          <span><time dateTime="2026-02-22">Updated February 22, 2026</time></span><span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -216,7 +231,7 @@ export default function HomeEquityNorthSoundGuide2026() {
             North Sound Home Equity Fact
           </p>
           <p className="text-blue-800 mb-0">
-            North Sound homeowners hold an estimated $6.8 billion in accessible home equity across Bellingham, Anacortes, San Juan Island, Friday Harbor, Mukilteo, and Edmonds. With property values appreciating 28-45% since 2020 across the region, homeowners who purchased or refinanced in the low-rate era now sit on substantial equity positions&mdash;equity that can fund renovations, consolidate debt, cover education costs, or serve as investment capital. A Mukilteo homeowner who purchased at $580,000 in 2019 now owns a home worth $850,000, representing $270,000 in appreciation alone. Wholesale broker access unlocks the best HELOC rates, highest loan-to-value limits, and most flexible qualification programs available in the North Sound market.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), NWMLS February 2026 data shows North Sound median home prices rose 6.5% year-over-year, with Bellingham reaching $664,000 and Edmonds surpassing $900,000. North Sound homeowners hold an estimated $6.8 billion in accessible home equity across Bellingham, Anacortes, San Juan Island, Friday Harbor, Mukilteo, and Edmonds. With property values appreciating 28-45% since 2020 across the region, homeowners who purchased or refinanced in the low-rate era now sit on substantial equity positions&mdash;equity that can fund renovations, consolidate debt, cover education costs, or serve as investment capital. A Mukilteo homeowner who purchased at $580,000 in 2019 now owns a home worth $850,000, representing $270,000 in appreciation alone. Wholesale broker access unlocks the best HELOC rates, highest loan-to-value limits, and most flexible qualification programs available in the North Sound market.
           </p>
         </div>
 
@@ -604,6 +619,8 @@ export default function HomeEquityNorthSoundGuide2026() {
           <li><a href="/blog/home-equity-washington-guide-2026">Washington State Home Equity Guide</a> &mdash; Statewide HELOC, HELOAN, and cash-out refinance overview including all Washington communities and state-specific regulations.</li>
           <li><a href="/blog/reverse-mortgage-north-sound-guide-2026">North Sound Reverse Mortgage (HECM) Guide</a> &mdash; For North Sound homeowners 62 and older, reverse mortgages provide equity access without monthly payments. Compare HECM options to traditional home equity products.</li>
           <li><a href="/blog/home-equity-greater-seattle-guide-2026">Greater Seattle Home Equity Guide</a> &mdash; HELOC and HELOAN options for King County homeowners in Seattle, Shoreline, Kenmore, and surrounding communities.</li>
+          <li><a href="/blog/home-equity-seattle-eastside-guide-2026">Seattle Eastside Home Equity Guide</a> &mdash; HELOC, HELOAN, and cash-out refinance for Bellevue, Kirkland, Redmond, and other Eastside homeowners.</li>
+          <li><a href="/blog/heloc-complete-guide-2026">Complete HELOC Guide</a> &mdash; Comprehensive guide to how HELOCs work, qualification requirements, and strategies for maximizing your equity access.</li>
         </ul>
 
         {/* E-E-A-T Marker */}

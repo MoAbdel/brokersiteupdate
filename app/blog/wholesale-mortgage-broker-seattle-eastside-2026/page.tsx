@@ -26,7 +26,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-07T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
     languages: {
@@ -55,7 +58,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-07',
-    dateModified: '2026-02-07',
+    dateModified: '2026-02-22',
     description: 'Comprehensive guide to wholesale mortgage broker advantages for 14 Seattle Eastside cities, featuring tech income qualification, jumbo loan expertise, and 200+ lender access.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
   };
@@ -109,7 +112,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
         name: 'What is the maximum jumbo loan amount available on the Seattle Eastside?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Through wholesale lender access, jumbo mortgages on the Eastside are available up to $10 million or more for qualified borrowers. For ultra-luxury purchases in Medina, Hunts Point, and Yarrow Point, specialized jumbo lenders provide financing on properties valued at $15M+. Standard jumbo loans start above the conforming loan limit of $1,149,825 in King County for 2026.',
+          text: 'Through wholesale lender access, jumbo mortgages on the Eastside are available up to $10 million or more for qualified borrowers. For ultra-luxury purchases in Medina, Hunts Point, and Yarrow Point, specialized jumbo lenders provide financing on properties valued at $15M+. Standard jumbo loans start above the conforming loan limit of $1,209,750 in King County for 2026.',
         },
       },
       {
@@ -220,12 +223,18 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             Serving 14 Seattle Eastside cities | Tech income &amp; jumbo loan specialists | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -233,8 +242,9 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-blue-900 mb-2">Wholesale Mortgage Broker Seattle Eastside: Key Numbers (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
+              <li>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), NWMLS data shows Eastside median home prices reached $1.72M in January 2026, a 7.8% year-over-year increase</li>
               <li>200+ wholesale lenders compete for your mortgage, driving rates below retail bank pricing</li>
-              <li>King County 2026 conforming loan limit: $1,149,825 — most Eastside purchases require jumbo financing</li>
+              <li>King County 2026 conforming loan limit: $1,209,750 — most Eastside purchases require jumbo financing</li>
               <li>Average Eastside home purchase price: $1.65 million — wholesale brokers save $200-$500+/month vs retail rates on jumbo loans</li>
               <li>Amazon, Microsoft, and Google collectively employ 150,000+ workers on the Eastside — each with unique RSU/stock compensation requiring specialized mortgage qualification</li>
               <li>Washington State has no income tax — combined with wholesale broker savings, Eastside homebuyers retain more money in every transaction</li>
@@ -763,6 +773,10 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
               <h3 className="font-bold text-blue-700 mb-2">Bank Statement Loans for Self-Employed</h3>
               <p className="text-sm text-gray-600">Complete guide to bank statement mortgage programs for startup founders, consultants, and self-employed professionals on the Eastside.</p>
             </a>
+            <a href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+              <h3 className="font-bold text-blue-700 mb-2">How to Get Wholesale Mortgage Rates</h3>
+              <p className="text-sm text-gray-600">Step-by-step guide to accessing institutional wholesale pricing through licensed mortgage brokers with 200+ lender relationships.</p>
+            </a>
           </div>
 
           <p>
@@ -795,7 +809,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the maximum jumbo loan amount available on the Seattle Eastside?</h3>
-              <p>Through wholesale lender access, jumbo mortgages on the Eastside are available up to $10 million or more for qualified borrowers. For ultra-luxury purchases in Medina, Hunts Point, and Yarrow Point, specialized super-jumbo lenders provide financing on properties valued at $15M+. Standard jumbo loans begin above the 2026 King County conforming limit of $1,149,825.</p>
+              <p>Through wholesale lender access, jumbo mortgages on the Eastside are available up to $10 million or more for qualified borrowers. For ultra-luxury purchases in Medina, Hunts Point, and Yarrow Point, specialized super-jumbo lenders provide financing on properties valued at $15M+. Standard jumbo loans begin above the 2026 King County conforming limit of $1,209,750.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a Microsoft employee relocation mortgage work on the Eastside?</h3>

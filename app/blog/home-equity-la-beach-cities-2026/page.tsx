@@ -26,7 +26,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-la-beach-cities-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-la-beach-cities-2026',
     languages: {
@@ -55,7 +58,7 @@ export default function HomeEquityLABeachCities2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-10',
+    dateModified: '2026-02-22',
     description: 'Comprehensive home equity guide for LA Beach Cities covering jumbo HELOC, HELOAN, and cash-out refinance for Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo homeowners.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-la-beach-cities-2026',
     about: [
@@ -188,12 +191,18 @@ export default function HomeEquityLABeachCities2026() {
             Home Equity in Manhattan Beach, Hermosa Beach &amp; LA Beach Cities: HELOC &amp; Cash-Out [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 10, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             Jumbo HELOC, HELOAN &amp; cash-out refinance for LA Beach Cities | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -201,6 +210,7 @@ export default function HomeEquityLABeachCities2026() {
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8 citation-hook">
             <p className="text-lg font-semibold text-blue-900 mb-2">LA Beach Cities Home Equity Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
+              <li>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), CoreLogic&apos;s February 2026 Homeowner Equity Report shows LA County homeowners gained an average of $74,000 in equity year-over-year</li>
               <li>LA Beach Cities homeowners hold an estimated $42 billion in combined residential equity across Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo &mdash; one of the highest per-capita equity concentrations in Los Angeles County</li>
               <li>Average tappable equity per homeowner ranges from $600K in El Segundo to $2M+ in Manhattan Beach, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
               <li>Los Angeles County recorded 4,128 HELOC originations in Q3 2025, with a 28% year-over-year increase in jumbo HELOC applications driven by aerospace compensation growth and post-pandemic renovation demand (CoreLogic)</li>
@@ -667,7 +677,7 @@ export default function HomeEquityLABeachCities2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Hermosa Beach right now?</h3>
-              <p><strong>Jumbo HELOC rates for Hermosa Beach vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 50+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
+              <p><strong>Jumbo HELOC rates for Hermosa Beach vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 200+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better in Redondo Beach?</h3>
@@ -722,7 +732,7 @@ export default function HomeEquityLABeachCities2026() {
           </div>
 
           <p>
-            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide</a> and <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> guides.
+            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, and <a href="/blog/home-equity-santa-monica-ca-2026" className="text-blue-600 hover:underline">Santa Monica Home Equity</a> guides.
           </p>
 
           {/* Expert Summary + CTA */}

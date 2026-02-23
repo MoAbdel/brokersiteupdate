@@ -26,7 +26,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-tech-corridor-silicon-valley-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-09T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-tech-corridor-silicon-valley-2026',
     languages: {
@@ -55,7 +58,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-09',
-    dateModified: '2026-02-09',
+    dateModified: '2026-02-22',
     description: 'Comprehensive reverse mortgage guide for Silicon Valley Tech Corridor covering HECM and jumbo reverse mortgage products for Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell seniors.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-tech-corridor-silicon-valley-2026',
     about: [
@@ -68,15 +71,15 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
   const faqData = [
     {
       question: 'Can I get a reverse mortgage on my Mountain View home?',
-      answer: 'Yes, if you are 62 or older and own your Mountain View home as your primary residence. With Mountain View&apos;s median value of $2 million, most homeowners exceed the 2026 HECM limit of $1,149,825. A standard HECM provides proceeds based on the $1,149,825 cap, while a jumbo (proprietary) reverse mortgage accesses equity above that limit. Both options require no monthly mortgage payments.',
+      answer: 'Yes, if you are 62 or older and own your Mountain View home as your primary residence. With Mountain View&apos;s median value of $2 million, most homeowners exceed the 2026 HECM limit of $1,209,750. A standard HECM provides proceeds based on the $1,209,750 cap, while a jumbo (proprietary) reverse mortgage accesses equity above that limit. Both options require no monthly mortgage payments.',
     },
     {
       question: 'What is the 2026 HECM limit and how does it affect Silicon Valley homeowners?',
-      answer: 'The 2026 FHA HECM limit is $1,149,825. This is the maximum home value the FHA-insured HECM program uses to calculate available proceeds, regardless of your home&apos;s actual value. For Silicon Valley Tech Corridor homeowners with homes valued at $1.3M-$2M+, this means the HECM does not capture your full equity. Jumbo reverse mortgage programs fill this gap by calculating proceeds based on the actual appraised value, providing significantly more funds for homeowners with high-value properties.',
+      answer: 'The 2026 FHA HECM limit is $1,209,750. This is the maximum home value the FHA-insured HECM program uses to calculate available proceeds, regardless of your home&apos;s actual value. For Silicon Valley Tech Corridor homeowners with homes valued at $1.3M-$2M+, this means the HECM does not capture your full equity. Jumbo reverse mortgage programs fill this gap by calculating proceeds based on the actual appraised value, providing significantly more funds for homeowners with high-value properties.',
     },
     {
       question: 'How much can I receive from a reverse mortgage in Sunnyvale?',
-      answer: 'The amount depends on your age, home value, and current interest rates. A 72-year-old Sunnyvale homeowner with a $1.4M home and no existing mortgage could access approximately $600,000-$700,000 through a HECM (capped at $1,149,825 value) or $700,000-$850,000 through a jumbo reverse mortgage that uses the full $1.4M value. Older borrowers receive higher proceeds. A personalized calculation requires current rate quotes from our lender network.',
+      answer: 'The amount depends on your age, home value, and current interest rates. A 72-year-old Sunnyvale homeowner with a $1.4M home and no existing mortgage could access approximately $600,000-$700,000 through a HECM (capped at $1,209,750 value) or $700,000-$850,000 through a jumbo reverse mortgage that uses the full $1.4M value. Older borrowers receive higher proceeds. A personalized calculation requires current rate quotes from our lender network.',
     },
     {
       question: 'Do I still own my home with a reverse mortgage?',
@@ -116,7 +119,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
     },
     {
       question: 'What is the difference between a HECM and a jumbo reverse mortgage?',
-      answer: 'A HECM (Home Equity Conversion Mortgage) is FHA-insured, requires HUD counseling, has a $1,149,825 value cap in 2026, and offers the line of credit growth feature. A jumbo (proprietary) reverse mortgage is not government-insured, uses your full home value for calculations, does not require HUD counseling, and is offered by private lenders through wholesale channels. For Silicon Valley homes valued above $1.15M, a jumbo reverse mortgage typically provides more proceeds. Some homeowners benefit from combining both products.',
+      answer: 'A HECM (Home Equity Conversion Mortgage) is FHA-insured, requires HUD counseling, has a $1,209,750 value cap in 2026, and offers the line of credit growth feature. A jumbo (proprietary) reverse mortgage is not government-insured, uses your full home value for calculations, does not require HUD counseling, and is offered by private lenders through wholesale channels. For Silicon Valley homes valued above $1.15M, a jumbo reverse mortgage typically provides more proceeds. Some homeowners benefit from combining both products.',
     },
   ];
 
@@ -183,12 +186,24 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
             Reverse Mortgage in Mountain View, Sunnyvale &amp; Tech Corridor, CA [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 9, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HECM &amp; jumbo reverse mortgage for Silicon Valley Tech Corridor seniors 62+ | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -196,7 +211,8 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-blue-900 mb-2">Silicon Valley Tech Corridor Reverse Mortgage Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
-              <li>The 2026 HECM lending limit is $1,149,825 &mdash; every city in this Tech Corridor hub has a median home value that meets or exceeds this threshold, making jumbo reverse mortgage products relevant for maximizing senior equity access</li>
+              <li>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), HUD data shows California HECM originations increased 31% year-over-year through Q4 2025, with Santa Clara County leading growth</li>
+              <li>The 2026 HECM lending limit is $1,209,750 &mdash; every city in this Tech Corridor hub has a median home value that meets or exceeds this threshold, making jumbo reverse mortgage products relevant for maximizing senior equity access</li>
               <li>An estimated 47,000 homeowners aged 62+ reside in Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell, controlling approximately $58 billion in home equity (U.S. Census, CoreLogic)</li>
               <li>Santa Clara County reverse mortgage originations increased 28% year-over-year in 2025, driven by rising home values and growing awareness of the HECM line of credit growth feature (HUD data)</li>
               <li>The HECM line of credit growth rate compounds annually, turning a $500,000 initial credit line into $700,000&ndash;$900,000+ over 10 years &mdash; a feature that makes early establishment of a reverse mortgage line strategically valuable for retirement planning</li>
@@ -204,7 +220,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Silicon Valley Tech Corridor seniors who have lived in their Mountain View, Sunnyvale, San Jose, Santa Clara, or Campbell homes for decades control extraordinary home equity positions built through Silicon Valley&apos;s sustained real estate appreciation. A reverse mortgage converts that equity into tax-free retirement income, eliminates monthly mortgage payments, and provides a growing line of credit &mdash; all while you retain full ownership of your home. As a wholesale mortgage broker with access to multiple HECM and jumbo reverse mortgage lenders, I help Tech Corridor seniors compare products to find the best terms for their specific property and financial goals.
+            Silicon Valley Tech Corridor seniors who have lived in their Mountain View, Sunnyvale, San Jose, Santa Clara, or Campbell homes for decades control extraordinary home equity positions built through Silicon Valley&apos;s sustained real estate appreciation. A reverse mortgage converts that equity into loan proceeds (not considered taxable income\u2014consult a tax professional), eliminates monthly mortgage payments, and provides a growing line of credit &mdash; all while you retain full ownership of your home. As a wholesale mortgage broker with access to multiple HECM and jumbo reverse mortgage lenders, I help Tech Corridor seniors compare products to find the best terms for their specific property and financial goals.
           </p>
 
           <p>
@@ -215,7 +231,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           <div className="bg-gray-50 p-6 rounded-lg my-8 border border-gray-200">
             <h2 className="text-xl font-bold mb-3">Tech Corridor Reverse Mortgage at a Glance</h2>
             <ul className="space-y-2">
-              <li><strong>2026 HECM limit:</strong> $1,149,825 (FHA maximum lending value)</li>
+              <li><strong>2026 HECM limit:</strong> $1,209,750 (FHA maximum lending value)</li>
               <li><strong>Jumbo reverse available:</strong> Yes &mdash; accesses equity above the HECM cap for all five cities</li>
               <li><strong>Highest median value:</strong> Mountain View ($2M) &mdash; jumbo reverse provides the most additional proceeds here</li>
               <li><strong>Most HECM-aligned value:</strong> San Jose &amp; Campbell ($1.3M) &mdash; HECM captures a higher percentage of home value</li>
@@ -278,13 +294,13 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            *Value above HECM limit = median value minus $1,149,825. Actual proceeds depend on borrower age, interest rates, existing mortgage balance, and property appraisal. The HECM limit is the maximum value used in FHA calculations regardless of actual home value.
+            *Value above HECM limit = median value minus $1,209,750. Actual proceeds depend on borrower age, interest rates, existing mortgage balance, and property appraisal. The HECM limit is the maximum value used in FHA calculations regardless of actual home value.
           </p>
 
           {/* HECM vs Jumbo Comparison */}
           <h2 className="text-2xl font-bold mt-10 mb-4">HECM vs. Jumbo Reverse Mortgage: Tech Corridor Comparison</h2>
           <p>
-            The choice between a HECM and jumbo reverse mortgage depends on your home value, desired proceeds, and which features matter most. For Tech Corridor homeowners with values above $1,149,825, both options deserve consideration.
+            The choice between a HECM and jumbo reverse mortgage depends on your home value, desired proceeds, and which features matter most. For Tech Corridor homeowners with values above $1,209,750, both options deserve consideration.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -299,7 +315,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Max Property Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">Actual appraised value (no cap)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -369,7 +385,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
             Sunnyvale&apos;s $1.4 million median reflects its position as a major tech employment center hosting LinkedIn, Yahoo (now Altaba), Juniper Networks, and hundreds of smaller companies. Cherry Chase, Ponderosa, and Lakewood neighborhoods feature ranch-style homes from the 1950s&ndash;1970s where long-term owners have built substantial equity. These neighborhoods are home to a large population of retiring tech professionals who earned solid incomes throughout their careers but have most of their wealth tied up in their homes.
           </p>
           <p>
-            Sunnyvale&apos;s $1.4M median sits at an interesting decision point: the HECM captures approximately 82% of the home value ($1,149,825 of $1.4M), making it a viable option for many homeowners. However, jumbo reverse products that use the full $1.4M value provide 15&ndash;20% more in proceeds. The right choice depends on whether the HECM&apos;s line of credit growth feature or the jumbo&apos;s higher immediate proceeds better serves the homeowner&apos;s retirement strategy. Common uses in Sunnyvale include eliminating existing mortgage payments ($3,000&ndash;$5,000/month freed), funding home modifications for aging in place (single-story conversion, bathroom accessibility, kitchen updates), and supplementing retirement income to maintain quality of life in Silicon Valley&apos;s high-cost environment.
+            Sunnyvale&apos;s $1.4M median sits at an interesting decision point: the HECM captures approximately 82% of the home value ($1,209,750 of $1.4M), making it a viable option for many homeowners. However, jumbo reverse products that use the full $1.4M value provide 15&ndash;20% more in proceeds. The right choice depends on whether the HECM&apos;s line of credit growth feature or the jumbo&apos;s higher immediate proceeds better serves the homeowner&apos;s retirement strategy. Common uses in Sunnyvale include eliminating existing mortgage payments ($3,000&ndash;$5,000/month freed), funding home modifications for aging in place (single-story conversion, bathroom accessibility, kitchen updates), and supplementing retirement income to maintain quality of life in Silicon Valley&apos;s high-cost environment.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">San Jose Reverse Mortgage: Silicon Valley Gateway &amp; Diverse Neighborhood Equity</h2>
@@ -546,14 +562,14 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           </div>
 
           <p>
-            For statewide reverse mortgage information, visit our <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">California Reverse Mortgage Guide</a>. For product education, see our <a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options</a> and <a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-600 hover:underline">Reverse Mortgage Myths Debunked</a> guides.
+            For statewide reverse mortgage information, visit our <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">California Reverse Mortgage Guide</a>. For product education, see our <a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options</a>, <a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-600 hover:underline">Reverse Mortgage Myths Debunked</a>, and <a href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors</a> guides.
           </p>
 
           {/* Expert Summary + CTA */}
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgage in Silicon Valley Tech Corridor</h2>
             <p className="text-slate-900 mb-3">
-              Silicon Valley&apos;s Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; is home to approximately 47,000 seniors aged 62+ controlling an estimated $58 billion in home equity. With median values from $1.3M in San Jose and Campbell to $2M in Mountain View, every city exceeds the 2026 HECM limit of $1,149,825. This creates a market where both HECM and jumbo reverse mortgage products serve distinct roles depending on each homeowner&apos;s property value, retirement goals, and preference for the HECM line of credit growth feature.
+              Silicon Valley&apos;s Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; is home to approximately 47,000 seniors aged 62+ controlling an estimated $58 billion in home equity. With median values from $1.3M in San Jose and Campbell to $2M in Mountain View, every city exceeds the 2026 HECM limit of $1,209,750. This creates a market where both HECM and jumbo reverse mortgage products serve distinct roles depending on each homeowner&apos;s property value, retirement goals, and preference for the HECM line of credit growth feature.
             </p>
             <p className="text-slate-900 mb-3">
               The HECM line of credit growth feature represents one of the most powerful and underutilized retirement planning tools available to Tech Corridor seniors. Establishing a line of credit early &mdash; even before funds are needed &mdash; creates a growing financial reserve that compounds annually. For seniors who have adequate current income but want a safety net for future healthcare and long-term care costs, this strategy converts home equity into a self-growing reserve at zero out-of-pocket cost.
@@ -580,7 +596,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
           {/* Disclaimer */}
           <div className="bg-gray-100 p-4 rounded-lg mt-8">
             <p className="text-sm text-gray-600">
-              Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Reverse mortgage borrowers must be 62 or older, occupy the home as their primary residence, and maintain property taxes, homeowners insurance, and property maintenance. HECM loans are FHA-insured and subject to FHA guidelines including mandatory HUD counseling. The 2026 HECM lending limit of $1,149,825 is the maximum property value used in FHA calculations. Jumbo reverse mortgage products are not government-insured and have terms that vary by lender. Proceeds estimates are illustrative and depend on age, home value, interest rates, and existing mortgage balance &mdash; actual amounts require a personalized calculation. The line of credit growth feature applies to HECM products only and is based on the interest rate and MIP accrual rate. Social Security optimization strategies should be discussed with a qualified financial advisor. Tax implications of reverse mortgage proceeds should be reviewed with a tax professional. Information is for educational purposes only and does not constitute financial or tax advice. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443.
+              Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Reverse mortgage borrowers must be 62 or older, occupy the home as their primary residence, and maintain property taxes, homeowners insurance, and property maintenance. HECM loans are FHA-insured and subject to FHA guidelines including mandatory HUD counseling. The 2026 HECM lending limit of $1,209,750 is the maximum property value used in FHA calculations. Jumbo reverse mortgage products are not government-insured and have terms that vary by lender. Proceeds estimates are illustrative and depend on age, home value, interest rates, and existing mortgage balance &mdash; actual amounts require a personalized calculation. The line of credit growth feature applies to HECM products only and is based on the interest rate and MIP accrual rate. Social Security optimization strategies should be discussed with a qualified financial advisor. Tax implications of reverse mortgage proceeds should be reviewed with a tax professional. Information is for educational purposes only and does not constitute financial or tax advice. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443.
             </p>
           </div>
 

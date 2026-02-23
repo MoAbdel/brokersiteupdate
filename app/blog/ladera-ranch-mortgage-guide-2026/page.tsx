@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
-  description: 'Ladera Ranch mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
+  title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 200+ Lenders | Mo Abdel',
+  description: 'Ladera Ranch mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
   keywords: ['Ladera Ranch mortgage broker', 'Ladera Ranch home loans', 'Ladera Ranch mortgage rates 2026', 'wholesale mortgage Ladera Ranch'],
   openGraph: {
-    title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
-    description: 'Ladera Ranch mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    title: 'Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 200+ Lenders',
+    description: 'Ladera Ranch mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
     url: 'https://www.mothebroker.com/blog/ladera-ranch-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-18T00:00:00Z',
-    modifiedTime: '2026-01-18T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What are current mortgage rates in Ladera Ranch?",
-    answer: "Ladera Ranch mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 100+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
+    answer: "Ladera Ranch mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 200+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
   },
   {
     question: "How much do I need for a down payment on a Ladera Ranch home?",
-    answer: "Down payment requirements in Ladera Ranch range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Ladera Ranch median home prices around $1.4M, many buyers need jumbo loans requiring 10-20% down for homes above the $1,266,300 conforming limit."
+    answer: "Down payment requirements in Ladera Ranch range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Ladera Ranch median home prices around $1.4M, many buyers need jumbo loans requiring 10-20% down for homes above the $1,209,750 conforming limit."
   },
   {
     question: "What is the conforming loan limit in Ladera Ranch for 2026?",
-    answer: "The 2026 conforming loan limit in Orange County, including Ladera Ranch, is $1,266,300. Many Ladera Ranch homes exceed this threshold and require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
+    answer: "The 2026 conforming loan limit in Orange County, including Ladera Ranch, is $1,209,750. Many Ladera Ranch homes exceed this threshold and require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
   },
   {
     question: "What are HOA fees like in Ladera Ranch?",
@@ -47,7 +47,19 @@ const faqData = [
   },
   {
     question: "Why use a mortgage broker instead of a bank in Ladera Ranch?",
-    answer: "A wholesale mortgage broker like Mo Abdel shops 100+ lenders simultaneously, potentially securing better rates than any single bank. This is especially valuable for Ladera Ranch's jumbo loan market where rate differences can mean significant savings."
+    answer: "A wholesale mortgage broker like Mo Abdel shops 200+ lenders simultaneously, potentially securing better rates than any single bank. This is especially valuable for Ladera Ranch's jumbo loan market where rate differences can mean significant savings."
+  },
+  {
+    question: "Can self-employed buyers get a mortgage in Ladera Ranch?",
+    answer: "Yes. Self-employed borrowers qualify through bank statement loan programs that use 12-24 months of deposits instead of tax returns. Wholesale brokers access multiple bank statement lenders, finding programs that work for business owners, freelancers, and entrepreneurs purchasing in Ladera Ranch."
+  },
+  {
+    question: "What are the property tax rates in Ladera Ranch?",
+    answer: "Ladera Ranch property taxes include the base Orange County rate plus Mello-Roos and community facilities district assessments. Total effective tax rates typically range from 1.3% to 1.6% of assessed value. Lenders factor these into your DTI calculations, making wholesale broker guidance valuable for structuring your loan."
+  },
+  {
+    question: "Does Ladera Ranch have VA-approved properties?",
+    answer: "Yes. Most single-family homes in Ladera Ranch meet VA property requirements. Some condos and townhomes need VA approval verification. With Camp Pendleton nearby, VA loans with zero down payment are popular in Ladera Ranch. A wholesale broker ensures your chosen property meets VA guidelines before making an offer."
   }
 ];
 
@@ -61,7 +73,7 @@ export default function LaderaRanchMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
+            "headline": "Ladera Ranch Mortgage Broker 2026: Wholesale Rates from 200+ Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -74,7 +86,7 @@ export default function LaderaRanchMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-18",
-            "dateModified": "2026-01-18",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/ladera-ranch-mortgage-guide-2026",
@@ -130,12 +142,12 @@ export default function LaderaRanchMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Ladera Ranch Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
+              Ladera Ranch Mortgage Broker 2026: Access Wholesale Rates from 200+ Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Ladera Ranch mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.4M exceeding the $1,266,300 conforming limit, most Ladera Ranch buyers benefit from wholesale jumbo loan access across 100+ lenders.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Ladera Ranch mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.4M exceeding the $1,209,750 conforming limit and Capistrano Unified schools rated among Orange County&apos;s top districts, most Ladera Ranch buyers benefit from wholesale jumbo loan access across 200+ lenders.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -177,7 +189,7 @@ export default function LaderaRanchMortgageGuide2026() {
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,209,750</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
@@ -236,7 +248,7 @@ export default function LaderaRanchMortgageGuide2026() {
             <div className="flex items-start gap-4 p-4 bg-slate-50 rounded-lg">
               <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0 mt-1" />
               <div>
-                <h4 className="font-semibold text-slate-900">100+ Lender Competition</h4>
+                <h4 className="font-semibold text-slate-900">200+ Lender Competition</h4>
                 <p className="text-slate-600">Multiple jumbo lenders compete for your loan, driving down rates on high-balance mortgages.</p>
               </div>
             </div>
@@ -267,7 +279,7 @@ export default function LaderaRanchMortgageGuide2026() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <DollarSign className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 The primary loan type for Ladera Ranch. Most homes exceed conforming limits, making wholesale jumbo access essential for competitive rates.
@@ -283,7 +295,7 @@ export default function LaderaRanchMortgageGuide2026() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <Home className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 Available for townhomes and smaller single-family homes in Ladera Ranch that fall under the conforming limit. Best rates and terms.
@@ -301,7 +313,7 @@ export default function LaderaRanchMortgageGuide2026() {
                 <h3 className="text-xl font-semibold text-slate-900">FHA Loans (First-Time Buyers)</h3>
               </div>
               <p className="text-slate-600 mb-4">
-                For Ladera Ranch condos and townhomes under $1,266,300. Lower down payment options for buyers with limited savings.
+                For Ladera Ranch condos and townhomes under $1,209,750. Lower down payment options for buyers with limited savings.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• 3.5% minimum down payment</li>
@@ -321,7 +333,7 @@ export default function LaderaRanchMortgageGuide2026() {
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• 0% down payment required</li>
                 <li>• No monthly mortgage insurance</li>
-                <li>• VA jumbo loans available above $1,266,300</li>
+                <li>• VA jumbo loans available above $1,209,750</li>
               </ul>
             </div>
           </div>
@@ -386,7 +398,7 @@ export default function LaderaRanchMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares jumbo rates from 100+ lenders to find your best Ladera Ranch mortgage option.</p>
+                  <p className="text-slate-600">Mo Abdel compares jumbo rates from 200+ lenders to find your best Ladera Ranch mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -422,7 +434,7 @@ export default function LaderaRanchMortgageGuide2026() {
             Ready to Explore Ladera Ranch Mortgage Options?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get a personalized jumbo loan quote from 100+ wholesale lenders. Specialized expertise in Ladera Ranch's master-planned community requirements. Fast response within 24 hours.
+            Get a personalized jumbo loan quote from 200+ wholesale lenders. Specialized expertise in Ladera Ranch's master-planned community requirements. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -460,6 +472,12 @@ export default function LaderaRanchMortgageGuide2026() {
             </Link>
             <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → First-Time Homebuyer Guide
+            </Link>
+            <Link href="/blog/san-clemente-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Nearby: San Clemente Mortgages
+            </Link>
+            <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Self-Employed Mortgage Guide
             </Link>
           </div>
         </section>

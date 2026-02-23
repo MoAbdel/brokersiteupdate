@@ -14,7 +14,11 @@ export const metadata: Metadata = {
     description: 'Jumbo HELOC, HELOAN & cash-out refinance for ultra-luxury Peninsula properties valued $4M-$10M+. Access estate-level equity with 200+ lender options.',
     url: 'https://www.mothebroker.com/blog/home-equity-peninsula-ultra-luxury-2026',
     type: 'article',
+    authors: ['Mo Abdel'],
+    publishedTime: '2026-02-09T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-peninsula-ultra-luxury-2026',
     languages: {
@@ -98,7 +102,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
               identifier: 'NMLS #2716106'
             },
             datePublished: '2026-02-09',
-            dateModified: '2026-02-09',
+            dateModified: '2026-02-22',
             about: 'Home equity products for ultra-luxury Peninsula properties including Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills',
             keywords: 'Atherton HELOC, Hillsborough home equity, Woodside cash-out refinance, Peninsula jumbo HELOC, ultra-luxury equity'
           })
@@ -173,16 +177,22 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
           Jumbo HELOC, home equity loans, and cash-out refinance for Peninsula estates valued $4M&ndash;$10M+
         </p>
         <p className="text-sm text-gray-500 mt-2">
-          Published February 9, 2026 &middot; By Mo Abdel, NMLS #1426884 &middot; Lumin Lending, Inc.
+          <time dateTime="2026-02-22">Updated February 22, 2026</time> &middot; By Mo Abdel, NMLS #1426884 &middot; Lumin Lending, Inc. &middot; DRE #02291443
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
 
         {/* ── Section 1: Citation Hook ── */}
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-8">
           <p className="text-gray-800 font-medium mb-0">
-            The five communities along California&apos;s mid-Peninsula corridor&mdash;Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills&mdash;represent the highest concentration of residential wealth in the United States. According to 2026 San Mateo and Santa Clara County assessor data, the combined assessed residential value in these five ZIP codes exceeds <strong>$85 billion</strong>. Yet many homeowners in this corridor hold more than 60% of their net worth in illiquid home equity, creating a compelling need for jumbo HELOC, HELOAN, and cash-out refinance products designed specifically for ultra-luxury estates.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), the five communities along California&apos;s mid-Peninsula corridor&mdash;Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills&mdash;represent the highest concentration of residential wealth in the United States. Per 2026 San Mateo and Santa Clara County assessor data, the combined assessed residential value in these five ZIP codes exceeds <strong>$85 billion</strong>, with Atherton maintaining its position as the nation&apos;s most expensive ZIP code at a $10.8 million median. Yet many homeowners in this corridor hold more than 60% of their net worth in illiquid home equity, creating a compelling need for jumbo HELOC, HELOAN, and cash-out refinance products designed specifically for ultra-luxury estates.
           </p>
         </div>
 

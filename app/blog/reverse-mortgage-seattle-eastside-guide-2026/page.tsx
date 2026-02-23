@@ -26,7 +26,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026',
     languages: {
@@ -55,7 +57,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-07',
-    dateModified: '2026-02-07',
+    dateModified: '2026-02-22',
     description: 'Comprehensive reverse mortgage guide for 14 Seattle Eastside cities including Medina, Bellevue, Mercer Island, Kirkland, Redmond, and more.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026',
     about: {
@@ -82,7 +84,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
         name: 'How much can I get from a reverse mortgage on a $5 million Medina home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The FHA HECM limit for 2026 is $1,149,825, so a standard HECM would be capped at that value. For a $5 million Medina estate, a jumbo proprietary reverse mortgage can access significantly more equity, potentially $1.5 million to $2.5 million depending on age, rates, and lender programs.',
+          text: 'The FHA HECM limit for 2026 is $1,209,750, so a standard HECM would be capped at that value. For a $5 million Medina estate, a jumbo proprietary reverse mortgage can access significantly more equity, potentially $1.5 million to $2.5 million depending on age, rates, and lender programs.',
         },
       },
       {
@@ -122,7 +124,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
         name: 'How does Washington State having no income tax affect my reverse mortgage proceeds?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Washington has no state income tax, which means reverse mortgage proceeds — already tax-free at the federal level — face zero state taxation. This provides a significant advantage over states like California where other income sources are taxed at up to 13.3%.',
+          text: 'Washington has no state income tax, which means reverse mortgage proceeds — already loan proceeds (generally not considered taxable income) at the federal level — face zero state taxation. This provides a significant advantage over states like California where other income sources are taxed at up to 13.3%.',
         },
       },
       {
@@ -170,7 +172,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
         name: 'What is the difference between a HECM and a jumbo reverse mortgage for Eastside homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A HECM is FHA-insured and capped at $1,149,825 for 2026. A jumbo (proprietary) reverse mortgage is offered by private lenders with no government insurance, allowing access to higher home values — critical for Eastside homes worth $2M to $10M+. Jumbo products may not require HUD counseling but typically have higher interest rates.',
+          text: 'A HECM is FHA-insured and capped at $1,209,750 for 2026. A jumbo (proprietary) reverse mortgage is offered by private lenders with no government insurance, allowing access to higher home values — critical for Eastside homes worth $2M to $10M+. Jumbo products may not require HUD counseling but typically have higher interest rates.',
         },
       },
       {
@@ -241,12 +243,24 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 7, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             Serving 14 Seattle Eastside cities from Medina to Bothell | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -256,14 +270,14 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             <ul className="text-blue-800 space-y-1 text-base">
               <li>14 Eastside cities with median home values ranging from $1M (Bothell) to $5M+ (Medina)</li>
               <li>Washington State homeowners age 62+ hold an estimated $47.2 billion in tappable home equity across King County alone</li>
-              <li>The 2026 FHA HECM lending limit is $1,149,825 — Eastside homes averaging $1.3M to $5M+ often require jumbo proprietary products</li>
-              <li>Washington has no state income tax, making reverse mortgage proceeds entirely tax-free at both federal and state levels</li>
+              <li>The 2026 FHA HECM lending limit is $1,209,750 — Eastside homes averaging $1.3M to $5M+ often require jumbo proprietary products</li>
+              <li>Washington has no state income tax, meaning reverse mortgage loan proceeds face no income tax at either the federal or state level</li>
               <li>HUD counseling is mandatory for all HECM borrowers in Washington State before application</li>
             </ul>
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Seattle Eastside represents one of the wealthiest residential corridors in the United States. From the billionaire estates of Medina and Hunts Point to the tech-driven communities of Bellevue and Redmond, homeowners 62 and older are sitting on extraordinary equity. A reverse mortgage allows these seniors to convert that equity into tax-free cash — without monthly mortgage payments, without selling their home, and without giving up ownership. As a wholesale mortgage broker licensed in Washington State with access to over 200 lenders, I help Eastside seniors navigate both FHA HECM and jumbo proprietary reverse mortgage options to find the best fit for their unique financial situation.
+            The Seattle Eastside represents one of the wealthiest residential corridors in the United States, with King County seniors holding an estimated $47.2 billion in tappable home equity as of Q1 2026. From the billionaire estates of Medina and Hunts Point to the tech-driven communities of Bellevue and Redmond, homeowners 62 and older are sitting on extraordinary equity. A reverse mortgage allows these seniors to convert that equity into loan proceeds — with no required monthly principal and interest payments (borrowers must continue paying property taxes, homeowners insurance, and maintain the home), without selling their home, and without giving up ownership. &quot;Eastside seniors benefit from Washington&apos;s zero state income tax, making reverse mortgage proceeds doubly efficient compared to California borrowers,&quot; explains Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443). As a wholesale mortgage broker licensed in Washington State with access to over 200 lenders, I help Eastside seniors navigate both FHA HECM and jumbo proprietary reverse mortgage options to find the best fit for their unique financial situation.
           </p>
 
           <p>
@@ -390,7 +404,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            *Jumbo proprietary reverse mortgage estimates. Actual proceeds depend on age, interest rates, lender programs, and property appraisal. HECM proceeds capped at $1,149,825 lending limit for 2026. Estimates assume no existing mortgage balance.
+            *Jumbo proprietary reverse mortgage estimates. Actual proceeds depend on age, interest rates, lender programs, and property appraisal. HECM proceeds capped at $1,209,750 lending limit for 2026. Estimates assume no existing mortgage balance.
           </p>
 
           {/* Qualification Overview */}
@@ -426,7 +440,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 border-t font-medium">Maximum Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026)</td>
                   <td className="px-4 py-3 border-t">$10M+ (lender dependent)</td>
                 </tr>
                 <tr>
@@ -542,7 +556,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           </div>
 
           <p>
-            <strong>The Billionaire Row challenge:</strong> Properties in Medina, Hunts Point, and Yarrow Point frequently exceed $10 million in value. The FHA HECM limit of $1,149,825 captures only a fraction of the available equity. Jumbo proprietary reverse mortgages from specialized lenders can access home values up to $10 million or more, unlocking $1.5 million to $4 million in tax-free proceeds depending on the borrower&apos;s age and property value.
+            <strong>The Billionaire Row challenge:</strong> Properties in Medina, Hunts Point, and Yarrow Point frequently exceed $10 million in value. The FHA HECM limit of $1,209,750 captures only a fraction of the available equity. Jumbo proprietary reverse mortgages from specialized lenders can access home values up to $10 million or more, unlocking $1.5 million to $4 million in loan proceeds depending on the borrower&apos;s age and property value.
           </p>
 
           <p>
@@ -574,11 +588,11 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           </div>
 
           <p>
-            <strong>RSU and stock-heavy income profiles:</strong> Many retiring tech executives hold significant portions of their net worth in company stock (RSUs, ISOs, and vested options) while living in homes worth $1.5M to $3M. A reverse mortgage allows these seniors to access home equity without triggering capital gains from stock sales. This is a critical tax-planning strategy: instead of selling $500,000 in Amazon stock (generating a significant capital gains event), a reverse mortgage provides tax-free liquidity while the stock continues to potentially appreciate.
+            <strong>RSU and stock-heavy income profiles:</strong> Many retiring tech executives hold significant portions of their net worth in company stock (RSUs, ISOs, and vested options) while living in homes worth $1.5M to $3M. A reverse mortgage allows these seniors to access home equity without triggering capital gains from stock sales. This is a critical tax-planning strategy: instead of selling $500,000 in Amazon stock (generating a significant capital gains event), a reverse mortgage provides loan proceeds while the stock continues to potentially appreciate.
           </p>
 
           <p>
-            <strong>Lakefront premium dynamics:</strong> Mercer Island, West Bellevue, and Newcastle waterfront properties carry significant premiums that standard HECM products cannot fully capture. A $3 million lakefront home on Mercer Island qualifies for only $1,149,825 under the HECM limit, leaving substantial equity untapped. Jumbo proprietary reverse mortgages bridge this gap, with specialized lenders offering programs that access home values up to $4 million or more.
+            <strong>Lakefront premium dynamics:</strong> Mercer Island, West Bellevue, and Newcastle waterfront properties carry significant premiums that standard HECM products cannot fully capture. A $3 million lakefront home on Mercer Island qualifies for only $1,209,750 under the HECM limit, leaving substantial equity untapped. Jumbo proprietary reverse mortgages bridge this gap, with specialized lenders offering programs that access home values up to $4 million or more.
           </p>
 
           <p>
@@ -603,7 +617,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           </div>
 
           <p>
-            <strong>HECM sweet spot:</strong> With median values between $1M and $1.4M, these five cities align well with the 2026 HECM lending limit of $1,149,825. Many homeowners can access substantial reverse mortgage proceeds through the standard FHA HECM program without needing jumbo proprietary products. A 70-year-old Kirkland homeowner with a $1.3M home and no existing mortgage can access approximately $400,000 to $650,000 through a HECM, depending on current interest rates.
+            <strong>HECM sweet spot:</strong> With median values between $1M and $1.4M, these five cities align well with the 2026 HECM lending limit of $1,209,750. Many homeowners can access substantial reverse mortgage proceeds through the standard FHA HECM program without needing jumbo proprietary products. A 70-year-old Kirkland homeowner with a $1.3M home and no existing mortgage can access approximately $400,000 to $650,000 through a HECM, depending on current interest rates.
           </p>
 
           <p>
@@ -744,7 +758,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-400">
               <p className="font-semibold text-red-800 mb-1">Misconception: &quot;Reverse mortgages are only for people who are desperate.&quot;</p>
-              <p className="text-gray-700"><strong>Reality:</strong> On the Eastside, reverse mortgages are increasingly used as strategic financial planning tools by wealthy seniors. They provide tax-free liquidity, preserve investment portfolios, and enable estate planning flexibility.</p>
+              <p className="text-gray-700"><strong>Reality:</strong> On the Eastside, reverse mortgages are increasingly used as strategic financial planning tools by wealthy seniors. They provide loan proceeds, preserve investment portfolios, and enable estate planning flexibility.</p>
             </div>
             <div className="bg-red-50 p-5 rounded-lg border-l-4 border-red-400">
               <p className="font-semibold text-red-800 mb-1">Misconception: &quot;I cannot get a reverse mortgage if my home is worth more than the HECM limit.&quot;</p>
@@ -776,7 +790,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much can I get from a reverse mortgage on a $5 million Medina home?</h3>
-              <p>The FHA HECM limit for 2026 is $1,149,825, so a standard HECM would be capped at that value. For a $5 million Medina estate, a jumbo proprietary reverse mortgage can access significantly more equity — potentially $1.5 million to $2.5 million depending on your age, current interest rates, and which lender program provides the best terms.</p>
+              <p>The FHA HECM limit for 2026 is $1,209,750, so a standard HECM would be capped at that value. For a $5 million Medina estate, a jumbo proprietary reverse mortgage can access significantly more equity — potentially $1.5 million to $2.5 million depending on your age, current interest rates, and which lender program provides the best terms.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is HUD counseling required for a reverse mortgage in Washington State?</h3>
@@ -796,7 +810,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does Washington&apos;s lack of state income tax benefit reverse mortgage borrowers?</h3>
-              <p>Washington has no state income tax, which means reverse mortgage proceeds — already tax-free at the federal level — face zero state taxation. This provides a significant advantage over states like California where other income sources face state taxes up to 13.3%. For Eastside seniors accessing $500,000+ in reverse mortgage proceeds, this tax-free status represents meaningful financial benefit.</p>
+              <p>Washington has no state income tax, which means reverse mortgage proceeds — already not considered taxable income at the federal level — face zero state taxation. This provides a significant advantage over states like California where other income sources face state taxes up to 13.3%. For Eastside seniors accessing $500,000+ in reverse mortgage proceeds, this non-taxable status represents meaningful financial benefit.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I use a reverse mortgage to buy a new home on the Eastside?</h3>
@@ -816,7 +830,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the difference between a HECM and a jumbo reverse mortgage for Eastside homes?</h3>
-              <p>A HECM is FHA-insured with a 2026 lending limit of $1,149,825. It offers strong consumer protections, non-recourse guarantees, and multiple payout options. A jumbo proprietary reverse mortgage is offered by private lenders with no government insurance, allowing access to home values of $2M to $10M+. Jumbo products are essential for most ultra-luxury Eastside communities where home values far exceed HECM limits.</p>
+              <p>A HECM is FHA-insured with a 2026 lending limit of $1,209,750. It offers strong consumer protections, non-recourse guarantees, and multiple payout options. A jumbo proprietary reverse mortgage is offered by private lenders with no government insurance, allowing access to home values of $2M to $10M+. Jumbo products are essential for most ultra-luxury Eastside communities where home values far exceed HECM limits.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Do I need good credit to get a reverse mortgage on the Eastside?</h3>
@@ -832,10 +846,10 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Reverse Mortgages on the Seattle Eastside</h2>
             <p className="text-slate-900 mb-3">
-              The Seattle Eastside represents one of the strongest reverse mortgage markets in the country. With 14 cities spanning median home values from $1 million to $5 million+, seniors 62 and older hold billions in tappable equity. Washington State&apos;s absence of state income tax makes reverse mortgage proceeds completely tax-free at both federal and state levels — an advantage that California, Oregon, and most other states cannot offer.
+              The Seattle Eastside represents one of the strongest reverse mortgage markets in the country. With 14 cities spanning median home values from $1 million to $5 million+, seniors 62 and older hold billions in tappable equity. Washington State&apos;s absence of state income tax means reverse mortgage loan proceeds face no income tax at either the federal or state level — an advantage that California, Oregon, and most other states cannot offer.
             </p>
             <p className="text-slate-900 mb-3">
-              For ultra-luxury communities like Medina, Hunts Point, and Yarrow Point, jumbo proprietary reverse mortgages are essential to access equity beyond the $1,149,825 HECM limit. For growth corridor cities like Kirkland, Redmond, and Issaquah, the standard FHA HECM product provides substantial proceeds with strong consumer protections.
+              For ultra-luxury communities like Medina, Hunts Point, and Yarrow Point, jumbo proprietary reverse mortgages are essential to access equity beyond the $1,209,750 HECM limit. For growth corridor cities like Kirkland, Redmond, and Issaquah, the standard FHA HECM product provides substantial proceeds with strong consumer protections.
             </p>
             <p className="text-slate-900">
               As your wholesale reverse mortgage broker, I compare products from 200+ lenders to find the best fit for your home value, age, and financial goals. Every consultation is free, every recommendation is independent, and every client receives the same level of attention — whether your home is worth $1 million or $15 million.

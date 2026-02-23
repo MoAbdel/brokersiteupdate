@@ -27,7 +27,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026',
     languages: {
@@ -85,7 +87,7 @@ export default function HomeEquityCaPvB2026() {
       }
     },
     "datePublished": "2026-02-14",
-    "dateModified": "2026-02-14",
+    "dateModified": "2026-02-22",
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026",
@@ -229,7 +231,7 @@ export default function HomeEquityCaPvB2026() {
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Home Equity in Western LA: HELOC, Cash-Out &amp; More in Santa Monica, Malibu &amp; Pacific Palisades [2026]</h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Published February 14, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         </header>
 
         <section className="prose prose-lg max-w-none">
@@ -239,7 +241,7 @@ export default function HomeEquityCaPvB2026() {
             <p className="text-lg font-semibold text-gray-800 italic">
               &quot;Western LA homeowners hold an estimated $127 billion in combined tappable home equity across Santa Monica, Brentwood, Pacific Palisades, Malibu, and Calabasas as of Q1 2026. In this corridor, the average homeowner sits on $1.8 million in accessible equity above their existing mortgage balance. Structuring the right HELOC, HELOAN, or cash-out refinance in these markets requires a broker who understands jumbo underwriting, coastal property valuations, and fire-rebuild financing.&quot;
             </p>
-            <p className="text-gray-600 mt-2">— Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
+            <p className="text-gray-600 mt-2">— Mo Abdel, Licensed Mortgage Broker, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443)</p>
           </div>
 
           {/* Table of Contents */}

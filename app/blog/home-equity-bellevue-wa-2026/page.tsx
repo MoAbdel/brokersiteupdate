@@ -11,7 +11,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-bellevue-wa-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HomeEquityBellevue() {
@@ -22,7 +24,7 @@ export default function HomeEquityBellevue() {
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-03',
-    dateModified: '2026-02-03',
+    dateModified: '2026-02-22',
   };
 
   const faqJsonLd = {
@@ -61,6 +63,46 @@ export default function HomeEquityBellevue() {
           text: 'West Bellevue, Somerset, Vuecrest, and Enatai tend to have the highest home values and equity positions. Long-term homeowners who purchased before the tech boom have often seen values increase 3-5x, creating substantial equity positions.',
         },
       },
+      {
+        '@type': 'Question',
+        name: 'Can I use a HELOC for an ADU on my Bellevue property?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. ADU construction is one of the most popular uses for Bellevue home equity. The City of Bellevue permits both attached and detached ADUs on single-family lots, and construction costs typically range from $200,000 to $500,000. A HELOC provides flexible draws as construction progresses, so you only pay interest on funds as you use them during the build.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does Washington state income tax affect HELOC interest deductions?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Washington has no state income tax, which simplifies home equity planning. HELOC interest is deductible on your federal taxes when funds are used for qualifying home improvements. Without state income tax to navigate, Bellevue homeowners keep more of their equity benefit compared to homeowners in states with income tax.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the maximum HELOC credit line available for Bellevue homes?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Bellevue homeowners with high-value properties can access jumbo HELOC credit lines of $500,000 to $2 million or more through specialized lenders. Standard HELOC programs cap at $500,000, but wholesale broker access to 200+ lenders includes super-jumbo HELOC products designed for luxury markets like West Bellevue and Medina.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How does the Bellevue tech industry affect home equity decisions?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Bellevue tech workers often have concentrated equity in employer stock alongside home equity. Using a HELOC or home equity loan to diversify investments or fund a down payment on a second property can reduce concentration risk. RSU vesting schedules and stock-based income also qualify through specialized lender programs available through wholesale broker access.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How long does it take to close a HELOC in Bellevue?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Standard Bellevue HELOCs close in 2-4 weeks. Jumbo HELOCs on higher-value properties may take 3-5 weeks due to enhanced appraisal requirements. Some wholesale lenders offer expedited processing with automated valuations for properties under $1.5 million, potentially closing in 10-14 days.',
+        },
+      },
     ],
   };
 
@@ -74,12 +116,12 @@ export default function HomeEquityBellevue() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Home Equity Options in Bellevue, WA: HELOC, HELOAN & Cash-Out [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         </header>
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Bellevue homeowners sit on significant home equity—often $500,000 to $2 million or more in established neighborhoods. Whether you&apos;re planning renovations, consolidating debt, funding education, or making investments, accessing that equity through a HELOC, home equity loan, or cash-out refinance requires comparing your options carefully. As a wholesale mortgage broker licensed in Washington, I help Bellevue homeowners find the best equity solution with access to 200+ lenders.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Bellevue homeowners sit on significant home equity&mdash;often $500,000 to $2 million or more in established neighborhoods.&quot; The Bellevue housing market recorded a median sale price of $1.62 million in January 2026, up 5.8% year-over-year according to Redfin data, with West Bellevue estates exceeding $3 million. Whether you&apos;re planning renovations, consolidating debt, funding education, or making investments, accessing that equity through a HELOC, home equity loan, or cash-out refinance requires comparing your options carefully. As a wholesale mortgage broker licensed in Washington, I help Bellevue homeowners find the best equity solution with access to 200+ lenders. For a broader view, see our <a href="/blog/home-equity-seattle-eastside-guide-2026" className="text-blue-600 hover:underline">Seattle Eastside home equity guide</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Why Bellevue Homeowners Are Tapping Equity</h2>
@@ -222,7 +264,7 @@ export default function HomeEquityBellevue() {
               <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
               <span>(949) 822-9662</span>
             </p>
-            <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
+            <p>NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>
 

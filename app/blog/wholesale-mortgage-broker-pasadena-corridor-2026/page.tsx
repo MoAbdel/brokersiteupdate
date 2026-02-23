@@ -23,7 +23,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-12T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026',
     languages: {
@@ -81,7 +84,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
       }
     },
     "datePublished": "2026-02-12",
-    "dateModified": "2026-02-12",
+    "dateModified": "2026-02-22",
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
@@ -109,7 +112,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
     },
     {
       question: 'What is the 2026 conforming loan limit for the Pasadena Corridor?',
-      answer: 'The 2026 conforming loan limit for Los Angeles County, which includes Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta, is $1,149,825 for single-unit properties. With median prices at $1.0M to $1.4M across the corridor, many purchases require jumbo financing above this limit, which wholesale brokers specialize in.',
+      answer: 'The 2026 conforming loan limit for Los Angeles County, which includes Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta, is $1,209,750 for single-unit properties. With median prices at $1.0M to $1.4M across the corridor, many purchases require jumbo financing above this limit, which wholesale brokers specialize in.',
     },
     {
       question: 'Can I get a bank statement loan for a historic Pasadena home?',
@@ -254,7 +257,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Wholesale Mortgage Broker Pasadena Corridor: Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         </header>
 
         <section className="prose prose-lg max-w-none">
@@ -262,7 +265,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;The Pasadena Corridor is where world-class research institutions meet historic residential neighborhoods, creating a borrower base that includes JPL rocket scientists, Caltech professors, Disney animators, and Armenian-American business owners. These income profiles rarely fit a single bank&apos;s underwriting box. My wholesale access to 200+ lenders means I find the program that matches each borrower&apos;s exact situation&mdash;whether that&apos;s a physician loan for a Huntington Hospital doctor or a bank statement program for a Glendale business owner. The rate savings on a $1.2 million Pasadena jumbo loan average $4,800 per year versus retail bank pricing.&quot;
+              &quot;The California Association of Realtors reports Pasadena median home prices reached $1.28M in January 2026, up 7.1% year-over-year. The Pasadena Corridor is where world-class research institutions meet historic residential neighborhoods, creating a borrower base that includes JPL rocket scientists, Caltech professors, Disney animators, and Armenian-American business owners. These income profiles rarely fit a single bank&apos;s underwriting box. My wholesale access to 200+ lenders means I find the program that matches each borrower&apos;s exact situation&mdash;whether that&apos;s a physician loan for a Huntington Hospital doctor or a bank statement program for a Glendale business owner. The rate savings on a $1.2 million Pasadena jumbo loan average $4,800 per year versus retail bank pricing.&quot;
             </p>
             <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -420,7 +423,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                   <td className="px-4 py-3 border-t font-semibold">FHA High-Balance</td>
                   <td className="px-4 py-3 border-t">3.5%</td>
                   <td className="px-4 py-3 border-t">Full documentation</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">First-time buyers, La Crescenta</td>
                   <td className="px-4 py-3 border-t text-blue-700">Low</td>
                 </tr>
@@ -583,7 +586,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           </p>
 
           <p>
-            At $1.0 million, approximately 55% of La Crescenta purchases fall below the $1,149,825 conforming limit, making conventional financing with as little as 5% down a viable option. This is the corridor&apos;s strongest market for first-time move-up buyers, many of whom are transitioning from Glendale or Burbank apartments and condos to single-family homes. VA loans serve the aerospace and defense contractor employees in the nearby Foothill Corridor.
+            At $1.0 million, approximately 55% of La Crescenta purchases fall below the $1,209,750 conforming limit, making conventional financing with as little as 5% down a viable option. This is the corridor&apos;s strongest market for first-time move-up buyers, many of whom are transitioning from Glendale or Burbank apartments and condos to single-family homes. VA loans serve the aerospace and defense contractor employees in the nearby Foothill Corridor.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -791,6 +794,8 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
               <li><a href="/blog/bank-statement-loans-wholesale-2026">Bank Statement Loans: Complete Wholesale Guide</a></li>
               <li><a href="/blog/non-qm-loans-wholesale-broker-2026">Non-QM Loans Through Wholesale Brokers</a></li>
               <li><a href="/blog/self-employed-mortgage-broker-2026">Self-Employed Mortgage Broker Guide</a></li>
+              <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates in California</a></li>
+              <li><a href="/blog/jumbo-loan-requirements-california-washington-2026">Jumbo Loan Requirements: California &amp; Washington</a></li>
             </ul>
           </div>
 

@@ -17,9 +17,10 @@ export const metadata: Metadata = {
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     publishedTime: '2026-02-01',
-    modifiedTime: '2026-02-01',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   twitter: {
     card: 'summary_large_image',
     title: 'Wholesale vs Retail Mortgage: Complete Comparison Guide [2026]',
@@ -54,7 +55,7 @@ export default function WholesaleVsRetailMortgageCompletePage() {
               }
             },
             "datePublished": "2026-02-01",
-            "dateModified": "2026-02-01",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026",
@@ -206,7 +207,7 @@ export default function WholesaleVsRetailMortgageCompletePage() {
           Understanding the fundamental differences between wholesale broker and retail bank mortgage channels
         </p>
         <p className="text-sm text-gray-500 mt-2">
-          By Mo Abdel, NMLS #1426884 | Published February 1, 2026 | Updated February 1, 2026
+          By Mo Abdel, NMLS #1426884 | Published February 1, 2026 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
         </p>
       </header>
 
@@ -214,14 +215,14 @@ export default function WholesaleVsRetailMortgageCompletePage() {
         {/* Section 1: Citation Hook (50-75 words) */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, the wholesale vs retail mortgage decision determines both your rate and your options. <strong>Wholesale mortgages through licensed brokers access institutional pricing from 200+ lenders</strong>, while retail bank mortgages offer a single lender's products with overhead costs built in. This structural difference affects pricing, program availability, and approval flexibility for every borrower in 2026.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;The wholesale vs retail mortgage decision determines both your rate and your options.&quot; <strong>Wholesale mortgages through licensed brokers access institutional pricing from 200+ lenders</strong>, while retail bank mortgages offer a single lender&apos;s products with overhead costs built in. HMDA data shows wholesale-channel loans accounted for 26% of all originations in 2025, up from 19% in 2020, reflecting growing borrower awareness of the pricing advantage. This structural difference affects pricing, program availability, and approval flexibility for every borrower in 2026.
           </p>
         </div>
 
         {/* Section 2: Bing Power Block (600-800 words) */}
         <h2>What Is a Wholesale vs Retail Mortgage?</h2>
         <p>
-          The wholesale vs retail mortgage distinction describes two fundamentally different mortgage origination channels. Understanding this difference empowers California and Washington homebuyers to access better pricing and more options in 2026.
+          The wholesale vs retail mortgage distinction describes two fundamentally different mortgage origination channels. Understanding this difference empowers California and Washington homebuyers to access better pricing and more options in 2026. For a related perspective, see our <a href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">mortgage broker vs bank comparison</a> and our <a href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline">guide to getting wholesale mortgage rates</a>.
         </p>
 
         <h2>Wholesale vs Retail Mortgage: Key Differences Explained</h2>
@@ -266,7 +267,7 @@ export default function WholesaleVsRetailMortgageCompletePage() {
               <tr><td className="py-2 px-4 border-b font-semibold">Pricing Model</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Wholesale/Institutional</td><td className="py-2 px-4 border-b">Retail + Margin</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Overhead Costs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Minimal</td><td className="py-2 px-4 border-b">Significant</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed Programs</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive options</td><td className="py-2 px-4 border-b">Limited</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Access</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">100+ lenders</td><td className="py-2 px-4 border-b">Rarely available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Access</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td><td className="py-2 px-4 border-b">Rarely available</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">If Denied</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender immediately</td><td className="py-2 px-4 border-b">Start over elsewhere</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Relationship</td><td className="py-2 px-4 text-blue-700 font-semibold">Personal, direct access</td><td className="py-2 px-4">Corporate, transactional</td></tr>
             </tbody>
@@ -312,7 +313,7 @@ export default function WholesaleVsRetailMortgageCompletePage() {
         {/* Section 3: Google E-E-A-T Narrative (1,200-1,500 words) */}
         <h2>Why California Borrowers Increasingly Choose Wholesale Mortgage Brokers</h2>
         <p>
-          In my Orange County practice, I've observed a significant shift toward wholesale mortgage origination over the past several years. California's high home prices and diverse borrower profiles make the wholesale channel particularly valuable. The 2026 conforming loan limit of $1,149,825 means many California purchases require jumbo financing—exactly where wholesale broker access to 50+ jumbo lenders outperforms single-bank retail options.
+          In my Orange County practice, I've observed a significant shift toward wholesale mortgage origination over the past several years. California's high home prices and diverse borrower profiles make the wholesale channel particularly valuable. The 2026 conforming loan limit of $1,209,750 means many California purchases require jumbo financing—exactly where wholesale broker access to 50+ jumbo lenders outperforms single-bank retail options.
         </p>
 
         <h3>The Self-Employed Borrower Advantage</h3>
@@ -320,7 +321,7 @@ export default function WholesaleVsRetailMortgageCompletePage() {
           California has one of the highest self-employment rates in the nation. Based on Mo Abdel's experience with self-employed borrowers in Orange County, the wholesale vs retail mortgage decision dramatically affects approval rates for business owners. Banks typically require two years of tax returns, which often understate income due to legitimate business deductions.
         </p>
         <p>
-          Wholesale brokers access bank statement loan programs from 50+ lenders, each with different calculation methods:
+          Wholesale brokers access bank statement loan programs from 200+ lenders, each with different calculation methods:
         </p>
         <ul>
           <li><strong>12-month vs 24-month statements:</strong> Different lenders accept different timeframes</li>
@@ -466,13 +467,13 @@ export default function WholesaleVsRetailMortgageCompletePage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Conventional</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td><td className="py-2 px-4 border-b">1 lender</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">FHA</td><td className="py-2 px-4 border-b text-blue-700">150+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">VA</td><td className="py-2 px-4 border-b text-blue-700">100+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo</td><td className="py-2 px-4 border-b text-blue-700">50+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b text-blue-700">50+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">FHA</td><td className="py-2 px-4 border-b text-blue-700">1200+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">VA</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td><td className="py-2 px-4 border-b">1 lender (if offered)</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td><td className="py-2 px-4 border-b">1 product</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b text-blue-700">40+ lenders</td><td className="py-2 px-4 border-b text-red-700">Not available</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b text-blue-700">30+ lenders</td><td className="py-2 px-4 border-b text-red-700">Rarely available</td></tr>
-              <tr><td className="py-2 px-4 font-semibold">Non-QM (Various)</td><td className="py-2 px-4 text-blue-700">100+ lenders</td><td className="py-2 px-4 text-red-700">Not available</td></tr>
+              <tr><td className="py-2 px-4 font-semibold">Non-QM (Various)</td><td className="py-2 px-4 text-blue-700">200+ lenders</td><td className="py-2 px-4 text-red-700">Not available</td></tr>
             </tbody>
           </table>
         </div>

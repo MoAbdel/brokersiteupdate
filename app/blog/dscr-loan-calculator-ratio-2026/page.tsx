@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-16T00:00:00Z',
-    modifiedTime: '2026-02-16T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoanCalculatorRatio2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-16",
-            "dateModified": "2026-02-16",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-calculator-ratio-2026",
@@ -742,7 +742,7 @@ export default function DSCRLoanCalculatorRatio2026() {
             The DSCR calculation produces a single number, but the number&apos;s significance depends entirely on which lender evaluates it. A DSCR of 0.95 results in a denial at one lender and an approval at another. A DSCR of 1.15 receives standard pricing from one lender and premium pricing from another whose threshold for best rates is 1.10 rather than 1.25.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Mo Abdel at Lumin Lending leverages wholesale access to 100+ DSCR lenders to identify the optimal match between each property&apos;s DSCR ratio and the lenders whose thresholds, pricing tiers, and program features create the best outcome. This matching process is especially valuable for properties with borderline DSCR ratios where the difference between lenders determines approval versus denial.
+            Mo Abdel at Lumin Lending leverages wholesale access to 200+ lenders including DSCR specialists to identify the optimal match between each property&apos;s DSCR ratio and the lenders whose thresholds, pricing tiers, and program features create the best outcome. This matching process is especially valuable for properties with borderline DSCR ratios where the difference between lenders determines approval versus denial.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
@@ -754,7 +754,7 @@ export default function DSCRLoanCalculatorRatio2026() {
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
-                  <span className="text-sm text-slate-600"><strong>Rate shopping across 100+ lenders</strong> reduces the P&amp;I component, which directly improves the DSCR ratio</span>
+                  <span className="text-sm text-slate-600"><strong>Rate shopping across 200+ lenders</strong> reduces the P&amp;I component, which directly improves the DSCR ratio</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
@@ -896,7 +896,7 @@ export default function DSCRLoanCalculatorRatio2026() {
             Every DSCR loan approval starts with a single calculation: monthly gross rental income divided by monthly PITIA. Understanding how each variable &mdash; rent, principal, interest, taxes, insurance, and HOA &mdash; impacts this ratio gives investors the power to evaluate deals accurately, improve qualification odds through strategic adjustments, and set realistic expectations before submitting an application.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending runs precise DSCR calculations using current lender rates and local market data, then matches each property&apos;s ratio with the optimal lender from 100+ available programs. Whether your DSCR is 1.50 or 0.80, wholesale access ensures you find the best possible program for your specific investment scenario.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending runs precise DSCR calculations using current lender rates and local market data, then matches each property&apos;s ratio with the optimal lender from 200+ available lender programs. Whether your DSCR is 1.50 or 0.80, wholesale access ensures you find the best possible program for your specific investment scenario.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

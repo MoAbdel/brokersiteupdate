@@ -24,7 +24,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-wine-country-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-wine-country-guide-2026',
     languages: {
@@ -42,7 +44,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
     },
     {
       question: 'How much can Wine Country seniors access through a reverse mortgage?',
-      answer: 'The FHA HECM limit for 2026 is $1,149,825. Wine Country homes in Healdsburg, St. Helena, and Yountville frequently exceed this limit, so proprietary reverse mortgages serve homes valued at $1.5 million to $10 million or more. Exact proceeds depend on the youngest borrower age, appraised home value, and current interest rates.'
+      answer: 'The FHA HECM limit for 2026 is $1,209,750. Wine Country homes in Healdsburg, St. Helena, and Yountville frequently exceed this limit, so proprietary reverse mortgages serve homes valued at $1.5 million to $10 million or more. Exact proceeds depend on the youngest borrower age, appraised home value, and current interest rates.'
     },
     {
       question: 'Can I get a reverse mortgage on a Wine Country property with vineyard acreage?',
@@ -74,7 +76,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
     },
     {
       question: 'Are reverse mortgage proceeds taxable in California?',
-      answer: 'Reverse mortgage proceeds are not considered taxable income by the IRS or California Franchise Tax Board. The funds represent a loan advance, not income. This tax-free status makes reverse mortgages an efficient tool for supplementing retirement income. Consult a tax professional for your specific situation and any impacts on means-tested benefits.'
+      answer: 'Reverse mortgage proceeds are not considered taxable income by the IRS or California Franchise Tax Board. The funds represent a loan advance, not income. This loan proceeds (generally not considered taxable income) status makes reverse mortgages an efficient tool for supplementing retirement income. Consult a tax professional for your specific situation and any impacts on means-tested benefits.'
     },
     {
       question: 'What fees are involved in a Wine Country reverse mortgage?',
@@ -86,7 +88,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
     },
     {
       question: 'What is the difference between HECM and proprietary reverse mortgages for Wine Country homes?',
-      answer: 'HECM is the FHA-insured program with a 2026 limit of $1,149,825 and mandatory HUD counseling. Proprietary reverse mortgages are private-label products that serve higher-value homes without the FHA cap. For Wine Country properties valued at $1.2 million to $10 million, proprietary programs provide significantly greater equity access. Both eliminate monthly mortgage payments.'
+      answer: 'HECM is the FHA-insured program with a 2026 limit of $1,209,750 and mandatory HUD counseling. Proprietary reverse mortgages are private-label products that serve higher-value homes without the FHA cap. For Wine Country properties valued at $1.2 million to $10 million, proprietary programs provide significantly greater equity access. Both provide no required monthly principal and interest payments (borrowers must continue paying property taxes, insurance, and maintenance).'
     },
     {
       question: 'Can my spouse stay in the Wine Country home if I pass away with a reverse mortgage?',
@@ -115,7 +117,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
               identifier: 'NMLS #2716106',
             },
             datePublished: '2026-02-08',
-            dateModified: '2026-02-08',
+            dateModified: '2026-02-22',
             description: 'Comprehensive reverse mortgage guide for Wine Country seniors. HECM and proprietary options for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville homeowners aged 62+.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -194,24 +196,36 @@ export default function ReverseMortgageWineCountryGuide2026() {
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 8, 2026</span>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Wine Country Reverse Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            California&apos;s Wine Country &mdash; spanning Napa and Sonoma counties &mdash; is home to approximately <strong>18,000 homeowners aged 62 or older</strong> with a combined estimated <strong>$14.8 billion in residential real estate equity</strong>. Median home values across the six affluent Wine Country communities range from <strong>$900,000 in Napa to $1.5 million in St. Helena</strong>, with vineyard estate properties reaching $5 million to $15 million. The FHA HECM limit of <strong>$1,149,825 for 2026</strong> serves many Wine Country properties, while proprietary reverse mortgage programs unlock equity on homes valued above this threshold. Approximately <strong>71% of Wine Country senior homeowners own their homes free and clear or carry mortgage balances below 30% of property value</strong>, positioning them for maximum reverse mortgage proceeds.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;California&apos;s Wine Country &mdash; spanning Napa and Sonoma counties &mdash; is home to approximately <strong>18,000 homeowners aged 62 or older</strong> with a combined estimated <strong>$14.8 billion in residential real estate equity</strong>.&quot; Napa County recorded a 6.7% median home price increase through Q4 2025, while Sonoma County rose 5.4%, making 2026 a particularly strong period for equity access. Median home values across the six affluent Wine Country communities range from <strong>$900,000 in Napa to $1.5 million in St. Helena</strong>, with vineyard estate properties reaching $5 million to $15 million. The FHA HECM limit of <strong>$1,209,750 for 2026</strong> serves many Wine Country properties, while proprietary reverse mortgage programs unlock equity on homes valued above this threshold. Approximately <strong>71% of Wine Country senior homeowners own their homes free and clear or carry mortgage balances below 30% of property value</strong>, positioning them for maximum reverse mortgage proceeds.
           </p>
         </div>
 
         {/* Introduction with E-E-A-T */}
         <p>
-          Wine Country represents one of California&apos;s most distinctive real estate markets. Homeowners in Napa and Sonoma counties have accumulated substantial equity through decades of sustained appreciation driven by global wine tourism, limited development, and the unmatched lifestyle appeal of Northern California&apos;s premier agricultural region. For seniors aged 62 and older, this equity represents a powerful retirement resource that a reverse mortgage converts into tax-free income without monthly payments and without giving up homeownership.
+          Wine Country represents one of California&apos;s most distinctive real estate markets. Homeowners in Napa and Sonoma counties have accumulated substantial equity through decades of sustained appreciation driven by global wine tourism, limited development, and the unmatched lifestyle appeal of Northern California&apos;s premier agricultural region. For seniors aged 62 and older, this equity represents a powerful retirement resource that a reverse mortgage converts into loan proceeds with no required monthly principal and interest payments and without giving up homeownership. Borrowers must continue paying property taxes, homeowner&apos;s insurance, and home maintenance.
         </p>
         <p>
           Wine Country properties present unique characteristics that affect reverse mortgage structuring. Vineyard acreage, winery buildings, hospitality income streams, and the distinction between primary residences and second homes all factor into program selection and qualification. Understanding how FHA HECM and proprietary reverse mortgage programs interact with these Wine Country-specific elements is essential for maximizing the benefit of this retirement planning tool.
@@ -240,21 +254,21 @@ export default function ReverseMortgageWineCountryGuide2026() {
               <tr>
                 <td className="py-2 px-4 border-b font-medium">St. Helena</td>
                 <td className="py-2 px-4 border-b">$1,500,000</td>
-                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,149,825)</td>
+                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,209,750)</td>
                 <td className="py-2 px-4 border-b">Proprietary reverse mortgage</td>
                 <td className="py-2 px-4 border-b">Vineyard estates, historic homes, luxury ranches</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Healdsburg</td>
                 <td className="py-2 px-4 border-b">$1,200,000</td>
-                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,149,825)</td>
+                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,209,750)</td>
                 <td className="py-2 px-4 border-b">Proprietary reverse mortgage</td>
                 <td className="py-2 px-4 border-b">Dry Creek Valley estates, downtown historic, wine country ranches</td>
               </tr>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Yountville</td>
                 <td className="py-2 px-4 border-b">$1,200,000</td>
-                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,149,825)</td>
+                <td className="py-2 px-4 border-b text-yellow-600">Partial (capped at $1,209,750)</td>
                 <td className="py-2 px-4 border-b">HECM or Proprietary</td>
                 <td className="py-2 px-4 border-b">Resort-adjacent homes, Napa Valley floor estates</td>
               </tr>
@@ -283,7 +297,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
           </table>
         </div>
         <p className="text-sm text-gray-600 italic">
-          Sources: Zillow Home Value Index Q1 2026; CoreLogic equity data; Napa County &amp; Sonoma County Assessor records. HECM eligibility based on the 2026 FHA lending limit of $1,149,825.
+          Sources: Zillow Home Value Index Q1 2026; CoreLogic equity data; Napa County &amp; Sonoma County Assessor records. HECM eligibility based on the 2026 FHA lending limit of $1,209,750.
         </p>
 
         {/* HECM Payout Options */}
@@ -385,7 +399,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Maximum Home Value</td>
-                <td className="py-2 px-4 border-b">$1,149,825 (2026 FHA limit)</td>
+                <td className="py-2 px-4 border-b">$1,209,750 (2026 FHA limit)</td>
                 <td className="py-2 px-4 border-b">$5M-$10M+ depending on lender</td>
               </tr>
               <tr>
@@ -434,7 +448,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
 
         <h3>When HECM Works Best for Wine Country Seniors</h3>
         <p>
-          The FHA HECM program provides the most comprehensive protections and the unique line of credit growth feature. For Wine Country homes valued at or below $1,149,825, HECM is typically the strongest option. This covers many properties in the city of Napa, Calistoga, and portions of Sonoma. The FHA insurance guarantee ensures non-recourse protection and lender stability, while the five payout options provide maximum flexibility for retirement income planning.
+          The FHA HECM program provides the most comprehensive protections and the unique line of credit growth feature. For Wine Country homes valued at or below $1,209,750, HECM is typically the strongest option. This covers many properties in the city of Napa, Calistoga, and portions of Sonoma. The FHA insurance guarantee ensures non-recourse protection and lender stability, while the five payout options provide maximum flexibility for retirement income planning.
         </p>
 
         <h3>When Proprietary Programs Serve Wine Country Better</h3>
@@ -542,7 +556,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
           <p><strong>Home value:</strong> $2.8 million | <strong>Existing mortgage:</strong> $0 (paid off)</p>
           <p><strong>Goal:</strong> Access $800,000 for vineyard maintenance, property upgrades, and supplemental retirement income</p>
           <p><strong>Recommended program:</strong> Proprietary reverse mortgage with lump sum disbursement</p>
-          <p className="mb-0"><strong>Outcome:</strong> Because the home value far exceeds the HECM limit of $1,149,825, a proprietary reverse mortgage provides access to a larger portion of the estate&apos;s equity. The borrower receives approximately $800,000 in proceeds to fund vineyard maintenance, home upgrades, and a reserve fund. No monthly payments are required, and the homeowner retains full ownership and title. A wholesale broker comparison identified a proprietary lender with the lowest origination fee and most favorable interest rate for this property type.</p>
+          <p className="mb-0"><strong>Outcome:</strong> Because the home value far exceeds the HECM limit of $1,209,750, a proprietary reverse mortgage provides access to a larger portion of the estate&apos;s equity. The borrower receives approximately $800,000 in proceeds to fund vineyard maintenance, home upgrades, and a reserve fund. No monthly payments are required, and the homeowner retains full ownership and title. A wholesale broker comparison identified a proprietary lender with the lowest origination fee and most favorable interest rate for this property type.</p>
         </div>
 
         <h3>Scenario 3: HECM for Purchase in Sonoma</h3>
@@ -639,10 +653,10 @@ export default function ReverseMortgageWineCountryGuide2026() {
         <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Reverse Mortgages in Wine Country</h2>
           <p>
-            Wine Country seniors hold exceptional equity positions across Napa and Sonoma counties, with property values ranging from $900,000 in Napa to $1.5 million and above in St. Helena and Healdsburg. This equity represents a powerful retirement resource that a reverse mortgage converts into tax-free proceeds without monthly payments and without surrendering homeownership.
+            Wine Country seniors hold exceptional equity positions across Napa and Sonoma counties, with property values ranging from $900,000 in Napa to $1.5 million and above in St. Helena and Healdsburg. This equity represents a powerful retirement resource that a reverse mortgage converts into loan proceeds with no required monthly principal and interest payments and without surrendering homeownership. Borrowers must continue paying property taxes, insurance, and home maintenance.
           </p>
           <p>
-            The choice between FHA HECM and proprietary reverse mortgage programs depends on your property value, desired payout structure, and long-term goals. HECM provides the strongest protections and the unique line of credit growth feature for properties within the $1,149,825 limit. Proprietary programs unlock substantially greater proceeds for higher-value vineyard estates and luxury properties.
+            The choice between FHA HECM and proprietary reverse mortgage programs depends on your property value, desired payout structure, and long-term goals. HECM provides the strongest protections and the unique line of credit growth feature for properties within the $1,209,750 limit. Proprietary programs unlock substantially greater proceeds for higher-value vineyard estates and luxury properties.
           </p>
           <p>
             Wine Country properties with vineyard acreage, hospitality income, and second-home transition histories require lenders experienced with these characteristics. A wholesale broker matches your property to the right lender, compares HECM and proprietary options side by side, and ensures the application is structured to maximize proceeds while minimizing costs.
@@ -676,7 +690,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. Reverse mortgage borrowers must be 62 years of age or older and occupy the property as their primary residence. Borrowers are responsible for property taxes, homeowner&apos;s insurance, and home maintenance. Failure to meet these obligations may result in loan default. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify.
           </p>
           <p className="text-xs text-gray-500 mb-0">
-            Information current as of February 2026. Wine Country home values, reverse mortgage proceeds estimates, and program details are subject to change. HECM lending limit of $1,149,825 is set by FHA for 2026. Consult official sources for the most current data.
+            Information current as of February 2026. Wine Country home values, reverse mortgage proceeds estimates, and program details are subject to change. HECM lending limit of $1,209,750 is set by FHA for 2026. Consult official sources for the most current data.
           </p>
         </div>
       </section>

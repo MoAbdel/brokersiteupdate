@@ -3,6 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How to Get Wholesale Mortgage Rates in California [2026]',
   description: 'Access wholesale mortgage rates in California through licensed brokers with 200+ lender relationships. Step-by-step guide to wholesale pricing. NMLS #1426884.',
+  openGraph: {
+    title: 'How to Get Wholesale Mortgage Rates in California [2026]',
+    description: 'Access wholesale mortgage rates in California through licensed brokers with 200+ lender relationships. Step-by-step guide to wholesale pricing.',
+    url: 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
+    siteName: 'Mo Abdel - Wholesale Mortgage Broker',
+    type: 'article',
+    authors: ['Mo Abdel'],
+    publishedTime: '2026-01-30T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
+  },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
     languages: {
@@ -35,7 +46,7 @@ export default function HowToGetWholesaleRatesPage() {
               "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
             },
             "datePublished": "2026-01-30",
-            "dateModified": "2026-01-30"
+            "dateModified": "2026-02-22"
           })
         }}
       />
@@ -85,6 +96,46 @@ export default function HowToGetWholesaleRatesPage() {
                   "@type": "Answer",
                   "text": "Wholesale mortgages often close in 21-30 days, sometimes faster. Because brokers have direct relationships with underwriters and can choose lenders known for speed, they can often close faster than large banks with multiple approval layers."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "What documents do I need to apply for a wholesale mortgage in California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Standard documentation includes two years of W-2s or tax returns, recent pay stubs, two months of bank statements, and a government-issued ID. Self-employed borrowers may use 12-24 months of bank statements instead. Your wholesale broker reviews your profile and identifies which documents each lender requires."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do wholesale mortgage brokers charge extra fees compared to banks?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wholesale brokers are compensated through lender-paid or borrower-paid compensation, which is disclosed upfront. Because wholesale rates exclude branch and advertising overhead, total loan costs through a broker are typically competitive with or lower than retail bank pricing. All fees must be disclosed on the Loan Estimate within three business days of application."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I get wholesale rates on a jumbo loan in California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale brokers access 50+ jumbo lenders, compared to the single jumbo product most banks offer. This is especially valuable in California where median home prices in many counties exceed the conforming limit of $1,209,750. Shopping jumbo rates across multiple wholesale lenders often yields meaningful savings."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between a wholesale broker and a retail loan officer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A retail loan officer works for one bank and can only offer that bank's products and rates. A wholesale broker is independently licensed and shops your loan across 200+ lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are wholesale mortgage rates available for investment properties in California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 200+ lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing."
+                }
               }
             ]
           })
@@ -98,12 +149,15 @@ export default function HowToGetWholesaleRatesPage() {
         <p className="text-lg text-gray-600">
           Your step-by-step guide to accessing institutional mortgage pricing
         </p>
+        <p className="text-sm text-gray-500 mt-2">
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
+        </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            California homebuyers access wholesale mortgage rates by working with <strong>licensed mortgage brokers</strong> who have relationships with <strong>200+ wholesale lenders</strong>. This enables rate shopping and institutional pricing not available directly to consumers. Wholesale pricing excludes the overhead costs built into retail bank rates, often resulting in more competitive terms.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), AIME&apos;s 2026 Wholesale Market Report shows broker-originated loans now account for over 25% of all residential mortgage volume nationally, up from 20% in 2023. California homebuyers access wholesale mortgage rates by working with <strong>licensed mortgage brokers</strong> who have relationships with <strong>200+ wholesale lenders</strong>. This enables rate shopping and institutional pricing not available directly to consumers. Wholesale pricing excludes the overhead costs built into retail bank rates, often resulting in more competitive terms.
           </p>
         </div>
 
@@ -248,7 +302,7 @@ export default function HowToGetWholesaleRatesPage() {
 
         <h3>High Home Prices Require Jumbo Expertise</h3>
         <p>
-          California's high home prices mean many loans exceed the conforming limit of $1,149,825:
+          California's high home prices mean many loans exceed the conforming limit of $1,209,750:
         </p>
         <ul>
           <li>Wholesale brokers access 50+ jumbo lenders</li>
@@ -258,7 +312,7 @@ export default function HowToGetWholesaleRatesPage() {
 
         <h3>Self-Employment Rates</h3>
         <p>
-          California has high self-employment rates, requiring specialized programs:
+          California has high self-employment rates, requiring specialized programs. For a detailed overview of self-employed financing options, see our <a href="/blog/self-employed-mortgage-broker-2026">self-employed mortgage broker guide</a>.
         </p>
         <ul>
           <li>Bank statement loans for business owners</li>
@@ -294,7 +348,7 @@ export default function HowToGetWholesaleRatesPage() {
         <ul>
           <li><strong>200+ lender relationships:</strong> More options mean better fit</li>
           <li><strong>Jumbo expertise:</strong> Critical for California home prices</li>
-          <li><strong>Non-QM programs:</strong> Bank statement, DSCR, asset depletion</li>
+          <li><strong>Non-QM programs:</strong> <a href="/blog/non-qm-loans-wholesale-broker-2026">Bank statement, DSCR, asset depletion</a></li>
           <li><strong>Local market knowledge:</strong> Understanding of your specific area</li>
           <li><strong>Communication skills:</strong> Clear, responsive, proactive</li>
         </ul>
@@ -359,6 +413,31 @@ export default function HowToGetWholesaleRatesPage() {
         <h3>How long does it take to get a wholesale mortgage?</h3>
         <p>
           Wholesale mortgages often close in 21-30 days, sometimes faster. Because brokers have direct relationships with underwriters and can choose lenders known for speed, they can often close faster than large banks with multiple approval layers.
+        </p>
+
+        <h3>What documents do I need to apply for a wholesale mortgage in California?</h3>
+        <p>
+          Standard documentation includes two years of W-2s or tax returns, recent pay stubs, two months of bank statements, and a government-issued ID. Self-employed borrowers may use 12-24 months of bank statements instead. Your wholesale broker reviews your profile and identifies which documents each lender requires.
+        </p>
+
+        <h3>Do wholesale mortgage brokers charge extra fees compared to banks?</h3>
+        <p>
+          Wholesale brokers are compensated through lender-paid or borrower-paid compensation, which is disclosed upfront. Because wholesale rates exclude branch and advertising overhead, total loan costs through a broker are typically competitive with or lower than retail bank pricing. All fees must be disclosed on the Loan Estimate within three business days of application.
+        </p>
+
+        <h3>Can I get wholesale rates on a jumbo loan in California?</h3>
+        <p>
+          Yes. Wholesale brokers access 50+ jumbo lenders, compared to the single jumbo product most banks offer. This is especially valuable in California where median home prices in many counties exceed the conforming limit of $1,209,750. Shopping jumbo rates across multiple wholesale lenders often yields meaningful savings.
+        </p>
+
+        <h3>What is the difference between a wholesale broker and a retail loan officer?</h3>
+        <p>
+          A retail loan officer works for one bank and can only offer that bank&apos;s products and rates. A wholesale broker is independently licensed and shops your loan across 200+ lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender.
+        </p>
+
+        <h3>Are wholesale mortgage rates available for investment properties in California?</h3>
+        <p>
+          Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 200+ lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing.
         </p>
 
         <h2>Ready to Access Wholesale Rates?</h2>

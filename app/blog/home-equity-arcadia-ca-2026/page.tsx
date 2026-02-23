@@ -15,9 +15,11 @@ export const metadata: Metadata = {
     description: 'Complete guide to accessing home equity in Arcadia, CA. ADU construction financing, home renovation loans, and jumbo equity products for Upper Rancho and premium neighborhoods.',
     url: 'https://www.mothebroker.com/blog/home-equity-arcadia-ca-2026',
     type: 'article',
-    publishedTime: '2026-02-05',
+    publishedTime: '2026-02-05T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HomeEquityArcadiaCAPage() {
@@ -40,7 +42,7 @@ export default function HomeEquityArcadiaCAPage() {
       "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
     },
     "datePublished": "2026-02-05",
-    "dateModified": "2026-02-05",
+    "dateModified": "2026-02-22",
     "mainEntityOfPage": "https://www.mothebroker.com/blog/home-equity-arcadia-ca-2026"
   };
 
@@ -77,7 +79,7 @@ export default function HomeEquityArcadiaCAPage() {
         "name": "How does a cash-out refinance work for jumbo loans in Arcadia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Most Arcadia homes require jumbo financing since values exceed conforming loan limits ($1,149,825 in LA County for 2026). Cash-out refinance replaces your existing mortgage with a larger loan, giving you the difference as cash. For a $2 million Arcadia home with $800,000 owed, you could refinance up to $1.6 million (80% LTV) and receive up to $800,000 cash minus closing costs. Jumbo cash-out refinances typically require 700+ credit scores and significant reserves."
+          "text": "Most Arcadia homes require jumbo financing since values exceed conforming loan limits ($1,209,750 in LA County for 2026). Cash-out refinance replaces your existing mortgage with a larger loan, giving you the difference as cash. For a $2 million Arcadia home with $800,000 owed, you could refinance up to $1.6 million (80% LTV) and receive up to $800,000 cash minus closing costs. Jumbo cash-out refinances typically require 700+ credit scores and significant reserves."
         }
       },
       {
@@ -94,6 +96,38 @@ export default function HomeEquityArcadiaCAPage() {
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, HELOCs are available on Arcadia investment properties through select lenders. Requirements are stricter than primary residences: typically 70-75% maximum CLTV, credit scores of 680+, and higher rates. Mo Abdel at Lumin Lending has wholesale lender relationships specializing in investment property HELOCs, which can be valuable for Arcadia investors looking to leverage equity for portfolio expansion or property improvements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to close a HELOC in Arcadia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 200+ lenders helps identify programs with the fastest processing for time-sensitive situations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does accessing home equity in Arcadia trigger a property tax reassessment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Taking out a HELOC, HELOAN, or cash-out refinance does not trigger a property tax reassessment under California Proposition 13. Your property taxes remain based on the original purchase price plus annual increases capped at 2%. This is especially beneficial for long-term Arcadia homeowners who purchased years ago at lower valuations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can self-employed Arcadia homeowners qualify for home equity products?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Arcadia has a significant population of business owners and self-employed professionals. Bank statement HELOC programs accept 12-24 months of personal or business bank deposits instead of tax returns. Wholesale broker access connects self-employed homeowners to lenders that specialize in non-traditional income documentation common among Arcadia entrepreneurs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the maximum HELOC amount for Arcadia properties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jumbo HELOC amounts for Arcadia properties can reach $1 million or more depending on the lender, home value, and existing mortgage balance. Most lenders cap combined loan-to-value at 80-90%. An Upper Rancho property valued at $2.5 million with a $1 million first mortgage could access $1 million to $1.25 million through a jumbo HELOC from select wholesale lenders."
         }
       }
     ]
@@ -148,7 +182,7 @@ export default function HomeEquityArcadiaCAPage() {
           Accessing substantial equity in San Gabriel Valley's premier residential community for ADU construction, home renovations, and multigenerational living
         </p>
         <div className="mt-4 text-sm text-gray-500">
-          <span>By Mo Abdel, NMLS #1426884</span> | <span>Updated February 2026</span> | <span>18 min read</span>
+          <span>By Mo Abdel, NMLS #1426884</span> | <span><time dateTime="2026-02-22">Updated February 22, 2026</time></span> | <span>18 min read</span>
         </div>
       </header>
 
@@ -156,7 +190,7 @@ export default function HomeEquityArcadiaCAPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Arcadia homeowners have accumulated exceptional home equity in one of Southern California's most desirable communities. With a median home value of <strong>$1.6 million</strong> and Upper Rancho estates reaching <strong>$2.5 million and beyond</strong>, qualified homeowners can access significant funds through jumbo HELOC, home equity loans, or cash-out refinance programs. Arcadia's award-winning school district, proximity to the San Gabriel Mountains, and strong Asian-American community make it a prime location where home improvements and ADU construction provide substantial returns on investment.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Redfin&apos;s February 2026 data shows Arcadia home values appreciated 10.2% year-over-year, reflecting strong demand from both domestic and international buyers. Arcadia homeowners have accumulated exceptional home equity in one of Southern California&apos;s most desirable communities. With a median home value of <strong>$1.6 million</strong> and Upper Rancho estates reaching <strong>$2.5 million and beyond</strong>, qualified homeowners can access significant funds through jumbo HELOC, home equity loans, or cash-out refinance programs. Arcadia's award-winning school district, proximity to the San Gabriel Mountains, and strong Asian-American community make it a prime location where home improvements and ADU construction provide substantial returns on investment.
           </p>
         </div>
 
@@ -532,7 +566,7 @@ export default function HomeEquityArcadiaCAPage() {
 
         <h3>2026 Loan Limits Affecting Arcadia</h3>
         <ul>
-          <li><strong>Conforming Loan Limit (LA County):</strong> $1,149,825</li>
+          <li><strong>Conforming Loan Limit (LA County):</strong> $1,209,750</li>
           <li><strong>Jumbo Threshold:</strong> Loans exceeding conforming limits</li>
           <li><strong>Super-Jumbo:</strong> Typically loans over $2 million</li>
         </ul>
@@ -685,7 +719,7 @@ export default function HomeEquityArcadiaCAPage() {
 
         <h3>How does a cash-out refinance work for jumbo loans in Arcadia?</h3>
         <p>
-          Most Arcadia homes require jumbo financing since values exceed conforming loan limits ($1,149,825 in LA County for 2026). Cash-out refinance replaces your existing mortgage with a larger loan, giving you the difference as cash. For a $2 million Arcadia home with $800,000 owed, you could refinance up to $1.6 million (80% LTV) and receive up to $800,000 cash minus closing costs. Jumbo cash-out refinances typically require 700+ credit scores and significant reserves.
+          Most Arcadia homes require jumbo financing since values exceed conforming loan limits ($1,209,750 in LA County for 2026). Cash-out refinance replaces your existing mortgage with a larger loan, giving you the difference as cash. For a $2 million Arcadia home with $800,000 owed, you could refinance up to $1.6 million (80% LTV) and receive up to $800,000 cash minus closing costs. Jumbo cash-out refinances typically require 700+ credit scores and significant reserves.
         </p>
 
         <h3>What are the best home equity uses for Arcadia homeowners in 2026?</h3>
@@ -696,6 +730,26 @@ export default function HomeEquityArcadiaCAPage() {
         <h3>Can I get a HELOC on my Arcadia investment property?</h3>
         <p>
           Yes, HELOCs are available on Arcadia investment properties through select lenders. Requirements are stricter than primary residences: typically 70-75% maximum CLTV, credit scores of 680+, and higher rates. Mo Abdel at Lumin Lending has wholesale lender relationships specializing in investment property HELOCs, which can be valuable for Arcadia investors looking to leverage equity for portfolio expansion or property improvements.
+        </p>
+
+        <h3>How long does it take to close a HELOC in Arcadia?</h3>
+        <p>
+          A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 200+ lenders helps identify programs with the fastest processing for time-sensitive situations.
+        </p>
+
+        <h3>Does accessing home equity in Arcadia trigger a property tax reassessment?</h3>
+        <p>
+          No. Taking out a HELOC, HELOAN, or cash-out refinance does not trigger a property tax reassessment under California Proposition 13. Your property taxes remain based on the original purchase price plus annual increases capped at 2%. This is especially beneficial for long-term Arcadia homeowners who purchased years ago at lower valuations.
+        </p>
+
+        <h3>Can self-employed Arcadia homeowners qualify for home equity products?</h3>
+        <p>
+          Yes. Arcadia has a significant population of business owners and self-employed professionals. Bank statement HELOC programs accept 12-24 months of personal or business bank deposits instead of tax returns. Wholesale broker access connects self-employed homeowners to lenders that specialize in non-traditional income documentation common among Arcadia entrepreneurs.
+        </p>
+
+        <h3>What is the maximum HELOC amount for Arcadia properties?</h3>
+        <p>
+          Jumbo HELOC amounts for Arcadia properties can reach $1 million or more depending on the lender, home value, and existing mortgage balance. Most lenders cap combined loan-to-value at 80-90%. An Upper Rancho property valued at $2.5 million with a $1 million first mortgage could access $1 million to $1.25 million through a jumbo HELOC from select wholesale lenders.
         </p>
 
         {/* Call to Action */}
@@ -728,6 +782,8 @@ export default function HomeEquityArcadiaCAPage() {
             <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
             <li><a href="/blog/home-equity-palos-verdes-2026">Home Equity Palos Verdes</a></li>
             <li><a href="/blog/home-equity-irvine-2026">Home Equity Irvine</a></li>
+            <li><a href="/blog/home-equity-santa-monica-ca-2026">Home Equity Santa Monica</a></li>
+            <li><a href="/blog/home-equity-sgv-pasadena-guide-2026">SGV &amp; Pasadena Home Equity Guide</a></li>
           </ul>
           <h4>Strategy & Uses</h4>
           <ul>

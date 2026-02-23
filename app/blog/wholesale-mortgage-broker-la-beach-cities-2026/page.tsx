@@ -23,7 +23,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-beach-cities-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-beach-cities-2026',
     languages: {
@@ -52,7 +55,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-10',
+    dateModified: '2026-02-22',
     description: 'Wholesale mortgage broker guide for Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo. Jumbo sand section financing, aerospace income programs, and South Bay investment strategies.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-beach-cities-2026',
   };
@@ -217,14 +220,20 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach &amp; LA Beach Cities, CA [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 10, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-xl text-gray-700 leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of the most competitive and financially demanding mortgage markets in Southern California. Manhattan Beach Sand Section properties routinely trade above $5 million. Hermosa Beach&apos;s walkable Strand lifestyle commands $2.5 million median prices in a city of just 1.4 square miles. Redondo Beach offers the broadest value range in the South Bay, from $1.2 million condos to $3 million Hollywood Riviera estates. El Segundo&apos;s aerospace corridor&mdash;home to Northrop Grumman, Raytheon, YouTube HQ, and Mattel&mdash;generates tech and defense incomes that combine base salaries, RSU grants, and performance bonuses few banks know how to underwrite. A wholesale mortgage broker with 200+ lender relationships matches each of these buyer profiles with the optimal jumbo program, delivering measurably better rates and approval odds than retail banking channels.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), the California Association of Realtors reports South Bay median home prices rose 9.2% year-over-year through January 2026, with Manhattan Beach Sand Section leading at $5.8M median. The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of the most competitive and financially demanding mortgage markets in Southern California. Manhattan Beach Sand Section properties routinely trade above $5 million. Hermosa Beach&apos;s walkable Strand lifestyle commands $2.5 million median prices in a city of just 1.4 square miles. Redondo Beach offers the broadest value range in the South Bay, from $1.2 million condos to $3 million Hollywood Riviera estates. El Segundo&apos;s aerospace corridor&mdash;home to Northrop Grumman, Raytheon, YouTube HQ, and Mattel&mdash;generates tech and defense incomes that combine base salaries, RSU grants, and performance bonuses few banks know how to underwrite. A wholesale mortgage broker with 200+ lender relationships matches each of these buyer profiles with the optimal jumbo program, delivering measurably better rates and approval odds than retail banking channels.
             </p>
           </div>
 
@@ -770,6 +779,16 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
                 <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">
                   <strong>Wholesale Mortgage Broker California Statewide Guide [2026]</strong>
                 </a> &mdash; Full California wholesale mortgage broker guide with all regional markets
+              </li>
+              <li>
+                <a href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline">
+                  <strong>How to Get Wholesale Mortgage Rates in California [2026]</strong>
+                </a> &mdash; Step-by-step guide to accessing institutional wholesale pricing through licensed brokers
+              </li>
+              <li>
+                <a href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">
+                  <strong>Jumbo Loan Requirements: California &amp; Washington [2026]</strong>
+                </a> &mdash; Complete jumbo qualification guide for high-value coastal properties
               </li>
             </ul>
           </div>

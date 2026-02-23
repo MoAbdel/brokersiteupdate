@@ -25,7 +25,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026',
     languages: {
@@ -118,7 +120,7 @@ export default function HomeEquitySouthSoundGuide2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-09',
-            dateModified: '2026-02-09',
+            dateModified: '2026-02-22',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026',
             description: 'South Sound home equity guide: HELOC, HELOAN & cash-out refinance for Gig Harbor, Maple Valley, University Place, Bonney Lake & Steilacoom homeowners.',
           }),
@@ -230,10 +232,16 @@ export default function HomeEquitySouthSoundGuide2026() {
         </p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span><span>|</span>
-          <span>Updated February 9, 2026</span><span>|</span>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time><span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -242,7 +250,7 @@ export default function HomeEquitySouthSoundGuide2026() {
             South Sound Home Equity Fact
           </p>
           <p className="text-blue-800 mb-0">
-            South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold an estimated $5.4 billion in accessible home equity. With property values appreciating 32-48% since 2020 across the region, homeowners who purchased or refinanced during the low-rate era now sit on substantial equity positions. A Maple Valley homeowner who purchased at $510,000 in 2020 now owns a home worth $750,000, representing $240,000 in appreciation alone. Wholesale broker access unlocks HELOC rates, loan-to-value limits, and qualification flexibility that retail banks cannot offer&mdash;and Washington&apos;s zero state income tax keeps every dollar of equity benefit in your household.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold an estimated $5.4 billion in accessible home equity.&quot; Pierce County home sales volume increased 11% year-over-year through January 2026, with median days on market dropping to 18&mdash;confirming strong demand that supports equity positions. With property values appreciating 32-48% since 2020 across the region, homeowners who purchased or refinanced during the low-rate era now sit on substantial equity positions. A Maple Valley homeowner who purchased at $510,000 in 2020 now owns a home worth $750,000, representing $240,000 in appreciation alone. Wholesale broker access to 200+ lenders unlocks HELOC rates, loan-to-value limits, and qualification flexibility that retail banks cannot offer&mdash;and Washington&apos;s zero state income tax keeps every dollar of equity benefit in your household.
           </p>
         </div>
 
@@ -257,7 +265,7 @@ export default function HomeEquitySouthSoundGuide2026() {
           <strong>Mo Abdel (NMLS #1426884)</strong> provides South Sound homeowners with wholesale broker access to HELOC, HELOAN, and cash-out refinance programs through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. This guide explains how each equity access method works, which option fits specific financial goals, and why wholesale broker access delivers better terms than retail bank branches.
         </p>
         <p>
-          Whether you own a Gig Harbor waterfront home, a Maple Valley horse property, a University Place golf-community residence, a Bonney Lake mountain-view home, or a Steilacoom historic property, this guide covers the equity strategies, qualification requirements, and practical considerations specific to your South Sound community.
+          Whether you own a Gig Harbor waterfront home, a Maple Valley horse property, a University Place golf-community residence, a Bonney Lake mountain-view home, or a Steilacoom historic property, this guide covers the equity strategies, qualification requirements, and practical considerations specific to your South Sound community. Homeowners in neighboring Bellevue and the Eastside can explore our <a href="/blog/home-equity-bellevue-wa-2026">Bellevue home equity guide</a> for King County-specific options.
         </p>
 
         {/* E-E-A-T Marker */}

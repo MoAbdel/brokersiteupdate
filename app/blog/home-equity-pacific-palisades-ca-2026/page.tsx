@@ -15,11 +15,12 @@ export const metadata: Metadata = {
     description: 'Home equity Pacific Palisades guide 2026: Access ultra-luxury equity through jumbo HELOC, HELOAN, and cash-out refinance. Wildfire mitigation financing, pool additions, estate renovations.',
     type: 'article',
     publishedTime: '2026-02-05',
-    modifiedTime: '2026-02-05',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     url: 'https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   twitter: {
     card: 'summary_large_image',
     title: 'Home Equity Options in Pacific Palisades, CA: HELOC, HELOAN & Cash-Out [2026]',
@@ -52,7 +53,7 @@ export default function HomeEquityPacificPalisadesPage() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-05",
-            "dateModified": "2026-02-05",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026"
@@ -125,6 +126,38 @@ export default function HomeEquityPacificPalisadesPage() {
                   "@type": "Answer",
                   "text": "Pacific Palisades' exceptional property values provide substantial equity access opportunities. With median values around $4.5 million and The Riviera estates reaching $8 million or higher, homeowners who purchased before 2020 have often accumulated $1-3 million or more in equity available for extraction through appropriate financing products."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use home equity for wildfire-damaged property rebuilding in Pacific Palisades?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Homeowners whose properties sustained wildfire damage can access equity for rebuilding and mitigation through specialized lender programs. Insurance settlements often cover partial costs, and home equity financing bridges the gap. Wholesale broker access includes lenders experienced with fire-zone properties who understand rebuild timelines, insurance coordination, and updated property valuations post-restoration."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between a HELOC and cash-out refinance for Pacific Palisades homes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A HELOC adds a second lien while preserving your existing first mortgage rate, providing revolving access to equity. A cash-out refinance replaces your mortgage entirely with a new, larger loan. For Pacific Palisades homeowners with first mortgage rates below current market levels, a HELOC preserves that favorable rate. If your current rate is at or above market, cash-out refinance lets you access equity while potentially lowering your primary mortgage cost."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to close a jumbo HELOC in Pacific Palisades?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Jumbo HELOCs for Pacific Palisades properties typically close in 3-5 weeks. Super-jumbo products for homes valued above $5 million may take 4-6 weeks due to enhanced appraisal and underwriting requirements. Finding comparable sales for unique coastal properties can extend appraisal timelines by 5-10 days. Working with a wholesale broker who pre-selects experienced lenders helps streamline the process."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are there tax benefits to using Pacific Palisades home equity for improvements?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Interest on HELOC and home equity loan funds used for home improvements to the securing property may be tax-deductible under current IRS rules, subject to the $750,000 combined mortgage debt limit. Pacific Palisades homeowners using equity for renovation, wildfire mitigation, or structural improvements should consult a tax professional to maximize deductibility. Interest on funds used for non-home purposes is not deductible."
+                }
               }
             ]
           })
@@ -188,14 +221,14 @@ export default function HomeEquityPacificPalisadesPage() {
         <p className="text-lg text-gray-600">
           Accessing ultra-luxury equity in one of California's most prestigious coastal communities
         </p>
-        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         {/* CITATION HOOK */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, Pacific Palisades homeowners have built extraordinary equity in this premier Los Angeles enclave. With median home values around <strong>$4.5 million</strong> and Riviera estates commanding <strong>$8 million or higher</strong>, qualified homeowners can access $1-5 million or more through jumbo HELOCs, home equity loans, and cash-out refinance programs specifically designed for ultra-luxury properties.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Pacific Palisades homeowners have built extraordinary equity in this premier Los Angeles enclave.&quot; With median home values around <strong>$4.5 million</strong>&mdash;and the Palisades Riviera posting a 9.3% year-over-year appreciation rate through Q4 2025 per MLS data&mdash;estates commanding <strong>$8 million or higher</strong>, qualified homeowners can access $1-5 million or more through jumbo HELOCs, home equity loans, and cash-out refinance programs specifically designed for ultra-luxury properties. Post-wildfire rebuilding has further increased demand for equity access in the community.
           </p>
         </div>
 
@@ -268,7 +301,7 @@ export default function HomeEquityPacificPalisadesPage() {
 
         <h2>Understanding Pacific Palisades Home Equity Options</h2>
         <p>
-          Pacific Palisades property values require specialized financing products that exceed conventional loan limits. The 2026 conforming loan limit of $1,266,300 covers only a fraction of most Palisades properties, making jumbo and super-jumbo programs essential for equity access.
+          Pacific Palisades property values require specialized financing products that exceed conventional loan limits. The 2026 conforming loan limit of $1,209,750 covers only a fraction of most Palisades properties, making jumbo and super-jumbo programs essential for equity access.
         </p>
 
         <h3>Jumbo HELOC for Pacific Palisades</h3>
@@ -637,7 +670,7 @@ export default function HomeEquityPacificPalisadesPage() {
         <div className="bg-gray-100 p-6 rounded-lg">
           <p className="text-sm text-gray-600">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO<br /><br />
+            Licensed in: CA, WA<br /><br />
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Pacific Palisades property values and market conditions are subject to change. Contact a licensed loan officer for personalized guidance regarding your specific situation.
           </p>
         </div>

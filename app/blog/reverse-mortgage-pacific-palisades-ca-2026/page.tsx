@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-pacific-palisades-ca-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-05T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function ReverseMortgagePacificPalisades() {
@@ -39,7 +42,7 @@ export default function ReverseMortgagePacificPalisades() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-05',
-    dateModified: '2026-02-05',
+    dateModified: '2026-02-22',
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-pacific-palisades-ca-2026',
@@ -60,7 +63,7 @@ export default function ReverseMortgagePacificPalisades() {
         name: 'Can I get a reverse mortgage on my Pacific Palisades home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, if you are 62 or older and own your Pacific Palisades home as your primary residence. With Pacific Palisades median home values around $4.5 million, most homeowners require jumbo (proprietary) reverse mortgage products that exceed the standard HECM limit of $1,149,825.',
+          text: 'Yes, if you are 62 or older and own your Pacific Palisades home as your primary residence. With Pacific Palisades median home values around $4.5 million, most homeowners require jumbo (proprietary) reverse mortgage products that exceed the standard HECM limit of $1,209,750.',
         },
       },
       {
@@ -76,7 +79,7 @@ export default function ReverseMortgagePacificPalisades() {
         name: 'Why do Pacific Palisades homeowners need jumbo reverse mortgages?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Standard FHA HECM loans cap at $1,149,825 for 2026. With Pacific Palisades homes typically valued between $3M-$15M+, jumbo reverse mortgages are essential to access meaningful equity. These proprietary products can accommodate home values up to $10M or more, depending on the lender.',
+          text: 'Standard FHA HECM loans cap at $1,209,750 for 2026. With Pacific Palisades homes typically valued between $3M-$15M+, jumbo reverse mortgages are essential to access meaningful equity. These proprietary products can accommodate home values up to $10M or more, depending on the lender.',
         },
       },
       {
@@ -132,19 +135,26 @@ export default function ReverseMortgagePacificPalisades() {
 
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
-          <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
+          <p className="text-sm text-slate-500 mb-2"><time dateTime="2026-02-22">Updated February 22, 2026</time></p>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Reverse Mortgage in Pacific Palisades, CA: HECM Guide for Seniors [2026]
           </h1>
           <p className="text-lg text-gray-600">
             Accessing equity in one of Los Angeles&apos;s most prestigious coastal canyon communities
           </p>
+          <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="lead font-semibold text-gray-900 mb-0">
-              Pacific Palisades homeowners 62 and older can access extraordinary home equity through a reverse mortgage without monthly payments. With median home values around <strong>$4.5 million</strong> in this exclusive canyon and coastal community, qualifying seniors require specialized jumbo reverse mortgage products that far exceed the standard HECM limit of $1,149,825. As a wholesale mortgage broker serving Pacific Palisades and greater Los Angeles, I help long-term homeowners navigate proprietary reverse mortgage options with access to lenders who understand celebrity enclaves, canyon estates, wildfire considerations, and the unique real estate dynamics of this culturally significant neighborhood adjacent to the Getty Villa.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Pacific Palisades homeowners 62 and older can access extraordinary home equity through a reverse mortgage with no required monthly principal and interest payments. With median home values around <strong>$4.5 million</strong> in this exclusive canyon and coastal community &mdash; and post-fire rebuilds pushing premium estate values even higher in 2026 &mdash; qualifying seniors require specialized jumbo reverse mortgage products that far exceed the standard HECM limit of $1,209,750. As a wholesale mortgage broker serving Pacific Palisades and greater Los Angeles, Mo Abdel helps long-term homeowners navigate proprietary reverse mortgage options with access to 200+ lenders who understand celebrity enclaves, canyon estates, wildfire considerations, and the unique real estate dynamics of this culturally significant neighborhood adjacent to the Getty Villa.
             </p>
           </div>
 
@@ -233,7 +243,7 @@ export default function ReverseMortgagePacificPalisades() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Maximum Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t text-blue-700 font-semibold">$10M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -271,7 +281,7 @@ export default function ReverseMortgagePacificPalisades() {
           </div>
 
           <p>
-            For Pacific Palisades homeowners, jumbo reverse mortgage products are almost always the appropriate choice. A standard HECM would leave substantial equity inaccessible. For example, on a $4.5 million home, a HECM would only calculate proceeds based on $1,149,825 of value, potentially leaving $3+ million in equity untapped. Jumbo products calculate based on the full appraised value, dramatically increasing available proceeds.
+            For Pacific Palisades homeowners, jumbo reverse mortgage products are almost always the appropriate choice. A standard HECM would leave substantial equity inaccessible. For example, on a $4.5 million home, a HECM would only calculate proceeds based on $1,209,750 of value, potentially leaving $3+ million in equity untapped. Jumbo products calculate based on the full appraised value, dramatically increasing available proceeds.
           </p>
 
           <h2 id="wildfire">Wildfire Risk Considerations for Pacific Palisades Reverse Mortgages</h2>
@@ -491,8 +501,8 @@ export default function ReverseMortgagePacificPalisades() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-4 py-3 border-t">Monthly Payments</td>
-                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">None required</td>
+                  <td className="px-4 py-3 border-t">Monthly P&amp;I Payments</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">No required P&amp;I payments*</td>
                   <td className="px-4 py-3 border-t">Required</td>
                 </tr>
                 <tr>
@@ -536,7 +546,7 @@ export default function ReverseMortgagePacificPalisades() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a reverse mortgage on my Pacific Palisades home?</h3>
-              <p>Yes, if you are 62 or older and own your Pacific Palisades home as your primary residence. With Pacific Palisades median home values around $4.5 million, most homeowners require jumbo (proprietary) reverse mortgage products that exceed the standard HECM limit of $1,149,825. These specialized products are designed for high-value California properties.</p>
+              <p>Yes, if you are 62 or older and own your Pacific Palisades home as your primary residence. With Pacific Palisades median home values around $4.5 million, most homeowners require jumbo (proprietary) reverse mortgage products that exceed the standard HECM limit of $1,209,750. These specialized products are designed for high-value California properties.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -546,7 +556,7 @@ export default function ReverseMortgagePacificPalisades() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why do Pacific Palisades homeowners need jumbo reverse mortgages?</h3>
-              <p>Standard FHA HECM loans cap at $1,149,825 for 2026. With Pacific Palisades homes typically valued between $3M-$15M+, jumbo reverse mortgages are essential to access meaningful equity. These proprietary products can accommodate home values up to $10M or more, depending on the lender, and are specifically designed for California&apos;s luxury real estate markets.</p>
+              <p>Standard FHA HECM loans cap at $1,209,750 for 2026. With Pacific Palisades homes typically valued between $3M-$15M+, jumbo reverse mortgages are essential to access meaningful equity. These proprietary products can accommodate home values up to $10M or more, depending on the lender, and are specifically designed for California&apos;s luxury real estate markets.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -581,8 +591,8 @@ export default function ReverseMortgagePacificPalisades() {
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel for a confidential Pacific Palisades consultation:</p>
             <p className="text-lg">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
-            <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
-            <p className="text-sm mt-2">Licensed in California | Serving Pacific Palisades and Los Angeles County</p>
+            <p>NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
+            <p className="text-sm mt-2">Licensed in California &amp; Washington | Serving Pacific Palisades and Los Angeles County</p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-xl my-8">
@@ -599,6 +609,12 @@ export default function ReverseMortgagePacificPalisades() {
               <li><a href="/blog/home-equity-guide">Home Equity Guide</a></li>
               <li><a href="/blog/home-equity-calabasas-2026">Home Equity Calabasas</a></li>
               <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
+              <li><a href="/blog/home-equity-pacific-palisades-ca-2026">Home Equity Pacific Palisades</a></li>
+            </ul>
+            <h4>Reverse Mortgage Education</h4>
+            <ul>
+              <li><a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026">LA South Bay &amp; Palos Verdes Reverse Mortgage Guide</a></li>
+              <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary Reverse Mortgage Explained</a></li>
             </ul>
           </div>
 

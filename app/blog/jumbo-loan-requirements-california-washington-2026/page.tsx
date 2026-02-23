@@ -27,7 +27,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-17T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026',
     languages: {
@@ -40,7 +43,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is a jumbo loan and how is it different from a conforming loan?',
-    answer: 'A jumbo loan exceeds the conforming loan limits set by the Federal Housing Finance Agency (FHFA). In 2026, the baseline conforming limit is $806,500 for most U.S. counties, while high-cost areas like Orange County, Los Angeles, and King County WA have limits of $1,149,825. Any loan amount above the applicable conforming limit for the property county requires jumbo financing, which is not backed by Fannie Mae or Freddie Mac and is held on the lender portfolio or sold to private investors.',
+    answer: 'A jumbo loan exceeds the conforming loan limits set by the Federal Housing Finance Agency (FHFA). In 2026, the baseline conforming limit is $806,500 for most U.S. counties, while high-cost areas like Orange County, Los Angeles, and King County WA have limits of $1,209,750. Any loan amount above the applicable conforming limit for the property county requires jumbo financing, which is not backed by Fannie Mae or Freddie Mac and is held on the lender portfolio or sold to private investors.',
   },
   {
     question: 'What credit score do I need for a jumbo loan in 2026?',
@@ -52,11 +55,11 @@ const faqData = [
   },
   {
     question: 'What are the 2026 conforming loan limits for California counties?',
-    answer: 'Most California counties have a 2026 conforming loan limit of $1,149,825, including Orange County, Los Angeles County, San Francisco County, San Mateo County, Santa Clara County, San Diego County, Alameda County, and Contra Costa County. Some California counties with lower home values have limits between $806,500 and $1,149,825. Any loan above the applicable county limit requires jumbo financing.',
+    answer: 'Most California counties have a 2026 conforming loan limit of $1,209,750, including Orange County, Los Angeles County, San Francisco County, San Mateo County, Santa Clara County, San Diego County, Alameda County, and Contra Costa County. Some California counties with lower home values have limits between $806,500 and $1,209,750. Any loan above the applicable county limit requires jumbo financing.',
   },
   {
     question: 'What are the 2026 conforming loan limits for Washington counties?',
-    answer: 'King County, Snohomish County, and Pierce County in Washington have a 2026 conforming loan limit of $1,149,825 due to high home values in the Seattle-Tacoma metro area. San Juan County also has a high-cost limit. Most other Washington counties use the baseline limit of $806,500. Loan amounts above these thresholds require jumbo financing.',
+    answer: 'King County, Snohomish County, and Pierce County in Washington have a 2026 conforming loan limit of $1,209,750 due to high home values in the Seattle-Tacoma metro area. San Juan County also has a high-cost limit. Most other Washington counties use the baseline limit of $806,500. Loan amounts above these thresholds require jumbo financing.',
   },
   {
     question: 'What reserve requirements do jumbo loans have?',
@@ -76,7 +79,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with jumbo loans?',
-    answer: 'A wholesale mortgage broker accesses 50+ jumbo lenders, each with different rates, qualification criteria, and program features. Retail banks offer their single jumbo product with fixed terms. A broker compares jumbo options across dozens of lenders to find the best rate, lowest required down payment, most flexible reserve requirements, and fastest closing timeline. For borrowers with non-traditional income, complex assets, or unique situations, a broker identifies the lender whose guidelines accommodate the specific profile.',
+    answer: 'A wholesale mortgage broker accesses 200+ lenders including 50+ jumbo-specific investors, each with different rates, qualification criteria, and program features. Retail banks offer their single jumbo product with fixed terms. A broker compares jumbo options across dozens of lenders to find the best rate, lowest required down payment, most flexible reserve requirements, and fastest closing timeline. For borrowers with non-traditional income, complex assets, or unique situations, a broker identifies the lender whose guidelines accommodate the specific profile.',
   },
   {
     question: 'Can I get a jumbo loan with less than 20% down?',
@@ -135,7 +138,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
       }
     },
     "datePublished": "2026-02-17",
-    "dateModified": "2026-02-17",
+    "dateModified": "2026-02-22",
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026",
@@ -230,7 +233,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         <div className="flex items-center text-sm text-gray-500 space-x-4">
           <span>By <strong className="text-gray-700">Mo Abdel</strong>, NMLS #1426884</span>
           <span>|</span>
-          <time dateTime="2026-02-17">February 17, 2026</time>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
           <span>|</span>
           <span>20 min read</span>
         </div>
@@ -241,7 +244,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         {/* Citation Hook */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Jumbo loans finance properties that exceed the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> conforming loan limits. In 2026, the baseline conforming limit is <strong>$806,500</strong>, while high-cost counties in California and Washington have limits of <strong>$1,149,825</strong>. Any mortgage above these thresholds requires jumbo financing with stricter qualification standards: higher credit scores, larger down payments, and more substantial reserves. As a <strong>wholesale mortgage broker</strong> with access to 50+ jumbo investors, I help borrowers navigate these requirements daily across California, Washington, and Colorado markets where median home prices routinely exceed conforming limits.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), jumbo loan originations in California and Washington exceeded $142 billion in 2025, representing the largest share of high-balance mortgage activity in the nation. Jumbo loans finance properties that exceed the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> conforming loan limits. In 2026, the baseline conforming limit is <strong>$806,500</strong>, while high-cost counties in California and Washington have limits of <strong>$1,209,750</strong>. Any mortgage above these thresholds requires jumbo financing with stricter qualification standards: higher credit scores, larger down payments, and more substantial reserves. As a <strong>wholesale mortgage broker</strong> with access to 200+ lenders including 50+ jumbo investors, I help borrowers navigate these requirements daily across California and Washington markets where median home prices routinely exceed conforming limits.
           </p>
         </div>
 
@@ -251,7 +254,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div>
               <p className="mb-2"><strong>2026 Baseline Limit:</strong> $806,500</p>
-              <p className="mb-2"><strong>2026 High-Cost Limit:</strong> $1,149,825</p>
+              <p className="mb-2"><strong>2026 High-Cost Limit:</strong> $1,209,750</p>
               <p className="mb-2"><strong>Min. Credit Score:</strong> 700 (680 select programs)</p>
               <p className="mb-2"><strong>Down Payment:</strong> 10-25% by loan amount</p>
             </div>
@@ -267,10 +270,10 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         {/* E-E-A-T Section 1 */}
         <h2>2026 Conforming Loan Limits: When Your Mortgage Becomes a Jumbo</h2>
         <p>
-          The FHFA adjusts conforming loan limits annually based on home price appreciation data. The <strong>2026 baseline conforming limit increased to $806,500</strong>, up from $766,550 in 2025. High-cost area limits, calculated as 150% of the baseline, increased to <strong>$1,149,825</strong>. Understanding these limits by county is essential because the conforming/jumbo threshold directly affects qualification requirements, interest rates, and available lender programs.
+          The FHFA adjusts conforming loan limits annually based on home price appreciation data. The <strong>2025 baseline conforming limit is $806,500</strong>, up from $766,550 in 2024. High-cost area limits, calculated as 150% of the baseline, are <strong>$1,209,750</strong> (2025 conforming loan limits per FHFA; limits are updated annually). Understanding these limits by county is essential because the conforming/jumbo threshold directly affects qualification requirements, interest rates, and available lender programs.
         </p>
         <p>
-          In California and Washington, the majority of the most populated counties qualify for the <strong>maximum high-cost limit of $1,149,825</strong> due to elevated median home values. This means a borrower financing a $1,100,000 home with 10% down ($990,000 loan) needs jumbo financing, while a borrower financing a $1,250,000 home with 20% down ($1,000,000 loan) also needs jumbo financing even in high-cost areas.
+          In California and Washington, the majority of the most populated counties qualify for the <strong>maximum high-cost limit of $1,209,750</strong> due to elevated median home values. This means a borrower financing a $1,100,000 home with 10% down ($990,000 loan) needs jumbo financing, while a borrower financing a $1,250,000 home with 20% down ($1,000,000 loan) also needs jumbo financing even in high-cost areas.
         </p>
 
         {/* California County Limits Table */}
@@ -288,67 +291,67 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Orange County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,185,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Los Angeles County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$985,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">Near limit</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">San Francisco County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,425,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">San Mateo County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,680,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Santa Clara County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,750,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">San Diego County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$925,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">Near limit</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Alameda County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,100,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">Near limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Contra Costa County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$875,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">Below limit</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Marin County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,550,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Santa Barbara County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$1,175,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-red-700 font-semibold">Above limit</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Ventura County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$850,000</td>
                 <td className="border border-gray-300 px-4 py-3 text-green-700 font-semibold">Below limit</td>
               </tr>
@@ -386,25 +389,25 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">King County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$875,000</td>
                 <td className="border border-gray-300 px-4 py-3">Seattle, Bellevue, Mercer Island, Medina</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">Snohomish County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$725,000</td>
                 <td className="border border-gray-300 px-4 py-3">Edmonds, Mukilteo, Bothell</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-medium">Pierce County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$545,000</td>
                 <td className="border border-gray-300 px-4 py-3">Tacoma, Gig Harbor, University Place</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-medium">San Juan County</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">$785,000</td>
                 <td className="border border-gray-300 px-4 py-3">Friday Harbor, San Juan Islands</td>
               </tr>
@@ -617,7 +620,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
 
         <h3>Step 1: Pre-Qualification and Lender Selection (Days 1-3)</h3>
         <p>
-          A wholesale broker reviews the borrower&apos;s financial profile and identifies the best-fit jumbo lenders. This includes analyzing credit scores, income sources, asset positions, property type, and loan amount to narrow the field from 50+ lenders to the 3-5 that offer the best rate and terms for the specific scenario.
+          A wholesale broker reviews the borrower&apos;s financial profile and identifies the best-fit jumbo lenders. This includes analyzing credit scores, income sources, asset positions, property type, and loan amount to narrow the field from 200+ lenders to the 3-5 that offer the best rate and terms for the specific scenario.
         </p>
 
         <h3>Step 2: Full Application and Document Collection (Days 3-10)</h3>
@@ -710,14 +713,14 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the jumbo loan limit in California for 2026?</h3>
             <p className="mb-0">
-              The 2026 conforming loan limit in most California high-cost counties is <strong>$1,149,825</strong>. Any loan above this amount requires jumbo financing. Counties including Orange, Los Angeles, San Francisco, San Mateo, Santa Clara, San Diego, Alameda, and Marin all use this maximum limit. Some inland California counties have lower limits between $806,500 and $1,149,825.
+              The 2026 conforming loan limit in most California high-cost counties is <strong>$1,209,750</strong>. Any loan above this amount requires jumbo financing. Counties including Orange, Los Angeles, San Francisco, San Mateo, Santa Clara, San Diego, Alameda, and Marin all use this maximum limit. Some inland California counties have lower limits between $806,500 and $1,209,750.
             </p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Are jumbo loan rates higher than conforming rates?</h3>
             <p className="mb-0">
-              Jumbo loan rates are typically <strong>0.125% to 0.75% higher</strong> than conforming loan rates, depending on the loan amount, credit score, and down payment. However, this gap has narrowed significantly in recent years. In some cases, jumbo ARM rates are actually lower than conforming fixed rates. The rate premium is lowest for borrowers with 740+ credit, 20%+ down, and strong reserves. A wholesale broker comparison across 50+ lenders minimizes the rate premium.
+              Jumbo loan rates are typically <strong>0.125% to 0.75% higher</strong> than conforming loan rates, depending on the loan amount, credit score, and down payment. However, this gap has narrowed significantly in recent years. In some cases, jumbo ARM rates are actually lower than conforming fixed rates. The rate premium is lowest for borrowers with 740+ credit, 20%+ down, and strong reserves. A wholesale broker comparison across 200+ lenders minimizes the rate premium.
             </p>
           </div>
 
@@ -778,7 +781,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
             The critical factors for jumbo loan success are <strong>credit score, down payment, reserves, and the right lender match</strong>. A borrower with a 740 credit score, 20% down, and 12 months reserves qualifies for excellent jumbo terms across dozens of wholesale lenders. Even borrowers with 700 credit, 10% down, or self-employed income have viable jumbo options through the wholesale channel.
           </p>
           <p>
-            As a <strong>wholesale mortgage broker licensed in California, Washington, and Colorado</strong>, I access 50+ jumbo investors daily. This is not a theoretical advantage. It means comparing actual rate quotes, guideline variations, and closing timelines across dozens of lenders to find the best fit for each borrower. Retail banks offer one jumbo product. I offer the entire jumbo marketplace.
+            As a <strong>wholesale mortgage broker licensed in California and Washington</strong>, I access 50+ jumbo investors daily. This is not a theoretical advantage. It means comparing actual rate quotes, guideline variations, and closing timelines across dozens of lenders to find the best fit for each borrower. Retail banks offer one jumbo product. I offer the entire jumbo marketplace.
           </p>
           <p className="mb-0">
             <strong>Ready to explore jumbo loan options?</strong> Call <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a free consultation. I will analyze your financial profile, identify the best jumbo lenders for your specific situation, and present rate and term options that reflect the full wholesale marketplace. Whether you need a $900,000 standard jumbo or a $5,000,000 super-jumbo, the process starts with a single conversation.
@@ -801,7 +804,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO
+            Licensed in: CA, WA
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Jumbo loan rates, terms, and qualification requirements vary by lender, loan amount, and borrower profile. Conforming loan limits are set by the FHFA and are subject to annual adjustment. Rate quotes and loan amount ranges are for illustrative purposes only and are not a guarantee of any specific rate, terms, or loan amount. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer">www.nmlsconsumeraccess.org</a>.

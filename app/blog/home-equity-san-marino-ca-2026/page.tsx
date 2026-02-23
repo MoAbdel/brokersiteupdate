@@ -16,8 +16,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026',
     type: 'article',
     publishedTime: '2026-02-05',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HomeEquitySanMarinoCaPage() {
@@ -44,7 +46,7 @@ export default function HomeEquitySanMarinoCaPage() {
               "identifier": "NMLS #2716106"
             },
             "datePublished": "2026-02-05",
-            "dateModified": "2026-02-05",
+            "dateModified": "2026-02-22",
             "mainEntityOfPage": "https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026"
           })
         }}
@@ -103,6 +105,38 @@ export default function HomeEquitySanMarinoCaPage() {
                   "@type": "Answer",
                   "text": "San Marino historic home appraisals require appraisers experienced with period architecture, original features, and preservation value. Comparable sales must account for historic designation, architectural significance, and authentic materials. Mills Act properties may have different valuation considerations. Working with lenders experienced in San Marino ensures appropriate appraisal approaches."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "How does the San Marino Design Review Board affect renovation financing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "San Marino's Design Review Board reviews all exterior modifications for architectural compatibility. This can increase renovation costs by 15-25% compared to non-regulated cities because period-appropriate materials and skilled craftsmen are required. HELOC financing with revolving access works well here, since Design Review approvals may take 2-4 months and project scopes often evolve during the review process."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use home equity for seismic retrofitting in San Marino?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Many San Marino homes built in the 1920s-1940s benefit from seismic retrofitting, which typically costs $50,000 to $200,000 depending on foundation type and home size. Both HELOCs and home equity loans fund seismic work effectively. Foundation improvements also increase appraised value and may improve insurance terms, making this one of the highest-ROI uses of home equity in older communities."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between a jumbo HELOC and a super-jumbo HELOC for San Marino?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Jumbo HELOCs cover credit lines above the conforming limit of $1,209,750 up to roughly $2-3 million. Super-jumbo HELOCs exceed $2-3 million and are available through specialized portfolio lenders. San Marino properties valued above $5 million typically require super-jumbo programs. A wholesale broker accesses both tiers from 200+ lenders, comparing rates and CLTV limits across programs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to close a jumbo HELOC in San Marino?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Jumbo HELOCs for San Marino properties typically close in 3-5 weeks. The appraisal process takes longer than standard properties because finding comparable sales in this exclusive market requires experienced appraisers. Super-jumbo programs may take 4-6 weeks due to enhanced underwriting. Working with a broker who pre-selects lenders familiar with San Marino expedites the process."
+                }
               }
             ]
           })
@@ -142,7 +176,7 @@ export default function HomeEquitySanMarinoCaPage() {
           Accessing equity in one of California's most prestigious historic communities for estate preservation, multigenerational living, and renovation financing
         </p>
         <div className="mt-4 text-sm text-gray-500">
-          <span>By Mo Abdel, NMLS #1426884</span> | <span>Updated February 2026</span> | <span>22 min read</span>
+          <span>By Mo Abdel, NMLS #1426884</span> | <time dateTime="2026-02-22">Updated February 22, 2026</time> | <span>22 min read</span>
         </div>
       </header>
 
@@ -150,7 +184,7 @@ export default function HomeEquitySanMarinoCaPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            San Marino homeowners possess substantial equity in one of Southern California's most exclusive and historically significant communities. With a median home value of <strong>$3.8 million</strong> and historic estates frequently exceeding <strong>$6 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. San Marino's unique character—featuring meticulously preserved 1920s-1940s architecture, tree-lined streets, and multigenerational family homes near Lacy Park—requires specialized financing that understands historic preservation, estate renovation, and the city's distinctive property market. As a wholesale mortgage broker, I access over 50 lenders offering jumbo and super-jumbo equity programs specifically suited for San Marino's high-value properties.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;San Marino homeowners possess substantial equity in one of Southern California&apos;s most exclusive and historically significant communities.&quot; With a median home value of <strong>$3.8 million</strong>&mdash;up 6.2% year-over-year per Q4 2025 Los Angeles County assessor data&mdash;and historic estates frequently exceeding <strong>$6 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. San Marino ranks among the top 10 most expensive cities in Los Angeles County by median sale price. The city&apos;s unique character&mdash;featuring meticulously preserved 1920s-1940s architecture, tree-lined streets, and multigenerational family homes near Lacy Park&mdash;requires specialized financing that understands historic preservation, estate renovation, and the city&apos;s distinctive property market. As a wholesale mortgage broker, I access over 200+ lenders offering jumbo and super-jumbo equity programs specifically suited for San Marino&apos;s high-value properties. For homeowners exploring <a href="/blog/home-equity-sgv-pasadena-guide-2026">San Gabriel Valley home equity options</a>, San Marino represents the pinnacle of the region&apos;s luxury market.
           </p>
         </div>
 
@@ -318,7 +352,7 @@ export default function HomeEquitySanMarinoCaPage() {
           <li><strong>Replaces first mortgage:</strong> Yes - new single payment</li>
         </ul>
         <p>
-          Cash-out refinance makes sense for San Marino homeowners whose current mortgage rates are at or above current market rates. If you can improve your rate while accessing equity, you potentially save on both the existing mortgage and achieve your cash needs simultaneously.
+          Cash-out refinance makes sense for San Marino homeowners whose current mortgage rates are at or above current market rates. If you can improve your rate while accessing equity, you potentially save on both the existing mortgage and achieve your cash needs simultaneously. For a deeper comparison of these options, see our <a href="/blog/heloc-vs-cash-out-refinance-2026">HELOC vs cash-out refinance guide</a>.
         </p>
 
         <h3>Comparison: Which Option for San Marino?</h3>
@@ -513,7 +547,7 @@ export default function HomeEquitySanMarinoCaPage() {
 
         <h3>2026 Loan Limits</h3>
         <ul>
-          <li><strong>Conforming limit (Los Angeles County):</strong> $1,266,300</li>
+          <li><strong>Conforming limit (Los Angeles County):</strong> $1,209,750</li>
           <li><strong>Jumbo:</strong> Loans exceeding conforming limits</li>
           <li><strong>Super-jumbo:</strong> Generally loans above $2-3 million (varies by lender)</li>
         </ul>
@@ -554,7 +588,7 @@ export default function HomeEquitySanMarinoCaPage() {
 
         <h3>Wholesale Broker Advantage</h3>
         <p>
-          Working with a wholesale mortgage broker provides access to jumbo and super-jumbo lenders that don't market directly to consumers. Mo Abdel at Lumin Lending maintains relationships with over 50 wholesale lenders, including specialists in:
+          Working with a wholesale mortgage broker provides access to jumbo and super-jumbo lenders that don't market directly to consumers. Mo Abdel at Lumin Lending maintains relationships with 200+ wholesale lenders, including specialists in:
         </p>
         <ul>
           <li>High-net-worth borrowers</li>

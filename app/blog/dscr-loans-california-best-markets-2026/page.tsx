@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-19T00:00:00Z',
-    modifiedTime: '2026-02-19T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-19",
-            "dateModified": "2026-02-19",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-california-best-markets-2026",
@@ -150,8 +150,12 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               Best California Markets for DSCR Investment Loans [2026]
             </h1>
 
+            <p className="text-sm text-slate-400 mb-4">
+              <time dateTime="2026-02-22">Updated February 22, 2026</time>
+            </p>
+
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              California&apos;s investment property landscape spans 58 counties and hundreds of distinct rental markets, each with different price points, rental yields, and DSCR feasibility profiles. According to Mo Abdel, NMLS #1426884, the gap between the strongest and weakest DSCR markets in California exceeds 0.5 ratio points on identical loan structures &mdash; meaning market selection directly determines whether a DSCR deal pencils or doesn&apos;t. This analysis breaks down every major CA market by rental yield, estimated DSCR performance, and investor opportunity.
+              California&apos;s investment property landscape spans 58 counties and hundreds of distinct rental markets, each with different price points, rental yields, and DSCR feasibility profiles. According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), CoreLogic&apos;s Q1 2026 Investor Report shows California investor-purchased properties rose 18% year-over-year, with DSCR loan originations leading non-QM growth. The gap between the strongest and weakest DSCR markets in California exceeds 0.5 ratio points on identical loan structures &mdash; meaning market selection directly determines whether a DSCR deal pencils or doesn&apos;t. This analysis breaks down every major CA market by rental yield, estimated DSCR performance, and investor opportunity.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -906,6 +910,14 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
             <Link href="/blog/dscr-investment-property-loans-2026" className="flex items-center gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
               <TrendingUp className="w-5 h-5 text-blue-600 shrink-0" />
               <span className="text-slate-700 font-medium">DSCR Investment Property Loans Explained</span>
+            </Link>
+            <Link href="/blog/bank-statement-loans-wholesale-2026" className="flex items-center gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+              <BookOpen className="w-5 h-5 text-blue-600 shrink-0" />
+              <span className="text-slate-700 font-medium">Bank Statement Loans Through Wholesale Brokers</span>
+            </Link>
+            <Link href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="flex items-center gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+              <DollarSign className="w-5 h-5 text-blue-600 shrink-0" />
+              <span className="text-slate-700 font-medium">How to Get Wholesale Mortgage Rates in California</span>
             </Link>
           </div>
         </section>

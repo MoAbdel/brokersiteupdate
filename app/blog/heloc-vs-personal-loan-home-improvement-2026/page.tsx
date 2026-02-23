@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-19T00:00:00Z',
-    modifiedTime: '2026-02-19T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-19",
-            "dateModified": "2026-02-19",
+            "dateModified": "2026-02-22",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/heloc-vs-personal-loan-home-improvement-2026",
@@ -150,9 +150,10 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
               HELOC vs Personal Loan for Home Improvements: Which Is Better in 2026?
             </h1>
 
-            <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
               Homeowners planning renovations face a fundamental financing decision: use a HELOC secured by home equity or take an unsecured personal loan. The right choice depends on project size, timeline, tax situation, and risk tolerance. This guide breaks down every factor so you can finance your renovation with confidence.
             </p>
+            <p className="text-sm text-slate-400 mb-8">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
@@ -180,7 +181,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
         <section className="mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-600 rounded-xl p-6 mb-8">
             <p className="text-lg text-slate-800 leading-relaxed">
-              <strong>According to Mo Abdel, NMLS #1426884:</strong> &quot;The HELOC vs personal loan decision comes down to three variables: project cost, how you value tax deductibility, and your timeline. For home improvement projects exceeding $25,000, a HELOC almost always delivers lower total cost of borrowing. Below that threshold, a personal loan&apos;s speed and simplicity can make it the smarter move. The mistake I see most often is homeowners defaulting to whatever their bank offers first, rather than comparing both options across multiple lenders.&quot;
+              <strong>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443):</strong> &quot;The HELOC vs personal loan decision comes down to three variables: project cost, how you value tax deductibility, and your timeline. For home improvement projects exceeding $25,000, a HELOC almost always delivers lower total cost of borrowing. Below that threshold, a personal loan&apos;s speed and simplicity can make it the smarter move.&quot; Joint Center for Housing Studies data shows U.S. homeowners spent $427 billion on home improvements in 2025, with HELOC originations rising 18% year-over-year as homeowners leverage accumulated equity. The mistake I see most often is homeowners defaulting to whatever their bank offers first, rather than comparing both options across 200+ wholesale lenders.
             </p>
           </div>
 

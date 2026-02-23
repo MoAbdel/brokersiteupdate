@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage Pros and Cons 2026: Complete HECM Analysis | MoTheBroker',
-  description: 'Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like tax-free income and no monthly payments, plus important considerations before tapping home equity.',
+  description: 'Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like loan proceeds (generally not considered taxable income) and no monthly payments, plus important considerations before tapping home equity.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
     languages: {
@@ -23,12 +23,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Reverse Mortgage Pros and Cons 2026: Complete HECM Analysis',
-    description: 'Comprehensive analysis of reverse mortgage benefits and considerations. Tax-free income, no monthly payments, plus what to watch for.',
+    description: 'Comprehensive analysis of reverse mortgage benefits and considerations. loan proceeds (generally not considered taxable income), no monthly payments, plus what to watch for.',
     url: 'https://www.mothebroker.com/blog/hecm-pros-cons-2026',
     type: 'article',
     publishedTime: '2026-01-29',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HECMProsConsPage() {
@@ -36,7 +38,7 @@ export default function HECMProsConsPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Reverse Mortgage Pros and Cons 2026: Complete HECM Analysis",
-    "description": "Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like tax-free income and no monthly payments, plus important considerations.",
+    "description": "Comprehensive analysis of reverse mortgage pros and cons for 2026. Discover HECM benefits like loan proceeds (generally not considered taxable income) and no monthly payments, plus important considerations.",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -53,7 +55,7 @@ export default function HECMProsConsPage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
-    "dateModified": "2026-01-29",
+    "dateModified": "2026-02-22",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/hecm-pros-cons-2026"
@@ -70,7 +72,7 @@ export default function HECMProsConsPage() {
         "name": "What are the main advantages of a reverse mortgage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The main advantages include: tax-free proceeds, no monthly mortgage payments required, you retain home ownership, flexible payout options (lump sum, monthly payments, or line of credit), non-recourse protection meaning you'll never owe more than the home's value, and the funds can be used for any purpose."
+          "text": "The main advantages include: loan proceeds (not considered taxable income), no monthly mortgage payments required, you retain home ownership, flexible payout options (lump sum, monthly payments, or line of credit), non-recourse protection meaning you'll never owe more than the home's value, and the funds can be used for any purpose."
         }
       },
       {
@@ -120,6 +122,30 @@ export default function HECMProsConsPage() {
           "@type": "Answer",
           "text": "HECM closing costs typically include: FHA mortgage insurance premium (2% of appraised value or lending limit), origination fee (capped by FHA), third-party costs (appraisal, title, recording), and ongoing mortgage insurance (0.5% annually). Most costs can be financed into the loan, reducing out-of-pocket expenses."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How does a HECM line of credit growth feature work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The unused portion of a HECM line of credit grows at the same rate as the loan balance (current interest rate plus 0.5% MIP). This growth increases your available credit over time, regardless of home value changes. A $200,000 unused line can grow to over $300,000 in 7-8 years, providing an expanding financial safety net."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I refinance a reverse mortgage into a new HECM?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If your home has appreciated significantly or HECM lending limits have increased, refinancing into a new HECM can provide access to additional funds. FHA requires a tangible benefit test showing the refinance provides meaningful additional proceeds after accounting for new closing costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between a HECM and a proprietary reverse mortgage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A HECM is FHA-insured with a 2026 lending limit of $1,209,750, mandatory HUD counseling, and non-recourse protection. A proprietary reverse mortgage is offered by private lenders with no FHA insurance, allowing access to home values of $2 million to $10 million or more. Proprietary products are essential for luxury homeowners whose properties far exceed the HECM limit."
+        }
       }
     ]
   };
@@ -149,7 +175,7 @@ export default function HECMProsConsPage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Guide</span>
           <span>•</span>
-          <time dateTime="2026-01-29">January 29, 2026</time>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time>
           <span>•</span>
           <span>12 min read</span>
         </div>
@@ -157,12 +183,27 @@ export default function HECMProsConsPage() {
           Reverse Mortgage Pros and Cons 2026: Complete Analysis for Seniors
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Reverse mortgages offer seniors 62 and older a way to convert home equity into tax-free
-          income without monthly payments, but they're not right for everyone. This comprehensive
+          According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443),
+          approximately 1.1 million active HECM loans are outstanding in the U.S. as of early 2026, with
+          the average borrower accessing over $185,000 in proceeds. Reverse mortgages offer seniors 62
+          and older a way to convert home equity into loan proceeds (generally not considered taxable
+          income, consult your tax advisor) without required monthly principal and interest payments, but they are not right for everyone. This comprehensive
           guide examines the genuine benefits and important considerations to help you make an
           informed decision about whether a HECM aligns with your retirement goals.
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       {/* Main Content */}
       <section className="prose prose-lg max-w-none">
@@ -174,7 +215,7 @@ export default function HECMProsConsPage() {
             <div>
               <h3 className="font-semibold text-blue-700 mb-2">✓ Key Advantages</h3>
               <ul className="text-sm text-gray-700 space-y-1">
-                <li>• Tax-free proceeds</li>
+                <li>• Proceeds not considered taxable income</li>
                 <li>• No monthly mortgage payments</li>
                 <li>• Retain home ownership</li>
                 <li>• Non-recourse protection</li>
@@ -229,11 +270,11 @@ export default function HECMProsConsPage() {
         </h2>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          1. Tax-Free Proceeds
+          1. Loan Proceeds Generally Not Considered Taxable Income
         </h3>
         <p>
-          Reverse mortgage proceeds are considered loan advances, not income, so they're not subject
-          to federal income tax. This makes them significantly more valuable than other income sources
+          Reverse mortgage proceeds are considered loan advances, not income, so they are generally not
+          considered taxable income (consult your tax advisor). This makes them significantly more valuable than other income sources
           that may be taxed. A $50,000 reverse mortgage distribution provides the full $50,000, while
           $50,000 from a traditional IRA might yield only $38,000-$42,000 after taxes.
         </p>
@@ -449,7 +490,7 @@ export default function HECMProsConsPage() {
           <li><strong>Plan to age in place:</strong> You intend to stay in your home long-term</li>
           <li><strong>Have substantial home equity:</strong> Typically 50%+ equity for meaningful proceeds</li>
           <li><strong>Need income supplementation:</strong> Fixed income doesn't cover expenses</li>
-          <li><strong>Want to eliminate mortgage payments:</strong> Existing mortgage strains budget</li>
+          <li><strong>Want to replace your current mortgage payment with no required monthly principal and interest payments (you must continue to pay property taxes, homeowners insurance, and maintain the home):</strong> Existing mortgage strains budget</li>
           <li><strong>Understand the product:</strong> Completed HUD counseling and researched thoroughly</li>
           <li><strong>Have a long-term healthcare plan:</strong> Considered how care needs might affect residency</li>
         </ul>
@@ -525,6 +566,17 @@ export default function HECMProsConsPage() {
           </div>
         </div>
 
+        <p>
+          For a deeper understanding of how HECM compares to other equity options, see our{' '}
+          <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">
+            HECM vs. HELOC comparison for seniors
+          </Link>{' '}
+          and our{' '}
+          <Link href="/blog/reverse-mortgage-alternatives-2026" className="text-blue-600 hover:underline">
+            complete guide to reverse mortgage alternatives
+          </Link>.
+        </p>
+
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
           How to Get Started with a Reverse Mortgage
         </h2>
@@ -565,7 +617,7 @@ export default function HECMProsConsPage() {
               What are the main advantages of a reverse mortgage?
             </h3>
             <p className="text-gray-700">
-              The main advantages include tax-free proceeds, no monthly mortgage payments required,
+              The main advantages include loan proceeds, no monthly mortgage payments required,
               retained home ownership, flexible payout options (lump sum, monthly payments, or line
               of credit), non-recourse protection meaning you'll never owe more than the home's value,
               and funds can be used for any purpose.
@@ -729,7 +781,7 @@ export default function HECMProsConsPage() {
             Licensed in California and Washington
           </p>
           <p className="mt-2">
-            Equal Housing Lender. This material is for informational purposes only and is not
+            Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. This material is for informational purposes only and is not
             a commitment to lend. All loans are subject to credit approval and property appraisal.
             Borrowers must meet HECM eligibility requirements including age 62+, homeowner counseling,
             and property standards. Loan proceeds may affect eligibility for certain government benefits.

@@ -26,7 +26,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-palos-verdes-peninsula-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-10T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-palos-verdes-peninsula-2026',
     languages: {
@@ -55,7 +58,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-10',
+    dateModified: '2026-02-22',
     description: 'Comprehensive home equity guide for Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills & Rolling Hills Estates covering HELOC, HELOAN, and cash-out refinance for gated hilltop estates and equestrian properties.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-palos-verdes-peninsula-2026',
     about: [
@@ -227,12 +230,18 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             Home Equity in Palos Verdes Estates, Rolling Hills &amp; PV Peninsula: HELOC &amp; Cash-Out [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 10, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | <time dateTime="2026-02-22">Updated February 22, 2026</time>
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for 4 PV Peninsula cities | Licensed in CA &amp; WA
           </p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -268,11 +277,11 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Palos Verdes Peninsula rises above the Pacific on the southern edge of Los Angeles County, home to four cities where homeowners sit on some of the largest home equity positions in Southern California. From the ocean bluff estates of Palos Verdes Estates with $1.5M+ in tappable equity per home to the equestrian compounds of Rolling Hills with $1.9M+ accessible, PV Peninsula homeowners have extraordinary opportunities to leverage their equity for renovations, investments, debt consolidation, education, and financial optimization. As a wholesale mortgage broker with access to over 200 lenders, I help PV Peninsula homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms &mdash; with specialized expertise in the gated communities, equestrian properties, and ocean-view valuations that define this market.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), PV Peninsula home values rose 9&ndash;12% over the past two years, pushing total tappable equity across the peninsula&apos;s 16,500 owner-occupied homes to an estimated $9.6 billion as of Q1 2026. The Palos Verdes Peninsula rises above the Pacific on the southern edge of Los Angeles County, home to four cities where homeowners sit on some of the largest home equity positions in Southern California. From the ocean bluff estates of Palos Verdes Estates with $1.5M+ in tappable equity per home to the equestrian compounds of Rolling Hills with $1.9M+ accessible, PV Peninsula homeowners have extraordinary opportunities to leverage their equity for renovations, investments, debt consolidation, education, and financial optimization. As a wholesale mortgage broker with access to over 200 lenders, I help PV Peninsula homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms &mdash; with specialized expertise in the gated communities, equestrian properties, and ocean-view valuations that define this market.
           </p>
 
           <p>
-            This guide covers home equity options for all four PV Peninsula cities, with particular focus on the jumbo HELOC products, equestrian property equity access, cliff-side and hillside appraisal considerations, and trust/entity ownership structures that characterize peninsula lending. Whether you are a Lunada Bay homeowner accessing $2M+ in bluff-top equity, a Rolling Hills equestrian tapping ranch equity for a stable expansion, or a Rolling Hills Estates family funding a renovation, this guide maps the path to optimal equity access.
+            This guide covers home equity options for all four PV Peninsula cities, with particular focus on the jumbo HELOC products, equestrian property equity access, cliff-side and hillside appraisal considerations, and trust/entity ownership structures that characterize peninsula lending. Whether you are a Lunada Bay homeowner accessing $2M+ in bluff-top equity, a Rolling Hills equestrian tapping ranch equity for a stable expansion, or a Rolling Hills Estates family funding a renovation, this guide maps the path to optimal equity access. For a comprehensive comparison of all equity product types, see our <a href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOAN vs. Cash-Out Refinance Guide</a>.
           </p>
 
           {/* Product Comparison */}

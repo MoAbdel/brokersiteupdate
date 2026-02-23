@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026',
     languages: {
@@ -48,7 +50,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-06',
-    dateModified: '2026-02-06',
+    dateModified: '2026-02-22',
     description: 'Complete home equity guide for Bay Area Peninsula and Silicon Valley homeowners covering HELOC, HELOAN, and cash-out refinance options.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026',
   };
@@ -228,15 +230,26 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Home Equity Bay Area Peninsula &amp; Silicon Valley Guide [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, Bay Area Peninsula and Silicon Valley homeowners are sitting
-              on a combined residential equity pool that exceeds virtually every other region in the United States.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Bay Area Peninsula and Silicon Valley homeowners hold an estimated $890 billion in combined residential equity — exceeding virtually every other region in the United States.
               With median home values ranging from $1.3 million in Campbell to $10.8 million in Atherton — and
               most homeowners carrying minimal mortgage balances relative to current values — the Peninsula
               represents an unparalleled opportunity for strategic equity access. &quot;Whether you need a HELOC for a
@@ -765,7 +778,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
           </h2>
 
           <p>
-            As a wholesale mortgage broker operating under NMLS #1426884 through Lumin Lending (NMLS #2716106),
+            As a wholesale mortgage broker operating under NMLS #1426884 through Lumin Lending (NMLS #2716106, DRE #02291443),
             I provide Bay Area Peninsula homeowners with access to the institutional lending channel that retail
             banks and credit unions cannot match. For equity products specifically, wholesale access delivers
             three measurable advantages: higher credit limits, lower rates, and broader qualification criteria.
@@ -904,7 +917,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             </p>
             <ul className="space-y-1 mb-0">
               <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></li>
-              <li><strong>NMLS:</strong> #1426884 | Lumin Lending NMLS #2716106</li>
+              <li><strong>NMLS:</strong> #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</li>
               <li><strong>Service Area:</strong> Atherton, Hillsborough, Woodside, Portola Valley, Los Altos Hills, Palo Alto, Los Altos, Saratoga, Los Gatos, Cupertino, Mountain View, Sunnyvale, San Jose, Santa Clara, Campbell</li>
             </ul>
           </div>

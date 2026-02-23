@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    publishedTime: '2026-02-06T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
     languages: {

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'HELOC Complete Guide 2026 | Home Equity Line of Credit | Mo Abdel NMLS #1426884',
-  description: 'HELOC complete guide 2026: Access home equity without refinancing. Compare rates from 50+ wholesale lenders. Orange County HELOC specialist. NMLS #1426884.',
+  description: 'HELOC complete guide 2026: Access home equity without refinancing. Compare rates from 200+ wholesale lenders. Orange County HELOC specialist. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-complete-guide-2026',
     languages: {
@@ -14,9 +14,11 @@ export const metadata: Metadata = {
     title: 'HELOC Complete Guide 2026 | Home Equity Line of Credit Explained',
     description: 'Complete guide to HELOCs in 2026: How they work, qualification requirements, and why a wholesale broker gets better rates.',
     type: 'article',
-    publishedTime: '2026-01-26',
+    publishedTime: '2026-01-26T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function HELOCCompleteGuidePage() {
@@ -43,7 +45,7 @@ export default function HELOCCompleteGuidePage() {
                             "url": "https://www.mothebroker.com"
                         },
                         "datePublished": "2026-01-26",
-                        "dateModified": "2026-01-26",
+                        "dateModified": "2026-02-22",
                         "copyrightYear": "2026"
                     })
                 }}
@@ -94,6 +96,38 @@ export default function HELOCCompleteGuidePage() {
                                     "@type": "Answer",
                                     "text": "A HELOC is a revolving credit line with variable rates and flexible draws. A home equity loan (HELOAN) provides a lump sum with fixed rates and payments. HELOCs offer flexibility while HELOANs provide payment predictability."
                                 }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can I get a HELOC on an investment property?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 200+ lenders to find competitive investment-property HELOC terms."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "How quickly can I access HELOC funds after approval?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Most HELOCs close in 2-4 weeks. After closing, funds are available immediately via checks, online transfers, or a linked debit card. Some lenders offer expedited closings in 10-14 business days for qualified borrowers."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What happens when the HELOC draw period ends?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "When the draw period ends (typically after 10 years), the HELOC enters repayment. You can no longer draw funds and must pay principal plus interest over the remaining term (10-20 years). Some lenders allow refinancing into a new HELOC."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Can self-employed borrowers qualify for a HELOC?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Self-employed borrowers qualify with two years of tax returns or, through select wholesale lenders, bank statement programs that use 12-24 months of deposits to verify income instead of traditional documentation."
+                                }
                             }
                         ]
                     })
@@ -101,20 +135,20 @@ export default function HELOCCompleteGuidePage() {
             />
 
             <header className="mb-8">
-                <p className="text-sm text-slate-500 mb-2">Last updated: February 2026</p>
+                <p className="text-sm text-slate-500 mb-2"><time dateTime="2026-02-22">Updated February 22, 2026</time></p>
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
                     HELOC Complete Guide 2026: Access Your Home Equity Without Refinancing
                 </h1>
                 <p className="text-lg text-gray-600">
                     Comprehensive guide to home equity lines of credit with wholesale broker advantages
                 </p>
-                <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated January 2026</p>
+                <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        A HELOC (Home Equity Line of Credit) lets you access your home's equity without refinancing your existing mortgage. In 2026, homeowners with substantial equity can tap into credit lines from $50,000 to $500,000+ through wholesale brokers who compare rates from 50+ lenders to find competitive pricing for your situation.
+                        According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), a HELOC (Home Equity Line of Credit) lets you access your home&apos;s equity without refinancing your existing mortgage. In 2026, U.S. homeowners hold over $17 trillion in tappable equity &mdash; and those with substantial positions can access credit lines from $50,000 to $500,000+ through wholesale brokers who compare rates from 200+ lenders to find competitive pricing for your situation.
                     </p>
                 </div>
 
@@ -217,7 +251,7 @@ export default function HELOCCompleteGuidePage() {
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
                     <h3 className="text-xl font-bold text-blue-900 mb-3">Ready to explore HELOC options?</h3>
                     <p className="text-blue-800 mb-4">
-                        Compare HELOC rates from 50+ wholesale lenders. As your HELOC specialist, I'll find competitive pricing while preserving your first mortgage rate.
+                        Compare HELOC rates from 200+ wholesale lenders. As your HELOC specialist, I'll find competitive pricing while preserving your first mortgage rate.
                     </p>
                     <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your HELOC Quote
@@ -250,13 +284,40 @@ export default function HELOCCompleteGuidePage() {
                 <p>
                     A HELOC is a revolving credit line with variable rates and flexible draws. A home equity loan (HELOAN) provides a lump sum with fixed rates and payments. HELOCs offer flexibility while HELOANs provide payment predictability.
                 </p>
+
+                <h3>Can I get a HELOC on an investment property?</h3>
+                <p>
+                    Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 200+ lenders to find competitive investment-property HELOC terms.
+                </p>
+
+                <h3>How quickly can I access HELOC funds after approval?</h3>
+                <p>
+                    Most HELOCs close in 2-4 weeks. After closing, funds are available immediately via checks, online transfers, or a linked debit card. Some lenders offer expedited closings in 10-14 business days for qualified borrowers.
+                </p>
+
+                <h3>What happens when the HELOC draw period ends?</h3>
+                <p>
+                    When the draw period ends (typically after 10 years), the HELOC enters repayment. You can no longer draw funds and must pay principal plus interest over the remaining term (10-20 years). Some lenders allow refinancing into a new HELOC.
+                </p>
+
+                <h3>Can self-employed borrowers qualify for a HELOC?</h3>
+                <p>
+                    Yes. Self-employed borrowers qualify with two years of tax returns or, through select wholesale lenders, bank statement programs that use 12-24 months of deposits to verify income instead of traditional documentation.
+                </p>
+
+                <h2>Related Guides</h2>
+                <ul>
+                    <li><a href="/blog/heloan-vs-cash-out-refinance-2026">HELOAN vs. Cash-Out Refinance: Which Is Right for You?</a></li>
+                    <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Refinancing Complete Guide 2026</a></li>
+                    <li><a href="/blog/home-equity-college-tuition-heloc-2026">Using a HELOC for College Tuition</a></li>
+                </ul>
             </section>
 
             <footer className="mt-12 pt-8 border-t border-gray-200">
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <p className="text-sm text-gray-600">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO<br /><br />
+                        Licensed in: CA, WA<br /><br />
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>
                 </div>

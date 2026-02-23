@@ -18,7 +18,9 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026',
     type: 'article',
     authors: ['Mo Abdel'],
+    modifiedTime: '2026-02-22T00:00:00Z',
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026',
     languages: {
@@ -32,11 +34,11 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
   const paaData = [
     {
       question: 'Can you get a reverse mortgage on a $5 million home in Medina, WA?',
-      answer: 'Yes. The FHA HECM program caps at $1,149,825, but proprietary jumbo reverse mortgage programs serve homes valued at $2 million to $10 million or more. Medina homeowners with estates above the HECM limit access significantly greater equity through these private-label programs available via wholesale broker channels.',
+      answer: 'Yes. The FHA HECM program caps at $1,209,750, but proprietary jumbo reverse mortgage programs serve homes valued at $2 million to $10 million or more. Medina homeowners with estates above the HECM limit access significantly greater equity through these private-label programs available via wholesale broker channels.',
     },
     {
       question: 'What is the HECM limit for 2026 in Washington state?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. Since every ultra-luxury Eastside community has median home values well above this limit, most seniors need proprietary reverse mortgage programs to access meaningful equity from their homes.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. Since every ultra-luxury Eastside community has median home values well above this limit, most seniors need proprietary reverse mortgage programs to access meaningful equity from their homes.',
     },
     {
       question: 'Does Washington state tax reverse mortgage proceeds?',
@@ -63,11 +65,11 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM limit and why does it matter for ultra-luxury Eastside homeowners?',
-      answer: 'The 2026 HECM limit is $1,149,825, which represents the maximum home value used in FHA HECM calculations. For Medina ($5M+ median), Hunts Point ($3M+), Yarrow Point ($4.5M), Clyde Hill ($3M+), Beaux Arts Village ($2M), Mercer Island ($2.5M), and Bellevue ($1.5M+), this limit means the HECM only captures a fraction of actual home value. Proprietary jumbo reverse mortgages use the full appraised value, making them essential for ultra-luxury Eastside homeowners seeking meaningful equity access.',
+      answer: 'The 2026 HECM limit is $1,209,750, which represents the maximum home value used in FHA HECM calculations. For Medina ($5M+ median), Hunts Point ($3M+), Yarrow Point ($4.5M), Clyde Hill ($3M+), Beaux Arts Village ($2M), Mercer Island ($2.5M), and Bellevue ($1.5M+), this limit means the HECM only captures a fraction of actual home value. Proprietary jumbo reverse mortgages use the full appraised value, making them essential for ultra-luxury Eastside homeowners seeking meaningful equity access.',
     },
     {
       question: 'How much can a Medina homeowner access through a jumbo reverse mortgage?',
-      answer: 'A Medina homeowner with a $5 million estate and no existing mortgage can access approximately $1.6 million to $2.5 million through proprietary jumbo reverse mortgage programs, depending on age, specific program, and current conditions. Estates valued at $8 million to $15 million access $2.6 million to $7.5 million. A standard HECM on the same property would only access approximately $520,000 to $600,000 because the FHA calculation caps at $1,149,825.',
+      answer: 'A Medina homeowner with a $5 million estate and no existing mortgage can access approximately $1.6 million to $2.5 million through proprietary jumbo reverse mortgage programs, depending on age, specific program, and current conditions. Estates valued at $8 million to $15 million access $2.6 million to $7.5 million. A standard HECM on the same property would only access approximately $520,000 to $600,000 because the FHA calculation caps at $1,209,750.',
     },
     {
       question: 'Can I get a reverse mortgage on a property held in a trust in Washington?',
@@ -83,7 +85,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
     },
     {
       question: 'Why is Washington state advantageous for reverse mortgage borrowers?',
-      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, and retirement distributions are also state-tax-free in Washington. This combination makes reverse mortgages particularly efficient for Washington seniors compared to states with income taxes, as the entire financial planning picture benefits from the no-income-tax environment.',
+      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, and retirement distributions are also not subject to state income tax in Washington. This combination makes reverse mortgages particularly efficient for Washington seniors compared to states with income taxes, as the entire financial planning picture benefits from the no-income-tax environment (consult your tax advisor for your specific situation).',
     },
     {
       question: 'What are the costs of a jumbo reverse mortgage on an ultra-luxury Eastside home?',
@@ -130,7 +132,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-13',
-            dateModified: '2026-02-13',
+            dateModified: '2026-02-22',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026',
             description: 'Jumbo reverse mortgage guide for Medina, Clyde Hill, Hunts Point, Yarrow Point, Beaux Arts Village, Mercer Island & Bellevue ultra-luxury communities on the Seattle Eastside.',
           }),
@@ -258,10 +260,22 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
         </p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span><span>|</span>
-          <span>Updated February 13, 2026</span><span>|</span>
+          <time dateTime="2026-02-22">Updated February 22, 2026</time><span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -270,7 +284,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             Ultra-Luxury Eastside Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            The seven ultra-luxury Seattle Eastside communities&mdash;Medina ($5M+), Hunts Point ($3M+), Yarrow Point ($4.5M), Clyde Hill ($3M+), Beaux Arts Village ($2M), Mercer Island ($2.5M), and Bellevue ($1.5M+)&mdash;hold an estimated <strong>$38 billion in residential real estate value</strong>. Every home in these communities exceeds the 2026 HECM limit of $1,149,825, making proprietary jumbo reverse mortgages essential for meaningful equity access. Washington&apos;s <strong>zero state income tax</strong> makes reverse mortgage proceeds doubly efficient&mdash;no federal and no state tax on loan advances.
+            The seven ultra-luxury Seattle Eastside communities&mdash;Medina ($5M+), Hunts Point ($3M+), Yarrow Point ($4.5M), Clyde Hill ($3M+), Beaux Arts Village ($2M), Mercer Island ($2.5M), and Bellevue ($1.5M+)&mdash;hold an estimated <strong>$38 billion in residential real estate value</strong>. Every home in these communities exceeds the 2026 HECM limit of $1,209,750, making proprietary jumbo reverse mortgages essential for meaningful equity access. Washington&apos;s <strong>zero state income tax</strong> makes reverse mortgage proceeds doubly efficient&mdash;no federal and no state tax on loan advances.
           </p>
         </div>
 
@@ -295,7 +309,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
           Why Ultra-Luxury Eastside Homeowners Need Jumbo Reverse Mortgages
         </h2>
         <p>
-          The Seattle Eastside&apos;s ultra-luxury corridor along Lake Washington represents some of the highest-value residential real estate in the Pacific Northwest. When the median home in Medina exceeds $5 million and the HECM limit is $1,149,825, the FHA program accesses roughly 23% of the property&apos;s value for its calculation. For homeowners seeking meaningful liquidity from their estate, proprietary jumbo reverse mortgage programs bridge this gap by using the full appraised value&mdash;providing 3 to 8 times more proceeds than HECM alone.
+          The Seattle Eastside&apos;s ultra-luxury corridor along Lake Washington represents some of the highest-value residential real estate in the Pacific Northwest. When the median home in Medina exceeds $5 million and the HECM limit is $1,209,750, the FHA program accesses roughly 23% of the property&apos;s value for its calculation. For homeowners seeking meaningful liquidity from their estate, proprietary jumbo reverse mortgage programs bridge this gap by using the full appraised value&mdash;providing 3 to 8 times more proceeds than HECM alone.
         </p>
         <p>
           Washington state&apos;s absence of a state income tax creates a uniquely favorable environment for reverse mortgage borrowers. Unlike California, where retirement distributions and investment income face state taxation, Washington seniors keep 100% of their retirement income and investment returns. Reverse mortgage proceeds&mdash;already exempt from federal income tax as loan advances&mdash;face zero state tax liability in Washington. This double tax advantage makes the Eastside an ideal location for reverse mortgage planning.
@@ -397,9 +411,9 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
                 <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$2M&ndash;$15M+</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
@@ -449,7 +463,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
           Medina stands as Washington state&apos;s wealthiest residential community, home to Bill Gates, Jeff Bezos, and a concentration of technology billionaires that makes this small city of approximately 3,200 residents one of the richest per-capita communities in the United States. With a median home value exceeding <strong>$5 million</strong> and lakefront estates reaching $50 million to $150 million, Medina represents the pinnacle of Pacific Northwest residential real estate.
         </p>
         <p>
-          For Medina homeowners aged 62 and older, a proprietary jumbo reverse mortgage provides access to $1.6 million to $7.5 million+ on estates valued $5 million to $15 million&mdash;tax-free proceeds with no monthly mortgage payments, no requirement to sell the home, and zero Washington state income tax on the proceeds. The extreme privacy that defines Medina living remains completely intact throughout the reverse mortgage process.
+          For Medina homeowners aged 62 and older, a proprietary jumbo reverse mortgage provides access to $1.6 million to $7.5 million+ on estates valued $5 million to $15 million&mdash;proceeds that are generally not considered taxable income (consult your tax advisor) with no monthly mortgage payments, no requirement to sell the home, and zero Washington state income tax on the proceeds. The extreme privacy that defines Medina living remains completely intact throughout the reverse mortgage process.
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border-collapse border border-gray-300">
@@ -529,7 +543,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
         </div>
         <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
           <p className="text-slate-900 mb-0">
-            <strong>Clyde Hill Insight:</strong> A 67-year-old retired Amazon VP in upper Clyde Hill owns a $5.5 million home in a revocable living trust. She holds $15 million in Amazon stock with a cost basis of $1.2 million. Selling stock triggers $13.8 million in federal capital gains. A proprietary jumbo reverse mortgage provides $1.8 million to $2.75 million in tax-free liquidity, allowing her to maintain the Clyde Hill lifestyle, cover $38,500 in annual property taxes, and preserve the stock position for a planned charitable remainder trust.
+            <strong>Clyde Hill Insight:</strong> A 67-year-old retired Amazon VP in upper Clyde Hill owns a $5.5 million home in a revocable living trust. She holds $15 million in Amazon stock with a cost basis of $1.2 million. Selling stock triggers $13.8 million in federal capital gains. A proprietary jumbo reverse mortgage provides $1.8 million to $2.75 million in loan proceeds, allowing her to maintain the Clyde Hill lifestyle, cover $38,500 in annual property taxes, and preserve the stock position for a planned charitable remainder trust.
           </p>
         </div>
 
@@ -668,7 +682,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
         </div>
         <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
           <p className="text-slate-900 mb-0">
-            <strong>Beaux Arts Insight:</strong> A 76-year-old retired artist has lived in Beaux Arts Village for 35 years, purchasing her lakefront home for $280,000 in 1991. The home now appraises at $3.8 million. Living on Social Security and modest art income, she needs funds for home maintenance and healthcare without leaving the community she helped build. An HECM provides a growing line of credit based on the $1,149,825 limit, while the growth feature increases the unused portion annually&mdash;an ideal long-term strategy for a borrower who needs gradual access rather than large upfront proceeds.
+            <strong>Beaux Arts Insight:</strong> A 76-year-old retired artist has lived in Beaux Arts Village for 35 years, purchasing her lakefront home for $280,000 in 1991. The home now appraises at $3.8 million. Living on Social Security and modest art income, she needs funds for home maintenance and healthcare without leaving the community she helped build. An HECM provides a growing line of credit based on the $1,209,750 limit, while the growth feature increases the unused portion annually&mdash;an ideal long-term strategy for a borrower who needs gradual access rather than large upfront proceeds.
           </p>
         </div>
 
@@ -902,7 +916,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             Expert Summary: Ultra-Luxury Eastside Reverse Mortgage Advantage
           </h2>
           <p className="text-blue-800 mb-4">
-            Ultra-luxury Eastside homeowners in Medina, Clyde Hill, Hunts Point, Yarrow Point, Beaux Arts Village, Mercer Island, and Bellevue hold an estimated $38 billion in residential real estate&mdash;estates where the standard HECM captures a fraction of actual value. Proprietary jumbo reverse mortgages unlock $650,000 to $7.5 million+ in tax-free proceeds from these estates, providing meaningful liquidity without selling the home or triggering capital gains.
+            Ultra-luxury Eastside homeowners in Medina, Clyde Hill, Hunts Point, Yarrow Point, Beaux Arts Village, Mercer Island, and Bellevue hold an estimated $38 billion in residential real estate&mdash;estates where the standard HECM captures a fraction of actual value. Proprietary jumbo reverse mortgages unlock $650,000 to $7.5 million+ in loan proceeds from these estates, providing meaningful liquidity without selling the home or triggering capital gains.
           </p>
           <p className="text-blue-800 mb-4">
             Washington&apos;s zero state income tax creates a double advantage: reverse mortgage proceeds face no federal or state income tax. However, without Proposition 13 property tax protection, Eastside property taxes are assessed at current market value and rise annually. The reverse mortgage line of credit provides a strategic buffer against these escalating property tax obligations.

@@ -15,9 +15,11 @@ export const metadata: Metadata = {
     description: 'Aliso Viejo wholesale mortgage broker with 200+ lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
     type: 'article',
-    publishedTime: '2026-02-02',
+    publishedTime: '2026-02-02T00:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 export default function WholesaleMortgageBroker92656Page() {
@@ -37,7 +39,7 @@ export default function WholesaleMortgageBroker92656Page() {
               "identifier": "NMLS #1426884"
             },
             "datePublished": "2026-02-02",
-            "dateModified": "2026-02-02"
+            "dateModified": "2026-02-22"
           })
         }}
       />
@@ -54,7 +56,7 @@ export default function WholesaleMortgageBroker92656Page() {
                 "name": "What is the typical loan amount needed in Aliso Viejo 92656?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Aliso Viejo 92656 has a median home price of $1.1 million, putting many single-family homes near the 2026 conforming limit of $1,149,825. Larger homes and premium locations often require jumbo loans of $1-1.5M."
+                  "text": "Aliso Viejo 92656 has a median home price of $1.1 million, putting many single-family homes near the 2026 conforming limit of $1,209,750. Larger homes and premium locations often require jumbo loans of $1-1.5M."
                 }
               },
               {
@@ -87,6 +89,30 @@ export default function WholesaleMortgageBroker92656Page() {
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Yes. Aliso Viejo townhomes in the $800K-$1.1M range may approach jumbo territory depending on down payment. Wholesale brokers access lenders comfortable with attached housing and can provide competitive rates near the conforming limit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to close on an Aliso Viejo home with a wholesale broker?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Wholesale brokers typically close Aliso Viejo purchases in 21-30 days, faster than the 30-45 day bank average. Pre-approval with rate-locked pricing strengthens your offer in Aliso Viejo's competitive market where homes average 18-30 days on market."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What are the HOA fees in Aliso Viejo 92656 and how do they affect my loan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Aliso Viejo HOA fees range from $200-$600 per month depending on the community. Lenders include HOA dues in your debt-to-income ratio. Wholesale brokers find lenders with more flexible DTI thresholds, helping buyers qualify despite higher HOA costs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I refinance my Aliso Viejo home through a wholesale broker?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 200+ lender access ensures the most competitive terms for your property."
                 }
               }
             ]
@@ -121,18 +147,20 @@ export default function WholesaleMortgageBroker92656Page() {
       />
 
       <header className="mb-8">
+        <p className="text-sm text-slate-500 mb-2"><time dateTime="2026-02-22">Updated February 22, 2026</time></p>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Wholesale Mortgage Broker 92656 | Aliso Viejo Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
           Access wholesale rates and 200+ lenders for Aliso Viejo&apos;s family-friendly community
         </p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Aliso Viejo 92656 attracts young professionals and families with its <strong>$1.1 million median home price</strong> and excellent schools. At the jumbo threshold where the 2026 conforming limit sits at $1,149,825, many 92656 buyers benefit from <strong>expert financing guidance</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate the conforming-to-jumbo transition.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Aliso Viejo 92656 attracts young professionals and families with its <strong>$1.1 million median home price</strong> and excellent schools &mdash; with year-over-year appreciation of 6.8% making early 2026 a strategic window for buyers. At the jumbo threshold where the 2026 conforming limit sits at $1,209,750, many 92656 buyers benefit from <strong>expert financing guidance</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate the conforming-to-jumbo transition.
           </p>
         </div>
 
@@ -154,7 +182,7 @@ export default function WholesaleMortgageBroker92656Page() {
           Aliso Viejo sits at the jumbo threshold, creating unique considerations:
         </p>
         <ul>
-          <li>Many homes just above or below the $1,149,825 limit</li>
+          <li>Many homes just above or below the $1,209,750 limit</li>
           <li>Small price differences can significantly affect loan options</li>
           <li>Wholesale brokers optimize your loan structure</li>
           <li>Access to both conforming high-balance and jumbo programs</li>
@@ -175,7 +203,7 @@ export default function WholesaleMortgageBroker92656Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$550,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$850,000 - $1,400,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">18-30 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -184,7 +212,7 @@ export default function WholesaleMortgageBroker92656Page() {
 
         <h3>Conforming High-Balance</h3>
         <p>
-          For loans up to $1,149,825:
+          For loans up to $1,209,750:
         </p>
         <ul>
           <li>Best rates for qualifying properties</li>
@@ -274,7 +302,7 @@ export default function WholesaleMortgageBroker92656Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Aliso Viejo 92656?</h3>
-            <p className="mb-0">Aliso Viejo 92656 has a median home price of $1.1 million, putting many single-family homes near the 2026 conforming limit of $1,149,825. Larger homes and premium locations often require jumbo loans of $1-1.5M.</p>
+            <p className="mb-0">Aliso Viejo 92656 has a median home price of $1.1 million, putting many single-family homes near the 2026 conforming limit of $1,209,750. Larger homes and premium locations often require jumbo loans of $1-1.5M.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer programs for first-time jumbo buyers?</h3>
@@ -292,6 +320,18 @@ export default function WholesaleMortgageBroker92656Page() {
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Can I get a jumbo loan for an Aliso Viejo townhome?</h3>
             <p className="mb-0">Yes. Aliso Viejo townhomes in the $800K-$1.1M range may approach jumbo territory depending on down payment. Wholesale brokers access lenders comfortable with attached housing and can provide competitive rates near the conforming limit.</p>
           </div>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">How long does it take to close on an Aliso Viejo home with a wholesale broker?</h3>
+            <p className="mb-0">Wholesale brokers typically close Aliso Viejo purchases in 21-30 days, faster than the 30-45 day bank average. Pre-approval with rate-locked pricing strengthens your offer in Aliso Viejo&apos;s competitive market where homes average 18-30 days on market.</p>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What are the HOA fees in Aliso Viejo 92656 and how do they affect my loan?</h3>
+            <p className="mb-0">Aliso Viejo HOA fees range from $200-$600 per month depending on the community. Lenders include HOA dues in your debt-to-income ratio. Wholesale brokers find lenders with more flexible DTI thresholds, helping buyers qualify despite higher HOA costs.</p>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Can I refinance my Aliso Viejo home through a wholesale broker?</h3>
+            <p className="mb-0">Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 200+ lender access ensures the most competitive terms for your property.</p>
+          </div>
         </div>
 
         <h2>Get Started with Your Aliso Viejo Loan</h2>
@@ -306,12 +346,14 @@ export default function WholesaleMortgageBroker92656Page() {
             <li><a href="/blog/wholesale-mortgage-broker-92653">Wholesale Mortgage Broker 92653 Laguna Hills</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-92692">Wholesale Mortgage Broker 92692 Mission Viejo</a></li>
             <li><a href="/blog/first-time-homebuyer-guide-orange-county-2026">First-Time Homebuyer Guide Orange County</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-92677">Wholesale Mortgage Broker 92677 Laguna Niguel</a></li>
+            <li><a href="/blog/jumbo-loan-requirements-california-washington-2026">Jumbo Loan Requirements CA &amp; WA 2026</a></li>
           </ul>
         </div>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
-            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106<br />
+            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
             Licensed in: CA, WA
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">

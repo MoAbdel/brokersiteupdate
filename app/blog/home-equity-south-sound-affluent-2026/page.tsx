@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     description: 'Expert strategies for unlocking home equity in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom. Comprehensive 2026 guide.',
     type: 'article',
     publishedTime: '2026-02-14T08:00:00Z',
+    modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
     url: 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026',
     images: [
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
       }
     ]
   },
+  authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026'
   }
@@ -37,7 +39,7 @@ export default function HomEquitySouthSoundAffluentPage() {
         description: 'Comprehensive guide to unlocking home equity in South Sound affluent cities. Expert strategies for HELOC, HELOAN, and cash-out refinancing in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom.',
         image: 'https://mothebroker.com/images/south-sound-home-equity-2026.jpg',
         datePublished: '2026-02-14T08:00:00Z',
-        dateModified: '2026-02-14T08:00:00Z',
+        dateModified: '2026-02-22',
         author: {
           '@type': 'Person',
           '@id': 'https://mothebroker.com/#mo-abdel',
@@ -296,21 +298,21 @@ export default function HomEquitySouthSoundAffluentPage() {
         {/* Byline */}
         <div className="mb-6 text-gray-700">
           <p className="text-sm">
-            By <span className="font-semibold">Mo Abdel</span>, Senior Mortgage Advisor (NMLS #1426884) | Published February 14, 2026 | 12 min read
+            By <span className="font-semibold">Mo Abdel</span>, Senior Mortgage Advisor (NMLS #1426884) | <time dateTime="2026-02-22">Updated February 22, 2026</time> | 12 min read
           </p>
         </div>
 
         {/* Citation Hook - Speakable */}
         <div className="speakable-summary bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
           <p className="text-lg text-gray-900 leading-relaxed">
-            South Sound homeowners in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom collectively hold over $4.2 billion in tappable home equity as of February 2026. With median home values ranging from $600,000 to $757,000 and Washington&apos;s no-income-tax advantage, affluent Pierce County families strategically unlock equity through HELOCs, HELOANs, and cash-out refinancing to fund investments, renovations, and wealth-building without triggering state tax liabilities.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;South Sound homeowners in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom collectively hold over $4.2 billion in tappable home equity as of February 2026.&quot; Pierce County recorded a 7.1% year-over-year appreciation rate through Q4 2025, pushing median home values to $600,000&ndash;$757,000 across these affluent communities. With Washington&apos;s zero state income tax advantage and wholesale broker access to 200+ lenders, affluent Pierce County families strategically unlock equity through HELOCs, HELOANs, and cash-out refinancing to fund investments, renovations, and wealth-building without triggering state tax liabilities.
           </p>
         </div>
 
         {/* Introduction */}
         <section className="mb-12">
           <p className="text-lg text-gray-800 leading-relaxed mb-4">
-            The South Sound region represents one of Washington&apos;s most dynamic and affluent housing markets, spanning harbor towns, mountain gateways, golf course communities, and historic military neighborhoods. From Gig Harbor&apos;s waterfront estates overlooking the Narrows to Maple Valley&apos;s equestrian properties with Mount Rainier views, homeowners in this region have accumulated substantial equity through appreciation and strategic mortgage management.
+            The South Sound region represents one of Washington&apos;s most dynamic and affluent housing markets, spanning harbor towns, mountain gateways, golf course communities, and historic military neighborhoods. From Gig Harbor&apos;s waterfront estates overlooking the Narrows to Maple Valley&apos;s equestrian properties with Mount Rainier views, homeowners in this region have accumulated substantial equity through appreciation and strategic mortgage management. For a broader view of Washington state equity options, see our <a href="/blog/home-equity-greater-seattle-guide-2026">Greater Seattle home equity guide</a> and <a href="/blog/home-equity-south-sound-guide-2026">South Sound regional guide</a>.
           </p>
           <p className="text-lg text-gray-800 leading-relaxed mb-4">
             This comprehensive guide examines how homeowners across five South Sound affluent cities unlock equity in 2026. You&apos;ll discover city-specific strategies for HELOC, HELOAN, and cash-out refinancing tailored to harbor town premiums, golf course equity, military community benefits, and mountain view properties. Whether you&apos;re renovating a Chambers Bay golf estate, funding investment property acquisitions in Four Corners, or consolidating high-interest debt while preserving your low first mortgage rate, this analysis provides the data and strategies needed to make informed equity decisions.
