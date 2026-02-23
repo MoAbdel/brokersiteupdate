@@ -609,8 +609,33 @@
       "permanent": true
     },
     {
-      "source": "/guides/summer-2025-market-guide",
-      "destination": "/blog",
+      "source": "/guides/newport-beach-mortgage-guide-2025",
+      "destination": "/blog/newport-beach-mortgage-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/guides/laguna-beach-mortgage-guide-2025",
+      "destination": "/blog/laguna-beach-mortgage-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/guides/first-time-homebuyer-orange-county-2025",
+      "destination": "/blog/first-time-homebuyer-guide-orange-county-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/home-equity-mercer-island-2026",
+      "destination": "/blog/home-equity-mercer-island-wa-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/home-equity-north-sound-islands-2026",
+      "destination": "/blog/home-equity-north-sound-islands-wa-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reverse-mortgage-la-beach-cities-2026",
+      "destination": "/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026",
       "permanent": true
     }
   ],

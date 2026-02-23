@@ -37,11 +37,11 @@ export function middleware(request: NextRequest) {
   const blogRedirects: Record<string, string> = {
     '/blog/bank-statement-loans-wholesale': '/blog/bank-statement-loans-wholesale-2026',
     '/blog/cash-out-refinance-how-it-works': '/blog/cash-out-refinance-how-it-works-2026',
-    '/blog/how-does-heloc-work': '/blog/how-does-heloc-work-2026',
+    '/blog/how-does-heloc-work': '/loan-programs/heloc',
     '/blog/heloc-vs-home-equity-loan': '/blog/heloc-vs-home-equity-loan-2026',
     '/blog/mortgage-broker-vs-bank': '/blog/mortgage-broker-vs-bank-2026',
     '/blog/non-qm-loans-wholesale-broker': '/blog/non-qm-loans-wholesale-broker-2026',
-    '/blog/reverse-mortgage-vs-heloc-seniors': '/blog/reverse-mortgage-vs-heloc-seniors-2026',
+    '/blog/reverse-mortgage-vs-heloc-seniors': '/blog/reverse-mortgage-complete-guide-2026',
     '/blog/self-employed-mortgage-broker': '/blog/self-employed-mortgage-broker-2026',
     '/blog/what-is-reverse-mortgage': '/blog/what-is-reverse-mortgage-2026',
     // Older wholesale geo posts -> 2026 versions
@@ -64,6 +64,21 @@ export function middleware(request: NextRequest) {
     '/blog/home-equity-newport-beach-2026': '/home-equity-guide',
     '/blog/va-loans-wholesale-2026': '/blog/va-loans-orange-county-2026',
     '/blog/jumbo-reverse-mortgage-california-2026': '/blog/proprietary-reverse-mortgage-2026',
+    // Empty blog dirs (no page.tsx) → proper targets
+    '/blog/home-equity-mercer-island-2026': '/blog/home-equity-mercer-island-wa-2026',
+    '/blog/home-equity-north-sound-islands-2026': '/blog/home-equity-north-sound-islands-wa-2026',
+    '/blog/home-equity-ca-cc-a-2026': '/home-equity-guide',
+    '/blog/home-equity-ca-lab-a-2026': '/home-equity-guide',
+    '/blog/home-equity-ca-sgv-a-2026': '/blog/home-equity-sgv-pasadena-guide-2026',
+    '/blog/wholesale-mortgage-broker-ca-eb-a-2026': '/blog/wholesale-mortgage-broker-bay-area-guide-2026',
+    '/blog/wholesale-mortgage-broker-ca-mr-b-2026': '/blog/wholesale-mortgage-broker-california-2026',
+    '/blog/wholesale-mortgage-broker-ca-sd-b-2026': '/blog/wholesale-mortgage-broker-san-diego-guide-2026',
+    // Orphaned old-slug blog pages → canonical 2026 versions
+    '/blog/wholesale-mortgage-broker-california': '/blog/wholesale-mortgage-broker-california-2026',
+    '/blog/reverse-mortgages-california-guide': '/blog/reverse-mortgage-complete-guide-2026',
+    '/blog/how-to-get-wholesale-mortgage-rates-california': '/blog/how-to-get-wholesale-mortgage-rates-2026',
+    '/blog/wholesale-vs-retail-mortgage-brokers-2026': '/blog/wholesale-vs-retail-mortgage-complete-2026',
+    '/blog/reverse-mortgage-la-beach-cities-2026': '/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
   };
 
   const pageRedirects: Record<string, string> = {
@@ -84,6 +99,11 @@ export function middleware(request: NextRequest) {
     '/articles/first-time-homebuyer-mortgage-orange-county': '/guides/orange-county-home-buyer-guide',
     '/articles/orange-county-mortgage-refinance-specialist': '/guides/orange-county-refinancing-guide',
     '/articles/va-loan-mortgage-broker-orange-county': '/va-loans-orange-county',
+    '/articles/jumbo-loan-broker-orange-county': '/guides/orange-county-jumbo-loans',
+    // Old guides with -2025 dates → 2026 blog/guide equivalents
+    '/guides/newport-beach-mortgage-guide-2025': '/blog/newport-beach-mortgage-guide-2026',
+    '/guides/laguna-beach-mortgage-guide-2025': '/blog/laguna-beach-mortgage-guide-2026',
+    '/guides/first-time-homebuyer-orange-county-2025': '/blog/first-time-homebuyer-guide-orange-county-2026',
   };
 
   // Catch-all for legacy /articles/* URLs not explicitly mapped above.
