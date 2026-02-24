@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026',
     type: 'article',
     publishedTime: '2026-02-01',
-    modifiedTime: '2026-02-22',
+    modifiedTime: '2026-02-23T00:00:00Z',
     authors: ['Mo Abdel'],
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
   },
@@ -63,7 +63,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-02-01",
-    "dateModified": "2026-02-22",
+    "dateModified": "2026-02-23",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
@@ -180,6 +180,22 @@ export default function ReverseMortgageRequirementsCompletePage() {
           "@type": "Answer",
           "text": "If you don't meet HECM requirements, alternatives include proprietary reverse mortgages (for high-value homes), HELOCs, home equity loans, or downsizing. A mortgage broker can help identify which option best fits your situation."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How does age affect reverse mortgage proceeds in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your age directly impacts how much you can borrow. A 62-year-old borrower typically qualifies for 38-42% of home value, while a 75-year-old may qualify for 52-58%. At age 85+, borrowers can access up to 65-70% of the home's value or the FHA limit of $1,209,750, whichever is less. Each additional year of age increases the principal limit factor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a surviving spouse stay in the home after a reverse mortgage borrower passes away?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If the surviving spouse is listed as a co-borrower on the HECM, they can remain in the home indefinitely as long as property taxes, insurance, and maintenance obligations are met. Non-borrowing spouses under 62 also receive FHA protections under the 2015 Mortgagee Optional Election assignment program, allowing them to remain in the home without repaying the loan, though no additional draws are available."
+        }
       }
     ]
   };
@@ -222,18 +238,18 @@ export default function ReverseMortgageRequirementsCompletePage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Requirements</span>
           <span>-</span>
-          <time dateTime="2026-02-22">Updated February 22, 2026</time>
+          <time dateTime="2026-02-23">Updated February 23, 2026</time>
           <span>-</span>
           <span>15 min read</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist
+          Reverse Mortgage Requirements 2026: Every HECM Eligibility Rule Explained Step by Step
         </h1>
 
         {/* Citation Hook - 50-75 words */}
         <div className="citation-hook bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
           <p className="text-lg text-gray-800 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884, to qualify for a reverse mortgage in 2026, borrowers must be 62 or older, own their home as a primary residence, have sufficient equity (generally 50%+), and complete HUD-approved counseling. HUD endorsed 31,894 HECM loans in FY 2025, a 12% increase from FY 2024, as seniors increasingly tap home equity without monthly payments. The 2026 FHA HECM lending limit is $1,209,750, with no minimum credit score—though a financial assessment evaluates your ability to pay property taxes and insurance.
+            According to Mo Abdel, NMLS #1426884 (Lumin Lending, NMLS #2716106), to qualify for a reverse mortgage in 2026, borrowers must be 62 or older, own their home as a primary residence, have sufficient equity (generally 50%+), and complete HUD-approved counseling. HUD endorsed 31,894 HECM loans in FY 2025, a 12% increase from FY 2024, while the National Reverse Mortgage Lenders Association reports that the average HECM borrower accesses $178,000 in proceeds. The 2026 FHA HECM lending limit is $1,209,750, with no minimum credit score &mdash; though a financial assessment evaluates your ability to pay property taxes and insurance. California and Washington homeowners with median property values of $793,600 and $616,800 respectively hold significant reverse mortgage potential under these limits.
           </p>
         </div>
       </header>
@@ -973,6 +989,20 @@ export default function ReverseMortgageRequirementsCompletePage() {
             >
               <span className="font-semibold text-blue-600">Proprietary Reverse Mortgages &rarr;</span>
               <p className="text-sm text-gray-600 mt-1">Jumbo reverse mortgage options for high-value California and Washington homes</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-line-of-credit-growth-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">HECM Line of Credit Growth Rate &rarr;</span>
+              <p className="text-sm text-gray-600 mt-1">How your unused HECM credit line grows over time without borrowing</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-alternatives-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Reverse Mortgage Alternatives &rarr;</span>
+              <p className="text-sm text-gray-600 mt-1">Compare HECMs to HELOCs, downsizing, and other equity options</p>
             </Link>
           </div>
         </div>

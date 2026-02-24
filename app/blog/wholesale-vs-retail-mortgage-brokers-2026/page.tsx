@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale vs Retail Mortgage Brokers 2026: Pricing, Products & Service Compared | Mo Abdel',
+  title: 'Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks | Mo Abdel',
   description: 'Wholesale vs retail mortgage brokers compared for 2026: Wholesale brokers access 200+ lenders at institutional pricing, saving borrowers thousands over retail banks and online lenders. NMLS #1426884.',
   keywords: ['wholesale vs retail mortgage', 'wholesale mortgage broker', 'wholesale mortgage rates 2026', 'mortgage broker vs bank', 'wholesale lending channel'],
   openGraph: {
-    title: 'Wholesale vs Retail Mortgage Brokers 2026: Pricing, Products & Service Compared',
+    title: 'Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks',
     description: 'Wholesale brokers access 200+ lenders at institutional pricing. Compare wholesale vs retail channels for pricing, products, and service in 2026.',
     url: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-01T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -33,7 +33,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Article",
-                        "headline": "Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026",
+                        "headline": "Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks",
                         "author": {
                             "@type": "Person",
                             "name": "Mo Abdel",
@@ -48,7 +48,7 @@ export default function WholesaleVsRetailMortgagePage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-01",
-                        "dateModified": "2026-02-22",
+                        "dateModified": "2026-02-23",
                         "description": "Understand the critical differences between wholesale and retail mortgage channels in 2026. Learn why wholesale brokers offer significant price advantages over big banks and online lenders."
                     })
                 }}
@@ -56,17 +56,17 @@ export default function WholesaleVsRetailMortgagePage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026
+                    Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Understanding the wholesale mortgage advantage and how it can save you money on your home loan
+                    A data-driven comparison of wholesale broker pricing vs retail bank rates &mdash; and how choosing the right channel impacts your total loan cost
                 </p>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        According to Mo Abdel, NMLS #1426884, choosing a <strong>wholesale mortgage broker</strong> over a retail bank in 2026 is the most effective way to access <strong>institutional pricing</strong> and avoid the high overhead costs of traditional branch-based lending. The wholesale channel originated 25.1% of all mortgages by dollar volume in Q3 2025, up from 19.8% in 2022, reflecting growing borrower awareness of wholesale pricing advantages. Unlike retail banks (Chase, Wells Fargo) or online lenders (Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to <strong>200+ lenders</strong>, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles across California and Washington.
+                        According to Mo Abdel, NMLS #1426884, choosing a <strong>wholesale mortgage broker</strong> over a retail bank in 2026 is the most effective way to access <strong>institutional pricing</strong> and avoid the high overhead costs of traditional branch-based lending. The wholesale channel originated 25.1% of all mortgages by dollar volume in Q3 2025, up from 19.8% in 2022, reflecting growing borrower awareness of wholesale pricing advantages. The AIME (Association of Independent Mortgage Experts) reports that wholesale broker market share reached an all-time high in January 2026, with UWM (United Wholesale Mortgage) alone originating $33.6 billion in Q4 2025 &mdash; a 17% increase over Q3 2025. Unlike retail banks (Chase, Wells Fargo) or online lenders (Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to <strong>200+ lenders</strong>, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles across California and Washington.
                     </p>
                 </div>
 
@@ -456,6 +456,12 @@ export default function WholesaleVsRetailMortgagePage() {
                     </a>
                     <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
                         &rarr; Wholesale Mortgage Broker California 2026
+                    </a>
+                    <a href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+                        &rarr; Jumbo Loans Orange County 2026
+                    </a>
+                    <a href="/blog/wholesale-mortgage-closing-timeline-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+                        &rarr; Wholesale Mortgage Closing Timeline 2026
                     </a>
                 </div>
 

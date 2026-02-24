@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-15T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoansExplainedInvestors2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-15",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-explained-investors-2026",
@@ -147,11 +147,11 @@ export default function DSCRLoansExplainedInvestors2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans Explained: How Real Estate Investors Qualify Without W-2s in 2026
+              DSCR Loans Explained: How Real Estate Investors Qualify Without W-2s or Tax Returns in 2026
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, DSCR loans represent the single most powerful financing tool available to real estate investors in 2026. Non-QM originations &mdash; with DSCR as the largest segment &mdash; surpassed <strong>$30 billion in 2025</strong>, a 22% increase over the prior year. Unlike conventional mortgages that demand W-2s, tax returns, and employment verification, DSCR loans qualify borrowers based on one factor alone: whether the property&apos;s rental income covers the mortgage payment. Investors across California and Washington are using DSCR financing to scale portfolios without the documentation bottlenecks that hold back traditional lending.
+              According to Mo Abdel, NMLS #1426884, DSCR loans represent the single most powerful financing tool available to real estate investors in 2026. Non-QM originations &mdash; with DSCR as the largest segment &mdash; surpassed <strong>$34 billion in 2025</strong>, a 27% increase over the prior year, according to CoreLogic non-agency MBS tracking data. The National Association of Realtors reports that <strong>investors purchased 16% of all homes sold in 2025</strong>, and DSCR financing fueled a significant share of those transactions. Unlike conventional mortgages that demand W-2s, tax returns, and employment verification, DSCR loans qualify borrowers based on one factor alone: whether the property&apos;s rental income covers the mortgage payment. Investors across California and Washington are using DSCR financing to scale portfolios without the documentation bottlenecks that hold back traditional lending.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -780,6 +780,12 @@ export default function DSCRLoansExplainedInvestors2026() {
             </Link>
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Scaling Your Portfolio with DSCR Loans
+            </Link>
+            <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bridge Loans vs DSCR for Investment Properties
+            </Link>
+            <Link href="/blog/fix-and-flip-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Fix-and-Flip Loans Through a Wholesale Broker
             </Link>
           </div>
         </section>

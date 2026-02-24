@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-16T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-16",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026",
@@ -147,11 +147,11 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026]
+              DSCR Loans for Portfolio Investors: How to Scale Past 10 Properties with Wholesale Rates [2026]
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Portfolio investors who hit the conventional 10-property ceiling face a binary choice: stop acquiring or switch to DSCR financing. With Fannie Mae and Freddie Mac capping conventional investment financing at 10 financed properties per borrower, DSCR loans have become the dominant scaling tool for serious investors. According to Mo Abdel, NMLS #1426884, investors who transition to DSCR loans remove every property-count barrier, eliminate personal income documentation, and unlock entity-based vesting for liability protection. In our California and Washington closings, portfolio investors who switch from conventional to DSCR consistently acquire 3&ndash;5 additional properties per year that conventional underwriting would have blocked &mdash; with wholesale rate spreads saving five figures annually across a 15+ property portfolio.
+              Portfolio investors who hit the conventional 10-property ceiling face a binary choice: stop acquiring or switch to DSCR financing. CoreLogic data shows DSCR loan originations grew 38% year-over-year in 2025, reaching $48 billion nationally as investors increasingly adopt non-QM strategies for portfolio scaling. With Fannie Mae and Freddie Mac capping conventional investment financing at 10 financed properties per borrower, DSCR loans have become the dominant scaling tool for serious investors. According to Mo Abdel, NMLS #1426884, investors who transition to DSCR loans remove every property-count barrier, eliminate personal income documentation, and unlock entity-based vesting for liability protection. In our California and Washington closings, portfolio investors who switch from conventional to DSCR consistently acquire 3&ndash;5 additional properties per year that conventional underwriting would have blocked &mdash; with wholesale rate spreads saving five figures annually across a 15+ property portfolio.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -297,7 +297,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic">
-            Rates, terms, and qualification requirements vary by lender. Rental income projections are estimates and actual income may vary. This comparison reflects typical market ranges as of February 22, 2026.
+            Rates, terms, and qualification requirements vary by lender. Rental income projections are estimates and actual income may vary. This comparison reflects typical market ranges as of February 23, 2026.
           </p>
         </section>
 
@@ -750,6 +750,12 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </Link>
             <Link href="/blog/fix-and-flip-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Fix-and-Flip Loans: Wholesale Broker Guide
+            </Link>
+            <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bridge Loans vs DSCR for Investment Properties
+            </Link>
+            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Investment Property Cash-Out Refinance Guide
             </Link>
           </div>
         </section>

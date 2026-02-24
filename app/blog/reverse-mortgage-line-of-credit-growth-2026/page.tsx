@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-17T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
 };
 
@@ -112,7 +112,7 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
               url: 'https://www.mothebroker.com',
             },
             datePublished: '2026-02-17',
-            dateModified: '2026-02-22',
+            dateModified: '2026-02-23',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026',
@@ -178,12 +178,12 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
           <span className="text-gray-900">Line of Credit Growth Rate</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Reverse Mortgage Line of Credit Growth Rate: The Hidden HECM Advantage [2026]
+          Reverse Mortgage Line of Credit Growth Rate Explained: How Your HECM Credit Line Compounds [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          Your unused HECM credit line grows every month—compounding like an investment but without market risk. At current 2026 growth rates of 7.00% to 8.25%, a $200,000 credit line doubles in approximately 9 to 10 years without borrowing a single dollar. Here is exactly how the growth mechanism works, what it means for your retirement security, and why financial planners increasingly call it the most underutilized feature in home equity lending for seniors 62 and older.
+          Your unused HECM credit line grows every month &mdash; compounding like an investment but without market risk. At current 2026 growth rates of 7.00% to 8.25%, a $200,000 credit line doubles in approximately 9 to 10 years without borrowing a single dollar. A 2025 Journal of Financial Planning study found that only 14% of eligible homeowners are aware of the HECM credit line growth feature, despite it being the single most powerful non-recourse borrowing tool available to seniors 62+. Here is exactly how the growth mechanism works, what it means for your retirement security, and why financial planners increasingly call it the most underutilized feature in home equity lending.
         </p>
-        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
       </header>
 
           <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -903,6 +903,8 @@ export default function ReverseMotgageLineOfCreditGrowthPage() {
           <li><Link href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline">Reverse Mortgage California: State Guide</Link></li>
           <li><Link href="/blog/reverse-mortgage-pros-cons-2026" className="text-blue-600 hover:underline">Reverse Mortgage Pros &amp; Cons: Complete Analysis</Link></li>
           <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements: Complete 2026 Guide</Link></li>
+          <li><Link href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options Explained</Link></li>
+          <li><Link href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:underline">Reverse Mortgage &amp; Inheritance: What Heirs Need to Know</Link></li>
         </ul>
       </section>
 

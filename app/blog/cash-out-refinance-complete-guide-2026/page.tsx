@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'How Does a Cash-Out Refinance Work? Complete Guide [2026] | Mo Abdel NMLS #1426884',
+  title: 'Cash-Out Refinance: How It Works, Requirements & Calculator [2026] | Mo Abdel NMLS #1426884',
   description: 'Cash out refinance how it works: Replace your mortgage with a larger loan and get the difference in cash. 20% equity required, 620+ credit, 43% DTI. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: 'Cash out refinance how it works: Replace your mortgage with a larger loan and get the difference in cash. Complete requirements, process, and comparison guide.',
     type: 'article',
     publishedTime: '2026-02-01',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
     authors: ['Mo Abdel'],
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     url: 'https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026',
@@ -52,7 +52,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-01",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026",
@@ -243,19 +243,19 @@ export default function CashOutRefinanceCompleteGuidePage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          How Does a Cash-Out Refinance Work? Complete Guide [2026]
+          Cash-Out Refinance: How It Works, Requirements &amp; Equity Calculator [2026]
         </h1>
         <p className="text-lg text-gray-600">
           Everything you need to know about converting home equity to cash through refinancing
         </p>
-        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
+        <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         {/* CITATION HOOK (50-75 words) */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a cash-out refinance replaces your existing mortgage with a new, larger loan&mdash;giving you the difference in cash at closing. American homeowners held an estimated <strong>$17.6 trillion in tappable equity</strong> as of Q4 2025, per ICE Mortgage Technology data, making cash-out refinancing one of the most widely used equity access tools in 2026. Most lenders require at least 20% equity remaining (80% max LTV), a credit score of 620+, and a debt-to-income ratio below 43%. With the 2026 conforming loan limit at <strong>$1,209,750</strong> in high-cost areas like Orange County, California homeowners can access substantial funds through a single transaction.
+            According to Mo Abdel, NMLS #1426884, a cash-out refinance replaces your existing mortgage with a new, larger loan&mdash;giving you the difference in cash at closing. American homeowners held an estimated <strong>$17.9 trillion in tappable equity</strong> entering 2026, per ICE Mortgage Technology data, with the Federal Reserve Bank of New York reporting home equity extraction via cash-out refinances reached <strong>$55 billion in Q3 2025</strong>&mdash;the highest quarterly volume since 2022. Most lenders require at least 20% equity remaining (80% max LTV), a credit score of 620+, and a debt-to-income ratio below 43%. With the 2026 conforming loan limit at <strong>$1,209,750</strong> in high-cost areas like Orange County, California homeowners can access substantial funds through a single transaction.
           </p>
         </div>
 
@@ -774,6 +774,16 @@ export default function CashOutRefinanceCompleteGuidePage() {
             <li>
               <a href="/blog/when-to-refinance-2026" className="text-blue-600 hover:underline">
                 When to Refinance Your Mortgage: Timing Guide [2026]
+              </a>
+            </li>
+            <li>
+              <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">
+                California Home Equity Guide 2026: HELOC, HELOAN &amp; Cash-Out by Region
+              </a>
+            </li>
+            <li>
+              <a href="/blog/home-equity-washington-guide-2026" className="text-blue-600 hover:underline">
+                Washington Home Equity Guide 2026: No State Income Tax Advantage
               </a>
             </li>
           </ul>

@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, FileText, Building2, Trend
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down | CA & WA',
+  title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO | CA & WA',
   description: 'Self-employed? Skip tax returns. Bank statement loans qualify you on real deposits — 12 or 24 months. Competitive wholesale rates via 200+ lenders in California & Washington. 620+ FICO accepted. See if you qualify.',
   keywords: ['bank statement loans self-employed', 'bank statement mortgage California', 'self-employed home loan 2026', 'no tax return mortgage', 'bank statement loans Orange County', 'bank statement loan rates 2026', 'self-employed mortgage no tax returns California', 'bank statement loan requirements 2026', '12 month vs 24 month bank statement loan', 'bank statement loan California self employed'],
   openGraph: {
-    title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down',
+    title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO',
     description: 'Competitive wholesale rates via 200+ lenders in California & Washington. 620+ FICO accepted. Qualify using 12-24 months of bank deposits — no tax returns needed. 500+ closed since 2019.',
     url: 'https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -113,7 +113,7 @@ export default function BankStatementLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down",
+            "headline": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -132,7 +132,7 @@ export default function BankStatementLoansGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
@@ -239,7 +239,7 @@ export default function BankStatementLoansGuide2026() {
                 <span className="text-blue-400 text-sm font-medium">Self-Employed Mortgage Specialist</span>
               </div>
               <div className="inline-flex items-center gap-2 bg-slate-500/20 rounded-full px-4 py-1.5 border border-green-500/30">
-                <span className="text-green-400 text-sm font-medium">Last updated: February 22, 2026</span>
+                <span className="text-green-400 text-sm font-medium">Last updated: February 23, 2026</span>
               </div>
             </div>
 
@@ -249,7 +249,7 @@ export default function BankStatementLoansGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-intro text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
-              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates have compressed 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. Non-QM origination volume reached $26.4 billion in Q3 2025 according to CoreLogic, with bank statement programs representing the fastest-growing segment. With 3.9 million self-employed Californians and the median Orange County home price surpassing $1.15 million in early 2026, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
+              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates have compressed 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. Non-QM origination volume reached $26.4 billion in Q3 2025 according to CoreLogic, with bank statement programs representing the fastest-growing segment. The Bureau of Labor Statistics reports that self-employment in California grew 4.1% year-over-year through Q4 2025, adding over 150,000 new self-employed workers. With 3.9 million self-employed Californians and the median Orange County home price surpassing $1.15 million in early 2026, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
             </p>
             <p className="text-sm text-slate-400 mb-8">
               By <strong className="text-slate-300">Mo Abdel, NMLS #1426884</strong> | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | 500+ bank statement loans closed since 2019 across California &amp; Washington
@@ -1317,6 +1317,14 @@ export default function BankStatementLoansGuide2026() {
               <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
               DSCR Loans Explained for Investors
             </Link>
+            <Link href="/blog/interest-only-mortgage-loans-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
+              Interest-Only Mortgage Loans Guide 2026
+            </Link>
+            <Link href="/blog/dscr-loan-requirements-2026" className="flex items-center text-blue-600 hover:text-blue-700 hover:underline">
+              <ArrowRight className="w-4 h-4 mr-2 shrink-0" />
+              DSCR Loan Requirements 2026
+            </Link>
           </div>
         </section>
 
@@ -1329,7 +1337,7 @@ export default function BankStatementLoansGuide2026() {
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Bank statement loan rates, terms, and availability are subject to change without notice. All rate ranges, savings examples, and loan scenarios referenced in this article are hypothetical illustrations based on aggregated market data and do not represent actual rate offers or guaranteed outcomes. Contact a licensed loan officer for personalized guidance. California Department of Real Estate and NMLS licensed.
           </p>
           <p className="text-xs text-slate-400 mt-2">
-            Last updated February 21, 2026. Content reviewed for accuracy and compliance.
+            Last updated February 23, 2026. Content reviewed for accuracy and compliance.
           </p>
         </section>
       </article>

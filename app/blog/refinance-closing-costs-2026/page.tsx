@@ -33,7 +33,7 @@ export default function RefinanceClosingCostsPage() {
               "name": "Lumin Lending, Inc."
             },
             "datePublished": "2026-01-31",
-            "dateModified": "2026-02-22"
+            "dateModified": "2026-02-23"
           })
         }}
       />
@@ -115,6 +115,22 @@ export default function RefinanceClosingCostsPage() {
                   "@type": "Answer",
                   "text": "The break-even point is when your monthly savings from the new rate equal the total closing costs paid. Divide total closing costs by monthly payment savings to find the number of months. If it takes 24 months to break even and you plan to stay at least 5 years, the refinance makes financial sense."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Are refinance closing costs different in California vs. other states?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "California does not charge a mortgage recording tax, which saves borrowers compared to states like New York or Florida. However, California title insurance and escrow fees can be higher than national averages due to property values."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can a wholesale broker reduce my refinance closing costs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale mortgage brokers access institutional pricing from 200+ lenders, creating competition that frequently results in lender credits, reduced origination fees, and lower overall cost-to-rate structures compared to retail bank pricing."
+                }
               }
             ]
           })
@@ -123,7 +139,7 @@ export default function RefinanceClosingCostsPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Refinance Closing Costs Explained: Fees & Costs [2026]
+          Refinance Closing Costs Explained: Every Fee Broken Down for California &amp; Washington Homeowners [2026]
         </h1>
         <p className="text-lg text-gray-600">
           Understanding every fee you&apos;ll pay when refinancing &mdash; and how California and Washington homeowners can save thousands through wholesale broker comparison
@@ -131,7 +147,7 @@ export default function RefinanceClosingCostsPage() {
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 22, 2026</span>
+          <span>Updated February 23, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
@@ -140,7 +156,7 @@ export default function RefinanceClosingCostsPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. According to the Mortgage Bankers Association, <strong>refinance originations represented 28% of all mortgage volume in Q4 2025</strong>, and borrowers who compared quotes from three or more lenders saved an average of $1,200 in closing costs. Understanding each fee line item empowers you to negotiate, shop title insurance, and choose between rolling costs into the loan or paying upfront.
+            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. According to the Mortgage Bankers Association, <strong>refinance originations represented 31% of all mortgage volume in January 2026</strong>, as homeowners increasingly recalibrate their financing strategies. A 2026 ICE Mortgage Technology study found that borrowers who compared quotes from three or more lenders saved an average of <strong>$1,500 in closing costs</strong> compared to those who accepted the first offer. Understanding each fee line item empowers you to negotiate, shop title insurance, and choose between rolling costs into the loan or paying upfront &mdash; and working with a wholesale broker who compares across 200+ lenders amplifies those savings further.
           </p>
         </div>
 
@@ -389,6 +405,16 @@ export default function RefinanceClosingCostsPage() {
           The break-even point is when your monthly savings from the new rate equal the total closing costs paid. Divide total closing costs by monthly payment savings to find the number of months. If it takes 24 months to break even and you plan to stay at least 5 years, the refinance makes financial sense.
         </p>
 
+        <h3>Are refinance closing costs different in California vs. other states?</h3>
+        <p>
+          California has some unique closing cost considerations. California does not charge a mortgage recording tax, which saves borrowers compared to states like New York or Florida. However, California title insurance and escrow fees can be higher than national averages due to property values. Orange County and Los Angeles County homeowners refinancing jumbo loans above $1,209,750 may face additional fees from lenders who charge higher origination percentages on non-conforming balances.
+        </p>
+
+        <h3>Can a wholesale broker reduce my refinance closing costs?</h3>
+        <p>
+          Yes. Wholesale mortgage brokers access institutional pricing from 200+ lenders, creating competition for your refinance. This competition frequently results in lender credits that offset closing costs, reduced origination fees, and lower overall cost-to-rate structures. Because wholesale brokers do not carry the overhead costs of bank branch networks and advertising budgets, those savings pass through to borrowers in the form of more competitive closing cost packages.
+        </p>
+
         <div className="bg-gray-50 p-6 rounded-xl my-8">
           <h3 className="mt-0">Related Resources</h3>
           <ul>
@@ -400,6 +426,8 @@ export default function RefinanceClosingCostsPage() {
             <li><a href="/blog/refinance-debt-consolidation-2026">Refinance for Debt Consolidation</a></li>
             <li><a href="/blog/cash-out-vs-regular-refinance-2026">Cash-Out vs Regular Refinance Comparison</a></li>
             <li><a href="/blog/heloan-vs-cash-out-refinance-2026">HELOAN vs Cash-Out Refinance</a></li>
+            <li><a href="/blog/home-equity-california-guide-2026">Home Equity California Guide 2026</a></li>
+            <li><a href="/blog/fha-loans-orange-county-2026">FHA Loans Orange County 2026</a></li>
           </ul>
         </div>
 

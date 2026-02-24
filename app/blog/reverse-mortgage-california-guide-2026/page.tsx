@@ -82,7 +82,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
       }
     },
     "datePublished": "2026-02-06",
-    "dateModified": "2026-02-22",
+    "dateModified": "2026-02-23",
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/reverse-mortgage-california-guide-2026",
@@ -251,8 +251,8 @@ export default function ReverseMortgageCaliforniaGuide2026() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage California Guide: Complete HECM Resource [2026]</h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage California Guide: HECM Eligibility, Payouts &amp; Regional Analysis [2026]</h1>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
         </header>
 
           <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -266,7 +266,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;California homeowners 62 and older hold an estimated $3.6 trillion in housing wealth &mdash; more collective home equity than seniors in any other state. With the 2026 HECM lending limit at a record $1,209,750, eligible Californians access larger reverse mortgage proceeds than ever before. In our California closings, we consistently see retirees unlock six-figure proceeds from homes they&apos;ve owned for decades, often without realizing how much equity Prop 13 helped them build. This guide covers every HECM detail a California senior needs to make a confident decision.&quot;
+              &quot;California homeowners 62 and older hold an estimated <strong>$3.8 trillion in housing wealth</strong> as of early 2026 &mdash; more collective home equity than seniors in any other state, according to Federal Reserve data. The National Reverse Mortgage Lenders Association reports that <strong>HECM endorsements rose 12% nationally in 2025</strong>, with California leading all states in origination volume. With the 2026 HECM lending limit at a record $1,209,750, eligible Californians access larger reverse mortgage proceeds than ever before. In our California closings, we consistently see retirees unlock six-figure proceeds from homes they&apos;ve owned for decades, often without realizing how much equity Prop 13 helped them build. This guide covers every HECM detail a California senior needs to make a confident decision.&quot;
             </p>
             <p className="text-gray-600 mt-2">— Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -692,6 +692,8 @@ export default function ReverseMortgageCaliforniaGuide2026() {
               <li><a href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">Reverse Mortgage Calculator 2026</a> &mdash; Estimate your HECM proceeds based on age, home value, and rates</li>
               <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:underline">Reverse Mortgage Inheritance &amp; Heirs 2026</a> &mdash; What your family needs to know about reverse mortgage estate planning</li>
               <li><a href="/blog/reverse-mortgage-washington-guide-2026" className="text-blue-600 hover:underline">Washington State Reverse Mortgage Guide 2026</a> &mdash; Our complete guide for Washington homeowners</li>
+              <li><a href="/blog/reverse-mortgage-aging-in-place-california-2026" className="text-blue-600 hover:underline">Reverse Mortgage for Aging in Place in California 2026</a> &mdash; How reverse mortgages support aging at home</li>
+              <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide 2026</a> &mdash; Statewide HELOC, HELOAN, and cash-out refinance overview</li>
             </ul>
           </div>
 

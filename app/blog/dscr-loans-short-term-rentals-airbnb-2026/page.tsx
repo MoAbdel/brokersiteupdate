@@ -5,18 +5,18 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing Guide [2026] | Mo Abdel',
+  title: 'DSCR Loans for Airbnb & Short-Term Rentals 2026: STR Financing, AirDNA Income & VRBO | Mo Abdel',
   description: 'DSCR loans for Airbnb and VRBO short-term rentals: Income calculation methods, AirDNA projections vs booking history, STR-specific requirements, and seasonal income strategies. NMLS #1426884.',
   keywords: ['dscr loan short term rental airbnb', 'DSCR loan Airbnb', 'DSCR loan VRBO', 'short term rental financing', 'STR DSCR loan 2026', 'vacation rental mortgage', 'AirDNA DSCR income'],
   openGraph: {
-    title: 'DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing Guide [2026]',
+    title: 'DSCR Loans for Airbnb & Short-Term Rentals 2026: STR Financing, AirDNA Income & VRBO',
     description: 'Complete guide to DSCR loans for Airbnb and VRBO investors: income calculation methods, STR-specific requirements, seasonal income considerations, and lender comparison.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-16T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -85,7 +85,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loans for Short-Term Rentals: Airbnb & VRBO Financing Guide [2026]",
+            "headline": "DSCR Loans for Airbnb & Short-Term Rentals 2026: STR Financing, AirDNA Income & VRBO",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -99,7 +99,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-16",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
@@ -147,11 +147,11 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans for Short-Term Rentals: Airbnb &amp; VRBO Financing Guide for 2026
+              DSCR Loans for Airbnb &amp; Short-Term Rentals 2026: Qualify Using STR Income, No Tax Returns
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, short-term rental investors using platforms like Airbnb and VRBO are turning to DSCR loans to finance vacation rental properties at record pace &mdash; AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 200+ wholesale lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
+              According to Mo Abdel, NMLS #1426884, short-term rental investors using Airbnb, VRBO, and Booking.com are turning to DSCR loans to finance vacation rental properties at record pace. AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Airbnb&apos;s Q4 2025 earnings disclosed 448 million nights and experiences booked globally &mdash; a 12% year-over-year increase &mdash; signaling sustained demand that directly impacts STR investor returns. The average California Airbnb host earned $41,000 in annual revenue in 2025 according to AirDNA MarketMinder data, with coastal markets in Orange County and the San Juan Islands averaging significantly higher. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 200+ wholesale lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -1086,6 +1086,12 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </Link>
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling Strategy
+            </Link>
+            <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bank Statement Loans for Self-Employed 2026
+            </Link>
+            <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bridge Loans vs DSCR for Investment Properties
             </Link>
           </div>
         </section>

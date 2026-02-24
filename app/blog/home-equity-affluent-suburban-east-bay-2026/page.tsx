@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-10T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026',
@@ -57,7 +57,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-10',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     description: 'Comprehensive home equity guide for Danville, Walnut Creek, Pleasanton, Dublin, and Fremont covering HELOC, HELOAN, and cash-out refinance for Iron Horse Corridor estates, Rossmoor 55+ communities, Tri-Valley family homes, new construction growth markets, and diverse suburban neighborhoods.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026',
     about: [
@@ -227,10 +227,10 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity in Danville, Walnut Creek &amp; Suburban East Bay: HELOC &amp; Cash-Out [2026]
+            Suburban East Bay Home Equity 2026: HELOC &amp; Cash-Out for Danville, Walnut Creek, Pleasanton &amp; Dublin
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for 5 affluent suburban East Bay cities | Licensed in CA &amp; WA
@@ -245,8 +245,9 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
             <ul className="text-blue-800 space-y-1 text-base">
               <li>5 suburban East Bay cities hold an estimated $48 billion in tappable home equity across approximately 185,000 owner-occupied homes</li>
               <li>Average tappable equity per homeowner ranges from $440,000 (Dublin) to $1,080,000 (Danville) after retaining a 20% equity cushion</li>
-              <li>Contra Costa and Alameda County home values have appreciated an average of 5.8% annually over the past decade, driven by BART access, tech employment, and limited housing supply</li>
+              <li>Contra Costa and Alameda County home values have appreciated an average of 5.8% annually over the past decade, driven by BART access, tech employment, and limited housing supply &mdash; with Danville seeing 7.2% YoY growth in Q4 2025 per Redfin</li>
               <li>Danville&apos;s Blackhawk community holds over $2.1 billion in residential property value across 4,400 homes &mdash; the East Bay&apos;s highest concentration of estate-level equity</li>
+              <li>Pleasanton median home values reached $1.68M in January 2026, while Dublin&apos;s rapid transit-oriented development pushed median values to $1.22M &mdash; both well above their 2019 levels by 42%+ per Contra Costa and Alameda County assessor records</li>
               <li>Wholesale broker access to 200+ lenders delivers jumbo HELOC products up to $3M+ that standard banks and credit unions do not offer</li>
             </ul>
           </div>
@@ -862,7 +863,7 @@ export default function HomeEquityAffluentSuburbanEastBay2026() {
           </div>
 
           <p>
-            Explore additional equity resources: <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance</a> | <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Home Equity Loan (Fixed Rate) Guide</a> | <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> | <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a> | <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a> | <a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline">Using Home Equity for College Tuition</a>. For government resources on home equity borrowing, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> and <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a>.
+            Explore additional equity resources: <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance</a> | <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Home Equity Loan (Fixed Rate) Guide</a> | <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> | <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a> | <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a> | <a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline">Using Home Equity for College Tuition</a> | <a href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOAN vs Cash-Out Refinance</a> | <a href="/blog/home-equity-refinancing-complete-pillar-2026" className="text-blue-600 hover:underline">Home Equity Refinancing Complete Guide</a>. For government resources on home equity borrowing, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> and <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a>.
           </p>
 
           {/* Expert Summary */}

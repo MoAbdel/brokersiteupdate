@@ -5,18 +5,18 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns | Mo Abdel',
+  title: 'DSCR Investment Property Loans 2026: No Tax Returns, No W-2s, Unlimited Properties | Mo Abdel',
   description: 'DSCR investment property loans Orange County 2026: Qualify based on rental income, not personal tax returns. No income verification. Wholesale rates. NMLS #1426884.',
   keywords: ['DSCR loans Orange County', 'investment property loans California', 'DSCR mortgage 2026', 'rental property financing no tax returns'],
   openGraph: {
-    title: 'DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns',
+    title: 'DSCR Investment Property Loans 2026: No Tax Returns, No W-2s, Unlimited Properties',
     description: 'DSCR investment property loans: Qualify based on rental income, not personal income. Access wholesale rates from 200+ lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-investment-property-loans-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-18T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -74,7 +74,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns",
+            "headline": "DSCR Investment Property Loans 2026: No Tax Returns, No W-2s, Unlimited Properties",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -87,7 +87,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-18",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
@@ -134,12 +134,12 @@ export default function DSCRInvestmentPropertyLoans2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans Orange County 2026: Investment Property Financing Without Tax Returns
+              DSCR Investment Property Loans 2026: No Tax Returns, No W-2s, Unlimited Properties
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              DSCR loans qualify investors based on rental income, not tax returns—no W-2s, no pay stubs, no employment verification. Non-QM originations, including DSCR loans, reached $26 billion in Q3 2025, a 41% year-over-year increase driven by investor demand for documentation-free financing. With a DSCR ratio of 1.0+ (rent covers payment), investors can finance unlimited properties through wholesale channels with access to 200+ lenders competing for your business.
+              DSCR loans qualify investors based on rental income, not tax returns &mdash; no W-2s, no pay stubs, no employment verification. Non-QM originations, including DSCR loans, reached $26 billion in Q3 2025, a 41% year-over-year increase driven by investor demand for documentation-free financing. The National Association of Realtors reports that investor purchases accounted for 21% of all U.S. home sales in January 2026, with California and Washington ranking among the top states for DSCR loan origination. With a DSCR ratio of 1.0+ (rent covers payment), investors can finance unlimited properties through wholesale channels with access to 200+ lenders competing for your business.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -550,6 +550,12 @@ export default function DSCRInvestmentPropertyLoans2026() {
             </Link>
             <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Investment Property Cash-Out Refinance
+            </Link>
+            <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → DSCR Loans for Airbnb &amp; Short-Term Rentals
+            </Link>
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → DSCR Loan Requirements 2026
             </Link>
           </div>
         </section>

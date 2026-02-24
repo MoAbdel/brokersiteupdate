@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'HUD Reverse Mortgage Counseling 2026: Requirements, Process & What to Expect | MoTheBroker',
+  title: 'HECM Counseling Requirements 2026: HUD-Approved Process, Costs & What to Expect | MoTheBroker',
   description: 'Complete guide to HUD-approved HECM counseling requirements for 2026. Learn what to expect, how to find approved counselors, costs, and how counseling protects seniors.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     'HUD counseling certificate',
   ],
   openGraph: {
-    title: 'HUD Reverse Mortgage Counseling 2026: Requirements, Process & What to Expect',
+    title: 'HECM Counseling Requirements 2026: HUD-Approved Process, Costs & What to Expect',
     description: 'Complete guide to HUD-approved HECM counseling. Learn what to expect, find counselors, and understand how this requirement protects you.',
     url: 'https://www.mothebroker.com/blog/hecm-counseling-requirements-2026',
     type: 'article',
     publishedTime: '2026-01-29',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
     authors: ['Mo Abdel'],
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
@@ -37,7 +37,7 @@ export default function HECMCounselingPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "HUD Reverse Mortgage Counseling 2026: Requirements, Process & What to Expect",
+    "headline": "HECM Counseling Requirements 2026: HUD-Approved Process, Costs & What to Expect",
     "description": "Complete guide to HUD-approved HECM counseling requirements for 2026. Learn what to expect, how to find approved counselors, costs, and how counseling protects seniors.",
     "author": {
       "@type": "Person",
@@ -55,7 +55,7 @@ export default function HECMCounselingPage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
-    "dateModified": "2026-02-22",
+    "dateModified": "2026-02-23",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026"
@@ -146,6 +146,14 @@ export default function HECMCounselingPage() {
           "@type": "Answer",
           "text": "Yes, many HUD-approved counseling agencies offer sessions in Spanish, Mandarin, Vietnamese, Korean, and other languages. When searching for a counselor at HUD.gov/counseling, you can filter by language. If you need a specific language, ask the agency about availability before scheduling your session."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I fail reverse mortgage counseling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HECM counseling is not a pass/fail test. The counselor's role is educational, not evaluative. Every borrower who completes the session receives a counseling certificate regardless of whether they decide to proceed with the loan. The counselor will ensure you understand the product, but the decision to move forward is entirely yours. If the counselor identifies concerns about your ability to maintain the property or pay taxes and insurance, they will discuss these issues with you but cannot prevent you from obtaining the certificate."
+        }
       }
     ]
   };
@@ -175,15 +183,15 @@ export default function HECMCounselingPage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Requirements</span>
           <span>•</span>
-          <time dateTime="2026-02-22">Updated February 22, 2026</time>
+          <time dateTime="2026-02-23">Updated February 23, 2026</time>
           <span>•</span>
           <span>10 min read</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          HUD Reverse Mortgage Counseling 2026: Complete Guide to HECM Counseling Requirements
+          HECM Counseling Requirements 2026: Complete Guide to HUD-Approved Reverse Mortgage Counseling
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          HUD-approved counseling is a mandatory step before obtaining a reverse mortgage &mdash; and it exists to protect you. According to the National Reverse Mortgage Lenders Association, over 33,000 HECM loans were endorsed in FY 2025, and every one of those borrowers completed counseling first. This federal requirement ensures seniors understand exactly how HECMs work, what alternatives exist, and what ongoing obligations they will have. According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), borrowers who prepare properly for counseling close 40% faster because they enter the loan process fully informed.
+          HUD-approved counseling is a mandatory step before obtaining a reverse mortgage &mdash; and it exists to protect you. According to the National Reverse Mortgage Lenders Association, over 33,000 HECM loans were endorsed in FY 2025, and every one of those borrowers completed counseling first. HUD data shows that roughly 98% of HECM counseling sessions in 2025 were conducted by phone or video conference, making the process accessible regardless of location. This federal requirement ensures seniors understand exactly how HECMs work, what alternatives exist, and what ongoing obligations they will have. With the FHA HECM lending limit increasing to $1,209,750 for 2026, counseling has become even more important for seniors accessing larger loan amounts. According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), borrowers who prepare properly for counseling close 40% faster because they enter the loan process fully informed.
         </p>
       </header>
 
@@ -800,6 +808,20 @@ export default function HECMCounselingPage() {
             >
               <span className="font-semibold text-blue-600">Reverse Mortgage Myths Debunked →</span>
               <p className="text-sm text-gray-600 mt-1">Separating fact from fiction about HECMs</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-complete-guide-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Reverse Mortgage Complete Guide 2026 →</span>
+              <p className="text-sm text-gray-600 mt-1">Everything you need to know about reverse mortgages</p>
+            </Link>
+            <Link
+              href="/blog/hecm-for-purchase-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">HECM for Purchase Guide 2026 →</span>
+              <p className="text-sm text-gray-600 mt-1">Using a reverse mortgage to buy your next home</p>
             </Link>
           </div>
         </div>

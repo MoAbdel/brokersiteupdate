@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-11T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-central-coast-communities-2026',
@@ -57,7 +57,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-11',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     description: 'Comprehensive home equity guide for Central Coast communities covering HELOC, HELOAN, and cash-out refinance for San Luis Obispo, Pismo Beach, Paso Robles, and Cambria homeowners.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-central-coast-communities-2026',
     about: [
@@ -115,6 +115,10 @@ export default function HomeEquityCentralCoastCommunities2026() {
     {
       question: 'Does the wine country location of my Paso Robles property affect HELOC options?',
       answer: 'Paso Robles wine country properties with vineyard acreage or agricultural components require lenders experienced with mixed-use residential agricultural properties. Some retail banks decline properties with more than 5 acres or active agricultural use. Wholesale broker access identifies lenders who serve wine country estates, including programs that accept up to 20+ acres, count documented wine revenue as qualifying income, and appraise properties using comparable sales from the Paso Robles wine corridor rather than generic rural comparables.',
+    },
+    {
+      question: 'Can I use a HELOC from my Central Coast home to buy an investment property?',
+      answer: 'Yes. Many Central Coast homeowners use HELOC proceeds as a down payment on investment properties in more affordable inland markets or as capital for short-term rental acquisitions along the coast. There are no restrictions on how HELOC funds are used once disbursed. However, interest on HELOC funds used for investment purposes rather than home improvement is generally not tax-deductible as mortgage interest. A wholesale broker structures the HELOC to maximize your credit line and provide flexible draw terms that align with your investment timeline.',
     },
   ];
 
@@ -187,10 +191,10 @@ export default function HomeEquityCentralCoastCommunities2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity in San Luis Obispo, Pismo Beach &amp; Central Coast Communities: HELOC &amp; Cash-Out [2026]
+            Home Equity in San Luis Obispo, Pismo Beach &amp; Central Coast Communities: HELOC, HELOAN &amp; Cash-Out Refinance Guide [2026]
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for Central Coast communities | Licensed in CA &amp; WA
@@ -213,10 +217,11 @@ export default function HomeEquityCentralCoastCommunities2026() {
 
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8 citation-hook">
-            <p className="text-lg font-semibold text-blue-900 mb-2">Central Coast Home Equity Fast Facts (2026)</p>
+            <p className="text-lg font-semibold text-blue-900 mb-2">Central Coast Home Equity Fast Facts (February 2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
-              <li>Central Coast homeowners in San Luis Obispo County hold an estimated $8.4 billion in combined residential equity across SLO, Pismo Beach, Paso Robles, and Cambria &mdash; driven by 38% average appreciation since 2021 and limited housing inventory</li>
-              <li>Average tappable equity per homeowner ranges from $280K in Paso Robles to $420K+ in San Luis Obispo, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
+              <li>Central Coast homeowners in San Luis Obispo County hold an estimated <strong>$8.9 billion</strong> in combined residential equity across SLO, Pismo Beach, Paso Robles, and Cambria &mdash; driven by 41% average appreciation since 2021, limited housing inventory, and strong migration demand from Bay Area remote workers</li>
+              <li>According to the California Association of Realtors, San Luis Obispo County&apos;s median home price reached <strong>$930,000 in January 2026</strong>, a 5.2% year-over-year increase that further expanded tappable equity reserves</li>
+              <li>Average tappable equity per homeowner ranges from $290K in Paso Robles to $440K+ in San Luis Obispo, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
               <li>San Luis Obispo County recorded 682 HELOC originations in Q3 2025, with a 22% year-over-year increase driven by Cal Poly employee housing demand, wine country estate improvements, and coastal retirement equity migration (CoreLogic)</li>
               <li>47% of Pismo Beach and 35% of Cambria homeowners own their properties free and clear, creating an exceptionally high tappable equity base among debt-free retirees and second-home owners</li>
             </ul>
@@ -779,7 +784,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
           </div>
 
           <p>
-            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Fixed-Rate Home Equity Loan Guide</a>, <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a>, and <a href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">Self-Employed Mortgage Broker Guide</a>.
+            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">Fixed-Rate Home Equity Loan Guide</a>, <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a>, <a href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">Self-Employed Mortgage Broker Guide</a>, <a href="/blog/refinance-closing-costs-2026" className="text-blue-600 hover:underline">Refinance Closing Costs Explained</a>, and <a href="/blog/home-equity-refinancing-complete-pillar-2026" className="text-blue-600 hover:underline">Home Equity &amp; Refinancing Complete Pillar</a>.
           </p>
 
           {/* Expert Summary + CTA */}

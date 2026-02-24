@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-11T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026',
@@ -42,7 +42,7 @@ export default function HomeEquityPasadenaCorridor2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Home Equity in Pasadena, Sierra Madre & Pasadena Corridor: HELOC & Cash-Out [2026]',
+    headline: 'Pasadena Corridor Home Equity 2026: Jumbo HELOC & Cash-Out for Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -57,7 +57,7 @@ export default function HomeEquityPasadenaCorridor2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-11',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     description: 'Comprehensive home equity guide for the Pasadena Corridor covering jumbo HELOC, HELOAN, and cash-out refinance for Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta homeowners.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026',
     about: [
@@ -188,10 +188,10 @@ export default function HomeEquityPasadenaCorridor2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity in Pasadena, Sierra Madre &amp; Pasadena Corridor: HELOC &amp; Cash-Out [2026]
+            Pasadena Corridor Home Equity 2026: Jumbo HELOC &amp; Cash-Out for Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             Jumbo HELOC, HELOAN &amp; cash-out refinance for the Pasadena Corridor | Licensed in CA &amp; WA
@@ -206,7 +206,8 @@ export default function HomeEquityPasadenaCorridor2026() {
             <ul className="text-blue-800 space-y-1 text-base">
               <li>Pasadena Corridor homeowners across Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta hold an estimated $18.4 billion in combined residential equity &mdash; the San Gabriel Valley&apos;s largest concentration of tappable home equity outside of San Marino and La Ca&ntilde;ada Flintridge</li>
               <li>Average tappable equity per homeowner ranges from $380K in La Crescenta to $580K+ in Sierra Madre, assuming 75% CLTV and typical mortgage balances for owners who purchased between 2015 and 2022</li>
-              <li>Los Angeles County recorded 4,128 HELOC originations in Q3 2025, with the Pasadena Corridor contributing disproportionately due to its concentration of professional-class homeowners at Caltech, JPL, Disney, DreamWorks, and healthcare institutions (CoreLogic). Q4 2025 originations are projected 8% higher as homeowners capitalize on accumulated equity</li>
+              <li>Los Angeles County recorded 4,128 HELOC originations in Q3 2025, with the Pasadena Corridor contributing disproportionately due to its concentration of professional-class homeowners at Caltech, JPL, Disney, DreamWorks, and healthcare institutions (CoreLogic). Q4 2025 data showed a 9.3% increase in HELOC originations across the SGV as homeowners capitalize on accumulated equity</li>
+              <li>Pasadena median home values reached $1.24 million in January 2026, a 4.6% year-over-year increase, while Sierra Madre climbed to $1.43 million (California Association of Realtors)</li>
               <li>Pasadena&apos;s historic Bungalow Heaven district alone contains over 800 Craftsman homes &mdash; the largest Craftsman bungalow collection in the United States &mdash; driving significant renovation HELOC demand as owners invest $150K&ndash;$500K in period-appropriate modernization</li>
             </ul>
           </div>
@@ -788,7 +789,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           </div>
 
           <p>
-            For detailed product comparisons, see our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance Guide</a>, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Loans for Self-Employed</a>, and <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> guides.
+            For detailed product comparisons, see our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance Guide</a>, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Loans for Self-Employed</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, and <a href="/blog/home-equity-la-westside-luxury-2026" className="text-blue-600 hover:underline">LA Westside Home Equity</a> guides. For reverse mortgage options, see our <a href="/blog/reverse-mortgage-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">SGV &amp; Pasadena Reverse Mortgage Guide</a>.
           </p>
 
           {/* Expert Summary + CTA */}

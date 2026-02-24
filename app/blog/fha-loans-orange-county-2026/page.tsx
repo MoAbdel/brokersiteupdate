@@ -36,7 +36,7 @@ export default function FHALoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-02",
-                        "dateModified": "2026-02-22",
+                        "dateModified": "2026-02-23",
                         "description": "Master FHA loan requirements for Orange County in 2026. Learn about 3.5% down payments, credit score flexibility, and how wholesale brokers find the best FHA pricing."
                     })
                 }}
@@ -105,7 +105,7 @@ export default function FHALoansOrangeCountyPage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    FHA Loans in Orange County 2026: Complete Guide & Requirements
+                    FHA Loans in Orange County 2026: Limits, Requirements &amp; Wholesale Broker Advantage
                 </h1>
                 <p className="text-lg text-gray-600">
                     Everything you need to know about FHA financing in Orange County&apos;s competitive housing market &mdash; with 2026 loan limits, credit requirements, and wholesale broker pricing
@@ -113,7 +113,7 @@ export default function FHALoansOrangeCountyPage() {
                 <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
                     <span>By Mo Abdel, NMLS #1426884</span>
                     <span>|</span>
-                    <span>Updated February 22, 2026</span>
+                    <span>Updated February 23, 2026</span>
                     <span>|</span>
                     <span>Lumin Lending, NMLS #2716106</span>
                 </div>
@@ -122,7 +122,7 @@ export default function FHALoansOrangeCountyPage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). FHA purchase applications rose <strong>18% year-over-year in Q4 2025</strong> nationally, driven by first-time buyers entering the market. Orange County&apos;s 2026 FHA loan limit of <strong>$1,209,750</strong> covers the majority of homes in the county. While retail banks often apply strict &quot;overlays,&quot; working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
+                        In 2026, <strong>FHA loans</strong> remain the primary financing vehicle for Orange County homebuyers who require lower down payments (<strong>3.5% minimum</strong>) and more flexible credit score requirements (<strong>580+</strong>). According to the Mortgage Bankers Association, FHA purchase applications rose <strong>21% year-over-year through January 2026</strong> nationally, driven by first-time buyers entering the market amid easing inventory constraints. The Urban Institute reports that <strong>FHA insured over 750,000 purchase loans in 2025</strong>, with California accounting for a disproportionate share of high-balance originations. Orange County&apos;s 2026 FHA loan limit of <strong>$1,209,750</strong> covers the majority of homes in the county. While retail banks often apply strict &quot;overlays&quot; that disqualify otherwise eligible borrowers, working with a <strong>wholesale mortgage broker</strong> allows you to access specialized FHA lenders who can approve higher debt-to-income ratios and provide institutional pricing that significantly reduces your monthly mortgage insurance (MIP) impact.
                     </p>
                 </div>
 
@@ -443,6 +443,8 @@ export default function FHALoansOrangeCountyPage() {
                         <li><a href="/blog/va-loans-orange-county-2026">VA Loans in Orange County 2026</a></li>
                         <li><a href="/blog/jumbo-loan-requirements-california-washington-2026">Jumbo Loan Requirements: CA &amp; WA</a></li>
                         <li><a href="/blog/non-qm-loans-wholesale-broker-2026">Non-QM Loans Through a Wholesale Broker</a></li>
+                        <li><a href="/blog/refinance-closing-costs-2026">Refinance Closing Costs Explained 2026</a></li>
+                        <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank Comparison 2026</a></li>
                     </ul>
                 </div>
 

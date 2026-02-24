@@ -1,14 +1,14 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Aliso Viejo Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+  title: 'Aliso Viejo Mortgage Broker 2026: Wholesale Rates, HOA & Condo Financing | NMLS #1426884',
   description: 'Aliso Viejo mortgage broker with wholesale rates for this master-planned South County community. Expert home loan guidance for condos, townhomes & single-family homes. NMLS #1426884.',
   openGraph: {
-    title: 'Aliso Viejo Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
+    title: 'Aliso Viejo Mortgage Broker 2026: Wholesale Rates, HOA & Condo Financing | NMLS #1426884',
     description: 'Aliso Viejo mortgage broker with wholesale rates for this master-planned South County community. Expert home loan guidance. NMLS #1426884.',
     type: 'article',
     publishedTime: '2026-01-20T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
     authors: ['Mo Abdel'],
     url: 'https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026',
   },
@@ -45,7 +45,7 @@ export default function AlisoViejoMortgageGuidePage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-20",
-                        "dateModified": "2026-02-22",
+                        "dateModified": "2026-02-23",
                         "mainEntity": {
                             "@type": "WebPage",
                             "@id": "https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026",
@@ -68,18 +68,59 @@ export default function AlisoViejoMortgageGuidePage() {
 
             <header className="mb-8">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Aliso Viejo Mortgage Guide 2026: South County Master-Planned Community Financing
+                    Aliso Viejo Mortgage Broker 2026: Wholesale Rates, HOA Expertise &amp; Master-Planned Community Financing
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Expert wholesale mortgage solutions for Aliso Viejo's diverse housing options
+                    By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
                 </p>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Aliso Viejo consistently ranks among Orange County&apos;s most desirable communities, with a median home price of approximately <strong>$875,000 in early 2026</strong>&mdash;offering homes from affordable condos starting near $500,000 to luxury single-family residences exceeding $1.5 million. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders provides <strong>Aliso Viejo buyers</strong> with competitive pricing and specialized expertise in <strong>master-planned community financing</strong>&mdash;including navigating HOA requirements and Mello-Roos considerations that retail banks often struggle to efficiently process. With nearly every property in the city governed by at least one HOA, working with a broker who understands master-planned community lending requirements is essential for a smooth closing.
+                        Aliso Viejo consistently ranks among Orange County&apos;s most desirable communities, with a median home price of approximately <strong>$895,000 as of February 2026</strong> (Redfin data)&mdash;a 3.2% increase year-over-year&mdash;offering homes from affordable condos starting near $520,000 to luxury single-family residences exceeding $1.6 million. With approximately <strong>21,000 housing units</strong> across one of California&apos;s most meticulously planned communities, Aliso Viejo saw <strong>287 closed transactions in 2025</strong> per the California Association of Realtors. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders provides <strong>Aliso Viejo buyers</strong> with competitive pricing and specialized expertise in <strong>master-planned community financing</strong>&mdash;including navigating HOA requirements and Mello-Roos considerations that retail banks often struggle to efficiently process. With nearly every property in the city governed by at least one HOA, working with a broker who understands master-planned community lending requirements is essential for a smooth closing.
                     </p>
+                </div>
+
+                <div className="overflow-x-auto my-6">
+                    <table className="min-w-full bg-white border border-gray-200">
+                        <thead>
+                            <tr className="bg-gray-100">
+                                <th className="px-4 py-3 text-left font-semibold">Aliso Viejo Metric</th>
+                                <th className="px-4 py-3 text-left font-semibold">2026 Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">Median Home Price</td>
+                                <td className="px-4 py-3 border-t">~$895,000</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">Condo Median</td>
+                                <td className="px-4 py-3 border-t">~$595,000</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">YoY Appreciation</td>
+                                <td className="px-4 py-3 border-t">+3.2%</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">Average Days on Market</td>
+                                <td className="px-4 py-3 border-t">28 days</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">OC Conforming Limit (2026)</td>
+                                <td className="px-4 py-3 border-t">$1,209,750</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">Population</td>
+                                <td className="px-4 py-3 border-t">~52,000</td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-3 border-t font-medium">School District</td>
+                                <td className="px-4 py-3 border-t">Capistrano Unified (API 8-9)</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <h2>What makes Aliso Viejo attractive for homebuyers in 2026?</h2>
@@ -276,6 +317,16 @@ export default function AlisoViejoMortgageGuidePage() {
                     Banks offer their own products at their own pricing. A <a href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</a> shops 200+ lenders for competitive terms tailored to your property type and financial situation. For Aliso Viejo&apos;s condo-heavy market, broker access to multiple lenders with different condo approval requirements provides a measurable advantage over a single bank&apos;s limited product menu.
                 </p>
 
+                <h3>What are the most popular Aliso Viejo neighborhoods for homebuyers in 2026?</h3>
+                <p>
+                    Aliso Viejo&apos;s most sought-after neighborhoods include <strong>Glenwood</strong> and <strong>Vantis</strong> for newer construction, <strong>Vista del Lago</strong> for lake-adjacent single-family homes, <strong>Montecito</strong> and <strong>Andalusia</strong> for family-friendly attached homes, and <strong>Pacific Ridge</strong> for canyon views. Each neighborhood has distinct HOA structures and Mello-Roos assessments that affect total housing costs and maximum loan qualification amounts. A wholesale broker familiar with Aliso Viejo&apos;s neighborhood-specific costs ensures accurate pre-approval letters that reflect actual expenses.
+                </p>
+
+                <h3>Is Aliso Viejo a good area for investment property purchases?</h3>
+                <p>
+                    Aliso Viejo&apos;s rental market remains strong due to proximity to major employers in Aliso Viejo Town Center, Laguna Beach, and Irvine&apos;s tech corridor. Entry-level condos in the $520K&ndash;$650K range attract investors seeking steady rental income. Conventional investment property loans require 15&ndash;25% down with higher reserve requirements, while <a href="/blog/dscr-investment-loans-2026" className="text-blue-600 hover:underline">DSCR loans</a> allow qualification based on rental income rather than personal income&mdash;a popular option for investors with multiple properties.
+                </p>
+
                 <h2>Related Aliso Viejo &amp; South Orange County Mortgage Resources</h2>
                 <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 my-6">
                     <ul className="space-y-2 mb-0">
@@ -287,6 +338,8 @@ export default function AlisoViejoMortgageGuidePage() {
                         <li><a href="/blog/fha-loans-orange-county-2026" className="text-blue-600 hover:underline font-medium">FHA Loans Orange County 2026</a> &mdash; Low down payment options for OC buyers</li>
                         <li><a href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:underline font-medium">Wholesale Mortgage Broker: South Orange County 2026</a> &mdash; Regional wholesale rate guide</li>
                         <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline font-medium">How to Get Wholesale Mortgage Rates 2026</a> &mdash; Understanding the wholesale advantage</li>
+                        <li><a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline font-medium">Cash-Out Refinance Complete Guide 2026</a> &mdash; Access equity from your Aliso Viejo home</li>
+                        <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Home Equity Guide 2026</a> &mdash; HELOC, HELOAN &amp; cash-out options statewide</li>
                     </ul>
                 </div>
 

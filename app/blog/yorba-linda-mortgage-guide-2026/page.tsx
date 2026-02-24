@@ -4,18 +4,18 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living | Mo Abdel',
+  title: 'Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity Guide | Mo Abdel',
   description: 'Yorba Linda mortgage broker serving the Land of Gracious Living since 2009. Jumbo loans, home equity, and wholesale rates from 200+ lenders. $1.3M median — get your free quote today. NMLS #1426884.',
   keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2026', 'wholesale mortgage Yorba Linda', 'Yorba Linda jumbo loan', 'Yorba Linda refinance rates', 'Yorba Linda FHA loan', 'Yorba Linda VA loan', 'Land of Gracious Living mortgage', 'Yorba Linda school district homes', 'Yorba Linda Estates financing', 'Black Gold Yorba Linda mortgage', 'Placentia-Yorba Linda USD homes', 'Yorba Linda property tax mortgage', 'self-employed mortgage Yorba Linda'],
   openGraph: {
-    title: 'Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living',
+    title: 'Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity Guide',
     description: 'Yorba Linda mortgage broker rates 2026: Access 200+ wholesale lenders for luxury home financing. Free rate comparison.',
     url: 'https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -68,6 +68,10 @@ const faqData = [
   {
     question: "What Mello-Roos districts affect Yorba Linda mortgage qualification?",
     answer: "Several Yorba Linda developments built after 1990 carry Mello-Roos Community Facilities District assessments ranging from $3,000 to $8,000 per year. These assessments are added to your monthly housing expense when calculating debt-to-income ratios, reducing your maximum loan qualification by $25,000-$65,000. Always request the Mello-Roos disclosure before making an offer."
+  },
+  {
+    question: "How do Yorba Linda equestrian properties affect mortgage financing?",
+    answer: "Yorba Linda's Horse Country properties with equestrian facilities, riding arenas, or large lots (1+ acres) require lenders experienced with rural-residential hybrid properties. Not all lenders appraise horse property improvements correctly. Wholesale broker access identifies the 15-20 lenders (from 200+) who properly underwrite equestrian estate financing, ensuring barn structures, riding arenas, and paddock improvements are factored into property valuation."
   }
 ];
 
@@ -81,7 +85,7 @@ export default function YorbaLindaMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Yorba Linda Mortgage Broker 2026: Wholesale Rates for Land of Gracious Living",
+            "headline": "Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity for the Land of Gracious Living",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -94,7 +98,7 @@ export default function YorbaLindaMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
@@ -145,7 +149,7 @@ export default function YorbaLindaMortgageGuide2026() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
           <p className="lead font-semibold text-gray-900 mb-3">
-            According to Mo Abdel, NMLS #1426884, Yorba Linda&apos;s &quot;Land of Gracious Living&quot; commands a median home price of $1.3M in early 2026 — with estate neighborhoods like Black Gold and Horse Country pushing well above $2M, making wholesale jumbo financing essential for most buyers.
+            According to Mo Abdel, NMLS #1426884, Yorba Linda&apos;s &quot;Land of Gracious Living&quot; commands a median home price of $1.3M in early 2026 &mdash; a 5.4% year-over-year increase per the California Association of Realtors &mdash; with estate neighborhoods like Black Gold and Horse Country pushing well above $2M, making wholesale jumbo financing essential for most buyers. Orange County overall recorded $4.2 billion in residential loan originations in Q4 2025 (CoreLogic), with North OC cities like Yorba Linda representing a disproportionate share of jumbo activity.
           </p>
           <ul className="text-sm text-gray-700 space-y-1 mb-0">
             <li>Yorba Linda median home price → reached $1.3M in Q1 2026 → 62% of purchases require jumbo financing</li>
@@ -164,11 +168,11 @@ export default function YorbaLindaMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Yorba Linda Mortgage Broker 2026: Wholesale Rates for the Land of Gracious Living
+              Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates &amp; Home Equity for the Land of Gracious Living
             </h1>
 
             <p className="text-sm text-slate-400 mb-4">
-              By Mo Abdel, NMLS #1426884 — Lumin Lending, NMLS #2716106 | Last updated February 22, 2026
+              By Mo Abdel, NMLS #1426884 — Lumin Lending, NMLS #2716106 | Last updated February 23, 2026
             </p>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
@@ -596,6 +600,12 @@ export default function YorbaLindaMortgageGuide2026() {
             </Link>
             <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Wholesale vs. Retail Mortgage Comparison
+            </Link>
+            <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → First-Time Homebuyer Guide Orange County 2026
+            </Link>
+            <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Cash-Out Refinance: How It Works 2026
             </Link>
           </div>
         </section>

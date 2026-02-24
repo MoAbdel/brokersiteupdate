@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Urban Seattle Premium Home Equity: Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island HELOC Guide [2026] | Mo Abdel',
+  title: 'Seattle Home Equity 2026: Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island HELOC Guide | Mo Abdel',
   description: 'Home equity solutions for Seattle&apos;s premium urban neighborhoods and Bainbridge Island. HELOC, HELOAN, cash-out refinance strategies for Capitol Hill ($750K), Queen Anne ($950K), Magnolia ($1.1M), Madison Park ($1.5M) & Bainbridge Island ($1.3M). NMLS #1426884.',
   keywords: [
     'Seattle HELOC',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-14T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -112,7 +112,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
     },
     datePublished: '2026-02-14',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-urban-seattle-premium-2026',
     description: 'Urban Seattle premium home equity guide covering HELOC, HELOAN, and cash-out refinance for Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island homeowners.',
     about: {
@@ -229,7 +229,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           </p>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
             <span>By Mo Abdel, NMLS #1426884</span><span>|</span>
-            <span>Updated February 22, 2026</span><span>|</span>
+            <span>Updated February 23, 2026</span><span>|</span>
             <span>Lumin Lending, NMLS #2716106</span>
           </div>
         </header>
@@ -245,7 +245,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026, representing the Pacific Northwest&rsquo;s highest concentration of accessible residential equity. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and the Seattle metro area adding 12,400 tech jobs in 2025 alone (Washington Employment Security Department), RSU income creates uniquely strong qualification profiles. Homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
+              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026, representing the Pacific Northwest&rsquo;s highest concentration of accessible residential equity. King County home prices rose 5.7% year-over-year through January 2026 (NWMLS), with premium neighborhoods outpacing the county average. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and the Seattle metro area adding 12,400 tech jobs in 2025 alone (Washington Employment Security Department), RSU income creates uniquely strong qualification profiles. Homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
             </p>
           </div>
 
@@ -884,6 +884,8 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               <li><Link href="/blog/home-equity-greater-seattle-guide-2026" className="text-blue-700 underline">Greater Seattle Home Equity Guide</Link> &mdash; Regional pillar covering all King County communities.</li>
               <li><Link href="/blog/home-equity-seattle-eastside-guide-2026" className="text-blue-700 underline">Seattle Eastside Home Equity Guide</Link> &mdash; Bellevue, Kirkland, Redmond, and Eastside corridor equity strategies.</li>
               <li><Link href="/blog/home-equity-south-sound-affluent-2026" className="text-blue-700 underline">South Sound Affluent Home Equity Guide</Link> &mdash; Tacoma, Gig Harbor, and South Sound equity opportunities.</li>
+              <li><Link href="/blog/reverse-mortgage-greater-seattle-guide-2026" className="text-blue-700 underline">Greater Seattle Reverse Mortgage Guide 2026</Link> &mdash; HECM and jumbo reverse options for King County seniors 62+.</li>
+              <li><Link href="/blog/home-equity-sammamish-wa-2026" className="text-blue-700 underline">Sammamish Home Equity Guide 2026</Link> &mdash; Tech corridor HELOC strategies for Sammamish plateau homeowners.</li>
             </ul>
           </div>
 

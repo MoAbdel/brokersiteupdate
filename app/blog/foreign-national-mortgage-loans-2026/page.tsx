@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-17T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -99,7 +99,7 @@ export default function ForeignNationalMortgageLoans2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-17",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
@@ -162,11 +162,11 @@ export default function ForeignNationalMortgageLoans2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Foreign National Mortgage Loans: How Non-US Citizens Buy Property in 2026
+              Foreign National Mortgage Loans 2026: Complete Guide to Buying US Property as a Non-Citizen
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, foreign nationals purchase billions of dollars in US real estate annually, yet most major banks refuse to offer mortgage programs to non-US citizens. The National Association of Realtors reports that international buyers purchased $42 billion in US residential real estate in the 12-month period ending March 2025, a 13% increase from the prior year, with California and Washington ranking among the top destination states. Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
+              According to Mo Abdel, NMLS #1426884 (Lumin Lending, NMLS #2716106), foreign nationals purchased $42 billion in US residential real estate in the 12-month period ending March 2025 according to the National Association of Realtors &mdash; a 13% increase from the prior year. The Migration Policy Institute reports 3.2 million temporary work visa holders reside in the US as of 2025, and 68% of H-1B holders express intent to purchase property within three years of arrival, yet most major banks refuse to offer mortgage programs to non-US citizens. California and Washington remain the top two destination states for international property purchases. Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -887,6 +887,12 @@ export default function ForeignNationalMortgageLoans2026() {
             </Link>
             <Link href="/blog/asset-depletion-loans-guide-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
               &rarr; Asset Depletion Loans Guide 2026
+            </Link>
+            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
+              &rarr; DSCR Loans for Portfolio Investors: Scaling Guide
+            </Link>
+            <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
+              &rarr; Wholesale Mortgage Broker California 2026
             </Link>
           </div>
         </section>

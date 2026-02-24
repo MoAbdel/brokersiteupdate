@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-16T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106' }],
 };
@@ -132,7 +132,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-16",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
@@ -253,15 +253,15 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
               <span className="text-green-400 text-sm font-medium">Rancho Santa Margarita Mortgage Broker &middot; Lumin Lending NMLS #2716106</span>
             </div>
 
-            <p className="text-slate-400 text-sm mb-4">Last updated: February 22, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
+            <p className="text-slate-400 text-sm mb-4">Last updated: February 23, 2026 &middot; By Mo Abdel, NMLS #1426884</p>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates &amp; Neighborhood Guide
+              Rancho Santa Margarita Mortgage Broker 2026: RSM Home Loans, Rates &amp; Village-by-Village Guide
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-summary text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $850,000 median home price sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. With 4.2% annual appreciation over the past 5 years and inventory averaging 18&ndash;22 days on market in Q1 2026, RSM remains one of South Orange County&apos;s strongest family markets. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25&ndash;0.5% below every retail bank in the area &mdash; saving RSM families $150&ndash;$300 per month from day one.
+              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $865,000 median home price (up from $850K in late 2025) sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. With 4.2% annual appreciation over the past 5 years and inventory averaging 16&ndash;20 days on market in February 2026, RSM remains one of South Orange County&apos;s strongest family markets. The California Association of Realtors reports Orange County housing affordability at 16% of households in Q4 2025, making RSM&apos;s relative affordability even more attractive. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25&ndash;0.5% below every retail bank in the area &mdash; saving RSM families $150&ndash;$300 per month from day one.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -1214,6 +1214,12 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <Link href="/guides/orange-county-home-buyer-guide" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Complete OC Home Buyer Guide
             </Link>
+            <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → DSCR Loans for Portfolio Investors
+            </Link>
+            <Link href="/blog/coto-de-caza-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              → Coto de Caza Mortgage Guide 2026
+            </Link>
           </div>
         </section>
 
@@ -1223,7 +1229,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p>
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 22, 2026.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Rates, terms, and programs are subject to change without notice. Updated February 23, 2026.
           </p>
         </section>
       </article>

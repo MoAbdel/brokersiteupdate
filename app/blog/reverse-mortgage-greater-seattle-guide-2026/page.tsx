@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Greater Seattle Reverse Mortgage: Urban & Suburban King County HECM Guide [2026] | Mo Abdel',
+  title: 'Greater Seattle Reverse Mortgage 2026: King County HECM, Jumbo & Purchase Guide | Mo Abdel',
   description: 'Greater Seattle reverse mortgage guide covering HECM for Seattle neighborhoods, Bainbridge Island, Shoreline, Lake Forest Park, Kenmore & Snoqualmie. NMLS #1426884.',
   keywords: [
     'reverse mortgage Greater Seattle',
@@ -40,7 +40,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Greater Seattle Reverse Mortgage: Urban & Suburban King County HECM Guide [2026]',
+    headline: 'Greater Seattle Reverse Mortgage 2026: King County HECM, Jumbo Reverse & HECM for Purchase Guide',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -55,7 +55,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-08',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     description: 'Comprehensive reverse mortgage guide for Greater Seattle covering HECM, jumbo reverse, and HECM for Purchase across urban and suburban King County.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/reverse-mortgage-greater-seattle-guide-2026',
     about: [
@@ -183,10 +183,10 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Greater Seattle Reverse Mortgage: Urban &amp; Suburban King County HECM Guide [2026]
+            Greater Seattle Reverse Mortgage 2026: King County HECM, Jumbo Reverse &amp; HECM for Purchase Guide
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HECM, jumbo reverse &amp; HECM for Purchase across Seattle &amp; King County | Licensed in CA &amp; WA
@@ -212,7 +212,8 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             <p className="text-lg font-semibold text-blue-900 mb-2">Greater Seattle Reverse Mortgage Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
               <li>2026 HECM lending limit: $1,209,750 &mdash; the highest in program history, covering most Greater Seattle single-family homes</li>
-              <li>Approximately 142,000 King County homeowners are age 62+ with median home equity exceeding $550,000 &mdash; making them eligible for HECM reverse mortgages</li>
+              <li>Approximately 142,000 King County homeowners are age 62+ with median home equity exceeding $550,000 &mdash; making them eligible for HECM reverse mortgages (U.S. Census Bureau, 2025 ACS estimates)</li>
+              <li>King County median home values reached $852,000 in January 2026, a 5.7% year-over-year increase according to the Northwest Multiple Listing Service (NWMLS)</li>
               <li>Washington State has no state income tax, meaning reverse mortgage proceeds and any returns from deployed funds face zero state taxation</li>
               <li>Seattle condo reverse mortgages are available through FHA-approved buildings and Single Unit Approval (SUA) for non-approved complexes</li>
               <li>Bainbridge Island&apos;s $1,300,000 median home value exceeds the HECM cap, making jumbo reverse mortgage products essential for island seniors</li>
@@ -786,6 +787,19 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Greater Seattle &amp; King County communities</p>
             <p className="text-sm">Wholesale broker with access to 200+ HECM, jumbo reverse &amp; HECM for Purchase lenders</p>
+          </div>
+
+          {/* Related Resources */}
+          <div className="bg-gray-50 p-6 rounded-xl my-8">
+            <h3 className="mt-0 text-lg font-semibold">Related Reverse Mortgage &amp; Home Equity Resources</h3>
+            <ul className="space-y-2">
+              <li><a href="/blog/reverse-mortgage-washington-guide-2026" className="text-blue-700 underline">Washington State Reverse Mortgage Guide 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-seattle-eastside-wa-2026" className="text-blue-700 underline">Seattle Eastside Reverse Mortgage Guide 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-suburban-king-county-2026" className="text-blue-700 underline">Suburban King County Reverse Mortgage 2026</a></li>
+              <li><a href="/blog/home-equity-urban-seattle-premium-2026" className="text-blue-700 underline">Urban Seattle Home Equity: HELOC &amp; Cash-Out 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage Complete Guide 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
+            </ul>
           </div>
 
           {/* Disclaimer */}

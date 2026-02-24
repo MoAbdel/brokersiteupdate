@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Jumbo Loans Orange County 2026: $1.15M+ Limits, 10% Down & Wholesale Rates | Mo Abdel',
+  title: 'Jumbo Loans Orange County 2026: Above $1,209,750 Limit, 10% Down & Wholesale Rates | Mo Abdel',
   description: 'Orange County jumbo loans above $1,209,750 with 10% down through wholesale channels. Compare jumbo vs conforming, save $5K-$18K/yr over retail banks. 200+ lenders. NMLS #1426884.',
   keywords: [
     'jumbo loans Orange County',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-01-06T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
@@ -65,7 +65,7 @@ export default function JumboLoansOrangeCountyPage() {
                             "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
                         },
                         "datePublished": "2026-01-06",
-                        "dateModified": "2026-02-22",
+                        "dateModified": "2026-02-23",
                         "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })
                 }}
@@ -214,13 +214,13 @@ export default function JumboLoansOrangeCountyPage() {
 
             <header className="mb-8">
                 <div className="inline-flex items-center gap-2 bg-blue-50 rounded-full px-4 py-1.5 mb-4 border border-blue-100">
-                    <span className="text-blue-700 text-sm font-medium">Last updated February 22, 2026 | Orange County Jumbo Loan Expert</span>
+                    <span className="text-blue-700 text-sm font-medium">Last updated February 23, 2026 | Orange County Jumbo Loan Expert</span>
                 </div>
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                    Jumbo Loans in Orange County 2026: 10% Down, Wholesale Rates &amp; $1.15M+ Financing
+                    Jumbo Loans Orange County 2026: Financing Above $1,209,750, 10% Down &amp; Wholesale Rates
                 </h1>
                 <p className="text-lg text-gray-600 mb-4">
-                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million and 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), wholesale jumbo access is no longer optional for serious OC buyers.
+                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million, 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), and the California Association of Realtors reporting that OC luxury home sales above $2 million rose 18% in Q4 2025 versus Q4 2024, wholesale jumbo access is no longer optional for serious OC buyers.
                 </p>
                 <p className="text-sm text-gray-500">
                     By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>
@@ -796,6 +796,12 @@ export default function JumboLoansOrangeCountyPage() {
                         </Link>
                         <Link href="/blog/first-time-homebuyer-guide-orange-county-2026" className="text-blue-600 hover:underline text-sm">
                             → First-Time Homebuyer Guide OC
+                        </Link>
+                        <Link href="/blog/interest-only-mortgage-loans-2026" className="text-blue-600 hover:underline text-sm">
+                            → Interest-Only Mortgage Loans Guide 2026
+                        </Link>
+                        <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline text-sm">
+                            → DSCR Loan Requirements 2026
                         </Link>
                     </div>
                 </div>

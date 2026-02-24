@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Equity Washington Guide: HELOC, HELOAN & Cash-Out [2026]',
+  title: 'Home Equity Washington State: HELOC, HELOAN & Cash-Out Refinance Guide [2026]',
   description: 'Home equity Washington guide covering HELOC, HELOAN, and cash-out refinance. 4 regions, qualification tips, no state income tax advantage. NMLS #1426884.',
   keywords: [
     'home equity Washington',
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     'home equity no income tax Washington',
   ],
   openGraph: {
-    title: 'Home Equity Washington Guide: HELOC, HELOAN & Cash-Out [2026]',
+    title: 'Home Equity Washington State: HELOC, HELOAN & Cash-Out Refinance Guide [2026]',
     description: 'Complete home equity guide for Washington State homeowners. HELOC, HELOAN, cash-out refi across 4 regions.',
     url: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-06T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
@@ -37,11 +37,11 @@ export default function HomeEquityWashingtonGuide() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Home Equity Washington Guide: HELOC, HELOAN & Cash-Out [2026]',
+    headline: 'Home Equity Washington State: HELOC, HELOAN & Cash-Out Refinance Guide [2026]',
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-06',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
   };
 
@@ -175,21 +175,21 @@ export default function HomeEquityWashingtonGuide() {
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity Washington Guide: HELOC, HELOAN &amp; Cash-Out [2026]
+            Home Equity Washington State: HELOC, HELOAN &amp; Cash-Out Refinance Guide [2026]
           </h1>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
         </header>
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Washington State homeowners hold an estimated <strong>$180 billion+ in tappable home equity</strong>&mdash;the largest equity reserve in the Pacific Northwest. With statewide median home values exceeding $640,000, Seattle-area properties averaging well above $1 million, and the Washington Center for Real Estate Research reporting 4.2% year-over-year appreciation statewide through Q4 2025, equity positions continue to grow. Combined with Washington&rsquo;s zero state income tax&mdash;meaning returns from equity-funded investments face no state-level taxation&mdash;the state offers one of the most favorable environments in the country for strategic equity deployment. Three primary products let homeowners convert that equity into usable capital: HELOCs, home equity loans (HELOANs), and cash-out refinances. As a wholesale mortgage broker licensed in Washington, I compare rates and programs from over 200 lenders to find the best home equity solution for each borrower&apos;s situation.
+            Washington State homeowners hold an estimated <strong>$185 billion+ in tappable home equity</strong>&mdash;the largest equity reserve in the Pacific Northwest, according to ICE Mortgage Technology data through Q4 2025. With statewide median home values exceeding $650,000, Seattle-area properties averaging well above $1 million, and the Washington Center for Real Estate Research reporting 4.8% year-over-year appreciation statewide through January 2026, equity positions continue to accelerate. The state added an estimated 28,000 new tech jobs in 2025 alone, per the Washington Employment Security Department, further supporting housing demand. Combined with Washington&rsquo;s zero state income tax&mdash;meaning returns from equity-funded investments face no state-level taxation&mdash;the state offers one of the most favorable environments in the country for strategic equity deployment. Three primary products let homeowners convert that equity into usable capital: HELOCs, home equity loans (HELOANs), and cash-out refinances. As a wholesale mortgage broker licensed in Washington, I compare rates and programs from over 200 lenders to find the most competitive home equity solution for each borrower&apos;s situation.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">Washington Home Equity Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
-              <li><strong>Statewide Median Home Value:</strong> $640,000+ (ranges from $400K to $5M+ by city)</li>
-              <li><strong>Estimated Tappable Equity:</strong> $180 billion+ across Washington homeowners</li>
+              <li><strong>Statewide Median Home Value:</strong> $650,000+ (ranges from $400K to $5M+ by city)</li>
+              <li><strong>Estimated Tappable Equity:</strong> $185 billion+ across Washington homeowners</li>
               <li><strong>State Income Tax:</strong> None — equity interest deductions apply at federal level only</li>
               <li><strong>Typical CLTV Allowed:</strong> 80-90% for primary residences (varies by lender)</li>
               <li><strong>Jumbo HELOC Availability:</strong> Common for Eastside, waterfront, and Seattle properties</li>
@@ -734,6 +734,20 @@ export default function HomeEquityWashingtonGuide() {
                 Most lenders require an appraisal for equity access products, though the type varies. HELOCs under $250,000 may qualify for a desktop or drive-by appraisal, reducing cost and time. Larger amounts, waterfront properties, and unique homes require full interior appraisals. Some lenders accept automated valuation models (AVMs) for straightforward properties in well-documented markets like Bellevue or Seattle.
               </p>
             </div>
+
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-2">Can Washington homeowners use HELOC funds for ADU construction?</h3>
+              <p className="mb-0">
+                Yes. Washington State enacted HB 1337 expanding ADU (Accessory Dwelling Unit) construction rights across most residential zones. A HELOC is an ideal funding mechanism for ADU projects because you draw funds in stages as construction progresses, paying interest only on amounts drawn. Many Seattle, Bellevue, and Kirkland homeowners are tapping HELOCs in the $150,000&ndash;$400,000 range for detached ADUs that generate rental income and increase overall property value. A wholesale broker identifies HELOC lenders who factor projected ADU rental income into qualification.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-2">How does the Washington capital gains excise tax affect home equity decisions?</h3>
+              <p className="mb-0">
+                Washington&apos;s capital gains excise tax applies to gains above $250,000 on certain capital assets, but real estate sales are exempt. However, this tax makes HELOC-funded investment strategies more attractive: rather than selling appreciated stock to fund large expenses (triggering capital gains taxes), Washington homeowners access equity at HELOC interest rates and preserve their investment positions. This strategy is especially common among tech employees in the Eastside corridor with large RSU holdings.
+              </p>
+            </div>
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Expert Summary: Maximizing Home Equity in Washington State</h2>
@@ -781,6 +795,16 @@ export default function HomeEquityWashingtonGuide() {
               <li>
                 <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
                   California Home Equity Guide: Compare WA vs. CA Equity Strategies
+                </a>
+              </li>
+              <li>
+                <a href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
+                  Cash-Out Refinance Complete Guide 2026: Requirements, Process &amp; Comparison
+                </a>
+              </li>
+              <li>
+                <a href="/blog/home-equity-refinancing-complete-pillar-2026" className="text-blue-600 hover:text-blue-800 font-medium">
+                  Home Equity Refinancing Complete Pillar: All Products Compared
                 </a>
               </li>
             </ul>

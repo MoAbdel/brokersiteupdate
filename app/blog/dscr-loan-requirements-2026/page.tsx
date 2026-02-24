@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide | Mo Abdel',
+  title: 'DSCR Loan Requirements 2026: Minimum Ratios, Credit Scores & Down Payment Guide | Mo Abdel',
   description: 'DSCR loan requirements 2026: Complete guide to qualification ratios, credit scores, down payments, reserves, and property types. Wholesale access to 200+ DSCR lenders. NMLS #1426884.',
   keywords: ['dscr loan requirements 2026', 'DSCR loan qualifications', 'DSCR ratio requirements', 'DSCR loan down payment', 'DSCR credit score requirements', 'investment property loan requirements'],
   openGraph: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-15T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -85,7 +85,7 @@ export default function DSCRLoanRequirements2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide",
+            "headline": "DSCR Loan Requirements 2026: Minimum Ratios, Credit Scores & Down Payment Guide",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -99,7 +99,7 @@ export default function DSCRLoanRequirements2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-15",
-            "dateModified": "2026-02-22",
+            "dateModified": "2026-02-23",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
@@ -147,11 +147,11 @@ export default function DSCRLoanRequirements2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loan Requirements 2026: Rates, Ratios & Down Payment Guide
+              DSCR Loan Requirements 2026: Minimum Ratios, Credit Scores &amp; Down Payment Guide
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, understanding DSCR loan requirements in 2026 is the difference between closing a profitable investment and missing the opportunity entirely. DSCR origination volume surged 47% year-over-year in H2 2025 according to CoreLogic, driven by investors seeking income-based qualification. DSCR qualification criteria vary dramatically between lenders &mdash; minimum ratios range from 0.75 to 1.25, credit score floors span 620 to 700, and down payment requirements shift from 15% to 30% depending on the lender and scenario. A wholesale broker comparing 200+ DSCR programs finds the requirements that match your specific investor profile.
+              According to Mo Abdel, NMLS #1426884, understanding DSCR loan requirements in 2026 is the difference between closing a profitable investment and missing the opportunity entirely. DSCR origination volume surged 47% year-over-year in H2 2025 according to CoreLogic, with non-QM production (including DSCR) reaching $26.4 billion in Q3 2025 alone. The National Association of Realtors reports that investor purchases accounted for 21% of all home sales in January 2026 &mdash; and DSCR loans are the primary financing tool for these transactions. DSCR qualification criteria vary dramatically between lenders: minimum ratios range from 0.75 to 1.25, credit score floors span 620 to 700, and down payment requirements shift from 15% to 30% depending on the lender and scenario. A wholesale broker comparing 200+ DSCR programs finds the requirements that match your specific investor profile.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -774,6 +774,12 @@ export default function DSCRLoanRequirements2026() {
             </Link>
             <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Bank Statement Loans for Self-Employed 2026
+            </Link>
+            <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Bridge Loans vs DSCR for Investment Properties
+            </Link>
+            <Link href="/blog/fix-and-flip-loans-wholesale-broker-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Fix-and-Flip Loans Through Wholesale Brokers
             </Link>
           </div>
         </section>

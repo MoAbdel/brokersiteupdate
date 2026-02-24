@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-11T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026',
@@ -57,7 +57,7 @@ export default function HomeEquitySacramentoAffluent2026() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-02-11',
-    dateModified: '2026-02-22',
+    dateModified: '2026-02-23',
     description: 'Comprehensive home equity guide for Sacramento affluent communities covering HELOC, HELOAN, and cash-out refinance for El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis homeowners.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026',
     about: [
@@ -188,10 +188,10 @@ export default function HomeEquitySacramentoAffluent2026() {
 
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Home Equity in El Dorado Hills, Granite Bay &amp; Sacramento Affluent Communities: HELOC &amp; Cash-Out [2026]
+            Sacramento Affluent Home Equity 2026: HELOC &amp; Cash-Out for El Dorado Hills, Granite Bay, Folsom &amp; Roseville
           </h1>
           <p className="text-gray-600">
-            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026
+            By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
             HELOC, HELOAN &amp; cash-out refinance for Sacramento affluent communities | Licensed in CA &amp; WA
@@ -216,9 +216,10 @@ export default function HomeEquitySacramentoAffluent2026() {
           <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8 citation-hook">
             <p className="text-lg font-semibold text-blue-900 mb-2">Sacramento Affluent Communities Home Equity Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
-              <li>Sacramento&apos;s affluent eastern suburbs hold an estimated $18.6 billion in combined residential equity across El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; fueled by 35&ndash;52% five-year appreciation and Bay Area equity migration</li>
-              <li>Average tappable equity per homeowner ranges from $220K in Roseville to $480K+ in Granite Bay, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
+              <li>Sacramento&apos;s affluent eastern suburbs hold an estimated $19.2 billion in combined residential equity across El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; fueled by 35&ndash;52% five-year appreciation and Bay Area equity migration</li>
+              <li>Average tappable equity per homeowner ranges from $225K in Roseville to $490K+ in Granite Bay, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
               <li>Sacramento metro HELOC originations reached 4,120 in Q4 2025, a 34% year-over-year increase driven by Bay Area transplant equity positions, Intel campus employment growth, and state government compensation increases (CoreLogic)</li>
+              <li>El Dorado Hills median home values reached $975K in January 2026 (up from $955K in mid-2025), while Granite Bay properties in the Oak Ridge corridor now consistently appraise above $1.15M per Placer County MLS data</li>
               <li>Bay Area transplants purchasing in El Dorado Hills and Granite Bay bring average down payments of $350K&ndash;$600K from Bay Area home equity, creating immediate high-equity positions in Sacramento&apos;s luxury suburban market</li>
             </ul>
           </div>
@@ -772,7 +773,7 @@ export default function HomeEquitySacramentoAffluent2026() {
           </div>
 
           <p>
-            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a>, and <a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline">Using a HELOC for College Tuition</a>.
+            For detailed product comparisons, see our <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, <a href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Guide</a>, <a href="/blog/home-equity-college-tuition-heloc-2026" className="text-blue-600 hover:underline">Using a HELOC for College Tuition</a>, and <a href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOAN vs Cash-Out Refinance</a>. Sacramento homeowners considering reverse mortgage options can explore our <a href="/blog/reverse-mortgage-sacramento-affluent-2026" className="text-blue-600 hover:underline">Sacramento affluent reverse mortgage guide</a>.
           </p>
 
           {/* Expert Summary + CTA */}

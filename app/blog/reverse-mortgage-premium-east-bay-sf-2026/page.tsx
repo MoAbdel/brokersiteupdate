@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage in San Francisco, Piedmont, Orinda, Lafayette & Moraga [2026] | Mo Abdel',
+  title: 'Reverse Mortgage San Francisco, Piedmont, Orinda, Lafayette & Moraga: HECM & Jumbo [2026]',
   description: 'Reverse mortgage guide for San Francisco, Piedmont, Orinda, Lafayette & Moraga seniors 2026. HECM and jumbo reverse mortgage options for homes $1.5M-$2.5M+. Urban luxury condos to hilltop estates. NMLS #1426884.',
   keywords: [
     'reverse mortgage San Francisco', 'reverse mortgage Piedmont CA', 'reverse mortgage Orinda CA',
@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     'senior home equity East Bay', 'HECM limit 2026',
   ],
   openGraph: {
-    title: 'Reverse Mortgage in San Francisco, Piedmont, Orinda, Lafayette & Moraga [2026]',
+    title: 'Reverse Mortgage San Francisco, Piedmont, Orinda, Lafayette & Moraga: HECM & Jumbo [2026]',
     description: 'HECM and jumbo reverse mortgage options for premium East Bay & SF seniors. Urban luxury condos to Lamorinda hilltop estates. Homes $1.5M-$2.5M+.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-12T00:00:00Z',
-    modifiedTime: '2026-02-22T00:00:00Z',
+    modifiedTime: '2026-02-23T00:00:00Z',
   },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026',
@@ -104,7 +104,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-12',
-            dateModified: '2026-02-22',
+            dateModified: '2026-02-23',
             description: 'Complete reverse mortgage guide for San Francisco, Piedmont, Orinda, Lafayette, and Moraga seniors covering HECM and proprietary jumbo options for urban luxury condos and Lamorinda hilltop estates.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -226,7 +226,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           <p className="text-lg text-gray-600 mb-2">
             HECM and jumbo reverse mortgage options for urban luxury condos and Lamorinda hilltop estates &mdash; homes $1.5M&ndash;$2.5M+
           </p>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 22, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
         </header>
 
           <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -246,7 +246,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>72,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$94 billion in home equity</strong>, based on 2026 county assessor data and U.S. Census demographic projections. Nationally, reverse mortgage endorsements rose in the second half of 2025 as seniors increasingly sought alternatives to selling their homes amid high housing costs. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. Bay Area home values appreciated an average of <strong>3.5% year-over-year through Q4 2025</strong>, further widening the gap between actual property values and the HECM cap. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3 million Pacific Heights condo with TIC conversion complications to a $2.5 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five premium East Bay and San Francisco communities &mdash; San Francisco, Piedmont, Orinda, Lafayette, and Moraga &mdash; are home to an estimated <strong>73,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$98 billion in home equity</strong>, based on January 2026 county assessor data and U.S. Census American Community Survey projections. Nationally, HUD reported <strong>33,400 HECM endorsements in fiscal year 2025</strong>, a 12% increase over the prior year, as seniors increasingly sought alternatives to selling their homes amid high housing costs. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary jumbo reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments. Bay Area home values appreciated an average of <strong>3.8% year-over-year through January 2026</strong> (CoreLogic Bay Area Index), further widening the gap between actual property values and the HECM cap. &quot;This corridor spans the most diverse reverse mortgage landscape in Northern California &mdash; from a $3.2 million Pacific Heights condo with TIC conversion complications to a $2.6 million Piedmont estate surrounded entirely by Oakland. Each property demands a different strategy, and that is exactly the value a wholesale broker delivers,&quot; Abdel explains.
             </p>
           </div>
 
@@ -772,7 +772,7 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
           </div>
 
           <p>
-            The five premium East Bay and San Francisco communities contain an estimated 72,000 homeowners aged 62 and older, representing approximately $94 billion in cumulative home equity. San Francisco&apos;s large senior population dominates the numbers, but the Lamorinda corridor (Orinda, Lafayette, Moraga) contains a disproportionately high concentration of equity-rich homeowners on a per-capita basis. Year-over-year appreciation averaged 3.5% across these markets in 2025, with Piedmont leading at 4.2% driven by continued school-district demand and limited housing stock within the city&apos;s 1.7 square miles.
+            The five premium East Bay and San Francisco communities contain an estimated 73,500 homeowners aged 62 and older, representing approximately $98 billion in cumulative home equity. San Francisco&apos;s large senior population dominates the numbers, but the Lamorinda corridor (Orinda, Lafayette, Moraga) contains a disproportionately high concentration of equity-rich homeowners on a per-capita basis. Year-over-year appreciation averaged 3.8% across these markets through January 2026, with Piedmont leading at 4.5% driven by continued school-district demand and limited housing stock within the city&apos;s 1.7 square miles.
           </p>
 
           {/* ========== PEOPLE ALSO ASK ========== */}
@@ -803,6 +803,12 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
 
           <h3>Can both spouses be on a reverse mortgage if one is under 62?</h3>
           <p><strong>The borrower must be 62 or older for HECM. A younger non-borrowing spouse receives HUD protections to remain in the home.</strong></p>
+
+          <h3>How does the HECM line of credit growth feature work for East Bay homeowners?</h3>
+          <p><strong>The unused portion of a HECM line of credit grows annually at the same rate as the loan interest rate, increasing your available borrowing capacity over time.</strong> For a Piedmont homeowner who draws only $200,000 of an available $600,000 credit line, the remaining $400,000 grows each year&mdash;potentially reaching $500,000+ within several years. This feature makes the HECM line of credit a powerful long-term planning tool for Bay Area seniors.</p>
+
+          <h3>Can I use a reverse mortgage to pay off my existing mortgage on my Orinda home?</h3>
+          <p><strong>Yes. One of the most common uses of a reverse mortgage is paying off an existing traditional mortgage, eliminating monthly payments while remaining in the home.</strong> An Orinda homeowner with $350,000 remaining on their conventional mortgage can use HECM proceeds to pay it off entirely, freeing that monthly payment for other retirement expenses.</p>
 
           {/* ========== FAQ ========== */}
           <h2 id="faq" className="text-2xl font-bold mt-10 mb-4">
@@ -845,6 +851,8 @@ export default function ReverseMortgagePremiumEastBaySF2026() {
               <li><a href="/blog/hecm-for-purchase-2026" className="text-blue-700 underline">HECM for Purchase: Buy a Home with a Reverse Mortgage</a></li>
               <li><a href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-700 underline">Reverse Mortgage &amp; Inheritance: What Heirs Need to Know</a></li>
               <li><a href="/blog/hecm-counseling-requirements-2026" className="text-blue-700 underline">HECM Counseling Requirements: What to Expect</a></li>
+              <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-700 underline">California Home Equity Guide 2026: HELOC, HELOAN &amp; Cash-Out Statewide</a></li>
+              <li><a href="/blog/reverse-mortgage-vs-downsizing-seniors-2026" className="text-blue-700 underline">Reverse Mortgage vs. Downsizing: Which Is Right for Bay Area Seniors?</a></li>
             </ul>
           </div>
 

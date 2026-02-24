@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage in Culver City, Playa del Rey, Marina del Rey & Westchester [2026] | Mo Abdel',
-  description: 'Reverse mortgage guide for Culver City, Playa del Rey, Marina del Rey & Westchester seniors 2026. HECM and proprietary options for entertainment industry and creative professional financing. NMLS #1426884.',
+  title: 'Reverse Mortgage LA Westside 2026: Culver City, Playa del Rey, Marina del Rey & Westchester HECM Guide | Mo Abdel',
+  description: 'LA Westside reverse mortgage guide 2026: HECM and proprietary options for Culver City, Playa del Rey, Marina del Rey & Westchester seniors. Entertainment industry retiree financing, $1.1M-$1.3M homes. NMLS #1426884.',
   keywords: [
     'reverse mortgage Culver City CA', 'reverse mortgage Playa del Rey CA', 'reverse mortgage Marina del Rey CA',
     'reverse mortgage Westchester CA', 'HECM LA Westside', 'reverse mortgage entertainment industry',
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     'senior home equity Westside LA', 'HECM limit 2026',
   ],
   openGraph: {
-    title: 'Reverse Mortgage in Culver City, Playa del Rey, Marina del Rey & Westchester [2026]',
-    description: 'HECM and jumbo reverse mortgage options for LA Westside luxury seniors. Entertainment hub to coastal quiet luxury. Homes $1.1M-$1.3M+.',
+    title: 'LA Westside Reverse Mortgage 2026: Culver City, Playa del Rey, Marina del Rey & Westchester HECM Guide',
+    description: 'HECM and jumbo reverse mortgage for LA Westside seniors. Culver City entertainment retirees, Marina del Rey waterfront condos, Playa del Rey bluff homes. $1.1M-$1.3M+.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-luxury-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -87,7 +87,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Reverse Mortgage in Culver City, Playa del Rey, Marina del Rey & Westchester [2026]',
+            headline: 'LA Westside Reverse Mortgage 2026: HECM & Jumbo Options for Culver City, Playa del Rey, Marina del Rey & Westchester Seniors',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -102,7 +102,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
               logo: 'https://www.mothebroker.com/images/mo-logo-white.webp',
             },
             datePublished: '2026-02-12',
-            dateModified: '2026-02-12',
+            dateModified: '2026-02-23',
             description: 'Complete reverse mortgage guide for Culver City, Playa del Rey, Marina del Rey, and Westchester seniors covering HECM and proprietary options for entertainment industry and creative professional financing.',
             mainEntityOfPage: {
               '@type': 'WebPage',
@@ -218,12 +218,12 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
             <span className="text-gray-900">LA Westside Luxury</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Reverse Mortgage in Culver City, Playa del Rey, Marina del Rey &amp; Westchester [2026]
+            LA Westside Reverse Mortgage 2026: HECM &amp; Jumbo Options for Culver City, Playa del Rey, Marina del Rey &amp; Westchester Seniors
           </h1>
           <p className="text-lg text-gray-600 mb-2">
-            HECM and proprietary reverse mortgage options for entertainment industry retirees and creative professionals &mdash; homes $1.1M&ndash;$1.3M+
+            HECM and proprietary reverse mortgage solutions for entertainment industry retirees, aviation professionals, and creative industry seniors &mdash; homes $1.1M&ndash;$1.3M+
           </p>
-          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
+          <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 23, 2026</p>
         </header>
 
           <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -243,7 +243,7 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four LA Westside communities &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$19.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Home values across all four communities cluster tightly around the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, creating a corridor where HECM optimization delivers strong payouts with full FHA protections while proprietary programs serve upper-tier properties in Culver City&apos;s Arts District and Playa del Rey&apos;s bluff-top homes. &quot;The LA Westside studio corridor is unlike any reverse mortgage market in the country. Amazon Studios, Sony Pictures, and Apple TV+ have transformed Culver City into a global entertainment hub, and the creative professionals who built their careers here over 30 years now hold $1 million to $2 million in home equity. That is a retirement resource most of them have never considered accessing,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four LA Westside communities &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$19.8 billion in home equity</strong>, based on 2026 LA County assessor data and U.S. Census demographic projections. Los Angeles County&apos;s senior homeowner population grew 3.1% in 2025 (U.S. Census Bureau), and the LA Westside entertainment corridor saw home values appreciate 5.2% year-over-year through Q4 2025 (Redfin). Home values across all four communities cluster tightly around the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, creating a corridor where HECM optimization delivers strong payouts with full FHA protections while proprietary programs serve upper-tier properties in Culver City&apos;s Arts District and Playa del Rey&apos;s bluff-top homes. &quot;The LA Westside studio corridor is unlike any reverse mortgage market in the country. Amazon Studios, Sony Pictures, and Apple TV+ have transformed Culver City into a global entertainment hub, and the creative professionals who built their careers here over 30 years now hold $1 million to $2 million in home equity. That is a retirement resource most of them have never considered accessing,&quot; Abdel explains.
             </p>
           </div>
 
@@ -722,6 +722,12 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
           <h3>Can both spouses be on a reverse mortgage if one is under 62?</h3>
           <p><strong>The borrower must be 62 or older for HECM. A younger non-borrowing spouse receives HUD protections to remain in the home.</strong></p>
 
+          <h3>How does the growing line of credit feature benefit LA Westside retirees?</h3>
+          <p><strong>The HECM adjustable-rate line of credit grows at the same rate as the loan interest, increasing available funds annually even without additional home appreciation. For LA Westside seniors, this means unused credit from a $600,000 initial line can grow to $750,000+ within 5 years, providing increasing financial flexibility throughout retirement.</strong></p>
+
+          <h3>Are there reverse mortgage options for LA Westside homeowners with existing mortgages?</h3>
+          <p><strong>Yes. Reverse mortgage proceeds first pay off the existing mortgage balance, immediately eliminating monthly payments. Many Culver City and Westchester homeowners still carry $300,000-$500,000 mortgage balances that a HECM eliminates while also providing additional equity access.</strong></p>
+
           {/* ========== FAQ ========== */}
           <h2 id="faq" className="text-2xl font-bold mt-10 mb-4">
             Frequently Asked Questions: LA Westside Luxury Reverse Mortgage
@@ -760,6 +766,8 @@ export default function ReverseMortgageLAWestsideLuxury2026() {
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>
+              <li><a href="/blog/reverse-mortgage-beverly-hills-2026" className="text-blue-700 underline">Beverly Hills Reverse Mortgage Guide 2026</a></li>
+              <li><a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-700 underline">Manhattan Beach Reverse Mortgage Guide 2026</a></li>
             </ul>
           </div>
 

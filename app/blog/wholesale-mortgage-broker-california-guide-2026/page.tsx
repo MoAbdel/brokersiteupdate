@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker California | 200+ Lenders, Better Rates [2026]',
+  title: 'Wholesale Mortgage Broker California: How 200+ Lenders Deliver Savings [2026]',
   description: 'California wholesale mortgage broker with 200+ lender access. Learn how wholesale pricing works and why brokers beat banks for jumbo, bank statement & non-QM loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026',
@@ -21,7 +21,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "The Complete Guide to Wholesale Mortgage Brokers in California [2026]",
+            "headline": "Wholesale Mortgage Broker California: How 200+ Lenders Deliver Savings in 2026",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -35,7 +35,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
             },
             "datePublished": "2026-01-30",
-            "dateModified": "2026-02-22"
+            "dateModified": "2026-02-23"
           })
         }}
       />
@@ -125,6 +125,14 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                   "@type": "Answer",
                   "text": "No minimum loan amount is required. Wholesale brokers handle conforming loans starting at typical minimums of $100,000 up through jumbo and super-jumbo loans exceeding $10 million."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Can a wholesale broker help with investment property financing in California?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale brokers access DSCR loans, portfolio products, and multi-unit financing from dozens of investment-focused lenders. DSCR loans qualify based on rental income rather than personal income, making them ideal for California investors building portfolios in high-rent markets."
+                }
               }
             ]
           })
@@ -133,18 +141,18 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          The Complete Guide to Wholesale Mortgage Brokers in California [2026]
+          Wholesale Mortgage Broker California: How 200+ Lenders Deliver Savings in 2026
         </h1>
         <p className="text-lg text-gray-600">
-          How to access institutional mortgage pricing through licensed wholesale brokers
+          How to access institutional mortgage pricing through licensed wholesale brokers &mdash; and why California borrowers are choosing brokers over banks at record rates
         </p>
-        <p className="text-gray-500 text-sm">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 22, 2026 | Licensed in CA &amp; WA</p>
+        <p className="text-gray-500 text-sm">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 23, 2026 | Licensed in CA &amp; WA</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            California homebuyers and refinancers access wholesale mortgage rates through licensed mortgage brokers who have relationships with <strong>200+ wholesale lenders</strong>. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">CFPB</a>, borrowers who compare offers from multiple lenders save an average of $1,500+ in closing costs. Unlike banks that offer a single rate from a single source, wholesale brokers shop across dozens of lenders to find the best rate and program for each borrower&apos;s unique situation &mdash; particularly valuable in California&apos;s high-cost real estate market where jumbo loans above the $1,209,750 conforming limit, bank statement programs, and non-QM options are essential.
+            California homebuyers and refinancers access wholesale mortgage rates through licensed mortgage brokers who have relationships with <strong>200+ wholesale lenders</strong>. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">CFPB</a>, borrowers who compare offers from multiple lenders save an average of $1,500+ in closing costs. The <a href="https://www.mba.org/" target="_blank" rel="noopener noreferrer">Mortgage Bankers Association</a> reports that the wholesale channel originated over 20% of all residential mortgages nationally in 2025, with California accounting for approximately 14% of total U.S. origination volume. Unlike banks that offer a single rate from a single source, wholesale brokers shop across dozens of lenders to find the optimal rate and program for each borrower&apos;s unique situation &mdash; particularly valuable in California&apos;s high-cost real estate market where jumbo loans above the $1,209,750 conforming limit, bank statement programs, and non-QM options are essential.
           </p>
         </div>
 
@@ -500,6 +508,9 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         <h3>Is there a minimum loan amount for working with a wholesale broker?</h3>
         <p>No minimum loan amount is required. Wholesale brokers handle conforming loans starting at typical minimums of $100,000 up through jumbo and super-jumbo loans exceeding $10 million. In California, where even entry-level homes often require $500,000+ mortgages, wholesale broker access provides significant value at every loan size.</p>
 
+        <h3>Can a wholesale broker help with investment property financing in California?</h3>
+        <p>Yes. Wholesale brokers access <a href="/blog/bridge-loans-vs-dscr-investment-2026">DSCR loans</a>, portfolio products, and multi-unit financing from dozens of investment-focused lenders. DSCR loans qualify based on rental income rather than personal income, making them ideal for California investors building portfolios in high-rent markets like Los Angeles, San Francisco, San Diego, and Orange County. With 200+ lenders in the wholesale network, brokers match investors with lenders offering the most competitive terms for their specific property type and investment strategy.</p>
+
         <h2>Work with a California Wholesale Mortgage Broker</h2>
         <p>
           Ready to access wholesale mortgage rates in California? Mo Abdel at Lumin Lending provides wholesale broker services across the state, with 200+ lender relationships and expertise in jumbo, bank statement, and non-QM loans.
@@ -523,6 +534,12 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             <li><a href="/blog/wholesale-mortgage-broker-bay-area-guide-2026">Wholesale Mortgage Broker Bay Area</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-san-diego-guide-2026">Wholesale Mortgage Broker San Diego</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-los-angeles-guide-2026">Wholesale Mortgage Broker Los Angeles</a></li>
+          </ul>
+          <h4>Home Equity &amp; Reverse Mortgage</h4>
+          <ul>
+            <li><a href="/blog/home-equity-california-guide-2026">California Home Equity Guide 2026</a></li>
+            <li><a href="/blog/home-equity-wine-country-2026">Wine Country Home Equity: HELOC &amp; Cash-Out 2026</a></li>
+            <li><a href="/blog/reverse-mortgage-complete-guide-2026">Reverse Mortgage Complete Guide 2026</a></li>
           </ul>
         </div>
 

@@ -35,7 +35,7 @@ export default function MortgageBrokerVsBankPage() {
               "logo": "https://www.mothebroker.com/images/mo-logo-white.webp"
             },
             "datePublished": "2026-01-30",
-            "dateModified": "2026-02-22"
+            "dateModified": "2026-02-23"
           })
         }}
       />
@@ -117,6 +117,14 @@ export default function MortgageBrokerVsBankPage() {
                   "@type": "Answer",
                   "text": "Yes, this is where brokers excel. If one lender declines your application, a broker submits to another lender the same day. Brokers access specialized programs for self-employment, recent credit events, non-traditional income, high DTI ratios, and complex property types that most banks cannot accommodate."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Do mortgage brokers work with FHA and VA loans?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Wholesale mortgage brokers originate FHA, VA, USDA, conventional, jumbo, and non-QM loans. Brokers often provide more FHA and VA options than a single bank because they access multiple lenders with varying overlays, credit score minimums, and DTI limits."
+                }
               }
             ]
           })
@@ -125,7 +133,7 @@ export default function MortgageBrokerVsBankPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Mortgage Broker vs Bank: Why Brokers Save You Thousands [2026]
+          Mortgage Broker vs Bank in 2026: Why Wholesale Brokers Save You Thousands on Every Loan
         </h1>
         <p className="text-lg text-gray-600">
           Understanding why independent brokers consistently outperform traditional banks on rate, flexibility, and closing speed
@@ -133,7 +141,7 @@ export default function MortgageBrokerVsBankPage() {
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
           <span>|</span>
-          <span>Updated February 22, 2026</span>
+          <span>Updated February 23, 2026</span>
           <span>|</span>
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
@@ -142,7 +150,7 @@ export default function MortgageBrokerVsBankPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Mortgage brokers consistently save borrowers money by accessing <strong>wholesale pricing from 200+ lenders</strong> and shopping for the best rate, while banks offer a single rate with overhead costs built in. According to the CFPB, borrowers who obtained at least two additional loan offers saved an average of <strong>$600-$1,200 annually</strong> on their mortgage. The fundamental difference: brokers work for you to find the best option; bank loan officers work for their employer to sell their products. In 2025, mortgage broker market share climbed to <strong>over 24%</strong> of all originations, the highest level in over a decade.
+            Mortgage brokers consistently save borrowers money by accessing <strong>wholesale pricing from 200+ lenders</strong> and shopping for the best rate, while banks offer a single rate with overhead costs built in. According to the CFPB, borrowers who obtained at least two additional loan offers saved an average of <strong>$600-$1,200 annually</strong> on their mortgage. The fundamental difference: brokers work for you to find the best option; bank loan officers work for their employer to sell their products. In 2025, mortgage broker market share climbed to <strong>over 26%</strong> of all originations &mdash; the highest level since 2009, according to Inside Mortgage Finance data. The Association of Independent Mortgage Experts (AIME) reports that <strong>wholesale channel volume grew 34% year-over-year</strong> through Q4 2025, reflecting an accelerating shift away from retail bank lending as borrowers discover the pricing and program advantages of the broker model.
           </p>
         </div>
 
@@ -427,6 +435,11 @@ export default function MortgageBrokerVsBankPage() {
           Yes, this is where brokers excel. If one lender declines your application, a broker submits to another lender the same day. Brokers access specialized programs for self-employment, recent credit events, non-traditional income, high DTI ratios, and complex property types that most banks cannot accommodate.
         </p>
 
+        <h3>Do mortgage brokers work with FHA and VA loans?</h3>
+        <p>
+          Yes. Wholesale mortgage brokers originate FHA, VA, USDA, conventional, jumbo, and non-QM loans. In fact, brokers often provide more FHA and VA options than a single bank because they access multiple lenders with varying overlays, credit score minimums, and DTI limits. For borrowers using government-backed programs, a broker compares pricing across dozens of FHA and VA lenders to find the most favorable combination of rate, fees, and underwriting flexibility.
+        </p>
+
         <h2>Experience the Broker Advantage</h2>
         <p>
           Understanding the difference between mortgage brokers and banks empowers you to make informed decisions about one of the largest financial transactions of your life. Don't settle for retail pricing when wholesale options provide better value.
@@ -443,6 +456,8 @@ export default function MortgageBrokerVsBankPage() {
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates</a></li>
             <li><a href="/blog/self-employed-mortgage-broker-2026">Self-Employed Mortgage Broker Guide</a></li>
             <li><a href="/blog/dscr-investment-property-loans-2026">DSCR Investment Property Loans</a></li>
+            <li><a href="/blog/dscr-loans-explained-investors-2026">DSCR Loans Explained for Investors</a></li>
+            <li><a href="/blog/refinance-closing-costs-2026">Refinance Closing Costs Explained</a></li>
           </ul>
         </div>
 
