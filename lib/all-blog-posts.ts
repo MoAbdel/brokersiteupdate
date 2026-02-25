@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 14: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 25, 2026) =====
+  {
+    slug: 'reverse-mortgage-closing-costs-fees-2026',
+    title: 'Reverse Mortgage Closing Costs 2026: HECM Fees, Origination & What Seniors Pay',
+    excerpt: 'Complete breakdown of reverse mortgage closing costs: HECM origination fees (up to $6,000 cap), 2% initial MIP, 0.5% annual MIP, appraisal, title, and counseling costs. Most fees can be financed into the loan.',
+    date: '2026-02-25',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-repayment-when-due-2026',
+    title: 'Reverse Mortgage Repayment 2026: When & How HECM Loans Come Due',
+    excerpt: 'When and how reverse mortgages must be repaid. Covers maturity events, heir timelines (up to 12 months), non-recourse protection, FHA insurance fund, and repayment options for HECM borrowers.',
+    date: '2026-02-25',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-manufactured-home-2026',
+    title: 'Reverse Mortgage for Manufactured Homes 2026: FHA Requirements & Eligibility',
+    excerpt: 'Can you get a reverse mortgage on a manufactured home? FHA HECM eligibility requires post-1976 construction, permanent foundation, 400+ sq ft, and real property classification. Proprietary alternatives available.',
+    date: '2026-02-25',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-investment-property-2026',
+    title: 'HELOC on Investment Property 2026: Requirements, Rates & Wholesale Alternatives',
+    excerpt: 'How to get a HELOC on an investment property: 720+ credit, 70-75% max CLTV, 6+ months reserves. Most banks don\'t offer investment HELOCs — wholesale brokers access lenders that do.',
+    date: '2026-02-25',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'jumbo-heloc-california-2026',
+    title: 'Jumbo HELOC California 2026: High-Balance Home Equity Lines Over $500K',
+    excerpt: 'Jumbo HELOC options in California from $500K to $5M. Most banks cap at $500K — wholesale brokers access portfolio lenders with higher limits for affluent homeowners in Orange County, Bay Area, and LA.',
+    date: '2026-02-25',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-business-startup-funding-2026',
+    title: 'Using Home Equity to Start a Business 2026: HELOC, Cash-Out & Loan Options',
+    excerpt: 'How to use home equity to fund a business: HELOC for flexible draws, cash-out refinance for lump sum, or home equity loan for fixed payments. Covers risks, tax implications, and SBA alternatives.',
+    date: '2026-02-25',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'how-mortgage-brokers-get-paid-2026',
+    title: 'How Mortgage Brokers Get Paid 2026: Compensation, Fees & Full Transparency',
+    excerpt: 'How mortgage broker compensation works: lender-paid vs borrower-paid models, CFPB anti-steering rules, full fee disclosure on Loan Estimate. Compare broker transparency to bank loan officer pay.',
+    date: '2026-02-25',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-rate-comparison-2026',
+    title: 'Wholesale vs Retail Mortgage Rates 2026: How Pricing Actually Works',
+    excerpt: 'How wholesale mortgage rates compare to retail bank rates. Wholesale brokers access lender rate sheets without retail markup. Larger spreads on jumbo and non-QM loans make broker advantage more significant.',
+    date: '2026-02-25',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loan-llc-entity-structure-2026',
+    title: 'DSCR Loan for LLC 2026: How to Finance Investment Property in an Entity',
+    excerpt: 'DSCR loans allow LLC vesting at closing — one of the few mortgage products that does. Covers LLC, S-Corp, Trust, and Land Trust options, operating agreement requirements, and personal guarantee rules.',
+    date: '2026-02-25',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loan-seasoning-requirements-2026',
+    title: 'DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines',
+    excerpt: 'DSCR loan seasoning timelines: cash-out requires 3-6 months title seasoning, rate-term allows 0-3 months, delayed financing enables immediate cash-out after all-cash purchase. BRRRR investor guide.',
+    date: '2026-02-25',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
   // ===== BATCH 13: 2 Refinance + 2 HECM + 2 DSCR + 1 Wholesale (Feb 21, 2026) =====
   {
     slug: 'fha-streamline-refinance-guide-2026',
