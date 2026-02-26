@@ -5,6 +5,19 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const reviews = [
     {
+      name: "Alice W",
+      location: "San Francisco",
+      date: "Feb 2026",
+      dateISO: "2026-02-01",
+      rating: 5,
+      loanType: "Home Equity",
+      quote: "Very professional + very helpful + very patient and explained very clearly with the points snd details also most importan is Mo followed up and make sure everything went well.",
+      closedOnTime: true,
+      interestRate: "As expected",
+      fees: "As expected",
+      source: "Experience.com"
+    },
+    {
       name: "jhcurry",
       location: "Fairfield, CA",
       date: "Dec 2025",
@@ -14,7 +27,8 @@ const reviews = [
       quote: "I worked with Mo and Latoyia at WCL to obtain a HEL. I could not be more pleased with the process. Mo was professional, thorough and generally very interested in seeing that my experience was a pleasant one. I'd recommend them to anyone looking for a lender. Great job.",
       closedOnTime: true,
       interestRate: "As expected",
-      fees: "As expected"
+      fees: "As expected",
+      source: "Zillow"
     },
     {
       name: "sacullagarrett",
@@ -26,7 +40,8 @@ const reviews = [
       quote: "Mo was completely transparent and professional. He made the loan process easy. Highly recommend him as a loan officer. Hands off and very quick. Very straight forward.",
       closedOnTime: true,
       interestRate: "As expected",
-      fees: "As expected"
+      fees: "As expected",
+      source: "Zillow"
     },
     {
       name: "Jim Lord",
@@ -38,7 +53,8 @@ const reviews = [
       quote: "We have refinanced before but have never had such a hard working and professional lender's representative than Mo. I ended up having a number of questions but he cheerfully and professionally responded. Our loan was processed quickly and without incident. I would definitely use Mo again and refer him to others.",
       closedOnTime: true,
       interestRate: "Lower than expected",
-      fees: "As expected"
+      fees: "As expected",
+      source: "Zillow"
     },
     {
       name: "Karthikeyan Ramaswami",
@@ -50,7 +66,8 @@ const reviews = [
       quote: "It has been a delightful experience to work with Mo. You know how stressful it can be to refinance your home. Waiting for your rate, waiting for lender decision, temporary approval and so on. Mo was great in communicating me clearly and was willing to go extra mile to check.",
       closedOnTime: true,
       interestRate: "As expected",
-      fees: "Lower than expected"
+      fees: "Lower than expected",
+      source: "Zillow"
     }
 ];
 
@@ -104,7 +121,7 @@ export default function SocialProofSection() {
             Client Reviews
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Real feedback from real clients on Zillow
+            Real feedback from verified clients
           </p>
         </div>
 
@@ -137,7 +154,7 @@ export default function SocialProofSection() {
           <div className="relative z-10">
             <div className="max-w-3xl mx-auto">
               <div className="min-h-[140px] md:min-h-[160px] flex flex-col justify-center">
-                <p className="text-sm font-semibold tracking-wide text-slate-300">Zillow review</p>
+                <p className="text-sm font-semibold tracking-wide text-slate-300">{reviews[currentReview].source} review</p>
                 <blockquote className="mt-2 text-base md:text-lg leading-relaxed text-slate-100" data-speakable="true">
                   <span className="text-slate-300">&ldquo;</span>
                   {reviews[currentReview].quote}
