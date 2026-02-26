@@ -129,7 +129,7 @@ const blogPosts = [
         readTime: '14 min read',
     },
     {
-        slug: 'wholesale-vs-retail-mortgage-brokers-2026',
+        slug: 'wholesale-vs-retail-mortgage-complete-2026',
         title: 'Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026',
         excerpt: 'Discover the wholesale mortgage advantage. Compare wholesale brokers vs retail banks, credit unions, and online lenders to find the best financing option.',
         date: '2026-01-01',
@@ -308,10 +308,10 @@ export default function BlogIndexPage() {
 
                 <div className="mt-12 text-center text-sm text-gray-600">
                     <p>
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
                     </p>
                     <p className="mt-2">
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        Licensed in: CA, WA
                     </p>
                 </div>
             </div>

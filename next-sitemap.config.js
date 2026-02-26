@@ -1,9 +1,49 @@
 /** @type {import('next-sitemap').IConfig} */
+const fsSync = require('node:fs');
 const fs = require('node:fs/promises');
 const path = require('node:path');
+const vercelConfig = require('./vercel.json');
 
 const BUILD_ISO = new Date().toISOString();
 const APP_DIR = path.join(process.cwd(), 'app');
+const REDIRECT_SOURCE_TOKEN_PATTERN = /[\*\(\):$]/;
+
+function normalizeRoutePath(routePath) {
+  if (!routePath || routePath === '/') {
+    return '/';
+  }
+
+  return routePath.endsWith('/') ? routePath.slice(0, -1) : routePath;
+}
+
+const vercelRedirectSources = new Set(
+  (vercelConfig.redirects || [])
+    .map((redirect) => redirect.source)
+    .filter(
+      (source) =>
+        typeof source === 'string' &&
+        source.startsWith('/') &&
+        !REDIRECT_SOURCE_TOKEN_PATTERN.test(source)
+    )
+    .map((source) => normalizeRoutePath(source))
+);
+
+const middlewareRedirectSources = (() => {
+  try {
+    const middlewarePath = path.join(process.cwd(), 'middleware.ts');
+    const middlewareSource = fsSync.readFileSync(middlewarePath, 'utf8');
+    return new Set(
+      [...middlewareSource.matchAll(/\n\s*'([^']+)':\s*'[^']+'/g)]
+        .map((match) => match[1])
+        .filter((source) => source.startsWith('/'))
+        .map((source) => normalizeRoutePath(source))
+    );
+  } catch {
+    return new Set();
+  }
+})();
+
+const redirectSourceRoutes = new Set([...vercelRedirectSources, ...middlewareRedirectSources]);
 
 async function fileExists(filePath) {
   try {
@@ -170,7 +210,6 @@ module.exports = {
     '/blog/reverse-mortgage-la-jolla-ca-2026',
     '/blog/wholesale-mortgage-broker-92672',
     '/blog/wholesale-mortgage-broker-92662',
-    '/guides/summer-2025-market-guide',
     // Exclude redirect source URLs (these 301 to -2026 versions)
     '/blog/200-lender-advantage',
     '/blog/bank-statement-loans-wholesale',
@@ -309,10 +348,17 @@ module.exports = {
       }
     ],
     additionalSitemaps: [
-      'https://www.mothebroker.com/sitemap-images.xml'
+      'https://www.mothebroker.com/sitemap-images.xml',
+      'https://www.mothebroker.com/sitemap-news.xml'
     ]
   },
   transform: async (config, routePath) => {
+    const normalizedRoutePath = normalizeRoutePath(routePath);
+
+    if (redirectSourceRoutes.has(normalizedRoutePath)) {
+      return null;
+    }
+
     // Keep low-equity programmatic ZIP variants crawlable for discovery of links,
     // but out of XML sitemaps so crawl budget stays on priority pages.
     if (isLowEquityBlogRoute(routePath) || isThinOverlapRoute(routePath)) {
@@ -486,7 +532,12 @@ module.exports = {
 
     const existingAdditionalPaths = [];
     for (const routePath of additionalPaths) {
-      if ((await routeHasPageFile(routePath)) && !isLowEquityBlogRoute(routePath) && !isThinOverlapRoute(routePath)) {
+      if (
+        (await routeHasPageFile(routePath)) &&
+        !isLowEquityBlogRoute(routePath) &&
+        !isThinOverlapRoute(routePath) &&
+        !redirectSourceRoutes.has(normalizeRoutePath(routePath))
+      ) {
         existingAdditionalPaths.push(routePath);
       }
     }

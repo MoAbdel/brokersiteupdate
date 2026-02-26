@@ -154,11 +154,6 @@
       "permanent": true
     },
     {
-      "source": "/tools",
-      "destination": "/calculator",
-      "permanent": true
-    },
-    {
       "source": "/:path*/index.html",
       "destination": "/:path*",
       "permanent": true
@@ -215,6 +210,11 @@
     },
     {
       "source": "/$",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/&",
       "destination": "/",
       "permanent": true
     },
@@ -276,11 +276,6 @@
     {
       "source": "/orange-county-heloan",
       "destination": "/heloan-orange-county",
-      "permanent": true
-    },
-    {
-      "source": "/orange-county-jumbo-loans",
-      "destination": "/jumbo-loans-orange-county",
       "permanent": true
     },
     {

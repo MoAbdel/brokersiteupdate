@@ -1,29 +1,84 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import fs from 'node:fs';
+import path from 'node:path';
+import vercelConfig from '@/vercel.json';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { allBlogPosts, getAllCategories } from '@/lib/all-blog-posts';
 import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
-export const metadata: Metadata = {
-  title: 'Mortgage Guides | California & Washington Home Loan Strategies | Mo Abdel',
-  description:
-    'Browse practical mortgage guides, refinance strategies, and market insights from Mo Abdel for California and Washington buyers, homeowners, and investors.',
-  alternates: {
-    canonical: 'https://www.mothebroker.com/guides',
-    languages: {
-      'en-US': 'https://www.mothebroker.com/guides',
-      'x-default': 'https://www.mothebroker.com/guides',
+const GUIDES_TITLE = 'Mortgage Guides | California & Washington Home Loan Strategies | Mo Abdel';
+const GUIDES_DESCRIPTION =
+  'Browse practical mortgage guides, refinance strategies, and market insights from Mo Abdel for California and Washington buyers, homeowners, and investors.';
+const GUIDES_CANONICAL = 'https://www.mothebroker.com/guides';
+const REDIRECT_SOURCE_TOKEN_PATTERN = /[\*\(\):$]/;
+
+function getRedirectSourceBlogPaths(): Set<string> {
+  const vercelBlogSources = (vercelConfig.redirects || [])
+    .map((redirect) => redirect.source)
+    .filter(
+      (source): source is string =>
+        typeof source === 'string' &&
+        source.startsWith('/blog/') &&
+        !REDIRECT_SOURCE_TOKEN_PATTERN.test(source)
+    )
+    .map((source) => (source.endsWith('/') ? source.slice(0, -1) : source));
+
+  let middlewareBlogSources: string[] = [];
+  try {
+    const middlewareSource = fs.readFileSync(path.join(process.cwd(), 'middleware.ts'), 'utf8');
+    middlewareBlogSources = [...middlewareSource.matchAll(/\n\s*'([^']+)':\s*'[^']+'/g)]
+      .map((match) => match[1])
+      .filter((source) => source.startsWith('/blog/'))
+      .map((source) => (source.endsWith('/') ? source.slice(0, -1) : source));
+  } catch {
+    middlewareBlogSources = [];
+  }
+
+  return new Set([...vercelBlogSources, ...middlewareBlogSources]);
+}
+
+const redirectSourceBlogPaths = getRedirectSourceBlogPaths();
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}): Promise<Metadata> {
+  const sp = (await searchParams) ?? {};
+  const hasGuidesVariantQuery = Object.values(sp).some((value) => {
+    if (Array.isArray(value)) {
+      return value.some((item) => typeof item === 'string' && item.trim().length > 0);
+    }
+    return typeof value === 'string' && value.trim().length > 0;
+  });
+
+  return {
+    title: GUIDES_TITLE,
+    description: GUIDES_DESCRIPTION,
+    alternates: {
+      canonical: GUIDES_CANONICAL,
+      languages: {
+        'en-US': GUIDES_CANONICAL,
+        'x-default': GUIDES_CANONICAL,
+      },
     },
-  },
-};
+    robots: hasGuidesVariantQuery
+      ? {
+          index: false,
+          follow: true,
+          googleBot: { index: false, follow: true },
+        }
+      : undefined,
+  };
+}
 
 const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/guides',
-  title: 'Mortgage Guides | California & Washington Home Loan Strategies | Mo Abdel',
-  description:
-    'Browse practical mortgage guides, refinance strategies, and market insights from Mo Abdel for California and Washington buyers, homeowners, and investors.',
+  pageUrl: GUIDES_CANONICAL,
+  title: GUIDES_TITLE,
+  description: GUIDES_DESCRIPTION,
   breadcrumbName: 'Guides',
 });
 
@@ -45,8 +100,14 @@ export default async function GuidesPage({
   // Await it before reading values to keep this page server-rendered for SEO.
   const sp = (await searchParams) ?? {};
 
-  const categories = getAllCategories();
-  const categoryCounts = allBlogPosts.reduce<Record<string, number>>((acc, p) => {
+  const indexablePosts = allBlogPosts.filter(
+    (post) => !redirectSourceBlogPaths.has(`/blog/${post.slug}`)
+  );
+
+  const categories = getAllCategories().filter((category) =>
+    indexablePosts.some((post) => post.category === category)
+  );
+  const categoryCounts = indexablePosts.reduce<Record<string, number>>((acc, p) => {
     acc[p.category] = (acc[p.category] || 0) + 1;
     return acc;
   }, {});
@@ -57,8 +118,8 @@ export default async function GuidesPage({
       : null;
 
   const filteredPosts = activeCategory
-    ? allBlogPosts.filter((p) => p.category === activeCategory)
-    : allBlogPosts;
+    ? indexablePosts.filter((p) => p.category === activeCategory)
+    : indexablePosts;
 
   const PER_PAGE = 12;
   const totalPages = Math.max(1, Math.ceil(filteredPosts.length / PER_PAGE));
@@ -96,7 +157,7 @@ export default async function GuidesPage({
             from loan program comparisons to market-driven refinance decisions.
           </p>
           <p className="text-sm text-slate-500 mt-2">
-            {allBlogPosts.length} articles • Updated {formatDate(allBlogPosts[0]?.date || '2026-01-31')}
+            {indexablePosts.length} articles • Updated {formatDate(indexablePosts[0]?.date || '2026-01-31')}
           </p>
         </div>
 
@@ -111,7 +172,7 @@ export default async function GuidesPage({
                 : 'border-slate-900 bg-slate-900 text-white hover:bg-slate-800'
             }`}
           >
-            All ({allBlogPosts.length})
+            All ({indexablePosts.length})
           </Link>
           {categories.map((category) => (
             <Link

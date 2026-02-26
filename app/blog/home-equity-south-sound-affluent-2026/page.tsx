@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-14T08:00:00Z',
     modifiedTime: '2026-02-22T00:00:00Z',
     authors: ['Mo Abdel'],
-    url: 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026',
+    url: 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026',
     images: [
       {
-        url: 'https://mothebroker.com/images/south-sound-home-equity-2026.jpg',
+        url: 'https://www.mothebroker.com/images/south-sound-home-equity-2026.jpg',
         width: 1200,
         height: 630,
         alt: 'South Sound Home Equity Guide 2026'
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
-    canonical: 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026'
+    canonical: 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026'
   }
 };
 
@@ -34,34 +34,34 @@ export default function HomEquitySouthSoundAffluentPage() {
     '@graph': [
       {
         '@type': 'Article',
-        '@id': 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026#article',
+        '@id': 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026#article',
         headline: 'Home Equity South Sound Affluent 2026: HELOC, HELOAN &amp; Cash-Out Refinance Guide',
         description: 'Comprehensive guide to unlocking home equity in South Sound affluent cities. Expert strategies for HELOC, HELOAN, and cash-out refinancing in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom.',
-        image: 'https://mothebroker.com/images/south-sound-home-equity-2026.jpg',
+        image: 'https://www.mothebroker.com/images/south-sound-home-equity-2026.jpg',
         datePublished: '2026-02-14T08:00:00Z',
         dateModified: '2026-02-22',
         author: {
           '@type': 'Person',
-          '@id': 'https://mothebroker.com/#mo-abdel',
+          '@id': 'https://www.mothebroker.com/#mo-abdel',
           name: 'Mo Abdel',
           jobTitle: 'Senior Mortgage Advisor',
           description: 'NMLS #1426884 &mdash; Specializing in home equity solutions for Washington homeowners',
           telephone: '+1-949-822-9662',
-          url: 'https://mothebroker.com'
+          url: 'https://www.mothebroker.com'
         },
         publisher: {
           '@type': 'Organization',
-          '@id': 'https://mothebroker.com/#organization',
+          '@id': 'https://www.mothebroker.com/#organization',
           name: 'Lumin Lending',
-          url: 'https://mothebroker.com',
+          url: 'https://www.mothebroker.com',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://mothebroker.com/logo.png'
+            url: 'https://www.mothebroker.com/logo.png'
           }
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026'
+          '@id': 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026'
         },
         keywords: 'HELOC, HELOAN, cash-out refinance, home equity, Gig Harbor, Maple Valley, University Place, Bonney Lake, Steilacoom, South Sound, Pierce County, Washington',
         articleSection: 'Home Equity',
@@ -73,7 +73,7 @@ export default function HomEquitySouthSoundAffluentPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026#faq',
+        '@id': 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026#faq',
         mainEntity: [
           {
             '@type': 'Question',
@@ -175,10 +175,10 @@ export default function HomEquitySouthSoundAffluentPage() {
       },
       {
         '@type': 'LocalBusiness',
-        '@id': 'https://mothebroker.com/#organization',
+        '@id': 'https://www.mothebroker.com/#organization',
         name: 'Lumin Lending',
-        image: 'https://mothebroker.com/logo.png',
-        url: 'https://mothebroker.com',
+        image: 'https://www.mothebroker.com/logo.png',
+        url: 'https://www.mothebroker.com',
         telephone: '+1-949-822-9662',
         email: 'mo@mothebroker.com',
         address: {
@@ -214,37 +214,37 @@ export default function HomEquitySouthSoundAffluentPage() {
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026#breadcrumb',
+        '@id': 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026#breadcrumb',
         itemListElement: [
           {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://mothebroker.com'
+            item: 'https://www.mothebroker.com'
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Blog',
-            item: 'https://mothebroker.com/blog'
+            item: 'https://www.mothebroker.com/blog'
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: 'Washington Home Equity Guide',
-            item: 'https://mothebroker.com/blog/home-equity-washington-guide-2026'
+            item: 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026'
           },
           {
             '@type': 'ListItem',
             position: 4,
             name: 'South Sound Home Equity Guide',
-            item: 'https://mothebroker.com/blog/home-equity-south-sound-guide-2026'
+            item: 'https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026'
           },
           {
             '@type': 'ListItem',
             position: 5,
             name: 'Home Equity South Sound Affluent 2026',
-            item: 'https://mothebroker.com/blog/home-equity-south-sound-affluent-2026'
+            item: 'https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026'
           }
         ]
       }

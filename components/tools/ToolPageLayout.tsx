@@ -189,7 +189,7 @@ export function buildToolSchemas({
         '@type': 'ListItem',
         position: i + 1,
         name: b.label,
-        item: `https://mothebroker.com${b.href}`,
+        item: `https://www.mothebroker.com${b.href}`,
       })),
   });
 
@@ -199,7 +199,7 @@ export function buildToolSchemas({
     '@type': 'WebApplication',
     name: toolName,
     description,
-    url: `https://mothebroker.com${url}`,
+    url: `https://www.mothebroker.com${url}`,
     applicationCategory: 'FinanceApplication',
     operatingSystem: 'Web',
     offers: {
@@ -211,7 +211,7 @@ export function buildToolSchemas({
       '@type': 'Person',
       name: 'Mo Abdel',
       jobTitle: 'Wholesale Mortgage Broker',
-      url: 'https://mothebroker.com/about',
+      url: 'https://www.mothebroker.com/about',
     },
     areaServed: {
       '@type': 'AdministrativeArea',

@@ -11,7 +11,11 @@ const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
   /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
 ];
 
-function shouldNoindexPath(pathname: string): boolean {
+function shouldNoindexRequest(pathname: string, search: string): boolean {
+  if (pathname === '/guides' && search.length > 0) {
+    return true;
+  }
+
   if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(pathname))) {
     return true;
   }
@@ -38,6 +42,7 @@ export function middleware(request: NextRequest) {
     '/blog/bank-statement-loans-wholesale': '/blog/bank-statement-loans-wholesale-2026',
     '/blog/cash-out-refinance-how-it-works': '/blog/cash-out-refinance-how-it-works-2026',
     '/blog/how-does-heloc-work': '/loan-programs/heloc',
+    '/blog/heloc-vs-cash-out-refinance-california-homeowners-2026': '/blog/heloc-vs-cash-out-refinance-2026',
     '/blog/heloc-vs-home-equity-loan': '/blog/heloc-vs-home-equity-loan-2026',
     '/blog/mortgage-broker-vs-bank': '/blog/mortgage-broker-vs-bank-2026',
     '/blog/non-qm-loans-wholesale-broker': '/blog/non-qm-loans-wholesale-broker-2026',
@@ -79,6 +84,7 @@ export function middleware(request: NextRequest) {
     '/blog/how-to-get-wholesale-mortgage-rates-california': '/blog/how-to-get-wholesale-mortgage-rates-2026',
     '/blog/wholesale-vs-retail-mortgage-brokers-2026': '/blog/wholesale-vs-retail-mortgage-complete-2026',
     '/blog/reverse-mortgage-la-beach-cities-2026': '/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
+    '/blog/reverse-mortgage-california-washington-pillar-2026': '/blog/reverse-mortgage-complete-guide-2026',
   };
 
   const pageRedirects: Record<string, string> = {
@@ -104,13 +110,8 @@ export function middleware(request: NextRequest) {
     '/guides/newport-beach-mortgage-guide-2025': '/blog/newport-beach-mortgage-guide-2026',
     '/guides/laguna-beach-mortgage-guide-2025': '/blog/laguna-beach-mortgage-guide-2026',
     '/guides/first-time-homebuyer-orange-county-2025': '/blog/first-time-homebuyer-guide-orange-county-2026',
+    '/guides/fha-loans-orange-county-complete-guide': '/blog/fha-loans-orange-county-2026',
   };
-
-  // Catch-all for legacy /articles/* URLs not explicitly mapped above.
-  if (pathname.startsWith('/articles/')) {
-    const redirectUrl = new URL(`https://www.mothebroker.com/blog${search}`);
-    return NextResponse.redirect(redirectUrl, 301);
-  }
 
   const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname];
   if (redirectTarget) {
@@ -118,8 +119,14 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl, 301);
   }
 
+  // Catch-all for legacy /articles/* URLs not explicitly mapped above.
+  if (pathname.startsWith('/articles/')) {
+    const redirectUrl = new URL(`https://www.mothebroker.com/blog${search}`);
+    return NextResponse.redirect(redirectUrl, 301);
+  }
+
   const response = NextResponse.next();
-  if (shouldNoindexPath(pathname)) {
+  if (shouldNoindexRequest(pathname, search)) {
     response.headers.set('X-Robots-Tag', 'noindex, follow');
   }
 
