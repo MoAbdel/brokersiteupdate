@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 15: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 26, 2026) =====
+  {
+    slug: 'reverse-mortgage-financial-assessment-2026',
+    title: 'Reverse Mortgage Financial Assessment 2026: What HECM Lenders Evaluate',
+    excerpt: 'FHA requires a financial assessment for all HECM applicants. Lenders evaluate credit history, income, property charges, and residual income. Learn what triggers a LESA set-aside and how to prepare.',
+    date: '2026-02-26',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-selling-home-payoff-2026',
+    title: 'Selling a Home with a Reverse Mortgage 2026: Payoff Process & What to Expect',
+    excerpt: 'Selling a home with a reverse mortgage follows a clear payoff process. The loan balance is repaid from sale proceeds, and any remaining equity belongs to the homeowner or heirs. Non-recourse protection applies.',
+    date: '2026-02-26',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'hecm-payment-plan-options-2026',
+    title: 'HECM Payment Plan Options 2026: Tenure, Term, Line of Credit & Modified Plans',
+    excerpt: 'HECM borrowers choose from 5 payment plans: tenure, term, line of credit, modified tenure, and modified term. Each plan distributes proceeds differently based on retirement needs.',
+    date: '2026-02-26',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'home-equity-after-divorce-2026',
+    title: 'Home Equity After Divorce 2026: Buyout, Refinance & Division Options',
+    excerpt: 'Dividing home equity in divorce requires a buyout refinance, sale, or co-ownership agreement. Cash-out refinance lets one spouse buy out the other while removing them from the mortgage.',
+    date: '2026-02-26',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-draw-period-repayment-guide-2026',
+    title: 'HELOC Draw Period vs Repayment Period 2026: How the Two Phases Work',
+    excerpt: 'HELOCs have two phases: a draw period (typically 10 years) with interest-only minimums, then a repayment period (10-20 years) with full principal and interest payments. Learn how each phase works.',
+    date: '2026-02-26',
+    category: 'Home Equity',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'cash-out-refinance-seasoning-requirements-2026',
+    title: 'Cash-Out Refinance Seasoning Requirements 2026: Waiting Periods by Loan Type',
+    excerpt: 'Cash-out refinance seasoning requirements vary by loan type: conventional requires 6 months ownership, FHA requires 6 months with 6 payments, VA has no seasoning. Delayed financing exception allows immediate cash-out.',
+    date: '2026-02-26',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-condo-financing-2026',
+    title: 'Wholesale Mortgage Condo Financing 2026: Warrantable vs Non-Warrantable Loans',
+    excerpt: 'Condo mortgages require project approval — warrantable condos qualify for conventional loans while non-warrantable condos need non-QM or portfolio lenders. Wholesale brokers access condo-specialist programs.',
+    date: '2026-02-26',
+    category: 'Wholesale',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-trust-vesting-2026',
+    title: 'Buying Property in a Trust 2026: Wholesale Mortgage Options for Trust Vesting',
+    excerpt: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 200+ lenders with trust-friendly programs.',
+    date: '2026-02-26',
+    category: 'Wholesale',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'dscr-loan-interest-only-options-2026',
+    title: 'DSCR Interest-Only Loans 2026: Maximize Cash Flow on Investment Property',
+    excerpt: 'DSCR interest-only loans reduce monthly payments by 20-30% compared to fully amortizing options, maximizing cash flow for rental property investors. IO periods range from 5-10 years.',
+    date: '2026-02-26',
+    category: 'DSCR',
+    readTime: '15 min read',
+  },
+  {
+    slug: 'dscr-vacation-rental-markets-california-2026',
+    title: 'DSCR Loans for California Vacation Rentals 2026: Top Markets & Financing Guide',
+    excerpt: 'DSCR loans finance California vacation rental properties using projected rental income. Top CA vacation markets include Big Bear, Palm Springs, Lake Tahoe, and coastal cities.',
+    date: '2026-02-26',
+    category: 'DSCR',
+    readTime: '14 min read',
+  },
   // ===== BATCH 14: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 25, 2026) =====
   {
     slug: 'reverse-mortgage-closing-costs-fees-2026',
