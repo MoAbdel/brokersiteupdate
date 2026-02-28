@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 16: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 28, 2026) =====
+  {
+    slug: 'reverse-mortgage-tax-implications-2026',
+    title: 'Reverse Mortgage Tax Implications 2026: Are HECM Proceeds Taxable?',
+    excerpt: 'HECM reverse mortgage proceeds are generally not considered taxable income by the IRS. Learn about interest deduction rules, property tax obligations, estate tax considerations, and Medicaid implications. Consult your CPA for personalized guidance.',
+    date: '2026-02-28',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-surviving-spouse-rights-2026',
+    title: 'Reverse Mortgage Surviving Spouse Rights 2026: Protections After Borrower Death',
+    excerpt: 'Surviving spouses have specific protections under HUD rules after a reverse mortgage borrower dies. Co-borrowers continue accessing proceeds. Non-borrowing spouses may qualify for deferral under Mortgagee Letter 2021-11.',
+    date: '2026-02-28',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-age-62-requirements-2026',
+    title: 'Reverse Mortgage Age Requirements 2026: Who Qualifies at 62 and Beyond',
+    excerpt: 'HECM reverse mortgages require at least one borrower to be 62 or older. Age directly affects principal limit factors — older borrowers access higher percentages of home value. Proprietary programs start at age 55.',
+    date: '2026-02-28',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-retirement-income-strategy-2026',
+    title: 'Home Equity as Retirement Income 2026: HELOC, HELOAN & Cash-Out Strategies for Retirees',
+    excerpt: 'American homeowners 62+ hold over $13 trillion in home equity. HELOC, HELOAN, and cash-out refinance each offer distinct strategies for supplementing retirement income while coordinating with Social Security and RMDs.',
+    date: '2026-02-28',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'mortgage-rate-lock-guide-2026',
+    title: 'Mortgage Rate Lock Guide 2026: How Rate Locks Work, Costs & Float-Down Options',
+    excerpt: 'Mortgage rate locks protect borrowers from rate increases during processing. Lock periods range from 15 to 60 days. Float-down options, lock extensions, and wholesale lock-and-shop strategies give borrowers flexibility.',
+    date: '2026-02-28',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-emergency-fund-strategy-2026',
+    title: 'HELOC as Emergency Fund 2026: Using Home Equity for Financial Safety Net',
+    excerpt: 'A standby HELOC provides emergency fund access with zero cost until drawn. Compare HELOC vs traditional savings, understand risks of using home equity as a safety net, and learn responsible use strategies.',
+    date: '2026-02-28',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-renovation-203k-2026',
+    title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, Conventional & Rehab Programs',
+    excerpt: 'Wholesale brokers access FHA 203k Standard, FHA 203k Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation from 200+ lenders. Compare renovation loan programs, requirements, and eligible improvements.',
+    date: '2026-02-28',
+    category: 'Wholesale',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-debt-consolidation-2026',
+    title: 'Wholesale Mortgage Debt Consolidation 2026: Refinance to Eliminate High-Interest Debt',
+    excerpt: 'Cash-out refinance and HELOC can consolidate high-interest debt into lower mortgage payments. Wholesale brokers compare 200+ lenders for the best execution. Understand risks of converting unsecured to secured debt.',
+    date: '2026-02-28',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loan-prepayment-penalty-guide-2026',
+    title: 'DSCR Loan Prepayment Penalty 2026: Structures, Costs & Buydown Options',
+    excerpt: 'Most DSCR investment loans include prepayment penalties structured as 5-4-3-2-1 stepdown, 3-year flat, or yield maintenance. Learn how to negotiate lower PPP, calculate breakeven, and access no-PPP programs through wholesale brokers.',
+    date: '2026-02-28',
+    category: 'DSCR',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'dscr-blanket-loan-portfolio-2026',
+    title: 'DSCR Blanket Loans 2026: Finance Multiple Investment Properties Under One Mortgage',
+    excerpt: 'DSCR blanket loans consolidate multiple investment properties under a single mortgage with one payment. Learn about release clauses, cross-collateralization, portfolio-level DSCR qualification, and wholesale broker access.',
+    date: '2026-02-28',
+    category: 'DSCR',
+    readTime: '14 min read',
+  },
   // ===== BATCH 15: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 26, 2026) =====
   {
     slug: 'reverse-mortgage-financial-assessment-2026',
