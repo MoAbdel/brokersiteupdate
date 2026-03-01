@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 17: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 1, 2026) =====
+  {
+    slug: 'reverse-mortgage-fixed-vs-adjustable-rate-hecm-2026',
+    title: 'Fixed vs Adjustable Rate Reverse Mortgage: Which HECM Option Is Right for You [2026]',
+    excerpt: 'Compare HECM fixed-rate lump sum vs adjustable-rate line of credit options. Fixed provides one-time disbursement; ARM offers flexible access with unused credit line growth. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-interest-rates-current-2026',
+    title: 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide and Comparison',
+    excerpt: 'How HECM reverse mortgage interest rates are structured: lender margin plus index, MIP components, and how rates affect principal limit factors. Compare rates across 200+ lenders. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-vs-selling-home-california-2026',
+    title: 'Reverse Mortgage vs Selling Your Home in California: Decision Guide for Seniors [2026]',
+    excerpt: 'Should California seniors sell their home or get a reverse mortgage? Compare costs, Prop 19 tax base transfer benefits, heir impact, and aging-in-place considerations. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-interest-rate-forecast-california-2026',
+    title: 'HELOC Interest Rate Forecast California 2026: When to Lock In Your Home Equity Line',
+    excerpt: 'HELOC rates are tied to the Federal Reserve federal funds rate via Prime. Understand rate direction, fixed-rate conversion options, and when California homeowners should apply. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'home-equity-loan-after-bankruptcy-california-2026',
+    title: 'Home Equity Loan After Bankruptcy in California: Waiting Periods and Requirements [2026]',
+    excerpt: 'Chapter 7 requires a 4-year wait for conventional cash-out refinance; Chapter 13 requires 2 years. Non-QM wholesale lenders offer options as soon as one day post-discharge. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-vs-home-equity-loan-california-2026',
+    title: 'HELOC vs Home Equity Loan in California: Complete Comparison Guide [2026]',
+    excerpt: 'HELOC provides revolving credit with variable rates and interest-only draw periods. Home equity loans deliver lump sums with fixed rates. Compare both for California homeowners. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'bank-statement-loan-vs-w2-mortgage-2026',
+    title: 'Bank Statement Loan vs W-2 Mortgage: Side-by-Side Comparison for California Borrowers [2026]',
+    excerpt: 'Bank statement loans use 12-24 months of deposits to verify self-employed income without tax returns. Compare documentation, down payment, and qualification differences vs W-2 mortgages. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Wholesale',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'second-home-cash-out-refinance-guide-2026',
+    title: 'Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits and Qualification Guide',
+    excerpt: 'Second home cash-out refinance is limited to 75% LTV per Fannie Mae guidelines with 6-month seasoning. Learn reserve requirements, occupancy rules, and jumbo options. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loan-california-requirements-complete-2026',
+    title: 'DSCR Loan Requirements in California 2026: Complete Investor Qualification Guide',
+    excerpt: 'California DSCR loans qualify investors on rental income, not personal income. Learn how property taxes, Mello-Roos, and HOA fees affect your DSCR ratio. 50+ DSCR lenders via wholesale. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'DSCR',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'fix-and-flip-loan-vs-dscr-comparison-2026',
+    title: 'Fix-and-Flip Loan vs DSCR Loan: Which Investment Loan Fits Your Strategy [2026]',
+    excerpt: 'Fix-and-flip loans finance short-term renovations (6-24 months). DSCR loans finance long-term rental holds (30 years). Learn how the BRRRR strategy sequences both. NMLS #1426884.',
+    date: '2026-03-01',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 16: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Feb 28, 2026) =====
   {
     slug: 'reverse-mortgage-tax-implications-2026',
