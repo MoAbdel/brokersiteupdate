@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 18: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 2, 2026) =====
+  {
+    slug: 'reverse-mortgage-vs-annuity-retirement-income-2026',
+    title: 'Reverse Mortgage vs Annuity for Retirement Income: HECM Line of Credit vs Annuity Comparison [2026]',
+    excerpt: 'Compare HECM reverse mortgage line of credit growth vs annuity for retirement income. Costs, flexibility, tax treatment, and when each strategy works for seniors 62+. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-default-prevention-obligations-2026',
+    title: 'How to Prevent Reverse Mortgage Default: HECM Borrower Obligations Guide [2026]',
+    excerpt: 'Prevent reverse mortgage default by understanding HECM borrower obligations: property taxes, homeowners insurance, maintenance, and occupancy requirements. Guide for seniors 62+. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-underwater-non-recourse-protection-2026',
+    title: 'Reverse Mortgage Non-Recourse Protection: What Happens When Home Value Drops Below Loan Balance [2026]',
+    excerpt: 'HECM non-recourse protection ensures borrowers and heirs never owe more than the home is worth. Learn how FHA mortgage insurance covers the difference when reverse mortgage balance exceeds home value. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'cash-out-refinance-vs-401k-loan-comparison-2026',
+    title: 'Cash-Out Refinance vs 401(k) Loan: Which Way to Access Funds for Major Expenses [2026]',
+    excerpt: 'Compare cash-out refinance vs 401(k) loan for major expenses. Interest rates, tax implications, repayment terms, and when each option makes financial sense for California and Washington homeowners. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-on-inherited-property-california-2026',
+    title: 'HELOC on an Inherited Property in California: Prop 19 Rules, Requirements, and Options [2026]',
+    excerpt: 'How to get a HELOC on inherited property in California. Prop 19 tax base transfer rules, title transfer requirements, equity access strategies, and wholesale lender options for heirs. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-freeze-reduction-lender-rights-2026',
+    title: 'HELOC Freeze or Reduction: Why Lenders Cut Credit Lines and How to Respond [2026]',
+    excerpt: 'When and why lenders freeze or reduce HELOC credit lines. Understand your rights under Regulation Z, reinstatement options, and alternative equity access strategies. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'wholesale-construction-to-permanent-loan-2026',
+    title: 'Construction-to-Permanent Loans Through a Wholesale Mortgage Broker: One-Time Close Guide [2026]',
+    excerpt: 'How wholesale mortgage brokers access construction-to-permanent one-time-close loans with competitive rates. Build your home in California or Washington with a single closing. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Wholesale',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-pre-approval-process-2026',
+    title: 'Wholesale Mortgage Pre-Approval Process: How Brokers Get You Approved Faster [2026]',
+    excerpt: 'How the wholesale mortgage pre-approval process works through a broker vs a bank. Faster timelines, multiple lender options, and stronger offers for California and Washington homebuyers. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'Wholesale',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'dscr-mixed-use-property-loan-2026',
+    title: 'DSCR Loans for Mixed-Use Properties: Commercial-Residential Financing Guide [2026]',
+    excerpt: 'How DSCR loans finance mixed-use properties with commercial and residential units. Minimum ratios, unit requirements, and why wholesale brokers access the best mixed-use DSCR programs. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'DSCR',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'dscr-out-of-state-investor-california-washington-2026',
+    title: 'DSCR Loans for Out-of-State Investors: Buy Rental Property in California or Washington [2026]',
+    excerpt: 'How out-of-state investors use DSCR loans to buy rental properties in California and Washington without relocating. No income verification, qualify on rental income, wholesale broker access. NMLS #1426884.',
+    date: '2026-03-02',
+    category: 'DSCR',
+    readTime: '14 min read',
+  },
   // ===== BATCH 17: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 1, 2026) =====
   {
     slug: 'reverse-mortgage-fixed-vs-adjustable-rate-hecm-2026',
