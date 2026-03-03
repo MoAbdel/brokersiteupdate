@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 19: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 3, 2026) =====
+  {
+    slug: 'reverse-mortgage-standby-line-of-credit-strategy-2026',
+    title: 'Reverse Mortgage Standby Line of Credit Strategy: HECM as Portfolio Buffer [2026]',
+    excerpt: 'How to use a HECM reverse mortgage line of credit as a standby reserve to protect your retirement portfolio from sequence-of-returns risk during market downturns.',
+    date: '2026-03-03',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-optimal-timing-age-strategy-2026',
+    title: 'Best Age for a Reverse Mortgage: HECM Timing Strategy at 62, 67, and 72+ [2026]',
+    excerpt: 'Age-by-age analysis of when to establish a HECM reverse mortgage. Compare principal limit factors, LOC growth years, and financial scenarios at 62, 67, and 72+.',
+    date: '2026-03-03',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-tenure-vs-lump-sum-disbursement-2026',
+    title: 'HECM Disbursement Options: Tenure vs Term vs Lump Sum vs Line of Credit [2026]',
+    excerpt: 'Complete comparison of all 5 HECM payment plans — tenure, term, line of credit, modified tenure, and modified term. Financial scenarios and switching rules.',
+    date: '2026-03-03',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'cash-out-refinance-investment-property-rental-2026',
+    title: 'Cash-Out Refinance on Investment Property: Rental Property Equity Access [2026]',
+    excerpt: 'How to pull equity from rental and investment properties via cash-out refinance. LTV limits, reserve requirements, conventional vs DSCR options for investors.',
+    date: '2026-03-03',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-loan-closing-costs-fees-guide-2026',
+    title: 'Home Equity Loan & HELOC Closing Costs: Complete Fee Breakdown [2026]',
+    excerpt: 'Detailed breakdown of HELOAN and HELOC closing costs — origination, appraisal, title, recording fees. How wholesale broker pricing reduces home equity loan costs.',
+    date: '2026-03-03',
+    category: 'Home Equity',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'mortgage-discount-points-buydown-strategy-2026',
+    title: 'Mortgage Discount Points & Rate Buydowns: When Points Save You Money [2026]',
+    excerpt: 'Complete guide to discount points and rate buydowns. Break-even analysis, 2-1 temporary buydowns, seller-paid buydowns, and wholesale broker point pricing advantage.',
+    date: '2026-03-03',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-appraisal-rov-process-2026',
+    title: 'Home Appraisal Process & Reconsideration of Value: Wholesale Broker Advantage [2026]',
+    excerpt: 'Complete guide to the appraisal process and ROV (Reconsideration of Value) through a wholesale mortgage broker. 2024 Fannie/Freddie ROV guidelines explained.',
+    date: '2026-03-03',
+    category: 'Wholesale',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'wholesale-mortgage-seller-concessions-credits-2026',
+    title: 'Seller Concessions & Credits: How Wholesale Brokers Maximize Buyer Savings [2026]',
+    excerpt: 'Complete guide to seller concessions and credits by loan type. Limits, negotiation strategies, temporary buydowns, and how wholesale brokers structure deals for buyers.',
+    date: '2026-03-03',
+    category: 'Wholesale',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-loan-refinance-rental-property-cash-out-2026',
+    title: 'DSCR Cash-Out Refinance: Pull Equity from Rental Properties Without Tax Returns [2026]',
+    excerpt: 'How investors use DSCR cash-out refinancing to extract equity from rental properties without personal income documentation. Requirements, LTV limits, and seasoning periods.',
+    date: '2026-03-03',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-brrrr-strategy-financing-guide-2026',
+    title: 'BRRRR Strategy Financing: How DSCR Loans Power Buy-Rehab-Rent-Refinance-Repeat [2026]',
+    excerpt: 'Complete guide to financing the BRRRR strategy with DSCR loans. Hard money for acquisition, DSCR refinance after stabilization, seasoning requirements, and portfolio scaling.',
+    date: '2026-03-03',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 18: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 2, 2026) =====
   {
     slug: 'reverse-mortgage-vs-annuity-retirement-income-2026',
