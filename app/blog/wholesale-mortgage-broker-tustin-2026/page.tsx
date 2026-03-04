@@ -57,7 +57,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
                 "name": "Can I get a jumbo loan for Tustin Legacy properties?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders for Tustin Legacy and other premium Tustin neighborhoods where prices often exceed the $1,149,825 conforming limit."
+                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders for Tustin Legacy and other premium Tustin neighborhoods where prices often exceed the $1,209,750 conforming limit."
                 }
               },
               {
@@ -81,7 +81,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
                 "name": "What loan amounts are available for Tustin homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "With Tustin median prices around $1.1M, buyers use both conforming loans up to $1,149,825 and jumbo loans for higher-priced properties, especially in Tustin Legacy and Tustin Ranch."
+                  "text": "With Tustin median prices around $1.1M, buyers use both conforming loans up to $1,209,750 and jumbo loans for higher-priced properties, especially in Tustin Legacy and Tustin Ranch."
                 }
               }
             ]
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.1M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$600K - $2.5M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Conforming / Jumbo Mix</td></tr>
             </tbody>
           </table>
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Up to $1,149,825 (2026 conforming limit)</li>
+          <li>Up to $1,209,750 (2026 conforming limit)</li>
           <li>3-20% down payment options</li>
           <li>Popular for homes under the conforming limit</li>
           <li>Rate shopping across 200+ lenders</li>
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>Jumbo Loans</h3>
         <ul>
-          <li>Loans above $1,149,825 up to $5M+</li>
+          <li>Loans above $1,209,750 up to $5M+</li>
           <li>Access to 50+ jumbo lenders</li>
           <li>Required for many Tustin Legacy luxury homes</li>
           <li>Bank statement jumbo for self-employed borrowers</li>
@@ -197,7 +197,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - Built In</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">New Construction</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
               <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
@@ -240,7 +240,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>Can I get a jumbo loan for Tustin Legacy properties?</h3>
         <p>
-          Yes. Wholesale brokers have access to 50+ jumbo lenders, perfect for Tustin Legacy and Tustin Ranch homes that often exceed the $1,149,825 conforming limit. Multiple jumbo options ensure competitive rates and terms.
+          Yes. Wholesale brokers have access to 50+ jumbo lenders, perfect for Tustin Legacy and Tustin Ranch homes that often exceed the $1,209,750 conforming limit. Multiple jumbo options ensure competitive rates and terms.
         </p>
 
         <h3>How do Tustin wholesale rates compare to local banks?</h3>
@@ -255,7 +255,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>What loan amounts are available for Tustin homes?</h3>
         <p>
-          With Tustin median prices around $1.1M, buyers use both conforming loans up to $1,149,825 and jumbo loans for higher-priced properties. The market straddles this threshold, making access to both loan types essential.
+          With Tustin median prices around $1.1M, buyers use both conforming loans up to $1,209,750 and jumbo loans for higher-priced properties. The market straddles this threshold, making access to both loan types essential.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

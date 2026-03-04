@@ -470,7 +470,7 @@ export default function ReverseMortgageCalculatorPage() {
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <p className="text-sm text-gray-600">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106<br />
-                        Licensed in: CA, WA, CO<br /><br />
+                        Licensed in: CA, WA<br /><br />
                         <strong>Equal Housing Lender.</strong> This material is not from HUD or FHA and has not been approved by HUD or a government agency. Reverse mortgage borrowers must be 62 years or older. You must complete HUD-approved counseling before obtaining a reverse mortgage. Calculations shown are estimates only. Actual proceeds depend on appraisal, current interest rates, and underwriting. This is not a commitment to lend.
                     </p>
                 </div>

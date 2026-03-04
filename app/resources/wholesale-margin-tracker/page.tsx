@@ -228,7 +228,7 @@ export default function WholesaleMarginTrackerPage() {
                 A borrower with a $750,000 conforming loan saves approximately $47,000 over 30
                 years by using wholesale broker pricing instead of retail bank rates. This figure
                 accounts for both the lower interest rate (0.500% spread) and reduced upfront fees.
-                For jumbo loans above $1,266,300 (the 2026 conforming limit in high-cost areas),
+                For jumbo loans above $1,209,750 (the 2026 conforming limit in high-cost areas),
                 savings increase further because jumbo spreads between wholesale and retail
                 consistently run 0.500&ndash;0.625%.
               </p>

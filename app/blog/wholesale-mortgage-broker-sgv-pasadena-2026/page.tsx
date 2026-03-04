@@ -161,7 +161,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         "name": "What is the conforming loan limit for the San Gabriel Valley in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The 2026 conforming loan limit for Los Angeles County, which includes the entire San Gabriel Valley, is $1,149,825 for a single-family home. Loans above this amount are classified as jumbo and priced through non-agency (wholesale) lenders who specialize in high-value markets."
+          "text": "The 2026 conforming loan limit for Los Angeles County, which includes the entire San Gabriel Valley, is $1,209,750 for a single-family home. Loans above this amount are classified as jumbo and priced through non-agency (wholesale) lenders who specialize in high-value markets."
         }
       },
       {
@@ -231,6 +231,12 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         </p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
@@ -279,7 +285,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
 
         <h3>High-Value Market Demands Jumbo Expertise</h3>
         <p>
-          With median home values ranging from $1 million in La Crescenta to $3 million in San Marino, the vast majority of San Gabriel Valley purchase transactions require jumbo financing. The 2026 Los Angeles County conforming loan limit is $1,149,825 for a single-family home, meaning any loan above this amount enters jumbo territory.
+          With median home values ranging from $1 million in La Crescenta to $3 million in San Marino, the vast majority of San Gabriel Valley purchase transactions require jumbo financing. The 2026 Los Angeles County conforming loan limit is $1,209,750 for a single-family home, meaning any loan above this amount enters jumbo territory.
         </p>
         <p>
           Jumbo underwriting varies dramatically across lenders. One wholesale lender may offer 10% down on a $2 million purchase in La Ca&ntilde;ada Flintridge, while a competitor requires 20% but offers a lower rate. Another may allow asset-based income qualification that works for a retired Caltech professor, while most require traditional W-2 documentation. A wholesale broker&apos;s ability to simultaneously compare 50+ jumbo programs is the single most valuable tool for SGV homebuyers.
@@ -500,7 +506,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         {/* Jumbo Loan Deep Dive */}
         <h2>Jumbo &amp; Super-Jumbo Mortgage Programs for SGV Properties</h2>
         <p>
-          The San Gabriel Valley is fundamentally a jumbo loan market. With the 2026 conforming limit at $1,149,825 and median home prices ranging from $1 million to $3 million across the nine cities, most purchase and refinance transactions require jumbo or super-jumbo financing. Wholesale channels provide the widest selection of jumbo products with the most competitive pricing.
+          The San Gabriel Valley is fundamentally a jumbo loan market. With the 2026 conforming limit at $1,209,750 and median home prices ranging from $1 million to $3 million across the nine cities, most purchase and refinance transactions require jumbo or super-jumbo financing. Wholesale channels provide the widest selection of jumbo products with the most competitive pricing.
         </p>
 
         <h3>Jumbo Loan Parameters Available Through Wholesale</h3>
@@ -569,7 +575,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         </p>
         <ul>
           <li><strong>Conventional 97% LTV:</strong> 3% down payment for loans under the conforming limit on primary residences</li>
-          <li><strong>FHA loans:</strong> 3.5% down payment with more flexible credit requirements. FHA loan limit for LA County: $1,149,825</li>
+          <li><strong>FHA loans:</strong> 3.5% down payment with more flexible credit requirements. FHA loan limit for LA County: $1,209,750</li>
           <li><strong>VA loans:</strong> 0% down payment for eligible veterans and active military. No loan limit for VA-eligible borrowers with full entitlement</li>
           <li><strong>CalHFA programs:</strong> California Housing Finance Agency offers down payment assistance and reduced-rate first mortgage programs for income-qualified buyers</li>
           <li><strong>Wholesale lender first-time buyer specials:</strong> Select wholesale lenders offer rate reductions, closing cost credits, or reduced PMI for first-time buyers</li>
@@ -679,7 +685,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">What is the conforming loan limit for the San Gabriel Valley in 2026?</h3>
-            <p>The 2026 conforming loan limit for Los Angeles County is $1,149,825 for a single-family home. Loans above this amount are classified as jumbo and priced through wholesale lenders who specialize in high-value markets like the SGV.</p>
+            <p>The 2026 conforming loan limit for Los Angeles County is $1,209,750 for a single-family home. Loans above this amount are classified as jumbo and priced through wholesale lenders who specialize in high-value markets like the SGV.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">

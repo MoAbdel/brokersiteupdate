@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92617Page() {
                 "name": "What loan amounts are typical near UCI in 92617?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The UCI area in 92617 has a median home price of $1.2 million. Homes in University Town Center, Park West, and near campus often range from $900K-$2M, frequently requiring jumbo financing above the $1,149,825 conforming limit."
+                  "text": "The UCI area in 92617 has a median home price of $1.2 million. Homes in University Town Center, Park West, and near campus often range from $900K-$2M, frequently requiring jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92617Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92617 surrounds the University of California, Irvine campus with <strong>$1.2 million median home prices</strong> attracting faculty, researchers, and tech professionals. At these price points exceeding the $1,149,825 conforming limit, most buyers need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs tailored to academic and professional income situations.
+            Irvine 92617 surrounds the University of California, Irvine campus with <strong>$1.2 million median home prices</strong> attracting faculty, researchers, and tech professionals. At these price points exceeding the $1,209,750 conforming limit, most buyers need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs tailored to academic and professional income situations.
           </p>
         </div>
 
@@ -177,7 +177,7 @@ export default function WholesaleMortgageBroker92617Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$600,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$900,000 - $2,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">18-30 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92617Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amounts are typical near UCI in 92617?</h3>
-            <p className="mb-0">The UCI area in 92617 has a median home price of $1.2 million. Homes in University Town Center, Park West, and near campus often range from $900K-$2M, frequently requiring jumbo financing above the $1,149,825 conforming limit.</p>
+            <p className="mb-0">The UCI area in 92617 has a median home price of $1.2 million. Homes in University Town Center, Park West, and near campus often range from $900K-$2M, frequently requiring jumbo financing above the $1,209,750 conforming limit.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help UCI faculty and staff with mortgages?</h3>

@@ -57,7 +57,7 @@ export default function ReverseMortgageDelMarPage() {
                 "name": "How much equity can Del Mar seniors access?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Del Mar seniors can access substantial equity given the area's high property values. The FHA limit is $1,149,825, but proprietary programs serve higher values. Actual proceeds depend on your age, specific home value, and current interest rates."
+                  "text": "Del Mar seniors can access substantial equity given the area's high property values. The FHA limit is $1,209,750, but proprietary programs serve higher values. Actual proceeds depend on your age, specific home value, and current interest rates."
                 }
               },
               {
@@ -97,6 +97,12 @@ export default function ReverseMortgageDelMarPage() {
           Unlocking equity in San Diego's premier coastal village
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -200,7 +206,7 @@ export default function ReverseMortgageDelMarPage() {
 
         <h3>How much equity can Del Mar seniors access?</h3>
         <p>
-          Del Mar seniors can access substantial equity given the area's high property values. The FHA limit is $1,149,825, but proprietary programs serve higher values. Actual proceeds depend on your age, specific home value, and current interest rates.
+          Del Mar seniors can access substantial equity given the area's high property values. The FHA limit is $1,209,750, but proprietary programs serve higher values. Actual proceeds depend on your age, specific home value, and current interest rates.
         </p>
 
         <h3>Do Del Mar oceanfront homes qualify for reverse mortgages?</h3>

@@ -107,7 +107,7 @@ export default function ReverseMortgageIEAffluent2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM lending limit for Inland Empire reverse mortgages?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. For Inland Empire properties, this limit comfortably serves all homes in Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland. No communities in the IE affluent corridor exceed the HECM cap at median values, making the FHA HECM the primary program for the entire region.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. For Inland Empire properties, this limit comfortably serves all homes in Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland. No communities in the IE affluent corridor exceed the HECM cap at median values, making the FHA HECM the primary program for the entire region.',
     },
     {
       question: 'Can I get a reverse mortgage on my Alta Loma home in Rancho Cucamonga?',
@@ -255,6 +255,12 @@ export default function ReverseMortgageIEAffluent2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -292,7 +298,7 @@ export default function ReverseMortgageIEAffluent2026() {
           </p>
 
           <p>
-            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in appreciating markets like the Inland Empire benefit from equity growth that maintains strong loan-to-value positions over the life of the loan. The 2026 FHA HECM lending limit of $1,149,825 comfortably serves all properties in this corridor, as median values range from $700,000 in Redlands to $1 million in Rancho Cucamonga.
+            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in appreciating markets like the Inland Empire benefit from equity growth that maintains strong loan-to-value positions over the life of the loan. The 2026 FHA HECM lending limit of $1,209,750 comfortably serves all properties in this corridor, as median values range from $700,000 in Redlands to $1 million in Rancho Cucamonga.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -350,7 +356,7 @@ export default function ReverseMortgageIEAffluent2026() {
           <h2 id="payout-comparison" className="text-2xl font-bold text-gray-900">HECM vs. Proprietary Reverse Mortgage Payout Comparison</h2>
 
           <p>
-            The Inland Empire&apos;s affluent corridor is predominantly a HECM market. With median values ranging from $700,000 to $1 million, all properties fall within the $1,149,825 HECM lending limit. This means FHA-insured reverse mortgages with their full range of payout options, line of credit growth features, and government-backed non-recourse protections are available to every qualified senior in these communities.
+            The Inland Empire&apos;s affluent corridor is predominantly a HECM market. With median values ranging from $700,000 to $1 million, all properties fall within the $1,209,750 HECM lending limit. This means FHA-insured reverse mortgages with their full range of payout options, line of credit growth features, and government-backed non-recourse protections are available to every qualified senior in these communities.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -365,7 +371,7 @@ export default function ReverseMortgageIEAffluent2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Max Property Value Basis</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$4M+</td>
                 </tr>
                 <tr>
@@ -500,7 +506,7 @@ export default function ReverseMortgageIEAffluent2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Chino Hills Reverse Mortgage Insight</h4>
-            <p className="mb-0">Chino Hills&apos; tri-county position provides a reverse mortgage advantage that many homeowners overlook: the property&apos;s value benefits from demand across three county employment centers, reducing vulnerability to any single economic sector. Chino Valley Unified&apos;s school reputation continues to attract buyers, supporting appreciation even during broader market softening. For retiring professionals who commuted to Orange County or LA, a reverse mortgage replaces commute-era income with tax-free equity access. A 72-year-old Chino Hills homeowner with a paid-off $900,000 home can access approximately $438,000 in HECM proceeds.</p>
+            <p className="mb-0">Chino Hills&apos; tri-county position provides a reverse mortgage advantage that many homeowners overlook: the property&apos;s value benefits from demand across three county employment centers, reducing vulnerability to any single economic sector. Chino Valley Unified&apos;s school reputation continues to attract buyers, supporting appreciation even during broader market softening. For retiring professionals who commuted to Orange County or LA, a reverse mortgage replaces commute-era income with loan proceeds (generally not considered taxable income) equity access. A 72-year-old Chino Hills homeowner with a paid-off $900,000 home can access approximately $438,000 in HECM proceeds.</p>
           </div>
 
           <hr className="my-10" />
@@ -621,7 +627,7 @@ export default function ReverseMortgageIEAffluent2026() {
           </p>
 
           <p>
-            <strong>Dynamic 1: LA/OC Commuter Retirement Transition.</strong> The Inland Empire&apos;s affluent communities were built by professionals who commuted to jobs in Los Angeles, Orange County, and the San Gabriel Valley. These homeowners earned LA/OC salaries while enjoying IE home prices&mdash;a combination that created strong equity positions over 20 to 30 years. As these commuters retire, they face a fundamental income transition: replacing $100,000+ annual salaries with Social Security, pension, and investment income. A reverse mortgage fills this gap by converting their $400,000 to $800,000 in accumulated equity into monthly payments or a growing line of credit that supplements retirement income tax-free.
+            <strong>Dynamic 1: LA/OC Commuter Retirement Transition.</strong> The Inland Empire&apos;s affluent communities were built by professionals who commuted to jobs in Los Angeles, Orange County, and the San Gabriel Valley. These homeowners earned LA/OC salaries while enjoying IE home prices&mdash;a combination that created strong equity positions over 20 to 30 years. As these commuters retire, they face a fundamental income transition: replacing $100,000+ annual salaries with Social Security, pension, and investment income. A reverse mortgage fills this gap by converting their $400,000 to $800,000 in accumulated equity into monthly payments or a growing line of credit that supplements retirement income loan proceeds.
           </p>
 
           <p>
@@ -769,7 +775,7 @@ export default function ReverseMortgageIEAffluent2026() {
               The Inland Empire&apos;s affluent Foothill Corridor from Claremont through Redlands represents one of California&apos;s most underserved reverse mortgage markets. Long-term homeowners with median values from $700,000 to $1 million have accumulated substantial equity through decades of ownership and consistent appreciation. Whether you are a retired educator in Claremont, an Esri professional in Redlands, an Alta Loma wine country homeowner in Rancho Cucamonga, or a Chino Hills professional who commuted to Orange County for 25 years, a reverse mortgage converts your illiquid home equity into accessible retirement resources without monthly payments, tax consequences, or loss of homeownership.
             </p>
             <p className="text-gray-800">
-              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. Every property in the IE affluent corridor falls within the $1,149,825 HECM limit, giving all qualified seniors access to the full range of FHA-insured payout options. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
+              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. Every property in the IE affluent corridor falls within the $1,209,750 HECM limit, giving all qualified seniors access to the full range of FHA-insured payout options. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore reverse mortgage options for your Inland Empire home? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM programs tailored to your property value, age, and financial goals.

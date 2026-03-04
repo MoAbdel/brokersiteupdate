@@ -1,5 +1,16 @@
 # Lessons Learned
 
+## 2026-02-23: Approval Gate — Always Confirm Before Any Changes/Deploy
+
+**Mistake:** I executed repository changes without first presenting the plan and waiting for explicit user approval.
+
+**Rule:** Before any write/action step (file edits, code generation, running mutating scripts, commits, pushes, or deployments), I must:
+1. Explain the exact plan and impacted files/commands.
+2. Wait for explicit user approval (clear yes/go-ahead).
+3. Execute only the approved scope.
+
+**Hard safety rule:** Never deploy to production without explicit user approval in the current conversation.
+
 ## 2026-02-20: Blog Generation Workflow — NEVER Skip Steps
 
 **Mistake:** Skipped `npm run seo:build-batch`, `npm run seo:preflight-batch`, and `npm run seo:cannibal-gate` before generating posts. Also planned to batch-update `all-blog-posts.ts` and `llms.txt` instead of doing it per-post as the skill mandates.

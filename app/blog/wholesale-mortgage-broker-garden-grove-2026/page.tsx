@@ -81,7 +81,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
                 "name": "What loan amounts are available for Garden Grove homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "With Garden Grove median prices around $850K, most buyers use conforming loans up to $1,149,825 (2026 limit). FHA and conventional options are popular in this market."
+                  "text": "With Garden Grove median prices around $850K, most buyers use conforming loans up to $1,209,750 (2026 limit). FHA and conventional options are popular in this market."
                 }
               }
             ]
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$850K</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$550K - $1.5M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Conforming / FHA</td></tr>
             </tbody>
           </table>
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Up to $1,149,825 (2026 conforming limit)</li>
+          <li>Up to $1,209,750 (2026 conforming limit)</li>
           <li>3-20% down payment options</li>
           <li>Conventional 97 program for 3% down</li>
           <li>No upfront mortgage insurance like FHA</li>
@@ -200,7 +200,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>West Garden Grove</h3>
         <p>
-          Near the 22 Freeway with excellent commuter access. Homes range from $700K to $1.1M. Popular with families seeking larger lots and established neighborhoods.
+          Near the 22 Freeway with excellent commuter access. Homes range from $700K to $1.1M. Known for larger lots and established neighborhoods with mature trees.
         </p>
 
         <h3>Little Saigon Area</h3>
@@ -242,7 +242,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>What loan amounts are available for Garden Grove homes?</h3>
         <p>
-          With Garden Grove median prices around $850K, most buyers qualify for conforming loans up to $1,149,825 (2026 limit). FHA and conventional options are highly popular in this value-focused market.
+          With Garden Grove median prices around $850K, most buyers qualify for conforming loans up to $1,209,750 (2026 limit). FHA and conventional options are highly popular in this value-focused market.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

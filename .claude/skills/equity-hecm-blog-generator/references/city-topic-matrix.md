@@ -412,7 +412,7 @@ Instead of generic HELOC content:
 ❌ Generic: "A HELOC lets you access home equity..."
 
 ✓ Angled: "For Newport Beach homeowners with properties valued above the
-$1,149,825 conforming limit, a jumbo HELOC provides flexible access to
+$1,209,750 conforming limit, a jumbo HELOC provides flexible access to
 substantial equity. In Corona del Mar and Balboa Island, where median
 home values exceed $3 million, a well-structured HELOC can unlock
 $500,000+ in renovation capital or investment funds..."

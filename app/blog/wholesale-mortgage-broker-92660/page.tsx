@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92660Page() {
                 "name": "What is the typical loan amount for Newport Beach 92660?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Newport Beach 92660 has a median home price of $2.8 million. After down payment, most buyers need jumbo loans of $1.7-2.5 million. The 2026 conforming limit of $1,149,825 covers only about 41% of the typical purchase price."
+                  "text": "Newport Beach 92660 has a median home price of $2.8 million. After down payment, most buyers need jumbo loans of $1.7-2.5 million. The 2026 conforming limit of $1,209,750 covers only about 41% of the typical purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92660Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Beach 92660 encompasses the city&apos;s established residential neighborhoods at a <strong>$2.8 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers only 41% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and non-QM expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo, Chase, or First Republic</strong> for Newport Beach buyers.
+            Newport Beach 92660 encompasses the city&apos;s established residential neighborhoods at a <strong>$2.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 41% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and non-QM expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo, Chase, or First Republic</strong> for Newport Beach buyers.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92660Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,400,000 - $10,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,700,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">30-55 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (insufficient here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (insufficient here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -277,7 +277,7 @@ export default function WholesaleMortgageBroker92660Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount for Newport Beach 92660?</h3>
-            <p className="mb-0">Newport Beach 92660 has a median home price of $2.8 million. After down payment, most buyers need jumbo loans of $1.7-2.5 million. The 2026 conforming limit of $1,149,825 covers only about 41% of the typical purchase price.</p>
+            <p className="mb-0">Newport Beach 92660 has a median home price of $2.8 million. After down payment, most buyers need jumbo loans of $1.7-2.5 million. The 2026 conforming limit of $1,209,750 covers only about 41% of the typical purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is a non-QM loan and does it work for Newport Beach buyers?</h3>

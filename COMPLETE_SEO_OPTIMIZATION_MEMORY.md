@@ -25,7 +25,7 @@
 
 ### About (/about)
 - **Title:** "About Mo The Broker | West Capital Lending Broker in California"
-- **Meta Description:** "Meet Mo The Broker – licensed mortgage broker helping clients in CA, WA, VA & CO get better rates, faster approvals, and more loan options."
+- **Meta Description:** "Meet Mo The Broker – licensed mortgage broker helping clients in CA & WA get better rates, faster approvals, and more loan options."
 
 ### Contact (/contact)
 - **Title:** "Contact Mo The Broker | Apply for a Home Loan in Orange County"

@@ -16,7 +16,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
       },
       related: [
         { title: 'FHA Loans', href: '/loan-programs/fha-loans', description: '3.5% down payment options' },
-        { title: 'VA Loans', href: '/loan-programs/va-loans', description: '0% down for veterans' },
+        { title: 'VA Loans', href: '/loan-programs/orange-county-va-loans', description: '0% down for veterans' },
         { title: 'Conventional Loans', href: '/loan-programs/conventional-loans', description: 'Traditional mortgage options' },
         { title: 'Jumbo Loans', href: '/loan-programs/jumbo-loans', description: 'High-value property financing' },
         { title: 'HELOC', href: '/loan-programs/heloc', description: 'Home equity credit lines' },
@@ -79,7 +79,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
         { title: 'Affordability Calculator', href: '/calculator/affordability', description: 'How much house can you afford' },
         { title: 'Debt-to-Income Calculator', href: '/calculator/debt-to-income', description: 'DTI ratios and approval odds' },
         { title: 'Closing Costs Calculator', href: '/calculator/closing-costs', description: 'Estimate total closing costs' },
-        { title: 'Advanced pricing Calculator', href: '/tools/mortgage-calculator', description: 'Detailed rate comparisons' }
+        { title: 'Advanced pricing Calculator', href: '/calculator', description: 'Detailed rate comparisons' }
       ]
     }
   };

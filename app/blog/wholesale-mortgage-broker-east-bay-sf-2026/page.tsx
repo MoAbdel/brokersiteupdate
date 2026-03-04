@@ -220,6 +220,18 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -751,13 +763,13 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Conventional Conforming</td>
-                  <td className="px-4 py-3 border-t">$766,550</td>
+                  <td className="px-4 py-3 border-t">$806,500</td>
                   <td className="px-4 py-3 border-t">3-5%</td>
                   <td className="px-4 py-3 border-t">Entry-level condos in Fremont or Dublin</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">High-Balance Conforming</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (Bay Area)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (Bay Area)</td>
                   <td className="px-4 py-3 border-t">5-10%</td>
                   <td className="px-4 py-3 border-t">Mid-range purchases in Dublin, Fremont, Walnut Creek</td>
                 </tr>
@@ -775,7 +787,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">FHA</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (Bay Area)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (Bay Area)</td>
                   <td className="px-4 py-3 border-t">3.5%</td>
                   <td className="px-4 py-3 border-t">First-time buyers with lower credit in East Bay</td>
                 </tr>

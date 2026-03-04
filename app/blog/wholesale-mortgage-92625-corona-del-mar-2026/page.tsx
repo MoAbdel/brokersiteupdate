@@ -49,7 +49,7 @@ export default function WholesaleMortgage92625CoronaDelMarPage() {
                 "name": "What is the typical loan amount for Corona del Mar 92625 homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Corona del Mar 92625 has a median home price of $3.8M, requiring jumbo loans well above the $1,149,825 conforming limit. Most purchases require loans from $2M to $6M+."
+                  "text": "Corona del Mar 92625 has a median home price of $3.8M, requiring jumbo loans well above the $1,209,750 conforming limit. Most purchases require loans from $2M to $6M+."
                 }
               },
               {
@@ -136,7 +136,7 @@ export default function WholesaleMortgage92625CoronaDelMarPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$3.8M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.5M - $20M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo / Bank Statement</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Amount</td><td className="py-2 px-4 font-semibold">$2M - $6M+</td></tr>
             </tbody>
@@ -160,7 +160,7 @@ export default function WholesaleMortgage92625CoronaDelMarPage() {
 
         <h3>Primary Residence Jumbo Loans</h3>
         <ul>
-          <li>Loans from $1,149,825 to $10M+</li>
+          <li>Loans from $1,209,750 to $10M+</li>
           <li>20-25% down payment typical</li>
           <li>Fixed-rate and ARM options</li>
           <li>Interest-only available for qualified borrowers</li>
@@ -240,7 +240,7 @@ export default function WholesaleMortgage92625CoronaDelMarPage() {
 
         <h3>What is the typical loan amount for Corona del Mar 92625 homes?</h3>
         <p>
-          Corona del Mar 92625 has a median home price of $3.8M, requiring jumbo loans well above the $1,149,825 conforming limit. Most purchases require loans from $2M to $6M+, with Cameo Shores properties often requiring larger financing.
+          Corona del Mar 92625 has a median home price of $3.8M, requiring jumbo loans well above the $1,209,750 conforming limit. Most purchases require loans from $2M to $6M+, with Cameo Shores properties often requiring larger financing.
         </p>
 
         <h3>Can self-employed buyers get bank statement loans in Corona del Mar?</h3>

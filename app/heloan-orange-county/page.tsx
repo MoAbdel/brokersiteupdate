@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     question: "What are the 2026 loan limits for HELOANs in Orange County?",
-    answer: "Fixed-rate home equity loans are typically structured within the conforming cap of $1,249,125, with FHA-backed options capped at $1,266,300. However, many HELOAN programs can go higher depending on your home's value and lender guidelines. Orange County's high property values often allow for substantial borrowing capacity."
+    answer: "Fixed-rate home equity loans are typically structured within the conforming cap of $1,209,750, with FHA-backed options capped at $1,209,750. However, many HELOAN programs can go higher depending on your home's value and lender guidelines. Orange County's high property values often allow for substantial borrowing capacity."
   },
   {
     question: "HELOAN vs HELOC - which is better for Orange County homeowners?",
@@ -246,18 +246,18 @@ export default function HELOANOrangeCountyPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 mb-6 text-center" data-speakable="true">
-                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,249,125</strong>,
-                with FHA-backed options capped at <strong>$1,266,300</strong>. With Orange County's high property values,
+                Fixed-rate home equity loans are typically structured within the conforming cap of <strong>$1,209,750</strong>,
+                with FHA-backed options capped at <strong>$1,209,750</strong>. With Orange County's high property values,
                 many homeowners can access substantial borrowing capacity.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,249,125</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,209,750</h3>
                   <p className="text-slate-700">2026 Conforming Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">Maximum for conventional programs</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
+                  <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,209,750</h3>
                   <p className="text-slate-700">2026 FHA Loan Limit</p>
                   <p className="text-sm text-slate-600 mt-2">FHA-backed equity options</p>
                 </div>

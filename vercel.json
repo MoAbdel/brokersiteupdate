@@ -93,6 +93,18 @@
   ],
   "redirects": [
     {
+      "source": "/((?!geo-blocked$).*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-vercel-ip-country",
+          "value": "^(?!US$).+"
+        }
+      ],
+      "destination": "/geo-blocked",
+      "permanent": false
+    },
+    {
       "source": "/(.*)",
       "has": [
         {

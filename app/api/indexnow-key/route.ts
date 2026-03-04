@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 
+const DEFAULT_INDEXNOW_KEY = 'f56edfca5e434ba8bda3e1cb34e4a6d9';
+
 export async function GET() {
-  return new NextResponse('494ad9630c93410f9ad7b243178c596a', {
+  const key = process.env.INDEXNOW_KEY?.trim() || DEFAULT_INDEXNOW_KEY;
+
+  return new NextResponse(key, {
     status: 200,
     headers: {
       'Content-Type': 'text/plain',

@@ -1,30 +1,34 @@
 ---
 name: equity-hecm-blog-generator
-description: Use when generating blog content about reverse mortgages (HECM), cash-out refinance, HELOC, HELOAN, home equity, refinancing, DSCR (debt service coverage ratio) investor loans, or WHOLESALE MORTGAGE BROKER content for mothebroker.com. Supports three-track content (seniors 62+, all homeowners, and wholesale education), 3-tier pillar/regional-pillar/hub architecture covering top 50% wealthiest cities across ALL of California and Washington state. DSCR is a HEAVILY WEIGHTED topic — investor loans are a core differentiator for wholesale brokers. Optimized for SEO/GEO/AIO/AEO 2026 with Bing-dominant structured content.
+description: Use when generating blog content about reverse mortgages (HECM), refinancing (rate-and-term + cash-out), HELOC, HELOAN, DSCR (debt service coverage ratio) investor loans, or wholesale mortgage broker content for mothebroker.com. Supports four equally-weighted core topics with 3-tier pillar/regional-pillar/hub architecture covering top 50% wealthiest cities across ALL of California and Washington state. All content optimized for SEO/GEO/AIO/AEO 2026 with Bing-dominant structured content.
 ---
 
-# Equity, HECM & Wholesale Blog Generator
+# Mortgage Blog Generator — 4-Topic Model
 
-Generate SEO-optimized blog content for mothebroker.com focused on:
-- **Track 1:** HECM (reverse mortgages) for seniors 62+
-- **Track 2:** Home equity products (cash-out refinance, HELOC, HELOAN) for all homeowners
-- **Track 3:** Wholesale mortgage broker education (category captain positioning)
+Generate SEO/GEO/AIO/AEO-optimized blog content for mothebroker.com across four equally-weighted core topics:
+
+- **Topic 1: Refinance** — Rate-and-term refinance + cash-out refinance (all homeowners)
+- **Topic 2: HELOC / HELOAN** — Home equity lines of credit + home equity loans (all homeowners)
+- **Topic 3: HECM** — Reverse mortgages for seniors 62+ (Home Equity Conversion Mortgage)
+- **Topic 4: DSCR** — Debt service coverage ratio investor loans (real estate investors)
+
+> **Wholesale broker education** (broker vs bank, wholesale vs retail, 200+ lender advantage) is **supplemental/filler content** — generate only when opportunity data specifically indicates demand. It is NOT a core topic.
 
 ## Content Architecture
 
 ```
-TRACK 1: SENIORS (62+)        TRACK 2: HOMEOWNERS         TRACK 3: WHOLESALE EDUCATION
-─────────────────────         ───────────────────         ────────────────────────────
-   STATE PILLARS (CA+WA)        STATE PILLARS (CA+WA)       STATE PILLARS (CA+WA)
-         │                           │                           │
-   REGIONAL PILLARS              REGIONAL PILLARS           REGIONAL PILLARS
-   (per major region)            (per major region)         (6 CA + 2 WA metros)
-         │                           │                           │
-   HUB POSTS                    HUB POSTS                  HUB POSTS
-   (5-10 cities grouped)        (5-10 cities grouped)      (5-10 cities grouped)
-         │                           │                           │
-   CLUSTER POSTS                CLUSTER POSTS               CLUSTER POSTS
-   (12 educational)             (14 educational)            (7 educational)
+TOPIC 1: REFINANCE            TOPIC 2: HELOC/HELOAN       TOPIC 3: HECM (62+)         TOPIC 4: DSCR (INVESTORS)
+──────────────────            ─────────────────────       ────────────────────         ─────────────────────────
+  STATE PILLARS (CA+WA)        STATE PILLARS (CA+WA)       STATE PILLARS (CA+WA)       STATE PILLARS (CA+WA)
+        │                           │                           │                           │
+  REGIONAL PILLARS              REGIONAL PILLARS           REGIONAL PILLARS            REGIONAL PILLARS
+  (per major region)            (per major region)         (per major region)          (6 CA + 2 WA metros)
+        │                           │                           │                           │
+  HUB POSTS                    HUB POSTS                  HUB POSTS                   HUB POSTS
+  (5-10 cities grouped)        (5-10 cities grouped)      (5-10 cities grouped)       (5-10 cities grouped)
+        │                           │                           │                           │
+  CLUSTER POSTS                CLUSTER POSTS               CLUSTER POSTS               CLUSTER POSTS
+  (educational)                (educational)               (educational)               (educational)
 ```
 
 ---
@@ -51,50 +55,50 @@ See "Content Differentiation Gate" in Quality Gates section for mandatory checks
 digraph generation_flow {
     rankdir=TB;
     "User Request" [shape=box];
-    "Determine Type" [shape=box];
+    "Research Phase" [shape=box];
+    "Bing AI Overview Research" [shape=box];
+    "GSC CTR Gap Analysis" [shape=box];
+    "Entity Intersection Check" [shape=box];
     "Check Duplicates" [shape=diamond];
     "SKIP (exists)" [shape=box, color=red];
-    "Track?" [shape=diamond];
-    "Content Type?" [shape=diamond];
-    "HECM Track" [shape=box];
-    "Equity Track" [shape=box];
-    "Wholesale Track" [shape=box];
-    "State Pillar" [shape=box];
-    "Regional Pillar" [shape=box];
-    "Hub Post" [shape=box];
-    "Cluster" [shape=box];
-    "Load Template" [shape=box];
+    "Determine Topic" [shape=diamond];
+    "Refi Topic" [shape=box];
+    "HELOC/HELOAN Topic" [shape=box];
+    "HECM Topic" [shape=box];
+    "DSCR Topic" [shape=box];
+    "Select Template" [shape=box];
     "Generate Content" [shape=box];
     "Apply Compliance" [shape=box];
     "Add Schema" [shape=box];
     "Write page.tsx" [shape=box];
     "Add to all-blog-posts.ts" [shape=box];
+    "Update llms.txt" [shape=box];
     "Output" [shape=doublecircle];
 
-    "User Request" -> "Determine Type";
-    "Determine Type" -> "Check Duplicates";
+    "User Request" -> "Research Phase";
+    "Research Phase" -> "Bing AI Overview Research";
+    "Research Phase" -> "GSC CTR Gap Analysis";
+    "Research Phase" -> "Entity Intersection Check";
+    "Bing AI Overview Research" -> "Check Duplicates";
+    "GSC CTR Gap Analysis" -> "Check Duplicates";
+    "Entity Intersection Check" -> "Check Duplicates";
     "Check Duplicates" -> "SKIP (exists)" [label="duplicate"];
-    "Check Duplicates" -> "Track?" [label="new"];
-    "Track?" -> "HECM Track" [label="seniors/HECM"];
-    "Track?" -> "Equity Track" [label="equity/refinance"];
-    "Track?" -> "Wholesale Track" [label="wholesale/broker"];
-    "HECM Track" -> "Content Type?";
-    "Equity Track" -> "Content Type?";
-    "Wholesale Track" -> "Content Type?";
-    "Content Type?" -> "State Pillar" [label="state pillar"];
-    "Content Type?" -> "Regional Pillar" [label="regional pillar"];
-    "Content Type?" -> "Hub Post" [label="hub (multi-city)"];
-    "Content Type?" -> "Cluster" [label="cluster topic"];
-    "State Pillar" -> "Load Template";
-    "Regional Pillar" -> "Load Template";
-    "Hub Post" -> "Load Template";
-    "Cluster" -> "Load Template";
-    "Load Template" -> "Generate Content";
+    "Check Duplicates" -> "Determine Topic" [label="new"];
+    "Determine Topic" -> "Refi Topic" [label="rate-term/cash-out"];
+    "Determine Topic" -> "HELOC/HELOAN Topic" [label="HELOC/HELOAN"];
+    "Determine Topic" -> "HECM Topic" [label="reverse mortgage"];
+    "Determine Topic" -> "DSCR Topic" [label="investor/DSCR"];
+    "Refi Topic" -> "Select Template";
+    "HELOC/HELOAN Topic" -> "Select Template";
+    "HECM Topic" -> "Select Template";
+    "DSCR Topic" -> "Select Template";
+    "Select Template" -> "Generate Content";
     "Generate Content" -> "Apply Compliance";
     "Apply Compliance" -> "Add Schema";
     "Add Schema" -> "Write page.tsx";
     "Write page.tsx" -> "Add to all-blog-posts.ts";
-    "Add to all-blog-posts.ts" -> "Output";
+    "Add to all-blog-posts.ts" -> "Update llms.txt";
+    "Update llms.txt" -> "Output";
 }
 ```
 
@@ -102,33 +106,44 @@ digraph generation_flow {
 
 ### Single Post
 ```
-Generate [TRACK] [TYPE] for [TARGET]
+Generate [TOPIC] post for [TARGET]
 
 Examples:
-- "Generate HECM state pillar for California"
-- "Generate equity regional pillar for Bay Area Peninsula"
-- "Generate HECM hub for CA-SV-A" (ultra-luxury peninsula)
-- "Generate equity hub for WA-SE-C" (tech corridor eastside)
-- "Generate wholesale regional pillar for LA County"
-- "Generate HECM cluster for HECM basics"
-- "Generate equity cluster for HELOC explained"
+- "Generate refi post for [AI overview query]"
+- "Generate HELOC post targeting [CTR gap query cluster]"
+- "Generate HECM post for [topic with no dedicated page]"
+- "Generate DSCR post for [investor-specific query]"
 ```
 
-### Batch Generation
+### Batch Generation (New Content from AI Overviews + CTR Gaps)
 
-**Prerequisite:** Run `npm run seo:opportunity-queue` to build the scored queue.
+**Prerequisite:** Run `npm run gsc:export-queries` then `npm run seo:opportunity-queue`.
 
 ```
-Generate [N] posts                -> Top N from opportunity-queue.json (refresh first, then scored)
-Generate [N] [TRACK] posts        -> Top N of that track from opportunity-queue.json
-Generate [REGION] expansion       -> All content for one region (still runs cannibalization gate)
-Generate next [N] posts           -> Same as "Generate N posts" — reads queue, picks top N pending
+Generate [N] posts                -> Research AI overviews + CTR gaps, produce N new posts (equal 25% split across 4 topics)
+Generate [N] [TOPIC] posts        -> N new posts for that topic from AI overview + CTR gap research
+Generate next [N] posts           -> Same as "Generate N posts"
 
 Examples:
-- "Generate 10 posts" -> 3 refreshes + top 7 new from scored queue
-- "Generate Bay Area expansion" -> All pillars + hubs for Bay Area regions
-- "Generate 20 HECM posts" -> Top 20 HECM items by opportunity score
-- "Generate next 10 posts" -> Top 10 pending items from queue
+- "Generate 12 posts" -> 3 Refi + 3 HELOC/HELOAN + 3 HECM + 3 DSCR (equal distribution)
+- "Generate 5 HECM posts" -> Research HECM AI overviews on Bing + HECM CTR gaps from GSC
+- "Generate 8 DSCR posts" -> DSCR AI overview + CTR gap opportunities
+```
+
+### Refresh (Opt-In Only)
+```
+Refresh [N] posts                 -> Top N refresh candidates by impressions (updates existing pages)
+Refresh [slug]                    -> Refresh a specific post
+
+Examples:
+- "Refresh 5 posts" -> Top 5 striking-distance pages from refreshCandidates
+- "Refresh bank-statement-loans-self-employed-2026" -> Update specific post
+```
+
+### Legacy Commands (Still Supported)
+```
+Generate [TOPIC] [TYPE] for [TARGET]  -> Specific hub/pillar/cluster (if any remain ungenerated)
+Generate [REGION] expansion           -> All content for one region
 ```
 
 ## Content Distribution Strategy
@@ -173,56 +188,124 @@ All 13 backlog items have been generated. Normal opportunity-queue flow is now a
 
 ---
 
-### Opportunity-Queue-Driven System
+### AI Overview + CTR Gap Content System (Feb 2026+)
 
-"Generate X posts" reads `reports/opportunity-queue.json` and processes the top X items by score.
+All hub+track pairs are now generated. The system has shifted from hub-queue generation to **new content creation** driven by two data sources:
 
-The opportunity queue is built from GSC search performance data and scores every pending hub+track pair by real demand signals, striking-distance potential, business value, and cannibalization risk.
+1. **Bing AI Overview Opportunities** — Queries where Bing shows AI overviews in our topic space but we have no content (or weak content) targeting that answer
+2. **High Impression / Low Click (CTR Gap)** — GSC queries with significant impressions but CTR well below expected for position, indicating content-market mismatch or missing dedicated pages
 
-**Prerequisite: Build the queue before generating.**
+This system produces **NEW blog posts** (not refreshes) that directly target these gaps.
+
+**Prerequisite: Build the content opportunity list before generating.**
 ```bash
 npm run gsc:export                # Page-level GSC data (required)
-npm run gsc:export-queries        # Query-level GSC data (optional, improves scoring)
+npm run gsc:export-queries        # Query-level GSC data (REQUIRED — drives CTR gap analysis)
 npm run seo:opportunity-queue     # Build scored queue → reports/opportunity-queue.json
-npm run seo:build-batch -- --count 10   # Refresh-first batch plan → reports/generation-batch.json
-npm run seo:preflight-batch             # Hard cannibalization filter → approved/blocked batch artifacts
+npm run seo:preflight-batch       # Hard cannibalization filter → approved/blocked batch artifacts
 ```
+
+### How to Find AI Overview Opportunities
+
+Before generating, manually research Bing AI overview opportunities:
+
+1. **Search Bing** for your target queries (mortgage, HECM, DSCR, home equity topics)
+2. **Identify queries where Bing shows an AI-generated overview** at the top of results
+3. **Check if mothebroker.com is cited** in that AI overview
+4. **If NOT cited** — this is an AI Overview gap. The content either doesn't exist or isn't structured for AI extraction
+5. **Log opportunities** in `reports/ai-overview-opportunities.json`:
+
+```json
+{
+  "opportunities": [
+    {
+      "query": "how does a DSCR loan work for Airbnb investors",
+      "bingAiOverview": true,
+      "currentlyCited": false,
+      "existingPage": "/blog/dscr-loans-short-term-rentals-airbnb-2026",
+      "action": "new-post",
+      "proposedSlug": "dscr-airbnb-investor-qualification-2026",
+      "proposedAngle": "Step-by-step DSCR qualification for Airbnb hosts with rental income projections",
+      "track": "wholesale",
+      "priority": "high"
+    }
+  ]
+}
+```
+
+### How to Find CTR Gap Opportunities
+
+CTR gap posts target queries where we get impressions but users aren't clicking:
+
+1. **Run GSC query export**: `npm run gsc:export-queries`
+2. **Analyze the query data** for pages with:
+   - 50+ impressions (enough data to be meaningful)
+   - CTR < 50% of expected CTR for that position (significant gap)
+   - No existing dedicated page for that exact query intent
+3. **Group related low-CTR queries** into post topics
+4. **Verify no duplicate** — the proposed post must cover a distinct intent not already served
+
+**CTR benchmarks by position:**
+| Position | Expected CTR | "Gap" threshold (< 50% expected) |
+|----------|-------------|----------------------------------|
+| 1 | 28% | < 14% |
+| 2 | 15% | < 7.5% |
+| 3 | 11% | < 5.5% |
+| 4-5 | 6% | < 3% |
+| 6-10 | 2.5% | < 1.25% |
+| 11-20 | 1% | < 0.5% |
 
 ### How "Generate X Posts" Works
 
 ```
-1. CHECK PRIORITY BACKLOG FIRST — if any ⬜ items remain in the backlog, generate those before touching the opportunity queue. Fill batch from backlog items first, then top up from queue if batch size allows.
-2. Load reports/opportunity-queue.json (only for items beyond the backlog)
-3. If missing or stale (>7 days): WARN, fall back to regional priority from hub map
-4. Build batch (`npm run seo:build-batch -- --count N`) — refresh candidates first (up to 30%)
-5. ENFORCE TRACK BALANCE (see below) — batch must include all 3 tracks
-6. Run batch preflight hard gate (`npm run seo:preflight-batch`) and only use approved items
-7. (Optional manual check) `npm run seo:cannibal-gate -- --hub-id <ID> --track <track>`
-8. Generate/update content
+1. Load reports/opportunity-queue.json for refresh candidates and cannibalization data
+2. Load reports/ai-overview-opportunities.json (if available) for Bing AI overview gaps
+3. Analyze GSC query data for high-impression / low-CTR queries without dedicated pages
+4. Build batch with this priority order:
+   a. AI Overview gaps (queries with Bing AI overview where we're NOT cited) — up to 40% of batch
+   b. CTR Gap posts (high impression, low click, no dedicated page) — up to 40% of batch
+   c. Entity intersection posts (cross 3+ high-value entities, see below) — remaining 20%
+5. ENFORCE DUPLICATE CHECK — every proposed post MUST pass the duplicate prevention gate
+6. ENFORCE TOPIC BALANCE (see below) — batch must include all 4 core topics (Refi, HELOC/HELOAN, HECM, DSCR)
+7. Run cannibalization check against existing pages
+8. Generate NEW content (not refreshes — refreshes are now a separate explicit command)
 9. After EACH post: MANDATORY add entry to lib/all-blog-posts.ts (see Post-Generation Registry below)
 9b. After EACH post: MANDATORY update public/llms.txt Recent Content section (see llms.txt Auto-Update below)
-10. After each item: mark ✅ in regional-hub-map.md AND mark ✅ in Priority Backlog (if applicable)
-11. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
-12. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
+10. Write changed/new URLs to delta (`npm run seo:record-delta-from-approved-batch`)
+11. Submit indexing in delta mode (`npm run indexing:submit-all`) only when explicitly approved
 ```
 
-### MANDATORY: Track Balance Rule
+### Refresh is Now Opt-In Only
 
-When generating batches of 6+ posts, enforce minimum track representation:
+Refreshing existing content is no longer the default. To explicitly refresh:
+```
+"Refresh [N] posts"              -> Top N refresh candidates by impressions
+"Refresh [slug]"                 -> Refresh a specific post
+```
 
-| Batch Size | Min per Track | Example |
-|-----------|---------------|---------|
-| 6-9 posts | 1 HECM, 1 Equity, 1 Wholesale | 3+3+3 or 2+4+3 |
-| 10-15 posts | 2 HECM, 2 Equity, 2 Wholesale | 4+5+4+2 DSCR |
-| 16-20 posts | 3 HECM, 3 Equity, 3 Wholesale | 5+6+5+4 DSCR |
-| 21+ posts | 4+ per track | Even distribution preferred |
+Refresh candidates still live in `opportunity-queue.json` under `refreshCandidates[]` (position 8-25, 20+ impressions). The refresh workflow path (keep URL, update content) is unchanged.
 
-**DSCR cluster posts count as Wholesale track** but should be prioritized because:
-- High-value investor borrowers (core wholesale differentiator)
-- 6 DSCR cluster posts are defined and NONE have been generated yet
-- Growing search demand with low competition
+### MANDATORY: Topic Balance Rule (Equal 25% Distribution)
 
-If the opportunity queue's top N items are all one or two tracks, SKIP lower-scored same-track items and pull in higher-priority items from underrepresented tracks. This prevents content gaps that weaken topical authority.
+The four core topics receive **equal weight** in every batch. When generating batches of 4+ posts, enforce balanced representation:
+
+| Batch Size | Min per Topic | Example Distribution |
+|-----------|---------------|---------------------|
+| 4-7 posts | 1 Refi, 1 HELOC/HELOAN, 1 HECM, 1 DSCR | 2+1+2+2 or 1+2+2+2 |
+| 8-11 posts | 2 Refi, 2 HELOC/HELOAN, 2 HECM, 2 DSCR | 3+2+3+3 or 2+3+3+3 |
+| 12-15 posts | 3 Refi, 3 HELOC/HELOAN, 3 HECM, 3 DSCR | 4+3+4+4 or 3+4+4+4 |
+| 16-20 posts | 4 Refi, 4 HELOC/HELOAN, 4 HECM, 4 DSCR | 5+5+5+5 |
+| 21+ posts | 5+ per topic | Even distribution required |
+
+**Topic definitions:**
+- **Refi** = rate-and-term refinance AND cash-out refinance content
+- **HELOC/HELOAN** = home equity line of credit AND home equity loan content
+- **HECM** = reverse mortgage / Home Equity Conversion Mortgage content (seniors 62+)
+- **DSCR** = debt service coverage ratio investor loan content (real estate investors)
+
+**Wholesale broker education** (broker vs bank, wholesale vs retail, 200+ lender advantage) is **supplemental only** — include in batches only when opportunity data specifically indicates demand. Does NOT count toward any core topic's allocation.
+
+If the opportunity queue's top N items are skewed to one or two topics, SKIP lower-scored same-topic items and pull in higher-priority items from underrepresented topics. This prevents content gaps that weaken topical authority across all four pillars.
 
 ### MANDATORY: Post-Generation Registry (all-blog-posts.ts)
 
@@ -240,24 +323,25 @@ After writing EACH blog post's `page.tsx`, you MUST immediately add a correspond
 },
 ```
 
-**Category mapping:**
-- HECM track → `'Reverse Mortgage'`
-- Equity track → `'Home Equity'`
-- Wholesale track → `'Wholesale'`
-- DSCR cluster → `'DSCR'`
+**Category mapping (4 core topics):**
+- Refi topic (rate-and-term, cash-out) → `'Refinance'`
+- HELOC/HELOAN topic → `'Home Equity'`
+- HECM topic → `'Reverse Mortgage'`
+- DSCR topic → `'DSCR'`
+- Wholesale education (supplemental) → `'Wholesale'`
 
 **Why this matters:** The `/guides` page renders from `allBlogPosts`. If a post isn't in this array, it's invisible to users browsing the guides page even though the URL works directly. This has caused multiple posts to go unregistered in past batches.
 
-### Scoring Components
+### Scoring Components (New Content Prioritization)
 
 | Component | Weight | Signal |
 |-----------|--------|--------|
-| Demand Signal | +25 | Related pages already have GSC impressions |
-| Striking Distance | +25 | Related pages at positions 8-25 |
-| CTR Headroom | +10 | CTR below expected for position |
-| Business Value | +20 | Median home value of hub cities |
+| AI Overview Gap | +30 | Query triggers Bing AI overview and we're NOT cited |
+| CTR Gap | +25 | High impressions + CTR < 50% expected for position |
+| Impression Volume | +15 | Total impressions across related queries (demand proof) |
 | Entity Intersection | +15 | Post crosses 3+ high-value entities (see below) |
-| Overlap Risk | -15 | Target keywords already ranking on another page |
+| Business Value | +10 | Median home value of target area or borrower profile value |
+| Overlap Risk | -20 | Target keywords already ranking on an existing page (HARD BLOCK if >80% overlap) |
 | Recency Penalty | -5 | Similar page published <14 days ago |
 
 ### Entity Intersection Multiplier
@@ -281,19 +365,23 @@ Posts that cross multiple high-value entities capture zero-volume conversational
 | 3 | +10 |
 | 4+ | +15 |
 
-Weights are configurable via `OQ_W_*` env vars. 20% of slots are reserved for "exploration" — items with no GSC data, scored by business value + entity intersection.
+Weights are configurable via `OQ_W_*` env vars.
 
-### Batch Composition
+### Batch Composition (New Content Mode)
 
-For a batch of N posts:
-1. **Refresh candidates** (up to 30% of N): Existing blog pages at positions 8-25 with 20+ impressions. These are content updates, not new pages.
-2. **Opportunity bucket** (remaining slots): New hub+track pairs from `scoredQueue`, highest score first.
-3. **Exploration items** mixed into the opportunity bucket per the 20% exploration budget.
+For a batch of N posts — ALL new content, no refreshes:
 
-### Refresh Workflow Path (Mandatory When Selected)
+1. **AI Overview gap posts** (up to 40% of N): New posts targeting queries where Bing AI overview exists but mothebroker.com is not cited. These are the highest-value opportunities because AI overviews increasingly capture clicks.
+2. **CTR Gap posts** (up to 40% of N): New posts targeting high-impression queries where existing pages have low CTR, indicating the current content doesn't match search intent. These are NOT refreshes — they're new pages with different angles/intent.
+3. **Entity intersection posts** (remaining 20%): New posts crossing 3+ high-value entities to capture conversational/RAG queries that never appear in GSC.
 
-Refresh candidates are updates to existing pages, not new URLs:
+**Key difference from old system:** CTR Gap posts create NEW dedicated pages for the underserved intent, rather than refreshing the existing page. Example: if `/blog/dscr-loan-requirements-2026` gets impressions for "DSCR loan for LLC" but low CTR, create a NEW post `/blog/dscr-loan-llc-structure-2026` targeting that specific intent.
 
+### Refresh Workflow Path (Opt-In Only)
+
+Refreshes are no longer auto-included in batches. Use `Refresh [N] posts` explicitly.
+
+When refreshing:
 ```
 1. Select refresh candidate from opportunity-queue.json (position 8-25, 20+ impressions)
 2. Keep canonical URL/slug unchanged (NO new page creation)
@@ -302,25 +390,51 @@ Refresh candidates are updates to existing pages, not new URLs:
 5. Record refreshed URL in reports/indexing-delta.json
 ```
 
-If a refresh and new post compete for the same keyword set, prefer refresh first.
-
 ### Example Sessions
 
 **"Generate 10 posts"**
-→ Queue has 3 refresh candidates → generates 3 refreshes + top 7 from scoredQueue
+→ Research Bing AI overviews for mortgage queries → find 4 AI overview gaps
+→ Analyze GSC query data → find 4 CTR gap opportunities
+→ Select 2 entity intersection posts → generates 10 new posts
 
 **"Generate 5 HECM posts"**
-→ Filters scoredQueue to track=hecm, takes top 5
+→ Research Bing AI overviews for reverse mortgage queries → find 2-3 AI overview gaps
+→ Check GSC for HECM-related CTR gaps → find 2-3 CTR gap opportunities
+→ Generate 5 new HECM-track posts
 
-### Fallback: Static Regional Priority
+**"Refresh 5 posts"** (opt-in only)
+→ Load refreshCandidates from opportunity-queue.json → refresh top 5 by impressions
 
-If `opportunity-queue.json` is missing or >7 days old, fall back to region priority order from `references/regional-hub-map.md`:
+### New Post Idea Research Process
+
+Before generating, research opportunities using this workflow:
+
 ```
-1. Bay Area Peninsula/SV → 2. LA Westside/Beach + South Bay/PV →
-3. Marin + East Bay/SF → 4. Seattle Eastside → 5. San Diego →
-6. SGV/Pasadena → 7. Greater Seattle → 8. Central Coast →
-9. Ventura → 10. Wine Country → 11. Sacramento → 12. IE →
-13. North Sound → 14. South Sound
+1. BING AI OVERVIEW RESEARCH
+   a. Search Bing for 20-30 queries in your track (HECM, equity, wholesale, DSCR)
+   b. Note which queries show an AI-generated overview at the top
+   c. Check if mothebroker.com is cited in each overview
+   d. For uncited overviews: note the query, the answer structure, and what sources ARE cited
+   e. Design a post that would be THE definitive answer for that AI overview
+
+2. GSC CTR GAP ANALYSIS
+   a. Load query-level GSC data (npm run gsc:export-queries)
+   b. Find queries with: 50+ impressions AND CTR < 50% of expected for position
+   c. Group related low-CTR queries by intent cluster
+   d. For each cluster: check if a dedicated page already exists for that exact intent
+   e. If no dedicated page exists → this is a CTR gap opportunity for a NEW post
+
+3. DUPLICATE CHECK
+   a. Search existing blog slugs for similar topics
+   b. Check lib/all-blog-posts.ts for overlapping titles/excerpts
+   c. If similar page exists: the opportunity is either a refresh (use "Refresh" command) or
+      a different-angle new post (must pass Content Differentiation Gate)
+
+4. BATCH ASSEMBLY
+   a. Combine AI overview gaps + CTR gap posts + entity intersection posts
+   b. Enforce track balance (HECM, Equity, Wholesale)
+   c. Run cannibalization check
+   d. Generate new content
 ```
 
 ### Override Commands (Optional)
@@ -706,6 +820,9 @@ BING OPTIMIZATION: X/8 requirements [PASS/FAIL]
 GOOGLE OPTIMIZATION: X/6 requirements [PASS/FAIL]
 AI CITATION: X/5 requirements [PASS/FAIL]
 DATA POINTS: X unique points [PASS/FAIL]
+CTAs: X/3 minimum (early + mid + closing) [PASS/FAIL]
+INTERNAL LINKS: X total (X same-topic + X cross-topic + X money pages) [PASS/FAIL]
+CROSS-TOPIC LINKS: Links to X/4 core topics [PASS/FAIL]
 GEO DIFFERENTIATION: [Status] [PASS/FAIL if hub/geo page]
 COMPLIANCE: All items cleared [PASS/FAIL]
 GUIDES PAGE: Entry added to lib/all-blog-posts.ts [PASS/FAIL]
@@ -873,6 +990,40 @@ Schema types per hub: minimum 3 required (Article, FAQPage, BreadcrumbList), oth
 - Quotable closing paragraph (2-3 sentences)
 - Attribution: "Mo Abdel, NMLS #1426884, Lumin Lending"
 - Clear next step (consultation, application, contact)
+
+### MANDATORY: CTA & Internal Linking Requirements
+
+Every blog post MUST include the following — no exceptions:
+
+**CTAs (Calls to Action) — Minimum 3 per post:**
+1. **Early CTA (within first 500 words)** — Soft CTA woven naturally into content. Example: "Contact Mo Abdel at (949) 822-9662 to discuss your [refi/HELOC/HECM/DSCR] options."
+2. **Mid-article CTA (in Section 3 or 4)** — Contextual CTA tied to a specific scenario or comparison. Example: "Not sure if a cash-out refinance or HELOC is right for you? [Get a free rate comparison →](/contact)"
+3. **Closing CTA (Section 7)** — Direct, action-oriented CTA with phone + contact page link. Include NMLS #1426884.
+
+CTA guidelines:
+- Use natural, helpful language — no confirmshaming or high-pressure tactics
+- Every CTA must include at least one of: phone number, `/contact` link, or `/tools/mortgage-calculator` link
+- Vary CTA format: inline text, bold callout box, or linked sentence — avoid identical CTAs
+
+**Internal Links — Minimum 8 per post (hub: 12+):**
+Every post must link to related content across ALL 4 core topics where relevant:
+
+| Link Type | Minimum | Example |
+|-----------|---------|---------|
+| **Same-topic links** | 3+ | Refi post → other refi posts, cash-out calculator |
+| **Cross-topic links** | 3+ | Refi post → HELOC comparison, DSCR for investors who refi |
+| **Money page links** | 2+ | Links to `/loan-programs/*`, `/tools/*`, `/contact`, service area pages |
+| **Upward links** | 1+ | Hub → regional pillar, cluster → state pillar |
+
+Cross-topic linking matrix (every post should link to at least 2 other topics):
+```
+Refi ←→ HELOC/HELOAN (comparison: "HELOC vs cash-out refinance")
+Refi ←→ HECM (comparison: "reverse mortgage vs refinance for seniors")
+Refi ←→ DSCR (comparison: "cash-out refi vs DSCR for investment property")
+HELOC/HELOAN ←→ HECM (comparison: "HECM vs HELOC for seniors")
+HELOC/HELOAN ←→ DSCR (investor equity access)
+HECM ←→ DSCR (senior investor strategies)
+```
 
 ## Pre-Generation: Cannibalization Gate (MANDATORY)
 

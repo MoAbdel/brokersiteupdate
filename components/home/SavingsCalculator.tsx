@@ -98,11 +98,11 @@ export default function SavingsCalculator() {
                   ${wholesalePayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}
                 </div>
                 <p className="text-sm text-slate-600">
-                  {wholesaleRate.toFixed(3)}% APR • Principal & Interest
+                  {wholesaleRate.toFixed(3)}% Rate* • Principal & Interest
                 </p>
               </div>
 
-              <a href="/quiz">
+              <a href="/calculator">
                 <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3">
                   Get Pre-Approved
                 </Button>
@@ -126,7 +126,7 @@ export default function SavingsCalculator() {
                     ${bigBankPayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}
                   </span>
                 </div>
-                <p className="text-sm text-slate-500">{bigBankRate.toFixed(3)}% APR</p>
+                <p className="text-sm text-slate-500">{bigBankRate.toFixed(3)}% Rate*</p>
               </div>
 
               {/* Our Wholesale Rate */}
@@ -137,7 +137,7 @@ export default function SavingsCalculator() {
                     ${wholesalePayment.toLocaleString('en-US', { maximumFractionDigits: 0 })}
                   </span>
                 </div>
-                <p className="text-sm text-slate-600">{wholesaleRate.toFixed(3)}% APR</p>
+                <p className="text-sm text-slate-600">{wholesaleRate.toFixed(3)}% Rate*</p>
               </div>
 
               {/* Potential Savings */}
@@ -190,6 +190,10 @@ export default function SavingsCalculator() {
             </div>
           </div>
         </div>
+
+        <p className="text-xs text-slate-500 text-center mt-8 max-w-3xl mx-auto">
+          *Default values are for illustrative purposes only and do not represent current rate offers. Rates shown are not APR. Actual rates, APR, payments, and terms will vary based on creditworthiness, loan amount, property type, and market conditions. Not a commitment to lend. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106.
+        </p>
       </div>
     </section>
   );

@@ -65,7 +65,7 @@ export default function WholesaleMortgageBroker92620Page() {
                 "name": "Can I get a jumbo loan in Northwood through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Irvine Northwood median home prices around $1.6M, most purchases require jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Irvine Northwood median home prices around $1.6M, most purchases require jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -81,7 +81,7 @@ export default function WholesaleMortgageBroker92620Page() {
                 "name": "What is the jumbo loan limit for Irvine in 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The 2026 conforming loan limit is $1,149,825 for Orange County. With Irvine Northwood median home prices around $1.6M, most purchases require jumbo loans exceeding this limit."
+                  "text": "The 2026 conforming loan limit is $1,209,750 for Orange County. With Irvine Northwood median home prices around $1.6M, most purchases require jumbo loans exceeding this limit."
                 }
               },
               {
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBroker92620Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.6M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$800K - $3.5M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">20-35 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo</td></tr>
             </tbody>
           </table>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92620Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $3.5M+</li>
+          <li>Loan amounts from $1,209,750 to $3.5M+</li>
           <li>Access to 50+ jumbo lenders competing for your business</li>
           <li>10-20% down payment options depending on loan amount</li>
           <li>Fast closings to compete in Irvine&apos;s hot market</li>
@@ -180,7 +180,7 @@ export default function WholesaleMortgageBroker92620Page() {
 
         <h3>Conforming High-Balance</h3>
         <ul>
-          <li>Loans up to $1,149,825 (2026 Orange County limit)</li>
+          <li>Loans up to $1,209,750 (2026 Orange County limit)</li>
           <li>Best rates for properties near the conforming limit</li>
           <li>Multiple lender options for competitive pricing</li>
           <li>Popular for Northwood condos and smaller homes</li>
@@ -258,7 +258,7 @@ export default function WholesaleMortgageBroker92620Page() {
 
         <h3>What is the jumbo loan limit for Irvine in 2026?</h3>
         <p>
-          The 2026 conforming loan limit is $1,149,825 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Irvine Northwood&apos;s $1.6M median price, most purchases require jumbo financing—making wholesale broker access critical.
+          The 2026 conforming loan limit is $1,209,750 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Irvine Northwood&apos;s $1.6M median price, most purchases require jumbo financing—making wholesale broker access critical.
         </p>
 
         <h3>What Northwood neighborhoods does a wholesale broker serve?</h3>

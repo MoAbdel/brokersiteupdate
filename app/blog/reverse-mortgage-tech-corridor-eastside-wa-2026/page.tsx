@@ -36,7 +36,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
     },
     {
       question: 'What is the HECM limit for 2026 and how does it affect tech corridor homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Redmond ($1.1M), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K) all have median values below this limit, meaning HECM captures full value for most homes. Higher-value properties in Education Hill, Issaquah Highlands, and Talus may exceed the limit and benefit from proprietary programs.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Redmond ($1.1M), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K) all have median values below this limit, meaning HECM captures full value for most homes. Higher-value properties in Education Hill, Issaquah Highlands, and Talus may exceed the limit and benefit from proprietary programs.',
     },
     {
       question: 'Does Washington state tax reverse mortgage proceeds?',
@@ -44,11 +44,11 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
     },
     {
       question: 'How do RSU-heavy retirement portfolios interact with reverse mortgages?',
-      answer: 'Tech corridor retirees with concentrated stock positions (Microsoft, Amazon, Meta) use reverse mortgages to access liquidity without selling stock. This avoids capital gains taxation on appreciated shares while providing tax-free cash flow. Financial planners call this housing wealth optimization, drawing from home equity during market downturns to preserve investment portfolios.',
+      answer: 'Tech corridor retirees with concentrated stock positions (Microsoft, Amazon, Meta) use reverse mortgages to access liquidity without selling stock. This avoids capital gains taxation on appreciated shares while providing loan proceeds (not considered taxable income\u2014consult a tax professional) flow. Financial planners call this housing wealth optimization, drawing from home equity during market downturns to preserve investment portfolios.',
     },
     {
       question: 'Can I get a reverse mortgage on a home in Issaquah Highlands?',
-      answer: 'Yes. Issaquah Highlands homes qualify for reverse mortgages as long as the property serves as the borrower primary residence. The master-planned community provides strong comparable sales data for appraisals. Homes valued above the $1,149,825 HECM limit benefit from proprietary programs.',
+      answer: 'Yes. Issaquah Highlands homes qualify for reverse mortgages as long as the property serves as the borrower primary residence. The master-planned community provides strong comparable sales data for appraisals. Homes valued above the $1,209,750 HECM limit benefit from proprietary programs.',
     },
     {
       question: 'Is a reverse mortgage available for Kenmore waterfront homes?',
@@ -63,11 +63,11 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM limit and why does it matter for tech corridor homeowners?',
-      answer: 'The 2026 HECM limit is $1,149,825. All five tech corridor cities have median home values below this limit: Redmond ($1.1M), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K). This means the HECM program captures full home value for most seniors, providing access to the growing line of credit feature and FHA non-recourse protections. Individual properties in premium neighborhoods that exceed the limit should consider proprietary alternatives.',
+      answer: 'The 2026 HECM limit is $1,209,750. All five tech corridor cities have median home values below this limit: Redmond ($1.1M), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K). This means the HECM program captures full home value for most seniors, providing access to the growing line of credit feature and FHA non-recourse protections. Individual properties in premium neighborhoods that exceed the limit should consider proprietary alternatives.',
     },
     {
       question: 'How much can a Redmond homeowner access through a reverse mortgage?',
-      answer: 'A Redmond homeowner with a $1.1 million home and no existing mortgage can access approximately $500,000 to $575,000 through an HECM reverse mortgage at age 70. The HECM captures nearly the full home value since $1.1 million falls below the $1,149,825 limit. Education Hill properties valued at $1.3 million to $1.8 million should compare proprietary programs for potentially higher proceeds.',
+      answer: 'A Redmond homeowner with a $1.1 million home and no existing mortgage can access approximately $500,000 to $575,000 through an HECM reverse mortgage at age 70. The HECM captures nearly the full home value since $1.1 million falls below the $1,209,750 limit. Education Hill properties valued at $1.3 million to $1.8 million should compare proprietary programs for potentially higher proceeds.',
     },
     {
       question: 'Can I get a reverse mortgage on a property held in a trust in Washington?',
@@ -83,7 +83,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
     },
     {
       question: 'Why is Washington state advantageous for reverse mortgage borrowers?',
-      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, Required Minimum Distributions, and investment returns are all state-tax-free in Washington. This makes reverse mortgage proceeds stretch further than in states with income taxes.',
+      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, Required Minimum Distributions, and investment returns are all not subject to state income tax in Washington. This makes reverse mortgage proceeds stretch further than in states with income taxes (consult your tax advisor for your specific situation).',
     },
     {
       question: 'What are the costs of a reverse mortgage on a tech corridor home?',
@@ -259,6 +259,18 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -266,7 +278,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             Tech Corridor Eastside Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            The five tech corridor Eastside communities&mdash;Redmond ($1.1M median), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K)&mdash;are home to an estimated <strong>22,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$19 billion in home equity</strong>. All five cities have median values below the 2026 HECM limit of <strong>$1,149,825</strong>, meaning the FHA HECM program captures full value for most homes&mdash;including the growing line of credit feature that increases unused funds annually. Washington&apos;s <strong>zero state income tax</strong> makes every dollar of reverse mortgage proceeds tax-free at both federal and state levels.
+            The five tech corridor Eastside communities&mdash;Redmond ($1.1M median), Issaquah ($1.0M), Bothell ($850K), Kenmore ($750K), and Maple Valley ($700K)&mdash;are home to an estimated <strong>22,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$19 billion in home equity</strong>. All five cities have median values below the 2026 HECM limit of <strong>$1,209,750</strong>, meaning the FHA HECM program captures full value for most homes&mdash;including the growing line of credit feature that increases unused funds annually. Washington&apos;s <strong>zero state income tax</strong> makes every dollar of reverse mortgage proceeds loan proceeds at both federal and state levels.
           </p>
         </div>
 
@@ -289,7 +301,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
           Why Tech Corridor Eastside Homeowners Are Ideal HECM Candidates
         </h2>
         <p>
-          The tech corridor Eastside represents the sweet spot for HECM reverse mortgages: home values high enough to generate meaningful proceeds, but generally below the $1,149,825 FHA ceiling so the HECM program captures full home value. This positioning gives tech corridor seniors access to the HECM&apos;s most powerful feature&mdash;the growing line of credit&mdash;which proprietary programs do not offer. The unused portion of a HECM credit line grows annually at the same rate charged on the loan balance, creating a financial safety net that becomes more valuable every year it remains untapped.
+          The tech corridor Eastside represents the sweet spot for HECM reverse mortgages: home values high enough to generate meaningful proceeds, but generally below the $1,209,750 FHA ceiling so the HECM program captures full home value. This positioning gives tech corridor seniors access to the HECM&apos;s most powerful feature&mdash;the growing line of credit&mdash;which proprietary programs do not offer. The unused portion of a HECM credit line grows annually at the same rate charged on the loan balance, creating a financial safety net that becomes more valuable every year it remains untapped.
         </p>
         <p>
           The tech corridor demographic includes a distinct population of Microsoft, Amazon, and gaming-industry retirees who purchased homes during Redmond and Issaquah&apos;s suburban expansion in the 1990s and 2000s. These homeowners hold RSU-heavy retirement portfolios they prefer to preserve during market volatility. A reverse mortgage provides alternative liquidity&mdash;drawing from home equity instead of selling concentrated stock positions&mdash;while Washington&apos;s zero state income tax ensures no state-level taxation on proceeds, Social Security, or retirement distributions.
@@ -301,7 +313,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Professional Background:</strong> Mo Abdel has structured reverse mortgage solutions for technology-sector retirees across Washington and California. Licensed in California and Washington (NMLS #1426884), Mo understands how reverse mortgages interact with RSU-heavy retirement portfolios, Required Minimum Distributions, and the tax-free environment that makes Washington uniquely favorable for retirement income planning.
+            <strong>Professional Background:</strong> Mo Abdel has structured reverse mortgage solutions for technology-sector retirees across Washington and California. Licensed in California and Washington (NMLS #1426884), Mo understands how reverse mortgages interact with RSU-heavy retirement portfolios, Required Minimum Distributions, and the loan proceeds environment that makes Washington uniquely favorable for retirement income planning.
           </p>
         </div>
 
@@ -376,7 +388,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1,149,825 (covers all medians)</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$1,209,750 (covers all medians)</td>
                 <td className="border border-gray-300 px-4 py-3">Actual home value ($1M&ndash;$5M+)</td>
               </tr>
               <tr className="bg-gray-50">
@@ -468,7 +480,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
         </div>
         <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
           <p className="text-slate-900 mb-0">
-            <strong>Redmond Insight:</strong> A 69-year-old retired Microsoft principal engineer in Overlake owns a $1.15 million home purchased in 1998 for $310,000. He holds $8 million in Microsoft stock with a cost basis of $600,000. Selling stock triggers $7.4 million in federal capital gains. A HECM reverse mortgage provides a $520,000 growing line of credit based on the full home value (below the $1,149,825 limit). He draws $3,500 monthly during a market correction, preserving the stock position for recovery. The unused credit line portion grows annually, increasing his available safety net. Washington&apos;s zero state income tax means his Social Security, Microsoft pension, and RMDs are all state-tax-free.
+            <strong>Redmond Insight:</strong> A 69-year-old retired Microsoft principal engineer in Overlake owns a $1.15 million home purchased in 1998 for $310,000. He holds $8 million in Microsoft stock with a cost basis of $600,000. Selling stock triggers $7.4 million in federal capital gains. A HECM reverse mortgage provides a $520,000 growing line of credit based on the full home value (below the $1,209,750 limit). He draws $3,500 monthly during a market correction, preserving the stock position for recovery. The unused credit line portion grows annually, increasing his available safety net. Washington&apos;s zero state income tax means his Social Security, Microsoft pension, and RMDs are all not subject to state income tax.
           </p>
         </div>
 
@@ -665,7 +677,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
         </div>
         <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
           <p className="text-slate-900 mb-0">
-            <strong>Maple Valley Insight:</strong> A 64-year-old recently retired teacher near Lake Wilderness owns a $720,000 home with a $95,000 remaining mortgage. Annual property taxes of $5,040 plus the existing mortgage payment of $850 monthly create ongoing housing costs. A HECM reverse mortgage pays off the $95,000 mortgage (eliminating the $850 monthly payment), then establishes a growing line of credit with remaining proceeds. The annual savings of $10,200 from the eliminated mortgage payment, combined with the growing credit line, creates a retirement income strategy that strengthens every year. Washington&apos;s zero state income tax means the teacher&apos;s pension and Social Security are entirely state-tax-free.
+            <strong>Maple Valley Insight:</strong> A 64-year-old recently retired teacher near Lake Wilderness owns a $720,000 home with a $95,000 remaining mortgage. Annual property taxes of $5,040 plus the existing mortgage payment of $850 monthly create ongoing housing costs. A HECM reverse mortgage pays off the $95,000 mortgage (eliminating the $850 monthly payment), then establishes a growing line of credit with remaining proceeds. The annual savings of $10,200 from the eliminated mortgage payment, combined with the growing credit line, creates a retirement income strategy that strengthens every year. Washington&apos;s zero state income tax means the teacher&apos;s pension and Social Security are not subject to state income tax.
           </p>
         </div>
 
@@ -798,7 +810,7 @@ export default function ReverseMortgageTechCorridorEastsideWA2026() {
             Expert Summary: Tech Corridor Eastside Reverse Mortgage Advantage
           </h2>
           <p className="text-blue-800 mb-4">
-            Tech corridor Eastside seniors in Redmond, Issaquah, Bothell, Kenmore, and Maple Valley occupy the HECM sweet spot: home values high enough for meaningful proceeds but below the $1,149,825 cap, giving full access to the growing line of credit&mdash;the most powerful feature in reverse mortgage lending. The unused credit line grows annually without any action required, creating a financial safety net that strengthens automatically.
+            Tech corridor Eastside seniors in Redmond, Issaquah, Bothell, Kenmore, and Maple Valley occupy the HECM sweet spot: home values high enough for meaningful proceeds but below the $1,209,750 cap, giving full access to the growing line of credit&mdash;the most powerful feature in reverse mortgage lending. The unused credit line grows annually without any action required, creating a financial safety net that strengthens automatically.
           </p>
           <p className="text-blue-800 mb-4">
             Washington&apos;s zero state income tax amplifies the reverse mortgage advantage: no federal and no state tax on proceeds, Social Security, pensions, or retirement distributions. However, without Proposition 13 property tax protection, rising assessed values mean rising property tax bills&mdash;exactly the kind of escalating cost that the HECM growing line of credit is designed to cover.

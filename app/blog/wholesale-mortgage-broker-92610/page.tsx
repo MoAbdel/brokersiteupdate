@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92610Page() {
                 "name": "What loan amounts are typical in Foothill Ranch 92610?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Foothill Ranch 92610 has a median home price around $1.0 million. Larger homes and premium view lots often range from $1.1M-$1.8M, putting many buyers just above the $1,149,825 conforming limit and into jumbo territory."
+                  "text": "Foothill Ranch 92610 has a median home price around $1.0 million. Larger homes and premium view lots often range from $1.1M-$1.8M, putting many buyers just above the $1,209,750 conforming limit and into jumbo territory."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92610Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Foothill Ranch 92610 offers South Orange County living with <strong>$1.0 million median home prices</strong> and access to Whiting Ranch Wilderness Park trails. At the jumbo threshold where prices approach the $1,149,825 conforming limit, strategic loan structuring makes a difference. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate conforming versus jumbo options.
+            Foothill Ranch 92610 offers South Orange County living with <strong>$1.0 million median home prices</strong> and access to Whiting Ranch Wilderness Park trails. At the jumbo threshold where prices approach the $1,209,750 conforming limit, strategic loan structuring makes a difference. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate conforming versus jumbo options.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92610Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$550,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$750,000 - $1,400,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">22-35 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -184,7 +184,7 @@ export default function WholesaleMortgageBroker92610Page() {
 
         <h3>Conforming High-Balance</h3>
         <p>
-          For loans up to $1,149,825:
+          For loans up to $1,209,750:
         </p>
         <ul>
           <li>Best rates for qualifying properties</li>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92610Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amounts are typical in Foothill Ranch 92610?</h3>
-            <p className="mb-0">Foothill Ranch 92610 has a median home price around $1.0 million. Larger homes and premium view lots often range from $1.1M-$1.8M, putting many buyers just above the $1,149,825 conforming limit and into jumbo territory.</p>
+            <p className="mb-0">Foothill Ranch 92610 has a median home price around $1.0 million. Larger homes and premium view lots often range from $1.1M-$1.8M, putting many buyers just above the $1,209,750 conforming limit and into jumbo territory.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help with Portola Hills homes in 92610?</h3>

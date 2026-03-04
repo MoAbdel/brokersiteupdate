@@ -218,6 +218,12 @@ export default function HomeEquityUltraLuxuryMarin2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 9, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -757,7 +763,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
             </div>
 
             <div className="border-b border-gray-200 pb-4">
-              <h3 className="text-lg font-semibold mb-2">How does the 2026 HECM limit of $1,149,825 relate to Marin home equity?</h3>
+              <h3 className="text-lg font-semibold mb-2">How does the 2026 HECM limit of $1,209,750 relate to Marin home equity?</h3>
               <p>The HECM limit applies to reverse mortgages for homeowners age 62 and older. For standard home equity products (HELOC, HELOAN, cash-out refinance), there is no government-imposed limit &mdash; jumbo programs accommodate the full equity range of ultra-luxury Marin properties. See our <a href="/blog/reverse-mortgage-ultra-luxury-marin-2026" className="text-blue-600">reverse mortgage guide</a> for HECM-specific information.</p>
             </div>
           </div>

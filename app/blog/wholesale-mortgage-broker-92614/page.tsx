@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92614Page() {
                 "name": "What is the typical loan amount needed in Irvine Woodbridge 92614?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Irvine Woodbridge 92614 has a median home price of $1.3 million, with many single-family homes exceeding the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1M to $1.8M for this established master-planned community."
+                  "text": "Irvine Woodbridge 92614 has a median home price of $1.3 million, with many single-family homes exceeding the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1M to $1.8M for this established master-planned community."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92614Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine Woodbridge 92614 remains one of Orange County&apos;s most desirable master-planned communities with a <strong>$1.3 million median home price</strong>, two lakes, and resort-style amenities. With the 2026 conforming limit at $1,149,825, many 92614 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America or Wells Fargo—plus expertise with Woodbridge&apos;s HOA and Mello-Roos considerations.
+            Irvine Woodbridge 92614 remains one of Orange County&apos;s most desirable master-planned communities with a <strong>$1.3 million median home price</strong>, two lakes, and resort-style amenities. With the 2026 conforming limit at $1,209,750, many 92614 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America or Wells Fargo—plus expertise with Woodbridge&apos;s HOA and Mello-Roos considerations.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92614Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$700,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$950,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">14-28 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92614Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Irvine Woodbridge 92614?</h3>
-            <p className="mb-0">Irvine Woodbridge 92614 has a median home price of $1.3 million, with many single-family homes exceeding the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1M to $1.8M for this established master-planned community.</p>
+            <p className="mb-0">Irvine Woodbridge 92614 has a median home price of $1.3 million, with many single-family homes exceeding the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1M to $1.8M for this established master-planned community.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers understand Woodbridge HOA requirements?</h3>

@@ -65,7 +65,7 @@ export default function WholesaleMortgageBroker92675Page() {
                 "name": "Can I get a jumbo loan in San Juan Capistrano through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With San Juan Capistrano median home prices around $1.6M, most purchases require jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With San Juan Capistrano median home prices around $1.6M, most purchases require jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBroker92675Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.6M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$700K - $5M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">30-45 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo</td></tr>
             </tbody>
           </table>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92675Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $5M+</li>
+          <li>Loan amounts from $1,209,750 to $5M+</li>
           <li>Access to 50+ jumbo lenders competing for your business</li>
           <li>10-20% down payment options depending on loan amount</li>
           <li>Primary residence, second home, and investment properties</li>
@@ -236,7 +236,7 @@ export default function WholesaleMortgageBroker92675Page() {
 
         <h3>Marbella</h3>
         <p>
-          Gated golf course community with Mediterranean architecture. Homes typically $1.3M to $3.5M. Popular with families and retirees seeking resort-style amenities. Jumbo financing expertise required for most purchases.
+          Gated golf course community with Mediterranean architecture. Homes typically $1.3M to $3.5M. Known for resort-style amenities and spacious floor plans. Jumbo financing expertise required for most purchases.
         </p>
 
         <h3>Rancho San Juan</h3>

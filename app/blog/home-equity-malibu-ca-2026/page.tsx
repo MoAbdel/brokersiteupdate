@@ -76,7 +76,7 @@ export default function HomeEquityMalibuPage() {
         "name": "What credit score is needed for a jumbo HELOC in Malibu?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jumbo HELOCs for Malibu properties typically require credit scores of 700 to 740 or higher, depending on the lender and loan amount. Super-jumbo programs (exceeding $2 million) may have stricter requirements. As a wholesale broker with access to 50+ lenders, I can identify programs with varying credit criteria to find the best fit for your situation. Strong reserves and low debt-to-income ratios can help offset lower credit scores."
+          "text": "Jumbo HELOCs for Malibu properties typically require credit scores of 700 to 740 or higher, depending on the lender and loan amount. Super-jumbo programs (exceeding $2 million) may have stricter requirements. As a wholesale broker with access to 200+ lenders, I can identify programs with varying credit criteria to find the best fit for your situation. Strong reserves and low debt-to-income ratios can help offset lower credit scores."
         }
       },
       {
@@ -145,7 +145,7 @@ export default function HomeEquityMalibuPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Malibu homeowners have built extraordinary equity in one of the world&apos;s most desirable coastal real estate markets. With the median home value around <strong>$3.2 million</strong> and beachfront estates reaching <strong>$30 million or more</strong>, qualified homeowners can access substantial funds through jumbo HELOCs, home equity loans, or cash-out refinance. As a wholesale broker with access to 50+ lenders, I specialize in jumbo and super-jumbo equity products designed for high-value coastal properties.
+            Malibu homeowners have built extraordinary equity in one of the world&apos;s most desirable coastal real estate markets. With the median home value around <strong>$3.2 million</strong> and beachfront estates reaching <strong>$30 million or more</strong>, qualified homeowners can access substantial funds through jumbo HELOCs, home equity loans, or cash-out refinance. As a wholesale broker with access to 200+ lenders, I specialize in jumbo and super-jumbo equity products designed for high-value coastal properties.
           </p>
         </div>
 
@@ -267,7 +267,7 @@ export default function HomeEquityMalibuPage() {
 
         <h3>Malibu Park</h3>
         <p>
-          Located slightly inland, Malibu Park offers larger lots, more privacy, and a family-friendly atmosphere. Properties range from $2.5 million to $6 million, providing relative value compared to beachfront areas. This neighborhood is popular with families who want Malibu schools and lifestyle without oceanfront maintenance concerns.
+          Located slightly inland, Malibu Park offers larger lots, more privacy, and a family-friendly atmosphere. Properties range from $2.5 million to $6 million, providing relative value compared to beachfront areas. This neighborhood offers Malibu schools and lifestyle without oceanfront maintenance concerns.
         </p>
 
         <h2 id="equity-options">Your Home Equity Options</h2>
@@ -552,7 +552,7 @@ export default function HomeEquityMalibuPage() {
 
         <h3>What credit score is needed for a jumbo HELOC in Malibu?</h3>
         <p>
-          Jumbo HELOCs for Malibu properties typically require credit scores of 700 to 740 or higher, depending on the lender and loan amount. Super-jumbo programs (exceeding $2 million) may have stricter requirements. As a wholesale broker with access to 50+ lenders, I can identify programs with varying credit criteria to find the best fit for your situation. Strong reserves and low debt-to-income ratios can help offset lower credit scores.
+          Jumbo HELOCs for Malibu properties typically require credit scores of 700 to 740 or higher, depending on the lender and loan amount. Super-jumbo programs (exceeding $2 million) may have stricter requirements. As a wholesale broker with access to 200+ lenders, I can identify programs with varying credit criteria to find the best fit for your situation. Strong reserves and low debt-to-income ratios can help offset lower credit scores.
         </p>
 
         <h3>How long does it take to close on a Malibu home equity loan?</h3>

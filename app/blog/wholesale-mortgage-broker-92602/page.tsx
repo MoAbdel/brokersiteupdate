@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92602Page() {
                 "name": "What is the typical loan amount needed in Irvine Northpark 92602?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Irvine Northpark 92602 has a median home price of $1.5 million, pushing most buyers into jumbo loan territory above the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1.1M to $2M for this master-planned community."
+                  "text": "Irvine Northpark 92602 has a median home price of $1.5 million, pushing most buyers into jumbo loan territory above the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1.1M to $2M for this master-planned community."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92602Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine Northpark 92602 attracts tech professionals, executives, and families to its master-planned community with a <strong>$1.5 million median home price</strong>. With the 2026 conforming loan limit at $1,149,825, most Northpark buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America, Wells Fargo, or Chase—especially for the tech professionals who call 92602 home.
+            Irvine Northpark 92602 attracts tech professionals, executives, and families to its master-planned community with a <strong>$1.5 million median home price</strong>. With the 2026 conforming loan limit at $1,209,750, most Northpark buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America, Wells Fargo, or Chase—especially for the tech professionals who call 92602 home.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92602Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit of $1,149,825 doesn&apos;t stretch far in Northpark. With a $1.5M median price, the typical 92602 buyer needs a <strong>jumbo loan of $1.1-1.8 million</strong>. Banks offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing for Irvine&apos;s tech-savvy buyers.
+          The 2026 conforming loan limit of $1,209,750 doesn&apos;t stretch far in Northpark. With a $1.5M median price, the typical 92602 buyer needs a <strong>jumbo loan of $1.1-1.8 million</strong>. Banks offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing for Irvine&apos;s tech-savvy buyers.
         </p>
 
         <h2>92602 Real Estate Snapshot</h2>
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92602Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$900,000 - $2,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,100,000 - $2,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">21-35 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -268,7 +268,7 @@ export default function WholesaleMortgageBroker92602Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Irvine Northpark 92602?</h3>
-            <p className="mb-0">Irvine Northpark 92602 has a median home price of $1.5 million, pushing most buyers into jumbo loan territory above the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1.1M to $2M for this master-planned community.</p>
+            <p className="mb-0">Irvine Northpark 92602 has a median home price of $1.5 million, pushing most buyers into jumbo loan territory above the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1.1M to $2M for this master-planned community.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over Bank of America in Irvine?</h3>

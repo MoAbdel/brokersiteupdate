@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage in Palo Alto, Los Altos & Premium Silicon Valley, CA [2026] | Mo Abdel',
-  description: 'Reverse mortgage guide for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino seniors. HECM and jumbo reverse mortgage options for homes exceeding $1,149,825 limit. NMLS #1426884.',
+  description: 'Reverse mortgage guide for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino seniors. HECM and jumbo reverse mortgage options for homes exceeding $1,209,750 limit. NMLS #1426884.',
   keywords: [
     'reverse mortgage Palo Alto', 'reverse mortgage Los Altos', 'reverse mortgage Saratoga',
     'reverse mortgage Los Gatos', 'reverse mortgage Cupertino', 'HECM Silicon Valley',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Reverse Mortgage in Palo Alto, Los Altos & Premium Silicon Valley, CA [2026]',
-    description: 'HECM and jumbo reverse mortgage options for Silicon Valley seniors. All homes exceed the $1,149,825 HECM limit. Proprietary programs access greater equity.',
+    description: 'HECM and jumbo reverse mortgage options for Silicon Valley seniors. All homes exceed the $1,209,750 HECM limit. Proprietary programs access greater equity.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-premium-silicon-valley-2026',
     type: 'article',
   },
@@ -28,15 +28,15 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
   const faqData = [
     {
       question: 'Can Palo Alto seniors get a reverse mortgage on a $3.5 million home?',
-      answer: 'Yes. The FHA HECM program caps at $1,149,825, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Palo Alto seniors with homes above the HECM limit access greater equity through these private-label programs available via wholesale broker channels.'
+      answer: 'Yes. The FHA HECM program caps at $1,209,750, but proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Palo Alto seniors with homes above the HECM limit access greater equity through these private-label programs available via wholesale broker channels.'
     },
     {
       question: 'What is the HECM limit for 2026 and how does it affect Silicon Valley homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Since every premium Silicon Valley city has median home values well above this limit, most seniors need proprietary reverse mortgage programs. The HECM limit determines the maximum home value used for FHA-insured calculations regardless of actual property value.'
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Since every premium Silicon Valley city has median home values well above this limit, most seniors need proprietary reverse mortgage programs. The HECM limit determines the maximum home value used for FHA-insured calculations regardless of actual property value.'
     },
     {
       question: 'How much money can a Silicon Valley senior receive from a reverse mortgage?',
-      answer: 'The amount depends on age, home value, and the program type. FHA HECM payouts are based on the $1,149,825 limit regardless of higher home values. Proprietary programs base payouts on actual home value, potentially delivering significantly more for homes valued $2 million or above, which is standard across premium Silicon Valley.'
+      answer: 'The amount depends on age, home value, and the program type. FHA HECM payouts are based on the $1,209,750 limit regardless of higher home values. Proprietary programs base payouts on actual home value, potentially delivering significantly more for homes valued $2 million or above, which is standard across premium Silicon Valley.'
     },
     {
       question: 'Do I lose ownership of my home with a reverse mortgage?',
@@ -72,7 +72,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
     },
     {
       question: 'Why use a wholesale broker for a reverse mortgage instead of going to a bank?',
-      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Silicon Valley homeowners with properties above the $1,149,825 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives.'
+      answer: 'A wholesale broker compares HECM and proprietary reverse mortgage programs from multiple lenders simultaneously. For Silicon Valley homeowners with properties above the $1,209,750 HECM limit, broker access to proprietary programs is essential. Banks typically offer only their own HECM product with no proprietary alternatives.'
     }
   ];
 
@@ -176,12 +176,24 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         </p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* ── Section 1: Citation Hook ── */}
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-8">
           <p className="text-gray-800 font-medium mb-0">
-            The five premium Silicon Valley cities&mdash;Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino&mdash;are home to an estimated <strong>28,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$42 billion in home equity</strong>, according to 2026 Santa Clara County assessor data and U.S. Census demographic projections. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, making proprietary (jumbo) reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments.
+            The five premium Silicon Valley cities&mdash;Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino&mdash;are home to an estimated <strong>28,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$42 billion in home equity</strong>, according to 2026 Santa Clara County assessor data and U.S. Census demographic projections. Every one of these cities has a median home value that exceeds the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary (jumbo) reverse mortgage programs essential for seniors who want to access the full value of their homes without monthly mortgage payments.
           </p>
         </div>
 
@@ -189,7 +201,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         <h2 className="text-2xl font-bold text-gray-900">Reverse Mortgage Overview: Premium Silicon Valley Cities</h2>
 
         <p>
-          A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells the home, moves to a different primary residence, or passes away. In premium Silicon Valley, where home values range from $2.4 million to $4.3 million at the median, the standard FHA HECM program alone leaves significant equity on the table. Proprietary reverse mortgage programs bridge this gap, using actual home value rather than the FHA ceiling for payout calculations.
+          A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells the home, moves to a different primary residence, or passes away. In premium Silicon Valley, where home values range from $2.4 million to $4.3 million at the median, the standard FHA HECM program alone leaves significant equity on the table. Proprietary reverse mortgage programs bridge this gap, using actual home value rather than the FHA ceiling for payout calculations.
         </p>
 
         <h3 className="text-xl font-semibold text-gray-900">Premium Silicon Valley Reverse Mortgage: City-by-City Overview</h3>
@@ -259,7 +271,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
             <tbody>
               <tr>
                 <td className="py-3 px-4 border-b font-medium">Max Home Value Used</td>
-                <td className="py-3 px-4 border-b">$1,149,825 (2026 limit)</td>
+                <td className="py-3 px-4 border-b">$1,209,750 (2026 limit)</td>
                 <td className="py-3 px-4 border-b">Actual home value ($2M&ndash;$10M+)</td>
               </tr>
               <tr>
@@ -309,7 +321,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
           <li><strong>HUD-approved counseling (HECM):</strong> Complete a mandatory counseling session with a HUD-approved agency. The counselor reviews your financial situation, explains alternatives, and provides a certificate required for application.</li>
           <li><strong>Property appraisal:</strong> A certified appraiser determines your home&apos;s current market value. Silicon Valley luxury properties require appraisers experienced with high-value comparable sales.</li>
           <li><strong>Financial assessment:</strong> Lenders evaluate your ability to maintain property taxes, homeowner&apos;s insurance, and HOA dues (if applicable). Residual income and credit history are reviewed.</li>
-          <li><strong>Program selection:</strong> Based on your home value, age, and financial goals, select between HECM (for FHA protections at the $1,149,825 cap) or proprietary programs (for full value access on homes above the limit).</li>
+          <li><strong>Program selection:</strong> Based on your home value, age, and financial goals, select between HECM (for FHA protections at the $1,209,750 cap) or proprietary programs (for full value access on homes above the limit).</li>
         </ol>
 
         <h3 className="text-xl font-semibold text-gray-900">Reverse Mortgage Payout Options for Silicon Valley Seniors</h3>
@@ -369,7 +381,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         </div>
 
         <p>
-          <strong>Unique Scenario:</strong> A 72-year-old retired Stanford professor in Professorville owns a $6 million home free and clear. Living on a university pension and Social Security, the monthly income does not support the lifestyle the equity position suggests. A proprietary reverse mortgage provides a $1.8 million line of credit based on actual home value&mdash;three times what the HECM program would deliver at the $1,149,825 cap. The professor uses the credit line for travel, grandchildren&apos;s education, and home maintenance without monthly payments.
+          <strong>Unique Scenario:</strong> A 72-year-old retired Stanford professor in Professorville owns a $6 million home free and clear. Living on a university pension and Social Security, the monthly income does not support the lifestyle the equity position suggests. A proprietary reverse mortgage provides a $1.8 million line of credit based on actual home value&mdash;three times what the HECM program would deliver at the $1,209,750 cap. The professor uses the credit line for travel, grandchildren&apos;s education, and home maintenance without monthly payments.
         </p>
 
         <p>
@@ -515,7 +527,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         </div>
 
         <p>
-          <strong>Unique Scenario:</strong> A 66-year-old Los Gatos business owner in Shannon plans to semi-retire while maintaining a home office. The $2.8 million home is free and clear. Business income is declining as the owner reduces hours. An FHA HECM provides a growing line of credit based on the $1,149,825 limit, while the unused portion grows annually. The owner draws approximately $3,000 monthly to supplement reduced business income, with the growing credit line serving as a long-term financial safety net.
+          <strong>Unique Scenario:</strong> A 66-year-old Los Gatos business owner in Shannon plans to semi-retire while maintaining a home office. The $2.8 million home is free and clear. Business income is declining as the owner reduces hours. An FHA HECM provides a growing line of credit based on the $1,209,750 limit, while the unused portion grows annually. The owner draws approximately $3,000 monthly to supplement reduced business income, with the growing credit line serving as a long-term financial safety net.
         </p>
 
         <p>
@@ -573,7 +585,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         <h2 className="text-2xl font-bold text-gray-900">Why Premium Silicon Valley Seniors Need a Specialist Reverse Mortgage Broker</h2>
 
         <p>
-          The reverse mortgage market in premium Silicon Valley operates differently from the national market. Nationally, the average HECM borrower has a home valued near or below the FHA lending limit, making the standard program sufficient. In Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino, every median home value exceeds the $1,149,825 HECM limit by $1.25 million to $3.15 million. This reality demands expertise in proprietary reverse mortgage programs that most lenders do not offer.
+          The reverse mortgage market in premium Silicon Valley operates differently from the national market. Nationally, the average HECM borrower has a home valued near or below the FHA lending limit, making the standard program sufficient. In Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino, every median home value exceeds the $1,209,750 HECM limit by $1.25 million to $3.15 million. This reality demands expertise in proprietary reverse mortgage programs that most lenders do not offer.
         </p>
 
         <p>
@@ -656,7 +668,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         <h2 className="text-2xl font-bold text-gray-900">People Also Ask: Premium Silicon Valley Reverse Mortgage</h2>
 
         <h3>What is the maximum reverse mortgage amount in Palo Alto?</h3>
-        <p>FHA HECM caps at the $1,149,825 limit. Proprietary programs base payouts on actual value, providing significantly more for Palo Alto homes.</p>
+        <p>FHA HECM caps at the $1,209,750 limit. Proprietary programs base payouts on actual value, providing significantly more for Palo Alto homes.</p>
 
         <h3>Can I keep my home with a reverse mortgage?</h3>
         <p>Yes, you retain full ownership and title. You live in the home without monthly mortgage payments as long as it remains your primary residence.</p>

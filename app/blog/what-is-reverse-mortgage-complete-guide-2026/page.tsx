@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',
-  description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,149,825, eligibility requirements, payout options, and pros/cons. NMLS #1426884.',
+  description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,209,750, eligibility requirements, payout options, and pros/cons. NMLS #1426884.',
   keywords: ['what is a reverse mortgage', 'HECM loan', 'reverse mortgage for seniors', 'reverse mortgage requirements', 'how reverse mortgages work', 'reverse mortgage 2026'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',
-    description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,149,825, eligibility requirements, and pros/cons.',
+    description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,209,750, eligibility requirements, and pros/cons.',
     url: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage-complete-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',
-    description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,149,825, eligibility requirements, and pros/cons.',
+    description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 FHA limit $1,209,750, eligibility requirements, and pros/cons.',
   },
 };
 
@@ -85,7 +85,7 @@ export default function WhatIsReverseMortgageGuide() {
         name: 'How much money can you get from a reverse mortgage?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825. Older borrowers typically qualify for more. Most borrowers can access 40-75% of their home value, with the specific amount calculated using FHA Principal Limit Factor tables.',
+          text: 'The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,209,750. Older borrowers typically qualify for more. Most borrowers can access 40-75% of their home value, with the specific amount calculated using FHA Principal Limit Factor tables.',
         },
       },
       {
@@ -194,11 +194,23 @@ export default function WhatIsReverseMortgageGuide() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* CITATION HOOK (50-75 words) */}
           <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="lead font-semibold text-gray-900 mb-0">
-              According to Mo Abdel, NMLS #1426884, a <strong>reverse mortgage</strong> allows homeowners <strong>62 and older</strong> to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to <strong>$1,149,825 in 2026</strong>, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying, and the loan is non-recourse—meaning you or your heirs will never owe more than the home&apos;s value.
+              According to Mo Abdel, NMLS #1426884, a <strong>reverse mortgage</strong> allows homeowners <strong>62 and older</strong> to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without monthly mortgage payments. The FHA-insured HECM program offers up to <strong>$1,209,750 in 2026</strong>, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying, and the loan is non-recourse—meaning you or your heirs will never owe more than the home&apos;s value.
             </p>
           </div>
 
@@ -233,7 +245,7 @@ export default function WhatIsReverseMortgageGuide() {
                 <tr><td className="py-2 px-4 border"><strong>Equity Required</strong></td><td className="py-2 px-4 border">Generally 50%+ equity (varies by age and current interest rates)</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>HUD Counseling</strong></td><td className="py-2 px-4 border">Mandatory session with HUD-approved counselor (phone or in-person)</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>Financial Assessment</strong></td><td className="py-2 px-4 border">Income, credit history, and property charge payment history reviewed</td></tr>
-                <tr><td className="py-2 px-4 border"><strong>2026 FHA Limit</strong></td><td className="py-2 px-4 border">$1,149,825 maximum claim amount</td></tr>
+                <tr><td className="py-2 px-4 border"><strong>2026 FHA Limit</strong></td><td className="py-2 px-4 border">$1,209,750 maximum claim amount</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>No Federal Debt</strong></td><td className="py-2 px-4 border">Cannot be delinquent on federal debt (taxes, student loans)</td></tr>
               </tbody>
             </table>
@@ -255,7 +267,7 @@ export default function WhatIsReverseMortgageGuide() {
             In our Orange County HECM closings, we&apos;ve observed that understanding the mechanics of a reverse mortgage helps seniors make confident decisions. Here&apos;s how the process unfolds from application to funding.
           </p>
           <p>
-            When you close on a reverse mortgage, the lender calculates your Principal Limit—the maximum amount you can access based on your age, home value (up to $1,149,825), and current interest rates. Older borrowers receive higher percentages because the loan has less time to accrue interest before repayment.
+            When you close on a reverse mortgage, the lender calculates your Principal Limit—the maximum amount you can access based on your age, home value (up to $1,209,750), and current interest rates. Older borrowers receive higher percentages because the loan has less time to accrue interest before repayment.
           </p>
           <p>
             Any existing mortgage must be paid off at closing using your reverse mortgage proceeds. The remaining funds are available to you through your chosen payout method. Interest accrues on the amount you&apos;ve borrowed (not the entire principal limit), and this interest is added to your loan balance monthly.
@@ -316,7 +328,7 @@ export default function WhatIsReverseMortgageGuide() {
           <ul className="list-disc pl-6 space-y-2">
             <li>You plan to remain in your home for at least 5+ years</li>
             <li>You have significant equity (typically 50% or more)</li>
-            <li>You need to supplement retirement income or eliminate mortgage payments</li>
+            <li>You need to supplement retirement income or replace your current mortgage payment with no required monthly principal and interest payments (you must continue to pay property taxes, homeowners insurance, and maintain the home)</li>
             <li>You want to create a financial safety net without monthly payment obligations</li>
             <li>Preserving maximum inheritance is not your primary goal</li>
           </ul>
@@ -348,7 +360,7 @@ export default function WhatIsReverseMortgageGuide() {
                 <tr><td className="py-2 px-4 border"><strong>Upfront Costs</strong></td><td className="py-2 px-4 border">Higher (MIP, origination)</td><td className="py-2 px-4 border">Lower</td><td className="py-2 px-4 border">Moving costs, realtor fees</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>Interest Rates</strong></td><td className="py-2 px-4 border">Higher than HELOC</td><td className="py-2 px-4 border">Variable (lower)</td><td className="py-2 px-4 border">N/A</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>Repayment Trigger</strong></td><td className="py-2 px-4 border">Move, sell, or death</td><td className="py-2 px-4 border">Monthly from start</td><td className="py-2 px-4 border">Immediate cash at sale</td></tr>
-                <tr><td className="py-2 px-4 border"><strong>2026 Maximum</strong></td><td className="py-2 px-4 border">$1,149,825 FHA limit</td><td className="py-2 px-4 border">Varies by lender</td><td className="py-2 px-4 border">Full home equity</td></tr>
+                <tr><td className="py-2 px-4 border"><strong>2026 Maximum</strong></td><td className="py-2 px-4 border">$1,209,750 FHA limit</td><td className="py-2 px-4 border">Varies by lender</td><td className="py-2 px-4 border">Full home equity</td></tr>
                 <tr><td className="py-2 px-4 border"><strong>Best For</strong></td><td className="py-2 px-4 border">Seniors wanting no payments</td><td className="py-2 px-4 border">Those who can afford payments</td><td className="py-2 px-4 border">Those ready to relocate</td></tr>
               </tbody>
             </table>
@@ -359,7 +371,7 @@ export default function WhatIsReverseMortgageGuide() {
             According to FHA data and industry reports, the 2026 reverse mortgage landscape shows:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>FHA Lending Limit:</strong> $1,149,825 (increased from $1,089,300 in 2025)</li>
+            <li><strong>FHA Lending Limit:</strong> $1,209,750 (increased from $1,089,300 in 2025)</li>
             <li><strong>Principal Limit Factors:</strong> Range from approximately 40% (age 62) to 75% (age 90+) depending on interest rates</li>
             <li><strong>Average Borrower Age:</strong> 73 years old nationally</li>
             <li><strong>California/Washington Focus:</strong> Higher home values make HECMs particularly valuable in coastal markets like Orange County, San Diego, and Seattle metro areas</li>
@@ -377,7 +389,7 @@ export default function WhatIsReverseMortgageGuide() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">How much money can you get from a reverse mortgage?</h3>
-              <p className="paa-answer"><strong>The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825; older borrowers typically qualify for more.</strong> Your Principal Limit is calculated using FHA tables that factor in these variables. A 62-year-old might access around 40-50% of home value, while a 75-year-old could access 55-65%. Existing mortgages must be paid off from proceeds first.</p>
+              <p className="paa-answer"><strong>The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,209,750; older borrowers typically qualify for more.</strong> Your Principal Limit is calculated using FHA tables that factor in these variables. A 62-year-old might access around 40-50% of home value, while a 75-year-old could access 55-65%. Existing mortgages must be paid off from proceeds first.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -397,7 +409,7 @@ export default function WhatIsReverseMortgageGuide() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">Is a reverse mortgage a good idea in 2026?</h3>
-              <p className="paa-answer"><strong>It depends on your goals—reverse mortgages work well for seniors who plan to age in place and need supplemental income, but not for those planning to move soon.</strong> Based on Mo Abdel&apos;s experience, the best candidates have significant equity, want to eliminate existing mortgage payments, and prioritize staying in their home over maximizing inheritance. The 2026 FHA limit increase to $1,149,825 makes HECMs more valuable for high-equity homeowners.</p>
+              <p className="paa-answer"><strong>It depends on your goals—reverse mortgages work well for seniors who plan to age in place and need supplemental income, but not for those planning to move soon.</strong> Based on Mo Abdel&apos;s experience, the best candidates have significant equity, want to eliminate existing mortgage payments, and prioritize staying in their home over maximizing inheritance. The 2026 FHA limit increase to $1,209,750 makes HECMs more valuable for high-equity homeowners.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -478,7 +490,7 @@ export default function WhatIsReverseMortgageGuide() {
               A reverse mortgage can be a powerful financial tool for seniors 62+ seeking to access home equity without monthly payments. As Mo Abdel, NMLS #1426884, advises: &quot;The key is understanding whether a HECM aligns with your long-term goals. For seniors planning to age in place with significant equity, it&apos;s often an excellent solution—but it&apos;s not right for everyone.&quot;
             </p>
             <p className="text-blue-900">
-              With the 2026 FHA limit at $1,149,825, California and Washington homeowners have substantial equity access potential. Whether you want to eliminate mortgage payments, supplement retirement income, or create a growing line of credit for future needs, a personalized consultation can help you understand your options.
+              With the 2026 FHA limit at $1,209,750, California and Washington homeowners have substantial equity access potential. Whether you want to replace your current mortgage payment with no required monthly principal and interest payments (you must continue to pay property taxes, homeowners insurance, and maintain the home), supplement retirement income, or create a growing line of credit for future needs, a personalized consultation can help you understand your options.
             </p>
             <p className="text-blue-900 font-semibold">
               <strong>Contact Mo Abdel today:</strong> (949) 822-9662 | <a href="mailto:mo@mothebroker.com" className="text-blue-700 hover:underline">mo@mothebroker.com</a>

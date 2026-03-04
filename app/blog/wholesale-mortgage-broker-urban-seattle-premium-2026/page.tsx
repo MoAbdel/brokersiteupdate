@@ -60,7 +60,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
     },
     {
       question: 'What DSCR loan options exist for Ballard and Fremont investment property investors?',
-      answer: 'Wholesale brokers access 20+ DSCR lenders for Seattle investment property financing. DSCR loans qualify based on property rental income versus the mortgage payment with zero personal income verification. A Ballard duplex generating $5,200 monthly rent against a $3,800 PITI qualifies at a 1.37 DSCR ratio. Programs start at 20% down with rates from 7.00% for properties with strong rental performance.',
+      answer: 'Wholesale brokers access 20+ DSCR lenders for Seattle investment property financing. DSCR loans qualify based on property rental income versus the mortgage payment with zero personal income verification. A Ballard duplex generating $5,200 monthly rent against a $3,800 PITI qualifies at a 1.37 DSCR ratio. Programs start at 20% down with competitive rates for properties with strong rental performance. Contact Mo Abdel for current DSCR rate information.',
     },
     {
       question: 'Can a wholesale broker finance a Bainbridge Island waterfront estate?',
@@ -214,6 +214,18 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -221,7 +233,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
             Urban Seattle Wholesale Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            Seattle homebuyers in premium neighborhoods pay a median of $1.2 million per transaction, placing 78% of purchases in jumbo territory where wholesale broker access saves $52,000&ndash;$68,000 over the life of a 30-year loan compared to retail bank financing. King County&apos;s 2026 conforming limit sits at $1,149,825&mdash;below the entry price for Capitol Hill townhomes, Queen Anne view properties, and Madison Park single-family homes. Wholesale brokers shopping 200+ lenders produce jumbo rates 0.25&ndash;0.50% lower than any single bank, while routing Amazon, Microsoft, and startup founder income to lenders with tech-specific underwriting that recognizes RSU vesting schedules, unvested stock value, and equity compensation at full qualifying weight.
+            Seattle homebuyers in premium neighborhoods pay a median of $1.2 million per transaction, placing 78% of purchases in jumbo territory where wholesale broker access saves $52,000&ndash;$68,000 over the life of a 30-year loan compared to retail bank financing. King County&apos;s 2026 conforming limit sits at $1,209,750&mdash;below the entry price for Capitol Hill townhomes, Queen Anne view properties, and Madison Park single-family homes. Wholesale brokers shopping 200+ lenders produce jumbo rates 0.25&ndash;0.50% lower than any single bank, while routing Amazon, Microsoft, and startup founder income to lenders with tech-specific underwriting that recognizes RSU vesting schedules, unvested stock value, and equity compensation at full qualifying weight.
           </p>
         </div>
 
@@ -433,7 +445,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
           Wholesale brokers solve Capitol Hill&apos;s RSU challenge by routing applications to lenders with specialized tech compensation guidelines. An Amazon L7 principal engineer earning $220,000 base plus $400,000 in annual RSU vesting qualifies at $620,000 through wholesale lenders that accept 1-year vesting history at current stock price. A bank applying conservative 2-year averaging and discounting unvested shares recognizes $320,000&ndash;$380,000. That $240,000 income recognition gap translates to over $600,000 in additional purchasing power&mdash;the difference between a Capitol Hill townhome and settling for a suburban compromise.
         </p>
         <p>
-          The Central District attracts buyers at a slightly lower price point where conventional high-balance programs provide advantages over jumping directly to jumbo. Properties near the $1,149,825 conforming limit benefit from wholesale rate shopping across 200+ conventional lenders, producing rates 0.25% lower than jumbo pricing. Wholesale brokers optimize the loan structure&mdash;sometimes splitting the financing into a first mortgage at the conforming limit plus a second&mdash;to save clients $150&ndash;$250 monthly.
+          The Central District attracts buyers at a slightly lower price point where conventional high-balance programs provide advantages over jumping directly to jumbo. Properties near the $1,209,750 conforming limit benefit from wholesale rate shopping across 200+ conventional lenders, producing rates 0.25% lower than jumbo pricing. Wholesale brokers optimize the loan structure&mdash;sometimes splitting the financing into a first mortgage at the conforming limit plus a second&mdash;to save clients $150&ndash;$250 monthly.
         </p>
         <p>
           Condo financing adds another wholesale advantage in Capitol Hill. The neighborhood&apos;s mid-rise and high-rise buildings frequently exceed 50% investor ownership or carry pending HOA litigation that banks use as automatic disqualifiers. Wholesale brokers access 30+ condo-friendly lenders including non-warrantable specialists who evaluate each building individually rather than applying blanket restrictions. A buyer purchasing a $925,000 Capitol Hill condo in a building with 55% investor concentration gets declined at Chase and approved through wholesale channels within 48 hours.
@@ -473,7 +485,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
           View-property underwriting creates a specific wholesale advantage. Bank appraisers frequently undervalue view premiums by $100,000&ndash;$300,000 because their comparable selection algorithms pull from city-wide data rather than view-corridor-specific transactions. Wholesale brokers work with appraisers who document view premiums using neighborhood-specific paired sales analysis, then route loans to jumbo lenders whose underwriting guidelines accept view-premium justifications. A $1.8 million Upper Queen Anne home with Space Needle views appraises at $1.8 million through wholesale channels versus $1.55 million through a bank&apos;s standard appraisal process.
         </p>
         <p>
-          Magnolia&apos;s historical connection to Fort Lawton (now Discovery Park) maintains a military-affiliated buyer presence. VA jumbo loans through wholesale channels provide $0 down payment on purchases exceeding the $1,149,825 conforming limit&mdash;a benefit that active-duty service members and veterans cannot access through most retail banks. On a $1.45 million Magnolia purchase, VA jumbo financing eliminates $290,000 in down payment requirements versus the 20% that conventional jumbo banks demand.
+          Magnolia&apos;s historical connection to Fort Lawton (now Discovery Park) maintains a military-affiliated buyer presence. VA jumbo loans through wholesale channels provide $0 down payment on purchases exceeding the $1,209,750 conforming limit&mdash;a benefit that active-duty service members and veterans cannot access through most retail banks. On a $1.45 million Magnolia purchase, VA jumbo financing eliminates $290,000 in down payment requirements versus the 20% that conventional jumbo banks demand.
         </p>
         <p>
           Interest-only jumbo programs serve Queen Anne buyers with high incomes and asset growth expectations. A 10-year interest-only period on a $1.65 million mortgage reduces monthly payments by $1,400&ndash;$2,100 compared to fully amortizing payments. Wholesale lenders offer interest-only at rates just 0.125% above fully amortizing, while the single bank that offers interest-only typically charges a 0.375&ndash;0.50% premium. That rate differential alone saves $300+ monthly during the interest-only period.
@@ -703,7 +715,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Conforming (High-Balance)</td>
                 <td className="border border-gray-300 px-4 py-3">6.000% &ndash; 6.375%</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750</td>
                 <td className="border border-gray-300 px-4 py-3">3%</td>
                 <td className="border border-gray-300 px-4 py-3">Central District, Ballard, Fremont, West Seattle</td>
               </tr>
@@ -768,7 +780,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
           </div>
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">What is the 2026 conforming loan limit for King County?</h3>
-            <p className="text-gray-700 mb-0"><strong>King County&apos;s 2026 conforming loan limit is $1,149,825 for single-family homes, requiring jumbo financing above that threshold.</strong> Seattle premium neighborhoods with medians of $1.05M&ndash;$2.8M place most purchases in jumbo territory where wholesale broker access delivers maximum advantage.</p>
+            <p className="text-gray-700 mb-0"><strong>King County&apos;s 2026 conforming loan limit is $1,209,750 for single-family homes, requiring jumbo financing above that threshold.</strong> Seattle premium neighborhoods with medians of $1.05M&ndash;$2.8M place most purchases in jumbo territory where wholesale broker access delivers maximum advantage.</p>
           </div>
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Can I get a DSCR loan for a Seattle investment property?</h3>

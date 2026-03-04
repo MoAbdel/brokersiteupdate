@@ -173,7 +173,7 @@ California's median home price exceeds $800,000, with major metros far higher:
 - Orange County: $1.1M+
 - San Diego: $900,000+
 
-At these prices, most buyers need jumbo loans (above the conforming limit of $1,149,825 in high-cost areas). Wholesale brokers access 50+ jumbo lenders, while banks offer just their own jumbo product.
+At these prices, most buyers need jumbo loans (above the conforming limit of $1,209,750 in high-cost areas). Wholesale brokers access 50+ jumbo lenders, while banks offer just their own jumbo product.
 
 ### Self-Employment Capital
 
@@ -211,7 +211,7 @@ Wholesale brokers have programs for every situation.
 Wholesale brokers access the full spectrum of mortgage programs:
 
 ### Conventional Loans
-- Conforming loans up to $1,149,825 (high-cost CA areas)
+- Conforming loans up to $1,209,750 (high-cost CA areas)
 - 3-20% down payment options
 - 620+ credit score requirements
 - Primary, second home, and investment
@@ -354,9 +354,9 @@ How to find and vet a wholesale mortgage broker:
 
 | County Type | Conforming Limit | Jumbo Threshold |
 |-------------|------------------|-----------------|
-| High-Cost (most of CA) | $1,149,825 | Above $1,149,825 |
-| Super High-Cost | $1,149,825 | Above $1,149,825 |
-| Standard | $766,550 | Above $766,550 |
+| High-Cost (most of CA) | $1,209,750 | Above $1,209,750 |
+| Super High-Cost | $1,209,750 | Above $1,209,750 |
+| Standard | $806,500 | Above $806,500 |
 
 ### California-Specific Programs
 - CalHFA down payment assistance

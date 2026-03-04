@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Calabasas Cash-Out Refinance 2026 | Luxury Home Equity | Mo Abdel',
-  description: 'Calabasas cash-out refinance 2026: Access equity in your gated community property. Wholesale broker with 50+ lenders for jumbo loans. NMLS #1426884.',
+  description: 'Calabasas cash-out refinance 2026: Access equity in your gated community property. Wholesale broker with 200+ lenders for jumbo loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Calabasas Cash-Out Refinance 2026 | Gated Community Home Equity',
-    description: 'Calabasas cash-out refinance: Unlock home equity through wholesale broker channels with access to 50+ lenders.',
+    description: 'Calabasas cash-out refinance: Unlock home equity through wholesale broker channels with access to 200+ lenders.',
     type: 'article',
     publishedTime: '2026-01-21',
     authors: ['Mo Abdel'],
@@ -113,7 +113,7 @@ export default function CalabasasCashOutRefinancePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Calabasas homeowners can access significant home equity through cash-out refinancing by working with a wholesale mortgage broker who shops 50+ lenders for competitive jumbo loan pricing. With the city's prestigious gated communities, celebrity appeal, and median home values around $2 million in 2026, Calabasas properties often contain substantial untapped equity perfect for renovations, investments, business ventures, or debt consolidation.
+                        Calabasas homeowners can access significant home equity through cash-out refinancing by working with a wholesale mortgage broker who shops 200+ lenders for competitive jumbo loan pricing. With the city's prestigious gated communities, celebrity appeal, and median home values around $2 million in 2026, Calabasas properties often contain substantial untapped equity perfect for renovations, investments, business ventures, or debt consolidation.
                     </p>
                 </div>
 
@@ -146,7 +146,7 @@ export default function CalabasasCashOutRefinancePage() {
 
                 <h3>Jumbo Cash-Out Refinance</h3>
                 <p>
-                    Most Calabasas properties require jumbo financing due to values exceeding the $1,266,300 conforming limit:
+                    Most Calabasas properties require jumbo financing due to values exceeding the $1,209,750 conforming limit:
                 </p>
                 <ul>
                     <li>Loan amounts from $1.5 million to $5 million+</li>
@@ -317,13 +317,13 @@ export default function CalabasasCashOutRefinancePage() {
                     Calabasas's prestige and property values have created exceptional equity positions for homeowners. Whether you're planning a luxury renovation, expanding your investment portfolio, or funding a business venture, cash-out refinancing through wholesale channels provides competitive terms and personalized service.
                 </p>
                 <p>
-                    Contact us today for a complimentary cash-out refinance analysis. We'll evaluate your equity, compare options from 50+ lenders, and design the optimal solution for your Calabasas property.
+                    Contact us today for a complimentary cash-out refinance analysis. We'll evaluate your equity, compare options from 200+ lenders, and design the optimal solution for your Calabasas property.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

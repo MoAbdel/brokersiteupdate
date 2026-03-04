@@ -7,10 +7,10 @@ import { DollarSign, Home, TrendingUp, MapPin, Phone, CheckCircle, Waves } from 
 
 export const metadata: Metadata = {
   title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA | Mo Abdel NMLS #1426884',
-  description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 822-9662.',
+  description: 'Current Orange County FHA loan limits for 2026. $1,209,750 limit allows FHA financing for most OC homes. Licensed FHA specialist Mo Abdel (949) 822-9662.',
   openGraph: {
     title: 'Orange County FHA Loan Limits 2026 | Current FHA Limits CA',
-    description: 'Current Orange County FHA loan limits for 2026. $1,266,300 limit allows FHA financing for most OC homes.',
+    description: 'Current Orange County FHA loan limits for 2026. $1,209,750 limit allows FHA financing for most OC homes.',
     type: 'website',
   },
   alternates: {
@@ -37,7 +37,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
             Orange County <span className="text-blue-600">FHA Loan Limits</span> 2026
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Current FHA loan limits in Orange County allow financing up to $1,266,300 for single-family homes.
+            Current FHA loan limits in Orange County allow financing up to $1,209,750 for single-family homes.
             This high-cost area designation makes FHA loans accessible for most Orange County properties.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -63,7 +63,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
               <CardContent className="p-6 text-center">
                 <DollarSign className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Single Family</h3>
-                <div className="text-2xl font-bold text-blue-600">$1,266,300</div>
+                <div className="text-2xl font-bold text-blue-600">$1,209,750</div>
                 <p className="text-sm text-slate-600 mt-2">Most OC homes eligible</p>
               </CardContent>
             </Card>
@@ -195,7 +195,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 <CheckCircle className="w-12 h-12 text-blue-600 mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">Low Down Payment</h3>
                 <p className="text-slate-600 mb-3">
-                  Just 3.5% down payment required for Orange County homes up to $1,266,300.
+                  Just 3.5% down payment required for Orange County homes up to $1,209,750.
                   Perfect for first-time buyers in expensive OC market.
                 </p>
                 <p className="text-sm font-semibold text-blue-600">Example: $38,125 down on $1M home</p>
@@ -244,8 +244,8 @@ export default function OrangeCountyFHALoanLimitsPage() {
               <tbody className="divide-y divide-slate-200">
                 <tr>
                   <td className="px-6 py-4 font-medium">Loan Limit</td>
-                  <td className="px-6 py-4 text-center">Up to $1,266,300</td>
-                  <td className="px-6 py-4 text-center">Up to $1,266,300</td>
+                  <td className="px-6 py-4 text-center">Up to $1,209,750</td>
+                  <td className="px-6 py-4 text-center">Up to $1,209,750</td>
                   <td className="px-6 py-4 text-center">$1,266,301+</td>
                 </tr>
                 <tr className="bg-slate-50">
@@ -287,7 +287,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  The 2026 FHA loan limit in Orange County is $1,266,300 for single-family homes.
+                  The 2026 FHA loan limit in Orange County is $1,209,750 for single-family homes.
                   This represents a significant increase from previous years due to Orange County's
                   high-cost area designation and rising home values.
                 </p>
@@ -301,7 +301,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
               <CardContent>
                 <p className="text-slate-600">
                   Yes! Many Orange County condos qualify for FHA financing, but the condo project
-                  must be FHA-approved. The same $1,266,300 limit applies to condos. We can verify
+                  must be FHA-approved. The same $1,209,750 limit applies to condos. We can verify
                   FHA approval status for any condo you're considering.
                 </p>
               </CardContent>
@@ -313,7 +313,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  For homes above $1,266,300, you'll need a jumbo loan. We offer competitive jumbo
+                  For homes above $1,209,750, you'll need a jumbo loan. We offer competitive jumbo
                   rates with down payments as low as 10% for qualified borrowers. Many Orange County
                   luxury properties require jumbo financing.
                 </p>
@@ -341,7 +341,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
             Ready to Use Your FHA Loan in Orange County?
           </h2>
           <p className="text-xl mb-6 text-slate-200">
-            Get pre-approved for an FHA loan up to $1,266,300 with just 3.5% down
+            Get pre-approved for an FHA loan up to $1,209,750 with just 3.5% down
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

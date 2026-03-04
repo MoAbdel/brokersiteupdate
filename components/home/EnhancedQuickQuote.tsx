@@ -342,7 +342,7 @@ export default function EnhancedQuickQuote() {
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Thank You for Your Orange County Mortgage Inquiry!</h3>
               <p className="text-slate-600 mb-6">
                 We received your information and will be reaching out within 1 business day with your personalized loan quote for {formData.city ? `${formData.city}, ` : ''}Orange County. 
-                Mo will personally review your details to ensure you get the best possible terms from our 200+ lender network.
+                Mo will personally review your details to find competitive loan options suited to your needs from our lender network.
               </p>
               {calculatorResults && (
                 <div className="bg-blue-50 rounded-lg p-4 mb-6">
@@ -911,10 +911,11 @@ export default function EnhancedQuickQuote() {
 
                     <div className="text-sm text-slate-600 text-center">
                       <div className="mt-2 text-xs text-slate-500">
-                        *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}. 
-                        Property tax and insurance not included. Pricing shown are sample estimates for educational purposes. 
-                        Your actual rate and payment will be determined after application, credit check, 
-                        and income verification. NMLS #1426884.
+                        *{calculatorResults.loanType === 'HELOC' ? 'Monthly payment estimate' : 'Principal & Interest only'}.
+                        Property tax and insurance not included. Rate and payment shown are hypothetical estimates for
+                        illustrative purposes only and do not represent a current rate offer. Your actual rate, APR, and
+                        payment will be determined after application, credit review, and income verification.
+                        Not a commitment to lend. NMLS #1426884.
                       </div>
                     </div>
                   </div>
@@ -1074,16 +1075,22 @@ export default function EnhancedQuickQuote() {
                 </Button>
               )}
             </div>
+
+            {currentStep === 3 && (
+              <label className="flex items-start gap-2 text-xs text-slate-500 mt-4 px-1">
+                <input type="checkbox" required className="mt-1 shrink-0" />
+                <span>
+                  By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
+                </span>
+              </label>
+            )}
           </form>
 
-          {/* Security notice */}
+          {/* Licensing disclaimer */}
           <div className="px-6 pb-6">
-            <div className="p-4 bg-slate-50 rounded-lg">
-              <div className="flex items-center space-x-2 text-sm text-slate-600">
-                <Shield className="w-4 h-4 text-green-600 flex-shrink-0" />
-                <span>Your information is secure and will never be shared. NMLS #1426884 • Equal Housing Opportunity</span>
-              </div>
-            </div>
+            <p className="text-xs text-slate-400 text-center mt-3">
+              This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
+            </p>
           </div>
         </div>
       </div>

@@ -57,7 +57,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
     },
     {
       question: 'Are VA jumbo loans available in Novato near the former Hamilton Air Force Base?',
-      answer: 'Yes. VA loans have no maximum loan amount for eligible veterans with full entitlement, making VA jumbo loans available for Novato properties exceeding the conforming limit of $1,149,825 in Marin County. Veterans purchasing in Hamilton, Indian Valley, or other Novato neighborhoods pay zero down payment regardless of purchase price. Wholesale brokers access VA-approved lenders who handle jumbo VA transactions efficiently, as many retail banks cap their VA lending at conforming limits.',
+      answer: 'Yes. VA loans have no maximum loan amount for eligible veterans with full entitlement, making VA jumbo loans available for Novato properties exceeding the conforming limit of $1,209,750 in Marin County. Veterans purchasing in Hamilton, Indian Valley, or other Novato neighborhoods pay zero down payment regardless of purchase price. Wholesale brokers access VA-approved lenders who handle jumbo VA transactions efficiently, as many retail banks cap their VA lending at conforming limits.',
     },
     {
       question: 'How does a wholesale broker handle historic renovation financing in Larkspur?',
@@ -333,7 +333,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
         <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Affluent Marin County Wholesale Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Marin County&apos;s five affluent communities &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; represent <strong>$38.7 billion in residential real estate</strong> across approximately 42,000 housing units. Median home values range from <strong>$1 million in Novato to $1.8 million in Larkspur</strong>, placing every purchase above the 2026 conforming loan limit of <strong>$1,149,825</strong> for Marin County. Wholesale broker access to <strong>200+ institutional lenders</strong> delivers rate savings of 0.25% to 0.75% compared to retail bank pricing &mdash; translating to <strong>$3,750 to $13,500 in annual interest savings</strong> on a typical $1.5 million Marin purchase loan.
+            Marin County&apos;s five affluent communities &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; represent <strong>$38.7 billion in residential real estate</strong> across approximately 42,000 housing units. Median home values range from <strong>$1 million in Novato to $1.8 million in Larkspur</strong>, placing every purchase above the 2026 conforming loan limit of <strong>$1,209,750</strong> for Marin County. Wholesale broker access to <strong>200+ institutional lenders</strong> delivers rate savings of 0.25% to 0.75% compared to retail bank pricing &mdash; translating to <strong>$3,750 to $13,500 in annual interest savings</strong> on a typical $1.5 million Marin purchase loan.
           </p>
         </div>
 
@@ -826,7 +826,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
             Mo Abdel (NMLS #1426884) is a licensed mortgage broker operating through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Lumin Lending is licensed by the California Department of Real Estate. Equal Housing Lender. Mortgage broker services are not provided by any government agency.
           </p>
           <p>
-            Conforming loan limit for Marin County in 2026: $1,149,825 (single-family). VA loan funding fee may apply; exemptions available for disabled veterans. Houseboat and unique property financing subject to individual lender approval and additional property classification requirements. Renovation loan disbursement subject to contractor verification and draw inspection schedules. All figures, statistics, and market data are estimates based on publicly available sources and should be independently verified.
+            Conforming loan limit for Marin County in 2026: $1,209,750 (single-family). VA loan funding fee may apply; exemptions available for disabled veterans. Houseboat and unique property financing subject to individual lender approval and additional property classification requirements. Renovation loan disbursement subject to contractor verification and draw inspection schedules. All figures, statistics, and market data are estimates based on publicly available sources and should be independently verified.
           </p>
         </div>
       </section>

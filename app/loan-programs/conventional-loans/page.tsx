@@ -9,7 +9,7 @@ import AISummary from '@/components/seo/AISummary';
 import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
-  title: 'Conventional Loans Orange County [2026 Limits $1,266,300 & Wholesale Rates]',
+  title: 'Conventional Loans Orange County [2026 Limits $1,209,750 & Wholesale Rates]',
   description: 'Conventional mortgages in Orange County with rates from 200+ lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
@@ -26,13 +26,13 @@ export default function ConventionalLoansPage() {
       <FinancialProductSchema
         name="Conventional Mortgage Loan"
         url="https://www.mothebroker.com/loan-programs/conventional-loans"
-        description="Conventional mortgage loans in California and Washington with down payments from 3%, competitive rates from 200+ wholesale lenders, and conforming limits up to $1,266,300 in high-cost counties."
+        description="Conventional mortgage loans in California and Washington with down payments from 3%, competitive rates from 200+ wholesale lenders, and conforming limits up to $1,209,750 in high-cost counties."
         loanType="Conventional Mortgage"
         minDownPayment="3%"
         maxLTV="97%"
         minCreditScore={620}
         loanTerms={['15-year fixed', '20-year fixed', '30-year fixed', '5/1 ARM', '7/1 ARM', '10/1 ARM']}
-        conformingLimit="$1,266,300"
+        conformingLimit="$1,209,750"
         interestRateType="Fixed or Variable"
         propertyTypes={['Primary Residence', 'Second Home', 'Investment Property', 'Condo', 'PUD']}
       />
@@ -108,7 +108,7 @@ export default function ConventionalLoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Single Family Home:</span>
-                    <span className="font-bold text-blue-600">$1,266,300</span>
+                    <span className="font-bold text-blue-600">$1,209,750</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">2-Unit Property:</span>
@@ -178,7 +178,7 @@ export default function ConventionalLoansPage() {
                   <DollarSign className="w-5 h-5 text-blue-600" aria-hidden="true" />
                   <span>Higher Loan Amounts</span>
                 </h3>
-                <p className="text-slate-600 mb-3">Conforming loans up to $1,266,300 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
+                <p className="text-slate-600 mb-3">Conforming loans up to $1,209,750 in Orange County, or go jumbo for unlimited amounts with Competitive pricing.</p>
                 <p className="text-sm font-semibold text-blue-600">Perfect for Orange County prices</p>
               </CardContent>
             </Card>
@@ -413,8 +413,8 @@ export default function ConventionalLoansPage() {
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,149,825</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,209,750</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,209,750</td>
                   <td className="px-6 py-4 text-center text-blue-600">No limit</td>
                   <td className="px-6 py-4 text-center text-blue-600">No limit</td>
                 </tr>
@@ -458,7 +458,7 @@ export default function ConventionalLoansPage() {
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Perfect for OC Price Range</h3>
                     <p className="text-slate-600">
-                      Conforming limits of $1,266,300 cover many Orange County homes, while jumbo
+                      Conforming limits of $1,209,750 cover many Orange County homes, while jumbo
                       options handle luxury properties seamlessly.
                     </p>
                   </div>
@@ -534,12 +534,12 @@ export default function ConventionalLoansPage() {
             caption="2026 Conforming Loan Limits — High-Cost California & Washington Counties"
             headers={['County', 'State', '1-Unit', '2-Unit', '3-Unit', '4-Unit']}
             rows={[
-              ['Orange County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
-              ['Los Angeles County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['Orange County', 'CA', '$1,209,750', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['Los Angeles County', 'CA', '$1,209,750', '$1,394,775', '$1,685,850', '$2,095,200'],
               ['San Diego County', 'CA', '$1,077,550', '$1,379,800', '$1,667,750', '$2,072,600'],
-              ['Santa Clara County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
-              ['San Francisco County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
-              ['San Mateo County', 'CA', '$1,266,300', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['Santa Clara County', 'CA', '$1,209,750', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['San Francisco County', 'CA', '$1,209,750', '$1,394,775', '$1,685,850', '$2,095,200'],
+              ['San Mateo County', 'CA', '$1,209,750', '$1,394,775', '$1,685,850', '$2,095,200'],
               ['King County', 'WA', '$1,037,300', '$1,327,750', '$1,604,850', '$1,994,450'],
               ['Snohomish County', 'WA', '$1,037,300', '$1,327,750', '$1,604,850', '$1,994,450'],
             ]}
@@ -604,7 +604,7 @@ export default function ConventionalLoansPage() {
             {
               subject: 'The 2026 conforming loan limit in Orange County',
               predicate: 'is',
-              object: '$1,266,300 for single-family homes (set by FHFA)',
+              object: '$1,209,750 for single-family homes (set by FHFA)',
             },
             {
               subject: 'Wholesale broker rates for conventional loans',

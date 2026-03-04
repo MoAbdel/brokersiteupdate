@@ -109,7 +109,7 @@ export default function Page() {
           <h3 className="text-lg font-semibold mb-2">Northwood</h3>
           <p>
             Northwood encompasses multiple phases with diverse housing options from starter homes to luxury properties. 
-            The established infrastructure and strong schools make it popular with families, while varied property types 
+            The established infrastructure and highly rated schools support strong property values, while varied property types
             require different financing approaches depending on specific location and home features.
           </p>
         </>

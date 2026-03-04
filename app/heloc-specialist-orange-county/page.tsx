@@ -322,7 +322,7 @@ export default function HELOCSpecialistOrangeCounty() {
               },
               {
                 question: 'How do HELOC payments work in Orange County?',
-                answer: 'HELOCs typically have a 10-year draw period with interest-only payments on what you borrow, followed by a 20-year repayment period. You only pay on the amount you actually use, and pricing depends on credit score, CLTV, and lender. We shop 100+ lenders to find your best pricing.'
+                answer: 'HELOCs typically have a 10-year draw period with interest-only payments on what you borrow, followed by a 20-year repayment period. You only pay on the amount you actually use, and pricing depends on credit score, CLTV, and lender. We shop 200+ lenders to find your best pricing.'
               },
               {
                 question: 'Can I get a HELOC if I have an existing low first mortgage?',

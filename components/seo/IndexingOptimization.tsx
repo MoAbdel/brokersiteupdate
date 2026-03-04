@@ -16,23 +16,23 @@ export default function IndexingOptimization({
   // Generate structured data optimized for indexing
   const generateIndexingSchema = () => {
     const baseUrl = 'https://www.mothebroker.com';
-    const currentDate = new Date().toISOString();
-    const currentYear = new Date().getFullYear();
     const pagePath = page.startsWith('/') ? page : `/${page}`;
+    const resolvedDate = lastModified || '2026-01-01';
+    const resolvedYear = Number.parseInt(resolvedDate.slice(0, 4), 10) || 2026;
 
     return {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": page,
       "url": `${baseUrl}${pagePath}`,
-      "dateModified": lastModified || currentDate,
-      "datePublished": currentDate,
+      "dateModified": resolvedDate,
+      "datePublished": "2026-01-01",
       "copyrightHolder": {
         "@type": "Organization",
         "name": "Mo Abdel - Mortgage Broker",
         "url": baseUrl
       },
-      "copyrightYear": currentYear,
+      "copyrightYear": resolvedYear,
       "significantLink": [
         baseUrl,
         `${baseUrl}/loan-programs`,

@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                 "name": "Can I get a jumbo loan through a California wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, wholesale brokers typically have access to 50+ jumbo lenders, compared to a single jumbo product at a bank. This makes brokers especially valuable for California's high-priced markets where jumbo loans (above $1,149,825 in high-cost areas) are common. Wholesale jumbo programs include bank statement jumbo and interest-only options."
+                  "text": "Yes, wholesale brokers typically have access to 50+ jumbo lenders, compared to a single jumbo product at a bank. This makes brokers especially valuable for California's high-priced markets where jumbo loans (above $1,209,750 in high-cost areas) are common. Wholesale jumbo programs include bank statement jumbo and interest-only options."
                 }
               },
               {
@@ -421,7 +421,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <li><strong>Silicon Valley:</strong> $1.5M+ in many communities</li>
         </ul>
         <p>
-          At these prices, most California buyers need jumbo loans (above the conforming limit of $1,149,825 in high-cost areas). Mo Abdel at Lumin Lending has access to 50+ jumbo lenders through the wholesale channel, while banks offer just their own single jumbo product. This variety means better pricing and more flexibility for California's jumbo borrowers.
+          At these prices, most California buyers need jumbo loans (above the conforming limit of $1,209,750 in high-cost areas). Mo Abdel at Lumin Lending has access to 50+ jumbo lenders through the wholesale channel, while banks offer just their own single jumbo product. This variety means better pricing and more flexibility for California's jumbo borrowers.
         </p>
 
         <h3>Self-Employment Capital of America</h3>
@@ -541,7 +541,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li><strong>Conforming Limits:</strong> Up to $1,149,825 in California high-cost areas</li>
+          <li><strong>Conforming Limits:</strong> Up to $1,209,750 in California high-cost areas</li>
           <li><strong>Down Payment:</strong> 3-20% depending on program and occupancy</li>
           <li><strong>Credit Requirements:</strong> 620+ minimum, better rates at 740+</li>
           <li><strong>Property Types:</strong> Primary residence, second home, investment property</li>
@@ -561,7 +561,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         <ul>
           <li><strong>Down Payment:</strong> 3.5% minimum</li>
           <li><strong>Credit Score:</strong> 580+ for 3.5% down; 500-579 for 10% down</li>
-          <li><strong>Loan Limits:</strong> $1,149,825 in California high-cost areas</li>
+          <li><strong>Loan Limits:</strong> $1,209,750 in California high-cost areas</li>
           <li><strong>Flexible DTI:</strong> More lenient debt-to-income ratios</li>
           <li><strong>First-Time Buyer Friendly:</strong> No first-time buyer requirement</li>
         </ul>
@@ -666,7 +666,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         {/* Section 8: Jumbo Loan Expertise */}
         <h2 id="jumbo-loan-expertise">Jumbo Loan Expertise: California's High-Value Market</h2>
         <p>
-          With California home prices among the highest in the nation, jumbo loans (exceeding the conforming limit of $1,149,825 in high-cost areas) are essential for many purchases. Wholesale brokers provide significant advantages in the jumbo market.
+          With California home prices among the highest in the nation, jumbo loans (exceeding the conforming limit of $1,209,750 in high-cost areas) are essential for many purchases. Wholesale brokers provide significant advantages in the jumbo market.
         </p>
 
         <h3>2026 California Conforming Loan Limits</h3>
@@ -680,8 +680,8 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">High-Cost (LA, OC, SF, SD)</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Above $1,149,825</td></tr>
-              <tr><td className="py-2 px-4 border-b">Standard Counties</td><td className="py-2 px-4 border-b">$766,550</td><td className="py-2 px-4 border-b">Above $766,550</td></tr>
+              <tr><td className="py-2 px-4 border-b">High-Cost (LA, OC, SF, SD)</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Above $1,209,750</td></tr>
+              <tr><td className="py-2 px-4 border-b">Standard Counties</td><td className="py-2 px-4 border-b">$806,500</td><td className="py-2 px-4 border-b">Above $806,500</td></tr>
               <tr><td className="py-2 px-4">2-4 Units</td><td className="py-2 px-4">Higher limits apply</td><td className="py-2 px-4">Varies by unit count</td></tr>
             </tbody>
           </table>
@@ -960,7 +960,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Can I get a jumbo loan through a California wholesale broker?</h3>
         <p>
-          Yes, wholesale brokers typically have access to 50+ jumbo lenders, compared to a single jumbo product at a bank. This makes brokers especially valuable for California's high-priced markets where jumbo loans (above $1,149,825 in high-cost areas) are common. Wholesale jumbo programs include bank statement jumbo and interest-only options.
+          Yes, wholesale brokers typically have access to 50+ jumbo lenders, compared to a single jumbo product at a bank. This makes brokers especially valuable for California's high-priced markets where jumbo loans (above $1,209,750 in high-cost areas) are common. Wholesale jumbo programs include bank statement jumbo and interest-only options.
         </p>
 
         <h3>What loan programs do California wholesale brokers offer?</h3>

@@ -49,7 +49,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
                 "name": "What is the typical loan amount for Laguna Beach 92651 homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Laguna Beach 92651 has a median home price of $3.2M, requiring jumbo loans well above the $1,149,825 conforming limit. Typical loans range from $1.5M to $6M+."
+                  "text": "Laguna Beach 92651 has a median home price of $3.2M, requiring jumbo loans well above the $1,209,750 conforming limit. Typical loans range from $1.5M to $6M+."
                 }
               },
               {
@@ -136,7 +136,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$3.2M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.2M - $35M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo / Second Home</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Amount</td><td className="py-2 px-4 font-semibold">$1.5M - $6M+</td></tr>
             </tbody>
@@ -160,7 +160,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
 
         <h3>Primary Residence Jumbo Loans</h3>
         <ul>
-          <li>Loans from $1,149,825 to $10M+</li>
+          <li>Loans from $1,209,750 to $10M+</li>
           <li>20-25% down payment typical</li>
           <li>Fixed-rate and ARM options</li>
           <li>Interest-only available for qualified borrowers</li>
@@ -241,7 +241,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
 
         <h3>What is the typical loan amount for Laguna Beach 92651 homes?</h3>
         <p>
-          Laguna Beach 92651 has a median home price of $3.2M, requiring jumbo loans well above the $1,149,825 conforming limit. Typical loans range from $1.5M to $6M+, with oceanfront properties often requiring super jumbo financing.
+          Laguna Beach 92651 has a median home price of $3.2M, requiring jumbo loans well above the $1,209,750 conforming limit. Typical loans range from $1.5M to $6M+, with oceanfront properties often requiring super jumbo financing.
         </p>
 
         <h3>Can I finance a Laguna Beach second home through wholesale?</h3>

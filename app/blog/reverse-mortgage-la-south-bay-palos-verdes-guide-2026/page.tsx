@@ -220,6 +220,12 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* Citation Hook */}
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -227,7 +233,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
             are sitting on some of the most significant untapped home equity in Southern California. With median home values
             ranging from $1.1 million in Agoura Hills to $6 million in Hidden Hills, this region represents a concentrated
             wealth corridor where reverse mortgages&mdash;both FHA-insured HECM and proprietary jumbo products&mdash;can
-            transform illiquid real estate equity into tax-free retirement income without selling the family home or making
+            transform illiquid real estate equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling the family home or making
             monthly mortgage payments.
           </p>
 
@@ -552,7 +558,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">FHA HECM Limit</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">Increased from 2024</td>

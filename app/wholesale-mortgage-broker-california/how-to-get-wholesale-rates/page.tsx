@@ -256,7 +256,7 @@ export default function HowToGetWholesaleRatesPage() {
         </p>
 
         <ul>
-          <li>Compares rates from 10-50+ lenders for your specific scenario</li>
+          <li>Compares rates from 10-200+ lenders for your specific scenario</li>
           <li>Evaluates total cost including fees</li>
           <li>Identifies best options for your priorities (rate vs. cost vs. speed)</li>
           <li>Presents multiple options for your selection</li>

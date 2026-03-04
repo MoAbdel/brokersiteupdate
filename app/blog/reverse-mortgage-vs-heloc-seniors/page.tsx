@@ -202,6 +202,18 @@ export default function ReverseMortgageVsHELOCSeniorsPage() {
         <p className="text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* CITATION HOOK - 50-75 words */}
         <div className="citation-hook bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
@@ -297,7 +309,7 @@ export default function ReverseMortgageVsHELOCSeniorsPage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">2026 Maximum</td>
-                <td className="px-4 py-3 border-b">$1,149,825 (FHA limit)</td>
+                <td className="px-4 py-3 border-b">$1,209,750 (FHA limit)</td>
                 <td className="px-4 py-3 border-b">Varies by lender</td>
               </tr>
               <tr>
@@ -718,7 +730,7 @@ export default function ReverseMortgageVsHELOCSeniorsPage() {
           </p>
 
           <p className="text-lg text-gray-800 mb-4">
-            With the 2026 FHA limit of $1,149,825 and the unique credit line growth feature, HECM reverse mortgages offer advantages unavailable through any HELOC. Mandatory HUD counseling ensures you understand both options before deciding, and working with an experienced mortgage professional helps you analyze the long-term implications of each choice.
+            With the 2026 FHA limit of $1,209,750 and the unique credit line growth feature, HECM reverse mortgages offer advantages unavailable through any HELOC. Mandatory HUD counseling ensures you understand both options before deciding, and working with an experienced mortgage professional helps you analyze the long-term implications of each choice.
           </p>
 
           <p className="text-lg font-semibold text-gray-900">

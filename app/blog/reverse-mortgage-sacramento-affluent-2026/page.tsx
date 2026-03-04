@@ -107,7 +107,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM lending limit for Sacramento area reverse mortgages?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. For Sacramento area properties, this limit serves the vast majority of homes in El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis. Only premium Granite Bay estates and select El Dorado Hills properties exceed the limit, where proprietary (jumbo) reverse mortgage programs provide access to values up to $4 million or higher.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. For Sacramento area properties, this limit serves the vast majority of homes in El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis. Only premium Granite Bay estates and select El Dorado Hills properties exceed the limit, where proprietary (jumbo) reverse mortgage programs provide access to values up to $4 million or higher.',
     },
     {
       question: 'Can I get a reverse mortgage on my El Dorado Hills Serrano home?',
@@ -115,7 +115,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
     },
     {
       question: 'How much can Granite Bay seniors access through a reverse mortgage?',
-      answer: 'Granite Bay seniors with the median home value of $1.1 million can access HECM proceeds based on the full property value up to the $1,149,825 limit. A 72-year-old with a paid-off $1.1 million home can typically access $535,000 to $650,000 in reverse mortgage proceeds. Multi-acre estates above the HECM limit benefit from proprietary programs. Actual amounts depend on age, interest rates, and existing mortgage balance.',
+      answer: 'Granite Bay seniors with the median home value of $1.1 million can access HECM proceeds based on the full property value up to the $1,209,750 limit. A 72-year-old with a paid-off $1.1 million home can typically access $535,000 to $650,000 in reverse mortgage proceeds. Multi-acre estates above the HECM limit benefit from proprietary programs. Actual amounts depend on age, interest rates, and existing mortgage balance.',
     },
     {
       question: 'Do reverse mortgages affect Prop 13 property tax protections?',
@@ -143,7 +143,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
     },
     {
       question: 'How do state employee retirement benefits interact with reverse mortgages?',
-      answer: 'CalPERS and CalSTRS pension income is considered stable, recurring income for the HECM financial assessment. State retirees with pension income typically pass the financial assessment easily, avoiding the Life Expectancy Set-Aside that reduces proceeds for borrowers with income concerns. Reverse mortgage proceeds supplement pension income tax-free without affecting retirement benefit calculations.',
+      answer: 'CalPERS and CalSTRS pension income is considered stable, recurring income for the HECM financial assessment. State retirees with pension income typically pass the financial assessment easily, avoiding the Life Expectancy Set-Aside that reduces proceeds for borrowers with income concerns. Reverse mortgage proceeds supplement pension income as loan advances (generally not considered taxable income) without affecting retirement benefit calculations.',
     },
     {
       question: 'Can my heirs keep the Sacramento area home after I pass away?',
@@ -255,6 +255,12 @@ export default function ReverseMortgageSacramentoAffluent2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -292,7 +298,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
           </p>
 
           <p>
-            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in growing markets like the Sacramento region benefit from strong appreciation trends that maintain equity positions throughout the loan term. The 2026 FHA HECM lending limit of $1,149,825 serves all properties in this corridor, with only select Granite Bay estates exceeding the threshold.
+            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in growing markets like the Sacramento region benefit from strong appreciation trends that maintain equity positions throughout the loan term. The 2026 FHA HECM lending limit of $1,209,750 serves all properties in this corridor, with only select Granite Bay estates exceeding the threshold.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -365,7 +371,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Max Property Value Basis</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$4M+</td>
                 </tr>
                 <tr>
@@ -464,7 +470,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">El Dorado Hills Reverse Mortgage Insight</h4>
-            <p className="mb-0">El Dorado Hills&apos; Bay Area transplant population creates a distinct reverse mortgage dynamic. These homeowners downsized from expensive coastal markets, often purchasing their El Dorado Hills home with substantial down payments or in cash. Many arrived with significant retirement savings from Bay Area tech, healthcare, or professional services careers. A reverse mortgage adds a second layer of retirement security&mdash;a growing line of credit that supplements investment income and provides a tax-free buffer against market downturns. The Serrano community&apos;s HOA-maintained amenities support property values that protect both the borrower&apos;s equity position and the FHA insurance fund.</p>
+            <p className="mb-0">El Dorado Hills&apos; Bay Area transplant population creates a distinct reverse mortgage dynamic. These homeowners downsized from expensive coastal markets, often purchasing their El Dorado Hills home with substantial down payments or in cash. Many arrived with significant retirement savings from Bay Area tech, healthcare, or professional services careers. A reverse mortgage adds a second layer of retirement security&mdash;a growing line of credit that supplements investment income and provides a loan proceeds buffer against market downturns. The Serrano community&apos;s HOA-maintained amenities support property values that protect both the borrower&apos;s equity position and the FHA insurance fund.</p>
           </div>
 
           <hr className="my-10" />
@@ -477,7 +483,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
           </p>
 
           <p>
-            At $1.1 million median, Granite Bay straddles the HECM limit. Properties below $1,149,825 qualify for FHA HECM, while the substantial number of estates above that threshold benefit from proprietary programs. Long-term Granite Bay residents who purchased during the 1990s and early 2000s for $400,000 to $600,000 hold $500,000 to $700,000 in equity. Equestrian property owners face unique appraisal considerations, as barns, arenas, and agricultural improvements add value that experienced appraisers capture in their assessments.
+            At $1.1 million median, Granite Bay straddles the HECM limit. Properties below $1,209,750 qualify for FHA HECM, while the substantial number of estates above that threshold benefit from proprietary programs. Long-term Granite Bay residents who purchased during the 1990s and early 2000s for $400,000 to $600,000 hold $500,000 to $700,000 in equity. Equestrian property owners face unique appraisal considerations, as barns, arenas, and agricultural improvements add value that experienced appraisers capture in their assessments.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -769,7 +775,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
               The Sacramento region&apos;s affluent eastern corridor from El Dorado Hills through Davis represents California&apos;s fastest-growing reverse mortgage opportunity. Bay Area transplants with substantial equity, state government retirees with CalPERS pensions, Intel and tech workers from Folsom, Sun City Roseville residents, and UC Davis faculty have all accumulated meaningful home equity that a reverse mortgage converts into accessible retirement resources. Whether your home is worth $650,000 in Roseville or $1.1 million in Granite Bay, the HECM program serves the vast majority of properties in this market.
             </p>
             <p className="text-gray-800">
-              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For Granite Bay estates above the $1,149,825 HECM limit, proprietary jumbo programs extend access based on the full appraised value. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
+              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For Granite Bay estates above the $1,209,750 HECM limit, proprietary jumbo programs extend access based on the full appraised value. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore reverse mortgage options for your Sacramento area home? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property value, age, and financial goals.

@@ -70,7 +70,7 @@ export default function ZipCode92602MortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92602 require jumbo loans?",
-            answer: "78% of homes in ZIP code 92602 exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo loan financing. Condos and townhomes may qualify for conventional loans."
+            answer: "78% of homes in ZIP code 92602 exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. Condos and townhomes may qualify for conventional loans."
           },
           {
             question: "What makes 92602 a desirable area?",

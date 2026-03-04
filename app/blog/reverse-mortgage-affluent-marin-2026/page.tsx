@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage in Sausalito, Larkspur & Affluent Marin, CA [2026]',
-  description: 'Reverse mortgage guide Sausalito, Corte Madera, Larkspur, San Anselmo & Novato 2026: HECM limit $1,149,825, jumbo reverse, houseboat considerations, VA connections. NMLS #1426884.',
+  description: 'Reverse mortgage guide Sausalito, Corte Madera, Larkspur, San Anselmo & Novato 2026: HECM limit $1,209,750, jumbo reverse, houseboat considerations, VA connections. NMLS #1426884.',
   keywords: [
     'reverse mortgage Sausalito CA',
     'HECM Larkspur CA',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Reverse Mortgage in Sausalito, Larkspur & Affluent Marin, CA [2026]',
-    description: 'HECM and jumbo reverse mortgage solutions for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. 2026 limit $1,149,825. Houseboat & unique property guidance. NMLS #1426884.',
+    description: 'HECM and jumbo reverse mortgage solutions for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. 2026 limit $1,209,750. Houseboat & unique property guidance. NMLS #1426884.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-affluent-marin-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -64,7 +64,7 @@ export default function ReverseMortgageAffluentMarin2026() {
         name: 'What is the 2026 HECM reverse mortgage limit?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 HECM (Home Equity Conversion Mortgage) lending limit is $1,149,825. This is the maximum property value used to calculate reverse mortgage proceeds. Homes valued above this limit can still get a standard HECM but proceeds are capped at the $1,149,825 value. Jumbo reverse mortgage products accommodate higher values.',
+          text: 'The 2026 HECM (Home Equity Conversion Mortgage) lending limit is $1,209,750. This is the maximum property value used to calculate reverse mortgage proceeds. Homes valued above this limit can still get a standard HECM but proceeds are capped at the $1,209,750 value. Jumbo reverse mortgage products accommodate higher values.',
         },
       },
       {
@@ -96,12 +96,12 @@ export default function ReverseMortgageAffluentMarin2026() {
         name: 'How much money can I get from a reverse mortgage on a $1.5 million Sausalito home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'For a standard HECM, the calculation is based on the HECM limit of $1,149,825 (not the full home value), the borrower age, and current interest rates. A 70-year-old borrower with a free-and-clear $1.5M Sausalito home could access approximately $550,000 to $650,000 through a standard HECM. A jumbo reverse mortgage product can access additional equity above the HECM limit.',
+          text: 'For a standard HECM, the calculation is based on the HECM limit of $1,209,750 (not the full home value), the borrower age, and current interest rates. A 70-year-old borrower with a free-and-clear $1.5M Sausalito home could access approximately $550,000 to $650,000 through a standard HECM. A jumbo reverse mortgage product can access additional equity above the HECM limit.',
         },
       },
       {
         '@type': 'Question',
-        name: 'Is there a reverse mortgage for homes valued above $1,149,825?',
+        name: 'Is there a reverse mortgage for homes valued above $1,209,750?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Yes. Jumbo reverse mortgage products (also called proprietary reverse mortgages) accommodate home values from $1 million to $10 million or more. These products are not FHA-insured like HECM and have different terms, but they allow affluent Marin homeowners to access equity proportional to their actual home value rather than being capped at the HECM limit.',
@@ -136,7 +136,7 @@ export default function ReverseMortgageAffluentMarin2026() {
         name: 'What is the difference between a HECM and a jumbo reverse mortgage?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A HECM is FHA-insured with a $1,149,825 lending limit, mandatory HUD counseling, and government-regulated consumer protections including non-recourse guarantee. A jumbo reverse mortgage is a proprietary product from private lenders that accommodates higher home values but lacks FHA insurance. Jumbo products may have different age requirements, interest rates, and equity access percentages.',
+          text: 'A HECM is FHA-insured with a $1,209,750 lending limit, mandatory HUD counseling, and government-regulated consumer protections including non-recourse guarantee. A jumbo reverse mortgage is a proprietary product from private lenders that accommodates higher home values but lacks FHA insurance. Jumbo products may have different age requirements, interest rates, and equity access percentages.',
         },
       },
       {
@@ -219,11 +219,23 @@ export default function ReverseMortgageAffluentMarin2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 9, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to the U.S. Census Bureau&apos;s American Community Survey, Marin County has the highest percentage of homeowners aged 65 and older among all Bay Area counties, with approximately 28% of owner-occupied households headed by residents in the traditional reverse mortgage age bracket. &quot;Affluent Marin homeowners aged 62 and older are sitting on substantial home equity &mdash; often $500,000 to $1.5 million &mdash; that a reverse mortgage converts into tax-free retirement income without requiring them to sell or move,&quot; explains Mo Abdel, NMLS #1426884. &quot;The 2026 HECM limit of $1,149,825 covers a portion of most affluent Marin home values, while jumbo reverse mortgage products access equity beyond that limit. For communities like Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato, reverse mortgages represent a strategic retirement planning tool &mdash; not a last resort.&quot;
+              According to the U.S. Census Bureau&apos;s American Community Survey, Marin County has the highest percentage of homeowners aged 65 and older among all Bay Area counties, with approximately 28% of owner-occupied households headed by residents in the traditional reverse mortgage age bracket. &quot;Affluent Marin homeowners aged 62 and older are sitting on substantial home equity &mdash; often $500,000 to $1.5 million &mdash; that a reverse mortgage converts into loan proceeds (not considered taxable income\u2014consult a tax professional) without requiring them to sell or move,&quot; explains Mo Abdel, NMLS #1426884. &quot;The 2026 HECM limit of $1,209,750 covers a portion of most affluent Marin home values, while jumbo reverse mortgage products access equity beyond that limit. For communities like Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato, reverse mortgages represent a strategic retirement planning tool &mdash; not a last resort.&quot;
             </p>
           </div>
 
@@ -253,7 +265,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </h2>
 
           <p>
-            Affluent Marin County encompasses five communities where homeowners aged 62 and older hold substantial equity in properties valued from $1 million to $1.8 million. Some of these homes sit near or above the 2026 HECM lending limit of $1,149,825, creating a natural split between standard HECM candidates and homeowners who benefit from jumbo reverse mortgage products. The table below maps each city&apos;s equity landscape and optimal reverse mortgage path.
+            Affluent Marin County encompasses five communities where homeowners aged 62 and older hold substantial equity in properties valued from $1 million to $1.8 million. Some of these homes sit near or above the 2026 HECM lending limit of $1,209,750, creating a natural split between standard HECM candidates and homeowners who benefit from jumbo reverse mortgage products. The table below maps each city&apos;s equity landscape and optimal reverse mortgage path.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -314,7 +326,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </div>
 
           <p>
-            The HECM limit of $1,149,825 creates a clear dividing line in affluent Marin. Novato homeowners with a $1 million median benefit fully from standard HECM because their entire home value falls within the limit. Sausalito, Corte Madera, and San Anselmo homeowners at $1.5 million have equity above the HECM cap that only a jumbo reverse mortgage product can access. Larkspur homeowners at $1.8 million have the largest gap between home value and HECM limit, making jumbo reverse products especially relevant.
+            The HECM limit of $1,209,750 creates a clear dividing line in affluent Marin. Novato homeowners with a $1 million median benefit fully from standard HECM because their entire home value falls within the limit. Sausalito, Corte Madera, and San Anselmo homeowners at $1.5 million have equity above the HECM cap that only a jumbo reverse mortgage product can access. Larkspur homeowners at $1.8 million have the largest gap between home value and HECM limit, making jumbo reverse products especially relevant.
           </p>
 
           {/* ========== SECTION 2: HECM VS JUMBO REVERSE ========== */}
@@ -339,7 +351,7 @@ export default function ReverseMortgageAffluentMarin2026() {
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">2026 Lending Limit</td>
-                  <td className="px-4 py-3 text-sm text-gray-800">$1,149,825 (regardless of actual home value)</td>
+                  <td className="px-4 py-3 text-sm text-gray-800">$1,209,750 (regardless of actual home value)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Up to $4M+ (varies by lender)</td>
                 </tr>
                 <tr className="border-b">
@@ -382,7 +394,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </div>
 
           <p>
-            For affluent Marin homeowners, the decision between standard HECM and jumbo reverse depends on two factors: your home value relative to the $1,149,825 HECM limit, and how much equity you need to access. If you need the maximum amount of equity and your home exceeds the HECM cap, a jumbo reverse mortgage unlocks the additional value. If your needs are within the HECM proceeds range, the standard program&apos;s FHA insurance and non-recourse guarantee provide consumer protections that many homeowners value.
+            For affluent Marin homeowners, the decision between standard HECM and jumbo reverse depends on two factors: your home value relative to the $1,209,750 HECM limit, and how much equity you need to access. If you need the maximum amount of equity and your home exceeds the HECM cap, a jumbo reverse mortgage unlocks the additional value. If your needs are within the HECM proceeds range, the standard program&apos;s FHA insurance and non-recourse guarantee provide consumer protections that many homeowners value.
           </p>
 
           {/* ========== SECTION 3: QUALIFICATION ========== */}
@@ -409,7 +421,7 @@ export default function ReverseMortgageAffluentMarin2026() {
                 <strong>Step 4: Financial Assessment.</strong> The lender evaluates the borrower&apos;s credit history, property tax payment history, and income/expenses to determine if a life expectancy set-aside (LESA) is needed. A LESA sets aside a portion of proceeds to pay property taxes and insurance, ensuring the borrower can maintain these obligations throughout the loan term.
               </li>
               <li>
-                <strong>Step 5: Property Appraisal.</strong> An FHA-approved appraiser establishes the property value. For HECM purposes, the calculation uses the lesser of the appraised value or the $1,149,825 HECM limit. Affluent Marin properties appraised above the limit still qualify for HECM, but proceeds are capped at the limit value.
+                <strong>Step 5: Property Appraisal.</strong> An FHA-approved appraiser establishes the property value. For HECM purposes, the calculation uses the lesser of the appraised value or the $1,209,750 HECM limit. Affluent Marin properties appraised above the limit still qualify for HECM, but proceeds are capped at the limit value.
               </li>
               <li>
                 <strong>Step 6: Existing Mortgage Payoff.</strong> If an existing mortgage balance exists, it must be paid off from the reverse mortgage proceeds at closing. For a Corte Madera homeowner with a $300,000 remaining mortgage balance and $650,000 in available HECM proceeds, $300,000 pays off the existing loan and $350,000 is available for the borrower&apos;s use.
@@ -432,7 +444,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               </thead>
               <tbody>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Median Home Value</td><td className="px-4 py-3 text-sm">$1,500,000</td></tr>
-                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,149,825 limit</td></tr>
+                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,209,750 limit</td></tr>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Top Neighborhoods</td><td className="px-4 py-3 text-sm">Marina/Waterfront, Caledonia Street, Headlands, Hurricane Gulch</td></tr>
                 <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Unique HECM Factor</td><td className="px-4 py-3 text-sm">Houseboat communities &mdash; most do NOT qualify for standard HECM</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Best Product</td><td className="px-4 py-3 text-sm">Standard HECM (hillside homes) or jumbo reverse (high-value waterfront)</td></tr>
@@ -449,7 +461,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </p>
 
           <p>
-            Sausalito&apos;s hillside homes &mdash; the properties along Caledonia Street, in the Headlands neighborhood, and throughout Hurricane Gulch &mdash; qualify straightforwardly for HECM reverse mortgages. These are traditional single-family homes on permanent foundations with standard property tax assessments. At $1.5 million median value, hillside Sausalito homes exceed the HECM limit by approximately $350,000, meaning standard HECM proceeds are calculated on the $1,149,825 cap. Homeowners wanting to access equity above the cap need a jumbo reverse mortgage product.
+            Sausalito&apos;s hillside homes &mdash; the properties along Caledonia Street, in the Headlands neighborhood, and throughout Hurricane Gulch &mdash; qualify straightforwardly for HECM reverse mortgages. These are traditional single-family homes on permanent foundations with standard property tax assessments. At $1.5 million median value, hillside Sausalito homes exceed the HECM limit by approximately $350,000, meaning standard HECM proceeds are calculated on the $1,209,750 cap. Homeowners wanting to access equity above the cap need a jumbo reverse mortgage product.
           </p>
 
           <p>
@@ -475,7 +487,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               </thead>
               <tbody>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Median Home Value</td><td className="px-4 py-3 text-sm">$1,500,000</td></tr>
-                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,149,825 limit</td></tr>
+                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,209,750 limit</td></tr>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Top Neighborhoods</td><td className="px-4 py-3 text-sm">Christmas Tree Hill, Chapman Park, Madera Gardens</td></tr>
                 <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Homeowner Profile</td><td className="px-4 py-3 text-sm">Long-term families, empty nesters, retired professionals</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Best Product</td><td className="px-4 py-3 text-sm">Standard HECM with line of credit for flexibility</td></tr>
@@ -496,7 +508,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </p>
 
           <p>
-            The school district premium in Corte Madera supports strong property values, which directly benefits reverse mortgage borrowers. Higher home values mean higher HECM proceeds. For a Corte Madera homeowner at the median $1.5 million value, HECM proceeds calculated on the $1,149,825 cap could provide approximately $550,000 to $650,000 (depending on age and rates) as a lump sum, line of credit, monthly tenure payment, or combination.
+            The school district premium in Corte Madera supports strong property values, which directly benefits reverse mortgage borrowers. Higher home values mean higher HECM proceeds. For a Corte Madera homeowner at the median $1.5 million value, HECM proceeds calculated on the $1,209,750 cap could provide approximately $550,000 to $650,000 (depending on age and rates) as a lump sum, line of credit, monthly tenure payment, or combination.
           </p>
 
           {/* ========== SECTION 6: LARKSPUR DEEP DIVE ========== */}
@@ -514,7 +526,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               </thead>
               <tbody>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Median Home Value</td><td className="px-4 py-3 text-sm">$1,800,000</td></tr>
-                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$650,175 above $1,149,825 limit</td></tr>
+                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$650,175 above $1,209,750 limit</td></tr>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Top Neighborhoods</td><td className="px-4 py-3 text-sm">Downtown, Baltimore Park, Murray Park, Bon Air</td></tr>
                 <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Unique Factor</td><td className="px-4 py-3 text-sm">Historic homes, SMART train access, walkable downtown</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Best Product</td><td className="px-4 py-3 text-sm">Jumbo reverse mortgage (significant value above HECM limit)</td></tr>
@@ -553,7 +565,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               </thead>
               <tbody>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Median Home Value</td><td className="px-4 py-3 text-sm">$1,500,000</td></tr>
-                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,149,825 limit</td></tr>
+                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$350,175 above $1,209,750 limit</td></tr>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Top Neighborhoods</td><td className="px-4 py-3 text-sm">Downtown, Seminary Area, Morningside, Sleepy Hollow</td></tr>
                 <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Homeowner Profile</td><td className="px-4 py-3 text-sm">Retired creative professionals, self-employed artisans, long-term residents</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Best Product</td><td className="px-4 py-3 text-sm">HECM line of credit for flexible retirement income</td></tr>
@@ -592,7 +604,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               </thead>
               <tbody>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Median Home Value</td><td className="px-4 py-3 text-sm">$1,000,000</td></tr>
-                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$149,825 below $1,149,825 limit (full value used)</td></tr>
+                <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Value vs HECM Limit</td><td className="px-4 py-3 text-sm">$149,825 below $1,209,750 limit (full value used)</td></tr>
                 <tr className="border-b"><td className="px-4 py-3 text-sm font-medium">Top Neighborhoods</td><td className="px-4 py-3 text-sm">Ignacio, Indian Valley, Hamilton AFB, Downtown</td></tr>
                 <tr className="border-b bg-gray-50"><td className="px-4 py-3 text-sm font-medium">Unique Factor</td><td className="px-4 py-3 text-sm">Former Hamilton Air Force Base, VA loan eligible veterans, most affordable Marin</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Best Product</td><td className="px-4 py-3 text-sm">Standard HECM (entire home value within limit)</td></tr>
@@ -601,7 +613,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           </div>
 
           <p>
-            Novato is the most affordable city in Marin County and the only community in this hub where the median home value falls entirely within the 2026 HECM limit of $1,149,825. This means Novato homeowners receive the maximum HECM benefit: their full home value is used in the proceeds calculation, without any equity left inaccessible above the cap. For a Novato homeowner aged 70 with a free-and-clear $1 million home, standard HECM proceeds could reach approximately $480,000 to $570,000.
+            Novato is the most affordable city in Marin County and the only community in this hub where the median home value falls entirely within the 2026 HECM limit of $1,209,750. This means Novato homeowners receive the maximum HECM benefit: their full home value is used in the proceeds calculation, without any equity left inaccessible above the cap. For a Novato homeowner aged 70 with a free-and-clear $1 million home, standard HECM proceeds could reach approximately $480,000 to $570,000.
           </p>
 
           <p>
@@ -706,7 +718,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           <div className="space-y-6 my-6">
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the 2026 HECM reverse mortgage limit for Marin County?</h3>
-              <p>The 2026 HECM limit is $1,149,825 nationwide. This applies to all Marin County properties regardless of actual value.</p>
+              <p>The 2026 HECM limit is $1,209,750 nationwide. This applies to all Marin County properties regardless of actual value.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -828,7 +840,7 @@ export default function ReverseMortgageAffluentMarin2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
-              Affluent Marin County &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; offers homeowners aged 62 and older a powerful retirement planning tool through reverse mortgages. With the 2026 HECM limit at $1,149,825, Novato homeowners benefit fully from standard HECM programs, while Sausalito, Corte Madera, San Anselmo, and Larkspur homeowners access additional equity through jumbo reverse mortgage products. Each community presents unique considerations: Sausalito houseboats require property classification evaluation, Larkspur historic homes may need condition updates, and Novato veterans can combine HECM with VA benefits.
+              Affluent Marin County &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; offers homeowners aged 62 and older a powerful retirement planning tool through reverse mortgages. With the 2026 HECM limit at $1,209,750, Novato homeowners benefit fully from standard HECM programs, while Sausalito, Corte Madera, San Anselmo, and Larkspur homeowners access additional equity through jumbo reverse mortgage products. Each community presents unique considerations: Sausalito houseboats require property classification evaluation, Larkspur historic homes may need condition updates, and Novato veterans can combine HECM with VA benefits.
             </p>
             <p className="text-lg leading-relaxed">
               The HECM line of credit growth feature, the non-recourse protection guaranteeing you never owe more than your home&apos;s value, and the flexibility of multiple payout options make reverse mortgages a strategic financial instrument &mdash; not a last resort. Wholesale access through Lumin Lending (NMLS #2716106) ensures you compare HECM and jumbo reverse options from multiple lenders to secure the most competitive terms available.

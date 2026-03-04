@@ -36,7 +36,7 @@ target_state: "CA"
 
 **The [Area Name] Challenge:**
 - Median home price: $[X.X]M
-- Conforming loan limit: $1,149,825 (2026)
+- Conforming loan limit: $1,209,750 (2026)
 - Gap = Jumbo loan territory
 - Banks have limited jumbo options
 

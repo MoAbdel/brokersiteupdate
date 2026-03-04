@@ -142,7 +142,7 @@ const metadataConfig = {
   },
   '/guides/orange-county-jumbo-loans': {
     title: 'Orange County Jumbo Loan Guide | Mo Abdel - Orange County Mortgage Broker',
-    description: 'Jumbo loan guide for Orange County luxury properties over $1,266,300. Requirements and best rates. NMLS #1426884.',
+    description: 'Jumbo loan guide for Orange County luxury properties over $1,266,300. Requirements and competitive rates. NMLS #1426884.',
   },
   '/guides/orange-county-investment-property': {
     title: 'Orange County Investment Property Guide | Mo Abdel - Orange County Mortgage Broker',

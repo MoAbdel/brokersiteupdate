@@ -101,7 +101,7 @@ export default function DanaPointMortgageGuidePage() {
                 </p>
                 <p><strong>Jumbo Loan Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $1,266,300 (2025 Orange County conforming limit)</li>
+                    <li>Loan amounts exceeding $1,209,750 (2025 Orange County conforming limit)</li>
                     <li>Competitive wholesale pricing structures</li>
                     <li>Down payment options typically 10-20%</li>
                     <li>Available for primary residences, second homes, and investment properties</li>
@@ -292,8 +292,8 @@ export default function DanaPointMortgageGuidePage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106<br />
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

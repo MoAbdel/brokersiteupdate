@@ -27,13 +27,13 @@ export default function FHALoansPage() {
       <FinancialProductSchema
         name="FHA Loan"
         url="https://www.mothebroker.com/loan-programs/fha-loans"
-        description="FHA loans in California and Washington with 3.5% down payment, credit scores from 500, and 2026 loan limits up to $1,266,300 in high-cost counties. Government-backed through HUD/FHA."
+        description="FHA loans in California and Washington with 3.5% down payment, credit scores from 500, and 2026 loan limits up to $1,209,750 in high-cost counties. Government-backed through HUD/FHA."
         loanType="FHA Government-Insured Mortgage"
         minDownPayment="3.5%"
         maxLTV="96.5%"
         minCreditScore={500}
         loanTerms={['15-year fixed', '30-year fixed']}
-        conformingLimit="$1,266,300"
+        conformingLimit="$1,209,750"
         interestRateType="Fixed or Variable"
         eligibility="U.S. citizens and permanent residents; primary residence only"
         propertyTypes={['Primary Residence', 'Condo (FHA-approved)', 'Manufactured Home', '1-4 Unit Property']}
@@ -110,22 +110,22 @@ export default function FHALoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Single Family Home:</span>
-                    <span className="font-bold text-blue-600">$1,266,300</span>
+                    <span className="font-bold text-blue-600">$1,209,750</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">2-Unit Property:</span>
-                    <span className="font-bold text-blue-600">$1,394,775</span>
+                    <span className="font-bold text-blue-600">$1,548,975</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">3-Unit Property:</span>
-                    <span className="font-bold text-blue-600">$1,685,850</span>
+                    <span className="font-bold text-blue-600">$1,872,225</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">4-Unit Property:</span>
-                    <span className="font-bold text-blue-600">$2,095,200</span>
+                    <span className="font-bold text-blue-600">$2,326,875</span>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 mt-4">*2025 FHA loan limits. Limits are updated annually by HUD.</p>
+                <p className="text-xs text-slate-500 mt-4">*2025 FHA loan limits (FHFA/HUD). Limits are updated annually.</p>
               </div>
 
 
@@ -327,8 +327,8 @@ export default function FHALoansPage() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits (OC)</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$766,550+</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,209,750</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,209,750+</td>
                 </tr>
               </tbody>
             </table>
@@ -496,7 +496,7 @@ export default function FHALoansPage() {
             {
               subject: 'The 2026 FHA loan limit in Orange County',
               predicate: 'is',
-              object: '$1,266,300 for single-family homes, matching the conforming limit',
+              object: '$1,209,750 for single-family homes, matching the conforming limit',
             },
             {
               subject: 'FHA mortgage insurance premium (MIP)',

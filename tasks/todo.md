@@ -1,3 +1,145 @@
+# 2026-02-26 Validation Pass (Sitemap + Build)
+
+## Plan
+
+- [x] Run fresh sitemap generation (`npm run sitemap`) and confirm it completes cleanly.
+- [x] Run production build validation (`npx next build`) and confirm success.
+- [x] Produce a concise GSC validation checklist based on the current fixes.
+
+## Review
+
+- `npm run sitemap` completed successfully and regenerated sitemap artifacts from current route + redirect state.
+- `npx next build` completed successfully (compiled, type/lint checks, static generation, and final optimization all passed).
+- Re-ran GSC URL reconciliation against `reports/gsc-performance-20251124_20260222.json`; result: `313` total paths, `0` unresolved.
+
+---
+
+# 2026-02-26 GSC Stabilization Patch Set C
+
+## Plan
+
+- [x] Reconcile latest GSC page list against current route + redirect maps and isolate unresolved high-signal legacy paths.
+- [x] Add explicit legacy redirects for unresolved GSC paths that now map to canonical content.
+- [x] Verify with `npm run typecheck` and re-run route/redirect reconciliation script.
+
+## Review
+
+- Reconciled 313 unique page URLs from `reports/gsc-performance-20251124_20260222.json` against current app routes plus redirect sources in `vercel.json` and `middleware.ts`.
+- Added explicit legacy redirects in `middleware.ts` for two unresolved high-signal paths:
+  - `/blog/reverse-mortgage-california-washington-pillar-2026` → `/blog/reverse-mortgage-complete-guide-2026`
+  - `/guides/fha-loans-orange-county-complete-guide` → `/blog/fha-loans-orange-county-2026`
+- Re-ran reconciliation script; unresolved path count is now `0` (dynamic tools routes treated as valid route patterns).
+- Verification passed: `npm run typecheck`.
+
+---
+
+# 2026-02-26 GSC Stabilization Patch Set B
+
+## Plan
+
+- [x] Remove redirect-source blog slugs from `/guides` listing output so Google stops discovering high-volume redirect URLs from that hub.
+- [x] Fix remaining redirect-source slug reference in `/blog` index page.
+- [x] Normalize remaining non-www canonical/schema URLs in app pages.
+- [x] Remove legal-page `noindex` settings so privacy/terms can be indexed.
+- [x] Add malformed path redirect for `/&` to reduce one recurring 404 example.
+- [x] Rebuild sitemap + run type checks.
+
+## Review
+
+- `app/guides/page.tsx` now derives redirect-source blog routes from `vercel.json` + `middleware.ts` and filters those posts out of guide/category/pagination output.
+- `app/blog/page.tsx` now links to canonical slug `wholesale-vs-retail-mortgage-complete-2026`.
+- All remaining `https://mothebroker.com` references in app content were normalized to `https://www.mothebroker.com` (`app/blog/home-equity-south-sound-affluent-2026/page.tsx`).
+- Removed `noindex` robots metadata from legal pages (`app/privacy-policy/page.tsx`, `app/terms-of-service/page.tsx`).
+- Added explicit malformed path redirect `/& -> /` in `vercel.json`.
+- Verification passed: `npm run typecheck`, `npm run sitemap`, `npx next build`, and redirect-source sitemap audit (0 redirect-source paths present).
+
+---
+
+# 2026-02-26 GSC Stabilization Patch Set A
+
+## Plan
+
+- [x] Add `noindex,follow` handling for `/guides` query variants to reduce duplicate indexing states.
+- [x] Fix middleware `/articles/*` redirect ordering so specific mappings run before catch-all behavior.
+- [x] Exclude redirect-source routes from sitemap generation to reduce "Page with redirect" churn.
+- [x] Normalize tool schema host URLs to `https://www.mothebroker.com`.
+- [x] Add missing redirect for `/blog/heloc-vs-cash-out-refinance-california-homeowners-2026`.
+- [x] Regenerate sitemap and verify via `npm run typecheck`.
+
+## Review
+
+- `/guides` metadata now supports query-aware `noindex,follow` handling (`app/guides/page.tsx`) while retaining canonical `/guides`.
+- Middleware now noindexes `/guides` query URLs at header level and applies specific `/articles/*` mappings before catch-all routing (`middleware.ts`).
+- Added redirect mapping for `/blog/heloc-vs-cash-out-refinance-california-homeowners-2026` to `/blog/heloc-vs-cash-out-refinance-2026` (`middleware.ts`).
+- `next-sitemap.config.js` now auto-excludes exact redirect-source routes derived from `vercel.json` + `middleware.ts` from both transform output and additional paths.
+- Tool JSON-LD schema URLs now use `https://www.mothebroker.com` consistently (`components/tools/ToolPageLayout.tsx`).
+- Regenerated sitemap (`npm run sitemap`) and passed TypeScript verification (`npm run typecheck`).
+
+---
+
+# 2026-02-23 Canonical + Redirect Hygiene Batch
+
+## Plan
+
+- [x] Audit canonical URL alignment for key route families (`/guides`, `/blog`, `/tools`, `/areas`) and fix mismatches.
+- [x] Prune conflicting/redundant redirects in `vercel.json` where source paths now have canonical live routes.
+- [x] Replace remaining redirect-source internal links in app/lib surfaces.
+- [x] Verify via targeted scans and `npm run typecheck`.
+
+## Review
+
+- Canonical/route audit across `/guides`, `/blog`, `/tools`, `/areas` found one intentional mismatch on legacy slug page `app/blog/cash-out-refinance-how-it-works/page.tsx` that is canonicalized/redirected to the 2026 URL via middleware.
+- Removed duplicate redirect source entry for `/orange-county-jumbo-loans` in `vercel.json`.
+- Updated remaining redirect-source internal links in nav/content surfaces:
+  - `lib/navigation-data.ts` (`/areas/costa-mesa-mortgage-rates` → `/areas/costa-mesa-mortgage-broker`, `/zip-codes/92625-corona-del-mar-mortgage-broker` → `/areas/newport-beach-mortgage-broker`, `/blog/wholesale-vs-retail-mortgage-brokers-2026` → `/blog/wholesale-vs-retail-mortgage-complete-2026`).
+  - `components/seo/TopicClusterLinks.tsx` + related page links now use `/loan-programs/orange-county-va-loans` instead of redirected `/loan-programs/va-loans`.
+- Middleware redirect-source scan now only reports `/articles` string checks in `components/Header.tsx` and `components/navigation/Breadcrumbs.tsx` (intentional pathname handling, not outbound links).
+- `vercel.json` parses cleanly and `npm run typecheck` passed.
+
+---
+
+# 2026-02-23 SEO + AI Citation Batch 2
+
+## Plan
+
+- [x] Consolidate sitemap/robots ownership around `next-sitemap.config.js` and remove stale exclusions.
+- [x] Replace internal links that point to redirect-source URLs (`/quiz`, `/tools/mortgage-calculator`) with final destinations.
+- [x] Remove non-standard/hidden AI SEO artifacts from shared SEO components while preserving valid JSON-LD.
+- [x] Regenerate robots/sitemap from config and run `npm run typecheck`.
+
+## Review
+
+- `package.json` now uses `next-sitemap` as the default sitemap generator (`npm run sitemap`) and keeps the prior crawler under `npm run sitemap:crawl-live`.
+- `next-sitemap.config.js` now includes `sitemap-news.xml` in robots output and no longer excludes `/guides/summer-2025-market-guide`.
+- Regenerated `public/robots.txt` + `public/sitemap.xml`; verified summer guide inclusion and news sitemap reference.
+- Repointed internal links from redirect sources to canonical destinations (`/calculator`) in shared/home/blog linking surfaces.
+- Removed hidden AI-content blocks and non-standard inline meta tags from shared SEO components, retaining JSON-LD schema output.
+- `npm run typecheck` passed.
+
+---
+
+# 2026-02-23 SEO Consistency Remediation (Bing + AI Citation)
+
+## Plan
+
+- [x] Normalize IndexNow key sources so API + submission script publish the same key.
+- [x] Remove unstable "today" freshness dates from shared AI SEO component to prevent churny structured data.
+- [x] Align local schema contact/address constants with canonical site schema entities.
+- [x] Fix summer guide canonical/schema/internal-link URL mismatch to the actual route path.
+- [x] Remove conflicting Vercel redirect that forced `/tools` to `/calculator`.
+- [x] Verify with targeted checks (`npm run typecheck`) and capture results.
+
+## Review
+
+- `npm run typecheck` passed.
+- IndexNow key endpoint now returns env `INDEXNOW_KEY` when set, otherwise the same default key used by the submission script.
+- Shared AI SEO component no longer emits hidden `display:none` content blocks or rolling "today" citation/schema dates.
+- Enhanced local schema now uses centralized schema constants for broker/company identity and uses consistent Irvine business address data.
+- Summer market guide now uses canonical/schema/internal-link URLs matching its actual route path (`/guides/summer-2025-market-guide`).
+- Removed the `/tools -> /calculator` redirect in `vercel.json` so the actual tools hub route can be crawled/indexed directly.
+
+---
+
 # Phase 3: Programmatic Geo-Tooling — Implementation Plan
 
 ## Goal

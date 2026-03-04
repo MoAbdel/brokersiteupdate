@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92603Page() {
                 "name": "What is the typical loan amount for Irvine 92603 (Turtle Rock)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Irvine 92603 has a median home price of $2.2 million. After down payment, most buyers need jumbo loans of $1.4-2.0 million. The 2026 conforming limit of $1,149,825 covers only about 52% of the typical purchase price."
+                  "text": "Irvine 92603 has a median home price of $2.2 million. After down payment, most buyers need jumbo loans of $1.4-2.0 million. The 2026 conforming limit of $1,209,750 covers only about 52% of the typical purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92603Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92603 encompasses Orange County&apos;s most prestigious Irvine neighborhoods at a <strong>$2.2 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers only 52% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Bank of America, Wells Fargo, or Chase</strong> for Irvine buyers.
+            Irvine 92603 encompasses Orange County&apos;s most prestigious Irvine neighborhoods at a <strong>$2.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 52% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Bank of America, Wells Fargo, or Chase</strong> for Irvine buyers.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92603Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,200,000 - $8,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,400,000 - $2,200,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">20-45 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (often insufficient)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (often insufficient)</td></tr>
             </tbody>
           </table>
         </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92603Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount for Irvine 92603 (Turtle Rock)?</h3>
-            <p className="mb-0">Irvine 92603 has a median home price of $2.2 million. After down payment, most buyers need jumbo loans of $1.4-2.0 million. The 2026 conforming limit of $1,149,825 covers only about 52% of the typical purchase price.</p>
+            <p className="mb-0">Irvine 92603 has a median home price of $2.2 million. After down payment, most buyers need jumbo loans of $1.4-2.0 million. The 2026 conforming limit of $1,209,750 covers only about 52% of the typical purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer bank statement loans in Turtle Rock and Shady Canyon?</h3>

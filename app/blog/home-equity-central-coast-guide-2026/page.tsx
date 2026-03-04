@@ -47,7 +47,7 @@ export default function HomeEquityCentralCoastGuide2026() {
     },
     {
       question: 'What are current HELOC rates for Central Coast properties in 2026?',
-      answer: 'As of February 2026, Central Coast HELOC rates range from 7.25% to 9.50% through retail lenders. Mo Abdel\u2019s wholesale channel offers rates starting at 6.75% for well-qualified borrowers with strong equity positions. Rates depend on credit score, combined loan-to-value ratio, and property type. Montecito and Santa Barbara luxury properties with low LTV ratios often qualify for the lowest available rates.',
+      answer: 'Central Coast HELOC rates vary based on market conditions, credit score, combined loan-to-value ratio, and property type. Wholesale channels typically offer more competitive pricing than retail lenders. Montecito and Santa Barbara luxury properties with low LTV ratios often qualify for the most favorable rate tiers. Contact Mo Abdel for current rate information specific to your situation.',
     },
     {
       question: 'Can I get a cash-out refinance on my Montecito estate?',
@@ -202,6 +202,12 @@ export default function HomeEquityCentralCoastGuide2026() {
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}

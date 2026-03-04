@@ -140,7 +140,7 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$3.0M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.5M - $15M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo</td></tr>
               <tr><td className="py-2 px-4">Common Borrower Profile</td><td className="py-2 px-4 font-semibold">Self-employed, business owners, executives</td></tr>
             </tbody>
@@ -206,7 +206,7 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive programs</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Dozens of lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>

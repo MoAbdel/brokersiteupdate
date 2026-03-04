@@ -42,7 +42,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
     },
     {
       question: 'How much can Marin County seniors access through a reverse mortgage?',
-      answer: 'The FHA HECM limit for 2026 is $1,149,825. Marin County homes frequently exceed this, so proprietary reverse mortgages can access equity on homes valued at $2 million to $10 million or more. Exact proceeds depend on age, home value, and current rates.'
+      answer: 'The FHA HECM limit for 2026 is $1,209,750. Marin County homes frequently exceed this, so proprietary reverse mortgages can access equity on homes valued at $2 million to $10 million or more. Exact proceeds depend on age, home value, and current rates.'
     },
     {
       question: 'Do I lose ownership of my Marin County home with a reverse mortgage?',
@@ -86,7 +86,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
     },
     {
       question: 'What is the difference between HECM and proprietary reverse mortgages?',
-      answer: 'HECM is the FHA-insured program with a 2026 limit of $1,149,825 and mandatory HUD counseling. Proprietary reverse mortgages are private-label products that serve higher-value homes without the FHA cap. Both eliminate monthly mortgage payments, but proprietary programs offer more flexibility for luxury Marin County properties.'
+      answer: 'HECM is the FHA-insured program with a 2026 limit of $1,209,750 and mandatory HUD counseling. Proprietary reverse mortgages are private-label products that serve higher-value homes without the FHA cap. Both eliminate monthly mortgage payments, but proprietary programs offer more flexibility for luxury Marin County properties.'
     },
     {
       question: 'Can my spouse stay in the home if I pass away with a reverse mortgage?',
@@ -199,12 +199,24 @@ export default function ReverseMortgageMarinCountyGuide2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Marin County Reverse Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Marin County&apos;s median home value exceeds <strong>$1.6 million</strong>, making it one of California&apos;s wealthiest counties. Approximately <strong>22.4% of Marin residents are aged 65+</strong>, well above the national average of 17.3%. The county&apos;s homeownership rate stands at <strong>63.8%</strong>, with long-tenured residents holding decades of accumulated equity. The FHA HECM lending limit for 2026 is <strong>$1,149,825</strong>, while proprietary reverse mortgages serve homes valued at <strong>$2 million to $10 million or more</strong> &mdash; covering the majority of Marin&apos;s luxury housing stock.
+            Marin County&apos;s median home value exceeds <strong>$1.6 million</strong>, making it one of California&apos;s wealthiest counties. Approximately <strong>22.4% of Marin residents are aged 65+</strong>, well above the national average of 17.3%. The county&apos;s homeownership rate stands at <strong>63.8%</strong>, with long-tenured residents holding decades of accumulated equity. The FHA HECM lending limit for 2026 is <strong>$1,209,750</strong>, while proprietary reverse mortgages serve homes valued at <strong>$2 million to $10 million or more</strong> &mdash; covering the majority of Marin&apos;s luxury housing stock.
           </p>
         </div>
 
@@ -451,7 +463,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
         </p>
         <h3>FHA HECM Program</h3>
         <p>
-          The Home Equity Conversion Mortgage remains the most widely used reverse mortgage product nationwide. In 2026, the FHA lending limit is $1,149,825 &mdash; meaning the HECM program calculates proceeds based on this value even if the home is worth substantially more. For Marin County properties valued near or below this threshold (primarily condos, smaller homes, and some Novato properties), HECM provides strong protections including FHA insurance that guarantees payouts even if the lender fails, non-recourse protection, and regulated origination fees capped at $6,000.
+          The Home Equity Conversion Mortgage remains the most widely used reverse mortgage product nationwide. In 2026, the FHA lending limit is $1,209,750 &mdash; meaning the HECM program calculates proceeds based on this value even if the home is worth substantially more. For Marin County properties valued near or below this threshold (primarily condos, smaller homes, and some Novato properties), HECM provides strong protections including FHA insurance that guarantees payouts even if the lender fails, non-recourse protection, and regulated origination fees capped at $6,000.
         </p>
         <p>
           The mandatory HUD counseling requirement serves as a consumer protection measure. A HUD-approved counselor walks through the program details, reviews alternatives, and ensures borrowers understand the commitment. I encourage every Marin County client to approach counseling as a genuine learning opportunity rather than a checkbox.
@@ -462,13 +474,13 @@ export default function ReverseMortgageMarinCountyGuide2026() {
 
         <h3>Proprietary Reverse Mortgages</h3>
         <p>
-          For Marin County&apos;s many homes valued well above $1,149,825, proprietary reverse mortgages unlock significantly more equity. These private-label products are offered by individual lenders and do not carry FHA insurance. Instead, they offer higher lending limits (some programs go to $10 million or more), flexible property requirements, and customized terms for luxury homes.
+          For Marin County&apos;s many homes valued well above $1,209,750, proprietary reverse mortgages unlock significantly more equity. These private-label products are offered by individual lenders and do not carry FHA insurance. Instead, they offer higher lending limits (some programs go to $10 million or more), flexible property requirements, and customized terms for luxury homes.
         </p>
         <p>
           Key advantages of proprietary programs for Marin County homeowners include:
         </p>
         <ul>
-          <li><strong>Higher proceeds:</strong> Access equity based on actual home value, not capped at $1,149,825</li>
+          <li><strong>Higher proceeds:</strong> Access equity based on actual home value, not capped at $1,209,750</li>
           <li><strong>Luxury property expertise:</strong> Lenders who specialize in high-value homes understand Marin&apos;s market</li>
           <li><strong>Streamlined process:</strong> Some proprietary programs skip the HUD counseling requirement (though I recommend counseling regardless)</li>
           <li><strong>Flexible terms:</strong> Customized payout structures for higher net worth borrowers</li>
@@ -611,7 +623,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
             Marin County represents one of California&apos;s strongest markets for reverse mortgage utilization. The combination of exceptional home values (median $1.6 million countywide, with individual cities reaching $5 million+), a large and growing senior population (22.4% aged 65+), and decades of equity accumulation creates ideal conditions for both HECM and proprietary reverse mortgage programs.
           </p>
           <p>
-            For seniors in Ross, Tiburon, Belvedere, and Mill Valley, proprietary reverse mortgages unlock equity far beyond the $1,149,825 FHA HECM cap. For homeowners in Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato, both HECM and proprietary programs provide viable options that deserve comparison.
+            For seniors in Ross, Tiburon, Belvedere, and Mill Valley, proprietary reverse mortgages unlock equity far beyond the $1,209,750 FHA HECM cap. For homeowners in Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato, both HECM and proprietary programs provide viable options that deserve comparison.
           </p>
           <p>
             The line of credit payout option remains the most popular choice among Marin County borrowers for its growth feature and flexibility. For those carrying existing mortgages, the lump sum option eliminates monthly payments immediately. HECM for Purchase opens a path to downsizing within Marin while preserving cash flow.

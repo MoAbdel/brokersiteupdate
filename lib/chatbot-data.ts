@@ -42,7 +42,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What affects my mortgage pricing?",
-    answer: "Key factors include: Credit score (740+ gets best pricing), down payment amount (larger = Better pricing), loan type (conventional, FHA, VA, jumbo), property type (primary home gets best pricing), and debt-to-income ratio. I'll help optimize these factors to get you the best rate possible.",
+    answer: "Key factors include: Credit score (740+ gets competitive pricing), down payment amount (larger = better pricing), loan type (conventional, FHA, VA, jumbo), property type (primary home gets favorable pricing), and debt-to-income ratio. I'll help optimize these factors to find you a competitive rate.",
     category: "rates",
     keywords: ["affects", "rate", "factors", "credit", "down payment"],
     followUp: ["What credit score do I need?", "How much down payment is required?"]
@@ -51,28 +51,28 @@ export const chatbotResponses: ChatResponse[] = [
   // Loan Programs
   {
     question: "What loan programs do you offer?",
-    answer: "I offer all major programs: FHA (3.5% down, 580+ credit), VA ($0 down for veterans), Conventional (3-20% down), Jumbo (for loans over $1,266,300), HELOC (access home equity), Non-QM (bank statement/asset-based), and Investment Property loans (DSCR, fix & flip). Each has unique benefits - let's discuss which fits your needs.",
+    answer: "I offer all major programs: FHA (3.5% down, 580+ credit), VA ($0 down for veterans), Conventional (3-20% down), Jumbo (for loans over $1,209,750), HELOC (access home equity), Non-QM (bank statement/asset-based), and Investment Property loans (DSCR, fix & flip). Each has unique benefits - let's discuss which fits your needs.",
     category: "programs",
     keywords: ["programs", "loans", "types", "offer", "fha", "va", "conventional", "jumbo"],
     followUp: ["What's the minimum down payment?", "Which program is best for me?"]
   },
   {
     question: "What is an FHA refinance?",
-    answer: "FHA refinances are government-backed options perfect for homeowners with less-than-perfect credit or limited equity. Benefits include: streamline refinancing with no appraisal (IRRRL equivalent), credit scores as low as 580 accepted, and competitive loan pricing. 2026 FHA loan limits in Orange County are up to $1,266,300.",
+    answer: "FHA refinances are government-backed options perfect for homeowners with less-than-perfect credit or limited equity. Benefits include: streamline refinancing with no appraisal (IRRRL equivalent), credit scores as low as 580 accepted, and competitive loan pricing. 2026 FHA loan limits in Orange County are up to $1,209,750.",
     category: "programs",
     keywords: ["fha", "streamline", "refinance", "government"],
     followUp: ["Do I qualify for FHA refinance?", "What are FHA loan limits?"]
   },
   {
     question: "What are VA refinance benefits?",
-    answer: "VA loans offer incredible refinance benefits for veterans: 100% cash-out options, streamline refinancing (IRRRL) with minimal documentation, no PMI (mortgage insurance), and competitive wholesale pricing. The 2026 VA loan limit in Orange County is $1,266,300 with zero equity required for some programs.",
+    answer: "VA loans offer incredible refinance benefits for veterans: 100% cash-out options, streamline refinancing (IRRRL) with minimal documentation, no PMI (mortgage insurance), and competitive wholesale pricing. The 2026 VA loan limit in Orange County is $1,209,750 with zero equity required for some programs.",
     category: "programs",
     keywords: ["va", "veteran", "military", "irrrl", "cash out"],
     followUp: ["Am I eligible for VA IRRRL?", "Can I do a VA cash-out?"]
   },
   {
     question: "What is a jumbo refinance?",
-    answer: "Jumbo refinances are for loan balances exceeding $1,266,300 in Orange County. I specialize in jumbo refinancing up to $3M with competitive pricing, often better than big banks. Typically requires strong credit (700+) and at least 20% equity.",
+    answer: "Jumbo refinances are for loan balances exceeding $1,209,750 in Orange County. I specialize in jumbo refinancing up to $3M with competitive pricing, often better than big banks. Typically requires strong credit (700+) and at least 20% equity.",
     category: "programs",
     keywords: ["jumbo", "luxury", "high", "million", "refinance"],
     followUp: ["What's the jumbo refinance limit?", "What equity for jumbo?"]
@@ -196,7 +196,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Orange County Specific
   {
     question: "What are Orange County loan limits?",
-    answer: "2026 Orange County loan limits: Conventional/FHA/VA conforming limit is $1,266,300 for single-family homes. Loans above this are jumbo loans. With Orange County's median home price at $1.2M, many buyers need jumbo financing. I specialize in both conforming and jumbo loans with excellent rates.",
+    answer: "2026 Orange County loan limits: Conventional/FHA/VA conforming limit is $1,209,750 for single-family homes. Loans above this are jumbo loans. With Orange County's median home price at $1.2M, many buyers need jumbo financing. I specialize in both conforming and jumbo loans with excellent rates.",
     category: "local",
     keywords: ["loan limits", "orange county", "conforming", "maximum", "2026"],
     followUp: ["What if I need more?", "What are jumbo requirements?"]
@@ -279,7 +279,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Will you match rates?",
-    answer: "I'm committed to getting you the best rate possible. If you have a Loan Estimate from another lender, I'll review it and work to find equal or better terms through my 200+ lenders. Often, I can beat both the pricing AND fees. Bring me any written quote for a free, no-obligation comparison.",
+    answer: "I'm committed to finding you competitive rates. If you have a Loan Estimate from another lender, I'll review it and shop across my 200+ lenders to look for equal or better terms. Bring me any written quote for a free, no-obligation comparison.",
     category: "rates",
     keywords: ["match", "beat", "compete", "comparison", "lower"],
     followUp: ["What do you need to match?", "How to compare offers?"]
@@ -293,10 +293,10 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "How much can I save with you?",
-    answer: "Typical savings range from $5,000-$15,000 over the loan life through better pricing and lower fees. On a $800,000 loan, just 0.25% pricing difference saves $40,000+ over 30 years. Plus, my wholesale lender fees are often $2,000-$5,000 less than retail banks. I'll provide a detailed comparison showing your exact savings.",
+    answer: "Potential savings can range from $5,000-$15,000 over the loan life through competitive pricing and lower fees. On a $800,000 loan, just 0.25% pricing difference could save $40,000+ over 30 years. Plus, wholesale lender fees are often $2,000-$5,000 less than retail banks. I'll provide a detailed comparison showing your potential savings.",
     category: "rates",
     keywords: ["save", "savings", "money", "cost", "cheaper"],
-    followUp: ["Can you guarantee savings?", "Show me the math?"]
+    followUp: ["How do you find savings?", "Show me the math?"]
   }
 ];
 

@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92657Page() {
                 "name": "What is the typical loan amount needed in Newport Coast 92657?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Newport Coast 92657 has a median home price of $6.8 million, meaning most buyers need jumbo loans starting at $5-7 million. The 2026 conforming loan limit of $1,149,825 covers less than 17% of the typical home purchase price here."
+                  "text": "Newport Coast 92657 has a median home price of $6.8 million, meaning most buyers need jumbo loans starting at $5-7 million. The 2026 conforming loan limit of $1,209,750 covers less than 17% of the typical home purchase price here."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92657Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Coast 92657 represents Orange County&apos;s most exclusive real estate market with a <strong>$6.8 million median home price</strong>. When the 2026 conforming loan limit of $1,149,825 covers less than 17% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders—not a bank limited to a single product menu. On a $5 million loan, our wholesale access regularly secures <strong>better rates than Wells Fargo Private Bank, First Republic, or Chase Private Client</strong> can offer.
+            Newport Coast 92657 represents Orange County&apos;s most exclusive real estate market with a <strong>$6.8 million median home price</strong>. When the 2026 conforming loan limit of $1,209,750 covers less than 17% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders—not a bank limited to a single product menu. On a $5 million loan, our wholesale access regularly secures <strong>better rates than Wells Fargo Private Bank, First Republic, or Chase Private Client</strong> can offer.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92657Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit sits at $1,149,825—adequate for most California markets but irrelevant for Newport Coast. With a $6.8M median price, the typical 92657 buyer needs a <strong>jumbo loan of $5-6 million</strong> after their down payment. Banks like Wells Fargo, First Republic, and Chase offer jumbo products, but they&apos;re competing only with themselves. A wholesale broker forces <strong>200+ lenders to compete</strong> for your business.
+          The 2026 conforming loan limit sits at $1,209,750—adequate for most California markets but irrelevant for Newport Coast. With a $6.8M median price, the typical 92657 buyer needs a <strong>jumbo loan of $5-6 million</strong> after their down payment. Banks like Wells Fargo, First Republic, and Chase offer jumbo products, but they&apos;re competing only with themselves. A wholesale broker forces <strong>200+ lenders to compete</strong> for your business.
         </p>
 
         <h2>92657 Real Estate Snapshot</h2>
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92657Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$3,500,000 - $35,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$4,500,000 - $7,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">45-90 days (luxury segment)</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (irrelevant here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (irrelevant here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -268,7 +268,7 @@ export default function WholesaleMortgageBroker92657Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Newport Coast 92657?</h3>
-            <p className="mb-0">Newport Coast 92657 has a median home price of $6.8 million, meaning most buyers need jumbo loans starting at $5-7 million. The 2026 conforming loan limit of $1,149,825 covers less than 17% of the typical home purchase price here.</p>
+            <p className="mb-0">Newport Coast 92657 has a median home price of $6.8 million, meaning most buyers need jumbo loans starting at $5-7 million. The 2026 conforming loan limit of $1,209,750 covers less than 17% of the typical home purchase price here.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over Wells Fargo Private Bank in Newport Coast?</h3>

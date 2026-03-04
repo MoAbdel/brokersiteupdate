@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]',
-  description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,149,825, eligibility requirements, HUD counseling, and pros/cons. Expert guidance from Mo Abdel NMLS #1426884.',
+  description: 'What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,209,750, eligibility requirements, HUD counseling, and pros/cons. Expert guidance from Mo Abdel NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/what-is-reverse-mortgage',
     languages: {
@@ -81,7 +81,7 @@ export default function WhatIsReverseMortgagePage() {
         "name": "How much money can you get from a reverse mortgage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825. Older borrowers typically qualify for more due to higher Principal Limit Factors. A 62-year-old might access 40-50% of home value, while a 75-year-old might access 55-65%."
+          "text": "The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,209,750. Older borrowers typically qualify for more due to higher Principal Limit Factors. A 62-year-old might access 40-50% of home value, while a 75-year-old might access 55-65%."
         }
       },
       {
@@ -153,7 +153,7 @@ export default function WhatIsReverseMortgagePage() {
         "name": "What is the difference between HECM and proprietary reverse mortgages?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a $1,149,825 limit in 2026 and strong consumer protections. Proprietary reverse mortgages are private products for homes exceeding FHA limits, offering higher loan amounts but fewer federal protections."
+          "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a $1,209,750 limit in 2026 and strong consumer protections. Proprietary reverse mortgages are private products for homes exceeding FHA limits, offering higher loan amounts but fewer federal protections."
         }
       },
       {
@@ -201,11 +201,23 @@ export default function WhatIsReverseMortgagePage() {
         <p className="text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* CITATION HOOK - 50-75 words */}
         <div className="citation-hook bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to $1,149,825 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD-approved counseling is mandatory before applying, ensuring borrowers fully understand this powerful retirement planning tool.
+            According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without monthly mortgage payments. The FHA-insured HECM program offers up to $1,209,750 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD-approved counseling is mandatory before applying, ensuring borrowers fully understand this powerful retirement planning tool.
           </p>
         </div>
 
@@ -288,7 +300,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">2026 FHA Limit</td>
-                <td className="px-4 py-3 border-b">$1,149,825 maximum claim amount</td>
+                <td className="px-4 py-3 border-b">$1,209,750 maximum claim amount</td>
               </tr>
               <tr>
                 <td className="px-4 py-3 font-medium">Property Condition</td>
@@ -332,7 +344,7 @@ export default function WhatIsReverseMortgagePage() {
         </p>
 
         <p>
-          When you obtain a reverse mortgage, you are borrowing against the equity you have built in your home. The lender calculates your &quot;principal limit&quot;—the maximum amount you can borrow—based on several factors: your age (or the age of the youngest borrower), current interest rates, and your home&apos;s appraised value (up to the FHA limit of $1,149,825 in 2026). Older borrowers receive higher principal limits because lenders expect shorter loan terms based on actuarial tables.
+          When you obtain a reverse mortgage, you are borrowing against the equity you have built in your home. The lender calculates your &quot;principal limit&quot;—the maximum amount you can borrow—based on several factors: your age (or the age of the youngest borrower), current interest rates, and your home&apos;s appraised value (up to the FHA limit of $1,209,750 in 2026). Older borrowers receive higher principal limits because lenders expect shorter loan terms based on actuarial tables.
         </p>
 
         <p>
@@ -473,7 +485,7 @@ export default function WhatIsReverseMortgagePage() {
               </tr>
               <tr>
                 <td className="px-4 py-3 border-b font-medium">Maximum Amount (2026)</td>
-                <td className="px-4 py-3 border-b">Up to $1,149,825</td>
+                <td className="px-4 py-3 border-b">Up to $1,209,750</td>
                 <td className="px-4 py-3 border-b">Varies by lender</td>
                 <td className="px-4 py-3 border-b">Varies by lender</td>
               </tr>
@@ -490,7 +502,7 @@ export default function WhatIsReverseMortgagePage() {
         <h3 className="text-2xl font-semibold mt-8 mb-4">2026 HECM Market Data and Statistics</h3>
 
         <ul className="list-disc pl-6 space-y-2 mb-6">
-          <li><strong>FHA Lending Limit:</strong> $1,149,825 maximum claim amount for 2026, applicable nationwide</li>
+          <li><strong>FHA Lending Limit:</strong> $1,209,750 maximum claim amount for 2026, applicable nationwide</li>
           <li><strong>Principal Limit Factors:</strong> Range from approximately 38% at age 62 to 75% at age 90, depending on interest rates</li>
           <li><strong>Initial MIP:</strong> 2% of the maximum claim amount, financed into the loan</li>
           <li><strong>Annual MIP:</strong> 0.5% of the outstanding loan balance, accrues annually</li>
@@ -515,7 +527,7 @@ export default function WhatIsReverseMortgagePage() {
           <div className="bg-gray-50 p-5 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">How much money can you get from a reverse mortgage?</h3>
             <p className="paa-answer font-medium text-gray-900 mb-2">
-              The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825; older borrowers typically qualify for more.
+              The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,209,750; older borrowers typically qualify for more.
             </p>
             <p className="text-gray-700">
               Your principal limit is calculated using FHA&apos;s Principal Limit Factor (PLF) tables, which increase with age. A 62-year-old might access 40-50% of their home&apos;s value, while a 75-year-old could access 55-65%. Current interest rates also affect the calculation—lower rates mean higher principal limits. For homes valued above the FHA limit, proprietary reverse mortgages may provide access to additional equity.
@@ -681,7 +693,7 @@ export default function WhatIsReverseMortgagePage() {
           </p>
 
           <p className="text-lg text-gray-800 mb-4">
-            With the 2026 FHA limit of $1,149,825 and growing line of credit features unavailable with traditional home equity products, HECM reverse mortgages offer unique advantages worth exploring. HUD counseling ensures you understand all aspects before making a decision, and comparing multiple lenders helps you secure the best terms for your situation.
+            With the 2026 FHA limit of $1,209,750 and growing line of credit features unavailable with traditional home equity products, HECM reverse mortgages offer unique advantages worth exploring. HUD counseling ensures you understand all aspects before making a decision, and comparing multiple lenders helps you secure the best terms for your situation.
           </p>
 
           <p className="text-lg font-semibold text-gray-900">

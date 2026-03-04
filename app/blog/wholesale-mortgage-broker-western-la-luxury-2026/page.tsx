@@ -238,6 +238,18 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
           </div>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* CITATION HOOK */}
@@ -475,7 +487,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             Agoura Hills offers Western LA&apos;s most compelling value proposition: access to the prestigious Las Virgenes Unified School District (ranked among LA County&apos;s top 10 districts), proximity to Calabasas and Hidden Hills social circles, and a median home value of $1.1 million that positions most purchases at the jumbo financing threshold. The community attracts entertainment industry professionals who prioritize school quality, families relocating from more expensive Westside neighborhoods, and remote workers who chose lifestyle over commute proximity during the post-pandemic era.
           </p>
           <p>
-            What makes Agoura Hills unique in the wholesale lending context is the concentration of borrowers at the conforming-to-jumbo transition point. The 2026 conforming loan limit of $1,149,825 means many Agoura Hills purchases fall just above or just below this threshold&mdash;creating a pricing inflection point where wholesale broker access to both conforming and jumbo lenders delivers maximum rate optimization. A $1.2 million purchase with 20% down requires a $960,000 mortgage&mdash;conforming territory. A $1.4 million purchase needs $1.12 million&mdash;still conforming. But a $1.6 million purchase at 80% LTV requires $1.28 million, entering jumbo territory where wholesale lender competition makes the greatest pricing impact.
+            What makes Agoura Hills unique in the wholesale lending context is the concentration of borrowers at the conforming-to-jumbo transition point. The 2026 conforming loan limit of $1,209,750 means many Agoura Hills purchases fall just above or just below this threshold&mdash;creating a pricing inflection point where wholesale broker access to both conforming and jumbo lenders delivers maximum rate optimization. A $1.2 million purchase with 20% down requires a $960,000 mortgage&mdash;conforming territory. A $1.4 million purchase needs $1.12 million&mdash;still conforming. But a $1.6 million purchase at 80% LTV requires $1.28 million, entering jumbo territory where wholesale lender competition makes the greatest pricing impact.
           </p>
 
           <div className="overflow-x-auto my-6">

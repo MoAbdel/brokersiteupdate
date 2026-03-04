@@ -95,7 +95,7 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Irvine', url: '/areas/irvine-mortgage-broker' },
   { title: 'Irvine Loans', url: '/areas/irvine-mortgage-rates' },
   { title: 'Costa Mesa', url: '/areas/costa-mesa-mortgage-broker' },
-  { title: 'Costa Mesa Loans', url: '/areas/costa-mesa-mortgage-rates' },
+  { title: 'Costa Mesa Loans', url: '/areas/costa-mesa-mortgage-broker' },
   { title: 'Orange', url: '/areas/orange-mortgage-broker' },
   { title: 'Santa Ana', url: '/areas/santa-ana-mortgage-broker' },
   { title: 'Santa Ana Loans', url: '/areas/santa-ana-mortgage-rates' },
@@ -122,7 +122,7 @@ export const serviceAreasDropdown: DropdownItem[] = [
   // ZIP Code Areas
   { title: 'ZIP Code Areas', url: '#', isHeader: true, icon: MapPin },
   { title: 'Irvine 92614', url: '/zip-codes/92614-irvine-mortgage-broker' },
-  { title: 'Corona del Mar 92625', url: '/zip-codes/92625-corona-del-mar-mortgage-broker' },
+  { title: 'Corona del Mar 92625', url: '/areas/newport-beach-mortgage-broker' },
   { title: 'Newport Beach 92660', url: '/zip-codes/92660-newport-beach-mortgage-broker' },
   { title: 'Irvine 92602', url: '/zip-codes/92602-irvine-mortgage-broker' },
 
@@ -312,7 +312,7 @@ export const blogDropdown: DropdownItem[] = [
 
   // By Category
   { title: 'By Category', url: '#', isHeader: true, icon: Folder },
-  { title: 'Wholesale Guides', url: '/blog/wholesale-vs-retail-mortgage-brokers-2026' },
+  { title: 'Wholesale Guides', url: '/blog/wholesale-vs-retail-mortgage-complete-2026' },
   { title: 'City Guides', url: '/blog/irvine-mortgage-guide-2026' },
   { title: 'Refinance Guides', url: '/blog/cash-out-refinance-complete-guide-2026' },
 
@@ -367,4 +367,3 @@ export const navigationItems: NavigationItem[] = [
     icon: Phone,
   },
 ];
-

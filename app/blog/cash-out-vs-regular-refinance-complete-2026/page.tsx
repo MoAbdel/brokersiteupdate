@@ -570,7 +570,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
             <h3 className="text-2xl font-semibold mt-8 mb-4">Scenario 1: Rate Drop Opportunity</h3>
             <div className="bg-blue-50 p-6 rounded-lg my-6">
               <p className="font-semibold text-blue-900 mb-3">Situation:</p>
-              <p className="text-blue-800 mb-4">Sarah purchased her home 3 years ago at 7.5% interest. Current rates are around 6.125%. She does not need cash but wants to reduce her monthly payment.</p>
+              <p className="text-blue-800 mb-4">Sarah purchased her home 3 years ago at a higher rate. Market rates have since declined. She does not need cash but wants to reduce her monthly payment.</p>
               <p className="font-semibold text-blue-900 mb-2">Best Choice: Rate-and-Term Refinance</p>
               <p className="text-blue-800">Sarah will save $376/month by refinancing her $450,000 balance to the lower rate. With no need for cash, choosing rate-and-term gives her the lowest possible rate and fastest closing.</p>
             </div>
@@ -765,7 +765,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
             <div className="bg-gray-50 p-6 rounded-lg my-6">
               <h4 className="font-bold mb-3">Key Data Points for 2026:</h4>
               <ul className="space-y-2">
-                <li><strong>Conforming loan limit (2026):</strong> $1,266,300 for single-family homes in most areas</li>
+                <li><strong>Conforming loan limit (2026):</strong> $1,209,750 for single-family homes in most areas</li>
                 <li><strong>High-cost area limit:</strong> Up to $1,899,450 in designated high-cost counties</li>
                 <li><strong>Average cash-out rate premium:</strong> 0.125% to 0.50% above rate-and-term</li>
                 <li><strong>Typical closing timeline difference:</strong> Cash-out takes 7-14 days longer</li>
@@ -868,7 +868,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="font-bold mb-2">How does a wholesale broker help with refinancing?</h3>
-                <p>Wholesale mortgage brokers compare options from 50+ lenders simultaneously, often finding better rates than retail banks. They have access to both rate-and-term and cash-out programs from multiple sources and can quickly identify which lenders offer the best terms for your specific situation.</p>
+                <p>Wholesale mortgage brokers compare options from 200+ lenders simultaneously, often finding better rates than retail banks. They have access to both rate-and-term and cash-out programs from multiple sources and can quickly identify which lenders offer the best terms for your specific situation.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
@@ -900,7 +900,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
                 If your goal is lowering your monthly payment or shortening your loan term without extracting equity, a rate-and-term refinance delivers the lowest rates and fastest closing. If you need substantial funds for home improvements, debt consolidation, or investment opportunities, a cash-out refinance provides lump-sum access to your equity at fixed rates.
               </p>
               <p className="text-lg text-gray-800 mb-6">
-                As a wholesale mortgage broker, I compare both options across 50+ lenders to find the optimal solution for your specific situation. Whether you need cash or simply want better terms, the right refinance strategy can save you thousands over the life of your loan.
+                As a wholesale mortgage broker, I compare both options across 200+ lenders to find the optimal solution for your specific situation. Whether you need cash or simply want better terms, the right refinance strategy can save you thousands over the life of your loan.
               </p>
 
               <div className="text-center">
@@ -939,7 +939,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
           <div className="bg-gray-100 p-6 rounded-lg">
             <p className="text-sm text-gray-600">
               <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-              Licensed in: CA, WA, CO
+              Licensed in: CA, WA
             </p>
             <p className="text-xs text-gray-500 mt-4">
               Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms, conditions, and rates subject to change without notice. This is not a commitment to lend. Information provided is for educational purposes only and does not constitute financial advice. Rate examples are illustrative and actual rates depend on market conditions and individual qualifications. Consult with a licensed mortgage professional for personalized guidance specific to your situation.

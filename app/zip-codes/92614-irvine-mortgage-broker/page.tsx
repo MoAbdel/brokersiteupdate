@@ -70,7 +70,7 @@ export default function ZipCode92614MortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92614 require jumbo loans?",
-            answer: "82% of homes in ZIP code 92614 exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo loan financing. The mix of newer developments and premium locations drives higher values."
+            answer: "82% of homes in ZIP code 92614 exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. The mix of newer developments and premium locations drives higher values."
           },
           {
             question: "What makes 92614 attractive for families?",

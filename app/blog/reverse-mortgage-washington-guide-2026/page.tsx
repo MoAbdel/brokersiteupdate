@@ -52,7 +52,7 @@ export default function ReverseMortgageWashingtonGuide() {
         name: 'What is the 2026 HECM lending limit in Washington State?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide, including all Washington counties. Homes valued above this amount can still use a HECM (capped at $1,149,825 in calculations) or opt for a jumbo proprietary reverse mortgage for full equity access.',
+          text: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide, including all Washington counties. Homes valued above this amount can still use a HECM (capped at $1,209,750 in calculations) or opt for a jumbo proprietary reverse mortgage for full equity access.',
         },
       },
       {
@@ -108,7 +108,7 @@ export default function ReverseMortgageWashingtonGuide() {
         name: 'Can tech industry retirees in Washington use stock assets for reverse mortgage qualification?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Reverse mortgages do not have traditional income or asset requirements for qualification. Eligibility is based on age, home equity, and property condition. Tech retirees with significant stock portfolios still benefit from reverse mortgages because the funds are tax-free and preserve investment portfolios.',
+          text: 'Reverse mortgages do not have traditional income or asset requirements for qualification. Eligibility is based on age, home equity, and property condition. Tech retirees with significant stock portfolios still benefit from reverse mortgages because the funds are loan proceeds (generally not considered taxable income) and preserve investment portfolios.',
         },
       },
       {
@@ -124,7 +124,7 @@ export default function ReverseMortgageWashingtonGuide() {
         name: 'How much does a reverse mortgage cost in Washington State?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'HECM closing costs include a mortgage insurance premium (2% of home value, capped at $1,149,825), origination fee (up to $6,000), appraisal ($500-$1,200 depending on property complexity), and standard third-party fees. Most costs can be financed into the loan, reducing out-of-pocket expenses.',
+          text: 'HECM closing costs include a mortgage insurance premium (2% of home value, capped at $1,209,750), origination fee (up to $6,000), appraisal ($500-$1,200 depending on property complexity), and standard third-party fees. Most costs can be financed into the loan, reducing out-of-pocket expenses.',
         },
       },
       {
@@ -178,6 +178,18 @@ export default function ReverseMortgageWashingtonGuide() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             Washington State homeowners 62 and older hold an estimated $180 billion in residential home equity, making the Evergreen State one of the strongest markets for reverse mortgages in the Pacific Northwest. From the tech-wealthy corridors of the Seattle Eastside to waterfront estates on the San Juan Islands, Washington seniors have significant equity that can fund retirement, eliminate monthly mortgage payments, and provide financial flexibility. As a wholesale mortgage broker licensed in Washington with access to both FHA HECM and proprietary jumbo reverse mortgage products, I help seniors across all four major Washington regions navigate their options and maximize equity access.
@@ -186,9 +198,9 @@ export default function ReverseMortgageWashingtonGuide() {
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">Washington Reverse Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
-              <li><strong>2026 HECM Lending Limit:</strong> $1,149,825 (nationwide, applies to all WA counties)</li>
+              <li><strong>2026 HECM Lending Limit:</strong> $1,209,750 (nationwide, applies to all WA counties)</li>
               <li><strong>Washington Median Home Value:</strong> $640,000+ statewide (varies $400K-$5M+ by city)</li>
-              <li><strong>State Income Tax:</strong> None — reverse mortgage proceeds are 100% tax-free at state level</li>
+              <li><strong>State Income Tax:</strong> None — reverse mortgage loan proceeds face no state income tax</li>
               <li><strong>Jumbo Reverse Available:</strong> Yes, for homes valued above $1.15M (common on Eastside and waterfront)</li>
               <li><strong>Minimum Age:</strong> 62 for HECM; some proprietary products available at 55</li>
               <li><strong>Regions Covered:</strong> Seattle Eastside, Greater Seattle, North Sound/Islands, South Sound</li>
@@ -306,7 +318,7 @@ export default function ReverseMortgageWashingtonGuide() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">2026 Lending Limit</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (applies to all Washington counties)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (applies to all Washington counties)</td>
                 </tr>
               </tbody>
             </table>
@@ -377,7 +389,7 @@ export default function ReverseMortgageWashingtonGuide() {
           <h2 className="text-2xl font-bold mt-10 mb-4">Jumbo Reverse Mortgages: Essential for High-Value Washington Properties</h2>
 
           <p>
-            With the HECM lending limit set at $1,149,825, a significant portion of Washington homeowners—particularly on the Seattle Eastside and waterfront communities—need proprietary jumbo reverse mortgage products to access their full equity. Jumbo reverse mortgages are offered by private lenders (not FHA-insured) and can accommodate home values up to $10 million or more.
+            With the HECM lending limit set at $1,209,750, a significant portion of Washington homeowners—particularly on the Seattle Eastside and waterfront communities—need proprietary jumbo reverse mortgage products to access their full equity. Jumbo reverse mortgages are offered by private lenders (not FHA-insured) and can accommodate home values up to $10 million or more.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -392,7 +404,7 @@ export default function ReverseMortgageWashingtonGuide() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Maximum Home Value</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (for calculation purposes)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (for calculation purposes)</td>
                   <td className="px-4 py-3 border-t">$4M – $10M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -517,7 +529,7 @@ export default function ReverseMortgageWashingtonGuide() {
 
           <div className="bg-gray-50 p-6 rounded-lg my-6">
             <p>
-              The South Sound region—including Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom—offers Washington seniors the most straightforward path to HECM reverse mortgages. With median values ranging from $600,000 to $757,000, the vast majority of South Sound properties fall well within the $1,149,825 HECM limit, eliminating the need for jumbo products. Gig Harbor anchors this region with a median value of $757,000 and a strong retiree community built around its harbor-front downtown. Military retirees from nearby Joint Base Lewis-McChord and Naval Base Kitsap represent a notable borrower demographic in University Place and Steilacoom.
+              The South Sound region—including Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom—offers Washington seniors the most straightforward path to HECM reverse mortgages. With median values ranging from $600,000 to $757,000, the vast majority of South Sound properties fall well within the $1,209,750 HECM limit, eliminating the need for jumbo products. Gig Harbor anchors this region with a median value of $757,000 and a strong retiree community built around its harbor-front downtown. Military retirees from nearby Joint Base Lewis-McChord and Naval Base Kitsap represent a notable borrower demographic in University Place and Steilacoom.
             </p>
             <p className="mb-0">
               <strong>Coming soon:</strong>{' '}
@@ -604,7 +616,7 @@ export default function ReverseMortgageWashingtonGuide() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Upfront Mortgage Insurance Premium</td>
-                  <td className="px-4 py-3 border-t">2% of home value (capped at $1,149,825)</td>
+                  <td className="px-4 py-3 border-t">2% of home value (capped at $1,209,750)</td>
                   <td className="px-4 py-3 border-t">Can be financed; provides non-recourse protection</td>
                 </tr>
                 <tr>
@@ -695,7 +707,7 @@ export default function ReverseMortgageWashingtonGuide() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">What is the 2026 HECM lending limit in Washington State?</h3>
               <p className="mb-0">
-                The 2026 FHA HECM lending limit is $1,149,825 nationwide, including all Washington counties. Homes valued above this amount can still use a HECM (capped at $1,149,825 in calculations) or opt for a jumbo proprietary reverse mortgage for full equity access.
+                The 2026 FHA HECM lending limit is $1,209,750 nationwide, including all Washington counties. Homes valued above this amount can still use a HECM (capped at $1,209,750 in calculations) or opt for a jumbo proprietary reverse mortgage for full equity access.
               </p>
             </div>
 
@@ -744,7 +756,7 @@ export default function ReverseMortgageWashingtonGuide() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Can tech industry retirees in Washington use stock assets for reverse mortgage qualification?</h3>
               <p className="mb-0">
-                Reverse mortgages do not have traditional income or asset requirements for qualification. Eligibility is based on age, home equity, and property condition. Tech retirees with significant stock portfolios still benefit from reverse mortgages because the funds are tax-free and preserve investment portfolios.
+                Reverse mortgages do not have traditional income or asset requirements for qualification. Eligibility is based on age, home equity, and property condition. Tech retirees with significant stock portfolios still benefit from reverse mortgages because the funds are loan advances (not considered taxable income) and preserve investment portfolios.
               </p>
             </div>
 
@@ -758,7 +770,7 @@ export default function ReverseMortgageWashingtonGuide() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">How much does a reverse mortgage cost in Washington State?</h3>
               <p className="mb-0">
-                HECM closing costs include a mortgage insurance premium (2% of home value, capped at $1,149,825), origination fee (up to $6,000), appraisal ($500-$1,200 depending on property complexity), and standard third-party fees. Most costs can be financed into the loan, reducing out-of-pocket expenses.
+                HECM closing costs include a mortgage insurance premium (2% of home value, capped at $1,209,750), origination fee (up to $6,000), appraisal ($500-$1,200 depending on property complexity), and standard third-party fees. Most costs can be financed into the loan, reducing out-of-pocket expenses.
               </p>
             </div>
 

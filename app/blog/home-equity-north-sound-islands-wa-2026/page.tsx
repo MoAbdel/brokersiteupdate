@@ -67,7 +67,7 @@ const faqData = [
   },
   {
     question: 'What is the 2026 conforming loan limit for Whatcom and Skagit counties?',
-    answer: 'The 2026 conforming loan limit for Whatcom County (Bellingham) and Skagit County (Anacortes) is $806,500 for single-family homes. San Juan County shares this limit. Snohomish County (Mukilteo, Edmonds) carries the Seattle-metro high-cost limit of $1,149,825, reflecting higher regional property values.'
+    answer: 'The 2026 conforming loan limit for Whatcom County (Bellingham) and Skagit County (Anacortes) is $806,500 for single-family homes. San Juan County shares this limit. Snohomish County (Mukilteo, Edmonds) carries the Seattle-metro high-cost limit of $1,209,750, reflecting higher regional property values.'
   },
   {
     question: 'How long does a home equity appraisal take for island properties?',
@@ -217,6 +217,18 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
             <span className="bg-slate-100 text-slate-900 text-xs font-medium px-3 py-1 rounded-full">Washington State</span>
           </div>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
 
         {/* ========== SECTION 1: Citation Hook ========== */}
         <section className="mb-10">
@@ -584,7 +596,7 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
               Mukilteo&apos;s $850,000 median home value is anchored by Boeing&apos;s Everett facility — the world&apos;s largest building by volume — employing over 30,000 workers within a 10-minute commute. The city&apos;s Harbour Pointe master-planned community, Japanese Gulch nature preserve adjacency, and direct Whidbey Island ferry service create a suburban environment with urban convenience. Paine Field&apos;s commercial airline terminal, launched in 2019, added travel accessibility that further elevated property values.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Boeing employment provides a powerful equity advantage: stable W-2 income, consistent overtime potential, and corporate relocation demand that sustains property values even during aerospace industry downturns. Harbour Pointe Golf Club residences and waterfront homes along the Mukilteo Lighthouse corridor represent the city&apos;s premier equity positions, with properties regularly appraising above $1.1 million. The Snohomish County conforming loan limit of $1,149,825 accommodates even high-value Mukilteo properties within conventional lending parameters.
+              Boeing employment provides a powerful equity advantage: stable W-2 income, consistent overtime potential, and corporate relocation demand that sustains property values even during aerospace industry downturns. Harbour Pointe Golf Club residences and waterfront homes along the Mukilteo Lighthouse corridor represent the city&apos;s premier equity positions, with properties regularly appraising above $1.1 million. The Snohomish County conforming loan limit of $1,209,750 accommodates even high-value Mukilteo properties within conventional lending parameters.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               <strong>Unique scenario:</strong> A Boeing senior engineer with 12 years of tenure owns a Harbour Pointe home valued at $1,020,000 with a $520,000 mortgage at 3.25% (locked during 2021). Rather than disturb the favorable first mortgage rate with a cash-out refinance, the homeowner secures a $180,000 HELOC to fund a complete kitchen and primary suite renovation. The HELOC&apos;s variable rate of 8.00% is higher, but preserving the 3.25% first mortgage saves $14,400/year in interest compared to refinancing the entire balance at current rates. Boeing overtime income of $2,800/month comfortably covers the HELOC draws.
@@ -694,7 +706,7 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
                 <tr className="border-b bg-white"><td className="p-3">Whatcom (Bellingham)</td><td className="p-3">6.4%</td><td className="p-3">$806,500</td><td className="p-3">28 days</td><td className="p-3">412 homes</td></tr>
                 <tr className="border-b bg-gray-50"><td className="p-3">Skagit (Anacortes)</td><td className="p-3">5.9%</td><td className="p-3">$806,500</td><td className="p-3">32 days</td><td className="p-3">289 homes</td></tr>
                 <tr className="border-b bg-white"><td className="p-3">San Juan (Islands)</td><td className="p-3">9.3%</td><td className="p-3">$806,500</td><td className="p-3">67 days</td><td className="p-3">84 homes</td></tr>
-                <tr className="border-b bg-gray-50"><td className="p-3">Snohomish (Mukilteo, Edmonds)</td><td className="p-3">6.8%</td><td className="p-3">$1,149,825</td><td className="p-3">18 days</td><td className="p-3">1,247 homes</td></tr>
+                <tr className="border-b bg-gray-50"><td className="p-3">Snohomish (Mukilteo, Edmonds)</td><td className="p-3">6.8%</td><td className="p-3">$1,209,750</td><td className="p-3">18 days</td><td className="p-3">1,247 homes</td></tr>
               </tbody>
             </table>
           </div>

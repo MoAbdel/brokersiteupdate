@@ -87,7 +87,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
                 "name": "Can a wholesale broker help with jumbo loans in California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers have access to 50+ jumbo lenders, compared to a single jumbo product at banks. This makes brokers essential for California's high-cost markets where the 2026 conforming limit is $1,149,825. Jumbo loans through wholesale channels often have more flexible guidelines and competitive rates."
+                  "text": "Wholesale brokers have access to 50+ jumbo lenders, compared to a single jumbo product at banks. This makes brokers essential for California's high-cost markets where the 2026 conforming limit is $1,209,750. Jumbo loans through wholesale channels often have more flexible guidelines and competitive rates."
                 }
               },
               {
@@ -95,7 +95,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
                 "name": "What loan programs do wholesale brokers offer?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access the full spectrum: conventional loans up to $1,149,825, jumbo loans to $10M+, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed, DSCR for investors, and non-QM programs including asset depletion, foreign national, and recent credit event programs."
+                  "text": "Wholesale brokers access the full spectrum: conventional loans up to $1,209,750, jumbo loans to $10M+, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed, DSCR for investors, and non-QM programs including asset depletion, foreign national, and recent credit event programs."
                 }
               },
               {
@@ -135,7 +135,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
                 "name": "What are the 2026 loan limits for California wholesale mortgages?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The 2026 conforming loan limit for California high-cost areas is $1,149,825. Loans above this amount require jumbo financing. Wholesale brokers access 50+ jumbo lenders with limits up to $10M+. FHA limits match conforming at $1,149,825 in most California counties."
+                  "text": "The 2026 conforming loan limit for California high-cost areas is $1,209,750. Loans above this amount require jumbo financing. Wholesale brokers access 50+ jumbo lenders with limits up to $10M+. FHA limits match conforming at $1,209,750 in most California counties."
                 }
               },
               {
@@ -358,7 +358,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Conforming loans up to $1,149,825 (2026 California high-cost limit)</li>
+          <li>Conforming loans up to $1,209,750 (2026 California high-cost limit)</li>
           <li>3% down payment options for first-time buyers</li>
           <li>5-20% down for repeat buyers</li>
           <li>620+ credit score requirements</li>
@@ -378,7 +378,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
         <ul>
           <li>3.5% down payment minimum</li>
           <li>580+ credit score (some lenders to 500 with 10% down)</li>
-          <li>Loan limits up to $1,149,825 in California high-cost areas</li>
+          <li>Loan limits up to $1,209,750 in California high-cost areas</li>
           <li>Flexible debt-to-income ratios</li>
           <li>First-time and repeat buyer eligible</li>
         </ul>
@@ -506,12 +506,12 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Los Angeles County</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Above $1,149,825</td></tr>
-              <tr><td className="py-2 px-4 border-b">Orange County</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Above $1,149,825</td></tr>
-              <tr><td className="py-2 px-4 border-b">San Francisco Bay Area</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Above $1,149,825</td></tr>
-              <tr><td className="py-2 px-4 border-b">San Diego County</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Above $1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Los Angeles County</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Above $1,209,750</td></tr>
+              <tr><td className="py-2 px-4 border-b">Orange County</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Above $1,209,750</td></tr>
+              <tr><td className="py-2 px-4 border-b">San Francisco Bay Area</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Above $1,209,750</td></tr>
+              <tr><td className="py-2 px-4 border-b">San Diego County</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Above $1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Sacramento County</td><td className="py-2 px-4 border-b">$806,500</td><td className="py-2 px-4 border-b">$806,500</td><td className="py-2 px-4 border-b">Above $806,500</td></tr>
-              <tr><td className="py-2 px-4">Standard CA Counties</td><td className="py-2 px-4">$766,550</td><td className="py-2 px-4">$766,550</td><td className="py-2 px-4">Above $766,550</td></tr>
+              <tr><td className="py-2 px-4">Standard CA Counties</td><td className="py-2 px-4">$806,500</td><td className="py-2 px-4">$806,500</td><td className="py-2 px-4">Above $806,500</td></tr>
             </tbody>
           </table>
         </div>
@@ -652,7 +652,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
 
         <h3>Can I get a jumbo loan through a wholesale broker?</h3>
         <p>
-          <strong>Wholesale brokers access 50+ jumbo lenders versus the single jumbo product banks offer.</strong> This makes brokers especially valuable in California&apos;s high-cost markets where loan amounts above $1,149,825 are common. More options mean better rates and flexible guidelines.
+          <strong>Wholesale brokers access 50+ jumbo lenders versus the single jumbo product banks offer.</strong> This makes brokers especially valuable in California&apos;s high-cost markets where loan amounts above $1,209,750 are common. More options mean better rates and flexible guidelines.
         </p>
 
         <h3>How fast can wholesale brokers close in California?</h3>
@@ -700,12 +700,12 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
 
         <h3>Can a wholesale broker help with jumbo loans in California?</h3>
         <p>
-          Wholesale brokers have access to 50+ jumbo lenders, compared to a single jumbo product at banks. Given California&apos;s 2026 conforming limit of $1,149,825, most buyers in major metros need jumbo financing. Broker access to multiple jumbo lenders provides rate competition and guideline flexibility.
+          Wholesale brokers have access to 50+ jumbo lenders, compared to a single jumbo product at banks. Given California&apos;s 2026 conforming limit of $1,209,750, most buyers in major metros need jumbo financing. Broker access to multiple jumbo lenders provides rate competition and guideline flexibility.
         </p>
 
         <h3>What loan programs do wholesale brokers offer?</h3>
         <p>
-          Wholesale brokers access the full spectrum: conventional loans up to $1,149,825, jumbo loans to $10M+, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed, DSCR for investors, and non-QM programs including asset depletion, foreign national, and recent credit event options.
+          Wholesale brokers access the full spectrum: conventional loans up to $1,209,750, jumbo loans to $10M+, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed, DSCR for investors, and non-QM programs including asset depletion, foreign national, and recent credit event options.
         </p>
 
         <h3>How do I verify a California wholesale mortgage broker is legitimate?</h3>
@@ -730,7 +730,7 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
 
         <h3>What are the 2026 loan limits for California wholesale mortgages?</h3>
         <p>
-          The 2026 conforming loan limit for California high-cost areas is $1,149,825. Loans above this threshold require jumbo financing. Wholesale brokers access 50+ jumbo lenders with limits up to $10M+. Standard California counties have conforming limits of $766,550.
+          The 2026 conforming loan limit for California high-cost areas is $1,209,750. Loans above this threshold require jumbo financing. Wholesale brokers access 50+ jumbo lenders with limits up to $10M+. Standard California counties have conforming limits of $806,500.
         </p>
 
         <h3>Can wholesale brokers help with investment property financing?</h3>

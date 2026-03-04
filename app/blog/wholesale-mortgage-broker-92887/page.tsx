@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92887Page() {
                 "name": "What is the typical loan amount needed in Yorba Linda 92887?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yorba Linda 92887 has a median home price of $1.3 million, with many properties exceeding the 2026 conforming limit of $1,149,825. Black Gold and Hidden Hills estates can require jumbo loans of $1.2-2.5 million."
+                  "text": "Yorba Linda 92887 has a median home price of $1.3 million, with many properties exceeding the 2026 conforming limit of $1,209,750. Black Gold and Hidden Hills estates can require jumbo loans of $1.2-2.5 million."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92887Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Yorba Linda 92887 encompasses the prestigious Black Gold community and semi-rural equestrian properties with a <strong>$1.3 million median home price</strong>. With the 2026 conforming limit at $1,149,825, many 92887 buyers need <strong>jumbo financing</strong>—especially for larger homes on acreage. A <strong>wholesale mortgage broker</strong> with 200+ lender access finds specialized lenders who understand equestrian properties and semi-rural estates.
+            Yorba Linda 92887 encompasses the prestigious Black Gold community and semi-rural equestrian properties with a <strong>$1.3 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92887 buyers need <strong>jumbo financing</strong>—especially for larger homes on acreage. A <strong>wholesale mortgage broker</strong> with 200+ lender access finds specialized lenders who understand equestrian properties and semi-rural estates.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92887Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$850,000 - $3,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,000,000 - $2,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Lot Sizes</td><td className="py-2 px-4 border-b">10,000 sqft - 5+ acres</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -257,7 +257,7 @@ export default function WholesaleMortgageBroker92887Page() {
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Hidden Hills</h4>
-            <p className="text-sm text-gray-700 mb-0">Established neighborhood with larger lots and mature landscaping. Popular with families seeking space.</p>
+            <p className="text-sm text-gray-700 mb-0">Established neighborhood with larger lots and mature landscaping. Known for spacious properties.</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Carbon Canyon Area</h4>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92887Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Yorba Linda 92887?</h3>
-            <p className="mb-0">Yorba Linda 92887 has a median home price of $1.3 million, with many properties exceeding the 2026 conforming limit of $1,149,825. Black Gold and Hidden Hills estates can require jumbo loans of $1.2-2.5 million.</p>
+            <p className="mb-0">Yorba Linda 92887 has a median home price of $1.3 million, with many properties exceeding the 2026 conforming limit of $1,209,750. Black Gold and Hidden Hills estates can require jumbo loans of $1.2-2.5 million.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Can wholesale brokers finance equestrian properties in 92887?</h3>

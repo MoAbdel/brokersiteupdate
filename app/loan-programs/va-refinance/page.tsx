@@ -97,14 +97,14 @@ export default function VALoansPage() {
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-600 font-medium">Total Available:</span>
-                <span className="font-bold text-red-600">$1,266,300+</span>
+                <span className="font-bold text-red-600">$1,209,750+</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-600 font-medium text-left">No Limit if 25% Down:</span>
                 <span className="font-bold text-blue-600">Unlimited*</span>
               </div>
             </div>
-            <p className="text-xs text-slate-500 mt-6">*Above $1,266,300, you'll need 25% of the difference as down payment</p>
+            <p className="text-xs text-slate-500 mt-6">*Above $1,209,750, you'll need 25% of the difference as down payment</p>
           </div>
         </div>
 
@@ -446,8 +446,8 @@ export default function VALoansPage() {
                 <tr>
                   <td className="px-6 py-4 text-sm text-slate-900 font-medium">Loan Limits</td>
                   <td className="px-6 py-4 text-center text-blue-600 font-bold">No limit with 25% down</td>
-                  <td className="px-6 py-4 text-center text-slate-600">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-blue-600">$766,550+</td>
+                  <td className="px-6 py-4 text-center text-slate-600">$1,209,750</td>
+                  <td className="px-6 py-4 text-center text-blue-600">$1,209,750</td>
                 </tr>
               </tbody>
             </table>

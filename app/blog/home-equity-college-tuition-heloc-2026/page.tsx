@@ -533,7 +533,7 @@ export default function HomeEquityCollegeTuitionPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">Should I use a HELOC or 529 plan savings for college?</h3>
-              <p>Use 529 plan savings first. Withdrawals from 529 plans for qualified education expenses are completely tax-free at the federal level and in most states. There is no interest cost because you are spending saved money, not borrowing. A HELOC should supplement 529 savings when the 529 falls short, not replace it. The optimal strategy is: 529 savings first, then federal student loans in the child&apos;s name, then HELOC or PLUS for the remaining gap.</p>
+              <p>Use 529 plan savings first. Withdrawals from 529 plans for qualified education expenses are generally not subject to federal income tax and are exempt in most states (consult your tax advisor for details). There is no interest cost because you are spending saved money, not borrowing. A HELOC should supplement 529 savings when the 529 falls short, not replace it. The optimal strategy is: 529 savings first, then federal student loans in the child&apos;s name, then HELOC or PLUS for the remaining gap.</p>
             </div>
           </div>
 
@@ -556,7 +556,7 @@ export default function HomeEquityCollegeTuitionPage() {
           </p>
 
           <ol className="list-decimal pl-6 space-y-3">
-            <li><strong>529 plan savings and scholarships:</strong> Free money and tax-free growth come first. Apply to every scholarship your student qualifies for.</li>
+            <li><strong>529 plan savings and scholarships:</strong> Free money and tax-advantaged growth come first. Apply to every scholarship your student qualifies for.</li>
             <li><strong>Federal Direct Subsidized Loans (student):</strong> At 6.53%, the government pays interest while the student is enrolled. Maximum $3,500-$5,500/year depending on year in school.</li>
             <li><strong>Federal Direct Unsubsidized Loans (student):</strong> Same rate, interest accrues during school. Maximum $2,000-$7,000/year additional.</li>
             <li><strong>HELOC for the funding gap:</strong> At 6.5-8.5%, this is the most cost-effective parent borrowing option. Draw each semester as needed to minimize interest costs during college.</li>

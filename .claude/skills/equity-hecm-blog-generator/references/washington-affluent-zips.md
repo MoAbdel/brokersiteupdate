@@ -125,9 +125,9 @@ Snohomish and South King counties
 - Wholesale brokers know which lenders work
 
 ### Jumbo Loan Limits (2026)
-- King County: $1,149,825 (high-cost)
-- Snohomish County: $1,149,825 (high-cost)
-- Pierce County: $766,550 (standard)
+- King County: $1,209,750 (high-cost)
+- Snohomish County: $1,209,750 (high-cost)
+- Pierce County: $806,500 (standard)
 
 ### Common Borrower Profiles
 

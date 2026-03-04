@@ -139,55 +139,58 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-800 mt-6 pt-6">
-          {/* Collapsed disclosures to keep footer compact */}
-          <details className="max-w-6xl mx-auto mb-6">
-            <summary className="cursor-pointer select-none text-sm font-semibold text-slate-200 hover:text-white transition-colors">
-              Disclosures & Licensing
-            </summary>
-            <div className="mt-4 space-y-5 text-slate-300 text-xs leading-relaxed">
-              <div>
-                <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
-                <p>
-                  Lumin Lending is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that
-                  discriminate based on race, color, religion, national origin, sex, marital status, age (provided you have the capacity
-                  to enter into a binding contract) because all or part of your income may be derived from any public assistance program,
-                  or because you have, in good faith, exercised any right under the Consumer Credit Protection Act.
-                </p>
-              </div>
+          {/* Disclosures & Licensing - always visible for CFPB compliance */}
+          <div className="max-w-6xl mx-auto mb-6 space-y-5 text-slate-300 text-xs leading-relaxed">
+            <p className="text-sm font-semibold text-slate-200">Disclosures & Licensing</p>
 
-              <div>
-                <p>
-                  Information accurate as of 12/20/2025. Not all programs are available in all areas. Not all borrowers will qualify for
-                  all programs. Program restrictions apply. Please contact Lumin Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612
-                  to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are
-                  subject to the specific lender&apos;s underwriting guidelines and available loan products. Approvals may be subject to
-                  appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other
-                  information on this website are subject to change without notice. The Loan Origination team accepts applications in the
-                  following states only: CA, WA. The information on this site is not intended for consumers of any other state. To
-                  determine broker or loan origination eligibility please visit:{' '}
-                  <a
-                    href="https://www.nmlsconsumeraccess.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-300 hover:text-slate-200 underline"
-                  >
-                    NMLS Consumer Access
-                  </a>
-                  .
-                </p>
-              </div>
+            <p className="text-slate-300 font-medium">
+              This is not a commitment to lend. Not all borrowers will qualify. Terms and conditions apply.
+              Subject to credit approval. Equal Housing Lender.
+            </p>
 
-              <div className="text-center pt-4 border-t border-slate-800 flex flex-col items-center gap-1">
-                <p className="text-white font-bold text-sm">Mo Abdel NMLS #1426884</p>
-                <div className="text-slate-200">
-                  <span>Lumin Lending, Inc. NMLS #2716106</span>
-                  <span className="mx-2">|</span>
-                  <span>DRE #02291443</span>
-                </div>
-                <p className="text-slate-400 text-[10px]">18301 Von Karman Ave Suite 820, Irvine, CA 92612</p>
-              </div>
+            <div>
+              <p className="text-white font-semibold mb-2">EQUAL HOUSING LENDER</p>
+              <p>
+                Lumin Lending is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that
+                discriminate based on race, color, religion, national origin, sex, marital status, age (provided you have the capacity
+                to enter into a binding contract) because all or part of your income may be derived from any public assistance program,
+                or because you have, in good faith, exercised any right under the Consumer Credit Protection Act.
+              </p>
             </div>
-          </details>
+
+            <div>
+              <p>
+                Information accurate as of 02/17/2026. Not all programs are available in all areas. Not all borrowers will qualify for
+                all programs. Program restrictions apply. Please contact Lumin Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612
+                to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are
+                subject to the specific lender&apos;s underwriting guidelines and available loan products. Approvals may be subject to
+                appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other
+                information on this website are subject to change without notice. The Loan Origination team accepts applications in the
+                following states only: CA, WA. The information on this site is not intended for consumers of any other state. To
+                determine broker or loan origination eligibility please visit:{' '}
+                <a
+                  href="https://www.nmlsconsumeraccess.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-300 hover:text-slate-200 underline"
+                >
+                  NMLS Consumer Access
+                </a>
+                .
+              </p>
+            </div>
+
+            <div className="text-center pt-4 border-t border-slate-800 flex flex-col items-center gap-1">
+              <p className="text-white font-bold text-sm">Mo Abdel NMLS #1426884</p>
+              <div className="text-slate-200">
+                <span>Lumin Lending, Inc. NMLS #2716106</span>
+                <span className="mx-2">|</span>
+                <span>DRE #02291443</span>
+              </div>
+              <p className="text-slate-400 text-[10px]">Licensed in CA and WA only</p>
+              <p className="text-slate-400 text-[10px]">18301 Von Karman Ave Suite 820, Irvine, CA 92612</p>
+            </div>
+          </div>
 
           {/* Legal Links */}
           <div className="text-center mb-4">

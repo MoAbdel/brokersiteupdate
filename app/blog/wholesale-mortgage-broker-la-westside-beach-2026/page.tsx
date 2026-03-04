@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
         name: 'What is a wholesale mortgage broker and how does it benefit LA Westside homebuyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 50+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.',
+          text: 'A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 200+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.',
         },
       },
       {
@@ -197,6 +197,12 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -207,7 +213,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">LA Westside &amp; Beach Cities Wholesale Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
-              <li><strong>Wholesale Lender Access:</strong> 50+ lenders for rate comparison</li>
+              <li><strong>Wholesale Lender Access:</strong> 200+ lenders for rate comparison</li>
               <li><strong>Typical Rate Savings:</strong> 0.25% - 0.50% below retail bank pricing</li>
               <li><strong>Jumbo Loan Specialists:</strong> 10-15+ jumbo lenders for Beach Cities properties</li>
               <li><strong>Alternative Documentation:</strong> Bank statement, 1099, asset depletion programs</li>
@@ -399,7 +405,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
                   <td className="px-4 py-3 border-t font-medium">W-2 Salary</td>
                   <td className="px-4 py-3 border-t">Aerospace engineers, corporate</td>
                   <td className="px-4 py-3 border-t">Standard qualification</td>
-                  <td className="px-4 py-3 border-t">Rate competition across 50+ lenders</td>
+                  <td className="px-4 py-3 border-t">Rate competition across 200+ lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Variable W-2 + Bonus</td>
@@ -459,7 +465,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           <h2 className="text-2xl font-bold mt-10 mb-4">Jumbo Mortgage Expertise: Why Beach Cities Properties Demand Wholesale Access</h2>
 
           <p>
-            The 2026 conforming loan limit in Los Angeles County is $1,149,825 for a single-family home. Every property in Manhattan Beach, most properties in Hermosa Beach, and a significant percentage of Redondo Beach, Culver City, El Segundo, and Playa del Rey properties exceed this threshold. When your loan amount surpasses the conforming limit, you enter jumbo territory—and that is where wholesale broker access becomes most valuable.
+            The 2026 conforming loan limit in Los Angeles County is $1,209,750 for a single-family home. Every property in Manhattan Beach, most properties in Hermosa Beach, and a significant percentage of Redondo Beach, Culver City, El Segundo, and Playa del Rey properties exceed this threshold. When your loan amount surpasses the conforming limit, you enter jumbo territory—and that is where wholesale broker access becomes most valuable.
           </p>
 
           <p>
@@ -607,7 +613,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
 
           <h3 className="text-lg font-semibold mt-6 mb-2">What is a wholesale mortgage broker and how does it benefit LA Westside homebuyers?</h3>
           <p>
-            A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 50+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.
+            A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 200+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">How much money can a wholesale broker save on a Manhattan Beach jumbo mortgage?</h3>
@@ -683,7 +689,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           </p>
 
           <p>
-            I am Mo Abdel, NMLS #1426884, a wholesale mortgage broker with Lumin Lending (NMLS #2716106). My wholesale access means you see pricing from 50+ lenders on every transaction, with transparent comparisons and expert guidance on which option delivers the best long-term value. Whether you are purchasing a $4 million Manhattan Beach estate or refinancing a $1.1 million Westchester bungalow, the wholesale channel saves you money.
+            I am Mo Abdel, NMLS #1426884, a wholesale mortgage broker with Lumin Lending (NMLS #2716106). My wholesale access means you see pricing from 200+ lenders on every transaction, with transparent comparisons and expert guidance on which option delivers the best long-term value. Whether you are purchasing a $4 million Manhattan Beach estate or refinancing a $1.1 million Westchester bungalow, the wholesale channel saves you money.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">

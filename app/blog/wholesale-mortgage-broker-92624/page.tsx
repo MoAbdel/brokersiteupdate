@@ -81,7 +81,7 @@ export default function WholesaleMortgageBroker92624Page() {
                 "name": "What is the jumbo loan limit for Capistrano Beach in 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The 2026 conforming loan limit is $1,149,825 for Orange County. With Capistrano Beach median home prices around $1.8M, most purchases require jumbo loans exceeding this limit."
+                  "text": "The 2026 conforming loan limit is $1,209,750 for Orange County. With Capistrano Beach median home prices around $1.8M, most purchases require jumbo loans exceeding this limit."
                 }
               },
               {
@@ -152,14 +152,14 @@ export default function WholesaleMortgageBroker92624Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.8M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$900K - $8M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">30-45 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo</td></tr>
             </tbody>
           </table>
         </div>
 
         <p>
-          Capistrano Beach&apos;s compact size and limited inventory create a competitive market where desirable properties move quickly. The gap between the conforming loan limit ($1,149,825) and median prices ($1.8M) means nearly every purchase requires jumbo financing expertise that wholesale brokers provide.
+          Capistrano Beach&apos;s compact size and limited inventory create a competitive market where desirable properties move quickly. The gap between the conforming loan limit ($1,209,750) and median prices ($1.8M) means nearly every purchase requires jumbo financing expertise that wholesale brokers provide.
         </p>
 
         <h3>The Capistrano Beach Buyer Profile</h3>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92624Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $5M+</li>
+          <li>Loan amounts from $1,209,750 to $5M+</li>
           <li>Access to 50+ jumbo lenders (vs. one product at banks)</li>
           <li>10-20% down payment options depending on loan amount</li>
           <li>Primary residence, second home, and investment properties</li>
@@ -259,7 +259,7 @@ export default function WholesaleMortgageBroker92624Page() {
 
         <h3>What is the jumbo loan limit for Capistrano Beach in 2026?</h3>
         <p>
-          The 2026 conforming loan limit is $1,149,825 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Capistrano Beach&apos;s $1.8M median price, most purchases require jumbo financing—making wholesale broker access essential.
+          The 2026 conforming loan limit is $1,209,750 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Capistrano Beach&apos;s $1.8M median price, most purchases require jumbo financing—making wholesale broker access essential.
         </p>
 
         <h3>How long does closing take with a 92624 wholesale broker?</h3>

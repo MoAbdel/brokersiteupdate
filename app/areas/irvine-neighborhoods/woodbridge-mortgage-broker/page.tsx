@@ -70,7 +70,7 @@ export default function WoodbridgeMortgageBrokerPage() {
           },
           {
             question: "Do Woodbridge homes require jumbo loans?",
-            answer: "75% of Woodbridge homes exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo loan financing. Lakefront properties almost always need jumbo loans."
+            answer: "75% of Woodbridge homes exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. Lakefront properties almost always need jumbo loans."
           },
           {
             question: "What loan programs work best for Woodbridge?",

@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: 'Do VA loans work for Orange County\'s high home prices?',
-    answer: 'Absolutely! With the 2026 limit of $1,249,125, most Orange County homes qualify for zero down VA financing. For homes above this amount, you\'d put 25% down only on the excess amount, still saving significantly on the total down payment.',
+    answer: 'Absolutely! With the 2026 limit of $1,209,750, most Orange County homes qualify for zero down VA financing. For homes above this amount, you\'d put 25% down only on the excess amount, still saving significantly on the total down payment.',
   },
   {
     question: 'How long does VA loan approval take in Orange County?',
@@ -74,7 +74,7 @@ const howToSchema = buildHowToSchema({
   steps: [
     { name: 'Get Your Certificate of Eligibility', text: 'Obtain your COE from VA.gov online portal or let Mo handle the process for you quickly' },
     { name: 'Get Pre-Approved', text: 'Contact Mo for VA loan pre-approval with competitive pricing and quick turnaround' },
-    { name: 'Find Your Orange County Home', text: 'Shop for homes up to $1,249,125 with confidence knowing your financing is secure' },
+    { name: 'Find Your Orange County Home', text: 'Shop for homes up to $1,209,750 with confidence knowing your financing is secure' },
     { name: 'Close & Move In', text: 'Complete VA appraisal and inspection requirements, then close on your new home' },
   ],
 });
@@ -136,11 +136,11 @@ export default function VALoansOrangeCountyPage() {
           <h2 className="text-3xl font-bold text-center mb-8">What Are the 2026 VA Loan Limits in Orange County?</h2>
           <div className="bg-white rounded-lg shadow-lg p-8">
             <p className="text-lg text-slate-700 mb-6 text-center" data-speakable="true">
-              The 2026 VA conforming loan limit for Orange County is $1,249,125, allowing eligible veterans to purchase with zero down payment up to that amount.
+              The 2026 VA conforming loan limit for Orange County is $1,209,750, allowing eligible veterans to purchase with zero down payment up to that amount.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">$1,249,125</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">$1,209,750</div>
                 <div className="text-slate-600">2026 Conforming Loan Limit</div>
                 <div className="text-sm text-slate-500 mt-1">Standard VA loan amount</div>
               </div>
@@ -151,15 +151,15 @@ export default function VALoansOrangeCountyPage() {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600 mb-2">No Limit</div>
-                <div className="text-slate-600">Above $1,249,125*</div>
+                <div className="text-slate-600">Above $1,209,750*</div>
                 <div className="text-sm text-slate-500 mt-1">*25% down on excess amount</div>
               </div>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="font-bold text-slate-900 mb-3">Orange County VA Loan Benefits 2026:</h3>
               <ul className="space-y-2 text-slate-700">
-                <li>• VA loans can exceed $1,249,125 with 25% down on the excess amount</li>
-                <li>• Full entitlement allows up to $1,249,125 with zero down payment</li>
+                <li>• VA loans can exceed $1,209,750 with 25% down on the excess amount</li>
+                <li>• Full entitlement allows up to $1,209,750 with zero down payment</li>
                 <li>• No mortgage insurance (PMI) required regardless of loan amount</li>
                 <li>• Competitive loan pricing, typically lower than conventional loans</li>
                 <li>• No prepayment penalties - pay off your loan early without fees</li>
@@ -180,7 +180,7 @@ export default function VALoansOrangeCountyPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Purchase homes up to $1,249,125 in Orange County with $0 down payment,
+                  Purchase homes up to $1,209,750 in Orange County with $0 down payment,
                   making homeownership immediately accessible without years of saving.
                 </p>
               </CardContent>
@@ -300,7 +300,7 @@ export default function VALoansOrangeCountyPage() {
               <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Max VA Loan Amount:</span>
-                  <span className="font-bold text-blue-600">$1,249,125</span>
+                  <span className="font-bold text-blue-600">$1,209,750</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">Down Payment:</span>
@@ -342,9 +342,9 @@ export default function VALoansOrangeCountyPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Orange County 2026 Limit</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,125</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,266,300</td>
-                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,249,125</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,209,750</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,209,750</td>
+                  <td className="px-6 py-4 text-center text-blue-600 font-bold">$1,209,750</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 font-semibold">Minimum Down Payment</td>
@@ -417,7 +417,7 @@ export default function VALoansOrangeCountyPage() {
                 <CardTitle>Find Your Orange County Home</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-600">Shop for homes up to $1,249,125 with confidence knowing your financing is secure</p>
+                <p className="text-slate-600">Shop for homes up to $1,209,750 with confidence knowing your financing is secure</p>
               </CardContent>
             </Card>
 
@@ -446,7 +446,7 @@ export default function VALoansOrangeCountyPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600 mb-4">
-                  Buy your primary residence in Orange County with zero down payment up to $1,249,125.
+                  Buy your primary residence in Orange County with zero down payment up to $1,209,750.
                   Perfect for first-time homebuyers and military families.
                 </p>
                 <ul className="space-y-2 text-sm text-slate-600">
@@ -543,7 +543,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 text-sm text-center">
-                    Financing above $1,249,125 for luxury Orange County homes
+                    Financing above $1,209,750 for luxury Orange County homes
                   </p>
                 </CardContent>
               </Card>

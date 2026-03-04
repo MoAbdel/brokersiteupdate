@@ -250,7 +250,7 @@ export default function OrangeCountyFHALoansPage() {
                 <CardContent>
                   <div className="bg-slate-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,266,300</h3>
+                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,209,750</h3>
                       <p className="text-blue-600">Maximum FHA Loan Amount in Orange County (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">High-cost area designation allows for higher loan limits</p>
                     </div>
@@ -258,7 +258,7 @@ export default function OrangeCountyFHALoansPage() {
                   
                   <div className="prose prose-lg max-w-none text-slate-700">
                     <p className="mb-4">
-                      Orange County is designated as a high-cost area by HUD, which means FHA loan limits are significantly higher than the national baseline. This allows you to purchase homes up to $1,266,300 with just 3.5% down payment.
+                      Orange County is designated as a high-cost area by HUD, which means FHA loan limits are significantly higher than the national baseline. This allows you to purchase homes up to $1,209,750 with just 3.5% down payment.
                     </p>
                     <p className="mb-4">
                       <strong>Key Facts for Orange County FHA Loans:</strong>
@@ -376,7 +376,7 @@ export default function OrangeCountyFHALoansPage() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Max OC Loan Amount:</span>
-                      <span className="font-semibold">$1,266,300</span>
+                      <span className="font-semibold">$1,209,750</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Mortgage Insurance:</span>

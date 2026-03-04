@@ -40,7 +40,7 @@ const webPageSchema = buildServiceWebPageSchema({
 });
 
 const faqSchema = buildFAQPageSchema([
-  { question: 'What is the jumbo loan threshold in Orange County for 2026?', answer: 'Loans above $1,249,125 are considered jumbo in Orange County for 2026. Approximately 60-70% of Orange County home purchases require jumbo financing due to the high-cost housing market.' },
+  { question: 'What is the jumbo loan threshold in Orange County for 2026?', answer: 'Loans above $1,209,750 are considered jumbo in Orange County for 2026. Approximately 60-70% of Orange County home purchases require jumbo financing due to the high-cost housing market.' },
   { question: 'What credit score do I need for a jumbo loan in Orange County?', answer: 'Conventional jumbo loans require 740+ for the best pricing. Bank statement jumbo loans accept 700+, asset depletion jumbo requires 720+, and interest-only jumbo needs 760+. Higher scores unlock better rates and terms.' },
   { question: 'Which Orange County areas require jumbo loans?', answer: 'Newport Coast (95% of purchases), Balboa Island (90%), Laguna Beach (85%), Corona del Mar (80%), Turtle Rock in Irvine (70%), and Coto de Caza (65%) are the primary areas requiring jumbo financing.' },
 ], PAGE_URL);
@@ -100,7 +100,7 @@ export default function OrangeCountyJumboLoansGuide() {
   const jumboLoanFeatures = [
     {
       feature: "Higher Loan Limits",
-      description: "Loans above $1,266,300 for Orange County's luxury market",
+      description: "Loans above $1,209,750 for Orange County's luxury market",
       benefit: "Access to premium properties"
     },
     {
@@ -156,7 +156,7 @@ export default function OrangeCountyJumboLoansGuide() {
       maxLTV: "75%",
       creditScore: "720+",
       features: ["Asset-based qualification", "No income verification", "High net worth focus"],
-      bestFor: "Retirees and high-asset individuals"
+      bestFor: "Borrowers with substantial liquid assets"
     },
     {
       type: "Interest-Only Jumbo",
@@ -287,7 +287,7 @@ export default function OrangeCountyJumboLoansGuide() {
             <div className="bg-white border border-slate-200 rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Conforming Loan Limit</h3>
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">$1,249,125</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">$1,209,750</div>
                 <p className="text-slate-600 mb-4">2026 conforming limit for Orange County</p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                   <p className="text-sm text-blue-700">

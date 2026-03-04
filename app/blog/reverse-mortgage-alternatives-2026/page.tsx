@@ -139,6 +139,12 @@ export default function ReverseMortgageAlternatives2026() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-900 text-white py-16 lg:py-24">
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-emerald-500/20 rounded-full px-4 py-1.5 mb-6 border border-emerald-500/30">
@@ -195,7 +201,7 @@ export default function ReverseMortgageAlternatives2026() {
             Why a Reverse Mortgage Is Not Always the Right Choice
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            A HECM reverse mortgage is a powerful tool for the right borrower &mdash; a homeowner 62 or older who plans to age in place, wants to eliminate mortgage payments, and understands the compounding interest structure. But based on Mo Abdel&apos;s experience working with hundreds of California and Washington seniors, roughly 30-40% of homeowners who initially inquire about reverse mortgages ultimately choose an alternative product after reviewing the full picture.
+            A HECM reverse mortgage is a powerful tool for the right borrower &mdash; a homeowner 62 or older who plans to age in place, wants to replace your current mortgage payment with no required monthly principal and interest payments (you must continue to pay property taxes, homeowners insurance, and maintain the home), and understands the compounding interest structure. But based on Mo Abdel&apos;s experience working with hundreds of California and Washington seniors, roughly 30-40% of homeowners who initially inquire about reverse mortgages ultimately choose an alternative product after reviewing the full picture.
           </p>
           <p className="text-lg text-slate-600 mb-6">
             The most common reasons seniors choose alternatives over HECMs include:

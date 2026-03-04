@@ -54,7 +54,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
                 "name": "Why do Yorba Linda homebuyers need jumbo loan expertise?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yorba Linda's median home price exceeds $1.2 million, meaning most purchases require jumbo financing (loans above $1,149,825 in 2026). A wholesale broker has access to 20+ jumbo lenders with varying guidelines, allowing them to find competitive rates for Yorba Linda's higher-value properties."
+                  "text": "Yorba Linda's median home price exceeds $1.2 million, meaning most purchases require jumbo financing (loans above $1,209,750 in 2026). A wholesale broker has access to 20+ jumbo lenders with varying guidelines, allowing them to find competitive rates for Yorba Linda's higher-value properties."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
 
         <h3>The Jumbo Loan Challenge</h3>
         <p>
-          Yorba Linda's high home values mean most buyers need jumbo loans (above $1,149,825 in 2026). Banks typically offer one jumbo product with rigid guidelines. Wholesale brokers access:
+          Yorba Linda's high home values mean most buyers need jumbo loans (above $1,209,750 in 2026). Banks typically offer one jumbo product with rigid guidelines. Wholesale brokers access:
         </p>
         <ul>
           <li><strong>20+ jumbo lenders</strong> with varying guidelines</li>
@@ -167,7 +167,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
           The most important program for Yorba Linda:
         </p>
         <ul>
-          <li>Loans above $1,149,825</li>
+          <li>Loans above $1,209,750</li>
           <li>Access to 20+ jumbo lenders</li>
           <li>Competitive rates for qualified borrowers</li>
           <li>10-20% down payment typical</li>
@@ -190,7 +190,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
           For homes near the conforming limit:
         </p>
         <ul>
-          <li>Up to $1,149,825 (2026 limit)</li>
+          <li>Up to $1,209,750 (2026 limit)</li>
           <li>Better rates than jumbo</li>
           <li>More flexible qualification</li>
           <li>Lower down payment options</li>

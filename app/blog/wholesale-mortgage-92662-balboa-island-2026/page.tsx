@@ -49,7 +49,7 @@ export default function WholesaleMortgage92662BalboaIslandPage() {
                 "name": "What is the typical loan amount for Balboa Island 92662 homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Balboa Island 92662 has a median home price of $4.0M, requiring jumbo loans significantly above the $1,149,825 conforming limit. Typical loans range from $2M to $5M+."
+                  "text": "Balboa Island 92662 has a median home price of $4.0M, requiring jumbo loans significantly above the $1,209,750 conforming limit. Typical loans range from $2M to $5M+."
                 }
               },
               {
@@ -136,7 +136,7 @@ export default function WholesaleMortgage92662BalboaIslandPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$4.0M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.8M - $12M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo / Second Home</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Amount</td><td className="py-2 px-4 font-semibold">$2M - $5M+</td></tr>
             </tbody>
@@ -160,7 +160,7 @@ export default function WholesaleMortgage92662BalboaIslandPage() {
 
         <h3>Primary Residence Jumbo Loans</h3>
         <ul>
-          <li>Loans from $1,149,825 to $10M+</li>
+          <li>Loans from $1,209,750 to $10M+</li>
           <li>20-25% down payment typical</li>
           <li>Fixed-rate and ARM options</li>
           <li>Interest-only available for qualified borrowers</li>
@@ -240,7 +240,7 @@ export default function WholesaleMortgage92662BalboaIslandPage() {
 
         <h3>What is the typical loan amount for Balboa Island 92662 homes?</h3>
         <p>
-          Balboa Island 92662 has a median home price of $4.0M, requiring jumbo loans significantly above the $1,149,825 conforming limit. Typical loans range from $2M to $5M+, with waterfront properties often requiring larger financing.
+          Balboa Island 92662 has a median home price of $4.0M, requiring jumbo loans significantly above the $1,209,750 conforming limit. Typical loans range from $2M to $5M+, with waterfront properties often requiring larger financing.
         </p>
 
         <h3>Can I finance a Balboa Island second home through a wholesale broker?</h3>

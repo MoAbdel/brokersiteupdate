@@ -38,7 +38,7 @@ export default function ReverseMortgageCalabasasPage() {
               { "@type": "Question", "name": "Can I get a reverse mortgage in Calabasas?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Calabasas homeowners 62+ can qualify for reverse mortgages. With median values around $2.2 million, most Calabasas properties exceed HECM limits and benefit from proprietary (jumbo) reverse mortgage programs." }},
               { "@type": "Question", "name": "How do reverse mortgages work for The Oaks properties?", "acceptedAnswer": { "@type": "Answer", "text": "The Oaks of Calabasas homes qualify for reverse mortgages. This gated community's estate properties typically use proprietary programs due to values ranging from $3M to $10M+. Guard-gated access doesn't affect eligibility." }},
               { "@type": "Question", "name": "What about Calabasas Hills homes?", "acceptedAnswer": { "@type": "Answer", "text": "Calabasas Hills properties qualify for reverse mortgages. With values typically from $1.5M to $3M, these homes may use either HECM (up to limit) or proprietary programs depending on specific property value." }},
-              { "@type": "Question", "name": "How much can Calabasas seniors access?", "acceptedAnswer": { "@type": "Answer", "text": "With median values around $2.2 million and many estates worth $5M+, qualified Calabasas seniors can access substantial equity through proprietary programs. Standard HECM is limited to $1,149,825 basis." }},
+              { "@type": "Question", "name": "How much can Calabasas seniors access?", "acceptedAnswer": { "@type": "Answer", "text": "With median values around $2.2 million and many estates worth $5M+, qualified Calabasas seniors can access substantial equity through proprietary programs. Standard HECM is limited to $1,209,750 basis." }},
               { "@type": "Question", "name": "Do gated community homes qualify for reverse mortgages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, gated communities like The Oaks, Calabasas Park Estates, and Mountain View Estates all qualify for reverse mortgages. Security gates and guard access don't affect eligibility, though appraisal access may need coordination." }}
             ]
           })
@@ -49,6 +49,12 @@ export default function ReverseMortgageCalabasasPage() {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage in Calabasas, CA: HECM Guide for Seniors [2026]</h1>
         <p className="text-lg text-gray-600">Accessing equity in Los Angeles County's premier gated communities</p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">

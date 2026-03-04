@@ -86,9 +86,9 @@ export default function ProcessTimeline() {
     "totalTime": "P21D",
     "step": [
       { "@type": "HowToStep", "position": 1, "name": "Submit Application", "text": "Complete a quick mortgage application — no upfront credit check required. Takes about 10-15 minutes." },
-      { "@type": "HowToStep", "position": 2, "name": "Lender Shopping", "text": "We compare your profile across 50+ wholesale lenders to find the best rates and terms for your situation." },
+      { "@type": "HowToStep", "position": 2, "name": "Lender Shopping", "text": "We compare your profile across 50+ wholesale lenders to find competitive rates and terms for your situation." },
       { "@type": "HowToStep", "position": 3, "name": "Compare Options", "text": "Review side-by-side loan options with transparent rates, terms, and closing costs — no hidden fees." },
-      { "@type": "HowToStep", "position": 4, "name": "Lock Your Rate", "text": "Secure your interest rate with a rate lock guarantee, protecting you from market fluctuations." },
+      { "@type": "HowToStep", "position": 4, "name": "Lock Your Rate", "text": "Secure your interest rate with a rate lock, protecting you from market fluctuations during processing." },
       { "@type": "HowToStep", "position": 5, "name": "Close Your Loan", "text": "Final document signing and funding — typical closing in 15-21 days from application." }
     ]
   };

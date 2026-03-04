@@ -81,7 +81,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
                 "name": "What is the reverse mortgage limit in San Diego County for 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The FHA HECM lending limit for San Diego County in 2026 is $1,149,825. Homeowners with properties valued above this amount can access proprietary (jumbo) reverse mortgage programs with limits reaching $4 million or higher."
+                  "text": "The FHA HECM lending limit for San Diego County in 2026 is $1,209,750. Homeowners with properties valued above this amount can access proprietary (jumbo) reverse mortgage programs with limits reaching $4 million or higher."
                 }
               },
               {
@@ -121,7 +121,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
                 "name": "What is the difference between HECM and proprietary reverse mortgages in San Diego?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,149,825. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher. Most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, and La Jolla benefit from proprietary programs due to high property values."
+                  "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher. Most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, and La Jolla benefit from proprietary programs due to high property values."
                 }
               },
               {
@@ -256,13 +256,25 @@ export default function ReverseMortgageSanDiegoGuidePage() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: San Diego Reverse Mortgage Demand</p>
           <p className="text-gray-800 mb-0">
-            San Diego County homeowners aged 62 and older hold an estimated <strong>$178 billion in aggregate home equity</strong> across the region, according to 2025 CoreLogic data. With median home prices in premium communities like Rancho Santa Fe ($4.5 million), Del Mar ($3.8 million), and La Jolla ($2.5 million) significantly exceeding the 2026 FHA HECM limit of $1,149,825, proprietary reverse mortgage programs have become the primary tool for San Diego seniors seeking to convert housing wealth into retirement income. Approximately <strong>68% of San Diego County seniors own their homes</strong>, and an estimated 42% have no remaining mortgage balance, making the region one of the most concentrated markets for reverse mortgage eligibility in California.
+            San Diego County homeowners aged 62 and older hold an estimated <strong>$178 billion in aggregate home equity</strong> across the region, according to 2025 CoreLogic data. With median home prices in premium communities like Rancho Santa Fe ($4.5 million), Del Mar ($3.8 million), and La Jolla ($2.5 million) significantly exceeding the 2026 FHA HECM limit of $1,209,750, proprietary reverse mortgage programs have become the primary tool for San Diego seniors seeking to convert housing wealth into retirement income. Approximately <strong>68% of San Diego County seniors own their homes</strong>, and an estimated 42% have no remaining mortgage balance, making the region one of the most concentrated markets for reverse mortgage eligibility in California.
           </p>
         </div>
 
@@ -368,7 +380,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border-b font-medium">Maximum Loan Amount</td>
-                <td className="py-3 px-4 border-b">$1,149,825 (2026 limit)</td>
+                <td className="py-3 px-4 border-b">$1,209,750 (2026 limit)</td>
                 <td className="py-3 px-4 border-b">$4,000,000+</td>
               </tr>
               <tr>
@@ -536,7 +548,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
           Carlsbad offers a unique combination of resort-style living, biotech employment, and family-friendly communities. With a median home value of approximately $1.3 million, Carlsbad includes diverse neighborhoods from the charming Carlsbad Village to the upscale communities of La Costa and Aviara. The city is also home to major employers like Viasat, ThermoFisher Scientific, and the Legoland California Resort.
         </p>
         <p>
-          Carlsbad&apos;s position in the home value spectrum is noteworthy for reverse mortgage planning: many properties fall close to or just above the $1,149,825 HECM limit. This means some Carlsbad seniors can use the HECM program (with its lower costs and FHA insurance), while others in premium neighborhoods benefit from proprietary programs. A 72-year-old Carlsbad homeowner with a $1.3 million property and no existing mortgage could access approximately $520,000 to $750,000, depending on the program selected and current interest rates.
+          Carlsbad&apos;s position in the home value spectrum is noteworthy for reverse mortgage planning: many properties fall close to or just above the $1,209,750 HECM limit. This means some Carlsbad seniors can use the HECM program (with its lower costs and FHA insurance), while others in premium neighborhoods benefit from proprietary programs. A 72-year-old Carlsbad homeowner with a $1.3 million property and no existing mortgage could access approximately $520,000 to $750,000, depending on the program selected and current interest rates.
         </p>
 
         <h3>Poway: The City in the Country</h3>
@@ -592,7 +604,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>What is the reverse mortgage limit in San Diego County for 2026?</h3>
         <p>
-          The FHA HECM lending limit for San Diego County in 2026 is $1,149,825. Homeowners with properties valued above this amount can access proprietary (jumbo) reverse mortgage programs with limits reaching $4 million or higher. In premium San Diego communities like Rancho Santa Fe, Del Mar, and La Jolla, proprietary programs are the primary option because property values significantly exceed the HECM ceiling.
+          The FHA HECM lending limit for San Diego County in 2026 is $1,209,750. Homeowners with properties valued above this amount can access proprietary (jumbo) reverse mortgage programs with limits reaching $4 million or higher. In premium San Diego communities like Rancho Santa Fe, Del Mar, and La Jolla, proprietary programs are the primary option because property values significantly exceed the HECM ceiling.
         </p>
 
         <h3>Can I get a reverse mortgage on a Del Mar oceanfront home?</h3>
@@ -617,7 +629,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>What is the difference between HECM and proprietary reverse mortgages in San Diego?</h3>
         <p>
-          HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,149,825, includes mandatory mortgage insurance premiums, and requires HUD counseling. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher, do not require FHA insurance, and offer different fee structures. For San Diego&apos;s luxury markets, proprietary programs provide access to significantly more equity but may have higher interest rates.
+          HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750, includes mandatory mortgage insurance premiums, and requires HUD counseling. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher, do not require FHA insurance, and offer different fee structures. For San Diego&apos;s luxury markets, proprietary programs provide access to significantly more equity but may have higher interest rates.
         </p>
 
         <h3>Can La Jolla condo owners get reverse mortgages?</h3>
@@ -667,7 +679,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             San Diego County offers one of the strongest reverse mortgage markets in California. With median home values ranging from $1.1 million in Poway to $4.5 million in Rancho Santa Fe, seniors 62 and older have access to substantial equity through both HECM and proprietary programs. The region&apos;s economic diversity&mdash;anchored by biotech, military, and tourism&mdash;supports stable property values that protect reverse mortgage borrowers over time.
           </p>
           <p className="text-gray-800">
-            For most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,149,825 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
+            For most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,209,750 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
           </p>
           <p className="text-gray-800 mb-0">
             HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your San Diego reverse mortgage options.

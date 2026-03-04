@@ -52,7 +52,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       description: "Traditional mortgages with Competitive pricing",
       downPayment: "3-20%",
       creditScore: "620+",
-      maxAmount: "$1,266,300 (conforming)",
+      maxAmount: "$1,209,750 (conforming)",
       benefits: ["Lower pricing for good credit", "No mortgage insurance with 20% down", "Flexible terms"],
       icon: Home
     },
@@ -61,7 +61,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       description: "Government-backed loans for first-time buyers",
       downPayment: "3.5%",
       creditScore: "580+",
-      maxAmount: "$1,266,300",
+      maxAmount: "$1,209,750",
       benefits: ["Low down payment", "Flexible credit requirements", "Assumable loans"],
       icon: Users
     },
@@ -160,7 +160,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
   const marketInsights = [
     {
       metric: "Conforming Loan Limit",
-      value: "$1,266,300",
+      value: "$1,209,750",
       description: "2026 Orange County conforming loan limit (high-cost area)"
     },
     {

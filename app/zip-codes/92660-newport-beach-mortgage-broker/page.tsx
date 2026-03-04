@@ -70,7 +70,7 @@ export default function ZipCode92660MortgageBrokerPage() {
           },
           {
             question: "Do most homes in 92660 require jumbo loans?",
-            answer: "98% of homes in ZIP code 92660 exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo or super jumbo loan financing. Many properties require specialized luxury financing programs."
+            answer: "98% of homes in ZIP code 92660 exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo or super jumbo loan financing. Many properties require specialized luxury financing programs."
           },
           {
             question: "What makes 92660 a desirable ZIP code?",

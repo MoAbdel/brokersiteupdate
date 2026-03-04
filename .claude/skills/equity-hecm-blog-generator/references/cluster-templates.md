@@ -27,7 +27,7 @@ TOTAL                          3,250-4,075 words
 ```markdown
 ---
 title: "What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]"
-meta_description: "What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,149,825, eligibility requirements, and pros/cons. NMLS #1426884."
+meta_description: "What is a reverse mortgage? Learn how HECM loans work for seniors 62+, 2026 limits up to $1,209,750, eligibility requirements, and pros/cons. NMLS #1426884."
 primary_keyword: "what is a reverse mortgage"
 secondary_keywords: ["HECM loan", "reverse mortgage for seniors", "reverse mortgage requirements", "how reverse mortgages work", "reverse mortgage 2026"]
 track: "HECM"
@@ -37,7 +37,7 @@ word_count: 3500
 
 <!-- CITATION HOOK (150-300 words: BLUF + 3 semantic triples + first table) -->
 <div class="citation-hook">
-According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to $1,149,825 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying.
+According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 and older to convert home equity into tax-free cash without monthly mortgage payments. The FHA-insured HECM program offers up to $1,209,750 in 2026, with repayment deferred until the borrower sells, moves permanently, or passes away. HUD counseling is mandatory before applying.
 </div>
 
 # What Is a Reverse Mortgage? Complete HECM Guide for Seniors [2026]
@@ -62,7 +62,7 @@ According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 an
 | Equity Required | Generally 50%+ (varies by age and rates) |
 | Counseling | HUD-approved counseling mandatory |
 | Financial Assessment | Income, credit, property charges reviewed |
-| 2026 FHA Limit | $1,149,825 |
+| 2026 FHA Limit | $1,209,750 |
 
 ## What Is a Reverse Mortgage Eligibility Checklist?
 
@@ -129,7 +129,7 @@ According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 an
 | Credit Line Growth | Yes (unused portion grows) | No | N/A |
 | Upfront Costs | Higher (MIP, origination) | Lower | Lower |
 | Repayment Trigger | Move, sell, or death | Monthly from start | Monthly from start |
-| Maximum Amount | Up to $1,149,825 (2026) | Varies by lender | Varies by lender |
+| Maximum Amount | Up to $1,209,750 (2026) | Varies by lender | Varies by lender |
 
 ### 2026 HECM Market Data
 
@@ -148,7 +148,7 @@ According to Mo Abdel, NMLS #1426884, a reverse mortgage allows homeowners 62 an
 A reverse mortgage essentially works in the opposite direction of a traditional mortgage. Instead of making payments to a lender, the lender pays you based on your home's equity...
 
 ### How much money can you get from a reverse mortgage?
-**The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,149,825; older borrowers typically qualify for more.**
+**The amount depends on your age, home value, interest rates, and the 2026 FHA limit of $1,209,750; older borrowers typically qualify for more.**
 Your "principal limit" is calculated using FHA's Principal Limit Factor (PLF) tables...
 
 ### Do you have to pay back a reverse mortgage?
@@ -208,7 +208,7 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 
 To qualify for a reverse mortgage in 2026, borrowers must be 62 or older, own
 their home as a primary residence, have sufficient equity, complete HUD-approved
-counseling, and pass a financial assessment. The FHA lending limit is $1,149,825,
+counseling, and pass a financial assessment. The FHA lending limit is $1,209,750,
 with no minimum credit score requirement—though financial history affects approval.
 
 ## Age Requirements

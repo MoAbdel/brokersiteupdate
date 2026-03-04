@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgages California & Washington Guide | HECM 2026',
-  description: 'Complete reverse mortgage California guide 2026: HECM requirements, eligibility, payout options, counseling requirements. FHA limit $1,149,825. Expert guidance for seniors 62+. NMLS #1426884.',
+  description: 'Complete reverse mortgage California guide 2026: HECM requirements, eligibility, payout options, counseling requirements. FHA limit $1,209,750. Expert guidance for seniors 62+. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgages-california-guide',
     languages: {
@@ -86,7 +86,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
                 "name": "How much can I get from a California reverse mortgage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The amount depends on your age (older = more), home value (up to the 2026 FHA limit of $1,149,825), current interest rates, and any existing mortgage balance. Typically, borrowers can access 40-75% of their home's value through a HECM. Mo Abdel at Lumin Lending (NMLS #1426884) can provide personalized calculations."
+                  "text": "The amount depends on your age (older = more), home value (up to the 2026 FHA limit of $1,209,750), current interest rates, and any existing mortgage balance. Typically, borrowers can access 40-75% of their home's value through a HECM. Mo Abdel at Lumin Lending (NMLS #1426884) can provide personalized calculations."
                 }
               },
               {
@@ -126,7 +126,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
                 "name": "What is a proprietary reverse mortgage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A proprietary (or jumbo) reverse mortgage is a private loan not insured by FHA, designed for homes valued above the HECM limit of $1,149,825. These programs allow California seniors with high-value homes to access more equity than HECM permits. Some proprietary programs accept borrowers as young as 60."
+                  "text": "A proprietary (or jumbo) reverse mortgage is a private loan not insured by FHA, designed for homes valued above the HECM limit of $1,209,750. These programs allow California seniors with high-value homes to access more equity than HECM permits. Some proprietary programs accept borrowers as young as 60."
                 }
               },
               {
@@ -194,11 +194,23 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            A reverse mortgage allows homeowners <strong>62 years or older</strong> to convert home equity into cash without making monthly mortgage payments. According to HUD data, approximately 49,000 new HECM loans were endorsed in fiscal year 2025, providing seniors access to billions in home equity. The most common type—HECM (Home Equity Conversion Mortgage)—is FHA-insured with a <strong>2026 lending limit of $1,149,825</strong>. Before applying, federal law requires completion of counseling with a HUD-approved counselor. Unlike traditional mortgages, the loan balance grows over time and is repaid when the borrower sells, moves, or passes away. Mo Abdel at Lumin Lending (NMLS #1426884) provides expert guidance for California and Washington seniors exploring reverse mortgage options.
+            A reverse mortgage allows homeowners <strong>62 years or older</strong> to convert home equity into cash without making monthly mortgage payments. According to HUD data, approximately 49,000 new HECM loans were endorsed in fiscal year 2025, providing seniors access to billions in home equity. The most common type—HECM (Home Equity Conversion Mortgage)—is FHA-insured with a <strong>2026 lending limit of $1,209,750</strong>. Before applying, federal law requires completion of counseling with a HUD-approved counselor. Unlike traditional mortgages, the loan balance grows over time and is repaid when the borrower sells, moves, or passes away. Mo Abdel at Lumin Lending (NMLS #1426884) provides expert guidance for California and Washington seniors exploring reverse mortgage options.
           </p>
         </div>
 
@@ -276,7 +288,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
         <ol>
           <li>
             <strong>HECM (Home Equity Conversion Mortgage)</strong>
-            <p>The most common type, insured by FHA with federal consumer protections. Subject to the 2026 lending limit of $1,149,825. Must be originated by an FHA-approved lender and requires HUD counseling.</p>
+            <p>The most common type, insured by FHA with federal consumer protections. Subject to the 2026 lending limit of $1,209,750. Must be originated by an FHA-approved lender and requires HUD counseling.</p>
           </li>
           <li>
             <strong>Proprietary (Jumbo) Reverse Mortgages</strong>
@@ -465,7 +477,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
           </li>
           <li>
             <strong>Home Value (Up to FHA Limit)</strong>
-            <p>Your home's appraised value determines the base, but the 2026 FHA limit caps the calculation at $1,149,825. Homes worth more than this limit are calculated as if worth $1,149,825 for HECM purposes.</p>
+            <p>Your home's appraised value determines the base, but the 2026 FHA limit caps the calculation at $1,209,750. Homes worth more than this limit are calculated as if worth $1,209,750 for HECM purposes.</p>
           </li>
           <li>
             <strong>Current Interest Rates</strong>
@@ -487,7 +499,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Maximum Claim Amount (FHA Limit)</td><td className="py-2 px-4 border-b font-semibold">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Maximum Claim Amount (FHA Limit)</td><td className="py-2 px-4 border-b font-semibold">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Principal Limit Factor Range</td><td className="py-2 px-4 border-b">40-75% of home value</td></tr>
               <tr><td className="py-2 px-4 border-b">First-Year Disbursement Limit</td><td className="py-2 px-4 border-b">60% of Principal Limit (with exceptions)</td></tr>
               <tr><td className="py-2 px-4">Higher Home Values</td><td className="py-2 px-4">Consider proprietary reverse mortgages</td></tr>
@@ -623,7 +635,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b">Origination Fee</td><td className="py-2 px-4 border-b">$2,500-$6,000</td><td className="py-2 px-4 border-b">2% of first $200K + 1% above; minimum $2,500, max $6,000</td></tr>
-              <tr><td className="py-2 px-4 border-b">Initial MIP (Mortgage Insurance Premium)</td><td className="py-2 px-4 border-b">2% of home value</td><td className="py-2 px-4 border-b">Required FHA insurance, up to 2% of $1,149,825 limit</td></tr>
+              <tr><td className="py-2 px-4 border-b">Initial MIP (Mortgage Insurance Premium)</td><td className="py-2 px-4 border-b">2% of home value</td><td className="py-2 px-4 border-b">Required FHA insurance, up to 2% of $1,209,750 limit</td></tr>
               <tr><td className="py-2 px-4 border-b">Appraisal</td><td className="py-2 px-4 border-b">$450-$750+</td><td className="py-2 px-4 border-b">FHA appraisal required; complex properties may cost more</td></tr>
               <tr><td className="py-2 px-4 border-b">Title Insurance</td><td className="py-2 px-4 border-b">Varies by state</td><td className="py-2 px-4 border-b">California and Washington rates differ</td></tr>
               <tr><td className="py-2 px-4 border-b">Recording Fees</td><td className="py-2 px-4 border-b">$50-$200</td><td className="py-2 px-4 border-b">County recording fees</td></tr>
@@ -657,7 +669,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
           <li><strong>Non-Recourse Protection:</strong> You or your heirs will never owe more than the home's value at repayment</li>
           <li><strong>Flexible Payout Options:</strong> Choose how and when you receive funds based on your needs</li>
           <li><strong>Line of Credit Growth:</strong> Unused funds grow over time, creating an increasing safety net</li>
-          <li><strong>Tax-Free Proceeds:</strong> Loan advances are not considered taxable income</li>
+          <li><strong>Proceeds That Are Generally Not Considered Taxable Income (Consult Your Tax Advisor):</strong> Loan advances are not considered taxable income</li>
           <li><strong>Social Security/Medicare Unaffected:</strong> Does not impact these non-need-based benefits</li>
           <li><strong>Voluntary Payments:</strong> Can make payments to reduce balance if desired</li>
         </ul>
@@ -742,12 +754,12 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
         {/* Section 10: Proprietary Reverse Mortgages */}
         <h2 id="proprietary-reverse">Proprietary (Jumbo) Reverse Mortgages</h2>
         <p>
-          For California and Washington seniors with homes valued above the HECM limit of $1,149,825, proprietary reverse mortgages provide an alternative way to access more equity.
+          For California and Washington seniors with homes valued above the HECM limit of $1,209,750, proprietary reverse mortgages provide an alternative way to access more equity.
         </p>
 
         <h3>Key Features of Proprietary Reverse Mortgages</h3>
         <ul>
-          <li><strong>No FHA Lending Limit:</strong> Access equity on high-value homes beyond $1,149,825</li>
+          <li><strong>No FHA Lending Limit:</strong> Access equity on high-value homes beyond $1,209,750</li>
           <li><strong>Age Flexibility:</strong> Some programs accept borrowers as young as 60</li>
           <li><strong>Not FHA-Insured:</strong> Private lender programs with different terms</li>
           <li><strong>Different Fee Structures:</strong> May have lower upfront costs than HECM</li>
@@ -756,7 +768,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
 
         <h3>When to Consider Proprietary</h3>
         <ul>
-          <li>Home value significantly exceeds $1,149,825</li>
+          <li>Home value significantly exceeds $1,209,750</li>
           <li>You're between 60-61 years old (below HECM age requirement)</li>
           <li>You want to access more equity than HECM permits</li>
           <li>You have a high-value California coastal or Washington Seattle-area property</li>
@@ -773,7 +785,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Maximum Home Value</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$4M+ with some lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b">Maximum Home Value</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$4M+ with some lenders</td></tr>
               <tr><td className="py-2 px-4 border-b">Minimum Age</td><td className="py-2 px-4 border-b">62</td><td className="py-2 px-4 border-b">60 (some programs)</td></tr>
               <tr><td className="py-2 px-4 border-b">FHA Insurance</td><td className="py-2 px-4 border-b">Yes (MIP required)</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4 border-b">HUD Counseling</td><td className="py-2 px-4 border-b">Required</td><td className="py-2 px-4 border-b">May be required</td></tr>
@@ -921,7 +933,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
 
         <h3>What are the 3 types of reverse mortgages?</h3>
         <p>
-          The three types are: (1) HECM (Home Equity Conversion Mortgage) - the most common, FHA-insured option with a 2026 limit of $1,149,825; (2) Proprietary (jumbo) reverse mortgages - private loans for homes exceeding the HECM limit; and (3) Single-purpose reverse mortgages - offered by some government agencies for specific uses like home repairs.
+          The three types are: (1) HECM (Home Equity Conversion Mortgage) - the most common, FHA-insured option with a 2026 limit of $1,209,750; (2) Proprietary (jumbo) reverse mortgages - private loans for homes exceeding the HECM limit; and (3) Single-purpose reverse mortgages - offered by some government agencies for specific uses like home repairs.
         </p>
 
         <h3>How does a reverse mortgage affect Social Security?</h3>
@@ -979,7 +991,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
 
         <h3>How much can I get from a California reverse mortgage?</h3>
         <p>
-          The amount depends on your age (older = more), home value (up to the 2026 FHA limit of $1,149,825), current interest rates, and any existing mortgage balance. Typically, borrowers can access 40-75% of their home's value through a HECM. Mo Abdel at Lumin Lending (NMLS #1426884) provides personalized calculations.
+          The amount depends on your age (older = more), home value (up to the 2026 FHA limit of $1,209,750), current interest rates, and any existing mortgage balance. Typically, borrowers can access 40-75% of their home's value through a HECM. Mo Abdel at Lumin Lending (NMLS #1426884) provides personalized calculations.
         </p>
 
         <h3>Is HUD counseling required for reverse mortgages?</h3>
@@ -1004,7 +1016,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
 
         <h3>What is a proprietary reverse mortgage?</h3>
         <p>
-          A proprietary (or jumbo) reverse mortgage is a private loan not insured by FHA, designed for homes valued above the HECM limit of $1,149,825. These programs allow California and Washington seniors with high-value homes to access more equity. Some programs accept borrowers as young as 60.
+          A proprietary (or jumbo) reverse mortgage is a private loan not insured by FHA, designed for homes valued above the HECM limit of $1,209,750. These programs allow California and Washington seniors with high-value homes to access more equity. Some programs accept borrowers as young as 60.
         </p>
 
         <h3>How long does the reverse mortgage process take?</h3>

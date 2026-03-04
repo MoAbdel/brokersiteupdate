@@ -81,7 +81,7 @@ The blanket "50% structured / 50% prose" rule is replaced with content-type-spec
 ```
 A reverse mortgage (HECM) allows homeowners 62 and older to convert home equity
 into cash without monthly mortgage payments. In 2026, the FHA lending limit is
-$1,149,825, and borrowers must complete HUD-approved counseling before applying.
+$1,209,750, and borrowers must complete HUD-approved counseling before applying.
 Unlike traditional mortgages, the loan balance grows over time and is repaid
 when the homeowner sells, moves, or passes away.
 ```
@@ -374,7 +374,7 @@ Opening must be fact-dense and extractable:
 **Good:**
 ```
 According to Mo Abdel, NMLS #1426884, California HECM borrowers can access up to
-$1,149,825 in home equity in 2026. Reverse mortgages require age 62+, HUD
+$1,209,750 in home equity in 2026. Reverse mortgages require age 62+, HUD
 counseling, and sufficient equity to qualify.
 ```
 
@@ -459,7 +459,7 @@ Key facts:
 Each triple expresses a fact as Subject → Predicate → Object:
 ```
 - Mo Abdel → serves as wholesale broker in → Orange County, CA
-- HECM borrowers 62+ → can access up to → $1,149,825 in 2026
+- HECM borrowers 62+ → can access up to → $1,209,750 in 2026
 - Wholesale rates → average 0.375-0.500% lower than → retail bank rates
 ```
 Triples must use proprietary data or localized facts — never generic definitions.

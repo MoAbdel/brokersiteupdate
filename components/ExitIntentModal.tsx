@@ -142,7 +142,7 @@ export default function ExitIntentModal() {
                         Wait! Don't Overpay For Your Mortgage.
                     </h2>
                     <p className="text-slate-200 mb-6 text-lg">
-                        Banks charge retail prices. We give you wholesale rates.
+                        Banks typically offer one set of rates. As a broker, we shop wholesale channels to find competitive pricing.
                     </p>
                     <ul className="space-y-3 mb-8">
                         <li className="flex items-start gap-3">
@@ -151,11 +151,11 @@ export default function ExitIntentModal() {
                         </li>
                         <li className="flex items-start gap-3">
                             <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Lower interest rates & fees</span>
+                            <span className="text-sm">Competitive wholesale interest rates</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Faster approvals, zero headaches</span>
+                            <span className="text-sm">Streamlined approval process</span>
                         </li>
                     </ul>
                 </div>
@@ -167,7 +167,7 @@ export default function ExitIntentModal() {
                     See Your Potential Savings
                 </h3>
                 <p className="text-slate-600">
-                    Get a custom rate quote from 50+ lenders in minutes. No credit check. No commitment. Just your best rate from 50+ lenders.
+                    Get a custom rate quote from 200+ lenders in minutes. No credit check. No commitment. We shop multiple lenders to find competitive rates for your situation.
                 </p>
               </div>
 
@@ -184,7 +184,7 @@ export default function ExitIntentModal() {
                     onClick={handleClose}
                     className="w-full text-slate-400 hover:text-slate-600 text-sm font-medium py-2"
                 >
-                    No thanks, I prefer higher bank rates
+                    No thanks, maybe later
                 </button>
               </div>
               
@@ -211,7 +211,7 @@ export default function ExitIntentModal() {
                         Where should we send your quote?
                     </h3>
                     <p className="text-slate-600">
-                        We'll analyze 50+ lenders to find your best option.
+                        We'll analyze 200+ lenders to find your best option.
                     </p>
                 </div>
 
@@ -261,8 +261,10 @@ export default function ExitIntentModal() {
                     </Button>
                     
                     <p className="text-xs text-center text-slate-400 mt-4">
-                        By continuing, you agree to receive information about your mortgage options. 
-                        Your privacy is protected. We hate spam too.
+                        By submitting, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
+                    </p>
+                    <p className="text-xs text-slate-400 text-center mt-2">
+                        This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
                     </p>
                 </form>
              </div>

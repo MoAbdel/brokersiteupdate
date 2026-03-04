@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
-const PAGE_URL = 'https://www.mothebroker.com/guides/summer-2026-market-guide';
+const PAGE_URL = 'https://www.mothebroker.com/guides/summer-2025-market-guide';
 
 export const metadata: Metadata = {
   title: 'Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884',
@@ -84,7 +84,7 @@ export default function Summer2026MarketGuidePage() {
       type: 'article' as const,
       title: 'Summer 2026 Orange County Market Guide',
       description: 'Complete guide to navigating Orange County\'s peak summer real estate market',
-      url: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+      url: PAGE_URL,
       data: {
         author: 'Mo Abdel',
         publishDate: '2026-04-01',
@@ -101,7 +101,7 @@ export default function Summer2026MarketGuidePage() {
       type: 'howto' as const,
       title: 'How to Compete in Summer 2026 Market',
       description: 'Strategic approach to winning in Orange County\'s competitive summer market',
-      url: 'https://www.mothebroker.com/guides/summer-2026-market-guide',
+      url: PAGE_URL,
       data: {
         totalTime: 'PT60D',
         cost: 'Varies by home price',
@@ -253,7 +253,7 @@ export default function Summer2026MarketGuidePage() {
         title="Summer 2026 Orange County Market Guide | Peak Season Strategy | Mo Abdel NMLS #1426884"
         description="Summer 2026 Orange County real estate market guide. Peak season strategies, competition insights, inventory trends, and expert buying tips."
         city="Orange County"
-        canonicalUrl="https://www.mothebroker.com/guides/summer-2026-market-guide"
+        canonicalUrl={PAGE_URL}
         content={summerGuideData}
       />
       <EnhancedLocalSchema city="Orange County" page_type="service" service_focus="summer 2026 market guidance" />
@@ -524,7 +524,7 @@ export default function Summer2026MarketGuidePage() {
 
         {/* Internal Links */}
         <InternalLinkEngine 
-          currentPage="/guides/summer-2026-market-guide"
+          currentPage="/guides/summer-2025-market-guide"
           pageType="guide"
           city="Orange County"
           maxLinks={6}

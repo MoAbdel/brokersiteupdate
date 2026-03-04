@@ -140,7 +140,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$2.2M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$900K - $10M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo</td></tr>
               <tr><td className="py-2 px-4">Common Borrower Profile</td><td className="py-2 px-4 font-semibold">Tech executives, self-employed, medical professionals</td></tr>
             </tbody>
@@ -227,7 +227,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
               <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed</td><td className="py-2 px-4 border-b">Tax returns required</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Bank statement options</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">RSU Income</td><td className="py-2 px-4 border-b">Varies</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple options</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Denied Fallback</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Pivot same day</td></tr>
             </tbody>
@@ -275,7 +275,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
 
         <h3>Can I get financing for Turtle Ridge townhomes in 92603?</h3>
         <p>
-          Yes. Turtle Ridge townhomes ranging from $1M to $2M+ qualify for conforming high-balance loans (up to $1,149,825) or jumbo financing for higher amounts. Wholesale brokers match properties to appropriate programs based on price point, down payment, and borrower income documentation type.
+          Yes. Turtle Ridge townhomes ranging from $1M to $2M+ qualify for conforming high-balance loans (up to $1,209,750) or jumbo financing for higher amounts. Wholesale brokers match properties to appropriate programs based on price point, down payment, and borrower income documentation type.
         </p>
 
         <h3>Why use wholesale for 92603 instead of Irvine banks?</h3>

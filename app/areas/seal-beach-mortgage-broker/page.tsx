@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What are current mortgage rates in Seal Beach?",
-    answer: "Seal Beach mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 100+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
+    answer: "Seal Beach mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 200+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
   },
   {
     question: "How much do I need for a down payment on a Seal Beach home?",
@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     question: "What is the conforming loan limit in Seal Beach for 2026?",
-    answer: "The 2026 conforming loan limit in Orange County, including Seal Beach, is $1,266,300. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
+    answer: "The 2026 conforming loan limit in Orange County, including Seal Beach, is $1,209,750. Homes priced above this threshold require jumbo loans, which Mo Abdel specializes in through wholesale lender access."
   },
   {
     question: "How long does it take to close on a home in Seal Beach?",
@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: "Why use a mortgage broker instead of a bank in Seal Beach?",
-    answer: "A wholesale mortgage broker like Mo Abdel shops 100+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
+    answer: "A wholesale mortgage broker like Mo Abdel shops 200+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
   },
   {
     question: "What credit score do I need to buy a home in Seal Beach?",
@@ -180,7 +180,7 @@ export default function SealBeachMortgageBrokerPage() {
                 <p className="text-sm text-slate-600">Median Home Price</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
-                <p className="text-3xl font-bold text-blue-600">$1,266,300</p>
+                <p className="text-3xl font-bold text-blue-600">$1,209,750</p>
                 <p className="text-sm text-slate-600">2026 Conforming Limit</p>
               </div>
               <div className="bg-white rounded-lg p-4 text-center">
@@ -235,7 +235,7 @@ export default function SealBeachMortgageBrokerPage() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <Home className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Conforming Loans (Up to $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 For Seal Beach homes under the conforming limit, conventional loans offer the best rates and terms. Ideal for buyers with 620+ credit scores and stable income documentation.
@@ -250,7 +250,7 @@ export default function SealBeachMortgageBrokerPage() {
             <div className="border border-slate-200 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <DollarSign className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,266,300)</h3>
+                <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
                 Many Seal Beach coastal properties exceed conforming limits. Wholesale jumbo loans offer competitive rates for high-value homes with more flexible qualification criteria.
@@ -268,7 +268,7 @@ export default function SealBeachMortgageBrokerPage() {
                 <h3 className="text-xl font-semibold text-slate-900">FHA Loans (Lower Down Payment)</h3>
               </div>
               <p className="text-slate-600 mb-4">
-                First-time Seal Beach buyers can qualify with just 3.5% down and credit scores as low as 580. FHA loans work for homes under $1,266,300 in Orange County.
+                First-time Seal Beach buyers can qualify with just 3.5% down and credit scores as low as 580. FHA loans work for homes under $1,209,750 in Orange County.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• 3.5% minimum down payment</li>
@@ -327,7 +327,7 @@ export default function SealBeachMortgageBrokerPage() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares rates from 100+ lenders to find your best Seal Beach mortgage option.</p>
+                  <p className="text-slate-600">Mo Abdel compares rates from 200+ lenders to find your best Seal Beach mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -390,7 +390,7 @@ export default function SealBeachMortgageBrokerPage() {
             <Link href="/loan-programs/fha-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → FHA Loans in Orange County
             </Link>
-            <Link href="/loan-programs/va-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/loan-programs/orange-county-va-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
               → VA Loans for Seal Beach Military
             </Link>
             <Link href="/calculator/affordability" className="text-blue-600 hover:text-blue-700 hover:underline">

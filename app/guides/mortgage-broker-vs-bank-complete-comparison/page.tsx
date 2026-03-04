@@ -185,7 +185,7 @@ export default function MortgageBrokerVsBankComparison() {
   const detailedComparison = [
     {
       aspect: "Rate Shopping",
-      broker: "Compares rates from 200+ lenders to find lowest rate",
+      broker: "Compares rates from 200+ lenders to find competitive pricing",
       bank: "Offers only their current pricing options",
       winner: "broker"
     },
@@ -747,7 +747,7 @@ export default function MortgageBrokerVsBankComparison() {
             <div className="flex flex-col items-center">
               <Target className="w-8 h-8 mb-2" />
               <span className="font-semibold">200+ Lenders</span>
-              <span className="text-slate-200">Best Rate Guarantee</span>
+              <span className="text-slate-200">Rate Comparison Service</span>
             </div>
             <div className="flex flex-col items-center">
               <Clock className="w-8 h-8 mb-2" />
@@ -785,7 +785,7 @@ export default function MortgageBrokerVsBankComparison() {
               Actual pricing, terms, and costs subject to credit approval and market conditions.
             </p>
             <p>
-              Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, and Colorado.
+              Equal Housing Opportunity. Licensed to originate mortgages in California and Washington.
             </p>
           </div>
         </div>

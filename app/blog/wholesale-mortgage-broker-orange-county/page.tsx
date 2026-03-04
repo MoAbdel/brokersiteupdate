@@ -230,7 +230,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
               <p className="text-sm text-gray-600">Median Home Price</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-blue-600 mb-1">$1,149,825</p>
+              <p className="text-3xl font-bold text-blue-600 mb-1">$1,209,750</p>
               <p className="text-sm text-gray-600">2026 Conforming Limit</p>
             </div>
             <div>
@@ -245,7 +245,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
         </div>
 
         <p>
-          Orange County's 2026 conforming loan limit of <strong>$1,149,825</strong> reflects the high-cost designation for this market. However, with median prices exceeding this threshold, the majority of Orange County home purchases require jumbo loan expertise. Additionally, the county's high concentration of entrepreneurs, business owners, and self-employed professionals creates strong demand for bank statement loan programs that traditional banks typically do not offer.
+          Orange County's 2026 conforming loan limit of <strong>$1,209,750</strong> reflects the high-cost designation for this market. However, with median prices exceeding this threshold, the majority of Orange County home purchases require jumbo loan expertise. Additionally, the county's high concentration of entrepreneurs, business owners, and self-employed professionals creates strong demand for bank statement loan programs that traditional banks typically do not offer.
         </p>
 
         <h3>Why Local Market Knowledge Matters</h3>
@@ -380,8 +380,8 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
         <div className="bg-gray-50 p-4 rounded-lg my-4">
           <p className="font-semibold mb-2">2026 Orange County Loan Limits</p>
           <ul className="mb-0">
-            <li>Conforming limit: <strong>$1,149,825</strong></li>
-            <li>Jumbo begins: Above $1,149,825</li>
+            <li>Conforming limit: <strong>$1,209,750</strong></li>
+            <li>Jumbo begins: Above $1,209,750</li>
             <li>Super jumbo typically: Above $2,000,000</li>
           </ul>
         </div>
@@ -428,7 +428,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           <li><strong>3% down for first-time buyers:</strong> Conventional 97 and HomeReady programs</li>
           <li><strong>5-10% down options:</strong> Flexibility in down payment requirements</li>
           <li><strong>PMI removal:</strong> Unlike FHA, PMI cancels at 80% LTV</li>
-          <li><strong>High-balance conforming:</strong> Up to $1,149,825 with better rates than jumbo</li>
+          <li><strong>High-balance conforming:</strong> Up to $1,209,750 with better rates than jumbo</li>
           <li><strong>Rate buydown options:</strong> Seller concessions can reduce rate in competitive markets</li>
         </ul>
 
@@ -439,7 +439,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
         </p>
 
         <ul>
-          <li><strong>FHA:</strong> 3.5% down with 580+ credit, loan limit $1,149,825 in Orange County</li>
+          <li><strong>FHA:</strong> 3.5% down with 580+ credit, loan limit $1,209,750 in Orange County</li>
           <li><strong>VA:</strong> 0% down for eligible veterans, no loan limit with full entitlement</li>
           <li><strong>Flexible credit:</strong> More lenient qualification than conventional programs</li>
           <li><strong>Wholesale access:</strong> Multiple FHA and VA lenders to compare rates and service</li>

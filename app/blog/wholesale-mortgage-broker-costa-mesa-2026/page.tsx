@@ -46,7 +46,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "What is a wholesale mortgage broker in Costa Mesa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Costa Mesa shops your loan across 200+ wholesale lenders to find the best rates and programs. Unlike banks that only offer their own products at retail prices, wholesale brokers access institutional pricing and specialty programs like bank statement loans—often saving borrowers 0.25-0.5% on their rate."
+                  "text": "A wholesale mortgage broker in Costa Mesa shops your loan across 200+ wholesale lenders to find competitive rates and programs. Unlike banks that only offer their own products, wholesale brokers access institutional pricing from multiple lenders and specialty programs like bank statement loans—potentially saving borrowers 0.25-0.5% on their rate."
                 }
               },
               {
@@ -54,7 +54,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "How much can I save using a wholesale broker in Costa Mesa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "On Costa Mesa's median home price of approximately $1.1 million, a 0.25% lower rate saves about $55,000 in interest over 30 years. A 0.5% difference saves over $108,000. Wholesale brokers access these lower institutional rates that banks mark up before offering to retail customers."
+                  "text": "On Costa Mesa's median home price of approximately $1.1 million, a 0.25% lower rate could save about $55,000 in interest over 30 years. A 0.5% difference could save over $108,000. Wholesale brokers compare institutional rates from multiple lenders to find competitive pricing for your situation."
                 }
               },
               {
@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "Can I get a jumbo loan through a Costa Mesa wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Many Costa Mesa homes exceed conforming limits ($1,149,825 in 2026), requiring jumbo financing. Wholesale brokers have access to 20+ jumbo lenders with varying guidelines, allowing them to find competitive rates and flexible qualification options for high-value properties."
+                  "text": "Yes. Many Costa Mesa homes exceed conforming limits ($1,209,750 in 2026), requiring jumbo financing. Wholesale brokers have access to 20+ jumbo lenders with varying guidelines, allowing them to find competitive rates and flexible qualification options for high-value properties."
                 }
               }
             ]
@@ -165,7 +165,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
           Essential for Costa Mesa's higher-priced neighborhoods:
         </p>
         <ul>
-          <li>Loans above $1,149,825 (2026 conforming limit)</li>
+          <li>Loans above $1,209,750 (2026 conforming limit)</li>
           <li>Access to 20+ jumbo lenders through wholesale</li>
           <li>Competitive rates for qualified borrowers</li>
           <li>Super jumbo available for $2M, $3M, $5M+ loans</li>
@@ -189,7 +189,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
         <ul>
           <li>As low as 3% down for first-time buyers</li>
           <li>20% down avoids PMI</li>
-          <li>Conforming limit: $1,149,825</li>
+          <li>Conforming limit: $1,209,750</li>
           <li>Best rates through wholesale channel</li>
         </ul>
 
@@ -213,7 +213,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
 
         <h3>Eastside Costa Mesa</h3>
         <p>
-          Charming bungalows and mid-century homes popular with young professionals. Mix of conforming and jumbo loans depending on property. Close proximity to Newport Beach drives values.
+          Charming bungalows and mid-century homes with distinctive architectural character. Mix of conforming and jumbo loans depending on property. Close proximity to Newport Beach drives values.
         </p>
 
         <h3>Westside Costa Mesa</h3>

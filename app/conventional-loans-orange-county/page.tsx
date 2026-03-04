@@ -10,10 +10,10 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, 
 
 export const metadata: Metadata = {
   title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-  description: 'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,249,125. Apply today with Mo Abdel.',
+  description: 'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,209,750. Apply today with Mo Abdel.',
   openGraph: {
     title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
-    description: 'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,249,125. Apply today with Mo Abdel.',
+    description: 'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,209,750. Apply today with Mo Abdel.',
     type: 'website',
   },
   alternates: {
@@ -38,7 +38,7 @@ const pageSchema = buildServiceWebPageSchema({
   pageUrl: PAGE_URL,
   title: 'Conventional Loans in Orange County, CA | Traditional Home Financing',
   description:
-    'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,249,125. Apply today with Mo Abdel.',
+    'Get conventional loans in Orange County with competitive pricing. Flexible down payments from 3% and loan amounts up to $1,209,750. Apply today with Mo Abdel.',
   breadcrumbName: 'Conventional Loans',
   dateModified: '2026-02-16',
 });
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: 'What is the 2026 conventional loan limit in Orange County?',
-    answer: 'The 2026 conforming loan limit for Orange County is $1,249,125, set by the Federal Housing Finance Agency (FHFA). Loans above this amount require jumbo financing with different requirements. Orange County is classified as a high-cost area, so the limit is significantly higher than the national baseline of $806,500.'
+    answer: 'The conforming loan limit for Orange County is $1,209,750, set by the Federal Housing Finance Agency (FHFA). Limits are updated annually. Loans above this amount require jumbo financing with different requirements. Orange County is classified as a high-cost area, so the limit is significantly higher than the national baseline of $806,500.'
   },
   {
     question: 'Can I use a conventional loan for an investment property in California?',
@@ -104,7 +104,7 @@ const benefits = [
   {
     icon: Calculator,
     title: 'Higher Loan Limits',
-    description: 'Borrow up to the 2026 Orange County conforming limit of $1,249,125 with conventional financing.'
+    description: 'Borrow up to the 2026 Orange County conforming limit of $1,209,750 with conventional financing.'
   },
   {
     icon: FileText,
@@ -131,7 +131,7 @@ const conventionalVsFHA = [
   { feature: 'Minimum Down Payment', conventional: '3-5%', fha: '3.5%' },
   { feature: 'Minimum Credit Score', conventional: '620', fha: '580' },
   { feature: 'Mortgage Insurance', conventional: 'PMI (removable at 80% LTV)', fha: 'MIP (permanent)' },
-  { feature: 'Loan Limits (2026 OC)', conventional: '$1,249,125', fha: '$1,266,300' },
+  { feature: 'Loan Limits (2026 OC)', conventional: '$1,209,750', fha: '$1,209,750' },
   { feature: 'Property Types', conventional: 'Primary, second home, investment', fha: 'Primary residence only' },
   { feature: 'Upfront Insurance Fee', conventional: 'None', fha: '1.75% of loan amount' },
 ];
@@ -249,7 +249,7 @@ export default function ConventionalLoansOrangeCounty() {
                 <tbody>
                   <tr className="border-b border-slate-200">
                     <td className="py-3 font-semibold text-slate-700">Orange County Conforming Limit</td>
-                    <td className="py-3 text-right text-xl font-bold text-blue-600">$1,249,125</td>
+                    <td className="py-3 text-right text-xl font-bold text-blue-600">$1,209,750</td>
                   </tr>
                   <tr className="border-b border-slate-200">
                     <td className="py-3 font-semibold text-slate-700">Minimum Down Payment</td>

@@ -9,8 +9,8 @@ export default function NewsInsights() {
     {
       category: "Expert Guide",
       icon: TrendingUp,
-      title: "Best Mortgage Broker in California & Washington",
-      excerpt: "Discover what makes Mo Abdel a top choice for California and Washington homebuyers and refinancers, with expert insights and proven results.",
+      title: "Your Mortgage Broker in California & Washington",
+      excerpt: "Discover what makes Mo Abdel a trusted choice for California and Washington homebuyers and refinancers, with expert insights and proven results.",
       date: "September 25, 2025",
       readTime: "4 min read",
       image: "/images/oc-market-update.jpg",

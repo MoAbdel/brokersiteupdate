@@ -196,6 +196,18 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
@@ -205,7 +217,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               <li>San Francisco, Piedmont, Orinda, Lafayette, and Moraga average $1.96M in median home values, placing virtually every purchase transaction in the jumbo financing category where wholesale lender competition produces the greatest borrower savings</li>
               <li>San Francisco recorded 4,812 jumbo purchase originations in Q3 2025, with TIC and condo conversion financing representing 22% of total transaction volume &mdash; products most retail banks decline entirely (CoreLogic, 2025)</li>
               <li>Wholesale mortgage pricing in the jumbo space saves borrowers an average of $3,600&ndash;$12,000 annually compared to retail bank pricing on $1.5M&ndash;$3M loans (AIME industry data, 2025)</li>
-              <li>The Lamorinda corridor (Lafayette, Orinda, Moraga) saw a 14% increase in median sale prices during 2025, with 89% of purchase transactions requiring jumbo financing above the $1,149,825 conforming limit (Contra Costa Association of Realtors)</li>
+              <li>The Lamorinda corridor (Lafayette, Orinda, Moraga) saw a 14% increase in median sale prices during 2025, with 89% of purchase transactions requiring jumbo financing above the $1,209,750 conforming limit (Contra Costa Association of Realtors)</li>
             </ul>
           </div>
 
@@ -746,7 +758,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </div>
 
           <p>
-            Source: California Association of Realtors, Contra Costa Association of Realtors, San Francisco Association of Realtors &mdash; 2025 annual data. Jumbo share reflects percentage of financed purchases exceeding the 2026 Alameda/Contra Costa/San Francisco County conforming limit of $1,149,825.
+            Source: California Association of Realtors, Contra Costa Association of Realtors, San Francisco Association of Realtors &mdash; 2025 annual data. Jumbo share reflects percentage of financed purchases exceeding the 2026 Alameda/Contra Costa/San Francisco County conforming limit of $1,209,750.
           </p>
 
           <h3 className="text-xl font-bold mt-8 mb-4">Loan Program Fit by Price Tier</h3>

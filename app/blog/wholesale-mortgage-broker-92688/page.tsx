@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92688Page() {
                 "name": "What loan amounts are typical in Rancho Santa Margarita 92688?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Rancho Santa Margarita 92688 has a median home price around $1.0 million. Homes near RSM Lake and in premium neighborhoods range from $950K-$1.6M, with many buyers approaching or exceeding the $1,149,825 conforming limit."
+                  "text": "Rancho Santa Margarita 92688 has a median home price around $1.0 million. Homes near RSM Lake and in premium neighborhoods range from $950K-$1.6M, with many buyers approaching or exceeding the $1,209,750 conforming limit."
                 }
               },
               {
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92688Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$450,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$700,000 - $1,400,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">20-35 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -195,7 +195,7 @@ export default function WholesaleMortgageBroker92688Page() {
 
         <h3>Conforming High-Balance</h3>
         <p>
-          For loans up to $1,149,825:
+          For loans up to $1,209,750:
         </p>
         <ul>
           <li>Best rates for qualifying properties</li>
@@ -261,7 +261,7 @@ export default function WholesaleMortgageBroker92688Page() {
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Trabuco Highlands</h4>
-            <p className="text-sm text-gray-700 mb-0">Established neighborhood with single-family homes and community amenities. Popular with families.</p>
+            <p className="text-sm text-gray-700 mb-0">Established neighborhood with single-family homes and community amenities. Known for spacious lots.</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Rancho Cielo</h4>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92688Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amounts are typical in Rancho Santa Margarita 92688?</h3>
-            <p className="mb-0">Rancho Santa Margarita 92688 has a median home price around $1.0 million. Homes near RSM Lake and in premium neighborhoods range from $950K-$1.6M, with many buyers approaching or exceeding the $1,149,825 conforming limit.</p>
+            <p className="mb-0">Rancho Santa Margarita 92688 has a median home price around $1.0 million. Homes near RSM Lake and in premium neighborhoods range from $950K-$1.6M, with many buyers approaching or exceeding the $1,209,750 conforming limit.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help with homes near RSM Lake?</h3>

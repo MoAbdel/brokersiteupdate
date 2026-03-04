@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Complete Guide to Reverse Mortgages in California & Washington [2026]',
-  description: 'Reverse mortgage California guide 2026: HECM requirements, eligibility, pros/cons, and how seniors 62+ can access home equity. FHA limit $1,149,825. NMLS #1426884.',
+  description: 'Reverse mortgage California guide 2026: HECM requirements, eligibility, pros/cons, and how seniors 62+ can access home equity. FHA limit $1,209,750. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-complete-guide-2026',
     languages: {
@@ -141,10 +141,22 @@ export default function ReverseMortgageGuide2026Page() {
         </p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            A reverse mortgage allows homeowners <strong>62 years or older</strong> to convert home equity into cash without making monthly mortgage payments. The most common type—HECM (Home Equity Conversion Mortgage)—is FHA-insured with a <strong>2026 lending limit of $1,149,825</strong>. Before applying, you must complete counseling with a HUD-approved counselor. Unlike traditional mortgages, the loan balance grows over time and is repaid when the borrower sells, moves, or passes away.
+            A reverse mortgage allows homeowners <strong>62 years or older</strong> to convert home equity into cash without making monthly mortgage payments. The most common type—HECM (Home Equity Conversion Mortgage)—is FHA-insured with a <strong>2026 lending limit of $1,209,750</strong>. Before applying, you must complete counseling with a HUD-approved counselor. Unlike traditional mortgages, the loan balance grows over time and is repaid when the borrower sells, moves, or passes away.
           </p>
         </div>
 
@@ -256,7 +268,7 @@ export default function ReverseMortgageGuide2026Page() {
         <h3>Factors Affecting Your Principal Limit</h3>
         <ul>
           <li><strong>Age of Youngest Borrower:</strong> Older = higher percentage available</li>
-          <li><strong>Home Value:</strong> Up to the FHA limit of $1,149,825 for 2026</li>
+          <li><strong>Home Value:</strong> Up to the FHA limit of $1,209,750 for 2026</li>
           <li><strong>Current Interest Rates:</strong> Lower rates = higher principal limit</li>
           <li><strong>Existing Mortgage Balance:</strong> Must be paid off from proceeds</li>
         </ul>
@@ -271,7 +283,7 @@ export default function ReverseMortgageGuide2026Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Maximum Claim Amount</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Maximum Claim Amount</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical PLF Range</td><td className="py-2 px-4 border-b">40-75% of home value</td></tr>
               <tr><td className="py-2 px-4">Higher Home Values</td><td className="py-2 px-4">Consider proprietary reverse mortgages</td></tr>
             </tbody>
@@ -355,7 +367,7 @@ export default function ReverseMortgageGuide2026Page() {
         <h3>Upfront Costs</h3>
         <ul>
           <li><strong>Origination Fee:</strong> Greater of $2,500 or 2% of first $200,000 + 1% of amount over $200,000 (capped at $6,000)</li>
-          <li><strong>Initial Mortgage Insurance Premium (MIP):</strong> 2% of home value (up to $1,149,825)</li>
+          <li><strong>Initial Mortgage Insurance Premium (MIP):</strong> 2% of home value (up to $1,209,750)</li>
           <li><strong>Closing Costs:</strong> Appraisal, title insurance, recording fees, etc.</li>
           <li><strong>Counseling Fee:</strong> Approximately $125</li>
         </ul>
@@ -378,7 +390,7 @@ export default function ReverseMortgageGuide2026Page() {
           <li><strong>Non-Recourse Protection:</strong> Never owe more than home's value</li>
           <li><strong>Flexible Payout Options:</strong> Choose how you receive funds</li>
           <li><strong>Line of Credit Growth:</strong> Unused funds grow over time</li>
-          <li><strong>Tax-Free Proceeds:</strong> Loan advances are not taxable income</li>
+          <li><strong>Proceeds That Are Generally Not Considered Taxable Income (Consult Your Tax Advisor):</strong> Loan advances are not taxable income</li>
         </ul>
 
         <h3>Disadvantages</h3>
@@ -461,7 +473,7 @@ export default function ReverseMortgageGuide2026Page() {
 
         <h2>Proprietary (Jumbo) Reverse Mortgages</h2>
         <p>
-          For homes valued above the FHA limit of $1,149,825, proprietary reverse mortgages may be available. These are offered by private lenders and can provide access to more equity for high-value homes.
+          For homes valued above the FHA limit of $1,209,750, proprietary reverse mortgages may be available. These are offered by private lenders and can provide access to more equity for high-value homes.
         </p>
         <ul>
           <li>No FHA lending limit</li>

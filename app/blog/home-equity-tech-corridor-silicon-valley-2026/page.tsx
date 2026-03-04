@@ -228,6 +228,12 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 9, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -699,7 +705,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Jumbo Product Access</h3>
           <p>
-            With median values from $1.3 million to $2 million, most Tech Corridor homes require jumbo equity products. The 2026 conforming loan limit is $1,149,825 for high-cost areas. A jumbo HELOC &mdash; available through the wholesale channel at amounts up to $3 million or more &mdash; is the only way to fully leverage the equity in a $2 million Mountain View home or a $2.5 million Willow Glen estate. Banks typically cap their HELOCs at levels far below what the property supports.
+            With median values from $1.3 million to $2 million, most Tech Corridor homes require jumbo equity products. The 2026 conforming loan limit is $1,209,750 for high-cost areas. A jumbo HELOC &mdash; available through the wholesale channel at amounts up to $3 million or more &mdash; is the only way to fully leverage the equity in a $2 million Mountain View home or a $2.5 million Willow Glen estate. Banks typically cap their HELOCs at levels far below what the property supports.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Tech Income Specialization</h3>

@@ -164,6 +164,12 @@ export default function ProprietaryReverseMortgagePage() {
         </p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       {/* Main Content */}
       <section className="prose prose-lg max-w-none">
 
@@ -807,7 +813,7 @@ export default function ProprietaryReverseMortgagePage() {
             Licensed in California and Washington
           </p>
           <p className="mt-2">
-            Equal Housing Lender. This material is for informational purposes only and is not
+            Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. This material is for informational purposes only and is not
             a commitment to lend. All loans are subject to credit approval and property appraisal.
             Proprietary reverse mortgage terms vary by lender and are subject to change.
           </p>

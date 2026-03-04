@@ -204,7 +204,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
               {
                 "@type": "HowToStep",
                 "name": "Shop Multiple Lenders",
-                "text": "Work with a wholesale broker who can compare 50+ lenders to find competitive pricing for your specific situation."
+                "text": "Work with a wholesale broker who can compare 200+ lenders to find competitive pricing for your specific situation."
               },
               {
                 "@type": "HowToStep",
@@ -241,7 +241,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         {/* CITATION HOOK - 75-100 words */}
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, California homeowners have three primary methods for accessing home equity in 2026: <strong>cash-out refinance</strong> (replaces your mortgage), <strong>HELOC</strong> (revolving credit line), and <strong>HELOAN</strong> (fixed lump sum). Each requires maintaining <strong>15-20% equity</strong> after borrowing. Most lenders set a minimum credit score of <strong>680</strong>, though some wholesale programs accommodate scores as low as 620 with higher equity requirements. The 2026 California conforming loan limit of <strong>$1,266,300</strong> affects which products apply to your situation.
+            According to Mo Abdel, NMLS #1426884, California homeowners have three primary methods for accessing home equity in 2026: <strong>cash-out refinance</strong> (replaces your mortgage), <strong>HELOC</strong> (revolving credit line), and <strong>HELOAN</strong> (fixed lump sum). Each requires maintaining <strong>15-20% equity</strong> after borrowing. Most lenders set a minimum credit score of <strong>680</strong>, though some wholesale programs accommodate scores as low as 620 with higher equity requirements. The 2026 California conforming loan limit of <strong>$1,209,750</strong> affects which products apply to your situation.
           </p>
         </div>
 
@@ -427,8 +427,8 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         </p>
 
         <ul>
-          <li><strong>Conforming cash-out (up to $1,266,300):</strong> 0.25-0.50% premium over rate-and-term</li>
-          <li><strong>Jumbo cash-out (above $1,266,300):</strong> 0.375-0.75% premium over jumbo rate-and-term</li>
+          <li><strong>Conforming cash-out (up to $1,209,750):</strong> 0.25-0.50% premium over rate-and-term</li>
+          <li><strong>Jumbo cash-out (above $1,209,750):</strong> 0.375-0.75% premium over jumbo rate-and-term</li>
           <li><strong>High LTV cash-out (above 70% LTV):</strong> Additional 0.125-0.25% adjustment</li>
         </ul>
 
@@ -686,11 +686,11 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Conforming (1-unit)</td><td className="py-2 px-4 border border-gray-300">$1,266,300</td><td className="py-2 px-4 border border-gray-300">All California counties (high-cost area)</td></tr>
+              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Conforming (1-unit)</td><td className="py-2 px-4 border border-gray-300">$1,209,750</td><td className="py-2 px-4 border border-gray-300">All California counties (high-cost area)</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Conforming (2-unit)</td><td className="py-2 px-4 border border-gray-300">$1,621,050</td><td className="py-2 px-4 border border-gray-300">Duplex properties</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Conforming (3-unit)</td><td className="py-2 px-4 border border-gray-300">$1,960,200</td><td className="py-2 px-4 border border-gray-300">Triplex properties</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">Conforming (4-unit)</td><td className="py-2 px-4 border border-gray-300">$2,436,800</td><td className="py-2 px-4 border border-gray-300">Fourplex properties</td></tr>
-              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">FHA (1-unit)</td><td className="py-2 px-4 border border-gray-300">$1,149,825</td><td className="py-2 px-4 border border-gray-300">High-cost CA counties</td></tr>
+              <tr><td className="py-2 px-4 border border-gray-300 font-semibold">FHA (1-unit)</td><td className="py-2 px-4 border border-gray-300">$1,209,750</td><td className="py-2 px-4 border border-gray-300">High-cost CA counties</td></tr>
               <tr><td className="py-2 px-4 border border-gray-300 font-semibold">VA Loan</td><td className="py-2 px-4 border border-gray-300">No limit</td><td className="py-2 px-4 border border-gray-300">No loan limit for veterans with full entitlement</td></tr>
             </tbody>
           </table>
@@ -789,7 +789,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-bold text-gray-900 mb-2">What are current home equity loan rates in California 2026?</h3>
             <p className="text-gray-700 mb-0">
-              California home equity loan rates in early 2026 range from 7.5% to 10% for fixed-rate HELOANs and 9.00% to 11.50% for HELOCs (Prime + margin, variable). Exact rates depend on credit score, loan-to-value ratio, loan amount, and lender. Wholesale mortgage brokers consistently secure rates 0.25-0.50% below direct retail bank offers by comparing options across 50+ lenders.
+              California home equity loan rates in early 2026 range from 7.5% to 10% for fixed-rate HELOANs and 9.00% to 11.50% for HELOCs (Prime + margin, variable). Exact rates depend on credit score, loan-to-value ratio, loan amount, and lender. Wholesale mortgage brokers consistently secure rates 0.25-0.50% below direct retail bank offers by comparing options across 200+ lenders.
             </p>
           </div>
 
@@ -920,7 +920,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           <div className="pb-4">
             <h3 className="text-lg font-bold text-gray-900 mb-2">How do wholesale mortgage brokers find better HELOC rates?</h3>
             <p className="text-gray-700">
-              Wholesale mortgage brokers access institutional pricing from 50+ lenders simultaneously - rates reserved for volume producers rather than retail customers. By comparing multiple lenders' offerings against your specific profile (credit score, LTV, loan amount), brokers identify which lender offers the most competitive terms for your situation. This shopping advantage, combined with lower overhead than bank branches, typically results in rates 0.25-0.50% below retail offers.
+              Wholesale mortgage brokers access institutional pricing from 200+ lenders simultaneously - rates reserved for volume producers rather than retail customers. By comparing multiple lenders' offerings against your specific profile (credit score, LTV, loan amount), brokers identify which lender offers the most competitive terms for your situation. This shopping advantage, combined with lower overhead than bank branches, typically results in rates 0.25-0.50% below retail offers.
             </p>
           </div>
         </div>
@@ -933,10 +933,10 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             After helping hundreds of California homeowners access their equity, I've found that the "best" product depends entirely on your individual circumstances. Cash-out refinancing works when you can improve your rate while extracting equity. HELOCs excel for preserving low first mortgage rates with flexible access needs. HELOANs provide the certainty of fixed payments for defined expenses.
           </p>
           <p className="text-gray-800 mb-4">
-            The 2026 rate environment - with conforming limits at $1,266,300 and many homeowners sitting on sub-4% first mortgages from 2020-2021 - makes the HELOC vs. cash-out decision particularly nuanced. A thorough analysis of your current rate, funding needs, risk tolerance, and time horizon determines the optimal path.
+            The 2026 rate environment - with conforming limits at $1,209,750 and many homeowners sitting on sub-4% first mortgages from 2020-2021 - makes the HELOC vs. cash-out decision particularly nuanced. A thorough analysis of your current rate, funding needs, risk tolerance, and time horizon determines the optimal path.
           </p>
           <p className="text-gray-800 mb-0">
-            As a wholesale mortgage broker, I compare options from 50+ lenders to identify not just which product suits your situation, but which lender offers the most competitive terms for your specific profile. This comparison shopping consistently saves California homeowners thousands in interest costs over the life of their equity financing.
+            As a wholesale mortgage broker, I compare options from 200+ lenders to identify not just which product suits your situation, but which lender offers the most competitive terms for your specific profile. This comparison shopping consistently saves California homeowners thousands in interest costs over the life of their equity financing.
           </p>
         </div>
 
@@ -977,7 +977,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO
+            Licensed in: CA, WA
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Rates shown are for illustrative purposes and subject to change without notice. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Consult a tax advisor regarding the deductibility of mortgage interest.

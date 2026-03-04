@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Investment Property Cash-Out Refinance 2026 | Real Estate Investors | Mo Abdel',
-  description: 'Investment property cash-out refinance 2026: Access rental property equity for portfolio growth. Wholesale broker with 50+ lenders including DSCR options. NMLS #1426884.',
+  description: 'Investment property cash-out refinance 2026: Access rental property equity for portfolio growth. Wholesale broker with 200+ lenders including DSCR options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026',
     languages: {
@@ -125,7 +125,7 @@ export default function InvestmentPropertyCashOutRefinancePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Real estate investors can access equity in their rental properties through cash-out refinancing to fund portfolio expansion, property improvements, or other investments. In 2026, wholesale mortgage brokers with access to 50+ lenders—including DSCR specialists and portfolio lenders—can help investors find competitive terms even with multiple financed properties or non-traditional income documentation.
+                        Real estate investors can access equity in their rental properties through cash-out refinancing to fund portfolio expansion, property improvements, or other investments. In 2026, wholesale mortgage brokers with access to 200+ lenders—including DSCR specialists and portfolio lenders—can help investors find competitive terms even with multiple financed properties or non-traditional income documentation.
                     </p>
                 </div>
 
@@ -363,13 +363,13 @@ export default function InvestmentPropertyCashOutRefinancePage() {
                     Real estate investors across Southern California have built substantial equity in their rental portfolios. Whether you're looking to acquire additional properties, renovate existing rentals, or restructure your portfolio financing, cash-out refinancing through wholesale channels can provide competitive terms across conventional, DSCR, and portfolio loan options.
                 </p>
                 <p>
-                    Contact us today for a personalized investment property financing analysis. We'll evaluate your portfolio, compare options from 50+ lenders including DSCR specialists, and design the optimal cash-out strategy for your investment goals.
+                    Contact us today for a personalized investment property financing analysis. We'll evaluate your portfolio, compare options from 200+ lenders including DSCR specialists, and design the optimal cash-out strategy for your investment goals.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

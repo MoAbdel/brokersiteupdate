@@ -20,7 +20,7 @@ export default function HeroSectionServer() {
               </h1>
 
               <p className="text-xl text-slate-600 leading-relaxed">
-                Licensed in CA, WA, VA & CO • 200+ Lenders • Wholesale Pricing Advantage
+                Licensed in CA, WA • 200+ Lenders • Wholesale Pricing Advantage
               </p>
 
               <p className="text-sm text-slate-500 italic">
@@ -30,7 +30,7 @@ export default function HeroSectionServer() {
 
             {/* Primary CTA */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="/quiz">
+              <a href="/calculator">
                 <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-10 py-4 text-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
                   Get Started
                   <ArrowRight className="w-5 h-5 ml-2" />

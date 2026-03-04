@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     question: 'What HELOC rates are available for Suburban King County properties in 2026?',
-    answer: 'Suburban King County HELOC rates through wholesale channels range from prime minus 0.25% to prime plus 1.50% in February 2026. Homeowners with 740+ credit scores and CLTV under 75% qualify for the best rates. Wholesale brokers access promotional introductory rates as low as 6.99% for the first 12-24 months from select lenders. Conforming-eligible properties in Shoreline, Kenmore, and Snoqualmie typically qualify for the most competitive rate tiers.',
+    answer: 'Suburban King County HELOC rates through wholesale channels are typically calculated as Prime Rate plus or minus a margin. Homeowners with 740+ credit scores and CLTV under 75% qualify for the best rates. Wholesale brokers often access more competitive margins and promotional introductory rates from select lenders. Conforming-eligible properties in Shoreline, Kenmore, and Snoqualmie typically qualify for the most competitive rate tiers. Contact Mo Abdel for current rate information.',
   },
   {
     question: 'Should I choose a HELOC, HELOAN, or cash-out refinance in Suburban King County?',
@@ -92,7 +92,7 @@ const faqData = [
   },
   {
     question: 'What is the maximum HELOC amount available for Suburban King County properties?',
-    answer: 'Maximum HELOC amounts depend on your home value, existing mortgage, and lender programs. Washington State 2026 conforming loan limits in King County are $1,149,825, meaning most Suburban King County properties fit within conforming HELOC guidelines. This opens access to the full range of 200+ wholesale lenders with the most competitive rates. For properties above $1.4M at 80% CLTV, jumbo HELOC products provide credit lines up to $1M-$2M+.',
+    answer: 'Maximum HELOC amounts depend on your home value, existing mortgage, and lender programs. Washington State 2026 conforming loan limits in King County are $1,209,750, meaning most Suburban King County properties fit within conforming HELOC guidelines. This opens access to the full range of 200+ wholesale lenders with the most competitive rates. For properties above $1.4M at 80% CLTV, jumbo HELOC products provide credit lines up to $1M-$2M+.',
   },
   {
     question: 'How does a wholesale broker get better HELOC rates than my bank in Suburban King County?',
@@ -241,6 +241,12 @@ export default function HomeEquitySuburbanKingCounty2026() {
             <span>Lumin Lending, NMLS #2716106</span>
           </div>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 
@@ -446,7 +452,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
           </p>
 
           <p>
-            Shoreline&apos;s ADU opportunity compounds the renovation calculus. The city&apos;s generous lot sizes accommodate detached ADUs that tighter inner-ring suburbs cannot support. A $200,000-$300,000 HELOC-financed DADU on a Ridgecrest or Echo Lake lot adds $280,000-$380,000 in property value and generates $2,200-$2,800 monthly rental income&mdash;tax-free at the Washington State level. Shoreline homeowners who combine main house renovation with ADU construction through a single HELOC effectively transform $300,000-$450,000 in draws into $440,000-$640,000 in added property value, creating a positive equity spread of $140,000-$190,000 before accounting for rental income.
+            Shoreline&apos;s ADU opportunity compounds the renovation calculus. The city&apos;s generous lot sizes accommodate detached ADUs that tighter inner-ring suburbs cannot support. A $200,000-$300,000 HELOC-financed DADU on a Ridgecrest or Echo Lake lot adds $280,000-$380,000 in property value and generates $2,200-$2,800 monthly rental income&mdash;loan proceeds (generally not considered taxable income) at the Washington State level. Shoreline homeowners who combine main house renovation with ADU construction through a single HELOC effectively transform $300,000-$450,000 in draws into $440,000-$640,000 in added property value, creating a positive equity spread of $140,000-$190,000 before accounting for rental income.
           </p>
 
           <p>
@@ -602,7 +608,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Conforming Product Advantage</h3>
           <p>
-            Washington State&apos;s 2026 conforming loan limit for King County is $1,149,825. All four Suburban King County cities have median values ($780K-$950K) well within conforming product territory, meaning properties up to approximately $1.4M (at 80% CLTV) fit within conforming HELOC guidelines. This conforming eligibility opens the full range of 200+ wholesale lenders and their most competitive rate tiers. The rate difference between conforming and jumbo HELOC products typically saves $1,200-$3,000 annually on a $300,000 credit line&mdash;a structural cost advantage that urban Seattle and Eastside homeowners with $1.5M+ properties cannot access.
+            Washington State&apos;s 2026 conforming loan limit for King County is $1,209,750. All four Suburban King County cities have median values ($780K-$950K) well within conforming product territory, meaning properties up to approximately $1.4M (at 80% CLTV) fit within conforming HELOC guidelines. This conforming eligibility opens the full range of 200+ wholesale lenders and their most competitive rate tiers. The rate difference between conforming and jumbo HELOC products typically saves $1,200-$3,000 annually on a $300,000 credit line&mdash;a structural cost advantage that urban Seattle and Eastside homeowners with $1.5M+ properties cannot access.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Transit-Driven Appreciation Catalysts</h3>
@@ -770,7 +776,7 @@ export default function HomeEquitySuburbanKingCounty2026() {
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">What is the conforming loan limit in King County for 2026?</h3>
-              <p className="mb-0"><strong>The 2026 conforming loan limit for King County is $1,149,825 for single-family properties.</strong> This means most Suburban King County homes qualify for conforming HELOC products with the most competitive rates and broadest lender selection. Properties valued up to approximately $1.4M at 80% CLTV fit within conforming guidelines.</p>
+              <p className="mb-0"><strong>The 2026 conforming loan limit for King County is $1,209,750 for single-family properties.</strong> This means most Suburban King County homes qualify for conforming HELOC products with the most competitive rates and broadest lender selection. Properties valued up to approximately $1.4M at 80% CLTV fit within conforming guidelines.</p>
             </div>
 
             <div className="border border-gray-200 rounded-lg p-5">
@@ -780,12 +786,12 @@ export default function HomeEquitySuburbanKingCounty2026() {
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">How much does an ADU cost to build in Suburban King County?</h3>
-              <p className="mb-0"><strong>Detached ADU construction in Suburban King County costs $180,000-$350,000 depending on size, finishes, and site conditions.</strong> Shoreline and Kenmore ADUs average $200,000-$300,000 for 600-800 sq ft units. The completed ADU adds $250,000-$400,000 in property value and generates $2,200-$3,200 monthly rental income tax-free at the state level.</p>
+              <p className="mb-0"><strong>Detached ADU construction in Suburban King County costs $180,000-$350,000 depending on size, finishes, and site conditions.</strong> Shoreline and Kenmore ADUs average $200,000-$300,000 for 600-800 sq ft units. The completed ADU adds $250,000-$400,000 in property value and generates $2,200-$3,200 monthly rental income not subject to state income tax in Washington (consult your tax advisor regarding federal obligations).</p>
             </div>
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">Does Washington State tax home equity income?</h3>
-              <p className="mb-0"><strong>Washington State has no state income tax, meaning all returns from deployed equity are tax-free at the state level.</strong> ADU rental income, investment returns, and capital gains from equity-funded ventures retain their full value. This saves Washington homeowners $2,000-$6,000+ annually compared to identical strategies in California or Oregon.</p>
+              <p className="mb-0"><strong>Washington State has no state income tax, meaning returns from deployed equity are not subject to state income tax.</strong> ADU rental income, investment returns, and capital gains from equity-funded ventures retain more of their value in Washington than in states with income taxes. This saves Washington homeowners $2,000-$6,000+ annually compared to identical strategies in California or Oregon.</p>
             </div>
 
             <div className="border border-gray-200 rounded-lg p-5">

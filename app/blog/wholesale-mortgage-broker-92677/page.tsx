@@ -65,7 +65,7 @@ export default function WholesaleMortgageBroker92677Page() {
                 "name": "Can I get a jumbo loan in Laguna Niguel through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Laguna Niguel median home prices around $1.5M, many purchases require jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Laguna Niguel median home prices around $1.5M, many purchases require jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBroker92677Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.5M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$700K - $4M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">25-40 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Conforming High-Balance / Jumbo</td></tr>
             </tbody>
           </table>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92677Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $3M+</li>
+          <li>Loan amounts from $1,209,750 to $3M+</li>
           <li>Access to 50+ jumbo lenders competing for your business</li>
           <li>10-20% down payment options depending on loan amount</li>
           <li>Primary residence and second home financing</li>
@@ -180,7 +180,7 @@ export default function WholesaleMortgageBroker92677Page() {
 
         <h3>Conforming High-Balance</h3>
         <ul>
-          <li>Loans up to $1,149,825 (2026 Orange County limit)</li>
+          <li>Loans up to $1,209,750 (2026 Orange County limit)</li>
           <li>Best rates for properties near the conforming limit</li>
           <li>Multiple lender options for competitive pricing</li>
           <li>Popular for Laguna Niguel condos and townhomes</li>
@@ -236,12 +236,12 @@ export default function WholesaleMortgageBroker92677Page() {
 
         <h3>Niguel Summit</h3>
         <p>
-          Elevated neighborhood offering sweeping canyon and ocean views. Homes typically $1.3M to $2.5M. Popular with families seeking space and scenery. Mix of jumbo and high-balance conforming loans.
+          Elevated neighborhood offering sweeping canyon and ocean views. Homes typically $1.3M to $2.5M. Known for spacious properties with scenic views. Mix of jumbo and high-balance conforming loans.
         </p>
 
         <h3>Marina Hills</h3>
         <p>
-          Family-friendly community with excellent schools and parks. Homes range from $1M to $2M. Strong demand from move-up buyers. Both conforming and jumbo programs utilized depending on home size.
+          Community with excellent schools, parks, and recreational amenities. Homes range from $1M to $2M. Strong demand from move-up buyers. Both conforming and jumbo programs utilized depending on home size.
         </p>
 
         <h2>Frequently Asked Questions</h2>

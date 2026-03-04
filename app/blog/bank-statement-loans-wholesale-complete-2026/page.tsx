@@ -577,7 +577,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
 
           <h3>Jumbo Bank Statement Loans</h3>
           <p>
-            California's expensive real estate market drives significant demand for jumbo bank statement loans. Self-employed buyers in Orange County, Los Angeles, and the Bay Area regularly need loan amounts exceeding the conforming limit of $1,149,825.
+            California's expensive real estate market drives significant demand for jumbo bank statement loans. Self-employed buyers in Orange County, Los Angeles, and the Bay Area regularly need loan amounts exceeding the conforming limit of $1,209,750.
           </p>
           <p>
             Through wholesale channels, brokers access lenders specializing in high-balance bank statement programs with:

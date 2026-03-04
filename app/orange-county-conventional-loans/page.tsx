@@ -225,7 +225,7 @@ export default function OrangeCountyConventionalLoansPage() {
                       <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Higher Loan Limits</h4>
-                        <p className="text-sm text-slate-600">Up to $1,266,300 in Orange County</p>
+                        <p className="text-sm text-slate-600">Up to $1,209,750 in Orange County</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -249,7 +249,7 @@ export default function OrangeCountyConventionalLoansPage() {
                 <CardContent>
                   <div className="bg-blue-50 p-6 rounded-lg mb-6">
                     <div className="text-center">
-                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,266,300</h3>
+                      <h3 className="text-2xl font-bold text-blue-700 mb-2">$1,209,750</h3>
                       <p className="text-blue-600">Conforming Conventional Loan Limit (2025)</p>
                       <p className="text-sm text-slate-600 mt-2">High-cost area allows for higher loan amounts</p>
                     </div>
@@ -257,7 +257,7 @@ export default function OrangeCountyConventionalLoansPage() {
                   
                   <div className="prose prose-lg max-w-none text-slate-700">
                     <p className="mb-4">
-                      Orange County's designation as a high-cost area means conventional loan limits are significantly above the national baseline. This allows you to purchase homes up to $1,266,300 while still getting the benefits of conforming loan rates.
+                      Orange County's designation as a high-cost area means conventional loan limits are significantly above the national baseline. This allows you to purchase homes up to $1,209,750 while still getting the benefits of conforming loan rates.
                     </p>
                     <p className="mb-4">
                       <strong>Key Facts for Orange County Conventional Loans:</strong>
@@ -424,7 +424,7 @@ export default function OrangeCountyConventionalLoansPage() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Max OC Loan Amount:</span>
-                      <span className="font-semibold">$1,266,300</span>
+                      <span className="font-semibold">$1,209,750</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-600">Mortgage Insurance:</span>

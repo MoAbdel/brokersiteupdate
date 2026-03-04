@@ -151,7 +151,7 @@ export default function RsuComparisonMatrix() {
       )}
 
       <p className="text-xs text-slate-500 mt-4">
-        Educational estimate only. Actual qualification depends on DTI, credit score, assets, and lender guidelines.
+        Educational estimate only. Rates shown are hypothetical for comparison purposes and do not represent current rate offers. Actual qualification, rates, and terms depend on DTI, credit score, assets, property type, and lender guidelines. Not a commitment to lend. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106.
       </p>
     </div>
   );

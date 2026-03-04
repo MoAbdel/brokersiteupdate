@@ -113,7 +113,7 @@ export default function AboutPage() {
             </p>
 
             <p className="leading-relaxed mb-6">
-              Today, I work with Lumin Lending to give my clients access to over 100 wholesale lenders. This means I can shop your loan across dozens of options to find the best rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
+              Today, I work with Lumin Lending to give my clients access to over 100 wholesale lenders. This means I can shop your loan across dozens of options to find competitive rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
             </p>
 
             <p className="text-xl leading-relaxed font-medium text-slate-900">
@@ -175,7 +175,7 @@ export default function AboutPage() {
                 <h3 className="text-lg font-semibold mb-4 text-green-400">Licenses</h3>
                 <ul className="space-y-2 text-slate-300">
                   <li>• NMLS #1426884</li>
-                  <li>• Licensed in: CA, WA, VA, CO</li>
+                  <li>• Licensed in: CA, WA</li>
                   <li>• CA DRE #02291443</li>
                 </ul>
               </div>

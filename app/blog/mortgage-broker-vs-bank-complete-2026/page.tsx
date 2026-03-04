@@ -539,7 +539,7 @@ export default function MortgageBrokerVsBankCompletePage() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 font-semibold">Jumbo Options</td>
-                <td className="py-3 px-4 text-blue-700">50+ lenders</td>
+                <td className="py-3 px-4 text-blue-700">200+ lenders</td>
                 <td className="py-3 px-4">1 product</td>
               </tr>
               <tr>
@@ -800,7 +800,7 @@ export default function MortgageBrokerVsBankCompletePage() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-bold text-gray-900 mb-2">Can mortgage brokers help with jumbo loans?</h3>
             <p className="text-gray-700 mb-0">
-              Brokers excel at jumbo loans. While banks offer one jumbo product with specific guidelines, brokers access 50+ jumbo lenders with varying requirements. This is especially valuable in California where high home prices frequently require jumbo financing above $1,149,825.
+              Brokers excel at jumbo loans. While banks offer one jumbo product with specific guidelines, brokers access 50+ jumbo lenders with varying requirements. This is especially valuable in California where high home prices frequently require jumbo financing above $1,209,750.
             </p>
           </div>
 

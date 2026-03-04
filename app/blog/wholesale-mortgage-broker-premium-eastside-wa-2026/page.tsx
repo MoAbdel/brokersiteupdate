@@ -44,7 +44,7 @@ const faqData = [
   },
   {
     question: 'What jumbo loan limits apply to Mercer Island and Newcastle homes in 2026?',
-    answer: 'The 2026 conforming loan limit in King County is $1,149,825. Any loan above this amount is a jumbo loan. With Mercer Island homes averaging $2.2M and Newcastle at $1.3M, most purchases in these cities require jumbo financing. Wholesale brokers access jumbo programs up to $5M+ with rates competitive to conforming loans.'
+    answer: 'The 2026 conforming loan limit in King County is $1,209,750. Any loan above this amount is a jumbo loan. With Mercer Island homes averaging $2.2M and Newcastle at $1.3M, most purchases in these cities require jumbo financing. Wholesale brokers access jumbo programs up to $5M+ with rates competitive to conforming loans.'
   },
   {
     question: 'Do wholesale mortgage brokers offer bank statement loans for self-employed Eastside borrowers?',
@@ -311,6 +311,12 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Published February 14, 2026</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
 

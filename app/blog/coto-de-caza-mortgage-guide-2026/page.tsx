@@ -236,7 +236,7 @@ export default function CotoDeCazaMortgageGuidePage() {
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <p className="text-sm text-gray-600">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO<br /><br />
+                        Licensed in: CA, WA<br /><br />
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>
                 </div>

@@ -57,7 +57,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
                 "name": "How much can I borrow for a Newport Beach 92660 home?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access jumbo loans up to $10M+ for Newport Harbor properties. With median prices at $2.8M, most buyers need loans well above the $1,149,825 conforming limit."
+                  "text": "Wholesale brokers access jumbo loans up to $10M+ for Newport Harbor properties. With median prices at $2.8M, most buyers need loans well above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -140,7 +140,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$2.8M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.2M - $12M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo / Non-QM</td></tr>
               <tr><td className="py-2 px-4">Common Borrower Profile</td><td className="py-2 px-4 font-semibold">Executives, business owners, investors</td></tr>
             </tbody>
@@ -265,7 +265,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
 
         <h3>How much can I borrow for a Newport Beach 92660 home?</h3>
         <p>
-          Wholesale brokers access jumbo loans up to $10M+ for Newport Harbor properties. With median prices at $2.8M, most buyers need loans well above the $1,149,825 conforming limit. Loan amounts depend on down payment, income qualification, and lender guidelines—but wholesale access means finding lenders who fit your specific situation.
+          Wholesale brokers access jumbo loans up to $10M+ for Newport Harbor properties. With median prices at $2.8M, most buyers need loans well above the $1,209,750 conforming limit. Loan amounts depend on down payment, income qualification, and lender guidelines—but wholesale access means finding lenders who fit your specific situation.
         </p>
 
         <h3>Why choose wholesale over Newport Beach private banks?</h3>

@@ -42,7 +42,7 @@ export default function ReverseMortgageSeattleEastside() {
         name: 'Which Seattle Eastside cities have the highest reverse mortgage potential?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Medina ($5M+ median), Clyde Hill ($3M+), and Mercer Island ($2.5M+) offer the highest equity access. However, most require jumbo reverse mortgages since values exceed the $1,149,825 HECM limit.',
+          text: 'Medina ($5M+ median), Clyde Hill ($3M+), and Mercer Island ($2.5M+) offer the highest equity access. However, most require jumbo reverse mortgages since values exceed the $1,209,750 HECM limit.',
         },
       },
       {
@@ -110,6 +110,12 @@ export default function ReverseMortgageSeattleEastside() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             The Seattle Eastside represents Washington&apos;s most valuable residential real estate corridor, stretching from Bellevue&apos;s downtown towers to Sammamish&apos;s estate-sized lots. For seniors 62 and older, this accumulated equity—often $1 million to $5 million or more—can fund retirement without monthly payments through reverse mortgages. As a wholesale mortgage broker licensed in Washington with access to both FHA HECM and jumbo reverse mortgage products, I help Eastside seniors navigate which option maximizes their specific situation.
@@ -119,7 +125,7 @@ export default function ReverseMortgageSeattleEastside() {
             <h3 className="font-bold text-lg mb-3">Seattle Eastside Reverse Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>Region Median Home Value:</strong> $1.4 million (varies $950K-$5M+ by city)</li>
-              <li><strong>2026 HECM Limit:</strong> $1,149,825 (most Eastside homes exceed this)</li>
+              <li><strong>2026 HECM Limit:</strong> $1,209,750 (most Eastside homes exceed this)</li>
               <li><strong>Jumbo Reverse Available:</strong> Yes, up to $4M+ home values</li>
               <li><strong>Cities Covered:</strong> Bellevue, Kirkland, Redmond, Sammamish, Mercer Island, Issaquah, Clyde Hill, Medina, Woodinville</li>
             </ul>
@@ -452,7 +458,7 @@ export default function ReverseMortgageSeattleEastside() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Which Seattle Eastside cities have the highest reverse mortgage potential?</h3>
-              <p>Medina ($5M+ median), Clyde Hill ($3M+), and Mercer Island ($2.5M+) offer the highest equity access. However, most require jumbo reverse mortgages since values exceed the $1,149,825 HECM limit.</p>
+              <p>Medina ($5M+ median), Clyde Hill ($3M+), and Mercer Island ($2.5M+) offer the highest equity access. However, most require jumbo reverse mortgages since values exceed the $1,209,750 HECM limit.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Do I need a jumbo reverse mortgage for my Eastside home?</h3>

@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92612Page() {
                 "name": "What is the typical loan amount needed in Irvine University Park 92612?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Irvine University Park 92612 has a median home price of $1.4 million, with many homes exceeding the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1M to $1.8M in this UCI-adjacent community."
+                  "text": "Irvine University Park 92612 has a median home price of $1.4 million, with many homes exceeding the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1M to $1.8M in this UCI-adjacent community."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92612Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine University Park 92612 surrounds UC Irvine with a <strong>$1.4 million median home price</strong> attracting faculty, medical professionals, and tech workers. With the 2026 conforming limit at $1,149,825, many 92612 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks—plus lenders who understand academic income, grant funding, and international faculty needs.
+            Irvine University Park 92612 surrounds UC Irvine with a <strong>$1.4 million median home price</strong> attracting faculty, medical professionals, and tech workers. With the 2026 conforming limit at $1,209,750, many 92612 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks—plus lenders who understand academic income, grant funding, and international faculty needs.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92612Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$800,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,000,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">25-40 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92612Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Irvine University Park 92612?</h3>
-            <p className="mb-0">Irvine University Park 92612 has a median home price of $1.4 million, with many homes exceeding the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1M to $1.8M in this UCI-adjacent community.</p>
+            <p className="mb-0">Irvine University Park 92612 has a median home price of $1.4 million, with many homes exceeding the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1M to $1.8M in this UCI-adjacent community.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer faculty and researcher mortgage programs?</h3>

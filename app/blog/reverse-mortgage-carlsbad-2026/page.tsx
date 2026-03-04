@@ -36,7 +36,7 @@ export default function ReverseMortgageCarlsbadPage() {
             "@type": "FAQPage",
             "mainEntity": [
               { "@type": "Question", "name": "Can I get a reverse mortgage in Carlsbad?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Carlsbad homeowners 62+ can qualify for reverse mortgages. With median values around $1.3 million, Carlsbad properties may qualify for standard HECM or proprietary programs depending on specific value and neighborhood." }},
-              { "@type": "Question", "name": "How much can Carlsbad seniors access through a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "Carlsbad seniors can access significant equity. Properties under $1,149,825 use standard HECM, while higher-value La Costa and Aviara homes benefit from proprietary programs. Actual proceeds depend on age, value, and rates." }},
+              { "@type": "Question", "name": "How much can Carlsbad seniors access through a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "Carlsbad seniors can access significant equity. Properties under $1,209,750 use standard HECM, while higher-value La Costa and Aviara homes benefit from proprietary programs. Actual proceeds depend on age, value, and rates." }},
               { "@type": "Question", "name": "Do La Costa homes qualify for reverse mortgages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, La Costa homes qualify for reverse mortgages. This master-planned community has diverse property values from $900K to $3M+, with appropriate programs available for each tier." }},
               { "@type": "Question", "name": "What about Aviara and Four Seasons?", "acceptedAnswer": { "@type": "Answer", "text": "Both Aviara and Four Seasons 55+ community homes qualify. Four Seasons condos and homes work well with reverse mortgages for retirees already in age-restricted communities. Aviara homes often use proprietary programs." }},
               { "@type": "Question", "name": "Can I get a reverse mortgage on Carlsbad Village property?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Carlsbad Village properties qualify. The walkable downtown area has appreciated significantly. Single-family homes and qualifying condos near the beach and downtown can use reverse mortgages." }}
@@ -49,6 +49,12 @@ export default function ReverseMortgageCarlsbadPage() {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage in Carlsbad, CA: HECM Guide for Seniors [2026]</h1>
         <p className="text-lg text-gray-600">Accessing equity in North San Diego County's premier beach city</p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">

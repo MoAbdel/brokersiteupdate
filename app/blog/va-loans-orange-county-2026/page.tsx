@@ -81,7 +81,7 @@ export default function VALoansOrangeCountyPage() {
 
                 <h3>Are there credit score minimums for VA loans?</h3>
                 <p>
-                    The VA itself does not set a minimum credit score, but individual lenders do. Because we work with over 50+ lenders, we can often secure VA financing for veterans with scores that traditional retail banks would turn away.
+                    The VA itself does not set a minimum credit score, but individual lenders do. Because we work with over 200+ lenders, we can often secure VA financing for veterans with scores that traditional retail banks would turn away.
                 </p>
 
                 <h2>Why is the wholesale VA advantage critical in OC?</h2>
@@ -123,7 +123,7 @@ export default function VALoansOrangeCountyPage() {
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Max Loan Amount</td>
                                     <td className="py-3 px-4">Unlimited* (with full entitlement)</td>
-                                    <td className="py-3 px-4">$1,249,125 (Orange County conforming)</td>
+                                    <td className="py-3 px-4">$1,209,750 (Orange County conforming)</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Credit Focus</td>
@@ -162,8 +162,8 @@ export default function VALoansOrangeCountyPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106<br />
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

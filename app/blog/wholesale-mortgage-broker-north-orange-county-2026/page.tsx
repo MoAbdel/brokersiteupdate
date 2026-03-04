@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
         name: 'Is North Orange County more affordable than South OC or coastal areas?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. North OC offers Orange County\'s most accessible homeownership with median prices from $750K-$1.2M—significantly below coastal communities. Many purchases stay within conforming loan limits ($1,149,825), though premium areas like Yorba Linda often exceed this.',
+          text: 'Yes. North OC offers Orange County\'s most accessible homeownership with median prices from $750K-$1.2M—significantly below coastal communities. Many purchases stay within conforming loan limits ($1,209,750), though premium areas like Yorba Linda often exceed this.',
         },
       },
       {
@@ -104,7 +104,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
             <h3 className="font-bold text-lg mb-3">North Orange County Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>Region Median Price:</strong> $950K (varies $700K-$2M+ by area)</li>
-              <li><strong>2026 Conforming Limit:</strong> $1,149,825 (many purchases within conforming)</li>
+              <li><strong>2026 Conforming Limit:</strong> $1,209,750 (many purchases within conforming)</li>
               <li><strong>First-Time Buyer Friendly:</strong> More homes under $1M than other OC regions</li>
               <li><strong>Communities Covered:</strong> Anaheim, Anaheim Hills, Yorba Linda, Orange, Fullerton, Brea, Placentia, Villa Park</li>
             </ul>
@@ -392,7 +392,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is North Orange County more affordable than South OC or coastal areas?</h3>
-              <p>Yes. North OC offers Orange County&apos;s most accessible homeownership with median prices from $750K-$1.2M—significantly below coastal communities. Many purchases stay within conforming loan limits ($1,149,825), though premium areas like Yorba Linda often exceed this.</p>
+              <p>Yes. North OC offers Orange County&apos;s most accessible homeownership with median prices from $750K-$1.2M—significantly below coastal communities. Many purchases stay within conforming loan limits ($1,209,750), though premium areas like Yorba Linda often exceed this.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Are there VA loan specialists in North Orange County?</h3>

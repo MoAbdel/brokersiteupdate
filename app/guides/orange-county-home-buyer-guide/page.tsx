@@ -34,7 +34,7 @@ const homeTypes = [
     type: 'Single Family Homes',
     priceRange: '$800K - $3M+',
     description: 'Detached homes in established neighborhoods with yards and privacy',
-    bestFor: 'Families seeking space and long-term investment'
+    bestFor: 'Buyers seeking space, yards, and long-term investment'
   },
   {
     type: 'Condominiums',
@@ -52,7 +52,7 @@ const homeTypes = [
     type: 'Luxury Properties',
     priceRange: '$2M - $10M+',
     description: 'Premium homes in exclusive communities',
-    bestFor: 'High-net-worth buyers seeking luxury amenities'
+    bestFor: 'Buyers seeking premium finishes and exclusive community amenities'
   }
 ];
 
@@ -60,21 +60,21 @@ const loanOptions = [
   {
     name: 'Conventional Loans',
     downPayment: '3-20%',
-    maxAmount: '$1,266,300',
+    maxAmount: '$1,209,750',
     description: 'Traditional financing with Competitive pricing and flexible terms',
     link: '/conventional-loans-orange-county'
   },
   {
     name: 'FHA Loans',
     downPayment: '3.5%',
-    maxAmount: '$1,266,300',
+    maxAmount: '$1,209,750',
     description: 'Government-backed loans with lower down payment requirements',
     link: '/fha-loans-orange-county'
   },
   {
     name: 'VA Loans',
     downPayment: '0%',
-    maxAmount: '$1,266,300',
+    maxAmount: '$1,209,750',
     description: 'Zero down payment loans for eligible veterans and military',
     link: '/va-loans-orange-county'
   },
@@ -144,7 +144,7 @@ const buyingProcess = [
 const faqs = [
   {
     question: 'How much do I need for a down payment in Orange County?',
-    answer: 'Down payment requirements vary by loan type. FHA loans require as little as 3.5%, conventional loans can be as low as 3%, and VA loans offer 0% down for eligible veterans. For jumbo loans (over $1,266,300), expect 10-20% down. Many Orange County buyers put down 10-20% to remain competitive.'
+    answer: 'Down payment requirements vary by loan type. FHA loans require as little as 3.5%, conventional loans can be as low as 3%, and VA loans offer 0% down for eligible veterans. For jumbo loans (over $1,209,750), expect 10-20% down. Many Orange County buyers put down 10-20% to remain competitive.'
   },
   {
     question: 'What are typical closing costs in Orange County?',

@@ -65,7 +65,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         "name": "Can I get a reverse mortgage on my San Gabriel Valley home in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, if you are 62 or older, live in the home as your primary residence, and have sufficient equity. San Gabriel Valley homes in cities like San Marino, Arcadia, and La Canada Flintridge frequently exceed the FHA HECM limit of $1,149,825, making proprietary reverse mortgages the preferred option for accessing maximum equity."
+          "text": "Yes, if you are 62 or older, live in the home as your primary residence, and have sufficient equity. San Gabriel Valley homes in cities like San Marino, Arcadia, and La Canada Flintridge frequently exceed the FHA HECM limit of $1,209,750, making proprietary reverse mortgages the preferred option for accessing maximum equity."
         }
       },
       {
@@ -73,7 +73,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         "name": "What is the FHA HECM limit for San Gabriel Valley in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The 2026 FHA HECM lending limit is $1,149,825 for all of Los Angeles County, including every San Gabriel Valley city. Homes valued above this limit can access additional equity through proprietary (jumbo) reverse mortgage programs that go up to $4 million or higher."
+          "text": "The 2026 FHA HECM lending limit is $1,209,750 for all of Los Angeles County, including every San Gabriel Valley city. Homes valued above this limit can access additional equity through proprietary (jumbo) reverse mortgage programs that go up to $4 million or higher."
         }
       },
       {
@@ -113,7 +113,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         "name": "What is the difference between HECM and proprietary reverse mortgages in the SGV?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "HECM is the FHA-insured program capped at $1,149,825 with government protections. Proprietary reverse mortgages are private-lender products that accommodate home values above the HECM limit, often up to $4 million or more. In the San Gabriel Valley, where many homes exceed $1.5 million, proprietary programs unlock significantly more equity."
+          "text": "HECM is the FHA-insured program capped at $1,209,750 with government protections. Proprietary reverse mortgages are private-lender products that accommodate home values above the HECM limit, often up to $4 million or more. In the San Gabriel Valley, where many homes exceed $1.5 million, proprietary programs unlock significantly more equity."
         }
       },
       {
@@ -231,13 +231,19 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         </p>
       </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="font-semibold text-gray-900 mb-2 text-xl">San Gabriel Valley Reverse Mortgage: Key Facts for 2026</p>
           <p className="text-gray-800 mb-0">
-            San Gabriel Valley homeowners age 62 and older are sitting on an estimated <strong>$48 billion in collective home equity</strong> across Pasadena, San Marino, Arcadia, La Ca&ntilde;ada Flintridge, South Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta. The 2026 FHA HECM lending limit stands at <strong>$1,149,825</strong>, yet the median home value in San Marino alone exceeds <strong>$3 million</strong>, with La Ca&ntilde;ada Flintridge at <strong>$2.2 million</strong> and Arcadia at <strong>$1.8 million</strong>. For most SGV seniors, proprietary (jumbo) reverse mortgage programs represent the path to accessing full equity. As a wholesale mortgage broker with access to over 200 lenders, I help San Gabriel Valley seniors compare HECM and proprietary reverse mortgage options from multiple providers, ensuring the most competitive terms for every property type and price point in this region.
+            San Gabriel Valley homeowners age 62 and older are sitting on an estimated <strong>$48 billion in collective home equity</strong> across Pasadena, San Marino, Arcadia, La Ca&ntilde;ada Flintridge, South Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta. The 2026 FHA HECM lending limit stands at <strong>$1,209,750</strong>, yet the median home value in San Marino alone exceeds <strong>$3 million</strong>, with La Ca&ntilde;ada Flintridge at <strong>$2.2 million</strong> and Arcadia at <strong>$1.8 million</strong>. For most SGV seniors, proprietary (jumbo) reverse mortgage programs represent the path to accessing full equity. As a wholesale mortgage broker with access to over 200 lenders, I help San Gabriel Valley seniors compare HECM and proprietary reverse mortgage options from multiple providers, ensuring the most competitive terms for every property type and price point in this region.
           </p>
         </div>
 
@@ -347,7 +353,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-medium">Minimum Age</td><td className="py-2 px-4 border-b">62</td><td className="py-2 px-4 border-b">62 (some programs 60)</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Primary Residence</td><td className="py-2 px-4 border-b">Required</td><td className="py-2 px-4 border-b">Required</td></tr>
-              <tr><td className="py-2 px-4 border-b font-medium">Maximum Claim Amount</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$4,000,000+</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Maximum Claim Amount</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$4,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">HUD Counseling</td><td className="py-2 px-4 border-b">Mandatory</td><td className="py-2 px-4 border-b">Varies by lender</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">FHA Mortgage Insurance</td><td className="py-2 px-4 border-b">Yes (2% upfront + 0.5% annual)</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Yes (most programs)</td></tr>
@@ -475,12 +481,12 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         {/* HECM vs Proprietary Deep Dive */}
         <h2>HECM vs. Proprietary Reverse Mortgages: Which Is Right for Your SGV Home?</h2>
         <p>
-          Choosing between a federally insured HECM and a proprietary reverse mortgage is the most important decision San Gabriel Valley seniors face. The answer depends primarily on your home's value relative to the $1,149,825 HECM limit.
+          Choosing between a federally insured HECM and a proprietary reverse mortgage is the most important decision San Gabriel Valley seniors face. The answer depends primarily on your home's value relative to the $1,209,750 HECM limit.
         </p>
 
         <h3>When HECM Makes Sense in the SGV</h3>
         <p>
-          The standard FHA HECM works well for homes valued at or near the $1,149,825 limit. In the San Gabriel Valley, this typically applies to properties in La Crescenta, Montrose, and select neighborhoods in Glendale and Pasadena where home values cluster in the $900,000 to $1,200,000 range. HECM advantages include:
+          The standard FHA HECM works well for homes valued at or near the $1,209,750 limit. In the San Gabriel Valley, this typically applies to properties in La Crescenta, Montrose, and select neighborhoods in Glendale and Pasadena where home values cluster in the $900,000 to $1,200,000 range. HECM advantages include:
         </p>
         <ul>
           <li><strong>FHA insurance protection:</strong> If the lender goes out of business, HUD ensures you continue receiving funds</li>
@@ -504,7 +510,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
 
         <h3>Real-World SGV Examples</h3>
         <p>
-          <strong>Scenario 1 - San Marino Estate:</strong> A 74-year-old retired physician in San Marino owns a $3.2 million estate near the Huntington Library, free and clear. Under HECM, proceeds are capped based on the $1,149,825 limit. With a proprietary reverse mortgage, the borrower accesses equity based on the full $3.2 million appraised value, potentially receiving over $1.5 million in available funds.
+          <strong>Scenario 1 - San Marino Estate:</strong> A 74-year-old retired physician in San Marino owns a $3.2 million estate near the Huntington Library, free and clear. Under HECM, proceeds are capped based on the $1,209,750 limit. With a proprietary reverse mortgage, the borrower accesses equity based on the full $3.2 million appraised value, potentially receiving over $1.5 million in available funds.
         </p>
         <p>
           <strong>Scenario 2 - Pasadena Craftsman:</strong> A 68-year-old retired Caltech professor owns a $1.1 million Craftsman in the Madison Heights neighborhood with $200,000 remaining on a traditional mortgage. The HECM program works well here: proceeds pay off the existing mortgage and provide a line of credit for supplemental retirement income. Estimated net available: $350,000-$400,000.
@@ -607,12 +613,12 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
         <div className="space-y-6 my-8">
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">Can I get a reverse mortgage on my San Gabriel Valley home in 2026?</h3>
-            <p>Yes, if you are 62 or older, live in the home as your primary residence, and have sufficient equity. San Gabriel Valley homes in cities like San Marino, Arcadia, and La Ca&ntilde;ada Flintridge frequently exceed the FHA HECM limit of $1,149,825, making proprietary reverse mortgages the preferred option for accessing maximum equity.</p>
+            <p>Yes, if you are 62 or older, live in the home as your primary residence, and have sufficient equity. San Gabriel Valley homes in cities like San Marino, Arcadia, and La Ca&ntilde;ada Flintridge frequently exceed the FHA HECM limit of $1,209,750, making proprietary reverse mortgages the preferred option for accessing maximum equity.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">What is the FHA HECM limit for San Gabriel Valley in 2026?</h3>
-            <p>The 2026 FHA HECM lending limit is $1,149,825 for all of Los Angeles County, including every San Gabriel Valley city. Homes valued above this limit benefit from proprietary (jumbo) reverse mortgage programs that accommodate values up to $4 million or higher.</p>
+            <p>The 2026 FHA HECM lending limit is $1,209,750 for all of Los Angeles County, including every San Gabriel Valley city. Homes valued above this limit benefit from proprietary (jumbo) reverse mortgage programs that accommodate values up to $4 million or higher.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
@@ -637,7 +643,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">What is the difference between HECM and proprietary reverse mortgages in the SGV?</h3>
-            <p>HECM is the FHA-insured program capped at $1,149,825 with government protections including non-recourse guarantees and line of credit growth. Proprietary reverse mortgages are private-lender products that accommodate home values above the HECM limit, often up to $4 million or more. In the San Gabriel Valley, where many homes exceed $1.5 million, proprietary programs unlock significantly more equity.</p>
+            <p>HECM is the FHA-insured program capped at $1,209,750 with government protections including non-recourse guarantees and line of credit growth. Proprietary reverse mortgages are private-lender products that accommodate home values above the HECM limit, often up to $4 million or more. In the San Gabriel Valley, where many homes exceed $1.5 million, proprietary programs unlock significantly more equity.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
@@ -683,7 +689,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
             The San Gabriel Valley represents one of Southern California&apos;s strongest markets for reverse mortgage equity access. With nine cities ranging from $1 million median values in La Crescenta to $3 million in San Marino, SGV seniors hold an extraordinary volume of untapped home equity. The region&apos;s concentration of retired Caltech, JPL, and healthcare professionals creates a demographic perfectly suited to reverse mortgage products: high equity, fixed retirement incomes, and deep community ties that make aging in place the preferred choice.
           </p>
           <p className="text-gray-800">
-            For homes valued above $1,149,825, proprietary reverse mortgage programs unlock equity far beyond what the standard HECM provides. For homes at or near the HECM limit, the FHA-insured product delivers government-backed protections including line of credit growth and guaranteed non-recourse terms. In either case, working with a wholesale broker who compares programs from multiple lenders ensures SGV seniors access the most competitive terms available in 2026.
+            For homes valued above $1,209,750, proprietary reverse mortgage programs unlock equity far beyond what the standard HECM provides. For homes at or near the HECM limit, the FHA-insured product delivers government-backed protections including line of credit growth and guaranteed non-recourse terms. In either case, working with a wholesale broker who compares programs from multiple lenders ensures SGV seniors access the most competitive terms available in 2026.
           </p>
           <p className="text-gray-800 mb-0">
             If you own a home in the San Gabriel Valley and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.

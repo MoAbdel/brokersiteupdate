@@ -102,7 +102,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             <h3 className="font-bold text-lg mb-3">Central Orange County Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>Region Median Price:</strong> $1.6 million (varies $900K-$20M+ by area)</li>
-              <li><strong>2026 Conforming Limit:</strong> $1,149,825 (most Newport/Irvine needs jumbo)</li>
+              <li><strong>2026 Conforming Limit:</strong> $1,209,750 (most Newport/Irvine needs jumbo)</li>
               <li><strong>Tech Hub:</strong> Irvine Spectrum, Great Park areas—high equity compensation buyers</li>
               <li><strong>Communities Covered:</strong> Irvine, Newport Beach, Costa Mesa, Tustin, Newport Coast</li>
             </ul>

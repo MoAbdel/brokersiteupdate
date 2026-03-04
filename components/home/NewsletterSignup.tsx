@@ -162,13 +162,13 @@ export default function NewsletterSignup() {
               <div className="flex flex-col items-center">
                 <CheckCircle className="w-8 h-8 text-slate-200 mb-2" />
                 <h4 className="font-semibold text-white mb-1">No Spam Promise</h4>
-                <p className="text-sm text-slate-200">Unsubscribe anytime, your info never shared</p>
+                <p className="text-sm text-slate-200">Unsubscribe anytime</p>
               </div>
             </div>
 
             <p className="text-xs text-slate-200 mt-6">
               By subscribing, you agree to receive email updates from Lumin Lending.
-              Your information will never be shared with third parties.
+              Your information is handled in accordance with our <a href="/privacy-policy" className="underline">Privacy Policy</a>.
             </p>
           </div>
         </div>

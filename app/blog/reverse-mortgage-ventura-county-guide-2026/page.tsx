@@ -39,7 +39,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM lending limit for Ventura County properties?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Ventura County properties valued above this threshold\u2014common in Westlake Village ($1.4M median) and Oak Park ($1.2M median)\u2014qualify for proprietary (jumbo) reverse mortgage programs. Properties in Camarillo ($1M) and Moorpark ($900K) typically fit within the standard HECM limit for maximum FHA protections.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Ventura County properties valued above this threshold\u2014common in Westlake Village ($1.4M median) and Oak Park ($1.2M median)\u2014qualify for proprietary (jumbo) reverse mortgage programs. Properties in Camarillo ($1M) and Moorpark ($900K) typically fit within the standard HECM limit for maximum FHA protections.',
     },
     {
       question: 'Can I get a reverse mortgage on my Westlake Village home?',
@@ -47,11 +47,11 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
     },
     {
       question: 'How much can Thousand Oaks seniors get from a reverse mortgage?',
-      answer: 'A 72-year-old Thousand Oaks homeowner with a $1.1 million property and no existing mortgage accesses approximately $495,000\u2013$575,000 through the standard HECM program (which caps value basis at $1,149,825). Homeowners with higher-value properties in North Ranch or Dos Vientos access additional equity through proprietary programs.',
+      answer: 'A 72-year-old Thousand Oaks homeowner with a $1.1 million property and no existing mortgage accesses approximately $495,000\u2013$575,000 through the standard HECM program (which caps value basis at $1,209,750). Homeowners with higher-value properties in North Ranch or Dos Vientos access additional equity through proprietary programs.',
     },
     {
       question: 'Are Camarillo properties eligible for standard HECM reverse mortgages?',
-      answer: 'Yes. Camarillo\u2019s $1 million median home value fits within the $1,149,825 HECM limit, making most Camarillo properties eligible for the standard FHA-insured HECM program. This provides government-backed non-recourse protection and competitive rates. Camarillo seniors benefit from full HECM features including the growing line of credit.',
+      answer: 'Yes. Camarillo\u2019s $1 million median home value fits within the $1,209,750 HECM limit, making most Camarillo properties eligible for the standard FHA-insured HECM program. This provides government-backed non-recourse protection and competitive rates. Camarillo seniors benefit from full HECM features including the growing line of credit.',
     },
     {
       question: 'What happens to my Ventura County home if I get a reverse mortgage?',
@@ -203,12 +203,24 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="font-semibold text-gray-900 mb-2">Ventura County Reverse Mortgage at a Glance</p>
           <p className="text-gray-700 mb-0">
-            Ventura County&apos;s affluent suburban corridor&mdash;Westlake Village ($1.4M median), Thousand Oaks ($1.1M), Oak Park ($1.2M), Camarillo ($1M), and Moorpark ($900K)&mdash;holds an estimated <strong>$18 billion in senior homeowner equity</strong>. Homeowners 62+ in these communities access this wealth through FHA HECM programs (limit: <strong>$1,149,825</strong> for 2026) and proprietary reverse mortgages for higher-value properties. Ventura County&apos;s combination of LA commuter wealth and suburban stability creates ideal conditions for reverse mortgage qualification.
+            Ventura County&apos;s affluent suburban corridor&mdash;Westlake Village ($1.4M median), Thousand Oaks ($1.1M), Oak Park ($1.2M), Camarillo ($1M), and Moorpark ($900K)&mdash;holds an estimated <strong>$18 billion in senior homeowner equity</strong>. Homeowners 62+ in these communities access this wealth through FHA HECM programs (limit: <strong>$1,209,750</strong> for 2026) and proprietary reverse mortgages for higher-value properties. Ventura County&apos;s combination of LA commuter wealth and suburban stability creates ideal conditions for reverse mortgage qualification.
           </p>
         </div>
 
@@ -264,7 +276,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
           Based on Mo Abdel&apos;s experience with Westlake Village properties, the community&apos;s homeowner association structure requires attention during the reverse mortgage process. Properties within the Westlake Village HOA must demonstrate current HOA compliance and fee payment history. Mo Abdel&apos;s team coordinates with local HOAs to gather required documentation, preventing delays that less experienced brokers encounter.
         </p>
         <p>
-          Westlake Village&apos;s position above the $1,149,825 HECM limit means most homeowners benefit from proprietary reverse mortgage programs. A 74-year-old Westlake Village homeowner with a $1.4 million free-and-clear property accesses approximately $630,000&ndash;$770,000 through proprietary programs&mdash;significantly more than the HECM would allow since the HECM caps the value basis at $1,149,825.
+          Westlake Village&apos;s position above the $1,209,750 HECM limit means most homeowners benefit from proprietary reverse mortgage programs. A 74-year-old Westlake Village homeowner with a $1.4 million free-and-clear property accesses approximately $630,000&ndash;$770,000 through proprietary programs&mdash;significantly more than the HECM would allow since the HECM caps the value basis at $1,209,750.
         </p>
 
         <h2>Thousand Oaks: Conejo Valley&apos;s Biotech Retirement Hub</h2>
@@ -283,7 +295,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
 
         <h2>Oak Park: Family Suburb Equity for Retirement Security</h2>
         <p>
-          Oak Park&apos;s $1.2 million median positions it between the HECM limit and the proprietary threshold. This creates a strategic decision point for Oak Park seniors: the standard HECM covers value up to $1,149,825 with FHA protections, while proprietary programs access the full $1.2 million valuation without FHA insurance costs.
+          Oak Park&apos;s $1.2 million median positions it between the HECM limit and the proprietary threshold. This creates a strategic decision point for Oak Park seniors: the standard HECM covers value up to $1,209,750 with FHA protections, while proprietary programs access the full $1.2 million valuation without FHA insurance costs.
         </p>
         <p>
           In our Oak Park consultations, we run both HECM and proprietary calculations for every client. The results frequently favor the HECM program for Oak Park properties because the FHA mortgage insurance premium (0.5% annually) is offset by lower origination costs and government-backed non-recourse guarantees. However, Oak Park homes above $1.3 million&mdash;particularly in the South Ridge and Upper Oak Park neighborhoods&mdash;clearly benefit from proprietary programs.
@@ -432,7 +444,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Max Property Value Basis</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">$4M+</td></tr>
+              <tr><td className="py-2 px-4 border-b">Max Property Value Basis</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">$4M+</td></tr>
               <tr><td className="py-2 px-4 border-b">FHA Insurance</td><td className="py-2 px-4 border-b">Yes (2% initial + 0.5% annual)</td><td className="py-2 px-4 border-b">No</td></tr>
               <tr><td className="py-2 px-4 border-b">Non-Recourse Protection</td><td className="py-2 px-4 border-b">Yes (FHA guaranteed)</td><td className="py-2 px-4 border-b">Yes (most programs)</td></tr>
               <tr><td className="py-2 px-4 border-b">Line of Credit Growth</td><td className="py-2 px-4 border-b">Yes</td><td className="py-2 px-4 border-b">Varies by lender</td></tr>
@@ -442,7 +454,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
           </table>
         </div>
         <p>
-          For Ventura County seniors with properties between $1 million and $1.2 million&mdash;a common range in Oak Park and parts of Thousand Oaks&mdash;we run both HECM and proprietary calculations to determine which program delivers superior net proceeds. Based on Mo Abdel&apos;s analysis, the HECM program frequently wins for properties in this range because the FHA insurance protections outweigh the marginal value difference between the $1,149,825 cap and actual property values.
+          For Ventura County seniors with properties between $1 million and $1.2 million&mdash;a common range in Oak Park and parts of Thousand Oaks&mdash;we run both HECM and proprietary calculations to determine which program delivers superior net proceeds. Based on Mo Abdel&apos;s analysis, the HECM program frequently wins for properties in this range because the FHA insurance protections outweigh the marginal value difference between the $1,209,750 cap and actual property values.
         </p>
 
         {/* Heir Planning */}

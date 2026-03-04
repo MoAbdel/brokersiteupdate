@@ -93,7 +93,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
         name: 'What loan amounts are typical for Solana Beach home purchases?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Solana Beach median home values sit near $2 million, with oceanfront properties reaching $5 million or more. Typical loan amounts range from $1.2 million to $3.5 million, requiring jumbo financing above the $1,149,825 conforming limit that wholesale brokers specialize in.',
+          text: 'Solana Beach median home values sit near $2 million, with oceanfront properties reaching $5 million or more. Typical loan amounts range from $1.2 million to $3.5 million, requiring jumbo financing above the $1,209,750 conforming limit that wholesale brokers specialize in.',
         },
       },
       {
@@ -238,13 +238,25 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           </div>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal North San Diego Mortgage Market</p>
             <p className="text-gray-800 mb-0">
-              Coastal North San Diego County&mdash;spanning Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;recorded approximately <strong>$4.1 billion in residential mortgage originations</strong> during 2025, according to San Diego County Assessor transaction data. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, <strong>over 85% of purchase transactions require jumbo financing</strong> above the 2026 conforming loan limit of $1,149,825. This corridor&apos;s concentration of equestrian estates, oceanfront properties, and self-employed entrepreneurs creates a market where wholesale broker access to 200+ lenders delivers measurable rate advantages over single-lender retail channels. Rancho Santa Fe alone contains more than 300 equestrian properties requiring specialized appraisal and lending expertise that most banks simply do not offer.
+              Coastal North San Diego County&mdash;spanning Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;recorded approximately <strong>$4.1 billion in residential mortgage originations</strong> during 2025, according to San Diego County Assessor transaction data. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, <strong>over 85% of purchase transactions require jumbo financing</strong> above the 2026 conforming loan limit of $1,209,750. This corridor&apos;s concentration of equestrian estates, oceanfront properties, and self-employed entrepreneurs creates a market where wholesale broker access to 200+ lenders delivers measurable rate advantages over single-lender retail channels. Rancho Santa Fe alone contains more than 300 equestrian properties requiring specialized appraisal and lending expertise that most banks simply do not offer.
             </p>
           </div>
 
@@ -702,7 +714,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker in Coastal North San Diego?</h3>
-              <p><strong>A wholesale broker accesses 200+ lenders to find the best jumbo rates for Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for luxury properties above the $1,149,825 conforming limit where jumbo lender competition directly impacts borrower savings.</p>
+              <p><strong>A wholesale broker accesses 200+ lenders to find the best jumbo rates for Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for luxury properties above the $1,209,750 conforming limit where jumbo lender competition directly impacts borrower savings.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much do borrowers save with a wholesale broker in Del Mar?</h3>
@@ -754,7 +766,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What loan amounts are typical for Solana Beach home purchases?</h3>
-              <p>Solana Beach median home values sit near $2 million, with oceanfront properties reaching $5 million or more. Typical loan amounts range from $1.2 million to $3.5 million, requiring jumbo financing above the $1,149,825 conforming limit that wholesale brokers specialize in.</p>
+              <p>Solana Beach median home values sit near $2 million, with oceanfront properties reaching $5 million or more. Typical loan amounts range from $1.2 million to $3.5 million, requiring jumbo financing above the $1,209,750 conforming limit that wholesale brokers specialize in.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Do wholesale brokers offer interest-only jumbo loans for Coastal North SD?</h3>

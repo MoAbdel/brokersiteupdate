@@ -40,11 +40,11 @@ export default function ReverseMortgageSouthSoundGuide2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM reverse mortgage limit for South Sound properties?',
-      answer: 'The 2026 FHA HECM limit is $1,149,825 nationwide, covering all South Sound communities including Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom. The HECM calculation uses your home value up to $1,149,825 regardless of actual appraised value. South Sound median home values range from $600,000 to $757,000, meaning the full property value qualifies for HECM calculation in all five primary communities.',
+      answer: 'The 2026 FHA HECM limit is $1,209,750 nationwide, covering all South Sound communities including Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom. The HECM calculation uses your home value up to $1,209,750 regardless of actual appraised value. South Sound median home values range from $600,000 to $757,000, meaning the full property value qualifies for HECM calculation in all five primary communities.',
     },
     {
       question: 'Can military retirees near JBLM get a reverse mortgage on their South Sound home?',
-      answer: 'Yes. Military retirees who are 62 or older and own their primary residence qualify for HECM reverse mortgages regardless of VA loan history. If you currently have a VA mortgage on your Bonney Lake or Steilacoom home, the HECM pays off that existing VA loan first, then provides remaining equity as tax-free funds. Military pension and VA disability income do not affect HECM eligibility because reverse mortgages have no monthly payment requirement.',
+      answer: 'Yes. Military retirees who are 62 or older and own their primary residence qualify for HECM reverse mortgages regardless of VA loan history. If you currently have a VA mortgage on your Bonney Lake or Steilacoom home, the HECM pays off that existing VA loan first, then provides remaining equity as loan proceeds (not considered taxable income\u2014consult a tax professional). Military pension and VA disability income do not affect HECM eligibility because reverse mortgages have no monthly payment requirement.',
     },
     {
       question: 'How much equity can a Gig Harbor homeowner access through a reverse mortgage?',
@@ -240,6 +240,18 @@ export default function ReverseMortgageSouthSoundGuide2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -247,7 +259,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
             South Sound Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold a combined $3.6 billion in residential equity&mdash;wealth accumulated through decades of homeownership in one of Washington state&apos;s fastest-appreciating corridors. With median home values from $600,000 in Bonney Lake to $757,000 in Gig Harbor, every primary community falls well within the 2026 HECM limit of $1,149,825. For seniors 62 and older, a reverse mortgage converts this equity into tax-free funds&mdash;monthly income, a growing line of credit, or a lump sum&mdash;with no monthly mortgage payments and no state income tax on proceeds.
+            South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold a combined $3.6 billion in residential equity&mdash;wealth accumulated through decades of homeownership in one of Washington state&apos;s fastest-appreciating corridors. With median home values from $600,000 in Bonney Lake to $757,000 in Gig Harbor, every primary community falls well within the 2026 HECM limit of $1,209,750. For seniors 62 and older, a reverse mortgage converts this equity into loan proceeds&mdash;monthly income, a growing line of credit, or a lump sum&mdash;with no monthly mortgage payments and no state income tax on proceeds.
           </p>
         </div>
 
@@ -324,7 +336,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
           </table>
         </div>
         <p>
-          These estimated HECM proceeds assume a 70-year-old borrower with no existing mortgage, current interest rate conditions, and full property value within the 2026 HECM limit of $1,149,825. Older borrowers access a higher percentage of home value: a 75-year-old receives approximately 8-12% more than a 70-year-old, and an 80-year-old receives approximately 15-20% more. Existing mortgage balances reduce available proceeds because the HECM must first pay off any current mortgage.
+          These estimated HECM proceeds assume a 70-year-old borrower with no existing mortgage, current interest rate conditions, and full property value within the 2026 HECM limit of $1,209,750. Older borrowers access a higher percentage of home value: a 75-year-old receives approximately 8-12% more than a 70-year-old, and an 80-year-old receives approximately 15-20% more. Existing mortgage balances reduce available proceeds because the HECM must first pay off any current mortgage.
         </p>
 
         {/* E-E-A-T Marker */}
@@ -560,7 +572,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
           Maple Valley occupies a unique position in the South Sound market as a mountain-gateway community where suburban family homes transition into rural luxury estates, horse properties, and acreage parcels backing up to the foothills of the Cascades. This combination of family-oriented neighborhoods and equestrian estates creates property values ranging from $650,000 for standard homes to $1.5 million+ for horse properties with barns, arenas, and multiple acres.
         </p>
         <p>
-          At a $750,000 median, Maple Valley seniors access approximately $395,000-$450,000 through HECM at age 70 with no existing mortgage. For equestrian estate owners, the property value may significantly exceed the median, increasing available proceeds proportionally up to the HECM limit of $1,149,825. A Maple Valley horse property owner with a $1.1 million estate accesses approximately $520,000-$600,000&mdash;sufficient to fund decades of retirement living, property maintenance, and horse boarding expenses.
+          At a $750,000 median, Maple Valley seniors access approximately $395,000-$450,000 through HECM at age 70 with no existing mortgage. For equestrian estate owners, the property value may significantly exceed the median, increasing available proceeds proportionally up to the HECM limit of $1,209,750. A Maple Valley horse property owner with a $1.1 million estate accesses approximately $520,000-$600,000&mdash;sufficient to fund decades of retirement living, property maintenance, and horse boarding expenses.
         </p>
         <p>
           Maple Valley&apos;s appeal as a retirement destination stems from its combination of rural character with urban access. Maple Valley residents reach downtown Seattle in 35-45 minutes, have immediate access to Cascade mountain recreation, and enjoy larger lot sizes that accommodate multi-generational living. Seniors who purchased Maple Valley properties 15-25 years ago hold some of the region&apos;s strongest equity positions, making HECM an ideal tool for converting that land-based wealth into retirement cash flow.
@@ -737,7 +749,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
             Expert Summary: South Sound Reverse Mortgage Advantage
           </h2>
           <p className="text-slate-900 mb-4">
-            South Sound seniors across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold $3.6 billion in combined residential equity built through decades of homeownership in one of Washington&apos;s most resilient housing markets. With median values from $600,000 to $757,000 and all properties well within the $1,149,825 HECM limit, every South Sound community delivers substantial reverse mortgage proceeds. Washington&apos;s zero state income tax amplifies the benefit&mdash;every dollar of HECM proceeds stays in your pocket.
+            South Sound seniors across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold $3.6 billion in combined residential equity built through decades of homeownership in one of Washington&apos;s most resilient housing markets. With median values from $600,000 to $757,000 and all properties well within the $1,209,750 HECM limit, every South Sound community delivers substantial reverse mortgage proceeds. Washington&apos;s zero state income tax amplifies the benefit&mdash;every dollar of HECM proceeds stays in your pocket.
           </p>
           <p className="text-slate-900 mb-4">
             The South Sound region&apos;s distinctive characteristics&mdash;harbor town waterfront premiums, equestrian estate valuations, Chambers Bay golf course adjacency, JBLM military retiree transitions, and Steilacoom historic preservation&mdash;require reverse mortgage expertise that generic lenders lack. Proper appraiser selection, understanding of military VA-to-HECM transitions, and knowledge of local property value drivers determine whether your HECM delivers maximum benefit.

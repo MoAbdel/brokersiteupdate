@@ -50,7 +50,7 @@ export default function ReverseMortgageMercerIsland() {
         name: 'Why do Mercer Island homes often need jumbo reverse mortgages?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Standard HECM loans are capped at calculating proceeds on home values up to $1,149,825. With Mercer Island homes typically valued at $2M+, jumbo reverse mortgages allow access to more of your equity.',
+          text: 'Standard HECM loans are capped at calculating proceeds on home values up to $1,209,750. With Mercer Island homes typically valued at $2M+, jumbo reverse mortgages allow access to more of your equity.',
         },
       },
     ],
@@ -68,6 +68,12 @@ export default function ReverseMortgageMercerIsland() {
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -106,7 +112,7 @@ export default function ReverseMortgageMercerIsland() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Max Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">$4M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -201,7 +207,7 @@ export default function ReverseMortgageMercerIsland() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why do Mercer Island homes often need jumbo reverse mortgages?</h3>
-              <p>Standard HECM loans are capped at calculating proceeds on home values up to $1,149,825. With Mercer Island homes typically valued at $2M+, jumbo reverse mortgages allow access to more of your equity.</p>
+              <p>Standard HECM loans are capped at calculating proceeds on home values up to $1,209,750. With Mercer Island homes typically valued at $2M+, jumbo reverse mortgages allow access to more of your equity.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What happens to my Mercer Island home when I pass away?</h3>

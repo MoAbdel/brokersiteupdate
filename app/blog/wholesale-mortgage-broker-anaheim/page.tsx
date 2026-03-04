@@ -124,7 +124,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
                 "name": "Can I get a jumbo loan in Anaheim through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. While much of Anaheim falls within conforming loan limits, Anaheim Hills properties frequently require jumbo financing above $1,149,825. Wholesale brokers have access to 20+ jumbo lenders with varying guidelines, enabling competitive rate shopping and flexible qualification options for higher-priced Anaheim homes."
+                  "text": "Yes. While much of Anaheim falls within conforming loan limits, Anaheim Hills properties frequently require jumbo financing above $1,209,750. Wholesale brokers have access to 20+ jumbo lenders with varying guidelines, enabling competitive rate shopping and flexible qualification options for higher-priced Anaheim homes."
                 }
               },
               {
@@ -250,7 +250,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
         </p>
 
         <ul>
-          <li><strong>Jumbo loan expertise essential:</strong> Most properties exceed the $1,149,825 conforming limit</li>
+          <li><strong>Jumbo loan expertise essential:</strong> Most properties exceed the $1,209,750 conforming limit</li>
           <li><strong>Bank statement programs popular:</strong> High concentration of business owners and executives</li>
           <li><strong>Super jumbo availability:</strong> Properties above $2 million require specialty lenders</li>
           <li><strong>View lot considerations:</strong> Some hillside properties require additional appraisal attention</li>
@@ -431,7 +431,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
         <ul>
           <li><strong>Down payment:</strong> 3% for first-time buyers, 5-20% standard options</li>
           <li><strong>Credit requirements:</strong> 620 minimum, better rates at 740+</li>
-          <li><strong>Conforming limit:</strong> Up to $1,149,825 in Orange County (2026)</li>
+          <li><strong>Conforming limit:</strong> Up to $1,209,750 in Orange County (2026)</li>
           <li><strong>PMI options:</strong> Monthly, single premium, or lender-paid structures</li>
           <li><strong>Wholesale advantage:</strong> Compare rates across 200+ conventional lenders</li>
         </ul>
@@ -443,7 +443,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
         </p>
 
         <ul>
-          <li><strong>Loan amounts:</strong> Above $1,149,825, with super jumbo for $2M+ purchases</li>
+          <li><strong>Loan amounts:</strong> Above $1,209,750, with super jumbo for $2M+ purchases</li>
           <li><strong>Down payment:</strong> Typically 10-20% depending on loan amount and credit</li>
           <li><strong>Credit requirements:</strong> Generally 680+ with strong reserves</li>
           <li><strong>Wholesale advantage:</strong> Access to 20+ jumbo lenders with different guidelines and pricing</li>
@@ -477,7 +477,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
         <ul>
           <li><strong>Down payment:</strong> 3.5% with 580+ credit score</li>
           <li><strong>Credit flexibility:</strong> More lenient than conventional guidelines</li>
-          <li><strong>Loan limit:</strong> $1,149,825 in Orange County (2026)</li>
+          <li><strong>Loan limit:</strong> $1,209,750 in Orange County (2026)</li>
           <li><strong>Best for:</strong> First-time buyers, buyers rebuilding credit, lower down payment situations</li>
           <li><strong>Consideration:</strong> Mortgage insurance for life of loan unless refinanced</li>
         </ul>

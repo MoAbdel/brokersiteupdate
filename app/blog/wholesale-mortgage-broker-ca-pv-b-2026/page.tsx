@@ -795,7 +795,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
           </h2>
 
           <p className="text-gray-700 mb-6">
-            Western LA&apos;s five-city corridor recorded $4.7 billion in residential sales volume during 2025, with median days on market ranging from 28 days in Calabasas to 67 days in Malibu. The 2026 conforming loan limit for Los Angeles County is $1,266,300 &mdash; meaning every median-priced property in this corridor requires jumbo or super-jumbo financing. Understanding how each loan program maps to local market conditions determines which wholesale lender delivers the optimal combination of rate, terms, and qualification flexibility.
+            Western LA&apos;s five-city corridor recorded $4.7 billion in residential sales volume during 2025, with median days on market ranging from 28 days in Calabasas to 67 days in Malibu. The 2026 conforming loan limit for Los Angeles County is $1,209,750 &mdash; meaning every median-priced property in this corridor requires jumbo or super-jumbo financing. Understanding how each loan program maps to local market conditions determines which wholesale lender delivers the optimal combination of rate, terms, and qualification flexibility.
           </p>
 
           {/* Price Trends Table */}
@@ -916,7 +916,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
           </div>
 
           <p className="text-gray-700">
-            The 2026 conforming loan limit of $1,266,300 for Los Angeles County means any purchase above $1,583,000 (at 20% down) enters jumbo territory. In Western LA, where the lowest median price (Calabasas at $2.18M) still exceeds this threshold by 37%, wholesale jumbo access is not optional &mdash; it is required for competitive financing.
+            The 2026 conforming loan limit of $1,209,750 for Los Angeles County means any purchase above $1,583,000 (at 20% down) enters jumbo territory. In Western LA, where the lowest median price (Calabasas at $2.18M) still exceeds this threshold by 37%, wholesale jumbo access is not optional &mdash; it is required for competitive financing.
           </p>
         </section>
 
@@ -1013,7 +1013,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
                 What is the 2026 conforming loan limit for Los Angeles County?
               </h3>
               <p className="text-gray-700">
-                The 2026 conforming loan limit for Los Angeles County is $1,266,300 for a single-unit property. Loan amounts above this threshold require jumbo financing. Every city in the Western LA corridor exceeds this limit at median pricing.
+                The 2026 conforming loan limit for Los Angeles County is $1,209,750 for a single-unit property. Loan amounts above this threshold require jumbo financing. Every city in the Western LA corridor exceeds this limit at median pricing.
               </p>
             </div>
 

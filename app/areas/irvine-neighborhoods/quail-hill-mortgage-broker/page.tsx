@@ -70,7 +70,7 @@ export default function QuailHillMortgageBrokerPage() {
           },
           {
             question: "Do Quail Hill homes require jumbo financing?",
-            answer: "90% of Quail Hill homes exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo loan financing. The premium nature and newer construction of the community means most properties need jumbo loans."
+            answer: "90% of Quail Hill homes exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. The premium nature and newer construction of the community means most properties need jumbo loans."
           },
           {
             question: "What amenities are available in Quail Hill?",

@@ -335,7 +335,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">The Jumbo Loan Multiplier Effect</p>
-            <p className="text-gray-700">California&apos;s high property values mean a large percentage of mortgages are jumbo loans (above the $766,550 conforming limit in most counties). On a $1.5 million jumbo mortgage, a 0.25% rate difference saves approximately $75,000 over 30 years. In our California closings, jumbo borrowers realize the most dramatic savings by accessing wholesale pricing from multiple competing jumbo lenders. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a jumbo rate comparison.</p>
+            <p className="text-gray-700">California&apos;s high property values mean a large percentage of mortgages are jumbo loans (above the $806,500 conforming limit in most counties). On a $1.5 million jumbo mortgage, a 0.25% rate difference saves approximately $75,000 over 30 years. In our California closings, jumbo borrowers realize the most dramatic savings by accessing wholesale pricing from multiple competing jumbo lenders. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a jumbo rate comparison.</p>
           </div>
 
           {/* 6 CA Metro Coverage Areas */}
@@ -414,7 +414,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
 
           <h3 className="text-xl font-semibold text-gray-900">Conventional Conforming</h3>
           <p>
-            Standard Fannie Mae and Freddie Mac programs for loan amounts up to $766,550 (most California counties) or $1,149,825 in designated high-cost counties. Down payments from 3% to 20%. PMI required below 20% down. In our California closings, conventional conforming loans benefit most from wholesale rate shopping since small rate differences across dozens of lenders create meaningful savings at scale.
+            Standard Fannie Mae and Freddie Mac programs for loan amounts up to $806,500 (most California counties) or $1,209,750 in designated high-cost counties. Down payments from 3% to 20%. PMI required below 20% down. In our California closings, conventional conforming loans benefit most from wholesale rate shopping since small rate differences across dozens of lenders create meaningful savings at scale.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900">Jumbo Loans</h3>
@@ -424,7 +424,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
 
           <h3 className="text-xl font-semibold text-gray-900">FHA Loans</h3>
           <p>
-            Government-insured loans with 3.5% down payment and credit scores as low as 580. FHA loan limits in California range from $498,257 in lower-cost counties to $1,149,825 in high-cost areas including Los Angeles, Orange, San Francisco, and San Diego counties. Wholesale FHA lenders provide competitive pricing and faster processing than retail bank FHA programs.
+            Government-insured loans with 3.5% down payment and credit scores as low as 580. FHA loan limits in California range from $498,257 in lower-cost counties to $1,209,750 in high-cost areas including Los Angeles, Orange, San Francisco, and San Diego counties. Wholesale FHA lenders provide competitive pricing and faster processing than retail bank FHA programs.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900">VA Loans</h3>

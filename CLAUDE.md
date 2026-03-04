@@ -63,7 +63,7 @@ Successfully implemented a complete, SEO-optimized Next.js mortgage broker websi
 - **Template fix**: Corrected CityPageTemplate phone number from (714) 555-0123
 
 #### 7. **Current Data Updates** ✅
-- **2026 conforming loan limits**: Updated from $766,550 to $1,266,300
+- **2025 conforming loan limits (FHFA)**: Baseline $806,500, high-cost (OC) $1,209,750. Limits updated annually.
 - **Market data**: Updated from "2024" to "2026" references
 - **Fresh content signals** for improved SEO rankings
 

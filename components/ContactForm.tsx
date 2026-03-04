@@ -115,7 +115,7 @@ export default function ContactForm() {
           <h3 className="text-2xl font-bold text-slate-900 mb-2">Thank You for Your Inquiry!</h3>
           <p className="text-slate-600 mb-6">
             We received your information and will be reaching out within 1 business day with your personalized loan quote. 
-            Mo will personally review your details to ensure you get the best possible terms.
+            Mo will personally review your details to find competitive loan options suited to your needs.
           </p>
           <Button 
             onClick={() => setShowSuccess(false)}
@@ -275,6 +275,13 @@ export default function ContactForm() {
           />
         </div>
         
+        <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
+          <input type="checkbox" required className="mt-1 shrink-0" />
+          <span>
+            By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
+          </span>
+        </label>
+
         <Button
           type="submit"
           disabled={isSubmitting}
@@ -284,10 +291,9 @@ export default function ContactForm() {
           {isSubmitting ? 'Submitting...' : 'Get My Free Quote'}
         </Button>
       </form>
-      
-      <p className="text-xs text-slate-500 mt-4 text-center">
-        By submitting this form, you consent to be contacted by Mo Abdel regarding mortgage services. 
-        Your information will never be shared with third parties.
+
+      <p className="text-xs text-slate-400 text-center mt-3">
+        This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
       </p>
     </div>
   );

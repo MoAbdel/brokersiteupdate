@@ -104,11 +104,11 @@ export default function OrangeCountyVALoansPage() {
                 <div className="space-y-4">
                   <div className="flex justify-between">
                     <span className="text-slate-600">Basic Entitlement:</span>
-                    <span className="font-bold text-blue-600">$1,266,300</span>
+                    <span className="font-bold text-blue-600">$1,209,750</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Maximum No-Down Loan:</span>
-                    <span className="font-bold text-blue-600">$1,266,300</span>
+                    <span className="font-bold text-blue-600">$1,209,750</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">VA Funding Fee:</span>
@@ -121,7 +121,7 @@ export default function OrangeCountyVALoansPage() {
                 </div>
                 <p className="text-xs text-slate-500 mt-4">
                   *Higher loan amounts available with down payment. 
-                  <Link href="/loan-programs/va-loans" className="text-blue-600 hover:text-blue-700 underline ml-1">
+                  <Link href="/loan-programs/orange-county-va-loans" className="text-blue-600 hover:text-blue-700 underline ml-1">
                     Learn more about VA loan details
                   </Link>
                 </p>
@@ -354,9 +354,9 @@ export default function OrangeCountyVALoansPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  For homes above $1,266,300, you can use a VA jumbo loan with a down payment 
+                  For homes above $1,209,750, you can use a VA jumbo loan with a down payment 
                   covering the difference. Example: $1.5M home requires $410,700 down payment 
-                  to use your VA benefit for the remaining $1,266,300.
+                  to use your VA benefit for the remaining $1,209,750.
                 </p>
               </CardContent>
             </Card>

@@ -74,7 +74,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
           },
           {
             question: "Do I need a jumbo loan for most IUSD homes?",
-            answer: "About 85% of homes within IUSD boundaries require jumbo loans above $1,266,300. However, condos and townhomes often fall within conventional loan limits, making them more accessible for families."
+            answer: "About 85% of homes within IUSD boundaries require jumbo loans above $1,209,750. However, condos and townhomes often fall within conventional loan limits, making them more accessible for families."
           }
         ]
       }

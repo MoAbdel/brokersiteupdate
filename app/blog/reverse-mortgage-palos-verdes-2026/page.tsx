@@ -65,7 +65,7 @@ export default function ReverseMortgagePalosVerdesPage() {
                 "name": "How much can Palos Verdes seniors access through a reverse mortgage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The amount depends on age, home value, and current rates. With PV home values ranging from $1.8M to $3.5M+, seniors can potentially access substantial funds through proprietary programs that exceed the $1,149,825 HECM limit."
+                  "text": "The amount depends on age, home value, and current rates. With PV home values ranging from $1.8M to $3.5M+, seniors can potentially access substantial funds through proprietary programs that exceed the $1,209,750 HECM limit."
                 }
               },
               {
@@ -97,6 +97,12 @@ export default function ReverseMortgagePalosVerdesPage() {
           Accessing equity in the Peninsula's exclusive communities
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -165,7 +171,7 @@ export default function ReverseMortgagePalosVerdesPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Under $1.15M</td><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">Up to $1,149,825 basis</td></tr>
+              <tr><td className="py-2 px-4 border-b">Under $1.15M</td><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">Up to $1,209,750 basis</td></tr>
               <tr><td className="py-2 px-4 border-b">$1.15M - $2M</td><td className="py-2 px-4 border-b">Proprietary</td><td className="py-2 px-4 border-b">Full value consideration</td></tr>
               <tr><td className="py-2 px-4 border-b">$2M - $4M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Full value consideration</td></tr>
               <tr><td className="py-2 px-4">$4M+</td><td className="py-2 px-4 text-blue-700 font-semibold">Proprietary</td><td className="py-2 px-4 text-blue-700 font-semibold">Jumbo specialists</td></tr>
@@ -215,7 +221,7 @@ export default function ReverseMortgagePalosVerdesPage() {
 
         <h3>How much can Palos Verdes seniors access through a reverse mortgage?</h3>
         <p>
-          The amount depends on age, home value, and current rates. With PV home values ranging from $1.8M to $3.5M+, seniors can potentially access substantial funds through proprietary programs that exceed the $1,149,825 HECM limit.
+          The amount depends on age, home value, and current rates. With PV home values ranging from $1.8M to $3.5M+, seniors can potentially access substantial funds through proprietary programs that exceed the $1,209,750 HECM limit.
         </p>
 
         <h3>Are Palos Verdes homes with ocean views eligible for reverse mortgages?</h3>

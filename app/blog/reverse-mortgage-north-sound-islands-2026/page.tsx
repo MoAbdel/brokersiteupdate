@@ -30,7 +30,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
   const faqData = [
     {
       question: 'Can I get a reverse mortgage on my Bainbridge Island home if it is worth $900,000?',
-      answer: 'Yes. Bainbridge Island homes valued at $900,000 fall within the 2026 FHA HECM lending limit of $1,149,825, making you eligible for the full range of HECM payout options including the growing line of credit. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. Higher-value waterfront properties above $1,149,825 may benefit from proprietary reverse mortgage programs.',
+      answer: 'Yes. Bainbridge Island homes valued at $900,000 fall within the 2026 FHA HECM lending limit of $1,209,750, making you eligible for the full range of HECM payout options including the growing line of credit. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. Higher-value waterfront properties above $1,209,750 may benefit from proprietary reverse mortgage programs.',
     },
     {
       question: 'Can I get a reverse mortgage on a San Juan Islands property if it is my primary residence?',
@@ -38,7 +38,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
     },
     {
       question: 'How does Washington state having no income tax benefit island reverse mortgage borrowers?',
-      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax impact. For island and North Sound seniors living on fixed incomes in communities with higher costs of living (ferry fares, limited retail options, island premium pricing), the tax-free nature of reverse mortgage proceeds is especially valuable. Every dollar drawn from a HECM retains full purchasing power without state income tax reduction.',
+      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax impact. For island and North Sound seniors living on fixed incomes in communities with higher costs of living (ferry fares, limited retail options, island premium pricing), the non-taxable nature of reverse mortgage loan advances is especially valuable. Every dollar drawn from a HECM retains full purchasing power without state income tax reduction.',
     },
     {
       question: 'How much money can an Anacortes senior receive from a reverse mortgage?',
@@ -223,12 +223,24 @@ export default function ReverseMortgageNorthSoundIslands2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five North Sound and island communities &mdash; Anacortes, Bellingham, Bainbridge Island, San Juan Islands, and Whidbey Island &mdash; are home to an estimated <strong>28,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$18 billion in home equity</strong>, based on 2026 county assessor data across Skagit, Whatcom, Island, San Juan, and Kitsap counties and U.S. Census demographic projections. These maritime and island communities attract a unique concentration of retirees drawn by natural beauty, outdoor recreation, and slower-paced coastal living. With median home values ranging from <strong>$550,000 on Whidbey Island to $900,000 on Bainbridge Island</strong>, most properties fall within the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>. &quot;North Sound and island seniors face a distinct reverse mortgage challenge: their homes hold substantial value, but island and rural appraisals require specialized expertise that most national lenders lack. I coordinate with appraisers who understand waterfront, island, and maritime property valuation &mdash; the difference between an accurate appraisal and an undervaluation can mean $50,000 to $100,000 in reverse mortgage proceeds,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five North Sound and island communities &mdash; Anacortes, Bellingham, Bainbridge Island, San Juan Islands, and Whidbey Island &mdash; are home to an estimated <strong>28,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$18 billion in home equity</strong>, based on 2026 county assessor data across Skagit, Whatcom, Island, San Juan, and Kitsap counties and U.S. Census demographic projections. These maritime and island communities attract a unique concentration of retirees drawn by natural beauty, outdoor recreation, and slower-paced coastal living. With median home values ranging from <strong>$550,000 on Whidbey Island to $900,000 on Bainbridge Island</strong>, most properties fall within the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>. &quot;North Sound and island seniors face a distinct reverse mortgage challenge: their homes hold substantial value, but island and rural appraisals require specialized expertise that most national lenders lack. I coordinate with appraisers who understand waterfront, island, and maritime property valuation &mdash; the difference between an accurate appraisal and an undervaluation can mean $50,000 to $100,000 in reverse mortgage proceeds,&quot; Abdel explains.
             </p>
           </div>
 
@@ -257,7 +269,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the North Sound and island communities, home values range from $550,000 on Whidbey Island to $900,000 on Bainbridge Island, with the San Juan Islands reaching $800,000 and beyond for waterfront properties. Most properties in this corridor fall within the FHA HECM cap of $1,149,825, though premium waterfront and island properties may exceed the limit and require proprietary programs. Washington&apos;s zero state income tax provides an additional advantage, and the unique costs of island living &mdash; ferry fares, limited retail, and premium pricing on goods and services &mdash; make the reverse mortgage a particularly valuable tool for maintaining quality of life in retirement.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the North Sound and island communities, home values range from $550,000 on Whidbey Island to $900,000 on Bainbridge Island, with the San Juan Islands reaching $800,000 and beyond for waterfront properties. Most properties in this corridor fall within the FHA HECM cap of $1,209,750, though premium waterfront and island properties may exceed the limit and require proprietary programs. Washington&apos;s zero state income tax provides an additional advantage, and the unique costs of island living &mdash; ferry fares, limited retail, and premium pricing on goods and services &mdash; make the reverse mortgage a particularly valuable tool for maintaining quality of life in retirement.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -312,7 +324,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
           </div>
 
           <p className="text-sm text-gray-500">
-            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. Premium waterfront and island properties above $1,149,825 may require proprietary reverse mortgage programs for full equity access.
+            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. Premium waterfront and island properties above $1,209,750 may require proprietary reverse mortgage programs for full equity access.
           </p>
 
           {/* ========== PAYOUT COMPARISON ========== */}
@@ -488,7 +500,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bellingham Reverse Mortgage Insight</h4>
-            <p className="mb-0">Bellingham&apos;s sustained popularity as a retirement and relocation destination has driven consistent property appreciation that supports strong reverse mortgage equity positions. The city&apos;s combination of outdoor recreation access, university cultural amenities, craft food and beverage scene, and moderate cost of living (compared to Seattle) attracts a continuous stream of buyers &mdash; maintaining demand that protects reverse mortgage borrowers&apos; long-term equity. Western Washington University retirees with TIAA-CREF retirement accounts and state pensions benefit from layering HECM proceeds on top of these income sources, all state-income-tax-free.</p>
+            <p className="mb-0">Bellingham&apos;s sustained popularity as a retirement and relocation destination has driven consistent property appreciation that supports strong reverse mortgage equity positions. The city&apos;s combination of outdoor recreation access, university cultural amenities, craft food and beverage scene, and moderate cost of living (compared to Seattle) attracts a continuous stream of buyers &mdash; maintaining demand that protects reverse mortgage borrowers&apos; long-term equity. Western Washington University retirees with TIAA-CREF retirement accounts and state pensions benefit from layering HECM proceeds on top of these income sources, all state-income-loan proceeds.</p>
           </div>
 
           <p>
@@ -548,7 +560,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Bainbridge Island Reverse Mortgage Insight</h4>
-            <p className="mb-0">Bainbridge Island&apos;s ferry connection to downtown Seattle creates a unique property value dynamic: the island offers pastoral beauty and artistic community while maintaining direct urban access. This dual appeal sustains strong demand and property values that support robust reverse mortgage equity positions. Seniors who commuted to Seattle via ferry for decades have built careers, community, and home equity simultaneously. The reverse mortgage converts that equity into retirement income without breaking the island connection. For waterfront properties exceeding the $1,149,825 HECM limit, proprietary programs access the full value, and wholesale broker access to multiple lenders is essential for comparing terms.</p>
+            <p className="mb-0">Bainbridge Island&apos;s ferry connection to downtown Seattle creates a unique property value dynamic: the island offers pastoral beauty and artistic community while maintaining direct urban access. This dual appeal sustains strong demand and property values that support robust reverse mortgage equity positions. Seniors who commuted to Seattle via ferry for decades have built careers, community, and home equity simultaneously. The reverse mortgage converts that equity into retirement income without breaking the island connection. For waterfront properties exceeding the $1,209,750 HECM limit, proprietary programs access the full value, and wholesale broker access to multiple lenders is essential for comparing terms.</p>
           </div>
 
           <p>

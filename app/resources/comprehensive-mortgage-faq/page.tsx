@@ -93,7 +93,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "When do I need a jumbo loan in Orange County?",
-          answer: "Jumbo loans are required for amounts above $1,266,300 (2025 Orange County conforming loan limit). Given Orange County's median home price around $1.26M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Pricing is often competitive with conforming loans.",
+          answer: "Jumbo loans are required for amounts above $1,209,750 (2025 Orange County conforming loan limit). Given Orange County's median home price around $1.26M+, many buyers need jumbo financing. Jumbo loans typically require: 10-20% down payment, 700+ credit score, lower debt-to-income ratios, and significant reserves. Pricing is often competitive with conforming loans.",
           tags: ["jumbo loans", "orange county", "loan limits"]
         },
         {
@@ -119,7 +119,7 @@ export default function ComprehensiveMortgageFAQ() {
       questions: [
         {
           question: "What makes Orange County's mortgage market unique?",
-          answer: "Orange County is designated a high-cost area with conforming loan limits of $1,266,300 (vs $766,550 in standard areas). High median home prices ($1.26M+) mean many buyers need jumbo financing. Competitive market with multiple offers requires strong pre-approval. Property taxes vary by city. Many communities have HOAs with monthly fees. Beach proximity, school districts, and job centers significantly affect property values and loan considerations.",
+          answer: "Orange County is designated a high-cost area with conforming loan limits of $1,209,750 (vs $806,500 in standard areas). High median home prices ($1.26M+) mean many buyers need jumbo financing. Competitive market with multiple offers requires strong pre-approval. Property taxes vary by city. Many communities have HOAs with monthly fees. Beach proximity, school districts, and job centers significantly affect property values and loan considerations.",
           tags: ["orange county", "market conditions", "high-cost area"]
         },
         {
@@ -351,7 +351,7 @@ export default function ComprehensiveMortgageFAQ() {
               program availability, and market conditions. Contact for Current pricing and personalized guidance.
             </p>
             <p>
-              Equal Housing Opportunity. Licensed to originate mortgages in California, Washington, and Colorado.
+              Equal Housing Opportunity. Licensed to originate mortgages in California and Washington.
             </p>
           </div>
         </div>

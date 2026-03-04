@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92663Page() {
                 "name": "What is the typical loan amount for Newport Peninsula 92663?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Newport Peninsula 92663 has a median home price of $3.0 million. After down payment, most buyers need jumbo loans of $1.8-2.8 million. The 2026 conforming limit of $1,149,825 covers only about 38% of the typical purchase price."
+                  "text": "Newport Peninsula 92663 has a median home price of $3.0 million. After down payment, most buyers need jumbo loans of $1.8-2.8 million. The 2026 conforming limit of $1,209,750 covers only about 38% of the typical purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92663Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Peninsula 92663 delivers classic California beach living at a <strong>$3.0 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers only 38% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited options. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo or Chase</strong> for Newport Peninsula buyers.
+            Newport Peninsula 92663 delivers classic California beach living at a <strong>$3.0 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 38% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited options. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo or Chase</strong> for Newport Peninsula buyers.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92663Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,500,000 - $12,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,800,000 - $3,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">25-50 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (insufficient here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (insufficient here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92663Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount for Newport Peninsula 92663?</h3>
-            <p className="mb-0">Newport Peninsula 92663 has a median home price of $3.0 million. After down payment, most buyers need jumbo loans of $1.8-2.8 million. The 2026 conforming limit of $1,149,825 covers only about 38% of the typical purchase price.</p>
+            <p className="mb-0">Newport Peninsula 92663 has a median home price of $3.0 million. After down payment, most buyers need jumbo loans of $1.8-2.8 million. The 2026 conforming limit of $1,209,750 covers only about 38% of the typical purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer bank statement jumbo loans in Newport Peninsula?</h3>

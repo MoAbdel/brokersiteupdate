@@ -100,7 +100,7 @@ export default function WholesaleMortgageBrokerWashington() {
         name: 'How does a wholesale broker handle jumbo loans for Eastside properties?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Jumbo loans (above $766,550 conforming limit in King County) are where wholesale brokers provide the most significant advantage. While retail banks may offer one or two jumbo products, wholesale brokers access 20-50+ jumbo lenders with varying guidelines for DTI ratios, reserve requirements, property types, and income documentation. This competition drives better rates and more flexible qualification on the high-value Eastside properties.',
+          text: 'Jumbo loans (above $1,209,750 conforming limit in King County) are where wholesale brokers provide the most significant advantage. While retail banks may offer one or two jumbo products, wholesale brokers access 20-50+ jumbo lenders with varying guidelines for DTI ratios, reserve requirements, property types, and income documentation. This competition drives better rates and more flexible qualification on the high-value Eastside properties.',
         },
       },
       {
@@ -178,6 +178,12 @@ export default function WholesaleMortgageBrokerWashington() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             Washington State borrowers face some of the highest home prices in the nation, with the Seattle metro area averaging well over $800,000 and Eastside communities routinely exceeding $1.5 million. In this market, the difference between a retail bank rate and a wholesale broker rate can mean tens of thousands of dollars over the life of a loan. As a wholesale mortgage broker licensed in Washington with access to over 200 lender partners, I shop every loan across dozens of competing lenders to find the rate, terms, and program that save my clients the most money. This guide explains exactly how wholesale mortgage brokerage works, why it matters in Washington&apos;s expensive market, and how tech industry borrowers particularly benefit from the wholesale approach.
@@ -188,7 +194,7 @@ export default function WholesaleMortgageBrokerWashington() {
             <ul className="space-y-2 mb-0">
               <li><strong>Lender Partners:</strong> 200+ wholesale lenders across all loan types</li>
               <li><strong>Average Rate Advantage:</strong> 0.125% – 0.50% below comparable retail bank rates</li>
-              <li><strong>2026 Conforming Loan Limit (King County):</strong> $766,550 (high-cost area)</li>
+              <li><strong>2026 Conforming Loan Limit (King County):</strong> $806,500 (high-cost area)</li>
               <li><strong>Jumbo Lender Access:</strong> 50+ jumbo lenders with varying guidelines</li>
               <li><strong>Tech Income Specialists:</strong> Lenders experienced with RSU, stock options, deferred comp</li>
               <li><strong>Metro Areas Served:</strong> Seattle Eastside &amp; Greater Seattle (statewide lending available)</li>
@@ -538,7 +544,7 @@ export default function WholesaleMortgageBrokerWashington() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Conventional Conforming</td>
-                  <td className="px-4 py-3 border-t">Loans up to $766,550 (King County)</td>
+                  <td className="px-4 py-3 border-t">Loans up to $806,500 (King County)</td>
                   <td className="px-4 py-3 border-t">Shoreline, Snoqualmie, South Sound</td>
                   <td className="px-4 py-3 border-t">100+</td>
                 </tr>
@@ -662,7 +668,7 @@ export default function WholesaleMortgageBrokerWashington() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">3. Rate Shopping</td>
-                  <td className="px-4 py-3 border-t">Broker shops your scenario across 20-50+ lenders for best rate/terms</td>
+                  <td className="px-4 py-3 border-t">Broker shops your scenario across 20-200+ lenders for best rate/terms</td>
                   <td className="px-4 py-3 border-t">Days 2-3</td>
                 </tr>
                 <tr>
@@ -820,7 +826,7 @@ export default function WholesaleMortgageBrokerWashington() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">How does a wholesale broker handle jumbo loans for Eastside properties?</h3>
               <p className="mb-0">
-                Jumbo loans (above $766,550 conforming limit in King County) are where wholesale brokers provide the most significant advantage. While retail banks may offer one or two jumbo products, wholesale brokers access 50+ jumbo lenders with varying guidelines for DTI ratios, reserve requirements, property types, and income documentation. This competition drives better rates and more flexible qualification on high-value Eastside properties.
+                Jumbo loans (above $1,209,750 conforming limit in King County) are where wholesale brokers provide the most significant advantage. While retail banks may offer one or two jumbo products, wholesale brokers access 50+ jumbo lenders with varying guidelines for DTI ratios, reserve requirements, property types, and income documentation. This competition drives better rates and more flexible qualification on high-value Eastside properties.
               </p>
             </div>
 

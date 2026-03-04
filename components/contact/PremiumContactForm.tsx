@@ -703,6 +703,15 @@ export default function PremiumContactForm() {
               )}
             </AnimatePresence>
 
+            {currentStep === 3 && (
+              <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
+                <input type="checkbox" required className="mt-1 shrink-0" />
+                <span>
+                  By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
+                </span>
+              </label>
+            )}
+
             {/* Actions */}
             <div className="mt-8 flex justify-between items-center pt-6 border-t border-slate-100">
               {currentStep > 1 ? (
@@ -750,6 +759,9 @@ export default function PremiumContactForm() {
               )}
             </div>
           </form>
+          <p className="text-xs text-slate-400 text-center mt-3">
+            This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
+          </p>
         </div>
       </motion.div>
     </div>

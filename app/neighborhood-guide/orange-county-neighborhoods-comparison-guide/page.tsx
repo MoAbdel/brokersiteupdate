@@ -71,7 +71,7 @@ const neighborhoods = [
     beachAccess: 3,
     color: 'green',
     highlights: ['Top schools', 'Master planned', 'Safest city', 'Tech jobs nearby'],
-    bestFor: 'Families with school-age children'
+    bestFor: 'Master-planned communities near top-rated schools'
   },
   {
     name: 'Newport Beach',
@@ -85,7 +85,7 @@ const neighborhoods = [
     beachAccess: 5,
     color: 'blue',
     highlights: ['Luxury lifestyle', 'Oceanfront', 'High-end dining', 'Boating'],
-    bestFor: 'Luxury seekers and beach lovers'
+    bestFor: 'Oceanfront luxury homes and waterfront properties'
   },
   {
     name: 'Laguna Beach',
@@ -98,8 +98,8 @@ const neighborhoods = [
     nightlife: 3,
     beachAccess: 5,
     color: 'purple',
-    highlights: ['Artist community', 'Scenic beauty', 'Unique character', 'Art galleries'],
-    bestFor: 'Artists, retirees, and nature lovers'
+    highlights: ['Art galleries', 'Scenic beauty', 'Unique character', 'Coastal views'],
+    bestFor: 'Charming coastal homes with unique architecture and art scene'
   },
   {
     name: 'Mission Viejo',
@@ -112,8 +112,8 @@ const neighborhoods = [
     nightlife: 2,
     beachAccess: 3,
     color: 'orange',
-    highlights: ['Affordable luxury', 'Family-oriented', 'Lake community', 'Safe'],
-    bestFor: 'Growing families seeking value'
+    highlights: ['Affordable luxury', 'Lake community', 'Top-rated schools', 'Safe'],
+    bestFor: 'Spacious homes near lake amenities at accessible price points'
   },
   {
     name: 'Costa Mesa',
@@ -127,7 +127,7 @@ const neighborhoods = [
     beachAccess: 4,
     color: 'blue',
     highlights: ['Urban vibe', 'Arts district', 'Dining scene', 'Central location'],
-    bestFor: 'Young professionals and urban lifestyle seekers'
+    bestFor: 'Walkable urban living with vibrant dining and arts scene'
   },
   {
     name: 'Huntington Beach',
@@ -140,8 +140,8 @@ const neighborhoods = [
     nightlife: 4,
     beachAccess: 5,
     color: 'green',
-    highlights: ['Surf City USA', 'Beach lifestyle', 'Family beaches', 'Pier'],
-    bestFor: 'Surfers and beach lifestyle enthusiasts'
+    highlights: ['Surf City USA', 'Beach lifestyle', 'Wide sandy beaches', 'Pier'],
+    bestFor: 'Beachfront properties with outdoor recreation access'
   }
 ];
 
@@ -212,7 +212,7 @@ export default function OCNeighborhoodsGuide() {
                 <h4 className="font-semibold mb-2">Lifestyle Ratings</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-slate-600">Family Friendly:</span>
+                    <span className="text-sm text-slate-600">Schools &amp; Parks:</span>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className={`w-4 h-4 ${i < neighborhood.familyFriendly ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />

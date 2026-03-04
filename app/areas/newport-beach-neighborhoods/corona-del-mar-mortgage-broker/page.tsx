@@ -70,7 +70,7 @@ export default function CoronaDelMarMortgageBrokerPage() {
           },
           {
             question: "Do Corona del Mar homes require jumbo financing?",
-            answer: "95% of Corona del Mar homes exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo or super jumbo loan financing. Beachside properties typically require super jumbo loans."
+            answer: "95% of Corona del Mar homes exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo or super jumbo loan financing. Beachside properties typically require super jumbo loans."
           },
           {
             question: "What financing options are best for Corona del Mar?",

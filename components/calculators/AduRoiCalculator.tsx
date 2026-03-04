@@ -167,7 +167,7 @@ export default function AduRoiCalculator() {
       )}
 
       <p className="text-xs text-slate-500 mt-4">
-        Educational estimate only. Actual costs, rents, and financing terms vary. Consult a licensed contractor and mortgage broker for project-specific analysis.
+        Educational estimate only. The refinance rate used is hypothetical and does not represent a current rate offer. Actual costs, rents, rates, and financing terms vary based on creditworthiness, loan amount, property type, and market conditions. Not a commitment to lend. Consult a licensed contractor and mortgage broker for project-specific analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
       </p>
     </div>
   );

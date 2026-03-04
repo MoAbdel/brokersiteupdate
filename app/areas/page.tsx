@@ -30,7 +30,7 @@ const pageSchema = buildServiceWebPageSchema({
 const serviceAreas = [
   {
     city: 'Irvine',
-    description: 'Master-planned community with top schools and family-friendly neighborhoods',
+    description: 'Master-planned community with top-rated schools and parks',
     medianHome: '$1.26M',
     slug: 'irvine-mortgage-broker',
     highlights: ['Great Pacific Elementary', 'Irvine Spectrum', 'UCI proximity', 'Safe neighborhoods']

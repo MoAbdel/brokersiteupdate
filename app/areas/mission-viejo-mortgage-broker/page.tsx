@@ -37,7 +37,7 @@ export default function MissionViejoMortgageBrokerPage() {
     {
       name: 'Castille',
       avgPrice: '$850K',
-      description: 'Family-friendly community with parks and top-rated schools'
+      description: 'Community with parks, recreational amenities, and top-rated schools'
     },
     {
       name: 'La Paz',
@@ -251,7 +251,7 @@ export default function MissionViejoMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,266,300</span>
+                <span className="font-bold">$1,209,750</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>

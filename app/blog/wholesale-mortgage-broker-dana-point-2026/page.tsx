@@ -57,7 +57,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "Can I get a jumbo loan in Dana Point through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Dana Point median home prices around $1.9 million, most purchases require jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Yes. Wholesale brokers have access to 50+ jumbo lenders. With Dana Point median home prices around $1.9 million, most purchases require jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.9M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$800K - $15M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo / Super Jumbo</td></tr>
             </tbody>
           </table>
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>Jumbo Loans</h3>
         <ul>
-          <li>Loans above $1,149,825 up to $10M+</li>
+          <li>Loans above $1,209,750 up to $10M+</li>
           <li>Access to 50+ jumbo lenders (vs. one product at banks)</li>
           <li>Bank statement jumbo for self-employed borrowers</li>
           <li>Interest-only options for cash flow flexibility</li>
@@ -220,7 +220,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>Niguel Shores</h3>
         <p>
-          Private community with beach access. Homes typically $1.5M to $3.5M. Popular with families seeking coastal lifestyle. Jumbo programs with competitive rates.
+          Private community with beach access. Homes typically $1.5M to $3.5M. Features coastal lifestyle amenities and beach access. Jumbo programs with competitive rates.
         </p>
 
         <h2>Frequently Asked Questions</h2>

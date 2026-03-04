@@ -142,7 +142,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           Orange County's high prices mean many loans exceed conventional limits. Wholesale brokers access:
         </p>
         <ul>
-          <li><strong>Conforming loans:</strong> Up to $1,149,825 (2026 Orange County limit)</li>
+          <li><strong>Conforming loans:</strong> Up to $1,209,750 (2026 Orange County limit)</li>
           <li><strong>Jumbo loans:</strong> Above conforming limits, multiple lender options</li>
           <li><strong>Super jumbo:</strong> $2M, $3M, $5M+ loan amounts available</li>
         </ul>

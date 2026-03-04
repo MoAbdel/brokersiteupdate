@@ -72,7 +72,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
         name: 'What is a wholesale mortgage broker and how does it benefit La Jolla buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,149,825 require specialized lender matching that retail banks cannot provide with their single product menu.',
+          text: 'A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu.',
         },
       },
       {
@@ -96,7 +96,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
         name: 'What is the 2026 conforming loan limit for San Diego County?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 conforming loan limit for San Diego County is $1,149,825. Properties in La Jolla (median $2.5M), Coronado (median $2.2M), Carlsbad (median $1.3M), and Poway (median $1.1M) typically require jumbo financing above this threshold.',
+          text: 'The 2026 conforming loan limit for San Diego County is $1,209,750. Properties in La Jolla (median $2.5M), Coronado (median $2.2M), Carlsbad (median $1.3M), and Poway (median $1.1M) typically require jumbo financing above this threshold.',
         },
       },
       {
@@ -265,7 +265,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <h2 id="wholesale-advantage" className="text-3xl font-bold mt-12 mb-6">Wholesale Advantage Overview: Coastal SD &amp; Inland Premium Markets</h2>
 
           <p>
-            San Diego County&apos;s coastal and inland premium corridors represent some of California&apos;s most sought-after real estate. From La Jolla&apos;s biotech-fueled luxury market to Poway&apos;s spacious equestrian properties, each community demands specialized financing that wholesale broker access delivers. The 2026 San Diego County conforming loan limit of $1,149,825 means the majority of purchases in these four cities require <a href="/blog/wholesale-mortgage-broker-california-2026">jumbo loan products</a> that wholesale channels price more aggressively than retail alternatives.
+            San Diego County&apos;s coastal and inland premium corridors represent some of California&apos;s most sought-after real estate. From La Jolla&apos;s biotech-fueled luxury market to Poway&apos;s spacious equestrian properties, each community demands specialized financing that wholesale broker access delivers. The 2026 San Diego County conforming loan limit of $1,209,750 means the majority of purchases in these four cities require <a href="/blog/wholesale-mortgage-broker-california-2026">jumbo loan products</a> that wholesale channels price more aggressively than retail alternatives.
           </p>
 
           <div className="overflow-x-auto my-8">
@@ -432,7 +432,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <div className="bg-yellow-50 p-6 rounded-lg my-6">
             <h3 className="font-bold text-lg mb-2 mt-0">Coronado Military Income Advantage</h3>
             <p className="mb-0">
-              A Navy O-5 (Commander) stationed at NAS North Island earns approximately $120K base pay plus $50K+ in BAH, BAS, and special duty pay&mdash;all tax-free allowances. Lenders can gross up non-taxable income by 25%, effectively counting $62,500+ in allowances as $78,125 for qualification. This gross-up strategy expands purchasing power by $150,000&ndash;$250,000 on Coronado&apos;s island properties, a calculation wholesale brokers optimize across multiple lender guidelines.
+              A Navy O-5 (Commander) stationed at NAS North Island earns approximately $120K base pay plus $50K+ in BAH, BAS, and special duty pay&mdash;all non-taxable allowances per IRS guidelines. Lenders can gross up non-taxable income by 25%, effectively counting $62,500+ in allowances as $78,125 for qualification. This gross-up strategy expands purchasing power by $150,000&ndash;$250,000 on Coronado&apos;s island properties, a calculation wholesale brokers optimize across multiple lender guidelines.
             </p>
           </div>
 
@@ -503,7 +503,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <h3 className="text-xl font-bold mt-8 mb-3">Understanding San Diego&apos;s Unique Income Landscape</h3>
 
           <p>
-            San Diego County&apos;s economy generates distinctly non-traditional income profiles. The biotech corridor stretching from La Jolla to Sorrento Valley employs 74,000+ life science workers, many compensated with RSUs, stock options, and performance bonuses that comprise 30&ndash;50% of total pay. The military installations across Coronado, Camp Pendleton, and Miramar create income streams mixing base pay with tax-free allowances, flight pay, hazardous duty pay, and separation pay&mdash;each calculated differently by different lenders.
+            San Diego County&apos;s economy generates distinctly non-traditional income profiles. The biotech corridor stretching from La Jolla to Sorrento Valley employs 74,000+ life science workers, many compensated with RSUs, stock options, and performance bonuses that comprise 30&ndash;50% of total pay. The military installations across Coronado, Camp Pendleton, and Miramar create income streams mixing base pay with non-taxable allowances, flight pay, hazardous duty pay, and separation pay&mdash;each calculated differently by different lenders.
           </p>
 
           <p>
@@ -742,7 +742,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2 mt-0">What is a wholesale mortgage broker and how does it benefit La Jolla buyers?</h3>
-              <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,149,825 require specialized lender matching that retail banks cannot provide with their single product menu. On a $2.5M La Jolla property, the rate difference between wholesale and retail pricing translates to tens of thousands of dollars over the loan term.</p>
+              <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu. On a $2.5M La Jolla property, the rate difference between wholesale and retail pricing translates to tens of thousands of dollars over the loan term.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -757,7 +757,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2 mt-0">What is the 2026 conforming loan limit for San Diego County?</h3>
-              <p className="mb-0">The 2026 conforming loan limit for San Diego County is $1,149,825. Properties in La Jolla (median $2.5M), Coronado (median $2.2M), Carlsbad (median $1.3M), and Poway (median $1.1M) typically require jumbo financing above this threshold. Wholesale brokers specialize in jumbo products from 20&ndash;30+ competing lenders.</p>
+              <p className="mb-0">The 2026 conforming loan limit for San Diego County is $1,209,750. Properties in La Jolla (median $2.5M), Coronado (median $2.2M), Carlsbad (median $1.3M), and Poway (median $1.1M) typically require jumbo financing above this threshold. Wholesale brokers specialize in jumbo products from 20&ndash;30+ competing lenders.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">

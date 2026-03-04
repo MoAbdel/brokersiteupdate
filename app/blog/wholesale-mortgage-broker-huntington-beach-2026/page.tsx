@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerHuntingtonBeachPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.3M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$700K - $8M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo</td></tr>
             </tbody>
           </table>
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerHuntingtonBeachPage() {
 
         <h3>Jumbo Loans</h3>
         <ul>
-          <li>Loans above $1,149,825 up to $10M+</li>
+          <li>Loans above $1,209,750 up to $10M+</li>
           <li>Access to 50+ jumbo lenders (vs. one product at banks)</li>
           <li>Bank statement jumbo for self-employed borrowers</li>
           <li>Interest-only options for cash flow flexibility</li>
@@ -168,7 +168,7 @@ export default function WholesaleMortgageBrokerHuntingtonBeachPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Up to $1,149,825 (2026 limit)</li>
+          <li>Up to $1,209,750 (2026 limit)</li>
           <li>3-20% down payment options</li>
           <li>Primary residence, second home, and investment</li>
           <li>Rate shopping across 200+ lenders</li>
@@ -188,7 +188,7 @@ export default function WholesaleMortgageBrokerHuntingtonBeachPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - Built In</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive</td></tr>
               <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>

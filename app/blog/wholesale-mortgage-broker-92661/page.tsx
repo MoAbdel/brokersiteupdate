@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92661Page() {
                 "name": "What is the typical loan amount for Balboa Peninsula 92661?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Balboa Peninsula 92661 has a median home price of $3.5 million. After down payment, most buyers need jumbo loans of $2.2-3.2 million. The 2026 conforming limit of $1,149,825 covers only about 33% of the typical purchase price."
+                  "text": "Balboa Peninsula 92661 has a median home price of $3.5 million. After down payment, most buyers need jumbo loans of $2.2-3.2 million. The 2026 conforming limit of $1,209,750 covers only about 33% of the typical purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92661Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Beach&apos;s Balboa Peninsula (92661) combines beachfront living with strong investment potential at a <strong>$3.5 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers only 33% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and investment property expertise—not a bank with limited options. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo or First Republic</strong> for Balboa Peninsula buyers and investors.
+            Newport Beach&apos;s Balboa Peninsula (92661) combines beachfront living with strong investment potential at a <strong>$3.5 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 33% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and investment property expertise—not a bank with limited options. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo or First Republic</strong> for Balboa Peninsula buyers and investors.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92661Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,800,000 - $15,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$2,200,000 - $3,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">25-55 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (insufficient here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (insufficient here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -277,7 +277,7 @@ export default function WholesaleMortgageBroker92661Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount for Balboa Peninsula 92661?</h3>
-            <p className="mb-0">Balboa Peninsula 92661 has a median home price of $3.5 million. After down payment, most buyers need jumbo loans of $2.2-3.2 million. The 2026 conforming limit of $1,149,825 covers only about 33% of the typical purchase price.</p>
+            <p className="mb-0">Balboa Peninsula 92661 has a median home price of $3.5 million. After down payment, most buyers need jumbo loans of $2.2-3.2 million. The 2026 conforming limit of $1,209,750 covers only about 33% of the typical purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers finance investment properties on Balboa Peninsula?</h3>

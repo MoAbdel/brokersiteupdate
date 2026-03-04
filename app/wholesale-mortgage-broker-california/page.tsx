@@ -262,7 +262,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <li><strong>San Diego:</strong> $900,000+</li>
         </ul>
         <p>
-          At these prices, most buyers need jumbo loans (above the conforming limit of $1,149,825 in high-cost areas). Wholesale brokers access 50+ jumbo lenders, while banks offer just their own jumbo product.
+          At these prices, most buyers need jumbo loans (above the conforming limit of $1,209,750 in high-cost areas). Wholesale brokers access 50+ jumbo lenders, while banks offer just their own jumbo product.
         </p>
 
         <h3>Self-Employment Capital</h3>
@@ -298,7 +298,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Conforming loans up to $1,149,825 (high-cost CA areas)</li>
+          <li>Conforming loans up to $1,209,750 (high-cost CA areas)</li>
           <li>3-20% down payment options</li>
           <li>620+ credit score requirements</li>
           <li>Primary, second home, and investment properties</li>

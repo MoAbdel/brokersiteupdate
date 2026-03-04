@@ -249,6 +249,12 @@ export default function HomeEquitySanDiegoGuidePage() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
@@ -610,7 +616,7 @@ export default function HomeEquitySanDiegoGuidePage() {
 
         <h3>Poway: Semi-Rural Estate Equity</h3>
         <p>
-          Poway&apos;s larger lots and semi-rural character create unique equity opportunities, particularly for homeowners with properties on acre-plus parcels. The city&apos;s $1.1 million median reflects a mix of tract homes and estate properties, with high-end homes in Stone Canyon and Poway Estates reaching $2 million or more. Poway homeowners frequently use equity products for home improvements, including outdoor living spaces, pools, and equestrian facilities that capitalize on the community&apos;s lifestyle. Properties near the $1,149,825 conforming loan limit often benefit from conventional HELOC and HELOAN products with competitive rates.
+          Poway&apos;s larger lots and semi-rural character create unique equity opportunities, particularly for homeowners with properties on acre-plus parcels. The city&apos;s $1.1 million median reflects a mix of tract homes and estate properties, with high-end homes in Stone Canyon and Poway Estates reaching $2 million or more. Poway homeowners frequently use equity products for home improvements, including outdoor living spaces, pools, and equestrian facilities that capitalize on the community&apos;s lifestyle. Properties near the $1,209,750 conforming loan limit often benefit from conventional HELOC and HELOAN products with competitive rates.
         </p>
 
         {/* Why Wholesale for Equity Products */}

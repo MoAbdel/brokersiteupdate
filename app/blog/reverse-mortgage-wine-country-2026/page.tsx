@@ -107,7 +107,7 @@ export default function ReverseMortgageWineCountry2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM lending limit for Wine Country reverse mortgages?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. For Wine Country properties valued above this amount, proprietary (jumbo) reverse mortgage programs serve homeowners with properties up to $4 million or higher. Many St. Helena and Healdsburg estate properties exceed the HECM limit, making proprietary programs the primary option for premium vineyard and estate homes.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. For Wine Country properties valued above this amount, proprietary (jumbo) reverse mortgage programs serve homeowners with properties up to $4 million or higher. Many St. Helena and Healdsburg estate properties exceed the HECM limit, making proprietary programs the primary option for premium vineyard and estate homes.',
     },
     {
       question: 'Can I get a reverse mortgage on my Napa Valley vineyard property?',
@@ -115,7 +115,7 @@ export default function ReverseMortgageWineCountry2026() {
     },
     {
       question: 'How much can St. Helena seniors access through a reverse mortgage?',
-      answer: 'St. Helena seniors with the median home value of $1.5 million can access HECM proceeds based on the property value up to the $1,149,825 limit. For the full property value, proprietary programs serve properties above the HECM cap. A 72-year-old with a paid-off $1.5 million home can access $600,000 to $750,000 through a proprietary reverse mortgage. Actual amounts depend on age, interest rates, and existing mortgage balance.',
+      answer: 'St. Helena seniors with the median home value of $1.5 million can access HECM proceeds based on the property value up to the $1,209,750 limit. For the full property value, proprietary programs serve properties above the HECM cap. A 72-year-old with a paid-off $1.5 million home can access $600,000 to $750,000 through a proprietary reverse mortgage. Actual amounts depend on age, interest rates, and existing mortgage balance.',
     },
     {
       question: 'Do reverse mortgages affect Prop 13 property tax protections in Wine Country?',
@@ -256,6 +256,12 @@ export default function ReverseMortgageWineCountry2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -294,7 +300,7 @@ export default function ReverseMortgageWineCountry2026() {
           </p>
 
           <p>
-            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in high-value markets like Napa and Sonoma counties access significantly larger proceeds than the national average. The 2026 FHA HECM lending limit of $1,149,825 serves many properties in this corridor, while St. Helena estates and Healdsburg vineyard properties above that threshold benefit from proprietary jumbo reverse mortgage programs.
+            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in high-value markets like Napa and Sonoma counties access significantly larger proceeds than the national average. The 2026 FHA HECM lending limit of $1,209,750 serves many properties in this corridor, while St. Helena estates and Healdsburg vineyard properties above that threshold benefit from proprietary jumbo reverse mortgage programs.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -374,7 +380,7 @@ export default function ReverseMortgageWineCountry2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Max Property Value Basis</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$4M+</td>
                 </tr>
                 <tr>
@@ -486,7 +492,7 @@ export default function ReverseMortgageWineCountry2026() {
           </p>
 
           <p>
-            At $1.5 million median, St. Helena carries the highest property values in the Wine Country corridor covered in this guide. Most properties exceed the $1,149,825 HECM lending limit, making proprietary reverse mortgage programs the primary option. Long-term homeowners who purchased during the 1990s for $400,000 to $600,000 now hold $900,000 to $1.2 million in equity. Spring Mountain Road properties and vineyard estates along the Silverado Trail can reach $5 million to $10 million, where proprietary programs unlock access to substantial equity reserves.
+            At $1.5 million median, St. Helena carries the highest property values in the Wine Country corridor covered in this guide. Most properties exceed the $1,209,750 HECM lending limit, making proprietary reverse mortgage programs the primary option. Long-term homeowners who purchased during the 1990s for $400,000 to $600,000 now hold $900,000 to $1.2 million in equity. Spring Mountain Road properties and vineyard estates along the Silverado Trail can reach $5 million to $10 million, where proprietary programs unlock access to substantial equity reserves.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -822,7 +828,7 @@ export default function ReverseMortgageWineCountry2026() {
               California&apos;s Wine Country from Healdsburg through Yountville represents one of the state&apos;s most compelling reverse mortgage markets. Long-term homeowners with median values from $900,000 to $1.5 million have accumulated extraordinary equity through decades of ownership and consistent appreciation. Whether you are a winery founder in Sonoma, a hospitality professional in St. Helena, or a Bay Area retiree who chose Calistoga&apos;s hot springs lifestyle, a reverse mortgage converts your illiquid home equity into accessible retirement resources without monthly payments, tax consequences, or loss of homeownership.
             </p>
             <p className="text-gray-800">
-              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For properties above the $1,149,825 HECM limit, proprietary jumbo programs extend access based on the full appraised value. Wine Country&apos;s unique considerations&mdash;agricultural property appraisals, seasonal income verification, and wildfire insurance requirements&mdash;demand a specialist who understands both the financial product and the local real estate market.
+              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For properties above the $1,209,750 HECM limit, proprietary jumbo programs extend access based on the full appraised value. Wine Country&apos;s unique considerations&mdash;agricultural property appraisals, seasonal income verification, and wildfire insurance requirements&mdash;demand a specialist who understands both the financial product and the local real estate market.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore reverse mortgage options for your Wine Country home? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property value, age, and financial goals.

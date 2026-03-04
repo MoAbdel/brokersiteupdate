@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92618Page() {
                 "name": "What loan amounts are typical in Irvine Spectrum 92618?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Irvine Spectrum 92618 has a median home price of $1.1 million. Newer homes near Great Park and the Spectrum Center often range from $900K-$2M, with many requiring jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Irvine Spectrum 92618 has a median home price of $1.1 million. Newer homes near Great Park and the Spectrum Center often range from $900K-$2M, with many requiring jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92618Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92618 encompasses the Spectrum Center area and Great Park neighborhoods with <strong>$1.1 million median home prices</strong> and newer construction attracting tech professionals and families. At these price points near the $1,149,825 conforming limit, strategic loan structuring matters. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs designed for this dynamic market.
+            Irvine 92618 encompasses the Spectrum Center area and Great Park neighborhoods with <strong>$1.1 million median home prices</strong> and newer construction attracting tech professionals and families. At these price points near the $1,209,750 conforming limit, strategic loan structuring matters. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs designed for this dynamic market.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92618Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$650,000 - $2,200,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$850,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">15-28 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -257,11 +257,11 @@ export default function WholesaleMortgageBroker92618Page() {
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Beacon Park</h4>
-            <p className="text-sm text-gray-700 mb-0">Modern homes with contemporary architecture near Great Park. Popular with young professionals and families.</p>
+            <p className="text-sm text-gray-700 mb-0">Modern homes with contemporary architecture near Great Park. Features walkable amenities and open floor plans.</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Pavilion Park</h4>
-            <p className="text-sm text-gray-700 mb-0">Family-focused community with parks, pools, and easy access to Great Park amenities and schools.</p>
+            <p className="text-sm text-gray-700 mb-0">Community with parks, pools, and easy access to Great Park amenities and top-rated schools.</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Cadence Park</h4>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92618Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amounts are typical in Irvine Spectrum 92618?</h3>
-            <p className="mb-0">Irvine Spectrum 92618 has a median home price of $1.1 million. Newer homes near Great Park and the Spectrum Center often range from $900K-$2M, with many requiring jumbo financing above the $1,149,825 conforming limit.</p>
+            <p className="mb-0">Irvine Spectrum 92618 has a median home price of $1.1 million. Newer homes near Great Park and the Spectrum Center often range from $900K-$2M, with many requiring jumbo financing above the $1,209,750 conforming limit.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help with Great Park neighborhood purchases?</h3>

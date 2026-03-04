@@ -61,7 +61,7 @@ export default function IrvineMortgageBrokerPage() {
     {
       name: 'Northwood',
       avgPrice: '$1.3M',
-      description: 'Family-friendly with newer construction and great amenities'
+      description: 'Newer construction with parks, trails, and great amenities'
     },
     {
       name: 'Turtle Rock',
@@ -76,7 +76,7 @@ export default function IrvineMortgageBrokerPage() {
     {
       name: 'Portola Springs',
       avgPrice: '$1.1M',
-      description: 'Newer development with family-friendly amenities'
+      description: 'Newer development with community parks and recreational amenities'
     }
   ];
 

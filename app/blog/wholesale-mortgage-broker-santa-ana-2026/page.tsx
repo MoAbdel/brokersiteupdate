@@ -81,7 +81,7 @@ export default function WholesaleMortgageBrokerSantaAnaPage() {
                 "name": "What loan amounts are available for Santa Ana homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "With Santa Ana median prices around $750K, most buyers use conforming loans up to $1,149,825 (2026 limit). FHA loans are especially popular for first-time buyers in this market."
+                  "text": "With Santa Ana median prices around $750K, most buyers use conforming loans up to $1,209,750 (2026 limit). FHA loans are especially popular for first-time buyers in this market."
                 }
               }
             ]
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerSantaAnaPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$750K</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$450K - $1.5M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">FHA / Conventional</td></tr>
             </tbody>
           </table>
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBrokerSantaAnaPage() {
 
         <h3>Conventional Loans</h3>
         <ul>
-          <li>Up to $1,149,825 (2026 conforming limit)</li>
+          <li>Up to $1,209,750 (2026 conforming limit)</li>
           <li>3-20% down payment options</li>
           <li>Conventional 97 program for 3% down</li>
           <li>No upfront mortgage insurance like FHA</li>
@@ -247,7 +247,7 @@ export default function WholesaleMortgageBrokerSantaAnaPage() {
 
         <h3>What loan amounts are available for Santa Ana homes?</h3>
         <p>
-          With Santa Ana median prices around $750K, most buyers qualify for conforming loans up to $1,149,825 (2026 limit). FHA loans are especially popular for first-time buyers, offering lower down payments and flexible credit requirements.
+          With Santa Ana median prices around $750K, most buyers qualify for conforming loans up to $1,209,750 (2026 limit). FHA loans are especially popular for first-time buyers, offering lower down payments and flexible credit requirements.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

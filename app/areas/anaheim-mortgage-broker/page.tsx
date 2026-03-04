@@ -250,11 +250,11 @@ export default function AnaheimMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">FHA Loan Limit:</span>
-                <span className="font-bold">$1,266,300</span>
+                <span className="font-bold">$1,209,750</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Conventional Limit:</span>
-                <span className="font-bold">$1,266,300</span>
+                <span className="font-bold">$1,209,750</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Average HELOC Amount:</span>

@@ -251,7 +251,7 @@ export default function CostaMesaMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,266,300</span>
+                <span className="font-bold">$1,209,750</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>
@@ -304,7 +304,7 @@ export default function CostaMesaMortgageBrokerPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Many Costa Mesa homes fall within conforming loan limits of $1,266,300, 
+                  Many Costa Mesa homes fall within conforming loan limits of $1,209,750, 
                   making them eligible for conventional financing. However, luxury properties 
                   near South Coast Plaza may require jumbo loans.
                 </p>

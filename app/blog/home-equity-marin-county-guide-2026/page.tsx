@@ -46,7 +46,7 @@ export default function HomeEquityMarinCountyGuide2026() {
     },
     {
       question: 'Do I need a jumbo HELOC for my Marin County property?',
-      answer: 'If the equity amount you seek exceeds conforming limits (generally $726,200 for a second lien), you need a jumbo HELOC. Given Marin County median values of $1.6 million, most equity products in the county are jumbo-category. A wholesale broker accesses specialized jumbo HELOC lenders that standard banks may not offer.'
+      answer: 'If the equity amount you seek exceeds conforming limits (generally $806,500 for a second lien), you need a jumbo HELOC. Given Marin County median values of $1.6 million, most equity products in the county are jumbo-category. A wholesale broker accesses specialized jumbo HELOC lenders that standard banks may not offer.'
     },
     {
       question: 'What credit score do I need for a Marin County HELOC?',
@@ -198,6 +198,12 @@ export default function HomeEquityMarinCountyGuide2026() {
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -542,7 +548,7 @@ export default function HomeEquityMarinCountyGuide2026() {
           Home equity products are not commodities. The same $500,000 HELOC on the same Marin County property can carry meaningfully different rates, fees, and terms depending on the lender. A wholesale mortgage broker eliminates the time-consuming process of shopping multiple banks individually.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 50+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
+          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 200+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
         </p>
         <h3>Rate Comparison Advantage</h3>
         <p>

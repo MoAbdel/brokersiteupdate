@@ -218,7 +218,7 @@ Key facts:
 ## People Also Ask About Reverse Mortgages in [Region]
 
 ### How much can I get from a reverse mortgage in [City1]?
-**HECM proceeds in [City1] depend on your age, home value, and current interest rates.** At 70 with a $[X] home, you could potentially access $[range] through various payout options. The 2026 FHA lending limit is $1,149,825, which caps the home value used in calculations regardless of your [City1] property's actual value.
+**HECM proceeds in [City1] depend on your age, home value, and current interest rates.** At 70 with a $[X] home, you could potentially access $[range] through various payout options. The 2026 FHA lending limit is $1,209,750, which caps the home value used in calculations regardless of your [City1] property's actual value.
 
 ### Can I get a reverse mortgage if I still have a mortgage in [Region]?
 **Yes, you can get a HECM even with an existing mortgage—it gets paid off first from the reverse mortgage proceeds.** Many [Region] seniors use this strategy to eliminate monthly payments while accessing remaining equity.

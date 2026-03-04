@@ -21,7 +21,7 @@ interface FAQProps {
 export const defaultMortgageFAQs: FAQItem[] = [
   {
     question: "What does a mortgage broker do?",
-    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 200+ lenders and can shop your loan to find the best pricing, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
+    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 200+ lenders and can shop your loan to find competitive pricing, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
   },
   {
     question: "How much does a mortgage broker cost in Orange County?",
@@ -29,7 +29,7 @@ export const defaultMortgageFAQs: FAQItem[] = [
   },
   {
     question: "What credit score is needed to qualify for a mortgage in Orange County?",
-    answer: "Credit score requirements vary by loan type: FHA loans accept scores as low as 580 with 3.5% down (or 500 with 10% down), conventional loans typically require 620+, VA loans are flexible with no strict minimum, and jumbo loans usually need 700+. However, higher scores (740+) get the best pricing. Even with lower scores, experienced brokers can find loan programs that work for your situation."
+    answer: "Credit score requirements vary by loan type: FHA loans accept scores as low as 580 with 3.5% down (or 500 with 10% down), conventional loans typically require 620+, VA loans are flexible with no strict minimum, and jumbo loans usually need 700+. However, higher scores (740+) typically qualify for favorable pricing. Even with lower scores, experienced brokers can find loan programs that work for your situation."
   },
   {
     question: "How long does the mortgage process take with a broker?",
@@ -37,7 +37,7 @@ export const defaultMortgageFAQs: FAQItem[] = [
   },
   {
     question: "What are the benefits of using a mortgage broker vs. going directly to a bank?",
-    answer: "Mortgage brokers offer several key advantages: access to 200+ lenders vs. one bank's products, competitive shopping for the best pricing and terms, expert guidance through complex loan programs, personalized service throughout the process, and often Better pricing than retail banks. Brokers work for you, not the lender, ensuring you get the loan that best fits your needs and financial goals."
+    answer: "Mortgage brokers offer several key advantages: access to 200+ lenders vs. one bank's products, competitive shopping for favorable pricing and terms, expert guidance through complex loan programs, personalized service throughout the process, and often competitive pricing compared to retail banks. Brokers work for you, not the lender, ensuring you get the loan that fits your needs and financial goals."
   }
 ];
 

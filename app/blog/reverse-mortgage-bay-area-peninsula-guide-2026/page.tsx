@@ -62,7 +62,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
         name: 'What is the maximum HECM amount for a Bay Area Peninsula home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. Because most Peninsula homes far exceed this value, borrowers typically access only a fraction of their total equity through HECM. Proprietary jumbo reverse mortgage products can reach higher amounts for homes valued above $2 million.',
+          text: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. Because most Peninsula homes far exceed this value, borrowers typically access only a fraction of their total equity through HECM. Proprietary jumbo reverse mortgage products can reach higher amounts for homes valued above $2 million.',
         },
       },
       {
@@ -70,7 +70,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
         name: 'Can I get a reverse mortgage on my Atherton estate valued at $10 million?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. While the standard FHA HECM caps at $1,149,825, proprietary reverse mortgage programs exist for ultra-luxury properties. These private jumbo reverse mortgages can provide substantially higher proceeds based on appraised value, though terms differ from FHA-insured HECMs.',
+          text: 'Yes. While the standard FHA HECM caps at $1,209,750, proprietary reverse mortgage programs exist for ultra-luxury properties. These private jumbo reverse mortgages can provide substantially higher proceeds based on appraised value, though terms differ from FHA-insured HECMs.',
         },
       },
       {
@@ -142,7 +142,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
         name: 'What is the difference between HECM and proprietary reverse mortgages?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'HECM is the FHA-insured program with a $1,149,825 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits, no FHA insurance, and varying terms. For Peninsula homes valued above $2M, proprietary products often provide greater proceeds.',
+          text: 'HECM is the FHA-insured program with a $1,209,750 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits, no FHA insurance, and varying terms. For Peninsula homes valued above $2M, proprietary products often provide greater proceeds.',
         },
       },
       {
@@ -231,6 +231,18 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -240,7 +252,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
               $1.3 million in Campbell to $10.8 million in Atherton, Peninsula seniors hold extraordinary equity positions
               that a reverse mortgage can unlock without requiring a sale or monthly payments. &quot;The Peninsula represents
               a unique HECM opportunity,&quot; Abdel explains. &quot;Homeowners who purchased decades ago have millions in untapped
-              equity, and the 2026 HECM limit of $1,149,825 still provides meaningful liquidity for retirement planning,
+              equity, and the 2026 HECM limit of $1,209,750 still provides meaningful liquidity for retirement planning,
               healthcare, or generational wealth strategies.&quot;
             </p>
           </div>
@@ -271,7 +283,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
             The Bay Area Peninsula and Silicon Valley corridor stretches from Hillsborough in the north through
             San Jose in the south, encompassing 15 cities where homeowners have accumulated extraordinary equity.
             Every single city in this region has a median home value well above the 2026 FHA HECM lending limit
-            of $1,149,825, making reverse mortgages a practical tool for seniors who want to remain in their homes
+            of $1,209,750, making reverse mortgages a practical tool for seniors who want to remain in their homes
             while accessing a portion of their wealth.
           </p>
 
@@ -388,13 +400,13 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
 
           <p className="text-sm text-gray-500 italic">
             *Estimated HECM amounts are approximate, based on a 72-year-old borrower at current interest rate levels.
-            Actual amounts depend on age, rates, and appraised value (capped at $1,149,825 FHA limit). Proprietary
+            Actual amounts depend on age, rates, and appraised value (capped at $1,209,750 FHA limit). Proprietary
             products may provide higher proceeds.
           </p>
 
           <p>
             Notice that even though home values vary dramatically across these 15 cities, the estimated HECM amounts
-            cluster tightly because the FHA lending limit caps the calculation at $1,149,825. For homeowners in
+            cluster tightly because the FHA lending limit caps the calculation at $1,209,750. For homeowners in
             Atherton ($10.8M median) versus Campbell ($1.3M median), the standard HECM provides similar proceeds.
             This is precisely why proprietary jumbo reverse mortgages matter for high-value Peninsula properties.
           </p>
@@ -562,8 +574,8 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">FHA HECM Lending Limit</td>
                   <td className="px-4 py-3 border-t">$1,089,300</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Avg. Days on Market</td>
@@ -727,7 +739,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
           </p>
 
           <ul>
-            <li><strong>Maximum HECM utilization:</strong> With values closer to the $1,149,825 FHA limit, Tech Corridor homeowners access a larger percentage of their equity through standard HECM compared to ultra-luxury peers.</li>
+            <li><strong>Maximum HECM utilization:</strong> With values closer to the $1,209,750 FHA limit, Tech Corridor homeowners access a larger percentage of their equity through standard HECM compared to ultra-luxury peers.</li>
             <li><strong>Diverse property types:</strong> Single-family homes, condos, and townhomes across all five cities. Condo FHA approval status varies and should be verified early in the process.</li>
             <li><strong>Cultural diversity considerations:</strong> San Jose and Santa Clara have large Vietnamese, Chinese, and Indian-American senior populations who benefit from multilingual counseling services.</li>
             <li><strong>Existing mortgage payoff:</strong> More homeowners in this hub carry remaining mortgage balances that the HECM can eliminate, immediately improving monthly cash flow by removing mortgage payments.</li>
@@ -804,12 +816,12 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the maximum HECM amount for a Bay Area Peninsula home?</h3>
-              <p>The 2026 FHA HECM lending limit is $1,149,825 nationwide. Because most Peninsula homes far exceed this value, borrowers typically access only a fraction of their total equity through HECM. Proprietary jumbo reverse mortgage products can reach higher amounts for homes valued above $2 million.</p>
+              <p>The 2026 FHA HECM lending limit is $1,209,750 nationwide. Because most Peninsula homes far exceed this value, borrowers typically access only a fraction of their total equity through HECM. Proprietary jumbo reverse mortgage products can reach higher amounts for homes valued above $2 million.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Can I get a reverse mortgage on my Atherton estate valued at $10 million?</h3>
-              <p>Yes. While the standard FHA HECM caps at $1,149,825, proprietary reverse mortgage programs exist for ultra-luxury properties. These private jumbo reverse mortgages provide substantially higher proceeds based on appraised value, though terms differ from FHA-insured HECMs.</p>
+              <p>Yes. While the standard FHA HECM caps at $1,209,750, proprietary reverse mortgage programs exist for ultra-luxury properties. These private jumbo reverse mortgages provide substantially higher proceeds based on appraised value, though terms differ from FHA-insured HECMs.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -854,7 +866,7 @@ export default function ReverseMortgageBayAreaPeninsulaGuide2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the difference between HECM and proprietary reverse mortgages?</h3>
-              <p>HECM is the FHA-insured program with a $1,149,825 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits, no FHA insurance, and varying terms. For Peninsula homes valued above $2M, proprietary products often provide greater proceeds.</p>
+              <p>HECM is the FHA-insured program with a $1,209,750 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits, no FHA insurance, and varying terms. For Peninsula homes valued above $2M, proprietary products often provide greater proceeds.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">

@@ -195,6 +195,12 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
@@ -484,7 +490,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
         {/* Jumbo Loan Deep Dive */}
         <h2>Jumbo Mortgage Lending in Marin County</h2>
         <p>
-          The 2026 conforming loan limit for single-unit properties in Marin County (a high-cost area) is $1,149,825. Any mortgage amount above this threshold is classified as a jumbo loan, and jumbo lending operates under different rules than conforming mortgages. In Marin County, where the median home value is $1.6 million, jumbo financing is the standard rather than the exception.
+          The 2026 conforming loan limit for single-unit properties in Marin County (a high-cost area) is $1,209,750. Any mortgage amount above this threshold is classified as a jumbo loan, and jumbo lending operates under different rules than conforming mortgages. In Marin County, where the median home value is $1.6 million, jumbo financing is the standard rather than the exception.
         </p>
         <h3>Jumbo Loan Categories for Marin County</h3>
         <ul>

@@ -37,7 +37,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       name: 'Oak View',
       avgPrice: '$900K',
-      description: 'Inland neighborhood with larger lots and family-friendly atmosphere'
+      description: 'Inland neighborhood with larger lots and parks nearby'
     },
     {
       name: 'Seacliff',
@@ -250,7 +250,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Loan Limits (Conforming):</span>
-                <span className="font-bold">$1,266,300</span>
+                <span className="font-bold">$1,209,750</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-slate-700">Jumbo Loan Minimum:</span>

@@ -44,7 +44,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
     },
     {
       question: 'What is the maximum reverse mortgage amount for 2026?',
-      answer: 'The FHA HECM limit is $1,149,825. Proprietary jumbo products access equity on homes valued at $4M to $30M+.',
+      answer: 'The FHA HECM limit is $1,209,750. Proprietary jumbo products access equity on homes valued at $4M to $30M+.',
     },
     {
       question: 'Do reverse mortgages work with family trusts?',
@@ -68,18 +68,18 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
     },
     {
       question: 'What is the difference between HECM and jumbo reverse mortgage?',
-      answer: 'HECM is FHA-insured with a $1,149,825 cap. Jumbo proprietary products have no FHA cap and serve homes valued $1.5M to $30M+.',
+      answer: 'HECM is FHA-insured with a $1,209,750 cap. Jumbo proprietary products have no FHA cap and serve homes valued $1.5M to $30M+.',
     },
   ];
 
   const faqData = [
     {
       question: 'What is the 2026 HECM limit and why does it matter for Peninsula ultra-luxury homes?',
-      answer: 'The 2026 HECM limit is $1,149,825, which represents the maximum home value used in FHA HECM calculations. For Atherton ($10.8M median), Hillsborough ($5M), Woodside ($5M), Los Altos Hills ($5.5M), and Portola Valley ($4M), this limit means the HECM only captures a fraction of actual home value. Proprietary jumbo reverse mortgages use the full appraised value, making them essential for Peninsula ultra-luxury homeowners seeking meaningful equity access.',
+      answer: 'The 2026 HECM limit is $1,209,750, which represents the maximum home value used in FHA HECM calculations. For Atherton ($10.8M median), Hillsborough ($5M), Woodside ($5M), Los Altos Hills ($5.5M), and Portola Valley ($4M), this limit means the HECM only captures a fraction of actual home value. Proprietary jumbo reverse mortgages use the full appraised value, making them essential for Peninsula ultra-luxury homeowners seeking meaningful equity access.',
     },
     {
       question: 'How much can an Atherton homeowner access through a jumbo reverse mortgage?',
-      answer: 'An Atherton homeowner with a $10.8 million estate and no existing mortgage can access approximately $3.5 million to $5.4 million through proprietary jumbo reverse mortgage programs, depending on age, specific program, and current interest rate conditions. A standard HECM on the same property would only access approximately $520,000-$600,000 because the FHA calculation caps at $1,149,825.',
+      answer: 'An Atherton homeowner with a $10.8 million estate and no existing mortgage can access approximately $3.5 million to $5.4 million through proprietary jumbo reverse mortgage programs, depending on age, specific program, and current interest rate conditions. A standard HECM on the same property would only access approximately $520,000-$600,000 because the FHA calculation caps at $1,209,750.',
     },
     {
       question: 'Can I get a reverse mortgage on a property held in a trust?',
@@ -111,7 +111,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
     },
     {
       question: 'Is there a maximum home value for reverse mortgages?',
-      answer: 'The HECM program caps at $1,149,825 for calculation purposes but does not exclude higher-value homes. Proprietary jumbo programs accept homes valued up to $30 million or more, depending on the lender. For Atherton properties in the $8 million to $15 million range, multiple proprietary lenders compete for the business, providing negotiating leverage on rates and terms.',
+      answer: 'The HECM program caps at $1,209,750 for calculation purposes but does not exclude higher-value homes. Proprietary jumbo programs accept homes valued up to $30 million or more, depending on the lender. For Atherton properties in the $8 million to $15 million range, multiple proprietary lenders compete for the business, providing negotiating leverage on rates and terms.',
     },
     {
       question: 'How long does a reverse mortgage take to close on an ultra-luxury property?',
@@ -275,6 +275,12 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -282,7 +288,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
             Peninsula Ultra-Luxury Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            The five wealthiest Peninsula communities&mdash;Atherton ($10.8M median), Los Altos Hills ($5.5M), Hillsborough ($5M), Woodside ($5M), and Portola Valley ($4M)&mdash;hold an estimated $42 billion in residential real estate value. Every home in these communities exceeds the 2026 HECM limit of $1,149,825, making proprietary jumbo reverse mortgages essential for meaningful equity access. A jumbo reverse mortgage on an Atherton estate provides $3.5M-$5.4M in tax-free proceeds&mdash;without selling the home, triggering capital gains, or disrupting Proposition 13 property tax protection.
+            The five wealthiest Peninsula communities&mdash;Atherton ($10.8M median), Los Altos Hills ($5.5M), Hillsborough ($5M), Woodside ($5M), and Portola Valley ($4M)&mdash;hold an estimated $42 billion in residential real estate value. Every home in these communities exceeds the 2026 HECM limit of $1,209,750, making proprietary jumbo reverse mortgages essential for meaningful equity access. A jumbo reverse mortgage on an Atherton estate provides $3.5M-$5.4M in proceeds that are generally not considered taxable income (consult your tax advisor)&mdash;without selling the home, triggering capital gains, or disrupting Proposition 13 property tax protection.
           </p>
         </div>
 
@@ -291,7 +297,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Why Peninsula Ultra-Luxury Homeowners Need Jumbo Reverse Mortgages
         </h2>
         <p>
-          Peninsula ultra-luxury real estate occupies a category where the standard FHA HECM reverse mortgage captures only a fraction of actual home value. When the median home in Atherton is $10.8 million and the HECM limit is $1,149,825, the FHA program accesses roughly 11% of the property&apos;s value for its calculation. For homeowners seeking meaningful liquidity from their estate, proprietary jumbo reverse mortgage programs bridge this gap by using the full appraised value&mdash;providing 3-8 times more proceeds than HECM alone.
+          Peninsula ultra-luxury real estate occupies a category where the standard FHA HECM reverse mortgage captures only a fraction of actual home value. When the median home in Atherton is $10.8 million and the HECM limit is $1,209,750, the FHA program accesses roughly 11% of the property&apos;s value for its calculation. For homeowners seeking meaningful liquidity from their estate, proprietary jumbo reverse mortgage programs bridge this gap by using the full appraised value&mdash;providing 3-8 times more proceeds than HECM alone.
         </p>
         <p>
           <strong>Mo Abdel (NMLS #1426884)</strong> serves Peninsula ultra-luxury homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>, providing access to proprietary jumbo reverse mortgage programs from multiple lenders who specialize in $4 million to $30 million residential estates. This hub guide covers each of the five Peninsula ultra-luxury communities in detail, explaining how jumbo reverse mortgages work with trust-held properties, equestrian estates, historic mansions, conservation-adjacent parcels, and tech-founder compounds.
@@ -359,7 +365,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           </table>
         </div>
         <p>
-          The table demonstrates why proprietary jumbo reverse mortgages are essential for Peninsula ultra-luxury homeowners. HECM proceeds remain constant at $520,000-$600,000 regardless of whether the home is worth $4 million or $10.8 million because the FHA calculation caps at $1,149,825. Jumbo reverse proceeds scale with actual home value, providing 3-9 times more equity access than HECM alone.
+          The table demonstrates why proprietary jumbo reverse mortgages are essential for Peninsula ultra-luxury homeowners. HECM proceeds remain constant at $520,000-$600,000 regardless of whether the home is worth $4 million or $10.8 million because the FHA calculation caps at $1,209,750. Jumbo reverse proceeds scale with actual home value, providing 3-9 times more equity access than HECM alone.
         </p>
 
         {/* Product Comparison Table */}
@@ -379,9 +385,9 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
                 <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">$4M - $30M+</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3">FHA Mortgage Insurance</td>
@@ -494,7 +500,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Atherton stands as California&apos;s wealthiest residential community, with a $10.8 million median home value reflecting an irreplaceable combination of location, lot size (typically 1-4+ acres), and privacy that attracts technology founders, venture capitalists, and multi-generational wealth. Neighborhoods including Lindenwood, West Atherton, Atherton Oaks, and the Sacred Heart area contain estates that have appreciated consistently over decades, creating equity positions in the tens of millions.
         </p>
         <p>
-          For Atherton homeowners 62 and older, a proprietary jumbo reverse mortgage provides access to $3.5 million to $5.4 million on a $10.8 million estate&mdash;tax-free proceeds with no monthly mortgage payments, no requirement to sell the home, and no capital gains trigger. The estate remains in the family trust, Proposition 13 property tax protection continues, and the stepped-up basis at inheritance eliminates capital gains for heirs.
+          For Atherton homeowners 62 and older, a proprietary jumbo reverse mortgage provides access to $3.5 million to $5.4 million on a $10.8 million estate&mdash;loan proceeds with no monthly mortgage payments, no requirement to sell the home, and no capital gains trigger. The estate remains in the family trust, Proposition 13 property tax protection continues, and the stepped-up basis at inheritance eliminates capital gains for heirs.
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border-collapse border border-gray-300">
@@ -547,7 +553,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Hillsborough represents San Mateo County&apos;s premier old-money residential enclave, where estates dating to the early 1900s sit alongside mid-century and contemporary renovations on expansive lots. The Carolands mansion, Crystal Springs corridor, and Hillsborough Gardens neighborhoods contain multi-million-dollar properties that combine historic architecture with modern luxury. At a $5 million median, Hillsborough homeowners access $1.6 million to $2.5 million through proprietary jumbo reverse mortgages.
         </p>
         <p>
-          Hillsborough&apos;s distinct character centers on multi-generational estate ownership. Families who purchased Hillsborough properties in the 1960s-1990s hold cost bases of $200,000-$800,000 on homes now worth $4 million to $10 million. Selling triggers $3 million to $9 million in capital gains&mdash;a tax event that a reverse mortgage avoids entirely. The home stays in the family, the Proposition 13 tax base remains intact, and the equity accessed through the reverse mortgage is tax-free.
+          Hillsborough&apos;s distinct character centers on multi-generational estate ownership. Families who purchased Hillsborough properties in the 1960s-1990s hold cost bases of $200,000-$800,000 on homes now worth $4 million to $10 million. Selling triggers $3 million to $9 million in capital gains&mdash;a tax event that a reverse mortgage avoids entirely. The home stays in the family, the Proposition 13 tax base remains intact, and the equity accessed through the reverse mortgage is loan proceeds.
         </p>
         <p>
           <strong>Hillsborough Unique Scenario:</strong> A 75-year-old widow in the Crystal Springs area owns a $6.5 million estate purchased by her late husband in 1978 for $350,000. A sale would generate approximately $6.15 million in capital gains. She establishes a jumbo reverse mortgage providing $2.4 million to $3.25 million in proceeds, uses a portion for estate maintenance and renovation of the 1920s-era home, and preserves the remainder as a growing financial reserve. No capital gains. No property tax reassessment. No monthly mortgage payment. Her children inherit the property with a stepped-up cost basis.
@@ -589,7 +595,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Los Altos Hills homeowners access $1.8 million to $2.75 million through jumbo reverse mortgages at the $5.5 million median. Tech-founder estates valued at $10 million+ access $3.3 million to $5.0 million or more, providing liquidity that complements concentrated tech equity positions.
         </p>
         <p>
-          <strong>Los Altos Hills Unique Scenario:</strong> A 66-year-old retired tech executive in Purissima Hills owns a $8.5 million estate and holds $25 million in company stock with a cost basis of $2 million. Selling stock triggers $23 million in capital gains. A proprietary jumbo reverse mortgage at age 66 provides approximately $2.5 million to $3.8 million in tax-free liquidity, allowing the executive to diversify a portion of his net worth without selling stock or the home. He draws $150,000 annually from the reverse mortgage line of credit to cover property taxes, estate maintenance, and travel, while the unused portion continues growing. The stock position remains intact for a future planned charitable remainder trust.
+          <strong>Los Altos Hills Unique Scenario:</strong> A 66-year-old retired tech executive in Purissima Hills owns a $8.5 million estate and holds $25 million in company stock with a cost basis of $2 million. Selling stock triggers $23 million in capital gains. A proprietary jumbo reverse mortgage at age 66 provides approximately $2.5 million to $3.8 million in loan proceeds, allowing the executive to diversify a portion of his net worth without selling stock or the home. He draws $150,000 annually from the reverse mortgage line of credit to cover property taxes, estate maintenance, and travel, while the unused portion continues growing. The stock position remains intact for a future planned charitable remainder trust.
         </p>
 
         {/* E-E-A-T Narrative */}
@@ -763,7 +769,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
             Expert Summary: Peninsula Ultra-Luxury Reverse Mortgage Advantage
           </h2>
           <p className="text-slate-900 mb-4">
-            Peninsula ultra-luxury homeowners in Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills hold $42 billion in residential real estate&mdash;estates where the standard HECM captures a fraction of actual value. Proprietary jumbo reverse mortgages unlock $1.3 million to $5.4 million+ in tax-free proceeds from these estates, providing meaningful liquidity without triggering capital gains, disrupting Proposition 13 protections, or requiring a sale that removes the property from the family.
+            Peninsula ultra-luxury homeowners in Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills hold $42 billion in residential real estate&mdash;estates where the standard HECM captures a fraction of actual value. Proprietary jumbo reverse mortgages unlock $1.3 million to $5.4 million+ in loan proceeds from these estates, providing meaningful liquidity without triggering capital gains, disrupting Proposition 13 protections, or requiring a sale that removes the property from the family.
           </p>
           <p className="text-slate-900 mb-4">
             The difference between a well-structured ultra-luxury reverse mortgage and a poorly executed one is measured in hundreds of thousands of dollars. Accurate MAI appraisals, proper trust documentation, competitive multi-lender comparison, and understanding of equestrian, historic, and conservation-adjacent valuations determine whether your estate delivers its full reverse mortgage potential.

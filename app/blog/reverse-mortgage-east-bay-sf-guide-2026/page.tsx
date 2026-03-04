@@ -65,7 +65,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
         name: 'What is the maximum HECM amount for an East Bay or San Francisco home in 2026?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. Because most East Bay and San Francisco homes exceed this value, borrowers access a portion of total equity through HECM. Proprietary jumbo reverse mortgage products exist for homes valued above $2 million.',
+          text: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. Because most East Bay and San Francisco homes exceed this value, borrowers access a portion of total equity through HECM. Proprietary jumbo reverse mortgage products exist for homes valued above $2 million.',
         },
       },
       {
@@ -97,7 +97,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
         name: 'What is the difference between HECM and proprietary reverse mortgages for East Bay homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'HECM is the FHA-insured program with a $1,149,825 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits and varying terms. For Piedmont and Orinda homes valued above $2M, proprietary products often provide greater proceeds.',
+          text: 'HECM is the FHA-insured program with a $1,209,750 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits and varying terms. For Piedmont and Orinda homes valued above $2M, proprietary products often provide greater proceeds.',
         },
       },
       {
@@ -229,6 +229,18 @@ export default function ReverseMortgageEastBaySFGuide2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -239,7 +251,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               extraordinary equity positions that a reverse mortgage unlocks without requiring a sale or monthly
               payments. &quot;The East Bay and San Francisco represent a unique convergence of urban luxury and suburban
               wealth,&quot; Abdel explains. &quot;Homeowners who purchased 20 or 30 years ago have accumulated
-              seven-figure equity positions, and the 2026 HECM limit of $1,149,825 delivers meaningful liquidity
+              seven-figure equity positions, and the 2026 HECM limit of $1,209,750 delivers meaningful liquidity
               for retirement planning, healthcare costs, or generational wealth strategies. For ultra-high-value
               properties in Piedmont or Pacific Heights, proprietary jumbo reverse mortgage products provide even
               greater access.&quot;
@@ -274,7 +286,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
             the Tri-Valley communities of Pleasanton and Dublin, and south to Fremont. These 10 cities represent
             a spectrum of housing types -- from multi-million-dollar Victorian mansions in Pacific Heights to
             ranch-style homes in the suburban Tri-Valley -- yet all share one trait: homeowners aged 62 and older
-            have accumulated substantial equity that a reverse mortgage can convert into tax-free retirement liquidity.
+            have accumulated substantial equity that a reverse mortgage can convert into retirement liquidity (loan proceeds are generally not considered taxable income—consult a tax professional).
           </p>
 
           <p>
@@ -371,7 +383,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
 
           <p className="text-sm text-gray-500 italic">
             *Estimated HECM amounts are approximate, based on a 72-year-old borrower at current interest rate levels.
-            Actual amounts depend on age, rates, and appraised value (capped at $1,149,825 FHA limit). Proprietary
+            Actual amounts depend on age, rates, and appraised value (capped at $1,209,750 FHA limit). Proprietary
             products may provide higher proceeds for homes valued above $2 million.
           </p>
 
@@ -432,7 +444,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">6. Property Appraisal</td>
-                  <td className="px-4 py-3 border-t">FHA appraisal determines value (capped at $1,149,825)</td>
+                  <td className="px-4 py-3 border-t">FHA appraisal determines value (capped at $1,209,750)</td>
                   <td className="px-4 py-3 border-t">High-value East Bay homes may need specialized appraisers</td>
                 </tr>
                 <tr>
@@ -824,7 +836,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
           <div className="space-y-6 my-6">
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the maximum HECM amount for an East Bay or San Francisco home in 2026?</h3>
-              <p>The 2026 FHA HECM lending limit is $1,149,825 nationwide. Because most East Bay and San Francisco homes exceed this value, borrowers access a portion of total equity through HECM. Proprietary jumbo reverse mortgage products exist for homes valued above $2 million, providing greater proceeds based on full appraised value.</p>
+              <p>The 2026 FHA HECM lending limit is $1,209,750 nationwide. Because most East Bay and San Francisco homes exceed this value, borrowers access a portion of total equity through HECM. Proprietary jumbo reverse mortgage products exist for homes valued above $2 million, providing greater proceeds based on full appraised value.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -844,7 +856,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the difference between HECM and proprietary reverse mortgages?</h3>
-              <p>HECM is the FHA-insured program with a $1,149,825 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits and varying terms. For Piedmont and Orinda homes valued above $2M, proprietary products often provide greater proceeds than the standard HECM.</p>
+              <p>HECM is the FHA-insured program with a $1,209,750 lending limit, non-recourse protection, and standardized terms. Proprietary (jumbo) reverse mortgages are offered by private lenders with higher lending limits and varying terms. For Piedmont and Orinda homes valued above $2M, proprietary products often provide greater proceeds than the standard HECM.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">

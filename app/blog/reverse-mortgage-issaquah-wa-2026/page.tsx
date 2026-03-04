@@ -69,6 +69,12 @@ export default function ReverseMortgageIssaquah() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             Issaquah homeowners 62 and older can access substantial home equity through a reverse mortgage without monthly payments. With Issaquah&apos;s median home value around $1.4 million and proximity to Seattle&apos;s tech corridor, qualifying seniors can access significant equity. As a wholesale mortgage broker licensed in Washington, I help Issaquah seniors navigate HECM and jumbo reverse mortgage options with access to multiple lenders.
@@ -106,7 +112,7 @@ export default function ReverseMortgageIssaquah() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Max Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">$4M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -170,7 +176,7 @@ export default function ReverseMortgageIssaquah() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600">*Amounts above $1,149,825 may require jumbo reverse mortgage. Estimates vary by rates and lender.</p>
+          <p className="text-sm text-gray-600">*Amounts above $1,209,750 may require jumbo reverse mortgage. Estimates vary by rates and lender.</p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Issaquah Neighborhoods We Serve</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">

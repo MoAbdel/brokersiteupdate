@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     question: "How long does it take a wholesale broker to shop rates across 200+ lenders?",
-    answer: "Modern wholesale brokers use pricing engines and lender portals that aggregate rates from their lender network in real time. A broker can compare pricing from 50-100+ lenders for a specific scenario within 15-30 minutes. The technology has dramatically compressed what used to be a multi-day manual process into same-day rate comparisons. Borrowers receive rate quotes the same day they provide their loan details."
+    answer: "Modern wholesale brokers use pricing engines and lender portals that aggregate rates from their lender network in real time. A broker can compare pricing from 50-200+ lenders for a specific scenario within 15-30 minutes. The technology has dramatically compressed what used to be a multi-day manual process into same-day rate comparisons. Borrowers receive rate quotes the same day they provide their loan details."
   },
   {
     question: "Can a wholesale broker get me a loan that a bank declined?",
@@ -139,6 +139,12 @@ export default function WholesaleMortgageLenderNetwork2026() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 lg:py-24">
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-blue-500/20 rounded-full px-4 py-1.5 mb-6 border border-blue-500/30">
@@ -345,7 +351,7 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Conventional (Fannie/Freddie)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Agency wholesale lenders</td>
-                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">80-100+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">80-200+ lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
@@ -355,9 +361,9 @@ export default function WholesaleMortgageLenderNetwork2026() {
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 text-sm font-medium text-slate-900">Jumbo (&gt;$1,266,300 in CA)</td>
+                  <td className="px-4 py-3 text-sm font-medium text-slate-900">Jumbo (&gt;$1,209,750 in CA)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Portfolio &amp; private lenders</td>
-                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-200+ lenders</td>
                   <td className="px-4 py-3 text-sm text-blue-600">Limited (1 portfolio option)</td>
                 </tr>
                 <tr>
@@ -381,7 +387,7 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">VA Loans (Veterans)</td>
                   <td className="px-4 py-3 text-sm text-slate-600">VA-approved wholesale lenders</td>
-                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">30-200+ lenders</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Available at most banks</td>
                 </tr>
                 <tr>
@@ -431,7 +437,7 @@ export default function WholesaleMortgageLenderNetwork2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Pricing Engine Submission</h4>
-                  <p className="text-slate-600">The scenario is entered into wholesale pricing engines (Optimal Blue, Mortech, Lender Price) that aggregate real-time rate sheets from 50-100+ lenders. Results return within minutes, ranked by rate and total cost.</p>
+                  <p className="text-slate-600">The scenario is entered into wholesale pricing engines (Optimal Blue, Mortech, Lender Price) that aggregate real-time rate sheets from 50-200+ lenders. Results return within minutes, ranked by rate and total cost.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -604,7 +610,7 @@ export default function WholesaleMortgageLenderNetwork2026() {
               <ul className="text-slate-600 space-y-2">
                 <li><strong>Self-employed borrowers</strong> with complex tax returns or large business deductions</li>
                 <li><strong>Investment property buyers</strong> needing DSCR or non-QM programs</li>
-                <li><strong>Jumbo borrowers</strong> above conforming limits ($1,266,300 in high-cost CA areas)</li>
+                <li><strong>Jumbo borrowers</strong> above conforming limits ($1,209,750 in high-cost CA areas)</li>
                 <li><strong>Credit-challenged buyers</strong> with recent events or non-traditional credit</li>
                 <li><strong>Foreign nationals</strong> purchasing U.S. property without U.S. credit history</li>
               </ul>

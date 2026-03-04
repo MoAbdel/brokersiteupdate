@@ -5,7 +5,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-
 export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
   description:
-    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
+    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach',
     languages: {
@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: 'Newport Beach Mortgage Broker | Jumbo Loans & Luxury Home Financing',
     description:
-      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
     url: 'https://www.mothebroker.com/areas/newport-beach',
     type: 'website',
   },
@@ -39,7 +39,7 @@ export default function Page() {
     serviceType: 'Newport Beach Mortgage Brokerage Services',
     serviceName: 'Newport Beach Mortgage Broker',
     serviceDescription:
-      'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 100+ lenders.',
+      'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 200+ lenders.',
     areaServedName: 'Newport Beach, Orange County, CA',
   });
 
@@ -57,7 +57,7 @@ export default function Page() {
     pageUrl: 'https://www.mothebroker.com/areas/newport-beach',
     title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
     description:
-      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 100+ lenders for Newport Beach properties.',
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
     breadcrumbName: 'Newport Beach',
   });
 
@@ -73,7 +73,7 @@ export default function Page() {
             and access to lenders who understand luxury real estate markets.
           </p>
           <p>
-            As a wholesale mortgage broker, we work with 100+ lenders to provide competitive jumbo loan options, sophisticated
+            As a wholesale mortgage broker, we work with 200+ lenders to provide competitive jumbo loan options, sophisticated
             financing structures, and personalized service for Newport Beach's discerning homeowners and buyers. Whether you're
             purchasing a waterfront estate, refinancing a luxury condo, or accessing equity for investment opportunities,
             we navigate the complexities of high-end real estate financing.

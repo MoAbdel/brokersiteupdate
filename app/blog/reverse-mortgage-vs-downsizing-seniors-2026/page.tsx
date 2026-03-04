@@ -258,12 +258,12 @@ export default function ReverseMortgageVsDownsizingSeniors2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Tax Impact (CA)</td>
-                  <td className="px-4 py-3 text-sm text-slate-600">Proceeds are tax-free loan advances</td>
+                  <td className="px-4 py-3 text-sm text-slate-600">Proceeds are loan proceeds (generally not considered taxable income) loan advances</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Capital gains exclusion ($250K/$500K); Prop 19 tax base transfer for 55+</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Tax Impact (WA)</td>
-                  <td className="px-4 py-3 text-sm text-slate-600">Proceeds are tax-free loan advances</td>
+                  <td className="px-4 py-3 text-sm text-slate-600">Proceeds are loan proceeds loan advances</td>
                   <td className="px-4 py-3 text-sm text-slate-600">No state income tax; capital gains exclusion applies; new property assessed at purchase price</td>
                 </tr>
                 <tr>

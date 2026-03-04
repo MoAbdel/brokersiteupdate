@@ -197,6 +197,12 @@ export default function HomeEquityLAWestsideBeach() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -212,7 +218,7 @@ export default function HomeEquityLAWestsideBeach() {
               <li><strong>Jumbo HELOC Available:</strong> Yes, credit lines up to $1M+ on qualified properties</li>
               <li><strong>Top Equity Uses:</strong> Beach home renovation, ADU construction, investment property, debt consolidation</li>
               <li><strong>Cities Covered:</strong> Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, Westchester</li>
-              <li><strong>Wholesale Advantage:</strong> Access to 50+ lenders for best rate comparison</li>
+              <li><strong>Wholesale Advantage:</strong> Access to 200+ lenders for best rate comparison</li>
             </ul>
           </div>
 

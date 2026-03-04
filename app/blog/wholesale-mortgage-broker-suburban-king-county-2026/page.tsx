@@ -51,7 +51,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
     },
     {
       question: 'What loan programs are available for Shoreline homebuyers through a wholesale broker?',
-      answer: 'Shoreline homebuyers access conventional conforming loans (under $1,149,825), jumbo mortgages, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed buyers, DSCR investment property loans, renovation-purchase combination programs, and rate buydown options from 200+ wholesale lenders. This selection exceeds any single bank product menu.',
+      answer: 'Shoreline homebuyers access conventional conforming loans (under $1,209,750), jumbo mortgages, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed buyers, DSCR investment property loans, renovation-purchase combination programs, and rate buydown options from 200+ wholesale lenders. This selection exceeds any single bank product menu.',
     },
     {
       question: 'Can a wholesale broker help with renovation loans in Lake Forest Park?',
@@ -59,7 +59,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
     },
     {
       question: 'What are the 2026 conforming loan limits for King County?',
-      answer: 'The 2026 conforming loan limit for King County is $1,149,825 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders. In Snoqualmie, where the median home price is $900,000, most purchases fall within the conforming limit, maximizing rate competitiveness through 200+ wholesale lenders.',
+      answer: 'The 2026 conforming loan limit for King County is $1,209,750 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders. In Snoqualmie, where the median home price is $900,000, most purchases fall within the conforming limit, maximizing rate competitiveness through 200+ wholesale lenders.',
     },
     {
       question: 'Does a wholesale broker charge more fees than a bank in King County?',
@@ -223,6 +223,12 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -408,7 +414,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
         </div>
 
         <p>
-          Shoreline occupies the geographic and financial sweet spot between Seattle&apos;s urban core and the more affordable suburbs to the north. The city&apos;s $850,000 median home price places many transactions near the $1,149,825 King County conforming loan limit, creating opportunities for savvy wholesale broker positioning. Light rail expansion along the Lynnwood Link corridor is accelerating Shoreline&apos;s transformation from a quiet bedroom community into a transit-connected urban suburb, driving appreciation that rewards early buyers.
+          Shoreline occupies the geographic and financial sweet spot between Seattle&apos;s urban core and the more affordable suburbs to the north. The city&apos;s $850,000 median home price places many transactions near the $1,209,750 King County conforming loan limit, creating opportunities for savvy wholesale broker positioning. Light rail expansion along the Lynnwood Link corridor is accelerating Shoreline&apos;s transformation from a quiet bedroom community into a transit-connected urban suburb, driving appreciation that rewards early buyers.
         </p>
         <p>
           <strong>Boeing and aerospace commuter financing</strong> defines Shoreline&apos;s lending landscape. With Boeing&apos;s Everett plant 25 miles north and the Renton facility 18 miles south, Shoreline attracts aerospace workers whose compensation includes base salary, overtime (often 15-30% of total income), and shift differentials. Banks apply conservative overtime calculations, typically requiring a 2-year history and averaging the amount. Wholesale brokers access lenders that accept 1-year overtime history, count shift differentials at full value, and include per diem pay when documented consistently.
@@ -679,7 +685,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
           </div>
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="font-semibold text-gray-900 mt-0 mb-2">What is the conforming loan limit for King County in 2026?</h3>
-            <p className="mb-0"><strong>The 2026 King County conforming loan limit is $1,149,825 for single-family homes, with jumbo rates available above that threshold.</strong></p>
+            <p className="mb-0"><strong>The 2026 King County conforming loan limit is $1,209,750 for single-family homes, with jumbo rates available above that threshold.</strong></p>
           </div>
         </div>
 

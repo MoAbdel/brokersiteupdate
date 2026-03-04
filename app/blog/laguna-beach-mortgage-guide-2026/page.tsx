@@ -54,7 +54,7 @@ export default function LagunaBeachMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **50+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
+                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **200+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
                     </p>
                 </div>
 
@@ -101,7 +101,7 @@ export default function LagunaBeachMortgageGuidePage() {
                 </p>
                 <p><strong>Jumbo Loan Features:</strong></p>
                 <ul>
-                    <li>Loan amounts exceeding $1,249,125 (2026 Orange County conforming limit)</li>
+                    <li>Loan amounts exceeding $1,209,750 (2026 Orange County conforming limit)</li>
                     <li>Competitive wholesale pricing structures</li>
                     <li>Flexible down payment requirements (typically 10-20%)</li>
                     <li>Available for primary residences and second homes</li>
@@ -257,8 +257,8 @@ export default function LagunaBeachMortgageGuidePage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106<br />
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

@@ -186,6 +186,12 @@ export default function HomeEquityPremiumSiliconValley2026() {
           </p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -543,7 +549,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Los Altos right now?</h3>
-              <p>Jumbo HELOC rates for Los Altos homeowners vary by lender, credit profile, and CLTV ratio. Wholesale broker comparison across 50+ lenders ensures the most competitive available rate.</p>
+              <p>Jumbo HELOC rates for Los Altos homeowners vary by lender, credit profile, and CLTV ratio. Wholesale broker comparison across 200+ lenders ensures the most competitive available rate.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better in Cupertino?</h3>

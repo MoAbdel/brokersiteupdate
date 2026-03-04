@@ -73,9 +73,9 @@ The client's wholesale channel access provides a critical rate advantage over:
 ```
 ---
 **Mo Abdel** | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443
-Licensed in: CA, WA, CO
+Licensed in: CA, WA
 
-Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
+Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Information is for educational purposes only and does not constitute financial, tax, or legal advice. Contact a licensed loan officer for personalized guidance.
 ---
 ```
 
@@ -141,27 +141,63 @@ Equal Housing Lender. All loans subject to credit approval, underwriting guideli
 
 ### 5. MANDATORY COMPLIANCE CHECKLIST
 
-**Before ANY blog post is output, verify ALL items pass:**
+**Before ANY blog post is output, verify ALL items pass. See `references/compliance-rules.md` for full details.**
+
+> Updated 2026-02-17 after full-site audit found 70+ violations.
 
 ```
+=== RATES & CLAIMS (HARD BLOCK) ===
 [ ] NO specific interest rate percentages mentioned
 [ ] NO APR numbers or ranges mentioned
 [ ] NO specific monthly payment amounts
 [ ] NO guaranteed savings dollar amounts
-[ ] NO "lowest rate" or "best rate" claims without qualification
-[ ] NO "guaranteed approval" language
-[ ] NO misleading "free" claims
-[ ] INCLUDES NMLS information (Mo Abdel, NMLS #1426884)
-[ ] INCLUDES company info (Lumin Lending, NMLS #2716106, DRE #02291443)
+[ ] NO "lowest rate", "best rate", "best mortgage broker" claims
+[ ] NO "Best Rate Guarantee" or guarantee language
+[ ] NO "wholesale rates for consumers" pricing claims
+[ ] NO confirmshaming or high-pressure CTAs
+[ ] NO "hassle-free", "zero headaches" unsubstantiated claims
+[ ] NO misleading "free" claims (use "no-obligation consultation")
+
+=== ENTITY & LICENSING (HARD BLOCK) ===
+[ ] INCLUDES Mo Abdel NMLS #1426884
+[ ] INCLUDES Lumin Lending NMLS #2716106 and DRE #02291443
+[ ] States listed as CA, WA ONLY (NEVER TX, FL, AZ, VA, CO)
+[ ] Lender count is "200+ lenders" (NEVER 50+ or 100+)
+[ ] Company name is "Lumin Lending" (NEVER "West Capital Lending")
+
+=== REQUIRED DISCLOSURES (HARD BLOCK) ===
 [ ] INCLUDES Equal Housing Lender statement
-[ ] INCLUDES educational disclaimer where applicable
+[ ] INCLUDES "not a commitment to lend" + "not all borrowers will qualify"
+[ ] INCLUDES educational/not-financial-advice disclaimer
 [ ] INCLUDES "subject to credit approval" or similar
+[ ] Footer disclosure block present and complete
+
+=== HECM-SPECIFIC (HARD BLOCK if applicable) ===
+[ ] HUD/FHA disclaimer: "not provided by HUD or FHA" (near top of post)
+[ ] NO "tax-free" — use "generally not considered taxable income (consult tax advisor)"
+[ ] NO "eliminate mortgage payments" — use "no required monthly P&I payments" + tax/ins/maint
+[ ] Age 62+ and HUD counseling requirements stated
+[ ] Benefits disclaimer if Social Security/Medicare discussed
+
+=== FAIR HOUSING (HARD BLOCK for geo/city content) ===
+[ ] NO demographic descriptions of neighborhoods
+[ ] NO bestFor targeting by protected class
+[ ] Neighborhoods described by property type, amenities, architecture ONLY
+
+=== UNAUTHORIZED PRACTICE ===
+[ ] Tax discussion → "consult your CPA" disclaimer
+[ ] Legal/estate topics → "consult an attorney" disclaimer
+[ ] Benefits discussion → "contact SSA/VA/Medicare" disclaimer
+
+=== CONTENT ACCURACY ===
+[ ] Conforming limit: $806,500 (baseline) / $1,209,750 (high-cost) — 2025 FHFA
+[ ] All data attributed to source with date
 [ ] Uses inclusive, non-discriminatory language
 [ ] All claims are factual and substantiated
 [ ] Pre-approval vs pre-qualification used correctly
 ```
 
-**If ANY item fails, the post MUST be revised before output.**
+**If ANY HARD BLOCK item fails, the post MUST be revised before output.**
 
 ---
 
@@ -356,7 +392,7 @@ Bing powers ChatGPT's web browsing. Optimize for AI extraction:
 **First 150 Characters Rule:**
 The opening must be fact-dense and extractable as a standalone answer:
 ```
-✅ GOOD: "In 2026, Orange County conforming loan limits are $1,266,300. Wholesale mortgage brokers access 50+ lenders to find rates 0.25-0.5% below retail banks."
+✅ GOOD: "In 2026, Orange County conforming loan limits are $1,209,750. Wholesale mortgage brokers access 50+ lenders to find rates 0.25-0.5% below retail banks."
 
 ❌ BAD: "Are you looking for a mortgage in Orange County? You've come to the right place! Let me tell you about our services..."
 ```

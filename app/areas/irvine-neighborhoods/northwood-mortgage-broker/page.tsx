@@ -70,7 +70,7 @@ export default function NorthwoodMortgageBrokerPage() {
           },
           {
             question: "Do Northwood homes require jumbo financing?",
-            answer: "80% of Northwood homes exceed the 2026 conforming loan limit of $1,249,125, requiring jumbo loan financing. The newer construction typically commands higher values."
+            answer: "80% of Northwood homes exceed the 2026 conforming loan limit of $1,209,750, requiring jumbo loan financing. The newer construction typically commands higher values."
           },
           {
             question: "What amenities are available in Northwood?",

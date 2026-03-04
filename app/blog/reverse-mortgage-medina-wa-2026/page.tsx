@@ -49,7 +49,7 @@ export default function ReverseMortgageMedina() {
         name: 'Why do Medina homeowners need jumbo reverse mortgages?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Standard HECM loans cap at $1,149,825 for 2026. With Medina homes typically valued at $4M-$20M+, jumbo reverse mortgages are essential to access meaningful equity from these ultra-luxury properties.',
+          text: 'Standard HECM loans cap at $1,209,750 for 2026. With Medina homes typically valued at $4M-$20M+, jumbo reverse mortgages are essential to access meaningful equity from these ultra-luxury properties.',
         },
       },
     ],
@@ -67,6 +67,12 @@ export default function ReverseMortgageMedina() {
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -105,7 +111,7 @@ export default function ReverseMortgageMedina() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Max Home Value Used</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t">$10M+ (varies by lender)</td>
                 </tr>
                 <tr>
@@ -205,7 +211,7 @@ export default function ReverseMortgageMedina() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why do Medina homeowners need jumbo reverse mortgages?</h3>
-              <p>Standard HECM loans cap at $1,149,825 for 2026. With Medina homes typically valued at $4M-$20M+, jumbo reverse mortgages are essential to access meaningful equity from these ultra-luxury properties.</p>
+              <p>Standard HECM loans cap at $1,209,750 for 2026. With Medina homes typically valued at $4M-$20M+, jumbo reverse mortgages are essential to access meaningful equity from these ultra-luxury properties.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is the reverse mortgage process discreet for high-profile clients?</h3>

@@ -195,7 +195,7 @@ export default function AffordabilityCalculator() {
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
                   <h3 className="text-sm font-semibold text-yellow-800 mb-2">Orange County Context</h3>
                   <p className="text-sm text-yellow-700">
-                    With Orange County's median home price around $1.26M, consider FHA loans (down to $1,266,300) 
+                    With Orange County's median home price around $1.26M, consider FHA loans (down to $1,209,750) 
                     or jumbo loans for higher amounts. I can help you explore all available options.
                   </p>
                 </div>
@@ -228,7 +228,7 @@ export default function AffordabilityCalculator() {
               <h3 className="text-xl font-semibold text-slate-800 mb-4">Orange County Tips</h3>
               <ul className="space-y-2 text-slate-600">
                 <li>• Consider down payment assistance programs</li>
-                <li>• FHA loans available up to $1,266,300</li>
+                <li>• FHA loans available up to $1,209,750</li>
                 <li>• VA loans with no down payment for veterans</li>
                 <li>• Jumbo loans for luxury markets</li>
               </ul>

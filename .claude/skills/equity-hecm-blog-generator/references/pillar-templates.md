@@ -50,7 +50,7 @@ url_slug: "reverse-mortgages"
 
 # Complete Guide to Reverse Mortgages in California & Washington [2026]
 
-[DIRECT ANSWER - 3-4 sentences explaining what a reverse mortgage is, who qualifies, and the 2026 FHA limit of $1,149,825. Mention HUD counseling requirement.]
+[DIRECT ANSWER - 3-4 sentences explaining what a reverse mortgage is, who qualifies, and the 2026 FHA limit of $1,209,750. Mention HUD counseling requirement.]
 
 ## What Is a Reverse Mortgage (HECM)?
 

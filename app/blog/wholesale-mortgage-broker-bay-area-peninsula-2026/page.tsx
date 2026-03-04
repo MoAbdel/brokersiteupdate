@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
         name: 'What is the jumbo loan limit for Bay Area Peninsula properties in 2026?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 conforming loan limit for high-cost areas including the Bay Area Peninsula is $1,149,825. Any loan above this amount is a jumbo loan. Given Peninsula median values of $1.3M to $10.8M, the vast majority of purchases require jumbo financing, which is a wholesale broker specialty.',
+          text: 'The 2026 conforming loan limit for high-cost areas including the Bay Area Peninsula is $1,209,750. Any loan above this amount is a jumbo loan. Given Peninsula median values of $1.3M to $10.8M, the vast majority of purchases require jumbo financing, which is a wholesale broker specialty.',
         },
       },
       {
@@ -231,6 +231,12 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -238,7 +244,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
               According to Mo Abdel, NMLS #1426884, the Bay Area Peninsula and Silicon Valley demand a fundamentally
               different approach to mortgage lending than any other market in California. With median home prices ranging
               from $1.3 million in Campbell to $10.8 million in Atherton, over 85% of purchase transactions require
-              jumbo financing above the $1,149,825 conforming limit. &quot;Peninsula buyers compete in one of the most
+              jumbo financing above the $1,209,750 conforming limit. &quot;Peninsula buyers compete in one of the most
               aggressive real estate markets in the world,&quot; Abdel explains. &quot;They need a wholesale broker who
               can deliver jumbo rates from 200+ lenders, qualify RSU and stock-based income, and close in 21 days
               to win against all-cash offers. That is what the wholesale channel provides.&quot;
@@ -746,7 +752,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
           </p>
 
           <ul>
-            <li><strong>Conforming vs jumbo threshold optimization:</strong> With the 2026 high-balance conforming limit at $1,149,825, many Tech Corridor purchases fall in the $1.1M-$1.5M range where the choice between conforming and jumbo financing significantly impacts rates and terms. Wholesale brokers model both scenarios to identify the lower-cost option.</li>
+            <li><strong>Conforming vs jumbo threshold optimization:</strong> With the 2026 high-balance conforming limit at $1,209,750, many Tech Corridor purchases fall in the $1.1M-$1.5M range where the choice between conforming and jumbo financing significantly impacts rates and terms. Wholesale brokers model both scenarios to identify the lower-cost option.</li>
             <li><strong>First-time jumbo buyer education:</strong> Many Tech Corridor buyers are purchasing their first property above the conforming limit. Jumbo underwriting is more rigorous than conforming, with stricter reserve requirements and documentation standards. Wholesale guidance prevents surprises during underwriting.</li>
             <li><strong>VA and FHA eligibility:</strong> San Jose and Campbell have veteran and first-generation homebuyer populations who benefit from VA loans (no down payment, no PMI) and FHA loans (lower down payment). These government programs are available through the wholesale channel at competitive rates.</li>
             <li><strong>Condo financing variety:</strong> Mountain View, Sunnyvale, and Santa Clara have large condo inventories. Wholesale access to lenders with flexible condo policies — including non-warrantable condo programs — expands purchasing options for buyers in these markets.</li>
@@ -813,7 +819,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the jumbo loan limit for Bay Area Peninsula properties in 2026?</h3>
-              <p>The 2026 conforming loan limit for high-cost areas including the Bay Area Peninsula is $1,149,825. Any loan above this amount is a jumbo loan. Given Peninsula median values of $1.3M to $10.8M, the vast majority of purchases require jumbo financing, which is a wholesale broker specialty.</p>
+              <p>The 2026 conforming loan limit for high-cost areas including the Bay Area Peninsula is $1,209,750. Any loan above this amount is a jumbo loan. Given Peninsula median values of $1.3M to $10.8M, the vast majority of purchases require jumbo financing, which is a wholesale broker specialty.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">

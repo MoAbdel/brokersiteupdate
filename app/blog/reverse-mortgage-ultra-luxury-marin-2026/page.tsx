@@ -37,7 +37,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
   const faqData = [
     {
       question: 'Can I get a reverse mortgage on a $5 million home in Ross?',
-      answer: 'Yes. While the FHA HECM limit for 2026 is $1,149,825, proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Ross homes with a median value around $5 million are ideal candidates for proprietary reverse mortgages that access equity far beyond the HECM cap.',
+      answer: 'Yes. While the FHA HECM limit for 2026 is $1,209,750, proprietary (jumbo) reverse mortgage programs serve homes valued at $2 million to $10 million or more. Ross homes with a median value around $5 million are ideal candidates for proprietary reverse mortgages that access equity far beyond the HECM cap.',
     },
     {
       question: 'What is a jumbo reverse mortgage and how does it differ from HECM?',
@@ -230,11 +230,23 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 9, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; contains some of the highest per-capita home equity in the United States, with median values ranging from $2.7 million in Mill Valley to $5 million in Ross. For senior homeowners aged 62 and older, this equity represents a substantial financial resource that traditional lending cannot access at scale. The 2026 FHA HECM limit of $1,149,825 captures only a fraction of these homes&apos; value. &quot;Ultra-luxury Marin County homeowners need proprietary jumbo reverse mortgage programs that match the scale of their equity. A $5 million Ross estate requires a lender capable of underwriting a $2 million+ reverse mortgage &mdash; and those lenders exist in the wholesale channel,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; contains some of the highest per-capita home equity in the United States, with median values ranging from $2.7 million in Mill Valley to $5 million in Ross. For senior homeowners aged 62 and older, this equity represents a substantial financial resource that traditional lending cannot access at scale. The 2026 FHA HECM limit of $1,209,750 captures only a fraction of these homes&apos; value. &quot;Ultra-luxury Marin County homeowners need proprietary jumbo reverse mortgage programs that match the scale of their equity. A $5 million Ross estate requires a lender capable of underwriting a $2 million+ reverse mortgage &mdash; and those lenders exist in the wholesale channel,&quot; Abdel explains.
             </p>
           </div>
 
@@ -272,7 +284,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold">City</th>
                   <th className="px-4 py-3 text-left font-semibold">Median Home Value</th>
-                  <th className="px-4 py-3 text-left font-semibold">HECM Max ($1,149,825)</th>
+                  <th className="px-4 py-3 text-left font-semibold">HECM Max ($1,209,750)</th>
                   <th className="px-4 py-3 text-left font-semibold">Equity Beyond HECM</th>
                   <th className="px-4 py-3 text-left font-semibold">Key Neighborhoods</th>
                   <th className="px-4 py-3 text-left font-semibold">Best Reverse Product</th>
@@ -316,7 +328,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
           </div>
 
           <p className="text-sm text-gray-600 italic">
-            *HECM limit for 2026: $1,149,825. &quot;Equity beyond HECM&quot; assumes a free-and-clear property at median value. Actual proceeds depend on borrower age, current rates, existing liens, and lender guidelines.
+            *HECM limit for 2026: $1,209,750. &quot;Equity beyond HECM&quot; assumes a free-and-clear property at median value. Actual proceeds depend on borrower age, current rates, existing liens, and lender guidelines.
           </p>
 
           {/* ========== HECM VS PROPRIETARY ========== */}
@@ -340,7 +352,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Maximum Home Value Considered</td>
-                  <td className="px-4 py-3 border-t">$1,149,825 (2026 limit)</td>
+                  <td className="px-4 py-3 border-t">$1,209,750 (2026 limit)</td>
                   <td className="px-4 py-3 border-t text-blue-700 font-semibold">$10,000,000+ (lender dependent)</td>
                 </tr>
                 <tr>
@@ -388,7 +400,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
           </div>
 
           <div className="bg-slate-50 p-5 rounded-lg border-l-4 border-amber-500 my-6">
-            <p className="mb-0"><strong>Key Insight:</strong> A 72-year-old Ross homeowner with a free-and-clear $5 million home accessing only the HECM program would be limited to proceeds based on a $1,149,825 valuation &mdash; potentially $500,000&ndash;$650,000. The same homeowner accessing a proprietary jumbo reverse mortgage based on the full $5 million value could access $1.75 million to $2.5 million or more. That is $1 million+ in additional equity access that the HECM program simply cannot provide.</p>
+            <p className="mb-0"><strong>Key Insight:</strong> A 72-year-old Ross homeowner with a free-and-clear $5 million home accessing only the HECM program would be limited to proceeds based on a $1,209,750 valuation &mdash; potentially $500,000&ndash;$650,000. The same homeowner accessing a proprietary jumbo reverse mortgage based on the full $5 million value could access $1.75 million to $2.5 million or more. That is $1 million+ in additional equity access that the HECM program simply cannot provide.</p>
           </div>
 
           {/* ========== QUALIFICATION STEPS ========== */}
@@ -454,7 +466,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
           </div>
 
           <p>
-            <strong>Unique Reverse Mortgage Scenario &mdash; Estate Trust Financing:</strong> A 74-year-old Ross widow holds her $6 million Sir Francis Drake corridor estate in a revocable living trust established by her late husband. The home was purchased in 1985 for $800,000 and is free and clear of any mortgage. She wants to access $1.5 million to fund her grandchildren&apos;s education, make estate-level home repairs, and supplement her retirement income &mdash; all without selling the family estate. A standard HECM would limit proceeds to approximately $600,000 based on the $1,149,825 cap. Through a wholesale broker, she accesses a proprietary jumbo reverse mortgage that values the home at $6 million and provides $2.2 million in available proceeds via a line of credit. The trust ownership structure is accommodated without requiring trust modification.
+            <strong>Unique Reverse Mortgage Scenario &mdash; Estate Trust Financing:</strong> A 74-year-old Ross widow holds her $6 million Sir Francis Drake corridor estate in a revocable living trust established by her late husband. The home was purchased in 1985 for $800,000 and is free and clear of any mortgage. She wants to access $1.5 million to fund her grandchildren&apos;s education, make estate-level home repairs, and supplement her retirement income &mdash; all without selling the family estate. A standard HECM would limit proceeds to approximately $600,000 based on the $1,209,750 cap. Through a wholesale broker, she accesses a proprietary jumbo reverse mortgage that values the home at $6 million and provides $2.2 million in available proceeds via a line of credit. The trust ownership structure is accommodated without requiring trust modification.
           </p>
 
           <p className="text-sm text-gray-600 italic">
@@ -628,7 +640,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Proprietary Lender Access</h3>
           <p>
-            Proprietary jumbo reverse mortgages are not available at most retail banks. These products are offered by specialized lenders who operate primarily through the wholesale broker channel. A homeowner walking into a bank branch in Ross or Tiburon will be offered the HECM program capped at $1,149,825 &mdash; capturing a fraction of their home&apos;s value. A wholesale broker accesses the proprietary lenders who underwrite reverse mortgages on $5 million, $8 million, and $10 million properties.
+            Proprietary jumbo reverse mortgages are not available at most retail banks. These products are offered by specialized lenders who operate primarily through the wholesale broker channel. A homeowner walking into a bank branch in Ross or Tiburon will be offered the HECM program capped at $1,209,750 &mdash; capturing a fraction of their home&apos;s value. A wholesale broker accesses the proprietary lenders who underwrite reverse mortgages on $5 million, $8 million, and $10 million properties.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Proceeds Optimization</h3>
@@ -711,7 +723,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-gray-900 mt-0 mb-2">What is the HECM limit for Marin County in 2026?</h3>
-              <p className="mb-0">The 2026 FHA HECM limit is $1,149,825 nationwide, capturing only a fraction of ultra-luxury Marin home values.</p>
+              <p className="mb-0">The 2026 FHA HECM limit is $1,209,750 nationwide, capturing only a fraction of ultra-luxury Marin home values.</p>
             </div>
 
             <div className="border border-gray-200 rounded-lg p-5">
@@ -803,7 +815,7 @@ export default function ReverseMortgageUltraLuxuryMarin2026() {
               Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Reverse mortgage borrowers must be 62 years of age or older (60+ for some proprietary programs). HUD-approved counseling is required for HECM loans. Borrowers must maintain the property, pay property taxes, and maintain homeowners insurance. Failing to meet these requirements can result in the loan becoming due and payable. Not all property types qualify. Proprietary reverse mortgage programs have different terms and requirements than FHA HECM. Contact a licensed mortgage professional for personalized guidance specific to your financial situation.
             </p>
             <p className="text-xs text-gray-500 mb-0">
-              Information current as of February 2026. Marin County home values, program limits, and lender availability are subject to change. The 2026 FHA HECM limit is $1,149,825. Consult official sources for the most current data.
+              Information current as of February 2026. Marin County home values, program limits, and lender availability are subject to change. The 2026 FHA HECM limit is $1,209,750. Consult official sources for the most current data.
             </p>
           </div>
         </section>

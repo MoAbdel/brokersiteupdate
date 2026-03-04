@@ -49,7 +49,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
                 "name": "What is the typical loan amount for Newport Beach 92661 homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Newport Beach 92661 has a median home price of $3.5M, requiring jumbo loans well above the $1,149,825 conforming limit. Typical loans range from $1.5M to $5M+."
+                  "text": "Newport Beach 92661 has a median home price of $3.5M, requiring jumbo loans well above the $1,209,750 conforming limit. Typical loans range from $1.5M to $5M+."
                 }
               },
               {
@@ -136,7 +136,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$3.5M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.2M - $15M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Jumbo / Investment</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Amount</td><td className="py-2 px-4 font-semibold">$1.5M - $5M+</td></tr>
             </tbody>
@@ -160,7 +160,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
 
         <h3>Primary Residence Jumbo Loans</h3>
         <ul>
-          <li>Loans from $1,149,825 to $10M+</li>
+          <li>Loans from $1,209,750 to $10M+</li>
           <li>20-25% down payment typical</li>
           <li>Fixed-rate and ARM options</li>
           <li>Interest-only available for qualified borrowers</li>
@@ -241,7 +241,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
 
         <h3>What is the typical loan amount for Newport Beach 92661 homes?</h3>
         <p>
-          Newport Beach 92661 has a median home price of $3.5M, requiring jumbo loans well above the $1,149,825 conforming limit. Typical loans range from $1.5M to $5M+, with Lido Isle and oceanfront properties often requiring larger financing.
+          Newport Beach 92661 has a median home price of $3.5M, requiring jumbo loans well above the $1,209,750 conforming limit. Typical loans range from $1.5M to $5M+, with Lido Isle and oceanfront properties often requiring larger financing.
         </p>
 
         <h3>Can I finance investment property on Balboa Peninsula through wholesale?</h3>

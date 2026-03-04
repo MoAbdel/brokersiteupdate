@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92691Page() {
                 "name": "What loan amounts are typical in Mission Viejo 92691?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Mission Viejo 92691 has a median home price of $1.1 million, with homes near Lake Mission Viejo commanding premium prices. Many buyers need loans in the $850,000-$1.5M range, often requiring jumbo financing above the $1,149,825 conforming limit."
+                  "text": "Mission Viejo 92691 has a median home price of $1.1 million, with homes near Lake Mission Viejo commanding premium prices. Many buyers need loans in the $850,000-$1.5M range, often requiring jumbo financing above the $1,209,750 conforming limit."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92691Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Mission Viejo 92691 offers lake-oriented living with <strong>$1.1 million median home prices</strong> and access to the private Lake Mission Viejo. With the 2026 conforming limit at $1,149,825, many 92691 buyers—especially those seeking lake access or larger homes—need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for this family-focused community.
+            Mission Viejo 92691 offers lake-oriented living with <strong>$1.1 million median home prices</strong> and access to the private Lake Mission Viejo. With the 2026 conforming limit at $1,209,750, many 92691 buyers—especially those seeking lake access or larger homes—need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for this family-focused community.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92691Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$500,000 - $2,200,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$850,000 - $1,700,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">20-35 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92691Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amounts are typical in Mission Viejo 92691?</h3>
-            <p className="mb-0">Mission Viejo 92691 has a median home price of $1.1 million, with homes near Lake Mission Viejo commanding premium prices. Many buyers need loans in the $850,000-$1.5M range, often requiring jumbo financing above the $1,149,825 conforming limit.</p>
+            <p className="mb-0">Mission Viejo 92691 has a median home price of $1.1 million, with homes near Lake Mission Viejo commanding premium prices. Many buyers need loans in the $850,000-$1.5M range, often requiring jumbo financing above the $1,209,750 conforming limit.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help with Casta del Sol homes in 92691?</h3>

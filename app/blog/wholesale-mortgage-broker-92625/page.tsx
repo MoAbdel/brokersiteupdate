@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92625Page() {
                 "name": "What loan amount do I need for a home in Corona del Mar 92625?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Corona del Mar 92625 has a median home price of $3.8 million. After a typical down payment, most buyers need jumbo loans of $2.5-3.5 million. The 2026 conforming limit of $1,149,825 covers only about 30% of the median purchase price."
+                  "text": "Corona del Mar 92625 has a median home price of $3.8 million. After a typical down payment, most buyers need jumbo loans of $2.5-3.5 million. The 2026 conforming limit of $1,209,750 covers only about 30% of the median purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92625Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Corona del Mar 92625 combines village charm with coastal luxury at a <strong>$3.8 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers barely 30% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders and bank statement programs—not a bank limited to a single product menu. Our wholesale access consistently <strong>beats Wells Fargo Private Bank and First Republic</strong> on Corona del Mar jumbo financing.
+            Corona del Mar 92625 combines village charm with coastal luxury at a <strong>$3.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers barely 30% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders and bank statement programs—not a bank limited to a single product menu. Our wholesale access consistently <strong>beats Wells Fargo Private Bank and First Republic</strong> on Corona del Mar jumbo financing.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92625Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$2,000,000 - $20,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$2,500,000 - $4,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">35-70 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (insufficient here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (insufficient here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92625Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What loan amount do I need for a home in Corona del Mar 92625?</h3>
-            <p className="mb-0">Corona del Mar 92625 has a median home price of $3.8 million. After a typical down payment, most buyers need jumbo loans of $2.5-3.5 million. The 2026 conforming limit of $1,149,825 covers only about 30% of the median purchase price.</p>
+            <p className="mb-0">Corona del Mar 92625 has a median home price of $3.8 million. After a typical down payment, most buyers need jumbo loans of $2.5-3.5 million. The 2026 conforming limit of $1,209,750 covers only about 30% of the median purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer bank statement loans in Corona del Mar?</h3>

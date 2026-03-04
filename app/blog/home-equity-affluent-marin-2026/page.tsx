@@ -588,7 +588,7 @@ export default function HomeEquityAffluentMarin2026() {
           </p>
 
           <p>
-            Marin County&apos;s jumbo market adds another layer. According to <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">HUD (U.S. Department of Housing and Urban Development)</a>, the 2026 conforming loan limit for single-family homes stands at $1,266,300 in high-cost areas. Four of the five cities in this guide have median values above the conforming limit, meaning most homeowners need jumbo equity products. Jumbo lenders vary enormously in their rates, LTV limits, income documentation requirements, and property type restrictions. A wholesale broker&apos;s role is to navigate this fragmented market efficiently.
+            Marin County&apos;s jumbo market adds another layer. According to <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">HUD (U.S. Department of Housing and Urban Development)</a>, the 2026 conforming loan limit for single-family homes stands at $1,209,750 in high-cost areas. Four of the five cities in this guide have median values above the conforming limit, meaning most homeowners need jumbo equity products. Jumbo lenders vary enormously in their rates, LTV limits, income documentation requirements, and property type restrictions. A wholesale broker&apos;s role is to navigate this fragmented market efficiently.
           </p>
 
           <p>

@@ -100,7 +100,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
                 "name": "Why do Yorba Linda homebuyers need jumbo loan expertise?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yorba Linda's median home price exceeds $1.3 million, with Black Gold Estates and premium areas reaching $3-5 million or more. This places most Yorba Linda purchases above the 2026 conforming loan limit of $1,149,825, requiring jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders with varying guidelines and competitive rates."
+                  "text": "Yorba Linda's median home price exceeds $1.3 million, with Black Gold Estates and premium areas reaching $3-5 million or more. This places most Yorba Linda purchases above the 2026 conforming loan limit of $1,209,750, requiring jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders with varying guidelines and competitive rates."
                 }
               },
               {
@@ -310,7 +310,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
 
         <ul>
           <li><strong>Jumbo threshold:</strong> Most properties require jumbo financing</li>
-          <li><strong>Some conforming opportunity:</strong> Select properties near the $1,149,825 limit may qualify for better conforming rates</li>
+          <li><strong>Some conforming opportunity:</strong> Select properties near the $1,209,750 limit may qualify for better conforming rates</li>
           <li><strong>Family buyers:</strong> Often have dual incomes making qualification straightforward</li>
           <li><strong>Established community:</strong> Strong comparable sales support appraisal values</li>
         </ul>
@@ -496,7 +496,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
         </p>
 
         <ul>
-          <li><strong>Loan limit:</strong> Up to $1,149,825 (2026 Orange County limit)</li>
+          <li><strong>Loan limit:</strong> Up to $1,209,750 (2026 Orange County limit)</li>
           <li><strong>Rate advantage:</strong> Better pricing than jumbo for qualifying properties</li>
           <li><strong>Best for:</strong> Eastside Yorba Linda and entry-level properties</li>
           <li><strong>Qualification:</strong> Standard conventional guidelines apply</li>

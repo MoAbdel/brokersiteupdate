@@ -124,7 +124,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "Why do many Costa Mesa homes require jumbo loans?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Costa Mesa's median home price of approximately $1.1 million approaches the 2026 conforming loan limit of $1,149,825. Premium neighborhoods like Mesa Verde regularly exceed this threshold with homes ranging from $1.3M to $2.5M+, requiring jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders with varying guidelines and competitive rates."
+                  "text": "Costa Mesa's median home price of approximately $1.1 million approaches the 2026 conforming loan limit of $1,209,750. Premium neighborhoods like Mesa Verde regularly exceed this threshold with homes ranging from $1.3M to $2.5M+, requiring jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders with varying guidelines and competitive rates."
                 }
               },
               {
@@ -216,7 +216,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
           <div className="bg-blue-50 p-6 rounded-xl">
             <h4 className="mt-0 text-blue-900">Eastside Costa Mesa</h4>
             <p className="text-sm mb-2"><strong>Price Range:</strong> $800K - $1.5M</p>
-            <p className="text-sm mb-0">Charming bungalows, mid-century homes, tree-lined streets. Proximity to Newport Beach drives values. Popular with young professionals and families seeking character homes. Strong appreciation trajectory.</p>
+            <p className="text-sm mb-0">Charming bungalows, mid-century homes, tree-lined streets. Proximity to Newport Beach drives values. Known for character homes with strong appreciation trajectory.</p>
           </div>
           <div className="bg-slate-50 p-6 rounded-xl">
             <h4 className="mt-0 text-green-900">Westside Costa Mesa</h4>
@@ -286,7 +286,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
         </p>
 
         <ul>
-          <li><strong>Conforming vs jumbo threshold:</strong> Many properties straddle the $1,149,825 limit—proper lender selection matters</li>
+          <li><strong>Conforming vs jumbo threshold:</strong> Many properties straddle the $1,209,750 limit—proper lender selection matters</li>
           <li><strong>Bank statement demand:</strong> Creative professionals and entrepreneurs throughout the area</li>
           <li><strong>Renovation considerations:</strong> Older homes may need updates; renovation loan options available</li>
           <li><strong>Competition factor:</strong> Strong pre-approval important in this desirable area</li>
@@ -429,7 +429,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
         </p>
 
         <ul>
-          <li><strong>Loan amounts:</strong> Above $1,149,825 conforming limit to $3M+ for super jumbo</li>
+          <li><strong>Loan amounts:</strong> Above $1,209,750 conforming limit to $3M+ for super jumbo</li>
           <li><strong>Down payment:</strong> Typically 10-20% depending on loan amount and credit profile</li>
           <li><strong>Wholesale advantage:</strong> Access to 20+ jumbo lenders with different guidelines and pricing</li>
           <li><strong>Asset consideration:</strong> Some programs allow higher DTI with substantial reserves</li>
@@ -462,7 +462,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
 
         <ul>
           <li><strong>Down payment:</strong> 3% for first-time buyers through 20% standard options</li>
-          <li><strong>Conforming limit:</strong> Up to $1,149,825 in Orange County (2026)</li>
+          <li><strong>Conforming limit:</strong> Up to $1,209,750 in Orange County (2026)</li>
           <li><strong>Credit requirements:</strong> 620 minimum, better rates at 740+</li>
           <li><strong>PMI flexibility:</strong> Various structures available through wholesale lenders</li>
           <li><strong>High-balance conforming:</strong> Better rates than jumbo for properties just under the limit</li>
@@ -488,7 +488,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
         </p>
 
         <ul>
-          <li><strong>FHA:</strong> 3.5% down with 580+ credit, loan limit $1,149,825</li>
+          <li><strong>FHA:</strong> 3.5% down with 580+ credit, loan limit $1,209,750</li>
           <li><strong>VA:</strong> 0% down for eligible veterans with no loan limit</li>
           <li><strong>Best for:</strong> First-time buyers, credit rebuilding situations, lower down payment needs</li>
           <li><strong>Westside opportunity:</strong> Price points more compatible with FHA limits</li>

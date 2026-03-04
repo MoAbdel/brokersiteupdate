@@ -36,7 +36,7 @@ export default function ReverseMortgageCoronadoPage() {
             "@type": "FAQPage",
             "mainEntity": [
               { "@type": "Question", "name": "Can military retirees in Coronado get a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, military retirees 62+ living in Coronado can qualify for reverse mortgages. Your military pension and benefits are considered in the financial assessment. Many Coronado retirees have built substantial equity in this historic military community." }},
-              { "@type": "Question", "name": "How much can Coronado homeowners access through a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "With median home values around $2.5 million in Coronado, seniors can potentially access significant equity. Properties above the $1,149,825 HECM limit benefit from proprietary (jumbo) reverse mortgage programs." }},
+              { "@type": "Question", "name": "How much can Coronado homeowners access through a reverse mortgage?", "acceptedAnswer": { "@type": "Answer", "text": "With median home values around $2.5 million in Coronado, seniors can potentially access significant equity. Properties above the $1,209,750 HECM limit benefit from proprietary (jumbo) reverse mortgage programs." }},
               { "@type": "Question", "name": "Do Coronado historic homes qualify for reverse mortgages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Coronado's historic homes qualify for reverse mortgages. Properties must meet basic condition standards, but historic designation doesn't disqualify them. The unique character often enhances appraised value." }},
               { "@type": "Question", "name": "What about the Coronado Shores condos?", "acceptedAnswer": { "@type": "Answer", "text": "Coronado Shores condominiums may qualify if they meet FHA approval requirements for HECM or satisfy proprietary program guidelines. High-rise oceanfront condos with significant value often work well with proprietary programs." }},
               { "@type": "Question", "name": "Can I get a reverse mortgage near Naval Air Station North Island?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, residential properties near the Naval base qualify for reverse mortgages. Proximity to military installations doesn't affect eligibility. Many military retirees in these areas have significant equity built over long careers." }}
@@ -49,6 +49,12 @@ export default function ReverseMortgageCoronadoPage() {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage in Coronado, CA: HECM Guide for Seniors [2026]</h1>
         <p className="text-lg text-gray-600">Accessing equity in San Diego's historic island community</p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -102,7 +108,7 @@ export default function ReverseMortgageCoronadoPage() {
         <p>Yes, military retirees 62+ living in Coronado can qualify for reverse mortgages. Your military pension and benefits are considered in the financial assessment.</p>
 
         <h3>How much can Coronado homeowners access?</h3>
-        <p>With median values around $2.5 million, seniors can access significant equity. Proprietary programs serve properties above the $1,149,825 HECM limit.</p>
+        <p>With median values around $2.5 million, seniors can access significant equity. Proprietary programs serve properties above the $1,209,750 HECM limit.</p>
 
         <h3>Do Coronado historic homes qualify?</h3>
         <p>Yes, historic homes qualify. Properties must meet basic condition standards, but historic designation doesn't disqualify them.</p>

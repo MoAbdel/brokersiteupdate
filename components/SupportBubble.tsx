@@ -242,7 +242,7 @@ export default function SupportBubble() {
                           <span className="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-green-400 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                         </span>
-                        <p className="text-slate-300 text-xs font-medium">We shop 50+ lenders so you don&apos;t have to</p>
+                        <p className="text-slate-300 text-xs font-medium">We shop 200+ lenders so you don&apos;t have to</p>
                       </div>
                     </div>
                   </div>
@@ -379,6 +379,15 @@ export default function SupportBubble() {
                         </div>
                       </motion.div>
 
+                      <motion.div variants={itemVariants}>
+                        <label className="flex items-start gap-2 text-xs text-slate-500">
+                          <input type="checkbox" required className="mt-1 shrink-0" />
+                          <span>
+                            By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
+                          </span>
+                        </label>
+                      </motion.div>
+
                       <motion.div
                         variants={itemVariants}
                         className="pt-2"
@@ -415,6 +424,9 @@ export default function SupportBubble() {
                   <a href="tel:9498229662" className="text-slate-700 font-bold hover:underline hover:text-slate-900">
                     (949) 822-9662
                   </a>
+                </p>
+                <p className="text-xs text-slate-400 mt-2">
+                  Not a loan application or commitment to lend. All loans subject to credit approval. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106. Equal Housing Lender.
                 </p>
               </div>
             </motion.div>

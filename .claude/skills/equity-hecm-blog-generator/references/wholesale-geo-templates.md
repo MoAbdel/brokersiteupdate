@@ -44,7 +44,7 @@ Orange County's real estate market is defined by high prices:
 | Huntington Beach | $1.3M | Jumbo |
 | Anaheim | $850K | Conforming/Jumbo |
 
-With the conforming loan limit at $1,149,825, most OC transactions require jumbo financing.
+With the conforming loan limit at $1,209,750, most OC transactions require jumbo financing.
 
 ### The Wholesale Advantage for Jumbo Loans
 
@@ -111,7 +111,7 @@ For OC's active investor community:
 
 ### Conventional & Government
 Full range of standard programs:
-- Conforming loans to $1,149,825
+- Conforming loans to $1,209,750
 - FHA loans with 3.5% down
 - VA loans for veterans
 - First-time buyer programs
@@ -240,7 +240,7 @@ word_count: 2000
 |--------|--------|
 | Median Home Price | $[X.X]M |
 | Price Range | $[X]K - $[X]M |
-| Conforming Limit | $1,149,825 |
+| Conforming Limit | $1,209,750 |
 | Jumbo Threshold | Above conforming |
 
 [2-3 sentences about current market conditions in the city]
@@ -258,7 +258,7 @@ word_count: 2000
 
 ### Jumbo Loans
 [If applicable - most OC cities]
-- Loans above $1,149,825
+- Loans above $1,209,750
 - Access to 50+ jumbo lenders
 - Bank statement jumbo available
 - Interest-only options
@@ -270,7 +270,7 @@ word_count: 2000
 - Perfect for business owners
 
 ### Conventional Loans
-- Up to $1,149,825
+- Up to $1,209,750
 - 3-20% down payment
 - Competitive rates
 - Primary and investment

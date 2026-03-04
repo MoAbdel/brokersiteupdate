@@ -38,7 +38,7 @@ export default function ReverseMortgageRanchoSantaFePage() {
               { "@type": "Question", "name": "Can I get a reverse mortgage on my Rancho Santa Fe estate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Rancho Santa Fe homeowners 62+ can qualify for reverse mortgages. With median values exceeding $4.5 million, proprietary (jumbo) reverse mortgages are the appropriate program for accessing equity in these luxury estates." }},
               { "@type": "Question", "name": "How do reverse mortgages work for Covenant properties?", "acceptedAnswer": { "@type": "Answer", "text": "Properties within The Covenant of Rancho Santa Fe qualify for reverse mortgages. The architectural oversight and HOA requirements don't affect reverse mortgage eligibility. These prestigious properties often command premium values." }},
               { "@type": "Question", "name": "What about Fairbanks Ranch and other gated communities?", "acceptedAnswer": { "@type": "Answer", "text": "Gated communities like Fairbanks Ranch, Cielo, and Del Rayo Estates all qualify for reverse mortgages. Guard-gated communities may require appraisal coordination, but this doesn't affect eligibility or terms." }},
-              { "@type": "Question", "name": "How much can Rancho Santa Fe seniors access?", "acceptedAnswer": { "@type": "Answer", "text": "With estate values ranging from $3M to $20M+, qualified seniors can access substantial equity through proprietary programs. The standard HECM limit of $1,149,825 is insufficient for most RSF properties." }},
+              { "@type": "Question", "name": "How much can Rancho Santa Fe seniors access?", "acceptedAnswer": { "@type": "Answer", "text": "With estate values ranging from $3M to $20M+, qualified seniors can access substantial equity through proprietary programs. The standard HECM limit of $1,209,750 is insufficient for most RSF properties." }},
               { "@type": "Question", "name": "Do equestrian properties qualify for reverse mortgages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Rancho Santa Fe's equestrian properties qualify. Horse facilities, acreage, and agricultural elements are considered in the appraisal. These unique properties require specialized appraisers familiar with the equestrian market." }}
             ]
           })
@@ -49,6 +49,12 @@ export default function ReverseMortgageRanchoSantaFePage() {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Reverse Mortgage in Rancho Santa Fe, CA: HECM Guide for Seniors [2026]</h1>
         <p className="text-lg text-gray-600">Accessing equity in San Diego's most exclusive community</p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -81,7 +87,7 @@ export default function ReverseMortgageRanchoSantaFePage() {
         </div>
 
         <h2>Proprietary Reverse Mortgages for RSF Estates</h2>
-        <p>Standard FHA HECM limits ($1,149,825) are insufficient for most Rancho Santa Fe properties. Proprietary programs offer:</p>
+        <p>Standard FHA HECM limits ($1,209,750) are insufficient for most Rancho Santa Fe properties. Proprietary programs offer:</p>
         <ul>
           <li><strong>Higher loan limits:</strong> Access equity on properties up to $10M+</li>
           <li><strong>Estate-specific underwriting:</strong> Understand unique property values</li>

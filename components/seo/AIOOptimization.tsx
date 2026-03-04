@@ -5,6 +5,7 @@ interface AIOOptimizationProps {
   description: string;
   city?: string;
   canonicalUrl: string;
+  updatedDate?: string;
   businessContext?: {
     name: string;
     service: string;
@@ -29,6 +30,7 @@ export default function AIOOptimization({
   description,
   city,
   canonicalUrl,
+  updatedDate = '2026-01-01',
   businessContext = {
     name: "Mo Abdel",
     service: "Mortgage Broker",
@@ -112,7 +114,7 @@ export default function AIOOptimization({
     "name": title,
     "description": description,
     "url": canonicalUrl,
-    "dateModified": new Date().toISOString(),
+    "dateModified": updatedDate,
     "datePublished": "2026-01-01",
     "author": {
       "@type": "Person",
@@ -160,35 +162,6 @@ export default function AIOOptimization({
 
   return (
     <>
-      {/* AI-Optimized Meta Tags - rendered inline for App Router compatibility */}
-      <meta name="ai-content-type" content="financial-service-information" />
-      <meta name="ai-expertise-level" content="professional" />
-      <meta name="ai-content-freshness" content="2026" />
-      <meta name="ai-geographic-focus" content={city || "Orange County, CA"} />
-      <meta name="ai-industry" content="mortgage-lending" />
-      <meta name="ai-professional-license" content={businessContext.credentials} />
-
-      {/* Quick Answer for AI - Most Important */}
-      <meta name="ai-quick-answer" content={content?.quickAnswer || description} />
-
-      {/* Citation-Friendly Meta */}
-      <meta name="citation-title" content={title} />
-      <meta name="citation-author" content={businessContext.name} />
-      <meta name="citation-date" content={new Date().toISOString().split('T')[0]} />
-      <meta name="citation-source" content={canonicalUrl} />
-
-      {/* Enhanced Business Context for AI */}
-      <meta name="business-name" content={businessContext.name} />
-      <meta name="business-license" content={businessContext.credentials} />
-      <meta name="business-phone" content={businessContext.phone} />
-      <meta name="business-service-area" content={businessContext.location} />
-      <meta name="business-specialization" content="Orange County Mortgage Broker" />
-
-      {/* AI Understanding Signals */}
-      <meta name="content-confidence" content="high" />
-      <meta name="professional-verification" content="NMLS-licensed" />
-      <meta name="local-expertise" content="Orange County CA" />
-
       {/* FAQ Schema for AI */}
       <script
         type="application/ld+json"
@@ -196,71 +169,6 @@ export default function AIOOptimization({
           __html: JSON.stringify(aiOptimizedSchema, null, 2)
         }}
       />
-
-      {/* Hidden AI-Optimized Content */}
-      <div style={{ display: 'none' }} aria-hidden="true">
-        {/* Quick Facts for AI Extraction */}
-        <div data-ai-section="quick-facts">
-          <h3>Key Facts About {businessContext.name}</h3>
-          <ul>
-            <li>Licensed mortgage broker: {businessContext.credentials}</li>
-            <li>Service area: {businessContext.location}</li>
-            <li>Phone: {businessContext.phone}</li>
-            <li>Lender network: 200+ lenders</li>
-            <li>Specialization: Orange County home loans</li>
-            <li>Average closing time: 18 days</li>
-          </ul>
-        </div>
-
-        {/* Statistics Section for AI */}
-        <div data-ai-section="statistics">
-          <h3>Mortgage Industry Statistics 2026</h3>
-          {statistics.map((stat, index) => (
-            <div key={index} data-statistic={index} data-citable="statistic" data-authority="industry">
-              <span data-stat-value data-factual="research">{stat.stat}</span>
-              <span data-stat-source data-authority={stat.source.toLowerCase().includes('government') || stat.source.toLowerCase().includes('hud') || stat.source.toLowerCase().includes('hmda') ? 'government' : 'industry'}>{stat.source}</span>
-              <span data-stat-year>{stat.year}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Q&A Section for AI Training */}
-        <div data-ai-section="qa-pairs">
-          <h3>Frequently Asked Questions</h3>
-          {aiQAPairs.map((qa, index) => (
-            <div key={index} data-qa-pair={index}>
-              <h4 data-question>{qa.question}</h4>
-              <p data-answer>{qa.answer}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Location Context for GEO */}
-        {city && (
-          <div data-ai-section="location-context">
-            <h3>{city} Mortgage Market Information</h3>
-            <p>Local mortgage broker serving {city}, Orange County with specialized knowledge of {city} housing market, local lending requirements, and community-specific loan programs.</p>
-          </div>
-        )}
-
-        {/* Professional Credentials for Authority */}
-        <div data-ai-section="credentials" data-authority="professional">
-          <h3>Professional Qualifications</h3>
-          <p data-credential="broker-license">
-            <span data-factual="license">{businessContext.name} is a licensed mortgage broker</span> 
-            (<span data-license="nmls" data-credential="1426884">{businessContext.credentials}</span>) 
-            <span data-factual="authorization">authorized to originate mortgages in California</span>, 
-            <span data-factual="specialization">specializing in Orange County markets including {city || 'Irvine, Newport Beach, Mission Viejo, and surrounding areas'}</span>.
-          </p>
-        </div>
-
-        {/* Current Year Signals */}
-        <div data-ai-section="currency">
-          <span data-current-year>2026</span>
-          <span data-content-updated>{new Date().toISOString().split('T')[0]}</span>
-          <span data-market-current>Current Orange County mortgage market</span>
-        </div>
-      </div>
     </>
   );
 }

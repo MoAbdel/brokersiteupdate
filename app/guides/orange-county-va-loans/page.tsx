@@ -40,8 +40,8 @@ const webPageSchema = buildServiceWebPageSchema({
 });
 
 const faqSchema = buildFAQPageSchema([
-  { question: 'What is the VA loan limit for Orange County in 2025?', answer: 'The 2025 VA loan limit for Orange County is $1,266,300 for standard VA loans with $0 down payment. VA jumbo loans above this amount require 25% down on the excess amount.' },
-  { question: 'Can I use a VA loan in Orange County with no down payment?', answer: 'Yes, VA loans allow $0 down payment for homes up to the $1,266,300 loan limit in Orange County. This benefit saves veterans $200,000+ compared to conventional loan down payments on typical OC homes.' },
+  { question: 'What is the VA loan limit for Orange County in 2025?', answer: 'The 2025 VA loan limit for Orange County is $1,209,750 for standard VA loans with $0 down payment. VA jumbo loans above this amount require 25% down on the excess amount.' },
+  { question: 'Can I use a VA loan in Orange County with no down payment?', answer: 'Yes, VA loans allow $0 down payment for homes up to the $1,209,750 loan limit in Orange County. This benefit saves veterans $200,000+ compared to conventional loan down payments on typical OC homes.' },
   { question: 'Which Orange County areas are best for VA home buyers?', answer: 'Mission Viejo ($950K median, 100% VA coverage), Costa Mesa ($950K median, 100% coverage), and San Clemente ($1.2M median, 85% coverage near Camp Pendleton) are popular choices for military families.' },
 ], PAGE_URL);
 
@@ -114,7 +114,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "San Clemente",
       medianPrice: "$1,200,000",
-      vaLoanLimit: "$1,266,300",
+      vaLoanLimit: "$1,209,750",
       jumboCoverage: "85%",
       militaryFriendly: true,
       highlights: ["Beach city", "Military discounts", "Family neighborhoods"]
@@ -122,7 +122,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Dana Point",
       medianPrice: "$1,400,000", 
-      vaLoanLimit: "$1,266,300",
+      vaLoanLimit: "$1,209,750",
       jumboCoverage: "75%",
       militaryFriendly: true,
       highlights: ["Harbor views", "Resort lifestyle", "Top schools"]
@@ -130,7 +130,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Mission Viejo",
       medianPrice: "$950,000",
-      vaLoanLimit: "$1,266,300",
+      vaLoanLimit: "$1,209,750",
       jumboCoverage: "100%",
       militaryFriendly: true,
       highlights: ["Master planned", "Family oriented", "Great value"]
@@ -138,7 +138,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Huntington Beach",
       medianPrice: "$1,300,000",
-      vaLoanLimit: "$1,266,300", 
+      vaLoanLimit: "$1,209,750", 
       jumboCoverage: "80%",
       militaryFriendly: true,
       highlights: ["Surf city", "Beach lifestyle", "Military community"]
@@ -146,7 +146,7 @@ export default function OrangeCountyVALoansGuide() {
     {
       area: "Costa Mesa",
       medianPrice: "$950,000",
-      vaLoanLimit: "$1,266,300",
+      vaLoanLimit: "$1,209,750",
       jumboCoverage: "100%",
       militaryFriendly: false,
       highlights: ["Urban living", "Job centers", "Nightlife"]
@@ -497,7 +497,7 @@ export default function OrangeCountyVALoansGuide() {
               <div className="space-y-4">
                 <div>
                   <span className="text-blue-700 font-medium">2025 Loan Limit:</span>
-                  <div className="text-3xl font-bold text-blue-600">$1,266,300</div>
+                  <div className="text-3xl font-bold text-blue-600">$1,209,750</div>
                 </div>
                 <div>
                   <span className="text-blue-700 font-medium">Down Payment:</span>
@@ -536,7 +536,7 @@ export default function OrangeCountyVALoansGuide() {
           <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <h4 className="text-lg font-semibold text-yellow-800 mb-2">Example: VA Jumbo Loan</h4>
             <p className="text-yellow-700 mb-2">
-              Home Price: $1,400,000 | VA Loan Portion: $1,266,300 | Amount Above Limit: $310,700
+              Home Price: $1,400,000 | VA Loan Portion: $1,209,750 | Amount Above Limit: $310,700
             </p>
             <p className="text-yellow-700">
               <strong>Required Down Payment:</strong> $77,675 (25% of $310,700) + funding fee

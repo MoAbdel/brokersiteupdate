@@ -307,13 +307,17 @@ export default function RefinanceCalculator() {
             </CardContent>
           </Card>
 
-          <Button 
+          <Button
             onClick={() => router.push('/contact')}
             className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-3 text-lg font-semibold">
             Get My Refinance Quote
           </Button>
         </div>
       </div>
+
+      <p className="text-xs text-slate-500 text-center mt-6 max-w-4xl mx-auto px-4">
+        *Default values are for illustrative purposes only and do not represent current rates or offers. Actual rates, payments, and terms will vary based on creditworthiness, loan amount, property type, and market conditions. Not a commitment to lend. Contact us for current rates. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106.
+      </p>
     </div>
   );
 }

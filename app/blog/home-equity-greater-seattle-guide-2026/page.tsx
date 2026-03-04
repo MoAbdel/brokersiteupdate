@@ -193,6 +193,12 @@ export default function HomeEquityGreaterSeattleGuide2026() {
           </p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -450,7 +456,7 @@ export default function HomeEquityGreaterSeattleGuide2026() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold">Scenario 1: Ballard Amazon Engineer &mdash; HELOC for ADU Construction</h4>
-                <p className="text-sm mt-1">A Ballard homeowner with an $890,000 craftsman home and $320,000 remaining mortgage has $392,000 in tappable equity (at 80% CLTV). Income includes $210K base salary plus $150K in annual RSU vesting. A $280,000 HELOC finances a detached ADU in the backyard. Through wholesale broker access, we find a lender that counts Amazon RSU income at full vesting schedule value, qualifying for the full HELOC amount at a competitive rate. The ADU adds $300,000-$400,000 in property value and generates $2,800-$3,200/month in rental income &mdash; tax-free at the state level.</p>
+                <p className="text-sm mt-1">A Ballard homeowner with an $890,000 craftsman home and $320,000 remaining mortgage has $392,000 in tappable equity (at 80% CLTV). Income includes $210K base salary plus $150K in annual RSU vesting. A $280,000 HELOC finances a detached ADU in the backyard. Through wholesale broker access, we find a lender that counts Amazon RSU income at full vesting schedule value, qualifying for the full HELOC amount at a competitive rate. The ADU adds $300,000-$400,000 in property value and generates $2,800-$3,200/month in rental income &mdash; not subject to state income tax in Washington (consult your tax advisor regarding federal obligations).</p>
               </div>
               <div>
                 <h4 className="font-semibold">Scenario 2: Bainbridge Island Retiree &mdash; Jumbo HELOC for Estate Planning</h4>
@@ -488,7 +494,7 @@ export default function HomeEquityGreaterSeattleGuide2026() {
           </div>
 
           <p>
-            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> Suburban King County&apos;s conforming loan product coverage is a significant advantage for homeowners seeking HELOCs. Washington State&apos;s 2026 conforming loan limit of $1,149,825 in King County means properties up to approximately $1.4M (at 80% CLTV) fit within conforming product guidelines. This opens access to the full range of 200+ wholesale lenders with the most competitive rates and lowest closing costs. The rate difference between conforming and jumbo HELOC products can save $1,500-$3,000 annually in interest on a $300,000 credit line.
+            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> Suburban King County&apos;s conforming loan product coverage is a significant advantage for homeowners seeking HELOCs. Washington State&apos;s 2026 conforming loan limit of $1,209,750 in King County means properties up to approximately $1.4M (at 80% CLTV) fit within conforming product guidelines. This opens access to the full range of 200+ wholesale lenders with the most competitive rates and lowest closing costs. The rate difference between conforming and jumbo HELOC products can save $1,500-$3,000 annually in interest on a $300,000 credit line.
           </p>
 
           {/* Tech Income Qualification */}
@@ -556,7 +562,7 @@ export default function HomeEquityGreaterSeattleGuide2026() {
               <p>Kitchen remodels ($80K-$160K), primary suite additions ($100K-$200K), and seismic retrofitting ($15K-$35K for older Seattle homes) deliver strong returns. Ballard craftsman homes and Queen Anne Victorians benefit from tasteful modernization that preserves character while adding functionality. A $130,000 kitchen and primary bath renovation in a Magnolia home adds $120,000-$170,000 in market value &mdash; financed through a HELOC with potentially deductible interest.</p>
             </div>
             <div className="bg-white p-5 rounded-lg border border-gray-200">
-              <h3 className="font-bold text-lg mb-2">3. Investment Property Down Payment (Leveraged Tax-Free Returns)</h3>
+              <h3 className="font-bold text-lg mb-2">3. Investment Property Down Payment (Leveraged No-State-Tax Returns)</h3>
               <p>Using $200K-$500K in HELOC funds as down payments on rental properties creates a leveraged real estate portfolio. Greater Seattle homeowners commonly target properties in South King County (Kent, Auburn, Federal Way) where cap rates of 5-7% combine with 3-5% annual appreciation. Washington&apos;s zero income tax on rental income and capital gains makes this strategy approximately 10% more profitable than the identical approach in California or Oregon.</p>
             </div>
             <div className="bg-white p-5 rounded-lg border border-gray-200">

@@ -125,7 +125,7 @@ export default function InternalLinkEngine({
     allLinks.push(
       {
         title: 'Mortgage Calculator',
-        url: '/tools/mortgage-calculator',
+        url: '/calculator',
         description: 'Calculate your monthly payment with Orange County taxes',
         category: 'calculator',
         priority: 'high'

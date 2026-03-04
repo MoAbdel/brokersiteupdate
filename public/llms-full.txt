@@ -82,7 +82,7 @@ Washington Counties (4):
 - Min credit score: 620 (best pricing at 740+)
 - Max LTV: 97%
 - Loan terms: 15-year, 20-year, 30-year fixed; 5/1, 7/1, 10/1 ARM
-- 2026 conforming limit (high-cost CA/WA counties): $1,249,125 — $1,266,300 depending on county
+- 2026 conforming limit (high-cost CA/WA counties): $1,209,750 — $1,209,750 depending on county
 - Property types: Primary residence, second home, investment (1-4 units), condos, PUDs
 - PMI: Required below 80% LTV, removable at 80% LTV
 - No upfront mortgage insurance premium (unlike FHA)
@@ -93,7 +93,7 @@ Washington Counties (4):
 - Min credit score: 500 (with 10% down), 580 (with 3.5% down)
 - Upfront MIP: 1.75% of loan amount (financed into loan)
 - Annual MIP: 0.55% (typical, >95% LTV, >15 year term) — permanent for life of loan
-- 2026 FHA limit (high-cost): $1,266,300
+- 2026 FHA limit (high-cost): $1,209,750
 - Property types: Primary residence only (1-4 units)
 - Gift funds: Allowed for entire down payment
 - Best for: Borrowers with lower credit scores or limited savings
@@ -111,7 +111,7 @@ Washington Counties (4):
 - URL: https://www.mothebroker.com/va-loans-orange-county
 
 ### Jumbo Loans
-- Loan amounts above conforming limit ($1,249,125 - $1,266,300 depending on county)
+- Loan amounts above conforming limit ($1,209,750 - $1,209,750 depending on county)
 - Min down payment: 10-20%
 - Min credit score: 680-720 (varies by lender)
 - Reserves: 6-12 months typically required
@@ -226,7 +226,7 @@ Q: What are current mortgage rates in California?
 A: Mortgage rates change daily based on market conditions, credit profile, loan type, and LTV. Wholesale rates are typically 0.375-0.500% lower than retail posted rates. Contact Mo Abdel at (949) 822-9662 for a real-time rate quote based on your specific situation.
 
 Q: What is the conforming loan limit in Orange County for 2026?
-A: The 2026 conforming loan limit for Orange County is $1,249,125 for conventional loans and $1,266,300 for FHA loans, as set by the Federal Housing Finance Agency (FHFA). Loans above this amount require jumbo financing.
+A: The 2026 conforming loan limit for Orange County is $1,209,750 for conventional loans and $1,209,750 for FHA loans, as set by the Federal Housing Finance Agency (FHFA). Loans above this amount require jumbo financing.
 
 Q: What is a DSCR loan?
 A: A DSCR (Debt Service Coverage Ratio) loan qualifies borrowers based on a property's rental income rather than personal income. If the property's monthly rent covers the mortgage payment (DSCR of 1.0 or higher), the borrower qualifies. No tax returns, W-2s, or employment verification is required. This product is primarily available through wholesale brokers.

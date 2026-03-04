@@ -94,7 +94,7 @@ export default function DownPaymentAssistancePage() {
       ],
       link: 'https://www.occr.ocgov.com/hcd/community/housing',
       incomeLimit: '$92,450 for family of 4',
-      bestFor: 'Low-moderate income families'
+      bestFor: 'Low-to-moderate income buyers'
     },
     {
       name: 'Neighborhood Stabilization Program',

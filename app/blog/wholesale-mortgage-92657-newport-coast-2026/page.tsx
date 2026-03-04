@@ -49,7 +49,7 @@ export default function WholesaleMortgage92657NewportCoastPage() {
                 "name": "What is the typical loan amount for Newport Coast 92657 homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Newport Coast 92657 has a median home price of $6.8M, requiring super jumbo loans well above the $1,149,825 conforming limit. Most purchases require loans from $3M to $10M+."
+                  "text": "Newport Coast 92657 has a median home price of $6.8M, requiring super jumbo loans well above the $1,209,750 conforming limit. Most purchases require loans from $3M to $10M+."
                 }
               },
               {
@@ -136,7 +136,7 @@ export default function WholesaleMortgage92657NewportCoastPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$6.8M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$2.5M - $35M+</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4 border-b">Typical Loan Type</td><td className="py-2 px-4 border-b font-semibold">Super Jumbo</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Amount</td><td className="py-2 px-4 font-semibold">$3M - $10M+</td></tr>
             </tbody>
@@ -149,7 +149,7 @@ export default function WholesaleMortgage92657NewportCoastPage() {
 
         <h2>Why Newport Coast Buyers Choose Wholesale</h2>
         <ul>
-          <li><strong>Super Jumbo Access:</strong> 50+ lenders offering loans from $1.5M to $30M</li>
+          <li><strong>Super Jumbo Access:</strong> 200+ lenders offering loans from $1.5M to $30M</li>
           <li><strong>Private Bank Rates:</strong> Institutional pricing without private banking minimums</li>
           <li><strong>Asset Depletion Programs:</strong> Qualify using liquid assets, not just income</li>
           <li><strong>Bank Statement Options:</strong> Self-employed and business owner solutions</li>
@@ -232,7 +232,7 @@ export default function WholesaleMortgage92657NewportCoastPage() {
 
         <h3>What is the typical loan amount for Newport Coast 92657 homes?</h3>
         <p>
-          Newport Coast 92657 has a median home price of $6.8M, requiring super jumbo loans well above the $1,149,825 conforming limit. Most purchases require loans from $3M to $10M+, with ultra-luxury properties requiring financing up to $20M or more.
+          Newport Coast 92657 has a median home price of $6.8M, requiring super jumbo loans well above the $1,209,750 conforming limit. Most purchases require loans from $3M to $10M+, with ultra-luxury properties requiring financing up to $20M or more.
         </p>
 
         <h3>Can I get a super jumbo loan for Crystal Cove through a wholesale broker?</h3>

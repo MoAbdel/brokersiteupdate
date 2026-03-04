@@ -265,12 +265,12 @@ export default function TwoHundredLenderAdvantagePage() {
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Jumbo Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">1 product</td>
-                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">50+ lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">200+ lenders</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Bank Statement Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">Rarely available</td>
-                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">50+ lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700 font-semibold">200+ lenders</td>
               </tr>
               <tr>
                 <td className="py-3 px-4 border border-gray-300 font-semibold">DSCR Lenders</td>
@@ -322,8 +322,8 @@ export default function TwoHundredLenderAdvantagePage() {
           Specialty programs exist throughout the 200+ lender network. Each program category includes multiple lender options:
         </p>
         <ul>
-          <li><strong>Bank statement loans:</strong> 50+ lenders with different calculation methods and guidelines</li>
-          <li><strong>Jumbo programs:</strong> 50+ lenders offering loans above conforming limits</li>
+          <li><strong>Bank statement loans:</strong> 200+ lenders with different calculation methods and guidelines</li>
+          <li><strong>Jumbo programs:</strong> 200+ lenders offering loans above conforming limits</li>
           <li><strong>DSCR investment loans:</strong> 40+ lenders evaluating rental income for qualification</li>
           <li><strong>Asset depletion:</strong> 30+ lenders qualifying borrowers on liquid assets</li>
           <li><strong>Foreign national:</strong> 20+ lenders serving non-US citizen borrowers</li>

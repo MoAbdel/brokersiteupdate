@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
         name: 'What makes South Orange County properties unique for mortgage financing?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'South OC features coastal premiums, vacation rental income considerations, and median values from $1.2M (San Clemente) to $3M+ (Laguna Beach oceanfront). Most purchases require jumbo financing above the $1,149,825 conforming limit.',
+          text: 'South OC features coastal premiums, vacation rental income considerations, and median values from $1.2M (San Clemente) to $3M+ (Laguna Beach oceanfront). Most purchases require jumbo financing above the $1,209,750 conforming limit.',
         },
       },
       {
@@ -94,6 +94,12 @@ export default function WholesaleMortgageBrokerSouthOC() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
             South Orange County represents California&apos;s premier coastal lifestyle—from Dana Point&apos;s harbor views to Laguna Beach&apos;s artist colony to San Clemente&apos;s surf culture. With median home prices ranging from $1.2 million to $3 million+ and many properties exceeding $5 million, most South OC buyers need jumbo financing. As a wholesale mortgage broker with 200+ lender relationships, I deliver wholesale rates and specialized programs that coastal community buyers need.
@@ -103,7 +109,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             <h3 className="font-bold text-lg mb-3">South Orange County Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>Region Median Price:</strong> $1.8 million (varies $1.2M-$10M+ by location)</li>
-              <li><strong>2026 Conforming Limit:</strong> $1,149,825 (most South OC needs jumbo)</li>
+              <li><strong>2026 Conforming Limit:</strong> $1,209,750 (most South OC needs jumbo)</li>
               <li><strong>Vacation Rental Markets:</strong> Dana Point, Laguna Beach, San Clemente</li>
               <li><strong>Communities Covered:</strong> Dana Point, Laguna Beach, Laguna Niguel, Aliso Viejo, San Clemente, San Juan Capistrano, Capistrano Beach</li>
             </ul>
@@ -341,7 +347,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What makes South Orange County properties unique for mortgage financing?</h3>
-              <p>South OC features coastal premiums, vacation rental income considerations, and median values from $1.2M (San Clemente) to $3M+ (Laguna Beach oceanfront). Most purchases require jumbo financing above the $1,149,825 conforming limit.</p>
+              <p>South OC features coastal premiums, vacation rental income considerations, and median values from $1.2M (San Clemente) to $3M+ (Laguna Beach oceanfront). Most purchases require jumbo financing above the $1,209,750 conforming limit.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I qualify using short-term rental income from my Dana Point property?</h3>

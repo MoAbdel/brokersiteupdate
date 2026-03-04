@@ -227,6 +227,12 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
         <p className="text-gray-500 mt-1">Licensed in California &amp; Washington &middot; <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a></p>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
@@ -415,7 +421,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
               <tr>
                 <td className="px-4 py-3 border-t font-medium">Wholesale Lender Count</td>
                 <td className="px-4 py-3 border-t">15-20 lenders</td>
-                <td className="px-4 py-3 border-t">50+ lenders</td>
+                <td className="px-4 py-3 border-t">200+ lenders</td>
                 <td className="px-4 py-3 border-t">40+ lenders</td>
                 <td className="px-4 py-3 border-t">30+ lenders</td>
               </tr>

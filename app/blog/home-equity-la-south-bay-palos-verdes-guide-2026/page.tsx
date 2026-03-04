@@ -220,6 +220,12 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* Citation Hook */}
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -690,7 +696,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
             <li>
               <a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026" className="text-blue-600 hover:underline">
                 <strong>Reverse Mortgage LA South Bay &amp; Palos Verdes Guide [2026]</strong>
-              </a> &mdash; HECM and jumbo reverse mortgage options for homeowners 62+ seeking tax-free retirement income
+              </a> &mdash; HECM and jumbo reverse mortgage options for homeowners 62+ seeking retirement liquidity from home equity
             </li>
             <li>
               <a href="/blog/wholesale-mortgage-broker-la-south-bay-palos-verdes-2026" className="text-blue-600 hover:underline">

@@ -74,7 +74,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
         name: 'What is a wholesale mortgage broker and how does it benefit Palos Verdes Peninsula buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. Palos Verdes Peninsula buyers benefit because jumbo loans above $1,149,825 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M-$5M+ peninsula properties.',
+          text: 'A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. Palos Verdes Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M-$5M+ peninsula properties.',
         },
       },
       {
@@ -90,7 +90,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
         name: 'What is the 2026 conforming loan limit for Palos Verdes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 conforming loan limit for Los Angeles County is $1,149,825. Since median home values on the Palos Verdes Peninsula range from $2M to $3M, virtually all purchases require jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders competing for your business.',
+          text: 'The 2026 conforming loan limit for Los Angeles County is $1,209,750. Since median home values on the Palos Verdes Peninsula range from $2M to $3M, virtually all purchases require jumbo financing. Wholesale brokers provide access to 20+ jumbo lenders competing for your business.',
         },
       },
       {
@@ -234,6 +234,12 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           </p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -242,7 +248,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
             <ul className="text-blue-800 space-y-1 text-base">
               <li>4 PV Peninsula cities hold a combined $14.8 billion in residential real estate value across approximately 16,500 owner-occupied homes</li>
               <li>Median home values range from $2M (Rancho Palos Verdes &amp; Rolling Hills Estates) to $3M (Rolling Hills), with oceanfront estates exceeding $15M</li>
-              <li>98% of PV Peninsula purchases require jumbo financing above the $1,149,825 LA County conforming limit</li>
+              <li>98% of PV Peninsula purchases require jumbo financing above the $1,209,750 LA County conforming limit</li>
               <li>Rolling Hills is one of only two fully gated cities in California &mdash; all 690 homes sit on 1+ acre lots with equestrian zoning</li>
               <li>Wholesale broker access to 200+ lenders delivers an average 0.25%&ndash;0.50% rate savings on jumbo products versus single-bank retail pricing</li>
             </ul>
@@ -355,7 +361,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo Conforming</td>
                   <td className="px-4 py-3 border-t">Properties near $1.5M</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">5%</td>
                   <td className="px-4 py-3 border-t">Full doc (W-2/tax returns)</td>
                 </tr>
@@ -742,7 +748,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker and how does it benefit Palos Verdes Peninsula buyers?</h3>
-              <p>A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. PV Peninsula buyers benefit because jumbo loans above $1,149,825 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M&ndash;$5M+ peninsula properties.</p>
+              <p>A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. PV Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M&ndash;$5M+ peninsula properties.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How do I finance an equestrian property in Rolling Hills?</h3>
@@ -750,7 +756,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the 2026 conforming loan limit for Palos Verdes?</h3>
-              <p>The 2026 conforming loan limit for Los Angeles County is $1,149,825. Since median home values on the PV Peninsula range from $2M to $3M, virtually all purchases require jumbo financing above this limit. Wholesale brokers provide access to 20+ jumbo lenders competing for your business, ensuring the best possible jumbo rate.</p>
+              <p>The 2026 conforming loan limit for Los Angeles County is $1,209,750. Since median home values on the PV Peninsula range from $2M to $3M, virtually all purchases require jumbo financing above this limit. Wholesale brokers provide access to 20+ jumbo lenders competing for your business, ensuring the best possible jumbo rate.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a mortgage on a property in a gated city like Rolling Hills?</h3>

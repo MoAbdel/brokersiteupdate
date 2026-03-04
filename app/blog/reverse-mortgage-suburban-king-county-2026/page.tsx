@@ -30,11 +30,11 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
   const faqData = [
     {
       question: 'Can I get a reverse mortgage on my Federal Way home if it is worth $550,000?',
-      answer: 'Yes. Federal Way homes valued at $550,000 fall well within the 2026 FHA HECM lending limit of $1,149,825. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. A $550,000 home provides meaningful HECM proceeds, and Washington state has no income tax on the funds received, maximizing the net benefit to borrowers.',
+      answer: 'Yes. Federal Way homes valued at $550,000 fall well within the 2026 FHA HECM lending limit of $1,209,750. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. A $550,000 home provides meaningful HECM proceeds, and Washington state has no income tax on the funds received, maximizing the net benefit to borrowers.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it benefit South King County homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations. Because South King County homes in Federal Way, Kent, Renton, Tukwila, and SeaTac all have median values well below this cap, the full appraised value is used in HECM calculations. This means no equity is left on the table, and proprietary jumbo programs are unnecessary for the vast majority of homeowners in these communities.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations. Because South King County homes in Federal Way, Kent, Renton, Tukwila, and SeaTac all have median values well below this cap, the full appraised value is used in HECM calculations. This means no equity is left on the table, and proprietary jumbo programs are unnecessary for the vast majority of homeowners in these communities.',
     },
     {
       question: 'How does Washington state having no income tax benefit reverse mortgage borrowers in Kent?',
@@ -223,12 +223,24 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the five suburban South King County communities &mdash; Federal Way, Kent, Renton, Tukwila, and SeaTac &mdash; are home to an estimated <strong>42,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$21 billion in home equity</strong>, based on 2026 King County assessor data and U.S. Census demographic projections. With median home values ranging from <strong>$450,000 in SeaTac to $650,000 in Renton</strong>, every community falls well within the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, making standard HECM the optimal program with full FHA insurance protections and no need for proprietary alternatives. &quot;South King County represents the most HECM-efficient market in the Greater Seattle area. Home values are substantial enough to provide meaningful proceeds yet fall entirely within the HECM cap. Combined with Washington&apos;s zero state income tax, these communities offer seniors one of the strongest reverse mortgage value propositions in the Pacific Northwest,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the five suburban South King County communities &mdash; Federal Way, Kent, Renton, Tukwila, and SeaTac &mdash; are home to an estimated <strong>42,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$21 billion in home equity</strong>, based on 2026 King County assessor data and U.S. Census demographic projections. With median home values ranging from <strong>$450,000 in SeaTac to $650,000 in Renton</strong>, every community falls well within the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making standard HECM the optimal program with full FHA insurance protections and no need for proprietary alternatives. &quot;South King County represents the most HECM-efficient market in the Greater Seattle area. Home values are substantial enough to provide meaningful proceeds yet fall entirely within the HECM cap. Combined with Washington&apos;s zero state income tax, these communities offer seniors one of the strongest reverse mortgage value propositions in the Pacific Northwest,&quot; Abdel explains.
             </p>
           </div>
 
@@ -257,7 +269,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across suburban South King County, home values range from $450,000 in SeaTac to $650,000 in Renton &mdash; all falling well within the FHA HECM cap of $1,149,825. This means every homeowner in these communities receives the full benefit of FHA insurance protections, including the non-recourse guarantee (borrowers and heirs never owe more than the home&apos;s value), the growing line of credit feature (unused funds increase annually), and federally regulated consumer protections. Washington&apos;s zero state income tax further enhances the net benefit, as reverse mortgage proceeds face no state taxation.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across suburban South King County, home values range from $450,000 in SeaTac to $650,000 in Renton &mdash; all falling well within the FHA HECM cap of $1,209,750. This means every homeowner in these communities receives the full benefit of FHA insurance protections, including the non-recourse guarantee (borrowers and heirs never owe more than the home&apos;s value), the growing line of credit feature (unused funds increase annually), and federally regulated consumer protections. Washington&apos;s zero state income tax further enhances the net benefit, as reverse mortgage proceeds face no state taxation.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -312,7 +324,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
           </div>
 
           <p className="text-sm text-gray-500">
-            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. All five cities fall well within the $1,149,825 HECM limit.
+            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. All five cities fall well within the $1,209,750 HECM limit.
           </p>
 
           {/* ========== PAYOUT COMPARISON ========== */}
@@ -492,7 +504,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
           </div>
 
           <p>
-            <strong>Retirement Scenario:</strong> A 68-year-old retired Kent School District teacher and her husband own a $580,000 East Hill home purchased in 2001 for $195,000. A $72,000 mortgage remains from a 2016 refinance with a $780 monthly payment. Teacher pension (TRS) provides $3,800 monthly, and her husband&apos;s Social Security adds $1,900, totaling $5,700. After the mortgage payment, property taxes ($485/month), insurance, and living expenses, the couple runs a tight budget with no travel or discretionary spending. An FHA HECM pays off the $72,000 mortgage (eliminating the $780 monthly payment immediately) and establishes a $189,000 line of credit. The freed cash flow allows the couple to travel to visit grandchildren in California, and the growing credit line provides a financial safety net for future healthcare costs. Washington&apos;s zero income tax means the teacher pension and reverse mortgage proceeds are both state-tax-free.
+            <strong>Retirement Scenario:</strong> A 68-year-old retired Kent School District teacher and her husband own a $580,000 East Hill home purchased in 2001 for $195,000. A $72,000 mortgage remains from a 2016 refinance with a $780 monthly payment. Teacher pension (TRS) provides $3,800 monthly, and her husband&apos;s Social Security adds $1,900, totaling $5,700. After the mortgage payment, property taxes ($485/month), insurance, and living expenses, the couple runs a tight budget with no travel or discretionary spending. An FHA HECM pays off the $72,000 mortgage (eliminating the $780 monthly payment immediately) and establishes a $189,000 line of credit. The freed cash flow allows the couple to travel to visit grandchildren in California, and the growing credit line provides a financial safety net for future healthcare costs. Washington&apos;s zero income tax means the teacher pension and reverse mortgage proceeds are not subject to state income tax (consult your tax advisor for your specific situation).
           </p>
 
           <p>
@@ -548,7 +560,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Renton Reverse Mortgage Insight</h4>
-            <p className="mb-0">Renton&apos;s economic diversification from Boeing-dependent to a multi-industry hub strengthens the reverse mortgage proposition for local seniors. Boeing retirees with pensions and 401(k) savings can supplement retirement income through HECM while maintaining their lakeside lifestyle near Gene Coulon Park. Kennydale waterfront properties may approach the HECM limit, but the vast majority of Renton homes fall well within the $1,149,825 cap, making standard HECM the best choice for FHA insurance protections and the growing line of credit feature.</p>
+            <p className="mb-0">Renton&apos;s economic diversification from Boeing-dependent to a multi-industry hub strengthens the reverse mortgage proposition for local seniors. Boeing retirees with pensions and 401(k) savings can supplement retirement income through HECM while maintaining their lakeside lifestyle near Gene Coulon Park. Kennydale waterfront properties may approach the HECM limit, but the vast majority of Renton homes fall well within the $1,209,750 cap, making standard HECM the best choice for FHA insurance protections and the growing line of credit feature.</p>
           </div>
 
           <p>
@@ -787,7 +799,7 @@ export default function ReverseMortgageSuburbanKingCounty2026() {
           </div>
 
           <p>
-            The five suburban South King County communities contain an estimated 43,000 homeowners aged 62 and older, representing approximately $21 billion in cumulative home equity. SeaTac and Tukwila lead the corridor in year-over-year appreciation at 5.6% and 5.1% respectively &mdash; reflecting the catch-up growth pattern common in previously undervalued communities benefiting from transit investment and regional spillover demand. All five cities recommend standard HECM as the optimal program, with every community falling well within the $1,149,825 lending limit. Washington&apos;s zero state income tax applies uniformly across all five cities, providing a consistent tax advantage over neighboring Oregon (which taxes retirement income) and California (with rates up to 13.3%).
+            The five suburban South King County communities contain an estimated 43,000 homeowners aged 62 and older, representing approximately $21 billion in cumulative home equity. SeaTac and Tukwila lead the corridor in year-over-year appreciation at 5.6% and 5.1% respectively &mdash; reflecting the catch-up growth pattern common in previously undervalued communities benefiting from transit investment and regional spillover demand. All five cities recommend standard HECM as the optimal program, with every community falling well within the $1,209,750 lending limit. Washington&apos;s zero state income tax applies uniformly across all five cities, providing a consistent tax advantage over neighboring Oregon (which taxes retirement income) and California (with rates up to 13.3%).
           </p>
 
           {/* ========== PEOPLE ALSO ASK ========== */}

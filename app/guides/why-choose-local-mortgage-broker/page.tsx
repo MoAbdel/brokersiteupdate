@@ -203,7 +203,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
                 <div>
                   <strong className="text-slate-900">Licensed in Multiple States</strong>
                   <p className="text-slate-600 text-sm mt-1">
-                    NMLS #1426884 - Licensed in CA, WA, VA, and CO for relocating clients
+                    NMLS #1426884 - Licensed in CA and WA
                   </p>
                 </div>
               </div>

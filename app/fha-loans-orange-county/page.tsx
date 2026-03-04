@@ -119,7 +119,7 @@ const fhaRequirements = [
   {
     category: 'Orange County Specific',
     requirements: [
-      'Loan amount cannot exceed $1,266,300 (2026 limit)',
+      'Loan amount cannot exceed $1,209,750 (2026 limit)',
       'Property must be within Orange County boundaries',
       'Competitive market requires strong pre-approval',
       'Local market knowledge essential for success'
@@ -130,7 +130,7 @@ const fhaRequirements = [
 const faqs = [
   {
     question: "What are the 2026 FHA loan limits in Orange County?",
-    answer: "The 2026 FHA loan limit for Orange County is $1,266,300 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
+    answer: "The 2026 FHA loan limit for Orange County is $1,209,750 for single-family homes. This matches the conforming high-cost limit for the area. This means you can purchase homes up to approximately $1.31 million with 3.5% down, assuming you meet other FHA requirements."
   },
   {
     question: "What's the difference between FHA and conventional loans in Orange County?",
@@ -159,7 +159,7 @@ const howToSchema = buildHowToSchema({
   url: PAGE_URL,
   steps: [
     { name: 'Pre-Approval', text: 'Get pre-approved to understand your budget and show sellers you\'re serious in Orange County\'s competitive market.' },
-    { name: 'Home Shopping', text: 'Search for FHA-eligible homes within the $1,266,300 loan limit. Mo will help identify suitable properties.' },
+    { name: 'Home Shopping', text: 'Search for FHA-eligible homes within the $1,209,750 loan limit. Mo will help identify suitable properties.' },
     { name: 'FHA Appraisal', text: 'FHA requires a special appraisal to ensure the property meets standards and is worth the purchase price.' },
     { name: 'Closing', text: 'Final underwriting, closing preparation, and keys to your new Orange County home.' },
   ],
@@ -180,8 +180,8 @@ const comparisonData = [
   },
   {
     feature: 'Loan Limits (Orange County)',
-    fha: '$1,266,300',
-    conventional: '$1,266,300',
+    fha: '$1,209,750',
+    conventional: '$1,209,750',
     va: 'No limit (with down payment)'
   },
   {
@@ -265,12 +265,12 @@ export default function FHALoansOrangeCountyPage() {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-slate-700 mb-6 text-center" data-speakable="true">
-              The 2026 FHA loan limit for Orange County is <strong>$1,266,300</strong> for single-family homes,
+              The 2026 FHA loan limit for Orange County is <strong>$1,209,750</strong> for single-family homes,
               matching the conforming high-cost limit for this area.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg p-6 text-center">
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,266,300</h3>
+                <h3 className="text-2xl font-bold text-blue-600 mb-2">$1,209,750</h3>
                 <p className="text-slate-700">2026 FHA Loan Limit</p>
                 <p className="text-sm text-slate-600 mt-2">Single-family homes</p>
               </div>
@@ -413,7 +413,7 @@ export default function FHALoansOrangeCountyPage() {
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Home Shopping</h3>
               <p className="text-slate-600">
-                Search for FHA-eligible homes within the $1,266,300 loan limit.
+                Search for FHA-eligible homes within the $1,209,750 loan limit.
                 I'll help identify suitable properties.
               </p>
             </div>

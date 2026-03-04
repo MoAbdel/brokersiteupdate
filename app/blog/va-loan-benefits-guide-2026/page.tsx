@@ -76,7 +76,7 @@ export default function VALoanBenefitsGuidePage() {
                                 "name": "Is there a VA loan limit in 2026?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "For veterans with full entitlement, there is no VA loan limit - you can borrow any amount a lender will approve with zero down. Veterans with reduced entitlement follow county loan limits, which are $1,266,300 in Orange County for 2026."
+                                    "text": "For veterans with full entitlement, there is no VA loan limit - you can borrow any amount a lender will approve with zero down. Veterans with reduced entitlement follow county loan limits, which are $1,209,750 in Orange County for 2026."
                                 }
                             },
                             {
@@ -182,7 +182,7 @@ export default function VALoanBenefitsGuidePage() {
                 </p>
                 <ul>
                     <li><strong>Full entitlement</strong> - No loan limit with zero down payment</li>
-                    <li><strong>Reduced entitlement</strong> - County limits apply (Orange County: $1,266,300)</li>
+                    <li><strong>Reduced entitlement</strong> - County limits apply (Orange County: $1,209,750)</li>
                     <li><strong>Jumbo VA loans</strong> - Available above county limits with down payment</li>
                 </ul>
 
@@ -284,7 +284,7 @@ export default function VALoanBenefitsGuidePage() {
 
                 <h3>Is there a VA loan limit in 2026?</h3>
                 <p>
-                    For veterans with full entitlement, there is no VA loan limit - you can borrow any amount a lender will approve with zero down. Veterans with reduced entitlement follow county loan limits, which are $1,266,300 in Orange County for 2026.
+                    For veterans with full entitlement, there is no VA loan limit - you can borrow any amount a lender will approve with zero down. Veterans with reduced entitlement follow county loan limits, which are $1,209,750 in Orange County for 2026.
                 </p>
 
                 <h3>What is the VA funding fee?</h3>
@@ -302,7 +302,7 @@ export default function VALoanBenefitsGuidePage() {
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <p className="text-sm text-gray-600">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA, CO<br /><br />
+                        Licensed in: CA, WA<br /><br />
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>
                 </div>

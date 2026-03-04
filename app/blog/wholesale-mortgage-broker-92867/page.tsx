@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92867Page() {
                 "name": "What is the typical loan amount needed in Villa Park 92867?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Villa Park 92867 has a median home price of $1.5 million, meaning most buyers need jumbo loans above the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1.2M to $2.5M for this exclusive Orange County enclave."
+                  "text": "Villa Park 92867 has a median home price of $1.5 million, meaning most buyers need jumbo loans above the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1.2M to $2.5M for this exclusive Orange County enclave."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92867Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Villa Park 92867 is Orange County&apos;s smallest city with its largest residential lots, featuring a <strong>$1.5 million median home price</strong> and properties up to 20 acres. With the 2026 conforming loan limit at $1,149,825, most Villa Park buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders delivers better rates than US Bank, Union Bank, or First Citizens can offer on their limited product menus.
+            Villa Park 92867 is Orange County&apos;s smallest city with its largest residential lots, featuring a <strong>$1.5 million median home price</strong> and properties up to 20 acres. With the 2026 conforming loan limit at $1,209,750, most Villa Park buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders delivers better rates than US Bank, Union Bank, or First Citizens can offer on their limited product menus.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92867Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit of $1,149,825 falls short for most Villa Park purchases. With a $1.5M median price and many homes reaching $2-3M+, the typical 92867 buyer needs a <strong>jumbo loan of $1.2-2.5 million</strong>. Banks like US Bank and Union Bank offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing.
+          The 2026 conforming loan limit of $1,209,750 falls short for most Villa Park purchases. With a $1.5M median price and many homes reaching $2-3M+, the typical 92867 buyer needs a <strong>jumbo loan of $1.2-2.5 million</strong>. Banks like US Bank and Union Bank offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing.
         </p>
 
         <h2>92867 Real Estate Snapshot</h2>
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92867Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,100,000 - $4,500,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$1,200,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Average Lot Size</td><td className="py-2 px-4 border-b">0.5 - 5 acres</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -268,7 +268,7 @@ export default function WholesaleMortgageBroker92867Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Villa Park 92867?</h3>
-            <p className="mb-0">Villa Park 92867 has a median home price of $1.5 million, meaning most buyers need jumbo loans above the 2026 conforming limit of $1,149,825. Typical loan amounts range from $1.2M to $2.5M for this exclusive Orange County enclave.</p>
+            <p className="mb-0">Villa Park 92867 has a median home price of $1.5 million, meaning most buyers need jumbo loans above the 2026 conforming limit of $1,209,750. Typical loan amounts range from $1.2M to $2.5M for this exclusive Orange County enclave.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over US Bank in Villa Park?</h3>

@@ -81,7 +81,7 @@ export default function WholesaleMortgageBroker92629Page() {
                 "name": "What is the jumbo loan limit for Dana Point in 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The 2026 conforming loan limit is $1,149,825 for Orange County. With Dana Point median home prices around $1.9M, most purchases require jumbo loans exceeding this limit."
+                  "text": "The 2026 conforming loan limit is $1,209,750 for Orange County. With Dana Point median home prices around $1.9M, most purchases require jumbo loans exceeding this limit."
                 }
               },
               {
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBroker92629Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$1.9M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$800K - $15M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">35-50 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo / VA Jumbo</td></tr>
             </tbody>
           </table>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92629Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $10M+</li>
+          <li>Loan amounts from $1,209,750 to $10M+</li>
           <li>Access to 50+ jumbo lenders (vs. one product at banks)</li>
           <li>10-20% down payment options depending on loan amount</li>
           <li>Primary residence, second home, investment properties</li>
@@ -237,7 +237,7 @@ export default function WholesaleMortgageBroker92629Page() {
 
         <h3>Niguel Shores</h3>
         <p>
-          Private community with exclusive beach access. Homes typically $1.5M to $3.5M. Popular with families seeking coastal lifestyle with strong community amenities. Jumbo programs with competitive rates dominate.
+          Private community with exclusive beach access. Homes typically $1.5M to $3.5M. Features coastal lifestyle with strong community amenities. Jumbo programs with competitive rates dominate.
         </p>
 
         <h3>Lantern Village</h3>
@@ -264,7 +264,7 @@ export default function WholesaleMortgageBroker92629Page() {
 
         <h3>What is the jumbo loan limit for Dana Point in 2026?</h3>
         <p>
-          The 2026 conforming loan limit is $1,149,825 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Dana Point&apos;s $1.9M median price, most purchases require jumbo financing—making wholesale broker access to 50+ jumbo lenders essential.
+          The 2026 conforming loan limit is $1,209,750 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Dana Point&apos;s $1.9M median price, most purchases require jumbo financing—making wholesale broker access to 50+ jumbo lenders essential.
         </p>
 
         <h3>Are there special programs for Monarch Beach properties?</h3>

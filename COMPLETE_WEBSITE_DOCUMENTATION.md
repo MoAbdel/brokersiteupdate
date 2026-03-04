@@ -62,7 +62,7 @@ Website is fully deployed and operational at mothebroker.com with all requested 
 - **Company**: West Capital Lending
 - **NMLS**: #1426884
 - **Phone**: (949) 822-9662
-- **Licensed In**: California, Washington, Colorado
+- **Licensed In**: California, Washington
 - **Service Area**: Orange County, California
 
 ### Design Elements

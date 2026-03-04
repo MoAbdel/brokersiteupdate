@@ -81,7 +81,7 @@ export default function WholesaleMortgageBroker92679Page() {
                 "name": "What is the jumbo loan limit for Coto de Caza in 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The 2026 conforming loan limit is $1,149,825 for Orange County. With Coto de Caza median home prices around $2.1M, most purchases require jumbo loans exceeding this limit."
+                  "text": "The 2026 conforming loan limit is $1,209,750 for Orange County. With Coto de Caza median home prices around $2.1M, most purchases require jumbo loans exceeding this limit."
                 }
               },
               {
@@ -152,14 +152,14 @@ export default function WholesaleMortgageBroker92679Page() {
               <tr><td className="py-2 px-4 border-b">Median Home Price</td><td className="py-2 px-4 border-b font-semibold">$2.1M</td></tr>
               <tr><td className="py-2 px-4 border-b">Price Range</td><td className="py-2 px-4 border-b">$1.2M - $6M+</td></tr>
               <tr><td className="py-2 px-4 border-b">Average Days on Market</td><td className="py-2 px-4 border-b">45-60 days</td></tr>
-              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4 border-b">Conforming Limit (2026)</td><td className="py-2 px-4 border-b">$1,209,750</td></tr>
               <tr><td className="py-2 px-4">Typical Loan Type</td><td className="py-2 px-4 font-semibold">Jumbo / Bank Statement</td></tr>
             </tbody>
           </table>
         </div>
 
         <p>
-          Coto de Caza&apos;s real estate market remains robust with limited inventory and strong demand from families seeking the community&apos;s top-rated schools, resort-style amenities, and secure environment. The gap between the conforming loan limit ($1,149,825) and median prices ($2.1M) means nearly every purchase requires jumbo financing expertise.
+          Coto de Caza&apos;s real estate market remains robust with limited inventory and strong demand from families seeking the community&apos;s top-rated schools, resort-style amenities, and secure environment. The gap between the conforming loan limit ($1,209,750) and median prices ($2.1M) means nearly every purchase requires jumbo financing expertise.
         </p>
 
         <h3>The Coto de Caza Borrower Profile</h3>
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBroker92679Page() {
 
         <h3>Conventional Jumbo</h3>
         <ul>
-          <li>Loan amounts from $1,149,825 to $5M+</li>
+          <li>Loan amounts from $1,209,750 to $5M+</li>
           <li>Competitive rates through lender competition</li>
           <li>10-20% down payment options based on loan amount</li>
           <li>Primary residence, second home, and investment properties</li>
@@ -192,7 +192,7 @@ export default function WholesaleMortgageBroker92679Page() {
           <li>Qualify using liquid assets and investments</li>
           <li>Retirement accounts, brokerage accounts, savings</li>
           <li>Ideal for high-net-worth borrowers with complex income</li>
-          <li>Popular with retirees relocating to Coto de Caza</li>
+          <li>Available for Coto de Caza property purchases</li>
         </ul>
 
         <h3>Interest-Only Jumbo</h3>
@@ -259,7 +259,7 @@ export default function WholesaleMortgageBroker92679Page() {
 
         <h3>What is the jumbo loan limit for Coto de Caza in 2026?</h3>
         <p>
-          The 2026 conforming loan limit is $1,149,825 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Coto de Caza&apos;s $2.1M median price, most purchases require jumbo financing—making wholesale broker access to 50+ jumbo lenders essential.
+          The 2026 conforming loan limit is $1,209,750 for Orange County. Loans above this amount are jumbo loans requiring specialized lenders. With Coto de Caza&apos;s $2.1M median price, most purchases require jumbo financing—making wholesale broker access to 50+ jumbo lenders essential.
         </p>
 
         <h3>How long does closing take with a 92679 wholesale broker?</h3>

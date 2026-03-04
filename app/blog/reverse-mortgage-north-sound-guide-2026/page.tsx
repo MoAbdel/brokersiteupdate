@@ -39,7 +39,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM reverse mortgage limit for North Sound properties?',
-      answer: 'The 2026 FHA HECM limit is $1,149,825 nationwide, including all North Sound and San Juan Island communities. This means the HECM calculation uses your home value up to $1,149,825 regardless of actual appraised value. For San Juan Island properties valued above this limit, proprietary jumbo reverse mortgages access additional equity without the FHA cap.',
+      answer: 'The 2026 FHA HECM limit is $1,209,750 nationwide, including all North Sound and San Juan Island communities. This means the HECM calculation uses your home value up to $1,209,750 regardless of actual appraised value. For San Juan Island properties valued above this limit, proprietary jumbo reverse mortgages access additional equity without the FHA cap.',
     },
     {
       question: 'Can I get a reverse mortgage on a San Juan Island waterfront property?',
@@ -209,6 +209,18 @@ export default function ReverseMortgageNorthSoundGuide2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -216,7 +228,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
             North Sound Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            North Sound and San Juan Island seniors hold a combined $4.2 billion in home equity across the region&apos;s six primary communities. With median home values ranging from $645,000 in Anacortes to $1.1 million on San Juan Island, the 2026 HECM limit of $1,149,825 covers the full appraised value for the vast majority of North Sound properties. For seniors 62 and older, a reverse mortgage converts this equity into tax-free funds&mdash;monthly income, a growing line of credit, or a lump sum&mdash;without monthly mortgage payments and without selling the family home.
+            North Sound and San Juan Island seniors hold a combined $4.2 billion in home equity across the region&apos;s six primary communities. With median home values ranging from $645,000 in Anacortes to $1.1 million on San Juan Island, the 2026 HECM limit of $1,209,750 covers the full appraised value for the vast majority of North Sound properties. For seniors 62 and older, a reverse mortgage converts this equity into loan proceeds (not considered taxable income\u2014consult a tax professional)&mdash;monthly income, a growing line of credit, or a lump sum&mdash;without monthly mortgage payments and without selling the family home.
           </p>
         </div>
 
@@ -299,7 +311,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
           </table>
         </div>
         <p>
-          These estimated HECM proceeds assume a 70-year-old borrower with no existing mortgage, current interest rates, and full property value within the 2026 HECM limit of $1,149,825. Older borrowers access a higher percentage of home value: a 75-year-old receives approximately 8-12% more than a 70-year-old, and an 80-year-old receives approximately 15-20% more. Existing mortgage balances reduce available proceeds because the HECM must first pay off any current mortgage.
+          These estimated HECM proceeds assume a 70-year-old borrower with no existing mortgage, current interest rates, and full property value within the 2026 HECM limit of $1,209,750. Older borrowers access a higher percentage of home value: a 75-year-old receives approximately 8-12% more than a 70-year-old, and an 80-year-old receives approximately 15-20% more. Existing mortgage balances reduce available proceeds because the HECM must first pay off any current mortgage.
         </p>
 
         {/* E-E-A-T Marker */}
@@ -469,7 +481,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
           Proprietary Jumbo Reverse Mortgages for High-Value North Sound Properties
         </h2>
         <p>
-          San Juan Island and Friday Harbor properties valued above the $1,149,825 HECM limit benefit from proprietary reverse mortgage programs that access equity beyond the FHA cap. These non-FHA products operate differently from HECMs:
+          San Juan Island and Friday Harbor properties valued above the $1,209,750 HECM limit benefit from proprietary reverse mortgage programs that access equity beyond the FHA cap. These non-FHA products operate differently from HECMs:
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border-collapse border border-gray-300">
@@ -483,7 +495,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
                 <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Up to $4,000,000+</td>
               </tr>
               <tr className="bg-gray-50">
@@ -525,7 +537,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
           </table>
         </div>
         <p>
-          A San Juan Island homeowner with a $2.5 million waterfront estate accesses approximately $400,000-$520,000 through the HECM (capped at $1,149,825 value) versus $900,000-$1,200,000 through a proprietary jumbo reverse mortgage that uses the full $2.5 million value. For high-value island properties, the proprietary option unlocks substantially more equity despite lacking the HECM&apos;s line of credit growth feature.
+          A San Juan Island homeowner with a $2.5 million waterfront estate accesses approximately $400,000-$520,000 through the HECM (capped at $1,209,750 value) versus $900,000-$1,200,000 through a proprietary jumbo reverse mortgage that uses the full $2.5 million value. For high-value island properties, the proprietary option unlocks substantially more equity despite lacking the HECM&apos;s line of credit growth feature.
         </p>
         <p>
           Mo Abdel analyzes both HECM and proprietary options for every North Sound client, presenting side-by-side comparisons showing total available funds, costs, and protections. The right choice depends on home value, desired access amount, and the importance of specific HECM features like the guaranteed line of credit growth.
@@ -622,7 +634,7 @@ export default function ReverseMortgageNorthSoundGuide2026() {
             Expert Summary: North Sound Reverse Mortgage Advantage
           </h2>
           <p className="text-slate-900 mb-4">
-            North Sound and San Juan Island seniors own some of Washington state&apos;s most valuable residential real estate. From Bellingham&apos;s $664,000 median to San Juan Island&apos;s $1.1 million median, this equity represents decades of homeownership and appreciation. A reverse mortgage converts this equity into retirement security&mdash;tax-free funds with no monthly payments, FHA non-recourse protection, and the guaranteed right to remain in your home for life.
+            North Sound and San Juan Island seniors own some of Washington state&apos;s most valuable residential real estate. From Bellingham&apos;s $664,000 median to San Juan Island&apos;s $1.1 million median, this equity represents decades of homeownership and appreciation. A reverse mortgage converts this equity into retirement security&mdash;loan proceeds with no monthly payments, FHA non-recourse protection, and the guaranteed right to remain in your home for life.
           </p>
           <p className="text-slate-900 mb-4">
             The North Sound region&apos;s unique characteristics&mdash;island properties, waterfront homes, ferry-access communities, and seasonal lifestyle patterns&mdash;require reverse mortgage expertise that generic lenders lack. Proper appraiser selection, island property qualification, waterfront valuation, and understanding of ferry-community living patterns determine whether your HECM delivers maximum benefit or falls short of available proceeds.

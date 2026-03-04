@@ -65,7 +65,7 @@ export default function BalboaIslandMortgageBrokerPage() {
           },
           {
             question: "Do all Balboa Island homes require jumbo loans?",
-            answer: "Yes, 100% of Balboa Island properties require jumbo loan financing as they far exceed the 2026 conforming loan limit of $1,249,125. Most require super jumbo loans above $3M."
+            answer: "Yes, 100% of Balboa Island properties require jumbo loan financing as they far exceed the 2026 conforming loan limit of $1,209,750. Most require super jumbo loans above $3M."
           },
           {
             question: "What makes Balboa Island properties unique for financing?",

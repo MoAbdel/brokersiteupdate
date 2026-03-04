@@ -1,7 +1,14 @@
 'use client';
 
 import React from 'react';
-import { PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
+import { PHONE_DISPLAY } from '@/lib/site';
+import {
+  BROKER_EMAIL,
+  COMPANY_NAME,
+  COMPANY_NMLS,
+  BROKER_NAME,
+  BROKER_JOB_TITLE,
+} from '@/lib/schema/constants';
 
 interface EnhancedLocalSchemaProps {
   city?: string;
@@ -22,9 +29,15 @@ export default function EnhancedLocalSchema({
 }: EnhancedLocalSchemaProps) {
   const siteUrl = "https://www.mothebroker.com";
   const stateFull = state === 'WA' ? 'Washington' : 'California';
-  const stateRegionCode = state === 'WA' ? 'US-WA' : 'US-CA';
   const fallbackCoverage = regionName || (state ? stateFull : 'California and Washington');
   const coverageLabel = city ? `${city}, ${stateFull}` : fallbackCoverage;
+  const businessAddress = {
+    streetAddress: '18301 Von Karman Ave Suite 820',
+    addressLocality: 'Irvine',
+    addressRegion: 'CA',
+    postalCode: '92614',
+    addressCountry: 'US'
+  };
   const defaultGeo =
     state === 'WA'
       ? { latitude: '47.6062', longitude: '-122.3321' }
@@ -59,11 +72,11 @@ export default function EnhancedLocalSchema({
     "description": `Professional mortgage broker services in ${coverageLabel}. Access to 200+ lenders for competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
     "provider": {
       "@type": ["Person", "FinancialService"],
-      "name": "Mo Abdel",
+      "name": BROKER_NAME,
       "identifier": "NMLS #1426884",
-      "jobTitle": "Licensed Mortgage Broker",
+      "jobTitle": BROKER_JOB_TITLE,
       "telephone": PHONE_DISPLAY,
-      "email": "mo.abdel@luminlending.com",
+      "email": BROKER_EMAIL,
       "url": siteUrl,
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
@@ -76,15 +89,11 @@ export default function EnhancedLocalSchema({
       },
       "memberOf": {
         "@type": "Organization",
-        "name": "Lumin Lending",
-        "identifier": "Company NMLS #2716106",
+        "name": COMPANY_NAME,
+        "identifier": `Company NMLS #${COMPANY_NMLS}`,
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "5559 S Sossaman Rd, Bldg 1 Ste 101",
-          "addressLocality": "Mesa",
-          "addressRegion": "AZ",
-          "postalCode": "85212",
-          "addressCountry": "US"
+          ...businessAddress
         }
       }
     },
@@ -146,7 +155,7 @@ export default function EnhancedLocalSchema({
     "name": `${city ? city + ' ' : 'California & Washington '}Mortgage Broker | Mo Abdel`,
     "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
     "telephone": PHONE_DISPLAY,
-    "email": "mo.abdel@luminlending.com",
+    "email": BROKER_EMAIL,
     "url": city ? `${siteUrl}/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : siteUrl,
     "address": {
       "@type": "PostalAddress",
@@ -291,23 +300,6 @@ export default function EnhancedLocalSchema({
           __html: JSON.stringify(licenseSchema, null, 2)
         }}
       />
-
-      {/* Geographic targeting for local SEO */}
-      <meta name="geo.region" content={stateRegionCode} />
-      <meta name="geo.placename" content={coverageLabel} />
-      <meta name="geo.position" content={`${defaultGeo.latitude};${defaultGeo.longitude}`} />
-      <meta name="ICBM" content={`${defaultGeo.latitude}, ${defaultGeo.longitude}`} />
-
-      {/* Local business meta */}
-      <meta name="business.hours" content="M-F 8:00-20:00, Sa 9:00-18:00, Su 10:00-16:00" />
-      <meta name="business.phone" content={PHONE_E164} />
-      <meta name="business.license" content="NMLS #1426884" />
-      <meta name="business.service_area" content={coverageLabel} />
-
-      {/* Professional certification meta */}
-      <meta name="professional.license" content="NMLS #1426884" />
-      <meta name="professional.type" content="Mortgage Broker" />
-      <meta name="professional.jurisdiction" content="California, Washington" />
     </>
   );
 }

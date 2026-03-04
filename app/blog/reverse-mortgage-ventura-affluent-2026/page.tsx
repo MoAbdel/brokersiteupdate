@@ -107,7 +107,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM lending limit for Ventura County reverse mortgages?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825 nationwide. For Ventura County properties valued above this amount, proprietary (jumbo) reverse mortgage programs serve homeowners with properties up to $4 million or higher. Many Westlake Village and Oak Park properties exceed the HECM limit, making proprietary programs the primary option.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750 nationwide. For Ventura County properties valued above this amount, proprietary (jumbo) reverse mortgage programs serve homeowners with properties up to $4 million or higher. Many Westlake Village and Oak Park properties exceed the HECM limit, making proprietary programs the primary option.',
     },
     {
       question: 'Can I get a reverse mortgage on my Westlake Village home?',
@@ -115,7 +115,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
     },
     {
       question: 'How much can Thousand Oaks seniors access through a reverse mortgage?',
-      answer: 'Thousand Oaks seniors with the median home value of $1.1 million can access HECM proceeds based on the full property value up to the $1,149,825 limit. A 72-year-old with a paid-off $1.1 million home can typically access $550,000 to $650,000 in reverse mortgage proceeds. Actual amounts depend on age, interest rates, and existing mortgage balance.',
+      answer: 'Thousand Oaks seniors with the median home value of $1.1 million can access HECM proceeds based on the full property value up to the $1,209,750 limit. A 72-year-old with a paid-off $1.1 million home can typically access $550,000 to $650,000 in reverse mortgage proceeds. Actual amounts depend on age, interest rates, and existing mortgage balance.',
     },
     {
       question: 'Do reverse mortgages affect Prop 13 property tax protections?',
@@ -259,6 +259,12 @@ export default function ReverseMortgageVenturaAffluent2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 12, 2026</p>
         </header>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
@@ -296,7 +302,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
           </p>
 
           <p>
-            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in high-value markets like Ventura County access significantly larger proceeds than the national average. The 2026 FHA HECM lending limit of $1,149,825 serves most properties in this corridor, while Westlake Village and Oak Park estates above that threshold benefit from proprietary jumbo reverse mortgage programs.
+            According to the <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, reverse mortgage borrowers in high-value markets like Ventura County access significantly larger proceeds than the national average. The 2026 FHA HECM lending limit of $1,209,750 serves most properties in this corridor, while Westlake Village and Oak Park estates above that threshold benefit from proprietary jumbo reverse mortgage programs.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -369,7 +375,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Max Property Value Basis</td>
-                  <td className="px-4 py-3 border-t">$1,149,825</td>
+                  <td className="px-4 py-3 border-t">$1,209,750</td>
                   <td className="px-4 py-3 border-t">$4M+</td>
                 </tr>
                 <tr>
@@ -481,7 +487,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
           </p>
 
           <p>
-            At the $1.1 million median, most Thousand Oaks properties fall within the HECM program&apos;s $1,149,825 limit, making FHA-insured reverse mortgages the primary option for seniors. Amgen retirees represent a significant segment of the reverse mortgage market here&mdash;professionals who earned six-figure salaries for 20+ years, paid down or paid off their mortgages, and now seek to supplement pension and 401(k) distributions with tax-free reverse mortgage proceeds.
+            At the $1.1 million median, most Thousand Oaks properties fall within the HECM program&apos;s $1,209,750 limit, making FHA-insured reverse mortgages the primary option for seniors. Amgen retirees represent a significant segment of the reverse mortgage market here&mdash;professionals who earned six-figure salaries for 20+ years, paid down or paid off their mortgages, and now seek to supplement pension and 401(k) distributions with reverse mortgage loan advances (generally not considered taxable income).
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -518,7 +524,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
           </p>
 
           <p>
-            At $1.2 million median, Oak Park straddles the HECM limit. Properties below $1,149,825 qualify for FHA HECM, while those above benefit from proprietary programs. Many Oak Park seniors are original owners who purchased during the community&apos;s development in the 1970s and 1980s, paying $150,000 to $250,000 for homes now worth $1 million to $1.5 million. These homeowners have accumulated $800,000 to $1.3 million in equity that a reverse mortgage can convert into retirement resources.
+            At $1.2 million median, Oak Park straddles the HECM limit. Properties below $1,209,750 qualify for FHA HECM, while those above benefit from proprietary programs. Many Oak Park seniors are original owners who purchased during the community&apos;s development in the 1970s and 1980s, paying $150,000 to $250,000 for homes now worth $1 million to $1.5 million. These homeowners have accumulated $800,000 to $1.3 million in equity that a reverse mortgage can convert into retirement resources.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -552,7 +558,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
           </p>
 
           <p>
-            At $1.0 million median, virtually all Camarillo properties fall within the HECM lending limit, making FHA-insured reverse mortgages straightforward. Defense industry retirees and former NBVC civilian employees represent a significant segment of reverse mortgage candidates. These professionals earned consistent incomes throughout their careers, purchased homes 20 to 30 years ago, and have pension or retirement income that a reverse mortgage supplements tax-free.
+            At $1.0 million median, virtually all Camarillo properties fall within the HECM lending limit, making FHA-insured reverse mortgages straightforward. Defense industry retirees and former NBVC civilian employees represent a significant segment of reverse mortgage candidates. These professionals earned consistent incomes throughout their careers, purchased homes 20 to 30 years ago, and have pension or retirement income that a reverse mortgage supplements with loan advances (generally not considered taxable income).
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -725,7 +731,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">Do reverse mortgages work for Westlake Village homes above $1.15 million?</h3>
-              <p><strong>Properties above the $1,149,825 HECM limit qualify for proprietary jumbo reverse mortgage programs with no value cap.</strong> Westlake Village estates worth $2 million to $5 million access proceeds based on the full appraised value through private programs without FHA insurance premiums.</p>
+              <p><strong>Properties above the $1,209,750 HECM limit qualify for proprietary jumbo reverse mortgage programs with no value cap.</strong> Westlake Village estates worth $2 million to $5 million access proceeds based on the full appraised value through private programs without FHA insurance premiums.</p>
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">Can I keep my Prop 13 tax rate with a reverse mortgage?</h3>
@@ -772,7 +778,7 @@ export default function ReverseMortgageVenturaAffluent2026() {
               Ventura County&apos;s affluent corridor from Westlake Village through Moorpark represents an ideal reverse mortgage market. Long-term homeowners with median values from $900,000 to $1.4 million have accumulated substantial equity through decades of ownership and consistent appreciation. Whether you are an Amgen retiree in Thousand Oaks, a defense industry professional in Camarillo, or a North Ranch estate owner in Westlake Village, a reverse mortgage converts your illiquid home equity into accessible retirement resources without monthly payments, tax consequences, or loss of homeownership.
             </p>
             <p className="text-gray-800">
-              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For properties above the $1,149,825 HECM limit, proprietary jumbo programs extend access based on the full appraised value. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
+              The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For properties above the $1,209,750 HECM limit, proprietary jumbo programs extend access based on the full appraised value. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore reverse mortgage options for your Ventura County home? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property value, age, and financial goals.

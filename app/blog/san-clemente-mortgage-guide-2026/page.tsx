@@ -96,7 +96,7 @@ export default function SanClementeMortgageGuidePage() {
                 </p>
                 <ul>
                     <li>Lower monthly payments through more competitive pricing.</li>
-                    <li>Access to over 50+ lenders, ensuring we find the exact program for your needs.</li>
+                    <li>Access to over 200+ lenders, ensuring we find the exact program for your needs.</li>
                     <li>Faster closing times (often under 21 days) compared to the bureaucratic delays of big banks.</li>
                 </ul>
 
@@ -150,7 +150,7 @@ export default function SanClementeMortgageGuidePage() {
 
                 <h3>What are the current jumbo loan limits in Orange County?</h3>
                 <p>
-                    In 2026, any loan amount exceeding the conforming limit of $1,249,125 in Orange County is considered a jumbo loan. We offer specialized wholesale jumbo products that often have lower requirements than traditional banks.
+                    In 2026, any loan amount exceeding the conforming limit of $1,209,750 in Orange County is considered a jumbo loan. We offer specialized wholesale jumbo products that often have lower requirements than traditional banks.
                 </p>
 
                 <h3>How does proximity to Camp Pendleton affect financing?</h3>
@@ -165,8 +165,8 @@ export default function SanClementeMortgageGuidePage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850<br />
-                        Licensed in: CA, TX, FL, AZ, WA, VA, CO
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106<br />
+                        Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

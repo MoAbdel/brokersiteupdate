@@ -49,7 +49,7 @@ export default function ReverseMortgageBeverlyHillsPage() {
                 "name": "Can I get a reverse mortgage on my Beverly Hills home?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, if you're 62 or older, live in the home as your primary residence, and have sufficient equity. Beverly Hills homes often exceed the FHA limit of $1,149,825, so you may qualify for a proprietary (jumbo) reverse mortgage for higher amounts."
+                  "text": "Yes, if you're 62 or older, live in the home as your primary residence, and have sufficient equity. Beverly Hills homes often exceed the FHA limit of $1,209,750, so you may qualify for a proprietary (jumbo) reverse mortgage for higher amounts."
                 }
               },
               {
@@ -57,7 +57,7 @@ export default function ReverseMortgageBeverlyHillsPage() {
                 "name": "How much can Beverly Hills seniors get from a reverse mortgage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "With median home values exceeding $5.5 million in Beverly Hills, seniors can potentially access substantial equity. The FHA HECM limit is $1,149,825, but proprietary reverse mortgages can access higher amounts on luxury properties."
+                  "text": "With median home values exceeding $5.5 million in Beverly Hills, seniors can potentially access substantial equity. The FHA HECM limit is $1,209,750, but proprietary reverse mortgages can access higher amounts on luxury properties."
                 }
               },
               {
@@ -97,6 +97,12 @@ export default function ReverseMortgageBeverlyHillsPage() {
           Accessing equity in one of California's most exclusive communities
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -145,7 +151,7 @@ export default function ReverseMortgageBeverlyHillsPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">$1,149,825</td><td className="py-2 px-4 border-b">Entry-level properties</td></tr>
+              <tr><td className="py-2 px-4 border-b">FHA HECM</td><td className="py-2 px-4 border-b">$1,209,750</td><td className="py-2 px-4 border-b">Entry-level properties</td></tr>
               <tr><td className="py-2 px-4 border-b">Proprietary (Jumbo)</td><td className="py-2 px-4 border-b">$4M+</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Most Beverly Hills homes</td></tr>
             </tbody>
           </table>
@@ -219,12 +225,12 @@ export default function ReverseMortgageBeverlyHillsPage() {
 
         <h3>Can I get a reverse mortgage on my Beverly Hills home?</h3>
         <p>
-          Yes, if you're 62 or older, live in the home as your primary residence, and have sufficient equity. Beverly Hills homes often exceed the FHA limit of $1,149,825, so you may qualify for a proprietary (jumbo) reverse mortgage for higher amounts.
+          Yes, if you're 62 or older, live in the home as your primary residence, and have sufficient equity. Beverly Hills homes often exceed the FHA limit of $1,209,750, so you may qualify for a proprietary (jumbo) reverse mortgage for higher amounts.
         </p>
 
         <h3>How much can Beverly Hills seniors get from a reverse mortgage?</h3>
         <p>
-          With median home values exceeding $5.5 million in Beverly Hills, seniors can potentially access substantial equity. The FHA HECM limit is $1,149,825, but proprietary reverse mortgages can access higher amounts on luxury properties.
+          With median home values exceeding $5.5 million in Beverly Hills, seniors can potentially access substantial equity. The FHA HECM limit is $1,209,750, but proprietary reverse mortgages can access higher amounts on luxury properties.
         </p>
 
         <h3>Are there Beverly Hills reverse mortgage lenders I can trust?</h3>

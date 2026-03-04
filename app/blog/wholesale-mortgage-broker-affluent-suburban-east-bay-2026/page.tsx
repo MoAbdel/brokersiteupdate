@@ -202,7 +202,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-blue-900 mb-2">Affluent Suburban East Bay Wholesale Mortgage Fast Facts (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
-              <li>Danville, Walnut Creek, Pleasanton, Dublin, and Fremont represent a combined $6.4 billion in annual residential mortgage origination volume, with 72% of purchase transactions requiring jumbo financing above the $1,149,825 conforming limit (CoreLogic, 2025)</li>
+              <li>Danville, Walnut Creek, Pleasanton, Dublin, and Fremont represent a combined $6.4 billion in annual residential mortgage origination volume, with 72% of purchase transactions requiring jumbo financing above the $1,209,750 conforming limit (CoreLogic, 2025)</li>
               <li>The Tri-Valley corridor (Pleasanton, Dublin, Danville) recorded a 12.3% year-over-year price increase during Q4 2025, driven by tech campus expansion at Workday, Roche, and Chevron corporate relocations (California Association of Realtors, 2026)</li>
               <li>Wholesale mortgage pricing in the Suburban East Bay jumbo segment saves borrowers an average of $2,400&ndash;$9,000 annually compared to retail bank pricing on $1.1M&ndash;$2M+ loans (AIME industry data, 2025)</li>
               <li>Fremont recorded 3,847 purchase originations in 2025, with Tesla/tech manufacturing employees representing 31% of purchase applications &mdash; an income category requiring specialized lender programs that wholesale channels access directly (Alameda County Recorder)</li>
@@ -387,7 +387,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Rate Shopping</td>
-                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops 50+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops 200+ lenders</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must apply at multiple banks</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must compare multiple sites</td>
                 </tr>
@@ -512,7 +512,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </p>
 
           <p>
-            <strong>First-time jumbo buyer qualification</strong> is Dublin&apos;s defining challenge. Many Dublin buyers are purchasing their first home above the $1,149,825 conforming limit after years of renting in San Francisco, Oakland, or Silicon Valley. They bring strong income but may lack the seasoned reserves or down payment history that some jumbo lenders require. Wholesale access identifies the lenders with the most flexible reserve requirements, gift fund allowances, and DTI thresholds for first-time jumbo borrowers &mdash; criteria that vary dramatically across the 50+ jumbo lenders in wholesale channels.
+            <strong>First-time jumbo buyer qualification</strong> is Dublin&apos;s defining challenge. Many Dublin buyers are purchasing their first home above the $1,209,750 conforming limit after years of renting in San Francisco, Oakland, or Silicon Valley. They bring strong income but may lack the seasoned reserves or down payment history that some jumbo lenders require. Wholesale access identifies the lenders with the most flexible reserve requirements, gift fund allowances, and DTI thresholds for first-time jumbo borrowers &mdash; criteria that vary dramatically across the 50+ jumbo lenders in wholesale channels.
           </p>
 
           <p>
@@ -583,7 +583,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </p>
 
           <p>
-            Fremont reveals the wholesale advantage in income diversity. A Tesla production supervisor&apos;s income profile &mdash; hourly base plus overtime plus production bonuses plus stock grants &mdash; is accurately captured by some lenders and dramatically underqualified by others. A wholesale broker&apos;s ability to present this income to 50+ lenders and select the one whose qualification methodology most accurately represents the borrower&apos;s true earning capacity is the difference between a $950K pre-approval and a $1.15M pre-approval. For Fremont&apos;s multi-generational families, wholesale access provides lenders comfortable with non-occupant co-borrower arrangements, larger property purchases, and income from multiple household members &mdash; scenarios that standard retail bank guidelines often cannot accommodate.
+            Fremont reveals the wholesale advantage in income diversity. A Tesla production supervisor&apos;s income profile &mdash; hourly base plus overtime plus production bonuses plus stock grants &mdash; is accurately captured by some lenders and dramatically underqualified by others. A wholesale broker&apos;s ability to present this income to 200+ lenders and select the one whose qualification methodology most accurately represents the borrower&apos;s true earning capacity is the difference between a $950K pre-approval and a $1.15M pre-approval. For Fremont&apos;s multi-generational families, wholesale access provides lenders comfortable with non-occupant co-borrower arrangements, larger property purchases, and income from multiple household members &mdash; scenarios that standard retail bank guidelines often cannot accommodate.
           </p>
 
           <p>
@@ -662,7 +662,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           <div className="space-y-4 my-6">
             <div className="border border-gray-200 rounded-lg p-4">
               <h3 className="font-semibold text-gray-900">What is the conforming loan limit in Contra Costa and Alameda County for 2026?</h3>
-              <p className="text-gray-700 mt-2">The 2026 conforming loan limit for Contra Costa County (Danville, Walnut Creek) and Alameda County (Pleasanton, Dublin, Fremont) is $1,149,825 for single-family homes. Loans above this amount require jumbo financing, which is where wholesale broker access to 50+ jumbo lenders creates the greatest pricing advantage over retail banks.</p>
+              <p className="text-gray-700 mt-2">The 2026 conforming loan limit for Contra Costa County (Danville, Walnut Creek) and Alameda County (Pleasanton, Dublin, Fremont) is $1,209,750 for single-family homes. Loans above this amount require jumbo financing, which is where wholesale broker access to 50+ jumbo lenders creates the greatest pricing advantage over retail banks.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4">
               <h3 className="font-semibold text-gray-900">How do I qualify for a jumbo mortgage with RSU income in the Tri-Valley?</h3>

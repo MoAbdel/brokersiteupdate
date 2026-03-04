@@ -51,7 +51,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
     },
     {
       question: 'What loan limits apply to Greater Seattle wholesale mortgages in 2026?',
-      answer: 'The 2026 conforming loan limit for King County is $1,149,825 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders offering rates as low as 0.125% above conforming. Wholesale jumbo programs start at 10% down with no PMI from select lenders.',
+      answer: 'The 2026 conforming loan limit for King County is $1,209,750 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders offering rates as low as 0.125% above conforming. Wholesale jumbo programs start at 10% down with no PMI from select lenders.',
     },
     {
       question: 'Do wholesale brokers handle Seattle condo financing?',
@@ -67,7 +67,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
     },
     {
       question: 'Can I get a wholesale mortgage for a Bainbridge Island property?',
-      answer: 'Absolutely. Bainbridge Island properties qualify for all wholesale lending programs including conventional, jumbo, bank statement, and non-QM. With median values around $1.1 million, most Bainbridge purchases require jumbo financing where wholesale brokers access 50+ lenders versus a single jumbo product at a bank.',
+      answer: 'Absolutely. Bainbridge Island properties qualify for all wholesale lending programs including conventional, jumbo, bank statement, and non-QM. With median values around $1.1 million, most Bainbridge purchases require jumbo financing where wholesale brokers access 200+ lenders versus a single jumbo product at a bank.',
     },
     {
       question: 'What documentation do I need for a wholesale mortgage application in Seattle?',
@@ -209,6 +209,12 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -600,7 +606,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
           King County Jumbo Mortgage Access: Why 50+ Wholesale Lenders Outperform a Single Bank
         </h2>
         <p>
-          The 2026 conforming loan limit for King County is $1,149,825. Every purchase above this amount requires jumbo financing, and jumbo lending is where wholesale brokers deliver the most dramatic advantage over retail banks.
+          The 2026 conforming loan limit for King County is $1,209,750. Every purchase above this amount requires jumbo financing, and jumbo lending is where wholesale brokers deliver the most dramatic advantage over retail banks.
         </p>
         <p>
           A retail bank offers one jumbo product with fixed underwriting criteria. If your income, assets, property type, or credit profile does not fit that single set of guidelines, you receive a denial or a rate premium that adds thousands to your annual costs. A wholesale broker accesses 50+ jumbo lenders, each with different underwriting appetites:
@@ -666,7 +672,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         </p>
         <ul>
           <li><a href="/blog/wholesale-mortgage-broker-washington-2026">Washington State Wholesale Mortgage Broker Guide</a> &mdash; Statewide overview of wholesale lending programs, regulations, and qualification strategies across all Washington markets.</li>
-          <li><a href="/blog/reverse-mortgage-greater-seattle-guide-2026">Greater Seattle Reverse Mortgage (HECM) Guide</a> &mdash; How Seattle-area seniors 62+ access home equity through FHA-insured reverse mortgages with the 2026 HECM limit of $1,149,825.</li>
+          <li><a href="/blog/reverse-mortgage-greater-seattle-guide-2026">Greater Seattle Reverse Mortgage (HECM) Guide</a> &mdash; How Seattle-area seniors 62+ access home equity through FHA-insured reverse mortgages with the 2026 HECM limit of $1,209,750.</li>
           <li><a href="/blog/home-equity-greater-seattle-guide-2026">Greater Seattle Home Equity (HELOC/HELOAN) Guide</a> &mdash; HELOC and home equity loan options for King County homeowners, including tech worker equity strategies and condo equity access.</li>
           <li><a href="/blog/wholesale-mortgage-broker-seattle-eastside-2026">Seattle Eastside Wholesale Mortgage Guide</a> &mdash; Bellevue, Kirkland, Redmond, Sammamish, and Eastside-specific wholesale programs for Eastside buyers.</li>
         </ul>

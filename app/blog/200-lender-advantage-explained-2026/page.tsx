@@ -168,7 +168,7 @@ export default function TwoHundredLenderAdvantagePage() {
         <ul>
           <li><strong>Bank statement loans:</strong> Multiple lenders with different calculation methods</li>
           <li><strong>DSCR for investors:</strong> Specialized investor lenders</li>
-          <li><strong>Jumbo programs:</strong> 50+ lenders for high-value properties</li>
+          <li><strong>Jumbo programs:</strong> 200+ lenders for high-value properties</li>
           <li><strong>Non-QM options:</strong> Asset depletion, interest-only, recent credit events</li>
           <li><strong>Foreign national:</strong> Lenders who work with non-US citizens</li>
           <li><strong>First-time buyer:</strong> Low down payment specialists</li>
@@ -254,7 +254,7 @@ export default function TwoHundredLenderAdvantagePage() {
               <tr><td className="py-2 px-4 border-b font-semibold">Rate shopping</td><td className="py-2 px-4 border-b">Not possible</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Built into process</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Denial recovery</td><td className="py-2 px-4 border-b">Start over elsewhere</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Try another lender same day</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Specialty programs</td><td className="py-2 px-4 border-b">Limited to bank's offerings</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Access to all specialty lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Guideline flexibility</td><td className="py-2 px-4">One set of rules</td><td className="py-2 px-4 text-blue-700 font-semibold">200+ sets of rules</td></tr>
             </tbody>
           </table>

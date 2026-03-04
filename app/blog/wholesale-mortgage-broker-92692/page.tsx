@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92692Page() {
                 "name": "What is the typical loan amount needed in Mission Viejo 92692?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Mission Viejo 92692 has a median home price of $1.2 million, with many homes near or above the 2026 conforming limit of $1,149,825. Lake-adjacent properties and larger homes often require jumbo loans of $1-1.8M."
+                  "text": "Mission Viejo 92692 has a median home price of $1.2 million, with many homes near or above the 2026 conforming limit of $1,209,750. Lake-adjacent properties and larger homes often require jumbo loans of $1-1.8M."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92692Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Mission Viejo 92692 centers around Lake Mission Viejo with a <strong>$1.2 million median home price</strong>. With the 2026 conforming limit at $1,149,825, many 92692 buyers—especially for lake-adjacent homes—need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks, plus expertise with 55+ communities like Casta del Sol.
+            Mission Viejo 92692 centers around Lake Mission Viejo with a <strong>$1.2 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92692 buyers—especially for lake-adjacent homes—need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks, plus expertise with 55+ communities like Casta del Sol.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92692Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$600,000 - $2,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$900,000 - $1,800,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">21-40 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -209,7 +209,7 @@ export default function WholesaleMortgageBroker92692Page() {
           For homes near the conforming limit:
         </p>
         <ul>
-          <li>Loans up to $1,149,825 with conforming pricing</li>
+          <li>Loans up to $1,209,750 with conforming pricing</li>
           <li>Lower rates than true jumbo</li>
           <li>Down payments from 5%</li>
           <li>Many 92692 properties qualify</li>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92692Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Mission Viejo 92692?</h3>
-            <p className="mb-0">Mission Viejo 92692 has a median home price of $1.2 million, with many homes near or above the 2026 conforming limit of $1,149,825. Lake-adjacent properties and larger homes often require jumbo loans of $1-1.8M.</p>
+            <p className="mb-0">Mission Viejo 92692 has a median home price of $1.2 million, with many homes near or above the 2026 conforming limit of $1,209,750. Lake-adjacent properties and larger homes often require jumbo loans of $1-1.8M.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer programs for Casta del Sol 55+ community?</h3>

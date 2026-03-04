@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with interest-only mortgage loans?',
-    answer: 'A wholesale mortgage broker accesses multiple wholesale lenders offering IO products, creating competition for the borrower. Retail banks typically offer limited IO options with rigid terms. A broker compares IO programs across 50+ lenders to find the best rate, longest IO period, lowest reserve requirements, and most flexible qualification criteria for each borrower situation.',
+    answer: 'A wholesale mortgage broker accesses multiple wholesale lenders offering IO products, creating competition for the borrower. Retail banks typically offer limited IO options with rigid terms. A broker compares IO programs across 200+ lenders to find the best rate, longest IO period, lowest reserve requirements, and most flexible qualification criteria for each borrower situation.',
   },
   {
     question: 'Can self-employed borrowers get interest-only mortgages?',
@@ -256,7 +256,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
               <p className="mb-2"><strong>Loan Amounts:</strong> $250,000 to $5,000,000+</p>
               <p className="mb-2"><strong>Payment Savings:</strong> 20-35% lower vs. amortizing</p>
               <p className="mb-2"><strong>Best For:</strong> High-income, investors, self-employed</p>
-              <p className="mb-2"><strong>Available In:</strong> CA, WA, CO + more states</p>
+              <p className="mb-2"><strong>Available In:</strong> CA, WA</p>
             </div>
           </div>
         </div>
@@ -545,7 +545,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
 
         <h3>California IO Jumbo Market</h3>
         <p>
-          With a <strong>2026 conforming loan limit of $1,149,825</strong> in most high-cost California counties (Orange, Los Angeles, San Francisco, San Mateo, Santa Clara), any loan above this threshold requires jumbo financing. The median home price in <strong>Newport Beach exceeds $3,200,000</strong>, in <strong>Palo Alto exceeds $4,100,000</strong>, and in <strong>Beverly Hills exceeds $5,500,000</strong>. IO jumbo loans are not luxury products in these markets; they are standard financing tools.
+          With a <strong>2026 conforming loan limit of $1,209,750</strong> in most high-cost California counties (Orange, Los Angeles, San Francisco, San Mateo, Santa Clara), any loan above this threshold requires jumbo financing. The median home price in <strong>Newport Beach exceeds $3,200,000</strong>, in <strong>Palo Alto exceeds $4,100,000</strong>, and in <strong>Beverly Hills exceeds $5,500,000</strong>. IO jumbo loans are not luxury products in these markets; they are standard financing tools.
         </p>
         <p>
           Popular California IO jumbo programs include:
@@ -559,7 +559,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
 
         <h3>Washington IO Jumbo Market</h3>
         <p>
-          King County (Seattle, Bellevue, Mercer Island, Medina) has a <strong>2026 conforming limit of $1,149,825</strong>. The median home price in <strong>Bellevue exceeds $1,800,000</strong> and in <strong>Mercer Island exceeds $2,400,000</strong>. Washington&apos;s technology sector produces high-income borrowers with stock-heavy compensation packages that align well with IO loan structures.
+          King County (Seattle, Bellevue, Mercer Island, Medina) has a <strong>2026 conforming limit of $1,209,750</strong>. The median home price in <strong>Bellevue exceeds $1,800,000</strong> and in <strong>Mercer Island exceeds $2,400,000</strong>. Washington&apos;s technology sector produces high-income borrowers with stock-heavy compensation packages that align well with IO loan structures.
         </p>
         <p>
           Washington-specific IO considerations:
@@ -665,7 +665,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
             The ideal IO borrower has a <strong>credit score above 720</strong>, makes a <strong>down payment of 20% or more</strong>, maintains <strong>12 to 24 months of reserves</strong>, and has a clear plan for when the IO period expires. In California and Washington luxury markets, IO jumbo loans are a standard product used by thousands of qualified borrowers annually.
           </p>
           <p>
-            As a <strong>wholesale mortgage broker</strong> licensed in California, Washington, and Colorado, I access 200+ lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.
+            As a <strong>wholesale mortgage broker</strong> licensed in California and Washington, I access 200+ lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.
           </p>
           <p className="mb-0">
             <strong>Ready to explore interest-only mortgage options?</strong> Call <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a free consultation. I will analyze your financial profile, compare IO programs across multiple lenders, and present the options that align with your goals and timeline.
@@ -688,7 +688,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO
+            Licensed in: CA, WA
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Interest-only mortgage loans carry risks including payment shock and no equity accumulation during the IO period. Borrowers should carefully consider their ability to make fully amortizing payments before selecting an IO loan. Rate quotes are for illustrative purposes only and are not a guarantee of any specific rate or terms. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Interest-only mortgage features may not be available in all loan programs or at all loan amounts. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer">www.nmlsconsumeraccess.org</a>.

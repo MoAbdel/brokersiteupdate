@@ -88,7 +88,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
         name: 'What is the 2026 conforming loan limit for Los Angeles County?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The 2026 conforming loan limit for Los Angeles County is $1,149,825. Loans above this amount require jumbo financing. Most South Bay and Palos Verdes purchases exceed this limit, making wholesale broker access to 50+ jumbo lenders essential for competitive pricing.',
+          text: 'The 2026 conforming loan limit for Los Angeles County is $1,209,750. Loans above this amount require jumbo financing. Most South Bay and Palos Verdes purchases exceed this limit, making wholesale broker access to 50+ jumbo lenders essential for competitive pricing.',
         },
       },
       {
@@ -223,7 +223,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               <li><strong>Region:</strong> LA County &mdash; South Bay / Palos Verdes Peninsula</li>
               <li><strong>Cities Covered:</strong> Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills Estates, Rolling Hills, Manhattan Beach, Hermosa Beach, Redondo Beach</li>
               <li><strong>Median Home Values:</strong> $1.08M (Redondo Beach) to $4.5M (Rolling Hills)</li>
-              <li><strong>2026 LA County Conforming Limit:</strong> $1,149,825</li>
+              <li><strong>2026 LA County Conforming Limit:</strong> $1,209,750</li>
               <li><strong>Wholesale Rate Advantage:</strong> 0.25&ndash;0.75% below retail bank pricing</li>
               <li><strong>Wholesale Lender Network:</strong> 200+ lenders including 50+ jumbo specialists</li>
               <li><strong>Monthly Savings on $2M Loan:</strong> $250&ndash;$750 vs. retail bank rates</li>
@@ -1121,7 +1121,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">What is the jumbo loan limit for Los Angeles County in 2026?</h3>
               <p className="mb-0">
-                The 2026 conforming loan limit for Los Angeles County is $1,149,825. Loans above this amount
+                The 2026 conforming loan limit for Los Angeles County is $1,209,750. Loans above this amount
                 require jumbo financing. In the South Bay, where median prices range from $1.4M to $4.5M,
                 the majority of purchases require jumbo loans&mdash;making wholesale broker access to 50+
                 jumbo lenders essential for competitive rates.
@@ -1199,7 +1199,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             <div>
               <h3 className="font-bold text-lg mb-2">Q: What is the 2026 conforming loan limit for Los Angeles County?</h3>
               <p>
-                The 2026 conforming loan limit for Los Angeles County is $1,149,825. Loans above this threshold
+                The 2026 conforming loan limit for Los Angeles County is $1,209,750. Loans above this threshold
                 require jumbo financing. Most South Bay and Palos Verdes purchases exceed this limit, making
                 wholesale broker access to 50+ jumbo lenders essential for competitive pricing.
               </p>

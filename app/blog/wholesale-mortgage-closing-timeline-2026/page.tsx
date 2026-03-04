@@ -178,7 +178,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
                 Get Your Closing Timeline
               </Button>
             </Link>
-            <Link href="/tools/mortgage-calculator">
+            <Link href="/calculator">
               <Button className="border-2 border-white text-white hover:bg-white/10 font-semibold px-6 py-3 rounded-lg flex items-center gap-2">
                 <Calculator className="w-4 h-4" />
                 Mortgage Calculator

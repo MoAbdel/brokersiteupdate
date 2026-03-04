@@ -158,7 +158,7 @@ Based on Mo Abdel's experience with [Region] clients, the wholesale model provid
 [Answer with local context — 50-75 words]
 
 ### What's the maximum HECM amount in [Region]?
-[Answer mentioning FHA limit of $1,149,825 and how [Region] values often exceed this — 50-75 words]
+[Answer mentioning FHA limit of $1,209,750 and how [Region] values often exceed this — 50-75 words]
 
 ### How do [Region] property values affect my reverse mortgage?
 [Answer — 50-75 words]

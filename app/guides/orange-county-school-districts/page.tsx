@@ -42,7 +42,7 @@ const webPageSchema = buildServiceWebPageSchema({
 const faqSchema = buildFAQPageSchema([
   { question: 'Which Orange County school districts have the highest ratings?', answer: 'Irvine Unified (10/10), Newport-Mesa Unified (9/10), Capistrano Unified (9/10), Laguna Beach Unified (9/10), and Los Alamitos Unified (9/10) consistently rank among the top districts in California.' },
   { question: 'How do school district ratings affect home prices in Orange County?', answer: 'Homes in top-rated school districts command premium prices. Irvine Unified homes have a median price of $1,400,000, Newport-Mesa at $1,800,000, and Laguna Beach at $2,200,000. These districts offer better resale value protection.' },
-  { question: 'What loan types work best for school district homes in Orange County?', answer: 'Conventional loans cover homes up to $1,266,300, jumbo loans serve luxury districts like Laguna Beach and Newport Coast, and FHA loans with 3.5% down work for more affordable district areas.' },
+  { question: 'What loan types work best for school district homes in Orange County?', answer: 'Conventional loans cover homes up to $1,209,750, jumbo loans serve luxury districts like Laguna Beach and Newport Coast, and FHA loans with 3.5% down work for more affordable district areas.' },
 ], PAGE_URL);
 
 export default function OrangeCountySchoolDistrictsGuide() {
@@ -321,7 +321,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
               <div className="space-y-3">
                 <p className="text-slate-600">Best for established districts like Irvine and Newport-Mesa</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>• Up to $1,266,300 (2025 limit)</li>
+                  <li>• Up to $1,209,750 (2025 limit)</li>
                   <li>• 3% down payment options</li>
                   <li>• Competitive pricing</li>
                   <li>• Fast approval process</li>
@@ -337,7 +337,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
               <div className="space-y-3">
                 <p className="text-slate-600">For luxury districts like Laguna Beach and Newport Coast</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>• Above $1,266,300</li>
+                  <li>• Above $1,209,750</li>
                   <li>• 10-20% down payment</li>
                   <li>• Competitive jumbo rates</li>
                   <li>• Flexible terms</li>
@@ -355,7 +355,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>• 3.5% down payment</li>
                   <li>• Flexible credit requirements</li>
-                  <li>• Up to $1,266,300 in OC</li>
+                  <li>• Up to $1,209,750 in OC</li>
                   <li>• Great for first-time buyers</li>
                 </ul>
                 <Link href="/loan-programs/fha-loans">

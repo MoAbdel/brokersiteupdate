@@ -583,7 +583,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
 
         <h3>Guideline Flexibility</h3>
         <p>
-          When one non-QM lender declines based on their guidelines, a broker can immediately submit to another lender with different criteria. Different credit score requirements, different LTV limits, and different documentation flexibility across 100+ lenders means more paths to approval.
+          When one non-QM lender declines based on their guidelines, a broker can immediately submit to another lender with different criteria. Different credit score requirements, different LTV limits, and different documentation flexibility across 200+ lenders means more paths to approval.
         </p>
 
         <h3>Competitive Pricing Through Choice</h3>

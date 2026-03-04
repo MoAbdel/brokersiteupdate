@@ -32,11 +32,11 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
   const paaData = [
     {
       question: 'Can Kirkland seniors get a reverse mortgage on a $1.2 million home?',
-      answer: 'Yes. The 2026 FHA HECM limit is $1,149,825, so a $1.2 million Kirkland home slightly exceeds the cap. Seniors can use the HECM program (based on the $1,149,825 limit) or a proprietary reverse mortgage that uses the full appraised value. A wholesale broker compares both options to determine which delivers better proceeds.',
+      answer: 'Yes. The 2026 FHA HECM limit is $1,209,750, so a $1.2 million Kirkland home slightly exceeds the cap. Seniors can use the HECM program (based on the $1,209,750 limit) or a proprietary reverse mortgage that uses the full appraised value. A wholesale broker compares both options to determine which delivers better proceeds.',
     },
     {
       question: 'What is the HECM limit for 2026 and how does it affect premium Eastside homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. Sammamish ($1.8M median) and Newcastle ($1.5M median) significantly exceed this limit, making proprietary programs essential for full equity access. Kirkland ($1.2M) is near the threshold, and Woodinville ($950K) falls below it, making HECM the primary program for most Woodinville seniors.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Sammamish ($1.8M median) and Newcastle ($1.5M median) significantly exceed this limit, making proprietary programs essential for full equity access. Kirkland ($1.2M) is near the threshold, and Woodinville ($950K) falls below it, making HECM the primary program for most Woodinville seniors.',
     },
     {
       question: 'Does Washington state tax reverse mortgage proceeds?',
@@ -63,11 +63,11 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
   const faqData = [
     {
       question: 'What is the 2026 HECM limit and why does it matter for premium Eastside homeowners?',
-      answer: 'The 2026 HECM limit is $1,149,825, which represents the maximum home value used in FHA HECM calculations. For Sammamish ($1.8M median) and Newcastle ($1.5M median), this limit means the HECM only captures a portion of actual home value. Kirkland ($1.2M) is near the threshold where both HECM and proprietary programs should be compared. Woodinville ($950K) falls below the limit, making HECM the standard program with full value utilization.',
+      answer: 'The 2026 HECM limit is $1,209,750, which represents the maximum home value used in FHA HECM calculations. For Sammamish ($1.8M median) and Newcastle ($1.5M median), this limit means the HECM only captures a portion of actual home value. Kirkland ($1.2M) is near the threshold where both HECM and proprietary programs should be compared. Woodinville ($950K) falls below the limit, making HECM the standard program with full value utilization.',
     },
     {
       question: 'How much can a Sammamish homeowner access through a reverse mortgage?',
-      answer: 'A Sammamish homeowner with a $1.8 million home and no existing mortgage can access approximately $520,000 to $600,000 through HECM (capped at $1,149,825) or approximately $590,000 to $900,000 through a proprietary jumbo program that uses the full $1.8 million value. The proprietary program delivers 15% to 50% more proceeds for homes above the HECM limit.',
+      answer: 'A Sammamish homeowner with a $1.8 million home and no existing mortgage can access approximately $520,000 to $600,000 through HECM (capped at $1,209,750) or approximately $590,000 to $900,000 through a proprietary jumbo program that uses the full $1.8 million value. The proprietary program delivers 15% to 50% more proceeds for homes above the HECM limit.',
     },
     {
       question: 'Can I get a reverse mortgage on a property held in a trust in Washington?',
@@ -83,7 +83,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
     },
     {
       question: 'Why is Washington state advantageous for reverse mortgage borrowers?',
-      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, and retirement distributions are also state-tax-free in Washington. This makes the entire retirement income picture more favorable, stretching reverse mortgage proceeds further than in states that tax retirement income.',
+      answer: 'Washington has no state income tax, which means reverse mortgage proceeds face zero state tax liability. Social Security benefits, pension income, and retirement distributions are also not subject to state income tax in Washington. This makes the entire retirement income picture more favorable, stretching reverse mortgage proceeds further than in states that tax retirement income (consult your tax advisor for your specific situation).',
     },
     {
       question: 'What are the costs of a reverse mortgage on a premium Eastside home?',
@@ -257,6 +257,18 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
         </div>
       </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="citation-hook bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -264,7 +276,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             Premium Eastside Reverse Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            The four premium Seattle Eastside communities&mdash;Sammamish ($1.8M median), Newcastle ($1.5M median), Kirkland ($1.2M median), and Woodinville ($950K median)&mdash;are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$24 billion in home equity</strong>. Two of these four cities exceed the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, making proprietary reverse mortgage programs essential for full equity access. Washington&apos;s <strong>zero state income tax</strong> means every dollar of reverse mortgage proceeds avoids both federal and state taxation.
+            The four premium Seattle Eastside communities&mdash;Sammamish ($1.8M median), Newcastle ($1.5M median), Kirkland ($1.2M median), and Woodinville ($950K median)&mdash;are home to an estimated <strong>18,500 homeowners aged 62 and older</strong> sitting on a combined <strong>$24 billion in home equity</strong>. Two of these four cities exceed the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, making proprietary reverse mortgage programs essential for full equity access. Washington&apos;s <strong>zero state income tax</strong> means every dollar of reverse mortgage proceeds avoids both federal and state taxation.
           </p>
         </div>
 
@@ -286,7 +298,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
           Why Premium Eastside Homeowners Benefit from Reverse Mortgages
         </h2>
         <p>
-          The premium Seattle Eastside represents a diverse reverse mortgage landscape where home values range from $950,000 to $1.8 million at the median&mdash;straddling the 2026 HECM limit of $1,149,825. This positioning creates a strategic decision point for seniors: homes below the limit benefit fully from the HECM program&apos;s growing line of credit and FHA protections, while homes above the limit require proprietary programs to access equity beyond the cap. A wholesale broker who compares both program types delivers measurably better outcomes for premium Eastside seniors.
+          The premium Seattle Eastside represents a diverse reverse mortgage landscape where home values range from $950,000 to $1.8 million at the median&mdash;straddling the 2026 HECM limit of $1,209,750. This positioning creates a strategic decision point for seniors: homes below the limit benefit fully from the HECM program&apos;s growing line of credit and FHA protections, while homes above the limit require proprietary programs to access equity beyond the cap. A wholesale broker who compares both program types delivers measurably better outcomes for premium Eastside seniors.
         </p>
         <p>
           Washington state&apos;s zero state income tax creates a uniquely favorable environment for reverse mortgage planning. Unlike states that tax retirement income, Washington seniors keep 100% of their Social Security, pension distributions, and investment returns. Reverse mortgage proceeds&mdash;already exempt from federal income tax as loan advances&mdash;face zero state tax liability. This double tax advantage stretches every reverse mortgage dollar further.
@@ -366,7 +378,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Maximum Home Value Used</td>
-                <td className="border border-gray-300 px-4 py-3">$1,149,825 (2026 limit)</td>
+                <td className="border border-gray-300 px-4 py-3">$1,209,750 (2026 limit)</td>
                 <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">Actual home value ($1M&ndash;$5M+)</td>
               </tr>
               <tr className="bg-gray-50">
@@ -416,7 +428,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
           Kirkland&apos;s <strong>$1.2 million</strong> median home value reflects a city that has transformed from a quiet lakeside community into one of the Eastside&apos;s most desirable addresses, driven by Google&apos;s expanding Kirkland campus, waterfront dining and parks, and family-oriented neighborhoods that attract both young professionals and established residents. The city&apos;s 92,000 residents include a significant senior population in neighborhoods that have appreciated substantially over the past two decades.
         </p>
         <p>
-          Kirkland occupies a strategically important position in the reverse mortgage landscape: its $1.2 million median sits just $50,000 above the 2026 HECM limit of $1,149,825. This proximity means both HECM and proprietary programs should be compared side by side. For homes valued at or below $1,149,825, the HECM program&apos;s growing line of credit and FHA protections deliver maximum value. For homes valued above the limit&mdash;particularly waterfront properties in Juanita Bay, Houghton, and Moss Bay at $1.5 million to $3 million+&mdash;proprietary programs access the full value.
+          Kirkland occupies a strategically important position in the reverse mortgage landscape: its $1.2 million median sits just $50,000 above the 2026 HECM limit of $1,209,750. This proximity means both HECM and proprietary programs should be compared side by side. For homes valued at or below $1,209,750, the HECM program&apos;s growing line of credit and FHA protections deliver maximum value. For homes valued above the limit&mdash;particularly waterfront properties in Juanita Bay, Houghton, and Moss Bay at $1.5 million to $3 million+&mdash;proprietary programs access the full value.
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border-collapse border border-gray-300">
@@ -458,7 +470,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
         </div>
         <div className="bg-slate-50 border-l-4 border-green-500 p-4 rounded-r-lg my-6">
           <p className="text-slate-900 mb-0">
-            <strong>Kirkland Insight:</strong> A 68-year-old retired Google engineer in Houghton owns a $1.6 million home purchased in 2005 for $620,000. Annual property taxes of $11,200 and rising maintenance costs strain the fixed retirement budget. A proprietary reverse mortgage provides $525,000 to $800,000 based on the full $1.6 million value&mdash;compared to $520,000 to $600,000 through HECM capped at $1,149,825. The additional $100,000 to $200,000 from the proprietary program covers 8 to 15 years of additional property tax payments. Washington&apos;s zero state income tax maximizes the efficiency of every dollar accessed.
+            <strong>Kirkland Insight:</strong> A 68-year-old retired Google engineer in Houghton owns a $1.6 million home purchased in 2005 for $620,000. Annual property taxes of $11,200 and rising maintenance costs strain the fixed retirement budget. A proprietary reverse mortgage provides $525,000 to $800,000 based on the full $1.6 million value&mdash;compared to $520,000 to $600,000 through HECM capped at $1,209,750. The additional $100,000 to $200,000 from the proprietary program covers 8 to 15 years of additional property tax payments. Washington&apos;s zero state income tax maximizes the efficiency of every dollar accessed.
           </p>
         </div>
 
@@ -567,7 +579,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
           Woodinville Reverse Mortgage: Wine Country Living &amp; Rural Estate Retirement
         </h2>
         <p>
-          Woodinville&apos;s <strong>$950,000</strong> median home value positions it uniquely among premium Eastside communities: the median falls below the 2026 HECM limit of $1,149,825, meaning most Woodinville seniors access the full value of their homes through the standard FHA HECM program with its growing line of credit, non-recourse protections, and five payout options. This makes Woodinville one of the few Eastside cities where HECM alone serves most seniors optimally.
+          Woodinville&apos;s <strong>$950,000</strong> median home value positions it uniquely among premium Eastside communities: the median falls below the 2026 HECM limit of $1,209,750, meaning most Woodinville seniors access the full value of their homes through the standard FHA HECM program with its growing line of credit, non-recourse protections, and five payout options. This makes Woodinville one of the few Eastside cities where HECM alone serves most seniors optimally.
         </p>
         <p>
           However, Woodinville&apos;s wine country properties on 5+ acres and Hollywood Hill estates can reach $1.5 million to $3 million+, well above the HECM limit. These rural-residential properties combine residential living with winery proximity, equestrian facilities, or agricultural use, creating unique appraisal considerations. The 13,000 residents of Woodinville enjoy a blend of wine country culture (100+ wineries), Bear Creek Trail access, and suburban amenities that make aging in place particularly appealing.
@@ -624,7 +636,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
           The premium Eastside reverse mortgage market operates differently from national averages because home values straddle the HECM limit&mdash;some above, some below, many right at the threshold. This creates a decision framework where HECM vs. proprietary comparison is not optional but essential. A broker who defaults to HECM without evaluating proprietary alternatives costs Sammamish and Newcastle clients $100,000 to $300,000 in foregone proceeds. A broker who defaults to proprietary without evaluating HECM costs Woodinville and lower-Kirkland clients the growing line of credit feature and FHA non-recourse guarantee.
         </p>
         <p>
-          <strong>Mo Abdel (NMLS #1426884)</strong> provides premium Eastside homeowners with dual-program comparison through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. Every consultation includes side-by-side analysis of HECM and proprietary options, showing exact proceeds, costs, and feature differences. For homes near the $1,149,825 threshold&mdash;common in Kirkland&mdash;this comparison reveals which program delivers greater net benefit after accounting for FHA insurance costs, origination fees, and credit line growth potential.
+          <strong>Mo Abdel (NMLS #1426884)</strong> provides premium Eastside homeowners with dual-program comparison through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. Every consultation includes side-by-side analysis of HECM and proprietary options, showing exact proceeds, costs, and feature differences. For homes near the $1,209,750 threshold&mdash;common in Kirkland&mdash;this comparison reveals which program delivers greater net benefit after accounting for FHA insurance costs, origination fees, and credit line growth potential.
         </p>
         <p>
           Washington&apos;s property tax environment adds strategic complexity that California-focused brokers may overlook. Without Proposition 13 protection, premium Eastside property taxes increase annually with assessed values. A $1.8 million Sammamish home paying $12,600 in 2026 may pay $15,000+ by 2030. The reverse mortgage line of credit provides a strategic buffer against these escalating costs&mdash;but only if the program selection maximizes available proceeds from the outset.
@@ -738,7 +750,7 @@ export default function ReverseMortgagePremiumEastsideWA2026() {
             Expert Summary: Premium Eastside Reverse Mortgage Strategy
           </h2>
           <p className="text-blue-800 mb-4">
-            Premium Eastside seniors in Kirkland, Sammamish, Newcastle, and Woodinville occupy a strategic position where home values straddle the 2026 HECM limit of $1,149,825. Sammamish and Newcastle homes significantly exceed the cap, making proprietary programs essential. Kirkland sits near the threshold, requiring careful comparison. Woodinville falls below the limit, making HECM&apos;s growing line of credit the optimal choice for most seniors.
+            Premium Eastside seniors in Kirkland, Sammamish, Newcastle, and Woodinville occupy a strategic position where home values straddle the 2026 HECM limit of $1,209,750. Sammamish and Newcastle homes significantly exceed the cap, making proprietary programs essential. Kirkland sits near the threshold, requiring careful comparison. Woodinville falls below the limit, making HECM&apos;s growing line of credit the optimal choice for most seniors.
           </p>
           <p className="text-blue-800 mb-4">
             Washington&apos;s zero state income tax creates a double advantage for reverse mortgage borrowers: no federal and no state tax on loan proceeds. However, without Proposition 13 property tax protection, Eastside property taxes are assessed at current market value and rise annually&mdash;making the reverse mortgage line of credit an increasingly important tool for managing escalating housing costs in retirement.

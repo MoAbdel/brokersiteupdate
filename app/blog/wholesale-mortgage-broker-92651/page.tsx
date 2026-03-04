@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92651Page() {
                 "name": "What is the typical loan amount for Laguna Beach 92651?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Laguna Beach 92651 has a median home price of $3.2 million. After down payment, most buyers need jumbo loans of $2-3 million. The 2026 conforming limit of $1,149,825 covers only about 36% of the typical purchase price."
+                  "text": "Laguna Beach 92651 has a median home price of $3.2 million. After down payment, most buyers need jumbo loans of $2-3 million. The 2026 conforming limit of $1,209,750 covers only about 36% of the typical purchase price."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92651Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Laguna Beach 92651 combines artistic heritage with coastal luxury at a <strong>$3.2 million median home price</strong>. When the 2026 conforming limit of $1,149,825 covers only 36% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and second home expertise—not a bank with a single product. Our access to 200+ lenders delivers <strong>better rates than Comerica, Pacific Premier, or Montecito Bank</strong> for Laguna Beach buyers.
+            Laguna Beach 92651 combines artistic heritage with coastal luxury at a <strong>$3.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 36% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and second home expertise—not a bank with a single product. Our access to 200+ lenders delivers <strong>better rates than Comerica, Pacific Premier, or Montecito Bank</strong> for Laguna Beach buyers.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBroker92651Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$1,500,000 - $30,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$2,000,000 - $3,500,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">40-80 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825 (insufficient here)</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750 (insufficient here)</td></tr>
             </tbody>
           </table>
         </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92651Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount for Laguna Beach 92651?</h3>
-            <p className="mb-0">Laguna Beach 92651 has a median home price of $3.2 million. After down payment, most buyers need jumbo loans of $2-3 million. The 2026 conforming limit of $1,149,825 covers only about 36% of the typical purchase price.</p>
+            <p className="mb-0">Laguna Beach 92651 has a median home price of $3.2 million. After down payment, most buyers need jumbo loans of $2-3 million. The 2026 conforming limit of $1,209,750 covers only about 36% of the typical purchase price.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers finance second homes in Laguna Beach?</h3>

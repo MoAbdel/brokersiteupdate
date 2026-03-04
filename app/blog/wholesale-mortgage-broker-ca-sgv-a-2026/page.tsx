@@ -107,11 +107,11 @@ const paaData = [
   },
   {
     question: "What are jumbo loan limits in Los Angeles County for 2026?",
-    answer: "The 2026 conforming loan limit for Los Angeles County is $1,266,300 for a single-family home. Any mortgage above $1,266,300 is classified as a jumbo loan. San Gabriel Valley luxury properties typically require jumbo loans ranging from $1.3M to $5M+, available through wholesale lenders with rates 0.25-0.50% below retail jumbo pricing."
+    answer: "The 2026 conforming loan limit for Los Angeles County is $1,209,750 for a single-family home. Any mortgage above $1,209,750 is classified as a jumbo loan. San Gabriel Valley luxury properties typically require jumbo loans ranging from $1.3M to $5M+, available through wholesale lenders with rates 0.25-0.50% below retail jumbo pricing."
   },
   {
     question: "Do I need a large down payment for a Pasadena home?",
-    answer: "Down payment requirements for Pasadena homes depend on the loan type and amount: conventional loans require 5-20% down for amounts up to $1,266,300, jumbo loans require 10-20% for amounts up to $3M, and FHA loans require 3.5% down up to $1,266,300. VA-eligible buyers can purchase with 0% down up to the conforming limit."
+    answer: "Down payment requirements for Pasadena homes depend on the loan type and amount: conventional loans require 5-20% down for amounts up to $1,209,750, jumbo loans require 10-20% for amounts up to $3M, and FHA loans require 3.5% down up to $1,209,750. VA-eligible buyers can purchase with 0% down up to the conforming limit."
   },
   {
     question: "What mortgage programs work for international buyers in San Gabriel Valley?",
@@ -954,7 +954,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
               2026 Loan Limit Impact on SGV Financing
             </h3>
             <p className="text-slate-600 mb-3">
-              The 2026 conforming loan limit for Los Angeles County is <strong>$1,266,300</strong>. This limit directly affects program eligibility across SGV foothill markets:
+              The 2026 conforming loan limit for Los Angeles County is <strong>$1,209,750</strong>. This limit directly affects program eligibility across SGV foothill markets:
             </p>
             <ul className="space-y-2 text-sm text-slate-600">
               <li className="flex items-start gap-2">

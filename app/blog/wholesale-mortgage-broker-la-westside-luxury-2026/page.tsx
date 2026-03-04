@@ -113,7 +113,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     },
     {
       question: 'What is the 2026 conforming loan limit for LA County?',
-      answer: 'The 2026 conforming loan limit for Los Angeles County is $1,149,825 for single-unit properties. Properties above this threshold require jumbo financing, which wholesale brokers specialize in by accessing 20+ jumbo lenders simultaneously to find the best rate and terms.',
+      answer: 'The 2026 conforming loan limit for Los Angeles County is $1,209,750 for single-unit properties. Properties above this threshold require jumbo financing, which wholesale brokers specialize in by accessing 20+ jumbo lenders simultaneously to find the best rate and terms.',
     },
     {
       question: 'Do wholesale brokers offer better rates than banks for jumbo loans on the Westside?',
@@ -289,7 +289,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
           <h2 id="mega-table" className="text-2xl font-bold text-gray-900">LA Westside Market Overview: Wholesale Mortgage Lending Landscape</h2>
 
           <p>
-            The LA Westside corridor from Culver City to Westchester represents one of Southern California&apos;s most dynamic real estate markets. Fueled by the entertainment industry&apos;s consolidation in Culver City, the coastal appeal of Playa del Rey, the marina lifestyle of Marina del Rey, and the accessibility of Westchester, this region attracts buyers whose income profiles demand specialized mortgage solutions. Median home prices range from $1.1 million to $1.3 million, placing virtually every purchase in jumbo loan territory above the $1,149,825 conforming limit.
+            The LA Westside corridor from Culver City to Westchester represents one of Southern California&apos;s most dynamic real estate markets. Fueled by the entertainment industry&apos;s consolidation in Culver City, the coastal appeal of Playa del Rey, the marina lifestyle of Marina del Rey, and the accessibility of Westchester, this region attracts buyers whose income profiles demand specialized mortgage solutions. Median home prices range from $1.1 million to $1.3 million, placing virtually every purchase in jumbo loan territory above the $1,209,750 conforming limit.
           </p>
 
           <p>
@@ -727,11 +727,11 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">Do veterans get better mortgage rates in Westchester near LAX?</h3>
-              <p><strong>VA jumbo loans offer the lowest available rates with zero down payment for eligible veterans and active military.</strong> Westchester&apos;s proximity to LAX and nearby military installations makes VA loans a top program. VA jumbo loans above $1,149,825 require a 25% down payment on the portion above the limit.</p>
+              <p><strong>VA jumbo loans offer the lowest available rates with zero down payment for eligible veterans and active military.</strong> Westchester&apos;s proximity to LAX and nearby military installations makes VA loans a top program. VA jumbo loans above $1,209,750 require a 25% down payment on the portion above the limit.</p>
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">Can I buy a Playa del Rey home with no money down?</h3>
-              <p><strong>VA loans offer zero-down financing for Playa del Rey homes up to the conforming limit of $1,149,825.</strong> Above that limit, a partial down payment is required. USDA loans are not available in this area. Conventional and jumbo programs require minimum 5% to 20% down.</p>
+              <p><strong>VA loans offer zero-down financing for Playa del Rey homes up to the conforming limit of $1,209,750.</strong> Above that limit, a partial down payment is required. USDA loans are not available in this area. Conventional and jumbo programs require minimum 5% to 20% down.</p>
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">How do backend points from film deals count toward mortgage income?</h3>

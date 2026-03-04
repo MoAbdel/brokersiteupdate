@@ -106,7 +106,7 @@ export default function HuntingtonBeachRefinance2025() {
                     Huntington Beach has seen steady equity growth over the last several years, from the downtown core to the suburban enclaves of Edwards Hill. In 2025, many homeowners are finding that their equity is their most powerful financial tool. However, with market conditions constantly shifting, the decision to refinance requires a nuanced approach—what we call **Information Gain**.
                 </p>
                 <p>
-                    As a wholesale broker, I have a front-row seat to the competition. While a big-box bank like Wells Fargo might offer you one "standard" refinance rate, my office can pulse-check 50+ lenders in real-time. For a Surf City homeowner, this means finding the specific lender that has an appetite for coastal OC risk at any given moment.
+                    As a wholesale broker, I have a front-row seat to the competition. While a big-box bank like Wells Fargo might offer you one "standard" refinance rate, my office can pulse-check 200+ lenders in real-time. For a Surf City homeowner, this means finding the specific lender that has an appetite for coastal OC risk at any given moment.
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -191,8 +191,8 @@ export default function HuntingtonBeachRefinance2025() {
                 </div>
 
                 <footer className="mt-16 pt-8 border-t border-gray-200 text-sm text-gray-600">
-                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #1850</p>
-                    <p className="mb-4">Licensed in: CA, TX, FL, AZ, WA, VA, CO</p>
+                    <p className="font-bold mb-4">Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106</p>
+                    <p className="mb-4">Licensed in: CA, WA</p>
                     <p className="italic">
                         Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.
                     </p>

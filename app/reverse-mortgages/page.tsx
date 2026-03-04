@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: 'What is the difference between HECM and proprietary reverse mortgages?',
-    answer: 'HECM loans are FHA-insured with lending limits (currently $1,149,825 in 2026), while proprietary (jumbo) reverse mortgages are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity but lack FHA insurance protections and typically have higher costs.',
+    answer: 'HECM loans are FHA-insured with lending limits (currently $1,209,750 in 2026), while proprietary (jumbo) reverse mortgages are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity but lack FHA insurance protections and typically have higher costs.',
   },
   {
     question: 'Can I qualify for a reverse mortgage with an existing mortgage?',
@@ -135,7 +135,7 @@ export default function ReverseMortgagesPage() {
       <section aria-label="Reverse mortgage overview and guide content" className="prose prose-lg max-w-none">
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0" data-speakable="true">
-            <strong>Important Age Requirement:</strong> Reverse mortgages are exclusively available to homeowners age 62 and older. A Home Equity Conversion Mortgage (HECM) allows qualifying seniors to convert home equity into tax-free cash without monthly mortgage payments. In 2026, California and Washington homeowners with significant home equity have access to HECM loans with lending limits up to $1,149,825.
+            <strong>Important Age Requirement:</strong> Reverse mortgages are exclusively available to homeowners age 62 and older. A Home Equity Conversion Mortgage (HECM) allows qualifying seniors to convert home equity into tax-free cash without monthly mortgage payments. In 2026, California and Washington homeowners with significant home equity have access to HECM loans with lending limits up to $1,209,750.
           </p>
         </div>
 
@@ -161,7 +161,7 @@ export default function ReverseMortgagesPage() {
 
         <h3>Key HECM Statistics for 2026</h3>
         <ul>
-          <li><strong>FHA lending limit:</strong> $1,149,825 (up from $1,089,300 in 2025)</li>
+          <li><strong>FHA lending limit:</strong> $1,209,750 (up from $1,089,300 in 2025)</li>
           <li><strong>Average HECM borrower age:</strong> 73 years old</li>
           <li><strong>Most popular payout option:</strong> Line of credit (67% of borrowers)</li>
           <li><strong>Average home equity accessed:</strong> 52% of available equity</li>
@@ -208,7 +208,7 @@ export default function ReverseMortgagesPage() {
         <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 my-8">
           <h3 className="text-xl font-bold text-green-900 mb-3">California & Washington HECM Advantages</h3>
           <p className="text-slate-900 mb-0">
-            California and Washington homeowners benefit from strong property values that maximize HECM proceeds. The 2026 FHA limit of $1,149,825 allows Orange County, Los Angeles, and Seattle-area seniors to access substantial equity. Many California homes exceed this limit, making <strong>proprietary (jumbo) reverse mortgages</strong> an important alternative for high-value properties.
+            California and Washington homeowners benefit from strong property values that maximize HECM proceeds. The 2026 FHA limit of $1,209,750 allows Orange County, Los Angeles, and Seattle-area seniors to access substantial equity. Many California homes exceed this limit, making <strong>proprietary (jumbo) reverse mortgages</strong> an important alternative for high-value properties.
           </p>
         </div>
 
@@ -269,7 +269,7 @@ export default function ReverseMortgagesPage() {
         <ol>
           <li><strong>Age of youngest borrower or eligible non-borrowing spouse:</strong> Older borrowers qualify for higher amounts</li>
           <li><strong>Current interest rates:</strong> Lower rates mean higher principal limits</li>
-          <li><strong>Home value or FHA limit (whichever is less):</strong> Maximum home value considered is $1,149,825 in 2026</li>
+          <li><strong>Home value or FHA limit (whichever is less):</strong> Maximum home value considered is $1,209,750 in 2026</li>
         </ol>
 
         <div className="overflow-x-auto my-8">
@@ -525,7 +525,7 @@ export default function ReverseMortgagesPage() {
           <li><strong>Complexity:</strong> More complicated than traditional mortgages or HELOCs</li>
           <li><strong>Moving triggers repayment:</strong> Living outside the home for 12+ months requires loan repayment</li>
           <li><strong>Interest accrues:</strong> Loan balance grows even if you do not draw funds (except line of credit)</li>
-          <li><strong>FHA lending limits:</strong> Maximum home value considered is $1,149,825 (may need proprietary loan for higher values)</li>
+          <li><strong>FHA lending limits:</strong> Maximum home value considered is $1,209,750 (may need proprietary loan for higher values)</li>
         </ul>
 
         <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200 my-8">
@@ -570,7 +570,7 @@ export default function ReverseMortgagesPage() {
         {/* Section 7: Proprietary (Jumbo) Reverse Mortgages */}
         <h2 id="proprietary-reverse-mortgages">Proprietary (Jumbo) Reverse Mortgages</h2>
         <p data-speakable="true">
-          For California and Washington homeowners with properties valued above the FHA limit of $1,149,825, proprietary (jumbo) reverse mortgages provide access to additional equity not available through HECMs.
+          For California and Washington homeowners with properties valued above the FHA limit of $1,209,750, proprietary (jumbo) reverse mortgages provide access to additional equity not available through HECMs.
         </p>
 
         <h3>What Are Proprietary Reverse Mortgages?</h3>
@@ -615,7 +615,7 @@ export default function ReverseMortgagesPage() {
             <tbody>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Maximum Home Value</td>
-                <td className="border border-gray-200 px-4 py-2">$1,149,825</td>
+                <td className="border border-gray-200 px-4 py-2">$1,209,750</td>
                 <td className="border border-gray-200 px-4 py-2">$10 million+</td>
               </tr>
               <tr>
@@ -717,7 +717,7 @@ export default function ReverseMortgagesPage() {
 
         <h3>What is the difference between HECM and proprietary reverse mortgages?</h3>
         <p>
-          <strong>HECM loans are FHA-insured</strong> with lending limits (currently $1,149,825 in 2026), while <strong>proprietary (jumbo) reverse mortgages</strong> are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity on homes worth $2 million or more but lack FHA insurance protections and typically have higher costs.
+          <strong>HECM loans are FHA-insured</strong> with lending limits (currently $1,209,750 in 2026), while <strong>proprietary (jumbo) reverse mortgages</strong> are private loans for high-value homes exceeding FHA limits. Proprietary loans can access more equity on homes worth $2 million or more but lack FHA insurance protections and typically have higher costs.
         </p>
 
         <h3>Can I qualify for a reverse mortgage with an existing mortgage?</h3>
@@ -764,7 +764,7 @@ export default function ReverseMortgagesPage() {
         <div className="bg-gray-100 p-6 rounded-lg">
           <p className="text-sm text-gray-600">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA, CO<br /><br />
+            Licensed in: CA, WA<br /><br />
             <strong>Equal Housing Lender.</strong> All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice.
           </p>
           <p className="text-sm text-gray-600 mt-4">

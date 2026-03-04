@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ['first time homebuyer Orange County', 'Orange County first time buyer programs', 'FHA loans Orange County 2026', 'down payment assistance Orange County'],
   openGraph: {
     title: 'First-Time Homebuyer Guide Orange County 2026: Complete Guide to Buying Your First Home',
-    description: 'First-time homebuyer Orange County 2026: FHA loans, down payment assistance, credit tips. Access wholesale rates from 100+ lenders.',
+    description: 'First-time homebuyer Orange County 2026: FHA loans, down payment assistance, credit tips. Access wholesale rates from 200+ lenders.',
     url: 'https://www.mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -218,7 +218,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
               </div>
               <div>
                 <p className="text-sm text-slate-600 mb-2"><strong>2026 Conforming Limit:</strong></p>
-                <p className="text-lg font-semibold text-slate-900">$1,266,300</p>
+                <p className="text-lg font-semibold text-slate-900">$1,209,750</p>
               </div>
             </div>
           </div>
@@ -245,7 +245,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
                   <li>• <strong>Credit Score:</strong> 580+ recommended, 500 minimum</li>
                   <li>• <strong>DTI Ratio:</strong> Up to 43% (or higher with compensating factors)</li>
                   <li>• <strong>Mortgage Insurance:</strong> Upfront MIP (1.75%) + annual MIP (0.55%)</li>
-                  <li>• <strong>Loan Limit:</strong> $1,266,300 in Orange County (2026)</li>
+                  <li>• <strong>Loan Limit:</strong> $1,209,750 in Orange County (2026)</li>
                 </ul>
               </div>
             </div>
@@ -369,7 +369,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Get Pre-Approved by a Wholesale Mortgage Broker</h4>
-                  <p className="text-slate-600 mb-2">Submit W-2s, pay stubs, bank statements, and tax returns. A wholesale broker shops 100+ lenders to find your best rate.</p>
+                  <p className="text-slate-600 mb-2">Submit W-2s, pay stubs, bank statements, and tax returns. A wholesale broker shops 200+ lenders to find your best rate.</p>
                   <p className="text-sm text-blue-700 font-medium">Pre-approval letters make your offers competitive</p>
                 </div>
               </li>
@@ -440,7 +440,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
               <AlertCircle className="w-6 h-6 text-red-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Not Shopping Mortgage Rates</h4>
-                <p className="text-slate-600">A wholesale broker compares 100+ lenders automatically. Going direct to one bank means you're accepting their markup.</p>
+                <p className="text-slate-600">A wholesale broker compares 200+ lenders automatically. Going direct to one bank means you're accepting their markup.</p>
               </div>
             </div>
           </div>

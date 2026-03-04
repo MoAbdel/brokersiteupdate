@@ -78,7 +78,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
     },
     {
       question: `What are current mortgage pricing in ${cityData.name}?`,
-      answer: `Mortgage pricing in ${cityData.name} vary based on loan type, credit score, and down payment. Current pricing start around 6.125% for 30-year fixed loans. Contact Mo for personalized loan quotes based on your specific situation.`
+      answer: `Mortgage pricing in ${cityData.name} vary based on loan type, credit score, and down payment. Rates change daily and depend on your specific financial profile. Contact Mo for a personalized rate quote based on your situation.`
     },
     {
       question: `How much house can I afford in ${cityData.name}?`,

@@ -168,7 +168,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           <li>As low as 3% down for first-time buyers</li>
           <li>20% down avoids PMI</li>
           <li>Competitive rates through wholesale channel</li>
-          <li>Conforming limit: $1,149,825 (2026 Orange County)</li>
+          <li>Conforming limit: $1,209,750 (2026 Orange County)</li>
         </ul>
 
         <h3>Jumbo Loans</h3>
@@ -176,7 +176,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           For Anaheim Hills and higher-priced properties:
         </p>
         <ul>
-          <li>Loans above $1,149,825</li>
+          <li>Loans above $1,209,750</li>
           <li>Multiple jumbo lender options</li>
           <li>10-20% down payment typical</li>
           <li>Competitive rates for qualified borrowers</li>
@@ -201,7 +201,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           <li>3.5% down with 580+ credit</li>
           <li>More flexible qualification</li>
           <li>Good for downtown Anaheim and affordable areas</li>
-          <li>Loan limit: $1,149,825 (2026)</li>
+          <li>Loan limit: $1,209,750 (2026)</li>
         </ul>
 
         <h3>VA Loans</h3>

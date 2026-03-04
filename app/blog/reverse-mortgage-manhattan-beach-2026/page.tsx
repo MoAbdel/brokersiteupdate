@@ -57,7 +57,7 @@ export default function ReverseMortgageManhattanBeachPage() {
                 "name": "How much equity can Manhattan Beach seniors access?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Manhattan Beach seniors can access significant equity through reverse mortgages. The FHA HECM limit is $1,149,825, while proprietary programs can access higher amounts on properties valued above this limit. Actual proceeds depend on age, home value, and interest rates."
+                  "text": "Manhattan Beach seniors can access significant equity through reverse mortgages. The FHA HECM limit is $1,209,750, while proprietary programs can access higher amounts on properties valued above this limit. Actual proceeds depend on age, home value, and interest rates."
                 }
               },
               {
@@ -97,6 +97,12 @@ export default function ReverseMortgageManhattanBeachPage() {
           Unlocking equity in South Bay's premier coastal community
         </p>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
@@ -210,7 +216,7 @@ export default function ReverseMortgageManhattanBeachPage() {
 
         <h3>How much equity can Manhattan Beach seniors access?</h3>
         <p>
-          Manhattan Beach seniors can access significant equity through reverse mortgages. The FHA HECM limit is $1,149,825, while proprietary programs can access higher amounts on properties valued above this limit. Actual proceeds depend on age, home value, and interest rates.
+          Manhattan Beach seniors can access significant equity through reverse mortgages. The FHA HECM limit is $1,209,750, while proprietary programs can access higher amounts on properties valued above this limit. Actual proceeds depend on age, home value, and interest rates.
         </p>
 
         <h3>What neighborhoods in Manhattan Beach qualify for reverse mortgages?</h3>

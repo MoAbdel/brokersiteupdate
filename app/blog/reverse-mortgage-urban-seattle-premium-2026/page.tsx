@@ -30,11 +30,11 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
   const faqData = [
     {
       question: 'Can I get a reverse mortgage on my Seattle home if it is worth $900,000?',
-      answer: 'Yes. Seattle homes valued at $900,000 fall within the 2026 FHA HECM lending limit of $1,149,825, making you eligible for the full range of HECM payout options. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. A $900,000 Seattle home provides substantial HECM proceeds that benefit from Washington state having no income tax on the funds received.',
+      answer: 'Yes. Seattle homes valued at $900,000 fall within the 2026 FHA HECM lending limit of $1,209,750, making you eligible for the full range of HECM payout options. Homeowners 62 and older who occupy the property as a primary residence qualify after completing mandatory HUD counseling. A $900,000 Seattle home provides substantial HECM proceeds that benefit from Washington state having no income tax on the funds received.',
     },
     {
       question: 'What is the 2026 FHA HECM lending limit and how does it help Seattle homeowners?',
-      answer: 'The 2026 FHA HECM lending limit is $1,149,825. This is the maximum home value used for FHA-insured reverse mortgage calculations. Seattle homes with a median value around $900,000 fall below this cap, meaning the full appraised value is used in HECM calculations. This positions Seattle seniors favorably compared to cities where homes far exceed the limit and require proprietary programs.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. This is the maximum home value used for FHA-insured reverse mortgage calculations. Seattle homes with a median value around $900,000 fall below this cap, meaning the full appraised value is used in HECM calculations. This positions Seattle seniors favorably compared to cities where homes far exceed the limit and require proprietary programs.',
     },
     {
       question: 'How does Washington state having no income tax benefit reverse mortgage borrowers?',
@@ -42,7 +42,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
     },
     {
       question: 'How much money can a Shoreline senior receive from a reverse mortgage?',
-      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Shoreline home valued at $750,000, a 72-year-old borrower could receive approximately $337,000 to $412,000 through an FHA HECM. Older borrowers receive higher percentages. Shoreline values fall well within the HECM limit, so proprietary programs are typically unnecessary unless the home exceeds $1,149,825.',
+      answer: 'The amount depends on borrower age, home value, and current interest rates. For a Shoreline home valued at $750,000, a 72-year-old borrower could receive approximately $337,000 to $412,000 through an FHA HECM. Older borrowers receive higher percentages. Shoreline values fall well within the HECM limit, so proprietary programs are typically unnecessary unless the home exceeds $1,209,750.',
     },
     {
       question: 'Do I lose ownership of my Lake Forest Park home with a reverse mortgage?',
@@ -222,12 +222,24 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Published February 13, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-blue-900">
+              <strong>Benefits Disclaimer:</strong> This information is for educational purposes only. Consult the Social Security Administration or Medicare directly for benefits questions. Mo Abdel is a mortgage professional, not a benefits counselor.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
 
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the four urban Seattle corridor communities &mdash; Seattle, Shoreline, Lake Forest Park, and Burien &mdash; are home to an estimated <strong>68,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$47 billion in home equity</strong>, based on 2026 King County assessor data and U.S. Census demographic projections. With Seattle&apos;s median home value at approximately <strong>$900,000</strong> and all four cities falling within the 2026 FHA HECM lending limit of <strong>$1,149,825</strong>, most seniors qualify for standard HECM programs without needing proprietary alternatives. Washington&apos;s zero state income tax creates an additional advantage that seniors in neighboring Oregon and California do not receive. &quot;Seattle&apos;s urban density means seniors in Capitol Hill, Ballard, and Queen Anne hold enormous equity in homes they purchased decades before the tech boom transformed these neighborhoods. They can access that equity tax-efficiently through a reverse mortgage while continuing to live in the walkable, transit-connected communities they love,&quot; Abdel explains.
+              According to Mo Abdel, NMLS #1426884, the four urban Seattle corridor communities &mdash; Seattle, Shoreline, Lake Forest Park, and Burien &mdash; are home to an estimated <strong>68,000 homeowners aged 62 and older</strong> sitting on a combined <strong>$47 billion in home equity</strong>, based on 2026 King County assessor data and U.S. Census demographic projections. With Seattle&apos;s median home value at approximately <strong>$900,000</strong> and all four cities falling within the 2026 FHA HECM lending limit of <strong>$1,209,750</strong>, most seniors qualify for standard HECM programs without needing proprietary alternatives. Washington&apos;s zero state income tax creates an additional advantage that seniors in neighboring Oregon and California do not receive. &quot;Seattle&apos;s urban density means seniors in Capitol Hill, Ballard, and Queen Anne hold enormous equity in homes they purchased decades before the tech boom transformed these neighborhoods. They can access that equity tax-efficiently through a reverse mortgage while continuing to live in the walkable, transit-connected communities they love,&quot; Abdel explains.
             </p>
           </div>
 
@@ -255,7 +267,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
           </h2>
 
           <p>
-            A reverse mortgage allows homeowners aged 62 and older to convert home equity into tax-free funds without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the urban Seattle corridor, home values range from $600,000 in Burien to $900,000 in Seattle proper &mdash; all falling within the FHA HECM cap of $1,149,825. This positions the entire corridor favorably for standard HECM programs, meaning seniors receive the full benefit of FHA insurance protections, the growing line of credit feature, and non-recourse guarantees without needing proprietary alternatives. Washington&apos;s absence of a state income tax further enhances the financial advantage, as reverse mortgage proceeds face zero state taxation.
+            A reverse mortgage allows homeowners aged 62 and older to convert home equity into loan proceeds (not considered taxable income\u2014consult a tax professional) without selling their home or making monthly mortgage payments. The loan is repaid when the borrower sells, moves permanently, or passes away. Across the urban Seattle corridor, home values range from $600,000 in Burien to $900,000 in Seattle proper &mdash; all falling within the FHA HECM cap of $1,209,750. This positions the entire corridor favorably for standard HECM programs, meaning seniors receive the full benefit of FHA insurance protections, the growing line of credit feature, and non-recourse guarantees without needing proprietary alternatives. Washington&apos;s absence of a state income tax further enhances the financial advantage, as reverse mortgage proceeds face zero state taxation.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -303,7 +315,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
           </div>
 
           <p className="text-sm text-gray-500">
-            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. All four cities fall within the $1,149,825 HECM limit.
+            *HECM proceeds estimated for a 72-year-old borrower based on 2026 expected interest rates. Actual amounts depend on age, rate, and individual financial assessment. All four cities fall within the $1,209,750 HECM limit.
           </p>
 
           {/* ========== PAYOUT COMPARISON ========== */}
@@ -539,7 +551,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Lake Forest Park Reverse Mortgage Insight</h4>
-            <p className="mb-0">Lake Forest Park&apos;s unique position as a wooded lakeside community within King County creates strong long-term property value support. The Burke-Gilman Trail provides seniors with car-free exercise and transportation options that reduce living costs and support healthy aging. Waterfront homes may exceed the HECM limit, requiring proprietary programs, but the majority of Lake Forest Park properties fall within the $1,149,825 cap &mdash; making standard HECM the optimal choice with its growing line of credit and FHA insurance protections.</p>
+            <p className="mb-0">Lake Forest Park&apos;s unique position as a wooded lakeside community within King County creates strong long-term property value support. The Burke-Gilman Trail provides seniors with car-free exercise and transportation options that reduce living costs and support healthy aging. Waterfront homes may exceed the HECM limit, requiring proprietary programs, but the majority of Lake Forest Park properties fall within the $1,209,750 cap &mdash; making standard HECM the optimal choice with its growing line of credit and FHA insurance protections.</p>
           </div>
 
           <p>
@@ -599,7 +611,7 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Burien Reverse Mortgage Insight</h4>
-            <p className="mb-0">Burien&apos;s gateway pricing makes it one of the most HECM-efficient markets in King County. Because home values fall well below the $1,149,825 HECM limit, the full appraised value is used in reverse mortgage calculations with no equity left on the table. Long-term homeowners who purchased for $150,000 to $250,000 during the 2000s now hold $350,000 to $550,000 in equity &mdash; accessible through HECM without monthly payments. The rapid appreciation trajectory suggests these equity positions will continue growing, strengthening the reverse mortgage as a long-term retirement tool.</p>
+            <p className="mb-0">Burien&apos;s gateway pricing makes it one of the most HECM-efficient markets in King County. Because home values fall well below the $1,209,750 HECM limit, the full appraised value is used in reverse mortgage calculations with no equity left on the table. Long-term homeowners who purchased for $150,000 to $250,000 during the 2000s now hold $350,000 to $550,000 in equity &mdash; accessible through HECM without monthly payments. The rapid appreciation trajectory suggests these equity positions will continue growing, strengthening the reverse mortgage as a long-term retirement tool.</p>
           </div>
 
           <p>
@@ -719,12 +731,12 @@ export default function ReverseMortgageUrbanSeattlePremium2026() {
 
           <div className="border-l-4 border-blue-500 pl-4 mb-6">
             <h3 className="text-lg font-semibold">What is the maximum reverse mortgage amount for a Seattle home?</h3>
-            <p><strong>The 2026 FHA HECM limit is $1,149,825. Seattle homes at the $900,000 median fall below this cap, so the full appraised value is used in calculations.</strong></p>
+            <p><strong>The 2026 FHA HECM limit is $1,209,750. Seattle homes at the $900,000 median fall below this cap, so the full appraised value is used in calculations.</strong></p>
           </div>
 
           <div className="border-l-4 border-blue-500 pl-4 mb-6">
             <h3 className="text-lg font-semibold">Does Washington state tax reverse mortgage proceeds?</h3>
-            <p><strong>No. Washington has no state income tax. Reverse mortgage proceeds are also not considered taxable income at the federal level, creating a fully tax-free benefit.</strong></p>
+            <p><strong>No. Washington has no state income tax. Reverse mortgage proceeds are also not considered taxable income at the federal level, so proceeds face no income tax at either level.</strong></p>
           </div>
 
           <div className="border-l-4 border-blue-500 pl-4 mb-6">

@@ -45,7 +45,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
     },
     {
       question: 'What is the jumbo loan limit for Silicon Valley in 2026?',
-      answer: 'The 2026 conforming loan limit for high-cost areas including Silicon Valley is $1,149,825. Any loan above this amount is a jumbo loan. Given Tech Corridor median values of $1.3M to $2M, the majority of purchases require jumbo financing, which is a wholesale broker specialty with access to jumbo lenders that banks cannot match.',
+      answer: 'The 2026 conforming loan limit for high-cost areas including Silicon Valley is $1,209,750. Any loan above this amount is a jumbo loan. Given Tech Corridor median values of $1.3M to $2M, the majority of purchases require jumbo financing, which is a wholesale broker specialty with access to jumbo lenders that banks cannot match.',
     },
     {
       question: 'How do wholesale mortgage rates compare to bank rates in Silicon Valley?',
@@ -228,6 +228,12 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | Updated February 9, 2026</p>
         </header>
 
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
+
         <section className="prose prose-lg max-w-none">
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -262,7 +268,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
           </h2>
 
           <p>
-            The five cities of the Silicon Valley Tech Corridor collectively represent one of the highest-value residential markets in the world. Every city in this corridor has a median home value well above the 2026 conforming loan limit of $1,149,825, which means jumbo financing is the standard &mdash; not the exception. A wholesale mortgage broker&apos;s access to 200+ lenders provides the breadth of jumbo product options, tech income specialization, and competitive pricing that this market demands.
+            The five cities of the Silicon Valley Tech Corridor collectively represent one of the highest-value residential markets in the world. Every city in this corridor has a median home value well above the 2026 conforming loan limit of $1,209,750, which means jumbo financing is the standard &mdash; not the exception. A wholesale mortgage broker&apos;s access to 200+ lenders provides the breadth of jumbo product options, tech income specialization, and competitive pricing that this market demands.
           </p>
 
           <div className="overflow-x-auto my-6">

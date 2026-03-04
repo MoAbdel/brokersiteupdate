@@ -46,7 +46,7 @@ export default function HomeEquityWineCountryGuide2026() {
     },
     {
       question: 'Do I need a jumbo HELOC for my Wine Country property?',
-      answer: 'If the equity amount you need exceeds conforming second-lien limits (generally $726,200), you require a jumbo HELOC. Given Wine Country median values of $900,000 to $1.5 million, most equity products in the region are jumbo-category. A wholesale broker accesses specialized jumbo HELOC lenders that retail banks and credit unions rarely offer.'
+      answer: 'If the equity amount you need exceeds conforming second-lien limits (generally $806,500), you require a jumbo HELOC. Given Wine Country median values of $900,000 to $1.5 million, most equity products in the region are jumbo-category. A wholesale broker accesses specialized jumbo HELOC lenders that retail banks and credit unions rarely offer.'
     },
     {
       question: 'Can I get a HELOC on a Wine Country property with vineyard acreage?',
@@ -199,6 +199,12 @@ export default function HomeEquityWineCountryGuide2026() {
           <span>Lumin Lending, NMLS #2716106</span>
         </div>
       </header>
+
+          <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
+            <p className="text-sm text-amber-900">
+              <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
+            </p>
+          </div>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
@@ -590,7 +596,7 @@ export default function HomeEquityWineCountryGuide2026() {
           Home equity products are not commodities. The same $700,000 HELOC on the same Wine Country property carries meaningfully different rates, fees, and terms depending on the lender. Local Wine Country banks and credit unions offer limited product selections. A wholesale mortgage broker accesses lenders not available to consumers directly, creating competition that benefits the borrower.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 50+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products. For Wine Country properties with vineyard acreage or hospitality income, the right lender match is even more critical.</em>
+          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 200+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products. For Wine Country properties with vineyard acreage or hospitality income, the right lender match is even more critical.</em>
         </p>
 
         <h3>Rate Comparison Advantage</h3>

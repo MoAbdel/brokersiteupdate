@@ -54,7 +54,7 @@ export default function WholesaleMortgageBroker92653Page() {
                 "name": "What is the typical loan amount needed in Laguna Hills 92653?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Laguna Hills 92653 has a median home price of $1.2 million, with many properties near or above the 2026 conforming limit of $1,149,825. Nellie Gail Ranch homes often require jumbo loans of $1.5-3M+."
+                  "text": "Laguna Hills 92653 has a median home price of $1.2 million, with many properties near or above the 2026 conforming limit of $1,209,750. Nellie Gail Ranch homes often require jumbo loans of $1.5-3M+."
                 }
               },
               {
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBroker92653Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Laguna Hills 92653 offers South Orange County living with a <strong>$1.2 million median home price</strong>, ranging from starter condos to Nellie Gail Ranch equestrian estates. With the 2026 conforming limit at $1,149,825, many 92653 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for Laguna Hills&apos; diverse housing stock.
+            Laguna Hills 92653 offers South Orange County living with a <strong>$1.2 million median home price</strong>, ranging from starter condos to Nellie Gail Ranch equestrian estates. With the 2026 conforming limit at $1,209,750, many 92653 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for Laguna Hills&apos; diverse housing stock.
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function WholesaleMortgageBroker92653Page() {
               <tr><td className="py-2 px-4 border-b font-semibold">Price Range</td><td className="py-2 px-4 border-b">$500,000 - $5,000,000+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Typical Loan Amount</td><td className="py-2 px-4 border-b">$900,000 - $3,000,000</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Days on Market</td><td className="py-2 px-4 border-b">25-45 days</td></tr>
-              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,149,825</td></tr>
+              <tr><td className="py-2 px-4">2026 Conforming Limit</td><td className="py-2 px-4">$1,209,750</td></tr>
             </tbody>
           </table>
         </div>
@@ -209,7 +209,7 @@ export default function WholesaleMortgageBroker92653Page() {
           For homes near the conforming limit:
         </p>
         <ul>
-          <li>Loans up to $1,149,825 with conforming pricing</li>
+          <li>Loans up to $1,209,750 with conforming pricing</li>
           <li>Lower rates than true jumbo</li>
           <li>Down payments from 5%</li>
           <li>Ideal for townhomes and smaller homes</li>
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBroker92653Page() {
         <div className="space-y-6 my-8">
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What is the typical loan amount needed in Laguna Hills 92653?</h3>
-            <p className="mb-0">Laguna Hills 92653 has a median home price of $1.2 million, with many properties near or above the 2026 conforming limit of $1,149,825. Nellie Gail Ranch homes often require jumbo loans of $1.5-3M+.</p>
+            <p className="mb-0">Laguna Hills 92653 has a median home price of $1.2 million, with many properties near or above the 2026 conforming limit of $1,209,750. Nellie Gail Ranch homes often require jumbo loans of $1.5-3M+.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers finance Nellie Gail Ranch properties?</h3>
