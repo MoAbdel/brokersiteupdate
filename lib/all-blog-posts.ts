@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 20: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 4, 2026) =====
+  {
+    slug: 'arm-to-fixed-refinance-strategy-2026',
+    title: 'ARM to Fixed Rate Refinance: When to Lock In Your Mortgage Rate [2026]',
+    excerpt: 'When to convert an adjustable-rate mortgage to a fixed rate. ARM reset mechanics, SOFR vs Prime indexes, break-even analysis, and wholesale broker advantage in finding fixed-rate pricing.',
+    date: '2026-03-04',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'no-closing-cost-refinance-guide-2026',
+    title: 'No-Closing-Cost Refinance: How Lender Credits Work and When They Save Money [2026]',
+    excerpt: 'How lender credits eliminate refinance closing costs in exchange for a slightly higher rate. Break-even analysis, hold period scenarios, and wholesale broker lender credit comparison.',
+    date: '2026-03-04',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'jumbo-loan-refinance-california-2026',
+    title: 'Jumbo Loan Refinance California: Requirements, Rates & Strategy [2026]',
+    excerpt: 'Jumbo loan refinance requirements in California: credit score, reserves, LTV limits. Agency jumbo vs portfolio jumbo, ARM-to-fixed conversion, and wholesale broker access to jumbo lenders.',
+    date: '2026-03-04',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-payment-shock-repayment-strategy-2026',
+    title: 'HELOC Payment Shock: Repayment Strategies When Your Draw Period Ends [2026]',
+    excerpt: 'What happens when your HELOC draw period ends and payments jump from interest-only to full P&I. Five strategies to manage payment shock including refinance, HELOAN conversion, and lender negotiation.',
+    date: '2026-03-04',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-medical-expenses-financing-2026',
+    title: 'Using Home Equity for Medical Expenses: HELOC, HELOAN & Cash-Out Refinance Options [2026]',
+    excerpt: 'How to use home equity to pay medical bills: HELOC for ongoing costs, HELOAN for known large expenses, cash-out refinance to consolidate. Tax considerations and seniors 62+ HECM option.',
+    date: '2026-03-04',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-medicaid-planning-2026',
+    title: 'Reverse Mortgage and Medicaid: How HECM Proceeds Affect Eligibility [2026]',
+    excerpt: 'How HECM reverse mortgage proceeds affect Medicaid eligibility. Loan advances are not income but unspent proceeds count as assets. Spend-down strategies, Medi-Cal, and Apple Health rules.',
+    date: '2026-03-04',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'hecm-trust-ownership-requirements-2026',
+    title: 'HECM and Trust Ownership: Reverse Mortgage Requirements for Trust-Held Property [2026]',
+    excerpt: 'Reverse mortgage requirements for trust-owned property. Revocable living trusts are generally acceptable for HECM; irrevocable trusts are not. Trust review process, documentation, and lender differences.',
+    date: '2026-03-04',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-closing-process-timeline-2026',
+    title: 'Reverse Mortgage Closing Process: Step-by-Step HECM Timeline From Application to Funding [2026]',
+    excerpt: 'Complete step-by-step HECM closing timeline: consultation, HUD counseling, application, appraisal, underwriting, closing, rescission, and funding. Typically 30-45 days total.',
+    date: '2026-03-04',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-section-8-housing-voucher-rental-2026',
+    title: 'DSCR Loans for Section 8 Rentals: Housing Voucher Property Investment [2026]',
+    excerpt: 'How DSCR lenders treat Section 8 Housing Choice Voucher income for investment property financing. Lender policies, HQS inspection requirements, and wholesale broker advantage.',
+    date: '2026-03-04',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-build-to-rent-new-construction-2026',
+    title: 'DSCR Build-to-Rent Loans: New Construction Investment Property Financing [2026]',
+    excerpt: 'Build-to-rent financing with DSCR loans: two-phase construction-to-perm, single-close options, projected rent DSCR calculation, and wholesale broker access to specialized BTR lenders.',
+    date: '2026-03-04',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 19: 3 HECM + 3 Equity + 2 Wholesale + 2 DSCR (Mar 3, 2026) =====
   {
     slug: 'reverse-mortgage-standby-line-of-credit-strategy-2026',
