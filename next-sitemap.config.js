@@ -131,6 +131,7 @@ const STRATEGIC_BLOG_ALLOWLIST = new Set([
   '/blog/reverse-mortgage-payout-options-2026',
   '/blog/reverse-mortgage-myths-debunked-2026',
   '/blog/reverse-mortgage-inheritance-heirs-2026',
+  '/blog/reverse-mortgage-social-security-medicare-2026',
   '/blog/wholesale-vs-retail-mortgage-brokers-2026',
   '/blog/wholesale-vs-retail-mortgage-complete-2026',
   '/blog/wholesale-mortgage-broker-orange-county-2026',
@@ -152,11 +153,16 @@ const THIN_OVERLAP_ROUTE_PATTERNS = [
 ];
 
 function isLowEquityBlogRoute(routePath) {
-  if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(routePath))) {
+  const normalizedRoutePath = normalizeRoutePath(routePath);
+
+  if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(normalizedRoutePath))) {
     return true;
   }
 
-  return PROGRAMMATIC_FAMILY_PATTERN.test(routePath) && !STRATEGIC_BLOG_ALLOWLIST.has(routePath);
+  return (
+    PROGRAMMATIC_FAMILY_PATTERN.test(normalizedRoutePath) &&
+    !STRATEGIC_BLOG_ALLOWLIST.has(normalizedRoutePath)
+  );
 }
 
 function isThinOverlapRoute(routePath) {
@@ -509,6 +515,7 @@ module.exports = {
       '/blog/home-equity-washington-guide-2026',
       '/blog/reverse-mortgage-california-guide-2026',
       '/blog/reverse-mortgage-washington-guide-2026',
+      '/blog/reverse-mortgage-social-security-medicare-2026',
       '/blog/wholesale-mortgage-broker-california-2026',
       '/blog/wholesale-mortgage-broker-washington-2026',
       '/blog/mission-viejo-mortgage-guide-2026',
