@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 21: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 5, 2026) =====
+  {
+    slug: 'assumable-mortgage-loan-assumption-guide-2026',
+    title: 'Assumable Mortgage Loans: VA & FHA Loan Assumption Guide [2026]',
+    excerpt: 'Complete guide to assuming VA and FHA mortgages. How loan assumption works, eligibility requirements, assumption fees vs refinance costs, and wholesale broker advantage in navigating assumption transactions.',
+    date: '2026-03-05',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'mortgage-recasting-vs-refinancing-2026',
+    title: 'Mortgage Recasting vs Refinancing: Which Strategy Saves More Money [2026]',
+    excerpt: 'Mortgage recasting vs refinancing comparison. How re-amortization works, minimum lump sum requirements, recast fees vs refinance closing costs, and when each strategy saves more money.',
+    date: '2026-03-05',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-after-forbearance-guide-2026',
+    title: 'Refinance After Forbearance: Requirements, Timeline & Mortgage Options [2026]',
+    excerpt: 'Refinance after forbearance guide covering waiting periods by loan type, credit rebuilding timeline, FHA Streamline and VA IRRRL options, and non-QM alternatives for recent forbearance borrowers.',
+    date: '2026-03-05',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'remove-pmi-without-refinancing-2026',
+    title: 'Remove PMI Without Refinancing: Reappraisal, Automatic Cancellation & Lender Petition [2026]',
+    excerpt: 'How to remove private mortgage insurance without refinancing. Homeowners Protection Act rules, reappraisal-based PMI removal, lender petition process, and when refinancing is the better option.',
+    date: '2026-03-05',
+    category: 'Home Equity',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'heloc-down-payment-investment-property-2026',
+    title: 'Using a HELOC for Investment Property Down Payment: Strategy & Requirements [2026]',
+    excerpt: 'How to use a HELOC on your primary residence to fund an investment property down payment. Seasoning requirements, DTI considerations, HELOC plus DSCR loan strategies, and wholesale broker structuring.',
+    date: '2026-03-05',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'hecm-principal-limit-factors-2026',
+    title: 'HECM Principal Limit Factors: How Age, Rates & Home Value Determine Your Reverse Mortgage Payout [2026]',
+    excerpt: 'How HECM principal limit is calculated using borrower age, expected interest rate, and home value. PLF tables, mandatory obligations, net principal limit, and FHA lending limit explained.',
+    date: '2026-03-05',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-appraisal-process-2026',
+    title: 'Reverse Mortgage Appraisal Process: FHA Requirements & What to Expect [2026]',
+    excerpt: 'Complete guide to HECM reverse mortgage appraisal process. FHA Roster appraiser requirements, minimum property standards, repair conditions, second appraisal triggers, and appraisal costs.',
+    date: '2026-03-05',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-scam-prevention-2026',
+    title: 'Reverse Mortgage Scam Prevention: Protecting Seniors From HECM Fraud [2026]',
+    excerpt: 'How to protect seniors from reverse mortgage scams and HECM fraud. Common scam types, red flags, NMLS verification, HUD counseling protections, and reporting resources from FBI, CFPB, and FTC.',
+    date: '2026-03-05',
+    category: 'Reverse Mortgage',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'dscr-delayed-financing-cash-purchase-2026',
+    title: 'DSCR Delayed Financing: Buy Cash Then Refinance Investment Property [2026]',
+    excerpt: 'DSCR delayed financing strategy for investors. Buy investment property with cash then immediately refinance with a DSCR loan. No seasoning advantage, LTV limits, and documentation requirements.',
+    date: '2026-03-05',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-student-housing-college-town-2026',
+    title: 'DSCR Loans for Student Housing: College Town Rental Investment Guide [2026]',
+    excerpt: 'DSCR loans for student housing investments near California and Washington universities. Per-bedroom income calculations, lease structures, property types, and college town rental fundamentals.',
+    date: '2026-03-05',
+    category: 'DSCR',
+    readTime: '13 min read',
+  },
   // ===== BATCH 20: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 4, 2026) =====
   {
     slug: 'arm-to-fixed-refinance-strategy-2026',
