@@ -844,7 +844,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
             Every retirement portfolio and home equity situation is unique. I will analyze your home value, available equity, investment portfolio size, withdrawal rate, and risk tolerance to determine whether a standby HECM line of credit strategy makes financial sense for your retirement plan. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

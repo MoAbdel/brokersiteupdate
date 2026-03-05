@@ -151,7 +151,7 @@ export default function HomeEquitySouthSoundGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'South Sound home equity specialist providing HELOC, HELOAN, and cash-out refinance solutions for Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom homeowners.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -409,7 +409,7 @@ export default function HomeEquitySouthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Wholesale Rate Note:</strong> Equity product rates and terms vary by lender, credit profile, property type, and loan-to-value ratio. Figures shown reflect February 2026 wholesale market conditions. Contact Mo Abdel at (949) 822-9662 for personalized rate quotes based on your specific South Sound property and financial profile.
+            <strong>Wholesale Rate Note:</strong> Equity product rates and terms vary by lender, credit profile, property type, and loan-to-value ratio. Figures shown reflect February 2026 wholesale market conditions. Contact Mo Abdel at (949) 579-2057 for personalized rate quotes based on your specific South Sound property and financial profile.
           </p>
         </div>
 
@@ -666,14 +666,14 @@ export default function HomeEquitySouthSoundGuide2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From HELOC rate shopping across 200+ lenders to coordinating specialized appraisals for waterfront and equestrian properties, Mo handles every aspect of the equity access process.
           </p>
           <p className="text-slate-900 mb-0">
-            <strong>Ready to access your South Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation equity analysis with wholesale rate comparison for your specific property.
+            <strong>Ready to access your South Sound home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation equity analysis with wholesale rate comparison for your specific property.
           </p>
         </div>
 
         {/* Disclaimer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific rates or terms. Home equity products (HELOC, HELOAN, cash-out refinance) involve borrowing against your home and carry the risk of foreclosure if payments are not made. Rates, terms, and CLTV limits vary by lender, credit profile, property type, and market conditions. Figures reflect February 2026 wholesale market conditions and are subject to change. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized equity analysis.
+            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific rates or terms. Home equity products (HELOC, HELOAN, cash-out refinance) involve borrowing against your home and carry the risk of foreclosure if payments are not made. Rates, terms, and CLTV limits vary by lender, credit profile, property type, and market conditions. Figures reflect February 2026 wholesale market conditions and are subject to change. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized equity analysis.
           </p>
         </div>
       </section>

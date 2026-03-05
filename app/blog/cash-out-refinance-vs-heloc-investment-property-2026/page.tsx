@@ -807,7 +807,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
                   Get Your Investment Property Equity Analysis
                 </a>
                 <p className="text-gray-600 mt-3">
-                  Call Mo Abdel: <a href="tel:+19498229662" className="text-blue-600 font-semibold">(949) 822-9662</a>
+                  Call Mo Abdel: <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a>
                 </p>
               </div>
             </div>

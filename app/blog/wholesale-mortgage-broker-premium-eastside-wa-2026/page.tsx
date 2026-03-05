@@ -182,7 +182,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
             name: 'Mo Abdel - Premium Eastside WA Wholesale Mortgage Broker',
             description: 'Wholesale mortgage broker serving Premium Seattle Eastside. Jumbo loans, RSU income programs, bank statement loans, and DSCR investor financing across Mercer Island, Newcastle, Woodinville, Kirkland, and Redmond. NMLS #1426884.',
             url: 'https://www.mothebroker.com',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             areaServed: [
               {
@@ -887,7 +887,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
 
             <div className="bg-blue-50 p-6 rounded-lg my-6">
               <p className="font-semibold text-lg">Contact Mo Abdel today for a no-obligation consultation:</p>
-              <p className="text-lg">(949) 822-9662</p>
+              <p className="text-lg">(949) 579-2057</p>
               <p>NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
               <p className="text-sm mt-2">Licensed in California and Washington</p>
             </div>

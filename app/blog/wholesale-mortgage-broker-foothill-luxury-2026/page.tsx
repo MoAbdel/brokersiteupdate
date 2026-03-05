@@ -166,7 +166,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
     name: 'Mo The Broker - Foothill Luxury Wholesale Mortgage',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-foothill-luxury-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'San Marino' },
       { '@type': 'City', name: 'La Canada Flintridge' },
@@ -798,7 +798,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
               The financial impact is significant. On a $2.5 million jumbo loan, even a 0.25% rate advantage through wholesale channels saves $62,500 over a 10-year hold period. The qualification impact is even greater: borrowers declined by retail banks&mdash;due to trust complexity, self-employment documentation, or international income&mdash;routinely qualify through wholesale programs designed for their exact profiles.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for a confidential mortgage analysis specific to your San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, or Arcadia purchase. I will compare programs across multiple wholesale lenders to identify the best rates, terms, and qualification strategy for your unique income profile, property type, and ownership structure.
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for a confidential mortgage analysis specific to your San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, or Arcadia purchase. I will compare programs across multiple wholesale lenders to identify the best rates, terms, and qualification strategy for your unique income profile, property type, and ownership structure.
             </p>
           </div>
 

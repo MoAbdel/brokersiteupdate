@@ -269,7 +269,7 @@ export default function MortgageRecastingVsRefinancingPage() {
             Get a free side-by-side comparison of recasting vs refinancing based on your specific loan terms and lump sum amount.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Analysis</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Analysis</Link>
           </p>
         </div>
 
@@ -538,7 +538,7 @@ export default function MortgageRecastingVsRefinancingPage() {
             I will calculate exact payment savings for both strategies using your current loan terms, lump sum amount, and today&apos;s refinance rates from 200+ lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -830,7 +830,7 @@ export default function MortgageRecastingVsRefinancingPage() {
             Tell me your current loan details&mdash;balance, rate, remaining term, and lump sum amount&mdash;and I will calculate both strategies side by side using refinance rates from 200+ lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

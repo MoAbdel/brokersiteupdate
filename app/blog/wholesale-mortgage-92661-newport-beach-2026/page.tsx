@@ -102,7 +102,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
               "addressLocality": "Newport Beach",
               "addressRegion": "CA"
             },
-            "telephone": "(949) 822-9662"
+            "telephone": "(949) 579-2057"
           })
         }}
       />
@@ -283,7 +283,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
           </p>
           <p className="text-sm text-gray-700 mt-2">
             Newport Beach 92661 Jumbo & Investment Specialist<br />
-            (949) 822-9662
+            (949) 579-2057
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

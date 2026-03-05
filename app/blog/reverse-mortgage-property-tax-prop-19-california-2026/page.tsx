@@ -672,11 +672,11 @@ export default function ReverseMortgageProp19California2026() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:9498229662"
+                href="tel:9495792057"
                 className="inline-flex items-center gap-2 bg-emerald-700 text-white px-6 py-3 rounded-lg hover:bg-emerald-800 transition-colors font-semibold"
               >
                 <Phone className="w-5 h-5" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </a>
               <Link
                 href="/blog/reverse-mortgage-calculator-2026"

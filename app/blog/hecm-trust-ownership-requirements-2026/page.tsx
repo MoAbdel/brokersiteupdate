@@ -300,7 +300,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
             I will review your trust structure and determine HECM eligibility before you invest time in the application process.
           </p>
           <p className="text-green-900 font-bold text-xl mb-1">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | Free consultation</p>
         </div>
@@ -624,7 +624,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
             I match your trust type to the lender best equipped to handle it&mdash;saving weeks of review time and avoiding unnecessary trust modifications.
           </p>
           <p className="text-green-900 font-bold text-xl mb-1">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 200+ wholesale lenders</p>
         </div>
@@ -769,7 +769,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
             Send me your trust certification or abstract and I will determine HECM eligibility before you invest time in the full application. I will match your trust structure to the lender in my 200+ wholesale network best equipped to handle it&mdash;saving you weeks of review time and avoiding unnecessary costs.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

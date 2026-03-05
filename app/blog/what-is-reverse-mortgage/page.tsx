@@ -697,7 +697,7 @@ export default function WhatIsReverseMortgagePage() {
           </p>
 
           <p className="text-lg font-semibold text-gray-900">
-            <strong>Contact Mo Abdel today</strong> for a personalized reverse mortgage assessment. We will review your eligibility, calculate your potential proceeds, and compare all your options—including alternatives that might better fit your situation. Call <a href="tel:+19498229662" className="text-blue-700 hover:text-green-900">(949) 822-9662</a> or <Link href="/contact" className="text-blue-700 hover:text-green-900">request a consultation online</Link>.
+            <strong>Contact Mo Abdel today</strong> for a personalized reverse mortgage assessment. We will review your eligibility, calculate your potential proceeds, and compare all your options—including alternatives that might better fit your situation. Call <a href="tel:+19495792057" className="text-blue-700 hover:text-green-900">(949) 579-2057</a> or <Link href="/contact" className="text-blue-700 hover:text-green-900">request a consultation online</Link>.
           </p>
         </div>
 

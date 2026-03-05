@@ -180,7 +180,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending, Inc.",
     "description": "Wholesale mortgage broker serving the San Gabriel Valley and Pasadena with 200+ lender access for purchase, refinance, jumbo, and specialty loan programs.",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "url": "https://www.mothebroker.com",
     "areaServed": [
       "San Gabriel Valley", "Pasadena", "San Marino", "Arcadia",
@@ -704,7 +704,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             A retail bank offers one set of products at one set of rates. A wholesale mortgage broker accesses 200+ lenders, each with distinct programs, rates, and underwriting guidelines. For a Caltech professor with consulting income, that means finding the lender who qualifies all income streams. For an Arcadia business owner, it means bank statement programs that calculate income from cash flow rather than tax returns. For a physician at Huntington Hospital, it means physician loan programs with student loan exclusions and employment contract qualification.
           </p>
           <p className="text-gray-800 mb-0">
-            Whether you are purchasing your first home in La Crescenta, upgrading to a San Marino estate, refinancing a Pasadena Craftsman, or acquiring investment property in Glendale, the wholesale channel provides more options, better pricing, and faster execution than any single retail lender. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a free consultation and wholesale rate comparison tailored to your San Gabriel Valley mortgage needs.
+            Whether you are purchasing your first home in La Crescenta, upgrading to a San Marino estate, refinancing a Pasadena Craftsman, or acquiring investment property in Glendale, the wholesale channel provides more options, better pricing, and faster execution than any single retail lender. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a free consultation and wholesale rate comparison tailored to your San Gabriel Valley mortgage needs.
           </p>
         </div>
 
@@ -715,7 +715,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             Purchase, refinance, jumbo, bank statement &amp; specialty programs for San Marino, La Ca&ntilde;ada Flintridge, Pasadena, Arcadia, South Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
+            <a href="tel:9495792057" className="text-white hover:text-slate-200">(949) 579-2057</a>
           </p>
           <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
@@ -727,7 +727,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
             Licensed in: California, Washington<br />
-            Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a>
+            Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Rates, terms, and programs are subject to change without notice. Wholesale broker compensation is disclosed on your Loan Estimate. Not all borrowers will qualify for all programs. Bank statement loans and non-QM products may carry higher rates than full documentation loans. This material is for informational purposes and does not constitute a loan commitment or guarantee. Not available in all states. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600">nmlsconsumeraccess.org</a>.

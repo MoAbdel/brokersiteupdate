@@ -180,7 +180,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending, Inc.",
     "description": "Licensed mortgage broker serving the San Gabriel Valley and Pasadena with reverse mortgage, HECM, and home equity products.",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "url": "https://www.mothebroker.com",
     "areaServed": [
       "San Gabriel Valley", "Pasadena", "San Marino", "Arcadia",
@@ -692,7 +692,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
             For homes valued above $1,209,750, proprietary reverse mortgage programs unlock equity far beyond what the standard HECM provides. For homes at or near the HECM limit, the FHA-insured product delivers government-backed protections including line of credit growth and guaranteed non-recourse terms. In either case, working with a wholesale broker who compares programs from multiple lenders ensures SGV seniors access the most competitive terms available in 2026.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in the San Gabriel Valley and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
+            If you own a home in the San Gabriel Valley and are considering a reverse mortgage, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your property, your goals, and the reverse mortgage programs best suited to your situation.
           </p>
         </div>
 
@@ -703,7 +703,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
             Serving San Marino, La Ca&ntilde;ada Flintridge, Pasadena, Arcadia, South Pasadena, Sierra Madre, Glendale, Montrose &amp; La Crescenta
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
+            <a href="tel:9495792057" className="text-white hover:text-slate-200">(949) 579-2057</a>
           </p>
           <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
@@ -715,7 +715,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
             Licensed in: California, Washington<br />
-            Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a>
+            Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Reverse mortgage borrowers must be 62 or older and occupy the home as their primary residence. HUD-approved counseling is required for HECM products. Borrowers must maintain property taxes, homeowner&apos;s insurance, and home maintenance. This material is not from HUD or FHA and is not approved by any government agency. Information is for educational purposes only and does not constitute a loan commitment. Program terms, rates, and availability are subject to change without notice. Not available in all states. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600">nmlsconsumeraccess.org</a>.

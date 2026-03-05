@@ -214,7 +214,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California mortgage broker specializing in home equity products after bankruptcy including HELOC, HELOAN, cash-out refinance, and non-QM lending through wholesale channels.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$",
     "areaServed": [
       { "@type": "State", "name": "California" },
@@ -425,7 +425,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">Broker Experience Note</p>
-            <p className="text-gray-700">In 2025 and early 2026, Mo Abdel has structured non-QM home equity solutions for California homeowners within months of bankruptcy discharge. Common scenarios include accessing equity for urgent home repairs, consolidating post-bankruptcy debt at a lower combined cost, and funding business recovery after Chapter 7 liquidation. Each case requires matching the borrower&apos;s specific profile to the right wholesale lender&apos;s program guidelines. Contact Mo at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> to discuss your post-bankruptcy equity options.</p>
+            <p className="text-gray-700">In 2025 and early 2026, Mo Abdel has structured non-QM home equity solutions for California homeowners within months of bankruptcy discharge. Common scenarios include accessing equity for urgent home repairs, consolidating post-bankruptcy debt at a lower combined cost, and funding business recovery after Chapter 7 liquidation. Each case requires matching the borrower&apos;s specific profile to the right wholesale lender&apos;s program guidelines. Contact Mo at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> to discuss your post-bankruptcy equity options.</p>
           </div>
 
           <h2 id="california-specific" className="text-2xl font-bold text-gray-900">California-Specific Considerations for Home Equity After Bankruptcy</h2>
@@ -661,7 +661,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
               The wholesale broker advantage is the critical factor. Banks and credit unions follow conventional guidelines exclusively, leaving post-bankruptcy borrowers waiting years for equity access. Through Lumin Lending&apos;s network of 200+ wholesale lenders, Mo Abdel matches post-bankruptcy borrowers with non-QM programs tailored to their specific equity position, credit profile, and income documentation. Each case is unique, and the right lender match makes the difference between waiting years and accessing equity now.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore your home equity options after bankruptcy? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> or <a href="/contact" className="text-blue-600 font-bold hover:underline">schedule a confidential consultation</a> to review your discharge documents, equity position, and available programs. Every conversation is private and judgment-free.
+              Ready to explore your home equity options after bankruptcy? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> or <a href="/contact" className="text-blue-600 font-bold hover:underline">schedule a confidential consultation</a> to review your discharge documents, equity position, and available programs. Every conversation is private and judgment-free.
             </p>
           </div>
 
@@ -670,7 +670,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is for informational purposes only and is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Bankruptcy recovery lending involves additional qualification requirements. Home equity products use your home as collateral; failure to make payments may result in loss of your home. Non-QM programs have different terms and pricing than conventional products. This guide is educational and does not constitute legal advice regarding bankruptcy. Consult a qualified bankruptcy attorney for legal questions. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

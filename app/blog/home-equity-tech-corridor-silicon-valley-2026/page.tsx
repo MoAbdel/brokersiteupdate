@@ -150,7 +150,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker serving Silicon Valley Tech Corridor with HELOC, home equity loan, and cash-out refinance solutions.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'City', name: 'Mountain View, California' },
               { '@type': 'City', name: 'Sunnyvale, California' },
@@ -853,7 +853,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
               Whether you are a Google engineer in Cuesta Park considering an ADU, a dual-income LinkedIn couple in Cherry Chase consolidating debt, a first-generation homeowner in Cambrian funding college tuition, or a Campbell condo owner leveraging equity into a single-family upgrade, the right equity product at the right rate from the right lender changes the financial outcome.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to 200+ lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a confidential consultation. As a wholesale broker with access to 200+ lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 
@@ -877,7 +877,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
               <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
             </p>
             <p className="text-sm text-gray-700 mb-2">
-              Phone: <a href="tel:9498229662">(949) 822-9662</a> | Licensed in: California, Washington
+              Phone: <a href="tel:9495792057">(949) 579-2057</a> | Licensed in: California, Washington
             </p>
             <p className="text-xs text-gray-600 mb-2">
               Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms or rates. HELOC, HELOAN, and cash-out refinance products have varying qualification requirements and terms. Your actual rate, payment, and costs could be higher. Not all applicants will be approved. Property appraisal required. Contact a licensed mortgage professional for personalized guidance specific to your financial situation.

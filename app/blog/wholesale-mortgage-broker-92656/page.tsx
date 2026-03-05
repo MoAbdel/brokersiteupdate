@@ -129,7 +129,7 @@ export default function WholesaleMortgageBroker92656Page() {
             "name": "Mo The Broker - Aliso Viejo",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Aliso Viejo",

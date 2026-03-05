@@ -109,7 +109,7 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
           name: 'Mo Abdel',
           jobTitle: 'Senior Mortgage Advisor',
           description: 'NMLS #1426884 — Specializing in home equity solutions for Washington homeowners',
-          telephone: '+1-949-822-9662',
+          telephone: '+1-949-579-2057',
           url: 'https://www.mothebroker.com'
         },
         publisher: {
@@ -786,7 +786,7 @@ export default function HomeEquityNorthSoundIslandsWA2026() {
               <p className="text-lg font-bold text-gray-900 mb-2">Ready to Access Your North Sound Home Equity?</p>
               <p className="text-gray-700 mb-3">Call Mo Abdel for a personalized equity consultation tailored to your property and goals.</p>
               <p className="text-2xl font-bold text-blue-700 mb-2">
-                <a href="tel:+19498229662" className="hover:underline">(949) 822-9662</a>
+                <a href="tel:+19495792057" className="hover:underline">(949) 579-2057</a>
               </p>
               <p className="text-sm text-gray-600">Mo Abdel | NMLS #1426884 | Lumin Lending | NMLS #2716106</p>
             </div>

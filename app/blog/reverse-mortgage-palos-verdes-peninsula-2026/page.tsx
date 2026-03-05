@@ -133,7 +133,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Reverse mortgage specialist serving Palos Verdes Peninsula seniors with HECM and proprietary jumbo programs',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -745,7 +745,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
               As a wholesale mortgage broker, I compare FHA HECM and proprietary reverse mortgage programs from multiple lenders to find the optimal solution for your specific property, age, and financial goals. Every consultation includes transparent comparison of program options, estimated proceeds, costs, and heir implications&mdash;because an informed decision is the right decision.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a confidential reverse mortgage consultation:</p>
-            <p className="text-lg mb-1"><a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="text-lg mb-1"><a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

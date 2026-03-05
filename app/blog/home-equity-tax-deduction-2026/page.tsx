@@ -779,7 +779,7 @@ export default function HomeEquityTaxDeductionPage() {
             I help homeowners understand their home equity options—whether that is a HELOC, home equity loan, or cash-out refinance. I walk every client through the available products and always recommend connecting with a CPA or tax attorney to confirm the tax treatment for your specific situation.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

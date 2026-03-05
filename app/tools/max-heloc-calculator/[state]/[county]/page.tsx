@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum HELOC line in ${county.name}, ${stateName}. 2026 conforming limit: ${formatCurrency(county.conformingLoanLimit)}. Median home value: ${formatCurrency(county.medianHomePrice)}. Instant CLTV analysis at 80%, 85%, 90%.`,
     path: `/tools/max-heloc-calculator/${state}/${countySlug}`,
     type: 'website',
+    noindex: true,
   });
 }
 
@@ -72,7 +73,7 @@ export default async function CountyHelocPage({ params }: Props) {
     },
     {
       question: `Are HELOC rates variable in ${county.name}?`,
-      answer: `Yes, most HELOCs carry variable rates tied to the Prime rate. As of 2026, HELOC rates in ${county.name} typically range from Prime minus 0.5% to Prime plus 2%, depending on your credit score, CLTV, and loan amount. Some lenders offer fixed-rate draw options. Contact Mo Abdel at (949) 822-9662 for current HELOC rate quotes.`,
+      answer: `Yes, most HELOCs carry variable rates tied to the Prime rate. As of 2026, HELOC rates in ${county.name} typically range from Prime minus 0.5% to Prime plus 2%, depending on your credit score, CLTV, and loan amount. Some lenders offer fixed-rate draw options. Contact Mo Abdel at (949) 579-2057 for current HELOC rate quotes.`,
     },
   ];
 

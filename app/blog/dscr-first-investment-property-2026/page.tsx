@@ -208,10 +208,10 @@ export default function DSCRFirstInvestmentProperty2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -870,10 +870,10 @@ export default function DSCRFirstInvestmentProperty2026() {
                 Get DSCR Pre-Qualified Free
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

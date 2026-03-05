@@ -662,7 +662,7 @@ export default function HowDoesHELOCWorkPage() {
               Contact Mo Abdel today to receive a personalized HELOC assessment, including rate quotes from multiple lenders and analysis of how a HELOC fits your financial goals.
             </p>
             <p className="text-blue-800 font-semibold">
-              Call: (949) 822-9662 | Email: mabdel@luminlending.com
+              Call: (949) 579-2057 | Email: mabdel@luminlending.com
             </p>
             <a href="/contact" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors mt-4">
               Request Your Free Quote

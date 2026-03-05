@@ -15,6 +15,20 @@ load_dotenv('.env.local')
 SITE_URL = "https://www.mothebroker.com"
 BING_API_KEY = os.getenv('BING_WEBMASTER_API_KEY')
 
+
+def format_bing_date(date_value):
+    if not date_value:
+        return 'Never'
+
+    if '/Date(' not in str(date_value):
+        return str(date_value)
+
+    try:
+        ts = int(str(date_value).replace('/Date(', '').replace(')/', '').split('-')[0].split('+')[0])
+        return datetime.fromtimestamp(ts / 1000).strftime('%Y-%m-%d')
+    except Exception:
+        return str(date_value)
+
 async def main():
     if not BING_API_KEY:
         print("[ERROR] BING_WEBMASTER_API_KEY not found in .env.local")
@@ -35,7 +49,7 @@ async def main():
         print("SITE VERIFICATION STATUS")
         print("-" * 70)
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetSites?apikey={BING_API_KEY}"
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetUserSites?apikey={BING_API_KEY}"
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.json()
@@ -152,7 +166,7 @@ async def main():
         print("TOP PAGES BY TRAFFIC")
         print("-" * 70)
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetPageTraffic?siteUrl={encoded_site}&apikey={BING_API_KEY}"
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?siteUrl={encoded_site}&apikey={BING_API_KEY}"
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.json()
@@ -161,7 +175,7 @@ async def main():
                         print(f"{'#':<3} {'Page':<45} {'Clicks':<8} {'Impr':<8}")
                         print("-" * 64)
                         for i, page in enumerate(pages[:20], 1):
-                            page_url = page.get('Url', 'Unknown').replace(SITE_URL, '')[:44]
+                            page_url = page.get('Query', 'Unknown').replace(SITE_URL, '')[:44]
                             clicks = page.get('Clicks', 0)
                             impressions = page.get('Impressions', 0)
                             print(f"{i:<3} {page_url:<45} {clicks:<8} {impressions:<8}")
@@ -228,23 +242,22 @@ async def main():
         print("SITEMAP STATUS")
         print("-" * 70)
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetSitemaps?siteUrl={encoded_site}&apikey={BING_API_KEY}"
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetFeeds?siteUrl={encoded_site}&apikey={BING_API_KEY}"
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.json()
-                    sitemaps = data.get('d', [])
-                    if sitemaps:
-                        for sm in sitemaps:
-                            print(f"\nSitemap: {sm.get('Url', 'Unknown')}")
-                            print(f"  Status:           {sm.get('Status', 'Unknown')}")
-                            print(f"  Last Submitted:   {sm.get('LastSubmitted', 'Never')}")
-                            print(f"  Last Crawled:     {sm.get('LastCrawled', 'Never')}")
-                            print(f"  URLs Submitted:   {sm.get('UrlCount', 0)}")
-                            print(f"  URLs in Index:    {sm.get('InIndex', 0)}")
-                            print(f"  Errors:           {sm.get('Errors', 0)}")
-                            print(f"  Warnings:         {sm.get('Warnings', 0)}")
+                    feeds = data.get('d', [])
+                    if feeds:
+                        for feed in feeds:
+                            print(f"\nFeed: {feed.get('Url', 'Unknown')}")
+                            print(f"  Type:             {feed.get('Type', 'Unknown')}")
+                            print(f"  Status:           {feed.get('Status', 'Unknown')}")
+                            print(f"  Submitted:        {format_bing_date(feed.get('Submitted'))}")
+                            print(f"  Last Crawled:     {format_bing_date(feed.get('LastCrawled'))}")
+                            print(f"  URLs Submitted:   {feed.get('UrlCount', 0)}")
+                            print(f"  File Size:        {feed.get('FileSize', 0)} bytes")
                     else:
-                        print("No sitemaps found! You should submit your sitemap.")
+                        print("No feeds found! You should submit your sitemap.")
                         print(f"Submit: {SITE_URL}/sitemap.xml")
                 else:
                     print(f"[ERROR] Status {response.status}")

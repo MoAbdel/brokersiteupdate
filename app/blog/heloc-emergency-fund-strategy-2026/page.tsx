@@ -702,9 +702,9 @@ export default function HelocEmergencyFundStrategyPage() {
             Mo Abdel at Lumin Lending compares HELOC products across 200+ lender partners to find the best rate, credit limit, and terms for your emergency fund strategy. Get pre-approved while your finances are strong—so the safety net is ready when you need it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:9498229662" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">
+            <a href="tel:9495792057" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5 mr-2" />
-              (949) 822-9662
+              (949) 579-2057
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-400 transition-colors">
               Request HELOC Consultation <ArrowRight className="w-5 h-5 ml-2" />

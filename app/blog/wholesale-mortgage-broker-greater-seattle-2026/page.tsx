@@ -149,7 +149,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Greater Seattle wholesale mortgage broker with 200+ lender access serving King County homebuyers and homeowners.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -402,7 +402,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Industry Experience Note:</strong> These programs reflect actual wholesale lender offerings available through Mo Abdel&apos;s broker network as of February 2026. Rates and program availability change frequently; contact Mo at (949) 822-9662 for current pricing on your specific scenario.
+            <strong>Industry Experience Note:</strong> These programs reflect actual wholesale lender offerings available through Mo Abdel&apos;s broker network as of February 2026. Rates and program availability change frequently; contact Mo at (949) 579-2057 for current pricing on your specific scenario.
           </p>
         </div>
 
@@ -509,7 +509,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Broker&apos;s Note:</strong> Bank statement loan programs change frequently across wholesale lenders. Mo Abdel maintains relationships with 25+ bank statement lenders to ensure clients always access the most competitive current programs. Call (949) 822-9662 for today&apos;s bank statement program options.
+            <strong>Broker&apos;s Note:</strong> Bank statement loan programs change frequently across wholesale lenders. Mo Abdel maintains relationships with 25+ bank statement lenders to ensure clients always access the most competitive current programs. Call (949) 579-2057 for today&apos;s bank statement program options.
           </p>
         </div>
 
@@ -720,7 +720,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Transparency Commitment:</strong> Every FAQ answer reflects actual wholesale lending guidelines available through Mo Abdel&apos;s broker network. Programs, rates, and guidelines change frequently. Contact Mo at (949) 822-9662 or mo@mothebroker.com for current program details specific to your situation.
+            <strong>Transparency Commitment:</strong> Every FAQ answer reflects actual wholesale lending guidelines available through Mo Abdel&apos;s broker network. Programs, rates, and guidelines change frequently. Contact Mo at (949) 579-2057 or mo@mothebroker.com for current program details specific to your situation.
           </p>
         </div>
 
@@ -739,14 +739,14 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides direct wholesale lender access through <strong>Lumin Lending (NMLS #2716106)</strong> for Greater Seattle homebuyers and homeowners. With Washington and California licensing and relationships with 200+ wholesale lenders, Mo delivers the rate competition, program diversity, and underwriting expertise that King County buyers need to compete and win.
           </p>
           <p className="text-slate-900 mb-0">
-            <strong>Ready to access wholesale mortgage rates for your Greater Seattle purchase?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1-2 business days.
+            <strong>Ready to access wholesale mortgage rates for your Greater Seattle purchase?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1-2 business days.
           </p>
         </div>
 
         {/* Disclaimer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for informational purposes only and does not constitute a loan commitment or guarantee of rates. All mortgage programs are subject to underwriting approval, credit qualification, and program availability. Rates and terms are subject to change without notice. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Opportunity. Contact Mo at (949) 822-9662 for current program details and personalized rate quotes.
+            <strong>Disclaimer:</strong> This content is for informational purposes only and does not constitute a loan commitment or guarantee of rates. All mortgage programs are subject to underwriting approval, credit qualification, and program availability. Rates and terms are subject to change without notice. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Opportunity. Contact Mo at (949) 579-2057 for current program details and personalized rate quotes.
           </p>
         </div>
       </section>

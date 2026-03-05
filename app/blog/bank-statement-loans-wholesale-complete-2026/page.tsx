@@ -799,10 +799,10 @@ export default function BankStatementLoansWholesaleCompletePage() {
                 Get Your Bank Statement Loan Quote
               </a>
               <a
-                href="tel:+19498229662"
+                href="tel:+19495792057"
                 className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors text-center"
               >
-                Call (949) 822-9662
+                Call (949) 579-2057
               </a>
             </div>
           </div>

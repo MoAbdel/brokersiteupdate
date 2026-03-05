@@ -138,7 +138,7 @@ export default function HomeEquityArcadiaCAPage() {
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed mortgage broker serving Arcadia, CA homeowners with HELOC, home equity loans, and cash-out refinance options.",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Orange County",
@@ -762,7 +762,7 @@ export default function HomeEquityArcadiaCAPage() {
         </p>
         <p>
           <strong>Contact Mo Abdel today:</strong><br />
-          Phone: <a href="tel:9498229662">(949) 822-9662</a><br />
+          Phone: <a href="tel:9495792057">(949) 579-2057</a><br />
           NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106
         </p>
 

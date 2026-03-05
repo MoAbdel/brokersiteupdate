@@ -168,7 +168,7 @@ export default function HomeEquityPremiumEastBaySF() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Home equity specialist serving San Francisco and Premium East Bay with jumbo HELOC, cash-out, and HELOAN products',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'San Francisco', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -879,7 +879,7 @@ export default function HomeEquityPremiumEastBaySF() {
               San Francisco and Premium East Bay homeowners hold extraordinary equity&mdash;$400,000 to $2 million or more&mdash;that can fund renovations, consolidate debt, finance investments, cover education costs, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the optimal product for your situation. Whether you own a Pacific Heights brownstone, a Piedmont Hills estate, a Sleepy Hollow ranch in Orinda, a Happy Valley home in Lafayette, or a Sanders Ranch property in Moraga, I deliver competitive equity access terms that single-bank products cannot match. From TIC-specific HELOC programs in San Francisco to trust-vested jumbo HELOCs in Lamorinda, wholesale channels solve the property-type and income-complexity challenges that define this corridor.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

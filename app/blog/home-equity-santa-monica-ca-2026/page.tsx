@@ -151,7 +151,7 @@ export default function HomeEquitySantaMonicaPage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
             "description": "Licensed mortgage broker serving Santa Monica and Los Angeles County homeowners with home equity solutions including HELOC, home equity loans, and cash-out refinance.",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Orange County",
@@ -811,7 +811,7 @@ export default function HomeEquitySantaMonicaPage() {
         </p>
         <p>
           <strong>Contact Mo Abdel:</strong><br />
-          Phone: <a href="tel:+19498229662">(949) 822-9662</a><br />
+          Phone: <a href="tel:+19495792057">(949) 579-2057</a><br />
           NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106
         </p>
 

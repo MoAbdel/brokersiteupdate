@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum cash-out refinance for any of ${counties.length} ${stateName} counties. Uses 2026 FHFA conforming loan limits, county median home values, and multi-tier LTV analysis.`,
     path: `/tools/cash-out-limit-calculator/${state}`,
     type: 'website',
+    noindex: true,
   });
 }
 
@@ -107,7 +108,7 @@ export default async function StatePage({ params }: Props) {
           <p>
             2026 FHFA conforming loan limits effective January 1, 2026.
             For a personalized cash-out refinance quote, call Mo Abdel at{' '}
-            <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>.
+            <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>.
             NMLS #1426884 | Lumin Lending NMLS #2716106.
           </p>
         </div>

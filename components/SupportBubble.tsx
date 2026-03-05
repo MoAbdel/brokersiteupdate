@@ -3,13 +3,18 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Send, Phone, User, Mail, FileText, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 export default function SupportBubble() {
   const [isOpen, setIsOpen] = useState(false);
   const [hasNotification, setHasNotification] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [termsConsent, setTermsConsent] = useState(false);
 
   // Form state
   const [formData, setFormData] = useState({
@@ -49,6 +54,7 @@ export default function SupportBubble() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMessage(null);
 
     try {
       // Use the same API endpoint as contact form
@@ -59,6 +65,7 @@ export default function SupportBubble() {
       formData_submit.append('additional_info', formData.message);
       formData_submit.append('_subject', `Support Request - ${formData.firstName} ${formData.lastName}`);
       formData_submit.append('source', 'Support Bubble');
+      appendTermsConsentToFormData(formData_submit);
 
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -77,11 +84,22 @@ export default function SupportBubble() {
           phone: '',
           message: ''
         });
+        setTermsConsent(false);
       } else {
-        throw new Error('Failed to submit');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Unable to send your message right now. Please try again.'
+          )
+        );
       }
     } catch (error) {
       console.error('Support form error:', error);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Unable to send your message right now. Please try again.'
+      );
     } finally {
       setIsSubmitting(false);
     }
@@ -380,12 +398,12 @@ export default function SupportBubble() {
                       </motion.div>
 
                       <motion.div variants={itemVariants}>
-                        <label className="flex items-start gap-2 text-xs text-slate-500">
-                          <input type="checkbox" required className="mt-1 shrink-0" />
-                          <span>
-                            By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-                          </span>
-                        </label>
+                        <InquiryTermsConsent
+                          checked={termsConsent}
+                          onCheckedChange={setTermsConsent}
+                          className="mt-0"
+                          copyClassName="text-xs text-slate-500"
+                        />
                       </motion.div>
 
                       <motion.div
@@ -394,7 +412,7 @@ export default function SupportBubble() {
                       >
                         <Button
                           type="submit"
-                          disabled={isSubmitting}
+                          disabled={isSubmitting || !termsConsent}
                           className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold py-4 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-300 hover:shadow-slate-900/30 hover:-translate-y-0.5"
                         >
                           <span className="flex items-center justify-center gap-2">
@@ -412,6 +430,12 @@ export default function SupportBubble() {
                           </span>
                         </Button>
                       </motion.div>
+
+                      {errorMessage && (
+                        <motion.p variants={itemVariants} className="text-sm text-red-600">
+                          {errorMessage}
+                        </motion.p>
+                      )}
                     </motion.form>
                   )}
                 </AnimatePresence>
@@ -421,8 +445,8 @@ export default function SupportBubble() {
               <div className="bg-slate-50/80 backdrop-blur-sm p-4 text-center border-t border-slate-100">
                 <p className="text-xs text-slate-500 flex items-center justify-center gap-1">
                   Or call us directly at
-                  <a href="tel:9498229662" className="text-slate-700 font-bold hover:underline hover:text-slate-900">
-                    (949) 822-9662
+                  <a href="tel:9495792057" className="text-slate-700 font-bold hover:underline hover:text-slate-900">
+                    (949) 579-2057
                   </a>
                 </p>
                 <p className="text-xs text-slate-400 mt-2">

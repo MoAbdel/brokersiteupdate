@@ -114,7 +114,7 @@ export default function ReverseMortgagePacificPalisades() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Wholesale mortgage broker specializing in reverse mortgages for Pacific Palisades and Los Angeles County seniors',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: {
       '@type': 'City',
       name: 'Pacific Palisades',
@@ -590,7 +590,7 @@ export default function ReverseMortgagePacificPalisades() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel for a confidential Pacific Palisades consultation:</p>
-            <p className="text-lg">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="text-lg">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California &amp; Washington | Serving Pacific Palisades and Los Angeles County</p>
           </div>

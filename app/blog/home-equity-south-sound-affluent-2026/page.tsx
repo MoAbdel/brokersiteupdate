@@ -46,7 +46,7 @@ export default function HomEquitySouthSoundAffluentPage() {
           name: 'Mo Abdel',
           jobTitle: 'Senior Mortgage Advisor',
           description: 'NMLS #1426884 &mdash; Specializing in home equity solutions for Washington homeowners',
-          telephone: '+1-949-822-9662',
+          telephone: '+1-949-579-2057',
           url: 'https://www.mothebroker.com'
         },
         publisher: {
@@ -179,7 +179,7 @@ export default function HomEquitySouthSoundAffluentPage() {
         name: 'Lumin Lending',
         image: 'https://www.mothebroker.com/logo.png',
         url: 'https://www.mothebroker.com',
-        telephone: '+1-949-822-9662',
+        telephone: '+1-949-579-2057',
         email: 'mo@mothebroker.com',
         address: {
           '@type': 'PostalAddress',
@@ -1251,7 +1251,7 @@ export default function HomEquitySouthSoundAffluentPage() {
             <p className="text-gray-800 leading-relaxed mb-4">
               <strong>Mo Abdel, Senior Mortgage Advisor</strong><br />
               NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443<br />
-              Direct: <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a><br />
+              Direct: <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a><br />
               Email: <a href="mailto:mo@mothebroker.com" className="text-blue-600 hover:underline">mo@mothebroker.com</a>
             </p>
             <p className="text-sm text-gray-600">
@@ -1322,7 +1322,7 @@ export default function HomEquitySouthSoundAffluentPage() {
             Lumin Lending NMLS #2716106. Mo Abdel NMLS #1426884, DRE #02291443. Licensed in California and Washington. Equal Housing Lender. All loans subject to credit approval and property appraisal. Rates quoted assume excellent credit (740+ FICO), strong income documentation, and standard property characteristics.
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            This is not a commitment to lend. All information presented is subject to change. For current rates and personalized guidance, contact Mo Abdel directly at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> or <a href="mailto:mo@mothebroker.com" className="text-blue-600 hover:underline">mo@mothebroker.com</a>.
+            This is not a commitment to lend. All information presented is subject to change. For current rates and personalized guidance, contact Mo Abdel directly at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <a href="mailto:mo@mothebroker.com" className="text-blue-600 hover:underline">mo@mothebroker.com</a>.
           </p>
         </section>
       </article>

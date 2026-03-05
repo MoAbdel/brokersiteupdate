@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92692Page() {
             "name": "Mo The Broker - Mission Viejo",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92692",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Mission Viejo",

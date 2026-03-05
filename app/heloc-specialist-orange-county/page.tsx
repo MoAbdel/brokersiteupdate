@@ -46,9 +46,9 @@ export default function HELOCSpecialistOrangeCounty() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </a>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -296,9 +296,9 @@ export default function HELOCSpecialistOrangeCounty() {
                 Start Digital HELOC Application
               </Button>
             </a>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="ghost" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

@@ -297,7 +297,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
             I will walk you through every step and send you a detailed preparation checklist so you arrive at application fully prepared.
           </p>
           <p className="text-green-900 font-bold text-xl mb-1">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | Free consultation</p>
         </div>
@@ -660,7 +660,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
             I route every HECM file to the lender with the fastest underwriting turntime for your specific situation. Well-prepared borrowers in my pipeline consistently close in 30&ndash;35 days.
           </p>
           <p className="text-green-900 font-bold text-xl mb-1">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 200+ wholesale lenders</p>
         </div>
@@ -805,7 +805,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
             I will guide you through every stage of the closing process, send you a detailed preparation checklist, and route your file to the lender in my 200+ wholesale network that offers the fastest closing timeline for your specific situation. Most well-prepared borrowers in my pipeline close in 30&ndash;35 days.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

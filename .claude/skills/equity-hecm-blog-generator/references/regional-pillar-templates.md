@@ -204,7 +204,7 @@ As a wholesale mortgage broker licensed in California and Washington, Mo Abdel p
 
 **Contact Mo Abdel today** for a free, personalized reverse mortgage assessment.
 
-(949) 822-9662 | mo@mothebroker.com
+(949) 579-2057 | mo@mothebroker.com
 </div>
 
 ---

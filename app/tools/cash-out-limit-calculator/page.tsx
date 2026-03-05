@@ -82,7 +82,7 @@ export default function CashOutLimitCalculatorIndex() {
           <p className="text-sm text-slate-500">
             Data sourced from 2026 FHFA conforming loan limits and county assessor records.
             Contact Mo Abdel at{' '}
-            <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>{' '}
+            <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>{' '}
             for personalized analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
           </p>
         </div>

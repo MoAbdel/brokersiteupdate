@@ -245,8 +245,8 @@ export default function CashOutAduCalculatorPage() {
 
           <p className="text-center text-slate-500 text-sm mt-8">
             Have questions about ADU financing? Call Mo at{' '}
-            <a href="tel:9498229662" className="text-blue-700 hover:underline font-medium">
-              (949) 822-9662
+            <a href="tel:9495792057" className="text-blue-700 hover:underline font-medium">
+              (949) 579-2057
             </a>{' '}
             &middot; NMLS #1426884 &middot; Lumin Lending NMLS #2716106
           </p>

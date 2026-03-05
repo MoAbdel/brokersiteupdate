@@ -4,7 +4,10 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Shield } from 'lucide-react';
 
 import { Button } from '@/components/ui/Button';
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { fbTrack } from '@/components/FacebookPixel';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 type FieldType = 'text' | 'email' | 'tel' | 'select' | 'textarea';
 
@@ -40,7 +43,9 @@ export function LeadMagnetForm(props: {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
   const [sourceUrl, setSourceUrl] = useState<string>('');
+  const [termsConsent, setTermsConsent] = useState(false);
 
   useEffect(() => {
     try {
@@ -58,6 +63,7 @@ export function LeadMagnetForm(props: {
     e.preventDefault();
     setIsSubmitting(true);
     setShowError(false);
+    setErrorMessage('');
 
     try {
       const fd = new FormData();
@@ -91,6 +97,7 @@ export function LeadMagnetForm(props: {
       );
 
       fd.append('_subject', subject);
+      appendTermsConsentToFormData(fd);
 
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -99,7 +106,9 @@ export function LeadMagnetForm(props: {
       });
 
       if (!res.ok) {
-        throw new Error('Failed to submit');
+        throw new Error(
+          await getResponseErrorMessage(res, 'Failed to submit your request. Please try again.')
+        );
       }
 
       // Safe tracking call
@@ -116,8 +125,12 @@ export function LeadMagnetForm(props: {
 
       setShowSuccess(true);
       setData(initialState);
+      setTermsConsent(false);
     } catch (err) {
       console.error(err);
+      setErrorMessage(
+        err instanceof Error ? err.message : 'Failed to submit your request. Please try again.'
+      );
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     } finally {
@@ -152,7 +165,7 @@ export function LeadMagnetForm(props: {
       {showError && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
           <p className="text-red-700 text-sm">
-            Something went wrong. Please try again or call (949) 822-9662.
+            {errorMessage || 'Something went wrong. Please try again or call (949) 579-2057.'}
           </p>
         </div>
       )}
@@ -265,9 +278,11 @@ export function LeadMagnetForm(props: {
           );
         })}
 
+        <InquiryTermsConsent checked={termsConsent} onCheckedChange={setTermsConsent} />
+
         <Button
           type="submit"
-          disabled={isSubmitting}
+          disabled={isSubmitting || !termsConsent}
           className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg"
         >
           {isSubmitting ? 'Submitting...' : 'Send my free summary'}
@@ -280,4 +295,3 @@ export function LeadMagnetForm(props: {
     </div>
   );
 }
-

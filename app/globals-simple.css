@@ -90,6 +90,19 @@ body {
   .safe-bottom-padding {
     padding-bottom: max(env(safe-area-inset-bottom, 0px), 0px);
   }
+
+  @keyframes bounce-subtle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s infinite;
+  }
 }
 
 /* Chatbot & Mobile Sticky Button: neutralize containing blocks that break position: fixed */

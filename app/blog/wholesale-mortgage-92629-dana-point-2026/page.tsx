@@ -95,7 +95,7 @@ export default function WholesaleMortgage92629DanaPointPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Dana Point Wholesale Mortgage Broker",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Dana Point",
@@ -303,7 +303,7 @@ export default function WholesaleMortgage92629DanaPointPage() {
           </p>
           <p className="text-sm text-gray-700 mt-2">
             Dana Point 92629 Wholesale Mortgage Specialist<br />
-            (949) 822-9662
+            (949) 579-2057
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

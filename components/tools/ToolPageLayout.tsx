@@ -126,10 +126,10 @@ export default function ToolPageLayout({
                 Get a Free Quote
               </Link>
               <a
-                href="tel:9498229662"
+                href="tel:9495792057"
                 className="inline-flex items-center justify-center px-6 py-3 border border-white/25 text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
               >
-                Call (949) 822-9662
+                Call (949) 579-2057
               </a>
             </div>
           </CardContent>

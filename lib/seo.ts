@@ -128,7 +128,7 @@ export const siteRootSchema = {
       "additionalType": "https://schema.org/MortgageBroker",
       "description": "Licensed wholesale mortgage broker based in Irvine, CA serving all of California and Washington. Access to 200+ lenders for competitive pricing on purchase, refinance, HELOC, DSCR, and specialty loan programs. NMLS #1426884.",
       "url": SITE_URL,
-      "telephone": `+1-949-822-9662`,
+      "telephone": `+1-949-579-2057`,
       "email": "mo@mothebroker.com",
       "founder": { "@id": PERSON_ID },
       "employee": { "@id": PERSON_ID },

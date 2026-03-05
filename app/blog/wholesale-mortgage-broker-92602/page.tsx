@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92602Page() {
             "name": "Mo The Broker - Irvine Northpark",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Irvine",

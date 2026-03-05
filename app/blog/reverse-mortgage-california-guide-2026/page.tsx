@@ -214,7 +214,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California mortgage broker specializing in reverse mortgages, HECM loans, and senior home equity solutions across California and Washington.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$",
     "areaServed": [
       { "@type": "State", "name": "California" },
@@ -374,7 +374,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">Important Note on HECM Proceeds</p>
-            <p className="text-gray-700">Actual HECM proceeds depend on the borrower&apos;s age, current interest rates, and appraised home value (capped at $1,209,750 for 2026). The &quot;Typical HECM Proceeds&quot; column above estimates proceeds for a 72-year-old borrower with a free-and-clear property. Younger borrowers receive less; older borrowers receive more. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a personalized estimate.</p>
+            <p className="text-gray-700">Actual HECM proceeds depend on the borrower&apos;s age, current interest rates, and appraised home value (capped at $1,209,750 for 2026). The &quot;Typical HECM Proceeds&quot; column above estimates proceeds for a 72-year-old borrower with a free-and-clear property. Younger borrowers receive less; older borrowers receive more. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> for a personalized estimate.</p>
           </div>
 
           {/* HECM Qualification Requirements */}
@@ -678,7 +678,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
               The HECM program&apos;s non-recourse protection, line of credit growth feature, and multiple payout options provide unmatched flexibility. For high-value properties, jumbo proprietary programs extend access beyond FHA limits. In every case, the process begins with education, and the mandatory HUD counseling session ensures every borrower understands their options before making a commitment.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore your California reverse mortgage options? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property and goals.
+              Ready to explore your California reverse mortgage options? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a personalized consultation covering HECM and proprietary programs tailored to your property and goals.
             </p>
           </div>
 
@@ -702,7 +702,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. Reverse mortgage borrowers must maintain the property as their primary residence and stay current on property taxes, insurance, and maintenance. Loan proceeds may affect eligibility for certain government benefits. This is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Consult a HUD-approved reverse mortgage counselor and your financial advisor before proceeding. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

@@ -141,7 +141,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Capitol Hill Seattle',
       description: 'Wholesale mortgage broker serving Capitol Hill homeowners with HELOC, home equity loans, and cash-out refinance. Condo equity and tech worker income specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -151,7 +151,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Queen Anne Seattle',
       description: 'Wholesale mortgage broker serving Queen Anne homeowners with HELOC, home equity loans, and cash-out refinance. Premium urban neighborhood equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -161,7 +161,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Magnolia Seattle',
       description: 'Wholesale mortgage broker serving Magnolia homeowners with HELOC, home equity loans, and cash-out refinance. Bluff property and village community equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -171,7 +171,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Bainbridge Island',
       description: 'Wholesale mortgage broker serving Bainbridge Island homeowners with HELOC, home equity loans, and cash-out refinance. Ferry commuter and island property equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Bainbridge Island', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -770,7 +770,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
 
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
             <p className="text-sm text-gray-600 mb-0">
-              <strong>Market Data Note:</strong> Equity estimates assume typical mortgage balances for Urban Seattle Premium homeowners based on purchase timing and original loan amounts. Individual equity positions vary based on original purchase price, down payment, and mortgage paydown. Contact Mo Abdel at (949) 822-9662 for a personalized equity analysis based on your specific property and mortgage.
+              <strong>Market Data Note:</strong> Equity estimates assume typical mortgage balances for Urban Seattle Premium homeowners based on purchase timing and original loan amounts. Individual equity positions vary based on original purchase price, down payment, and mortgage paydown. Contact Mo Abdel at (949) 579-2057 for a personalized equity analysis based on your specific property and mortgage.
             </p>
           </div>
 
@@ -837,7 +837,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
 
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
             <p className="text-sm text-gray-600 mb-0">
-              <strong>Consumer Guidance:</strong> Every FAQ answer reflects actual wholesale HELOC, HELOAN, and cash-out refinance program guidelines available through Mo Abdel&rsquo;s broker network as of February 2026. Rates, terms, and programs change frequently. Contact Mo at (949) 822-9662 or mo@mothebroker.com for current program availability specific to your Urban Seattle Premium property.
+              <strong>Consumer Guidance:</strong> Every FAQ answer reflects actual wholesale HELOC, HELOAN, and cash-out refinance program guidelines available through Mo Abdel&rsquo;s broker network as of February 2026. Rates, terms, and programs change frequently. Contact Mo at (949) 579-2057 or mo@mothebroker.com for current program availability specific to your Urban Seattle Premium property.
             </p>
           </div>
 
@@ -856,14 +856,14 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for Urban Seattle Premium homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From condo warrantability solutions in Capitol Hill to jumbo HELOC structures for Madison Park waterfront estates, Mo matches your specific property type, income profile, and financial goals to the best available program from 200+ wholesale lenders.
             </p>
             <p className="text-slate-900 mb-0">
-              <strong>Ready to unlock your Urban Seattle Premium home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Urban Seattle Premium homeowners receive funding within 2-4 weeks.
+              <strong>Ready to unlock your Urban Seattle Premium home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Urban Seattle Premium homeowners receive funding within 2-4 weeks.
             </p>
           </div>
 
           {/* ---- CTA ---- */}
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Urban Seattle Premium Home Equity Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Urban Seattle Premium neighborhoods</p>
@@ -909,7 +909,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           {/* ---- Disclaimer ---- */}
           <div className="border-t border-gray-200 pt-6 mt-8">
             <p className="text-xs text-gray-500">
-              <strong>Disclaimer:</strong> This is not a commitment to lend. This content is for informational and educational purposes only and does not constitute financial advice or a guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Washington State has no state income tax as of 2026; tax laws are subject to change. Information is for educational purposes only and does not constitute financial or tax advice. Equity estimates are illustrative and based on market data; actual equity access requires property appraisal and lender approval. Condo warrantability varies by building; individual condo HELOC approval is subject to HOA review. Waterfront and lakefront valuations depend on specific property characteristics and appraiser methodology. RSU qualification requirements vary by lender. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized home equity analysis and current rate quotes.
+              <strong>Disclaimer:</strong> This is not a commitment to lend. This content is for informational and educational purposes only and does not constitute financial advice or a guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Washington State has no state income tax as of 2026; tax laws are subject to change. Information is for educational purposes only and does not constitute financial or tax advice. Equity estimates are illustrative and based on market data; actual equity access requires property appraisal and lender approval. Condo warrantability varies by building; individual condo HELOC approval is subject to HOA review. Waterfront and lakefront valuations depend on specific property characteristics and appraiser methodology. RSU qualification requirements vary by lender. Mo Abdel NMLS #1426884. Lumin Lending NMLS #2716106, DRE #02291443. Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized home equity analysis and current rate quotes.
             </p>
           </div>
 

@@ -788,7 +788,7 @@ export default function ReverseMortgageVsAnnuityPage() {
             Every retirement income situation is unique. I will analyze your home equity, liquid assets, income needs, and long-term goals to determine whether a HECM reverse mortgage, an annuity, or a combination of both is the right strategy for your retirement. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

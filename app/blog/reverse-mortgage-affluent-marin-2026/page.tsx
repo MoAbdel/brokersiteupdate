@@ -152,7 +152,7 @@ export default function ReverseMortgageAffluentMarin2026() {
         name: 'How do I get started with a reverse mortgage in affluent Marin?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 822-9662 for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage balance, and financial objectives to determine whether a standard HECM or jumbo reverse mortgage is the optimal solution. The initial consultation is free with no obligation. HUD-approved counseling is required before any HECM application.',
+          text: 'Call (949) 579-2057 for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage balance, and financial objectives to determine whether a standard HECM or jumbo reverse mortgage is the optimal solution. The initial consultation is free with no obligation. HUD-approved counseling is required before any HECM application.',
         },
       },
     ],
@@ -164,7 +164,7 @@ export default function ReverseMortgageAffluentMarin2026() {
     name: 'Mo The Broker - Affluent Marin Reverse Mortgage',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-affluent-marin-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Sausalito' },
       { '@type': 'City', name: 'Corte Madera' },
@@ -815,7 +815,7 @@ export default function ReverseMortgageAffluentMarin2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Does Mo the Broker handle both HECM and jumbo reverse mortgages?</h3>
-              <p>Yes. As a wholesale broker through Lumin Lending (NMLS #2716106), I access both FHA-insured HECM products from multiple lenders and proprietary jumbo reverse mortgage products. This ensures affluent Marin homeowners receive the product comparison they need to make an informed decision. Call <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a> for a complimentary consultation.</p>
+              <p>Yes. As a wholesale broker through Lumin Lending (NMLS #2716106), I access both FHA-insured HECM products from multiple lenders and proprietary jumbo reverse mortgage products. This ensures affluent Marin homeowners receive the product comparison they need to make an informed decision. Call <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a> for a complimentary consultation.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -846,7 +846,7 @@ export default function ReverseMortgageAffluentMarin2026() {
               The HECM line of credit growth feature, the non-recourse protection guaranteeing you never owe more than your home&apos;s value, and the flexibility of multiple payout options make reverse mortgages a strategic financial instrument &mdash; not a last resort. Wholesale access through Lumin Lending (NMLS #2716106) ensures you compare HECM and jumbo reverse options from multiple lenders to secure the most competitive terms available.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to explore your reverse mortgage options in affluent Marin?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage, and retirement objectives to determine whether standard HECM or jumbo reverse is the optimal path &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              <strong>Ready to explore your reverse mortgage options in affluent Marin?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage, and retirement objectives to determine whether standard HECM or jumbo reverse is the optimal path &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

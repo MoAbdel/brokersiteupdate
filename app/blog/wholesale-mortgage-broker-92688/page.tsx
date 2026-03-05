@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92688Page() {
             "name": "Mo The Broker - Rancho Santa Margarita",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Rancho Santa Margarita",

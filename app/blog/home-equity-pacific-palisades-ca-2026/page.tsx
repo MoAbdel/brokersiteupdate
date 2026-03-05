@@ -175,7 +175,7 @@ export default function HomeEquityPacificPalisadesPage() {
             "description": "Wholesale mortgage broker serving Pacific Palisades homeowners with jumbo HELOC, HELOAN, and cash-out refinance products for ultra-luxury properties.",
             "@id": "https://www.mothebroker.com",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "priceRange": "$$$",
             "areaServed": {
               "@type": "City",
@@ -655,7 +655,7 @@ export default function HomeEquityPacificPalisadesPage() {
             As a wholesale mortgage broker specializing in jumbo and super-jumbo equity products, I connect Pacific Palisades homeowners with lenders who understand ultra-luxury real estate financing. With access to 200+ lenders, including private banks and portfolio lenders that serve the $4-15 million market, I find competitive pricing that retail channels cannot match.
           </p>
           <p className="text-blue-800 mb-4">
-            Contact Mo Abdel at <a href="tel:9498229662" className="font-semibold text-blue-900 hover:underline">(949) 822-9662</a> to discuss your Pacific Palisades home equity options and receive personalized guidance on the best approach for your situation.
+            Contact Mo Abdel at <a href="tel:9495792057" className="font-semibold text-blue-900 hover:underline">(949) 579-2057</a> to discuss your Pacific Palisades home equity options and receive personalized guidance on the best approach for your situation.
           </p>
           <a
             href="/contact-orange-county-mortgage-broker"

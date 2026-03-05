@@ -105,7 +105,7 @@ export default function ReverseMortgageSantaMonicaPage() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Wholesale mortgage broker specializing in reverse mortgages, HECM loans, and jumbo reverse mortgages for Santa Monica and Los Angeles County seniors.',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     email: 'mabdel@luminlending.com',
     areaServed: [
       { '@type': 'City', name: 'Santa Monica', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -654,7 +654,7 @@ export default function ReverseMortgageSantaMonicaPage() {
           </ul>
 
           <p className="text-lg font-semibold">
-            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 579-2057 | mabdel@luminlending.com
           </p>
 
           {/* Related Resources */}

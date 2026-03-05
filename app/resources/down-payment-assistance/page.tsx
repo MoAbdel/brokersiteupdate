@@ -703,14 +703,14 @@ export default function DownPaymentAssistancePage() {
                     Request the PDF
                   </Button>
                 </Link>
-                <a href="tel:+19498229662">
+                <a href="tel:+19495792057">
                   <Button
                     size="lg"
                     variant="ghost"
                     className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 822-9662
+                    Call (949) 579-2057
                   </Button>
                 </a>
               </div>
@@ -736,14 +736,14 @@ export default function DownPaymentAssistancePage() {
                 Get Free Consultation
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button
                 size="lg"
                 variant="ghost"
                 className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

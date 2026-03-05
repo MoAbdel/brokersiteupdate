@@ -154,7 +154,7 @@ export default function HomeEquityWashingtonGuide() {
     name: 'Mo The Broker - Washington State',
     '@id': 'https://www.mothebroker.com/blog/home-equity-washington-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'State', name: 'Washington' },
       { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -760,7 +760,7 @@ export default function HomeEquityWashingtonGuide() {
               The key differentiator is working with a broker who shops the wholesale market rather than a single retail bank. With access to over 200 lenders, I compare rates, terms, closing costs, and underwriting flexibility to find the optimal match for each client&apos;s situation. This is especially critical for Washington&apos;s tech workers whose complex compensation structures require lenders with specialized underwriting capabilities.
             </p>
             <p className="mb-0">
-              <em>Your home equity is one of your most powerful financial assets. My role is to help you access it at the best possible terms while preserving the favorable mortgage rate you already have. Whether you are exploring options or ready to move forward, call me directly at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a personalized analysis of your Washington home equity options.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
+              <em>Your home equity is one of your most powerful financial assets. My role is to help you access it at the best possible terms while preserving the favorable mortgage rate you already have. Whether you are exploring options or ready to move forward, call me directly at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a personalized analysis of your Washington home equity options.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
             </p>
           </div>
 

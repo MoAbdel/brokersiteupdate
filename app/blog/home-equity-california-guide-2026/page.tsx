@@ -213,7 +213,7 @@ export default function HomeEquityCaliforniaGuide2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California mortgage broker specializing in home equity products including HELOC, HELOAN, cash-out refinance, and jumbo equity access across California and Washington.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$",
     "areaServed": [
       { "@type": "State", "name": "California" },
@@ -329,7 +329,7 @@ export default function HomeEquityCaliforniaGuide2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">Rate Preservation Strategy</p>
-            <p className="text-gray-700">In our California closings, roughly 70% of homeowners seeking equity access choose a HELOC or HELOAN specifically to preserve their existing first mortgage rate secured between 2019 and 2022. Replacing a sub-4% first mortgage with a cash-out refinance at current rates significantly increases total monthly housing costs. A second-lien product avoids this penalty. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a rate preservation analysis on your property.</p>
+            <p className="text-gray-700">In our California closings, roughly 70% of homeowners seeking equity access choose a HELOC or HELOAN specifically to preserve their existing first mortgage rate secured between 2019 and 2022. Replacing a sub-4% first mortgage with a cash-out refinance at current rates significantly increases total monthly housing costs. A second-lien product avoids this penalty. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> for a rate preservation analysis on your property.</p>
           </div>
 
           {/* 13 Regions Table */}
@@ -661,7 +661,7 @@ export default function HomeEquityCaliforniaGuide2026() {
               As a wholesale mortgage broker, Mo Abdel accesses over 200 lender partners offering competitive HELOC, HELOAN, and cash-out refinance programs. This includes jumbo equity programs for high-value properties, bank statement programs for self-employed borrowers, and investment property HELOCs for real estate investors.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore your California home equity options? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a complimentary equity analysis covering HELOC, HELOAN, and cash-out refinance scenarios tailored to your property and financial goals.
+              Ready to explore your California home equity options? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary equity analysis covering HELOC, HELOAN, and cash-out refinance scenarios tailored to your property and financial goals.
             </p>
           </div>
 
@@ -670,7 +670,7 @@ export default function HomeEquityCaliforniaGuide2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is for informational purposes only and is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Home equity products use your home as collateral; failure to make payments may result in loss of your home. HELOC rates are variable and subject to change. Tax deductibility of interest depends on how funds are used; consult a qualified tax advisor. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

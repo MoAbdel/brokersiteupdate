@@ -168,7 +168,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Wholesale mortgage broker serving Coastal North San Diego with 200+ lender access',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Del Mar', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -826,7 +826,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
               Coastal North San Diego&apos;s luxury real estate market demands wholesale broker access. Whether you&apos;re purchasing an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a Cedros-area property in Solana Beach, or a surf-lifestyle home in Encinitas, wholesale access to 200+ lenders delivers better rates, specialized programs, and faster closings than any single bank can offer.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free rate quote:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

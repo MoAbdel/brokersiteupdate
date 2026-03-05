@@ -47,7 +47,7 @@ export default function TermsOfServicePage() {
               <h3 className="text-lg font-semibold text-blue-800 mb-2">Service Agreement</h3>
               <p className="text-blue-700">
                 By using our services, you agree to these terms. We are committed to transparent, professional mortgage services.
-                Questions? Contact us at <strong>(949) 822-9662</strong>.
+                Questions? Contact us at <strong>(949) 579-2057</strong>.
               </p>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 822-9662</span>
+                  <span>Phone: (949) 579-2057</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />

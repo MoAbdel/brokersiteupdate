@@ -69,7 +69,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
     name: 'Mo The Broker - South Orange County',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-south-orange-county-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Dana Point' },
       { '@type': 'City', name: 'Laguna Beach' },
@@ -378,7 +378,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             <p className="font-semibold">Contact Mo Abdel today for a free rate quote:</p>
             <p className="text-lg inline-flex items-center gap-2">
               <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
-              <span>(949) 822-9662</span>
+              <span>(949) 579-2057</span>
             </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>

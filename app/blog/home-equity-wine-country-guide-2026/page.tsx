@@ -149,7 +149,7 @@ export default function HomeEquityWineCountryGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker providing home equity solutions including HELOC, HELOAN, and cash-out refinance across Wine Country in Napa and Sonoma counties.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Napa County, California' },
               { '@type': 'County', name: 'Sonoma County, California' },
@@ -649,7 +649,7 @@ export default function HomeEquityWineCountryGuide2026() {
             Vineyard properties, hospitality income, and the jumbo nature of most Wine Country equity products make lender selection critical. Rate and term differences between lenders on a $750,000 HELOC total thousands of dollars annually &mdash; savings that compound dramatically over the life of the product. A wholesale broker navigates these complexities to deliver the best available terms.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Wine Country home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Wine Country property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Wine Country home equity options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 50+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Wine Country property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 
@@ -672,7 +672,7 @@ export default function HomeEquityWineCountryGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Phone: <a href="tel:9498229662">(949) 822-9662</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
+            Phone: <a href="tel:9495792057">(949) 579-2057</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
           </p>
           <p className="text-xs text-gray-600 mb-2">
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify. Home equity products carry the risk of foreclosure if payments are not made. Consult a financial advisor before using home equity to ensure alignment with your financial goals.

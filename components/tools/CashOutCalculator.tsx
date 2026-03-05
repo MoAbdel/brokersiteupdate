@@ -221,7 +221,7 @@ export default function CashOutCalculator({
           Calculations are estimates for educational purposes only. Actual loan amounts depend on
           credit score, DTI ratio, property appraisal, and lender guidelines. Conforming loan limit
           for {countyName} is {formatCurrency(conformingLoanLimit)} (2026 FHFA). Contact Mo Abdel at
-          (949) 822-9662 for a personalized analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
+          (949) 579-2057 for a personalized analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
         </p>
       </div>
     </div>

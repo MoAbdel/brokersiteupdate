@@ -135,7 +135,7 @@ export default function HomeEquitySacramentoAffluent2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'El Dorado Hills', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -786,7 +786,7 @@ export default function HomeEquitySacramentoAffluent2026() {
               Intel engineers with RSU vesting, UC Davis professors with sabbatical adjustments, Granite Bay equestrian property owners with complex valuations, state government professionals with CalPERS overtime, and Bay Area remote workers with total compensation packages all require lenders experienced with their specific income and property types. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer, compensation structure, and property characteristics.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Sacramento affluent community property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Sacramento affluent community property. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
             </p>
           </div>
 
@@ -797,7 +797,7 @@ export default function HomeEquitySacramentoAffluent2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Sacramento Affluent Home Equity Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Sacramento affluent communities</p>

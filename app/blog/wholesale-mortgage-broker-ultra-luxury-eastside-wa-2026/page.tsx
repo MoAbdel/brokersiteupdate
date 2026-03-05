@@ -156,7 +156,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
     name: 'Mo Abdel - Wholesale Mortgage Broker',
     description: 'Wholesale mortgage broker serving ultra-luxury Eastside Washington communities including Medina, Hunts Point, Clyde Hill, Yarrow Point, and Beaux Arts Village.',
     url: 'https://www.mothebroker.com',
-    telephone: '+1-949-822-9662',
+    telephone: '+1-949-579-2057',
     priceRange: '$$$$$',
     areaServed: [
       { '@type': 'City', name: 'Medina', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -224,7 +224,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
         <p className="text-gray-600 text-lg">
           By <strong>Mo Abdel</strong>, NMLS #1426884 &middot; Lumin Lending, Inc. NMLS #2716106 &middot; Updated February 14, 2026
         </p>
-        <p className="text-gray-500 mt-1">Licensed in California &amp; Washington &middot; <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a></p>
+        <p className="text-gray-500 mt-1">Licensed in California &amp; Washington &middot; <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a></p>
       </header>
 
           <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-8 not-prose">
@@ -863,10 +863,10 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           </ul>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:+19498229662"
+              href="tel:+19495792057"
               className="inline-block bg-slate-900 text-white px-8 py-4 rounded-lg font-semibold text-center hover:bg-slate-800 transition-colors no-underline"
             >
-              Call (949) 822-9662
+              Call (949) 579-2057
             </a>
             <a
               href="/contact"
@@ -960,7 +960,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
             Mo Abdel, NMLS #1426884, is a licensed mortgage broker operating through Lumin Lending, Inc., NMLS #2716106, DRE #02291443. Licensed in California and Washington. Equal Housing Lender. All loans are subject to credit and property approval.
           </p>
           <p className="mb-0">
-            &copy; 2026 Mo Abdel. All rights reserved. | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> | <a href="https://www.mothebroker.com" className="text-blue-600 hover:underline">mothebroker.com</a>
+            &copy; 2026 Mo Abdel. All rights reserved. | <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> | <a href="https://www.mothebroker.com" className="text-blue-600 hover:underline">mothebroker.com</a>
           </p>
         </div>
 

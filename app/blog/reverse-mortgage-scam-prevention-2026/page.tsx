@@ -274,7 +274,7 @@ export default function ReverseMortgageScamPreventionPage() {
             Verify my credentials at <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">NMLSConsumerAccess.org</a> (NMLS #1426884), then call for a free, no-pressure consultation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -442,7 +442,7 @@ export default function ReverseMortgageScamPreventionPage() {
             I will review any offer you have received and help you verify the legitimacy of the parties involved. Free consultation with a licensed broker (verify at NMLSConsumerAccess.org, #1426884).
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -828,7 +828,7 @@ export default function ReverseMortgageScamPreventionPage() {
             Verify my credentials first at <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline">NMLSConsumerAccess.org</a> (NMLS #1426884), then call for a free, no-pressure consultation. I will explain how HECM works, what to expect, and connect you with a HUD-approved counselor. No obligation.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

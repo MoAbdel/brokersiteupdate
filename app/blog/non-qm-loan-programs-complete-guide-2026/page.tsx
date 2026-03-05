@@ -1048,7 +1048,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
             <p>
               Mo Abdel originates non-QM loans throughout California and Washington through Lumin Lending (NMLS #2716106,
               DRE #02291443). With access to 200+ wholesale lenders including 50+ dedicated non-QM lenders, all seven
-              program types are available for qualified borrowers in both states. Contact Mo at (949) 822-9662 for a
+              program types are available for qualified borrowers in both states. Contact Mo at (949) 579-2057 for a
               personalized non-QM scenario review.
             </p>
           </div>
@@ -1067,7 +1067,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
           </p>
           <p className="mb-0">
             <strong>Ready to explore your non-QM options?</strong> Contact Mo Abdel at{' '}
-            <a href="tel:9498229662" className="font-semibold text-blue-700">(949) 822-9662</a> or
+            <a href="tel:9495792057" className="font-semibold text-blue-700">(949) 579-2057</a> or
             visit the <a href="/contact" className="font-semibold text-blue-700">contact page</a> for
             a confidential scenario review. Mo will match your financial profile to the optimal non-QM program,
             source pricing from 50+ lenders, and structure financing that conventional lenders cannot offer.

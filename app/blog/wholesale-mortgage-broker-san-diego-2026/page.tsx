@@ -201,7 +201,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
             "description": "Wholesale mortgage broker serving San Diego County with 200+ lender access",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "url": "https://www.mothebroker.com",
             "areaServed": [
               { "@type": "City", "name": "Del Mar", "containedInPlace": { "@type": "State", "name": "California" } },
@@ -769,7 +769,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             The three borrower segments that benefit most from wholesale brokerage in San Diego are: biotech professionals with complex stock compensation (who need lenders with flexible income calculation policies), military families seeking VA jumbo products (which are available from a limited subset of wholesale lenders), and self-employed entrepreneurs who qualify through bank statement programs unavailable at traditional banks. Each of these segments is overrepresented in San Diego compared to other California markets.
           </p>
           <p className="text-gray-800 mb-0">
-            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 200+ lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
+            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 200+ lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
           </p>
         </div>
 
@@ -779,7 +779,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Licensed in: California, Washington | Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a>
+            Licensed in: California, Washington | Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mb-0">
             Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of terms. Wholesale mortgage rates and programs are subject to change without notice. Loan amounts, rates, and terms depend on individual borrower qualifications, property type, and lender guidelines. Savings comparisons are general estimates and may vary. NMLS Consumer Access: www.nmlsconsumeraccess.org. Not affiliated with or endorsed by any government agency.

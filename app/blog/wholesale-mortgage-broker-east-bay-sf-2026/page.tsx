@@ -160,7 +160,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
         name: 'How do I get started with a wholesale mortgage broker?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 822-9662 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
+          text: 'Call (949) 579-2057 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
         },
       },
     ],
@@ -172,7 +172,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
     name: 'Mo The Broker - East Bay & San Francisco Wholesale Mortgage',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-east-bay-sf-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'San Francisco' },
       { '@type': 'City', name: 'Piedmont' },
@@ -937,7 +937,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">How do I get started with a wholesale mortgage broker?</h3>
-              <p>Call (949) 822-9662 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
+              <p>Call (949) 579-2057 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
             </div>
           </div>
 
@@ -960,7 +960,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               banks cannot replicate.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary mortgage consultation. I will review your financial profile, identify the best
               lender matches from 200+ wholesale options, and provide a personalized rate comparison -- with
               no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.

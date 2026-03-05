@@ -150,7 +150,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed wholesale mortgage broker serving Silicon Valley Tech Corridor with jumbo loans, purchase, refinance, and tech income qualification.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'City', name: 'Mountain View, California' },
               { '@type': 'City', name: 'Sunnyvale, California' },
@@ -904,7 +904,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
               Every city in this corridor has a distinct borrower profile, property mix, and financing challenge. A wholesale broker navigates all of them with one conversation, one application, and one closing.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your Silicon Valley mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. Whether you are purchasing, refinancing, or accessing equity, I compare programs from 200+ wholesale lenders to find the best fit for your Tech Corridor property and tech compensation profile. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your Silicon Valley mortgage options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a confidential consultation. Whether you are purchasing, refinancing, or accessing equity, I compare programs from 200+ wholesale lenders to find the best fit for your Tech Corridor property and tech compensation profile. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 
@@ -928,7 +928,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
               <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
             </p>
             <p className="text-sm text-gray-700 mb-2">
-              Phone: <a href="tel:9498229662">(949) 822-9662</a> | Licensed in: California, Washington
+              Phone: <a href="tel:9495792057">(949) 579-2057</a> | Licensed in: California, Washington
             </p>
             <p className="text-xs text-gray-600 mb-2">
               Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms or rates. Wholesale mortgage products have varying qualification requirements and terms. Your actual rate, payment, and costs could be higher. Not all applicants will be approved. Rate comparisons are illustrative and based on general market conditions, not a specific rate quote. Contact a licensed mortgage professional for personalized guidance specific to your financial situation.

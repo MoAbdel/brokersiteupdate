@@ -679,9 +679,9 @@ export default function MortgageRateLockGuidePage() {
             Mo Abdel at Lumin Lending compares rate lock terms across 200+ lender partners to find the most competitive pricing for your situation. Whether you need a standard lock, float-down option, or lock-and-shop arrangement, wholesale channel access gives you options that retail banks do not offer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:9498229662" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">
+            <a href="tel:9495792057" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5 mr-2" />
-              (949) 822-9662
+              (949) 579-2057
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-400 transition-colors">
               Request Rate Lock Consultation <ArrowRight className="w-5 h-5 ml-2" />

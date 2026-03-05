@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum cash-out refinance in ${city.name}, ${county.name}, ${stateName}. Median home value: ${formatCurrency(city.medianHomePrice)}. 2026 conforming limit: ${formatCurrency(county.conformingLoanLimit)}. Instant 80/85/90% LTV analysis.`,
     path: `/tools/cash-out-limit-calculator/${state}/${countySlug}/${citySlug}`,
     type: 'website',
+    noindex: true,
   });
 }
 

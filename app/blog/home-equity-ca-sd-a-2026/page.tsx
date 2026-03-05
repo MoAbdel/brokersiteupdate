@@ -135,7 +135,7 @@ export default function HomeEquityCASD_A() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Home equity specialist serving Coastal North San Diego with jumbo HELOC, cash-out refinance, and HELOAN products',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Del Mar', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -898,7 +898,7 @@ export default function HomeEquityCASD_A() {
               &ldquo;Coastal North San Diego homeowners have earned their equity through years of ownership in one of California&apos;s most desirable corridors. My job is to ensure they access that equity at the lowest possible cost, through the right product, from the right lender&mdash;every time.&rdquo; &mdash; Mo Abdel, NMLS #1426884
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
-            <p className="text-lg mb-1"><a href="tel:9498229662" className="text-blue-700 hover:underline">(949) 822-9662</a></p>
+            <p className="text-lg mb-1"><a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington | <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">HUD.gov</a></p>
           </div>

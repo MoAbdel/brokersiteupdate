@@ -247,7 +247,7 @@ function ChatbotUI() {
             }}
           >
             <a
-              href="tel:9498229662"
+              href="tel:9495792057"
               style={{
                 color: '#166534',
                 textDecoration: 'none',
@@ -260,7 +260,7 @@ function ChatbotUI() {
               }}
             >
               <Phone size={16} />
-              Call Mo directly: (949) 822-9662
+              Call Mo directly: (949) 579-2057
             </a>
           </div>
 

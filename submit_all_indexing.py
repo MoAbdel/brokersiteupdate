@@ -140,18 +140,20 @@ async def submit_sitemap_bing():
         print("[ERROR] Bing API key not found")
         return False
 
-    encoded_site = urllib.parse.quote(SITE_URL, safe='')
-    encoded_sitemap = urllib.parse.quote(SITEMAP_URL, safe='')
-
     async with aiohttp.ClientSession() as session:
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitSitemap?siteUrl={encoded_site}&feedUrl={encoded_sitemap}&apikey={BING_API_KEY}"
-            async with session.get(url) as response:
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitFeed?apikey={BING_API_KEY}"
+            async with session.post(
+                url,
+                json={"siteUrl": SITE_URL, "feedUrl": SITEMAP_URL},
+                headers={"Content-Type": "application/json; charset=utf-8"}
+            ) as response:
                 if response.status == 200:
                     print(f"[OK] Sitemap submitted to Bing: {SITEMAP_URL}")
                     return True
                 else:
                     # Try alternative method - just ping the sitemap
+                    encoded_sitemap = urllib.parse.quote(SITEMAP_URL, safe='')
                     ping_url = f"https://www.bing.com/ping?sitemap={encoded_sitemap}"
                     async with session.get(ping_url) as ping_response:
                         if ping_response.status == 200:

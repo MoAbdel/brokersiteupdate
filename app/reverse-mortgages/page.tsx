@@ -771,7 +771,7 @@ export default function ReverseMortgagesPage() {
             <strong>Important Disclosures for Reverse Mortgages:</strong> This material is not from HUD or FHA and has not been approved by HUD or any government agency. Reverse mortgage borrowers must be 62 years of age or older. Borrowers are required to maintain the property, pay property taxes and homeowners insurance, and otherwise comply with loan terms. Failure to do so may result in foreclosure. HUD counseling is required before applying for a HECM. Consult a tax advisor regarding potential tax implications.
           </p>
           <p className="text-sm text-gray-600 mt-4">
-            For questions about reverse mortgages, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> or visit <a href="/contact-orange-county-mortgage-broker" className="text-blue-600 hover:underline">our contact page</a>.
+            For questions about reverse mortgages, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or visit <a href="/contact-orange-county-mortgage-broker" className="text-blue-600 hover:underline">our contact page</a>.
           </p>
         </div>
       </footer>

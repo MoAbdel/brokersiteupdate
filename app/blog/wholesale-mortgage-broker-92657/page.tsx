@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92657Page() {
             "name": "Mo The Broker - Newport Coast",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Newport Coast",

@@ -138,7 +138,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Bellevue',
       description: 'Wholesale mortgage broker serving Bellevue homeowners with HELOC, home equity loans, and cash-out refinance. Tech executive RSU income and jumbo equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Bellevue', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -148,7 +148,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Mercer Island',
       description: 'Wholesale mortgage broker serving Mercer Island homeowners with HELOC, home equity loans, and cash-out refinance. Lakefront estate and super-jumbo equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Mercer Island', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -158,7 +158,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Sammamish',
       description: 'Wholesale mortgage broker serving Sammamish homeowners with HELOC, home equity loans, and cash-out refinance. Plateau community tech family equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Sammamish', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -168,7 +168,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Newcastle',
       description: 'Wholesale mortgage broker serving Newcastle homeowners with HELOC, home equity loans, and cash-out refinance. Emerging luxury and Golf Club community equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Newcastle', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -851,7 +851,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
 
           <div className="bg-white rounded-lg p-4 border border-blue-300">
             <p className="text-gray-800 font-semibold mb-2">Get Your Free Premium Eastside Home Equity Analysis</p>
-            <p className="text-gray-700 mb-3">Call <a href="tel:9498229662" className="text-blue-700 font-bold hover:underline">(949) 822-9662</a> or apply online for a no-obligation equity assessment with specific product recommendations for your property and financial profile.</p>
+            <p className="text-gray-700 mb-3">Call <a href="tel:9495792057" className="text-blue-700 font-bold hover:underline">(949) 579-2057</a> or apply online for a no-obligation equity assessment with specific product recommendations for your property and financial profile.</p>
             <p className="text-sm text-gray-500">Mo Abdel | NMLS #1426884 | Lumin Lending | NMLS #2716106</p>
           </div>
         </section>

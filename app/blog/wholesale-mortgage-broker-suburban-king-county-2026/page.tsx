@@ -95,7 +95,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
     },
     {
       question: 'How do I get started with a wholesale mortgage broker in Suburban King County?',
-      answer: 'Contact Mo Abdel at (949) 822-9662 for a free consultation. We review your financial goals, income profile, and property interests, then provide a personalized pre-approval within 24-48 hours showing your maximum purchasing power and estimated rates from multiple wholesale lenders. There is no cost, no obligation, and no credit impact for the initial consultation.',
+      answer: 'Contact Mo Abdel at (949) 579-2057 for a free consultation. We review your financial goals, income profile, and property interests, then provide a personalized pre-approval within 24-48 hours showing your maximum purchasing power and estimated rates from multiple wholesale lenders. There is no cost, no obligation, and no credit impact for the initial consultation.',
     },
   ];
 
@@ -153,7 +153,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Suburban King County wholesale mortgage broker with 200+ lender access serving Shoreline, Lake Forest Park, Kenmore, and Snoqualmie homebuyers.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -646,7 +646,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
         </div>
 
         <p className="text-sm text-gray-600 italic">
-          Price trends based on publicly available MLS records and county assessor data. Program availability subject to change. Contact Mo at (949) 822-9662 for current program details.
+          Price trends based on publicly available MLS records and county assessor data. Program availability subject to change. Contact Mo at (949) 579-2057 for current program details.
         </p>
 
         {/* ========== PEOPLE ALSO ASK ========== */}
@@ -725,7 +725,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
 
         <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
           <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Suburban King County Wholesale Mortgage Broker</p>
-          <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+          <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
           <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
           <p className="text-sm mt-2">Licensed in California and Washington | Serving Shoreline, Lake Forest Park, Kenmore &amp; Snoqualmie</p>
           <p className="text-sm">200+ wholesale lender access | Renovation, new construction &amp; family lending specialists</p>

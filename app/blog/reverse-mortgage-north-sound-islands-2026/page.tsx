@@ -136,7 +136,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker serving North Sound and island community seniors with reverse mortgage, HECM, and proprietary jumbo reverse mortgage solutions across Skagit, Whatcom, Island, San Juan, and Kitsap counties.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'City', name: 'Anacortes, Washington' },
               { '@type': 'City', name: 'Bellingham, Washington' },
@@ -864,7 +864,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
               Every consultation begins with a comprehensive review of your home value, island or coastal property characteristics, current financial situation, and retirement goals. I coordinate with appraisers experienced in island and waterfront property valuation and present HECM and proprietary options with transparent comparisons so you make an informed decision with full visibility into costs, payouts, and long-term projections. No pressure, no obligation &mdash; just clear information from a licensed specialist who understands the unique challenges and opportunities of North Sound and island reverse mortgages.
             </p>
             <p className="mb-2">
-              <strong>Call <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a></strong> for a confidential reverse mortgage consultation.
+              <strong>Call <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a></strong> for a confidential reverse mortgage consultation.
             </p>
           </div>
 
@@ -887,7 +887,7 @@ export default function ReverseMortgageNorthSoundIslands2026() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
             <p className="text-sm text-gray-700">
               <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
-              <br />Licensed in California &amp; Washington | <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a>
+              <br />Licensed in California &amp; Washington | <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a>
             </p>
             <p className="text-xs text-gray-600 mt-2 mb-0">
               Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Information provided is for educational purposes only and does not constitute a loan commitment, rate lock, or guarantee of any specific terms. Loan products, rates, and programs are subject to change without notice. Not all borrowers will qualify. This is not a commitment to lend. Reverse mortgage borrowers must maintain property taxes, homeowner&apos;s insurance, and property maintenance. The growing line of credit feature is available on adjustable-rate HECM products only. Island and waterfront property eligibility depends on primary residence verification, property condition, and appraisal. Washington state has no income tax; property tax obligations continue throughout the loan. NMLS Consumer Access:{' '}

@@ -1,16 +1,18 @@
 'use client';
 
 import React, { useRef } from 'react';
+import Link from 'next/link';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Phone, Mail, MapPin, Clock, Shield, Star, Zap, Users, ArrowUpRight, TrendingUp } from 'lucide-react';
 import PremiumContactForm from '@/components/contact/PremiumContactForm';
+import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 
 const contactInfo = [
   {
     icon: Phone,
     title: 'Direct Line',
-    value: '(949) 822-9662',
-    action: 'tel:(949) 822-9662',
+    value: '(949) 579-2057',
+    action: 'tel:(949) 579-2057',
     subtext: 'Available 24/7'
   },
   {
@@ -63,7 +65,15 @@ const benefits = [
   }
 ];
 
-export default function ContactPageClient() {
+interface ContactPageClientProps {
+  leadCaptureEnabled: boolean;
+  countryCode: string | null;
+}
+
+export default function ContactPageClient({
+  leadCaptureEnabled,
+  countryCode,
+}: ContactPageClientProps) {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -105,6 +115,40 @@ export default function ContactPageClient() {
           </motion.div>
         </div>
 
+        {!leadCaptureEnabled && (
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
+            className="mb-12 rounded-3xl border border-amber-200 bg-amber-50/90 p-6 text-left shadow-sm"
+          >
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700">
+              U.S. Requests Only
+            </p>
+            <h2 className="mt-3 text-2xl font-bold text-slate-900">
+              Mortgage quotes are currently limited to U.S. properties and borrowers.
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-700">
+              {NON_US_LEAD_CAPTURE_ERROR}
+              {countryCode ? ` Detected country: ${countryCode}.` : ''}
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <Link
+                href="/loan-programs"
+                className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-slate-800"
+              >
+                Browse Loan Programs
+              </Link>
+              <Link
+                href="/tools"
+                className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:border-slate-400 hover:text-slate-900"
+              >
+                Explore Tools
+              </Link>
+            </div>
+          </motion.div>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-32">
           {contactInfo.map((item, index) => (
             <a key={index} href={item.action} target={item.action.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer">
@@ -136,7 +180,7 @@ export default function ContactPageClient() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32">
           <div className="lg:col-span-7 order-2 lg:order-1">
-            <PremiumContactForm />
+            <PremiumContactForm leadCaptureEnabled={leadCaptureEnabled} />
           </div>
 
           <div className="lg:col-span-5 order-1 lg:order-2 flex flex-col justify-center">

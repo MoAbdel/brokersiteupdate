@@ -766,7 +766,7 @@ export default function ReverseMortgageTaxImplicationsPage() {
             Every borrower&apos;s tax situation is unique. I will analyze your financial picture, connect you with qualified tax professionals, and structure your HECM to maximize benefits while minimizing tax complications. Free consultation with no obligation.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

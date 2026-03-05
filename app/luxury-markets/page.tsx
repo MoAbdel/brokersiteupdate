@@ -311,9 +311,9 @@ export default function LuxuryMarketsPage() {
                 Get Luxury Mortgage Quote
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

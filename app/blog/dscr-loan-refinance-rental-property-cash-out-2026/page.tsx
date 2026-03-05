@@ -774,7 +774,7 @@ export default function DscrCashOutRefinancePage() {
             Every investment property is different. I will analyze your property&apos;s rental income, current equity position, and portfolio goals to determine the optimal DSCR cash-out refinance structure&mdash;comparing programs across 50+ DSCR lenders to find the right combination of LTV, seasoning, and pricing for your situation. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

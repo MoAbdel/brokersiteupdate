@@ -979,7 +979,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
               Coastal North San Diego&rsquo;s luxury real estate market demands mortgage financing that matches the sophistication of its buyers and properties. As a wholesale mortgage broker licensed in California and Washington, I compare jumbo, super-jumbo, bank statement, DSCR, and non-QM products from 200+ lenders to deliver competitive pricing and flexible qualification for Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas, and Carlsbad buyers. Whether you are purchasing a $1.5 million Carlsbad family home, a $3 million La Jolla estate, or a $10 million Rancho Santa Fe equestrian property, I structure the financing to match your financial profile and property requirements.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free wholesale mortgage consultation:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington | Equal Housing Lender</p>
           </div>

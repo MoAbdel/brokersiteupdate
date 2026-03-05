@@ -72,7 +72,7 @@ export default function CookiePolicyPage() {
             If you have any questions about our Cookie Policy, please contact us:
           </p>
           <ul className="list-none mb-4">
-            <li><strong>Phone:</strong> (949) 822-9662</li>
+            <li><strong>Phone:</strong> (949) 579-2057</li>
             <li>
               <strong>Email:</strong>{' '}
               <a href="mailto:mo.abdel@luminlending.com" className="text-blue-600 hover:underline">

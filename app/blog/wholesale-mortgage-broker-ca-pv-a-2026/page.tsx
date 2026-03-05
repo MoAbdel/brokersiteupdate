@@ -1401,7 +1401,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               Palos Verdes or South Bay property search.
             </p>
             <ul className="space-y-2 mb-4">
-              <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a></li>
+              <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a></li>
               <li><strong>NMLS:</strong> #1426884</li>
               <li><strong>Company:</strong> Lumin Lending, Inc. &mdash; NMLS #2716106 | DRE #02291443</li>
             </ul>

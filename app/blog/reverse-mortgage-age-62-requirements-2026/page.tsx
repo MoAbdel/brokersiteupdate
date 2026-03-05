@@ -633,7 +633,7 @@ export default function ReverseMortgageAgeRequirementsPage() {
         </ol>
 
         <p>
-          Mo Abdel runs a detailed timing analysis for every reverse mortgage client at Lumin Lending, comparing current proceeds to projected proceeds at various future ages under different interest rate scenarios. This analysis provides the data needed to make an informed decision rather than relying on generalized advice. Call <a href="tel:+19498229662">(949) 822-9662</a> to schedule a personalized consultation.
+          Mo Abdel runs a detailed timing analysis for every reverse mortgage client at Lumin Lending, comparing current proceeds to projected proceeds at various future ages under different interest rate scenarios. This analysis provides the data needed to make an informed decision rather than relying on generalized advice. Call <a href="tel:+19495792057">(949) 579-2057</a> to schedule a personalized consultation.
         </p>
 
         {/* ============================================================ */}
@@ -675,7 +675,7 @@ export default function ReverseMortgageAgeRequirementsPage() {
         </div>
 
         <p>
-          For a personalized calculation based on your specific age, home value, and current interest rate environment, use our <Link href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">reverse mortgage calculator</Link> or contact Mo Abdel directly at <a href="tel:+19498229662">(949) 822-9662</a>.
+          For a personalized calculation based on your specific age, home value, and current interest rate environment, use our <Link href="/blog/reverse-mortgage-calculator-2026" className="text-blue-600 hover:underline">reverse mortgage calculator</Link> or contact Mo Abdel directly at <a href="tel:+19495792057">(949) 579-2057</a>.
         </p>
 
         {/* ============================================================ */}
@@ -762,9 +762,9 @@ export default function ReverseMortgageAgeRequirementsPage() {
             Mo Abdel provides personalized reverse mortgage consultations for California and Washington homeowners. Get your age-specific principal limit estimate and compare HECM vs. proprietary options — no obligation, no pressure.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+19498229662" className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            <a href="tel:+19495792057" className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5" />
-              (949) 822-9662
+              (949) 579-2057
             </a>
             <Link href="/blog/reverse-mortgage-complete-guide-2026" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
               Complete Reverse Mortgage Guide <ArrowRight className="w-5 h-5" />

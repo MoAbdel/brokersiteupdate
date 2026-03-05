@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-24T05:40:38.486Z",
-  "sourceBatchGeneratedAt": "2026-02-24T05:40:28.534Z",
+  "generatedAt": "2026-03-05T09:54:05.381Z",
+  "sourceBatchGeneratedAt": "2026-03-05T09:54:04.544Z",
   "strictMode": true,
-  "approvedCount": 12,
+  "approvedCount": 3,
   "blockedCount": 0,
   "items": [
     {
@@ -28,92 +28,11 @@
       "reason": "Position 9.4 with 221 impressions — update content to push into top 5",
       "impressions": 221,
       "position": 9.4
-    },
-    {
-      "type": "refresh",
-      "slug": "dscr-loans-short-term-rentals-airbnb-2026",
-      "url": "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
-      "reason": "Position 23.6 with 118 impressions — update content to push into top 5",
-      "impressions": 118,
-      "position": 23.6
-    },
-    {
-      "type": "refresh",
-      "slug": "jumbo-loans-orange-county-2026",
-      "url": "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026",
-      "reason": "Position 8.2 with 116 impressions — update content to push into top 5",
-      "impressions": 116,
-      "position": 8.2
-    },
-    {
-      "type": "refresh",
-      "slug": "wholesale-vs-retail-mortgage-brokers-2026",
-      "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
-      "reason": "Position 21.8 with 109 impressions — update content to push into top 5",
-      "impressions": 109,
-      "position": 21.8
-    },
-    {
-      "type": "refresh",
-      "slug": "dscr-investment-property-loans-2026",
-      "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
-      "reason": "Position 11.2 with 91 impressions — update content to push into top 5",
-      "impressions": 91,
-      "position": 11.2
-    },
-    {
-      "type": "refresh",
-      "slug": "reverse-mortgage-requirements-2026",
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-2026",
-      "reason": "Position 13.1 with 57 impressions — update content to push into top 5",
-      "impressions": 57,
-      "position": 13.1
-    },
-    {
-      "type": "refresh",
-      "slug": "foreign-national-mortgage-loans-2026",
-      "url": "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
-      "reason": "Position 12.7 with 54 impressions — update content to push into top 5",
-      "impressions": 54,
-      "position": 12.7
-    },
-    {
-      "type": "refresh",
-      "slug": "home-equity-sacramento-affluent-2026",
-      "url": "https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026",
-      "reason": "Position 9.8 with 48 impressions — update content to push into top 5",
-      "impressions": 48,
-      "position": 9.8
-    },
-    {
-      "type": "refresh",
-      "slug": "reverse-mortgage-line-of-credit-growth-2026",
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026",
-      "reason": "Position 8.5 with 46 impressions — update content to push into top 5",
-      "impressions": 46,
-      "position": 8.5
-    },
-    {
-      "type": "refresh",
-      "slug": "home-equity-affluent-suburban-east-bay-2026",
-      "url": "https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026",
-      "reason": "Position 11.4 with 40 impressions — update content to push into top 5",
-      "impressions": 40,
-      "position": 11.4
     }
   ],
   "urls": [
     "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
     "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
-    "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026",
-    "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
-    "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026",
-    "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
-    "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
-    "https://www.mothebroker.com/blog/reverse-mortgage-requirements-2026",
-    "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
-    "https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026",
-    "https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026",
-    "https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026"
+    "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026"
   ]
 }

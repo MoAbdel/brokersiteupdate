@@ -666,14 +666,14 @@ export default function CashOutRefinanceVsPersonalLoanPage() {
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">Get Your Free Cash-Out vs Personal Loan Analysis</h3>
             <p className="text-blue-800 mb-4">I will compare every option and show you exactly which saves the most based on your specific numbers.</p>
-            <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 822-9662</p>
+            <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Get Your Free Quote
               </Link>
-              <a href="tel:9498229662" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors">
-                Call (949) 822-9662
+              <a href="tel:9495792057" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors">
+                Call (949) 579-2057
               </a>
             </div>
           </div>

@@ -785,7 +785,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
             Every rental property portfolio is different. I will analyze your properties, equity positions, rental income, and investment goals to identify the most competitive cash-out refinance program&mdash;whether conventional, DSCR, or a combination. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

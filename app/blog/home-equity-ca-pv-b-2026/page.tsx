@@ -421,7 +421,7 @@ export default function HomeEquityCaPvB2026() {
 
           <ol className="list-decimal pl-6 space-y-4 my-6">
             <li>
-              <strong>Schedule a complimentary equity consultation.</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> to discuss your property value, existing mortgage balance, equity goals, and how you plan to use the funds. This 15-minute call identifies the right product structure before any paperwork begins.
+              <strong>Schedule a complimentary equity consultation.</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> to discuss your property value, existing mortgage balance, equity goals, and how you plan to use the funds. This 15-minute call identifies the right product structure before any paperwork begins.
             </li>
             <li>
               <strong>Receive a multi-lender equity analysis.</strong> Mo compares HELOC, HELOAN, and cash-out refinance scenarios across multiple wholesale lenders, presenting a side-by-side analysis of rates, credit limits, closing costs, and qualification requirements specific to your property and financial profile.
@@ -971,7 +971,7 @@ export default function HomeEquityCaPvB2026() {
               Jumbo equity products dominate this market. Retail banks restrict availability, impose conservative limits, and lack the underwriting flexibility that Western LA borrowers require. Mo Abdel&apos;s wholesale broker access connects homeowners with specialized jumbo HELOC, HELOAN, and cash-out refinance lenders who understand luxury valuations, entertainment industry income, and fire-rebuild financing.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore your Western LA home equity options? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a complimentary equity analysis covering HELOC, HELOAN, and cash-out refinance scenarios tailored to your property and financial goals. No obligation, no pressure — just expert guidance from a licensed wholesale mortgage broker who closes equity products across this corridor every week.
+              Ready to explore your Western LA home equity options? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary equity analysis covering HELOC, HELOAN, and cash-out refinance scenarios tailored to your property and financial goals. No obligation, no pressure — just expert guidance from a licensed wholesale mortgage broker who closes equity products across this corridor every week.
             </p>
           </div>
 
@@ -980,7 +980,7 @@ export default function HomeEquityCaPvB2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is for informational purposes only and is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Home equity products use your home as collateral; failure to make payments may result in loss of your home. HELOC rates are variable and subject to change. Tax deductibility of interest depends on how funds are used; consult a qualified tax advisor. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

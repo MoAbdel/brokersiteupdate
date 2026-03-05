@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92614Page() {
             "name": "Mo The Broker - Irvine Woodbridge",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Irvine",

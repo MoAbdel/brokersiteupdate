@@ -399,7 +399,7 @@ Ready to access wholesale mortgage rates in California? Mo Abdel at Lumin Lendin
 **Lumin Lending** | NMLS #2716106 | DRE #02291443
 Licensed in California & Washington
 
-📞 (949) 822-9662
+📞 (949) 579-2057
 📍 Serving all of California
 
 ---

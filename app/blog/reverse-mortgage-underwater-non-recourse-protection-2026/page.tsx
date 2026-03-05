@@ -644,7 +644,7 @@ export default function ReverseMortgageNonRecourseProtectionPage() {
               As a wholesale mortgage broker licensed in California and Washington, I work with 200+ lenders to find the most competitive HECM terms for each client. Every consultation includes a full explanation of non-recourse protection, principal limit factors, and a side-by-side comparison of payout options tailored to your financial situation.
             </p>
             <p className="text-blue-900 mb-0">
-              Contact Mo Abdel today: <strong>(949) 822-9662</strong> | <strong>mabdel@luminlending.com</strong>
+              Contact Mo Abdel today: <strong>(949) 579-2057</strong> | <strong>mabdel@luminlending.com</strong>
             </p>
           </div>
 

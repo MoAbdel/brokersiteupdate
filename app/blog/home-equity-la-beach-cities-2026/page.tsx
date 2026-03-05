@@ -136,7 +136,7 @@ export default function HomeEquityLABeachCities2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Manhattan Beach', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -745,7 +745,7 @@ export default function HomeEquityLABeachCities2026() {
               The South Bay&apos;s aerospace and entertainment income landscape &mdash; security clearance premiums, program bonuses, residuals, episodic fees, and variable compensation &mdash; demands lenders who understand these structures. Conservative banks leave $30K&ndash;$200K+ in qualifying income on the table by excluding non-base compensation. Through wholesale broker access to 50+ jumbo lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer and compensation package.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Beach Cities property. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free equity analysis.
+              As your wholesale mortgage broker, I compare jumbo HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your Beach Cities property. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
             </p>
           </div>
 
@@ -756,7 +756,7 @@ export default function HomeEquityLABeachCities2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; LA Beach Cities Jumbo Equity Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all LA Beach Cities communities</p>

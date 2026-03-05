@@ -168,7 +168,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
         name: 'How do I get started with a wholesale mortgage broker on the Eastside?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Contact Mo Abdel at (949) 822-9662 for a free consultation. We review your goals, income profile, and property interests, then provide a personalized pre-approval showing your maximum purchase power and estimated rates from multiple lenders. The entire pre-approval process takes 24-48 hours with complete documentation.',
+          text: 'Contact Mo Abdel at (949) 579-2057 for a free consultation. We review your goals, income profile, and property interests, then provide a personalized pre-approval showing your maximum purchase power and estimated rates from multiple lenders. The entire pre-approval process takes 24-48 hours with complete documentation.',
         },
       },
     ],
@@ -178,7 +178,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Bellevue', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -837,7 +837,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How do I get started with a wholesale mortgage broker on the Eastside?</h3>
-              <p>Contact Mo Abdel at (949) 822-9662 for a free consultation. We review your financial goals, income profile, and property interests, then provide a personalized pre-approval showing your maximum purchasing power and estimated rates from multiple lenders. The pre-approval process takes 24-48 hours with complete documentation. There is no cost, no obligation, and no pressure.</p>
+              <p>Contact Mo Abdel at (949) 579-2057 for a free consultation. We review your financial goals, income profile, and property interests, then provide a personalized pre-approval showing your maximum purchasing power and estimated rates from multiple lenders. The pre-approval process takes 24-48 hours with complete documentation. There is no cost, no obligation, and no pressure.</p>
             </div>
           </div>
 
@@ -863,7 +863,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel — Seattle Eastside Wholesale Mortgage Broker</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 14 Seattle Eastside cities</p>
             <p className="text-sm">200+ wholesale lender access | Tech income &amp; jumbo loan specialists</p>

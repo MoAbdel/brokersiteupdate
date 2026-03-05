@@ -192,7 +192,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
             "description": "Licensed mortgage broker serving San Diego County with home equity expertise",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "url": "https://www.mothebroker.com",
             "areaServed": [
               { "@type": "City", "name": "Del Mar", "containedInPlace": { "@type": "State", "name": "California" } },
@@ -724,7 +724,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             For most San Diego homeowners, the choice between HELOC, HELOAN, and cash-out refinance depends on three factors: your current first mortgage rate, how you plan to use the funds, and whether you need flexibility or payment certainty. The majority of San Diego equity borrowers in the luxury market benefit from jumbo HELOC products that preserve favorable first mortgage rates while providing flexible access to substantial credit lines.
           </p>
           <p className="text-gray-800 mb-0">
-            Working with a wholesale mortgage broker provides San Diego homeowners with access to 200+ lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
+            Working with a wholesale mortgage broker provides San Diego homeowners with access to 200+ lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
           </p>
         </div>
 
@@ -734,7 +734,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Licensed in: California, Washington | Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a>
+            Licensed in: California, Washington | Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mb-0">
             Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of terms. Property values and equity estimates are approximate and based on publicly available market data. Actual home equity availability depends on appraised value, existing liens, credit profile, income, and lender requirements. HELOC rates are variable and subject to change. Tax deductibility of interest depends on individual circumstances; consult a tax professional. Not affiliated with or endorsed by any government agency.

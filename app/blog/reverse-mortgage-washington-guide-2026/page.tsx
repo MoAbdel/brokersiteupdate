@@ -152,7 +152,7 @@ export default function ReverseMortgageWashingtonGuide() {
     name: 'Mo The Broker - Washington State',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-washington-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'State', name: 'Washington' },
       { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -799,7 +799,7 @@ export default function ReverseMortgageWashingtonGuide() {
               Whether you own a $600,000 home in Gig Harbor that fits neatly within HECM limits or a $4 million estate on Mercer Island that requires a jumbo proprietary product, the right reverse mortgage strategy exists for your situation. The key is working with a broker who understands Washington&apos;s unique property landscape and has access to multiple lenders offering both HECM and jumbo products.
             </p>
             <p className="mb-0">
-              <em>I have helped hundreds of Washington homeowners evaluate whether a reverse mortgage makes sense for their retirement plan. Every situation is different, and my job is to present the full picture—costs, benefits, alternatives—so you make the decision that serves your family best. There is no pressure and no obligation. Call me directly at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or explore the regional guides linked above to learn more about reverse mortgage options in your specific area.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
+              <em>I have helped hundreds of Washington homeowners evaluate whether a reverse mortgage makes sense for their retirement plan. Every situation is different, and my job is to present the full picture—costs, benefits, alternatives—so you make the decision that serves your family best. There is no pressure and no obligation. Call me directly at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or explore the regional guides linked above to learn more about reverse mortgage options in your specific area.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
             </p>
           </div>
 

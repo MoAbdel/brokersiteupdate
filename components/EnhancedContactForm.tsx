@@ -5,8 +5,11 @@ import React, { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Calculator, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 // Compliant 2026 Orange County Data
 const ORANGE_COUNTY_DATA = {
@@ -121,6 +124,8 @@ export default function EnhancedContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [termsConsent, setTermsConsent] = useState(false);
 
   // Calculate mortgage details
   const calculateMortgageDetails = useCallback(() => {
@@ -223,6 +228,8 @@ export default function EnhancedContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setShowError(false);
+    setErrorMessage('');
 
     try {
       const results = calculateMortgageDetails();
@@ -239,6 +246,7 @@ export default function EnhancedContactForm() {
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('loan_type', results?.loanType || 'N/A');
       formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`);
+      appendTermsConsentToFormData(formData_submit);
 
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -249,9 +257,12 @@ export default function EnhancedContactForm() {
       });
 
       if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        console.error('Formspree error details:', errorData);
-        throw new Error('Failed to submit contact form');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Failed to submit your contact request. Please try again.'
+          )
+        );
       }
 
       // Safe tracking calls
@@ -275,6 +286,11 @@ export default function EnhancedContactForm() {
       setShowSuccess(true);
     } catch (error) {
       console.error('Error submitting enhanced contact form:', error);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Failed to submit your contact request. Please try again.'
+      );
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     }
@@ -304,6 +320,8 @@ export default function EnhancedContactForm() {
     setCalculatorResults(null);
     setShowSuccess(false);
     setShowError(false);
+    setErrorMessage('');
+    setTermsConsent(false);
   };
 
   if (showSuccess) {
@@ -362,8 +380,8 @@ export default function EnhancedContactForm() {
 
           <p className="text-sm text-slate-500">
             Need immediate assistance? Call Mo directly at{' '}
-            <a href="tel:(949) 822-9662" className="text-blue-600 hover:text-blue-700 font-semibold">
-              (949) 822-9662
+            <a href="tel:(949) 579-2057" className="text-blue-600 hover:text-blue-700 font-semibold">
+              (949) 579-2057
             </a>
           </p>
         </CardContent>
@@ -388,7 +406,7 @@ export default function EnhancedContactForm() {
         {showError && (
           <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
             <p className="text-red-600 text-sm">
-              There was an error submitting your request. Please try again or call us directly at (949) 822-9662.
+              {errorMessage || 'There was an error submitting your request. Please try again later.'}
             </p>
           </div>
         )}
@@ -783,12 +801,7 @@ export default function EnhancedContactForm() {
           )}
 
           {currentStep === 3 && (
-            <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
-              <input type="checkbox" required className="mt-1 shrink-0" />
-              <span>
-                By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-              </span>
-            </label>
+            <InquiryTermsConsent checked={termsConsent} onCheckedChange={setTermsConsent} />
           )}
 
           <div className="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
@@ -817,7 +830,7 @@ export default function EnhancedContactForm() {
             ) : (
               <Button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !termsConsent}
                 className="ml-auto bg-slate-900 hover:bg-slate-800 text-white px-8"
               >
                 {isSubmitting ? 'Submitting...' : 'Get My Quote'}

@@ -208,10 +208,10 @@ export default function HELOCInvestmentProperty2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -691,10 +691,10 @@ export default function HELOCInvestmentProperty2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -761,7 +761,7 @@ export default function HELOCInvestmentProperty2026() {
               This article is provided for educational purposes only and does not constitute investment advice. Real estate investment involves risk, and past performance does not guarantee future results. Consult qualified financial, tax, and legal professionals before making investment decisions.
             </p>
             <p>
-              HELOC terms, requirements, and availability vary by lender and are subject to change without notice. The information presented reflects general guidelines as of February 2026. For current program details, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>.
+              HELOC terms, requirements, and availability vary by lender and are subject to change without notice. The information presented reflects general guidelines as of February 2026. For current program details, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>.
             </p>
           </div>
 

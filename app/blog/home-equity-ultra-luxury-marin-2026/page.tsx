@@ -136,7 +136,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
         name: 'How do I get started with a jumbo HELOC in Ross, Tiburon, or Belvedere?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 822-9662 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 200+ wholesale lenders. Initial consultations and equity estimates are free with no obligation.',
+          text: 'Call (949) 579-2057 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 200+ wholesale lenders. Initial consultations and equity estimates are free with no obligation.',
         },
       },
       {
@@ -164,7 +164,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
     name: 'Mo The Broker - Ultra-Luxury Marin Home Equity',
     '@id': 'https://www.mothebroker.com/blog/home-equity-ultra-luxury-marin-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Ross' },
       { '@type': 'City', name: 'Tiburon' },
@@ -759,7 +759,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Does Mo the Broker charge fees for a jumbo HELOC consultation?</h3>
-              <p>No. Initial consultations, equity estimates, and lender comparisons are complimentary. Broker compensation is paid by the lender at closing, not by the borrower. Call <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a> for a free equity analysis.</p>
+              <p>No. Initial consultations, equity estimates, and lender comparisons are complimentary. Broker compensation is paid by the lender at closing, not by the borrower. Call <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a> for a free equity analysis.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -787,7 +787,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
               Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; represents one of the highest concentrations of residential equity in the United States. With median home values from $2.7 million to $5 million and many properties far exceeding those medians, jumbo home equity products are the only path to accessing this wealth. Standard banks with HELOC caps of $250,000 to $500,000 cannot serve this market. Wholesale access to 200+ lenders through Lumin Lending (NMLS #2716106) unlocks jumbo HELOC lines to $3 million or more, jumbo HELOANs for defined renovation scopes, and jumbo cash-out refinances that optimize both rate and equity access.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 200+ wholesale lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 200+ wholesale lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

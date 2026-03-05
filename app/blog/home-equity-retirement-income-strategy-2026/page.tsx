@@ -697,9 +697,9 @@ export default function HomeEquityRetirementIncomeStrategyPage() {
             Mo Abdel provides complimentary consultations for California and Washington retirees. Compare HELOC, HELOAN, and cash-out refinance options tailored to your retirement income plan — no obligation, no pressure.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+19498229662" className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            <a href="tel:+19495792057" className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5" />
-              (949) 822-9662
+              (949) 579-2057
             </a>
             <Link href="/loan-programs/heloc" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
               HELOC Program Details <ArrowRight className="w-5 h-5" />

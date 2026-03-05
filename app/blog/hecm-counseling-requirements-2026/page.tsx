@@ -842,10 +842,10 @@ export default function HECMCounselingPage() {
               Schedule Consultation
             </Link>
             <a
-              href="tel:+19498229662"
+              href="tel:+19495792057"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 822-9662
+              Call (949) 579-2057
             </a>
           </div>
         </div>

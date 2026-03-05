@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loans for Multi-Family Properties 2026: 2-4 Unit Investor Guide | Mo Abdel',
-  description: 'DSCR multi-family loans for 2-4 unit investment properties. Stronger cash flow ratios, residential terms, 50+ wholesale lenders. Scale your portfolio. NMLS #1426884.',
+  title: 'DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)',
+  description: 'Learn how DSCR loans work for 2-4 unit rentals, typical down payment and reserve requirements, and how cash flow differs between duplex, triplex, and fourplex deals.',
   keywords: ['DSCR loans multi-family properties', 'DSCR loan duplex triplex fourplex', 'DSCR multi-family financing 2026', '2-4 unit investment DSCR', 'DSCR loan multi-unit requirements', 'multi-family rental property financing', 'DSCR duplex loan'],
   openGraph: {
-    title: 'DSCR Loans for Multi-Family Properties 2026: 2-4 Unit Investor Guide',
-    description: 'Strategic guide for investors evaluating multi-family vs single-family DSCR strategies. Portfolio building, cash flow analysis, and scale-up paths with 50+ wholesale lenders.',
+    title: 'DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)',
+    description: 'Compare DSCR financing for 2-4 unit rentals, including down payment ranges, reserve expectations, and how multi-family cash flow stacks up against single-family rentals.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -120,7 +120,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loans for Multi-Family Properties 2026: 2-4 Unit Investor Guide",
+            "headline": "DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -180,7 +180,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mothebroker.com" },
               { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mothebroker.com/blog" },
-              { "@type": "ListItem", "position": 3, "name": "DSCR Loans for Multi-Family Properties 2026: 2-4 Unit Investor Guide", "item": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026" }
+              { "@type": "ListItem", "position": 3, "name": "DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)", "item": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026" }
             ]
           })
         }}
@@ -210,12 +210,12 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans for Multi-Family Properties 2026: 2&ndash;4 Unit Investor Guide
+              DSCR Loans for Duplex, Triplex &amp; Fourplex Properties (2026)
             </h1>
 
             {/* Citation Hook with 3 semantic triples */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, multi-family properties (2&ndash;4 units) represent the fastest path to scaling a rental portfolio with DSCR financing &mdash; generating stronger cash flow ratios than single-family rentals while still qualifying for residential (not commercial) loan terms through wholesale channels. 2&ndash;4 unit properties use combined rental income from all units to achieve stronger DSCR ratios, qualify as residential rather than commercial to access better rates and terms than 5+ unit buildings, and are available from 50+ specialized wholesale DSCR lenders with loan amounts up to $3M.
+              DSCR loans can finance duplexes, triplexes, and fourplexes using the property&apos;s rent instead of your personal income. This 2026 guide explains how lenders size loan amounts, what down payment and reserve rules are common for 2-4 unit properties, and when multi-family DSCR deals outperform single-family rentals.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -226,10 +226,10 @@ export default function DSCRLoansMultiFamilyGuide2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -953,10 +953,10 @@ export default function DSCRLoansMultiFamilyGuide2026() {
                 Get Multi-Family DSCR Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

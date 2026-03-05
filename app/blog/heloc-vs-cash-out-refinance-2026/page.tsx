@@ -366,7 +366,7 @@ export default function HELOCvsCashOutGuide() {
             As a wholesale mortgage broker, I can run the numbers on both options for your specific situation. I&apos;ll help you compare total costs, monthly payments, and long-term implications to find the best path to accessing your home equity.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 579-2057 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

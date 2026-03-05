@@ -149,7 +149,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker serving Marin County with reverse mortgage, home equity, and wholesale lending solutions.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Marin County, California' },
             ],
@@ -629,7 +629,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
             The line of credit payout option remains the most popular choice among Marin County borrowers for its growth feature and flexibility. For those carrying existing mortgages, the lump sum option eliminates monthly payments immediately. HECM for Purchase opens a path to downsizing within Marin while preserving cash flow.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Marin County reverse mortgage options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a confidential consultation. As a wholesale broker with access to multiple HECM and proprietary lenders, I compare programs side by side to find the best fit for your Marin County home and retirement goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+            <strong>Ready to explore your Marin County reverse mortgage options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a confidential consultation. As a wholesale broker with access to multiple HECM and proprietary lenders, I compare programs side by side to find the best fit for your Marin County home and retirement goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
           </p>
         </div>
 
@@ -651,7 +651,7 @@ export default function ReverseMortgageMarinCountyGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Phone: <a href="tel:9498229662">(949) 822-9662</a> | Licensed in: California, Washington
+            Phone: <a href="tel:9495792057">(949) 579-2057</a> | Licensed in: California, Washington
           </p>
           <p className="text-xs text-gray-600 mb-2">
             Equal Housing Lender. All loans subject to credit approval. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Reverse mortgage borrowers must be 62 years of age or older. HUD-approved counseling is required for HECM loans. Borrowers must maintain the property, pay property taxes, and maintain homeowners insurance. Failing to meet these requirements can result in the loan becoming due and payable. Not all property types qualify. Contact a licensed mortgage professional for personalized guidance.

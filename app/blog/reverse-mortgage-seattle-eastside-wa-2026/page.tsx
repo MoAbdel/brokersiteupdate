@@ -86,7 +86,7 @@ export default function ReverseMortgageSeattleEastside() {
     name: 'Mo The Broker - Seattle Eastside',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-wa-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Bellevue', containedInPlace: { '@type': 'State', name: 'Washington' } },
       { '@type': 'City', name: 'Kirkland', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -493,7 +493,7 @@ export default function ReverseMortgageSeattleEastside() {
             <p className="font-semibold">Contact Mo Abdel today for a free consultation:</p>
             <p className="text-lg inline-flex items-center gap-2">
               <Phone className="w-5 h-5 text-slate-700" aria-hidden="true" />
-              <span>(949) 822-9662</span>
+              <span>(949) 579-2057</span>
             </p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>

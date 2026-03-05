@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92660Page() {
             "name": "Mo The Broker - Newport Beach 92660",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Newport Beach",

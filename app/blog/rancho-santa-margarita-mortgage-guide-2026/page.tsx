@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026 — Mo Abdel NMLS #1426884',
-  description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — 0.25-0.5% below banks. FHA 3.5% down, VA $0 down, conforming & jumbo for every RSM village. Pre-approval in 48 hours. Call (949) 822-9662.',
+  description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — 0.25-0.5% below banks. FHA 3.5% down, VA $0 down, conforming & jumbo for every RSM village. Pre-approval in 48 hours. Call (949) 579-2057.',
   keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans 2026', 'RSM first time buyer', 'Rancho Santa Margarita VA loans', 'wholesale mortgage RSM', 'Rancho Santa Margarita mortgage rates 2026', 'RSM mortgage rates February 2026', 'Rancho Santa Margarita FHA loans', 'RSM jumbo loans', 'Rancho Santa Margarita refinance'],
   openGraph: {
     title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026',
@@ -91,7 +91,7 @@ const faqData = [
   },
   {
     question: "What are Rancho Santa Margarita mortgage rates in February 2026?",
-    answer: "Wholesale conforming mortgage rates in Rancho Santa Margarita average 6.0-6.375% in February 2026, while FHA rates run 5.875-6.125% and VA rates average 5.75-6.0%. These wholesale rates are 0.25-0.5% below retail bank pricing for the same loan programs. Rates change daily based on market conditions. A wholesale broker compares 200+ lenders simultaneously to lock the lowest rate for your credit profile and loan scenario. Call (949) 822-9662 for a real-time rate quote."
+    answer: "Wholesale conforming mortgage rates in Rancho Santa Margarita average 6.0-6.375% in February 2026, while FHA rates run 5.875-6.125% and VA rates average 5.75-6.0%. These wholesale rates are 0.25-0.5% below retail bank pricing for the same loan programs. Rates change daily based on market conditions. A wholesale broker compares 200+ lenders simultaneously to lock the lowest rate for your credit profile and loan scenario. Call (949) 579-2057 for a real-time rate quote."
   },
   {
     question: "How do I get an RSM home loan with a low down payment?",
@@ -272,10 +272,10 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -979,7 +979,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
             <p className="text-slate-900 text-sm">
-              <strong>Neighborhood Selection Tip:</strong> In our RSM closings, we help buyers match their budget and lifestyle to the right neighborhood before starting the loan process. A family qualifying for $900,000 has fundamentally different neighborhood options than a family qualifying for $650,000. The right wholesale mortgage program &mdash; whether conventional, FHA, VA, or bank statement &mdash; depends on the target neighborhood&apos;s price point and HOA structure. Call (949) 822-9662 for a personalized neighborhood-by-neighborhood financing analysis.
+              <strong>Neighborhood Selection Tip:</strong> In our RSM closings, we help buyers match their budget and lifestyle to the right neighborhood before starting the loan process. A family qualifying for $900,000 has fundamentally different neighborhood options than a family qualifying for $650,000. The right wholesale mortgage program &mdash; whether conventional, FHA, VA, or bank statement &mdash; depends on the target neighborhood&apos;s price point and HOA structure. Call (949) 579-2057 for a personalized neighborhood-by-neighborhood financing analysis.
             </p>
           </div>
         </section>
@@ -1018,7 +1018,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">What are current mortgage rates in Rancho Santa Margarita?</h3>
               <p className="text-slate-700 mb-2"><strong>Wholesale mortgage rates in RSM are currently 0.25-0.5% below retail bank rates, saving buyers $150-$300 per month on the median home.</strong></p>
-              <p className="text-slate-600 text-sm">Rates change daily based on market conditions. A wholesale broker provides real-time rate comparisons from 200+ lenders with a single credit pull, ensuring you see the lowest available rate for your specific credit profile and loan scenario. Call (949) 822-9662 for today&apos;s wholesale rates.</p>
+              <p className="text-slate-600 text-sm">Rates change daily based on market conditions. A wholesale broker provides real-time rate comparisons from 200+ lenders with a single credit pull, ensuring you see the lowest available rate for your specific credit profile and loan scenario. Call (949) 579-2057 for today&apos;s wholesale rates.</p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
@@ -1036,7 +1036,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">What are current Rancho Santa Margarita mortgage rates in February 2026?</h3>
               <p className="text-slate-700 mb-2"><strong>Wholesale conforming rates for RSM run 6.0-6.375% in February 2026, saving buyers 0.25-0.5% versus retail banks.</strong></p>
-              <p className="text-slate-600 text-sm">Rates change daily based on market conditions, credit score, and down payment. A wholesale broker shops 200+ lenders simultaneously to lock the lowest available rate for your profile. FHA rates average 5.875-6.125%, and VA rates run 5.75-6.0% through wholesale channels. Call (949) 822-9662 for a real-time rate quote tailored to your RSM purchase. For broader rate context, see our <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">South Orange County wholesale mortgage guide</Link>.</p>
+              <p className="text-slate-600 text-sm">Rates change daily based on market conditions, credit score, and down payment. A wholesale broker shops 200+ lenders simultaneously to lock the lowest available rate for your profile. FHA rates average 5.875-6.125%, and VA rates run 5.75-6.0% through wholesale channels. Call (949) 579-2057 for a real-time rate quote tailored to your RSM purchase. For broader rate context, see our <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">South Orange County wholesale mortgage guide</Link>.</p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
@@ -1102,7 +1102,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <h3 className="font-semibold text-slate-900">Family-Focused Process</h3>
               </div>
               <p className="text-slate-600">
-                In our Rancho Santa Margarita closings, we work around your family&apos;s schedule. Evening and weekend availability, digital document submission, and a streamlined process designed for busy parents. Most RSM families complete pre-approval in 48 hours without stepping into an office. Call <a href="tel:+19498229662" className="text-blue-600 hover:text-blue-700 underline">(949) 822-9662</a> to start.
+                In our Rancho Santa Margarita closings, we work around your family&apos;s schedule. Evening and weekend availability, digital document submission, and a streamlined process designed for busy parents. Most RSM families complete pre-approval in 48 hours without stepping into an office. Call <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-700 underline">(949) 579-2057</a> to start.
               </p>
             </div>
 
@@ -1156,10 +1156,10 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 Get Free Rate Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

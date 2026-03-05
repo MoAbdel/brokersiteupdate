@@ -180,7 +180,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
     name: 'Mo The Broker - LA South Bay & Palos Verdes Wholesale Mortgage',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-south-bay-palos-verdes-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates' },
       { '@type': 'City', name: 'Rancho Palos Verdes' },
@@ -936,7 +936,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
               not theoretical&mdash;it is the difference between owning the home you want and settling for less.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for
               a confidential mortgage analysis specific to your LA South Bay or Palos Verdes purchase or refinance. I will compare
               programs across multiple wholesale lenders to identify the best rates, terms, and qualification strategy for your
               unique income profile and property type.

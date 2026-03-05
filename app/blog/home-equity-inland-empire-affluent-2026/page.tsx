@@ -136,7 +136,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Rancho Cucamonga',
       description: 'Wholesale mortgage broker serving Rancho Cucamonga and Alta Loma homeowners with HELOC, home equity loans, and cash-out refinance. Jumbo and LA commuter equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Rancho Cucamonga', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -146,7 +146,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Chino Hills',
       description: 'Wholesale mortgage broker serving Chino Hills homeowners with HELOC, home equity loans, and cash-out refinance. School district premium and family equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Chino Hills', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -156,7 +156,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Claremont',
       description: 'Wholesale mortgage broker serving Claremont homeowners with HELOC, home equity loans, and cash-out refinance. College town and faculty qualification specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Claremont', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -166,7 +166,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Redlands',
       description: 'Wholesale mortgage broker serving Redlands homeowners with HELOC, home equity loans, and cash-out refinance. Historic Victorian renovation and university town specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Redlands', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -176,7 +176,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Upland',
       description: 'Wholesale mortgage broker serving Upland homeowners with HELOC, home equity loans, and cash-out refinance. Move-up equity transition and foothill gateway specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Upland', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -559,7 +559,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
           </div>
 
           <p className="text-gray-700">
-            Rancho Cucamonga&apos;s strategic position between Los Angeles employment centers and Inland Empire affordability creates the region&apos;s most dynamic equity extraction market. Wholesale broker networks identify lenders who understand LA commuter income patterns, dual-property strategies, and wine country estate collateral. For Rancho Cucamonga equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+            Rancho Cucamonga&apos;s strategic position between Los Angeles employment centers and Inland Empire affordability creates the region&apos;s most dynamic equity extraction market. Wholesale broker networks identify lenders who understand LA commuter income patterns, dual-property strategies, and wine country estate collateral. For Rancho Cucamonga equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
           </p>
         </section>
 
@@ -635,7 +635,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
           </div>
 
           <p className="text-gray-700">
-            Chino Hills&apos; school district premium creates accelerated equity accumulation for families prioritizing educational quality. Wholesale broker access identifies lenders who understand multi-generational wealth strategies, college funding alternatives to high-interest student loans, and Asian-American family wealth transfer patterns common in this market. For Chino Hills equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+            Chino Hills&apos; school district premium creates accelerated equity accumulation for families prioritizing educational quality. Wholesale broker access identifies lenders who understand multi-generational wealth strategies, college funding alternatives to high-interest student loans, and Asian-American family wealth transfer patterns common in this market. For Chino Hills equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
           </p>
         </section>
 
@@ -711,7 +711,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
           </div>
 
           <p className="text-gray-700">
-            Claremont&apos;s college town character creates a distinctive equity market where self-employed income documentation and creative funding strategies dominate. Wholesale broker networks identify lenders who understand academic employment stability, sabbatical income patterns, and grant-funded research projects. For Claremont equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+            Claremont&apos;s college town character creates a distinctive equity market where self-employed income documentation and creative funding strategies dominate. Wholesale broker networks identify lenders who understand academic employment stability, sabbatical income patterns, and grant-funded research projects. For Claremont equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
           </p>
         </section>
 
@@ -787,7 +787,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
           </div>
 
           <p className="text-gray-700">
-            Redlands&apos; historic character creates renovation-focused equity extraction patterns requiring specialized lender understanding. Wholesale broker networks identify lenders experienced with Victorian restoration projects, historic property appraisals, and contractor-draw payment structures. For Redlands equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+            Redlands&apos; historic character creates renovation-focused equity extraction patterns requiring specialized lender understanding. Wholesale broker networks identify lenders experienced with Victorian restoration projects, historic property appraisals, and contractor-draw payment structures. For Redlands equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
           </p>
         </section>
 
@@ -863,7 +863,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
           </div>
 
           <p className="text-gray-700">
-            Upland&apos;s foothill gateway position creates move-up equity strategies requiring specialized lender understanding of rental conversion income and simultaneous HELOC + purchase financing. Wholesale broker networks identify lenders experienced with first-time jumbo transitions and investment property portfolio building. For Upland equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+            Upland&apos;s foothill gateway position creates move-up equity strategies requiring specialized lender understanding of rental conversion income and simultaneous HELOC + purchase financing. Wholesale broker networks identify lenders experienced with first-time jumbo transitions and investment property portfolio building. For Upland equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
           </p>
         </section>
 
@@ -882,7 +882,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
               This guide represents 15+ years of Inland Empire lending experience including Alta Loma jumbo transactions, Chino Hills school-district-premium appraisals, Claremont faculty bank statement approvals, Redlands Victorian renovation financing, and Upland move-up rental conversions. Wholesale broker access transforms home equity from a retail commodity into a strategic financial tool tailored to your specific property, income profile, and wealth-building objectives.
             </p>
             <p className="text-gray-700">
-              For personalized Inland Empire home equity consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884, representing Lumin Lending, Inc., NMLS #2716106, DRE #02291443. Licensed to serve California homeowners statewide with wholesale lender access unavailable through retail banks.
+              For personalized Inland Empire home equity consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884, representing Lumin Lending, Inc., NMLS #2716106, DRE #02291443. Licensed to serve California homeowners statewide with wholesale lender access unavailable through retail banks.
             </p>
           </div>
         </section>
@@ -1098,7 +1098,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
                 Wholesale mortgage broker access transforms these strategies from theory to execution. Portfolio lenders underwrite unique income profiles (faculty, consultants, self-employed), specialized properties (Victorians, hillside estates, wine country), and strategic equity uses (dual-property ownership, rental income conversion, contractor-draw renovations) unavailable through retail bank channels. Jumbo HELOC programs extending to 85% CLTV add $50,000&ndash;$75,000 in accessible equity for qualified borrowers with 740+ scores.
               </p>
               <p className="text-gray-800">
-                This guide represents 15+ years of Inland Empire lending experience including Alta Loma jumbo transactions, Chino Hills school-premium appraisals, Claremont faculty bank statement approvals, Redlands Victorian financing, and Upland move-up strategies. For personalized consultation matching your property, income profile, and wealth-building objectives to the right lender, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>, NMLS #1426884.
+                This guide represents 15+ years of Inland Empire lending experience including Alta Loma jumbo transactions, Chino Hills school-premium appraisals, Claremont faculty bank statement approvals, Redlands Victorian financing, and Upland move-up strategies. For personalized consultation matching your property, income profile, and wealth-building objectives to the right lender, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>, NMLS #1426884.
               </p>
             </div>
           </div>
@@ -1136,7 +1136,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
             Mo Abdel, NMLS #1426884, is a licensed mortgage broker representing Lumin Lending, Inc., NMLS #2716106, DRE #02291443. Licensed to originate mortgage loans in California. Equal Housing Lender.
           </p>
           <p className="text-sm text-gray-600">
-            For consultation, contact Mo Abdel at <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> or visit <a href="https://www.mothebroker.com" className="text-blue-600 hover:underline">www.mothebroker.com</a>.
+            For consultation, contact Mo Abdel at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or visit <a href="https://www.mothebroker.com" className="text-blue-600 hover:underline">www.mothebroker.com</a>.
           </p>
         </section>
       </article>

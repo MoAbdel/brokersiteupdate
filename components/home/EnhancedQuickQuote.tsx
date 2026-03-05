@@ -4,8 +4,11 @@ import React, { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User, Phone, Mail, FileText } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { getTermsConsentPayload } from '@/lib/terms-consent';
 
 // Compliant 2026 Orange County Data (verified via web search)
 const ORANGE_COUNTY_DATA = {
@@ -112,7 +115,8 @@ export default function EnhancedQuickQuote() {
   const [calculatorResults, setCalculatorResults] = useState<CalculatorResults | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [termsConsent, setTermsConsent] = useState(false);
 
   // Google Ads conversion tracking
   const gtagSendEvent = (url?: string) => {
@@ -281,6 +285,7 @@ export default function EnhancedQuickQuote() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMessage(null);
     
     try {
       const response = await fetch('/api/quotes', {
@@ -289,6 +294,7 @@ export default function EnhancedQuickQuote() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          ...getTermsConsentPayload(),
           full_name: `${formData.firstName} ${formData.lastName}`,
           email: formData.email,
           phone: formData.phone,
@@ -300,7 +306,12 @@ export default function EnhancedQuickQuote() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit quote');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Failed to submit your quote request. Please try again.'
+          )
+        );
       }
       
       // Track conversions
@@ -318,12 +329,17 @@ export default function EnhancedQuickQuote() {
         downPayment: '', currentLoanAmount: '', currentRate: '', cashOutAmount: '', loanType: '',
         firstName: '', lastName: '', email: '', phone: '', additionalInfo: ''
       });
+      setTermsConsent(false);
       setCurrentStep(1);
       setCalculatorResults(null);
     } catch (error) {
       console.error("Error submitting quote request:", error);
-      setShowError(true);
-      setTimeout(() => setShowError(false), 5000);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Failed to submit your quote request. Please try again.'
+      );
+      setTimeout(() => setErrorMessage(null), 5000);
     }
     
     setIsSubmitting(false);
@@ -460,10 +476,10 @@ export default function EnhancedQuickQuote() {
           </div>
 
           <form onSubmit={handleSubmit} className="p-6">
-            {showError && (
+            {errorMessage && (
               <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
                 <p className="text-red-600 text-sm">
-                  There was an error submitting your request. Please try again or call us directly at (949) 822-9662.
+                  {errorMessage}
                 </p>
               </div>
             )}
@@ -1030,8 +1046,16 @@ export default function EnhancedQuickQuote() {
               </div>
             )}
 
+            {currentStep === 3 && (
+              <InquiryTermsConsent
+                checked={termsConsent}
+                onCheckedChange={setTermsConsent}
+                className="px-1 pt-6"
+              />
+            )}
+
             {/* Navigation buttons */}
-            <div className="flex justify-between items-center mt-8 pt-6 border-t">
+            <div className="flex justify-between items-center mt-8 border-t pt-6">
               <Button
                 type="button"
                 onClick={prevStep}
@@ -1061,7 +1085,7 @@ export default function EnhancedQuickQuote() {
               {currentStep === 3 && (
                 <Button
                   type="submit"
-                  disabled={isSubmitting || !isStep3Complete}
+                  disabled={isSubmitting || !isStep3Complete || !termsConsent}
                   className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   {isSubmitting ? (
@@ -1076,14 +1100,6 @@ export default function EnhancedQuickQuote() {
               )}
             </div>
 
-            {currentStep === 3 && (
-              <label className="flex items-start gap-2 text-xs text-slate-500 mt-4 px-1">
-                <input type="checkbox" required className="mt-1 shrink-0" />
-                <span>
-                  By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-                </span>
-              </label>
-            )}
           </form>
 
           {/* Licensing disclaimer */}

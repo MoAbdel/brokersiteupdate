@@ -180,7 +180,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
             name: 'Mo Abdel - Tech Corridor Eastside WA Wholesale Mortgage Broker',
             description: 'Wholesale mortgage broker serving the Eastside WA tech corridor. Jumbo loans, RSU income programs, bank statement loans, and DSCR investor financing across Kirkland, Redmond, Woodinville, Issaquah, and Bothell. NMLS #1426884.',
             url: 'https://www.mothebroker.com',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             areaServed: [
               { '@type': 'City', name: 'Kirkland', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -802,7 +802,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
             </p>
             <div className="mt-6 space-y-3">
               <p className="font-bold text-lg">Ready to explore wholesale mortgage options in the Eastside tech corridor?</p>
-              <p>Call <a href="tel:9498229662" className="text-blue-700 font-bold hover:underline">(949) 822-9662</a> or visit <Link href="/contact" className="text-blue-700 font-bold hover:underline">mothebroker.com/contact</Link> for a free consultation.</p>
+              <p>Call <a href="tel:9495792057" className="text-blue-700 font-bold hover:underline">(949) 579-2057</a> or visit <Link href="/contact" className="text-blue-700 font-bold hover:underline">mothebroker.com/contact</Link> for a free consultation.</p>
               <p className="text-sm text-gray-600">Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106</p>
             </div>
           </div>

@@ -84,7 +84,7 @@
     "name": "Mo Abdel - Wholesale Mortgage Broker",
     "description": "Wholesale mortgage broker serving California and Washington. Specializing in reverse mortgages (HECM), HELOC, home equity loans, and cash-out refinance.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "email": "mo@mothebroker.com",
     "areaServed": [
       {
@@ -121,7 +121,7 @@
     "name": "Mo Abdel - [CITY] Mortgage Broker",
     "description": "[TRACK]-focused mortgage services in [CITY], [STATE]. NMLS #1426884.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "areaServed": {
       "@type": "City",
       "name": "[CITY]",
@@ -139,7 +139,7 @@
     "name": "Mo Abdel - [REGION] Mortgage Broker",
     "description": "[TRACK]-focused mortgage services across [REGION]. Serving [CITY_1], [CITY_2], [CITY_3] and surrounding areas. NMLS #1426884.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "email": "mo@mothebroker.com",
     "areaServed": [
       {

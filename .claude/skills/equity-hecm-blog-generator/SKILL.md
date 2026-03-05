@@ -996,7 +996,7 @@ Schema types per hub: minimum 3 required (Article, FAQPage, BreadcrumbList), oth
 Every blog post MUST include the following — no exceptions:
 
 **CTAs (Calls to Action) — Minimum 3 per post:**
-1. **Early CTA (within first 500 words)** — Soft CTA woven naturally into content. Example: "Contact Mo Abdel at (949) 822-9662 to discuss your [refi/HELOC/HECM/DSCR] options."
+1. **Early CTA (within first 500 words)** — Soft CTA woven naturally into content. Example: "Contact Mo Abdel at (949) 579-2057 to discuss your [refi/HELOC/HECM/DSCR] options."
 2. **Mid-article CTA (in Section 3 or 4)** — Contextual CTA tied to a specific scenario or comparison. Example: "Not sure if a cash-out refinance or HELOC is right for you? [Get a free rate comparison →](/contact)"
 3. **Closing CTA (Section 7)** — Direct, action-oriented CTA with phone + contact page link. Include NMLS #1426884.
 

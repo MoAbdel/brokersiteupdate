@@ -160,7 +160,7 @@ Update contact details in:
 ## 📞 Contact Information
 
 **Mo Abdel - Mortgage Broker**
-- Phone: (949) 822-9662
+- Phone: (949) 579-2057
 - Email: mabdel@luminlending.com
 - NMLS: #1426884
 - Service Area: Orange County, California

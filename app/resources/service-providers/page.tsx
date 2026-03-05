@@ -253,7 +253,7 @@ export default function ServiceProvidersPage() {
           icon: Users,
         }}
         secondaryAction={{
-          href: 'tel:9498229662',
+          href: 'tel:9495792057',
           label: 'Request Introductions',
           icon: Phone,
         }}
@@ -612,10 +612,10 @@ export default function ServiceProvidersPage() {
                 Request Introductions
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

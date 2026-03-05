@@ -168,7 +168,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Wholesale mortgage broker serving Western LA luxury communities with 200+ lender access',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Hidden Hills', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -829,7 +829,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
               Western LA&apos;s luxury real estate market&mdash;from Hidden Hills&apos; celebrity estates to Calabasas&apos; entertainment community to Westlake Village&apos;s lakefront properties&mdash;demands wholesale broker access. With 200+ lenders competing for your business, including super jumbo specialists, entertainment income experts, and entity vesting programs, wholesale access delivers better rates, specialized solutions, and faster closings than any single bank can offer.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free rate quote:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

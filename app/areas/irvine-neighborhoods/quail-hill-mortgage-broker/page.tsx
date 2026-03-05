@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Quail Hill Irvine Mortgage Broker | Premium Community Home Loans | Mo Abdel NMLS #1426884',
-  description: 'Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, Competitive pricing. Call (949) 822-9662.',
+  description: 'Quail Hill Irvine mortgage broker specializing in premium master-planned community homes. Newer construction financing, luxury amenities, Competitive pricing. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods/quail-hill-mortgage-broker',
     languages: {
@@ -185,7 +185,7 @@ export default function QuailHillMortgageBrokerPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
                 <Button variant="outline" size="lg">
                   <Calculator className="w-5 h-5 mr-2" />
@@ -378,7 +378,7 @@ export default function QuailHillMortgageBrokerPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
                 Get Pre-Approved

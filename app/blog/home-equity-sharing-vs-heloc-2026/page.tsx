@@ -143,10 +143,10 @@ export default function HomeEquitySharingVsHeloc2026() {
           before signing away a share of their home&apos;s future value.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="tel:9498229662">
+          <Link href="tel:9495792057">
             <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2">
               <Phone className="w-5 h-5" />
-              (949) 822-9662
+              (949) 579-2057
             </Button>
           </Link>
           <Link href="/contact">
@@ -826,10 +826,10 @@ export default function HomeEquitySharingVsHeloc2026() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="tel:9498229662">
+          <Link href="tel:9495792057">
             <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2">
               <Phone className="w-5 h-5" />
-              Call (949) 822-9662
+              Call (949) 579-2057
             </Button>
           </Link>
           <Link href="/contact">
@@ -881,7 +881,7 @@ export default function HomeEquitySharingVsHeloc2026() {
           <p>
             This is not a commitment to lend. Not all borrowers will qualify. Terms and conditions apply. Actual
             rates, fees, and program availability vary by lender, borrower qualifications, and market conditions.
-            Contact Mo Abdel at (949) 822-9662 for current program availability and personalized guidance.
+            Contact Mo Abdel at (949) 579-2057 for current program availability and personalized guidance.
           </p>
           <p>
             Equity sharing company names mentioned (Hometap, Unison, Point, Unlock) are used for educational

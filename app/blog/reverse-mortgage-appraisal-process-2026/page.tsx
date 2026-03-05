@@ -274,7 +274,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
             Get a free assessment of your home&apos;s HECM eligibility and estimated principal limit from a broker who works with 200+ lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -505,7 +505,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
             I will review your property details and identify potential appraisal issues before you apply. Free consultation with a broker who works with 200+ HECM lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -853,7 +853,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
             I will evaluate your property&apos;s HECM eligibility, identify potential appraisal concerns, and estimate your principal limit based on current FHA factors. Free consultation with a broker who works with 200+ HECM lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

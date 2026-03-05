@@ -137,7 +137,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
             '@type': 'LocalBusiness',
             name: 'Lumin Lending - Mo Abdel',
             description: 'Wholesale mortgage broker specializing in jumbo home equity products for Peninsula ultra-luxury properties',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: ['Atherton', 'Hillsborough', 'Woodside', 'Portola Valley', 'Los Altos Hills'],
             priceRange: '$$$$$'
           })
@@ -696,7 +696,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
             Every consultation begins with a comprehensive review of your property, ownership structure, income profile, and financial objectives. From there, I present the top three to five lender options with transparent rate and fee comparisons&mdash;no retail markup, no limited product menus, no one-size-fits-all underwriting.
           </p>
           <p className="mb-2">
-            <strong>Call <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a></strong> for a confidential consultation on your Peninsula equity options.
+            <strong>Call <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a></strong> for a confidential consultation on your Peninsula equity options.
           </p>
         </div>
 
@@ -717,7 +717,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
-            <br />Licensed in: CA, WA | <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a>
+            <br />Licensed in: CA, WA | <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Information provided is for educational purposes only and does not constitute a loan commitment, rate lock, or guarantee of any specific terms. Loan products, rates, and programs are subject to change without notice. Not all borrowers will qualify. This is not a commitment to lend. NMLS Consumer Access:{' '}

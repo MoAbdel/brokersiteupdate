@@ -8,7 +8,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Irvine Mortgage Broker | Home Loans & HELOC | Mo Abdel NMLS #1426884',
-  description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 822-9662.',
+  description: 'Irvine mortgage broker with Competitive pricing. HELOC, refinancing, FHA, VA, and jumbo loans. Serving University Park, Woodbridge, Northwood. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-mortgage-broker',
     languages: {
@@ -127,9 +127,9 @@ export default function IrvineMortgageBrokerPage() {
                 Get Irvine Mortgage pricing
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -503,9 +503,9 @@ export default function IrvineMortgageBrokerPage() {
                 Get My Irvine Rates
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

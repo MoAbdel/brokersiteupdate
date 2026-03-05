@@ -21,7 +21,6 @@ async def main():
         return
 
     encoded_site = urllib.parse.quote(SITE_URL, safe='')
-    encoded_sitemap = urllib.parse.quote(SITEMAP_URL, safe='')
 
     print("=" * 60)
     print("BING SITEMAP SUBMISSION")
@@ -31,7 +30,7 @@ async def main():
         # First, let's check if the site is verified
         print("\n1. Checking site verification...")
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetSites?apikey={BING_API_KEY}"
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetUserSites?apikey={BING_API_KEY}"
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.json()
@@ -54,8 +53,12 @@ async def main():
         # Submit sitemap
         print(f"\n2. Submitting sitemap: {SITEMAP_URL}")
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitSitemap?siteUrl={encoded_site}&feedUrl={encoded_sitemap}&apikey={BING_API_KEY}"
-            async with session.get(url) as response:
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitFeed?apikey={BING_API_KEY}"
+            async with session.post(
+                url,
+                json={"siteUrl": SITE_URL, "feedUrl": SITEMAP_URL},
+                headers={"Content-Type": "application/json; charset=utf-8"}
+            ) as response:
                 if response.status == 200:
                     print("   [OK] Sitemap submitted successfully!")
                 else:

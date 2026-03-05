@@ -3,7 +3,10 @@
 import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Home, RefreshCw, Briefcase, ArrowRight, ArrowLeft, MapPin, CreditCard, Building, DollarSign, Percent } from "lucide-react";
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { getTermsConsentPayload } from '@/lib/terms-consent';
 
 interface QuizData {
   intent: string;
@@ -34,6 +37,8 @@ const Progress = ({ value }: { value: number }) => (
 export default function MortgageQuiz() {
   const [step, setStep] = useState(1);
   const [isComplete, setIsComplete] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [formData, setFormData] = useState<QuizData>({
     intent: "",
     zipCode: "",
@@ -61,11 +66,11 @@ export default function MortgageQuiz() {
     }
   }, []);
 
-  const handleNext = () => {
+  const handleNext = async () => {
     if (step < 4) {
       setStep(step + 1);
     } else {
-      handleSubmit();
+      await handleSubmit();
     }
   };
 
@@ -76,43 +81,73 @@ export default function MortgageQuiz() {
   };
 
   const handleSubmit = async () => {
-    try {
-      // Submit quiz data to Formspree
-      const formData_submit = new FormData();
-      formData_submit.append('full_name', formData.firstName || 'Quiz User');
-      formData_submit.append('email', formData.email);
-      formData_submit.append('phone', formData.phone);
-      formData_submit.append('loan_amount', formData.purchasePrice || formData.homeValue || '');
-      formData_submit.append('loan_purpose', formData.intent);
-      formData_submit.append('property_type', 'Single Family Home');
-      formData_submit.append('credit_score', formData.creditRange);
-      formData_submit.append('down_payment', formData.downPaymentPercent || '');
-      formData_submit.append('zip_code', formData.zipCode);
-      formData_submit.append('occupancy', formData.occupancy);
-      formData_submit.append('current_rate', formData.currentRate || '');
-      formData_submit.append('cash_amount', formData.cashAmount || '');
-      formData_submit.append('specialty_loan_type', formData.specialtyLoanType || '');
-      formData_submit.append('source', 'Quiz');
-      formData_submit.append('_subject', `Quiz Submission - ${formData.firstName || 'Quiz User'}`);
+    setIsSubmitting(true);
+    setErrorMessage(null);
 
-      const response = await fetch('https://formspree.io/f/mldpgrok', {
+    try {
+      const parseCurrency = (value: string) => parseFloat(value.replace(/[^0-9.]/g, '')) || 0;
+
+      const notes = [
+        `Quiz intent: ${formData.intent}`,
+        formData.purchasePrice ? `Purchase price: ${formData.purchasePrice}` : '',
+        formData.homeValue ? `Home value: ${formData.homeValue}` : '',
+        formData.downPaymentPercent ? `Down payment: ${formData.downPaymentPercent}` : '',
+        formData.currentRate ? `Current rate: ${formData.currentRate}` : '',
+        formData.cashAmount ? `Cash amount: ${formData.cashAmount}` : '',
+        formData.specialtyLoanType ? `Specialty loan type: ${formData.specialtyLoanType}` : '',
+      ]
+        .filter(Boolean)
+        .join(' | ');
+
+      const response = await fetch('/api/quotes', {
         method: 'POST',
-        body: formData_submit,
         headers: {
-          'Accept': 'application/json'
-        }
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...getTermsConsentPayload(),
+          full_name: formData.firstName || 'Quiz User',
+          email: formData.email,
+          phone: formData.phone,
+          loan_amount: parseCurrency(formData.purchasePrice || formData.homeValue || ''),
+          property_value: parseCurrency(formData.homeValue || formData.purchasePrice || ''),
+          loan_type: formData.specialtyLoanType || formData.intent || 'quiz',
+          loan_purpose: formData.intent,
+          credit_score: formData.creditRange,
+          down_payment: formData.downPaymentPercent || '',
+          zip_code: formData.zipCode,
+          occupancy: formData.occupancy,
+          current_pricing: formData.currentRate || '',
+          cash_amount: formData.cashAmount || '',
+          specialty_loan_type: formData.specialtyLoanType || '',
+          source: 'Quiz',
+          notes,
+          status: 'new',
+        }),
       });
 
-      if (response.ok) {
-        console.log('Quiz data submitted successfully');
-      } else {
-        console.error('Failed to submit quiz data');
+      if (!response.ok) {
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Unable to submit your quiz results right now. Please try again.'
+          )
+        );
       }
     } catch (error) {
       console.error('Error saving quiz data:', error);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Unable to submit your quiz results right now. Please try again.'
+      );
+      setIsSubmitting(false);
+      return;
     }
 
     setIsComplete(true);
+    setIsSubmitting(false);
 
     // Track conversion event
     if (typeof window !== 'undefined' && (window as any).gtag) {
@@ -533,22 +568,20 @@ export default function MortgageQuiz() {
                   </div>
 
                   <div className="pt-4">
-                    <label className="flex items-start">
-                      <input
-                        type="checkbox"
-                        checked={formData.consent}
-                        onChange={(e) => setFormData(prev => ({ ...prev, consent: e.target.checked }))}
-                        className="mt-1 mr-3 rounded border-slate-300 focus:ring-blue-500"
-                        required
-                      />
-                      <span className="text-sm text-slate-600">
-                        I agree to be contacted by Mo Abdel regarding mortgage options. This is not a loan approval or commitment to lend.
-                        Message and data rates may apply.
-                      </span>
-                    </label>
+                    <InquiryTermsConsent
+                      checked={formData.consent}
+                      onCheckedChange={(checked) => setFormData(prev => ({ ...prev, consent: checked }))}
+                      className="mt-0"
+                      copyClassName="text-sm text-slate-600"
+                      checkboxClassName="rounded border-slate-300 focus:ring-blue-500"
+                    />
                   </div>
                 </div>
               </div>
+            )}
+
+            {errorMessage && (
+              <p className="mt-4 text-sm text-red-600">{errorMessage}</p>
             )}
 
             <div className="flex justify-between mt-8">
@@ -563,10 +596,10 @@ export default function MortgageQuiz() {
 
               <Button
                 onClick={handleNext}
-                disabled={!isStepValid()}
+                disabled={!isStepValid() || isSubmitting}
                 className="bg-slate-900 hover:bg-slate-800 text-white px-6"
               >
-                {step === 4 ? 'Get My Options' : 'Next'}
+                {step === 4 ? (isSubmitting ? 'Submitting...' : 'Get My Options') : 'Next'}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </div>

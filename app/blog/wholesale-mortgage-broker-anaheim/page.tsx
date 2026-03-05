@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
             "name": "Mo The Broker - Anaheim Wholesale Mortgage",
             "@id": "https://www.mothebroker.com",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "CA",
@@ -586,7 +586,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
             Discuss your specific situation with a wholesale mortgage broker who understands Anaheim's diverse neighborhoods and financing requirements.
           </p>
           <p className="mb-2">
-            <strong>Call:</strong> <a href="tel:+19498229662" className="text-blue-600">(949) 822-9662</a>
+            <strong>Call:</strong> <a href="tel:+19495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="mb-0">
             <strong>Serving:</strong> Anaheim Hills, West Anaheim, Platinum Triangle, Colony District, Resort District, Downtown Anaheim, and surrounding areas including Fullerton, Orange, Placentia, and Brea.

@@ -29,18 +29,20 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const showScrolled = pathname === '/about' || (hasMounted && isScrolled);
+  const isHomePage = pathname === '/';
+  const useCompactHeader = mobileMenuOpen || pathname === '/about' || (hasMounted && isScrolled);
+  const useSolidSurface = !isHomePage || mobileMenuOpen || (hasMounted && isScrolled);
 
   return (
     <header 
       className={`fixed top-0 w-full z-[60] transition-all duration-300 ${
-        showScrolled 
-          ? 'bg-white shadow-base44 border-b border-slate-200' 
-          : 'bg-transparent border-transparent shadow-none'
+        useSolidSurface
+          ? 'bg-white/95 backdrop-blur-md shadow-base44 border-b border-slate-200'
+          : 'bg-white/82 backdrop-blur-md shadow-sm border-b border-slate-200/70'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`flex justify-between items-center transition-all duration-300 ${showScrolled ? 'h-14 md:h-16 py-2' : 'h-16 md:h-20 py-3'} relative`}>
+        <div className={`flex justify-between items-center transition-all duration-300 ${useCompactHeader ? 'h-14 md:h-16 py-2' : 'h-16 md:h-20 py-3'} relative`}>
           {/* Brand Logo - visible on all screens */}
           <Link href="/" className="flex items-center z-10 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-blue-600 shadow-sm transition-transform duration-200 group-hover:scale-110">
@@ -55,7 +57,7 @@ export default function Header() {
               />
             </div>
             <div className="ml-2 sm:ml-3">
-              <span className={`block text-xs sm:text-sm font-bold leading-tight transition-colors ${showScrolled ? 'text-slate-900' : 'text-slate-900'}`}>Mo Abdel</span>
+              <span className="block text-xs sm:text-sm font-bold leading-tight text-slate-900 transition-colors">Mo Abdel</span>
               <span className="block text-[10px] sm:text-xs text-blue-600 font-medium uppercase tracking-wider">Sr. Mortgage Broker</span>
             </div>
           </Link>
@@ -73,7 +75,7 @@ export default function Header() {
                         (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
                         (item.page === 'Resources' && pathname.startsWith('/resources'))
                         ? 'text-blue-600 bg-blue-50'
-                        : showScrolled ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/50'
+                        : useSolidSurface ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/70'
                         }`}
                     >
                       {item.title}
@@ -165,7 +167,7 @@ export default function Header() {
                         (item.page === 'Guides' && (pathname.startsWith('/neighborhood-guide') || pathname.startsWith('/guides') || pathname.startsWith('/articles'))) ||
                         (item.page === 'Resources' && pathname.startsWith('/resources'))
                         ? 'text-blue-600 bg-blue-50'
-                        : showScrolled ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/50'
+                        : useSolidSurface ? 'text-slate-700 hover:text-blue-600 hover:bg-slate-50' : 'text-slate-900 hover:text-blue-600 hover:bg-white/70'
                         }`}
                       onClick={() => setMobileMenuOpen(false)}
                     >

@@ -244,7 +244,7 @@ export default function FHALoansOrangeCountyPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Call to get pre-approved for an FHA loan">
-                <a href="tel:(949) 822-9662" className="flex items-center">
+                <a href="tel:(949) 579-2057" className="flex items-center">
                   <Home className="w-5 h-5 mr-2" aria-hidden="true" />
                   Get Pre-Approved for FHA
                 </a>
@@ -485,9 +485,9 @@ export default function FHALoansOrangeCountyPage() {
             Get pre-approved for an FHA loan with just 3.5% down and start your homeownership journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
-              <a href="tel:(949) 822-9662">
-                Call (949) 822-9662
+            <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 579-2057">
+              <a href="tel:(949) 579-2057">
+                Call (949) 579-2057
               </a>
             </Button>
             <Link href="/contact">

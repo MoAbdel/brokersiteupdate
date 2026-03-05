@@ -385,7 +385,7 @@ export default function ConventionalLoansGuide2026Page() {
                     Conventional loans offer the flexibility, competitive pricing, and long-term advantages that make them the most popular mortgage choice in America. Working with a wholesale mortgage broker who accesses 200+ lenders ensures you receive the most competitive pricing from multiple lenders competing for your business&mdash;rather than accepting a single bank&rsquo;s take-it-or-leave-it offer.
                 </p>
                 <p>
-                    Contact Mo Abdel today for a free consultation and personalized conventional loan rate comparison. Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a>.
+                    Contact Mo Abdel today for a free consultation and personalized conventional loan rate comparison. Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a>.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">

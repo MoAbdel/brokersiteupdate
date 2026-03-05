@@ -151,7 +151,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker providing reverse mortgage solutions including HECM and proprietary programs for Wine Country seniors in Napa and Sonoma counties.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Napa County, California' },
               { '@type': 'County', name: 'Sonoma County, California' },
@@ -662,7 +662,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             Wine Country properties with vineyard acreage, hospitality income, and second-home transition histories require lenders experienced with these characteristics. A wholesale broker matches your property to the right lender, compares HECM and proprietary options side by side, and ensures the application is structured to maximize proceeds while minimizing costs.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore reverse mortgage options for your Wine Country home?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized reverse mortgage analysis. I compare HECM and proprietary programs from multiple wholesale lenders to find the combination of proceeds, costs, and terms that best supports your Wine Country retirement. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore reverse mortgage options for your Wine Country home?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized reverse mortgage analysis. I compare HECM and proprietary programs from multiple wholesale lenders to find the combination of proceeds, costs, and terms that best supports your Wine Country retirement. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 
@@ -684,7 +684,7 @@ export default function ReverseMortgageWineCountryGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Phone: <a href="tel:9498229662">(949) 822-9662</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
+            Phone: <a href="tel:9495792057">(949) 579-2057</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
           </p>
           <p className="text-xs text-gray-600 mb-2">
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. Reverse mortgage borrowers must be 62 years of age or older and occupy the property as their primary residence. Borrowers are responsible for property taxes, homeowner&apos;s insurance, and home maintenance. Failure to meet these obligations may result in loan default. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify.

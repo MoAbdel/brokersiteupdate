@@ -240,9 +240,9 @@ export default function AffordabilityCalculator() {
               Ready to get pre-approved? Contact Lumin Lending for personalized guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </a>
               <a href="/contact">

@@ -86,7 +86,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
     },
     {
       question: 'How do I start the mortgage process with a wholesale broker for Marin County?',
-      answer: 'Contact Mo Abdel at (949) 822-9662 for an initial consultation. The broker reviews your financial profile, property details, and goals, then runs scenarios across multiple wholesale lenders to identify the best-fit programs. Pre-approval letters can be issued within 24-48 hours for active Marin County homebuyers.'
+      answer: 'Contact Mo Abdel at (949) 579-2057 for an initial consultation. The broker reviews your financial profile, property details, and goals, then runs scenarios across multiple wholesale lenders to identify the best-fit programs. Pre-approval letters can be issued within 24-48 hours for active Marin County homebuyers.'
     },
   ];
 
@@ -145,7 +145,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Wholesale mortgage broker serving Marin County with 200+ lender access for home purchases, refinances, and specialty lending programs.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Marin County, California' },
             ],
@@ -597,7 +597,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             Whether you are a first-time buyer in Novato, a tech executive purchasing in Tiburon, a self-employed creative relocating to Sausalito, or an investor acquiring rental properties across the county, wholesale lending provides the tools and competition necessary to secure the best available financing.
           </p>
           <p className="mb-0">
-            <strong>Ready to experience wholesale mortgage advantage in Marin County?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for a complimentary rate comparison. I run your scenario across multiple wholesale lenders simultaneously and present the top options side by side &mdash; rates, fees, and terms &mdash; so you make an informed decision with full transparency. No obligation, no retail markup, no bank sales pressure.
+            <strong>Ready to experience wholesale mortgage advantage in Marin County?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary rate comparison. I run your scenario across multiple wholesale lenders simultaneously and present the top options side by side &mdash; rates, fees, and terms &mdash; so you make an informed decision with full transparency. No obligation, no retail markup, no bank sales pressure.
           </p>
         </div>
 
@@ -620,7 +620,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Phone: <a href="tel:9498229662">(949) 822-9662</a> | Licensed in: California, Washington
+            Phone: <a href="tel:9495792057">(949) 579-2057</a> | Licensed in: California, Washington
           </p>
           <p className="text-xs text-gray-600 mb-2">
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify. Wholesale mortgage rates are subject to market conditions and individual borrower qualification. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer">www.nmlsconsumeraccess.org</a>

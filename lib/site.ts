@@ -5,8 +5,8 @@ export const BRAND_NAME = 'Mo Abdel | Mortgage Broker';
 export const NMLS_ID = '1426884';
 
 // Phone formatting
-export const PHONE_E164 = '+19498229662';
-export const PHONE_DISPLAY = '(949) 822-9662';
+export const PHONE_E164 = '+19495792057';
+export const PHONE_DISPLAY = '(949) 579-2057';
 export const PHONE_TEL_HREF = `tel:${PHONE_E164}`;
 
 // Primary contact URL

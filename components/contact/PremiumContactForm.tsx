@@ -1,12 +1,17 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from "react";
+import Link from 'next/link';
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   Calculator, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User, 
   Check, Loader2, ArrowRight
 } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
+import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 const makeInputId = (label: string) =>
   String(label || '')
@@ -185,7 +190,11 @@ interface CalculatorResults {
   isJumbo: boolean;
 }
 
-export default function PremiumContactForm() {
+export default function PremiumContactForm({
+  leadCaptureEnabled = true,
+}: {
+  leadCaptureEnabled?: boolean;
+}) {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
     city: '',
@@ -208,6 +217,8 @@ export default function PremiumContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [focusedField, setFocusField] = useState<string | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [termsConsent, setTermsConsent] = useState(false);
 
   // Google Ads conversion tracking function
   const gtagSendEvent = (url?: string) => {
@@ -317,7 +328,14 @@ export default function PremiumContactForm() {
     if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone) {
       return;
     }
+
+    if (!leadCaptureEnabled) {
+      setErrorMessage(NON_US_LEAD_CAPTURE_ERROR);
+      return;
+    }
+
     setIsSubmitting(true);
+    setErrorMessage(null);
 
     try {
       const results = calculateMortgageDetails();
@@ -333,12 +351,22 @@ export default function PremiumContactForm() {
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('loan_type', results?.loanType || 'N/A');
       formData_submit.append('_subject', `Premium Quote Request - ${formData.firstName} ${formData.lastName}`);
+      appendTermsConsentToFormData(formData_submit);
 
-      await fetch('/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         body: formData_submit,
         headers: { 'Accept': 'application/json' }
       });
+
+      if (!response.ok) {
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Unable to submit your request right now. Please try again later.'
+          )
+        );
+      }
 
       try { gtagSendEvent(); } catch (e) {}
       try {
@@ -353,9 +381,44 @@ export default function PremiumContactForm() {
       setShowSuccess(true);
     } catch (error) {
       console.error('Error submitting form:', error);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Unable to submit your request right now. Please try again later.'
+      );
     }
     setIsSubmitting(false);
   };
+
+  if (!leadCaptureEnabled) {
+    return (
+      <div className="rounded-3xl border border-amber-200 bg-amber-50 p-8 shadow-xl">
+        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700">
+          U.S. Mortgage Intake
+        </p>
+        <h2 className="mt-3 text-3xl font-bold text-slate-900">
+          Quote requests are enabled only for U.S. properties and borrowers.
+        </h2>
+        <p className="mt-4 max-w-xl text-sm leading-6 text-slate-700">
+          {NON_US_LEAD_CAPTURE_ERROR}
+        </p>
+        <div className="mt-6 grid gap-3 sm:grid-cols-2">
+          <Link
+            href="/loan-programs"
+            className="rounded-2xl bg-slate-900 px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-slate-800"
+          >
+            Browse Loan Programs
+          </Link>
+          <Link
+            href="/tools"
+            className="rounded-2xl border border-slate-300 px-5 py-3 text-center text-sm font-semibold text-slate-700 transition-colors hover:border-slate-400 hover:text-slate-900"
+          >
+            Explore Mortgage Tools
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   if (showSuccess) {
     return (
@@ -378,7 +441,12 @@ export default function PremiumContactForm() {
           Mo Abdel will personally review your details and prepare a custom quote strategy within 24 hours.
         </p>
         <button 
-          onClick={() => { setShowSuccess(false); setCurrentStep(1); setFormData({ ...formData, loanAmount: '', city: '' }); }}
+          onClick={() => {
+            setShowSuccess(false);
+            setCurrentStep(1);
+            setTermsConsent(false);
+            setFormData({ ...formData, loanAmount: '', city: '' });
+          }}
           className="text-blue-600 hover:text-blue-800 transition-colors underline underline-offset-4"
         >
           Start a new quote
@@ -435,6 +503,12 @@ export default function PremiumContactForm() {
               ))}
             </div>
           </div>
+
+          {errorMessage && (
+            <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+              {errorMessage}
+            </div>
+          )}
 
           <form onSubmit={handleSubmit}>
             <AnimatePresence mode="wait">
@@ -704,12 +778,7 @@ export default function PremiumContactForm() {
             </AnimatePresence>
 
             {currentStep === 3 && (
-              <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
-                <input type="checkbox" required className="mt-1 shrink-0" />
-                <span>
-                  By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-                </span>
-              </label>
+              <InquiryTermsConsent checked={termsConsent} onCheckedChange={setTermsConsent} />
             )}
 
             {/* Actions */}
@@ -744,7 +813,7 @@ export default function PremiumContactForm() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   type="submit"
-                  disabled={isSubmitting}
+                  disabled={isSubmitting || !termsConsent}
                   className="bg-slate-900 text-white px-10 py-3 rounded-full font-bold shadow-lg shadow-green-200 disabled:opacity-70 flex items-center min-w-[160px] justify-center hover:bg-slate-800"
                 >
                   {isSubmitting ? (

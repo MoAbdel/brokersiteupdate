@@ -209,7 +209,7 @@ export default function PropertyTaxEstimator({
         <p className="text-xs text-slate-400 leading-relaxed">
           Calculations are estimates for educational purposes only. Actual property taxes depend on
           your county assessor&apos;s valuation, local bond measures, Mello-Roos districts, and
-          homeowner exemptions. Contact Mo Abdel at (949) 822-9662 for a personalized mortgage
+          homeowner exemptions. Contact Mo Abdel at (949) 579-2057 for a personalized mortgage
           analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
         </p>
       </div>

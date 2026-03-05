@@ -152,7 +152,7 @@ export default function HomeEquityNorthSoundGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'North Sound home equity specialist providing HELOC, HELOAN, and cash-out refinance solutions for Bellingham, Anacortes, San Juan Island, Mukilteo, and Edmonds homeowners.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -406,7 +406,7 @@ export default function HomeEquityNorthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Market Data Note:</strong> Equity estimates assume typical mortgage balances for North Sound homeowners based on purchase timing and original loan amounts. Individual equity positions vary based on original purchase price, down payment, and mortgage paydown. Contact Mo Abdel at (949) 822-9662 for a personalized equity analysis based on your specific property and mortgage.
+            <strong>Market Data Note:</strong> Equity estimates assume typical mortgage balances for North Sound homeowners based on purchase timing and original loan amounts. Individual equity positions vary based on original purchase price, down payment, and mortgage paydown. Contact Mo Abdel at (949) 579-2057 for a personalized equity analysis based on your specific property and mortgage.
           </p>
         </div>
 
@@ -593,7 +593,7 @@ export default function HomeEquityNorthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Rate Monitoring:</strong> Mo Abdel tracks HELOC and HELOAN rates across 50+ wholesale lenders daily. HELOC rates change frequently based on prime rate movements and individual lender appetite. Contact Mo at (949) 822-9662 for today&apos;s best available North Sound HELOC rate for your credit profile and CLTV ratio.
+            <strong>Rate Monitoring:</strong> Mo Abdel tracks HELOC and HELOAN rates across 50+ wholesale lenders daily. HELOC rates change frequently based on prime rate movements and individual lender appetite. Contact Mo at (949) 579-2057 for today&apos;s best available North Sound HELOC rate for your credit profile and CLTV ratio.
           </p>
         </div>
 
@@ -663,7 +663,7 @@ export default function HomeEquityNorthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Consumer Guidance:</strong> Every FAQ answer reflects actual wholesale HELOC and HELOAN program guidelines available through Mo Abdel&apos;s broker network as of February 2026. Rates, terms, and programs change frequently. Contact Mo at (949) 822-9662 or mo@mothebroker.com for current program availability specific to your North Sound property.
+            <strong>Consumer Guidance:</strong> Every FAQ answer reflects actual wholesale HELOC and HELOAN program guidelines available through Mo Abdel&apos;s broker network as of February 2026. Rates, terms, and programs change frequently. Contact Mo at (949) 579-2057 or mo@mothebroker.com for current program availability specific to your North Sound property.
           </p>
         </div>
 
@@ -682,14 +682,14 @@ export default function HomeEquityNorthSoundGuide2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for North Sound homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial equity assessment through funding, Mo matches your specific property, income profile, and financial goals to the best available HELOC, HELOAN, or cash-out refinance program from 200+ wholesale lenders.
           </p>
           <p className="text-slate-900 mb-0">
-            <strong>Ready to unlock your North Sound home equity?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most North Sound homeowners receive funding within 2-3 weeks.
+            <strong>Ready to unlock your North Sound home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most North Sound homeowners receive funding within 2-3 weeks.
           </p>
         </div>
 
         {/* Disclaimer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for informational purposes only and does not constitute a loan commitment or guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized home equity analysis and current rate quotes.
+            <strong>Disclaimer:</strong> This content is for informational purposes only and does not constitute a loan commitment or guarantee of rates or terms. All home equity products are subject to underwriting approval, credit qualification, property valuation, and program availability. Rates, terms, and CLTV limits are subject to change without notice. Tax deductibility of HELOC interest depends on use of funds; consult a tax professional. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized home equity analysis and current rate quotes.
           </p>
         </div>
       </section>

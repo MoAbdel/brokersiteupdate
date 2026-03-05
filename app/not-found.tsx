@@ -36,7 +36,7 @@ export default function NotFound() {
           </Link>
           
           <a
-            href="tel:+19498229662"
+            href="tel:+19495792057"
             className="flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors"
           >
             <Phone className="w-5 h-5" />
@@ -80,8 +80,8 @@ export default function NotFound() {
         <div className="mt-8 p-4 bg-blue-50 rounded-lg">
           <p className="text-slate-700">
             Need immediate assistance? Call Mo directly at{' '}
-            <a href="tel:+19498229662" className="font-bold text-blue-600 hover:underline">
-              (949) 822-9662
+            <a href="tel:+19495792057" className="font-bold text-blue-600 hover:underline">
+              (949) 579-2057
             </a>
           </p>
           <p className="text-sm text-slate-600 mt-2">

@@ -892,10 +892,10 @@ export default function ReverseMotrageSocialSecurityMedicarePage() {
               Schedule Free Benefit Impact Consultation
             </Link>
             <a
-              href="tel:+19498229662"
+              href="tel:+19495792057"
               className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors"
             >
-              Call (949) 822-9662
+              Call (949) 579-2057
             </a>
           </div>
         </div>

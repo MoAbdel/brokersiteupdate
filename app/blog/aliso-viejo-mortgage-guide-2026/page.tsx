@@ -348,7 +348,7 @@ export default function AlisoViejoMortgageGuidePage() {
                     Aliso Viejo&apos;s master-planned excellence, diverse housing options, and outstanding amenities make it one of South Orange County&apos;s most desirable communities. Working with an experienced wholesale mortgage broker ensures you navigate HOA requirements efficiently while securing competitive financing from 200+ lenders.
                 </p>
                 <p>
-                    Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline font-semibold">(949) 822-9662</a> for a free consultation and personalized rate comparison for your Aliso Viejo property. Our expertise in master-planned community financing and wholesale lender relationships deliver the most competitive mortgage experience available.
+                    Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline font-semibold">(949) 579-2057</a> for a free consultation and personalized rate comparison for your Aliso Viejo property. Our expertise in master-planned community financing and wholesale lender relationships deliver the most competitive mortgage experience available.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">

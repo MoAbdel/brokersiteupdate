@@ -33,18 +33,18 @@ async def main():
         for site_url in SITE_VARIANTS:
             encoded_site = urllib.parse.quote(site_url, safe='')
 
-            # Try GetSitemaps for each variant
+            # Try GetFeeds for each variant
             try:
-                url = f"https://ssl.bing.com/webmaster/api.svc/json/GetSitemaps?siteUrl={encoded_site}&apikey={BING_API_KEY}"
+                url = f"https://ssl.bing.com/webmaster/api.svc/json/GetFeeds?siteUrl={encoded_site}&apikey={BING_API_KEY}"
                 async with session.get(url) as response:
                     status = response.status
                     if status == 200:
                         data = await response.json()
-                        sitemaps = data.get('d', [])
+                        feeds = data.get('d', [])
                         print(f"[OK] {site_url}")
-                        print(f"     Sitemaps found: {len(sitemaps)}")
-                        for sm in sitemaps:
-                            print(f"       - {sm.get('Url', 'Unknown')}")
+                        print(f"     Feeds found: {len(feeds)}")
+                        for feed in feeds:
+                            print(f"       - {feed.get('Url', 'Unknown')}")
                     else:
                         print(f"[{status}] {site_url}")
             except Exception as e:
@@ -80,12 +80,13 @@ async def main():
         working_site = "https://www.mothebroker.com"
         sitemap_url = "https://www.mothebroker.com/sitemap.xml"
 
-        encoded_site = urllib.parse.quote(working_site, safe='')
-        encoded_sitemap = urllib.parse.quote(sitemap_url, safe='')
-
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitSitemap?siteUrl={encoded_site}&feedUrl={encoded_sitemap}&apikey={BING_API_KEY}"
-            async with session.get(url) as response:
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/SubmitFeed?apikey={BING_API_KEY}"
+            async with session.post(
+                url,
+                json={"siteUrl": working_site, "feedUrl": sitemap_url},
+                headers={"Content-Type": "application/json; charset=utf-8"}
+            ) as response:
                 if response.status == 200:
                     print(f"[OK] Sitemap submitted to {working_site}")
                 else:

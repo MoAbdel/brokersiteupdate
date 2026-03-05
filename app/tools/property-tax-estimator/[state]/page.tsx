@@ -111,7 +111,7 @@ export default async function StatePage({ params }: Props) {
           <p>
             2026 property tax rates sourced from county assessor offices.
             For a personalized mortgage analysis, call Mo Abdel at{' '}
-            <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>.
+            <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>.
             NMLS #1426884 | Lumin Lending NMLS #2716106.
           </p>
         </div>

@@ -9,7 +9,7 @@ import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
   title: 'DSCR Investment Loans [2026 Cash-Flow Qualification Matrix & No-Doc Rates]',
-  description: 'DSCR investment loans in Orange County. Qualify based on rental income, not personal income. No employment verification. Perfect for real estate investors. Call (949) 822-9662.',
+  description: 'DSCR investment loans in Orange County. Qualify based on rental income, not personal income. No employment verification. Perfect for real estate investors. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
     languages: {
@@ -52,9 +52,9 @@ export default function DSCRInvestmentLoansPage() {
                 Get DSCR Pre-Approval
               </Button>
             </Link>
-            <a href="tel:9498229662">
+            <a href="tel:9495792057">
               <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -139,9 +139,9 @@ export default function DSCRInvestmentLoansPage() {
                 Start DSCR Application
               </Button>
             </Link>
-            <a href="tel:9498229662">
+            <a href="tel:9495792057">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

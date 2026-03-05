@@ -150,7 +150,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Sausalito)',
               description: 'Wholesale mortgage broker serving Sausalito with houseboat financing, hillside property loans, and jumbo mortgages. 200+ lender access.',
-              telephone: '(949) 822-9662',
+              telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
                 '@type': 'City',
@@ -174,7 +174,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Corte Madera)',
               description: 'Wholesale mortgage broker serving Corte Madera families with jumbo purchase loans, school district premium financing, and competitive rates from 200+ lenders.',
-              telephone: '(949) 822-9662',
+              telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
                 '@type': 'City',
@@ -198,7 +198,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Larkspur)',
               description: 'Wholesale mortgage broker serving Larkspur with historic renovation financing, jumbo loans, and SMART train commuter community lending.',
-              telephone: '(949) 822-9662',
+              telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
                 '@type': 'City',
@@ -222,7 +222,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (San Anselmo)',
               description: 'Wholesale mortgage broker serving San Anselmo creative professionals with bank statement loans, self-employed mortgage qualification, and 200+ lender access.',
-              telephone: '(949) 822-9662',
+              telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
                 '@type': 'City',
@@ -246,7 +246,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Novato)',
               description: 'Wholesale mortgage broker serving Novato with VA jumbo loans, first-time jumbo buyer programs, and Hamilton community financing. 200+ lender access.',
-              telephone: '(949) 822-9662',
+              telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
                 '@type': 'City',
@@ -661,7 +661,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           </table>
         </div>
         <p className="text-sm text-gray-600 italic">
-          Rate data reflects February 10, 2026 wholesale pricing. Rates subject to daily change. Actual rates depend on credit score, LTV, property type, and loan amount. Contact Mo Abdel at (949) 822-9662 for current personalized quotes.
+          Rate data reflects February 10, 2026 wholesale pricing. Rates subject to daily change. Actual rates depend on credit score, LTV, property type, and loan amount. Contact Mo Abdel at (949) 579-2057 for current personalized quotes.
         </p>
 
         {/* Closing Cost Comparison */}
@@ -780,7 +780,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
             <p className="text-xl font-bold mb-2">Get Your Personalized Wholesale Rate Quote</p>
             <p className="mb-4">Compare rates from 200+ wholesale lenders for your affluent Marin County purchase. Zero obligation.</p>
             <p className="text-2xl font-bold mb-2">
-              <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
+              <a href="tel:9495792057" className="text-white hover:text-slate-200">(949) 579-2057</a>
             </p>
             <p className="text-sm">Mo Abdel | NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
           </div>

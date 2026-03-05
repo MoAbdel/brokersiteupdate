@@ -250,7 +250,7 @@ As a wholesale mortgage broker licensed in California and Washington, Mo Abdel p
 
 **Contact Mo Abdel today** for a no-obligation reverse mortgage consultation.
 
-📞 (949) 822-9662
+📞 (949) 579-2057
 </div>
 
 ---

@@ -32,7 +32,7 @@ const personSchema = {
     "identifier": "NMLS #2716106"
   },
   "identifier": "NMLS #1426884",
-  "telephone": "(949) 822-9662",
+  "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "18301 Von Karman Ave Suite 820",
@@ -116,9 +116,9 @@ export default function AboutMoAbdelPage() {
 
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-              <a href="tel:9498229662" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
+              <a href="tel:9495792057" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 822-9662
+                (949) 579-2057
               </a>
               <div className="inline-flex items-center text-slate-600">
                 <MapPin className="w-5 h-5 mr-2" />
@@ -348,10 +348,10 @@ export default function AboutMoAbdelPage() {
                     Start My Application
                   </Button>
                 </Link>
-                <a href="tel:9498229662">
+                <a href="tel:9495792057">
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
-                    (949) 822-9662
+                    (949) 579-2057
                   </Button>
                 </a>
               </div>

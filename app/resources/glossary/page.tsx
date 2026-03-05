@@ -411,10 +411,10 @@ export default function GlossaryPage() {
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
                 </Link>
-                <a href="tel:+19498229662">
+                <a href="tel:+19495792057">
                   <Button variant="ghost" className="text-blue-600 border-blue-600">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 822-9662
+                    (949) 579-2057
                   </Button>
                 </a>
               </div>

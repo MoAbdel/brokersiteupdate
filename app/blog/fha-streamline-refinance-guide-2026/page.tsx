@@ -680,7 +680,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
             &quot;Every FHA borrower should evaluate a streamline refinance whenever rates drop,&quot; says Mo Abdel, NMLS #1426884. &quot;The reduced documentation and wholesale pricing make this the fastest, most cost-effective refinance in the mortgage industry.&quot;
           </p>
           <p className="text-gray-900 font-semibold">
-            Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-700 hover:underline">(949) 822-9662</a> for a free FHA streamline refinance analysis. We will calculate your net tangible benefit, compare pricing from 200+ wholesale lenders, and determine whether a streamline or conventional refinance produces greater savings for your situation.
+            Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a> for a free FHA streamline refinance analysis. We will calculate your net tangible benefit, compare pricing from 200+ wholesale lenders, and determine whether a streamline or conventional refinance produces greater savings for your situation.
           </p>
         </div>
 

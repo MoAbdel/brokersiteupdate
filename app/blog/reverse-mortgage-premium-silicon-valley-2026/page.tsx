@@ -132,7 +132,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
             '@type': 'LocalBusiness',
             name: 'Lumin Lending - Mo Abdel',
             description: 'Reverse mortgage specialist serving premium Silicon Valley seniors with HECM and proprietary jumbo programs',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: ['Palo Alto', 'Los Altos', 'Saratoga', 'Los Gatos', 'Cupertino'],
             priceRange: '$$$$$'
           })
@@ -711,7 +711,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
             Every consultation begins with a comprehensive review of your home value, current financial situation, and retirement goals. I present both HECM and proprietary options with transparent comparisons so you can make an informed decision. No pressure, no obligation&mdash;just clear information from a licensed specialist who understands Silicon Valley&apos;s unique reverse mortgage landscape.
           </p>
           <p className="mb-2">
-            <strong>Call <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a></strong> for a confidential reverse mortgage consultation.
+            <strong>Call <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a></strong> for a confidential reverse mortgage consultation.
           </p>
         </div>
 
@@ -733,7 +733,7 @@ export default function ReverseMortgagePremiumSiliconValleyPage() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
-            <br />Licensed in: CA, WA | <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a>
+            <br />Licensed in: CA, WA | <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Information provided is for educational purposes only and does not constitute a loan commitment, rate lock, or guarantee of any specific terms. Loan products, rates, and programs are subject to change without notice. Not all borrowers will qualify. This is not a commitment to lend. Reverse mortgage borrowers must maintain property taxes, homeowner&apos;s insurance, and property maintenance. NMLS Consumer Access:{' '}

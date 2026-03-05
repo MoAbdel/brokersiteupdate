@@ -269,7 +269,7 @@ export default function DscrStudentHousingCollegeTownPage() {
             Get a DSCR pre-approval tailored to student housing&mdash;per-bedroom income analysis, lender matching, and rate comparison from 50+ DSCR lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -505,7 +505,7 @@ export default function DscrStudentHousingCollegeTownPage() {
             I will calculate the DSCR ratio for your target student housing property, identify lenders that accept per-bedroom income, and compare terms from 50+ DSCR lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -802,7 +802,7 @@ export default function DscrStudentHousingCollegeTownPage() {
             Tell me about your target student housing property&mdash;university, location, bedroom count, and lease structure&mdash;and I will calculate the DSCR ratio, match you with lenders that properly credit per-bedroom income, and compare terms from 50+ DSCR lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

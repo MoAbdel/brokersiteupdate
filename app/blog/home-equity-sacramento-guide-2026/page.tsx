@@ -181,7 +181,7 @@ export default function HomeEquitySacramentoGuidePage() {
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending, Inc.",
     "description": "Licensed mortgage broker serving the Sacramento and Gold Country region with HELOC, home equity loan, and cash-out refinance products.",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "url": "https://www.mothebroker.com",
     "areaServed": [
       "Sacramento", "El Dorado Hills", "Granite Bay", "Folsom",
@@ -647,7 +647,7 @@ export default function HomeEquitySacramentoGuidePage() {
             Product selection in the current rate environment hinges on your existing first mortgage rate. Homeowners with sub-4% rates originated in 2020-2021 preserve that favorable rate through HELOC products in second lien position. Homeowners with rates above current market levels benefit from cash-out refinancing that simultaneously lowers their first-lien rate and provides equity access. In every case, working with a wholesale broker who compares products from 200+ lenders ensures Sacramento homeowners receive the most competitive rates and lowest fees available.
           </p>
           <p className="text-gray-800 mb-0">
-            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and want to explore your equity options, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the home equity products best suited to your situation.
+            If you own a home in El Dorado Hills, Granite Bay, Folsom, Roseville, or Davis and want to explore your equity options, the first step is a free, no-obligation consultation. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> to discuss your property, your goals, and the home equity products best suited to your situation.
           </p>
         </div>
 
@@ -658,7 +658,7 @@ export default function HomeEquitySacramentoGuidePage() {
             Serving El Dorado Hills, Granite Bay, Folsom, Roseville &amp; Davis
           </p>
           <p className="text-white text-xl font-bold mb-2">
-            <a href="tel:9498229662" className="text-white hover:text-slate-200">(949) 822-9662</a>
+            <a href="tel:9495792057" className="text-white hover:text-slate-200">(949) 579-2057</a>
           </p>
           <p className="text-slate-200 text-sm mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106
@@ -670,7 +670,7 @@ export default function HomeEquitySacramentoGuidePage() {
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
             Licensed in: California, Washington<br />
-            Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a> | Email: <a href="mailto:mo@mothebroker.com" className="text-blue-600">mo@mothebroker.com</a>
+            Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a> | Email: <a href="mailto:mo@mothebroker.com" className="text-blue-600">mo@mothebroker.com</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting, and property appraisal. Home equity products are secured by your property. Failure to make payments may result in loss of your home. Interest rates, terms, and availability are subject to change without notice. Tax deductibility of interest depends on use of funds and individual tax situation; consult a tax advisor. Not available in all states. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-blue-600">nmlsconsumeraccess.org</a>.

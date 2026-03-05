@@ -228,10 +228,10 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -752,7 +752,7 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic mb-6">
-            *Rate adjustments are expressed directionally, not as specific percentages, because they vary by lender, credit score, LTV, DSCR ratio, and market conditions. The key insight is that each step down in PPP length increases the interest rate, and these increases compound over the life of the loan. Current wholesale pricing available by contacting Mo Abdel, NMLS #1426884, at (949) 822-9662.
+            *Rate adjustments are expressed directionally, not as specific percentages, because they vary by lender, credit score, LTV, DSCR ratio, and market conditions. The key insight is that each step down in PPP length increases the interest rate, and these increases compound over the life of the loan. Current wholesale pricing available by contacting Mo Abdel, NMLS #1426884, at (949) 579-2057.
           </p>
         </section>
 
@@ -838,10 +838,10 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
                 Get Your PPP-Optimized DSCR Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

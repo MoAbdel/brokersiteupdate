@@ -713,7 +713,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
             I coordinate HECM reverse mortgage structuring with your elder law attorney to ensure that draw timing, disbursement elections, and fund management align with your Medicaid eligibility requirements. I compare HECM terms across multiple wholesale lenders to secure the most favorable pricing. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

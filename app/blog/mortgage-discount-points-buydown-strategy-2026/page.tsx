@@ -863,7 +863,7 @@ export default function MortgageDiscountPointsPage() {
             I will run a break-even analysis using live wholesale rate sheets from multiple lenders &mdash; showing you the exact cost, rate reduction, monthly savings, and break-even period for each point increment. You will see which lender delivers the most efficient point pricing for your specific loan scenario. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

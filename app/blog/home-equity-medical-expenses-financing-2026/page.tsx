@@ -744,7 +744,7 @@ export default function HomeEquityMedicalExpensesPage() {
             I will compare HELOC, HELOAN, and cash-out refinance options across multiple wholesale lenders and show you the exact rates, payments, and closing costs for each &mdash; side by side. You will see which option costs the least for your specific situation, medical expense amount, and timeline. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

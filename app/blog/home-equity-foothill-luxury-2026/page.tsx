@@ -166,7 +166,7 @@ export default function HomeEquityFoothillLuxury2026() {
     name: 'Mo The Broker - Foothill Luxury Home Equity',
     '@id': 'https://www.mothebroker.com/blog/home-equity-foothill-luxury-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'San Marino' },
       { '@type': 'City', name: 'La Canada Flintridge' },
@@ -794,7 +794,7 @@ export default function HomeEquityFoothillLuxury2026() {
               The critical factor in this market is appraisal accuracy. Retail banks using automated valuations consistently underestimate the premiums that LCUSD schools, San Marino exclusivity, South Pasadena Craftsman character, and Arcadia new-construction quality command. A wholesale broker working with local appraisal specialists captures the true value of your property, directly increasing the equity available for your project. The difference between a $2.7M automated valuation and a $3.1M expert appraisal on a San Marino estate means $320,000 more in HELOC capacity.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for a personalized home equity analysis specific to your San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, or Arcadia property. I will compare HELOC, HELOAN, and cash-out refinance options across multiple jumbo lenders to identify the product that delivers maximum equity access at the best available terms for your unique situation.
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for a personalized home equity analysis specific to your San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, or Arcadia property. I will compare HELOC, HELOAN, and cash-out refinance options across multiple jumbo lenders to identify the product that delivers maximum equity access at the best available terms for your unique situation.
             </p>
           </div>
 

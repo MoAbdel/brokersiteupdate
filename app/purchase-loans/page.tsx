@@ -139,7 +139,7 @@ export default function PurchaseLoansPage() {
               As your mortgage broker, I will help you navigate California and Washington purchase scenarios and secure favorable financing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 579-2057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg flex items-center">
                   <Calculator className="w-5 h-5 mr-2" />
                   Get Pre-Approved Today
@@ -309,7 +309,7 @@ export default function PurchaseLoansPage() {
             </div>
 
             <div className="text-center mt-8">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 579-2057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg flex items-center">
                   <Clock className="w-5 h-5 mr-2" />
                   Start Your Pre-Approval (24 Hour Turnaround)
@@ -385,9 +385,9 @@ export default function PurchaseLoansPage() {
               Get your free pre-approval consultation and discover what you can afford in California and Washington markets.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 579-2057">
                 <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </a>
               <Link href="/contact">

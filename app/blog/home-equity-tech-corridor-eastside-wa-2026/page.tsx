@@ -138,7 +138,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Kirkland',
       description: 'Wholesale mortgage broker serving Kirkland homeowners with HELOC, home equity loans, and cash-out refinance. Google campus tech worker and waterfront equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Kirkland', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -148,7 +148,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Redmond',
       description: 'Wholesale mortgage broker serving Redmond homeowners with HELOC, home equity loans, and cash-out refinance. Microsoft HQ and Nintendo tech compensation specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Redmond', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -158,7 +158,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Woodinville',
       description: 'Wholesale mortgage broker serving Woodinville homeowners with HELOC, home equity loans, and cash-out refinance. Wine country estate and rural-luxury property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Woodinville', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -168,7 +168,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Issaquah',
       description: 'Wholesale mortgage broker serving Issaquah homeowners with HELOC, home equity loans, and cash-out refinance. Highlands and Talus mountain community equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Issaquah', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -178,7 +178,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Bothell',
       description: 'Wholesale mortgage broker serving Bothell homeowners with HELOC, home equity loans, and cash-out refinance. UW Bothell corridor and biotech professional equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Bothell', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$',
@@ -912,7 +912,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
 
           <div className="bg-white rounded-lg p-4 border border-blue-300">
             <p className="text-gray-800 font-semibold mb-2">Get Your Free Tech Corridor Home Equity Analysis</p>
-            <p className="text-gray-700 mb-3">Call <a href="tel:9498229662" className="text-blue-700 font-bold hover:underline">(949) 822-9662</a> or apply online for a no-obligation equity assessment with specific product recommendations tailored to your employer, property type, and financial goals.</p>
+            <p className="text-gray-700 mb-3">Call <a href="tel:9495792057" className="text-blue-700 font-bold hover:underline">(949) 579-2057</a> or apply online for a no-obligation equity assessment with specific product recommendations tailored to your employer, property type, and financial goals.</p>
             <p className="text-sm text-gray-500">Mo Abdel | NMLS #1426884 | Lumin Lending | NMLS #2716106</p>
           </div>
         </section>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import ContactPageClient from './ContactPageClient';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import { getAudienceContext } from '@/lib/audience';
 
 export const metadata: Metadata = {
   title: 'Contact Orange County Mortgage Broker | Fast Rate Quote | Mo Abdel',
@@ -31,7 +33,9 @@ const contactPageSchema = buildServiceWebPageSchema({
   breadcrumbName: 'Contact',
 });
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const audience = getAudienceContext(await headers());
+
   return (
     <>
       <script
@@ -42,7 +46,10 @@ export default function ContactPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
       />
-      <ContactPageClient />
+      <ContactPageClient
+        leadCaptureEnabled={audience.isUsEligible}
+        countryCode={audience.countryCode}
+      />
     </>
   );
 }

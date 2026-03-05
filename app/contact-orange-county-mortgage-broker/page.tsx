@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 200+ lenders access. Free consultation, 18-day closings. Call (949) 822-9662 or apply online.',
+  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 200+ lenders access. Free consultation, 18-day closings. Call (949) 579-2057 or apply online.',
   alternates: {
     canonical: 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
     languages: {
@@ -26,7 +26,7 @@ const contactSchema = {
   "alternateName": "Mo The Broker",
   "description": "Licensed mortgage broker serving Orange County with access to 200+ lenders",
   "identifier": "NMLS #1426884",
-  "telephone": "(949) 822-9662",
+  "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "18301 Von Karman Ave Suite 820",
@@ -91,7 +91,7 @@ const contactSchema = {
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "contactType": "customer service",
     "areaServed": "Orange County, CA",
     "availableLanguage": "English",
@@ -162,9 +162,9 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
 
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+19498229662" className="inline-flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700">
+              <a href="tel:+19495792057" className="inline-flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700">
                 <Phone className="w-6 h-6 mr-2" />
-                (949) 822-9662
+                (949) 579-2057
               </a>
               <div className="inline-flex items-center text-slate-600 text-lg">
                 <MapPin className="w-5 h-5 mr-2" />
@@ -223,8 +223,8 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Call or Text</h3>
-                      <a href="tel:+19498229662" className="text-blue-600 hover:text-blue-700 text-xl font-bold">
-                        (949) 822-9662
+                      <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-700 text-xl font-bold">
+                        (949) 579-2057
                       </a>
                       <p className="text-sm text-slate-600">Available 24/7 - Call anytime</p>
                     </div>
@@ -400,10 +400,10 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   Time-sensitive mortgage questions? I'm available 24/7 for urgent inquiries.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:+19498229662">
+                  <a href="tel:+19495792057">
                     <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-4 text-lg font-semibold">
                       <Phone className="w-5 h-5 mr-2" />
-                      Call Now: (949) 822-9662
+                      Call Now: (949) 579-2057
                     </Button>
                   </a>
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg">

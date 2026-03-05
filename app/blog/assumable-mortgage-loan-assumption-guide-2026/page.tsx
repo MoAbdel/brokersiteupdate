@@ -269,7 +269,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
             Get expert guidance on VA and FHA loan assumptions&mdash;including equity gap financing from 200+ lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Consultation</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Consultation</Link>
           </p>
         </div>
 
@@ -536,7 +536,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
             I will analyze whether assuming an existing loan or obtaining a new mortgage saves you more money&mdash;factoring in rates, fees, equity gap financing, and total cost of ownership. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -795,7 +795,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
             Tell me about the property you are considering purchasing&mdash;if the seller has an assumable VA or FHA loan with a below-market rate, I will coordinate the assumption process and arrange equity gap financing from 200+ lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

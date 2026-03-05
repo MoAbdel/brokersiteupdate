@@ -200,7 +200,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
             "description": "Licensed mortgage broker serving San Diego County with reverse mortgage expertise",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "url": "https://www.mothebroker.com",
             "areaServed": [
               { "@type": "City", "name": "Del Mar", "containedInPlace": { "@type": "State", "name": "California" } },
@@ -682,7 +682,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             For most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,209,750 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
           </p>
           <p className="text-gray-800 mb-0">
-            HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> to discuss your San Diego reverse mortgage options.
+            HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your San Diego reverse mortgage options.
           </p>
         </div>
 
@@ -692,7 +692,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Licensed in: California, Washington | Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a>
+            Licensed in: California, Washington | Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mb-0">
             Equal Housing Lender. All loans subject to credit approval. Reverse mortgage borrowers must be 62 years of age or older. HUD-approved counseling is required for HECM loans. This information is for educational purposes only and does not constitute a loan commitment or guarantee of terms. Property values and estimated proceeds are approximate and based on publicly available market data. Actual results may vary based on individual circumstances, property appraisal, and current market conditions. HECM loans are insured by the Federal Housing Administration (FHA). Not affiliated with or endorsed by any government agency.

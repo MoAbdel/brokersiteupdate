@@ -229,10 +229,10 @@ export default function DSCRBlanketLoanPortfolio2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -570,7 +570,7 @@ export default function DSCRBlanketLoanPortfolio2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic mb-6">
-            Qualification requirements vary by lender and are subject to change. DSCR ratios, LTV limits, and reserve requirements are lender-specific. The <a href="https://www.irs.gov/publications/p527" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">IRS Publication 527</a> provides guidance on rental income reporting for tax purposes. Contact Mo Abdel at (949) 822-9662 for current wholesale blanket DSCR program availability.
+            Qualification requirements vary by lender and are subject to change. DSCR ratios, LTV limits, and reserve requirements are lender-specific. The <a href="https://www.irs.gov/publications/p527" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">IRS Publication 527</a> provides guidance on rental income reporting for tax purposes. Contact Mo Abdel at (949) 579-2057 for current wholesale blanket DSCR program availability.
           </p>
         </section>
 
@@ -751,7 +751,7 @@ export default function DSCRBlanketLoanPortfolio2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic mb-6">
-            Program features, rates, and requirements vary by individual lender within each tier and are subject to change without notice. DSCR ratios and projections are estimates and vary by lender. These represent typical ranges as of February 2026. Contact Mo Abdel, NMLS #1426884, at (949) 822-9662 for current blanket program availability.
+            Program features, rates, and requirements vary by individual lender within each tier and are subject to change without notice. DSCR ratios and projections are estimates and vary by lender. These represent typical ranges as of February 2026. Contact Mo Abdel, NMLS #1426884, at (949) 579-2057 for current blanket program availability.
           </p>
         </section>
 
@@ -861,10 +861,10 @@ export default function DSCRBlanketLoanPortfolio2026() {
                 Get Your Blanket DSCR Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

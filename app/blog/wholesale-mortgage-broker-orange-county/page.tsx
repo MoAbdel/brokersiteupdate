@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             "name": "Mo The Broker - Orange County Wholesale Mortgage",
             "@id": "https://www.mothebroker.com",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressRegion": "CA",
@@ -554,7 +554,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             Whether you are buying your first home in Costa Mesa, upgrading to a Laguna Beach estate, refinancing in Irvine, or investing in rental properties, wholesale mortgage access provides advantages over traditional bank financing.
           </p>
           <p className="mb-2">
-            <strong>Call:</strong> <a href="tel:+19498229662" className="text-blue-600">(949) 822-9662</a>
+            <strong>Call:</strong> <a href="tel:+19495792057" className="text-blue-600">(949) 579-2057</a>
           </p>
           <p className="mb-0">
             <strong>Serving:</strong> All Orange County cities including Newport Beach, Irvine, Huntington Beach, Laguna Beach, Costa Mesa, Yorba Linda, Anaheim, Mission Viejo, and surrounding communities.

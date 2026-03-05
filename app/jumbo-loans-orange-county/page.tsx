@@ -122,7 +122,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Apply for Jumbo Loan
                   </Button>
                 </Link>
-                <a href="tel:+19498229662">
+                <a href="tel:+19495792057">
                   <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg" aria-label="Call jumbo loan specialist">
                     Call Jumbo Specialist
                   </Button>
@@ -624,9 +624,9 @@ export default function JumboLoansOrangeCountyPage() {
                   Apply for Jumbo Loan
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Call jumbo loan expert at (949) 822-9662">
-                  Call Jumbo Expert: (949) 822-9662
+              <a href="tel:+19495792057">
+                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg" aria-label="Call jumbo loan expert at (949) 579-2057">
+                  Call Jumbo Expert: (949) 579-2057
                 </Button>
               </a>
             </div>

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide & Comparison | Mo Abdel NMLS #1426884',
-  description: 'Reverse mortgage interest rates 2026 explained: HECM rate structure, margin vs index, fixed vs adjustable, and how wholesale brokers find competitive rates across 200+ lenders.',
+  title: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
+  description: 'See how HECM fixed and adjustable reverse mortgage rates work in March 2026, including margin vs index, how rates affect proceeds, and what to compare before you choose a lender.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
     languages: {
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     'reverse mortgage SOFR index',
   ],
   openGraph: {
-    title: 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide & Comparison',
-    description: 'How HECM interest rates work, what factors affect your rate, and how a wholesale broker compares margins across 200+ lenders to find competitive terms.',
+    title: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
+    description: 'Understand HECM fixed vs adjustable rates, lender margins, index changes, and how pricing affects available proceeds in March 2026.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
     type: 'article',
     publishedTime: '2026-03-01',
@@ -88,8 +88,8 @@ export default function ReverseMortgageInterestRatesPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide & Comparison',
-    description: 'How HECM interest rates are structured, what factors affect your rate, and how wholesale brokers compare margins across 200+ lenders for competitive terms.',
+    headline: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
+    description: 'How HECM fixed and adjustable reverse mortgage rates work, what changes your available proceeds, and what borrowers should compare before choosing a lender.',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -148,7 +148,7 @@ export default function ReverseMortgageInterestRatesPage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'HECM Interest Rates 2026',
+        name: 'Current Reverse Mortgage Rates (March 2026)',
         item: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
       },
     ],
@@ -201,10 +201,10 @@ export default function ReverseMortgageInterestRatesPage() {
           <span>14 min read</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide and Comparison
+          Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          HECM interest rates determine both your borrowing cost and how much equity you can access. Understanding the difference between the lender margin, the published index, and the HUD-set mortgage insurance premium empowers you to shop effectively. Here is how reverse mortgage rates work in 2026 and how a wholesale broker compares terms across 200+ lenders.
+          Reverse mortgage rates affect both the cost of borrowing and how much equity you can access. This guide breaks down HECM fixed vs adjustable pricing, the difference between the lender margin and the published index, and the questions borrowers should ask before comparing lenders in March 2026.
         </p>
         <p className="text-sm text-gray-500 mt-4">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -770,10 +770,10 @@ export default function ReverseMortgageInterestRatesPage() {
               Schedule Rate Consultation
             </Link>
             <a
-              href="tel:+19498229662"
+              href="tel:+19495792057"
               className="inline-block border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 822-9662
+              Call (949) 579-2057
             </a>
           </div>
         </div>

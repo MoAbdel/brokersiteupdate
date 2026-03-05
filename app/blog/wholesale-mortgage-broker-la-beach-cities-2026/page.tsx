@@ -169,7 +169,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
     name: 'Mo The Broker - LA Beach Cities Wholesale Mortgage',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-beach-cities-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Manhattan Beach' },
       { '@type': 'City', name: 'Hermosa Beach' },
@@ -803,7 +803,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
               The financial impact is measurable. On a $3.4 million Manhattan Beach jumbo loan, a 0.25% rate advantage through wholesale channels saves $85,000 over a 10-year hold period. The qualification impact is greater: aerospace professionals whose banks count only base salary qualify at their full RSU-inclusive compensation through wholesale lenders, gaining access to homes their banks said they could not afford.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for a confidential mortgage analysis specific to your Manhattan Beach, Hermosa Beach, Redondo Beach, or El Segundo purchase. I will compare programs across multiple wholesale lenders to identify the best rates, terms, and qualification strategy for your unique income profile, target section, and competitive timeline.
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for a confidential mortgage analysis specific to your Manhattan Beach, Hermosa Beach, Redondo Beach, or El Segundo purchase. I will compare programs across multiple wholesale lenders to identify the best rates, terms, and qualification strategy for your unique income profile, target section, and competitive timeline.
             </p>
           </div>
 

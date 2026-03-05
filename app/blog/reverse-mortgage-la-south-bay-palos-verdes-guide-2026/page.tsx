@@ -180,7 +180,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
     name: 'Mo The Broker - LA South Bay & Palos Verdes',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates' },
       { '@type': 'City', name: 'Rancho Palos Verdes' },
@@ -916,7 +916,7 @@ export default function ReverseMortgageLASouthBayPalosVerdesGuide2026() {
               relationships, I provide the comparison shopping that ensures you receive the best available terms.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for
               a confidential reverse mortgage analysis specific to your LA South Bay or Palos Verdes property. I will compare
               HECM and proprietary jumbo options across multiple lenders to identify the program that maximizes your proceeds
               while protecting your interests and your family&apos;s inheritance.

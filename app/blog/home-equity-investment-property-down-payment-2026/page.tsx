@@ -162,10 +162,10 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -362,7 +362,7 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic mb-6">
-            *Minimum home value assumes a HELOC or cash-out refinance at 80% CLTV with the listed existing mortgage balance. Actual accessible equity depends on your specific mortgage balance, home value, and lender CLTV limits. Closing costs and reserves are additional. Contact Mo Abdel at (949) 822-9662 for a personalized equity analysis.
+            *Minimum home value assumes a HELOC or cash-out refinance at 80% CLTV with the listed existing mortgage balance. Actual accessible equity depends on your specific mortgage balance, home value, and lender CLTV limits. Closing costs and reserves are additional. Contact Mo Abdel at (949) 579-2057 for a personalized equity analysis.
           </p>
         </section>
 
@@ -791,10 +791,10 @@ export default function HomeEquityInvestmentPropertyDownPayment2026() {
                 Get Your Equity-to-Investment Strategy
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

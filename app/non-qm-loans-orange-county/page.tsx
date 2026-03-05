@@ -414,9 +414,9 @@ export default function NonQMLoansOrangeCounty() {
                 Start Your Application
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
-              <Button size="lg" variant="outline" aria-label="Call Mo Abdel at (949) 822-9662" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
-                Call (949) 822-9662
+            <a href="tel:(949) 579-2057">
+              <Button size="lg" variant="outline" aria-label="Call Mo Abdel at (949) 579-2057" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

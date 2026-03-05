@@ -255,7 +255,7 @@ async def query_bing_status():
 
         # Page Traffic (Top Pages)
         try:
-            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetPageTraffic?siteUrl={encoded_site}&apikey={BING_API_KEY}"
+            url = f"https://ssl.bing.com/webmaster/api.svc/json/GetPageStats?siteUrl={encoded_site}&apikey={BING_API_KEY}"
             async with session.get(url) as response:
                 if response.status == 200:
                     data = await response.json()
@@ -263,7 +263,7 @@ async def query_bing_status():
                     if pages:
                         print(f"\nTop Pages by Traffic (Bing):")
                         for i, page in enumerate(pages[:10], 1):
-                            page_url = page.get('Url', 'Unknown')
+                            page_url = page.get('Query', 'Unknown')
                             clicks = page.get('Clicks', 0)
                             impressions = page.get('Impressions', 0)
                             short_url = page_url.replace(SITE_URL, '')[:50]

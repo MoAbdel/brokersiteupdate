@@ -154,7 +154,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'South Sound reverse mortgage specialist serving Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom seniors 62+.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -342,7 +342,7 @@ export default function ReverseMortgageSouthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Calculation Note:</strong> HECM proceeds estimates reflect February 2026 interest rate conditions. Actual proceeds vary based on exact age, property value, interest rate at time of application, and existing mortgage balance. Contact Mo Abdel at (949) 822-9662 for a personalized HECM calculation for your specific South Sound property.
+            <strong>Calculation Note:</strong> HECM proceeds estimates reflect February 2026 interest rate conditions. Actual proceeds vary based on exact age, property value, interest rate at time of application, and existing mortgage balance. Contact Mo Abdel at (949) 579-2057 for a personalized HECM calculation for your specific South Sound property.
           </p>
         </div>
 
@@ -758,14 +758,14 @@ export default function ReverseMortgageSouthSoundGuide2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized HECM analysis for South Sound seniors through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From initial consultation through closing, Mo coordinates appraiser selection, HUD counseling referrals, lender matching for both HECM and proprietary products, and VA-to-equity transition planning for military retirees.
           </p>
           <p className="text-slate-900 mb-0">
-            <strong>Ready to explore your South Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation HECM calculation based on your specific property and age.
+            <strong>Ready to explore your South Sound reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation HECM calculation based on your specific property and age.
           </p>
         </div>
 
         {/* Disclaimer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, and existing mortgage balance. Borrowers must complete HUD-approved counseling before application. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized HECM analysis.
+            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, and existing mortgage balance. Borrowers must complete HUD-approved counseling before application. Mo Abdel (NMLS #1426884) is licensed in Washington and California through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized HECM analysis.
           </p>
         </div>
       </section>

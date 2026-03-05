@@ -97,7 +97,7 @@ export default function HomeEquityMalibuPage() {
     "description": "Licensed mortgage broker serving Malibu homeowners with jumbo HELOC, home equity loans, and cash-out refinance options for high-value coastal properties.",
     "@id": "https://www.mothebroker.com",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "address": {
       "@type": "PostalAddress",
       "addressRegion": "CA",
@@ -566,7 +566,7 @@ export default function HomeEquityMalibuPage() {
         </p>
 
         <p>
-          Call <a href="tel:9498229662"><strong>(949) 822-9662</strong></a> to discuss your Malibu home equity options with Mo Abdel.
+          Call <a href="tel:9495792057"><strong>(949) 579-2057</strong></a> to discuss your Malibu home equity options with Mo Abdel.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">
@@ -590,7 +590,7 @@ export default function HomeEquityMalibuPage() {
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <p className="text-sm text-gray-700">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443<br />
-            Licensed in: CA, WA | <a href="tel:9498229662">(949) 822-9662</a>
+            Licensed in: CA, WA | <a href="tel:9495792057">(949) 579-2057</a>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance. Property insurance, including adequate wildfire coverage, is required for all equity products.

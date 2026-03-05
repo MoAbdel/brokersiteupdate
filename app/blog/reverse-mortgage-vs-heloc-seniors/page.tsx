@@ -734,7 +734,7 @@ export default function ReverseMortgageVsHELOCSeniorsPage() {
           </p>
 
           <p className="text-lg font-semibold text-gray-900">
-            <strong>Contact Mo Abdel today</strong> for a personalized comparison of reverse mortgage and HELOC options for your situation. We will analyze your current finances, project long-term outcomes, and help you determine which product best serves your retirement goals. Call <a href="tel:+19498229662" className="text-blue-700 hover:text-green-900">(949) 822-9662</a> or <Link href="/contact" className="text-blue-700 hover:text-green-900">request a consultation online</Link>.
+            <strong>Contact Mo Abdel today</strong> for a personalized comparison of reverse mortgage and HELOC options for your situation. We will analyze your current finances, project long-term outcomes, and help you determine which product best serves your retirement goals. Call <a href="tel:+19495792057" className="text-blue-700 hover:text-green-900">(949) 579-2057</a> or <Link href="/contact" className="text-blue-700 hover:text-green-900">request a consultation online</Link>.
           </p>
         </div>
 

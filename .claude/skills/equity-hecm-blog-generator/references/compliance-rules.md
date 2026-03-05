@@ -20,7 +20,7 @@
 | Company NMLS | #2716106 |
 | DRE License | #02291443 |
 | Licensed States | **CA, WA — ONLY** |
-| Phone | (949) 822-9662 |
+| Phone | (949) 579-2057 |
 | Lender Network | 200+ lenders |
 
 ### Hard Rules

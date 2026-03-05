@@ -230,7 +230,7 @@ export default function ReverseMortgageMedina() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold">Contact Mo Abdel today for a confidential consultation:</p>
-            <p>Phone: (949) 822-9662</p>
+            <p>Phone: (949) 579-2057</p>
             <p>NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>
           </div>

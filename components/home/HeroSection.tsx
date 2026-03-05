@@ -73,11 +73,11 @@ export default function HeroSection() {
               </Button>
             </Link>
 
-            <a href="tel:+19498229662" className="w-full sm:w-auto">
+            <a href="tel:+19495792057" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 variant="outline"
-                aria-label="Schedule a mortgage strategy session - call (949) 822-9662"
+                aria-label="Schedule a mortgage strategy session - call (949) 579-2057"
                 className="w-full sm:w-auto h-12 px-8 text-base font-medium rounded-full"
               >
                 <Phone className="w-4 h-4 mr-2" />

@@ -8,7 +8,7 @@ import { DollarSign, PieChart, TrendingUp, Users, Check, AlertCircle, Calculator
 
 export const metadata: Metadata = {
   title: 'Asset Depletion Loans Orange County | Asset-Based Mortgage | High Net Worth Lending',
-  description: 'Asset depletion loans in Orange County for high net worth borrowers. Qualify using retirement accounts, investments, and liquid assets. No income documentation required. Call (949) 822-9662.',
+  description: 'Asset depletion loans in Orange County for high net worth borrowers. Qualify using retirement accounts, investments, and liquid assets. No income documentation required. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/asset-depletion-loans',
     languages: {
@@ -39,9 +39,9 @@ export default function AssetDepletionLoansPage() {
                 Get Asset-Based Pre-Approval
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-green-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -454,9 +454,9 @@ export default function AssetDepletionLoansPage() {
                 Start Asset-Based Application
               </Button>
             </Link>
-            <a href="tel:(949) 822-9662">
+            <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

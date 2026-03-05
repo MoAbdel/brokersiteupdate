@@ -163,7 +163,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Ultra-luxury reverse mortgage specialist serving Medina, Clyde Hill, Hunts Point, Yarrow Point, Beaux Arts Village, Mercer Island, and Bellevue homeowners.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -925,7 +925,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized jumbo reverse mortgage analysis for ultra-luxury Eastside homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From MAI appraiser coordination to multi-lender product comparison and trust document review, Mo manages the entire process for estates valued $2 million to $15 million+.
           </p>
           <p className="text-blue-800 mb-0">
-            <strong>Ready to explore your Eastside reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
+            <strong>Ready to explore your Eastside reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
           </p>
         </div>
 
@@ -946,7 +946,7 @@ export default function ReverseMortgageUltraLuxuryEastsideWA2026() {
         {/* Compliance Footer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Proprietary jumbo reverse mortgage products are subject to individual lender guidelines and may not be available in all circumstances. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, program selection, and existing mortgage balance. Borrowers must complete HUD-approved counseling for HECM products. Tax implications discussed are general in nature; consult a qualified tax professional and estate planning attorney for advice specific to your situation. Mo Abdel (NMLS #1426884) is licensed in California and Washington through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Licensed in California &amp; Washington. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized reverse mortgage analysis.
+            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Proprietary jumbo reverse mortgage products are subject to individual lender guidelines and may not be available in all circumstances. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, program selection, and existing mortgage balance. Borrowers must complete HUD-approved counseling for HECM products. Tax implications discussed are general in nature; consult a qualified tax professional and estate planning attorney for advice specific to your situation. Mo Abdel (NMLS #1426884) is licensed in California and Washington through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Licensed in California &amp; Washington. Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized reverse mortgage analysis.
           </p>
         </div>
       </section>

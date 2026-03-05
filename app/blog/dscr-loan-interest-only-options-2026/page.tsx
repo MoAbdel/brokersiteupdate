@@ -4,12 +4,12 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, TrendingUp, Pie
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'DSCR Interest-Only Loans 2026: Maximize Cash Flow on Investment Property | Mo Abdel',
-  description: 'DSCR interest-only loans reduce monthly payments by 20-30% compared to fully amortizing options, maximizing cash flow for rental property investors. IO periods range from 5-10 years. Learn qualification requirements and when IO makes sense. NMLS #1426884.',
+  title: 'DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow',
+  description: 'Compare 5-, 7-, and 10-year interest-only DSCR options, how IO payments affect your ratio, and the refinance and payment-shock risks investors need to plan for in 2026.',
   keywords: ['DSCR interest-only loan', 'DSCR IO loan', 'interest-only DSCR', 'DSCR loan interest only payments', 'IO DSCR investment property', 'interest-only rental property loan', 'DSCR cash flow optimization', 'DSCR IO period options', 'interest-only investment mortgage 2026', 'DSCR loan maximize cash flow'],
   openGraph: {
-    title: 'DSCR Interest-Only Loans 2026: Maximize Cash Flow on Investment Property',
-    description: 'DSCR interest-only loans reduce monthly payments by 20-30% compared to fully amortizing options, maximizing cash flow for rental property investors. IO periods range from 5-10 years.',
+    title: 'DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow',
+    description: 'Learn how 5-, 7-, and 10-year IO DSCR options change monthly payments, qualification, refinance timing, and long-term cash flow planning in 2026.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -84,7 +84,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Interest-Only Loans 2026: Maximize Cash Flow on Investment Property",
+            "headline": "DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -144,7 +144,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mothebroker.com" },
               { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mothebroker.com/blog" },
-              { "@type": "ListItem", "position": 3, "name": "DSCR Interest-Only Loans 2026" }
+              { "@type": "ListItem", "position": 3, "name": "DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow" }
             ]
           })
         }}
@@ -174,11 +174,11 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Interest-Only Loans 2026: Maximize Cash Flow on Investment Property
+              DSCR Interest-Only Loans 2026: IO Periods, Rates &amp; Cash Flow
             </h1>
 
             <p className="speakable-hook text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, DSCR interest-only loans reduce monthly mortgage payments by 20-30% compared to fully amortizing options, creating significantly stronger cash flow for rental property investors. The National Association of Realtors reports 28% of single-family home purchases in 2025 were made by investors &mdash; the highest share in over a decade &mdash; and IO DSCR programs are a primary financing tool driving that growth. Interest-only periods of 5, 7, and 10 years allow investors to defer principal payments while collecting rental income, improving DSCR ratios and freeing capital for additional acquisitions. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">Consumer Financial Protection Bureau</a> data shows non-QM lending volume increased 35% year-over-year through Q3 2025, with IO DSCR products representing a growing segment. With 200+ wholesale lenders offering IO DSCR programs in February 2026, investors who access wholesale channels secure more competitive IO terms than any single retail bank provides.
+              DSCR interest-only loans lower monthly payments during the initial IO period, which can improve your debt-service ratio and increase early cash flow on a rental property. This 2026 guide compares 5-, 7-, and 10-year IO options, explains how lenders underwrite the payment, and outlines the refinance and payment-shock risks investors need to plan for before choosing this structure.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -189,10 +189,10 @@ export default function DSCRLoanInterestOnlyOptions2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -872,10 +872,10 @@ export default function DSCRLoanInterestOnlyOptions2026() {
                 Get Your IO DSCR Loan Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

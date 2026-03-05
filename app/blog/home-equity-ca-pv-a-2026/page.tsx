@@ -136,7 +136,7 @@ export default function HomeEquityCaPvA2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -924,7 +924,7 @@ export default function HomeEquityCaPvA2026() {
                 Contact Mo Abdel for a complimentary equity analysis comparing rates from 200+ lenders. I specialize in jumbo and super-jumbo HELOC, HELOAN, and cash-out refinance products for Palos Verdes Peninsula and South Bay homeowners.
               </p>
               <ul className="text-slate-900 space-y-1">
-                <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-blue-700 hover:underline">(949) 822-9662</a></li>
+                <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a></li>
                 <li><strong>NMLS #1426884</strong> | Lumin Lending NMLS #2716106 | DRE #02291443</li>
                 <li><strong>Licensed in:</strong> California &amp; Washington</li>
                 <li><strong>Equal Housing Lender</strong></li>
@@ -950,7 +950,7 @@ export default function HomeEquityCaPvA2026() {
           {/* ========== COMPLIANCE FOOTER ========== */}
           <div className="border-t border-gray-200 pt-6 mt-8">
             <p className="text-xs text-gray-500 leading-relaxed">
-              Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | Equal Housing Lender. This article is for informational purposes only and does not constitute a loan commitment, rate guarantee, or financial advice. All loan programs subject to credit and underwriting approval. Rates, terms, and program availability subject to change without notice. Loan amounts, tappable equity estimates, and property values referenced are approximations based on publicly available market data and do not represent guaranteed values or loan amounts. Actual loan terms depend on individual borrower qualifications, property appraisal, and lender guidelines. Consult with a qualified tax advisor regarding the deductibility of mortgage interest. HELOC interest deductibility depends on how funds are used. Not all borrowers will qualify for the products or terms described. California Department of Real Estate license. Licensed in California and Washington. Contact (949) 822-9662 for current rates and program details.
+              Mo Abdel | NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | Equal Housing Lender. This article is for informational purposes only and does not constitute a loan commitment, rate guarantee, or financial advice. All loan programs subject to credit and underwriting approval. Rates, terms, and program availability subject to change without notice. Loan amounts, tappable equity estimates, and property values referenced are approximations based on publicly available market data and do not represent guaranteed values or loan amounts. Actual loan terms depend on individual borrower qualifications, property appraisal, and lender guidelines. Consult with a qualified tax advisor regarding the deductibility of mortgage interest. HELOC interest deductibility depends on how funds are used. Not all borrowers will qualify for the products or terms described. California Department of Real Estate license. Licensed in California and Washington. Contact (949) 579-2057 for current rates and program details.
             </p>
           </div>
 

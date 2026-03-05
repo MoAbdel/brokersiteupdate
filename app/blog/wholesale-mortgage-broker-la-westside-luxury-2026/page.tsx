@@ -172,7 +172,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California wholesale mortgage broker serving LA Westside communities including Culver City, Marina del Rey, Playa del Rey, and Westchester with 200+ lender access.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$$",
     "areaServed": [
       { "@type": "City", "name": "Culver City" },
@@ -769,7 +769,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
               From bank statement programs for self-employed showrunners to non-warrantable condo financing for Marina del Rey waterfront units to DSCR investor loans for Culver City rental properties, wholesale access provides both better rates and more program options than any single retail bank. The typical LA Westside borrower saves $4,000 to $8,000 annually on a jumbo loan through wholesale pricing.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore wholesale mortgage rates for your LA Westside purchase or refinance? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized rate quote covering jumbo, bank statement, DSCR, and specialized entertainment income programs.
+              Ready to explore wholesale mortgage rates for your LA Westside purchase or refinance? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a personalized rate quote covering jumbo, bank statement, DSCR, and specialized entertainment income programs.
             </p>
           </div>
 
@@ -790,7 +790,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. All loans subject to credit approval. This is not a commitment to lend. Rate comparisons are based on typical wholesale vs retail pricing and are not guaranteed. Property values are estimates based on recent MLS data and vary by specific location and condition. Self-employed and non-QM programs have specific eligibility requirements. DSCR loans are for investment properties only. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

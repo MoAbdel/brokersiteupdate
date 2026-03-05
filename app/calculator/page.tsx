@@ -132,10 +132,10 @@ export default function CalculatorPage() {
               Get My Actual Rate
             </a>
             <a
-              href="tel:(949) 822-9662"
+              href="tel:(949) 579-2057"
               className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
-              Call (949) 822-9662
+              Call (949) 579-2057
             </a>
           </div>
         </div>

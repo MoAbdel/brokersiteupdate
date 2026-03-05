@@ -272,7 +272,7 @@ export default function NoClosingCostRefinanceGuidePage() {
             Get a side-by-side comparison of no-closing-cost and traditional refinance options from 200+ lenders&mdash;tailored to your hold period.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -516,7 +516,7 @@ export default function NoClosingCostRefinanceGuidePage() {
             I will model both no-cost and traditional refinance options from 200+ lenders for your specific loan amount and expected hold period. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -763,7 +763,7 @@ export default function NoClosingCostRefinanceGuidePage() {
             Tell me your loan amount, current rate, and how long you expect to keep the home&mdash;and I will model both no-closing-cost and traditional refinance options from 200+ lenders so you can see exactly which approach saves you more. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

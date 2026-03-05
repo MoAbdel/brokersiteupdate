@@ -3,8 +3,11 @@
 import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { ArrowRight, Shield } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { getTermsConsentPayload } from '@/lib/terms-consent';
 
 // Google Ads conversion tracking
 
@@ -37,11 +40,13 @@ export default function QuickQuote() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [termsConsent, setTermsConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMessage(null);
     
     try {
       const response = await fetch('/api/quotes', {
@@ -50,6 +55,7 @@ export default function QuickQuote() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          ...getTermsConsentPayload(),
           full_name: `${formData.firstName} ${formData.lastName}`,
           email: formData.email,
           phone: formData.phone,
@@ -61,7 +67,12 @@ export default function QuickQuote() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit quote');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Failed to submit your quote request. Please try again.'
+          )
+        );
       }
       
       // Track Google Ads conversion
@@ -86,10 +97,15 @@ export default function QuickQuote() {
         timeline: "",
         additionalInfo: ""
       });
+      setTermsConsent(false);
     } catch (error) {
       console.error("Error submitting quote request:", error);
-      setShowError(true);
-      setTimeout(() => setShowError(false), 5000); // Hide error after 5 seconds
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Failed to submit your quote request. Please try again.'
+      );
+      setTimeout(() => setErrorMessage(null), 5000);
     }
     
     setIsSubmitting(false);
@@ -146,10 +162,10 @@ export default function QuickQuote() {
             Fill out the form below and I'll get back to you within 1 business day with a personalized loan quote.
           </p>
           
-          {showError && (
+          {errorMessage && (
             <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
               <p className="text-red-600 text-sm">
-                There was an error submitting your request. Please try again or call us directly at (949) 822-9662.
+                {errorMessage}
               </p>
             </div>
           )}
@@ -283,16 +299,11 @@ export default function QuickQuote() {
               ></textarea>
             </div>
 
-            <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
-              <input type="checkbox" required className="mt-1 shrink-0" />
-              <span>
-                By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-              </span>
-            </label>
+            <InquiryTermsConsent checked={termsConsent} onCheckedChange={setTermsConsent} />
 
             <Button
               type="submit"
-              disabled={isSubmitting}
+              disabled={isSubmitting || !termsConsent}
               className="w-full bg-slate-900 hover:bg-slate-800 text-white py-4 text-lg font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               {isSubmitting ? (

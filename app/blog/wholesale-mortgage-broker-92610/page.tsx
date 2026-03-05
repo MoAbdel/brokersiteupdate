@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92610Page() {
             "name": "Mo The Broker - Foothill Ranch",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Foothill Ranch",

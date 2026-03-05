@@ -3,13 +3,18 @@
 import React, { useState, useEffect } from 'react';
 import { X, CheckCircle, ArrowRight, ShieldCheck, Banknote, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 export default function ExitIntentModal() {
   const [isVisible, setIsVisible] = useState(false);
   const [hasShown, setHasShown] = useState(false);
   const [step, setStep] = useState(1); // 1 = Offer, 2 = Form, 3 = Success
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [termsConsent, setTermsConsent] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
     email: '',
@@ -62,6 +67,7 @@ export default function ExitIntentModal() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMessage(null);
 
     try {
       const submitData = new FormData();
@@ -70,6 +76,7 @@ export default function ExitIntentModal() {
       submitData.append('phone', formData.phone);
       submitData.append('source', 'Exit Intent Modal');
       submitData.append('_subject', `Exit Intent Lead - ${formData.firstName}`);
+      appendTermsConsentToFormData(submitData);
 
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -88,17 +95,26 @@ export default function ExitIntentModal() {
              });
         }
         setStep(3);
+        setTermsConsent(false);
         // Auto close after a few seconds? or let them close
         setTimeout(() => {
            setIsVisible(false);
         }, 5000);
       } else {
-        throw new Error('Submission failed');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Unable to submit your rate request right now. Please try again.'
+          )
+        );
       }
     } catch (error) {
       console.error('Exit intent submission error:', error);
-      // Fallback success for user experience if API fails (rare)
-      setStep(3);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Unable to submit your rate request right now. Please try again.'
+      );
     } finally {
       setIsSubmitting(false);
     }
@@ -252,17 +268,27 @@ export default function ExitIntentModal() {
                         />
                     </div>
 
+                    <InquiryTermsConsent
+                      checked={termsConsent}
+                      onCheckedChange={setTermsConsent}
+                      className="mt-0"
+                      copyClassName="text-xs text-center text-slate-500"
+                    />
+
                     <Button 
                         type="submit"
-                        disabled={isSubmitting}
+                        disabled={isSubmitting || !termsConsent}
                         className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg font-bold shadow-lg hover:shadow-green-600/20 transition-all duration-300"
                     >
                         {isSubmitting ? 'Analyzing Rates...' : 'Show Me My Savings'}
                     </Button>
+
+                    {errorMessage && (
+                      <p className="text-sm text-red-600 text-center">
+                        {errorMessage}
+                      </p>
+                    )}
                     
-                    <p className="text-xs text-center text-slate-400 mt-4">
-                        By submitting, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-                    </p>
                     <p className="text-xs text-slate-400 text-center mt-2">
                         This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
                     </p>

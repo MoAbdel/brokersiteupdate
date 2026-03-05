@@ -180,7 +180,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
     name: 'Mo The Broker - Bay Area Peninsula',
     '@id': 'https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Atherton' },
       { '@type': 'City', name: 'Hillsborough' },
@@ -916,7 +916,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
               and Silicon Valley cities with wholesale access to 200+ HELOC, HELOAN, and cash-out refinance lenders.
             </p>
             <ul className="space-y-1 mb-0">
-              <li><strong>Phone:</strong> <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></li>
+              <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></li>
               <li><strong>NMLS:</strong> #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</li>
               <li><strong>Service Area:</strong> Atherton, Hillsborough, Woodside, Portola Valley, Los Altos Hills, Palo Alto, Los Altos, Saratoga, Los Gatos, Cupertino, Mountain View, Sunnyvale, San Jose, Santa Clara, Campbell</li>
             </ul>

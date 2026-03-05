@@ -152,7 +152,7 @@ export default function WholesaleMortgageBrokerWashington() {
     name: 'Mo The Broker - Washington State',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-washington-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'State', name: 'Washington' },
       { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -876,7 +876,7 @@ export default function WholesaleMortgageBrokerWashington() {
               A wholesale mortgage broker eliminates that inefficiency. By shopping your loan across 200+ lenders, I find the rate, terms, and program that save you the most money while matching the underwriting guidelines to your specific income, property, and financial situation. For Seattle Eastside and Greater Seattle borrowers—where loan amounts routinely exceed $1 million and income structures involve RSUs, stock options, and performance bonuses—the wholesale advantage translates into tens of thousands of dollars in savings and access to loan programs retail banks simply do not offer.
             </p>
             <p className="mb-0">
-              <em>Every Washington borrower deserves to see what the wholesale market offers before committing to a bank rate. My consultations are free, transparent, and come with no obligation. Call me at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> and I will show you exactly how wholesale rates compare to whatever you have been quoted—including a side-by-side breakdown of rate, fees, and total cost over the life of your loan.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
+              <em>Every Washington borrower deserves to see what the wholesale market offers before committing to a bank rate. My consultations are free, transparent, and come with no obligation. Call me at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> and I will show you exactly how wholesale rates compare to whatever you have been quoted—including a side-by-side breakdown of rate, fees, and total cost over the life of your loan.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443
             </p>
           </div>
 

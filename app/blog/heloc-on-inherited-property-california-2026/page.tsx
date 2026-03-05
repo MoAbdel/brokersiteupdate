@@ -558,7 +558,7 @@ export default function HelocInheritedPropertyCalifornia2026() {
 
           <div className="bg-green-50 p-6 rounded-lg my-6 border-l-4 border-green-500">
             <h3 className="font-bold text-green-800 mb-3">Inherited Rental Property Scenario</h3>
-            <p className="text-green-900">A client inherited a 3-bedroom home in Long Beach (market value: $875,000, no mortgage). After Prop 19 reassessment, property taxes rose to approximately $10,900/year. The property rents for $3,800/month. Using a DSCR cash-out refinance at 65% LTV, the client accessed $568,750 in equity while the rental income comfortably covered the new mortgage payment, property taxes, and insurance. The DSCR ratio qualified at 1.28, well above the 1.0 minimum. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> to explore your inherited rental property options.</p>
+            <p className="text-green-900">A client inherited a 3-bedroom home in Long Beach (market value: $875,000, no mortgage). After Prop 19 reassessment, property taxes rose to approximately $10,900/year. The property rents for $3,800/month. Using a DSCR cash-out refinance at 65% LTV, the client accessed $568,750 in equity while the rental income comfortably covered the new mortgage payment, property taxes, and insurance. The DSCR ratio qualified at 1.28, well above the 1.0 minimum. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> to explore your inherited rental property options.</p>
           </div>
 
           {/* Wholesale Broker Advantage */}
@@ -651,14 +651,14 @@ export default function HelocInheritedPropertyCalifornia2026() {
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">Get Your Free Inherited Property HELOC Analysis</h3>
             <p className="text-blue-800 mb-4">I will review your title status, equity position, and Prop 19 situation to identify the fastest path to accessing your inherited property equity.</p>
-            <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 822-9662</p>
+            <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Get Your Free Quote
               </Link>
-              <a href="tel:9498229662" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors">
-                Call (949) 822-9662
+              <a href="tel:9495792057" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors">
+                Call (949) 579-2057
               </a>
             </div>
           </div>

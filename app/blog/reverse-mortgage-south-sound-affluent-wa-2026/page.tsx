@@ -179,7 +179,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
             name: 'Mo Abdel - South Sound WA Reverse Mortgage Specialist',
             description: 'Reverse mortgage broker serving South Sound WA seniors 62+. HECM, jumbo reverse, and HECM for Purchase in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom. NMLS #1426884.',
             url: 'https://www.mothebroker.com',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             areaServed: [
               { '@type': 'City', name: 'Gig Harbor', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -809,7 +809,7 @@ export default function ReverseMortgageSouthSoundAffluentWA() {
             </p>
             <div className="mt-6 space-y-3">
               <p className="font-bold text-lg">Ready to explore reverse mortgage options in South Sound, WA?</p>
-              <p>Call <a href="tel:9498229662" className="text-slate-900 font-bold hover:underline">(949) 822-9662</a> or visit <Link href="/contact" className="text-slate-900 font-bold hover:underline">mothebroker.com/contact</Link> for a free, no-obligation consultation. I will explain your HECM eligibility, estimate available proceeds, and connect you with a HUD-approved counselor to begin the process.</p>
+              <p>Call <a href="tel:9495792057" className="text-slate-900 font-bold hover:underline">(949) 579-2057</a> or visit <Link href="/contact" className="text-slate-900 font-bold hover:underline">mothebroker.com/contact</Link> for a free, no-obligation consultation. I will explain your HECM eligibility, estimate available proceeds, and connect you with a HUD-approved counselor to begin the process.</p>
               <p className="text-sm text-gray-600">Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106</p>
             </div>
           </div>

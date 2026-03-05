@@ -200,7 +200,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-slate-950 hover:bg-slate-100">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
               <Button size="lg" variant="ghost" className="border-white text-white hover:bg-white hover:text-blue-600">
                 <Calculator className="w-5 h-5 mr-2" />
@@ -452,7 +452,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
             <div className="flex flex-col items-center">
               <Phone className="w-8 h-8 mb-2" />
               <span className="font-semibold">Direct Phone</span>
-              <span className="text-slate-200">(949) 822-9662</span>
+              <span className="text-slate-200">(949) 579-2057</span>
             </div>
             <div className="flex flex-col items-center">
               <Mail className="w-8 h-8 mb-2" />

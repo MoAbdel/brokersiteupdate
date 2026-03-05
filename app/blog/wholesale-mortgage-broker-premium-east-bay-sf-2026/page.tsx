@@ -134,7 +134,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'San Francisco', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -906,7 +906,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               The core value: lender matching based on property type and borrower profile. A TIC buyer in the Mission needs a fundamentally different lender than a Piedmont estate purchaser, and both need a different lender than a Moraga retiree using asset depletion or a San Francisco investor using DSCR financing. Wholesale access provides the product breadth and rate competition that transforms complex financing scenarios into closed transactions at optimal pricing.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I deliver 200+ lender competition, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free scenario analysis and pre-approval.
+              As your wholesale mortgage broker, I deliver 200+ lender competition, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free scenario analysis and pre-approval.
             </p>
           </div>
 
@@ -917,7 +917,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; East Bay &amp; SF Wholesale Mortgage Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Premium East Bay &amp; San Francisco communities</p>

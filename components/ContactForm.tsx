@@ -2,8 +2,11 @@
 
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/Button';
+import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Shield } from 'lucide-react';
 import { fbTrack } from '@/components/FacebookPixel';
+import { getResponseErrorMessage } from '@/lib/api-client';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 // Google Ads conversion tracking
 
@@ -38,13 +41,16 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [termsConsent, setTermsConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setShowError(false);
+    setErrorMessage('');
     
     try {
-      // Submit to Formspree
       const formData_submit = new FormData();
       formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
       formData_submit.append('email', formData.email);
@@ -54,8 +60,9 @@ export default function ContactForm() {
       formData_submit.append('timeline', formData.timeline || 'Not specified');
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('_subject', `New Contact Form - ${formData.firstName} ${formData.lastName}`);
+      appendTermsConsentToFormData(formData_submit);
 
-      const response = await fetch('https://formspree.io/f/mldpgrok', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         body: formData_submit,
         headers: {
@@ -64,7 +71,12 @@ export default function ContactForm() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to submit contact form');
+        throw new Error(
+          await getResponseErrorMessage(
+            response,
+            'Failed to submit contact form. Please try again.'
+          )
+        );
       }
       
       // Track Google Ads conversion
@@ -89,8 +101,14 @@ export default function ContactForm() {
         timeline: '',
         additionalInfo: ''
       });
+      setTermsConsent(false);
     } catch (error) {
       console.error('Error submitting contact form:', error);
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : 'Failed to submit contact form. Please try again.'
+      );
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     }
@@ -138,7 +156,7 @@ export default function ContactForm() {
       {showError && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
           <p className="text-red-600 text-sm">
-            There was an error submitting your request. Please try again or call us directly at (949) 822-9662.
+            {errorMessage || 'There was an error submitting your request. Please try again or call us directly at (949) 579-2057.'}
           </p>
         </div>
       )}
@@ -275,16 +293,11 @@ export default function ContactForm() {
           />
         </div>
         
-        <label className="flex items-start gap-2 text-xs text-slate-500 mt-4">
-          <input type="checkbox" required className="mt-1 shrink-0" />
-          <span>
-            By checking this box, I consent to be contacted by Mo Abdel (NMLS #1426884) and Lumin Lending (NMLS #2716106) at the phone number and email provided, including by autodialed calls, prerecorded messages, and text messages. Consent is not a condition of purchase. Msg &amp; data rates may apply. <a href="/privacy-policy" className="underline">Privacy Policy</a>.
-          </span>
-        </label>
+        <InquiryTermsConsent checked={termsConsent} onCheckedChange={setTermsConsent} />
 
         <Button
           type="submit"
-          disabled={isSubmitting}
+          disabled={isSubmitting || !termsConsent}
           aria-label="Submit mortgage quote request to Mo Abdel"
           className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg"
         >

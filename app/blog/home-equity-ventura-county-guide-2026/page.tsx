@@ -153,7 +153,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed mortgage broker providing home equity solutions including HELOC, HELOAN, and cash-out refinance across Ventura County.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Ventura County, California' },
             ],
@@ -673,7 +673,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             For homeowners preserving a low existing mortgage rate, a HELOC or HELOAN as a second lien is typically the better choice. For those with above-market rates or seeking to simplify their finances, cash-out refinance consolidates everything into a single, optimized payment. The jumbo nature of most Conejo Valley equity products makes lender comparison essential &mdash; rate and term differences on a $600,000 HELOC total thousands of dollars annually.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 200+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
+            <strong>Ready to explore your Ventura County home equity options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-semibold">mo@mothebroker.com</a> for a personalized equity analysis. I compare HELOC, HELOAN, and cash-out refinance options from 200+ wholesale lenders to find the best combination of rate, terms, and closing speed for your Ventura County property. No obligation, no pressure &mdash; just clear numbers and honest guidance.
           </p>
         </div>
 
@@ -700,7 +700,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443
           </p>
           <p className="text-sm text-gray-700 mb-2">
-            Phone: <a href="tel:9498229662">(949) 822-9662</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
+            Phone: <a href="tel:9495792057">(949) 579-2057</a> | Email: <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a> | Licensed in: California, Washington
           </p>
           <p className="text-xs text-gray-600 mb-2">
             Equal Housing Lender. All loans subject to credit approval, income verification, and property appraisal. This information is for educational purposes only and does not constitute a loan commitment or guarantee of any terms. Rates, terms, and program availability are subject to change without notice. Not all borrowers will qualify. Home equity products carry the risk of foreclosure if payments are not made. Consult a financial advisor before using home equity to ensure alignment with your financial goals.

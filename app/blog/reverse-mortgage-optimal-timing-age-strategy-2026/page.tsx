@@ -816,7 +816,7 @@ export default function ReverseMortgageOptimalTimingAgeStrategyPage() {
             I will model your HECM principal limit at your current age, at age 67, and at 72+ using current interest rates and your actual home value. You will see the exact credit line growth projections at each age point so you can make an informed timing decision. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

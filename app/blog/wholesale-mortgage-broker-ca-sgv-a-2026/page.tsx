@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     question: "What are current wholesale mortgage rates for San Gabriel Valley in 2026?",
-    answer: "Wholesale mortgage rates in San Gabriel Valley run 0.25-0.75% below retail bank rates because wholesale lenders eliminate branch overhead and marketing costs. Exact rates depend on loan amount, property type, credit score, and down payment. Contact Mo Abdel at (949) 822-9662 for a personalized rate quote across 200+ wholesale lenders."
+    answer: "Wholesale mortgage rates in San Gabriel Valley run 0.25-0.75% below retail bank rates because wholesale lenders eliminate branch overhead and marketing costs. Exact rates depend on loan amount, property type, credit score, and down payment. Contact Mo Abdel at (949) 579-2057 for a personalized rate quote across 200+ wholesale lenders."
   },
   {
     question: "Can I finance a multigenerational home in Arcadia or San Marino through a wholesale broker?",
@@ -276,10 +276,10 @@ export default function WholesaleMortgageBrokerSGV2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -438,7 +438,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
               <div className="flex-shrink-0 w-10 h-10 bg-emerald-600 text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <div>
                 <h4 className="font-semibold text-slate-900 mb-1">Free Scenario Analysis &amp; Rate Shopping</h4>
-                <p className="text-slate-600">Contact Mo Abdel at (949) 822-9662. Provide your target property location (San Marino, Arcadia, Pasadena, etc.), estimated purchase price, down payment amount, and income documentation type (W-2, tax returns, bank statements, or foreign income). Within 24 hours, receive rate quotes from the top 5-10 wholesale lenders competing for your loan.</p>
+                <p className="text-slate-600">Contact Mo Abdel at (949) 579-2057. Provide your target property location (San Marino, Arcadia, Pasadena, etc.), estimated purchase price, down payment amount, and income documentation type (W-2, tax returns, bank statements, or foreign income). Within 24 hours, receive rate quotes from the top 5-10 wholesale lenders competing for your loan.</p>
               </div>
             </div>
 
@@ -479,7 +479,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
         {/* Mid-Article CTA */}
         <LeadMagnetCTA
           title="Get Your San Gabriel Valley Wholesale Rate Quote"
-          description="Access rates from 200+ wholesale lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call (949) 822-9662."
+          description="Access rates from 200+ wholesale lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call (949) 579-2057."
           href="/contact"
           ctaText="Get My Wholesale Rate"
           badge="Free Quote"
@@ -1041,10 +1041,10 @@ export default function WholesaleMortgageBrokerSGV2026() {
                 Get Your SGV Wholesale Rate Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -1092,7 +1092,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
         {/* Disclaimer */}
         <section className="mt-12 pt-8 border-t border-slate-200 text-sm text-slate-500">
           <p className="mb-4">
-            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | (949) 822-9662
+            <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | (949) 579-2057
           </p>
           <p className="mb-4">
             Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Information is for educational purposes only and does not constitute financial advice. Wholesale mortgage programs have different guidelines than retail bank mortgages. Foreign national and non-QM loan programs carry different risk profiles and terms than conventional mortgages. Contact a licensed loan officer for personalized guidance.

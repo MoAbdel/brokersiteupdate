@@ -105,7 +105,7 @@ export default function ReverseMortgageSanMarino() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Reverse Mortgage Specialist',
     description: 'Licensed mortgage broker specializing in reverse mortgages for San Marino and Los Angeles County seniors.',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: {
       '@type': 'City',
       name: 'San Marino',
@@ -601,7 +601,7 @@ export default function ReverseMortgageSanMarino() {
             <p className="text-blue-900 mb-4">
               Ready to explore how a reverse mortgage can help you access your San Marino home equity? Contact me today for a free, no-obligation assessment.
             </p>
-            <p className="font-semibold">Phone: (949) 822-9662</p>
+            <p className="font-semibold">Phone: (949) 579-2057</p>
             <p>Email: mabdel@luminlending.com</p>
             <p className="mt-2">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <p className="text-sm mt-2">Licensed in California and Washington</p>

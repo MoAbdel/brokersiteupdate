@@ -172,7 +172,7 @@ export default function HomeEquityEastBaySFGuide2026() {
     name: 'Mo The Broker - East Bay & San Francisco Home Equity',
     '@id': 'https://www.mothebroker.com/blog/home-equity-east-bay-sf-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'San Francisco' },
       { '@type': 'City', name: 'Piedmont' },
@@ -887,7 +887,7 @@ export default function HomeEquityEastBaySFGuide2026() {
               more options, and faster closings.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to access your home equity?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to access your home equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary equity consultation. I will provide a personalized analysis of your available equity,
               recommend the optimal product (HELOC, HELOAN, or cash-out), and identify the best lender match from
               200+ wholesale options -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.

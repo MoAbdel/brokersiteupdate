@@ -1,6 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getAudienceContext, NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
+import {
+  TERMS_SERVICES_COPY,
+  TERMS_SERVICES_REQUIRED_ERROR,
+  hasTermsConsent,
+} from '@/lib/terms-consent';
 // import { Resend } from 'resend';
 
 export const dynamic = 'force-dynamic';
@@ -75,7 +81,7 @@ async function sendSMSNotification(quoteData: any) {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
         body: new URLSearchParams({
-          To: yourPhone || '+19498229662', // Your phone number
+          To: yourPhone || '+19495792057', // Your phone number
           From: twilioPhone || '',
           Body: message,
         }),
@@ -91,8 +97,21 @@ async function sendSMSNotification(quoteData: any) {
   }
 }
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
+    const audience = getAudienceContext(request.headers);
+    if (!audience.isUsEligible) {
+      return NextResponse.json(
+        { success: false, error: NON_US_LEAD_CAPTURE_ERROR },
+        {
+          status: 403,
+          headers: {
+            'Cache-Control': 'no-store',
+          },
+        }
+      );
+    }
+
     const body = await request.json();
 
     // Validate required fields
@@ -100,6 +119,18 @@ export async function POST(request: Request) {
       return NextResponse.json(
         { success: false, error: 'Required fields missing' },
         { status: 400 }
+      );
+    }
+
+    if (!hasTermsConsent(body.terms_consent)) {
+      return NextResponse.json(
+        { success: false, error: TERMS_SERVICES_REQUIRED_ERROR },
+        {
+          status: 400,
+          headers: {
+            'Cache-Control': 'no-store',
+          },
+        }
       );
     }
 
@@ -128,6 +159,9 @@ export async function POST(request: Request) {
       status: body.status || 'new',
       source: body.source || 'Website',
       notes: body.notes || null,
+      terms_consent: true,
+      terms_consent_at: body.terms_consent_at || new Date().toISOString(),
+      terms_consent_text: body.terms_consent_text || TERMS_SERVICES_COPY,
       submitted_at: body.submitted_at || new Date().toISOString(),
       created_at: new Date().toISOString()
     };

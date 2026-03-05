@@ -246,8 +246,8 @@ export default function WholesaleMarginTrackerPage() {
                 When you work with Mo Abdel at Lumin Lending, you see exactly what the broker
                 earns&mdash;a level of transparency that retail banking does not provide.
                 Call{' '}
-                <a href="tel:+19498229662" className="text-blue-600 font-semibold hover:underline">
-                  (949) 822-9662
+                <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">
+                  (949) 579-2057
                 </a>{' '}
                 to request a side-by-side rate comparison.
               </p>

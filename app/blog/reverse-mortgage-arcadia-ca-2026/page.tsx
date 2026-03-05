@@ -89,7 +89,7 @@ export default function ReverseMortgageArcadia() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Wholesale mortgage broker serving Arcadia, CA and Los Angeles County. Specializing in reverse mortgages, HECM loans, and jumbo reverse options for seniors.',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: {
       '@type': 'City',
@@ -536,7 +536,7 @@ export default function ReverseMortgageArcadia() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel today for a free consultation:</p>
-            <p className="mb-1"><strong>Phone:</strong> (949) 822-9662</p>
+            <p className="mb-1"><strong>Phone:</strong> (949) 579-2057</p>
             <p className="mb-1"><strong>NMLS #1426884</strong></p>
             <p className="mb-1"><strong>Lumin Lending NMLS #2716106</strong></p>
             <p className="text-sm mt-3">Licensed in California and Washington | Serving Arcadia and Los Angeles County</p>

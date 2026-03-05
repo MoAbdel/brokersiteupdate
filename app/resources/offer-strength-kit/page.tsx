@@ -29,8 +29,8 @@ export default function OfferStrengthKitPage() {
           </p>
           <p className="text-sm text-slate-500 mt-3">
             Prefer to talk now?{' '}
-            <a className="text-blue-700 hover:underline" href="tel:+19498229662">
-              Call (949) 822-9662
+            <a className="text-blue-700 hover:underline" href="tel:+19495792057">
+              Call (949) 579-2057
             </a>
           </p>
         </div>

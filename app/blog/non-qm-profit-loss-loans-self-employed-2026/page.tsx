@@ -227,10 +227,10 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
                   Get P&amp;L Loan Pre-Qualification
                 </Button>
               </Link>
-              <Link href="tel:9498229662">
+              <Link href="tel:9495792057">
                 <Button className="bg-transparent border-2 border-white hover:bg-white hover:text-slate-900 text-white px-8 py-4 text-lg rounded-lg flex items-center gap-2 w-full sm:w-auto">
                   <Phone className="w-5 h-5" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </Link>
             </div>
@@ -905,10 +905,10 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
                   Get P&amp;L Loan Pre-Qualification
                 </Button>
               </Link>
-              <Link href="tel:9498229662">
+              <Link href="tel:9495792057">
                 <Button className="bg-transparent border-2 border-white hover:bg-white hover:text-slate-900 text-white px-8 py-4 text-lg rounded-lg flex items-center gap-2 w-full sm:w-auto">
                   <Phone className="w-5 h-5" />
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </Link>
             </div>

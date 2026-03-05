@@ -784,7 +784,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
             As a <strong>wholesale mortgage broker licensed in California and Washington</strong>, I access 50+ jumbo investors daily. This is not a theoretical advantage. It means comparing actual rate quotes, guideline variations, and closing timelines across dozens of lenders to find the best fit for each borrower. Retail banks offer one jumbo product. I offer the entire jumbo marketplace.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore jumbo loan options?</strong> Call <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a free consultation. I will analyze your financial profile, identify the best jumbo lenders for your specific situation, and present rate and term options that reflect the full wholesale marketplace. Whether you need a $900,000 standard jumbo or a $5,000,000 super-jumbo, the process starts with a single conversation.
+            <strong>Ready to explore jumbo loan options?</strong> Call <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a free consultation. I will analyze your financial profile, identify the best jumbo lenders for your specific situation, and present rate and term options that reflect the full wholesale marketplace. Whether you need a $900,000 standard jumbo or a $5,000,000 super-jumbo, the process starts with a single conversation.
           </p>
         </div>
 

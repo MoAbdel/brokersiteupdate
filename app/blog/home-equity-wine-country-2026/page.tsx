@@ -150,7 +150,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Healdsburg',
       description: 'Wholesale mortgage broker serving Healdsburg homeowners with HELOC, home equity loans, and cash-out refinance. Vineyard estate and historic downtown property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Healdsburg', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -160,7 +160,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker St. Helena',
       description: 'Wholesale mortgage broker serving St. Helena homeowners with HELOC, home equity loans, and cash-out refinance. Ultra-premium wine estate and vineyard HELOC specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'St. Helena', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -170,7 +170,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Calistoga',
       description: 'Wholesale mortgage broker serving Calistoga homeowners with HELOC, home equity loans, and cash-out refinance. Spa resort town renovation and geothermal property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Calistoga', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -180,7 +180,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Sonoma',
       description: 'Wholesale mortgage broker serving Sonoma homeowners with HELOC, home equity loans, and cash-out refinance. Historic plaza estate and Sonoma Valley equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Sonoma', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -190,7 +190,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Napa',
       description: 'Wholesale mortgage broker serving Napa homeowners with HELOC, home equity loans, and cash-out refinance. Downtown revival equity and Napa Valley hospitality income specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Napa', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -200,7 +200,7 @@ export default function HomeEquityWineCountry2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Yountville',
       description: 'Wholesale mortgage broker serving Yountville homeowners with HELOC, home equity loans, and cash-out refinance. Boutique estate and culinary district property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Yountville', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -1198,7 +1198,7 @@ export default function HomeEquityWineCountry2026() {
             <p>
               I compare HELOC, cash-out refinance, and home equity loan options from 200+ lenders for Wine Country homeowners. Whether you own a Healdsburg vineyard estate, a St. Helena wine country property, a Calistoga spa retreat, or a Napa downtown home, I identify the product with the best rate and terms for your specific property type, income profile, and financial goals &mdash; including specialized programs for vineyard collateral and seasonal hospitality income.
             </p>
-            <p className="text-lg font-semibold">Call Mo Abdel: (949) 822-9662</p>
+            <p className="text-lg font-semibold">Call Mo Abdel: (949) 579-2057</p>
             <p className="mb-0">NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443<br />Licensed in California &amp; Washington</p>
           </div>
 

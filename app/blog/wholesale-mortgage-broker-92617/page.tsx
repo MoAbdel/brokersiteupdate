@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92617Page() {
             "name": "Mo The Broker - Irvine UCI",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Irvine",

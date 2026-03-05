@@ -149,7 +149,7 @@ export default function HomeEquityCentralCoastGuide2026() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "email": "mo@mothebroker.com",
             "url": "https://www.mothebroker.com",
             "areaServed": [
@@ -494,7 +494,7 @@ export default function HomeEquityCentralCoastGuide2026() {
             <strong>Contact Mo Abdel today:</strong>
           </p>
           <ul className="text-gray-700">
-            <li>Phone: <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a></li>
+            <li>Phone: <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a></li>
             <li>Email: <a href="mailto:mo@mothebroker.com" className="text-blue-600 font-semibold">mo@mothebroker.com</a></li>
             <li>NMLS #1426884 | Lumin Lending NMLS #2716106</li>
           </ul>
@@ -508,7 +508,7 @@ export default function HomeEquityCentralCoastGuide2026() {
           <p><strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443</p>
           <p>Licensed in: CA, WA</p>
           <p className="mt-2">
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Rates shown are estimates and subject to change without notice. HELOC rates are variable and adjust with the Prime Rate. Information is for educational purposes only and does not constitute financial advice. Tax deductibility of home equity interest depends on how funds are used; consult a tax professional. Contact Mo Abdel at (949) 822-9662 for personalized home equity guidance.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Rates shown are estimates and subject to change without notice. HELOC rates are variable and adjust with the Prime Rate. Information is for educational purposes only and does not constitute financial advice. Tax deductibility of home equity interest depends on how funds are used; consult a tax professional. Contact Mo Abdel at (949) 579-2057 for personalized home equity guidance.
           </p>
         </div>
       </section>

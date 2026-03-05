@@ -177,7 +177,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
             description: 'Peninsula ultra-luxury reverse mortgage specialist serving Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills homeowners.',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
             areaServed: [
@@ -434,7 +434,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Qualification Process for Peninsula Ultra-Luxury Reverse Mortgages
         </h2>
         <ol>
-          <li className="mb-3"><strong>Initial Consultation with Mo Abdel:</strong> Review property value, estate structure (trust, LLC, individual ownership), financial goals, and optimal product selection (HECM, jumbo, or combination). Call (949) 822-9662 to schedule.</li>
+          <li className="mb-3"><strong>Initial Consultation with Mo Abdel:</strong> Review property value, estate structure (trust, LLC, individual ownership), financial goals, and optimal product selection (HECM, jumbo, or combination). Call (949) 579-2057 to schedule.</li>
           <li className="mb-3"><strong>HUD Counseling (HECM) or Lender Counseling (Jumbo):</strong> HECM requires mandatory HUD-approved counseling. Some proprietary jumbo lenders also require counseling. Sessions available by phone or video.</li>
           <li className="mb-3"><strong>Trust and Estate Document Review:</strong> Lender reviews trust documents, verifying the property is properly titled and the trust allows encumbrance. Mo coordinates document collection and submission.</li>
           <li className="mb-3"><strong>MAI Appraisal:</strong> Designated MAI appraiser with ultra-luxury experience conducts on-site inspection. For estates valued $5M+, this process takes 3-5 weeks including scheduling, inspection, comparable analysis, and report delivery.</li>
@@ -778,14 +778,14 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
             <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized jumbo reverse mortgage analysis for Peninsula ultra-luxury homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From MAI appraiser coordination to multi-lender product comparison and trust document review, Mo manages the entire process for estates valued $4 million to $30 million+.
           </p>
           <p className="text-slate-900 mb-0">
-            <strong>Ready to explore your Peninsula reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9498229662" className="text-blue-700 font-bold underline">(949) 822-9662</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
+            <strong>Ready to explore your Peninsula reverse mortgage options?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a confidential, no-obligation jumbo reverse mortgage analysis for your ultra-luxury estate.
           </p>
         </div>
 
         {/* Disclaimer */}
         <div className="border-t border-gray-200 pt-6 mt-8">
           <p className="text-xs text-gray-500">
-            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Proprietary jumbo reverse mortgage products are subject to individual lender guidelines and may not be available in all circumstances. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, program selection, and existing mortgage balance. Borrowers must complete HUD-approved counseling for HECM products. Tax implications discussed are general in nature; consult a qualified tax professional and estate planning attorney for advice specific to your situation. Mo Abdel (NMLS #1426884) is licensed in California and Washington through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 822-9662 for personalized reverse mortgage analysis.
+            <strong>Disclaimer:</strong> This content is for educational and informational purposes only and does not constitute a loan commitment, guarantee of approval, or guarantee of specific proceeds. HECM reverse mortgages are subject to FHA guidelines, borrower qualification, and property eligibility. Proprietary jumbo reverse mortgage products are subject to individual lender guidelines and may not be available in all circumstances. Estimated proceeds are approximations based on February 2026 conditions and vary based on age, home value, interest rates, program selection, and existing mortgage balance. Borrowers must complete HUD-approved counseling for HECM products. Tax implications discussed are general in nature; consult a qualified tax professional and estate planning attorney for advice specific to your situation. Mo Abdel (NMLS #1426884) is licensed in California and Washington through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Equal Housing Lender. Equal Housing Opportunity. Contact Mo at (949) 579-2057 for personalized reverse mortgage analysis.
           </p>
         </div>
       </section>

@@ -222,10 +222,10 @@ export default function WholesaleMortgageTrustVesting2026() {
                 Get Trust Vesting Help
               </Button>
             </Link>
-            <a href="tel:9498229662">
+            <a href="tel:9495792057">
               <Button className="border-2 border-white text-white hover:bg-white/10 font-semibold px-6 py-3 rounded-lg flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -828,10 +828,10 @@ export default function WholesaleMortgageTrustVesting2026() {
                 Start Your Trust Purchase
               </Button>
             </Link>
-            <a href="tel:9498229662">
+            <a href="tel:9495792057">
               <Button className="border-2 border-white text-white hover:bg-white/10 font-semibold px-8 py-3 rounded-lg flex items-center gap-2 w-full sm:w-auto justify-center">
                 <Phone className="w-4 h-4" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

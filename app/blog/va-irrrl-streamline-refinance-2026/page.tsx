@@ -577,7 +577,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
             Working with a wholesale broker who accesses 200+ VA-approved lenders ensures you capture the most competitive pricing available — pricing that retail banks and credit unions cannot match because they only offer their own products.
           </p>
           <p className="font-semibold text-gray-900">
-            Mo Abdel, NMLS #1426884, specializes in VA IRRRL streamline refinances for veterans in California and Washington. Contact us at <a href="tel:9498229662" className="text-blue-700 hover:underline">(949) 822-9662</a> or <Link href="/contact" className="text-blue-700 hover:underline">request a free VA IRRRL quote</Link> to find out how much you can save.
+            Mo Abdel, NMLS #1426884, specializes in VA IRRRL streamline refinances for veterans in California and Washington. Contact us at <a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-700 hover:underline">request a free VA IRRRL quote</Link> to find out how much you can save.
           </p>
         </div>
 

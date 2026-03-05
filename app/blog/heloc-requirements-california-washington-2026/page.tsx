@@ -214,10 +214,10 @@ export default function HelocRequirementsCaliforniaWashington2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -355,7 +355,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">DTI Reduction Strategy</p>
-            <p className="text-gray-700">In our California closings, we frequently help borrowers reduce DTI by paying off revolving debts at closing using HELOC proceeds. If your credit card minimums push your DTI above the lender&apos;s threshold, some lenders allow you to draw HELOC funds at closing to eliminate those debts, immediately lowering your qualifying DTI. This strategy requires careful structuring. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a DTI analysis specific to your HELOC scenario.</p>
+            <p className="text-gray-700">In our California closings, we frequently help borrowers reduce DTI by paying off revolving debts at closing using HELOC proceeds. If your credit card minimums push your DTI above the lender&apos;s threshold, some lenders allow you to draw HELOC funds at closing to eliminate those debts, immediately lowering your qualifying DTI. This strategy requires careful structuring. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> for a DTI analysis specific to your HELOC scenario.</p>
           </div>
 
           {/* LTV/CLTV Requirements */}
@@ -583,7 +583,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">Self-Employed HELOC Strategy</p>
-            <p className="text-gray-700">In our California and Washington closings, we run every self-employed borrower through both the tax return path and the bank statement path simultaneously. For a business owner with $350,000 in annual deposits and $120,000 in taxable income on returns, the bank statement path qualifies at roughly $175,000 (using 50% expense factor) vs. $120,000 on tax returns &mdash; a 46% increase in qualifying income that directly impacts DTI and the maximum HELOC credit line. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a dual-path HELOC analysis.</p>
+            <p className="text-gray-700">In our California and Washington closings, we run every self-employed borrower through both the tax return path and the bank statement path simultaneously. For a business owner with $350,000 in annual deposits and $120,000 in taxable income on returns, the bank statement path qualifies at roughly $175,000 (using 50% expense factor) vs. $120,000 on tax returns &mdash; a 46% increase in qualifying income that directly impacts DTI and the maximum HELOC credit line. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> for a dual-path HELOC analysis.</p>
           </div>
 
           {/* Jumbo HELOC */}
@@ -688,10 +688,10 @@ export default function HelocRequirementsCaliforniaWashington2026() {
                 Check Your HELOC Eligibility
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

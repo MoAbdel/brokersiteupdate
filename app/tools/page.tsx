@@ -104,8 +104,8 @@ export default function ToolsHubPage() {
           <p className="text-sm text-slate-500">
             All calculators are free and require no login. Data sourced from FHFA, U.S. Census Bureau,
             and county assessor records. For personalized analysis, contact Mo Abdel at{' '}
-            <a href="tel:9498229662" className="text-blue-600 hover:underline">
-              (949) 822-9662
+            <a href="tel:9495792057" className="text-blue-600 hover:underline">
+              (949) 579-2057
             </a>
             . NMLS #1426884 | Lumin Lending NMLS #2716106.
           </p>

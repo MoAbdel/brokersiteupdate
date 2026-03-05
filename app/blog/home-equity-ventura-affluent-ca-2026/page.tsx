@@ -136,7 +136,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Westlake Village',
       description: 'Wholesale mortgage broker serving Westlake Village homeowners with HELOC, home equity loans, and cash-out refinance. Lake community and North Ranch estate specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Westlake Village', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -146,7 +146,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Thousand Oaks',
       description: 'Wholesale mortgage broker serving Thousand Oaks homeowners with HELOC, home equity loans, and cash-out refinance. Conejo Valley biotech corridor specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Thousand Oaks', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -156,7 +156,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Oak Park',
       description: 'Wholesale mortgage broker serving Oak Park homeowners with HELOC, home equity loans, and cash-out refinance. Family enclave equity growth specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Oak Park', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -166,7 +166,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Camarillo',
       description: 'Wholesale mortgage broker serving Camarillo homeowners with HELOC, home equity loans, and cash-out refinance. Spanish Hills and CSUCI corridor specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Camarillo', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -176,7 +176,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Moorpark',
       description: 'Wholesale mortgage broker serving Moorpark homeowners with HELOC, home equity loans, and cash-out refinance. Horse property and rural-residential equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Moorpark', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -761,7 +761,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
               As your wholesale mortgage broker, I compare programs from 200+ lenders to match your property type, income structure, and financial goals with the optimal equity product. No retail markup. No branch overhead. Direct wholesale pricing with personalized lender matching.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a> for a free equity analysis on your Ventura County home. I will calculate your tappable equity, compare HELOC vs cash-out vs HELOAN options, and identify the 2-3 best lender programs for your specific situation&mdash;typically within 24 hours.
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> for a free equity analysis on your Ventura County home. I will calculate your tappable equity, compare HELOC vs cash-out vs HELOAN options, and identify the 2-3 best lender programs for your specific situation&mdash;typically within 24 hours.
             </p>
           </div>
 
@@ -786,7 +786,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
               This article is for informational purposes only and does not constitute a loan commitment or guarantee of terms. All loan programs are subject to borrower qualification, property eligibility, and lender approval. Interest rates, fees, and terms are subject to change without notice. Consult with a licensed mortgage professional for personalized advice. Mo Abdel is licensed to originate mortgage loans in the state of California.
             </p>
             <p className="mt-2">
-              &copy; {new Date().getFullYear()} Lumin Lending, Inc. All rights reserved. | <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a> | <a href="https://www.mothebroker.com" className="text-blue-700 underline">mothebroker.com</a>
+              &copy; {new Date().getFullYear()} Lumin Lending, Inc. All rights reserved. | <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> | <a href="https://www.mothebroker.com" className="text-blue-700 underline">mothebroker.com</a>
             </p>
           </footer>
         </section>

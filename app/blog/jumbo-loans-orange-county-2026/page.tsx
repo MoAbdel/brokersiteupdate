@@ -223,7 +223,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million, 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), and the California Association of Realtors reporting that OC luxury home sales above $2 million rose 18% in Q4 2025 versus Q4 2024, wholesale jumbo access is no longer optional for serious OC buyers.
                 </p>
                 <p className="text-sm text-gray-500">
-                    By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a>
+                    By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>
                 </p>
             </header>
 
@@ -747,7 +747,7 @@ export default function JumboLoansOrangeCountyPage() {
                         Get a personalized jumbo rate quote and program recommendation based on your financial profile. We compare 200+ wholesale lenders to find the optimal solution for your Orange County purchase, refinance, or investment.
                     </p>
                     <p className="text-lg font-bold text-blue-800 mb-2">
-                        Call <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> or <Link href="/contact" className="text-blue-600 hover:underline">Request a Consultation</Link>
+                        Call <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">Request a Consultation</Link>
                     </p>
                     <p className="text-sm text-gray-500 mb-0">
                         Mo Abdel | NMLS #1426884 | Lumin Lending, NMLS #2716106
@@ -808,7 +808,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
-                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | <a href="tel:+19498229662" className="text-blue-600 hover:underline">(949) 822-9662</a><br />
+                        <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. | NMLS #2716106 | DRE #02291443 | <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a><br />
                         Licensed in: CA, WA
                     </p>
                     <p className="text-xs text-gray-600 mt-2">

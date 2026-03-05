@@ -150,7 +150,7 @@ export default function HomeEquitySanMarinoCaPage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
             "description": "Wholesale mortgage broker serving San Marino, CA homeowners with HELOC, home equity loans, and cash-out refinance options for historic estates.",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "url": "https://www.mothebroker.com",
             "address": {
               "@type": "PostalAddress",
@@ -810,7 +810,7 @@ export default function HomeEquitySanMarinoCaPage() {
             San Marino homeowners have unique financing needs that require specialized solutions. Whether you're preserving a historic estate, adding multigenerational living space, or undertaking comprehensive renovations, the right equity product makes a significant difference. Contact Mo Abdel at Lumin Lending to discuss your San Marino property and explore jumbo HELOC, home equity loan, and cash-out refinance options tailored to your situation.
           </p>
           <p className="mb-0">
-            <strong>Call:</strong> <a href="tel:9498229662">(949) 822-9662</a><br />
+            <strong>Call:</strong> <a href="tel:9495792057">(949) 579-2057</a><br />
             <strong>Email:</strong> <a href="mailto:mo@mothebroker.com">mo@mothebroker.com</a>
           </p>
         </div>

@@ -668,7 +668,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
             As a <strong>wholesale mortgage broker</strong> licensed in California and Washington, I access 200+ lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.
           </p>
           <p className="mb-0">
-            <strong>Ready to explore interest-only mortgage options?</strong> Call <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a free consultation. I will analyze your financial profile, compare IO programs across multiple lenders, and present the options that align with your goals and timeline.
+            <strong>Ready to explore interest-only mortgage options?</strong> Call <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a free consultation. I will analyze your financial profile, compare IO programs across multiple lenders, and present the options that align with your goals and timeline.
           </p>
         </div>
 

@@ -216,7 +216,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California wholesale mortgage broker providing access to 200+ lenders for conventional, jumbo, FHA, VA, bank statement, DSCR, and non-QM loan programs across California and Washington.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$",
     "areaServed": [
       { "@type": "State", "name": "California" },
@@ -335,7 +335,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="font-semibold text-gray-800">The Jumbo Loan Multiplier Effect</p>
-            <p className="text-gray-700">California&apos;s high property values mean a large percentage of mortgages are jumbo loans (above the $806,500 conforming limit in most counties). On a $1.5 million jumbo mortgage, a 0.25% rate difference saves approximately $75,000 over 30 years. In our California closings, jumbo borrowers realize the most dramatic savings by accessing wholesale pricing from multiple competing jumbo lenders. Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-semibold">(949) 822-9662</a> for a jumbo rate comparison.</p>
+            <p className="text-gray-700">California&apos;s high property values mean a large percentage of mortgages are jumbo loans (above the $806,500 conforming limit in most counties). On a $1.5 million jumbo mortgage, a 0.25% rate difference saves approximately $75,000 over 30 years. In our California closings, jumbo borrowers realize the most dramatic savings by accessing wholesale pricing from multiple competing jumbo lenders. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> for a jumbo rate comparison.</p>
           </div>
 
           {/* 6 CA Metro Coverage Areas */}
@@ -635,7 +635,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
               Whether you are a W-2 professional seeking the best conforming or jumbo rate, a self-employed business owner who needs a bank statement program, a veteran accessing VA jumbo benefits, or a real estate investor building a DSCR-financed rental portfolio, the wholesale channel provides the programs, the pricing, and the approval flexibility to achieve your financing goals.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to access wholesale mortgage pricing across California? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a complimentary rate comparison from 200+ wholesale lenders, covering every loan program from conventional to jumbo, bank statement, DSCR, VA, and non-QM.
+              Ready to access wholesale mortgage pricing across California? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary rate comparison from 200+ wholesale lenders, covering every loan program from conventional to jumbo, bank statement, DSCR, VA, and non-QM.
             </p>
           </div>
 
@@ -644,7 +644,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is for informational purposes only and is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Rate comparisons are based on general wholesale vs. retail market analysis and do not guarantee specific savings for individual borrowers. Actual rates depend on credit score, loan amount, property type, occupancy, and market conditions at time of lock. Broker compensation is disclosed in compliance with federal regulations (TILA-RESPA). NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

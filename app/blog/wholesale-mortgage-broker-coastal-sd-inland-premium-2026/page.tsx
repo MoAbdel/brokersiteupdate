@@ -172,7 +172,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
     name: 'Mo The Broker - Coastal San Diego & Inland Premium',
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad, and Poway with 200+ lender access for jumbo, VA, conventional, and DSCR investment loans.',
     areaServed: [
       { '@type': 'City', name: 'La Jolla', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -818,7 +818,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
             <div className="bg-blue-50 p-8 rounded-lg my-8 text-center">
               <h3 className="text-2xl font-bold mb-4 mt-0">Get Wholesale Rates for Your Coastal San Diego Purchase</h3>
               <p className="text-lg mb-4">Contact Mo Abdel for a free rate quote and personalized lender matching.</p>
-              <p className="text-2xl font-bold text-blue-700 mb-2">(949) 822-9662</p>
+              <p className="text-2xl font-bold text-blue-700 mb-2">(949) 579-2057</p>
               <p className="text-gray-700 mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
               <p className="text-sm text-gray-600">Licensed in California &amp; Washington | Equal Housing Lender</p>
             </div>

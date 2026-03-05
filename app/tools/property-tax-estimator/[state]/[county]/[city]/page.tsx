@@ -5,6 +5,7 @@ import { generateMetadata as genMeta } from '@/lib/metadata';
 import {
   getCounty,
   getCity,
+  getCitiesByCounty,
   getStateName,
   getAllStateCountyCityParams,
 } from '@/lib/geo-data';
@@ -46,6 +47,14 @@ export default async function CityPropertyTaxPage({ params }: Props) {
 
   const annualTax = Math.round(city.medianHomePrice * city.avgPropertyTaxRate);
   const monthlyTax = Math.round(annualTax / 12);
+  const siblingCityLinks = getCitiesByCounty(state, countySlug)
+    .filter((candidate) => candidate.slug !== city.slug)
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .slice(0, 6)
+    .map((candidate) => ({
+      label: `${candidate.name} Property Tax Estimator`,
+      href: `/tools/property-tax-estimator/${state}/${countySlug}/${candidate.slug}`,
+    }));
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -83,6 +92,7 @@ export default async function CityPropertyTaxPage({ params }: Props) {
       href: `/tools/property-tax-estimator/${state}/${countySlug}`,
     },
     { label: `${stateName} Counties`, href: `/tools/property-tax-estimator/${state}` },
+    ...siblingCityLinks,
     { label: 'Down Payment Assistance', href: '/resources/down-payment-assistance' },
     { label: 'Conventional Loans', href: '/loan-programs/conventional-loans' },
     { label: 'FHA Loans', href: '/loan-programs/fha-loans' },

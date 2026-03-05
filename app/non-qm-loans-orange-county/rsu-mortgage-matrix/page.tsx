@@ -245,8 +245,8 @@ export default function RsuMortgageMatrixPage() {
         <section className="mt-12 text-center">
           <p className="text-slate-600">
             Questions about qualifying with RSU income? Call Mo directly at{' '}
-            <a href="tel:9498229662" className="text-blue-700 font-semibold hover:underline">
-              (949) 822-9662
+            <a href="tel:9495792057" className="text-blue-700 font-semibold hover:underline">
+              (949) 579-2057
             </a>{' '}
             &mdash; NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>

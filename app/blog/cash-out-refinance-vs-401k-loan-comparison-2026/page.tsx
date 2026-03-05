@@ -699,7 +699,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
               As a wholesale mortgage broker licensed in California and Washington, I compare cash-out refinance rates from 200+ lenders to find the most competitive terms for your scenario. Every consultation includes a side-by-side cost analysis so you can compare your cash-out refinance option against your 401(k) loan alternative with real numbers.
             </p>
             <p className="text-blue-900 mb-0">
-              Contact Mo Abdel today: <strong>(949) 822-9662</strong> | <strong>mabdel@luminlending.com</strong>
+              Contact Mo Abdel today: <strong>(949) 579-2057</strong> | <strong>mabdel@luminlending.com</strong>
             </p>
           </div>
 

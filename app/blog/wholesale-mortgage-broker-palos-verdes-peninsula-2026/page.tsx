@@ -172,7 +172,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -837,7 +837,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Palos Verdes Peninsula Wholesale Mortgage Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 4 PV Peninsula cities</p>
             <p className="text-sm">Wholesale broker with access to 200+ lenders | Jumbo, trust, equestrian &amp; DSCR specialist</p>

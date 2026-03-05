@@ -217,7 +217,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
             name: 'Mo Abdel - Lumin Lending',
             description: 'Licensed California and Washington mortgage broker specializing in HELOC, home equity loans, and wholesale mortgage products with access to 200+ lenders.',
             url: 'https://www.mothebroker.com',
-            telephone: '(949) 822-9662',
+            telephone: '(949) 579-2057',
             priceRange: '$$',
             areaServed: [
               { '@type': 'State', name: 'California' },
@@ -781,7 +781,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
             I compare HELOC margins, features, and program terms across 200+ wholesale lenders to find competitive pricing for your specific credit profile, equity position, and property. Every California homeowner&apos;s situation is different&mdash;let me show you what is available in today&apos;s market.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

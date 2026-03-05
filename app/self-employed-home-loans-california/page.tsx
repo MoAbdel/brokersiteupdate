@@ -113,9 +113,9 @@ export default function SelfEmployedHomeLoans() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
-                <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 822-9662" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
-                  Call (949) 822-9662
+              <a href="tel:+19495792057">
+                <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 579-2057" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                  Call (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -379,9 +379,9 @@ export default function SelfEmployedHomeLoans() {
                 Start My Application
               </Button>
             </Link>
-            <a href="tel:+19498229662">
-              <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 822-9662" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
-                Call (949) 822-9662
+            <a href="tel:+19495792057">
+              <Button size="lg" variant="ghost" aria-label="Call Mo Abdel at (949) 579-2057" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold w-full sm:w-auto">
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

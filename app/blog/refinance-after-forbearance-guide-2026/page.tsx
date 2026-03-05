@@ -269,7 +269,7 @@ export default function RefinanceAfterForbearanceGuidePage() {
             Get a free refinance comparison from 200+ lenders&mdash;including those with the most favorable forbearance overlays.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -517,7 +517,7 @@ export default function RefinanceAfterForbearanceGuidePage() {
             I will compare streamline refinance options from 200+ lenders to find the strongest terms for your post-forbearance situation. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -779,7 +779,7 @@ export default function RefinanceAfterForbearanceGuidePage() {
             Tell me your forbearance details&mdash;when it ended, how it was resolved, and your current payment history&mdash;and I will identify the strongest refinance options from 200+ lenders for your specific situation. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

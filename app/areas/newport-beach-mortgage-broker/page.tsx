@@ -29,7 +29,7 @@ const newportBeachSchema = {
     "@type": "Person",
     "name": "Mo Abdel",
     "identifier": "NMLS #1426884",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "jobTitle": "Licensed Mortgage Broker"
   },
   "areaServed": [
@@ -178,10 +178,10 @@ export default function NewportBeachMortgageBrokerPage() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 822-9662">
+              <a href="tel:(949) 579-2057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
               <Link href="/contact-orange-county-mortgage-broker">

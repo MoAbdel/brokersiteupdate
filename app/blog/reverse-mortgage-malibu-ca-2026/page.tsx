@@ -120,7 +120,7 @@ export default function ReverseMortgageMalibuPage() {
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Reverse Mortgage Specialist",
             "description": "Licensed mortgage broker serving Malibu and Los Angeles County with HECM and proprietary reverse mortgage solutions for seniors 62+.",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "City",
               "name": "Malibu",
@@ -613,7 +613,7 @@ export default function ReverseMortgageMalibuPage() {
             Ready to explore how a reverse mortgage can work for your Malibu property? Schedule a confidential consultation.
           </p>
           <p className="text-green-900 font-semibold mb-0">
-            Phone: <a href="tel:9498229662" className="text-blue-700">(949) 822-9662</a>
+            Phone: <a href="tel:9495792057" className="text-blue-700">(949) 579-2057</a>
           </p>
         </div>
 

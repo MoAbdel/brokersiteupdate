@@ -1148,10 +1148,10 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:+19498229662"
+                href="tel:+19495792057"
                 className="inline-flex items-center justify-center bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition"
               >
-                Call (949) 822-9662
+                Call (949) 579-2057
               </a>
               <Link
                 href="/contact"
@@ -1222,7 +1222,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
               Licensed Mortgage Broker &mdash; California &amp; Washington State
             </p>
             <p>
-              Phone: <a href="tel:+19498229662" className="text-blue-600 underline">(949) 822-9662</a> | Website:{' '}
+              Phone: <a href="tel:+19495792057" className="text-blue-600 underline">(949) 579-2057</a> | Website:{' '}
               <a href="https://www.mothebroker.com" className="text-blue-600 underline">
                 mothebroker.com
               </a>

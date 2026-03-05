@@ -124,7 +124,7 @@ State Pillar (1 per track per state)
    → Mo Abdel attribution + NMLS #1426884
    → Regional service statement
    → Speakable schema
-   → Phone CTA: (949) 822-9662
+   → Phone CTA: (949) 579-2057
 ─────────────────────────────────────────────────────
 TOTAL                                     4,500-5,500 words
 ```

@@ -62,10 +62,10 @@ export default function AboutPage() {
                     Download Contact Card
                   </Button>
                 </a>
-                <a href="tel:+19498229662">
+                <a href="tel:+19495792057">
                   <Button variant="ghost" className="border border-white text-white hover:bg-white/10 px-6 py-3">
                     <Phone className="w-4 h-4 mr-2" />
-                    (949) 822-9662
+                    (949) 579-2057
                   </Button>
                 </a>
               </div>

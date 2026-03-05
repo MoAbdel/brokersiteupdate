@@ -744,7 +744,7 @@ export default function ReverseMortgageDefaultPreventionPage() {
             Understanding your HECM obligations before closing is the single most effective way to prevent reverse mortgage default. I will walk you through every obligation, set up payment systems, and ensure your loan is structured with appropriate protections&mdash;including LESA if warranted. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

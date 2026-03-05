@@ -200,7 +200,7 @@ export default function CashOutRefinancePage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Calculate your cash-out refinance amount">
-                  <a href="tel:(949) 822-9662" className="flex items-center">
+                  <a href="tel:(949) 579-2057" className="flex items-center">
                     <Calculator className="w-5 h-5 mr-2" aria-hidden="true" />
                     Calculate My Cash-Out Amount
                   </a>
@@ -608,9 +608,9 @@ export default function CashOutRefinancePage() {
               Discover how much cash you can access with a cash-out refinance in Orange County's current market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 822-9662">
-                <a href="tel:(949) 822-9662">
-                  Call (949) 822-9662
+              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 579-2057">
+                <a href="tel:(949) 579-2057">
+                  Call (949) 579-2057
                 </a>
               </Button>
               <Link href="/contact">

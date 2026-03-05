@@ -298,7 +298,7 @@ export default function CashOutRefinanceGuide() {
             As a wholesale mortgage broker, I access pricing from 200+ lenders to find the best cash-out refinance options for your situation. Whether you&apos;re looking to consolidate debt, fund home improvements, or access emergency funds, I can help you compare options and find competitive terms.
           </p>
           <p className="mt-4">
-            Contact Mo Abdel today: (949) 822-9662 | mabdel@luminlending.com
+            Contact Mo Abdel today: (949) 579-2057 | mabdel@luminlending.com
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg mt-8">

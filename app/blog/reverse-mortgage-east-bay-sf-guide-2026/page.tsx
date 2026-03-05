@@ -181,7 +181,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
     name: 'Mo The Broker - East Bay & San Francisco',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-east-bay-sf-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'San Francisco' },
       { '@type': 'City', name: 'Piedmont' },
@@ -922,7 +922,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               and San Francisco communities covered in this guide.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to explore your options?</strong> Call <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a> for
+              <strong>Ready to explore your options?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary reverse mortgage consultation. I will provide a personalized estimate of your HECM
               proceeds based on your specific property, age, and financial situation -- with no obligation and
               no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.

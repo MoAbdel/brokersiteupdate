@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { decorateAudienceHeaders, getAudienceContext, isLocalHost } from '@/lib/audience';
 
 const LOW_EQUITY_BLOG_PATTERNS: RegExp[] = [
   /^\/blog\/wholesale-mortgage-broker-\d{5}(?:-[a-z0-9-]+)?$/i,
@@ -10,19 +11,6 @@ const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
   /^\/areas\/[a-z0-9-]+-mortgage-rates$/i,
   /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
 ];
-
-const US_COUNTRY_CODE = 'US';
-
-function isLocalHost(host: string): boolean {
-  return host.includes('localhost') || host.startsWith('127.0.0.1');
-}
-
-function isAllowedCountry(request: NextRequest): boolean {
-  const country =
-    request.headers.get('x-vercel-ip-country') ?? request.headers.get('cf-ipcountry') ?? '';
-
-  return country.toUpperCase() === US_COUNTRY_CODE;
-}
 
 function shouldNoindexRequest(pathname: string, search: string): boolean {
   if (pathname === '/guides' && search.length > 0) {
@@ -44,15 +32,6 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get('host') || '';
   const localHost = isLocalHost(host);
-
-  if (!localHost && !isAllowedCountry(request)) {
-    return new NextResponse('Access denied: US traffic only.', {
-      status: 403,
-      headers: {
-        'Cache-Control': 'no-store',
-      },
-    });
-  }
 
   if (!localHost && host === 'mothebroker.com') {
     const redirectUrl = new URL(`https://www.mothebroker.com${pathname}${search}`);
@@ -148,7 +127,18 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl, 301);
   }
 
-  const response = NextResponse.next();
+  const requestHeaders = decorateAudienceHeaders(request.headers);
+  const audience = getAudienceContext(requestHeaders);
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
+
+  response.headers.set('x-audience-country', audience.countryCode ?? '');
+  response.headers.set('x-audience-us-eligible', audience.isUsEligible ? '1' : '0');
+  response.headers.set('Vary', 'x-vercel-ip-country, cf-ipcountry');
+
   if (shouldNoindexRequest(pathname, search)) {
     response.headers.set('X-Robots-Tag', 'noindex, follow');
   }

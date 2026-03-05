@@ -136,7 +136,7 @@ export default function HomeEquityAffluentMarin2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Sausalito',
       description: 'Wholesale mortgage broker serving Sausalito homeowners with HELOC, home equity loans, and cash-out refinance. Houseboat and hillside property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Sausalito', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -146,7 +146,7 @@ export default function HomeEquityAffluentMarin2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Corte Madera',
       description: 'Wholesale mortgage broker serving Corte Madera homeowners with HELOC, home equity loans, and cash-out refinance. Family renovation and school zone equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Corte Madera', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -156,7 +156,7 @@ export default function HomeEquityAffluentMarin2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Larkspur',
       description: 'Wholesale mortgage broker serving Larkspur homeowners with HELOC, home equity loans, and cash-out refinance. Historic home renovation and SMART train corridor specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Larkspur', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -166,7 +166,7 @@ export default function HomeEquityAffluentMarin2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker San Anselmo',
       description: 'Wholesale mortgage broker serving San Anselmo homeowners with HELOC, home equity loans, and cash-out refinance. Self-employed and creative professional qualification specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'San Anselmo', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -176,7 +176,7 @@ export default function HomeEquityAffluentMarin2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Novato',
       description: 'Wholesale mortgage broker serving Novato homeowners with HELOC, home equity loans, and cash-out refinance. VA equity transition and first-time equity access specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Novato', containedInPlace: { '@type': 'State', name: 'California' } },
       priceRange: '$$',
@@ -809,7 +809,7 @@ export default function HomeEquityAffluentMarin2026() {
             <p>
               I compare HELOC, cash-out refinance, and home equity loan options from 200+ lenders for Marin County homeowners. Whether you own a Sausalito houseboat, a Larkspur Craftsman, or a Novato family home, I identify the product with the best rate and terms for your specific property and income situation.
             </p>
-            <p className="text-lg font-semibold">Call Mo Abdel: (949) 822-9662</p>
+            <p className="text-lg font-semibold">Call Mo Abdel: (949) 579-2057</p>
             <p className="mb-0">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443<br />Licensed in California &amp; Washington</p>
           </div>
 

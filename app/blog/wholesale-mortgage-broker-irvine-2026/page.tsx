@@ -144,7 +144,7 @@ export default function WholesaleMortgageBrokerIrvinePage() {
             Irvine Wholesale Mortgage Specialist<br />
             <span className="inline-flex items-center gap-2">
               <Phone className="w-4 h-4 text-slate-700" aria-hidden="true" />
-              <span>(949) 822-9662</span>
+              <span>(949) 579-2057</span>
             </span>
           </p>
           <p className="text-xs text-gray-600 mt-2 mb-0">Equal Housing Lender. All loans subject to credit approval.</p>

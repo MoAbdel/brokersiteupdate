@@ -170,7 +170,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
     "name": "Mo Abdel - Lumin Lending",
     "description": "Licensed California mortgage broker specializing in reverse mortgages and HECM loans for Sacramento area seniors including El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis.",
     "url": "https://www.mothebroker.com",
-    "telephone": "(949) 822-9662",
+    "telephone": "(949) 579-2057",
     "priceRange": "$$",
     "areaServed": [
       { "@type": "City", "name": "El Dorado Hills" },
@@ -778,7 +778,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
               The HECM program&apos;s non-recourse protection guarantees that neither you nor your heirs will ever owe more than the home is worth. The line of credit growth feature increases your available equity over time. For Granite Bay estates above the $1,209,750 HECM limit, proprietary jumbo programs extend access based on the full appraised value. In every case, the process begins with education through mandatory HUD counseling, ensuring you make an informed decision aligned with your retirement goals.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to explore reverse mortgage options for your Sacramento area home? Contact Mo Abdel at <a href="tel:9498229662" className="text-blue-600 font-bold">(949) 822-9662</a> for a personalized consultation covering HECM and proprietary programs tailored to your property value, age, and financial goals.
+              Ready to explore reverse mortgage options for your Sacramento area home? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a personalized consultation covering HECM and proprietary programs tailored to your property value, age, and financial goals.
             </p>
           </div>
 
@@ -799,7 +799,7 @@ export default function ReverseMortgageSacramentoAffluent2026() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <p className="font-semibold text-gray-900">Mo Abdel | NMLS #1426884</p>
               <p className="text-gray-600">Lumin Lending | NMLS #2716106 | DRE #02291443</p>
-              <p className="text-gray-600">Phone: <a href="tel:9498229662" className="text-blue-600">(949) 822-9662</a></p>
+              <p className="text-gray-600">Phone: <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></p>
               <p className="text-gray-600">Licensed in California &amp; Washington</p>
               <p className="text-gray-500 text-sm mt-4">
                 Equal Housing Lender. This material is not from HUD or FHA and has not been approved by HUD or a government agency. Reverse mortgage borrowers must maintain the property as their primary residence and stay current on property taxes, insurance, and maintenance. Loan proceeds may affect eligibility for certain government benefits. This is not a commitment to lend. Programs, rates, terms, and conditions are subject to change without notice. Not all applicants will qualify. Consult a HUD-approved reverse mortgage counselor and your financial advisor before proceeding. NMLS Consumer Access: <a href="https://www.nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.nmlsconsumeraccess.org</a>

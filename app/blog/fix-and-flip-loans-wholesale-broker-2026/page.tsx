@@ -162,10 +162,10 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -414,7 +414,7 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 italic mb-6">
-            *Holding costs include estimated loan interest, property taxes, insurance, and utilities during the renovation period. These are illustrative projections only. Actual renovation costs, resale values, holding costs, and market conditions vary significantly by location, property condition, and market timing. No profit is guaranteed. Contact Mo Abdel at (949) 822-9662 for a personalized deal analysis.
+            *Holding costs include estimated loan interest, property taxes, insurance, and utilities during the renovation period. These are illustrative projections only. Actual renovation costs, resale values, holding costs, and market conditions vary significantly by location, property condition, and market timing. No profit is guaranteed. Contact Mo Abdel at (949) 579-2057 for a personalized deal analysis.
           </p>
         </section>
 
@@ -805,10 +805,10 @@ export default function FixAndFlipLoansWholesaleBroker2026() {
                 Get Your Fix-and-Flip Loan Quote
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

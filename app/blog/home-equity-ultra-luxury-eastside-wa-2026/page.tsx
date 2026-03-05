@@ -136,7 +136,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Medina WA',
       description: 'Wholesale mortgage broker serving Medina homeowners with jumbo HELOC, home equity loans, and cash-out refinance. Billionaire Row and LLC-held property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Medina', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$$',
@@ -146,7 +146,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Clyde Hill WA',
       description: 'Wholesale mortgage broker serving Clyde Hill homeowners with jumbo HELOC, home equity loans, and cash-out refinance. Executive family and hilltop estate specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Clyde Hill', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$$',
@@ -156,7 +156,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Hunts Point WA',
       description: 'Wholesale mortgage broker serving Hunts Point homeowners with jumbo HELOC, home equity loans, and cash-out refinance. Gated lakefront and trust-held property specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Hunts Point', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$$',
@@ -166,7 +166,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Yarrow Point WA',
       description: 'Wholesale mortgage broker serving Yarrow Point homeowners with jumbo HELOC, home equity loans, and cash-out refinance. Waterfront peninsula and dock equity specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Yarrow Point', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$$',
@@ -176,7 +176,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
       '@type': 'LocalBusiness',
       name: 'Mo Abdel - Mortgage Broker Beaux Arts Village WA',
       description: 'Wholesale mortgage broker serving Beaux Arts Village homeowners with jumbo HELOC, home equity loans, and cash-out refinance. Artistic community and unique valuation specialist.',
-      telephone: '(949) 822-9662',
+      telephone: '(949) 579-2057',
       url: 'https://www.mothebroker.com',
       areaServed: { '@type': 'City', name: 'Beaux Arts Village', containedInPlace: { '@type': 'State', name: 'Washington' } },
       priceRange: '$$$',
@@ -752,7 +752,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
               As your wholesale mortgage broker, I compare programs from 200+ lenders&mdash;including private bank and portfolio programs reserved for ultra-luxury properties&mdash;to identify the optimal equity solution for your Medina estate, Hunts Point lakefront, Yarrow Point waterfront, Clyde Hill hilltop, or Beaux Arts Village cottage. No retail markup. Direct wholesale pricing. Specialized appraiser assignment. Entity ownership expertise.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a> for a confidential equity analysis on your ultra-luxury Eastside property. I will assess your ownership structure, estimate tappable equity using luxury-tier methodology, and present the 2-3 best lender programs for your situation&mdash;typically within 48 hours.
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> for a confidential equity analysis on your ultra-luxury Eastside property. I will assess your ownership structure, estimate tappable equity using luxury-tier methodology, and present the 2-3 best lender programs for your situation&mdash;typically within 48 hours.
             </p>
           </div>
 
@@ -777,7 +777,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
               This article is for informational purposes only and does not constitute a loan commitment or guarantee of terms. All loan programs are subject to borrower qualification, property eligibility, and lender approval. Interest rates, fees, and terms are subject to change without notice. Consult with a licensed mortgage professional for personalized advice. Mo Abdel is licensed to originate mortgage loans in the states of California and Washington.
             </p>
             <p className="mt-2">
-              &copy; {new Date().getFullYear()} Lumin Lending, Inc. All rights reserved. | <a href="tel:9498229662" className="text-blue-700 underline">(949) 822-9662</a> | <a href="https://www.mothebroker.com" className="text-blue-700 underline">mothebroker.com</a>
+              &copy; {new Date().getFullYear()} Lumin Lending, Inc. All rights reserved. | <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> | <a href="https://www.mothebroker.com" className="text-blue-700 underline">mothebroker.com</a>
             </p>
           </footer>
         </section>

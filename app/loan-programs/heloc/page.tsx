@@ -79,9 +79,9 @@ export default function HELOCPage() {
                 Get HELOC Rates & Pre-Approval
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>
@@ -404,12 +404,12 @@ export default function HELOCPage() {
                 Get My HELOC Rates
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button
                 variant="ghost"
                 className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg"
               >
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

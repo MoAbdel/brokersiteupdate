@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92673Page() {
             "name": "Mo The Broker - San Clemente",
             "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673",
             "url": "https://www.mothebroker.com",
-            "telephone": "(949) 822-9662",
+            "telephone": "(949) 579-2057",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "San Clemente",

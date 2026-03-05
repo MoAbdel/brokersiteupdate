@@ -301,7 +301,7 @@ export default function MaxHelocCalculator({
           Calculations are estimates for educational purposes only. Actual HELOC amounts depend on
           credit score, DTI ratio, property appraisal, and lender guidelines. HELOC rates are
           typically variable and tied to the Prime rate. Conforming loan limit for {countyName} is{' '}
-          {formatCurrency(conformingLoanLimit)} (2026 FHFA). Contact Mo Abdel at (949) 822-9662 for
+          {formatCurrency(conformingLoanLimit)} (2026 FHFA). Contact Mo Abdel at (949) 579-2057 for
           a personalized analysis. NMLS #1426884 | Lumin Lending NMLS #2716106.
         </p>
       </div>

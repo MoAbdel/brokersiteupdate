@@ -1,6 +1,7 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getAudienceContext, NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -15,8 +16,21 @@ function ensureDataDir() {
   }
 }
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
+    const audience = getAudienceContext(request.headers);
+    if (!audience.isUsEligible) {
+      return NextResponse.json(
+        { success: false, error: NON_US_LEAD_CAPTURE_ERROR },
+        {
+          status: 403,
+          headers: {
+            'Cache-Control': 'no-store',
+          },
+        }
+      );
+    }
+
     const body = await request.json();
     const { email, firstName, subscribedAt, source } = body;
 

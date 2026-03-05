@@ -168,7 +168,7 @@ export default function ReverseMortgageLAWestsideBeach() {
     name: 'Mo The Broker - LA Westside & Beach Cities',
     '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Manhattan Beach', containedInPlace: { '@type': 'State', name: 'California' } },
       { '@type': 'City', name: 'Hermosa Beach', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -719,7 +719,7 @@ export default function ReverseMortgageLAWestsideBeach() {
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">Get Your Free Reverse Mortgage Consultation</h3>
             <p className="mb-3">
-              Call <a href="tel:+19498229662" className="text-blue-600 font-bold">(949) 822-9662</a> or visit <a href="https://www.mothebroker.com" className="text-blue-600 hover:text-blue-800">mothebroker.com</a> to schedule your no-obligation reverse mortgage analysis. I serve all LA Westside and Beach Cities including Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, and Westchester.
+              Call <a href="tel:+19495792057" className="text-blue-600 font-bold">(949) 579-2057</a> or visit <a href="https://www.mothebroker.com" className="text-blue-600 hover:text-blue-800">mothebroker.com</a> to schedule your no-obligation reverse mortgage analysis. I serve all LA Westside and Beach Cities including Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, and Westchester.
             </p>
             <p className="text-sm text-gray-600 mb-0">Mo Abdel | NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Licensed in California &amp; Washington</p>
           </div>

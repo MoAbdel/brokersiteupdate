@@ -168,7 +168,7 @@ export default function HomeEquityCoastalNorthSD() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Home equity specialist serving Coastal North San Diego with jumbo HELOC, cash-out, and HELOAN products',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Del Mar', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -766,7 +766,7 @@ export default function HomeEquityCoastalNorthSD() {
               Coastal North San Diego homeowners hold extraordinary equity&mdash;$600,000 to $2.5 million or more&mdash;that can fund renovations, consolidate debt, finance investments, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the optimal product for your situation. Whether you own an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a design-district property in Solana Beach, or a surf-lifestyle home in Encinitas, I deliver competitive equity access terms that single-bank products cannot match.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

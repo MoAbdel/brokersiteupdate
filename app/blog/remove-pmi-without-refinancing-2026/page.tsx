@@ -269,7 +269,7 @@ export default function RemovePmiWithoutRefinancingPage() {
             Get a free analysis of your PMI removal options&mdash;including whether a reappraisal or refinance saves you more.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
           </p>
         </div>
 
@@ -538,7 +538,7 @@ export default function RemovePmiWithoutRefinancingPage() {
             I will run the numbers on both options&mdash;PMI removal through reappraisal and refinancing into a no-PMI loan&mdash;using pricing from 200+ lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
         </div>
 
@@ -891,7 +891,7 @@ export default function RemovePmiWithoutRefinancingPage() {
             Tell me your loan details&mdash;current balance, original purchase price, estimated home value, and monthly PMI amount&mdash;and I will determine whether reappraisal-based PMI removal or refinancing from 200+ lenders saves you more. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
-            Call Mo Abdel: <a href="tel:9498229662" className="text-green-700 hover:underline">(949) 822-9662</a>
+            Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
           <p className="text-green-800">
             NMLS #1426884 | Lumin Lending NMLS #2716106

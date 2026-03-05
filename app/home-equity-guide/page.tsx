@@ -848,8 +848,8 @@ export default function HomeEquityGuidePage() {
                         <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors text-center">
                             Get Your Custom Analysis
                         </a>
-                        <a href="tel:+19498229662" className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors text-center">
-                            Call (949) 822-9662
+                        <a href="tel:+19495792057" className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors text-center">
+                            Call (949) 579-2057
                         </a>
                     </div>
                 </div>

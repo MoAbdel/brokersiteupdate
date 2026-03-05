@@ -4,12 +4,12 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, FileText, Building2, Trend
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO | CA & WA',
-  description: 'Self-employed? Skip tax returns. Bank statement loans qualify you on real deposits — 12 or 24 months. Competitive wholesale rates via 200+ lenders in California & Washington. 620+ FICO accepted. See if you qualify.',
+  title: 'Bank Statement Loan Rates 2026: Self-Employed Mortgage Guide | CA & WA',
+  description: 'Compare 12- vs 24-month bank statement loans, typical 2026 rate spreads, down payment options, and qualification rules for self-employed borrowers in California and Washington.',
   keywords: ['bank statement loans self-employed', 'bank statement mortgage California', 'self-employed home loan 2026', 'no tax return mortgage', 'bank statement loans Orange County', 'bank statement loan rates 2026', 'self-employed mortgage no tax returns California', 'bank statement loan requirements 2026', '12 month vs 24 month bank statement loan', 'bank statement loan California self employed'],
   openGraph: {
-    title: 'Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO',
-    description: 'Competitive wholesale rates via 200+ lenders in California & Washington. 620+ FICO accepted. Qualify using 12-24 months of bank deposits — no tax returns needed. 500+ closed since 2019.',
+    title: 'Bank Statement Loan Rates 2026: Self-Employed Mortgage Guide',
+    description: 'See how bank statement mortgage rates, down payment minimums, and 12- vs 24-month qualification options compare for self-employed borrowers in 2026.',
     url: 'https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -113,7 +113,7 @@ export default function BankStatementLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down, 620 FICO",
+            "headline": "Bank Statement Loan Rates 2026: Self-Employed Mortgage Guide",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -194,7 +194,7 @@ export default function BankStatementLoansGuide2026() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Bank Statement Loans Self-Employed 2026",
+                "name": "Bank Statement Loan Rates 2026",
                 "item": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026"
               }
             ]
@@ -209,7 +209,7 @@ export default function BankStatementLoansGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Bank Statement Loans for Self-Employed 2026: No Tax Returns, 10% Down",
+            "name": "Bank Statement Loan Rates 2026: Self-Employed Mortgage Guide",
             "speakable": {
               "@type": "SpeakableSpecification",
               "cssSelector": [".speakable-intro", ".speakable-answer"]
@@ -244,12 +244,12 @@ export default function BankStatementLoansGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Bank Statement Loans for Self-Employed: No Tax Returns, 10% Down, 200+ Lenders
+              Bank Statement Loan Rates 2026 for Self-Employed Borrowers
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-intro text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
-              Your tax returns show $80K. Your bank deposits show $300K. Traditional lenders see the first number. Bank statement lenders see the second. In our California and Washington closings with self-employed borrowers, the average business owner qualifies for 2.3x more home using bank statements versus tax returns. As of February 2026, wholesale bank statement loan rates have compressed 0.50-0.75% from mid-2025 peaks &mdash; and 620+ FICO scores now qualify with select lenders. Non-QM origination volume reached $26.4 billion in Q3 2025 according to CoreLogic, with bank statement programs representing the fastest-growing segment. The Bureau of Labor Statistics reports that self-employment in California grew 4.1% year-over-year through Q4 2025, adding over 150,000 new self-employed workers. With 3.9 million self-employed Californians and the median Orange County home price surpassing $1.15 million in early 2026, bank statement programs are the primary pathway to homeownership for business owners who write off legitimate expenses.
+              Bank statement loans let self-employed borrowers qualify with 12 or 24 months of deposits instead of tax returns. This 2026 guide explains typical rate spreads versus conventional loans, minimum down payments, credit score ranges, and when bank statement financing makes sense in California and Washington.
             </p>
             <p className="text-sm text-slate-400 mb-8">
               By <strong className="text-slate-300">Mo Abdel, NMLS #1426884</strong> | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443 | 500+ bank statement loans closed since 2019 across California &amp; Washington
@@ -263,10 +263,10 @@ export default function BankStatementLoansGuide2026() {
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:+19498229662">
+              <a href="tel:+19495792057">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
                   <Phone className="w-5 h-5 mr-2" />
-                  (949) 822-9662
+                  (949) 579-2057
                 </Button>
               </a>
             </div>
@@ -1079,7 +1079,7 @@ export default function BankStatementLoansGuide2026() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mb-6">
-            Spreads and terms shown are representative of wholesale channel pricing as of February 21, 2026. Actual terms vary by lender, borrower profile, and property characteristics. Not a commitment to lend. Contact Mo Abdel at (949) 822-9662 for a personalized program comparison.
+            Spreads and terms shown are representative of wholesale channel pricing as of February 21, 2026. Actual terms vary by lender, borrower profile, and property characteristics. Not a commitment to lend. Contact Mo Abdel at (949) 579-2057 for a personalized program comparison.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">What Has Changed Since 2025?</h3>
@@ -1260,10 +1260,10 @@ export default function BankStatementLoansGuide2026() {
                 Check My Eligibility
               </Button>
             </Link>
-            <a href="tel:+19498229662">
+            <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 822-9662
+                Call (949) 579-2057
               </Button>
             </a>
           </div>

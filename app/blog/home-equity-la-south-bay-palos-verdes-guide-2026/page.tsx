@@ -180,7 +180,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
     name: 'Mo The Broker - LA South Bay & Palos Verdes Home Equity',
     '@id': 'https://www.mothebroker.com/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
     url: 'https://www.mothebroker.com',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     areaServed: [
       { '@type': 'City', name: 'Palos Verdes Estates' },
       { '@type': 'City', name: 'Rancho Palos Verdes' },
@@ -886,7 +886,7 @@ export default function HomeEquityLASouthBayPalosVerdesGuide2026() {
               profile, and goals with the optimal lender from a network of dozens of competitors.
             </p>
             <p className="font-semibold">
-              Contact Mo Abdel today at <a href="tel:9498229662" className="text-blue-600 hover:underline">(949) 822-9662</a> for
+              Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> for
               a personalized home equity analysis specific to your LA South Bay or Palos Verdes property. I will compare HELOC,
               HELOAN, and cash-out refinance options across multiple jumbo lenders to identify the product that delivers maximum
               equity access at the best available terms.

@@ -173,7 +173,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
     description: 'Home equity specialist serving Coastal San Diego and Inland Premium communities with jumbo HELOC, cash-out, and HELOAN products',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'La Jolla', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -837,7 +837,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
               Homeowners across La Jolla, Coronado, Carlsbad, and Poway hold $300,000 to $1.5 million or more in tappable equity that can fund renovations, consolidate debt, finance education, launch businesses, acquire investment properties, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the product calibrated to your specific financial situation. Whether you own a Bird Rock home near the biotech corridor, a Crown Manor estate on Coronado, an Aviara luxury property in Carlsbad, or a horse property in Poway&apos;s Green Valley, I deliver competitive equity access terms that single-bank products cannot match.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
-            <p className="text-lg mb-1">(949) 822-9662</p>
+            <p className="text-lg mb-1">(949) 579-2057</p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm">Licensed in California and Washington</p>
           </div>

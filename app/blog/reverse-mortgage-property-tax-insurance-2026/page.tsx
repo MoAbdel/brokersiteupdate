@@ -860,10 +860,10 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:9498229662"
+                href="tel:9495792057"
                 className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
-                Call (949) 822-9662
+                Call (949) 579-2057
               </a>
               <Link
                 href="/contact"

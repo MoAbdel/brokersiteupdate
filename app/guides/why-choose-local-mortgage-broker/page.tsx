@@ -223,7 +223,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
                 <div>
                   <strong className="text-slate-900">Fast Communication</strong>
                   <p className="text-slate-600 text-sm mt-1">
-                    Direct phone line (949) 822-9662 - I answer personally
+                    Direct phone line (949) 579-2057 - I answer personally
                   </p>
                 </div>
               </div>
@@ -340,9 +340,9 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
                   Get Pre-Approved Today
                 </Button>
               </Link>
-              <a href="tel:9498229662">
+              <a href="tel:9495792057">
                 <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                  Call (949) 822-9662
+                  Call (949) 579-2057
                 </Button>
               </a>
             </div>

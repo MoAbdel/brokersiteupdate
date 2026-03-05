@@ -140,7 +140,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Mountain View', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -575,7 +575,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
               The HECM line of credit growth feature represents one of the most powerful and underutilized retirement planning tools available to Tech Corridor seniors. Establishing a line of credit early &mdash; even before funds are needed &mdash; creates a growing financial reserve that compounds annually. For seniors who have adequate current income but want a safety net for future healthcare and long-term care costs, this strategy converts home equity into a self-growing reserve at zero out-of-pocket cost.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I present HECM and jumbo reverse mortgage options side by side with transparent cost analysis, ensuring you choose the product that genuinely serves your retirement goals. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage consultation.
+              As your wholesale mortgage broker, I present HECM and jumbo reverse mortgage options side by side with transparent cost analysis, ensuring you choose the product that genuinely serves your retirement goals. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free reverse mortgage consultation.
             </p>
           </div>
 
@@ -586,7 +586,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Silicon Valley Reverse Mortgage Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Silicon Valley Tech Corridor communities</p>

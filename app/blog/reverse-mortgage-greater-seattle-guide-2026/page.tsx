@@ -141,7 +141,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    telephone: '(949) 822-9662',
+    telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
       { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
@@ -770,7 +770,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
               The Urban Seattle Premium hub (Queen Anne, Magnolia, Capitol Hill, Ballard, West Seattle, Bainbridge Island) offers both HECM and jumbo reverse options for homes ranging from $800,000 to $3,000,000+. The Suburban King County hub (Shoreline, Lake Forest Park, Kenmore, Snoqualmie) provides streamlined single-family home HECM qualification with 30-35 day processing. HECM for Purchase enables urban-to-suburban downsizing without monthly mortgage payments &mdash; a strategy that preserves sale proceeds for retirement while securing a new home.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare reverse mortgage products from 200+ lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9498229662" className="text-blue-700 font-semibold underline">(949) 822-9662</a> for your free reverse mortgage analysis.
+              As your wholesale mortgage broker, I compare reverse mortgage products from 200+ lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free reverse mortgage analysis.
             </p>
           </div>
 
@@ -782,7 +782,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
             <p className="font-semibold text-lg mb-2">Contact Mo Abdel &mdash; Greater Seattle Reverse Mortgage Specialist</p>
-            <p className="mb-1">Phone: <a href="tel:9498229662" className="text-blue-700 font-semibold">(949) 822-9662</a></p>
+            <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Greater Seattle &amp; King County communities</p>
