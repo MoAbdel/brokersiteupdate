@@ -60,6 +60,34 @@ export interface HELOCResult {
   conformingLimit: number;
 }
 
+export interface DSCRQualificationResult extends DSCRResult {
+  ioMonthlyPayment: number;
+  ioDSCR: number;
+  tier: 'green' | 'blue' | 'yellow' | 'red';
+  tierMessage: string;
+  loanAmount: number;
+  isJumbo: boolean;
+}
+
+export interface DSCRDownPaymentComparison {
+  downPct: number;
+  loanAmount: number;
+  monthlyPayment: number;
+  dscr: number;
+  tier: 'green' | 'blue' | 'yellow' | 'red';
+}
+
+export interface DSCRFullReport {
+  amortizing: DSCRQualificationResult;
+  interestOnly: DSCRQualificationResult;
+  downPaymentComparison: DSCRDownPaymentComparison[];
+  rentFor1_0: number;
+  rentFor1_25: number;
+  rateRange: [number, number];
+  equityProjection5yr: number;
+  cashOnCashReturn: number;
+}
+
 export const STATES: GeoState[] = [
   { code: 'ca', name: 'California', slug: 'ca', countyCount: 58 },
   { code: 'wa', name: 'Washington', slug: 'wa', countyCount: 39 },
