@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum HELOC line for any of ${counties.length} ${stateName} counties. Uses 2026 FHFA conforming loan limits, county median home values, and multi-tier CLTV analysis.`,
     path: `/tools/max-heloc-calculator/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 

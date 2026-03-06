@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum cash-out refinance for any of ${counties.length} ${stateName} counties. Uses 2026 FHFA conforming loan limits, county median home values, and multi-tier LTV analysis.`,
     path: `/tools/cash-out-limit-calculator/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 

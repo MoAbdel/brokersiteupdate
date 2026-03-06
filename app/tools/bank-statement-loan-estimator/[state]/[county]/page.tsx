@@ -35,7 +35,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Estimate your bank statement loan qualification in ${county.name}, ${stateName}. Median home: ${formatCurrency(county.medianHomePrice)}. See qualifying income, max purchase price, and required documents for self-employed borrowers.`,
     path: `/tools/bank-statement-loan-estimator/${state}/${countySlug}`,
     type: 'website',
-    noindex: true,
   });
 }
 

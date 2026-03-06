@@ -34,7 +34,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Check if your investment property in ${city.name}, ${county.name}, ${stateName} qualifies for a DSCR loan. Median rent: ${formatCurrency(city.medianRent)}/mo. Median home: ${formatCurrency(city.medianHomePrice)}. Instant qualification analysis.`,
     path: `/tools/dscr-qualification-calculator/${state}/${countySlug}/${citySlug}`,
     type: 'website',
-    noindex: true,
   });
 }
 

@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Compare HELOC, cash-out refinance, and home equity loan options in ${stateName}. Select your county for local market data and equity comparisons across ${counties.length} counties.`,
     path: `/tools/equity-comparison-calculator/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 

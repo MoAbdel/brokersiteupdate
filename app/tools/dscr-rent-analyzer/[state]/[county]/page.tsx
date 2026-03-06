@@ -34,7 +34,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate minimum rent needed for a 1.0 or 1.25 DSCR in ${county.name}, ${stateName}. Median rent: ${formatCurrency(county.medianRent)}/mo. Median home: ${formatCurrency(county.medianHomePrice)}. Instant DSCR ratio analysis for investment properties.`,
     path: `/tools/dscr-rent-analyzer/${state}/${countySlug}`,
     type: 'website',
-    noindex: true,
   });
 }
 

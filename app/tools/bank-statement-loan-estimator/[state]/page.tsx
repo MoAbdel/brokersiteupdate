@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Estimate your bank statement loan qualification in ${stateName}. Select your county for local market data and self-employed mortgage estimates across ${counties.length} counties.`,
     path: `/tools/bank-statement-loan-estimator/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 

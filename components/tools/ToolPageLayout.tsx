@@ -97,7 +97,7 @@ export default function ToolPageLayout({
       {faqs.length > 0 && (
         <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h2>
-          <div className="space-y-4">
+          <div className="tool-faq space-y-4">
             {faqs.map((faq, i) => (
               <Card key={i}>
                 <CardContent className="p-6">
@@ -178,6 +178,7 @@ export function buildToolSchemas({
   faqs: { question: string; answer: string }[];
 }): Record<string, unknown>[] {
   const schemas: Record<string, unknown>[] = [];
+  const fullUrl = `https://www.mothebroker.com${url}`;
 
   // BreadcrumbList
   schemas.push({
@@ -193,13 +194,13 @@ export function buildToolSchemas({
       })),
   });
 
-  // WebApplication
+  // WebApplication with potentialAction (AIO)
   schemas.push({
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: toolName,
     description,
-    url: `https://www.mothebroker.com${url}`,
+    url: fullUrl,
     applicationCategory: 'FinanceApplication',
     operatingSystem: 'Web',
     offers: {
@@ -217,9 +218,29 @@ export function buildToolSchemas({
       '@type': 'AdministrativeArea',
       name: `${countyName}, ${stateName}`,
     },
+    potentialAction: [
+      {
+        '@type': 'UseAction',
+        name: `Use ${toolName}`,
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: fullUrl,
+          actionPlatform: 'https://schema.org/DesktopWebPlatform',
+        },
+      },
+      {
+        '@type': 'ScheduleAction',
+        name: 'Schedule Mortgage Consultation',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://www.mothebroker.com/contact',
+          actionPlatform: 'https://schema.org/DesktopWebPlatform',
+        },
+      },
+    ],
   });
 
-  // FAQPage
+  // FAQPage with Speakable (AEO)
   if (faqs.length > 0) {
     schemas.push({
       '@context': 'https://schema.org',
@@ -232,6 +253,10 @@ export function buildToolSchemas({
           text: f.answer,
         },
       })),
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.tool-faq h3', '.tool-faq p'],
+      },
     });
   }
 

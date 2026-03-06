@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Check if your investment property qualifies for a DSCR loan across any of ${counties.length} ${stateName} counties. Uses 2026 median rents, property tax rates, and current market data for instant qualification analysis.`,
     path: `/tools/dscr-qualification-calculator/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 

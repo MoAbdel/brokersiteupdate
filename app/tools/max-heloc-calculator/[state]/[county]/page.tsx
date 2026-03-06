@@ -34,7 +34,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate your maximum HELOC line in ${county.name}, ${stateName}. 2026 conforming limit: ${formatCurrency(county.conformingLoanLimit)}. Median home value: ${formatCurrency(county.medianHomePrice)}. Instant CLTV analysis at 80%, 85%, 90%.`,
     path: `/tools/max-heloc-calculator/${state}/${countySlug}`,
     type: 'website',
-    noindex: true,
   });
 }
 

@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Calculate minimum rent for a 1.0 or 1.25 DSCR across any of ${counties.length} ${stateName} counties. Uses 2026 median rents, property tax rates, and current market data for investment property analysis.`,
     path: `/tools/dscr-rent-analyzer/${state}`,
     type: 'website',
-    noindex: true,
   });
 }
 
