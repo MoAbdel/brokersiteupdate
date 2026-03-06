@@ -96,7 +96,7 @@ export default function EquityComparisonCalculator({
 
   const options = [
     { key: 'heloc' as const, label: 'HELOC', sublabel: 'Interest-Only', data: result.heloc },
-    { key: 'cashout' as const, label: 'Cash-Out Refi', sublabel: 'New Mortgage', data: result.cashOut },
+    { key: 'cashOut' as const, label: 'Cash-Out Refi', sublabel: 'New Mortgage', data: result.cashOut },
     { key: 'heloan' as const, label: 'HELOAN', sublabel: 'Fixed Payment', data: result.heloan },
   ];
 

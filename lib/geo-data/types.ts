@@ -142,7 +142,7 @@ export interface EquityComparisonResult {
   cashOut: EquityOptionResult;
   heloan: EquityOptionResult;
   recommendation: string;
-  recommendedOption: 'heloc' | 'cashout' | 'heloan';
+  recommendedOption: 'heloc' | 'cashOut' | 'heloan';
 }
 
 export interface EquityComparisonFullReport {

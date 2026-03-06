@@ -17,7 +17,7 @@ export default function EquityComparisonReport({
   const { free } = report;
   const options = [
     { key: 'heloc' as const, label: 'HELOC', data: free.heloc },
-    { key: 'cashout' as const, label: 'Cash-Out Refi', data: free.cashOut },
+    { key: 'cashOut' as const, label: 'Cash-Out Refi', data: free.cashOut },
     { key: 'heloan' as const, label: 'HELOAN', data: free.heloan },
   ];
 

@@ -547,7 +547,7 @@ export function calcEquityComparison(
   };
 
   // Recommendation based on preference
-  let recommendedOption: 'heloc' | 'cashout' | 'heloan';
+  let recommendedOption: 'heloc' | 'cashOut' | 'heloan';
   let recommendation: string;
   if (repaymentPref === 'asap') {
     recommendedOption = 'heloan';
