@@ -33,6 +33,15 @@ const tools = [
     states: ['California (58 counties)', 'Washington (39 counties)'],
   },
   {
+    title: 'Bank Statement Loan Estimator',
+    description:
+      'Estimate your qualifying income and max purchase price as a self-employed borrower using bank deposits instead of tax returns. Get expense factor analysis by business type.',
+    href: '/tools/bank-statement-loan-estimator',
+    badge: 'Self-Employed',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    states: ['California (58 counties)', 'Washington (39 counties)'],
+  },
+  {
     title: 'DSCR Rent Analyzer',
     description:
       'Determine the minimum rent needed for a 1.0 or 1.25 DSCR ratio on investment properties using county-level rental data and current rates.',
