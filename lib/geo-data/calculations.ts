@@ -8,7 +8,15 @@ import type {
   DSCRQualificationResult,
   DSCRDownPaymentComparison,
   DSCRFullReport,
+  BusinessType,
+  CreditScoreTier,
+  DocPeriod,
+  BankStatementResult,
+  BankStatementDownPaymentComparison,
+  BankStatementFullReport,
 } from './types';
+
+import { TOOL_RATES } from '@/lib/tool-rates-config';
 
 /**
  * Calculate maximum cash-out refinance amounts at various LTV tiers.
@@ -290,5 +298,171 @@ export function calcDSCRFullReport(
     rateRange,
     equityProjection5yr,
     cashOnCashReturn,
+  };
+}
+
+// --- Bank Statement Loan Estimator ---
+
+function getBankStatementTier(
+  maxPurchasePrice: number,
+  desiredPrice: number,
+): 'green' | 'yellow' | 'red' {
+  if (maxPurchasePrice >= desiredPrice) return 'green';
+  if (maxPurchasePrice >= desiredPrice * 0.8) return 'yellow';
+  return 'red';
+}
+
+function getBankStatementTierMessage(tier: 'green' | 'yellow' | 'red'): string {
+  switch (tier) {
+    case 'green':
+      return 'Based on your deposits, you likely qualify for bank statement programs';
+    case 'yellow':
+      return 'Borderline — program selection and documentation strategy matter';
+    case 'red':
+      return 'May need higher deposits or larger down payment';
+  }
+}
+
+function getRequiredDocs(businessType: BusinessType): string[] {
+  const common = [
+    '12 or 24 months of personal or business bank statements',
+    'Valid government-issued photo ID',
+    'Two months of asset statements (checking, savings, retirement)',
+    'Business license or proof of self-employment (2+ years)',
+    'CPA letter or signed P&L statement (some programs)',
+  ];
+  const byType: Record<BusinessType, string[]> = {
+    service: [
+      ...common,
+      '1099 forms from clients (if available)',
+      'Contracts or invoices showing ongoing revenue',
+    ],
+    retail: [
+      ...common,
+      'Point-of-sale records or merchant account statements',
+      'Business tax returns (some programs require 1 year)',
+    ],
+    professional: [
+      ...common,
+      'Professional license or certification',
+      'Partnership or LLC operating agreement (if applicable)',
+    ],
+    gig: [
+      ...common,
+      'Platform income statements (Uber, DoorDash, Upwork, etc.)',
+      'Screenshot of active platform profiles showing ratings/history',
+    ],
+  };
+  return byType[businessType];
+}
+
+export function calcBankStatementQualification(
+  avgMonthlyDeposits: number,
+  businessType: BusinessType,
+  desiredPrice: number,
+  downPaymentPct: number,
+  interestRate: number,
+): BankStatementResult {
+  const expenseFactor = TOOL_RATES.bankStatementExpenseFactors[businessType];
+  const qualifyingMonthlyIncome = Math.round(avgMonthlyDeposits * (1 - expenseFactor));
+  const maxDTI = TOOL_RATES.bankStatementMaxDTI;
+  const maxMonthlyPayment = Math.round(qualifyingMonthlyIncome * maxDTI);
+
+  const monthlyRate = interestRate / 100 / 12;
+  const numPayments = 360;
+  const maxLoanAmount = monthlyRate > 0
+    ? Math.round(
+        maxMonthlyPayment /
+          ((monthlyRate * Math.pow(1 + monthlyRate, numPayments)) /
+            (Math.pow(1 + monthlyRate, numPayments) - 1))
+      )
+    : Math.round(maxMonthlyPayment * numPayments);
+
+  const maxPurchasePrice = Math.round(maxLoanAmount / (1 - downPaymentPct / 100));
+  const tier = getBankStatementTier(maxPurchasePrice, desiredPrice);
+
+  return {
+    qualifyingMonthlyIncome,
+    maxLoanAmount,
+    maxPurchasePrice,
+    expenseFactorUsed: expenseFactor,
+    tier,
+    tierMessage: getBankStatementTierMessage(tier),
+  };
+}
+
+export function calcBankStatementFullReport(
+  avgMonthlyDeposits: number,
+  businessType: BusinessType,
+  desiredPrice: number,
+  downPaymentPct: number,
+  interestRate: number,
+  _creditScore: CreditScoreTier,
+  _docPeriod: DocPeriod,
+): BankStatementFullReport {
+  const free = calcBankStatementQualification(
+    avgMonthlyDeposits, businessType, desiredPrice, downPaymentPct, interestRate,
+  );
+
+  const expenseRange = TOOL_RATES.bankStatementExpenseRanges[businessType] as [number, number];
+  const qualLow = Math.round(avgMonthlyDeposits * (1 - expenseRange[1]));
+  const qualHigh = Math.round(avgMonthlyDeposits * (1 - expenseRange[0]));
+  const qualifyingIncomeRange: [number, number] = [qualLow, qualHigh];
+
+  const maxDTI = TOOL_RATES.bankStatementMaxDTI;
+  const monthlyRate = interestRate / 100 / 12;
+  const numPayments = 360;
+  const factor = monthlyRate > 0
+    ? (monthlyRate * Math.pow(1 + monthlyRate, numPayments)) /
+      (Math.pow(1 + monthlyRate, numPayments) - 1)
+    : 1 / numPayments;
+
+  const maxLoanLow = Math.round((qualLow * maxDTI) / factor);
+  const maxLoanHigh = Math.round((qualHigh * maxDTI) / factor);
+  const maxLoanRange: [number, number] = [maxLoanLow, maxLoanHigh];
+
+  const period12 = calcBankStatementQualification(
+    avgMonthlyDeposits, businessType, desiredPrice, downPaymentPct, interestRate,
+  );
+
+  const adjusted24Factor = Math.max(0.30, TOOL_RATES.bankStatementExpenseFactors[businessType] - 0.02);
+  const qual24 = Math.round(avgMonthlyDeposits * (1 - adjusted24Factor));
+  const maxPayment24 = Math.round(qual24 * maxDTI);
+  const maxLoan24 = Math.round(maxPayment24 / factor);
+  const maxPrice24 = Math.round(maxLoan24 / (1 - downPaymentPct / 100));
+  const tier24 = getBankStatementTier(maxPrice24, desiredPrice);
+  const period24: BankStatementResult = {
+    qualifyingMonthlyIncome: qual24,
+    maxLoanAmount: maxLoan24,
+    maxPurchasePrice: maxPrice24,
+    expenseFactorUsed: adjusted24Factor,
+    tier: tier24,
+    tierMessage: getBankStatementTierMessage(tier24),
+  };
+
+  const downPaymentComparison: BankStatementDownPaymentComparison[] = [10, 15, 20].map((dp) => {
+    const loan = free.maxLoanAmount;
+    const price = Math.round(loan / (1 - dp / 100));
+    const pmt = Math.round(loan * factor);
+    return { downPct: dp, maxPurchasePrice: price, maxLoanAmount: loan, monthlyPayment: pmt };
+  });
+
+  const creditTierImpact: { tier: CreditScoreTier; rateAdj: number; note: string }[] = [
+    { tier: '700+', rateAdj: 0, note: 'Best available rates — full program access' },
+    { tier: '660-699', rateAdj: 0.5, note: 'Slight rate premium — most programs available' },
+    { tier: '620-659', rateAdj: 1.25, note: 'Higher rates — select programs only, may need 15%+ down' },
+  ];
+
+  const requiredDocs = getRequiredDocs(businessType);
+
+  return {
+    free,
+    expenseRange,
+    qualifyingIncomeRange,
+    maxLoanRange,
+    comparison12v24: { period12, period24 },
+    downPaymentComparison,
+    creditTierImpact,
+    requiredDocs,
   };
 }

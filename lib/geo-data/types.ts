@@ -88,6 +88,40 @@ export interface DSCRFullReport {
   cashOnCashReturn: number;
 }
 
+export type BusinessType = 'service' | 'retail' | 'professional' | 'gig';
+export type CreditScoreTier = '700+' | '660-699' | '620-659';
+export type DocPeriod = 12 | 24;
+
+export interface BankStatementResult {
+  qualifyingMonthlyIncome: number;
+  maxLoanAmount: number;
+  maxPurchasePrice: number;
+  expenseFactorUsed: number;
+  tier: 'green' | 'yellow' | 'red';
+  tierMessage: string;
+}
+
+export interface BankStatementDownPaymentComparison {
+  downPct: number;
+  maxPurchasePrice: number;
+  maxLoanAmount: number;
+  monthlyPayment: number;
+}
+
+export interface BankStatementFullReport {
+  free: BankStatementResult;
+  expenseRange: [number, number];
+  qualifyingIncomeRange: [number, number];
+  maxLoanRange: [number, number];
+  comparison12v24: {
+    period12: BankStatementResult;
+    period24: BankStatementResult;
+  };
+  downPaymentComparison: BankStatementDownPaymentComparison[];
+  creditTierImpact: { tier: CreditScoreTier; rateAdj: number; note: string }[];
+  requiredDocs: string[];
+}
+
 export const STATES: GeoState[] = [
   { code: 'ca', name: 'California', slug: 'ca', countyCount: 58 },
   { code: 'wa', name: 'Washington', slug: 'wa', countyCount: 39 },
