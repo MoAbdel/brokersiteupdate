@@ -234,7 +234,7 @@ export default function EquityComparisonReport({
               fees, faster closings.
             </p>
             <p className="text-sm text-white font-semibold mt-2">
-              Call (949) 822-9662 or reply to your report email to schedule a free consultation.
+              Call (949) 579-2057 or reply to your report email to schedule a free consultation.
             </p>
           </div>
         </CardContent>

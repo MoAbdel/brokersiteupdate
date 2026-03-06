@@ -339,7 +339,7 @@ export default function EquityComparisonCalculator({
         <p className="text-xs text-slate-400 leading-relaxed">
           Calculations are estimates for educational purposes only. Actual rates, closing costs, and
           terms depend on credit profile, lender guidelines, and current market conditions. HELOC
-          rates are variable and subject to change. Contact Mo Abdel at (949) 822-9662 for a
+          rates are variable and subject to change. Contact Mo Abdel at (949) 579-2057 for a
           personalized equity access review. NMLS #1426884 | Lumin Lending NMLS #2716106.
         </p>
       </div>
