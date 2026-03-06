@@ -225,6 +225,7 @@ export const resourcesDropdown: DropdownItem[] = [
   // County-Level Calculators
   { title: 'County Calculators', url: '#', isHeader: true, icon: MapPin },
   { title: 'All County Tools (CA & WA)', url: '/tools' },
+  { title: 'Find Your Loan Program', url: '/tools/loan-finder' },
   { title: 'DSCR Qualification Calculator', url: '/tools/dscr-qualification-calculator' },
   { title: 'Bank Statement Loan Estimator', url: '/tools/bank-statement-loan-estimator' },
   { title: 'Cash-Out Limit Calculator', url: '/tools/cash-out-limit-calculator' },

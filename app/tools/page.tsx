@@ -15,6 +15,15 @@ export const metadata: Metadata = generateMetadata({
 
 const tools = [
   {
+    title: 'Find Your Loan Program',
+    description:
+      'Not sure which loan fits? Answer 5 quick questions to get matched to the right mortgage program in 60 seconds. Works for purchases, refinances, investment properties, and self-employed borrowers.',
+    href: '/tools/loan-finder',
+    badge: '60-Second Quiz',
+    badgeColor: 'bg-emerald-100 text-emerald-700',
+    states: ['California', 'Washington'],
+  },
+  {
     title: 'Cash-Out Limit Calculator',
     description:
       'Calculate your maximum cash-out refinance amount at 80%, 85%, and 90% LTV using county-specific conforming loan limits and median home values.',
