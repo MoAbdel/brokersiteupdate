@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import PropertyTaxEstimator from '@/components/tools/PropertyTaxEstimator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
 
@@ -122,6 +123,10 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
         avgPropertyTaxRate={county.avgPropertyTaxRate}
         stateName={stateName}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="property-tax" stateCode={state} countySlug={countySlug} />
+      </div>
 
       {/* City-level links */}
       {cities.length > 0 && (

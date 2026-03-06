@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import CashOutCalculator from '@/components/tools/CashOutCalculator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
 
@@ -113,6 +114,10 @@ export default async function CountyCalculatorPage({ params }: Props) {
         avgAppreciation5yr={county.avgAppreciation5yr}
         avgPropertyTaxRate={county.avgPropertyTaxRate}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="cash-out" stateCode={state} countySlug={countySlug} />
+      </div>
 
       {/* City-level links */}
       {cities.length > 0 && (

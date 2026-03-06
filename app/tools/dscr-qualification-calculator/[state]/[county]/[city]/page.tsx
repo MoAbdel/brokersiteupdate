@@ -12,6 +12,7 @@ import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import DscrQualificationCalculator from '@/components/tools/DscrQualificationCalculator';
 import { generateDscrSnapshot } from '@/lib/dscr-snapshot';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 
 interface Props {
   params: Promise<{ state: string; county: string; city: string }>;
@@ -118,6 +119,10 @@ export default async function CityDscrQualificationPage({ params }: Props) {
         cityName={city.name}
         dscrSnapshot={dscrSnapshot}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="dscr" stateCode={state} countySlug={countySlug} />
+      </div>
     </ToolPageLayout>
   );
 }

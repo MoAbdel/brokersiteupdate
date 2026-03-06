@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import MaxHelocCalculator from '@/components/tools/MaxHelocCalculator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
 
@@ -120,6 +121,10 @@ export default async function CountyHelocPage({ params }: Props) {
         conformingLoanLimit={county.conformingLoanLimit}
         avgAppreciation5yr={county.avgAppreciation5yr}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="heloc" stateCode={state} countySlug={countySlug} />
+      </div>
 
       {/* City-level links */}
       {cities.length > 0 && (

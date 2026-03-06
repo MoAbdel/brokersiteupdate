@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import EquityComparisonCalculator from '@/components/tools/EquityComparisonCalculator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 import { generateEquitySnapshot } from '@/lib/equity-snapshot';
 
 interface Props {
@@ -109,6 +110,10 @@ export default async function CityEquityComparisonPage({ params }: Props) {
         avgAppreciation5yr={county.avgAppreciation5yr}
         snapshot={snapshot}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="equity" stateCode={state} countySlug={countySlug} />
+      </div>
     </ToolPageLayout>
   );
 }

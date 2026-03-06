@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import DscrRentAnalyzer from '@/components/tools/DscrRentAnalyzer';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 
 interface Props {
   params: Promise<{ state: string; county: string; city: string }>;
@@ -109,6 +110,10 @@ export default async function CityDscrPage({ params }: Props) {
         medianRent={city.medianRent}
         avgPropertyTaxRate={city.avgPropertyTaxRate}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="dscr" stateCode={state} countySlug={countySlug} />
+      </div>
     </ToolPageLayout>
   );
 }

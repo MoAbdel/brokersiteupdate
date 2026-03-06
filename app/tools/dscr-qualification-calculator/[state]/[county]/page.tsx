@@ -14,6 +14,7 @@ import DscrQualificationCalculator from '@/components/tools/DscrQualificationCal
 import { generateDscrSnapshot } from '@/lib/dscr-snapshot';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 
 interface Props {
   params: Promise<{ state: string; county: string }>;
@@ -128,6 +129,10 @@ export default async function CountyDscrQualificationPage({ params }: Props) {
         avgAppreciation5yr={county.avgAppreciation5yr}
         dscrSnapshot={dscrSnapshot}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="dscr" stateCode={state} countySlug={countySlug} />
+      </div>
 
       {/* City-level links */}
       {cities.length > 0 && (

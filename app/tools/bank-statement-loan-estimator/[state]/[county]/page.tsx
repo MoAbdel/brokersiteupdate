@@ -12,6 +12,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import BankStatementEstimator from '@/components/tools/BankStatementEstimator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 import { generateBankStatementSnapshot } from '@/lib/bank-statement-snapshot';
 import { Card, CardContent } from '@/components/ui/Card';
 
@@ -122,6 +123,10 @@ export default async function CountyBankStatementPage({ params }: Props) {
         conformingLoanLimit={county.conformingLoanLimit}
         snapshot={snapshot}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="bank-statement" stateCode={state} countySlug={countySlug} />
+      </div>
 
       {cities.length > 0 && (
         <section className="mt-12">

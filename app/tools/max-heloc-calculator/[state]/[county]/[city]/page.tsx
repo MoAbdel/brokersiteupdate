@@ -11,6 +11,7 @@ import {
 import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import MaxHelocCalculator from '@/components/tools/MaxHelocCalculator';
+import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
 
 interface Props {
   params: Promise<{ state: string; county: string; city: string }>;
@@ -117,6 +118,10 @@ export default async function CityHelocPage({ params }: Props) {
         conformingLoanLimit={county.conformingLoanLimit}
         avgAppreciation5yr={county.avgAppreciation5yr}
       />
+
+      <div className="mt-8">
+        <LoanProgramRedirect context="heloc" stateCode={state} countySlug={countySlug} />
+      </div>
     </ToolPageLayout>
   );
 }
