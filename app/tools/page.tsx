@@ -24,6 +24,15 @@ const tools = [
     states: ['California (58 counties)', 'Washington (39 counties)'],
   },
   {
+    title: 'DSCR Qualification Calculator',
+    description:
+      'Find out if your investment property qualifies for a DSCR loan. Get your ratio, lender tier, and interest-only comparison — then unlock a full report with rate ranges and 5-year projections.',
+    href: '/tools/dscr-qualification-calculator',
+    badge: 'Lead Magnet',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    states: ['California (58 counties)', 'Washington (39 counties)'],
+  },
+  {
     title: 'DSCR Rent Analyzer',
     description:
       'Determine the minimum rent needed for a 1.0 or 1.25 DSCR ratio on investment properties using county-level rental data and current rates.',
