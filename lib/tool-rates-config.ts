@@ -37,6 +37,12 @@ export const TOOL_RATES = {
     professional: [0.35, 0.45],
     gig: [0.45, 0.55],
   } as Record<string, [number, number]>,
+  /** Estimated cash-out refi closing costs as % of new loan */
+  cashOutClosingCostPct: 0.02,
+  /** HELOC estimated closing costs (flat) */
+  helocClosingCosts: 500,
+  /** HELOAN estimated closing costs (flat) */
+  heloanClosingCosts: 1500,
   /** Last updated date (shown on tool pages) */
   lastUpdated: '2026-03-01',
 } as const;

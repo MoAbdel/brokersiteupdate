@@ -14,6 +14,10 @@ import type {
   BankStatementResult,
   BankStatementDownPaymentComparison,
   BankStatementFullReport,
+  RepaymentPreference,
+  EquityOptionResult,
+  EquityComparisonResult,
+  EquityComparisonFullReport,
 } from './types';
 
 import { TOOL_RATES } from '@/lib/tool-rates-config';
@@ -464,5 +468,164 @@ export function calcBankStatementFullReport(
     downPaymentComparison,
     creditTierImpact,
     requiredDocs,
+  };
+}
+
+// --- Equity Comparison Calculator ---
+
+export function calcEquityComparison(
+  homeValue: number,
+  mortgageBalance: number,
+  currentRate: number,
+  remainingYears: number,
+  accessAmount: number,
+  repaymentPref: RepaymentPreference,
+  helocRate: number,
+  cashOutRate: number,
+  heloanRate: number,
+): EquityComparisonResult {
+  const homeEquity = homeValue - mortgageBalance;
+  const availableEquity90 = Math.max(0, Math.round(homeValue * 0.90 - mortgageBalance));
+  const availableEquity80 = Math.max(0, Math.round(homeValue * 0.80 - mortgageBalance));
+  const amt = Math.min(accessAmount, availableEquity90);
+
+  // HELOC: Interest-only during 10-year draw period
+  const helocIO = Math.round(amt * (helocRate / 100 / 12));
+  const helocTotalInterest10yr = helocIO * 120; // 10-year draw
+  const heloc: EquityOptionResult = {
+    name: 'HELOC',
+    monthlyPayment: helocIO,
+    totalInterest: helocTotalInterest10yr,
+    closingCosts: TOOL_RATES.helocClosingCosts,
+    effectiveRate: helocRate,
+    flexibilityRating: 'High',
+    taxDeductible: 'Interest on home improvement use',
+  };
+
+  // Cash-Out Refi: New 30-year loan replacing existing mortgage
+  const newLoan = mortgageBalance + amt;
+  const coMonthlyRate = cashOutRate / 100 / 12;
+  const coPayments = 360;
+  const cashOutMonthly = coMonthlyRate > 0
+    ? Math.round(
+        newLoan *
+          (coMonthlyRate * Math.pow(1 + coMonthlyRate, coPayments)) /
+          (Math.pow(1 + coMonthlyRate, coPayments) - 1)
+      )
+    : Math.round(newLoan / coPayments);
+  const cashOutTotalInterest = cashOutMonthly * coPayments - newLoan;
+  const cashOutClosing = Math.round(newLoan * TOOL_RATES.cashOutClosingCostPct);
+  const cashOut: EquityOptionResult = {
+    name: 'Cash-Out Refinance',
+    monthlyPayment: cashOutMonthly,
+    totalInterest: cashOutTotalInterest,
+    closingCosts: cashOutClosing,
+    effectiveRate: cashOutRate,
+    flexibilityRating: 'Low',
+    taxDeductible: 'All mortgage interest (up to limits)',
+  };
+
+  // HELOAN: Fixed rate, 15-year term on accessed amount only
+  const hlMonthlyRate = heloanRate / 100 / 12;
+  const hlPayments = 180; // 15-year
+  const heloanMonthly = hlMonthlyRate > 0
+    ? Math.round(
+        amt *
+          (hlMonthlyRate * Math.pow(1 + hlMonthlyRate, hlPayments)) /
+          (Math.pow(1 + hlMonthlyRate, hlPayments) - 1)
+      )
+    : Math.round(amt / hlPayments);
+  const heloanTotalInterest = heloanMonthly * hlPayments - amt;
+  const heloan: EquityOptionResult = {
+    name: 'Home Equity Loan',
+    monthlyPayment: heloanMonthly,
+    totalInterest: heloanTotalInterest,
+    closingCosts: TOOL_RATES.heloanClosingCosts,
+    effectiveRate: heloanRate,
+    flexibilityRating: 'Medium',
+    taxDeductible: 'Interest on home improvement use',
+  };
+
+  // Recommendation based on preference
+  let recommendedOption: 'heloc' | 'cashout' | 'heloan';
+  let recommendation: string;
+  if (repaymentPref === 'asap') {
+    recommendedOption = 'heloan';
+    recommendation = 'A home equity loan gives you a fixed rate and predictable payments to pay down faster.';
+  } else if (repaymentPref === 'low_payment') {
+    recommendedOption = 'heloc';
+    recommendation = 'A HELOC offers the lowest initial payment with interest-only during the draw period.';
+  } else {
+    recommendedOption = 'heloc';
+    recommendation = 'A HELOC provides maximum flexibility — draw funds as needed and only pay interest on what you use.';
+  }
+
+  return {
+    homeEquity,
+    availableEquity90,
+    availableEquity80,
+    heloc,
+    cashOut,
+    heloan,
+    recommendation,
+    recommendedOption,
+  };
+}
+
+export function calcEquityFullReport(
+  homeValue: number,
+  mortgageBalance: number,
+  currentRate: number,
+  remainingYears: number,
+  accessAmount: number,
+  repaymentPref: RepaymentPreference,
+  helocRate: number,
+  cashOutRate: number,
+  heloanRate: number,
+  avgAppreciation5yr: number,
+): EquityComparisonFullReport {
+  const free = calcEquityComparison(
+    homeValue, mortgageBalance, currentRate, remainingYears,
+    accessAmount, repaymentPref, helocRate, cashOutRate, heloanRate,
+  );
+
+  // Current mortgage payment
+  const curMonthlyRate = currentRate / 100 / 12;
+  const curPayments = remainingYears * 12;
+  const currentMortgagePayment = curMonthlyRate > 0 && curPayments > 0
+    ? Math.round(
+        mortgageBalance *
+          (curMonthlyRate * Math.pow(1 + curMonthlyRate, curPayments)) /
+          (Math.pow(1 + curMonthlyRate, curPayments) - 1)
+      )
+    : curPayments > 0 ? Math.round(mortgageBalance / curPayments) : 0;
+
+  const newCashOutPayment = free.cashOut.monthlyPayment;
+  const monthlyDifference = newCashOutPayment - currentMortgagePayment;
+
+  // Break-even for cash-out: closing costs / monthly savings (if refinancing lowers payment)
+  // If payment goes UP, break-even = closing costs / additional monthly cost (negative = never breaks even on payment alone)
+  const breakEvenMonths = monthlyDifference !== 0
+    ? Math.round(free.cashOut.closingCosts / Math.abs(monthlyDifference))
+    : 0;
+
+  // 10-year total cost projections
+  const tenYearCostHeloc = free.heloc.monthlyPayment * 120 + free.heloc.closingCosts;
+  const tenYearCostCashOut = free.cashOut.monthlyPayment * 120 + free.cashOut.closingCosts;
+  const tenYearCostHeloan = free.heloan.monthlyPayment * 120 + free.heloan.closingCosts;
+
+  const futureValue = Math.round(homeValue * (1 + avgAppreciation5yr));
+  const appreciationContext = `Based on ${(avgAppreciation5yr * 100).toFixed(1)}% projected 5-year appreciation, your home could be worth ${formatCurrency(futureValue)} — supporting even more equity access in the future.`;
+
+  return {
+    free,
+    breakEvenMonths,
+    tenYearCostHeloc,
+    tenYearCostCashOut,
+    tenYearCostHeloan,
+    currentMortgagePayment,
+    newCashOutPayment,
+    monthlyDifference,
+    appreciationContext,
   };
 }

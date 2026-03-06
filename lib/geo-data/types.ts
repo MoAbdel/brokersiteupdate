@@ -122,6 +122,41 @@ export interface BankStatementFullReport {
   requiredDocs: string[];
 }
 
+export type RepaymentPreference = 'asap' | 'low_payment' | 'flexibility';
+
+export interface EquityOptionResult {
+  name: string;
+  monthlyPayment: number;
+  totalInterest: number;
+  closingCosts: number;
+  effectiveRate: number;
+  flexibilityRating: 'High' | 'Medium' | 'Low';
+  taxDeductible: string;
+}
+
+export interface EquityComparisonResult {
+  homeEquity: number;
+  availableEquity90: number;
+  availableEquity80: number;
+  heloc: EquityOptionResult;
+  cashOut: EquityOptionResult;
+  heloan: EquityOptionResult;
+  recommendation: string;
+  recommendedOption: 'heloc' | 'cashout' | 'heloan';
+}
+
+export interface EquityComparisonFullReport {
+  free: EquityComparisonResult;
+  breakEvenMonths: number;
+  tenYearCostHeloc: number;
+  tenYearCostCashOut: number;
+  tenYearCostHeloan: number;
+  currentMortgagePayment: number;
+  newCashOutPayment: number;
+  monthlyDifference: number;
+  appreciationContext: string;
+}
+
 export const STATES: GeoState[] = [
   { code: 'ca', name: 'California', slug: 'ca', countyCount: 58 },
   { code: 'wa', name: 'Washington', slug: 'wa', countyCount: 39 },
