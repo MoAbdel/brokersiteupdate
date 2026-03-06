@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 22: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 6, 2026) =====
+  {
+    slug: 'divorce-refinance-spouse-buyout-qualifying-2026',
+    title: 'Divorce Refinance: How to Buy Out Your Spouse & Qualify Solo [2026]',
+    excerpt: 'Divorce refinance guide covering spouse buyout mechanics, qualifying on single income, interspousal transfer deed, DTI challenges, and wholesale broker advantage for divorce mortgage transactions.',
+    date: '2026-03-06',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'cash-out-refinance-home-renovation-roi-2026',
+    title: 'Cash-Out Refinance for Home Renovation: ROI by Project Type [2026]',
+    excerpt: 'Cash-out refinance for home renovation guide with ROI analysis by project type. Kitchen, bathroom, ADU, and outdoor living ROI data plus renovation loan comparison and wholesale broker advantage.',
+    date: '2026-03-06',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'rate-and-term-refinance-break-even-calculator-2026',
+    title: 'Rate-and-Term Refinance Break-Even Analysis: When Refinancing Pays Off [2026]',
+    excerpt: 'Rate-and-term refinance break-even analysis guide. Calculate closing cost recovery timelines, compare monthly savings vs total cost, and determine when refinancing makes financial sense.',
+    date: '2026-03-06',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-rental-property-investment-strategy-2026',
+    title: 'HELOC on Rental Property: Investment Strategy & Qualification Requirements [2026]',
+    excerpt: 'HELOC on rental property guide covering investment property HELOC qualification requirements, LTV limits, rate premiums, primary residence HELOC strategy, and wholesale broker access to investment HELOC lenders.',
+    date: '2026-03-06',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-loan-debt-to-income-requirements-2026',
+    title: 'Home Equity Loan DTI Requirements: Maximum Ratios & Qualification Guide [2026]',
+    excerpt: 'Home equity loan DTI requirements guide. Maximum debt-to-income ratios by lender type, how existing mortgage affects DTI, front-end vs back-end ratios, and strategies to improve qualification.',
+    date: '2026-03-06',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'hecm-adjustable-vs-fixed-rate-comparison-2026',
+    title: 'HECM Adjustable vs Fixed Rate: Which Reverse Mortgage Option Is Right for You [2026]',
+    excerpt: 'HECM adjustable vs fixed rate comparison. How fixed-rate lump sum and adjustable-rate line of credit options work, growth rate on unused LOC, rate caps, and choosing the right reverse mortgage structure.',
+    date: '2026-03-06',
+    category: 'Reverse Mortgage',
+    readTime: '13 min read',
+  },
+  {
+    slug: 'reverse-mortgage-home-repair-maintenance-obligations-2026',
+    title: 'Reverse Mortgage Home Repair & Maintenance Obligations: What Borrowers Must Know [2026]',
+    excerpt: 'Reverse mortgage property maintenance requirements. HUD inspection standards, repair set-asides, occupancy certification, insurance and tax obligations, and consequences of non-compliance.',
+    date: '2026-03-06',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-retirement-income-planning-strategy-2026',
+    title: 'Reverse Mortgage as Retirement Income Strategy: Coordinating HECM with Social Security & Investments [2026]',
+    excerpt: 'Using HECM strategically in retirement income planning. Sequence of returns risk mitigation, delaying Social Security, portfolio preservation, and coordinating reverse mortgage with financial planning.',
+    date: '2026-03-06',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loan-down-payment-requirements-2026',
+    title: 'DSCR Loan Down Payment Requirements: Minimum Down by Property Type & DSCR Ratio [2026]',
+    excerpt: 'DSCR loan down payment requirements by property type. Minimum down payment for SFR, multi-family, short-term rental, and mixed-use properties. How DSCR ratio affects required down payment.',
+    date: '2026-03-06',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-commercial-mixed-use-retail-2026',
+    title: 'DSCR Loans for Commercial Mixed-Use Properties: Retail, Office & Residential Financing [2026]',
+    excerpt: 'DSCR financing for mixed-use properties with retail, office, and residential components. Commercial vs residential DSCR qualification, income calculation, zoning considerations, and lender requirements.',
+    date: '2026-03-06',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 21: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 5, 2026) =====
   {
     slug: 'assumable-mortgage-loan-assumption-guide-2026',
