@@ -51,6 +51,15 @@ const tools = [
     states: ['California (58 counties)', 'Washington (39 counties)'],
   },
   {
+    title: 'Equity Comparison Calculator',
+    description:
+      'Compare HELOC, cash-out refinance, and home equity loan options side by side. See monthly payments, total costs, and get a recommendation based on your repayment preference.',
+    href: '/tools/equity-comparison-calculator',
+    badge: 'Homeowners',
+    badgeColor: 'bg-blue-100 text-blue-700',
+    states: ['California (58 counties)', 'Washington (39 counties)'],
+  },
+  {
     title: 'DSCR Rent Analyzer',
     description:
       'Determine the minimum rent needed for a 1.0 or 1.25 DSCR ratio on investment properties using county-level rental data and current rates.',

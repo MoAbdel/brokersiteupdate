@@ -228,6 +228,7 @@ export const resourcesDropdown: DropdownItem[] = [
   { title: 'Find Your Loan Program', url: '/tools/loan-finder' },
   { title: 'DSCR Qualification Calculator', url: '/tools/dscr-qualification-calculator' },
   { title: 'Bank Statement Loan Estimator', url: '/tools/bank-statement-loan-estimator' },
+  { title: 'Equity Comparison Calculator', url: '/tools/equity-comparison-calculator' },
   { title: 'Cash-Out Limit Calculator', url: '/tools/cash-out-limit-calculator' },
   { title: 'DSCR Rent Analyzer', url: '/tools/dscr-rent-analyzer' },
   { title: 'Property Tax Estimator', url: '/tools/property-tax-estimator' },
