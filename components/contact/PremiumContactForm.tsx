@@ -131,13 +131,6 @@ const ORANGE_COUNTY_DATA = {
   homeownersExemption: 7000
 };
 
-const ORANGE_COUNTY_CITIES = [
-  'Irvine', 'Newport Beach', 'Huntington Beach', 'Costa Mesa', 'Mission Viejo',
-  'Anaheim', 'Santa Ana', 'Fullerton', 'Garden Grove', 'Orange',
-  'Fountain Valley', 'Laguna Beach', 'Laguna Niguel', 'Dana Point',
-  'Yorba Linda', 'Seal Beach', 'Westminster', 'Lake Forest'
-];
-
 const LOAN_PROGRAMS = {
   refinance: {
     title: 'Rate & Term Refinance',
@@ -170,7 +163,6 @@ const STANDARD_LOAN_TYPE_OPTIONS = ['Conventional', 'FHA', 'VA', 'Jumbo'];
 const INVESTMENT_LOAN_TYPE_OPTIONS = ['Conventional Investment', 'DSCR', 'Bank Statement', 'Asset-Based'];
 
 interface FormData {
-  city: string;
   loanPurpose: string;
   timeline: string;
   loanAmount: string;
@@ -200,7 +192,6 @@ export default function PremiumContactForm({
 }) {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
-    city: '',
     loanPurpose: '',
     timeline: '',
     loanAmount: '',
@@ -350,7 +341,6 @@ export default function PremiumContactForm({
       formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
       formData_submit.append('email', formData.email);
       formData_submit.append('phone', formData.phone);
-      formData_submit.append('city', formData.city);
       formData_submit.append('loan_purpose', formData.loanPurpose || 'inquiry');
       formData_submit.append('timeline', formData.timeline);
       formData_submit.append('loan_amount', formData.loanAmount || 'N/A');
@@ -452,7 +442,7 @@ export default function PremiumContactForm({
             setShowSuccess(false);
             setCurrentStep(1);
             setTermsConsent(false);
-            setFormData({ ...formData, loanAmount: '', city: '' });
+            setFormData({ ...formData, loanAmount: '' });
           }}
           className="text-blue-600 hover:text-blue-800 transition-colors underline underline-offset-4"
         >
@@ -528,23 +518,6 @@ export default function PremiumContactForm({
                   transition={{ duration: 0.3 }}
                   className="space-y-6"
                 >
-                  <div>
-                    <label className="block text-sm text-slate-500 mb-3">Which city are you looking in? (Optional)</label>
-                    <div className="relative">
-                      <select
-                        value={formData.city}
-                        onChange={(e) => handleInputChange('city', e.target.value)}
-                        className="w-full bg-slate-50 border border-slate-300 text-slate-900 rounded-xl px-4 py-3 appearance-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all outline-none"
-                      >
-                        <option value="">Select a city...</option>
-                        {ORANGE_COUNTY_CITIES.map(city => (
-                          <option key={city} value={city}>{city}</option>
-                        ))}
-                      </select>
-                      <ChevronRight className="absolute right-4 top-3.5 w-5 h-5 text-slate-400 rotate-90" />
-                    </div>
-                  </div>
-
                   <div>
                     <label className="block text-sm text-slate-500 mb-3">What is your primary goal?</label>
                     <div className="grid grid-cols-1 gap-3">

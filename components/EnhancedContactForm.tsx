@@ -20,13 +20,6 @@ const ORANGE_COUNTY_DATA = {
   homeownersExemption: 7000
 };
 
-const ORANGE_COUNTY_CITIES = [
-  'Irvine', 'Newport Beach', 'Huntington Beach', 'Costa Mesa', 'Mission Viejo',
-  'Anaheim', 'Santa Ana', 'Fullerton', 'Garden Grove', 'Orange',
-  'Fountain Valley', 'Laguna Beach', 'Laguna Niguel', 'Dana Point',
-  'Yorba Linda', 'Seal Beach', 'Westminster', 'Lake Forest'
-];
-
 const LOAN_PROGRAMS = {
   refinance: {
     title: 'Rate & Term Refinance',
@@ -60,7 +53,6 @@ const INVESTMENT_LOAN_TYPE_OPTIONS = ['Conventional Investment', 'DSCR', 'Bank S
 
 interface FormData {
   // Step 1: Location & Purpose
-  city: string;
   loanPurpose: string;
   timeline: string;
 
@@ -107,7 +99,6 @@ export default function EnhancedContactForm() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
-    city: '',
     loanPurpose: '',
     timeline: '',
     loanAmount: '',
@@ -243,14 +234,13 @@ export default function EnhancedContactForm() {
       formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
       formData_submit.append('email', formData.email);
       formData_submit.append('phone', formData.phone);
-      formData_submit.append('city', formData.city);
       formData_submit.append('loan_purpose', formData.loanPurpose || 'inquiry');
       formData_submit.append('timeline', formData.timeline);
       formData_submit.append('loan_amount', formData.loanAmount || 'N/A');
       formData_submit.append('home_value', formData.homeValue || 'N/A');
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('loan_type', results?.loanType || 'N/A');
-      formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName} (${formData.city})`);
+      formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName}`);
       appendTermsConsentToFormData(formData_submit);
 
       const response = await fetch('/api/contact', {
@@ -305,7 +295,6 @@ export default function EnhancedContactForm() {
 
   const resetForm = () => {
     setFormData({
-      city: '',
       loanPurpose: '',
       timeline: '',
       loanAmount: '',
@@ -345,10 +334,6 @@ export default function EnhancedContactForm() {
                 <div className="flex justify-between">
                   <span className="text-slate-600">Loan Type:</span>
                   <span className="font-semibold">{calculatorResults.loanType}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-slate-600">City:</span>
-                  <span className="font-semibold">{formData.city || 'N/A'}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-slate-600">Timeline:</span>
@@ -423,23 +408,6 @@ export default function EnhancedContactForm() {
                 <MapPin className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <h3 className="text-xl font-bold text-slate-900">Location & Purpose</h3>
                 <p className="text-slate-600">Tell us about your Orange County mortgage needs</p>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Orange County City (Optional)
-                </label>
-                <select
-                  value={formData.city}
-                  onChange={(e) => handleInputChange('city', e.target.value)}
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="">Select your city</option>
-                  {ORANGE_COUNTY_CITIES.map(city => (
-                    <option key={city} value={city}>{city}</option>
-                  ))}
-                  <option value="other">Other Orange County City</option>
-                </select>
               </div>
 
               <div>
