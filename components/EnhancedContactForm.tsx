@@ -55,6 +55,9 @@ const LOAN_PROGRAMS = {
   }
 };
 
+const STANDARD_LOAN_TYPE_OPTIONS = ['Conventional', 'FHA', 'VA', 'Jumbo'];
+const INVESTMENT_LOAN_TYPE_OPTIONS = ['Conventional Investment', 'DSCR', 'Bank Statement', 'Asset-Based'];
+
 interface FormData {
   // Step 1: Location & Purpose
   city: string;
@@ -185,17 +188,19 @@ export default function EnhancedContactForm() {
   }, [formData.loanAmount, formData.homeValue, formData.loanPurpose, formData.currentLoanAmount, formData.currentRate, formData.cashOutAmount, formData.loanType, currentStep, showSuccess, calculateMortgageDetails]);
 
   const handleInputChange = (field: string, value: string) => {
-    // Redirect to non-QM loan page when investment is selected
-    if (field === 'loanPurpose' && value === 'investment') {
-      window.location.href = '/loan-programs/non-qm-loans';
-      return;
-    }
-
     setFormData(prev => ({
       ...prev,
       [field]: value
     }));
   };
+
+  const loanTypeOptions = formData.loanPurpose === 'investment'
+    ? INVESTMENT_LOAN_TYPE_OPTIONS
+    : STANDARD_LOAN_TYPE_OPTIONS;
+
+  const loanTypeLabel = formData.loanPurpose === 'investment'
+    ? 'Preferred Program *'
+    : 'Loan Type *';
 
   const nextStep = () => {
     if (currentStep < 3) {
@@ -503,7 +508,7 @@ export default function EnhancedContactForm() {
               {!['heloc', 'heloan'].includes(formData.loanPurpose) && (
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    Loan Type *
+                    {loanTypeLabel}
                   </label>
                   <select
                     value={formData.loanType}
@@ -512,10 +517,9 @@ export default function EnhancedContactForm() {
                     required
                   >
                     <option value="">Select loan type</option>
-                    <option value="Conventional">Conventional</option>
-                    <option value="FHA">FHA</option>
-                    <option value="VA">VA</option>
-                    <option value="Jumbo">Jumbo</option>
+                    {loanTypeOptions.map((type) => (
+                      <option key={type} value={type}>{type}</option>
+                    ))}
                   </select>
                 </div>
               )}

@@ -166,6 +166,9 @@ const LOAN_PROGRAMS = {
   }
 };
 
+const STANDARD_LOAN_TYPE_OPTIONS = ['Conventional', 'FHA', 'VA', 'Jumbo'];
+const INVESTMENT_LOAN_TYPE_OPTIONS = ['Conventional Investment', 'DSCR', 'Bank Statement', 'Asset-Based'];
+
 interface FormData {
   city: string;
   loanPurpose: string;
@@ -288,12 +291,16 @@ export default function PremiumContactForm({
   }, [formData.loanAmount, formData.homeValue, formData.loanPurpose, formData.currentLoanAmount, formData.currentRate, formData.cashOutAmount, formData.loanType, currentStep, showSuccess, calculateMortgageDetails]);
 
   const handleInputChange = (field: string, value: string) => {
-    if (field === 'loanPurpose' && value === 'investment') {
-      window.location.href = '/loan-programs/non-qm-loans';
-      return;
-    }
     setFormData(prev => ({ ...prev, [field]: value }));
   };
+
+  const loanTypeOptions = formData.loanPurpose === 'investment'
+    ? INVESTMENT_LOAN_TYPE_OPTIONS
+    : STANDARD_LOAN_TYPE_OPTIONS;
+
+  const loanTypeLabel = formData.loanPurpose === 'investment'
+    ? 'Preferred Program'
+    : 'Preferred Loan Type';
 
   const nextStep = () => {
     if (currentStep < 3) setCurrentStep(currentStep + 1);
@@ -585,9 +592,9 @@ export default function PremiumContactForm({
                 >
                   {!['heloc', 'heloan'].includes(formData.loanPurpose) && (
                     <div className="mb-6">
-                      <label className="block text-sm text-slate-500 mb-3">Preferred Loan Type</label>
+                      <label className="block text-sm text-slate-500 mb-3">{loanTypeLabel}</label>
                       <div className="grid grid-cols-2 gap-3">
-                        {['Conventional', 'FHA', 'VA', 'Jumbo'].map(type => (
+                        {loanTypeOptions.map(type => (
                           <div 
                             key={type}
                             onClick={() => handleInputChange('loanType', type)}
@@ -665,6 +672,17 @@ export default function PremiumContactForm({
                         autoComplete="off"
                         isFocused={focusedField === 'Current Loan Balance'}
                         onFocus={() => setFocusField('Current Loan Balance')}
+                        onBlur={() => setFocusField(null)}
+                      />
+                      <FloatingLabelInput
+                        label="Current Rate (%)"
+                        placeholder="6.5"
+                        value={formData.currentRate}
+                        onChange={(e) => handleInputChange('currentRate', e.target.value.replace(/[^0-9.]/g, ''))}
+                        inputMode="decimal"
+                        autoComplete="off"
+                        isFocused={focusedField === 'Current Rate (%)'}
+                        onFocus={() => setFocusField('Current Rate (%)')}
                         onBlur={() => setFocusField(null)}
                       />
                       <FloatingLabelInput
