@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 23: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 7, 2026) =====
+  {
+    slug: 'refinance-solar-energy-efficiency-mortgage-2026',
+    title: 'Solar Panel Refinance & Energy-Efficient Mortgage Options: Green Home Financing [2026]',
+    excerpt: 'Solar panel refinance options including PACE loan payoff, FHA Energy Efficient Mortgage, and Fannie Mae HomeStyle Energy. Green home financing guide with wholesale broker advantage.',
+    date: '2026-03-07',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-multiple-properties-portfolio-strategy-2026',
+    title: 'Refinancing Multiple Properties: Portfolio Strategy & Sequencing Guide [2026]',
+    excerpt: 'Refinancing multiple properties requires strategic sequencing, DTI management, and reserve planning. Portfolio strategy guide for investors with wholesale broker access to 200+ lenders.',
+    date: '2026-03-07',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-after-natural-disaster-california-2026',
+    title: 'Refinancing After a Natural Disaster in California: Wildfire, Earthquake & Flood Recovery Mortgage Guide [2026]',
+    excerpt: 'Refinance after natural disaster in California: FHA 203(h) disaster loans, insurance claim impact, appraisal challenges, FEMA forbearance, and cash-out rebuilding options.',
+    date: '2026-03-07',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-bridge-financing-home-purchase-2026',
+    title: 'Using a HELOC as a Bridge Loan: How to Buy Your Next Home Before Selling [2026]',
+    excerpt: 'HELOC bridge loan strategy to buy your next home before selling. Interest-only draws, DTI management, contingency-free offers, and bridge loan vs HELOC comparison.',
+    date: '2026-03-07',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'home-equity-loan-vs-construction-loan-renovation-2026',
+    title: 'Home Equity Loan vs Construction Loan for Renovations: Complete Comparison [2026]',
+    excerpt: 'Home equity loan vs construction loan for renovations: Compare HELOAN, construction-to-permanent, FHA 203(k), and HomeStyle loans for your renovation project.',
+    date: '2026-03-07',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-after-bankruptcy-qualification-2026',
+    title: 'Reverse Mortgage After Bankruptcy: HECM Qualification Timeline & Requirements [2026]',
+    excerpt: 'Reverse mortgage after bankruptcy: HECM waiting periods for Chapter 7 and Chapter 13, FHA financial assessment rules, LESA requirements, and qualification steps.',
+    date: '2026-03-07',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-divorce-property-settlement-2026',
+    title: 'Reverse Mortgage in Divorce: HECM Options for Senior Property Settlement [2026]',
+    excerpt: 'Reverse mortgage divorce options for seniors: HECM spouse buyout, property settlement strategies, non-borrowing spouse protections, and HECM for Purchase after divorce.',
+    date: '2026-03-07',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-couples-age-gap-younger-spouse-2026',
+    title: 'Reverse Mortgage for Couples with Age Gap: Protecting the Younger Spouse [2026]',
+    excerpt: 'Reverse mortgage younger spouse protections: non-borrowing spouse rules, principal limit reduction, HECM for Purchase with age gap, and proprietary alternatives.',
+    date: '2026-03-07',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-loan-closing-costs-fee-breakdown-2026',
+    title: 'DSCR Loan Closing Costs & Fee Breakdown: What Investors Pay [2026]',
+    excerpt: 'DSCR loan closing costs breakdown: origination fees, appraisal, title insurance, prepaid items, reserves. Compare DSCR vs conventional investment loan fees.',
+    date: '2026-03-07',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-rent-by-room-co-living-investment-2026',
+    title: 'DSCR Loans for Rent-by-Room & Co-Living Properties: Maximizing Rental Income [2026]',
+    excerpt: 'DSCR rent-by-room strategy: how lenders calculate per-room income, co-living conversions, ADU additions, and room rental DSCR qualification.',
+    date: '2026-03-07',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 22: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 6, 2026) =====
   {
     slug: 'divorce-refinance-spouse-buyout-qualifying-2026',
